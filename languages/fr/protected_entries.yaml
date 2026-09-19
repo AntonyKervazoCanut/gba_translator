@@ -2121,3 +2121,9 @@ entries:
   forbidden:
   - '{B_ATK_NAME_WITH_PREFIX} souffre de\nson engelure !'
   - '{B_ATK_NAME_WITH_PREFIX} souffre\ndu gel !'
+- offset: '0x1EE7EBB'
+  name: Cimistral — vol vers Cratéris
+  issue: '#190'
+  expected: '<0xFC>ÀÁVoler à Cratéris ?'
+  forbidden:
+  - '<0xFC>ÀÁFly to Crater Town?'
