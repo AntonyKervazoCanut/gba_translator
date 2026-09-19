@@ -208,6 +208,10 @@ patches:
 assets:
   - {source: languages/fr/sprites/cube_sort_hint.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/cube_sort_hint.png}
   - {source: languages/fr/sprites/cube_sort_hint.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/cube_sort_hint.png}
+  - source: languages/fr/sprites/tm_case_cs.png
+    classification: lz77_graphic
+    status: excluded
+    reason: "Sigle CS propre au français (#189) ; le sigle allemand VM nécessite une ressource distincte."
   - {source: languages/fr/sprites/pc_box_labels.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pc_box_labels.png}
   - {source: languages/fr/sprites/pokemon_mart_sign.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-2.png}
   - {source: languages/fr/sprites/pokemon_mart_sign.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-2.png}

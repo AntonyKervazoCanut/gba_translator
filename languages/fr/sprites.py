@@ -85,6 +85,15 @@ SPRITES: dict[str, SpriteDef] = {
         tiles_tall=8,
         vram_safe=False,
     ),
+    # #189 : bitmap 16×12 dessiné par PlaceHMTileInWindow ; 4 lignes
+    # transparentes complètent les quatre tuiles brutes (16×16).
+    "tm_case_cs": SpriteDef(
+        blocks=(0x00E99118,),
+        tiles_wide=2,
+        tiles_tall=2,
+        compressed=False,
+        block_pointers=((0x001335DC,),),
+    ),
     # Type badges (issue #156): separate raw 16-tile-wide sheets for the
     # summary screen and the battle move menu. Their useful heights differ,
     # as does the CFRU Fairy badge's tile offset. Keeping each complete useful
