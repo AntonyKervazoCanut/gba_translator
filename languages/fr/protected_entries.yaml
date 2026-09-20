@@ -2127,3 +2127,11 @@ entries:
   expected: '<0xFC>ÀÁVoler à Cratéris ?'
   forbidden:
   - '<0xFC>ÀÁFly to Crater Town?'
+- offset: '0x1A5BC6'
+  name: PC du Prof. Log — connexion
+  issue: '#191'
+  expected: 'Connexion au PC du Prof. Log…\pÉvaluation du Pokédex…'
+- offset: '0x1A6CA3'
+  name: PC du Prof. Log — bilan et en-tête
+  issue: '#191'
+  expected: 'Voici ton bilan Pokédex :\p{STR_VAR_1} Pokémon vus et\n{STR_VAR_2} Pokémon capturés.\p<0xFC><0x06><0x02>Avis du Prof. Log :'
