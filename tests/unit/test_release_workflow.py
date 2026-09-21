@@ -38,6 +38,7 @@ def test_release_runs_when_its_own_workflow_changes() -> None:
     assert set(watched_paths) == {
         "patches/**",
         ".github/workflows/release.yml",
+        "scripts/notify_discord_release.py",
     }
 
 
@@ -324,3 +325,24 @@ def test_local_e2e_commands_materialize_the_patch_before_playwright() -> None:
     )
     assert "--project=boot" in report
     assert "--project=german" not in report
+
+
+def test_discord_notification_runs_after_release_with_a_secret() -> None:
+    # Arrange
+    steps = _build_steps()
+
+    # Act
+    notification = next(step for step in steps if step.get("id") == "notify_discord")
+    publish = next(step for step in steps if step.get("id") == "publish_releases")
+
+    # Assert
+    assert steps.index(notification) > steps.index(publish)
+    assert notification.get("if", "success()") == "success()"
+    assert notification["env"]["DISCORD_RELEASE_WEBHOOK_URL"] == (
+        "${{ secrets.DISCORD_RELEASE_WEBHOOK_URL }}"
+    )
+    assert notification["env"]["VERSION_TAG"] == "${{ steps.bundle.outputs.version_tag }}"
+    assert 'gh release view "${VERSION_TAG}"' in notification["run"]
+    assert "--json name,tagName,body,url" in notification["run"]
+    assert "scripts/notify_discord_release.py" in notification["run"]
+    assert "continue-on-error" not in notification

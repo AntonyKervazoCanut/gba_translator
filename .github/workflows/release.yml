@@ -6,6 +6,7 @@ on:
     paths:
       - "patches/**"
       - ".github/workflows/release.yml"
+      - "scripts/notify_discord_release.py"
   workflow_dispatch:
 
 concurrency:
@@ -147,3 +148,14 @@ jobs:
               --title "Unbound 2.1.${BUILD_NUMBER} — latest" --notes "${NOTES}" \
               --prerelease "${ASSETS[@]}"
           fi
+
+      - name: Publish release notes to Discord
+        id: notify_discord
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION_TAG: ${{ steps.bundle.outputs.version_tag }}
+          DISCORD_RELEASE_WEBHOOK_URL: ${{ secrets.DISCORD_RELEASE_WEBHOOK_URL }}
+        run: |
+          gh release view "${VERSION_TAG}" --json name,tagName,body,url \
+            > "${RUNNER_TEMP}/discord-release.json"
+          python3 scripts/notify_discord_release.py "${RUNNER_TEMP}/discord-release.json"
