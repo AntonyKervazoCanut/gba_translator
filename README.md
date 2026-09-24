@@ -22,7 +22,7 @@ French is the reference translation: it is complete, byte-perfect, and built thr
 
 3. Apply the French patch to the English Pokémon Unbound ROM:
 
-   - Download the [French BPS patch](https://github.com/AntonyKervazoCanut/gba_translator/releases/download/latest/pokemon_unbound_fr.bps).
+   - Download the [French BPS patch](https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/latest) with its version number from the latest release.
    - Open [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) and provide the English Pokémon Unbound ROM together with the downloaded BPS file.
 
 ### Français
@@ -37,7 +37,7 @@ French is the reference translation: it is complete, byte-perfect, and built thr
 
 3. Appliquez le patch français à la ROM Pokémon Unbound en anglais :
 
-   - Téléchargez le [patch BPS français](https://github.com/AntonyKervazoCanut/gba_translator/releases/download/latest/pokemon_unbound_fr.bps).
+   - Téléchargez le [patch BPS français](https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/latest) avec son numéro de version depuis la dernière release.
    - Ouvrez [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) et fournissez la ROM Pokémon Unbound en anglais ainsi que le fichier BPS téléchargé.
 
 ### Italiano
@@ -52,7 +52,7 @@ French is the reference translation: it is complete, byte-perfect, and built thr
 
 3. Applica la patch francese alla ROM inglese di Pokémon Unbound:
 
-   - Scarica la [patch BPS francese](https://github.com/AntonyKervazoCanut/gba_translator/releases/download/latest/pokemon_unbound_fr.bps).
+   - Scarica la [patch BPS francese](https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/latest) con il numero di versione dalla release più recente.
    - Apri [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) e inserisci la ROM inglese di Pokémon Unbound insieme al file BPS scaricato.
 
 ### Deutsch
@@ -67,7 +67,7 @@ French is the reference translation: it is complete, byte-perfect, and built thr
 
 3. Wende den französischen Patch auf die englische Pokémon-Unbound-ROM an:
 
-   - Lade den [französischen BPS-Patch](https://github.com/AntonyKervazoCanut/gba_translator/releases/download/latest/pokemon_unbound_fr.bps) herunter.
+   - Lade den [französischen BPS-Patch](https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/latest) mit Versionsnummer aus dem neuesten Release herunter.
    - Öffne [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) und gib dort die englische Pokémon-Unbound-ROM zusammen mit der heruntergeladenen BPS-Datei an.
 
 ### Español
@@ -82,7 +82,7 @@ French is the reference translation: it is complete, byte-perfect, and built thr
 
 3. Aplica el parche francés a la ROM inglesa de Pokémon Unbound:
 
-   - Descarga el [parche BPS francés](https://github.com/AntonyKervazoCanut/gba_translator/releases/download/latest/pokemon_unbound_fr.bps).
+   - Descarga el [parche BPS francés](https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/latest) con número de versión de la última versión publicada.
    - Abre [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) y proporciona la ROM inglesa de Pokémon Unbound junto con el archivo BPS descargado.
 
 ## Community

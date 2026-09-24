@@ -87,10 +87,14 @@ reste une preuve locale, puisqu'il exige nécessairement la source.
 ### Publication sans ROM
 
 Le workflow de release lit le numéro du manifeste, valide le bundle suivi et
-publie directement ces six fichiers. Il ne contient aucun secret de ROM,
+publie quatre copies BPS nommées `pokemon_unbound_<langue>_v2.1.<build_number>.bps`,
+ainsi que le manifeste et `SHA256SUMS.txt`. Leurs noms canoniques dans `patches/`
+restent ceux listés ci-dessus ; pour vérifier un BPS téléchargé avec
+`SHA256SUMS.txt`, le renommer avec son nom canonique avant la vérification.
+Le workflow ne contient aucun secret de ROM,
 `curl`, appel au builder ou chemin `.gba`. La version immuable est
-`v2.1.<build_number>` ; `latest` est mis à jour sur place avec exactement les
-mêmes assets. Un groupe de concurrence sérialise les publications et le
+`v2.1.<build_number>` ; `latest` est mis à jour sur place avec les mêmes noms
+versionnés. Un groupe de concurrence sérialise les publications et le
 workflow refuse de faire régresser `latest` vers un numéro de build inférieur.
 
 La CI publique conserve les suites Python sans ROM, Vitest et la validation du

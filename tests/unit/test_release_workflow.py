@@ -18,6 +18,9 @@ PATCH_ASSETS = (
     "RELEASE_MANIFEST.json",
     "SHA256SUMS.txt",
 )
+VERSIONED_PATCH_ASSETS = tuple(
+    name.replace(".bps", "_v2.1.43.bps") for name in PATCH_ASSETS if name.endswith(".bps")
+)
 
 
 def _build_steps() -> list[dict]:
@@ -103,6 +106,7 @@ def _run_publish_scenario(
     *,
     latest_assets: tuple[str, ...],
     latest_manifest: str = "",
+    legacy_versioned_release: bool = False,
 ) -> tuple[subprocess.CompletedProcess, str]:
     publish = next(
         step
@@ -128,7 +132,14 @@ def _run_publish_scenario(
             fi
             if [[ "$1 $2 $3" == "release download v2.1.43" ]]; then
               mkdir -p "$5"
-              cp patches/* "$5/"
+              for patch in patches/*.bps; do
+                if [[ "${FAKE_LEGACY_VERSIONED_RELEASE}" == "true" ]]; then
+                  cp "$patch" "$5/"
+                else
+                  cp "$patch" "$5/$(basename "${patch%.bps}")_v2.1.43.bps"
+                fi
+              done
+              cp patches/RELEASE_MANIFEST.json patches/SHA256SUMS.txt "$5/"
               exit 0
             fi
             if [[ "$1 $2 $3" == "release view latest" ]]; then
@@ -147,6 +158,8 @@ def _run_publish_scenario(
               exit 0
             fi
             if [[ "$1 $2 $3" == "release edit latest" ]] ||
+               [[ "$1 $2 $3" == "release upload v2.1.43" ]] ||
+               [[ "$1 $2 $3" == "release delete-asset v2.1.43" ]] ||
                [[ "$1 $2 $3" == "release delete-asset latest" ]] ||
                [[ "$1 $2 $3" == "release upload latest" ]] ||
                [[ "$1" == "api" ]]; then
@@ -178,6 +191,7 @@ def _run_publish_scenario(
         "PATH": f"{fake_bin}{os.pathsep}{os.environ['PATH']}",
         "GH_LOG": str(gh_log),
         "FAKE_LATEST_ASSETS": "\n".join(latest_assets),
+        "FAKE_LEGACY_VERSIONED_RELEASE": str(legacy_versioned_release).lower(),
         "FAKE_LATEST_MANIFEST": latest_manifest,
         "GITHUB_OUTPUT": str(tmp_path / "github-output"),
         "GITHUB_REPOSITORY": "AntonyKervazoCanut/gba_translator",
@@ -217,6 +231,45 @@ def test_release_migrates_a_legacy_latest_without_manifest(tmp_path: Path) -> No
         "repos/AntonyKervazoCanut/gba_translator/git/refs/tags/latest "
         "-f sha=1111111111111111111111111111111111111111 -F force=true"
     ) in calls
+
+
+def test_release_uploads_versioned_patch_names(tmp_path: Path) -> None:
+    """Les deux releases exposent la version dans chaque nom de patch téléchargé."""
+    # Arrange
+    manifest = '{"build_number":43}'
+
+    # Act
+    result, calls = _run_publish_scenario(
+        tmp_path,
+        latest_assets=PATCH_ASSETS,
+        latest_manifest=manifest,
+    )
+
+    # Assert
+    assert result.returncode == 0, result.stderr
+    upload = next(line for line in calls.splitlines() if line.startswith("release upload latest "))
+    for name in VERSIONED_PATCH_ASSETS:
+        assert name in upload
+    for name in PATCH_ASSETS[:4]:
+        assert f"patches/{name}" not in upload
+        assert f"release delete-asset latest {name} --yes" in calls
+
+
+def test_release_renames_existing_versioned_release_assets(tmp_path: Path) -> None:
+    """Une release déjà publiée avec les anciens noms reçoit les noms versionnés."""
+    # Arrange / Act
+    result, calls = _run_publish_scenario(
+        tmp_path,
+        latest_assets=PATCH_ASSETS,
+        latest_manifest='{"build_number":43}',
+        legacy_versioned_release=True,
+    )
+
+    # Assert
+    assert result.returncode == 0, result.stderr
+    assert "release upload v2.1.43" in calls
+    for name in PATCH_ASSETS[:4]:
+        assert f"release delete-asset v2.1.43 {name} --yes" in calls
 
 
 def test_release_rejects_a_non_numeric_latest_manifest(tmp_path: Path) -> None:

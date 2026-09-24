@@ -61,31 +61,57 @@ jobs:
         run: |
           SHA=$(git rev-parse --short HEAD)
           MSG=$(git log -1 --pretty=%s)
-          ASSETS=(
-            "patches/pokemon_unbound_fr.bps"
-            "patches/pokemon_unbound_it.bps"
-            "patches/pokemon_unbound_de.bps"
-            "patches/pokemon_unbound_indie.bps"
+          RELEASE_DIR=$(mktemp -d)
+          trap 'rm -rf "${RELEASE_DIR}"' EXIT
+          ASSETS=()
+          for code in fr it de indie; do
+            patch="${RELEASE_DIR}/pokemon_unbound_${code}_${VERSION_TAG}.bps"
+            cp "patches/pokemon_unbound_${code}.bps" "${patch}"
+            ASSETS+=("${patch}")
+          done
+          ASSETS+=(
             "patches/RELEASE_MANIFEST.json"
             "patches/SHA256SUMS.txt"
           )
-          NOTES=$(printf '**Commit :** %s — %s\n\nBundle BPS suivi et validé sans ROM (build #%s).\n\n- FR: pokemon_unbound_fr.bps\n- IT: pokemon_unbound_it.bps\n- DE: pokemon_unbound_de.bps\n- Indie: pokemon_unbound_indie.bps' \
-            "${SHA}" "${MSG}" "${BUILD_NUMBER}")
+          NOTES=$(printf '**Commit :** %s — %s\n\nBundle BPS suivi et validé sans ROM (build #%s).\n\n- FR: pokemon_unbound_fr_%s.bps\n- IT: pokemon_unbound_it_%s.bps\n- DE: pokemon_unbound_de_%s.bps\n- Indie: pokemon_unbound_indie_%s.bps' \
+            "${SHA}" "${MSG}" "${BUILD_NUMBER}" \
+            "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}")
 
           if gh release view "${VERSION_TAG}" >/dev/null 2>&1; then
             VERIFY_DIR=$(mktemp -d)
-            trap 'rm -rf "${VERIFY_DIR}"' EXIT
             gh release download "${VERSION_TAG}" --dir "${VERIFY_DIR}"
-            for asset in "${ASSETS[@]}"; do
-              cmp -- "${asset}" "${VERIFY_DIR}/$(basename "${asset}")" || {
-                echo "::error::Versioned release ${VERSION_TAG} has different assets."
+            LEGACY_ASSETS=()
+            for code in fr it de indie; do
+              current="${VERIFY_DIR}/pokemon_unbound_${code}_${VERSION_TAG}.bps"
+              legacy="${VERIFY_DIR}/pokemon_unbound_${code}.bps"
+              if [ -f "${current}" ]; then
+                cmp -- "patches/pokemon_unbound_${code}.bps" "${current}" || exit 1
+              fi
+              if [ -f "${legacy}" ]; then
+                cmp -- "patches/pokemon_unbound_${code}.bps" "${legacy}" || exit 1
+                LEGACY_ASSETS+=("$(basename "${legacy}")")
+              fi
+              if [ ! -f "${current}" ] && [ ! -f "${legacy}" ]; then
+                echo "::error::Versioned release ${VERSION_TAG} is missing ${code}."
                 exit 1
-              }
+              fi
             done
-            if [ "$(find "${VERIFY_DIR}" -type f | wc -l | tr -d ' ')" -ne "${#ASSETS[@]}" ]; then
-              echo "::error::Versioned release ${VERSION_TAG} has unexpected assets."
-              exit 1
+            cmp -- patches/RELEASE_MANIFEST.json "${VERIFY_DIR}/RELEASE_MANIFEST.json"
+            cmp -- patches/SHA256SUMS.txt "${VERIFY_DIR}/SHA256SUMS.txt"
+            for downloaded in "${VERIFY_DIR}"/*; do
+              name=$(basename "${downloaded}")
+              case "${name}" in
+                RELEASE_MANIFEST.json|SHA256SUMS.txt|pokemon_unbound_fr.bps|pokemon_unbound_it.bps|pokemon_unbound_de.bps|pokemon_unbound_indie.bps|pokemon_unbound_fr_"${VERSION_TAG}".bps|pokemon_unbound_it_"${VERSION_TAG}".bps|pokemon_unbound_de_"${VERSION_TAG}".bps|pokemon_unbound_indie_"${VERSION_TAG}".bps) ;;
+                *) echo "::error::Versioned release ${VERSION_TAG} has unexpected asset ${name}."; exit 1 ;;
+              esac
+            done
+            if [ "${#LEGACY_ASSETS[@]}" -gt 0 ]; then
+              gh release upload "${VERSION_TAG}" "${ASSETS[@]}" --clobber
+              for legacy_asset in "${LEGACY_ASSETS[@]}"; do
+                gh release delete-asset "${VERSION_TAG}" "${legacy_asset}" --yes
+              done
             fi
+            rm -rf "${VERIFY_DIR}"
             echo "Versioned release ${VERSION_TAG} already verified; resuming latest."
           else
             gh release create "${VERSION_TAG}" --target "${GITHUB_SHA}" \

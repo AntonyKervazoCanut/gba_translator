@@ -11,8 +11,7 @@ README = ROOT / "README.md"
 ROM_NAME = "1636 - Pokemon Fire Red (U)(Squirrels).gba"
 HACKDEX_URL = "https://www.hackdex.app/hack/pokemon-unbound"
 FRENCH_PATCH_URL = (
-    "https://github.com/AntonyKervazoCanut/gba_translator/releases/download/"
-    "latest/pokemon_unbound_fr.bps"
+    "https://github.com/AntonyKervazoCanut/gba_translator/releases/tag/latest"
 )
 ROM_PATCHER_URL = "https://www.marcrobledo.com/RomPatcher.js/"
 
