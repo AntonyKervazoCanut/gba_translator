@@ -1,5 +1,6 @@
 """Gardes de régression du workflow de publication BPS."""
 
+import json
 import os
 import subprocess
 import textwrap
@@ -34,15 +35,35 @@ def test_release_runs_when_its_own_workflow_changes() -> None:
     workflow = yaml.safe_load(WORKFLOW.read_text(encoding="utf-8"))
     triggers = workflow.get("on", workflow.get(True))
 
+    # Assert
+    assert "paths" not in triggers["push"]
+    assert triggers["push"]["branches"] == ["unbound", "master"]
+
+
+def test_new_runs_increment_version_even_with_the_same_bundle(tmp_path: Path) -> None:
+    """Deux publications du même bundle diffèrent ; un rerun reste stable."""
+    # Arrange
+    resolve = next(step for step in _build_steps() if step.get("id") == "bundle")
+    patches = tmp_path / "patches"
+    patches.mkdir()
+    (patches / "RELEASE_MANIFEST.json").write_text(json.dumps({"build_number": 44}))
+    versions = []
+
     # Act
-    watched_paths = triggers["push"]["paths"]
+    for run_number in (1, 2, 2):
+        output = tmp_path / f"output-{len(versions)}"
+        result = subprocess.run(
+            ["bash", "-e", "-o", "pipefail", "-c", resolve["run"]],
+            cwd=tmp_path,
+            env=os.environ | {"GITHUB_RUN_NUMBER": str(run_number), "GITHUB_OUTPUT": str(output)},
+            capture_output=True, text=True, check=False,
+        )
+        assert result.returncode == 0, result.stderr
+        versions.append(dict(line.split("=", 1) for line in output.read_text().splitlines()))
 
     # Assert
-    assert set(watched_paths) == {
-        "patches/**",
-        ".github/workflows/release.yml",
-        "scripts/notify_discord_release.py",
-    }
+    assert [version["version_tag"] for version in versions] == ["v2.1.45", "v2.1.46", "v2.1.46"]
+    assert all(version["build_number"] == "44" for version in versions)
 
 
 def test_release_validates_the_tracked_bundle_without_private_inputs() -> None:
@@ -107,6 +128,8 @@ def _run_publish_scenario(
     latest_assets: tuple[str, ...],
     latest_manifest: str = "",
     legacy_versioned_release: bool = False,
+    latest_release_number: int = 43,
+    version_exists: bool = True,
 ) -> tuple[subprocess.CompletedProcess, str]:
     publish = next(
         step
@@ -128,7 +151,8 @@ def _run_publish_scenario(
             #!/usr/bin/env bash
             printf '%s\\n' "$*" >> "${GH_LOG}"
             if [[ "$1 $2 $3" == "release view v2.1.43" ]]; then
-              exit 0
+              [[ "${FAKE_VERSION_EXISTS}" == "true" ]]
+              exit $?
             fi
             if [[ "$1 $2 $3" == "release download v2.1.43" ]]; then
               mkdir -p "$5"
@@ -143,7 +167,9 @@ def _run_publish_scenario(
               exit 0
             fi
             if [[ "$1 $2 $3" == "release view latest" ]]; then
-              if [[ "$*" == *"--json assets"* ]]; then
+              if [[ "$*" == *"--json name"* ]]; then
+                echo "Unbound 2.1.${FAKE_LATEST_RELEASE_NUMBER} — latest"
+              elif [[ "$*" == *"--json assets"* ]]; then
                 printf '%s\\n' "${FAKE_LATEST_ASSETS}"
               fi
               exit 0
@@ -157,7 +183,8 @@ def _run_publish_scenario(
               printf '%s' "${FAKE_LATEST_MANIFEST}" > "$5/RELEASE_MANIFEST.json"
               exit 0
             fi
-            if [[ "$1 $2 $3" == "release edit latest" ]] ||
+            if [[ "$1 $2 $3" == "release create v2.1.43" ]] ||
+               [[ "$1 $2 $3" == "release edit latest" ]] ||
                [[ "$1 $2 $3" == "release upload v2.1.43" ]] ||
                [[ "$1 $2 $3" == "release delete-asset v2.1.43" ]] ||
                [[ "$1 $2 $3" == "release delete-asset latest" ]] ||
@@ -190,6 +217,7 @@ def _run_publish_scenario(
     env = os.environ | {
         "PATH": f"{fake_bin}{os.pathsep}{os.environ['PATH']}",
         "GH_LOG": str(gh_log),
+        "FAKE_VERSION_EXISTS": str(version_exists).lower(),
         "FAKE_LATEST_ASSETS": "\n".join(latest_assets),
         "FAKE_LEGACY_VERSIONED_RELEASE": str(legacy_versioned_release).lower(),
         "FAKE_LATEST_MANIFEST": latest_manifest,
@@ -199,6 +227,8 @@ def _run_publish_scenario(
         "VERSION_TAG": "v2.1.43",
         "LATEST_TAG": "latest",
         "BUILD_NUMBER": "43",
+        "RELEASE_NUMBER": "43",
+        "FAKE_LATEST_RELEASE_NUMBER": str(latest_release_number),
     }
 
     result = subprocess.run(
@@ -399,3 +429,36 @@ def test_discord_notification_runs_after_release_with_a_secret() -> None:
     assert "--json name,tagName,body,url" in notification["run"]
     assert "scripts/notify_discord_release.py" in notification["run"]
     assert "continue-on-error" not in notification
+
+
+def test_old_run_cannot_replace_newer_publication_of_same_bundle(tmp_path: Path) -> None:
+    """Le numéro de publication protège latest même lorsque le bundle est identique."""
+    # Arrange / Act
+    result, calls = _run_publish_scenario(
+        tmp_path, latest_assets=PATCH_ASSETS,
+        latest_manifest='{"build_number":43}', latest_release_number=45,
+    )
+
+    # Assert
+    assert result.returncode == 0, result.stderr
+    assert "latest reste sur la publication supérieure 45." in result.stdout
+    assert "release edit latest" not in calls
+    assert "release upload latest" not in calls
+    assert "api --method PATCH" not in calls
+
+
+def test_new_publication_creates_a_versioned_release(tmp_path: Path) -> None:
+    """La publication crée sa version même lorsque latest contient déjà ce bundle."""
+    # Arrange / Act
+    result, calls = _run_publish_scenario(
+        tmp_path, latest_assets=PATCH_ASSETS,
+        latest_manifest='{"build_number":43}', latest_release_number=42,
+        version_exists=False,
+    )
+
+    # Assert
+    assert result.returncode == 0, result.stderr
+    assert "release create v2.1.43 --target" in calls
+    assert "--title Unbound 2.1.43 --notes" in calls
+    assert "release edit latest" in calls
+    assert "release upload latest" in calls

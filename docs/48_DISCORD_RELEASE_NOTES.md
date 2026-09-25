@@ -2,7 +2,7 @@
 
 Le workflow `.github/workflows/release.yml` publie les notes dans
 `#antony-releases` après la réussite de la publication GitHub (version immuable
-et alias `latest`). Il lit le titre, les notes et le lien de `v2.1.<build>`
+et alias `latest`). Il lit le titre, les notes et le lien de `v2.1.<release_number>`
 avec `gh release view` ; les notes sont donc celles de la release publiée.
 
 Le secret GitHub Actions du dépôt `DISCORD_RELEASE_WEBHOOK_URL` contient l'URL
@@ -17,8 +17,9 @@ et un délai maximal de 30 secondes, sans afficher l'URL en cas d'erreur.
 
 Un secret absent, un refus HTTP ou une erreur réseau fait échouer l'étape de
 notification ; les releases déjà publiées restent disponibles. Il n'y a pas de
-renvoi automatique : relancer le workflow renvoie une notification, même si cette
-version a déjà été annoncée. Une expiration réseau peut survenir après livraison ;
+renvoi automatique : réexécuter un run existant renvoie la même version, même si
+elle a déjà été annoncée. Démarrer un nouveau run crée une nouvelle version
+(`44 + github.run_number`), même si le bundle BPS reste identique. Une expiration réseau peut survenir après livraison ;
 vérifier le salon avant toute relance manuelle.
 
 Vérification locale, sans publication ni appel à Discord :

@@ -3,10 +3,6 @@ name: Publish tracked BPS patches (FR + IT + DE + Indie)
 on:
   push:
     branches: [unbound, master]
-    paths:
-      - "patches/**"
-      - ".github/workflows/release.yml"
-      - "scripts/notify_discord_release.py"
   workflow_dispatch:
 
 concurrency:
@@ -36,7 +32,7 @@ jobs:
           python3 scripts/verify_patch_bundle.py patches \
             --required fr it de indie
 
-      - name: Resolve bundle version
+      - name: Resolve publication and bundle versions
         id: bundle
         run: |
           BUILD_NUMBER=$(python3 -c \
@@ -49,13 +45,22 @@ jobs:
             exit 1
           }
           echo "build_number=${BUILD_NUMBER}" >> "${GITHUB_OUTPUT}"
-          echo "version_tag=v2.1.${BUILD_NUMBER}" >> "${GITHUB_OUTPUT}"
+          # 44 est la dernière version publiée avec la numérotation du bundle.
+          # Le compteur Actions augmente à chaque exécution et reste stable en rerun.
+          case "${GITHUB_RUN_NUMBER}" in
+            ''|*[!0-9]*) echo "::error::Invalid workflow run number"; exit 1 ;;
+          esac
+          test "${GITHUB_RUN_NUMBER}" -gt 0
+          RELEASE_NUMBER=$((44 + 10#${GITHUB_RUN_NUMBER}))
+          echo "release_number=${RELEASE_NUMBER}" >> "${GITHUB_OUTPUT}"
+          echo "version_tag=v2.1.${RELEASE_NUMBER}" >> "${GITHUB_OUTPUT}"
 
       - name: Publish versioned release and replace latest
         id: publish_releases
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION_TAG: ${{ steps.bundle.outputs.version_tag }}
+          RELEASE_NUMBER: ${{ steps.bundle.outputs.release_number }}
           LATEST_TAG: latest
           BUILD_NUMBER: ${{ steps.bundle.outputs.build_number }}
         run: |
@@ -73,7 +78,7 @@ jobs:
             "patches/RELEASE_MANIFEST.json"
             "patches/SHA256SUMS.txt"
           )
-          NOTES=$(printf '**Commit :** %s — %s\n\nBundle BPS suivi et validé sans ROM (build #%s).\n\n- FR: pokemon_unbound_fr_%s.bps\n- IT: pokemon_unbound_it_%s.bps\n- DE: pokemon_unbound_de_%s.bps\n- Indie: pokemon_unbound_indie_%s.bps' \
+          NOTES=$(printf '**Commit :** %s — %s\n\nBundle BPS suivi et validé sans ROM (build #%s). Le numéro de publication est indépendant du build embarqué ; les changements source ne sont inclus dans les patchs qu’après reconstruction locale.\n\n- FR: pokemon_unbound_fr_%s.bps\n- IT: pokemon_unbound_it_%s.bps\n- DE: pokemon_unbound_de_%s.bps\n- Indie: pokemon_unbound_indie_%s.bps' \
             "${SHA}" "${MSG}" "${BUILD_NUMBER}" \
             "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}")
 
@@ -115,11 +120,22 @@ jobs:
             echo "Versioned release ${VERSION_TAG} already verified; resuming latest."
           else
             gh release create "${VERSION_TAG}" --target "${GITHUB_SHA}" \
-              --title "Unbound 2.1.${BUILD_NUMBER}" --notes "${NOTES}" --latest=false \
+              --title "Unbound 2.1.${RELEASE_NUMBER}" --notes "${NOTES}" --latest=false \
               "${ASSETS[@]}"
           fi
 
           if gh release view "${LATEST_TAG}" >/dev/null 2>&1; then
+            LATEST_TITLE=$(gh release view "${LATEST_TAG}" --json name --jq '.name')
+            if [[ "${LATEST_TITLE}" =~ ^Unbound\ 2\.1\.([0-9]+) ]]; then
+              LATEST_RELEASE_NUMBER="${BASH_REMATCH[1]}"
+              if [ "${LATEST_RELEASE_NUMBER}" -gt "${RELEASE_NUMBER}" ]; then
+                echo "latest reste sur la publication supérieure ${LATEST_RELEASE_NUMBER}."
+                exit 0
+              fi
+            else
+              echo "::error::Cannot determine latest publication number"
+              exit 1
+            fi
             LATEST_ASSETS=()
             LATEST_ASSET_NAMES=$(gh release view "${LATEST_TAG}" \
               --json assets --jq '.assets[].name')
@@ -151,7 +167,7 @@ jobs:
               exit 0
             fi
             gh release edit "${LATEST_TAG}" \
-              --title "Unbound 2.1.${BUILD_NUMBER} — latest" --notes "${NOTES}" \
+              --title "Unbound 2.1.${RELEASE_NUMBER} — latest" --notes "${NOTES}" \
               --prerelease
             for latest_asset in "${LATEST_ASSETS[@]}"; do
               expected=false
@@ -171,7 +187,7 @@ jobs:
               -f sha="${GITHUB_SHA}" -F force=true
           else
             gh release create "${LATEST_TAG}" --target "${GITHUB_SHA}" \
-              --title "Unbound 2.1.${BUILD_NUMBER} — latest" --notes "${NOTES}" \
+              --title "Unbound 2.1.${RELEASE_NUMBER} — latest" --notes "${NOTES}" \
               --prerelease "${ASSETS[@]}"
           fi
 

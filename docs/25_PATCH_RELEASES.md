@@ -86,16 +86,24 @@ reste une preuve locale, puisqu'il exige nécessairement la source.
 
 ### Publication sans ROM
 
-Le workflow de release lit le numéro du manifeste, valide le bundle suivi et
-publie quatre copies BPS nommées `pokemon_unbound_<langue>_v2.1.<build_number>.bps`,
+Le workflow démarre à chaque push sur `unbound` ou `master`, ainsi que sur demande.
+Il attribue le numéro de publication `44 + github.run_number` : 44 réserve les
+versions historiques déjà publiées. Ce décalage est fixe et ne doit pas être
+recalculé depuis le manifeste. Des numéros peuvent être sautés après un échec.
+Une nouvelle exécution reçoit un nouveau numéro ; un rerun conserve le même.
+Le workflow lit séparément le numéro de build du manifeste, valide le bundle suivi et
+publie quatre copies BPS nommées `pokemon_unbound_<langue>_v2.1.<release_number>.bps`,
 ainsi que le manifeste et `SHA256SUMS.txt`. Leurs noms canoniques dans `patches/`
 restent ceux listés ci-dessus ; pour vérifier un BPS téléchargé avec
 `SHA256SUMS.txt`, le renommer avec son nom canonique avant la vérification.
 Le workflow ne contient aucun secret de ROM,
 `curl`, appel au builder ou chemin `.gba`. La version immuable est
-`v2.1.<build_number>` ; `latest` est mis à jour sur place avec les mêmes noms
+`v2.1.<release_number>` ; `latest` est mis à jour sur place avec les mêmes noms
 versionnés. Un groupe de concurrence sérialise les publications et le
-workflow refuse de faire régresser `latest` vers un numéro de build inférieur.
+workflow refuse de faire régresser `latest` vers un numéro de publication ou de build inférieur.
+Les notes distinguent la publication du build embarqué : un nouveau numéro
+ne reconstruit pas les patchs et ne garantit pas l’inclusion des changements
+de traduction tant qu’un nouveau bundle n’a pas été promu localement.
 
 La CI publique conserve les suites Python sans ROM, Vitest et la validation du
 bundle. Les jobs Python ROM et Playwright hébergés disparaissent : reproduire
