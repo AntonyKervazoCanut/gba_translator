@@ -206,6 +206,10 @@ def _run_publish_scenario(
             #!/usr/bin/env bash
             if [[ "$1" == "rev-parse" ]]; then
               echo abc1234
+            elif [[ "$1" == "tag" ]]; then
+              printf '%s\\n' v2.1.43 v2.1.42
+            elif [[ "$1" == "log" && "$*" == *"--format="* ]]; then
+              echo '- correction des textes (abc1234)'
             else
               echo 'fixture commit'
             fi
@@ -462,3 +466,24 @@ def test_new_publication_creates_a_versioned_release(tmp_path: Path) -> None:
     assert "--title Unbound 2.1.43 --notes" in calls
     assert "release edit latest" in calls
     assert "release upload latest" in calls
+
+
+def test_release_notes_include_commit_changelog(tmp_path: Path) -> None:
+    """La version et latest publient les changements depuis le tag précédent."""
+    # Arrange / Act
+    result, calls = _run_publish_scenario(
+        tmp_path, latest_assets=PATCH_ASSETS,
+        latest_manifest='{"build_number":43}', version_exists=False,
+    )
+
+    # Assert
+    assert result.returncode == 0, result.stderr
+    assert "### Changements depuis v2.1.42" in calls
+    assert calls.count("- correction des textes (abc1234)") == 2
+
+
+def test_release_checkout_fetches_tags() -> None:
+    """Le calcul du changelog nécessite les tags des releases passées."""
+    checkout = next(step for step in _build_steps() if step.get("name") == "Checkout")
+
+    assert checkout["with"]["fetch-depth"] == 0

@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Setup Python 3.11
         uses: actions/setup-python@v6
@@ -81,6 +83,20 @@ jobs:
           NOTES=$(printf '**Commit :** %s — %s\n\nBundle BPS suivi et validé sans ROM (build #%s). Le numéro de publication est indépendant du build embarqué ; les changements source ne sont inclus dans les patchs qu’après reconstruction locale.\n\n- FR: pokemon_unbound_fr_%s.bps\n- IT: pokemon_unbound_it_%s.bps\n- DE: pokemon_unbound_de_%s.bps\n- Indie: pokemon_unbound_indie_%s.bps' \
             "${SHA}" "${MSG}" "${BUILD_NUMBER}" \
             "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}")
+          PREVIOUS_TAG=""
+          for tag in $(git tag --merged "${GITHUB_SHA}" --list 'v2.1.*' --sort=-version:refname); do
+            if [ "${tag}" != "${VERSION_TAG}" ]; then
+              PREVIOUS_TAG="${tag}"
+              break
+            fi
+          done
+          if [ -n "${PREVIOUS_TAG}" ]; then
+            CHANGELOG=$(git log --format='- %s (%h)' "${PREVIOUS_TAG}..${GITHUB_SHA}")
+            NOTES+=$(printf '\n\n### Changements depuis %s\n\n%s' "${PREVIOUS_TAG}" "${CHANGELOG}")
+          else
+            CHANGELOG=$(git log -1 --format='- %s (%h)' "${GITHUB_SHA}")
+            NOTES+=$(printf '\n\n### Changements\n\n%s' "${CHANGELOG}")
+          fi
 
           if gh release view "${VERSION_TAG}" >/dev/null 2>&1; then
             VERIFY_DIR=$(mktemp -d)
