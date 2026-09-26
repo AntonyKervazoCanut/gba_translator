@@ -91,19 +91,34 @@ Il attribue le numéro de publication `44 + github.run_number` : 44 réserve les
 versions historiques déjà publiées. Ce décalage est fixe et ne doit pas être
 recalculé depuis le manifeste. Des numéros peuvent être sautés après un échec.
 Une nouvelle exécution reçoit un nouveau numéro ; un rerun conserve le même.
-Le workflow lit séparément le numéro de build du manifeste, valide le bundle suivi et
-publie quatre copies BPS nommées `pokemon_unbound_<langue>_v2.1.<release_number>.bps`,
-ainsi que le manifeste et `SHA256SUMS.txt`. Leurs noms canoniques dans `patches/`
-restent ceux listés ci-dessus ; pour vérifier un BPS téléchargé avec
-`SHA256SUMS.txt`, le renommer avec son nom canonique avant la vérification.
+Le workflow lit séparément le numéro de build du manifeste et valide le bundle suivi.
+`scripts/stamp_release_patches.py` inscrit ensuite le numéro de publication dans
+chaque patch, sans ROM : l'écran NOT FOR SALE affiche `<LANGUE>.2.1.<release_number>`
+et l'octet de version de l'en-tête GBA (`0xBC`) vaut `release_number & 0xFF`.
+Notre encodeur n'émet que `SourceRead`/`TargetRead` : les octets modifiés par le
+build sont littéraux dans le patch. Le tileset LZ77 de l'écran d'intro est
+recompressé en place ; les seuls octets `SourceRead` qu'il touche appartiennent à
+une zone `0xFF` de la ROM source épinglée par SHA-256
+(`PINNED_SOURCE_FREE_RANGES`, vérifiée par `tests/test_release_stamp_rom.py`).
+Le CRC32 de la cible est recalculé par linéarité ; tout octet non déductible
+fait échouer la publication.
+
+Le workflow publie quatre patchs réécrits nommés
+`pokemon_unbound_<langue>_v2.1.<release_number>.bps`, avec un
+`RELEASE_MANIFEST.json` et un `SHA256SUMS.txt` qui les décrivent sous ces noms.
+Le manifeste publié ajoute `release_number` et, par langue, `stamped_from`
+(build, SHA-256 du patch et de la cible canoniques) ; sa cible ne porte que la
+taille et le CRC32, le SHA-256 exigeant la ROM complète. Les fichiers
+canoniques de `patches/` restent inchangés.
 Le workflow ne contient aucun secret de ROM,
 `curl`, appel au builder ou chemin `.gba`. La version immuable est
 `v2.1.<release_number>` ; `latest` est mis à jour sur place avec les mêmes noms
 versionnés. Un groupe de concurrence sérialise les publications et le
 workflow refuse de faire régresser `latest` vers un numéro de publication ou de build inférieur.
-Les notes distinguent la publication du build embarqué : un nouveau numéro
-ne reconstruit pas les patchs et ne garantit pas l’inclusion des changements
-de traduction tant qu’un nouveau bundle n’a pas été promu localement.
+Les notes indiquent le build embarqué : un nouveau numéro de publication change
+la version affichée en jeu, mais ne reconstruit pas les traductions et
+n’inclut pas les changements source tant qu’un nouveau bundle n’a pas été
+promu localement.
 
 La CI publique conserve les suites Python sans ROM, Vitest et la validation du
 bundle. Les jobs Python ROM et Playwright hébergés disparaissent : reproduire

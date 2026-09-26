@@ -86,9 +86,17 @@ class TestCharPixels(unittest.TestCase):
             self.assertIn(ch, _CHAR_PIXELS, f"missing char '{ch}'")
 
     def test_language_prefix_chars_present(self):
-        # The other buildable language prefixes (IT, DE) need their letters too.
-        for ch in "ITDE":
-            self.assertIn(ch, _CHAR_PIXELS, f"missing language prefix char '{ch}'")
+        # Every buildable language prefix (FR, IT, DE, IN…) needs its letters:
+        # a missing glyph renders as a blank on the NOT FOR SALE screen.
+        from src.i18n import load_registry
+
+        for config in load_registry().buildable():
+            prefix = config.version_label.split(".", 1)[0]
+            for ch in prefix:
+                self.assertIn(
+                    ch, _CHAR_PIXELS,
+                    f"missing '{ch}' for {config.code} prefix '{prefix}'",
+                )
 
     def test_glyph_bitmaps_are_unique(self):
         # The blind OCR decoder relies on every non-space glyph being a distinct

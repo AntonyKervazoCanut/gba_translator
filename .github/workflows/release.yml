@@ -57,6 +57,19 @@ jobs:
           echo "release_number=${RELEASE_NUMBER}" >> "${GITHUB_OUTPUT}"
           echo "version_tag=v2.1.${RELEASE_NUMBER}" >> "${GITHUB_OUTPUT}"
 
+      - name: Stamp publication version into patches
+        id: stamp
+        env:
+          VERSION_TAG: ${{ steps.bundle.outputs.version_tag }}
+          RELEASE_NUMBER: ${{ steps.bundle.outputs.release_number }}
+        run: |
+          # Le jeu affiche ce numéro de publication (écran NOT FOR SALE et en-tête GBA).
+          ASSETS_DIR="${RUNNER_TEMP}/release-assets"
+          python3 scripts/stamp_release_patches.py patches \
+            --release-number "${RELEASE_NUMBER}" --version-tag "${VERSION_TAG}" \
+            --output "${ASSETS_DIR}"
+          echo "assets_dir=${ASSETS_DIR}" >> "${GITHUB_OUTPUT}"
+
       - name: Publish versioned release and replace latest
         id: publish_releases
         env:
@@ -65,23 +78,20 @@ jobs:
           RELEASE_NUMBER: ${{ steps.bundle.outputs.release_number }}
           LATEST_TAG: latest
           BUILD_NUMBER: ${{ steps.bundle.outputs.build_number }}
+          RELEASE_ASSETS_DIR: ${{ steps.stamp.outputs.assets_dir }}
         run: |
           SHA=$(git rev-parse --short HEAD)
           MSG=$(git log -1 --pretty=%s)
-          RELEASE_DIR=$(mktemp -d)
-          trap 'rm -rf "${RELEASE_DIR}"' EXIT
           ASSETS=()
           for code in fr it de indie; do
-            patch="${RELEASE_DIR}/pokemon_unbound_${code}_${VERSION_TAG}.bps"
-            cp "patches/pokemon_unbound_${code}.bps" "${patch}"
-            ASSETS+=("${patch}")
+            ASSETS+=("${RELEASE_ASSETS_DIR}/pokemon_unbound_${code}_${VERSION_TAG}.bps")
           done
           ASSETS+=(
-            "patches/RELEASE_MANIFEST.json"
-            "patches/SHA256SUMS.txt"
+            "${RELEASE_ASSETS_DIR}/RELEASE_MANIFEST.json"
+            "${RELEASE_ASSETS_DIR}/SHA256SUMS.txt"
           )
-          NOTES=$(printf '**Commit :** %s — %s\n\nBundle BPS suivi et validé sans ROM (build #%s). Le numéro de publication est indépendant du build embarqué ; les changements source ne sont inclus dans les patchs qu’après reconstruction locale.\n\n- FR: pokemon_unbound_fr_%s.bps\n- IT: pokemon_unbound_it_%s.bps\n- DE: pokemon_unbound_de_%s.bps\n- Indie: pokemon_unbound_indie_%s.bps' \
-            "${SHA}" "${MSG}" "${BUILD_NUMBER}" \
+          NOTES=$(printf '**Commit :** %s — %s\n\nBundle BPS suivi et validé sans ROM (build #%s), affichant en jeu la version %s. Les changements source ne sont inclus dans les patchs qu’après reconstruction locale.\n\n- FR: pokemon_unbound_fr_%s.bps\n- IT: pokemon_unbound_it_%s.bps\n- DE: pokemon_unbound_de_%s.bps\n- Indie: pokemon_unbound_indie_%s.bps' \
+            "${SHA}" "${MSG}" "${BUILD_NUMBER}" "${VERSION_TAG#v}" \
             "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}")
           PREVIOUS_TAG=""
           for tag in $(git tag --merged "${GITHUB_SHA}" --list 'v2.1.*' --sort=-version:refname); do
@@ -106,7 +116,8 @@ jobs:
               current="${VERIFY_DIR}/pokemon_unbound_${code}_${VERSION_TAG}.bps"
               legacy="${VERIFY_DIR}/pokemon_unbound_${code}.bps"
               if [ -f "${current}" ]; then
-                cmp -- "patches/pokemon_unbound_${code}.bps" "${current}" || exit 1
+                cmp -- "${RELEASE_ASSETS_DIR}/pokemon_unbound_${code}_${VERSION_TAG}.bps" \
+                  "${current}" || exit 1
               fi
               if [ -f "${legacy}" ]; then
                 cmp -- "patches/pokemon_unbound_${code}.bps" "${legacy}" || exit 1
@@ -117,8 +128,9 @@ jobs:
                 exit 1
               fi
             done
-            cmp -- patches/RELEASE_MANIFEST.json "${VERIFY_DIR}/RELEASE_MANIFEST.json"
-            cmp -- patches/SHA256SUMS.txt "${VERIFY_DIR}/SHA256SUMS.txt"
+            cmp -- "${RELEASE_ASSETS_DIR}/RELEASE_MANIFEST.json" \
+              "${VERIFY_DIR}/RELEASE_MANIFEST.json"
+            cmp -- "${RELEASE_ASSETS_DIR}/SHA256SUMS.txt" "${VERIFY_DIR}/SHA256SUMS.txt"
             for downloaded in "${VERIFY_DIR}"/*; do
               name=$(basename "${downloaded}")
               case "${name}" in

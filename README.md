@@ -175,13 +175,16 @@ French must stay isolated from the generic driver. The dedicated French build ex
 ## Released patches
 
 GitHub releases and the tracked `patches/` directory contain BPS patches
-only. Download `pokemon_unbound_<language>.bps`, verify the SHA-256 of the
+only. Download `pokemon_unbound_<language>_v2.1.<release>.bps`, verify the SHA-256 of the
 required source ROM in `RELEASE_MANIFEST.json`, then apply the patch with a
 BPS-compatible patcher. Keep the source ROM unchanged and save the generated
 ROM under a new name.
 
-Every build remains available under `v2.1.<build>`. The `latest` release is a
-rolling alias replaced by the newest build. Both releases also include the
+Every publication remains available under `v2.1.<release>`. The `latest`
+release is a rolling alias replaced by the newest publication. The release
+workflow writes that publication number into each patch without any ROM, so
+the NOT FOR SALE intro screen shows `<LANG>.2.1.<release>` (for example
+`FR.2.1.156`) and matches the downloaded version. Both releases also include the
 global `RELEASE_MANIFEST.json` and `SHA256SUMS.txt`; publication starts only
 after the FR, IT, DE and Indie artifacts have all been verified. GitHub
 Actions validates and publishes these tracked files without downloading,
@@ -346,7 +349,8 @@ make test-playwright
 ```
 
 Review and commit `patches/` together with the source changes. CI only
-revalidates and publishes that exact bundle as `v2.1.43` and `latest`.
+revalidates that exact bundle, writes the publication number into the in-game
+version display and publishes it as `v2.1.<release>` and `latest`.
 
 ## Build commands
 
@@ -409,7 +413,7 @@ transactionnelle.
 No ROM is published. Each BPS must be applied to the exact local source listed
 in `RELEASE_MANIFEST.json`; the patch verifies the source CRC before
 producing the translated ROM. The GitHub workflow keeps every
-`v2.1.<build>` release and replaces the rolling `latest` release without
+`v2.1.<release>` release and replaces the rolling `latest` release without
 requiring any ROM secret.
 
 ## Spanish reproduction pipeline

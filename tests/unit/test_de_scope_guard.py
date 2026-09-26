@@ -118,6 +118,20 @@ def test_fr_branch_ignores_a_later_french_de_preposition() -> None:
     assert validate_de_scope(changes, branch, POLICY) == []
 
 
+def test_french_de_preposition_in_a_slug_is_not_a_german_ticket() -> None:
+    changes = [change("languages/fr/patches/version.py")]
+    branch = "worktree/f-626-version-non-mise-a-jour-ecran-de-demarra-62564c"
+
+    assert validate_de_scope(changes, branch, POLICY) == []
+
+
+def test_de_prefixed_slug_still_activates_the_de_guard() -> None:
+    changes = [change("languages/fr/combined_fr.txt")]
+
+    assert validate_de_scope(changes, "worktree/b-700-de-accents", POLICY)
+    assert validate_de_scope(changes, "de/accents", POLICY)
+
+
 def test_german_named_ticket_still_activates_the_de_guard() -> None:
     changes = [change("languages/fr/combined_fr.txt")]
 

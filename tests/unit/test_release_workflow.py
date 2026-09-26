@@ -130,6 +130,7 @@ def _run_publish_scenario(
     legacy_versioned_release: bool = False,
     latest_release_number: int = 43,
     version_exists: bool = True,
+    stamped_content: str = "fixture\n",
 ) -> tuple[subprocess.CompletedProcess, str]:
     publish = next(
         step
@@ -140,6 +141,10 @@ def _run_publish_scenario(
     patches.mkdir()
     for name in PATCH_ASSETS:
         (patches / name).write_text("fixture\n", encoding="utf-8")
+    assets_dir = tmp_path / "release-assets"
+    assets_dir.mkdir()
+    for name in (*VERSIONED_PATCH_ASSETS, *PATCH_ASSETS[4:]):
+        (assets_dir / name).write_text(stamped_content, encoding="utf-8")
 
     fake_bin = tmp_path / "bin"
     fake_bin.mkdir()
@@ -232,6 +237,7 @@ def _run_publish_scenario(
         "LATEST_TAG": "latest",
         "BUILD_NUMBER": "43",
         "RELEASE_NUMBER": "43",
+        "RELEASE_ASSETS_DIR": str(assets_dir),
         "FAKE_LATEST_RELEASE_NUMBER": str(latest_release_number),
     }
 
@@ -287,6 +293,8 @@ def test_release_uploads_versioned_patch_names(tmp_path: Path) -> None:
     for name in PATCH_ASSETS[:4]:
         assert f"patches/{name}" not in upload
         assert f"release delete-asset latest {name} --yes" in calls
+    assert f"{tmp_path}/release-assets/RELEASE_MANIFEST.json" in upload
+    assert "patches/RELEASE_MANIFEST.json" not in upload
 
 
 def test_release_renames_existing_versioned_release_assets(tmp_path: Path) -> None:
@@ -487,3 +495,55 @@ def test_release_checkout_fetches_tags() -> None:
     checkout = next(step for step in _build_steps() if step.get("name") == "Checkout")
 
     assert checkout["with"]["fetch-depth"] == 0
+
+
+def test_publication_stamps_its_number_into_the_patches(tmp_path: Path) -> None:
+    """Le jeu doit afficher la version publiée, pas le build du bundle suivi."""
+    # Arrange
+    steps = _build_steps()
+    stamp = next(step for step in steps if step.get("id") == "stamp")
+    resolve = next(step for step in steps if step.get("id") == "bundle")
+    publish = next(step for step in steps if step.get("id") == "publish_releases")
+    output = tmp_path / "github-output"
+
+    # Act
+    result = subprocess.run(
+        ["bash", "-e", "-o", "pipefail", "-c", stamp["run"]],
+        cwd=ROOT,
+        env=os.environ | {
+            "RUNNER_TEMP": str(tmp_path),
+            "GITHUB_OUTPUT": str(output),
+            "VERSION_TAG": "v2.1.156",
+            "RELEASE_NUMBER": "156",
+        },
+        capture_output=True, text=True, check=False,
+    )
+
+    # Assert
+    assert result.returncode == 0, result.stderr
+    assert steps.index(resolve) < steps.index(stamp) < steps.index(publish)
+    assert stamp["env"]["RELEASE_NUMBER"] == "${{ steps.bundle.outputs.release_number }}"
+    assert publish["env"]["RELEASE_ASSETS_DIR"] == "${{ steps.stamp.outputs.assets_dir }}"
+    assets = Path(output.read_text().strip().split("=", 1)[1])
+    manifest = json.loads((assets / "RELEASE_MANIFEST.json").read_text(encoding="utf-8"))
+    assert {entry["version_label"] for entry in manifest["languages"]} == {
+        "FR.2.1.156", "IT.2.1.156", "DE.2.1.156", "IN.2.1.156",
+    }
+    for name in PATCH_ASSETS[:4]:
+        assert (assets / name.replace(".bps", "_v2.1.156.bps")).is_file()
+    assert "FR.2.1.156" in result.stdout
+    assert 'cp "patches/pokemon_unbound_' not in publish["run"]
+
+
+def test_rerun_rejects_published_patches_that_were_not_stamped(tmp_path: Path) -> None:
+    """Une version existante doit contenir exactement les patchs réécrits."""
+    # Arrange / Act
+    result, calls = _run_publish_scenario(
+        tmp_path, latest_assets=PATCH_ASSETS,
+        latest_manifest='{"build_number":43}', stamped_content="stamped\n",
+    )
+
+    # Assert
+    assert result.returncode != 0
+    assert "release upload" not in calls
+    assert "release edit latest" not in calls

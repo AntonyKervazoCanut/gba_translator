@@ -21,8 +21,12 @@ ALLOWED_CLASSIFICATIONS = {
     "rom_test",
 }
 ALLOWED_STATUSES = {"equivalent", "shared", "excluded"}
+# « de » est aussi une préposition française (« écran de démarrage ») : seul le
+# premier mot du slug, juste après l'identifiant de ticket, désigne l'allemand.
 DE_BRANCH_PATTERN = re.compile(
-    r"(?:^|[/_-])(?:de|german|allemand|deutsch)(?:[/_-]|$)", re.IGNORECASE
+    r"(?:^|[/_-])(?:german|allemand|deutsch)(?:[/_-]|$)"
+    r"|(?:^|/)(?:[a-z]+-\d+-)?de(?:[/_-]|$)",
+    re.IGNORECASE,
 )
 FR_BRANCH_PATTERN = re.compile(
     r"(?:^|[/_-])(?:fr|french|francais)(?:[/_-]|$)", re.IGNORECASE
