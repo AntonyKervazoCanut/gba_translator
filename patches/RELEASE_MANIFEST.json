@@ -1,5 +1,5 @@
 {
-  "build_number": 44,
+  "build_number": 45,
   "format": "BPS1",
   "languages": [
     {
@@ -7,10 +7,10 @@
       "name": "French",
       "native_name": "Français",
       "status": "complete",
-      "version_label": "FR.2.1.44",
+      "version_label": "FR.2.1.45",
       "patch": "pokemon_unbound_fr.bps",
-      "patch_sha256": "1d77f6f0dc9abf6cd4dca8d5a393f8f06c7a8696f9e500369970520fa0ddce65",
-      "patch_size_bytes": 1875039,
+      "patch_sha256": "356947b5fc28c1a8b70ca1ca6252105d6e601c08f9198fd742629ee4c011793a",
+      "patch_size_bytes": 1875256,
       "source": {
         "file": "englishrom.gba",
         "sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
@@ -19,8 +19,8 @@
       },
       "target": {
         "file": "GenedRom-fr.gba",
-        "sha256": "a67fd1cb985bae7a5114048baa611a87c7f03c6e4dcba2e409841c46bd790a36",
-        "crc32": "95202da3",
+        "sha256": "7f1ef23de48f6645f4d0bf91803f651b4d1e2fc5dc216b96a922614a5f66f854",
+        "crc32": "aebcbede",
         "size_bytes": 33554432
       }
     },
@@ -29,10 +29,10 @@
       "name": "German",
       "native_name": "Deutsch",
       "status": "complete",
-      "version_label": "DE.2.1.44",
+      "version_label": "DE.2.1.45",
       "patch": "pokemon_unbound_de.bps",
-      "patch_sha256": "aa04b71f81b81c061840f50c717a7b5b494f361f7bdb09509e3bd2ec06cd88e0",
-      "patch_size_bytes": 1651638,
+      "patch_sha256": "d18985ff52c9b464b4fbf3806b422a1983f4c476172633e4172b41bb1dc13a20",
+      "patch_size_bytes": 1680888,
       "source": {
         "file": "englishrom.gba",
         "sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
@@ -41,8 +41,8 @@
       },
       "target": {
         "file": "GenedRom-de.gba",
-        "sha256": "e789a0113c3d7aaaa68042405fbaa5f15fb882ec440597e43887100e8e25ef02",
-        "crc32": "dccfd176",
+        "sha256": "8d6f56adf29b50905748a7dc312f403a601f35c13e40e63193c4ca00f15eed37",
+        "crc32": "18738508",
         "size_bytes": 33554432
       }
     },
@@ -51,10 +51,10 @@
       "name": "Indie",
       "native_name": "Indie",
       "status": "in_progress",
-      "version_label": "IN.2.1.44",
+      "version_label": "IN.2.1.45",
       "patch": "pokemon_unbound_indie.bps",
-      "patch_sha256": "aff57232af485c5d15b584786bd983d409b100c1a867654c0edce1aee0278d1b",
-      "patch_size_bytes": 20150,
+      "patch_sha256": "89f99948dc972f86769def188c505c7e136ceec708c49222dac012235a0047ac",
+      "patch_size_bytes": 20151,
       "source": {
         "file": "englishrom.gba",
         "sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
@@ -63,8 +63,8 @@
       },
       "target": {
         "file": "GenedRom-indie.gba",
-        "sha256": "24704aa766806618c297f0649cc2205e4489f31a46b70258e6b057c96b9df01f",
-        "crc32": "88956cce",
+        "sha256": "f0c982adf65efe4272e881e391929bcc965989c9d54cdbc1748ab5cbcdd5b211",
+        "crc32": "3097bdb4",
         "size_bytes": 33554432
       }
     },
@@ -73,10 +73,10 @@
       "name": "Italian",
       "native_name": "Italiano",
       "status": "in_progress",
-      "version_label": "IT.2.1.44",
+      "version_label": "IT.2.1.45",
       "patch": "pokemon_unbound_it.bps",
-      "patch_sha256": "668060aee5eed9b60cc4612e83ff487a59333318004142256dd14d24ca2a34d9",
-      "patch_size_bytes": 1318240,
+      "patch_sha256": "a1ea50713230be6f379cfb2349cd799e1876b2a815be64dffb8d09ae0ae36d18",
+      "patch_size_bytes": 1353540,
       "source": {
         "file": "englishrom.gba",
         "sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
@@ -85,8 +85,8 @@
       },
       "target": {
         "file": "GenedRom-it.gba",
-        "sha256": "d2656aaed41c9cebae06dade53a97a83edf1ba62adae3a01af1b4cba3e3a5585",
-        "crc32": "b2313861",
+        "sha256": "3729af936b364453f309440f0fb9182fd166c9503c72acc44bf0046ca7c210d8",
+        "crc32": "a216dca5",
         "size_bytes": 33554432
       }
     }

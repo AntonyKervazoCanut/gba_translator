@@ -274,3 +274,17 @@ def test_tracked_bundle_is_complete_and_contains_no_rom() -> None:
         for language in manifest["languages"]
     )
     assert list((ROOT / "patches").glob("*.gba")) == []
+
+
+def test_tracked_bundle_is_rebuilt_after_prof_log_pc_fix() -> None:
+    """#192 : le build 44 publiait encore le PC du Prof. Log en anglais."""
+    manifest = PatchBundle(ROOT / "patches").verify(
+        required_codes={"fr", "it", "de", "indie"}
+    )
+    fr = next(language for language in manifest["languages"] if language["code"] == "fr")
+
+    assert manifest["build_number"] >= 45
+    assert fr["version_label"] == f"FR.2.1.{manifest['build_number']}"
+    assert fr["target"]["sha256"] != (
+        "a67fd1cb985bae7a5114048baa611a87c7f03c6e4dcba2e409841c46bd790a36"
+    )
