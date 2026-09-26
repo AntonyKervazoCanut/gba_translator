@@ -10,7 +10,9 @@ complète du webhook du salon. Ne jamais inscrire cette URL dans un fichier suiv
 ou dans les logs. Pour remplacer le webhook, modifier ce secret dans les paramètres
 Actions du dépôt. Aucun token de bot Discord n'est nécessaire.
 
-Le message contient un titre cliquable et les notes. Les textes trop longs sont
+Le message contient un titre cliquable et les notes : commit publié, noms des
+patchs BPS versionnés, puis le changelog (`### Changements depuis v2.1.N`, un
+commit par ligne, sans les commits de merge). Les textes trop longs sont
 tronqués avec `…` ; le lien conserve l'accès aux notes complètes et aux patchs.
 Les mentions sont désactivées. Le transport utilise la confirmation `wait=true`
 et un délai maximal de 30 secondes, sans afficher l'URL en cas d'erreur.

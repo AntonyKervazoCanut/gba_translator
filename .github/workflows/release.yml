@@ -90,8 +90,8 @@ jobs:
             "${RELEASE_ASSETS_DIR}/RELEASE_MANIFEST.json"
             "${RELEASE_ASSETS_DIR}/SHA256SUMS.txt"
           )
-          NOTES=$(printf '**Commit :** %s — %s\n\nBundle BPS suivi et validé sans ROM (build #%s), affichant en jeu la version %s. Les changements source ne sont inclus dans les patchs qu’après reconstruction locale.\n\n- FR: pokemon_unbound_fr_%s.bps\n- IT: pokemon_unbound_it_%s.bps\n- DE: pokemon_unbound_de_%s.bps\n- Indie: pokemon_unbound_indie_%s.bps' \
-            "${SHA}" "${MSG}" "${BUILD_NUMBER}" "${VERSION_TAG#v}" \
+          NOTES=$(printf '**Commit :** %s — %s\n\n- FR: pokemon_unbound_fr_%s.bps\n- IT: pokemon_unbound_it_%s.bps\n- DE: pokemon_unbound_de_%s.bps\n- Indie: pokemon_unbound_indie_%s.bps' \
+            "${SHA}" "${MSG}" \
             "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}" "${VERSION_TAG}")
           PREVIOUS_TAG=""
           for tag in $(git tag --merged "${GITHUB_SHA}" --list 'v2.1.*' --sort=-version:refname); do
@@ -101,7 +101,7 @@ jobs:
             fi
           done
           if [ -n "${PREVIOUS_TAG}" ]; then
-            CHANGELOG=$(git log --format='- %s (%h)' "${PREVIOUS_TAG}..${GITHUB_SHA}")
+            CHANGELOG=$(git log --no-merges --format='- %s (%h)' "${PREVIOUS_TAG}..${GITHUB_SHA}")
             NOTES+=$(printf '\n\n### Changements depuis %s\n\n%s' "${PREVIOUS_TAG}" "${CHANGELOG}")
           else
             CHANGELOG=$(git log -1 --format='- %s (%h)' "${GITHUB_SHA}")

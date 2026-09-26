@@ -215,6 +215,9 @@ def _run_publish_scenario(
               printf '%s\\n' v2.1.43 v2.1.42
             elif [[ "$1" == "log" && "$*" == *"--format="* ]]; then
               echo '- correction des textes (abc1234)'
+              if [[ "$*" != *"--no-merges"* ]]; then
+                echo "- Merge remote-tracking branch 'origin/unbound' (def5678)"
+              fi
             else
               echo 'fixture commit'
             fi
@@ -488,6 +491,22 @@ def test_release_notes_include_commit_changelog(tmp_path: Path) -> None:
     assert result.returncode == 0, result.stderr
     assert "### Changements depuis v2.1.42" in calls
     assert calls.count("- correction des textes (abc1234)") == 2
+
+
+def test_release_notes_skip_bundle_boilerplate_and_merges(tmp_path: Path) -> None:
+    """Les notes (et donc Discord) se limitent aux patchs et au changelog utile."""
+    # Arrange / Act
+    result, calls = _run_publish_scenario(
+        tmp_path, latest_assets=PATCH_ASSETS,
+        latest_manifest='{"build_number":43}', version_exists=False,
+    )
+
+    # Assert
+    assert result.returncode == 0, result.stderr
+    assert "Bundle BPS" not in calls
+    assert "reconstruction locale" not in calls
+    assert "Merge remote-tracking branch" not in calls
+    assert "- FR: pokemon_unbound_fr_v2.1.43.bps" in calls
 
 
 def test_release_checkout_fetches_tags() -> None:
