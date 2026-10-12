@@ -78,6 +78,9 @@ class TestItemNameData(unittest.TestCase):
         self.assertEqual(ITEM_NAMES["Normal Gem"], "Bijounormale")
         self.assertEqual(ITEM_NAMES["HM01"], "MN01")
 
+    def test_power_belt_localized_name(self):
+        self.assertEqual(ITEM_NAMES["Power Belt"], "Vigorfascia")
+
     def test_documented_exclusions_are_absent(self):
         # These official Italian names exceed the 13-glyph cell and must not
         # be present as byte-exact entries (see module docstring).

@@ -195,6 +195,8 @@ ITEM_NAMES = {
     "King's Rock": "King-Stein",
     "Dragon Fang": "Drachenzahn",
     "Whip Dream": "Sahnehäubchen",
+    # Power Belt shares the fixed inline cell repaired for FR (issue #209).
+    "Power Belt": "Machtgurt",
     # General held / battle items
     "Choice Band": "Wahlband",
     "White Herb": "Schlohkraut",

@@ -85,6 +85,9 @@ class TestItemNameData(unittest.TestCase):
         self.assertEqual(ITEM_NAMES["HM01"], "VM01")
         self.assertEqual(ITEM_NAMES["HP Up"], "KP-Plus")
 
+    def test_power_belt_localized_name(self):
+        self.assertEqual(ITEM_NAMES["Power Belt"], "Machtgurt")
+
     def test_documented_exclusions_are_absent(self):
         # These official German names exceed the 13-glyph cell and must not
         # be present as byte-exact entries (see module docstring).

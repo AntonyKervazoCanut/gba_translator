@@ -138,6 +138,8 @@ BERRY_NAMES = {
 ITEM_NAMES = {
     # Canonicalize the abbreviated French name injected by the text pipeline.
     "Sup. Repouss": "Superepousse",
+    # Abbreviated to fit the inline name field (issue #209).
+    "Power Belt": "Ceint. Pouv.",
     # Evolution & special stones
     "Sun Stone": "Pierre Soleil",
     "Moon Stone": "Pierre Lune",

@@ -115,6 +115,18 @@ class TestApplyItemNameFixes(unittest.TestCase):
         self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Baie Willia")
         self.assertEqual(decode_name(data, ITEM_TABLE_BASE + ITEM_STRIDE), "Baie Oran")
 
+    def test_power_belt_uses_requested_abbreviation(self):
+        data = _make_item_rom([(0, "Power Belt")])
+        original_item_data = bytes(data[ITEM_TABLE_BASE + NAME_FIELD:])
+
+        patched = apply_item_name_fixes(data, ALL_NAMES)
+
+        self.assertEqual(patched, 1)
+        self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Ceint. Pouv.")
+        self.assertEqual(bytes(data[ITEM_TABLE_BASE + NAME_FIELD:]), original_item_data)
+        self.assertEqual(data[ITEM_TABLE_BASE + len(encode("Ceint. Pouv."))], 0xFF)
+        self.assertEqual(apply_item_name_fixes(data, ALL_NAMES), 0)
+
     def test_terminator_after_french_name(self):
         data = _make_item_rom([(0, "Oran Berry")])
         apply_item_name_fixes(data, BERRY_NAMES)

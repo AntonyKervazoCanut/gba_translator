@@ -216,6 +216,8 @@ ITEM_NAMES = {
     "King's Rock": 'Roccia di Re',
     'Dragon Fang': 'Dentedidrago',
     'Whip Dream': 'Dolcespuma',
+    # Power Belt shares the fixed inline cell repaired for FR (issue #209).
+    "Power Belt": "Vigorfascia",
     # General held / battle items
     'Choice Band': 'Bendascelta',
     'White Herb': 'Erbachiara',
