@@ -134,9 +134,9 @@ class TestApplyItemNameFixes(unittest.TestCase):
         patched = apply_item_name_fixes(data, ALL_NAMES)
 
         self.assertEqual(patched, 1)
-        self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Joyau Ténébr")
+        self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Joyau Ténèbr")
         self.assertEqual(bytes(data[ITEM_TABLE_BASE + NAME_FIELD:]), original_item_data)
-        self.assertEqual(data[ITEM_TABLE_BASE + len(encode("Joyau Ténébr"))], 0xFF)
+        self.assertEqual(data[ITEM_TABLE_BASE + len(encode("Joyau Ténèbr"))], 0xFF)
         self.assertEqual(apply_item_name_fixes(data, ALL_NAMES), 0)
 
     def test_black_belt_uses_gba_abbreviation(self):

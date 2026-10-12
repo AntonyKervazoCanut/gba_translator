@@ -1,4 +1,4 @@
-/** #200 : nom réel du Joyau Ténébr rendu dans le Cube, hors écran.
+/** #200 : nom réel du Joyau Ténèbr rendu dans le Cube, hors écran.
  * Une copie temporaire remplace le nom de la Repousse possédée par celui du joyau. */
 import { test, expect } from '@playwright/test';
 import { spawn, execFileSync } from 'node:child_process';
@@ -9,11 +9,11 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 
-test('le Cube affiche Joyau Ténébr sans texte anglais', async ({ page }) => {
+test('le Cube affiche Joyau Ténèbr sans texte anglais', async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'dark-gem-'));
   const rom = fs.readFileSync(process.env.ROM_PATH ?? path.join(root, 'output/roms/GenedRom-fr.gba'));
   const name = rom.subarray(0x87CA28, 0x87CA28 + 14);
-  expect(name.subarray(0, 13).toString('hex')).toBe('c4e3edd5e900ce1be21bd6e6ff');
+  expect(name.subarray(0, 13).toString('hex')).toBe('c4e3edd5e900ce1be21ad6e6ff');
   // La Repousse de la sauvegarde permet d'exercer le rendu du même champ fixe.
   name.copy(rom, 0x876074 + 95 * 44);
   // Le descriptif associé au joyau garde la capture cohérente.
@@ -62,7 +62,7 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
 `);
     const ocr = path.join(temp, 'ocr');
     execFileSync('swiftc', [swift, '-o', ocr], { timeout: 60_000 });
-    await page.setContent(`<style>body{margin:0}img{width:960px;height:640px;image-rendering:pixelated}</style><img alt="Cube : Joyau Ténébr" src="data:image/png;base64,${fs.readFileSync(path.join(temp, 'page0.png')).toString('base64')}">`);
+    await page.setContent(`<style>body{margin:0}img{width:960px;height:640px;image-rendering:pixelated}</style><img alt="Cube : Joyau Ténèbr" src="data:image/png;base64,${fs.readFileSync(path.join(temp, 'page0.png')).toString('base64')}">`);
     const readable = path.join(temp, 'readable.png');
     await page.getByRole('img').screenshot({ path: readable });
     const text = execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 });
