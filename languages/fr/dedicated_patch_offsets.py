@@ -21,6 +21,7 @@ PC_LABEL_OFFSETS = frozenset({0x4186CD})
 
 WORLD_MAP_JUNCTION_OFFSETS = frozenset({
     0x1F70E41,
+    0x1F7128C,
     0x1F72353,
     0x1F72691,
     0x1F726C0,

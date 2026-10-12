@@ -62,6 +62,8 @@ TARGETS: dict[int, str] = {
     # The verification fragment stays language-neutral because the Italian and
     # German wrappers reuse this patch with their own combined translation.
     0x1F70E41: "Pokémon",
+    # Chenal Aubrun: the leading up-arrow is likewise misclassified as ASCII.
+    0x1F7128C: "Chenal Aubrun",
     0x1F72691: "Cimes Gelées",
     0x1F726C0: "Cimes Gelées, Cimistral",
     0x1F726FC: "Cratéris",
