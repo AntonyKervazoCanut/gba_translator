@@ -2289,3 +2289,23 @@ entries:
   name: Dialogue de maman — navigation rapide dans le Cube
   issue: '#213'
   expected: 'Au cas où tu aurais oublié, le\nCube V3 fonctionne comme un sac.\pMais contrairement aux sacs du\nMagasin Pokémon qui tiennent 42\lobjets, le Cube V3, ou {COLOR}ÉCube{COLOR}Ç,\la un espace\linfini !\pIl numérise les données de l''objet,\nsi bien que c''est comme si\ltu ne portais\lrien du tout !\pEt en plus, tu peux même trier\nautomatiquement le Cube en\lappuyant sur {START_BUTTON} !\pPratique, non ?\pBien sûr, si tu trouves le Cube\nun peu chargé même après tri,\lutilise {L_BUTTON} et {R_BUTTON}\lpour parcourir rapidement.\pOh, et tu peux même y ranger\nle cadeau d''adieu que j''ai préparé !'
+- offset: '0x7a823b'
+  name: Objets d'évolution en français
+  issue: '#217'
+  expected: Il m'a échangé son {COLOR}ÉÉlektek{COLOR}Ë, alors\nj'ai utilisé un {COLOR}ÉÉlectriseur{COLOR}Ë comme une\l{COLOR}ÉPierre d'évolution{COLOR}Ë, et il a évolué !
+- offset: '0x1ef4859'
+  name: Pierre d'évolution (scientifique)
+  issue: '#217'
+  expected: Mwahahaha ! Hé, toi, Dresseur !\pSi tu me le permets, je vais te\nmontrer un exploit scientifique que\lbeaucoup croient impossible !\pDonne-moi <0xFC><0x01><0x06><0xFD><0x03> Everstones<0xFC><0x01><0x08> et je les\ntransformerai en une Pierre\ld'évolution rare de ton choix !
+- offset: '0x1ef6d3e'
+  name: Objets d'évolution en français
+  issue: '#217'
+  expected: Pierre d'évolution
+- offset: '0x1f05779'
+  name: Objets d'évolution en français
+  issue: '#217'
+  expected: Il m'a échangé son <0xFC><0x01><0x06>Élektek<0xFC><0x01><0x08>, alors\nj'ai utilisé un <0xFC><0x01><0x06>Électriseur<0xFC><0x01><0x08> comme une\l<0xFC><0x01><0x06>Pierre d'évolution<0xFC><0x01><0x08>, et il a évolué !
+- offset: '0x1f057f0'
+  name: Objets d'évolution en français
+  issue: '#217'
+  expected: Certains Pokémon ne peuvent\névoluer que lors d'un échange.\pMais qui échange encore de nos\njours, hein ?\pCette mode est passée depuis des\nannées.\pMaintenant, on peut les faire\névoluer avec une <0xFC><0x01><0x06>Pierre Lien<0xFC><0x01><0x08> !\pRegarde, tu vas voir !
