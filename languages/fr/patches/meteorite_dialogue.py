@@ -74,6 +74,7 @@ DEFAULT_COMBINED = REPO_ROOT / "languages/fr/combined_fr.txt"
 # relocation actually landed (must appear verbatim before any line/page break).
 LAYOUT_TARGETS: dict[int, str] = {
     0x1F2E221: "Si Fey apprend qu'",  # Shadow Base: break after il/elle (#212)
+    0x1A63E8: "Elle contient",  # CT : découverte et capacité sur deux lignes (#219)
 }
 
 TARGETS: dict[int, str] = {

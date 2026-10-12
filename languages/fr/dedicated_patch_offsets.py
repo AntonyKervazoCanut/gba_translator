@@ -34,7 +34,7 @@ WORLD_MAP_JUNCTION_OFFSETS = frozenset({
 
 # Le patch de dialogues conserve ici les coupures validées (#212),
 # contrairement au reformatage glouton du générateur et de la passe inline.
-CURATED_DIALOGUE_LAYOUT_OFFSETS = frozenset({0x1F2E221})
+CURATED_DIALOGUE_LAYOUT_OFFSETS = frozenset({0x1F2E221, 0x1A63E8})
 
 GENERIC_TRANSLATION_OFFSETS = (
     MISSION_TITLE_OFFSETS | WORLD_MAP_JUNCTION_OFFSETS | PC_LABEL_OFFSETS
