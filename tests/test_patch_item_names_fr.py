@@ -1,4 +1,8 @@
+import json
 import unittest
+from pathlib import Path
+
+import pytest
 
 from languages.fr.patches.item_names import (
     ALL_NAMES,
@@ -11,6 +15,8 @@ from languages.fr.patches.item_names import (
     decode_name,
     encode,
 )
+from src.core.bps import apply_bps_patch
+from src.core.text_codec import TextDecoder
 
 
 def _make_item_rom(cells):
@@ -225,3 +231,18 @@ class TestApplyItemNameFixes(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+@pytest.mark.rom
+def test_tracked_french_patch_contains_black_belt_correction():
+    root = Path(__file__).resolve().parents[1]
+    manifest = json.loads((root / "patches/RELEASE_MANIFEST.json").read_text())
+    entry = next(item for item in manifest["languages"] if item["code"] == "fr")
+    source = (root / "input/roms" / entry["source"]["file"]).read_bytes()
+    patch = (root / "patches" / entry["patch"]).read_bytes()
+
+    rom = apply_bps_patch(source, patch)
+
+    offset = ITEM_TABLE_BASE + 216 * ITEM_STRIDE
+    assert TextDecoder.decode_pokemon(rom[offset : offset + NAME_FIELD]) == "Ceint.Noire"
+    assert rom[offset + 11] == 0xFF
