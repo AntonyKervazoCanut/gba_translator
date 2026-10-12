@@ -139,6 +139,18 @@ class TestApplyItemNameFixes(unittest.TestCase):
         self.assertEqual(data[ITEM_TABLE_BASE + len(encode("Joyau Ténébr"))], 0xFF)
         self.assertEqual(apply_item_name_fixes(data, ALL_NAMES), 0)
 
+    def test_black_belt_uses_gba_abbreviation(self):
+        data = _make_item_rom([(0, "Black Belt")])
+        original_item_data = bytes(data[ITEM_TABLE_BASE + NAME_FIELD:])
+
+        patched = apply_item_name_fixes(data, ALL_NAMES)
+
+        self.assertEqual(patched, 1)
+        self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Ceint.Noire")
+        self.assertEqual(bytes(data[ITEM_TABLE_BASE + NAME_FIELD:]), original_item_data)
+        self.assertEqual(data[ITEM_TABLE_BASE + len(encode("Ceint.Noire"))], 0xFF)
+        self.assertEqual(apply_item_name_fixes(data, ALL_NAMES), 0)
+
     def test_power_belt_uses_requested_abbreviation(self):
         data = _make_item_rom([(0, "Power Belt")])
         original_item_data = bytes(data[ITEM_TABLE_BASE + NAME_FIELD:])

@@ -198,7 +198,7 @@ ITEM_NAMES = {
     "Scope Lens": "Lentilscope",
     "Soft Sand": "Sable Doux",
     "Miracle Seed": "Graine Mira",
-    "Black Belt": "Ceinturnoire",
+    "Black Belt": "Ceint.Noire",
     "Magnet": "Aimant",
     "Mystic Water": "Eau Mystique",
     "Sharp Beak": "Bec Pointu",
