@@ -9,13 +9,27 @@ from pathlib import Path
 
 import pytest
 
+from languages.fr.patches.item_names import ITEM_STRIDE, ITEM_TABLE_BASE, encode
 from src.core.bps import create_bps_patch
 from src.core.patch_bundle import PatchBundle, PatchBundleError
+from src.core.release_stamp import _KnownTarget, _parse
 from src.i18n import load_registry
-
 
 ROOT = Path(__file__).resolve().parents[2]
 ENGLISH_ROM_SHA256 = "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7"
+
+
+def test_tracked_french_patch_contains_vs_seeker_translation() -> None:
+    """#195 : contrôler le nom livré, indépendamment du dictionnaire source."""
+    patch = (ROOT / "patches/pokemon_unbound_fr.bps").read_bytes()
+    offset = ITEM_TABLE_BASE + 371 * ITEM_STRIDE
+    expected = encode("Cherche VS")
+
+    # Le nom traduit est littéral dans le BPS ; aucune ROM privée nécessaire.
+    target = _KnownTarget(_parse(patch), ())
+    actual = target.read(offset, len(expected))
+
+    assert actual == expected
 
 
 def _file_metadata(name: str, payload: bytes) -> dict[str, object]:
