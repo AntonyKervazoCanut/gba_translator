@@ -2277,3 +2277,8 @@ entries:
   name: Description Rapide Ball au premier affichage
   issue: '#222'
   expected: Une Ball plus efficace si elle\nest lancée au début d'un combat\ncontre un Pokémon sauvage.
+
+- offset: '0x1F0BE99'
+  name: Dialogue de maman — navigation rapide dans le Cube
+  issue: '#213'
+  expected: 'Au cas où tu aurais oublié, le\nCube V3 fonctionne comme un sac.\pMais contrairement aux sacs du\nMagasin Pokémon qui tiennent 42\lobjets, le Cube V3, ou {COLOR}ÉCube{COLOR}Ç,\la un espace\linfini !\pIl numérise les données de l''objet,\nsi bien que c''est comme si\ltu ne portais\lrien du tout !\pEt en plus, tu peux même trier\nautomatiquement le Cube en\lappuyant sur {START_BUTTON} !\pPratique, non ?\pBien sûr, si tu trouves le Cube\nun peu chargé même après tri,\lutilise {L_BUTTON} et {R_BUTTON}\lpour parcourir rapidement.\pOh, et tu peux même y ranger\nle cadeau d''adieu que j''ai préparé !'
