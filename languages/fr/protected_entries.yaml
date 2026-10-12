@@ -2233,3 +2233,28 @@ entries:
   forbidden:
   - 'Cut'
   - 'Master'
+- offset: '0x7939BC'
+  name: Geste de fouille du Pokémon
+  issue: '#214'
+  expected: M'as-tu apporté un {COLOR}É{STR_VAR_1}{COLOR}Ë en\nforme {COLOR}É{STR_VAR_2}{COLOR}Ë
+    pour l'étude ?\p×Fouille× ×Fouille×
+- offset: '0x1EEE606'
+  name: Geste de fouille du Pokémon
+  issue: '#214'
+  expected: Chaque heure, des groupes\nde Pokémon rôdent dans Borrius.\pMa fille adore
+    en entendre parler\nsur {STR_VAR_2}, et\lelle rêve d'en rencontrer\lun.\pTu n'aurais
+    pas par hasard\nun {COLOR}É{STR_VAR_1}{COLOR}Ë, dis ?\p×Fouille× ×Fouille×
+- offset: '0x1EF8247'
+  name: Geste de fouille du Pokémon
+  issue: '#214'
+  expected: Tu m'as apporté un {COLOR}É{STR_VAR_1}\n{COLOR}Ëà étudier ?\p×Fouille×
+    ×Fouille×
+- offset: '0x1F07621'
+  name: Geste de fouille du Pokémon
+  issue: '#214'
+  expected: Voyons ces belles ailes de\n{COLOR}É{STR_VAR_1}{COLOR}Ë !\p×Fouille× ×Fouille×
+- offset: '0x1F7D406'
+  name: Geste de fouille du Pokémon
+  issue: '#214'
+  expected: M’as-tu apporté un {COLOR}É{STR_VAR_1}{COLOR}Ë dans sa forme\n{COLOR}É{STR_VAR_2}{COLOR}Ë
+    à étudier ?\p×Fouille× ×Fouille×
