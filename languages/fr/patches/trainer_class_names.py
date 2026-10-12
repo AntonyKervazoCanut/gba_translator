@@ -10,6 +10,10 @@ cells**, so the generic pointer-based CSV/JSON pipeline never touches them
 — every class ships the English source verbatim unless a dedicated pass
 rewrites the cell bytes.
 
+Some CFRU cells instead contain pointers to shared long names. This pass
+also repairs aliases that still skip a removed leading space when the complete
+translated string is verified at the preceding byte.
+
 This is that dedicated pass. It sources the French text straight from
 ``languages/fr/combined_fr.txt`` (last-entry-wins), encodes it with the
 shared :class:`TextEncoder`, and overwrites the cell **in place**, staying
@@ -38,13 +42,14 @@ from __future__ import annotations
 
 import argparse
 import re
+import struct
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(REPO_ROOT))
 
-from src.core.text_codec import TextEncoder  # noqa: E402
+from src.core.text_codec import TextEncoder
 
 # gTrainerClassNames — fixed-width name table (verified structurally against
 # englishrom.gba: pointers at file offsets 0xD80A0 / 0x11B4B4 target the base).
@@ -103,6 +108,22 @@ def patch(rom: bytearray, combined: dict[int, str]) -> dict:
 
     for idx in range(FIRST_CLASS_INDEX, CLASS_COUNT):
         offset = TABLE_BASE + idx * CELL_STRIDE
+        # CFRU also stores pointers in some 13-byte cells for long names.
+        # An English alias can skip a leading space in the shared string.
+        # If translation removed that space, the alias now skips its first
+        # letter (#221). Repoint only when the COMPLETE authored translation
+        # is present immediately before the current target; leave all other
+        # pointers and the shared string untouched.
+        pointer = struct.unpack_from("<I", rom, offset)[0] - 0x08000000
+        if 0 < pointer < len(rom):
+            shared_text = combined.get(pointer - 1)
+            if shared_text is not None:
+                encoded_shared = _encode(shared_text)
+                start = pointer - 1
+                if rom[start:start + len(encoded_shared)] == encoded_shared:
+                    struct.pack_into("<I", rom, offset, 0x08000000 + start)
+                    stats["written"] += 1
+                    continue
         text = combined.get(offset)
         if text is None:
             stats["missing"] += 1
@@ -162,6 +183,7 @@ def main(argv: list[str] | None = None) -> int:
     rom = bytearray(args.rom.read_bytes())
 
     stats = patch(rom, combined)
+    Path(str(args.rom) + ".bak").write_bytes(args.rom.read_bytes())
     args.rom.write_bytes(rom)
 
     print(
