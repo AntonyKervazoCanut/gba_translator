@@ -264,6 +264,7 @@ ITEM_NAMES = {
     "Psychic Gem": "Joyau Psy",
     "Ice Gem": "Joyau Glace",
     "Dragon Gem": "Joyau Dragon",
+    "Dark Gem": "Joyau Ténébr",
     "Fairy Gem": "Joyau Fée",
     # Silvally type ROMs (Memory)
     "Fist Memory": "ROM Combat",

@@ -103,7 +103,7 @@ class TestItemNameData(unittest.TestCase):
     def test_no_oversized_official_names_slipped_in(self):
         # Guard the documented boundary: names known to need a pointer
         # relocation must NOT be present as byte-exact entries.
-        for en in ("Electric Gem", "Dark Gem", "Jaw Fossil", "Venusaurite"):
+        for en in ("Electric Gem", "Jaw Fossil", "Venusaurite"):
             self.assertNotIn(en, ITEM_NAMES, en)
 
 
@@ -114,6 +114,18 @@ class TestApplyItemNameFixes(unittest.TestCase):
         self.assertEqual(patched, 2)
         self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Baie Willia")
         self.assertEqual(decode_name(data, ITEM_TABLE_BASE + ITEM_STRIDE), "Baie Oran")
+
+    def test_dark_gem_uses_requested_abbreviation(self):
+        data = _make_item_rom([(0, "Dark Gem")])
+        original_item_data = bytes(data[ITEM_TABLE_BASE + NAME_FIELD:])
+
+        patched = apply_item_name_fixes(data, ALL_NAMES)
+
+        self.assertEqual(patched, 1)
+        self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Joyau Ténébr")
+        self.assertEqual(bytes(data[ITEM_TABLE_BASE + NAME_FIELD:]), original_item_data)
+        self.assertEqual(data[ITEM_TABLE_BASE + len(encode("Joyau Ténébr"))], 0xFF)
+        self.assertEqual(apply_item_name_fixes(data, ALL_NAMES), 0)
 
     def test_power_belt_uses_requested_abbreviation(self):
         data = _make_item_rom([(0, "Power Belt")])

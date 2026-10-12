@@ -116,11 +116,13 @@ class TestItemNameData(unittest.TestCase):
         # This abbreviated source value is injected only by the FR pipeline;
         # the DE source cell still contains "Super Repel".
         fr_only_source_keys = {"Sup. Repouss"}
+        # Dark Gem uses the explicitly requested FR abbreviation (#200).
+        fr_only_abbreviations = {"Dark Gem"}
         missing = set(fr.ITEM_NAMES) - set(ITEM_NAMES)
         extra = set(ITEM_NAMES) - set(fr.ITEM_NAMES)
         self.assertEqual(
             missing,
-            {"Room Service", "Bottle Cap", "Purp Nectar"} | fr_only_source_keys,
+            {"Room Service", "Bottle Cap", "Purp Nectar"} | fr_only_source_keys | fr_only_abbreviations,
         )
         # FR receives this medicine name through its legacy translation data;
         # DE must patch the fixed gItems cell explicitly.

@@ -98,9 +98,10 @@ class TestItemNameData(unittest.TestCase):
 
         # "Sup. Repouss" is injected only by the FR pipeline; the IT source
         # cell still contains "Super Repel".
+        # Dark Gem uses the explicitly requested FR abbreviation (#200).
         expected_exclusions = {
             "Exp. Share", "Soft Sand", "Room Service", "Bug Gem",
-            "Bug Memory", "Bottle Cap", "Eon Ticket", "Sup. Repouss",
+            "Bug Memory", "Bottle Cap", "Eon Ticket", "Sup. Repouss", "Dark Gem",
         }
         # The standard Poké Ball line is keyed on its FRENCH source string: the
         # Unbound base ROM ships those inline gItems cells pre-localised to
