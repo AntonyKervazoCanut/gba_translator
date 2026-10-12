@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Translate the long cutscene prose blocks that the generic pipeline can never
-reach (the « Borrius meteorite » monologue and its siblings).
+reach (the « Borrius meteorite » monologue and its siblings), plus curated
+dialogue layouts whose explicit breaks must survive generic rewrapping.
 
 Root cause (found statically against the English ROM + the extraction):
 
@@ -71,7 +72,12 @@ DEFAULT_COMBINED = REPO_ROOT / "languages/fr/combined_fr.txt"
 #
 # original English offset -> a short, contiguous French prefix used to prove the
 # relocation actually landed (must appear verbatim before any line/page break).
+LAYOUT_TARGETS: dict[int, str] = {
+    0x1F2E221: "Si Fey apprend qu'",  # Shadow Base: break after il/elle (#212)
+}
+
 TARGETS: dict[int, str] = {
+    **LAYOUT_TARGETS,
     0x7A9A75: "Il y a trente ans",            # Valley-City elder, 30-years meteorite monologue
     0x1EEE8BE: "Il y a vingt ans",            # Aros legend, 20-years meteorite monologue
     0x1F0F004: "une option spéciale",         # New Game+ briefing

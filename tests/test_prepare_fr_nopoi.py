@@ -322,13 +322,15 @@ class TestDedicatedPatchExclusion(unittest.TestCase):
         import importlib
         importlib.reload(module)
         sys.path.insert(0, str(ROOT / "scripts"))
+        from languages.fr.patches.meteorite_dialogue import LAYOUT_TARGETS
         from languages.fr.patches.mission_titles import TARGETS as MISSION_TITLE_TARGETS
         from languages.fr.patches.pc_move_labels import DEDICATED_SOURCE_OFFSETS as PC_LABEL_TARGETS
         from languages.fr.patches.worldmap_junction_panels import TARGETS as JUNCTION_TARGETS
         from languages.fr.dedicated_patch_offsets import GENERIC_PLACEHOLDER_TRANSLATIONS
         self.assertEqual(
             set(module.DEDICATED_PATCH_OFFSETS) | set(GENERIC_PLACEHOLDER_TRANSLATIONS),
-            set(JUNCTION_TARGETS) | set(MISSION_TITLE_TARGETS) | set(PC_LABEL_TARGETS),
+            set(JUNCTION_TARGETS) | set(MISSION_TITLE_TARGETS) | set(PC_LABEL_TARGETS)
+            | set(LAYOUT_TARGETS),
             "DEDICATED_PATCH_OFFSETS must equal all dedicated patch targets",
         )
 

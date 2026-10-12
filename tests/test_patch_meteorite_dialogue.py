@@ -14,6 +14,8 @@ from pathlib import Path
 
 import pytest
 
+from languages.fr import dedicated_patch_offsets
+from src.core.dialogue_linewrap import DEFAULT_MAX_LINE_WIDTH, line_widths
 from src.core.text_codec import TextDecoder, TextEncoder
 from languages.fr.patches import meteorite_dialogue as patch
 
@@ -126,6 +128,30 @@ class PatchOnRealRomTests(unittest.TestCase):
                 _encode(prefix)[:-1], bytes(rom),
                 msg=f"0x{offset:08X}: préfixe FR « {prefix} » absent de la ROM",
             )
+
+
+def test_shadow_dialogue_uses_layout_preserving_patch() -> None:
+    """Le reformatage générique et inline ne doivent pas reprendre la réplique."""
+    offset = 0x1F2E221
+    assert set(patch.LAYOUT_TARGETS) == dedicated_patch_offsets.CURATED_DIALOGUE_LAYOUT_OFFSETS
+    assert offset in patch.TARGETS
+    assert offset in dedicated_patch_offsets.GENERIC_TRANSLATION_OFFSETS
+    assert offset in dedicated_patch_offsets.INLINE_OVERRIDE_OFFSETS
+
+
+def test_shadow_layout_preserves_runtime_pronoun_and_newline() -> None:
+    """La copie encodée garde le buffer de genre et les lignes dans la boîte."""
+    text = patch.load_combined(patch.DEFAULT_COMBINED)[0x1F2E221]
+    source = TextEncoder.encode_pokemon("If Fey finds out that <0xFD><0x03> was in the lab.")
+
+    encoded = patch.encode_relocated(text, source, 0)
+
+    prefix = TextEncoder.encode_pokemon("Si Fey apprend qu'")[:-1]
+    start = encoded.index(prefix) + len(prefix)
+    assert encoded[start:start + 3] == bytes([0xFD, 0x03, 0xFE])
+    page = text.split(r'\p')[2].replace('{STR_VAR_2}', '<0xFD><0x03>')
+    page = page.replace(r'\n', '\n').replace(r'\l', '<0xFA>')
+    assert max(line_widths(page)) <= DEFAULT_MAX_LINE_WIDTH
 
 
 if __name__ == "__main__":
