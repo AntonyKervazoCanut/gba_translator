@@ -2205,3 +2205,15 @@ entries:
   name: Jax à la sortie de l’autoroute RBT
   issue: '#205'
   expected: '<0xFC>ÀËArgh !\pMon corps…<0xFC>Ëî refuse…<0xFC>Ëî de m’obéir !'
+- offset: '0x78bdca'
+  name: Vocabulaire des arbustes à couper
+  issue: '#202'
+  expected: Au nord d'ici se trouve l'entrée\nd'une autoroute souterraine.\pLe seul problème est qu'elle est\nbloquée par des arbustes.\pJ'aimerais juste savoir comment les\ncontourner.
+- offset: '0x1eed4eb'
+  name: Vocabulaire des arbustes à couper
+  issue: '#202'
+  expected: Cette grotte mène hors de la ville\nvers la Route 6.\pDe là, c'est tout droit par la\nRoute 7, puis Mont Givre,\let la Route 8 jusqu'à <0xFC><0x01><0x06>Cimistral<0xFC><0x01><0x08>.\pSi tu comptes grimper jusque\nlà-haut, prends beaucoup de\lPoké Balls pour capturer des Pokémon.\pMais peu de gens passent par là,\ncar ils n'ont pas le\l<0xFC><0x01><0x06>Badge Vision<0xFC><0x01><0x08>.\pSans lui, impossible d'abattre\nl'<0xFC><0x01><0x06>Arbuste<0xFC><0x01><0x08> devant\ll'entrée.
+- offset: '0x1eed690'
+  name: Vocabulaire des arbustes à couper
+  issue: '#202'
+  expected: Cette grotte là-bas mène\nhors de la ville vers la Route 6.\pDe là, c'est tout\ndroit par la Route 7, le Mont Givre\let\nla Route 8 jusqu'à <0xFC><0x01><0x06>Cimistral<0xFC><0x01><0x08>.\pSi tu montes à pied\njusque là-haut, prends beaucoup de\lPoké Balls.\pMaintenant que l'<0xFC><0x01><0x06>Arbuste<0xFC><0x01><0x08>\nbloquant le passage a été coupé,\lelle est beaucoup plus utilisée.
