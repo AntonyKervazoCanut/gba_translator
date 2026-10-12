@@ -115,6 +115,18 @@ class TestApplyItemNameFixes(unittest.TestCase):
         self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Baie Willia")
         self.assertEqual(decode_name(data, ITEM_TABLE_BASE + ITEM_STRIDE), "Baie Oran")
 
+    def test_vs_seeker_uses_official_french_name(self):
+        data = _make_item_rom([(0, "VS Seeker")])
+        original_item_data = bytes(data[ITEM_TABLE_BASE + NAME_FIELD:])
+
+        patched = apply_item_name_fixes(data, ALL_NAMES)
+
+        self.assertEqual(patched, 1)
+        self.assertEqual(decode_name(data, ITEM_TABLE_BASE), "Cherche VS")
+        self.assertEqual(bytes(data[ITEM_TABLE_BASE + NAME_FIELD:]), original_item_data)
+        self.assertEqual(data[ITEM_TABLE_BASE + len(encode("Cherche VS"))], 0xFF)
+        self.assertEqual(apply_item_name_fixes(data, ALL_NAMES), 0)
+
     def test_dark_gem_uses_requested_abbreviation(self):
         data = _make_item_rom([(0, "Dark Gem")])
         original_item_data = bytes(data[ITEM_TABLE_BASE + NAME_FIELD:])

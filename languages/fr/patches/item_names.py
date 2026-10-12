@@ -319,7 +319,7 @@ ITEM_NAMES = {
     "Meteorite": "Météorite",
     "Member Card": "Carte Membre",
     "Lunar Wing": "Aile Lunaire",
-    "VS Seeker": "ChercheDuel",
+    "VS Seeker": "Cherche VS",
     "Powder Jar": "Bocal Poudre",
     "Devon Scope": "Scope Devon",
     "Mach Bike": "Vélo Course",
