@@ -100,3 +100,13 @@ class MissionPatchTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_pie_ingredient_lists_are_patched_verbatim():
+    offsets = (0x1EEAEE2, 0x1EEAF0D, 0x1EEAF4D)
+    combined = patch.load_combined(patch.DEFAULT_COMBINED)
+    for offset in offsets:
+        assert offset in patch.TARGETS
+        encoded = patch.encode_verbatim(combined[offset], b"", offset)
+        assert encoded.count(b"\xfa") == combined[offset].count("\\l")
+        assert b"\xfe" not in encoded

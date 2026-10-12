@@ -30,6 +30,10 @@ scripts are never relocated, so the pointer *cell* address is identical in the
 built ROM even when the generic pass already moved (and mangled) the string.
 Overwriting that cell with our clean copy therefore wins regardless of what the
 generic builder did. The patch is idempotent and reference-driven.
+
+The pie ingredient fragments are also encoded verbatim: they expand inside a
+dialogue after a heading, so their explicit scrolling breaks must survive.
+Wrapping them as standalone dialogues ignores that insertion cursor.
 """
 
 from __future__ import annotations
@@ -74,6 +78,12 @@ TARGETS: tuple[int, ...] = (
     0x1F9EAF1, 0x1F9F08F, 0x1F9FBCD, 0x1FA0D55, 0x1FA4E1F, 0x1FA58E6, 0x1FA76B4,
     0x1FA92F7, 0x1FA9BCF, 0x1FAAD67, 0x1FADF4A, 0x1FAE718,
 )
+
+# These strings expand inside an already-open dialogue, below its heading.
+# Keep one ingredient per scrolling line instead of wrapping the fragment as
+# a standalone dialogue (which ignores the insertion cursor).
+PIE_INGREDIENT_OFFSETS = (0x1EEAEE2, 0x1EEAF0D, 0x1EEAF4D)
+TARGETS += PIE_INGREDIENT_OFFSETS
 
 _OFFSET_LINE = re.compile(r"^0x([0-9A-Fa-f]+):\s?(.*)$")
 
@@ -143,7 +153,7 @@ def apply(rom: bytearray, combined: dict[int, str], source_rom: bytes,
 
 
 def verify(rom: bytes, source_rom: bytes, combined: dict[int, str]) -> list[tuple[int, str]]:
-    """Each target's live cell must reach a clean, scroll-free, <=3-line copy."""
+    """Each live cell must reach its verbatim copy; only ingredient lists scroll."""
     bad: list[tuple[int, str]] = []
     for offset in TARGETS:
         sites = find_referrers(source_rom, offset)
@@ -161,7 +171,7 @@ def verify(rom: bytes, source_rom: bytes, combined: dict[int, str]) -> list[tupl
         if decoded != encoded:
             bad.append((offset, "live pointer does not reach the clean copy"))
             continue
-        if 0xFA in encoded[:-1]:  # 0xFA = scroll; must never appear in a mission box
+        if offset not in PIE_INGREDIENT_OFFSETS and 0xFA in encoded[:-1]:  # 0xFA = scroll; must never appear in a mission box
             bad.append((offset, "scroll code present"))
     return bad
 
@@ -187,7 +197,7 @@ def main() -> int:
     remaining = verify(rom, source_rom, combined)
     rom_path.write_bytes(rom)
 
-    print("✓ Mission descriptions — 3-line relocation (scroll-free):")
+    print("✓ Mission descriptions and pie ingredients — verbatim relocation:")
     print(f"   - Targets relocated:          {stats['targets']}")
     print(f"   - Pointers repointed:         {stats['repointed']}")
     if stats["skipped"]:
