@@ -2160,3 +2160,27 @@ entries:
   name: Rivapolis — panneau de la ville
   issue: '#211'
   expected: "Rivapolis\\pLa capitale des chutes d'eau\\nde Borrius."
+
+- offset: '0x1F9C8B7'
+  name: Dialogue de la fille disparue à Rivapolis
+  issue: '#207'
+  expected: 'Oh mon dieu…\pMa fille, je ne la trouve nulle part !\pNous étions en vacances à la {COLOR}Éplage{COLOR}Ç\nquand tout à coup, elle a disparu !\pS''il te plaît, retrouve-la !'
+  forbidden:
+  - '{STR_VAR_1}'
+  - '<0xFD>'
+
+- offset: '0x7C5F15'
+  name: Dialogue de la fille disparue à Rivapolis
+  issue: '#207'
+  expected: 'Oh, mon dieu…\pMa fille, je ne la trouve plus !\pNous étions en vacances à la <0xFC><0x01><0x06>plage<0xFC><0x01><0x04>\nquand, tout à coup, elle a disparu !\pS''il te plaît, retrouve-la !'
+  forbidden:
+  - '{STR_VAR_1}'
+  - '<0xFD>'
+
+- offset: '0x1F9C948'
+  name: Dialogue de la fille disparue à Rivapolis
+  issue: '#207'
+  expected: 'Merci !\pElle ressemble à une\n{COLOR}ÉBaigneuse{COLOR}Ç ordinaire.'
+  forbidden:
+  - '{STR_VAR_1}'
+  - '<0xFD>'
