@@ -78,9 +78,9 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
       texts.push(execFileSync(ocr,[enlarged],{encoding:'utf8'}));
     }
     expect(texts[0]).toContain('Missions complétées');
-    expect(texts[1]).toContain('Enfant perdue');
+    expect(texts[1]).toContain('Fillette perdue');
     expect(texts.join('\n')).not.toMatch(/Missions Completed|Abandonment Issues/);
-    await page.locator('main').screenshot({path:path.join(os.tmpdir(),'issue210-missions-proof.png')});
+    await page.locator('main').screenshot({path:path.join(os.tmpdir(),'issue216-missions-proof.png')});
   } finally {
     if (child.exitCode===null && child.signalCode===null) child.kill('SIGTERM');
   }
