@@ -2269,3 +2269,11 @@ entries:
     second, en revanche…\pSi Fey apprend qu'{STR_VAR_2}\nétait dans le labo, elle
     insistera\lpour relocaliser en plein milieu\lde notre opération.\pTu sais que
     c’est du temps et des\nressources qu’on ne peut permettre…
+- offset: '0x7b3e52'
+  name: Description Soin Ball sans débordement
+  issue: '#222'
+  expected: Une Ball qui restaure les PV\net soigne le statut du\nPokémon capturé.
+- offset: '0x7b3eb0'
+  name: Description Rapide Ball au premier affichage
+  issue: '#222'
+  expected: Une Ball plus efficace si elle\nest lancée au début d'un combat\ncontre un Pokémon sauvage.

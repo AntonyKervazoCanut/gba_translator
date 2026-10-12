@@ -20,6 +20,8 @@ from pathlib import Path
 
 import pytest
 
+from src.core.text_codec import TextEncoder
+
 ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
@@ -300,3 +302,20 @@ class TestFixMode:
         lines = combined.read_text(encoding="utf-8").splitlines()
         assert lines[1].startswith("#")
         assert "0xA4E047: Comment trier ?" in lines[1]
+
+
+def test_heal_ball_description_preserves_quick_ball_start():
+    """La Soin Ball doit terminer avant le premier octet de la Rapide Ball."""
+    translations, _ = cti.load_last_wins(ROOT / "languages/fr/combined_fr.txt")
+    text = translations[0x7B3E52].replace(r"\n", "\n")
+    encoded = TextEncoder.encode_pokemon(text)
+    assert encoded[-1] == 0xFF
+    assert len(encoded) <= 0x7B3EB0 - 0x7B3E52
+
+
+def test_quick_ball_description_fits_before_honey():
+    """La description explique le bonus au premier tour sans écraser le Miel."""
+    translations, _ = cti.load_last_wins(ROOT / "languages/fr/combined_fr.txt")
+    text = translations[0x7B3EB0].replace(r"\n", "\n")
+    assert "début" in text
+    assert len(TextEncoder.encode_pokemon(text)) <= 0x7B3F15 - 0x7B3EB0
