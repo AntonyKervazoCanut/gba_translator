@@ -2184,3 +2184,7 @@ entries:
   forbidden:
   - '{STR_VAR_1}'
   - '<0xFD>'
+- offset: '0x1f06c7f'
+  name: Rivapolis — définition des Missions
+  issue: '#206'
+  expected: 'Une Mission est un objectif bonus\nque tu reçois en acceptant une\ldemande d''aide.\pBeaucoup de gens sont incapables de\nrésoudre leurs problèmes et\lont besoin d''aide.\pUne fois la Mission acceptée, les\ndétails sont enregistrés\ldans le Journal des Missions.\pLes Missions rapportent souvent des\nrécompenses : objets ou argent,\lmême de nouveaux lieux à explorer.\pSi quelqu''un te demande une Mission,\naccepte immédiatement.\pMême si tu ne comptes pas la finir\ntout de suite, ça ne gêne pas\lde l''avoir enregistrée\ldans ton Journal des Missions.\pCela dit, plusieurs personnes ici\nont besoin\ld''aide.\pRegarde autour de toi et vois si\ntu veux aider quelqu''un !\pEt reviens me voir quand tu auras\naccompli au moins {COLOR}É5{COLOR}Ë Missions.'
