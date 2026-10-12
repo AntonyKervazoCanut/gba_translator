@@ -208,6 +208,11 @@ class TestLocationNamesCombinedFR:
             + "\n".join(violations)
         )
 
+    def test_crateris_panel_separates_title_from_description(self, combined):
+        """Le nom de la ville et sa description occupent deux pages distinctes."""
+        pages = combined[0x1F70F0E].split(r"\p")
+        assert pages == ["Cratéris", "Une ville bâtie à partir de cendres."]
+
     def test_last_wins_semantics_for_fallshore(self, combined):
         """0x720E74 is duplicated; the loader must keep the *last* entry ('Fallshore').
 
