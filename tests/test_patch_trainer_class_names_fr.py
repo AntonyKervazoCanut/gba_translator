@@ -101,3 +101,17 @@ def test_built_rom_shared_trainer_class_reads_complete_name() -> None:
     pointer = struct.unpack_from("<I", rom, TABLE_BASE + 14 * CELL_STRIDE)[0] - 0x08000000
 
     assert TextDecoder.decode_pokemon(rom[pointer:pointer + 32]) == "Terreur Granbull"
+
+
+@pytest.mark.rom
+def test_delivered_patch_shared_trainer_class_reads_complete_name() -> None:
+    """Le bundle redistribuable doit aussi conserver le T du nom en combat."""
+    from src.core.bps import apply_bps_patch
+
+    rom = apply_bps_patch(
+        Path("input/roms/englishrom.gba").read_bytes(),
+        Path("patches/pokemon_unbound_fr.bps").read_bytes(),
+    )
+    pointer = struct.unpack_from("<I", rom, TABLE_BASE + 14 * CELL_STRIDE)[0] - 0x08000000
+
+    assert TextDecoder.decode_pokemon(rom[pointer:pointer + 32]) == "Terreur Granbull"

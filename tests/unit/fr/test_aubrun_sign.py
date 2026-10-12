@@ -30,7 +30,16 @@ def test_delivered_bps_contains_pokemon_encoded_aubrun_sign():
     root = Path(__file__).resolve().parents[3]
     target = _KnownTarget(_parse((root / "patches/pokemon_unbound_fr.bps").read_bytes()), ())
     # Act
-    offset = struct.unpack("<I", target.read(0x1E931EA, 4))[0] - 0x08000000
+    # BPS SourceRead can retain unchanged pointer bytes from the source ROM.
+    # Use the real four-byte source fixture for those bytes; a repackaged BPS
+    # need not redundantly emit them as TargetRead literals.
+    source_pointer = (root / "tests/unit/fixtures/aubrun_sign_pointer.bin").read_bytes()
+    pointer = bytes(
+        source_pointer[i] if target.is_source_read(0x1E931EA + i)
+        else target[0x1E931EA + i]
+        for i in range(4)
+    )
+    offset = struct.unpack("<I", pointer)[0] - 0x08000000
     actual = target.read(offset, 15)
     # Assert : flèche et texte Pokémon ; le terminateur est vérifié en E2E.
     assert actual == bytes.fromhex("7900bddcd9e2d5e000bbe9d6e6e9e2")
