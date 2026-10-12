@@ -8,6 +8,9 @@ The project started from a Spanish reproduction / reverse-engineering pipeline a
 
 French is the reference translation: it is complete, byte-perfect, and built through a dedicated recipe to avoid regressions. Other languages are driven by the generic multi-language pipeline.
 
+For graphics contributors: [known sprite inventory and NSE editing pilot](docs/57_SPRITE_INVENTORY_NSE.md)
+(18 registered families; partial ROM coverage, indexed PNG/BMP, guarded round trips).
+
 ## Install the French patch
 
 ### English

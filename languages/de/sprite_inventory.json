@@ -1,0 +1,675 @@
+{
+  "schema_version": 1,
+  "target": "Pokemon Unbound 2.1.1.1",
+  "rom_version_verified": false,
+  "coverage": {
+    "registry": "complete",
+    "rom": "partial",
+    "unknown_asset_count": null,
+    "pointer_references": "known-only"
+  },
+  "assets": [
+    {
+      "asset_id": "battle_kp_elements",
+      "category": "battle-summary",
+      "width": 8,
+      "height": 8,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "raw",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00D11BC4",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 1,
+          "offset": "0x00D11BE4",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "battle_kp_labels",
+      "category": "battle-summary",
+      "width": 16,
+      "height": 8,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": false,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": true,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00D1F604",
+          "pointer_locations": [],
+          "start_tile": 19,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 1,
+          "offset": "0x00EEF0AC",
+          "pointer_locations": [],
+          "start_tile": 20,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 2,
+          "offset": "0x00EEF380",
+          "pointer_locations": [],
+          "start_tile": 19,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 3,
+          "offset": "0x00EEF688",
+          "pointer_locations": [],
+          "start_tile": 19,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "battle_status_badges",
+      "category": "battle-summary",
+      "width": 24,
+      "height": 40,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "raw",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00D11E64",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 1,
+          "offset": "0x00D124A4",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 2,
+          "offset": "0x00D12684",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 3,
+          "offset": "0x00D12864",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "cube_sort_hint",
+      "category": "menu-world",
+      "width": 104,
+      "height": 32,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00EF1B68",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "level_marker",
+      "category": "battle-summary",
+      "width": 8,
+      "height": 8,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "raw",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x001ECFA0",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "party_kp_label",
+      "category": "battle-summary",
+      "width": 64,
+      "height": 80,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": false,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x008001D0",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "pc_box_labels",
+      "category": "menu-world",
+      "width": 128,
+      "height": 72,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": "0x003CE5DC",
+        "status": "registered-rom-palette",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00E9C438",
+          "pointer_locations": [
+            "0x0008F034"
+          ],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "pokemon_mart_sign",
+      "category": "menu-world",
+      "width": 16,
+      "height": 8,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": "0x00EA1BC8",
+        "status": "registered-rom-palette",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x007559B8",
+          "pointer_locations": [],
+          "start_tile": 225,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": 10452
+        },
+        {
+          "index": 1,
+          "offset": "0x00B89D5C",
+          "pointer_locations": [],
+          "start_tile": 225,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": 10531
+        },
+        {
+          "index": 2,
+          "offset": "0x00CF91A0",
+          "pointer_locations": [],
+          "start_tile": 413,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": 11604
+        }
+      ]
+    },
+    {
+      "asset_id": "selection",
+      "category": "menu-world",
+      "width": 40,
+      "height": 104,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "raw",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00E985D8",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "start_menu_move_hint",
+      "category": "menu-world",
+      "width": 120,
+      "height": 8,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00B1BBE0",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "status_badges",
+      "category": "battle-summary",
+      "width": 32,
+      "height": 64,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": false,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00B1E11C",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 1,
+          "offset": "0x00B1E280",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 2,
+          "offset": "0x00E82EA0",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        },
+        {
+          "index": 3,
+          "offset": "0x00E9BF48",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "summary_kp_bar",
+      "category": "battle-summary",
+      "width": 96,
+      "height": 8,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": false,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00E9B4B8",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": 192
+        }
+      ]
+    },
+    {
+      "asset_id": "summary_stat_labels",
+      "category": "battle-summary",
+      "width": 128,
+      "height": 256,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": "0x00E9B310",
+        "status": "registered-rom-palette",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": true,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00E9A460",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "title_screen",
+      "category": "screen",
+      "width": 256,
+      "height": 160,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 8,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": "0x01FD699C",
+        "status": "registered-rom-palette",
+        "colours": 256
+      },
+      "tilemap_compression": "gba-lz77-0x10",
+      "tilemap_status": "registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x01FD4854",
+          "pointer_locations": [
+            "0x01ED7C7C",
+            "0x01ED7EC0"
+          ],
+          "start_tile": 0,
+          "tilemap_offset": "0x01FD6514",
+          "tilemap_pointer_locations": [
+            "0x01ED7C84",
+            "0x01ED7EC8"
+          ],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "trainer_card_back",
+      "category": "screen",
+      "width": 256,
+      "height": 160,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": "gba-lz77-0x10",
+      "tilemap_status": "registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x01FDAA4C",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": "0x01FDB2AC",
+          "tilemap_pointer_locations": [
+            "0x01ED8AB8"
+          ],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "trainer_card_front",
+      "category": "screen",
+      "width": 256,
+      "height": 160,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "gba-lz77-0x10",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": "gba-lz77-0x10",
+      "tilemap_status": "registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x01FDA2BC",
+          "pointer_locations": [
+            "0x01ED8AA4"
+          ],
+          "start_tile": 0,
+          "tilemap_offset": "0x01FDA820",
+          "tilemap_pointer_locations": [
+            "0x01ED8AA8"
+          ],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "type_icons_battle",
+      "category": "battle-summary",
+      "width": 128,
+      "height": 104,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "raw",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": false,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00961A00",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    },
+    {
+      "asset_id": "type_icons_summary",
+      "category": "battle-summary",
+      "width": 128,
+      "height": 152,
+      "dimensions_meaning": "editable-window",
+      "bits_per_pixel": 4,
+      "compression": "raw",
+      "vram_safe_compression": true,
+      "palette": {
+        "offset": null,
+        "status": "unknown-display-only",
+        "colours": 16
+      },
+      "tilemap_compression": null,
+      "tilemap_status": "not-registered",
+      "extractability": "registered-unverified",
+      "pilot": true,
+      "blocks": [
+        {
+          "index": 0,
+          "offset": "0x00B1EC64",
+          "pointer_locations": [],
+          "start_tile": 0,
+          "tilemap_offset": null,
+          "tilemap_pointer_locations": [],
+          "declared_compressed_capacity": null
+        }
+      ]
+    }
+  ]
+}
