@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 
 for (const [label, pointer] of [['normal', 0x1edc000], ['cube-plein', 0x1edbff8]] as const) {
-test(`la découverte minière ${label} affiche le nom sans A`, async ({ page }) => {
+test(`la découverte minière ${label} affiche le nom sans A ni espace initial`, async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'mining-items-'));
   const rom = fs.readFileSync(process.env.ROM_PATH ?? path.join(root, 'output/roms/GenedRom-fr.gba'));
   // Lire le pointeur utilisé par le vrai script, y compris après relocation.
@@ -19,7 +19,7 @@ test(`la découverte minière ${label} affiche le nom sans A`, async ({ page }) 
   expect(offset).toBeLessThan(rom.length);
   const end = rom.indexOf(0xFF, offset);
   expect(end).toBeGreaterThan(offset);
-  expect(rom.subarray(offset, offset + 5)).toEqual(Buffer.from([0xfd, 3, 0, 0xfd, 2]));
+  expect(rom.subarray(offset, offset + 4)).toEqual(Buffer.from([0xfd, 3, 0xfd, 2]));
   expect(decodePokemonText(rom.subarray(offset, end + 1))).toContain('a été trouvé.');
   // Fenêtre de rendu du moteur : le texte reste celui référencé par le mini-jeu.
   rom.writeUInt32LE(0x08000000 + offset, 0x1a6a88);

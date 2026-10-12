@@ -10,11 +10,11 @@ entries:
 - offset: '0x1F8220B'
   name: Découverte minière sans article anglais
   issue: '#199'
-  expected: '{STR_VAR_2} {STR_VAR_1}\na été trouvé.'
+  expected: '{STR_VAR_2}{STR_VAR_1}\na été trouvé.'
 - offset: '0x1F8221D'
   name: Découverte minière sans article anglais
   issue: '#199'
-  expected: '{STR_VAR_2} {STR_VAR_1}\na été trouvé.\pDommage ! Il n''y a pas de place\npour ça dans le Cube.'
+  expected: '{STR_VAR_2}{STR_VAR_1}\na été trouvé.\pDommage ! Il n''y a pas de place\npour ça dans le Cube.'
 - offset: '0x1F9CCB0'
   name: Petite fille perdue de Rivapolis — tournis
   issue: '#208'
