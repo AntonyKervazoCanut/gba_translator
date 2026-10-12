@@ -2469,3 +2469,16 @@ d’annulation dans le reste du jeu.
   « Collec ». Les tests ciblés et les 29 gardes d’intégrité passent.
 - Le hook de commit valide 1 901 tests Python rapides (1 skip historique),
   68 tests Vitest et les builds complets FR/IT/DE. Aucun push n’est effectué.
+
+
+# Issue #194 — Point parasite à droite de Dépl. sur la carte
+
+- Cause : le bandeau partagé à `0x418E77` écrit le point final d’Annul.
+  dans la cellule vide `0x418E8B`, lue par `0xC05DC` et `0xC2840`.
+- Le patch FR reloge le bandeau complet à `0x15FBD30`, repointe `0x9FB64`
+  et restaure la cellule vide `00 FF`, sans toucher au point de Dépl.
+- Le slot est contrôlé avant toute mutation ; une collision est refusée.
+- Régressions unitaires : cellule vide, bandeau complet, idempotence et collision.
+- Playwright hors écran : initialisation réelle de la carte mode 1, assertion
+  pixel sur l’action vide et sur Dépl., contrôle négatif avec le défaut réintroduit.
+- Capture de preuve dans le répertoire temporaire système, hors dépôt.

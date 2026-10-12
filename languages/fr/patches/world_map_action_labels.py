@@ -1,20 +1,11 @@
 #!/usr/bin/env python3
 """Stabilise les libellés d'action partagés (#111 / #131 / #178).
 
-Le bandeau de déplacement est chargé par le littéral ``0x9FB64``. La source
-FR courte existe à ``0x418E77``, mais le build générique peut conserver une
-ancienne cellule sans le point final ou laisser le littéral pointer vers une
-relocalisation périmée. Le correctif source seul ne survit donc pas à tous les
-rebuilds.
-
-Les actions d'annulation ont le même problème : l'injection relocalise leurs
-trois pointeurs vers la chaîne générique « Annuler » et laisse les deux cellules
-anglaises d'origine intactes. La forme « Annul. » occupe exactement la largeur
-de « Cancel » ; elle peut donc être restaurée en place sans allocation.
-
-Ce patch post-build réécrit les trois cellules canoniques, puis restaure leurs
-quatre pointeurs. Il est déterministe, idempotent et ne touche ni le
-« Annuler » partagé du menu Équipe ni sa relocalisation.
+Le bandeau partagé dépasse d'un octet sa cellule originale : le point final
+d'« Annul. » écrase la chaîne vide à 0x418E8B, affichée comme une action
+indépendante sur la carte (#194). Il est relogé dans une cellule libre après
+les libellés PC ; la chaîne vide est restaurée pour les deux variantes carte.
+Les libellés « Annul. » propres à la carte gardent leurs cellules et pointeurs.
 """
 
 from __future__ import annotations
@@ -23,11 +14,12 @@ import argparse
 import struct
 from pathlib import Path
 
-
 ROM_BASE = 0x08000000
 WORLD_MAP_HINT_POINTER = 0x9FB64
-WORLD_MAP_HINT_OFFSET = 0x418E77
-WORLD_MAP_HINT_CPU_ADDR = ROM_BASE + WORLD_MAP_HINT_OFFSET
+WORLD_MAP_HINT_RELOCATED_OFFSET = 0x15FBD30
+WORLD_MAP_HINT_CPU_ADDR = ROM_BASE + WORLD_MAP_HINT_RELOCATED_OFFSET
+WORLD_MAP_EMPTY_ACTION_OFFSET = 0x418E8B
+WORLD_MAP_EMPTY_ACTION_BYTES = bytes.fromhex("00ff")
 
 # {DPAD_ANY}Dépl. {SE_SHOP}OK {B_BUTTON}Annul. + terminateur CFRU.
 WORLD_MAP_HINT_BYTES = bytes.fromhex(
@@ -52,7 +44,7 @@ def apply(rom: bytearray) -> int:
     """
     minimum_size = max(
         WORLD_MAP_HINT_POINTER + 4,
-        WORLD_MAP_HINT_OFFSET + len(WORLD_MAP_HINT_BYTES),
+        WORLD_MAP_HINT_RELOCATED_OFFSET + len(WORLD_MAP_HINT_BYTES),
         *(
             offset + len(WORLD_MAP_CANCEL_BYTES)
             for offset in WORLD_MAP_CANCEL_OFFSETS
@@ -67,10 +59,17 @@ def apply(rom: bytearray) -> int:
             f"ROM trop courte ({len(rom)} octets, minimum {minimum_size})"
         )
 
+    slot = bytes(rom[
+        WORLD_MAP_HINT_RELOCATED_OFFSET:
+        WORLD_MAP_HINT_RELOCATED_OFFSET + len(WORLD_MAP_HINT_BYTES)
+    ])
+    if slot not in (b"\xff" * len(WORLD_MAP_HINT_BYTES), WORLD_MAP_HINT_BYTES):
+        raise ValueError("Cellule de relocalisation du bandeau carte occupée")
+
     patched = 0
-    hint_end = WORLD_MAP_HINT_OFFSET + len(WORLD_MAP_HINT_BYTES)
-    if bytes(rom[WORLD_MAP_HINT_OFFSET:hint_end]) != WORLD_MAP_HINT_BYTES:
-        rom[WORLD_MAP_HINT_OFFSET:hint_end] = WORLD_MAP_HINT_BYTES
+    hint_end = WORLD_MAP_HINT_RELOCATED_OFFSET + len(WORLD_MAP_HINT_BYTES)
+    if bytes(rom[WORLD_MAP_HINT_RELOCATED_OFFSET:hint_end]) != WORLD_MAP_HINT_BYTES:
+        rom[WORLD_MAP_HINT_RELOCATED_OFFSET:hint_end] = WORLD_MAP_HINT_BYTES
         patched += 1
 
     if struct.unpack_from("<I", rom, WORLD_MAP_HINT_POINTER)[0] != (
@@ -79,6 +78,14 @@ def apply(rom: bytearray) -> int:
         struct.pack_into(
             "<I", rom, WORLD_MAP_HINT_POINTER, WORLD_MAP_HINT_CPU_ADDR
         )
+        patched += 1
+
+    empty_end = WORLD_MAP_EMPTY_ACTION_OFFSET + len(WORLD_MAP_EMPTY_ACTION_BYTES)
+    if (
+        bytes(rom[WORLD_MAP_EMPTY_ACTION_OFFSET:empty_end])
+        != WORLD_MAP_EMPTY_ACTION_BYTES
+    ):
+        rom[WORLD_MAP_EMPTY_ACTION_OFFSET:empty_end] = WORLD_MAP_EMPTY_ACTION_BYTES
         patched += 1
 
     for offset in WORLD_MAP_CANCEL_OFFSETS:

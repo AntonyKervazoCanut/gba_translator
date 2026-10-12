@@ -11,7 +11,6 @@ import pytest
 from languages.fr.patches.world_map_action_labels import apply
 from src.text.charmap_data import CHAR_TO_BYTE
 
-
 ROOT = Path(__file__).resolve().parents[3]
 BUILT_ROM = ROOT / "output/roms/GenedRom-fr.gba"
 COMBINED_FR = ROOT / "languages/fr/combined_fr.txt"
@@ -33,6 +32,7 @@ WORLD_MAP_CANCEL_TARGETS = {
 
 # Bandeaux de déplacement affichés en haut de la carte mondiale.
 WORLD_MAP_HINT_OFFSET = 0x418E77
+WORLD_MAP_HINT_RELOCATED_OFFSET = 0x15FBD30
 WORLD_MAP_MOVE_OFFSET = 0x418EB5
 WORLD_MAP_HINT_POINTER = 0x9FB64
 WORLD_MAP_MOVE_POINTERS = (0xC05D8, 0xC12E0, 0xC283C, 0xC4FE8)
@@ -50,7 +50,7 @@ WORLD_MAP_MOVE_BYTES = bytes.fromhex("f80cbe1be4e0adff")
 # Ces deux références appartiennent au menu Équipe, pas à la carte mondiale.
 PARTY_CANCEL_POINTERS = (0xA6CA2C, 0xA6CA64)
 ANNULER_BYTES = bytes.fromhex("bbe2e2e9e0d9e6ff")
-FAKE_ROM_SIZE = WORLD_MAP_HINT_OFFSET + 0x100
+FAKE_ROM_SIZE = WORLD_MAP_HINT_RELOCATED_OFFSET + 0x100
 
 _LINE_RE = re.compile(r"^\s*0x([0-9a-fA-F]+)\s*:\s*(.*)$")
 
@@ -120,7 +120,7 @@ def test_hint_patch_restores_canonical_cell_and_live_pointer() -> None:
     tail_start = WORLD_MAP_HINT_OFFSET + 0x20
     untouched_tail = bytes(rom[tail_start:tail_start + 8])
 
-    assert apply(rom) == 2
+    assert apply(rom) == 3
     assert _read_pointed_bytes(rom, WORLD_MAP_HINT_POINTER) == WORLD_MAP_HINT_BYTES
     assert bytes(rom[tail_start:tail_start + 8]) == untouched_tail
 
@@ -129,7 +129,7 @@ def test_hint_patch_is_idempotent() -> None:
     """Deux applications successives doivent produire exactement la même ROM."""
     rom = _fake_rom()
 
-    assert apply(rom) == 1
+    assert apply(rom) == 3
     after_first_apply = bytes(rom)
 
     assert apply(rom) == 0
@@ -151,7 +151,7 @@ def test_cancel_patch_restores_original_cells_and_pointer_table() -> None:
         == len(WORLD_MAP_CANCEL_ORIGINAL_BYTES)
         == 9
     )
-    assert apply(rom) == 6
+    assert apply(rom) == 8
     assert all(
         bytes(rom[offset:offset + len(WORLD_MAP_CANCEL_BYTES)])
         == WORLD_MAP_CANCEL_BYTES
@@ -229,3 +229,30 @@ def test_world_map_move_hints_have_no_trailing_residue() -> None:
         _read_pointed_bytes(rom, pointer) == WORLD_MAP_MOVE_BYTES
         for pointer in WORLD_MAP_MOVE_POINTERS
     )
+
+
+def test_hint_does_not_overwrite_world_map_empty_action() -> None:
+    """Le point d'Annul. ne doit pas apparaître à droite de Dépl. (#194)."""
+    rom = _fake_rom()
+    rom[0x418E8B:0x418E8D] = bytes.fromhex("adff")
+    struct.pack_into("<I", rom, 0xC05DC, ROM_BASE + 0x418E8B)
+    struct.pack_into("<I", rom, 0xC2840, ROM_BASE + 0x418E8B)
+
+    apply(rom)
+
+    assert _read_pointed_bytes(rom, WORLD_MAP_HINT_POINTER) == WORLD_MAP_HINT_BYTES
+    assert _read_pointed_bytes(rom, 0xC05DC) == bytes.fromhex("00ff")
+    assert _read_pointed_bytes(rom, 0xC2840) == bytes.fromhex("00ff")
+    assert apply(rom) == 0
+
+
+def test_hint_relocation_rejects_occupied_slot_without_mutation() -> None:
+    """Une future allocation ne doit pas être écrasée silencieusement."""
+    rom = _fake_rom()
+    rom[WORLD_MAP_HINT_RELOCATED_OFFSET] = 0xBB
+    before = bytes(rom)
+
+    with pytest.raises(ValueError, match="occupée"):
+        apply(rom)
+
+    assert bytes(rom) == before
