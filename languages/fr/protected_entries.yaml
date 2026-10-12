@@ -2225,3 +2225,11 @@ entries:
   name: Vocabulaire des arbustes à couper
   issue: '#202'
   expected: Cette grotte là-bas mène\nhors de la ville vers la Route 6.\pDe là, c'est tout\ndroit par la Route 7, le Mont Givre\let\nla Route 8 jusqu'à <0xFC><0x01><0x06>Cimistral<0xFC><0x01><0x08>.\pSi tu montes à pied\njusque là-haut, prends beaucoup de\lPoké Balls.\pMaintenant que l'<0xFC><0x01><0x06>Arbuste<0xFC><0x01><0x08>\nbloquant le passage a été coupé,\lelle est beaucoup plus utilisée.
+
+- offset: '0x1eea4ed'
+  name: Cimistral — ami du Maître Coupe
+  issue: '#198'
+  expected: "Ho, ho, ho !\\pTa tête en ce moment, ça n'a pas\\nde prix !\\pNe t'en fais pas, mon ami, le\\nMaître Coupe m'a dit que tu venais !"
+  forbidden:
+  - 'Cut'
+  - 'Master'
