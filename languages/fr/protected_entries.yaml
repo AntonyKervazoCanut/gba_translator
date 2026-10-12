@@ -2135,3 +2135,19 @@ entries:
   name: PC du Prof. Log — bilan et en-tête
   issue: '#191'
   expected: 'Voici ton bilan Pokédex :\p{STR_VAR_1} Pokémon vus et\n{STR_VAR_2} Pokémon capturés.\p<0xFC><0x06><0x02>Avis du Prof. Log :'
+- offset: '0x1f81e8b'
+  name: Libellé de mission — issue 210
+  issue: '#210'
+  expected: 'Missions complétées'
+- offset: '0x776047'
+  name: Libellé de mission — issue 210
+  issue: '#210'
+  expected: 'Missions complétées: <0xFC>ÀÉ<0xFD>Ç'
+- offset: '0x1fb008b'
+  name: Libellé de mission — issue 210
+  issue: '#210'
+  expected: '<0xFC>ÀÁMissions complétées: <0xFC>ÀÉ<0xFD>Á'
+- offset: '0x1f9c840'
+  name: Libellé de mission — issue 210
+  issue: '#210'
+  expected: 'Enfant perdue'
