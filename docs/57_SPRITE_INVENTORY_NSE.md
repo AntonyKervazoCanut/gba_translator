@@ -80,6 +80,23 @@ manifest, their images contain extracted artwork. `output/sprite-workflow/` is i
 by Git. The CLI is [scripts/sprite_inventory.py](../scripts/sprite_inventory.py);
 shared checks live in [SpriteInventory](../src/core/sprite_inventory.py).
 
+To move beyond the default pilot without changing the safety model, add one or
+more `--asset` flags. The asset must be registered and must not use a tilemap;
+the command refuses mapped screens so they stay on the mapped workflow below.
+Use small batches first, because every selected copy is verified as one bundle.
+
+```sh
+python3 scripts/sprite_inventory.py export \
+  --rom input/roms/englishrom.gba \
+  --directory output/sprite-workflow/2026-10-13_status --format bmp \
+  --asset status_badges
+
+python3 scripts/sprite_inventory.py verify \
+  --rom input/roms/englishrom.gba \
+  --directory output/sprite-workflow/2026-10-13_status \
+  --asset status_badges
+```
+
 ## NSE interchange contract
 
 Use ordinary **indexed Windows BMP** (BITMAPINFOHEADER, uncompressed BI_RGB), or

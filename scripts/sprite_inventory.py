@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Inventory known DE sprites; export, validate and reinsert a three-asset pilot."""
+"""Inventory known DE sprites; export, validate and reinsert guarded assets."""
 from __future__ import annotations
 
 import argparse
@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT))
 
 from languages.de.sprites import SPRITES
 from scripts.insert_sprite import _write_rom_safely
-from src.core.sprite_inventory import SpriteInventory, sha256
+from src.core.sprite_inventory import PILOT, SpriteInventory, sha256
 
 
 def output_path(value: str) -> Path:
@@ -23,12 +23,30 @@ def output_path(value: str) -> Path:
     return path
 
 
+def selected_assets(registry: dict, requested: list[str] | None) -> tuple[str, ...]:
+    """Return the requested registered assets, or the conservative pilot default."""
+    if not requested:
+        return PILOT
+    unknown = sorted(set(requested) - set(registry))
+    if unknown:
+        raise ValueError(f"unknown asset(s): {', '.join(unknown)}")
+    mapped = sorted(name for name in set(requested) if registry[name].tilemaps)
+    if mapped:
+        raise ValueError(
+            'mapped asset(s) require the mapped sprite workflow: ' + ', '.join(mapped)
+        )
+    return tuple(dict.fromkeys(requested))
+
+
 def main() -> int:
     """Run the read-only inventory or a fail-closed editing pilot."""
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest='command', required=True)
     commands.add_parser('manifest', help='print deterministic registry JSON; no ROM needed')
-    export = commands.add_parser('export', help='export the six copies of three pilot assets')
+    export = commands.add_parser(
+        'export',
+        help='export the default pilot, or selected registered non-mapped assets',
+    )
     export.add_argument('--rom', type=Path, required=True)
     export.add_argument('--directory', type=output_path, required=True)
     export.add_argument('--format', choices=('png', 'bmp'), default='png')
@@ -38,18 +56,31 @@ def main() -> int:
         command.add_argument('--directory', type=Path, required=True)
         if name == 'insert':
             command.add_argument('--out', type=output_path, required=True)
+    for command in (export, *[commands.choices[name] for name in ('verify', 'insert')]):
+        command.add_argument(
+            '--asset',
+            action='append',
+            choices=tuple(sorted(SPRITES)),
+            help=(
+                'registered non-mapped asset to process; repeat for batches. '
+                'Defaults to the three-asset pilot.'
+            ),
+        )
     args = parser.parse_args()
     inventory = SpriteInventory(SPRITES)
     try:
         if args.command == 'manifest':
             result = inventory.manifest()
         else:
+            names = selected_assets(SPRITES, args.asset)
             rom = args.rom.read_bytes()
             if args.command == 'export':
-                result = inventory.export_pilot(rom, args.directory, extension=args.format)
+                result = inventory.export_pilot(
+                    rom, args.directory, names=names, extension=args.format
+                )
             else:
-                first = inventory.insert_pilot(rom, args.directory)
-                second = inventory.insert_pilot(rom, args.directory)
+                first = inventory.insert_pilot(rom, args.directory, names=names)
+                second = inventory.insert_pilot(rom, args.directory, names=names)
                 if first != second:
                     raise ValueError('non-deterministic insertion')
                 if args.command == 'verify' and first != rom:

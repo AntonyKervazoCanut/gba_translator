@@ -8,6 +8,7 @@ from languages.fr.patches.font import lz77_compress
 from languages.fr.sprites import SpriteDef
 from src.core.sprite_inventory import SpriteInventory
 from src.graphics.sprite_image import read_indexed_image, write_indexed_image
+from scripts.sprite_inventory import selected_assets
 
 
 @pytest.fixture
@@ -187,3 +188,34 @@ def test_missing_copy_fails(pilot, tmp_path):
     (bundle / 'raw-0.png').unlink()
     with pytest.raises(FileNotFoundError):
         inventory.insert_pilot(rom, bundle, names)
+
+
+def test_cli_selection_defaults_to_pilot():
+    from src.core.sprite_inventory import PILOT
+
+    assert selected_assets({'raw': object()}, None) == PILOT
+
+
+def test_cli_selection_preserves_order_and_removes_duplicates(pilot):
+    inventory, _ = pilot
+
+    assert selected_assets(inventory.registry, ['raw', 'compressed', 'raw']) == (
+        'raw', 'compressed'
+    )
+
+
+def test_cli_selection_rejects_unknown_assets(pilot):
+    inventory, _ = pilot
+
+    with pytest.raises(ValueError, match='unknown asset'):
+        selected_assets(inventory.registry, ['raw', 'missing'])
+
+
+def test_cli_selection_rejects_mapped_assets(pilot):
+    from dataclasses import replace
+
+    inventory, _ = pilot
+    inventory.registry['mapped'] = replace(inventory.registry['raw'], tilemaps=(400,))
+
+    with pytest.raises(ValueError, match='mapped asset'):
+        selected_assets(inventory.registry, ['mapped'])
