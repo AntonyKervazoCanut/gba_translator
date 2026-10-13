@@ -105,6 +105,25 @@ python3 scripts/sprite_inventory.py verify \
   --asset status_badges
 ```
 
+## Complete registered extraction by language
+
+For a checked-in snapshot of every known registered Unbound UI sprite, use the
+language-bucket export command. It writes PNG and BMP next to the other editable
+assets under `languages/<lang>/sprites/`, creating missing files and preserving
+existing contributor-provided assets unless `--overwrite` is passed explicitly.
+Multi-copy blocks are named with `-0`, `-1`, ... suffixes; single-copy blocks keep
+the plain asset name.
+
+```sh
+python3 scripts/export_registered_sprites.py --lang fr --rom output/roms/GenedRom-fr.gba
+python3 scripts/export_registered_sprites.py --lang it --rom output/roms/GenedRom-it.gba
+python3 scripts/export_registered_sprites.py --lang de --rom output/roms/GenedRom-de.gba
+```
+
+This is still the registered superset, not a blind discovery pass over every
+graphic in the ROM. Assets extracted from built ROMs may contain game artwork;
+keep redistribution limits in mind when sharing them outside the project.
+
 ## NSE interchange contract
 
 Use ordinary **indexed Windows BMP** (BITMAPINFOHEADER, uncompressed BI_RGB), or

@@ -246,3 +246,36 @@ def test_cli_selection_rejects_mapped_assets(pilot):
 
     with pytest.raises(ValueError, match='mapped asset'):
         selected_assets(inventory.registry, ['mapped'])
+
+
+def test_registered_sprite_export_preserves_existing_assets(tmp_path, monkeypatch):
+    from languages.fr.sprites import SpriteDef
+    from scripts import export_registered_sprites as exporter
+
+    monkeypatch.setitem(
+        exporter.SPRITES,
+        'raw',
+        SpriteDef(blocks=(0,), tiles_wide=1, tiles_tall=1, compressed=False),
+    )
+    existing = tmp_path / 'raw.png'
+    existing.write_bytes(b'keep')
+
+    assert exporter._export_one(
+        bytes(range(32)),
+        tmp_path,
+        'raw',
+        'png',
+        overwrite=False,
+    ) == []
+    assert existing.read_bytes() == b'keep'
+
+    written = exporter._export_one(
+        bytes(range(32)),
+        tmp_path,
+        'raw',
+        'bmp',
+        overwrite=False,
+    )
+
+    assert written == [tmp_path / 'raw.bmp']
+    assert written[0].is_file()

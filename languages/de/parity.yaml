@@ -206,27 +206,74 @@ patches:
   - {source: languages/fr/patches/zone_names.py, classification: pointer_text, status: equivalent, target: languages/de/patches/zone_names.py}
 
 assets:
+  - {source: languages/fr/sprites/battle_kp_elements-0.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_elements-0.bmp}
+  - {source: languages/fr/sprites/battle_kp_elements-0.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_elements-0.png}
+  - {source: languages/fr/sprites/battle_kp_elements-1.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_elements-1.bmp}
+  - {source: languages/fr/sprites/battle_kp_elements-1.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_elements-1.png}
+  - {source: languages/fr/sprites/battle_kp_labels-0.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_labels-0.bmp}
+  - {source: languages/fr/sprites/battle_kp_labels-0.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_labels-0.png}
+  - {source: languages/fr/sprites/battle_kp_labels-1.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_labels-1.bmp}
+  - {source: languages/fr/sprites/battle_kp_labels-1.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_labels-1.png}
+  - {source: languages/fr/sprites/battle_kp_labels-2.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_labels-2.bmp}
+  - {source: languages/fr/sprites/battle_kp_labels-2.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_labels-2.png}
+  - {source: languages/fr/sprites/battle_kp_labels-3.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_labels-3.bmp}
+  - {source: languages/fr/sprites/battle_kp_labels-3.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_kp_labels-3.png}
+  - {source: languages/fr/sprites/battle_status_badges-0.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_status_badges-0.bmp}
+  - {source: languages/fr/sprites/battle_status_badges-0.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_status_badges-0.png}
+  - {source: languages/fr/sprites/battle_status_badges-1.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_status_badges-1.bmp}
+  - {source: languages/fr/sprites/battle_status_badges-1.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_status_badges-1.png}
+  - {source: languages/fr/sprites/battle_status_badges-2.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_status_badges-2.bmp}
+  - {source: languages/fr/sprites/battle_status_badges-2.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_status_badges-2.png}
+  - {source: languages/fr/sprites/battle_status_badges-3.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_status_badges-3.bmp}
+  - {source: languages/fr/sprites/battle_status_badges-3.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/battle_status_badges-3.png}
   - {source: languages/fr/sprites/cube_sort_hint.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/cube_sort_hint.png}
   - {source: languages/fr/sprites/cube_sort_hint.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/cube_sort_hint.png}
+  - {source: languages/fr/sprites/level_marker.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/level_marker.bmp}
+  - {source: languages/fr/sprites/level_marker.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/level_marker.png}
+  - {source: languages/fr/sprites/party_kp_label.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/party_kp_label.bmp}
+  - {source: languages/fr/sprites/party_kp_label.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/party_kp_label.png}
   - source: languages/fr/sprites/tm_case_cs.png
     classification: lz77_graphic
     status: excluded
     reason: "Sigle CS propre au français (#189) ; le sigle allemand VM nécessite une ressource distincte."
+  - {source: languages/fr/sprites/pc_box_labels.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pc_box_labels.bmp}
   - {source: languages/fr/sprites/pc_box_labels.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pc_box_labels.png}
+  - {source: languages/fr/sprites/pokemon_mart_sign-0.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-0.bmp}
+  - {source: languages/fr/sprites/pokemon_mart_sign-0.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-0.png}
+  - {source: languages/fr/sprites/pokemon_mart_sign-1.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-1.bmp}
+  - {source: languages/fr/sprites/pokemon_mart_sign-1.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-1.png}
+  - {source: languages/fr/sprites/pokemon_mart_sign-2.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-2.bmp}
+  - {source: languages/fr/sprites/pokemon_mart_sign-2.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-2.png}
   - {source: languages/fr/sprites/pokemon_mart_sign.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-2.png}
   - {source: languages/fr/sprites/pokemon_mart_sign.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-2.png}
   - {source: languages/fr/sprites/pokemon_mart_sign_classic.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/pokemon_mart_sign-0.png}
   - {source: languages/fr/sprites/selection.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/selection.png}
+  - {source: languages/fr/sprites/selection.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/selection.png}
   - {source: languages/fr/sprites/start_menu_move_hint.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/start_menu_move_hint.png}
+  - {source: languages/fr/sprites/start_menu_move_hint.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/start_menu_move_hint.png}
+  - {source: languages/fr/sprites/status_badges-0.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-0.bmp}
+  - {source: languages/fr/sprites/status_badges-0.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-0.png}
+  - {source: languages/fr/sprites/status_badges-1.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-1.bmp}
+  - {source: languages/fr/sprites/status_badges-1.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-1.png}
+  - {source: languages/fr/sprites/status_badges-2.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-2.bmp}
+  - {source: languages/fr/sprites/status_badges-2.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-2.png}
+  - {source: languages/fr/sprites/status_badges-3.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-3.bmp}
+  - {source: languages/fr/sprites/status_badges-3.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-3.png}
   - {source: languages/fr/sprites/status_badges.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-0.bmp}
   - {source: languages/fr/sprites/status_badges.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/status_badges-0.png}
+  - {source: languages/fr/sprites/summary_kp_bar.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/summary_kp_bar.bmp}
+  - {source: languages/fr/sprites/summary_kp_bar.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/summary_kp_bar.png}
+  - {source: languages/fr/sprites/summary_stat_labels.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/summary_stat_labels.bmp}
   - {source: languages/fr/sprites/summary_stat_labels.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/summary_stat_labels.png}
+  - {source: languages/fr/sprites/title_screen.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/title_screen.bmp}
   - {source: languages/fr/sprites/title_screen.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/title_screen.png}
   - {source: languages/fr/sprites/trainer_card_back.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/trainer_card_back.bmp}
   - {source: languages/fr/sprites/trainer_card_back.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/trainer_card_back.png}
   - {source: languages/fr/sprites/trainer_card_front.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/trainer_card_front.bmp}
   - {source: languages/fr/sprites/trainer_card_front.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/trainer_card_front.png}
+  - {source: languages/fr/sprites/type_icons_battle.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/type_icons_battle.bmp}
   - {source: languages/fr/sprites/type_icons_battle.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/type_icons_battle.png}
+  - {source: languages/fr/sprites/type_icons_summary.bmp, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/type_icons_summary.bmp}
   - {source: languages/fr/sprites/type_icons_summary.png, classification: lz77_graphic, status: equivalent, target: languages/de/sprites/type_icons_summary.png}
 
 rom_tests:
