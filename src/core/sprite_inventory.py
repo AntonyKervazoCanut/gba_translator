@@ -66,6 +66,9 @@ class SpriteInventory:
     def manifest(self) -> dict:
         """Return deterministic metadata, explicitly excluding full-ROM coverage."""
         assets = []
+        block_instances = 0
+        mapped_assets = 0
+        linear_assets = 0
         for name, sprite in sorted(self.registry.items()):
             blocks = []
             for i, offset in enumerate(sprite.blocks):
@@ -81,6 +84,10 @@ class SpriteInventory:
                     'declared_compressed_capacity': (
                         sprite.max_compressed_sizes[i] if sprite.max_compressed_sizes else None),
                 })
+            block_instances += len(blocks)
+            is_mapped = bool(sprite.tilemaps)
+            mapped_assets += int(is_mapped)
+            linear_assets += int(not is_mapped)
             category = ('battle-summary' if name in PILOT or name.startswith(
                 ('battle_', 'summary_', 'party_', 'type_', 'status_', 'level_'))
                 else 'screen' if name.startswith(('trainer_card', 'title_')) else 'menu-world')
@@ -99,6 +106,15 @@ class SpriteInventory:
                 'tilemap_compression': 'gba-lz77-0x10' if sprite.tilemaps else None,
                 'tilemap_status': 'registered' if sprite.tilemaps else 'not-registered',
                 'extractability': 'registered-unverified',
+                'editing_workflow': (
+                    'mapped-sprite-workflow' if is_mapped
+                    else 'sprite-inventory-linear-bundle'
+                ),
+                'pilot_selectable': not is_mapped,
+                'nse_interchange': (
+                    'indexed-png-bmp-after-mapped-extraction' if is_mapped
+                    else 'indexed-png-bmp-linear-window'
+                ),
                 'pilot': name in PILOT,
                 'blocks': blocks,
             })
@@ -108,6 +124,10 @@ class SpriteInventory:
             'rom_version_verified': False,
             'coverage': {'registry': 'complete', 'rom': 'partial',
                          'unknown_asset_count': None,
+                         'known_asset_count': len(assets),
+                         'block_instance_count': block_instances,
+                         'linear_pilot_selectable_count': linear_assets,
+                         'mapped_workflow_count': mapped_assets,
                          'pointer_references': 'known-only'},
             'assets': assets,
         }

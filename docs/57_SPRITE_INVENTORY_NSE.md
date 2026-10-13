@@ -5,7 +5,9 @@
 The checked-in [manifest](../languages/de/sprite_inventory.json) covers **all 18
 families / 30 block instances in the current German registry**, not all graphics
 in the ROM. It is generated directly from [the DE registry](../languages/de/sprites.py)
-and its [shared definitions](../languages/fr/sprites.py). Unknown asset counts,
+and its [shared definitions](../languages/fr/sprites.py). The coverage block also
+counts 15 linear assets that can be selected by the guarded inventory bundle and
+3 mapped screens that must stay on the mapped workflow. Unknown asset counts,
 unknown palettes, undeclared pointer references and undeclared tilemaps remain
 explicitly unknown. An empty pointer list does **not** prove that no pointers exist.
 A missing tilemap means the tool exposes a linear tile window, not that the game
@@ -28,6 +30,12 @@ All offsets are file offsets, not GBA bus addresses. A ROM pointer stores
 `0x08000000 + offset` as a 32-bit little-endian value. `pointer_locations` identifies
 where pointers are stored. Only declared pointers can be checked; dynamic code
 references require separate reverse engineering.
+
+Per-asset `editing_workflow` and `pilot_selectable` are decision fields, not proof
+that the asset has been tested on a reporter's ROM. `sprite-inventory-linear-bundle`
+means `export`/`verify`/`insert --asset ...` may process the asset as a bounded
+linear PNG/BMP bundle. `mapped-sprite-workflow` means the tilemap-aware extractor
+and inserter are required; the inventory CLI intentionally refuses it.
 
 Existing coverage includes Trainer Card front/back, title screen (8bpp), status
 badges, type icons in summary/battle, summary and party KP, four battle KP copies,

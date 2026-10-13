@@ -32,10 +32,37 @@ def test_manifest_is_complete_only_for_registry(pilot):
     manifest = inventory.manifest()
     assert manifest['coverage']['rom'] == 'partial'
     assert manifest['coverage']['registry'] == 'complete'
+    assert manifest['coverage']['known_asset_count'] == 2
+    assert manifest['coverage']['block_instance_count'] == 2
+    assert manifest['coverage']['linear_pilot_selectable_count'] == 2
+    assert manifest['coverage']['mapped_workflow_count'] == 0
     assert len(manifest['assets']) == 2
     assert manifest['assets'][0]['blocks'][0]['start_tile'] == 1
     assert manifest['assets'][0]['palette']['status'] == 'unknown-display-only'
     assert manifest['assets'][0]['extractability'] == 'registered-unverified'
+    assert manifest['assets'][0]['editing_workflow'] == 'sprite-inventory-linear-bundle'
+    assert manifest['assets'][0]['pilot_selectable'] is True
+    assert manifest['assets'][0]['nse_interchange'] == 'indexed-png-bmp-linear-window'
+
+
+def test_manifest_distinguishes_mapped_workflow(pilot):
+    from dataclasses import replace
+
+    inventory, _ = pilot
+    inventory.registry['mapped'] = replace(
+        inventory.registry['raw'],
+        tilemaps=(300,),
+        tilemap_pointers=((304,),),
+    )
+    asset = next(
+        entry for entry in inventory.manifest()['assets']
+        if entry['asset_id'] == 'mapped'
+    )
+
+    assert asset['tilemap_status'] == 'registered'
+    assert asset['editing_workflow'] == 'mapped-sprite-workflow'
+    assert asset['pilot_selectable'] is False
+    assert asset['nse_interchange'] == 'indexed-png-bmp-after-mapped-extraction'
 
 
 @pytest.mark.parametrize('extension', ['png', 'bmp'])

@@ -6,6 +6,10 @@
     "registry": "complete",
     "rom": "partial",
     "unknown_asset_count": null,
+    "known_asset_count": 18,
+    "block_instance_count": 30,
+    "linear_pilot_selectable_count": 15,
+    "mapped_workflow_count": 3,
     "pointer_references": "known-only"
   },
   "assets": [
@@ -26,6 +30,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -65,6 +72,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": true,
       "blocks": [
         {
@@ -122,6 +132,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -179,6 +192,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -209,6 +225,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -239,6 +258,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -269,6 +291,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -301,6 +326,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -349,6 +377,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -379,6 +410,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -409,6 +443,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -466,6 +503,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -496,6 +536,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": true,
       "blocks": [
         {
@@ -526,6 +569,9 @@
       "tilemap_compression": "gba-lz77-0x10",
       "tilemap_status": "registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "mapped-sprite-workflow",
+      "pilot_selectable": false,
+      "nse_interchange": "indexed-png-bmp-after-mapped-extraction",
       "pilot": false,
       "blocks": [
         {
@@ -562,6 +608,9 @@
       "tilemap_compression": "gba-lz77-0x10",
       "tilemap_status": "registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "mapped-sprite-workflow",
+      "pilot_selectable": false,
+      "nse_interchange": "indexed-png-bmp-after-mapped-extraction",
       "pilot": false,
       "blocks": [
         {
@@ -594,6 +643,9 @@
       "tilemap_compression": "gba-lz77-0x10",
       "tilemap_status": "registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "mapped-sprite-workflow",
+      "pilot_selectable": false,
+      "nse_interchange": "indexed-png-bmp-after-mapped-extraction",
       "pilot": false,
       "blocks": [
         {
@@ -628,6 +680,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": false,
       "blocks": [
         {
@@ -658,6 +713,9 @@
       "tilemap_compression": null,
       "tilemap_status": "not-registered",
       "extractability": "registered-unverified",
+      "editing_workflow": "sprite-inventory-linear-bundle",
+      "pilot_selectable": true,
+      "nse_interchange": "indexed-png-bmp-linear-window",
       "pilot": true,
       "blocks": [
         {
