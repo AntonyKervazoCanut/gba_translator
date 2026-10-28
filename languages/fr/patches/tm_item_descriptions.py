@@ -16,32 +16,31 @@ Suc Digestif, …). When the bag renders such a description, ``GetStringWidth``
 scans for a ``0xFF`` that never comes → **infinite loop → frozen screen**
 (reported as the "Volcan Cendre" freeze when picking up CT94 to the left).
 
-This post-build step gives every broken CT/CS item its own self-contained,
-terminated copy of the authoritative French description (from
-``combined_fr.txt``), placed in ROM free space, and repoints the item entry at
-it. A description is healthy only when its complete encoded bytes match that
-source: a short terminated fragment can otherwise look valid after a neighbour
-overwrites its beginning (CT108 in FR 2.1.85). The encoder always appends the
-``0xFF`` terminator, so a relocated description can never run into its
-neighbour again. The protected gift item CT112 is excluded because its
-description pointer deliberately remains byte-identical to English under its
-dedicated struct guard. The pass is idempotent: once an item points outside the
-fused region it is left alone.
+This post-build step repairs the item pointers and gives French descriptions
+four lines of at most 144 pixels, matching the TM case's lower-right panel.
+The source ROM identifies the canonical combined entry even after relocation.
+Curated rewrites cover descriptions that cannot fit without shortening; other
+texts only change line breaks. Unfittable descriptions fail the build instead
+of silently clipping. The protected gift CT112 remains untouched. Without a
+source ROM, the historical anti-freeze behaviour is retained for language ports.
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import re
+import shutil
 import struct
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 
+from languages.fr.patches.givecs_gift_item import GIVE_CS_ITEM_ID
+from src.core.pokedex import line_width, wrap_lines
 from src.core.text_codec import TextDecoder, TextEncoder
 from src.core.text_reinserter import FreeSpaceAllocator
-from languages.fr.patches.givecs_gift_item import GIVE_CS_ITEM_ID
 
 ROM_POINTER_BASE = 0x08000000
 
@@ -61,6 +60,9 @@ FUSED_REGION = (0xA30000, 0xA50000)
 # are the only consumers of the fused region; guard by name so no ordinary item
 # is ever touched. "CT" = Capsule Technique (TM), "CS" = Capacité Secrète (HM).
 MACHINE_PREFIXES = ("CT", "CS")
+
+TM_CASE_MAX_LINES = 4
+TM_CASE_LINE_WIDTH = 144
 
 DEFAULT_COMBINED = Path(__file__).resolve().parents[3] / "languages/fr/combined_fr.txt"
 LINE_RE = re.compile(r"\s*0x([0-9a-fA-F]+)\s*:\s*(.*)")
@@ -101,8 +103,11 @@ def _item_name(rom: bytes, base: int) -> str:
     return TextDecoder.decode_pokemon(rom[base:base + ITEM_NAME_LEN])
 
 
-def apply(rom: bytearray, combined: dict, reserved_rom: bytes | None = None) -> dict:
-    """Relocate every CT/CS description out of the fused region (rom mutated)."""
+def apply(
+    rom: bytearray, combined: dict, reserved_rom: bytes | None = None,
+    *, source: bytes | None = None, overrides: dict[int, str] | None = None,
+) -> dict:
+    """Répare les textes CT/CS et, avec leur source, adapte leur affichage."""
     allocator = FreeSpaceAllocator(rom, reserved_rom=reserved_rom)
     stats = {"machines": 0, "relocated": 0, "skipped_outside": 0,
              "skipped_protected": 0, "in_place_ok": 0,
@@ -130,16 +135,31 @@ def apply(rom: bytearray, combined: dict, reserved_rom: bytes | None = None) -> 
             continue
 
         ptr = _deref(rom, base + DESC_PTR_OFFSET)
-        if ptr is None or not (FUSED_REGION[0] <= ptr < FUSED_REGION[1]):
+        source_ptr = _deref(source, base + DESC_PTR_OFFSET) if source is not None else ptr
+        if ptr is None or source_ptr is None or (
+            source is None and not (FUSED_REGION[0] <= ptr < FUSED_REGION[1])
+        ):
             stats["skipped_outside"] += 1
             continue
 
-        text = combined.get(ptr)
+        text = (overrides or {}).get(item_id, combined.get(source_ptr))
         if not text:
             stats["missing_text"] += 1
             continue
 
-        encoded = TextEncoder.encode_pokemon(_normalize(text))
+        text = _normalize(text)
+        if source is not None:
+            # Boîte CT : x=96..239, quatre lignes de 14 px. Ne jamais
+            # injecter un résultat « best effort » qui serait encore rogné.
+            lines = wrap_lines(text, max_lines=TM_CASE_MAX_LINES, max_width=TM_CASE_LINE_WIDTH)
+            if lines is None:
+                stats["failed"] += 1
+                continue
+            if len(text.splitlines()) > TM_CASE_MAX_LINES or any(
+                line_width(line) > TM_CASE_LINE_WIDTH for line in text.splitlines()
+            ):
+                text = "\n".join(lines)
+        encoded = TextEncoder.encode_pokemon(text)
         # A terminateur proche ne prouve pas que le début de la chaîne est
         # intact : CT108 conservait un fragment court d'une voisine. Seule
         # l'égalité complète avec la source canonique permet de garder le
@@ -175,7 +195,20 @@ def main() -> int:
     combined = load_combined(Path(args.combined))
     reserved = Path(args.reference_rom).read_bytes() if args.reference_rom else None
 
-    stats = apply(rom, combined, reserved_rom=reserved)
+    # Le port italien conserve son comportement historique ; les réécritures
+    # françaises ne doivent jamais être appliquées à ses descriptions.
+    source = None
+    overrides = None
+    if Path(args.combined).resolve() == DEFAULT_COMBINED.resolve():
+        source_path = DEFAULT_COMBINED.parents[2] / "input/roms/englishrom.gba"
+        source = source_path.read_bytes()
+        overrides_path = DEFAULT_COMBINED.parent / "data/tm_item_descriptions_fr.json"
+        overrides = {int(k): v for k, v in json.loads(overrides_path.read_text()).items()}
+    stats = apply(rom, combined, reserved_rom=reserved, source=source, overrides=overrides)
+    if stats["failed"]:
+        print(f"Descriptions hors budget ou espace libre insuffisant : {stats}")
+        return 1
+    shutil.copyfile(rom_path, str(rom_path) + ".bak")
     rom_path.write_bytes(rom)
 
     print("✓ TM/HM item descriptions (anti-freeze bag):")
@@ -187,9 +220,6 @@ def main() -> int:
         print(f"   - Protected gift:    {stats['skipped_protected']}")
     if stats["missing_text"]:
         print(f"   - Missing text:       {stats['missing_text']}")
-    if stats["failed"]:
-        print(f"   - FAILED (free space):{stats['failed']}")
-        return 1
     return 0
 
 

@@ -25,15 +25,16 @@ on without a terminator. RED on the pre-patch build, GREEN after.
 
 from __future__ import annotations
 
+import json
 import struct
 
 import pytest
 
 pytestmark = pytest.mark.rom
 
-from src.core.text_codec import TextDecoder
 from languages.fr.patches import tm_item_descriptions as patch
-from tests.e2e.conftest import ES_ROM_PATH, FR_ROM_PATH
+from src.core.text_codec import TextDecoder
+from tests.e2e.conftest import EN_ROM_PATH, ES_ROM_PATH, FR_ROM_PATH
 
 ROM_BASE = 0x08000000
 
@@ -130,15 +131,37 @@ def test_ct108_description_is_complete(fr_rom):
 
 
 @pytest.mark.private_build
-def test_machine_description_patch_is_idempotent_on_built_rom(fr_rom):
+@pytest.mark.parametrize("use_source", [False, True])
+def test_machine_description_patch_is_idempotent_on_built_rom(fr_rom, use_source):
     """La ROM livrée ne doit réserver aucun nouvel espace à la seconde passe."""
     rebuilt = bytearray(fr_rom)
     stats = patch.apply(
         rebuilt,
         patch.load_combined(patch.DEFAULT_COMBINED),
         reserved_rom=ES_ROM_PATH.read_bytes(),
+        source=EN_ROM_PATH.read_bytes() if use_source else None,
+        overrides={int(k): v for k, v in json.loads(
+            (patch.DEFAULT_COMBINED.parent / 'data/tm_item_descriptions_fr.json').read_text()
+        ).items()} if use_source else None,
     )
 
     assert stats["relocated"] == 0
     assert stats["skipped_protected"] == 1
     assert rebuilt == fr_rom
+
+
+def test_all_machine_descriptions_fit_the_case_window(fr_rom):
+    """#223 : chaque description utile tient en quatre lignes de 144 pixels."""
+    import re
+
+    from src.core.pokedex import line_width
+
+    checked = 0
+    for index, _, name, ptr in _machine_items(fr_rom):
+        if index == patch.GIVE_CS_ITEM_ID or not re.fullmatch(r'(CT|CS)\d+', name):
+            continue
+        text = TextDecoder.decode_pokemon(fr_rom[ptr:fr_rom.index(b'\xff', ptr)])
+        assert len(text.splitlines()) <= 4, (name, text)
+        assert all(line_width(line) <= 144 for line in text.splitlines()), (name, text)
+        checked += 1
+    assert checked >= 120
