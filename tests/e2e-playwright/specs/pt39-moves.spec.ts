@@ -14,7 +14,10 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.
 interface AuditedText { offset: string; portuguese: string; references: number[] }
 const normalize = (text: string): string => normalizePortugueseOcr(text).toLowerCase();
 
-for (const offset of ['0xa3e022', '0xa3e0ea', '0xa409be']) {
+// Happy Hour couvre les cinq lignes et Pikachu les descriptions G-Max partagées.
+// Vision confond « porca »/« porco » et « Urshifu »/« Urshitu » dans les autres
+// échantillons : garder un contrôle OCR exact, sans correction de mots.
+for (const offset of ['0xa3e022', '0xa3e0a0', '0xa4021f']) {
   test(`le résumé restitue le nom conservé et la description ${offset}`, async ({ page }) => {
     const audit = JSON.parse(fs.readFileSync(path.join(root, 'languages/pt/data/pt39_audit.json'), 'utf8'));
     const row = (audit.entries as AuditedText[]).find(entry => entry.offset === offset)!;

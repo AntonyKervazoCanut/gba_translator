@@ -69,3 +69,14 @@ def test_domain_semantics_shared_pointers_and_extended_gmax_slots():
     assert 'Single Strike' in flat('0xa4096e')
     assert 'Rapid Strike' in flat('0xa409be')
     assert all('Max Guard' in flat(o) for o in ('0xa4096e', '0xa409be'))
+
+
+def test_happy_hour_reward_and_gmax_pikachu_status():
+    rows = {r['offset']: r for r in AUDIT['entries']}
+    reward = rows['0xa3e0a0']['portuguese'].replace(r'\n', '\n')
+    pikachu = rows['0xa4021f']
+    assert len(reward.splitlines()) == 5
+    assert 'dobra o dinheiro recebido como prêmio ao fim da batalha' in reward.replace('\n', ' ')
+    assert pikachu['portuguese'].replace(r'\n', ' ') == 'Exclusivo de G-Max Pikachu. Paralisa o alvo.'
+    assert pikachu['move_ids'] == [865, 866]
+    assert pikachu['references'] == [0x99FF14, 0x99FF18]
