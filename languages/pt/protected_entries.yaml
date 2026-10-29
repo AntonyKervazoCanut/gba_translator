@@ -2,7 +2,7 @@
 entries:
   - offset: "0x238d6a"
     name: "Retour (seed PT-BR)"
-    expected: 'Voltar'
+    expected: 'Cancelar'
   - offset: "0x028780"
     name: "PT-01 0x028780"
     expected: 'O tipo de <0xFD><0x0F> ficou\nigual ao de <0xFD><0x10>!'
@@ -1572,3 +1572,531 @@ entries:
   - offset: "0x1bdedf"
     name: "PT-02 1bdedf"
     expected: 'Aproveite o sistema de\ncomunicação sem fio.'
+  - offset: "0x1bdf94"
+    name: "PT-03 0x1bdf94"
+    expected: 'Esta árvore pode ser cortada!<0xFB>Quer cortá-la?'
+  - offset: "0x1bdfd7"
+    name: "PT-03 0x1bdfd7"
+    expected: '<0xFD><0x02> usou <0xFD><0x03>!'
+  - offset: "0x1bdfe3"
+    name: "PT-03 0x1bdfe3"
+    expected: 'Esta árvore pode ser cortada!'
+  - offset: "0x1be09d"
+    name: "PT-03 0x1be09d"
+    expected: 'Esta rocha parece quebrável.\nQuer usar Rock Smash?'
+  - offset: "0x1be0e2"
+    name: "PT-03 0x1be0e2"
+    expected: 'É uma rocha dura, mas um Pokémon\npode conseguir quebrá-la.'
+  - offset: "0x1be19a"
+    name: "PT-03 0x1be19a"
+    expected: 'É uma pedra grande, mas um\nPokémon pode conseguir movê-la.<0xFB>Quer usar Strength?'
+  - offset: "0x1be1fa"
+    name: "PT-03 0x1be1fa"
+    expected: '<0xFD><0x02> usou Strength!<0xFB>Com Strength, <0xFD><0x02> agora\npode mover pedras!'
+  - offset: "0x1be244"
+    name: "PT-03 0x1be244"
+    expected: 'É uma pedra grande, mas um\nPokémon pode conseguir movê-la.'
+  - offset: "0x1be284"
+    name: "PT-03 0x1be284"
+    expected: 'Com Strength, agora é possível\nmover pedras.'
+  - offset: "0x1be30a"
+    name: "PT-03 0x1be30a"
+    expected: 'Uma parede de água cai com\num rugido poderoso.'
+  - offset: "0x1be33f"
+    name: "PT-03 0x1be33f"
+    expected: 'É uma grande cachoeira.\nQuer usar Waterfall?'
+  - offset: "0x1be378"
+    name: "PT-03 0x1be378"
+    expected: '<0xFD><0x02> usou Waterfall.'
+  - offset: "0x1be42b"
+    name: "PT-03 0x1be42b"
+    expected: 'O mar é fundo aqui. Um Pokémon\npode conseguir mergulhar.'
+  - offset: "0x1be469"
+    name: "PT-03 0x1be469"
+    expected: 'O mar é fundo aqui.\nQuer usar Dive?'
+  - offset: "0x1be49b"
+    name: "PT-03 0x1be49b"
+    expected: '<0xFD><0x02> usou Dive.'
+  - offset: "0x1be4a9"
+    name: "PT-03 0x1be4a9"
+    expected: 'A luz vem lá de cima. Um Pokémon\ntalvez possa emergir.'
+  - offset: "0x1be4ef"
+    name: "PT-03 0x1be4ef"
+    expected: 'A luz vem lá de cima.\nQuer usar Dive?'
+  - offset: "0x1be52f"
+    name: "PT-03 0x1be52f"
+    expected: 'Há um obstáculo acima.\nNão dá para usar Dive aqui.'
+  - offset: "0x1be56d"
+    name: "PT-03 0x1be56d"
+    expected: 'Parece que não há nada aqui...'
+  - offset: "0x1bef88"
+    name: "PT-03 0x1bef88"
+    expected: 'Oi, prazer em conhecer você!<0xFB>...Que falta de simpatia.\nQue tal responder ao meu oi?<0xFB>Vamos, me conte um pouco\nsobre você.<0xFB>Adoraria ouvir seu perfil!'
+  - offset: "0x1bf017"
+    name: "PT-03 0x1bf017"
+    expected: 'Me conte algo bom sobre você.\nQual é o seu perfil?'
+  - offset: "0x1bf053"
+    name: "PT-03 0x1bf053"
+    expected: 'Um perfil é escrito com quatro\npalavras ou expressões.<0xFB>Há muitas palavras à sua escolha\npara montar seu perfil.<0xFB>As palavras e expressões estão\ndivididas em grupos.<0xFB>Escolha um grupo e depois\numa palavra ou expressão.<0xFB>...É mais fácil do que parece.\nPor que não tenta?'
+  - offset: "0x1bf166"
+    name: "PT-03 0x1bf166"
+    expected: 'Qual é o seu perfil?'
+  - offset: "0x1bf17b"
+    name: "PT-03 0x1bf17b"
+    expected: 'Ah... Não seja assim.\nPode me contar seu perfil.'
+  - offset: "0x1bf1b2"
+    name: "PT-03 0x1bf1b2"
+    expected: 'Ah, desistiu?\nVocê muda de ideia rápido, hein?'
+  - offset: "0x1bf1e8"
+    name: "PT-03 0x1bf1e8"
+    expected: 'Oi!\nNos encontramos de novo!'
+  - offset: "0x1bf1fb"
+    name: "PT-03 0x1bf1fb"
+    expected: 'Quer mudar seu perfil?'
+  - offset: "0x1bf222"
+    name: "PT-03 0x1bf222"
+    expected: 'Como você está agora?\nEu adoraria saber.'
+  - offset: "0x1bf252"
+    name: "PT-03 0x1bf252"
+    expected: 'Certo, você gosta do seu\nperfil como está.<0xFB>Eu também acho.'
+  - offset: "0x1bf28e"
+    name: "PT-03 0x1bf28e"
+    expected: 'Humm...<0xFB>Seu perfil diz muito\nsobre quem você é.<0xFB>Agora que conheço você melhor,\nnossa amizade é ainda maior!'
+  - offset: "0x1bf30d"
+    name: "PT-03 0x1bf30d"
+    expected: 'Ah, já ouvi isso antes...<0xFB>Meu primo, que mora longe,\nsempre dizia isso, eu acho.'
+  - offset: "0x1bf36a"
+    name: "PT-03 0x1bf36a"
+    expected: 'Me conte mais sobre você\nna próxima vez!'
+  - offset: "0x1bf555"
+    name: "PT-03 0x1bf555"
+    expected: 'Sou o senhor da pensão.<0xFB>Ajudo a cuidar dos preciosos\nPokémon dos Treinadores.<0xFB>Se quiser que eu crie seus\nPokémon, fale com minha esposa.'
+  - offset: "0x1bf5e3"
+    name: "PT-03 0x1bf5e3"
+    expected: 'Ah, é você!<0xFB>Estávamos criando seus Pokémon\ne tivemos uma grande surpresa!<0xFB>Seus Pokémon tinham um Ovo!<0xFB>Não sabemos como foi parar lá,\nmas estava com seus Pokémon.<0xFB>Você quer ficar com ele, certo?'
+  - offset: "0x1bf69a"
+    name: "PT-03 0x1bf69a"
+    expected: 'Ah, é você! Que bom ver você.\nSeu <0xFD><0x02> está bem.'
+  - offset: "0x1bf6cf"
+    name: "PT-03 0x1bf6cf"
+    expected: 'Certo, vou ficar com ele.\nObrigado!'
+  - offset: "0x1bf6f0"
+    name: "PT-03 0x1bf6f0"
+    expected: 'Você não tem espaço...\nVolte quando tiver espaço.'
+  - offset: "0x1bf72a"
+    name: "PT-03 0x1bf72a"
+    expected: '<0xFD><0x01> recebeu o Ovo do\nsenhor da pensão.'
+  - offset: "0x1bf755"
+    name: "PT-03 0x1bf755"
+    expected: 'Cuide bem dele.'
+  - offset: "0x1bf789"
+    name: "PT-03 0x1bf789"
+    expected: 'Ah, é você! Seus <0xFD><0x02> e\n<0xFD><0x03> estão bem.'
+  - offset: "0x1bf7b6"
+    name: "PT-03 0x1bf7b6"
+    expected: 'Vou mesmo ficar com ele.\nVocê quer o Ovo, certo?'
+  - offset: "0x1bf7e4"
+    name: "PT-03 0x1bf7e4"
+    expected: 'Sou a senhora da pensão.<0xFB>Podemos criar Pokémon para você.<0xFB>Quer que criemos um?'
+  - offset: "0x1bf839"
+    name: "PT-03 0x1bf839"
+    expected: 'Qual Pokémon quer que criemos?'
+  - offset: "0x1bf860"
+    name: "PT-03 0x1bf860"
+    expected: 'Certo, vamos criar seu <0xFD><0x02>\npor um tempo.<0xFB>Volte para buscá-lo depois.'
+  - offset: "0x1bf89f"
+    name: "PT-03 0x1bf89f"
+    expected: 'Podemos criar dois Pokémon seus.<0xFB>Quer deixar mais um Pokémon\ncom a gente?'
+  - offset: "0x1bf8f6"
+    name: "PT-03 0x1bf8f6"
+    expected: 'Meu marido procurava você.'
+  - offset: "0x1bf916"
+    name: "PT-03 0x1bf916"
+    expected: 'Ah, tudo bem.\nVolte sempre.'
+  - offset: "0x1bf932"
+    name: "PT-03 0x1bf932"
+    expected: 'Você não tem dinheiro suficiente...'
+  - offset: "0x1bf94f"
+    name: "PT-03 0x1bf94f"
+    expected: 'Vai levar o outro também?'
+  - offset: "0x1bf976"
+    name: "PT-03 0x1bf976"
+    expected: 'Certo.\nVolte sempre.'
+  - offset: "0x1bf988"
+    name: "PT-03 0x1bf988"
+    expected: 'Ah, é você!\nQue bom ver você.<0xFB>Seus Pokémon com certeza\nestão ótimos!'
+  - offset: "0x1bf9cc"
+    name: "PT-03 0x1bf9cc"
+    expected: 'Seu <0xFD><0x02> subiu\n<0xFD><0x03> níveis.'
+  - offset: "0x1bf9ef"
+    name: "PT-03 0x1bf9ef"
+    expected: 'Sua equipe Pokémon está cheia.\nAbra espaço e volte aqui.'
+  - offset: "0x1bfa3b"
+    name: "PT-03 0x1bfa3b"
+    expected: 'Para buscar seu <0xFD><0x02>,\nvai custar ¥<0xFD><0x03>.'
+  - offset: "0x1bfa67"
+    name: "PT-03 0x1bfa67"
+    expected: 'Perfeito!\nAqui está seu Pokémon.'
+  - offset: "0x1bfa85"
+    name: "PT-03 0x1bfa85"
+    expected: '<0xFD><0x01> recuperou <0xFD><0x02>\ncom a senhora da pensão.'
+  - offset: "0x1bfaad"
+    name: "PT-03 0x1bfaad"
+    expected: 'Ah? Mas você só tem um\nPokémon.<0xFB>Volte outra hora.'
+  - offset: "0x1bfae8"
+    name: "PT-03 0x1bfae8"
+    expected: 'Vai levar seu Pokémon de volta?'
+  - offset: "0x1bfb09"
+    name: "PT-03 0x1bfb09"
+    expected: 'Se deixar esse Pokémon comigo,\ncom qual você vai batalhar?<0xFB>Volte outra hora.'
+  - offset: "0x1bfb5a"
+    name: "PT-03 0x1bfb5a"
+    expected: 'Hã?'
+  - offset: "0x1bfbe9"
+    name: "PT-03 0x1bfbe9"
+    expected: 'Quer sair da SAFARI ZONE agora?'
+  - offset: "0x1bfc1b"
+    name: "PT-03 0x1bfc1b"
+    expected: 'Alto-falante: Ding-dong!<0xFB>O tempo acabou!<0xFB>Alto-falante: Seu SAFARI GAME\nacabou!'
+  - offset: "0x1bfc53"
+    name: "PT-03 0x1bfc53"
+    expected: 'Alto-falante: Ding-dong!<0xFB>Suas SAFARI BALLS acabaram!<0xFB>Alto-falante: Seu SAFARI GAME\nacabou!'
+  - offset: "0x1c0db0"
+    name: "PT-03 0x1c0db0"
+    expected: 'Está cheio de livros\nsobre Pokémon.'
+  - offset: "0x1c0df1"
+    name: "PT-03 0x1c0df1"
+    expected: 'Um Town Map.'
+  - offset: "0x1c0dfd"
+    name: "PT-03 0x1c0dfd"
+    expected: 'Uau!\nUm monte de coisas de Pokémon!'
+  - offset: "0x1c0e19"
+    name: "PT-03 0x1c0e19"
+    expected: 'A louça e os pratos estão\nbem organizados.'
+  - offset: "0x1c0e40"
+    name: "PT-03 0x1c0e40"
+    expected: 'Que cheiro delicioso!\nAlguém esteve cozinhando aqui.'
+  - offset: "0x1c0e73"
+    name: "PT-03 0x1c0e73"
+    expected: 'É uma cômoda bem feita.\nCabe muita coisa nela.'
+  - offset: "0x1c0eac"
+    name: "PT-03 0x1c0eac"
+    expected: 'Há uma pilha de lanches aqui.'
+  - offset: "0x1c0ecb"
+    name: "PT-03 0x1c0ecb"
+    expected: 'Todos os itens de que precisa!\nPokémon Mart'
+  - offset: "0x1c0ef7"
+    name: "PT-03 0x1c0ef7"
+    expected: 'Cure seus Pokémon!\nCentro Pokémon'
+  - offset: "0x1c0f19"
+    name: "PT-03 0x1c0f19"
+    expected: 'INDIGO PLATEAU<0xFB>O grande objetivo dos Treinadores!\nSede da Liga Pokémon'
+  - offset: "0x1c0f59"
+    name: "PT-03 0x1c0f59"
+    expected: 'INDIGO PLATEAU<0xFB>A maior autoridade Pokémon!\nSede da Liga Pokémon'
+  - offset: "0x1c0f99"
+    name: "PT-03 0x1c0f99"
+    expected: 'Deve estar cheio de todo tipo\nde comida deliciosa.'
+  - offset: "0x1c0fd8"
+    name: "PT-03 0x1c0fd8"
+    expected: 'Parece ser uma planta.\nEstá cheia de diagramas e textos.'
+  - offset: "0x1c101b"
+    name: "PT-03 0x1c101b"
+    expected: 'É um belo quadro de um Pokémon.\nEle parece estar se sentindo bem.'
+  - offset: "0x1c1060"
+    name: "PT-03 0x1c1060"
+    expected: 'Que máquina será essa?\nÉ melhor não mexer nela!'
+  - offset: "0x1c109c"
+    name: "PT-03 0x1c109c"
+    expected: 'É um telefone.\nMelhor não usar.'
+  - offset: "0x1c10c1"
+    name: "PT-03 0x1c10c1"
+    expected: 'Só tem palavras complicadas\ne números sem sentido...'
+  - offset: "0x1c10fc"
+    name: "PT-03 0x1c10fc"
+    expected: 'É um cartaz de propaganda\nde vários produtos.'
+  - offset: "0x1c1134"
+    name: "PT-03 0x1c1134"
+    expected: 'Ah, que cheiro bom!\nDá até um ronco na barriga!'
+  - offset: "0x1c116e"
+    name: "PT-03 0x1c116e"
+    expected: 'Aqui dentro...\n...<0xFB>Não tem nada!'
+  - offset: "0x1c1194"
+    name: "PT-03 0x1c1194"
+    expected: 'É uma xícara com um\nsímbolo de Pokémon.'
+  - offset: "0x1c11ba"
+    name: "PT-03 0x1c11ba"
+    expected: 'A janela está bem polida.'
+  - offset: "0x1c11dc"
+    name: "PT-03 0x1c11dc"
+    expected: 'Lá fora...<0xFB>O céu está maravilhosamente\nbonito.'
+  - offset: "0x1c1217"
+    name: "PT-03 0x1c1217"
+    expected: 'Luzes de várias cores\npiscam sem parar.'
+  - offset: "0x1c124b"
+    name: "PT-03 0x1c124b"
+    expected: 'Há todo tipo de ferramenta\nbem organizada.'
+  - offset: "0x1c1273"
+    name: "PT-03 0x1c1273"
+    expected: 'É algum tipo de máquina.\nÉ bem impressionante.'
+  - offset: "0x1c12a7"
+    name: "PT-03 0x1c12a7"
+    expected: 'É o videogame mais novo!\nParece bem divertido!'
+  - offset: "0x1c12d6"
+    name: "PT-03 0x1c12d6"
+    expected: 'Há sinais claros de arrombamento\naqui...'
+  - offset: "0x1c1300"
+    name: "PT-03 0x1c1300"
+    expected: 'Tem um Pokémon na TV!\nEle parece estar se divertindo.'
+  - offset: "0x1c13d6"
+    name: "PT-03 0x1c13d6"
+    expected: 'Não há Treinadores por perto\nque possam batalhar...<0xFB>O VS Seeker foi desligado.<0xFC><0x09>'
+  - offset: "0x1c1429"
+    name: "PT-03 0x1c1429"
+    expected: 'Os outros Treinadores não parecem\nprontos para batalhar.<0xFB>Vamos esperar um pouco.<0xFC><0x09>'
+  - offset: "0x1c55c9"
+    name: "PT-03 0x1c55c9"
+    expected: 'Quer salvar o jogo?'
+  - offset: "0x1c55ea"
+    name: "PT-03 0x1c55ea"
+    expected: 'Já existe um arquivo salvo.\nPode sobrescrevê-lo?'
+  - offset: "0x1c5625"
+    name: "PT-03 0x1c5625"
+    expected: 'SALVANDO...\nNÃO DESLIGUE O APARELHO.'
+  - offset: "0x1c5647"
+    name: "PT-03 0x1c5647"
+    expected: '<0xFD><0x01> salvou o jogo.'
+  - offset: "0x1c566a"
+    name: "PT-03 0x1c566a"
+    expected: 'ATENÇÃO!<0xFB>Já existe um arquivo salvo\nde outro jogo.<0xFB>Se salvar agora, perderá toda a\naventura do outro arquivo,<0xFA>incluindo itens e Pokémon.<0xFB>Quer mesmo salvar agora e\nsobrescrever o outro arquivo?'
+  - offset: "0x1c574f"
+    name: "PT-03 0x1c574f"
+    expected: 'Novo nome'
+  - offset: "0x1c582d"
+    name: "PT-03 0x1c582d"
+    expected: 'Os botões serão explicados\npor ordem de importância.'
+  - offset: "0x1c5875"
+    name: "PT-03 0x1c5875"
+    expected: 'Move o personagem principal.\nTambém seleciona opções\nde dados.'
+  - offset: "0x1c58ba"
+    name: "PT-03 0x1c58ba"
+    expected: 'Confirma escolhas, examina\ncoisas, conversa e avança\no texto.'
+  - offset: "0x1c58f9"
+    name: "PT-03 0x1c58f9"
+    expected: 'Sai, cancela escolhas\ne cancela modos.'
+  - offset: "0x1c592b"
+    name: "PT-03 0x1c592b"
+    expected: 'Aperte este botão para\nabrir o MENU.'
+  - offset: "0x1c594f"
+    name: "PT-03 0x1c594f"
+    expected: 'Move itens e usa\num item registrado.'
+  - offset: "0x1c5981"
+    name: "PT-03 0x1c5981"
+    expected: 'Se precisar de ajuda para\njogar ou fazer algo, aperte\no botão L ou R.'
+  - offset: "0x1c59d5"
+    name: "PT-03 0x1c59d5"
+    expected: 'É um menino?\nOu é uma menina?'
+  - offset: "0x1c5a04"
+    name: "PT-03 0x1c5a04"
+    expected: 'No mundo em que vai entrar,\nvocê viverá uma grande aventura\ncomo protagonista.'
+  - offset: "0x1c5a6b"
+    name: "PT-03 0x1c5a6b"
+    expected: 'Fale com as pessoas e examine\ntudo, nas cidades, estradas\ne cavernas. Busque informações\ne dicas em toda parte.'
+  - offset: "0x1c5aeb"
+    name: "PT-03 0x1c5aeb"
+    expected: 'Durante sua aventura, você\nterá a chance de tomar\nmuitas decisões.\n\nLembre-se sempre: suas ações\npodem afetar e transformar\no mundo ao seu redor.'
+  - offset: "0x236632"
+    name: "PT-03 0x236632"
+    expected: 'Protege dos danos do\nclima e de pós.'
+  - offset: "0x236c40"
+    name: "PT-03 0x236c40"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Lutador.'
+  - offset: "0x236ca4"
+    name: "PT-03 0x236ca4"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Voador.'
+  - offset: "0x236d06"
+    name: "PT-03 0x236d06"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Venenoso.'
+  - offset: "0x236d68"
+    name: "PT-03 0x236d68"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Terrestre.'
+  - offset: "0x236dca"
+    name: "PT-03 0x236dca"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Pedra.'
+  - offset: "0x236e2a"
+    name: "PT-03 0x236e2a"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Inseto.'
+  - offset: "0x236e89"
+    name: "PT-03 0x236e89"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Fantasma.'
+  - offset: "0x236eea"
+    name: "PT-03 0x236eea"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Aço.'
+  - offset: "0x236f4b"
+    name: "PT-03 0x236f4b"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Fogo.'
+  - offset: "0x236fab"
+    name: "PT-03 0x236fab"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Água.'
+  - offset: "0x23706b"
+    name: "PT-03 0x23706b"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Elétrico.'
+  - offset: "0x2370cf"
+    name: "PT-03 0x2370cf"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Psíquico.'
+  - offset: "0x237132"
+    name: "PT-03 0x237132"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Gelo.'
+  - offset: "0x237191"
+    name: "PT-03 0x237191"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Dragão.'
+  - offset: "0x2371f3"
+    name: "PT-03 0x2371f3"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Sombrio.'
+  - offset: "0x237253"
+    name: "PT-03 0x237253"
+    expected: 'Placa de pedra que\naumenta a força de\nmovimentos Fada.'
+  - offset: "0x23751c"
+    name: "PT-03 0x23751c"
+    expected: 'Eevee<0xFC><0x13><0x4B><0xFC><0x06>  1 500 Fichas'
+  - offset: "0x237534"
+    name: "PT-03 0x237534"
+    expected: 'Dratini<0xFC><0x13><0x4B><0xFC><0x06>  2 800 Fichas'
+  - offset: "0x23754e"
+    name: "PT-03 0x23754e"
+    expected: 'Klefki<0xFC><0x13><0x4B><0xFC><0x06>  5 000 Fichas'
+  - offset: "0x237567"
+    name: "PT-03 0x237567"
+    expected: 'Porygon<0xFC><0x13><0x4B><0xFC><0x06>  9 999 Fichas'
+  - offset: "0x238d20"
+    name: "PT-03 0x238d20"
+    expected: 'Micro-ondas'
+  - offset: "0x238d2f"
+    name: "PT-03 0x238d2f"
+    expected: 'Lavadora'
+  - offset: "0x238d3f"
+    name: "PT-03 0x238d3f"
+    expected: 'Geladeira'
+  - offset: "0x238d4c"
+    name: "PT-03 0x238d4c"
+    expected: 'Ventilador'
+  - offset: "0x238d59"
+    name: "PT-03 0x238d59"
+    expected: 'Cortador'
+  - offset: "0x238d63"
+    name: "PT-03 0x238d63"
+    expected: 'Recolher'
+  - offset: "0x23e565"
+    name: "PT-03 0x23e565"
+    expected: '<0x53><0x54> Trainer'
+  - offset: "0x23e57f"
+    name: "PT-03 0x23e57f"
+    expected: 'Agente'
+  - offset: "0x23e58c"
+    name: "PT-03 0x23e58c"
+    expected: 'Garçom'
+  - offset: "0x23e599"
+    name: "PT-03 0x23e599"
+    expected: 'Garçonete'
+  - offset: "0x23e5a6"
+    name: "PT-03 0x23e5a6"
+    expected: 'Repórter'
+  - offset: "0x23e5b3"
+    name: "PT-03 0x23e5b3"
+    expected: 'Ciclista'
+  - offset: "0x23e5c0"
+    name: "PT-03 0x23e5c0"
+    expected: 'Ídolo'
+  - offset: "0x23e5cd"
+    name: "PT-03 0x23e5cd"
+    expected: 'Treinador Ás'
+  - offset: "0x23e5da"
+    name: "PT-03 0x23e5da"
+    expected: 'Enfermeira'
+  - offset: "0x23e5e7"
+    name: "PT-03 0x23e5e7"
+    expected: 'Dama'
+  - offset: "0x23e5f4"
+    name: "PT-03 0x23e5f4"
+    expected: 'Poké Kid'
+  - offset: "0x23e601"
+    name: "PT-03 0x23e601"
+    expected: 'Menino Rico'
+  - offset: "0x23e61b"
+    name: "PT-03 0x23e61b"
+    expected: 'Camping Duo'
+  - offset: "0x23e628"
+    name: "PT-03 0x23e628"
+    expected: 'Esquiador'
+  - offset: "0x23e635"
+    name: "PT-03 0x23e635"
+    expected: 'Guitarrista'
+  - offset: "0x23e642"
+    name: "PT-03 0x23e642"
+    expected: 'Acendedor'
+  - offset: "0x23e64f"
+    name: "PT-03 0x23e64f"
+    expected: 'Shocker'
+  - offset: "0x23e65c"
+    name: "PT-03 0x23e65c"
+    expected: 'Bug Maniac'
+  - offset: "0x23e669"
+    name: "PT-03 0x23e669"
+    expected: 'Oficial'
+  - offset: "0x23e683"
+    name: "PT-03 0x23e683"
+    expected: 'Menina Rica'
+  - offset: "0x23e690"
+    name: "PT-03 0x23e690"
+    expected: 'Successor'
+  - offset: "0x23e69d"
+    name: "PT-03 0x23e69d"
+    expected: 'Estudante'
+  - offset: "0x23e6b7"
+    name: "PT-03 0x23e6b7"
+    expected: 'Pokéfan'
+  - offset: "0x23e6c4"
+    name: "PT-03 0x23e6c4"
+    expected: 'Perito'
+  - offset: "0x23e6d1"
+    name: "PT-03 0x23e6d1"
+    expected: 'Fazendeiro'
+  - offset: "0x23e6f8"
+    name: "PT-03 0x23e6f8"
+    expected: 'Corredor'
+  - offset: "0x23e705"
+    name: "PT-03 0x23e705"
+    expected: 'Dragon Tamer'
+  - offset: "0x23e712"
+    name: "PT-03 0x23e712"
+    expected: 'Criador Aves'
+  - offset: "0x23e71f"
+    name: "PT-03 0x23e71f"
+    expected: 'Menino Ninja'
+  - offset: "0x23e72c"
+    name: "PT-03 0x23e72c"
+    expected: 'Mega Trainer'
+  - offset: "0x23e739"
+    name: "PT-03 0x23e739"
+    expected: 'Parasol Lady'
+  - offset: "0x23e746"
+    name: "PT-03 0x23e746"
+    expected: 'Black Horizo'
+  - offset: "0x23e753"
+    name: "PT-03 0x23e753"
+    expected: 'PICNICKER'
+  - offset: "0x23e76d"
+    name: "PT-03 0x23e76d"
+    expected: 'Programador'
+  - offset: "0x23e77a"
+    name: "PT-03 0x23e77a"
+    expected: 'Snowboarder'
+  - offset: "0x23e787"
+    name: "PT-03 0x23e787"
+    expected: 'Colecionador'
+  - offset: "0x23e794"
+    name: "PT-03 0x23e794"
+    expected: '<0x53><0x54> Trainer'
+  - offset: "0x23e7a1"
+    name: "PT-03 0x23e7a1"
+    expected: 'Black Emboar'

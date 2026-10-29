@@ -1,6 +1,6 @@
 # PT-BR : seed minimal ; offsets absents conservés en anglais.
 # Ne pas ajouter ã õ Ã Õ avant validation du ticket charmap/police.
-0x238d6a: Voltar
+0x238d6a: Cancelar
 
 # PT-01 — dialogues historiques, Dehara et Dresseurs.
 0x028780: O tipo de <0xFD><0x0F> ficou\nigual ao de <0xFD><0x10>!
@@ -527,3 +527,181 @@
 0x1bdb85: Olá, <0xFD><0x01>!\pSou eu, Teala, a atendente\ndo andar superior.\pPrecisa de alguma ajuda\ncom a conexão?
 0x1bdbf8: Vou explicar como funciona\no Pokémon Wireless Club.\pNeste último andar,\nhá duas salas.\pPrimeiro, a sala da esquerda.\nÉ a Union Room.\pVocê pode se conectar com\nTreinadores que também\lentraram na Union Room.\pCom eles, pode conversar,\nbatalhar e trocar.\pA sala da direita é\no Direct Corner.\pNela, pode trocar ou batalhar\ncom seus amigos.\pÀs vezes, você pode não\nencontrar seus amigos na\lUnion Room ou Direct Corner.\pNesse caso, aproxime-se\ndos seus amigos.\pSe o adaptador sem fio não\nestiver conectado, ainda pode\lusar um cabo GBA Game Link.\pNesse caso, você deve ir\nao Direct Corner.\pAproveite o sistema de\ncomunicação sem fio.
 0x1bdedf: Aproveite o sistema de\ncomunicação sem fio.
+
+# PT-03 — terrain, pension, système, objets et classes.
+0x1bdf94: Esta árvore pode ser cortada!<0xFB>Quer cortá-la?
+0x1bdfd7: <0xFD><0x02> usou <0xFD><0x03>!
+0x1bdfe3: Esta árvore pode ser cortada!
+0x1be09d: Esta rocha parece quebrável.\nQuer usar Rock Smash?
+0x1be0e2: É uma rocha dura, mas um Pokémon\npode conseguir quebrá-la.
+0x1be19a: É uma pedra grande, mas um\nPokémon pode conseguir movê-la.<0xFB>Quer usar Strength?
+0x1be1fa: <0xFD><0x02> usou Strength!<0xFB>Com Strength, <0xFD><0x02> agora\npode mover pedras!
+0x1be244: É uma pedra grande, mas um\nPokémon pode conseguir movê-la.
+0x1be284: Com Strength, agora é possível\nmover pedras.
+0x1be30a: Uma parede de água cai com\num rugido poderoso.
+0x1be33f: É uma grande cachoeira.\nQuer usar Waterfall?
+0x1be378: <0xFD><0x02> usou Waterfall.
+0x1be42b: O mar é fundo aqui. Um Pokémon\npode conseguir mergulhar.
+0x1be469: O mar é fundo aqui.\nQuer usar Dive?
+0x1be49b: <0xFD><0x02> usou Dive.
+0x1be4a9: A luz vem lá de cima. Um Pokémon\ntalvez possa emergir.
+0x1be4ef: A luz vem lá de cima.\nQuer usar Dive?
+0x1be52f: Há um obstáculo acima.\nNão dá para usar Dive aqui.
+0x1be56d: Parece que não há nada aqui...
+0x1bef88: Oi, prazer em conhecer você!<0xFB>...Que falta de simpatia.\nQue tal responder ao meu oi?<0xFB>Vamos, me conte um pouco\nsobre você.<0xFB>Adoraria ouvir seu perfil!
+0x1bf017: Me conte algo bom sobre você.\nQual é o seu perfil?
+0x1bf053: Um perfil é escrito com quatro\npalavras ou expressões.<0xFB>Há muitas palavras à sua escolha\npara montar seu perfil.<0xFB>As palavras e expressões estão\ndivididas em grupos.<0xFB>Escolha um grupo e depois\numa palavra ou expressão.<0xFB>...É mais fácil do que parece.\nPor que não tenta?
+0x1bf166: Qual é o seu perfil?
+0x1bf17b: Ah... Não seja assim.\nPode me contar seu perfil.
+0x1bf1b2: Ah, desistiu?\nVocê muda de ideia rápido, hein?
+0x1bf1e8: Oi!\nNos encontramos de novo!
+0x1bf1fb: Quer mudar seu perfil?
+0x1bf222: Como você está agora?\nEu adoraria saber.
+0x1bf252: Certo, você gosta do seu\nperfil como está.<0xFB>Eu também acho.
+0x1bf28e: Humm...<0xFB>Seu perfil diz muito\nsobre quem você é.<0xFB>Agora que conheço você melhor,\nnossa amizade é ainda maior!
+0x1bf30d: Ah, já ouvi isso antes...<0xFB>Meu primo, que mora longe,\nsempre dizia isso, eu acho.
+0x1bf36a: Me conte mais sobre você\nna próxima vez!
+0x1bf555: Sou o senhor da pensão.<0xFB>Ajudo a cuidar dos preciosos\nPokémon dos Treinadores.<0xFB>Se quiser que eu crie seus\nPokémon, fale com minha esposa.
+0x1bf5e3: Ah, é você!<0xFB>Estávamos criando seus Pokémon\ne tivemos uma grande surpresa!<0xFB>Seus Pokémon tinham um Ovo!<0xFB>Não sabemos como foi parar lá,\nmas estava com seus Pokémon.<0xFB>Você quer ficar com ele, certo?
+0x1bf69a: Ah, é você! Que bom ver você.\nSeu <0xFD><0x02> está bem.
+0x1bf6cf: Certo, vou ficar com ele.\nObrigado!
+0x1bf6f0: Você não tem espaço...\nVolte quando tiver espaço.
+0x1bf72a: <0xFD><0x01> recebeu o Ovo do\nsenhor da pensão.
+0x1bf755: Cuide bem dele.
+0x1bf789: Ah, é você! Seus <0xFD><0x02> e\n<0xFD><0x03> estão bem.
+0x1bf7b6: Vou mesmo ficar com ele.\nVocê quer o Ovo, certo?
+0x1bf7e4: Sou a senhora da pensão.<0xFB>Podemos criar Pokémon para você.<0xFB>Quer que criemos um?
+0x1bf839: Qual Pokémon quer que criemos?
+0x1bf860: Certo, vamos criar seu <0xFD><0x02>\npor um tempo.<0xFB>Volte para buscá-lo depois.
+0x1bf89f: Podemos criar dois Pokémon seus.<0xFB>Quer deixar mais um Pokémon\ncom a gente?
+0x1bf8f6: Meu marido procurava você.
+0x1bf916: Ah, tudo bem.\nVolte sempre.
+0x1bf932: Você não tem dinheiro suficiente...
+0x1bf94f: Vai levar o outro também?
+0x1bf976: Certo.\nVolte sempre.
+0x1bf988: Ah, é você!\nQue bom ver você.<0xFB>Seus Pokémon com certeza\nestão ótimos!
+0x1bf9cc: Seu <0xFD><0x02> subiu\n<0xFD><0x03> níveis.
+0x1bf9ef: Sua equipe Pokémon está cheia.\nAbra espaço e volte aqui.
+0x1bfa3b: Para buscar seu <0xFD><0x02>,\nvai custar ¥<0xFD><0x03>.
+0x1bfa67: Perfeito!\nAqui está seu Pokémon.
+0x1bfa85: <0xFD><0x01> recuperou <0xFD><0x02>\ncom a senhora da pensão.
+0x1bfaad: Ah? Mas você só tem um\nPokémon.<0xFB>Volte outra hora.
+0x1bfae8: Vai levar seu Pokémon de volta?
+0x1bfb09: Se deixar esse Pokémon comigo,\ncom qual você vai batalhar?<0xFB>Volte outra hora.
+0x1bfb5a: Hã?
+0x1bfbe9: Quer sair da SAFARI ZONE agora?
+0x1bfc1b: Alto-falante: Ding-dong!<0xFB>O tempo acabou!<0xFB>Alto-falante: Seu SAFARI GAME\nacabou!
+0x1bfc53: Alto-falante: Ding-dong!<0xFB>Suas SAFARI BALLS acabaram!<0xFB>Alto-falante: Seu SAFARI GAME\nacabou!
+0x1c0db0: Está cheio de livros\nsobre Pokémon.
+0x1c0df1: Um Town Map.
+0x1c0dfd: Uau!\nUm monte de coisas de Pokémon!
+0x1c0e19: A louça e os pratos estão\nbem organizados.
+0x1c0e40: Que cheiro delicioso!\nAlguém esteve cozinhando aqui.
+0x1c0e73: É uma cômoda bem feita.\nCabe muita coisa nela.
+0x1c0eac: Há uma pilha de lanches aqui.
+0x1c0ecb: Todos os itens de que precisa!\nPokémon Mart
+0x1c0ef7: Cure seus Pokémon!\nCentro Pokémon
+0x1c0f19: INDIGO PLATEAU<0xFB>O grande objetivo dos Treinadores!\nSede da Liga Pokémon
+0x1c0f59: INDIGO PLATEAU<0xFB>A maior autoridade Pokémon!\nSede da Liga Pokémon
+0x1c0f99: Deve estar cheio de todo tipo\nde comida deliciosa.
+0x1c0fd8: Parece ser uma planta.\nEstá cheia de diagramas e textos.
+0x1c101b: É um belo quadro de um Pokémon.\nEle parece estar se sentindo bem.
+0x1c1060: Que máquina será essa?\nÉ melhor não mexer nela!
+0x1c109c: É um telefone.\nMelhor não usar.
+0x1c10c1: Só tem palavras complicadas\ne números sem sentido...
+0x1c10fc: É um cartaz de propaganda\nde vários produtos.
+0x1c1134: Ah, que cheiro bom!\nDá até um ronco na barriga!
+0x1c116e: Aqui dentro...\n...<0xFB>Não tem nada!
+0x1c1194: É uma xícara com um\nsímbolo de Pokémon.
+0x1c11ba: A janela está bem polida.
+0x1c11dc: Lá fora...<0xFB>O céu está maravilhosamente\nbonito.
+0x1c1217: Luzes de várias cores\npiscam sem parar.
+0x1c124b: Há todo tipo de ferramenta\nbem organizada.
+0x1c1273: É algum tipo de máquina.\nÉ bem impressionante.
+0x1c12a7: É o videogame mais novo!\nParece bem divertido!
+0x1c12d6: Há sinais claros de arrombamento\naqui...
+0x1c1300: Tem um Pokémon na TV!\nEle parece estar se divertindo.
+0x1c13d6: Não há Treinadores por perto\nque possam batalhar...<0xFB>O VS Seeker foi desligado.<0xFC><0x09>
+0x1c1429: Os outros Treinadores não parecem\nprontos para batalhar.<0xFB>Vamos esperar um pouco.<0xFC><0x09>
+0x1c55c9: Quer salvar o jogo?
+0x1c55ea: Já existe um arquivo salvo.\nPode sobrescrevê-lo?
+0x1c5625: SALVANDO...\nNÃO DESLIGUE O APARELHO.
+0x1c5647: <0xFD><0x01> salvou o jogo.
+0x1c566a: ATENÇÃO!<0xFB>Já existe um arquivo salvo\nde outro jogo.<0xFB>Se salvar agora, perderá toda a\naventura do outro arquivo,<0xFA>incluindo itens e Pokémon.<0xFB>Quer mesmo salvar agora e\nsobrescrever o outro arquivo?
+0x1c574f: Novo nome
+0x1c582d: Os botões serão explicados\npor ordem de importância.
+0x1c5875: Move o personagem principal.\nTambém seleciona opções\nde dados.
+0x1c58ba: Confirma escolhas, examina\ncoisas, conversa e avança\no texto.
+0x1c58f9: Sai, cancela escolhas\ne cancela modos.
+0x1c592b: Aperte este botão para\nabrir o MENU.
+0x1c594f: Move itens e usa\num item registrado.
+0x1c5981: Se precisar de ajuda para\njogar ou fazer algo, aperte\no botão L ou R.
+0x1c59d5: É um menino?\nOu é uma menina?
+0x1c5a04: No mundo em que vai entrar,\nvocê viverá uma grande aventura\ncomo protagonista.
+0x1c5a6b: Fale com as pessoas e examine\ntudo, nas cidades, estradas\ne cavernas. Busque informações\ne dicas em toda parte.
+0x1c5aeb: Durante sua aventura, você\nterá a chance de tomar\nmuitas decisões.\n\nLembre-se sempre: suas ações\npodem afetar e transformar\no mundo ao seu redor.
+0x236632: Protege dos danos do\nclima e de pós.
+0x236c40: Placa de pedra que\naumenta a força de\nmovimentos Lutador.
+0x236ca4: Placa de pedra que\naumenta a força de\nmovimentos Voador.
+0x236d06: Placa de pedra que\naumenta a força de\nmovimentos Venenoso.
+0x236d68: Placa de pedra que\naumenta a força de\nmovimentos Terrestre.
+0x236dca: Placa de pedra que\naumenta a força de\nmovimentos Pedra.
+0x236e2a: Placa de pedra que\naumenta a força de\nmovimentos Inseto.
+0x236e89: Placa de pedra que\naumenta a força de\nmovimentos Fantasma.
+0x236eea: Placa de pedra que\naumenta a força de\nmovimentos Aço.
+0x236f4b: Placa de pedra que\naumenta a força de\nmovimentos Fogo.
+0x236fab: Placa de pedra que\naumenta a força de\nmovimentos Água.
+0x23706b: Placa de pedra que\naumenta a força de\nmovimentos Elétrico.
+0x2370cf: Placa de pedra que\naumenta a força de\nmovimentos Psíquico.
+0x237132: Placa de pedra que\naumenta a força de\nmovimentos Gelo.
+0x237191: Placa de pedra que\naumenta a força de\nmovimentos Dragão.
+0x2371f3: Placa de pedra que\naumenta a força de\nmovimentos Sombrio.
+0x237253: Placa de pedra que\naumenta a força de\nmovimentos Fada.
+0x23751c: Eevee<0xFC><0x13><0x4B><0xFC><0x06>  1 500 Fichas
+0x237534: Dratini<0xFC><0x13><0x4B><0xFC><0x06>  2 800 Fichas
+0x23754e: Klefki<0xFC><0x13><0x4B><0xFC><0x06>  5 000 Fichas
+0x237567: Porygon<0xFC><0x13><0x4B><0xFC><0x06>  9 999 Fichas
+0x238d20: Micro-ondas
+0x238d2f: Lavadora
+0x238d3f: Geladeira
+0x238d4c: Ventilador
+0x238d59: Cortador
+0x238d63: Recolher
+0x23e565: <0x53><0x54> Trainer
+0x23e57f: Agente
+0x23e58c: Garçom
+0x23e599: Garçonete
+0x23e5a6: Repórter
+0x23e5b3: Ciclista
+0x23e5c0: Ídolo
+0x23e5cd: Treinador Ás
+0x23e5da: Enfermeira
+0x23e5e7: Dama
+0x23e5f4: Poké Kid
+0x23e601: Menino Rico
+0x23e61b: Camping Duo
+0x23e628: Esquiador
+0x23e635: Guitarrista
+0x23e642: Acendedor
+0x23e64f: Shocker
+0x23e65c: Bug Maniac
+0x23e669: Oficial
+0x23e683: Menina Rica
+0x23e690: Successor
+0x23e69d: Estudante
+0x23e6b7: Pokéfan
+0x23e6c4: Perito
+0x23e6d1: Fazendeiro
+0x23e6f8: Corredor
+0x23e705: Dragon Tamer
+0x23e712: Criador Aves
+0x23e71f: Menino Ninja
+0x23e72c: Mega Trainer
+0x23e739: Parasol Lady
+0x23e746: Black Horizo
+0x23e753: PICNICKER
+0x23e76d: Programador
+0x23e77a: Snowboarder
+0x23e787: Colecionador
+0x23e794: <0x53><0x54> Trainer
+0x23e7a1: Black Emboar
