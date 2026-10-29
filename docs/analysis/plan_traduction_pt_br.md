@@ -4,15 +4,13 @@ Code retenu : `pt`, locale brésilienne exclusivement. Seed minimal : 0x238d6a �
 
 ## Charmap et police
 
-Déjà encodés : â ê ô á é í ó ú à ç et leurs majuscules. Absents : ã õ Ã Õ.
-Les slots DE 0xF1–0xF6 sont réservés ; 0xF7–0xFF sont des contrôles.
-Candidats à expertiser : 0x60–0x63, absents de POKEMON_TABLE mais pas encore
-prouvés libres dans les tables secondaires et les polices. Aucun slot n'est
-alloué ici : le ticket infrastructure doit vérifier les collisions et les glyphes
-dialogue/intro, copier les largeurs des lettres de base, synchroniser Python↔TS
-et exécuter `make sync-charmap-check`. Le socle réutilise temporairement la police
-FR ; les quatre tildes ne doivent pas entrer dans combined avant ce prérequis.
-B-211 impose font APRÈS repair_lz77 et repair_localized_lz77.
+Les accents PT-BR sont encodés, dont `ã=0x60`, `õ=0x61`, `Ã=0x62`, `Õ=0x63`
+(F-758). Les slots DE 0xF1–0xF6 et contrôles 0xF7–0xFF restent inchangés.
+Le patch PT compose les tildes natifs de Ñ/ñ dans les cinq polices latines 2bpp,
+via leurs pointeurs vivants, puis copie les largeurs de a/o/A/O. Il ne modifie
+pas les blocs LZ77 détectés par l'ancienne heuristique DE, qui donne des faux
+positifs graphiques. Détails d'allocation et preuves : `docs/22_POLICE_PT_BR.md`.
+B-211 impose toujours font APRÈS repair_lz77 et repair_localized_lz77.
 
 Les abréviations PSN/QMD/CNG/PAR/DRM/DES sont des valeurs de départ à confirmer
 avec des sources officielles brésiliennes par le ticket glossaire, sans inventer
