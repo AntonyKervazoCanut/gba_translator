@@ -464,7 +464,7 @@ entries:
 - offset: '0x765196'
   name: 'B-597 : nom d’espèce EN canonique'
   issue: B-597
-  expected: Unter meinen Kämpfen sticht einer heraus.\nEr bleibt mir in Erinnerung.\pEs herrschte brütende Hitze und\nmein Gegner schickte seinen\lRotom-Ventilator mit einem Ballon.\pBis dahin hielt ich durch,\ndoch als\l ich ihn sah, brach ich zusammen.\pIch wurde ohnmächtig und verlor.\pUnterschätze niemals einen\n{COLOR}ÉRotom-Ventilator {COLOR}Ç\lmit\neinem
+  expected: "Von all meinen Kämpfen blieb mir\\neiner besonders in Erinnerung.\\pEs war brütend heiß. Meine\\nGegnerin schickte ihr Rotom-Fan mit\\leinem Luftballon in den Kampf.\\pBis dahin hielt ich mich knapp,\\naber bei diesem doppelt\\lgemoppelten Naturwunder konnte ich\\lnicht mehr.\\pIch fiel vor Unglauben in Ohnmacht\\nund verlor den Kampf.\\pUnterschätze nie ein <0xFC><0x01><0x06>Rotom-Fan<0xFC><0x01><0x04> mit\\neinem <0xFC><0x01><0x06>Luftballon<0xFC><0x01><0x04>!"
   forbidden:
   - Unter meinen Kämpfen sticht einer heraus.\nEr bleibt mir in Erinnerung.\pEs herrschte brütende Hitze und\nmein Gegner schickte seinen\lMotisma-Ventilator mit einem Ballon.\pBis dahin hielt ich durch,\ndoch als\l ich ihn sah, brach ich zusammen.\pIch wurde ohnmächtig und verlor.\pUnterschätze niemals einen\n{COLOR}ÉMotisma-Ventilator {COLOR}Ç\lmit\neinem
 - offset: '0x7787f5'
@@ -4741,7 +4741,7 @@ entries:
 - offset: '0x745d52'
   name: English toponym canonicalisation 0x745D52
   issue: DE — English toponyms
-  expected: Jetzt, wo der Eingang zum SES Expressway nicht mehr versiegelt ist, konnte ich\lendlich trainieren!\pSag mal, hättest du Lust, gegen meine\nfrisch trainierten Pokémon anzutreten?
+  expected: "Der Zugang zum SES Expressway\\nist wieder offen. Endlich\\lkonnte ich trainieren!\\pWillst du gegen meine frisch\\ntrainierten Pokémon kämpfen?"
 - offset: '0x74b293'
   name: English toponym canonicalisation 0x74B293
   issue: DE — English toponyms
@@ -4969,7 +4969,7 @@ entries:
 - offset: '0x7ab17d'
   name: English toponym canonicalisation 0x7AB17D
   issue: DE — English toponyms
-  expected: '{COLOR}ËDie Bewohner von Epidimy Town\nbeschweren sich, weil sie nicht mehr zum\lThundercap Mountain können.\pEin komischer Typ blockiert den\nEingang und will dich\lam Reinkommen hindern.\pIch weiß nicht, was los ist, aber diese\nBeschwerden gehen mir auf die Nerven.\pDa das wohl deine Schuld ist, triff\nmich in {COLOR}ÉEpidimy Town{COLOR}Ë,\ldamit wir das klären.\pIch hab nicht ewig Zeit, nimm das,\num schneller dort zu sein.'
+  expected: "<0xFC><0x01><0x08>Die Leute in Epidimy Town klagen,\\nweil sie nicht mehr zum\\lThundercap Mountain können.\\pEin seltsamer Typ versperrt den\\nEingang und behauptet, er solle\\ldich fernhalten.\\pWas auch los ist, mein Kopf hält\\ndiese Beschwerden nicht länger\\laus.\\pDa es wohl dein Problem ist, triff\\nmich in <0xFC><0x01><0x06>Epidimy Town<0xFC><0x01><0x08>, um es zu\\llösen.\\pIch habe nicht ewig Zeit. Nimm\\ndas, damit du schneller da bist."
 - offset: '0x7ac678'
   name: English toponym canonicalisation 0x7AC678
   issue: DE — English toponyms
@@ -5507,7 +5507,7 @@ entries:
 - offset: '0x78e0c6'
   name: English toponym canonicalisation 0x78E0C6
   issue: DE — English toponyms
-  expected: Du kannst dein Evoli entwickeln,\nindem du hier oder im\l{COLOR}ÉGrim Woods{COLOR}Ç einen Felsen berührst.
+  expected: "Dein Eevee kann sich entwickeln,\\nwenn du hier oder in <0xFC><0x01><0x06>Grim Woods<0xFC><0x01><0x04>\\leinen Felsen berührst."
 - offset: '0x78e287'
   name: English toponym canonicalisation 0x78E287
   issue: DE — English toponyms
@@ -9418,3 +9418,477 @@ entries:
   name: Combat UI — B-669
   issue: B-669
   expected: 'Prahlt mit Stärke.\nJe höher die\neigenen Werte\ngesteigert sind,\ndesto stärker.'
+- offset: '0x7401a9'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Mein Papa hat unser Pokémon viel\\ntrainiert! Jetzt ist es richtig\\lstark!"
+- offset: '0x74037f'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Marlon: <0xFC><0x01><0x08>Cacnea, setz Zerschneider\\nein!"
+- offset: '0x7418a6'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ah, ein Herausforderer ist\\nangekommen<0xB0>\\pSag mir, wie heißt du?\\p<0xB0>\\p<0xFD><0x01>?\\nVerstehe<0xB0>"
+- offset: '0x7418f2'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Flüster<0xB0>Murmel<0xB0>Flüster<0xB0>"
+- offset: '0x74513b'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Wir hatten gerade eine große\\nDrogenrazzia, doch die\\lVerdächtigen sind entwischt. Schon\\lwieder<0xB0>\\pJetzt schmollen wir."
+- offset: '0x74549c'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Willkommen im Flower Paradise!\\pBitte schone hier die Blumen und\\ndie Pokémon, die darin leben."
+- offset: '0x74572a'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Los geht's!\\pAbra, Kadabra, Reuniclus!"
+- offset: '0x745a55'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Mit dem Dunkelheitsorden gehorchen\\ndir alle Pokémon bis Level 30.\\pDas gilt auch für Pokémon, die du\\ndurch Tausch erhalten hast.\\pDu kannst nun die <0xFC><0x01><0x06>VM Zerschneider<0xFC><0x01><0x08>\\naußerhalb von Kämpfen einsetzen.\\pFälle damit kleine Bäume, um neue\\nWege zu öffnen.\\pDu sollst auch meine Lieblings-TM\\nbekommen."
+- offset: '0x745c2e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Seufz...\\pMeine armen Pokémon.\\pDer Zugang zum SES Expressway\\nist zugefroren. Seitdem haben\\lsie keinen Trainingsplatz.\\pSag mal, möchtest du gegen meine\\nPokémon kämpfen?"
+- offset: '0x746093'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Huiii!\\pDu hast dir wohl selbst einen Weg\\ngebahnt.\\pJetzt immer weiter nach <0xFC><0x01><0x06>Osten<0xFC><0x01><0x08>, bis\\nzum <0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08>"
+- offset: '0x74ae91'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "???: <0xFC><0x01><0x08>Ahh<0xB0> Genau im Zeitplan.\\pSag, <0xFD><0x02>, wie heißt du?\\p<0xB0>\\p<0xFD><0x01>, also?\\pEndlich begegnen wir uns.\\pIch bin Zeph, der Anführer der\\nShadows.\\pMan hat mir berichtet, dass du in\\nunser Labor eingedrungen bist und\\lvon unserer Schöpfung weißt.\\pDas ist inakzeptabel.\\pWürden unsere Experimente bekannt,\\nwäre es um uns geschehen.\\pUnser Geheimnis muss im Schatten\\nbleiben, bis wir unsere Ziele\\lerreicht haben."
+- offset: '0x74be3d'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Sammeln Pokémon genug Erfahrung,\\nkönnen sie sich entwickeln und\\lstärker werden.\\pManche lernen erst nach der\\nEntwicklung bestimmte Attacken.\\pDoch nicht alle Pokémon entwickeln\\nsich allein durch viele Kämpfe.\\pManche brauchen spezielle Items\\nwie <0xFC><0x01><0x06>Feuersteine<0xFC><0x01><0x08> oder <0xFC><0x01><0x06>Wassersteine<0xFC><0x01><0x08>."
+- offset: '0x74c2cb'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ich lerne gerade die verschiedenen\\n<0xFC><0x01><0x06>Felder<0xFC><0x01><0x08> und ihre Wirkungen im Kampf\\lkennen.\\pSieh sie dir auch an, wenn du es\\nan die Spitze schaffen willst."
+- offset: '0x74e1a0'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Kaum war die Brücke zum neuen\\nEingang fertig, rissen die Wände\\lauf und Meerwasser strömte herein!\\pWarum sollten wir auch mal einen\\nfreien Tag haben?"
+- offset: '0x74ed63'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Los, <0xFD><0x01>.\\pDu willst doch nicht verpassen,\\nwie Jax gegen die Shadows antritt."
+- offset: '0x74fb23'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "???: <0xFC><0x01><0x08><0xFD><0x04> ist\\nbewusstlos, Hoopa."
+- offset: '0x74fe9b'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Er ist bewusstlos. Lass ihn vorerst\\nlieber in Ruhe."
+- offset: '0x750160'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Jax: <0xFC><0x01><0x08>Da bin ich wohl.\\pDann sollte ich mich auf den Weg\\nmachen."
+- offset: '0x750327'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Marlon: <0xFC><0x01><0x08>Duskull, setz Schattenstoß\\nein!"
+- offset: '0x750738'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Arthur: <0xFC><0x01><0x08>Hmm<0xB0>\\pDas sieht nicht gut aus.\\pNur noch ein Legendärer Vogel ist\\nübrig: <0xFC><0x01><0x06>Zapdos<0xFC><0x01><0x08>.\\pWir müssen ihn unbedingt retten,\\nbevor die Shadows ihn fangen."
+- offset: '0x750c37'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Crater Town ist ideal für Forscher\\nwie mich.\\pSo viel Geschichte<0xB0>\\pSo viele Geheimnisse<0xB0>"
+- offset: '0x750d8e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Durch die Höhle dort kannst du\\nCrater Town ebenfalls verlassen.\\pAber dafür brauchst du den\\nDunkelheitsorden. Die meisten\\lnehmen daher den SES Expressway."
+- offset: '0x75100f'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hinter dem Bücherregal scheint ein\\ngeheimer Gang zu sein.\\pMöchtest du ihm folgen?"
+- offset: '0x75106d'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Der Mülleimer ist leer."
+- offset: '0x7525d0'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Willkommen im Trainer House von\\nDresco Town!\\pDu kannst unsere fünf Trainer so\\noft herausfordern, wie du willst.\\pFür einen weiteren Kampf geh bitte\\nkurz hinaus und wieder rein.\\pViel Spaß!"
+- offset: '0x753510'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Mein Bruder hat sein Pokémon aus\\neinem Pokéball in Vivill Woods\\lbekommen.\\pAber angeblich finden verschiedene\\nTrainer dort verschiedene Pokémon."
+- offset: '0x7535a6'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Das Lagerhaus auf dem Hügel wurde\\nwohl verlassen, nachdem dort ein\\lExperiment furchtbar schiefging."
+- offset: '0x754cd4'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Das Lagerhaus auf dem Hügel steht\\nleer, solange ich denken kann.\\pEs reicht wohl so tief unter die\\nErde, dass selbst die Bande dort\\lnicht alle Stockwerke nutzte.\\pWas da wohl für Schätze liegen!"
+- offset: '0x7553b7'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Was glotzt du so?"
+- offset: '0x755533'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Als diese seltsamen Schläger\\nkamen, haben wir sofort unsere\\lTüren verschlossen.\\pSonst wären sie sicher wie du\\nhereingeplatzt und hätten all\\lunsere Wertsachen für ihre\\lfinsteren Pläne mitgenommen."
+- offset: '0x75b4bc'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Pass im Great Desert auf dich auf!"
+- offset: '0x75b6f5'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Vor langer Zeit stand ein Clefairy\\nbeim Bücherregal.\\pWo es wohl geblieben ist?"
+- offset: '0x75b7f4'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Wie wär's, wenn ich dir eine <0xFC><0x01><0x06>TM<0xFC><0x01><0x08>\\nschenke?"
+- offset: '0x75ba2b'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ich esse gebratenes Snover! Das\\nist so lecker!"
+- offset: '0x75bb52'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ein Mann in einem der Häuser hier\\nverschenkt ein Item, mit dem du\\lTrainer erneut herausfordern\\lkannst.\\pAuf dem Berg hierher klappt das\\naber nicht so gut, weil die Trainer\\ldort alle todmüde sind."
+- offset: '0x75bc3e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "He! Hör mal zu.\\pHast du auf deinen Reisen Felsen\\ngesehen, die dir den Weg\\lversperren und sich nicht bewegen\\llassen?\\pIn Epidimy Town lebt ein Meister,\\nder Pokémon beibringt, große\\lFelsen zu verschieben.\\pSprich bald mit ihm, wenn du die\\nlästigen Dinger bewegen willst."
+- offset: '0x75c267'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Jax: <0xFC><0x01><0x08>Staraptor! Setz Aero-Ass ein!"
+- offset: '0x75c444'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Essen!"
+- offset: '0x75cdb8'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Nimmst du das <0xFD><0x03>-Pokémon\\n<0xFD><0x02>? (<0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x02>)"
+- offset: '0x75d2ab'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Rüpel: <0xFC><0x01><0x08>Ich sagte es schon.\\pIch habe strikten Befehl, dich\\neingesperrt zu halten."
+- offset: '0x75d911'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ich weiß einfach nicht weiter.\\pAlle paar Tage kommt dieses\\nschreckliche Pokémon ins Haus und\\lstiehlt mein Essen.\\pMit einem eigenen Pokémon könnte\\nich es aufhalten, aber leider habe\\lich keines.\\pOh! Ich habe eine Idee!\\pKönntest du vielleicht..."
+- offset: '0x75da52'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFC><0x01><0x02>Tochter: <0xFC><0x01><0x04>Ich lasse es nicht\\nentkommen, Papa!"
+- offset: '0x762962'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Was soll ich nur tun<0xB0>\\pMein geliebtes Baby wurde mir von\\neinem... einem... Dieb gestohlen!\\pWie soll ich ohne sie auf der\\nBühne auftreten?\\pBitte hol mein Baby zurück!"
+- offset: '0x762d1f'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Du bist es wieder!\\pDer Dieb hat mir mein Baby\\nzurückgebracht!\\pIch kann wieder auftreten! Danke,\\ndanke, danke!\\pNimm dieses <0xFC><0x01><0x06>Ei<0xFC><0x01><0x04>, das sie gelegt\\nhat! Das ist das Mindeste."
+- offset: '0x7637ef'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Jax: <0xFC><0x01><0x08>Halt, Shadow!\\pLass das gefangene Moltres frei!"
+- offset: '0x76445c'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Soll ich auch deine übrigen Eier\\naufbewahren?\\pInsgesamt habe ich\\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Eier."
+- offset: '0x764744'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "In der Züchterschule lernte ich,\\ndass Partner-Pokémon am besten\\lwachsen, wenn man möglichst oft\\lmit ihnen kämpft.\\pHilfst du mir, meine Pokémon\\ngroßzuziehen?"
+- offset: '0x764c8b'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Dieb: <0xFC><0x01><0x08>Hä, wer bist du? Was machst\\ndu hier hinten?\\pHier trainiere ich ungestört mein\\ngeliebtes Pokémon.\\pUngebetene Gäste sind hier nicht\\nwillkommen.\\p<0xB0>\\pDu willst mir also mein Pokémon\\nwegnehmen?\\pIch lasse nicht zu, dass du sie\\nmir nimmst!"
+- offset: '0x764e5d'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Pokémon-Arena von Crater Town\\nLeiter: Vega\\pSiegreiche\\nTrainer: <0xFD><0x06>"
+- offset: '0x7657dd'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hier gibt es so viel zu kaufen!\\nIch kann gar nicht aufhören!"
+- offset: '0x765822'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hier gibt es jede Menge nützliche\\nItems für Trainer!"
+- offset: '0x765b68'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFC><0x01><0x08>Uff!"
+- offset: '0x76cfa8'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xB0><0xB0>\\pGeh weg."
+- offset: '0x770dcb'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ausgang A: Frozen Heights"
+- offset: '0x770dee'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ausgang B: Dresco Town"
+- offset: '0x770e2e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ausgang D: Blizzard City"
+- offset: '0x770e50'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ausgang E: Tehl Town"
+- offset: '0x770e6e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ausgang F: Fallshore City"
+- offset: '0x771127'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Kennst du schon die Einrichtungen\\nhier im Ort?\\pIm Pokémon-Center werden deine\\nPokémon kostenlos geheilt.\\pBei Poké Mart gibt es\\nnützliche Items für Trainer."
+- offset: '0x7711c0'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ich bin im Dienst. Geh weg."
+- offset: '0x7711e2'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Unser Ort liegt in den Bergen und\\nist ziemlich ruhig.\\pTrotzdem nimmt unser Polizist seine\\nArbeit sehr ernst."
+- offset: '0x7714b3'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Du erhältst ein Riolu vom alten\\nMann!"
+- offset: '0x7719d7'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Rüpel: <0xFC><0x01><0x08>Heute soll ein besonderes\\nPaket angekommen sein.\\pIch will es dir abkaufen."
+- offset: '0x771dfe'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hallo, Fremder!\\pSei in Icicle Cave vorsichtig.\\pSie sieht vielleicht klein aus, ist\\naber größer, als du denkst!"
+- offset: '0x772094'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Durch ihre Entwicklung werden\\nPokémon stärker.\\pEs hat aber Vorteile, sie nicht\\nsofort zu entwickeln.\\pEntwicklungsfähige Pokémon können\\nmit einem <0xFC><0x01><0x06>Evolith<0xFC><0x01><0x08> im Kampf\\lwiderstandsfähiger werden.\\pIch habe einen übrig. Nimm ihn\\ndoch!"
+- offset: '0x7721e8'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "So eisig wie der Wind sind auch\\nmeine Hände.\\pSoll ich einem deiner Pokémon\\n<0xFC><0x01><0x06>Eishieb<0xFC><0x01><0x08> beibringen?\\pFür meine frostigen Hände\\nverlange ich <0xFC><0x01><0x06>2 <0xFD><0x02><0xFC><0x01><0x08>."
+- offset: '0x7724dc'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Meine TM enthält <0xFC><0x01><0x06>Auroraschleier<0xFC><0x01><0x08>.\\pDie Wirkung entspricht Reflektor\\nund Lichtschild zusammen.\\pDer einzige Haken: Die Attacke\\nfunktioniert nur bei Hagel."
+- offset: '0x772651'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Mein Bruder!\\pBitte hilf mir!\\pIch habe auf ihn aufgepasst, aber\\ner lief den Berg hinunter!\\pBitte hilf mir, ihn zu finden!"
+- offset: '0x772c13'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Diese TM ist mein Dank! Sie enthält\\n<0xFC><0x01><0x06>Rückkehr<0xFC><0x01><0x04>!\\pJe mehr dich dein Pokémon mag,\\ndesto stärker ist die Attacke.\\pDie perfekte TM für jemanden, der\\nso nett ist wie du!"
+- offset: '0x772d93'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ahhh! Bitte friss mich nicht!"
+- offset: '0x77320f'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Wünschst du dir nicht auch mal\\neine Pause vom Leben?"
+- offset: '0x775b4e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Sieh dir das an..."
+- offset: '0x776047'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Missionen geschafft: <0xFC><0x01><0x06><0xFD><0x04>"
+- offset: '0x77607a'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hätten wir doch ein eigenes\\nPokémon.\\pZu Hause ist mir immer langweilig."
+- offset: '0x77624a'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Eine Statue von Zapdos, dem\\nLegendären Elektro-Pokémon.\\pHier steht, dass Zapdos einst als\\nBote einer großen Finsternis\\ldiente. Heute lebt es im\\lThundercap Mountain."
+- offset: '0x778b36'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Was zum<0xB0>\\pWie bist du auf Route 9 gekommen?\\pEgal wie, hier kommst du trotzdem\\nnicht durch."
+- offset: '0x779594'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFD><0x06>: <0xFC><0x01><0x08><0xFD><0x01>!\\nEndlich bist du draußen!"
+- offset: '0x77f9ea'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Westlich von Dresco Town liegt\\nGrim Woods.\\pDort gibt es viele coole Käfer-\\nund Geist-Pokémon.\\pSchau dort vorbei, wenn du Zeit\\nhast."
+- offset: '0x780413'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Die Sandburg wurde lebendig und\\ngriff an!"
+- offset: '0x7804c9'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFD><0x02> zog sich\\nin den Sand zurück."
+- offset: '0x7806b6'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Rüpel 1: <0xFC><0x01><0x08>Unser Informant meldet:\\pDie Zielperson ist unterwegs."
+- offset: '0x781561'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hallo, <0xFD><0x02>. Darf\\nich deine Pokémon heilen?"
+- offset: '0x781669'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Deinen Pokémon geht es jetzt\\nviel besser, <0xFD><0x02>."
+- offset: '0x787c0e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Puh, toll! Du und deine Pokémon\\nseid großartig!"
+- offset: '0x787e08'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Schick lieber keine schwachen\\nPokémon in den Kampf!\\pDeine Gegner sind meine Partner\\nfürs Leben!"
+- offset: '0x7883d3'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Puh<0xB0> Du siehst erschöpft aus.\\pBist du von Crater Town aus den\\nganzen Berg hochgeklettert?"
+- offset: '0x788725'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFC><0x01><0x08>Aus dem Weg!"
+- offset: '0x789169'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Polizist 1: <0xFC><0x01><0x08>Äh, ja<0xB0>\\pDeine Geschichte stimmt. Du kannst\\ngehen."
+- offset: '0x7893cb'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Cacnea, setz Zerschneider ein!"
+- offset: '0x789483'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Nein! Du musst das Paket\\nzurückholen!"
+- offset: '0x78a26b'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Die Pokémon League sendet einen\\nBericht über Borrius\\lund seine Geschichte.\\pMöchtest du ihn ansehen?"
+- offset: '0x78a61c'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Nein! Du musst das Paket\\nzurückbringen!"
+- offset: '0x78a91d'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Du da, junger Trainer!\\pKönntest du mir bei einer Aufgabe\\nhelfen?"
+- offset: '0x78aa08'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Oh! Du hast Prof. Logs Paket\\ngefunden!\\pKönntest du es ihm bringen, wenn\\nes nicht zu viel verlangt ist?\\pEr hat es bestellt, will es aber\\nnicht abholen."
+- offset: '0x78c2c9'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Du solltest mehr Respekt vor einem\\nAngler haben<0xB0>"
+- offset: '0x78d625'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Autumn Aquaway, Route 7, 8 und\\nBlizzard City"
+- offset: '0x78d6f8'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Route 2: Höhlenausgang"
+- offset: '0x78d746'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Dark Forest: Ausgang"
+- offset: '0x78e984'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hallo, <0xFD><0x02>.\\pWarst du schon mal so hoch über\\ndem Boden?\\pIn dieser Höhe sind die Kämpfe\\nfantastisch!\\pIch will dich nicht mit Gerede\\nlangweilen. Also los!"
+- offset: '0x78f9f2'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Das Meer<0xB0>\\pMal voller Zorn, dann wieder ruhig\\nwie das Wesen eines Pokémon<0xB0>"
+- offset: '0x78fa4b'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ein Juwel ist ein getragenes Item,\\ndas einmal eine Attacke verstärkt\\lund danach für immer verschwindet.\\pJedes Juwel gehört zu einem Typ\\nund verstärkt nur Attacken dieses\\lTyps.\\pJeder Arenaleiter in Borrius hat\\nmindestens ein Pokémon mit Juwel.\\lSei also vorsichtig.\\pWenn dir das Sorgen macht, kannst\\ndu mit <0xFC><0x01><0x06>Einäschern<0xFC><0x01><0x08> das Juwel\\lzerstören, bevor es eingesetzt\\lwird."
+- offset: '0x791ad7'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Du hast wohl keinen Platz in\\ndeinem Team für mein liebes Riolu.\\pKomm wieder, wenn du Platz hast,\\ndamit ich es dir geben kann."
+- offset: '0x791c3d'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Du da!\\pTrainer!\\pWarte!"
+- offset: '0x791db3'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFC><0x01><0x08>Danke, dass du mitgekommen bist.\\p<0xB0>\\pWas sagst du?\\pDu hattest gar keine Wahl?\\pSo ein Unsinn.\\pIch weiß nicht, wovon du redest.\\pKommen wir zum Geschäft."
+- offset: '0x7924a2'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hmm...\\pIn letzter Zeit wurden viele\\nZellen gesichtet...\\pWas kann das bedeuten..."
+- offset: '0x7927c1'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ein Trainer!\\pVielen Dank, dass du zu uns\\ngekommen bist!\\pMeine Frau und ich haben ein sehr\\nwichtiges Anliegen, um das man\\lsich kümmern muss."
+- offset: '0x792dff'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Oh<0xB0>\\pMir tut alles weh<0xB0>"
+- offset: '0x793f45'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Marlon: <0xFC><0x01><0x08>Jetzt wirst du brennen!"
+- offset: '0x794343'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ivory: <0xFC><0x01><0x04>Ich habe neue Befehle von\\nZeph erhalten.\\pWir müssen Route 9 strenger\\nbewachen.\\p<0xFD><0x01> ist ihm im\\nCinder Volcano durch\\lein Portal entkommen.\\pZeph fürchtet, dass sich das\\nwiederholt und unsere Mission\\lgefährdet.\\pIch suche einen geeigneten Ort für\\neine Psycho-Barriere um die Route.\\lIhr drei bewacht inzwischen das\\lTor."
+- offset: '0x7a257f'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Tarmigan Town\\pDer Ort auf dem Thundercap\\nHighland."
+- offset: '0x7a25ce'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hier im Dream Research Lab\\nerforschen wir die Träume von\\lPokémon."
+- offset: '0x7a2622'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "In Unova baute die Forscherin\\nFennel ein Gerät, mit dem Menschen\\ldie Träume von Pokémon sehen\\lkonnten.\\pMan konnte ihre Traumwelt betreten\\nund dort mit ihnen in Kontakt\\ltreten.\\pWir wollen so ein Gerät nachbauen\\nund als eigene Erfindung ausgeben.\\lVerrat es also niemandem."
+- offset: '0x7a2766'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Darkrai kann als einziges Pokémon\\nanderen Pokémon im Schlaf Schaden\\lzufügen.\\pIch will herausfinden, warum es\\nohne eine Attacke in die Träume\\leines Pokémon eindringen kann."
+- offset: '0x7a2926'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ich arbeite dort drüben im Dream\\nResearch Lab.\\pWie der Name sagt, erforschen wir\\nTräume.\\pEs läuft aber gerade nicht gut,\\nalso mache ich eine Pause."
+- offset: '0x7a29f4'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Tarmigan Town liegt so abgelegen\\nin den Bergen, dass es keinen\\lZugang zum <0xFC><0x01><0x06>SES Expressway<0xFC><0x01><0x04> hat!\\pWillst du den Berg hinunter, musst\\ndu laufen."
+- offset: '0x7a44d9'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Verdammter Shadow-Vorstand!"
+- offset: '0x7a6a13'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Manche Pokémon entwickeln sich nur\\nbeim Tausch.\\pAber wer tauscht heutzutage\\nüberhaupt noch, oder?\\pDer Trend ist seit Jahren vorbei.\\pJetzt können sich diese Pokémon\\nmit einem <0xFC><0x01><0x06>Verbindungsstein<0xFC><0x01><0x08>\\lentwickeln!\\pHier, du wirst schon sehen!"
+- offset: '0x7a7d18'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFD><0x06>: <0xFC><0x01><0x08>HALT!\\pDu bist doch einer von diesen\\nShadow-Handlangern!\\pIch erkenne das Zeichen auf deiner\\nBrust.\\pSag mir, was ich wissen will, oder\\nes ergeht dir wie den dummen\\lRüpeln dort in eurem Versteck."
+- offset: '0x7a8053'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "LASS MICH REIN!"
+- offset: '0x7a823b'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Er tauschte mir sein <0xFC><0x01><0x06>Electabuzz<0xFC><0x01><0x08>.\\nIch gab ihm einen <0xFC><0x01><0x06>Stromisierer<0xFC><0x01><0x08> wie\\leinen <0xFC><0x01><0x06>Entwicklungsstein<0xFC><0x01><0x08> und es\\lentwickelte sich!"
+- offset: '0x7a87b1'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFC><0x01><0x06><0xFD><0x02>!<0xFC><0x01><0x04>\\pIch will ein <0xFC><0x01><0x06><0xFD><0x02> sehen!"
+- offset: '0x7a95bc'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Weißt du, was ich an diesem\\nBattle Tower liebe?\\pMan kann so viel einstellen!\\pDu kannst die Kampfmusik und das\\nLevel ändern und sogar eigene\\lRegeln festlegen!\\pNoch besser: Der Turm erfasst alle\\nSiegesserien getrennt. So siehst du\\lleicht, welches Format dir am\\lbesten liegt!"
+- offset: '0x7a9f79'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFC><0x01><0x04>Stell dich vor einen rissigen Fels\\nund wähle das Pokémon, das ihn\\lzertrümmern soll.\\pJetzt kennst du hoffentlich die\\nGrundlagen von Zertrümmerer!\\pIch muss zurück zur Arena. Wir\\nsehen uns ein andermal!"
+- offset: '0x7aa2dc'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hi!\\pWillkommen in Blizzard City!"
+- offset: '0x7aa4df'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Siehst du das Item auf dem Tisch?\\pMein wertvollster Besitz: der\\n<0xFC><0x01><0x06>Meisterball<0xFC><0x01><0x04>.\\pEin seltener Pokéball, der jedes\\nPokémon ohne Ausnahme fängt.\\p<0xFC><0x01><0x06>Aros<0xFC><0x01><0x04> gab ihn mir. Ich sollte ihn\\nhüten, als hinge mein Leben davon\\lab.\\pBis mir jemand ein kleines lila\\nPokémon zeigt: <0xFC><0x01><0x06>Hoopa<0xFC><0x01><0x04>.\\pWer Hoopa kontrolliert, ist laut\\nAros der Hüter von Borrius und\\ldieses Balls würdig.\\pBist du der Hüter von Borrius oder\\nnur noch ein Rotzlöffel?"
+- offset: '0x7aa8ce'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Das ist kein <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>!\\pWäääh! Ich will ein\\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> sehen!"
+- offset: '0x7aa8e5'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Wäääh! Ich will ein\\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> sehen!"
+- offset: '0x7aa9bd'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Hier reden alle nur von\\nEntwicklung hier, Entwicklung da.\\pIch finde Entwicklung aber doof!\\pAm liebsten verhindere ich sie\\nnicht mit der <0xFC><0x01><0x06>B-Taste<0xFC><0x01><0x08>, wenn mein\\lPokémon sich gerade entwickelt,\\lsondern indem ich ihm einen\\l<0xFC><0x01><0x06>Ewigstein<0xFC><0x01><0x08> gebe.\\pSo fällt die ganze Entwicklung\\neinfach weg!"
+- offset: '0x7aadc3'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ich verdiene viel Geld mit Items,\\ndie ich auf wilden Pokémon finde.\\pVenonats <0xFC><0x01><0x06>Facettenauge<0xFC><0x01><0x08> hilft mir,\\nPokémon mit Items anzulocken. Dann\\lklaue ich sie mit <0xFC><0x01><0x06>Raub<0xFC><0x01><0x08>!"
+- offset: '0x7ab500'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Galavan setzt gern <0xFC><0x01><0x06>Elektro<0xFC><0x01><0x08>- und\\n<0xFC><0x01><0x06>Stahl<0xFC><0x01><0x08>-Pokémon ein.\\pMit einem <0xFC><0x01><0x06>Boden<0xFC><0x01><0x08>-Pokémon kannst du\\nihn gut besiegen.\\pAuch <0xFC><0x01><0x06>Feuer<0xFC><0x01><0x08>- und <0xFC><0x01><0x06>Kampf<0xFC><0x01><0x08>-Pokémon\\nsind gut gegen seine <0xFC><0x01><0x06>Stahl<0xFC><0x01><0x08>-Typen.\\pAber pass auf.\\pÜber das Kampffeld fließt\\nelektrischer Strom.\\pDadurch werden alle\\n<0xFC><0x01><0x06>Elektro<0xFC><0x01><0x08>-Attacken verstärkt.\\pEin Treffer kann verheerend sein!\\pViel Glück da draußen!"
+- offset: '0x7b223e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Big Mo liebt robuste\\n<0xFC><0x01><0x06>Kampf<0xFC><0x01><0x08>-Pokémon.\\pMit <0xFC><0x01><0x06>Flug<0xFC><0x01><0x08>-, <0xFC><0x01><0x06>Psycho<0xFC><0x01><0x08>- oder\\n<0xFC><0x01><0x06>Fee<0xFC><0x01><0x08>-Pokémon gewinnst du leicht!\\pVor Big Mo musst du aber die\\n<0xFC><0x01><0x06>Ring-Prüfung<0xFC><0x01><0x08> der Antisis-Arena\\lbestehen.\\pDort sind keine <0xFC><0x01><0x06>Flug<0xFC><0x01><0x08>-, <0xFC><0x01><0x06>Psycho<0xFC><0x01><0x08>-\\noder <0xFC><0x01><0x06>Fee<0xFC><0x01><0x08>-Pokémon erlaubt.\\pSolange dein Pokémon nicht gegen\\nKampf-Attacken schwach ist, ist es\\ltrotzdem leicht.\\pViel Glück im Ring!"
+- offset: '0x7b350d'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ausgetanzt."
+- offset: '0x7b3521'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Gib auf.\\pDas Leben ist sinnlos."
+- offset: '0x7b37a5'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ich bin Ivorys letzte\\nVerteidigung!\\pDu hast es auf die Route\\ngeschafft, aber an mir kommst du\\lnicht vorbei!"
+- offset: '0x7b46ba'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Viel Gesundheit damit! Hehe,\\nverstehst du den Witz?"
+- offset: '0x7b47c7'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Cinder Volcano Durchgang"
+- offset: '0x7b47ec'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Pokémon-Arena von Crater Town\\nLeiter: Vega Der Doppelagent."
+- offset: '0x7b491c'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Pokémon-Arena von Blizzard City\\nLeiterin: Alice Die hochfliegende\\lEiskönigin."
+- offset: '0x7b496f'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Blizzard City Die frostige\\nBergstadt."
+- offset: '0x7b5a47'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Unter dem Seerosenblatt versteckte\\nsich ein Pokémon!\\pDas Pokémon griff an!"
+- offset: '0x7b5b4b'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Endlich bist du da.\\pVom Warten auf dich bekam ich\\nwieder Kopfschmerzen.\\pHoffentlich lohnt sich dafür meine\\nRückkehr in die Arena."
+- offset: '0x7b5ca4'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Mit dem Fallorden gehorchen dir\\nalle Pokémon bis Level 60.\\pAußerdem können sie schwere Felsen\\nmit <0xFC><0x01><0x06>Stärke<0xFC><0x01><0x08> verschieben.\\pEhrlich gesagt verstehe ich nicht,\\nwarum starke Pokémon das nicht\\llängst können<0xB0>\\pAber was soll man machen?\\pSo funktioniert die Welt eben.\\pHier, nimm auch diese TM zu deinem\\nOrden."
+- offset: '0x7b61bf'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Deck dich mit <0xFC><0x01><0x06>Belebern<0xFC><0x01><0x04> ein!\\pSie beleben besiegte Pokémon mit\\nder Hälfte ihrer KP wieder!"
+- offset: '0x7b865e'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Arenaleiter Mel kommt oft mit\\neinigen seiner engeren \"Freunde\"\\lhierher."
+- offset: '0x7b86b8'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Mel soll irgendwo im Meer eine\\neigene Privatinsel haben!"
+- offset: '0x7b8784'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Im Nu erledigt<0xB0>"
+- offset: '0x7b896d'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Forschungslabor"
+- offset: '0x7b8cff'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Da hat heute jemand experimentiert<0xB0>"
+- offset: '0x7b8e3a'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Seit uralten Zeiten sucht das\\nMysteriöse Pokémon Darkrai diesen\\lOrt heim.\\pJede Nacht um eins soll es\\nauftauchen und die Träume der\\lMenschen heimsuchen.\\pSei vorsichtig, Kind! Falle nicht\\nins finstere Nichts!"
+- offset: '0x7b9a82'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Rüpel: <0xFC><0x01><0x04>Oh nein!\\p<0xFD><0x01> ist uns\\ndicht auf den Fersen!\\pIch muss Marlon warnen!"
+- offset: '0x7ba1ec'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Puh<0xB0> Ich brauche eine Pause<0xB0>\\pÄchz<0xB0>\\pDer Vulkan hat es wirklich in sich!\\pIch heile deine Pokémon, damit sie\\nnicht auch müde werden."
+- offset: '0x7ba2cc'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "<0xFC><0x01><0x08>Schnell!\\pPackt sie!"
+- offset: '0x7ba306'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Rüpel: <0xFC><0x01><0x08>Es tut mir sehr leid, Chef.\\nDie Leute, die ich bewachen\\lsollte, haben Pokémon gefunden und\\lsind entkommen."
+- offset: '0x75c5a8'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Wir müssen diese Pokémon finden!\\nSie könnten unser Ausweg sein!"
+- offset: '0x77233f'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Verkäufer: <0xFC><0x01><0x08>Das geht wirklich nicht,\\nmein Herr!\\pAls treuer Mitarbeiter von\\nPoké Mart kann ich Ihnen\\ldas Paket nicht geben.\\lDas wäre gegen meine Prinzipien!"
+- offset: '0x78137a'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Eine Schachtel voller\\nMagmaenergie, die ein bestimmtes\\nPokémon liebt."
+- offset: '0x7b3bea'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Ein seltener Pokéball, der\\nzum Gedenken an ein besonderes\\nEreignis hergestellt wurde."
+- offset: '0x7b4225'
+  name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
+  expected: "Eine rätselhafte Schuppe in\\nRegenbogenfarben. Entwickelt\\nbestimmte Pokémon."
