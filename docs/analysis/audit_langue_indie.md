@@ -13,6 +13,9 @@ La cible historique est le **hindi**, actuellement en **translittération latine
 
 Recommandation : poursuivre en hindi romanisé simple, alphabet latin encodable, sans présenter cette convention comme une traduction officielle ni comme une norme Hunterian strictement validée. L'appellation Hunterian du commentaire historique doit être revue par le glossaire. Conserver provisoirement le code technique `indie` pour éviter de casser les consommateurs ; afficher « Hindi romanisé » dans les métadonnées/documentations. Une migration ultérieure vers `hi` demanderait un ticket séparé avec compatibilité des anciens chemins et assets. `id` désignerait une autre cible et ne doit pas remplacer cette langue.
 
+Référence livrée par D-692 : [HI-LATIN-1 v1.0.0, glossaire et convention](01_HINDI_ROMANISE_REFERENCE.md).
+Les lots HI-01 à HI-64 doivent appliquer cette convention et sa relecture des seeds.
+
 ## Faisabilité
 
 Le pipeline générique existe (`build: generic`, `status: in_progress`, `version_label: IN.2.1.0`). La police est celle du FR. `src/text/charmap_data.py` ne définit aucun caractère devanagari ; `TextEncoder.encode_pokemon` utilise le fallback `?` (`0xAC`). Les trois seeds actuels sont encodables, mais cela ne prouve ni leur justesse linguistique ni la qualité du rendu complet.

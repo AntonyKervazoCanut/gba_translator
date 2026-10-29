@@ -1,0 +1,1192 @@
+{
+  "version": "1.0.0",
+  "convention": "HI-LATIN-1",
+  "reviewed_on": "2026-10-29",
+  "sources": {
+    "official-types": {
+      "url": "https://www.pokemon.com/pokedex/",
+      "scope": "Noms EN des 18 types ; aucune traduction HI attestée ici."
+    },
+    "official-stats": {
+      "url": "https://in.portal-pokemon.com/pokedex/0025/",
+      "scope": "Noms EN des statistiques, Electric, Pikachu et Static ; pas un glossaire HI."
+    },
+    "official-names": {
+      "url": "https://in.portal-pokemon.com/topics/pokemon_names_unified_across_india/",
+      "scope": "Annonce du 25 septembre 2025 : alignement des noms Pokémon hindi sur les noms anglais."
+    },
+    "official-go": {
+      "url": "https://pokemongo.com/news/hindi-availability-september-2023",
+      "scope": "Support hindi depuis septembre 2023 ; ne certifie pas les termes romanisés de ce fichier."
+    },
+    "ala-lc": {
+      "url": "https://www.loc.gov/catdir/cpso/romanization/hindi.pdf",
+      "scope": "Table hindi ALA-LC 2025 avec diacritiques ; comparaison uniquement, pas la convention du projet."
+    },
+    "live-en": {
+      "path": "languages/en/combined_en.txt",
+      "sha256": "65e93f43b9f92f19ba011fb4971aea6f44d9cd419363d7b51d9dbe094235af19",
+      "scope": "Corpus du fan-game Unbound ; ancrage sémantique EN à vérifier par offset vivant, pas une autorité HI."
+    }
+  },
+  "entries": [
+    {
+      "domain": "types",
+      "en": "Normal",
+      "hi": "Saadhaaran",
+      "short": "Saadhaaran",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Fire",
+      "hi": "Aag",
+      "short": "Aag",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Water",
+      "hi": "Paani",
+      "short": "Paani",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Electric",
+      "hi": "Bijli",
+      "short": "Bijli",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Grass",
+      "hi": "Ghaas",
+      "short": "Ghaas",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Ice",
+      "hi": "Barf",
+      "short": "Barf",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Fighting",
+      "hi": "Ladaai",
+      "short": "Ladaai",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Poison",
+      "hi": "Zahar",
+      "short": "Zahar",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Ground",
+      "hi": "Zameen",
+      "short": "Zameen",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Flying",
+      "hi": "Udaan",
+      "short": "Udaan",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Psychic",
+      "hi": "Maansik",
+      "short": "Maansik",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Bug",
+      "hi": "Keet",
+      "short": "Keet",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Rock",
+      "hi": "Chattaan",
+      "short": "Chattaan",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Ghost",
+      "hi": "Bhoot",
+      "short": "Bhoot",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Dragon",
+      "hi": "Dragon",
+      "short": "Dragon",
+      "status": "editorial-retained-en",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Dark",
+      "hi": "Andheraa",
+      "short": "Andheraa",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Steel",
+      "hi": "Ispaat",
+      "short": "Ispaat",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "types",
+      "en": "Fairy",
+      "hi": "Pari",
+      "short": "Pari",
+      "status": "editorial-hi",
+      "source": "official-types"
+    },
+    {
+      "domain": "statuts",
+      "en": "poisoned",
+      "hi": "Zahar lagaa",
+      "short": "ZHR",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "badly poisoned",
+      "hi": "Tez zahar",
+      "short": "ZHR",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "burned",
+      "hi": "Jalan",
+      "short": "JAL",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "frozen",
+      "hi": "Jamaa huaa",
+      "short": "JAM",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "paralyzed",
+      "hi": "Lakvaa",
+      "short": "LKV",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "asleep",
+      "hi": "Neend",
+      "short": "NND",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "fainted",
+      "hi": "Behosh",
+      "short": "BHS",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "confused",
+      "hi": "Uljhan",
+      "short": "Uljhan",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "infatuated",
+      "hi": "Mohit",
+      "short": "Mohit",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "flinched",
+      "hi": "Hichkichaa gayaa",
+      "short": "Hichkichaa gayaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statuts",
+      "en": "status condition",
+      "hi": "Sthiti",
+      "short": "Sthiti",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statistiques",
+      "en": "HP",
+      "hi": "HP",
+      "short": "HP",
+      "status": "editorial-retained-en",
+      "source": "official-stats"
+    },
+    {
+      "domain": "statistiques",
+      "en": "PP",
+      "hi": "PP",
+      "short": "PP",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Attack",
+      "hi": "Hamlaa",
+      "short": "ATK",
+      "status": "editorial-hi",
+      "source": "official-stats"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Defense",
+      "hi": "Rakshaa",
+      "short": "DEF",
+      "status": "editorial-hi",
+      "source": "official-stats"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Special Attack",
+      "hi": "Vishesh hamlaa",
+      "short": "Sp. ATK",
+      "status": "editorial-hi",
+      "source": "official-stats"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Special Defense",
+      "hi": "Vishesh rakshaa",
+      "short": "Sp. DEF",
+      "status": "editorial-hi",
+      "source": "official-stats"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Speed",
+      "hi": "Raftaar",
+      "short": "SPE",
+      "status": "editorial-hi",
+      "source": "official-stats"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Accuracy",
+      "hi": "Nishaanaa",
+      "short": "ACC",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Evasion",
+      "hi": "Bachaav",
+      "short": "EVA",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Level",
+      "hi": "Star",
+      "short": "Lv",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Experience",
+      "hi": "Anubhav",
+      "short": "EXP",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Power",
+      "hi": "Taakat",
+      "short": "PWR",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Nature",
+      "hi": "Svabhaav",
+      "short": "Svabhaav",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "statistiques",
+      "en": "Friendship",
+      "hi": "Dosti",
+      "short": "Dosti",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Yes",
+      "hi": "Haan",
+      "short": "Haan",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "No",
+      "hi": "Nahin",
+      "short": "Nahin",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Cancel",
+      "hi": "Radd",
+      "short": "Radd",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Back",
+      "hi": "Vaapas",
+      "short": "Vaapas",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Exit",
+      "hi": "Baahar",
+      "short": "Baahar",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Save",
+      "hi": "Save karo",
+      "short": "Save",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Continue",
+      "hi": "Jaari rakho",
+      "short": "Jaari",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "New Game",
+      "hi": "Nayaa khel",
+      "short": "Nayaa khel",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Options",
+      "hi": "Vikalp",
+      "short": "Vikalp",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Bag",
+      "hi": "Thailaa",
+      "short": "Thailaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Party",
+      "hi": "Dal",
+      "short": "Dal",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Summary",
+      "hi": "Jaankaari",
+      "short": "Jaankaari",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Choose",
+      "hi": "Chuno",
+      "short": "Chuno",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Use",
+      "hi": "Istemaal karo",
+      "short": "Use",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Give",
+      "hi": "Do",
+      "short": "Do",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Take",
+      "hi": "Lo",
+      "short": "Lo",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Buy",
+      "hi": "Khareedo",
+      "short": "Khareedo",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Sell",
+      "hi": "Becho",
+      "short": "Becho",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Deposit",
+      "hi": "Jamaa karo",
+      "short": "Jamaa karo",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Withdraw",
+      "hi": "Nikaalo",
+      "short": "Nikaalo",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Move",
+      "hi": "Khiskaao",
+      "short": "Khiskaao",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Sort",
+      "hi": "Kram lagaao",
+      "short": "Kram lagaao",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "menus",
+      "en": "Check",
+      "hi": "Dekho",
+      "short": "Dekho",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "Fight",
+      "hi": "Lado",
+      "short": "Lado",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "Run",
+      "hi": "Bhaago",
+      "short": "Bhaago",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "Switch",
+      "hi": "Badlo",
+      "short": "Badlo",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "battle",
+      "hi": "Ladaai",
+      "short": "Ladaai",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "move",
+      "hi": "Chaal",
+      "short": "Chaal",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "Ability",
+      "hi": "Kshamtaa",
+      "short": "Kshamtaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "damage",
+      "hi": "Nuksaan",
+      "short": "Nuksaan",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "critical hit",
+      "hi": "Marm par vaar",
+      "short": "Marm-vaar",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "super effective",
+      "hi": "Bahut asardaar",
+      "short": "Bahut asardaar",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "not very effective",
+      "hi": "Kam asardaar",
+      "short": "Kam asardaar",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "no effect",
+      "hi": "Koi asar nahin",
+      "short": "Koi asar nahin",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "missed",
+      "hi": "Nishaanaa chookaa",
+      "short": "Nishaanaa chookaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "wild",
+      "hi": "Jangli",
+      "short": "Jangli",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "opponent",
+      "hi": "Pratidvandvi",
+      "short": "Pratidvandvi",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "ally",
+      "hi": "Saathi",
+      "short": "Saathi",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "win",
+      "hi": "Jeet",
+      "short": "Jeet",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "lose",
+      "hi": "Haar",
+      "short": "Haar",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "turn",
+      "hi": "Baari",
+      "short": "Baari",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "catch",
+      "hi": "Pakdo",
+      "short": "Pakdo",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "escape",
+      "hi": "Bach niklo",
+      "short": "Bach niklo",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "combat",
+      "en": "recoil",
+      "hi": "Palat nuksaan",
+      "short": "Palat nuksaan",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "item",
+      "hi": "Vastu",
+      "short": "Vastu",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "held item",
+      "hi": "Pakdi hui vastu",
+      "short": "Pakdi hui vastu",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Key Item",
+      "hi": "Zaroori vastu",
+      "short": "Zaroori vastu",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Berry",
+      "hi": "Berry",
+      "short": "Berry",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Medicine",
+      "hi": "Davaa",
+      "short": "Davaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Potion",
+      "hi": "Potion",
+      "short": "Potion",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Super Potion",
+      "hi": "Super Potion",
+      "short": "Super Potion",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Antidote",
+      "hi": "Antidote",
+      "short": "Antidote",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Revive",
+      "hi": "Revive",
+      "short": "Revive",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Rare Candy",
+      "hi": "Rare Candy",
+      "short": "Rare Candy",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Poke Ball",
+      "hi": "Poke Ball",
+      "short": "Poke Ball",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Great Ball",
+      "hi": "Great Ball",
+      "short": "Great Ball",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Ultra Ball",
+      "hi": "Ultra Ball",
+      "short": "Ultra Ball",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "Master Ball",
+      "hi": "Master Ball",
+      "short": "Master Ball",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "TM",
+      "hi": "TM",
+      "short": "TM",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "objets",
+      "en": "HM",
+      "hi": "HM",
+      "short": "HM",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "attaques",
+      "en": "Tackle",
+      "hi": "Tackle",
+      "short": "Tackle",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "attaques",
+      "en": "Thunderbolt",
+      "hi": "Thunderbolt",
+      "short": "Thunderbolt",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "attaques",
+      "en": "Thunder Wave",
+      "hi": "Thunder Wave",
+      "short": "Thunder Wave",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "attaques",
+      "en": "Flamethrower",
+      "hi": "Flamethrower",
+      "short": "Flamethrower",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "attaques",
+      "en": "Surf",
+      "hi": "Surf",
+      "short": "Surf",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "attaques",
+      "en": "Cut",
+      "hi": "Cut",
+      "short": "Cut",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "attaques",
+      "en": "Fly",
+      "hi": "Fly",
+      "short": "Fly",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "attaques",
+      "en": "Protect",
+      "hi": "Protect",
+      "short": "Protect",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "talents",
+      "en": "Static",
+      "hi": "Static",
+      "short": "Static",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "talents",
+      "en": "Overgrow",
+      "hi": "Overgrow",
+      "short": "Overgrow",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "talents",
+      "en": "Blaze",
+      "hi": "Blaze",
+      "short": "Blaze",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "talents",
+      "en": "Torrent",
+      "hi": "Torrent",
+      "short": "Torrent",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "talents",
+      "en": "Intimidate",
+      "hi": "Intimidate",
+      "short": "Intimidate",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "talents",
+      "en": "Levitate",
+      "hi": "Levitate",
+      "short": "Levitate",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "talents",
+      "en": "Sturdy",
+      "hi": "Sturdy",
+      "short": "Sturdy",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "Trainer",
+      "hi": "Trainer",
+      "short": "Trainer",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "Gym",
+      "hi": "Gym",
+      "short": "Gym",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "Gym Leader",
+      "hi": "Gym Leader",
+      "short": "Gym Leader",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "Badge",
+      "hi": "Badge",
+      "short": "Badge",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "Champion",
+      "hi": "Champion",
+      "short": "Champion",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "Professor",
+      "hi": "Professor",
+      "short": "Professor",
+      "status": "editorial-retained-en",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "rival",
+      "hi": "Pratidvandvi",
+      "short": "Pratidvandvi",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "friend",
+      "hi": "Dost",
+      "short": "Dost",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "child",
+      "hi": "Bachchaa",
+      "short": "Bachchaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "mother",
+      "hi": "Maa",
+      "short": "Maa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "father",
+      "hi": "Pitaa",
+      "short": "Pitaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "mission",
+      "hi": "Mishan",
+      "short": "Mishan",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "reward",
+      "hi": "Inaam",
+      "short": "Inaam",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "journey",
+      "hi": "Safar",
+      "short": "Safar",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "help",
+      "hi": "Madad",
+      "short": "Madad",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "legend",
+      "hi": "Kinvadanti",
+      "short": "Kinvadanti",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "ruins",
+      "hi": "Khandahar",
+      "short": "Khandahar",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "cave",
+      "hi": "Gufaa",
+      "short": "Gufaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "mountain",
+      "hi": "Pahaad",
+      "short": "Pahaad",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "route",
+      "hi": "Raastaa",
+      "short": "Raastaa",
+      "status": "editorial-hi",
+      "source": "live-en"
+    },
+    {
+      "domain": "narration",
+      "en": "team",
+      "hi": "Dal",
+      "short": "Dal",
+      "status": "editorial-hi",
+      "source": "live-en"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Not quite yet!",
+      "hi": "Abhi tak nahin!",
+      "max_bytes": 16
+    },
+    {
+      "en": "No effect.",
+      "hi": "Koi asar nahin.",
+      "max_bytes": 16
+    },
+    {
+      "en": "You beat me.",
+      "hi": "Tumne mujhe haraa diyaa.",
+      "max_bytes": 25
+    },
+    {
+      "en": "I'll tell you. (male speaker)",
+      "hi": "Main tumhein bataaungaa.",
+      "max_bytes": 25
+    },
+    {
+      "en": "I'll tell you. (female speaker)",
+      "hi": "Main tumhein bataaungi.",
+      "max_bytes": 24
+    },
+    {
+      "en": "Go to the cave. Your friend is waiting there.",
+      "hi": "Gufaa mein jaao.\nTumhaaraa dost vahaan\nintzaar kar rahaa hai.",
+      "max_bytes": 62
+    },
+    {
+      "en": "The player received an item. (buffer order: player, item)",
+      "hi": "<0xFD><0x01> ko <0xFD><0x02> milaa.",
+      "max_bytes": 16,
+      "controls": [
+        "FD01",
+        "FD02"
+      ]
+    },
+    {
+      "en": "Do not go there!",
+      "hi": "Vahaan mat jaao!",
+      "max_bytes": 17
+    }
+  ]
+}
