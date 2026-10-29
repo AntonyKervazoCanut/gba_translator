@@ -3,3 +3,792 @@ entries:
   - offset: "0x238d6a"
     name: "Retour (seed PT-BR)"
     expected: 'Voltar'
+  - offset: "0x028780"
+    name: "PT-01 0x028780"
+    expected: 'O tipo de <0xFD><0x0F> ficou\nigual ao de <0xFD><0x10>!'
+  - offset: "0x172482"
+    name: "PT-01 0x172482"
+    expected: 'Posso ser pequeno, mas não vou\ngostar se pegar leve comigo!'
+  - offset: "0x1724bf"
+    name: "PT-01 0x1724bf"
+    expected: 'Ah, poxa.\nNada deu certo.'
+  - offset: "0x1724dc"
+    name: "PT-01 0x1724dc"
+    expected: 'Perdi parte da minha mesada...'
+  - offset: "0x1724f9"
+    name: "PT-01 0x1724f9"
+    expected: 'Sabia que os Pokémon evoluem?'
+  - offset: "0x17251b"
+    name: "PT-01 0x17251b"
+    expected: 'Ah!\nEu perdi!'
+  - offset: "0x172fc3"
+    name: "PT-01 0x172fc3"
+    expected: 'Só Treinadores que provaram seu\nvalor em batalha podem<0xFA>passar por aqui.<0xFB>...<0xFB>Você não provou seu valor.'
+  - offset: "0x177364"
+    name: "PT-01 0x177364"
+    expected: 'Quem é você?\nO que faz aqui?'
+  - offset: "0x177391"
+    name: "PT-01 0x177391"
+    expected: 'Uau!'
+  - offset: "0x177397"
+    name: "PT-01 0x177397"
+    expected: 'Uma estátua com botão?\nNunca ouvi falar.'
+  - offset: "0x1773c6"
+    name: "PT-01 0x1773c6"
+    expected: 'Você conhece os segredos que\nesta mansão esconde?'
+  - offset: "0x1773fd"
+    name: "PT-01 0x1773fd"
+    expected: 'Vou contar.'
+  - offset: "0x177460"
+    name: "PT-01 0x177460"
+    expected: 'Um botão secreto!<0xFB>Apertar?'
+  - offset: "0x17747b"
+    name: "PT-01 0x17747b"
+    expected: 'Quem não apertaria?'
+  - offset: "0x177489"
+    name: "PT-01 0x177489"
+    expected: 'Ainda não!'
+  - offset: "0x177498"
+    name: "PT-01 0x177498"
+    expected: 'Não acho Successor Maxima!'
+  - offset: "0x1774cb"
+    name: "PT-01 0x1774cb"
+    expected: 'Ah, não! Perdi!'
+  - offset: "0x1774e3"
+    name: "PT-01 0x1774e3"
+    expected: 'Há um botão por aqui que\nabre caminho até Maxima.'
+  - offset: "0x1776d7"
+    name: "PT-01 0x1776d7"
+    expected: 'Auuuu!'
+  - offset: "0x1776de"
+    name: "PT-01 0x1776de"
+    expected: 'Não vou chegar a lugar nenhum\nse continuar parado aqui.'
+  - offset: "0x179fa0"
+    name: "PT-01 0x179fa0"
+    expected: 'Vá embora!\nEspírito maligno!'
+  - offset: "0x179fbc"
+    name: "PT-01 0x179fbc"
+    expected: 'Ufa!\nO espírito se foi!'
+  - offset: "0x179fd3"
+    name: "PT-01 0x179fd3"
+    expected: 'Os outros...\nDeviam estar possuídos.'
+  - offset: "0x17a004"
+    name: "PT-01 0x17a004"
+    expected: 'Fantasma! Não!\nAaaah!'
+  - offset: "0x17a017"
+    name: "PT-01 0x17a017"
+    expected: 'Cadê o fantasma?'
+  - offset: "0x17a02b"
+    name: "PT-01 0x17a02b"
+    expected: 'Eu devia estar sonhando...'
+  - offset: "0x17cc56"
+    name: "PT-01 0x17cc56"
+    expected: '<0xFD><0x02> min. <0xFD><0x03>.<0xFD><0x04> seg.'
+  - offset: "0x17d80d"
+    name: "PT-01 0x17d80d"
+    expected: 'Oi!\nTudo bem?<0xFB>Já visitou o laboratório do\nProfessor Log?'
+  - offset: "0x17d866"
+    name: "PT-01 0x17d866"
+    expected: 'Laboratório Pokémon de Log'
+  - offset: "0x17d87f"
+    name: "PT-01 0x17d87f"
+    expected: 'Casa de <0xFD><0x01>'
+  - offset: "0x17d88a"
+    name: "PT-01 0x17d88a"
+    expected: 'Casa de <0xFD><0x06>'
+  - offset: "0x17ff1c"
+    name: "PT-01 0x17ff1c"
+    expected: 'Não está morrendo de calor\ncom essa roupa?'
+  - offset: "0x17ff4a"
+    name: "PT-01 0x17ff4a"
+    expected: 'Não consigo parar de comprar!<0xFB>Tem tanta variedade na\n<0xFC><0x01><0x06>Dehara Department Store<0xFC><0x01><0x04>!'
+  - offset: "0x180300"
+    name: "PT-01 0x180300"
+    expected: 'Humm...<0xFB>Um parque numa cidade no\ndeserto é tão relaxante.<0xFB>Dehara City é um verdadeiro\noásis paradisíaco!'
+  - offset: "0x183482"
+    name: "PT-01 0x183482"
+    expected: 'Valley Cave'
+  - offset: "0x183509"
+    name: "PT-01 0x183509"
+    expected: 'Você me venceu.'
+  - offset: "0x18351c"
+    name: "PT-01 0x18351c"
+    expected: 'Tenho orgulho de saber tanto\nsobre insetos.'
+  - offset: "0x183560"
+    name: "PT-01 0x183560"
+    expected: 'Oi!\nEu gosto de shorts!<0xFB>São muito confortáveis\ne fáceis de vestir!'
+  - offset: "0x1835a0"
+    name: "PT-01 0x1835a0"
+    expected: 'Não acredito!'
+  - offset: "0x1835b4"
+    name: "PT-01 0x1835b4"
+    expected: 'Usa o PC do Centro Pokémon\npara guardar seus Pokémon?<0xFB>Cada Caixa comporta até\n30 Pokémon.'
+  - offset: "0x18364c"
+    name: "PT-01 0x18364c"
+    expected: 'Não fique me encarando.'
+  - offset: "0x183682"
+    name: "PT-01 0x183682"
+    expected: 'Você é Treinador?\nVamos começar logo!'
+  - offset: "0x1836b3"
+    name: "PT-01 0x1836b3"
+    expected: 'Com Pokémon novos,\neu teria vencido!'
+  - offset: "0x1836d9"
+    name: "PT-01 0x1836d9"
+    expected: 'Se uma Caixa do PC lotar,\nbasta trocar de Caixa.'
+  - offset: "0x18371b"
+    name: "PT-01 0x18371b"
+    expected: 'Esse olhar que você me deu...\nÉ tão intrigante!'
+  - offset: "0x183746"
+    name: "PT-01 0x183746"
+    expected: 'Tenha dó!'
+  - offset: "0x18374f"
+    name: "PT-01 0x18374f"
+    expected: 'Dá para evitar batalhas se\nos Treinadores não te virem.'
+  - offset: "0x183786"
+    name: "PT-01 0x183786"
+    expected: 'Não pense que vai passar\npor mim tão facilmente.'
+  - offset: "0x1837bd"
+    name: "PT-01 0x1837bd"
+    expected: 'Perdi!\nPerdi! Perdi!'
+  - offset: "0x1837cf"
+    name: "PT-01 0x1837cf"
+    expected: 'E achei que pegava qualquer um.'
+  - offset: "0x183807"
+    name: "PT-01 0x183807"
+    expected: 'Vou lutar com os Pokémon\nque acabei de capturar.'
+  - offset: "0x183837"
+    name: "PT-01 0x183837"
+    expected: 'Já era para mim!'
+  - offset: "0x183849"
+    name: "PT-01 0x183849"
+    expected: 'Pokémon treinados são mais\nfortes que os selvagens.'
+  - offset: "0x18387a"
+    name: "PT-01 0x18387a"
+    expected: 'Ei!\nVocê encostou em mim?'
+  - offset: "0x183891"
+    name: "PT-01 0x183891"
+    expected: 'Só isso?'
+  - offset: "0x185402"
+    name: "PT-01 0x185402"
+    expected: 'Isso!\nFisguei um!'
+  - offset: "0x18541b"
+    name: "PT-01 0x18541b"
+    expected: 'Tsc!\nSó um peixinho...'
+  - offset: "0x185432"
+    name: "PT-01 0x185432"
+    expected: 'Espere!\nMinha linha enroscou!'
+  - offset: "0x18544e"
+    name: "PT-01 0x18544e"
+    expected: 'Tenha paciência.\nPescar é saber esperar.'
+  - offset: "0x185475"
+    name: "PT-01 0x185475"
+    expected: 'Esse escapou!'
+  - offset: "0x185488"
+    name: "PT-01 0x185488"
+    expected: 'Com uma vara melhor, eu\npegaria Pokémon melhores...'
+  - offset: "0x1855e1"
+    name: "PT-01 0x1855e1"
+    expected: 'O Pescador Fracassado contra\no Sol Pokémon!'
+  - offset: "0x185606"
+    name: "PT-01 0x185606"
+    expected: 'Foi demais!'
+  - offset: "0x185616"
+    name: "PT-01 0x185616"
+    expected: 'A gente fica bom naquilo\nde que gosta, né?<0xFB>Você me venceu nos Pokémon,\nmas na pesca não me supera.'
+  - offset: "0x185682"
+    name: "PT-01 0x185682"
+    expected: 'Eu adoro pescar, de verdade.<0xFB>Mas seria bom ter mais\ntrabalho também.'
+  - offset: "0x1856d0"
+    name: "PT-01 0x1856d0"
+    expected: 'Não é fácil...'
+  - offset: "0x1856df"
+    name: "PT-01 0x1856df"
+    expected: 'Tudo bem.\nPerder já não me incomoda.'
+  - offset: "0x185a37"
+    name: "PT-01 0x185a37"
+    expected: 'Uau!\nSuas Insígnias são demais!'
+  - offset: "0x185a56"
+    name: "PT-01 0x185a56"
+    expected: 'Não foi o bastante!'
+  - offset: "0x185a62"
+    name: "PT-01 0x185a62"
+    expected: 'Ganhou essas Insígnias dos\nLíderes de Ginásio. Eu sei!'
+  - offset: "0x18650b"
+    name: "PT-01 0x18650b"
+    expected: 'Humm...<0xFB>Este deve ser o caminho\npara Dehara City!<0xFB>Tenho certeza!'
+  - offset: "0x186549"
+    name: "PT-01 0x186549"
+    expected: 'Não posso estar perdida...'
+  - offset: "0x18655a"
+    name: "PT-01 0x18655a"
+    expected: 'Uma bela Treinadora como\neu, perdida?<0xFB>Impossível!<0xFB>Sei muito bem aonde vou...'
+  - offset: "0x18664f"
+    name: "PT-01 0x18664f"
+    expected: 'Quando assobio, ouço um eco.'
+  - offset: "0x18667a"
+    name: "PT-01 0x18667a"
+    expected: 'Ai!\nQue tragédia!'
+  - offset: "0x1866d1"
+    name: "PT-01 0x1866d1"
+    expected: 'Sabe aonde está indo?'
+  - offset: "0x186707"
+    name: "PT-01 0x186707"
+    expected: 'Você deve saber.'
+  - offset: "0x18671a"
+    name: "PT-01 0x18671a"
+    expected: 'Não dá para ver de cima, mas\nhá uma passagem por baixo<0xFA>da ponte!'
+  - offset: "0x18678b"
+    name: "PT-01 0x18678b"
+    expected: 'Está ficando mais quente...'
+  - offset: "0x1867c1"
+    name: "PT-01 0x1867c1"
+    expected: 'Sem calor, sem chance.'
+  - offset: "0x1867da"
+    name: "PT-01 0x1867da"
+    expected: 'Quanto mais quente,\nmais forte eu fico!'
+  - offset: "0x18680c"
+    name: "PT-01 0x18680c"
+    expected: 'Meus poderes psíquicos\npreveem minha vitória!'
+  - offset: "0x186841"
+    name: "PT-01 0x186841"
+    expected: 'Eu... Eu errei?'
+  - offset: "0x18686f"
+    name: "PT-01 0x18686f"
+    expected: 'Preciso aprimorar meus\nsentidos psíquicos.<0xFB>Da próxima vez, não errarei.'
+  - offset: "0x1868b6"
+    name: "PT-01 0x1868b6"
+    expected: 'Eu não gostaria de cair\nno mar aqui.'
+  - offset: "0x186936"
+    name: "PT-01 0x186936"
+    expected: 'O mar perto da costa\né muito profundo!'
+  - offset: "0x186968"
+    name: "PT-01 0x186968"
+    expected: 'Vou continuar pescando.'
+  - offset: "0x18697c"
+    name: "PT-01 0x18697c"
+    expected: 'Eu jurava que alguém tinha\nsido empurrado no mar...'
+  - offset: "0x186a22"
+    name: "PT-01 0x186a22"
+    expected: 'Dê uma olhada!'
+  - offset: "0x186a40"
+    name: "PT-01 0x186a40"
+    expected: 'Não são legais?'
+  - offset: "0x186a55"
+    name: "PT-01 0x186a55"
+    expected: 'Adoro exibir meus Pokémon!'
+  - offset: "0x18768c"
+    name: "PT-01 0x18768c"
+    expected: 'Pruu! Pruu!\nGostou do meu canto de ave?'
+  - offset: "0x1876b3"
+    name: "PT-01 0x1876b3"
+    expected: 'Tive que te incomodar!'
+  - offset: "0x1876c5"
+    name: "PT-01 0x1876c5"
+    expected: 'Coleciono Pokémon marinhos\nno fim de semana. Moro perto.'
+  - offset: "0x187884"
+    name: "PT-01 0x187884"
+    expected: 'Adoro nadar!\nE você?'
+  - offset: "0x1878a5"
+    name: "PT-01 0x1878a5"
+    expected: 'Caí de barriga!'
+  - offset: "0x1878b1"
+    name: "PT-01 0x1878b1"
+    expected: 'Nado melhor até que\nos Pokémon marinhos.'
+  - offset: "0x1878dd"
+    name: "PT-01 0x1878dd"
+    expected: 'O que há além do horizonte?'
+  - offset: "0x1878f8"
+    name: "PT-01 0x1878f8"
+    expected: 'Glub!'
+  - offset: "0x1878fe"
+    name: "PT-01 0x1878fe"
+    expected: 'Vejo The Ruins of Void\nlogo ali!'
+  - offset: "0x187925"
+    name: "PT-01 0x187925"
+    expected: 'Mergulhei para capturar\nPokémon e deu certo!'
+  - offset: "0x187955"
+    name: "PT-01 0x187955"
+    expected: 'Socorro!'
+  - offset: "0x18795b"
+    name: "PT-01 0x18795b"
+    expected: 'Só dá para mergulhar\nonde o mar é escuro.'
+  - offset: "0x187985"
+    name: "PT-01 0x187985"
+    expected: 'Olho o mar para esquecer\ntudo de ruim que aconteceu.'
+  - offset: "0x1879c3"
+    name: "PT-01 0x1879c3"
+    expected: 'Ah!\nQue trauma!'
+  - offset: "0x1879d3"
+    name: "PT-01 0x1879d3"
+    expected: 'Estou olhando o mar para\nesquecer o que aconteceu!'
+  - offset: "0x187a11"
+    name: "PT-01 0x187a11"
+    expected: 'Adorei sua montaria!\nSe eu ganhar, me dá ela?'
+  - offset: "0x187a44"
+    name: "PT-01 0x187a44"
+    expected: 'Ah! Perdi!'
+  - offset: "0x187a50"
+    name: "PT-01 0x187a50"
+    expected: 'Ainda falta muito para\nThe Ruins of Void.<0xFB>Quero voltar a Dresco Town.'
+  - offset: "0x187a9e"
+    name: "PT-01 0x187a9e"
+    expected: 'Nadar é ótimo!\nQueimadura de sol, não!'
+  - offset: "0x187ac1"
+    name: "PT-01 0x187ac1"
+    expected: 'Que choque!'
+  - offset: "0x187aca"
+    name: "PT-01 0x187aca"
+    expected: 'Meu amigo queria nadar\naté The Ruins of Void.'
+  - offset: "0x187afa"
+    name: "PT-01 0x187afa"
+    expected: 'Ei, você!\nEstas águas são traiçoeiras!'
+  - offset: "0x187b25"
+    name: "PT-01 0x187b25"
+    expected: 'Ah!\nQue perigo!'
+  - offset: "0x187b35"
+    name: "PT-01 0x187b35"
+    expected: 'M-minhas pernas! Cãibras!\nGlub, glub...'
+  - offset: "0x187b5d"
+    name: "PT-01 0x187b5d"
+    expected: 'Nadei até aqui com amigos...\nEstou cansada...'
+  - offset: "0x187b85"
+    name: "PT-01 0x187b85"
+    expected: 'Estou exausta...'
+  - offset: "0x187b94"
+    name: "PT-01 0x187b94"
+    expected: 'Se fosse montar num Pokémon\nno mar, escolheria Lapras.<0xFB>Lapras é tão grande que\naposto que eu nem me molharia.'
+  - offset: "0x187e40"
+    name: "PT-01 0x187e40"
+    expected: 'A água é rasa aqui.\nTem muita gente nadando.'
+  - offset: "0x187e7b"
+    name: "PT-01 0x187e7b"
+    expected: 'Splash!'
+  - offset: "0x187e83"
+    name: "PT-01 0x187e83"
+    expected: 'Queria montar no meu Pokémon.\nAposto que você nem cansou.'
+  - offset: "0x187fdb"
+    name: "PT-01 0x187fdb"
+    expected: 'Veja como sou musculoso!'
+  - offset: "0x187ff7"
+    name: "PT-01 0x187ff7"
+    expected: 'Que fraqueza!'
+  - offset: "0x187ffe"
+    name: "PT-01 0x187ffe"
+    expected: 'Devia ter fortalecido meus\nPokémon, não a mim!'
+  - offset: "0x18802e"
+    name: "PT-01 0x18802e"
+    expected: 'Por que monta num Pokémon?\nNão sabe nadar?'
+  - offset: "0x18805c"
+    name: "PT-01 0x18805c"
+    expected: 'Ai!\nFui torpedeado!'
+  - offset: "0x18806d"
+    name: "PT-01 0x18806d"
+    expected: 'Montar num Pokémon\nparece bem divertido!'
+  - offset: "0x1880f8"
+    name: "PT-01 0x1880f8"
+    expected: 'Meu namorado me deu\npérolas grandes.'
+  - offset: "0x188111"
+    name: "PT-01 0x188111"
+    expected: 'pérolas grandes.'
+  - offset: "0x188119"
+    name: "PT-01 0x188119"
+    expected: 'Ah, não!\nMinhas pérolas estavam neles!'
+  - offset: "0x188139"
+    name: "PT-01 0x188139"
+    expected: 'Minhas pérolas vão crescer\ndentro de Cloyster?'
+  - offset: "0x18851f"
+    name: "PT-01 0x18851f"
+    expected: 'Estou competindo num triatlo.'
+  - offset: "0x188543"
+    name: "PT-01 0x188543"
+    expected: 'Ufa...\nUfa... Ufa...'
+  - offset: "0x188555"
+    name: "PT-01 0x188555"
+    expected: 'Estou exausta! Mas ainda\nfaltam o ciclismo e a maratona!'
+  - offset: "0x188ed9"
+    name: "PT-01 0x188ed9"
+    expected: 'Vou acabar com você!'
+  - offset: "0x188efa"
+    name: "PT-01 0x188efa"
+    expected: 'Uau!\nFoi demais!'
+  - offset: "0x188f0a"
+    name: "PT-01 0x188f0a"
+    expected: 'Fiz o melhor que pude.\nNão me arrependo!'
+  - offset: "0x188f53"
+    name: "PT-01 0x188f53"
+    expected: 'Fiz o melhor que pude,\nentão não me arrependo!'
+  - offset: "0x18901b"
+    name: "PT-01 0x18901b"
+    expected: 'Adoro o cheiro do mar!'
+  - offset: "0x18908c"
+    name: "PT-01 0x18908c"
+    expected: 'Uhuu!\nCoisa boa!'
+  - offset: "0x18909e"
+    name: "PT-01 0x18909e"
+    expected: 'Que ar maravilhoso!'
+  - offset: "0x1890c0"
+    name: "PT-01 0x1890c0"
+    expected: 'Os Treinadores daqui\nvêm treinar aqui.'
+  - offset: "0x1890e6"
+    name: "PT-01 0x1890e6"
+    expected: 'Você é bom.'
+  - offset: "0x1890f5"
+    name: "PT-01 0x1890f5"
+    expected: 'Todo Pokémon tem fraquezas.\nAté os mais fortes.<0xFB>Por isso, é melhor criar\nPokémon de tipos diferentes.'
+  - offset: "0x189165"
+    name: "PT-01 0x189165"
+    expected: 'Adoro ficar aqui\nobservando o mar.'
+  - offset: "0x1891a6"
+    name: "PT-01 0x1891a6"
+    expected: 'Não estou bravo!'
+  - offset: "0x1891b3"
+    name: "PT-01 0x1891b3"
+    expected: 'A vista não é linda?'
+  - offset: "0x189247"
+    name: "PT-01 0x189247"
+    expected: 'Oi!\nVocê vai perder!'
+  - offset: "0x189261"
+    name: "PT-01 0x189261"
+    expected: 'Não estou em boa forma...'
+  - offset: "0x189281"
+    name: "PT-01 0x189281"
+    expected: 'Queria ser tão bom\nquanto você.'
+  - offset: "0x1892a9"
+    name: "PT-01 0x1892a9"
+    expected: 'Eu tive um pressentimento...\nSabia que devia te enfrentar!'
+  - offset: "0x1892d9"
+    name: "PT-01 0x1892d9"
+    expected: 'Sabia que ia perder também!'
+  - offset: "0x1892ef"
+    name: "PT-01 0x1892ef"
+    expected: 'Se seu Pokémon ficar confuso,\ntroque por outro.<0xFB>É uma boa tática.'
+  - offset: "0x189364"
+    name: "PT-01 0x189364"
+    expected: 'Nem estou com tanta inveja!'
+  - offset: "0x1893ea"
+    name: "PT-01 0x1893ea"
+    expected: 'Você se esforçou!'
+  - offset: "0x189423"
+    name: "PT-01 0x189423"
+    expected: 'Se quer uma batalha,\né uma batalha que vai ter!'
+  - offset: "0x189459"
+    name: "PT-01 0x189459"
+    expected: 'Você me pegou de jeito!'
+  - offset: "0x18947e"
+    name: "PT-01 0x18947e"
+    expected: 'Devia parar de atacar\nTreinadores e culpá-los...'
+  - offset: "0x18961f"
+    name: "PT-01 0x18961f"
+    expected: 'O tempo está lindo!\nPerfeito para uma batalha!'
+  - offset: "0x18964d"
+    name: "PT-01 0x18964d"
+    expected: 'Aaaaai!'
+  - offset: "0x189657"
+    name: "PT-01 0x189657"
+    expected: 'Não jogue água no meu rosto!\nVai estragar a maquiagem.'
+  - offset: "0x189e42"
+    name: "PT-01 0x189e42"
+    expected: 'O aroma salgado do mar...\nToca meu coração.'
+  - offset: "0x189e72"
+    name: "PT-01 0x189e72"
+    expected: 'Snif, snif...\nTem algo fedendo aqui...'
+  - offset: "0x189e9e"
+    name: "PT-01 0x189e9e"
+    expected: 'Será que esse fedor é o suor\ndos seus Pokémon...?'
+  - offset: "0x189f63"
+    name: "PT-01 0x189f63"
+    expected: 'Mamãe disse que não posso\nnadar sem minha boia.'
+  - offset: "0x189f9a"
+    name: "PT-01 0x189f9a"
+    expected: 'Buaaa!\nBuaaa!'
+  - offset: "0x189fa8"
+    name: "PT-01 0x189fa8"
+    expected: 'Este ano, finalmente vou\naprender a nadar!'
+  - offset: "0x189fdb"
+    name: "PT-01 0x189fdb"
+    expected: 'Eba, eba!\nPokémon!'
+  - offset: "0x189fee"
+    name: "PT-01 0x189fee"
+    expected: 'E agora?'
+  - offset: "0x18a000"
+    name: "PT-01 0x18a000"
+    expected: 'Eu ganhei?\nOu perdi?'
+  - offset: "0x18ba86"
+    name: "PT-01 0x18ba86"
+    expected: 'Meu namorado vive ocupado,\nentão venho nadar sozinha.'
+  - offset: "0x18bac0"
+    name: "PT-01 0x18bac0"
+    expected: 'Ah, eu sabia que ia dar nisso!'
+  - offset: "0x18bae0"
+    name: "PT-01 0x18bae0"
+    expected: 'Quando não posso ficar com\nmeu namorado, fico com os<0xFA>Pokémon que ele me deu.'
+  - offset: "0x18c1ed"
+    name: "PT-01 0x18c1ed"
+    expected: 'Senti sua aproximação.'
+  - offset: "0x18c205"
+    name: "PT-01 0x18c205"
+    expected: 'Desista...'
+  - offset: "0x18c20e"
+    name: "PT-01 0x18c20e"
+    expected: 'No seu futuro, vejo que\nconhecerá muitas pessoas.<0xFB>Acho que uma força estranha\nvai unir vocês.'
+  - offset: "0x18ca2f"
+    name: "PT-01 0x18ca2f"
+    expected: 'Protejo o meio ambiente.\nEm troca, a natureza me protege!'
+  - offset: "0x18ca6f"
+    name: "PT-01 0x18ca6f"
+    expected: 'Uau! Você é forte!\nQue tal me proteger?'
+  - offset: "0x18ca9c"
+    name: "PT-01 0x18ca9c"
+    expected: 'Vista lá das estrelas, nossa\nTerra é só uma gota d''água.<0xFB>Mas queremos proteger essa\ngota d''água para todos.'
+  - offset: "0x18cb16"
+    name: "PT-01 0x18cb16"
+    expected: 'Seus sapatos são\nbem estilosos.'
+  - offset: "0x18cb3e"
+    name: "PT-01 0x18cb3e"
+    expected: 'Você é forte, apesar\ndesse jeito fofo.'
+  - offset: "0x18cb6c"
+    name: "PT-01 0x18cb6c"
+    expected: 'Sua mãe comprou esses\nRunning Shoes para você?<0xFB>Ela deve te adorar.'
+  - offset: "0x18d3d1"
+    name: "PT-01 0x18d3d1"
+    expected: '<0xFD><0x01>!\nDescanse um pouquinho.'
+  - offset: "0x18d3f8"
+    name: "PT-01 0x18d3f8"
+    expected: 'Que bom! Você e seus\nPokémon estão ótimos.<0xFB>Cuide-se!'
+  - offset: "0x18d43e"
+    name: "PT-01 0x18d43e"
+    expected: 'Tem um filme na TV.\nQuatro garotos caminham nos<0xFA>trilhos de um trem.<0xFB>...Melhor eu ir também.'
+  - offset: "0x18d492"
+    name: "PT-01 0x18d492"
+    expected: 'Tem um filme na TV.\nUma garota de maria-chiquinhas<0xFA>segue por uma estrada de tijolos.<0xFB>...Melhor eu ir também.'
+  - offset: "0x18d4f9"
+    name: "PT-01 0x18d4f9"
+    expected: 'Opa, lado errado...'
+  - offset: "0x18d50b"
+    name: "PT-01 0x18d50b"
+    expected: '<0xFD><0x01> jogou no Wii.<0xFB>...Certo!\nÉ hora de ir!'
+  - offset: "0x18d53b"
+    name: "PT-01 0x18d53b"
+    expected: 'Há um aviso aqui...<0xFB>Na dúvida, peça ajuda!\nConverse com as pessoas!'
+  - offset: "0x18ea45"
+    name: "PT-01 0x18ea45"
+    expected: 'É o Pokémon do Professor Log.'
+  - offset: "0x18ea66"
+    name: "PT-01 0x18ea66"
+    expected: 'Aperte Start para abrir o Menu!'
+  - offset: "0x18ea84"
+    name: "PT-01 0x18ea84"
+    expected: 'A opção Salvar fica no menu.\nUse-a regularmente.'
+  - offset: "0x18eab6"
+    name: "PT-01 0x18eab6"
+    expected: 'Cada tipo de Pokémon tem\nvantagens e desvantagens.'
+  - offset: "0x18eaf4"
+    name: "PT-01 0x18eaf4"
+    expected: 'É um computador novo.<0xFB>Uau...\nChique.'
+  - offset: "0x18ebe6"
+    name: "PT-01 0x18ebe6"
+    expected: 'Estudo Pokémon como\nassistente do Professor Log.'
+  - offset: "0x18ed81"
+    name: "PT-01 0x18ed81"
+    expected: 'Professor Log estuda as\nestatísticas Pokémon há anos.<0xFB>Muitos Treinadores vêm\ntirar dúvidas com ele.'
+  - offset: "0x1902bf"
+    name: "PT-01 0x1902bf"
+    expected: 'Valeu!\nMande um oi ao Professor Log!'
+  - offset: "0x19032c"
+    name: "PT-01 0x19032c"
+    expected: 'Aquele cara de preto\nde antes dava medo.<0xFB>Quem era ele?'
+  - offset: "0x190365"
+    name: "PT-01 0x190365"
+    expected: 'É bom estocar bastante\n<0xFC><0x01><0x06>Poção<0xFC><0x01><0x08>.<0xFB>Nunca se sabe quando vai\nprecisar de uma cura rápida.'
+  - offset: "0x190450"
+    name: "PT-01 0x190450"
+    expected: 'Os Centros Pokémon curam\nseus Pokémon cansados.<0xFB>Eles deixam todos os Pokémon\ncom a saúde perfeita.<0xFB>A maioria é de graça, então\nnão hesite em curá-los.'
+  - offset: "0x19056c"
+    name: "PT-01 0x19056c"
+    expected: 'Cada Pokémon tem <0xFC><0x01><0x06>tipos<0xFC><0x01><0x08>,\ncomo Fogo ou Água.<0xFB>Eles definem sua vantagem\ncontra outros Pokémon.<0xFB>Se o tipo do Pokémon for o\nmesmo do movimento usado,<0xFA>o movimento fica mais forte.<0xFB>Isso é o bônus de ataque do\nmesmo tipo, ou <0xFC><0x01><0x06>STAB<0xFC><0x01><0x08>.'
+  - offset: "0x190687"
+    name: "PT-01 0x190687"
+    expected: 'Não sei o que fazer.<0xFB>A cada poucos dias, um Pokémon\nhorrível entra na minha casa<0xFA>e rouba minha comida.<0xFB>Com uma Pokédex, eu saberia\nqual é e como impedi-lo...'
+  - offset: "0x19073f"
+    name: "PT-01 0x19073f"
+    expected: 'Alguns itens só servem\npara serem vendidos.<0xFB>Se achar um desses itens,\nvenda-o imediatamente.<0xFB>Ouvi dizer que há fanáticos\nque compram esses itens<0xFA>por ainda mais dinheiro<0xFA>do que os Poké Marts.'
+  - offset: "0x191840"
+    name: "PT-01 0x191840"
+    expected: 'Meu avô sobreviveu ao\nmeteorito há muitos anos!<0xFB>Ele é demais!'
+  - offset: "0x192079"
+    name: "PT-01 0x192079"
+    expected: 'O Líder de Ginásio Mirskle usa\nPokémon encontrados em<0xFA><0xFC><0x01><0x06>Flower Paradise<0xFC><0x01><0x08>.<0xFB>Capturar bons Pokémon de Gelo\nem <0xFC><0x01><0x06>Icicle Cave <0xFC><0x01><0x08>pode<0xFA>dar uma boa vantagem<0xFA>contra ele.'
+  - offset: "0x192116"
+    name: "PT-01 0x192116"
+    expected: 'dar uma boa vantagem<0xFA>contra ele.'
+  - offset: "0x1929c2"
+    name: "PT-01 0x1929c2"
+    expected: 'Repel afasta insetos\ne Pokémon fracos.<0xFB>Ponha seu Pokémon mais forte\nno início da equipe.<0xFB>Se o primeiro for forte,\nRepel será mais eficaz.'
+  - offset: "0x192a79"
+    name: "PT-01 0x192a79"
+    expected: 'Tente vencer o máximo\nde Ginásios Pokémon.<0xFB>Os Poké Marts vendem mais\nitens a quem tem mais Insígnias.'
+  - offset: "0x193465"
+    name: "PT-01 0x193465"
+    expected: 'Esta cidade é bem tranquila.<0xFB>Poucos gostam de ficar numa\ncidade no meio da floresta.'
+  - offset: "0x193a4b"
+    name: "PT-01 0x193a4b"
+    expected: 'E aí!\nSou o <0xFC><0x01><0x06>Avaliador de Nomes<0xFC><0x01><0x08>!<0xFB>Quer que eu avalie os\napelidos dos seus Pokémon?'
+  - offset: "0x193aa6"
+    name: "PT-01 0x193aa6"
+    expected: 'Qual Pokémon devo\navaliar o apelido?'
+  - offset: "0x193ad2"
+    name: "PT-01 0x193ad2"
+    expected: '<0xFD><0x02>, é?\nQue apelido estiloso!<0xFB>Mas quer que eu dê a ele\num nome mais descolado?<0xFB>Que tal?'
+  - offset: "0x193b36"
+    name: "PT-01 0x193b36"
+    expected: 'Legal. Qual deve ser\no novo apelido?'
+  - offset: "0x193b66"
+    name: "PT-01 0x193b66"
+    expected: 'Pronto! Agora, este Pokémon\nse chama <0xFD><0x02>!<0xFB>É bem melhor que antes!\nVocê tem muito estilo!'
+  - offset: "0x193bd4"
+    name: "PT-01 0x193bd4"
+    expected: 'Tudo bem.\nVolte sempre.'
+  - offset: "0x193bf0"
+    name: "PT-01 0x193bf0"
+    expected: 'Pronto! Agora, este Pokémon\nse chama <0xFD><0x02>!<0xFB>Parece o mesmo de antes, mas\né dez vezes mais descolado!<0xFB>Que sorte a sua!'
+  - offset: "0x193c82"
+    name: "PT-01 0x193c82"
+    expected: '<0xFD><0x02>, é?\nQue nome cheio de estilo!<0xFB>Cuide bem de <0xFD><0x02>!'
+  - offset: "0x193cc4"
+    name: "PT-01 0x193cc4"
+    expected: 'Sério?\nIsso é um Ovo!'
+  - offset: "0x193ec1"
+    name: "PT-01 0x193ec1"
+    expected: 'Sou o Fishing Dude!<0xFB>Eu adoooro pescar!\nNão vivo sem pescar.<0xFB>Diga, você gosta de pescar?'
+  - offset: "0x193f2a"
+    name: "PT-01 0x193f2a"
+    expected: 'Ótimo! Gostei de você.\nAcho que seremos amigos.<0xFB>Pegue isto e vá pescar,\nmeu jovem amigo!'
+  - offset: "0x193f81"
+    name: "PT-01 0x193f81"
+    expected: '<0xFD><0x01> recebeu uma Old Rod\ndo Fishing Dude.'
+  - offset: "0x193faf"
+    name: "PT-01 0x193faf"
+    expected: 'Pescar é um estilo de vida!\nÉ como a mais bela poesia.<0xFB>Nos mares e rios, vá pescar\num dos grandes, meu amigo.'
+  - offset: "0x194028"
+    name: "PT-01 0x194028"
+    expected: 'Ah...\nQue decepção...'
+  - offset: "0x194045"
+    name: "PT-01 0x194045"
+    expected: 'Olá, <0xFD><0x01>!<0xFB>Os peixes estão mordendo?'
+  - offset: "0x19406f"
+    name: "PT-01 0x19406f"
+    expected: 'Ah, não!<0xFB>Tenho um belo presente, mas\nvocê não tem espaço para ele!'
+  - offset: "0x194234"
+    name: "PT-01 0x194234"
+    expected: 'A vontade de enfrentar de\nnovo alguém que já enfrentou...<0xFB>Já sentiu essa vontade?\nTenho certeza que sim.<0xFB>Eu também queria enfrentar\ncertas pessoas várias vezes.<0xFB>Por isso, tenho dado isto.\nTome um para você!'
+  - offset: "0x19430f"
+    name: "PT-01 0x19430f"
+    expected: 'Use esse aparelho para achar\nTreinadores que querem revanche.<0xFB>Mas é preciso carregar\na bateria antes de usá-lo.'
+  - offset: "0x194381"
+    name: "PT-01 0x194381"
+    expected: 'Como usar o VS Seeker?\nÉ muito simples.<0xFB>Use-o, ele faz bip-bip-bip,\ne os Treinadores percebem.<0xFB>Se alguém quiser revanche,\nvocê saberá na hora.<0xFB>Carregue a bateria e use-o\nenquanto estiver numa estrada.'
+  - offset: "0x1949cb"
+    name: "PT-01 0x1949cb"
+    expected: 'Oi!\nVocê tem <0xFD><0x02>?<0xFB>Quer trocar pelo meu\n<0xFD><0x03>?'
+  - offset: "0x1949fd"
+    name: "PT-01 0x1949fd"
+    expected: 'Que pena.'
+  - offset: "0x194a0d"
+    name: "PT-01 0x194a0d"
+    expected: '...Isto não é <0xFD><0x02>.<0xFB>Se conseguir um, por favor,\ntroque comigo!'
+  - offset: "0x194a44"
+    name: "PT-01 0x194a44"
+    expected: 'Obrigado!'
+  - offset: "0x194a4f"
+    name: "PT-01 0x194a4f"
+    expected: 'Como está meu antigo <0xFD><0x03>?<0xFB>Meu <0xFD><0x02> está ótimo!'
+  - offset: "0x195471"
+    name: "PT-01 0x195471"
+    expected: 'Muita gente em Blizzard City\naprecia iguarias refinadas.<0xFB>Pokémon assado, por exemplo.'
+  - offset: "0x1954dd"
+    name: "PT-01 0x1954dd"
+    expected: 'Olá!\nBem-vindo à Dehara Dept. Store!<0xFB>O painel na parede mostra\nonde fica cada seção.'
+  - offset: "0x195638"
+    name: "PT-01 0x195638"
+    expected: '2F: Mercado do Treinador<0xFB>Bons itens para Treinadores!'
+  - offset: "0x195bba"
+    name: "PT-01 0x195bba"
+    expected: 'Itens que melhoram atributos\nsó são vendidos aqui.<0xFB>HP Up aumenta os PS\nbase de um Pokémon.<0xFB>Calcium aumenta o Ataque\nEspecial base de um Pokémon.<0xFB>Zinc aumenta a Defesa\nEspecial base de um Pokémon.<0xFB>Carbos aumenta a\nVelocidade base.'
+  - offset: "0x195ca0"
+    name: "PT-01 0x195ca0"
+    expected: 'Vim comprar itens que\nmelhoram atributos Pokémon.<0xFB>Protein aumenta o\nAtaque base.<0xFB>Iron aumenta a\nDefesa base.'
+  - offset: "0x1962bf"
+    name: "PT-01 0x1962bf"
+    expected: 'Boa noite a todos.'
+  - offset: "0x1962d7"
+    name: "PT-01 0x1962d7"
+    expected: 'Sou o artista de sprites!\nEu desenhei você!'
+  - offset: "0x1962fb"
+    name: "PT-01 0x1962fb"
+    expected: 'Sou o designer gráfico!<0xFB>Fiz as artes de divulgação\ne o logo!'
+  - offset: "0x196356"
+    name: "PT-01 0x196356"
+    expected: 'Sou o criador do jogo!<0xFB>Completar a Pokédex é difícil,\nmas não desista!<0xFB>Quando terminar, venha me contar!'
+  - offset: "0x1963cd"
+    name: "PT-01 0x1963cd"
+    expected: 'Uau! Excelente!\nVocê completou sua Pokédex!<0xFA>Parabéns!<0xFA>...'
+  - offset: "0x1964a8"
+    name: "PT-01 0x1964a8"
+    expected: 'Sala de Criação de Unbound'
+  - offset: "0x196984"
+    name: "PT-01 0x196984"
+    expected: 'Bem-vindo ao Dehara Game Corner!<0xFB>Precisa de fichas?\nQuer comprar algumas?'
+  - offset: "0x1969dc"
+    name: "PT-01 0x1969dc"
+    expected: 'Não?\nVenha jogar qualquer hora!'
+  - offset: "0x1969fb"
+    name: "PT-01 0x1969fb"
+    expected: 'Ah, desculpe.\nVocê não tem Coin Case.'
+  - offset: "0x196a26"
+    name: "PT-01 0x196a26"
+    expected: 'Opa!\nSeu Coin Case está cheio.'
+  - offset: "0x196a46"
+    name: "PT-01 0x196a46"
+    expected: 'Você não tem dinheiro para fichas.'
+  - offset: "0x196a62"
+    name: "PT-01 0x196a62"
+    expected: 'Obrigado.\nAqui estão suas fichas!'
+  - offset: "0x196a82"
+    name: "PT-01 0x196a82"
+    expected: 'Não espalhe.<0xFB>Dizem que estas máquinas\nsão viciadas.'
+  - offset: "0x196ac7"
+    name: "PT-01 0x196ac7"
+    expected: 'Acho que estas máquinas têm\nchances diferentes de ganhar.'
+  - offset: "0x196af3"
+    name: "PT-01 0x196af3"
+    expected: 'Ei, jovem, quer jogar?'
+  - offset: "0x196b0d"
+    name: "PT-01 0x196b0d"
+    expected: '<0xFD><0x01> recebeu 10 fichas\ndo homem.'
+  - offset: "0x196b30"
+    name: "PT-01 0x196b30"
+    expected: 'Você já tem fichas de sobra!'
+  - offset: "0x196b49"
+    name: "PT-01 0x196b49"
+    expected: 'A sorte vem e vai.\nNada é garantido.'
+  - offset: "0x196b7b"
+    name: "PT-01 0x196b7b"
+    expected: 'Nesses caça-níqueis...\nGanhar ou perder é só sorte.'
+  - offset: "0x196cfe"
+    name: "PT-01 0x196cfe"
+    expected: 'Esses jogos dão medo!\nÉ muito fácil se viciar!'
+  - offset: "0x196d2b"
+    name: "PT-01 0x196d2b"
+    expected: 'E aí?\nQuer umas fichas?'
+  - offset: "0x196d47"
+    name: "PT-01 0x196d47"
+    expected: '<0xFD><0x01> recebeu 20 fichas\ndo rapaz simpático.'
+  - offset: "0x196d6f"
+    name: "PT-01 0x196d6f"
+    expected: 'Você tem muitas fichas!'
+  - offset: "0x196d87"
+    name: "PT-01 0x196d87"
+    expected: 'Droga! Preciso de mais fichas\npara o Pokémon que eu quero!'
+  - offset: "0x196db7"
+    name: "PT-01 0x196db7"
+    expected: 'Ei! Você me desconcentrou!\nTome umas fichas e dê o fora!'
