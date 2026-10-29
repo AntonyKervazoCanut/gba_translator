@@ -126,6 +126,28 @@ Aucun skip n'est ajouté dans ces tests.
 FD 18 00 D8 D9 00 FD 0F FE E6 D9 E7 E8 D5 E9 E6 D9 00 E7 D9 E7 00 CA D0 00 AB FF
 ```
 
+## Vérification après rebase d'intégration
+
+Le rebase conserve les tildes PT-BR (slots 60–63), le profil explicite ES et les
+contrôles de fenêtres structurées DE. Les conflits étaient limités à l'ajout de
+ces constantes dans `text_codec.py` et aux imports du builder ; les deux
+charmaps TypeScript ont été régénérées depuis la table canonique fusionnée.
+Les sources combined EN/ES/FR gardent les empreintes ci-dessus.
+
+- `make lint` : 4 311 tests collectés, aucune erreur.
+- `npx tsc --noEmit` et `make sync-charmap-check` : succès.
+- `make test-python` après rebase : **2 966 succès**, 3 skips préexistants,
+  1 342 tests désélectionnés, aucun échec.
+- Les nouvelles gardes PT (tildes, polices natives) et DE (67 chaînes structurées)
+  sont incluses dans cette passe ; leurs tests ont été relus.
+
+Un échec transitoire du test d'idempotence des icônes IT a révélé une collision
+entre suites concurrentes : une ROM sous un nom fixe dans `/tmp` avait été
+tronquée par l'autre processus (lecture intermédiaire vide). Les trois tests
+écrivant ces ROMs utilisent désormais `tmp_path`, sans modifier leurs assertions
+ni le patch de production. Deux exécutions simultanées du fichier corrigé
+réussissent chacune leurs **11 tests**. Aucun test n'a été neutralisé.
+
 ## Limites de périmètre
 
 Les dialogues, noms, types et autres contenus restent à traiter par ES-001 à ES-063.
