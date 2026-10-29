@@ -6,10 +6,11 @@
 caractères. Python et les deux charmap TypeScript sont synchronisés par Make.
 
 Audit des consommateurs : `src/core/text_codec.py`, `src/text/charmap_data.py`,
-`src/core/dialogue_linewrap.py`, `scripts/sync_charmap.py`, les deux TS et les
+`src/core/dialogue_linewrap.py`, `src/core/pokedex.py`, `scripts/sync_charmap.py`, les deux TS et les
 patchs de langues. Une table locale obsolète dans les catégories Pokédex IT
 attribuait encore 0x60–0x65 aux umlauts : elle importe maintenant la table
-partagée. Les umlauts restent en 0xF1–0xF6.
+partagée. Les umlauts restent en 0xF1–0xF6. Le filtre des descriptions
+Pokédex accepte également les quatre nouveaux caractères.
 
 Les occurrences `FC 13 60` et `FC 13 63` dans les traductions sont des paramètres
 de contrôle de positionnement, pas des glyphes : aucun remplacement d'octets.
@@ -60,3 +61,22 @@ réutilisables de résolution des tables et composition sont dans
 - Build FR avant/après avec les mêmes entrées, comparaison SHA256.
 - Playwright hors écran : vraie intro et vraie boîte de dialogue mGBA ; chaîne
   de sonde injectée uniquement dans une copie temporaire, jamais dans combined.
+
+SHA256 FR du rebuild de référence avant extension, identique après extension :
+`2c2f602edcbb11e07acad7f078991d22bb742c94388e93b0fd8651259e11c863`.
+Le contrôle porte sur deux builds locaux avec les mêmes sources et paramètres,
+pas sur une comparaison avec une publication antérieure.
+
+Exécution locale F-758 : `make test-python` = 2 199 réussis, 2 ignorés par les
+conditions préexistantes (pont émulateur/contenu FD), 832 exclus par marqueurs.
+Aucun skip n'est ajouté par F-758. Les tests PT sur la ROM finale passent,
+ainsi que TypeScript Playwright et le lint ciblé. La sonde Playwright échoue
+sur la ROM EN sans patch (glyphe vide), puis passe sur le build PT final.
+
+Le `make test-rom` supplémentaire matérialise le bundle BPS suivi, sans le
+reconstruire : 643 succès, 32 skips préexistants et deux échecs déjà présents
+(CT05 FR sur cinq lignes, panneau DE 0x1F7128C encore référencé). CT05 échoue
+identiquement avec le codec pré-F-758 ; l'assertion DE lit directement un
+pointeur du bundle inchangé. Les correctifs source correspondent à B-659 et
+F-605. Aucun bundle ni contenu FR/DE n'est modifié par F-758. Cette limite du
+bundle est distincte des builds locaux et de la preuve PT.

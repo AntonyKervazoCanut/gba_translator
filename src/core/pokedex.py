@@ -53,7 +53,7 @@ _ALLOWED = set(
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
     " .,!?:;'\"()/%+&-×º°ª¥♂♀"
     "àâçéèêëîïôœùûüÀÁÂÇÈÉÊËÎÏÔŒÙÚÛÑßíáóúñ"
-    "äöüÄÖÜ"
+    "äöüÄÖÜãõÃÕ"
     "ìòÌÒ"
 )
 

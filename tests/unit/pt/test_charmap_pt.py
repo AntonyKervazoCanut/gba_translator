@@ -34,3 +34,8 @@ def test_all_portuguese_accents_and_widths():
 def test_control_arguments_are_not_reinterpreted_as_tildes():
     # FC 13 63 = CLEAR_TO x=99, pas le glyphe Õ.
     assert TextEncoder.encode_pokemon('<0xFC><0x13><0x63>') == bytes([0xFC, 0x13, 0x63, 0xFF])
+
+
+def test_pokedex_consumer_accepts_portuguese_tildes():
+    from src.core.pokedex import is_description
+    assert is_description('Um Pokémon com ação. Ã Õ ã õ.')

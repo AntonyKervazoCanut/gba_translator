@@ -22,12 +22,12 @@ def test_tilde_keeps_body_and_uses_reference_accent():
 @pytest.mark.parametrize('relocated', [False, True])
 def test_real_fonts_slots_widths_and_live_pointers(relocated):
     # Vrais blocs EN ; les copies mortes restent intactes après relocalisation.
-    rom = bytearray(0x40000)
+    rom = bytearray(0x50000)
     allowed = set()
     for i, spec in enumerate(LATIN_FONTS):
         fixture = (Path(__file__).parents[1] / 'fixtures/pt_fonts' / f'latin_{i}.bin').read_bytes()
         old = 0x8000 + i * 0x5000
-        live = old + 0x18000 if relocated else old
+        live = old + 0x20000 if relocated else old
         rom[old:old + len(fixture)] = fixture
         rom[live:live + len(fixture)] = fixture
         width = live + spec.stride * 256
