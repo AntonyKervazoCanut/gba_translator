@@ -42,6 +42,9 @@ def test_manifest_scope_and_exact_protection():
         else:
             assert row['source_sites']
             assert guards[offset] == texts[offset]
+            assert row['portuguese'] == texts[offset]
+            encoded = TextEncoder.encode_pokemon(texts[offset].replace(r'\n', '\n'), strict=True)
+            assert row['encoded_bytes'] == len(encoded)
 
 
 def test_exact_command_arguments_and_break_positions():
