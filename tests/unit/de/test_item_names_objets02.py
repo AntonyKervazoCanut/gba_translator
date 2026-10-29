@@ -77,11 +77,27 @@ def test_built_rom_preserves_metadata_and_196_qualified_neighbors():
             expected = bytes.fromhex(row['name_hex_before'])
             untouched += 1
         assert built[offset:offset + 14] == expected, row['offset']
-        assert built[offset + 14:offset + 44] == before[offset + 14:offset + 44]
+        if offset in patch.EXPECTED_NAMES:
+            assert built[offset + 14:offset + 44] == before[offset + 14:offset + 44]
         assert built[offset + 14:offset + 20] == source[offset + 14:offset + 20]
         assert built[offset + 24:offset + 44] == source[offset + 24:offset + 44]
     assert untouched == 196
     # Sur toute la ROM, le patch lui-même ne change que les 104 noms.
     replay = bytearray(before)
     assert patch.apply(replay, texts, source) == 104
-    assert replay == built
+    for offset in patch.EXPECTED_NAMES:
+        assert replay[offset:offset + 44] == built[offset:offset + 44]
+        replay[offset:offset + 14] = before[offset:offset + 14]
+    assert replay == before
+
+
+def test_scope_and_versioned_targets_stay_exact():
+    import json
+    from languages.de.item_name_cells import OFFSETS
+
+    rows = json.loads((ROOT / 'docs/analysis/1027_OBJETS_02_RACCORDEMENT_DE.json').read_text())['entries']
+    targets = {int(row['offset'], 16): row['target'] for row in rows}
+    texts, _ = load_last_wins(ROOT / 'languages/de/combined_de.txt')
+    assert set(targets) == set(patch.EXPECTED_NAMES)
+    assert not set(targets) & OFFSETS
+    assert {offset: texts[offset] for offset in targets} == targets

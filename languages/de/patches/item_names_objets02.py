@@ -9,8 +9,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT))
 
-from languages.de.patches.item_names import apply_scoped_item_names, encode
-from scripts.check_translation_integrity import load_last_wins
+from languages.de.patches.item_names import apply_scoped_item_names, encode  # noqa: E402
+from scripts.check_translation_integrity import load_last_wins  # noqa: E402
 
 # Liste exclusive B-1027 ; aucune recherche globale de chaînes ni relocation.
 EXPECTED_NAMES = {
