@@ -65,3 +65,14 @@ def test_item_effects_and_official_terms() -> None:
     assert 'Silph Co.' in PT[0x3D856E]
     assert 'Devon Corp.' in PT[0x3D936F]
     assert 'Clamperl' in PT[0x3D7BE5] and 'Chansey' in PT[0x3D86C0]
+
+
+def test_rom_oracle_does_not_encode_dialogues_from_other_batches() -> None:
+    # PT-02 introduit des \p dans le même fichier cumulatif : ils ne doivent
+    # jamais être interprétés par l'oracle spécialisé des descriptions PT-05.
+    from tests.e2e.pt.test_built_batch_05_pt import translations
+
+    encoded = translations.__wrapped__()
+    expected = {int(row['offset'], 16) for row in ROWS if row['status'] == 'translated'}
+    assert set(encoded) == expected
+    assert encoded[0x3D52B2].count(0xFE) == 2

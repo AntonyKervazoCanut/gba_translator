@@ -144,7 +144,7 @@ injection, pas une traduction ignorée présentée comme un succès.
 | `0x3dab13` | exception | `0x3dedf0` | ∅ | 70 / — | Description de la table objets FireRed abandonnée : unique référence dans 0x3DB028–0x3DF09B ; absente des 1000 pointeurs description de la table CFRU (base 0x876200 via littéral 0x9A8D8). Aucune injection. |
 | `0x3dab59` | exception | `0x3dee1c` | ∅ | 70 / — | Description de la table objets FireRed abandonnée : unique référence dans 0x3DB028–0x3DF09B ; absente des 1000 pointeurs description de la table CFRU (base 0x876200 via littéral 0x9A8D8). Aucune injection. |
 | `0x3dab9f` | traduit/vérifié | `0x3dee48`, `0x87a020` | `0x3dab9f`, `0x3dab9f` | 85 / 163 | Description objet CFRU. |
-| `0x3dabf7` | traduit/vérifié | `0x3dee74`, `0x87a04c` | `0x80ed82`, `0x80ed82` | 91 / 173 | Description objet CFRU. |
+| `0x3dabf7` | traduit/vérifié | `0x3dee74`, `0x87a04c` | `0x16b9ab`, `0x16b9ab` | 91 / 173 | Description objet CFRU. |
 | `0x3dac51` | exception | `0x3deea0` | ∅ | 84 / — | Description de la table objets FireRed abandonnée : unique référence dans 0x3DB028–0x3DF09B ; absente des 1000 pointeurs description de la table CFRU (base 0x876200 via littéral 0x9A8D8). Aucune injection. |
 | `0x3daca5` | traduit/vérifié | `0x3deecc`, `0x87a0a4` | `0x3daca5`, `0x3daca5` | 73 / 162 | Description objet CFRU. |
 | `0x3dad01` | traduit/vérifié | `0x3deef8`, `0x87a0d0` | `0x3dad01`, `0x3dad01` | 73 / 156 | Description objet CFRU. |
@@ -154,7 +154,7 @@ injection, pas une traduction ignorée présentée comme un succès.
 | `0x3dae68` | exception | `0x3defa8` | ∅ | 78 / — | Description de la table objets FireRed abandonnée : unique référence dans 0x3DB028–0x3DF09B ; absente des 1000 pointeurs description de la table CFRU (base 0x876200 via littéral 0x9A8D8). Aucune injection. |
 | `0x3daeb6` | exception | `0x3defd4` | ∅ | 81 / — | Description de la table objets FireRed abandonnée : unique référence dans 0x3DB028–0x3DF09B ; absente des 1000 pointeurs description de la table CFRU (base 0x876200 via littéral 0x9A8D8). Aucune injection. |
 | `0x3daf07` | exception | `0x3df000` | ∅ | 75 / — | Description de la table objets FireRed abandonnée : unique référence dans 0x3DB028–0x3DF09B ; absente des 1000 pointeurs description de la table CFRU (base 0x876200 via littéral 0x9A8D8). Aucune injection. |
-| `0x3daf52` | traduit/vérifié | `0x3df02c`, `0x87a204` | `0x7a39a6`, `0x7a39a6` | 59 / 176 | Description objet CFRU. |
+| `0x3daf52` | traduit/vérifié | `0x3df02c`, `0x87a204` | `0x7a3a13`, `0x7a3a13` | 59 / 176 | Description objet CFRU. |
 | `0x3daf8d` | exception | `0x3df058` | ∅ | 73 / — | Description de la table objets FireRed abandonnée : unique référence dans 0x3DB028–0x3DF09B ; absente des 1000 pointeurs description de la table CFRU (base 0x876200 via littéral 0x9A8D8). Aucune injection. |
 | `0x3dafd6` | exception | `0x3df084` | ∅ | 74 / — | Description de la table objets FireRed abandonnée : unique référence dans 0x3DB028–0x3DF09B ; absente des 1000 pointeurs description de la table CFRU (base 0x876200 via littéral 0x9A8D8). Aucune injection. |
 | `0x3ddd0b` | exception | ∅ | ∅ | 4 / — | Suffixe résiduel de nom dans une structure objet ancienne ; aucun pointeur vers ce suffixe. |

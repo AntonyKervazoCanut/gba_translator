@@ -15,6 +15,7 @@ from src.core.text_codec import TextEncoder
 pytestmark = pytest.mark.rom
 ROOT = Path(__file__).resolve().parents[3]
 AUDIT = json.loads((ROOT / 'languages/pt/data/pt05_audit.json').read_text())
+OFFSETS = {int(row['offset'], 16) for row in AUDIT['entries']}
 
 
 @pytest.fixture(scope='module')
@@ -28,7 +29,7 @@ def translations() -> dict[int, bytes]:
     entries = {}
     for line in (ROOT / 'languages/pt/combined_pt.txt').read_text().splitlines():
         match = re.match(r'0x([\da-fA-F]+):\s?(.*)', line)
-        if match:
+        if match and int(match[1], 16) in OFFSETS:
             entries[int(match[1], 16)] = TextEncoder.encode_pokemon(
                 match[2].replace('\\n', '\n'), strict=True)
     return entries

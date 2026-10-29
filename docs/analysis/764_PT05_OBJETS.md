@@ -91,3 +91,21 @@ vérifiée octet par octet avant lancement. Le vrai Cube dessine ensuite ses tro
 lignes ; l’OCR doit les retrouver toutes. Aucune sauvegarde en jeu ni capture
 dans le dépôt. Cette sonde teste le rendu du champ, pas un parcours d’acquisition
 des 180 objets.
+
+## Résultats après intégration de PT-02/03/04/06
+
+- 843 tests réussis : unités PT, intégrité, registre et nouveau routage partagé ES.
+- Rebuild PT réussi ; 29 descriptions finalisées et 180 vérifiées par le patch.
+- 1 113 tests ROM PT réussis, dont les 283 contrôles PT-05/polices.
+- Deux tests Playwright hors écran réussis, Magnet et Potion ; trois lignes
+  reconnues dans chaque cas, captures conservées en pièces jointes du ticket.
+- Ruff et TypeScript ciblés réussis. Les deux premiers commits ont passé leurs
+  hooks complets, dont 4 724 tests Python et 68 Vitest au second passage, puis
+  les builds FR/IT/DE. Un skip préexistant était présent au second passage.
+
+Les conflits d’ajout dans combined/protections/lang.yaml ont été résolus en
+conservant les blocs de tous les lots. Le chargeur du test ROM PT-05 est borné
+au manifeste afin de ne pas encoder les dialogues `\p` d’autres lots.
+Les seules modifications hors bilan PT-05 actualisent deux cibles de relocation
+dans le bilan PT-06 (`0x3dabf7` et `0x3daf52`) ; leurs textes sont inchangés.
+La vérification ROM complète contrôle également leurs 238 consommateurs.
