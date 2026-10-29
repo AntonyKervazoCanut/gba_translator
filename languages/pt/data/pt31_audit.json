@@ -1,0 +1,4610 @@
+{
+  "batch": "PT-31",
+  "domain": "Noms d’objets : TM/HM, objets clés, Méga-Gemmes, Baies et objets tenus",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "item_table": "0x876200",
+  "stride": 44,
+  "name_capacity": 13,
+  "table_pointer": "0x09a8d8",
+  "accessor_hex": "08500003fc6d03020049084741329f0800da00207047c046bc020000ffffffff004908474d329f08efff0004000c2c2148430249401802bc0847000000628708",
+  "entries": [
+    {
+      "offset": "0x8795bc",
+      "english": "TM13",
+      "french_reference": null,
+      "source_hex": "cec7a2a4ff",
+      "cell": "0x8795bc",
+      "item_id": 301,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM13",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8795e8",
+      "english": "TM14",
+      "french_reference": null,
+      "source_hex": "cec7a2a5ff",
+      "cell": "0x8795e8",
+      "item_id": 302,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM14",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879614",
+      "english": "TM15",
+      "french_reference": null,
+      "source_hex": "cec7a2a6ff",
+      "cell": "0x879614",
+      "item_id": 303,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM15",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879640",
+      "english": "TM16",
+      "french_reference": null,
+      "source_hex": "cec7a2a7ff",
+      "cell": "0x879640",
+      "item_id": 304,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM16",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87966c",
+      "english": "TM17",
+      "french_reference": null,
+      "source_hex": "cec7a2a8ff",
+      "cell": "0x87966c",
+      "item_id": 305,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM17",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879698",
+      "english": "TM18",
+      "french_reference": null,
+      "source_hex": "cec7a2a9ff",
+      "cell": "0x879698",
+      "item_id": 306,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM18",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8796c4",
+      "english": "TM19",
+      "french_reference": null,
+      "source_hex": "cec7a2aaff",
+      "cell": "0x8796c4",
+      "item_id": 307,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM19",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8796f0",
+      "english": "TM20",
+      "french_reference": null,
+      "source_hex": "cec7a3a1ff",
+      "cell": "0x8796f0",
+      "item_id": 308,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM20",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87971c",
+      "english": "TM21",
+      "french_reference": null,
+      "source_hex": "cec7a3a2ff",
+      "cell": "0x87971c",
+      "item_id": 309,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM21",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879748",
+      "english": "TM22",
+      "french_reference": null,
+      "source_hex": "cec7a3a3ff",
+      "cell": "0x879748",
+      "item_id": 310,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM22",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879774",
+      "english": "TM23",
+      "french_reference": null,
+      "source_hex": "cec7a3a4ff",
+      "cell": "0x879774",
+      "item_id": 311,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM23",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8797a0",
+      "english": "TM24",
+      "french_reference": null,
+      "source_hex": "cec7a3a5ff",
+      "cell": "0x8797a0",
+      "item_id": 312,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM24",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8797cc",
+      "english": "TM25",
+      "french_reference": null,
+      "source_hex": "cec7a3a6ff",
+      "cell": "0x8797cc",
+      "item_id": 313,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM25",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8797f8",
+      "english": "TM26",
+      "french_reference": null,
+      "source_hex": "cec7a3a7ff",
+      "cell": "0x8797f8",
+      "item_id": 314,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM26",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879824",
+      "english": "TM27",
+      "french_reference": null,
+      "source_hex": "cec7a3a8ff",
+      "cell": "0x879824",
+      "item_id": 315,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM27",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879850",
+      "english": "TM28",
+      "french_reference": null,
+      "source_hex": "cec7a3a9ff",
+      "cell": "0x879850",
+      "item_id": 316,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM28",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87987c",
+      "english": "TM29",
+      "french_reference": null,
+      "source_hex": "cec7a3aaff",
+      "cell": "0x87987c",
+      "item_id": 317,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM29",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8798a8",
+      "english": "TM30",
+      "french_reference": null,
+      "source_hex": "cec7a4a1ff",
+      "cell": "0x8798a8",
+      "item_id": 318,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM30",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8798d4",
+      "english": "TM31",
+      "french_reference": null,
+      "source_hex": "cec7a4a2ff",
+      "cell": "0x8798d4",
+      "item_id": 319,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM31",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879900",
+      "english": "TM32",
+      "french_reference": null,
+      "source_hex": "cec7a4a3ff",
+      "cell": "0x879900",
+      "item_id": 320,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM32",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87992c",
+      "english": "TM33",
+      "french_reference": null,
+      "source_hex": "cec7a4a4ff",
+      "cell": "0x87992c",
+      "item_id": 321,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM33",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879958",
+      "english": "TM34",
+      "french_reference": null,
+      "source_hex": "cec7a4a5ff",
+      "cell": "0x879958",
+      "item_id": 322,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM34",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879984",
+      "english": "TM35",
+      "french_reference": null,
+      "source_hex": "cec7a4a6ff",
+      "cell": "0x879984",
+      "item_id": 323,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM35",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8799b0",
+      "english": "TM36",
+      "french_reference": null,
+      "source_hex": "cec7a4a7ff",
+      "cell": "0x8799b0",
+      "item_id": 324,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM36",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x8799dc",
+      "english": "TM37",
+      "french_reference": null,
+      "source_hex": "cec7a4a8ff",
+      "cell": "0x8799dc",
+      "item_id": 325,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM37",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879a08",
+      "english": "TM38",
+      "french_reference": null,
+      "source_hex": "cec7a4a9ff",
+      "cell": "0x879a08",
+      "item_id": 326,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM38",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879a34",
+      "english": "TM39",
+      "french_reference": null,
+      "source_hex": "cec7a4aaff",
+      "cell": "0x879a34",
+      "item_id": 327,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM39",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879a60",
+      "english": "TM40",
+      "french_reference": null,
+      "source_hex": "cec7a5a1ff",
+      "cell": "0x879a60",
+      "item_id": 328,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM40",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879a8c",
+      "english": "TM41",
+      "french_reference": null,
+      "source_hex": "cec7a5a2ff",
+      "cell": "0x879a8c",
+      "item_id": 329,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM41",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879ab8",
+      "english": "TM42",
+      "french_reference": null,
+      "source_hex": "cec7a5a3ff",
+      "cell": "0x879ab8",
+      "item_id": 330,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM42",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879ae4",
+      "english": "TM43",
+      "french_reference": null,
+      "source_hex": "cec7a5a4ff",
+      "cell": "0x879ae4",
+      "item_id": 331,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM43",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879b10",
+      "english": "TM44",
+      "french_reference": null,
+      "source_hex": "cec7a5a5ff",
+      "cell": "0x879b10",
+      "item_id": 332,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM44",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879b3c",
+      "english": "TM45",
+      "french_reference": null,
+      "source_hex": "cec7a5a6ff",
+      "cell": "0x879b3c",
+      "item_id": 333,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM45",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879b68",
+      "english": "TM46",
+      "french_reference": null,
+      "source_hex": "cec7a5a7ff",
+      "cell": "0x879b68",
+      "item_id": 334,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM46",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879b94",
+      "english": "TM47",
+      "french_reference": null,
+      "source_hex": "cec7a5a8ff",
+      "cell": "0x879b94",
+      "item_id": 335,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM47",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879bc0",
+      "english": "TM48",
+      "french_reference": null,
+      "source_hex": "cec7a5a9ff",
+      "cell": "0x879bc0",
+      "item_id": 336,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM48",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879bec",
+      "english": "TM49",
+      "french_reference": null,
+      "source_hex": "cec7a5aaff",
+      "cell": "0x879bec",
+      "item_id": 337,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM49",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879c18",
+      "english": "TM50",
+      "french_reference": null,
+      "source_hex": "cec7a6a1ff",
+      "cell": "0x879c18",
+      "item_id": 338,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM50",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879c44",
+      "english": "TM51",
+      "french_reference": null,
+      "source_hex": "cec7a6a2ff",
+      "cell": "0x879c44",
+      "item_id": 339,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM51",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879c70",
+      "english": "TM52",
+      "french_reference": null,
+      "source_hex": "cec7a6a3ff",
+      "cell": "0x879c70",
+      "item_id": 340,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM52",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879c9c",
+      "english": "TM53",
+      "french_reference": null,
+      "source_hex": "cec7a6a4ff",
+      "cell": "0x879c9c",
+      "item_id": 341,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM53",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879cc8",
+      "english": "TM54",
+      "french_reference": null,
+      "source_hex": "cec7a6a5ff",
+      "cell": "0x879cc8",
+      "item_id": 342,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM54",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879cf4",
+      "english": "TM55",
+      "french_reference": null,
+      "source_hex": "cec7a6a6ff",
+      "cell": "0x879cf4",
+      "item_id": 343,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM55",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879d20",
+      "english": "TM56",
+      "french_reference": null,
+      "source_hex": "cec7a6a7ff",
+      "cell": "0x879d20",
+      "item_id": 344,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM56",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879d4c",
+      "english": "TM57",
+      "french_reference": null,
+      "source_hex": "cec7a6a8ff",
+      "cell": "0x879d4c",
+      "item_id": 345,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM57",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879d78",
+      "english": "TM58",
+      "french_reference": null,
+      "source_hex": "cec7a6a9ff",
+      "cell": "0x879d78",
+      "item_id": 346,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM58",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879dd0",
+      "english": "Costume Box",
+      "french_reference": null,
+      "source_hex": "bde3e7e8e9e1d900bce3ecff",
+      "cell": "0x879dd0",
+      "item_id": 348,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Costume Box",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879dfc",
+      "english": "Parcel",
+      "french_reference": null,
+      "source_hex": "cad5e6d7d9e0ff",
+      "cell": "0x879dfc",
+      "item_id": 349,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Parcel",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879e28",
+      "english": "Jade Orb",
+      "french_reference": null,
+      "source_hex": "c4d5d8d900c9e6d6ff",
+      "cell": "0x879e28",
+      "item_id": 350,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Jade Orb",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879e54",
+      "english": "Grimy Socks",
+      "french_reference": null,
+      "source_hex": "c1e6dde1ed00cde3d7dfe7ff",
+      "cell": "0x879e54",
+      "item_id": 351,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Grimy Socks",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879e80",
+      "english": "Package",
+      "french_reference": null,
+      "source_hex": "cad5d7dfd5dbd9ff",
+      "cell": "0x879e80",
+      "item_id": 352,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Package",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879e88",
+      "english": "arce",
+      "french_reference": "arc",
+      "source_hex": "d5e6d7d9ff",
+      "cell": "0x879e80",
+      "item_id": 352,
+      "references": [],
+      "status": "exception",
+      "reason": "Faux texte résiduel à +8 de la cellule 0x879e80, après le terminateur du nom Package. Aucun pointeur direct ; le lecteur indexé ne commence qu’à 0x879e80. Ne pas injecter ces octets de remplissage."
+    },
+    {
+      "offset": "0x879eac",
+      "english": "Mega Ring",
+      "french_reference": null,
+      "source_hex": "c7d9dbd500ccdde2dbff",
+      "cell": "0x879eac",
+      "item_id": 353,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mega Ring",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879ed8",
+      "english": "Old Amber",
+      "french_reference": null,
+      "source_hex": "c9e0d800bbe1d6d9e6ff",
+      "cell": "0x879ed8",
+      "item_id": 354,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Old Amber",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879f04",
+      "english": "Key Card: 1",
+      "french_reference": null,
+      "source_hex": "c5d9ed00bdd5e6d8f000a2ff",
+      "cell": "0x879f04",
+      "item_id": 355,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Key Card: 1",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879f30",
+      "english": "Time Turner",
+      "french_reference": null,
+      "source_hex": "cedde1d900cee9e6e2d9e6ff",
+      "cell": "0x879f30",
+      "item_id": 356,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Time Turner",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879f5c",
+      "english": "Helix Fossil",
+      "french_reference": null,
+      "source_hex": "c2d9e0ddec00c0e3e7e7dde0ff",
+      "cell": "0x879f5c",
+      "item_id": 357,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Helix Fossil",
+      "encoded_bytes": 13,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879f88",
+      "english": "Dome Fossil",
+      "french_reference": null,
+      "source_hex": "bee3e1d900c0e3e7e7dde0ff",
+      "cell": "0x879f88",
+      "item_id": 358,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Dome Fossil",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879fb4",
+      "english": "Baby Monitor",
+      "french_reference": null,
+      "source_hex": "bcd5d6ed00c7e3e2dde8e3e6ff",
+      "cell": "0x879fb4",
+      "item_id": 359,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Baby Monitor",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x879fe0",
+      "english": "Motorcycle",
+      "french_reference": null,
+      "source_hex": "c7e3e8e3e6d7edd7e0d9ff",
+      "cell": "0x879fe0",
+      "item_id": 360,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Motorcycle",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a00c",
+      "english": "Town Map",
+      "french_reference": null,
+      "source_hex": "cee3ebe200c7d5e4ff",
+      "cell": "0x87a00c",
+      "item_id": 361,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Town Map",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a038",
+      "english": "VS Seeker",
+      "french_reference": null,
+      "source_hex": "d0cd00cdd9d9dfd9e6ff",
+      "cell": "0x87a038",
+      "item_id": 362,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "VS Seeker",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a090",
+      "english": "TM Case",
+      "french_reference": null,
+      "source_hex": "cec700bdd5e7d9ff",
+      "cell": "0x87a090",
+      "item_id": 364,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM Case",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a0bc",
+      "english": "Berry Pouch",
+      "french_reference": null,
+      "source_hex": "bcd9e6e6ed00cae3e9d7dcff",
+      "cell": "0x87a0bc",
+      "item_id": 365,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Berry Pouch",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a0e8",
+      "english": "ADM",
+      "french_reference": null,
+      "source_hex": "bbbec7ff",
+      "cell": "0x87a0e8",
+      "item_id": 366,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "ADM",
+      "encoded_bytes": 4,
+      "line_widths": [
+        18
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a0ec",
+      "english": "hy Tv",
+      "french_reference": "hy télé",
+      "source_hex": "dced00ceeaff",
+      "cell": "0x87a0e8",
+      "item_id": 366,
+      "references": [],
+      "status": "exception",
+      "reason": "Faux texte résiduel à +4 de la cellule 0x87a0e8, après le terminateur du nom ADM. Aucun pointeur direct ; le lecteur indexé ne commence qu’à 0x87a0e8. Ne pas injecter ces octets de remplissage."
+    },
+    {
+      "offset": "0x87a114",
+      "english": "Notebook",
+      "french_reference": null,
+      "source_hex": "c8e3e8d9d6e3e3dfff",
+      "cell": "0x87a114",
+      "item_id": 367,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Notebook",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a140",
+      "english": "Porta-PC",
+      "french_reference": null,
+      "source_hex": "cae3e6e8d5aecabdff",
+      "cell": "0x87a140",
+      "item_id": 368,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Porta-PC",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a1f0",
+      "english": "Powder Jar",
+      "french_reference": null,
+      "source_hex": "cae3ebd8d9e600c4d5e6ff",
+      "cell": "0x87a1f0",
+      "item_id": 372,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Powder Jar",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a21c",
+      "english": "Lunar Wing",
+      "french_reference": null,
+      "source_hex": "c6e9e2d5e600d1dde2dbff",
+      "cell": "0x87a21c",
+      "item_id": 373,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Lunar Wing",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a248",
+      "english": "Member Card",
+      "french_reference": null,
+      "source_hex": "c7d9e1d6d9e600bdd5e6d8ff",
+      "cell": "0x87a248",
+      "item_id": 374,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Member Card",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a274",
+      "english": "TM59",
+      "french_reference": null,
+      "source_hex": "cec7a6aaff",
+      "cell": "0x87a274",
+      "item_id": 375,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM59",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a2a0",
+      "english": "TM60",
+      "french_reference": null,
+      "source_hex": "cec7a7a1ff",
+      "cell": "0x87a2a0",
+      "item_id": 376,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM60",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a2cc",
+      "english": "TM61",
+      "french_reference": null,
+      "source_hex": "cec7a7a2ff",
+      "cell": "0x87a2cc",
+      "item_id": 377,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM61",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a2f8",
+      "english": "TM62",
+      "french_reference": null,
+      "source_hex": "cec7a7a3ff",
+      "cell": "0x87a2f8",
+      "item_id": 378,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM62",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a324",
+      "english": "TM63",
+      "french_reference": null,
+      "source_hex": "cec7a7a4ff",
+      "cell": "0x87a324",
+      "item_id": 379,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM63",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a350",
+      "english": "TM64",
+      "french_reference": null,
+      "source_hex": "cec7a7a5ff",
+      "cell": "0x87a350",
+      "item_id": 380,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM64",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a37c",
+      "english": "TM65",
+      "french_reference": null,
+      "source_hex": "cec7a7a6ff",
+      "cell": "0x87a37c",
+      "item_id": 381,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM65",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a3a8",
+      "english": "TM66",
+      "french_reference": null,
+      "source_hex": "cec7a7a7ff",
+      "cell": "0x87a3a8",
+      "item_id": 382,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM66",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a3d4",
+      "english": "TM67",
+      "french_reference": null,
+      "source_hex": "cec7a7a8ff",
+      "cell": "0x87a3d4",
+      "item_id": 383,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM67",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a400",
+      "english": "TM68",
+      "french_reference": null,
+      "source_hex": "cec7a7a9ff",
+      "cell": "0x87a400",
+      "item_id": 384,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM68",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a42c",
+      "english": "TM69",
+      "french_reference": null,
+      "source_hex": "cec7a7aaff",
+      "cell": "0x87a42c",
+      "item_id": 385,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM69",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a458",
+      "english": "TM70",
+      "french_reference": null,
+      "source_hex": "cec7a8a1ff",
+      "cell": "0x87a458",
+      "item_id": 386,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM70",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a484",
+      "english": "TM71",
+      "french_reference": null,
+      "source_hex": "cec7a8a2ff",
+      "cell": "0x87a484",
+      "item_id": 387,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM71",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a4b0",
+      "english": "TM72",
+      "french_reference": null,
+      "source_hex": "cec7a8a3ff",
+      "cell": "0x87a4b0",
+      "item_id": 388,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM72",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a4dc",
+      "english": "TM73",
+      "french_reference": null,
+      "source_hex": "cec7a8a4ff",
+      "cell": "0x87a4dc",
+      "item_id": 389,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM73",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a508",
+      "english": "TM74",
+      "french_reference": null,
+      "source_hex": "cec7a8a5ff",
+      "cell": "0x87a508",
+      "item_id": 390,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM74",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a534",
+      "english": "TM75",
+      "french_reference": null,
+      "source_hex": "cec7a8a6ff",
+      "cell": "0x87a534",
+      "item_id": 391,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM75",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a560",
+      "english": "TM76",
+      "french_reference": null,
+      "source_hex": "cec7a8a7ff",
+      "cell": "0x87a560",
+      "item_id": 392,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM76",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a58c",
+      "english": "TM77",
+      "french_reference": null,
+      "source_hex": "cec7a8a8ff",
+      "cell": "0x87a58c",
+      "item_id": 393,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM77",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a5b8",
+      "english": "TM78",
+      "french_reference": null,
+      "source_hex": "cec7a8a9ff",
+      "cell": "0x87a5b8",
+      "item_id": 394,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM78",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a5e4",
+      "english": "TM79",
+      "french_reference": null,
+      "source_hex": "cec7a8aaff",
+      "cell": "0x87a5e4",
+      "item_id": 395,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM79",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a610",
+      "english": "TM80",
+      "french_reference": null,
+      "source_hex": "cec7a9a1ff",
+      "cell": "0x87a610",
+      "item_id": 396,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM80",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a63c",
+      "english": "TM81",
+      "french_reference": null,
+      "source_hex": "cec7a9a2ff",
+      "cell": "0x87a63c",
+      "item_id": 397,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM81",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a668",
+      "english": "TM82",
+      "french_reference": null,
+      "source_hex": "cec7a9a3ff",
+      "cell": "0x87a668",
+      "item_id": 398,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM82",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a694",
+      "english": "TM83",
+      "french_reference": null,
+      "source_hex": "cec7a9a4ff",
+      "cell": "0x87a694",
+      "item_id": 399,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM83",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a6c0",
+      "english": "TM84",
+      "french_reference": null,
+      "source_hex": "cec7a9a5ff",
+      "cell": "0x87a6c0",
+      "item_id": 400,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM84",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a6ec",
+      "english": "TM85",
+      "french_reference": null,
+      "source_hex": "cec7a9a6ff",
+      "cell": "0x87a6ec",
+      "item_id": 401,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM85",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a718",
+      "english": "TM86",
+      "french_reference": null,
+      "source_hex": "cec7a9a7ff",
+      "cell": "0x87a718",
+      "item_id": 402,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM86",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a744",
+      "english": "TM87",
+      "french_reference": null,
+      "source_hex": "cec7a9a8ff",
+      "cell": "0x87a744",
+      "item_id": 403,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM87",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a770",
+      "english": "TM88",
+      "french_reference": null,
+      "source_hex": "cec7a9a9ff",
+      "cell": "0x87a770",
+      "item_id": 404,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM88",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a79c",
+      "english": "TM89",
+      "french_reference": null,
+      "source_hex": "cec7a9aaff",
+      "cell": "0x87a79c",
+      "item_id": 405,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM89",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a7c8",
+      "english": "TM90",
+      "french_reference": null,
+      "source_hex": "cec7aaa1ff",
+      "cell": "0x87a7c8",
+      "item_id": 406,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM90",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a7f4",
+      "english": "TM91",
+      "french_reference": null,
+      "source_hex": "cec7aaa2ff",
+      "cell": "0x87a7f4",
+      "item_id": 407,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM91",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a820",
+      "english": "TM92",
+      "french_reference": null,
+      "source_hex": "cec7aaa3ff",
+      "cell": "0x87a820",
+      "item_id": 408,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM92",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a84c",
+      "english": "TM93",
+      "french_reference": null,
+      "source_hex": "cec7aaa4ff",
+      "cell": "0x87a84c",
+      "item_id": 409,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM93",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a878",
+      "english": "TM94",
+      "french_reference": null,
+      "source_hex": "cec7aaa5ff",
+      "cell": "0x87a878",
+      "item_id": 410,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM94",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a8a4",
+      "english": "TM95",
+      "french_reference": null,
+      "source_hex": "cec7aaa6ff",
+      "cell": "0x87a8a4",
+      "item_id": 411,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM95",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a8d0",
+      "english": "TM96",
+      "french_reference": null,
+      "source_hex": "cec7aaa7ff",
+      "cell": "0x87a8d0",
+      "item_id": 412,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM96",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a8fc",
+      "english": "TM97",
+      "french_reference": null,
+      "source_hex": "cec7aaa8ff",
+      "cell": "0x87a8fc",
+      "item_id": 413,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM97",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a928",
+      "english": "TM98",
+      "french_reference": null,
+      "source_hex": "cec7aaa9ff",
+      "cell": "0x87a928",
+      "item_id": 414,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM98",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a954",
+      "english": "TM99",
+      "french_reference": null,
+      "source_hex": "cec7aaaaff",
+      "cell": "0x87a954",
+      "item_id": 415,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM99",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a980",
+      "english": "TM100",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a1ff",
+      "cell": "0x87a980",
+      "item_id": 416,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM100",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a9ac",
+      "english": "TM101",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a2ff",
+      "cell": "0x87a9ac",
+      "item_id": 417,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM101",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87a9d8",
+      "english": "TM102",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a3ff",
+      "cell": "0x87a9d8",
+      "item_id": 418,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM102",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87aa04",
+      "english": "TM103",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a4ff",
+      "cell": "0x87aa04",
+      "item_id": 419,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM103",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87aa30",
+      "english": "TM104",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a5ff",
+      "cell": "0x87aa30",
+      "item_id": 420,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM104",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87aa5c",
+      "english": "TM105",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a6ff",
+      "cell": "0x87aa5c",
+      "item_id": 421,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM105",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87aa88",
+      "english": "TM106",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a7ff",
+      "cell": "0x87aa88",
+      "item_id": 422,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM106",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87aab4",
+      "english": "TM107",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a8ff",
+      "cell": "0x87aab4",
+      "item_id": 423,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM107",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87aae0",
+      "english": "TM108",
+      "french_reference": null,
+      "source_hex": "cec7a2a1a9ff",
+      "cell": "0x87aae0",
+      "item_id": 424,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM108",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ab0c",
+      "english": "TM109",
+      "french_reference": null,
+      "source_hex": "cec7a2a1aaff",
+      "cell": "0x87ab0c",
+      "item_id": 425,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM109",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ab38",
+      "english": "TM110",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a1ff",
+      "cell": "0x87ab38",
+      "item_id": 426,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM110",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ab64",
+      "english": "TM111",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a2ff",
+      "cell": "0x87ab64",
+      "item_id": 427,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM111",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ab90",
+      "english": "TM112",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a3ff",
+      "cell": "0x87ab90",
+      "item_id": 428,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM112",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87abbc",
+      "english": "TM113",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a4ff",
+      "cell": "0x87abbc",
+      "item_id": 429,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM113",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87abe8",
+      "english": "TM114",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a5ff",
+      "cell": "0x87abe8",
+      "item_id": 430,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM114",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ac14",
+      "english": "TM115",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a6ff",
+      "cell": "0x87ac14",
+      "item_id": 431,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM115",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ac40",
+      "english": "TM116",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a7ff",
+      "cell": "0x87ac40",
+      "item_id": 432,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM116",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ac6c",
+      "english": "TM117",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a8ff",
+      "cell": "0x87ac6c",
+      "item_id": 433,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM117",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ac98",
+      "english": "TM118",
+      "french_reference": null,
+      "source_hex": "cec7a2a2a9ff",
+      "cell": "0x87ac98",
+      "item_id": 434,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM118",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87acc4",
+      "english": "TM119",
+      "french_reference": null,
+      "source_hex": "cec7a2a2aaff",
+      "cell": "0x87acc4",
+      "item_id": 435,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM119",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87acf0",
+      "english": "TM120",
+      "french_reference": null,
+      "source_hex": "cec7a2a3a1ff",
+      "cell": "0x87acf0",
+      "item_id": 436,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "TM120",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ad1c",
+      "english": "HM01",
+      "french_reference": null,
+      "source_hex": "c2c7a1a2ff",
+      "cell": "0x87ad1c",
+      "item_id": 437,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "HM01",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ad48",
+      "english": "HM02",
+      "french_reference": null,
+      "source_hex": "c2c7a1a3ff",
+      "cell": "0x87ad48",
+      "item_id": 438,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "HM02",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ad74",
+      "english": "HM03",
+      "french_reference": null,
+      "source_hex": "c2c7a1a4ff",
+      "cell": "0x87ad74",
+      "item_id": 439,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "HM03",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ada0",
+      "english": "HM04",
+      "french_reference": null,
+      "source_hex": "c2c7a1a5ff",
+      "cell": "0x87ada0",
+      "item_id": 440,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "HM04",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87adcc",
+      "english": "HM05",
+      "french_reference": null,
+      "source_hex": "c2c7a1a6ff",
+      "cell": "0x87adcc",
+      "item_id": 441,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "HM05",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87adf8",
+      "english": "HM06",
+      "french_reference": null,
+      "source_hex": "c2c7a1a7ff",
+      "cell": "0x87adf8",
+      "item_id": 442,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "HM06",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ae24",
+      "english": "HM07",
+      "french_reference": null,
+      "source_hex": "c2c7a1a8ff",
+      "cell": "0x87ae24",
+      "item_id": 443,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "HM07",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ae50",
+      "english": "HM08",
+      "french_reference": null,
+      "source_hex": "c2c7a1a9ff",
+      "cell": "0x87ae50",
+      "item_id": 444,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "HM08",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ae7c",
+      "english": "Necrozium Z",
+      "french_reference": null,
+      "source_hex": "c8d9d7e6e3eedde9e100d4ff",
+      "cell": "0x87ae7c",
+      "item_id": 445,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Necrozium Z",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87aea8",
+      "english": "Venusaurite",
+      "french_reference": null,
+      "source_hex": "d0d9e2e9e7d5e9e6dde8d9ff",
+      "cell": "0x87aea8",
+      "item_id": 446,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Venusaurite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87aed4",
+      "english": "Charizite X",
+      "french_reference": null,
+      "source_hex": "bddcd5e6ddeedde8d900d2ff",
+      "cell": "0x87aed4",
+      "item_id": 447,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Charizite X",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87af00",
+      "english": "Charizite Y",
+      "french_reference": null,
+      "source_hex": "bddcd5e6ddeedde8d900d3ff",
+      "cell": "0x87af00",
+      "item_id": 448,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Charizite Y",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87af2c",
+      "english": "Blastoisite",
+      "french_reference": null,
+      "source_hex": "bce0d5e7e8e3dde7dde8d9ff",
+      "cell": "0x87af2c",
+      "item_id": 449,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Blastoisite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87af58",
+      "english": "Beedrillite",
+      "french_reference": null,
+      "source_hex": "bcd9d9d8e6dde0e0dde8d9ff",
+      "cell": "0x87af58",
+      "item_id": 450,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Beedrillite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87af84",
+      "english": "Pidgeotite",
+      "french_reference": null,
+      "source_hex": "caddd8dbd9e3e8dde8d9ff",
+      "cell": "0x87af84",
+      "item_id": 451,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Pidgeotite",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87afb0",
+      "english": "Alakazite",
+      "french_reference": null,
+      "source_hex": "bbe0d5dfd5eedde8d9ff",
+      "cell": "0x87afb0",
+      "item_id": 452,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Alakazite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87afdc",
+      "english": "Slowbronite",
+      "french_reference": null,
+      "source_hex": "cde0e3ebd6e6e3e2dde8d9ff",
+      "cell": "0x87afdc",
+      "item_id": 453,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Slowbronite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b008",
+      "english": "Gengarite",
+      "french_reference": null,
+      "source_hex": "c1d9e2dbd5e6dde8d9ff",
+      "cell": "0x87b008",
+      "item_id": 454,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Gengarite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b034",
+      "english": "Kangaskhite",
+      "french_reference": null,
+      "source_hex": "c5d5e2dbd5e7dfdcdde8d9ff",
+      "cell": "0x87b034",
+      "item_id": 455,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Kangaskhite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b060",
+      "english": "Pinsirite",
+      "french_reference": null,
+      "source_hex": "cadde2e7dde6dde8d9ff",
+      "cell": "0x87b060",
+      "item_id": 456,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Pinsirite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b08c",
+      "english": "Gyaradosite",
+      "french_reference": null,
+      "source_hex": "c1edd5e6d5d8e3e7dde8d9ff",
+      "cell": "0x87b08c",
+      "item_id": 457,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Gyaradosite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b0b8",
+      "english": "Aerodactite",
+      "french_reference": null,
+      "source_hex": "bbd9e6e3d8d5d7e8dde8d9ff",
+      "cell": "0x87b0b8",
+      "item_id": 458,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Aerodactite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b0e4",
+      "english": "Mewtwonite X",
+      "french_reference": null,
+      "source_hex": "c7d9ebe8ebe3e2dde8d900d2ff",
+      "cell": "0x87b0e4",
+      "item_id": 459,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mewtwonite X",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b110",
+      "english": "Mewtwonite Y",
+      "french_reference": null,
+      "source_hex": "c7d9ebe8ebe3e2dde8d900d3ff",
+      "cell": "0x87b110",
+      "item_id": 460,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mewtwonite Y",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b13c",
+      "english": "Ampharosite",
+      "french_reference": null,
+      "source_hex": "bbe1e4dcd5e6e3e7dde8d9ff",
+      "cell": "0x87b13c",
+      "item_id": 461,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Ampharosite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b168",
+      "english": "Steelixite",
+      "french_reference": null,
+      "source_hex": "cde8d9d9e0ddecdde8d9ff",
+      "cell": "0x87b168",
+      "item_id": 462,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Steelixite",
+      "encoded_bytes": 11,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b194",
+      "english": "Scizorite",
+      "french_reference": null,
+      "source_hex": "cdd7ddeee3e6dde8d9ff",
+      "cell": "0x87b194",
+      "item_id": 463,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Scizorite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b1c0",
+      "english": "Heracronite",
+      "french_reference": null,
+      "source_hex": "c2d9e6d5d7e6e3e2dde8d9ff",
+      "cell": "0x87b1c0",
+      "item_id": 464,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Heracronite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b1ec",
+      "english": "Houndoomite",
+      "french_reference": null,
+      "source_hex": "c2e3e9e2d8e3e3e1dde8d9ff",
+      "cell": "0x87b1ec",
+      "item_id": 465,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Houndoomite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b218",
+      "english": "Tyranitarite",
+      "french_reference": null,
+      "source_hex": "ceede6d5e2dde8d5e6dde8d9ff",
+      "cell": "0x87b218",
+      "item_id": 466,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Tyranitarite",
+      "encoded_bytes": 13,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b244",
+      "english": "Sceptilite",
+      "french_reference": null,
+      "source_hex": "cdd7d9e4e8dde0dde8d9ff",
+      "cell": "0x87b244",
+      "item_id": 467,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Sceptilite",
+      "encoded_bytes": 11,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b270",
+      "english": "Blazikenite",
+      "french_reference": null,
+      "source_hex": "bce0d5eedddfd9e2dde8d9ff",
+      "cell": "0x87b270",
+      "item_id": 468,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Blazikenite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b29c",
+      "english": "Swampertite",
+      "french_reference": null,
+      "source_hex": "cdebd5e1e4d9e6e8dde8d9ff",
+      "cell": "0x87b29c",
+      "item_id": 469,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Swampertite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b2c8",
+      "english": "Gardevoirite",
+      "french_reference": null,
+      "source_hex": "c1d5e6d8d9eae3dde6dde8d9ff",
+      "cell": "0x87b2c8",
+      "item_id": 470,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Gardevoirite",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b2f4",
+      "english": "Sablenite",
+      "french_reference": null,
+      "source_hex": "cdd5d6e0d9e2dde8d9ff",
+      "cell": "0x87b2f4",
+      "item_id": 471,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Sablenite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b320",
+      "english": "Mawilite",
+      "french_reference": null,
+      "source_hex": "c7d5ebdde0dde8d9ff",
+      "cell": "0x87b320",
+      "item_id": 472,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mawilite",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b34c",
+      "english": "Aggronite",
+      "french_reference": null,
+      "source_hex": "bbdbdbe6e3e2dde8d9ff",
+      "cell": "0x87b34c",
+      "item_id": 473,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Aggronite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b378",
+      "english": "Medichamite",
+      "french_reference": null,
+      "source_hex": "c7d9d8ddd7dcd5e1dde8d9ff",
+      "cell": "0x87b378",
+      "item_id": 474,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Medichamite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b3a4",
+      "english": "Manectite",
+      "french_reference": null,
+      "source_hex": "c7d5e2d9d7e8dde8d9ff",
+      "cell": "0x87b3a4",
+      "item_id": 475,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Manectite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b3d0",
+      "english": "Sharpedonite",
+      "french_reference": null,
+      "source_hex": "cddcd5e6e4d9d8e3e2dde8d9ff",
+      "cell": "0x87b3d0",
+      "item_id": 476,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Sharpedonite",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b3fc",
+      "english": "Cameruptite",
+      "french_reference": null,
+      "source_hex": "bdd5e1d9e6e9e4e8dde8d9ff",
+      "cell": "0x87b3fc",
+      "item_id": 477,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Cameruptite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b428",
+      "english": "Altarianite",
+      "french_reference": null,
+      "source_hex": "bbe0e8d5e6ddd5e2dde8d9ff",
+      "cell": "0x87b428",
+      "item_id": 478,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Altarianite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b454",
+      "english": "Banettite",
+      "french_reference": null,
+      "source_hex": "bcd5e2d9e8e8dde8d9ff",
+      "cell": "0x87b454",
+      "item_id": 479,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Banettite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b480",
+      "english": "Absolite",
+      "french_reference": null,
+      "source_hex": "bbd6e7e3e0dde8d9ff",
+      "cell": "0x87b480",
+      "item_id": 480,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Absolite",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b4ac",
+      "english": "Glalitite",
+      "french_reference": null,
+      "source_hex": "c1e0d5e0dde8dde8d9ff",
+      "cell": "0x87b4ac",
+      "item_id": 481,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Glalitite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b4d8",
+      "english": "Salamencite",
+      "french_reference": null,
+      "source_hex": "cdd5e0d5e1d9e2d7dde8d9ff",
+      "cell": "0x87b4d8",
+      "item_id": 482,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Salamencite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b504",
+      "english": "Metagrossite",
+      "french_reference": null,
+      "source_hex": "c7d9e8d5dbe6e3e7e7dde8d9ff",
+      "cell": "0x87b504",
+      "item_id": 483,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Metagrossite",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b530",
+      "english": "Latiasite",
+      "french_reference": null,
+      "source_hex": "c6d5e8ddd5e7dde8d9ff",
+      "cell": "0x87b530",
+      "item_id": 484,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Latiasite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b55c",
+      "english": "Latiosite",
+      "french_reference": null,
+      "source_hex": "c6d5e8dde3e7dde8d9ff",
+      "cell": "0x87b55c",
+      "item_id": 485,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Latiosite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b588",
+      "english": "Lopunnite",
+      "french_reference": null,
+      "source_hex": "c6e3e4e9e2e2dde8d9ff",
+      "cell": "0x87b588",
+      "item_id": 486,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Lopunnite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b5b4",
+      "english": "Garchompite",
+      "french_reference": null,
+      "source_hex": "c1d5e6d7dce3e1e4dde8d9ff",
+      "cell": "0x87b5b4",
+      "item_id": 487,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Garchompite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b5e0",
+      "english": "Lucarionite",
+      "french_reference": null,
+      "source_hex": "c6e9d7d5e6dde3e2dde8d9ff",
+      "cell": "0x87b5e0",
+      "item_id": 488,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Lucarionite",
+      "encoded_bytes": 12,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b60c",
+      "english": "Abomasite",
+      "french_reference": null,
+      "source_hex": "bbd6e3e1d5e7dde8d9ff",
+      "cell": "0x87b60c",
+      "item_id": 489,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Abomasite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b638",
+      "english": "Galladite",
+      "french_reference": null,
+      "source_hex": "c1d5e0e0d5d8dde8d9ff",
+      "cell": "0x87b638",
+      "item_id": 490,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Galladite",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b664",
+      "english": "Audinite",
+      "french_reference": null,
+      "source_hex": "bbe9d8dde2dde8d9ff",
+      "cell": "0x87b664",
+      "item_id": 491,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Audinite",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b690",
+      "english": "Diancite",
+      "french_reference": null,
+      "source_hex": "beddd5e2d7dde8d9ff",
+      "cell": "0x87b690",
+      "item_id": 492,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Diancite",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b6e8",
+      "english": "Assault Vest",
+      "french_reference": null,
+      "source_hex": "bbe7e7d5e9e0e800d0d9e7e8ff",
+      "cell": "0x87b6e8",
+      "item_id": 494,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Assault Vest",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b714",
+      "english": "Eviolite",
+      "french_reference": null,
+      "source_hex": "bfeadde3e0dde8d9ff",
+      "cell": "0x87b714",
+      "item_id": 495,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Eviolite",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b740",
+      "english": "Fist Plate",
+      "french_reference": null,
+      "source_hex": "c0dde7e800cae0d5e8d9ff",
+      "cell": "0x87b740",
+      "item_id": 496,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Fist Plate",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b76c",
+      "english": "Sky Plate",
+      "french_reference": null,
+      "source_hex": "cddfed00cae0d5e8d9ff",
+      "cell": "0x87b76c",
+      "item_id": 497,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Sky Plate",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b798",
+      "english": "Toxic Plate",
+      "french_reference": null,
+      "source_hex": "cee3ecddd700cae0d5e8d9ff",
+      "cell": "0x87b798",
+      "item_id": 498,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Toxic Plate",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b7c4",
+      "english": "Earth Plate",
+      "french_reference": null,
+      "source_hex": "bfd5e6e8dc00cae0d5e8d9ff",
+      "cell": "0x87b7c4",
+      "item_id": 499,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Earth Plate",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b7f0",
+      "english": "Stone Plate",
+      "french_reference": null,
+      "source_hex": "cde8e3e2d900cae0d5e8d9ff",
+      "cell": "0x87b7f0",
+      "item_id": 500,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Stone Plate",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b81c",
+      "english": "Insect Plate",
+      "french_reference": null,
+      "source_hex": "c3e2e7d9d7e800cae0d5e8d9ff",
+      "cell": "0x87b81c",
+      "item_id": 501,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Insect Plate",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b848",
+      "english": "Spooky Plate",
+      "french_reference": null,
+      "source_hex": "cde4e3e3dfed00cae0d5e8d9ff",
+      "cell": "0x87b848",
+      "item_id": 502,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Spooky Plate",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b874",
+      "english": "Iron Plate",
+      "french_reference": null,
+      "source_hex": "c3e6e3e200cae0d5e8d9ff",
+      "cell": "0x87b874",
+      "item_id": 503,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Iron Plate",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b8a0",
+      "english": "Flame Plate",
+      "french_reference": null,
+      "source_hex": "c0e0d5e1d900cae0d5e8d9ff",
+      "cell": "0x87b8a0",
+      "item_id": 504,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Flame Plate",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b8cc",
+      "english": "Splash Plate",
+      "french_reference": null,
+      "source_hex": "cde4e0d5e7dc00cae0d5e8d9ff",
+      "cell": "0x87b8cc",
+      "item_id": 505,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Splash Plate",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b8f8",
+      "english": "Meadow Plate",
+      "french_reference": null,
+      "source_hex": "c7d9d5d8e3eb00cae0d5e8d9ff",
+      "cell": "0x87b8f8",
+      "item_id": 506,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Meadow Plate",
+      "encoded_bytes": 13,
+      "line_widths": [
+        70
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b924",
+      "english": "Zap Plate",
+      "french_reference": null,
+      "source_hex": "d4d5e400cae0d5e8d9ff",
+      "cell": "0x87b924",
+      "item_id": 507,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Zap Plate",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b950",
+      "english": "Mind Plate",
+      "french_reference": null,
+      "source_hex": "c7dde2d800cae0d5e8d9ff",
+      "cell": "0x87b950",
+      "item_id": 508,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mind Plate",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b97c",
+      "english": "Icicle Plate",
+      "french_reference": null,
+      "source_hex": "c3d7ddd7e0d900cae0d5e8d9ff",
+      "cell": "0x87b97c",
+      "item_id": 509,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Icicle Plate",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b9a8",
+      "english": "Draco Plate",
+      "french_reference": null,
+      "source_hex": "bee6d5d7e300cae0d5e8d9ff",
+      "cell": "0x87b9a8",
+      "item_id": 510,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Draco Plate",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87b9d4",
+      "english": "Dread Plate",
+      "french_reference": null,
+      "source_hex": "bee6d9d5d800cae0d5e8d9ff",
+      "cell": "0x87b9d4",
+      "item_id": 511,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Dread Plate",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ba00",
+      "english": "Pixie Plate",
+      "french_reference": null,
+      "source_hex": "caddecddd900cae0d5e8d9ff",
+      "cell": "0x87ba00",
+      "item_id": 512,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Pixie Plate",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ba2c",
+      "english": "Comet Shard",
+      "french_reference": null,
+      "source_hex": "bde3e1d9e800cddcd5e6d8ff",
+      "cell": "0x87ba2c",
+      "item_id": 513,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Comet Shard",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87ba84",
+      "english": "Big Malasada",
+      "french_reference": null,
+      "source_hex": "bcdddb00c7d5e0d5e7d5d8d5ff",
+      "cell": "0x87ba84",
+      "item_id": 515,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Big Malasada",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bab0",
+      "english": "Casteliacone",
+      "french_reference": null,
+      "source_hex": "bdd5e7e8d9e0ddd5d7e3e2d9ff",
+      "cell": "0x87bab0",
+      "item_id": 516,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Casteliacone",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87badc",
+      "english": "Lumiose Gale",
+      "french_reference": null,
+      "source_hex": "c6e9e1dde3e7d900c1d5e0d9ff",
+      "cell": "0x87badc",
+      "item_id": 517,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Lumiose Gale",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bb08",
+      "english": "Ragecandybar",
+      "french_reference": null,
+      "source_hex": "ccd5dbd9d7d5e2d8edd6d5e6ff",
+      "cell": "0x87bb08",
+      "item_id": 518,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Ragecandybar",
+      "encoded_bytes": 13,
+      "line_widths": [
+        70
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bb60",
+      "english": "Old Gateau",
+      "french_reference": null,
+      "source_hex": "c9e0d800c1d5e8d9d5e9ff",
+      "cell": "0x87bb60",
+      "item_id": 520,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Old Gateau",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bb8c",
+      "english": "Skull Fossil",
+      "french_reference": null,
+      "source_hex": "cddfe9e0e000c0e3e7e7dde0ff",
+      "cell": "0x87bb8c",
+      "item_id": 521,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Skull Fossil",
+      "encoded_bytes": 13,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bbb8",
+      "english": "Armor Fossil",
+      "french_reference": null,
+      "source_hex": "bbe6e1e3e600c0e3e7e7dde0ff",
+      "cell": "0x87bbb8",
+      "item_id": 522,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Armor Fossil",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bbe4",
+      "english": "Cover Fossil",
+      "french_reference": null,
+      "source_hex": "bde3ead9e600c0e3e7e7dde0ff",
+      "cell": "0x87bbe4",
+      "item_id": 523,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Cover Fossil",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bc10",
+      "english": "Plume Fossil",
+      "french_reference": null,
+      "source_hex": "cae0e9e1d900c0e3e7e7dde0ff",
+      "cell": "0x87bc10",
+      "item_id": 524,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Plume Fossil",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bc3c",
+      "english": "Jaw Fossil",
+      "french_reference": null,
+      "source_hex": "c4d5eb00c0e3e7e7dde0ff",
+      "cell": "0x87bc3c",
+      "item_id": 525,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Jaw Fossil",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bc68",
+      "english": "Sail Fossil",
+      "french_reference": null,
+      "source_hex": "cdd5dde000c0e3e7e7dde0ff",
+      "cell": "0x87bc68",
+      "item_id": 526,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Sail Fossil",
+      "encoded_bytes": 12,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bc94",
+      "english": "Mega Earing",
+      "french_reference": null,
+      "source_hex": "c7d9dbd500bfd5e6dde2dbff",
+      "cell": "0x87bc94",
+      "item_id": 527,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mega Earing",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bcc0",
+      "english": "Mega Charm",
+      "french_reference": null,
+      "source_hex": "c7d9dbd500bddcd5e6e1ff",
+      "cell": "0x87bcc0",
+      "item_id": 528,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mega Charm",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bd18",
+      "english": "Mega Anklet",
+      "french_reference": null,
+      "source_hex": "c7d9dbd500bbe2dfe0d9e8ff",
+      "cell": "0x87bd18",
+      "item_id": 530,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mega Anklet",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bd44",
+      "english": "Mega Pendant",
+      "french_reference": null,
+      "source_hex": "c7d9dbd500cad9e2d8d5e2e8ff",
+      "cell": "0x87bd44",
+      "item_id": 531,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Mega Pendant",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bd70",
+      "english": "Adamant Orb",
+      "french_reference": null,
+      "source_hex": "bbd8d5e1d5e2e800c9e6d6ff",
+      "cell": "0x87bd70",
+      "item_id": 532,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Adamant Orb",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bd9c",
+      "english": "Lustrous Orb",
+      "french_reference": null,
+      "source_hex": "c6e9e7e8e6e3e9e700c9e6d6ff",
+      "cell": "0x87bd9c",
+      "item_id": 533,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Lustrous Orb",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bdc8",
+      "english": "Griseous Orb",
+      "french_reference": null,
+      "source_hex": "c1e6dde7d9e3e9e700c9e6d6ff",
+      "cell": "0x87bdc8",
+      "item_id": 534,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Griseous Orb",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bdf4",
+      "english": "Gracidea",
+      "french_reference": null,
+      "source_hex": "c1e6d5d7ddd8d9d5ff",
+      "cell": "0x87bdf4",
+      "item_id": 535,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Gracidea",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87be20",
+      "english": "DNA Splicers",
+      "french_reference": null,
+      "source_hex": "bec8bb00cde4e0ddd7d9e6e7ff",
+      "cell": "0x87be20",
+      "item_id": 536,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "DNA Splicers",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87be4c",
+      "english": "Reveal Glass",
+      "french_reference": null,
+      "source_hex": "ccd9ead9d5e000c1e0d5e7e7ff",
+      "cell": "0x87be4c",
+      "item_id": 537,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Reveal Glass",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bea4",
+      "english": "Occa Berry",
+      "french_reference": null,
+      "source_hex": "c9d7d7d500bcd9e6e6edff",
+      "cell": "0x87bea4",
+      "item_id": 539,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Occa Berry",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bed0",
+      "english": "Passho Berry",
+      "french_reference": null,
+      "source_hex": "cad5e7e7dce300bcd9e6e6edff",
+      "cell": "0x87bed0",
+      "item_id": 540,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Passho Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87befc",
+      "english": "Wacan Berry",
+      "french_reference": null,
+      "source_hex": "d1d5d7d5e200bcd9e6e6edff",
+      "cell": "0x87befc",
+      "item_id": 541,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Wacan Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bf28",
+      "english": "Rindo Berry",
+      "french_reference": null,
+      "source_hex": "ccdde2d8e300bcd9e6e6edff",
+      "cell": "0x87bf28",
+      "item_id": 542,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Rindo Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bf54",
+      "english": "Yache Berry",
+      "french_reference": null,
+      "source_hex": "d3d5d7dcd900bcd9e6e6edff",
+      "cell": "0x87bf54",
+      "item_id": 543,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Yache Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bf80",
+      "english": "Chople Berry",
+      "french_reference": null,
+      "source_hex": "bddce3e4e0d900bcd9e6e6edff",
+      "cell": "0x87bf80",
+      "item_id": 544,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Chople Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bfac",
+      "english": "Kebia Berry",
+      "french_reference": null,
+      "source_hex": "c5d9d6ddd500bcd9e6e6edff",
+      "cell": "0x87bfac",
+      "item_id": 545,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Kebia Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87bfd8",
+      "english": "Shuca Berry",
+      "french_reference": null,
+      "source_hex": "cddce9d7d500bcd9e6e6edff",
+      "cell": "0x87bfd8",
+      "item_id": 546,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Shuca Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c004",
+      "english": "Coba Berry",
+      "french_reference": null,
+      "source_hex": "bde3d6d500bcd9e6e6edff",
+      "cell": "0x87c004",
+      "item_id": 547,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Coba Berry",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c030",
+      "english": "Payapa Berry",
+      "french_reference": null,
+      "source_hex": "cad5edd5e4d500bcd9e6e6edff",
+      "cell": "0x87c030",
+      "item_id": 548,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Payapa Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        70
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c05c",
+      "english": "Tanga Berry",
+      "french_reference": null,
+      "source_hex": "ced5e2dbd500bcd9e6e6edff",
+      "cell": "0x87c05c",
+      "item_id": 549,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Tanga Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c088",
+      "english": "Charti Berry",
+      "french_reference": null,
+      "source_hex": "bddcd5e6e8dd00bcd9e6e6edff",
+      "cell": "0x87c088",
+      "item_id": 550,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Charti Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c0b4",
+      "english": "Kasib Berry",
+      "french_reference": null,
+      "source_hex": "c5d5e7ddd600bcd9e6e6edff",
+      "cell": "0x87c0b4",
+      "item_id": 551,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Kasib Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c0e0",
+      "english": "Haban Berry",
+      "french_reference": null,
+      "source_hex": "c2d5d6d5e200bcd9e6e6edff",
+      "cell": "0x87c0e0",
+      "item_id": 552,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Haban Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c10c",
+      "english": "Colbur Berry",
+      "french_reference": null,
+      "source_hex": "bde3e0d6e9e600bcd9e6e6edff",
+      "cell": "0x87c10c",
+      "item_id": 553,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Colbur Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c138",
+      "english": "Babiri Berry",
+      "french_reference": null,
+      "source_hex": "bcd5d6dde6dd00bcd9e6e6edff",
+      "cell": "0x87c138",
+      "item_id": 554,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Babiri Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c164",
+      "english": "Chilan Berry",
+      "french_reference": null,
+      "source_hex": "bddcdde0d5e200bcd9e6e6edff",
+      "cell": "0x87c164",
+      "item_id": 555,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Chilan Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c190",
+      "english": "Micle Berry",
+      "french_reference": null,
+      "source_hex": "c7ddd7e0d900bcd9e6e6edff",
+      "cell": "0x87c190",
+      "item_id": 556,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Micle Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c1bc",
+      "english": "Custap Berry",
+      "french_reference": null,
+      "source_hex": "bde9e7e8d5e400bcd9e6e6edff",
+      "cell": "0x87c1bc",
+      "item_id": 557,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Custap Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c1e8",
+      "english": "Jaboca Berry",
+      "french_reference": null,
+      "source_hex": "c4d5d6e3d7d500bcd9e6e6edff",
+      "cell": "0x87c1e8",
+      "item_id": 558,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Jaboca Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        70
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c214",
+      "english": "Rowap Berry",
+      "french_reference": null,
+      "source_hex": "cce3ebd5e400bcd9e6e6edff",
+      "cell": "0x87c214",
+      "item_id": 559,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Rowap Berry",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c240",
+      "english": "Roseli Berry",
+      "french_reference": null,
+      "source_hex": "cce3e7d9e0dd00bcd9e6e6edff",
+      "cell": "0x87c240",
+      "item_id": 560,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Roseli Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c26c",
+      "english": "Kee Berry",
+      "french_reference": null,
+      "source_hex": "c5d9d900bcd9e6e6edff",
+      "cell": "0x87c26c",
+      "item_id": 561,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Kee Berry",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c298",
+      "english": "Marang Berry",
+      "french_reference": null,
+      "source_hex": "c7d5e6d5e2db00bcd9e6e6edff",
+      "cell": "0x87c298",
+      "item_id": 562,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Marang Berry",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c2c4",
+      "english": "Absorb Bulb",
+      "french_reference": null,
+      "source_hex": "bbd6e7e3e6d600bce9e0d6ff",
+      "cell": "0x87c2c4",
+      "item_id": 563,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Absorb Bulb",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c2f0",
+      "english": "Air Balloon",
+      "french_reference": null,
+      "source_hex": "bbdde600bcd5e0e0e3e3e2ff",
+      "cell": "0x87c2f0",
+      "item_id": 564,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Air Balloon",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c31c",
+      "english": "Adrenal Orb",
+      "french_reference": null,
+      "source_hex": "bbd8e6d9e2d5e000c9e6d6ff",
+      "cell": "0x87c31c",
+      "item_id": 565,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Adrenal Orb",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c348",
+      "english": "Binding Band",
+      "french_reference": null,
+      "source_hex": "bcdde2d8dde2db00bcd5e2d8ff",
+      "cell": "0x87c348",
+      "item_id": 566,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Binding Band",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c374",
+      "english": "Cell Battery",
+      "french_reference": null,
+      "source_hex": "bdd9e0e000bcd5e8e8d9e6edff",
+      "cell": "0x87c374",
+      "item_id": 567,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Cell Battery",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c3a0",
+      "english": "Eject Button",
+      "french_reference": null,
+      "source_hex": "bfded9d7e800bce9e8e8e3e2ff",
+      "cell": "0x87c3a0",
+      "item_id": 568,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Eject Button",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c3cc",
+      "english": "Float Stone",
+      "french_reference": null,
+      "source_hex": "c0e0e3d5e800cde8e3e2d9ff",
+      "cell": "0x87c3cc",
+      "item_id": 569,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Float Stone",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c3f8",
+      "english": "Focus Sash",
+      "french_reference": null,
+      "source_hex": "c0e3d7e9e700cdd5e7dcff",
+      "cell": "0x87c3f8",
+      "item_id": 570,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Focus Sash",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c424",
+      "english": "Grip Claw",
+      "french_reference": null,
+      "source_hex": "c1e6dde400bde0d5ebff",
+      "cell": "0x87c424",
+      "item_id": 571,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Grip Claw",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c450",
+      "english": "Iron Ball",
+      "french_reference": null,
+      "source_hex": "c3e6e3e200bcd5e0e0ff",
+      "cell": "0x87c450",
+      "item_id": 572,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Iron Ball",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c47c",
+      "english": "Lagging Tail",
+      "french_reference": null,
+      "source_hex": "c6d5dbdbdde2db00ced5dde0ff",
+      "cell": "0x87c47c",
+      "item_id": 573,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Lagging Tail",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c4d4",
+      "english": "Quick Powder",
+      "french_reference": null,
+      "source_hex": "cbe9ddd7df00cae3ebd8d9e6ff",
+      "cell": "0x87c4d4",
+      "item_id": 575,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Quick Powder",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c500",
+      "english": "Metronome",
+      "french_reference": null,
+      "source_hex": "c7d9e8e6e3e2e3e1d9ff",
+      "cell": "0x87c500",
+      "item_id": 576,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Metronome",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c52c",
+      "english": "Muscle Band",
+      "french_reference": null,
+      "source_hex": "c7e9e7d7e0d900bcd5e2d8ff",
+      "cell": "0x87c52c",
+      "item_id": 577,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Muscle Band",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c558",
+      "english": "Protect Pads",
+      "french_reference": null,
+      "source_hex": "cae6e3e8d9d7e800cad5d8e7ff",
+      "cell": "0x87c558",
+      "item_id": 578,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Protect Pads",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c584",
+      "english": "Red Card",
+      "french_reference": null,
+      "source_hex": "ccd9d800bdd5e6d8ff",
+      "cell": "0x87c584",
+      "item_id": 579,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Red Card",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c5b0",
+      "english": "Ring Target",
+      "french_reference": null,
+      "source_hex": "ccdde2db00ced5e6dbd9e8ff",
+      "cell": "0x87c5b0",
+      "item_id": 580,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Ring Target",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c5dc",
+      "english": "Shed Shell",
+      "french_reference": null,
+      "source_hex": "cddcd9d800cddcd9e0e0ff",
+      "cell": "0x87c5dc",
+      "item_id": 581,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Shed Shell",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c608",
+      "english": "Snowball",
+      "french_reference": null,
+      "source_hex": "cde2e3ebd6d5e0e0ff",
+      "cell": "0x87c608",
+      "item_id": 582,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Snowball",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c634",
+      "english": "Sticky Barb",
+      "french_reference": null,
+      "source_hex": "cde8ddd7dfed00bcd5e6d6ff",
+      "cell": "0x87c634",
+      "item_id": 583,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Sticky Barb",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c660",
+      "english": "Terrain Ext.",
+      "french_reference": null,
+      "source_hex": "ced9e6e6d5dde200bfece8adff",
+      "cell": "0x87c660",
+      "item_id": 584,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Terrain Ext.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c68c",
+      "english": "Wise Glasses",
+      "french_reference": null,
+      "source_hex": "d1dde7d900c1e0d5e7e7d9e7ff",
+      "cell": "0x87c68c",
+      "item_id": 585,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Wise Glasses",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c6e4",
+      "english": "Grassy Seed",
+      "french_reference": null,
+      "source_hex": "c1e6d5e7e7ed00cdd9d9d8ff",
+      "cell": "0x87c6e4",
+      "item_id": 587,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Grassy Seed",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c710",
+      "english": "Misty Seed",
+      "french_reference": null,
+      "source_hex": "c7dde7e8ed00cdd9d9d8ff",
+      "cell": "0x87c710",
+      "item_id": 588,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Misty Seed",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c73c",
+      "english": "Psychic Seed",
+      "french_reference": null,
+      "source_hex": "cae7edd7dcddd700cdd9d9d8ff",
+      "cell": "0x87c73c",
+      "item_id": 589,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Psychic Seed",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c768",
+      "english": "Normal Gem",
+      "french_reference": null,
+      "source_hex": "c8e3e6e1d5e000c1d9e1ff",
+      "cell": "0x87c768",
+      "item_id": 590,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Normal Gem",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c794",
+      "english": "Fighting Gem",
+      "french_reference": null,
+      "source_hex": "c0dddbdce8dde2db00c1d9e1ff",
+      "cell": "0x87c794",
+      "item_id": 591,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Fighting Gem",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c7c0",
+      "english": "Flying Gem",
+      "french_reference": null,
+      "source_hex": "c0e0eddde2db00c1d9e1ff",
+      "cell": "0x87c7c0",
+      "item_id": 592,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Flying Gem",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c7ec",
+      "english": "Poison Gem",
+      "french_reference": null,
+      "source_hex": "cae3dde7e3e200c1d9e1ff",
+      "cell": "0x87c7ec",
+      "item_id": 593,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Poison Gem",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c818",
+      "english": "Ground Gem",
+      "french_reference": null,
+      "source_hex": "c1e6e3e9e2d800c1d9e1ff",
+      "cell": "0x87c818",
+      "item_id": 594,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Ground Gem",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c844",
+      "english": "Rock Gem",
+      "french_reference": null,
+      "source_hex": "cce3d7df00c1d9e1ff",
+      "cell": "0x87c844",
+      "item_id": 595,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Rock Gem",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c870",
+      "english": "Bug Gem",
+      "french_reference": null,
+      "source_hex": "bce9db00c1d9e1ff",
+      "cell": "0x87c870",
+      "item_id": 596,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Bug Gem",
+      "encoded_bytes": 8,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c89c",
+      "english": "Ghost Gem",
+      "french_reference": null,
+      "source_hex": "c1dce3e7e800c1d9e1ff",
+      "cell": "0x87c89c",
+      "item_id": 597,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Ghost Gem",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    },
+    {
+      "offset": "0x87c8c8",
+      "english": "Steel Gem",
+      "french_reference": null,
+      "source_hex": "cde8d9d9e000c1d9e1ff",
+      "cell": "0x87c8c8",
+      "item_id": 598,
+      "references": [],
+      "status": "retained_english",
+      "portuguese": "Steel Gem",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom d’objet conservé selon F-759 : items.fallback=preserve_english ; accès indexé à la cellule, sans pointeur individuel."
+    }
+  ]
+}
