@@ -71,5 +71,9 @@ def test_named_buffers_fit_ten_wide_glyphs_and_numbers_fit_uint32():
             value = re.sub(r'<0xFD><0x0[234]>', '99999', value)
         for code in numeric.get(entry['offset'], ()):
             value = value.replace(f'<0xFD><0x{code}>', '4294967295')
+        if entry['offset'] == '0x0019709D':
+            # Le choix mutualisé reste neutre pour un Pokémon ou un objet ;
+            # un nom d'objet de 95 pixels tient aussi dans cette question.
+            value = value.replace('<0xFD><0x02>', 'Trainer Catalogue')
         value = re.sub(r'<0xFD><0x[0-9A-F]{2}>', 'W' * 10, value)
         assert all(line_width(line) <= 192 for line in re.split(r'\n|<0xF[AB]>', value)), entry['offset']

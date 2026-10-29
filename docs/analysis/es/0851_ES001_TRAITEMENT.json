@@ -2204,12 +2204,12 @@
       "en": "The Fishing Flop versus Pokémon\nSun!",
       "source_controls": [],
       "decision": "traduit_depuis_en",
-      "translation": "¡El pescador torpe contra\nel sol Pokémon!",
-      "encoded_hex": "52bfe000e4d9e7d7d5d8e3e600e8e3e6e4d900d7e3e2e8e6d5fed9e000e7e3e000cae3df1be1e3e2abff",
-      "encoded_bytes": 42,
+      "translation": "¡El pescador torpe contra\nPokémon Sun!",
+      "encoded_hex": "52bfe000e4d9e7d7d5d8e3e600e8e3e6e4d900d7e3e2e8e6d5fecae3df1be1e3e200cde9e2abff",
+      "encoded_bytes": 39,
       "line_widths": [
         142,
-        85
+        69
       ],
       "justification": "EN reconstruit, relecture ES communautaire remplacée par une traduction conforme au glossaire D-849.",
       "spanish_source_hex": "cedcd900c0dde7dcdde2db00c0e0e3e400ead9e6e7e9e700cae3df1be1e3e2fecde9e2abff",
@@ -2217,7 +2217,8 @@
         "0x001AA4D3": "080906025c00e4000000e155180806561808",
         "0x001AA4FA": "080906025c05e4000000e155180806561808"
       },
-      "zone": "Consommateurs de script/table listés ci-dessus ; nom de carte et accessibilité naturelle non certifiés, aucune zone déduite de la banque ROM."
+      "zone": "Consommateurs de script/table listés ci-dessus ; nom de carte et accessibilité naturelle non certifiés, aucune zone déduite de la banque ROM.",
+      "name_exception": "Sun conservé selon D-849 : identité du référent anglais non établie ; ni titre officiel ni personnage identifié."
     },
     {
       "offset": "0x00185606",
@@ -9674,13 +9675,13 @@
         ]
       ],
       "decision": "traduit_depuis_en",
-      "translation": "¿Quieres el objeto <0xFD><0x02>?",
-      "encoded_hex": "51cbe9ddd9e6d9e700d9e000e3d6ded9e8e300fd02acff",
-      "encoded_bytes": 23,
+      "translation": "¿Quieres <0xFD><0x02>?",
+      "encoded_hex": "51cbe9ddd9e6d9e700fd02acff",
+      "encoded_bytes": 13,
       "line_widths": [
-        168
+        110
       ],
-      "justification": "EN reconstruit, relecture ES communautaire remplacée par une traduction conforme au glossaire D-849.",
+      "justification": "Question mutualisée de choix : formulation neutre sans imposer la catégorie objet au buffer ; nom de 95 pixels vérifié.",
       "spanish_source_hex": "cde3b800ede3e900ebd5e2e800e8dcd900fd02acff",
       "consumer_context_hex": {
         "0x0016CC6B": "c57e08027d0001400f009d7019080905210d",

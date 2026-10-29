@@ -53,6 +53,11 @@ sont pas des appellations officielles revendiquées. Les pouces restent des
 changer seulement le nom de l’unité en centimètres serait inexact. Le format
 du chronomètre conserve les trois buffers et utilise `min.` et `s`.
 
+À 0x1855E1, l’EN porte littéralement « Pokémon Sun ». L’identité du référent
+n’étant pas établie, `Sun` reste inchangé selon D-849 ; aucune identification
+comme titre officiel ou personnage n’est revendiquée. Cette exception de nom
+propre reste visible pour T-914.
+
 ## Vérification reproductible
 
 ```sh

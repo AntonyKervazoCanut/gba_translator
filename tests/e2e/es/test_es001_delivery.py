@@ -73,3 +73,10 @@ def test_es001_real_pipeline_and_exact_write_ranges(tmp_path, monkeypatch):
     for site in [0x1D9CAFA, 0x16C79CA, 0x176E4D3, 0x21A31, 0x4F9E5, 0x100713C, 0x5CABB2]:
         assert final[site:site+4] == source[site:site+4]
     assert final[0x18D43D] == source[0x18D43D] == 0xAA
+    for entry in report['entries']:
+        if entry['decision'] not in {'conserve_sans_consommateur', 'exclu_non_textuel'}:
+            continue
+        key = int(entry['offset'], 16)
+        raw = bytes.fromhex(entry['raw_hex'])
+        assert final[key:key+len(raw)] == source[key:key+len(raw)] == raw
+        assert production[key:key+len(raw)] == raw
