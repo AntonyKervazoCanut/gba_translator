@@ -9,8 +9,8 @@ ligne logique par offset : décision, justification, octets EN complets,
 correspondance ES de l’offset map, octets communautaires alignés, référents,
 commandes complètes, traduction et vérification ROM.
 
-318 traductions, 3 imports communautaires relus, 41 noms/cris ou chaînes de secours conservés,
-12 exclusions : les 374 décisions sont couvertes sans doublon. Les trois imports
+322 traductions, 3 imports communautaires relus, 41 noms/cris ou chaînes de secours conservés,
+8 exclusions : les 374 décisions sont couvertes sans doublon. Les trois imports
 sont les formulations fidèles de la commode, du réfrigérateur rempli et des
 lumières clignotantes. Les autres formulations ont été retraduites/corrigées.
 Le texte de cuisine publicitaire KFC est remplacé par le sens EN. Les récompenses
@@ -25,8 +25,9 @@ glossaire ni l’infrastructure commune, ni ES référence ni FR ne sont édité
 - Préfixes parasites 0xAA : 1A5AD5, 1A5BC5, 1A6196, 1A6447, 1A6CA2,
   1B1D7C, 1BC310 et 1C27E6. Le texte réellement référencé commence à +1.
   Les vrais offsets 1A5BC6, 1A6197 et 1A6CA3 sont traduits dans le lot ;
-  le cri 1A6448 est conservé. Les quatre autres vrais débuts ne sont pas ajoutés
-  hors contrat ; ils doivent entrer dans l’examen complémentaire de T-914.
+  le cri 1A6448 est conservé. Pour les quatre autres phrases, les traductions sont préparées sous la clé
+  contractuelle ; la résolution explicite vers +1 attend le prérequis technique
+  réutilisant B-1030. Aucun ajout de clé hors contrat et aucune écriture sur AA.
 - 1BDF08 : suffixe de 1BDEDF, pas une chaîne autonome ; la référence brute
   1BDF64 chevauche un vrai pointeur 1BDF61 vers 1BDF76.
 - 1C59F7 : suffixe intérieur de 1C59D5, sans référent.
@@ -81,5 +82,87 @@ multijoueur nécessitant plusieurs consoles.
 
 ## Résultats locaux
 
-Validation en cours ; les résultats finaux et empreintes seront consignés après
-les builds et les vérifications ROM. Aucun push ni pipeline distant déclenché.
+**Préparation livrée, certification bloquée : ne pas clôturer F-852.**
+
+- `make build-es-maint BUILD_NUMBER=0` réussit, sans prouver le bon acheminement.
+- `make test-python` : 4 749 passed, 3 skipped préexistants, 2 662 deselected.
+- Hooks actifs du commit initial : 4 607 tests Python rapides et 68 tests Vitest
+  réussis ; builds FR/IT/DE réussis. Le premier essai a rencontré une ROM DE
+  absente dans le worktree pendant un sous-make dry-run ; les artefacts locaux
+  ont été préparés, puis le hook complet a été rejoué, sans contournement.
+- `python3 -m ruff check` sur les deux nouveaux tests Python et
+  `npx tsc --noEmit -p tsconfig.playwright.json` réussissent.
+- Playwright headless : 1 test réussi, huit consommateurs natifs avec assertions
+  OCR es-ES, capture attachée à F-852 : ab1a1922-96c4-4c16-bb51-9bb01a9603e8.
+  L’OCR est normalisé pour les accents, les octets accentués étant contrôlés
+  séparément par les assertions ROM. Aucune sauvegarde en jeu. Cette preuve
+  concerne les textes acheminés ; elle ne certifie pas les branches bloquées.
+- FR reconstruite aux mêmes sources/paramètres avant import et par les hooks :
+  comparaison octet par octet réussie, SHA-256
+  `2c2f602edcbb11e07acad7f078991d22bb742c94388e93b0fd8651259e11c863`.
+- Baseline es-maint sans traduction reconstruite avec les étapes mécaniques
+  F-850 : SHA-256 `43504c10e47ff2ff655d0fcecf5cbc5030c1b30902d7c549ca4b9cdd194c33c0`,
+  identique au témoin F-850. ROM ES provisoire du lot avant résolution des alias :
+  `dcf139884ed1e0af92649b4514064cbe95fa92f876bc24673c3f69eef3c2177e`.
+  Ce hash identifie un artefact de diagnostic, pas une ROM distribuable.
+
+## Blocages et reprise obligatoire
+
+Le rapport ROM identifie 312 textes conformes et **13 entrées non certifiées** :
+quatre alias contractuels (1A5AD5, 1B1D7C, 1BC310, 1C27E6), quatre paginations
+altérées (1A552B, 1BC4CE, 1BC7E2, 1BDBF8) et cinq classes (23E565, 23E57F,
+23E58C, 23E599, 23E5A6) restant EN. Les 41 conservations et huit exclusions
+restent documentées. Les gardes ROM échouent volontairement sur ces défauts ;
+aucun skip/xfail ni neutralisation de commande n’est ajouté.
+
+B-1030 fournit la résolution des alias contractuels. B-1032, créé après
+consultation du catalogue et de B-1031, traite le complément technique ES-002 :
+étendre les quatre alias sans dupliquer le moteur ; préserver les pages de ces
+consommateurs système ; réutiliser la passe existante des classes indexées.
+B-1031 reste le propriétaire de la correction de layout des descriptions d’objets
+ES-003. Aucune traduction n’est déléguée à ces prérequis.
+
+La comparaison différentielle à la baseline ES relève aussi **neuf octets hors
+plages autorisées**, immédiatement après les anciens slots de textes relocalisés :
+1A6041, 1A63D6–D7, 1BC572–573, 1BCA7F, 1C0DD4–DD5, 237503. Le dernier est le H
+de Hawlucha, explicitement exclu du lot. Plusieurs autres sont des données non
+textuelles, pas du padding. La passe inline réécrit vraisemblablement l’ancien
+slot après relocalisation ; le diagnostic et les préimages sont transmis à B-1032,
+sans modifier cette infrastructure dans ES-002. Une garde ROM vérifie chacun de
+ces neuf octets par rapport à EN. La certification impose zéro octet hors périmètre.
+
+Preuves jointes : préimages des 13 entrées a6078e76-6e44-4318-8f08-1cb7ba8c3bc4 ;
+audit de voisinage ce54b1f2-835c-439a-bfd2-82113b7ab55e. Les prérequis peuvent
+tester leurs mécanismes avec des sentinelles temporaires et ces préimages,
+sans dépendre des sources provisoires de ce worktree.
+
+Après intégration des prérequis : rebase orchestré, rebuild es-maint, tests ROM
+complets du lot (y compris voisins), nouveau témoin FR sur les sources intégrées,
+make test-python, puis nouvelles preuves Playwright pour les surfaces corrigées.
+Les zones carte précises des scripts partagés et le multijoueur à plusieurs
+consoles ne sont pas certifiés par la sonde. Aucun push ni pipeline distant déclenché.
+
+
+## Passe ROM globale de diagnostic
+
+`make -o materialize-test-roms test-rom` teste les reconstructions locales sans
+réappliquer les anciens BPS par-dessus le témoin FR : 2 420 passed, 32 skipped,
+28 failed, 4 943 deselected. Vingt-deux échecs sont les gardes ES-002 attendues
+(13 entrées et neuf octets voisins). Les six autres concernent une ROM PT absente,
+quatre attentes DE distinctes des sources/contenus actuels (rival, deux gardes
+F-601 et dialogues-09) et la garde de hash global Corps Gel FR qui exige
+c6031984… au lieu du témoin reconstruit 2c2f602e… . Aucune source ou attente DE/FR
+n’a été modifiée dans ES-002 pour masquer ces écarts.
+
+La cible PT a ensuite été construite localement ; le test de police PT repasse
+(1 passed). Pas de deuxième passe globale inutile tant que les défauts ES-002
+restent ouverts. Le test unitaire ciblé final du lot donne 376 passed.
+Les 185 référents relocalisés inspectés ciblent exclusivement du padding 00/FF
+dans la baseline ES ; aucune cible allouée ne remplace de données occupées.
+
+Les sources EN/ES référence/FR et les deux ROM sources ont gardé leurs empreintes
+consignées dans le rapport. Les modifications du combined sont exclusivement les
+325 clés ES-002 préparées ; les autres lots ne sont ni traduits ni normalisés.
+La préparation et les preuves sont conservées en commits locaux, sans push.
+F-852 attend B-1030 et B-1032 et doit reprendre toutes les gardes ROM après leur
+intégration avant toute déclaration de réussite.

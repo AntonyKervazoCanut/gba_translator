@@ -43,3 +43,9 @@ def test_es002_preserve_commandes_et_exclusions(entry: dict) -> None:
     assert max(line_widths(expected)) <= 192
     if entry.get('cellule'):
         assert len(encoded) <= entry['cellule']['stride']
+
+
+def test_es002_objet_long_et_joueur_maximal_tiennent() -> None:
+    """Trainer Catalogue fait 95 px, au-delà du buffer fictif de 54 px."""
+    text = COMBINED[0x001A5218].split('\n')[0]
+    assert line_widths(text)[0] + (95 - 54) <= 192

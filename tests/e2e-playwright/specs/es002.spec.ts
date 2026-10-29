@@ -104,7 +104,7 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
   for (let n = 0; n < 8; n++) {
     const enlarged = path.join(temp, `readable${n}.png`);
     await page.getByRole('img').nth(n).screenshot({ path: enlarged });
-    texts.push(execFileSync(ocr, [enlarged], { encoding: 'utf8', timeout: 60_000 }).replace(/\s+/g, ' '));
+    texts.push(execFileSync(ocr, [enlarged], { encoding: 'utf8', timeout: 60_000 }).normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' '));
   }
   console.log(texts);
   expect(texts[0]).toMatch(/Centro Pok[eé]mon/i);
@@ -112,7 +112,7 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
   expect(texts[2]).toMatch(/Pok[eé]dex/i);
   expect(texts[3]).toMatch(/libros/i);
   expect(texts[4]).toMatch(/guarder[ií]a/i);
-  expect(texts[5]).toMatch(/(clima|tiempo)/i);
+  expect(texts[5]).toMatch(/gafas protegen del dano/i);
   expect(texts[6]).toMatch(/Restos/i);
   expect(texts[7]).toMatch(/Microondas/i);
   const proof = path.join(os.tmpdir(), 'es002-dialogues.png');

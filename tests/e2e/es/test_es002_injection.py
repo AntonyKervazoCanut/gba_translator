@@ -42,12 +42,23 @@ def test_es002_consommateurs_vivants(entry: dict, roms: tuple[bytes, bytes, dict
     for target in targets:
         assert target is not None
         actual = built[target:built.index(0xFF, target) + 1]
-        # FE et espaces peuvent être rééquilibrés par le constructeur ; aucune
+        # Les coupures peuvent être rééquilibrées par le constructeur ; aucune
         # lettre ou commande n'est retirée de cette comparaison.
         def normalize(text: bytes) -> bytes:
-            return re.sub(b'[\x00\xfe]+', b'\x00', text).strip(b'\x00')
+            return re.sub(b'[\x00\xfe\xfa]+', b'\x00', text).strip(b'\x00')
         assert normalize(actual) == normalize(expected), (entry['offset'], hex(target))
         assert _extract_control_sequences_from_raw(actual) == _extract_control_sequences_from_raw(raw)
         if entry.get('cellule'):
             assert target == offset
             assert len(actual) <= entry['cellule']['stride']
+
+
+@pytest.mark.parametrize('offset', [0x1A6041, 0x1A63D6, 0x1A63D7,
+                                   0x1BC572, 0x1BC573, 0x1BCA7F,
+                                   0x1C0DD4, 0x1C0DD5, 0x237503])
+def test_es002_ne_reecrit_pas_les_voisins_apres_relocalisation(
+    offset: int, roms: tuple[bytes, bytes, dict],
+) -> None:
+    """La passe inline ne doit pas déborder de l’ancien slot déjà relocalisé."""
+    english, built, _ = roms
+    assert built[offset] == english[offset], hex(offset)
