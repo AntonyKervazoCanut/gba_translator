@@ -1729,3 +1729,1053 @@ entries:
 - offset: '0x001c27e6'
   name: ES-002 alias 0x001C27E6
   expected: La orilla de la playa no es\ntan poco profunda.
+- offset: '0x00028780'
+  name: 'ES-001 : 0x00028780'
+  expected: ¡<0xFD><0x0F> adoptó\nel tipo de <0xFD><0x10>!
+- offset: '0x00172482'
+  name: 'ES-001 : 0x00172482'
+  expected: ¡Aunque sea pequeña, no quiero\nque me lo pongas fácil!
+- offset: '0x001724bf'
+  name: 'ES-001 : 0x001724BF'
+  expected: Jo...\nNada salió bien.
+- offset: '0x001724dc'
+  name: 'ES-001 : 0x001724DC'
+  expected: He perdido parte de mi paga<0xB0>
+- offset: '0x001724f9'
+  name: 'ES-001 : 0x001724F9'
+  expected: ¿Sabías que los Pokémon\nevolucionan?
+- offset: '0x0017251b'
+  name: 'ES-001 : 0x0017251B'
+  expected: ¡Oh!\n¡He perdido!
+- offset: '0x00172fc3'
+  name: 'ES-001 : 0x00172FC3'
+  expected: Solo pueden pasar quienes\nhayan probado su valía<0xFA>en combate.<0xFB>...<0xFB>No eres digno.
+- offset: '0x00177364'
+  name: 'ES-001 : 0x00177364'
+  expected: ¿Quién eres?\n¿Qué haces aquí?
+- offset: '0x00177391'
+  name: 'ES-001 : 0x00177391'
+  expected: ¡Hala!
+- offset: '0x00177397'
+  name: 'ES-001 : 0x00177397'
+  expected: ¿Una estatua con un interruptor?\nNunca había oído hablar de eso.
+- offset: '0x001773c6'
+  name: 'ES-001 : 0x001773C6'
+  expected: ¿Conoces los secretos que\nesconde esta mansión?
+- offset: '0x001773fd'
+  name: 'ES-001 : 0x001773FD'
+  expected: Te lo contaré.
+- offset: '0x00177460'
+  name: 'ES-001 : 0x00177460'
+  expected: ¡Un interruptor secreto!<0xFB>¿Lo pulsas?
+- offset: '0x0017747b'
+  name: 'ES-001 : 0x0017747B'
+  expected: ¿Quién no lo haría?
+- offset: '0x00177489'
+  name: 'ES-001 : 0x00177489'
+  expected: ¡Aún no!
+- offset: '0x00177498'
+  name: 'ES-001 : 0x00177498'
+  expected: ¡No encuentro a la\nsucesora Maxima!
+- offset: '0x001774cb'
+  name: 'ES-001 : 0x001774CB'
+  expected: ¡Oh, no! ¡He perdido!
+- offset: '0x001774e3'
+  name: 'ES-001 : 0x001774E3'
+  expected: Hay un interruptor que abre\nel camino hasta Maxima.
+- offset: '0x001776d7'
+  name: 'ES-001 : 0x001776D7'
+  expected: ¡Aúúú!
+- offset: '0x001776de'
+  name: 'ES-001 : 0x001776DE'
+  expected: No llegaré a ninguna parte\nsi sigo aquí parado.
+- offset: '0x00179fa0'
+  name: 'ES-001 : 0x00179FA0'
+  expected: ¡Vete!\n¡Espíritu maligno!
+- offset: '0x00179fbc'
+  name: 'ES-001 : 0x00179FBC'
+  expected: ¡Uf!\n¡El espíritu se ha ido!
+- offset: '0x00179fd3'
+  name: 'ES-001 : 0x00179FD3'
+  expected: Los demás<0xB0>\nDebían de estar poseídos.
+- offset: '0x0017a004'
+  name: 'ES-001 : 0x0017A004'
+  expected: ¡Un fantasma! ¡No!\n¡Aaaah!
+- offset: '0x0017a017'
+  name: 'ES-001 : 0x0017A017'
+  expected: ¿Dónde está el fantasma?
+- offset: '0x0017a02b'
+  name: 'ES-001 : 0x0017A02B'
+  expected: Debía de estar soñando<0xB0>
+- offset: '0x0017cc56'
+  name: 'ES-001 : 0x0017CC56'
+  expected: <0xFD><0x02> min. <0xFD><0x03>.<0xFD><0x04> s
+- offset: '0x0017d80d'
+  name: 'ES-001 : 0x0017D80D'
+  expected: ¡Hola!\n¿Qué tal?<0xFB>¿Has visitado ya el laboratorio\ndel Profesor Log?
+- offset: '0x0017d866'
+  name: 'ES-001 : 0x0017D866'
+  expected: Laboratorio Pokémon Log
+- offset: '0x0017d87f'
+  name: 'ES-001 : 0x0017D87F'
+  expected: Casa de <0xFD><0x01>
+- offset: '0x0017d88a'
+  name: 'ES-001 : 0x0017D88A'
+  expected: Casa de <0xFD><0x06>
+- offset: '0x0017ff1c'
+  name: 'ES-001 : 0x0017FF1C'
+  expected: ¿No te asas con esa ropa?
+- offset: '0x0017ff49'
+  name: 'ES-001 : 0x0017FF49'
+  expected: ¡No puedo dejar de comprar!<0xFB>¡Hay tanta variedad en los\n<0xFC><0x01><0x06>Grandes Almacenes Dehara<0xFC><0x01><0x04>!
+- offset: '0x00180300'
+  name: 'ES-001 : 0x00180300'
+  expected: Mmm<0xB0><0xFB>Un parque en una ciudad\ndel desierto relaja.<0xFB>¡Ciudad Dehara es un oasis\nparadisíaco!
+- offset: '0x00183482'
+  name: 'ES-001 : 0x00183482'
+  expected: Cueva Valley
+- offset: '0x00183509'
+  name: 'ES-001 : 0x00183509'
+  expected: Me has ganado.
+- offset: '0x0018351c'
+  name: 'ES-001 : 0x0018351C'
+  expected: Me enorgullece todo lo que sé\nsobre los bichos.
+- offset: '0x00183560'
+  name: 'ES-001 : 0x00183560'
+  expected: ¡Hola!\n¡Me gustan los pantalones cortos!<0xFB>¡Son muy cómodos y fáciles\nde llevar!
+- offset: '0x001835a0'
+  name: 'ES-001 : 0x001835A0'
+  expected: ¡No me lo creo!
+- offset: '0x001835b4'
+  name: 'ES-001 : 0x001835B4'
+  expected: ¿Guardas tus Pokémon en el PC\nde un Centro Pokémon?<0xFB>En cada caja caben hasta\n30 Pokémon.
+- offset: '0x0018364c'
+  name: 'ES-001 : 0x0018364C'
+  expected: Por favor, no me mires fijamente.
+- offset: '0x00183682'
+  name: 'ES-001 : 0x00183682'
+  expected: ¿Eres Entrenador?\n¡Pues empecemos ya!
+- offset: '0x001836b3'
+  name: 'ES-001 : 0x001836B3'
+  expected: ¡Con nuevos Pokémon habría\nganado!
+- offset: '0x001836d9'
+  name: 'ES-001 : 0x001836D9'
+  expected: Si se llena una caja del PC,\ncambia a otra caja.
+- offset: '0x0018371b'
+  name: 'ES-001 : 0x0018371B'
+  expected: Esa mirada que me has echado<0xB0>\n¡Es tan intrigante!
+- offset: '0x00183746'
+  name: 'ES-001 : 0x00183746'
+  expected: ¡Sé amable!
+- offset: '0x0018374f'
+  name: 'ES-001 : 0x0018374F'
+  expected: Para evitar combates,\nno dejes que te vean.
+- offset: '0x00183786'
+  name: 'ES-001 : 0x00183786'
+  expected: No creas que pasarás tan\nfácilmente.
+- offset: '0x001837bd'
+  name: 'ES-001 : 0x001837BD'
+  expected: ¡He perdido!\n¡He perdido! ¡He perdido!
+- offset: '0x001837cf'
+  name: 'ES-001 : 0x001837CF'
+  expected: Y yo que creía que podía\natrapar a cualquiera.
+- offset: '0x00183807'
+  name: 'ES-001 : 0x00183807'
+  expected: Combatiré con los Pokémon\nque acabo de atrapar.
+- offset: '0x00183837'
+  name: 'ES-001 : 0x00183837'
+  expected: ¡Estoy frito!
+- offset: '0x00183849'
+  name: 'ES-001 : 0x00183849'
+  expected: Los Pokémon entrenados son\nmás fuertes que los salvajes.
+- offset: '0x0018387a'
+  name: 'ES-001 : 0x0018387A'
+  expected: ¡Ay!\n¿Me has tocado?
+- offset: '0x00183891'
+  name: 'ES-001 : 0x00183891'
+  expected: ¿Eso es todo?
+- offset: '0x00185402'
+  name: 'ES-001 : 0x00185402'
+  expected: ¡Sí!\n¡Aquí ha picado algo!
+- offset: '0x0018541b'
+  name: 'ES-001 : 0x0018541B'
+  expected: ¡Bah!\nSolo un pez pequeño<0xB0>
+- offset: '0x00185432'
+  name: 'ES-001 : 0x00185432'
+  expected: ¡Espera!\n¡Se me ha enganchado el sedal!
+- offset: '0x0018544e'
+  name: 'ES-001 : 0x0018544E'
+  expected: Ten paciencia.\nLa pesca es cuestión de esperar.
+- offset: '0x00185475'
+  name: 'ES-001 : 0x00185475'
+  expected: ¡Se me ha escapado!
+- offset: '0x00185488'
+  name: 'ES-001 : 0x00185488'
+  expected: Con una caña mejor podría\npescar mejores Pokémon<0xB0>
+- offset: '0x001855e1'
+  name: 'ES-001 : 0x001855E1'
+  expected: ¡El pescador torpe contra\nel sol Pokémon!
+- offset: '0x00185606'
+  name: 'ES-001 : 0x00185606'
+  expected: ¡Demasiado!
+- offset: '0x00185616'
+  name: 'ES-001 : 0x00185616'
+  expected: Supongo que se te da bien\nlo que te gusta.<0xFB>Me has ganado a los Pokémon,\npero no me superas pescando.
+- offset: '0x00185682'
+  name: 'ES-001 : 0x00185682'
+  expected: Me encanta pescar, no me\nmalinterpretes.<0xFB>Pero sería mejor que también\ntuviera más trabajo.
+- offset: '0x001856d0'
+  name: 'ES-001 : 0x001856D0'
+  expected: No es fácil<0xB0>
+- offset: '0x001856df'
+  name: 'ES-001 : 0x001856DF'
+  expected: No pasa nada.\nYa no me molesta perder.
+- offset: '0x00185a37'
+  name: 'ES-001 : 0x00185A37'
+  expected: ¡Guau!\n¡Tus Medallas son geniales!
+- offset: '0x00185a56'
+  name: 'ES-001 : 0x00185A56'
+  expected: ¡No basta!
+- offset: '0x00185a62'
+  name: 'ES-001 : 0x00185A62'
+  expected: ¡Sé que conseguiste esas Medallas\nde los Líderes de Gimnasio!
+- offset: '0x0018650b'
+  name: 'ES-001 : 0x0018650B'
+  expected: Mmm<0xB0><0xFB>¡Este debe de ser el camino\na Ciudad Dehara!<0xFB>¡Lo sé!
+- offset: '0x00186549'
+  name: 'ES-001 : 0x00186549'
+  expected: No puedo haberme perdido<0xB0>
+- offset: '0x0018655a'
+  name: 'ES-001 : 0x0018655A'
+  expected: ¿Una Entrenadora tan guapa como\nyo, perdida?<0xFB>¡Imposible!<0xFB>Sé perfectamente adónde voy<0xB0>
+- offset: '0x0018664f'
+  name: 'ES-001 : 0x0018664F'
+  expected: Cuando silbo, oigo el eco.
+- offset: '0x0018667a'
+  name: 'ES-001 : 0x0018667A'
+  expected: ¡Ay!\n¡Qué tragedia!
+- offset: '0x001866d1'
+  name: 'ES-001 : 0x001866D1'
+  expected: ¿Sabes adónde vas?
+- offset: '0x00186707'
+  name: 'ES-001 : 0x00186707'
+  expected: Seguro que lo sabes.
+- offset: '0x0018671a'
+  name: 'ES-001 : 0x0018671A'
+  expected: Desde arriba no se ve, pero\n¡hay un pasadizo que va<0xFA>por debajo del puente!
+- offset: '0x0018678b'
+  name: 'ES-001 : 0x0018678B'
+  expected: Cada vez hace más calor<0xB0>
+- offset: '0x001867c1'
+  name: 'ES-001 : 0x001867C1'
+  expected: Sin calor no hay ayuda.
+- offset: '0x001867da'
+  name: 'ES-001 : 0x001867DA'
+  expected: ¡Cuanto más calor hace,\nmás fuerte me vuelvo!
+- offset: '0x0018680c'
+  name: 'ES-001 : 0x0018680C'
+  expected: ¡Mis poderes psíquicos predicen\nmi victoria!
+- offset: '0x00186841'
+  name: 'ES-001 : 0x00186841'
+  expected: ¿Me<0xB0>me he equivocado?
+- offset: '0x0018686f'
+  name: 'ES-001 : 0x0018686F'
+  expected: Debo afinar aún más mis\nsentidos psíquicos.<0xFB>La próxima vez no me equivocaré.
+- offset: '0x001868b6'
+  name: 'ES-001 : 0x001868B6'
+  expected: No querría caerme al mar\naquí.
+- offset: '0x00186936'
+  name: 'ES-001 : 0x00186936'
+  expected: ¡El mar es muy profundo\nlejos de la costa!
+- offset: '0x00186968'
+  name: 'ES-001 : 0x00186968'
+  expected: Seguiré pescando.
+- offset: '0x0018697c'
+  name: 'ES-001 : 0x0018697C'
+  expected: Juraría que acaban de empujar\na alguien al mar<0xB0>
+- offset: '0x00186a22'
+  name: 'ES-001 : 0x00186A22'
+  expected: ¡Mira estos!
+- offset: '0x00186a40'
+  name: 'ES-001 : 0x00186A40'
+  expected: ¿A que molan?
+- offset: '0x00186a55'
+  name: 'ES-001 : 0x00186A55'
+  expected: ¡Me encanta presumir\nde mis Pokémon!
+- offset: '0x0018768c'
+  name: 'ES-001 : 0x0018768C'
+  expected: ¡Currucú!\n¿Qué te parece mi canto de ave?
+- offset: '0x001876b3'
+  name: 'ES-001 : 0x001876B3'
+  expected: ¡Tenía que darte la lata!
+- offset: '0x001876c5'
+  name: 'ES-001 : 0x001876C5'
+  expected: 'Busco Pokémon marinos los fines\nde semana: el mar está muy cerca.'
+- offset: '0x00187884'
+  name: 'ES-001 : 0x00187884'
+  expected: ¡Me encanta nadar!\n¿Y a ti?
+- offset: '0x001878a5'
+  name: 'ES-001 : 0x001878A5'
+  expected: ¡Vaya planchazo!
+- offset: '0x001878b1'
+  name: 'ES-001 : 0x001878B1'
+  expected: Nado más rápido incluso\nque los Pokémon marinos.
+- offset: '0x001878dd'
+  name: 'ES-001 : 0x001878DD'
+  expected: ¿Qué hay tras el horizonte?
+- offset: '0x001878f8'
+  name: 'ES-001 : 0x001878F8'
+  expected: ¡Glub!
+- offset: '0x001878fe'
+  name: 'ES-001 : 0x001878FE'
+  expected: ¡Veo las Ruins of Void\nallá a lo lejos!
+- offset: '0x00187925'
+  name: 'ES-001 : 0x00187925'
+  expected: ¡Probé a bucear para buscar\nPokémon y funcionó!
+- offset: '0x00187955'
+  name: 'ES-001 : 0x00187955'
+  expected: ¡Socorro!
+- offset: '0x0018795b'
+  name: 'ES-001 : 0x0018795B'
+  expected: Solo puedes bucear donde\nel mar es oscuro.
+- offset: '0x00187985'
+  name: 'ES-001 : 0x00187985'
+  expected: Miro el mar para olvidar\ntodo lo malo que ha pasado.
+- offset: '0x001879c3'
+  name: 'ES-001 : 0x001879C3'
+  expected: ¡Oh!\n¡Qué trauma!
+- offset: '0x001879d3'
+  name: 'ES-001 : 0x001879D3'
+  expected: ¡Miro el mar para olvidar\nlo malo que ha pasado!
+- offset: '0x00187a11'
+  name: 'ES-001 : 0x00187A11'
+  expected: ¡Me encanta tu montura!\n¿Me la das si gano?
+- offset: '0x00187a44'
+  name: 'ES-001 : 0x00187A44'
+  expected: ¡Oh! ¡He perdido!
+- offset: '0x00187a50'
+  name: 'ES-001 : 0x00187A50'
+  expected: Aún queda mucho camino\nhasta las Ruins of Void.<0xFB>Quiero volver a Pueblo Dresco.
+- offset: '0x00187a9e'
+  name: 'ES-001 : 0x00187A9E'
+  expected: ¡Nadar es genial!\n¡Quemarse al sol no!
+- offset: '0x00187ac1'
+  name: 'ES-001 : 0x00187AC1'
+  expected: ¡Qué impresión!
+- offset: '0x00187aca'
+  name: 'ES-001 : 0x00187ACA'
+  expected: Mi amiga quería nadar hasta\nlas Ruins of Void.
+- offset: '0x00187afa'
+  name: 'ES-001 : 0x00187AFA'
+  expected: ¡Ah del barco!\n¡Estas aguas son traicioneras!
+- offset: '0x00187b25'
+  name: 'ES-001 : 0x00187B25'
+  expected: ¡Oh!\n¡Qué peligro!
+- offset: '0x00187b35'
+  name: 'ES-001 : 0x00187B35'
+  expected: ¡M-mis piernas! ¡Me dan calambres!\nGlub, glub<0xB0>
+- offset: '0x00187b5d'
+  name: 'ES-001 : 0x00187B5D'
+  expected: He venido nadando con amigos<0xB0>\nEstoy cansada<0xB0>
+- offset: '0x00187b85'
+  name: 'ES-001 : 0x00187B85'
+  expected: Estoy agotada<0xB0>
+- offset: '0x00187b94'
+  name: 'ES-001 : 0x00187B94'
+  expected: Si montara un Pokémon en el mar,\nquerría un Lapras.<0xFB>Es tan grande que seguro que\nno me mojaría.
+- offset: '0x00187e40'
+  name: 'ES-001 : 0x00187E40'
+  expected: Aquí el agua es poco profunda.\nHay mucha gente nadando.
+- offset: '0x00187e7b'
+  name: 'ES-001 : 0x00187E7B'
+  expected: ¡Chof!
+- offset: '0x00187e83'
+  name: 'ES-001 : 0x00187E83'
+  expected: Ojalá pudiera montar mi Pokémon.\nSeguro que no estás cansado.
+- offset: '0x00187fdb'
+  name: 'ES-001 : 0x00187FDB'
+  expected: ¡Mira qué cuerpo tan musculoso!
+- offset: '0x00187ff7'
+  name: 'ES-001 : 0x00187FF7'
+  expected: ¡Qué debilidad!
+- offset: '0x00187ffe'
+  name: 'ES-001 : 0x00187FFE'
+  expected: ¡Debí fortalecer a mis Pokémon\nen vez de a mí mismo!
+- offset: '0x0018802e'
+  name: 'ES-001 : 0x0018802E'
+  expected: ¿Por qué montas un Pokémon?\n¿No sabes nadar?
+- offset: '0x0018805c'
+  name: 'ES-001 : 0x0018805C'
+  expected: ¡Ay!\n¡Me has torpedeado!
+- offset: '0x0018806d'
+  name: 'ES-001 : 0x0018806D'
+  expected: ¡Montar un Pokémon parece\nmuy divertido!
+- offset: '0x001880f8'
+  name: 'ES-001 : 0x001880F8'
+  expected: Mi novio me dio perlas grandes.
+- offset: '0x00188119'
+  name: 'ES-001 : 0x00188119'
+  expected: ¡No!\n¡Mis perlas estaban ahí!
+- offset: '0x00188139'
+  name: 'ES-001 : 0x00188139'
+  expected: ¿Crecerán mis perlas dentro\nde Cloyster?
+- offset: '0x0018851f'
+  name: 'ES-001 : 0x0018851F'
+  expected: Ahora estoy compitiendo\nen un triatlón.
+- offset: '0x00188543'
+  name: 'ES-001 : 0x00188543'
+  expected: Uf<0xB0>\nUf<0xB0> Uf<0xB0>
+- offset: '0x00188555'
+  name: 'ES-001 : 0x00188555'
+  expected: ¡Estoy molido! ¡Y aún quedan\nla bici y el maratón!
+- offset: '0x00188ed9'
+  name: 'ES-001 : 0x00188ED9'
+  expected: ¡Te voy a aplastar!
+- offset: '0x00188efa'
+  name: 'ES-001 : 0x00188EFA'
+  expected: ¡Hala!\n¡Es demasiado!
+- offset: '0x00188f0a'
+  name: 'ES-001 : 0x00188F0A'
+  expected: ¡Di lo mejor de mí y no\nme arrepiento!
+- offset: '0x00188f53'
+  name: 'ES-001 : 0x00188F53'
+  expected: ¡Di lo mejor de mí y no\nme arrepiento!
+- offset: '0x0018901b'
+  name: 'ES-001 : 0x0018901B'
+  expected: ¡Me encanta el olor del mar!
+- offset: '0x0018908c'
+  name: 'ES-001 : 0x0018908C'
+  expected: ¡Uau!\n¡Qué bien!
+- offset: '0x0018909e'
+  name: 'ES-001 : 0x0018909E'
+  expected: ¡Este aire es maravilloso!
+- offset: '0x001890c0'
+  name: 'ES-001 : 0x001890C0'
+  expected: Los Entrenadores de la zona\nvienen aquí a practicar.
+- offset: '0x001890e6'
+  name: 'ES-001 : 0x001890E6'
+  expected: No estás mal.
+- offset: '0x001890f5'
+  name: 'ES-001 : 0x001890F5'
+  expected: Todos los Pokémon tienen puntos\ndébiles. Hasta los más fuertes.<0xFB>Por eso conviene criar Pokémon\nde distintos tipos.
+- offset: '0x00189165'
+  name: 'ES-001 : 0x00189165'
+  expected: Me encanta estar aquí\nmirando el mar.
+- offset: '0x001891a6'
+  name: 'ES-001 : 0x001891A6'
+  expected: ¡No estoy enfadada!
+- offset: '0x001891b3'
+  name: 'ES-001 : 0x001891B3'
+  expected: ¿No son geniales las vistas?
+- offset: '0x00189247'
+  name: 'ES-001 : 0x00189247'
+  expected: ¡Hola!\n¡Vas a caer!
+- offset: '0x00189261'
+  name: 'ES-001 : 0x00189261'
+  expected: No estoy en mi mejor forma<0xB0>
+- offset: '0x00189281'
+  name: 'ES-001 : 0x00189281'
+  expected: Ojalá se me diera tan bien\ncomo a ti.
+- offset: '0x001892a9'
+  name: 'ES-001 : 0x001892A9'
+  expected: Tuve una corazonada<0xB0>\n¡Sabía que debía retarte!
+- offset: '0x001892d9'
+  name: 'ES-001 : 0x001892D9'
+  expected: ¡También sabía que perdería!
+- offset: '0x001892ef'
+  name: 'ES-001 : 0x001892EF'
+  expected: Si tu Pokémon está confuso,\ncámbialo por otro.<0xFB>Es una buena táctica.
+- offset: '0x00189364'
+  name: 'ES-001 : 0x00189364'
+  expected: ¡No tengo tanta envidia!
+- offset: '0x001893ea'
+  name: 'ES-001 : 0x001893EA'
+  expected: ¡Te has esforzado mucho!
+- offset: '0x00189423'
+  name: 'ES-001 : 0x00189423'
+  expected: ¡Si quieres un combate,\ntendrás un combate!
+- offset: '0x00189459'
+  name: 'ES-001 : 0x00189459'
+  expected: ¡Me has pillado, y de lleno!
+- offset: '0x0018947e'
+  name: 'ES-001 : 0x0018947E'
+  expected: Debería dejar de atacar a los\nEntrenadores y culparlos<0xB0>
+- offset: '0x0018961f'
+  name: 'ES-001 : 0x0018961F'
+  expected: ¡Hace un día espléndido!\n¡Perfecto para un combate!
+- offset: '0x0018964d'
+  name: 'ES-001 : 0x0018964D'
+  expected: ¡Ayyyy!
+- offset: '0x00189657'
+  name: 'ES-001 : 0x00189657'
+  expected: ¡No me salpiques la cara!\n¡Me estropearás el maquillaje!
+- offset: '0x00189e42'
+  name: 'ES-001 : 0x00189E42'
+  expected: El olor salado del mar<0xB0>\nMe hace cosquillas en el corazón.
+- offset: '0x00189e72'
+  name: 'ES-001 : 0x00189E72'
+  expected: <0xB0>Snif, snif<0xB0>\nAlgo huele mal<0xB0>
+- offset: '0x00189e9e'
+  name: 'ES-001 : 0x00189E9E'
+  expected: Quizá ese hedor sea el olor\ncorporal de tus Pokémon sudados<0xB0>
+- offset: '0x00189f63'
+  name: 'ES-001 : 0x00189F63'
+  expected: Mi mamá dice que no puedo\nnadar sin mi flotador.
+- offset: '0x00189f9a'
+  name: 'ES-001 : 0x00189F9A'
+  expected: ¡Buaaa!\n¡Buaaa!
+- offset: '0x00189fa8'
+  name: 'ES-001 : 0x00189FA8'
+  expected: ¡Este año por fin voy\na aprender a nadar!
+- offset: '0x00189fdb'
+  name: 'ES-001 : 0x00189FDB'
+  expected: ¡Viva, viva!\n¡Pokémon!
+- offset: '0x00189fee'
+  name: 'ES-001 : 0x00189FEE'
+  expected: ¿Y ahora qué pasa?
+- offset: '0x0018a000'
+  name: 'ES-001 : 0x0018A000'
+  expected: ¿He ganado?\n¿O he perdido?
+- offset: '0x0018ba86'
+  name: 'ES-001 : 0x0018BA86'
+  expected: Mi novio siempre está ocupado,\nasí que vengo a nadar sola.
+- offset: '0x0018bac0'
+  name: 'ES-001 : 0x0018BAC0'
+  expected: ¡Jo, sabía que pasaría esto!
+- offset: '0x0018bae0'
+  name: 'ES-001 : 0x0018BAE0'
+  expected: Cuando no puedo estar con mi\nnovio, paso tiempo con el Pokémon<0xFA>que me dio.
+- offset: '0x0018c1ed'
+  name: 'ES-001 : 0x0018C1ED'
+  expected: He sentido que te acercabas.
+- offset: '0x0018c205'
+  name: 'ES-001 : 0x0018C205'
+  expected: Ríndete<0xB0>
+- offset: '0x0018c20e'
+  name: 'ES-001 : 0x0018C20E'
+  expected: Presiento que en el futuro\nconocerás a muchas personas.<0xFB>Creo que un extraño poder\nos unirá.
+- offset: '0x0018ca2f'
+  name: 'ES-001 : 0x0018CA2F'
+  expected: Trabajo para proteger el medio.\n¡Y la naturaleza me protege a mí!
+- offset: '0x0018ca6f'
+  name: 'ES-001 : 0x0018CA6F'
+  expected: ¡Vaya, eres fuerte!\n¿Y si me proteges a mí?
+- offset: '0x0018ca9c'
+  name: 'ES-001 : 0x0018CA9C'
+  expected: Desde las lejanas estrellas,\nnuestro planeta es una gota.<0xFB>Pero queremos proteger esa gota\nde agua para todos.
+- offset: '0x0018cb16'
+  name: 'ES-001 : 0x0018CB16'
+  expected: Esas zapatillas tuyas son\nmuy elegantes.
+- offset: '0x0018cb3e'
+  name: 'ES-001 : 0x0018CB3E'
+  expected: Pese a tu aspecto adorable,\neres de lo mejor.
+- offset: '0x0018cb6c'
+  name: 'ES-001 : 0x0018CB6C'
+  expected: ¿Tu madre te compró esas\nDeportivas tan elegantes?<0xFB>Debe de adorarte.
+- offset: '0x0018d3d1'
+  name: 'ES-001 : 0x0018D3D1'
+  expected: ¡<0xFD><0x01>!\nDeberías descansar un poco.
+- offset: '0x0018d3f8'
+  name: 'ES-001 : 0x0018D3F8'
+  expected: ¡Qué bien! Tus Pokémon y tú\ntenéis muy buen aspecto.<0xFB>¡Cuidaos!
+- offset: '0x0018d43e'
+  name: 'ES-001 : 0x0018D43E'
+  expected: Hay una película en la tele.\nCuatro chicos caminan por las vías<0xFA>del tren.<0xFB><0xB0>Yo también debería irme.
+- offset: '0x0018d492'
+  name: 'ES-001 : 0x0018D492'
+  expected: Hay una película en la tele.\nUna chica con coletas camina por<0xFA>un camino de ladrillos.<0xFB><0xB0>Yo también debería irme.
+- offset: '0x0018d4f9'
+  name: 'ES-001 : 0x0018D4F9'
+  expected: Vaya, es el lado equivocado<0xB0>
+- offset: '0x0018d50b'
+  name: 'ES-001 : 0x0018D50B'
+  expected: <0xFD><0x01> ha jugado con la Wii.<0xFB><0xB0>¡Vale!\n¡Es hora de irse!
+- offset: '0x0018d53b'
+  name: 'ES-001 : 0x0018D53B'
+  expected: Hay un aviso colgado<0xB0><0xFB>¡Si tienes dudas, pide ayuda!\n¡Habla con la gente!
+- offset: '0x0018ea44'
+  name: 'ES-001 : 0x0018EA44'
+  expected: Ese es el Pokémon\ndel Profesor Log.
+- offset: '0x0018ea65'
+  name: 'ES-001 : 0x0018EA65'
+  expected: ¡Pulsa Start para abrir el menú!
+- offset: '0x0018ea84'
+  name: 'ES-001 : 0x0018EA84'
+  expected: Guardar está en el menú.\nÚsalo a menudo.
+- offset: '0x0018eab6'
+  name: 'ES-001 : 0x0018EAB6'
+  expected: Cada tipo de Pokémon tiene puntos\nfuertes y débiles frente a otros.
+- offset: '0x0018eaf4'
+  name: 'ES-001 : 0x0018EAF4'
+  expected: Es un ordenador nuevo.<0xFB>Oh<0xB0>\nQué elegante.
+- offset: '0x0018ebe5'
+  name: 'ES-001 : 0x0018EBE5'
+  expected: Estudio a los Pokémon como\nayudante del Profesor Log.
+- offset: '0x0018ed80'
+  name: 'ES-001 : 0x0018ED80'
+  expected: El Profesor Log lleva años\nestudiando las estadísticas.<0xFB>Muchos Entrenadores acuden a él\npara preguntarle sobre ellas.
+- offset: '0x001902bf'
+  name: 'ES-001 : 0x001902BF'
+  expected: ¡Gracias!\n¡Saluda al Profesor Log por mí!
+- offset: '0x0019032c'
+  name: 'ES-001 : 0x0019032C'
+  expected: El hombre de negro de antes\ndaba miedo.<0xFB>¿Quién era?
+- offset: '0x00190365'
+  name: 'ES-001 : 0x00190365'
+  expected: Deberías abastecerte de\n<0xFC><0x01><0x06>Pociones<0xFC><0x01><0x08>.<0xFB>Nunca sabes cuándo estarás\nen apuros y tendrás que curarte.
+- offset: '0x00190450'
+  name: 'ES-001 : 0x00190450'
+  expected: Los Centros Pokémon curan a tus\nPokémon cansados y agotados.<0xFB>Hacen que todos los Pokémon\nrecuperen toda su salud.<0xFB>La mayoría son gratis, así que\nno dudes en curar a tus Pokémon.
+- offset: '0x0019056c'
+  name: 'ES-001 : 0x0019056C'
+  expected: Todos los Pokémon tienen <0xFC><0x01><0x06>tipos<0xFC><0x01><0x08>,\ncomo Fuego o Agua.<0xFB>Estos determinan su eficacia\nfrente a otros Pokémon.<0xFB>El tipo del Pokémon también\npotencia sus movimientos<0xFA>si coincide con el de estos.<0xFB>Esto se conoce como bonificación\npor mismo tipo, o <0xFC><0x01><0x06>STAB<0xFC><0x01><0x08>.
+- offset: '0x00190687'
+  name: 'ES-001 : 0x00190687'
+  expected: No sé qué hacer.<0xFB>Cada pocos días, un Pokémon\nhorrible entra en mi casa<0xFA>y me roba la comida.<0xFB>Si tuviera una Pokédex, sabría\ncuál es y cómo detenerlo<0xB0>
+- offset: '0x0019073f'
+  name: 'ES-001 : 0x0019073F'
+  expected: Hay objetos que solo sirven\npara venderlos.<0xFB>Si consigues uno de esos objetos,\ndeberías venderlo enseguida.<0xFB>Hasta he oído que hay\ncoleccionistas que pagan<0xFA>más por esos objetos<0xFA>que las Tiendas Pokémon.
+- offset: '0x00191840'
+  name: 'ES-001 : 0x00191840'
+  expected: ¡Mi abuelo sobrevivió al\nmeteorito hace muchos años!<0xFB>¡Es genial!
+- offset: '0x00192079'
+  name: 'ES-001 : 0x00192079'
+  expected: El Líder de Gimnasio, Mirskle,\nusa Pokémon que hay en<0xFA><0xFC><0x01><0x06>Flower Paradise<0xFC><0x01><0x08>.<0xFB>Atrapar buenos Pokémon de tipo\nHielo en la <0xFC><0x01><0x06>Cueva Icicle<0xFC><0x01><0x08> puede<0xFA>darte una gran ventaja<0xFA>contra él.
+- offset: '0x001929c2'
+  name: 'ES-001 : 0x001929C2'
+  expected: El Repelente ahuyenta bichos\ny también Pokémon débiles.<0xFB>Pon tu Pokémon más fuerte a la\nizquierda de la lista de Pokémon.<0xFB>Si tu primer Pokémon es fuerte,\nel Repelente es más eficaz.
+- offset: '0x00192a79'
+  name: 'ES-001 : 0x00192A79'
+  expected: Intenta vencer en tantos\nGimnasios Pokémon como puedas.<0xFB>Con más Medallas, las Tiendas\nPokémon te venderán más objetos.
+- offset: '0x00193465'
+  name: 'ES-001 : 0x00193465'
+  expected: Este pueblo es bastante tranquilo.<0xFB>A pocos les gusta pasar tiempo\nen un pueblo en medio del bosque.
+- offset: '0x00193a4b'
+  name: 'ES-001 : 0x00193A4B'
+  expected: ¡Ey, ey! ¡Soy el\n<0xFC><0x01><0x06>Inspector de Motes<0xFC><0x01><0x08> oficial!<0xFB>¿Quieres que evalúe los motes\nde tus Pokémon?
+- offset: '0x00193aa6'
+  name: 'ES-001 : 0x00193AA6'
+  expected: ¿De qué Pokémon quieres\nque evalúe el mote?
+- offset: '0x00193ad2'
+  name: 'ES-001 : 0x00193AD2'
+  expected: ¿<0xFD><0x02>?\n¡Es un mote de lujo!<0xFB>Pero ¿quieres que le ponga\nun nombre con más estilo?<0xFB>¿Qué te parece?
+- offset: '0x00193b36'
+  name: 'ES-001 : 0x00193B36'
+  expected: Genial. ¿Cuál debería ser\nsu nuevo mote?
+- offset: '0x00193b66'
+  name: 'ES-001 : 0x00193B66'
+  expected: ¡Listo! ¡Desde ahora este Pokémon\nse llamará <0xFD><0x02>!<0xFB>¡Es mucho mejor que el anterior!\n¡Tienes mucho estilo!
+- offset: '0x00193bd4'
+  name: 'ES-001 : 0x00193BD4'
+  expected: Ajá.\nVuelve cuando quieras.
+- offset: '0x00193bf0'
+  name: 'ES-001 : 0x00193BF0'
+  expected: ¡Listo! ¡Desde ahora este Pokémon\nse llamará <0xFD><0x02>!<0xFB>Parece el mismo, ¡pero ahora\nresulta diez veces más chulo!<0xFB>¡Qué suerte tienes!
+- offset: '0x00193c82'
+  name: 'ES-001 : 0x00193C82'
+  expected: ¿<0xFD><0x02>?\n¡Menudo nombre con estilo!<0xFB>¡Cuida bien de <0xFD><0x02>!
+- offset: '0x00193cc4'
+  name: 'ES-001 : 0x00193CC4'
+  expected: ¿De verdad?\n¡Eso es un Huevo!
+- offset: '0x00193ec1'
+  name: 'ES-001 : 0x00193EC1'
+  expected: ¡Soy el Pescador!<0xFB>¡Me encaaanta pescar!\nNo puedo vivir sin ello.<0xFB>Dime, ¿te gusta pescar?
+- offset: '0x00193f2a'
+  name: 'ES-001 : 0x00193F2A'
+  expected: ¡Genial! Me gusta tu estilo.\nCreo que podemos ser amigos.<0xFB>¡Toma esto y pesca, joven amigo!
+- offset: '0x00193f81'
+  name: 'ES-001 : 0x00193F81'
+  expected: <0xFD><0x01> ha recibido una\nCaña Vieja del Pescador.
+- offset: '0x00193faf'
+  name: 'ES-001 : 0x00193FAF'
+  expected: ¡La pesca es una forma de vida!\nEs como la mejor poesía.<0xFB>Ve al mar o a los ríos y pesca\nun gran ejemplar, amigo mío.
+- offset: '0x00194028'
+  name: 'ES-001 : 0x00194028'
+  expected: Oh<0xB0>\nQué decepción<0xB0>
+- offset: '0x00194045'
+  name: 'ES-001 : 0x00194045'
+  expected: ¡Hola, <0xFD><0x01>!<0xFB>¿Están picando los peces?
+- offset: '0x0019406f'
+  name: 'ES-001 : 0x0019406F'
+  expected: ¡Oh, no!<0xFB>¡Tenía un buen regalo para ti,\npero no tienes sitio!
+- offset: '0x00194234'
+  name: 'ES-001 : 0x00194234'
+  expected: Las ganas de volver a combatir\ncon un antiguo rival<0xB0><0xFB>¿Las has sentido alguna vez?\nSeguro que sí.<0xFB>Yo también quería retar a\nalgunos una y otra vez.<0xFB>Por eso estoy regalando estos\naparatos. ¡Toma uno!
+- offset: '0x0019430f'
+  name: 'ES-001 : 0x0019430F'
+  expected: Con ese aparato encontrarás\nEntrenadores que buscan revancha.<0xFB>Pero tendrás que cargar su\nbatería para usarlo.
+- offset: '0x00194381'
+  name: 'ES-001 : 0x00194381'
+  expected: ¿Cómo se usa el Buscapelea?\nEs muy fácil.<0xFB>Úsalo, hará pip, pip, pip, y los\nEntrenadores cercanos lo notarán.<0xFB>Si alguno quiere la revancha,\nte avisará enseguida.<0xFB>Carga la batería y úsalo\nmientras vas por una ruta.
+- offset: '0x001949cb'
+  name: 'ES-001 : 0x001949CB'
+  expected: ¡Hola!\n¿Tienes un <0xFD><0x02>?<0xFB>¿Lo cambiarías por mi\n<0xFD><0x03>?
+- offset: '0x001949fd'
+  name: 'ES-001 : 0x001949FD'
+  expected: Qué lástima.
+- offset: '0x00194a0d'
+  name: 'ES-001 : 0x00194A0D'
+  expected: <0xB0>Esto no es un <0xFD><0x02>.<0xFB>¡Si consigues uno,\ncámbiamelo, por favor!
+- offset: '0x00194a44'
+  name: 'ES-001 : 0x00194A44'
+  expected: ¡Gracias!
+- offset: '0x00194a4f'
+  name: 'ES-001 : 0x00194A4F'
+  expected: ¿Cómo está mi antiguo <0xFD><0x03>?<0xFB>¡Mi <0xFD><0x02> está genial!
+- offset: '0x00195471'
+  name: 'ES-001 : 0x00195471'
+  expected: A muchos en Ciudad Blizzard les\ngustan los grandes manjares.<0xFB>Por ejemplo, los Pokémon asados.
+- offset: '0x001954dd'
+  name: 'ES-001 : 0x001954DD'
+  expected: ¡Hola! ¡Bienvenido a los\nGrandes Almacenes Dehara!<0xFB>El cartel de la pared indica\nla distribución de las plantas.
+- offset: '0x00195638'
+  name: 'ES-001 : 0x00195638'
+  expected: 'P1: Mercado del Entrenador<0xFB>¡Los mejores objetos\npara Entrenadores!'
+- offset: '0x00195bba'
+  name: 'ES-001 : 0x00195BBA'
+  expected: Solo aquí se venden objetos que\nmejoran las estadísticas Pokémon.<0xFB>Más PS aumenta los PS de base\nde un Pokémon.<0xFB>Calcio sube el Ataque Especial\nde base de un Pokémon.<0xFB>Zinc sube la Defensa Especial\nde base de un Pokémon.<0xFB>Carburante aumenta la Velocidad\nde base.
+- offset: '0x00195ca0'
+  name: 'ES-001 : 0x00195CA0'
+  expected: Busco objetos para mejorar\nlas estadísticas de mis Pokémon.<0xFB>Proteína aumenta el Ataque\nde base.<0xFB>Hierro aumenta la Defensa\nde base.
+- offset: '0x001962bf'
+  name: 'ES-001 : 0x001962BF'
+  expected: Buenas noches a todos.
+- offset: '0x001962d7'
+  name: 'ES-001 : 0x001962D7'
+  expected: ¡Soy el artista de sprites!\n¡Yo te dibujé!
+- offset: '0x001962fb'
+  name: 'ES-001 : 0x001962FB'
+  expected: ¡Soy el diseñador gráfico!<0xFB>¡Hice las ilustraciones\nadicionales y el logo!
+- offset: '0x00196356'
+  name: 'ES-001 : 0x00196356'
+  expected: ¡Soy el creador del juego!<0xFB>Completar la Pokédex es difícil,\n¡pero no te rindas!<0xFB>¡Cuando termines,\nven a decírmelo!
+- offset: '0x001963cd'
+  name: 'ES-001 : 0x001963CD'
+  expected: ¡Guau! ¡Excelente!\n¡Has completado la Pokédex!<0xFA>¡Enhorabuena!<0xFA><0xB0>
+- offset: '0x001964a8'
+  name: 'ES-001 : 0x001964A8'
+  expected: Sala de desarrollo de Unbound
+- offset: '0x00196984'
+  name: 'ES-001 : 0x00196984'
+  expected: ¡Bienvenido al Casino de Dehara!<0xFB>¿Necesitas fichas para jugar?\n¿Quieres comprar algunas?
+- offset: '0x001969dc'
+  name: 'ES-001 : 0x001969DC'
+  expected: ¿No?\n¡Ven a jugar cuando quieras!
+- offset: '0x001969fb'
+  name: 'ES-001 : 0x001969FB'
+  expected: Lo siento.\nNo tienes Monedero.
+- offset: '0x00196a26'
+  name: 'ES-001 : 0x00196A26'
+  expected: ¡Vaya!\nTu Monedero está lleno.
+- offset: '0x00196a46'
+  name: 'ES-001 : 0x00196A46'
+  expected: No tienes dinero para las fichas.
+- offset: '0x00196a62'
+  name: 'ES-001 : 0x00196A62'
+  expected: Gracias.\n¡Aquí tienes tus fichas!
+- offset: '0x00196a82'
+  name: 'ES-001 : 0x00196A82'
+  expected: No se lo digas a nadie.<0xFB>Se rumorea que estas máquinas\nestán trucadas.
+- offset: '0x00196ac7'
+  name: 'ES-001 : 0x00196AC7'
+  expected: Creo que estas máquinas tienen\ndistintas probabilidades de ganar.
+- offset: '0x00196af3'
+  name: 'ES-001 : 0x00196AF3'
+  expected: ¿Quieres jugar, chaval?
+- offset: '0x00196b0d'
+  name: 'ES-001 : 0x00196B0D'
+  expected: <0xFD><0x01> ha recibido 10 fichas\ndel hombre.
+- offset: '0x00196b30'
+  name: 'ES-001 : 0x00196B30'
+  expected: ¡No necesitas mis fichas!
+- offset: '0x00196b49'
+  name: 'ES-001 : 0x00196B49'
+  expected: Las victorias van y vienen.\nNo hay nada seguro.
+- offset: '0x00196b7b'
+  name: 'ES-001 : 0x00196B7B'
+  expected: Estas tragaperras<0xB0>\nGanar o perder es pura suerte.
+- offset: '0x00196cfe'
+  name: 'ES-001 : 0x00196CFE'
+  expected: ¡El juego da miedo!\n¡Es muy fácil engancharse!
+- offset: '0x00196d2b'
+  name: 'ES-001 : 0x00196D2B'
+  expected: ¿Qué pasa?\n¿Quieres unas fichas?
+- offset: '0x00196d47'
+  name: 'ES-001 : 0x00196D47'
+  expected: <0xFD><0x01> ha recibido 20 fichas\ndel chico amable.
+- offset: '0x00196d6f'
+  name: 'ES-001 : 0x00196D6F'
+  expected: ¡Tienes muchas fichas!
+- offset: '0x00196d87'
+  name: 'ES-001 : 0x00196D87'
+  expected: ¡Me faltan fichas para\nel Pokémon que quiero!
+- offset: '0x00196db7'
+  name: 'ES-001 : 0x00196DB7'
+  expected: ¡Oye! ¡Me estás distrayendo!\n¡Toma fichas y vete!
+- offset: '0x00196df8'
+  name: 'ES-001 : 0x00196DF8'
+  expected: <0xFD><0x01> ha recibido 20 fichas\ndel hombre.
+- offset: '0x00196e1b'
+  name: 'ES-001 : 0x00196E1B'
+  expected: ¡Ya tienes fichas de sobra!
+- offset: '0x00196e40'
+  name: 'ES-001 : 0x00196E40'
+  expected: El truco está en observar\nbien los rodillos.
+- offset: '0x00196f0d'
+  name: 'ES-001 : 0x00196F0D'
+  expected: Hace falta un Monedero<0xB0>
+- offset: '0x00196f26'
+  name: 'ES-001 : 0x00196F26'
+  expected: ¡Vaya!\n¡No tengo Monedero!
+- offset: '0x00196f46'
+  name: 'ES-001 : 0x00196F46'
+  expected: ¡Una tragaperras!\n¿Quieres jugar?
+- offset: '0x00196f64'
+  name: 'ES-001 : 0x00196F64'
+  expected: FUERA DE SERVICIO\nEstá averiada.
+- offset: '0x00196f81'
+  name: 'ES-001 : 0x00196F81'
+  expected: HE IDO A COMER\nEstá reservada.
+- offset: '0x00196fa0'
+  name: 'ES-001 : 0x00196FA0'
+  expected: ¡Las llaves de alguien!\nVolverá a por ellas.
+- offset: '0x0019703e'
+  name: 'ES-001 : 0x0019703E'
+  expected: Hace falta un Monedero<0xB0>
+- offset: '0x00197057'
+  name: 'ES-001 : 0x00197057'
+  expected: Cambiamos tus fichas por premios.
+- offset: '0x0019707a'
+  name: 'ES-001 : 0x0019707A'
+  expected: ¿Qué premio quieres?
+- offset: '0x0019709d'
+  name: 'ES-001 : 0x0019709D'
+  expected: ¿Quieres el objeto <0xFD><0x02>?
+- offset: '0x001970b2'
+  name: 'ES-001 : 0x001970B2'
+  expected: ¿Quieres una MT de <0xFD><0x03>?
+- offset: '0x001970d5'
+  name: 'ES-001 : 0x001970D5'
+  expected: Lo siento, necesitas más fichas.
+- offset: '0x0019745d'
+  name: 'ES-001 : 0x0019745D'
+  expected: Deberías hacerle sitio.
+- offset: '0x00197873'
+  name: 'ES-001 : 0x00197873'
+  expected: 'Gimnasio Pokémon de Dehara\nLíder: Galavan<0xFB>Entrenadores vencedores:\n<0xFD><0x06>'
+- offset: '0x001978ac'
+  name: 'ES-001 : 0x001978AC'
+  expected: 'Gimnasio Pokémon de Dehara\nLíder: Galavan<0xFB>Entrenadores vencedores:\n<0xFD><0x06>, <0xFD><0x01>'
+- offset: '0x001979c1'
+  name: 'ES-001 : 0x001979C1'
+  expected: Vaya, tío<0xB0><0xFB>¡Me he gastado todo el dinero\nen el Casino!<0xFB>¡Parece que ya no voy a\nnecesitar esto!
+- offset: '0x00197a38'
+  name: 'ES-001 : 0x00197A38'
+  expected: <0xFD><0x01> ha recibido un Monedero\ndel chico.
+- offset: '0x00197a5e'
+  name: 'ES-001 : 0x00197A5E'
+  expected: ¡Haz sitio para esto!
+- offset: '0x00197a72'
+  name: 'ES-001 : 0x00197A72'
+  expected: Siempre creí que podía ganar<0xB0>
+- offset: '0x001980bc'
+  name: 'ES-001 : 0x001980BC'
+  expected: Juraría que vi al dependiente\nrobando de la caja registradora<0xB0>
+- offset: '0x00198bba'
+  name: 'ES-001 : 0x00198BBA'
+  expected: ¡Algún día seré un ninja!<0xFB>Mis padres atacan con fuerza\nbruta, ¡pero yo seré sigiloso!
+- offset: '0x00198c1f'
+  name: 'ES-001 : 0x00198C1F'
+  expected: ¡Hua! ¡Mover rocas con fuerza\npura y dura!<0xFB>¡Toma esto!
+- offset: '0x0019918e'
+  name: 'ES-001 : 0x0019918E'
+  expected: Soy el hermano mayor del\nGurú Pescador.<0xFB>¡Me encaaanta pescar!\nNo puedo vivir sin ello.<0xFB>Dime, ¿te gusta pescar?
+- offset: '0x00199207'
+  name: 'ES-001 : 0x00199207'
+  expected: ¡Genial! Me gusta tu estilo.\nCreo que podemos ser amigos.<0xFB>¡Toma esto y pesca, joven amigo!
+- offset: '0x0019925e'
+  name: 'ES-001 : 0x0019925E'
+  expected: <0xFD><0x01> recibió una Caña Buena\ndel hermano del Gurú Pescador.
+- offset: '0x00199296'
+  name: 'ES-001 : 0x00199296'
+  expected: ¡La pesca es una forma de vida!\nEs como la mejor poesía.<0xFB>Una Caña Vieja destartalada solo\npesca Magikarp, ¿verdad?<0xFB>Pero con una Caña Buena podrás\npescar Pokémon mucho mejores.
+- offset: '0x00199337'
+  name: 'ES-001 : 0x00199337'
+  expected: Oh<0xB0>\nQué decepción<0xB0>
+- offset: '0x00199354'
+  name: 'ES-001 : 0x00199354'
+  expected: ¡Hola, <0xFD><0x01>!<0xFB>¿Están picando los peces?
+- offset: '0x0019937e'
+  name: 'ES-001 : 0x0019937E'
+  expected: ¡Oh, no!<0xFB>¡Tenía un regalo para ti,\npero no tienes sitio!
+- offset: '0x001993b9'
+  name: 'ES-001 : 0x001993B9'
+  expected: Eh<0xB0>\nSí, soy el Quita-Movimientos.<0xFB>Puedo hacer que los Pokémon\nolviden sus movimientos.<0xFB>¿Quieres que lo haga?
+- offset: '0x00199421'
+  name: 'ES-001 : 0x00199421'
+  expected: ¿Qué Pokémon debe olvidar\nun movimiento?
+- offset: '0x00199445'
+  name: 'ES-001 : 0x00199445'
+  expected: ¿Qué movimiento debe olvidar?
+- offset: '0x00199465'
+  name: 'ES-001 : 0x00199465'
+  expected: Parece que <0xFD><0x02> solo conoce\nun movimiento<0xB0>
+- offset: '0x00199485'
+  name: 'ES-001 : 0x00199485'
+  expected: ¿<0xFD><0x02> debe olvidar\n<0xFD><0x03>?
+- offset: '0x001994b1'
+  name: 'ES-001 : 0x001994B1'
+  expected: ¡Ha salido a la perfección!<0xFB><0xFD><0x02> ha olvidado\n<0xFD><0x03> por completo.
+- offset: '0x001994ea'
+  name: 'ES-001 : 0x001994EA'
+  expected: Vuelve si necesitas olvidar\notros movimientos.
+- offset: '0x0019951f'
+  name: 'ES-001 : 0x0019951F'
+  expected: ¿Qué?\nUn Huevo no conoce movimientos.
+- offset: '0x0019a4f7'
+  name: 'ES-001 : 0x0019A4F7'
+  expected: Este pueblo lleva mucho tiempo\nsufriendo pesadillas.<0xFB>Si vas a elegir un lugar para\nvivir, seguramente sería<0xFA>mejor vivir en otra parte.
+- offset: '0x0019a5bd'
+  name: 'ES-001 : 0x0019A5BD'
+  expected: ¿Necesitas bajar del monte?<0xFB>Mi Abra y yo estaremos\nencantados de teletransportarte.<0xFB>¿Qué me dices?\n¿Quieres que te teletransporte?
+- offset: '0x0019a79f'
+  name: 'ES-001 : 0x0019A79F'
+  expected: ¿No tienen Ataque X?<0xFB>Me gusta porque aumenta\nel Ataque en combate.
+- offset: '0x0019a7f1'
+  name: 'ES-001 : 0x0019A7F1'
+  expected: Nunca está de más llevar objetos\nextra. Nunca sabes qué pasará.
+- offset: '0x0019b86a'
+  name: 'ES-001 : 0x0019B86A'
+  expected: ¡Ya casi estás!
+- offset: '0x0019b8b9'
+  name: 'ES-001 : 0x0019B8B9'
+  expected: ¡No soy muy joven para Mel!\n¡Déjame en paz!
+- offset: '0x0019ba45'
+  name: 'ES-001 : 0x0019BA45'
+  expected: ¡Por ahí no!
+- offset: '0x0019bab4'
+  name: 'ES-001 : 0x0019BAB4'
+  expected: ¡Mel necesita a alguien que\npinte su belleza!
+- offset: '0x0019bb49'
+  name: 'ES-001 : 0x0019BB49'
+  expected: ¡Sin salida!
+- offset: '0x0019bbb3'
+  name: 'ES-001 : 0x0019BBB3'
+  expected: ¿No te encanta este Gimnasio?<0xFB>¡Es tan bueno que debe de\nhaberlo diseñado un genio!
+- offset: '0x0019bc57'
+  name: 'ES-001 : 0x0019BC57'
+  expected: ¡Casi has llegado hasta Mel!\n¡Solo un poco más!
+- offset: '0x0019bdfe'
+  name: 'ES-001 : 0x0019BDFE'
+  expected: 'Gimnasio Pokémon de Fallshore\nLíder: Mel<0xFB>Entrenadores vencedores:\n<0xFD><0x06>'
+- offset: '0x0019be37'
+  name: 'ES-001 : 0x0019BE37'
+  expected: 'Gimnasio Pokémon de Fallshore\nLíder: Mel<0xFB>Entrenadores vencedores:\n<0xFD><0x06>, <0xFD><0x01>'
+- offset: '0x0019bff1'
+  name: 'ES-001 : 0x0019BFF1'
+  expected: Si tienes la <0xFC><0x01><0x06>Medalla Fall<0xFC><0x01><0x04>, puedes\ncomprar <0xFC><0x01><0x06>Ultra Balls<0xFC><0x01><0x04>.<0xFB>¡Atrapan Pokémon mucho mejor\nque las Super Balls!
+- offset: '0x0019c0b4'
+  name: 'ES-001 : 0x0019C0B4'
+  expected: He oído que un grupo de personas\ntrama algo malo en la <0xFC><0x01><0x06>Ruta 9<0xFC><0x01><0x08>.
+- offset: '0x0019c0f7'
+  name: 'ES-001 : 0x0019C0F7'
+  expected: A cada paso que das, tus Pokémon\nse encariñan más contigo.<0xFB>Si tienes un Pokémon en la\nGuardería, también se hará fuerte.
+- offset: '0x0019c177'
+  name: 'ES-001 : 0x0019C177'
+  expected: ¿Te has enterado?<0xFB>¡Alguien se ha encargado de los\nalborotadores de la Ruta 9!
+- offset: '0x0019e9e5'
+  name: 'ES-001 : 0x0019E9E5'
+  expected: ¡Hola!\nSoy <0xFC><0x01><0x06>ayudante del Profesor Log<0xFC><0x01><0x04>.<0xFB>Si tu Pokédex tiene los datos\nde <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> especies, debo darte<0xFA>una recompensa.<0xFB>Así que dime, <0xFD><0x01>.<0xFB>¿Has reunido datos de al menos<0xFC><0x01><0x06>\n<0xFD><0x02><0xFC><0x01><0x04> especies de Pokémon?
+- offset: '0x0019eae4'
+  name: 'ES-001 : 0x0019EAE4'
+  expected: ¡Genial! ¡Has atrapado <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04>\nespecies de Pokémon!<0xFB>¡Enhorabuena!\n¡Aquí tienes!
+- offset: '0x0019eb59'
+  name: 'ES-001 : 0x0019EB59'
+  expected: Hay objetos en el suelo que\npueden estar ocultos.<0xFB>Usa el <0xFC><0x01><0x06>Dowser<0xFC><0x01><0x04> para detectar\nobjetos ocultos cercanos.<0xFB>El aparato es un poco limitado.\nNo señala la ubicación exacta.<0xFB>Lo que hace es indicar\nla dirección en la que están.<0xFB>Úsalo para orientarte y luego\nregistra la zona a mano.
+- offset: '0x0019efe0'
+  name: 'ES-001 : 0x0019EFE0'
+  expected: Soy el hermano pequeño del\nGurú Pescador.<0xFB>¡Me encaaanta pescar!\nNo puedo vivir sin ello.<0xFB>Dime, ¿te gusta pescar?
+- offset: '0x0019f05b'
+  name: 'ES-001 : 0x0019F05B'
+  expected: ¡Genial! Me gusta tu estilo.\nCreo que podemos ser amigos.<0xFB>¡Toma esto y pesca, joven amigo!
+- offset: '0x0019f0b2'
+  name: 'ES-001 : 0x0019F0B2'
+  expected: <0xFD><0x01> recibió una Supercaña\ndel hermano del Gurú Pescador.
+- offset: '0x0019f0eb'
+  name: 'ES-001 : 0x0019F0EB'
+  expected: ¡La pesca es una forma de vida!\nEs como la mejor poesía.<0xFB>Ve al mar o a los ríos y pesca\nun gran ejemplar, amigo mío.<0xFB>Ahora quiero pedirte algo.<0xFB>Si pescas un Magikarp grande\ncon esa caña, quiero verlo.<0xFB>Me encanta pescar y también\nver Magikarp gigantes.
+- offset: '0x0019f1fa'
+  name: 'ES-001 : 0x0019F1FA'
+  expected: Oh<0xB0>\nQué decepción<0xB0>
+- offset: '0x0019f217'
+  name: 'ES-001 : 0x0019F217'
+  expected: ¡Hola, <0xFD><0x01>!\n¿Has estado pescando?<0xFB>Prueba a usar la Supercaña\nen cualquier masa de agua.<0xFB>Encontrarás distintos Pokémon\nen distintos lugares.<0xFB>Y no olvides traerme\nMagikarp gigantes.
+- offset: '0x0019f2db'
+  name: 'ES-001 : 0x0019F2DB'
+  expected: ¿Eh? ¿<0xFD><0x01>?\n¡Pero si es un Magikarp!<0xFB>¡Déjame verlo, rápido!
+- offset: '0x0019f31b'
+  name: 'ES-001 : 0x0019F31B'
+  expected: <0xB0> <0xB0> <0xB0>¡Hala!\n¡<0xFD><0x03> pulgadas!<0xFB>¡Sabes apreciar los aspectos\npoéticos y sutiles de la pesca!<0xFB>Tienes que aceptar esto.\n¡Insisto!
+- offset: '0x0019f395'
+  name: 'ES-001 : 0x0019F395'
+  expected: ¡Espero ver nuevos récords\npor tu parte!
+- offset: '0x0019f3cb'
+  name: 'ES-001 : 0x0019F3CB'
+  expected: ¿Eh?\n¿<0xFD><0x03> pulgadas?<0xFB>Es del mismo tamaño que\nel que vi antes.
+- offset: '0x0019f40a'
+  name: 'ES-001 : 0x0019F40A'
+  expected: Mmm<0xB0>\nEste mide <0xFD><0x03> pulgadas.<0xFB>No llega a las <0xFD><0x04> pulgadas\ndel que trajiste antes.
+- offset: '0x0019f468'
+  name: 'ES-001 : 0x0019F468'
+  expected: Eh<0xB0> Eso no se parece mucho\na un Magikarp.
+- offset: '0x0019f494'
+  name: 'ES-001 : 0x0019F494'
+  expected: ¡Oh, no!<0xFB>Tenía un regalo para ti,\npero no tienes sitio.
+- offset: '0x0019f4cf'
+  name: 'ES-001 : 0x0019F4CF'
+  expected: El Magikarp más gigantesco\nque he visto jamás<0xB0><0xFB>¡<0xFD><0x04> pulgadas!
+- offset: '0x0019f50c'
+  name: 'ES-001 : 0x0019F50C'
+  expected: Es una tabla vacía.<0xFB>Tiene espacios para anotar\nalgún tipo de récord.
+- offset: '0x001a2b88'
+  name: 'ES-001 : 0x001A2B88'
+  expected: Soy el Recordador de Movimientos.<0xFB>Conozco todos los movimientos\nque aprenden al subir de nivel.<0xFB>También me encantan las\nEscamas Corazón.<0xFB>Tráeme una Escama Corazón.<0xFB>Si lo haces, le enseñaré\nun movimiento a un Pokémon.
+- offset: '0x001a2c63'
+  name: 'ES-001 : 0x001A2C63'
+  expected: ¡Oh! ¡Es una auténtica\nEscama Corazón!<0xFB>Deja que adivine, ¿quieres\nque enseñe un movimiento?
+- offset: '0x001a2cc3'
+  name: 'ES-001 : 0x001A2CC3'
+  expected: ¿Qué Pokémon necesita clases?
+- offset: '0x001a2ce1'
+  name: 'ES-001 : 0x001A2CE1'
+  expected: ¿Qué movimiento le enseño?
+- offset: '0x001a2cfc'
+  name: 'ES-001 : 0x001A2CFC'
+  expected: Lo siento<0xB0><0xFB>Parece que no puedo enseñarle\nningún movimiento a ese Pokémon.
+- offset: '0x001a2d85'
+  name: 'ES-001 : 0x001A2D85'
+  expected: <0xFD><0x01> ha entregado una\nEscama Corazón a cambio.
+- offset: '0x001a2de0'
+  name: 'ES-001 : 0x001A2DE0'
+  expected: Necesito una Escama Corazón para\nenseñar movimientos a tus Pokémon.
+- offset: '0x001a2e20'
+  name: 'ES-001 : 0x001A2E20'
+  expected: ¿Eh? No hay ni un movimiento\nque pueda enseñarle a un Huevo.
+- offset: '0x001a5075'
+  name: 'ES-001 : 0x001A5075'
+  expected: <0xFD><0x01> ha encendido el PC.
+- offset: '0x001a508a'
+  name: 'ES-001 : 0x001A508A'
+  expected: ¿A qué PC quieres acceder?
+- offset: '0x001a50a7'
+  name: 'ES-001 : 0x001A50A7'
+  expected: Acceso al PC de Alguien.
+- offset: '0x001a50be'
+  name: 'ES-001 : 0x001A50BE'
+  expected: Sistema de almacenamiento abierto.
+- offset: '0x001a50dd'
+  name: 'ES-001 : 0x001A50DD'
+  expected: Acceso al PC de <0xFD><0x01>.
+- offset: '0x001a50ef'
+  name: 'ES-001 : 0x001A50EF'
+  expected: Acceso al PC de Ayla.

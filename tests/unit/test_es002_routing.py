@@ -10,7 +10,14 @@ from src.core.text_reinserter import SmartReinserter
 
 ROOT = Path(__file__).resolve().parents[2]
 FIXTURE = json.loads((ROOT / 'tests/unit/fixtures/es002_routing.json').read_text())
-CONTRACT = ROOT / 'languages/es-maint/system_texts.json'
+CONTRACT = ROOT / 'tests/unit/fixtures/es002_system_contract.json'
+
+
+def test_es002_fixture_keeps_its_exact_production_routes():
+    production = json.loads((ROOT / 'languages/es-maint/system_texts.json').read_text())
+    expected = json.loads(CONTRACT.read_text())['entries']
+    offsets = {e['offset'] for e in expected}
+    assert [e for e in production['entries'] if e['offset'] in offsets] == expected
 
 
 def source_rom():
