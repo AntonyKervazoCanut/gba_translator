@@ -89,3 +89,5 @@ def test_glossary_names_gender_buffers_and_domain_semantics():
     steps = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())['patches']
     assert steps.count('batch_22') == 1
     assert steps.index('batch_22') > steps.index('repoint_stale')
+    # Le lot concurrent PT-20 exige de conserver son finaliseur en dernier.
+    assert steps.index('batch_22') < steps.index('batch_20') == len(steps) - 1
