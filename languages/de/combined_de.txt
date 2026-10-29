@@ -2661,7 +2661,7 @@
 0x3FDA7A: {B_PLAYER_NAME} spielt die\n{B_LAST_ITEM}.
 0x3FDA8C: Pokémon, die die Flöte hören,\nwachen auf!
 0x3FDAB1: Du wirfst einen Ball, was?\nIch… ich gebe mein Bestes!
-0x3FDAE2: Tagebuch: Oh, meine Güte…\nImmer in Eile.\p{B_PLAYER_NAME}.\pDu hast noch nie einen Pokémon-\nKampf bestritten, was?\pBei einem Kampf treten die Pokémon\nder Trainer gegeneinander an.\l\p
+0x3FDAE2: Log: Ach, meine Güte<0xB0>\nWie immer so ungeduldig.\p{B_PLAYER_NAME}.\pDu hast noch nie mit Pokémon\ngekämpft, oder?\pTrainer lassen ihre Pokémon\nim Kampf gegeneinander\lantreten.\p
 0x3FDB92: Der Trainer, der die gegnerischen\nPokémon besiegt, indem er ihre\lKP auf «0» senkt, gewinnt.\p
 0x3FDBEF: Doch statt darüber zu reden,\nlernst du besser durch Erfahrung.\pVersuch einfach mal zu kämpfen.\p
 0x3FDC58: Dem Gegner Schaden zuzufügen\nist der Schlüssel zu jedem Kampf.\p
@@ -2669,7 +2669,7 @@
 0x3FDCD2: Behalte die KP deines\nPokémon im Auge.\pEs geht K.O., wenn seine KP\n«0» erreichen.\p
 0x3FDD23: Nein! Aus einem Kampf gegen einen\nTrainer flieht man nicht!\p
 0x3FDD64: Hm! Ausgezeichnet!\pWenn du gewinnst, bekommst du Geld\nund dein Pokémon wird stärker!\pFordere andere Trainer heraus,\num sie stark zu machen!\p
-0x3FDDEB: Hm…\nWie enttäuschend…\pWenn du gewinnst, bekommst du Geld\nund deine Pokémon werden stärker.\pWenn du verlierst, {B_PLAYER_NAME},\nzahlst du.\pDa du nicht gewarnt warst,\nzahle ich diesmal.\pDoch draußen\nwird es anders sein.\pStärke deine Pokémon, indem du\nwilde Pokémon besiegst.\p
+0x3FDDEB: Log: Hm…\nWie enttäuschend…\pWenn du gewinnst, bekommst du Geld\nund deine Pokémon werden stärker.\pWenn du verlierst, {B_PLAYER_NAME},\nzahlst du.\pDa du nicht gewarnt warst,\nzahle ich diesmal.\pDoch draußen\nwird es anders sein.\pStärke deine Pokémon, indem du\nwilde Pokémon besiegst.\p
 0x3FE672: Was?\n{STR_VAR_1} entwickelt sich!
 0x3FE688: Glückwunsch! Dein {STR_VAR_1}\nhat sich zu {STR_VAR_2} entwickelt!\p {WAIT_SE}
 0x3FE6B5: Hä? {STR_VAR_1}\nentwickelt sich nicht mehr!\p
@@ -2770,10 +2770,10 @@
 0x415F3D: Pokémon-Liste
 0x415F4A: Suchen
 0x415F51: {DPAD_UPDOWN}Wahl {SE_SHOP}OK {B_BUTTON}Ende
-0x415F6C: {DPAD_LEFTRIGHT}Seite {PLUS}
+0x415F6C: {DPAD_LEFTRIGHT}Wahl{PLUS}Seite {SE_SHOP}Info {B_BUTTON}Ende
 0x415F8F: Pokémon
 0x415FAD: <0xF8><0x04>Schrei
-0x415FB3: {SE_SHOP}Nächste Daten
+0x415FB3: {SE_SHOP}Weiter {B_BUTTON}Ende
 0x415FC8: {SE_SHOP}Weiter
 0x415FCF: {SE_SHOP}Abbr. {B_BUTTON}Vorh.
 0x415FE8: Gebiet
@@ -2800,7 +2800,7 @@
 0x4161C1: Zurück
 0x4161C8: Beenden
 0x4161D4: Item
-0x4161D9: Mail
+0x4161D9: Brief
 0x4161DE: Nehmen
 0x4161E3: Verstauen
 0x4161E9: Prüfen
@@ -2818,7 +2818,7 @@
 0x4162BD: Beere
 0x4162C7: Münze
 0x4162CD: Items
-0x4162D3: Poké Balls
+0x4162D3: Pokébälle
 0x4162DE: Basis It.
 0x4162E8: Item ablegen
 0x4162F5: Würfel schließen
@@ -3060,7 +3060,7 @@
 0x417B0B: STÄRKE
 0x417B11: Items
 0x417B17: Basis It.
-0x417B21: Poké Balls
+0x417B21: Pokébälle
 0x417B36: BEEREN
 0x417B3E: STEINORDEN
 0x417B4B: KASKADENORDEN
@@ -3195,7 +3195,7 @@
 0x418408: Cube V3 voll.
 0x418419: Dieses Item in den Cube V3 legen?
 0x418433: {DYNAMIC}  wird getragen.
-0x418443: Ging an {DYNAMIC} .
+0x418443: Zu {DYNAMIC} gewechselt.
 0x418452: Mail kann nicht gelagert werden!
 0x418468: Zurück
 0x41846F: Lagern
@@ -3322,10 +3322,10 @@
 0x41988A: Wesen {DYNAMIC}.\nAnscheinend {DYNAMIC},\n{LV_2} {DYNAMIC}.
 0x4198B4: Wesen <0xF7><0x00>.\nGeschlüpft: <0xF7><0x02>\nin <0xF9><0x05> <0xF7><0x01>.
 0x4198D5: Wesen <0xF7><0x00>.\nGeschlüpft: <0xF7><0x02>\nin <0xF9><0x05> <0xF7><0x01>.
-0x41992F: Wesen {DYNAMIC}.\nSchicksalhafte Begegnung (geschlüpft:\n{DYNAMIC} auf {LV_2} {DYNAMIC}).
-0x41996D: Wesen {DYNAMIC}.\nSchicksalhafte Begegnung (geschlüpft:\n{DYNAMIC} auf {LV_2} {DYNAMIC}).
-0x4199AB: Wesen {DYNAMIC}. Anscheinend\nschicksalhafte Begegnung (geschlüpft:\n{DYNAMIC} auf {LV_2} {DYNAMIC}).
-0x4199F4: Wesen {DYNAMIC}. Anscheinend\nschicksalhafte Begegnung (geschlüpft:\n{DYNAMIC} auf {LV_2} {DYNAMIC}).
+0x41992F: Wesen {DYNAMIC}.\nSchicksalsbegegnung, geschlüpft:\n{DYNAMIC}, {LV_2} {DYNAMIC}.
+0x41996D: Wesen {DYNAMIC}.\nSchicksalsbegegnung, geschlüpft:\n{DYNAMIC}, {LV_2} {DYNAMIC}.
+0x4199AB: Wesen {DYNAMIC}. Anscheinend\nSchicksalsbegegnung, geschlüpft:\n{DYNAMIC}, {LV_2} {DYNAMIC}.
+0x4199F4: Wesen {DYNAMIC}. Anscheinend\nSchicksalsbegegnung, geschlüpft:\n{DYNAMIC}, {LV_2} {DYNAMIC}.
 0x419A3D: Ein Pokémon-Ei, gefunden vom\nPaar der Pension.
 0x419A6E: Ein seltsames Pokémon-Ei, erhalten\nvon einem Reisenden.
 0x419AA2: Ein sehr merkwürdiges Pokémon-Ei\nvon einem schönen Ort.
@@ -3397,26 +3397,26 @@
 0x41A255: {STR_VAR_1} hat die Attacke\n{STR_VAR_2} per TM erlernt.
 0x41A277: {STR_VAR_1} hat die Attacke\n{STR_VAR_2} per TM erlernt und die\nAttacke {STR_VAR_3} vergessen.
 0x41A2B0: Die Pokémon wurden in einem\nPokémon CENTER vollständig geheilt.
-0x41A2E1: {DYNAMIC} lieferte einen tollen Kampf\ngegen Champion {DYNAMIC}.
+0x41A2E1: {DYNAMIC} kämpfte großartig\ngegen Champion {DYNAMIC}.
 0x41A312: Am Ende schickte {DYNAMIC}\n{DYNAMIC} und {DYNAMIC} konterte\nmit {DYNAMIC}.
 0x41A349: Mit vollem Einsatz kämpfte\n{DYNAMIC} und gewann\nden Kampf.
 0x41A391: Item {STR_VAR_1} aus dem Item-Fach\ndes Beutels genommen und im\nPC gelagert.
 0x41A3DA: {PLAYER} hat das Item\n{STR_VAR_1} aus dem PC genommen.
 0x41A3FF: {STR_VAR_3} gegen {STR_VAR_2}\nvon {STR_VAR_1} getauscht.
-0x41A422: {DYNAMIC} im EINZELKAMPF getroffen.\nEnges Match endete mit einem\n{DYNAMIC}.
-0x41A477: {DYNAMIC} im DOPPELKAMPF getroffen.\nLanges Match endete mit einem\n{DYNAMIC}.
-0x41A4C6: {DYNAMIC} und {DYNAMIC} forderten\n{DYNAMIC} und {DYNAMIC} im\nMULTIKAMPF und erhielten {DYNAMIC}.
+0x41A422: {DYNAMIC} im EINZELKAMPF.\nHart umkämpft. Ergebnis:\n{DYNAMIC}.
+0x41A477: {DYNAMIC} im DOPPELKAMPF.\nLanger Kampf. Ergebnis:\n{DYNAMIC}.
+0x41A4C6: {DYNAMIC} und {DYNAMIC} gegen\n{DYNAMIC} und {DYNAMIC} im\nMULTIKAMPF. Ergebnis: {DYNAMIC}.
 0x41A506: Niederlage
 0x41A50B: Andere Trainer im UNION-RAUM\ngetroffen.
 0x41A53A: Von {STR_VAR_2}\nin {STR_VAR_1} zum nächsten\nZiel aufgebrochen.
 0x41A566: Nach Überlegung {DYNAMIC} in\n{DYNAMIC} durch {DYNAMIC} in\n{DYNAMIC} ersetzt.
 0x41A59C: Nach Überlegung {DYNAMIC} aus\nBox "{DYNAMIC}" nach "{DYNAMIC}"\nverschoben.
 0x41A5D9: {DYNAMIC} und {DYNAMIC} in\n{DYNAMIC} getauscht .
-0x41A5FA: {DYNAMIC} in {DYNAMIC} verschoben .
-0x41A60A: {DYNAMIC} aus {DYNAMIC} \nmit {DYNAMIC} aus dem Team getauscht.
+0x41A5FA: {DYNAMIC} in {DYNAMIC} versetzt.
+0x41A60A: {DYNAMIC} aus {DYNAMIC}\nmit {DYNAMIC} im Team getauscht.
 0x41A632: {DYNAMIC} aus {DYNAMIC} \nins Team aufgenommen.
 0x41A64F: {DYNAMIC} aus dem Team nach\n{DYNAMIC} verschoben.
-0x41A66E: Eine Gruppe Pokémon von\n{DYNAMIC} nach {DYNAMIC} verschoben.
+0x41A66E: Pokémon-Gruppe versetzt:\n{DYNAMIC} nach {DYNAMIC}.
 0x41A694: einen anderen Ort
 0x41A6A5: Item {STR_VAR_1} aus dem PC von\n{PLAYER} genommen und {STR_VAR_2}\nzum Tragen gegeben.
 0x41A6E1: {STR_VAR_1} aus einem PC genommen,\n{STR_VAR_2} gegeben und {STR_VAR_3}\nin den BEUTEL gelegt.
@@ -3436,13 +3436,13 @@
 0x41A938: {STR_VAR_1} hat die Attacke\n{STR_VAR_2} per VM erlernt.
 0x41A965: {STR_VAR_1} hat die Attacke\n{STR_VAR_2} per VM erlernt und\n{STR_VAR_3} vergessen.
 0x41A9A9: {DYNAMIC} hat das Pokémon\n{DYNAMIC} bei {DYNAMIC} besiegt .
-0x41A9D4: {DYNAMIC} wilde Pokémon besiegt,\ndarunter {DYNAMIC} bei {DYNAMIC} .
-0x41AA01: {DYNAMIC} hat das Pokémon\n{DYNAMIC} bei {DYNAMIC} gefangen .
-0x41AA2B: Poké Balls am laufenden Band\ngeworfen und {DYNAMIC} Pokémon wie\n{DYNAMIC} hier bei {DYNAMIC} gefangen .
-0x41AA76: {DYNAMIC} hat {DYNAMIC} besiegt und\nein {DYNAMIC} bei {DYNAMIC} gefangen .\n
+0x41A9D4: {DYNAMIC} wilde Pokémon besiegt,\ndarunter {DYNAMIC} in {DYNAMIC}.
+0x41AA01: {DYNAMIC} fing das Pokémon\n{DYNAMIC} in {DYNAMIC}.
+0x41AA2B: Viele Pokébälle geworfen.\n{DYNAMIC} gefangen, darunter\n{DYNAMIC} in {DYNAMIC}.
+0x41AA76: {DYNAMIC} besiegte {DYNAMIC}.\nFing ein {DYNAMIC}\nin {DYNAMIC}.
 0x41AAAA: {DYNAMIC} besiegt und {DYNAMIC}\nPokémon wie {DYNAMIC}\nbei {DYNAMIC} gefangen .
-0x41AAEC: {DYNAMIC} hat {DYNAMIC} Pokémon wie\n{DYNAMIC} besiegt und ein\n{DYNAMIC} bei {DYNAMIC} gefangen .
-0x41AB29: {DYNAMIC} Pokémon wie {DYNAMIC}\nbesiegt und {DYNAMIC} Pokémon\nwie {DYNAMIC} bei {DYNAMIC} gefangen .
+0x41AAEC: {DYNAMIC}: {DYNAMIC} besiegt,\ndarunter {DYNAMIC}; ein {DYNAMIC}\nin {DYNAMIC} gefangen.
+0x41AB29: {DYNAMIC} besiegt, wie {DYNAMIC}.\n{DYNAMIC} gefangen, darunter\n{DYNAMIC} in {DYNAMIC}.
 0x41AB74: {STR_VAR_1} das Item {STR_VAR_2}\ntragen lassen.
 0x41AB8E: {PLAYER} hat {STR_VAR_1}\n{STR_VAR_2} tragen lassen.
 0x41ABAB: {STR_VAR_1} hat hier die VM\nZerschneider benutzt.
@@ -3463,8 +3463,8 @@
 0x41AE8F: Die Arena von {STR_VAR_1} verlassen.
 0x41AEA7: {PLAYER} hatte Spaß mit Pokémon\nin der SAFARI ZONE.
 0x41AEDC: Nach langem Umherirren aus\n{STR_VAR_2} herausgefunden.
-0x41AF0C: Den Arenaleiter {DYNAMIC} von\n{DYNAMIC} mit {DYNAMIC} bekämpft\nund {DYNAMIC} gewonnen!
-0x41AF3E: Die TOP VIER {DYNAMIC} mit\n{DYNAMIC} von {DYNAMIC} herausgefordert\nund {DYNAMIC} errungen!
+0x41AF0C: {DYNAMIC}: Leiter {DYNAMIC}.\n{DYNAMIC} mit {DYNAMIC} besiegt.\nGewinn: {DYNAMIC}!
+0x41AF3E: TOP VIER {DYNAMIC}s\n{DYNAMIC} mit {DYNAMIC} besiegt.\nGewinn: {DYNAMIC}!
 0x41AF6D: Bei <0xF7><0x00> gegen\n<0xF7><0x02> von <0xF7><0x01> mit <0xF7><0x03>\ngekämpft und <0xF7><0x04> gewonnen!
 0x41AF98: mit kühlem Kopf
 0x41AF9F: knapp
@@ -3531,7 +3531,7 @@
 0x41B375: Text wo speichern?
 0x41B38A: Text hier speichern?
 0x41B39E: Gib einen Text ein.
-0x41B3AA: {DYNAMIC} ist dem Chat beigetreten!
+0x41B3AA: {DYNAMIC} ist jetzt im Chat!
 0x41B3BE: {DYNAMIC} hat den Chat verlassen.
 0x41B3E9: Chat wird geschlossen…
 0x41B3FB: Der LEITER {DYNAMIC} ist weg,\nder Chat endet.
@@ -3551,7 +3551,7 @@
 0x41B554: {PLAYER} eilte zum Pokémon Center\nund beschützte seine erschöpften\nund K.O. Pokémon…\p
 0x41B5B6: {PLAYER} kehrte zum nächsten\nPokémon-Center zurück und schützte\nseine erschöpften und K.O. Pokémon…\p
 0x41B60E: Spieler: {DYNAMIC}
-0x41B619: Diese Urkunde bestätigt deine\ngroßartige Leistung:\nden\nPokédex {DYNAMIC} zu füllen.
+0x41B619: Diese Urkunde ehrt deine\ngroßartige Leistung:\nDie Vervollständigung des\n{DYNAMIC}-Pokédex.
 0x41B68F: National
 0x41B69E: Alle Spielstanddaten\nlöschen?
 0x41B6B9: Daten werden gelöscht…\nBitte warten.
@@ -3595,7 +3595,7 @@
 0x41CB78: Sprünge in Folge:
 0x41CB88: Bestwert:
 0x41CB94: SUPER-Sprünge in Folge:
-0x41CBA9: Toller Wert!\nDu hast {DYNAMIC} {DYNAMIC} gewonnen!
+0x41CBA9: Punktzahl top!\nGewonnen: {DYNAMIC} {DYNAMIC}!
 0x41CBCA: Jetzt kein Platz mehr.
 0x41CBE4: Du kannst nichts mehr tragen!
 0x41CBFD: Nochmal spielen?
@@ -3610,7 +3610,7 @@
 0x41CD03: Ergebnisse werden bekannt gegeben!
 0x41CD43: Rangliste wird bekannt gegeben!
 0x41CD58: Belohnungen werden bekannt gegeben!
-0x41CD7A: Der Erste gewinnt\ndieses {DYNAMIC}!
+0x41CD7A: Preis für Platz 1:\n{DYNAMIC}!
 0x41CD9F: Du kannst nichts mehr tragen…
 0x41CDBA: Lager ist voll.
 0x41CDD7: Nochmal spielen?
@@ -22116,3 +22116,63 @@ threads/averagemons.3590605/
 0x078d811: Crater Town
 0x078d851: Blizzard City
 0xa438f0: Flag setzen
+
+# B-668 — combat_ui-02 : menus et buffers vérifiés
+0x3fe998: {STR_VAR_1}MIN. {STR_VAR_2}.{STR_VAR_3}SEK.
+0x4161a0: Nutzen
+0x416285: Beutel
+0x417938: JA
+0x41793c: NEIN
+0x41799a: SPRUDEL<0xFC><0x13><0x57><0xFC><0x06><0x00>¥300
+0x4179ad: LIMONADE<0xFC><0x13><0x57><0xFC><0x06><0x00>¥350
+0x417b2c: TMs & VMs
+0x417bb6: {PLAYER}s PC
+0x4180e4: VITALKRAUT<0xFC><0x13><0x6F><0xFC><0x06><0x00>300
+0x4181a4: SIEG<0xFC><0x13><0x30>NDL.<0xFC><0x13><0x60>REMIS
+0x4184c9: Beutel
+0x418540: Himmel
+0x419c5a: OK
+0x419d4f: S:<0xFC><0x13><0x30>N:
+0x419e1c: Mittel
+0x419e25: Ein
+0x419e28: Aus
+0x419e32: Folge
+0x41dfac: {DPAD_UPDOWN}WAHL {SE_SHOP}OK {B_BUTTON}ENDE
+0x41dfbe: {SE_SHOP} {B_BUTTON}Ende
+0x41dfc9: {DPAD_UPDOWN}WAHL {SE_SHOP}OK {B_BUTTON}Ende
+0x41dff5: KAMPF
+0x41dffc: GRÜSSE
+0x41e006: PERSONEN
+0x41e00d: LAUTE
+0x41e014: REDE
+0x41e01b: ENDUNGEN
+0x41e023: GEFÜHLE
+0x41e02c: ZUSTÄNDE
+0x41e037: AKTIONEN
+0x41e03f: ALLTAG
+0x41e049: HOBBYS
+0x41e051: ZEIT
+0x41e056: DIVERSES
+0x41e05c: ADJEKTIVE
+0x417ab0: EG
+0x417ab3: 1.OG
+0x417ab6: 2.OG
+0x417ab9: 3.OG
+0x417abc: 4.OG
+0x41803a: EG
+0x41803d: 1.OG
+0x418040: 2.OG
+0x418043: 3.OG
+0x418046: 4.OG
+0x418049: 5.OG
+0x41804c: 6.OG
+0x41804f: 7.OG
+0x418052: 8.OG
+0x418055: 9.OG
+0x418059: 10.OG
+0x41805d: U1
+0x418061: U2
+0x418065: U3
+0x418069: U4
+0x3fd824: Bills
+0x3fe88f: s

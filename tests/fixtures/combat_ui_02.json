@@ -1,0 +1,762 @@
+[
+  {
+    "offset": "0x3FD824",
+    "source_hex": "bcdde0e0b4e7ff",
+    "sites": [
+      "0xD8314"
+    ],
+    "expected_hex": "bcdde0e0e7ff"
+  },
+  {
+    "offset": "0x3FDAE2",
+    "source_hex": "c6e3dbf000c9dcb800dae3e600cad9e8d9b4e700e7d5dfd9b0fecde300e4e9e7dcedb800d5e700d5e0ebd5ede7adfbfd23adfbd3e3e9b4ead900e2d9ead9e600dcd5d800d500cae3df1be1e3e200d6d5e8e8e0d9fed6d9dae3e6d9b800dcd5ead900ede3e9acfbbb00cae3df1be1e3e200d6d5e8e8e0d900dde700ebdcd9e200cee6d5dde2d9e6e7fee4dde800e8dcd9dde600cae3df1be1e3e200d5dbd5dde2e7e800d9d5d7dcfae3e8dcd9e6adfbff",
+    "sites": [
+      "0xE8418"
+    ],
+    "expected_hex": "c6e3dbf000bbd7dcb800e1d9dde2d900c1f6e8d9b0fed1ddd900dde1e1d9e600e7e300e9e2dbd9d8e9e0d8dddbadfbfd23adfbbee900dcd5e7e800e2e3d7dc00e2ddd900e1dde800cae3df1be1e3e2fedbd9dff4e1e4dae8b800e3d8d9e6acfbcee6d5dde2d9e600e0d5e7e7d9e200dddce6d900cae3df1be1e3e2fedde100c5d5e1e4da00dbd9dbd9e2d9dde2d5e2d8d9e6fad5e2e8e6d9e8d9e2adfbff"
+  },
+  {
+    "offset": "0x3FDDEB",
+    "source_hex": "c6e3dbf000c2e1b0fec2e3eb00d8dde7d5e4e4e3dde2e8dde2dbb0fbc3da00ede3e900ebdde2b800ede3e900d9d5e6e200e4e6ddeed900e1e3e2d9edb8fed5e2d800ede3e9e600cae3df1be1e3e200dbe6e3ebadfbbce9e800ddda00ede3e900e0e3e7d9b800fd23b800ede3e900d9e2d8fee9e400e4d5eddde2db00e4e6ddeed900e1e3e2d9edb0fbc2e3ebd9ead9e6b800e7dde2d7d900ede3e900dcd5d800e2e300ebd5e6e2dde2dbfee8dcdde700e8dde1d9b800c3b4e0e000e4d5ed00dae3e600ede3e9adfbbce9e800e8dcdde2dbe700ebe3e2b4e800d6d900e8dcdde700ebd5ed00e3e2d7d9feede3e900e7e8d9e400e3e9e8e7ddd8d900e8dcd9e7d900d8e3e3e6e7adfbcedcd5e8b4e700ebdced00ede3e900e1e9e7e800e7e8e6d9e2dbe8dcd9e200ede3e9e6fecae3df1be1e3e200d6ed00d6d5e8e8e0dde2db00ebdde0d800cae3df1be1e3e2adfbff",
+    "sites": [
+      "0xE85D0",
+      "0x3FE4BC"
+    ],
+    "expected_hex": "c6e3dbf000c2e1adadadfed1ddd900d9e2e8e8f4e9e7d7dcd9e2d8adadadfbd1d9e2e200d8e900dbd9ebdde2e2e7e8b800d6d9dfe3e1e1e7e800d8e900c1d9e0d8fee9e2d800d8d9dde2d900cae3df1be1e3e200ebd9e6d8d9e200e7e8f4e6dfd9e6adfbd1d9e2e200d8e900ead9e6e0ddd9e6e7e8b800fd23b8feeed5dce0e7e800d8e9adfbbed500d8e900e2ddd7dce800dbd9ebd5e6e2e800ebd5e6e7e8b8feeed5dce0d900ddd7dc00d8ddd9e7e1d5e0adfbbee3d7dc00d8e6d5e915d9e2feebdde6d800d9e700d5e2d8d9e6e700e7d9dde2adfbcde8f4e6dfd900d8d9dde2d900cae3df1be1e3e2b800dde2d8d9e100d8e9feebdde0d8d900cae3df1be1e3e200d6d9e7ddd9dbe7e8adfbff"
+  },
+  {
+    "offset": "0x3FE88F",
+    "source_hex": "b4e7ff",
+    "sites": [
+      "0xD871C"
+    ],
+    "expected_hex": "e7ff"
+  },
+  {
+    "offset": "0x3FE998",
+    "source_hex": "fd02c7c3c8ad00fd03adfd04cdbfbdadff",
+    "sites": [
+      "0x15E880",
+      "0x15EDD4"
+    ],
+    "expected_hex": "fd02c7c3c8ad00fd03adfd04cdbfc5adff"
+  },
+  {
+    "offset": "0x415F6C",
+    "source_hex": "f80bcaddd7dff904c0e0dde400cad5dbd900f800bddcd9d7df00f801bdd5e2d7d9e0ff",
+    "sites": [
+      "0x10504C"
+    ],
+    "expected_hex": "f80bd1d5dce0f904cdd9dde8d900f800c3e2dae300f801bfe2d8d9ff"
+  },
+  {
+    "offset": "0x415FB3",
+    "source_hex": "f800c8d9ece800bed5e8d500f801bdd5e2d7d9e0ff",
+    "sites": [
+      "0x105FE8"
+    ],
+    "expected_hex": "f800d1d9dde8d9e600f801bfe2d8d9ff"
+  },
+  {
+    "offset": "0x4161A0",
+    "source_hex": "cfe7d9ff",
+    "sites": [
+      "0x452EB8",
+      "0x452EE0",
+      "0x463150",
+      "0x46437C",
+      "0xA6BA64",
+      "0xA6BA8C"
+    ],
+    "expected_hex": "c8e9e8eed9e2ff"
+  },
+  {
+    "offset": "0x4161D9",
+    "source_hex": "c7d5dde0ff",
+    "sites": [
+      "0x45A648",
+      "0x820720",
+      "0xA6CA4C"
+    ],
+    "expected_hex": "bce6ddd9daff"
+  },
+  {
+    "offset": "0x416285",
+    "source_hex": "bcd5dbff",
+    "sites": [
+      "0x120674"
+    ],
+    "expected_hex": "bcd9e9e8d9e0ff"
+  },
+  {
+    "offset": "0x4162D3",
+    "source_hex": "cae3df1b00bcd5e0e0e7ff",
+    "sites": [
+      "0x452D04"
+    ],
+    "expected_hex": "cae3df1bd6f4e0e0d9ff"
+  },
+  {
+    "offset": "0x417938",
+    "source_hex": "d3bfcdff",
+    "sites": [
+      "0x12A514",
+      "0x155858",
+      "0x155914",
+      "0x3DFD50",
+      "0x3DFE48",
+      "0x3DFE88"
+    ],
+    "expected_hex": "c4bbff"
+  },
+  {
+    "offset": "0x41793C",
+    "source_hex": "c8c9ff",
+    "sites": [
+      "0x12A518",
+      "0x15585C",
+      "0x155918",
+      "0x3DFD58",
+      "0x3DFE50",
+      "0x3DFE90"
+    ],
+    "expected_hex": "c8bfc3c8ff"
+  },
+  {
+    "offset": "0x41799A",
+    "source_hex": "cdc9bebb00cac9cafc1357fc0600b7a4a1a1ff",
+    "sites": [
+      "0x3DFF38"
+    ],
+    "expected_hex": "cdcacccfbebfc6fc1357fc0600b7a4a1a1ff"
+  },
+  {
+    "offset": "0x4179AD",
+    "source_hex": "c6bfc7c9c8bbbebffc1357fc0600b7a4a6a1ff",
+    "sites": [
+      "0x3DFF40"
+    ],
+    "expected_hex": "c6c3c7c9c8bbbebffc1357fc0600b7a4a6a1ff"
+  },
+  {
+    "offset": "0x417AB0",
+    "source_hex": "a2c0ff",
+    "sites": [
+      "0x3E0008"
+    ],
+    "expected_hex": "bfc1ff"
+  },
+  {
+    "offset": "0x417AB3",
+    "source_hex": "a3c0ff",
+    "sites": [
+      "0x3E0000"
+    ],
+    "expected_hex": "a2adc9c1ff"
+  },
+  {
+    "offset": "0x417AB6",
+    "source_hex": "a4c0ff",
+    "sites": [
+      "0x3DFFF8"
+    ],
+    "expected_hex": "a3adc9c1ff"
+  },
+  {
+    "offset": "0x417AB9",
+    "source_hex": "a5c0ff",
+    "sites": [
+      "0x3DFFF0"
+    ],
+    "expected_hex": "a4adc9c1ff"
+  },
+  {
+    "offset": "0x417ABC",
+    "source_hex": "a6c0ff",
+    "sites": [
+      "0x3DFFE8"
+    ],
+    "expected_hex": "a5adc9c1ff"
+  },
+  {
+    "offset": "0x417B21",
+    "source_hex": "cae3df1b00bcd5e0e0e7ff",
+    "sites": [
+      "0x3E06E8"
+    ],
+    "expected_hex": "cae3df1bd6f4e0e0d9ff"
+  },
+  {
+    "offset": "0x417B2C",
+    "source_hex": "cec7e7002d00c2c7e7ff",
+    "sites": [
+      "0x3E06EC"
+    ],
+    "expected_hex": "cec7e7002d00d0c7e7ff"
+  },
+  {
+    "offset": "0x417BB6",
+    "source_hex": "fd01b4e700cabdff",
+    "sites": [
+      "0x9D11C",
+      "0x9D250"
+    ],
+    "expected_hex": "fd01e700cabdff"
+  },
+  {
+    "offset": "0x41803A",
+    "source_hex": "a2c0ff",
+    "sites": [
+      "0x3F5B54",
+      "0x3F5C24",
+      "0x3F5C6C"
+    ],
+    "expected_hex": "bfc1ff"
+  },
+  {
+    "offset": "0x41803D",
+    "source_hex": "a3c0ff",
+    "sites": [
+      "0x3F5B58",
+      "0x3F5C20",
+      "0x3F5C68"
+    ],
+    "expected_hex": "a2adc9c1ff"
+  },
+  {
+    "offset": "0x418040",
+    "source_hex": "a4c0ff",
+    "sites": [
+      "0x3F5B5C",
+      "0x3F5C1C",
+      "0x3F5C64"
+    ],
+    "expected_hex": "a3adc9c1ff"
+  },
+  {
+    "offset": "0x418043",
+    "source_hex": "a5c0ff",
+    "sites": [
+      "0x3F5B60",
+      "0x3F5C18",
+      "0x3F5C60"
+    ],
+    "expected_hex": "a4adc9c1ff"
+  },
+  {
+    "offset": "0x418046",
+    "source_hex": "a6c0ff",
+    "sites": [
+      "0x3F5B64",
+      "0x3F5C14",
+      "0x3F5C5C"
+    ],
+    "expected_hex": "a5adc9c1ff"
+  },
+  {
+    "offset": "0x418049",
+    "source_hex": "a7c0ff",
+    "sites": [
+      "0x3F5B68",
+      "0x3F5C10"
+    ],
+    "expected_hex": "a6adc9c1ff"
+  },
+  {
+    "offset": "0x41804C",
+    "source_hex": "a8c0ff",
+    "sites": [
+      "0x3F5B6C",
+      "0x3F5C0C"
+    ],
+    "expected_hex": "a7adc9c1ff"
+  },
+  {
+    "offset": "0x41804F",
+    "source_hex": "a9c0ff",
+    "sites": [
+      "0x3F5B70",
+      "0x3F5C08"
+    ],
+    "expected_hex": "a8adc9c1ff"
+  },
+  {
+    "offset": "0x418052",
+    "source_hex": "aac0ff",
+    "sites": [
+      "0x3F5B74",
+      "0x3F5C04"
+    ],
+    "expected_hex": "a9adc9c1ff"
+  },
+  {
+    "offset": "0x418055",
+    "source_hex": "a2a1c0ff",
+    "sites": [
+      "0x3F5B78",
+      "0x3F5C00"
+    ],
+    "expected_hex": "aaadc9c1ff"
+  },
+  {
+    "offset": "0x418059",
+    "source_hex": "a2a2c0ff",
+    "sites": [
+      "0x3F5B7C",
+      "0x3F5BFC"
+    ],
+    "expected_hex": "a2a1adc9c1ff"
+  },
+  {
+    "offset": "0x41805D",
+    "source_hex": "bca2c0ff",
+    "sites": [
+      "0x3DFEC0",
+      "0x3E0228",
+      "0x3F5B50",
+      "0x3F5C2C",
+      "0x3F5CF0"
+    ],
+    "expected_hex": "cfa2ff"
+  },
+  {
+    "offset": "0x418061",
+    "source_hex": "bca3c0ff",
+    "sites": [
+      "0x3E0230",
+      "0x3F5B4C",
+      "0x3F5C30"
+    ],
+    "expected_hex": "cfa3ff"
+  },
+  {
+    "offset": "0x418065",
+    "source_hex": "bca4c0ff",
+    "sites": [
+      "0x3F5B48"
+    ],
+    "expected_hex": "cfa4ff"
+  },
+  {
+    "offset": "0x418069",
+    "source_hex": "bca5c0ff",
+    "sites": [
+      "0x3E0238",
+      "0x3F5B44",
+      "0x3F5C34"
+    ],
+    "expected_hex": "cfa5ff"
+  },
+  {
+    "offset": "0x4180E4",
+    "source_hex": "ccbfd0c3d0bbc600c2bfccbcfc136ffc0600a4a1a1ff",
+    "sites": [
+      "0x3F5CC8"
+    ],
+    "expected_hex": "d0c3cebbc6c5ccbbcfcefc136ffc0600a4a1a1ff"
+  },
+  {
+    "offset": "0x4181A4",
+    "source_hex": "d1c3c8fc1330c6c9cdbffc1360beccbbd1ff",
+    "sites": [
+      "0xCDCB0"
+    ],
+    "expected_hex": "cdc3bfc1fc1330c8bec6adfc1360ccbfc7c3cdff"
+  },
+  {
+    "offset": "0x418443",
+    "source_hex": "bddcd5e2dbd9d800e8e300f700adff",
+    "sites": [
+      "0x3CEB70",
+      "0x9A4344"
+    ],
+    "expected_hex": "d4e900f70000dbd9ebd9d7dce7d9e0e8adff"
+  },
+  {
+    "offset": "0x4184C9",
+    "source_hex": "bcd5dbff",
+    "sites": [
+      "0x9A41F8"
+    ],
+    "expected_hex": "bcd9e9e8d9e0ff"
+  },
+  {
+    "offset": "0x418540",
+    "source_hex": "cddfedff",
+    "sites": [
+      "0x3D35C0",
+      "0x9A423C"
+    ],
+    "expected_hex": "c2dde1e1d9e0ff"
+  },
+  {
+    "offset": "0x41992F",
+    "source_hex": "f70000e2d5e8e9e6d9ad00c7d9e800dde200d500dad5e8d9dae9e0fed9e2d7e3e9e2e8d9e6005cdcd5e8d7dcd9d8f000f702fed5e800f90500f7015dadff",
+    "sites": [
+      "0x137678"
+    ],
+    "expected_hex": "d1d9e7d9e200f700adfecdd7dcddd7dfe7d5e0e7d6d9dbd9dbe2e9e2dbb800dbd9e7d7dce0f6e4dae8f0fef702b800f90500f701adff"
+  },
+  {
+    "offset": "0x41996D",
+    "source_hex": "f70000e2d5e8e9e6d9ad00c7d9e800dde200d500dad5e8d9dae9e0fed9e2d7e3e9e2e8d9e6005cdcd5e8d7dcd9d8f000f702fed5e800f90500f7015dadff",
+    "sites": [
+      "0x13766C"
+    ],
+    "expected_hex": "d1d9e7d9e200f700adfecdd7dcddd7dfe7d5e0e7d6d9dbd9dbe2e9e2dbb800dbd9e7d7dce0f6e4dae8f0fef702b800f90500f701adff"
+  },
+  {
+    "offset": "0x4199AB",
+    "source_hex": "f70000e2d5e8e9e6d9ad00bbe4e4d5e6d9e2e8e0ed00e1d9e800dde2fed500dad5e8d9dae9e000d9e2d7e3e9e2e8d9e6005cdcd5e8d7dcd9d8f0fef70200d5e800f90500f7015dadff",
+    "sites": [
+      "0x1378A4"
+    ],
+    "expected_hex": "d1d9e7d9e200f700ad00bbe2e7d7dcd9dde2d9e2d8fecdd7dcddd7dfe7d5e0e7d6d9dbd9dbe2e9e2dbb800dbd9e7d7dce0f6e4dae8f0fef702b800f90500f701adff"
+  },
+  {
+    "offset": "0x4199F4",
+    "source_hex": "f70000e2d5e8e9e6d9ad00bbe4e4d5e6d9e2e8e0ed00e1d9e800dde2fed500dad5e8d9dae9e000d9e2d7e3e9e2e8d9e6005cdcd5e8d7dcd9d8f0fef70200d5e800f90500f7015dadff",
+    "sites": [
+      "0x137898"
+    ],
+    "expected_hex": "d1d9e7d9e200f700ad00bbe2e7d7dcd9dde2d9e2d8fecdd7dcddd7dfe7d5e0e7d6d9dbd9dbe2e9e2dbb800dbd9e7d7dce0f6e4dae8f0fef702b800f90500f701adff"
+  },
+  {
+    "offset": "0x419C5A",
+    "source_hex": "bde3e2dadde6e1ff",
+    "sites": [
+      "0x3CC32C"
+    ],
+    "expected_hex": "c9c5ff"
+  },
+  {
+    "offset": "0x419D4F",
+    "source_hex": "d1f0fc1330c6f0ff",
+    "sites": [
+      "0x8A750"
+    ],
+    "expected_hex": "cdf0fc1330c8f0ff"
+  },
+  {
+    "offset": "0x419E1C",
+    "source_hex": "c7ddd8ff",
+    "sites": [
+      "0x3CC334"
+    ],
+    "expected_hex": "c7dde8e8d9e0ff"
+  },
+  {
+    "offset": "0x419E25",
+    "source_hex": "c9e2ff",
+    "sites": [
+      "0x3CC33C"
+    ],
+    "expected_hex": "bfdde2ff"
+  },
+  {
+    "offset": "0x419E28",
+    "source_hex": "c9dadaff",
+    "sites": [
+      "0x3CC340"
+    ],
+    "expected_hex": "bbe9e7ff"
+  },
+  {
+    "offset": "0x419E32",
+    "source_hex": "cdd9e8ff",
+    "sites": [
+      "0x3CC348",
+      "0x1FB3A2C"
+    ],
+    "expected_hex": "c0e3e0dbd9ff"
+  },
+  {
+    "offset": "0x41A2E1",
+    "source_hex": "f70000dcd5d800d500e1d5e6ead9e0e3e9e700d6d5e8e8e0d9feebdde8dc00e8dcd900bddcd5e1e4dde3e2b800f701adff",
+    "sites": [
+      "0x115144"
+    ],
+    "expected_hex": "f70000dff4e1e4dae8d900dbe6e315d5e6e8dddbfedbd9dbd9e200bddcd5e1e4dde3e200f701adff"
+  },
+  {
+    "offset": "0x41A422",
+    "source_hex": "cee3e3df00e3e200f70000dde200d500cdc3c8c1c6bf00bcbbcecec6bfadfec3e800ebd5e700d500dce3e8e0ed00d7e3e2e8d9e7e8d9d800e1d5e8d7dc00e8dcd5e8fee6d9e7e9e0e8d9d800dde200d500f701adff",
+    "sites": [
+      "0x114574"
+    ],
+    "expected_hex": "f70000dde100bfc3c8d4bfc6c5bbc7cac0adfec2d5e6e800e9e1dff4e1e4dae8ad00bfe6dbd9d6e2dde7f0fef701adff"
+  },
+  {
+    "offset": "0x41A477",
+    "source_hex": "cee3e3df00e3e200f70000dde200d500bec9cfbcc6bf00bcbbcecec6bfadfec3e800ebd5e700d5e200d9ece8d9e2d8d9d800e1d5e8d7dc00e8dcd5e800e6d9e7e9e0e8d9d8fedde200d500f701adff",
+    "sites": [
+      "0x114600"
+    ],
+    "expected_hex": "f70000dde100bec9cacabfc6c5bbc7cac0adfec6d5e2dbd9e600c5d5e1e4daad00bfe6dbd9d6e2dde7f0fef701adff"
+  },
+  {
+    "offset": "0x41A4C6",
+    "source_hex": "f70000d5e2d800f70100e8e3e3df00e3e2fef70200d5e2d800f70300dde200d5fec7cfc6cec300bcbbcecec6bf00d5e2d800dbe3e800d500f704adff",
+    "sites": [
+      "0x11470C"
+    ],
+    "expected_hex": "f70000e9e2d800f70100dbd9dbd9e2fef70200e9e2d800f70300dde1fec7cfc6cec3c5bbc7cac0ad00bfe6dbd9d6e2dde7f000f704adff"
+  },
+  {
+    "offset": "0x41A5FA",
+    "source_hex": "c7e3ead9d800f70100dde200f700adff",
+    "sites": [
+      "0x114B08"
+    ],
+    "expected_hex": "f70100dde200f70000ead9e6e7d9e8eee8adff"
+  },
+  {
+    "offset": "0x41A60A",
+    "source_hex": "cdebdde8d7dcd9d800f70100dde200f700feebdde8dc00f70200dde200e8dcd900e4d5e6e8edadff",
+    "sites": [
+      "0x114A18"
+    ],
+    "expected_hex": "f70100d5e9e700f700fee1dde800f70200dde100ced9d5e100dbd9e8d5e9e7d7dce8adff"
+  },
+  {
+    "offset": "0x41A66E",
+    "source_hex": "c7e3ead9d800d500dbe6e3e9e400e3da00cae3df1be1e3e200dde2fef70000e8e300f701adff",
+    "sites": [
+      "0x114C64"
+    ],
+    "expected_hex": "cae3df1be1e3e2aec1e6e9e4e4d900ead9e6e7d9e8eee8f0fef70000e2d5d7dc00f701adff"
+  },
+  {
+    "offset": "0x41A9D4",
+    "source_hex": "bed9dad9d5e8d9d800f70200ebdde0d800cae3df1be1e3e200dde2d7e0e9d8dde2dbfef70100dde200f700adff",
+    "sites": [
+      "0x114F58"
+    ],
+    "expected_hex": "f70200ebdde0d8d900cae3df1be1e3e200d6d9e7ddd9dbe8b8fed8d5e6e9e2e8d9e600f70100dde200f700adff"
+  },
+  {
+    "offset": "0x41AA01",
+    "source_hex": "f70500e1d5e2d5dbd9d800e8e300d7d5e8d7dc00e8dcd900cae3df1be1e3e2fef70300dde200f700adff",
+    "sites": [
+      "0x114F14"
+    ],
+    "expected_hex": "f70500dadde2db00d8d5e700cae3df1be1e3e2fef70300dde200f700adff"
+  },
+  {
+    "offset": "0x41AA2B",
+    "source_hex": "cedce6d9eb00cae3df1b00bcd5e0e0e700dde200d500dae6d9e2eeedb800d7d5e8d7dcdde2dbfef70400cae3df1be1e3e200dde2d7e0e9d8dde2db00f70300dcd9e6d9fedde200f700adff",
+    "sites": [
+      "0x114F28"
+    ],
+    "expected_hex": "d0ddd9e0d900cae3df1bd6f4e0e0d900dbd9ebe3e6dad9e2adfef70400dbd9dad5e2dbd9e2b800d8d5e6e9e2e8d9e6fef70300dde200f700adff"
+  },
+  {
+    "offset": "0x41AA76",
+    "source_hex": "f70500d8d9dad9d5e8d9d800e8dcd900cae3df1be1e3e2fef70100d5e2d800d7d5e9dbdce800e3e2d900f703fedde200f700adff",
+    "sites": [
+      "0x114F74"
+    ],
+    "expected_hex": "f70500d6d9e7ddd9dbe8d900f701adfec0dde2db00d9dde200f703fedde200f700adff"
+  },
+  {
+    "offset": "0x41AAEC",
+    "source_hex": "f70500d8d9dad9d5e8d9d800f70200cae3df1be1e3e200dde2d7e0e9d8dde2dbfef70100d5e2d800d7d5e9dbdce800e3e2d900f703fedde200f700adff",
+    "sites": [
+      "0x114FA0"
+    ],
+    "expected_hex": "f705f000f70200d6d9e7ddd9dbe8b8fed8d5e6e9e2e8d9e600f7013600d9dde200f703fedde200f70000dbd9dad5e2dbd9e2adff"
+  },
+  {
+    "offset": "0x41AB29",
+    "source_hex": "bed9dad9d5e8d9d800f70200cae3df1be1e3e200dde2d7e0e9d8dde2dbfef70100d5e2d800d7d5e9dbdce800f70400cae3df1be1e3e2fedde2d7e0e9d8dde2db00f70300dde200f700adff",
+    "sites": [
+      "0x114FB8"
+    ],
+    "expected_hex": "f70200d6d9e7ddd9dbe8b800ebddd900f701adfef70400dbd9dad5e2dbd9e2b800d8d5e6e9e2e8d9e6fef70300dde200f700adff"
+  },
+  {
+    "offset": "0x41AF0C",
+    "source_hex": "cee3e3df00e3e200f70000c1d3c700c6bfbbbebfccfef701b4e700f70200ebdde8dc00f703fed5e2d800ebe3e200f704abff",
+    "sites": [
+      "0x114DE4"
+    ],
+    "expected_hex": "f700f000c6d9dde8d9e600f701adfef70200e1dde800f70300d6d9e7ddd9dbe8adfec1d9ebdde2e2f000f704abff"
+  },
+  {
+    "offset": "0x41AF3E",
+    "source_hex": "cee3e3df00e3e200bfc6c3cebf00c0c9cfcc00f700b4e7fef70100ebdde8dc00f70200d5e2d8feebe3e200f703abff",
+    "sites": [
+      "0x115074"
+    ],
+    "expected_hex": "cec9ca00d0c3bfcc00f700e7fef70100e1dde800f70200d6d9e7ddd9dbe8adfec1d9ebdde2e2f000f703abff"
+  },
+  {
+    "offset": "0x41B3AA",
+    "source_hex": "f70000dee3dde2d9d800e8dcd900d7dcd5e8abff",
+    "sites": [
+      "0x129684"
+    ],
+    "expected_hex": "f70000dde7e800ded9e8eee800dde100bddcd5e8abff"
+  },
+  {
+    "offset": "0x41B619",
+    "source_hex": "cedcdde700d8e3d7e9e1d9e2e800dde700dde7e7e9d9d800dde2fee6d9d7e3dbe2dde8dde3e200e3da00ede3e9e600e1d5dbe2dddaddd7d9e2e8fed5d7dcddd9ead9e1d9e2e800ae00e8dcd900d7e3e1e4e0d9e8dde3e200e3dafee8dcd900f70100cae3df1bd8d9ecadff",
+    "sites": [
+      "0xF50EC",
+      "0x8B4410"
+    ],
+    "expected_hex": "beddd9e7d900cfe6dfe9e2d8d900d9dce6e800d8d9dde2d9fedbe6e315d5e6e8dddbd900c6d9dde7e8e9e2dbf0febeddd900d0d9e6eae3e0e0e7e8f4e2d8dddbe9e2db00d8d9e7fef701aecae3df1bd8d9ecadff"
+  },
+  {
+    "offset": "0x41CBA9",
+    "source_hex": "bbebd9e7e3e1d900e7d7e3e6d9ab00d3e3e9b4ead9feebe3e200f70100f700abff",
+    "sites": [
+      "0x14A534"
+    ],
+    "expected_hex": "cae9e2dfe8eed5dce000e8e3e4abfec1d9ebe3e2e2d9e2f000f70100f700abff"
+  },
+  {
+    "offset": "0x41CD7A",
+    "source_hex": "cedcd900dadde6e7e8aee4e0d5d7d900ebdde2e2d9e600dbd9e8e7fee8dcdde700f700abff",
+    "sites": [
+      "0x15556C"
+    ],
+    "expected_hex": "cae6d9dde700daf6e600cae0d5e8ee00a2f0fef700abff"
+  },
+  {
+    "offset": "0x41DFAC",
+    "source_hex": "f80acac3bdc500f800c9c500f801bfc8beff",
+    "sites": [
+      "0x12B518"
+    ],
+    "expected_hex": "f80ad1bbc2c600f800c9c500f801bfc8bebfff"
+  },
+  {
+    "offset": "0x41DFBE",
+    "source_hex": "f800f801bdd5e2d7d9e0ff",
+    "sites": [
+      "0x12BE50"
+    ],
+    "expected_hex": "f80000f801bfe2d8d9ff"
+  },
+  {
+    "offset": "0x41DFC9",
+    "source_hex": "f80acac3bdc500f800c9c500f801bdd5e2d7d9e0ff",
+    "sites": [
+      "0x12B608"
+    ],
+    "expected_hex": "f80ad1bbc2c600f800c9c500f801bfe2d8d9ff"
+  },
+  {
+    "offset": "0x41DFF5",
+    "source_hex": "bcbbcecec6bfff",
+    "sites": [
+      "0x3EDFA4"
+    ],
+    "expected_hex": "c5bbc7cac0ff"
+  },
+  {
+    "offset": "0x41DFFC",
+    "source_hex": "c1ccbfbfcec3c8c1cdff",
+    "sites": [
+      "0x3EDFA8"
+    ],
+    "expected_hex": "c1ccf3cdcdbfff"
+  },
+  {
+    "offset": "0x41E006",
+    "source_hex": "cabfc9cac6bfff",
+    "sites": [
+      "0x3EDFAC"
+    ],
+    "expected_hex": "cabfcccdc9c8bfc8ff"
+  },
+  {
+    "offset": "0x41E00D",
+    "source_hex": "d0c9c3bdbfcdff",
+    "sites": [
+      "0x3EDFB0"
+    ],
+    "expected_hex": "c6bbcfcebfff"
+  },
+  {
+    "offset": "0x41E014",
+    "source_hex": "cdcabfbfbdc2ff",
+    "sites": [
+      "0x3EDFB4"
+    ],
+    "expected_hex": "ccbfbebfff"
+  },
+  {
+    "offset": "0x41E01B",
+    "source_hex": "bfc8bec3c8c1cdff",
+    "sites": [
+      "0x3EDFB8"
+    ],
+    "expected_hex": "bfc8becfc8c1bfc8ff"
+  },
+  {
+    "offset": "0x41E023",
+    "source_hex": "c0bfbfc6c3c8c1cdff",
+    "sites": [
+      "0x3EDFBC"
+    ],
+    "expected_hex": "c1bfc0f3c2c6bfff"
+  },
+  {
+    "offset": "0x41E02C",
+    "source_hex": "bdc9c8bec3cec3c9c8cdff",
+    "sites": [
+      "0x3EDFC0"
+    ],
+    "expected_hex": "d4cfcdcef1c8bebfff"
+  },
+  {
+    "offset": "0x41E037",
+    "source_hex": "bbbdcec3c9c8cdff",
+    "sites": [
+      "0x3EDFC4"
+    ],
+    "expected_hex": "bbc5cec3c9c8bfc8ff"
+  },
+  {
+    "offset": "0x41E03F",
+    "source_hex": "c6c3c0bfcdced3c6bfff",
+    "sites": [
+      "0x3EDFC8"
+    ],
+    "expected_hex": "bbc6c6cebbc1ff"
+  },
+  {
+    "offset": "0x41E049",
+    "source_hex": "c2c9bcbcc3bfcdff",
+    "sites": [
+      "0x3EDFCC"
+    ],
+    "expected_hex": "c2c9bcbcd3cdff"
+  },
+  {
+    "offset": "0x41E051",
+    "source_hex": "cec3c7bfff",
+    "sites": [
+      "0x3EDFD0"
+    ],
+    "expected_hex": "d4bfc3ceff"
+  },
+  {
+    "offset": "0x41E056",
+    "source_hex": "c7c3cdbdadff",
+    "sites": [
+      "0x3EDFD4"
+    ],
+    "expected_hex": "bec3d0bfcccdbfcdff"
+  },
+  {
+    "offset": "0x41E05C",
+    "source_hex": "bbbec4bfbdcec3d0bfcdff",
+    "sites": [
+      "0x3EDFD8"
+    ],
+    "expected_hex": "bbbec4bfc5cec3d0bfff"
+  }
+]
