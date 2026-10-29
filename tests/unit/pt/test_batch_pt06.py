@@ -87,3 +87,13 @@ def test_audit_report_covers_all_offsets_and_justifies_exceptions():
     documented = re.findall(r'^\| `(0x[0-9a-f]+)` \|', report, re.MULTILINE)
     assert len(documented) == 282
     assert {int(offset, 16) for offset in documented} == batch_offsets()
+
+
+def test_audit_preserves_all_consumers_after_integration():
+    audit = json.loads((ROOT / 'docs/analysis/24_PT_BR_PT06.json').read_text())
+    active = [row for row in audit['entries'] if row['status'] != 'exception']
+    all_sites = [site for row in active for site in row['source_sites']]
+    assert len(all_sites) == len(set(all_sites)) == 238
+    for row in active:
+        assert len(row['targets']) == len(row['source_sites'])
+        assert all(0 <= int(target, 16) < 0x2000000 for target in row['targets'])

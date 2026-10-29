@@ -1,4 +1,5 @@
 """PT-06 : contrôle des octets livrés et des consommateurs sur ROM réelle."""
+import json
 import re
 import struct
 from pathlib import Path
@@ -32,6 +33,8 @@ def sites(source, offset):
 
 def test_every_active_pointer_delivers_the_exact_text(roms):
     source, built = roms
+    report = json.loads((ROOT / 'docs/analysis/24_PT_BR_PT06.json').read_text())
+    rows = {int(row['offset'], 16): row for row in report['entries']}
     failures = []
     for offset, text in translations().items():
         expected = TextEncoder.encode_pokemon(text.replace(r'\n', '\n'), strict=True)
@@ -40,6 +43,10 @@ def test_every_active_pointer_delivers_the_exact_text(roms):
         assert not any(byte in original for byte in [0xFC, 0xFD, 0xFA, 0xFB])
         refs = sites(source, offset)
         assert refs, hex(offset)
+        assert rows[offset]['source_sites'] == [hex(site) for site in refs]
+        assert rows[offset]['targets'] == [
+            hex(struct.unpack_from('<I', built, site)[0] - 0x08000000) for site in refs
+        ], f'{offset:#x}: bilan périmé après relocalisation'
         if offset < 0x3DF7E8:
             assert any(0x876088 <= site < 0x880000
                        and (site - 0x876088) % 44 == 0 for site in refs), hex(offset)
