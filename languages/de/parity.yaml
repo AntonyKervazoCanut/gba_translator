@@ -432,6 +432,8 @@ de_only_rom_tests:
   sources:
     - tests/unit/de/test_combat_ui_02.py
     - tests/e2e/de/test_combat_ui_02.py
+    - tests/unit/de/test_combat_ui_03.py
+    - tests/e2e-playwright/specs/de-combat-ui-03.spec.ts
     - tests/e2e-playwright/german-translation.spec.ts
     - tests/e2e/de/test_english_toponyms.py
     - tests/e2e/de/test_official_terminology.py
