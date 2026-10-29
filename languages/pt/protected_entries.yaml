@@ -17199,3 +17199,831 @@ entries:
   - offset: "0x7bb685"
     name: "PT-24 0x7bb685"
     expected: 'Acham que só por eu ser um\nSuper Nerd, tenho que fazer<0xFA>coisas de nerd.<0xFB>Posso estudar pedras se quiser!<0xFB>Ninguém pode me dizer quem\neu devo ser!'
+  - offset: "0x7c6c97"
+    name: "PT-26 0x7c6c97"
+    expected: 'Vou desafiar você para uma\nbatalha antes de irmos.<0xFB>Preciso saber se você é forte o\nbastante para sobreviver lá.'
+  - offset: "0x7c6d0a"
+    name: "PT-26 0x7c6d0a"
+    expected: 'Acho que você está pronto!'
+  - offset: "0x7c6d20"
+    name: "PT-26 0x7c6d20"
+    expected: 'Certo, vamos lá! Use Dig!'
+  - offset: "0x7c6d3d"
+    name: "PT-26 0x7c6d3d"
+    expected: 'Como assim? Nenhum dos seus\nPokémon sabe <0xFC><0x01><0x06>Dig<0xFC><0x01><0x08>!'
+  - offset: "0x7c6d7b"
+    name: "PT-26 0x7c6d7b"
+    expected: 'Não?<0xFB>Tomara que a maré não me\nafogue...'
+  - offset: "0x7c6dab"
+    name: "PT-26 0x7c6dab"
+    expected: 'Não?<0xFB><0xFC><0x01><0x06>Sandshrew<0xFC><0x01><0x08> e <0xFC><0x01><0x06>Sandslash<0xFC><0x01><0x08> no <0xFC><0x01><0x06>Great\nDesert<0xFC><0x01><0x08> costumam saber Dig.'
+  - offset: "0x7c6dff"
+    name: "PT-26 0x7c6dff"
+    expected: 'É só um túnel. O que há para\ntemer?'
+  - offset: "0x7c6e51"
+    name: "PT-26 0x7c6e51"
+    expected: 'Chegamos! Lost Tunnel...<0xFB>É bem úmido aqui... E muito\nescuro.<0xFB>Acho que nem um Pokémon\nconseguiria iluminar isto.<0xFB>É melhor seguirmos!<0xFB>Há uma escada por aqui em algum\nlugar.<0xFB>Vou curar seus Pokémon após\ncada batalha.'
+  - offset: "0x7c70a2"
+    name: "PT-26 0x7c70a2"
+    expected: 'Ei, ainda não terminei!<0xFB>Leve esta TM também!'
+  - offset: "0x7c70ca"
+    name: "PT-26 0x7c70ca"
+    expected: 'A TM92 contém <0xFC><0x01><0x06>Volt Switch<0xFC><0x01><0x08>!<0xFB>Permite trocar de Pokémon quando\nestá em desvantagem!<0xFB>Mostre aos inimigos do que é\ncapaz!'
+  - offset: "0x7c7143"
+    name: "PT-26 0x7c7143"
+    expected: 'Não deixe nada barrar seu\ncaminho, <0xFD><0x01>!<0xFB>Nunca deixe uma desvantagem\nbarrar seus objetivos!'
+  - offset: "0x7c720f"
+    name: "PT-26 0x7c720f"
+    expected: 'O quê? Um terremoto? Agora?'
+  - offset: "0x7c7229"
+    name: "PT-26 0x7c7229"
+    expected: 'Uau, você arrasou com aquele\nDiglett!<0xFB>Já imaginou como são os pés de\num Diglett?'
+  - offset: "0x7c72fa"
+    name: "PT-26 0x7c72fa"
+    expected: 'De novo? Espero que nenhuma\npedra caia em mim...'
+  - offset: "0x7c731d"
+    name: "PT-26 0x7c731d"
+    expected: 'Aquele Golem era forte!<0xFB>Será que ele se daria bem com\nmeu Graveler...?'
+  - offset: "0x7c73cf"
+    name: "PT-26 0x7c73cf"
+    expected: 'Uma terceira vez? Não pode ser\ncoincidência!'
+  - offset: "0x7c73fa"
+    name: "PT-26 0x7c73fa"
+    expected: 'Ufa, que batalha difícil! Cansei\nsó de ver!<0xFB>Venceu aquele Dugtrio. Os\ntremores devem parar.'
+  - offset: "0x7c74bb"
+    name: "PT-26 0x7c74bb"
+    expected: 'Ali está a escada!<0xFB>Achei que ficaríamos presos aqui\npara sempre...<0xFB>Vamos sair daqui.'
+  - offset: "0x7c7641"
+    name: "PT-26 0x7c7641"
+    expected: 'O quê? Um beco sem saída!<0xFB>Deve haver uma saída daqui...'
+  - offset: "0x7c7677"
+    name: "PT-26 0x7c7677"
+    expected: 'Deixe-me ver...'
+  - offset: "0x7c7683"
+    name: "PT-26 0x7c7683"
+    expected: 'Aha! Achei!<0xFB>Um ponto fraco na parede, bem\naqui.'
+  - offset: "0x7c77a2"
+    name: "PT-26 0x7c77a2"
+    expected: 'Graveler, use Rock Smash!'
+  - offset: "0x7c77be"
+    name: "PT-26 0x7c77be"
+    expected: '<0xFC><0x01><0x04>Agora, Moltres, é hora de você\nser nosso.'
+  - offset: "0x7c784f"
+    name: "PT-26 0x7c784f"
+    expected: 'Agradeço toda a ajuda! Aqui,\nleve esta TM.<0xFB>Esqueci que a tinha o tempo\ntodo.'
+  - offset: "0x7c78a0"
+    name: "PT-26 0x7c78a0"
+    expected: 'A TM28 contém <0xFC><0x01><0x06>Dig<0xFC><0x01><0x08>.<0xFB>Devíamos tê-la usado logo,\nhein?'
+  - offset: "0x7c794f"
+    name: "PT-26 0x7c794f"
+    expected: 'Zeph: <0xFC><0x01><0x08>Se Ivory não consegue, eu\ne Houndoom vamos<0xFA>mostrar o que é dor!'
+  - offset: "0x7c79b5"
+    name: "PT-26 0x7c79b5"
+    expected: 'Ivory: <0xFC><0x01><0x04>Zeph, acho mesmo que\nvocê não deveria...'
+  - offset: "0x7c79e6"
+    name: "PT-26 0x7c79e6"
+    expected: 'Zeph: <0xFC><0x01><0x08>Silêncio, Ivory!'
+  - offset: "0x7c79ff"
+    name: "PT-26 0x7c79ff"
+    expected: '<0xFC><0x01><0x08>Hora de sofrer!'
+  - offset: "0x7c7a12"
+    name: "PT-26 0x7c7a12"
+    expected: 'Você é perigoso demais para\ncontinuar com vida.'
+  - offset: "0x7c7a3e"
+    name: "PT-26 0x7c7a3e"
+    expected: '<0xFC><0x01><0x08>Aproveite a vitória enquanto\npode, pois está prestes<0xFA>a deixar este mundo.<0xFB>Seria arriscado demais deixar\nvocê com vida agora.'
+  - offset: "0x7c7abe"
+    name: "PT-26 0x7c7abe"
+    expected: '<0xFC><0x01><0x08>Houndoom!<0xFB>Incinere!'
+  - offset: "0x7c7ad7"
+    name: "PT-26 0x7c7ad7"
+    expected: 'Zeph: <0xFC><0x01><0x08>Espere!<0xFB>Houndoom! Recue!<0xFB>Algo está acontecendo!'
+  - offset: "0x7c7c9c"
+    name: "PT-26 0x7c7c9c"
+    expected: 'Zeph: <0xFC><0x01><0x08>Soldados!<0xFB>Peguem <0xFD><0x02> antes que\n<0xFD><0x03> fuja!'
+  - offset: "0x7c7cf5"
+    name: "PT-26 0x7c7cf5"
+    expected: 'Eita, sô!<0xFB>É a coisa mais danada que já\nvi!<0xFB>Um <0xFD><0x02> saindo de um\nportal mágico!<0xFB>De onde veio, <0xFD><0x02>?<0xFB>...<0xFB>Como é?<0xFB>Estava indo a Thundercap Mt.\nquando, de repente,<0xFA>foi sequestrado!<0xFB>Eita, sô!<0xFB>Isso parece assustador,\n<0xFD><0x02>.'
+  - offset: "0x7c7dfa"
+    name: "PT-26 0x7c7dfa"
+    expected: 'Sem esse sequestro, teria bem\nmenos trabalho<0xFA>para chegar a Thundercap Mt.<0xFB>Parte do teto desabou há pouco\ne<0xFA>bloqueou a estrada!<0xFB>Sem a HM de <0xFC><0x01><0x06>Rock Smash<0xFC><0x01><0x08>, vai<0xFA>ser difícil passar pelas pedras.<0xFB>Mas...<0xFB>Imagino que não a tenha, ou não\nestaria aqui falando comigo.<0xFB>Nesse caso, um amigo meu de\n<0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08> pode<0xFA>dar Rock Smash a você.<0xFB>Leve esta HM para ajudar você a\nchegar até ele.'
+  - offset: "0x7c7fda"
+    name: "PT-26 0x7c7fda"
+    expected: 'Eita, sô!<0xFB>Parece que encontrou meu amigo.<0xFB>Agora vá até aquelas pedras e\nquebre todas elas!'
+  - offset: "0x7c804b"
+    name: "PT-26 0x7c804b"
+    expected: 'Use <0xFC><0x01><0x06>Cut<0xFC><0x01><0x08> para cortar a árvore\nque bloqueia <0xFC><0x01><0x06>Valley Cave<0xFC><0x01><0x08>.'
+  - offset: "0x7c8093"
+    name: "PT-26 0x7c8093"
+    expected: 'Mel: <0xFC><0x01><0x08>É seu último aviso. Saia ou\neu tiro você daí.'
+  - offset: "0x7c80c9"
+    name: "PT-26 0x7c80c9"
+    expected: 'Soldado: <0xFC><0x01><0x08>Não vou abandonar meu\nposto.<0xFB><0xFD><0x01> não pode entrar em\nThundercap Mountain.'
+  - offset: "0x7c8132"
+    name: "PT-26 0x7c8132"
+    expected: 'Mel: <0xFC><0x01><0x08>Não tenho tempo para isso\nagora.<0xFB>Minha cabeça lateja e tenho um\nGinásio para cuidar.'
+  - offset: "0x7c818d"
+    name: "PT-26 0x7c818d"
+    expected: 'Soldado: <0xFC><0x01><0x08>Arghhhhhhh...'
+  - offset: "0x7c81a5"
+    name: "PT-26 0x7c81a5"
+    expected: '<0xFC><0x01><0x08>Pode cuidar do resto daqui,\n<0xFD><0x01>.<0xFB>Seja qual for o plano, eles não\nquerem<0xFA>que você interfira.<0xFB>Então, vá com tudo.'
+  - offset: "0x7c821d"
+    name: "PT-26 0x7c821d"
+    expected: '<0xFD><0x02>, use <0xFD><0x03>!'
+  - offset: "0x7c8238"
+    name: "PT-26 0x7c8238"
+    expected: 'Aiii... Minha cabeça...'
+  - offset: "0x7c82c6"
+    name: "PT-26 0x7c82c6"
+    expected: 'PARE!'
+  - offset: "0x7c82cc"
+    name: "PT-26 0x7c82cc"
+    expected: 'Não posso deixar você passar!<0xFB>Se passar por mim, vão me\nqueimar vivo!<0xFB>Você não vai mais longe!'
+  - offset: "0x7c832f"
+    name: "PT-26 0x7c832f"
+    expected: 'Agora estou morto...'
+  - offset: "0x7c833f"
+    name: "PT-26 0x7c833f"
+    expected: 'Hora de uma surra em dupla!'
+  - offset: "0x7c8456"
+    name: "PT-26 0x7c8456"
+    expected: 'Como é?<0xFB>Não sabe o que é uma HM?<0xFB>Eita, sô!<0xFB>Uma <0xFC><0x01><0x06>HM<0xFC><0x01><0x08>, ou Hidden Machine, é um\nmovimento especial<0xFA>que permite superar obstáculos.<0xFB>Ao aprender uma HM, basta o\nPokémon dar <0xFC><0x01><0x06>um passo<0xFC><0x01><0x08><0xFA>sabendo o movimento para<0xFA>poder usá-lo no campo, mesmo<0xFA>sem usá-lo em batalha!<0xFB>Ou seja, <0xFC><0x01><0x06>seus Pokémon não\nprecisam saber a HM para usá-la<0xFC><0x01><0x08>.<0xFB>Bem conveniente, né?<0xFB>Use a HM de <0xFC><0x01><0x06>Cut<0xFC><0x01><0x08> para cortar a\nárvore que bloqueia<0xFA><0xFC><0x01><0x06>Valley Cave<0xFC><0x01><0x08>.<0xFB>Depois vá a <0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08> e\npegue <0xFC><0x01><0x06>Rock Smash<0xFC><0x01><0x08> com meu amigo.<0xFB>Boa sorte na sua jornada!'
+  - offset: "0x7c864f"
+    name: "PT-26 0x7c864f"
+    expected: 'Depois vá a <0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08> e\npegue <0xFC><0x01><0x06>Rock Smash<0xFC><0x01><0x08> com meu amigo.<0xFB>Boa sorte na sua jornada!'
+  - offset: "0x7c86c8"
+    name: "PT-26 0x7c86c8"
+    expected: 'Como prova da vitória no Ginásio\nde Crater Town, receba<0xFA>a <0xFC><0x01><0x06>Darkness Badge<0xFC><0x01><0x08>.'
+  - offset: "0x7c8783"
+    name: "PT-26 0x7c8783"
+    expected: 'Vamos...<0xFB>Preciso muito da sua ajuda. Por\nfavor...'
+  - offset: "0x7c87ba"
+    name: "PT-26 0x7c87ba"
+    expected: 'Ivory: <0xFC><0x01><0x04>Houndoom!<0xFB>Zeph deu você a mim com um só\npropósito!<0xFB>Incinere este velho tolo!'
+  - offset: "0x7c8814"
+    name: "PT-26 0x7c8814"
+    expected: 'Esposa: <0xFC><0x01><0x04>NÃÃÃÃÃO!<0xFB>Você o matou, seu verme!'
+  - offset: "0x7c8844"
+    name: "PT-26 0x7c8844"
+    expected: 'Ivory: <0xFC><0x01><0x04>Incinere ela também,\nHoundoom.<0xFB>Não precisamos mais dela.'
+  - offset: "0x7c888a"
+    name: "PT-26 0x7c888a"
+    expected: 'Mas a maioria dos meus amigos\nvoltou para suas terras...'
+  - offset: "0x7c88fd"
+    name: "PT-26 0x7c88fd"
+    expected: 'Já foi à SES Expressway?<0xFB>É uma via subterrânea que\npercorre toda Borrius.<0xFB>É um paraíso para mochileiros!'
+  - offset: "0x7c898c"
+    name: "PT-26 0x7c898c"
+    expected: 'Ouvi dizer que alguém em\nTarmigan Town ensina a arte<0xFA>da Megaevolução!'
+  - offset: "0x7c89e2"
+    name: "PT-26 0x7c89e2"
+    expected: 'Veio obter o poder da\n<0xFC><0x01><0x06>Megaevolução<0xFC><0x01><0x08> em<0xFA><0xFC><0x01><0x06>Tarmigan Mansion<0xFC><0x01><0x08>?<0xFB>A maioria de quem vem aqui\nprocura esse poder.<0xFB>Fora isso, a cidade só oferece\npesadelos horríveis.'
+  - offset: "0x7c8aec"
+    name: "PT-26 0x7c8aec"
+    expected: 'Oi, <0xFD><0x01>!<0xFB>Posso mostrar os EVs e IVs\nexatos de seus Pokémon.'
+  - offset: "0x7c8b33"
+    name: "PT-26 0x7c8b33"
+    expected: 'Volte para ver quando quiser.'
+  - offset: "0x7c8ba6"
+    name: "PT-26 0x7c8ba6"
+    expected: 'Se mudar de ideia, é só avisar.<0xFB>Terei prazer em mostrar.'
+  - offset: "0x7c8f73"
+    name: "PT-26 0x7c8f73"
+    expected: 'Marlon: <0xFC><0x01><0x08>Enfim, a última peça do\nquebra-cabeça é nossa.'
+  - offset: "0x7c8fb3"
+    name: "PT-26 0x7c8fb3"
+    expected: '<0xFC><0x01><0x08>Um com o trovão, um com o\nrelâmpago.<0xFB>Uma tempestade feroz.<0xFB>Um mundo paralisado.<0xFB>Ouça meu chamado!<0xFB>Zapdos!<0xFB>Sankren thoron!<0xFB>Eu ordeno!<0xFB>Saia das nuvens tempestuosas em\nque habita!'
+  - offset: "0x7c906a"
+    name: "PT-26 0x7c906a"
+    expected: '<0xFC><0x01><0x08>Agora, Zapdos, você será...'
+  - offset: "0x7c908b"
+    name: "PT-26 0x7c908b"
+    expected: 'Soldado: <0xFC><0x01><0x08>Senhor! Cuidado!'
+  - offset: "0x7c90a4"
+    name: "PT-26 0x7c90a4"
+    expected: 'Marlon: <0xFC><0x01><0x08>Ele acabou de\ndesintegrá-lo...'
+  - offset: "0x7c90ca"
+    name: "PT-26 0x7c90ca"
+    expected: '<0xFC><0x01><0x08>Soldados e Shadow Warriors\nrestantes, contenham Zapdos!'
+  - offset: "0x7c9108"
+    name: "PT-26 0x7c9108"
+    expected: '<0xFC><0x01><0x08>Foram aniquilados por\nDischarge...'
+  - offset: "0x7c912d"
+    name: "PT-26 0x7c912d"
+    expected: '<0xFC><0x01><0x08>Zapdos, você não me dá\nescolha...'
+  - offset: "0x7c9156"
+    name: "PT-26 0x7c9156"
+    expected: '<0xFC><0x01><0x08>He... Boa tentativa, Zapdos.<0xFB>Mas não caio tão fácil quanto os\nsoldados.'
+  - offset: "0x7c919a"
+    name: "PT-26 0x7c919a"
+    expected: '<0xFC><0x01><0x08>Krookodile! Use Stone Edge!'
+  - offset: "0x7c91b9"
+    name: "PT-26 0x7c91b9"
+    expected: 'Krookodile: <0xFC><0x01><0x06>Dile!'
+  - offset: "0x7c91ce"
+    name: "PT-26 0x7c91ce"
+    expected: 'Um acerto crítico!'
+  - offset: "0x7c91de"
+    name: "PT-26 0x7c91de"
+    expected: '<0xFC><0x01><0x08>Agora, Zapdos, é hora de você\nser meu.'
+  - offset: "0x7c9210"
+    name: "PT-26 0x7c9210"
+    expected: '<0xFC><0x01><0x08>Demorou muito mais do que eu\nesperava.'
+  - offset: "0x7c9239"
+    name: "PT-26 0x7c9239"
+    expected: '<0xFC><0x01><0x08>Enfim, é hora de ir às <0xFC><0x01><0x06>Ruins of\nVoid<0xFC><0x01><0x08>...'
+  - offset: "0x7c9272"
+    name: "PT-26 0x7c9272"
+    expected: '<0xFC><0x01><0x08>Pus inúmeros guardas para\nimpedir sua chegada!<0xFB>Até mandei destruir as escadas!<0xFB>Como conseguiu passar por tudo\nisso...?'
+  - offset: "0x7c9302"
+    name: "PT-26 0x7c9302"
+    expected: '<0xFC><0x01><0x08>Ah, isso não importa mais. Nós\njá vencemos.<0xFB>Zapdos agora me pertence.<0xFB>Com este novo poder, vou\nfinalmente eliminar você!'
+  - offset: "0x7c9392"
+    name: "PT-26 0x7c9392"
+    expected: 'Não importa se eu perder aqui.\nNós já vencemos.'
+  - offset: "0x7c9405"
+    name: "PT-26 0x7c9405"
+    expected: 'Imagino que o guarda falhou.'
+  - offset: "0x7c9424"
+    name: "PT-26 0x7c9424"
+    expected: 'Só imagino os horrores que Zeph\nvai infligir a ele...'
+  - offset: "0x7c94c0"
+    name: "PT-26 0x7c94c0"
+    expected: 'Estão presos atrás de uma\nbarreira elétrica!'
+  - offset: "0x7c94f5"
+    name: "PT-26 0x7c94f5"
+    expected: 'Só há uma forma de libertar os\nPokémon.<0xFB>Mas não vou contar qual é!'
+  - offset: "0x7c9586"
+    name: "PT-26 0x7c9586"
+    expected: 'Acho que prefiro ser torrado\npelos Pokémon...'
+  - offset: "0x7c95b4"
+    name: "PT-26 0x7c95b4"
+    expected: 'Um de nós tem a chave para\nlibertar os Pokémon.<0xFB>Mas não vou contar quem tem.'
+  - offset: "0x7c9652"
+    name: "PT-26 0x7c9652"
+    expected: 'Não importa.'
+  - offset: "0x7c9662"
+    name: "PT-26 0x7c9662"
+    expected: 'Explodi as escadas para que\nnada interrompa o procedimento.'
+  - offset: "0x7c96da"
+    name: "PT-26 0x7c96da"
+    expected: 'Tenho a chave para libertar os\nPokémon!<0xFB>Mas não vou dar a você!'
+  - offset: "0x7c9719"
+    name: "PT-26 0x7c9719"
+    expected: 'Aqui, pegue logo!'
+  - offset: "0x7c972d"
+    name: "PT-26 0x7c972d"
+    expected: 'Os outros soldados vão me\nmatar...'
+  - offset: "0x7c97cc"
+    name: "PT-26 0x7c97cc"
+    expected: 'Parece haver Pokémon presos\natrás de uma barreira elétrica.'
+  - offset: "0x7c980f"
+    name: "PT-26 0x7c980f"
+    expected: 'Quer desligar a barreira e\nlibertá-los?'
+  - offset: "0x7c9846"
+    name: "PT-26 0x7c9846"
+    expected: '<0xFD><0x01> desligou a barreira!'
+  - offset: "0x7c9861"
+    name: "PT-26 0x7c9861"
+    expected: 'Os Pokémon cativos voltaram à\nnatureza.'
+  - offset: "0x7c9b04"
+    name: "PT-26 0x7c9b04"
+    expected: 'Você não para de me\nimpressionar, <0xFD><0x01>.<0xFB>Mas um conselho: não me siga.<0xFB>Se não se meter na vida alheia,\nnão vai<0xFA>se machucar.<0xFB>É melhor ficar a salvo do que\nbancar o herói...'
+  - offset: "0x7c9d29"
+    name: "PT-26 0x7c9d29"
+    expected: '<0xFD><0x01>!<0xFB>O que faz aqui?<0xFB>Tenta completar sua Pokédex?<0xFB>...<0xFB>Quer obter Rock Smash para\nimpedir The Shadows...<0xFB>Enquanto você bancava o herói\npor aí, fiquei<0xFA>muito mais forte.<0xFB>Você nem tem mais chance contra\nmim.<0xFB>Vou demonstrar meu poder aqui e\nagora!'
+  - offset: "0x7c9eca"
+    name: "PT-26 0x7c9eca"
+    expected: 'Ivory: <0xFC><0x01><0x04>E caso <0xFD><0x06> esteja\nme seguindo...'
+  - offset: "0x7c9efb"
+    name: "PT-26 0x7c9efb"
+    expected: '<0xFC><0x01><0x04>Quanto a você, <0xFD><0x01>, ainda\nnão vou matar você.<0xFB>Precisa servir de exemplo a quem\nfor tolo o bastante<0xFA>para achar que pode enfrentar<0xFA>The Shadows.<0xFB>Vou fazer o que Marlon e Zeph\nnão conseguiram.<0xFB>É hora de encontrar seu fim em\nbatalha!'
+  - offset: "0x7ca003"
+    name: "PT-26 0x7ca003"
+    expected: 'Que decepção.'
+  - offset: "0x7ca01a"
+    name: "PT-26 0x7ca01a"
+    expected: '<0xFC><0x01><0x04>...<0xFB>Posso ter falhado também, mas\nainda não acabou!<0xFB>Houndoom!<0xFB>Quero que as cinzas de\n<0xFD><0x02> deixem o chão preto!'
+  - offset: "0x7ca08c"
+    name: "PT-26 0x7ca08c"
+    expected: 'Ivory: <0xFC><0x01><0x04>Houndoom!<0xFB>Faça isso antes que <0xFD><0x03>\nfuja de novo!'
+  - offset: "0x7ca0db"
+    name: "PT-26 0x7ca0db"
+    expected: 'Na verdade, aquele cara ali é\nmeu único amigo agora...'
+  - offset: "0x7ca167"
+    name: "PT-26 0x7ca167"
+    expected: 'Sabe o que mais me frustra\nnisso?<0xFB>A polícia não faz nada, pois se\nrecusa a<0xFA>acreditar que exista uma<0xFA>organização sombria!<0xFB>Ainda me tratam como criança,\napesar de tudo que fiz...<0xFB>Argh...'
+  - offset: "0x7ca25d"
+    name: "PT-26 0x7ca25d"
+    expected: 'Espere...<0xFB>Agora me lembro...<0xFB>Afinal, há alguém a quem posso\npedir ajuda...'
+  - offset: "0x7cdd11"
+    name: "PT-26 0x7cdd11"
+    expected: 'Enquanto isso, vá para\n<0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08><0xFB>É preciso <0xFC><0x01><0x06>Strength<0xFC><0x01><0x08> para avançar\nlá, então derrote<0xFA>o <0xFC><0x01><0x06>Fallshore Gym<0xFC><0x01><0x08> primeiro.<0xFB>Acho que vi o Líder de Ginásio\nandando por <0xFC><0x01><0x06>Tehl Town<0xFC><0x01><0x08>,<0xFA>na verdade...<0xFB>Encontro você depois que\nresgatar <0xFC><0x01><0x06>Zapdos<0xFC><0x01><0x08>.'
+  - offset: "0x7cde4b"
+    name: "PT-26 0x7cde4b"
+    expected: 'Vamos, Staraptor!'
+  - offset: "0x7cde6c"
+    name: "PT-26 0x7cde6c"
+    expected: 'Foi difícil achar meus Pokémon.<0xFB>Eles não costumam aparecer na\nnatureza por aqui.'
+  - offset: "0x7cdec1"
+    name: "PT-26 0x7cdec1"
+    expected: 'Parece que raridade não\nsignifica força excepcional.'
+  - offset: "0x7cdef9"
+    name: "PT-26 0x7cdef9"
+    expected: 'Sonho em formar dupla com um\nTreinador do tipo Lutador.<0xFB>Seremos... Mente e Músculos.'
+  - offset: "0x7cdfed"
+    name: "PT-26 0x7cdfed"
+    expected: 'Mais divertido para escalar!'
+  - offset: "0x7ce008"
+    name: "PT-26 0x7ce008"
+    expected: 'Ao descer os penhascos, encontro\ncoisas interessantes<0xFA>nas conchas da praia!'
+  - offset: "0x7ce0fc"
+    name: "PT-26 0x7ce0fc"
+    expected: 'Acho que precisamos correr menos\ne treinar mais...'
+  - offset: "0x7ce128"
+    name: "PT-26 0x7ce128"
+    expected: 'Ufa... Arf...<0xFB>Correr e batalhar é uma\ncombinação cansativa!'
+  - offset: "0x7ce1d4"
+    name: "PT-26 0x7ce1d4"
+    expected: 'Eles lutam igual a você!'
+  - offset: "0x7ce1f1"
+    name: "PT-26 0x7ce1f1"
+    expected: 'Treinei Zangoose e Seviper para\nbrincarem em paz!'
+  - offset: "0x7ce2a6"
+    name: "PT-26 0x7ce2a6"
+    expected: 'Hã? O quê?<0xFB>Então de onde vieram meus\nPokémon Inseto?'
+  - offset: "0x7ce2e0"
+    name: "PT-26 0x7ce2e0"
+    expected: 'Sei que há Pokémon Inseto por\naqui!<0xFB>Um dia vi um grande <0xFC><0x01><0x06>enxame<0xFC><0x01><0x08>\ndeles voando!'
+  - offset: "0x7ce3ac"
+    name: "PT-26 0x7ce3ac"
+    expected: 'Ah!<0xFB>Agora não estão mais tão unidos!'
+  - offset: "0x7ce3da"
+    name: "PT-26 0x7ce3da"
+    expected: 'Agradeço de novo pela ajuda de\nantes!<0xFB>Minha família teve um banquete\nde dois dias graças a você.<0xFB>Agora é preparar o banquete do\nano que vem!'
+  - offset: "0x7ce471"
+    name: "PT-26 0x7ce471"
+    expected: 'Cinder Volcano é perigoso.<0xFB>Sem seus Pokémon para proteger\nvocê, pode morrer.'
+  - offset: "0x7ce4cc"
+    name: "PT-26 0x7ce4cc"
+    expected: 'Deixe para lá...<0xFB>Você tem o bastante.'
+  - offset: "0x7ce4e9"
+    name: "PT-26 0x7ce4e9"
+    expected: 'Um dia meus bebês usarão um\nReturn poderoso para se<0xFA>vingar do que você fez!'
+  - offset: "0x7ce574"
+    name: "PT-26 0x7ce574"
+    expected: 'Ora, ora, ora... Se não é\n<0xFD><0x01>!<0xFB>O chefe proibiu sua entrada em\nThundercap Mountain para<0xFA>não atrapalhar nossos planos.<0xFB>Mesmo se deixasse passar, sem o\npoder da<0xFA>Megaevolução seria seu fim.<0xFB>Não entende?<0xFB>Para seu próprio bem, fique aqui\nfora.'
+  - offset: "0x7ce683"
+    name: "PT-26 0x7ce683"
+    expected: 'Incrível!<0xFB>Você me venceu sem o poder da\nMegaevolução!<0xFB>Mesmo com tudo contra você,\nconseguiu<0xFA>superar os obstáculos!<0xFB>Parabéns!'
+  - offset: "0x7ce728"
+    name: "PT-26 0x7ce728"
+    expected: 'Como combinamos, por me\nderrotar, receba este Mega Ring.'
+  - offset: "0x7ce767"
+    name: "PT-26 0x7ce767"
+    expected: '<0xFD><0x01> recebeu o Mega Ring\nde Successor Maxima!'
+  - offset: "0x7ce798"
+    name: "PT-26 0x7ce798"
+    expected: '<0xFD><0x01> pôs o Mega Ring no\nsetor de Itens Importantes.'
+  - offset: "0x7ce7c6"
+    name: "PT-26 0x7ce7c6"
+    expected: 'Ah, uma última coisa.<0xFB>Leve esta Mega Stone para o\nPokémon Lucario.'
+  - offset: "0x7ce812"
+    name: "PT-26 0x7ce812"
+    expected: 'Não parece haver espaço para o\nmeu presente.'
+  - offset: "0x7cea3e"
+    name: "PT-26 0x7cea3e"
+    expected: 'Que bom que alcancei você.<0xFB>Acabei com Successor Maxima.<0xFB>Você também obteve o poder da\nMegaevolução?'
+  - offset: "0x7ceabd"
+    name: "PT-26 0x7ceabd"
+    expected: 'Claro que sim, <0xFD><0x01>.<0xFB>É o que espero de <0xFD><0x02>,\nque sempre me vence.<0xFB>Vamos ver se ainda consegue me\nvencer!'
+  - offset: "0x7ceb3e"
+    name: "PT-26 0x7ceb3e"
+    expected: 'Como assim, <0xFD><0x01>?<0xFB>Posso ver esse Mega Ring no seu\ndedo!<0xFB>Será que não sabe usar a\nMegaevolução?<0xFB>Primeiro precisa saber batalhar\nassim!'
+  - offset: "0x7cebf6"
+    name: "PT-26 0x7cebf6"
+    expected: 'É o que espero de quem domina a\nMegaevolução!'
+  - offset: "0x7cec2f"
+    name: "PT-26 0x7cec2f"
+    expected: 'Mandou bem, <0xFD><0x01>.<0xFB>Por me derrotar de novo, quero\nque leve isto.'
+  - offset: "0x7cec72"
+    name: "PT-26 0x7cec72"
+    expected: 'Aquele velhote Log me encontrou\nhá um tempo.<0xFB>Ele me deu isso e pediu para\nentregar a você quando<0xFA>nos encontrássemos de novo.<0xFB>Também me deu o meu, pois sabe\nque eu acabaria com ele<0xFA>se não desse...'
+  - offset: "0x7ced48"
+    name: "PT-26 0x7ced48"
+    expected: 'Aonde vai agora, <0xFD><0x01>?<0xFB>...<0xFB>Dehara City, hein? Também vou\npara lá.<0xFB>Log falou de um cara lá que\nsabe atravessar a água.<0xFB>Como sabe, procuro meus pais e\nminhas pesquisas<0xFA>indicam que The Shadows<0xFA>estiveram no desaparecimento.<0xFB>Rastreei The Shadows até Ruins\nof Void, mas não consigo<0xFA>chegar a pé nem voando ainda.<0xFB>Se também precisa surfar nas\nondas, encontre <0xFC><0x01><0x06>o surfista<0xFA>de Dehara City<0xFC><0x01><0x08>.<0xFB>Até mais, <0xFD><0x01>.'
+  - offset: "0x7cef27"
+    name: "PT-26 0x7cef27"
+    expected: 'Abra mais espaço no Cube para\nesta Mega Stone.'
+  - offset: "0x7cef61"
+    name: "PT-26 0x7cef61"
+    expected: 'Abriu espaço no Cube para a\nMega Stone?'
+  - offset: "0x7cf046"
+    name: "PT-26 0x7cf046"
+    expected: 'Minhas viagens foram em vão?'
+  - offset: "0x7cf05f"
+    name: "PT-26 0x7cf05f"
+    expected: 'A Habilidade <0xFC><0x01><0x06>Suction Cups<0xFC><0x01><0x08> do meu\nMalamar ajuda a pescar Pokémon!<0xFB>Pelo menos, acho que ele tem\nSuction Cups...'
+  - offset: "0x7cf102"
+    name: "PT-26 0x7cf102"
+    expected: 'É uma concha.'
+  - offset: "0x7cf1ab"
+    name: "PT-26 0x7cf1ab"
+    expected: '<0xFC><0x01><0x08>Derrrr!'
+  - offset: "0x7cf1b6"
+    name: "PT-26 0x7cf1b6"
+    expected: 'Desculpe, criança!<0xFB>Uma briga entre Zangoose e\nSeviper destruiu a ponte.<0xFB>Vai levar um tempo para\nconsertarmos.<0xFB>Fale com nosso chefe para achar\noutra rota<0xFA>até Seaport City por enquanto.'
+  - offset: "0x7cf2be"
+    name: "PT-26 0x7cf2be"
+    expected: 'Ah, poxa... Outro Treinador...<0xFB>Bem, aqui está.'
+  - offset: "0x7cf399"
+    name: "PT-26 0x7cf399"
+    expected: 'Marlon: <0xFC><0x01><0x08>Enfim, é hora de Zeph\nterminar o que começou.<0xFB>Agora ele tem os três pássaros\nlendários.<0xFB>Só falta eu me juntar a ele nas\nRuins of Void.<0xFB>Por que sinto tanto medo?'
+  - offset: "0x7cf46d"
+    name: "PT-26 0x7cf46d"
+    expected: '<0xFC><0x01><0x08>Não...<0xFB>Eu não deveria me sentir assim...<0xFB>Tudo pelo que trabalhamos está\nprestes a acontecer.<0xFB>Até poderei ver meu filho de\nnovo...'
+  - offset: "0x7cf4f0"
+    name: "PT-26 0x7cf4f0"
+    expected: '???: <0xFC><0x01><0x08>Desculpe, velhote.<0xFB>Se está hesitando agora, pode\nser um grande problema<0xFA>mais adiante.<0xFB>Nada pode ficar no caminho da\nlibertação.<0xFB>Seu filho ficará sem pai para\nsempre.'
+  - offset: "0x7cf73c"
+    name: "PT-26 0x7cf73c"
+    expected: '???: <0xFC><0x01><0x08>O que é isso, Hoopa?<0xFB>Pedi um Pokémon poderoso capaz\nde voar conosco às<0xFA>Ruins of Void, e é isso<0xFA>que você me dá?<0xFB>Patético!<0xFB>Esse Pokémon é tão... tão... tão\nNebby!<0xFB>Uma vergonha de Pokémon\nlendário.'
+  - offset: "0x7cf825"
+    name: "PT-26 0x7cf825"
+    expected: '<0xFC><0x01><0x08>Fique na bolsa, seu Pokémon\ninútil.'
+  - offset: "0x7cf84e"
+    name: "PT-26 0x7cf84e"
+    expected: '<0xFC><0x01><0x08>Só nos resta deixá-lo aqui,\nHoopa.<0xFB>Talvez algum Treinador de sorte\no encontre e decida<0xFA>treinar essa coisa inútil.'
+  - offset: "0x7cf8d5"
+    name: "PT-26 0x7cf8d5"
+    expected: '<0xFC><0x01><0x08>Não temos mais tempo a perder,\nHoopa.<0xFB>Eu não queria ir por esse\ncaminho, mas preciso que<0xFA>me envie por um anel seu às<0xFA>Ruins of Void.<0xFB>Vou na frente. Como você não\npode cruzar os próprios anéis<0xFA>sem uma ligação, siga o sinal<0xFA>do meu Cube quando eu chegar.<0xFB>Tente ser discreto, por favor.<0xFB>Zeph não pode descobrir nosso\nplano.<0xFB>Não demore, Hoopa.'
+  - offset: "0x7cfa71"
+    name: "PT-26 0x7cfa71"
+    expected: '<0xFC><0x01><0x06>Hoop!'
+  - offset: "0x7cfa80"
+    name: "PT-26 0x7cfa80"
+    expected: 'Parece haver um Pokémon na\nbolsa.<0xFB>Quer pegá-lo?'
+  - offset: "0x7cfac5"
+    name: "PT-26 0x7cfac5"
+    expected: 'Não há espaço para este\nPokémon.'
+  - offset: "0x7cfaf3"
+    name: "PT-26 0x7cfaf3"
+    expected: 'Você achou um <0xFD><0x02>!'
+  - offset: "0x7cfb03"
+    name: "PT-26 0x7cfb03"
+    expected: 'Esta passagem da montanha tem\numa forma bem peculiar.<0xFB>Desce devagar, mas depois cai\nde repente!'
+  - offset: "0x7cfb5c"
+    name: "PT-26 0x7cfb5c"
+    expected: 'Um homem de capuz vermelho foi\nempurrado no mar.<0xFB>E ele ainda não voltou à tona...'
+  - offset: "0x7cfc66"
+    name: "PT-26 0x7cfc66"
+    expected: 'Juro que aquele Pokémon das\nlendas flutuou por aqui<0xFA>agora mesmo...'
+  - offset: "0x7cfcba"
+    name: "PT-26 0x7cfcba"
+    expected: 'Por este portão, você chega a\nDehara City ou<0xFA>à Route 12.'
+  - offset: "0x7cfd04"
+    name: "PT-26 0x7cfd04"
+    expected: 'Por acaso você é <0xFD><0x01>?<0xFB>...<0xFB>Foi o que pensei.<0xFB>Reconheci você por uma foto que\nachei na internet.<0xFB>Meu nome é Looker.<0xFB>Agente Looker, da Polícia\nInternacional.<0xFB>Eu acabara de lidar com a Team\nRocket em Kanto,<0xFA>quando me enviaram para<0xFA>resolver uma situação que<0xFA>surgia na região de Borrius.<0xFB>Um jovem chamado Jax, creio eu,\nme informou que você<0xFA>tem provas de crimes de<0xFA>uma organização chamada<0xFA>The Shadows.<0xFB>Encontre-me no <0xFC><0x01><0x06>Dehara Game\nCorner <0xFC><0x01><0x08>para conversarmos melhor.<0xFB>Jax também está lá.<0xFB>Looker, desligando.'
+  - offset: "0x7cffeb"
+    name: "PT-26 0x7cffeb"
+    expected: 'Ele joga caça-níquel e não ouve\nvocê atrás dele.<0xFB>Tente gritar no ouvido dele!'
+  - offset: "0x7d0046"
+    name: "PT-26 0x7d0046"
+    expected: 'Ele parece absorto num jogo de\ncaça-níquel.'
+  - offset: "0x7d0078"
+    name: "PT-26 0x7d0078"
+    expected: 'Looker: <0xFC><0x01><0x08>Jax! O jogo finalmente\npagou!<0xFB>Acabei de ganhar uma bolada!'
+  - offset: "0x7d00b5"
+    name: "PT-26 0x7d00b5"
+    expected: 'Jax: <0xFC><0x01><0x08>Só agora, Sr. Looker? Eu\nganhei faz tempo!<0xFB>Já ganhei várias boladas!'
+  - offset: "0x7d0111"
+    name: "PT-26 0x7d0111"
+    expected: '<0xFC><0x01><0x08>Ah! <0xFD><0x01>!<0xFB>Você veio na hora certa!'
+  - offset: "0x7d0133"
+    name: "PT-26 0x7d0133"
+    expected: 'Looker: <0xFC><0x01><0x08>Ah, é você, <0xFD><0x01>.\nDesculpe, não vi você aí.<0xFB>Estava muito concentrado em\nganhar neste caça-níquel.<0xFB>Em Kanto tem um Game Corner\nigual a este.<0xFB>Mas lá era uma fachada da Team\nRocket...<0xFB>Agradeço por ter vindo.<0xFB>Vamos conversar lá fora, onde é\nmais tranquilo.'
+  - offset: "0x7d0348"
+    name: "PT-26 0x7d0348"
+    expected: 'Looker: <0xFC><0x01><0x08>Certo, <0xFD><0x01>.<0xFB>Agora que estamos lá fora, conte\ntudo que aconteceu,<0xFA>desde o início.<0xFB>...<0xFB>...<0xFB>Hum...<0xFB>Com esses fatos, há provas de\nque The Shadows querem<0xFA>liberar a força sombria e<0xFA>causar caos em Borrius.<0xFB>Se houvesse um jeito de chegar\nrápido às Ruins of Void<0xFA>para detê-los...'
+  - offset: "0x7d049a"
+    name: "PT-26 0x7d049a"
+    expected: 'Jax: <0xFC><0x01><0x08>O que está acontecendo?<0xFB><0xFD><0x01>! Cuidado!'
+  - offset: "0x7d06da"
+    name: "PT-26 0x7d06da"
+    expected: 'Jax: <0xFC><0x01><0x08><0xFD><0x01>!'
+  - offset: "0x7d06e6"
+    name: "PT-26 0x7d06e6"
+    expected: 'São as Ruins of Void!<0xFB>E aqueles...<0xFB>São soldados de The Shadows!'
+  - offset: "0x7d2062"
+    name: "PT-26 0x7d2062"
+    expected: 'Você está bem?<0xFB>Um anel estranho apareceu sob\nvocê em Dehara City.<0xFB>Temi que algo ruim fosse\nacontecer e agarrei<0xFA>sua camisa antes de você<0xFA>ser teletransportado.<0xFB>Mas parece que Looker não teve\na mesma ideia...'
+  - offset: "0x7d2152"
+    name: "PT-26 0x7d2152"
+    expected: 'Onde estamos, afinal?<0xFB>Será que são... as Ruins of\nVoid?'
+  - offset: "0x7d218b"
+    name: "PT-26 0x7d218b"
+    expected: '???: <0xFC><0x01><0x08>Vamos resistir aqui, homens.<0xFB>Pela libertação, não podemos\ndeixá-los subir aqui.<0xFB>Executem a ordem sessenta e\ncinco de Light of Ruin!'
+  - offset: "0x7d2229"
+    name: "PT-26 0x7d2229"
+    expected: 'Jax: <0xFC><0x01><0x08>Staraptor!<0xFB>Acabe com esses soldados!'
+  - offset: "0x7d2254"
+    name: "PT-26 0x7d2254"
+    expected: 'Jax: <0xFC><0x01><0x08>STARAPTOR!<0xFB>NÃÃÃÃÃO!'
+  - offset: "0x7d2270"
+    name: "PT-26 0x7d2270"
+    expected: '<0xFC><0x01><0x08>Destruíram nossa única forma de\nsubir e meu Staraptor...<0xFB>Snif...<0xFB>Não.<0xFB>Não posso me concentrar nisso\nagora.<0xFB>Preciso ser forte.'
+  - offset: "0x7d22f4"
+    name: "PT-26 0x7d22f4"
+    expected: '<0xFC><0x01><0x08>Parece que a explosão revelou\numa entrada para as ruínas.'
+  - offset: "0x7d233a"
+    name: "PT-26 0x7d233a"
+    expected: '<0xFC><0x01><0x08>Entre e tente achar outra forma\nde chegar ao topo.<0xFB>Eu iria junto, mas Staraptor era\nmeu único Pokémon.<0xFB>Seria um peso ter que me\nproteger dos Pokémon.<0xFB>Vou esperar aqui e cuidar da\ncura dos seus Pokémon.'
+  - offset: "0x7d243a"
+    name: "PT-26 0x7d243a"
+    expected: '<0xFC><0x01><0x08>Ah, se encontrar Staraptor, por\nfavor, traga-o de volta.'
+  - offset: "0x7d26b7"
+    name: "PT-26 0x7d26b7"
+    expected: 'É um interruptor antigo. Quer\nacioná-lo?'
+  - offset: "0x7d2908"
+    name: "PT-26 0x7d2908"
+    expected: 'É um interruptor antigo. Quer\nacioná-lo?'
+  - offset: "0x7d2bbd"
+    name: "PT-26 0x7d2bbd"
+    expected: 'PROVE SEU VALOR AO GUARDIÃO\nDAS RUÍNAS SE QUISER PASSAR!'
+  - offset: "0x7d2c01"
+    name: "PT-26 0x7d2c01"
+    expected: 'VOCÊ PROVOU SEU VALOR.'
+  - offset: "0x7d2d71"
+    name: "PT-26 0x7d2d71"
+    expected: 'Soldado 1: <0xFC><0x01><0x08>Ah, não.'
+  - offset: "0x7d2d84"
+    name: "PT-26 0x7d2d84"
+    expected: 'Soldado 2: <0xFC><0x01><0x08>Senhor, <0xFD><0x01>\ntenta abrir <0xFD><0x02> caminho<0xFA>até aqui pelas ruínas!'
+  - offset: "0x7d2dda"
+    name: "PT-26 0x7d2dda"
+    expected: '???: <0xFC><0x01><0x08>Não importa.<0xFB>Quando <0xFD><0x01> chegar aqui,\nZeph estará pronto para<0xFA>a libertação.<0xFB>Vocês dois devem atrasar\n<0xFD><0x01> o máximo possível.'
+  - offset: "0x7d2e77"
+    name: "PT-26 0x7d2e77"
+    expected: '???: <0xFC><0x01><0x08>Se não precisasse de você,\nHoopa, jogaria sua Poké Ball<0xFA>no oceano por todos os<0xFA>transtornos que me causou!'
+  - offset: "0x7d3195"
+    name: "PT-26 0x7d3195"
+    expected: 'Soldado 1: <0xFC><0x01><0x08>Esse Claydol me dá\narrepios...'
+  - offset: "0x7d31cc"
+    name: "PT-26 0x7d31cc"
+    expected: 'Soldado 2: <0xFC><0x01><0x08>Mas o quê...?'
+  - offset: "0x7d31e5"
+    name: "PT-26 0x7d31e5"
+    expected: 'Soldado 1: <0xFC><0x01><0x08>Não temos nada a\nprovar!<0xFB>Somos The Shadows!<0xFB>Vamos derrotá-lo!'
+  - offset: "0x7d3234"
+    name: "PT-26 0x7d3234"
+    expected: 'Soldados: <0xFC><0x01><0x08>Ugh...'
+  - offset: "0x7d3246"
+    name: "PT-26 0x7d3246"
+    expected: '<0xFC><0x01><0x08>VOCÊS NÃO PROVARAM SEU VALOR!'
+  - offset: "0x7d32ac"
+    name: "PT-26 0x7d32ac"
+    expected: 'VENÇA OS GUARDIÕES DO PORTAL\nSE QUISER PROSSEGUIR!'
+  - offset: "0x7d3478"
+    name: "PT-26 0x7d3478"
+    expected: 'Você olha para o portal...<0xFB>...<0xFB>Pokémon tentam atravessar pelo\noutro lado!<0xFB>Está pronto para enfrentá-los?<0xFB>Após o início das batalhas, não\npoderá se curar.'
+  - offset: "0x7d3533"
+    name: "PT-26 0x7d3533"
+    expected: 'O <0xFD><0x02> correu de volta\npara o portal.'
+  - offset: "0x7d3554"
+    name: "PT-26 0x7d3554"
+    expected: 'Outro Pokémon está atravessando\no portal!'
+  - offset: "0x7d358a"
+    name: "PT-26 0x7d358a"
+    expected: 'VOCÊ PROVOU SEU VALOR!'
+  - offset: "0x7d35a4"
+    name: "PT-26 0x7d35a4"
+    expected: 'É um portal misterioso.<0xFB>Aonde será que leva?'
+  - offset: "0x7d3693"
+    name: "PT-26 0x7d3693"
+    expected: 'É o Staraptor de Jax.'
+  - offset: "0x7d36a9"
+    name: "PT-26 0x7d36a9"
+    expected: 'Jax: <0xFC><0x01><0x08><0xFD><0x01>!'
+  - offset: "0x7d36b5"
+    name: "PT-26 0x7d36b5"
+    expected: '<0xFC><0x01><0x08>Agradeço por achar meu\nStaraptor!<0xFB>Consegui curá-lo a tempo.\nParece que ele ficará bem.<0xFB>Aliás, parabéns por chegar até\naqui.<0xFB>Parece que estamos quase no\ntopo.<0xFB>Só mais um andar e poderemos\ndeter The Shadows.<0xFB>Vou deixar isso com você.<0xFB>Se precisar de cura, estarei na\nentrada lateral deste<0xFA>andar das ruínas.'
+  - offset: "0x7d397f"
+    name: "PT-26 0x7d397f"
+    expected: 'Soldado 1: <0xFC><0x01><0x08>Claydol pode ter nos\nincapacitado por um tempo,<0xFA>mas não vamos deixar você<0xFA>passar sem lutar!<0xFB>A libertação não pode ser\ninterrompida!'
+  - offset: "0x7d3a22"
+    name: "PT-26 0x7d3a22"
+    expected: 'É tudo culpa daquele Claydol...'
+  - offset: "0x7d3a41"
+    name: "PT-26 0x7d3a41"
+    expected: 'Soldado 2: <0xFC><0x01><0x08>Ainda não acabou!<0xFB>É minha vez de derrotar você!'
+  - offset: "0x7d3a86"
+    name: "PT-26 0x7d3a86"
+    expected: 'Jax: <0xFC><0x01><0x08>Espere!'
+  - offset: "0x7d3a94"
+    name: "PT-26 0x7d3a94"
+    expected: 'Jax: <0xFC><0x01><0x08><0xFD><0x01> tem coisas mais\nimportantes para fazer.<0xFB>Se querem enfrentar alguém, que\ntal lutar comigo?'
+  - offset: "0x7d3b16"
+    name: "PT-26 0x7d3b16"
+    expected: '<0xFC><0x01><0x08><0xFD><0x01>!<0xFB>Vou cuidar destes idiotas.<0xFB>Impeça The Shadows de realizar\nessa libertação.<0xFB>Contamos com você.'
+  - offset: "0x7d3be7"
+    name: "PT-26 0x7d3be7"
+    expected: 'Depois de acabar com você,\nvamos dar um fim em <0xFD><0x01>!'
+  - offset: "0x7d3c60"
+    name: "PT-26 0x7d3c60"
+    expected: 'Precisa de cura, <0xFD><0x01>?'
+  - offset: "0x7d3c72"
+    name: "PT-26 0x7d3c72"
+    expected: 'Pronto, <0xFD><0x01>.<0xFB>Estarei aqui se precisar de cura\nde novo.'
+  - offset: "0x7d3cb4"
+    name: "PT-26 0x7d3cb4"
+    expected: '<0xFD><0x01>!<0xFB>Estou batalhando com estes\nsoldados, mas posso curar você!'
+  - offset: "0x7d439a"
+    name: "PT-26 0x7d439a"
+    expected: 'Soldado 1: <0xFC><0x01><0x04>Tem gente que nunca\naprende...'
+  - offset: "0x7d43bf"
+    name: "PT-26 0x7d43bf"
+    expected: 'Soldado 2: <0xFC><0x01><0x08>Ande, criança. Você\nvai querer ver isto...'
+  - offset: "0x7d43fe"
+    name: "PT-26 0x7d43fe"
+    expected: 'Ivory: <0xFC><0x01><0x04>Tudo está pronto, Zeph.<0xFB>Pode iniciar a libertação quando\nquiser.'
+  - offset: "0x7d4463"
+    name: "PT-26 0x7d4463"
+    expected: 'Zeph: <0xFC><0x01><0x08>Obrigado, Ivory.<0xFB>Só mais uma coisa antes de\ncomeçarmos.<0xFB>Onde está Marlon?'
+  - offset: "0x7d44bf"
+    name: "PT-26 0x7d44bf"
+    expected: 'Ivory: <0xFC><0x01><0x04>Desculpe, Zeph, não sei\nonde ele está.<0xFB>Ele confirmou que vinha para cá\nhá um tempo, mas não<0xFA>tive notícias desde então.'
+  - offset: "0x7d4552"
+    name: "PT-26 0x7d4552"
+    expected: 'Zeph: <0xFC><0x01><0x08>Hum...<0xFB>Ele anda bem nervoso\nultimamente...<0xFB>Espero que não tenha perdido a\ncoragem...<0xFB>Seria uma pena ele perder aquilo\npor que tanto lutamos.'
+  - offset: "0x7d45e9"
+    name: "PT-26 0x7d45e9"
+    expected: '<0xFC><0x01><0x08>Com ou sem ele, agora estou\npronto para começar.'
+  - offset: "0x7d4626"
+    name: "PT-26 0x7d4626"
+    expected: 'Zeph: <0xFC><0x01><0x08>É hora de realizar meu\nsonho.<0xFB>Quando libertar a força sombria,\nvou desfazer as tragédias<0xFA>de tantos anos atrás...<0xFB>Enfim, poderei ver o sorriso dele\nmais uma vez...'
+  - offset: "0x7d46f4"
+    name: "PT-26 0x7d46f4"
+    expected: '<0xFC><0x01><0x08>Zapdos!<0xFB>Apareça!'
+  - offset: "0x7d470b"
+    name: "PT-26 0x7d470b"
+    expected: '<0xFC><0x01><0x08>Moltres!<0xFB>Apareça!'
+  - offset: "0x7d4723"
+    name: "PT-26 0x7d4723"
+    expected: '<0xFC><0x01><0x08>Articuno!<0xFB>Apareça!'
+  - offset: "0x7d473c"
+    name: "PT-26 0x7d473c"
+    expected: '<0xFC><0x01><0x08>Com estes três pássaros lendários\nreunidos aqui<0xFA>junto da Void Stone, o selo<0xFA>poderá ser rompido.'
+  - offset: "0x7d47a8"
+    name: "PT-26 0x7d47a8"
+    expected: '<0xFC><0x01><0x08>Um com as sombras, um com a\nnoite.<0xFB>Um buraco sombrio.<0xFB>Um anel de fúria.<0xFB>Uma força contida.<0xFB>Que deixe de ser assim!<0xFB>O que estava selado está livre!'
+  - offset: "0x7d4845"
+    name: "PT-26 0x7d4845"
+    expected: '<0xFC><0x01><0x08>Está funcionando! Está mesmo\nfuncionando!'
+  - offset: "0x7d486d"
+    name: "PT-26 0x7d486d"
+    expected: '<0xFC><0x01><0x08>A garrafa está livre.<0xFB>Quando a abrir, a força sombria\nestará sob meu comando.'
+  - offset: "0x7d48c0"
+    name: "PT-26 0x7d48c0"
+    expected: '<0xFC><0x01><0x08>Hã? Por que nada acontece?<0xFB>A garrafa está aberta...'
+  - offset: "0x7d48f6"
+    name: "PT-26 0x7d48f6"
+    expected: '???: <0xFC><0x01><0x08>He he he.'
+  - offset: "0x7d490b"
+    name: "PT-26 0x7d490b"
+    expected: 'Zeph: <0xFC><0x01><0x08>Quem pensa que é!?<0xFB>E o que fez com a libertação!?'
+  - offset: "0x7d4959"
+    name: "PT-26 0x7d4959"
+    expected: '???: <0xFC><0x01><0x08>Quem, eu?<0xFB>Meu nome é Aklove.<0xFB>Sou só um humilde soldado de\nThe Shadows.'
+  - offset: "0x7d49a5"
+    name: "PT-26 0x7d49a5"
+    expected: 'Zeph: <0xFC><0x01><0x08>Responda, soldado!<0xFB>O que você fez!?'
+  - offset: "0x7d49de"
+    name: "PT-26 0x7d49de"
+    expected: 'Aklove: <0xFC><0x01><0x08>O que eu fiz?<0xFB>Não fiz nada para interromper a\nlibertação.<0xFB>Na verdade, parabéns pela\nexecução quase perfeita.<0xFB>Mas faltou um componente\nessencial.'
+  - offset: "0x7d4a9a"
+    name: "PT-26 0x7d4a9a"
+    expected: 'Zeph: <0xFC><0x01><0x08>E qual seria?'
+  - offset: "0x7d4abb"
+    name: "PT-26 0x7d4abb"
+    expected: 'Aklove: <0xFC><0x01><0x08>Para liberar o poder da\nPrison Bottle, é preciso<0xFA>haver um lugar para onde<0xFA>esse poder possa ir.<0xFB>Mais precisamente, precisa do\nPokémon que era a força<0xFA>sombria, algo que lhe falta.<0xFB>Você saberia disso se eu não\ntivesse apagado esse detalhe<0xFA>dos seus arquivos.<0xFB>Sabia que seria fácil manipular\nvocê ao me infiltrar<0xFA>na sua organização, mas não<0xFA>imaginava tanta facilidade!<0xFB>Você caiu nas minhas mãos, Zeph!<0xFB>Abriu a Prison Bottle bem na\nminha frente!<0xFB>Agora posso usá-la para concluir\na libertação!'
+  - offset: "0x7d4cf4"
+    name: "PT-26 0x7d4cf4"
+    expected: 'Zeph: <0xFC><0x01><0x08>O quê...<0xFB>Como ousa me fazer de tolo!<0xFB>Você vai pagar por isso!'
+  - offset: "0x7d4d37"
+    name: "PT-26 0x7d4d37"
+    expected: 'Zeph: <0xFC><0x01><0x08>Houndoom!<0xFB>Incinere este tolo!'
+  - offset: "0x7d4d60"
+    name: "PT-26 0x7d4d60"
+    expected: 'Aklove: <0xFC><0x01><0x08>Hoopa! Livre-se de\nHoundoom!'
+  - offset: "0x7d4d87"
+    name: "PT-26 0x7d4d87"
+    expected: 'Zeph: <0xFC><0x01><0x08>Não pode ser...<0xFB>Meu Houndoom...<0xFB>Você salvou <0xFD><0x01> todas\naquelas vezes...'
+  - offset: "0x7d4dd8"
+    name: "PT-26 0x7d4dd8"
+    expected: 'Aklove: <0xFC><0x01><0x08>Na verdade, Hoopa agiu\npor conta própria.<0xFB>Queria muito que alguém o\nsalvasse de mim.<0xFB>Protegia <0xFD><0x01>, pois\n<0xFD><0x03> é seu Treinador.<0xFB>Só quero ver <0xFD><0x01> fora do\ncaminho.<0xFB>Sem <0xFD><0x03>, Hoopa me\naceitará como Treinador...<0xFB>Só então poderei usar todo seu\npoder, capaz de mover<0xFA>massas de terra inteiras...'
+  - offset: "0x7d4f4b"
+    name: "PT-26 0x7d4f4b"
+    expected: 'Zeph: <0xFC><0x01><0x08>Eu me rendo...<0xFB>Não tenho chance contra um\nPokémon assim.'
+  - offset: "0x7d4f8e"
+    name: "PT-26 0x7d4f8e"
+    expected: 'Aklove: <0xFC><0x01><0x08>Uma decisão sábia.<0xFB>Agora saia da minha frente!'
+  - offset: "0x7d4fc9"
+    name: "PT-26 0x7d4fc9"
+    expected: 'Zeph: <0xFC><0x01><0x08>Desculpe, Ivory.<0xFB>Não pude concluir a missão.<0xFB>Mas este não é o fim.<0xFB>Ainda acharemos um jeito de\ntrazê-los de volta...'
+  - offset: "0x7d5055"
+    name: "PT-26 0x7d5055"
+    expected: 'Aklove: <0xFC><0x01><0x08>Agora, que comece o\nevento principal.'
+  - offset: "0x7d5083"
+    name: "PT-26 0x7d5083"
+    expected: '<0xFC><0x01><0x08>Hoopa, prepare-se!<0xFB>Seu verdadeiro poder será\nliberado da Prison Bottle!<0xFB>Como seu Treinador, sou capaz\nde libertá-lo!'
+  - offset: "0x7d512a"
+    name: "PT-26 0x7d512a"
+    expected: 'Aklove: <0xFC><0x01><0x08>Finalmente!<0xFB>Esperei anos por este momento!<0xFB>Hoopa!<0xFB>Enfim, o selo do seu poder foi\nrompido!'
+  - offset: "0x7d5198"
+    name: "PT-26 0x7d5198"
+    expected: 'Hoopa: <0xFC><0x01><0x06>Hoo hoo hoo!'
+  - offset: "0x7d51af"
+    name: "PT-26 0x7d51af"
+    expected: 'Zeph: <0xFC><0x01><0x08>Aklove, diga-me!<0xFB>Por que está fazendo tudo isso?<0xFB>Se tivermos um objetivo comum,\npodemos trabalhar juntos!'
+  - offset: "0x7d522c"
+    name: "PT-26 0x7d522c"
+    expected: 'Aklove: <0xFC><0x01><0x08>Tolo.<0xFB>Não temos um objetivo comum.<0xFB>Descendo do rei de Kalos da\népoca da Grande Guerra.<0xFB>Só quero terminar o que ele\ncomeçou e destruir esta região.<0xFB>Com este Hoopa liberto, trarei a\narma suprema de Kalos<0xFA>para cá e transformarei Borrius<0xFA>numa região de morte e<0xFA>destruição!<0xFB>Enfim, seu sofrimento chegará ao\nfim...<0xFB>Agora diga, Zeph. Quais são seus\nobjetivos?'
+  - offset: "0x7d53bb"
+    name: "PT-26 0x7d53bb"
+    expected: 'Zeph: <0xFC><0x01><0x08>Meus objetivos?<0xFB>Só tenho um objetivo.<0xFB>Rever aqueles de quem eu\ngostava.'
+  - offset: "0x7d5409"
+    name: "PT-26 0x7d5409"
+    expected: 'Aklove: <0xFC><0x01><0x08>Usar tamanho poder para\nalgo assim...<0xFB>Nunca imaginei que alguém\ntentaria isso!<0xFB>Você é mesmo estranho, Zeph.'
+  - offset: "0x7d549b"
+    name: "PT-26 0x7d549b"
+    expected: 'Zeph: <0xFC><0x01><0x08>Eu...'
+  - offset: "0x7d54a7"
+    name: "PT-26 0x7d54a7"
+    expected: 'Aklove: <0xFC><0x01><0x08>Chega!<0xFB>Saia da minha presença.<0xFB>The Shadows acabaram.<0xFB>É hora de Borrius ser envolta\npor The Light of Ruin.<0xFB>Mas antes...<0xFB>Soldados!<0xFB>Tragam <0xFD><0x01> até mim!'
+  - offset: "0x7d5554"
+    name: "PT-26 0x7d5554"
+    expected: 'Zeph: <0xFC><0x01><0x08>Meus soldados...'
+  - offset: "0x7d5568"
+    name: "PT-26 0x7d5568"
+    expected: 'Aklove: <0xFC><0x01><0x08>Surpreso por seus\nsoldados se juntarem a mim?<0xFB>Você os queima vivos se\ndesobedecem!<0xFB>Prometi protegê-los da\ntempestade que virá se<0xFA>trabalhassem para mim.'
+  - offset: "0x7d561c"
+    name: "PT-26 0x7d561c"
+    expected: 'Aklove: <0xFC><0x01><0x08>Agora, <0xFD><0x01>, é\nhora de eliminar você de vez.<0xFB>Vi você incomodar The Shadows\nrepetidas vezes.<0xFB>Não posso deixar que se torne\num estorvo para mim também.'
+  - offset: "0x7d56d5"
+    name: "PT-26 0x7d56d5"
+    expected: '<0xFC><0x01><0x08>Hoopa!<0xFB>Invoque um Pokémon para eliminar\n<0xFD><0x01>!'
+  - offset: "0x7d5701"
+    name: "PT-26 0x7d5701"
+    expected: 'O <0xFD><0x02> voou de volta para\no portal.'
+  - offset: "0x7d5723"
+    name: "PT-26 0x7d5723"
+    expected: 'Aklove: <0xFC><0x01><0x08>Invoque outro, Hoopa!'
+  - offset: "0x7d5745"
+    name: "PT-26 0x7d5745"
+    expected: 'Aklove: <0xFC><0x01><0x08>É o melhor que pode\nfazer, Hoopa?'
+  - offset: "0x7d5774"
+    name: "PT-26 0x7d5774"
+    expected: '<0xFC><0x01><0x08>Acabou, <0xFD><0x01>. Já chega\ndisso.<0xFB>Vou mandar incinerar você.<0xFB>Meu Hoopa não vai salvar você\nagora.'
+  - offset: "0x7d57df"
+    name: "PT-26 0x7d57df"
+    expected: '<0xFC><0x01><0x08>Hoopa!<0xFB>Invoque uma incineração!'
+  - offset: "0x7d5801"
+    name: "PT-26 0x7d5801"
+    expected: 'Aklove: <0xFC><0x01><0x08>Adeus, <0xFD><0x01>.'
+  - offset: "0x7d5b9b"
+    name: "PT-26 0x7d5b9b"
+    expected: 'Ah, é você.<0xFB>Sua hora finalmente chegou,\nhein?<0xFB>Diga, como morreu?<0xFB>...<0xFB>Incineração...<0xFB>Imaginei...<0xFB>Bem, ainda é melhor do que\nmorrer afogado.'
+  - offset: "0x7d5c3c"
+    name: "PT-26 0x7d5c3c"
+    expected: 'Deve estar se perguntando onde\nestamos, certo?<0xFB>...<0xFB>Foi o que pensei.<0xFB>Este é o lugar que chamam de\nJudgement Zone.<0xFB>Aqui, o grande criador do\nuniverso, o próprio Arceus,<0xFA>julga aqueles que deixaram<0xFA>o mundo dos vivos.'
+  - offset: "0x7d5d38"
+    name: "PT-26 0x7d5d38"
+    expected: 'Ouvi dizer que este lugar\nreflete o nosso lar.<0xFB>...<0xFB>Não sei o que vê, mas eu vejo o\nmar em toda direção.<0xFB>A região de onde venho...<0xFB>Como diriam alguns, tinha água\ndemais.<0xFB>Eu talvez tivesse ficado lá para\nsempre se Zeph não<0xFA>convencesse Ivory e eu a sair.'
+  - offset: "0x7d5e59"
+    name: "PT-26 0x7d5e59"
+    expected: 'O que vê, <0xFD><0x01>?<0xFB>...<0xFB>Neve, hein?<0xFB>Faz sentido...<0xFB>Afinal, Frozen Heights é o lar\nque seu pai escolheu para você.'
+  - offset: "0x7d5ec9"
+    name: "PT-26 0x7d5ec9"
+    expected: 'Sabe, <0xFD><0x01>, eu conhecia\nbem o seu pai.<0xFB>Era um bom homem.<0xFB>Até tive o prazer de trabalhar\ncom ele por um tempo...'
+  - offset: "0x7d5f3d"
+    name: "PT-26 0x7d5f3d"
+    expected: 'Ele dizia que até os piores\nhomens tiveram boas<0xFA>intenções em algum ponto<0xFA>da vida.<0xFB>...<0xFB>Suas palavras ecoaram em mim\naté o dia da minha morte.'
+  - offset: "0x7d5fd1"
+    name: "PT-26 0x7d5fd1"
+    expected: 'Sei que deve achar que sou uma\nespécie de vilão<0xFA>desprezível, mas você não<0xFA>imagina como isso é errado.<0xFB>Só parece assim pelas coisas que\nvocê viu<0xFA>The Shadows fazerem.'
+  - offset: "0x7d60ac"
+    name: "PT-26 0x7d60ac"
+    expected: 'Começamos com boas intenções.<0xFB>Só depois de um tempo as coisas\nsaíram do controle.<0xFB>Quando tudo deu errado...?'
+  - offset: "0x7d612c"
+    name: "PT-26 0x7d612c"
+    expected: 'Está na hora, <0xFD><0x01>.'
+  - offset: "0x7d613b"
+    name: "PT-26 0x7d613b"
+    expected: 'MARLON. <0xFD><0x01>.'
+  - offset: "0x7d6147"
+    name: "PT-26 0x7d6147"
+    expected: '<0xFC><0x01><0x02>Marlon: <0xFC><0x01><0x08>Arceus...<0xFB>O criador do universo...'
+  - offset: "0x7d617a"
+    name: "PT-26 0x7d617a"
+    expected: '<0xFC><0x01><0x02>Arceus: <0xFC><0x01><0x08>...SIM.<0xFB>É HORA DO SEU JULGAMENTO.'
