@@ -179,3 +179,62 @@ Les 98 cartes ont été relues dans le Kanban : **A-757** (glossaire existant r�
 Le commit du rapport a passé les hooks activés : suites Python/Vitest et builds locaux FR, IT, DE réussis. Après intégration de l'audit ES concurrent, les sept tests des plans IT/ES passent également. Aucune ROM ni traduction versionnée n'a été modifiée ; aucun push effectué.
 
 À la nouvelle reprise du 29 octobre, la lecture du graphe confirme les 98 UUID : 19 cartes portent déjà des dépendances, mais 77 cartes ont encore des préalables requis manquants, dont A-1012. Le manifeste conserve les liens observés séparément des liens requis. C-1011 reste le préalable bloquant de clôture de cet audit ; aucune carte supplémentaire n’a été créée.
+
+## Glossaire figé livré par A-757 (29 octobre 2026)
+
+`languages/it/data/official_terminology.yaml` reprend le schéma utile DE et reste
+un référentiel de curation : aucun patch ne le consomme automatiquement. Il contient
+915 noms anglais distincts d’attaques, 310 talents, 1 537 objets non ambigus,
+18 types usuels, 25 natures et 8 statistiques. Ce sont les entrées du corpus,
+pas les effectifs ni les indices des tables CFRU. Les noms complets et les formes
+d’affichage sont séparés. Les 503 écarts restent une file de revue, pas un plan
+de remplacement automatique. Les quatre décisions confirmées sont Antimeteo,
+Cambiacolore, Scioltezza et Lottascudo ; aucun texte du combined n’est modifié.
+
+Les six CSV PokeAPI exacts sont archivés dans le YAML (gzip déterministe, bloc
+`!!binary`). Après `yaml.safe_load`, `gzip.decompress` restitue les octets amont.
+Les tests recomputent leurs SHA-256, les comparent aux empreintes de
+`audit_traduction_it_mesures.json`, puis refont les jointures IT=8 / EN=9 hors réseau.
+Les homonymes ne sont fusionnés que si leurs noms italiens sont identiques.
+`Storage Key` est explicitement ambigu (Depochiave / Chiave magazzino), exclu du
+dictionnaire direct et soumis à qualification du contexte. Jamais d’égalité
+implicite entre identifiants PokeAPI et CFRU.
+
+| CSV figé | SHA-256 vérifié |
+|---|---|
+| move_names.csv | dd5087d0ec9739228d7bacd3b0895595ec06a2877b81df97b7282dc83b485612 |
+| ability_names.csv | 1ccb888f39b535c0e6530e70da8a1d71d39bb6231d49e3a16c46a09f8983b735 |
+| item_names.csv | 0341c5acf63b8b1ded13af81f3daadfc33d4ce03d77365fab665f01c98044ff2 |
+| type_names.csv | 685230c51074cf2f723debcf827a4df4c36ab0ec7e929c806ad65a3e40958705 |
+| nature_names.csv | a6bf8bedb9822d0e966a3036885e33e1306172b3a6566edc22d02ff2e7155031 |
+| stat_names.csv | c58f9cc3c0b3bd004f9e5b84ba7590e42f15ffc6f2d58acc7ee39c9298ae83c3 |
+
+Décisions de sources : la [publication officielle sur l’entraînement](https://www.pokemon.com/it/strategie/prepara-i-tuoi-pokemon-alla-lotta)
+confirme les natures, les statistiques et le vocabulaire des catégories ;
+le [guide officiel Let’s Go](https://www.pokemon.com/it/strategie/preparati-alla-lotta-in-pokemon-lets-go-pikachu-o-pokemon-lets-go-eevee)
+atteste Centro Pokémon. Le texte indexé a été consulté, les accès directs actuels
+renvoyant un iframe. PokeAPI demeure une source secondaire, même figée.
+Les [conditions de statut](https://wiki.pokemoncentral.it/Strumenti_per_curare_problemi_di_stato)
+et [Pokémon-Market](https://wiki.pokemoncentral.it/Pokemarket) disposent de références
+secondaires explicites. Les autres génériques et les noms propres Unbound ont une
+décision éditoriale IT : conserver les noms uniques EN, traduire les génériques
+hors noms propres et Route N en Percorso N, sans importer de noms créatifs FR.
+
+Les six badges PSN/SCT/CON/PAR/SON/KO sont maintenus comme conventions du projet,
+**sans certification officielle** : le commentaire existant ne constitue pas une
+preuve. Le glossaire distingue nom de condition, état adjectival, badge texte et
+slot graphique (PSN/PAR conservés, SON/CON/SCT redessinés, KO dédié). Les budgets
+de cellules et de fenêtres sont documentés ; aucune troncature automatique
+n’est approuvée. Les formes courtes de statistiques sont des propositions à
+mesurer dans chaque consommateur. La lecture de HEAD révèle aussi INSETTO dans
+l’icône Bug : ce n’est pas le nom officiel Coleottero ; ce point reste à corriger
+dans les tickets de parité/traduction avec preuve de rendu.
+
+### Non vérifié par le glossaire
+
+La conformité visuelle des badges et les corrections en ROM ne sont pas certifiées
+par ce livrable documentaire. Aucun changement de rendu ni d’offset de traduction
+n’est réalisé ; les pointeurs vivants et cellules voisines devront être contrôlés
+lors de chaque injection. Les tests du glossaire vérifient le schéma, les archives,
+les décisions de sources, les formes contraintes et leur concordance avec les
+patchs courants, sans attester leur caractère officiel par simple concordance.
