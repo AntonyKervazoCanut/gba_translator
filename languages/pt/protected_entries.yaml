@@ -789,3 +789,786 @@ entries:
   - offset: "0x196db7"
     name: "PT-01 0x196db7"
     expected: 'Ei! Você me desconcentrou!\nTome umas fichas e dê o fora!'
+  - offset: "0x196df8"
+    name: "PT-02 196df8"
+    expected: '<0xFD><0x01> recebeu 20 fichas\ndo homem.'
+  - offset: "0x196e1b"
+    name: "PT-02 196e1b"
+    expected: 'Você já tem muitas\nfichas!'
+  - offset: "0x196e40"
+    name: "PT-02 196e40"
+    expected: 'O segredo é observar\nbem os rolos.'
+  - offset: "0x196f0d"
+    name: "PT-02 196f0d"
+    expected: 'É preciso ter Coin Case...'
+  - offset: "0x196f26"
+    name: "PT-02 196f26"
+    expected: 'Opa!\nVocê não tem Coin Case!'
+  - offset: "0x196f46"
+    name: "PT-02 196f46"
+    expected: 'Uma máquina de caça-níqueis!\nQuer jogar?'
+  - offset: "0x196f64"
+    name: "PT-02 196f64"
+    expected: 'FORA DE SERVIÇO\nEstá quebrada.'
+  - offset: "0x196f81"
+    name: "PT-02 196f81"
+    expected: 'SAIU PARA ALMOÇAR\nEstá reservada.'
+  - offset: "0x196fa0"
+    name: "PT-02 196fa0"
+    expected: 'Chaves de alguém!\nJá deve voltar.'
+  - offset: "0x19703e"
+    name: "PT-02 19703e"
+    expected: 'É preciso ter Coin Case...'
+  - offset: "0x197057"
+    name: "PT-02 197057"
+    expected: 'Trocamos fichas por prêmios.'
+  - offset: "0x19707a"
+    name: "PT-02 19707a"
+    expected: 'Qual prêmio você quer?'
+  - offset: "0x19709d"
+    name: "PT-02 19709d"
+    expected: 'Então, você quer <0xFD><0x02>?'
+  - offset: "0x1970b2"
+    name: "PT-02 1970b2"
+    expected: 'Certo, você quer uma TM\nde <0xFD><0x03>?'
+  - offset: "0x1970d5"
+    name: "PT-02 1970d5"
+    expected: 'Desculpe, você precisa\nde mais fichas.'
+  - offset: "0x19745d"
+    name: "PT-02 19745d"
+    expected: 'Abra espaço para isto.'
+  - offset: "0x197874"
+    name: "PT-02 197874"
+    expected: 'Ginásio Pokémon de Dehara\nLíder: Galavan\pTreinadores vencedores:\n<0xFD><0x06>'
+  - offset: "0x1978ac"
+    name: "PT-02 1978ac"
+    expected: 'Ginásio Pokémon de Dehara\nLíder: Galavan\pTreinadores vencedores:\n<0xFD><0x06>, <0xFD><0x01>'
+  - offset: "0x1979c1"
+    name: "PT-02 1979c1"
+    expected: 'Ah, não...\pPerdi todo o meu dinheiro\nno Game Corner!\pParece que não vou mais\nprecisar disto!'
+  - offset: "0x197a38"
+    name: "PT-02 197a38"
+    expected: '<0xFD><0x01> recebeu Coin Case\ndo rapaz.'
+  - offset: "0x197a5e"
+    name: "PT-02 197a5e"
+    expected: 'Abra espaço para isto!'
+  - offset: "0x197a72"
+    name: "PT-02 197a72"
+    expected: 'Sempre achei que ganharia...'
+  - offset: "0x1980bc"
+    name: "PT-02 1980bc"
+    expected: 'Eu poderia jurar que vi o caixa\nroubando da registradora...'
+  - offset: "0x198bbb"
+    name: "PT-02 198bbb"
+    expected: 'Um dia vou ser ninja!\pMeus pais usam força bruta,\nmas vou agir com astúcia!'
+  - offset: "0x198c1f"
+    name: "PT-02 198c1f"
+    expected: 'Huá! Mova rochas com\nforça pura!\pTome isto!'
+  - offset: "0x19918e"
+    name: "PT-02 19918e"
+    expected: 'Sou o irmão mais velho\ndo mestre da pesca.\pEu adoooro pescar!\nNão consigo ficar sem pescar.\pDiga, você gosta de pescar?'
+  - offset: "0x199207"
+    name: "PT-02 199207"
+    expected: 'Ótimo! Gostei de você.\nAcho que podemos ser amigos.\pPegue isto e vá pescar, jovem!'
+  - offset: "0x19925e"
+    name: "PT-02 19925e"
+    expected: '<0xFD><0x01> recebeu Good Rod\ndo irmão do mestre da pesca.'
+  - offset: "0x199296"
+    name: "PT-02 199296"
+    expected: 'Pescar é um estilo de vida!\nÉ como a mais bela poesia.\pUma simples Old Rod só pega\nMagikarp, certo?\pMas, com Good Rod, você pega\nPokémon muito melhores.'
+  - offset: "0x199337"
+    name: "PT-02 199337"
+    expected: 'Ah...\nQue decepção...'
+  - offset: "0x199354"
+    name: "PT-02 199354"
+    expected: 'Olá, <0xFD><0x01>!\pComo vai a pescaria?'
+  - offset: "0x19937e"
+    name: "PT-02 19937e"
+    expected: 'Ah, não!\pEu tinha um presente para você,\nmas você não tem espaço!'
+  - offset: "0x1993b9"
+    name: "PT-02 1993b9"
+    expected: 'Ah...\nSim, eu apago movimentos.\pPosso fazer os Pokémon\nesquecerem seus movimentos.\pQuer que eu faça isso?'
+  - offset: "0x199421"
+    name: "PT-02 199421"
+    expected: 'Qual Pokémon deve esquecer\num movimento?'
+  - offset: "0x199445"
+    name: "PT-02 199445"
+    expected: 'Qual movimento deve esquecer?'
+  - offset: "0x199465"
+    name: "PT-02 199465"
+    expected: '<0xFD><0x02> só conhece um\nmovimento...'
+  - offset: "0x199485"
+    name: "PT-02 199485"
+    expected: 'Hum! <0xFD><0x02>, <0xFD><0x03>?\nQuer apagar esse movimento?'
+  - offset: "0x1994b1"
+    name: "PT-02 1994b1"
+    expected: 'Deu tudo certo!\p<0xFD><0x02> esqueceu\n<0xFD><0x03> por completo.'
+  - offset: "0x1994ea"
+    name: "PT-02 1994ea"
+    expected: 'Volte se quiser apagar\noutros movimentos.'
+  - offset: "0x19951f"
+    name: "PT-02 19951f"
+    expected: 'O quê?\nOvos não conhecem movimentos.'
+  - offset: "0x19a4f8"
+    name: "PT-02 19a4f8"
+    expected: 'Esta cidade sofre com\npesadelos há muito tempo.\pSe você procura um lugar\npara morar, talvez seja\lmelhor procurar outro lugar.'
+  - offset: "0x19a5be"
+    name: "PT-02 19a5be"
+    expected: 'Precisa de ajuda para\ndescer a montanha?\pMeu Abra e eu teremos prazer\nem teleportar você até lá.\pO que acha?\nQuer se teleportar?'
+  - offset: "0x19a650"
+    name: "PT-02 19a650"
+    expected: 'Cuidado, vai precisar de\nforça para seguir em frente.'
+  - offset: "0x19a6b1"
+    name: "PT-02 19a6b1"
+    expected: 'Bra!'
+  - offset: "0x19a7a0"
+    name: "PT-02 19a7a0"
+    expected: 'Não vendem X Attack?\pGosto dele porque aumenta o\nAtaque durante a batalha.'
+  - offset: "0x19a7f1"
+    name: "PT-02 19a7f1"
+    expected: 'Nunca é demais ter itens extras.\nNunca se sabe o que pode ocorrer.'
+  - offset: "0x19b86a"
+    name: "PT-02 19b86a"
+    expected: 'Está quase lá!'
+  - offset: "0x19b8b9"
+    name: "PT-02 19b8b9"
+    expected: 'Não sou jovem demais para Mel!\nMe deixe em paz!'
+  - offset: "0x19ba45"
+    name: "PT-02 19ba45"
+    expected: 'Caminho errado!'
+  - offset: "0x19bab4"
+    name: "PT-02 19bab4"
+    expected: 'Mel precisa de alguém para\npintar sua beleza!'
+  - offset: "0x19bb49"
+    name: "PT-02 19bb49"
+    expected: 'Sem saída!'
+  - offset: "0x19bb53"
+    name: "PT-02 19bb53"
+    expected: 'A moça mentiu,\né o caminho errado!'
+  - offset: "0x19bbb3"
+    name: "PT-02 19bbb3"
+    expected: 'Adorou o desenho deste ginásio?\pÉ tão bom que só pode ter sido\nobra de um gênio!'
+  - offset: "0x19bc57"
+    name: "PT-02 19bc57"
+    expected: 'Você está quase em Mel!\nSó mais um pouco!'
+  - offset: "0x19bdfe"
+    name: "PT-02 19bdfe"
+    expected: 'Ginásio Pokémon de Fallshore\nLíder: Mel\pTreinadores vencedores:\n<0xFD><0x06>'
+  - offset: "0x19be37"
+    name: "PT-02 19be37"
+    expected: 'Ginásio Pokémon de Fallshore\nLíder: Mel\pTreinadores vencedores:\n<0xFD><0x06>, <0xFD><0x01>'
+  - offset: "0x19bf8f"
+    name: "PT-02 19bf8f"
+    expected: 'Max Repel afasta os Pokémon\nmais fracos.\pMax Repel dura mais tempo\nque Super Repel.'
+  - offset: "0x19bff1"
+    name: "PT-02 19bff1"
+    expected: 'Com a <0xFC><0x01><0x06>Fall Badge<0xFC><0x01><0x04>, você pode\ncomprar <0xFC><0x01><0x06>Ultra Balls<0xFC><0x01><0x04>!\pElas capturam Pokémon bem\nmelhor que Great Balls.'
+  - offset: "0x19c0b4"
+    name: "PT-02 19c0b4"
+    expected: 'Ouvi dizer que há gente\ncausando problemas na <0xFC><0x01><0x06>Route 9<0xFC><0x01><0x08>.'
+  - offset: "0x19c0f7"
+    name: "PT-02 19c0f7"
+    expected: 'A cada passo, seus Pokémon\nse apegam mais a você.\pSe tiver um Pokémon no\nDay-Care, ele ficará mais forte.'
+  - offset: "0x19c177"
+    name: "PT-02 19c177"
+    expected: 'Você soube?\pAlguém resolveu o problema\ndos baderneiros na Route 9!'
+  - offset: "0x19e9e5"
+    name: "PT-02 19e9e5"
+    expected: 'Oi!\nSou um dos <0xFC><0x01><0x06>auxiliares de Log<0xFC><0x01><0x04>.\pSe sua Pokédex tiver dados\nde <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> espécies, devo\llhe dar uma recompensa.\pEntão, <0xFD><0x01>, me diga.\pVocê já reuniu dados de <0xFC><0x01><0x06>\n<0xFD><0x02><0xFC><0x01><0x04> espécies de Pokémon?'
+  - offset: "0x19eabe"
+    name: "PT-02 19eabe"
+    expected: 'ao menos\n<0xFD><0x02> espécies Pokémon?'
+  - offset: "0x19eae4"
+    name: "PT-02 19eae4"
+    expected: 'Ótimo! Você capturou <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04>\nespécies de Pokémon!\pParabéns!\nTome isto!'
+  - offset: "0x19eb59"
+    name: "PT-02 19eb59"
+    expected: 'Há itens no chão que\npodem estar escondidos.\pUse o <0xFC><0x01><0x06>Dowser<0xFC><0x01><0x04> para detectar\nitens escondidos por perto.\pA máquina é um pouco limitada.\nNão aponta a posição exata.\pEla mostra a direção em\nque o item está.\pUse-a para se orientar e\nprocure pelo local à mão.'
+  - offset: "0x19efe0"
+    name: "PT-02 19efe0"
+    expected: 'Sou o irmão mais novo\ndo mestre da pesca.\pEu adoooro pescar!\nNão consigo ficar sem pescar.\pDiga, você gosta de pescar?'
+  - offset: "0x19f05b"
+    name: "PT-02 19f05b"
+    expected: 'Ótimo! Gostei de você.\nAcho que podemos ser amigos.\pPegue isto e vá pescar, jovem!'
+  - offset: "0x19f0b2"
+    name: "PT-02 19f0b2"
+    expected: '<0xFD><0x01> recebeu Super Rod\ndo irmão do mestre da pesca.'
+  - offset: "0x19f0eb"
+    name: "PT-02 19f0eb"
+    expected: 'Pescar é um estilo de vida!\nÉ como a mais bela poesia.\pDos mares aos rios, vá fisgar\num peixão, meu amigo.\pAgora, tenho um pedido.\pSe pegar um Magikarp grande\ncom essa vara, quero vê-lo.\pAlém de pescar, eu adoro\nver Magikarp gigantes.'
+  - offset: "0x19f1fa"
+    name: "PT-02 19f1fa"
+    expected: 'Ah...\nQue decepção...'
+  - offset: "0x19f217"
+    name: "PT-02 19f217"
+    expected: 'Olá, <0xFD><0x01>!\nTem pescado?\pTente pescar com Super Rod\nem qualquer corpo de água.\pVocê encontrará Pokémon\ndiferentes em cada lugar.\pE não esqueça de me trazer\nMagikarp gigantes.'
+  - offset: "0x19f2db"
+    name: "PT-02 19f2db"
+    expected: 'Oh? <0xFD><0x01>?\nOra, é um Magikarp!\pDeixe-me ver, depressa!'
+  - offset: "0x19f31b"
+    name: "PT-02 19f31b"
+    expected: '... Uau!\n<0xFD><0x03> polegadas!\pVocê aprecia os aspectos\npoéticos da pesca!\pTem que aceitar isto.\nEu insisto!'
+  - offset: "0x19f395"
+    name: "PT-02 19f395"
+    expected: 'Espero ver recordes\nainda maiores de você!'
+  - offset: "0x19f3cb"
+    name: "PT-02 19f3cb"
+    expected: 'Hã?\n<0xFD><0x03> polegadas?\pÉ do mesmo tamanho\ndo que vi antes.'
+  - offset: "0x19f40a"
+    name: "PT-02 19f40a"
+    expected: 'Hum...\nEste mede <0xFD><0x03> polegadas.\pNão supera o de\n<0xFD><0x04> polegadas de antes.'
+  - offset: "0x19f468"
+    name: "PT-02 19f468"
+    expected: 'Ah... Isso não parece\num Magikarp.'
+  - offset: "0x19f494"
+    name: "PT-02 19f494"
+    expected: 'Ah, não!\pEu tinha um presente para você,\nmas você não tem espaço.'
+  - offset: "0x19f4cf"
+    name: "PT-02 19f4cf"
+    expected: 'O maior Magikarp\nque já vi...\p<0xFD><0x04> polegadas!'
+  - offset: "0x19f50c"
+    name: "PT-02 19f50c"
+    expected: 'Parece uma tabela em branco.\pTem espaços para anotar\nalgum tipo de recorde.'
+  - offset: "0x1a1b8e"
+    name: "PT-02 1a1b8e"
+    expected: 'Obteve uma página extra\npara TOWN MAP!'
+  - offset: "0x1a231b"
+    name: "PT-02 1a231b"
+    expected: 'Você obteve: TRI-PASS!'
+  - offset: "0x1a2328"
+    name: "PT-02 1a2328"
+    expected: 'TRI-PASS!'
+  - offset: "0x1a2b88"
+    name: "PT-02 1a2b88"
+    expected: 'Sou fanático por movimentos.\pConheço todos os movimentos\nque os Pokémon aprendem.\pTambém adoro Heart Scale.\pTraga uma Heart Scale.\pSe fizer isso, ensinarei\num movimento a um Pokémon.'
+  - offset: "0x1a2c63"
+    name: "PT-02 1a2c63"
+    expected: 'Oh! É uma Heart Scale\nde verdade!\pQuer que eu ensine\num movimento, certo?'
+  - offset: "0x1a2cc3"
+    name: "PT-02 1a2cc3"
+    expected: 'Qual Pokémon quer aprender?'
+  - offset: "0x1a2ce1"
+    name: "PT-02 1a2ce1"
+    expected: 'Qual movimento devo ensinar?'
+  - offset: "0x1a2cfc"
+    name: "PT-02 1a2cfc"
+    expected: 'Desculpe...\pParece que não tenho movimentos\npara ensinar a esse Pokémon.'
+  - offset: "0x1a2d43"
+    name: "PT-02 1a2d43"
+    expected: 'Então, preciso de Heart Scale.\nO que vai me dar?'
+  - offset: "0x1a2d85"
+    name: "PT-02 1a2d85"
+    expected: '<0xFD><0x01> entregou uma\nHeart Scale em troca.'
+  - offset: "0x1a2de0"
+    name: "PT-02 1a2de0"
+    expected: 'Para ensinar ao seu Pokémon,\npreciso de Heart Scale.'
+  - offset: "0x1a2e20"
+    name: "PT-02 1a2e20"
+    expected: 'Hã? Não há movimento\nque eu possa ensinar a um Ovo.'
+  - offset: "0x1a505b"
+    name: "PT-02 1a505b"
+    expected: 'Esperamos sua volta!'
+  - offset: "0x1a5075"
+    name: "PT-02 1a5075"
+    expected: '<0xFD><0x01> ligou o PC.'
+  - offset: "0x1a508a"
+    name: "PT-02 1a508a"
+    expected: 'Qual PC deseja acessar?'
+  - offset: "0x1a50a7"
+    name: "PT-02 1a50a7"
+    expected: 'Acessou o PC de Alguém.'
+  - offset: "0x1a50be"
+    name: "PT-02 1a50be"
+    expected: 'Abriu o sistema de armazenamento.'
+  - offset: "0x1a50dd"
+    name: "PT-02 1a50dd"
+    expected: 'Acessou o PC de <0xFD><0x01>.'
+  - offset: "0x1a50ef"
+    name: "PT-02 1a50ef"
+    expected: 'Acessou o PC de Ayla.'
+  - offset: "0x1a5103"
+    name: "PT-02 1a5103"
+    expected: 'Bem-vindo ao Trade Center\nPokémon Cable Club.'
+  - offset: "0x1a5133"
+    name: "PT-02 1a5133"
+    expected: 'Bem-vindo ao Colosseum\nPokémon Cable Club.'
+  - offset: "0x1a5160"
+    name: "PT-02 1a5160"
+    expected: 'Bem-vindo à Time Capsule\ndo Pokémon Cable Club.'
+  - offset: "0x1a5190"
+    name: "PT-02 1a5190"
+    expected: 'Volte sempre!'
+  - offset: "0x1a51a3"
+    name: "PT-02 1a51a3"
+    expected: 'Bem-vindo!\pHoje temos uma promoção!'
+  - offset: "0x1a51d0"
+    name: "PT-02 1a51d0"
+    expected: '<0xFD><0x01><0xFD><0x05>, bem-vindo!\pComo posso ajudar?'
+  - offset: "0x1a51f6"
+    name: "PT-02 1a51f6"
+    expected: 'Obteve <0xFD><0x03>!'
+  - offset: "0x1a5200"
+    name: "PT-02 1a5200"
+    expected: '<0xFD><0x03>!'
+  - offset: "0x1a5207"
+    name: "PT-02 1a5207"
+    expected: 'Bolsa cheia...'
+  - offset: "0x1a5218"
+    name: "PT-02 1a5218"
+    expected: '<0xFD><0x01> guardou <0xFD><0x03>\nem <0xFD><0x04>.'
+  - offset: "0x1a5231"
+    name: "PT-02 1a5231"
+    expected: '<0xFD><0x01> achou <0xFD><0x03>!'
+  - offset: "0x1a5242"
+    name: "PT-02 1a5242"
+    expected: 'Que pena!\nA Bolsa está cheia...'
+  - offset: "0x1a525c"
+    name: "PT-02 1a525c"
+    expected: '<0xFD><0x01> achou\n<0xFD><0x02> <0xFD><0x03>!'
+  - offset: "0x1a526c"
+    name: "PT-02 1a526c"
+    expected: '<0xFD><0x01> guardou as fichas\nno Coin Case.'
+  - offset: "0x1a5294"
+    name: "PT-02 1a5294"
+    expected: 'Que pena!\nO Coin Case está cheio...'
+  - offset: "0x1a52b4"
+    name: "PT-02 1a52b4"
+    expected: 'Que pena!\nNão há onde guardar...'
+  - offset: "0x1a52dd"
+    name: "PT-02 1a52dd"
+    expected: '<0xFD><0x01> achou\n<0xFD><0x02> <0xFD><0x03>!'
+  - offset: "0x1a52f0"
+    name: "PT-02 1a52f0"
+    expected: 'Obteve <0xFD><0x03>!'
+  - offset: "0x1a5301"
+    name: "PT-02 1a5301"
+    expected: 'Que pena! Não cabe\nmais um <0xFD><0x03>...'
+  - offset: "0x1a532f"
+    name: "PT-02 1a532f"
+    expected: '<0xFD><0x03> foi enviado\npara o PC.'
+  - offset: "0x1a5375"
+    name: "PT-02 1a5375"
+    expected: 'Um item do Cube V3 pode ser\nligado a Select para uso fácil.'
+  - offset: "0x1a5420"
+    name: "PT-02 1a5420"
+    expected: '<0xFD><0x01> ligou o PC.'
+  - offset: "0x1a5446"
+    name: "PT-02 1a5446"
+    expected: 'Quer dar um apelido ao\n<0xFD><0x03> que recebeu?'
+  - offset: "0x1a5483"
+    name: "PT-02 1a5483"
+    expected: 'Bem-vindo ao Centro Pokémon!\pQuer que eu recupere\na saúde dos seus Pokémon?'
+  - offset: "0x1a54e1"
+    name: "PT-02 1a54e1"
+    expected: 'Certo, vou cuidar dos seus\nPokémon por alguns segundos.'
+  - offset: "0x1a5511"
+    name: "PT-02 1a5511"
+    expected: 'Tome cuidado lá fora!'
+  - offset: "0x1a552b"
+    name: "PT-02 1a552b"
+    expected: 'Obrigado por esperar.\nSeus Pokémon estão\lcom a saúde recuperada.'
+  - offset: "0x1a556e"
+    name: "PT-02 1a556e"
+    expected: 'A água tem um azul profundo...\nQuer usar Surf?'
+  - offset: "0x1a55a5"
+    name: "PT-02 1a55a5"
+    expected: '<0xFD><0x02> usou Surf!'
+  - offset: "0x1a55b3"
+    name: "PT-02 1a55b3"
+    expected: 'A correnteza é muito forte!\nNão dá para usar Surf aqui...'
+  - offset: "0x1a561a"
+    name: "PT-02 1a561a"
+    expected: 'Sinto muito.\nO Pokémon Wireless Club está\lem manutenção no momento.'
+  - offset: "0x1a5667"
+    name: "PT-02 1a5667"
+    expected: 'Parece estar passando\npor ajustes...'
+  - offset: "0x1a5690"
+    name: "PT-02 1a5690"
+    expected: '<0xFD><0x01> entregou\n<0xFD><0x02>.'
+  - offset: "0x1a56a7"
+    name: "PT-02 1a56a7"
+    expected: 'Quer dar um apelido a\neste <0xFD><0x02>?'
+  - offset: "0x1a5700"
+    name: "PT-02 1a5700"
+    expected: '<0xFD><0x01> desenterrou <0xFD><0x03>\ndas profundezas do solo.'
+  - offset: "0x1a58a7"
+    name: "PT-02 1a58a7"
+    expected: 'Vamos ver...\nAh, não! Você só capturou\l<0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04> espécies de Pokémon!\pPrecisa de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> espécies.'
+  - offset: "0x1a5909"
+    name: "PT-02 1a5909"
+    expected: 'Ah, entendo.\pQuando tiver <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> espécies,\nvolte aqui.'
+  - offset: "0x1a594d"
+    name: "PT-02 1a594d"
+    expected: 'Oh! Você não tem\nespaço para <0xFD><0x03>.'
+  - offset: "0x1a597b"
+    name: "PT-02 1a597b"
+    expected: 'Estou procurando o Pokémon\n<0xFD><0x02>!\pQuer trocar um pelo meu\n<0xFD><0x03>?'
+  - offset: "0x1a59b6"
+    name: "PT-02 1a59b6"
+    expected: 'Ah!\nTudo bem...'
+  - offset: "0x1a59c6"
+    name: "PT-02 1a59c6"
+    expected: 'O quê?\nIsso não é <0xFD><0x02>!'
+  - offset: "0x1a59da"
+    name: "PT-02 1a59da"
+    expected: 'Ei, obrigado!'
+  - offset: "0x1a59e7"
+    name: "PT-02 1a59e7"
+    expected: 'Meu antigo <0xFD><0x03> é ótimo, né?'
+  - offset: "0x1a5ad6"
+    name: "PT-02 1a5ad6"
+    expected: 'Oi!\nVocê tem <0xFD><0x02>?\pQuer trocar pelo meu\n<0xFD><0x03>?'
+  - offset: "0x1a5b08"
+    name: "PT-02 1a5b08"
+    expected: 'Que pena.'
+  - offset: "0x1a5b18"
+    name: "PT-02 1a5b18"
+    expected: 'Isso não é <0xFD><0x02>.\pSe conseguir um, troque comigo.'
+  - offset: "0x1a5b4a"
+    name: "PT-02 1a5b4a"
+    expected: 'Obrigado, você é demais!'
+  - offset: "0x1a5b60"
+    name: "PT-02 1a5b60"
+    expected: 'Como vai meu antigo <0xFD><0x03>?\nMeu <0xFD><0x02> está ótimo!'
+  - offset: "0x1a5b88"
+    name: "PT-02 1a5b88"
+    expected: 'Bingo!\nKey Card abriu a porta!'
+  - offset: "0x1a5bc6"
+    name: "PT-02 1a5bc6"
+    expected: 'Acessou o PC de Professor Log...\pAcessou o sistema de\navaliação da Pokédex...'
+  - offset: "0x1a5c03"
+    name: "PT-02 1a5c03"
+    expected: 'Quer uma avaliação\nda sua Pokédex?'
+  - offset: "0x1a5c2e"
+    name: "PT-02 1a5c2e"
+    expected: 'Saiu do PC de Professor Log.'
+  - offset: "0x1a5c4d"
+    name: "PT-02 1a5c4d"
+    expected: 'Uma voz ecoou:\n“Não fuja!”'
+  - offset: "0x1a5cdf"
+    name: "PT-02 1a5cdf"
+    expected: 'A porta está aberta...'
+  - offset: "0x1a5cf1"
+    name: "PT-02 1a5cf1"
+    expected: '<0xFD><0x03> foi enviado\nao PC de Alguém.\pFoi colocado na\nCaixa “<0xFD><0x02>”.'
+  - offset: "0x1a5d31"
+    name: "PT-02 1a5d31"
+    expected: '<0xFD><0x03> foi enviado\nao PC de Ayla.\pFoi colocado na\nCaixa “<0xFD><0x02>”.'
+  - offset: "0x1a5d6e"
+    name: "PT-02 1a5d6e"
+    expected: 'A Caixa “<0xFD><0x04>” do\nPC de Alguém estava cheia.\p<0xFD><0x03> foi enviado à\nCaixa “<0xFD><0x02>”.'
+  - offset: "0x1a5db1"
+    name: "PT-02 1a5db1"
+    expected: 'A Caixa “<0xFD><0x04>” do\nPC de Ayla estava cheia.\p<0xFD><0x03> foi enviado à\nCaixa “<0xFD><0x02>”.'
+  - offset: "0x1a5df1"
+    name: "PT-02 1a5df1"
+    expected: '<0xFD><0x01> obteve\n<0xFD><0x02>!'
+  - offset: "0x1a5e31"
+    name: "PT-02 1a5e31"
+    expected: 'Não há mais espaço para Pokémon!\pAs Caixas Pokémon estão cheias\ne não aceitam mais nenhum!'
+  - offset: "0x1a5e89"
+    name: "PT-02 1a5e89"
+    expected: 'Primeiro, recupere toda\na saúde dos seus Pokémon.'
+  - offset: "0x1a5ec0"
+    name: "PT-02 1a5ec0"
+    expected: 'Seus Pokémon estão\ncom a saúde recuperada.\pSe os PS dos seus Pokémon\nbaixarem, venha nos ver.\pSe for para longe, compre\nPoções antes de sair\lno Poké Mart.\pDesejamos sucesso!'
+  - offset: "0x1a5f9b"
+    name: "PT-02 1a5f9b"
+    expected: 'Seus Pokémon estão\ncom a saúde recuperada.\pDesejamos sucesso!'
+  - offset: "0x1a5fdf"
+    name: "PT-02 1a5fdf"
+    expected: '<0xFD><0x01>!\nBem-vindo de volta.\pParece que você teve\nmuitas aventuras.\pTalvez deva descansar\num pouco.'
+  - offset: "0x1a6046"
+    name: "PT-02 1a6046"
+    expected: 'Ah, que bom!\pVocê e seus Pokémon\nparecem bem melhores.\pSe seus Pokémon têm poucos PS,\nvá ao <0xFC><0x01><0x06>Centro Pokémon<0xFC><0x01><0x04>!\pO mais próximo fica\nem <0xFC><0x01><0x06>Bellin Town<0xFC><0x01><0x04>.\pOu compre <0xFC><0x01><0x06>Poções<0xFC><0x01><0x04> no\n<0xFC><0x01><0x06>Poké Mart<0xFC><0x01><0x04>!\pÉ sempre bom estar\npreparado para o pior.\pMe dê orgulho, meu bem!\pCuide-se!'
+  - offset: "0x1a6197"
+    name: "PT-02 1a6197"
+    expected: '<0xFD><0x01> está sem Pokémon\nem condições de lutar!\p<0xFD><0x01> entrou em pânico\ne perdeu ¥<0xFD><0x02>...\p...\p<0xFD><0x01> perdeu os sentidos!'
+  - offset: "0x1a61e5"
+    name: "PT-02 1a61e5"
+    expected: '<0xFD><0x01> está sem Pokémon\nem condições de lutar!\p<0xFD><0x01> perdeu os sentidos!'
+  - offset: "0x1a6211"
+    name: "PT-02 1a6211"
+    expected: 'Olá!\nPosso ajudar?'
+  - offset: "0x1a622c"
+    name: "PT-02 1a622c"
+    expected: 'Há um questionário.\nGostaria de preenchê-lo?'
+  - offset: "0x1a6265"
+    name: "PT-02 1a6265"
+    expected: 'Obrigado por dedicar seu\ntempo ao nosso questionário.\pSuas respostas servirão\nde referência no futuro.'
+  - offset: "0x1a62d3"
+    name: "PT-02 1a62d3"
+    expected: 'Ah, olá!\nVocê conhece essas palavras?\pEntão, você deve conhecer\no MYSTERY GIFT.\pDe agora em diante, deve\nreceber MYSTERY GIFTS!'
+  - offset: "0x1a6359"
+    name: "PT-02 1a6359"
+    expected: 'Após salvar o jogo, você\npode acessar MYSTERY GIFT.'
+  - offset: "0x1a6393"
+    name: "PT-02 1a6393"
+    expected: 'Obrigado por acessar\no sistema MYSTERY GIFT.'
+  - offset: "0x1a63c4"
+    name: "PT-02 1a63c4"
+    expected: '<0xFD><0x02> saiu voando!'
+  - offset: "0x1a63e8"
+    name: "PT-02 1a63e8"
+    expected: '<0xFD><0x01> achou <0xFD><0x03>!\nContém <0xFD><0x02>.'
+  - offset: "0x1a6448"
+    name: "PT-02 1a6448"
+    expected: 'Gyaoo!'
+  - offset: "0x1a6c74"
+    name: "PT-02 1a6c74"
+    expected: 'A água tem um azul profundo...'
+  - offset: "0x1a6ca3"
+    name: "PT-02 1a6ca3"
+    expected: 'Seu progresso\nna Pokédex é:\p<0xFD><0x02> Pokémon vistos e\n<0xFD><0x03> Pokémon capturados.\p<0xFC><0x06><0x02>Avaliação de Professor Log:'
+  - offset: "0x1a6d17"
+    name: "PT-02 1a6d17"
+    expected: 'Você ainda tem muito a fazer.\pExplore cada área de grama\ne procure Pokémon!'
+  - offset: "0x1a6d6d"
+    name: "PT-02 1a6d6d"
+    expected: 'Parece que você está\nno caminho certo!\pDei uma HM FLASH a um dos meus\nAUXILIARES. Vá buscar!'
+  - offset: "0x1a6ddf"
+    name: "PT-02 1a6ddf"
+    expected: 'Sua Pokédex ainda precisa\nde mais registros!\pTente capturar outras\nespécies de Pokémon!'
+  - offset: "0x1a6e36"
+    name: "PT-02 1a6e36"
+    expected: 'Bom, dá para ver que você\nestá se esforçando!\pDei um ITEMFINDER a um dos meus\nAUXILIARES. Vá buscar!'
+  - offset: "0x1a6ea4"
+    name: "PT-02 1a6ea4"
+    expected: 'Sua Pokédex está\nprogredindo muito bem!\pDei AMULET COIN a um dos meus\nAUXILIARES. Vá buscar!'
+  - offset: "0x1a6f0b"
+    name: "PT-02 1a6f0b"
+    expected: 'Ah, você já passou de 50\nespécies!\pDei EXP. SHARE a um dos meus\nAUXILIARES. Vá buscar!'
+  - offset: "0x1a6f71"
+    name: "PT-02 1a6f71"
+    expected: 'Hoho! Está virando uma\nPokédex de respeito!'
+  - offset: "0x1a6fab"
+    name: "PT-02 1a6fab"
+    expected: 'Muito bem!\pAcho que você vai capturar\nainda mais Pokémon pescando!'
+  - offset: "0x1a6ff1"
+    name: "PT-02 1a6ff1"
+    expected: 'Maravilha! Deixe-me adivinhar...\nVocê gosta de colecionar, né?'
+  - offset: "0x1a7031"
+    name: "PT-02 1a7031"
+    expected: 'Impressionante!\nDeve ter sido difícil!'
+  - offset: "0x1a7063"
+    name: "PT-02 1a7063"
+    expected: 'Você chegou a 100 espécies!\nMal posso acreditar!'
+  - offset: "0x1a70a5"
+    name: "PT-02 1a70a5"
+    expected: 'Você tem até as formas\nevoluídas dos Pokémon! Ótimo!'
+  - offset: "0x1a70d8"
+    name: "PT-02 1a70d8"
+    expected: 'Excelente! Troque com amigos\npara conseguir mais!'
+  - offset: "0x1a7108"
+    name: "PT-02 1a7108"
+    expected: 'Espetacular!\nVocê virou um profissional!'
+  - offset: "0x1a7137"
+    name: "PT-02 1a7137"
+    expected: 'Não tenho mais nada a dizer!\nVocê é o PROFESSOR Pokémon!'
+  - offset: "0x1a7175"
+    name: "PT-02 1a7175"
+    expected: 'Sua Pokédex está completa!\nParabéns!!'
+  - offset: "0x1a71aa"
+    name: "PT-02 1a71aa"
+    expected: 'E sua Pokédex Nacional é:\p<0xFD><0x02> Pokémon vistos e\n<0xFD><0x03> Pokémon capturados.'
+  - offset: "0x1a71ee"
+    name: "PT-02 1a71ee"
+    expected: 'Estou ansioso para ver sua\nPokédex Nacional completa!'
+  - offset: "0x1a722f"
+    name: "PT-02 1a722f"
+    expected: 'Finalmente...\pVocê completou\na Pokédex!\pÉ magnífico!\nUma conquista fantástica!'
+  - offset: "0x1b1d7d"
+    name: "PT-02 1b1d7d"
+    expected: 'É uma impressora Pokémon!\pEla imprime seus Pokémon\nno verso do Cartão de Treinador.\pCusta só ¥50.\nQuer experimentar?'
+  - offset: "0x1b1e07"
+    name: "PT-02 1b1e07"
+    expected: 'Dinheiro insuficiente.'
+  - offset: "0x1b1e24"
+    name: "PT-02 1b1e24"
+    expected: 'Escolha o tipo de impressão.'
+  - offset: "0x1b1e42"
+    name: "PT-02 1b1e42"
+    expected: 'Um sorriso para a foto!\nTrês... Dois... Um...\pFlash!'
+  - offset: "0x1b1e7d"
+    name: "PT-02 1b1e7d"
+    expected: 'Sua impressão Pokémon está pronta!\nConfira seu Cartão de Treinador.'
+  - offset: "0x1bc35e"
+    name: "PT-02 1bc35e"
+    expected: 'Qual dos nossos serviços\ndeseja usar?'
+  - offset: "0x1bc388"
+    name: "PT-02 1bc388"
+    expected: 'Troque Pokémon com outro jogador\nusando um cabo GBA Game Link.'
+  - offset: "0x1bc3c7"
+    name: "PT-02 1bc3c7"
+    expected: 'Batalhe com outro Treinador\nusando um cabo GBA Game Link.'
+  - offset: "0x1bc409"
+    name: "PT-02 1bc409"
+    expected: 'Para uma Batalha Dupla, você\nprecisa de ao menos dois Pokémon.'
+  - offset: "0x1bc442"
+    name: "PT-02 1bc442"
+    expected: 'Para trocar, você precisa de\nao menos dois Pokémon com você.'
+  - offset: "0x1bc47c"
+    name: "PT-02 1bc47c"
+    expected: 'Um Pokémon com a Berry <0xFD><0x02>\nnão pode ser trocado.'
+  - offset: "0x1bc4ac"
+    name: "PT-02 1bc4ac"
+    expected: 'Aguarde.\n... Botão B: Cancelar'
+  - offset: "0x1bc4ce"
+    name: "PT-02 1bc4ce"
+    expected: 'Quando todos estiverem prontos...\nBotão A: Confirmar\lBotão B: Cancelar'
+  - offset: "0x1bc50d"
+    name: "PT-02 1bc50d"
+    expected: 'Conectar com <0xFD><0x02> jogadores.\nBotão A: Confirmar\lBotão B: Cancelar'
+  - offset: "0x1bc54c"
+    name: "PT-02 1bc54c"
+    expected: 'Aguardando conexão...\n... Botão B: Cancelar'
+  - offset: "0x1bc590"
+    name: "PT-02 1bc590"
+    expected: 'Entre.'
+  - offset: "0x1bc59e"
+    name: "PT-02 1bc59e"
+    expected: 'Vou guiar você até sua sala.'
+  - offset: "0x1bc5c0"
+    name: "PT-02 1bc5c0"
+    expected: 'Alguém não está pronto.\pVolte quando todos\nestiverem preparados.'
+  - offset: "0x1bc615"
+    name: "PT-02 1bc615"
+    expected: 'Houve erro na conexão...\nReinicie e tente de novo.'
+  - offset: "0x1bc64e"
+    name: "PT-02 1bc64e"
+    expected: 'Os participantes parecem\nter feito escolhas diferentes.'
+  - offset: "0x1bc68a"
+    name: "PT-02 1bc68a"
+    expected: 'Volte sempre.'
+  - offset: "0x1bc6a1"
+    name: "PT-02 1bc6a1"
+    expected: 'O número de participantes\nestá incorreto.'
+  - offset: "0x1bc6ca"
+    name: "PT-02 1bc6ca"
+    expected: 'Batalha Individual não aceita\n <0xFD><0x02> jogadores.'
+  - offset: "0x1bc700"
+    name: "PT-02 1bc700"
+    expected: 'Não dá para jogar Batalha\nDupla com <0xFD><0x02> jogadores.'
+  - offset: "0x1bc736"
+    name: "PT-02 1bc736"
+    expected: 'Este modo de batalha exige\nquatro jogadores.'
+  - offset: "0x1bc76b"
+    name: "PT-02 1bc76b"
+    expected: 'Confira o número de\njogadores e recomece.'
+  - offset: "0x1bc7a1"
+    name: "PT-02 1bc7a1"
+    expected: 'A conexão será encerrada se\nvocê sair da sala. Tudo bem?'
+  - offset: "0x1bc7e2"
+    name: "PT-02 1bc7e2"
+    expected: 'Encerrando conexão...\nVocê será levado para\lfora da sala. Aguarde.'
+  - offset: "0x1bc827"
+    name: "PT-02 1bc827"
+    expected: 'Este Treinador está\nocupado demais para notar...'
+  - offset: "0x1bc84b"
+    name: "PT-02 1bc84b"
+    expected: 'Legal! Vi o Cartão de\nTreinador de <0xFD><0x02>!'
+  - offset: "0x1bc874"
+    name: "PT-02 1bc874"
+    expected: 'Legal! Vi o Cartão de\nTreinador de <0xFD><0x02>!\pÉ um cartão <0xFD><0x03>!'
+  - offset: "0x1bc8ad"
+    name: "PT-02 1bc8ad"
+    expected: 'Sente-se e comece\nsua batalha.'
+  - offset: "0x1bc8da"
+    name: "PT-02 1bc8da"
+    expected: 'Sente-se e comece\nsua troca.'
+  - offset: "0x1bc918"
+    name: "PT-02 1bc918"
+    expected: 'Os dados do Cartão de\nTreinador serão substituídos.'
+  - offset: "0x1bc943"
+    name: "PT-02 1bc943"
+    expected: 'Espero ver você de novo!'
+  - offset: "0x1bc95c"
+    name: "PT-02 1bc95c"
+    expected: 'Sinto muito.\pAinda não podemos fazer trocas\ncom Treinadores distantes\lde outra região...'
+  - offset: "0x1bc9c0"
+    name: "PT-02 1bc9c0"
+    expected: 'O outro Treinador não está pronto.'
+  - offset: "0x1bc9e0"
+    name: "PT-02 1bc9e0"
+    expected: 'Você tem ao menos um Pokémon\nque não pode levar.'
+  - offset: "0x1bca13"
+    name: "PT-02 1bca13"
+    expected: 'O adaptador sem fio não\nestá conectado corretamente.'
+  - offset: "0x1bca43"
+    name: "PT-02 1bca43"
+    expected: 'Os participantes devem\nse dirigir ao balcão.'
+  - offset: "0x1bca95"
+    name: "PT-02 1bca95"
+    expected: 'Aqui você pode trocar Pokémon\ncom outro Treinador.'
+  - offset: "0x1bcacb"
+    name: "PT-02 1bcacb"
+    expected: 'Aqui você pode batalhar\ncom seus amigos.'
+  - offset: "0x1bcaf2"
+    name: "PT-02 1bcaf2"
+    expected: 'De dois a cinco Treinadores\npodem fazer BERRY POWDER juntos.'
+  - offset: "0x1bcb42"
+    name: "PT-02 1bcb42"
+    expected: 'Cancela o item do MENU escolhido.'
+  - offset: "0x1bcb81"
+    name: "PT-02 1bcb81"
+    expected: 'Para usar Berry Crush,\nprecisa ter ao menos uma Berry.'
+  - offset: "0x1bcbc3"
+    name: "PT-02 1bcbc3"
+    expected: 'Para entrar na Union Room,\nprecisa ter ao menos dois Pokémon.'
+  - offset: "0x1bcc00"
+    name: "PT-02 1bcc00"
+    expected: 'Pokémon com a Berry <0xFD><0x02>\nnão podem entrar na Union Room.'
+  - offset: "0x1bcc3a"
+    name: "PT-02 1bcc3a"
+    expected: 'Esta é a Union Room do\nPokémon Wireless Club.\pInfelizmente, seu adaptador\nsem fio não está bem conectado.\pVolte sempre.'
+  - offset: "0x1bccca"
+    name: "PT-02 1bccca"
+    expected: 'Parece: <0xFD><0x02> está jogando\nno momento.\lVá em frente!'
+  - offset: "0x1bd28d"
+    name: "PT-02 1bd28d"
+    expected: 'Bem-vindo ao Direct Corner\ndo Pokémon Wireless Club.\pAqui você pode interagir\ndiretamente com seus amigos.\pEm qual sala deseja\nentrar?'
+  - offset: "0x1bd317"
+    name: "PT-02 1bd317"
+    expected: 'Quer trocar Pokémon?'
+  - offset: "0x1bd338"
+    name: "PT-02 1bd338"
+    expected: 'Qual modo de batalha\ndeseja jogar?'
+  - offset: "0x1bd362"
+    name: "PT-02 1bd362"
+    expected: 'Quer usar o sistema\nBerry Crush?'
+  - offset: "0x1bd390"
+    name: "PT-02 1bd390"
+    expected: 'Há três modos de batalha.\pBatalha Individual: dois\nTreinadores, com um Pokémon cada.\pCada Treinador usa um Pokémon\npor vez na batalha.\pBatalha Dupla: dois Treinadores\ncom ao menos dois Pokémon cada.\pCada Treinador envia dois\nPokémon por vez na batalha.\pMulti Battle: quatro Treinadores\ncom ao menos um Pokémon cada.\pCada Treinador usa um Pokémon\npor vez na batalha.'
+  - offset: "0x1bd51b"
+    name: "PT-02 1bd51b"
+    expected: 'Decidam qual de vocês dois\nserá o líder.\pO outro jogador deve escolher\n“Join Group”.'
+  - offset: "0x1bd582"
+    name: "PT-02 1bd582"
+    expected: 'Decidam qual de vocês quatro\nserá o líder do grupo.\pOs outros devem escolher\n“Join Group”.'
+  - offset: "0x1bd5f1"
+    name: "PT-02 1bd5f1"
+    expected: 'Decidam qual de vocês\nserá o líder do grupo.\pOs outros devem escolher\n“Join Group”.'
+  - offset: "0x1bd65b"
+    name: "PT-02 1bd65b"
+    expected: 'Bem-vindo à Union Room\ndo Pokémon Wireless Club.\pAqui você pode interagir\ncom outros Treinadores, até\lcom quem você não conhece.\pQuer entrar na sala?'
+  - offset: "0x1bd706"
+    name: "PT-02 1bd706"
+    expected: 'Na Union Room, estão os\njogadores por perto que\ltambém entraram na sala.\pAqui você pode fazer várias\ncoisas, como cumprimentar.\pPode inscrever dois Pokémon\naté o Nv. 30 para um duelo.\pPode participar de um chat\ncom duas a cinco pessoas.\pOu inscrever um Pokémon\npara troca.\pQuer entrar na sala?'
+  - offset: "0x1bd86a"
+    name: "PT-02 1bd86a"
+    expected: 'Espero que se divirta\nna Union Room.'
+  - offset: "0x1bd898"
+    name: "PT-02 1bd898"
+    expected: 'Olá!\nMeu nome é Teala.\pÉ sua primeira vez\naqui em cima, não é?\pVou mostrar como funciona o\nsistema de comunicação sem fio.\pPrimeiro, vou mostrar este\nandar do Centro Pokémon.\pPor aqui, por favor.'
+  - offset: "0x1bd966"
+    name: "PT-02 1bd966"
+    expected: 'No último andar, há duas\nsalas.\pPrimeiro, a sala da esquerda.\nÉ a Union Room.\pVocê pode se conectar com\nTreinadores que também\lentraram na Union Room.\pCom eles, pode conversar,\nbatalhar e trocar.\pA sala da direita é\no DIRECT CORNER.\pNela, pode trocar ou batalhar\ncom seus amigos.\pSe o adaptador sem fio não\nestiver conectado, ainda pode\lusar um cabo GBA Game Link.\pNesse caso, você deve ir\nao Direct Corner.\pAproveite o sistema de\ncomunicação sem fio.'
+  - offset: "0x1bdb85"
+    name: "PT-02 1bdb85"
+    expected: 'Olá, <0xFD><0x01>!\pSou eu, Teala, a atendente\ndo andar superior.\pPrecisa de alguma ajuda\ncom a conexão?'
+  - offset: "0x1bdbf8"
+    name: "PT-02 1bdbf8"
+    expected: 'Vou explicar como funciona\no Pokémon Wireless Club.\pNeste último andar,\nhá duas salas.\pPrimeiro, a sala da esquerda.\nÉ a Union Room.\pVocê pode se conectar com\nTreinadores que também\lentraram na Union Room.\pCom eles, pode conversar,\nbatalhar e trocar.\pA sala da direita é\no Direct Corner.\pNela, pode trocar ou batalhar\ncom seus amigos.\pÀs vezes, você pode não\nencontrar seus amigos na\lUnion Room ou Direct Corner.\pNesse caso, aproxime-se\ndos seus amigos.\pSe o adaptador sem fio não\nestiver conectado, ainda pode\lusar um cabo GBA Game Link.\pNesse caso, você deve ir\nao Direct Corner.\pAproveite o sistema de\ncomunicação sem fio.'
+  - offset: "0x1bdedf"
+    name: "PT-02 1bdedf"
+    expected: 'Aproveite o sistema de\ncomunicação sem fio.'
