@@ -77,7 +77,7 @@ def test_winning_text_controls_and_boxes(row):
     offset = int(row['offset'], 16)
     matches = re.findall(
         rf'^0x0*{offset:x}: (.*)$',
-        (ROOT / 'languages/de/combined_de.txt').read_text(), re.M | re.I,
+        (ROOT / 'languages/de/combined_de.txt').read_text(), re.MULTILINE | re.IGNORECASE,
     )
     assert (matches[-1] if matches else None) == row['de']
     if not row.get('changed'):
