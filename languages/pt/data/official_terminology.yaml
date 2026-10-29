@@ -1,0 +1,1233 @@
+# Décisions figées : « official » qualifie seulement les entrées explicitement attestées.
+schema_version: 1
+language: pt-BR
+frozen_on: '2026-10-29'
+scope: Glossaire de décision pour PT-01 à PT-88 ; aucune injection de masse ni nomenclature exhaustive prétendument
+  officielle.
+sources:
+  winds_br:
+    url: https://windswaves.pokemon.com/pt-br/
+    locale: pt-BR
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: 'Fiches Browt, Pombon et Gecqua : types et Habilidades ; région Brasil.'
+  winds_en:
+    url: https://windswaves.pokemon.com/en-us/
+    locale: en-US
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: 'Mêmes fiches et ordre : jointure Grass/Fire/Water et Overgrow/Blaze/Torrent.'
+  champions:
+    url: https://champions.pokemon.com/pt-br/pokemon/
+    locale: pt-BR
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: 'Section Treine seus Pokémon : Ataque, Defesa, Habilidades, movimentos ; noms d’objets anglais conservés.'
+  champions_gameplay:
+    url: https://champions.pokemon.com/pt-br/gameplay/
+    locale: pt-BR
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: Treinadores, Batalha Individual/Dupla, Mega-anéis ; PV désigne ici les Pontos de Vitória, pas HP.
+  tcg:
+    url: https://assets.pokemon.com/assets/cms2-pt-br/pdf/trading-card-game/rulebook/swsh6_rulebook_br.pdf
+    locale: pt-BR
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: Pages imprimées 4 (types TCG), 5 (PS), 15–16 (conditions), 35–37 (glossaire et Nocauteado). Ne pas
+      importer les mécaniques TCG dans CFRU.
+  portal:
+    url: https://www.pokemon.com/br
+    locale: pt-BR
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: 'Pokémon en destaque : noms internationaux et Habilidades parfois laissées en anglais ; page Pokédex
+      Bulbasaur bloquée par protection anti-robot lors de la consultation.'
+  project:
+    url: languages/en/combined_en.txt
+    locale: project
+    kind: project
+    accessed_on: '2026-10-29'
+    evidence: Source anglaise Unbound et contrat de conservation ; aucune autorité officielle Pokémon sur Borrius.
+  patch:
+    url: languages/fr/patches/status_abbrevs.py
+    locale: project
+    kind: project
+    accessed_on: '2026-10-29'
+    evidence: '_EN_STATUS : cinq statuts, pointeurs 0x3DFE18 stride 8 ; faint explicitement absent. languages/pt/lang.yaml
+      ne déclare pas status_badges.'
+  go_types:
+    url: https://pokemongo.com/pt-BR/news/go-battle-league-twilight-trails
+    locale: pt-BR
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: 'Sections Copas : Força de Vontade, Retrô, Cores, Fantasia et Dia das Bruxas ; noms de types de jeu
+      (13 types attestés).'
+  pokedex_stats:
+    url: https://www.pokemon.com/br/pokedex/blitzle
+    locale: pt-BR
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: 'Résultat indexé de la page officielle : six libellés Estatísticas en portugais ; descriptions et
+      talents restent anglais. Pas de généralisation à toute la Pokédex.'
+  potion:
+    url: https://www.pokemon.com/br/pokemon-estampas-ilustradas/cartas-de-pokemon/series/sm1/127/
+    locale: pt-BR
+    kind: official
+    accessed_on: '2026-10-29'
+    evidence: 'Carte Sol e Lua 127/149 : nom Poção, catégorie Treinador - Item, objet de soin. Attestation TCG,
+      adoption éditoriale de ce nom pour Potion ; effets CFRU conservés.'
+policy:
+  priority:
+  - official_pt_br_same_game_concept
+  - explicit_project_choice
+  - preserve_english
+  pt_pt: Ne jamais traiter une source pt-PT ou une page /pt/ non identifiée comme une preuve pt-BR. Vérifier la
+    région Brasil et conserver le contexte du média.
+  unlisted: Conserver exactement le nom anglais de la ROM pour toute entrée non répertoriée. Une nouvelle exception
+    exige URL primaire, date, concept identique, variante rejetée et test, dans un même commit.
+  updates: Aucune actualisation automatique au fil des sites officiels. Toute révision est explicite, versionnée
+    et vérifiée contre les contraintes ROM.
+  cells: Ne jamais tronquer silencieusement un nom canonique. Si le budget octets/pixels échoue, conserver le nom
+    anglais existant et documenter une exception de rendu par offset dans le lot ; aucune abréviation improvisée.
+  infrastructure: Les termes contenant ã õ Ã Õ dépendent de F-758 ; le glossaire Unicode ne prouve pas leur rendu
+    ROM.
+status_display:
+  abbreviations:
+    poison: PSN
+    burn: QMD
+    freeze: CNG
+    paralysis: PAR
+    sleep: DRM
+    faint: DES
+  classification: project_choice
+  decision: Codes existants conservés pour stabilité ; aucune source primaire consultée ne les atteste comme abréviations
+    officielles PT-BR. PSN conserve le code anglais ; QMD/CNG/PAR/DRM sont des conventions locales.
+  text_table: '0x3DFE18'
+  stride_bytes: 8
+  cell_bytes: 4
+  glyphs: 3
+  faint_applied: false
+  battle_badges_localized: false
+  evidence: 'status_abbrevs suit les cinq pointeurs vivants ; PSN/PAR sont inchangés, trois écritures DRM/QMD/CNG
+    ; faint ignoré. Aucun patch status_badges déclaré : les badges graphiques de combat restent anglais.'
+  ko: DES provisoire et inactif ; ne pas revendiquer son affichage. Ne modifier KO qu’avec localisation réelle du
+    texte/graphisme et preuve de rendu dans un ticket dédié.
+categories:
+  species:
+    fallback: preserve_english
+    decision: Conserver les noms internationaux de la ROM anglaise, formes et ponctuation comprises. Les noms du
+      doublage ou traductions littérales ne sont pas une nomenclature de jeu.
+    entries:
+      Bulbasaur:
+        value: Bulbasaur
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants:
+        - value: Bulbassauro
+          kind: community_or_dubbing
+          decision: rejected
+          reason: Non retenu comme nom de jeu ; aucune attestation primaire consultée pour cette variante.
+      Charizard:
+        value: Charizard
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Pikachu:
+        value: Pikachu
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Nidoran♀:
+        value: Nidoran♀
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Nidoran♂:
+        value: Nidoran♂
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Mr. Mime:
+        value: Mr. Mime
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      'Type: Null':
+        value: 'Type: Null'
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Hoopa:
+        value: Hoopa
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+  moves:
+    fallback: preserve_english
+    decision: Noms anglais par défaut, y compris HM/TM ; ne pas convertir automatiquement un nom de carte ou de
+      doublage en capacité CFRU. Une exception exige une preuve primaire identifiant le même mouvement.
+    entries:
+      Tackle:
+        value: Tackle
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Thunderbolt:
+        value: Thunderbolt
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants:
+        - value: Choque do Trovão
+          kind: community_or_dubbing
+          decision: rejected
+          reason: Candidat non attesté pour ce mouvement dans les sources primaires consultées ; pas de promotion
+            en officiel.
+      Aerial Ace:
+        value: Aerial Ace
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Surf:
+        value: Surf
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Cut:
+        value: Cut
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Fly:
+        value: Fly
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Strength:
+        value: Strength
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Rock Smash:
+        value: Rock Smash
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Waterfall:
+        value: Waterfall
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Dive:
+        value: Dive
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+  abilities:
+    fallback: preserve_english
+    decision: Employer les équivalents PT-BR attestés pour le même talent dans les fiches officielles bilingues.
+      Ne pas assimiler une Habilidade TCG à un talent CFRU ; anglais pour les autres.
+    entries:
+      Overgrow:
+        value: Supercrescimento
+        classification: official_pt_br
+        sources:
+        - winds_br
+        - winds_en
+        evidence: Jointure des fiches du même Pokémon initial sur les pages BR et EN, champ Habilidade/Ability.
+        variants: []
+      Blaze:
+        value: Incêndio
+        classification: official_pt_br
+        sources:
+        - winds_br
+        - winds_en
+        evidence: Jointure des fiches du même Pokémon initial sur les pages BR et EN, champ Habilidade/Ability.
+        variants: []
+      Torrent:
+        value: Dilúvio
+        classification: official_pt_br
+        sources:
+        - winds_br
+        - winds_en
+        evidence: Jointure des fiches du même Pokémon initial sur les pages BR et EN, champ Habilidade/Ability.
+        variants: []
+      Levitate:
+        value: Levitate
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Intimidate:
+        value: Intimidate
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Clear Body:
+        value: Clear Body
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Own Tempo:
+        value: Own Tempo
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+  items:
+    fallback: preserve_english
+    decision: Conserver les noms anglais sauf exception explicitement attestée pour le même objet. Aucune conversion
+      globale TCG→objets CFRU, ni traduction automatique des Baies, Méga-Gemmes ou objets propres à Unbound.
+    entries:
+      Potion:
+        value: Poção
+        classification: official_pt_br
+        sources:
+        - potion
+        evidence: Nom officiel brésilien de la carte objet de soin Sol e Lua 127/149. Adoption de son nom pour l’objet
+          Potion ; ne pas importer la quantité de soin TCG.
+        variants:
+        - value: Potion
+          kind: retained_english
+          decision: rejected
+          reason: Poção attesté dans la source primaire TCG ; exception nominale explicite, pas conversion générale.
+      Poké Ball:
+        value: Poké Ball
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Great Ball:
+        value: Great Ball
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Ultra Ball:
+        value: Ultra Ball
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Master Ball:
+        value: Master Ball
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Rare Candy:
+        value: Rare Candy
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Oran Berry:
+        value: Oran Berry
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Mega Ring:
+        value: Mega Ring
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Zygarde Cube:
+        value: Zygarde Cube
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+  types:
+    fallback: preserve_english
+    decision: 18 types de jeu figés ci-dessous. Treize attestés par les règles officielles GO BR ; les cinq restants
+      sont des choix de projet explicitement identifiés. Les types TCG distincts restent des variantes contextuelles.
+    entries:
+      Normal:
+        value: Normal
+        classification: project_choice
+        sources:
+        - project
+        - tcg
+        evidence: Choix éditorial PT-BR du projet ; ne constitue pas une attestation officielle dans les sources
+          primaires consultées.
+        variants:
+        - value: Incolor
+          kind: official_tcg_only
+          decision: rejected
+          reason: Attesté page 4 du manuel TCG ; système de types différent, non retenu pour les 18 types CFRU.
+      Fighting:
+        value: Lutador
+        classification: official_pt_br
+        sources:
+        - go_types
+        - tcg
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants:
+        - value: Luta
+          kind: official_tcg_only
+          decision: rejected
+          reason: Attesté page 4 du manuel TCG ; système de types différent, non retenu pour les 18 types CFRU.
+      Flying:
+        value: Voador
+        classification: project_choice
+        sources:
+        - project
+        evidence: Choix éditorial PT-BR du projet ; ne constitue pas une attestation officielle dans les sources
+          primaires consultées.
+        variants: []
+      Poison:
+        value: Venenoso
+        classification: official_pt_br
+        sources:
+        - go_types
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants: []
+      Ground:
+        value: Terrestre
+        classification: project_choice
+        sources:
+        - project
+        evidence: Choix éditorial PT-BR du projet ; ne constitue pas une attestation officielle dans les sources
+          primaires consultées.
+        variants: []
+      Rock:
+        value: Pedra
+        classification: project_choice
+        sources:
+        - project
+        evidence: Choix éditorial PT-BR du projet ; ne constitue pas une attestation officielle dans les sources
+          primaires consultées.
+        variants: []
+      Bug:
+        value: Inseto
+        classification: official_pt_br
+        sources:
+        - go_types
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants: []
+      Ghost:
+        value: Fantasma
+        classification: official_pt_br
+        sources:
+        - go_types
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants: []
+      Steel:
+        value: Aço
+        classification: official_pt_br
+        sources:
+        - go_types
+        - tcg
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants:
+        - value: Metal
+          kind: official_tcg_only
+          decision: rejected
+          reason: Attesté page 4 du manuel TCG ; système de types différent, non retenu pour les 18 types CFRU.
+      Fire:
+        value: Fogo
+        classification: official_pt_br
+        sources:
+        - go_types
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants: []
+      Water:
+        value: Água
+        classification: official_pt_br
+        sources:
+        - go_types
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants: []
+      Grass:
+        value: Planta
+        classification: official_pt_br
+        sources:
+        - go_types
+        - tcg
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants:
+        - value: Grama
+          kind: community
+          decision: rejected
+          reason: 'Non retenu : Planta est attesté dans le jeu officiel BR.'
+      Electric:
+        value: Elétrico
+        classification: official_pt_br
+        sources:
+        - go_types
+        - tcg
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants:
+        - value: Raios
+          kind: official_tcg_only
+          decision: rejected
+          reason: Attesté page 4 du manuel TCG ; système de types différent, non retenu pour les 18 types CFRU.
+      Psychic:
+        value: Psíquico
+        classification: official_pt_br
+        sources:
+        - go_types
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants: []
+      Ice:
+        value: Gelo
+        classification: project_choice
+        sources:
+        - project
+        evidence: Choix éditorial PT-BR du projet ; ne constitue pas une attestation officielle dans les sources
+          primaires consultées.
+        variants: []
+      Dragon:
+        value: Dragão
+        classification: official_pt_br
+        sources:
+        - go_types
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants: []
+      Dark:
+        value: Sombrio
+        classification: official_pt_br
+        sources:
+        - go_types
+        - tcg
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants:
+        - value: Escuridão
+          kind: official_tcg_only
+          decision: rejected
+          reason: Attesté page 4 du manuel TCG ; système de types différent, non retenu pour les 18 types CFRU.
+        - value: Noturno
+          kind: community
+          decision: rejected
+          reason: Non retenu par la politique de projet ; aucune preuve primaire de jeu consultée.
+      Fairy:
+        value: Fada
+        classification: official_pt_br
+        sources:
+        - go_types
+        evidence: Noms de types explicitement énumérés dans les règles des coupes GO en PT-BR ; même type élémentaire,
+          adoption dans CFRU.
+        variants: []
+  natures:
+    fallback: preserve_english
+    decision: Conserver les 25 noms anglais, sans fabriquer des noms officiels depuis leur traduction littérale.
+      Des variantes communautaires ou PT-PT ne suffisent pas à les remplacer.
+    entries:
+      Hardy:
+        value: Hardy
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Lonely:
+        value: Lonely
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Brave:
+        value: Brave
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Adamant:
+        value: Adamant
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants:
+        - value: Firme
+          kind: community
+          decision: rejected
+          reason: Absence de preuve primaire PT-BR dans les sources consultées ; conserver Adamant.
+      Naughty:
+        value: Naughty
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Bold:
+        value: Bold
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Docile:
+        value: Docile
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Relaxed:
+        value: Relaxed
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Impish:
+        value: Impish
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Lax:
+        value: Lax
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Timid:
+        value: Timid
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Hasty:
+        value: Hasty
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Serious:
+        value: Serious
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Jolly:
+        value: Jolly
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Naive:
+        value: Naive
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Modest:
+        value: Modest
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Mild:
+        value: Mild
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Quiet:
+        value: Quiet
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Bashful:
+        value: Bashful
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Rash:
+        value: Rash
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Calm:
+        value: Calm
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Gentle:
+        value: Gentle
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Sassy:
+        value: Sassy
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Careful:
+        value: Careful
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+      Quirky:
+        value: Quirky
+        classification: retained_english
+        sources:
+        - project
+        evidence: Aucun équivalent PT-BR établi par les sources consultées pour cette entrée ; conserver le nom
+          source anglais.
+        variants: []
+  stats:
+    fallback: preserve_english
+    decision: Les six statistiques principales reprennent les libellés attestés de la Pokédex BR. Precisão et Evasão
+      sont des choix éditoriaux. PV de Champions désigne une monnaie, pas HP.
+    entries:
+      HP:
+        value: PS
+        classification: official_pt_br
+        sources:
+        - pokedex_stats
+        evidence: Libellé exact de la rubrique Estatísticas de Blitzle sur la page officielle BR (contenu indexé
+          consulté).
+        variants:
+        - value: HP
+          kind: retained_english
+          decision: rejected
+          reason: Équivalent source ; PS retenu en texte futur.
+        - value: PV
+          kind: other_context
+          decision: rejected
+          reason: Champions emploie PV pour Pontos de Vitória, une monnaie ; éviter la confusion.
+      Attack:
+        value: Ataque
+        classification: official_pt_br
+        sources:
+        - pokedex_stats
+        evidence: Libellé exact de la rubrique Estatísticas de Blitzle sur la page officielle BR (contenu indexé
+          consulté).
+        variants: []
+      Defense:
+        value: Defesa
+        classification: official_pt_br
+        sources:
+        - pokedex_stats
+        evidence: Libellé exact de la rubrique Estatísticas de Blitzle sur la page officielle BR (contenu indexé
+          consulté).
+        variants: []
+      Special Attack:
+        value: Ataque Especial
+        classification: official_pt_br
+        sources:
+        - pokedex_stats
+        evidence: Libellé exact de la rubrique Estatísticas de Blitzle sur la page officielle BR (contenu indexé
+          consulté).
+        variants: []
+      Special Defense:
+        value: Defesa Especial
+        classification: official_pt_br
+        sources:
+        - pokedex_stats
+        evidence: Libellé exact de la rubrique Estatísticas de Blitzle sur la page officielle BR (contenu indexé
+          consulté).
+        variants: []
+      Speed:
+        value: Velocidade
+        classification: official_pt_br
+        sources:
+        - pokedex_stats
+        evidence: Libellé exact de la rubrique Estatísticas de Blitzle sur la page officielle BR (contenu indexé
+          consulté).
+        variants: []
+      Accuracy:
+        value: Precisão
+        classification: project_choice
+        sources:
+        - project
+        evidence: Libellé éditorial du projet, sans attestation primaire de jeu consultée.
+        variants: []
+      Evasion:
+        value: Evasão
+        classification: project_choice
+        sources:
+        - project
+        evidence: Libellé éditorial du projet, sans attestation primaire de jeu consultée.
+        variants: []
+  statuses:
+    fallback: preserve_english
+    decision: Le manuel brésilien atteste les états TCG, sans attester leurs abréviations ni leurs effets CFRU.
+      Congelado est un choix éditorial. Pour faint, préférer nocauteado en prose ; DES reste une métadonnée provisoire
+      inactive, KO demeure le rendu existant.
+    entries:
+      poison:
+        value: Envenenado
+        classification: official_pt_br
+        sources:
+        - tcg
+        evidence: Manuel TCG BR pages 15–16 (états) ou glossaire pages 35–37 (Nocauteado) ; emploi en prose, pas
+          preuve d’une abréviation GBA.
+        variants: []
+      burn:
+        value: Queimado
+        classification: official_pt_br
+        sources:
+        - tcg
+        evidence: Manuel TCG BR pages 15–16 (états) ou glossaire pages 35–37 (Nocauteado) ; emploi en prose, pas
+          preuve d’une abréviation GBA.
+        variants: []
+      freeze:
+        value: Congelado
+        classification: project_choice
+        sources:
+        - project
+        evidence: 'Pas d’état gel TCG : choix éditorial de projet, aucune preuve primaire de jeu consultée.'
+        variants: []
+      paralysis:
+        value: Paralisado
+        classification: official_pt_br
+        sources:
+        - tcg
+        evidence: Manuel TCG BR pages 15–16 (états) ou glossaire pages 35–37 (Nocauteado) ; emploi en prose, pas
+          preuve d’une abréviation GBA.
+        variants: []
+      sleep:
+        value: Adormecido
+        classification: official_pt_br
+        sources:
+        - tcg
+        evidence: Manuel TCG BR pages 15–16 (états) ou glossaire pages 35–37 (Nocauteado) ; emploi en prose, pas
+          preuve d’une abréviation GBA.
+        variants:
+        - value: Dormindo
+          kind: project_variant
+          decision: rejected
+          reason: DRM est une convention de projet, pas une preuve que Dormindo serait le nom officiel.
+      faint:
+        value: Nocauteado
+        classification: official_pt_br
+        sources:
+        - tcg
+        evidence: Manuel TCG BR pages 15–16 (états) ou glossaire pages 35–37 (Nocauteado) ; emploi en prose, pas
+          preuve d’une abréviation GBA.
+        variants:
+        - value: Desmaiado
+          kind: project_variant
+          decision: rejected
+          reason: Explique DES historique ; ne remplace pas Nocauteado en prose et n’est pas appliqué en ROM.
+      confusion:
+        value: Confuso
+        classification: official_pt_br
+        sources:
+        - tcg
+        evidence: Manuel TCG BR pages 15–16 (états) ou glossaire pages 35–37 (Nocauteado) ; emploi en prose, pas
+          preuve d’une abréviation GBA.
+        variants: []
+  system:
+    fallback: preserve_english
+    decision: PT-BR exclusivement ; Habilidade pour le talent et movimento pour la capacité, afin de distinguer
+      les deux concepts. Les commandes de menus sont des traductions éditoriales. Pas de reprise automatique PT-PT
+      (ex. ficheiro).
+    entries:
+      Ability:
+        value: Habilidade
+        classification: official_pt_br
+        sources:
+        - champions
+        evidence: Terminologie de la page officielle Champions BR.
+        variants: []
+      Move:
+        value: movimento
+        classification: official_pt_br
+        sources:
+        - champions
+        evidence: Terminologie de la page officielle Champions BR.
+        variants: []
+      Trainer:
+        value: Treinador
+        classification: official_pt_br
+        sources:
+        - champions_gameplay
+        evidence: Terminologie de la page officielle Champions BR.
+        variants: []
+      Single Battle:
+        value: Batalha Individual
+        classification: official_pt_br
+        sources:
+        - champions_gameplay
+        evidence: Terminologie de la page officielle Champions BR.
+        variants: []
+      Double Battle:
+        value: Batalha Dupla
+        classification: official_pt_br
+        sources:
+        - champions_gameplay
+        evidence: Terminologie de la page officielle Champions BR.
+        variants: []
+      Bag:
+        value: Bolsa
+        classification: project_choice
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      Save:
+        value: Salvar
+        classification: project_choice
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      Load:
+        value: Carregar
+        classification: project_choice
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      'Yes':
+        value: Sim
+        classification: project_choice
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      'No':
+        value: Não
+        classification: project_choice
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      Cancel:
+        value: Cancelar
+        classification: project_choice
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      Pokédex:
+        value: Pokédex
+        classification: retained_english
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      Pokémon Center:
+        value: Centro Pokémon
+        classification: project_choice
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      TM:
+        value: TM
+        classification: retained_english
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      HM:
+        value: HM
+        classification: retained_english
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+      PC:
+        value: PC
+        classification: retained_english
+        sources:
+        - project
+        evidence: Convention éditoriale du projet ; aucune revendication de traduction officielle du menu Unbound.
+        variants: []
+  borrius_names:
+    fallback: preserve_english
+    decision: 'Tous les noms propres originaux Unbound restent strictement anglais : lieux complets, personnages,
+      factions, sociétés et sigles. Traduire uniquement les mots communs hors du nom (ex. região de Borrius). Aucun
+      nom Borrius n’est présenté comme officiel Pokémon, ni repris du FR/PT-PT.'
+    entries:
+      Borrius:
+        value: Borrius
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Frozen Heights:
+        value: Frozen Heights
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Bellin Town:
+        value: Bellin Town
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Dresco Town:
+        value: Dresco Town
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Crater Town:
+        value: Crater Town
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Blizzard City:
+        value: Blizzard City
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Fallshore City:
+        value: Fallshore City
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Dehara City:
+        value: Dehara City
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Antisis City:
+        value: Antisis City
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Seaport City:
+        value: Seaport City
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Polder Town:
+        value: Polder Town
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Redwood Village:
+        value: Redwood Village
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Cube Corp.:
+        value: Cube Corp.
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      KBT Expressway:
+        value: KBT Expressway
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Professor Log:
+        value: Professor Log
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Jax:
+        value: Jax
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Marlon:
+        value: Marlon
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      Zeph:
+        value: Zeph
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []
+      The Shadows:
+        value: The Shadows
+        classification: retained_english
+        sources:
+        - project
+        evidence: Nom propre du fangame Unbound ; conservation éditoriale du nom anglais, pas de localisation officielle
+          Pokémon revendiquée.
+        variants: []

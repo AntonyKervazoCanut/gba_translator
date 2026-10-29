@@ -10,13 +10,16 @@ output_rom: GenedRom-pt.gba
 patch_source: input/roms/englishrom.gba
 version_label: PT.2.1.0
 font_glyphs: "ãõâêôáéíóúàçÃÕÂÊÔÁÉÍÓÚÀÇ"
+# Conventions de projet, non attestées comme codes officiels PT-BR.
+# Voir data/official_terminology.yaml ; seuls les cinq états de la table texte sont patchés.
+# Les badges graphiques de combat restent anglais (pas de patch status_badges).
 status_abbrev:
   poison: PSN
   burn: QMD
   freeze: CNG
   paralysis: PAR
   sleep: DRM
-  faint: DES
+  faint: DES  # Provisoire/inactif : faint est ignoré par status_abbrevs ; KO inchangé.
 patches:
   - inline
   - repair_lz77
