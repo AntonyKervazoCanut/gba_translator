@@ -38,7 +38,8 @@ NAME_FIXES = {
     # translation_ready.json and the Spanish extraction. Budget: stride 26 -
     # 12 (leading spaces) - 1 (terminator) = 13 glyphs.
     0x3DEED8: (" " * 12 + "Berry Pouch", " " * 12 + "Beerentasche", 26),
-    0x87A0B0: (" " * 12 + "Berry Pouch", " " * 12 + "Beerentasche", 26),
+    # La cellule vivante 0x87A0BC appartient désormais à item_names_objets02.
+    # Ne plus réécrire les 12 octets de padding de la structure précédente.
     # Town Map key item: same class-2 structure.
     0x3DEE28: (" " * 12 + "Town Map", " " * 12 + "Karte", 26),
     0x87A000: (" " * 12 + "Town Map", " " * 12 + "Karte", 26),

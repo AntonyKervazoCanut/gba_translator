@@ -204,6 +204,7 @@ patches:
   - pc_move_labels       # cellule no-pointer « Move To Bag » → « Zum Beutel »
   - trainer_card_date
   - fixed_table_names
+  - item_names_objets02  # B-1027 : 104 cellules exclusivement, depuis combined_de
   - trainer_class_names  # table fixe 13 octets, préimages EN strictes
   # Pointer-relocated text passes the generic pipeline drops. Both run LAST
   # (after `inline` and every other relocation) and are dispatched without a
