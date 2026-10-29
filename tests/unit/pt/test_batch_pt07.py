@@ -51,3 +51,26 @@ def test_persons_and_grammar_keep_the_english_meaning():
     assert actual[0x3EA56D] == 'PENSAR' and actual[0x3EA573] == 'OUVIR'
     assert actual[0x3EA617] == 'CURTIR' and actual[0x3EA61D] == 'CURTE'
     assert actual[0x3EA587] == 'NÃO GOSTAR' and actual[0x3EA5E3] == 'NÃO GOSTA'
+
+
+def test_per_offset_report_has_exact_texts_and_complete_pointer_evidence():
+    report = json.loads((ROOT / 'languages/pt/data/pt07_audit.json').read_text())
+    actual = translations()
+    rows = {int(row['offset'], 16): row for row in report['entries']}
+    assert len(report['entries']) == len(rows) == 281
+    assert rows.keys() == batch_offsets()
+    assert report['summary']['exceptions'] == 0
+    for offset, text in actual.items():
+        row = rows[offset]
+        assert row['portuguese'] == text
+        assert row['status'] == 'traduit/vérifié'
+        assert row['encoded_hex'] == TextEncoder.encode_pokemon(text, strict=True).hex()
+        assert row['english'] and row['french_comparison'] and row['decision']
+        assert 0x3E9000 < int(row['pointer_site'], 16) < 0x3EAE00
+        assert int(row['live_target'], 16) > 0
+        assert 4 <= row['group_index'] <= 10
+        assert row['group_descriptor'] == hex(0x3ECED4 + 8 * row['group_index'])
+        assert row['control_signature'] == [] and row['page_breaks'] == 0
+        assert len(row['widths_pixels']) == 5
+        assert all(width <= limit for width, limit in
+                   zip(row['widths_pixels'], [59, 72, 72, 72, 72]))
