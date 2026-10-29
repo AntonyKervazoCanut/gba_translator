@@ -7,7 +7,11 @@
       "alias": "GLOSSAIRE",
       "title": "IT — Établir le glossaire officiel et les formes contraintes",
       "description": "Suite de l'audit A-662, projet gba_translator (branche unbound).\n\nPréalables bloquants (dependsOn requis) : aucun.\nCes identifiants logiques sont résolus dans docs/analysis/audit_traduction_it_tickets.json. Ne pas commencer l'implémentation avant leur clôture et le raccordement effectif du graphe. Si le graphe ne les expose pas encore, consulter le manifeste et attendre les préalables, sans les dupliquer.\n\nCréer languages/it/data/official_terminology.yaml avant toute correction de traduction. Reprendre le schéma utile DE, sources officielles et corpus PokeAPI figé c0a9bc75af3a455cdfa27dde21e4ec95aedd3f25 (IT=8, EN=9), empreintes dans le rapport. Documenter noms complets/abréviations distincts, types, statuts et badges PSN/SCT/CON/PAR/SON/KO, attaques, talents, objets, natures, stats et lieux génériques. Les noms propres Unbound demandent une convention IT. Ne pas utiliser les indices PokeAPI comme indices CFRU. Documenter les budgets de cellules ; inclure les écarts confirmés (Antimeteo, Cambiacolore, Scioltezza, Lottascudo). Les 503 écarts incluent des abréviations : ne pas tout remplacer automatiquement. Tests du schéma, des sources et des formes contraintes. Acceptation : glossaire versionné exploitable sans réseau et décision sourcée pour chaque catégorie ; aucune traduction en masse.\n\nRéférence : docs/analysis/audit_traduction_it.md (état mesuré et limites) et ses CSV/JSON annexes. Relire les sources courantes : ce snapshot ne remplace pas HEAD.\n\nRègles impératives :\n- Éditions chirurgicales de combined_it.txt uniquement pour les textes ; jamais de régénération, tri ou sed global ; modifier la dernière occurrence de chaque offset. Les seuls autres fichiers autorisés sont les fichiers techniques/de curation explicitement nommés dans ce ticket et leurs tests.\n- Chaque ligne ajoutée/modifiée : entrée exacte dans languages/it/protected_entries.yaml dans le même commit (hook pré-commit activé).\n- Relire le fichier au moment d'éditer, committer immédiatement, puis relire le diff (Pattern C), avec chemins précis.\n- Validation : make build-it + make test-python ; contrôler les pointeurs vivants et cellules voisines, pas seulement les offsets d'origine. Ne jamais toucher au hash de la ROM FR.\n- Commits en français type(scope): description. Aucun push, aucun lancement de pipeline distant.\n",
-      "dependsOnAliases": []
+      "dependsOnAliases": [],
+      "ticketId": "eeba8f53-e149-45f3-8d0b-33135f89de52",
+      "ticketLabel": "A-757",
+      "requiredDependsOnTicketIds": [],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "OUTILLAGE",
@@ -15,6 +19,14 @@
       "description": "Suite de l'audit A-662, projet gba_translator (branche unbound).\n\nPréalables bloquants (dependsOn requis) : GLOSSAIRE.\nCes identifiants logiques sont résolus dans docs/analysis/audit_traduction_it_tickets.json. Ne pas commencer l'implémentation avant leur clôture et le raccordement effectif du graphe. Si le graphe ne les expose pas encore, consulter le manifeste et attendre les préalables, sans les dupliquer.\n\nCréer make audit-it et l'auditeur IT en réutilisant les briques de audit-de : last-wins, couverture FR/EN explicite, exclusions non textuelles sourcées, comparaison terminologique, glyphes, placeholders et contrôle FC/FD/F7/F8/F9 byte-à-byte, budgets de fenêtres, collisions bloquantes. Lire les pointeurs vivants de la ROM IT fraîche. Ajouter l'index offset→scripts→carte/chapitre pour localiser les dialogues ; une mention de ville ne vaut pas lieu de scène. État initial : 10 544 absents FR, 555 identiques EN, 42 cellules trop longues, 19 échappements suspects, 92 différences de nombre FD et 63 placeholders lexicaux ; voir CSV pour détails. Séparer défaut confirmé/candidat/exclusion. Produire JSON reproductible et tests avec vrais extraits binaires. Préserver le hash FR. Acceptation : outil hors réseau, code retour bloquant sur défaut confirmé et exceptions étroites, aucune modification de traduction en masse.\n\nRéférence : docs/analysis/audit_traduction_it.md (état mesuré et limites) et ses CSV/JSON annexes. Relire les sources courantes : ce snapshot ne remplace pas HEAD.\n\nRègles impératives :\n- Éditions chirurgicales de combined_it.txt uniquement pour les textes ; jamais de régénération, tri ou sed global ; modifier la dernière occurrence de chaque offset. Les seuls autres fichiers autorisés sont les fichiers techniques/de curation explicitement nommés dans ce ticket et leurs tests.\n- Chaque ligne ajoutée/modifiée : entrée exacte dans languages/it/protected_entries.yaml dans le même commit (hook pré-commit activé).\n- Relire le fichier au moment d'éditer, committer immédiatement, puis relire le diff (Pattern C), avec chemins précis.\n- Validation : make build-it + make test-python ; contrôler les pointeurs vivants et cellules voisines, pas seulement les offsets d'origine. Ne jamais toucher au hash de la ROM FR.\n- Commits en français type(scope): description. Aucun push, aucun lancement de pipeline distant.\n",
       "dependsOnAliases": [
         "GLOSSAIRE"
+      ],
+      "ticketId": "53befd19-16a5-4081-856d-7aa257335cdb",
+      "ticketLabel": "A-916",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52"
       ]
     },
     {
@@ -24,6 +36,16 @@
       "dependsOnAliases": [
         "GLOSSAIRE",
         "OUTILLAGE"
+      ],
+      "ticketId": "fa2187bf-2e15-4a9e-a0d4-b81dbe888496",
+      "ticketLabel": "A-917",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb"
       ]
     },
     {
@@ -34,6 +56,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "567d27df-f5cd-489e-b2ca-4745c75b2a62",
+      "ticketLabel": "A-918",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -44,6 +78,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "70f36586-de9b-470b-9e1b-94f1424c97ec",
+      "ticketLabel": "A-919",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -54,6 +100,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "035bbf6d-0b1b-45ab-b7df-9ceba825f0e8",
+      "ticketLabel": "A-920",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -64,6 +122,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "1f1f8267-8126-4b49-945a-7051e3dc994f",
+      "ticketLabel": "A-921",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -74,6 +144,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "aa0a7e25-3f88-4e0f-8b3d-9ad0113f8ff0",
+      "ticketLabel": "A-922",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -84,6 +166,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "31142739-0424-428b-a2f1-7a442f5dae7d",
+      "ticketLabel": "A-923",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -94,6 +188,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "fa539a47-87e6-4de6-9d22-bb90e9b138e0",
+      "ticketLabel": "A-924",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -104,6 +210,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "b8e4758b-d7fa-4813-8944-e9f0f741543f",
+      "ticketLabel": "A-925",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -114,6 +232,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "4305b93e-af97-4975-bea0-359a085f5157",
+      "ticketLabel": "A-926",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -124,7 +254,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "b697c804-3f7d-4085-ac6c-d6c7978a0302",
+      "ticketLabel": "A-927",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-011",
@@ -134,7 +272,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "de1c6801-9310-4139-8968-3c5ea1e3ae8b",
+      "ticketLabel": "A-928",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-012",
@@ -144,6 +290,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "b15b9eb1-24f5-4252-a08b-a77bfe882ad8",
+      "ticketLabel": "A-929",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -154,7 +312,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "af4ed757-9fc7-4e2c-9d1e-8f757f5478b5",
+      "ticketLabel": "A-930",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-014",
@@ -164,7 +330,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "67447626-1a3a-4a1f-9943-9752a5af42f1",
+      "ticketLabel": "A-931",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-015",
@@ -174,7 +348,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "4e47bfde-eba1-48f5-beb2-b3a3d6ef28af",
+      "ticketLabel": "A-932",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-016",
@@ -184,7 +366,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "cced820c-d176-4b73-bb53-8d4a28e6f4e9",
+      "ticketLabel": "A-933",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-017",
@@ -194,7 +384,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "3ded96e0-dc5b-4ff7-9196-aad2bcfbdc10",
+      "ticketLabel": "A-934",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-018",
@@ -204,7 +402,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "cdc73f9f-a5ef-45e8-8d47-99f6b1c1def1",
+      "ticketLabel": "A-935",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-019",
@@ -214,7 +420,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "8e1da5ea-8ef9-4b6f-81a6-fe10723da8f1",
+      "ticketLabel": "A-936",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-020",
@@ -224,7 +438,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "1a643c74-7502-4e17-877a-4ac2b221233d",
+      "ticketLabel": "A-937",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-021",
@@ -234,7 +456,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "b19d5de8-06f4-4075-bdb5-857d676bbb94",
+      "ticketLabel": "A-938",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-022",
@@ -244,7 +474,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "48bb1a03-cde5-42ff-b11a-742b488923e9",
+      "ticketLabel": "A-939",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-023",
@@ -254,7 +492,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "a6276137-ea56-41e9-8945-44d436ab583c",
+      "ticketLabel": "A-940",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-024",
@@ -264,7 +510,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "34ff24d6-21e9-42d1-badf-d1eb04e691d2",
+      "ticketLabel": "A-941",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-025",
@@ -274,7 +528,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "ffcfc973-1076-47e1-80db-798b2eb88895",
+      "ticketLabel": "A-942",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-026",
@@ -284,7 +546,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "97e20e1a-3c92-428b-9cc8-017e6950ad61",
+      "ticketLabel": "A-943",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-027",
@@ -294,7 +564,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "c8f34cc2-4949-408b-bd51-88b0d2f9d106",
+      "ticketLabel": "A-944",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-028",
@@ -304,6 +582,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "003ef604-168e-4dbc-8ebd-ccf1ba9f178e",
+      "ticketLabel": "A-945",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -314,7 +604,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "cdece56d-d065-49ab-9407-d0ee7d886492",
+      "ticketLabel": "A-946",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-030",
@@ -324,7 +622,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "c8cf3361-a464-4b97-ac6c-c7dfd4a2daf5",
+      "ticketLabel": "A-947",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-031",
@@ -334,7 +640,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "ca211ad1-e280-45a2-9eca-fc780c1f06f0",
+      "ticketLabel": "A-948",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-032",
@@ -344,7 +658,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "d419ed01-a7aa-498c-a0fd-0929a0d9d054",
+      "ticketLabel": "A-949",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-033",
@@ -354,7 +676,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "946d6182-4217-4525-8f2d-ca02003e99a1",
+      "ticketLabel": "A-950",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-034",
@@ -364,7 +694,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "75decc80-97b0-4393-834a-60ba867c77f5",
+      "ticketLabel": "A-951",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-035",
@@ -374,7 +712,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "fd9d9f65-4561-46d3-8aa2-05ebbab68ac5",
+      "ticketLabel": "A-952",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-036",
@@ -384,7 +730,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "e1f7d504-34ec-4207-b474-fef5d5f95c24",
+      "ticketLabel": "A-953",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-037",
@@ -394,7 +748,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "cc3a2d85-261d-41ec-900e-0b7a23e9026b",
+      "ticketLabel": "A-954",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-038",
@@ -404,7 +766,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "d4e5d174-6e25-41e2-9ce0-ff9e41c41297",
+      "ticketLabel": "A-955",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-039",
@@ -414,7 +784,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "3164ad2d-2284-4cc5-a4e7-f8d5f478c494",
+      "ticketLabel": "A-956",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-040",
@@ -424,7 +802,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "63a6ce91-52bc-4912-9a74-16f540725070",
+      "ticketLabel": "A-957",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-041",
@@ -434,7 +820,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "0ceb6961-b64c-4e2e-958e-cea83a9f8ee5",
+      "ticketLabel": "A-958",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-042",
@@ -444,6 +838,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "eed540d1-4dd0-43ca-9b6b-64697f7f9c63",
+      "ticketLabel": "A-959",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -454,7 +860,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "db886487-7a71-4d98-9e9b-f461e55142cb",
+      "ticketLabel": "A-960",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-044",
@@ -464,7 +878,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "f178d865-95e6-48f3-b8bd-32091b3b5088",
+      "ticketLabel": "A-961",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-045",
@@ -474,7 +896,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "8adbc51f-e083-4d75-9e4d-b4f1340d5116",
+      "ticketLabel": "A-962",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-046",
@@ -484,7 +914,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "65c98305-a09f-4621-bf55-2fd8c9d72ab6",
+      "ticketLabel": "A-963",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-047",
@@ -494,7 +932,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "698c95d0-2644-4df2-89eb-594984a34644",
+      "ticketLabel": "A-964",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-048",
@@ -504,7 +950,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "a1cdbace-5b2b-47b0-8f3b-9e6e4e8124bf",
+      "ticketLabel": "A-965",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-049",
@@ -514,7 +968,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "8a243290-7303-4721-83bf-995eede1907c",
+      "ticketLabel": "A-966",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-050",
@@ -524,7 +986,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "cdf4279c-0e9c-4fe1-a174-f1cc0ea2ccdd",
+      "ticketLabel": "A-967",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-051",
@@ -534,7 +1004,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "b1f81afb-926b-4269-b8a9-9d89809d3e39",
+      "ticketLabel": "A-968",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-052",
@@ -544,6 +1022,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "5eaa71b0-8473-47e7-8b2a-7bf0a3732883",
+      "ticketLabel": "A-969",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -554,7 +1044,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "7d651b05-3b57-4882-9a21-192a73c43026",
+      "ticketLabel": "A-970",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-054",
@@ -564,7 +1062,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "8a71e586-5839-4a60-b837-a9dcb732de58",
+      "ticketLabel": "A-971",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-055",
@@ -574,7 +1080,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "2a4081d6-11fc-458b-aaae-9927c5897190",
+      "ticketLabel": "A-972",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-056",
@@ -584,7 +1098,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "12b35862-9a50-4d3f-a410-cce3a18d20ad",
+      "ticketLabel": "A-973",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-057",
@@ -594,7 +1116,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "347b8951-bc54-4524-89c5-e37f9f4ad24a",
+      "ticketLabel": "A-974",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-058",
@@ -604,7 +1134,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "776b170e-dff7-4d22-b2a7-2943c6a8ee41",
+      "ticketLabel": "A-975",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-059",
@@ -614,7 +1152,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "ca67e9e8-d114-4a06-91e3-9e5eee50e98b",
+      "ticketLabel": "A-976",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-060",
@@ -624,7 +1170,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "72abd990-b94e-4fb9-b203-a997a2fcc07e",
+      "ticketLabel": "A-977",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-061",
@@ -634,7 +1188,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "846276c7-42dc-455a-8dec-6de1f451766a",
+      "ticketLabel": "A-978",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-062",
@@ -644,7 +1206,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "18e0b92e-dd16-412d-8faf-fbce9266bd79",
+      "ticketLabel": "A-979",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-063",
@@ -654,7 +1224,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "16000784-6fef-46ff-a9a3-5fbf25f3fa10",
+      "ticketLabel": "A-980",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-064",
@@ -664,6 +1242,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "69e5fc95-b421-48fc-82cf-0b54f268e234",
+      "ticketLabel": "A-981",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -674,7 +1264,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "3c9ed316-0f3f-4452-bfdc-4c83e0b65094",
+      "ticketLabel": "A-982",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-066",
@@ -684,7 +1282,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "904c7a4a-682a-4331-8267-b6962973fa7d",
+      "ticketLabel": "A-983",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-067",
@@ -694,7 +1300,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "89fd4979-8628-4cec-afa2-bd341ea427ef",
+      "ticketLabel": "A-984",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-068",
@@ -704,6 +1318,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "e248d0d5-cf35-48bb-b427-10bd557155bf",
+      "ticketLabel": "A-985",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -714,7 +1340,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "25fdff3c-8bbc-4575-aa8d-fe594d612f92",
+      "ticketLabel": "A-986",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-070",
@@ -724,7 +1358,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "cc2b7653-25f1-48b0-a8cc-f3d09dfa3245",
+      "ticketLabel": "A-987",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-071",
@@ -734,7 +1376,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "dfa33d03-4667-49aa-9f7d-bf7002dcec0e",
+      "ticketLabel": "A-988",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-072",
@@ -744,7 +1394,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "cd916cc0-02f7-4774-b32a-4e6058679bf7",
+      "ticketLabel": "A-989",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-073",
@@ -754,7 +1412,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "c7c5f132-5220-4a18-8d8b-1da6a8860a86",
+      "ticketLabel": "A-990",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-074",
@@ -764,7 +1430,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "a0e059f5-8374-4675-bd5d-d248644913ce",
+      "ticketLabel": "A-991",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-075",
@@ -774,7 +1448,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "cf9d778c-4bdb-4928-825a-6e44d51eae1c",
+      "ticketLabel": "A-992",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-076",
@@ -784,7 +1466,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "67839f14-33c8-4d17-8602-92b144cbc573",
+      "ticketLabel": "A-993",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-077",
@@ -794,7 +1484,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "89784ff7-8ac9-4b0f-b927-cf390dcaa9ef",
+      "ticketLabel": "A-994",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-078",
@@ -804,7 +1502,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "3e3e8773-2319-4e75-af52-259430318a98",
+      "ticketLabel": "A-995",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-079",
@@ -814,7 +1520,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "c3d4f20d-e72f-40ae-b5b9-00731e94006c",
+      "ticketLabel": "A-996",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-080",
@@ -824,7 +1538,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "72ae53f4-b1d5-434b-ba26-8723e1d71779",
+      "ticketLabel": "A-997",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-081",
@@ -834,7 +1556,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "7442cedf-5479-42e8-8bb2-66d7af8e68d2",
+      "ticketLabel": "A-998",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-082",
@@ -844,7 +1574,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "3fc1ca96-ff46-4c99-90f4-8821dafae026",
+      "ticketLabel": "A-999",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-083",
@@ -854,7 +1592,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "709a2835-f962-4002-9f1e-828d90255c60",
+      "ticketLabel": "A-1000",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-084",
@@ -864,7 +1610,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "4c75ee81-ce76-4b6c-901b-300e93949767",
+      "ticketLabel": "A-1001",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-085",
@@ -874,7 +1628,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "835f949d-8f91-4bae-b21a-167ac12e6f61",
+      "ticketLabel": "A-1002",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "IT-086",
@@ -884,6 +1646,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "2a6eb574-71db-4c5b-85b8-9aacb372e3b1",
+      "ticketLabel": "A-1003",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -894,6 +1668,18 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
+      ],
+      "ticketId": "4e8d4c0b-e69c-4b7a-83ac-c26cea530307",
+      "ticketLabel": "A-1004",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
       ]
     },
     {
@@ -904,7 +1690,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "93de53a8-6018-4146-a031-378edada7c6f",
+      "ticketLabel": "A-1005",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "DATA-DEX-1",
@@ -914,7 +1708,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "f1e5d006-00ed-440f-85d7-084377d21be8",
+      "ticketLabel": "A-1006",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "DATA-DEX-2",
@@ -924,7 +1726,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "ca8e5887-230e-4ee8-b558-86e5573b5d32",
+      "ticketLabel": "A-1007",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "DATA-DEX-3",
@@ -934,7 +1744,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "a6876f2e-e2c9-414b-90a4-3a8deb392ca7",
+      "ticketLabel": "A-1008",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "DATA-CAT-1",
@@ -944,7 +1762,15 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "bea8443c-bc0c-44ef-a130-97beeb6ffe17",
+      "ticketLabel": "A-1009",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "DATA-CAT-2",
@@ -954,13 +1780,25 @@
         "GLOSSAIRE",
         "OUTILLAGE",
         "PARITE"
-      ]
+      ],
+      "ticketId": "53b8f9ed-c76c-4f64-8533-d3a4ad871da4",
+      "ticketLabel": "A-1010",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496"
+      ],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "RACCORDEMENT",
       "title": "IT — Raccorder les dépendances structurelles des lots d’audit",
       "description": "Suite de l'audit A-662, projet gba_translator (branche unbound).\n\nPréalables bloquants (dependsOn requis) : aucun.\nCes identifiants logiques sont résolus dans docs/analysis/audit_traduction_it_tickets.json. Ne pas commencer l'implémentation avant leur clôture et le raccordement effectif du graphe. Si le graphe ne les expose pas encore, consulter le manifeste et attendre les préalables, sans les dupliquer.\n\nPrérequis de planification exclusivement. Le catalogue annonce kanban-board mais la session A-662 ne dispose d'aucun kanban_create_ticket/kanban_update_ticket ; le repli de création ne prend pas dependsOn. Les cartes ont donc été créées avec leurs dépendances requises dans les descriptions et le manifeste, sans prétendre qu'elles sont appliquées. Avec un accès effectif à Kanban, renseigner dependsOn pour chaque carte selon docs/analysis/audit_traduction_it_tickets.json. Ne recréer aucune carte et ne reparent aucun ticket existant. Les lots d'offsets dépendent de GLOSSAIRE, OUTILLAGE et PARITE ; curation idem ; certification finale dépend de toutes les cartes, raccordement inclus. Lire le graphe complet et vérifier qu'il est acyclique. Cette action ne doit démarrer ni traduction, ni pipeline, ni push. Acceptation : liens structurels relus et vérifiés, sans doublons. Le démarrage des corrections est interdit tant que ces préalables ne sont pas satisfaits.\n\nRéférence : docs/analysis/audit_traduction_it.md (état mesuré et limites) et ses CSV/JSON annexes. Relire les sources courantes : ce snapshot ne remplace pas HEAD.\n\nRègles impératives :\n- Éditions chirurgicales de combined_it.txt uniquement pour les textes ; jamais de régénération, tri ou sed global ; modifier la dernière occurrence de chaque offset. Les seuls autres fichiers autorisés sont les fichiers techniques/de curation explicitement nommés dans ce ticket et leurs tests.\n- Chaque ligne ajoutée/modifiée : entrée exacte dans languages/it/protected_entries.yaml dans le même commit (hook pré-commit activé).\n- Relire le fichier au moment d'éditer, committer immédiatement, puis relire le diff (Pattern C), avec chemins précis.\n- Validation : make build-it + make test-python ; contrôler les pointeurs vivants et cellules voisines, pas seulement les offsets d'origine. Ne jamais toucher au hash de la ROM FR.\n- Commits en français type(scope): description. Aucun push, aucun lancement de pipeline distant.\n",
-      "dependsOnAliases": []
+      "dependsOnAliases": [],
+      "ticketId": "aace6eb5-606b-4dcf-ade6-9cbc394c30af",
+      "ticketLabel": "C-1011",
+      "requiredDependsOnTicketIds": [],
+      "observedDependsOnTicketIds": []
     },
     {
       "alias": "CERTIFICATION",
@@ -1064,7 +1902,191 @@
         "DATA-CAT-1",
         "DATA-CAT-2",
         "RACCORDEMENT"
-      ]
+      ],
+      "ticketId": "9dfb2401-9594-49a0-8d37-3cfc7cd94114",
+      "ticketLabel": "A-1012",
+      "requiredDependsOnTicketIds": [
+        "eeba8f53-e149-45f3-8d0b-33135f89de52",
+        "53befd19-16a5-4081-856d-7aa257335cdb",
+        "fa2187bf-2e15-4a9e-a0d4-b81dbe888496",
+        "567d27df-f5cd-489e-b2ca-4745c75b2a62",
+        "70f36586-de9b-470b-9e1b-94f1424c97ec",
+        "035bbf6d-0b1b-45ab-b7df-9ceba825f0e8",
+        "1f1f8267-8126-4b49-945a-7051e3dc994f",
+        "aa0a7e25-3f88-4e0f-8b3d-9ad0113f8ff0",
+        "31142739-0424-428b-a2f1-7a442f5dae7d",
+        "fa539a47-87e6-4de6-9d22-bb90e9b138e0",
+        "b8e4758b-d7fa-4813-8944-e9f0f741543f",
+        "4305b93e-af97-4975-bea0-359a085f5157",
+        "b697c804-3f7d-4085-ac6c-d6c7978a0302",
+        "de1c6801-9310-4139-8968-3c5ea1e3ae8b",
+        "b15b9eb1-24f5-4252-a08b-a77bfe882ad8",
+        "af4ed757-9fc7-4e2c-9d1e-8f757f5478b5",
+        "67447626-1a3a-4a1f-9943-9752a5af42f1",
+        "4e47bfde-eba1-48f5-beb2-b3a3d6ef28af",
+        "cced820c-d176-4b73-bb53-8d4a28e6f4e9",
+        "3ded96e0-dc5b-4ff7-9196-aad2bcfbdc10",
+        "cdc73f9f-a5ef-45e8-8d47-99f6b1c1def1",
+        "8e1da5ea-8ef9-4b6f-81a6-fe10723da8f1",
+        "1a643c74-7502-4e17-877a-4ac2b221233d",
+        "b19d5de8-06f4-4075-bdb5-857d676bbb94",
+        "48bb1a03-cde5-42ff-b11a-742b488923e9",
+        "a6276137-ea56-41e9-8945-44d436ab583c",
+        "34ff24d6-21e9-42d1-badf-d1eb04e691d2",
+        "ffcfc973-1076-47e1-80db-798b2eb88895",
+        "97e20e1a-3c92-428b-9cc8-017e6950ad61",
+        "c8f34cc2-4949-408b-bd51-88b0d2f9d106",
+        "003ef604-168e-4dbc-8ebd-ccf1ba9f178e",
+        "cdece56d-d065-49ab-9407-d0ee7d886492",
+        "c8cf3361-a464-4b97-ac6c-c7dfd4a2daf5",
+        "ca211ad1-e280-45a2-9eca-fc780c1f06f0",
+        "d419ed01-a7aa-498c-a0fd-0929a0d9d054",
+        "946d6182-4217-4525-8f2d-ca02003e99a1",
+        "75decc80-97b0-4393-834a-60ba867c77f5",
+        "fd9d9f65-4561-46d3-8aa2-05ebbab68ac5",
+        "e1f7d504-34ec-4207-b474-fef5d5f95c24",
+        "cc3a2d85-261d-41ec-900e-0b7a23e9026b",
+        "d4e5d174-6e25-41e2-9ce0-ff9e41c41297",
+        "3164ad2d-2284-4cc5-a4e7-f8d5f478c494",
+        "63a6ce91-52bc-4912-9a74-16f540725070",
+        "0ceb6961-b64c-4e2e-958e-cea83a9f8ee5",
+        "eed540d1-4dd0-43ca-9b6b-64697f7f9c63",
+        "db886487-7a71-4d98-9e9b-f461e55142cb",
+        "f178d865-95e6-48f3-b8bd-32091b3b5088",
+        "8adbc51f-e083-4d75-9e4d-b4f1340d5116",
+        "65c98305-a09f-4621-bf55-2fd8c9d72ab6",
+        "698c95d0-2644-4df2-89eb-594984a34644",
+        "a1cdbace-5b2b-47b0-8f3b-9e6e4e8124bf",
+        "8a243290-7303-4721-83bf-995eede1907c",
+        "cdf4279c-0e9c-4fe1-a174-f1cc0ea2ccdd",
+        "b1f81afb-926b-4269-b8a9-9d89809d3e39",
+        "5eaa71b0-8473-47e7-8b2a-7bf0a3732883",
+        "7d651b05-3b57-4882-9a21-192a73c43026",
+        "8a71e586-5839-4a60-b837-a9dcb732de58",
+        "2a4081d6-11fc-458b-aaae-9927c5897190",
+        "12b35862-9a50-4d3f-a410-cce3a18d20ad",
+        "347b8951-bc54-4524-89c5-e37f9f4ad24a",
+        "776b170e-dff7-4d22-b2a7-2943c6a8ee41",
+        "ca67e9e8-d114-4a06-91e3-9e5eee50e98b",
+        "72abd990-b94e-4fb9-b203-a997a2fcc07e",
+        "846276c7-42dc-455a-8dec-6de1f451766a",
+        "18e0b92e-dd16-412d-8faf-fbce9266bd79",
+        "16000784-6fef-46ff-a9a3-5fbf25f3fa10",
+        "69e5fc95-b421-48fc-82cf-0b54f268e234",
+        "3c9ed316-0f3f-4452-bfdc-4c83e0b65094",
+        "904c7a4a-682a-4331-8267-b6962973fa7d",
+        "89fd4979-8628-4cec-afa2-bd341ea427ef",
+        "e248d0d5-cf35-48bb-b427-10bd557155bf",
+        "25fdff3c-8bbc-4575-aa8d-fe594d612f92",
+        "cc2b7653-25f1-48b0-a8cc-f3d09dfa3245",
+        "dfa33d03-4667-49aa-9f7d-bf7002dcec0e",
+        "cd916cc0-02f7-4774-b32a-4e6058679bf7",
+        "c7c5f132-5220-4a18-8d8b-1da6a8860a86",
+        "a0e059f5-8374-4675-bd5d-d248644913ce",
+        "cf9d778c-4bdb-4928-825a-6e44d51eae1c",
+        "67839f14-33c8-4d17-8602-92b144cbc573",
+        "89784ff7-8ac9-4b0f-b927-cf390dcaa9ef",
+        "3e3e8773-2319-4e75-af52-259430318a98",
+        "c3d4f20d-e72f-40ae-b5b9-00731e94006c",
+        "72ae53f4-b1d5-434b-ba26-8723e1d71779",
+        "7442cedf-5479-42e8-8bb2-66d7af8e68d2",
+        "3fc1ca96-ff46-4c99-90f4-8821dafae026",
+        "709a2835-f962-4002-9f1e-828d90255c60",
+        "4c75ee81-ce76-4b6c-901b-300e93949767",
+        "835f949d-8f91-4bae-b21a-167ac12e6f61",
+        "2a6eb574-71db-4c5b-85b8-9aacb372e3b1",
+        "4e8d4c0b-e69c-4b7a-83ac-c26cea530307",
+        "93de53a8-6018-4146-a031-378edada7c6f",
+        "f1e5d006-00ed-440f-85d7-084377d21be8",
+        "ca8e5887-230e-4ee8-b558-86e5573b5d32",
+        "a6876f2e-e2c9-414b-90a4-3a8deb392ca7",
+        "bea8443c-bc0c-44ef-a130-97beeb6ffe17",
+        "53b8f9ed-c76c-4f64-8533-d3a4ad871da4",
+        "aace6eb5-606b-4dcf-ade6-9cbc394c30af"
+      ],
+      "observedDependsOnTicketIds": []
     }
+  ],
+  "creation_verified": true,
+  "dependency_blocker": "C-1011",
+  "dependency_graph_verified_on": "2026-10-29",
+  "tickets_with_missing_dependencies": [
+    "A-927",
+    "A-928",
+    "A-930",
+    "A-931",
+    "A-932",
+    "A-933",
+    "A-934",
+    "A-935",
+    "A-936",
+    "A-937",
+    "A-938",
+    "A-939",
+    "A-940",
+    "A-941",
+    "A-942",
+    "A-943",
+    "A-944",
+    "A-946",
+    "A-947",
+    "A-948",
+    "A-949",
+    "A-950",
+    "A-951",
+    "A-952",
+    "A-953",
+    "A-954",
+    "A-955",
+    "A-956",
+    "A-957",
+    "A-958",
+    "A-960",
+    "A-961",
+    "A-962",
+    "A-963",
+    "A-964",
+    "A-965",
+    "A-966",
+    "A-967",
+    "A-968",
+    "A-970",
+    "A-971",
+    "A-972",
+    "A-973",
+    "A-974",
+    "A-975",
+    "A-976",
+    "A-977",
+    "A-978",
+    "A-979",
+    "A-980",
+    "A-982",
+    "A-983",
+    "A-984",
+    "A-986",
+    "A-987",
+    "A-988",
+    "A-989",
+    "A-990",
+    "A-991",
+    "A-992",
+    "A-993",
+    "A-994",
+    "A-995",
+    "A-996",
+    "A-997",
+    "A-998",
+    "A-999",
+    "A-1000",
+    "A-1001",
+    "A-1002",
+    "A-1005",
+    "A-1006",
+    "A-1007",
+    "A-1008",
+    "A-1009",
+    "A-1010",
+    "A-1012"
   ]
 }

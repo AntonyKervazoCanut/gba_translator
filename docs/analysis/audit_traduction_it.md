@@ -140,7 +140,7 @@ Règles à rappeler dans chaque ticket :
 
 Pas de certification visuelle dans cet audit documentaire : aucun changement de rendu. Les hooks de commit imposent les builds locaux FR/IT/DE ; leurs résultats de reprise sont consignés ci-dessous. Les ROM déjà présentes dans le checkout principal datent d'août ; elles ne prouvent pas le rendu de la révision d'octobre. Leur présence sert uniquement à l'inventaire et à la lecture de la source propre. Le hash FR mesuré avant/après doit rester `74a0b3b13a1b02cebb1519c36df7552dfde8e6a383ff16e17ae46bbdd0830a6e`.
 
-Le catalogue MCP annonce `kanban-board`, mais **aucun outil `kanban_create_ticket` ni `kanban_update_ticket` n'est exposé dans `ALL_TOOLS`**. Le repli disponible est `orchestration_create_follow_up_ticket`, qui crée des cartes TODO mais **n'accepte pas `dependsOn`**. Les dépendances seront conservées dans les descriptions et le manifeste ; leur application au graphe Kanban nécessitera la capacité de mise à jour. Il ne faut pas confondre une dépendance textuelle avec un lien structurel effectif. Le ticket de raccordement dédié décrit précisément cette étape restante ; les cartes ne doivent pas être lancées en avance.
+Le catalogue MCP annonce `kanban-board`, mais **aucun outil `kanban_create_ticket` ni `kanban_update_ticket` n'est exposé dans `ALL_TOOLS`**. Le repli disponible est `orchestration_create_follow_up_ticket`, qui crée des cartes TODO mais **n'accepte pas `dependsOn`**. Les dépendances sont conservées dans les descriptions et le manifeste (`requiredDependsOnTicketIds`) ; leur application au graphe Kanban nécessite la capacité de mise à jour, suivie dans **C-1011**. Il ne faut pas confondre une dépendance textuelle avec un lien structurel effectif. Le ticket de raccordement dédié décrit précisément cette étape restante ; les cartes ne doivent pas être lancées en avance.
 
 ## Reproduction de la couverture et contrôle du découpage
 
@@ -169,3 +169,13 @@ Pour reproduire la classification : priorité aux plages de police/structs prot�
 - Les quatre tests de `tests/unit/it/test_audit_translation_it_plan.py` passent ; la couverture a également été recalculée depuis les sources courantes (10 544 absents, 555 identiques EN, union de 25 642 offsets). Les empreintes des trois sources correspondent au snapshot.
 - Premier hook : 2 031 tests Python réussis, un test préexistant ignoré et 425 désélectionnés ; 68 tests Vitest réussis. Le build FR a ensuite révélé un JSON de traduction d'août périmé, copié avec une date récente. `make prepare-fr` puis `make build-fr` réussissent avec les sources actuelles, sans modification de code ou de traduction. Les artefacts reconstruits restent locaux au worktree ; la ROM FR de référence du checkout principal est inchangée.
 - Ruff n'est pas installé dans le Python système ; le lint Ruff n'est pas vérifié. Aucun pipeline distant lancé.
+
+## Cartes créées
+
+Les 98 cartes ont été relues dans le Kanban : **A-757** (glossaire existant réutilisé), **A-916** (outillage), **A-917** (parité), **A-918 à A-1005** (88 lots d'offsets), **A-1006 à A-1010** (curation), **C-1011** (raccordement structurel) et **A-1012** (certification finale). Le manifeste contient leur UUID, référence et liste exacte des UUID préalables requis. Toutes sont TODO à la création ; aucune correction n'a été exécutée par cet audit.
+
+**Limite restante :** les liens `dependsOn` ne sont pas appliqués par l'API de repli. C-1011 porte exclusivement leur raccordement via une capacité Kanban effective ou l'interface humaine. Le plan ne doit pas être exécuté comme si ces liens existaient déjà.
+
+Le commit du rapport a passé les hooks activés : suites Python/Vitest et builds locaux FR, IT, DE réussis. Après intégration de l'audit ES concurrent, les sept tests des plans IT/ES passent également. Aucune ROM ni traduction versionnée n'a été modifiée ; aucun push effectué.
+
+À la nouvelle reprise du 29 octobre, la lecture du graphe confirme les 98 UUID : 19 cartes portent déjà des dépendances, mais 77 cartes ont encore des préalables requis manquants, dont A-1012. Le manifeste conserve les liens observés séparément des liens requis. C-1011 reste le préalable bloquant de clôture de cet audit ; aucune carte supplémentaire n’a été créée.

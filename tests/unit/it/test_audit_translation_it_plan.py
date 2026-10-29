@@ -71,3 +71,19 @@ def test_curated_data_keys_are_partitioned_without_duplicates():
         assert len(keys) == len(set(keys))
     assert sum(len(lot["cles"]) for lot in lots) == 903 + 653
     assert all(0 < len(lot["cles"]) <= 400 for lot in lots)
+
+
+def test_every_planned_ticket_has_a_unique_created_card_and_resolved_dependencies():
+    """Les cartes réelles couvrent le plan et les liens requis ne se perdent pas."""
+    plan = json.loads((AUDIT / "audit_traduction_it_tickets.json").read_text())
+    tickets = {ticket["alias"]: ticket for ticket in plan["tickets"]}
+
+    assert plan["creation_verified"]
+    assert len(tickets) == len({t["ticketId"] for t in tickets.values()}) == 98
+    assert len({t["ticketLabel"] for t in tickets.values()}) == 98
+    for ticket in tickets.values():
+        assert ticket["requiredDependsOnTicketIds"] == [
+            tickets[alias]["ticketId"] for alias in ticket["dependsOnAliases"]
+        ]
+    if not plan["structural_dependencies_applied"]:
+        assert plan["dependency_blocker"] == tickets["RACCORDEMENT"]["ticketLabel"]
