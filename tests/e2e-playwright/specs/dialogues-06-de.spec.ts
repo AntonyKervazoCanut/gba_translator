@@ -10,8 +10,10 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 
 for (const sample of [
-  { name: 'vega', pointer: 0x1e53501, page: 4, checks: [/Meine Pflichten als Arenaleiter/i, /Agent/i] },
+  { name: 'vega', pointer: 0x1e53501, page: 4, checks: [/Meine Pflichten als Arenaleiter\b/i, /Agent\b/i] },
   { name: 'cristaux', pointer: 0x1e53dbb, page: 0, checks: [/Metallium Z/i, /Voltium Z/i] },
+  { name: 'turbo', pointer: 0x1e53dbb, page: 3, checks: [/Turbo.Spiralkombo/i] },
+  { name: 'gigavolt', pointer: 0x1e53dbb, page: 4, checks: [/Gigavolt.Funkensalve/i] },
   { name: 'victini', pointer: 0x1e559b2, page: 1, checks: [/Mysteri.se/i, /Triumph.Pok.mon/i] },
 ]) {
 test(`B-678 : ${sample.name}`, async ({ page }) => {

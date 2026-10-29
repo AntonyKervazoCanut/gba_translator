@@ -83,7 +83,46 @@ pages et les pauses de la ROM source restent conservées.
 
 ## Validation locale
 
-Résultats finaux et preuves de rendu : à compléter après le build et les sondes.
+Le relevé JSON contient aussi les octets DE, les cibles des pointeurs et les
+largeurs du build du commit `e807390b`. Les adresses de relocalisation sont une
+observation de ce build, pas des adresses à coder en dur : les tests résolvent
+toujours les consommateurs EN dans la ROM reconstruite.
+
+- `make build-de` exécuté après le commit : réussi.
+- `make test-python` : 2 950 réussis, 3 ignorés préexistants, 1 340 désélectionnés
+  par le profil standard ; aucun échec (218,84 secondes).
+- `tests/unit/test_translation_integrity.py` : 30 tests réussis ; protections
+  exactes des 12 dernières valeurs. Matrice DE et garde de périmètre conformes.
+- Hooks activés : 2 809 tests Python rapides réussis (1 exclusion existante),
+  68 tests Vitest réussis ; builds FR/IT/DE réussis dans le worktree isolé.
+- `tests/unit/de/test_dialogues_06.py` : 2 tests réussis, dont le contrôle ROM
+  des 28 chaînes et de leurs 34 références. Octets exacts, placeholders et
+  commandes dans l'ordre, nombre de pages EN conservé, largeurs ≤ 192 pixels.
+- 272/272 fragments exclus : octets DE identiques aux octets EN à ces offsets.
+- Playwright headless + mGBA `QT_QPA_PLATFORM=offscreen` : 5 tests réussis en
+  29 secondes, assertions OCR sur Vega, les cristaux Z, Turbo-Spiralkombo,
+  Gigavolt-Funkensalve et Victini. Captures enregistrées dans le répertoire
+  temporaire système puis jointes au ticket, jamais dans Git.
+- `ruff check tests/unit/de/test_dialogues_06.py` et `git diff --check` : conformes.
+- Hash de la ROM FR du checkout principal comparé avant/après : identique.
+
+| Offset corrigé | Octets DE, terminateur inclus | Largeur maximale |
+|---|---:|---:|
+| 0x1EDD5D5 | 293 | 187 px |
+| 0x1EDE63B | 81 | 167 px |
+| 0x1EDFB75 | 365 | 192 px |
+| 0x1EE02B5 | 493 | 188 px |
+| 0x1EE118A | 567 | 191 px |
+| 0x1EE1904 | 321 | 187 px |
+| 0x1EE29F6 | 355 | 189 px |
+| 0x1EE2F9F | 448 | 191 px |
+| 0x1EE3C49 | 613 | 189 px |
+| 0x1EE563C | 616 | 192 px |
+| 0x1EE6834 | 250 | 191 px |
+| 0x1EE692E | 270 | 177 px |
+
+Huit textes ont été relocalisés par le pipeline, quatre écrits en place.
+Les textes relocalisés sont vérifiés à destination, pas dans leur ancien slot.
 
 ## Non vérifié
 

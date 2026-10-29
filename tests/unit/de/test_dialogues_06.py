@@ -54,7 +54,10 @@ def test_dialogues_06_pointeurs_octets_commandes_et_boites() -> None:
             text = _apply_control_placeholders(
                 _normalize_text(combined[offset]), original["text"], original["raw_bytes"]
             )
-            text = rewrap(text)
+            # Les messages courts à simple FE conservent leurs lignes ;
+            # les boîtes défilantes FA/FB passent par le repli du build.
+            if b"\xfa" in raw or b"\xfb" in raw:
+                text = rewrap(text)
             assert "{" not in text, row["offset"]
             assert max(line_widths(text)) <= 192, row["offset"]
             expected = TextEncoder.encode_pokemon(text, skip_aliases=GERMAN_UMLAUT_CHARS)
