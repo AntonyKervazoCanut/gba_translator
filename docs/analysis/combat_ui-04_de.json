@@ -7,14 +7,14 @@
     "rom": "The user shoots\npowerful lasers using\nprism power. The\nuser can't move on\nthe next turn.",
     "en": "",
     "fr": "L'utilisateur tire de puissants\\nlasers en utilisant la puissance du\\nprisme. L’utilisateur ne peut pas\\nbouger au tour suivant.\\n",
-    "de": "Feuert starke Laser\\nmit Prismenkraft ab.\\nDer Anwender muss\\nin der nächsten\\nRunde aussetzen.",
+    "de": "Feuert starke Laser\\nmit Prismenkraft ab.\\nDer Anwender setzt\\nin der nächsten\\nRunde aus.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       603
     ],
-    "expected_rom": "Feuert starke Laser\\nmit Prismenkraft ab.\\nDer Anwender muss\\nin der nächsten\\nRunde aussetzen.",
-    "encoded_bytes": 92,
+    "expected_rom": "Feuert starke Laser\\nmit Prismenkraft ab.\\nDer Anwender setzt\\nin der nächsten\\nRunde aus.",
+    "encoded_bytes": 87,
     "max_pixels": 107,
     "reason": "Absence DE"
   },
@@ -121,14 +121,14 @@
     "rom": "The user regains up\nto half of its max\nHP. It restores\nmore HP in a\nsandstorm.",
     "en": "",
     "fr": "L'utilisateur récupère jusqu'à la\\nmoitié de ses PV max. Il restaure\\nplus de HP lors d'une tempête de\\nsable.\\n",
-    "de": "Heilt bis zur Hälfte\\nder maximalen KP.\\nIm Sandsturm\\nwerden noch mehr\\nKP geheilt.",
+    "de": "Heilt bis zur Hälfte\\nder maximalen KP.\\nIm Sandsturm\\nwerden mehr\\nKP geheilt.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       609
     ],
-    "expected_rom": "Heilt bis zur Hälfte\\nder maximalen KP.\\nIm Sandsturm\\nwerden noch mehr\\nKP geheilt.",
-    "encoded_bytes": 81,
+    "expected_rom": "Heilt bis zur Hälfte\\nder maximalen KP.\\nIm Sandsturm\\nwerden mehr\\nKP geheilt.",
+    "encoded_bytes": 76,
     "max_pixels": 109,
     "reason": "Absence DE"
   },
@@ -178,15 +178,15 @@
     "rom": "The user exchanges\nSpeed stats with\nthe target.",
     "en": "",
     "fr": "L'utilisateur échange des\\nstatistiques de vitesse avec la\\ncible.",
-    "de": "Tauscht den eigenen\\nInitiative-Wert mit\\ndem des Ziels.",
+    "de": "Tauscht Initiative\\nmit der des Ziels.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       614
     ],
-    "expected_rom": "Tauscht den eigenen\\nInitiative-Wert mit\\ndem des Ziels.",
-    "encoded_bytes": 55,
-    "max_pixels": 107,
+    "expected_rom": "Tauscht Initiative\\nmit der des Ziels.",
+    "encoded_bytes": 38,
+    "max_pixels": 98,
     "reason": "Absence DE"
   },
   {
@@ -426,15 +426,20 @@
     "en": "",
     "fr": "Lorsqu'il est combiné avec Fire\\nPledge, sa puissance augmente et un\\narc-en-ciel apparaît.\\n",
     "de": "Mit Feuersäulen\\nsteigt die Stärke\\nund es entsteht\\nein Regenbogen.",
-    "decision": "corrigé",
+    "decision": "besoin de patch séparé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       631
     ],
-    "expected_rom": "Mit Feuersäulen\\nsteigt die Stärke\\nund es entsteht\\nein Regenbogen.",
+    "expected_rom": "When combined with\\nFire Pledge, its\\npower increases and\\na rainbow appears.",
     "encoded_bytes": 66,
     "max_pixels": 92,
-    "reason": "Absence DE"
+    "reason": "Borne interne extraite 0xA3D33A, budget artificiel 21 octets ; texte DE protégé mais rejeté en ROM, relocalisation dédiée nécessaire",
+    "internal_boundary": 10736442,
+    "boundary_candidate_references": [
+      4663822,
+      4677994
+    ]
   },
   {
     "offset": "0xA3D370",
@@ -501,16 +506,16 @@
     "rom": "The user protects\nitself and its\nallies from status\nmoves with a\nmysterious power.",
     "en": "",
     "fr": "L'utilisateur se\\nprotège ainsi que ses\\nalliés des mouvements\\nde statut grâce à un\\npouvoir mystérieux.",
-    "de": "Schützt den Anwender\\nund seine Mitstreiter\\nmit einer magischen\\nKraft vor\\nStatus-Attacken.",
+    "de": "Magische\\nKraft schützt\\nAnwender und\\nMitstreiter vor\\nStatus-Attacken.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       635
     ],
-    "expected_rom": "Schützt den Anwender\\nund seine Mitstreiter\\nmit einer magischen\\nKraft vor\\nStatus-Attacken.",
-    "encoded_bytes": 90,
-    "max_pixels": 114,
-    "reason": "Absence DE"
+    "expected_rom": "Magische\\nKraft schützt\\nAnwender und\\nMitstreiter vor\\nStatus-Attacken.",
+    "encoded_bytes": 69,
+    "max_pixels": 102,
+    "reason": "Absence DE ; retours rééquilibrés par le pipeline"
   },
   {
     "offset": "0xA3D4D0",
@@ -539,15 +544,15 @@
     "rom": "The user protects\nitself and its\nallies from priority\nmoves.",
     "en": "",
     "fr": "L'utilisateur se protège ainsi que\\nses alliés des mouvements\\nprioritaires.\\n",
-    "de": "Schützt den Anwender\\nund seine Mitstreiter\\nvor Attacken\\nmit Priorität.",
+    "de": "Schützt Anwender\\nund Mitstreiter vor\\nPrioritätsattacken.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       637
     ],
-    "expected_rom": "Schützt den Anwender\\nund seine Mitstreiter\\nvor Attacken\\nmit Priorität.",
-    "encoded_bytes": 71,
-    "max_pixels": 114,
+    "expected_rom": "Schützt Anwender\\nund Mitstreiter vor\\nPrioritätsattacken.",
+    "encoded_bytes": 57,
+    "max_pixels": 102,
     "reason": "Absence DE"
   },
   {
@@ -558,15 +563,15 @@
     "rom": "The user protects\nitself and its\nallies from wide-\nranged attacks.",
     "en": "",
     "fr": "L'utilisateur se protège ainsi que\\nses alliés contre les attaques à\\ngrande échelle.\\n",
-    "de": "Schützt den Anwender\\nund seine Mitstreiter\\nvor großflächigen\\nAttacken.",
+    "de": "Schützt Anwender\\nund Mitstreiter vor\\ngroßflächigen\\nAttacken.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       638
     ],
-    "expected_rom": "Schützt den Anwender\\nund seine Mitstreiter\\nvor großflächigen\\nAttacken.",
-    "encoded_bytes": 71,
-    "max_pixels": 114,
+    "expected_rom": "Schützt Anwender\\nund Mitstreiter vor\\ngroßflächigen\\nAttacken.",
+    "encoded_bytes": 61,
+    "max_pixels": 102,
     "reason": "Absence DE"
   },
   {
@@ -786,15 +791,15 @@
     "rom": "The user's\nmysterious psychic\nwave changes the\ntarget's Ability to\nSimple.",
     "en": "",
     "fr": "La mystérieuse\\nonde psychique de\\nl’utilisateur change\\nla capacité de la\\ncible en Simple.",
-    "de": "Eine Psycho-Welle\\nändert die Fähigkeit\\ndes Ziels\\nzu Wankelmut.",
+    "de": "Eine Psycho-Welle\\nändert die\\nFähigkeit\\ndes Ziels zu\\nWankelmut.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       655
     ],
-    "expected_rom": "Eine Psycho-Welle\\nändert die Fähigkeit\\ndes Ziels\\nzu Wankelmut.",
+    "expected_rom": "Eine Psycho-Welle\\nändert die\\nFähigkeit\\ndes Ziels zu\\nWankelmut.",
     "encoded_bytes": 63,
-    "max_pixels": 109,
+    "max_pixels": 96,
     "reason": "Absence DE"
   },
   {
@@ -843,14 +848,14 @@
     "rom": "The user sprays a\npoisonous liquid\nthat lowers Attack,\nSp. Atk, and Speed\nof poisoned foes.",
     "en": "",
     "fr": "Pulvérise un liquide\\ntoxique qui baisse\\nAttaque, Att. Spé et\\nVitesse des cibles\\nempoisonnées.",
-    "de": "Besprüht das Ziel\\nmit Gift. Senkt bei\\nvergifteten Zielen\\nAngriff, Spezial-\\nangriff und Initiative.",
+    "de": "Gift senkt bei\\nvergifteten Zielen\\nAngriff, Spezial-\\nangriff und Initiative.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       659
     ],
-    "expected_rom": "Besprüht das Ziel\\nmit Gift. Senkt bei\\nvergifteten Zielen\\nAngriff, Spezial-\\nangriff und Initiative.",
-    "encoded_bytes": 99,
+    "expected_rom": "Gift senkt bei\\nvergifteten Zielen\\nAngriff, Spezial-\\nangriff und Initiative.",
+    "encoded_bytes": 76,
     "max_pixels": 121,
     "reason": "Absence DE"
   },
@@ -939,15 +944,19 @@
     "en": "",
     "fr": "Si la cible est\\nélectrifiée avant d'agir,\\nsa capacité devient\\nde type\\nÉlectrik.",
     "de": "Wird das Ziel vor\\nseiner Attacke\\nelektrisiert,\\nerhält seine Attacke\\nden Typ Elektro.",
-    "decision": "corrigé",
+    "decision": "besoin de patch séparé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       664
     ],
-    "expected_rom": "Wird das Ziel vor\\nseiner Attacke\\nelektrisiert,\\nerhält seine Attacke\\nden Typ Elektro.",
+    "expected_rom": "If the target is\\nelectrified before\\nits move in the turn,\\nthe target's move\\nbecomes Electric.",
     "encoded_bytes": 85,
     "max_pixels": 110,
-    "reason": "Absence DE"
+    "reason": "Borne interne extraite 0xA3DE52, budget artificiel 19 octets ; texte DE protégé mais rejeté en ROM, relocalisation dédiée nécessaire",
+    "internal_boundary": 10739282,
+    "boundary_candidate_references": [
+      28791587
+    ]
   },
   {
     "offset": "0xA3DE9D",
@@ -957,15 +966,15 @@
     "rom": "It prevents the\ntarget from using\nitems. Its Trainer\nalso can't use\nitems on it.",
     "en": "",
     "fr": "Empêche la cible\\nd'utiliser des objets.\\nSon dresseur ne\\npeut pas non plus en\\nutiliser.",
-    "de": "Verhindert, dass\\ndas Ziel Items nutzt.\\nAuch sein Trainer\\nkann keine Items\\nauf es anwenden.",
+    "de": "Das Ziel kann keine\\nItems nutzen. Sein\\nTrainer kann keine\\nauf es anwenden.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       665
     ],
-    "expected_rom": "Verhindert, dass\\ndas Ziel Items nutzt.\\nAuch sein Trainer\\nkann keine Items\\nauf es anwenden.",
-    "encoded_bytes": 91,
-    "max_pixels": 116,
+    "expected_rom": "Das Ziel kann keine\\nItems nutzen. Sein\\nTrainer kann keine\\nauf es anwenden.",
+    "encoded_bytes": 75,
+    "max_pixels": 103,
     "reason": "Absence DE"
   },
   {
@@ -995,15 +1004,15 @@
     "rom": "The fewer PP this\nmove has, the\ngreater its power.",
     "en": "",
     "fr": "Moins cette capacité a de\\nPP, plus sa puissance est\\ngrande.",
-    "de": "Je weniger AP diese\\nAttacke hat, desto\\nstärker ist sie.",
+    "de": "Weniger AP machen\\ndiese Attacke\\nstärker.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       668
     ],
-    "expected_rom": "Je weniger AP diese\\nAttacke hat, desto\\nstärker ist sie.",
-    "encoded_bytes": 56,
-    "max_pixels": 107,
+    "expected_rom": "Weniger AP machen\\ndiese Attacke\\nstärker.",
+    "encoded_bytes": 41,
+    "max_pixels": 97,
     "reason": "Absence DE"
   },
   {
@@ -1052,15 +1061,15 @@
     "rom": "The user centers\nits hex nut and\nstrikes twice with\nits arms. It may\ncause flinching.",
     "en": "",
     "fr": "Le lanceur centre son\\nécrou hexagonal et frappe\\ndeux fois avec ses bras.\\nCela peut\\napeurer.",
-    "de": "Richtet seine Mutter\\naus und schlägt mit\\nden Armen zweimal zu.\\nLässt das Ziel evtl.\\nzurückschrecken.",
+    "de": "Richtet Mutter aus,\\ntrifft mit Armen\\nzweimal. Lässt Ziel\\nevtl. zurückschrecken.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       673
     ],
-    "expected_rom": "Richtet seine Mutter\\naus und schlägt mit\\nden Armen zweimal zu.\\nLässt das Ziel evtl.\\nzurückschrecken.",
-    "encoded_bytes": 101,
-    "max_pixels": 119,
+    "expected_rom": "Richtet Mutter aus,\\ntrifft mit Armen\\nzweimal. Lässt Ziel\\nevtl. zurückschrecken.",
+    "encoded_bytes": 80,
+    "max_pixels": 122,
     "reason": "Absence DE"
   },
   {
@@ -1071,15 +1080,15 @@
     "rom": "It can only be\nused after the\nuser has exhausted\nall other moves it\nknows in battle.",
     "en": "",
     "fr": "Il ne peut être utilisé\\nqu'une fois que l'utilisateur\\na épuisé tous les autres\\ncapacités qu'il connaît au\\ncombat.",
-    "de": "Nur einsetzbar, wenn\\nder Anwender alle\\nanderen Attacken\\nim Kampf bereits\\neingesetzt hat.",
+    "de": "Nur einsetzbar, wenn\\nalle anderen Attacken\\nim Kampf bereits\\neingesetzt wurden.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       674
     ],
-    "expected_rom": "Nur einsetzbar, wenn\\nder Anwender alle\\nanderen Attacken\\nim Kampf bereits\\neingesetzt hat.",
-    "encoded_bytes": 89,
-    "max_pixels": 110,
+    "expected_rom": "Nur einsetzbar, wenn\\nalle anderen Attacken\\nim Kampf bereits\\neingesetzt wurden.",
+    "encoded_bytes": 79,
+    "max_pixels": 117,
     "reason": "Absence DE"
   },
   {
@@ -1090,16 +1099,16 @@
     "rom": "It takes the enemy\ninto the sky,\nwhere it can't\nattack. It is\ndropped next turn.",
     "en": "",
     "fr": "Il emmène l’ennemi\\ndans le ciel, où il ne\\npeut pas attaquer. Il\\nest abandonné au tour\\nsuivant.",
-    "de": "Trägt das Ziel hoch\\nin die Luft. Es kann\\nnicht angreifen und\\nwird in der nächsten\\nRunde fallen gelassen.",
+    "de": "Hebt das Ziel\\nhoch. Es kann\\nnicht angreifen\\nund fällt nächste\\nRunde zu Boden.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       675
     ],
-    "expected_rom": "Trägt das Ziel hoch\\nin die Luft. Es kann\\nnicht angreifen und\\nwird in der nächsten\\nRunde fallen gelassen.",
-    "encoded_bytes": 105,
-    "max_pixels": 122,
-    "reason": "Absence DE"
+    "expected_rom": "Hebt das Ziel\\nhoch. Es kann\\nnicht angreifen\\nund fällt nächste\\nRunde zu Boden.",
+    "encoded_bytes": 78,
+    "max_pixels": 124,
+    "reason": "Absence DE ; retours rééquilibrés par le pipeline"
   },
   {
     "offset": "0xA3E1E6",
@@ -1109,16 +1118,16 @@
     "rom": "The Pokémon\ncongratulates you\non your special\nday!",
     "en": "",
     "fr": "Le Pokémon vous\\nsouhaite une\\njoyeuse journée\\nspéciale !",
-    "de": "Das Pokémon\\ngratuliert dir\\nzu deinem\\nbesonderen Tag!",
+    "de": "Das Pokémon\\ngratuliert\\ndir zum\\nbesonderen Tag!",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       676
     ],
-    "expected_rom": "Das Pokémon\\ngratuliert dir\\nzu deinem\\nbesonderen Tag!",
-    "encoded_bytes": 53,
-    "max_pixels": 86,
-    "reason": "Absence DE"
+    "expected_rom": "Das Pokémon\\ngratuliert\\ndir zum\\nbesonderen Tag!",
+    "encoded_bytes": 47,
+    "max_pixels": 98,
+    "reason": "Absence DE ; retours rééquilibrés par le pipeline"
   },
   {
     "offset": "0xA3E219",
@@ -1128,15 +1137,15 @@
     "rom": "The user and an\nally hold hands.\nThis makes them\nvery happy.",
     "en": "",
     "fr": "L'utilisateur et un\\nallié se tiennent la\\nmain. Cela les rend très\\nheureux.",
-    "de": "Der Anwender und\\nein Mitstreiter\\nhalten Händchen.\\nDas macht sie froh.",
+    "de": "Hält mit einem\\nMitstreiter Händchen.\\nDas macht sie froh.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       677
     ],
-    "expected_rom": "Der Anwender und\\nein Mitstreiter\\nhalten Händchen.\\nDas macht sie froh.",
-    "encoded_bytes": 70,
-    "max_pixels": 106,
+    "expected_rom": "Hält mit einem\\nMitstreiter Händchen.\\nDas macht sie froh.",
+    "encoded_bytes": 57,
+    "max_pixels": 113,
     "reason": "Absence DE"
   },
   {
@@ -1204,15 +1213,15 @@
     "rom": "The user consumes\nits held Berry,\nthen raises its\nDefense sharply.",
     "en": "",
     "fr": "L'utilisateur consomme\\nsa Baie détenue, puis\\naugmente beaucoup sa\\nDéfense.",
-    "de": "Frisst die getragene\\nBeere und erhöht\\ndie eigene\\nVerteidigung stark.",
+    "de": "Frisst seine Beere\\nund erhöht die\\neigene Verteidigung\\nstark.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       681
     ],
-    "expected_rom": "Frisst die getragene\\nBeere und erhöht\\ndie eigene\\nVerteidigung stark.",
-    "encoded_bytes": 69,
-    "max_pixels": 109,
+    "expected_rom": "Frisst seine Beere\\nund erhöht die\\neigene Verteidigung\\nstark.",
+    "encoded_bytes": 61,
+    "max_pixels": 104,
     "reason": "Absence DE"
   },
   {
@@ -1223,14 +1232,14 @@
     "rom": "All of the user's\nstats are raised,\nbut it can no longer\nswitch out or flee.",
     "en": "",
     "fr": "Toutes les statistiques de\\nl’utilisateur sont augmentées, mais\\nil ne peut plus se retirer ni\\nfuir.",
-    "de": "Erhöht alle eigenen\\nStatuswerte. Flucht\\nund Auswechseln\\nsind danach\\nnicht mehr möglich.",
+    "de": "Erhöht alle eigenen\\nWerte. Verhindert\\ndanach Flucht und\\nAuswechseln.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       682
     ],
-    "expected_rom": "Erhöht alle eigenen\\nStatuswerte. Flucht\\nund Auswechseln\\nsind danach\\nnicht mehr möglich.",
-    "encoded_bytes": 88,
+    "expected_rom": "Erhöht alle eigenen\\nWerte. Verhindert\\ndanach Flucht und\\nAuswechseln.",
+    "encoded_bytes": 69,
     "max_pixels": 106,
     "reason": "Absence DE"
   },
@@ -1242,15 +1251,15 @@
     "rom": "Sticky tar lowers\nthe target's Speed,\nand makes it weaker\nto Fire-type moves.",
     "en": "",
     "fr": "Goudron collant baisse\\nla Vit. et rend plus\\nvulnérable aux attaques\\nFeu.",
-    "de": "Klebriger Teer senkt\\ndie Initiative und\\nmacht das Ziel gegen\\nFeuer anfälliger.",
+    "de": "Klebriger Teer senkt\\ndie Initiative und\\nmacht das Ziel für\\nFeuer anfälliger.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       683
     ],
-    "expected_rom": "Klebriger Teer senkt\\ndie Initiative und\\nmacht das Ziel gegen\\nFeuer anfälliger.",
-    "encoded_bytes": 79,
-    "max_pixels": 114,
+    "expected_rom": "Klebriger Teer senkt\\ndie Initiative und\\nmacht das Ziel für\\nFeuer anfälliger.",
+    "encoded_bytes": 77,
+    "max_pixels": 110,
     "reason": "Absence DE"
   },
   {
@@ -1299,14 +1308,14 @@
     "rom": "All Pokémon on the\nfield have teatime.\nEach Pokémon eats\nits held Berry.",
     "en": "",
     "fr": "Tous les Pokémon sur le terrain\\nont l'heure du thé. Chaque\\nPokémon mange la Baie qu'il\\ndétient.",
-    "de": "Alle Pokémon auf\\ndem Feld halten\\nTeestunde und fressen\\nihre getragene Beere.",
+    "de": "Alle Pokémon halten\\nTeestunde und fressen\\nihre getragene Beere.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       686
     ],
-    "expected_rom": "Alle Pokémon auf\\ndem Feld halten\\nTeestunde und fressen\\nihre getragene Beere.",
-    "encoded_bytes": 77,
+    "expected_rom": "Alle Pokémon halten\\nTeestunde und fressen\\nihre getragene Beere.",
+    "encoded_bytes": 64,
     "max_pixels": 118,
     "reason": "Absence DE"
   },
@@ -1318,14 +1327,14 @@
     "rom": "The user traps the\nfoe and makes its\nDefense and Sp. Def\nfall each turn.",
     "en": "",
     "fr": "Piège l'ennemi et\\nfait baisser Déf.\\net Déf. Spé à chaque\\ntour.",
-    "de": "Hält das Ziel fest.\\nSenkt jede Runde\\nseine Verteidigung\\nund Spezial-\\nverteidigung.",
+    "de": "Fängt das Ziel.\\nVerteidigung und\\nSpezialverteidigung\\nsinken jede Runde.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       687
     ],
-    "expected_rom": "Hält das Ziel fest.\\nSenkt jede Runde\\nseine Verteidigung\\nund Spezial-\\nverteidigung.",
-    "encoded_bytes": 83,
+    "expected_rom": "Fängt das Ziel.\\nVerteidigung und\\nSpezialverteidigung\\nsinken jede Runde.",
+    "encoded_bytes": 72,
     "max_pixels": 104,
     "reason": "Absence DE"
   },
@@ -1375,14 +1384,14 @@
     "rom": "The user swaps\nthe effects on\neither side of\nthe field.",
     "en": "",
     "fr": "L'utilisateur\\néchange les effets\\nde chaque côté du\\nchamp.",
-    "de": "Tauscht die Effekte\\nauf beiden Seiten\\ndes Kampffeldes\\nmiteinander aus.",
+    "de": "Tauscht die Effekte\\nbeider Seiten\\ndes Kampffeldes.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       690
     ],
-    "expected_rom": "Tauscht die Effekte\\nauf beiden Seiten\\ndes Kampffeldes\\nmiteinander aus.",
-    "encoded_bytes": 71,
+    "expected_rom": "Tauscht die Effekte\\nbeider Seiten\\ndes Kampffeldes.",
+    "encoded_bytes": 51,
     "max_pixels": 106,
     "reason": "Absence DE"
   },
@@ -1394,14 +1403,14 @@
     "rom": "The user raises\nall of its stats\nby using some of\nits HP.",
     "en": "",
     "fr": "L'utilisateur augmente\\ntoutes ses statistiques en\\nutilisant une partie de ses\\nPV.",
-    "de": "Erhöht alle eigenen\\nStatuswerte\\nauf Kosten eines\\nTeils der KP.",
+    "de": "Erhöht alle eigenen\\nWerte auf Kosten\\neines Teils der KP.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       691
     ],
-    "expected_rom": "Erhöht alle eigenen\\nStatuswerte\\nauf Kosten eines\\nTeils der KP.",
-    "encoded_bytes": 63,
+    "expected_rom": "Erhöht alle eigenen\\nWerte auf Kosten\\neines Teils der KP.",
+    "encoded_bytes": 57,
     "max_pixels": 106,
     "reason": "Absence DE"
   },
@@ -1433,15 +1442,19 @@
     "en": "",
     "fr": "Augmente beaucoup\\nAttaque et Att. Spé\\nde la cible en la\\ndécorant.",
     "de": "Dekoriert das Ziel.\\nErhöht dessen\\nAngriff und\\nSpezialangriff stark.",
-    "decision": "corrigé",
+    "decision": "besoin de patch séparé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       693
     ],
-    "expected_rom": "Dekoriert das Ziel.\\nErhöht dessen\\nAngriff und\\nSpezialangriff stark.",
+    "expected_rom": "The user sharply\\nraises the target's\\nAttack and Sp. Atk\\nby decorating it.",
     "encoded_bytes": 68,
     "max_pixels": 112,
-    "reason": "Absence DE"
+    "reason": "Borne interne extraite 0xA3E6A3, budget artificiel 41 octets ; texte DE protégé mais rejeté en ROM, relocalisation dédiée nécessaire",
+    "internal_boundary": 10741411,
+    "boundary_candidate_references": [
+      12139253
+    ]
   },
   {
     "offset": "0xA3E6C4",
@@ -1546,15 +1559,15 @@
     "rom": "Morpeko raises its\nSpeed and attacks.\nThe move's type is\nbased on its form.",
     "en": "",
     "fr": "Morpeko augmente sa vitesse\\net attaque. Le type de la\\ncapacité dépend de sa\\nforme.",
-    "de": "Morpeko erhöht seine\\nInitiative und greift\\nan. Der Typ hängt\\nvon seiner Form ab.",
+    "de": "Morpeko greift an,\\nerhöht Initiative.\\nDer Typ hängt\\nvon seiner Form ab.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       699
     ],
-    "expected_rom": "Morpeko erhöht seine\\nInitiative und greift\\nan. Der Typ hängt\\nvon seiner Form ab.",
-    "encoded_bytes": 81,
-    "max_pixels": 112,
+    "expected_rom": "Morpeko greift an,\\nerhöht Initiative.\\nDer Typ hängt\\nvon seiner Form ab.",
+    "encoded_bytes": 72,
+    "max_pixels": 106,
     "reason": "Absence DE"
   },
   {
@@ -1622,15 +1635,15 @@
     "rom": "The user attacks\nwith acid made from\ntart apples. Lowers\nthe foe's Sp. Def.",
     "en": "",
     "fr": "Acide de pomme\\nattaque la cible.\\nBaisse sa\\nDéf. Spé.",
-    "de": "Greift mit Säure\\naus sauren Äpfeln an.\\nSenkt beim Ziel die\\nSpezialverteidigung.",
+    "de": "Säure aus sauren\\nÄpfeln senkt die\\nSpezialverteidigung\\ndes Ziels.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       703
     ],
-    "expected_rom": "Greift mit Säure\\naus sauren Äpfeln an.\\nSenkt beim Ziel die\\nSpezialverteidigung.",
-    "encoded_bytes": 80,
-    "max_pixels": 117,
+    "expected_rom": "Säure aus sauren\\nÄpfeln senkt die\\nSpezialverteidigung\\ndes Ziels.",
+    "encoded_bytes": 65,
+    "max_pixels": 104,
     "reason": "Absence DE"
   },
   {
@@ -1660,15 +1673,15 @@
     "rom": "The user attacks\nwith spirit-breaking\nforce, lowering the\ntarget's Sp. Atk.",
     "en": "",
     "fr": "Force brise-esprit\\nqui réduit\\nl'Att. Spé de la\\ncible.",
-    "de": "Greift mit seelen-\\nbrechender Kraft an.\\nSenkt den Spezial-\\nangriff des Ziels.",
+    "de": "Seelenbrechende\\nKraft senkt den\\nSpezialangriff\\ndes Ziels.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       705
     ],
-    "expected_rom": "Greift mit seelen-\\nbrechender Kraft an.\\nSenkt den Spezial-\\nangriff des Ziels.",
-    "encoded_bytes": 78,
-    "max_pixels": 112,
+    "expected_rom": "Seelenbrechende\\nKraft senkt den\\nSpezialangriff\\ndes Ziels.",
+    "encoded_bytes": 58,
+    "max_pixels": 86,
     "reason": "Absence DE"
   },
   {
@@ -1717,14 +1730,14 @@
     "rom": "The user protects\nitself, and harshly\nlowers the foe's\nDefense on contact.",
     "en": "",
     "fr": "L’utilisateur se protège\\net réduit considérablement\\nla défense de l’ennemi au\\ncontact.",
-    "de": "Schützt den Anwender.\\nSenkt bei Kontakt\\ndie Verteidigung\\ndes Gegners stark.",
+    "de": "Schützt den Anwender.\\nSenkt bei Kontakt\\ndie Verteidigung\\ndes Ziels stark.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       708
     ],
-    "expected_rom": "Schützt den Anwender.\\nSenkt bei Kontakt\\ndie Verteidigung\\ndes Gegners stark.",
-    "encoded_bytes": 76,
+    "expected_rom": "Schützt den Anwender.\\nSenkt bei Kontakt\\ndie Verteidigung\\ndes Ziels stark.",
+    "encoded_bytes": 74,
     "max_pixels": 119,
     "reason": "Absence DE"
   },
@@ -1736,14 +1749,14 @@
     "rom": "The user bows,\nthen uses its hair\nto stab the foe.\nIt never misses.",
     "en": "",
     "fr": "Le lanceur s'incline,\\npuis poignarde\\nl'ennemi avec ses cheveux.\\nNe rate jamais.",
-    "de": "Verbeugt sich und\\nsticht mit dem Haar\\nzu. Diese Attacke\\ntrifft immer.",
+    "de": "Verbeugt sich und\\nsticht mit dem Haar\\nzu. Trifft immer.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       709
     ],
-    "expected_rom": "Verbeugt sich und\\nsticht mit dem Haar\\nzu. Diese Attacke\\ntrifft immer.",
-    "encoded_bytes": 70,
+    "expected_rom": "Verbeugt sich und\\nsticht mit dem Haar\\nzu. Trifft immer.",
+    "encoded_bytes": 56,
     "max_pixels": 105,
     "reason": "Absence DE"
   },
@@ -1755,15 +1768,15 @@
     "rom": "Eternatus's most\npowerful attack.\nThe user must rest\non the next turn.",
     "en": "",
     "fr": "L’attaque la plus puissante\\nd’Éthernatos. L'utilisateur\\ndoit se reposer au tour\\nsuivant.",
-    "de": "Eternatus' stärkste\\nAttacke. Der Anwender\\nmuss in der nächsten\\nRunde aussetzen.",
+    "de": "Eternatus' stärkste\\nAttacke. Anwender\\nsetzt in der\\nnächsten Runde aus.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       711
     ],
-    "expected_rom": "Eternatus' stärkste\\nAttacke. Der Anwender\\nmuss in der nächsten\\nRunde aussetzen.",
-    "encoded_bytes": 80,
-    "max_pixels": 118,
+    "expected_rom": "Eternatus' stärkste\\nAttacke. Anwender\\nsetzt in der\\nnächsten Runde aus.",
+    "encoded_bytes": 71,
+    "max_pixels": 107,
     "reason": "Absence DE"
   },
   {
@@ -1774,15 +1787,15 @@
     "rom": "It fires a beam\nof steel from its\nbody, which also\nhurts the user.",
     "en": "",
     "fr": "Tire un rayon d'acier\\ndepuis son corps.\\nBlesse aussi\\nle lanceur.",
-    "de": "Feuert einen Strahl\\naus Stahl aus\\nseinem Körper ab.\\nSchadet auch\\ndem Anwender.",
+    "de": "Ein Stahlstrahl\\naus dem Körper\\ntrifft. Schadet\\nauch dem Anwender.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       712
     ],
-    "expected_rom": "Feuert einen Strahl\\naus Stahl aus\\nseinem Körper ab.\\nSchadet auch\\ndem Anwender.",
-    "encoded_bytes": 79,
-    "max_pixels": 105,
+    "expected_rom": "Ein Stahlstrahl\\naus dem Körper\\ntrifft. Schadet\\nauch dem Anwender.",
+    "encoded_bytes": 66,
+    "max_pixels": 104,
     "reason": "Absence DE"
   },
   {
@@ -1831,15 +1844,15 @@
     "rom": "It hits two to five\ntimes in a row.\nRaises Speed, but\nlowers Defense.",
     "en": "",
     "fr": "Frappe deux à cinq\\nfois. Monte la\\nVitesse mais baisse la\\nDéfense.",
-    "de": "Trifft zwei- bis\\nfünfmal in Folge.\\nInitiative steigt,\\nVerteidigung sinkt.",
+    "de": "Trifft zwei- bis\\nfünfmal. Initiative\\nsteigt, Verteidigung\\nsinkt.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       715
     ],
-    "expected_rom": "Trifft zwei- bis\\nfünfmal in Folge.\\nInitiative steigt,\\nVerteidigung sinkt.",
-    "encoded_bytes": 74,
-    "max_pixels": 100,
+    "expected_rom": "Trifft zwei- bis\\nfünfmal. Initiative\\nsteigt, Verteidigung\\nsinkt.",
+    "encoded_bytes": 65,
+    "max_pixels": 107,
     "reason": "Absence DE"
   },
   {
@@ -2078,15 +2091,15 @@
     "rom": "After attacking,\nthe user switches\nplaces with a\nparty Pokémon.",
     "en": "",
     "fr": "Après avoir attaqué,\\nl'utilisateur change de\\nplace avec un Pokémon du\\ngroupe.",
-    "de": "Nach dem Angriff\\nwechselt der Anwender\\nmit einem Pokémon\\naus dem Team.",
+    "de": "Greift an und\\nwechselt dann mit\\neinem Pokémon\\naus dem Team.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       728
     ],
-    "expected_rom": "Nach dem Angriff\\nwechselt der Anwender\\nmit einem Pokémon\\naus dem Team.",
-    "encoded_bytes": 71,
-    "max_pixels": 119,
+    "expected_rom": "Greift an und\\nwechselt dann mit\\neinem Pokémon\\naus dem Team.",
+    "encoded_bytes": 60,
+    "max_pixels": 94,
     "reason": "Absence DE"
   },
   {
@@ -2135,15 +2148,15 @@
     "rom": "The user restores\nHP and the status\nof itself and its\nally in battle.",
     "en": "",
     "fr": "L'utilisateur restaure ses\\nPV ainsi que son statut\\net celui de son allié au\\ncombat.",
-    "de": "Heilt eigene KP\\nund Statusprobleme\\nsowie die eines\\nMitstreiters im Kampf.",
+    "de": "Heilt eigene KP\\nund Statusprobleme\\nsowie die eines\\nMitstreiters.",
     "decision": "corrigé",
     "scene": "Résumé / détail attaque (combat et apprentissage)",
     "move_indices": [
       732
     ],
-    "expected_rom": "Heilt eigene KP\\nund Statusprobleme\\nsowie die eines\\nMitstreiters im Kampf.",
-    "encoded_bytes": 74,
-    "max_pixels": 117,
+    "expected_rom": "Heilt eigene KP\\nund Statusprobleme\\nsowie die eines\\nMitstreiters.",
+    "encoded_bytes": 65,
+    "max_pixels": 102,
     "reason": "Absence DE"
   },
   {

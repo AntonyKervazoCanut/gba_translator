@@ -77,7 +77,7 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
     expect(found, 'la fenêtre réelle doit afficher la description de Laser Prisme').toBe(true);
     const laser = await capture('laser');
     expect(laser).toMatch(/Prismen/i);
-    expect(laser).toMatch(/aussetzen/i); // Last line must remain visible.
+    expect(laser).toMatch(/Runde aus/i); // Last line must remain visible.
     await key('DOWN', 120);
     const gas = await capture('gas');
     expect(gas).toMatch(/Gas/i);

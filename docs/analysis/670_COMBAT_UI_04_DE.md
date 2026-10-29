@@ -1,8 +1,10 @@
 # B-670 — Qualification DE de combat_ui-04
 
 Périmètre exclusif : 300 offsets du ticket, sans relance de l’audit global.
-152 descriptions corrigées (120 absentes, une trop longue, 31 descriptions G-Max
-avec noms d’espèces EN et effets reformulés) ; 148 noms déjà traités par le patch
+149 descriptions effectivement corrigées en ROM et 3 réservées à un patch technique
+séparé. Les 152 textes DE protégés couvrent 120 absences, une entrée trop longue
+et 31 descriptions G-Max
+avec noms d’espèces EN et effets reformulés ; 148 noms déjà traités par le patch
 `move_names`, donc aucune traduction ajoutée artificiellement à ces cellules.
 
 La comparaison complète EN/FR/DE, le texte canonique décodé depuis la ROM EN,
@@ -34,18 +36,34 @@ fragments de Pokédex FR périmés : elles ne remplacent jamais le canon ROM.
 
 ## Décisions par offset
 
+## Limites d’insertion constatées après build
+
+Les extractions EN ne contiennent pas les 120 nouvelles descriptions : elles passent
+par l’étape inline. Le premier build réussissait mais 35 valeurs différaient encore.
+31 textes ont été raccourcis au budget natif et un texte a été aligné sur le
+rééquilibrage de ses cinq lignes. Trois descriptions ne peuvent passer sans modifier
+les patches : les bornes internes 0xA3D33A, 0xA3DE52 et 0xA3E6A3 limitent
+respectivement les cellules à 21, 19 et 41 octets. La table des descriptions ne vise aucune de ces bornes ; des occurrences
+binaires candidates existent ailleurs (0x472A0E/0x47616A, 0x1B75323,
+0xB93AF5) et doivent être qualifiées avant de changer la politique de bornage.
+Les débuts des descriptions sont bien vivants via 0x99FB6C, 0x99FBF0 et
+0x99FC64.
+Les traductions complètes sont conservées et protégées ; ces trois exceptions sont
+explicitement contrôlées en anglais en ROM en attendant leur suivi technique,
+sans raccourci qui dénaturerait les effets. Aucun patch modifié dans ce lot.
+
 | Offset | Décision | Index CFRU | Références ROM EN | Valeur DE attendue / motif |
 |---|---|---|---|---|
-| 0xA3C9C6 | corrigé | 603 | `0x99FAFC` | Feuert starke Laser\nmit Prismenkraft ab.\nDer Anwender muss\nin der nächsten\nRunde aussetzen. — Absence DE |
+| 0xA3C9C6 | corrigé | 603 | `0x99FAFC` | Feuert starke Laser\nmit Prismenkraft ab.\nDer Anwender setzt\nin der nächsten\nRunde aus. — Absence DE |
 | 0xA3CA1F | corrigé | 604 | `0x99FB00` | Beißt mit Psycho-\nKraft zu. Zerstört\ndabei Lichtschild\nund Reflektor\ndes Ziels. — Absence DE |
 | 0xA3CA7C | corrigé | 605 | `0x99FB04` | Heilt den Status\ndes Ziels. Gelingt\ndies, erhält auch\nder Anwender\nKP zurück. — Absence DE |
 | 0xA3CAD9 | corrigé | 606 | `0x99FB08` | Greift mit einem\nwilden Tanz an.\nDer Typ der Attacke\nentspricht dem Typ\ndes Anwenders. — Absence DE |
 | 0xA3CB38 | corrigé | 607 | `0x99FB0C` | Trifft mit einem\nGeisterknochen.\nSenkt eventuell\ndie Verteidigung\ndes Gegners. — Absence DE |
 | 0xA3CB88 | corrigé | 608 | `0x99FB10` | Legt eine Falle.\nWird der Anwender\nphysisch getroffen,\nexplodiert\ndiese Falle. — Absence DE |
-| 0xA3CBE2 | corrigé | 609 | `0x99FB14` | Heilt bis zur Hälfte\nder maximalen KP.\nIm Sandsturm\nwerden noch mehr\nKP geheilt. — Absence DE |
+| 0xA3CBE2 | corrigé | 609 | `0x99FB14` | Heilt bis zur Hälfte\nder maximalen KP.\nIm Sandsturm\nwerden mehr\nKP geheilt. — Absence DE |
 | 0xA3CC78 | corrigé | 611 | `0x99FB1C` | Sammelt in Runde 1\nLicht und lädt eine\nKlinge damit auf.\nGreift in Runde 2\nmit der Klinge an. — Absence DE |
 | 0xA3CCD7 | corrigé | 612 | `0x99FB20` | Singt und erzeugt\ndabei Blasen.\nHeilt Verbrennungen\naller betroffenen\nPokémon. — Absence DE |
-| 0xA3CD80 | corrigé | 614 | `0x99FB28` | Tauscht den eigenen\nInitiative-Wert mit\ndem des Ziels. — Absence DE |
+| 0xA3CD80 | corrigé | 614 | `0x99FB28` | Tauscht Initiative\nmit der des Ziels. — Absence DE |
 | 0xA3CE5A | corrigé | 617 | `0x99FB34` | Die Stärke wird\nverdoppelt, falls\ndie vorige Attacke\nfehlgeschlagen ist. — Absence DE |
 | 0xA3CEA3 | corrigé | 618 | `0x99FB38` | Entzieht dem Ziel KP\nin Höhe seines\nAngriffswerts.\nSenkt außerdem\nseinen Angriff. — Absence DE |
 | 0xA3CF56 | corrigé | 620 | `0x99FB40` | Rührt das Ziel\nmit Tränen.\nSenkt dessen\nAngriff und\nSpezialangriff. — Absence DE |
@@ -58,14 +76,14 @@ fragments de Pokédex FR périmés : elles ne remplacent jamais le canon ROM.
 | 0xA3D228 | corrigé | 628 | `0x99FB60` | Psychofeld für\nfünf Runden. Stärkt\nPsycho-Attacken\nund blockiert\nPrioritätsattacken. — Absence DE |
 | 0xA3D286 | corrigé | 629 | `0x99FB64` | Mit Wassersäulen\nsteigt die Stärke\nund es entsteht\nein großer Sumpf. — Absence DE |
 | 0xA3D2D5 | corrigé | 630 | `0x99FB68` | Mit Pflanzensäulen\nsteigt die Stärke\nund es entsteht\nein Flammenmeer. — Absence DE |
-| 0xA3D325 | corrigé | 631 | `0x99FB6C` | Mit Feuersäulen\nsteigt die Stärke\nund es entsteht\nein Regenbogen. — Absence DE |
+| 0xA3D325 | besoin de patch séparé | 631 | `0x99FB6C` | Mit Feuersäulen\nsteigt die Stärke\nund es entsteht\nein Regenbogen. — Borne interne extraite 0xA3D33A, budget artificiel 21 octets ; texte DE protégé mais rejeté en ROM, relocalisation dédiée nécessaire |
 | 0xA3D370 | corrigé | 632 | `0x99FB70` | Erzeugt einen Raum,\nin dem langsamere\nPokémon fünf Runden\nlang zuerst\nzum Zug kommen. — Absence DE |
 | 0xA3D3CA | corrigé | 633 | `0x99FB74` | Erzeugt einen Raum,\nin dem getragene\nItems fünf Runden\nlang ihre Wirkung\nverlieren. — Absence DE |
 | 0xA3D424 | corrigé | 634 | `0x99FB78` | Tauscht für fünf\nRunden Verteidigung\nund Spezial-\nverteidigung aller\nPokémon im Kampf. — Absence DE |
-| 0xA3D47D | corrigé | 635 | `0x99FB7C` | Schützt den Anwender\nund seine Mitstreiter\nmit einer magischen\nKraft vor\nStatus-Attacken. — Absence DE |
+| 0xA3D47D | corrigé | 635 | `0x99FB7C` | Magische\nKraft schützt\nAnwender und\nMitstreiter vor\nStatus-Attacken. — Absence DE |
 | 0xA3D4D0 | corrigé | 636 | `0x99FB80` | Schützt den Anwender\nund seine Mitstreiter\nmit einer Matte\nvor schädigenden\nAttacken. — Absence DE |
-| 0xA3D530 | corrigé | 637 | `0x99FB84` | Schützt den Anwender\nund seine Mitstreiter\nvor Attacken\nmit Priorität. — Absence DE |
-| 0xA3D56D | corrigé | 638 | `0x99FB88` | Schützt den Anwender\nund seine Mitstreiter\nvor großflächigen\nAttacken. — Absence DE |
+| 0xA3D530 | corrigé | 637 | `0x99FB84` | Schützt Anwender\nund Mitstreiter vor\nPrioritätsattacken. — Absence DE |
+| 0xA3D56D | corrigé | 638 | `0x99FB88` | Schützt Anwender\nund Mitstreiter vor\ngroßflächigen\nAttacken. — Absence DE |
 | 0xA3D652 | corrigé | 641 | `0x99FB94` | Ein Rülpser trifft\ndas Ziel. Zuvor muss\nder Anwender eine\ngetragene Beere\ngefressen haben. — Absence DE |
 | 0xA3D703 | corrigé | 643 | `0x99FB9C` | Wirft das getragene\nItem auf das Ziel.\nStärke und Wirkung\nder Attacke hängen\nvom Item ab. — Absence DE |
 | 0xA3D7C1 | corrigé | 645 | `0x99FBA4` | Mehr Schwerkraft\nfür fünf Runden.\nVerhindert Flug-\nmanöver und hebt\nSchwebe auf. — Absence DE |
@@ -77,62 +95,62 @@ fragments de Pokédex FR périmés : elles ne remplacent jamais le canon ROM.
 | 0xA3D9CD | corrigé | 651 | `0x99FBBC` | Erhöht Verteidigung\nund Spezial-\nverteidigung von\nMitstreitern mit\nPlus oder Minus. — Absence DE |
 | 0xA3DA2C | corrigé | 652 | `0x99FBC0` | Bedeckt das Ziel\nmit Puder, der\nexplodiert, wenn es\neine Feuer-Attacke\neinsetzt. — Absence DE |
 | 0xA3DA7E | corrigé | 653 | `0x99FBC4` | Teilt Angriff und\nSpezialangriff mit\ndem Ziel und\ngleicht die\nWerte an. — Absence DE |
-| 0xA3DB26 | corrigé | 655 | `0x99FBCC` | Eine Psycho-Welle\nändert die Fähigkeit\ndes Ziels\nzu Wankelmut. — Absence DE |
+| 0xA3DB26 | corrigé | 655 | `0x99FBCC` | Eine Psycho-Welle\nändert die\nFähigkeit\ndes Ziels zu\nWankelmut. — Absence DE |
 | 0xA3DBCA | corrigé | 657 | `0x99FBD4` | Lässt das Ziel\nschweben. Es ist\ndrei Runden lang\nleichter zu treffen. — Absence DE |
 | 0xA3DC2B | corrigé | 658 | `0x99FBD8` | Lädt das Ziel zum\nzuckersüßen Spuk ein.\nEs erhält zusätzlich\nden Typ Geist. — Absence DE |
-| 0xA3DC7C | corrigé | 659 | `0x99FBDC` | Besprüht das Ziel\nmit Gift. Senkt bei\nvergifteten Zielen\nAngriff, Spezial-\nangriff und Initiative. — Absence DE |
+| 0xA3DC7C | corrigé | 659 | `0x99FBDC` | Gift senkt bei\nvergifteten Zielen\nAngriff, Spezial-\nangriff und Initiative. — Absence DE |
 | 0xA3DCD8 | corrigé | 660 | `0x99FBE0` | Ein Fluch des Waldes\ntrifft das Ziel.\nEs erhält\nzusätzlich den\nTyp Pflanze. — Absence DE |
 | 0xA3DD2A | corrigé | 661 | `0x99FBE4` | Lässt den Kopf\nexplodieren und\ntrifft alle ringsum.\nSchadet auch\ndem Anwender. — Absence DE |
 | 0xA3DD88 | corrigé | 662 | `0x99FBE8` | Eine Lichtsäule\ntrifft physisch oder\nspeziell, je nach\ndem höheren Wert\ndes Anwenders. — Absence DE |
 | 0xA3DDE1 | corrigé | 663 | `0x99FBEC` | Trifft mit elektrisch\ngeladenen Fäusten.\nNormal-Attacken\nwerden dadurch zu\nElektro-Attacken. — Absence DE |
-| 0xA3DE3F | corrigé | 664 | `0x99FBF0` | Wird das Ziel vor\nseiner Attacke\nelektrisiert,\nerhält seine Attacke\nden Typ Elektro. — Absence DE |
-| 0xA3DE9D | corrigé | 665 | `0x99FBF4` | Verhindert, dass\ndas Ziel Items nutzt.\nAuch sein Trainer\nkann keine Items\nauf es anwenden. — Absence DE |
+| 0xA3DE3F | besoin de patch séparé | 664 | `0x99FBF0` | Wird das Ziel vor\nseiner Attacke\nelektrisiert,\nerhält seine Attacke\nden Typ Elektro. — Borne interne extraite 0xA3DE52, budget artificiel 19 octets ; texte DE protégé mais rejeté en ROM, relocalisation dédiée nécessaire |
+| 0xA3DE9D | corrigé | 665 | `0x99FBF4` | Das Ziel kann keine\nItems nutzen. Sein\nTrainer kann keine\nauf es anwenden. — Absence DE |
 | 0xA3DF4D | corrigé | 667 | `0x99FBFC` | Feuert einen starken\nLichtstrahl aus der\nEwigen Blüte ab.\nSchadet auch\ndem Anwender. — Absence DE |
-| 0xA3DFA5 | corrigé | 668 | `0x99FC00` | Je weniger AP diese\nAttacke hat, desto\nstärker ist sie. — Absence DE |
+| 0xA3DFA5 | corrigé | 668 | `0x99FC00` | Weniger AP machen\ndiese Attacke\nstärker. — Absence DE |
 | 0xA3DFD8 | corrigé | 669 | `0x99FC04` | Hilft dem Ziel,\nseine Attacke direkt\nnach dem Anwender\neinzusetzen. — Absence DE |
 | 0xA3E022 | corrigé | 670 | `0x99FC08` | Weist das Ziel an,\nseine letzte Attacke\nerneut einzusetzen. — Absence DE |
-| 0xA3E0EA | corrigé | 673 | `0x99FC14` | Richtet seine Mutter\naus und schlägt mit\nden Armen zweimal zu.\nLässt das Ziel evtl.\nzurückschrecken. — Absence DE |
-| 0xA3E140 | corrigé | 674 | `0x99FC18` | Nur einsetzbar, wenn\nder Anwender alle\nanderen Attacken\nim Kampf bereits\neingesetzt hat. — Absence DE |
-| 0xA3E195 | corrigé | 675 | `0x99FC1C` | Trägt das Ziel hoch\nin die Luft. Es kann\nnicht angreifen und\nwird in der nächsten\nRunde fallen gelassen. — Absence DE |
-| 0xA3E1E6 | corrigé | 676 | `0x99FC20` | Das Pokémon\ngratuliert dir\nzu deinem\nbesonderen Tag! — Absence DE |
-| 0xA3E219 | corrigé | 677 | `0x99FC24` | Der Anwender und\nein Mitstreiter\nhalten Händchen.\nDas macht sie froh. — Absence DE |
+| 0xA3E0EA | corrigé | 673 | `0x99FC14` | Richtet Mutter aus,\ntrifft mit Armen\nzweimal. Lässt Ziel\nevtl. zurückschrecken. — Absence DE |
+| 0xA3E140 | corrigé | 674 | `0x99FC18` | Nur einsetzbar, wenn\nalle anderen Attacken\nim Kampf bereits\neingesetzt wurden. — Absence DE |
+| 0xA3E195 | corrigé | 675 | `0x99FC1C` | Hebt das Ziel\nhoch. Es kann\nnicht angreifen\nund fällt nächste\nRunde zu Boden. — Absence DE |
+| 0xA3E1E6 | corrigé | 676 | `0x99FC20` | Das Pokémon\ngratuliert\ndir zum\nbesonderen Tag! — Absence DE |
+| 0xA3E219 | corrigé | 677 | `0x99FC24` | Hält mit einem\nMitstreiter Händchen.\nDas macht sie froh. — Absence DE |
 | 0xA3E256 | corrigé | 678 | `0x99FC28` | Ein starker Strahl\ntrifft das Ziel.\nDoppelter Schaden\nbei Dynamax-Zielen. — Absence DE |
 | 0xA3E2A6 | corrigé | 679 | `0x99FC2C` | Ignoriert Attacken\nund Fähigkeiten,\ndie Attacken\nauf sich lenken. — Absence DE |
 | 0xA3E2EE | corrigé | 680 | `0x99FC30` | Beißt sich fest.\nDer Anwender und\ndas Ziel können\nnicht auswechseln. — Absence DE |
-| 0xA3E338 | corrigé | 681 | `0x99FC34` | Frisst die getragene\nBeere und erhöht\ndie eigene\nVerteidigung stark. — Absence DE |
-| 0xA3E37B | corrigé | 682 | `0x99FC38` | Erhöht alle eigenen\nStatuswerte. Flucht\nund Auswechseln\nsind danach\nnicht mehr möglich. — Absence DE |
-| 0xA3E3C8 | corrigé | 683 | `0x99FC3C` | Klebriger Teer senkt\ndie Initiative und\nmacht das Ziel gegen\nFeuer anfälliger. — Absence DE |
+| 0xA3E338 | corrigé | 681 | `0x99FC34` | Frisst seine Beere\nund erhöht die\neigene Verteidigung\nstark. — Absence DE |
+| 0xA3E37B | corrigé | 682 | `0x99FC38` | Erhöht alle eigenen\nWerte. Verhindert\ndanach Flucht und\nAuswechseln. — Absence DE |
+| 0xA3E3C8 | corrigé | 683 | `0x99FC3C` | Klebriger Teer senkt\ndie Initiative und\nmacht das Ziel für\nFeuer anfälliger. — Absence DE |
 | 0xA3E416 | corrigé | 684 | `0x99FC40` | Magischer Puder\nändert den Typ\ndes Ziels\nzu Psycho. — Absence DE |
 | 0xA3E462 | corrigé | 685 | `0x99FC44` | Greift zweimal an.\nGibt es zwei Ziele,\nwird jedes\neinmal getroffen. — Absence DE |
-| 0xA3E4A6 | corrigé | 686 | `0x99FC48` | Alle Pokémon auf\ndem Feld halten\nTeestunde und fressen\nihre getragene Beere. — Absence DE |
-| 0xA3E4EF | corrigé | 687 | `0x99FC4C` | Hält das Ziel fest.\nSenkt jede Runde\nseine Verteidigung\nund Spezial-\nverteidigung. — Absence DE |
+| 0xA3E4A6 | corrigé | 686 | `0x99FC48` | Alle Pokémon halten\nTeestunde und fressen\nihre getragene Beere. — Absence DE |
+| 0xA3E4EF | corrigé | 687 | `0x99FC4C` | Fängt das Ziel.\nVerteidigung und\nSpezialverteidigung\nsinken jede Runde. — Absence DE |
 | 0xA3E538 | corrigé | 688 | `0x99FC50` | Doppelte Stärke,\nwenn der Anwender\nvor dem Ziel\nzum Zug kommt. — Absence DE |
 | 0xA3E580 | corrigé | 689 | `0x99FC54` | Doppelte Stärke,\nwenn der Anwender\nvor dem Ziel\nzum Zug kommt. — Absence DE |
-| 0xA3E5C8 | corrigé | 690 | `0x99FC58` | Tauscht die Effekte\nauf beiden Seiten\ndes Kampffeldes\nmiteinander aus. — Absence DE |
-| 0xA3E600 | corrigé | 691 | `0x99FC5C` | Erhöht alle eigenen\nStatuswerte\nauf Kosten eines\nTeils der KP. — Absence DE |
+| 0xA3E5C8 | corrigé | 690 | `0x99FC58` | Tauscht die Effekte\nbeider Seiten\ndes Kampffeldes. — Absence DE |
+| 0xA3E600 | corrigé | 691 | `0x99FC5C` | Erhöht alle eigenen\nWerte auf Kosten\neines Teils der KP. — Absence DE |
 | 0xA3E63A | corrigé | 692 | `0x99FC60` | Je höher die eigene\nVerteidigung, desto\ngrößer ist\nder Schaden. — Absence DE |
-| 0xA3E67A | corrigé | 693 | `0x99FC64` | Dekoriert das Ziel.\nErhöht dessen\nAngriff und\nSpezialangriff stark. — Absence DE |
+| 0xA3E67A | besoin de patch séparé | 693 | `0x99FC64` | Dekoriert das Ziel.\nErhöht dessen\nAngriff und\nSpezialangriff stark. — Borne interne extraite 0xA3E6A3, budget artificiel 41 octets ; texte DE protégé mais rejeté en ROM, relocalisation dédiée nécessaire |
 | 0xA3E6C4 | corrigé | 694 | `0x99FC68` | Greift mit einem\nTrommelschlag an.\nSenkt die Initiative\ndes Ziels. — Absence DE |
 | 0xA3E70B | corrigé | 695 | `0x99FC6C` | Hält das Ziel\nvier bis fünf\nRunden lang in\neiner Fangeisenfalle. — Absence DE |
 | 0xA3E74D | corrigé | 696 | `0x99FC70` | Schleudert einen\nFeuerball auf\ndas Ziel. Kann es\nauch verbrennen. — Absence DE |
 | 0xA3E795 | corrigé | 697 | `0x99FC74` | Wird zum Schwert\nund greift an.\nDoppelter Schaden\nbei Dynamax-Zielen. — Absence DE |
 | 0xA3E7DF | corrigé | 698 | `0x99FC78` | Wird zum Schild\nund greift an.\nDoppelter Schaden\nbei Dynamax-Zielen. — Absence DE |
-| 0xA3E82A | corrigé | 699 | `0x99FC7C` | Morpeko erhöht seine\nInitiative und greift\nan. Der Typ hängt\nvon seiner Form ab. — Absence DE |
+| 0xA3E82A | corrigé | 699 | `0x99FC7C` | Morpeko greift an,\nerhöht Initiative.\nDer Typ hängt\nvon seiner Form ab. — Absence DE |
 | 0xA3E876 | corrigé | 700 | `0x99FC80` | Schwingt den Schweif\nund trifft die Gegner.\nSenkt dabei\nihren Angriff. — Absence DE |
 | 0xA3E8C4 | corrigé | 701 | `0x99FC84` | Sticht das Ziel\nmit einem\nspitzen Ast. — Absence DE |
 | 0xA3E904 | corrigé | 702 | `0x99FC88` | Zupft seine Gitarre.\nErzeugt ein Echo\nund starke\nSchwingungen. — Absence DE |
-| 0xA3E94C | corrigé | 703 | `0x99FC8C` | Greift mit Säure\naus sauren Äpfeln an.\nSenkt beim Ziel die\nSpezialverteidigung. — Absence DE |
+| 0xA3E94C | corrigé | 703 | `0x99FC8C` | Säure aus sauren\nÄpfeln senkt die\nSpezialverteidigung\ndes Ziels. — Absence DE |
 | 0xA3E998 | corrigé | 704 | `0x99FC90` | Lässt einen Apfel\nauf das Ziel fallen.\nSenkt dessen\nVerteidigung. — Absence DE |
-| 0xA3E9E4 | corrigé | 705 | `0x99FC94` | Greift mit seelen-\nbrechender Kraft an.\nSenkt den Spezial-\nangriff des Ziels. — Absence DE |
+| 0xA3E9E4 | corrigé | 705 | `0x99FC94` | Seelenbrechende\nKraft senkt den\nSpezialangriff\ndes Ziels. — Absence DE |
 | 0xA3EA30 | corrigé | 706 | `0x99FC98` | Greift mit Dampf an.\nVerwirrt das Ziel\neventuell auch. — Absence DE |
 | 0xA3EA7B | corrigé | 707 | `0x99FC9C` | Versprüht Wasser.\nHeilt eigene KP\nund die KP\nder Mitstreiter. — Absence DE |
-| 0xA3EAC2 | corrigé | 708 | `0x99FCA0` | Schützt den Anwender.\nSenkt bei Kontakt\ndie Verteidigung\ndes Gegners stark. — Absence DE |
-| 0xA3EB0D | corrigé | 709 | `0x99FCA4` | Verbeugt sich und\nsticht mit dem Haar\nzu. Diese Attacke\ntrifft immer. — Absence DE |
-| 0xA3EB9C | corrigé | 711 | `0x99FCAC` | Eternatus' stärkste\nAttacke. Der Anwender\nmuss in der nächsten\nRunde aussetzen. — Absence DE |
-| 0xA3EBE3 | corrigé | 712 | `0x99FCB0` | Feuert einen Strahl\naus Stahl aus\nseinem Körper ab.\nSchadet auch\ndem Anwender. — Absence DE |
+| 0xA3EAC2 | corrigé | 708 | `0x99FCA0` | Schützt den Anwender.\nSenkt bei Kontakt\ndie Verteidigung\ndes Ziels stark. — Absence DE |
+| 0xA3EB0D | corrigé | 709 | `0x99FCA4` | Verbeugt sich und\nsticht mit dem Haar\nzu. Trifft immer. — Absence DE |
+| 0xA3EB9C | corrigé | 711 | `0x99FCAC` | Eternatus' stärkste\nAttacke. Anwender\nsetzt in der\nnächsten Runde aus. — Absence DE |
+| 0xA3EBE3 | corrigé | 712 | `0x99FCB0` | Ein Stahlstrahl\naus dem Körper\ntrifft. Schadet\nauch dem Anwender. — Absence DE |
 | 0xA3EC26 | corrigé | 713 | `0x99FCB4` | Wird im Psychofeld\nstärker und trifft\nalle gegnerischen\nZiele. — Absence DE |
 | 0xA3EC76 | corrigé | 714 | `0x99FCB8` | Greift an und hebt\ndas Feld auf.\nOhne Feld schlägt\ndie Attacke fehl. — Absence DE |
-| 0xA3ECC8 | corrigé | 715 | `0x99FCBC` | Trifft zwei- bis\nfünfmal in Folge.\nInitiative steigt,\nVerteidigung sinkt. — Absence DE |
+| 0xA3ECC8 | corrigé | 715 | `0x99FCBC` | Trifft zwei- bis\nfünfmal. Initiative\nsteigt, Verteidigung\nsinkt. — Absence DE |
 | 0xA3ED0E | corrigé | 716 | `0x99FCC0` | Sammelt in Runde 1\nWeltraumenergie und\nerhöht dabei den\nSpezialangriff. — Absence DE |
 | 0xA3ED59 | corrigé | 717 | `0x99FCC4` | Trifft physisch oder\nspeziell, je nachdem,\nwas wirksamer ist.\nKann vergiften. — Absence DE |
 | 0xA3EDA8 | corrigé | 718 | `0x99FCC8` | Der Anwender\nexplodiert und wird\nbesiegt. Stärker\nim Nebelfeld. — Absence DE |
@@ -145,10 +163,10 @@ fragments de Pokédex FR périmés : elles ne remplacent jamais le canon ROM.
 | 0xA3EFBD | corrigé | 725 | `0x99FCE4` | Greift mit dem Item\ndes Ziels an.\nSchlägt fehl, wenn\ndas Ziel keines hat. — Absence DE |
 | 0xA3F00D | corrigé | 726 | `0x99FCE8` | Ätzendes Gas löst\ndas getragene Item\ndes Ziels auf. — Absence DE |
 | 0xA3F059 | corrigé | 727 | `0x99FCEC` | Trainiert einen\nMitstreiter. Erhöht\ndessen Angriff\nund Verteidigung. — Absence DE |
-| 0xA3F0A1 | corrigé | 728 | `0x99FCF0` | Nach dem Angriff\nwechselt der Anwender\nmit einem Pokémon\naus dem Team. — Absence DE |
+| 0xA3F0A1 | corrigé | 728 | `0x99FCF0` | Greift an und\nwechselt dann mit\neinem Pokémon\naus dem Team. — Absence DE |
 | 0xA3F0E1 | corrigé | 729 | `0x99FCF4` | Drei Tritte, die\nmit jedem Treffer\nstärker werden. — Absence DE |
 | 0xA3F172 | corrigé | 731 | `0x99FCFC` | Wirft glühenden Sand\nauf das Ziel.\nKann es außerdem\nverbrennen. — Absence DE |
-| 0xA3F1BC | corrigé | 732 | `0x99FD00` | Heilt eigene KP\nund Statusprobleme\nsowie die eines\nMitstreiters im Kampf. — Absence DE |
+| 0xA3F1BC | corrigé | 732 | `0x99FD00` | Heilt eigene KP\nund Statusprobleme\nsowie die eines\nMitstreiters. — Absence DE |
 | 0xA3F202 | corrigé | 733 | `0x99FD04` | Ein heftiger Schlag\ntrifft das Ziel.\nLandet immer\neinen Volltreffer. — Absence DE |
 | 0xA3F24A | corrigé | 734 | `0x99FD08` | Trifft dreimal\nhintereinander.\nLandet dabei immer\nVolltreffer. — Absence DE |
 | 0xA3F2E3 | corrigé | 736 | `0x99FD10` | Ein heftiger Tritt\ntrifft das Ziel.\nSenkt dessen\nVerteidigung. — Absence DE |

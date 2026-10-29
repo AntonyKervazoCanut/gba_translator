@@ -21,7 +21,8 @@ def test_qualification_covers_all_300_distinct_offsets():
     offsets = [int(row['offset'], 16) for row in ROWS]
     assert len(offsets) == len(set(offsets)) == 300
     assert offsets[0] == 0xA3C9C6 and offsets[-1] == 0xA411BB
-    assert sum(row['decision'] == 'corrigé' for row in ROWS) == 152
+    assert sum(row['decision'] == 'corrigé' for row in ROWS) == 149
+    assert sum(row['decision'] == 'besoin de patch séparé' for row in ROWS) == 3
     assert sum(row['decision'] == 'déjà patché' for row in ROWS) == 148
 
 
@@ -31,8 +32,8 @@ def test_scoped_winning_text_and_actual_line_budgets(row):
     offset = int(row['offset'], 16)
     text = (ROOT / 'languages/de/combined_de.txt').read_text()
     matches = re.findall(rf'^0x0*{offset:x}: (.*)$', text, re.I | re.M)
-    if row['decision'] == 'corrigé':
-        assert matches[-1] == row['expected_rom']
+    if row['decision'] != 'déjà patché':
+        assert matches[-1] == row['de']
         lines = matches[-1].replace('\\n', '\n').splitlines()
         assert len(lines) <= 5
         assert all(line_width(line) <= 122 for line in lines)
@@ -53,7 +54,7 @@ def test_built_de_bytes_via_all_live_table_pointers(row):
     expected = TextEncoder.encode_pokemon(
         row['expected_rom'].replace('\\n', '\n'), skip_aliases=GERMAN_UMLAUT_CHARS,
     )
-    if row['decision'] == 'corrigé':
+    if row['decision'] != 'déjà patché':
         for index in row['move_indices']:
             site = 0x99F190 + 4 * index
             assert int.from_bytes(source[site:site + 4], 'little') - 0x08000000 == int(row['offset'], 16)

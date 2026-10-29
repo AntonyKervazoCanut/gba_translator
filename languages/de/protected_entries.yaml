@@ -7174,7 +7174,7 @@ entries:
 
 - offset: '0xA3C9C6'
   name: 'B-670 description attaque'
-  expected: 'Feuert starke Laser\nmit Prismenkraft ab.\nDer Anwender muss\nin der nächsten\nRunde aussetzen.'
+  expected: 'Feuert starke Laser\nmit Prismenkraft ab.\nDer Anwender setzt\nin der nächsten\nRunde aus.'
 
 - offset: '0xA3CA1F'
   name: 'B-670 description attaque'
@@ -7198,7 +7198,7 @@ entries:
 
 - offset: '0xA3CBE2'
   name: 'B-670 description attaque'
-  expected: 'Heilt bis zur Hälfte\nder maximalen KP.\nIm Sandsturm\nwerden noch mehr\nKP geheilt.'
+  expected: 'Heilt bis zur Hälfte\nder maximalen KP.\nIm Sandsturm\nwerden mehr\nKP geheilt.'
 
 - offset: '0xA3CC78'
   name: 'B-670 description attaque'
@@ -7210,7 +7210,7 @@ entries:
 
 - offset: '0xA3CD80'
   name: 'B-670 description attaque'
-  expected: 'Tauscht den eigenen\nInitiative-Wert mit\ndem des Ziels.'
+  expected: 'Tauscht Initiative\nmit der des Ziels.'
 
 - offset: '0xA3CE5A'
   name: 'B-670 description attaque'
@@ -7278,7 +7278,7 @@ entries:
 
 - offset: '0xA3D47D'
   name: 'B-670 description attaque'
-  expected: 'Schützt den Anwender\nund seine Mitstreiter\nmit einer magischen\nKraft vor\nStatus-Attacken.'
+  expected: 'Magische\nKraft schützt\nAnwender und\nMitstreiter vor\nStatus-Attacken.'
 
 - offset: '0xA3D4D0'
   name: 'B-670 description attaque'
@@ -7286,11 +7286,11 @@ entries:
 
 - offset: '0xA3D530'
   name: 'B-670 description attaque'
-  expected: 'Schützt den Anwender\nund seine Mitstreiter\nvor Attacken\nmit Priorität.'
+  expected: 'Schützt Anwender\nund Mitstreiter vor\nPrioritätsattacken.'
 
 - offset: '0xA3D56D'
   name: 'B-670 description attaque'
-  expected: 'Schützt den Anwender\nund seine Mitstreiter\nvor großflächigen\nAttacken.'
+  expected: 'Schützt Anwender\nund Mitstreiter vor\ngroßflächigen\nAttacken.'
 
 - offset: '0xA3D652'
   name: 'B-670 description attaque'
@@ -7338,7 +7338,7 @@ entries:
 
 - offset: '0xA3DB26'
   name: 'B-670 description attaque'
-  expected: 'Eine Psycho-Welle\nändert die Fähigkeit\ndes Ziels\nzu Wankelmut.'
+  expected: 'Eine Psycho-Welle\nändert die\nFähigkeit\ndes Ziels zu\nWankelmut.'
 
 - offset: '0xA3DBCA'
   name: 'B-670 description attaque'
@@ -7350,7 +7350,7 @@ entries:
 
 - offset: '0xA3DC7C'
   name: 'B-670 description attaque'
-  expected: 'Besprüht das Ziel\nmit Gift. Senkt bei\nvergifteten Zielen\nAngriff, Spezial-\nangriff und Initiative.'
+  expected: 'Gift senkt bei\nvergifteten Zielen\nAngriff, Spezial-\nangriff und Initiative.'
 
 - offset: '0xA3DCD8'
   name: 'B-670 description attaque'
@@ -7374,7 +7374,7 @@ entries:
 
 - offset: '0xA3DE9D'
   name: 'B-670 description attaque'
-  expected: 'Verhindert, dass\ndas Ziel Items nutzt.\nAuch sein Trainer\nkann keine Items\nauf es anwenden.'
+  expected: 'Das Ziel kann keine\nItems nutzen. Sein\nTrainer kann keine\nauf es anwenden.'
 
 - offset: '0xA3DF4D'
   name: 'B-670 description attaque'
@@ -7382,7 +7382,7 @@ entries:
 
 - offset: '0xA3DFA5'
   name: 'B-670 description attaque'
-  expected: 'Je weniger AP diese\nAttacke hat, desto\nstärker ist sie.'
+  expected: 'Weniger AP machen\ndiese Attacke\nstärker.'
 
 - offset: '0xA3DFD8'
   name: 'B-670 description attaque'
@@ -7394,23 +7394,23 @@ entries:
 
 - offset: '0xA3E0EA'
   name: 'B-670 description attaque'
-  expected: 'Richtet seine Mutter\naus und schlägt mit\nden Armen zweimal zu.\nLässt das Ziel evtl.\nzurückschrecken.'
+  expected: 'Richtet Mutter aus,\ntrifft mit Armen\nzweimal. Lässt Ziel\nevtl. zurückschrecken.'
 
 - offset: '0xA3E140'
   name: 'B-670 description attaque'
-  expected: 'Nur einsetzbar, wenn\nder Anwender alle\nanderen Attacken\nim Kampf bereits\neingesetzt hat.'
+  expected: 'Nur einsetzbar, wenn\nalle anderen Attacken\nim Kampf bereits\neingesetzt wurden.'
 
 - offset: '0xA3E195'
   name: 'B-670 description attaque'
-  expected: 'Trägt das Ziel hoch\nin die Luft. Es kann\nnicht angreifen und\nwird in der nächsten\nRunde fallen gelassen.'
+  expected: 'Hebt das Ziel\nhoch. Es kann\nnicht angreifen\nund fällt nächste\nRunde zu Boden.'
 
 - offset: '0xA3E1E6'
   name: 'B-670 description attaque'
-  expected: 'Das Pokémon\ngratuliert dir\nzu deinem\nbesonderen Tag!'
+  expected: 'Das Pokémon\ngratuliert\ndir zum\nbesonderen Tag!'
 
 - offset: '0xA3E219'
   name: 'B-670 description attaque'
-  expected: 'Der Anwender und\nein Mitstreiter\nhalten Händchen.\nDas macht sie froh.'
+  expected: 'Hält mit einem\nMitstreiter Händchen.\nDas macht sie froh.'
 
 - offset: '0xA3E256'
   name: 'B-670 description attaque'
@@ -7426,15 +7426,15 @@ entries:
 
 - offset: '0xA3E338'
   name: 'B-670 description attaque'
-  expected: 'Frisst die getragene\nBeere und erhöht\ndie eigene\nVerteidigung stark.'
+  expected: 'Frisst seine Beere\nund erhöht die\neigene Verteidigung\nstark.'
 
 - offset: '0xA3E37B'
   name: 'B-670 description attaque'
-  expected: 'Erhöht alle eigenen\nStatuswerte. Flucht\nund Auswechseln\nsind danach\nnicht mehr möglich.'
+  expected: 'Erhöht alle eigenen\nWerte. Verhindert\ndanach Flucht und\nAuswechseln.'
 
 - offset: '0xA3E3C8'
   name: 'B-670 description attaque'
-  expected: 'Klebriger Teer senkt\ndie Initiative und\nmacht das Ziel gegen\nFeuer anfälliger.'
+  expected: 'Klebriger Teer senkt\ndie Initiative und\nmacht das Ziel für\nFeuer anfälliger.'
 
 - offset: '0xA3E416'
   name: 'B-670 description attaque'
@@ -7446,11 +7446,11 @@ entries:
 
 - offset: '0xA3E4A6'
   name: 'B-670 description attaque'
-  expected: 'Alle Pokémon auf\ndem Feld halten\nTeestunde und fressen\nihre getragene Beere.'
+  expected: 'Alle Pokémon halten\nTeestunde und fressen\nihre getragene Beere.'
 
 - offset: '0xA3E4EF'
   name: 'B-670 description attaque'
-  expected: 'Hält das Ziel fest.\nSenkt jede Runde\nseine Verteidigung\nund Spezial-\nverteidigung.'
+  expected: 'Fängt das Ziel.\nVerteidigung und\nSpezialverteidigung\nsinken jede Runde.'
 
 - offset: '0xA3E538'
   name: 'B-670 description attaque'
@@ -7462,11 +7462,11 @@ entries:
 
 - offset: '0xA3E5C8'
   name: 'B-670 description attaque'
-  expected: 'Tauscht die Effekte\nauf beiden Seiten\ndes Kampffeldes\nmiteinander aus.'
+  expected: 'Tauscht die Effekte\nbeider Seiten\ndes Kampffeldes.'
 
 - offset: '0xA3E600'
   name: 'B-670 description attaque'
-  expected: 'Erhöht alle eigenen\nStatuswerte\nauf Kosten eines\nTeils der KP.'
+  expected: 'Erhöht alle eigenen\nWerte auf Kosten\neines Teils der KP.'
 
 - offset: '0xA3E63A'
   name: 'B-670 description attaque'
@@ -7498,7 +7498,7 @@ entries:
 
 - offset: '0xA3E82A'
   name: 'B-670 description attaque'
-  expected: 'Morpeko erhöht seine\nInitiative und greift\nan. Der Typ hängt\nvon seiner Form ab.'
+  expected: 'Morpeko greift an,\nerhöht Initiative.\nDer Typ hängt\nvon seiner Form ab.'
 
 - offset: '0xA3E876'
   name: 'B-670 description attaque'
@@ -7514,7 +7514,7 @@ entries:
 
 - offset: '0xA3E94C'
   name: 'B-670 description attaque'
-  expected: 'Greift mit Säure\naus sauren Äpfeln an.\nSenkt beim Ziel die\nSpezialverteidigung.'
+  expected: 'Säure aus sauren\nÄpfeln senkt die\nSpezialverteidigung\ndes Ziels.'
 
 - offset: '0xA3E998'
   name: 'B-670 description attaque'
@@ -7522,7 +7522,7 @@ entries:
 
 - offset: '0xA3E9E4'
   name: 'B-670 description attaque'
-  expected: 'Greift mit seelen-\nbrechender Kraft an.\nSenkt den Spezial-\nangriff des Ziels.'
+  expected: 'Seelenbrechende\nKraft senkt den\nSpezialangriff\ndes Ziels.'
 
 - offset: '0xA3EA30'
   name: 'B-670 description attaque'
@@ -7534,19 +7534,19 @@ entries:
 
 - offset: '0xA3EAC2'
   name: 'B-670 description attaque'
-  expected: 'Schützt den Anwender.\nSenkt bei Kontakt\ndie Verteidigung\ndes Gegners stark.'
+  expected: 'Schützt den Anwender.\nSenkt bei Kontakt\ndie Verteidigung\ndes Ziels stark.'
 
 - offset: '0xA3EB0D'
   name: 'B-670 description attaque'
-  expected: 'Verbeugt sich und\nsticht mit dem Haar\nzu. Diese Attacke\ntrifft immer.'
+  expected: 'Verbeugt sich und\nsticht mit dem Haar\nzu. Trifft immer.'
 
 - offset: '0xA3EB9C'
   name: 'B-670 description attaque'
-  expected: 'Eternatus'' stärkste\nAttacke. Der Anwender\nmuss in der nächsten\nRunde aussetzen.'
+  expected: 'Eternatus'' stärkste\nAttacke. Anwender\nsetzt in der\nnächsten Runde aus.'
 
 - offset: '0xA3EBE3'
   name: 'B-670 description attaque'
-  expected: 'Feuert einen Strahl\naus Stahl aus\nseinem Körper ab.\nSchadet auch\ndem Anwender.'
+  expected: 'Ein Stahlstrahl\naus dem Körper\ntrifft. Schadet\nauch dem Anwender.'
 
 - offset: '0xA3EC26'
   name: 'B-670 description attaque'
@@ -7558,7 +7558,7 @@ entries:
 
 - offset: '0xA3ECC8'
   name: 'B-670 description attaque'
-  expected: 'Trifft zwei- bis\nfünfmal in Folge.\nInitiative steigt,\nVerteidigung sinkt.'
+  expected: 'Trifft zwei- bis\nfünfmal. Initiative\nsteigt, Verteidigung\nsinkt.'
 
 - offset: '0xA3ED0E'
   name: 'B-670 description attaque'
@@ -7610,7 +7610,7 @@ entries:
 
 - offset: '0xA3F0A1'
   name: 'B-670 description attaque'
-  expected: 'Nach dem Angriff\nwechselt der Anwender\nmit einem Pokémon\naus dem Team.'
+  expected: 'Greift an und\nwechselt dann mit\neinem Pokémon\naus dem Team.'
 
 - offset: '0xA3F0E1'
   name: 'B-670 description attaque'
@@ -7622,7 +7622,7 @@ entries:
 
 - offset: '0xA3F1BC'
   name: 'B-670 description attaque'
-  expected: 'Heilt eigene KP\nund Statusprobleme\nsowie die eines\nMitstreiters im Kampf.'
+  expected: 'Heilt eigene KP\nund Statusprobleme\nsowie die eines\nMitstreiters.'
 
 - offset: '0xA3F202'
   name: 'B-670 description attaque'

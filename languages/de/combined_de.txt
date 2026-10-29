@@ -22178,16 +22178,16 @@ threads/averagemons.3590605/
 0x3fe88f: s
 
 # B-670 — descriptions d'attaques, pointeurs EN vérifiés.
-0xA3C9C6: Feuert starke Laser\nmit Prismenkraft ab.\nDer Anwender muss\nin der nächsten\nRunde aussetzen.
+0xA3C9C6: Feuert starke Laser\nmit Prismenkraft ab.\nDer Anwender setzt\nin der nächsten\nRunde aus.
 0xA3CA1F: Beißt mit Psycho-\nKraft zu. Zerstört\ndabei Lichtschild\nund Reflektor\ndes Ziels.
 0xA3CA7C: Heilt den Status\ndes Ziels. Gelingt\ndies, erhält auch\nder Anwender\nKP zurück.
 0xA3CAD9: Greift mit einem\nwilden Tanz an.\nDer Typ der Attacke\nentspricht dem Typ\ndes Anwenders.
 0xA3CB38: Trifft mit einem\nGeisterknochen.\nSenkt eventuell\ndie Verteidigung\ndes Gegners.
 0xA3CB88: Legt eine Falle.\nWird der Anwender\nphysisch getroffen,\nexplodiert\ndiese Falle.
-0xA3CBE2: Heilt bis zur Hälfte\nder maximalen KP.\nIm Sandsturm\nwerden noch mehr\nKP geheilt.
+0xA3CBE2: Heilt bis zur Hälfte\nder maximalen KP.\nIm Sandsturm\nwerden mehr\nKP geheilt.
 0xA3CC78: Sammelt in Runde 1\nLicht und lädt eine\nKlinge damit auf.\nGreift in Runde 2\nmit der Klinge an.
 0xA3CCD7: Singt und erzeugt\ndabei Blasen.\nHeilt Verbrennungen\naller betroffenen\nPokémon.
-0xA3CD80: Tauscht den eigenen\nInitiative-Wert mit\ndem des Ziels.
+0xA3CD80: Tauscht Initiative\nmit der des Ziels.
 0xA3CE5A: Die Stärke wird\nverdoppelt, falls\ndie vorige Attacke\nfehlgeschlagen ist.
 0xA3CEA3: Entzieht dem Ziel KP\nin Höhe seines\nAngriffswerts.\nSenkt außerdem\nseinen Angriff.
 0xA3CF56: Rührt das Ziel\nmit Tränen.\nSenkt dessen\nAngriff und\nSpezialangriff.
@@ -22204,10 +22204,10 @@ threads/averagemons.3590605/
 0xA3D370: Erzeugt einen Raum,\nin dem langsamere\nPokémon fünf Runden\nlang zuerst\nzum Zug kommen.
 0xA3D3CA: Erzeugt einen Raum,\nin dem getragene\nItems fünf Runden\nlang ihre Wirkung\nverlieren.
 0xA3D424: Tauscht für fünf\nRunden Verteidigung\nund Spezial-\nverteidigung aller\nPokémon im Kampf.
-0xA3D47D: Schützt den Anwender\nund seine Mitstreiter\nmit einer magischen\nKraft vor\nStatus-Attacken.
+0xA3D47D: Magische\nKraft schützt\nAnwender und\nMitstreiter vor\nStatus-Attacken.
 0xA3D4D0: Schützt den Anwender\nund seine Mitstreiter\nmit einer Matte\nvor schädigenden\nAttacken.
-0xA3D530: Schützt den Anwender\nund seine Mitstreiter\nvor Attacken\nmit Priorität.
-0xA3D56D: Schützt den Anwender\nund seine Mitstreiter\nvor großflächigen\nAttacken.
+0xA3D530: Schützt Anwender\nund Mitstreiter vor\nPrioritätsattacken.
+0xA3D56D: Schützt Anwender\nund Mitstreiter vor\ngroßflächigen\nAttacken.
 0xA3D652: Ein Rülpser trifft\ndas Ziel. Zuvor muss\nder Anwender eine\ngetragene Beere\ngefressen haben.
 0xA3D703: Wirft das getragene\nItem auf das Ziel.\nStärke und Wirkung\nder Attacke hängen\nvom Item ab.
 0xA3D7C1: Mehr Schwerkraft\nfür fünf Runden.\nVerhindert Flug-\nmanöver und hebt\nSchwebe auf.
@@ -22219,39 +22219,39 @@ threads/averagemons.3590605/
 0xA3D9CD: Erhöht Verteidigung\nund Spezial-\nverteidigung von\nMitstreitern mit\nPlus oder Minus.
 0xA3DA2C: Bedeckt das Ziel\nmit Puder, der\nexplodiert, wenn es\neine Feuer-Attacke\neinsetzt.
 0xA3DA7E: Teilt Angriff und\nSpezialangriff mit\ndem Ziel und\ngleicht die\nWerte an.
-0xA3DB26: Eine Psycho-Welle\nändert die Fähigkeit\ndes Ziels\nzu Wankelmut.
+0xA3DB26: Eine Psycho-Welle\nändert die\nFähigkeit\ndes Ziels zu\nWankelmut.
 0xA3DBCA: Lässt das Ziel\nschweben. Es ist\ndrei Runden lang\nleichter zu treffen.
 0xA3DC2B: Lädt das Ziel zum\nzuckersüßen Spuk ein.\nEs erhält zusätzlich\nden Typ Geist.
-0xA3DC7C: Besprüht das Ziel\nmit Gift. Senkt bei\nvergifteten Zielen\nAngriff, Spezial-\nangriff und Initiative.
+0xA3DC7C: Gift senkt bei\nvergifteten Zielen\nAngriff, Spezial-\nangriff und Initiative.
 0xA3DCD8: Ein Fluch des Waldes\ntrifft das Ziel.\nEs erhält\nzusätzlich den\nTyp Pflanze.
 0xA3DD2A: Lässt den Kopf\nexplodieren und\ntrifft alle ringsum.\nSchadet auch\ndem Anwender.
 0xA3DD88: Eine Lichtsäule\ntrifft physisch oder\nspeziell, je nach\ndem höheren Wert\ndes Anwenders.
 0xA3DDE1: Trifft mit elektrisch\ngeladenen Fäusten.\nNormal-Attacken\nwerden dadurch zu\nElektro-Attacken.
 0xA3DE3F: Wird das Ziel vor\nseiner Attacke\nelektrisiert,\nerhält seine Attacke\nden Typ Elektro.
-0xA3DE9D: Verhindert, dass\ndas Ziel Items nutzt.\nAuch sein Trainer\nkann keine Items\nauf es anwenden.
+0xA3DE9D: Das Ziel kann keine\nItems nutzen. Sein\nTrainer kann keine\nauf es anwenden.
 0xA3DF4D: Feuert einen starken\nLichtstrahl aus der\nEwigen Blüte ab.\nSchadet auch\ndem Anwender.
-0xA3DFA5: Je weniger AP diese\nAttacke hat, desto\nstärker ist sie.
+0xA3DFA5: Weniger AP machen\ndiese Attacke\nstärker.
 0xA3DFD8: Hilft dem Ziel,\nseine Attacke direkt\nnach dem Anwender\neinzusetzen.
 0xA3E022: Weist das Ziel an,\nseine letzte Attacke\nerneut einzusetzen.
-0xA3E0EA: Richtet seine Mutter\naus und schlägt mit\nden Armen zweimal zu.\nLässt das Ziel evtl.\nzurückschrecken.
-0xA3E140: Nur einsetzbar, wenn\nder Anwender alle\nanderen Attacken\nim Kampf bereits\neingesetzt hat.
-0xA3E195: Trägt das Ziel hoch\nin die Luft. Es kann\nnicht angreifen und\nwird in der nächsten\nRunde fallen gelassen.
-0xA3E1E6: Das Pokémon\ngratuliert dir\nzu deinem\nbesonderen Tag!
-0xA3E219: Der Anwender und\nein Mitstreiter\nhalten Händchen.\nDas macht sie froh.
+0xA3E0EA: Richtet Mutter aus,\ntrifft mit Armen\nzweimal. Lässt Ziel\nevtl. zurückschrecken.
+0xA3E140: Nur einsetzbar, wenn\nalle anderen Attacken\nim Kampf bereits\neingesetzt wurden.
+0xA3E195: Hebt das Ziel\nhoch. Es kann\nnicht angreifen\nund fällt nächste\nRunde zu Boden.
+0xA3E1E6: Das Pokémon\ngratuliert\ndir zum\nbesonderen Tag!
+0xA3E219: Hält mit einem\nMitstreiter Händchen.\nDas macht sie froh.
 0xA3E256: Ein starker Strahl\ntrifft das Ziel.\nDoppelter Schaden\nbei Dynamax-Zielen.
 0xA3E2A6: Ignoriert Attacken\nund Fähigkeiten,\ndie Attacken\nauf sich lenken.
 0xA3E2EE: Beißt sich fest.\nDer Anwender und\ndas Ziel können\nnicht auswechseln.
-0xA3E338: Frisst die getragene\nBeere und erhöht\ndie eigene\nVerteidigung stark.
-0xA3E37B: Erhöht alle eigenen\nStatuswerte. Flucht\nund Auswechseln\nsind danach\nnicht mehr möglich.
-0xA3E3C8: Klebriger Teer senkt\ndie Initiative und\nmacht das Ziel gegen\nFeuer anfälliger.
+0xA3E338: Frisst seine Beere\nund erhöht die\neigene Verteidigung\nstark.
+0xA3E37B: Erhöht alle eigenen\nWerte. Verhindert\ndanach Flucht und\nAuswechseln.
+0xA3E3C8: Klebriger Teer senkt\ndie Initiative und\nmacht das Ziel für\nFeuer anfälliger.
 0xA3E416: Magischer Puder\nändert den Typ\ndes Ziels\nzu Psycho.
 0xA3E462: Greift zweimal an.\nGibt es zwei Ziele,\nwird jedes\neinmal getroffen.
-0xA3E4A6: Alle Pokémon auf\ndem Feld halten\nTeestunde und fressen\nihre getragene Beere.
-0xA3E4EF: Hält das Ziel fest.\nSenkt jede Runde\nseine Verteidigung\nund Spezial-\nverteidigung.
+0xA3E4A6: Alle Pokémon halten\nTeestunde und fressen\nihre getragene Beere.
+0xA3E4EF: Fängt das Ziel.\nVerteidigung und\nSpezialverteidigung\nsinken jede Runde.
 0xA3E538: Doppelte Stärke,\nwenn der Anwender\nvor dem Ziel\nzum Zug kommt.
 0xA3E580: Doppelte Stärke,\nwenn der Anwender\nvor dem Ziel\nzum Zug kommt.
-0xA3E5C8: Tauscht die Effekte\nauf beiden Seiten\ndes Kampffeldes\nmiteinander aus.
-0xA3E600: Erhöht alle eigenen\nStatuswerte\nauf Kosten eines\nTeils der KP.
+0xA3E5C8: Tauscht die Effekte\nbeider Seiten\ndes Kampffeldes.
+0xA3E600: Erhöht alle eigenen\nWerte auf Kosten\neines Teils der KP.
 0xA3E63A: Je höher die eigene\nVerteidigung, desto\ngrößer ist\nder Schaden.
 0xA3E67A: Dekoriert das Ziel.\nErhöht dessen\nAngriff und\nSpezialangriff stark.
 0xA3E6C4: Greift mit einem\nTrommelschlag an.\nSenkt die Initiative\ndes Ziels.
@@ -22259,22 +22259,22 @@ threads/averagemons.3590605/
 0xA3E74D: Schleudert einen\nFeuerball auf\ndas Ziel. Kann es\nauch verbrennen.
 0xA3E795: Wird zum Schwert\nund greift an.\nDoppelter Schaden\nbei Dynamax-Zielen.
 0xA3E7DF: Wird zum Schild\nund greift an.\nDoppelter Schaden\nbei Dynamax-Zielen.
-0xA3E82A: Morpeko erhöht seine\nInitiative und greift\nan. Der Typ hängt\nvon seiner Form ab.
+0xA3E82A: Morpeko greift an,\nerhöht Initiative.\nDer Typ hängt\nvon seiner Form ab.
 0xA3E876: Schwingt den Schweif\nund trifft die Gegner.\nSenkt dabei\nihren Angriff.
 0xA3E8C4: Sticht das Ziel\nmit einem\nspitzen Ast.
 0xA3E904: Zupft seine Gitarre.\nErzeugt ein Echo\nund starke\nSchwingungen.
-0xA3E94C: Greift mit Säure\naus sauren Äpfeln an.\nSenkt beim Ziel die\nSpezialverteidigung.
+0xA3E94C: Säure aus sauren\nÄpfeln senkt die\nSpezialverteidigung\ndes Ziels.
 0xA3E998: Lässt einen Apfel\nauf das Ziel fallen.\nSenkt dessen\nVerteidigung.
-0xA3E9E4: Greift mit seelen-\nbrechender Kraft an.\nSenkt den Spezial-\nangriff des Ziels.
+0xA3E9E4: Seelenbrechende\nKraft senkt den\nSpezialangriff\ndes Ziels.
 0xA3EA30: Greift mit Dampf an.\nVerwirrt das Ziel\neventuell auch.
 0xA3EA7B: Versprüht Wasser.\nHeilt eigene KP\nund die KP\nder Mitstreiter.
-0xA3EAC2: Schützt den Anwender.\nSenkt bei Kontakt\ndie Verteidigung\ndes Gegners stark.
-0xA3EB0D: Verbeugt sich und\nsticht mit dem Haar\nzu. Diese Attacke\ntrifft immer.
-0xA3EB9C: Eternatus' stärkste\nAttacke. Der Anwender\nmuss in der nächsten\nRunde aussetzen.
-0xA3EBE3: Feuert einen Strahl\naus Stahl aus\nseinem Körper ab.\nSchadet auch\ndem Anwender.
+0xA3EAC2: Schützt den Anwender.\nSenkt bei Kontakt\ndie Verteidigung\ndes Ziels stark.
+0xA3EB0D: Verbeugt sich und\nsticht mit dem Haar\nzu. Trifft immer.
+0xA3EB9C: Eternatus' stärkste\nAttacke. Anwender\nsetzt in der\nnächsten Runde aus.
+0xA3EBE3: Ein Stahlstrahl\naus dem Körper\ntrifft. Schadet\nauch dem Anwender.
 0xA3EC26: Wird im Psychofeld\nstärker und trifft\nalle gegnerischen\nZiele.
 0xA3EC76: Greift an und hebt\ndas Feld auf.\nOhne Feld schlägt\ndie Attacke fehl.
-0xA3ECC8: Trifft zwei- bis\nfünfmal in Folge.\nInitiative steigt,\nVerteidigung sinkt.
+0xA3ECC8: Trifft zwei- bis\nfünfmal. Initiative\nsteigt, Verteidigung\nsinkt.
 0xA3ED0E: Sammelt in Runde 1\nWeltraumenergie und\nerhöht dabei den\nSpezialangriff.
 0xA3ED59: Trifft physisch oder\nspeziell, je nachdem,\nwas wirksamer ist.\nKann vergiften.
 0xA3EDA8: Der Anwender\nexplodiert und wird\nbesiegt. Stärker\nim Nebelfeld.
@@ -22287,10 +22287,10 @@ threads/averagemons.3590605/
 0xA3EFBD: Greift mit dem Item\ndes Ziels an.\nSchlägt fehl, wenn\ndas Ziel keines hat.
 0xA3F00D: Ätzendes Gas löst\ndas getragene Item\ndes Ziels auf.
 0xA3F059: Trainiert einen\nMitstreiter. Erhöht\ndessen Angriff\nund Verteidigung.
-0xA3F0A1: Nach dem Angriff\nwechselt der Anwender\nmit einem Pokémon\naus dem Team.
+0xA3F0A1: Greift an und\nwechselt dann mit\neinem Pokémon\naus dem Team.
 0xA3F0E1: Drei Tritte, die\nmit jedem Treffer\nstärker werden.
 0xA3F172: Wirft glühenden Sand\nauf das Ziel.\nKann es außerdem\nverbrennen.
-0xA3F1BC: Heilt eigene KP\nund Statusprobleme\nsowie die eines\nMitstreiters im Kampf.
+0xA3F1BC: Heilt eigene KP\nund Statusprobleme\nsowie die eines\nMitstreiters.
 0xA3F202: Ein heftiger Schlag\ntrifft das Ziel.\nLandet immer\neinen Volltreffer.
 0xA3F24A: Trifft dreimal\nhintereinander.\nLandet dabei immer\nVolltreffer.
 0xA3F2E3: Ein heftiger Tritt\ntrifft das Ziel.\nSenkt dessen\nVerteidigung.
