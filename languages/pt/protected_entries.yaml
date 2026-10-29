@@ -9233,3 +9233,1368 @@ entries:
   - offset: "0x41d524"
     name: "PT-14 0x41d524"
     expected: '\nDesign de roteiro\n\nDesign de mapas\n\n\n'
+  - offset: '0x41d56b'
+    name: PT-15 0x41d56b
+    issue: F-774
+    expected: \nDesign de parâmetros\n\n\n\n\n
+    expected_raw: ' \nDesign de parâmetros\n\n\n\n\n'
+  - offset: '0x41d587'
+    name: PT-15 0x41d587
+    issue: F-774
+    expected: \n\nKoji Nishino\nTetsuji Ohta\nShigeki Morimoto\n\n
+    expected_raw: ' \n\nKoji Nishino\nTetsuji Ohta\nShigeki Morimoto\n\n'
+  - offset: '0x41d5fc'
+    name: PT-15 0x41d5fc
+    issue: F-774
+    expected: \nKen Sugimori\nMotofumi Fujiwara\nShigeki Morimoto\nHironobu Yoshida\n\n
+    expected_raw: \nKen Sugimori\nMotofumi Fujiwara\nShigeki Morimoto\nHironobu Yoshida\n\n
+  - offset: '0x41d658'
+    name: PT-15 0x41d658
+    issue: F-774
+    expected: \nSatoshi Ohta\nAsuka Iwashita\nTakao Unno\nKanako Eo\nAimi Tomita\n
+    expected_raw: \nSatoshi Ohta\nAsuka Iwashita\nTakao Unno\nKanako Eo\nAimi Tomita\n
+  - offset: '0x41d6b0'
+    name: PT-15 0x41d6b0
+    issue: F-774
+    expected: \nAtsuko Nishida\nMuneo Saito\nRena Yoshikawa\nJun Okutani\n\n
+    expected_raw: \nAtsuko Nishida\nMuneo Saito\nRena Yoshikawa\nJun Okutani\n\n
+  - offset: '0x41d6e9'
+    name: PT-15 0x41d6e9
+    issue: F-774
+    expected: Programação de apoio\n\n\n\n
+    expected_raw: '   Programação de apoio\n\n\n\n'
+  - offset: '0x41d707'
+    name: PT-15 0x41d707
+    issue: F-774
+    expected: \nTeruyuki Yoshioka\nTakao Nakano\n\nSatoshi Mitsuhara\nDaisuke Hoshino\n
+    expected_raw: ' \nTeruyuki Yoshioka\nTakao Nakano\n\nSatoshi Mitsuhara\nDaisuke Hoshino\n'
+  - offset: '0x41d74c'
+    name: PT-15 0x41d74c
+    issue: F-774
+    expected: \n\nTestes de produto NCL\n\n\n\n
+    expected_raw: \n\nTestes de produto NCL\n\n\n\n
+  - offset: '0x41d766'
+    name: PT-15 0x41d766
+    issue: F-774
+    expected: \n\n\nNCL Super Mario Club\n\n\n
+    expected_raw: '  \n\n\nNCL Super Mario Club\n\n\n'
+  - offset: '0x41d799'
+    name: PT-15 0x41d799
+    issue: F-774
+    expected: \nHiro Nakamura\nHiroyuki Uesugi\nTeruki Murakawa\n\nKazuya Suyama\n
+    expected_raw: '   \nHiro Nakamura\nHiroyuki Uesugi\nTeruki Murakawa\n\nKazuya Suyama\n'
+  - offset: '0x41d7f1'
+    name: PT-15 0x41d7f1
+    issue: F-774
+    expected: \nKenji Tominaga\n\nKenjiro Ito\nTomotaka Komura\nMichiko Takizawa\n
+    expected_raw: '   \nKenji Tominaga\n\nKenjiro Ito\nTomotaka Komura\nMichiko Takizawa\n'
+  - offset: '0x41d849'
+    name: PT-15 0x41d849
+    issue: F-774
+    expected: \nMakiko Takada\nMikiko Ohashi\nShusaku Egami\nTakanao Kondo\nRui Kawaguchi\n
+    expected_raw: '   \nMakiko Takada\nMikiko Ohashi\nShusaku Egami\nTakanao Kondo\nRui Kawaguchi\n'
+  - offset: '0x41d894'
+    name: PT-15 0x41d894
+    issue: F-774
+    expected: \n\nRevisão do braille\n\n\n\n
+    expected_raw: \n\nRevisão do braille\n\n\n\n
+  - offset: '0x41d8ad'
+    name: PT-15 0x41d8ad
+    issue: F-774
+    expected: \n\n\nJapan Braille Library\n\n\n
+    expected_raw: '   \n\n\nJapan Braille Library\n\n\n'
+  - offset: '0x41d8cc'
+    name: PT-15 0x41d8cc
+    issue: F-774
+    expected: Supervisão de informações\n\n\n\n\n\n
+    expected_raw: Supervisão de informações\n\n\n\n\n\n
+  - offset: '0x41d8ea'
+    name: PT-15 0x41d8ea
+    issue: F-774
+    expected: \nHiroki Enomoto\nKazuyuki Terada\nYuri Sakurai\nYumi Funasaka\nNaoko Yanase\n
+    expected_raw: '  \nHiroki Enomoto\nKazuyuki Terada\nYuri Sakurai\nYumi Funasaka\nNaoko Yanase\n'
+  - offset: '0x41d94b'
+    name: PT-15 0x41d94b
+    issue: F-774
+    expected: \nAzusa Tajima\nAkira Kinashi\nKazuki Yoshihara\n\nRetsuji Nomoto\n
+    expected_raw: ' \nAzusa Tajima\nAkira Kinashi\nKazuki Yoshihara\n\nRetsuji Nomoto\n'
+  - offset: '0x41d9a0'
+    name: PT-15 0x41d9a0
+    issue: F-774
+    expected: \n\nHitoshi Yamagami\nGakuji Nomoto\n\n\n
+    expected_raw: \n\nHitoshi Yamagami\nGakuji Nomoto\n\n\n
+  - offset: '0x41d9d4'
+    name: PT-15 0x41d9d4
+    issue: F-774
+    expected: \n\nHiroyuki Jinnai\nTakehiro Izushi\nHiroaki Tsuru\n\n
+    expected_raw: \n\nHiroyuki Jinnai\nTakehiro Izushi\nHiroaki Tsuru\n\n
+  - offset: '0x41da06'
+    name: PT-15 0x41da06
+    issue: F-774
+    expected: \n\nDireção executiva\n\n\n\n
+    expected_raw: '  \n\nDireção executiva\n\n\n\n'
+  - offset: '0x41da39'
+    name: PT-15 0x41da39
+    issue: F-774
+    expected: \n\nProdução executiva\n\n\n\n
+    expected_raw: '   \n\nProdução executiva\n\n\n\n'
+  - offset: '0x41da6b'
+    name: PT-15 0x41da6b
+    issue: F-774
+    expected: \n\nProdução executiva\n\n\n\n
+    expected_raw: ' \n\nProdução executiva\n\n\n\n'
+  - offset: '0x41da85'
+    name: PT-15 0x41da85
+    issue: F-774
+    expected: \n\n\nTsunekaz Ishihara\n\n\n
+    expected_raw: '   \n\n\nTsunekaz Ishihara\n\n\n'
+  - offset: '0x41daa0'
+    name: PT-15 0x41daa0
+    issue: F-774
+    expected: \nCoordenação da versão inglesa\n\n\n\n\n
+    expected_raw: \nCoordenação da versão inglesa\n\n\n\n\n
+  - offset: '0x41dac3'
+    name: PT-15 0x41dac3
+    issue: F-774
+    expected: \n\nHiro Nakamura\nSeth McMahill\n\n\n
+    expected_raw: ' \n\nHiro Nakamura\nSeth McMahill\n\n\n'
+  - offset: '0x41dae5'
+    name: PT-15 0x41dae5
+    issue: F-774
+    expected: \nTradução\n\nEdição de texto\n\n\n
+    expected_raw: '   \nTradução\n\nEdição de texto\n\n\n'
+  - offset: '0x41db04'
+    name: PT-15 0x41db04
+    issue: F-774
+    expected: \n\nNob Ogasawara\n\nTeresa Lillygren\n\n
+    expected_raw: \n\nNob Ogasawara\n\nTeresa Lillygren\n\n
+  - offset: '0x41db3a'
+    name: PT-15 0x41db3a
+    issue: F-774
+    expected: \nTeruki Murakawa\nSouichi Yamamoto\nYuichiro Ito\nAkira Kinashi\n\n
+    expected_raw: '  \nTeruki Murakawa\nSouichi Yamamoto\nYuichiro Ito\nAkira Kinashi\n\n'
+  - offset: '0x41db7b'
+    name: PT-15 0x41db7b
+    issue: F-774
+    expected: \nProgramação de ambiente e ferramentas\n\n\n\n\n
+    expected_raw: ' \nProgramação de ambiente e ferramentas\n\n\n\n\n'
+  - offset: '0x41dba1'
+    name: PT-15 0x41dba1
+    issue: F-774
+    expected: \n\nTeruki Murakawa\nSouichi Yamamoto\nKimiko Nakamichi\n\n
+    expected_raw: '   \n\nTeruki Murakawa\nSouichi Yamamoto\nKimiko Nakamichi\n\n'
+  - offset: '0x41dbda'
+    name: PT-15 0x41dbda
+    issue: F-774
+    expected: Testes de produto NOA\n\n\n\n\n\n
+    expected_raw: '  Testes de produto NOA\n\n\n\n\n\n'
+  - offset: '0x41dbf6'
+    name: PT-15 0x41dbf6
+    issue: F-774
+    expected: \nThomas Hertzog\nKathy Huguenard\nMika Kurosawa\n\n\n
+    expected_raw: '  \nThomas Hertzog\nKathy Huguenard\nMika Kurosawa\n\n\n'
+  - offset: '0x41dc29'
+    name: PT-15 0x41dc29
+    issue: F-774
+    expected: Revisão do braille\n\n\n\n\n\n
+    expected_raw: '   Revisão do braille\n\n\n\n\n\n'
+  - offset: '0x41dc48'
+    name: PT-15 0x41dc48
+    issue: F-774
+    expected: \nNational Federation\n<0xFC><0x13><0x13>of the Blind\nPatricia A. Maurer\nJapan Braille Library\nEuropean Blind Union\n
+    expected_raw: \nNational Federation\n<0xFC><0x13><0x13>of the Blind\nPatricia A. Maurer\nJapan Braille Library\nEuropean Blind Union\n
+  - offset: '0x41dcac'
+    name: PT-15 0x41dcac
+    issue: F-774
+    expected: \nRevisão do braille\n\n\n\n\n
+    expected_raw: \nRevisão do braille\n\n\n\n\n
+  - offset: '0x41dcc5'
+    name: PT-15 0x41dcc5
+    issue: F-774
+    expected: \n\nNational Information Library\n<0xFC><0x13><0x2D>Service\nMargaret Campion\n\n
+    expected_raw: '   \n\nNational Information Library\n<0xFC><0x13><0x2D>Service\nMargaret Campion\n\n'
+  - offset: '0x41dd1d'
+    name: PT-15 0x41dd1d
+    issue: F-774
+    expected: \nTakehiro Izushi\nMotoyasu Tojima\nHitoshi Yamagami\nHiroyuki Uesugi\n\n
+    expected_raw: '   \nTakehiro Izushi\nMotoyasu Tojima\nHitoshi Yamagami\nHiroyuki Uesugi\n\n'
+  - offset: '0x41dd79'
+    name: PT-15 0x41dd79
+    issue: F-774
+    expected: \nNicola Pratt-Barlow\nShellie Dow\nAnthony Howitt\nNaoko Saeki\nKyoko Onishi\n
+    expected_raw: '   \nNicola Pratt-Barlow\nShellie Dow\nAnthony Howitt\nNaoko Saeki\nKyoko Onishi\n'
+  - offset: '0x41ddc6'
+    name: PT-15 0x41ddc6
+    issue: F-774
+    expected: \nRevisão do braille\n\n\n\n\n
+    expected_raw: '  \nRevisão do braille\n\n\n\n\n'
+  - offset: '0x41dde4'
+    name: PT-15 0x41dde4
+    issue: F-774
+    expected: \n\nThe Royal New Zealand\nFoundation of the Blind\nGreg Moran\n\n
+    expected_raw: \n\nThe Royal New Zealand\nFoundation of the Blind\nGreg Moran\n\n
+  - offset: '0x41de21'
+    name: PT-15 0x41de21
+    issue: F-774
+    expected: \n\nDesign gráfico\n\n\n\n
+    expected_raw: '   \n\nDesign gráfico\n\n\n\n'
+  - offset: '0x41de9d'
+    name: PT-15 0x41de9d
+    issue: F-774
+    expected: Erro de comunicação<0xB0>\nVerifique as conexões,\ndesligue e ligue o aparelho.
+    expected_raw: Erro de comunicação<0xB0>\nVerifique as conexões,\ndesligue e ligue o aparelho.
+  - offset: '0x41def0'
+    name: PT-15 0x41def0
+    issue: F-774
+    expected: Erro de comunicação<0xB0>
+    expected_raw: Erro de comunicação<0xB0>
+  - offset: '0x41df05'
+    name: PT-15 0x41df05
+    issue: F-774
+    expected: Aproxime-se dos outros jogadores.\nEvite obstáculos entre vocês.
+    expected_raw: Aproxime-se dos outros jogadores.\nEvite obstáculos entre vocês.
+  - offset: '0x41df4c'
+    name: PT-15 0x41df4c
+    issue: F-774
+    expected: 'Botão A: Balcão de registro'
+    expected_raw: 'Botão A: Balcão de registro'
+  - offset: '0x41df6b'
+    name: PT-15 0x41df6b
+    issue: F-774
+    expected: 'Botão A: Tela de título'
+    expected_raw: 'Botão A: Tela de título'
+  - offset: '0x41df82'
+    name: PT-15 0x41df82
+    issue: F-774
+    expected: CONEXÃO <0xFD><0x02>P
+    expected_raw: CONEXÃO <0xFD><0x02>P
+  - offset: '0x41df8b'
+    name: PT-15 0x41df8b
+    issue: F-774
+    expected: BRONZE
+    expected_raw: BRONZE
+  - offset: '0x41df92'
+    name: PT-15 0x41df92
+    issue: F-774
+    expected: COBRE
+    expected_raw: COBRE
+  - offset: '0x41df99'
+    name: PT-15 0x41df99
+    issue: F-774
+    expected: PRATA
+    expected_raw: PRATA
+  - offset: '0x41dfa0'
+    name: PT-15 0x41dfa0
+    issue: F-774
+    expected: OURO
+    expected_raw: OURO
+  - offset: '0x41dfa5'
+    name: PT-15 0x41dfa5
+    issue: F-774
+    expected: <0xF8><0x00>Próx.
+    expected_raw: <0xF8><0x00>Próx.
+  - offset: '0x41dfac'
+    name: PT-15 0x41dfac
+    issue: F-774
+    expected: <0xF8><0x0A>Escolher <0xF8><0x00>OK <0xF8><0x01>Fim
+    expected_raw: <0xF8><0x0A>Escolher <0xF8><0x00>OK <0xF8><0x01>Fim
+  - offset: '0x41dfbe'
+    name: PT-15 0x41dfbe
+    issue: F-774
+    expected: <0xF8><0x00><0xF8><0x01>Cancelar
+    expected_raw: <0xF8><0x00><0xF8><0x01>Cancelar
+  - offset: '0x41dfc9'
+    name: PT-15 0x41dfc9
+    issue: F-774
+    expected: <0xF8><0x0A>Escolher <0xF8><0x00>OK <0xF8><0x01>Cancelar
+    expected_raw: <0xF8><0x0A>Escolher <0xF8><0x00>OK <0xF8><0x01>Cancelar
+  - offset: '0x41dfde'
+    name: PT-15 0x41dfde
+    issue: F-774
+    expected: Pokémon
+    expected_raw: Pokémon
+  - offset: '0x41dfe6'
+    name: PT-15 0x41dfe6
+    issue: F-774
+    expected: Treinador
+    expected_raw: Treinador
+  - offset: '0x41dfee'
+    name: PT-15 0x41dfee
+    issue: F-774
+    expected: STATUS
+    expected_raw: STATUS
+  - offset: '0x41dff5'
+    name: PT-15 0x41dff5
+    issue: F-774
+    expected: BATALHA
+    expected_raw: BATALHA
+  - offset: '0x41dffc'
+    name: PT-15 0x41dffc
+    issue: F-774
+    expected: SAUDAÇÕES
+    expected_raw: SAUDAÇÕES
+  - offset: '0x41e006'
+    name: PT-15 0x41e006
+    issue: F-774
+    expected: PESSOAS
+    expected_raw: PESSOAS
+  - offset: '0x41e00d'
+    name: PT-15 0x41e00d
+    issue: F-774
+    expected: VOZES
+    expected_raw: VOZES
+  - offset: '0x41e014'
+    name: PT-15 0x41e014
+    issue: F-774
+    expected: FALA
+    expected_raw: FALA
+  - offset: '0x41e01b'
+    name: PT-15 0x41e01b
+    issue: F-774
+    expected: FINAIS
+    expected_raw: FINAIS
+  - offset: '0x41e023'
+    name: PT-15 0x41e023
+    issue: F-774
+    expected: SENTIMENTOS
+    expected_raw: SENTIMENTOS
+  - offset: '0x41e02c'
+    name: PT-15 0x41e02c
+    issue: F-774
+    expected: CONDIÇÕES
+    expected_raw: CONDIÇÕES
+  - offset: '0x41e037'
+    name: PT-15 0x41e037
+    issue: F-774
+    expected: AÇÕES
+    expected_raw: AÇÕES
+  - offset: '0x41e03f'
+    name: PT-15 0x41e03f
+    issue: F-774
+    expected: ESTILO DE VIDA
+    expected_raw: ESTILO DE VIDA
+  - offset: '0x41e049'
+    name: PT-15 0x41e049
+    issue: F-774
+    expected: PASSATEMPOS
+    expected_raw: PASSATEMPOS
+  - offset: '0x41e051'
+    name: PT-15 0x41e051
+    issue: F-774
+    expected: TEMPO
+    expected_raw: TEMPO
+  - offset: '0x41e056'
+    name: PT-15 0x41e056
+    issue: F-774
+    expected: DIVERSOS
+    expected_raw: DIVERSOS
+  - offset: '0x41e05c'
+    name: PT-15 0x41e05c
+    issue: F-774
+    expected: ADJETIVOS
+    expected_raw: ADJETIVOS
+  - offset: '0x41e067'
+    name: PT-15 0x41e067
+    issue: F-774
+    expected: EVENTOS
+    expected_raw: EVENTOS
+  - offset: '0x41e06e'
+    name: PT-15 0x41e06e
+    issue: F-774
+    expected: MOVIMENTO 1
+    expected_raw: MOVIMENTO 1
+  - offset: '0x41e075'
+    name: PT-15 0x41e075
+    issue: F-774
+    expected: MOVIMENTO 2
+    expected_raw: MOVIMENTO 2
+  - offset: '0x41e07c'
+    name: PT-15 0x41e07c
+    issue: F-774
+    expected: EXPRESSÕES
+    expected_raw: EXPRESSÕES
+  - offset: '0x41e08a'
+    name: PT-15 0x41e08a
+    issue: F-774
+    expected: Pokémon2
+    expected_raw: Pokémon2
+  - offset: '0x41e0a5'
+    name: PT-15 0x41e0a5
+    issue: F-774
+    expected: Confirma esta troca?
+    expected_raw: Confirma esta troca?
+  - offset: '0x41e0b9'
+    name: PT-15 0x41e0b9
+    issue: F-774
+    expected: Cancelar
+    expected_raw: Cancelar
+  - offset: '0x41e0c0'
+    name: PT-15 0x41e0c0
+    issue: F-774
+    expected: Escolha um Pokémon.
+    expected_raw: Escolha um Pokémon.
+  - offset: '0x41e0d2'
+    name: PT-15 0x41e0d2
+    issue: F-774
+    expected: Resumo
+    expected_raw: Resumo
+  - offset: '0x41e0da'
+    name: PT-15 0x41e0da
+    issue: F-774
+    expected: Trocar
+    expected_raw: Trocar
+  - offset: '0x41e0e0'
+    name: PT-15 0x41e0e0
+    issue: F-774
+    expected: Cancelar a troca?
+    expected_raw: Cancelar a troca?
+  - offset: '0x41e0ee'
+    name: PT-15 0x41e0ee
+    issue: F-774
+    expected: Aperte B para sair.
+    expected_raw: Aperte B para sair.
+  - offset: '0x41e10a'
+    name: PT-15 0x41e10a
+    issue: F-774
+    expected: Resumo
+    expected_raw: Resumo
+  - offset: '0x41e112'
+    name: PT-15 0x41e112
+    issue: F-774
+    expected: Trocar
+    expected_raw: Trocar
+  - offset: '0x41e118'
+    name: PT-15 0x41e118
+    issue: F-774
+    expected: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Conexão em espera<0xB0>\nAguarde.
+    expected_raw: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Conexão em espera<0xB0>\nAguarde.
+  - offset: '0x41e145'
+    name: PT-15 0x41e145
+    issue: F-774
+    expected: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>A troca foi cancelada.
+    expected_raw: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>A troca foi cancelada.
+  - offset: '0x41e16b'
+    name: PT-15 0x41e16b
+    issue: F-774
+    expected: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>É seu único Pokémon\npara batalhar.
+    expected_raw: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>É seu único Pokémon\npara batalhar.
+  - offset: '0x41e199'
+    name: PT-15 0x41e199
+    issue: F-774
+    expected: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Esperando seu amigo\nterminar<0xB0>
+    expected_raw: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Esperando seu amigo\nterminar<0xB0>
+  - offset: '0x41e1c5'
+    name: PT-15 0x41e1c5
+    issue: F-774
+    expected: Seu amigo quer\ntrocar Pokémon.
+    expected_raw: Seu amigo quer\ntrocar Pokémon.
+  - offset: '0x41e1e9'
+    name: PT-15 0x41e1e9
+    issue: F-774
+    expected: <0xFD><0x03> será\nenviado a <0xFD><0x02>.
+    expected_raw: <0xFD><0x03> será\nenviado a <0xFD><0x02>.
+  - offset: '0x41e200'
+    name: PT-15 0x41e200
+    issue: F-774
+    expected: Tchau, <0xFD><0x03>!
+    expected_raw: Tchau, <0xFD><0x03>!
+  - offset: '0x41e20d'
+    name: PT-15 0x41e20d
+    issue: F-774
+    expected: <0xFD><0x02> enviou <0xFD><0x04>.
+    expected_raw: <0xFD><0x02> enviou <0xFD><0x04>.
+  - offset: '0x41e21e'
+    name: PT-15 0x41e21e
+    issue: F-774
+    expected: Cuide bem de <0xFD><0x04>!
+    expected_raw: Cuide bem de <0xFD><0x04>!
+  - offset: '0x41e234'
+    name: PT-15 0x41e234
+    issue: F-774
+    expected: De
+    expected_raw: 'De '
+  - offset: '0x41e245'
+    name: PT-15 0x41e245
+    issue: F-774
+    expected: Estado da conexão sem fio
+    expected_raw: Estado da conexão sem fio
+  - offset: '0x41e263'
+    name: PT-15 0x41e263
+    issue: F-774
+    expected: 'Pessoas trocando:'
+    expected_raw: 'Pessoas trocando:'
+  - offset: '0x41e273'
+    name: PT-15 0x41e273
+    issue: F-774
+    expected: 'Pessoas batalhando:'
+    expected_raw: 'Pessoas batalhando:'
+  - offset: '0x41e284'
+    name: PT-15 0x41e284
+    issue: F-774
+    expected: 'Pessoas na SALA UNIÃO:'
+    expected_raw: 'Pessoas na SALA UNIÃO:'
+  - offset: '0x41e29e'
+    name: PT-15 0x41e29e
+    issue: F-774
+    expected: 'Pessoas conectadas:'
+    expected_raw: 'Pessoas conectadas:'
+  - offset: '0x41e2b4'
+    name: PT-15 0x41e2b4
+    issue: F-774
+    expected: <0xF7><0x00> jogadores
+    expected_raw: <0xF7><0x00> jogadores
+  - offset: '0x41e2bf'
+    name: PT-15 0x41e2bf
+    issue: F-774
+    expected: <0xF7><0x01> jogador
+    expected_raw: <0xF7><0x01> jogador
+  - offset: '0x41e2c9'
+    name: PT-15 0x41e2c9
+    issue: F-774
+    expected: <0xF7><0x02> jogadores
+    expected_raw: <0xF7><0x02> jogadores
+  - offset: '0x41e2d4'
+    name: PT-15 0x41e2d4
+    issue: F-774
+    expected: <0xF7><0x03> jogadores
+    expected_raw: <0xF7><0x03> jogadores
+  - offset: '0x41e325'
+    name: PT-15 0x41e325
+    issue: F-774
+    expected: Conexão em espera<0xB0>
+    expected_raw: Conexão em espera<0xB0>
+  - offset: '0x41e33c'
+    name: PT-15 0x41e33c
+    issue: F-774
+    expected: Os dois parecem se dar\nmuito bem.
+    expected_raw: Os dois parecem se dar\nmuito bem.
+  - offset: '0x41e361'
+    name: PT-15 0x41e361
+    issue: F-774
+    expected: Os dois parecem se dar bem.
+    expected_raw: Os dois parecem se dar bem.
+  - offset: '0x41e37c'
+    name: PT-15 0x41e37c
+    issue: F-774
+    expected: Os dois não parecem gostar\nmuito um do outro.
+    expected_raw: Os dois não parecem gostar\nmuito um do outro.
+  - offset: '0x41e3a8'
+    name: PT-15 0x41e3a8
+    issue: F-774
+    expected: Os dois preferem brincar com\noutros Pokémon a ficarem juntos.
+    expected_raw: Os dois preferem brincar com\noutros Pokémon a ficarem juntos.
+  - offset: '0x41e3e3'
+    name: PT-15 0x41e3e3
+    issue: F-774
+    expected: Qual movimento ensinar a <0xFD><0x02>?
+    expected_raw: Qual movimento ensinar a <0xFD><0x02>?
+  - offset: '0x41e3fb'
+    name: PT-15 0x41e3fb
+    issue: F-774
+    expected: Ensinar <0xFD><0x03>?
+    expected_raw: Ensinar <0xFD><0x03>?
+  - offset: '0x41e405'
+    name: PT-15 0x41e405
+    issue: F-774
+    expected: <0xFD><0x02> aprendeu\n<0xFD><0x03>.
+    expected_raw: <0xFD><0x02> aprendeu\n<0xFD><0x03>.
+  - offset: '0x41e414'
+    name: PT-15 0x41e414
+    issue: F-774
+    expected: <0xFD><0x02> quer aprender\n<0xFD><0x03>.<0xFB>Mas <0xFD><0x02> só pode ter\nquatro movimentos.<0xFB>Esquecer um movimento\npara aprender <0xFD><0x03>?
+    expected_raw: <0xFD><0x02> quer aprender\n<0xFD><0x03>.<0xFB>Mas <0xFD><0x02> só pode ter\nquatro movimentos.<0xFB>Esquecer um movimento\npara aprender <0xFD><0x03>?
+  - offset: '0x41e481'
+    name: PT-15 0x41e481
+    issue: F-774
+    expected: Desistir de <0xFD><0x03>?
+    expected_raw: Desistir de <0xFD><0x03>?
+  - offset: '0x41e493'
+    name: PT-15 0x41e493
+    issue: F-774
+    expected: <0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2, e <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00>Puf!<0xFB>
+    expected_raw: <0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2, e <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00>Puf!<0xFB>
+  - offset: '0x41e4c0'
+    name: PT-15 0x41e4c0
+    issue: F-774
+    expected: <0xFD><0x02> esqueceu <0xFD><0x04>.<0xFB>E<0xB0><0xFB><0xFD><0x02>\naprendeu <0xFD><0x03>.
+    expected_raw: <0xFD><0x02> esqueceu <0xFD><0x04>.<0xFB>E<0xB0><0xFB><0xFD><0x02>\naprendeu <0xFD><0x03>.
+  - offset: '0x41e4e2'
+    name: PT-15 0x41e4e2
+    issue: F-774
+    expected: Desistir de ensinar um novo\nmovimento a <0xFD><0x02>?
+    expected_raw: Desistir de ensinar um novo\nmovimento a <0xFD><0x02>?
+  - offset: '0x41e50c'
+    name: PT-15 0x41e50c
+    issue: F-774
+    expected: Qual movimento esquecer?<0xFB>
+    expected_raw: Qual movimento esquecer?<0xFB>
+  - offset: '0x41e538'
+    name: PT-15 0x41e538
+    issue: F-774
+    expected: Conexão em espera<0xB0>\nAguardando a escolha do jogador.
+    expected_raw: Conexão em espera<0xB0>\nAguardando a escolha do jogador.
+  - offset: '0x41e572'
+    name: PT-15 0x41e572
+    issue: F-774
+    expected: A batalha foi recusada.<0xFC><0x08><0x3C>
+    expected_raw: A batalha foi recusada.<0xFC><0x08><0x3C>
+  - offset: '0x41e58d'
+    name: PT-15 0x41e58d
+    issue: F-774
+    expected: Você recusou a batalha.<0xFC><0x08><0x3C>
+    expected_raw: Você recusou a batalha.<0xFC><0x08><0x3C>
+  - offset: '0x41e5a4'
+    name: PT-15 0x41e5a4
+    issue: F-774
+    expected: <0xF8><0x04>Escolher <0xF8><0x0A>Sel. <0xF8><0x00>OK
+    expected_raw: <0xF8><0x04>Escolher <0xF8><0x0A>Sel. <0xF8><0x00>OK
+  - offset: '0x41e5b9'
+    name: PT-15 0x41e5b9
+    issue: F-774
+    expected: <0xF8><0x04>Escolher <0xF8><0x0A>Sel. <0xF8><0x01>Cancelar
+    expected_raw: <0xF8><0x04>Escolher <0xF8><0x0A>Sel. <0xF8><0x01>Cancelar
+  - offset: '0x41e5d2'
+    name: PT-15 0x41e5d2
+    issue: F-774
+    expected: <0xF8><0x0C>Escolher <0xF8><0x00>Ler <0xF8><0x01>Cancelar
+    expected_raw: <0xF8><0x0C>Escolher <0xF8><0x00>Ler <0xF8><0x01>Cancelar
+  - offset: '0x41e5ed'
+    name: PT-15 0x41e5ed
+    issue: F-774
+    expected: DAISY
+    expected_raw: DAISY
+  - offset: '0x41e5f3'
+    name: PT-15 0x41e5f3
+    issue: F-774
+    expected: BILL
+    expected_raw: BILL
+  - offset: '0x41e5f8'
+    name: PT-15 0x41e5f8
+    issue: F-774
+    expected: FUJI
+    expected_raw: FUJI
+  - offset: '0x41e5fd'
+    name: PT-15 0x41e5fd
+    issue: F-774
+    expected: Vários eventos serão recebidos\npela conexão sem fio.
+    expected_raw: Vários eventos serão recebidos\npela conexão sem fio.
+  - offset: '0x41e63f'
+    name: PT-15 0x41e63f
+    issue: F-774
+    expected: Leia os CARTÕES MISTÉRIO\nque você possui.
+    expected_raw: Leia os CARTÕES MISTÉRIO\nque você possui.
+  - offset: '0x41e669'
+    name: PT-15 0x41e669
+    issue: F-774
+    expected: Leia as NOTÍCIAS recebidas.
+    expected_raw: Leia as NOTÍCIAS recebidas.
+  - offset: '0x41e685'
+    name: PT-15 0x41e685
+    issue: F-774
+    expected: Voltar à tela de título.
+    expected_raw: Voltar à tela de título.
+  - offset: '0x41e6a1'
+    name: PT-15 0x41e6a1
+    issue: F-774
+    expected: Você não tem um CARTÃO MISTÉRIO.\nUm novo CARTÃO será recebido.
+    expected_raw: Você não tem um CARTÃO MISTÉRIO.\nUm novo CARTÃO será recebido.
+  - offset: '0x41e6dc'
+    name: PT-15 0x41e6dc
+    issue: F-774
+    expected: Você não tem NOTÍCIAS MISTÉRIO.\nNovas NOTÍCIAS serão recebidas.
+    expected_raw: Você não tem NOTÍCIAS MISTÉRIO.\nNovas NOTÍCIAS serão recebidas.
+  - offset: '0x41e717'
+    name: PT-15 0x41e717
+    issue: F-774
+    expected: De onde acessar o\nCARTÃO MISTÉRIO?
+    expected_raw: De onde acessar o\nCARTÃO MISTÉRIO?
+  - offset: '0x41e741'
+    name: PT-15 0x41e741
+    issue: F-774
+    expected: De onde acessar as\nNOTÍCIAS MISTÉRIO?
+    expected_raw: De onde acessar as\nNOTÍCIAS MISTÉRIO?
+  - offset: '0x41e794'
+    name: PT-15 0x41e794
+    issue: F-774
+    expected: Comunicando<0xB0>
+    expected_raw: Comunicando<0xB0>
+  - offset: '0x41e7a3'
+    name: PT-15 0x41e7a3
+    issue: F-774
+    expected: Comunicação concluída.
+    expected_raw: Comunicação concluída.
+  - offset: '0x41e7bc'
+    name: PT-15 0x41e7bc
+    issue: F-774
+    expected: Erro de comunicação.
+    expected_raw: Erro de comunicação.
+  - offset: '0x41e7d1'
+    name: PT-15 0x41e7d1
+    issue: F-774
+    expected: Comunicação cancelada.
+    expected_raw: Comunicação cancelada.
+  - offset: '0x41e7f2'
+    name: PT-15 0x41e7f2
+    issue: F-774
+    expected: Descartar o CARTÃO MISTÉRIO\ne receber um novo CARTÃO?
+    expected_raw: Descartar o CARTÃO MISTÉRIO\ne receber um novo CARTÃO?
+  - offset: '0x41e823'
+    name: PT-15 0x41e823
+    issue: F-774
+    expected: Você não recebeu o presente.\nReceber outro CARTÃO mesmo assim?
+    expected_raw: Você não recebeu o presente.\nReceber outro CARTÃO mesmo assim?
+  - offset: '0x41e866'
+    name: PT-15 0x41e866
+    issue: F-774
+    expected: CARTÃO MISTÉRIO recebido\nde <0xFD><0x02>.
+    expected_raw: CARTÃO MISTÉRIO recebido\nde <0xFD><0x02>.
+  - offset: '0x41e88f'
+    name: PT-15 0x41e88f
+    issue: F-774
+    expected: NOTÍCIAS MISTÉRIO recebidas\nde <0xFD><0x02>.
+    expected_raw: NOTÍCIAS MISTÉRIO recebidas\nde <0xFD><0x02>.
+  - offset: '0x41e8bd'
+    name: PT-15 0x41e8bd
+    issue: F-774
+    expected: Um novo CARTÃO MISTÉRIO\nfoi recebido.
+    expected_raw: Um novo CARTÃO MISTÉRIO\nfoi recebido.
+  - offset: '0x41e8e2'
+    name: PT-15 0x41e8e2
+    issue: F-774
+    expected: Novas NOTÍCIAS MISTÉRIO\nforam recebidas.
+    expected_raw: Novas NOTÍCIAS MISTÉRIO\nforam recebidas.
+  - offset: '0x41e90c'
+    name: PT-15 0x41e90c
+    issue: F-774
+    expected: Um novo SELO foi recebido.
+    expected_raw: Um novo SELO foi recebido.
+  - offset: '0x41e92b'
+    name: PT-15 0x41e92b
+    issue: F-774
+    expected: Um novo Treinador chegou.
+    expected_raw: Um novo Treinador chegou.
+  - offset: '0x41e946'
+    name: PT-15 0x41e946
+    issue: F-774
+    expected: Você já tinha esse\nCARTÃO MISTÉRIO.
+    expected_raw: Você já tinha esse\nCARTÃO MISTÉRIO.
+  - offset: '0x41e968'
+    name: PT-15 0x41e968
+    issue: F-774
+    expected: Você já tinha essas\nNOTÍCIAS MISTÉRIO.
+    expected_raw: Você já tinha essas\nNOTÍCIAS MISTÉRIO.
+  - offset: '0x41e98f'
+    name: PT-15 0x41e98f
+    issue: F-774
+    expected: Você já tinha esse\nSELO.
+    expected_raw: Você já tinha esse\nSELO.
+  - offset: '0x41e9ab'
+    name: PT-15 0x41e9ab
+    issue: F-774
+    expected: Não há mais espaço\npara adicionar SELOS.
+    expected_raw: Não há mais espaço\npara adicionar SELOS.
+  - offset: '0x41e9d3'
+    name: PT-15 0x41e9d3
+    issue: F-774
+    expected: Seu recorde foi enviado\npela CONEXÃO SEM FIO.
+    expected_raw: Seu recorde foi enviado\npela CONEXÃO SEM FIO.
+  - offset: '0x41ea0d'
+    name: PT-15 0x41ea0d
+    issue: F-774
+    expected: Não pode receber CARTÃO MISTÉRIO\ndeste Treinador.
+    expected_raw: Não pode receber CARTÃO MISTÉRIO\ndeste Treinador.
+  - offset: '0x41ea3f'
+    name: PT-15 0x41ea3f
+    issue: F-774
+    expected: Não pode receber NOTÍCIAS MISTÉRIO\ndeste Treinador.
+    expected_raw: Não pode receber NOTÍCIAS MISTÉRIO\ndeste Treinador.
+  - offset: '0x41ea6f'
+    name: PT-15 0x41ea6f
+    issue: F-774
+    expected: Nada foi enviado<0xB0>
+    expected_raw: Nada foi enviado<0xB0>
+  - offset: '0x41ea86'
+    name: PT-15 0x41ea86
+    issue: F-774
+    expected: O que deseja fazer com\nos CARTÕES MISTÉRIO?
+    expected_raw: O que deseja fazer com\nos CARTÕES MISTÉRIO?
+  - offset: '0x41eab7'
+    name: PT-15 0x41eab7
+    issue: F-774
+    expected: O que deseja fazer com\nas NOTÍCIAS MISTÉRIO?
+    expected_raw: O que deseja fazer com\nas NOTÍCIAS MISTÉRIO?
+  - offset: '0x41eae7'
+    name: PT-15 0x41eae7
+    issue: F-774
+    expected: Enviando seu CARTÃO MISTÉRIO<0xB0>
+    expected_raw: Enviando seu CARTÃO MISTÉRIO<0xB0>
+  - offset: '0x41eb01'
+    name: PT-15 0x41eb01
+    issue: F-774
+    expected: Enviando suas NOTÍCIAS MISTÉRIO<0xB0>
+    expected_raw: Enviando suas NOTÍCIAS MISTÉRIO<0xB0>
+  - offset: '0x41eb20'
+    name: PT-15 0x41eb20
+    issue: F-774
+    expected: Seu CARTÃO MISTÉRIO foi enviado\na <0xFD><0x02>.
+    expected_raw: Seu CARTÃO MISTÉRIO foi enviado\na <0xFD><0x02>.
+  - offset: '0x41eb46'
+    name: PT-15 0x41eb46
+    issue: F-774
+    expected: Suas NOTÍCIAS MISTÉRIO\nforam enviadas a <0xFD><0x02>.
+    expected_raw: Suas NOTÍCIAS MISTÉRIO\nforam enviadas a <0xFD><0x02>.
+  - offset: '0x41eb71'
+    name: PT-15 0x41eb71
+    issue: F-774
+    expected: Um SELO foi enviado a <0xFD><0x02>.
+    expected_raw: Um SELO foi enviado a <0xFD><0x02>.
+  - offset: '0x41eb8e'
+    name: PT-15 0x41eb8e
+    issue: F-774
+    expected: PRESENTE enviado a <0xFD><0x02>.
+    expected_raw: PRESENTE enviado a <0xFD><0x02>.
+  - offset: '0x41ebaa'
+    name: PT-15 0x41ebaa
+    issue: F-774
+    expected: O outro Treinador já tem\nesse CARTÃO MISTÉRIO.
+    expected_raw: O outro Treinador já tem\nesse CARTÃO MISTÉRIO.
+  - offset: '0x41ebde'
+    name: PT-15 0x41ebde
+    issue: F-774
+    expected: O outro Treinador já tem\nessas NOTÍCIAS MISTÉRIO.
+    expected_raw: O outro Treinador já tem\nessas NOTÍCIAS MISTÉRIO.
+  - offset: '0x41ec12'
+    name: PT-15 0x41ec12
+    issue: F-774
+    expected: O outro Treinador já tem\nesse SELO.
+    expected_raw: O outro Treinador já tem\nesse SELO.
+  - offset: '0x41ec40'
+    name: PT-15 0x41ec40
+    issue: F-774
+    expected: O outro Treinador cancelou\na comunicação.
+    expected_raw: O outro Treinador cancelou\na comunicação.
+  - offset: '0x41ec6a'
+    name: PT-15 0x41ec6a
+    issue: F-774
+    expected: Não pode enviar PRESENTE MISTÉRIO\na este Treinador.
+    expected_raw: Não pode enviar PRESENTE MISTÉRIO\na este Treinador.
+  - offset: '0x41ec99'
+    name: PT-15 0x41ec99
+    issue: F-774
+    expected: Se descartar o CARTÃO, perderá\nseu evento. Continuar?
+    expected_raw: Se descartar o CARTÃO, perderá\nseu evento. Continuar?
+  - offset: '0x41ecd3'
+    name: PT-15 0x41ecd3
+    issue: F-774
+    expected: Deseja descartar estas\nNOTÍCIAS?
+    expected_raw: Deseja descartar estas\nNOTÍCIAS?
+  - offset: '0x41ecf9'
+    name: PT-15 0x41ecf9
+    issue: F-774
+    expected: Você não recebeu o PRESENTE.\nDescartar mesmo assim?
+    expected_raw: Você não recebeu o PRESENTE.\nDescartar mesmo assim?
+  - offset: '0x41ed2f'
+    name: PT-15 0x41ed2f
+    issue: F-774
+    expected: Os dados serão salvos.\nAguarde.
+    expected_raw: Os dados serão salvos.\nAguarde.
+  - offset: '0x41ed50'
+    name: PT-15 0x41ed50
+    issue: F-774
+    expected: Jogo salvo.\nAperte o botão A.
+    expected_raw: Jogo salvo.\nAperte o botão A.
+  - offset: '0x41ed7b'
+    name: PT-15 0x41ed7b
+    issue: F-774
+    expected: CARTÃO MISTÉRIO descartado.
+    expected_raw: CARTÃO MISTÉRIO descartado.
+  - offset: '0x41ed9c'
+    name: PT-15 0x41ed9c
+    issue: F-774
+    expected: NOTÍCIAS MISTÉRIO descartadas.
+    expected_raw: NOTÍCIAS MISTÉRIO descartadas.
+  - offset: '0x41edbd'
+    name: PT-15 0x41edbd
+    issue: F-774
+    expected: PRESENTE MISTÉRIO
+    expected_raw: PRESENTE MISTÉRIO
+  - offset: '0x41edca'
+    name: PT-15 0x41edca
+    issue: F-774
+    expected: <0xF8><0x0A>Escolher <0xF8><0x00>OK <0xF8><0x01>Sair
+    expected_raw: <0xF8><0x0A>Escolher <0xF8><0x00>OK <0xF8><0x01>Sair
+  - offset: '0x41eddd'
+    name: PT-15 0x41eddd
+    issue: F-774
+    expected: CARTÕES MISTÉRIO
+    expected_raw: CARTÕES MISTÉRIO
+  - offset: '0x41edea'
+    name: PT-15 0x41edea
+    issue: F-774
+    expected: NOTÍCIAS MISTÉRIO
+    expected_raw: NOTÍCIAS MISTÉRIO
+  - offset: '0x41edf6'
+    name: PT-15 0x41edf6
+    issue: F-774
+    expected: CONEXÃO SEM FIO
+    expected_raw: CONEXÃO SEM FIO
+  - offset: '0x41ee0d'
+    name: PT-15 0x41ee0d
+    issue: F-774
+    expected: AMIGO
+    expected_raw: AMIGO
+  - offset: '0x41ee14'
+    name: PT-15 0x41ee14
+    issue: F-774
+    expected: Sair
+    expected_raw: Sair
+  - offset: '0x41ee19'
+    name: PT-15 0x41ee19
+    issue: F-774
+    expected: RECEBER
+    expected_raw: RECEBER
+  - offset: '0x41ee21'
+    name: PT-15 0x41ee21
+    issue: F-774
+    expected: ENVIAR
+    expected_raw: ENVIAR
+  - offset: '0x41ee26'
+    name: PT-15 0x41ee26
+    issue: F-774
+    expected: Descartar
+    expected_raw: Descartar
+  - offset: '0x41ee2b'
+    name: PT-15 0x41ee2b
+    issue: F-774
+    expected: APAGAR<0xFC><0x13><0x57>CANCELAR<0xFC><0x13><0xA4>OK
+    expected_raw: APAGAR<0xFC><0x13><0x57>CANCELAR<0xFC><0x13><0xA4>OK
+  - offset: '0x444c35'
+    name: PT-15 0x444c35
+    issue: F-774
+    expected: Este Pokémon foi descoberto há pouco\ne ainda está sendo estudado. Não há\ninformações detalhadas por enquanto.
+    expected_raw: Este Pokémon foi descoberto há pouco\ne ainda está sendo estudado. Não há\ninformações detalhadas por enquanto.
+  - offset: '0x444cb2'
+    name: PT-15 0x444cb2
+    issue: F-774
+    expected: Carrega uma semente nas costas\ndesde que nasce. Conforme\nenvelhece, a semente também cresce.
+    expected_raw: Carrega uma semente nas costas\ndesde que nasce. Conforme\nenvelhece, a semente também cresce.
+  - offset: '0x444d12'
+    name: PT-15 0x444d12
+    issue: F-774
+    expected: Se o botão em suas costas começa a\nexalar um aroma doce, é sinal de que\na grande flor logo vai desabrochar.
+    expected_raw: Se o botão em suas costas começa a\nexalar um aroma doce, é sinal de que\na grande flor logo vai desabrochar.
+  - offset: '0x444d77'
+    name: PT-15 0x444d77
+    issue: F-774
+    expected: Ao abrir as largas pétalas de sua\nflor e captar os raios solares,\nenche seu corpo de energia.
+    expected_raw: Ao abrir as largas pétalas de sua\nflor e captar os raios solares,\nenche seu corpo de energia.
+  - offset: '0x444ddf'
+    name: PT-15 0x444ddf
+    issue: F-774
+    expected: A chama de sua cauda mostra sua\nforça vital. Se estiver fraco, a chama\ntambém queima com pouca intensidade.
+    expected_raw: A chama de sua cauda mostra sua\nforça vital. Se estiver fraco, a chama\ntambém queima com pouca intensidade.
+  - offset: '0x444e48'
+    name: PT-15 0x444e48
+    issue: F-774
+    expected: Tem um temperamento muito exaltado\ne procura adversários sem parar.\nSó se acalma quando vence.
+    expected_raw: Tem um temperamento muito exaltado\ne procura adversários sem parar.\nSó se acalma quando vence.
+  - offset: '0x444ead'
+    name: PT-15 0x444ead
+    issue: F-774
+    expected: Cospe chamas tão intensas e quentes\nque derretem quase tudo. Seu bafo\ncausa dores terríveis nos inimigos.
+    expected_raw: Cospe chamas tão intensas e quentes\nque derretem quase tudo. Seu bafo\ncausa dores terríveis nos inimigos.
+  - offset: '0x444f18'
+    name: PT-15 0x444f18
+    issue: F-774
+    expected: Seu casco endurece logo após nascer\ne é resistente e elástico. Se for\npressionado, volta à forma original.
+    expected_raw: Seu casco endurece logo após nascer\ne é resistente e elástico. Se for\npressionado, volta à forma original.
+  - offset: '0x444f80'
+    name: PT-15 0x444f80
+    issue: F-774
+    expected: É muito popular entre os idosos,\npois sua cauda coberta de pelos\né um símbolo de longevidade.
+    expected_raw: É muito popular entre os idosos,\npois sua cauda coberta de pelos\né um símbolo de longevidade.
+  - offset: '0x444fe7'
+    name: PT-15 0x444fe7
+    issue: F-774
+    expected: Os canhões de seu casco disparam\njatos de água capazes de\nperfurar grossas placas de aço.
+    expected_raw: Os canhões de seu casco disparam\njatos de água capazes de\nperfurar grossas placas de aço.
+  - offset: '0x44504a'
+    name: PT-15 0x44504a
+    issue: F-774
+    expected: Seus pés têm ventosas que aderem a\nqualquer superfície. Escala árvores\ncom persistência em busca de comida.
+    expected_raw: Seus pés têm ventosas que aderem a\nqualquer superfície. Escala árvores\ncom persistência em busca de comida.
+  - offset: '0x4450af'
+    name: PT-15 0x4450af
+    issue: F-774
+    expected: Prepara-se para evoluir endurecendo\nseu casco o máximo possível\npara proteger seu corpo mole.
+    expected_raw: Prepara-se para evoluir endurecendo\nseu casco o máximo possível\npara proteger seu corpo mole.
+  - offset: '0x44510f'
+    name: PT-15 0x44510f
+    issue: F-774
+    expected: O pó de suas asas repele a\nágua e permite que colete mel\nmesmo sob as chuvas mais fortes.
+    expected_raw: O pó de suas asas repele a\nágua e permite que colete mel\nmesmo sob as chuvas mais fortes.
+  - offset: '0x445170'
+    name: PT-15 0x445170
+    issue: F-774
+    expected: Seu ferrão venenoso é muito poderoso.\nAs cores vivas de seu corpo\nservem para afastar os inimigos.
+    expected_raw: Seu ferrão venenoso é muito poderoso.\nAs cores vivas de seu corpo\nservem para afastar os inimigos.
+  - offset: '0x4451d3'
+    name: PT-15 0x4451d3
+    issue: F-774
+    expected: Apesar de ser um casulo, consegue\nse mover um pouco. Pode estender\nseu ferrão venenoso se for atacado.
+    expected_raw: Apesar de ser um casulo, consegue\nse mover um pouco. Pode estender\nseu ferrão venenoso se for atacado.
+  - offset: '0x445234'
+    name: PT-15 0x445234
+    issue: F-774
+    expected: Pode derrubar qualquer adversário\ncom seus poderosos ferrões venenosos.\nÀs vezes, ataca em enxames.
+    expected_raw: Pode derrubar qualquer adversário\ncom seus poderosos ferrões venenosos.\nÀs vezes, ataca em enxames.
+  - offset: '0x445296'
+    name: PT-15 0x445296
+    issue: F-774
+    expected: Comum em campos e florestas, é muito\ndócil. Afasta inimigos levantando\nareia com o bater das asas.
+    expected_raw: Comum em campos e florestas, é muito\ndócil. Afasta inimigos levantando\nareia com o bater das asas.
+  - offset: '0x4452fd'
+    name: PT-15 0x4452fd
+    issue: F-774
+    expected: Sobrevoa seu vasto território em\nbusca de presas e as abate com\nsuas garras muito desenvolvidas.
+    expected_raw: Sobrevoa seu vasto território em\nbusca de presas e as abate com\nsuas garras muito desenvolvidas.
+  - offset: '0x44535e'
+    name: PT-15 0x44535e
+    issue: F-774
+    expected: Ao bater as asas com toda a\nforça, Pidgeot cria uma rajada\ncapaz de curvar árvores altas.
+    expected_raw: Ao bater as asas com toda a\nforça, Pidgeot cria uma rajada\ncapaz de curvar árvores altas.
+  - offset: '0x4453c8'
+    name: PT-15 0x4453c8
+    issue: F-774
+    expected: Vive onde houver comida disponível.\nPassa o dia inteiro procurando\nalgo para comer, sem descanso.
+    expected_raw: Vive onde houver comida disponível.\nPassa o dia inteiro procurando\nalgo para comer, sem descanso.
+  - offset: '0x445427'
+    name: PT-15 0x445427
+    issue: F-774
+    expected: Cada pata traseira tem três dedos\nunidos por membranas, o que lhe\npermite atravessar rios a nado.
+    expected_raw: Cada pata traseira tem três dedos\nunidos por membranas, o que lhe\npermite atravessar rios a nado.
+  - offset: '0x445480'
+    name: PT-15 0x445480
+    issue: F-774
+    expected: Bate suas asas curtas para espantar\ninsetos do capim alto. Depois,\npega-os com seu bico curto.
+    expected_raw: Bate suas asas curtas para espantar\ninsetos do capim alto. Depois,\npega-os com seu bico curto.
+  - offset: '0x4454ea'
+    name: PT-15 0x4454ea
+    issue: F-774
+    expected: Lança-se de repente bem alto no\ncéu e depois mergulha de uma\nsó vez para atingir sua presa.
+    expected_raw: Lança-se de repente bem alto no\ncéu e depois mergulha de uma\nsó vez para atingir sua presa.
+  - offset: '0x445551'
+    name: PT-15 0x445551
+    issue: F-774
+    expected: Pode deslocar a mandíbula para engolir\npresas grandes inteiras. Porém, pode\nficar pesado demais para se mover.
+    expected_raw: Pode deslocar a mandíbula para engolir\npresas grandes inteiras. Porém, pode\nficar pesado demais para se mover.
+  - offset: '0x4455b6'
+    name: PT-15 0x4455b6
+    issue: F-774
+    expected: Para intimidar inimigos, alarga o\npeito e emite sons assustadores\nao expulsar ar pela boca.
+    expected_raw: Para intimidar inimigos, alarga o\npeito e emite sons assustadores\nao expulsar ar pela boca.
+  - offset: '0x44561d'
+    name: PT-15 0x44561d
+    issue: F-774
+    expected: Tem pequenas bolsas elétricas nas\nduas bochechas. Se ameaçado, libera\ncargas elétricas dessas bolsas.
+    expected_raw: Tem pequenas bolsas elétricas nas\nduas bochechas. Se ameaçado, libera\ncargas elétricas dessas bolsas.
+  - offset: '0x445686'
+    name: PT-15 0x445686
+    issue: F-774
+    expected: Quando acumula eletricidade, seus\nmúsculos são estimulados e ele\nfica mais agressivo que o normal.
+    expected_raw: Quando acumula eletricidade, seus\nmúsculos são estimulados e ele\nfica mais agressivo que o normal.
+  - offset: '0x4456eb'
+    name: PT-15 0x4456eb
+    issue: F-774
+    expected: Escava e vive debaixo da\nterra. Se ameaçado, enrola-se\nem uma bola para se proteger.
+    expected_raw: Escava e vive debaixo da\nterra. Se ameaçado, enrola-se\nem uma bola para se proteger.
+  - offset: '0x44574c'
+    name: PT-15 0x44574c
+    issue: F-774
+    expected: É hábil em atacar com os espinhos\ndas costas e as garras afiadas\nenquanto se desloca rapidamente.
+    expected_raw: É hábil em atacar com os espinhos\ndas costas e as garras afiadas\nenquanto se desloca rapidamente.
+  - offset: '0x4457b5'
+    name: PT-15 0x4457b5
+    issue: F-774
+    expected: O veneno em seu pequeno chifre\né muito potente. Mesmo um\narranhão minúsculo pode ser fatal.
+    expected_raw: O veneno em seu pequeno chifre\né muito potente. Mesmo um\narranhão minúsculo pode ser fatal.
+  - offset: '0x44581b'
+    name: PT-15 0x44581b
+    issue: F-774
+    expected: Tem uma natureza calma e\ncarinhosa. Como seu chifre cresce\ndevagar, prefere não lutar.
+    expected_raw: Tem uma natureza calma e\ncarinhosa. Como seu chifre cresce\ndevagar, prefere não lutar.
+  - offset: '0x445875'
+    name: PT-15 0x445875
+    issue: F-774
+    expected: Usa seu corpo resistente e escamoso\npara vedar a entrada do ninho e\nproteger os filhotes de predadores.
+    expected_raw: Usa seu corpo resistente e escamoso\npara vedar a entrada do ninho e\nproteger os filhotes de predadores.
+  - offset: '0x4458db'
+    name: PT-15 0x4458db
+    issue: F-774
+    expected: Ergue as orelhas acima do capim\npara observar os arredores. Ataca\nprimeiro se perceber algum perigo.
+    expected_raw: Ergue as orelhas acima do capim\npara observar os arredores. Ataca\nprimeiro se perceber algum perigo.
+  - offset: '0x44594a'
+    name: PT-15 0x44594a
+    issue: F-774
+    expected: Irrita-se facilmente. Quando agitado,\nperfura os inimigos com seu chifre\npara injetar um veneno poderoso.
+    expected_raw: Irrita-se facilmente. Quando agitado,\nperfura os inimigos com seu chifre\npara injetar um veneno poderoso.
+  - offset: '0x4459b0'
+    name: PT-15 0x4459b0
+    issue: F-774
+    expected: Balança sua grande cauda em\ncombate. Se o inimigo hesita, investe\ncontra ele com seu corpo robusto.
+    expected_raw: Balança sua grande cauda em\ncombate. Se o inimigo hesita, investe\ncontra ele com seu corpo robusto.
+  - offset: '0x445a18'
+    name: PT-15 0x445a18
+    issue: F-774
+    expected: Seu jeito e seu grito adoráveis o\ntornam muito popular. Porém, este\nPokémon fofo é raramente encontrado.
+    expected_raw: Seu jeito e seu grito adoráveis o\ntornam muito popular. Porém, este\nPokémon fofo é raramente encontrado.
+  - offset: '0x445a7b'
+    name: PT-15 0x445a7b
+    issue: F-774
+    expected: Com sua audição aguçada, capta\nsons distantes. Costuma se\nesconder em lugares tranquilos.
+    expected_raw: Com sua audição aguçada, capta\nsons distantes. Costuma se\nesconder em lugares tranquilos.
+  - offset: '0x445adb'
+    name: PT-15 0x445adb
+    issue: F-774
+    expected: Quando jovem, tem seis belas\ncaudas. Conforme cresce, várias\nnovas caudas começam a surgir.
+    expected_raw: Quando jovem, tem seis belas\ncaudas. Conforme cresce, várias\nnovas caudas começam a surgir.
+  - offset: '0x445b33'
+    name: PT-15 0x445b33
+    issue: F-774
+    expected: Algumas lendas dizem que cada uma\nde suas nove caudas possui um tipo\núnico de poder místico especial.
+    expected_raw: Algumas lendas dizem que cada uma\nde suas nove caudas possui um tipo\núnico de poder místico especial.
+  - offset: '0x445b94'
+    name: PT-15 0x445b94
+    issue: F-774
+    expected: Encanta inimigos com seus enormes\nolhos redondos e depois os faz\ndormir cantando uma melodia suave.
+    expected_raw: Encanta inimigos com seus enormes\nolhos redondos e depois os faz\ndormir cantando uma melodia suave.
+  - offset: '0x445bfa'
+    name: PT-15 0x445bfa
+    issue: F-774
+    expected: Sua pelagem é muito fina, densa e\nmacia. O toque extremamente agradável\ntransmite uma imagem de luxo.
+    expected_raw: Sua pelagem é muito fina, densa e\nmacia. O toque extremamente agradável\ntransmite uma imagem de luxo.
+  - offset: '0x445c62'
+    name: PT-15 0x445c62
+    issue: F-774
+    expected: Não tem olhos. Usa o eco de\nseus gritos ultrassônicos para\nse orientar e voar na escuridão.
+    expected_raw: Não tem olhos. Usa o eco de\nseus gritos ultrassônicos para\nse orientar e voar na escuridão.
+  - offset: '0x445ccb'
+    name: PT-15 0x445ccb
+    issue: F-774
+    expected: Pode beber mais de 10 onças de\nsangue de uma vez. Se beber demais,\nfica pesado e voa sem jeito.
+    expected_raw: Pode beber mais de 10 onças de\nsangue de uma vez. Se beber demais,\nfica pesado e voa sem jeito.
+  - offset: '0x445d35'
+    name: PT-15 0x445d35
+    issue: F-774
+    expected: Seu nome científico é Oddium Wanderus.\nDizem que, à noite, anda quase\n300 metros sobre suas duas raízes.
+    expected_raw: Seu nome científico é Oddium Wanderus.\nDizem que, à noite, anda quase\n300 metros sobre suas duas raízes.
+  - offset: '0x445da1'
+    name: PT-15 0x445da1
+    issue: F-774
+    expected: O que parece baba é, na verdade,\nmel doce. É muito pegajoso e\ngruda com força em quem o toca.
+    expected_raw: O que parece baba é, na verdade,\nmel doce. É muito pegajoso e\ngruda com força em quem o toca.
+  - offset: '0x445e08'
+    name: PT-15 0x445e08
+    issue: F-774
+    expected: Tem as maiores pétalas do mundo. A\ncada passo, elas se agitam e liberam\nnuvens densas de pólen tóxico.
+    expected_raw: Tem as maiores pétalas do mundo. A\ncada passo, elas se agitam e liberam\nnuvens densas de pólen tóxico.
+  - offset: '0x445e70'
+    name: PT-15 0x445e70
+    issue: F-774
+    expected: Nasce coberto de esporos de\ncogumelos. Conforme seu corpo cresce,\ncogumelos brotam de suas costas.
+    expected_raw: Nasce coberto de esporos de\ncogumelos. Conforme seu corpo cresce,\ncogumelos brotam de suas costas.
+  - offset: '0x445ed7'
+    name: PT-15 0x445ed7
+    issue: F-774
+    expected: Fica sobretudo em lugares escuros e\númidos. Essa preferência é dos grandes\ncogumelos em suas costas, não do inseto.
+    expected_raw: Fica sobretudo em lugares escuros e\númidos. Essa preferência é dos grandes\ncogumelos em suas costas, não do inseto.
+  - offset: '0x445f43'
+    name: PT-15 0x445f43
+    issue: F-774
+    expected: Seus olhos também funcionam como\nradares. Captura e come pequenos\ninsetos que se escondem no escuro.
+    expected_raw: Seus olhos também funcionam como\nradares. Captura e come pequenos\ninsetos que se escondem no escuro.
+  - offset: '0x445fa1'
+    name: PT-15 0x445fa1
+    issue: F-774
+    expected: Suas asas são cobertas por escamas\nque parecem pó. A cada bater de\nasas, libera uma poeira muito tóxica.
+    expected_raw: Suas asas são cobertas por escamas\nque parecem pó. A cada bater de\nasas, libera uma poeira muito tóxica.
+  - offset: '0x44600a'
+    name: PT-15 0x44600a
+    issue: F-774
+    expected: Escava a pouca profundidade.\nDeixa um rastro de terra elevada,\ntornando fácil localizá-lo.
+    expected_raw: Escava a pouca profundidade.\nDeixa um rastro de terra elevada,\ntornando fácil localizá-lo.
+  - offset: '0x446079'
+    name: PT-15 0x446079
+    issue: F-774
+    expected: Suas três cabeças sobem e descem\nseparadamente para soltar a terra\nao redor e facilitar a escavação.
+    expected_raw: Suas três cabeças sobem e descem\nseparadamente para soltar a terra\nao redor e facilitar a escavação.
+  - offset: '0x4460e3'
+    name: PT-15 0x4460e3
+    issue: F-774
+    expected: Adora tudo que brilha. Gosta\nespecialmente de moedas, que\nrecolhe e acumula em segredo.
+    expected_raw: Adora tudo que brilha. Gosta\nespecialmente de moedas, que\nrecolhe e acumula em segredo.
+  - offset: '0x446144'
+    name: PT-15 0x446144
+    issue: F-774
+    expected: Muitos o adoram por seu ar\nrefinado. Porém, pode atacar\ne arranhar sem grande motivo.
+    expected_raw: Muitos o adoram por seu ar\nrefinado. Porém, pode atacar\ne arranhar sem grande motivo.
+  - offset: '0x4461a7'
+    name: PT-15 0x4461a7
+    issue: F-774
+    expected: Sofre constantemente de dor de\ncabeça. Quando a dor fica intensa,\ncomeça a usar poderes misteriosos.
+    expected_raw: Sofre constantemente de dor de\ncabeça. Quando a dor fica intensa,\ncomeça a usar poderes misteriosos.
+  - offset: '0x446214'
+    name: PT-15 0x446214
+    issue: F-774
+    expected: Quando nada a toda velocidade com\nseus longos membros com membranas,\nsua testa começa a brilhar.
+    expected_raw: Quando nada a toda velocidade com\nseus longos membros com membranas,\nsua testa começa a brilhar.
+  - offset: '0x446274'
+    name: PT-15 0x446274
+    issue: F-774
+    expected: Tem passos leves e ágeis e um\ntemperamento feroz. Quando se irrita,\nentra em um frenesi incontrolável.
+    expected_raw: Tem passos leves e ágeis e um\ntemperamento feroz. Quando se irrita,\nentra em um frenesi incontrolável.
+  - offset: '0x4462e6'
+    name: PT-15 0x4462e6
+    issue: F-774
+    expected: Fica bravo se você olha nos seus olhos\ne mais bravo se você foge. Se você\no golpeia, fica ainda mais furioso.
+    expected_raw: Fica bravo se você olha nos seus olhos\ne mais bravo se você foge. Se você\no golpeia, fica ainda mais furioso.
+  - offset: '0x44634c'
+    name: PT-15 0x44634c
+    issue: F-774
+    expected: É extremamente leal. Late sem\nmedo para qualquer adversário para\nproteger seu Treinador de perigos.
+    expected_raw: É extremamente leal. Late sem\nmedo para qualquer adversário para\nproteger seu Treinador de perigos.
+  - offset: '0x4463b2'
+    name: PT-15 0x4463b2
+    issue: F-774
+    expected: Seu latido magnífico transmite\nmajestade. Quem o ouve não consegue\nevitar se curvar diante dele.
+    expected_raw: Seu latido magnífico transmite\nmajestade. Quem o ouve não consegue\nevitar se curvar diante dele.
+  - offset: '0x446417'
+    name: PT-15 0x446417
+    issue: F-774
+    expected: Sua pele é tão fina que os órgãos\ninternos ficam visíveis. Tem dificuldade\npara andar com seus pés recém-formados.
+    expected_raw: Sua pele é tão fina que os órgãos\ninternos ficam visíveis. Tem dificuldade\npara andar com seus pés recém-formados.
+  - offset: '0x44647e'
+    name: PT-15 0x44647e
+    issue: F-774
+    expected: A espiral em sua barriga ondula de\nforma sutil. Olhar fixamente para\nela causa sonolência aos poucos.
+    expected_raw: A espiral em sua barriga ondula de\nforma sutil. Olhar fixamente para\nela causa sonolência aos poucos.
+  - offset: '0x4464dc'
+    name: PT-15 0x4464dc
+    issue: F-774
+    expected: Seus braços e pernas fortes\npermitem correr sobre a água\npor uma fração de segundo.
+    expected_raw: Seus braços e pernas fortes\npermitem correr sobre a água\npor uma fração de segundo.
+  - offset: '0x446540'
+    name: PT-15 0x446540
+    issue: F-774
+    expected: Dorme 18 horas por dia. Usa\nvários poderes extrassensoriais\nmesmo enquanto está dormindo.
+    expected_raw: Dorme 18 horas por dia. Usa\nvários poderes extrassensoriais\nmesmo enquanto está dormindo.
+  - offset: '0x44659b'
+    name: PT-15 0x44659b
+    issue: F-774
+    expected: Olha fixamente para sua colher de\nprata para concentrar a mente. Enquanto\nfaz isso, emite mais ondas alfa.
+    expected_raw: Olha fixamente para sua colher de\nprata para concentrar a mente. Enquanto\nfaz isso, emite mais ondas alfa.
+  - offset: '0x4465f7'
+    name: PT-15 0x4465f7
+    issue: F-774
+    expected: Não gosta muito de ataques físicos.\nEm vez disso, usa livremente poderes\nextrassensoriais para vencer inimigos.
+    expected_raw: Não gosta muito de ataques físicos.\nEm vez disso, usa livremente poderes\nextrassensoriais para vencer inimigos.
+  - offset: '0x446664'
+    name: PT-15 0x446664
+    issue: F-774
+    expected: Apesar de pequeno, tem força\npara levantar e arremessar vários\nGeodude de uma só vez sem esforço.
+    expected_raw: Apesar de pequeno, tem força\npara levantar e arremessar vários\nGeodude de uma só vez sem esforço.
+  - offset: '0x4466ca'
+    name: PT-15 0x4466ca
+    issue: F-774
+    expected: Seu corpo formidável nunca se cansa.\nAjuda as pessoas em trabalhos como\no transporte de cargas pesadas.
+    expected_raw: Seu corpo formidável nunca se cansa.\nAjuda as pessoas em trabalhos como\no transporte de cargas pesadas.
+  - offset: '0x446732'
+    name: PT-15 0x446732
+    issue: F-774
+    expected: Move seus quatro braços rapidamente\ne atinge inimigos com socos e golpes\nsem parar, de todos os ângulos.
+    expected_raw: Move seus quatro braços rapidamente\ne atinge inimigos com socos e golpes\nsem parar, de todos os ângulos.
+  - offset: '0x44679b'
+    name: PT-15 0x44679b
+    issue: F-774
+    expected: Enterra os pés bem fundo para repor\nágua. Enquanto está enraizado,\nnão consegue fugir de inimigos.
+    expected_raw: Enterra os pés bem fundo para repor\nágua. Enquanto está enraizado,\nnão consegue fugir de inimigos.
+  - offset: '0x446803'
+    name: PT-15 0x446803
+    issue: F-774
+    expected: Suas folhas agem como lâminas\npara cortar inimigos. Cospe\num fluido que dissolve tudo.
+    expected_raw: Suas folhas agem como lâminas\npara cortar inimigos. Cospe\num fluido que dissolve tudo.
+  - offset: '0x446862'
+    name: PT-15 0x446862
+    issue: F-774
+    expected: O ácido que dissolveu muitas presas\nfica mais doce e, por isso, ainda\nmais eficaz para atrair novas presas.
+    expected_raw: O ácido que dissolveu muitas presas\nfica mais doce e, por isso, ainda\nmais eficaz para atrair novas presas.
+  - offset: '0x4468c8'
+    name: PT-15 0x4468c8
+    issue: F-774
+    expected: Flutua sem rumo pelo oceano. É\ntão difícil vê-lo na água que às\nvezes só é notado quando pica.
+    expected_raw: Flutua sem rumo pelo oceano. É\ntão difícil vê-lo na água que às\nvezes só é notado quando pica.
+  - offset: '0x446938'
+    name: PT-15 0x446938
+    issue: F-774
+    expected: Seus 80 tentáculos se movem livremente.\nPodem picar, causando envenenamento\ne uma dor aguda e penetrante.
+    expected_raw: Seus 80 tentáculos se movem livremente.\nPodem picar, causando envenenamento\ne uma dor aguda e penetrante.
+  - offset: '0x4469a1'
+    name: PT-15 0x4469a1
+    issue: F-774
+    expected: Parado, parece uma pedra. Se\nalguém pisar nele por descuido,\nele balançará os punhos com raiva.
+    expected_raw: Parado, parece uma pedra. Se\nalguém pisar nele por descuido,\nele balançará os punhos com raiva.
+  - offset: '0x446a06'
+    name: PT-15 0x446a06
+    issue: F-774
+    expected: Cuidado ao caminhar em trilhas nas\nmontanhas. Graveler pode descer rolando\npelo caminho sem diminuir a velocidade.
+    expected_raw: Cuidado ao caminhar em trilhas nas\nmontanhas. Graveler pode descer rolando\npelo caminho sem diminuir a velocidade.
+  - offset: '0x446a6c'
+    name: PT-15 0x446a6c
+    issue: F-774
+    expected: É envolto por um casco duro e\nresistente como lajes de pedra. Troca\nde pele uma vez por ano para crescer.
+    expected_raw: É envolto por um casco duro e\nresistente como lajes de pedra. Troca\nde pele uma vez por ano para crescer.
+  - offset: '0x446ada'
+    name: PT-15 0x446ada
+    issue: F-774
+    expected: Corre mal logo após nascer.\nAos poucos, fica mais veloz\nao correr atrás de seus pais.
+    expected_raw: Corre mal logo após nascer.\nAos poucos, fica mais veloz\nao correr atrás de seus pais.
+  - offset: '0x446b42'
+    name: PT-15 0x446b42
+    issue: F-774
+    expected: A galope, seus quatro cascos\nmal tocam o chão, pois ele se\nmove a uma velocidade incrível.
+    expected_raw: A galope, seus quatro cascos\nmal tocam o chão, pois ele se\nmove a uma velocidade incrível.
+  - offset: '0x446ba0'
+    name: PT-15 0x446ba0
+    issue: F-774
+    expected: Descansa distraído perto da água.\nSe algo morder sua cauda, pode\nlevar um dia inteiro para perceber.
+    expected_raw: Descansa distraído perto da água.\nSe algo morder sua cauda, pode\nlevar um dia inteiro para perceber.
+  - offset: '0x446c02'
+    name: PT-15 0x446c02
+    issue: F-774
+    expected: Embora geralmente seja pouco\nesperto, parece ter uma ideia quando\no Shellder em sua cauda o morde.
+    expected_raw: Embora geralmente seja pouco\nesperto, parece ter uma ideia quando\no Shellder em sua cauda o morde.
+  - offset: '0x446c62'
+    name: PT-15 0x446c62
+    issue: F-774
+    expected: Desloca-se flutuando sem parar. Dispara\nThunder Wave e outros movimentos\npelas unidades em suas laterais.
+    expected_raw: Desloca-se flutuando sem parar. Dispara\nThunder Wave e outros movimentos\npelas unidades em suas laterais.
+  - offset: '0x446cc9'
+    name: PT-15 0x446cc9
+    issue: F-774
+    expected: Um grupo interligado formado por\nvários Magnemite. Emite poderosas\nondas magnéticas de alta tensão.
+    expected_raw: Um grupo interligado formado por\nvários Magnemite. Emite poderosas\nondas magnéticas de alta tensão.
+  - offset: '0x446d2f'
+    name: PT-15 0x446d2f
+    issue: F-774
+    expected: Anda sempre com um talo de\nplanta preso no bico. Usa esse\ntalo para construir seu ninho.
+    expected_raw: Anda sempre com um talo de\nplanta preso no bico. Usa esse\ntalo para construir seu ninho.
+  - offset: '0x446d97'
+    name: PT-15 0x446d97
+    issue: F-774
+    expected: Ao erguer e abaixar suas duas cabeças\nalternadamente, mantém o equilíbrio\ne corre com mais estabilidade.
+    expected_raw: Ao erguer e abaixar suas duas cabeças\nalternadamente, mantém o equilíbrio\ne corre com mais estabilidade.
+  - offset: '0x446dff'
+    name: PT-15 0x446dff
+    issue: F-774
+    expected: Se uma das cabeças come,\nas outras também ficam\nsatisfeitas e param de brigar.
+    expected_raw: Se uma das cabeças come,\nas outras também ficam\nsatisfeitas e param de brigar.
