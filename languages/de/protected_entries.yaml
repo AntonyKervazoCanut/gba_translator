@@ -23,6 +23,33 @@
 #
 # Voir docs/20_TRANSLATION_PRESERVATION.md §7.
 entries:
+- offset: '0x1ede63b'
+  name: "B-678 — dialogues-06 0x1EDE63B"
+  expected: 'Verzeihung...\pMöchten Sie eine\n{COLOR}ÉSpezialität{COLOR}Ë?\pOui, oui, ja, das möchten Sie.'
+- offset: '0x1edfb75'
+  name: "B-678 — dialogues-06 0x1EDFB75"
+  expected: 'Angehender Champ!\pOder sollte ich sagen: Champ?\pLange nicht gesehen!\pMeine Tipps haben dir wohl wirklich\ngeholfen, was?\pWillkommen im Battleground!\pIn diesem Club kannst du gegen die\nBesten von Borrius kämpfen.\pGenieß deine Zeit hier, zumal du\njetzt selbst zu ihnen gehörst!\pAch, und wenn du an der\n{COLOR}ÉArenaleiter-Herausforderung{COLOR}Ë\lteilnehmen willst, komm zu mir.'
+- offset: '0x1ee118a'
+  name: "B-678 — dialogues-06 0x1EE118A"
+  expected: 'Ah, {PLAYER}. Ich hoffe, es geht\ndir gut.\pNein, ich bin nicht im Auftrag\nhier.\pIch habe meine...{PAUSE}\npersönlichen Gründe.\pDu bist doch jetzt der neue Champ\nder Borrius-Region, oder?\pMeine Pflichten als Arenaleiter und\nAgent zwingen mich oft,...{PAUSE}\lmeine wahre Stärke zu verbergen.\pDoch jetzt, da wieder Frieden\nherrscht, kann ich mir wohl etwas\lgönnen.\pWenn du magst, möchtest du deine\nKräfte mit mir messen?\pNatürlich weiß ich, dass du mir\nmeine Taten am Cinder Volcano\lvielleicht noch übel nimmst.\pSieh es doch als\nGelegenheit,...{PAUSE} deinen\langestauten Frust loszuwerden.'
+- offset: '0x1ee1904'
+  name: "B-678 — dialogues-06 0x1EE1904"
+  expected: 'Ich sagte einmal, du hättest das\nZeug für den Geheimdienst.\pDoch inzwischen glaube ich, deine\njetzige Aufgabe passt am besten\lzu dir.\pEin Leben im Verborgenen ist für\ndie, deren Geheimnisse... niemals\lans Licht kommen dürfen...\pUnd ich...{PAUSE} nein, vergiss es.\pSolche Dinge sollte ein gefeierter\nHeld wie du nicht wissen.'
+- offset: '0x1ee29f6'
+  name: "B-678 — dialogues-06 0x1EE29F6"
+  expected: 'Neulich hab ich überlegt, was ich\nwohl täte, wenn ich meinen Hut an\lden Nagel hänge und den\lArenaleiter-Job hinschmeiße.\pIch seh ja nicht ewig so gut aus,\nweißt du?\pZiemlich ernüchternd. Aber ich war\nmal mit einer Frau zusammen... die\lsagte, man kann nicht alles\lfesthalten.\pAlso... ich werde mit der Zeit\nwürdevoll altern. Und keine Minute\lfrüher, klar?'
+- offset: '0x1ee2f9f'
+  name: "B-678 — dialogues-06 0x1EE2F9F"
+  expected: '{COLOR}ÉMetallium Z{COLOR}Ë,\n{COLOR}ÉVoltium Z{COLOR}Ë...\lDiese zwei Kristalle verstärken\l{COLOR}ÉStahl{COLOR}Ë- und\l{COLOR}ÉElektro{COLOR}Ë-Attacken.\pSchade, dass man nicht beide im\nselben Kampf nutzen kann. Tja, das\lLeben ist eben manchmal unfair.\pEhrlich, ich weiß selbst nicht,\nwomit ich das Kampffeld lieber\laufmische.\pSie mit\n{COLOR}ÉTurbo-Spiralkombo{COLOR}Ë\lin den Boden rammen...\pOder sie mit einer guten alten\n{COLOR}ÉGigavolt-Funkensalve{COLOR}Ë\lzuckend am Boden liegen lassen?\pBeide sind klasse!'
+- offset: '0x1ee3c49'
+  name: "B-678 — dialogues-06 0x1EE3C49"
+  expected: 'Na, Schätzchen! So ein Zufall,\ndich hier zu sehen!\pNach unserem Arenakampf hab ich\nmir furchtbar Sorgen um dich\lgemacht. Wohl ganz umsonst!\pIch? Ach... auch ich muss mal aus\ndem Sumpf raus, um den Kopf\lfreizukriegen.\pAußerdem sollen sich hier die\nBesten von Borrius treffen.\pMuss wohl stimmen, wenn du hier\nbist.\pDa wir beide gerade Zeit haben...\nLust auf noch eine Runde? Du und\lich?\pLetztes Mal warst du etwas\nverzweifelt. Als ginge es bei\lmeinem Orden um Leben und Tod.\pDiesmal will ich sehen, was\nwirklich in dir steckt, {PLAYER}.\pNa, was sagst du? Ich kann''s kaum\nerwarten, dir auch unsere\lFortschritte zu zeigen!'
+- offset: '0x1ee563c'
+  name: "B-678 — dialogues-06 0x1EE563C"
+  expected: 'Siehst du das Pokémon hier neben\nmir?\pEs ist das Mysteriöse\nTriumph-Pokémon\l{COLOR}ÉVictini{COLOR}Ç.\pEs soll seinen Trainern den Sieg\nbringen.\pDoch das klappt nur, wenn Victini\nseine Kraft mit seinem Trainer\lteilen will.\pLeider will es offenbar niemandem\nhelfen, der sich zu sehr auf es\lverlässt.\pVielleicht... wenn es einen Trainer\nsähe, der immer wieder ohne Wunder\lgewinnt...\pJetzt fällt mir ein: Du bist doch\nder Champ, oder?\pDie Arenaleiter kommen oft in\ndiesen Club...\pDa dachte ich: Wenn du alle acht\nnoch einmal besiegen könntest...\pKönntest du\n{COLOR}ÉVictini{COLOR}Ç zeigen,\ldass du würdig bist, sein idealer\lTrainer zu sein?'
+- offset: '0x1ee6834'
+  name: "B-678 — dialogues-06 0x1EE6834"
+  expected: 'Im PC dort in der Ecke kannst du\nPokémon und Items lagern.\pFür Trainer ist das kostenlos. Nutz\nihn ruhig!\pManche Einrichtungen verwenden\nstattdessen das Pokémon\l{COLOR}ÉPorygon{COLOR}Ë.\pWenn du in so einer Einrichtung\nbist, halte nach diesem Pokémon\lAusschau:'
 - offset: '0x1f47086'
   name: 'Jax: Fähre nach Polderive außer Betrieb'
   expected: Was soll das heißen, das Schiff fährt nicht?\pWir müssen so schnell wie möglich nach Polder Town!\pDas Schicksal von Borrius hängt davon ab!
@@ -3585,7 +3612,7 @@ entries:
 - offset: '0x1edd5d5'
   name: English toponym canonicalisation 0x1EDD5D5
   issue: DE — English toponyms
-  expected: Willkommen im Hauptquartier der Polizei\nvon Antisis City!\pNaja… eigentlich ist es jetzt\neinfach mein Zuhause.\pSeit die Gangs uns…{PAUSE}\nähm…{PAUSE} gebeten haben zu gehen,\list die örtliche Polizei\lso gut wie nicht mehr vorhanden.\pDu siehst ja, was dabei\nherausgekommen ist.\pTotale Anarchie und Recht ist gleich null.
+  expected: 'Willkommen im Polizeihauptquartier\nvon Antisis City!\pNa ja... eigentlich ist es jetzt\neinfach mein Zuhause.\pSeit die Gangs...{PAUSE}\nähm...{PAUSE} uns zum Gehen\laufgefordert haben, gibt es hier\lpraktisch keine Polizei mehr.\pDu siehst ja, was daraus geworden\nist.\pVöllige Anarchie und\nGesetzlosigkeit.'
 - offset: '0x1edda75'
   name: English toponym canonicalisation 0x1EDDA75
   issue: DE — English toponyms
@@ -3641,7 +3668,7 @@ entries:
 - offset: '0x1ee02b5'
   name: English toponym canonicalisation 0x1EE02B5
   issue: DE — English toponyms
-  expected: In der {COLOR}ÉKampfzonen-Herausforderung{COLOR}Ë\ntrittst du wie im 6-gegen-6 der\lBattle Frontier gegen jeden Arenaleiter an.\pDeine Pokémon werden auf <0x34> 100\ngesetzt; dein Team bleibt zwischen\lden Kämpfen unverändert.\pDu siehst aber vorab das Gegnerteam\nund wählst deine Reihenfolge.\pOhne Pause gewinnst du reichlich BP.\pDein {COLOR}ÉKampfschwierigkeitsgrad{COLOR}Ë\nbeeinflusst dies nicht.
+  expected: 'In der\n{COLOR}ÉKampfzonen-Herausforderung{COLOR}Ë\ltrittst du nacheinander gegen\ljeden Arenaleiter an.\pJeder Kampf läuft wie in der\nBattle Frontier ab: 6 gegen 6.\pDeine Pokémon werden dafür auf <0x34>\n100 gesetzt. Zwischen den Kämpfen\lkannst du dein Team nicht ändern.\pVor jedem Kampf siehst du aber\ndas gegnerische Team und darfst\ldeine Start-Pokémon wählen.\pWenn du die Herausforderung ohne\nPause meisterst, bekommst du\lreichlich BP.\pDein gewählter\n{COLOR}ÉKampfschwierigkeitsgrad{COLOR}Ë\lhat darauf keinen Einfluss.'
 - offset: '0x1ee5d9c'
   name: English toponym canonicalisation 0x1EE5D9C
   issue: DE — English toponyms
@@ -3665,7 +3692,7 @@ entries:
 - offset: '0x1ee692e'
   name: English toponym canonicalisation 0x1EE692E
   issue: DE — English toponyms
-  expected: 'Pokémon Center heilen deine\nerschöpften Pokémon.\pSie bringen sie alle wieder\nin Bestform.\pDie meisten sind kostenlos, also\nzögere nicht, sie heilen zu lassen.\pFür die, die es nicht sind,\ngibt es {COLOR}ÉChaneira{COLOR}Ë, die man\lin der Wildnis finden kann.\pSie sind rosa und sehen so aus:'
+  expected: 'Pokémon Center heilen deine\nerschöpften Pokémon.\pSie machen alle Pokémon wieder\nvöllig gesund.\pDie meisten sind kostenlos. Lass\ndeine Pokémon also ruhig heilen.\pFalls nicht, gibt es immer noch\n{COLOR}ÉChansey{COLOR}Ë, die du\ldraußen finden kannst.\pSie sind rosa und sehen so aus:'
 - offset: '0x1ee6dc4'
   name: English toponym canonicalisation 0x1EE6DC4
   issue: DE — English toponyms
