@@ -1,0 +1,4016 @@
+{
+  "batch": "PT-40",
+  "domain": "Noms de capacités, table fixe indexée",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "table_base": "0xa40a10",
+  "pointer_site": "0x308a4",
+  "table_pointer_matches": [
+    328,
+    198820,
+    323460,
+    441996,
+    636196,
+    776240,
+    785060,
+    837908,
+    882252,
+    884448,
+    886016,
+    937560,
+    938480,
+    1104320,
+    1130736,
+    1164712,
+    1165028,
+    1201852,
+    1202504,
+    1202732,
+    1203172,
+    1203424,
+    1204216,
+    1204332,
+    1204520,
+    1204732,
+    1204860,
+    1206256,
+    1206400,
+    1207908,
+    1252884,
+    1272156,
+    10211404,
+    10325312,
+    10435052,
+    10435328,
+    10435836,
+    10449860,
+    10452880,
+    10461028,
+    10462048
+  ],
+  "stride": 13,
+  "policy": "F-759 categories.moves.fallback: preserve_english",
+  "entries": [
+    {
+      "offset": "0xa410f8",
+      "move_id": 136,
+      "source_hex": "c2dd00c4e9e1e400c5ddd7dfff",
+      "corpus_en": "",
+      "comparison_fr": "Pied Voltige",
+      "expected": "Hi Jump Kick",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41105",
+      "move_id": 137,
+      "source_hex": "c1e0d5e6d9ffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Intimidation",
+      "expected": "Glare",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41112",
+      "move_id": 138,
+      "source_hex": "bee6d9d5e100bfd5e8d9e6ffff",
+      "corpus_en": "",
+      "comparison_fr": "Dévorêve",
+      "expected": "Dream Eater",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4111f",
+      "move_id": 139,
+      "source_hex": "cae3dde7e3e200c1d5e7ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Gaz Toxik",
+      "expected": "Poison Gas",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4112c",
+      "move_id": 140,
+      "source_hex": "bcd5e6e6d5dbd9ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Pilonnage",
+      "expected": "Barrage",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41139",
+      "move_id": 141,
+      "source_hex": "c6d9d9d7dc00c6dddad9ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Vampirisme",
+      "expected": "Leech Life",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41146",
+      "move_id": 142,
+      "source_hex": "c6e3ead9e0ed00c5dde7e7ffff",
+      "corpus_en": "itant des mers chaudes. On dit que\nle couple qui tombe sur ce Pokémon\nconnaîtra l'amour éternel.",
+      "comparison_fr": "Grobisou",
+      "expected": "Lovely Kiss",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41153",
+      "move_id": 143,
+      "source_hex": "cddfed00bbe8e8d5d7dfffffff",
+      "corpus_en": "s chaudes. On dit que\nle couple qui tombe sur ce Pokémon\nconnaîtra l'amour éternel.",
+      "comparison_fr": "Piqué",
+      "expected": "Sky Attack",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41160",
+      "move_id": 144,
+      "source_hex": "cee6d5e2e7dae3e6e1ffffffff",
+      "corpus_en": "dit que\nle couple qui tombe sur ce Pokémon\nconnaîtra l'amour éternel.",
+      "comparison_fr": "Morphing",
+      "expected": "Transform",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4116d",
+      "move_id": 145,
+      "source_hex": "bce9d6d6e0d9ffffffffffffff",
+      "corpus_en": "ouple qui tombe sur ce Pokémon\nconnaîtra l'amour éternel.",
+      "comparison_fr": "Écume",
+      "expected": "Bubble",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4117a",
+      "move_id": 146,
+      "source_hex": "beddeeeeed00cae9e2d7dcffff",
+      "corpus_en": "be sur ce Pokémon\nconnaîtra l'amour éternel.",
+      "comparison_fr": "Uppercut",
+      "expected": "Dizzy Punch",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41187",
+      "move_id": 147,
+      "source_hex": "cde4e3e6d9ffffffffffffffff",
+      "corpus_en": "émon\nconnaîtra l'amour éternel.",
+      "comparison_fr": "Spore",
+      "expected": "Spore",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41194",
+      "move_id": 148,
+      "source_hex": "c0e0d5e7dcffffffffffffffff",
+      "corpus_en": "a l'amour éternel.",
+      "comparison_fr": "Flash",
+      "expected": "Flash",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa411a1",
+      "move_id": 149,
+      "source_hex": "cae7edebd5ead9ffffffffffff",
+      "corpus_en": "rnel.",
+      "comparison_fr": "Vague Psy",
+      "expected": "Psywave",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa411ae",
+      "move_id": 150,
+      "source_hex": "cde4e0d5e7dcffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Trempette",
+      "expected": "Splash",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa411bb",
+      "move_id": 151,
+      "source_hex": "bbd7ddd800bbe6e1e3e6ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Acidarmure",
+      "expected": "Acid Armor",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa411c8",
+      "move_id": 152,
+      "source_hex": "bde6d5d6dcd5e1e1d9e6ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Pince-Masse",
+      "expected": "Crabhammer",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa411d5",
+      "move_id": 153,
+      "source_hex": "bfece4e0e3e7dde3e2ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Explosion",
+      "expected": "Explosion",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa411e2",
+      "move_id": 154,
+      "source_hex": "c0e9e6ed00cdebdde4d9e7ffff",
+      "corpus_en": "",
+      "comparison_fr": "Combo-Griffe",
+      "expected": "Fury Swipes",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa411ef",
+      "move_id": 155,
+      "source_hex": "bce3e2d9e1d9e6d5e2dbffffff",
+      "corpus_en": "",
+      "comparison_fr": "Osmerang",
+      "expected": "Bonemerang",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa411fc",
+      "move_id": 156,
+      "source_hex": "ccd9e7e8ffffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Repos",
+      "expected": "Rest",
+      "status": "verified_retained",
+      "encoded_bytes": 5,
+      "line_widths": [
+        22
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41209",
+      "move_id": 157,
+      "source_hex": "cce3d7df00cde0ddd8d9ffffff",
+      "corpus_en": "e rêver de pouvoir voler, sa\nstructure cellulaire a évolué et il\ns'est vu pousser des ailes.",
+      "comparison_fr": "Éboulement",
+      "expected": "Rock Slide",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41216",
+      "move_id": 158,
+      "source_hex": "c2ede4d9e600c0d5e2dbffffff",
+      "corpus_en": "uvoir voler, sa\nstructure cellulaire a évolué et il\ns'est vu pousser des ailes.",
+      "comparison_fr": "Croc de Mort",
+      "expected": "Hyper Fang",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41223",
+      "move_id": 159,
+      "source_hex": "cddcd5e6e4d9e2ffffffffffff",
+      "corpus_en": "sa\nstructure cellulaire a évolué et il\ns'est vu pousser des ailes.",
+      "comparison_fr": "Affûtage",
+      "expected": "Sharpen",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41230",
+      "move_id": 160,
+      "source_hex": "bde3e2ead9e6e7dde3e2ffffff",
+      "corpus_en": "cellulaire a évolué et il\ns'est vu pousser des ailes.",
+      "comparison_fr": "Conversion",
+      "expected": "Conversion",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4123d",
+      "move_id": 161,
+      "source_hex": "cee6dd00bbe8e8d5d7dfffffff",
+      "corpus_en": "évolué et il\ns'est vu pousser des ailes.",
+      "comparison_fr": "Triplattaque",
+      "expected": "Tri Attack",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4124a",
+      "move_id": 162,
+      "source_hex": "cde9e4d9e600c0d5e2dbffffff",
+      "corpus_en": "s'est vu pousser des ailes.",
+      "comparison_fr": "Croc Fatal",
+      "expected": "Super Fang",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41257",
+      "move_id": 163,
+      "source_hex": "cde0d5e7dcffffffffffffffff",
+      "corpus_en": "ser des ailes.",
+      "comparison_fr": "Tranche",
+      "expected": "Slash",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41264",
+      "move_id": 164,
+      "source_hex": "cde9d6e7e8dde8e9e8d9ffffff",
+      "corpus_en": ".",
+      "comparison_fr": "Clonage",
+      "expected": "Substitute",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41271",
+      "move_id": 165,
+      "source_hex": "cde8e6e9dbdbe0d9ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Lutte",
+      "expected": "Struggle",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4127e",
+      "move_id": 166,
+      "source_hex": "cddfd9e8d7dcffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Gribouille",
+      "expected": "Sketch",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4128b",
+      "move_id": 167,
+      "source_hex": "cee6dde4e0d900c5ddd7dfffff",
+      "corpus_en": "",
+      "comparison_fr": "Triple Pied",
+      "expected": "Triple Kick",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41298",
+      "move_id": 168,
+      "source_hex": "cedcddd9daffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Larcin",
+      "expected": "Thief",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa412a5",
+      "move_id": 169,
+      "source_hex": "cde4ddd8d9e600d1d9d6ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Toile",
+      "expected": "Spider Web",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa412b2",
+      "move_id": 170,
+      "source_hex": "c7dde2d800ccd9d5d8d9e6ffff",
+      "corpus_en": "",
+      "comparison_fr": "Lire-Esprit",
+      "expected": "Mind Reader",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa412bf",
+      "move_id": 171,
+      "source_hex": "c8dddbdce8e1d5e6d9ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Cauchemar",
+      "expected": "Nightmare",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa412cc",
+      "move_id": 172,
+      "source_hex": "c0e0d5e1d900d1dcd9d9e0ffff",
+      "corpus_en": "avec les siens par\nimpulsions magnétiques. En bande, ils se\ndéplacent à l'unisson.",
+      "comparison_fr": "Roue de Feu",
+      "expected": "Flame Wheel",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa412d9",
+      "move_id": 173,
+      "source_hex": "cde2e3e6d9ffffffffffffffff",
+      "corpus_en": "s par\nimpulsions magnétiques. En bande, ils se\ndéplacent à l'unisson.",
+      "comparison_fr": "Ronflement",
+      "expected": "Snore",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa412e6",
+      "move_id": 174,
+      "source_hex": "bde9e6e7d9ffffffffffffffff",
+      "corpus_en": "ons magnétiques. En bande, ils se\ndéplacent à l'unisson.",
+      "comparison_fr": "Malédiction",
+      "expected": "Curse",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa412f3",
+      "move_id": 175,
+      "source_hex": "c0e0d5dde0ffffffffffffffff",
+      "corpus_en": "es. En bande, ils se\ndéplacent à l'unisson.",
+      "comparison_fr": "Gigotage",
+      "expected": "Flail",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        26
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41300",
+      "move_id": 176,
+      "source_hex": "bde3e2ead9e6e7dde3e200a3ff",
+      "corpus_en": "ils se\ndéplacent à l'unisson.",
+      "comparison_fr": "Conversion 2",
+      "expected": "Conversion 2",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4130d",
+      "move_id": 177,
+      "source_hex": "bbd9e6e3d6e0d5e7e8ffffffff",
+      "corpus_en": "cent à l'unisson.",
+      "comparison_fr": "Aéroblast",
+      "expected": "Aeroblast",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4131a",
+      "move_id": 178,
+      "source_hex": "bde3e8e8e3e200cde4e3e6d9ff",
+      "corpus_en": "son.",
+      "comparison_fr": "Spore Coton",
+      "expected": "Cotton Spore",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41327",
+      "move_id": 179,
+      "source_hex": "ccd9ead9e6e7d5e0ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Contre",
+      "expected": "Reversal",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41334",
+      "move_id": 180,
+      "source_hex": "cde4dde8d9ffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Dépit",
+      "expected": "Spite",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41341",
+      "move_id": 181,
+      "source_hex": "cae3ebd8d9e600cde2e3ebffff",
+      "corpus_en": "",
+      "comparison_fr": "Poudreuse",
+      "expected": "Powder Snow",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4134e",
+      "move_id": 182,
+      "source_hex": "cae6e3e8d9d7e8ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Abri",
+      "expected": "Protect",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4135b",
+      "move_id": 183,
+      "source_hex": "c7d5d7dc00cae9e2d7dcffffff",
+      "corpus_en": "",
+      "comparison_fr": "Mach Punch",
+      "expected": "Mach Punch",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41368",
+      "move_id": 184,
+      "source_hex": "cdd7d5e6ed00c0d5d7d9ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Grimace",
+      "expected": "Scary Face",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41375",
+      "move_id": 185,
+      "source_hex": "c0d9dde2e800bbe8e8d5d7dfff",
+      "corpus_en": "",
+      "comparison_fr": "Feinte",
+      "expected": "Feint Attack",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41382",
+      "move_id": 186,
+      "source_hex": "cdebd9d9e800c5dde7e7ffffff",
+      "corpus_en": "est formé de deux Terhal soudés. Son\ncorps de fer résiste à un choc avec un\navion à réaction.",
+      "comparison_fr": "Doux Baiser",
+      "expected": "Sweet Kiss",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4138f",
+      "move_id": 187,
+      "source_hex": "bcd9e0e0ed00bee6e9e1ffffff",
+      "corpus_en": "deux Terhal soudés. Son\ncorps de fer résiste à un choc avec un\navion à réaction.",
+      "comparison_fr": "Cognobidon",
+      "expected": "Belly Drum",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4139c",
+      "move_id": 188,
+      "source_hex": "cde0e9d8dbd900bce3e1d6ffff",
+      "corpus_en": "soudés. Son\ncorps de fer résiste à un choc avec un\navion à réaction.",
+      "comparison_fr": "Bombe Beurk",
+      "expected": "Sludge Bomb",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa413a9",
+      "move_id": 189,
+      "source_hex": "c7e9d8aecde0d5e4ffffffffff",
+      "corpus_en": "orps de fer résiste à un choc avec un\navion à réaction.",
+      "comparison_fr": "Coud'Boue",
+      "expected": "Mud-Slap",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa413b6",
+      "move_id": 190,
+      "source_hex": "c9d7e8d5eee3e3dfd5ffffffff",
+      "corpus_en": "ésiste à un choc avec un\navion à réaction.",
+      "comparison_fr": "Octazooka",
+      "expected": "Octazooka",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa413c3",
+      "move_id": 191,
+      "source_hex": "cde4dddfd9e7ffffffffffffff",
+      "corpus_en": "hoc avec un\navion à réaction.",
+      "comparison_fr": "Picots",
+      "expected": "Spikes",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa413d0",
+      "move_id": 192,
+      "source_hex": "d4d5e400bdd5e2e2e3e2ffffff",
+      "corpus_en": "vion à réaction.",
+      "comparison_fr": "Élecanon",
+      "expected": "Zap Cannon",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa413dd",
+      "move_id": 193,
+      "source_hex": "c0e3e6d9e7dddbdce8ffffffff",
+      "corpus_en": "on.",
+      "comparison_fr": "Clairvoyance",
+      "expected": "Foresight",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa413ea",
+      "move_id": 194,
+      "source_hex": "bed9e7e8dde2ed00bce3e2d8ff",
+      "corpus_en": "",
+      "comparison_fr": "Prlvt Destin",
+      "expected": "Destiny Bond",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa413f7",
+      "move_id": 195,
+      "source_hex": "cad9e6dde7dc00cde3e2dbffff",
+      "corpus_en": "",
+      "comparison_fr": "Requiem",
+      "expected": "Perish Song",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41404",
+      "move_id": 196,
+      "source_hex": "c3d7ed00d1dde2d8ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Vent Glace",
+      "expected": "Icy Wind",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41411",
+      "move_id": 197,
+      "source_hex": "bed9e8d9d7e8ffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Détection",
+      "expected": "Detect",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4141e",
+      "move_id": 198,
+      "source_hex": "bce3e2d900cce9e7dcffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Charge Os",
+      "expected": "Bone Rush",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4142b",
+      "move_id": 199,
+      "source_hex": "c6e3d7dfaec9e2ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Verrouillage",
+      "expected": "Lock-On",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41438",
+      "move_id": 200,
+      "source_hex": "c9e9e8e6d5dbd9ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Colère",
+      "expected": "Outrage",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41445",
+      "move_id": 201,
+      "source_hex": "cdd5e2d8e7e8e3e6e1ffffffff",
+      "corpus_en": "t qu'il a fait monter les eaux en\ncausant des pluies diluviennes. Il\nsomnolait dans une fosse marine.",
+      "comparison_fr": "Tempêtesable",
+      "expected": "Sandstorm",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41452",
+      "move_id": 202,
+      "source_hex": "c1dddbd500bee6d5dde2ffffff",
+      "corpus_en": "t monter les eaux en\ncausant des pluies diluviennes. Il\nsomnolait dans une fosse marine.",
+      "comparison_fr": "Giga-Sangsue",
+      "expected": "Giga Drain",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4145f",
+      "move_id": 203,
+      "source_hex": "bfe2d8e9e6d9ffffffffffffff",
+      "corpus_en": "eaux en\ncausant des pluies diluviennes. Il\nsomnolait dans une fosse marine.",
+      "comparison_fr": "Ténacité",
+      "expected": "Endure",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4146c",
+      "move_id": 204,
+      "source_hex": "bddcd5e6e1ffffffffffffffff",
+      "corpus_en": "nt des pluies diluviennes. Il\nsomnolait dans une fosse marine.",
+      "comparison_fr": "Charme",
+      "expected": "Charm",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41479",
+      "move_id": 205,
+      "source_hex": "cce3e0e0e3e9e8ffffffffffff",
+      "corpus_en": "diluviennes. Il\nsomnolait dans une fosse marine.",
+      "comparison_fr": "Roulade",
+      "expected": "Rollout",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41486",
+      "move_id": 206,
+      "source_hex": "c0d5e0e7d900cdebdde4d9ffff",
+      "corpus_en": "Il\nsomnolait dans une fosse marine.",
+      "comparison_fr": "Faux-Chage",
+      "expected": "False Swipe",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41493",
+      "move_id": 207,
+      "source_hex": "cdebd5dbdbd9e6ffffffffffff",
+      "corpus_en": "dans une fosse marine.",
+      "comparison_fr": "Vantardise",
+      "expected": "Swagger",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa414a0",
+      "move_id": 208,
+      "source_hex": "c7dde0df00bee6dde2dfffffff",
+      "corpus_en": "se marine.",
+      "comparison_fr": "Lait à Boire",
+      "expected": "Milk Drink",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa414ad",
+      "move_id": 209,
+      "source_hex": "cde4d5e6dfffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Étincelle",
+      "expected": "Spark",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa414ba",
+      "move_id": 210,
+      "source_hex": "c0e9e6ed00bde9e8e8d9e6ffff",
+      "corpus_en": "",
+      "comparison_fr": "Taillade",
+      "expected": "Fury Cutter",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa414c7",
+      "move_id": 211,
+      "source_hex": "cde8d9d9e000d1dde2dbffffff",
+      "corpus_en": "",
+      "comparison_fr": "AilesD'Acier",
+      "expected": "Steel Wing",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa414d4",
+      "move_id": 212,
+      "source_hex": "c7d9d5e200c6e3e3dfffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Regard Noir",
+      "expected": "Mean Look",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa414e1",
+      "move_id": 213,
+      "source_hex": "bbe8e8e6d5d7e8ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Attraction",
+      "expected": "Attract",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa414ee",
+      "move_id": 214,
+      "source_hex": "cde0d9d9e400ced5e0dfffffff",
+      "corpus_en": "",
+      "comparison_fr": "Blabla Dodo",
+      "expected": "Sleep Talk",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa414fb",
+      "move_id": 215,
+      "source_hex": "c2d9d5e000bcd9e0e0ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Glas de Soin",
+      "expected": "Heal Bell",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41508",
+      "move_id": 216,
+      "source_hex": "ccd9e8e9e6e2ffffffffffffff",
+      "corpus_en": "it dans le magma souterrain\ndepuis sa lutte féroce contre Kyogre, il\ny a longtemps de cela.",
+      "comparison_fr": "Retour",
+      "expected": "Return",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41515",
+      "move_id": 217,
+      "source_hex": "cae6d9e7d9e2e8ffffffffffff",
+      "corpus_en": "gma souterrain\ndepuis sa lutte féroce contre Kyogre, il\ny a longtemps de cela.",
+      "comparison_fr": "Cadeau",
+      "expected": "Present",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41522",
+      "move_id": 218,
+      "source_hex": "c0e6e9e7e8e6d5e8dde3e2ffff",
+      "corpus_en": "n\ndepuis sa lutte féroce contre Kyogre, il\ny a longtemps de cela.",
+      "comparison_fr": "Frustration",
+      "expected": "Frustration",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4152f",
+      "move_id": 219,
+      "source_hex": "cdd5dad9dbe9d5e6d8ffffffff",
+      "corpus_en": "utte féroce contre Kyogre, il\ny a longtemps de cela.",
+      "comparison_fr": "Rune Protect",
+      "expected": "Safeguard",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4153c",
+      "move_id": 220,
+      "source_hex": "cad5dde200cde4e0dde8ffffff",
+      "corpus_en": "ontre Kyogre, il\ny a longtemps de cela.",
+      "comparison_fr": "Balance",
+      "expected": "Pain Split",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41549",
+      "move_id": 221,
+      "source_hex": "cdd5d7e6d9d800c0dde6d9ffff",
+      "corpus_en": "il\ny a longtemps de cela.",
+      "comparison_fr": "Feu Sacré",
+      "expected": "Sacred Fire",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41556",
+      "move_id": 222,
+      "source_hex": "c7d5dbe2dde8e9d8d9ffffffff",
+      "corpus_en": "emps de cela.",
+      "comparison_fr": "Ampleur",
+      "expected": "Magnitude",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41563",
+      "move_id": 223,
+      "source_hex": "beede2d5e1ddd7cae9e2d7dcff",
+      "corpus_en": "",
+      "comparison_fr": "Dynamo-Poing",
+      "expected": "DynamicPunch",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41570",
+      "move_id": 224,
+      "source_hex": "c7d9dbd5dce3e6e2ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Mégacorne",
+      "expected": "Megahorn",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4157d",
+      "move_id": 225,
+      "source_hex": "bee6d5dbe3e2bce6d9d5e8dcff",
+      "corpus_en": "",
+      "comparison_fr": "DracoSouffle",
+      "expected": "DragonBreath",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4158a",
+      "move_id": 226,
+      "source_hex": "bcd5e8e3e200cad5e7e7ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Relais",
+      "expected": "Baton Pass",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41597",
+      "move_id": 227,
+      "source_hex": "bfe2d7e3e6d9ffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Encore",
+      "expected": "Encore",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa415a4",
+      "move_id": 228,
+      "source_hex": "cae9e6e7e9dde8ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Poursuite",
+      "expected": "Pursuit",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa415b1",
+      "move_id": 229,
+      "source_hex": "ccd5e4ddd800cde4dde2ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Tour Rapide",
+      "expected": "Rapid Spin",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa415be",
+      "move_id": 230,
+      "source_hex": "cdebd9d9e800cdd7d9e2e8ffff",
+      "corpus_en": "",
+      "comparison_fr": "Doux Parfum",
+      "expected": "Sweet Scent",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa415cb",
+      "move_id": 231,
+      "source_hex": "c3e6e3e200ced5dde0ffffffff",
+      "corpus_en": "qu'une fois tous les mille\nans, il a la capacité d'exaucer tous les\nvoeux durant une semaine.",
+      "comparison_fr": "Queue de Fer",
+      "expected": "Iron Tail",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa415d8",
+      "move_id": 232,
+      "source_hex": "c7d9e8d5e000bde0d5ebffffff",
+      "corpus_en": "ous les mille\nans, il a la capacité d'exaucer tous les\nvoeux durant une semaine.",
+      "comparison_fr": "Griffe Acier",
+      "expected": "Metal Claw",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa415e5",
+      "move_id": 233,
+      "source_hex": "d0dde8d5e000cedce6e3ebffff",
+      "corpus_en": "\nans, il a la capacité d'exaucer tous les\nvoeux durant une semaine.",
+      "comparison_fr": "Corps Perdu",
+      "expected": "Vital Throw",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa415f2",
+      "move_id": 234,
+      "source_hex": "c7e3e6e2dde2db00cde9e2ffff",
+      "corpus_en": "capacité d'exaucer tous les\nvoeux durant une semaine.",
+      "comparison_fr": "Aurore",
+      "expected": "Morning Sun",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa415ff",
+      "move_id": 235,
+      "source_hex": "cdede2e8dcd9e7dde7ffffffff",
+      "corpus_en": "xaucer tous les\nvoeux durant une semaine.",
+      "comparison_fr": "Synthèse",
+      "expected": "Synthesis",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4160c",
+      "move_id": 236,
+      "source_hex": "c7e3e3e2e0dddbdce8ffffffff",
+      "corpus_en": "es\nvoeux durant une semaine.",
+      "comparison_fr": "Rayon Lune",
+      "expected": "Moonlight",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41619",
+      "move_id": 237,
+      "source_hex": "c2ddd8d8d9e200cae3ebd9e6ff",
+      "corpus_en": "t une semaine.",
+      "comparison_fr": "Puis. Cachée",
+      "expected": "Hidden Power",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41626",
+      "move_id": 238,
+      "source_hex": "bde6e3e7e700bddce3e4ffffff",
+      "corpus_en": ".",
+      "comparison_fr": "Coup Croix",
+      "expected": "Cross Chop",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41633",
+      "move_id": 239,
+      "source_hex": "ceebdde7e8d9e6ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Ouragan",
+      "expected": "Twister",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41640",
+      "move_id": 240,
+      "source_hex": "ccd5dde200bed5e2d7d9ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Danse Pluie",
+      "expected": "Rain Dance",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4164d",
+      "move_id": 241,
+      "source_hex": "cde9e2e2ed00bed5edffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Zénith",
+      "expected": "Sunny Day",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4165a",
+      "move_id": 242,
+      "source_hex": "bde6e9e2d7dcffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Mâchouille",
+      "expected": "Crunch",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41667",
+      "move_id": 243,
+      "source_hex": "c7dde6e6e3e600bde3d5e8ffff",
+      "corpus_en": "",
+      "comparison_fr": "Voile Miroir",
+      "expected": "Mirror Coat",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41674",
+      "move_id": 244,
+      "source_hex": "cae7edd7dc00cfe4ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Boost",
+      "expected": "Psych Up",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41681",
+      "move_id": 245,
+      "source_hex": "bfece8e6d9e1d9cde4d9d9d8ff",
+      "corpus_en": "l vient d'un virus extraterrestre\narrivé avec une météorite et ayant subi\nune mutation génétique.",
+      "comparison_fr": "Vit.Extrême",
+      "expected": "ExtremeSpeed",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        70
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4168e",
+      "move_id": 246,
+      "source_hex": "bbe2d7ddd9e2e8cae3ebd9e6ff",
+      "corpus_en": "virus extraterrestre\narrivé avec une météorite et ayant subi\nune mutation génétique.",
+      "comparison_fr": "Pouv.Antique",
+      "expected": "AncientPower",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4169b",
+      "move_id": 247,
+      "source_hex": "cddcd5d8e3eb00bcd5e0e0ffff",
+      "corpus_en": "rrestre\narrivé avec une météorite et ayant subi\nune mutation génétique.",
+      "comparison_fr": "Ball'Ombre",
+      "expected": "Shadow Ball",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa416a8",
+      "move_id": 248,
+      "source_hex": "c0e9e8e9e6d900cddddbdce8ff",
+      "corpus_en": "é avec une météorite et ayant subi\nune mutation génétique.",
+      "comparison_fr": "Prescience",
+      "expected": "Future Sight",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa416b5",
+      "move_id": 249,
+      "source_hex": "cce3d7df00cde1d5e7dcffffff",
+      "corpus_en": "téorite et ayant subi\nune mutation génétique.",
+      "comparison_fr": "Éclate-Roc",
+      "expected": "Rock Smash",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa416c2",
+      "move_id": 250,
+      "source_hex": "d1dcdde6e0e4e3e3e0ffffffff",
+      "corpus_en": "ant subi\nune mutation génétique.",
+      "comparison_fr": "Siphon",
+      "expected": "Whirlpool",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa416cf",
+      "move_id": 251,
+      "source_hex": "bcd9d5e800cfe4ffffffffffff",
+      "corpus_en": "mutation génétique.",
+      "comparison_fr": "Baston",
+      "expected": "Beat Up",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa416dc",
+      "move_id": 252,
+      "source_hex": "c0d5dfd900c9e9e8ffffffffff",
+      "corpus_en": "tique.",
+      "comparison_fr": "Bluff",
+      "expected": "Fake Out",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa416e9",
+      "move_id": 253,
+      "source_hex": "cfe4e6e3d5e6ffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Brouhaha",
+      "expected": "Uproar",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa416f6",
+      "move_id": 254,
+      "source_hex": "cde8e3d7dfe4dde0d9ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Stockage",
+      "expected": "Stockpile",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41703",
+      "move_id": 255,
+      "source_hex": "cde4dde800cfe4ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Relâche",
+      "expected": "Spit Up",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41710",
+      "move_id": 256,
+      "source_hex": "cdebd5e0e0e3ebffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Avale",
+      "expected": "Swallow",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4171d",
+      "move_id": 257,
+      "source_hex": "c2d9d5e800d1d5ead9ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Canicule",
+      "expected": "Heat Wave",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4172a",
+      "move_id": 258,
+      "source_hex": "c2d5dde0ffffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Grêle",
+      "expected": "Hail",
+      "status": "verified_retained",
+      "encoded_bytes": 5,
+      "line_widths": [
+        21
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41737",
+      "move_id": 259,
+      "source_hex": "cee3e6e1d9e2e8ffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Tourmente",
+      "expected": "Torment",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41744",
+      "move_id": 260,
+      "source_hex": "c0e0d5e8e8d9e6ffffffffffff",
+      "corpus_en": "oquille sur son dos est faite de\nterre. Plus il est en bonne santé, plus\nelle est humide.",
+      "comparison_fr": "Flatterie",
+      "expected": "Flatter",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41751",
+      "move_id": 261,
+      "source_hex": "d1dde0e0aec9aed1dde7e4ffff",
+      "corpus_en": "on dos est faite de\nterre. Plus il est en bonne santé, plus\nelle est humide.",
+      "comparison_fr": "Feu Follet",
+      "expected": "Will-O-Wisp",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4175e",
+      "move_id": 262,
+      "source_hex": "c7d9e1d9e2e8e3ffffffffffff",
+      "corpus_en": "ite de\nterre. Plus il est en bonne santé, plus\nelle est humide.",
+      "comparison_fr": "Souvenir",
+      "expected": "Memento",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4176b",
+      "move_id": 263,
+      "source_hex": "c0d5d7d5d8d9ffffffffffffff",
+      "corpus_en": "Plus il est en bonne santé, plus\nelle est humide.",
+      "comparison_fr": "Façade",
+      "expected": "Facade",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        36
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41778",
+      "move_id": 264,
+      "source_hex": "c0e3d7e9e700cae9e2d7dcffff",
+      "corpus_en": "en bonne santé, plus\nelle est humide.",
+      "comparison_fr": "Mitra-Poing",
+      "expected": "Focus Punch",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41785",
+      "move_id": 265,
+      "source_hex": "cde1d9e0e0dde2dbcdd5e0e8ff",
+      "corpus_en": "é, plus\nelle est humide.",
+      "comparison_fr": "Stimulant",
+      "expected": "SmellingSalt",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41792",
+      "move_id": 266,
+      "source_hex": "c0e3e0e0e3eb00c7d9ffffffff",
+      "corpus_en": "est humide.",
+      "comparison_fr": "Par Ici",
+      "expected": "Follow Me",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4179f",
+      "move_id": 267,
+      "source_hex": "c8d5e8e9e6d900cae3ebd9e6ff",
+      "corpus_en": "",
+      "comparison_fr": "Force Nature",
+      "expected": "Nature Power",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa417ac",
+      "move_id": 268,
+      "source_hex": "bddcd5e6dbd9ffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Chargeur",
+      "expected": "Charge",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa417b9",
+      "move_id": 269,
+      "source_hex": "ced5e9e2e8ffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Provoc",
+      "expected": "Taunt",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa417c6",
+      "move_id": 270,
+      "source_hex": "c2d9e0e4dde2db00c2d5e2d8ff",
+      "corpus_en": "",
+      "comparison_fr": "Coup d'Main",
+      "expected": "Helping Hand",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa417d3",
+      "move_id": 271,
+      "source_hex": "cee6ddd7dfffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "TourDeMagie",
+      "expected": "Trick",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        26
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa417e0",
+      "move_id": 272,
+      "source_hex": "cce3e0d900cae0d5edffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Imitation",
+      "expected": "Role Play",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa417ed",
+      "move_id": 273,
+      "source_hex": "d1dde7dcffffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Voeu",
+      "expected": "Wish",
+      "status": "verified_retained",
+      "encoded_bytes": 5,
+      "line_widths": [
+        21
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa417fa",
+      "move_id": 274,
+      "source_hex": "bbe7e7dde7e8ffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Assistance",
+      "expected": "Assist",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41807",
+      "move_id": 275,
+      "source_hex": "c3e2dbe6d5dde2ffffffffffff",
+      "corpus_en": "d'instinct où trouver une source\nd'eau pure. Il y transporte d'autres\nPokémon sur son dos.",
+      "comparison_fr": "Racines",
+      "expected": "Ingrain",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41814",
+      "move_id": 276,
+      "source_hex": "cde9e4d9e6e4e3ebd9e6ffffff",
+      "corpus_en": "ù trouver une source\nd'eau pure. Il y transporte d'autres\nPokémon sur son dos.",
+      "comparison_fr": "Surpuissance",
+      "expected": "Superpower",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41821",
+      "move_id": 277,
+      "source_hex": "c7d5dbddd700bde3d5e8ffffff",
+      "corpus_en": "source\nd'eau pure. Il y transporte d'autres\nPokémon sur son dos.",
+      "comparison_fr": "Reflet Magik",
+      "expected": "Magic Coat",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4182e",
+      "move_id": 278,
+      "source_hex": "ccd9d7edd7e0d9ffffffffffff",
+      "corpus_en": "pure. Il y transporte d'autres\nPokémon sur son dos.",
+      "comparison_fr": "Recyclage",
+      "expected": "Recycle",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4183b",
+      "move_id": 279,
+      "source_hex": "ccd9ead9e2dbd9ffffffffffff",
+      "corpus_en": "ransporte d'autres\nPokémon sur son dos.",
+      "comparison_fr": "Vendetta",
+      "expected": "Revenge",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41848",
+      "move_id": 280,
+      "source_hex": "bce6ddd7df00bce6d9d5dfffff",
+      "corpus_en": "utres\nPokémon sur son dos.",
+      "comparison_fr": "Casse-Brique",
+      "expected": "Brick Break",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        60
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41855",
+      "move_id": 281,
+      "source_hex": "d3d5ebe2ffffffffffffffffff",
+      "corpus_en": "sur son dos.",
+      "comparison_fr": "Bâillement",
+      "expected": "Yawn",
+      "status": "verified_retained",
+      "encoded_bytes": 5,
+      "line_widths": [
+        23
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41862",
+      "move_id": 282,
+      "source_hex": "c5e2e3d7df00c9dadaffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Sabotage",
+      "expected": "Knock Off",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4186f",
+      "move_id": 283,
+      "source_hex": "bfe2d8d9d5eae3e6ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Effort",
+      "expected": "Endeavor",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4187c",
+      "move_id": 284,
+      "source_hex": "bfe6e9e4e8dde3e2ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Éruption",
+      "expected": "Eruption",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41889",
+      "move_id": 285,
+      "source_hex": "cddfdde0e000cdebd5e4ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Échange",
+      "expected": "Skill Swap",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41896",
+      "move_id": 286,
+      "source_hex": "c3e1e4e6dde7e3e2ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Possessif",
+      "expected": "Imprison",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa418a3",
+      "move_id": 287,
+      "source_hex": "ccd9dae6d9e7dcffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Régénération",
+      "expected": "Refresh",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa418b0",
+      "move_id": 288,
+      "source_hex": "c1e6e9d8dbd9ffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Rancune",
+      "expected": "Grudge",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa418bd",
+      "move_id": 289,
+      "source_hex": "cde2d5e8d7dcffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Saisie",
+      "expected": "Snatch",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa418ca",
+      "move_id": 290,
+      "source_hex": "cdd9d7e6d9e800cae3ebd9e6ff",
+      "corpus_en": "etits Pokémon peuvent naître\nsur son dos et y passer toute leur vie.",
+      "comparison_fr": "Force Cachée",
+      "expected": "Secret Power",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa418d7",
+      "move_id": 291,
+      "source_hex": "beddead9ffffffffffffffffff",
+      "corpus_en": "peuvent naître\nsur son dos et y passer toute leur vie.",
+      "comparison_fr": "Plongée",
+      "expected": "Dive",
+      "status": "verified_retained",
+      "encoded_bytes": 5,
+      "line_widths": [
+        22
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa418e4",
+      "move_id": 292,
+      "source_hex": "bbe6e100cedce6e9e7e8ffffff",
+      "corpus_en": "re\nsur son dos et y passer toute leur vie.",
+      "comparison_fr": "Cogne",
+      "expected": "Arm Thrust",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa418f1",
+      "move_id": 293,
+      "source_hex": "bdd5e1e3e9dae0d5dbd9ffffff",
+      "corpus_en": "s et y passer toute leur vie.",
+      "comparison_fr": "Camouflage",
+      "expected": "Camouflage",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa418fe",
+      "move_id": 294,
+      "source_hex": "ced5dde000c1e0e3ebffffffff",
+      "corpus_en": "toute leur vie.",
+      "comparison_fr": "Lumi-Queue",
+      "expected": "Tail Glow",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4190b",
+      "move_id": 295,
+      "source_hex": "c6e9e7e8d9e600cae9e6dbd9ff",
+      "corpus_en": "ie.",
+      "comparison_fr": "Lumi-Éclat",
+      "expected": "Luster Purge",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41918",
+      "move_id": 296,
+      "source_hex": "c7dde7e800bcd5e0e0ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Ball'Brume",
+      "expected": "Mist Ball",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41925",
+      "move_id": 297,
+      "source_hex": "c0d9d5e8dcd9e6bed5e2d7d9ff",
+      "corpus_en": "",
+      "comparison_fr": "Danse Plumes",
+      "expected": "FeatherDance",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41932",
+      "move_id": 298,
+      "source_hex": "ced9d9e8d9e600bed5e2d7d9ff",
+      "corpus_en": "",
+      "comparison_fr": "Danse Folle",
+      "expected": "Teeter Dance",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4193f",
+      "move_id": 299,
+      "source_hex": "bce0d5eed900c5ddd7dfffffff",
+      "corpus_en": "",
+      "comparison_fr": "Pied Brûleur",
+      "expected": "Blaze Kick",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4194c",
+      "move_id": 300,
+      "source_hex": "c7e9d800cde4e3e6e8ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Lance-Boue",
+      "expected": "Mud Sport",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41959",
+      "move_id": 301,
+      "source_hex": "c3d7d900bcd5e0e0ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Ball'Glace",
+      "expected": "Ice Ball",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41966",
+      "move_id": 302,
+      "source_hex": "c8d9d9d8e0d900bbe6e1ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Poing Dard",
+      "expected": "Needle Arm",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41973",
+      "move_id": 303,
+      "source_hex": "cde0d5d7df00c9dadaffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Paresse",
+      "expected": "Slack Off",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41980",
+      "move_id": 304,
+      "source_hex": "c2ede4d9e600d0e3ddd7d9ffff",
+      "corpus_en": "Il est très agile. Il fait toujours\nattention d'éteindre la flamme de sa\nqueue avant de se coucher.",
+      "comparison_fr": "Mégaphone",
+      "expected": "Hyper Voice",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4198d",
+      "move_id": 305,
+      "source_hex": "cae3dde7e3e200c0d5e2dbffff",
+      "corpus_en": "gile. Il fait toujours\nattention d'éteindre la flamme de sa\nqueue avant de se coucher.",
+      "comparison_fr": "CrochetVenin",
+      "expected": "Poison Fang",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa4199a",
+      "move_id": 306,
+      "source_hex": "bde6e9e7dc00bde0d5ebffffff",
+      "corpus_en": "toujours\nattention d'éteindre la flamme de sa\nqueue avant de se coucher.",
+      "comparison_fr": "ÉclateGriffe",
+      "expected": "Crush Claw",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa419a7",
+      "move_id": 307,
+      "source_hex": "bce0d5e7e800bce9e6e2ffffff",
+      "corpus_en": "ention d'éteindre la flamme de sa\nqueue avant de se coucher.",
+      "comparison_fr": "Rafale Feu",
+      "expected": "Blast Burn",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa419b4",
+      "move_id": 308,
+      "source_hex": "c2edd8e6e300bdd5e2e2e3e2ff",
+      "corpus_en": "ndre la flamme de sa\nqueue avant de se coucher.",
+      "comparison_fr": "Hydroblast",
+      "expected": "Hydro Cannon",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa419c1",
+      "move_id": 309,
+      "source_hex": "c7d9e8d9e3e600c7d5e7dcffff",
+      "corpus_en": "e de sa\nqueue avant de se coucher.",
+      "comparison_fr": "PoingMétéore",
+      "expected": "Meteor Mash",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa419ce",
+      "move_id": 310,
+      "source_hex": "bbe7e8e3e2dde7dcffffffffff",
+      "corpus_en": "avant de se coucher.",
+      "comparison_fr": "Étonnement",
+      "expected": "Astonish",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa419db",
+      "move_id": 311,
+      "source_hex": "d1d9d5e8dcd9e600bcd5e0e0ff",
+      "corpus_en": "coucher.",
+      "comparison_fr": "Ball'Météo",
+      "expected": "Weather Ball",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa419e8",
+      "move_id": 312,
+      "source_hex": "bbe6e3e1d5e8dcd9e6d5e4edff",
+      "corpus_en": "",
+      "comparison_fr": "Aromathérap.",
+      "expected": "Aromatherapy",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa419f5",
+      "move_id": 313,
+      "source_hex": "c0d5dfd900ced9d5e6e7ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Croco Larme",
+      "expected": "Fake Tears",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a02",
+      "move_id": 314,
+      "source_hex": "bbdde600bde9e8e8d9e6ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Tranch'Air",
+      "expected": "Air Cutter",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a0f",
+      "move_id": 315,
+      "source_hex": "c9ead9e6dcd9d5e8ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Surchauffe",
+      "expected": "Overheat",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a1c",
+      "move_id": 316,
+      "source_hex": "c9d8e3e600cde0d9e9e8dcffff",
+      "corpus_en": "",
+      "comparison_fr": "Flair",
+      "expected": "Odor Sleuth",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a29",
+      "move_id": 317,
+      "source_hex": "cce3d7df00cee3e1d6ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Tomberoche",
+      "expected": "Rock Tomb",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a36",
+      "move_id": 318,
+      "source_hex": "cddde0ead9e600d1dde2d8ffff",
+      "corpus_en": "",
+      "comparison_fr": "Vent Argenté",
+      "expected": "Silver Wind",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a43",
+      "move_id": 319,
+      "source_hex": "c7d9e8d5e000cde3e9e2d8ffff",
+      "corpus_en": "contrôle habilement l'intensité de la\nflamme de sa queue pour tenir ses\nadversaires à distance.",
+      "comparison_fr": "Strido-Son",
+      "expected": "Metal Sound",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a50",
+      "move_id": 320,
+      "source_hex": "c1e6d5e7e7ebdcdde7e8e0d9ff",
+      "corpus_en": "lement l'intensité de la\nflamme de sa queue pour tenir ses\nadversaires à distance.",
+      "comparison_fr": "Siffl'Herbe",
+      "expected": "Grasswhistle",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a5d",
+      "move_id": 321,
+      "source_hex": "ceddd7dfe0d9ffffffffffffff",
+      "corpus_en": "nsité de la\nflamme de sa queue pour tenir ses\nadversaires à distance.",
+      "comparison_fr": "Chatouille",
+      "expected": "Tickle",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a6a",
+      "move_id": 322,
+      "source_hex": "bde3e7e1ddd700cae3ebd9e6ff",
+      "corpus_en": "lamme de sa queue pour tenir ses\nadversaires à distance.",
+      "comparison_fr": "Force Cosmik",
+      "expected": "Cosmic Power",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a77",
+      "move_id": 323,
+      "source_hex": "d1d5e8d9e600cde4e3e9e8ffff",
+      "corpus_en": "ueue pour tenir ses\nadversaires à distance.",
+      "comparison_fr": "Giclédo",
+      "expected": "Water Spout",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a84",
+      "move_id": 324,
+      "source_hex": "cddddbe2d5e000bcd9d5e1ffff",
+      "corpus_en": "ir ses\nadversaires à distance.",
+      "comparison_fr": "Rayon Signal",
+      "expected": "Signal Beam",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a91",
+      "move_id": 325,
+      "source_hex": "cddcd5d8e3eb00cae9e2d7dcff",
+      "corpus_en": "aires à distance.",
+      "comparison_fr": "Poing Ombre",
+      "expected": "Shadow Punch",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        71
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41a9e",
+      "move_id": 326,
+      "source_hex": "bfece8e6d5e7d9e2e7e3e6edff",
+      "corpus_en": "nce.",
+      "comparison_fr": "Extrasenseur",
+      "expected": "Extrasensory",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41aab",
+      "move_id": 327,
+      "source_hex": "cddfed00cfe4e4d9e6d7e9e8ff",
+      "corpus_en": "",
+      "comparison_fr": "Stratopercut",
+      "expected": "Sky Uppercut",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ab8",
+      "move_id": 328,
+      "source_hex": "cdd5e2d800cee3e1d6ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Tourbi-Sable",
+      "expected": "Sand Tomb",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ac5",
+      "move_id": 329,
+      "source_hex": "cddcd9d9e600bde3e0d8ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Glaciation",
+      "expected": "Sheer Cold",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ad2",
+      "move_id": 330,
+      "source_hex": "c7e9d8d8ed00d1d5e8d9e6ffff",
+      "corpus_en": "",
+      "comparison_fr": "Ocroupi",
+      "expected": "Muddy Water",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41adf",
+      "move_id": 331,
+      "source_hex": "bce9e0e0d9e800cdd9d9d8ffff",
+      "corpus_en": "",
+      "comparison_fr": "Balle Graine",
+      "expected": "Bullet Seed",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41aec",
+      "move_id": 332,
+      "source_hex": "bbd9e6ddd5e000bbd7d9ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Aéropiqué",
+      "expected": "Aerial Ace",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41af9",
+      "move_id": 333,
+      "source_hex": "c3d7ddd7e0d900cde4d9d5e6ff",
+      "corpus_en": "",
+      "comparison_fr": "Stalactite",
+      "expected": "Icicle Spear",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b06",
+      "move_id": 334,
+      "source_hex": "c3e6e3e200bed9dad9e2e7d9ff",
+      "corpus_en": "oit son honneur bafoué, il est\ncapable de faire des ravages avec ses\nailes tranchantes.",
+      "comparison_fr": "Mur de Fer",
+      "expected": "Iron Defense",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b13",
+      "move_id": 335,
+      "source_hex": "bce0e3d7dfffffffffffffffff",
+      "corpus_en": "ur bafoué, il est\ncapable de faire des ravages avec ses\nailes tranchantes.",
+      "comparison_fr": "Barrage",
+      "expected": "Block",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b20",
+      "move_id": 336,
+      "source_hex": "c2e3ebe0ffffffffffffffffff",
+      "corpus_en": "est\ncapable de faire des ravages avec ses\nailes tranchantes.",
+      "comparison_fr": "Grondement",
+      "expected": "Howl",
+      "status": "verified_retained",
+      "encoded_bytes": 5,
+      "line_widths": [
+        23
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b2d",
+      "move_id": 337,
+      "source_hex": "bee6d5dbe3e200bde0d5ebffff",
+      "corpus_en": "de faire des ravages avec ses\nailes tranchantes.",
+      "comparison_fr": "Draco-Griffe",
+      "expected": "Dragon Claw",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b3a",
+      "move_id": 338,
+      "source_hex": "c0e6d9e2eeed00cae0d5e2e8ff",
+      "corpus_en": "ravages avec ses\nailes tranchantes.",
+      "comparison_fr": "Végé-Attaque",
+      "expected": "Frenzy Plant",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b47",
+      "move_id": 339,
+      "source_hex": "bce9e0df00cfe4ffffffffffff",
+      "corpus_en": "ses\nailes tranchantes.",
+      "comparison_fr": "Gonflette",
+      "expected": "Bulk Up",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b54",
+      "move_id": 340,
+      "source_hex": "bce3e9e2d7d9ffffffffffffff",
+      "corpus_en": "nchantes.",
+      "comparison_fr": "Rebond",
+      "expected": "Bounce",
+      "status": "verified_retained",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b61",
+      "move_id": 341,
+      "source_hex": "c7e9d800cddce3e8ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Tir de Boue",
+      "expected": "Mud Shot",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b6e",
+      "move_id": 342,
+      "source_hex": "cae3dde7e3e200ced5dde0ffff",
+      "corpus_en": "",
+      "comparison_fr": "Queue-Poison",
+      "expected": "Poison Tail",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b7b",
+      "move_id": 343,
+      "source_hex": "bde3ead9e8ffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Implore",
+      "expected": "Covet",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b88",
+      "move_id": 344,
+      "source_hex": "d0e3e0e800ced5d7dfe0d9ffff",
+      "corpus_en": "",
+      "comparison_fr": "Électacle",
+      "expected": "Volt Tackle",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41b95",
+      "move_id": 345,
+      "source_hex": "c7d5dbddd7d5e000c6d9d5daff",
+      "corpus_en": "",
+      "comparison_fr": "FeuilleMagik",
+      "expected": "Magical Leaf",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ba2",
+      "move_id": 346,
+      "source_hex": "d1d5e8d9e600cde4e3e6e8ffff",
+      "corpus_en": "",
+      "comparison_fr": "Tourniquet",
+      "expected": "Water Sport",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41baf",
+      "move_id": 347,
+      "source_hex": "bdd5e0e100c7dde2d8ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Plénitude",
+      "expected": "Calm Mind",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41bbc",
+      "move_id": 348,
+      "source_hex": "c6d9d5da00bce0d5d8d9ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Lame Feuille",
+      "expected": "Leaf Blade",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41bc9",
+      "move_id": 349,
+      "source_hex": "bee6d5dbe3e200bed5e2d7d9ff",
+      "corpus_en": "sse des Étourmi les force à\nvivre en groupe, mais ils se chamaillent\nsouvent.",
+      "comparison_fr": "Danse Draco",
+      "expected": "Dragon Dance",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41bd6",
+      "move_id": 350,
+      "source_hex": "cce3d7df00bce0d5e7e8ffffff",
+      "corpus_en": "mi les force à\nvivre en groupe, mais ils se chamaillent\nsouvent.",
+      "comparison_fr": "Boule Roc",
+      "expected": "Rock Blast",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41be3",
+      "move_id": 351,
+      "source_hex": "cddce3d7df00d1d5ead9ffffff",
+      "corpus_en": "à\nvivre en groupe, mais ils se chamaillent\nsouvent.",
+      "comparison_fr": "Onde de Choc",
+      "expected": "Shock Wave",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41bf0",
+      "move_id": 352,
+      "source_hex": "d1d5e8d9e600cae9e0e7d9ffff",
+      "corpus_en": "oupe, mais ils se chamaillent\nsouvent.",
+      "comparison_fr": "Vibraqua",
+      "expected": "Water Pulse",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41bfd",
+      "move_id": 353,
+      "source_hex": "bee3e3e100bed9e7dde6d9ffff",
+      "corpus_en": "s se chamaillent\nsouvent.",
+      "comparison_fr": "Carnareket",
+      "expected": "Doom Desire",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c0a",
+      "move_id": 354,
+      "source_hex": "cae7edd7dce300bce3e3e7e8ff",
+      "corpus_en": "ent\nsouvent.",
+      "comparison_fr": "Psycho-Boost",
+      "expected": "Psycho Boost",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c17",
+      "move_id": 355,
+      "source_hex": "c6d9d9d7dc00c0d5e2dbffffff",
+      "corpus_en": "",
+      "comparison_fr": "Vampirisme",
+      "expected": "Leech Fang",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c24",
+      "move_id": 356,
+      "source_hex": "bbdde600cde0d5e7dcffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Lame d'Air",
+      "expected": "Air Slash",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c31",
+      "move_id": 357,
+      "source_hex": "bbe5e9d500c4d9e8ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Aqua-Jet",
+      "expected": "Aqua Jet",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c3e",
+      "move_id": 358,
+      "source_hex": "bbe5e9d500ced5dde0ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Hydro-Queue",
+      "expected": "Aqua Tail",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c4b",
+      "move_id": 359,
+      "source_hex": "bbe9e6d500cde4dcd9e6d9ffff",
+      "corpus_en": "",
+      "comparison_fr": "Aurasphère",
+      "expected": "Aura Sphere",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c58",
+      "move_id": 360,
+      "source_hex": "bbead5e0d5e2d7dcd9ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Avalanche",
+      "expected": "Avalanche",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c65",
+      "move_id": 361,
+      "source_hex": "bce6d5ead900bcdde6d8ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Rapace",
+      "expected": "Brave Bird",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c72",
+      "move_id": 362,
+      "source_hex": "bce9db00bce9eeeeffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Bourdon",
+      "expected": "Bug Buzz",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c7f",
+      "move_id": 363,
+      "source_hex": "bce9e0e0d9e800cae9e2d7dcff",
+      "corpus_en": "",
+      "comparison_fr": "Pisto-Poing",
+      "expected": "Bullet Punch",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c8c",
+      "move_id": 364,
+      "source_hex": "bddcd5e6dbd900bcd9d5e1ffff",
+      "corpus_en": "sa propre faiblesse, il vit\ntoujours en groupe, piaillant bruyamment\nquand il est seul.",
+      "comparison_fr": "Rayon Chargé",
+      "expected": "Charge Beam",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41c99",
+      "move_id": 365,
+      "source_hex": "bde0e3e7d900bde3e1d6d5e8ff",
+      "corpus_en": "iblesse, il vit\ntoujours en groupe, piaillant bruyamment\nquand il est seul.",
+      "comparison_fr": "Close Combat",
+      "expected": "Close Combat",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ca6",
+      "move_id": 366,
+      "source_hex": "bde6e3e7e700cae3dde7e3e2ff",
+      "corpus_en": "it\ntoujours en groupe, piaillant bruyamment\nquand il est seul.",
+      "comparison_fr": "Poison Croix",
+      "expected": "Cross Poison",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41cb3",
+      "move_id": 367,
+      "source_hex": "bed5e6df00cae9e0e7d9ffffff",
+      "corpus_en": "n groupe, piaillant bruyamment\nquand il est seul.",
+      "comparison_fr": "Vibrobscur",
+      "expected": "Dark Pulse",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41cc0",
+      "move_id": 368,
+      "source_hex": "bedde7d7dcd5e6dbd9ffffffff",
+      "corpus_en": "illant bruyamment\nquand il est seul.",
+      "comparison_fr": "Coup d'Jus",
+      "expected": "Discharge",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ccd",
+      "move_id": 369,
+      "source_hex": "bee6d5d7e300c7d9e8d9e3e6ff",
+      "corpus_en": "ment\nquand il est seul.",
+      "comparison_fr": "DracoMétéore",
+      "expected": "Draco Meteor",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41cda",
+      "move_id": 370,
+      "source_hex": "bee6d5dbe3e200cae9e0e7d9ff",
+      "corpus_en": "est seul.",
+      "comparison_fr": "Draco-Choc",
+      "expected": "Dragon Pulse",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ce7",
+      "move_id": 371,
+      "source_hex": "bee6d5dde200cae9e2d7dcffff",
+      "corpus_en": "",
+      "comparison_fr": "Vampi-Poing",
+      "expected": "Drain Punch",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41cf4",
+      "move_id": 372,
+      "source_hex": "bfd5e6e8dc00cae3ebd9e6ffff",
+      "corpus_en": "",
+      "comparison_fr": "Telluriforce",
+      "expected": "Earth Power",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d01",
+      "move_id": 373,
+      "source_hex": "bfe2d9e6dbed00bcd5e0e0ffff",
+      "corpus_en": "",
+      "comparison_fr": "Éco-Sphère",
+      "expected": "Energy Ball",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d0e",
+      "move_id": 374,
+      "source_hex": "c0e3d7e9e700bce0d5e7e8ffff",
+      "corpus_en": "",
+      "comparison_fr": "Exploforce",
+      "expected": "Focus Blast",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d1b",
+      "move_id": 375,
+      "source_hex": "c0e3e6d7d900cad5e0e1ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Forte-Paume",
+      "expected": "Force Palm",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d28",
+      "move_id": 376,
+      "source_hex": "c1dddbd500c3e1e4d5d7e8ffff",
+      "corpus_en": "",
+      "comparison_fr": "Giga Impact",
+      "expected": "Giga Impact",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d35",
+      "move_id": 377,
+      "source_hex": "c1e6d5e7e700c5e2e3e8ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Noeud Herbe",
+      "expected": "Grass Knot",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d42",
+      "move_id": 378,
+      "source_hex": "c1e9e2df00cddce3e8ffffffff",
+      "corpus_en": "and il tombe du haut de ses petites\npattes, ses antennes font un bruit de\nxylophone.",
+      "comparison_fr": "Détricanon",
+      "expected": "Gunk Shot",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d4f",
+      "move_id": 379,
+      "source_hex": "c2d5e1e1d9e600bbe6e1ffffff",
+      "corpus_en": "du haut de ses petites\npattes, ses antennes font un bruit de\nxylophone.",
+      "comparison_fr": "Marto-Poing",
+      "expected": "Hammer Arm",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d5c",
+      "move_id": 380,
+      "source_hex": "c2d9d5d800cde1d5e7dcffffff",
+      "corpus_en": "s petites\npattes, ses antennes font un bruit de\nxylophone.",
+      "comparison_fr": "Fracass'Tête",
+      "expected": "Head Smash",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d69",
+      "move_id": 381,
+      "source_hex": "c3d7d900cddcd5e6d8ffffffff",
+      "corpus_en": "tes, ses antennes font un bruit de\nxylophone.",
+      "comparison_fr": "Éclats Glace",
+      "expected": "Ice Shard",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d76",
+      "move_id": 382,
+      "source_hex": "c3e6e3e200c2d9d5d8ffffffff",
+      "corpus_en": "nnes font un bruit de\nxylophone.",
+      "comparison_fr": "Tête de Fer",
+      "expected": "Iron Head",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d83",
+      "move_id": 383,
+      "source_hex": "c6d5ead500cae0e9e1d9ffffff",
+      "corpus_en": "bruit de\nxylophone.",
+      "comparison_fr": "Ébullilave",
+      "expected": "Lava Plume",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d90",
+      "move_id": 384,
+      "source_hex": "c7d5dbe2d9e800bce3e1d6ffff",
+      "corpus_en": "phone.",
+      "comparison_fr": "Bombe Aimant",
+      "expected": "Magnet Bomb",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41d9d",
+      "move_id": 385,
+      "source_hex": "c7e9d800bce3e1d6ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Boue-Bombe",
+      "expected": "Mud Bomb",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41daa",
+      "move_id": 386,
+      "source_hex": "c8d5e7e8ed00cae0e3e8ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Machination",
+      "expected": "Nasty Plot",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41db7",
+      "move_id": 387,
+      "source_hex": "c8dddbdce800cde0d5e7dcffff",
+      "corpus_en": "",
+      "comparison_fr": "Tranche-Nuit",
+      "expected": "Night Slash",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41dc4",
+      "move_id": 388,
+      "source_hex": "c9e1dde2e3e9e700d1dde2d8ff",
+      "corpus_en": "",
+      "comparison_fr": "Vent Mauvais",
+      "expected": "Ominous Wind",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41dd1",
+      "move_id": 389,
+      "source_hex": "cae3ebd9e600c1d9e1ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Rayon Gemme",
+      "expected": "Power Gem",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41dde",
+      "move_id": 390,
+      "source_hex": "cae3ebd9e600d1dcdde4ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Mégafouet",
+      "expected": "Power Whip",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41deb",
+      "move_id": 391,
+      "source_hex": "cae7edd7dce300bde9e8ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Coupe Psycho",
+      "expected": "Psycho Cut",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41df8",
+      "move_id": 392,
+      "source_hex": "cce3d7df00bde0dde1d6ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Escalade",
+      "expected": "Rock Climb",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e05",
+      "move_id": 393,
+      "source_hex": "cce3d7df00cae3e0dde7dcffff",
+      "corpus_en": "ris sont tellement variés qu'il\nexiste un village où on organise des\nconcours en leur honneur.",
+      "comparison_fr": "Poliroche",
+      "expected": "Rock Polish",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e12",
+      "move_id": 394,
+      "source_hex": "cce3d7df00d1e6d9d7dfd9e6ff",
+      "corpus_en": "ement variés qu'il\nexiste un village où on organise des\nconcours en leur honneur.",
+      "comparison_fr": "Roc-Boulet",
+      "expected": "Rock Wrecker",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e1f",
+      "move_id": 395,
+      "source_hex": "cce3e3e7e8ffffffffffffffff",
+      "corpus_en": "qu'il\nexiste un village où on organise des\nconcours en leur honneur.",
+      "comparison_fr": "Atterrissage",
+      "expected": "Roost",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e2c",
+      "move_id": 396,
+      "source_hex": "cdd9d9d800bce3e1d6ffffffff",
+      "corpus_en": "un village où on organise des\nconcours en leur honneur.",
+      "comparison_fr": "Canon Graine",
+      "expected": "Seed Bomb",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e39",
+      "move_id": 397,
+      "source_hex": "cddcd5d8e3eb00bde0d5ebffff",
+      "corpus_en": "on organise des\nconcours en leur honneur.",
+      "comparison_fr": "Griffe Ombre",
+      "expected": "Shadow Claw",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        65
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e46",
+      "move_id": 398,
+      "source_hex": "cddcd5d8e3eb00cde2d9d5dfff",
+      "corpus_en": "des\nconcours en leur honneur.",
+      "comparison_fr": "Ombre Portée",
+      "expected": "Shadow Sneak",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        70
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e53",
+      "move_id": 399,
+      "source_hex": "d0d5d7e9e9e100d1d5ead9ffff",
+      "corpus_en": "en leur honneur.",
+      "comparison_fr": "Onde Vide",
+      "expected": "Vacuum Wave",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        66
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e60",
+      "move_id": 400,
+      "source_hex": "d2aecdd7dde7e7e3e6ffffffff",
+      "corpus_en": "ur.",
+      "comparison_fr": "Plaie Croix",
+      "expected": "X-Scissor",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e6d",
+      "move_id": 401,
+      "source_hex": "d4d9e200c2d9d5d8d6e9e8e8ff",
+      "corpus_en": "",
+      "comparison_fr": "Psykoud'Boul",
+      "expected": "Zen Headbutt",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e7a",
+      "move_id": 402,
+      "source_hex": "cdebdde8d7dcd9e6e3e3ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Passe-Passe",
+      "expected": "Switcheroo",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e87",
+      "move_id": 403,
+      "source_hex": "bee6dde0e000cce9e2ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Tunnelier",
+      "expected": "Drill Run",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41e94",
+      "move_id": 404,
+      "source_hex": "bce9e0e0d8e3eed9ffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Piétisol",
+      "expected": "Bulldoze",
+      "status": "verified_retained",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ea1",
+      "move_id": 405,
+      "source_hex": "bfe0d9d7e8e6e3ebd9d6ffffff",
+      "corpus_en": "",
+      "comparison_fr": "Toile Élek",
+      "expected": "Electroweb",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41eae",
+      "move_id": 406,
+      "source_hex": "c0e0d5e1d900bddcd5e6dbd9ff",
+      "corpus_en": "",
+      "comparison_fr": "Nitrocharge",
+      "expected": "Flame Charge",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        70
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ebb",
+      "move_id": 407,
+      "source_hex": "c0e6e3e7e800bce6d9d5e8dcff",
+      "corpus_en": "",
+      "comparison_fr": "SouffleGlacé",
+      "expected": "Frost Breath",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ec8",
+      "move_id": 408,
+      "source_hex": "c2d9d5e6e800cde8d5e1e4ffff",
+      "corpus_en": "les génèrent un courant\nélectrique lorsqu'ils travaillent. Il\ns'illumine en cas de danger.",
+      "comparison_fr": "Crève-Coeur",
+      "expected": "Heart Stamp",
+      "status": "verified_retained",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ed5",
+      "move_id": 409,
+      "source_hex": "c2e3e2d900bde0d5ebe7ffffff",
+      "corpus_en": "un courant\nélectrique lorsqu'ils travaillent. Il\ns'illumine en cas de danger.",
+      "comparison_fr": "Aiguisage",
+      "expected": "Hone Claws",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41ee2",
+      "move_id": 410,
+      "source_hex": "c2e3e6e200c6d9d9d7dcffffff",
+      "corpus_en": "ectrique lorsqu'ils travaillent. Il\ns'illumine en cas de danger.",
+      "comparison_fr": "Encornebois",
+      "expected": "Horn Leech",
+      "status": "verified_retained",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41eef",
+      "move_id": 411,
+      "source_hex": "bde3dde0ffffffffffffffffff",
+      "corpus_en": "qu'ils travaillent. Il\ns'illumine en cas de danger.",
+      "comparison_fr": "Enroulement",
+      "expected": "Coil",
+      "status": "verified_retained",
+      "encoded_bytes": 5,
+      "line_widths": [
+        21
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41efc",
+      "move_id": 412,
+      "source_hex": "c2e9e6e6ddd7d5e2d9ffffffff",
+      "corpus_en": "llent. Il\ns'illumine en cas de danger.",
+      "comparison_fr": "Vent Violent",
+      "expected": "Hurricane",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41f09",
+      "move_id": 413,
+      "source_hex": "c3d7ddd7e0d900bde6d5e7dcff",
+      "corpus_en": "llumine en cas de danger.",
+      "comparison_fr": "Chute Glace",
+      "expected": "Icicle Crash",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41f16",
+      "move_id": 414,
+      "source_hex": "d1e3e6df00cfe4ffffffffffff",
+      "corpus_en": "s de danger.",
+      "comparison_fr": "Rengorgement",
+      "expected": "Work Up",
+      "status": "verified_retained",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41f23",
+      "move_id": 415,
+      "source_hex": "cbe9ddead9e600bed5e2d7d9ff",
+      "corpus_en": "",
+      "comparison_fr": "Papillodanse",
+      "expected": "Quiver Dance",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41f30",
+      "move_id": 416,
+      "source_hex": "c6d9d5da00cee3e6e2d5d8e3ff",
+      "corpus_en": "",
+      "comparison_fr": "Phytomixeur",
+      "expected": "Leaf Tornado",
+      "status": "verified_retained",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41f3d",
+      "move_id": 417,
+      "source_hex": "c6e3eb00cdebd9d9e4ffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Balayette",
+      "expected": "Low Sweep",
+      "status": "verified_retained",
+      "encoded_bytes": 10,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    },
+    {
+      "offset": "0xa41f4a",
+      "move_id": 418,
+      "source_hex": "cde2d5e6e0ffffffffffffffff",
+      "corpus_en": "",
+      "comparison_fr": "Aboiement",
+      "expected": "Snarl",
+      "status": "verified_retained",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ],
+      "reason": "Nom vivant via la base chargée à 0x308a4 + move_id × 13. F-759 impose le nom anglais exact ; corpus EN périmé (fragments Pokédex ou vide). Aucune traduction ni écriture nécessaire."
+    }
+  ]
+}
