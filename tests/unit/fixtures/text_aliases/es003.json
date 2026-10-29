@@ -31,6 +31,32 @@
         "0x0096DE04",
         "0x0096DF38"
       ]
+    },
+    {
+      "offset": 2587093,
+      "byte_length": 28,
+      "length": 28,
+      "encoding": "pokemon",
+      "raw_bytes": "cae3dde2e8d9d800e7e8e3e2d9e700d8e9db00dde2e8e3fefd00abff",
+      "text": "Pointed stones dug into\n<0xFD> !",
+      "decoded_text": "Pointed stones dug into\n<0xFD> !",
+      "table_offsets": [],
+      "pointer_offsets": [
+        "0x003074B2"
+      ]
+    },
+    {
+      "offset": 2587122,
+      "byte_length": 31,
+      "length": 31,
+      "encoding": "pokemon",
+      "raw_bytes": "fd0000ebd5e700d7d5e9dbdce800dde2fed500e7e8ddd7dfed00ebd9d6abff",
+      "text": "<0xFD>  was caught in\na sticky web!",
+      "decoded_text": "<0xFD>  was caught in\na sticky web!",
+      "table_offsets": [],
+      "pointer_offsets": [
+        "0x00307535"
+      ]
     }
   ],
   "spanish": [
@@ -64,6 +90,32 @@
         "0x0024FB08",
         "0x0096DE04",
         "0x0096DF38"
+      ]
+    },
+    {
+      "offset": 2587093,
+      "byte_length": 23,
+      "length": 23,
+      "encoding": "pokemon",
+      "raw_bytes": "52c6d5e700e427d5e700dcddd9e6d9e2fed500fd00abff",
+      "text": "<0x52>Las púas hieren\na <0xFD> !",
+      "decoded_text": "<0x52>Las púas hieren\na <0xFD> !",
+      "table_offsets": [],
+      "pointer_offsets": [
+        "0x003074B2"
+      ]
+    },
+    {
+      "offset": 2587122,
+      "byte_length": 31,
+      "length": 31,
+      "encoding": "pokemon",
+      "raw_bytes": "fd0000ebd5e700d7d5e9dbdce800dde2fed500e7e8ddd7dfed00ebd9d6abff",
+      "text": "<0xFD>  was caught in\na sticky web!",
+      "decoded_text": "<0xFD>  was caught in\na sticky web!",
+      "table_offsets": [],
+      "pointer_offsets": [
+        "0x00307535"
       ]
     }
   ]

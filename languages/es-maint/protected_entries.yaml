@@ -224,7 +224,7 @@ entries:
   expected: PAREJA JOVEN
 - offset: '0x0023ea2b'
   name: 'ES-003 : 0x0023ea2b'
-  expected: Kin Karate
+  expected: Fam. Karate
 - offset: '0x0023ea38'
   name: 'ES-003 : 0x0023ea38'
   expected: HERMANOS
@@ -654,3 +654,12 @@ entries:
 - offset: '0x0024f3c1'
   name: 'ES-003 : absence de talent, vivant à +3'
   expected: Sin habilidad.
+- offset: '0x0023e7d5'
+  name: 'ES-003 : ancien administrateur Shadows'
+  expected: Exad.Shadows
+- offset: '0x002779d4'
+  name: 'ES-003 : dégâts des pierres, début à +1'
+  expected: '¡Las piedras puntiagudas\nhieren a <0xFD><0x00>!'
+- offset: '0x002779f1'
+  name: 'ES-003 : toile gluante, début à +1'
+  expected: '¡<0xFD><0x00> ha quedado atrapado\nen una red viscosa!'

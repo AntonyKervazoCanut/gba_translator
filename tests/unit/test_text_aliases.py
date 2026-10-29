@@ -18,7 +18,8 @@ def rom_fixture():
     for entry in FIXTURE['english']:
         offset = entry['offset']
         raw = bytes.fromhex(entry['raw_bytes'])
-        prefix = {0x24F210: b'\x00\x00\x00', 0x24F3C4: b'\x05\x00\x00'}.get(offset, b'\xaa')
+        prefix = {0x24F210: b'\x00\x00\x00', 0x24F3C4: b'\x05\x00\x00',
+                  0x2779D5: b'\x00', 0x2779F2: b'\xfe'}.get(offset, b'\xaa')
         rom[offset - len(prefix):offset + len(raw)] = prefix + raw
         for pointer in entry['pointer_offsets']:
             p = int(pointer, 16)
@@ -28,14 +29,17 @@ def rom_fixture():
 
 def test_real_preimages_resolve_ten_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 12
+    assert len(aliases.entries) == 14
     assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
     assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries
     assert aliases.entries[0x17FF49]['live_offset'] == 0x17FF4A
 
 
-@pytest.mark.parametrize('position', [0x17FF49, 0x17FF4A, 0x166CAF])
+@pytest.mark.parametrize('position', [0x17FF49, 0x17FF4A, 0x166CAF,
+                                    0x24F3C1, 0x24F3C4, 0x96DF38,
+                                    0x2779D4, 0x2779D5, 0x3074B2,
+                                    0x2779F1, 0x2779F2, 0x307535])
 def test_changed_prefix_text_or_pointer_is_rejected(position):
     rom = bytearray(rom_fixture())
     rom[position] ^= 1
