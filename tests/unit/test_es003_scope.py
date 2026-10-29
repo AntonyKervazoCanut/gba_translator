@@ -32,3 +32,26 @@ def test_es003_corrects_community_scenario_and_effects():
     assert 'supereficaz' in entries[0x24F607]
     assert 'mitad' in entries[0x3D5598]
     assert '<0xFD><0x0F>' in entries[0x277A12]
+
+
+def test_final_report_accounts_for_every_offset_and_only_translated_keys():
+    lots = json.loads((ROOT / 'docs/analysis/es/lots.json').read_text())
+    contract = {int(o, 16) for lot in lots if lot['id'] == 'ES-003' for o in lot['offsets']}
+    report = json.loads((ROOT / 'docs/analysis/es/003_TRAITEMENT.json').read_text())
+    records = report['entries']
+    offsets = [int(e['offset'], 16) for e in records]
+    assert len(offsets) == len(set(offsets)) == 374
+    assert set(offsets) == contract
+    assert report['counts'] == {'traduit': 221, 'conserve_nom': 17,
+                                'conserve_technique': 78, 'exclu_fragment': 8,
+                                'exclu_binaire': 50}
+    combined = parse_combined(ROOT / 'languages/es-maint/combined_es-maint.txt')
+    assert contract & combined.keys() == {
+        int(e['offset'], 16) for e in records if e['decision'] == 'traduit'
+    }
+    for record in records:
+        assert record['justification']
+        assert record['decision'] in report['counts']
+        if record['decision'] == 'traduit':
+            assert max(record['widths_px_with_ten_wide_glyph_buffers']) <= 192
+            assert record['source_commands'] == record['final_commands']
