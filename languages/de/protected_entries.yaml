@@ -220,7 +220,7 @@ entries:
   expected: 'Große Puppe.\nFür Tisch oder\nTeppich.'
 - offset: '0x457d44'
   name: 'B-686 — pokedex-01 0x457d44'
-  expected: 'Tauschangebot für dein registriertes\nPokémon: Lv. <0xF7><0x00> <0xF7><0x01>\pIm Gegenzug erhältst du:\nLv. <0xF7><0x02> <0xF7><0x03>.\pNimmst du dieses\nTauschangebot an?'
+  expected: 'Registriert:\nLv. <0xF7><0x00> <0xF7><0x01>\pIm Tausch:\nLv. <0xF7><0x02> <0xF7><0x03>.\pAngebot\nannehmen?'
 - offset: '0x459378'
   name: 'B-686 — pokedex-01 0x459378'
   expected: 'Name<0xFC><0x13><0x3C>Gesucht<0xFC><0x13><0x6E>Angebot<0xFC><0x13><0xC6>Lv.'

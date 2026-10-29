@@ -1,0 +1,3041 @@
+{
+  "ticket": "B-686",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "final_sha256": "ff8577533147d34098debfdce44ef5519c185a92e491a391ed97859ff050d5ae",
+  "entries": [
+    {
+      "offset": "0x447800",
+      "de_before": "Bläht sich einer der beiden Smogon\\nauf, entleert sich der andere. Sie\\nvermischen ständig ihre Gase.",
+      "en_corpus": "Il grandit en absorbant les gaz des\ndétritus. Des triplés existent, bien\nqu'ils soient fort rares.",
+      "fr_corpus": "Si l'un des deux Smogo se gonfle,\nl'autre se dégonfle. Ils mélangent\nleurs gaz en permanence.",
+      "de_final_source": "Bläht sich ein Koffing auf, leert\nsich das andere. Sie vermischen\nständig ihre giftigen Gase.",
+      "source_hex": "c3da00e3e2d900e3da00e8dcd900e8ebdde200c5e3dadadde2db00dde2dae0d5e8d9e7b800e8dcd9fee3e8dcd9e600e3e2d900d8d9dae0d5e8d9e7ad00c3e800d7e3e2e7e8d5e2e8e0ed00e1ddecd9e7fedde8e700e4e3dde7e3e2e3e9e700dbd5e7d9e7adff",
+      "references": [
+        "0x1a36754"
+      ],
+      "excluded_raw_matches": [
+        "0x146b64"
+      ],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x1a36754",
+          "target": "0x447800",
+          "hex": "bce0f4dce800e7ddd7dc00d9dde200c5e3dadadde2db00d5e9dab800e0d9d9e6e8fee7ddd7dc00d8d5e700d5e2d8d9e6d9ad00cdddd900ead9e6e1dde7d7dcd9e2fee7e8f4e2d8dddb00dddce6d900dbdddae8dddbd9e200c1d5e7d9adff",
+          "byte_count": 94,
+          "decoded_debug": "Bläht sich ein Koffing auf, leert\nsich das andere. Sie vermischen\nständig ihre giftigen Gase.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Fidélité et budget Pokédex (3 × 232 px).",
+      "national_dex": 110,
+      "species_en": "Weezing"
+    },
+    {
+      "offset": "0x44a0c1",
+      "de_before": "Es lagert Beeren unter seinem\\nPanzer. Sie gären und ergeben\\nköstliche Säfte.",
+      "en_corpus": "Il stocke des Baies sous sa carapace.\nElles fermentent et produisent des jus\ndélicieux.",
+      "fr_corpus": "Il stocke des Baies sous sa\ncarapace. Elles fermentent et\nproduisent des jus délicieux.",
+      "de_final_source": "Es lagert Beeren unter seinem\nPanzer. Sie gären und ergeben\nköstliche Säfte.",
+      "source_hex": "c3e800e7e8e3e6d9e700bcd9e6e6ddd9e700dde2e7ddd8d900dde8e700e7dcd9e0e0adfecedcd900bcd9e6e6ddd9e700d9ead9e2e8e9d5e0e0ed00dad9e6e1d9e2e800e8e3fed6d9d7e3e1d900d8d9e0ddd7dde3e9e700dee9ddd7d9e7adff",
+      "references": [
+        "0x1a375d0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x1a375d0",
+          "target": "0x44a0c1",
+          "hex": "bfe700e0d5dbd9e6e800bcd9d9e6d9e200e9e2e8d9e600e7d9dde2d9e100cad5e2eed9e6adfecdddd900dbf4e6d9e200e9e2d800d9e6dbd9d6d9e200dff5e7e8e0ddd7dcd900cdf4dae8d9adff",
+          "byte_count": 77,
+          "decoded_debug": "Es lagert Beeren unter seinem Panzer.\nSie gären und ergeben köstliche Säfte.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "déjà correct",
+      "motif": "Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets.",
+      "national_dex": 213,
+      "species_en": "Shuckle"
+    },
+    {
+      "offset": "0x44c1f5",
+      "de_before": "Es härtet sich ab, indem es\\nständig gegen dicke Bäume schlägt.\\nSo erhält es einen robusten Körper und einen furchtlosen Geist.",
+      "en_corpus": "Il fortifie son corps en fonçant sur des\narbres épais. Son nid est entouré\nd'arbres abattus.",
+      "fr_corpus": "Il se durcit en frappant sans cesse\ndes arbres épais. Il gagne un corps\nrobuste et un esprit intrépide.",
+      "de_final_source": "Es stählt sich an dicken Bäumen -\ndas verleiht ihm einen robusten\nKörper und furchtlosen Geist.",
+      "source_hex": "c3e800e8e3e9dbdcd9e2e700e9e400d6ed00e7e0d5e1e1dde2db00dde2e8e300e8dcddd7dffee8e6d9d9e700e3ead9e600d5e2d800e3ead9e6ad00c3e800dbd5dde2e700d500e7e8e9e6d8edfed6e3d8ed00d5e2d800d8d5e9e2e8e0d9e7e700e7e4dde6dde8adff",
+      "references": [
+        "0x1a3817c"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x1a3817c",
+          "target": "0xb490c7",
+          "hex": "bfe700e7e8f4dce0e800e7ddd7dc00d5e200d8ddd7dfd9e200bcf4e9e1d9e200aefed8d5e700ead9e6e0d9dddce800dddce100d9dde2d9e200e6e3d6e9e7e8d9e2fec5f5e6e4d9e600e9e2d800dae9e6d7dce8e0e3e7d9e200c1d9dde7e8adff",
+          "byte_count": 96,
+          "decoded_debug": "Es stählt sich an dicken Bäumen -\ndas verleiht ihm einen robusten\nKörper und furchtlosen Geist.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Source alignée sur la curation DE prioritaire déjà injectée, sans modifier cette ressource.",
+      "national_dex": 296,
+      "species_en": "Makuhita"
+    },
+    {
+      "offset": "0x44c5fd",
+      "de_before": "Es beansprucht einen ganzen Berg\\nfür sich. Je mehr Narben es hat,\\ndesto mehr hat es gekämpft – nimm es also nicht auf die leichte Schulter.",
+      "en_corpus": "Il creuse des galeries à travers la\npierre avec ses cornes d'acier pour\ntrouver le fer qu'il apprécie.",
+      "fr_corpus": "Il revendique une montagne entière.\nPlus balafré, plus il a combattu,\nalors ne le prends pas à la légère.",
+      "de_final_source": "Es beansprucht einen ganzen Berg.\nJe mehr Narben es trägt, desto\nmehr Kämpfe hat es bestritten.",
+      "source_hex": "c3e800d7e0d5dde1e700d5e200d9e2e8dde6d900e1e3e9e2e8d5dde200d5e700dde8e700e3ebe2adfecedcd900e1e3e6d900ebe3e9e2d8e700dde800dcd5e7b800e8dcd900e1e3e6d900dde800dcd5e7fed6d5e8e8e0d9d8b800e7e300d8e3e2b4e800e8d5dfd900dde800e0dddbdce8e0edadff",
+      "references": [
+        "0x1a382e4"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x1a382e4",
+          "target": "0x44c5fd",
+          "hex": "bfe700d6d9d5e2e7e4e6e9d7dce800d9dde2d9e200dbd5e2eed9e200bcd9e6dbadfec4d900e1d9dce600c8d5e6d6d9e200d9e700e8e6f4dbe8b800d8d9e7e8e3fee1d9dce600c5f4e1e4dad900dcd5e800d9e700d6d9e7e8e6dde8e8d9e2adff",
+          "byte_count": 96,
+          "decoded_debug": "Es beansprucht einen ganzen Berg.\nJe mehr Narben es trägt, desto\nmehr Kämpfe hat es bestritten.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Source alignée sur la curation DE prioritaire déjà injectée, sans modifier cette ressource.",
+      "national_dex": 306,
+      "species_en": "Aggron"
+    },
+    {
+      "offset": "0x44cad6",
+      "de_before": "Sie stürzen sich auf jeden\\nEindringling. Ihre scharfen Zähne\\nkönnen Schiffsrümpfe aufreißen.",
+      "en_corpus": "",
+      "fr_corpus": "Ils fondent sur tout intrus. Leurs\ncrocs acérés peuvent arracher les\ncoques des bateaux.",
+      "de_final_source": "Sie stürzen sich auf jeden\nEindringling. Ihre scharfen Zähne\nkönnen Schiffsrümpfe aufreißen.",
+      "source_hex": "cedcd9ed00e7ebd5e6e100d5e2ed00dae3d900e8dcd5e800dde2ead5d8d9e700e8dcd9dde6fee8d9e6e6dde8e3e6edad00cedcd9dde600e7dcd5e6e400dad5e2dbe700d7d5e200e8d9d5e6fee3e9e800d6e3d5e800dce9e0e0e7adff",
+      "references": [
+        "0x1a38494"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x1a38494",
+          "target": "0x1fea556",
+          "hex": "cdddd900e7e8f6e6eed9e200e7ddd7dc00d5e9da00ded9d8d9e2febfdde2d8e6dde2dbe0dde2dbad00c3dce6d900e7d7dcd5e6dad9e200d4f4dce2d9fedff5e2e2d9e200cdd7dcdddadae7e6f6e1e4dad900d5e9dae6d9dd15d9e2adff",
+          "byte_count": 93,
+          "decoded_debug": "Sie stürzen sich auf jeden\nEindringling. Ihre scharfen Zähne\nkönnen Schiffsrümpfe aufreißen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "déjà correct",
+      "motif": "Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets.",
+      "national_dex": 318,
+      "species_en": "Carvanha"
+    },
+    {
+      "offset": "0x44d92a",
+      "de_before": "Eine Puppe, die aus Groll\\ndarüber, weggeworfen worden zu\\nsein, zum Pokémon wurde. Sie sucht das Kind, das sie verstieß.",
+      "en_corpus": "",
+      "fr_corpus": "Poupée devenue Pokémon par rancune\nd'avoir été jetée. Elle cherche\nl'enfant qui l'a reniée.",
+      "de_final_source": "Eine weggeworfene Puppe wurde\naus Groll zu diesem Pokémon. Es\nsucht das Kind, das sie verstieß.",
+      "source_hex": "bb00d8e3e0e000e8dcd5e800d6d9d7d5e1d900d500cae3df1be1e3e200e3ead9e600dde8e7fedbe6e9d8dbd900e3da00d6d9dde2db00e8dce6e3ebe200d5ebd5edadfec3e800e7d9d9dfe700e8dcd900d7dcdde0d800ebdce300d8dde7e3ebe2d9d800dde8adff",
+      "references": [
+        "0x1a389a4"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x1a389a4",
+          "target": "0x44d92a",
+          "hex": "bfdde2d900ebd9dbdbd9ebe3e6dad9e2d900cae9e4e4d900ebe9e6d8d9fed5e9e700c1e6e3e0e000eee900d8ddd9e7d9e100cae3df1be1e3e2ad00bfe7fee7e9d7dce800d8d5e700c5dde2d8b800d8d5e700e7ddd900ead9e6e7e8ddd915adff",
+          "byte_count": 96,
+          "decoded_debug": "Eine weggeworfene Puppe wurde\naus Groll zu diesem Pokémon. Es\nsucht das Kind, das sie verstieß.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Source alignée sur la curation DE prioritaire déjà injectée, sans modifier cette ressource.",
+      "national_dex": 354,
+      "species_en": "Banette"
+    },
+    {
+      "offset": "0x44dcc3",
+      "de_before": "Sie schwimmen schlecht und sind\\nschneller, wenn sie rollen. Sind sie\\nglücklich, klatschen sie mit ihren Flossen.",
+      "en_corpus": "Il gagne la côte en roulant sur les\nblocs de glace car sa morphologie n'est\npas adaptée à la nage.",
+      "fr_corpus": "Ils nagent mal et vont plus vite en\nroulant. Quand ils sont heureux, ils\nbattent leurs palmes.",
+      "de_final_source": "Noch schwimmt es schlecht und rollt\nviel schneller. Ist es glücklich,\nklatscht es mit den Flossen.",
+      "source_hex": "cedcd9ed00d7d5e2b4e800e7ebdde100ebd9e0e000edd9e8b800d5e2d800e8dcd9ed00e1e3ead9fee1e9d7dc00dad5e7e8d9e600d6ed00e6e3e0e0dde2dbad00d1dcd9e200e8dcd9edb4e6d9fedcd5e4e4edb800e8dcd9ed00d7e0d5e400dadde2e7adff",
+      "references": [
+        "0x1a38ae8"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x1a38ae8",
+          "target": "0x44dcc3",
+          "hex": "c8e3d7dc00e7d7dcebdde1e1e800d9e700e7d7dce0d9d7dce800e9e2d800e6e3e0e0e8feeaddd9e000e7d7dce2d9e0e0d9e6ad00c3e7e800d9e700dbe0f6d7dfe0ddd7dcb8fedfe0d5e8e7d7dce800d9e700e1dde800d8d9e200c0e0e3e7e7d9e2adff",
+          "byte_count": 99,
+          "decoded_debug": "Noch schwimmt es schlecht und rollt\nviel schneller. Ist es glücklich,\nklatscht es mit den Flossen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Fidélité et budget Pokédex (3 × 232 px).",
+      "national_dex": 363,
+      "species_en": "Spheal"
+    },
+    {
+      "offset": "0x452fcb",
+      "de_before": null,
+      "en_corpus": "ii<0xFD>ÒyziÔzzjÔzzjÔ:iij:izjVkii ",
+      "fr_corpus": "ii{GOOD_LEGENDARY}yziÔzzjÔzzjÔ:iij:izjVkii ",
+      "de_final_source": null,
+      "source_hex": "00ddddfd0dedeedd0feeeede0feeeede0ff0dddddef0ddeeded0dfdddd00ff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          253,
+          13
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x453010",
+      "de_before": null,
+      "en_corpus": "zzjÔyziÔii<0xFD>Òii",
+      "fr_corpus": "zzjÔyziÔii{GOOD_LEGENDARY}ii",
+      "de_final_source": null,
+      "source_hex": "000000000000000000000000eeeede0fedeedd0fddddfd0dddddff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          253,
+          13
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x454284",
+      "de_before": "Ein großer Schreibtisch aus Stahl.\\nStellen Sie Dekorationen\\ndarauf.",
+      "en_corpus": "A large desk made\nof steel. Put some\ndecorations on it.",
+      "fr_corpus": "Un grand bureau en d'acier.\nMettez des décorations\ndessus.",
+      "de_final_source": "Großer Stahltisch.\nFür Dekorationen\nzum Aufstellen.",
+      "source_hex": "bb00e0d5e6dbd900d8d9e7df00e1d5d8d9fee3da00e7e8d9d9e0ad00cae9e800e7e3e1d9fed8d9d7e3e6d5e8dde3e2e700e3e200dde8adff",
+      "references": [
+        "0x455770"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455770",
+          "target": "0x454284",
+          "hex": "c1e6e315d9e600cde8d5dce0e8dde7d7dcadfec0f6e600bed9dfe3e6d5e8dde3e2d9e2feeee9e100bbe9dae7e8d9e0e0d9e2adff",
+          "byte_count": 52,
+          "decoded_debug": "Großer Stahltisch.\nFür Dekorationen\nzum Aufstellen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4542bc",
+      "de_before": "Ein großer Schreibtisch aus Holz.\\nStellen Sie Dekorationen\\ndarauf.",
+      "en_corpus": "A large desk made\nof wood. Put some\ndecorations on it.",
+      "fr_corpus": "Un grand bureau en en bois.\nMettez des décorations\ndessus.",
+      "de_final_source": "Großer Holztisch.\nFür Dekorationen\nzum Aufstellen.",
+      "source_hex": "bb00e0d5e6dbd900d8d9e7df00e1d5d8d9fee3da00ebe3e3d8ad00cae9e800e7e3e1d9fed8d9d7e3e6d5e8dde3e2e700e3e200dde8adff",
+      "references": [
+        "0x455790"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455790",
+          "target": "0x4542bc",
+          "hex": "c1e6e315d9e600c2e3e0eee8dde7d7dcadfec0f6e600bed9dfe3e6d5e8dde3e2d9e2feeee9e100bbe9dae7e8d9e0e0d9e2adff",
+          "byte_count": 51,
+          "decoded_debug": "Großer Holztisch.\nFür Dekorationen\nzum Aufstellen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4542f3",
+      "de_before": "Ein großer Schreibtisch aus\\nBlättern. Stellen Sie Dekorationen\\ndarauf.",
+      "en_corpus": "A large desk made\nof leaves. Put some\ndecorations on it.",
+      "fr_corpus": "Un grand bureau fait de\nfeuilles. Mettez des décorations\ndessus.",
+      "de_final_source": "Großer Blatttisch.\nFür Dekorationen\nzum Aufstellen.",
+      "source_hex": "bb00e0d5e6dbd900d8d9e7df00e1d5d8d9fee3da00e0d9d5ead9e7ad00cae9e800e7e3e1d9fed8d9d7e3e6d5e8dde3e2e700e3e200dde8adff",
+      "references": [
+        "0x4557b0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4557b0",
+          "target": "0x4542f3",
+          "hex": "c1e6e315d9e600bce0d5e8e8e8dde7d7dcadfec0f6e600bed9dfe3e6d5e8dde3e2d9e2feeee9e100bbe9dae7e8d9e0e0d9e2adff",
+          "byte_count": 52,
+          "decoded_debug": "Großer Blatttisch.\nFür Dekorationen\nzum Aufstellen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454398",
+      "de_before": "Ein riesiger Schreibtisch aus Baumstämmen.\\nStellen Sie viele Dekorationen\\ndarauf.",
+      "en_corpus": "A huge desk made\nof logs. Put lots of\ndecorations on it.",
+      "fr_corpus": "Un immense bureau fait de rondins.\nMettez beaucoup de décorations\ndessus.",
+      "de_final_source": "Riesiger Holztisch.\nFür viele\nDekorationen.",
+      "source_hex": "bb00dce9dbd900d8d9e7df00e1d5d8d9fee3da00e0e3dbe7ad00cae9e800e0e3e8e700e3dafed8d9d7e3e6d5e8dde3e2e700e3e200dde8adff",
+      "references": [
+        "0x455810"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455810",
+          "target": "0x454398",
+          "hex": "ccddd9e7dddbd9e600c2e3e0eee8dde7d7dcadfec0f6e600eaddd9e0d9febed9dfe3e6d5e8dde3e2d9e2adff",
+          "byte_count": 44,
+          "decoded_debug": "Riesiger Holztisch.\nFür viele\nDekorationen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454625",
+      "de_before": "Ein gelber Ziegelstein.\\nStellen Sie ein paar Dekorationen\\ndarauf.",
+      "en_corpus": "A yellow-colored\nbrick. Put some\ndecorations on top.",
+      "fr_corpus": "Une brique de couleur jaune.\nMettez quelques décorations\ndessus.",
+      "de_final_source": "Ein gelber Ziegel.\nFür Dekorationen\nzum Aufstellen.",
+      "source_hex": "bb00edd9e0e0e3ebaed7e3e0e3e6d9d8fed6e6ddd7dfad00cae9e800e7e3e1d9fed8d9d7e3e6d5e8dde3e2e700e3e200e8e3e4adff",
+      "references": [
+        "0x455a50"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455a50",
+          "target": "0x454625",
+          "hex": "bfdde200dbd9e0d6d9e600d4ddd9dbd9e0adfec0f6e600bed9dfe3e6d5e8dde3e2d9e2feeee9e100bbe9dae7e8d9e0e0d9e2adff",
+          "byte_count": 52,
+          "decoded_debug": "Ein gelber Ziegel.\nFür Dekorationen\nzum Aufstellen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45465a",
+      "de_before": "Ein blauer Ziegelstein.\\nStellen Sie ein paar Dekorationen\\ndarauf.",
+      "en_corpus": "A blue-colored\nbrick. Put some\ndecorations on top.",
+      "fr_corpus": "Une brique de couleur bleue.\nMettez quelques décorations\ndessus.",
+      "de_final_source": "Ein blauer Ziegel.\nFür Dekorationen\nzum Aufstellen.",
+      "source_hex": "bb00d6e0e9d9aed7e3e0e3e6d9d8fed6e6ddd7dfad00cae9e800e7e3e1d9fed8d9d7e3e6d5e8dde3e2e700e3e200e8e3e4adff",
+      "references": [
+        "0x455a70"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455a70",
+          "target": "0x1b1f66",
+          "hex": "bfdde200d6e0d5e9d9e600d4ddd9dbd9e0adfec0f6e600bed9dfe3e6d5e8dde3e2d9e2feeee9e100bbe9dae7e8d9e0e0d9e2adff",
+          "byte_count": 52,
+          "decoded_debug": "Ein blauer Ziegel.\nFür Dekorationen\nzum Aufstellen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454789",
+      "de_before": "Platzieren Sie es über einem Loch,\\num auf die andere\\nSeite zu gelangen.",
+      "en_corpus": "Place over a hole to\ncross to the other\nside.",
+      "fr_corpus": "Placez-le sur un trou\npour traverser de l'autre\ncôté.",
+      "de_final_source": "Überbrückt Löcher,\num auf die andere\nSeite zu gelangen.",
+      "source_hex": "cae0d5d7d900e3ead9e600d500dce3e0d900e8e3fed7e6e3e7e700e8e300e8dcd900e3e8dcd9e6fee7ddd8d9adff",
+      "references": [
+        "0x455b30"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455b30",
+          "target": "0xeaa348",
+          "hex": "f3d6d9e6d6e6f6d7dfe800c6f5d7dcd9e6b8fee9e100d5e9da00d8ddd900d5e2d8d9e6d9fecdd9dde8d900eee900dbd9e0d5e2dbd9e2adff",
+          "byte_count": 56,
+          "decoded_debug": "Überbrückt Löcher,\num auf die andere\nSeite zu gelangen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4547b7",
+      "de_before": "Verwenden Sie es, um von der\\nPlattform nach unten zu rutschen.",
+      "en_corpus": "Use to slide down\nfrom the platform.",
+      "fr_corpus": "Utilisez pour glisser vers le bas\ndepuis la plate-forme.",
+      "de_final_source": "Zum Herabrutschen\nvon der Plattform.",
+      "source_hex": "cfe7d900e8e300e7e0ddd8d900d8e3ebe2fedae6e3e100e8dcd900e4e0d5e8dae3e6e1adff",
+      "references": [
+        "0x455b50"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455b50",
+          "target": "0x173645",
+          "hex": "d4e9e100c2d9e6d5d6e6e9e8e7d7dcd9e2feeae3e200d8d9e600cae0d5e8e8dae3e6e1adff",
+          "byte_count": 37,
+          "decoded_debug": "Zum Herabrutschen\nvon der Plattform.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454bfd",
+      "de_before": "Ein Teppich mit einem\\nSurf-Motiv. Stellen Sie Gegenstände\\ndarauf.",
+      "en_corpus": "A mat designed with\na Surf image.\nPut items on top.",
+      "fr_corpus": "Un tapis conçu avec une image\nSurf. Placez les objets\ndessus.",
+      "de_final_source": "Surfer-Matte.\nZum Aufstellen\nvon Gegenständen.",
+      "source_hex": "bb00e1d5e800d8d9e7dddbe2d9d800ebdde8dcfed500cde9e6da00dde1d5dbd9adfecae9e800dde8d9e1e700e3e200e8e3e4adff",
+      "references": [
+        "0x455e70"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455e70",
+          "target": "0x454bfd",
+          "hex": "cde9e6dad9e6aec7d5e8e8d9adfed4e9e100bbe9dae7e8d9e0e0d9e2feeae3e200c1d9dbd9e2e7e8f4e2d8d9e2adff",
+          "byte_count": 47,
+          "decoded_debug": "Surfer-Matte.\nZum Aufstellen\nvon Gegenständen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454c31",
+      "de_before": "Ein Teppich mit einem\\nTHUNDER-Motiv. Stellen Sie Gegenstände\\ndarauf.",
+      "en_corpus": "A mat designed with\na THUNDER image.\nPut items on top.",
+      "fr_corpus": "Un tapis conçu avec une image\nTHUNDER. Placez les objets\ndessus.",
+      "de_final_source": "Donner-Matte.\nZum Aufstellen\nvon Gegenständen.",
+      "source_hex": "bb00e1d5e800d8d9e7dddbe2d9d800ebdde8dcfed500cec2cfc8bebfcc00dde1d5dbd9adfecae9e800dde8d9e1e700e3e200e8e3e4adff",
+      "references": [
+        "0x455e90"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455e90",
+          "target": "0x454c31",
+          "hex": "bee3e2e2d9e6aec7d5e8e8d9adfed4e9e100bbe9dae7e8d9e0e0d9e2feeae3e200c1d9dbd9e2e7e8f4e2d8d9e2adff",
+          "byte_count": 47,
+          "decoded_debug": "Donner-Matte.\nZum Aufstellen\nvon Gegenständen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454c68",
+      "de_before": "Ein Teppich mit einem\\nFire BLAST-Motiv. Stellen Sie Gegenstände\\ndarauf.",
+      "en_corpus": "A mat designed with\na Fire BLAST image.\nPut items on top.",
+      "fr_corpus": "Un tapis conçu avec une image\nFire BLAST. Placez les objets\ndessus.",
+      "de_final_source": "Feuersturm-Matte.\nZum Aufstellen\nvon Gegenständen.",
+      "source_hex": "bb00e1d5e800d8d9e7dddbe2d9d800ebdde8dcfed500c0dde6d900bcc6bbcdce00dde1d5dbd9adfecae9e800dde8d9e1e700e3e200e8e3e4adff",
+      "references": [
+        "0x455eb0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455eb0",
+          "target": "0x454c68",
+          "hex": "c0d9e9d9e6e7e8e9e6e1aec7d5e8e8d9adfed4e9e100bbe9dae7e8d9e0e0d9e2feeae3e200c1d9dbd9e2e7e8f4e2d8d9e2adff",
+          "byte_count": 51,
+          "decoded_debug": "Feuersturm-Matte.\nZum Aufstellen\nvon Gegenständen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454ca2",
+      "de_before": "Ein Teppich mit einem\\nPOWDER SNOW-Motiv. Stellen Sie Gegenstände\\ndarauf.",
+      "en_corpus": "A mat with a POWDER\nSNOW image design.\nPut items on top.",
+      "fr_corpus": "Un tapis avec un motif d'image\nPOWDER SNOW. Placez les objets\ndessus.",
+      "de_final_source": "Pulverschnee-Matte.\nZum Aufstellen\nvon Gegenständen.",
+      "source_hex": "bb00e1d5e800ebdde8dc00d500cac9d1bebfccfecdc8c9d100dde1d5dbd900d8d9e7dddbe2adfecae9e800dde8d9e1e700e3e200e8e3e4adff",
+      "references": [
+        "0x455ed0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455ed0",
+          "target": "0x454ca2",
+          "hex": "cae9e0ead9e6e7d7dce2d9d9aec7d5e8e8d9adfed4e9e100bbe9dae7e8d9e0e0d9e2feeae3e200c1d9dbd9e2e7e8f4e2d8d9e2adff",
+          "byte_count": 53,
+          "decoded_debug": "Pulverschnee-Matte.\nZum Aufstellen\nvon Gegenständen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454cdb",
+      "de_before": "Ein Teppich mit einem\\nATTRACT-Motiv. Stellen Sie Gegenstände\\ndarauf.",
+      "en_corpus": "A mat designed with\nan ATTRACT image.\nPut items on top.",
+      "fr_corpus": "Un tapis conçu avec une image\nATTRACT. Placez les objets\ndessus.",
+      "de_final_source": "Anziehung-Matte.\nZum Aufstellen\nvon Gegenständen.",
+      "source_hex": "bb00e1d5e800d8d9e7dddbe2d9d800ebdde8dcfed5e200bbcececcbbbdce00dde1d5dbd9adfecae9e800dde8d9e1e700e3e200e8e3e4adff",
+      "references": [
+        "0x455ef0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455ef0",
+          "target": "0x454cdb",
+          "hex": "bbe2eeddd9dce9e2dbaec7d5e8e8d9adfed4e9e100bbe9dae7e8d9e0e0d9e2feeae3e200c1d9dbd9e2e7e8f4e2d8d9e2adff",
+          "byte_count": 50,
+          "decoded_debug": "Anziehung-Matte.\nZum Aufstellen\nvon Gegenständen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454d13",
+      "de_before": "Ein Teppich mit einem\\nFISSURE-Motiv. Stellen Sie Gegenstände\\ndarauf.",
+      "en_corpus": "A mat designed with\na FISSURE image.\nPut items on top.",
+      "fr_corpus": "Un tapis conçu avec une image\nFISSURE. Placez les objets\ndessus.",
+      "de_final_source": "Geofissur-Matte.\nZum Aufstellen\nvon Gegenständen.",
+      "source_hex": "bb00e1d5e800d8d9e7dddbe2d9d800ebdde8dcfed500c0c3cdcdcfccbf00dde1d5dbd9adfecae9e800dde8d9e1e700e3e200e8e3e4adff",
+      "references": [
+        "0x455f10"
+      ],
+      "excluded_raw_matches": [
+        "0xcba129"
+      ],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455f10",
+          "target": "0x454d13",
+          "hex": "c1d9e3dadde7e7e9e6aec7d5e8e8d9adfed4e9e100bbe9dae7e8d9e0e0d9e2feeae3e200c1d9dbd9e2e7e8f4e2d8d9e2adff",
+          "byte_count": 50,
+          "decoded_debug": "Geofissur-Matte.\nZum Aufstellen\nvon Gegenständen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454d4a",
+      "de_before": "Ein Teppich mit einem\\nSpikes-Motiv. Stellen Sie Gegenstände\\ndarauf.",
+      "en_corpus": "A mat designed with\na Spikes image.\nPut items on top.",
+      "fr_corpus": "Un tapis conçu avec une image\nSpikes. Placez les objets\ndessus.",
+      "de_final_source": "Stachler-Matte.\nZum Aufstellen\nvon Gegenständen.",
+      "source_hex": "bb00e1d5e800d8d9e7dddbe2d9d800ebdde8dcfed500cde4dddfd9e700dde1d5dbd9adfecae9e800dde8d9e1e700e3e200e8e3e4adff",
+      "references": [
+        "0x455f30"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x455f30",
+          "target": "0x454d4a",
+          "hex": "cde8d5d7dce0d9e6aec7d5e8e8d9adfed4e9e100bbe9dae7e8d9e0e0d9e2feeae3e200c1d9dbd9e2e7e8f4e2d8d9e2adff",
+          "byte_count": 49,
+          "decoded_debug": "Stachler-Matte.\nZum Aufstellen\nvon Gegenständen.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454f02",
+      "de_before": "Eine PICHU-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A PICHU doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée PICHU.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Pichu-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cac3bdc2cf00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456090"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456090",
+          "target": "0x454f02",
+          "hex": "caddd7dce9aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Pichu-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454f2d",
+      "de_before": "Eine PIKACHU-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A PIKACHU doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée PIKACHU.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Pikachu-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cac3c5bbbdc2cf00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4560b0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4560b0",
+          "target": "0x454f2d",
+          "hex": "cadddfd5d7dce9aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Pikachu-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454f5a",
+      "de_before": "Eine MARILL-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A MARILL doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée MARILL.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Marill-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00c7bbccc3c6c600d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4560d0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4560d0",
+          "target": "0x454f5a",
+          "hex": "c7d5e6dde0e0aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Marill-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454f86",
+      "de_before": "Eine TOGEPI-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A TOGEPI doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée TOGEPI.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Togepi-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cec9c1bfcac300d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4560f0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4560f0",
+          "target": "0x454f86",
+          "hex": "cee3dbd9e4ddaecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Togepi-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454fb2",
+      "de_before": "Eine FEURIGEL-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A CYNDAQUIL doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée HÉRICENDRE.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Cyndaquil-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00bdd3c8bebbcbcfc3c600d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456110"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456110",
+          "target": "0x454fb2",
+          "hex": "bdede2d8d5e5e9dde0aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 41,
+          "decoded_debug": "Cyndaquil-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x454fe1",
+      "de_before": "Eine ENDIVIE-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A CHIKORITA doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée GERMIGNON.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Chikorita-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00bdc2c3c5c9ccc3cebb00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456130"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456130",
+          "target": "0x454fe1",
+          "hex": "bddcdddfe3e6dde8d5aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 41,
+          "decoded_debug": "Chikorita-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455010",
+      "de_before": "Eine KARNIMANI-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A TOTODILE doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée KAIMINUS.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Totodile-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cec9cec9bec3c6bf00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456150"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456150",
+          "target": "0x455010",
+          "hex": "cee3e8e3d8dde0d9aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 40,
+          "decoded_debug": "Totodile-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45503e",
+      "de_before": "Eine PUMMELUFF-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A JIGGLYPUFF doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée RONDOUDOU.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Jigglypuff-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00c4c3c1c1c6d3cacfc0c000d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456170"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456170",
+          "target": "0x45503e",
+          "hex": "c4dddbdbe0ede4e9dadaaecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 42,
+          "decoded_debug": "Jigglypuff-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45506e",
+      "de_before": "Eine MAUZI-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A MEOWTH doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée MIAOUSS.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Meowth-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00c7bfc9d1cec200d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456190"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456190",
+          "target": "0x45506e",
+          "hex": "c7d9e3ebe8dcaecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Meowth-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45509a",
+      "de_before": "Eine PIEPI-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A CLEFAIRY doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée MÉLOFÉE.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Clefairy-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00bdc6bfc0bbc3ccd300d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4561b0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4561b0",
+          "target": "0x45509a",
+          "hex": "bde0d9dad5dde6edaecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 40,
+          "decoded_debug": "Clefairy-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4550c8",
+      "de_before": "Eine Ditto-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A Ditto doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée Idem.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Ditto-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00bedde8e8e300d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4561d0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4561d0",
+          "target": "0x4550c8",
+          "hex": "bedde8e8e3aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Ditto-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4550f3",
+      "de_before": "Eine LIEBISKUS-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A SMOOCHUM doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée LIPPOUTI.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Smoochum-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cdc7c9c9bdc2cfc700d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4561f0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4561f0",
+          "target": "0x4550f3",
+          "hex": "cde1e3e3d7dce9e1aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 40,
+          "decoded_debug": "Smoochum-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455121",
+      "de_before": "Eine GECKARBOR-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A TREECKO doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée ARCKO.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Treecko-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00ceccbfbfbdc5c900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456210"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456210",
+          "target": "0x455121",
+          "hex": "cee6d9d9d7dfe3aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Treecko-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45514e",
+      "de_before": "Eine FLEMMLI-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A TORCHIC doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée POUSSIFEU.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Torchic-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cec9ccbdc2c3bd00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456230"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456230",
+          "target": "0x45514e",
+          "hex": "cee3e6d7dcddd7aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Torchic-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45517b",
+      "de_before": "Eine HYDROPI-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A MUDKIP doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée GOBOU.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Mudkip-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00c7cfbec5c3ca00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456250"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456250",
+          "target": "0x45517b",
+          "hex": "c7e9d8dfdde4aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Mudkip-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4551a7",
+      "de_before": "Eine TRAUNFUGIL-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A DUSKULL doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée SKELÉNOX.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Duskull-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00becfcdc5cfc6c600d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456270"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456270",
+          "target": "0x4551a7",
+          "hex": "bee9e7dfe9e0e0aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Duskull-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4551d4",
+      "de_before": "Eine CHATOLL-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A WYNAUT doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée OKÉOKÉ.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Wynaut-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00d1d3c8bbcfce00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456290"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456290",
+          "target": "0x4551d4",
+          "hex": "d1ede2d5e9e8aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Wynaut-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455200",
+      "de_before": "Eine WAILMER-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A BALTOY doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée BALBUTO.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Baltoy-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00bcbbc6cec9d300d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4562b0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4562b0",
+          "target": "0x455200",
+          "hex": "bcd5e0e8e3edaecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Baltoy-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45522c",
+      "de_before": "Eine KECLEON-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A KECLEON doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée KECLEON.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Kecleon-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00c5bfbdc6bfc9c800d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4562d0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4562d0",
+          "target": "0x45522c",
+          "hex": "c5d9d7e0d9e3e2aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Kecleon-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455259",
+      "de_before": "Eine AZURILL-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "An AZURILL doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée AZURILL.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Azurill-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bbe200bbd4cfccc3c6c600d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4562f0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4562f0",
+          "target": "0x455259",
+          "hex": "bbeee9e6dde0e0aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Azurill-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455287",
+      "de_before": "Eine PANTIMOS-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A SKITTY doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée SKITTY.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Skitty-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cdc5c3ceced300d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456310"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456310",
+          "target": "0x455287",
+          "hex": "cddfdde8e8edaecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Skitty-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4552b3",
+      "de_before": "Eine WABLU-Puppe.\\nStellen Sie sie auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A SWABLU doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée TYLTON.\nPlacez-la sur un tapis ou\nun bureau.",
+      "de_final_source": "Swablu-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cdd1bbbcc6cf00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456330"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456330",
+          "target": "0x4552b3",
+          "hex": "cdebd5d6e0e9aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Swablu-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4552df",
+      "de_before": "Eine SCHLUPPUCK-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A GULPIN doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée GLOUPTI.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Gulpin-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00c1cfc6cac3c800d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456350"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456350",
+          "target": "0x4552df",
+          "hex": "c1e9e0e4dde2aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Gulpin-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45530b",
+      "de_before": "Eine LOTAD-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A LOTAD doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée NÉNUPIOT.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Lotad-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00c6c9cebbbe00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456370"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456370",
+          "target": "0x45530b",
+          "hex": "c6e3e8d5d8aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Lotad-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455336",
+      "de_before": "Eine KIKUGI-Puppe.\\nStellen Sie sie auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A SeedOT doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une poupée Grainipiot.\nPlacez-la sur un tapis ou un\nbureau.",
+      "de_final_source": "Seedot-Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cdd9d9d8c9ce00d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456390"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456390",
+          "target": "0x455336",
+          "hex": "cdd9d9d8e3e8aecae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Seedot-Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455362",
+      "de_before": "Ein PIKACHU-Kissen.\\nStellen Sie es auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A PIKACHU cushion.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Un coussin PIKACHU.\nPlacez-le sur un tapis ou un\nbureau.",
+      "de_final_source": "Pikachu-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cac3c5bbbdc2cf00d7e9e7dcdde3e2adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4563b0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4563b0",
+          "target": "0x455362",
+          "hex": "cadddfd5d7dce9aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 40,
+          "decoded_debug": "Pikachu-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455392",
+      "de_before": "Ein MARILL-Kissen.\\nStellen Sie es auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A MARILL cushion.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Un coussin MARILL.\nPlacez-le sur un tapis ou\nun bureau.",
+      "de_final_source": "Marill-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00c7bbccc3c6c600d7e9e7dcdde3e2adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4563d0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4563d0",
+          "target": "0x455392",
+          "hex": "c7d5e6dde0e0aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Marill-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4553c1",
+      "de_before": "Ein LIEBISKUS-Kissen .\\nStellen Sie es auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A SMOOCHUM\ncushion. Place it on\na mat or a desk.",
+      "fr_corpus": "Un coussin LIPPOUTI .\nPlacez-le sur un tapis ou un\nbureau.",
+      "de_final_source": "Smoochum-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cdc7c9c9bdc2cfc7fed7e9e7dcdde3e2ad00cae0d5d7d900dde800e3e2fed500e1d5e800e3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4563f0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4563f0",
+          "target": "0x4553c1",
+          "hex": "cde1e3e3d7dce9e1aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 41,
+          "decoded_debug": "Smoochum-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4553f2",
+      "de_before": "Ein ZIGZAGOON-Kissen .\\nStellen Sie es auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A ZIGZAGOON\ncushion. Place it on\na mat or a desk.",
+      "fr_corpus": "Un coussin ZIGZATON .\nPlacez-le sur un tapis ou un\nbureau.",
+      "de_final_source": "Zigzagoon-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00d4c3c1d4bbc1c9c9c8fed7e9e7dcdde3e2ad00cae0d5d7d900dde800e3e2fed500e1d5e800e3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456410"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456410",
+          "target": "0x4553f2",
+          "hex": "d4dddbeed5dbe3e3e2aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 42,
+          "decoded_debug": "Zigzagoon-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455424",
+      "de_before": "Ein SPINDA-Kissen.\\nStellen Sie es auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A SPINDA cushion.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Un coussin SPINDA.\nPlacez-le sur un tapis ou\nun bureau.",
+      "de_final_source": "Spinda-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cdcac3c8bebb00d7e9e7dcdde3e2adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456430"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456430",
+          "target": "0x455424",
+          "hex": "cde4dde2d8d5aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Spinda-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455453",
+      "de_before": "Ein BANETTE-Kissen.\\nStellen Sie es auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A SABLEYE cushion.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Un coussin TÉNÉFIX.\nPlacez-le sur un tapis ou un\nbureau.",
+      "de_final_source": "Sableye-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00cdbbbcc6bfd3bf00d7e9e7dcdde3e2adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456450"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456450",
+          "target": "0x455453",
+          "hex": "cdd5d6e0d9edd9aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 40,
+          "decoded_debug": "Sableye-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455483",
+      "de_before": "Ein Ball-Kissen.\\nStellen Sie es auf einen Teppich oder\\neinen Schreibtisch.",
+      "en_corpus": "A Ball cushion.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Un coussin Ball.\nPlacez-le sur un tapis ou\nun bureau.",
+      "de_final_source": "Ball-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00bcd5e0e000d7e9e7dcdde3e2adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456470"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456470",
+          "target": "0x455483",
+          "hex": "bcd5e0e0aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Ball-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4554b0",
+      "de_before": "Ein Kissen mit Gras-Motiv.\\nStellen Sie es auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A grass-mark\ncushion. Place it on\na mat or a desk.",
+      "fr_corpus": "Un coussin de marque d'herbe.\nPlacez-le sur un tapis ou un\nbureau.",
+      "de_final_source": "Gras-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00dbe6d5e7e7aee1d5e6dffed7e9e7dcdde3e2ad00cae0d5d7d900dde800e3e2fed500e1d5e800e3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456490"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456490",
+          "target": "0x4554b0",
+          "hex": "c1e6d5e7aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Gras-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4554e3",
+      "de_before": "Ein Kissen mit Feuer-Motiv .\\nStellen Sie es auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A fire-mark\ncushion. Place it on\na mat or a desk.",
+      "fr_corpus": "Un coussin fire-mark .\nPlacez-le sur un tapis ou un\nbureau.",
+      "de_final_source": "Feuer-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00dadde6d9aee1d5e6dffed7e9e7dcdde3e2ad00cae0d5d7d900dde800e3e2fed500e1d5e800e3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4564b0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4564b0",
+          "target": "0x4554e3",
+          "hex": "c0d9e9d9e6aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 38,
+          "decoded_debug": "Feuer-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455515",
+      "de_before": "Ein Kissen mit Filigranmuster .\\nStellen Sie es auf einen Teppich oder einen\\nSchreibtisch.",
+      "en_corpus": "A water-mark\ncushion. Place it on\na mat or a desk.",
+      "fr_corpus": "Un coussin filigrane .\nPlacez-le sur un tapis ou un\nbureau.",
+      "de_final_source": "Wasser-Kissen.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00ebd5e8d9e6aee1d5e6dffed7e9e7dcdde3e2ad00cae0d5d7d900dde800e3e2fed500e1d5e800e3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4564d0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4564d0",
+          "target": "0x455515",
+          "hex": "d1d5e7e7d9e6aec5dde7e7d9e2adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 39,
+          "decoded_debug": "Wasser-Kissen.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455548",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4564f0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4564f0",
+          "target": "0x455548",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455573",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456510"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456510",
+          "target": "0x455573",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45559e",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456530"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456530",
+          "target": "0x45559e",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4555c9",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456550"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456550",
+          "target": "0x4555c9",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4555f4",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456570"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456570",
+          "target": "0x4555f4",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45561f",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456590"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456590",
+          "target": "0x45561f",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x45564a",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4565b0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4565b0",
+          "target": "0x45564a",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x455675",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4565d0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4565d0",
+          "target": "0x455675",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4556a0",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x4565f0"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x4565f0",
+          "target": "0x4556a0",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4556cb",
+      "de_before": "Eine große Puppe. Stellen Sie sie\\nauf einen Teppich oder auf einen\\nSchreibtisch.",
+      "en_corpus": "A large doll.\nPlace it on a mat\nor a desk.",
+      "fr_corpus": "Une grande poupée. Placez-la\nsur un tapis ou sur un\nbureau.",
+      "de_final_source": "Große Puppe.\nFür Tisch oder\nTeppich.",
+      "source_hex": "bb00e0d5e6dbd900d8e3e0e0adfecae0d5d7d900dde800e3e200d500e1d5e8fee3e600d500d8d9e7dfadff",
+      "references": [
+        "0x456610"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x456610",
+          "target": "0x4556cb",
+          "hex": "c1e6e315d900cae9e4e4d9adfec0f6e600cedde7d7dc00e3d8d9e6feced9e4e4ddd7dcadff",
+          "byte_count": 37,
+          "decoded_debug": "Große Puppe.\nFür Tisch oder\nTeppich.",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Décoration : sens, espèce EN conservée, registre nominal et 3 lignes courtes."
+    },
+    {
+      "offset": "0x4566c8",
+      "de_before": null,
+      "en_corpus": "iiiiiiiiRRRR",
+      "fr_corpus": "iiiiiiiiRRRR",
+      "de_final_source": null,
+      "source_hex": "ddddddddddddddddccccccccff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x4566e8",
+      "de_before": null,
+      "en_corpus": "iiiiiiiiRRRR",
+      "fr_corpus": "iiiiiiiiRRRR",
+      "de_final_source": null,
+      "source_hex": "ddddddddddddddddccccccccff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x456708",
+      "de_before": null,
+      "en_corpus": "iiiiiiiiRRRR",
+      "fr_corpus": "iiiiiiiiRRRR",
+      "de_final_source": null,
+      "source_hex": "ddddddddddddddddccccccccff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x456728",
+      "de_before": null,
+      "en_corpus": "iiiiiiiiRRRR",
+      "fr_corpus": "iiiiiiiiRRRR",
+      "de_final_source": null,
+      "source_hex": "ddddddddddddddddccccccccff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x45687c",
+      "de_before": null,
+      "en_corpus": "zzzziiiiiiii",
+      "fr_corpus": "zzzziiiiiiii",
+      "de_final_source": null,
+      "source_hex": "eeeeeeeeddddddddddddddddff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x45689c",
+      "de_before": null,
+      "en_corpus": "zzzziiiiiiii",
+      "fr_corpus": "zzzziiiiiiii",
+      "de_final_source": null,
+      "source_hex": "eeeeeeeeddddddddddddddddff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x4568bc",
+      "de_before": null,
+      "en_corpus": "zzzziiiiiiii",
+      "fr_corpus": "zzzziiiiiiii",
+      "de_final_source": null,
+      "source_hex": "eeeeeeeeddddddddddddddddff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x4568dc",
+      "de_before": null,
+      "en_corpus": "zzzziiiiiiii",
+      "fr_corpus": "zzzziiiiiiii",
+      "de_final_source": null,
+      "source_hex": "eeeeeeeeddddddddddddddddff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Données graphiques répétitives, pas une phrase : ne pas injecter."
+    },
+    {
+      "offset": "0x4571b7",
+      "de_before": "Beginnen Sie von vorne.",
+      "en_corpus": "Please start over from the beginning.",
+      "fr_corpus": "Recommencez depuis le début.",
+      "de_final_source": "Beginnen Sie von vorne.",
+      "source_hex": "00cae0d9d5e7d900e7e8d5e6e800e3ead9e600dae6e3e100e8dcd900d6d9dbdde2e2dde2dbadff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x4571b8",
+        "references": [
+          "0x117e44",
+          "0x118264"
+        ],
+        "de_source": "Beginne von vorne."
+      }
+    },
+    {
+      "offset": "0x45749d",
+      "de_before": "{STR_VAR_2} hat Sie kontaktiert für\\n{STR_VAR_1}. Annehmen?",
+      "en_corpus": "<0xFD>Â contacted you for\n<0xFD>Á. Accept?",
+      "fr_corpus": "{STR_VAR_2} vous a contacté pour\n{STR_VAR_1}. Accepter?",
+      "de_final_source": "{STR_VAR_2} hat Sie kontaktiert für\n{STR_VAR_1}. Annehmen?",
+      "source_hex": "000000fd0300d7e3e2e8d5d7e8d9d800ede3e900dae3e6fefd02ad00bbd7d7d9e4e8acff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          253,
+          3
+        ],
+        [
+          253,
+          2
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x4574a0",
+        "references": [
+          "0x1162bc"
+        ],
+        "de_source": "<0xFD><0x03> kontaktiert dich für\n<0xFD><0x02>. Annehmen ?"
+      }
+    },
+    {
+      "offset": "0x4574c1",
+      "de_before": "{STR_VAR_2} hat Sie kontaktiert.\\nMöchten Sie {STR_VAR_1} teilen?",
+      "en_corpus": "<0xFD>Â contacted you.\nWill you share <0xFD>Á?",
+      "fr_corpus": "{STR_VAR_2} vous a contacté.\nVoulez-vous partager {STR_VAR_1} ?",
+      "de_final_source": "{STR_VAR_2} hat Sie kontaktiert.\nMöchten Sie {STR_VAR_1} teilen?",
+      "source_hex": "000000fd0300d7e3e2e8d5d7e8d9d800ede3e9adfed1dde0e000ede3e900e7dcd5e6d900fd02acff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          253,
+          3
+        ],
+        [
+          253,
+          2
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x4574c4",
+        "references": [
+          "0x1162cc"
+        ],
+        "de_source": "<0xFD><0x03> hat dich kontaktiert.\nMöchtest du <0xFD><0x02> teilen ?"
+      }
+    },
+    {
+      "offset": "0x4574e9",
+      "de_before": "{STR_VAR_2} hat Sie kontaktiert. Zu den\\nMitgliedern hinzufügen?",
+      "en_corpus": "<0xFD>Â contacted you.\nAdd to the members?",
+      "fr_corpus": "{STR_VAR_2} vous a contacté. Ajouter\naux membres ?",
+      "de_final_source": "{STR_VAR_2} hat Sie kontaktiert. Zu den\nMitgliedern hinzufügen?",
+      "source_hex": "000000fd0300d7e3e2e8d5d7e8d9d800ede3e9adfebbd8d800e8e300e8dcd900e1d9e1d6d9e6e7acff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          253,
+          3
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x4574ec",
+        "references": [
+          "0x1162dc"
+        ],
+        "de_source": "<0xFD><0x03> hat dich kontaktiert.\nZu den Mitgliedern hinzufügen ?"
+      }
+    },
+    {
+      "offset": "0x4577b9",
+      "de_before": null,
+      "en_corpus": "The WIRELESS COMMUNICATION\nSYSTEM link has been dropped\"",
+      "fr_corpus": null,
+      "de_final_source": null,
+      "source_hex": "000000cedcd900d1c3ccbfc6bfcdcd00bdc9c7c7cfc8c3bdbbcec3c9c8fecdd3cdcebfc700e0dde2df00dcd5e700d6d9d9e200d8e6e3e4e4d9d8b0ff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x4577bc",
+        "references": [
+          "0x1185a4"
+        ],
+        "de_source": "Die Verbindung per KABELLOSER\nKOMMUNIKATION wurde unterbrochen<0xB0>"
+      }
+    },
+    {
+      "offset": "0x4577f5",
+      "de_before": null,
+      "en_corpus": "The link with your friend has been\ndropped\"",
+      "fr_corpus": null,
+      "de_final_source": null,
+      "source_hex": "000000cedcd900e0dde2df00ebdde8dc00ede3e9e600dae6ddd9e2d800dcd5e700d6d9d9e2fed8e6e3e4e4d9d8b0ff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x4577f8",
+        "references": [
+          "0x117c08",
+          "0x45783c",
+          "0x457840"
+        ],
+        "de_source": "Die Verbindung zu deinem Freund\nwurde unterbrochen<0xB0>"
+      }
+    },
+    {
+      "offset": "0x457950",
+      "de_before": "Verbindung mit <0xFD><0x02><0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.\\n<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.",
+      "en_corpus": "Communicating with <0xFD>Á<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.\n<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.",
+      "fr_corpus": "Communication avec <0xFD><0x02><0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.\n<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.",
+      "de_final_source": "Verbindung mit <0xFD><0x02><0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.\n<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.",
+      "source_hex": "bde3e1e1e9e2ddd7d5e8dde2db00ebdde8dc00fd02fc080fadfc080fadfc080fadfefc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadff",
+      "references": [
+        "0x457a38"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          253,
+          2
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ]
+      ],
+      "final": [
+        {
+          "ref": "0x457a38",
+          "target": "0x457950",
+          "hex": "d0d9e6d6dde2d8e9e2db00e1dde800fd02fc080fadfc080fadfc080fadfefc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadff",
+          "byte_count": 103,
+          "decoded_debug": "Verbindung mit ?Á?ËÔ.?ËÔ.?ËÔ.\n?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.",
+          "controls": [
+            [
+              253,
+              2
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ]
+          ],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "déjà correct",
+      "motif": "Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets."
+    },
+    {
+      "offset": "0x4579bc",
+      "de_before": "Warte einen Moment<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.\\n<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.",
+      "en_corpus": "Please wait a while<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.\n<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.<0xFC>ËÔ.",
+      "fr_corpus": "Patiente un instant<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.\n<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.",
+      "de_final_source": "Warte einen Moment<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.\n<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.<0xFC><0x08><0x0F>.",
+      "source_hex": "cae0d9d5e7d900ebd5dde800d500ebdcdde0d9fc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfefc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadff",
+      "references": [
+        "0x457a3c"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ],
+        [
+          252,
+          8,
+          15
+        ]
+      ],
+      "final": [
+        {
+          "ref": "0x457a3c",
+          "target": "0x4579bc",
+          "hex": "d1d5e6e8d900d9dde2d9e200c7e3e1d9e2e8fc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfefc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadff",
+          "byte_count": 116,
+          "decoded_debug": "Warte einen Moment?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.\n?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.?ËÔ.",
+          "controls": [
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ],
+            [
+              252,
+              8,
+              15
+            ]
+          ],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "déjà correct",
+      "motif": "Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets."
+    },
+    {
+      "offset": "0x457a70",
+      "de_before": "Hallo! Möchten Sie etwas\\nunternehmen?",
+      "en_corpus": "Hello!\nWould you like to do something?",
+      "fr_corpus": "Bonjour ! Voulez-vous faire quelque\nchose ?",
+      "de_final_source": "Hallo! Möchten Sie etwas\nunternehmen?",
+      "source_hex": "c2d9e0e0e3abfed1e3e9e0d800ede3e900e0dddfd900e8e300d8e300e7e3e1d9e8dcdde2dbacff",
+      "references": [
+        "0x457b08"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [
+        {
+          "ref": "0x457b08",
+          "target": "0x457a70",
+          "hex": "c2d5e0e0e3ab00c7f5d7dce8d9e200cdddd900d9e8ebd5e7fee9e2e8d9e6e2d9dce1d9e2acff",
+          "byte_count": 38,
+          "decoded_debug": "Hallo! Möchten Sie etwas\nunternehmen?",
+          "controls": [],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "déjà correct",
+      "motif": "Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets."
+    },
+    {
+      "offset": "0x457b2a",
+      "de_before": "Möchten Sie etwas unternehmen?",
+      "en_corpus": "Would you like to do something?",
+      "fr_corpus": "Aimeriez-vous faire quelque chose ?",
+      "de_final_source": "Möchten Sie etwas unternehmen?",
+      "source_hex": "0000d1e3e9e0d800ede3e900e0dddfd900e8e300d8e300e7e3e1d9e8dcdde2dbacff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x457b2c",
+        "references": [
+          "0x457b84"
+        ],
+        "de_source": "Möchtest du etwas unternehmen?"
+      }
+    },
+    {
+      "offset": "0x457b4c",
+      "de_before": "{STR_VAR_1} : Was möchten Sie jetzt\\ntun?",
+      "en_corpus": "<0xFD>Á: What would you like to\ndo now?",
+      "fr_corpus": "{STR_VAR_1} : Qu'aimeriez-vous faire\nmaintenant ?",
+      "de_final_source": "{STR_VAR_1} : Was möchten Sie jetzt\ntun?",
+      "source_hex": "fd02f000d1dcd5e800ebe3e9e0d800ede3e900e0dddfd900e8e3fed8e300e2e3ebacff",
+      "references": [
+        "0x457b88",
+        "0x457b8c"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          253,
+          2
+        ]
+      ],
+      "final": [
+        {
+          "ref": "0x457b88",
+          "target": "0x457b4c",
+          "hex": "fd0200f000d1d5e7fee1f5d7dce8d9e200cdddd900ded9e8eee800e8e9e2acff",
+          "byte_count": 32,
+          "decoded_debug": "?Á : Was\nmöchten Sie jetzt tun?",
+          "controls": [
+            [
+              253,
+              2
+            ]
+          ],
+          "controls_match_source": true
+        },
+        {
+          "ref": "0x457b8c",
+          "target": "0x457b4c",
+          "hex": "fd0200f000d1d5e7fee1f5d7dce8d9e200cdddd900ded9e8eee800e8e9e2acff",
+          "byte_count": 32,
+          "decoded_debug": "?Á : Was\nmöchten Sie jetzt tun?",
+          "controls": [
+            [
+              253,
+              2
+            ]
+          ],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "déjà correct",
+      "motif": "Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets."
+    },
+    {
+      "offset": "0x457d44",
+      "de_before": "Man bietet dir an, dein\\nregistriertes {DYNAMIC} Lv. {DYNAMIC} zu tauschen.\\pGegen ein {DYNAMIC} Lv.\\n{DYNAMIC}.\\pNimmst du dieses\\nTauschangebot an?",
+      "en_corpus": "There is an offer to trade your\nregistered Lv. <0xF7>  <0xF7>À<0xFB>in exchange for a\nLv. <0xF7>Á <0xF7>Â.<0xFB>Will you accept this trade\noffer?",
+      "fr_corpus": "On te propose d'échanger ton\n{DYNAMIC} N.{DYNAMIC} enregistré.<0xFB>Contre un {DYNAMIC} N.\n{DYNAMIC}.<0xFB>Acceptes-tu cette offre\nd'échange ?",
+      "de_final_source": "Tauschangebot für dein registriertes\nPokémon: Lv. <0xF7><0x00> <0xF7><0x01><0xFB>Im Gegenzug erhältst du:\nLv. <0xF7><0x02> <0xF7><0x03>.<0xFB>Nimmst du dieses\nTauschangebot an?",
+      "source_hex": "cedcd9e6d900dde700d5e200e3dadad9e600e8e300e8e6d5d8d900ede3e9e6fee6d9dbdde7e8d9e6d9d800c6eaad00f70000f701fbdde200d9ecd7dcd5e2dbd900dae3e600d5fec6eaad00f70200f703adfbd1dde0e000ede3e900d5d7d7d9e4e800e8dcdde700e8e6d5d8d9fee3dadad9e6acff",
+      "references": [
+        "0x11b074",
+        "0x457e84"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          247,
+          0
+        ],
+        [
+          247,
+          1
+        ],
+        [
+          251
+        ],
+        [
+          247,
+          2
+        ],
+        [
+          247,
+          3
+        ],
+        [
+          251
+        ]
+      ],
+      "final": [
+        {
+          "ref": "0x11b074",
+          "target": "0x179244",
+          "hex": "ced5e9e7d7dcd5e2dbd9d6e3e800daf6e600d8d9dde2fee6d9dbdde7e8e6ddd9e6e8d9e700cae3df1be1e3e2f000c6eaad00f70000f701fbc3e100c1d9dbd9e2eee9db00d9e6dcf4e0e8e7e800d8e9f000c6eaad00f70200f703adfbc8dde1e1e7e800d8e900d8ddd9e7d9e700ced5e9e7d7dcd5e2dbd9d6e3e800d5e2acff",
+          "byte_count": 127,
+          "decoded_debug": "Tauschangebot für dein\nregistriertes Pokémon: Lv. ?  ?À?Im Gegenzug erhältst du: Lv. ?Á ?Â.?Nimmst du dieses Tauschangebot an?",
+          "controls": [
+            [
+              247,
+              0
+            ],
+            [
+              247,
+              1
+            ],
+            [
+              251
+            ],
+            [
+              247,
+              2
+            ],
+            [
+              247,
+              3
+            ],
+            [
+              251
+            ]
+          ],
+          "controls_match_source": true
+        },
+        {
+          "ref": "0x457e84",
+          "target": "0x179244",
+          "hex": "ced5e9e7d7dcd5e2dbd9d6e3e800daf6e600d8d9dde2fee6d9dbdde7e8e6ddd9e6e8d9e700cae3df1be1e3e2f000c6eaad00f70000f701fbc3e100c1d9dbd9e2eee9db00d9e6dcf4e0e8e7e800d8e9f000c6eaad00f70200f703adfbc8dde1e1e7e800d8e900d8ddd9e7d9e700ced5e9e7d7dcd5e2dbd9d6e3e800d5e2acff",
+          "byte_count": 127,
+          "decoded_debug": "Tauschangebot für dein\nregistriertes Pokémon: Lv. ?  ?À?Im Gegenzug erhältst du: Lv. ?Á ?Â.?Nimmst du dieses Tauschangebot an?",
+          "controls": [
+            [
+              247,
+              0
+            ],
+            [
+              247,
+              1
+            ],
+            [
+              251
+            ],
+            [
+              247,
+              2
+            ],
+            [
+              247,
+              3
+            ],
+            [
+              251
+            ]
+          ],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "Échange Salle Union : niveau avant espèce ; quatre buffers F7 00/01/02/03, dans l’ordre canonique."
+    },
+    {
+      "offset": "0x457e28",
+      "de_before": "Sie haben das Angebot abgelehnt.\\p",
+      "en_corpus": "You declined the offer.<0xFB>",
+      "fr_corpus": "Vous avez décliné l'offre.<0xFB>",
+      "de_final_source": "Sie haben das Angebot abgelehnt.<0xFB>",
+      "source_hex": "d3e3e900d8d9d7e0dde2d9d800e8dcd900e3dadad9e6adfbff",
+      "references": [
+        "0x116308"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          251
+        ]
+      ],
+      "final": [
+        {
+          "ref": "0x116308",
+          "target": "0x16f5c7",
+          "hex": "cdddd900dcd5d6d9e200d8d5e700bbe2dbd9d6e3e800d5d6dbd9e0d9dce2e8adfbff",
+          "byte_count": 34,
+          "decoded_debug": "Sie haben das Angebot abgelehnt.?",
+          "controls": [
+            [
+              251
+            ]
+          ],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "déjà correct",
+      "motif": "Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets."
+    },
+    {
+      "offset": "0x457e41",
+      "de_before": "Sie haben das Angebot abgelehnt.\\p",
+      "en_corpus": "You declined the offer.<0xFB>",
+      "fr_corpus": "Vous avez décliné l'offre.<0xFB>",
+      "de_final_source": "Sie haben das Angebot abgelehnt.<0xFB>",
+      "source_hex": "000000d3e3e900d8d9d7e0dde2d9d800e8dcd900e3dadad9e6adfbff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          251
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x457e44",
+        "references": [
+          "0x116318"
+        ],
+        "de_source": "Du hast das Angebot abgelehnt.<0xFB>"
+      }
+    },
+    {
+      "offset": "0x458fc6",
+      "de_before": "{DPAD_UPDOWN}Wählen  {SE_SHOP}Beitreten  {B_BUTTON}Zurück",
+      "en_corpus": "<0xF8><0x0A>Choose  <0xF8> Join  <0xF8>ÀCancel",
+      "fr_corpus": "{DPAD_UPDOWN}Choisir  {SE_SHOP}Rejoindre  {B_BUTTON}Annuler",
+      "de_final_source": "{DPAD_UPDOWN}Wählen  {SE_SHOP}Beitreten  {B_BUTTON}Zurück",
+      "source_hex": "0000f80abddce3e3e7d90000f800c4e3dde20000f801bdd5e2d7d9e0ff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          248,
+          10
+        ],
+        [
+          248,
+          0
+        ],
+        [
+          248,
+          1
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici. Aide de touches vivante hors lot : besoin de correction distincte à qualifier, aucun patch ici.",
+      "voisin_vivant": {
+        "offset": "0x458fc8",
+        "references": [
+          "0x1168f8"
+        ],
+        "de_source": null
+      }
+    },
+    {
+      "offset": "0x45934b",
+      "de_before": "Chat",
+      "en_corpus": "Chat",
+      "fr_corpus": "Chat",
+      "de_final_source": "Chat",
+      "source_hex": "00bddcd5e8ff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici. Chat est un terme courant allemand légitime.",
+      "voisin_vivant": {
+        "offset": "0x45934c",
+        "references": [
+          "0x456e0c"
+        ],
+        "de_source": null
+      }
+    },
+    {
+      "offset": "0x459378",
+      "de_before": null,
+      "en_corpus": null,
+      "fr_corpus": "Nom{CLEAR_TO}Souhaité{CLEAR_TO}Offre{CLEAR_TO}N.",
+      "de_final_source": "Name<0xFC><0x13><0x3C>Gesucht<0xFC><0x13><0x6E>Angebot<0xFC><0x13><0xC6>Lv.",
+      "source_hex": "c8d5e1d9fc133cd1d5e2e8d9d8fc136ec9dadad9e6fc13c6c6eaadff",
+      "references": [
+        "0x11a1f8"
+      ],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          252,
+          19,
+          60
+        ],
+        [
+          252,
+          19,
+          110
+        ],
+        [
+          252,
+          19,
+          198
+        ]
+      ],
+      "final": [
+        {
+          "ref": "0x11a1f8",
+          "target": "0x8b58bf",
+          "hex": "c8d5e1d9fc133cc1d9e7e9d7dce8fc136ebbe2dbd9d6e3e8fc13c6c6eaadff",
+          "byte_count": 31,
+          "decoded_debug": "Name?Û?Gesucht?Û?Angebot?ÛLLv.",
+          "controls": [
+            [
+              252,
+              19,
+              60
+            ],
+            [
+              252,
+              19,
+              110
+            ],
+            [
+              252,
+              19,
+              198
+            ]
+          ],
+          "controls_match_source": true
+        }
+      ],
+      "decision": "corrigé",
+      "motif": "En-tête de liste Salle Union absent : Name/Gesucht/Angebot/Lv., positions FC 13 3C/6E/C6 conservées."
+    },
+    {
+      "offset": "0x4593d3",
+      "de_before": "Chat",
+      "en_corpus": "Chat",
+      "fr_corpus": "Chat",
+      "de_final_source": "Chat",
+      "source_hex": "00bddcd5e8ff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici. Chat est un terme courant allemand légitime.",
+      "voisin_vivant": {
+        "offset": "0x4593d4",
+        "references": [
+          "0x456c88"
+        ],
+        "de_source": null
+      }
+    },
+    {
+      "offset": "0x459541",
+      "de_before": "{DYNAMIC} : Freut mich, dich kennengelernt zu haben!{PAUSE}",
+      "en_corpus": "<0xF7>À: Glad to have met you!<0xFC>Ë<0x3C>",
+      "fr_corpus": "{DYNAMIC} : Ravi de t'avoir connu !{PAUSE}",
+      "de_final_source": "{DYNAMIC} : Freut mich, dich kennengelernt zu haben!{PAUSE}",
+      "source_hex": "000000f701f000c1e0d5d800e8e300dcd5ead900e1d9e800ede3e9abfc083cff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          247,
+          1
+        ],
+        [
+          252,
+          8,
+          60
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x459544",
+        "references": [
+          "0x459580"
+        ],
+        "de_source": "<0xF7><0x01> : Freut mich, dich gesehen zu haben!<0xFC><0x08><0x3C>"
+      }
+    },
+    {
+      "offset": "0x459561",
+      "de_before": "{DYNAMIC} : Freut mich, dich zu sehen!{PAUSE}",
+      "en_corpus": "<0xF7>À: Glad to meet you!<0xFC>Ë<0x3C>",
+      "fr_corpus": "{DYNAMIC} : Ravi de te voir !{PAUSE}",
+      "de_final_source": "{DYNAMIC} : Freut mich, dich zu sehen!{PAUSE}",
+      "source_hex": "000000f701f000c1e0d5d800e8e300e1d9d9e800ede3e9abfc083cff",
+      "references": [],
+      "excluded_raw_matches": [],
+      "controls": [
+        [
+          247,
+          1
+        ],
+        [
+          252,
+          8,
+          60
+        ]
+      ],
+      "final": [],
+      "decision": "fragment sans pointeur direct",
+      "motif": "Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici.",
+      "voisin_vivant": {
+        "offset": "0x459564",
+        "references": [
+          "0x459584"
+        ],
+        "de_source": "<0xF7><0x01> : Sehr erfreut!<0xFC><0x08><0x3C>"
+      }
+    }
+  ]
+}
