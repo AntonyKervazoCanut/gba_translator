@@ -60,6 +60,9 @@ def test_per_offset_report_has_exact_texts_and_complete_pointer_evidence():
     assert len(report['entries']) == len(rows) == 281
     assert rows.keys() == batch_offsets()
     assert report['summary']['exceptions'] == 0
+    assert report['summary']['verified'] == len(rows)
+    assert report['summary']['relocated'] == sum(
+        int(row['live_target'], 16) != offset for offset, row in rows.items())
     for offset, text in actual.items():
         row = rows[offset]
         assert row['portuguese'] == text
