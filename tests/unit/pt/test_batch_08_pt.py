@@ -36,6 +36,12 @@ def test_words_have_no_controls_and_fit(entry: dict) -> None:
     assert not any(b >= 0xF7 for b in bytes.fromhex(entry['source_hex'])[:-1])
     assert len(encoded) == entry['encoded_bytes']
     assert max(entry['widths'].values()) <= entry['pixel_budget']
+    assert len(entry['all_font_widths']) == 5
+    assert max(entry['all_font_widths']) <= entry['pixel_budget']
+    assert entry['portuguese'] == text
+    assert entry['encoded_hex'] == encoded.hex()
+    assert len(entry['live_targets']) == len(entry['pointers'])
+    assert 10 <= entry['group_index'] <= 16
     assert entry['pointers']
 
 

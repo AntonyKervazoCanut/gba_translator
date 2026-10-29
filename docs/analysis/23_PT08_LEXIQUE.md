@@ -15,7 +15,9 @@ ANIME, GOURMET, SOFTWARE, DESIGN, FESTIVAL et FINAL (270 valeurs modifiées).
 
 [languages/pt/data/pt08_audit.json](../../languages/pt/data/pt08_audit.json)
 contient une ligne par offset avec anglais, comparaison FR, préimage ROM,
-pointeurs, statut, taille encodée et largeurs des deux polices natives.
+pointeurs, cibles vivantes, statut, texte PT, taille encodée et largeurs des cinq
+polices après application du patch PT. Le hash identifie le build audité ; les
+allocations peuvent changer lors de l'ajout d'autres lots sans changer les mots.
 280 entrées sont localisées ou lexicalement identiques ; deux sont exclues de
 l’injection, sans supprimer ni modifier de traduction existante :
 
@@ -41,8 +43,10 @@ Chaque nouvelle ligne combined a sa protection exacte. Aucun mot ne comporte de
 placeholder, contrôle, saut de ligne ou saut de page, ni dans les préimages ni
 dans les traductions. Les tests contrôlent l’encodage strict, le terminateur et
 un budget conservateur de 88 pixels par mot, avec les largeurs réelles des
-polices Normal et Short dans la ROM finale. La taille des mots relocalisés est
+polices dans la ROM finale (maximum observé : 84 pixels). La taille des mots relocalisés est
 vérifiée par comparaison intégrale, terminateur compris, via chaque pointeur.
+Les sept références moteur à la racine `0x3eced4` et les descripteurs des groupes
+10 à 16 sont aussi vérifiés, jusqu'à chaque cellule du lexique.
 
 ## Validation reproductible
 
