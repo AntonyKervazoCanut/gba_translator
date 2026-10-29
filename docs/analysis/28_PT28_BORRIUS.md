@@ -72,3 +72,14 @@ Ces consommateurs sont vérifiés en binaire et en budgets de polices.
 Les onze exceptions ne sont pas revendiquées injectées. Le patch BPS distribué
 n'est pas actualisé ; la certification complète et la release relèvent de T-848.
 Aucun push ni lancement de pipeline distant.
+
+## Résultats locaux
+
+Sur la ROM PT construite après correction de l'espace des montants :
+311 tests ciblés d'intégrité et de domaine réussis, cinq tests ROM réussis,
+un test Playwright réussi (deux messages complets, assertions OCR et octets).
+La capture temporaire est jointe au ticket F-787 sous l'identifiant
+`92fce78b-d8d6-4e33-a151-8851153e05b8` ; elle n'est pas versionnée.
+La suite PT élargie a également donné 1 890 tests réussis. Les hooks actifs
+ont validé 6 553 tests Python (un skip existant), 71 Vitest et les builds
+FR/IT/DE ; le bilan du ticket indique les vérifications après intégration.
