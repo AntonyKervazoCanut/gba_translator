@@ -1,0 +1,5588 @@
+{
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "ability_table": {
+    "base": "0xa36398",
+    "stride": 17,
+    "literals": [
+      "0x1c0",
+      "0xd8004",
+      "0xd8624",
+      "0x1367a0",
+      "0x8bf5f4",
+      "0x9a9cdc"
+    ]
+  },
+  "entries": [
+    {
+      "offset": "0xa369e7",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cdd5e2d800c0e3e6d7d9ff",
+      "source_text": "Sand Force",
+      "english_reference": "Sand Force",
+      "french_reference": "Force Sable",
+      "expected": "Sand Force",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 95,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa369f8",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde3e0d5e600cae3ebd9e6ff",
+      "source_text": "Solar Power",
+      "english_reference": "Solar Power",
+      "french_reference": "Force Soleil",
+      "expected": "Solar Power",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ],
+      "ability_id": 96,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a09",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c2d9d5e8e4e6e3e3daff",
+      "source_text": "Heatproof",
+      "english_reference": "Heatproof",
+      "french_reference": "Ignifugé",
+      "expected": "Heatproof",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ],
+      "ability_id": 97,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a1a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bee6ed00cddfdde2ff",
+      "source_text": "Dry Skin",
+      "english_reference": "Dry Skin",
+      "french_reference": "Peau Sèche",
+      "expected": "Dry Skin",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ],
+      "ability_id": 98,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a2b",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cedde2e8d9d800c6d9e2e7ff",
+      "source_text": "Tinted Lens",
+      "english_reference": "Tinted Lens",
+      "french_reference": "Lentiteintée",
+      "expected": "Tinted Lens",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 99,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a3c",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cfe2e7d9d9e200c0dde7e8ff",
+      "source_text": "Unseen Fist",
+      "english_reference": "Unseen Fist",
+      "french_reference": "Poing Invisible",
+      "expected": "Unseen Fist",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        59
+      ],
+      "ability_id": 100,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a4d",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0dde0e8d9e6ff",
+      "source_text": "Filter",
+      "english_reference": "Filter",
+      "french_reference": "Filtre",
+      "expected": "Filter",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        31
+      ],
+      "ability_id": 101,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a5e",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3e2dadde0e8e6d5e8e3e6ff",
+      "source_text": "Infiltrator",
+      "english_reference": "Infiltrator",
+      "french_reference": "Infiltration",
+      "expected": "Infiltrator",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        57
+      ],
+      "ability_id": 102,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a6f",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bee3ebe2e0e3d5d8ff",
+      "source_text": "Download",
+      "english_reference": "Download",
+      "french_reference": "Télécharge",
+      "expected": "Download",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "ability_id": 103,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a80",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae3dde7e3e200c2d9d5e0ff",
+      "source_text": "Poison Heal",
+      "english_reference": "Poison Heal",
+      "french_reference": "Soin Poison",
+      "expected": "Poison Heal",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ],
+      "ability_id": 104,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36a91",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3d7d900bce3d8edff",
+      "source_text": "Ice Body",
+      "english_reference": "Ice Body",
+      "french_reference": "Corps Gel",
+      "expected": "Ice Body",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ],
+      "ability_id": 105,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36aa2",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7e3e3d8edff",
+      "source_text": "Moody",
+      "english_reference": "Moody",
+      "french_reference": "Lunatique",
+      "expected": "Moody",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        30
+      ],
+      "ability_id": 106,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ab3",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c2edd8e6d5e8dde3e2ff",
+      "source_text": "Hydration",
+      "english_reference": "Hydration",
+      "french_reference": "Hydratation",
+      "expected": "Hydration",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ],
+      "ability_id": 107,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ac4",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c2d9d5e0d9e6ff",
+      "source_text": "Healer",
+      "english_reference": "Healer",
+      "french_reference": "Cœur Soin",
+      "expected": "Healer",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "ability_id": 108,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ad5",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde2e3eb00bde0e3d5dfff",
+      "source_text": "Snow Cloak",
+      "english_reference": "Snow Cloak",
+      "french_reference": "Rideau Neige",
+      "expected": "Snow Cloak",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 109,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ae6",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ced5e2dbe0d9d800c0d9d9e8ff",
+      "source_text": "Tangled Feet",
+      "english_reference": "Tangled Feet",
+      "french_reference": "Pieds Confus",
+      "expected": "Tangled Feet",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ],
+      "ability_id": 110,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36af7",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde2e3eb00d1d5e6e2dde2dbff",
+      "source_text": "Snow Warning",
+      "english_reference": "Snow Warning",
+      "french_reference": "Alerte Neige",
+      "expected": "Snow Warning",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ],
+      "ability_id": 111,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b08",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cbe9ddd7df00c0d9d9e8ff",
+      "source_text": "Quick Feet",
+      "english_reference": "Quick Feet",
+      "french_reference": "Pied Véloce",
+      "expected": "Quick Feet",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "ability_id": 112,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b19",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cdd5e400cddde4e4d9e6ff",
+      "source_text": "Sap Sipper",
+      "english_reference": "Sap Sipper",
+      "french_reference": "Herbivore",
+      "expected": "Sap Sipper",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 113,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b2a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c9ead9e6d7e3d5e8ff",
+      "source_text": "Overcoat",
+      "english_reference": "Overcoat",
+      "french_reference": "Envelocape",
+      "expected": "Overcoat",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "ability_id": 114,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b3b",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7d5dbddd700c1e9d5e6d8ff",
+      "source_text": "Magic Guard",
+      "english_reference": "Magic Guard",
+      "french_reference": "Garde Magik",
+      "expected": "Magic Guard",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ],
+      "ability_id": 115,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b4c",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bce9e0e0d9e8e4e6e3e3daff",
+      "source_text": "Bulletproof",
+      "english_reference": "Bulletproof",
+      "french_reference": "Pare-Balles",
+      "expected": "Bulletproof",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ],
+      "ability_id": 116,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b5d",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1d5e0d900d1dde2dbe7ff",
+      "source_text": "Gale Wings",
+      "english_reference": "Gale Wings",
+      "french_reference": "Ailes Bourrasque",
+      "expected": "Gale Wings",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "ability_id": 117,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b6e",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7e3ecddd9ff",
+      "source_text": "Moxie",
+      "english_reference": "Moxie",
+      "french_reference": "Impudence",
+      "expected": "Moxie",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "ability_id": 118,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b7f",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbdae8d9e6e1d5e8dcff",
+      "source_text": "Aftermath",
+      "english_reference": "Aftermath",
+      "french_reference": "Boom Final",
+      "expected": "Aftermath",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "ability_id": 119,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36b90",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bde9e6e7d9d800bce3d8edff",
+      "source_text": "Cursed Body",
+      "english_reference": "Cursed Body",
+      "french_reference": "Corps Maudit",
+      "expected": "Cursed Body",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        64
+      ],
+      "ability_id": 120,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ba1",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1e3e3d9edff",
+      "source_text": "Gooey",
+      "english_reference": "Gooey",
+      "french_reference": "Poisseux",
+      "expected": "Gooey",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        30
+      ],
+      "ability_id": 121,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36bb2",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7e9e1e1edff",
+      "source_text": "Mummy",
+      "english_reference": "Mummy",
+      "french_reference": "Momie",
+      "expected": "Mummy",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        30
+      ],
+      "ability_id": 122,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36bc3",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1e6dde100c8d9dddbdcff",
+      "source_text": "Grim Neigh",
+      "english_reference": "Grim Neigh",
+      "french_reference": "Sombre Ruade",
+      "expected": "Grim Neigh",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "ability_id": 123,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36bd4",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cdd5e2d800cce9e7dcff",
+      "source_text": "Sand Rush",
+      "english_reference": "Sand Rush",
+      "french_reference": "Baigne Sable",
+      "expected": "Sand Rush",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ],
+      "ability_id": 124,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36be5",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbe2d5e0ede8ddd7ff",
+      "source_text": "Analytic",
+      "english_reference": "Analytic",
+      "french_reference": "Analyste",
+      "expected": "Analytic",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ],
+      "ability_id": 125,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36bf6",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c8e300c1e9d5e6d8ff",
+      "source_text": "No Guard",
+      "english_reference": "No Guard",
+      "french_reference": "Annule Garde",
+      "expected": "No Guard",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        47
+      ],
+      "ability_id": 126,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c07",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7d9dbd500c6d5e9e2d7dcd9e6ff",
+      "source_text": "Mega Launcher",
+      "english_reference": "Mega Launcher",
+      "french_reference": "Méga Blaster",
+      "expected": "Mega Launcher",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        76
+      ],
+      "ability_id": 127,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c18",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cee3e9dbdc00bde0d5ebe7ff",
+      "source_text": "Tough Claws",
+      "english_reference": "Tough Claws",
+      "french_reference": "Griffe Dure",
+      "expected": "Tough Claws",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        64
+      ],
+      "ability_id": 128,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c29",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8e6e3e2db00c4d5ebff",
+      "source_text": "Strong Jaw",
+      "english_reference": "Strong Jaw",
+      "french_reference": "Prognathe",
+      "expected": "Strong Jaw",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 129,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c3a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d0ddd7e8e3e6ed00cde8d5e6ff",
+      "source_text": "Victory Star",
+      "english_reference": "Victory Star",
+      "french_reference": "Victorieux",
+      "expected": "Victory Star",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ],
+      "ability_id": 130,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c4b",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8e3e6e100bee6d5dde2ff",
+      "source_text": "Storm Drain",
+      "english_reference": "Storm Drain",
+      "french_reference": "Lavabo",
+      "expected": "Storm Drain",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 131,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c5c",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bed5e6df00bbe9e6d5ff",
+      "source_text": "Dark Aura",
+      "english_reference": "Dark Aura",
+      "french_reference": "Aura Ténébreuse",
+      "expected": "Dark Aura",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ],
+      "ability_id": 132,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c6d",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0d5dde6ed00bbe9e6d5ff",
+      "source_text": "Fairy Aura",
+      "english_reference": "Fairy Aura",
+      "french_reference": "Aura Féérique",
+      "expected": "Fairy Aura",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "ability_id": 133,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c7e",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbe9e6d500bce6d9d5dfff",
+      "source_text": "Aura Break",
+      "english_reference": "Aura Break",
+      "french_reference": "Aura Inversée",
+      "expected": "Aura Break",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 134,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36c8f",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ccd9dae6dddbd9e6d5e8d9ff",
+      "source_text": "Refrigerate",
+      "english_reference": "Refrigerate",
+      "french_reference": "Peau Gelée",
+      "expected": "Refrigerate",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 135,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ca0",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "caddecdde0d5e8d9ff",
+      "source_text": "Pixilate",
+      "english_reference": "Pixilate",
+      "french_reference": "Peau Féérique",
+      "expected": "Pixilate",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        42
+      ],
+      "ability_id": 136,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36cb1",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbd9e6dde0d5e8d9ff",
+      "source_text": "Aerilate",
+      "english_reference": "Aerilate",
+      "french_reference": "Peau Céleste",
+      "expected": "Aerilate",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ],
+      "ability_id": 137,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36cc2",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c8e3e6e1d5e0ddeed9ff",
+      "source_text": "Normalize",
+      "english_reference": "Normalize",
+      "french_reference": "Normalise",
+      "expected": "Normalize",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "ability_id": 138,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36cd3",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cfe2d6e9e6d8d9e2ff",
+      "source_text": "Unburden",
+      "english_reference": "Unburden",
+      "french_reference": "Délestage",
+      "expected": "Unburden",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "ability_id": 139,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ce4",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cddde1e4e0d9ff",
+      "source_text": "Simple",
+      "english_reference": "Simple",
+      "french_reference": "Simple",
+      "expected": "Simple",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "ability_id": 140,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36cf5",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cfe2d5ebd5e6d9ff",
+      "source_text": "Unaware",
+      "english_reference": "Unaware",
+      "french_reference": "Inconscient",
+      "expected": "Unaware",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ],
+      "ability_id": 141,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d06",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bed9daddd5e2e8ff",
+      "source_text": "Defiant",
+      "english_reference": "Defiant",
+      "french_reference": "Acharné",
+      "expected": "Defiant",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "ability_id": 142,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d17",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bde3e1e4d9e8dde8ddead9ff",
+      "source_text": "Competitive",
+      "english_reference": "Competitive",
+      "french_reference": "Battant",
+      "expected": "Competitive",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 143,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d28",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bed9dad9d5e8dde7e8ff",
+      "source_text": "Defeatist",
+      "english_reference": "Defeatist",
+      "french_reference": "Défaitiste",
+      "expected": "Defeatist",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ],
+      "ability_id": 144,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d39",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde0e3eb00cde8d5e6e8ff",
+      "source_text": "Slow Start",
+      "english_reference": "Slow Start",
+      "french_reference": "Début Calme",
+      "expected": "Slow Start",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "ability_id": 145,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d4a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cee3ecddd700bce3e3e7e8ff",
+      "source_text": "Toxic Boost",
+      "english_reference": "Toxic Boost",
+      "french_reference": "Rage Poison",
+      "expected": "Toxic Boost",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ],
+      "ability_id": 146,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d5b",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e0d5e6d900bce3e3e7e8ff",
+      "source_text": "Flare Boost",
+      "english_reference": "Flare Boost",
+      "french_reference": "Rage Brûlure",
+      "expected": "Flare Boost",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ],
+      "ability_id": 147,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d6c",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e9e600bde3d5e8ff",
+      "source_text": "Fur Coat",
+      "english_reference": "Fur Coat",
+      "french_reference": "Toison Épaisse",
+      "expected": "Fur Coat",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "ability_id": 148,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d7d",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d1e3e2d8d9e600cddfdde2ff",
+      "source_text": "Wonder Skin",
+      "english_reference": "Wonder Skin",
+      "french_reference": "Peau Miracle",
+      "expected": "Wonder Skin",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 149,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d8e",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae6e3e8d9d5e2ff",
+      "source_text": "Protean",
+      "english_reference": "Protean",
+      "french_reference": "Protéen",
+      "expected": "Protean",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "ability_id": 150,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36d9f",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cad5e6d9e2e8d5e000bce3e2d8ff",
+      "source_text": "Parental Bond",
+      "english_reference": "Parental Bond",
+      "french_reference": "Amour Filial",
+      "expected": "Parental Bond",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        73
+      ],
+      "ability_id": 151,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36db0",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7e3e0d800bce6d9d5dfd9e6ff",
+      "source_text": "Mold Breaker",
+      "english_reference": "Mold Breaker",
+      "french_reference": "Brise Moule",
+      "expected": "Mold Breaker",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ],
+      "ability_id": 152,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36dc1",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbe700c9e2d9ff",
+      "source_text": "As One",
+      "english_reference": "As One",
+      "french_reference": "Osmose Équine",
+      "expected": "As One",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "ability_id": 153,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36dd2",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbe700c9e2d9ff",
+      "source_text": "As One",
+      "english_reference": "As One",
+      "french_reference": "Osmose Équine",
+      "expected": "As One",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "ability_id": 154,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36de3",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d4d9e200c7e3d8d9ff",
+      "source_text": "Zen Mode",
+      "english_reference": "Zen Mode",
+      "french_reference": "Mode Transe",
+      "expected": "Zen Mode",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        47
+      ],
+      "ability_id": 155,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36df4",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bcd5e8e8e0d900bce3e2d8ff",
+      "source_text": "Battle Bond",
+      "english_reference": "Battle Bond",
+      "french_reference": "Synergie",
+      "expected": "Battle Bond",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ],
+      "ability_id": 156,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e05",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bcd9d5e7e800bce3e3e7e8ff",
+      "source_text": "Beast Boost",
+      "english_reference": "Beast Boost",
+      "french_reference": "Boost Chimère",
+      "expected": "Beast Boost",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ],
+      "ability_id": 157,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e16",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bde3e6e6e3e7dde3e2ff",
+      "source_text": "Corrosion",
+      "english_reference": "Corrosion",
+      "french_reference": "Corrosion",
+      "expected": "Corrosion",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ],
+      "ability_id": 158,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e27",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bedde7dbe9dde7d9ff",
+      "source_text": "Disguise",
+      "english_reference": "Disguise",
+      "french_reference": "Fantômasque",
+      "expected": "Disguise",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        42
+      ],
+      "ability_id": 159,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e38",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bfe1d9e6dbd9e2d7ed00bfecdde8ff",
+      "source_text": "Emergency Exit",
+      "english_reference": "Emergency Exit",
+      "french_reference": "Repli Tactique",
+      "expected": "Emergency Exit",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        79
+      ],
+      "ability_id": 160,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e49",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e0e9dadaedff",
+      "source_text": "Fluffy",
+      "english_reference": "Fluffy",
+      "french_reference": "Boule de Poils",
+      "expected": "Fluffy",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "ability_id": 161,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e5a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d9d9e0ed00cde4dde6dde8ff",
+      "source_text": "Steely Spirit",
+      "english_reference": "Steely Spirit",
+      "french_reference": "Boost Acier",
+      "expected": "Steely Spirit",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        70
+      ],
+      "ability_id": 162,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e6b",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cad9e6dde7dc00bce3d8edff",
+      "source_text": "Perish Body",
+      "english_reference": "Perish Body",
+      "french_reference": "Corps Condamné",
+      "expected": "Perish Body",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ],
+      "ability_id": 163,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e7c",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d1d5e2d8d9e6dde2db00cde3e9e0ff",
+      "source_text": "Wandering Soul",
+      "english_reference": "Wandering Soul",
+      "french_reference": "Âme Vagabonde",
+      "expected": "Wandering Soul",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        78
+      ],
+      "ability_id": 164,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e8d",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae3ebd9e600bde3e2e7e8e6e9d7e8ff",
+      "source_text": "Power Construct",
+      "english_reference": "Power Construct",
+      "french_reference": "Rassemblement",
+      "expected": "Power Construct",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 16,
+      "pixels": [
+        84
+      ],
+      "ability_id": 165,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36e9e",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae6dde7e100bbe6e1e3e6ff",
+      "source_text": "Prism Armor",
+      "english_reference": "Prism Armor",
+      "french_reference": "Prisme-Armure",
+      "expected": "Prism Armor",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 166,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36eaf",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ccc5cd00cdede7e8d9e1ff",
+      "source_text": "RKS System",
+      "english_reference": "RKS System",
+      "french_reference": "Système Alpha",
+      "expected": "RKS System",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 167,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ec0",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cdd7dce3e3e0dde2dbff",
+      "source_text": "Schooling",
+      "english_reference": "Schooling",
+      "french_reference": "Banc",
+      "expected": "Schooling",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "ability_id": 168,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ed1",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cddcd5d8e3eb00cddcddd9e0d8ff",
+      "source_text": "Shadow Shield",
+      "english_reference": "Shadow Shield",
+      "french_reference": "Spectro-Bouclier",
+      "expected": "Shadow Shield",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        75
+      ],
+      "ability_id": 169,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ee2",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cddcddd9e0d8e700bee3ebe2ff",
+      "source_text": "Shields Down",
+      "english_reference": "Shields Down",
+      "french_reference": "Bouclier-Carcan",
+      "expected": "Shields Down",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ],
+      "ability_id": 170,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ef3",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde0e9e7dc00cce9e7dcff",
+      "source_text": "Slush Rush",
+      "english_reference": "Slush Rush",
+      "french_reference": "Chasse-Neige",
+      "expected": "Slush Rush",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 171,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f04",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde3e9e0aec2d9d5e6e8ff",
+      "source_text": "Soul-Heart",
+      "english_reference": "Soul-Heart",
+      "french_reference": "Animacœur",
+      "expected": "Soul-Heart",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 172,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f15",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d5e1dde2d5ff",
+      "source_text": "Stamina",
+      "english_reference": "Stamina",
+      "french_reference": "Endurance",
+      "expected": "Stamina",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "ability_id": 173,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f26",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d9d9e0ebe3e6dfd9e6ff",
+      "source_text": "Steelworker",
+      "english_reference": "Steelworker",
+      "french_reference": "Expert Acier",
+      "expected": "Steelworker",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ],
+      "ability_id": 174,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f37",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e9e0e000c7d9e8d5e000bce3d8edff",
+      "source_text": "Full Metal Body",
+      "english_reference": "Full Metal Body",
+      "french_reference": "Métallo-Garde",
+      "expected": "Full Metal Body",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 16,
+      "pixels": [
+        86
+      ],
+      "ability_id": 175,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f48",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cee6ddd5dbd9ff",
+      "source_text": "Triage",
+      "english_reference": "Triage",
+      "french_reference": "Prioguérison",
+      "expected": "Triage",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "ability_id": 176,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f59",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d1d5e8d9e600bce9d6d6e0d9ff",
+      "source_text": "Water Bubble",
+      "english_reference": "Water Bubble",
+      "french_reference": "Aquabulle",
+      "expected": "Water Bubble",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ],
+      "ability_id": 177,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f6a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d1d5e8d9e600bde3e1e4d5d7e8ff",
+      "source_text": "Water Compact",
+      "english_reference": "Water Compact",
+      "french_reference": "Sable Humide",
+      "expected": "Water Compact",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        75
+      ],
+      "ability_id": 178,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f7b",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d5e0e0ff",
+      "source_text": "Stall",
+      "english_reference": "Stall",
+      "french_reference": "Frein",
+      "expected": "Stall",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "ability_id": 179,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f8c",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7e9e0e8dde8ede4d9ff",
+      "source_text": "Multitype",
+      "english_reference": "Multitype",
+      "french_reference": "Multi-Type",
+      "expected": "Multitype",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ],
+      "ability_id": 180,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36f9d",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bfe0d9d7e8e6ddd700cde9e6dbd9ff",
+      "source_text": "Electric Surge",
+      "english_reference": "Electric Surge",
+      "french_reference": "Créa-Élec",
+      "expected": "Electric Surge",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        78
+      ],
+      "ability_id": 181,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36fae",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1e6d5e7e7ed00cde9e6dbd9ff",
+      "source_text": "Grassy Surge",
+      "english_reference": "Grassy Surge",
+      "french_reference": "Créa-Herbe",
+      "expected": "Grassy Surge",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ],
+      "ability_id": 182,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36fbf",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7dde7e8ed00cde9e6dbd9ff",
+      "source_text": "Misty Surge",
+      "english_reference": "Misty Surge",
+      "french_reference": "Créa-Brume",
+      "expected": "Misty Surge",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ],
+      "ability_id": 183,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36fd0",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae7edd7dcddd700cde9e6dbd9ff",
+      "source_text": "Psychic Surge",
+      "english_reference": "Psychic Surge",
+      "french_reference": "Créa-Psy",
+      "expected": "Psychic Surge",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        74
+      ],
+      "ability_id": 184,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36fe1",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde9e6dbd900cde9e6dad9e6ff",
+      "source_text": "Surge Surfer",
+      "english_reference": "Surge Surfer",
+      "french_reference": "Surf Caudal",
+      "expected": "Surge Surfer",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ],
+      "ability_id": 185,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa36ff2",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1e6d5e7e700cad9e0e8ff",
+      "source_text": "Grass Pelt",
+      "english_reference": "Grass Pelt",
+      "french_reference": "Toison Herbue",
+      "expected": "Grass Pelt",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "ability_id": 186,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37003",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbe2dbd9e600cae3dde2e8ff",
+      "source_text": "Anger Point",
+      "english_reference": "Anger Point",
+      "french_reference": "Colérique",
+      "expected": "Anger Point",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 187,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37014",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbe2e8ddd7dde4d5e8dde3e2ff",
+      "source_text": "Anticipation",
+      "english_reference": "Anticipation",
+      "french_reference": "Anticipation",
+      "expected": "Anticipation",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        62
+      ],
+      "ability_id": 188,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37025",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e3e6d9ebd5e6e2ff",
+      "source_text": "Forewarn",
+      "english_reference": "Forewarn",
+      "french_reference": "Prédiction",
+      "expected": "Forewarn",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "ability_id": 189,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37036",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e6dde7dfff",
+      "source_text": "Frisk",
+      "english_reference": "Frisk",
+      "french_reference": "Fouille",
+      "expected": "Frisk",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        25
+      ],
+      "ability_id": 190,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37047",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bde3e2e8e6d5e6edff",
+      "source_text": "Contrary",
+      "english_reference": "Contrary",
+      "french_reference": "Contestation",
+      "expected": "Contrary",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "ability_id": 191,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37058",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cfe2e2d9e6ead9ff",
+      "source_text": "Unnerve",
+      "english_reference": "Unnerve",
+      "french_reference": "Tension",
+      "expected": "Unnerve",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "ability_id": 192,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37069",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d1d9d5df00bbe6e1e3e6ff",
+      "source_text": "Weak Armor",
+      "english_reference": "Weak Armor",
+      "french_reference": "Armurouillée",
+      "expected": "Weak Armor",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 193,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3707a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c2d9d5eaed00c7d9e8d5e0ff",
+      "source_text": "Heavy Metal",
+      "english_reference": "Heavy Metal",
+      "french_reference": "Heavy Metal",
+      "expected": "Heavy Metal",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        64
+      ],
+      "ability_id": 194,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3708b",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c6dddbdce800c7d9e8d5e0ff",
+      "source_text": "Light Metal",
+      "english_reference": "Light Metal",
+      "french_reference": "Light Metal",
+      "expected": "Light Metal",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ],
+      "ability_id": 195,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3709c",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d9d5d8dad5e7e8ff",
+      "source_text": "Steadfast",
+      "english_reference": "Steadfast",
+      "french_reference": "Impassible",
+      "expected": "Steadfast",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "ability_id": 196,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa370ad",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3e1e4e3e7e8d9e6ff",
+      "source_text": "Imposter",
+      "english_reference": "Imposter",
+      "french_reference": "Imposteur",
+      "expected": "Imposter",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "ability_id": 197,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa370be",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c4e9e7e8dddaddd9d8ff",
+      "source_text": "Justified",
+      "english_reference": "Justified",
+      "french_reference": "Cœur Noble",
+      "expected": "Justified",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        47
+      ],
+      "ability_id": 198,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa370cf",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ccd5e8e8e0d9d8ff",
+      "source_text": "Rattled",
+      "english_reference": "Rattled",
+      "french_reference": "Phobique",
+      "expected": "Rattled",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "ability_id": 199,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa370e0",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7d9e6d7dde0d9e7e7ff",
+      "source_text": "Merciless",
+      "english_reference": "Merciless",
+      "french_reference": "Cruauté",
+      "expected": "Merciless",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ],
+      "ability_id": 200,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa370f1",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbe6e3e1d500d0d9dde0ff",
+      "source_text": "Aroma Veil",
+      "english_reference": "Aroma Veil",
+      "french_reference": "Aroma-Voile",
+      "expected": "Aroma Veil",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "ability_id": 201,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37102",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e0e3ebd9e600d0d9dde0ff",
+      "source_text": "Flower Veil",
+      "english_reference": "Flower Veil",
+      "french_reference": "Flora-Voile",
+      "expected": "Flower Veil",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ],
+      "ability_id": 202,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37113",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c6d9d5da00c1e9d5e6d8ff",
+      "source_text": "Leaf Guard",
+      "english_reference": "Leaf Guard",
+      "french_reference": "Feuille Garde",
+      "expected": "Leaf Guard",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 203,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37124",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c5e0e9e8eeff",
+      "source_text": "Klutz",
+      "english_reference": "Klutz",
+      "french_reference": "Maladresse",
+      "expected": "Klutz",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "ability_id": 204,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37135",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e0e3ebd9e600c1dddae8ff",
+      "source_text": "Flower Gift",
+      "english_reference": "Flower Gift",
+      "french_reference": "Don Floral",
+      "expected": "Flower Gift",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 205,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37146",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bcd5d800bee6d9d5e1e7ff",
+      "source_text": "Bad Dreams",
+      "english_reference": "Bad Dreams",
+      "french_reference": "Mauvais Rêve",
+      "expected": "Bad Dreams",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 206,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37157",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "caddd7dfe4e3d7dfd9e8ff",
+      "source_text": "Pickpocket",
+      "english_reference": "Pickpocket",
+      "french_reference": "Pickpocket",
+      "expected": "Pickpocket",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "ability_id": 207,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37168",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae3e6e8d5e000cae3ebd9e6ff",
+      "source_text": "Portal Power",
+      "english_reference": "Portal Power",
+      "french_reference": "Pouvoir Portail",
+      "expected": "Portal Power",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ],
+      "ability_id": 208,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37179",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae3dde7e3e200cee3e9d7dcff",
+      "source_text": "Poison Touch",
+      "english_reference": "Poison Touch",
+      "french_reference": "Toxitouche",
+      "expected": "Poison Touch",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ],
+      "ability_id": 209,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3718a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7d5dbddd7ddd5e2ff",
+      "source_text": "Magician",
+      "english_reference": "Magician",
+      "french_reference": "Magicien",
+      "expected": "Magician",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ],
+      "ability_id": 210,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3719b",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d5e2d7d900bddcd5e2dbd9ff",
+      "source_text": "Stance Change",
+      "english_reference": "Stance Change",
+      "french_reference": "Déclic Tactique",
+      "expected": "Stance Change",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        75
+      ],
+      "ability_id": 211,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa371ac",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae6dde1e3e6d8ddd5e000cdd9d5ff",
+      "source_text": "Primordial Sea",
+      "english_reference": "Primordial Sea",
+      "french_reference": "Mer Primordiale",
+      "expected": "Primordial Sea",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        77
+      ],
+      "ability_id": 212,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa371bd",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bed9e7e3e0d5e8d900c6d5e2d8ff",
+      "source_text": "Desolate Land",
+      "english_reference": "Desolate Land",
+      "french_reference": "Terre Finale",
+      "expected": "Desolate Land",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        74
+      ],
+      "ability_id": 213,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa371ce",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bed9e0e8d500cde8e6d9d5e1ff",
+      "source_text": "Delta Stream",
+      "english_reference": "Delta Stream",
+      "french_reference": "Flux Delta",
+      "expected": "Delta Stream",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ],
+      "ability_id": 214,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa371df",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1e3e6dde0e0d500ced5d7e8ddd7e7ff",
+      "source_text": "Gorilla Tactics",
+      "english_reference": "Gorilla Tactics",
+      "french_reference": "Entêtement",
+      "expected": "Gorilla Tactics",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 16,
+      "pixels": [
+        81
+      ],
+      "ability_id": 215,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa371f0",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bcd9e6e7d9e6dfff",
+      "source_text": "Berserk",
+      "english_reference": "Berserk",
+      "french_reference": "Folle Furie",
+      "expected": "Berserk",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "ability_id": 216,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37201",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c6e3e2db00ccd9d5d7dcff",
+      "source_text": "Long Reach",
+      "english_reference": "Long Reach",
+      "french_reference": "Longue Portée",
+      "expected": "Long Reach",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        59
+      ],
+      "ability_id": 217,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37212",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c6dde5e9ddd800d0e3ddd7d9ff",
+      "source_text": "Liquid Voice",
+      "english_reference": "Liquid Voice",
+      "french_reference": "Hydrata-Son",
+      "expected": "Liquid Voice",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ],
+      "ability_id": 218,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37223",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cbe9ddd7df00bee6d5ebff",
+      "source_text": "Quick Draw",
+      "english_reference": "Quick Draw",
+      "french_reference": "Tir Vif",
+      "expected": "Quick Draw",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "ability_id": 219,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37234",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3e2e2d5e6d8e700c9e9e8ff",
+      "source_text": "Innards Out",
+      "english_reference": "Innards Out",
+      "french_reference": "Expuls'Organes",
+      "expected": "Innards Out",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ],
+      "ability_id": 220,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37245",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bed5eeeee0dde2dbff",
+      "source_text": "Dazzling",
+      "english_reference": "Dazzling",
+      "french_reference": "Corps Coloré",
+      "expected": "Dazzling",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "ability_id": 221,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37256",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1e0e9e8e8e3e2edff",
+      "source_text": "Gluttony",
+      "english_reference": "Gluttony",
+      "french_reference": "Gloutonnerie",
+      "expected": "Gluttony",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "ability_id": 222,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37267",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c2e3e2d9ed00c1d5e8dcd9e6ff",
+      "source_text": "Honey Gather",
+      "english_reference": "Honey Gather",
+      "french_reference": "Cherche Miel",
+      "expected": "Honey Gather",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ],
+      "ability_id": 223,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37278",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e6ddd9e2d800c1e9d5e6d8ff",
+      "source_text": "Friend Guard",
+      "english_reference": "Friend Guard",
+      "french_reference": "Garde-Ami",
+      "expected": "Friend Guard",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ],
+      "ability_id": 224,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37289",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c2d5e6ead9e7e8ff",
+      "source_text": "Harvest",
+      "english_reference": "Harvest",
+      "french_reference": "Récolte",
+      "expected": "Harvest",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "ability_id": 225,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3729a",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ced9e0d9e4d5e8dcedff",
+      "source_text": "Telepathy",
+      "english_reference": "Telepathy",
+      "french_reference": "Télépathe",
+      "expected": "Telepathy",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ],
+      "ability_id": 226,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa372ab",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3e0e0e9e7dde3e2ff",
+      "source_text": "Illusion",
+      "english_reference": "Illusion",
+      "french_reference": "Illusion",
+      "expected": "Illusion",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        42
+      ],
+      "ability_id": 227,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa372bc",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bddcd9d9df00cae3e9d7dcff",
+      "source_text": "Cheek Pouch",
+      "english_reference": "Cheek Pouch",
+      "french_reference": "Bajoues",
+      "expected": "Cheek Pouch",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        65
+      ],
+      "ability_id": 228,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa372cd",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cdede1d6dde3e7dde7ff",
+      "source_text": "Symbiosis",
+      "english_reference": "Symbiosis",
+      "french_reference": "Symbiose",
+      "expected": "Symbiosis",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ],
+      "ability_id": 229,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa372de",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d5dfd9e3e9e8ff",
+      "source_text": "Stakeout",
+      "english_reference": "Stakeout",
+      "french_reference": "Filature",
+      "expected": "Stakeout",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "ability_id": 230,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa372ef",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bde3e1d5e8e3e7d9ff",
+      "source_text": "Comatose",
+      "english_reference": "Comatose",
+      "french_reference": "Hypersommeil",
+      "expected": "Comatose",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "ability_id": 231,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37300",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bed5e2d7d9e6ff",
+      "source_text": "Dancer",
+      "english_reference": "Dancer",
+      "french_reference": "Danseuse",
+      "expected": "Dancer",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "ability_id": 232,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37311",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bcd5e8e8d9e6edff",
+      "source_text": "Battery",
+      "english_reference": "Battery",
+      "french_reference": "Batterie",
+      "expected": "Battery",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "ability_id": 233,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37322",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ccd9d7d9ddead9e6ff",
+      "source_text": "Receiver",
+      "english_reference": "Receiver",
+      "french_reference": "Receveur",
+      "expected": "Receiver",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "ability_id": 234,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37333",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c9d8d800c7d9d8ddd7dde2d9ff",
+      "source_text": "Odd Medicine",
+      "english_reference": "Odd Medicine",
+      "french_reference": "Breuvage Suspect",
+      "expected": "Odd Medicine",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ],
+      "ability_id": 235,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37344",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c8d9e9e6e3dae3e6d7d9ff",
+      "source_text": "Neuroforce",
+      "english_reference": "Neuroforce",
+      "french_reference": "Cérébro-Force",
+      "expected": "Neuroforce",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 236,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37355",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1d5e0ead5e2ddeed9ff",
+      "source_text": "Galvanize",
+      "english_reference": "Galvanize",
+      "french_reference": "Peau Électrique",
+      "expected": "Galvanize",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "ability_id": 237,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37366",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3e2e8e6d9e4ddd800cdebe3e6d8ff",
+      "source_text": "Intrepid Sword",
+      "english_reference": "Intrepid Sword",
+      "french_reference": "Lame Indomptable",
+      "expected": "Intrepid Sword",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        78
+      ],
+      "ability_id": 238,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37377",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d0d5e0ddd5e2e800cddcddd9e0d8ff",
+      "source_text": "Valiant Shield",
+      "english_reference": "Valiant Shield",
+      "french_reference": "Égide Inflexible",
+      "expected": "Valiant Shield",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        76
+      ],
+      "ability_id": 239,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37388",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bcd5e0e000c0d9e8d7dcff",
+      "source_text": "Ball Fetch",
+      "english_reference": "Ball Fetch",
+      "french_reference": "Ramasse Ball",
+      "expected": "Ball Fetch",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 240,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37399",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bde3e8e8e3e200bee3ebe2ff",
+      "source_text": "Cotton Down",
+      "english_reference": "Cotton Down",
+      "french_reference": "Effilochage",
+      "expected": "Cotton Down",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ],
+      "ability_id": 241,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa373aa",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7dde6e6e3e600bbe6e1e3e6ff",
+      "source_text": "Mirror Armor",
+      "english_reference": "Mirror Armor",
+      "french_reference": "Armure Miroir",
+      "expected": "Mirror Armor",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        65
+      ],
+      "ability_id": 242,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa373bb",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1e9e0e400c7dde7e7dde0d9ff",
+      "source_text": "Gulp Missile",
+      "english_reference": "Gulp Missile",
+      "french_reference": "Dégobage",
+      "expected": "Gulp Missile",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        64
+      ],
+      "ability_id": 243,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa373cc",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d5e0ebd5e6e8ff",
+      "source_text": "Stalwart",
+      "english_reference": "Stalwart",
+      "french_reference": "Nerfs d'Acier",
+      "expected": "Stalwart",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "ability_id": 244,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa373dd",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde8d9d5e100bfe2dbdde2d9ff",
+      "source_text": "Steam Engine",
+      "english_reference": "Steam Engine",
+      "french_reference": "Turbine",
+      "expected": "Steam Engine",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ],
+      "ability_id": 245,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa373ee",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae9e2df00cce3d7dfff",
+      "source_text": "Punk Rock",
+      "english_reference": "Punk Rock",
+      "french_reference": "Punk Rock",
+      "expected": "Punk Rock",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ],
+      "ability_id": 246,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa373ff",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cdd5e2d800cde4dde8ff",
+      "source_text": "Sand Spit",
+      "english_reference": "Sand Spit",
+      "french_reference": "Expul'Sable",
+      "expected": "Sand Spit",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "ability_id": 247,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37410",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3d7d900cdd7d5e0d9e7ff",
+      "source_text": "Ice Scales",
+      "english_reference": "Ice Scales",
+      "french_reference": "Écailles Glacées",
+      "expected": "Ice Scales",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 248,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37421",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ccdde4d9e2ff",
+      "source_text": "Ripen",
+      "english_reference": "Ripen",
+      "french_reference": "Mûrissement",
+      "expected": "Ripen",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "ability_id": 249,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37432",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3d7d900c0d5d7d9ff",
+      "source_text": "Ice Face",
+      "english_reference": "Ice Face",
+      "french_reference": "Tête de Gel",
+      "expected": "Ice Face",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ],
+      "ability_id": 250,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37443",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae3ebd9e600cde4e3e8ff",
+      "source_text": "Power Spot",
+      "english_reference": "Power Spot",
+      "french_reference": "Cercle d'Énergie",
+      "expected": "Power Spot",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 251,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37454",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7dde1ddd7e6edff",
+      "source_text": "Mimicry",
+      "english_reference": "Mimicry",
+      "french_reference": "Mimétisme",
+      "expected": "Mimicry",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "ability_id": 252,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37465",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cdd7e6d9d9e200bde0d9d5e2d9e6ff",
+      "source_text": "Screen Cleaner",
+      "english_reference": "Screen Cleaner",
+      "french_reference": "Brise-Barrière",
+      "expected": "Screen Cleaner",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        79
+      ],
+      "ability_id": 253,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37476",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cad5e7e8d9e000d0d9dde0ff",
+      "source_text": "Pastel Veil",
+      "english_reference": "Pastel Veil",
+      "french_reference": "Voile Pastel",
+      "expected": "Pastel Veil",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "ability_id": 254,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37487",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "aeff",
+      "source_text": "-",
+      "english_reference": "-",
+      "french_reference": null,
+      "expected": "-",
+      "references": [],
+      "max_width": 204,
+      "pt_bytes": 2,
+      "pixels": [
+        6
+      ],
+      "ability_id": 255,
+      "cell_bytes": 17,
+      "reason": "Marqueur réservé « - » de la cellule de nom de Habilité ID 255 ; conservé exactement. Aucun pointeur direct ; accès indexé depuis 0xa36398 (littéraux documentés dans ability_table)."
+    },
+    {
+      "offset": "0xa37498",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbdde600c6e3d7dfff",
+      "source_text": "Air Lock",
+      "english_reference": "Air Lock",
+      "french_reference": "Air Lock",
+      "expected": "Air Lock",
+      "references": [
+        10132488
+      ],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "ability_id": 256,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa374a9",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d0dde8d5e000cde4dde6dde8ff",
+      "source_text": "Vital Spirit",
+      "english_reference": "Vital Spirit",
+      "french_reference": "Esprit Vital",
+      "expected": "Vital Spirit",
+      "references": [
+        10132492
+      ],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        62
+      ],
+      "ability_id": 257,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa374ba",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d1dcdde8d900cde1e3dfd9ff",
+      "source_text": "White Smoke",
+      "english_reference": "White Smoke",
+      "french_reference": "Écran Fumée",
+      "expected": "White Smoke",
+      "references": [
+        10132432
+      ],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ],
+      "ability_id": 258,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa374cb",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae9e6d900cae3ebd9e6ff",
+      "source_text": "Pure Power",
+      "english_reference": "Pure Power",
+      "french_reference": "Force Pure",
+      "expected": "Pure Power",
+      "references": [
+        10132496
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 259,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa374dc",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3e6e3e200bcd5e6d6e7ff",
+      "source_text": "Iron Barbs",
+      "english_reference": "Iron Barbs",
+      "french_reference": "Épine de Fer",
+      "expected": "Iron Barbs",
+      "references": [
+        10132500
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "ability_id": 260,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa374ed",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde3e0ddd800cce3d7dfff",
+      "source_text": "Solid Rock",
+      "english_reference": "Solid Rock",
+      "french_reference": "Solide Roc",
+      "expected": "Solid Rock",
+      "references": [
+        10132440
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "ability_id": 261,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa374fe",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cee9e6d6e3d6e0d5eed9ff",
+      "source_text": "Turboblaze",
+      "english_reference": "Turboblaze",
+      "french_reference": "Turbo Brasier",
+      "expected": "Turboblaze",
+      "references": [
+        10132516
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 262,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3750f",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ced9e6d5eae3e0e8ff",
+      "source_text": "Teravolt",
+      "english_reference": "Teravolt",
+      "french_reference": "Téra-Voltage",
+      "expected": "Teravolt",
+      "references": [
+        10132520
+      ],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "ability_id": 263,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37520",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bddcdde0e0dde2db00c8d9dddbdcff",
+      "source_text": "Chilling Neigh",
+      "english_reference": "Chilling Neigh",
+      "french_reference": "Blanche Ruade",
+      "expected": "Chilling Neigh",
+      "references": [
+        10132536
+      ],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        75
+      ],
+      "ability_id": 264,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37531",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c6ddd6d9e6e3ff",
+      "source_text": "Libero",
+      "english_reference": "Libero",
+      "french_reference": "Libéro",
+      "expected": "Libero",
+      "references": [
+        10132552
+      ],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "ability_id": 265,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37542",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ced5e2dbe0dde2db00c2d5dde6ff",
+      "source_text": "Tangling Hair",
+      "english_reference": "Tangling Hair",
+      "french_reference": "Mèche Rebelle",
+      "expected": "Tangling Hair",
+      "references": [
+        10132556
+      ],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        70
+      ],
+      "ability_id": 266,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37553",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "d1dde1e400c9e9e8ff",
+      "source_text": "Wimp Out",
+      "english_reference": "Wimp Out",
+      "french_reference": "Escampette",
+      "expected": "Wimp Out",
+      "references": [
+        10132468
+      ],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "ability_id": 267,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37564",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cbe9d9d9e2e0ed00c7d5ded9e7e8edff",
+      "source_text": "Queenly Majesty",
+      "english_reference": "Queenly Majesty",
+      "french_reference": "Prestance Royale",
+      "expected": "Queenly Majesty",
+      "references": [
+        10132576
+      ],
+      "max_width": 204,
+      "pt_bytes": 16,
+      "pixels": [
+        86
+      ],
+      "ability_id": 268,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37575",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bbe0d7dcd9e1ddd700cae3ebd9e6ff",
+      "source_text": "Alchemic Power",
+      "english_reference": "Alchemic Power",
+      "french_reference": "Force Alchimique",
+      "expected": "Alchemic Power",
+      "references": [
+        10132580
+      ],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        80
+      ],
+      "ability_id": 269,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37586",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae6e3e4d9e0e0d9e600ced5dde0ff",
+      "source_text": "Propeller Tail",
+      "english_reference": "Propeller Tail",
+      "french_reference": "Propulseur",
+      "expected": "Propeller Tail",
+      "references": [
+        10132484
+      ],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        77
+      ],
+      "ability_id": 270,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37597",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c8dde2d900c6ddead9e7ff",
+      "source_text": "Nine Lives",
+      "english_reference": "Nine Lives",
+      "french_reference": "Neuf Vies",
+      "expected": "Nine Lives",
+      "references": [
+        10132504
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        54
+      ],
+      "ability_id": 271,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa375a8",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0e3d7e9e700bcd9e0e8ff",
+      "source_text": "Focus Belt",
+      "english_reference": "Focus Belt",
+      "french_reference": "Ceinture Focus",
+      "expected": "Focus Belt",
+      "references": [
+        10132508
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 272,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa375b9",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bfead5e4e3e6d5e8d9ff",
+      "source_text": "Evaporate",
+      "english_reference": "Evaporate",
+      "french_reference": "Évaporation",
+      "expected": "Evaporate",
+      "references": [
+        10132524
+      ],
+      "max_width": 204,
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ],
+      "ability_id": 273,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa375ca",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0ddd9e6ed00c8d9dddbdcff",
+      "source_text": "Fiery Neigh",
+      "english_reference": "Fiery Neigh",
+      "french_reference": "Ruade Ardente",
+      "expected": "Fiery Neigh",
+      "references": [
+        10132456
+      ],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ],
+      "ability_id": 274,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa375db",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cddce3d7dfdde2db00c8d9dddbdcff",
+      "source_text": "Shocking Neigh",
+      "english_reference": "Shocking Neigh",
+      "french_reference": "Ruade Fulgurante",
+      "expected": "Shocking Neigh",
+      "references": [
+        10132532
+      ],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        78
+      ],
+      "ability_id": 275,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa375ec",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cae6ddd8d9ff",
+      "source_text": "Pride",
+      "english_reference": "Pride",
+      "french_reference": "Fierté",
+      "expected": "Pride",
+      "references": [
+        10132452
+      ],
+      "max_width": 204,
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "ability_id": 276,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa375fd",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c7e9e0e8ddd9edd9ff",
+      "source_text": "Multieye",
+      "english_reference": "Multieye",
+      "french_reference": "Multi-œil",
+      "expected": "Multieye",
+      "references": [
+        10132540
+      ],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "ability_id": 277,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3760e",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde9d6e8d9e6dae9dbd9ff",
+      "source_text": "Subterfuge",
+      "english_reference": "Subterfuge",
+      "french_reference": "Subterfuge",
+      "expected": "Subterfuge",
+      "references": [
+        10132544
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "ability_id": 278,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa3761f",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c2e3e2d9ed00bbe6e1e3e6ff",
+      "source_text": "Honey Armor",
+      "english_reference": "Honey Armor",
+      "french_reference": "Armure Mielleuse",
+      "expected": "Honey Armor",
+      "references": [
+        10132476
+      ],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ],
+      "ability_id": 279,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37630",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "ced5e2dbe0dde2db00d1e3e3e0ff",
+      "source_text": "Tangling Wool",
+      "english_reference": "Tangling Wool",
+      "french_reference": "Laine Emmêlée",
+      "expected": "Tangling Wool",
+      "references": [
+        10132560
+      ],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        72
+      ],
+      "ability_id": 280,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37641",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bce6d5dde200bce3e2d8ff",
+      "source_text": "Brain Bond",
+      "english_reference": "Brain Bond",
+      "french_reference": "Lien Mental",
+      "expected": "Brain Bond",
+      "references": [
+        10132460
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "ability_id": 281,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37652",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c1e6d5e7e700bed5e7dcff",
+      "source_text": "Grass Dash",
+      "english_reference": "Grass Dash",
+      "french_reference": "Sprint Herbu",
+      "expected": "Grass Dash",
+      "references": [
+        10132564
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "ability_id": 282,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37663",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde0dde4e4d9e6ed00ced5dde0ff",
+      "source_text": "Slippery Tail",
+      "english_reference": "Slippery Tail",
+      "french_reference": "Queue Glissante",
+      "expected": "Slippery Tail",
+      "references": [
+        10132568
+      ],
+      "max_width": 204,
+      "pt_bytes": 14,
+      "pixels": [
+        71
+      ],
+      "ability_id": 283,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37674",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bee6dde0e000bcd9d5dfff",
+      "source_text": "Drill Beak",
+      "english_reference": "Drill Beak",
+      "french_reference": "Bec Perceur",
+      "expected": "Drill Beak",
+      "references": [
+        10132584
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        54
+      ],
+      "ability_id": 284,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37685",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bde3e8e8e3e200bde0e3e9d8ff",
+      "source_text": "Cotton Cloud",
+      "english_reference": "Cotton Cloud",
+      "french_reference": "Nuage Cotonneux",
+      "expected": "Cotton Cloud",
+      "references": [
+        10132588
+      ],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ],
+      "ability_id": 285,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37696",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bcd9e0e0e3ebff",
+      "source_text": "Bellow",
+      "english_reference": "Bellow",
+      "french_reference": "Beuglement",
+      "expected": "Bellow",
+      "references": [
+        10132592
+      ],
+      "max_width": 204,
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "ability_id": 286,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa376a7",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cde3e9e2d800d1d5ead9e7ff",
+      "source_text": "Sound Waves",
+      "english_reference": "Sound Waves",
+      "french_reference": "Ondes Sonores",
+      "expected": "Sound Waves",
+      "references": [
+        10132600
+      ],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        64
+      ],
+      "ability_id": 287,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa376b8",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c3d7ed00cddfdde2ff",
+      "source_text": "Icy Skin",
+      "english_reference": "Icy Skin",
+      "french_reference": "Peau Glacée",
+      "expected": "Icy Skin",
+      "references": [
+        10132604
+      ],
+      "max_width": 204,
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "ability_id": 288,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa376c9",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bee9e7e8ed00cdd7d5e0d9e7ff",
+      "source_text": "Dusty Scales",
+      "english_reference": "Dusty Scales",
+      "french_reference": "Écailles Poudre",
+      "expected": "Dusty Scales",
+      "references": [
+        10132608
+      ],
+      "max_width": 204,
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ],
+      "ability_id": 289,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa376da",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "bde6d5d6d6ed00ced5d7e8ddd7e7ff",
+      "source_text": "Crabby Tactics",
+      "english_reference": "Crabby Tactics",
+      "french_reference": "Tactique Crabe",
+      "expected": "Crabby Tactics",
+      "references": [
+        10132636
+      ],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        79
+      ],
+      "ability_id": 290,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa376eb",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "c0d5d7d900cddcddd9e0d8ff",
+      "source_text": "Face Shield",
+      "english_reference": "Face Shield",
+      "french_reference": "Bouclier Visage",
+      "expected": "Face Shield",
+      "references": [
+        10132472
+      ],
+      "max_width": 204,
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ],
+      "ability_id": 291,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa376fc",
+      "status": "retained",
+      "kind": "ability_name",
+      "source_hex": "cce3edd5e000cce3d5e6ff",
+      "source_text": "Royal Roar",
+      "english_reference": "Royal Roar",
+      "french_reference": "Hurlement Royal",
+      "expected": "Royal Roar",
+      "references": [
+        10132644
+      ],
+      "max_width": 204,
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "ability_id": 292,
+      "cell_bytes": 17,
+      "reason": "Nom anglais conservé exactement selon F-759 ; cellule fixe indexée par ID depuis 0xa36398, littéraux 0x1c0/0xd8004/0xd8624/0x1367a0/0x8bf5f4/0x9a9cdc ; aucune relocalisation."
+    },
+    {
+      "offset": "0xa37734",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dde700d9ecd9e6e8dde2dbfedde8e700e4e6d9e7e7e9e6d9abff",
+      "source_text": "<0xFD>Û is exerting\nits pressure!",
+      "english_reference": "<0xFD>Û is exerting\\nits pressure!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nexerce sa pression !",
+      "expected": "<0xFD><0x13> exerce\\nsua pressão!",
+      "references": [
+        10116896
+      ],
+      "max_width": 204,
+      "pt_bytes": 23,
+      "pixels": [
+        95,
+        68
+      ]
+    },
+    {
+      "offset": "0xa37751",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300d6e6d9d5dfe7fee8dcd900e1e3e0d8abff",
+      "source_text": "<0xFD>Û breaks\nthe mold!",
+      "english_reference": "<0xFD>Û breaks\\nthe mold!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nbrise le moule !",
+      "expected": "<0xFD><0x13> quebra\\no molde!",
+      "references": [
+        10118776
+      ],
+      "max_width": 204,
+      "pt_bytes": 19,
+      "pixels": [
+        95,
+        47
+      ]
+    },
+    {
+      "offset": "0xa37765",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dde700e6d5d8ddd5e8dde2dbfed500d6e9e6e7e8dde2db00d5e9e6d5abff",
+      "source_text": "<0xFD>Û is radiating\na bursting aura!",
+      "english_reference": "<0xFD>Û is radiating\\na bursting aura!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\ndégage une aura explosive !",
+      "expected": "<0xFD><0x13> emana\\numa aura explosiva!",
+      "references": [
+        10118772
+      ],
+      "max_width": 204,
+      "pt_bytes": 29,
+      "pixels": [
+        89,
+        109
+      ]
+    },
+    {
+      "offset": "0xa37786",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dde700e6d5d8ddd5e8dde2dbfed500d6e0d5eedde2db00d5e9e6d5abff",
+      "source_text": "<0xFD>Û is radiating\na blazing aura!",
+      "english_reference": "<0xFD>Û is radiating\\na blazing aura!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\ndégage une aura flamboyante !",
+      "expected": "<0xFD><0x13> emana\\numa aura ardente!",
+      "references": [
+        10118768
+      ],
+      "max_width": 204,
+      "pt_bytes": 27,
+      "pixels": [
+        89,
+        98
+      ]
+    },
+    {
+      "offset": "0xa377a6",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300d7e3e9e0d8e2b4e800dbd9e8fedbe3dde2dbabff",
+      "source_text": "<0xFD>Û couldn't get\ngoing!",
+      "english_reference": "<0xFD>Û couldn't get\\ngoing!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nn'arrive pas à démarrer !",
+      "expected": "<0xFD><0x13> não conseguiu\\nse animar!",
+      "references": [
+        10118784
+      ],
+      "max_width": 204,
+      "pt_bytes": 28,
+      "pixels": [
+        133,
+        55
+      ]
+    },
+    {
+      "offset": "0xa377bd",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd3700e8d9d5e100dde700e8e3e3fee2d9e6eae3e9e700e8e300d9d5e800bcd9e6e6ddd9e7abff",
+      "source_text": "<0xFD><0x37> team is too\nnervous to eat Berries!",
+      "english_reference": "<0xFD><0x37> team is too\\nnervous to eat Berries!",
+      "french_reference": "L'équipe {STRING} est trop\\nnerveuse pour manger des Baies !",
+      "expected": "A equipe <0xFD><0x37> está muito\\nnervosa para comer Berries!",
+      "references": [
+        10116936
+      ],
+      "max_width": 204,
+      "pt_bytes": 51,
+      "pixels": [
+        167,
+        152
+      ]
+    },
+    {
+      "offset": "0xa377e4",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dde700e6d5d8ddd5e8dde2dbfed500d8d5e6df00d5e9e6d5abff",
+      "source_text": "<0xFD>Û is radiating\na dark aura!",
+      "english_reference": "<0xFD>Û is radiating\\na dark aura!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\ndégage une aura sombre !",
+      "expected": "<0xFD><0x13> emana\\numa aura sombria!",
+      "references": [
+        10118788
+      ],
+      "max_width": 204,
+      "pt_bytes": 27,
+      "pixels": [
+        89,
+        97
+      ]
+    },
+    {
+      "offset": "0xa37801",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dde700e6d5d8ddd5e8dde2dbfed500dad5dde6ed00d5e9e6d5abff",
+      "source_text": "<0xFD>Û is radiating\na fairy aura!",
+      "english_reference": "<0xFD>Û is radiating\\na fairy aura!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\ndégage une aura féerique !",
+      "expected": "<0xFD><0x13> emana\\numa aura de Fada!",
+      "references": [
+        10118792
+      ],
+      "max_width": 204,
+      "pt_bytes": 27,
+      "pixels": [
+        89,
+        101
+      ]
+    },
+    {
+      "offset": "0xa3781f",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300e6d9ead9e6e7d9d800d5e0e0fee3e8dcd9e600cae3df1be1e3e2b4e700d5e9e6d5e7abff",
+      "source_text": "<0xFD>Û reversed all\nother Pokémon's auras!",
+      "english_reference": "<0xFD>Û reversed all\\nother Pokémon's auras!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} inverse toutes les autres\\nauras Pokémon !",
+      "expected": "<0xFD><0x13> inverteu\\nas auras dos outros Pokémon!",
+      "references": [
+        10116932
+      ],
+      "max_width": 204,
+      "pt_bytes": 41,
+      "pixels": [
+        103,
+        159
+      ]
+    },
+    {
+      "offset": "0xa37846",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dde700d8e6e3ebe7dde2dbabff",
+      "source_text": "<0xFD>Û is drowsing!",
+      "english_reference": "<0xFD>Û is drowsing!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} somnole !",
+      "expected": "<0xFD><0x13> está cochilando!",
+      "references": [
+        10118796
+      ],
+      "max_width": 204,
+      "pt_bytes": 20,
+      "pixels": [
+        150
+      ]
+    },
+    {
+      "offset": "0xa37856",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300e7dce9d8d8d9e6d9d8abff",
+      "source_text": "<0xFD>Û shuddered!",
+      "english_reference": "<0xFD>Û shuddered!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} frissonne !",
+      "expected": "<0xFD><0x13> estremeceu!",
+      "references": [
+        10118808
+      ],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        123
+      ]
+    },
+    {
+      "offset": "0xa37864",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "c3e800ebd5e700d5e0d9e6e8d9d800e8e3fefd11b4e7fafd00abff",
+      "source_text": "It was alerted to\n<0xFD>Ù's<0xFA><0xFD> !",
+      "english_reference": "It was alerted to\\n<0xFD>Ù's<0xFA><0xFD> !",
+      "french_reference": "Il a pressenti\\n{B_EFF_NAME_WITH_PREFIX} :\\l{UNKNOWN_STR} !",
+      "expected": "Pressentiu o movimento de\\n<0xFD><0x11>:<0xFA><0xFD><0x00>!",
+      "references": [
+        10118820
+      ],
+      "max_width": 204,
+      "pt_bytes": 34,
+      "pixels": [
+        139,
+        59,
+        60
+      ]
+    },
+    {
+      "offset": "0xa3787f",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dae6dde7dfd9d8fefd1100d5e2d800dae3e9e2d8fadde8e700fd16abff",
+      "source_text": "<0xFD>Û frisked\n<0xFD>Ù and found<0xFA>its <0xFD>à!",
+      "english_reference": "<0xFD>Û frisked\\n<0xFD>Ù and found<0xFA>its <0xFD>à!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} a fouillé {B_EFF_NAME_WITH_PREFIX}\\net a trouvé son\\l{B_LAST_ITEM} !",
+      "expected": "<0xFD><0x13> revistou\\n<0xFD><0x11> e achou<0xFA>seu <0xFD><0x16>!",
+      "references": [
+        10119732
+      ],
+      "max_width": 204,
+      "pt_bytes": 31,
+      "pixels": [
+        103,
+        102,
+        83
+      ]
+    },
+    {
+      "offset": "0xa3789f",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "c3e800dde700dcd5dde0dde2dbadff",
+      "source_text": "It is hailing.",
+      "english_reference": "It is hailing.",
+      "french_reference": "Il grêle.",
+      "expected": "Está caindo granizo.",
+      "references": [
+        10117852
+      ],
+      "max_width": 204,
+      "pt_bytes": 21,
+      "pixels": [
+        110
+      ]
+    },
+    {
+      "offset": "0xa378ae",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "cedcd900dae3db00dde700d8d9d9e4b0ff",
+      "source_text": "The fog is deep\"",
+      "english_reference": "The fog is deep\"",
+      "french_reference": "Le brouillard est épais…",
+      "expected": "A neblina está densa...",
+      "references": [
+        10117860
+      ],
+      "max_width": 204,
+      "pt_bytes": 24,
+      "pixels": [
+        126
+      ]
+    },
+    {
+      "offset": "0xa378bf",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "bb00dcd9d5eaed00e6d5dde200d6d9dbd5e200e8e300dad5e0e0abff",
+      "source_text": "A heavy rain began to fall!",
+      "english_reference": "A heavy rain began to fall!",
+      "french_reference": "Une pluie battante tombe !",
+      "expected": "Uma chuva forte começou!",
+      "references": [
+        10117864
+      ],
+      "max_width": 204,
+      "pt_bytes": 25,
+      "pixels": [
+        141
+      ]
+    },
+    {
+      "offset": "0xa378db",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "cedcd900e7e9e2e0dddbdce800e8e9e6e2d9d800d9ece8e6d9e1d9e0ed00dcd5e6e7dcabff",
+      "source_text": "The sunlight turned extremely harsh!",
+      "english_reference": "The sunlight turned extremely harsh!",
+      "french_reference": "Le soleil devient brûlant !",
+      "expected": "A luz solar ficou extrema!",
+      "references": [
+        10116976
+      ],
+      "max_width": 204,
+      "pt_bytes": 27,
+      "pixels": [
+        147
+      ]
+    },
+    {
+      "offset": "0xa37900",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "c7ede7e8d9e6dde3e9e700e7e8e6e3e2db00ebdde2d8e700d5e6d900e4e6e3e8d9d7e8dde2dbfec0e0eddde2dbaee8ede4d900cae3df1be1e3e2abff",
+      "source_text": "Mysterious strong winds are protecting\nFlying-type Pokémon!",
+      "english_reference": "Mysterious strong winds are protecting\\nFlying-type Pokémon!",
+      "french_reference": "De puissants vents mystérieux\\nprotègent les Pokémon Vol !",
+      "expected": "Ventos fortes e misteriosos\\nprotegem os Pokémon Voadores!",
+      "references": [
+        10117868
+      ],
+      "max_width": 204,
+      "pt_bytes": 58,
+      "pixels": [
+        146,
+        167
+      ]
+    },
+    {
+      "offset": "0xa3793c",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "cedcd900e1ede7e8d9e6dde3e9e700e7e8e6e3e2db00ebdde2d8e7feebd9d5dfd9e2d9d800e8dcd900d5e8e8d5d7dfabff",
+      "source_text": "The mysterious strong winds\nweakened the attack!",
+      "english_reference": "The mysterious strong winds\\nweakened the attack!",
+      "french_reference": "Les vents mystérieux\\nont affaibli l'attaque !",
+      "expected": "Os ventos misteriosos\\nenfraqueceram o ataque!",
+      "references": [
+        9850184
+      ],
+      "max_width": 204,
+      "pt_bytes": 46,
+      "pixels": [
+        113,
+        133
+      ]
+    },
+    {
+      "offset": "0xa3796d",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "bce9e800e8dcd900d9ece8e6d9e1d9e0ed00dcd5e6e7dc00e7e9e2e0dddbdce8feebd5e700e2e3e800e0d9e7e7d9e2d9d800d5e800d5e0e0abff",
+      "source_text": "But the extremely harsh sunlight\nwas not lessened at all!",
+      "english_reference": "But the extremely harsh sunlight\\nwas not lessened at all!",
+      "french_reference": "Mais le soleil de plomb\\nne faiblit pas !",
+      "expected": "Mas a luz solar extrema\\nnão diminuiu nem um pouco!",
+      "references": [
+        9867736
+      ],
+      "max_width": 204,
+      "pt_bytes": 51,
+      "pixels": [
+        131,
+        147
+      ]
+    },
+    {
+      "offset": "0xa379a7",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "bce9e800e8dcd9e6d900dde700e2e300e6d9e0ddd9da00dae6e3e100e8dcd9fedcd9d5eaed00e6d5dde2abff",
+      "source_text": "But there is no relief from the\nheavy rain!",
+      "english_reference": "But there is no relief from the\\nheavy rain!",
+      "french_reference": "Mais la pluie battante\\ncontinue de tomber !",
+      "expected": "Mas a chuva forte\\nnão dá trégua!",
+      "references": [
+        9867755
+      ],
+      "max_width": 204,
+      "pt_bytes": 33,
+      "pixels": [
+        98,
+        81
+      ]
+    },
+    {
+      "offset": "0xa379d3",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "bce9e800e8dcd900e1ede7e8d9e6dde3e9e700e7e8e6e3e2db00ebdde2d8e7fed6e0e3eb00e3e200e6d9dbd5e6d8e0d9e7e7abff",
+      "source_text": "But the mysterious strong winds\nblow on regardless!",
+      "english_reference": "But the mysterious strong winds\\nblow on regardless!",
+      "french_reference": "Mais les vents mystérieux\\ncontinuent de souffler !",
+      "expected": "Mas os ventos misteriosos\\ncontinuam soprando!",
+      "references": [
+        9867774
+      ],
+      "max_width": 204,
+      "pt_bytes": 46,
+      "pixels": [
+        136,
+        106
+      ]
+    },
+    {
+      "offset": "0xa37a07",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "bce9e800e8dcd900eaddd7dde3e9e700e7d5e2d8e7e8e3e6e100e6d9dae9e7d9e7fee8e300e0d9e800e9e4abff",
+      "source_text": "But the vicious sandstorm refuses\nto let up!",
+      "english_reference": "But the vicious sandstorm refuses\\nto let up!",
+      "french_reference": "Mais la violente tempête\\nde sable continue !",
+      "expected": "Mas a violenta tempestade\\nde areia não dá trégua!",
+      "references": [
+        9867793
+      ],
+      "max_width": 204,
+      "pt_bytes": 50,
+      "pixels": [
+        141,
+        132
+      ]
+    },
+    {
+      "offset": "0xa37a34",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dbe3e800dde8e7fed5d7e800e8e3dbd9e8dcd9e6abff",
+      "source_text": "<0xFD>Û got its\nact together!",
+      "english_reference": "<0xFD>Û got its\\nact together!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nse ressaisit !",
+      "expected": "<0xFD><0x13> recuperou\\no ânimo!",
+      "references": [
+        10122732
+      ],
+      "max_width": 204,
+      "pt_bytes": 22,
+      "pixels": [
+        112,
+        45
+      ]
+    },
+    {
+      "offset": "0xa37a4d",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "cedcd900e4e3ebd9e600e3da00fd13b4e7fec0dde6d9aee8ede4d900e1e3ead9e700e6e3e7d9abff",
+      "source_text": "The power of <0xFD>Û's\nFire-type moves rose!",
+      "english_reference": "The power of <0xFD>Û's\\nFire-type moves rose!",
+      "french_reference": "Les capacités Feu de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\ngagnent en puissance !",
+      "expected": "<0xFD><0x13> fortaleceu\\nseus movimentos de Fogo!",
+      "references": [
+        4186680
+      ],
+      "max_width": 204,
+      "pt_bytes": 39,
+      "pixels": [
+        116,
+        137
+      ]
+    },
+    {
+      "offset": "0xa37a75",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300ebd5e700d7e9e6d9d800e3dafedde8e700fd0000e4e6e3d6e0d9e1abff",
+      "source_text": "<0xFD>Û was cured of\nits <0xFD>  problem!",
+      "english_reference": "<0xFD>Û was cured of\\nits <0xFD>  problem!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} est guéri de son problème\\n{UNKNOWN_STR} !",
+      "expected": "<0xFD><0x13> se curou\\ndo problema <0xFD><0x00>!",
+      "references": [
+        4187292
+      ],
+      "max_width": 204,
+      "pt_bytes": 28,
+      "pixels": [
+        106,
+        130
+      ]
+    },
+    {
+      "offset": "0xa37a95",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1100ebd5e700d7e9e6d9d800e3dafedde8e700fd0000e4e6e3d6e0d9e1abff",
+      "source_text": "<0xFD>Ù was cured of\nits <0xFD>  problem!",
+      "english_reference": "<0xFD>Ù was cured of\\nits <0xFD>  problem!",
+      "french_reference": "{B_EFF_NAME_WITH_PREFIX} est guéri de son problème\\n{UNKNOWN_STR} !",
+      "expected": "<0xFD><0x11> se curou\\ndo problema <0xFD><0x00>!",
+      "references": [
+        9851024
+      ],
+      "max_width": 204,
+      "pt_bytes": 28,
+      "pixels": [
+        106,
+        130
+      ]
+    },
+    {
+      "offset": "0xa37ab5",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300d6e3e9e2d7d9d800e8dcd9fefd1400d6d5d7dfabff",
+      "source_text": "<0xFD>Û bounced the\n<0xFD>Ñ back!",
+      "english_reference": "<0xFD>Û bounced the\\n<0xFD>Ñ back!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nrenvoie le {B_CURRENT_MOVE} !",
+      "expected": "<0xFD><0x13> rebateu\\n<0xFD><0x14>!",
+      "references": [
+        9854166
+      ],
+      "max_width": 204,
+      "pt_bytes": 15,
+      "pixels": [
+        100,
+        60
+      ]
+    },
+    {
+      "offset": "0xa37acd",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300dae3e6e1d9d8fed500e7d7dce3e3e0abff",
+      "source_text": "<0xFD>Û formed\na school!",
+      "english_reference": "<0xFD>Û formed\\na school!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nforme un banc !",
+      "expected": "<0xFD><0x13> formou\\num cardume!",
+      "references": [
+        9859731
+      ],
+      "max_width": 204,
+      "pt_bytes": 22,
+      "pixels": [
+        94,
+        65
+      ]
+    },
+    {
+      "offset": "0xa37ae1",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300e7e8e3e4e4d9d8fee7d7dce3e3e0dde2dbabff",
+      "source_text": "<0xFD>Û stopped\nschooling!",
+      "english_reference": "<0xFD>Û stopped\\nschooling!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nquitte la formation de banc !",
+      "expected": "<0xFD><0x13> desfez\\no cardume!",
+      "references": [
+        9859770
+      ],
+      "max_width": 204,
+      "pt_bytes": 21,
+      "pixels": [
+        94,
+        59
+      ]
+    },
+    {
+      "offset": "0xa37af7",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1700d5e0e0e3ebe700e3e2e0edfefd1400e8e300d6d900e9e7d9d8abfbff",
+      "source_text": "<0xFD>á allows only\n<0xFD>Ñ to be used!<0xFB>",
+      "english_reference": "<0xFD>á allows only\\n<0xFD>Ñ to be used!<0xFB>",
+      "french_reference": "{B_LAST_ABILITY} n'autorise\\nque {B_CURRENT_MOVE} !\\p",
+      "expected": "<0xFD><0x17> só permite\\nusar <0xFD><0x14>!<0xFB>",
+      "references": [
+        9882858
+      ],
+      "max_width": 204,
+      "pt_bytes": 24,
+      "pixels": [
+        115,
+        88,
+        0
+      ]
+    },
+    {
+      "offset": "0xa37b16",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "cedcd900c3d7d900c0d5d7d900e8e3e3df00d8d5e1d5dbd900dae3e6fefd10abff",
+      "source_text": "The Ice Face took damage for\n<0xFD>Œ!",
+      "english_reference": "The Ice Face took damage for\\n<0xFD>Œ!",
+      "french_reference": "La Tête de Gel encaisse\\npour {B_DEF_NAME_WITH_PREFIX} !",
+      "expected": "Ice Face recebeu o dano por\\n<0xFD><0x10>!",
+      "references": [
+        9852469
+      ],
+      "max_width": 204,
+      "pt_bytes": 32,
+      "pixels": [
+        159,
+        60
+      ]
+    },
+    {
+      "offset": "0xa37b37",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd10b4e700c3d7d900c0d5d7d9fee7dcd5e8e8d9e6d9d8abff",
+      "source_text": "<0xFD>Œ's Ice Face\nshattered!",
+      "english_reference": "<0xFD>Œ's Ice Face\\nshattered!",
+      "french_reference": "La Tête de Gel de\\n{B_DEF_NAME_WITH_PREFIX} se brise !",
+      "expected": "A Ice Face de\\n<0xFD><0x10> se quebrou!",
+      "references": [
+        9852497
+      ],
+      "max_width": 204,
+      "pt_bytes": 29,
+      "pixels": [
+        78,
+        124
+      ]
+    },
+    {
+      "offset": "0xa37b50",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "bbe0e000e7d7e6d9d9e2e700e3e200e8dcd900daddd9e0d800ebd9e6d9fed7e0d9d5e2e7d9d8abff",
+      "source_text": "All screens on the field were\ncleansed!",
+      "english_reference": "All screens on the field were\\ncleansed!",
+      "french_reference": "Tous les murs sur le\\nterrain sont dissipés !",
+      "expected": "Todas as barreiras do campo\\nforam removidas!",
+      "references": [
+        10117792
+      ],
+      "max_width": 204,
+      "pt_bytes": 45,
+      "pixels": [
+        154,
+        90
+      ]
+    },
+    {
+      "offset": "0xa37b78",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "c8d9e9e8e6d5e0ddeedde2db00c1d5e700dadde0e0e700e8dcd900d5e6d9d5abff",
+      "source_text": "Neutralizing Gas fills the area!",
+      "english_reference": "Neutralizing Gas fills the area!",
+      "french_reference": "Gaz Neutralisant emplit la zone !",
+      "expected": "Neutralizing Gas enche a área!",
+      "references": [
+        10116908
+      ],
+      "max_width": 204,
+      "pt_bytes": 31,
+      "pixels": [
+        169
+      ]
+    },
+    {
+      "offset": "0xa37b99",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "cedcd900d9dadad9d7e8e700e3da00c8d9e9e8e6d5e0ddeedde2db00c1d5e7feebe3e6d900e3dadaabff",
+      "source_text": "The effects of Neutralizing Gas\nwore off!",
+      "english_reference": "The effects of Neutralizing Gas\\nwore off!",
+      "french_reference": "Les effets du Gaz Neutralisant\\ns'estompent !",
+      "expected": "Os efeitos de Neutralizing Gas\\nacabaram!",
+      "references": [
+        10540268
+      ],
+      "max_width": 204,
+      "pt_bytes": 41,
+      "pixels": [
+        165,
+        53
+      ]
+    },
+    {
+      "offset": "0xa37bc3",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd10b4e700e7e8d5e800d7dcd5e2dbd9e7feebd9e6d900e6d9e1e3ead9d8abff",
+      "source_text": "<0xFD>Œ's stat changes\nwere removed!",
+      "english_reference": "<0xFD>Œ's stat changes\\nwere removed!",
+      "french_reference": "Les changements de stats de {B_DEF_NAME_WITH_PREFIX}\\nsont annulés !",
+      "expected": "<0xFD><0x10> teve suas\\nmudanças de estatísticas removidas!",
+      "references": [
+        10116980
+      ],
+      "max_width": 204,
+      "pt_bytes": 49,
+      "pixels": [
+        111,
+        196
+      ]
+    },
+    {
+      "offset": "0xa37be3",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd0f00ebd5e700dce9e6e8abff",
+      "source_text": "<0xFD>Ô was hurt!",
+      "english_reference": "<0xFD>Ô was hurt!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} est blessé !",
+      "expected": "<0xFD><0x0F> se machucou!",
+      "references": [
+        4186696
+      ],
+      "max_width": 204,
+      "pt_bytes": 16,
+      "pixels": [
+        131
+      ]
+    },
+    {
+      "offset": "0xa37bf0",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300e7dcd5e6d9d800dde8e7fefd1600ebdde8dc00fd11abff",
+      "source_text": "<0xFD>Û shared its\n<0xFD>à with <0xFD>Ù!",
+      "english_reference": "<0xFD>Û shared its\\n<0xFD>à with <0xFD>Ù!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} partage son {B_LAST_ITEM}\\navec {B_EFF_NAME_WITH_PREFIX} !",
+      "expected": "<0xFD><0x13> dividiu seu\\n<0xFD><0x16> com <0xFD><0x11>!",
+      "references": [
+        9852588
+      ],
+      "max_width": 204,
+      "pt_bytes": 26,
+      "pixels": [
+        119,
+        144
+      ]
+    },
+    {
+      "offset": "0xa37c0a",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "bce9e800fd1000d9ead5e4e3e6d5e8d9d8fee8dcd900d5e8e8d5d7dfabff",
+      "source_text": "But <0xFD>Œ evaporated\nthe attack!",
+      "english_reference": "But <0xFD>Œ evaporated\\nthe attack!",
+      "french_reference": "Mais {B_DEF_NAME_WITH_PREFIX}\\na vaporisé l'attaque !",
+      "expected": "Mas <0xFD><0x10> evaporou\\no ataque!",
+      "references": [
+        9853570
+      ],
+      "max_width": 204,
+      "pt_bytes": 26,
+      "pixels": [
+        130,
+        53
+      ]
+    },
+    {
+      "offset": "0xa37c28",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "fd1300d9ead5e4e3e6d5e8d9d8fee8dcd900e6d5dde2abff",
+      "source_text": "<0xFD>Û evaporated\nthe rain!",
+      "english_reference": "<0xFD>Û evaporated\\nthe rain!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\névapore la pluie !",
+      "expected": "<0xFD><0x13> evaporou\\na chuva!",
+      "references": [
+        9850118
+      ],
+      "max_width": 204,
+      "pt_bytes": 21,
+      "pixels": [
+        107,
+        48
+      ]
+    },
+    {
+      "offset": "0xa37c40",
+      "status": "translated",
+      "kind": "battle",
+      "source_hex": "bce9e800fd1300d9ead5e4e3e6d5e8d9e7fee6d5dde2abff",
+      "source_text": "But <0xFD>Û evaporates\nrain!",
+      "english_reference": "But <0xFD>Û evaporates\\nrain!",
+      "french_reference": "Mais {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\névapore la pluie !",
+      "expected": "Mas <0xFD><0x13> evapora\\na chuva!",
+      "references": [
+        9850092,
+        9869312
+      ],
+      "max_width": 204,
+      "pt_bytes": 24,
+      "pixels": [
+        124,
+        48
+      ]
+    },
+    {
+      "offset": "0xa37c58",
+      "status": "retained",
+      "kind": "move_description",
+      "source_hex": "aeff",
+      "source_text": "-",
+      "english_reference": "-",
+      "french_reference": null,
+      "expected": "-",
+      "references": [
+        10091916,
+        10091920,
+        10091924,
+        10091928,
+        10091932,
+        10091936,
+        10091940,
+        10091944,
+        10091948,
+        10091952,
+        10091956,
+        10091960,
+        10091964,
+        10091968,
+        10091972,
+        10091976,
+        10091980,
+        10091984,
+        10091988,
+        10091992,
+        10091996,
+        10092000,
+        10092004,
+        10092008,
+        10092012,
+        10092016,
+        10092020,
+        10092024,
+        10092028,
+        10092032,
+        10092036,
+        10092040,
+        10092044,
+        10092048,
+        10092052,
+        10092056,
+        10092060,
+        10092064,
+        10092068,
+        10092072,
+        10092076,
+        10092080,
+        10092084,
+        10092088,
+        10092092,
+        10092096,
+        10092100,
+        10092104,
+        10092108,
+        10092112,
+        10092116,
+        10092120,
+        10092124
+      ],
+      "max_width": 118,
+      "pt_bytes": 2,
+      "pixels": [
+        6
+      ],
+      "reason": "Marqueur « - » partagé des descriptions réservées ; les cellules actives 0x99fd8c à 0x99fe5c le référencent (liste exhaustive dans references). Valeur conservée, sans inventer de description."
+    },
+    {
+      "offset": "0xa37c5a",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "c8e300e1e3ead900dde2dae3e6e1d5e8dde3e2adff",
+      "source_text": "No move information.",
+      "english_reference": "No move information.",
+      "french_reference": "Aucune info de capacité.",
+      "expected": "Sem informações.",
+      "references": [
+        10088848
+      ],
+      "max_width": 118,
+      "pt_bytes": 17,
+      "pixels": [
+        89
+      ]
+    },
+    {
+      "offset": "0xa37c6f",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700e4e9e2d7dcd9d8feebdde8dc00d5e200ddd7ed00dadde7e8adfec3e800e1d5ed00e0d9d5ead900e8dcd9fedae3d900ebdde8dc00dae6e3e7e8d6dde8d9adff",
+      "source_text": "The foe is punched\nwith an icy fist.\nIt may leave the\nfoe with frostbite.",
+      "english_reference": "Un coup de poing\\nglacé vient frapper\\nl'ennemi. Peut le\\ngeler.",
+      "french_reference": "Poing glacé sur\\nl'ennemi.\\nPeut infliger une\\ngelure.",
+      "expected": "Um soco de gelo\\natinge o alvo.\\nPode causar\\ncongeladura.",
+      "references": [
+        10088880
+      ],
+      "max_width": 118,
+      "pt_bytes": 56,
+      "pixels": [
+        88,
+        78,
+        64,
+        68
+      ]
+    },
+    {
+      "offset": "0xa37cb9",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700e7e8e6e9d7dffeebdde8dc00d5e200ddd7ed00d6d9d5e1adfec3e800e1d5ed00e0d9d5ead900e8dcd9fedae3d900ebdde8dc00dae6e3e7e8d6dde8d9adff",
+      "source_text": "The foe is struck\nwith an icy beam.\nIt may leave the\nfoe with frostbite.",
+      "english_reference": "Un rayon de glace\\nfrappe l'ennemi. Peut\\naussi le geler.",
+      "french_reference": "Un rayon glacé\\nfrappe l'ennemi.\\nPeut infliger une\\ngelure.",
+      "expected": "Um raio de gelo\\natinge o alvo.\\nPode causar\\ncongeladura.",
+      "references": [
+        8885712,
+        10089080
+      ],
+      "max_width": 118,
+      "pt_bytes": 56,
+      "pixels": [
+        86,
+        78,
+        64,
+        68
+      ]
+    },
+    {
+      "offset": "0xa37d02",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bb00d6e0ddeeeed5e6d800e7e8e6dddfd9e7fee8dcd900e3e4e4e3e7dde2db00e8d9d5e1adfec3e800e1d5ed00d5e0e7e300e0d9d5ead9fee8dcd9e100ebdde8dc00dae6e3e7e8d6dde8d9adff",
+      "source_text": "A blizzard strikes\nthe opposing team.\nIt may also leave\nthem with frostbite.",
+      "english_reference": "",
+      "french_reference": "Une tempête de neige\\nfrappe l'ennemi.\\nPeut aussi infliger\\ndes gelures.",
+      "expected": "Uma nevasca atinge\\na equipe rival.\\nPode causar\\ncongeladura.",
+      "references": [
+        8885756,
+        10089084
+      ],
+      "max_width": 118,
+      "pt_bytes": 60,
+      "pixels": [
+        102,
+        83,
+        64,
+        68
+      ]
+    },
+    {
+      "offset": "0xa37d4f",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e6b4e700d6e3d8ed00dde7fedae3e6d7d9d800e8e300dbe6e3ebb8fee6d5dde7dde2db00e8dcd900bbe8e8d5d7dffed5e2d800cde4ad00bbe8df00e7e8d5e8e7adff",
+      "source_text": "The user's body is\nforced to grow,\nraising the Attack\nand Sp. Atk stats.",
+      "english_reference": "",
+      "french_reference": "Le corps du lanceur\\npousse d'un coup.\\nAugmente Attaque\\net Att. Spé.",
+      "expected": "O corpo cresce\\nà força, elevando\\no Ataque e o\\nAtaque Especial.",
+      "references": [
+        10089144
+      ],
+      "max_width": 118,
+      "pt_bytes": 63,
+      "pixels": [
+        81,
+        97,
+        71,
+        90
+      ]
+    },
+    {
+      "offset": "0xa37d98",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bb00e7dde1e9e0e8d5e2d9e3e9e7fea4aed6d9d5e100d5e8e8d5d7df00e8dcd5e8fee1d5ed00e4d5e6d5e0edeed9b800d6e9e6e2b8fee3e600dae6e3e7e8d6dde8d900e8dcd900dae3d9adff",
+      "source_text": "A simultaneous\n3-beam attack that\nmay paralyze, burn,\nor frostbite the foe.",
+      "english_reference": "",
+      "french_reference": "Triple rayon qui peut\\nparalyser, brûler\\nou infliger des\\ngelures.",
+      "expected": "Três raios podem\\nparalisar, queimar\\nou causar\\ncongeladura.",
+      "references": [
+        10089492
+      ],
+      "max_width": 118,
+      "pt_bytes": 59,
+      "pixels": [
+        90,
+        98,
+        52,
+        68
+      ]
+    },
+    {
+      "offset": "0xa37de4",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e3e4e4e3e7dde2db00e8d9d5e100dde7fedcdde800ebdde8dc00e4e3ebd8d9e6ed00e7e2e3ebfee8dcd5e800e1d5ed00e0d9d5ead900e8dcd9e1feebdde8dc00dae6e3e7e8d6dde8d9adff",
+      "source_text": "The opposing team is\nhit with powdery snow\nthat may leave them\nwith frostbite.",
+      "english_reference": "Le lanceur projette\\nde la neige\\npoudreuse. Peut aussi\\ngeler l'ennemi.",
+      "french_reference": "Neige poudreuse touche\\nl'équipe adverse.\\nPeut leur infliger\\nune gelure.",
+      "expected": "Neve em pó atinge\\na equipe rival.\\nPode causar\\ncongeladura.",
+      "references": [
+        10089572
+      ],
+      "max_width": 118,
+      "pt_bytes": 59,
+      "pixels": [
+        98,
+        83,
+        64,
+        68
+      ]
+    },
+    {
+      "offset": "0xa37e33",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bbe200d5e8e8d5d7df00e8dcd5e800dae6d9d9e7fee8dcd900e9e7d9e600dae6e3e100e8e6d5e4e7fed5e2d800dcd5eed5e6d8e7ad00bbe0e7e3fee6d5dde7d9e700cde4d9d9d8adff",
+      "source_text": "An attack that frees\nthe user from traps\nand hazards. Also\nraises Speed.",
+      "english_reference": "",
+      "french_reference": "Libère le lanceur\\ndes pièges et\\ndangers. Augmente\\nsa Vitesse.",
+      "expected": "Livra o usuário de\\narmadilhas e\\nperigos. Aumenta\\na Velocidade.",
+      "references": [
+        10089764
+      ],
+      "max_width": 118,
+      "pt_bytes": 63,
+      "pixels": [
+        101,
+        67,
+        89,
+        74
+      ]
+    },
+    {
+      "offset": "0xa37e7c",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600dce3ebe0e700e8e3fee6d5dde7d900dde8e700e8d9d5e1b4e7fee7e4dde6dde800d5e2d800d6e3e3e7e8fee8dcd9dde600bbe8e8d5d7df00e7e8d5e8e7adff",
+      "source_text": "The user howls to\nraise its team's\nspirit and boost\ntheir Attack stats.",
+      "english_reference": "Le lanceur hurle pour\\nse rassurer, ce qui\\naugmente son Attaque.",
+      "french_reference": "Le lanceur hurle\\npour motiver l'équipe\\net booste leur\\nAttaque.",
+      "expected": "Um uivo eleva\\no ânimo e o\\nAtaque de toda\\na equipe.",
+      "references": [
+        10090192
+      ],
+      "max_width": 118,
+      "pt_bytes": 51,
+      "pixels": [
+        75,
+        63,
+        82,
+        51
+      ]
+    },
+    {
+      "offset": "0xa37ec4",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bbe200d5e8e8d5d7df00e8dcd5e8fed5d6e7e3e6d6e700dcd5e0da00e8dcd9fed8d5e1d5dbd900dde800dde2dae0ddd7e8d9d8fee8e300e6d9e7e8e3e6d900c2caadff",
+      "source_text": "An attack that\nabsorbs half the\ndamage it inflicted\nto restore HP.",
+      "english_reference": "",
+      "french_reference": "Absorbe la moitié\\ndes dégâts infligés\\npour restaurer\\nles PV.",
+      "expected": "Absorve metade\\ndo dano causado\\npara recuperar\\nos PS.",
+      "references": [
+        8887296,
+        10090268
+      ],
+      "max_width": 118,
+      "pt_bytes": 53,
+      "pixels": [
+        81,
+        88,
+        80,
+        34
+      ]
+    },
+    {
+      "offset": "0xa37f07",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700e7e0ddd7d9d8fed6ed00d500d6e0d5d8d900e3da00d5dde6adfec3e800e1d5ed00d5e0e7e300e1d5dfd9fee8dcd900dae3d900dae0dde2d7dcadff",
+      "source_text": "The foe is sliced\nby a blade of air.\nIt may also make\nthe foe flinch.",
+      "english_reference": "",
+      "french_reference": "Une lame d'air\\ntranche l'ennemi.\\nPeut aussi\\nl'apeurer.",
+      "expected": "Uma lâmina de ar\\ncorta o alvo.\\nTambém pode\\nfazê-lo hesitar.",
+      "references": [
+        10090272
+      ],
+      "max_width": 118,
+      "pt_bytes": 60,
+      "pixels": [
+        91,
+        74,
+        66,
+        88
+      ]
+    },
+    {
+      "offset": "0xa37f4d",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bbe200d5e0e1e3e7e800dde2eadde7ddd6e0edfedad5e7e800e0e9e2dbd900e8dcd5e8fedde700d7d9e6e8d5dde200e8e300e7e8e6dddfd9fedadde6e7e8adff",
+      "source_text": "An almost invisibly\nfast lunge that\nis certain to strike\nfirst.",
+      "english_reference": "",
+      "french_reference": "Un bond fulgurant\\nqui touche toujours\\nen priorité\\nfrappe en premier.",
+      "expected": "Uma investida\\nquase invisível\\nque sempre\\natinge primeiro.",
+      "references": [
+        10090276
+      ],
+      "max_width": 118,
+      "pt_bytes": 58,
+      "pixels": [
+        71,
+        82,
+        58,
+        85
+      ]
+    },
+    {
+      "offset": "0xa37f8d",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700d5e8e8d5d7dfd9d8feebdde8dc00d500e7ebdde2dbdde2db00e8d5dde0fed5e700eaddd7dde3e9e700d5e700d5feebd5ead900dde200d500e7e8e3e6e1adff",
+      "source_text": "The foe is attacked\nwith a swinging tail\nas vicious as a\nwave in a storm.",
+      "english_reference": "",
+      "french_reference": "Queue fouettante\\ndéchaînée comme\\nune vague en furie\\ns'abat sur l'ennemi.",
+      "expected": "Uma cauda golpeia\\no alvo como uma\\nonda feroz em\\nplena tempestade.",
+      "references": [
+        10090280
+      ],
+      "max_width": 118,
+      "pt_bytes": 66,
+      "pixels": [
+        99,
+        89,
+        75,
+        96
+      ]
+    },
+    {
+      "offset": "0xa37fd7",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bb00d6e0d5e7e800e3da00d5e9e6d5fee4e3ebd9e600dde700e0d9e800e0e3e3e7d9fed5e800e8dcd900dae3d9ad00c3e800dde7fee7e9e6d900e8e300dcdde8adff",
+      "source_text": "A blast of aura\npower is let loose\nat the foe. It is\nsure to hit.",
+      "english_reference": "",
+      "french_reference": "Une aura puissante\\nfrappe l'ennemi.\\nNe rate jamais sa\\ncible.",
+      "expected": "Uma rajada de\\naura atinge o\\nalvo. O ataque\\nnunca erra.",
+      "references": [
+        10090284
+      ],
+      "max_width": 118,
+      "pt_bytes": 55,
+      "pixels": [
+        77,
+        73,
+        81,
+        61
+      ]
+    },
+    {
+      "offset": "0xa38019",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bbe200d5e8e8d5d7df00e1e3ead900e8dcd5e8fedbd5dde2e700dde200dde2e8d9e2e7dde8edfeddda00e8dcd900e8d5e6dbd9e800dcd5e7fedce9e6e800e8dcd900e9e7d9e6adff",
+      "source_text": "An attack move that\ngains in intensity\nif the target has\nhurt the user.",
+      "english_reference": "",
+      "french_reference": "Une capacité qui\\ngagne en puissance\\nsi la cible a blessé\\nle lanceur.",
+      "expected": "O ataque fica\\nmais forte se o\\nalvo já feriu\\no usuário.",
+      "references": [
+        8889540,
+        10090288
+      ],
+      "max_width": 118,
+      "pt_bytes": 55,
+      "pixels": [
+        74,
+        83,
+        73,
+        55
+      ]
+    },
+    {
+      "offset": "0xa38061",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600e8e9d7dfe700dde2fedde8e700ebdde2dbe700d5e2d8fed7dcd5e6dbd9e7ad00c3e800d5e0e7e3fedce9e6e8e700e8dcd900e9e7d9e6ad000000000000000000ff",
+      "source_text": "The user tucks in\nits wings and\ncharges. It also\nhurts the user.         ",
+      "english_reference": "",
+      "french_reference": "Le lanceur replie\\nses ailes et\\ncharge. Cela le\\nblesse aussi.         ",
+      "expected": "Recolhe as asas\\ne avança contra\\no alvo. Também\\nfere o usuário.",
+      "references": [
+        10090292
+      ],
+      "max_width": 118,
+      "pt_bytes": 63,
+      "pixels": [
+        86,
+        86,
+        82,
+        83
+      ]
+    },
+    {
+      "offset": "0xa380ab",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600d7e6d9d5e8d9e700d5fed8d5e1d5dbdde2db00e7e3e9e2d8feebd5ead900e8dcd5e800e1d5ed00e0e3ebd9e6fee8dcd900dae3d9b4e700cde4ad00bed9daadff",
+      "source_text": "The user creates a\ndamaging sound\nwave that may lower\nthe foe's Sp. Def.",
+      "english_reference": "",
+      "french_reference": "Crée une onde sonore\\nblessante qui peut\\nbaisser la Déf. Spé.\\nde l'ennemi.",
+      "expected": "Uma onda sonora\\nfere o alvo. Pode\\nreduzir sua\\nDefesa Especial.",
+      "references": [
+        10090296
+      ],
+      "max_width": 118,
+      "pt_bytes": 63,
+      "pixels": [
+        86,
+        98,
+        61,
+        89
+      ]
+    },
+    {
+      "offset": "0xa380f4",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600e7e8e6dddfd9e7feebdde8dc00d500e8e3e9dbdc00e4e9e2d7dcfee8dcd5e800dde700d7d9e6e8d5dde200e8e3fee7e8e6dddfd900dadde6e7e8adff",
+      "source_text": "The user strikes\nwith a tough punch\nthat is certain to\nstrike first.",
+      "english_reference": "",
+      "french_reference": "Assène un poing\\nsolide qui frappe\\ntoujours en\\npremier.",
+      "expected": "Um soco poderoso\\nque sempre\\natinge o alvo\\nprimeiro.",
+      "references": [
+        10090300
+      ],
+      "max_width": 118,
+      "pt_bytes": 52,
+      "pixels": [
+        93,
+        58,
+        73,
+        47
+      ]
+    },
+    {
+      "offset": "0xa38139",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600dadde6d9e700d5fee0e3d5d800e3da00d9e0d9d7e8e6ddd7dde8edfee8dcd5e800e1d5ed00e6d5dde7d900e8dcd9fee9e7d9e6b4e700cde4ad00bbe8dfad0000ff",
+      "source_text": "The user fires a\nload of electricity\nthat may raise the\nuser's Sp. Atk.  ",
+      "english_reference": "",
+      "french_reference": "Envoie une salve\\nd'électricité qui peut\\nmonter l'Att. Spé.\\ndu lanceur.  ",
+      "expected": "Uma descarga\\nelétrica pode\\naumentar o próprio\\nAtaque Especial.",
+      "references": [
+        8887648,
+        10090304
+      ],
+      "max_width": 118,
+      "pt_bytes": 63,
+      "pixels": [
+        70,
+        73,
+        101,
+        90
+      ]
+    },
+    {
+      "offset": "0xa38183",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700dae3e9dbdce8fee9e400d7e0e3e7d9ad00cedcdde700d7e9e8e7fee8dcd900e9e7d9e6b4e700bed9dad9e2e7d9fed5e2d800cde4ad00bed9da00e7e8d5e8e7adff",
+      "source_text": "The foe is fought\nup close. This cuts\nthe user's Defense\nand Sp. Def stats.",
+      "english_reference": "",
+      "french_reference": "Corps à corps brutal.\\nBaisse la Défense\\net la Déf. Spé.\\ndu lanceur.",
+      "expected": "Luta corpo a corpo\\nque reduz a Defesa\\ne a Defesa Especial\\ndo usuário.",
+      "references": [
+        10090308
+      ],
+      "max_width": 118,
+      "pt_bytes": 70,
+      "pixels": [
+        105,
+        105,
+        108,
+        61
+      ]
+    },
+    {
+      "offset": "0xa381cf",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bbe200d5e8e8d5d7df00ebdde8dc00d5fedcdddbdc00d7e6dde8ddd7d5e0aedcdde8fee6d5e8dde3ad00c3e800e1d5ed00d5e0e7e3fee4e3dde7e3e200e8dcd900dae3d9adff",
+      "source_text": "An attack with a\nhigh critical-hit\nratio. It may also\npoison the foe.",
+      "english_reference": "",
+      "french_reference": "Taux de critique élevé.\\nPeut aussi\\nempoisonner\\nl'ennemi.",
+      "expected": "Alta chance de\\nacerto crítico.\\nTambém pode\\nenvenenar o alvo.",
+      "references": [
+        10090312
+      ],
+      "max_width": 118,
+      "pt_bytes": 61,
+      "pixels": [
+        81,
+        83,
+        66,
+        96
+      ]
+    },
+    {
+      "offset": "0xa38215",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600e6d9e0d9d5e7d9e7fed500dce3e6e6ddd6e0d900d5e9e6d500e8dcd5e8fee1d5ed00d5e0e7e300e1d5dfd900e8dcd9fedae3d900dae0dde2d7dcadff",
+      "source_text": "The user releases\na horrible aura that\nmay also make the\nfoe flinch.",
+      "english_reference": "",
+      "french_reference": "Libère une aura\\nhorrible pouvant\\naussi apeurer\\nl'ennemi.",
+      "expected": "Uma aura horrível\\natinge o alvo.\\nTambém pode\\nfazê-lo hesitar.",
+      "references": [
+        8889848,
+        10090316
+      ],
+      "max_width": 118,
+      "pt_bytes": 62,
+      "pixels": [
+        98,
+        78,
+        66,
+        88
+      ]
+    },
+    {
+      "offset": "0xa3825a",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600e0e3e3e7d9e700d5e2fed9e0d9d7e8e6ddd700dae0d5e6d900e8dcd5e8fedcdde8e700d5e0e000cae3df1be1e3e2fed5e2d800e1d5ed00e4d5e6d5e0edeed9ad000000000000000000ff",
+      "source_text": "The user looses an\nelectric flare that\nhits all Pokémon\nand may paralyze.         ",
+      "english_reference": "",
+      "french_reference": "Lance une gerbe\\nélectrique qui touche\\ntous les Pokémon\\net peut paralyser.         ",
+      "expected": "Uma descarga atinge\\ntodos os Pokémon.\\nTambém pode\\nparalisar.",
+      "references": [
+        10090320
+      ],
+      "max_width": 118,
+      "pt_bytes": 61,
+      "pixels": [
+        108,
+        96,
+        66,
+        53
+      ]
+    },
+    {
+      "offset": "0xa382ad",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bbe200dde2e8d9e2e7d900d5e8e8d5d7dffee8dcd5e800d5e0e7e300e7dcd5e6e4e0edfee6d9d8e9d7d9e700e8dcd900e9e7d9e6b4e7fecde4ad00bbe8df00e7e8d5e8adff",
+      "source_text": "An intense attack\nthat also sharply\nreduces the user's\nSp. Atk stat.",
+      "english_reference": "",
+      "french_reference": "Attaque intense qui\\nfait chuter beaucoup\\nl'Att. Spé. du\\nlanceur.",
+      "expected": "Um ataque intenso\\nque reduz muito\\no Ataque Especial\\ndo usuário.",
+      "references": [
+        10090324
+      ],
+      "max_width": 118,
+      "pt_bytes": 64,
+      "pixels": [
+        95,
+        86,
+        97,
+        61
+      ]
+    },
+    {
+      "offset": "0xa382f2",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700d5e8e8d5d7dfd9d8feebdde8dc00d500e7dce3d7df00ebd5ead9fedbd9e2d9e6d5e8d9d800d6ed00e8dcd9fee9e7d9e6b4e700dbd5e4dde2db00e1e3e9e8dcadff",
+      "source_text": "The foe is attacked\nwith a shock wave\ngenerated by the\nuser's gaping mouth.",
+      "english_reference": "",
+      "french_reference": "Une onde de choc\\nfrappe l'ennemi,\\nvenue de la\\nlarge bouche du lanceur.",
+      "expected": "Uma onda de choque\\nsai da boca aberta\\ndo usuário e\\natinge o alvo.",
+      "references": [
+        8888968,
+        10090328
+      ],
+      "max_width": 118,
+      "pt_bytes": 66,
+      "pixels": [
+        107,
+        103,
+        68,
+        78
+      ]
+    },
+    {
+      "offset": "0xa3833e",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bb00dcd5e6e7dc00e4e9e2d7dc00e8dcd5e8fed5d6e7e3e6d6e700dcd5e0da00e8dcd9fed8d5e1d5dbd900dde800dde2dae0ddd7e8d9d8fee8e300e6d9e7e8e3e6d900c2caadff",
+      "source_text": "A harsh punch that\nabsorbs half the\ndamage it inflicted\nto restore HP.",
+      "english_reference": "",
+      "french_reference": "Un coup violent qui\\nvole la moitié des\\ndégâts pour rendre\\ndes PV.",
+      "expected": "Um soco absorve\\nmetade do dano\\ncausado para\\nrecuperar PS.",
+      "references": [
+        8889012,
+        10090332
+      ],
+      "max_width": 118,
+      "pt_bytes": 58,
+      "pixels": [
+        87,
+        82,
+        70,
+        74
+      ]
+    },
+    {
+      "offset": "0xa38385",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dbe6e3e9e2d800e9e2d8d9e600e8dcd9fedae3d900d9e6e9e4e8e7ad00c3e800e1d5edfed5e0e7e300e0e3ebd9e600e8dcd900dae3d9b4e7fecde4ad00bed9daad00000000000000000000ff",
+      "source_text": "The ground under the\nfoe erupts. It may\nalso lower the foe's\nSp. Def.          ",
+      "english_reference": "",
+      "french_reference": "Le sol explose sous\\nl'ennemi. Peut aussi\\nbaisser la Déf. Spé.\\nde l'ennemi.          ",
+      "expected": "O chão sob o alvo\\nentra em erupção.\\nPode reduzir sua\\nDefesa Especial.",
+      "references": [
+        10090336
+      ],
+      "max_width": 118,
+      "pt_bytes": 70,
+      "pixels": [
+        100,
+        97,
+        91,
+        89
+      ]
+    },
+    {
+      "offset": "0xa383d5",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700d6e0d5e7e8d9d8feebdde8dc00e2d5e8e9e6d5e000d9e2d9e6dbedadfec3e800e1d5ed00d5e0e7e300e0e3ebd9e6fee8dcd900dae3d9b4e700cde4ad00bed9daadff",
+      "source_text": "The foe is blasted\nwith natural energy.\nIt may also lower\nthe foe's Sp. Def.",
+      "english_reference": "",
+      "french_reference": "Énergie naturelle\\nfrappe l'ennemi.\\nPeut aussi baisser\\nsa Déf. Spé.",
+      "expected": "Energia natural\\natinge o alvo.\\nPode reduzir sua\\nDefesa Especial.",
+      "references": [
+        8887472,
+        10090340
+      ],
+      "max_width": 118,
+      "pt_bytes": 65,
+      "pixels": [
+        82,
+        78,
+        91,
+        89
+      ]
+    },
+    {
+      "offset": "0xa38422",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600e9e2e0d9d5e7dcd9e7fedde8e700e4e3ebd9e6ad00c3e800e1d5edfed5e0e7e300e0e3ebd9e600e8dcd9fedae3d9b4e700cde4ad00bed9daadff",
+      "source_text": "The user unleashes\nits power. It may\nalso lower the\nfoe's Sp. Def.",
+      "english_reference": "",
+      "french_reference": "Le lanceur déchaîne\\nsa puissance. Peut\\naussi baisser la\\nDéf. Spé. ennemie.",
+      "expected": "Libera seu poder\\ncontra o alvo.\\nPode reduzir sua\\nDefesa Especial.",
+      "references": [
+        8887428,
+        10090344
+      ],
+      "max_width": 118,
+      "pt_bytes": 66,
+      "pixels": [
+        91,
+        79,
+        91,
+        89
+      ]
+    },
+    {
+      "offset": "0xa38465",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700d5e8e8d5d7dfd9d8feebdde8dc00d500e7dce3d7df00ebd5ead9fee8dcd5e800e1d5ed00d5e0e7e300e0d9d5ead9fedde800e4d5e6d5e0edeed9d8adff",
+      "source_text": "The foe is attacked\nwith a shock wave\nthat may also leave\nit paralyzed.",
+      "english_reference": "Une onde de choc\\nfrappe l'ennemi. Peut\\naussi paralyser la\\ncible.",
+      "french_reference": "Une onde de choc\\nfrappe l'ennemi.\\nPeut aussi le\\nparalyser.",
+      "expected": "Uma onda de choque\\natinge o alvo.\\nTambém pode\\nparalisá-lo.",
+      "references": [
+        10090348
+      ],
+      "max_width": 118,
+      "pt_bytes": 59,
+      "pixels": [
+        107,
+        78,
+        66,
+        65
+      ]
+    },
+    {
+      "offset": "0xa384ad",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bb00e7d9ead9e6d9e0ed00d8d5e1d5dbdde2dbfed5e8e8d5d7df00e8dcd5e800e1d5dfd9e7fee8dcd900e9e7d9e600e6d9e7e800e3e2fee8dcd900e2d9ece800e8e9e6e2adff",
+      "source_text": "A severely damaging\nattack that makes\nthe user rest on\nthe next turn.",
+      "english_reference": "",
+      "french_reference": "Attaque très puissante\\nqui force le lanceur\\nà se reposer\\nau tour suivant.",
+      "expected": "Um ataque potente\\nque exige descanso\\ndo usuário no\\npróximo turno.",
+      "references": [
+        8889364,
+        10090352
+      ],
+      "max_width": 118,
+      "pt_bytes": 66,
+      "pixels": [
+        98,
+        103,
+        73,
+        77
+      ]
+    },
+    {
+      "offset": "0xa384f3",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "c1e6d5e7e700e7e2d5e6d9e700d5e2d8fee8e6dde4e700e8dcd900dae3d9ad00c3e8fed8e3d9e700e1e3e6d900d8d5e1d5dbd9fee8e300dcd9d5eaddd9e600dae3d9e7adff",
+      "source_text": "Grass snares and\ntrips the foe. It\ndoes more damage\nto heavier foes.",
+      "english_reference": "",
+      "french_reference": "L'herbe piège et\\nfait trébucher\\nl'ennemi. Plus il\\nest lourd, plus ça fait mal.",
+      "expected": "Grama prende e\\nderruba o alvo.\\nQuanto mais pesa,\\nmaior o dano.",
+      "references": [
+        8890156,
+        10090356
+      ],
+      "max_width": 118,
+      "pt_bytes": 63,
+      "pixels": [
+        81,
+        86,
+        95,
+        73
+      ]
+    },
+    {
+      "offset": "0xa38538",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "c0dde0e8dced00dbd5e6d6d5dbd900dde7fee7dce3e800d5e800e8dcd900dae3d9adfec3e800e1d5ed00d5e0e7e300e4e3dde7e3e2fee8dcd900e8d5e6dbd9e8adff",
+      "source_text": "Filthy garbage is\nshot at the foe.\nIt may also poison\nthe target.",
+      "english_reference": "",
+      "french_reference": "Un tas d'ordures\\nest lancé. Peut aussi\\nempoisonner\\nl'adversaire.",
+      "expected": "Lixo imundo é\\nlançado no alvo.\\nTambém pode\\nenvenená-lo.",
+      "references": [
+        10090360
+      ],
+      "max_width": 118,
+      "pt_bytes": 56,
+      "pixels": [
+        73,
+        91,
+        66,
+        67
+      ]
+    },
+    {
+      "offset": "0xa3857a",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600e7ebdde2dbe7fedde8e700dcd9d5eaed00dadde7e8adfec3e800d5e0e7e300e0e3ebd9e6e700e8dcd9fee9e7d9e6b4e700cde4d9d9d8adff",
+      "source_text": "The user swings\nits heavy fist.\nIt also lowers the\nuser's Speed.",
+      "english_reference": "",
+      "french_reference": "Balance un poing\\nlourd. Baisse aussi\\nla Vitesse du\\nlanceur.",
+      "expected": "Golpeia com um\\npunho pesado.\\nTambém reduz a\\nprópria Velocidade.",
+      "references": [
+        10090364
+      ],
+      "max_width": 118,
+      "pt_bytes": 64,
+      "pixels": [
+        81,
+        75,
+        83,
+        106
+      ]
+    },
+    {
+      "offset": "0xa385bb",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bb00e6d9d7dfe0d9e7e7b800e0dddad9aefee6dde7dfdde2db00e8d5d7dfe0d900e8dcd5e8fed5e0e7e300dce9e6e8e700e8dcd900e9e7d9e6fee8d9e6e6ddd6e0edadff",
+      "source_text": "A reckless, life-\nrisking tackle that\nalso hurts the user\nterribly.",
+      "english_reference": "",
+      "french_reference": "Tacle kamikaze\\nqui blesse aussi\\nterriblement le\\nlanceur.",
+      "expected": "Uma investida\\narriscada que\\ntambém fere muito\\no usuário.",
+      "references": [
+        10090368
+      ],
+      "max_width": 118,
+      "pt_bytes": 57,
+      "pixels": [
+        71,
+        73,
+        96,
+        55
+      ]
+    },
+    {
+      "offset": "0xa385ff",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600dce9e6e0e7fed7dce9e2dfe700e3da00ddd7d9fee8dcd5e800d5e6d900d7d9e6e8d5dde200e8e3fee7e8e6dddfd900dadde6e7e8adff",
+      "source_text": "The user hurls\nchunks of ice\nthat are certain to\nstrike first.",
+      "english_reference": "",
+      "french_reference": "Lance des blocs\\nde glace. Frappe\\ntoujours en\\npremier.",
+      "expected": "Lança blocos\\nde gelo que\\nsempre atingem\\nprimeiro.",
+      "references": [
+        10090372
+      ],
+      "max_width": 118,
+      "pt_bytes": 50,
+      "pixels": [
+        69,
+        65,
+        78,
+        47
+      ]
+    },
+    {
+      "offset": "0xa3863e",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700e7e0d5e1e1d9d8feebdde8dc00dde8e700dcd5e6d800dcd9d5d8adfec3e800e1d5ed00d5e0e7e300e1d5dfd9fee8dcd900dae3d900dae0dde2d7dcadff",
+      "source_text": "The foe is slammed\nwith its hard head.\nIt may also make\nthe foe flinch.",
+      "english_reference": "",
+      "french_reference": "Percute avec\\nune tête dure.\\nPeut aussi\\napeurer.",
+      "expected": "Uma cabeçada\\nforte atinge o\\nalvo. Pode\\nfazê-lo hesitar.",
+      "references": [
+        10090376
+      ],
+      "max_width": 118,
+      "pt_bytes": 56,
+      "pixels": [
+        72,
+        77,
+        58,
+        88
+      ]
+    },
+    {
+      "offset": "0xa38686",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cdd7d5e6e0d9e800dae0d5e1d9e700ebd5e7dcfee3ead9e600d5e0e000cae3df1be1e3e200dde2fed6d5e8e8e0d9ad00c3e800e1d5ed00d5e0e7e3fedde2dae0ddd7e800d6e9e6e2e7adff",
+      "source_text": "Scarlet flames wash\nover all Pokémon in\nbattle. It may also\ninflict burns.",
+      "english_reference": "",
+      "french_reference": "Des flammes écarlates\\nbalayent le combat.\\nPeut aussi\\nbrûler.",
+      "expected": "Chamas escarlates\\natingem todos os\\nPokémon. Também\\npodem queimar.",
+      "references": [
+        10090380
+      ],
+      "max_width": 118,
+      "pt_bytes": 66,
+      "pixels": [
+        96,
+        89,
+        87,
+        80
+      ]
+    },
+    {
+      "offset": "0xa386d1",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "bb00e7e8d9d9e000d6e3e1d600dde7fee7e8e9d7df00e8e300e8dcd900dae3d9adfec3e800dde700e7e9e6d900e8e300dcdde8adff",
+      "source_text": "A steel bomb is\nstuck to the foe.\nIt is sure to hit.",
+      "english_reference": "",
+      "french_reference": "Une bombe d'acier\\ncolle à l'ennemi.\\nNe rate jamais sa cible.",
+      "expected": "Uma bomba de aço\\né presa ao alvo.\\nO ataque nunca\\nerra.",
+      "references": [
+        10090384
+      ],
+      "max_width": 118,
+      "pt_bytes": 55,
+      "pixels": [
+        96,
+        92,
+        81,
+        27
+      ]
+    },
+    {
+      "offset": "0xa38706",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900dae3d900dde700e7e8e6e9d7dffeebdde8dc00d500e1e9d800d6d5e0e0fee8dcd5e800e1d5ed00d5e0e7e300e0e3ebd9e6fedde8e700d5d7d7e9e6d5d7edadff",
+      "source_text": "The foe is struck\nwith a mud ball\nthat may also lower\nits accuracy.",
+      "english_reference": "",
+      "french_reference": "Une boule de boue\\nfrappe et peut\\naussi baisser la\\nPrécision.",
+      "expected": "Uma bola de lama\\natinge o alvo.\\nPode reduzir\\nsua Precisão.",
+      "references": [
+        10090388
+      ],
+      "max_width": 118,
+      "pt_bytes": 59,
+      "pixels": [
+        94,
+        78,
+        68,
+        72
+      ]
+    },
+    {
+      "offset": "0xa3874a",
+      "status": "translated",
+      "kind": "move_description",
+      "source_hex": "cedcd900e9e7d9e600e8dcdde2dfe7fed6d5d800e8dce3e9dbdce8e7ad00c3e8fee7dcd5e6e4e0ed00e6d5dde7d9e700e8dcd9fecde4ad00bbe8df00e7e8d5e8adff",
+      "source_text": "The user thinks\nbad thoughts. It\nsharply raises the\nSp. Atk stat.",
+      "english_reference": "",
+      "french_reference": "De mauvaises\\npensées montent.\\nAugmente beaucoup\\nl'Att. Spé.",
+      "expected": "Pensamentos ruins\\naumentam muito\\no próprio\\nAtaque Especial.",
+      "references": [
+        10090392
+      ],
+      "max_width": 118,
+      "pt_bytes": 60,
+      "pixels": [
+        92,
+        79,
+        50,
+        90
+      ]
+    }
+  ]
+}
