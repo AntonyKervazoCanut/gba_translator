@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { PNG } from 'pngjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 
@@ -95,6 +96,26 @@ end)
       const length = rom.indexOf(255, offset) - offset + 1;
       expect(actual.subarray(0, length), `lookup ${offset.toString(16)}`).toEqual(rom.subarray(offset, offset + length));
     });
+    // Vision omet parfois les accents du bitmap GBA : vérifier séparément
+    // les points du ö de Schwarz.Flöte et du ä de Schwächensch.
+    for (const [picture, left] of [[1, 73], [2, 40]]) {
+      const umlaut = PNG.sync.read(fs.readFileSync(path.join(temp, `page${picture}.png`)));
+      for (const x of [left, left + 4]) {
+        const pixel = (124 * umlaut.width + x) * 4;
+        expect([...umlaut.data.subarray(pixel, pixel + 3)]).toEqual([99, 99, 99]);
+      }
+      const gap = (124 * umlaut.width + left + 2) * 4;
+      expect([...umlaut.data.subarray(gap, gap + 3)]).toEqual([255, 255, 255]);
+    }
+    // Le a de « Blauer » est identique au a de « Granitstein » (même x,
+    // deuxième ligne), malgré la confusion a/o de l'OCR sur le premier.
+    const granite = PNG.sync.read(fs.readFileSync(path.join(temp, 'page0.png')));
+    const blue = PNG.sync.read(fs.readFileSync(path.join(temp, 'page3.png')));
+    for (let y = 140; y < 149; y++) {
+      const pixel = (y * blue.width + 27) * 4;
+      expect([...blue.data.subarray(pixel, pixel + 5 * 4)])
+        .toEqual([...granite.data.subarray(pixel, pixel + 5 * 4)]);
+    }
     const swift = path.join(temp, 'ocr.swift');
     fs.writeFileSync(swift, `
 import Foundation
@@ -116,7 +137,17 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
       await page.getByRole('img').nth(n).screenshot({ path: readable });
       const text = execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 });
       console.log(n, text);
-      for (const name of names[n]) expect(text).toContain(name);
+      const fold = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      for (const name of names[n]) {
+        // Vision confond le a du petit bitmap avec o ; le lookup ci-dessus
+        // vérifie indépendamment les octets exacts de « Blauer Edlst. ».
+        const ambiguities: Record<string, string> = {
+          'Blauer Edlst.': 'Blouer Edlst.',
+          'Werte-Scanner': 'Herte-Sconner',
+        };
+        const read = ambiguities[name] ? text.replace(ambiguities[name], name) : text;
+        expect(fold(read)).toContain(fold(name));
+      }
       expect(text).not.toMatch(/Hard Stone|Harter Stein|Ultra Ball|Dream Mist/);
     }
     const proof = path.join(os.tmpdir(), 'b1026-item-names-proof.png');

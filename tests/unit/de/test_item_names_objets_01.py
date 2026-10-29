@@ -36,6 +36,19 @@ def test_atomic_bounded_write_and_idempotence():
     assert patch.apply_scoped_item_names(rom, original, targets()) == 0
 
 
+def test_preserves_already_relocated_description_pointer():
+    source = fixture_rom()
+    rom = bytearray(source)
+    # Une description traduite est déjà relocalisée avant le patch des noms.
+    offset = 0x876620
+    relocated = bytes.fromhex('6be31808')
+    rom[offset + 20:offset + 24] = relocated
+    metadata = bytes(rom[offset + 14:offset + 44])
+    patch.apply_scoped_item_names(rom, source, targets())
+    assert rom[offset + 14:offset + 44] == metadata
+    assert rom[offset + 20:offset + 24] != source[offset + 20:offset + 24]
+
+
 @pytest.mark.parametrize('fault', ['preimage', 'target', 'pointer', 'long', 'missing', 'control'])
 def test_validation_precedes_every_write(fault):
     source = fixture_rom()
