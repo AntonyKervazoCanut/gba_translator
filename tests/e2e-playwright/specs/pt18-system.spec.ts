@@ -113,7 +113,8 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
       await page.setContent(`<style>body{margin:0}img{width:960px;height:640px;image-rendering:pixelated}</style><img alt="${scene.title}" src="data:image/png;base64,${data}">`);
       await page.getByRole('img').evaluate(image => (image as HTMLImageElement).decode());
       const readable = path.join(temp, 'readable.png');
-      await page.getByRole('img').screenshot({ path: readable });
+      // OCR limité à l'intérieur de la msgbox native, sans décor parasite.
+      await page.screenshot({ path: readable, clip: { x: 32, y: 480, width: 896, height: 128 } });
       const text = normalize(execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 }));
       observations.push(`${frame}: ${text}`);
       if (scene.matches.every(pattern => pattern.test(text))) {
@@ -196,7 +197,8 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
     execFileSync('swiftc', [swift, '-o', ocr], { timeout: 60_000 });
     await page.setContent(`<style>body{margin:0}img{width:960px;height:640px;image-rendering:pixelated}</style><img alt="PT-18 : description de ${sample.id}" src="data:image/png;base64,${fs.readFileSync(path.join(temp, 'page0.png')).toString('base64')}">`);
     const readable = path.join(temp, 'readable.png');
-    await page.getByRole('img').screenshot({ path: readable });
+    // Le panneau TM seul évite que les titres anglais biaisent l'OCR PT.
+    await page.screenshot({ path: readable, clip: { x: 384, y: 384, width: 576, height: 256 } });
     const text = execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 });
     console.log(text);
     // L'OCR varie sur les accents de la police pixel ; les octets sont

@@ -77,3 +77,17 @@ def test_dedicated_finalizer_follows_all_generic_repairs():
     assert steps.count('batch_18') == 1
     for step in ('inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale'):
         assert steps.index(step) < steps.index('batch_18')
+
+
+def test_replaced_descriptions_are_exceptions_without_cross_batch_translation():
+    texts = values()
+    replaced = [r for r in ROWS if r.get('exception_kind') == 'obsolete_description']
+    assert {r['replacement']['move_id'] for r in replaced} == {8, 58, 59, 74}
+    for row in replaced:
+        assert row['status'] == 'exception' and not row['references']
+        assert row['legacy_references'] and row['replacement']['references']
+        assert int(row['offset'], 16) not in texts
+        assert 'portuguese' not in row
+    # Les mécaniques nouvelles sont de vrais remplacements, pas des variantes
+    # françaises à retraduire au même offset historique.
+    assert sum('frostbite' in r['replacement']['english'] for r in replaced) == 3
