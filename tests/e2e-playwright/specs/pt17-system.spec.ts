@@ -8,9 +8,9 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { normalizePortugueseOcr as normalize } from '../helpers/pt17-ocr.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
-const normalize = (text: string): string => text.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim();
 
 test('PT-17 : les messages de communication gardent leur texte et leurs accents dans mGBA', async ({ page }) => {
   // Arrange : une copie privée et les consommateurs réels de la ROM construite.

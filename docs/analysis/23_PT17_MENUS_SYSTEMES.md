@@ -310,3 +310,5 @@ Les anciennes copies Deoxys et leurs suffixes n’appartiennent pas à la table 
 ## Non vérifié
 
 La sonde de rendu ne constitue pas une session de liaison multijoueur réelle. Aucun parcours complet du Pokédex ou de l’éditeur de décorations n’est revendiqué ; leurs 137 textes sont vérifiés en octets, en structure et en budgets de police. Aucun code partagé, fichier de traduction d’une autre langue ou offset de traduction d’un autre lot n’est modifié. Aucun push ni lancement de pipeline distant.
+
+Après intégration de PT-15/PT-16 : 77 tests de sources/protections/registre et 14 tests ROM des trois lots réussis ; rebuild PT, lint ciblé et TypeScript réussis. Playwright réussit sur cette ROM intégrée et la capture finale est jointe au ticket. Vision a une fois reconnu le a latin de « Boa » en U+0430 cyrillique alors que les pixels du texte étaient identiques. La normalisation OCR de cette seule sonde convertit désormais cet homoglyphe ; trois tests Vitest couvrent ce cas, les accents/espaces et la conservation des vraies erreurs/du texte anglais. Les assertions de texte complet et les comparaisons binaires restent actives.
