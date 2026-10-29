@@ -444,6 +444,7 @@ de_only_rom_tests:
     - tests/test_pc_menu_descriptions_de.py
     - tests/unit/de/test_audit_species_names_de.py
     - tests/unit/de/test_audit_english_toponyms_de.py
+    - tests/unit/de/test_combat_ui_05_qualification.py
     - tests/unit/de/test_english_toponyms_de.py
     - tests/unit/de/test_f601_content_batches_de.py
     - tests/unit/de/test_patch_cry_label_de.py
