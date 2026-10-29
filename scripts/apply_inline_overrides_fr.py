@@ -477,6 +477,8 @@ def main() -> int:
         type=Path,
         help='Translation JSON to skip pointer-based offsets',
     )
+    parser.add_argument('--no-template-fallback', action='store_true',
+                        help='Do not expand translations to unrequested template offsets')
     parser.add_argument('--min-length', type=int, default=4, help='Min inline byte length (incl. 0xFF terminator); 4 = 3-char words like "Mom"')
     parser.add_argument(
         '--collision-guard',
@@ -523,7 +525,7 @@ def main() -> int:
     translated_offsets = _load_translation_offsets(args.translations)
     dedicated_offsets = _dedicated_offsets_for_combined(args.combined)
     translation_items = _load_translation_items(args.translations)
-    template_map = _build_template_map(translation_items)
+    template_map = {} if args.no_template_fallback else _build_template_map(translation_items)
     spanish_map = _load_extracted_map(args.reference_texts)
     english_map = _load_extracted_map(args.english_texts)
 

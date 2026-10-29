@@ -63,6 +63,7 @@ class LanguageConfig:
     status_abbrev: Dict[str, str] = field(default_factory=dict)
     patches: List[str] = field(default_factory=list)
     item_descriptions: Optional[str] = None
+    system_texts: Optional[str] = None
     descriptor_path: Optional[Path] = None
 
     # -- convenience accessors -------------------------------------------------
@@ -204,6 +205,7 @@ def _validate(data: dict, source: Path) -> LanguageConfig:
         status_abbrev=dict(data.get("status_abbrev") or {}),
         patches=list(data.get("patches") or []),
         item_descriptions=data.get("item_descriptions"),
+        system_texts=data.get("system_texts"),
         descriptor_path=source,
     )
 

@@ -11,6 +11,7 @@ FIXTURE = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es001.json'
 EXTRA = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es003.json').read_text())
 for language in ('english', 'spanish'):
     FIXTURE[language].extend(EXTRA[language])
+    FIXTURE[language].extend(json.loads((Path(__file__).parent / 'fixtures/text_aliases/es002.json').read_text())[language])
 
 
 def rom_fixture():
@@ -29,7 +30,7 @@ def rom_fixture():
 
 def test_real_preimages_resolve_ten_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 14
+    assert len(aliases.entries) == 18
     assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
     assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries
@@ -258,3 +259,23 @@ def test_builder_refuses_alias_above_512_bytes():
             'translation': 'A' * 512, 'english_raw_bytes': entry['raw_bytes'],
             'preserve_control_flow': True,
         })
+
+
+def test_es002_adds_only_the_four_contractual_aliases():
+    aliases = TextAliases.load(CONTRACT, rom_fixture())
+    expected = {0x1A5AD5: 0x1A5AD6, 0x1B1D7C: 0x1B1D7D,
+                0x1BC310: 0x1BC311, 0x1C27E6: 0x1C27E7}
+    assert {k: e['live_offset'] for k,e in aliases.entries.items()
+            if 0x1A5133 <= k <= 0x23E5A6} == expected
+    for key, live in expected.items():
+        with pytest.raises(ValueError, match='collision'):
+            aliases.check_keys({key, live})
+
+
+@pytest.mark.parametrize('position', [0x1A5AD5, 0x1B1D7C, 0x1BC310, 0x1C27E6,
+                                    0x16E35F, 0x1B286E, 0x1BB44B, 0x1AABFD, 0x1AAC24])
+def test_es002_aliases_reject_changed_prefixes_and_consumers(position):
+    source = bytearray(rom_fixture())
+    source[position] ^= 1
+    with pytest.raises(ValueError):
+        TextAliases.load(CONTRACT, source)

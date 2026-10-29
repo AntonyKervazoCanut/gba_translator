@@ -42,10 +42,7 @@ class ItemDescriptionRoutes:
                 pos = source.find(needle, pos + 1)
             if not refs or sorted(refs) != actual or used.intersection(refs):
                 raise ValueError(f'0x{offset:X}: consommateurs ambigus ou différents')
-            consumers = [ITEM_TABLE_BASE + item * ITEM_STRIDE + DESCRIPTION_FIELD
-                         for item in entry['item_ids']]
-            if not consumers or any(p not in refs for p in consumers):
-                raise ValueError(f'0x{offset:X}: consommateur gItems absent')
+            cls.validate_consumers(entry, source)
             entries[offset] = entry
             spans.append((offset, offset + len(raw)))
             used.update(refs)
@@ -55,13 +52,26 @@ class ItemDescriptionRoutes:
         return cls(entries)
 
     @staticmethod
+    def validate_consumers(entry: dict, source: bytes) -> None:
+        """Vérifie la fenêtre gItems à partir de ses consommateurs."""
+        consumers = [ITEM_TABLE_BASE + item * ITEM_STRIDE + DESCRIPTION_FIELD
+                     for item in entry['item_ids']]
+        if not consumers or any(p not in entry['pointer_offsets'] for p in consumers):
+            raise ValueError(f"{entry['offset']}: consommateur gItems absent")
+
+    @staticmethod
+    def layout_metadata() -> dict:
+        """Déclare les contraintes de la fenêtre des descriptions."""
+        return {'category': 'description', 'layout': {
+            'max_lines': 3, 'max_width': 176, 'preserve_line_count': False}}
+
+    @staticmethod
     def normalize(item: dict) -> dict:
         """Réutilise le contrat de normalisation du builder, sans rewrap parallèle."""
-        builder_type = importlib.import_module(
-            'src.translators.19_build_translated_rom_generic'
-        ).TranslatedROMBuilder
-        builder = builder_type.__new__(builder_type)
+        module = importlib.import_module('src.translators.19_build_translated_rom_generic')
+        builder = module.TranslatedROMBuilder.__new__(module.TranslatedROMBuilder)
         builder.english_texts = None
+        builder.config = module.BuildConfig(source_rom=Path(), preserve_spanish_glyphs=True)
         return builder._normalize_translation_item(item['offset'], item)
 
     def enrich_json(self, path: Path, combined: dict[int, str]) -> int:
@@ -88,7 +98,7 @@ class ItemDescriptionRoutes:
                 english_raw_bytes=raw.hex(), original_length=len(raw)-1,
                 max_length=len(raw), padding_available=0,
                 pointer_offsets=entry['pointer_offsets'], encoding='pokemon',
-                category='description', layout={'max_lines': 3, 'max_width': 176, 'preserve_line_count': False},
+                **self.layout_metadata(),
                 allow_fallback=False, allow_truncate=False,
             )
             # Validation immédiate : une mauvaise traduction ne peut devenir un
@@ -115,3 +125,21 @@ class ItemDescriptionRoutes:
         spans = sorted(spans)
         if any(end > start for (_, end), (start, _) in zip(spans, spans[1:])):  # noqa: RUF007 (Python 3.9)
             raise ValueError('Allocations de descriptions chevauchantes')
+
+
+class SystemTextRoutes(ItemDescriptionRoutes):
+    """Réutilise le routage validé pour les consommateurs système paginés."""
+
+    @staticmethod
+    def validate_consumers(entry: dict, source: bytes) -> None:
+        """Vérifie aussi les opcodes lorsqu'un consommateur est un script."""
+        for offset, expected in entry.get('script_opcodes', {}).items():
+            site = int(offset, 16)
+            raw = bytes.fromhex(expected)
+            if site + len(raw) not in entry['pointer_offsets'] or source[site:site+len(raw)] != raw:
+                raise ValueError(f"{entry['offset']}: opcode consommateur différent")
+
+    @staticmethod
+    def layout_metadata() -> dict:
+        """Conserve le contrat de commandes existant, notamment FA et FB."""
+        return {'category': 'dialogue', 'preserve_control_flow': True}

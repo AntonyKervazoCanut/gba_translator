@@ -144,7 +144,7 @@ def test_generic_driver_consumes_routes_in_its_real_json(tmp_path, monkeypatch):
                         'TRANSLATION_DIR': tmp_path}.items():
         monkeypatch.setattr(driver, name, value)
     # Only output paths are redirected; the real CSV subprocess and converter run.
-    config = replace(driver.load_registry().get('es-maint'), combined=str(combined), text_aliases=None)
+    config = replace(driver.load_registry().get('es-maint'), combined=str(combined), text_aliases=None, system_texts=None)
     monkeypatch.setattr(type(config), 'translation_json_path', lambda self, root: tmp_path / 'ready.json')
 
     result = driver.generate_translation_json(config)

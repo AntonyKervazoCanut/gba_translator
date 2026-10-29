@@ -33,6 +33,7 @@ def test_ten_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
     combined.write_text(''.join(lines))
     config = replace(config, combined=str(combined), text_aliases=str(contract_path),
                      item_descriptions=str(ROOT / config.item_descriptions),
+                     system_texts=str(ROOT / config.system_texts),
                      output_rom=str(tmp_path / 'sentinel.gba'))
     with monkeypatch.context() as patch:
         patch.setattr(driver, 'REPO_ROOT', tmp_path)

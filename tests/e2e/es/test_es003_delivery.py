@@ -27,6 +27,7 @@ def test_every_contract_offset_has_one_final_decision():
 
 def test_translations_reach_all_frozen_consumers_after_patches():
     rom = (ROOT / 'output/roms/GenedRom-es-maint.gba').read_bytes()
+    source = (ROOT / 'input/roms/englishrom.gba').read_bytes()
     aliases = json.loads((ROOT / 'languages/es-maint/text_aliases.json').read_text())['aliases']
     by_key = {int(e['contract_offset'], 16): e for e in aliases}
     for entry in REPORT['entries']:
@@ -46,9 +47,10 @@ def test_translations_reach_all_frozen_consumers_after_patches():
             alias = by_key[key]
             live = int(alias['live_offset'], 16)
             if key == 0x24F20D:
-                # Le préfixe 000000 est le padding de ICE. HIELO utilise deux
-                # de ces octets, sans atteindre le début vivant de DRAGÓN.
-                assert rom[0x24F209:live] == bytes.fromhex('c2c3bfc6c9ff00')
+                # ICE est relocalisé : inline ne doit plus réécrire sa cellule
+                # abandonnée ni empiéter sur le préfixe contractuel de DRAGON.
+                # HIELO reste contrôlé ci-dessus à son pointeur vivant.
+                assert rom[0x24F209:live] == source[0x24F209:live]
             else:
                 assert rom[key:live] == bytes.fromhex(alias['prefix_hex'])
         if 0x23E558 <= key < 0x23EAC7:

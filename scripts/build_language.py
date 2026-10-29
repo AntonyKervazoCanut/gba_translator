@@ -272,6 +272,13 @@ def generate_translation_json(config) -> Path:
         routes = ItemDescriptionRoutes.load(REPO_ROOT / config.item_descriptions, ENGLISH_ROM.read_bytes())
         combined_map, _ = _load_combined(combined)
         stats["successful"] = routes.enrich_json(out_json, combined_map)
+    if getattr(config, "system_texts", None):
+        from scripts.apply_combined_fr import _load_combined
+        from src.core.item_description_routes import SystemTextRoutes
+        routes = SystemTextRoutes.load(REPO_ROOT / config.system_texts, ENGLISH_ROM.read_bytes())
+        combined_map, _ = _load_combined(REPO_ROOT / config.combined)
+        stats["successful"] = routes.enrich_json(out_json, combined_map)
+
     print(f"✓ Translation JSON: {out_json.name} ({stats['successful']} entries)")
     return out_json
 
@@ -403,6 +410,10 @@ def apply_patches(config, out_rom: Path, translation_json: Path | None = None,
             extra = []
             if getattr(config, "text_aliases", None):
                 extra += ["--text-aliases", REPO_ROOT / config.text_aliases]
+            if getattr(config, "system_texts", None):
+                if translation_json is None:
+                    raise ValueError("JSON de livraison requis pour protéger les cellules pointer-based")
+                extra += ["--translations", translation_json, "--no-template-fallback"]
             if config.builder_language == "spanish":
                 extra.append("--preserve-spanish-glyphs")
             if config.code == "de":
@@ -772,6 +783,10 @@ def main() -> int:
     if getattr(config, "item_descriptions", None):
         from src.core.item_description_routes import ItemDescriptionRoutes
         routes = ItemDescriptionRoutes.load(REPO_ROOT / config.item_descriptions, ENGLISH_ROM.read_bytes())
+        routes.verify(out_rom.read_bytes(), translation_json)
+    if getattr(config, "system_texts", None):
+        from src.core.item_description_routes import SystemTextRoutes
+        routes = SystemTextRoutes.load(REPO_ROOT / config.system_texts, ENGLISH_ROM.read_bytes())
         routes.verify(out_rom.read_bytes(), translation_json)
 
     print("\n" + "=" * 70)

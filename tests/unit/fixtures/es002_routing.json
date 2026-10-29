@@ -1,0 +1,691 @@
+{
+  "entries": [
+    {
+      "offset": "0x001A552B",
+      "traitement": "traduit",
+      "justification": "Traduction ES relue sur le texte EN complet ; commandes et ordre des buffers conserv\u00e9s.",
+      "en_inventaire": "Thank you for waiting.\\nWe've restored your Pok\u00e9mon to<0xFA>full health.",
+      "en_complet_hex": "cedcd5e2df00ede3e900dae3e600ebd5dde8dde2dbadfed1d9b4ead900e6d9e7e8e3e6d9d800ede3e9e600cae3df1be1e3e200e8e3fadae9e0e000dcd9d5e0e8dcadff",
+      "es_offset_map": {
+        "english_offset": 1725739,
+        "spanish_offset": 1725739,
+        "status": "matched"
+      },
+      "es_map_hex": "52cee9e700cae3df1be1e3e200dcd5e200e6d9d7e3d6e6d5d8e300e8e3d8d500e7e9fed9e2d9e6db6fd5abfbff",
+      "referents_en": [
+        "0x001A661E"
+      ],
+      "referents_bruts": [
+        "0x001A661E"
+      ],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "marqueurs_differents_a_verifier",
+      "commandes_en": [
+        "fa"
+      ],
+      "traduction": "Gracias por esperar.\\nTus Pok\u00e9mon han recuperado<0xFA>toda su salud.",
+      "octets_es_avec_ff": 63,
+      "validation_rom": "\u00e9chec",
+      "cibles_rom": [
+        {
+          "site": "0x001A661E",
+          "cible": "0x001A552B",
+          "octets_hex": "c1e6d5d7ddd5e700e4e3e600d9e7e4d9e6d5e6ad00cee9e700cae3df1be1e3e2fedcd5e200e6d9d7e9e4d9e6d5d8e300e8e3d8d500e7e900e7d5e0e9d8adff",
+          "texte_conforme": true,
+          "commandes_conformes": false
+        }
+      ]
+    },
+    {
+      "offset": "0x001A5AD5",
+      "traitement": "traduit",
+      "justification": "Pr\u00e9fixe AA non textuel ; phrase EN reconstruite au vrai d\u00e9but +1. Traduction pr\u00e9par\u00e9e sous identifiant contractuel, injection bloqu\u00e9e par le pr\u00e9requis de r\u00e9solution des alias. Ne jamais \u00e9crire sur AA.",
+      "en_inventaire": "9Hi!\\nDo you have a <0xFD>\u00c1?<0xFB>Want to trade it for my\\n<0xFD>\u00c2?",
+      "en_complet_hex": "aac2ddabfebee300ede3e900dcd5ead900d500fd02acfbd1d5e2e800e8e300e8e6d5d8d900dde800dae3e600e1edfefd03acff",
+      "es_offset_map": {
+        "english_offset": 1727190,
+        "spanish_offset": 1727190,
+        "status": "matched"
+      },
+      "es_map_hex": "c2ddabfebee300ede3e900dcd5ead900d500fd02acfbd1d5e2e800e8e300e8e6d5d8d900dde800dae3e600e1edfefd03acff",
+      "referents_en": [
+        "0x0016E35F"
+      ],
+      "referents_bruts": [],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "",
+      "commandes_en": [
+        "fd02",
+        "fb",
+        "fd03"
+      ],
+      "traduction": "\u00a1Hola!\\n\u00bfTienes un <0xFD><0x02>?<0xFB>\u00bfLo cambias por mi\\n<0xFD><0x03>?",
+      "octets_es_avec_ff": 45,
+      "validation_rom": "\u00e9chec",
+      "offset_vivant_en": "0x001A5AD6",
+      "cibles_rom": [
+        {
+          "site": "0x0016E35F",
+          "cible": "0x001A5AD6",
+          "octets_hex": "c2ddabfebee300ede3e900dcd5ead900d500fd02acfbd1d5e2e800e8e300e8e6d5d8d900dde800dae3e600e1edfefd03acff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    },
+    {
+      "offset": "0x001B1D7C",
+      "traitement": "traduit",
+      "justification": "Pr\u00e9fixe AA non textuel ; phrase EN reconstruite au vrai d\u00e9but +1. Traduction pr\u00e9par\u00e9e sous identifiant contractuel, injection bloqu\u00e9e par le pr\u00e9requis de r\u00e9solution des alias. Ne jamais \u00e9crire sur AA.",
+      "en_inventaire": "9It's a Pok\u00e9mon Printer!<0xFB>It can put a print of your Pok\u00e9mon\\non the back of your Trainer Card.<0xFB>It costs only \u00a550.\\nWould you like to try it?",
+      "en_complet_hex": "aac3e8b4e700d500cae3df1be1e3e200cae6dde2e8d9e6abfbc3e800d7d5e200e4e9e800d500e4e6dde2e800e3da00ede3e9e600cae3df1be1e3e2fee3e200e8dcd900d6d5d7df00e3da00ede3e9e600cee6d5dde2d9e600bdd5e6d8adfbc3e800d7e3e7e8e700e3e2e0ed00b7a6a1adfed1e3e9e0d800ede3e900e0dddfd900e8e300e8e6ed00dde8acff",
+      "es_offset_map": {
+        "english_offset": 1777021,
+        "spanish_offset": 1777021,
+        "status": "matched"
+      },
+      "es_map_hex": "c3e8b4e700d500cae3df1be1e3e200cae6dde2e8d9e6abfbc3e800d7d5e200e4e9e800d500e4e6dde2e800e3da00ede3e9e600cae3df1be1e3e2fee3e200e8dcd900d6d5d7df00e3da00ede3e9e600cee6d5dde2d9e600bdd5e6d8adfbc3e800d7e3e7e8e700e3e2e0ed00b7a6a1adfed1e3e9e0d800ede3e900e0dddfd900e8e300e8e6ed00dde8acff",
+      "referents_en": [
+        "0x001B286E"
+      ],
+      "referents_bruts": [],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "",
+      "commandes_en": [
+        "fb",
+        "fb"
+      ],
+      "traduction": "\u00a1Es una impresora Pok\u00e9mon!<0xFB>Puede imprimir tu Pok\u00e9mon al\\ndorso de tu Ficha de Entrenador.<0xFB>Solo cuesta \u00a550.\\n\u00bfQuieres probarla?",
+      "octets_es_avec_ff": 125,
+      "validation_rom": "\u00e9chec",
+      "offset_vivant_en": "0x001B1D7D",
+      "cibles_rom": [
+        {
+          "site": "0x001B286E",
+          "cible": "0x001B1D7D",
+          "octets_hex": "c3e8b4e700d500cae3df1be1e3e200cae6dde2e8d9e6abfbc3e800d7d5e200e4e9e800d500e4e6dde2e800e3da00ede3e9e600cae3df1be1e3e2fee3e200e8dcd900d6d5d7df00e3da00ede3e9e600cee6d5dde2d9e600bdd5e6d8adfbc3e800d7e3e7e8e700e3e2e0ed00b7a6a1adfed1e3e9e0d800ede3e900e0dddfd900e8e300e8e6ed00dde8acff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    },
+    {
+      "offset": "0x001BC310",
+      "traitement": "traduit",
+      "justification": "Pr\u00e9fixe AA non textuel ; phrase EN reconstruite au vrai d\u00e9but +1. Traduction pr\u00e9par\u00e9e sous identifiant contractuel, injection bloqu\u00e9e par le pr\u00e9requis de r\u00e9solution des alias. Ne jamais \u00e9crire sur AA.",
+      "en_inventaire": "9Welcome to the Pok\u00e9mon Cable\\nClub.<0xFB>Which of our services do you wish\\nto use?",
+      "en_complet_hex": "aad1d9e0d7e3e1d900e8e300e8dcd900cae3df1be1e3e200bdd5d6e0d9febde0e9d6adfbd1dcddd7dc00e3da00e3e9e600e7d9e6eaddd7d9e700d8e300ede3e900ebdde7dcfee8e300e9e7d9acff",
+      "es_offset_map": {
+        "english_offset": 1819409,
+        "spanish_offset": 1819409,
+        "status": "matched"
+      },
+      "es_map_hex": "52bfe7e8d500d9e700e0d500bfe7e5e9dde2d500bedde6d9d7e8d5abfb51cbe91b00e7d9e6eaddd7dde300d8d9e7d9d5e700e9e7d5e6acfc09ff",
+      "referents_en": [
+        "0x001BB44B"
+      ],
+      "referents_bruts": [],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "marqueurs_differents_a_verifier",
+      "commandes_en": [
+        "fb"
+      ],
+      "traduction": "Bienvenido al Club Cable Pok\u00e9mon.<0xFB>\u00bfQu\u00e9 servicio deseas utilizar?",
+      "octets_es_avec_ff": 65,
+      "validation_rom": "\u00e9chec",
+      "offset_vivant_en": "0x001BC311",
+      "cibles_rom": [
+        {
+          "site": "0x001BB44B",
+          "cible": "0x001BC311",
+          "octets_hex": "d1d9e0d7e3e1d900e8e300e8dcd900cae3df1be1e3e200bdd5d6e0d9febde0e9d6adfbd1dcddd7dc00e3da00e3e9e600e7d9e6eaddd7d9e700d8e300ede3e900ebdde7dcfee8e300e9e7d9acff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    },
+    {
+      "offset": "0x001BC4CE",
+      "traitement": "traduit",
+      "justification": "Traduction ES relue sur le texte EN complet ; commandes et ordre des buffers conserv\u00e9s.",
+      "en_inventaire": "When all players are ready\"\\nA Button: Confirm<0xFA>B Button: Cancel",
+      "en_complet_hex": "d1dcd9e200d5e0e000e4e0d5edd9e6e700d5e6d900e6d9d5d8edb0febb00bce9e8e8e3e2f000bde3e2dadde6e1fabc00bce9e8e8e3e2f000bdd5e2d7d9e0ff",
+      "es_offset_map": {
+        "english_offset": 1819854,
+        "spanish_offset": 1819854,
+        "status": "matched"
+      },
+      "es_map_hex": "d1dcd9e200d5e0e000e4e0d5edd9e6e700d5e6d900e6d9d5d8edb0febb00bce9e8e8e3e2f000bde3e2dadde6e1fabc00bce9e8e8e3e2f000bdd5e2d7d9e0ff",
+      "referents_en": [
+        "0x00080AA8",
+        "0x00080C30"
+      ],
+      "referents_bruts": [
+        "0x00080AA8",
+        "0x00080C30"
+      ],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "",
+      "commandes_en": [
+        "fa"
+      ],
+      "traduction": "Cuando todos est\u00e9n listos<0xB0>\\nBot\u00f3n A: Confirmar<0xFA>Bot\u00f3n B: Cancelar",
+      "octets_es_avec_ff": 64,
+      "validation_rom": "\u00e9chec",
+      "cibles_rom": [
+        {
+          "site": "0x00080AA8",
+          "cible": "0x00904B44",
+          "octets_hex": "bde9d5e2d8e300e8e3d8e3e700d9e7e81be200e0dde7e8e3e7b000bce3e823e200bbf0febde3e2dadde6e1d5e600bce3e823e200bcf000bdd5e2d7d9e0d5e6ff",
+          "texte_conforme": true,
+          "commandes_conformes": false
+        },
+        {
+          "site": "0x00080C30",
+          "cible": "0x00904B44",
+          "octets_hex": "bde9d5e2d8e300e8e3d8e3e700d9e7e81be200e0dde7e8e3e7b000bce3e823e200bbf0febde3e2dadde6e1d5e600bce3e823e200bcf000bdd5e2d7d9e0d5e6ff",
+          "texte_conforme": true,
+          "commandes_conformes": false
+        }
+      ]
+    },
+    {
+      "offset": "0x001BC7E2",
+      "traitement": "traduit",
+      "justification": "Traduction ES relue sur le texte EN complet ; commandes et ordre des buffers conserv\u00e9s. Script 0x9B ; traduction volontairement dans le budget EN.",
+      "en_inventaire": "Terminating link\"\\nYou will be escorted out of<0xFA>the room. Please wait.",
+      "en_complet_hex": "ced9e6e1dde2d5e8dde2db00e0dde2dfb0fed3e3e900ebdde0e000d6d900d9e7d7e3e6e8d9d800e3e9e800e3dafae8dcd900e6e3e3e1ad00cae0d9d5e7d900ebd5dde8adff",
+      "es_offset_map": {
+        "english_offset": 1820642,
+        "spanish_offset": 1820642,
+        "status": "matched"
+      },
+      "es_map_hex": "ced9e6e1dde2d5e8dde2db00e0dde2dfb0fed3e3e900ebdde0e000d6d900d9e7d7e3e6e8d9d800e3e9e800e3dafae8dcd900e6e3e3e1ad00cae0d9d5e7d900ebd5dde8adff",
+      "referents_en": [
+        "0x001BB9F3"
+      ],
+      "referents_bruts": [
+        "0x001BB9F3"
+      ],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "",
+      "commandes_en": [
+        "fa"
+      ],
+      "traduction": "Cerrando conexi\u00f3n<0xB0>\\nTe guiaremos fuera de<0xFA>la sala. Espera.",
+      "octets_es_avec_ff": 58,
+      "validation_rom": "\u00e9chec",
+      "cibles_rom": [
+        {
+          "site": "0x001BB9F3",
+          "cible": "0x001BC7E2",
+          "octets_hex": "bdd9e6e6d5e2d8e300d7e3e2d9ecdd23e2b000ced900dbe9ddd5e6d9e1e3e7fedae9d9e6d500d8d900e0d500e7d5e0d5ad00bfe7e4d9e6d5adff",
+          "texte_conforme": true,
+          "commandes_conformes": false
+        }
+      ]
+    },
+    {
+      "offset": "0x001BDBF8",
+      "traitement": "traduit",
+      "justification": "Traduction ES relue sur le texte EN complet ; commandes et ordre des buffers conserv\u00e9s. Reconstruction compl\u00e8te jusqu\u2019au FF depuis la ROM (inventaire tronqu\u00e9 \u00e0 512).",
+      "en_inventaire": "Let me explain how the Pok\u00e9mon\\nWireless Club works.<0xFB>On this, the top floor, there are\\ntwo rooms.<0xFB>First, the room on the left.\\nIt's the Union Room.<0xFB>You may link up with Trainers\\naround you who have also entered<0xFA>the Union Room.<0xFB>With them, you may do things like\\nchat, battle, and trade.<0xFB>Second, the room on the right is\\nthe Direct Corner.<0xFB>You may trade or battle Pok\u00e9mon\\nwith your friends in this room.<0xFB>Sometimes, you may not be able to\\nfind your friends in the Union Room<0xFA>or the Direct Corner.<0xFB>In that case, pleas",
+      "en_complet_hex": "c6d9e800e1d900d9ece4e0d5dde200dce3eb00e8dcd900cae3df1be1e3e2fed1dde6d9e0d9e7e700bde0e9d600ebe3e6dfe7adfbc9e200e8dcdde7b800e8dcd900e8e3e400dae0e3e3e6b800e8dcd9e6d900d5e6d9fee8ebe300e6e3e3e1e7adfbc0dde6e7e8b800e8dcd900e6e3e3e100e3e200e8dcd900e0d9dae8adfec3e8b4e700e8dcd900cfe2dde3e200cce3e3e1adfbd3e3e900e1d5ed00e0dde2df00e9e400ebdde8dc00cee6d5dde2d9e6e7fed5e6e3e9e2d800ede3e900ebdce300dcd5ead900d5e0e7e300d9e2e8d9e6d9d8fae8dcd900cfe2dde3e200cce3e3e1adfbd1dde8dc00e8dcd9e1b800ede3e900e1d5ed00d8e300e8dcdde2dbe700e0dddfd9fed7dcd5e8b800d6d5e8e8e0d9b800d5e2d800e8e6d5d8d9adfbcdd9d7e3e2d8b800e8dcd900e6e3e3e100e3e200e8dcd900e6dddbdce800dde7fee8dcd900bedde6d9d7e800bde3e6e2d9e6adfbd3e3e900e1d5ed00e8e6d5d8d900e3e600d6d5e8e8e0d900cae3df1be1e3e2feebdde8dc00ede3e9e600dae6ddd9e2d8e700dde200e8dcdde700e6e3e3e1adfbcde3e1d9e8dde1d9e7b800ede3e900e1d5ed00e2e3e800d6d900d5d6e0d900e8e3fedadde2d800ede3e9e600dae6ddd9e2d8e700dde200e8dcd900cfe2dde3e200cce3e3e1fae3e600e8dcd900bedde6d9d7e800bde3e6e2d9e6adfbc3e200e8dcd5e800d7d5e7d9b800e4e0d9d5e7d900e1e3ead900d7e0e3e7d9e6fee8e300ede3e9e600dae6ddd9e2d8e7adfbc3da00e8dcd900d1dde6d9e0d9e7e700bbd8d5e4e8d9e600dde7e2b4e8fed7e3e2e2d9d7e8d9d8b800ede3e900e1d5ed00e7e8dde0e000e0dde2df00e9e4fae9e7dde2db00d500c1bcbb00c1d5e1d900c6dde2df00d7d5d6e0d9adfbc3da00e8dcd5e800dde700e8dcd900d7d5e7d9b800ede3e900e1e9e7e800dbe3fee8e300e8dcd900bedde6d9d7e800bde3e6e2d9e6adfbc300dce3e4d900ede3e900d9e2dee3ed00e8dcd900d1dde6d9e0d9e7e700febde3e1e1e9e2ddd7d5e8dde3e200cdede7e8d9e1adff",
+      "es_offset_map": {
+        "english_offset": 1825784,
+        "spanish_offset": 1825784,
+        "status": "matched"
+      },
+      "es_map_hex": "c6d9e800e1d900d9ece4e0d5dde200dce3eb00e8dcd900cae3df1be1e3e2fed1dde6d9e0d9e7e700bde0e9d600ebe3e6dfe7adfbc9e200e8dcdde7b800e8dcd900e8e3e400dae0e3e3e6b800e8dcd9e6d900d5e6d9fee8ebe300e6e3e3e1e7adfbc0dde6e7e8b800e8dcd900e6e3e3e100e3e200e8dcd900e0d9dae8adfec3e8b4e700e8dcd900cfe2dde3e200cce3e3e1adfbd3e3e900e1d5ed00e0dde2df00e9e400ebdde8dc00cee6d5dde2d9e6e7fed5e6e3e9e2d800ede3e900ebdce300dcd5ead900d5e0e7e300d9e2e8d9e6d9d8fae8dcd900cfe2dde3e200cce3e3e1adfbd1dde8dc00e8dcd9e1b800ede3e900e1d5ed00d8e300e8dcdde2dbe700e0dddfd9fed7dcd5e8b800d6d5e8e8e0d9b800d5e2d800e8e6d5d8d9adfbcdd9d7e3e2d8b800e8dcd900e6e3e3e100e3e200e8dcd900e6dddbdce800dde7fee8dcd900bedde6d9d7e800bde3e6e2d9e6adfbd3e3e900e1d5ed00e8e6d5d8d900e3e600d6d5e8e8e0d900cae3df1be1e3e2feebdde8dc00ede3e9e600dae6ddd9e2d8e700dde200e8dcdde700e6e3e3e1adfbcde3e1d9e8dde1d9e7b800ede3e900e1d5ed00e2e3e800d6d900d5d6e0d900e8e3fedadde2d800ede3e9e600dae6ddd9e2d8e700dde200e8dcd900cfe2dde3e200cce3e3e1fae3e600e8dcd900bedde6d9d7e800bde3e6e2d9e6adfbc3e200e8dcd5e800d7d5e7d9b800e4e0d9d5e7d900e1e3ead900d7e0e3e7d9e6fee8e300ede3e9e600dae6ddd9e2d8e7adfbc3da00e8dcd900d1dde6d9e0d9e7e700bbd8d5e4e8d9e600dde7e2b4e8fed7e3e2e2d9d7e8d9d8b800ede3e900e1d5ed00e7e8dde0e000e0dde2df00e9e4fae9e7dde2db00d500c1bcbb00c1d5e1d900c6dde2df00d7d5d6e0d9adfbc3da00e8dcd5e800dde700e8dcd900d7d5e7d9b800ede3e900e1e9e7e800dbe3fee8e300e8dcd900bedde6d9d7e800bde3e6e2d9e6adfbc300dce3e4d900ede3e900d9e2dee3ed00e8dcd900d1dde6d9e0d9e7e700febde3e1e1e9e2ddd7d5e8dde3e200cdede7e8d9e1adff",
+      "referents_en": [
+        "0x001BBB8A"
+      ],
+      "referents_bruts": [
+        "0x001BBB8A"
+      ],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "plafond_extraction_512",
+      "commandes_en": [
+        "fb",
+        "fb",
+        "fb",
+        "fa",
+        "fb",
+        "fb",
+        "fb",
+        "fb",
+        "fa",
+        "fb",
+        "fb",
+        "fa",
+        "fb",
+        "fb"
+      ],
+      "traduction": "Te explico el Club Inal\u00e1mbrico\\nPok\u00e9mon.<0xFB>Arriba hay dos salas.<0xFB>A la izquierda est\u00e1 la Sala Uni\u00f3n.<0xFB>Conecta con Entrenadores cercanos<0xFA>que entren en ella.<0xFB>Pod\u00e9is chatear, luchar\\ne intercambiar.<0xFB>A la derecha est\u00e1\\nla Sala Directa.<0xFB>Intercambia y lucha con amigos.<0xFB>Si no los ves en la Sala Uni\u00f3n<0xFA>o en la Sala Directa,<0xFB>ac\u00e9rcate a tus amigos.<0xFB>Sin adaptador inal\u00e1mbrico, conecta<0xFA>con un cable Game Link de GBA.<0xFB>En ese caso, ve\\na la Sala Directa.<0xFB>\u00a1Disfruta de la comunicaci\u00f3n\\ninal\u00e1mbrica!",
+      "octets_es_avec_ff": 476,
+      "validation_rom": "\u00e9chec",
+      "cibles_rom": [
+        {
+          "site": "0x001BBB8A",
+          "cible": "0x001BDBF8",
+          "octets_hex": "ced900d9ece4e0ddd7e300d9e000bde0e9d600c3e2d5e017e1d6e6ddd7e3fecae3df1be1e3e2adfbbbe6e6ddd6d500dcd5ed00d8e3e700e7d5e0d5e7adfbbb00e0d500ddeee5e9ddd9e6d8d500d9e7e81700e0d500cdd5e0d500cfe2dd23e2adfbbde3e2d9d7e8d500d7e3e200bfe2e8e6d9e2d5d8e3e6d9e700d7d9e6d7d5e2e3e7fee5e9d900d9e2e8e6d9e200d9e200d9e0e0d5adfbcae3d81bdde700d7dcd5e8d9d5e6b800e0e9d7dcd5e600d9fedde2e8d9e6d7d5e1d6ddd5e6adfbbb00e0d500d8d9e6d9d7dcd500d9e7e81700e0d500cdd5e0d5febedde6d9d7e8d5adfbc3e2e8d9e6d7d5e1d6ddd500ed00e0e9d7dcd500d7e3e200d5e1dddbe3e7adfbcddd00e2e300e0e3e700ead9e700d9e200e0d500cdd5e0d500cfe2dd23e200e3fed9e200e0d500cdd5e0d500bedde6d9d7e8d5b800d5d71be6d7d5e8d900d500e8e9e7fad5e1dddbe3e7adfbcddde200d5d8d5e4e8d5d8e3e600dde2d5e017e1d6e6ddd7e3b800d7e3e2d9d7e8d5fed7e3e200e9e200d7d5d6e0d900c1d5e1d900c6dde2df00d8d900c1bcbbadfbbfe200d9e7d900d7d5e7e3b800ead900d500e0d500cdd5e0d5febedde6d9d7e8d5adfb52bedde7dae6e9e8d500d8d900e0d500d7e3e1e9e2ddd7d5d7dd23e2fedde2d5e017e1d6e6ddd7d5abff",
+          "texte_conforme": false,
+          "commandes_conformes": false
+        }
+      ]
+    },
+    {
+      "offset": "0x001C27E6",
+      "traitement": "traduit",
+      "justification": "Pr\u00e9fixe AA non textuel ; phrase EN reconstruite au vrai d\u00e9but +1. Traduction pr\u00e9par\u00e9e sous identifiant contractuel, injection bloqu\u00e9e par le pr\u00e9requis de r\u00e9solution des alias. Ne jamais \u00e9crire sur AA.",
+      "en_inventaire": "9The edge of the beach isn't so\\nshallow.",
+      "en_complet_hex": "aacedcd900d9d8dbd900e3da00e8dcd900d6d9d5d7dc00dde7e2b4e800e7e3fee7dcd5e0e0e3ebadff",
+      "es_offset_map": {
+        "english_offset": 1845223,
+        "spanish_offset": 1845223,
+        "status": "matched"
+      },
+      "es_map_hex": "cedcd900d9d8dbd900e3da00e8dcd900d6d9d5d7dc00dde7e2b4e800e7e3fee7dcd5e0e0e3ebadff",
+      "referents_en": [
+        "0x001AABFD",
+        "0x001AAC24"
+      ],
+      "referents_bruts": [],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "",
+      "commandes_en": [],
+      "traduction": "La orilla de la playa no es\\ntan poco profunda.",
+      "octets_es_avec_ff": 47,
+      "validation_rom": "\u00e9chec",
+      "offset_vivant_en": "0x001C27E7",
+      "cibles_rom": [
+        {
+          "site": "0x001AABFD",
+          "cible": "0x001C27E7",
+          "octets_hex": "cedcd900d9d8dbd900e3da00e8dcd900d6d9d5d7dc00dde7e2b4e800e7e3fee7dcd5e0e0e3ebadff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        },
+        {
+          "site": "0x001AAC24",
+          "cible": "0x001C27E7",
+          "octets_hex": "cedcd900d9d8dbd900e3da00e8dcd900d6d9d5d7dc00dde7e2b4e800e7e3fee7dcd5e0e0e3ebadff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    },
+    {
+      "offset": "0x0023E565",
+      "traitement": "traduit",
+      "justification": "Classe de dresseur : cellule de la table 0x23E558, stride13, 12 octets utiles + FF. Acc\u00e8s par indice, sans pointeur individuel (languages/fr/patches/trainer_class_names.py). La traduction tient dans la cellule. Pas de pointeur individuel : contr\u00f4le in-place et voisins obligatoire ; aucune zone d\u00e9duite de l\u2019adresse.",
+      "en_inventaire": "<0x53><0x54> Trainer",
+      "en_complet_hex": "535400cee6d5dde2d9e6ff",
+      "es_offset_map": null,
+      "es_map_hex": null,
+      "referents_en": [],
+      "referents_bruts": [],
+      "zone": "Classe de dresseur globale ; acc\u00e8s par index dans gTrainerClassNames.",
+      "alertes_audit": "",
+      "commandes_en": [],
+      "traduction": "Entren. <0x53><0x54>",
+      "octets_es_avec_ff": 11,
+      "validation_rom": "\u00e9chec",
+      "cellule": {
+        "table": "0x0023E558",
+        "stride": 13,
+        "index": 1
+      },
+      "referents_table": [
+        "0x000D80A0",
+        "0x0011B4B4"
+      ],
+      "cibles_rom": [
+        {
+          "site": "inline",
+          "cible": "0x0023E565",
+          "octets_hex": "535400cee6d5dde2d9e6ff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    },
+    {
+      "offset": "0x0023E57F",
+      "traitement": "traduit",
+      "justification": "Classe de dresseur : cellule de la table 0x23E558, stride13, 12 octets utiles + FF. Acc\u00e8s par indice, sans pointeur individuel (languages/fr/patches/trainer_class_names.py). La traduction tient dans la cellule. Pas de pointeur individuel : contr\u00f4le in-place et voisins obligatoire ; aucune zone d\u00e9duite de l\u2019adresse.",
+      "en_inventaire": "Agent",
+      "en_complet_hex": "bbdbd9e2e8ff",
+      "es_offset_map": null,
+      "es_map_hex": null,
+      "referents_en": [],
+      "referents_bruts": [],
+      "zone": "Classe de dresseur globale ; acc\u00e8s par index dans gTrainerClassNames.",
+      "alertes_audit": "plus_long_en_octets",
+      "commandes_en": [],
+      "traduction": "Agente",
+      "octets_es_avec_ff": 7,
+      "validation_rom": "\u00e9chec",
+      "cellule": {
+        "table": "0x0023E558",
+        "stride": 13,
+        "index": 3
+      },
+      "referents_table": [
+        "0x000D80A0",
+        "0x0011B4B4"
+      ],
+      "cibles_rom": [
+        {
+          "site": "inline",
+          "cible": "0x0023E57F",
+          "octets_hex": "bbdbd9e2e8ff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    },
+    {
+      "offset": "0x0023E58C",
+      "traitement": "traduit",
+      "justification": "Classe de dresseur : cellule de la table 0x23E558, stride13, 12 octets utiles + FF. Acc\u00e8s par indice, sans pointeur individuel (languages/fr/patches/trainer_class_names.py). La traduction tient dans la cellule. Pas de pointeur individuel : contr\u00f4le in-place et voisins obligatoire ; aucune zone d\u00e9duite de l\u2019adresse.",
+      "en_inventaire": "Waiter",
+      "en_complet_hex": "d1d5dde8d9e6ff",
+      "es_offset_map": null,
+      "es_map_hex": null,
+      "referents_en": [],
+      "referents_bruts": [],
+      "zone": "Classe de dresseur globale ; acc\u00e8s par index dans gTrainerClassNames.",
+      "alertes_audit": "",
+      "commandes_en": [],
+      "traduction": "Camarero",
+      "octets_es_avec_ff": 9,
+      "validation_rom": "\u00e9chec",
+      "cellule": {
+        "table": "0x0023E558",
+        "stride": 13,
+        "index": 4
+      },
+      "referents_table": [
+        "0x000D80A0",
+        "0x0011B4B4"
+      ],
+      "cibles_rom": [
+        {
+          "site": "inline",
+          "cible": "0x0023E58C",
+          "octets_hex": "d1d5dde8d9e6ff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    },
+    {
+      "offset": "0x0023E599",
+      "traitement": "traduit",
+      "justification": "Classe de dresseur : cellule de la table 0x23E558, stride13, 12 octets utiles + FF. Acc\u00e8s par indice, sans pointeur individuel (languages/fr/patches/trainer_class_names.py). La traduction tient dans la cellule. Pas de pointeur individuel : contr\u00f4le in-place et voisins obligatoire ; aucune zone d\u00e9duite de l\u2019adresse.",
+      "en_inventaire": "Waitress",
+      "en_complet_hex": "d1d5dde8e6d9e7e7ff",
+      "es_offset_map": null,
+      "es_map_hex": null,
+      "referents_en": [],
+      "referents_bruts": [],
+      "zone": "Classe de dresseur globale ; acc\u00e8s par index dans gTrainerClassNames.",
+      "alertes_audit": "plus_long_en_octets",
+      "commandes_en": [],
+      "traduction": "Camarera",
+      "octets_es_avec_ff": 9,
+      "validation_rom": "\u00e9chec",
+      "cellule": {
+        "table": "0x0023E558",
+        "stride": 13,
+        "index": 5
+      },
+      "referents_table": [
+        "0x000D80A0",
+        "0x0011B4B4"
+      ],
+      "cibles_rom": [
+        {
+          "site": "inline",
+          "cible": "0x0023E599",
+          "octets_hex": "d1d5dde8e6d9e7e7ff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    },
+    {
+      "offset": "0x0023E5A6",
+      "traitement": "traduit",
+      "justification": "Classe de dresseur : cellule de la table 0x23E558, stride13, 12 octets utiles + FF. Acc\u00e8s par indice, sans pointeur individuel (languages/fr/patches/trainer_class_names.py). La traduction tient dans la cellule. Pas de pointeur individuel : contr\u00f4le in-place et voisins obligatoire ; aucune zone d\u00e9duite de l\u2019adresse.",
+      "en_inventaire": "Interviewer",
+      "en_complet_hex": "c3e2e8d9e6eaddd9ebd9e6ff",
+      "es_offset_map": null,
+      "es_map_hex": null,
+      "referents_en": [],
+      "referents_bruts": [],
+      "zone": "Classe de dresseur globale ; acc\u00e8s par index dans gTrainerClassNames.",
+      "alertes_audit": "",
+      "commandes_en": [],
+      "traduction": "Reportero",
+      "octets_es_avec_ff": 10,
+      "validation_rom": "\u00e9chec",
+      "cellule": {
+        "table": "0x0023E558",
+        "stride": 13,
+        "index": 6
+      },
+      "referents_table": [
+        "0x000D80A0",
+        "0x0011B4B4"
+      ],
+      "cibles_rom": [
+        {
+          "site": "inline",
+          "cible": "0x0023E5A6",
+          "octets_hex": "c3e2e8d9e6eaddd9ebd9e6ff",
+          "texte_conforme": false,
+          "commandes_conformes": true
+        }
+      ]
+    }
+  ],
+  "rom_size": 33554432,
+  "slices": [
+    {
+      "offset": 1725738,
+      "hex": "ffcedcd5e2df00ede3e900dae3e600ebd5dde8dde2dbadfed1d9b4ead900e6d9e7e8e3e6d9d800ede3e9e600cae3df1be1e3e200e8e3fadae9e0e000dcd9d5e0e8dcadffcedcd900ebd5e8d9e600dde700d8edd9"
+    },
+    {
+      "offset": 1730077,
+      "hex": "672b551a08"
+    },
+    {
+      "offset": 1727188,
+      "hex": "ffaac2ddabfebee300ede3e900dcd5ead900d500fd02acfbd1d5e2e800e8e300e8e6d5d8d900dde800dae3e600e1edfefd03acffcedcd5e8b4e700e8e3e300d6d5d8adff"
+    },
+    {
+      "offset": 1499998,
+      "hex": "00d65a1a08"
+    },
+    {
+      "offset": 1777019,
+      "hex": "ffaac3e8b4e700d500cae3df1be1e3e200cae6dde2e8d9e6abfbc3e800d7d5e200e4e9e800d500e4e6dde2e800e3da00ede3e9e600cae3df1be1e3e2fee3e200e8dcd900d6d5d7df00e3da00ede3e9e600cee6d5dde2d9e600bdd5e6d8adfbc3e800d7e3e7e8e700e3e2e0ed00b7a6a1adfed1e3e9e0d800ede3e900e0dddfd900e8e300e8e6ed00dde8acffd3e3e900d8e3e2b4e800dcd5ead900d9"
+    },
+    {
+      "offset": 1779821,
+      "hex": "007d1d1b08"
+    },
+    {
+      "offset": 1819407,
+      "hex": "ffaad1d9e0d7e3e1d900e8e300e8dcd900cae3df1be1e3e200bdd5d6e0d9febde0e9d6adfbd1dcddd7dc00e3da00e3e9e600e7d9e6eaddd7d9e700d8e300ede3e900ebdde7dcfee8e300e9e7d9acffd1dcddd7dc00e3da00e3e9e600e7d9e6"
+    },
+    {
+      "offset": 1815626,
+      "hex": "6711c31b08"
+    },
+    {
+      "offset": 1819853,
+      "hex": "ffd1dcd9e200d5e0e000e4e0d5edd9e6e700d5e6d900e6d9d5d8edb0febb00bce9e8e8e3e2f000bde3e2dadde6e1fabc00bce9e8e8e3e2f000bdd5e2d7d9e0ffcde8d5e6e800e0dde2df00ebdde8dc00"
+    },
+    {
+      "offset": 527015,
+      "hex": "03cec41b08"
+    },
+    {
+      "offset": 527407,
+      "hex": "03cec41b08"
+    },
+    {
+      "offset": 1820641,
+      "hex": "ffced9e6e1dde2d5e8dde2db00e0dde2dfb0fed3e3e900ebdde0e000d6d900d9e7d7e3e6e8d9d800e3e9e800e3dafae8dcd900e6e3e3e1ad00cae0d9d5e7d900ebd5dde8adffcedcdde700cee6d5dde2d9e600dde700"
+    },
+    {
+      "offset": 1817074,
+      "hex": "9be2c71b08"
+    },
+    {
+      "offset": 1825783,
+      "hex": "ffc6d9e800e1d900d9ece4e0d5dde200dce3eb00e8dcd900cae3df1be1e3e2fed1dde6d9e0d9e7e700bde0e9d600ebe3e6dfe7adfbc9e200e8dcdde7b800e8dcd900e8e3e400dae0e3e3e6b800e8dcd9e6d900d5e6d9fee8ebe300e6e3e3e1e7adfbc0dde6e7e8b800e8dcd900e6e3e3e100e3e200e8dcd900e0d9dae8adfec3e8b4e700e8dcd900cfe2dde3e200cce3e3e1adfbd3e3e900e1d5ed00e0dde2df00e9e400ebdde8dc00cee6d5dde2d9e6e7fed5e6e3e9e2d800ede3e900ebdce300dcd5ead900d5e0e7e300d9e2e8d9e6d9d8fae8dcd900cfe2dde3e200cce3e3e1adfbd1dde8dc00e8dcd9e1b800ede3e900e1d5ed00d8e300e8dcdde2dbe700e0dddfd9fed7dcd5e8b800d6d5e8e8e0d9b800d5e2d800e8e6d5d8d9adfbcdd9d7e3e2d8b800e8dcd900e6e3e3e100e3e200e8dcd900e6dddbdce800dde7fee8dcd900bedde6d9d7e800bde3e6e2d9e6adfbd3e3e900e1d5ed00e8e6d5d8d900e3e600d6d5e8e8e0d900cae3df1be1e3e2feebdde8dc00ede3e9e600dae6ddd9e2d8e700dde200e8dcdde700e6e3e3e1adfbcde3e1d9e8dde1d9e7b800ede3e900e1d5ed00e2e3e800d6d900d5d6e0d900e8e3fedadde2d800ede3e9e600dae6ddd9e2d8e700dde200e8dcd900cfe2dde3e200cce3e3e1fae3e600e8dcd900bedde6d9d7e800bde3e6e2d9e6adfbc3e200e8dcd5e800d7d5e7d9b800e4e0d9d5e7d900e1e3ead900d7e0e3e7d9e6fee8e300ede3e9e600dae6ddd9e2d8e7adfbc3da00e8dcd900d1dde6d9e0d9e7e700bbd8d5e4e8d9e600dde7e2b4e8fed7e3e2e2d9d7e8d9d8b800ede3e900e1d5ed00e7e8dde0e000e0dde2df00e9e4fae9e7dde2db00d500c1bcbb00c1d5e1d900c6dde2df00d7d5d6e0d9adfbc3da00e8dcd5e800dde700e8dcd900d7d5e7d9b800ede3e900e1e9e7e800dbe3fee8e300e8dcd900bedde6d9d7e800bde3e6e2d9e6adfbc300dce3e4d900ede3e900d9e2dee3ed00e8dcd900d1dde6d9e0d9e7e700febde3e1e1e9e2ddd7d5e8dde3e200cdede7e8d9e1adffc300dce3e4d900ede3e900d9e2dee3ed"
+    },
+    {
+      "offset": 1817481,
+      "hex": "00f8db1b08"
+    },
+    {
+      "offset": 1845221,
+      "hex": "ffaacedcd900d9d8dbd900e3da00e8dcd900d6d9d5d7dc00dde7e2b4e800e7e3fee7dcd5e0e0e3ebadffffffffffffffffffffffffffffffffff"
+    },
+    {
+      "offset": 1747964,
+      "hex": "08e7271c08"
+    },
+    {
+      "offset": 1748003,
+      "hex": "08e7271c08"
+    },
+    {
+      "offset": 2352484,
+      "hex": "ff535400cee6d5dde2d9e6ff00ff7ccbf209c6d9d5d8d9e6ff00ffbb"
+    },
+    {
+      "offset": 884895,
+      "hex": "0858e52308"
+    },
+    {
+      "offset": 1160371,
+      "hex": "0258e52308"
+    },
+    {
+      "offset": 2352510,
+      "hex": "ffbbdbd9e2e8ff000000000000ffd1d5dde8d9e6ff0000"
+    },
+    {
+      "offset": 884895,
+      "hex": "0858e52308"
+    },
+    {
+      "offset": 1160371,
+      "hex": "0258e52308"
+    },
+    {
+      "offset": 2352523,
+      "hex": "ffd1d5dde8d9e6ff0000000000ffd1d5dde8e6d9e7e7ff00"
+    },
+    {
+      "offset": 884895,
+      "hex": "0858e52308"
+    },
+    {
+      "offset": 1160371,
+      "hex": "0258e52308"
+    },
+    {
+      "offset": 2352536,
+      "hex": "ffd1d5dde8e6d9e7e7ff000000ffc3e2e8d9e6eaddd9ebd9e6ff"
+    },
+    {
+      "offset": 884895,
+      "hex": "0858e52308"
+    },
+    {
+      "offset": 1160371,
+      "hex": "0258e52308"
+    },
+    {
+      "offset": 2352549,
+      "hex": "ffc3e2e8d9e6eaddd9ebd9e6ffffbdedd7e0dde7e8ff00000000ffc3d8"
+    },
+    {
+      "offset": 884895,
+      "hex": "0858e52308"
+    },
+    {
+      "offset": 1160371,
+      "hex": "0258e52308"
+    },
+    {
+      "offset": 1728479,
+      "hex": "fd01abfed1d9e0d7e3e1d900dce3e1d9adfbc3e800e7e3e9e2d8e700e0dddfd900ede3e900dcd5d800e5e9dde8d9fed5e200d9ece4d9e6ddd9e2d7d9adfbc7d5edd6d900ede3e900e7dce3e9e0d800e8d5dfd900d500e5e9ddd7dffee6d9e7e8adffd9e7e8adffc9dcb800dbe3e3d8abfbd3"
+    },
+    {
+      "offset": 1729476,
+      "hex": "cedcd900fd0200dae0d9eb00d5ebd5edabff99a09537000129b0b0fe240d2e44020a"
+    },
+    {
+      "offset": 1819980,
+      "hex": "bbebd5dde8dde2db00e0dde2dfe9e4b0feb000b000bc00bce9e8e8e3e2f000bdd5e2d7d9e0ff1a3d2229001f0416007a9fae642dfe06"
+    },
+    {
+      "offset": 1821251,
+      "hex": "cad5e6e8ddd7dde4d5e2e8e700d5e6d900d5e7dfd9d800e8e300e7e8d9e400e9e4fee8e300e8dcd900e6d9d7d9e4e8dde3e200d7e3e9e2e8d9e6adff0a2e16111aabff0c36030c360300051f"
+    },
+    {
+      "offset": 1838512,
+      "hex": "c3e8b4e700d7e6d5e1e1d9d800dae9e0e000e3da00cae3df1be1e3e2fed6e3e3dfe7adff1e2e4115160015272e440229191afe9f"
+    },
+    {
+      "offset": 2323703,
+      "hex": "bcd9e6e6ed00c4e9ddd7d9ffc2d5ebe0e9d7dcd5fc134bfc060000a6"
+    }
+  ],
+  "neighbours": [
+    {
+      "offset": 1728479,
+      "pointer_offsets": [
+        1740263
+      ]
+    },
+    {
+      "offset": 1729476,
+      "pointer_offsets": [
+        1741379
+      ]
+    },
+    {
+      "offset": 1819980,
+      "pointer_offsets": [
+        527048
+      ]
+    },
+    {
+      "offset": 1821251,
+      "pointer_offsets": [
+        1818635
+      ]
+    },
+    {
+      "offset": 1838512,
+      "pointer_offsets": [
+        1734152
+      ]
+    },
+    {
+      "offset": 2323703,
+      "pointer_offsets": [
+        2323468
+      ]
+    }
+  ]
+}
