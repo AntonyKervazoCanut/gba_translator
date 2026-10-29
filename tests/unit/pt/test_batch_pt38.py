@@ -49,4 +49,8 @@ def test_mechanics_follow_english_instead_of_french():
     assert 'Water Pledge' in texts[0xA3D286]
     assert all('Atq.' not in t and 'Def.' not in t for t in texts.values())
     config = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())
-    assert config['patches'][-1] == 'batch_38'
+    steps = config['patches']
+    assert steps.count('batch_38') == 1
+    # Les lots indépendants suivants peuvent finaliser leurs propres offsets.
+    for prerequisite in ('inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale'):
+        assert steps.index(prerequisite) < steps.index('batch_38')
