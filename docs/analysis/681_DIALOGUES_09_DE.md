@@ -2,6 +2,11 @@
 
 Périmètre exclusif : les 300 offsets du ticket, de `0x1F54752` à `0x1F8E271`.
 Aucun audit global relancé. `0x7A823B` n'appartient pas à ce lot.
+Bilan : **120 corrigés en ROM**, **8 déjà corrects**, **5 déjà patchés**,
+**160 noms/cris/termes légitimes**, **5 fragments non vivants**,
+**2 besoins de patch séparé**. Le corpus comporte 121 corrections protégées :
+120 injectables et le texte Battle Sands préparé pour son futur patch.
+
 La qualification exhaustive est dans [681_DIALOGUES_09_DE.json](681_DIALOGUES_09_DE.json) :
 valeurs EN/FR/DE, source canonique complète, commandes atomiques, scène, décision,
 références de pointeurs et résultats binaires. Aucun descriptif Pokédex d'espèce
@@ -42,8 +47,10 @@ les termes officiels, le registre et les boîtes trop larges. Notamment :
 - `0x1F7441F` : Lockduft, et non Duftnote. `0x1F7496C` : défilement du texte,
   et non course automatique. Suppression du français résiduel « sur ».
 - `0x1F59FA3` : accélérer l'éclosion, sans promettre une éclosion immédiate.
-- `0x1F81EAA/EB6/ED3/EDF` : Mär./Mai/Okt./Dez. ; espace final conservé avec
-  `<0x00>` pour éviter sa suppression par les chargeurs et le garde d'intégrité.
+- `0x1F81EAA/EB6/ED3/EDF` : déjà pris en charge par `time_format.py`
+  (März, Mai, Okt., Dez.). Leur absence du corpus est protégée.
+- `0x1F5609F` : déjà traité par `mission_tab_labels.py` (All → Alle).
+  Le patch exige une préimage EN intacte ; absence du corpus protégée.
 - Le vouvoiement hiérarchique des subordonnés de Marlon est conservé. Son fils
   Zeph Jr. reste son fils ; la fille de la garde d'enfants laisse bien son fils.
   La formule autour du buffer « lad/lass » n'impose plus un article masculin.
@@ -69,12 +76,43 @@ avec suffixe vivant à `0x1F80B7C` hors lot. Ne pas raccourcir le préfixe en pl
 au risque de faire commencer le suffixe dans une commande. Aucun patch ni
 ressource de données de jeu n'a été modifié.
 
+`0x1F8E271` exige aussi un patch distinct : la chaîne canonique de 1045 octets
+n'entre pas dans l'extraction utilisée par le build. Le texte DE intégral est
+corrigé et protégé, mais le pointeur `0x1E9FA40` atteint encore l'anglais.
+Le JSON conserve cette sortie, sans la présenter comme une correction injectée.
+
 ## Validation locale
 
-Les résultats finaux et les exceptions d'injection seront consignés après
-le build et la lecture des pointeurs. Les tests exécutables sont
-`tests/unit/test_dialogues_09_de.py`, le garde générique d'intégrité et
-`tests/e2e-playwright/specs/dialogues-09-de.spec.ts`.
+Les 300 décisions sont couvertes par `tests/unit/test_dialogues_09_de.py`.
+Les comparaisons ROM suivent 484 sites directs et les références des suffixes
+préfixés ; elles comparent les chaînes cibles, les commandes ordonnées, les pages
+et les budgets. Les retours FE/FA recalculés par le moteur sont neutralisés pour
+la comparaison des mots, mais les pixels de la sortie réelle sont vérifiés.
+Les adresses de relogement peuvent changer sans modifier le texte attendu.
+
+La seconde passe raccourcit dix formulations dont le rewrap du moteur dépassait
+192 pixels après ajout des icônes ou du glyphe B0. Les deux aides Safari sont
+bornées à 232 pixels (avec une réserve de buffer supérieure au compteur réel).
+Les tests existants F-601 ont leurs seules attentes du lot mises à jour ; la
+matrice de parité ajoute uniquement le nouveau test DE exigé par le hook.
+
+Commandes locales :
+
+```sh
+make build-de
+make test-python
+make lint
+python3 -m pytest tests/unit/test_dialogues_09_de.py tests/unit/test_translation_integrity.py -q
+python3 -m pytest tests/unit/de/test_f601_content_batches_de.py -q
+npx playwright test --config tests/e2e-playwright/playwright.dialogues-09-de.config.ts
+```
+
+Les hooks restent activés : garde d'intégrité, périmètre DE, tests Python,
+Vitest et builds locaux FR/IT/DE. Les logs finaux, la lecture des pointeurs et la
+capture Playwright sont joints au ticket. Le test visuel appelle l'imprimante
+native avec quatre chaînes accessibles dans la ROM reconstruite et affirme par
+OCR Saugnapf/Wertehalter, Schwerball, Mega-Entwicklung et vollständig/geheilt.
+La capture est créée dans le répertoire temporaire système, jamais versionnée.
 
 ## Non vérifié
 

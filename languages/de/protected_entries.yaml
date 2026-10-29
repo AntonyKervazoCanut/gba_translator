@@ -5946,11 +5946,11 @@ entries:
 - offset: '0x1f74189'
   name: English toponym canonicalisation 0x1F74189
   issue: DE — English toponyms
-  expected: 'Trainertipps!\pDunkle Stellen im Meer zeigen,\nwo ein Pokémon tauchen kann!\pHast du ein <0xFC><0x01><0x06>ADM<0xFC><0x01><0x02> bei <0xFC><0x01><0x06>Captain\nDavy''s Shipyard<0xFC><0x01><0x02> in <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x02>\lgekauft, drück über der dunklen\lStelle <0xF8><0x00>, um abzutauchen.\pFindest du unter Wasser eine\nhelle Stelle am Boden, drück\ldort <0xF8><0x01>, um aufzutauchen.'
+  expected: 'Trainertipps!\pDunkle Stellen im Meer zeigen, wo\nein Pokémon tauchen kann!\pHast du ein <0xFC><0x01><0x06>ADM<0xFC><0x01><0x02> bei <0xFC><0x01><0x06>Captain Davy''s\nShipyard<0xFC><0x01><0x02> in <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x02> gekauft,\ldrück dort <0xF8><0x00> zum Abtauchen.\pFindest du unter Wasser eine helle\nStelle am Boden, drück dort <0xF8><0x01>, um\laufzutauchen.'
 - offset: '0x1f747e7'
   name: English toponym canonicalisation 0x1F747E7
   issue: DE — English toponyms
-  expected: 'Trainertipps!\p<0xF8><0x00> am Baum links vom Schild, um\nein Hidden Grotto zu betreten!'
+  expected: 'Trainertipps!\pDer Baum links vom Schild führt in\nein Hidden Grotto. Drück <0xF8><0x00>!'
 - offset: '0x1f79fff'
   name: English toponym canonicalisation 0x1F79FFF
   issue: DE — English toponyms
@@ -10417,7 +10417,7 @@ entries:
 - offset: '0x1f685b6'
   name: 'B-681 dialogues-09 0x1F685B6'
   issue: B-681
-  expected: 'Wenn dir die Safaribälle\nausgehen, rufen wir dich über\lLautsprecher.\pDu kannst jederzeit mit <0xF8><0x01>\naufhören.\pWillst du nur vor dem aktuellen\nPokémon fliehen, kostet dich das\lein paar Safaribälle.\pDann wünsche ich dir viel Glück!'
+  expected: 'Wenn dir die Safaribälle ausgehen,\nrufen wir dich über Lautsprecher.\pMit <0xF8><0x01> kannst du aufhören.\pWillst du nur vor dem aktuellen\nPokémon fliehen, kostet dich das\lein paar Safaribälle.\pDann wünsche ich dir viel Glück!'
 - offset: '0x1f691c7'
   name: 'B-681 dialogues-09 0x1F691C7'
   issue: B-681
@@ -10541,7 +10541,7 @@ entries:
 - offset: '0x1f732bd'
   name: 'B-681 dialogues-09 0x1F732BD'
   issue: B-681
-  expected: 'Trainertipps!\pMit <0xF8><0x02> und <0xF8><0x05> kannst du Pokémon in\nder Teamliste schnell umordnen!\p<0xF8><0x02> wählt ein Pokémon zum Tauschen\naus. <0xF8><0x05> setzt das gewählte\lPokémon an die erste Stelle!'
+  expected: 'Trainertipps!\pMit <0xF8><0x02> und <0xF8><0x05> ordnest du dein Team\nschnell um!\p<0xF8><0x02> wählt ein Pokémon zum Tauschen\naus. <0xF8><0x05> setzt das gewählte Pokémon\lan die erste Stelle!'
 - offset: '0x1f7336f'
   name: 'B-681 dialogues-09 0x1F7336F'
   issue: B-681
@@ -10569,7 +10569,7 @@ entries:
 - offset: '0x1f745b7'
   name: 'B-681 dialogues-09 0x1F745B7'
   issue: B-681
-  expected: 'Trainertipps!\pViele Aufträge in deinem\nMissionslog?\pMit <0xF8><0x0B> scrollst du schnell durch\ndie Liste!\pMit <0xF8><0x04> sortierst du sie\nalphabetisch!\pMit <0xF8><0x05> kannst du Missionen sogar\nganz oben anheften!'
+  expected: 'Trainertipps!\pViele Aufträge in deinem\nMissionslog?\pMit <0xF8><0x0B> blätterst du schnell!\pMit <0xF8><0x04> sortierst du nach Namen!\pMit <0xF8><0x05> heftest du Missionen an!'
 - offset: '0x1f747b8'
   name: 'B-681 dialogues-09 0x1F747B8'
   issue: B-681
@@ -10597,7 +10597,7 @@ entries:
 - offset: '0x1f76502'
   name: 'B-681 dialogues-09 0x1F76502'
   issue: B-681
-  expected: 'Uff<0xB0> meine Hämorrhoiden machen\nwohl wieder Ärger<0xB0>\pAh, du da! Wärst du so lieb,\neiner alten Frau kurz beim\lKlagen zuzuhören?\pEs geht um meine Hämorrhoiden<0xB0>\pSie sind furchtbar! Als hätte\nsich ein Rudel Voltorb dort\leingenistet<0xB0>\pSitzen tut so weh! Und die\nscheußlichen Flecken auf meiner\lKleidung<0xB0>\pHier, ich habe Fotos!\pWo habe ich nur das neueste\nFoto meines Arztes hingelegt<0xB0>\pJa, das direkt in meinem -\p<0xB0>\pOh je<0xB0> du wirst ja ganz grün.\nVielleicht war das keine gute\lIdee<0xB0>'
+  expected: 'Uff<0xB0> meine Hämorrhoiden tun wieder\nweh<0xB0>\pAh, du da! Wärst du so lieb, einer\nalten Frau kurz beim Klagen\lzuzuhören?\pEs geht um meine Hämorrhoiden<0xB0>\pSie sind furchtbar! Als hätte sich\nein Rudel Voltorb dort eingenistet<0xB0>\pSitzen tut so weh! Und die\nscheußlichen Flecken auf meiner\lKleidung<0xB0>\pHier, ich habe Fotos!\pWo habe ich nur das neueste Foto\nmeines Arztes hingelegt<0xB0>\pJa, das direkt in meinem -\p<0xB0>\pOh je<0xB0> du wirst ja grün. Das war\nwohl keine gute Idee<0xB0>'
 - offset: '0x1f77b8e'
   name: 'B-681 dialogues-09 0x1F77B8E'
   issue: B-681
@@ -10621,7 +10621,7 @@ entries:
 - offset: '0x1f78150'
   name: 'B-681 dialogues-09 0x1F78150'
   issue: B-681
-  expected: '<0xB0>du kannst die Attacken sehen,\ndie die Pokémon erlernen können!\pDrücke <0xF8><0x02> und <0xF8><0x03>, um einfach die\nSeite zu wechseln!<0xFC><0x09>'
+  expected: '<0xB0>du kannst die Attacken sehen, die\ndie Pokémon erlernen können!\pWechsle mit <0xF8><0x02> und <0xF8><0x03> die Seite!<0xFC><0x09>'
 - offset: '0x1f782cf'
   name: 'B-681 dialogues-09 0x1F782CF'
   issue: B-681
@@ -10629,11 +10629,11 @@ entries:
 - offset: '0x1f7b090'
   name: 'B-681 dialogues-09 0x1F7B090'
   issue: B-681
-  expected: 'Ich verstehe.\pJa, ich finde auch,\n<0xFD><0x02> steht dir sehr gut.\pNun kannst du bei deinen Pokémon\neine <0xFC><0x01><0x06>Mega-Entwicklung<0xFC><0x01><0x04> auslösen.\pDamit ein Pokémon im Kampf eine\nMega-Entwicklung auslösen kann,\lmuss es seinen eigenen\l<0xFC><0x01><0x06>Mega-Stein<0xFC><0x01><0x04> tragen.\pAm <0xFC><0x01><0x06>Mega-Symbol<0xFC><0x01><0x04> im Kampfmenü\nerkennst du, ob das Pokémon eine\lMega-Entwicklung auslösen kann.\pErscheint es, drück <0xF8><0x04> vor der\nnächsten Attackenwahl.\pDein Pokémon führt dann eine\nMega-Entwicklung durch und wird\lstärker.\pDu kannst eine Mega-Entwicklung\nnur <0xFC><0x01><0x06>einmal<0xFC><0x01><0x04> pro Kampf auslösen.\lSie endet mit dem Kampf oder\lwenn das Pokémon kampfunfähig\lwird.\pNutze diese Kraft<0xB0><0xFC><0x08><0x18> zum Wohle der\nMenschheit.\pIch zähle darauf, dass du die\nWelt veränderst<0xB0><0xFC><0x08><0x18> und wirklich\letwas bewirkst<0xB0>'
+  expected: 'Ich verstehe.\pJa, ich finde auch,\n<0xFD><0x02> steht dir sehr gut.\pNun kannst du bei deinen Pokémon\neine <0xFC><0x01><0x06>Mega-Entwicklung<0xFC><0x01><0x04> auslösen.\pDamit ein Pokémon im Kampf eine\nMega-Entwicklung auslösen kann,\lmuss es seinen eigenen <0xFC><0x01><0x06>Mega-Stein<0xFC><0x01><0x04>\ltragen.\pAm <0xFC><0x01><0x06>Mega-Symbol<0xFC><0x01><0x04> im Kampfmenü\nerkennst du, ob das Pokémon eine\lMega-Entwicklung auslösen kann.\pErscheint es, drück <0xF8><0x04> vor der\nnächsten Attackenwahl.\pDein Pokémon führt dann eine\nMega-Entwicklung durch und wird\lstärker.\pDu kannst eine Mega-Entwicklung\nnur <0xFC><0x01><0x06>einmal<0xFC><0x01><0x04> pro Kampf auslösen. Sie\lendet mit dem Kampf oder wenn das\lPokémon kampfunfähig wird.\pNutze diese Kraft<0xB0><0xFC><0x08><0x18> zum Wohle der\nMenschheit.\pVerändere die Welt<0xB0><0xFC><0x08><0x18> und bewirke\nwirklich etwas<0xB0>'
 - offset: '0x1f7b371'
   name: 'B-681 dialogues-09 0x1F7B371'
   issue: B-681
-  expected: 'Damit ein Pokémon im Kampf eine\nMega-Entwicklung auslösen kann,\lmuss es seinen eigenen\l<0xFC><0x01><0x06>Mega-Stein<0xFC><0x01><0x04> tragen.\pAm <0xFC><0x01><0x06>Mega-Symbol<0xFC><0x01><0x04> im Kampfmenü\nerkennst du, ob das Pokémon eine\lMega-Entwicklung auslösen kann.\pErscheint es, drück <0xF8><0x04> vor der\nnächsten Attackenwahl.\pDein Pokémon führt dann eine\nMega-Entwicklung durch und wird\lstärker.\pDu kannst eine Mega-Entwicklung\nnur <0xFC><0x01><0x06>einmal<0xFC><0x01><0x04> pro Kampf auslösen.\lSie endet mit dem Kampf oder\lwenn das Pokémon kampfunfähig\lwird.\pNutze diese Kraft<0xB0><0xFC><0x08><0x18> zum Wohle der\nMenschheit.\pIch zähle darauf, dass du die\nWelt veränderst<0xB0><0xFC><0x08><0x18> und wirklich\letwas bewirkst<0xB0>'
+  expected: 'Damit ein Pokémon im Kampf eine\nMega-Entwicklung auslösen kann,\lmuss es seinen eigenen <0xFC><0x01><0x06>Mega-Stein<0xFC><0x01><0x04>\ltragen.\pAm <0xFC><0x01><0x06>Mega-Symbol<0xFC><0x01><0x04> im Kampfmenü\nerkennst du, ob das Pokémon eine\lMega-Entwicklung auslösen kann.\pErscheint es, drück <0xF8><0x04> vor der\nnächsten Attackenwahl.\pDein Pokémon führt dann eine\nMega-Entwicklung durch und wird\lstärker.\pDu kannst eine Mega-Entwicklung\nnur <0xFC><0x01><0x06>einmal<0xFC><0x01><0x04> pro Kampf auslösen. Sie\lendet mit dem Kampf oder wenn das\lPokémon kampfunfähig wird.\pNutze diese Kraft<0xB0><0xFC><0x08><0x18> zum Wohle der\nMenschheit.\pVerändere die Welt<0xB0><0xFC><0x08><0x18> und bewirke\nwirklich etwas<0xB0>'
 - offset: '0x1f7c8a2'
   name: 'B-681 dialogues-09 0x1F7C8A2'
   issue: B-681
@@ -10645,7 +10645,7 @@ entries:
 - offset: '0x1f7d749'
   name: 'B-681 dialogues-09 0x1F7D749'
   issue: B-681
-  expected: 'Wie wäre es, wenn ich als Dank\netwas<0xB0><0xFC><0x08><0x18> Nützliches für deine\lPokémon tue?\pIch habe ein Gerät, das das\n<0xFC><0x01><0x06>Wesen<0xFC><0x01><0x08> eines Pokémon ändert und\ldamit sein Wachstum\lbeeinflusst.\pDieses eine Mal führe ich den\nEingriff kostenlos bei deinem\lPokémon durch.\pAber bedenke<0xB0><0xFC><0x08><0x18> deinem Pokémon\nkönnte das missfallen. Danach\lwird es dich hassen<0xB0>'
+  expected: 'Ich möchte deinen Pokémon als\nDank etwas<0xB0><0xFC><0x08><0x18> Gutes tun.\pIch habe ein Gerät, das das <0xFC><0x01><0x06>Wesen<0xFC><0x01><0x08>\neines Pokémon ändert und damit\lsein Wachstum beeinflusst.\pDieses eine Mal führe ich den\nEingriff kostenlos bei deinem\lPokémon durch.\pDoch Vorsicht<0xB0><0xFC><0x08><0x18> dein Pokémon wird\ndas nicht mögen. Danach wird es\ldich hassen<0xB0>'
 - offset: '0x1f7ed32'
   name: 'B-681 dialogues-09 0x1F7ED32'
   issue: B-681
@@ -10677,19 +10677,19 @@ entries:
 - offset: '0x1f81eaa'
   name: 'B-681 dialogues-09 0x1F81EAA'
   issue: B-681
-  expected: 'Mär.<0x00>'
+  absent: true
 - offset: '0x1f81eb6'
   name: 'B-681 dialogues-09 0x1F81EB6'
   issue: B-681
-  expected: 'Mai<0x00>'
+  absent: true
 - offset: '0x1f81ed3'
   name: 'B-681 dialogues-09 0x1F81ED3'
   issue: B-681
-  expected: 'Okt.<0x00>'
+  absent: true
 - offset: '0x1f81edf'
   name: 'B-681 dialogues-09 0x1F81EDF'
   issue: B-681
-  expected: 'Dez.<0x00>'
+  absent: true
 - offset: '0x1f81f5b'
   name: 'B-681 dialogues-09 0x1F81F5B'
   issue: B-681
