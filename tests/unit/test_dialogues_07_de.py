@@ -84,6 +84,15 @@ def test_complete_exclusive_scope():
     assert all(row["decision"] and row["motif"] and row["scene"] for row in ROWS)
     assert sum(row["decision"] == "corrigé" for row in ROWS) == 128
     assert sum(row["decision"] == "besoin de patch séparé" for row in ROWS) == 1
+    assert sum(len(row["rom_checks"]) for row in ROWS) == 1475
+    corrected = [
+        check
+        for row in ROWS
+        if row["decision"] == "corrigé"
+        for check in row["rom_checks"]
+    ]
+    assert len(corrected) == 161
+    assert all(max(check["pixel_widths"]) <= 192 for check in corrected)
 
 
 @pytest.fixture(scope="module")
