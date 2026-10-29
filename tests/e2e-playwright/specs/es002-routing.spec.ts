@@ -8,7 +8,7 @@ import path from 'node:path';
 
 const root = process.cwd();
 
-test('les treize entrées ES-002 et leur pagination atteignent le moteur natif', async ({ page }) => {
+test('les quatorze entrées ES-002 et leur pagination atteignent le moteur natif', async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'b1032-dialogues-'));
   const romPath = path.join(temp, 'game.gba');
   fs.copyFileSync(process.env.B1032_PROBE_ROM ?? '/tmp/b1032-probe.gba', romPath);
@@ -29,7 +29,7 @@ test('les treize entrées ES-002 et leur pagination atteignent le moteur natif',
   rom.set([0x09, 6, 2], scriptBase + 6);
   // Seule la copie temporaire reçoit les scripts de déclenchement.
   fs.writeFileSync(romPath, rom);
-  for (let scene = 0; scene < 13; scene++) {
+  for (let scene = 0; scene < 14; scene++) {
     fs.copyFileSync(path.join(root, 'tests/fixtures/saves/party_hp_bar_fr.sav'), path.join(temp, 'game.sav'));
     const displayOffset = offsets[scene];
     rom.writeUInt32LE(displayOffset + 0x08000000, scriptBase + 2);
@@ -100,13 +100,13 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
 `);
   const ocr = path.join(temp, 'ocr');
   execFileSync('swiftc', [swift, '-o', ocr], { timeout: 60_000 });
-  const pictures = Array.from({ length: 13 }, (_, n) =>
+  const pictures = Array.from({ length: 14 }, (_, n) =>
     `<img alt="Texte ES-002 ${n + 1}" src="data:image/png;base64,${fs.readFileSync(path.join(temp, `page${n}.png`)).toString('base64')}">`);
   await page.setContent(`<style>body{margin:0;background:#222}main{display:grid;grid-template-columns:repeat(2,720px);gap:8px;padding:8px;width:max-content}img{width:720px;height:480px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
-  await expect(page.getByRole('img')).toHaveCount(13);
+  await expect(page.getByRole('img')).toHaveCount(14);
   await page.getByRole('img').evaluateAll(images => Promise.all(images.map(image => (image as HTMLImageElement).decode())));
   const texts: string[] = [];
-  for (let n = 0; n < 13; n++) {
+  for (let n = 0; n < 14; n++) {
     const enlarged = path.join(temp, `readable${n}.png`);
     await page.getByRole('img').nth(n).screenshot({ path: enlarged });
     texts.push(execFileSync(ocr, [enlarged], { encoding: 'utf8', timeout: 60_000 }).replace(/\s+/g, ' '));
@@ -114,8 +114,8 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
   console.log(texts);
   const expected = [/Gracias por esperar/i, /Hola/i, /impresora/i, /Club Cable/i,
     /todos est.n listos/i, /Cerrando conexi.n/i, /Club Inal.mbrico/i,
-    /orilla de la playa/i, /Entren/i, /Agente/i, /Camarero/i, /Camarera/i, /Reportero/i];
-  for (let n = 0; n < 13; n++) expect(texts[n]).toMatch(expected[n]);
+    /orilla de la playa/i, /Entren/i, /Agente/i, /Camarero/i, /Camarera/i, /Reportero/i, /Lo siento mucho/i];
+  for (let n = 0; n < 14; n++) expect(texts[n]).toMatch(expected[n]);
   // Une pression A doit réellement faire avancer FA et FB, pas seulement
   // laisser une chaîne correcte dans la ROM sans afficher sa suite.
   for (const [n, expectedNext] of [[0, /toda su salud/i], [5, /la sala.*Espera/i], [6, /Arriba hay dos salas/i]] as const) {
@@ -130,7 +130,7 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
     const text = execFileSync(ocr, [enlarged], {encoding: 'utf8', timeout: 60_000}).replace(/\s+/g, ' ');
     expect(text).toMatch(expectedNext);
   }
-  const proof = path.join(os.tmpdir(), 'b1032-treize-textes.png');
+  const proof = path.join(os.tmpdir(), 'f852-quatorze-textes.png');
   await page.locator('main').screenshot({ path: proof });
   console.log(`Preuve : ${proof}`);
 });

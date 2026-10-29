@@ -40,7 +40,7 @@ def test_system_pages_survive_real_json_and_insertion(tmp_path):
     inserter.flush_relocations()
     routes.verify(rom, path)
 
-    assert len(routes.entries) == 4
+    assert set(routes.entries) == {0x1A552B, 0x1A561A, 0x1BC4CE, 0x1BC7E2, 0x1BDBF8}
     for key, entry in routes.entries.items():
         expected = TextEncoder.encode_pokemon(combined[key], skip_aliases=SPANISH_GLYPH_CHARS)
         for site in entry['pointer_offsets']:

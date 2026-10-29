@@ -663,3 +663,1069 @@ entries:
 - offset: '0x002779f1'
   name: 'ES-003 : toile gluante, début à +1'
   expected: '¡<0xFD><0x00> ha quedado atrapado\nen una red viscosa!'
+- offset: '0x001a5190'
+  name: ES-002 0x001A5190
+  expected: ¡Vuelve pronto!
+- offset: '0x001a51f6'
+  name: ES-002 0x001A51F6
+  expected: ¡Has obtenido <0xFD><0x03>!
+- offset: '0x001a5218'
+  name: ES-002 0x001A5218
+  expected: <0xFD><0x01> metió <0xFD><0x03>\nen <0xFD><0x04>.
+- offset: '0x001a5231'
+  name: ES-002 0x001A5231
+  expected: ¡<0xFD><0x01> encontró\n<0xFD><0x03>!
+- offset: '0x001a5242'
+  name: ES-002 0x001A5242
+  expected: ¡Qué pena!\nLa Bolsa está llena<0xB0>
+- offset: '0x001a525c'
+  name: ES-002 0x001A525C
+  expected: ¡<0xFD><0x01> encontró\n<0xFD><0x02> <0xFD><0x03>!
+- offset: '0x001a526c'
+  name: ES-002 0x001A526C
+  expected: <0xFD><0x01> guardó las fichas\nen el Monedero.
+- offset: '0x001a5294'
+  name: ES-002 0x001A5294
+  expected: ¡Qué pena!\nEl Monedero está lleno<0xB0>
+- offset: '0x001a52b4'
+  name: ES-002 0x001A52B4
+  expected: ¡Qué pena!\nNo tienes dónde guardarlas<0xB0>
+- offset: '0x001a52dd'
+  name: ES-002 0x001A52DD
+  expected: ¡<0xFD><0x01> encontró\n<0xFD><0x02> <0xFD><0x03>!
+- offset: '0x001a52f0'
+  name: ES-002 0x001A52F0
+  expected: ¡Has obtenido <0xFD><0x03>!
+- offset: '0x001a5301'
+  name: ES-002 0x001A5301
+  expected: ¡Qué pena! Ya no cabe\notro <0xFD><0x03><0xB0>
+- offset: '0x001a532f'
+  name: ES-002 0x001A532F
+  expected: Se transfirió <0xFD><0x03>\nal PC.
+- offset: '0x001a5420'
+  name: ES-002 0x001A5420
+  expected: <0xFD><0x01> encendió el PC.
+- offset: '0x001a5483'
+  name: ES-002 0x001A5483
+  expected: ¡Bienvenido al Centro Pokémon!<0xFB>¿Quieres que tus Pokémon\nrecuperen
+    toda su salud?
+- offset: '0x001a54e1'
+  name: ES-002 0x001A54E1
+  expected: Bien, cuidaré de tus Pokémon\nunos segundos.
+- offset: '0x001a5511'
+  name: ES-002 0x001A5511
+  expected: ¡Ten cuidado ahí fuera!
+- offset: '0x001a552b'
+  name: ES-002 0x001A552B
+  expected: Gracias por esperar.\nTus Pokémon han recuperado<0xFA>toda su salud.
+- offset: '0x001a556e'
+  name: ES-002 0x001A556E
+  expected: El agua es de un azul intenso<0xB0>\n¿Quieres usar Surf?
+- offset: '0x001a55a5'
+  name: ES-002 0x001A55A5
+  expected: ¡<0xFD><0x02> usó Surf!
+- offset: '0x001a55b3'
+  name: ES-002 0x001A55B3
+  expected: ¡La corriente es muy fuerte!\nAquí no puedes usar Surf<0xB0>
+- offset: '0x001a561a'
+  name: ES-002 0x001A561A
+  expected: Lo siento mucho.\nEl Club Inalámbrico Pokémon<0xFA>está en obras.
+- offset: '0x001a5667'
+  name: ES-002 0x001A5667
+  expected: Parece que está en obras<0xB0>
+- offset: '0x001a5690'
+  name: ES-002 0x001A5690
+  expected: <0xFD><0x01> entregó\n<0xFD><0x02>.
+- offset: '0x001a56a7'
+  name: ES-002 0x001A56A7
+  expected: ¿Quieres ponerle un mote\na este <0xFD><0x02>?
+- offset: '0x001a5700'
+  name: ES-002 0x001A5700
+  expected: <0xFD><0x01> desenterró\nun <0xFD><0x03> del subsuelo.
+- offset: '0x001a58a7'
+  name: ES-002 0x001A58A7
+  expected: Veamos<0xB0>\n¡Solo has atrapado<0xFA><0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04>
+    especies de Pokémon!<0xFB>Necesitas <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>
+    especies.
+- offset: '0x001a5909'
+  name: ES-002 0x001A5909
+  expected: <0xB0>Ah, ya veo.<0xFB>Vuelve cuando tengas\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>
+    especies de Pokémon.
+- offset: '0x001a594d'
+  name: ES-002 0x001A594D
+  expected: ¡Veo que no tienes sitio\npara <0xFD><0x03>!
+- offset: '0x001a597b'
+  name: ES-002 0x001A597B
+  expected: ¡Busco un <0xFD><0x02>!<0xFB>¿Lo cambias por mi\n<0xFD><0x03>?
+- offset: '0x001a59b6'
+  name: ES-002 0x001A59B6
+  expected: ¡Vaya!\nQué se le va a hacer<0xB0>
+- offset: '0x001a59c6'
+  name: ES-002 0x001A59C6
+  expected: ¿Qué?\n¡Eso no es un <0xFD><0x02>!
+- offset: '0x001a59da'
+  name: ES-002 0x001A59DA
+  expected: ¡Oye, gracias!
+- offset: '0x001a59e7'
+  name: ES-002 0x001A59E7
+  expected: ¿A que es genial\nmi <0xFD><0x03>?
+- offset: '0x001a5b08'
+  name: ES-002 0x001A5B08
+  expected: Qué lástima.
+- offset: '0x001a5b18'
+  name: ES-002 0x001A5B18
+  expected: <0xB0>Esto no es un <0xFD><0x02>.<0xFB>Si consigues uno, cámbiamelo.
+- offset: '0x001a5b4a'
+  name: ES-002 0x001A5B4A
+  expected: ¡Gracias! ¡Eres un buen amigo!
+- offset: '0x001a5b60'
+  name: ES-002 0x001A5B60
+  expected: ¿Cómo está mi <0xFD><0x03>?\n¡Mi <0xFD><0x02> está genial!
+- offset: '0x001a5b88'
+  name: ES-002 0x001A5B88
+  expected: ¡Bingo! ¡La Llave Magnética\nabrió la puerta!
+- offset: '0x001a5bc6'
+  name: ES-002 0x001A5BC6
+  expected: Accediendo al PC del Prof. Log<0xB0><0xFB>Accediendo al sistema de\nevaluación
+    de la Pokédex<0xB0>
+- offset: '0x001a5c03'
+  name: ES-002 0x001A5C03
+  expected: ¿Quieres que evalúe\ntu Pokédex?
+- offset: '0x001a5c2e'
+  name: ES-002 0x001A5C2E
+  expected: Cerrando conexión al PC\ndel Profesor Log.
+- offset: '0x001a5c4d'
+  name: ES-002 0x001A5C4D
+  expected: Se oyó una voz:\n«¡No huyas!»
+- offset: '0x001a5cdf'
+  name: ES-002 0x001A5CDF
+  expected: La puerta está abierta<0xB0>
+- offset: '0x001a5cf1'
+  name: ES-002 0x001A5CF1
+  expected: Se transfirió <0xFD><0x03>\nal PC de Alguien.<0xFB>Se guardó en\nla Caja
+    «<0xFD><0x02>».
+- offset: '0x001a5d31'
+  name: ES-002 0x001A5D31
+  expected: Se transfirió <0xFD><0x03>\nal PC de Ayla.<0xFB>Se guardó en\nla Caja
+    «<0xFD><0x02>».
+- offset: '0x001a5d6e'
+  name: ES-002 0x001A5D6E
+  expected: La Caja «<0xFD><0x04>» del\nPC de Alguien estaba llena.<0xFB>Se transfirió
+    <0xFD><0x03>\na la Caja «<0xFD><0x02>».
+- offset: '0x001a5db1'
+  name: ES-002 0x001A5DB1
+  expected: La Caja «<0xFD><0x04>» del\nPC de Ayla estaba llena.<0xFB>Se transfirió
+    <0xFD><0x03>\na la Caja «<0xFD><0x02>».
+- offset: '0x001a5df1'
+  name: ES-002 0x001A5DF1
+  expected: ¡<0xFD><0x01> obtuvo\n<0xFD><0x02>!
+- offset: '0x001a5e31'
+  name: ES-002 0x001A5E31
+  expected: ¡No caben más Pokémon!<0xFB>¡Las Cajas están llenas y\nno admiten más
+    Pokémon!
+- offset: '0x001a5e89'
+  name: ES-002 0x001A5E89
+  expected: Primero, tus Pokémon deben\nrecuperar toda su salud.
+- offset: '0x001a5ec0'
+  name: ES-002 0x001A5EC0
+  expected: Tus Pokémon han recuperado\ntoda su salud.<0xFB>Si bajan sus puntos de
+    salud,\nlos PS, ven a vernos.<0xFB>Si vas a viajar lejos,\ncompra algunas Pociones<0xFA>en
+    la Tienda Pokémon.<0xFB>¡Esperamos que triunfes!
+- offset: '0x001a5f9b'
+  name: ES-002 0x001A5F9B
+  expected: Tus Pokémon han recuperado\ntoda su salud.<0xFB>¡Esperamos que triunfes!
+- offset: '0x001a5fdf'
+  name: ES-002 0x001A5FDF
+  expected: ¡<0xFD><0x01>!\nBienvenido a casa.<0xFB>Parece que has vivido\ntoda una
+    experiencia.<0xFB>Quizá debas descansar\nun poco.
+- offset: '0x001a6046'
+  name: ES-002 0x001A6046
+  expected: ¡Qué bien!<0xFB>Tú y tus Pokémon tenéis\nmucho mejor aspecto.<0xFB>Si
+    sus PS bajan, ¡cúralos en\nun <0xFC><0x01><0x06>Centro Pokémon<0xFC><0x01><0x04>!<0xFB>Creo
+    que el más cercano está\nen <0xFC><0x01><0x06>Pueblo Bellin<0xFC><0x01><0x04>.<0xFB>¡O
+    compra <0xFC><0x01><0x06>Pociones<0xFC><0x01><0x04> en la\n<0xFC><0x01><0x06>Tienda
+    Pokémon<0xFC><0x01><0x04>!<0xFB>Siempre es bueno prepararse\npara lo peor.<0xFB>¡Haz
+    que me enorgullezca, cielo!<0xFB>¡Cuídate!
+- offset: '0x001a6197'
+  name: ES-002 0x001A6197
+  expected: ¡A <0xFD><0x01> no le quedan\nPokémon que puedan luchar!<0xFB><0xFD><0x01>
+    perdió\n¥<0xFD><0x02> por el pánico<0xB0><0xFB><0xB0> <0xB0> <0xB0> <0xB0><0xFB>¡<0xFD><0x01>
+    se desmayó!
+- offset: '0x001a61e5'
+  name: ES-002 0x001A61E5
+  expected: ¡A <0xFD><0x01> no le quedan\nPokémon que puedan luchar!<0xFB>¡<0xFD><0x01>
+    se desmayó!
+- offset: '0x001a6211'
+  name: ES-002 0x001A6211
+  expected: ¡Hola!\n¿En qué puedo ayudarte?
+- offset: '0x001a622c'
+  name: ES-002 0x001A622C
+  expected: Hay un cuestionario.\n¿Quieres rellenarlo?
+- offset: '0x001a6265'
+  name: ES-002 0x001A6265
+  expected: Gracias por dedicar tiempo\na rellenar el cuestionario.<0xFB>Tendremos
+    en cuenta\ntus respuestas en el futuro.
+- offset: '0x001a62d3'
+  name: ES-002 0x001A62D3
+  expected: ¡Hola!\n¿Conoces esas palabras?<0xFB>Entonces debes conocer\nel REGALO
+    MISTERIOSO.<0xFB>¡A partir de ahora recibirás\nREGALOS MISTERIOSOS!
+- offset: '0x001a6359'
+  name: ES-002 0x001A6359
+  expected: Cuando guardes la partida,\npodrás usar REGALO MISTERIOSO.
+- offset: '0x001a6393'
+  name: ES-002 0x001A6393
+  expected: Gracias por acceder al\nsistema de REGALO MISTERIOSO.
+- offset: '0x001a63c4'
+  name: ES-002 0x001A63C4
+  expected: ¡<0xFD><0x02> se fue volando!
+- offset: '0x001a63e8'
+  name: ES-002 0x001A63E8
+  expected: '¡<0xFD><0x01> halló\n<0xFD><0x03>: <0xFD><0x02>!'
+- offset: '0x001a6ca3'
+  name: ES-002 0x001A6CA3
+  expected: 'El progreso de tu Pokédex es:<0xFB><0xFD><0x02> Pokémon vistos y\n<0xFD><0x03>
+    Pokémon atrapados.<0xFB><0xFC><0x06><0x02>Evaluación del Profesor Log:'
+- offset: '0x001a6d17'
+  name: ES-002 0x001A6D17
+  expected: Aún te queda mucho por hacer.<0xFB>¡Busca Pokémon en todas las\nzonas
+    de hierba que veas!
+- offset: '0x001a6d6d'
+  name: ES-002 0x001A6D6D
+  expected: ¡Parece que vas por buen camino!<0xFB>¡Un AYUDANTE tiene la MO DESTELLO\npara
+    ti! ¡Ve a buscarla!
+- offset: '0x001a6ddf'
+  name: ES-002 0x001A6DDF
+  expected: ¡Aún faltan muchas páginas\nen tu Pokédex!<0xFB>¡Intenta atrapar otras\nespecies
+    de Pokémon!
+- offset: '0x001a6e36'
+  name: ES-002 0x001A6E36
+  expected: ¡Bien, veo que te esfuerzas!<0xFB>¡Un AYUDANTE te dará un\nBUSCAOBJETOS!
+    ¡Ve a recogerlo!
+- offset: '0x001a6ea4'
+  name: ES-002 0x001A6EA4
+  expected: ¡Tu Pokédex va muy bien!<0xFB>¡Un AYUDANTE tiene una MONEDA\nAMULETO para
+    ti! ¡Recógela!
+- offset: '0x001a6f0b'
+  name: ES-002 0x001A6F0B
+  expected: ¡Por fin superas las 50 especies!<0xFB>¡Un AYUDANTE tiene un REPARTIR\nEXP.
+    para ti! ¡Ve a buscarlo!
+- offset: '0x001a6f71'
+  name: ES-002 0x001A6F71
+  expected: ¡Jo, jo! ¡Tu Pokédex empieza\na ser muy respetable!
+- offset: '0x001a6fab'
+  name: ES-002 0x001A6FAB
+  expected: ¡Muy bien!<0xFB>¡Creo que atraparás aún más\nPokémon si vas a pescar!
+- offset: '0x001a6ff1'
+  name: ES-002 0x001A6FF1
+  expected: ¡Maravilloso! Déjame adivinar<0xB0>\nTe gusta coleccionar, ¿verdad?
+- offset: '0x001a7031'
+  name: ES-002 0x001A7031
+  expected: ¡Impresionante!\n¡Debió de ser difícil!
+- offset: '0x001a7063'
+  name: ES-002 0x001A7063
+  expected: ¡Ya tienes 100 especies!\n¡No me creo lo bien que lo haces!
+- offset: '0x001a70a5'
+  name: ES-002 0x001A70A5
+  expected: ¡Incluso tienes las formas\nevolucionadas! ¡Genial!
+- offset: '0x001a70d8'
+  name: ES-002 0x001A70D8
+  expected: ¡Excelente! ¡Intercambia con\namigos para conseguir más!
+- offset: '0x001a7108'
+  name: ES-002 0x001A7108
+  expected: ¡Fantástico!\n¡Ya dominas esto de verdad!
+- offset: '0x001a7137'
+  name: ES-002 0x001A7137
+  expected: ¡No tengo nada más que decir!\n¡Ya eres PROFESOR POKÉMON!
+- offset: '0x001a7175'
+  name: ES-002 0x001A7175
+  expected: ¡Tu Pokédex está completa!\n¡¡Enhorabuena!!
+- offset: '0x001a71aa'
+  name: ES-002 0x001A71AA
+  expected: Y tu Pokédex Nacional:<0xFB><0xFD><0x02> Pokémon vistos y\n<0xFD><0x03>
+    Pokémon atrapados.
+- offset: '0x001a71ee'
+  name: ES-002 0x001A71EE
+  expected: ¡Espero verte completar\nla Pokédex Nacional!
+- offset: '0x001a722f'
+  name: ES-002 0x001A722F
+  expected: Por fin<0xB0><0xFB>¡Por fin has completado\nla Pokédex!<0xFB>¡Es magnífico!\n¡Una
+    hazaña increíble!
+- offset: '0x001b1e07'
+  name: ES-002 0x001B1E07
+  expected: No tienes suficiente dinero.
+- offset: '0x001b1e24'
+  name: ES-002 0x001B1E24
+  expected: Elige el tipo de impresión.
+- offset: '0x001b1e42'
+  name: ES-002 0x001B1E42
+  expected: ¡Sonríe para la foto!\nTres<0xB0> Dos<0xB0> Uno<0xB0><0xFB>¡Flash!
+- offset: '0x001b1e7d'
+  name: ES-002 0x001B1E7D
+  expected: ¡La foto de tu Pokémon está lista!\nMira tu Ficha de Entrenador.
+- offset: '0x001bc35e'
+  name: ES-002 0x001BC35E
+  expected: ¿Qué servicio deseas utilizar?
+- offset: '0x001bc388'
+  name: ES-002 0x001BC388
+  expected: Intercambia Pokémon con otro\njugador mediante un cable Game\nLink de
+    GBA.
+- offset: '0x001bc3c7'
+  name: ES-002 0x001BC3C7
+  expected: Combate con otro Entrenador\ncon un cable Game Link de GBA.
+- offset: '0x001bc409'
+  name: ES-002 0x001BC409
+  expected: Para un Combate Doble necesitas\nal menos dos Pokémon.
+- offset: '0x001bc442'
+  name: ES-002 0x001BC442
+  expected: Para intercambiar debes llevar\nal menos dos Pokémon.
+- offset: '0x001bc47c'
+  name: ES-002 0x001BC47C
+  expected: No puedes intercambiar Pokémon\nque lleven una Baya <0xFD><0x02>.
+- offset: '0x001bc4ac'
+  name: ES-002 0x001BC4AC
+  expected: 'Espera.\n<0xB0> Botón B: Cancelar'
+- offset: '0x001bc4ce'
+  name: ES-002 0x001BC4CE
+  expected: 'Cuando todos estén listos<0xB0>\nBotón A: Confirmar<0xFA>Botón B: Cancelar'
+- offset: '0x001bc50d'
+  name: ES-002 0x001BC50D
+  expected: 'Conectar a <0xFD><0x02> jugadores.\nBotón A: Confirmar<0xFA>Botón B:
+    Cancelar'
+- offset: '0x001bc54c'
+  name: ES-002 0x001BC54C
+  expected: 'Esperando conexión<0xB0>\n<0xB0> Botón B: Cancelar'
+- offset: '0x001bc590'
+  name: ES-002 0x001BC590
+  expected: Adelante.
+- offset: '0x001bc59e'
+  name: ES-002 0x001BC59E
+  expected: Te guiaré a tu sala ahora.
+- offset: '0x001bc5c0'
+  name: ES-002 0x001BC5C0
+  expected: Alguien aún no está listo.<0xFB>Volved cuando todo el mundo\nesté preparado.
+- offset: '0x001bc615'
+  name: ES-002 0x001BC615
+  expected: Lo siento, falló la conexión.\nReinicia e inténtalo de nuevo.
+- offset: '0x001bc64e'
+  name: ES-002 0x001BC64E
+  expected: Los participantes parecen haber\nelegido opciones distintas.
+- offset: '0x001bc68a'
+  name: ES-002 0x001BC68A
+  expected: Vuelve cuando quieras.
+- offset: '0x001bc6a1'
+  name: ES-002 0x001BC6A1
+  expected: El número de participantes\nno es correcto.
+- offset: '0x001bc6ca'
+  name: ES-002 0x001BC6CA
+  expected: El Combate Individual no admite\n<0xFD><0x02> jugadores.
+- offset: '0x001bc700'
+  name: ES-002 0x001BC700
+  expected: No se puede jugar un Combate\nDoble con <0xFD><0x02> jugadores.
+- offset: '0x001bc736'
+  name: ES-002 0x001BC736
+  expected: Este modo de combate requiere\ncuatro jugadores.
+- offset: '0x001bc76b'
+  name: ES-002 0x001BC76B
+  expected: Confirma el número de jugadores\ny vuelve a empezar.
+- offset: '0x001bc7a1'
+  name: ES-002 0x001BC7A1
+  expected: Si sales de la sala, se cortará\nla conexión. ¿De acuerdo?
+- offset: '0x001bc7e2'
+  name: ES-002 0x001BC7E2
+  expected: Cerrando conexión<0xB0>\nTe guiaremos fuera de<0xFA>la sala. Espera.
+- offset: '0x001bc827'
+  name: ES-002 0x001BC827
+  expected: Este Entrenador está demasiado\nocupado para darse cuenta<0xB0>
+- offset: '0x001bc84b'
+  name: ES-002 0x001BC84B
+  expected: ¡Bien! ¡He visto la Ficha de\nEntrenador de <0xFD><0x02>!
+- offset: '0x001bc874'
+  name: ES-002 0x001BC874
+  expected: ¡Bien! ¡He visto la Ficha de\nEntrenador de <0xFD><0x02>!<0xFB>¡Es una
+    tarjeta <0xFD><0x03>!
+- offset: '0x001bc8ad'
+  name: ES-002 0x001BC8AD
+  expected: Toma asiento y empieza\nel combate.
+- offset: '0x001bc8da'
+  name: ES-002 0x001BC8DA
+  expected: Toma asiento y empieza\nel intercambio.
+- offset: '0x001bc918'
+  name: ES-002 0x001BC918
+  expected: Se sobrescribirán los datos\nde la Ficha de Entrenador.
+- offset: '0x001bc943'
+  name: ES-002 0x001BC943
+  expected: ¡Espero volver a verte!
+- offset: '0x001bc95c'
+  name: ES-002 0x001BC95C
+  expected: Lo siento mucho.<0xFB>Aún no podemos hacer intercambios\ncon Entrenadores
+    lejanos de otra<0xFA>región<0xB0>
+- offset: '0x001bc9c0'
+  name: ES-002 0x001BC9C0
+  expected: El otro Entrenador no está listo.
+- offset: '0x001bc9e0'
+  name: ES-002 0x001BC9E0
+  expected: Llevas al menos un Pokémon\nque no puede participar.
+- offset: '0x001bca13'
+  name: ES-002 0x001BCA13
+  expected: El adaptador inalámbrico\nno está bien conectado.
+- offset: '0x001bca43'
+  name: ES-002 0x001BCA43
+  expected: Los participantes deben acercarse\nal mostrador de recepción.
+- offset: '0x001bca95'
+  name: ES-002 0x001BCA95
+  expected: Aquí puedes intercambiar Pokémon\ncon otro Entrenador.
+- offset: '0x001bcacb'
+  name: ES-002 0x001BCACB
+  expected: Aquí puedes combatir con\ntus amigos.
+- offset: '0x001bcaf2'
+  name: ES-002 0x001BCAF2
+  expected: Entre dos y cinco Entrenadores\npueden hacer Polvos de Baya.
+- offset: '0x001bcb42'
+  name: ES-002 0x001BCB42
+  expected: Cancela la opción del MENÚ.
+- offset: '0x001bcb81'
+  name: ES-002 0x001BCB81
+  expected: Para usar el Machacabayas\nnecesitas al menos una Baya.
+- offset: '0x001bcbc3'
+  name: ES-002 0x001BCBC3
+  expected: Para entrar en la Sala Unión\nnecesitas al menos dos Pokémon.
+- offset: '0x001bcc00'
+  name: ES-002 0x001BCC00
+  expected: No se admite en la Sala Unión\na Pokémon con Baya <0xFD><0x02>.
+- offset: '0x001bcc3a'
+  name: ES-002 0x001BCC3A
+  expected: Esta es la Sala Unión del\nClub Inalámbrico Pokémon.<0xFB>Por desgracia,
+    el adaptador\ninalámbrico está mal conectado.<0xFB>Vuelve cuando quieras.
+- offset: '0x001bccca'
+  name: ES-002 0x001BCCCA
+  expected: Parece que <0xFD><0x02> juega\nahora mismo.<0xFA>¡Ánimo!
+- offset: '0x001bd28d'
+  name: ES-002 0x001BD28D
+  expected: Bienvenido a la Sala Directa\ndel Club Inalámbrico Pokémon.<0xFB>Aquí
+    puedes comunicarte\ndirectamente con tus amigos.<0xFB>¿En qué sala quieres entrar?
+- offset: '0x001bd317'
+  name: ES-002 0x001BD317
+  expected: ¿Quieres intercambiar Pokémon?
+- offset: '0x001bd338'
+  name: ES-002 0x001BD338
+  expected: ¿Qué modo de combate\nquieres jugar?
+- offset: '0x001bd362'
+  name: ES-002 0x001BD362
+  expected: ¿Quieres utilizar\nel Machacabayas?
+- offset: '0x001bd390'
+  name: ES-002 0x001BD390
+  expected: Hay tres modos de combate.<0xFB>El Individual es para dos\nEntrenadores
+    con un Pokémon o más.<0xFB>Cada Entrenador puede sacar\nun Pokémon a la vez.<0xFB>El
+    Doble es para dos Entrenadores\ncon dos Pokémon o más.<0xFB>Cada Entrenador sacará\ndos
+    Pokémon a la vez.<0xFB>El Múltiple es para cuatro\nEntrenadores con un Pokémon
+    o más.<0xFB>Cada Entrenador puede sacar\nun Pokémon a la vez.
+- offset: '0x001bd51b'
+  name: ES-002 0x001BD51B
+  expected: Decidid cuál de los dos\nserá el Líder.<0xFB>El otro jugador deberá elegir\n“Unirse
+    al grupo”.
+- offset: '0x001bd582'
+  name: ES-002 0x001BD582
+  expected: Decidid cuál de los cuatro\nserá el Líder del grupo.<0xFB>Los demás deberán
+    elegir\n“Unirse al grupo”.
+- offset: '0x001bd5f1'
+  name: ES-002 0x001BD5F1
+  expected: Decidid quién será\nel Líder del grupo.<0xFB>Los demás deberán elegir\n“Unirse
+    al grupo”.
+- offset: '0x001bd65b'
+  name: ES-002 0x001BD65B
+  expected: Bienvenido a la Sala Unión\ndel Club Inalámbrico Pokémon.<0xFB>Aquí puedes
+    comunicarte con otros\nEntrenadores, incluso algunos<0xFA>que no conozcas.<0xFB>¿Quieres
+    entrar en la sala?
+- offset: '0x001bd706'
+  name: ES-002 0x001BD706
+  expected: En la Sala Unión encontrarás\na los jugadores cercanos que<0xFA>también
+    hayan entrado en ella.<0xFB>Aquí puedes hacer muchas cosas,\ncomo intercambiar
+    saludos.<0xFB>Puedes inscribir dos Pokémon\nhasta Nv. 30 para un duelo.<0xFB>Puedes
+    participar en un chat\ncon entre dos y cinco personas.<0xFB>También puedes inscribir\nun
+    Pokémon para intercambiarlo.<0xFB>¿Quieres entrar en la sala?
+- offset: '0x001bd86a'
+  name: ES-002 0x001BD86A
+  expected: Espero que disfrutes\nde la Sala Unión.
+- offset: '0x001bd898'
+  name: ES-002 0x001BD898
+  expected: ¡Hola!\nMe llamo Teala.<0xFB>Debe de ser la primera vez\nque subes aquí.<0xFB>Te
+    enseñaré cómo funciona\nla comunicación inalámbrica.<0xFB>Primero tengo que enseñarte
+    esta\nplanta del Centro Pokémon.<0xFB>Por aquí, por favor.
+- offset: '0x001bd966'
+  name: ES-002 0x001BD966
+  expected: En la planta superior\nhay dos salas.<0xFB>Primero, la sala de la izquierda.\nEs
+    la Sala Unión.<0xFB>Puedes conectar con Entrenadores\ncercanos que también entren<0xFA>en
+    la Sala Unión.<0xFB>Con ellos puedes chatear,\ncombatir e intercambiar.<0xFB>La
+    sala de la derecha\nes la SALA DIRECTA.<0xFB>En esta sala puedes intercambiar\ny
+    combatir con tus amigos.<0xFB>Sin adaptador inalámbrico,\ntambién puedes conectar
+    mediante<0xFA>un cable Game Link de GBA.<0xFB>En ese caso, debes ir\na la Sala
+    Directa.<0xFB>Espero que disfrutes de\nla comunicación inalámbrica.
+- offset: '0x001bdb85'
+  name: ES-002 0x001BDB85
+  expected: ¡Hola, <0xFD><0x01>!<0xFB>Soy Teala, la encargada de\nla planta 1 del
+    Centro Pokémon.<0xFB>¿Querías preguntarme algo\nsobre la conexión?
+- offset: '0x001bdbf8'
+  name: ES-002 0x001BDBF8
+  expected: Te explico el Club Inalámbrico\nPokémon.<0xFB>Arriba hay dos salas.<0xFB>A
+    la izquierda está la Sala Unión.<0xFB>Conecta con Entrenadores cercanos<0xFA>que
+    entren en ella.<0xFB>Podéis chatear, luchar\ne intercambiar.<0xFB>A la derecha
+    está\nla Sala Directa.<0xFB>Intercambia y lucha con amigos.<0xFB>Si no los ves
+    en la Sala Unión<0xFA>o en la Sala Directa,<0xFB>acércate a tus amigos.<0xFB>Sin
+    adaptador inalámbrico, conecta<0xFA>con un cable Game Link de GBA.<0xFB>En ese
+    caso, ve\na la Sala Directa.<0xFB>¡Disfruta de la comunicación\ninalámbrica!
+- offset: '0x001bdedf'
+  name: ES-002 0x001BDEDF
+  expected: Espero que disfrutes de\nla comunicación inalámbrica.
+- offset: '0x001bdf94'
+  name: ES-002 0x001BDF94
+  expected: ¡Parece que este árbol\nse puede cortar!<0xFB>¿Quieres cortarlo?
+- offset: '0x001bdfd7'
+  name: ES-002 0x001BDFD7
+  expected: ¡<0xFD><0x02> ha usado\n<0xFD><0x03>!
+- offset: '0x001bdfe3'
+  name: ES-002 0x001BDFE3
+  expected: ¡Parece que este árbol\nse puede cortar!
+- offset: '0x001be09d'
+  name: ES-002 0x001BE09D
+  expected: Parece que esta roca se puede\nromper. ¿Quieres usar Golpe Roca?
+- offset: '0x001be0e2'
+  name: ES-002 0x001BE0E2
+  expected: Es una roca dura, pero un Pokémon\npodría romperla.
+- offset: '0x001be1fa'
+  name: ES-002 0x001BE1FA
+  expected: ¡<0xFD><0x02> ha usado Fuerza!<0xFB>¡Con la Fuerza de <0xFD><0x02>\npuedes
+    mover las rocas!
+- offset: '0x001be244'
+  name: ES-002 0x001BE244
+  expected: Es una gran roca, pero un Pokémon\npodría apartarla.
+- offset: '0x001be284'
+  name: ES-002 0x001BE284
+  expected: Fuerza permite mover\nlas rocas.
+- offset: '0x001be30a'
+  name: ES-002 0x001BE30A
+  expected: Un muro de agua cae\ncon un estruendo ensordecedor.
+- offset: '0x001be33f'
+  name: ES-002 0x001BE33F
+  expected: Es una gran cascada.\n¿Quieres usar Cascada?
+- offset: '0x001be378'
+  name: ES-002 0x001BE378
+  expected: <0xFD><0x02> ha usado Cascada.
+- offset: '0x001be469'
+  name: ES-002 0x001BE469
+  expected: El mar es profundo aquí.\n¿Quieres usar Buceo?
+- offset: '0x001be49b'
+  name: ES-002 0x001BE49B
+  expected: <0xFD><0x02> ha usado Buceo.
+- offset: '0x001be4a9'
+  name: ES-002 0x001BE4A9
+  expected: La luz se filtra desde arriba.\nUn Pokémon podría salir a flote.
+- offset: '0x001be4ef'
+  name: ES-002 0x001BE4EF
+  expected: La luz se filtra desde arriba.\n¿Quieres usar Buceo?
+- offset: '0x001be52f'
+  name: ES-002 0x001BE52F
+  expected: Hay un obstáculo arriba.\nNo puedes usar Buceo aquí.
+- offset: '0x001be56d'
+  name: ES-002 0x001BE56D
+  expected: Parece que aquí no hay nada<0xB0>
+- offset: '0x001bf017'
+  name: ES-002 0x001BF017
+  expected: Cuéntame algo bueno de ti.\n¿Cómo es tu perfil?
+- offset: '0x001bf053'
+  name: ES-002 0x001BF053
+  expected: Un perfil se escribe con\ncuatro palabras o frases.<0xFB>Hay muchas palabras
+    para elegir\na la hora de crear tu perfil.<0xFB>Las palabras y frases se agrupan\nen
+    varias categorías prácticas.<0xFB>Primero elige una categoría,\ny luego una palabra
+    o frase.<0xFB><0xB0>Es más fácil de lo que parece.\n¿Por qué no lo pruebas?
+- offset: '0x001bf166'
+  name: ES-002 0x001BF166
+  expected: ¿Cómo es tu perfil?
+- offset: '0x001bf17b'
+  name: ES-002 0x001BF17B
+  expected: Venga<0xB0> No seas así.\nPuedes contarme cómo es tu perfil.
+- offset: '0x001bf1b2'
+  name: ES-002 0x001BF1B2
+  expected: ¿Has cambiado de idea?\n¡Qué indecisión!
+- offset: '0x001bf1e8'
+  name: ES-002 0x001BF1E8
+  expected: ¡Hola!\n¡Volvemos a vernos!
+- offset: '0x001bf1fb'
+  name: ES-002 0x001BF1FB
+  expected: ¿Quieres cambiar\ntu perfil?
+- offset: '0x001bf222'
+  name: ES-002 0x001BF222
+  expected: ¿Cómo eres ahora?\nMe encantaría saberlo.
+- offset: '0x001bf252'
+  name: ES-002 0x001BF252
+  expected: Vale, te gusta tu perfil\ntal como está.<0xFB>A mí también.
+- offset: '0x001bf28e'
+  name: ES-002 0x001BF28E
+  expected: Mmm<0xB0><0xFB>Tu perfil dice mucho\nsobre ti.<0xFB>¡Ahora que te conozco
+    mejor,\nsomos más amigos que nunca!
+- offset: '0x001bf30d'
+  name: ES-002 0x001BF30D
+  expected: Eso ya lo había oído<0xB0><0xFB>Creo que mi primo, que vive lejos,\nsiempre
+    solía decir eso.
+- offset: '0x001bf36a'
+  name: ES-002 0x001BF36A
+  expected: ¡La próxima vez cuéntame\nmás cosas de ti!
+- offset: '0x001bf5e3'
+  name: ES-002 0x001BF5E3
+  expected: ¡Ah, eres tú!<0xFB>Cuidábamos de tus Pokémon,\ny ¡menuda sorpresa nos
+    llevamos!<0xFB>¡Tus Pokémon tenían un Huevo!<0xFB>No sabemos cómo llegó ahí,\npero
+    tus Pokémon lo tenían.<0xFB>Lo quieres, ¿verdad?
+- offset: '0x001bf69a'
+  name: ES-002 0x001BF69A
+  expected: ¡Ah, eres tú! Me alegro de verte.\nTu <0xFD><0x02> está bien.
+- offset: '0x001bf6cf'
+  name: ES-002 0x001BF6CF
+  expected: De acuerdo, me lo quedaré.\n¡Gracias!
+- offset: '0x001bf6f0'
+  name: ES-002 0x001BF6F0
+  expected: No tienes sitio<0xB0>\nVuelve cuando hayas hecho hueco.
+- offset: '0x001bf72a'
+  name: ES-002 0x001BF72A
+  expected: <0xFD><0x01> ha recibido el Huevo\ndel encargado de la Guardería.
+- offset: '0x001bf755'
+  name: ES-002 0x001BF755
+  expected: Cuida bien de él.
+- offset: '0x001bf789'
+  name: ES-002 0x001BF789
+  expected: ¡Ah, eres tú! Tu <0xFD><0x02>\ny <0xFD><0x03> están bien.
+- offset: '0x001bf7b6'
+  name: ES-002 0x001BF7B6
+  expected: De verdad me lo quedaré.\nLo quieres, ¿verdad?
+- offset: '0x001bf7e4'
+  name: ES-002 0x001BF7E4
+  expected: Soy la encargada de la Guardería.<0xFB>Podemos cuidar de tus Pokémon.<0xFB>¿Quieres
+    que cuidemos de uno?
+- offset: '0x001bf839'
+  name: ES-002 0x001BF839
+  expected: ¿De qué Pokémon quieres\nque cuidemos?
+- offset: '0x001bf860'
+  name: ES-002 0x001BF860
+  expected: Bien, cuidaremos a <0xFD><0x02>\ndurante un tiempo.<0xFB>Vuelve a buscarlo
+    más tarde.
+- offset: '0x001bf89f'
+  name: ES-002 0x001BF89F
+  expected: Podemos cuidar de dos Pokémon.<0xFB>¿Quieres que cuidemos\nde otro Pokémon
+    tuyo?
+- offset: '0x001bf8f6'
+  name: ES-002 0x001BF8F6
+  expected: Mi marido te estaba buscando.
+- offset: '0x001bf916'
+  name: ES-002 0x001BF916
+  expected: Ah, de acuerdo.\nVuelve cuando quieras.
+- offset: '0x001bf932'
+  name: ES-002 0x001BF932
+  expected: No tienes suficiente dinero<0xB0>
+- offset: '0x001bf94f'
+  name: ES-002 0x001BF94F
+  expected: ¿También quieres recuperar\nal otro?
+- offset: '0x001bf976'
+  name: ES-002 0x001BF976
+  expected: De acuerdo.\nVuelve cuando quieras.
+- offset: '0x001bf988'
+  name: ES-002 0x001BF988
+  expected: ¡Ah, eres tú!\nMe alegro de verte.<0xFB>¡Seguro que tus Pokémon\nestán
+    muy bien!
+- offset: '0x001bf9cc'
+  name: ES-002 0x001BF9CC
+  expected: Tu <0xFD><0x02> ha subido\n<0xFD><0x03> niveles.
+- offset: '0x001bf9ef'
+  name: ES-002 0x001BF9EF
+  expected: Tu equipo Pokémon está completo.\nHaz sitio y vuelve a verme.
+- offset: '0x001bfa3b'
+  name: ES-002 0x001BFA3B
+  expected: Recuperar a tu <0xFD><0x02>\nte costará ¥<0xFD><0x03>.
+- offset: '0x001bfa67'
+  name: ES-002 0x001BFA67
+  expected: ¡Perfecto!\nAquí tienes a tu Pokémon.
+- offset: '0x001bfa85'
+  name: ES-002 0x001BFA85
+  expected: <0xFD><0x01> ha recogido\na <0xFD><0x02> de la Guardería.
+- offset: '0x001bfaad'
+  name: ES-002 0x001BFAAD
+  expected: ¿Solo tienes un Pokémon?<0xFB>Vuelve en otra ocasión.
+- offset: '0x001bfae8'
+  name: ES-002 0x001BFAE8
+  expected: ¿Quieres recuperar a tu Pokémon?
+- offset: '0x001bfb09'
+  name: ES-002 0x001BFB09
+  expected: Si me dejas ese Pokémon,\n¿con qué combatirás?<0xFB>Vuelve en otra ocasión.
+- offset: '0x001bfbe9'
+  name: ES-002 0x001BFBE9
+  expected: ¿Quieres salir ahora mismo\nde la ZONA SAFARI?
+- offset: '0x001bfc1b'
+  name: ES-002 0x001BFC1B
+  expected: 'Megafonía: ¡Din, don!<0xFB>¡Se acabó el tiempo!<0xFB>¡El JUEGO SAFARI
+    ha terminado!'
+- offset: '0x001bfc53'
+  name: ES-002 0x001BFC53
+  expected: 'Megafonía: ¡Din, don!<0xFB>¡No te quedan SAFARI BALLS!<0xFB>¡El JUEGO
+    SAFARI ha terminado!'
+- offset: '0x001c0db0'
+  name: ES-002 0x001C0DB0
+  expected: Está repleto de libros\nsobre Pokémon.
+- offset: '0x001c0df1'
+  name: ES-002 0x001C0DF1
+  expected: Un Mapa.
+- offset: '0x001c0dfd'
+  name: ES-002 0x001C0DFD
+  expected: ¡Hala!\n¡Un montón de cosas Pokémon!
+- offset: '0x001c0e19'
+  name: ES-002 0x001C0E19
+  expected: La vajilla y los platos están\nbien ordenados.
+- offset: '0x001c0e40'
+  name: ES-002 0x001C0E40
+  expected: ¡Huele de maravilla!\nAlguien ha cocinado aquí.
+- offset: '0x001c0e73'
+  name: ES-002 0x001C0E73
+  expected: Es una cómoda bien hecha.\nPuede contener muchas cosas.
+- offset: '0x001c0eac'
+  name: ES-002 0x001C0EAC
+  expected: Aquí hay un montón de aperitivos.
+- offset: '0x001c0ecb'
+  name: ES-002 0x001C0ECB
+  expected: ¡Todos los objetos que necesitas!\nTienda Pokémon
+- offset: '0x001c0ef7'
+  name: ES-002 0x001C0EF7
+  expected: ¡Cuida la salud de tus Pokémon!\nCentro Pokémon
+- offset: '0x001c0f19'
+  name: ES-002 0x001C0F19
+  expected: MESETA AÑIL<0xFB>¡La meta de los Entrenadores!\nSede de la LIGA POKÉMON
+- offset: '0x001c0f59'
+  name: ES-002 0x001C0F59
+  expected: MESETA AÑIL<0xFB>¡La máxima autoridad Pokémon!\nSede de la LIGA POKÉMON
+- offset: '0x001c0f99'
+  name: ES-002 0x001C0F99
+  expected: Debe estar llena de todo tipo de\ncomidas deliciosas.
+- offset: '0x001c0fd8'
+  name: ES-002 0x001C0FD8
+  expected: Parece un plano.\nEstá lleno de dibujos y texto.
+- offset: '0x001c101b'
+  name: ES-002 0x001C101B
+  expected: Es un bello cuadro de un Pokémon.\nParece que se siente bien.
+- offset: '0x001c1060'
+  name: ES-002 0x001C1060
+  expected: ¿Qué será esta máquina?\n¡Mejor no tocarla!
+- offset: '0x001c109c'
+  name: ES-002 0x001C109C
+  expected: Es un teléfono.\nMejor no usarlo.
+- offset: '0x001c10c1'
+  name: ES-002 0x001C10C1
+  expected: Son palabras y números complejos\nque no tienen sentido<0xB0>
+- offset: '0x001c10fc'
+  name: ES-002 0x001C10FC
+  expected: Es un cartel que anuncia\ntodo tipo de productos.
+- offset: '0x001c1134'
+  name: ES-002 0x001C1134
+  expected: ¡Qué bien huele!\n¡Hace que te rujan las tripas!
+- offset: '0x001c116e'
+  name: ES-002 0x001C116E
+  expected: Dentro de esto<0xB0>\n<0xB0><0xB0><0xFB>¡No hay nada!
+- offset: '0x001c1194'
+  name: ES-002 0x001C1194
+  expected: Es una taza con un dibujo\nde un Pokémon.
+- offset: '0x001c11ba'
+  name: ES-002 0x001C11BA
+  expected: La ventana está muy bien pulida.
+- offset: '0x001c11dc'
+  name: ES-002 0x001C11DC
+  expected: Al otro lado de la ventana<0xB0><0xFB>El cielo es increíblemente\nhermoso.
+- offset: '0x001c1217'
+  name: ES-002 0x001C1217
+  expected: Luces de diferentes colores se\nencienden y apagan.
+- offset: '0x001c124b'
+  name: ES-002 0x001C124B
+  expected: Todo tipo de herramientas\nestán bien ordenadas.
+- offset: '0x001c1273'
+  name: ES-002 0x001C1273
+  expected: Es una especie de máquina.\nDesde luego, impresiona.
+- offset: '0x001c12a7'
+  name: ES-002 0x001C12A7
+  expected: ¡Es el último videojuego!\n¡Parece muy divertido!
+- offset: '0x001c12d6'
+  name: ES-002 0x001C12D6
+  expected: Aquí hay señales evidentes\nde un robo<0xB0>
+- offset: '0x001c1300'
+  name: ES-002 0x001C1300
+  expected: ¡Hay un Pokémon en la tele!\nParece que se divierte.
+- offset: '0x001c13d6'
+  name: ES-002 0x001C13D6
+  expected: No hay Entrenadores cerca\nque puedan combatir<0xB0><0xFB>El Buscapelea
+    se ha apagado.<0xFC><0x09>
+- offset: '0x001c1429'
+  name: ES-002 0x001C1429
+  expected: Los otros Entrenadores no parecen\nlistos para combatir.<0xFB>Esperemos
+    un poco.<0xFC><0x09>
+- offset: '0x001c55c9'
+  name: ES-002 0x001C55C9
+  expected: ¿Quieres guardar la partida?
+- offset: '0x001c55ea'
+  name: ES-002 0x001C55EA
+  expected: Ya hay una partida guardada.\n¿Quieres sobrescribirla?
+- offset: '0x001c5625'
+  name: ES-002 0x001C5625
+  expected: GUARDANDO<0xB0>\nNO APAGUES LA CONSOLA.
+- offset: '0x001c5647'
+  name: ES-002 0x001C5647
+  expected: <0xFD><0x01> ha guardado la partida.
+- offset: '0x001c566a'
+  name: ES-002 0x001C566A
+  expected: ¡AVISO!<0xFB>Ya hay otra partida\nguardada.<0xFB>Si guardas ahora, perderás
+    toda\nla otra aventura, sus objetos y<0xFA>sus Pokémon.<0xFB>¿Seguro que quieres
+    guardar ahora\ny sobrescribir la otra partida?
+- offset: '0x001c574f'
+  name: ES-002 0x001C574F
+  expected: NOMBRE NUEVO
+- offset: '0x001c582d'
+  name: ES-002 0x001C582D
+  expected: Explicaremos los botones\npor orden de importancia.
+- offset: '0x001c5875'
+  name: ES-002 0x001C5875
+  expected: Mueve al personaje principal.\nTambién permite elegir\ndistintos apartados
+    de datos.
+- offset: '0x001c58ba'
+  name: ES-002 0x001C58BA
+  expected: Confirma opciones, examina cosas,\ninicia charlas y hace avanzar\nel texto.
+- offset: '0x001c58f9'
+  name: ES-002 0x001C58F9
+  expected: Permite salir, cancelar una opción\ny cancelar un modo.
+- offset: '0x001c592b'
+  name: ES-002 0x001C592B
+  expected: Pulsa este botón para abrir\nel MENÚ.
+- offset: '0x001c594f'
+  name: ES-002 0x001C594F
+  expected: Permite cambiar objetos de sitio\ny usar un objeto registrado.
+- offset: '0x001c5981'
+  name: ES-002 0x001C5981
+  expected: Si necesitas ayuda para jugar\no saber cómo hacer algo,\npulsa el botón
+    L o R.
+- offset: '0x001c59d5'
+  name: ES-002 0x001C59D5
+  expected: ¿Eres un chico?\n¿O eres una chica?
+- offset: '0x001c5a04'
+  name: ES-002 0x001C5A04
+  expected: En el mundo al que vas a entrar,\nvivirás una gran aventura\ncon tu propio
+    protagonismo.
+- offset: '0x001c5a6b'
+  name: ES-002 0x001C5A6B
+  expected: Habla con gente y examina cosas\nen pueblos, caminos o cuevas.\nBusca
+    información y pistas\nen todas partes.
+- offset: '0x001c5aeb'
+  name: ES-002 0x001C5AEB
+  expected: Durante tu aventura tendrás\nla oportunidad de tomar\nmuchas decisiones.\n\nRecuerda
+    siempre que tus actos\npueden afectar y cambiar\nel mundo que te rodea.
+- offset: '0x00236632'
+  name: ES-002 0x00236632
+  expected: Estas gafas protegen del daño\ncausado por el clima y de\nlos movimientos
+    de polvo.
+- offset: '0x002372e4'
+  name: ES-002 0x002372E4
+  expected: Polvo Estelar
+- offset: '0x002372ed'
+  name: ES-002 0x002372ED
+  expected: Trozo Estrella
+- offset: '0x002372f8'
+  name: ES-002 0x002372F8
+  expected: Fragmento Cometa
+- offset: '0x00237304'
+  name: ES-002 0x00237304
+  expected: Perla
+- offset: '0x0023730a'
+  name: ES-002 0x0023730A
+  expected: Perla Grande
+- offset: '0x00237314'
+  name: ES-002 0x00237314
+  expected: Sarta de Perlas
+- offset: '0x00237321'
+  name: ES-002 0x00237321
+  expected: Pepita
+- offset: '0x00237328'
+  name: ES-002 0x00237328
+  expected: Maxipepita
+- offset: '0x0023744e'
+  name: ES-002 0x0023744E
+  expected: Seta Grande
+- offset: '0x0023745b'
+  name: ES-002 0x0023745B
+  expected: Seta Aroma
+- offset: '0x00237469'
+  name: ES-002 0x00237469
+  expected: Malasada Maxi
+- offset: '0x00237476'
+  name: ES-002 0x00237476
+  expected: Porcehelado
+- offset: '0x00237483'
+  name: ES-002 0x00237483
+  expected: Miel
+- offset: '0x00237489'
+  name: ES-002 0x00237489
+  expected: Galleta Lava
+- offset: '0x00237495'
+  name: ES-002 0x00237495
+  expected: Restos
+- offset: '0x0023749f'
+  name: ES-002 0x0023749F
+  expected: Huevo Suerte
+- offset: '0x002374a9'
+  name: ES-002 0x002374A9
+  expected: Crêpe Luminalia
+- offset: '0x002374b9'
+  name: ES-002 0x002374B9
+  expected: Barrita Plus
+- offset: '0x002374c4'
+  name: ES-002 0x002374C4
+  expected: Caramelo Furia
+- offset: '0x002374d3'
+  name: ES-002 0x002374D3
+  expected: Caramelo Raro
+- offset: '0x002374de'
+  name: ES-002 0x002374DE
+  expected: Galleta Yantra
+- offset: '0x002374ec'
+  name: ES-002 0x002374EC
+  expected: Sal Cardumen
+- offset: '0x002374f7'
+  name: ES-002 0x002374F7
+  expected: Zumo de Baya
+- offset: '0x0023751c'
+  name: ES-002 0x0023751C
+  expected: Eevee<0xFC><0x13><0x4B><0xFC><0x06>  1 500 Fichas
+- offset: '0x00237534'
+  name: ES-002 0x00237534
+  expected: Dratini<0xFC><0x13><0x4B><0xFC><0x06>  2 800 Fichas
+- offset: '0x0023754e'
+  name: ES-002 0x0023754E
+  expected: Klefki<0xFC><0x13><0x4B><0xFC><0x06>  5 000 Fichas
+- offset: '0x00237567'
+  name: ES-002 0x00237567
+  expected: Porygon<0xFC><0x13><0x4B><0xFC><0x06>  9 999 Fichas
+- offset: '0x002375bd'
+  name: ES-002 0x002375BD
+  expected: Fósil Domo
+- offset: '0x002375c9'
+  name: ES-002 0x002375C9
+  expected: Ámbar Viejo
+- offset: '0x002375d3'
+  name: ES-002 0x002375D3
+  expected: Fósil Raíz
+- offset: '0x002375df'
+  name: ES-002 0x002375DF
+  expected: Fósil Garra
+- offset: '0x002375eb'
+  name: ES-002 0x002375EB
+  expected: Fósil Cráneo
+- offset: '0x002375f8'
+  name: ES-002 0x002375F8
+  expected: Fósil Coraza
+- offset: '0x00237605'
+  name: ES-002 0x00237605
+  expected: Fósil Tapa
+- offset: '0x00237612'
+  name: ES-002 0x00237612
+  expected: Fósil Pluma
+- offset: '0x0023761f'
+  name: ES-002 0x0023761F
+  expected: Fósil Mandíbula
+- offset: '0x0023762a'
+  name: ES-002 0x0023762A
+  expected: Fósil Aleta
+- offset: '0x00238d20'
+  name: ES-002 0x00238D20
+  expected: Microondas
+- offset: '0x00238d2f'
+  name: ES-002 0x00238D2F
+  expected: Lavadora
+- offset: '0x00238d3f'
+  name: ES-002 0x00238D3F
+  expected: Frigorífico
+- offset: '0x00238d4c'
+  name: ES-002 0x00238D4C
+  expected: Ventilador
+- offset: '0x00238d59'
+  name: ES-002 0x00238D59
+  expected: Cortacésped
+- offset: '0x00238d63'
+  name: ES-002 0x00238D63
+  expected: Retirar
+- offset: '0x00238d6a'
+  name: ES-002 0x00238D6A
+  expected: Cancelar
+- offset: '0x0023e565'
+  name: ES-002 0x0023E565
+  expected: Entren. <0x53><0x54>
+- offset: '0x0023e57f'
+  name: ES-002 0x0023E57F
+  expected: Agente
+- offset: '0x0023e58c'
+  name: ES-002 0x0023E58C
+  expected: Camarero
+- offset: '0x0023e599'
+  name: ES-002 0x0023E599
+  expected: Camarera
+- offset: '0x0023e5a6'
+  name: ES-002 0x0023E5A6
+  expected: Reportero
+- offset: '0x00236c40'
+  name: ES-002 0x00236C40
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nLucha.
+- offset: '0x00236ca4'
+  name: ES-002 0x00236CA4
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nVolador.
+- offset: '0x00236d06'
+  name: ES-002 0x00236D06
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nVeneno.
+- offset: '0x00236d68'
+  name: ES-002 0x00236D68
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nTierra.
+- offset: '0x00236dca'
+  name: ES-002 0x00236DCA
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nRoca.
+- offset: '0x00236e2a'
+  name: ES-002 0x00236E2A
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nBicho.
+- offset: '0x00236e89'
+  name: ES-002 0x00236E89
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nFantasma.
+- offset: '0x00236eea'
+  name: ES-002 0x00236EEA
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nAcero.
+- offset: '0x00236f4b'
+  name: ES-002 0x00236F4B
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nFuego.
+- offset: '0x00236fab'
+  name: ES-002 0x00236FAB
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nAgua.
+- offset: '0x0023706b'
+  name: ES-002 0x0023706B
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nEléctrico.
+- offset: '0x002370cf'
+  name: ES-002 0x002370CF
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nPsíquico.
+- offset: '0x00237132'
+  name: ES-002 0x00237132
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nHielo.
+- offset: '0x00237191'
+  name: ES-002 0x00237191
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nDragón.
+- offset: '0x002371f3'
+  name: ES-002 0x002371F3
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nSiniestro.
+- offset: '0x00237253'
+  name: ES-002 0x00237253
+  expected: Tabla de piedra. Al llevarla,\npotencia movimientos de tipo\nHada.
+- offset: '0x001a5ad5'
+  name: ES-002 alias 0x001A5AD5
+  expected: ¡Hola!\n¿Tienes un <0xFD><0x02>?<0xFB>¿Lo cambias por mi\n<0xFD><0x03>?
+- offset: '0x001b1d7c'
+  name: ES-002 alias 0x001B1D7C
+  expected: ¡Es una impresora Pokémon!<0xFB>Puede imprimir tu Pokémon al\ndorso de
+    tu Ficha de Entrenador.<0xFB>Solo cuesta ¥50.\n¿Quieres probarla?
+- offset: '0x001bc310'
+  name: ES-002 alias 0x001BC310
+  expected: Bienvenido al Club Cable Pokémon.<0xFB>¿Qué servicio deseas utilizar?
+- offset: '0x001c27e6'
+  name: ES-002 alias 0x001C27E6
+  expected: La orilla de la playa no es\ntan poco profunda.

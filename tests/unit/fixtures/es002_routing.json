@@ -489,6 +489,42 @@
           "commandes_conformes": true
         }
       ]
+    },
+    {
+      "offset": "0x001A561A",
+      "traitement": "traduit",
+      "justification": "Traduction ES relue sur le texte EN complet ; commandes et ordre des buffers conserv\u00e9s.",
+      "en_inventaire": "I'm terribly sorry.\\nThe Pok\u00e9mon Wireless Club is<0xFA>undergoing adjustments now.",
+      "en_complet_hex": "c3b4e100e8d9e6e6ddd6e0ed00e7e3e6e6edadfecedcd900cae3df1be1e3e200d1dde6d9e0d9e7e700bde0e9d600dde7fae9e2d8d9e6dbe3dde2db00d5d8dee9e7e8e1d9e2e8e700e2e3ebadff",
+      "es_offset_map": {
+        "english_offset": 1725978,
+        "spanish_offset": 1725978,
+        "status": "matched"
+      },
+      "es_map_hex": "c3b4e100e8d9e6e6ddd6e0ed00e7e3e6e6edadfecedcd900cae3df1be1e3e200d1dde6d9e0d9e7e700bde0e9d600dde7fae9e2d8d9e6dbe3dde2db00d5d8dee9e7e8e1d9e2e8e700e2e3ebadff",
+      "referents_en": [
+        "0x001BB879"
+      ],
+      "referents_bruts": [
+        "0x001BB879"
+      ],
+      "zone": "Syst\u00e8me commun ; scripts/r\u00e9f\u00e9rents ci-dessus, aucune carte unique \u00e9tablie.",
+      "alertes_audit": "",
+      "commandes_en": [
+        "fa"
+      ],
+      "traduction": "Lo siento mucho.\\nEl Club Inal\u00e1mbrico Pok\u00e9mon<0xFA>est\u00e1 en obras.",
+      "octets_es_avec_ff": 60,
+      "validation_rom": "r\u00e9ussie",
+      "cibles_rom": [
+        {
+          "site": "0x001BB879",
+          "cible": "0x001A561A",
+          "octets_hex": "c6e300e7ddd9e2e8e300e1e9d7dce3adfebfe000bde0e9d600c3e2d5e017e1d6e6ddd7e300cae3df1be1e3e2fad9e7e81700d9e200e3d6e6d5e7adff",
+          "texte_conforme": true,
+          "commandes_conformes": true
+        }
+      ]
     }
   ],
   "rom_size": 33554432,
@@ -648,6 +684,14 @@
     {
       "offset": 2323703,
       "hex": "bcd9e6e6ed00c4e9ddd7d9ffc2d5ebe0e9d7dcd5fc134bfc060000a6"
+    },
+    {
+      "offset": 1725962,
+      "hex": "0505071500011537000102130229abffc3b4e100e8d9e6e6ddd6e0ed00e7e3e6e6edadfecedcd900cae3df1be1e3e200d1dde6d9e0d9e7e700bde0e9d600dde7fae9e2d8d9e6dbe3dde2db00d5d8dee9e7e8e1d9e2e8e700e2e3ebadffc3e800d5e4e4d9d5e6e700e8e300d6d9"
+    },
+    {
+      "offset": 1816693,
+      "hex": "6c020f001a561a0809046c02"
     }
   ],
   "neighbours": [
