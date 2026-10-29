@@ -105,3 +105,16 @@ def test_glossary_and_real_zones() -> None:
     assert 'Challenge Road' in pt[0x26D5DC]
     assert 'Great Desert' in pt[0x270FA1]
     assert 'Minus' in pt[0x24F90F] and 'Plus' in pt[0x24F925]
+
+
+def test_binary_prefix_is_not_an_independent_ability_description() -> None:
+    by_offset = {int(e['offset'], 16): e for e in ROWS}
+    prefix = by_offset[0x24F3C1]
+    canonical = by_offset[0x24F3C4]
+    assert prefix['status'] == 'alias'
+    assert prefix['canonical_offset'] == canonical['offset']
+    assert prefix['prefix_hex'] == '050000'
+    assert not prefix['all_pointer_occurrences']
+    # La traduction du suffixe vivant change aussi la fin de l’extraction
+    # précédente ; seul le préfixe binaire doit rester inchangé.
+    assert bytes.fromhex(prefix['source_hex'])[3:] == bytes.fromhex(canonical['source_hex'])

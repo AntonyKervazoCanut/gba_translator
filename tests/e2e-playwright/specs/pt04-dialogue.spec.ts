@@ -14,7 +14,7 @@ function ink(png: PNG, x: number, y: number): boolean {
   return Math.max(...png.data.subarray(at, at + 3)) < 100;
 }
 
-test('le dialogue PT-04 affiche Não acredito sans débordement sans débordement', async ({ page }) => {
+test('le dialogue PT-04 affiche Valeu por batalhar comigo sans débordement', async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt04-dialogue-'));
   const rom = fs.readFileSync(process.env.ROM_PATH ?? path.join(root, 'output/roms/GenedRom-pt.gba'));
   const target = rom.readUInt32LE(0x26d3d9) - 0x08000000; // 0x26d5bf, Dresseur
@@ -73,16 +73,17 @@ end)
   // Comparaison du texte réellement rendu aux glyphes natifs 2bpp,
   // indépendamment de la présence de la traduction dans la source.
   const glyphBase = rom.readUInt32LE(0x658c) - 0x08000000;
-  let cursor = 15;
+  // Origine du moteur dans la zone intérieure de la msgbox (marge + décalage vertical).
+  let cursor = 16;
   let checkedPixels = 0;
   for (const code of expected.subarray(0, -1)) {
     const width = rom[widthBase + code];
     for (let y = 0; y < 16; y++) for (let x = 0; x < Math.min(width, 8); x++) {
       const offset = glyphBase + code * 64 + (y >> 3) * 32 + (y % 8) * 2;
       const value = rom.readUInt16LE(offset) >> (14 - 2 * x) & 3;
-      // 2 = encre de premier plan ; 1 = ombre, 0/3 = transparent.
-      if (value === 2) {
-        expect(ink(png, cursor + x, 117 + y), `glyphe ${code} pixel ${x},${y}`).toBe(true);
+      // 1 = encre de premier plan ; 2 = ombre, 0/3 = transparent.
+      if (value === 1) {
+        expect(ink(png, cursor + x, 121 + y), `glyphe ${code} pixel ${x},${y}`).toBe(true);
         checkedPixels++;
       }
     }

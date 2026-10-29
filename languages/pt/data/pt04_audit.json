@@ -1195,8 +1195,10 @@
       "source_hex": "050000c8e300e7e4d9d7ddd5e000d5d6dde0dde8edadff",
       "all_pointer_occurrences": [],
       "pointers": [],
-      "status": "exception",
-      "reason": "Copie historique ou extraction commençant avant la chaîne : aucune référence dans la table vivante des descriptions 0x96de04 (293 pointeurs). Occurrences brutes consignées, table vanilla 0x24fb08 sans référence de base ; ne pas injecter une copie non consommée."
+      "status": "alias",
+      "canonical_offset": "0x24f3c4",
+      "reason": "Extraction commençant trois octets avant la description canonique 0x24f3c4 déjà traduite ; pas de pointeur propre. Préfixe binaire 050000 à préserver.",
+      "prefix_hex": "050000"
     },
     {
       "offset": "0x24f3c4",

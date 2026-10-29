@@ -45,6 +45,26 @@ def test_every_offset_in_final_rom(entry: dict, roms: tuple) -> None:
             expected = TextEncoder.encode_pokemon(text.lstrip(), strict=True)
             expected = expected[entry.get('prefix_bytes', 0):]
             assert built[cell:cell + entry['cell_bytes']] == expected.ljust(entry['cell_bytes'], b'\0')
+        # Largeurs des vraies polices de dialogue/résumé, après patch PT.
+        for literal in (0x6594, 0x66F4):
+            widths = int.from_bytes(built[literal:literal + 4], 'little') - 0x08000000
+            assert 0 <= widths < len(built) - 256
+            cursor = index = 0
+            while index < len(expected):
+                code = expected[index]
+                if code in (0xFE, 0xFA, 0xFB, 0xFF):
+                    assert cursor <= 192, (entry['offset'], hex(literal), cursor)
+                    cursor = 0
+                    index += 1
+                elif code == 0xFD:
+                    cursor += 15 * 6  # Nom de combattant avec préfixe, marge comprise.
+                    index += 2
+                elif code == 0xFC:
+                    assert expected[index + 1] == 3
+                    index += 3
+                else:
+                    cursor += built[widths + code]
+                    index += 1
         for pointer in entry['pointers']:
             at = int(pointer, 16)
             target = int.from_bytes(built[at:at + 4], 'little') - 0x08000000
@@ -61,6 +81,9 @@ def test_every_offset_in_final_rom(entry: dict, roms: tuple) -> None:
             assert built[at:at + 4] == source[at:at + 4]
     else:
         assert entry['status'] == 'alias' and entry['canonical_offset']
+        if 'prefix_hex' in entry:
+            prefix = bytes.fromhex(entry['prefix_hex'])
+            assert built[offset:offset + len(prefix)] == prefix
 
 
 def test_source_hash_and_live_ability_table(roms: tuple) -> None:

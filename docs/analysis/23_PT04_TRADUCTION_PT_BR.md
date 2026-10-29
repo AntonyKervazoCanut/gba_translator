@@ -23,9 +23,9 @@ historique qui transforme des arguments de contrôle en lettres.
 - **155 noms conservés en anglais** : noms non répertoriés par F-759
   (`policy.unlisted`), noms propres de Dresseurs, ou termes canoniques trop longs
   pour une cellule fixe (`policy.cells`). Il ne s’agit pas de traductions injectées.
-- **6 alias** : padding précédant une cellule déjà traitée ou conservée ; pas de
+- **7 alias** : padding précédant une cellule déjà traitée ou conservée ; pas de
   chaîne autonome avec un pointeur propre.
-- **18 exceptions** : préfixes de cellules contenant un pointeur, descriptions
+- **17 exceptions** : préfixes de cellules contenant un pointeur, descriptions
   historiques non référencées par la table vivante, données binaires/graphiques.
 
 Les noms canoniques Lutador, Venenoso, Terrestre, Fantasma, Elétrico, Psíquico et
@@ -82,3 +82,18 @@ natifs et l’absence de débordement. La capture se trouve dans le dossier temp
 de l’OS puis dans les pièces jointes du ticket ; aucun screenshot n’est versionné.
 Ce contrôle de dialogue ne prétend pas certifier tous les écrans ni un parcours
 complet en jeu ; cette certification relève de T-848.
+
+Résultats locaux du lot : 136 contrôles unitaires/intégrité/recettes réussis,
+543 tests ROM PT réussis (PT-01, PT-04, polices), et un test Playwright réussi.
+La preuve compare 285 pixels de premier plan du texte livré aux glyphes natifs
+et contrôle l’espace après le texte ainsi que la seconde ligne vide.
+Les 98 traductions atteignent leurs 102 références vérifiées ; treize cellules
+bornées sont contrôlées en entier, y compris les deux messages à pointeur intérieur.
+Les largeurs des deux vraies polices dialogue/résumé sont aussi mesurées dans la
+ROM finale, avec une réserve pour les noms de combattants variables.
+
+Hooks actifs : 4 638 tests Python réussis (un skip préexistant), 68 tests Vitest
+réussis et builds FR/IT/DE réussis. Le rebuild FR retrouve le SHA256 de référence
+certifié dans F-758 :
+`2c2f602edcbb11e07acad7f078991d22bb742c94388e93b0fd8651259e11c863`.
+Aucun fichier partagé, ROM distribuée, push ou pipeline distant n’est modifié/lancé.
