@@ -11,7 +11,7 @@ from languages.pt.patches.batch_16 import make_patch
 from languages.pt.patches.font import apply_patches
 from src.core import pokedex
 from src.core.font_glyphs import LATIN_FONTS
-from src.core.text_codec import TextEncoder
+from src.core.text_codec import TextDecoder, TextEncoder
 
 ROOT = Path(__file__).resolve().parents[3]
 AUDIT = json.loads((ROOT / 'languages/pt/data/pt16_audit.json').read_text())
@@ -48,11 +48,14 @@ def test_every_translation_reaches_built_rom(source, built):
     patch = make_patch(source)
     assert len(patch.entries()) == 282
     patch.verify(built)
-    entries = {e.index: e for e in pokedex.iter_entries(built)}
     for row, (offset, refs, encoded) in zip(AUDIT['entries'], patch.entries()):
         assert offset == int(row['offset'], 16)
         assert encoded == TextEncoder.encode_pokemon(row['portuguese'].replace(r'\n', '\n'), strict=True)
-        assert entries[row['dex_index']].text == row['portuguese'].replace(r'\n', '\n')
+        # Lire la structure brute : les guillemets d'Electrode sont décodés
+        # en guillemets courbes, exclus du filtre heuristique iter_entries.
+        site = pokedex.DEX_TABLE_BASE + row['dex_index'] * pokedex.DEX_TABLE_STRIDE
+        target = struct.unpack_from('<I', built, site)[0] - 0x08000000
+        assert TextDecoder.decode_pokemon(built[target:target + len(encoded)]) == TextDecoder.decode_pokemon(encoded)
         for ref in refs:
             target = struct.unpack_from('<I', built, ref)[0] - 0x08000000
             assert built[target:target + len(encoded)] == encoded

@@ -60,13 +60,15 @@ d'une source différente. Les structures et descriptions Pokédex hors lot reste
 inchangées lors de l'application isolée du patch.
 
 La preuve Playwright utilise mGBA hors écran et une copie temporaire de la ROM
-construite. Elle appelle la msgbox native sur les pointeurs Pokédex des deux bornes
-du lot, sans injecter de texte de substitution. Elle exige par OCR les trois lignes
-de chaque texte, y compris après défilement, avant de produire la capture dans le
+construite. Elle appelle la msgbox native sur les pointeurs Pokédex de deux
+échantillons (`0x446edd`, `0x44de55`), sans modifier les textes, glyphes ou fenêtres.
+Elle exige par OCR leurs deux premières lignes avant de produire la capture dans le
 dossier temporaire de l'OS. Aucune sauvegarde en jeu ni capture dans le dépôt.
 
 ## Non vérifié
 
+La msgbox de sonde est haute de deux lignes : elle ne présente donc pas la troisième
+ligne du Pokédex, contrôlée par les tests binaires et les mesures de police.
 La sonde visuelle n'est pas une navigation dans les 282 pages de l'interface
 Pokédex et ne certifie pas le parcours complet du jeu. Cette navigation reste
 du ressort de T-848. Les catégories, espèces, métriques et autres textes du

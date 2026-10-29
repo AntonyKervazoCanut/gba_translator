@@ -5,7 +5,7 @@ from pathlib import Path
 
 import yaml
 
-from src.core.text_codec import TextEncoder
+from src.core.text_codec import TextDecoder, TextEncoder
 
 ROOT = Path(__file__).resolve().parents[3]
 AUDIT = json.loads((ROOT / 'languages/pt/data/pt16_audit.json').read_text())
@@ -49,3 +49,12 @@ def test_finalizer_after_repairs():
     assert steps.count('batch_16') == 1
     assert all(steps.index(s) < steps.index('batch_16') for s in
                ('inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale', 'font'))
+
+
+def test_electrode_quote_aliases_are_lossless():
+    row = next(r for r in AUDIT['entries'] if r['offset'] == '0x447476')
+    raw = TextEncoder.encode_pokemon(row['portuguese'].replace(r'\n', '\n'), strict=True)
+    decoded = TextDecoder.decode_pokemon(raw)
+    assert '“Bola-Bomba”' in decoded
+    assert TextEncoder.encode_pokemon(decoded, strict=True) == raw
+    assert decoded.replace('“', '"').replace('”', '"') == row['portuguese'].replace(r'\n', '\n')

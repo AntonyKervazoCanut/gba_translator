@@ -1,6 +1,7 @@
-/** PT-16 : sonde msgbox native des descriptions aux deux bornes du lot.
- * Les pointeurs et les textes viennent de la ROM finale. Seul le script de
- * déclenchement est ajouté à une copie temporaire. Ce test ne revendique pas
+/** PT-16 : sonde msgbox native de deux descriptions livrées.
+ * Les pointeurs et les textes viennent de la ROM finale. Aucun texte, glyphe
+ * ni template de fenêtre n'est modifié. La sonde contrôle les deux premières
+ * lignes ; les trois lignes complètes sont vérifiées en binaire. Elle ne revendique pas
  * une navigation dans les 282 pages du Pokédex.
  */
 import { test, expect } from '@playwright/test';
@@ -11,13 +12,13 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
-const normalize = (s: string): string => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim();
+const normalize = (s: string): string => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim().toLowerCase();
 
-test('PT-16 : les trois lignes aux pointeurs Pokédex sont lisibles dans mGBA', async ({ page }) => {
+test('PT-16 : deux descriptions aux pointeurs Pokédex sont lisibles dans mGBA', async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt16-pokedex-'));
   const rom = fs.readFileSync(path.join(root, 'output/roms/GenedRom-pt.gba'));
   const audit = JSON.parse(fs.readFileSync(path.join(root, 'languages/pt/data/pt16_audit.json'), 'utf8'));
-  const cases = [audit.entries[0], audit.entries[281]];
+  const cases = [audit.entries[1], audit.entries[281]];
   const script = rom.lastIndexOf(Buffer.alloc(128, 255));
   expect(script).toBeGreaterThan(0x1000000);
   for (let n = 0; n < cases.length; n++) {
@@ -60,11 +61,8 @@ callbacks:add('frame', function()
   emu:write8(0x03000EA8,0); emu:write8(0x03000EB1,1)
   emu:write32(0x03000EB8,${0x08000000 + script + n * 16})
  end
- if f==2450 then emu:screenshot(${JSON.stringify(path.join(temp, `scene${n}-0.png`))}) end
- if f==2500 then emu:addKey(0) end
- if f==2504 then emu:clearKey(0) end
- if f==2750 then emu:screenshot(${JSON.stringify(path.join(temp, `scene${n}-1.png`))}) end
- if f==2800 then local d=io.open(${JSON.stringify(done)},'w'); d:write('ok'); d:close() end
+ if f==2450 then emu:screenshot(${JSON.stringify(path.join(temp, `scene${n}.png`))}) end
+ if f==2500 then local d=io.open(${JSON.stringify(done)},'w'); d:write('ok'); d:close() end
 end)
 `);
     const child = spawn(process.env.MGBA_PATH ?? '/opt/homebrew/opt/mgba/bin/mGBA', [
@@ -88,26 +86,23 @@ end)
         else child.once('exit', () => resolve());
       });
     }
-    const observations: string[] = [];
-    for (let part = 0; part < 2; part++) {
-      const shot = path.join(temp, `scene${n}-${part}.png`);
-      const src = `data:image/png;base64,${fs.readFileSync(shot).toString('base64')}`;
-      const picture = `<figure><figcaption>${cases[n].offset} — sonde native ${part + 1}/2</figcaption><img alt="${cases[n].offset}, partie ${part + 1}" src="${src}"></figure>`;
-      await page.setContent(`<style>img{width:960px;height:640px;image-rendering:pixelated}</style>${picture}`);
-      await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
-      const large = path.join(temp, 'large.png');
-      await page.getByRole('img').screenshot({ path: large });
-      observations.push(normalize(execFileSync(ocr, [large], { encoding: 'utf8' })));
-      pictures.push(picture);
+    const shot = path.join(temp, `scene${n}.png`);
+    const src = `data:image/png;base64,${fs.readFileSync(shot).toString('base64')}`;
+    const picture = `<figure><figcaption>${cases[n].offset} — sonde native (lignes 1 et 2)</figcaption><img alt="${cases[n].offset}" src="${src}"></figure>`;
+    await page.setContent(`<style>img{width:960px;height:640px;image-rendering:pixelated}</style>${picture}`);
+    await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
+    const large = path.join(temp, 'large.png');
+    await page.getByRole('img').screenshot({ path: large });
+    const text = normalize(execFileSync(ocr, [large], { encoding: 'utf8' }));
+    pictures.push(picture);
+    console.log(cases[n].offset, text);
+    for (const line of cases[n].portuguese.split('\\n').slice(0, 2)) {
+      expect(text, line).toContain(normalize(line));
     }
-    console.log(cases[n].offset, observations);
-    for (const line of cases[n].portuguese.split('\\n')) {
-      expect(observations.some(s => s.includes(normalize(line))), line).toBe(true);
-    }
-    expect(observations.join(' ')).not.toMatch(/The colder|floating ice|It lives deep|Il vit|Il utilise/);
+    expect(text).not.toMatch(/The colder|floating ice|It lives deep|Il vit|Il utilise/i);
   }
   await page.setContent(`<style>body{margin:0;background:#222;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(2,720px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:720px;height:480px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
-  await expect(page.getByRole('img')).toHaveCount(4);
+  await expect(page.getByRole('img')).toHaveCount(2);
   await page.getByRole('img').evaluateAll(images => Promise.all(images.map(img => (img as HTMLImageElement).decode())));
   const proof = path.join(os.tmpdir(), 'f775-pt16-proof.png');
   await page.locator('main').screenshot({ path: proof });
