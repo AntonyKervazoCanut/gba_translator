@@ -32,6 +32,12 @@ def test_scoped_winning_text_and_actual_line_budgets(row):
     offset = int(row['offset'], 16)
     text = (ROOT / 'languages/de/combined_de.txt').read_text()
     matches = re.findall(rf'^0x0*{offset:x}: (.*)$', text, re.I | re.M)
+    reported_text = row['de'] if row['decision'] != 'déjà patché' else row['expected_rom']
+    reported_text = reported_text.replace('\\n', '\n')
+    assert row['max_pixels'] == max(map(line_width, reported_text.splitlines()))
+    assert row['encoded_bytes'] == len(TextEncoder.encode_pokemon(
+        reported_text, skip_aliases=GERMAN_UMLAUT_CHARS,
+    ))
     if row['decision'] != 'déjà patché':
         assert matches[-1] == row['de']
         lines = matches[-1].replace('\\n', '\n').splitlines()

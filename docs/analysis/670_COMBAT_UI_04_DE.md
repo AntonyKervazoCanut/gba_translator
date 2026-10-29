@@ -354,3 +354,19 @@ sans raccourci qui dénaturerait les effets. Aucun patch modifié dans ce lot.
 | 0xA411A1 | déjà patché | 149 | table indexée | Psywelle — Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime |
 | 0xA411AE | déjà patché | 150 | table indexée | Platscher — Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime |
 | 0xA411BB | déjà patché | 151 | table indexée | Säurepanzer — Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime |
+
+## Validation locale
+
+Le relevé contient exactement les 300 offsets du ticket, dans le même ordre.
+Après les deux premiers commits : `make build-de` réussi, 301 assertions ROM
+réussies (300 cellules et un contrôle de non-chevauchement), et test Playwright
+headless `playwright.combat-ui-04.config.ts` réussi. Les quatre fenêtres réellement
+rendues par mGBA sont contrôlées par OCR : Laser Prisme, Gaz Corrosif, Hache de
+Pierre et description G-Max de Venusaur. La dernière ligne des descriptions est
+vérifiée ; la capture finale se trouve dans les pièces jointes du ticket.
+
+Les 152 textes sources, y compris les trois réservés au suivi technique, ont
+leur valeur exacte dans `protected_entries.yaml`. Le contrôle ROM distingue
+explicitement ces trois exceptions encore anglaises et ne les ignore pas.
+La suite standard `make test-python` et `make lint` complètent ces gardes ; les
+résultats de la dernière exécution figurent dans la résolution du ticket.
