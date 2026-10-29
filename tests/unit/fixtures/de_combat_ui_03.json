@@ -2981,7 +2981,7 @@
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
     "decision": "besoin de patch séparé",
-    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "reason": "B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction.",
     "after": null,
     "move_ids": [
       418
@@ -3038,7 +3038,7 @@
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
     "decision": "besoin de patch séparé",
-    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "reason": "B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction.",
     "after": null,
     "move_ids": [
       422
@@ -3331,7 +3331,7 @@
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
     "decision": "besoin de patch séparé",
-    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "reason": "B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction.",
     "after": null,
     "move_ids": [
       442
@@ -3351,7 +3351,7 @@
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
     "decision": "besoin de patch séparé",
-    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "reason": "B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction.",
     "after": null,
     "move_ids": [
       443
@@ -3667,7 +3667,7 @@
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
     "decision": "besoin de patch séparé",
-    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "reason": "B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction.",
     "after": null,
     "move_ids": [
       465

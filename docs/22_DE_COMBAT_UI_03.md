@@ -31,13 +31,21 @@ les octets canoniques EN, les sites de pointeurs et les décisions individuelles
 
 ## Validation
 
-Validation finale après retrait des 67 injections non conformes : en cours.
-Le premier build a prouvé 49 omissions d’extraction et 18 rewraps incompatibles.
+Contrôle ciblé source et ROM après retrait des 67 injections non conformes : **409 tests passés**.
+Construction DE : succès, zéro collision. Hooks : 2 239 tests Python rapides et 68 Vitest passés.
+Suite complète `make test-python`, sans build concurrent : **2 380 passés, 3 skips existants, 946 désélections**, aucun échec.
+Les références FR/IT ont été matérialisées par `scripts/materialize_test_roms.py fr it` depuis le bundle suivi ; aucun hash de référence ni source FR/IT modifié.
+Le lancement précédent pendant les hooks a été écarté (11 échecs FR dus à la ROM en cours de réécriture).
+Le premier build a prouvé 44 absences et 5 descriptions vides dans l’extraction et 18 rewraps incompatibles.
 B-1013 porte exclusivement leur réparation ; aucune de ces entrées n’est comptée corrigée.
 Playwright headless + mGBA hors écran et OCR : 1 test passé, capture attachée à B-669.
 Le prérequis ES/FR de T-915 est déjà résolu par A-663 (`6988ec86`) dans la base reprise.
 La suite ciblée vérifie les 300 décisions et les octets de chaque correction, pas seulement
 la présence du texte dans le fichier. Aucun audit global A-661 relancé.
+
+## Non vérifié
+
+Les 67 entrées de B-1013 ne sont pas corrigées en jeu. La preuve visuelle exerce une boîte réelle à partir du pointeur de la Pension via un script de test temporaire ; elle ne constitue pas un parcours manuel des 204 surfaces. Les octets et références vivantes de toutes les corrections sont contrôlés automatiquement.
 
 ## Décision par offset
 
@@ -212,10 +220,10 @@ la présence du texte dans le fichier. Aucun audit global A-661 relancé.
 | `0xA38F30` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F80C` |
 | `0xA38F75` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x99F810` |
 | `0xA38FB8` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x87A5CC`, `0x99F814` |
-| `0xA38FF2` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x87AAF4`, `0x99F818` |
+| `0xA38FF2` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction. | `0x87AAF4`, `0x99F818` |
 | `0xA39075` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x99F820` |
 | `0xA390BE` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F824` |
-| `0xA39106` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x87A338`, `0x99F828` |
+| `0xA39106` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction. | `0x87A338`, `0x99F828` |
 | `0xA39198` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x87A6D4`, `0x99F830` |
 | `0xA391E4` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F834` |
 | `0xA39232` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x99F838` |
@@ -231,8 +239,8 @@ la présence du texte dans le fichier. Aucun audit global A-661 relancé.
 | `0xA39592` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F868` |
 | `0xA395D6` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F86C` |
 | `0xA39663` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F874` |
-| `0xA39693` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x87A7B0`, `0x99F878` |
-| `0xA396D3` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x87A834`, `0x99F87C` |
+| `0xA39693` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction. | `0x87A7B0`, `0x99F878` |
+| `0xA396D3` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction. | `0x87A834`, `0x99F87C` |
 | `0xA3975D` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F884` |
 | `0xA397A7` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x99F888` |
 | `0xA397E7` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F88C` |
@@ -249,7 +257,7 @@ la présence du texte dans le fichier. Aucun audit global A-661 relancé.
 | `0xA39B78` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x879D08`, `0x99F8C0` |
 | `0xA39BF5` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F8C8` |
 | `0xA39C81` | Résumé / apprentissage : description d’attaque | corrigé | Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné. | `0x99F8D0` |
-| `0xA39CCD` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x87AB4C`, `0x99F8D4` |
+| `0xA39CCD` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : extraction EN vide (FF, longueur 1), description absente du JSON de traduction ; pointeurs encore EN après construction. | `0x87AB4C`, `0x99F8D4` |
 | `0xA39D55` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x99F8DC` |
 | `0xA39DD9` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x99F8E4` |
 | `0xA39E24` | Résumé / apprentissage : description d’attaque | besoin de patch séparé | B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction. | `0x99F8E8` |

@@ -69,6 +69,17 @@ def test_closed_scope_and_individual_decisions():
         assert int(row['offset'], 16) not in combined()
 
 
+def test_deferred_cases_preserve_the_verified_pipeline_diagnosis():
+    """Distingue extraction absente/vide et rewrap, sans masquer une exclusion."""
+    deferred = [row for row in ROWS if row['decision'] == 'besoin de patch séparé']
+    descriptions = [row for row in deferred if row['move_ids']]
+    assert len(descriptions) == 49
+    assert sum('extraction EN vide' in row['reason'] for row in descriptions) == 5
+    assert sum('offset absent' in row['reason'] for row in descriptions) == 44
+    assert sum('rewrap automatique' in row['reason'] for row in deferred) == 18
+    assert all('B-1013' in row['reason'] for row in deferred)
+
+
 @pytest.mark.parametrize('row', [r for r in ROWS if r['decision'] == 'corrigé'], ids=lambda r: r['offset'])
 def test_source_controls_and_boxes(row):
     """Le texte gagnant conserve les commandes EN et les budgets de fenêtre."""
