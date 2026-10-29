@@ -462,9 +462,10 @@ def apply_item_name_fixes(data: bytearray, names: dict) -> int:
 
 
 def apply_scoped_item_names(
-    data: bytearray, source: bytes, translations: dict[int, str]
+    data: bytearray, source: bytes, translations: dict[int, str],
+    *, preimages: dict[int, bytes] | None = None,
 ) -> int:
-    """Valide puis écrit uniquement les 122 cellules inline autorisées.
+    """Valide puis écrit les cellules autorisées (122 de B-1026 par défaut).
 
     Aucune référence issue de l'extraction n'est suivie. Les deux ROM doivent
     conserver la base lue par GetItemName ; chaque préimage complète est figée.
@@ -476,7 +477,7 @@ def apply_scoped_item_names(
     ):
         raise ValueError('Table vivante des objets différente')
     writes = []
-    for offset, expected in PREIMAGES.items():
+    for offset, expected in (PREIMAGES if preimages is None else preimages).items():
         if (offset - ITEM_TABLE_BASE) % ITEM_STRIDE or offset + NAME_FIELD > len(data):
             raise ValueError(f'0x{offset:X}: cellule hors table')
         if source[offset:offset + NAME_FIELD] != expected:

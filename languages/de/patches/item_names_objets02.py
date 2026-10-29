@@ -2,15 +2,15 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT))
 
-from languages.de.patches.fixed_table_names import encode
+from languages.de.patches.item_names import apply_scoped_item_names, encode
 from scripts.check_translation_integrity import load_last_wins
-from src.core.dialogue_linewrap import line_width
 
 # Liste exclusive B-1027 ; aucune recherche globale de chaînes ni relocation.
 EXPECTED_NAMES = {
@@ -124,38 +124,18 @@ ROUTINE = bytes.fromhex("2c2148430249401802bc0847000000628708")
 NAME_SIZE = 14
 
 
-def apply(data: bytearray, texts: dict[int, str]) -> int:
-    """Valide tout le lot avant d'écrire uniquement ses 104 champs de noms."""
-    if data[ROUTINE_OFFSET:ROUTINE_OFFSET + len(ROUTINE)] != ROUTINE:
-        raise ValueError("Routine/base de table des objets inattendue")
-    writes = []
+def apply(data: bytearray, texts: dict[int, str], source: bytes) -> int:
+    """Réutilise le raccordement B-1026 avec le périmètre distinct B-1027."""
+    for rom in (source, data):
+        if rom[ROUTINE_OFFSET:ROUTINE_OFFSET + len(ROUTINE)] != ROUTINE:
+            raise ValueError("Routine/base de table des objets inattendue")
+    preimages = {}
     for offset, english in EXPECTED_NAMES.items():
-        text = texts[offset]
-        try:
-            raw = encode(text)
-        except KeyError as exc:
-            raise ValueError(f"0x{offset:X}: caractère/commande interdit") from exc
-        if not raw or len(raw) + 1 > NAME_SIZE or any(b >= 0xF7 for b in raw):
-            raise ValueError(f"0x{offset:X}: nom vide, contrôle ou dépassement")
-        # Sac : 13 glyphes normaux (78 px). Ramassage : joueur de 7 glyphes.
-        if line_width(text) > 78 or line_width("WWWWWWW hat " + text + " in der") > 192:
-            raise ValueError(f"0x{offset:X}: dépassement du budget pixels")
-        if offset + 44 > len(data):
-            raise ValueError(f"0x{offset:X}: cellule hors ROM")
-        current = bytes(data[offset:offset + NAME_SIZE])
-        new = raw + b"\xff"
-        if current.startswith(new):
-            continue
-        # Ancienne écriture du patch centré, retirée pour la cellule vivante.
-        prior = [encode(english) + b"\xff"]
-        if english == "Berry Pouch":
-            prior.append(encode("Beerentasche") + b"\xff")
-        if not any(current.startswith(old) for old in prior):
-            raise ValueError(f"0x{offset:X}: préimage inattendue {current.hex()}")
-        writes.append((offset, new + bytes(NAME_SIZE - len(new))))
-    for offset, cell in writes:
-        data[offset:offset + NAME_SIZE] = cell
-    return len(writes)
+        cell = source[offset:offset + NAME_SIZE]
+        if not cell.startswith(encode(english) + b"\xff"):
+            raise ValueError(f"0x{offset:X}: préimage anglaise inattendue")
+        preimages[offset] = cell
+    return apply_scoped_item_names(data, source, texts, preimages=preimages)
 
 
 def main() -> int:
@@ -167,9 +147,13 @@ def main() -> int:
     original = args.rom.read_bytes()
     data = bytearray(original)
     texts, _ = load_last_wins(args.combined)
-    count = apply(data, texts)
+    source = (ROOT / "input/roms/englishrom.gba").read_bytes()
+    if hashlib.sha256(source).hexdigest() != "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7":
+        raise ValueError("ROM source non canonique")
+    count = apply(data, texts, source)
     if count:
         Path(str(args.rom) + ".bak").write_bytes(original)
+        Path(str(args.rom) + ".objets02.bak").write_bytes(original)
         args.rom.write_bytes(data)
     print(f"Objets-02 DE : {count}/104 noms raccordés")
     return 0
