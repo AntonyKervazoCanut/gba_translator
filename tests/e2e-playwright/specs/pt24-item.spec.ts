@@ -71,11 +71,11 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
     await page.getByRole('img').screenshot({ path: readable });
     const text = execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 });
     console.log(text);
-    // L'OCR varie sur les accents de la police pixel ; les octets sont
+    // L'OCR varie sur les accents et la casse de la police pixel ; les octets sont
     // vérifiés exactement avant le lancement de l'émulateur.
-    const normalized = text.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ');
+    const normalized = text.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').toLowerCase();
     for (const line of sample.text.split('\n')) {
-      expect(normalized).toContain(line.normalize('NFD').replace(/\p{M}/gu, ''));
+      expect(normalized).toContain(line.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase());
     }
     expect(text).not.toContain('regain HP');
     await page.getByRole('img').screenshot({ path: path.join(os.tmpdir(), `pt24-${sample.id}-proof.png`) });

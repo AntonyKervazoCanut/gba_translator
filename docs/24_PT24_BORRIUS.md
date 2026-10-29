@@ -27,6 +27,15 @@ npx playwright test --config tests/e2e-playwright/playwright.pt24.config.ts
 
 Les sondes mGBA/Playwright utilisent les pointeurs livrés sur une copie temporaire, hors écran et sans sauvegarder en jeu. Elles ne constituent pas une validation du parcours complet. Captures hors dépôt.
 
+Reprise du 29 octobre 2026 : restauration des 255 entrées et de leurs protections
+depuis l'audit conservé, sans réécriture des entrées existantes. Le finaliseur
+`batch_24` précède `batch_20`, qui doit rester dernier. Validation locale :
+34 tests de contrat/intégrité, 210 tests PT-20/PT-24, quatre tests ROM et deux
+tests Playwright réussis après `make build-pt`. Les trois lignes de Black Sludge
+sont comparées par OCR sans sensibilité aux accents ou à la casse ; leurs octets
+sont comparés exactement avant le rendu. Le hook a validé 5 990 tests Python
+(un skip préexistant), 71 tests Vitest et les builds FR/IT/DE.
+
 ## Bilan offset par offset
 
 Détail machine : languages/pt/data/pt24_audit.json (anglais, comparaison FR, préimages, budgets et pointeurs).

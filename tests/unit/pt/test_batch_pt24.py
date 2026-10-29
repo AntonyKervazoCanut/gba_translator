@@ -61,6 +61,8 @@ def test_objects_and_geography_keep_their_meaning():
     assert 'Meus estudos dependem' in texts[0x7AAECA]
     config = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())
     assert config['patches'].index('batch_24') > config['patches'].index('repoint_stale')
+    assert config['patches'].count('batch_24') == 1
+    assert config['patches'].index('batch_24') < config['patches'].index('batch_20')
 
 
 def test_corrupted_suffixes_are_identified_before_injection():
