@@ -3,7 +3,33 @@
 Qualification limitée aux **300 offsets exclusifs** du ticket, le 29 octobre 2026.
 Aucun audit global, aucune modification de traduction, de patch ou de ressource de jeu.
 
-## Résultat
+## Livraison après B-1027
+
+Les **300 offsets sont qualifiés** : 104 noms corrigés par B-1027, 101 noms
+déjà patchés et 95 termes légitimes conservés. Le raccordement dédié est livré
+dans les commits `28f69a0a`, `62956593` et `37478358`. Les 104 valeurs DE sont
+désormais présentes dans `combined_de.txt` et protégées exactement dans
+`protected_entries.yaml` ; les 196 autres noms du lot restent inchangés.
+
+Le [bilan de raccordement](1027_OBJETS_02_RACCORDEMENT_DE.md) et son JSON
+documentent les valeurs finales, les six abréviations explicites, les contrôles
+de cellules et les preuves Playwright. Aucun besoin de patch de ce lot ne reste
+en attente. Les relevés ci-dessous et le JSON `684_OBJETS_02_DE.json` conservent
+l'état **avant raccordement**, afin de préserver les préimages de qualification ;
+leurs mentions « Patch séparé » renvoient maintenant au travail livré par B-1027.
+
+Validation rapportée par B-1027 après rebase : build DE réussi, suite Python
+standard (4364 réussites, 3 skips préexistants, 96 sous-tests réussis), 333 tests
+ciblés et 14 scénarios Playwright/mGBA réussis. Les 104 noms ont été contrôlés
+en mémoire ; Beerentüte et les six abréviations ont été rendus dans le Cube et
+le message de réception. Aucun push ni pipeline distant.
+
+**Non vérifié :** parcours manuel d'acquisition des 104 objets et captures
+individuelles des 97 autres noms. Le Cube utilise une copie temporaire
+instrumentée ; le message de réception utilise le vrai ID. Les trois tests
+optionnels ignorés ne sont pas comptés comme réussis.
+
+## Résultat de la qualification initiale
 
 - **101 noms déjà patchés** et vérifiés dans le build DE.
 - **95 termes légitimes** : 93 TM numérotées, ADM (identifiant Unbound), Gracidea.

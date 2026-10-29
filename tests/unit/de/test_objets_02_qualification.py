@@ -29,6 +29,19 @@ def test_exclusive_ticket_scope_is_complete() -> None:
     }
 
 
+def test_delivered_patch_covers_exactly_the_qualified_missing_names() -> None:
+    """Le raccordement livré résout tous les besoins, sans absorber les voisins."""
+    from languages.de.patches.item_names_objets02 import EXPECTED_NAMES
+
+    qualified_missing_names = {
+        int(row["offset"], 16): row["en_rom"]
+        for row in REPORT["records"]
+        if row["decision"] == "patch_separe"
+    }
+
+    assert EXPECTED_NAMES == qualified_missing_names
+
+
 def test_binary_evidence_matches_names_and_cell_budgets() -> None:
     """Les cellules réellement relevées décodent les noms annoncés sans contrôle."""
     for row in REPORT["records"]:
