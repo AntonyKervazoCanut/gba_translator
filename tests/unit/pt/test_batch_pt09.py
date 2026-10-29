@@ -124,3 +124,19 @@ def test_final_patch_is_limited_to_the_contractual_consumers() -> None:
         assert definition['source_hex'] == row['source_hex']
         assert definition['layout']['preserve_line_count']
         assert definition['move_ids'] == []
+
+
+def test_final_report_records_every_verified_target_and_the_fd2f_terminator() -> None:
+    audit = json.loads((ROOT / 'languages/pt/data/pt09_audit.json').read_text())
+    assert re.fullmatch(r'[0-9a-f]{64}', audit['source_sha256'])
+    assert re.fullmatch(r'[0-9a-f]{64}', audit['built_sha256'])
+    for row in audit['entries']:
+        if row['status'] != 'exception':
+            assert len(row['targets']) == len(row['live_sites'])
+            assert all(0 <= int(target, 16) < 0x2000000 for target in row['targets'])
+    tampon = next(row for row in audit['entries'] if row['offset'] == '0x3fb262')
+    assert tampon['source_hex'] == 'fd2fff'
+    assert tampon['encoded_bytes'] == 3 and tampon['delivery'] == 'structured'
+    assert tampon['portuguese'] == '<0xFD><0x2F>'
+    report = (ROOT / 'docs/analysis/25_PT_BR_PT09.md').read_text()
+    assert 'en attente' not in report and 'À compléter' not in report
