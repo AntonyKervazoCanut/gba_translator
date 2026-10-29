@@ -1,0 +1,4009 @@
+{
+  "batch": "PT-04",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "domains": [
+    "Classes de Dresseurs",
+    "Types",
+    "Descriptions de Habilidades",
+    "Dialogues Borrius",
+    "Messages de combat",
+    "Structures et faux positifs graphiques"
+  ],
+  "entries": [
+    {
+      "offset": "0x23e7af",
+      "en": "Q<0xF2>ÌAdmin",
+      "fr_comparison": null,
+      "source_hex": "cbf209bbd8e1dde2ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Extraction partielle d’une cellule contenant un pointeur CFRU à 0x23e7ae vers 0x1f2cb68, pas un texte réinscriptible à cet offset. Classe indexée depuis 0x23e558 ; libellé réel hors PT-04.",
+      "cell_offset": "0x23e7ae",
+      "cell_bytes": 13,
+      "source_cell_hex": "68cbf209bbd8e1dde2ff0000ff",
+      "indirect_target": "0x1f2cb68"
+    },
+    {
+      "offset": "0x23e7bb",
+      "en": "ÍQ<0xF2>Ìt o Ruin",
+      "fr_comparison": null,
+      "source_hex": "5acbf209e800e300cce9dde2ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Extraction partielle d’une cellule contenant un pointeur CFRU à 0x23e7bb vers 0x1f2cb5a, pas un texte réinscriptible à cet offset. Classe indexée depuis 0x23e558 ; libellé réel hors PT-04.",
+      "cell_offset": "0x23e7bb",
+      "cell_bytes": 13,
+      "source_cell_hex": "5acbf209e800e300cce9dde2ff",
+      "indirect_target": "0x1f2cb5a"
+    },
+    {
+      "offset": "0x23e7c8",
+      "en": "Shadow Admin",
+      "fr_comparison": "Admin Ombre",
+      "source_hex": "cddcd5d8e3eb00bbd8e1dde2ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e7c8",
+      "cell_bytes": 13,
+      "source_cell_hex": "cddcd5d8e3eb00bbd8e1dde2ff"
+    },
+    {
+      "offset": "0x23e7d5",
+      "en": "Ex Shadow Ad",
+      "fr_comparison": "Ex Admin Ombre",
+      "source_hex": "bfec00cddcd5d8e3eb00bbd8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e7d5",
+      "cell_bytes": 13,
+      "source_cell_hex": "bfec00cddcd5d8e3eb00bbd8ff"
+    },
+    {
+      "offset": "0x23e7e2",
+      "en": "Bug Catcher",
+      "fr_comparison": "Scout",
+      "source_hex": "bce9db00bdd5e8d7dcd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e7e2",
+      "cell_bytes": 13,
+      "source_cell_hex": "bce9db00bdd5e8d7dcd9e6ffff"
+    },
+    {
+      "offset": "0x23e7ef",
+      "en": "HIKER",
+      "fr_comparison": "MONTAGNARD",
+      "source_hex": "c2c3c5bfccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e7ef",
+      "cell_bytes": 13,
+      "source_cell_hex": "c2c3c5bfccff000000000000ff"
+    },
+    {
+      "offset": "0x23e7fc",
+      "en": "Young Couple",
+      "fr_comparison": "Jeune Couple",
+      "source_hex": "d3e3e9e2db00bde3e9e4e0d9ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e7fc",
+      "cell_bytes": 13,
+      "source_cell_hex": "d3e3e9e2db00bde3e9e4e0d9ff"
+    },
+    {
+      "offset": "0x23e809",
+      "en": "Expert Duo",
+      "fr_comparison": "Duo Expert",
+      "source_hex": "bfece4d9e6e800bee9e3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e809",
+      "cell_bytes": 13,
+      "source_cell_hex": "bfece4d9e6e800bee9e3ff00ff"
+    },
+    {
+      "offset": "0x23e816",
+      "en": "Sis and Bro",
+      "fr_comparison": "Sœur et Frère",
+      "source_hex": "cddde700d5e2d800bce6e3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e816",
+      "cell_bytes": 13,
+      "source_cell_hex": "cddde700d5e2d800bce6e3ffff"
+    },
+    {
+      "offset": "0x23e823",
+      "en": "AQUA ADMIN",
+      "fr_comparison": "ADMIN AQUA",
+      "source_hex": "bbcbcfbb00bbbec7c3c8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e823",
+      "cell_bytes": 13,
+      "source_cell_hex": "bbcbcfbb00bbbec7c3c8ff00ff"
+    },
+    {
+      "offset": "0x23e830",
+      "en": "MAGMA ADMIN",
+      "fr_comparison": "ADMIN MAGMA",
+      "source_hex": "c7bbc1c7bb00bbbec7c3c8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e830",
+      "cell_bytes": 13,
+      "source_cell_hex": "c7bbc1c7bb00bbbec7c3c8ffff"
+    },
+    {
+      "offset": "0x23e83d",
+      "en": "Youngster",
+      "fr_comparison": "Gamin",
+      "source_hex": "d3e3e9e2dbe7e8d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e83d",
+      "cell_bytes": 13,
+      "source_cell_hex": "d3e3e9e2dbe7e8d9e6ff0000ff"
+    },
+    {
+      "offset": "0x23e84a",
+      "en": "Bug Catcher",
+      "fr_comparison": "Scout",
+      "source_hex": "bce9db00bdd5e8d7dcd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e84a",
+      "cell_bytes": 13,
+      "source_cell_hex": "bce9db00bdd5e8d7dcd9e6ffff"
+    },
+    {
+      "offset": "0x23e857",
+      "en": "Lass",
+      "fr_comparison": "Fillette",
+      "source_hex": "c6d5e7e7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e857",
+      "cell_bytes": 13,
+      "source_cell_hex": "c6d5e7e7ff00000000000000ff"
+    },
+    {
+      "offset": "0x23e864",
+      "en": "Sailor",
+      "fr_comparison": "Marin",
+      "source_hex": "cdd5dde0e3e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e864",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd5dde0e3e6ff0000000000ff"
+    },
+    {
+      "offset": "0x23e871",
+      "en": "Camper",
+      "fr_comparison": "Campeur",
+      "source_hex": "bdd5e1e4d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e871",
+      "cell_bytes": 13,
+      "source_cell_hex": "bdd5e1e4d9e6ff0000000000ff"
+    },
+    {
+      "offset": "0x23e87e",
+      "en": "Picnicker",
+      "fr_comparison": "Pique-Nique",
+      "source_hex": "caddd7e2ddd7dfd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e87e",
+      "cell_bytes": 13,
+      "source_cell_hex": "caddd7e2ddd7dfd9e6ff0000ff"
+    },
+    {
+      "offset": "0x23e88b",
+      "en": "Poké Maniac",
+      "fr_comparison": "Pokémaniac",
+      "source_hex": "cae3df1b00c7d5e2ddd5d7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e88b",
+      "cell_bytes": 13,
+      "source_cell_hex": "cae3df1b00c7d5e2ddd5d7ffff"
+    },
+    {
+      "offset": "0x23e898",
+      "en": "Super Nerd",
+      "fr_comparison": "Super Nerd",
+      "source_hex": "cde9e4d9e600c8d9e6d8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e898",
+      "cell_bytes": 13,
+      "source_cell_hex": "cde9e4d9e600c8d9e6d8ff00ff"
+    },
+    {
+      "offset": "0x23e8a5",
+      "en": "Hiker",
+      "fr_comparison": "Montagnard",
+      "source_hex": "c2dddfd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e8a5",
+      "cell_bytes": 13,
+      "source_cell_hex": "c2dddfd9e6ff000000000000ff"
+    },
+    {
+      "offset": "0x23e8b2",
+      "en": "Biker",
+      "fr_comparison": "Motard",
+      "source_hex": "bcdddfd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e8b2",
+      "cell_bytes": 13,
+      "source_cell_hex": "bcdddfd9e6ff000000000000ff"
+    },
+    {
+      "offset": "0x23e8bf",
+      "en": "Burglar",
+      "fr_comparison": "Cambrioleur",
+      "source_hex": "bce9e6dbe0d5e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e8bf",
+      "cell_bytes": 13,
+      "source_cell_hex": "bce9e6dbe0d5e6ff00000000ff"
+    },
+    {
+      "offset": "0x23e8cc",
+      "en": "Worker",
+      "fr_comparison": "Ouvrier",
+      "source_hex": "d1e3e6dfd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e8cc",
+      "cell_bytes": 13,
+      "source_cell_hex": "d1e3e6dfd9e6ff0000000000ff"
+    },
+    {
+      "offset": "0x23e8d9",
+      "en": "Fisherman",
+      "fr_comparison": "Pêcheur",
+      "source_hex": "c0dde7dcd9e6e1d5e2ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e8d9",
+      "cell_bytes": 13,
+      "source_cell_hex": "c0dde7dcd9e6e1d5e2ff0000ff"
+    },
+    {
+      "offset": "0x23e8e6",
+      "en": "Swimmer♂",
+      "fr_comparison": "Nageur♂",
+      "source_hex": "cdebdde1e1d9e6b5ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e8e6",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdebdde1e1d9e6b5ff000000ff"
+    },
+    {
+      "offset": "0x23e8f3",
+      "en": "Roughneck",
+      "fr_comparison": "Loubard",
+      "source_hex": "cce3e9dbdce2d9d7dfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e8f3",
+      "cell_bytes": 13,
+      "source_cell_hex": "cce3e9dbdce2d9d7dfff0000ff"
+    },
+    {
+      "offset": "0x23e900",
+      "en": "Gambler",
+      "fr_comparison": "Parieur",
+      "source_hex": "c1d5e1d6e0d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e900",
+      "cell_bytes": 13,
+      "source_cell_hex": "c1d5e1d6e0d9e6ff00000000ff"
+    },
+    {
+      "offset": "0x23e90d",
+      "en": "Beauty",
+      "fr_comparison": "Belle",
+      "source_hex": "bcd9d5e9e8edff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e90d",
+      "cell_bytes": 13,
+      "source_cell_hex": "bcd9d5e9e8edff0000000000ff"
+    },
+    {
+      "offset": "0x23e91a",
+      "en": "Swimmer♀",
+      "fr_comparison": "Nageuse♀",
+      "source_hex": "cdebdde1e1d9e6b6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e91a",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdebdde1e1d9e6b6ff000000ff"
+    },
+    {
+      "offset": "0x23e927",
+      "en": "Psychic",
+      "fr_comparison": "Psychique",
+      "source_hex": "cae7edd7dcddd7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e927",
+      "cell_bytes": 13,
+      "source_cell_hex": "cae7edd7dcddd7ff00000000ff"
+    },
+    {
+      "offset": "0x23e934",
+      "en": "Rocker",
+      "fr_comparison": "Rockeur",
+      "source_hex": "cce3d7dfd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e934",
+      "cell_bytes": 13,
+      "source_cell_hex": "cce3d7dfd9e6ff0000000000ff"
+    },
+    {
+      "offset": "0x23e941",
+      "en": "Juggler",
+      "fr_comparison": "Jongleur",
+      "source_hex": "c4e9dbdbe0d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e941",
+      "cell_bytes": 13,
+      "source_cell_hex": "c4e9dbdbe0d9e6ff00000000ff"
+    },
+    {
+      "offset": "0x23e94e",
+      "en": "Tamer",
+      "fr_comparison": "Dompteur",
+      "source_hex": "ced5e1d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e94e",
+      "cell_bytes": 13,
+      "source_cell_hex": "ced5e1d9e6ff000000000000ff"
+    },
+    {
+      "offset": "0x23e95b",
+      "en": "Bird Keeper",
+      "fr_comparison": "Ornithologue",
+      "source_hex": "bcdde6d800c5d9d9e4d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e95b",
+      "cell_bytes": 13,
+      "source_cell_hex": "bcdde6d800c5d9d9e4d9e6ffff"
+    },
+    {
+      "offset": "0x23e968",
+      "en": "Black Belt",
+      "fr_comparison": "Karatéka",
+      "source_hex": "bce0d5d7df00bcd9e0e8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e968",
+      "cell_bytes": 13,
+      "source_cell_hex": "bce0d5d7df00bcd9e0e8ff00ff"
+    },
+    {
+      "offset": "0x23e975",
+      "en": "Rival",
+      "fr_comparison": "Rival",
+      "source_hex": "ccddead5e0ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e975",
+      "cell_bytes": 13,
+      "source_cell_hex": "ccddead5e0ff000000000000ff"
+    },
+    {
+      "offset": "0x23e982",
+      "en": "Scientist",
+      "fr_comparison": "Scientifique",
+      "source_hex": "cdd7ddd9e2e8dde7e8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e982",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd7ddd9e2e8dde7e8ff0000ff"
+    },
+    {
+      "offset": "0x23e98f",
+      "en": "Boss",
+      "fr_comparison": "Boss",
+      "source_hex": "bce3e7e7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e98f",
+      "cell_bytes": 13,
+      "source_cell_hex": "bce3e7e7ff00000000000000ff"
+    },
+    {
+      "offset": "0x23e99c",
+      "en": "Leader",
+      "fr_comparison": "Champion",
+      "source_hex": "c6d9d5d8d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e99c",
+      "cell_bytes": 13,
+      "source_cell_hex": "c6d9d5d8d9e6ff0000000000ff"
+    },
+    {
+      "offset": "0x23e9a9",
+      "en": "Shadow",
+      "fr_comparison": "Ombre",
+      "source_hex": "cddcd5d8e3ebff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e9a9",
+      "cell_bytes": 13,
+      "source_cell_hex": "cddcd5d8e3ebff0000000000ff"
+    },
+    {
+      "offset": "0x23e9b6",
+      "en": "Ace Trainer",
+      "fr_comparison": "Topdresseur",
+      "source_hex": "bbd7d900cee6d5dde2d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e9b6",
+      "cell_bytes": 13,
+      "source_cell_hex": "bbd7d900cee6d5dde2d9e6ffff"
+    },
+    {
+      "offset": "0x23e9c3",
+      "en": "Elite Four",
+      "fr_comparison": "Conseil 4",
+      "source_hex": "bfe0dde8d900c0e3e9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e9c3",
+      "cell_bytes": 13,
+      "source_cell_hex": "bfe0dde8d900c0e3e9e6ff00ff"
+    },
+    {
+      "offset": "0x23e9d0",
+      "en": "Gentleman",
+      "fr_comparison": "Gentleman",
+      "source_hex": "c1d9e2e8e0d9e1d5e2ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e9d0",
+      "cell_bytes": 13,
+      "source_cell_hex": "c1d9e2e8e0d9e1d5e2ff0000ff"
+    },
+    {
+      "offset": "0x23e9dd",
+      "en": "Rival",
+      "fr_comparison": "Rival",
+      "source_hex": "ccddead5e0ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e9dd",
+      "cell_bytes": 13,
+      "source_cell_hex": "ccddead5e0ff000000000000ff"
+    },
+    {
+      "offset": "0x23e9ea",
+      "en": "<0x53><0x54> Trainer",
+      "fr_comparison": "Dresseur <0x53><0x54>",
+      "source_hex": "535400cee6d5dde2d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e9ea",
+      "cell_bytes": 13,
+      "source_cell_hex": "535400cee6d5dde2d9e6ff00ff"
+    },
+    {
+      "offset": "0x23e9f7",
+      "en": "Medium",
+      "fr_comparison": "Médium",
+      "source_hex": "c7d9d8dde9e1ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23e9f7",
+      "cell_bytes": 13,
+      "source_cell_hex": "c7d9d8dde9e1ff0000000000ff"
+    },
+    {
+      "offset": "0x23ea04",
+      "en": "Twins",
+      "fr_comparison": "Jumelles",
+      "source_hex": "ceebdde2e7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea04",
+      "cell_bytes": 13,
+      "source_cell_hex": "ceebdde2e7ff000000000000ff"
+    },
+    {
+      "offset": "0x23ea11",
+      "en": "Ace Duo",
+      "fr_comparison": "Duo Top",
+      "source_hex": "bbd7d900bee9e3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea11",
+      "cell_bytes": 13,
+      "source_cell_hex": "bbd7d900bee9e3ff00000000ff"
+    },
+    {
+      "offset": "0x23ea1e",
+      "en": "YOUNG COUPLE",
+      "fr_comparison": "JEUNE COUPLE",
+      "source_hex": "d3c9cfc8c100bdc9cfcac6bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea1e",
+      "cell_bytes": 13,
+      "source_cell_hex": "d3c9cfc8c100bdc9cfcac6bfff"
+    },
+    {
+      "offset": "0x23ea2b",
+      "en": "Crush Kin",
+      "fr_comparison": "Duo Costaud",
+      "source_hex": "bde6e9e7dc00c5dde2ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea2b",
+      "cell_bytes": 13,
+      "source_cell_hex": "bde6e9e7dc00c5dde2ff0000ff"
+    },
+    {
+      "offset": "0x23ea38",
+      "en": "SIS AND BRO",
+      "fr_comparison": "SŒUR ET FRÈRE",
+      "source_hex": "cdc3cd00bbc8be00bcccc9ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea38",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdc3cd00bbc8be00bcccc9ffff"
+    },
+    {
+      "offset": "0x23ea45",
+      "en": "<0x53><0x54> PROF.",
+      "fr_comparison": "PROF. <0x53><0x54>",
+      "source_hex": "535400caccc9c0adff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea45",
+      "cell_bytes": 13,
+      "source_cell_hex": "535400caccc9c0adff000000ff"
+    },
+    {
+      "offset": "0x23ea52",
+      "en": "Player",
+      "fr_comparison": "Joueur",
+      "source_hex": "cae0d5edd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea52",
+      "cell_bytes": 13,
+      "source_cell_hex": "cae0d5edd9e6ff0000000000ff"
+    },
+    {
+      "offset": "0x23ea5f",
+      "en": "Battle Girl",
+      "fr_comparison": "Combattante",
+      "source_hex": "bcd5e8e8e0d900c1dde6e0ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea5f",
+      "cell_bytes": 13,
+      "source_cell_hex": "bcd5e8e8e0d900c1dde6e0ffff"
+    },
+    {
+      "offset": "0x23ea6c",
+      "en": "Tuber",
+      "fr_comparison": "Flotteur",
+      "source_hex": "cee9d6d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea6c",
+      "cell_bytes": 13,
+      "source_cell_hex": "cee9d6d9e6ff000000000000ff"
+    },
+    {
+      "offset": "0x23ea79",
+      "en": "<0x53><0x54> Breeder",
+      "fr_comparison": "Éleveur <0x53><0x54>",
+      "source_hex": "535400bce6d9d9d8d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea79",
+      "cell_bytes": 13,
+      "source_cell_hex": "535400bce6d9d9d8d9e6ff00ff"
+    },
+    {
+      "offset": "0x23ea86",
+      "en": "<0x53><0x54> Ranger",
+      "fr_comparison": "Ranger <0x53><0x54>",
+      "source_hex": "535400ccd5e2dbd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea86",
+      "cell_bytes": 13,
+      "source_cell_hex": "535400ccd5e2dbd9e6ff0000ff"
+    },
+    {
+      "offset": "0x23ea93",
+      "en": "Aroma Lady",
+      "fr_comparison": "Aroma",
+      "source_hex": "bbe6e3e1d500c6d5d8edff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23ea93",
+      "cell_bytes": 13,
+      "source_cell_hex": "bbe6e3e1d500c6d5d8edff00ff"
+    },
+    {
+      "offset": "0x23eaa0",
+      "en": "Ruin Maniac",
+      "fr_comparison": "Archéologue",
+      "source_hex": "cce9dde200c7d5e2ddd5d7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23eaa0",
+      "cell_bytes": 13,
+      "source_cell_hex": "cce9dde200c7d5e2ddd5d7ffff"
+    },
+    {
+      "offset": "0x23eaad",
+      "en": "Lady",
+      "fr_comparison": "Dame",
+      "source_hex": "c6d5d8edff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23eaad",
+      "cell_bytes": 13,
+      "source_cell_hex": "c6d5d8edff00000000000000ff"
+    },
+    {
+      "offset": "0x23eaba",
+      "en": "Painter",
+      "fr_comparison": "Peintre",
+      "source_hex": "cad5dde2e8d9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de classe absent du glossaire F-759 : conservation exacte suivant policy.unlisted. Cellule de 13 octets, base 0x23e558 lue via les littéraux 0xd80a0 et 0x11b4b4 ; aucune traduction ignorée revendiquée.",
+      "cell_offset": "0x23eaba",
+      "cell_bytes": 13,
+      "source_cell_hex": "cad5dde2e8d9e6ff00000000ff"
+    },
+    {
+      "offset": "0x23eaf9",
+      "en": "fghijk",
+      "fr_comparison": "fghijk",
+      "source_hex": "dadbdcdddedfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    },
+    {
+      "offset": "0x24f1a7",
+      "en": "FIGHT",
+      "fr_comparison": "COMBAT",
+      "source_hex": "c0c3c1c2ceff",
+      "all_pointer_occurrences": [
+        "0x456ec4"
+      ],
+      "pointers": [
+        "0x456ec4"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f1a7",
+      "cell_bytes": 7,
+      "source_cell_hex": "c0c3c1c2ceff00"
+    },
+    {
+      "offset": "0x24f1ad",
+      "en": " FLYING",
+      "fr_comparison": "VOL",
+      "source_hex": "00c0c6d3c3c8c1ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "alias",
+      "reason": "Alias de padding sans pointeur propre ; la même cellule est contrôlée à son entrée canonique du lot.",
+      "canonical_offset": "0x24f1ae"
+    },
+    {
+      "offset": "0x24f1ae",
+      "en": "FLYING",
+      "fr_comparison": "VOL",
+      "source_hex": "c0c6d3c3c8c1ff",
+      "all_pointer_occurrences": [
+        "0x456eb4"
+      ],
+      "pointers": [
+        "0x456eb4"
+      ],
+      "status": "translated",
+      "pt_bytes": 7,
+      "max_line_pixels": 35,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f1ae",
+      "cell_bytes": 7,
+      "source_cell_hex": "c0c6d3c3c8c1ff"
+    },
+    {
+      "offset": "0x24f1b5",
+      "en": "POISON",
+      "fr_comparison": "POISON",
+      "source_hex": "cac9c3cdc9c8ff",
+      "all_pointer_occurrences": [
+        "0x456ecc"
+      ],
+      "pointers": [
+        "0x456ecc"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f1b5",
+      "cell_bytes": 7,
+      "source_cell_hex": "cac9c3cdc9c8ff"
+    },
+    {
+      "offset": "0x24f1bc",
+      "en": "GROUND",
+      "fr_comparison": "SOL",
+      "source_hex": "c1ccc9cfc8beff",
+      "all_pointer_occurrences": [
+        "0x456ea4"
+      ],
+      "pointers": [
+        "0x456ea4"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f1bc",
+      "cell_bytes": 7,
+      "source_cell_hex": "c1ccc9cfc8beff"
+    },
+    {
+      "offset": "0x24f1c3",
+      "en": "ROCK",
+      "fr_comparison": "ROCHE",
+      "source_hex": "ccc9bdc5ff",
+      "all_pointer_occurrences": [
+        "0x456eac"
+      ],
+      "pointers": [
+        "0x456eac"
+      ],
+      "status": "translated",
+      "pt_bytes": 6,
+      "max_line_pixels": 29,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f1c3",
+      "cell_bytes": 7,
+      "source_cell_hex": "ccc9bdc5ff0000"
+    },
+    {
+      "offset": "0x24f1ca",
+      "en": "BUG",
+      "fr_comparison": "INSECT",
+      "source_hex": "bccfc1ff",
+      "all_pointer_occurrences": [
+        "0x456ed4"
+      ],
+      "pointers": [
+        "0x456ed4"
+      ],
+      "status": "translated",
+      "pt_bytes": 7,
+      "max_line_pixels": 33,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f1ca",
+      "cell_bytes": 7,
+      "source_cell_hex": "bccfc1ff000000"
+    },
+    {
+      "offset": "0x24f1ce",
+      "en": "   GHOST",
+      "fr_comparison": "SPECTRE",
+      "source_hex": "000000c1c2c9cdceff",
+      "all_pointer_occurrences": [],
+      "pointers": [
+        "0x456edc"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f1d1",
+      "cell_bytes": 7,
+      "source_cell_hex": "c1c2c9cdceff00"
+    },
+    {
+      "offset": "0x24f1d1",
+      "en": "GHOST",
+      "fr_comparison": "SPECTR",
+      "source_hex": "c1c2c9cdceff",
+      "all_pointer_occurrences": [
+        "0x456edc"
+      ],
+      "pointers": [
+        "0x456edc"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f1d1",
+      "cell_bytes": 7,
+      "source_cell_hex": "c1c2c9cdceff00"
+    },
+    {
+      "offset": "0x24f1d7",
+      "en": " STEEL",
+      "fr_comparison": "ACIER",
+      "source_hex": "00cdcebfbfc6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "alias",
+      "reason": "Alias de padding sans pointeur propre ; la même cellule est contrôlée à son entrée canonique du lot.",
+      "canonical_offset": "0x24f1d8"
+    },
+    {
+      "offset": "0x24f1d8",
+      "en": "STEEL",
+      "fr_comparison": "ACIER",
+      "source_hex": "cdcebfbfc6ff",
+      "all_pointer_occurrences": [
+        "0x456eec"
+      ],
+      "pointers": [
+        "0x456eec"
+      ],
+      "status": "translated",
+      "pt_bytes": 4,
+      "max_line_pixels": 18,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f1d8",
+      "cell_bytes": 7,
+      "source_cell_hex": "cdcebfbfc6ff00"
+    },
+    {
+      "offset": "0x24f1e3",
+      "en": "   FIRE",
+      "fr_comparison": "FEU",
+      "source_hex": "000000c0c3ccbfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "alias",
+      "reason": "Alias de padding sans pointeur propre ; la même cellule est contrôlée à son entrée canonique du lot.",
+      "canonical_offset": "0x24f1e6"
+    },
+    {
+      "offset": "0x24f1e6",
+      "en": "FIRE",
+      "fr_comparison": "FEU",
+      "source_hex": "c0c3ccbfff",
+      "all_pointer_occurrences": [
+        "0x456e7c"
+      ],
+      "pointers": [
+        "0x456e7c"
+      ],
+      "status": "translated",
+      "pt_bytes": 5,
+      "max_line_pixels": 24,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f1e6",
+      "cell_bytes": 7,
+      "source_cell_hex": "c0c3ccbfff0000"
+    },
+    {
+      "offset": "0x24f1eb",
+      "en": "  WATER",
+      "fr_comparison": "EAU",
+      "source_hex": "0000d1bbcebfccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "alias",
+      "reason": "Alias de padding sans pointeur propre ; la même cellule est contrôlée à son entrée canonique du lot.",
+      "canonical_offset": "0x24f1ed"
+    },
+    {
+      "offset": "0x24f1ed",
+      "en": "WATER",
+      "fr_comparison": "EAU",
+      "source_hex": "d1bbcebfccff",
+      "all_pointer_occurrences": [
+        "0x456e84"
+      ],
+      "pointers": [
+        "0x456e84"
+      ],
+      "status": "translated",
+      "pt_bytes": 5,
+      "max_line_pixels": 24,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f1ed",
+      "cell_bytes": 7,
+      "source_cell_hex": "d1bbcebfccff00"
+    },
+    {
+      "offset": "0x24f1f3",
+      "en": " GRASS",
+      "fr_comparison": "PLANTE",
+      "source_hex": "00c1ccbbcdcdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "alias",
+      "reason": "Alias de padding sans pointeur propre ; la même cellule est contrôlée à son entrée canonique du lot.",
+      "canonical_offset": "0x24f1f4"
+    },
+    {
+      "offset": "0x24f1f4",
+      "en": "GRASS",
+      "fr_comparison": "PLANTE",
+      "source_hex": "c1ccbbcdcdff",
+      "all_pointer_occurrences": [
+        "0x456e94"
+      ],
+      "pointers": [
+        "0x456e94"
+      ],
+      "status": "translated",
+      "pt_bytes": 7,
+      "max_line_pixels": 33,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f1f4",
+      "cell_bytes": 7,
+      "source_cell_hex": "c1ccbbcdcdff00"
+    },
+    {
+      "offset": "0x24f1fa",
+      "en": " ELECTR",
+      "fr_comparison": "ELECTRIK",
+      "source_hex": "00bfc6bfbdceccff",
+      "all_pointer_occurrences": [],
+      "pointers": [
+        "0x456e8c"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f1fb",
+      "cell_bytes": 7,
+      "source_cell_hex": "bfc6bfbdceccff"
+    },
+    {
+      "offset": "0x24f1fb",
+      "en": "ELECTR",
+      "fr_comparison": "ÉLECTR",
+      "source_hex": "bfc6bfbdceccff",
+      "all_pointer_occurrences": [
+        "0x456e8c"
+      ],
+      "pointers": [
+        "0x456e8c"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f1fb",
+      "cell_bytes": 7,
+      "source_cell_hex": "bfc6bfbdceccff"
+    },
+    {
+      "offset": "0x24f202",
+      "en": "PSYCHC",
+      "fr_comparison": "PSY",
+      "source_hex": "cacdd3bdc2bdff",
+      "all_pointer_occurrences": [
+        "0x456ebc"
+      ],
+      "pointers": [
+        "0x456ebc"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f202",
+      "cell_bytes": 7,
+      "source_cell_hex": "cacdd3bdc2bdff"
+    },
+    {
+      "offset": "0x24f209",
+      "en": "ICE",
+      "fr_comparison": "GLACE",
+      "source_hex": "c3bdbfff",
+      "all_pointer_occurrences": [
+        "0x456e9c"
+      ],
+      "pointers": [
+        "0x456e9c"
+      ],
+      "status": "translated",
+      "pt_bytes": 5,
+      "max_line_pixels": 23,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f209",
+      "cell_bytes": 7,
+      "source_cell_hex": "c3bdbfff000000"
+    },
+    {
+      "offset": "0x24f20d",
+      "en": "   DRAGON",
+      "fr_comparison": "DRAGON",
+      "source_hex": "000000beccbbc1c9c8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [
+        "0x456ee4"
+      ],
+      "status": "translated",
+      "pt_bytes": 7,
+      "max_line_pixels": 35,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24f210",
+      "cell_bytes": 7,
+      "source_cell_hex": "beccbbc1c9c8ff"
+    },
+    {
+      "offset": "0x24f217",
+      "en": "DARK",
+      "fr_comparison": "TÉNÈBRES",
+      "source_hex": "bebbccc5ff",
+      "all_pointer_occurrences": [
+        "0x456ef4"
+      ],
+      "pointers": [
+        "0x456ef4"
+      ],
+      "status": "retained_english",
+      "reason": "Type canonique F-759 trop long pour une cellule de 7 octets terminateur compris ; conserver l’anglais, sans abréviation inventée (policy.cells). Les lecteurs par table ne permettent pas une simple relocation isolée.",
+      "cell_offset": "0x24f217",
+      "cell_bytes": 7,
+      "source_cell_hex": "bebbccc5ff0000"
+    },
+    {
+      "offset": "0x24f3c1",
+      "en": "È  No special ability.",
+      "fr_comparison": "È  Aucune capacité spéciale.",
+      "source_hex": "050000c8e300e7e4d9d7ddd5e000d5d6dde0dde8edadff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Copie historique ou extraction commençant avant la chaîne : aucune référence dans la table vivante des descriptions 0x96de04 (293 pointeurs). Occurrences brutes consignées, table vanilla 0x24fb08 sans référence de base ; ne pas injecter une copie non consommée."
+    },
+    {
+      "offset": "0x24f3c4",
+      "en": "No special ability.",
+      "fr_comparison": null,
+      "source_hex": "c8e300e7e4d9d7ddd5e000d5d6dde0dde8edadff",
+      "all_pointer_occurrences": [
+        "0x24fb08",
+        "0x96de04",
+        "0x96df38"
+      ],
+      "pointers": [
+        "0x96de04",
+        "0x96df38"
+      ],
+      "status": "translated",
+      "pt_bytes": 25,
+      "max_line_pixels": 134,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f3d8",
+      "en": "Helps repel wild Pokémon.",
+      "fr_comparison": "Repousse les Pokémon sauvages.",
+      "source_hex": "c2d9e0e4e700e6d9e4d9e000ebdde0d800cae3df1be1e3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fb0c",
+        "0x96de08"
+      ],
+      "pointers": [
+        "0x96de08"
+      ],
+      "status": "translated",
+      "pt_bytes": 26,
+      "max_line_pixels": 140,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f3f2",
+      "en": "Summons rain in battle.",
+      "fr_comparison": "Fait tomber la pluie en combat.",
+      "source_hex": "cde9e1e1e3e2e700e6d5dde200dde200d6d5e8e8e0d9adff",
+      "all_pointer_occurrences": [
+        "0x24fb10",
+        "0x96de0c"
+      ],
+      "pointers": [
+        "0x96de0c"
+      ],
+      "status": "translated",
+      "pt_bytes": 23,
+      "max_line_pixels": 127,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f40a",
+      "en": "Gradually boosts Speed.",
+      "fr_comparison": "Augmente la Vitesse graduellement.",
+      "source_hex": "c1e6d5d8e9d5e0e0ed00d6e3e3e7e8e700cde4d9d9d8adff",
+      "all_pointer_occurrences": [
+        "0x24fb14",
+        "0x96de10"
+      ],
+      "pointers": [
+        "0x96de10"
+      ],
+      "status": "translated",
+      "pt_bytes": 33,
+      "max_line_pixels": 184,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f422",
+      "en": "Blocks critical hits.",
+      "fr_comparison": "Bloque les coups critiques.",
+      "source_hex": "bce0e3d7dfe700d7e6dde8ddd7d5e000dcdde8e7adff",
+      "all_pointer_occurrences": [
+        "0x24fb18",
+        "0x96de14"
+      ],
+      "pointers": [
+        "0x96de14"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 144,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f438",
+      "en": "Negates 1-hit KO attacks.",
+      "fr_comparison": "Annule les attaques KO d’un coup.",
+      "source_hex": "c8d9dbd5e8d9e700a2aedcdde800c5c900d5e8e8d5d7dfe7adff",
+      "all_pointer_occurrences": [
+        "0x24fb1c",
+        "0x96de18"
+      ],
+      "pointers": [
+        "0x96de18"
+      ],
+      "status": "translated",
+      "pt_bytes": 32,
+      "max_line_pixels": 180,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f452",
+      "en": "Prevents self-destruction.",
+      "fr_comparison": "Empêche l’auto-destruction.",
+      "source_hex": "cae6d9ead9e2e8e700e7d9e0daaed8d9e7e8e6e9d7e8dde3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fb20",
+        "0x96de1c"
+      ],
+      "pointers": [
+        "0x96de1c"
+      ],
+      "status": "translated",
+      "pt_bytes": 25,
+      "max_line_pixels": 137,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f46d",
+      "en": "Prevents paralysis.",
+      "fr_comparison": "Empêche la paralysie.",
+      "source_hex": "cae6d9ead9e2e8e700e4d5e6d5e0ede7dde7adff",
+      "all_pointer_occurrences": [
+        "0x24fb24",
+        "0x96de20"
+      ],
+      "pointers": [
+        "0x96de20"
+      ],
+      "status": "translated",
+      "pt_bytes": 20,
+      "max_line_pixels": 106,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f481",
+      "en": "Ups evasion in a sandstorm.",
+      "fr_comparison": "Esquive + sous tempêtesable.",
+      "source_hex": "cfe4e700d9ead5e7dde3e200dde200d500e7d5e2d8e7e8e3e6e1adff",
+      "all_pointer_occurrences": [
+        "0x24fb28",
+        "0x96de24"
+      ],
+      "pointers": [
+        "0x96de24"
+      ],
+      "status": "translated",
+      "pt_bytes": 33,
+      "max_line_pixels": 185,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f49d",
+      "en": "Paralyzes on contact.",
+      "fr_comparison": "Paralyse au contact.",
+      "source_hex": "cad5e6d5e0edeed9e700e3e200d7e3e2e8d5d7e8adff",
+      "all_pointer_occurrences": [
+        "0x24fb2c",
+        "0x96de28"
+      ],
+      "pointers": [
+        "0x96de28"
+      ],
+      "status": "translated",
+      "pt_bytes": 21,
+      "max_line_pixels": 111,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f4b3",
+      "en": "Turns electricity into HP.",
+      "fr_comparison": "Transforme l’électricité en PV.",
+      "source_hex": "cee9e6e2e700d9e0d9d7e8e6ddd7dde8ed00dde2e8e300c2caadff",
+      "all_pointer_occurrences": [
+        "0x24fb30",
+        "0x96de2c"
+      ],
+      "pointers": [
+        "0x96de2c"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 157,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f4ce",
+      "en": "Changes water into HP.",
+      "fr_comparison": "Transforme l’eau en PV.",
+      "source_hex": "bddcd5e2dbd9e700ebd5e8d9e600dde2e8e300c2caadff",
+      "all_pointer_occurrences": [
+        "0x24fb34",
+        "0x96de30"
+      ],
+      "pointers": [
+        "0x96de30"
+      ],
+      "status": "translated",
+      "pt_bytes": 21,
+      "max_line_pixels": 116,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f4e5",
+      "en": "Prevents attraction.",
+      "fr_comparison": "Empêche l’attirance.",
+      "source_hex": "cae6d9ead9e2e8e700d5e8e8e6d5d7e8dde3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fb38",
+        "0x96de34"
+      ],
+      "pointers": [
+        "0x96de34"
+      ],
+      "status": "translated",
+      "pt_bytes": 17,
+      "max_line_pixels": 93,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f4fa",
+      "en": "Negates weather effects.",
+      "fr_comparison": "Annule les effets météo.",
+      "source_hex": "c8d9dbd5e8d9e700ebd9d5e8dcd9e600d9dadad9d7e8e7adff",
+      "all_pointer_occurrences": [
+        "0x24fb3c",
+        "0x96de38"
+      ],
+      "pointers": [
+        "0x96de38"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 144,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f513",
+      "en": "Raises accuracy.",
+      "fr_comparison": "Augmente la Précision.",
+      "source_hex": "ccd5dde7d9e700d5d7d7e9e6d5d7edadff",
+      "all_pointer_occurrences": [
+        "0x24fb40",
+        "0x96de3c"
+      ],
+      "pointers": [
+        "0x96de3c"
+      ],
+      "status": "translated",
+      "pt_bytes": 20,
+      "max_line_pixels": 107,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f524",
+      "en": "Prevents sleep.",
+      "fr_comparison": "Empêche le sommeil.",
+      "source_hex": "cae6d9ead9e2e8e700e7e0d9d9e4adff",
+      "all_pointer_occurrences": [
+        "0x24fb44",
+        "0x96de40"
+      ],
+      "pointers": [
+        "0x96de40"
+      ],
+      "status": "translated",
+      "pt_bytes": 15,
+      "max_line_pixels": 81,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f534",
+      "en": "Changes type to foe's move.",
+      "fr_comparison": "Change de type selon cap.",
+      "source_hex": "bddcd5e2dbd9e700e8ede4d900e8e300dae3d9b4e700e1e3ead9adff",
+      "all_pointer_occurrences": [
+        "0x24fb48",
+        "0x96de44"
+      ],
+      "pointers": [
+        "0x96de44"
+      ],
+      "status": "translated",
+      "pt_bytes": 33,
+      "max_line_pixels": 179,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f550",
+      "en": "Prevents poisoning.",
+      "fr_comparison": "Empêche l’empoisonnement.",
+      "source_hex": "cae6d9ead9e2e8e700e4e3dde7e3e2dde2dbadff",
+      "all_pointer_occurrences": [
+        "0x24fb4c",
+        "0x96de48"
+      ],
+      "pointers": [
+        "0x96de48"
+      ],
+      "status": "translated",
+      "pt_bytes": 24,
+      "max_line_pixels": 132,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f564",
+      "en": "Powers up if hit by fire.",
+      "fr_comparison": "Boosté si touché par le feu.",
+      "source_hex": "cae3ebd9e6e700e9e400ddda00dcdde800d6ed00dadde6d9adff",
+      "all_pointer_occurrences": [
+        "0x24fb50",
+        "0x96de4c"
+      ],
+      "pointers": [
+        "0x96de4c"
+      ],
+      "status": "translated",
+      "pt_bytes": 33,
+      "max_line_pixels": 180,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f57e",
+      "en": "Prevents added effects.",
+      "fr_comparison": "Annule les effets secondaires.",
+      "source_hex": "cae6d9ead9e2e8e700d5d8d8d9d800d9dadad9d7e8e7adff",
+      "all_pointer_occurrences": [
+        "0x24fb54",
+        "0x96de50"
+      ],
+      "pointers": [
+        "0x96de50"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 142,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f596",
+      "en": "Prevents confusion.",
+      "fr_comparison": "Empêche la confusion.",
+      "source_hex": "cae6d9ead9e2e8e700d7e3e2dae9e7dde3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fb58",
+        "0x96de54"
+      ],
+      "pointers": [
+        "0x96de54"
+      ],
+      "status": "translated",
+      "pt_bytes": 19,
+      "max_line_pixels": 104,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f5aa",
+      "en": "Firmly anchors the body.",
+      "fr_comparison": "Ancre fermement le corps.",
+      "source_hex": "c0dde6e1e0ed00d5e2d7dce3e6e700e8dcd900d6e3d8edadff",
+      "all_pointer_occurrences": [
+        "0x24fb5c",
+        "0x96de58"
+      ],
+      "pointers": [
+        "0x96de58"
+      ],
+      "status": "translated",
+      "pt_bytes": 26,
+      "max_line_pixels": 142,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f5c3",
+      "en": "Lowers the foe's Attack.",
+      "fr_comparison": "Baisse l’Attaque de l’ennemi.",
+      "source_hex": "c6e3ebd9e6e700e8dcd900dae3d9b4e700bbe8e8d5d7dfadff",
+      "all_pointer_occurrences": [
+        "0x24fb60",
+        "0x96de5c"
+      ],
+      "pointers": [
+        "0x96de5c"
+      ],
+      "status": "translated",
+      "pt_bytes": 30,
+      "max_line_pixels": 167,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f5dc",
+      "en": "Prevents the foe's escape.",
+      "fr_comparison": "Empêche l’ennemi de fuir.",
+      "source_hex": "cae6d9ead9e2e8e700e8dcd900dae3d9b4e700d9e7d7d5e4d9adff",
+      "all_pointer_occurrences": [
+        "0x24fb64",
+        "0x96de60"
+      ],
+      "pointers": [
+        "0x96de60"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 161,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f5f7",
+      "en": "Hurts to touch.",
+      "fr_comparison": "Blesse au contact.",
+      "source_hex": "c2e9e6e8e700e8e300e8e3e9d7dcadff",
+      "all_pointer_occurrences": [
+        "0x24fb68",
+        "0x96de64"
+      ],
+      "pointers": [
+        "0x96de64"
+      ],
+      "status": "translated",
+      "pt_bytes": 23,
+      "max_line_pixels": 126,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f607",
+      "en": "“Super effective” hits.",
+      "fr_comparison": "Seuls les coups super efficaces.",
+      "source_hex": "b1cde9e4d9e600d9dadad9d7e8ddead9b200dcdde8e7adff",
+      "all_pointer_occurrences": [
+        "0x24fb6c",
+        "0x96de68"
+      ],
+      "pointers": [
+        "0x96de68"
+      ],
+      "status": "translated",
+      "pt_bytes": 33,
+      "max_line_pixels": 181,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f61f",
+      "en": "Not hit by Ground attacks.",
+      "fr_comparison": "Insensible aux attaques Sol.",
+      "source_hex": "c8e3e800dcdde800d6ed00c1e6e3e9e2d800d5e8e8d5d7dfe7adff",
+      "all_pointer_occurrences": [
+        "0x24fb70",
+        "0x96de6c"
+      ],
+      "pointers": [
+        "0x96de6c"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 153,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f63a",
+      "en": "Leaves spores on contact.",
+      "fr_comparison": "Laisse des spores au contact.",
+      "source_hex": "c6d9d5ead9e700e7e4e3e6d9e700e3e200d7e3e2e8d5d7e8adff",
+      "all_pointer_occurrences": [
+        "0x24fb74",
+        "0x96de70"
+      ],
+      "pointers": [
+        "0x96de70"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 146,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f654",
+      "en": "Passes on status problems.",
+      "fr_comparison": "Transmet les problèmes de statut.",
+      "source_hex": "cad5e7e7d9e700e3e200e7e8d5e8e9e700e4e6e3d6e0d9e1e7adff",
+      "all_pointer_occurrences": [
+        "0x24fb78",
+        "0x96de74"
+      ],
+      "pointers": [
+        "0x96de74"
+      ],
+      "status": "translated",
+      "pt_bytes": 31,
+      "max_line_pixels": 166,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f66f",
+      "en": "Prevents stat reduction.",
+      "fr_comparison": "Empêche la baisse de stats.",
+      "source_hex": "cae6d9ead9e2e8e700e7e8d5e800e6d9d8e9d7e8dde3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fb7c",
+        "0x96de78",
+        "0x96e0c0"
+      ],
+      "pointers": [
+        "0x96de78",
+        "0x96e0c0"
+      ],
+      "status": "translated",
+      "pt_bytes": 34,
+      "max_line_pixels": 188,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f68b",
+      "en": "Heals upon switching out.",
+      "fr_comparison": "Soigne en changeant de Pokémon.",
+      "source_hex": "c2d9d5e0e700e9e4e3e200e7ebdde8d7dcdde2db00e3e9e8adff",
+      "all_pointer_occurrences": [
+        "0x24fb80",
+        "0x96de7c"
+      ],
+      "pointers": [
+        "0x96de7c"
+      ],
+      "status": "translated",
+      "pt_bytes": 32,
+      "max_line_pixels": 174,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f6a5",
+      "en": "Draws electrical moves.",
+      "fr_comparison": "Attire les attaques Électrik.",
+      "source_hex": "bee6d5ebe700d9e0d9d7e8e6ddd7d5e000e1e3ead9e7adff",
+      "all_pointer_occurrences": [
+        "0x24fb84",
+        "0x96de80"
+      ],
+      "pointers": [
+        "0x96de80"
+      ],
+      "status": "translated",
+      "pt_bytes": 28,
+      "max_line_pixels": 146,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f6bd",
+      "en": "Promotes added effects.",
+      "fr_comparison": "Favorise les effets secondaires.",
+      "source_hex": "cae6e3e1e3e8d9e700d5d8d8d9d800d9dadad9d7e8e7adff",
+      "all_pointer_occurrences": [
+        "0x24fb88",
+        "0x96de84"
+      ],
+      "pointers": [
+        "0x96de84"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 153,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f6d5",
+      "en": "Raises Speed in rain.",
+      "fr_comparison": "Augmente la Vitesse sous la pluie.",
+      "source_hex": "ccd5dde7d9e700cde4d9d9d800dde200e6d5dde2adff",
+      "all_pointer_occurrences": [
+        "0x24fb8c",
+        "0x96de88"
+      ],
+      "pointers": [
+        "0x96de88"
+      ],
+      "status": "translated",
+      "pt_bytes": 31,
+      "max_line_pixels": 173,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f6eb",
+      "en": "Raises Speed in sunshine.",
+      "fr_comparison": "Augmente la Vitesse sous le soleil.",
+      "source_hex": "ccd5dde7d9e700cde4d9d9d800dde200e7e9e2e7dcdde2d9adff",
+      "all_pointer_occurrences": [
+        "0x24fb90",
+        "0x96de8c"
+      ],
+      "pointers": [
+        "0x96de8c"
+      ],
+      "status": "translated",
+      "pt_bytes": 32,
+      "max_line_pixels": 177,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f705",
+      "en": "Encounter rate increases.",
+      "fr_comparison": "Augmente les rencontres.",
+      "source_hex": "bfe2d7e3e9e2e8d9e600e6d5e8d900dde2d7e6d9d5e7d9e7adff",
+      "all_pointer_occurrences": [
+        "0x24fb94",
+        "0x96de90"
+      ],
+      "pointers": [
+        "0x96de90"
+      ],
+      "status": "translated",
+      "pt_bytes": 35,
+      "max_line_pixels": 191,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f71f",
+      "en": "Copies special ability.",
+      "fr_comparison": "Copie le talent spécial.",
+      "source_hex": "bde3e4ddd9e700e7e4d9d7ddd5e000d5d6dde0dde8edadff",
+      "all_pointer_occurrences": [
+        "0x24fb98",
+        "0x96de94"
+      ],
+      "pointers": [
+        "0x96de94"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 156,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f737",
+      "en": "Raises Attack.",
+      "fr_comparison": "Augmente l’Attaque.",
+      "source_hex": "ccd5dde7d9e700bbe8e8d5d7dfadff",
+      "all_pointer_occurrences": [
+        "0x24fb9c",
+        "0x96de98"
+      ],
+      "pointers": [
+        "0x96de98"
+      ],
+      "status": "translated",
+      "pt_bytes": 18,
+      "max_line_pixels": 98,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f746",
+      "en": "Poisons foe on contact.",
+      "fr_comparison": "Empoisonne au contact.",
+      "source_hex": "cae3dde7e3e2e700dae3d900e3e200d7e3e2e8d5d7e8adff",
+      "all_pointer_occurrences": [
+        "0x24fba0",
+        "0x96de9c"
+      ],
+      "pointers": [
+        "0x96de9c"
+      ],
+      "status": "translated",
+      "pt_bytes": 34,
+      "max_line_pixels": 186,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f75e",
+      "en": "Prevents flinching.",
+      "fr_comparison": "Empêche d'être apeuré.",
+      "source_hex": "cae6d9ead9e2e8e700dae0dde2d7dcdde2dbadff",
+      "all_pointer_occurrences": [
+        "0x24fba4",
+        "0x96dea0"
+      ],
+      "pointers": [
+        "0x96dea0"
+      ],
+      "status": "translated",
+      "pt_bytes": 16,
+      "max_line_pixels": 88,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f772",
+      "en": "Prevents freezing.",
+      "fr_comparison": "Empêche le gel.",
+      "source_hex": "cae6d9ead9e2e8e700dae6d9d9eedde2dbadff",
+      "all_pointer_occurrences": [
+        "0x24fba8"
+      ],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Copie historique ou extraction commençant avant la chaîne : aucune référence dans la table vivante des descriptions 0x96de04 (293 pointeurs). Occurrences brutes consignées, table vanilla 0x24fb08 sans référence de base ; ne pas injecter une copie non consommée."
+    },
+    {
+      "offset": "0x24f785",
+      "en": "Prevents burns.",
+      "fr_comparison": "Empêche les brûlures.",
+      "source_hex": "cae6d9ead9e2e8e700d6e9e6e2e7adff",
+      "all_pointer_occurrences": [
+        "0x24fbac",
+        "0x96dea8"
+      ],
+      "pointers": [
+        "0x96dea8"
+      ],
+      "status": "translated",
+      "pt_bytes": 20,
+      "max_line_pixels": 109,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f795",
+      "en": "Traps Steel-type Pokémon.",
+      "fr_comparison": "Piège les Pokémon Acier.",
+      "source_hex": "cee6d5e4e700cde8d9d9e0aee8ede4d900cae3df1be1e3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fbb0",
+        "0x96deac"
+      ],
+      "pointers": [
+        "0x96deac"
+      ],
+      "status": "translated",
+      "pt_bytes": 28,
+      "max_line_pixels": 154,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f7af",
+      "en": "Avoids sound-based moves.",
+      "fr_comparison": "Évite les attaques sonores.",
+      "source_hex": "bbeae3ddd8e700e7e3e9e2d8aed6d5e7d9d800e1e3ead9e7adff",
+      "all_pointer_occurrences": [
+        "0x24fbb4",
+        "0x96deb0"
+      ],
+      "pointers": [
+        "0x96deb0"
+      ],
+      "status": "translated",
+      "pt_bytes": 26,
+      "max_line_pixels": 137,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f7c9",
+      "en": "Slight HP recovery in rain.",
+      "fr_comparison": "PV récupérés sous la pluie.",
+      "source_hex": "cde0dddbdce800c2ca00e6d9d7e3ead9e6ed00dde200e6d5dde2adff",
+      "all_pointer_occurrences": [
+        "0x24fbb8",
+        "0x96deb4"
+      ],
+      "pointers": [
+        "0x96deb4"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 162,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f7e5",
+      "en": "Summons a sandstorm.",
+      "fr_comparison": "Déclenche une tempête de sable.",
+      "source_hex": "cde9e1e1e3e2e700d500e7d5e2d8e7e8e3e6e1adff",
+      "all_pointer_occurrences": [
+        "0x24fbbc",
+        "0x96deb8"
+      ],
+      "pointers": [
+        "0x96deb8"
+      ],
+      "status": "translated",
+      "pt_bytes": 30,
+      "max_line_pixels": 164,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f7fa",
+      "en": "Raises foe's PP usage.",
+      "fr_comparison": "Fait dépenser plus de PP.",
+      "source_hex": "ccd5dde7d9e700dae3d9b4e700caca00e9e7d5dbd9adff",
+      "all_pointer_occurrences": [
+        "0x24fbc0",
+        "0x96debc"
+      ],
+      "pointers": [
+        "0x96debc"
+      ],
+      "status": "translated",
+      "pt_bytes": 32,
+      "max_line_pixels": 177,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f811",
+      "en": "Heat-and-cold protection.",
+      "fr_comparison": "Protège du chaud et du froid.",
+      "source_hex": "c2d9d5e8aed5e2d8aed7e3e0d800e4e6e3e8d9d7e8dde3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fbc4",
+        "0x96dec0"
+      ],
+      "pointers": [
+        "0x96dec0"
+      ],
+      "status": "translated",
+      "pt_bytes": 28,
+      "max_line_pixels": 153,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f82b",
+      "en": "Awakens quickly from sleep.",
+      "fr_comparison": "Réveille vite du sommeil.",
+      "source_hex": "bbebd5dfd9e2e700e5e9ddd7dfe0ed00dae6e3e100e7e0d9d9e4adff",
+      "all_pointer_occurrences": [
+        "0x24fbc8",
+        "0x96dec4"
+      ],
+      "pointers": [
+        "0x96dec4"
+      ],
+      "status": "translated",
+      "pt_bytes": 20,
+      "max_line_pixels": 107,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f847",
+      "en": "Burns the foe on contact.",
+      "fr_comparison": "Brûle l’ennemi au contact.",
+      "source_hex": "bce9e6e2e700e8dcd900dae3d900e3e200d7e3e2e8d5d7e8adff",
+      "all_pointer_occurrences": [
+        "0x24fbcc",
+        "0x96dec8"
+      ],
+      "pointers": [
+        "0x96dec8"
+      ],
+      "status": "translated",
+      "pt_bytes": 32,
+      "max_line_pixels": 175,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f861",
+      "en": "Makes escaping easier.",
+      "fr_comparison": "Facilite la fuite.",
+      "source_hex": "c7d5dfd9e700d9e7d7d5e4dde2db00d9d5e7ddd9e6adff",
+      "all_pointer_occurrences": [
+        "0x24fbd0",
+        "0x96decc"
+      ],
+      "pointers": [
+        "0x96decc"
+      ],
+      "status": "translated",
+      "pt_bytes": 17,
+      "max_line_pixels": 88,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f878",
+      "en": "Prevents loss of accuracy.",
+      "fr_comparison": "Empêche la baisse de Précision.",
+      "source_hex": "cae6d9ead9e2e8e700e0e3e7e700e3da00d5d7d7e9e6d5d7edadff",
+      "all_pointer_occurrences": [
+        "0x24fbd4",
+        "0x96ded0"
+      ],
+      "pointers": [
+        "0x96ded0"
+      ],
+      "status": "translated",
+      "pt_bytes": 28,
+      "max_line_pixels": 156,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f893",
+      "en": "Prevents Attack reduction.",
+      "fr_comparison": "Empêche la baisse d’Attaque.",
+      "source_hex": "cae6d9ead9e2e8e700bbe8e8d5d7df00e6d9d8e9d7e8dde3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fbd8",
+        "0x96ded4"
+      ],
+      "pointers": [
+        "0x96ded4"
+      ],
+      "status": "translated",
+      "pt_bytes": 28,
+      "max_line_pixels": 159,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f8ae",
+      "en": "May pick up items.",
+      "fr_comparison": "Peut ramasser des objets.",
+      "source_hex": "c7d5ed00e4ddd7df00e9e400dde8d9e1e7adff",
+      "all_pointer_occurrences": [
+        "0x24fbdc",
+        "0x96ded8"
+      ],
+      "pointers": [
+        "0x96ded8"
+      ],
+      "status": "translated",
+      "pt_bytes": 23,
+      "max_line_pixels": 126,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f8c1",
+      "en": "Moves only every two turns.",
+      "fr_comparison": "Agit un tour sur deux.",
+      "source_hex": "c7e3ead9e700e3e2e0ed00d9ead9e6ed00e8ebe300e8e9e6e2e7adff",
+      "all_pointer_occurrences": [
+        "0x24fbe0",
+        "0x96dedc"
+      ],
+      "pointers": [
+        "0x96dedc"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 148,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f8dd",
+      "en": "Trades accuracy for power.",
+      "fr_comparison": "Échange Précision contre Puiss.",
+      "source_hex": "cee6d5d8d9e700d5d7d7e9e6d5d7ed00dae3e600e4e3ebd9e6adff",
+      "all_pointer_occurrences": [
+        "0x24fbe4",
+        "0x96dee0"
+      ],
+      "pointers": [
+        "0x96dee0"
+      ],
+      "status": "translated",
+      "pt_bytes": 26,
+      "max_line_pixels": 141,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f8f8",
+      "en": "Infatuates on contact.",
+      "fr_comparison": "Rend amoureux au contact.",
+      "source_hex": "c3e2dad5e8e9d5e8d9e700e3e200d7e3e2e8d5d7e8adff",
+      "all_pointer_occurrences": [
+        "0x24fbe8",
+        "0x96dee4"
+      ],
+      "pointers": [
+        "0x96dee4"
+      ],
+      "status": "translated",
+      "pt_bytes": 25,
+      "max_line_pixels": 137,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f90f",
+      "en": "Powers up with Minus.",
+      "fr_comparison": "Pouvoir augmenté avec Minus.",
+      "source_hex": "cae3ebd9e6e700e9e400ebdde8dc00c7dde2e9e7adff",
+      "all_pointer_occurrences": [
+        "0x24fbec",
+        "0x96dee8"
+      ],
+      "pointers": [
+        "0x96dee8"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 143,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f925",
+      "en": "Powers up with Plus.",
+      "fr_comparison": "Pouvoir augmenté avec Plus.",
+      "source_hex": "cae3ebd9e6e700e9e400ebdde8dc00cae0e9e7adff",
+      "all_pointer_occurrences": [
+        "0x24fbf0",
+        "0x96deec"
+      ],
+      "pointers": [
+        "0x96deec"
+      ],
+      "status": "translated",
+      "pt_bytes": 26,
+      "max_line_pixels": 139,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f93a",
+      "en": "Changes with the weather.",
+      "fr_comparison": "Change selon la météo.",
+      "source_hex": "bddcd5e2dbd9e700ebdde8dc00e8dcd900ebd9d5e8dcd9e6adff",
+      "all_pointer_occurrences": [
+        "0x24fbf4",
+        "0x96def0"
+      ],
+      "pointers": [
+        "0x96def0"
+      ],
+      "status": "translated",
+      "pt_bytes": 23,
+      "max_line_pixels": 125,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f954",
+      "en": "Prevents item theft.",
+      "fr_comparison": "Empêche le vol d’objet.",
+      "source_hex": "cae6d9ead9e2e8e700dde8d9e100e8dcd9dae8adff",
+      "all_pointer_occurrences": [
+        "0x24fbf8",
+        "0x96def4"
+      ],
+      "pointers": [
+        "0x96def4"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 152,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f969",
+      "en": "Heals the body by shedding.",
+      "fr_comparison": "Soigne le corps en muant.",
+      "source_hex": "c2d9d5e0e700e8dcd900d6e3d8ed00d6ed00e7dcd9d8d8dde2dbadff",
+      "all_pointer_occurrences": [
+        "0x24fbfc",
+        "0x96def8"
+      ],
+      "pointers": [
+        "0x96def8"
+      ],
+      "status": "translated",
+      "pt_bytes": 32,
+      "max_line_pixels": 179,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f985",
+      "en": "Ups Attack if suffering.",
+      "fr_comparison": "Augmente Attaque si blessé.",
+      "source_hex": "cfe4e700bbe8e8d5d7df00ddda00e7e9dadad9e6dde2dbadff",
+      "all_pointer_occurrences": [
+        "0x24fc00",
+        "0x96defc"
+      ],
+      "pointers": [
+        "0x96defc"
+      ],
+      "status": "translated",
+      "pt_bytes": 32,
+      "max_line_pixels": 178,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f99e",
+      "en": "Ups Defense if suffering.",
+      "fr_comparison": "Augmente Défense si blessé.",
+      "source_hex": "cfe4e700bed9dad9e2e7d900ddda00e7e9dadad9e6dde2dbadff",
+      "all_pointer_occurrences": [
+        "0x24fc04",
+        "0x96df00"
+      ],
+      "pointers": [
+        "0x96df00"
+      ],
+      "status": "translated",
+      "pt_bytes": 32,
+      "max_line_pixels": 177,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f9b8",
+      "en": "Draining causes injury.",
+      "fr_comparison": "Le drainage blesse l’ennemi.",
+      "source_hex": "bee6d5dde2dde2db00d7d5e9e7d9e700dde2dee9e6edadff",
+      "all_pointer_occurrences": [
+        "0x24fc08",
+        "0x96df04"
+      ],
+      "pointers": [
+        "0x96df04"
+      ],
+      "status": "translated",
+      "pt_bytes": 19,
+      "max_line_pixels": 102,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f9d0",
+      "en": "Ups Grass moves in a pinch.",
+      "fr_comparison": "Boost Plante en cas de besoin.",
+      "source_hex": "cfe4e700c1e6d5e7e700e1e3ead9e700dde200d500e4dde2d7dcadff",
+      "all_pointer_occurrences": [
+        "0x24fc0c",
+        "0x96df08"
+      ],
+      "pointers": [
+        "0x96df08"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 156,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24f9ec",
+      "en": "Ups Fire moves in a pinch.",
+      "fr_comparison": "Boost Feu en cas de besoin.",
+      "source_hex": "cfe4e700c0dde6d900e1e3ead9e700dde200d500e4dde2d7dcadff",
+      "all_pointer_occurrences": [
+        "0x24fc10",
+        "0x96df0c"
+      ],
+      "pointers": [
+        "0x96df0c"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 147,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24fa07",
+      "en": "Ups Water moves in a pinch.",
+      "fr_comparison": "Boost Eau en cas de besoin.",
+      "source_hex": "cfe4e700d1d5e8d9e600e1e3ead9e700dde200d500e4dde2d7dcadff",
+      "all_pointer_occurrences": [
+        "0x24fc14",
+        "0x96df10"
+      ],
+      "pointers": [
+        "0x96df10"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 147,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24fa23",
+      "en": "Ups Bug moves in a pinch.",
+      "fr_comparison": "Boost Insecte en cas de besoin.",
+      "source_hex": "cfe4e700bce9db00e1e3ead9e700dde200d500e4dde2d7dcadff",
+      "all_pointer_occurrences": [
+        "0x24fc18",
+        "0x96df14"
+      ],
+      "pointers": [
+        "0x96df14"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 156,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24fa3d",
+      "en": "Prevents recoil damage.",
+      "fr_comparison": "Empêche les dégâts de recul.",
+      "source_hex": "cae6d9ead9e2e8e700e6d9d7e3dde000d8d5e1d5dbd9adff",
+      "all_pointer_occurrences": [
+        "0x24fc1c",
+        "0x96df18"
+      ],
+      "pointers": [
+        "0x96df18"
+      ],
+      "status": "translated",
+      "pt_bytes": 22,
+      "max_line_pixels": 123,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24fa55",
+      "en": "Summons sunlight in battle.",
+      "fr_comparison": "Déclenche le soleil en combat.",
+      "source_hex": "cde9e1e1e3e2e700e7e9e2e0dddbdce800dde200d6d5e8e8e0d9adff",
+      "all_pointer_occurrences": [
+        "0x24fc20",
+        "0x96df1c"
+      ],
+      "pointers": [
+        "0x96df1c"
+      ],
+      "status": "translated",
+      "pt_bytes": 30,
+      "max_line_pixels": 163,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24fa71",
+      "en": "Prevents fleeing.",
+      "fr_comparison": "Empêche la fuite.",
+      "source_hex": "cae6d9ead9e2e8e700dae0d9d9dde2dbadff",
+      "all_pointer_occurrences": [
+        "0x24fc24",
+        "0x96df20"
+      ],
+      "pointers": [
+        "0x96df20"
+      ],
+      "status": "translated",
+      "pt_bytes": 15,
+      "max_line_pixels": 82,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24fa83",
+      "en": "Prevents sleep.",
+      "fr_comparison": "Empêche le sommeil.",
+      "source_hex": "cae6d9ead9e2e8e700e7e0d9d9e4adff",
+      "all_pointer_occurrences": [
+        "0x24fc28"
+      ],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Copie historique ou extraction commençant avant la chaîne : aucune référence dans la table vivante des descriptions 0x96de04 (293 pointeurs). Occurrences brutes consignées, table vanilla 0x24fb08 sans référence de base ; ne pas injecter une copie non consommée."
+    },
+    {
+      "offset": "0x24fa93",
+      "en": "Prevents stat reduction.",
+      "fr_comparison": "Empêche la baisse de stats.",
+      "source_hex": "cae6d9ead9e2e8e700e7e8d5e800e6d9d8e9d7e8dde3e2adff",
+      "all_pointer_occurrences": [
+        "0x24fc2c"
+      ],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Copie historique ou extraction commençant avant la chaîne : aucune référence dans la table vivante des descriptions 0x96de04 (293 pointeurs). Occurrences brutes consignées, table vanilla 0x24fb08 sans référence de base ; ne pas injecter une copie non consommée."
+    },
+    {
+      "offset": "0x24faaf",
+      "en": "Raises Attack.",
+      "fr_comparison": "Augmente l’Attaque.",
+      "source_hex": "ccd5dde7d9e700bbe8e8d5d7dfadff",
+      "all_pointer_occurrences": [
+        "0x24fc30"
+      ],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Copie historique ou extraction commençant avant la chaîne : aucune référence dans la table vivante des descriptions 0x96de04 (293 pointeurs). Occurrences brutes consignées, table vanilla 0x24fb08 sans référence de base ; ne pas injecter une copie non consommée."
+    },
+    {
+      "offset": "0x24fabe",
+      "en": "Blocks critical hits.",
+      "fr_comparison": "Bloque les coups critiques.",
+      "source_hex": "bce0e3d7dfe700d7e6dde8ddd7d5e000dcdde8e7adff",
+      "all_pointer_occurrences": [
+        "0x24fc34",
+        "0x96df30"
+      ],
+      "pointers": [
+        "0x96df30"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 144,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x24fad4",
+      "en": "Avoids sound-based moves.",
+      "fr_comparison": "Évite les attaques sonores.",
+      "source_hex": "bbeae3ddd8e700e7e3e9e2d8aed6d5e7d9d800e1e3ead9e7adff",
+      "all_pointer_occurrences": [
+        "0x24fc38"
+      ],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Copie historique ou extraction commençant avant la chaîne : aucune référence dans la table vivante des descriptions 0x96de04 (293 pointeurs). Occurrences brutes consignées, table vanilla 0x24fb08 sans référence de base ; ne pas injecter une copie non consommée."
+    },
+    {
+      "offset": "0x24faee",
+      "en": "Negates weather effects.",
+      "fr_comparison": "Annule les effets météo.",
+      "source_hex": "c8d9dbd5e8d9e700ebd9d5e8dcd9e600d9dadad9d7e8e7adff",
+      "all_pointer_occurrences": [
+        "0x24fc3c",
+        "0x149681b"
+      ],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Copie historique ou extraction commençant avant la chaîne : aucune référence dans la table vivante des descriptions 0x96de04 (293 pointeurs). Occurrences brutes consignées, table vanilla 0x24fb08 sans référence de base ; ne pas injecter une copie non consommée. L’occurrence non alignée 0x149681b est dans un flux binaire (contexte 021cf2e105eefa24080311e3f5), pas dans la table vivante."
+    },
+    {
+      "offset": "0x24fc48",
+      "en": "     STENCH",
+      "fr_comparison": "PUANTEUR",
+      "source_hex": "0000000000cdcebfc8bdc2ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fc4d",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdcebfc8bdc2ff000000000000"
+    },
+    {
+      "offset": "0x24fc54",
+      "en": "      DRIZZLE",
+      "fr_comparison": "CRACHIN",
+      "source_hex": "000000000000beccc3d4d4c6bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fc5a",
+      "cell_bytes": 13,
+      "source_cell_hex": "beccc3d4d4c6bfff0000000000"
+    },
+    {
+      "offset": "0x24fc62",
+      "en": "     Speed BOOST",
+      "fr_comparison": "TURBO",
+      "source_hex": "0000000000cde4d9d9d800bcc9c9cdceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fc67",
+      "cell_bytes": 13,
+      "source_cell_hex": "cde4d9d9d800bcc9c9cdceff00"
+    },
+    {
+      "offset": "0x24fc73",
+      "en": " BATTLE ARMOR",
+      "fr_comparison": "ARMURBASTON",
+      "source_hex": "00bcbbcecec6bf00bbccc7c9ccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fc74",
+      "cell_bytes": 13,
+      "source_cell_hex": "bcbbcecec6bf00bbccc7c9ccff"
+    },
+    {
+      "offset": "0x24fc81",
+      "en": "STURDY",
+      "fr_comparison": "FERMETÉ",
+      "source_hex": "cdcecfccbed3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fc81",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdcecfccbed3ff000000000000"
+    },
+    {
+      "offset": "0x24fc88",
+      "en": "      DAMP",
+      "fr_comparison": "MOITE",
+      "source_hex": "000000000000bebbc7caff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fc8e",
+      "cell_bytes": 13,
+      "source_cell_hex": "bebbc7caff0000000000000000"
+    },
+    {
+      "offset": "0x24fc93",
+      "en": "        LIMBER",
+      "fr_comparison": "ÉCHAUFFEMENT",
+      "source_hex": "0000000000000000c6c3c7bcbfccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fc9b",
+      "cell_bytes": 13,
+      "source_cell_hex": "c6c3c7bcbfccff000000000000"
+    },
+    {
+      "offset": "0x24fca2",
+      "en": "      SAND VEIL",
+      "fr_comparison": "VOILE SABLE",
+      "source_hex": "000000000000cdbbc8be00d0bfc3c6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fca8",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdbbc8be00d0bfc3c6ff000000"
+    },
+    {
+      "offset": "0x24fcb2",
+      "en": "   STATIC",
+      "fr_comparison": "STATIK",
+      "source_hex": "000000cdcebbcec3bdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fcb5",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdcebbcec3bdff000000000000"
+    },
+    {
+      "offset": "0x24fcbc",
+      "en": "      VOLT ABSORB",
+      "fr_comparison": "ABSORBE-VOLT",
+      "source_hex": "000000000000d0c9c6ce00bbbccdc9ccbcff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fcc2",
+      "cell_bytes": 13,
+      "source_cell_hex": "d0c9c6ce00bbbccdc9ccbcff00"
+    },
+    {
+      "offset": "0x24fcce",
+      "en": " WATER ABSORB",
+      "fr_comparison": "ABSORBE-EAU",
+      "source_hex": "00d1bbcebfcc00bbbccdc9ccbcff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fccf",
+      "cell_bytes": 13,
+      "source_cell_hex": "d1bbcebfcc00bbbccdc9ccbcff"
+    },
+    {
+      "offset": "0x24fcdc",
+      "en": "OBLIVIOUS",
+      "fr_comparison": "BENÊT",
+      "source_hex": "c9bcc6c3d0c3c9cfcdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fcdc",
+      "cell_bytes": 13,
+      "source_cell_hex": "c9bcc6c3d0c3c9cfcdff000000"
+    },
+    {
+      "offset": "0x24fce6",
+      "en": "   CLOUD NINE",
+      "fr_comparison": "CIEL GRIS",
+      "source_hex": "000000bdc6c9cfbe00c8c3c8bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fce9",
+      "cell_bytes": 13,
+      "source_cell_hex": "bdc6c9cfbe00c8c3c8bfff0000"
+    },
+    {
+      "offset": "0x24fcf4",
+      "en": "  COMPOUNDEYES",
+      "fr_comparison": "ŒIL COMPOSÉ",
+      "source_hex": "0000bdc9c7cac9cfc8bebfd3bfcdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fcf6",
+      "cell_bytes": 13,
+      "source_cell_hex": "bdc9c7cac9cfc8bebfd3bfcdff"
+    },
+    {
+      "offset": "0x24fd03",
+      "en": "INSOMNIA",
+      "fr_comparison": "INSOMNIA",
+      "source_hex": "c3c8cdc9c7c8c3bbff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd03",
+      "cell_bytes": 13,
+      "source_cell_hex": "c3c8cdc9c7c8c3bbff00000000"
+    },
+    {
+      "offset": "0x24fd0c",
+      "en": "    COLOR CHANGE",
+      "fr_comparison": "DÉGUISEMENT",
+      "source_hex": "00000000bdc9c6c9cc00bdc2bbc8c1bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd10",
+      "cell_bytes": 13,
+      "source_cell_hex": "bdc9c6c9cc00bdc2bbc8c1bfff"
+    },
+    {
+      "offset": "0x24fd1d",
+      "en": "IMMUNITY",
+      "fr_comparison": "IMMUNITÉ",
+      "source_hex": "c3c7c7cfc8c3ced3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd1d",
+      "cell_bytes": 13,
+      "source_cell_hex": "c3c7c7cfc8c3ced3ff00000000"
+    },
+    {
+      "offset": "0x24fd26",
+      "en": "    FLASH FIRE",
+      "fr_comparison": "TORCHE",
+      "source_hex": "00000000c0c6bbcdc200c0c3ccbfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd2a",
+      "cell_bytes": 13,
+      "source_cell_hex": "c0c6bbcdc200c0c3ccbfff0000"
+    },
+    {
+      "offset": "0x24fd35",
+      "en": "  SHIELD DUST",
+      "fr_comparison": "ÉCRAN POUDRE",
+      "source_hex": "0000cdc2c3bfc6be00becfcdceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd37",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdc2c3bfc6be00becfcdceff00"
+    },
+    {
+      "offset": "0x24fd43",
+      "en": " OWN TEMPO",
+      "fr_comparison": "TEMPO PERSO",
+      "source_hex": "00c9d1c800cebfc7cac9ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd44",
+      "cell_bytes": 13,
+      "source_cell_hex": "c9d1c800cebfc7cac9ff000000"
+    },
+    {
+      "offset": "0x24fd4e",
+      "en": "   SUCTION CUPS",
+      "fr_comparison": "VENTOUSE",
+      "source_hex": "000000cdcfbdcec3c9c800bdcfcacdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd51",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdcfbdcec3c9c800bdcfcacdff"
+    },
+    {
+      "offset": "0x24fd5e",
+      "en": "INTIMIDATE",
+      "fr_comparison": "INTIMIDATION",
+      "source_hex": "c3c8cec3c7c3bebbcebfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd5e",
+      "cell_bytes": 13,
+      "source_cell_hex": "c3c8cec3c7c3bebbcebfff0000"
+    },
+    {
+      "offset": "0x24fd69",
+      "en": "  SHADOW TAG",
+      "fr_comparison": "MARQUE OMBRE",
+      "source_hex": "0000cdc2bbbec9d100cebbc1ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd6b",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdc2bbbec9d100cebbc1ff0000"
+    },
+    {
+      "offset": "0x24fd76",
+      "en": "  ROUGH SKIN",
+      "fr_comparison": "PEAU DURE",
+      "source_hex": "0000ccc9cfc1c200cdc5c3c8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd78",
+      "cell_bytes": 13,
+      "source_cell_hex": "ccc9cfc1c200cdc5c3c8ff0000"
+    },
+    {
+      "offset": "0x24fd83",
+      "en": "  WONDER GUARD",
+      "fr_comparison": "GARDE MYSTIK",
+      "source_hex": "0000d1c9c8bebfcc00c1cfbbccbeff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd85",
+      "cell_bytes": 13,
+      "source_cell_hex": "d1c9c8bebfcc00c1cfbbccbeff"
+    },
+    {
+      "offset": "0x24fd92",
+      "en": "LEVITATE",
+      "fr_comparison": "LÉVITATION",
+      "source_hex": "c6bfd0c3cebbcebfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd92",
+      "cell_bytes": 13,
+      "source_cell_hex": "c6bfd0c3cebbcebfff00000000"
+    },
+    {
+      "offset": "0x24fd9b",
+      "en": "    EFFECT SPORE",
+      "fr_comparison": "POSE SPORE",
+      "source_hex": "00000000bfc0c0bfbdce00cdcac9ccbfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fd9f",
+      "cell_bytes": 13,
+      "source_cell_hex": "bfc0c0bfbdce00cdcac9ccbfff"
+    },
+    {
+      "offset": "0x24fdac",
+      "en": "SYNCHRONIZE",
+      "fr_comparison": "SYNCHRO",
+      "source_hex": "cdd3c8bdc2ccc9c8c3d4bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fdac",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd3c8bdc2ccc9c8c3d4bfff00"
+    },
+    {
+      "offset": "0x24fdb8",
+      "en": " CLEAR BODY",
+      "fr_comparison": "CORPS SAIN",
+      "source_hex": "00bdc6bfbbcc00bcc9bed3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fdb9",
+      "cell_bytes": 13,
+      "source_cell_hex": "bdc6bfbbcc00bcc9bed3ff0000"
+    },
+    {
+      "offset": "0x24fdc4",
+      "en": "  NATURAL CURE",
+      "fr_comparison": "MÉDEC NATURE",
+      "source_hex": "0000c8bbcecfccbbc600bdcfccbfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fdc6",
+      "cell_bytes": 13,
+      "source_cell_hex": "c8bbcecfccbbc600bdcfccbfff"
+    },
+    {
+      "offset": "0x24fdd3",
+      "en": "LIGHTNINGROD",
+      "fr_comparison": "PARAFOUDRE",
+      "source_hex": "c6c3c1c2cec8c3c8c1ccc9beff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fdd3",
+      "cell_bytes": 13,
+      "source_cell_hex": "c6c3c1c2cec8c3c8c1ccc9beff"
+    },
+    {
+      "offset": "0x24fde0",
+      "en": "SERENE GRACE",
+      "fr_comparison": "SÉRÉNITÉ",
+      "source_hex": "cdbfccbfc8bf00c1ccbbbdbfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fde0",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdbfccbfc8bf00c1ccbbbdbfff"
+    },
+    {
+      "offset": "0x24fded",
+      "en": "SWIFT SWIM",
+      "fr_comparison": "GLISSADE",
+      "source_hex": "cdd1c3c0ce00cdd1c3c7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fded",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd1c3c0ce00cdd1c3c7ff0000"
+    },
+    {
+      "offset": "0x24fdf8",
+      "en": "  CHLOROPHYLL",
+      "fr_comparison": "CHLOROPHYLLE",
+      "source_hex": "0000bdc2c6c9ccc9cac2d3c6c6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fdfa",
+      "cell_bytes": 13,
+      "source_cell_hex": "bdc2c6c9ccc9cac2d3c6c6ff00"
+    },
+    {
+      "offset": "0x24fe06",
+      "en": " ILLUMINATE",
+      "fr_comparison": "LUMI-ATTIRANCE",
+      "source_hex": "00c3c6c6cfc7c3c8bbcebfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe07",
+      "cell_bytes": 13,
+      "source_cell_hex": "c3c6c6cfc7c3c8bbcebfff0000"
+    },
+    {
+      "offset": "0x24fe12",
+      "en": "  TRACE",
+      "fr_comparison": "CALQUE",
+      "source_hex": "0000ceccbbbdbfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe14",
+      "cell_bytes": 13,
+      "source_cell_hex": "ceccbbbdbfff00000000000000"
+    },
+    {
+      "offset": "0x24fe1a",
+      "en": "       HUGE POWER",
+      "fr_comparison": "COLOFORCE",
+      "source_hex": "00000000000000c2cfc1bf00cac9d1bfccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe21",
+      "cell_bytes": 13,
+      "source_cell_hex": "c2cfc1bf00cac9d1bfccff0000"
+    },
+    {
+      "offset": "0x24fe2c",
+      "en": "  POISON POINT",
+      "fr_comparison": "POINT POISON",
+      "source_hex": "0000cac9c3cdc9c800cac9c3c8ceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe2e",
+      "cell_bytes": 13,
+      "source_cell_hex": "cac9c3cdc9c800cac9c3c8ceff"
+    },
+    {
+      "offset": "0x24fe3b",
+      "en": "INNER FOCUS",
+      "fr_comparison": "ATTENTION",
+      "source_hex": "c3c8c8bfcc00c0c9bdcfcdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe3b",
+      "cell_bytes": 13,
+      "source_cell_hex": "c3c8c8bfcc00c0c9bdcfcdff00"
+    },
+    {
+      "offset": "0x24fe47",
+      "en": " MAGMA ARMOR",
+      "fr_comparison": "ARMUMAGMA",
+      "source_hex": "00c7bbc1c7bb00bbccc7c9ccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe48",
+      "cell_bytes": 13,
+      "source_cell_hex": "c7bbc1c7bb00bbccc7c9ccff00"
+    },
+    {
+      "offset": "0x24fe54",
+      "en": " WATER VEIL",
+      "fr_comparison": "IGNIFU-VOILE",
+      "source_hex": "00d1bbcebfcc00d0bfc3c6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe55",
+      "cell_bytes": 13,
+      "source_cell_hex": "d1bbcebfcc00d0bfc3c6ff0000"
+    },
+    {
+      "offset": "0x24fe60",
+      "en": "  MAGNET PULL",
+      "fr_comparison": "MAGNÉPIÈGE",
+      "source_hex": "0000c7bbc1c8bfce00cacfc6c6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe62",
+      "cell_bytes": 13,
+      "source_cell_hex": "c7bbc1c8bfce00cacfc6c6ff00"
+    },
+    {
+      "offset": "0x24fe6e",
+      "en": " SOUNDPROOF",
+      "fr_comparison": "ANTI-BRUIT",
+      "source_hex": "00cdc9cfc8becaccc9c9c0ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe6f",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdc9cfc8becaccc9c9c0ff0000"
+    },
+    {
+      "offset": "0x24fe7a",
+      "en": "  RAIN DISH",
+      "fr_comparison": "CUVETTE",
+      "source_hex": "0000ccbbc3c800bec3cdc2ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe7c",
+      "cell_bytes": 13,
+      "source_cell_hex": "ccbbc3c800bec3cdc2ff000000"
+    },
+    {
+      "offset": "0x24fe86",
+      "en": "   SAND STREAM",
+      "fr_comparison": "SABLE VOLANT",
+      "source_hex": "000000cdbbc8be00cdceccbfbbc7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe89",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdbbc8be00cdceccbfbbc7ff00"
+    },
+    {
+      "offset": "0x24fe95",
+      "en": " PRESSURE",
+      "fr_comparison": "PRESSION",
+      "source_hex": "00caccbfcdcdcfccbfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fe96",
+      "cell_bytes": 13,
+      "source_cell_hex": "caccbfcdcdcfccbfff00000000"
+    },
+    {
+      "offset": "0x24fe9f",
+      "en": "    THICK FAT",
+      "fr_comparison": "ISOGRAISSE",
+      "source_hex": "00000000cec2c3bdc500c0bbceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fea3",
+      "cell_bytes": 13,
+      "source_cell_hex": "cec2c3bdc500c0bbceff000000"
+    },
+    {
+      "offset": "0x24fead",
+      "en": "   EARLY BIRD",
+      "fr_comparison": "MATINAL",
+      "source_hex": "000000bfbbccc6d300bcc3ccbeff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24feb0",
+      "cell_bytes": 13,
+      "source_cell_hex": "bfbbccc6d300bcc3ccbeff0000"
+    },
+    {
+      "offset": "0x24febb",
+      "en": "  FLAME BODY",
+      "fr_comparison": "CORPS ARDENT",
+      "source_hex": "0000c0c6bbc7bf00bcc9bed3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24febd",
+      "cell_bytes": 13,
+      "source_cell_hex": "c0c6bbc7bf00bcc9bed3ff0000"
+    },
+    {
+      "offset": "0x24fec8",
+      "en": "  RUN AWAY",
+      "fr_comparison": "FUITE",
+      "source_hex": "0000cccfc800bbd1bbd3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24feca",
+      "cell_bytes": 13,
+      "source_cell_hex": "cccfc800bbd1bbd3ff00000000"
+    },
+    {
+      "offset": "0x24fed3",
+      "en": "    KEEN EYE",
+      "fr_comparison": "REGARD VIF",
+      "source_hex": "00000000c5bfbfc800bfd3bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fed7",
+      "cell_bytes": 13,
+      "source_cell_hex": "c5bfbfc800bfd3bfff00000000"
+    },
+    {
+      "offset": "0x24fee0",
+      "en": "    HYPER CUTTER",
+      "fr_comparison": "HYPER CUTTER",
+      "source_hex": "00000000c2d3cabfcc00bdcfcecebfccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fee4",
+      "cell_bytes": 13,
+      "source_cell_hex": "c2d3cabfcc00bdcfcecebfccff"
+    },
+    {
+      "offset": "0x24fef1",
+      "en": "PICKUP",
+      "fr_comparison": "RAMASSAGE",
+      "source_hex": "cac3bdc5cfcaff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fef1",
+      "cell_bytes": 13,
+      "source_cell_hex": "cac3bdc5cfcaff000000000000"
+    },
+    {
+      "offset": "0x24fef8",
+      "en": "      TRUANT",
+      "fr_comparison": "ABSENTÉISME",
+      "source_hex": "000000000000cecccfbbc8ceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fefe",
+      "cell_bytes": 13,
+      "source_cell_hex": "cecccfbbc8ceff000000000000"
+    },
+    {
+      "offset": "0x24ff05",
+      "en": "      HUSTLE",
+      "fr_comparison": "AGITATION",
+      "source_hex": "000000000000c2cfcdcec6bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff0b",
+      "cell_bytes": 13,
+      "source_cell_hex": "c2cfcdcec6bfff000000000000"
+    },
+    {
+      "offset": "0x24ff12",
+      "en": "      CUTE CHARM",
+      "fr_comparison": "JOLI SOURIRE",
+      "source_hex": "000000000000bdcfcebf00bdc2bbccc7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff18",
+      "cell_bytes": 13,
+      "source_cell_hex": "bdcfcebf00bdc2bbccc7ff0000"
+    },
+    {
+      "offset": "0x24ff23",
+      "en": "  PLUS",
+      "fr_comparison": "PLUS",
+      "source_hex": "0000cac6cfcdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff25",
+      "cell_bytes": 13,
+      "source_cell_hex": "cac6cfcdff0000000000000000"
+    },
+    {
+      "offset": "0x24ff2a",
+      "en": "        MINUS",
+      "fr_comparison": "MINUS",
+      "source_hex": "0000000000000000c7c3c8cfcdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff32",
+      "cell_bytes": 13,
+      "source_cell_hex": "c7c3c8cfcdff00000000000000"
+    },
+    {
+      "offset": "0x24ff38",
+      "en": "       FORECAST",
+      "fr_comparison": "MÉTÉO",
+      "source_hex": "00000000000000c0c9ccbfbdbbcdceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff3f",
+      "cell_bytes": 13,
+      "source_cell_hex": "c0c9ccbfbdbbcdceff00000000"
+    },
+    {
+      "offset": "0x24ff48",
+      "en": "    STICKY HOLD",
+      "fr_comparison": "GLU",
+      "source_hex": "00000000cdcec3bdc5d300c2c9c6beff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff4c",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdcec3bdc5d300c2c9c6beff00"
+    },
+    {
+      "offset": "0x24ff58",
+      "en": " SHED SKIN",
+      "fr_comparison": "MUE",
+      "source_hex": "00cdc2bfbe00cdc5c3c8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff59",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdc2bfbe00cdc5c3c8ff000000"
+    },
+    {
+      "offset": "0x24ff63",
+      "en": "   GUTS",
+      "fr_comparison": "CRAN",
+      "source_hex": "000000c1cfcecdff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff66",
+      "cell_bytes": 13,
+      "source_cell_hex": "c1cfcecdff0000000000000000"
+    },
+    {
+      "offset": "0x24ff6b",
+      "en": "        MARVEL SCALE",
+      "fr_comparison": "ÉCAILLE SPÉ.",
+      "source_hex": "0000000000000000c7bbccd0bfc600cdbdbbc6bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff73",
+      "cell_bytes": 13,
+      "source_cell_hex": "c7bbccd0bfc600cdbdbbc6bfff"
+    },
+    {
+      "offset": "0x24ff80",
+      "en": "LIQUID OOZE",
+      "fr_comparison": "SUINTEMENT",
+      "source_hex": "c6c3cbcfc3be00c9c9d4bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ff80",
+      "cell_bytes": 13,
+      "source_cell_hex": "c6c3cbcfc3be00c9c9d4bfff00"
+    },
+    {
+      "offset": "0x24ff8c",
+      "en": " OVERGROW",
+      "fr_comparison": "ENGRAIS",
+      "source_hex": "00c9d0bfccc1ccc9d1ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Supercrescimento (F-759) exige 16 octets avec terminateur, au-delà de la cellule 13 octets. OVERGROW maintenu selon policy.cells ; aucun raccourcissement inventé. Base historique 0x24fc40, littéral 0x8a123c ; table principale 0xa36398 hors lot.",
+      "cell_offset": "0x24ff8d",
+      "cell_bytes": 13,
+      "source_cell_hex": "c9d0bfccc1ccc9d1ff00000000"
+    },
+    {
+      "offset": "0x24ff96",
+      "en": "    BLAZE",
+      "fr_comparison": "BRASIER",
+      "source_hex": "00000000bcc6bbd4bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "translated",
+      "pt_bytes": 9,
+      "max_line_pixels": 44,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24ff9a",
+      "cell_bytes": 13,
+      "source_cell_hex": "bcc6bbd4bfff00000000000000"
+    },
+    {
+      "offset": "0x24ffa0",
+      "en": "       TORRENT",
+      "fr_comparison": "TORRENT",
+      "source_hex": "00000000000000cec9ccccbfc8ceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "translated",
+      "pt_bytes": 8,
+      "max_line_pixels": 37,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x24ffa7",
+      "cell_bytes": 13,
+      "source_cell_hex": "cec9ccccbfc8ceff0000000000"
+    },
+    {
+      "offset": "0x24ffaf",
+      "en": "     SWARM",
+      "fr_comparison": "ESSAIM",
+      "source_hex": "0000000000cdd1bbccc7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ffb4",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd1bbccc7ff00000000000000"
+    },
+    {
+      "offset": "0x24ffba",
+      "en": "       ROCK HEAD",
+      "fr_comparison": "TÊTE DE ROC",
+      "source_hex": "00000000000000ccc9bdc500c2bfbbbeff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ffc1",
+      "cell_bytes": 13,
+      "source_cell_hex": "ccc9bdc500c2bfbbbeff000000"
+    },
+    {
+      "offset": "0x24ffcb",
+      "en": "   DROUGHT",
+      "fr_comparison": "SÉCHERESSE",
+      "source_hex": "000000beccc9cfc1c2ceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ffce",
+      "cell_bytes": 13,
+      "source_cell_hex": "beccc9cfc1c2ceff0000000000"
+    },
+    {
+      "offset": "0x24ffd6",
+      "en": "     ARENA TRAP",
+      "fr_comparison": "PIÈGE SABLE",
+      "source_hex": "0000000000bbccbfc8bb00ceccbbcaff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ffdb",
+      "cell_bytes": 13,
+      "source_cell_hex": "bbccbfc8bb00ceccbbcaff0000"
+    },
+    {
+      "offset": "0x24ffe6",
+      "en": "  VITAL SPIRIT",
+      "fr_comparison": "ESPRIT VITAL",
+      "source_hex": "0000d0c3cebbc600cdcac3ccc3ceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24ffe8",
+      "cell_bytes": 13,
+      "source_cell_hex": "d0c3cebbc600cdcac3ccc3ceff"
+    },
+    {
+      "offset": "0x24fff5",
+      "en": "WHITE SMOKE",
+      "fr_comparison": "ÉCRAN FUMÉE",
+      "source_hex": "d1c2c3cebf00cdc7c9c5bfff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x24fff5",
+      "cell_bytes": 13,
+      "source_cell_hex": "d1c2c3cebf00cdc7c9c5bfff00"
+    },
+    {
+      "offset": "0x250001",
+      "en": " PURE POWER",
+      "fr_comparison": "FORCE PURE",
+      "source_hex": "00cacfccbf00cac9d1bfccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x250002",
+      "cell_bytes": 13,
+      "source_cell_hex": "cacfccbf00cac9d1bfccff0000"
+    },
+    {
+      "offset": "0x25000d",
+      "en": "  SHELL ARMOR",
+      "fr_comparison": "COQUE ARMUR",
+      "source_hex": "0000cdc2bfc6c600bbccc7c9ccff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x25000f",
+      "cell_bytes": 13,
+      "source_cell_hex": "cdc2bfc6c600bbccc7c9ccff00"
+    },
+    {
+      "offset": "0x25001b",
+      "en": " CACOPHONY",
+      "fr_comparison": "CACOPHONIE",
+      "source_hex": "00bdbbbdc9cac2c9c8d3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x25001c",
+      "cell_bytes": 13,
+      "source_cell_hex": "bdbbbdc9cac2c9c8d3ff000000"
+    },
+    {
+      "offset": "0x250026",
+      "en": "   AIR LOCK",
+      "fr_comparison": "AIR LOCK",
+      "source_hex": "000000bbc3cc00c6c9bdc5ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom de Habilidade conservé selon F-759 policy.unlisted. Table historique à cellules de 13 octets, base 0x24fc40 référencée par le littéral 0x8a123c ; table CFRU principale distincte à 0xa36398 hors lot.",
+      "cell_offset": "0x250029",
+      "cell_bytes": 13,
+      "source_cell_hex": "bbc3cc00c6c9bdc5ff00000000"
+    },
+    {
+      "offset": "0x255689",
+      "en": "RR zRR                                    R   F   F                    xzzzxzzzRzzzRzzzRRzz Rzz Rzz RzzzRR z   z   zÂ  zÂ  zÂ  zÂ  zÂ                                                                   Rzz FRR  RR  RR  FR   R        zÂ  RÂ  RÂ  RÂ  RÏ  RÏ                 :   Z  <0xF4>i  ",
+      "fr_comparison": "RR zRR                                    R   F   F                    xzzzxzzzRzzzRzzzRRzz Rzz Rzz RzzzRR z   z   zÂ  zÂ  zÂ  zÂ  zÂ                                                                   Rzz FRR  RR  RR  FR   R        zÂ  RÂ  RÂ  RÂ  RÏ  RÏ                 :   Z  äi  ",
+      "source_hex": "cccc00eecccc000000000000000000000000000000000000000000000000000000000000000000000000cc000000c0000000c00000000000000000000000000000000000000000eceeeeeeeceeeeeecceeeeeecceeeeeecccceeee00cceeee00cceeee00cceeeeeecccc00ee000000ee000000ee030000ee030000ee030000ee030000ee0300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cceeee00c0cccc0000cccc0000cccc0000c0cc000000cc0000000000000000ee030000cc030000cc030000cc030000cc0c0000cc0c0000000000000000000000000000000000f0000000d40000f4dd0000ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    },
+    {
+      "offset": "0x255a8d",
+      "en": "RR                                   FR   R   F   F                xzzzxzzzxzzzRzzzRzzzRRzz Rzz RzzzRR zRR z   z   zÂ  zÂ  zÂ  zÂ                                                                   Rzz Rzz FRR  RR  RR  FR   R    zÂ  zÂ  RÂ  RÂ  RÂ  RÏ  RÏ                 :   Z  <0xF4>i  ",
+      "fr_comparison": "RR                                   FR   R   F   F                xzzzxzzzxzzzRzzzRzzzRRzz Rzz RzzzRR zRR z   z   zÂ  zÂ  zÂ  zÂ                                                                   Rzz Rzz FRR  RR  RR  FR   R    zÂ  zÂ  RÂ  RÂ  RÂ  RÏ  RÏ                 :   Z  äi  ",
+      "source_hex": "cccc0000000000000000000000000000000000000000000000000000000000000000000000c0cc000000cc000000c0000000c000000000000000000000000000000000eceeeeeeeceeeeeeeceeeeeecceeeeeecceeeeeecccceeee00cceeee00cceeeeeecccc00eecccc00ee000000ee000000ee030000ee030000ee030000ee0300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cceeee00cceeee00c0cccc0000cccc0000cccc0000c0cc000000cc00000000ee030000ee030000cc030000cc030000cc030000cc0c0000cc0c0000000000000000000000000000000000f0000000d40000f4dd0000ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    },
+    {
+      "offset": "0x255ef1",
+      "en": "RR zRR zRR z   z   zÂ  zÂ  zÂ                                                                   Rzz Rzz Rzz FRR  RR  RR  FR   RzÂ  zÂ  zÂ  RÂ  RÂ  RÂ  RÏ  RÏ             :   Z  <0xF4>i  ",
+      "fr_comparison": "RR zRR zRR z   z   zÂ  zÂ  zÂ                                                                   Rzz Rzz Rzz FRR  RR  RR  FR   RzÂ  zÂ  zÂ  RÂ  RÂ  RÂ  RÏ  RÏ             :   Z  äi  ",
+      "source_hex": "cccc00eecccc00eecccc00ee000000ee000000ee030000ee030000ee0300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cceeee00cceeee00cceeee00c0cccc0000cccc0000cccc0000c0cc000000ccee030000ee030000ee030000cc030000cc030000cc030000cc0c0000cc0c00000000000000000000000000f0000000d40000f4dd0000ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    },
+    {
+      "offset": "0x2562f1",
+      "en": "RR zRR zRR z   z   zÂ  zÂ  zÂ                                                                   Rzz Rzz Rzz FRR  RR  RR  FR   RzÂ  zÂ  zÂ  RÂ  RÂ  RÂ  RÏ  RÏ         :   Z  <0xF4>i  ",
+      "fr_comparison": "RR zRR zRR z   z   zÂ  zÂ  zÂ                                                                   Rzz Rzz Rzz FRR  RR  RR  FR   RzÂ  zÂ  zÂ  RÂ  RÂ  RÂ  RÏ  RÏ         :   Z  äi  ",
+      "source_hex": "cccc00eecccc00eecccc00ee000000ee000000ee030000ee030000ee0300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cceeee00cceeee00cceeee00c0cccc0000cccc0000cccc0000c0cc000000ccee030000ee030000ee030000cc030000cc030000cc030000cc0c0000cc0c000000000000000000f0000000d40000f4dd0000ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    },
+    {
+      "offset": "0x26cfbb",
+      "en": "         <0x52>À  Quacker",
+      "fr_comparison": "¡À  Quacker",
+      "source_hex": "00000000000000000052010000cbe9d5d7dfd9e6ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26cfc8",
+      "cell_bytes": 12,
+      "source_cell_hex": "cbe9d5d7dfd9e6ff00000000"
+    },
+    {
+      "offset": "0x26cff3",
+      "en": "Edmund",
+      "fr_comparison": "Edmund",
+      "source_hex": "bfd8e1e9e2d8ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26cff3",
+      "cell_bytes": 12,
+      "source_cell_hex": "bfd8e1e9e2d8ff0000000000"
+    },
+    {
+      "offset": "0x26d001",
+      "en": "Â  The Top",
+      "fr_comparison": "Â  The Top",
+      "source_hex": "030000cedcd900cee3e4ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d004",
+      "cell_bytes": 12,
+      "source_cell_hex": "cedcd900cee3e4ff00000000"
+    },
+    {
+      "offset": "0x26d02f",
+      "en": "Saige",
+      "fr_comparison": "Saige",
+      "source_hex": "cdd5dddbd9ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d02f",
+      "cell_bytes": 12,
+      "source_cell_hex": "cdd5dddbd9ff000000000001"
+    },
+    {
+      "offset": "0x26d06b",
+      "en": "Alicia",
+      "fr_comparison": "Alicia",
+      "source_hex": "bbe0ddd7ddd5ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d06b",
+      "cell_bytes": 12,
+      "source_cell_hex": "bbe0ddd7ddd5ff0000000001"
+    },
+    {
+      "offset": "0x26d0a7",
+      "en": "Shroomu",
+      "fr_comparison": "Shroomu",
+      "source_hex": "cddce6e3e3e1e9ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d0a7",
+      "cell_bytes": 12,
+      "source_cell_hex": "cddce6e3e3e1e9ff00000000"
+    },
+    {
+      "offset": "0x26d0af",
+      "en": "     <0x84>Á  Among Us",
+      "fr_comparison": "{SUPER_E}  Among Us",
+      "source_hex": "000000000084020000bbe1e3e2db00cfe7ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d0b8",
+      "cell_bytes": 12,
+      "source_cell_hex": "bbe1e3e2db00cfe7ff000000"
+    },
+    {
+      "offset": "0x26d0e3",
+      "en": "Shroomu",
+      "fr_comparison": "Shroomu",
+      "source_hex": "cddce6e3e3e1e9ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d0e3",
+      "cell_bytes": 12,
+      "source_cell_hex": "cddce6e3e3e1e9ff00000000"
+    },
+    {
+      "offset": "0x26d0eb",
+      "en": "     SÂ  Torch",
+      "fr_comparison": "SÂ  Torch",
+      "source_hex": "0000000000cd030000cee3e6d7dcff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d0f4",
+      "cell_bytes": 12,
+      "source_cell_hex": "cee3e6d7dcff000000000000"
+    },
+    {
+      "offset": "0x26d11f",
+      "en": "Balogna",
+      "fr_comparison": "Balogna",
+      "source_hex": "bcd5e0e3dbe2d5ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d11f",
+      "cell_bytes": 12,
+      "source_cell_hex": "bcd5e0e3dbe2d5ff00000000"
+    },
+    {
+      "offset": "0x26d15b",
+      "en": "NORMA",
+      "fr_comparison": "NORMA",
+      "source_hex": "c8c9ccc7bbff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d15b",
+      "cell_bytes": 12,
+      "source_cell_hex": "c8c9ccc7bbff000000000001"
+    },
+    {
+      "offset": "0x26d197",
+      "en": "GARETT",
+      "fr_comparison": "GARETT",
+      "source_hex": "c1bbccbfceceff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "retained_english",
+      "reason": "Nom propre de Dresseur conservé exactement selon F-759. Structure indexée de 0x3c octets ; l’extraction peut inclure la fin de la structure précédente. Aucune réécriture des octets de structure.",
+      "cell_offset": "0x26d197",
+      "cell_bytes": 12,
+      "source_cell_hex": "c1bbccbfceceff0000000000"
+    },
+    {
+      "offset": "0x26d4df",
+      "en": " <0xFC>Â   get started then!",
+      "fr_comparison": null,
+      "source_hex": "00fc03000000dbd9e800e7e8d5e6e8d9d800e8dcd9e2abff",
+      "all_pointer_occurrences": [
+        "0x26d3c6",
+        "0x26d3e4"
+      ],
+      "pointers": [
+        "0x26d3c6",
+        "0x26d3e4"
+      ],
+      "status": "translated",
+      "pt_bytes": 21,
+      "max_line_pixels": 88,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x26d4e5",
+      "en": "get started then!",
+      "fr_comparison": "commençons !",
+      "source_hex": "dbd9e800e7e8d5e6e8d9d800e8dcd9e2abff",
+      "all_pointer_occurrences": [
+        "0x721f15",
+        "0x7248c9"
+      ],
+      "pointers": [
+        "0x721f15",
+        "0x7248c9"
+      ],
+      "status": "translated",
+      "pt_bytes": 15,
+      "max_line_pixels": 82,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x26d4f7",
+      "en": "That was a great battle! My\\nPokémon had fun!",
+      "fr_comparison": "C’était un super combat ! Mes\\nPokémon se sont amusés !",
+      "source_hex": "cedcd5e800ebd5e700d500dbe6d9d5e800d6d5e8e8e0d9ab00c7edfecae3df1be1e3e200dcd5d800dae9e2abff",
+      "all_pointer_occurrences": [
+        "0x26d3d3",
+        "0x26d3f1"
+      ],
+      "pointers": [
+        "0x26d3d3",
+        "0x26d3f1"
+      ],
+      "status": "translated",
+      "pt_bytes": 51,
+      "max_line_pixels": 154,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x26d524",
+      "en": "Now that the entrance to the SES\\nExpressway isn't sealed anymore,<0xFA>I've finally been able to train!<0xFB>Say, would you like to battle my\\nnewly trained Pokémon?",
+      "fr_comparison": "Maintenant que l’entrée de l'Autoroute RBT n’est plus scellée,\\lj’ai enfin pu m’entraîner !\\pDis, tu veux combattre mes\\nPokémon fraîchement entraînés ?",
+      "source_hex": "c8e3eb00e8dcd5e800e8dcd900d9e2e8e6d5e2d7d900e8e300e8dcd900cdbfcdfebfece4e6d9e7e7ebd5ed00dde7e2b4e800e7d9d5e0d9d800d5e2ede1e3e6d9b8fac3b4ead900dadde2d5e0e0ed00d6d9d9e200d5d6e0d900e8e300e8e6d5dde2abfbcdd5edb800ebe3e9e0d800ede3e900e0dddfd900e8e300d6d5e8e8e0d900e1edfee2d9ebe0ed00e8e6d5dde2d9d800cae3df1be1e3e2acff",
+      "all_pointer_occurrences": [
+        "0x26d3a8"
+      ],
+      "pointers": [
+        "0x26d3a8"
+      ],
+      "status": "translated",
+      "pt_bytes": 137,
+      "max_line_pixels": 180,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x26d5bf",
+      "en": "Thanks for battling with me!",
+      "fr_comparison": "Merci d’avoir combattu avec moi !",
+      "source_hex": "cedcd5e2dfe700dae3e600d6d5e8e8e0dde2db00ebdde8dc00e1d9abff",
+      "all_pointer_occurrences": [
+        "0x26d3d9",
+        "0x26d3f7"
+      ],
+      "pointers": [
+        "0x26d3d9",
+        "0x26d3f7"
+      ],
+      "status": "translated",
+      "pt_bytes": 27,
+      "max_line_pixels": 149,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x26d5dc",
+      "en": "Are you trying to go through\\nChallenge Road?<0xFB>Then you'll have to go through me\\nfirst!",
+      "fr_comparison": "Tu veux passer par la Route\\nDéfi ?\\pAlors il faudra passer par moi\\nd’abord !",
+      "source_hex": "bbe6d900ede3e900e8e6eddde2db00e8e300dbe300e8dce6e3e9dbdcfebddcd5e0e0d9e2dbd900cce3d5d8acfbcedcd9e200ede3e9b4e0e000dcd5ead900e8e300dbe300e8dce6e3e9dbdc00e1d9fedadde6e7e8abff",
+      "all_pointer_occurrences": [
+        "0x772fc3"
+      ],
+      "pointers": [
+        "0x772fc3"
+      ],
+      "status": "translated",
+      "pt_bytes": 73,
+      "max_line_pixels": 164,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x26d6bd",
+      "en": "Hello there traveller.<0xFB>I have three Pokémon in desperate\\nneed of a loving trainer.<0xFB>Will you take care of them for me?",
+      "fr_comparison": null,
+      "source_hex": "c2d9e0e0e300e8dcd9e6d900e8e6d5ead9e0e0d9e6adfbc300dcd5ead900e8dce6d9d900cae3df1be1e3e200dde200d8d9e7e4d9e6d5e8d9fee2d9d9d800e3da00d500e0e3eadde2db00e8e6d5dde2d9e6adfbd1dde0e000ede3e900e8d5dfd900d7d5e6d900e3da00e8dcd9e100dae3e600e1d9acff",
+      "all_pointer_occurrences": [
+        "0x26d644"
+      ],
+      "pointers": [
+        "0x26d644"
+      ],
+      "status": "translated",
+      "pt_bytes": 110,
+      "max_line_pixels": 178,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x26d733",
+      "en": "Oh, okay then. If you change your\\nmind you're welcome anytime!",
+      "fr_comparison": "Oh, d’accord. Si tu changes d’avis,\\ntu es le bienvenu quand tu veux !",
+      "source_hex": "c9dcb800e3dfd5ed00e8dcd9e2ad00c3da00ede3e900d7dcd5e2dbd900ede3e9e6fee1dde2d800ede3e9b4e6d900ebd9e0d7e3e1d900d5e2ede8dde1d9abff",
+      "all_pointer_occurrences": [
+        "0x26d657"
+      ],
+      "pointers": [
+        "0x26d657"
+      ],
+      "status": "translated",
+      "pt_bytes": 54,
+      "max_line_pixels": 183,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x270fa1",
+      "en": "I tried travelling through the\\nGreat Desert to the east of town,<0xFA>but the sandstorm was too strong.<0xFB>It kept whipping sand in my face\\nand I couldn't see anything.<0xFB>Without any sort of protection,\\nit's impossible to go anywhere.<0xFB>I just wish I could find some\"",
+      "fr_comparison": "J’ai essayé de traverser le\\nGrand Désert à l’est de la ville,\\lmais la tempête de sable était\\ntrop forte.\\pLe sable me fouettait le visage\\net je ne voyais rien.\\pSans protection, impossible d’aller\\nquelque part.\\pSi seulement je pouvais trouver\\nquelque chose…",
+      "source_hex": "c300e8e6ddd9d800e8e6d5ead9e0e0dde2db00e8dce6e3e9dbdc00e8dcd9fec1e6d9d5e800bed9e7d9e6e800e8e300e8dcd900d9d5e7e800e3da00e8e3ebe2b8fad6e9e800e8dcd900e7d5e2d8e7e8e3e6e100ebd5e700e8e3e300e7e8e6e3e2dbadfbc3e800dfd9e4e800ebdcdde4e4dde2db00e7d5e2d800dde200e1ed00dad5d7d9fed5e2d800c300d7e3e9e0d8e2b4e800e7d9d900d5e2ede8dcdde2dbadfbd1dde8dce3e9e800d5e2ed00e7e3e6e800e3da00e4e6e3e8d9d7e8dde3e2b8fedde8b4e700dde1e4e3e7e7ddd6e0d900e8e300dbe300d5e2edebdcd9e6d9adfbc300dee9e7e800ebdde7dc00c300d7e3e9e0d800dadde2d800e7e3e1d9b0ff",
+      "all_pointer_occurrences": [
+        "0x166cb8"
+      ],
+      "pointers": [
+        "0x166cb8"
+      ],
+      "status": "translated",
+      "pt_bytes": 235,
+      "max_line_pixels": 192,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x271c3e",
+      "en": "Poison spikes were scattered all\\naround your team!",
+      "fr_comparison": "Des pics toxik entourent toute ton\\néquipe !",
+      "source_hex": "cae3dde7e3e200e7e4dddfd9e700ebd9e6d900e7d7d5e8e8d9e6d9d800d5e0e0fed5e6e3e9e2d800ede3e9e600e8d9d5e1abff",
+      "all_pointer_occurrences": [
+        "0x271b9c"
+      ],
+      "pointers": [
+        "0x271b9c"
+      ],
+      "status": "translated",
+      "pt_bytes": 38,
+      "max_line_pixels": 140,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x27795d",
+      "en": "Pointed stones float in the air\\naround the opposing team!",
+      "fr_comparison": "Des rocs pointus flottent autour de\\nl’équipe adverse !",
+      "source_hex": "cae3dde2e8d9d800e7e8e3e2d9e700dae0e3d5e800dde200e8dcd900d5dde6fed5e6e3e9e2d800e8dcd900e3e4e4e3e7dde2db00e8d9d5e1abff",
+      "all_pointer_occurrences": [
+        "0x271c30"
+      ],
+      "pointers": [
+        "0x271c30"
+      ],
+      "status": "translated",
+      "pt_bytes": 55,
+      "max_line_pixels": 182,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x277999",
+      "en": "A sticky web has been laid out\\naround the opposing team!",
+      "fr_comparison": "Une toile gluante a été posée\\nautour de l’équipe adverse !",
+      "source_hex": "bb00e7e8ddd7dfed00ebd9d600dcd5e700d6d9d9e200e0d5ddd800e3e9e8fed5e6e3e9e2d800e8dcd900e3e4e4e3e7dde2db00e8d9d5e1abff",
+      "all_pointer_occurrences": [
+        "0x277920"
+      ],
+      "pointers": [
+        "0x277920"
+      ],
+      "status": "translated",
+      "pt_bytes": 63,
+      "max_line_pixels": 174,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x2779d4",
+      "en": " Pointed stones dug into\\n<0xFD> !",
+      "fr_comparison": "Les rocs pointus transpercent\\n{UNKNOWN_STR} !",
+      "source_hex": "00cae3dde2e8d9d800e7e8e3e2d9e700d8e9db00dde2e8e3fefd00abff",
+      "all_pointer_occurrences": [],
+      "pointers": [
+        "0x3074b2"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 128,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x2779d5",
+      "cell_bytes": 28,
+      "source_cell_hex": "cae3dde2e8d9d800e7e8e3e2d9e700d8e9db00dde2e8e3fefd00abff",
+      "prefix_bytes": 1,
+      "reason": "Pointeur intérieur vérifié dans le script de combat ; écriture bornée au message existant, préfixe hors texte consommé conservé."
+    },
+    {
+      "offset": "0x2779f1",
+      "en": "\\n<0xFD>  was caught in\\na sticky web!",
+      "fr_comparison": "\\n{UNKNOWN_STR} est pris dans une\\ntoile gluante !",
+      "source_hex": "fefd0000ebd5e700d7d5e9dbdce800dde2fed500e7e8ddd7dfed00ebd9d6abff",
+      "all_pointer_occurrences": [],
+      "pointers": [
+        "0x307535"
+      ],
+      "status": "translated",
+      "pt_bytes": 29,
+      "max_line_pixels": 111,
+      "delivery": "fixed_cell",
+      "cell_offset": "0x2779f2",
+      "cell_bytes": 31,
+      "source_cell_hex": "fd0000ebd5e700d7d5e9dbdce800dde2fed500e7e8ddd7dfed00ebd9d6abff",
+      "prefix_bytes": 1,
+      "reason": "Pointeur intérieur vérifié dans le script de combat ; écriture bornée au message existant, préfixe hors texte consommé conservé."
+    },
+    {
+      "offset": "0x277a11",
+      "en": " The spikes disappeared from around\\n<0xFD>Ô's feet!",
+      "fr_comparison": "Les pics autour de {B_ATK_NAME_WITH_PREFIX} ont\\ndisparu !",
+      "source_hex": "00cedcd900e7e4dddfd9e700d8dde7d5e4e4d9d5e6d9d800dae6e3e100d5e6e3e9e2d8fefd0fb4e700dad9d9e8abff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "alias",
+      "reason": "Fragment/alias de message de combat sans pointeur propre. Le texte canonique débute respectivement à 0x2779d5, 0x2779ee et 0x277a12 ; pas de nouvelle chaîne autonome à injecter.",
+      "canonical_offset": "0x277a12"
+    },
+    {
+      "offset": "0x277a12",
+      "en": "The spikes disappeared from around\\n<0xFD>Ô's feet!",
+      "fr_comparison": "Les picots autour de <0xFD><0x0F>\\nont disparu !",
+      "source_hex": "cedcd900e7e4dddfd9e700d8dde7d5e4e4d9d5e6d9d800dae6e3e100d5e6e3e9e2d8fefd0fb4e700dad9d9e8abff",
+      "all_pointer_occurrences": [
+        "0x3072d5"
+      ],
+      "pointers": [
+        "0x3072d5"
+      ],
+      "status": "translated",
+      "pt_bytes": 41,
+      "max_line_pixels": 141,
+      "delivery": "pointer"
+    },
+    {
+      "offset": "0x2a49c5",
+      "en": "kiiii",
+      "fr_comparison": "kiiii",
+      "source_hex": "dfddddddddff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    },
+    {
+      "offset": "0x2c486a",
+      "en": "RRB<0xF5>RBQ RRAA<0xF3>",
+      "fr_comparison": "RRBöRBQ RRAAÜ",
+      "source_hex": "ccccbcf5ccbccb00ccccbbbbf3ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    },
+    {
+      "offset": "0x2c89b0",
+      "en": "  Ez :wo :wz",
+      "fr_comparison": "Ez :wo :wz",
+      "source_hex": "0000bfee00f0ebe300f0ebeeff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    },
+    {
+      "offset": "0x2f9af8",
+      "en": "RyjjSxij    Ô   Ô               ",
+      "fr_comparison": "RyjjSxij    Ô   Ô               ",
+      "source_hex": "cceddedecdecddde000000000f0000000f000000000000000000000000000000ff",
+      "all_pointer_occurrences": [],
+      "pointers": [],
+      "status": "exception",
+      "reason": "Faux positif de l’extraction : données binaires/graphiques, aucun pointeur vers cet offset et aucune cellule de texte indexée identifiée. La préimage exacte est conservée ; pas de traduction de données."
+    }
+  ]
+}
