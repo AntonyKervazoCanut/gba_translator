@@ -13,12 +13,12 @@ from src.i18n import LanguageRegistry, RegistryError, load_registry
 from src.i18n.registry import REPO_ROOT, _validate
 from src.i18n.registry import load_registry as _load
 
-EXPECTED_BUILDABLE = {"fr", "it", "de", "indie", "pt"}
+EXPECTED_BUILDABLE = {"fr", "it", "de", "indie", "pt", "es-maint"}
 EXPECTED_REFERENCES = {"en", "es"}
 
 # Generic (non-dedicated) buildable languages driven by build_language.py.
-GENERIC_CODES = ["it", "de", "indie", "pt"]
-IN_PROGRESS_GENERIC_CODES = ["it", "indie", "pt"]
+GENERIC_CODES = ["it", "de", "indie", "pt", "es-maint"]
+IN_PROGRESS_GENERIC_CODES = ["it", "indie", "pt", "es-maint"]
 
 
 @pytest.fixture(scope="module")
@@ -240,3 +240,14 @@ def test_brazilian_portuguese_seed(registry):
     assert set("ãõâêôáéíóúàçÃÕÂÊÔÁÉÍÓÚÀÇ") <= set(cfg.font_glyphs)
     assert cfg.status_abbrev == dict(poison="PSN", burn="QMD", freeze="CNG", paralysis="PAR", sleep="DRM", faint="DES")
     assert cfg.output_rom == "GenedRom-pt.gba"
+
+
+def test_maintained_spanish_descriptor(registry):
+    cfg = registry.get("es-maint")
+    assert cfg.builder_language == "spanish"
+    assert cfg.output_rom == "GenedRom-es-maint.gba"
+    assert cfg.font_glyphs == "áéíóúüñÁÉÍÓÚÜÑ¡¿"
+    assert cfg.status_abbrev == {"poison": "ENV", "burn": "QUE", "freeze": "CON", "paralysis": "PAR", "sleep": "DOR", "faint": "DEB"}
+    assert "status_badges" in cfg.patches
+    manifest = yaml.safe_load((REPO_ROOT / "languages/es-maint/protected_entries.yaml").read_text())
+    assert isinstance(manifest["entries"], list)

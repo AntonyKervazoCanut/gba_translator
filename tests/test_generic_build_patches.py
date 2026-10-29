@@ -26,6 +26,7 @@ from scripts.build_language import (
     REPOINT_STALE_SCRIPT,
     SPANISH_ROM,
     apply_patches,
+    build_rom,
     check_translation_integrity,
 )
 from src.i18n import load_registry
@@ -56,6 +57,7 @@ def _collected_calls(config, steps: list[str], translation_json=None,
 
     class _FakeConfig:
         code = config.code
+        builder_language = config.builder_language
         patches = steps
         version_label = config.version_label
 
@@ -358,3 +360,22 @@ def test_de_descriptor_patches_all_dispatch():
     fake_json = Path("/tmp/de_translation_ready.json")
     calls = _collected_calls(config, config.patches, translation_json=fake_json)
     assert len(calls) == len(config.patches)
+
+
+def test_inline_pass_preserves_spanish_glyphs_explicitly():
+    calls = _collected_calls(REGISTRY.get("es-maint"), ["inline"])
+    assert "--preserve-spanish-glyphs" in calls[0]
+    assert "--allow-empty-translations" in calls[0]
+    assert "--preserve-german-umlauts" not in calls[0]
+
+
+def test_maintained_spanish_builder_passes_explicit_encoding_and_seed_flags():
+    config = REGISTRY.get("es-maint")
+    with mock_patch("scripts.build_language.run") as run:
+        build_rom(config, Path("/tmp/es-maint_translation_ready.json"))
+    command = [str(value) for value in run.call_args.args[0]]
+    assert command[command.index("--language") + 1] == "spanish"
+    assert "--preserve-spanish-glyphs" in command
+    assert "--allow-empty-translations" in command
+    assert command[command.index("--source") + 1].endswith("input/roms/englishrom.gba")
+    assert command[command.index("--output") + 1].endswith("GenedRom-es-maint.gba")

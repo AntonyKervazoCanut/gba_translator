@@ -23,6 +23,8 @@ languages/
   de/combined_de.txt
   indie/lang.yaml              # Indie — build: generic (reuses the FR font)
   indie/combined_indie.txt
+  es-maint/lang.yaml           # Maintained Spanish — generic, in_progress
+  es-maint/combined_es-maint.txt # Verified entries only; initially empty
 ```
 
 `lang.yaml` is the single source of truth read by the Makefile, the build
@@ -60,7 +62,8 @@ make build-it        # Italian — generic driver
 make build-de        # German — generic driver
 make build-indie     # Indie — generic driver (reuses the FR font)
 make build-lang LANG_CODE=it   # any generic language
-make build-all       # FR + IT + DE + Indie
+make build-es-maint  # Maintained Spanish, incremental from clean English
+make build-all       # FR + IT + DE + Indie + PT-BR + es-maint
 make release-all     # build every registered language + package output/release/
 ```
 
@@ -101,9 +104,9 @@ partially-translated language still produces a bootable ROM.
 
 * The shared CFRU charmap already encodes the French and Italian accented
   vowels (`à è é ì í î ò ó ù ú`, `ç`, `ß`, …).
-* It does **not** yet contain `ä ö ü`. German therefore transliterates umlauts
-  (`ae/oe/ue/ss`) until a dedicated DE charmap + font extension is added; the
-  generic `font` step is disabled for German for the same reason.
+* German uses `ä ö ü Ä Ö Ü` at F1–F6 with its dedicated font patch and
+  alias-preservation profile. Maintained Spanish preserves ü/Ü and ¡/¿ with
+  its own explicit profile; default French/Italian alias behaviour is unchanged.
 * Italian reuses the French font glyphs, so its `font` step is enabled.
 * Indie also reuses the French font (no `patch_font_indie.py`), so the `font`
   step falls back to `patch_font_fr.py` and the full FR accented set renders.
@@ -118,3 +121,46 @@ partially-translated language still produces a bootable ROM.
 
 Everything else — extraction, diffing, the ROM builder, the CSV/JSON chain, the
 font patch, inline overrides — is shared code.
+
+## Espagnol maintenu (F-850)
+
+`make build-es-maint` construit la cible générique incrémentale **in_progress**
+`GenedRom-es-maint.gba` depuis l'anglais propre. `build-all` et `release-all`
+l'incluent automatiquement ; le manifeste conserve son statut in_progress.
+`make build-es`, la référence communautaire `es` et la recette FR restent inchangés.
+
+Le combined et le manifeste de protection es-maint sont créés **vides**, conformément
+à A-663/F-850 ; aucun texte communautaire n'est importé automatiquement. Les futurs
+lots n'ajoutent que des textes vérifiés et leurs valeurs exactes protégées, dans le
+même commit. Un fichier vide exige l'option explicite `--allow-empty-translations`
+dans les deux étapes du driver générique ; le moteur historique garde son refus
+par défaut, afin de détecter une entrée accidentellement absente.
+
+Le profil ES est activé explicitement par `--preserve-spanish-glyphs` dans le builder
+et l'étape inline. Il conserve ü/Ü (F6/F3), ¡/¿ (52/51) et tous les accents espagnols.
+Les alias par défaut FR/IT et le builder ES historique ne changent pas. Les slots
+inversés suivent la [charmap FireRed](https://github.com/pret/pokefirered/blob/master/charmap.txt).
+Les copies TypeScript connaissent désormais ces deux ponctuations.
+
+Les réparations mécaniques restent actives ; le patch de police suit les deux
+réparations LZ77 et ne complète que Ü/ü dans les six blocs latins compressés
+référencés. Il préserve les glyphes natifs des cinq polices moteur. Les badges
+ENV/QUE/CON/PAR/DOR/DEB sont redessinés dans les quatre blocs graphiques, après
+les réparations, selon le glossaire D-849. Aucun patch de traduction FR n'est repris.
+
+Validation visuelle reproductible, entièrement hors écran, sans sauvegarde :
+
+```sh
+make build-es-maint
+python3 -m pytest tests/e2e/es/test_maintained_infrastructure.py -m rom
+npx playwright test --config tests/e2e-playwright/es-maint.config.ts
+```
+
+La sonde compile une petite sonde Thumb temporaire avec Clang, démarre une copie de la
+ROM dans mGBA offscreen, puis appelle les cinq fonctions de décompression de glyphes
+**du moteur original**, sans remplacer leurs données. Elle dessine leurs buffers
+4bpp dans une mire GBA, ainsi que les quatre jeux de badges décompressés par le BIOS.
+Playwright compare les pixels aux données 2bpp natives indépendamment de l'encodeur,
+et contrôle les motifs des six badges. La capture reste dans le dossier temporaire
+de l'OS ; ce n'est pas une capture d'un écran de gameplay ni une certification de la
+traduction complète. Le boot réel est capturé avant d'installer la sonde en RAM.

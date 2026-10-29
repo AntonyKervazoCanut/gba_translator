@@ -1,0 +1,29 @@
+# Cible incrémentale indépendante de la référence communautaire es.
+code: es-maint
+name: Maintained Spanish
+native_name: Español (España)
+builder_language: spanish
+status: in_progress
+build: generic
+combined: languages/es-maint/combined_es-maint.txt
+output_rom: GenedRom-es-maint.gba
+patch_source: input/roms/englishrom.gba
+version_label: ES.2.1.0
+font_glyphs: "áéíóúüñÁÉÍÓÚÜÑ¡¿"
+status_abbrev:
+  poison: ENV
+  burn: QUE
+  freeze: CON
+  paralysis: PAR
+  sleep: DOR
+  faint: DEB
+patches:
+  - inline
+  - repair_lz77
+  - repair_localized_lz77
+  - repoint_stale
+  - legendary_ritual
+  - font
+  - status_abbrevs
+  - status_badges
+  - version

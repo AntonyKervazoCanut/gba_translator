@@ -61,7 +61,7 @@ from src.core.dialogue_linewrap import (
     rewrap_multiline,
 )
 from src.core.fixed_tables import in_fixed_table
-from src.core.text_codec import TextDecoder, TextEncoder, GERMAN_UMLAUT_CHARS
+from src.core.text_codec import TextDecoder, TextEncoder, GERMAN_UMLAUT_CHARS, SPANISH_GLYPH_CHARS
 from src.core.text_reinserter import SmartReinserter
 from src.extractors.pointer_text_extractor import PointerTextExtractor
 
@@ -110,6 +110,8 @@ class BuildConfig:
     copy_pointer_tables: bool = False
     copy_text_pointers: bool = False
     copy_inline_texts: bool = False
+    allow_empty_translations: bool = False
+    preserve_spanish_glyphs: bool = False
     language: str = "unknown"
     output_rom: Optional[Path] = None
     output_report: Optional[Path] = None
@@ -213,8 +215,11 @@ class TranslatedROMBuilder:
 
         German (lang='german') has real umlaut glyphs at POKEMON_TABLE slots
         0xF1-0xF6 — encoding must NOT fold ä/ö/ü/Ä/Ö/Ü to ASCII first.
-        Every other language falls through to the default ASCII fallback.
+        Spanish preservation is explicitly enabled by the maintained driver;
+        the historical reference build and default French aliases stay intact.
         """
+        if self.config.preserve_spanish_glyphs:
+            return SPANISH_GLYPH_CHARS
         if self.config.language == 'german':
             return GERMAN_UMLAUT_CHARS
         return frozenset()
@@ -1382,6 +1387,9 @@ class TranslatedROMBuilder:
         """
         print("\n🔄 TRANSLATE strategy: Reinsertion of translations...")
 
+        if not self.translations and self.config.allow_empty_translations:
+            print("✓ Empty incremental seed: source texts preserved")
+            return True
         if not self.translations:
             print("❌ No translations provided")
             return False
@@ -1627,6 +1635,8 @@ Examples:
                        help='Translations JSON file')
     parser.add_argument('--offset-map', type=Path,
                        help='Offset map JSON file')
+    parser.add_argument('--allow-empty-translations', action='store_true')
+    parser.add_argument('--preserve-spanish-glyphs', action='store_true')
     parser.add_argument('--language', required=True,
                        help='Language code (es, fr, de, etc.)')
     parser.add_argument('--output', type=Path,
@@ -1680,6 +1690,8 @@ Examples:
         copy_text_pointers=args.copy_text_pointers,
         copy_inline_texts=args.copy_inline_texts,
         language=args.language,
+        preserve_spanish_glyphs=args.preserve_spanish_glyphs,
+        allow_empty_translations=args.allow_empty_translations,
         output_rom=args.output
     )
     

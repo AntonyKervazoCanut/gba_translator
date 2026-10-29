@@ -115,6 +115,10 @@ PORTUGUESE_TILDE_TABLE: dict[str, int] = {
 }
 POKEMON_TABLE.update(PORTUGUESE_TILDE_TABLE)
 
+# Profil ES explicite : conserver les alias historiques des autres langues.
+SPANISH_GLYPH_TABLE = {'¡': 0x52, '¿': 0x51}
+SPANISH_GLYPH_CHARS: frozenset = frozenset("üÜ¡¿")
+
 # Spanish alias characters mapped to base punctuation.
 SPANISH_ALIASES = {
     '¡': '!',
@@ -294,7 +298,9 @@ class TextEncoder:
                 i += 1
                 continue
 
-            if char in cls.POKEMON_TABLE:
+            if char in skip_aliases and char in SPANISH_GLYPH_TABLE:
+                encoded.append(SPANISH_GLYPH_TABLE[char])
+            elif char in cls.POKEMON_TABLE:
                 encoded.append(cls.POKEMON_TABLE[char])
             elif char in SPANISH_ALIASES:
                 base = SPANISH_ALIASES[char]

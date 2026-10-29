@@ -272,12 +272,15 @@ def build_rom(config, translation_json: Path) -> Path:
         # (the collisions surfaced by the collision_check step). Too-long
         # entries relocate to free space instead of overwriting the next cell.
         "--collision-guard",
+        "--allow-empty-translations",
         # The combined file's offsets (incl. scanned phantom cells that sit in
         # padding) are the audit's cell walls; feed them in so a verbose
         # translation relocates rather than overrunning one.
         "--extra-boundaries", config.combined_path(REPO_ROOT),
         "--output", out_rom,
     ]
+    if config.builder_language == "spanish":
+        cmd.append("--preserve-spanish-glyphs")
     if SPANISH_ROM.exists():
         cmd += ["--pointer-proof-rom", SPANISH_ROM]
     run(cmd)
@@ -378,6 +381,8 @@ def apply_patches(config, out_rom: Path, translation_json: Path | None = None,
 
         elif step == "inline":
             extra = []
+            if config.builder_language == "spanish":
+                extra.append("--preserve-spanish-glyphs")
             if config.code == "de":
                 extra.append("--preserve-german-umlauts")
             run([
@@ -385,6 +390,7 @@ def apply_patches(config, out_rom: Path, translation_json: Path | None = None,
                 "--rom", out_rom,
                 "--source", ENGLISH_ROM,
                 "--combined", combined,
+                "--allow-empty-translations",
                 "--reference-texts", SPANISH_EXTRACT,
                 # Generic (DE/IT) builds inject verbose translations into the
                 # packed description tables; the guard keeps every in-place write

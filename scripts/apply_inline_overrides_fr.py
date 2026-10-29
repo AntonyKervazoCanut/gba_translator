@@ -31,7 +31,7 @@ from src.core.dialogue_linewrap import (
 from src.core.fixed_tables import in_fixed_table
 from src.core.padding_detector import PaddingDetector
 from src.core.rom_reader import ROMReader
-from src.core.text_codec import GERMAN_UMLAUT_CHARS, TextDecoder, TextEncoder
+from src.core.text_codec import GERMAN_UMLAUT_CHARS, SPANISH_GLYPH_CHARS, TextDecoder, TextEncoder
 from src.core.text_converter import JSONToCSVConverter
 from languages.fr.dedicated_patch_offsets import INLINE_OVERRIDE_OFFSETS
 
@@ -496,6 +496,8 @@ def main() -> int:
         ),
     )
 
+    parser.add_argument("--preserve-spanish-glyphs", action="store_true")
+    parser.add_argument("--allow-empty-translations", action="store_true")
     args = parser.parse_args()
 
     for path in (args.rom, args.source, args.combined):
@@ -506,7 +508,7 @@ def main() -> int:
     combined_map, skipped = _load_combined(args.combined)
     if not combined_map:
         print('No combined entries found.')
-        return 1
+        return 0 if args.allow_empty_translations else 1
 
     translated_offsets = _load_translation_offsets(args.translations)
     dedicated_offsets = _dedicated_offsets_for_combined(args.combined)
@@ -524,6 +526,8 @@ def main() -> int:
     source_data = source_reader.rom_data
     detector = PaddingDetector(source_reader)
     skip_encode_aliases = GERMAN_UMLAUT_CHARS if args.preserve_german_umlauts else frozenset()
+    if args.preserve_spanish_glyphs:
+        skip_encode_aliases = SPANISH_GLYPH_CHARS
 
     # Sorted union of every known cell start: combined entries plus the real
     # extracted English/Spanish cells. Used by the collision guard as the tight
