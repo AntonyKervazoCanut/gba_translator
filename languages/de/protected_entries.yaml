@@ -299,11 +299,11 @@ entries:
 - offset: '0x1f5477c'
   name: TM-Fundort östliche Route
   issue: F-601
-  expected: Diese TM wurde östlich der Route\nnach Einsatz von Zerschneider gefunden.
+  expected: 'Diese TM lag im Osten der\nRoute, nach Einsatz von\nZerschneider.'
 - offset: '0x1f547bd'
   name: TM Kraftreserve
   issue: F-601
-  expected: Der Mann für Kraftreserve gab dir\ndiese TM in seinem Haus.
+  expected: 'Der Mann für Kraftreserve gab\ndir diese TM in seinem Haus.'
 - offset: '0x1f547f9'
   name: TM Solrock oder Solgaleo
   issue: F-601
@@ -315,15 +315,15 @@ entries:
 - offset: '0x1f5486c'
   name: TM nach Ass-Trainer
   issue: F-601
-  expected: Diese TM wurde im 4F nach\ndem Sieg über zwei Ass-Trainer gefunden.
+  expected: 'Diese TM lag im 3. OG, nach\ndem Sieg über zwei\nAss-Trainer.'
 - offset: '0x1f548ac'
   name: TM nach Felsenrätsel
   issue: F-601
-  expected: Diese TM wurde im UG1 nach\ndem Schieben eines Felsens ins Loch gefunden.
+  expected: 'Diese TM lag im 1. UG, nachdem\nein Fels in ein Loch fiel.'
 - offset: '0x1f548ea'
   name: TM-Kauf 4F
   issue: F-601
-  expected: Diese TM wurde im 4F gekauft.
+  expected: 'Diese TM wurde im 3. OG\ngekauft.'
 - offset: '0x1f54907'
   name: TM-Kauf 2000 Münzen
   issue: F-601
@@ -335,11 +335,11 @@ entries:
 - offset: '0x1f54957'
   name: TM vom versteckten Clown
   issue: F-601
-  expected: Ein Clown gab dir diese TM,\nnachdem du ihn im Versteck fandest.
+  expected: 'Ein Clown gab dir diese TM,\nnachdem du ihn im Versteck\nfandest.'
 - offset: '0x1f54993'
   name: TM nahe Cube Corp.
   issue: F-601
-  expected: Diese TM wurde mit Zerschneider\nnahe dem Ausgang zur Cube Corp. gefunden.
+  expected: 'Diese TM lag nahe Cube Corp.,\nerreichbar mit Zerschneider.'
 - offset: '0x1f549d1'
   name: TM-Kauf 16 GP
   issue: F-601
@@ -347,15 +347,15 @@ entries:
 - offset: '0x1f54a00'
   name: TM-Fundort rissiger Boden
   issue: F-601
-  expected: Diese TM wurde im UG1 nach\ndem mühsamen Überqueren des\nrissigen Bodens gefunden.
+  expected: 'Diese TM lag im 1. UG, hinter\ndem lästigen rissigen Boden.'
 - offset: '0x1f54a51'
   name: TM-Fundort Baumkrone
   issue: F-601
-  expected: Diese TM wurde unter einer\nBaumkrone im südlichen Teil der\nöstlichen Routenhälfte gefunden.
+  expected: 'Diese TM lag unter einer\nBaumkrone im Süden der\nöstlichen Routenhälfte.'
 - offset: '0x1f54aac'
   name: TM-Fundort ADM
   issue: F-601
-  expected: Diese TM wurde nach dem Auftauchen\nmit dem ADM gefunden.
+  expected: 'Diese TM wurde nach dem\nAuftauchen mit dem ADM\ngefunden.'
 - offset: '0x1f54ade'
   name: TM-Fundort Epidimy Town
   issue: F-601
@@ -1952,11 +1952,11 @@ entries:
 - offset: '0x1f734e9'
   name: English toponym canonicalisation 0x1F734E9
   issue: DE — English toponyms
-  expected: Trainertipps!\pAchte auf Bäume mit Schatten dazwischen!\pDort findest du <0xFC><0x01><0x06>Hidden Grottos<0xFC><0x01><0x02>!\pSie tauchen seit dem Meteoriteneinschlag massenhaft auf.\pSprich sie an und stell dich einem starken Pokémon!\pMit <0xFC><0x01><0x06>Zerschneider<0xFC><0x01><0x02> findest du sogar eine auf dieser Route!\pHol dir den Unlicht-Orden aus Crater Town und komm zurück!
+  expected: 'Trainertipps!\pAchte auf Bäume mit einem\nschattigen Bereich dazwischen!\pDort findest du <0xFC><0x01><0x06>Hidden Grottos<0xFC><0x01><0x02>!\pSeit dem Meteoriteneinschlag\ntauchen diese besonderen Orte\lüberall auf.\pUntersuche die Bäume und stell\ndich einem starken Pokémon!\pMit <0xFC><0x01><0x06>Zerschneider<0xFC><0x01><0x02> findest du\nsogar eines auf dieser Route!\pHol dir den Vision-Orden in der\nArena von Crater Town und komm\ldann zurück!'
 - offset: '0x1f73cd7'
   name: English toponym canonicalisation 0x1F73CD7
   issue: DE — English toponyms
-  expected: Trainertipps!\pÄndere nie das Gerätedatum für mehr Events!\pSonst funktionieren tägliche Events womöglich nicht mehr, egal wie oft versucht.\pAus Versehen passiert? Nicht alles ist verloren.\pWarte am besten bis zum geänderten Datum, oder sprich mit einem Mann bei den Frozen Heights.\pEr stellt deine Uhr einmal zurück, damit Events wieder funktionieren.
+  expected: 'Trainertipps!\pÄndere nie das Gerätedatum für\nmehr Events!\pSonst funktionieren tägliche\nEvents womöglich nicht mehr,\legal wie oft versucht.\pAus Versehen passiert? Nicht\nalles ist verloren.\pWarte am besten bis zum\ngeänderten Datum, oder sprich\lmit einem Mann bei\lFrozen Heights.\pEr stellt deine Uhr einmal\nzurück, damit Events wieder\lfunktionieren.'
 - offset: '0x1f74692'
   name: English toponym canonicalisation 0x1F74692
   issue: DE — English toponyms
@@ -2168,11 +2168,11 @@ entries:
 - offset: '0x1f8aa39'
   name: English toponym canonicalisation 0x1F8AA39
   issue: DE — English toponyms
-  expected: Der Battle Circus bietet Solo-,\nDuo- und Multi-Kämpfe.\pDeine Herausforderung dauert an, bis du\ndie Zirkusdirektorin besiegst\loder eine Pause wählst.\pIm Solo-Format trittst du mit\ndrei oder sechs Pokémon an.\pIm Duo-Format trittst du mit\nvier oder sechs Pokémon an.\pDie Kämpfe finden in\nder Hauptarena statt.\pVor jedem Kampf aktiviert die\nZirkusdirektorin einen zufälligen Effekt\lfür die Dauer des Kampfes.\pDieser Effekt ist dauerhaft und kann\nnicht entfernt oder überschrieben werden.\pDiese Effekte verstärken sich,\nje höher deine Siegesserie steigt.\pFür jeden besiegten Trainer\nerhältst du {COLOR}ÉKampfpunkte{COLOR}Ë ({COLOR}ÉBP{COLOR}Ë).\pUnterbrichst du deine Herausforderung,\nwird dein Fortschritt gespeichert,\lbis du weitermachen willst.\pGehst du ohne zu speichern,\nwirst du disqualifiziert.\pBitte denk daran!
+  expected: 'Der Battle Circus bietet\nEinzel-, Doppel- und\lMultikämpfe.\pDeine Herausforderung dauert an,\nbis du die Zirkusdirektorin\lbesiegst oder eine Pause\leinlegst.\pIm Einzelkampf trittst du mit\ndrei oder sechs Pokémon an.\pIm Doppelkampf trittst du mit\nvier oder sechs Pokémon an.\pDie Kämpfe finden in der\nHauptarena statt.\pVor jedem Kampf aktiviert die\nZirkusdirektorin einen zufälligen\lEffekt für den ganzen Kampf.\pDieser Effekt ist dauerhaft. Du\nkannst ihn weder entfernen noch\lüberschreiben.\pMit steigender Siegesserie können\ndie Effekte stärker werden und\lsich überlagern.\pFür jeden besiegten Trainer\nerhältst du <0xFC><0x01><0x06>Gewinnpunkte<0xFC><0x01><0x08> (<0xFC><0x01><0x06>GP<0xFC><0x01><0x08>).\pBei einer Pause wird dein\nFortschritt gespeichert, bis du\lweitermachst.\pGehst du ohne zu speichern,\nwirst du disqualifiziert.\pBitte denk daran!'
 - offset: '0x1f8add8'
   name: English toponym canonicalisation 0x1F8ADD8
   issue: DE — English toponyms
-  expected: Der Battle Circus ist ein Ort für\ndie Solo-, Duo- und Multi-\lHerausforderungen im Kampf.\pIst deine Herausforderung erst gestartet, dauert sie\nan, bis du die Zirkusdirektorin\ldes Battle Circus besiegst oder dich zum Ausruhen entscheidest.\pDie Multi-Show des Battle Circus\nist für Multi-Kämpfe mit einem\lPartner.\pUm teilzunehmen, schließ dich einem anderen\nTrainer an und tretet mit zwei oder\ldrei Pokémon pro Person an.\pUnter dem Battle Circus befindet sich ein Raum\nnamens Kampf-Lounge, wo du\landere Trainer treffen kannst.\pDort kannst du einen Partner\nfür Multi-\lKämpfe finden.\pDu kannst dich auch mit einem\nFreund über ein Link-Kabel zusammentun.\pSeid ihr zu zweit, werdet ihr\nzur Hauptarena gebracht.\pIn der Arena werden dich Staffel-Teams\nherausfordern.\pVor jedem Kampf aktiviert die\nZirkusdirektorin einen zufälligen Effekt\lfür die gesamte Dauer des Kampfes.\pDieser Effekt ist dauerhaft und kann\nnicht entfernt oder ignoriert werden.\pDiese Effekte können auch an\nIntensität gewinnen und sich verstärken, wenn deine\lSiegesserie steigt.\pWenn du jedes Team besiegst,\nerhältst du Kampfpunkte (BP).\pWenn du deine Herausforderung unterbrechen willst, wird dein\nFortschritt\lgespeichert, für wann immer du\lfortsetzen möchtest.\pWenn du gehst, ohne zu speichern,\nwirst du von deiner\lHerausforderung disqualifiziert.\pWenn du mit einem Freund im Duo bist,\nkannst du die Herausforderung nicht\lunterbrechen.\pBitte denk daran!
+  expected: 'Der Battle Circus bietet\nEinzel-, Doppel- und\lMultikämpfe.\pDeine Herausforderung dauert an,\nbis du die Zirkusdirektorin\lbesiegst oder eine Pause\leinlegst.\pIn der Multi-Show kämpfst du\ngemeinsam mit einem Partner.\pSchließ dich einem anderen\nTrainer an und tretet mit je\lzwei oder drei Pokémon an.\pUnter dem Battle Circus liegt\nder Battle Salon. Dort triffst du\landere Trainer.\pDort kannst du einen Partner für\ndie Multikämpfe finden.\pDu kannst auch per Link-Kabel\nmit einem Freund antreten.\pSobald ihr ein Team bildet,\nwerdet ihr zur Hauptarena\lgebracht.\pDort fordern euch andere\nZweierteams heraus.\pVor jedem Kampf aktiviert die\nZirkusdirektorin einen zufälligen\lEffekt für den ganzen Kampf.\pDieser Effekt ist dauerhaft. Du\nkannst ihn weder entfernen noch\lüberschreiben.\pMit steigender Siegesserie können\ndie Effekte stärker werden und\lsich überlagern.\pWenn ihr jedes Team besiegt,\nerhaltet ihr Gewinnpunkte (GP).\pBei einer Pause wird dein\nFortschritt gespeichert, bis du\lweitermachst.\pGehst du ohne zu speichern,\nwirst du disqualifiziert.\pSpielst du mit einem Freund,\nkannst du die Herausforderung\lnicht unterbrechen.\pBitte denk daran!'
 - offset: '0x1f8ba67'
   name: English toponym canonicalisation 0x1F8BA67
   issue: DE — English toponyms
@@ -2216,7 +2216,7 @@ entries:
 - offset: '0x1f8e271'
   name: English toponym canonicalisation 0x1F8E271
   issue: DE — English toponyms
-  expected: 'Der Battle Sands ist ein Ort\nfür Solo- und Duo-Kämpfe.\pIn Solo-Kämpfen müssen zwei Pokémon\nangemeldet werden.\pIn Duo-Kämpfen müssen drei Pokémon\nangemeldet werden.\pHier ist die Besonderheit: Du kämpfst\nnicht wirklich selbst.\pDie Pokémon, die du hier anmeldest,\nwerden von einem Freiwilligen übernommen und\lfür dich eingesetzt, um zu kämpfen.\pDu wirst gefragt, ob deine\nPokémon angreifen oder wechseln sollen,\laber die endgültige Entscheidung\lliegt beim Trainer, der deine\lPokémon kontrolliert.\pWenn dieser Trainer Kämpfe gewinnt,\nwerden {COLOR}ÉKampfpunkte{COLOR}Ë ({COLOR}ÉBP{COLOR}Ë) verdient.\pDu kannst die Kämpfe jederzeit\nbeenden, aber sei dir bewusst, dass die\lSerie dann vorbei ist.\pOb der Trainer einen Kampf verliert oder\ndu dich entscheidest zu gehen, du\lerhältst die verdienten BP.\pGehst du ohne zu speichern, verlierst\ndu die angesammelten BP.\lNur damit du es weißt.\pOh, ich habe vergessen: Ein Pokémon pro Seite\perhält einen zufälligen Statusbonus\nzu\lBeginn des Kampfes.\lBehalte das im Hinterkopf.\pWähl deine Pokémon\ngut aus.'
+  expected: 'Battle Sands bietet Einzel- und\nDoppelkämpfe.\pFür Einzelkämpfe meldest du zwei\nPokémon an.\pFür Doppelkämpfe meldest du\ndrei Pokémon an.\pDas Besondere hier: Du kämpfst\nnicht selbst.\pEin Freiwilliger übernimmt deine\nPokémon und kämpft für dich.\pDu darfst wählen, ob deine\nPokémon angreifen oder wechseln\lsollen. Doch der Trainer, der\lsie führt, entscheidet letztlich\lselbst.\pGewinnt dieser Trainer Kämpfe,\nsammelst du <0xFC><0x01><0x06>Gewinnpunkte<0xFC><0x01><0x08> (<0xFC><0x01><0x06>GP<0xFC><0x01><0x08>).\pDu kannst die Kämpfe jederzeit\nbeenden. Damit endet aber auch\ldeine Siegesserie.\pOb der Trainer verliert oder du\naufhörst: Du erhältst die\lgesammelten GP als Gewinn.\pGehst du ohne zu speichern,\nverlierst du alle gesammelten\lGP.\pBitte denk daran.\pOh, noch etwas: Ein Pokémon auf\njeder Seite erhält zu\lKampfbeginn einen zufälligen\lStatuswert-Boost.\pDenk daran, wenn du deine\nPokémon wählst.'
 - offset: '0x1f8eab6'
   name: English toponym canonicalisation 0x1F8EAB6
   issue: DE — English toponyms
@@ -3080,7 +3080,7 @@ entries:
 - offset: '0x1f5ccee'
   name: English toponym canonicalisation 0x1F5CCEE
   issue: DE — English toponyms
-  expected: Um von Tarmigan Town nach Dehara City zu gelangen, musst du zuerst\lden Berg hinabsteigen.
+  expected: 'Um von Tarmigan Town nach\nDehara City zu gelangen, musst\ldu zuerst den Berg hinabsteigen.'
 - offset: '0x1f5cd40'
   name: English toponym canonicalisation 0x1F5CD40
   issue: DE — English toponyms
@@ -3192,7 +3192,7 @@ entries:
 - offset: '0x1f681a0'
   name: English toponym canonicalisation 0x1F681A0
   issue: DE — English toponyms
-  expected: Ein Freizeitpark in der Nähe von Polder Town, in dem viele seltene Pokémon\nin freier Wildbahn zu sehen sind.\nFang sie in einem beliebten Spiel!
+  expected: 'Freizeitpark bei Polder Town.\nHier leben seltene Pokémon\nin freier Wildbahn. Fang sie\nim beliebten Safari-Spiel!'
 - offset: '0x1f68460'
   name: English toponym canonicalisation 0x1F68460
   issue: DE — English toponyms
@@ -3268,7 +3268,7 @@ entries:
 - offset: '0x1f6eabc'
   name: English toponym canonicalisation 0x1F6EABC
   issue: DE — English toponyms
-  expected: Ich suche nach einem Hinweis darauf, dass Seaport City eines Tages eine\lRuine werden wird.
+  expected: 'Ich suche nach einem Hinweis\ndarauf, dass Seaport City eines\lTages eine Ruine werden wird.'
 - offset: '0x1f6f194'
   name: English toponym canonicalisation 0x1F6F194
   issue: DE — English toponyms
@@ -5938,7 +5938,7 @@ entries:
 - offset: '0x1f69e6c'
   name: English toponym canonicalisation 0x1F69E6C
   issue: DE — English toponyms
-  expected: Holla!\pWenn du Kurs auf {COLOR}ÉPolder Town{COLOR}Ë nehmen willst, brauchst du ein {COLOR}ÉS.S.-Ticket{COLOR}Ë.
+  expected: 'Ahoi!\pWenn du nach <0xFC><0x01><0x06>Polder Town<0xFC><0x01><0x08> segeln\nwillst, brauchst du ein\l<0xFC><0x01><0x06>Bootsticket<0xFC><0x01><0x08>.'
 - offset: '0x1f6e4bb'
   name: English toponym canonicalisation 0x1F6E4BB
   issue: DE — English toponyms
@@ -5946,11 +5946,11 @@ entries:
 - offset: '0x1f74189'
   name: English toponym canonicalisation 0x1F74189
   issue: DE — English toponyms
-  expected: Trainertipps!\pDunkle Flecken im Meer\nzeigen an, dass ein Pokémon\ptauchen kann! Hast du ein\n{COLOR}ÉADM{COLOR}Á bei der {COLOR}ÉWerft von Kapitän\lDavy{COLOR}Á in {COLOR}ÉSeaport City{COLOR}Á gekauft,\pdrück {SE_SHOP} auf dem\nFleck, um zu tauchen. Unter\lWasser eine helle Stelle?\n{B_BUTTON}, um aufzutauchen.
+  expected: 'Trainertipps!\pDunkle Stellen im Meer zeigen,\nwo ein Pokémon tauchen kann!\pHast du ein <0xFC><0x01><0x06>ADM<0xFC><0x01><0x02> bei <0xFC><0x01><0x06>Captain\nDavy''s Shipyard<0xFC><0x01><0x02> in <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x02>\lgekauft, drück über der dunklen\lStelle <0xF8><0x00>, um abzutauchen.\pFindest du unter Wasser eine\nhelle Stelle am Boden, drück\ldort <0xF8><0x01>, um aufzutauchen.'
 - offset: '0x1f747e7'
   name: English toponym canonicalisation 0x1F747E7
   issue: DE — English toponyms
-  expected: Trainertipps!\p{SE_SHOP} am Baum links vom Schild,\num ein Hidden Grotto zu betreten!
+  expected: 'Trainertipps!\p<0xF8><0x00> am Baum links vom Schild, um\nein Hidden Grotto zu betreten!'
 - offset: '0x1f79fff'
   name: English toponym canonicalisation 0x1F79FFF
   issue: DE — English toponyms
@@ -5962,7 +5962,7 @@ entries:
 - offset: '0x1f82262'
   name: English toponym canonicalisation 0x1F82262
   issue: DE — English toponyms
-  expected: Der R-Tasten-Modus ist auf\nMinen-Analyse eingestellt.\pAuf dem {COLOR}ÉKBT Expressway{COLOR}Á, im\n{COLOR}ÉSeitenraum{COLOR}Á von {COLOR}ÉCrystal Peak 1F{COLOR}Á, oder\l{COLOR}Éunter Wasser{COLOR}Á, drück {R_BUTTON}, um\nnach versteckten Objekten\lzu suchen.\pWenn ein Schimmer an der Wand erscheint,\ndrück {SE_SHOP}, um dort zu graben.{PAUSE_UNTIL_PRESS}
+  expected: 'Der R-Tasten-Modus ist auf\nMinen-Analyse eingestellt.\pIm <0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x02>, im\n<0xFC><0x01><0x06>Seitenraum<0xFC><0x01><0x02> auf <0xFC><0x01><0x06>Crystal Peak 1F<0xFC><0x01><0x02>\loder <0xFC><0x01><0x06>unter Wasser<0xFC><0x01><0x02> kannst du mit <0xF8><0x03>\lnach versteckten Items suchen.\pWenn die Wand funkelt, drück <0xF8><0x00>,\num dort zu graben.<0xFC><0x09>'
 - offset: '0x1f9337d'
   name: English toponym canonicalisation 0x1F9337D
   issue: DE — English toponyms
@@ -6478,7 +6478,7 @@ entries:
 - offset: '0x1f6bb64'
   name: English toponym canonicalisation 0x1F6BB64
   issue: DE — English toponyms
-  expected: Ich habe eine {COLOR}ÉADM{COLOR}Ë bei der {COLOR}ÉWerft\nvon Kapitän Davy{COLOR}Ë gekauft.\pEs war teuer, aber ich habe sie benutzt,\num die Wände des {COLOR}ÉKBT Expressway{COLOR}Ë aufzubrechen, und das gefunden!
+  expected: 'Ich habe ein <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> bei <0xFC><0x01><0x06>Captain\nDavy''s Shipyard<0xFC><0x01><0x08> gekauft.\pEs war teuer, aber ich grub\nin den Wänden des\l<0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> und fand\ldas hier!'
 - offset: '0x1f6bc0d'
   name: English toponym canonicalisation 0x1F6BC0D
   issue: DE — English toponyms
@@ -6486,7 +6486,7 @@ entries:
 - offset: '0x1f6d080'
   name: English toponym canonicalisation 0x1F6D080
   issue: DE — English toponyms
-  expected: Das <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> ersetzt VMs und findet auch Schätze!\pDie Wände des <0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> und des <0xFC><0x01><0x06>Meeresgrunds<0xFC><0x01><0x08> stecken voller Schätze!\pStell dort im <0xFC><0x01><0x06>menu Options<0xFC><0x01><0x08> den <0xFC><0x01><0x06>R-Button Mode<0xFC><0x01><0x08> auf <0xFC><0x01><0x06>Mining Scan<0xFC><0x01><0x08> und drücke <0xF8><0x03>.\pGrabstellen in deiner Nähe lässt das ADM aufleuchten.\pDrücke <0xF8>  daneben, um zu graben.
+  expected: 'Das <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> ersetzt nicht nur VMs.\nDu kannst damit auch nach\lSchätzen graben!\pIn den Wänden des\n<0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> und im\l<0xFC><0x01><0x06>Meeresboden<0xFC><0x01><0x08> warten Schätze\lauf dich!\pStell dort den <0xFC><0x01><0x06>R-Tasten-Modus<0xFC><0x01><0x08>\nauf <0xFC><0x01><0x06>Minen-Analyse<0xFC><0x01><0x08> im <0xFC><0x01><0x06>Optionsmenü<0xFC><0x01><0x08>\lund drücke <0xF8><0x03>.\pDas ADM lässt alle Stellen in\ndeiner Nähe aufleuchten, an\ldenen du nach Schätzen graben\lkannst!\pDrücke daneben <0xF8><0x00>, um zu graben.'
 - offset: '0x1f6ddfc'
   name: English toponym canonicalisation 0x1F6DDFC
   issue: DE — English toponyms
@@ -6778,7 +6778,7 @@ entries:
 - offset: '0x1f5c7a4'
   name: English toponym canonicalisation 0x1F5C7A4
   issue: DE — English toponyms
-  expected: Dieser Ort erinnert mich an die The Cliff Caves aus der Johto-Region.\pHä? Ich hätte mir was anderes\nausdenken können?\pWie was? The Cliff Caves Remastered?\nThe Cliff Caves Originalrezept?
+  expected: 'Hier denke ich an\nThe Cliff Caves in Johto.\pHä? Ich hätte mir etwas anderes\nausdenken können?\pWie wäre es mit\nThe Cliff Caves Remastered?\lOder The Cliff Caves nach\lOriginalrezept?'
 - offset: '0x1f5fea1'
   name: English toponym canonicalisation 0x1F5FEA1
   issue: DE — English toponyms
@@ -6794,11 +6794,11 @@ entries:
 - offset: '0x1f60f7e'
   name: English toponym canonicalisation 0x1F60F7E
   issue: DE — English toponyms
-  expected: 'Kennst du das Pantheon?\pDort kommt man rein, wenn man die Pokémon League besiegt hat!\pMeister Artie war so oft dort, dass er sich vornahm, es mit jedem Typ als Team zu betreten.\pSein Ziel erreichte er nie: nur 17 von 18 Typen schaffte er.\pVielleicht willst du das übernehmen?'
+  expected: 'Kennst du die Ruhmeshalle?\pDorthin kommst du, wenn du die\nPokémon League besiegst!\pDer frühere Champ Artie war so\noft dort, dass er mit einem Team\ljedes Typs hineinkommen wollte.\lJedes Team sollte nur einen\lgemeinsamen Typ haben.\pLeider hat er sein Ziel nie\nerreicht: Er schaffte es nur mit\lTeams für 17 der 18 Typen.\pVielleicht willst du dich\nstattdessen der Herausforderung\lstellen?'
 - offset: '0x1f651cb'
   name: English toponym canonicalisation 0x1F651CB
   issue: DE — English toponyms
-  expected: Nach Süden gelangst du zum Auburn Waterway, einer Route, die die\lRouten 6 und 10 verbindet.\pDu brauchst {COLOR}ÉSurfer{COLOR}Ç, um\ndorthin zu gelangen.
+  expected: 'Nach Süden gelangst du zum\nAuburn Waterway, einer Route,\ldie die Routen 6 und 10\lverbindet.\pDu brauchst <0xFC><0x01><0x06>Surfer<0xFC><0x01><0x04>, um dorthin\nzu gelangen.'
 - offset: '0x1eefaca'
   name: English toponym canonicalisation 0x1EEFACA
   issue: DE — English toponyms
@@ -10354,3 +10354,399 @@ entries:
 - offset: '0x1f2fdbe'
   name: B-679 dialogues-07
   expected: 'Das ist es also?\pDann kannst du meinen <0xFC><0x01><0x06>Fernseher<0xFC><0x01><0x08>\nda drüben benutzen.\pIch habe gestern Abend eine\nSendung aufgenommen, die deine\lWissenslücken füllen könnte.'
+- offset: '0x1f56055'
+  name: 'B-681 dialogues-09 0x1F56055'
+  issue: B-681
+  expected: '<0xF8><0x03>Typ'
+- offset: '0x1f5609f'
+  name: 'B-681 onglet Alle géré par mission_tab_labels'
+  issue: B-681
+  absent: true
+- offset: '0x1f56fd0'
+  name: 'B-681 dialogues-09 0x1F56FD0'
+  issue: B-681
+  expected: 'Dynamax ist ein besonderes\nPhänomen, das nur in bestimmten\lGebieten wie hier möglich ist.\pWenn du die Mega-Entwicklung\ngemeistert hast, kannst du auch\ldeine Pokémon dynamaximieren.\pFast jedes Pokémon kann das,\naußer es trägt einen Mega-Stein\loder Z-Kristall.\pDrücke <0xF8><0x04>, sobald das rote\nDynamax-Symbol erscheint.\pWenn du dein Pokémon\ndynamaximierst, hält die Wirkung\ldrei Runden an.\pIn dieser Zeit werden alle seine\nAttacken zu stärkeren Varianten,\lden <0xFC><0x01><0x06>Dyna-Attacken<0xFC><0x01><0x04>.\pSie sind viel stärker als normale\nAttacken. Nutze sie während der\lDynamaximierung voll aus!'
+- offset: '0x1f5864a'
+  name: 'B-681 dialogues-09 0x1F5864A'
+  issue: B-681
+  expected: 'Wunderbar!\pDein Team darf nur aus <0xFC><0x01><0x06>4\nKangaskhan<0xFC><0x01><0x04> bestehen, bevor wir\lden <0xFC><0x01><0x06>Doppelkampf<0xFC><0x01><0x04> drehen können.\pSie sollten möglichst <0xFC><0x01><0x06><0x34> 70<0xFC><0x01><0x04> oder\nhöher sein.'
+- offset: '0x1f59d25'
+  name: 'B-681 dialogues-09 0x1F59D25'
+  issue: B-681
+  expected: 'Meine Tochter lässt ihren Sohn\njeden Tag bei mir, während sie\larbeitet.\pIch kann ihm nicht meine volle\nAufmerksamkeit widmen. Daher\lsuche ich täglich einen\lBabysitter.\pKomm zwischen <0xFC><0x01><0x06>7 Uhr<0xFC><0x01><0x04> und <0xFC><0x01><0x06>19 Uhr<0xFC><0x01><0x04>\nvorbei. Ich bezahle dich\lfür die Betreuung.'
+- offset: '0x1f59fa3'
+  name: 'B-681 dialogues-09 0x1F59FA3'
+  issue: B-681
+  expected: 'Hallo, Trainer!\pIch übe, um meine eigene\nPokémon-Pension zu eröffnen.\pIch muss noch viel lernen, aber\nich kann dir schon etwas Gutes\lanbieten!\pFür ¥<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> kann ich\ndie Zeit bis zum Schlüpfen\laller Eier in deinem\lTeam deutlich verkürzen!\pWas meinst du?\pKlingt doch nach einem guten\nAngebot, oder?'
+- offset: '0x1f5a560'
+  name: 'B-681 dialogues-09 0x1F5A560'
+  issue: B-681
+  expected: 'In Box <0xB1><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08><0xB2>\nsind keine Eier<0xB0>'
+- offset: '0x1f5ad77'
+  name: 'B-681 dialogues-09 0x1F5AD77'
+  issue: B-681
+  expected: '<0xFC><0x01><0x02><0xFD><0x02> verschwand.'
+- offset: '0x1f5b112'
+  name: 'B-681 dialogues-09 0x1F5B112'
+  issue: B-681
+  expected: 'Ah, der Orden auf deiner\nTrainerkarte zeigt, dass du\lschon ein geschickter Trainer\lbist.\pDu bist längst mehr als Prof.\nLogs <0xFD><0x02> für Besorgungen.\pAber man ist nie zu erfahren, um\neinem Experten beim\lPokémon-Fangen zuzusehen!\pWas meinst du?\pIch könnte dir ein paar Tricks\nzum Fangen zeigen.'
+- offset: '0x1f5db54'
+  name: 'B-681 dialogues-09 0x1F5DB54'
+  issue: B-681
+  expected: 'M-meine Beine! Ein Krampf!\nGluck, gluck<0xB0>'
+- offset: '0x1f6348b'
+  name: 'B-681 dialogues-09 0x1F6348B'
+  issue: B-681
+  expected: 'Wenn dein erstes Pokémon\n<0xFC><0x01><0x06>Saugnapf<0xFC><0x01><0x08> oder <0xFC><0x01><0x06>Wertehalter<0xFC><0x01><0x08> hat,\lbeißen Pokémon beim Angeln viel\lleichter an.'
+- offset: '0x1f63c25'
+  name: 'B-681 dialogues-09 0x1F63C25'
+  issue: B-681
+  expected: 'Du möchtest <0xFD><0x02><0xFC><0x01><0x04>?'
+- offset: '0x1f652cc'
+  name: 'B-681 dialogues-09 0x1F652CC'
+  issue: B-681
+  expected: 'Sie sind so seltsam<0xB0> Warum sehen\nsie wohl anders aus?'
+- offset: '0x1f66ae7'
+  name: 'B-681 dialogues-09 0x1F66AE7'
+  issue: B-681
+  expected: 'Wusstest du, dass Menschen eine\nUhr haben, die ihnen sagt, wie\loft sie schon nass geworden\lsind?\pSchau, deine zeigt<0xB0>\p<0xFD><0x02>!\pDu bist <0xFD><0x02>\nMal nass geworden!\pIch bin 16777215 Mal nass\ngeworden!\pNiemand wird so nass wie ich!\pNIEMAND!'
+- offset: '0x1f68177'
+  name: 'B-681 dialogues-09 0x1F68177'
+  issue: B-681
+  expected: '<0xFC><0x01><0x02><0xFD><0x02> lief davon<0xB0>'
+- offset: '0x1f685b6'
+  name: 'B-681 dialogues-09 0x1F685B6'
+  issue: B-681
+  expected: 'Wenn dir die Safaribälle\nausgehen, rufen wir dich über\lLautsprecher.\pDu kannst jederzeit mit <0xF8><0x01>\naufhören.\pWillst du nur vor dem aktuellen\nPokémon fliehen, kostet dich das\lein paar Safaribälle.\pDann wünsche ich dir viel Glück!'
+- offset: '0x1f691c7'
+  name: 'B-681 dialogues-09 0x1F691C7'
+  issue: B-681
+  expected: 'Je länger deine Fangserie im\nSafari-Spiel, desto eher fängst\ldu Pokémon mit guten Werten!\pIch habe gehört, bei jeder <0xFC><0x01><0x06>30.<0xFC><0x01><0x04>\nBegegnung erscheint ein\lSchillerndes Pokémon<0xB0>'
+- offset: '0x1f6a078'
+  name: 'B-681 dialogues-09 0x1F6A078'
+  issue: B-681
+  expected: 'Schön, dich wiederzusehen,\nChamp!\pErinnerst du dich nicht an mich?\pDu hast mir mit den\nfurchterregenden Granbull auf\lRoute 10 geholfen!\pWenn unser Treffen doch nur\nunter anderen Umständen\lstattfinden könnte.\pWeißt du, die örtliche Polizei\nbraucht deine Hilfe noch einmal.\pIrgendetwas hat die Sharpedo,\ndie am Grund von <0xFC><0x01><0x06>Route 17<0xFC><0x01><0x08>\lleben, sehr aufgeregt gemacht.\pMan hat mir gesagt, dass du eine\nTauchmaschine gekauft hast. Leih\lsie uns, wir würden uns über\ldeine Hilfe freuen, um die\l<0xFC><0x01><0x06>Sharpedo<0xFC><0x01><0x08> zu beruhigen.'
+- offset: '0x1f6b19f'
+  name: 'B-681 dialogues-09 0x1F6B19F'
+  issue: B-681
+  expected: 'Noch ein Ruf, und mein Herz\nwürde flattern und mein Mund\ljede Menge Essen verschlingen!\pEin Pokémon mit <0xFC><0x01><0x06>großer Nase und\nSchnurrbart<0xFC><0x01><0x04> soll wie ein\lniesender Mann klingen.\pWenn ich wüsste, wie es klingt,\nkönnte ich meine Nase vergessen\lund nur an meinen Mund denken!'
+- offset: '0x1f6c6fb'
+  name: 'B-681 dialogues-09 0x1F6C6FB'
+  issue: B-681
+  expected: 'Klar! Ich passe eine Weile\nauf dein <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> auf.'
+- offset: '0x1f6ca57'
+  name: 'B-681 dialogues-09 0x1F6CA57'
+  issue: B-681
+  expected: 'Beweise dein Können beim\nBrüten! Brüte insgesamt\l<0xFD><0x02> Eier aus!'
+- offset: '0x1f6ca99'
+  name: 'B-681 dialogues-09 0x1F6CA99'
+  issue: B-681
+  expected: 'Eier auszubrüten und anderen\ndabei zu helfen ist mein\lLebensinhalt!\pDeshalb gebe ich dir einen\nkleinen Anreiz zum Brüten.\pBrüte mindestens <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>\nEier aus, dann schenke\lich dir etwas Schönes.\pLos, fang an zu brüten!'
+- offset: '0x1f6cedf'
+  name: 'B-681 dialogues-09 0x1F6CEDF'
+  issue: B-681
+  expected: 'Aye! Ich bin Käpt''n Davy!\pMeine Jungs haben eine moderne\nGrab- und Tauchmaschine gebaut.\pDu schnallst sie deinem Pokémon\num, damit es jede VM-Attacke\lnutzen kann. Sie versorgt dich\lsogar mit Luft, wenn dich ein\lPokémon unter Wasser bringt!\pWillst du eine kaufen? Sie kostet\n¥<0xFC><0x01><0x06>250000<0xFC><0x01><0x08>.'
+- offset: '0x1f6d60a'
+  name: 'B-681 dialogues-09 0x1F6D60A'
+  issue: B-681
+  expected: 'Diese Schiffe gehören zur\nSeagallop-Hi-Speed-Serie.\pSie sind zwar klein, aber sie\nfahren schneller übers Meer als\ljedes große Schiff!'
+- offset: '0x1f6d68f'
+  name: 'B-681 dialogues-09 0x1F6D68F'
+  issue: B-681
+  expected: 'Nervt es dich, für Felsen,\nSchieben und Bäumefällen je ein\landeres Pokémon mitzuschleppen?\pGenau da kommt das <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> ins\nSpiel!\pEs erledigt das alles für dich\nund lässt sich sogar wie ein\lJetpack anbringen, damit dein\lPokémon Fliegen kann!\pAls Bohrer genutzt, hilft es\nsogar beim Flüchten aus Höhlen!\pEines Tages wird es billig sein,\nmomentan ist es beim Kauf noch\letwas teuer.'
+- offset: '0x1f6dde6'
+  name: 'B-681 dialogues-09 0x1F6DDE6'
+  issue: B-681
+  expected: '<0xFC><0x01><0x02><0xFD><0x01>\nübergab: <0xFD><0x0C>'
+- offset: '0x1f6de6e'
+  name: 'B-681 dialogues-09 0x1F6DE6E'
+  issue: B-681
+  expected: 'Du hast nicht genug\nScherben für <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>.\pDu brauchst:\n<0xFC><0x01><0x06><0xFD><0x0C>'
+- offset: '0x1f6e1cb'
+  name: 'B-681 dialogues-09 0x1F6E1CB'
+  issue: B-681
+  expected: 'Bitte komm an Bord.'
+- offset: '0x1f6f0f4'
+  name: 'B-681 dialogues-09 0x1F6F0F4'
+  issue: B-681
+  expected: 'Hören Sie das?\pIch habe den Schrei dieses\nPokémon den ganzen Tag gehört.\pDas klingt sehr traurig und\neinsam, finden Sie nicht?'
+- offset: '0x1f6f5fb'
+  name: 'B-681 dialogues-09 0x1F6F5FB'
+  issue: B-681
+  expected: 'EG'
+- offset: '0x1f6f5fe'
+  name: 'B-681 dialogues-09 0x1F6F5FE'
+  issue: B-681
+  expected: 'UG1'
+- offset: '0x1f6f602'
+  name: 'B-681 dialogues-09 0x1F6F602'
+  issue: B-681
+  expected: 'UG2'
+- offset: '0x1f6f606'
+  name: 'B-681 dialogues-09 0x1F6F606'
+  issue: B-681
+  expected: 'UG3'
+- offset: '0x1f6f60a'
+  name: 'B-681 dialogues-09 0x1F6F60A'
+  issue: B-681
+  expected: 'Marlon, Chef!\pIch weiß, wie das aussieht, aber\nich schwöre Ihnen, ich faulenze\lnicht!\pZeph hat mir gesagt, ich soll\ndie Nachrichten beobachten und\lauf jeden achten, der zur Light\lof Ruin gehören könnte.'
+- offset: '0x1f6f986'
+  name: 'B-681 dialogues-09 0x1F6F986'
+  issue: B-681
+  expected: 'Da die meisten anderen Rüpel\nweg sind, haben wir nur noch\lwenig Personal.\pDarum muss jeder von uns so\nstark wie möglich werden.\pDarf ich gegen Sie kämpfen,\nChef?'
+- offset: '0x1f6fa75'
+  name: 'B-681 dialogues-09 0x1F6FA75'
+  issue: B-681
+  expected: 'Danke für den Kampf, Chef.\pNun sind wir beide besser auf\ndie unvermeidliche Konfrontation\lmit Light of Ruin vorbereitet.'
+- offset: '0x1f6faf1'
+  name: 'B-681 dialogues-09 0x1F6FAF1'
+  issue: B-681
+  expected: 'Natürlich, mein Herr.\pIch erwarte nicht, dass Sie Ihre\nZeit mit einem Handlanger\lverschwenden.'
+- offset: '0x1f6fbb3'
+  name: 'B-681 dialogues-09 0x1F6FBB3'
+  issue: B-681
+  expected: 'Chef!\pZeph hat mir befohlen, niemanden\nohne Berechtigung ins Labor zu\llassen.\pAber Sie darf ich sicher\nhineinlassen.'
+- offset: '0x1f6fd2e'
+  name: 'B-681 dialogues-09 0x1F6FD2E'
+  issue: B-681
+  expected: 'Oh, Marlon, Chef!\pIch war eine Weile im HQ bei der\nWissenschaftsgesellschaft. Dort\lhabe ich gelernt, wie wir unsere\lPokémon im Kampf noch stärker\lmachen können!\pMöchten Sie es sehen?'
+- offset: '0x1f6fded'
+  name: 'B-681 dialogues-09 0x1F6FDED'
+  issue: B-681
+  expected: 'Als Dank dafür, dass Sie Ihre\nwertvolle Zeit für einen Kampf\lmit mir geopfert haben, möchte\lich Ihre Pokémon heilen.'
+- offset: '0x1f6ff74'
+  name: 'B-681 dialogues-09 0x1F6FF74'
+  issue: B-681
+  expected: 'Wir sollten ins HQ zurückkehren\nund keine Schattenkrieger mehr\lerschaffen.\pKEINE SCHATTENKRIEGER MEHR!?\pIST DAS EIN WITZ!?\pSchattenkrieger zu erschaffen\nist mein einziger Lebensinhalt!\pZum Glück brauchte Zeph noch\nmehr und ließ mich mit der\lSynthese fortfahren.'
+- offset: '0x1f700f5'
+  name: 'B-681 dialogues-09 0x1F700F5'
+  issue: B-681
+  expected: 'Ah, <0xFD><0x01><0xB0> schön,\ndass du uns besuchst.\pSeit meiner Entlassung aus dem\nGefängnis versuche ich,\lehrenhafter zu leben.\pIch schulde es meinem Sohn,\nalles zu tun, damit diese zweite\lChance nicht vergebens ist.\pJahrelang habe ich dafür\ngearbeitet, dass er zu mir\lzurückkehrt. Nun soll die junge\lGeneration die Zukunft gestalten.\pIch möchte nur die Zeit, die mir\nbleibt, mit Zeph Jr. verbringen.\pAh, ja<0xB0> möchtest du dich mit mir\nmessen, wenn du Zeit hast?\pMein Sohn hat offenbar Gefallen\nan Pokémon-Kämpfen gefunden.'
+- offset: '0x1f70c64'
+  name: 'B-681 dialogues-09 0x1F70C64'
+  issue: B-681
+  expected: 'Bevor du mit <0xF8><0x01> ins Labor gehst,\ncheck, ob keine Bullen in Sicht\lsind!'
+- offset: '0x1f72a11'
+  name: 'B-681 dialogues-09 0x1F72A11'
+  issue: B-681
+  expected: '<0xFC><0x01><0x02>Trainertipps!\pHalte <0xF8><0x01> gedrückt, um die\nStandard-Laufgeschwindigkeit zu\ländern!\pDrück <0xF8><0x02> für den Auto-Lauf!'
+- offset: '0x1f72a6d'
+  name: 'B-681 dialogues-09 0x1F72A6D'
+  issue: B-681
+  expected: '<0xFC><0x01><0x02>Trainertipps!\pÖffne das <0xFC><0x01><0x06>Options<0xFC><0x01><0x02>-Menü für\nSpeicher-Erinnerungen und\lschnelle Feldattacken!\pMit <0xFC><0x01><0x06>Speicher-Erinnerungen<0xFC><0x01><0x02> wirst\ndu vor oder nach wichtigen\lEreignissen gefragt, ob du\lspeichern möchtest!\pMit <0xFC><0x01><0x06>schnellen Feldattacken<0xFC><0x01><0x02>\nentfällt die Bestätigung bei\ljeder Nutzung!\pMit <0xF8><0x02> und <0xF8><0x03> wechselst du zwischen\nden Optionsseiten!'
+- offset: '0x1f72bd8'
+  name: 'B-681 dialogues-09 0x1F72BD8'
+  issue: B-681
+  expected: 'Trainertipps!\pPokémon erhalten im Kampf gegen\nandere Pokémon EP.\pEP machen sie stärker.\pDeine Pokémon erhalten auch EP,\nwenn du das gegnerische Pokémon\lfängst!\pAber steigen deine Pokémon zu\nviele Level auf, werden auch\landere Trainer stärker.\pUm eine höhere Schwierigkeit\ndurch zu hohe Level zu\lvermeiden, kannst du im\l<0xFC><0x01><0x06>Options-Menü<0xFC><0x01><0x02> eine feste\lLevelgrenze aktivieren: Stelle\l<0xFC><0x01><0x06>EP-Gewinn<0xFC><0x01><0x02> auf <0xFC><0x01><0x06>Gedeckelt teilen<0xFC><0x01><0x02>.'
+- offset: '0x1f732bd'
+  name: 'B-681 dialogues-09 0x1F732BD'
+  issue: B-681
+  expected: 'Trainertipps!\pMit <0xF8><0x02> und <0xF8><0x05> kannst du Pokémon in\nder Teamliste schnell umordnen!\p<0xF8><0x02> wählt ein Pokémon zum Tauschen\naus. <0xF8><0x05> setzt das gewählte\lPokémon an die erste Stelle!'
+- offset: '0x1f7336f'
+  name: 'B-681 dialogues-09 0x1F7336F'
+  issue: B-681
+  expected: 'Trainertipps!\pIm Kampf kannst du Stärke,\nGenauigkeit und andere Details\lder Attacken deiner Pokémon\lprüfen.\pDrück vor der Attackenwahl\neinfach <0xF8><0x02>!'
+- offset: '0x1f7369d'
+  name: 'B-681 dialogues-09 0x1F7369D'
+  issue: B-681
+  expected: 'Trainertipps!\pDie Tastenkombination zur\nschnellen Flucht aus wilden\lKämpfen stellst du im\l<0xFC><0x01><0x06>Options-Menü<0xFC><0x01><0x02> ein!\pStandardmäßig fliehst du schnell\nmit <0xF8><0x03>!'
+- offset: '0x1f7374b'
+  name: 'B-681 dialogues-09 0x1F7374B'
+  issue: B-681
+  expected: 'Trainertipps!\pDrück beim Ansehen der Items im\nCube <0xF8><0x04>, um sie zu sortieren!\pMit <0xFC><0x01><0x06>Auto-Sortierung<0xFC><0x01><0x02> im\n<0xFC><0x01><0x06>Options-Menü<0xFC><0x01><0x02> wird der Cube bei\ljedem Öffnen automatisch\lsortiert!\pMit <0xF8><0x02> und <0xF8><0x03> scrollst du schneller\ndurch die Items im Cube!'
+- offset: '0x1f7441f'
+  name: 'B-681 dialogues-09 0x1F7441F'
+  issue: B-681
+  expected: 'Trainertipps!\pKennt dein Pokémon <0xFC><0x01><0x06>Lockduft<0xFC><0x01><0x02>,\nkannst du damit bei klarem\lWetter zwei wilden Pokémon\lzugleich begegnen!'
+- offset: '0x1f744ad'
+  name: 'B-681 dialogues-09 0x1F744AD'
+  issue: B-681
+  expected: 'Trainertipps!\pHalte <0xF8><0x01> gedrückt, um schneller\nzu surfen!\pSteht der <0xFC><0x01><0x06>L-Tasten-Modus<0xFC><0x01><0x02> auf\n<0xFC><0x01><0x06>Auto-Lauf<0xFC><0x01><0x02>, schaltest du mit <0xF8><0x02> das\lTurbo-Surfen ein oder aus!'
+- offset: '0x1f7452d'
+  name: 'B-681 dialogues-09 0x1F7452D'
+  issue: B-681
+  expected: 'Trainertipps!\pDrück beim Bewegen von Pokémon\nim PC <0xF8><0x05>, um die Mehrfachauswahl\lzu aktivieren.\pSo bewegst du mehrere Pokémon\nzugleich, indem du <0xF8><0x00> gedrückt\lhältst!'
+- offset: '0x1f745b7'
+  name: 'B-681 dialogues-09 0x1F745B7'
+  issue: B-681
+  expected: 'Trainertipps!\pViele Aufträge in deinem\nMissionslog?\pMit <0xF8><0x0B> scrollst du schnell durch\ndie Liste!\pMit <0xF8><0x04> sortierst du sie\nalphabetisch!\pMit <0xF8><0x05> kannst du Missionen sogar\nganz oben anheften!'
+- offset: '0x1f747b8'
+  name: 'B-681 dialogues-09 0x1F747B8'
+  issue: B-681
+  expected: 'Trainertipps!\pDrück <0xF8><0x00>, um die Leiter\nhochzuklettern!'
+- offset: '0x1f7488b'
+  name: 'B-681 dialogues-09 0x1F7488B'
+  issue: B-681
+  expected: 'Trainertipps!\pGemeinsames Reisen stärkt die\nFreundschaft deiner Pokémon!\pIst die Freundschaft groß genug,\nkönnen sie sich sogar entwickeln!\pHast du die <0xFC><0x01><0x06>Ruhmeshalle<0xFC><0x01><0x02>\nerreicht, können diese Pokémon\lauch <0xFC><0x01><0x06>zusätzliche EP<0xFC><0x01><0x02> erhalten!'
+- offset: '0x1f7496c'
+  name: 'B-681 dialogues-09 0x1F7496C'
+  issue: B-681
+  expected: 'Trainertipps!\pNach dem Einzug in die\nRuhmeshalle kannst du <0xFC><0x01><0x06>Text\lautomatisch weiterlaufen lassen<0xFC><0x01><0x02>,\lindem du <0xF8><0x03> gedrückt hältst!\pDas gilt auch für New Game+ und\nden Sandbox-Modus.\pAber halte beim Lesen von\nTrainertipp-Schildern bitte nie <0xF8><0x03>\lgedrückt!'
+- offset: '0x1f74b42'
+  name: 'B-681 dialogues-09 0x1F74B42'
+  issue: B-681
+  expected: 'Trainertipps!\pVermeide Standard-Bälle wie\nHyperbälle, wenn du starke\lPokémon fangen willst!\pGegen ein sehr <0xFC><0x01><0x06>schweres<0xFC><0x01><0x02> Pokémon\nist der <0xFC><0x01><0x06>Schwerball<0xFC><0x01><0x02> ideal.\pDauert der Kampf schon über <0xFC><0x01><0x06>10\nRunden<0xFC><0x01><0x02>, nimm einen <0xFC><0x01><0x06>Timerball<0xFC><0x01><0x02>.\pIst der Kampf noch kurz, aber\ndie <0xFC><0x01><0x06>Basis-Initiative<0xFC><0x01><0x02> des Gegners\lliegt über <0xFC><0x01><0x06>100<0xFC><0x01><0x02>, nimm einen\l<0xFC><0x01><0x06>Turboball<0xFC><0x01><0x02>.\pIst der Kampf noch kurz und das\nPokémon langsam, versuche es\l<0xFC><0x01><0x06>nachts<0xFC><0x01><0x02> mit einem <0xFC><0x01><0x06>Finsterball<0xFC><0x01><0x02> zu\lfangen.\pMit diesen vier Bällen fängst du\nstarke Pokémon schnell!'
+- offset: '0x1f74f46'
+  name: 'B-681 dialogues-09 0x1F74F46'
+  issue: B-681
+  expected: 'Trainertipps!\pDie Musik beim Erkunden und im\nKampf kannst du unter\l<0xFC><0x01><0x06>Audio-Optionen<0xFC><0x01><0x02> im <0xFC><0x01><0x06>Options-Menü<0xFC><0x01><0x02>\lanpassen!\pMit <0xF8><0x04> stellst du schnell die\nStandardmusik wieder her!'
+- offset: '0x1f756cc'
+  name: 'B-681 dialogues-09 0x1F756CC'
+  issue: B-681
+  expected: 'Manche Gäste suchen auf dieser\nKreuzfahrt Gesellschaft<0xB0>\pAber du bist wegen der Kämpfe\nhier, was?\pPass auf: Sie quatschen dir bei\njeder Gelegenheit ein Ohr ab\lund hören erst auf, wenn eine\lPfeife ertönt!'
+- offset: '0x1f76502'
+  name: 'B-681 dialogues-09 0x1F76502'
+  issue: B-681
+  expected: 'Uff<0xB0> meine Hämorrhoiden machen\nwohl wieder Ärger<0xB0>\pAh, du da! Wärst du so lieb,\neiner alten Frau kurz beim\lKlagen zuzuhören?\pEs geht um meine Hämorrhoiden<0xB0>\pSie sind furchtbar! Als hätte\nsich ein Rudel Voltorb dort\leingenistet<0xB0>\pSitzen tut so weh! Und die\nscheußlichen Flecken auf meiner\lKleidung<0xB0>\pHier, ich habe Fotos!\pWo habe ich nur das neueste\nFoto meines Arztes hingelegt<0xB0>\pJa, das direkt in meinem -\p<0xB0>\pOh je<0xB0> du wirst ja ganz grün.\nVielleicht war das keine gute\lIdee<0xB0>'
+- offset: '0x1f77b8e'
+  name: 'B-681 dialogues-09 0x1F77B8E'
+  issue: B-681
+  expected: '<0xF8><0x0B>Wahl <0xF8><0x00>Name <0xF8><0x01>Ende <0xF8><0x02><0xF8><0x03>Seite'
+- offset: '0x1f77bad'
+  name: 'B-681 dialogues-09 0x1F77BAD'
+  issue: B-681
+  expected: '<0xF8><0x0B>Wahl <0xF8><0x00>Ändern <0xF8><0x01>Ende <0xF8><0x02><0xF8><0x03>Seite'
+- offset: '0x1f77bcc'
+  name: 'B-681 dialogues-09 0x1F77BCC'
+  issue: B-681
+  expected: '<0xF8><0x0C>Wahl <0xF8><0x00>Ändern <0xF8><0x01>OK <0xF8><0x02><0xF8><0x03>Wesen'
+- offset: '0x1f77c51'
+  name: 'B-681 dialogues-09 0x1F77C51'
+  issue: B-681
+  expected: '<0xF8><0x0B>Wahl <0xF8><0x00>Prüfen <0xF8><0x01>Ende <0xF8><0x02><0xF8><0x03>Seite'
+- offset: '0x1f77c71'
+  name: 'B-681 dialogues-09 0x1F77C71'
+  issue: B-681
+  expected: '<0xF8><0x0B>Wahl <0xF8><0x00>Lehren <0xF8><0x01>Ende <0xF8><0x02><0xF8><0x03>Seite'
+- offset: '0x1f78150'
+  name: 'B-681 dialogues-09 0x1F78150'
+  issue: B-681
+  expected: '<0xB0>du kannst die Attacken sehen,\ndie die Pokémon erlernen können!\pDrücke <0xF8><0x02> und <0xF8><0x03>, um einfach die\nSeite zu wechseln!<0xFC><0x09>'
+- offset: '0x1f782cf'
+  name: 'B-681 dialogues-09 0x1F782CF'
+  issue: B-681
+  expected: '<0xB0>ihnen neue Attacken beibringen!\pDrück <0xF8><0x00> zum Bearbeiten, <0xF8><0x01> zum\nSpeichern und <0xF8><0x02> und <0xF8><0x03>, um bequem\ldie Seite zu wechseln!\pWeitere Hinweise findest du unten\nauf dem Bildschirm, während du\ldeine Pokémon anpasst.<0xFC><0x09>'
+- offset: '0x1f7b090'
+  name: 'B-681 dialogues-09 0x1F7B090'
+  issue: B-681
+  expected: 'Ich verstehe.\pJa, ich finde auch,\n<0xFD><0x02> steht dir sehr gut.\pNun kannst du bei deinen Pokémon\neine <0xFC><0x01><0x06>Mega-Entwicklung<0xFC><0x01><0x04> auslösen.\pDamit ein Pokémon im Kampf eine\nMega-Entwicklung auslösen kann,\lmuss es seinen eigenen\l<0xFC><0x01><0x06>Mega-Stein<0xFC><0x01><0x04> tragen.\pAm <0xFC><0x01><0x06>Mega-Symbol<0xFC><0x01><0x04> im Kampfmenü\nerkennst du, ob das Pokémon eine\lMega-Entwicklung auslösen kann.\pErscheint es, drück <0xF8><0x04> vor der\nnächsten Attackenwahl.\pDein Pokémon führt dann eine\nMega-Entwicklung durch und wird\lstärker.\pDu kannst eine Mega-Entwicklung\nnur <0xFC><0x01><0x06>einmal<0xFC><0x01><0x04> pro Kampf auslösen.\lSie endet mit dem Kampf oder\lwenn das Pokémon kampfunfähig\lwird.\pNutze diese Kraft<0xB0><0xFC><0x08><0x18> zum Wohle der\nMenschheit.\pIch zähle darauf, dass du die\nWelt veränderst<0xB0><0xFC><0x08><0x18> und wirklich\letwas bewirkst<0xB0>'
+- offset: '0x1f7b371'
+  name: 'B-681 dialogues-09 0x1F7B371'
+  issue: B-681
+  expected: 'Damit ein Pokémon im Kampf eine\nMega-Entwicklung auslösen kann,\lmuss es seinen eigenen\l<0xFC><0x01><0x06>Mega-Stein<0xFC><0x01><0x04> tragen.\pAm <0xFC><0x01><0x06>Mega-Symbol<0xFC><0x01><0x04> im Kampfmenü\nerkennst du, ob das Pokémon eine\lMega-Entwicklung auslösen kann.\pErscheint es, drück <0xF8><0x04> vor der\nnächsten Attackenwahl.\pDein Pokémon führt dann eine\nMega-Entwicklung durch und wird\lstärker.\pDu kannst eine Mega-Entwicklung\nnur <0xFC><0x01><0x06>einmal<0xFC><0x01><0x04> pro Kampf auslösen.\lSie endet mit dem Kampf oder\lwenn das Pokémon kampfunfähig\lwird.\pNutze diese Kraft<0xB0><0xFC><0x08><0x18> zum Wohle der\nMenschheit.\pIch zähle darauf, dass du die\nWelt veränderst<0xB0><0xFC><0x08><0x18> und wirklich\letwas bewirkst<0xB0>'
+- offset: '0x1f7c8a2'
+  name: 'B-681 dialogues-09 0x1F7C8A2'
+  issue: B-681
+  expected: 'Mädel'
+- offset: '0x1f7cce0'
+  name: 'B-681 dialogues-09 0x1F7CCE0'
+  issue: B-681
+  expected: 'Hallo! Ich bin Assistent von\nProf. Log.\pWenn dein Pokédex alle Daten\nzu <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> Spezies hat, muss\lich dir eine Belohnung geben.\pAlso, <0xFD><0x01>,\nich frage dich.\pHast du Daten zu mindestens\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> Spezies?'
+- offset: '0x1f7d749'
+  name: 'B-681 dialogues-09 0x1F7D749'
+  issue: B-681
+  expected: 'Wie wäre es, wenn ich als Dank\netwas<0xB0><0xFC><0x08><0x18> Nützliches für deine\lPokémon tue?\pIch habe ein Gerät, das das\n<0xFC><0x01><0x06>Wesen<0xFC><0x01><0x08> eines Pokémon ändert und\ldamit sein Wachstum\lbeeinflusst.\pDieses eine Mal führe ich den\nEingriff kostenlos bei deinem\lPokémon durch.\pAber bedenke<0xB0><0xFC><0x08><0x18> deinem Pokémon\nkönnte das missfallen. Danach\lwird es dich hassen<0xB0>'
+- offset: '0x1f7ed32'
+  name: 'B-681 dialogues-09 0x1F7ED32'
+  issue: B-681
+  expected: 'Zzzz<0xB0>\p<0xFC><0x01><0x02>Sie scheint an ihrem Posten\neingeschlafen zu sein.\pBesser, du gehst woanders\nvorbei.'
+- offset: '0x1f7f10f'
+  name: 'B-681 dialogues-09 0x1F7F10F'
+  issue: B-681
+  expected: 'Ich kann mir vorstellen, was die\nChefs mit ihm machen werden<0xB0>\p<0xB0>\pMoment, ich habe doch auch\nversagt, oder?\pAah! Verzeihung, Herr Marlon!\pLassen Sie mich nicht die\nSchattenkrieger füttern! Gnade!'
+- offset: '0x1f8091f'
+  name: 'B-681 dialogues-09 0x1F8091F'
+  issue: B-681
+  expected: 'Sei gegrüßt, Verrückter unter\nVerrückten!\pZahl mir <0xFC><0x01><0x06><0xFD><0x04> <0xFD><0x02><0xFC><0x01><0x08>\nund ich verbessere alle deine\l<0xFC><0x01><0x06>Machtitems<0xFC><0x01><0x08> auf <0xFC><0x01><0x06><0x34> <0xFD><0x03><0xFC><0x01><0x08>!'
+- offset: '0x1f809a0'
+  name: 'B-681 dialogues-09 0x1F809A0'
+  issue: B-681
+  expected: '<0xFC><0x01><0x02><0xFD><0x01> übergab\n<0xFD><0x03> <0xFD><0x02>.'
+- offset: '0x1f80ad5'
+  name: 'B-681 dialogues-09 0x1F80AD5'
+  issue: B-681
+  expected: 'Mit deinen Machtitems auf\nMaximalstufe erhalten\ldeine Pokémon zusätzlich\l<0xFC><0x01><0x06><0xFD><0x0C><0xFC><0x01><0x08> Fleißpunkte,\lwenn sie eines tragen!\pSag mir, dass das nicht verrückt\nist, Verrückter unter Verrückten!'
+- offset: '0x1f80b91'
+  name: 'B-681 dialogues-09 0x1F80B91'
+  issue: B-681
+  expected: '<0xF8><0x0C>Bewegen <0xF8><0x00>Ablegen <0xF8><0x01>Zurück'
+- offset: '0x1f80ba8'
+  name: 'B-681 dialogues-09 0x1F80BA8'
+  issue: B-681
+  expected: '<0xF8><0x0C>Bewegen <0xF8><0x00>Schieben <0xF8><0x01>Ende'
+- offset: '0x1f81eaa'
+  name: 'B-681 dialogues-09 0x1F81EAA'
+  issue: B-681
+  expected: 'Mär.<0x00>'
+- offset: '0x1f81eb6'
+  name: 'B-681 dialogues-09 0x1F81EB6'
+  issue: B-681
+  expected: 'Mai<0x00>'
+- offset: '0x1f81ed3'
+  name: 'B-681 dialogues-09 0x1F81ED3'
+  issue: B-681
+  expected: 'Okt.<0x00>'
+- offset: '0x1f81edf'
+  name: 'B-681 dialogues-09 0x1F81EDF'
+  issue: B-681
+  expected: 'Dez.<0x00>'
+- offset: '0x1f81f5b'
+  name: 'B-681 dialogues-09 0x1F81F5B'
+  issue: B-681
+  expected: 'Also, hör gut zu!\pDu gräbst mit meinem eigenen\nVorschlaghammer und meiner\lSpitzhacke!\pDrück <0xF8><0x00>, um allerlei Sachen\nauszugraben!\pWenn du das Werkzeug wechseln\nwillst, drück <0xF8><0x02> oder <0xF8><0x03>!\pDu kannst bestimmt Schätze\nbergen, bevor die Wand\leinstürzt.\pDu schaffst das! Viel Glück!'
+- offset: '0x1f82087'
+  name: 'B-681 dialogues-09 0x1F82087'
+  issue: B-681
+  expected: '<0xB0>\pOh? Im ADM klebt eine Notiz.\p<0xB1>Auf Schatzsuche!<0xB2>\pDer ADM hat einen eigenen\nVorschlaghammer und eine\lSpitzhacke!\pDrück <0xF8><0x00>, um allerlei Sachen\nauszugraben!\pWenn du das Werkzeug wechseln\nwillst, drück <0xF8><0x02> oder <0xF8><0x03>!\pDu kannst sie bestimmt bergen,\nbevor die Wand einstürzt!\pDu schaffst das! Viel Glück!'
+- offset: '0x1f84ef2'
+  name: 'B-681 dialogues-09 0x1F84EF2'
+  issue: B-681
+  expected: '<0xFC><0x01><0x02><0xFD><0x02> lief an\neinen Ort in der Nähe.'
+- offset: '0x1f84f14'
+  name: 'B-681 dialogues-09 0x1F84F14'
+  issue: B-681
+  expected: '<0xFC><0x01><0x02><0xFD><0x02> lief davon.'
+- offset: '0x1f8c6d7'
+  name: 'B-681 dialogues-09 0x1F8C6D7'
+  issue: B-681
+  expected: 'Entschuldige, dein Team ist für\ndieses Format nicht zugelassen.\pEs gibt ein Problem\nmit: <0xFD><0x02>.\pPrüfe die Kampfklassen dieses\nFormats. Dein Team aus <0xFC><0x01><0x06>6<0xFC><0x01><0x08>\lPokémon muss die Regeln jeder\lKlasse erfüllen.'
+- offset: '0x1f8ceaa'
+  name: 'B-681 dialogues-09 0x1F8CEAA'
+  issue: B-681
+  expected: 'Der Tag war wohl nicht ganz\numsonst, wenn jemand so Gutes\lwie du auftaucht.\pKomm wieder, wenn ich mein\nstärkeres Team zusammengestellt\lhabe.\pDann will ich, dass du mich\nWIRKLICH beeindruckst.\pDas geht nur, wenn beide Trainer\nalles geben.\pBis dahin viel Glück auf dem Weg\ntiefer in die Mine.\pAb hier wird es nur noch\nschwerer.\pBis später<0xB0><0xFC><0x08><0x18> vielleicht<0xB0>'
+- offset: '0x1f8d32c'
+  name: 'B-681 dialogues-09 0x1F8D32C'
+  issue: B-681
+  expected: 'Deine Pokémon werden vollständig\ngeheilt.'
+- offset: '0x1f8d35a'
+  name: 'B-681 dialogues-09 0x1F8D35A'
+  issue: B-681
+  expected: 'Du trittst gegen Gegner Nr.\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> an. Bist du bereit?'
+- offset: '0x1f8d393'
+  name: 'B-681 dialogues-09 0x1F8D393'
+  issue: B-681
+  expected: 'Du trittst gegen Gegner Nr.\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> an. Bist du bereit?'
+- offset: '0x1f8d406'
+  name: 'B-681 dialogues-09 0x1F8D406'
+  issue: B-681
+  expected: 'Dein Gegner setzt diese Pokémon\nein.\p<0xF8><0x00>Spitze ändern\n<0xF8><0x01>Vorn: <0xFD><0x02>'
+- offset: '0x1f8d44f'
+  name: 'B-681 dialogues-09 0x1F8D44F'
+  issue: B-681
+  expected: 'Dein Gegner setzt diese Pokémon\nein.\p<0xF8><0x00>Spitze ändern <0xF8><0x01>Vorn:\n<0xFD><0x02> & <0xFD><0x03>'
+- offset: '0x1f8d49e'
+  name: 'B-681 dialogues-09 0x1F8D49E'
+  issue: B-681
+  expected: 'Die Kampfkoryphäe setzt diese\nPokémon ein.\p<0xF8><0x00>Spitze ändern\n<0xF8><0x01>Vorn: <0xFD><0x02>'
+- offset: '0x1f8d4ec'
+  name: 'B-681 dialogues-09 0x1F8D4EC'
+  issue: B-681
+  expected: 'Die Kampfkoryphäe setzt diese\nPokémon ein.\p<0xF8><0x00>Spitze ändern <0xF8><0x01>Vorn:\n<0xFD><0x02> & <0xFD><0x03>'
+- offset: '0x1f6822d'
+  name: 'B-681 aide Safari 0x1F6822D'
+  issue: B-681
+  expected: 'Bälle:<0xFD><0x03> <0xF8><0x0C>Geh <0xF8><0x00>Ball <0xF8><0x04>Beere <0xF8><0x01>Aus'
+- offset: '0x1f6834c'
+  name: 'B-681 aide Safari 0x1F6834C'
+  issue: B-681
+  expected: '<0xF8><0x0C>Wahl <0xF8><0x01>Ende <0xF8><0x04>Mehr <0xF8><0x00>Wurf <0xFD><0x02>'

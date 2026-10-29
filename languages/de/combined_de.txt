@@ -17428,7 +17428,7 @@ einem Verlies zu entkommen.
 0x1F55FDA: Diese TM wurde gefunden, nachdem du\nKaskade eingesetzt hast.
 0x1F56003: Diese TM wurde als Belohnung für\n«Beschützer des Sumpfes» vergeben.
 0x1F56040: Missionen
-0x1F56055: Typ {R_BUTTON}
+0x1F56055: <0xF8><0x03>Typ
 0x1F5605C: Aktiv
 0x1F56063: Inaktiv
 0x1F5606C: Belohnung verfügbar
@@ -17511,7 +17511,7 @@ einem Verlies zu entkommen.
 0x1F56D0A: Was soll ich dir erklären?
 0x1F56D21: Da du diese Höhle entdeckt hast,\nüberlasse ich dir diese Zone.\pViel Glück für den Kampf!\pIch freue mich schon darauf, mit dir\neines Tages ein Team zu bilden!
 0x1F56DAB: Dieses Loch hier nennt man\neine Raid-Höhle.\pStarke Pokémon leben darin, und einmal\nam Tag kannst du versuchen, eines\lin jeder Höhle von Borrius\lzu fangen!\pDiese Pokémon sind sehr stark, wähl\nalso den richtigen Partner für den Kampf.\pWenn der Kampf beginnt, siehst du,\ndass das gegnerische Pokémon\lriesig wirkt.\pDas liegt am Phänomen namens\n<0xFC><0x01><0x06>Dynamax<0xFC><0x01><0x04>.\pEs bleibt so für den ganzen Kampf\nund kann erst gefangen werden, wenn es\lbesiegt ist und seine normale\lGröße zurückerhält.
-0x1F56FD0: Dynamax ist ein besonderes Phänomen, nur in speziellen Zonen wie hier möglich.\pMeisterst du Mega-Entwicklung, kannst du auch dynamaxen.\pFast jedes Pokémon kann das, außer es trägt eine Mega-Gemme oder Z-Kristall.\pDrücke {START_BUTTON}, sobald das Dynamax-Symbol erscheint.\pDer Effekt hält drei Runden an.\pDeine Attacken werden dann zu speziellen Varianten namens {COLOR}ÉMaxi-Attacken{COLOR}Ç verstärkt.\pDiese sind stärker als normale Attacken - nutze sie voll aus!
+0x1F56FD0: Dynamax ist ein besonderes\nPhänomen, das nur in bestimmten\lGebieten wie hier möglich ist.\pWenn du die Mega-Entwicklung\ngemeistert hast, kannst du auch\ldeine Pokémon dynamaximieren.\pFast jedes Pokémon kann das,\naußer es trägt einen Mega-Stein\loder Z-Kristall.\pDrücke <0xF8><0x04>, sobald das rote\nDynamax-Symbol erscheint.\pWenn du dein Pokémon\ndynamaximierst, hält die Wirkung\ldrei Runden an.\pIn dieser Zeit werden alle seine\nAttacken zu stärkeren Varianten,\lden <0xFC><0x01><0x06>Dyna-Attacken<0xFC><0x01><0x04>.\pSie sind viel stärker als normale\nAttacken. Nutze sie während der\lDynamaximierung voll aus!
 0x1F57277: Manchmal, wenn das Pokémon, gegen das du\nkämpfst, verzweifelt ist, errichtet es\lSchilde.\pDiese Schilde verringern den\nSchaden, den du zufügst, erheblich, bis\lsie zerstört sind.\pJede Attacke zerstört mindestens\nein Schild, aber wenn du eine\lAttacke namens {COLOR}ÉSchild-Brecher{COLOR}Ç einsetzt, kannst\ldu zwei Schilde auf einmal zerstören!
 0x1F573B2: Wenn du Pokémon in der Box\n«{STR_VAR_1}» hast, können sie\lanstelle deines Teams verwendet werden.\pJede Reihe der Box gilt\nals eigenes Team,\lwodurch du bis zu 5\lvorkonfigurierte Teams behalten kannst.
 0x1F5747A: Dynamax
@@ -17571,7 +17571,7 @@ einem Verlies zu entkommen.
 0x1F5840E: Oh, perfektes Timing, Trainer!\pIch habe gerade meinen neuesten\nFilm in diesem Wald gedreht.\pDer Titel des Films lautet:\n«Kangama gegen Kangama:\lDie Morgendämmerung von Kangama»\pLeider ist der Schauspieler für\nden Hauptbösewicht krank.\pWürdest du bereit sein,\nseinen Platz einzunehmen?
 0x1F58521: Schade…\nWirklich schade…
 0x1F5853A: Wunderbar!\pWenn du alle Trainer in diesem\nWald besiegt hast, bring\l<0xFC><0x01><0x06>4<0xFC><0x01><0x04> starke <0xFC><0x01><0x06>Kangama<0xFC><0x01><0x04> für eine\lwichtige Kampfszene des Films mit.\pSie wird in der Art eines\n<0xFC><0x01><0x06>Doppelkampfs<0xFC><0x01><0x04> gedreht.\pIdealerweise sollten sie\n<0xFC><0x01><0x06><0x34> 70<0xFC><0x01><0x04> oder höher sein.
-0x1F5864A: Wunderbar!\pStell sicher, dass dein Team nur\naus {COLOR}É4 Kangama{COLOR}Ç besteht,\lbevor wir den\l{COLOR}ÉDoppelkampf{COLOR}Ç drehen können.\pSie sollten Level\n{COLOR}É<0x34> 70{COLOR}Ç oder höher sein.
+0x1F5864A: Wunderbar!\pDein Team darf nur aus <0xFC><0x01><0x06>4\nKangaskhan<0xFC><0x01><0x04> bestehen, bevor wir\lden <0xFC><0x01><0x06>Doppelkampf<0xFC><0x01><0x04> drehen können.\pSie sollten möglichst <0xFC><0x01><0x06><0x34> 70<0xFC><0x01><0x04> oder\nhöher sein.
 0x1F58700: Wunderbar!\pKamera… und Action!
 0x1F58723: Wunderbar, wunderbar, Schnitt!
 0x1F58748: Großartige Arbeit heute.\pFür deine Leistung hast du\neines davon gewonnen.
@@ -17622,14 +17622,14 @@ einem Verlies zu entkommen.
 0x1F59C3E: Oh, du meine Güte.\pMir bleibt keine andere Wahl, als\nihn heute weiter zu vernachlässigen.
 0x1F59C82: Geh mit meinem Enkel spazieren,\nbis ich meine Arbeit beendet habe.
 0x1F59CC4: Meine Tochter vertraut mir jeden Tag\nihren Sohn an, also werden deine Dienste\lmorgen wieder benötigt.
-0x1F59D25: Meine Tochter lässt mir jeden Tag\nihren Sohn, während sie arbeitet.\pIch kann ihm nicht meine volle\nAufmerksamkeit widmen, also versuche ich,\leinen Babysitter einzustellen.\pKomm zwischen {COLOR}É7 Uhr{COLOR}Ç und {COLOR}É19 Uhr{COLOR}Ç vorbei,\nund ich bezahle dich für die Betreuung.
+0x1F59D25: Meine Tochter lässt ihren Sohn\njeden Tag bei mir, während sie\larbeitet.\pIch kann ihm nicht meine volle\nAufmerksamkeit widmen. Daher\lsuche ich täglich einen\lBabysitter.\pKomm zwischen <0xFC><0x01><0x06>7 Uhr<0xFC><0x01><0x04> und <0xFC><0x01><0x06>19 Uhr<0xFC><0x01><0x04>\nvorbei. Ich bezahle dich\lfür die Betreuung.
 0x1F59E12: <0xFC><0x01><0x02>Das Baby schläft friedlich.
 0x1F59E36: <0xFC><0x01><0x02>Das Baby beginnt, dir zu folgen!
 0x1F59E60: <0xFC><0x01><0x02>Geh mit dem Baby in der Stadt spazieren, bis\nseine Großmutter ihre Arbeit\lbeendet hat.
 0x1F59EB5: <0xFC><0x01><0x02>Das Baby zappelt fröhlich in\nseinem Kinderwagen.
 0x1F59EED: {COLOR}ÁOh? Da ist etwas\nim Mund des Babys.\pOh nein! Das ist eine\nErstickungsgefahr!\pSchnell, nimm es raus!
 0x1F59F4D: {COLOR}ÁDas Baby schaut dich\nmissbilligend an.\pEs scheint nicht dorthin\ngehen zu wollen.
-0x1F59FA3: Hallo, Trainer!\pIch trainiere, um meine eigene\nPokémon-Pension zu eröffnen.\pIch habe noch einen weiten Weg vor mir, aber ich kann\ndir schon jetzt einen guten Service bieten!\pWenn du mir\n¥{COLOR}É{STR_VAR_1}{COLOR}Ç zahlst, kann ich alle\lEier deines Teams ausbrüten lassen!\pWas sagst du dazu?\pKlingt nach einem guten Deal,\noder?
+0x1F59FA3: Hallo, Trainer!\pIch übe, um meine eigene\nPokémon-Pension zu eröffnen.\pIch muss noch viel lernen, aber\nich kann dir schon etwas Gutes\lanbieten!\pFür ¥<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> kann ich\ndie Zeit bis zum Schlüpfen\laller Eier in deinem\lTeam deutlich verkürzen!\pWas meinst du?\pKlingt doch nach einem guten\nAngebot, oder?
 0x1F5A0CE: Super!\pGib mir alle Eier aus deinem\nTeam.
 0x1F5A100: <0xFC><0x01><0x02><0xFD><0x01> übergibt alle Eier\ndes Teams.
 0x1F5A124: Und da hast du sie!\nHier sind deine Eier.\pIch hoffe, dich morgen wiederzusehen!
@@ -17681,7 +17681,7 @@ einem Verlies zu entkommen.
 0x1F5AF31: Ein zwielichtiger Typ kam vorbei\nund hat die Schneehaufen geschmolzen,\ldie die Straße blockiert haben.\pIch war froh und so, aber\ner sah verdächtig aus.\pWenn es dich interessiert, ich habe gesehen, wie er\n{COLOR}Énach Norden zu Frozen Heights{COLOR}Ë abgehauen ist.\pIch frage mich, was er da oben macht?
 0x1F5B01E: Ah, du musst {PLAYER} sein.\pProf. Log hat mich angerufen, um mir\nzu sagen, ich soll dich führen, falls du dich verirrst.\pBellin Town ist gleich dort drüben.
 0x1F5B096: Wenn du willst, dass ich dir zeige, wie man\nein Pokémon fängt, beweise deinen\lWert, indem du ihm das <0xFC><0x01><0x06>Paket von\lProf. Log<0xFC><0x01><0x08> überbringst.
-0x1F5B112: Ah, dein Orden auf deiner Trainerkarte\nzeigt, dass du ein ziemlich\lversierter Trainer geworden bist.\pDu bist der Rolle eines\n{STR_VAR_1} im Dienste von Prof. Log längst entwachsen.\pAber für mich ist man nie zu\nerfahren, um einem Experten\lbeim Fangen eines Pokémon zuzusehen!\pAlso, was sagst du?\pIch kann dir zwei, drei\nDinge übers Fangen von Pokémon zeigen.
+0x1F5B112: Ah, der Orden auf deiner\nTrainerkarte zeigt, dass du\lschon ein geschickter Trainer\lbist.\pDu bist längst mehr als Prof.\nLogs <0xFD><0x02> für Besorgungen.\pAber man ist nie zu erfahren, um\neinem Experten beim\lPokémon-Fangen zuzusehen!\pWas meinst du?\pIch könnte dir ein paar Tricks\nzum Fangen zeigen.
 0x1F5B248: Ich habe von Prof. Log gehört,\ndass du sein Paket gut geliefert hast.\pUnd ich habe gehört, dass er dich losschickt, um\nweitere Aufgaben als vollwertiger\lTrainer zu erledigen!\pWeißt du, ich war auch mal Trainer,\nals ich jung war.\pIch kann dir zwei, drei\nDinge übers Fangen von Pokémon zeigen.
 0x1F5B373: Sehr gut!\nLos geht's!
 0x1F5B389: Puh…\pDas war knapp\ndieses Mal…
@@ -17752,7 +17752,7 @@ einem Verlies zu entkommen.
 0x1F5C72F: Es ist immer wichtig,\nwarm zu bleiben.
 0x1F5C753: Weißt du, woher die the Cliff Caves\nihren Namen haben?
 0x1F5C783: Ich habe den Namen erfunden!
-0x1F5C7A4: Dieser Ort erinnert mich an die The Cliff Caves aus der Johto-Region.\pHä? Ich hätte mir was anderes\nausdenken können?\pWie was? The Cliff Caves Remastered?\nThe Cliff Caves Originalrezept?
+0x1F5C7A4: Hier denke ich an\nThe Cliff Caves in Johto.\pHä? Ich hätte mir etwas anderes\nausdenken können?\pWie wäre es mit\nThe Cliff Caves Remastered?\lOder The Cliff Caves nach\lOriginalrezept?
 0x1F5C854: Ich glaube, ich kann fliegen!
 0x1F5C869: Ich glaube, ich kann den Himmel berühren!
 0x1F5C888: Ich tue so, als würde ich fliegen wie\nmeine Vögel.\pAm Boden festzukleben ist doof.
@@ -17773,7 +17773,7 @@ einem Verlies zu entkommen.
 0x1F5CC21: Dieser Bergpass hat eine wirklich\neinzigartige Struktur.\pDu wirst keine andere Straße in\nBorrius finden mit Treppen, die so\lin die Flanke eines Berges gehauen sind\lwie diese hier!
 0x1F5CCBF: Weißt du, wohin du gehst?
 0x1F5CCDF: Du musst es wissen.
-0x1F5CCEE: Um von Tarmigan Town nach Dehara City zu gelangen, musst du zuerst\lden Berg hinabsteigen.
+0x1F5CCEE: Um von Tarmigan Town nach\nDehara City zu gelangen, musst\ldu zuerst den Berg hinabsteigen.
 0x1F5CD40: Hmm…\pDas muss der Weg nach Dehara City sein!\pDa bin ich mir sicher!
 # --- batch 11/12 ---
 0x1F5CD7A: Ich kann nicht verloren haben…
@@ -17848,7 +17848,7 @@ einem Verlies zu entkommen.
 0x1F5DB0E: F Route 14
 0x1F5DB19: Ahoi, du da!\nDiese Gewässer sind tückisch!
 0x1F5DB44: Uh!\nGefährlich!
-0x1F5DB54: M… meine Beine! Sie verkrampfen sich!\nGluck, gluck…
+0x1F5DB54: M-meine Beine! Ein Krampf!\nGluck, gluck<0xB0>
 0x1F5DB7C: Das Wasser ist hier tief.\nEs gibt viele Schwimmer.
 0x1F5DBB4: Platsch!
 0x1F5DBBC: Ich würde gerne auf meinem Pokémon reiten.\nIch wette, du bist nicht müde.
@@ -18055,7 +18055,7 @@ einem Verlies zu entkommen.
 0x1F60E74: Dahinter befindet sich der Eingang\nzur Victory Road.\pDas ist die letzte Hürde, die\nTrainer überwinden müssen, wenn sie\lgegen die Top Vier antreten wollen,\lum Champion von Borrius zu werden.
 0x1F60F28: Held des Pantheons
 0x1F60F39: Werde ein großer Champion!\nBetritt das Pantheon\nmit Monotyp-Teams.
-0x1F60F7E: Kennst du das Pantheon?\pDort kommt man rein, wenn man die Pokémon League besiegt hat!\pMeister Artie war so oft dort, dass er sich vornahm, es mit jedem Typ als Team zu betreten.\pSein Ziel erreichte er nie: nur 17 von 18 Typen schaffte er.\pVielleicht willst du das übernehmen?
+0x1F60F7E: Kennst du die Ruhmeshalle?\pDorthin kommst du, wenn du die\nPokémon League besiegst!\pDer frühere Champ Artie war so\noft dort, dass er mit einem Team\ljedes Typs hineinkommen wollte.\lJedes Team sollte nur einen\lgemeinsamen Typ haben.\pLeider hat er sein Ziel nie\nerreicht: Er schaffte es nur mit\lTeams für 17 der 18 Typen.\pVielleicht willst du dich\nstattdessen der Herausforderung\lstellen?
 0x1F61114: Du nimmst die Herausforderung an?\nSuper!\pReih Sieg an Sieg!\pEs gibt {COLOR}É18{COLOR}Ë Typen, und du musst\ndas Pantheon mit einem Team\lfür jeden betreten.\pUnd denk dran: Mega-entwickelst du\nein Pokémon, zählen Basis- und\lMega-Form beide für den Team-Typ.\pNimm zum Beispiel\nMega-Garados.\pZusätzlich zu einem Wasser-Team\nfunktioniert er auch in Flug- und\lUnlicht-Teams!
 0x1F612C4: Dann bleibt Artie für immer\nder ultimative Champion!
 0x1F61303: Bisher hast du nur\n{COLOR}É{STR_VAR_2}{COLOR}Ë Monotyp-Einträge\lim Pantheon.\pDu brauchst noch\n{COLOR}É{STR_VAR_3}{COLOR}Ë Typ{EVIL_TEAM}, um Artie zu schlagen -\lalso kämpfe weiter!\pUnd denk dran: Mega-entwickelst du\nein Pokémon, zählen Basis- und\lMega-Form für den Team-Typ.\pNimm zum Beispiel\nMega-Garados.\pZusätzlich zum Wasser-Team\nfunktioniert er auch als Flug- und\lUnlicht-Team!
@@ -18161,7 +18161,7 @@ einem Verlies zu entkommen.
 0x1F63394: Wenn du dasselbe Pokémon\nmehrmals hintereinander angelst, hast du\ldie Chance, eines mit einem\landeren Aussehen zu finden.
 0x1F6341C: Dein erstes Pokémon im Team ist\nentscheidend für das Angeln.
 0x1F6344E: Mein erstes war super zum\nAngeln, aber nicht so gut zum Kämpfen!
-0x1F6348B: Wenn dein erstes Pokémon\n{COLOR}ÉSaugnapf{COLOR}Ë oder {COLOR}ÉKlebekörper{COLOR}Ë hat,\lwird es viel einfacher, eines\ldavon zu fangen.
+0x1F6348B: Wenn dein erstes Pokémon\n<0xFC><0x01><0x06>Saugnapf<0xFC><0x01><0x08> oder <0xFC><0x01><0x06>Wertehalter<0xFC><0x01><0x08> hat,\lbeißen Pokémon beim Angeln viel\lleichter an.
 0x1F63514: Route 4 - 5
 0x1F63520: Verschwinde, Clown.\nSiehst du nicht, dass wir nachdenken?
 0x1F63552: Verschwinde, Clown.\nSiehst du nicht, dass wir Pläne schmieden?
@@ -18262,10 +18262,10 @@ einem Verlies zu entkommen.
 0x1F65146: Sie werden alle nach ihrer\nMama weinen!
 0x1F6516F: Was willst du, Clown?\pWir besprechen hier wichtige\nDinge!\pVerschwinde!
 0x1F651C0: Routentor
-0x1F651CB: Nach Süden gelangst du zum Auburn Waterway, einer Route, die die\lRouten 6 und 10 verbindet.\pDu brauchst {COLOR}ÉSurfer{COLOR}Ç, um\ndorthin zu gelangen.
+0x1F651CB: Nach Süden gelangst du zum\nAuburn Waterway, einer Route,\ldie die Routen 6 und 10\lverbindet.\pDu brauchst <0xFC><0x01><0x06>Surfer<0xFC><0x01><0x04>, um dorthin\nzu gelangen.
 0x1F65264: Route 7
 0x1F6526C: Hast du bemerkt, dass die Rattfratz\nhier anders sind als die\lRattfratz von Route 2?
-0x1F652CC: Sie sind zu seltsam…\nIch frage mich, warum.
+0x1F652CC: Sie sind so seltsam<0xB0> Warum sehen\nsie wohl anders aus?
 0x1F65302: Die seltsamen Rattfratz kommen nur\nnachts heraus, kein Wunder, wenn du\lsie nicht gesehen hast.
 0x1F65360: Das nette Paar in der Nähe des\nFrost Mountain hat meine Pokémon geheilt!\pJetzt kann ich gegen so viele\nTrainer antreten, wie ich will!\pAngefangen mit dir!
 0x1F653E3: Fies! Ich muss mich noch\nheilen lassen!
@@ -18344,7 +18344,7 @@ einem Verlies zu entkommen.
 0x1F66A81: Welches Pokémon ist das denn?
 0x1F66A96: <0xFC><0x01><0x02><0xFD><0x01> hat 1 Indigostück\nund 1 Purpurstück übergeben.
 0x1F66ACB: Huhu… Graa…\nNicht genug {STR_VAR_1}…
-0x1F66AE7: Wusstest du, dass Menschen eine\nUhr haben, die ihnen sagt, wie oft\lsie schon nass geworden sind?\pSchau, deine zeigt…\p{STR_VAR_1}!\pDu bist\n{STR_VAR_1} Mal nass geworden!\pIch bin\n16777215 Mal nass geworden!\pNiemand wird so nass wie\nich!\pNIEMAND!
+0x1F66AE7: Wusstest du, dass Menschen eine\nUhr haben, die ihnen sagt, wie\loft sie schon nass geworden\lsind?\pSchau, deine zeigt<0xB0>\p<0xFD><0x02>!\pDu bist <0xFD><0x02>\nMal nass geworden!\pIch bin 16777215 Mal nass\ngeworden!\pNiemand wird so nass wie ich!\pNIEMAND!
 0x1F66BDF: Ich?\nNein, ich bin kein Trainer.\pIch finde, im Regen zu angeln\nist ein beruhigender Sport.\pSag mal…\pJetzt, wo ich das schon eine Weile\nanstarre, wie, glaubst du, könnte ich\ldiese Insel mitten\lim See erreichen?\pWas, du siehst sie nicht?\pSie ist direkt da, schau\nauf den See!\pDu siehst sie immer noch nicht?\pTut mir leid: Angler, kein\nAugenarzt.\pKomm allein klar, Kumpel.
 0x1F66D50: Ich?\pNein, ich bin kein Trainer.\pIm Regen zu angeln finde ich\nentspannend.\pSag mal<0xB0>\pIch starre schon eine Weile hin:\nWie käme ich wohl auf die\lInsel mitten im See?\pWas meinst du, du siehst sie nicht?\pIch hab gesehen, wie du den gelben\nPoké Ball dort geschnappt hast!\pWillst du mir sagen, du teilst dein\nGeheimnis nicht?\pDann lass mich eben angeln!
 0x1F66EDA: Diese Leute sind weg,\nwir können endlich wieder campen!
@@ -18416,9 +18416,9 @@ einem Verlies zu entkommen.
 0x1F68127: Du hast das Puzzle bereits gelöst.
 0x1F68158: <0xFC><0x01><0x02><0xFD><0x02> hat das Portal durchquert!
 0x1F68194: Safari Zone
-0x1F681A0: Ein Freizeitpark in der Nähe von Polder Town, in dem viele seltene Pokémon\nin freier Wildbahn zu sehen sind.\nFang sie in einem beliebten Spiel!
+0x1F681A0: Freizeitpark bei Polder Town.\nHier leben seltene Pokémon\nin freier Wildbahn. Fang sie\nim beliebten Safari-Spiel!
 0x1F68219: Ein wildes {STR_VAR_2} erscheint!
-0x1F6822D: Bälle: {STR_VAR_2}    {DPAD_ANY}Bewegen {SE_SHOP}Ball {START_BUTTON}Beere {B_BUTTON}Flucht
+0x1F6822D: Bälle:<0xFD><0x03> <0xF8><0x0C>Geh <0xF8><0x00>Ball <0xF8><0x04>Beere <0xF8><0x01>Aus
 0x1F6825B: {STR_VAR_2} wurde gefangen!
 0x1F6826A: Die Daten von {STR_VAR_2} wurden\ndem Pokédex hinzugefügt.\p
 0x1F6828F: {STR_VAR_2} einen Spitznamen geben?
@@ -18426,7 +18426,7 @@ einem Verlies zu entkommen.
 0x1F682DC: Du hast {STR_VAR_2} Pokémon gefangen.\nMit dem Safari-Spiel fortfahren?
 0x1F68321: Welche Beere soll {STR_VAR_2} bekommen?
 0x1F68339: Keine verwendbare Beere!
-0x1F6834C: {DPAD_ANY}Bewegen {B_BUTTON}Zurück {START_BUTTON}Andere {SE_SHOP}Werfen {STR_VAR_1}
+0x1F6834C: <0xF8><0x0C>Wahl <0xF8><0x01>Ende <0xF8><0x04>Mehr <0xF8><0x00>Wurf <0xFD><0x02>
 0x1F6836D: {STR_VAR_2} hat die {STR_VAR_3} gegessen.\p
 0x1F6837D: Fortfahren\nBeenden\nÜberspringen
 0x1F68390: Safari-Spiel beenden?
@@ -18439,7 +18439,7 @@ einem Verlies zu entkommen.
 0x1F684F3: Hier wird eine besondere Art von\nPoké Ball verwendet.
 0x1F68522: {COLOR}Á{PLAYER} hat {STR_VAR_1} Safari-Bälle\nvom Angestellten erhalten.
 0x1F68555: Es gibt verschiedene\nSchwierigkeitsgrade in der Safari Zone.\pWelchen möchtest du?
-0x1F685B6: Wir rufen dich über Lautsprecher,\nsobald du keine Safari-Bälle mehr hast.\pDu kannst auch jederzeit gehen,\nindem du {B_BUTTON} drückst.\pWenn du jederzeit fliehen willst,\nnur für das aktuelle Pokémon,\lkostet dich das Safari-Bälle.\pIch wünsche dir viel\nGlück!
+0x1F685B6: Wenn dir die Safaribälle\nausgehen, rufen wir dich über\lLautsprecher.\pDu kannst jederzeit mit <0xF8><0x01>\naufhören.\pWillst du nur vor dem aktuellen\nPokémon fliehen, kostet dich das\lein paar Safaribälle.\pDann wünsche ich dir viel Glück!
 0x1F686B1: Hast du gute Fänge gemacht?\nKomm wieder, wann immer du willst!
 0x1F686DC: Entschuldige!\nDeine PC-Boxen sind voll.
 0x1F686FF: Tut mir leid!\nDu hast nicht genug Geld.
@@ -18471,7 +18471,7 @@ einem Verlies zu entkommen.
 0x1F691A3: Remubeere
 0x1F691AE: Repoibeere
 0x1F691BB: Nananabeere
-0x1F691C7: Je höher deine Fangserie\nim Safari-Spiel steigt, desto größer\list die Chance, ein Pokémon\lmit guten Werten zu fangen!\pMan sagt, dass beim {COLOR}É30.{COLOR}Ç Treffen\nein schillerndes Pokémon erscheint…
+0x1F691C7: Je länger deine Fangserie im\nSafari-Spiel, desto eher fängst\ldu Pokémon mit guten Werten!\pIch habe gehört, bei jeder <0xFC><0x01><0x06>30.<0xFC><0x01><0x04>\nBegegnung erscheint ein\lSchillerndes Pokémon<0xB0>
 0x1F69291: Seaport City D
 0x1F692A0: Seaport City N
 0x1F692AF: Davys Werft
@@ -18498,14 +18498,14 @@ einem Verlies zu entkommen.
 0x1F69DFB: Dann nimm sie.
 0x1F69E0A: Danke… wirklich…\pMein Erbe wird in dir weiterleben.
 0x1F69E3F: Du bist also nicht die Person,\nauf die ich gewartet habe…
-0x1F69E6C: Holla!\pWenn du Kurs auf {COLOR}ÉPolder Town{COLOR}Ë nehmen willst, brauchst du ein {COLOR}ÉS.S.-Ticket{COLOR}Ë.
+0x1F69E6C: Ahoi!\pWenn du nach <0xFC><0x01><0x06>Polder Town<0xFC><0x01><0x08> segeln\nwillst, brauchst du ein\l<0xFC><0x01><0x06>Bootsticket<0xFC><0x01><0x08>.
 0x1F69EC9: Holla!\pWenn du in See stechen willst, musst\ndu und die Person bei dir\lein {COLOR}ÉS.S.-Ticket{COLOR}Ë haben.
 0x1F69F30: Holla!\nWohin möchtest du Kurs nehmen?
 0x1F69F58: Sehr gut!\nAlle an Bord der Seagallop Hi-Speed {STR_VAR_1}!
 0x1F69F85: Holla!\nDu musst {PLAYER} sein.\pDeine Freunde sind bereits an Bord\nnach Polder Town gegangen.\pDu bist der letzte Passagier, wir\nlichten sofort den Anker.
 0x1F6A015: Sharpedo-Köder
 0x1F6A020: Die Sharpedo am Meeresgrund von\nRoute 17 sind aufgeregt geworden!\nBeruhige {STR_VAR_1} davon.
-0x1F6A078: Schön, dich wiederzusehen,\nChamp!\pErinnerst du dich nicht an mich?\pDu hast mir mit den furchterregenden\nGranbull auf Route 10 geholfen!\pWenn unser Treffen doch nur unter\nanderen Umständen stattfinden könnte.\pWeißt du, die örtliche Polizei braucht\ndeine Hilfe\lnoch einmal.\pIrgendetwas hat die Sharpedo,\ndie am Grund von {COLOR}ÉRoute\l17{COLOR}Ë leben, sehr aufgeregt gemacht.\pMan hat mir gesagt, dass du eine\nTauchmaschine gekauft hast. Leih sie uns,\lwir würden uns\lüber deine Hilfe freuen, um die {COLOR}ÉSharpedo{COLOR}Ë zu beruhigen.
+0x1F6A078: Schön, dich wiederzusehen,\nChamp!\pErinnerst du dich nicht an mich?\pDu hast mir mit den\nfurchterregenden Granbull auf\lRoute 10 geholfen!\pWenn unser Treffen doch nur\nunter anderen Umständen\lstattfinden könnte.\pWeißt du, die örtliche Polizei\nbraucht deine Hilfe noch einmal.\pIrgendetwas hat die Sharpedo,\ndie am Grund von <0xFC><0x01><0x06>Route 17<0xFC><0x01><0x08>\lleben, sehr aufgeregt gemacht.\pMan hat mir gesagt, dass du eine\nTauchmaschine gekauft hast. Leih\lsie uns, wir würden uns über\ldeine Hilfe freuen, um die\l<0xFC><0x01><0x06>Sharpedo<0xFC><0x01><0x08> zu beruhigen.
 0x1F6A27E: Unsere Kräfte können ohne dich\nnichts ausrichten, Champ.\pWenn du dich später entscheidest zu\nhelfen, wird das geschätzt.
 0x1F6A2F3: Ich wusste, dass wir uns noch einmal\nauf dich verlassen könnten, Champ!
 0x1F6A326: Die {COLOR}ÉSharpedo{COLOR}Ë schwimmen\n{COLOR}Éunter Wasser{COLOR}Ë auf {COLOR}ÉRoute 17{COLOR}Ë.\pDie Zentrale sagt mir,\ndass etwa {COLOR}É{STR_VAR_1}{COLOR}Ë davon\laufgeregt sind.\pUnd sei gewarnt: jedes beruhigte\nSharpedo regt sich wieder auf,\lsobald du auftauchst.\pVerlass das Wasser nicht, bevor\ndu alle beruhigt\lhast.\pWenn du clever bist, füll dich\nvorher mit Heilitems auf.
@@ -18539,7 +18539,7 @@ einem Verlies zu entkommen.
 0x1F6AFBD: Eine Frau hat überhaupt keinen Hunger mehr.\nBring ihr ein Pokémon mit großer\nNase und Schnurrbart, um ihr zu helfen!
 0x1F6B023: Ich habe in letzter Zeit\nnicht viel gegessen…\pIch müsste einen Schrei hören,\nder wie Kauen klingt.\pDas würde mir Hunger machen.\pKennst du sowas?\pEin Pokémon in Form einer {COLOR}ÉSee-\ngurke{COLOR}Ç hat einen Schrei, der klingt,\lals würde es etwas kauen!\pIch würde ihn gerne eines Tages hören.
 0x1F6B146: Der Schrei von Seemops bei\ndir…\pMampf mampf mampf!\nSieht aus, als würde es essen!
-0x1F6B19F: Wenn ich noch einen Schrei hören würde,\nwürde mein Herz schlagen und mein\lMund alles verschlingen!\pIch habe von einem Pokémon mit\n{COLOR}Égroßer Nase und Schnurrbart{COLOR}Ç gehört, das\leinen Schrei hat, der wie ein\lMannesniesen klingt.\pWenn ich wüsste, was das ist, würde ich\nmeine Nase vergessen und nur noch\lan meinen Mund denken!
+0x1F6B19F: Noch ein Ruf, und mein Herz\nwürde flattern und mein Mund\ljede Menge Essen verschlingen!\pEin Pokémon mit <0xFC><0x01><0x06>großer Nase und\nSchnurrbart<0xFC><0x01><0x04> soll wie ein\lniesender Mann klingen.\pWenn ich wüsste, wie es klingt,\nkönnte ich meine Nase vergessen\lund nur an meinen Mund denken!
 0x1F6B2D1: Der Schrei von Nasgnatt bei\ndir…\pSieht aus, als würde es niesen!\pDas bringt mich zum Lachen aus\ntiefstem Bauch!
 0x1F6B33E: Dank dir und deinen Pokémon\nknurrt mein Magen!\pIch könnte einen Lastwagen verschlingen!\pHier ist ein Zeichen meiner Dankbarkeit dafür,\ndass du mir den Appetit zurückgegeben hast.\pDanke!
 0x1F6B3DF: Oh…\nIch bin satt…
@@ -18562,7 +18562,7 @@ einem Verlies zu entkommen.
 0x1F6BA44: Wow!\nDas sind {STR_VAR_2} Zoll!\pSo etwas habe ich noch nie gesehen!\nDu verdienst eine Belohnung!
 0x1F6BA94: Ich möchte eine Kürbisia sehen, die\nviel <0xFC><0x01><0x06>größer<0xFC><0x01><0x04> ist als diese.\pIch hoffe, eines Tages meinen Traum zu\nverwirklichen, die ultimative Kürbisia zu sehen.
 0x1F6BB1A: Häh? Dieses Maß von {STR_VAR_2}…\pDas ist nichts Neues.\nEs ist dasselbe wie zuvor.
-0x1F6BB64: Ich habe eine {COLOR}ÉADM{COLOR}Ë bei der {COLOR}ÉWerft\nvon Kapitän Davy{COLOR}Ë gekauft.\pEs war teuer, aber ich habe sie benutzt,\num die Wände des {COLOR}ÉKBT Expressway{COLOR}Ë aufzubrechen, und das gefunden!
+0x1F6BB64: Ich habe ein <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> bei <0xFC><0x01><0x06>Captain\nDavy's Shipyard<0xFC><0x01><0x08> gekauft.\pEs war teuer, aber ich grub\nin den Wänden des\l<0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> und fand\ldas hier!
 0x1F6BC0D: Wenn du eine <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> von <0xFC><0x01><0x06>Captain Davy<0xFC><0x01><0x08> bekommst,\nkannst du die eingestürzten Türen\ldes <0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> aufbrechen.\pManchmal findest du dahinter\nsogar seltene Pokémon.
 0x1F6BCBB: Die Besitzer dieser Wohnungen\nsind selten leicht zu finden.\pAber hier sitzt der Besitzer\nim Erdgeschoss.\pEr wird dir vielleicht eine Wohnung\nvermieten, wenn du fragst.
 0x1F6BD78: Der Besitzer sitzt gerne\nunten.\pEr ist gut gelaunt, seit ein\nneuer Bewohner angekommen ist.
@@ -18588,7 +18588,7 @@ einem Verlies zu entkommen.
 0x1F6C600: Das hier ist die {COLOR}ÉPokémon-\nZüchterschule{COLOR}Ç.\pEin Ort für junge Trainer,\ndie große\lZüchter werden wollen.
 0x1F6C68D: Hallo! Ich betreibe ein\pHütehaus! Möchtest du, dass ich eins\ndeiner Pokémon aufziehe?
 0x1F6C6DD: Welches Pokémon soll ich aufziehen?
-0x1F6C6FB: Sehr gut! Ich behalte dein\n{COLOR}É{STR_VAR_1}{COLOR}Ç eine Weile.
+0x1F6C6FB: Klar! Ich passe eine Weile\nauf dein <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> auf.
 0x1F6C732: Komm später wieder, um zu sehen, wie\nsehr dein Pokémon gewachsen ist!
 0x1F6C771: Tut mir leid! Ich kann kein\nPokémon nehmen, wenn du nur eins hast!
 0x1F6C7B2: Wenn du mir dieses Pokémon überlässt, womit\nwillst du dann kämpfen?
@@ -18607,8 +18607,8 @@ einem Verlies zu entkommen.
 0x1F6C9DB: Brutmeister
 0x1F6C9EC: Los geht's! Lass insgesamt\n{STR_VAR_1} Ei(er) schlüpfen!
 0x1F6CA22: Es wird heiß! Lass\n{STR_VAR_1} Ei(er) insgesamt schlüpfen!
-0x1F6CA57: Kannst du deine Meisterschaft im\nAusbrüten beweisen? Lass {STR_VAR_1} Eier schlüpfen!
-0x1F6CA99: Eier ausbrüten und anderen\nhelfen, das ist mein Ziel!\pIch helfe dir beim Start.\nLass {COLOR}É{STR_VAR_1}{COLOR}Ë\pEier schlüpfen und du bekommst ein Geschenk.\n\pLoslegen!
+0x1F6CA57: Beweise dein Können beim\nBrüten! Brüte insgesamt\l<0xFD><0x02> Eier aus!
+0x1F6CA99: Eier auszubrüten und anderen\ndabei zu helfen ist mein\lLebensinhalt!\pDeshalb gebe ich dir einen\nkleinen Anreiz zum Brüten.\pBrüte mindestens <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>\nEier aus, dann schenke\lich dir etwas Schönes.\pLos, fang an zu brüten!
 0x1F6CB7D: Sieht so aus, als hättest du\n{COLOR}É{STR_VAR_2}{COLOR}Ë Eier ausgebrütet.\pDas passt mir. Nimm deine Belohnung\n!
 0x1F6CBFD: Du hast das gut gemacht.\nJetzt wird's schwerer.\pLass {COLOR}É{STR_VAR_1}{COLOR}Ë\nEier schlüpfen! Los,\pbring sie zum Schlüpfen!
 0x1F6CC7A: Das ist es!\nLetzte Etappe!\pLass {COLOR}É{STR_VAR_1}{COLOR}Ë schlüpfen!\pEier! Die Belohnung wird\nunbezahlbar sein.
@@ -18616,10 +18616,10 @@ einem Verlies zu entkommen.
 0x1F6CD43: {COLOR}É{STR_VAR_2}{COLOR}Ë geschlüpft.\nZiel {COLOR}É{STR_VAR_1}{COLOR}Ë.\pMach weiter mit dem Ausbrüten!
 0x1F6CDA2: Du brauchst Platz in deinem\nTeam, wenn du die Belohnung willst.
 0x1F6CDF0: Arr! Ich bin\nKapitän\pDavy! Meine Jungs haben eine\nMaschine zum Graben und\pTauchen fertiggestellt. Nur die Bestbetuchten\nkönnen sie sich leisten, also werde ich\ldir nichts anbieten, bevor du dich\lbewährt hast.
-0x1F6CEDF: Arr! Ich\nbin\pKapitän Davy! Meine Jungs haben\neine Maschine\pzum Graben und Tauchen fertiggestellt. Ein Gegenstand,\nden du an dein Pokémon anbringst, um\ldie VMs zu ersetzen und dir\lLuft\lunter\pWasser zu geben! Interessiert? Das\nwird dich ¥{COLOR}É250000{COLOR}Ë kosten.
+0x1F6CEDF: Aye! Ich bin Käpt'n Davy!\pMeine Jungs haben eine moderne\nGrab- und Tauchmaschine gebaut.\pDu schnallst sie deinem Pokémon\num, damit es jede VM-Attacke\lnutzen kann. Sie versorgt dich\lsogar mit Luft, wenn dich ein\lPokémon unter Wasser bringt!\pWillst du eine kaufen? Sie kostet\n¥<0xFC><0x01><0x06>250000<0xFC><0x01><0x08>.
 0x1F6D01B: Und dazu passend, lass mich dir\nauch das hier geben.
 0x1F6D04D: Freut mich, mit dir Geschäfte gemacht zu haben.\pJetzt hör gut zu.
-0x1F6D080: Das <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> ersetzt VMs und findet auch Schätze!\pDie Wände des <0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> und des <0xFC><0x01><0x06>Meeresgrunds<0xFC><0x01><0x08> stecken voller Schätze!\pStell dort im <0xFC><0x01><0x06>menu Options<0xFC><0x01><0x08> den <0xFC><0x01><0x06>R-Button Mode<0xFC><0x01><0x08> auf <0xFC><0x01><0x06>Mining Scan<0xFC><0x01><0x08> und drücke <0xF8><0x03>.\pGrabstellen in deiner Nähe lässt das ADM aufleuchten.\pDrücke <0xF8>  daneben, um zu graben.
+0x1F6D080: Das <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> ersetzt nicht nur VMs.\nDu kannst damit auch nach\lSchätzen graben!\pIn den Wänden des\n<0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> und im\l<0xFC><0x01><0x06>Meeresboden<0xFC><0x01><0x08> warten Schätze\lauf dich!\pStell dort den <0xFC><0x01><0x06>R-Tasten-Modus<0xFC><0x01><0x08>\nauf <0xFC><0x01><0x06>Minen-Analyse<0xFC><0x01><0x08> im <0xFC><0x01><0x06>Optionsmenü<0xFC><0x01><0x08>\lund drücke <0xF8><0x03>.\pDas ADM lässt alle Stellen in\ndeiner Nähe aufleuchten, an\ldenen du nach Schätzen graben\lkannst!\pDrücke daneben <0xF8><0x00>, um zu graben.
 0x1F6D25F: Arr… Nicht in deinem Budget\n?
 0x1F6D280: Arr… Du hast nicht genug\nGeld.
 0x1F6D2A1: Sieht so aus, als könnte dieser Baum\ngefällt werden!\pMöchtest du das ADM benutzen?
@@ -18633,8 +18633,8 @@ einem Verlies zu entkommen.
 0x1F6D4C5: Das ADM hat das\nVerschieben von Felsen ermöglicht.
 0x1F6D4F7: Es ist bereits möglich, die\nFelsen zu verschieben.
 0x1F6D527: Siehst du dieses große,\pschwarze Schiff? Das ist der Prototyp eines\nBootes namens «Der Schatten\p». Es wurde entworfen, um den\nOzean lautlos mitten\lin der Nacht zu durchqueren.\pEin mysteriöser «Z»\nhat es finanziert.
-0x1F6D60A: Diese Schiffe gehören zur\nSeagallop-Hi-Speed-Serie. Sie sind\pvielleicht klein, aber sie können\nüber den Ozean schneller fahren als\njedes große Schiff!
-0x1F6D68F: Nervt es dich, für Felsen, Schieben und Bäumefällen je ein anderes Pokémon mitzuschleppen?\pGenau da kommt das <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> ins Spiel!\pEs erledigt das alles für dich und lässt sich sogar wie ein Jetpack anbringen, damit dein Pokémon Fliegen kann!\pAls Bohrer genutzt, hilft es sogar beim Flüchten aus Höhlen!\pEines Tages wird es billig sein, momentan ist es beim Kauf noch etwas teuer.
+0x1F6D60A: Diese Schiffe gehören zur\nSeagallop-Hi-Speed-Serie.\pSie sind zwar klein, aber sie\nfahren schneller übers Meer als\ljedes große Schiff!
+0x1F6D68F: Nervt es dich, für Felsen,\nSchieben und Bäumefällen je ein\landeres Pokémon mitzuschleppen?\pGenau da kommt das <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> ins\nSpiel!\pEs erledigt das alles für dich\nund lässt sich sogar wie ein\lJetpack anbringen, damit dein\lPokémon Fliegen kann!\pAls Bohrer genutzt, hilft es\nsogar beim Flüchten aus Höhlen!\pEines Tages wird es billig sein,\nmomentan ist es beim Kauf noch\letwas teuer.
 0x1F6D883: Wenn du ein ADM hast, kannst du es benutzen\num\pnach Schätzen zu graben! Es gibt drei\nOrte zum Minen in Borrius:\lder KBT Expressway, unter Wasser, oder in\leinem\pRaum des Crystal Peak. Minen auf\ndem KBT Expressway gibt eine gute\lAuswahl an Gegenständen, Minen unter Wasser\lgibt mehr Fossilien, und Minen am\lCrystal Peak gibt mehr\lEdelsteine.
 0x1F6D9F8: Oh! Muscheln und Salz\nauf dem Grund\l\pdes Ozeans! Lass mich sie\nin einen seltenen Gegenstand für dich verwandeln.
 0x1F6DA73: <0xFC><0x01><0x02><0xFD><0x01> hat\n4 <0xFD><0x02>s und 4 <0xFD><0x03>s übergeben.
@@ -18645,7 +18645,7 @@ einem Verlies zu entkommen.
 0x1F6DD8D: Möchtest du einige Splitter\ngegen diese Tafeln tauschen?
 0x1F6DDCB: Eine {COLOR}É{STR_VAR_2}{COLOR}Ç?
 0x1F6DDFC: Man findet leicht Splitter, indem man\nFelsen in der\lGreat Desert zerbricht, oder über das ADM.
-0x1F6DE6E: Ihr habt nicht genug Splitter\nfür {COLOR}É{STR_VAR_2}{COLOR}Ç.\pIhr werdet brauchen:\n{COLOR}É{EVIL_LEGENDARY}
+0x1F6DE6E: Du hast nicht genug\nScherben für <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>.\pDu brauchst:\n<0xFC><0x01><0x06><0xFD><0x0C>
 0x1F6DEB2: Drachen-Tafel
 0x1F6DEBE: Unlicht-Tafel
 0x1F6DECA: Erd-Tafel
@@ -18666,7 +18666,7 @@ einem Verlies zu entkommen.
 0x1F6DF7C: Die Marine hat Motor-\nprobleme. Wir\pnehmen momentan keine Passagiere\nan Bord.
 0x1F6DFDA: Willkommen an Bord der Marine\p! Dein Ticket ist… genau hier. Möchtest du\nan Bord gehen?
 0x1F6E029: Die Marine fährt einmal am\nTag, für eine Reise zwischen Seaport City\pund Polder Town. Wenn die Pfeife\nfünfmal ertönt, bedeutet das, dass\ldas\pSchiff sein Ziel erreicht hat. An\nBord sind die Passagierkabinen\lvoll\pmit Trainern, die gerne kämpfen.\nMan darf gegen diese Trainer keine\lItems benutzen, aber wenn du\lalle vor der Ankunft besiegst,\lbekommst du einen Preis.
-0x1F6E1CB: Bitte gehen Sie an Bord.
+0x1F6E1CB: Bitte komm an Bord.
 0x1F6E1E2: <0xFC><0x01><0x08>Glückwunsch zu deinem Sieg über\nalle Trainer an Bord!\pHier ist deine Belohnung.
 0x1F6E238: Jeden Tag ein Schiff zu steuern,\nist erschöpfend! Es fährt heute\lnicht.\pEs fährt <0xFC><0x01><0x06>montags<0xFC><0x01><0x08>\nund <0xFC><0x01><0x06>freitags<0xFC><0x01><0x08> nach Polder Town!
 0x1F6E2BB: Ein Boot mehr als einmal am\nTag zu fahren, ist erschöpfend!\pEs ist heute schon gefahren.
@@ -18686,7 +18686,7 @@ einem Verlies zu entkommen.
 0x1F6E868: Uhu huhu huhu\p! Aber zuerst schaff Platz\nin deinem Team.
 0x1F6E89E: Hallo.\pWillkommen im Kampfhaus\nCamomons.\pHier nehmen alle Pokémon die\nTypen ihrer ersten beiden\lAttacken an.\pZögere nicht, gegen die\nanwesenden Trainer so oft zu kämpfen,\lwie du möchtest.\pWenn du eine Erklärung zu der\nhier praktizierten Kampfart willst, komm\lund sprich mit mir.
 0x1F6E9B4: Hier kämpfst du im Format\n{COLOR}ÉCamomons{COLOR}Ç.\pIn Camomons nehmen alle Pokémon\ndie Typen ihrer\lersten beiden Attacken an.\pBeispiel: Glut und Aquaknarre\ngeben die Typen\lFeuer und\lWasser.
-0x1F6EABC: Ich suche nach einem Hinweis darauf, dass Seaport City eines Tages eine\lRuine werden wird.
+0x1F6EABC: Ich suche nach einem Hinweis\ndarauf, dass Seaport City eines\lTages eine Ruine werden wird.
 0x1F6EB04: Warum? Weil das\ndas Einzige ist, was ich kann.
 0x1F6EB3C: Wow! Du hast mich hinter diesem\nBaum entdeckt! Beeindruckend!
 0x1F6EB6F: Was!? Ist das kein gutes\nVersteck?
@@ -18703,7 +18703,7 @@ einem Verlies zu entkommen.
 0x1F6EFA7: Im Kampfhaus\n{COLOR}ÉCamomons{COLOR}Ë zu kämpfen ist\leine tolle Möglichkeit, schnell zu trainieren.\pVergiss nicht, die Reihenfolge deiner\nAttacken einzustellen, bevor du dort\lkämpfst!
 0x1F6F052: Ich habe gehört, dass ein Händler auf\ndem Markt spezielle Poké Bälle\lverkauft, die direkt aus Johto importiert wurden!
 0x1F6F0B4: An manchen Tagen höre ich einen traurigen\nSchrei zwischen den Kisten widerhallen.
-0x1F6F0F4: Hören Sie das?\pIch habe den Schrei dieses Pokémon\nden ganzen Tag gehört.\pDas klingt sehr traurig und\neinsam, finden Sie nicht?
+0x1F6F0F4: Hören Sie das?\pIch habe den Schrei dieses\nPokémon den ganzen Tag gehört.\pDas klingt sehr traurig und\neinsam, finden Sie nicht?
 0x1F6F164: {COLOR}ÉKyu! Kyu!
 0x1F6F171: Das <0xFD><0x02> ist ins\nLagerhaus geflohen.
 0x1F6F194: Shadow Base
@@ -18728,29 +18728,29 @@ einem Verlies zu entkommen.
 0x1F6F5A3: In welches Stockwerk möchtest du gehen?
 0x1F6F5C4: Welches Stockwerk möchtest du?
 0x1F6F5DD: Du bist bereits in diesem Stockwerk…
-0x1F6F60A: Marlon, Chef!\pIch weiß, wie das aussieht, aber ich\nschwöre Ihnen, ich faulenze nicht!\pZeph hat mir gesagt, ich soll die Nachrichten beobachten\nund auf jeden achten, der\lzur Light of Ruin\lgehören könnte.
+0x1F6F60A: Marlon, Chef!\pIch weiß, wie das aussieht, aber\nich schwöre Ihnen, ich faulenze\lnicht!\pZeph hat mir gesagt, ich soll\ndie Nachrichten beobachten und\lauf jeden achten, der zur Light\lof Ruin gehören könnte.
 0x1F6F6CC: Entschuldigung für das große Chaos in der\nBasis, mein Herr.\pAls die meisten Handlanger\nlosgezogen sind, um sich dem Licht der\lRuin anzuschließen, haben sie einfach all\lihre\pSachen auf dem Boden liegen lassen. Ich bin mir sicher,\ndass sie Zugangskarten zurückgelassen haben…
 0x1F6F7AC: Marlon, mein Herr!\pIch habe Gerüchte gehört, dass\ndu dich auch dem\pLicht der Ruin angeschlossen hast. Ich bin\pfroh, dass du noch da bist.\nVielleicht wird mit deiner Rückkehr\ljemand Zeph aufhalten.
 0x1F6F871: Die Basis ist so ruhig, seit die\nmeisten Handlanger zum Licht der\lRuin\pgeschickt wurden. Um ehrlich zu sein, mein Herr,\nmir wurde auch befohlen, dorthin zu gehen, aber\pich habe abgelehnt. Ich bin dieser\nOrganisation nicht wegen des Geldes beigetreten. Ich\pbin ihr beigetreten, weil ich an\ndas geglaubt habe, was Zeph erreichen wollte…
-0x1F6F986: Da die meisten anderen Handlanger\nweg sind, ist unsere Arbeitskraft sehr\lbegrenzt. Es\pist daher wichtig, dass jeder von\nuns so stark wie\pmöglich wird. Würden Sie mir das\nPrivileg gewähren, gegen Sie zu kämpfen?
+0x1F6F986: Da die meisten anderen Rüpel\nweg sind, haben wir nur noch\lwenig Personal.\pDarum muss jeder von uns so\nstark wie möglich werden.\pDarf ich gegen Sie kämpfen,\nChef?
 0x1F6FA4E: Ich habe nichts anderes erwartet.\n
-0x1F6FA75: Danke, dass Sie mit mir gekämpft haben,\nmein Herr.\pWir sind jetzt besser vorbereitet\nauf die unvermeidliche Konfrontation mit\ldem Licht der Ruin.
-0x1F6FAF1: Natürlich, mein Herr.\pIch erwarte nicht, dass Sie\nIhre Zeit mit einem Handlanger verschwenden.
+0x1F6FA75: Danke für den Kampf, Chef.\pNun sind wir beide besser auf\ndie unvermeidliche Konfrontation\lmit Light of Ruin vorbereitet.
+0x1F6FAF1: Natürlich, mein Herr.\pIch erwarte nicht, dass Sie Ihre\nZeit mit einem Handlanger\lverschwenden.
 0x1F6FB45: Eine unglaublich laute Folge\neines Einall-Musicals. Schau zu\plange hin, und es könnte dir helfen,\ndein Gehirn zu grillen.
-0x1F6FBB3: Mein Herr\p! Zeph hat mir befohlen, jeden\nohne Berechtigung daran zu hindern,\ldas Labor zu betreten. Aber ich\pbin sicher, dass ich Sie\npassieren lassen kann.
+0x1F6FBB3: Chef!\pZeph hat mir befohlen, niemanden\nohne Berechtigung ins Labor zu\llassen.\pAber Sie darf ich sicher\nhineinlassen.
 0x1F6FC3E: Sie können das Labor betreten,\nmein Herr.
 0x1F6FC66: Ich benutze einen komplexen Algorithmus,\num den ungefähren Standort\ldes HQ des Lichts der Ruin zu bestimmen. Sobald\pdie Ergebnisse vorliegen, will Zeph\ndiese Informationen nutzen, um\lsich am Licht der Ruin zu rächen.
-0x1F6FD2E: Oh, Marlon, mein Herr\p! Ich habe Zeit im HQ mit der\nWissenschaftlichen Gesellschaft verbracht und habe\leinen neuen Weg gelernt, unsere\lPokémon im Kampf\pstärker zu machen! Möchten Sie es sehen?
+0x1F6FD2E: Oh, Marlon, Chef!\pIch war eine Weile im HQ bei der\nWissenschaftsgesellschaft. Dort\lhabe ich gelernt, wie wir unsere\lPokémon im Kampf noch stärker\lmachen können!\pMöchten Sie es sehen?
 0x1F6FDD5: Beeindruckt, mein Herr?
-0x1F6FDED: Dafür, dass Sie Ihre wertvolle\nZeit damit verbracht haben, gegen mich zu kämpfen, möchte ich\lIhre Pokémon zum Dank heilen
+0x1F6FDED: Als Dank dafür, dass Sie Ihre\nwertvolle Zeit für einen Kampf\lmit mir geopfert haben, möchte\lich Ihre Pokémon heilen.
 0x1F6FE49: Natürlich, mein Herr.\pIch bin sicher, Sie haben\nviel wichtigere Dinge zu tun.
 0x1F6FE96: Größte Sorgfalt wird der\nSynthese dieser neuen Serie von\lSchattenkriegern gewidmet.\pDiese Schattenkrieger werden die\nmächtigsten sein, die je erschaffen wurden!\pSie werden unbesiegbar sein!\pUnd die Light of Ruin wird keine\nChance gegen sie haben!
-0x1F6FF74: Sie wollten, dass wir zum HQ zurückkehren\nund aufhören, Schatten-\pkrieger zu erschaffen. AUFHÖREN, SCHATTEN-\pKRIEGER ZU ERSCHAFFEN!?\nDU MACHST WITZE!?\pSchattenkrieger zu erschaffen, das ist\nmein Grund\pzu leben! Zum Glück hatte Zeph\nnoch weitere Exemplare nötig\lund ich konnte die Synthese fortsetzen.
+0x1F6FF74: Wir sollten ins HQ zurückkehren\nund keine Schattenkrieger mehr\lerschaffen.\pKEINE SCHATTENKRIEGER MEHR!?\pIST DAS EIN WITZ!?\pSchattenkrieger zu erschaffen\nist mein einziger Lebensinhalt!\pZum Glück brauchte Zeph noch\nmehr und ließ mich mit der\lSynthese fortfahren.
 0x1F70073: Etwas Groteskes wird gerade\nim Tank synthetisiert.
 0x1F700A9: Der Tank ist leer.
 0x1F700BC: Der Käfig ist leer.
 0x1F700CF: Jemand hat heute\nexperimentiert…
-0x1F700F5: Ah, {PLAYER}<0xB0> schön, dass du uns besuchst.\pSeit meiner Entlassung versuche ich, ehrenhafter zu leben.\pIch schulde es meinem Sohn, diese Chance nicht zu verschwenden.\pNach Jahren des Wartens will ich der jungen Generation die Zukunft überlassen.\pIch will nur noch Zeit mit Zeph Jr. verbringen.\pAh, ja<0xB0> hättest du Zeit, dich mit mir zu messen?\pMein Sohn mag wohl Pokémon-Kämpfe für sich entdeckt haben.
+0x1F700F5: Ah, <0xFD><0x01><0xB0> schön,\ndass du uns besuchst.\pSeit meiner Entlassung aus dem\nGefängnis versuche ich,\lehrenhafter zu leben.\pIch schulde es meinem Sohn,\nalles zu tun, damit diese zweite\lChance nicht vergebens ist.\pJahrelang habe ich dafür\ngearbeitet, dass er zu mir\lzurückkehrt. Nun soll die junge\lGeneration die Zukunft gestalten.\pIch möchte nur die Zeit, die mir\nbleibt, mit Zeph Jr. verbringen.\pAh, ja<0xB0> möchtest du dich mit mir\nmessen, wenn du Zeit hast?\pMein Sohn hat offenbar Gefallen\nan Pokémon-Kämpfen gefunden.
 0x1F70306: Ah, ja… möchtest du dich\nmit mir trainieren, wenn du\pZeit hast? Mein Sohn scheint Gefallen\nan Pokémon-Kämpfen gefunden zu haben.
 0x1F70387: Ich verstehe… kein Grund, uns\n\l\pzu Tode zu bekämpfen… Der Frieden ist zurückgekehrt,\nwir können daraus einen freundschaftlichen\lWettkampf machen.\pWenn du deine Meinung änderst, bin ich bereit,\ndich zu bekämpfen, wann immer du willst.
 0x1F7047C: Endlich eine Gelegenheit, gegen die\n{PLAYER} zu kämpfen, ich halte mich nicht\pzurück, damit ich mich nicht zurückhalte.\nIch\pmuss vor meinem\nSohn eine gute Figur machen, immerhin!
@@ -18776,7 +18776,7 @@ einem Verlies zu entkommen.
 0x1F70B3F: Pokémon-Arena von Dresco Town\nArenaleiter: Mirskle, Meister der\lfriedlichen Blumen
 0x1F70B84: Trainer House Kämpft, so viel ihr wollt!
 0x1F70BB2: Dies ist eine Statue des\nLegendären Feuer-Pokémon Lavados.\pHier steht geschrieben, dass Lavados\neinst dazu diente, ein Siegel über\leine große Finsternis zu verstärken,\lwohnt aber nun im Cinder Volcano.
-0x1F70C64: Bevor du {B_BUTTON} drückst, check die Bullen!\n
+0x1F70C64: Bevor du mit <0xF8><0x01> ins Labor gehst,\ncheck, ob keine Bullen in Sicht\lsind!
 0x1F70CAC: Route 3\n«Weg des Paradieses»\p<0x79> Flower Paradise\n<0x7A> Dresco Town
 0x1F70CE4: Flower Paradise\pEine Zuflucht für Blumen.
 0x1F70D0E: Route 4\n«Vulkanzone»\p<0x7B> Grim Woods, Cinder Volcano,\nRoute 5\l<0x7C> Dresco Town\l<0x7A> Route 13
@@ -18925,20 +18925,20 @@ einem Verlies zu entkommen.
 0x1F72901: Ausgang K: Antisis City
 0x1F72916: Ausgang L: Seaport City
 0x1F7292B: <0xFC><0x01><0x02>Trainertipps!\pVerlasse diese Schilder nicht,\nohne sie ganz gelesen zu haben!\pJedes von ihnen enthält wichtige\nInfos, die dir auf deinem\lAbenteuer helfen werden.\pDen Text dieser Schilder zu\nüberspringen könnte dich teuer zu stehen kommen!
-0x1F72A11: {COLOR}ÁTrainertipps!\pHalte {B_BUTTON} gedrückt, um die\nStandard-Laufgeschwindigkeit zu ändern!\pDrück {L_BUTTON} für den Auto-Lauf!
-0x1F72A6D: <0xFC><0x01><0x02>Trainertipps!\pÖffne das <0xFC><0x01><0x06>Options<0xFC><0x01><0x02>-Menü für beide Funktionen!\pIst <0xFC><0x01><0x06>Speicher-Erinnerung<0xFC><0x01><0x02> aktiv, fragt's bei wichtigen Momenten ob gespeichert wird!\pIst <0xFC><0x01><0x06>Schnelle Feldattacken<0xFC><0x01><0x02> aktiv, sind Feldattacken sofort nutzbar!\p<0xF8><0x02>/<0xF8><0x03> wechseln die Seite!
-0x1F72BD8: Trainertipps!\pPokémon erhalten EP im\nKampf.\pEP machen sie\nstärker.\pDeine Pokémon erhalten auch EP,\nselbst wenn du ein gegnerisches\lPokémon fängst!\pSteigen deine Pokémon zu stark\nim Level, werden auch die anderen\lTrainer stärker.\pUm Überleveln und steigende\nSchwierigkeit zu vermeiden,\laktiviere die Levelgrenze\nim\l{COLOR}ÉOptions-Menü{COLOR}Á, indem du {COLOR}ÉEP-Gewinn{COLOR}Á\lauf {COLOR}ÉGedeckelt teilen{COLOR}Á stellst.\lEine wichtige Option für dich.
+0x1F72A11: <0xFC><0x01><0x02>Trainertipps!\pHalte <0xF8><0x01> gedrückt, um die\nStandard-Laufgeschwindigkeit zu\ländern!\pDrück <0xF8><0x02> für den Auto-Lauf!
+0x1F72A6D: <0xFC><0x01><0x02>Trainertipps!\pÖffne das <0xFC><0x01><0x06>Options<0xFC><0x01><0x02>-Menü für\nSpeicher-Erinnerungen und\lschnelle Feldattacken!\pMit <0xFC><0x01><0x06>Speicher-Erinnerungen<0xFC><0x01><0x02> wirst\ndu vor oder nach wichtigen\lEreignissen gefragt, ob du\lspeichern möchtest!\pMit <0xFC><0x01><0x06>schnellen Feldattacken<0xFC><0x01><0x02>\nentfällt die Bestätigung bei\ljeder Nutzung!\pMit <0xF8><0x02> und <0xF8><0x03> wechselst du zwischen\nden Optionsseiten!
+0x1F72BD8: Trainertipps!\pPokémon erhalten im Kampf gegen\nandere Pokémon EP.\pEP machen sie stärker.\pDeine Pokémon erhalten auch EP,\nwenn du das gegnerische Pokémon\lfängst!\pAber steigen deine Pokémon zu\nviele Level auf, werden auch\landere Trainer stärker.\pUm eine höhere Schwierigkeit\ndurch zu hohe Level zu\lvermeiden, kannst du im\l<0xFC><0x01><0x06>Options-Menü<0xFC><0x01><0x02> eine feste\lLevelgrenze aktivieren: Stelle\l<0xFC><0x01><0x06>EP-Gewinn<0xFC><0x01><0x02> auf <0xFC><0x01><0x06>Gedeckelt teilen<0xFC><0x01><0x02>.
 0x1F72DD1: Trainertipps!\pSprich mit dieser Chaneira, deine\nPokémon werden vollständig\pgeheilt! Verlierst du einen Kampf,\nkehrst du auch hierher zurück!
 0x1F72E65: Trainertipps!\pJedes Pokémon, das gekämpft hat,\nerhält EP. Ist der\p{COLOR}ÉEP-Teiler{COLOR}Á im\n{COLOR}ÉOptions-Menü{COLOR}Á aktiv, erhalten auch\lnicht kämpfende Pokémon ihren\lAnteil\lan EP.
 0x1F72F5A: Trainertipps!\pWenn du im Kampf eine Attacke\nauswählst, können manche Symbole\perscheinen. Das hängt von\nder Wirksamkeit gegen das\pZiel ab. Ein grünes {COLOR}É<0x79>{COLOR}Á zeigt sehr\neffektiv an. Ein\p{COLOR}È<0x7A>{COLOR}Á gelbes zeigt wenig effektiv an.\nEin\p{COLOR}Ê×{COLOR}Á rotes zeigt keine Wirkung an.\nEin + zeigt den Bonus für den\pgleichen\nTyp an.
 0x1F730E7: Trainertipps!\pMit der Option {COLOR}ÉItem-Beschränkung{COLOR}Á kannst du\nfestlegen, wie viele Items du im\lKampf benutzen darfst!\pWählst du {COLOR}ÉKein Item{COLOR}Á, kann auch\nkein Trainer mehr welche\lbenutzen!\pFür {COLOR}ÉExpert{COLOR}Á muss mindestens\n{COLOR}ÉNur 4 Items{COLOR}Á aktiv sein, für {COLOR}ÉWahnsinn{COLOR}Á\list {COLOR}ÉKein Item{COLOR}Á Pflicht.\pLust auf eine Herausforderung? Wähle\n{COLOR}ÉNur Gegner-Items{COLOR}Á\l: Nur sie dürfen\lItems benutzen, du nicht!\pDiese letzte Wahl funktioniert bei\njeder Schwierigkeit.
-0x1F732BD: Trainertipps!\p{L_BUTTON} und {SELECT_BUTTON} erlauben es dir,\nschnell Pokémon in der Liste zu\pwechseln! {L_BUTTON} wählt automatisch ein\nPokémon zum Tauschen, und {SELECT_BUTTON} setzt\ldas aktuelle Pokémon an die Spitze des Teams!
-0x1F7336F: Trainertipps!\pIm Kampf kannst du Attacken auf\nStärke und Genauigkeit\lüberprüfen. Drück dazu\p{L_BUTTON}, bevor du eine\nAttacke wählst!
+0x1F732BD: Trainertipps!\pMit <0xF8><0x02> und <0xF8><0x05> kannst du Pokémon in\nder Teamliste schnell umordnen!\p<0xF8><0x02> wählt ein Pokémon zum Tauschen\naus. <0xF8><0x05> setzt das gewählte\lPokémon an die erste Stelle!
+0x1F7336F: Trainertipps!\pIm Kampf kannst du Stärke,\nGenauigkeit und andere Details\lder Attacken deiner Pokémon\lprüfen.\pDrück vor der Attackenwahl\neinfach <0xF8><0x02>!
 0x1F73401: Trainertipps!\pSprich mit Lapras, um am Fuß\ndes Wasserfalls zu surfen!
 0x1F7343D: Trainertipps!\pEinweg-Items werden dir nach\nwichtigen Kämpfen zurückgegeben,\lwie etwa gegen Arenaleiter.\pNutze sie, um dein Team zu\nstärken und dir einen Vorteil zu verschaffen!
-0x1F734E9: Trainertipps!\pAchte auf Bäume mit Schatten dazwischen!\pDort findest du <0xFC><0x01><0x06>Hidden Grottos<0xFC><0x01><0x02>!\pSie tauchen seit dem Meteoriteneinschlag massenhaft auf.\pSprich sie an und stell dich einem starken Pokémon!\pMit <0xFC><0x01><0x06>Zerschneider<0xFC><0x01><0x02> findest du sogar eine auf dieser Route!\pHol dir den Unlicht-Orden aus Crater Town und komm zurück!
-0x1F7369D: Trainertipps!\pDie Tastenkombination zum schnellen\nFliehen vor wilden Pokémon stellst du\lim {COLOR}ÉOptions-Menü{COLOR}Á ein! Standard-\pmäßig fliehst du schnell mit {R_BUTTON}\n!
-0x1F7374B: Trainertipps!\pWenn du die Items im Cube ansiehst,\ndrück {START_BUTTON}, um sie zu sortieren!\pDie Option {COLOR}ÉAuto-Sortierung\nder Items{COLOR}Á im {COLOR}ÉOptions-\lMenü{COLOR}Á sortiert den Cube\lautomatisch bei\pjedem Öffnen! {L_BUTTON} und {R_BUTTON} lassen\nden Cube schneller scrollen!
+0x1F734E9: Trainertipps!\pAchte auf Bäume mit einem\nschattigen Bereich dazwischen!\pDort findest du <0xFC><0x01><0x06>Hidden Grottos<0xFC><0x01><0x02>!\pSeit dem Meteoriteneinschlag\ntauchen diese besonderen Orte\lüberall auf.\pUntersuche die Bäume und stell\ndich einem starken Pokémon!\pMit <0xFC><0x01><0x06>Zerschneider<0xFC><0x01><0x02> findest du\nsogar eines auf dieser Route!\pHol dir den Vision-Orden in der\nArena von Crater Town und komm\ldann zurück!
+0x1F7369D: Trainertipps!\pDie Tastenkombination zur\nschnellen Flucht aus wilden\lKämpfen stellst du im\l<0xFC><0x01><0x06>Options-Menü<0xFC><0x01><0x02> ein!\pStandardmäßig fliehst du schnell\nmit <0xF8><0x03>!
+0x1F7374B: Trainertipps!\pDrück beim Ansehen der Items im\nCube <0xF8><0x04>, um sie zu sortieren!\pMit <0xFC><0x01><0x06>Auto-Sortierung<0xFC><0x01><0x02> im\n<0xFC><0x01><0x06>Options-Menü<0xFC><0x01><0x02> wird der Cube bei\ljedem Öffnen automatisch\lsortiert!\pMit <0xF8><0x02> und <0xF8><0x03> scrollst du schneller\ndurch die Items im Cube!
 0x1F73858: Trainertipps!\pVerschiedene Pokémon\nerscheinen nachts\pund tagsüber! Komm oft wieder,\num mehr davon zu fangen!
 0x1F738DD: Trainertipps!\pWeniger wilde Pokémon\nerscheinen auf dem Motorrad.\pBist du alt genug, eins zu fahren,\nsteig auf!
 0x1F73965: {COLOR}ÁTrainertipps!\pDie nach dem Kampf erhaltenen EP\nhängen von den Levels ab.\pSchwächeres Pokémon? Es bekommt\nmehr.\pIst es\nstärker, bekommt es weniger.
@@ -18946,29 +18946,29 @@ einem Verlies zu entkommen.
 0x1F73AAD: Trainertipps!\pDrück <0xF8><0x05>, um eines\ndeiner sechs registrierten Items zu benutzen!\pUm ein Item zu registrieren,\nwähle es im Bereich\lSeltene Items deines Cubes aus und\lwähle dann <0xFC><0x01><0x06>Registrieren<0xFC><0x01><0x02>.\pDas zweite registrierte Item kannst du\nbenutzen, indem du <0xF8><0x02> drückst,\lwenn die Option <0xFC><0x01><0x06>L-Tasten-Modus<0xFC><0x01><0x02>\lauf <0xFC><0x01><0x06>Reg. Item 2<0xFC><0x01><0x02> eingestellt ist.
 0x1F73BDE: Trainertipps!\pSpring über Felsen, um\nWasser zu überqueren!
 0x1F73C16: Trainertipps!\pBeim Fangen eines Pokémon wackelt\nder Poké Ball manchmal nur\leinmal. Das ist\pein «kritischer Fang», und je mehr\nPokémon du fängst, desto\lwahrscheinlicher tritt er auf.
-0x1F73CD7: Trainertipps!\pÄndere nie das Gerätedatum für mehr Events!\pSonst funktionieren tägliche Events womöglich nicht mehr, egal wie oft versucht.\pAus Versehen passiert? Nicht alles ist verloren.\pWarte am besten bis zum geänderten Datum, oder sprich mit einem Mann bei den Frozen Heights.\pEr stellt deine Uhr einmal zurück, damit Events wieder funktionieren.
+0x1F73CD7: Trainertipps!\pÄndere nie das Gerätedatum für\nmehr Events!\pSonst funktionieren tägliche\nEvents womöglich nicht mehr,\legal wie oft versucht.\pAus Versehen passiert? Nicht\nalles ist verloren.\pWarte am besten bis zum\ngeänderten Datum, oder sprich\lmit einem Mann bei\lFrozen Heights.\pEr stellt deine Uhr einmal\nzurück, damit Events wieder\lfunktionieren.
 0x1F73EB0: Trainertipps!\pNutze Kraftkoloss, um Blöcke\nauf Druckplatten zu schieben!
 0x1F73EFA: Trainertipps!\pSiehst du im Resümee deines\nPokémon ein Herzsymbol,\lbedeutet das, dass ihr angefangen\lhabt, eine Bindung aufzubauen!\pJe näher ihr euch steht, desto mehr\nfüllt sich das Herz.\pUnd ein Pokémon mit fast vollem\nHerzen ist bereit zu entwickeln, wenn es\leine <0xFC><0x01><0x06>Freundschafts-Entwicklung<0xFC><0x01><0x02> benötigt!
 0x1F74017: Trainertipps!\pEs gibt {COLOR}Ékeine Begrenzung{COLOR}Á, wie viel\n{COLOR}ÉProtein{COLOR}Á oder\l{COLOR}ÉKohlenhydrat{COLOR}Á du geben kannst\p! Kauf diese Vitamine im Großhandel im\n{COLOR}ÉKaufhaus von Daherapolis{COLOR}Á!
 0x1F740D9: Trainertipps!\pManche Trainer fordern dich\nerst heraus, wenn du alle\landeren in der Gegend besiegt hast.\pBesiege sie, und du erhältst eine tolle\nBelohnung\l!
-0x1F74189: Trainertipps!\pDunkle Flecken im Meer\nzeigen an, dass ein Pokémon\ptauchen kann! Hast du ein\n{COLOR}ÉADM{COLOR}Á bei der {COLOR}ÉWerft von Kapitän\lDavy{COLOR}Á in {COLOR}ÉSeaport City{COLOR}Á gekauft,\pdrück {SE_SHOP} auf dem\nFleck, um zu tauchen. Unter\lWasser eine helle Stelle?\n{B_BUTTON}, um aufzutauchen.
+0x1F74189: Trainertipps!\pDunkle Stellen im Meer zeigen,\nwo ein Pokémon tauchen kann!\pHast du ein <0xFC><0x01><0x06>ADM<0xFC><0x01><0x02> bei <0xFC><0x01><0x06>Captain\nDavy's Shipyard<0xFC><0x01><0x02> in <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x02>\lgekauft, drück über der dunklen\lStelle <0xF8><0x00>, um abzutauchen.\pFindest du unter Wasser eine\nhelle Stelle am Boden, drück\ldort <0xF8><0x01>, um aufzutauchen.
 0x1F742B7: Trainertipps!\pManche Pokémon erscheinen nur\nan bestimmten Tagen. Erkunde\pBorrius jeden Tag, um sie zu\nfinden.
 0x1F74345: Trainertipps!\pManche versteckten Items wie\nFutter oder Fragmente können\lwieder auftauchen!\pJe öfter du an diese Orte\nzurückkehrst, desto größer die Chance,\lsie\lwiederzufinden.
-0x1F7441F: Trainertipps!\pKennt dein Pokémon\n{COLOR}ÉDuftnote{COLOR}Á, kannst du\les benutzen, um bei klarem Himmel\nzwei wilde\lPokémon zu treffen!
-0x1F744AD: Trainertipps!\pHalte {B_BUTTON} gedrückt, um\pschneller zu surfen! Steht {COLOR}ÉL-Tasten-\nModus{COLOR}Á auf {COLOR}ÉAuto-Lauf{COLOR}Á, drück\lsur {L_BUTTON}, um das Turbo-Surfen zu aktivieren!
-0x1F7452D: Trainertipps!\pDrück {SELECT_BUTTON}, während du\nPokémon im PC bewegst, um die\pMehrfachauswahl zu aktivieren.\nGruppen bewegst du mit {SE_SHOP}!
-0x1F745B7: Trainertipps!\pViele Missionen in deinem\nJournal? Benutze\p{DPAD_LEFTRIGHT}, um die Liste schnell zu\ndurchblättern! Oder drück\psur {START_BUTTON}, um sie alphabetisch\nzu sortieren!\pHeft Missionen auch mit\n{SELECT_BUTTON} an!
+0x1F7441F: Trainertipps!\pKennt dein Pokémon <0xFC><0x01><0x06>Lockduft<0xFC><0x01><0x02>,\nkannst du damit bei klarem\lWetter zwei wilden Pokémon\lzugleich begegnen!
+0x1F744AD: Trainertipps!\pHalte <0xF8><0x01> gedrückt, um schneller\nzu surfen!\pSteht der <0xFC><0x01><0x06>L-Tasten-Modus<0xFC><0x01><0x02> auf\n<0xFC><0x01><0x06>Auto-Lauf<0xFC><0x01><0x02>, schaltest du mit <0xF8><0x02> das\lTurbo-Surfen ein oder aus!
+0x1F7452D: Trainertipps!\pDrück beim Bewegen von Pokémon\nim PC <0xF8><0x05>, um die Mehrfachauswahl\lzu aktivieren.\pSo bewegst du mehrere Pokémon\nzugleich, indem du <0xF8><0x00> gedrückt\lhältst!
+0x1F745B7: Trainertipps!\pViele Aufträge in deinem\nMissionslog?\pMit <0xF8><0x0B> scrollst du schnell durch\ndie Liste!\pMit <0xF8><0x04> sortierst du sie\nalphabetisch!\pMit <0xF8><0x05> kannst du Missionen sogar\nganz oben anheften!
 0x1F74692: Trainertipps!\pAuf der Victory Road gibt es\nkaum Orte zum Heilen! Lass\ldich nicht\püberraschen!\pKauf Heilitems!
 0x1F7471C: <0xFC><0x01><0x02>Trainertipps!\pSelbst bei <0xFC><0x01><0x06>Vanilla<0xFC><0x01><0x02>-Schwierigkeit wird\ndie Top 4 gleichzeitig mit dir\lstärker!\pLass dich nicht überraschen und\nbereite dich auf intensive Kämpfe vor!
-0x1F747B8: Trainertipps!\pDrück {SE_SHOP}, um zu klettern!
-0x1F747E7: Trainertipps!\p{SE_SHOP} am Baum links vom Schild,\num ein Hidden Grotto zu betreten!
+0x1F747B8: Trainertipps!\pDrück <0xF8><0x00>, um die Leiter\nhochzuklettern!
+0x1F747E7: Trainertipps!\p<0xF8><0x00> am Baum links vom Schild, um\nein Hidden Grotto zu betreten!
 0x1F7483C: Trainertipps!\pDrück {START_BUTTON} im Doppelkampf,\num die KP als Zahlen zu sehen!
-0x1F7488B: Trainertipps!\pGemeinsames Reisen macht deine\nPokémon freundschaftlicher!\pSie können dadurch sogar entwickeln!\nUnd bist du ins\p{COLOR}ÉPantheon{COLOR}Á eingezogen, erhalten diese\nPokémon auch {COLOR}ÉBonus-EP\l{COLOR}Á!
-0x1F7496C: Trainertipps!\pBist du ins Pantheon eingezogen,\nkannst du {COLOR}Éautomatisch laufen{COLOR}Á,\lindem du\p{R_BUTTON} gedrückt hältst! Auch in New Game+\nund im Sandbox-Modus.\pHalte {R_BUTTON} niemals gedrückt,\nwährend du Trainertipp-Schilder liest!
+0x1F7488B: Trainertipps!\pGemeinsames Reisen stärkt die\nFreundschaft deiner Pokémon!\pIst die Freundschaft groß genug,\nkönnen sie sich sogar entwickeln!\pHast du die <0xFC><0x01><0x06>Ruhmeshalle<0xFC><0x01><0x02>\nerreicht, können diese Pokémon\lauch <0xFC><0x01><0x06>zusätzliche EP<0xFC><0x01><0x02> erhalten!
+0x1F7496C: Trainertipps!\pNach dem Einzug in die\nRuhmeshalle kannst du <0xFC><0x01><0x06>Text\lautomatisch weiterlaufen lassen<0xFC><0x01><0x02>,\lindem du <0xF8><0x03> gedrückt hältst!\pDas gilt auch für New Game+ und\nden Sandbox-Modus.\pAber halte beim Lesen von\nTrainertipp-Schildern bitte nie <0xF8><0x03>\lgedrückt!
 0x1F74A5D: Trainertipps!\pNach dem großen Portal-Knall\nsind seltene, mächtige Pokémon\lin Borrius aufgetaucht! Besiegst\pdu eines oder verjagst es, kehrt es\nzurück, sobald du wieder ins\lPantheon\lgehst.
-0x1F74B42: Trainertipps!\pVermeide Standard-Bälle wie den Hyperball bei starken Pokémon!\pSehr {COLOR}Éschweres{COLOR}Á Pokémon? Der {COLOR}ÉWuchtball{COLOR}Á passt am besten.\pKampf > {COLOR}É10 Runden{COLOR}Á? Nimm den {COLOR}ÉZeitball{COLOR}Á.\pKurzer Kampf, Gegner-Initiative über {COLOR}É100{COLOR}Á? Nimm den {COLOR}ÉFlottball{COLOR}Á.\pKurzer Kampf, langsames Pokémon? Fang's nachts mit dem {COLOR}ÉNachtball{COLOR}Á.\pDiese vier Bälle sind der Schlüssel zum schnellen Fang!
+0x1F74B42: Trainertipps!\pVermeide Standard-Bälle wie\nHyperbälle, wenn du starke\lPokémon fangen willst!\pGegen ein sehr <0xFC><0x01><0x06>schweres<0xFC><0x01><0x02> Pokémon\nist der <0xFC><0x01><0x06>Schwerball<0xFC><0x01><0x02> ideal.\pDauert der Kampf schon über <0xFC><0x01><0x06>10\nRunden<0xFC><0x01><0x02>, nimm einen <0xFC><0x01><0x06>Timerball<0xFC><0x01><0x02>.\pIst der Kampf noch kurz, aber\ndie <0xFC><0x01><0x06>Basis-Initiative<0xFC><0x01><0x02> des Gegners\lliegt über <0xFC><0x01><0x06>100<0xFC><0x01><0x02>, nimm einen\l<0xFC><0x01><0x06>Turboball<0xFC><0x01><0x02>.\pIst der Kampf noch kurz und das\nPokémon langsam, versuche es\l<0xFC><0x01><0x06>nachts<0xFC><0x01><0x02> mit einem <0xFC><0x01><0x06>Finsterball<0xFC><0x01><0x02> zu\lfangen.\pMit diesen vier Bällen fängst du\nstarke Pokémon schnell!
 0x1F74DC8: Trainertipps!\pDank wissenschaftlicher Fortschritte\nkannst du ein neues\lAbenteuer im {COLOR}ÉSandbox-Modus{COLOR}Á beginnen!\pEs gibt kein Postgame, aber du\nkannst frei jedes beliebige\lPokémon fangen und trainieren,\lund ihre Werte leicht\ländern! Pokémon sind am Ende ja\pnur Zahlen, wenn man\ngenau überlegt!… Tipp\pgesponsert von Cube Corp..
-0x1F74F46: Trainertipps!\pDu kannst die Erkundungs-\nund\lKampfmusik in den {COLOR}ÉAudio-\lOptionen{COLOR}Á im {COLOR}ÉOptions-Menü{COLOR}Á anpassen! Du kannst\psogar {START_BUTTON} drücken, um\ndie Standardmusik wiederherzustellen!
+0x1F74F46: Trainertipps!\pDie Musik beim Erkunden und im\nKampf kannst du unter\l<0xFC><0x01><0x06>Audio-Optionen<0xFC><0x01><0x02> im <0xFC><0x01><0x06>Options-Menü<0xFC><0x01><0x02>\lanpassen!\pMit <0xF8><0x04> stellst du schnell die\nStandardmusik wieder her!
 0x1F75028: Weiter
 0x1F75031: Beenden
 0x1F75036: Die Uhr ist stehengeblieben!\pWahrscheinlich ein Bug deines Emulators.\nWenn du mGBA benutzt,\pprüfe, ob du Version\n{COLOR}É0.9.0{COLOR}Á oder höher hast.{PAUSE_UNTIL_PRESS}
@@ -18987,7 +18987,7 @@ einem Verlies zu entkommen.
 0x1F755B2: Heute…\pWas die Personen angeht, haben wir\n{COLOR}É{STR_VAR_1}{COLOR}Ë an Backbord und\l{COLOR}É{STR_VAR_2}{COLOR}Ë an Steuerbord.
 0x1F75618: Oh, na gut… Ich bin einfach hier, falls du\nes dir anders überlegst.\pViel Spaß beim Erkunden der\nMarine!
 0x1F75673: Ich schätze, dass die Anzahl der Trainer\nin Kabinen mit {COLOR}É{STR_VAR_2}{COLOR}Ë\lTüren heute {COLOR}É{STR_VAR_1}{COLOR}Ë beträgt.
-0x1F756CC: Manche Passagiere sind auf dieser\nKreuzfahrt auf der Suche nach Gesellschaft…\pAber du bist doch wegen der Kämpfe hier,\noder?\pAchtung: Sie werden dich bei jeder\nGelegenheit aufhalten, und sie\lhören erst beim Pfeifsignal auf!
+0x1F756CC: Manche Gäste suchen auf dieser\nKreuzfahrt Gesellschaft<0xB0>\pAber du bist wegen der Kämpfe\nhier, was?\pPass auf: Sie quatschen dir bei\njeder Gelegenheit ein Ohr ab\lund hören erst auf, wenn eine\lPfeife ertönt!
 0x1F7579C: blau
 0x1F757A1: <0xFC><0x01><0x02>Alle Trainer an Bord wurden\nbesiegt!
 0x1F757CE: Ich bin der Kapitän der Marine.\nKapitän Oppenheimer, so heiße ich.\pIch habe Alola verlassen, in der Hoffnung,\ndass meine Fährdienste hier\lnützlicher wären.\pUnd bei meiner Abreise habe ich diese\nseltsamen Disketten mitgenommen, die mir\lForscher aus meinem Bekanntenkreis gegeben haben.\pIch kann nichts damit anfangen, also\nkannst du eine nehmen, wenn du willst.
@@ -19009,7 +19009,7 @@ einem Verlies zu entkommen.
 0x1F7636C: Oh… dieses Pfeifsignal war so\nstechend wie ein Stöckelabsatz…
 0x1F763AC: Hallo. Schau dir dein Pokémon an.\nJetzt\pschau mich an. Schau zurück zum\nPokémon. Schau zurück zu\pmir. Zum Glück ist dein Pokémon\nkein alter Griesgram, der\pgerne Zeit verschwendet.\nSchau nach unten. Wo bist du? Nein,\pdu bist immer noch da,\pÜberraschung!… Als Experte ist alles\nmöglich! Ich bin auf einem Schiff.
 0x1F764C0: Meine Experten-Fähigkeiten waren zu\nstark, um das zu Ende gehen zu lassen!
-0x1F76502: Ach, meine Hämorrhoiden machen wieder Ärger…\pDu da, hör dir das Klagen einer alten Frau an?\pMeine Hämorrhoiden…\pFurchtbar! Als hätte ein Haufen Voltobal sich dort niedergelassen…\pSitzen ist eine Qual, dazu scheußliche Flecken…\pHier, ich hab Fotos!\pWo ist das Arztfoto davon hin…\pJa, genau das, in meinem…\pOh je, du siehst grün aus. Vielleicht keine gute Idee…
+0x1F76502: Uff<0xB0> meine Hämorrhoiden machen\nwohl wieder Ärger<0xB0>\pAh, du da! Wärst du so lieb,\neiner alten Frau kurz beim\lKlagen zuzuhören?\pEs geht um meine Hämorrhoiden<0xB0>\pSie sind furchtbar! Als hätte\nsich ein Rudel Voltorb dort\leingenistet<0xB0>\pSitzen tut so weh! Und die\nscheußlichen Flecken auf meiner\lKleidung<0xB0>\pHier, ich habe Fotos!\pWo habe ich nur das neueste\nFoto meines Arztes hingelegt<0xB0>\pJa, das direkt in meinem -\p<0xB0>\pOh je<0xB0> du wirst ja ganz grün.\nVielleicht war das keine gute\lIdee<0xB0>
 0x1F76713: Du wolltest kämpfen? Für mich\nist jeder Tag ein Kampf!\pEin Kampf gegen diese\nverdammten Hämorrhoiden!\lOh je…
 0x1F76793: Ah! Warte! Ich glaube, ich weiß,
 wer du bist!\pHäh? Kennst du nicht?
@@ -19058,13 +19058,13 @@ ich vollende Zephs Werk!
 0x1F779FF: Vielleicht hätte ich nicht\nkämpfen sollen… Das hat nichts besser gemacht…
 0x1F77A3B: Du bekommst diesen Rosenweihrauch nicht…\nden ich nicht habe… Weil\pich absolut kein\nSchmuggler aus Antisis City bin.\pNein, überhaupt nicht.
 0x1F77ACF: Wenn dieses Gangsterleben scheitert… Ich\nhätte nichts dagegen,\pder nächste Big Mo zu werden. Aber\nniemand macht\pBig Mo besser als Big Mo\n!
-0x1F77B8E: {DPAD_LEFTRIGHT}Wählen {SE_SHOP}Name {B_BUTTON}Schließen {L_BUTTON}{R_BUTTON}Seite
-0x1F77BAD: {DPAD_LEFTRIGHT}Wählen {SE_SHOP}Bearbeiten {B_BUTTON}Schließen {L_BUTTON}{R_BUTTON}Seite
-0x1F77BCC: {DPAD_ANY}Wählen {SE_SHOP}Bearbeiten {B_BUTTON}OK {L_BUTTON}{R_BUTTON}Wesen
+0x1F77B8E: <0xF8><0x0B>Wahl <0xF8><0x00>Name <0xF8><0x01>Ende <0xF8><0x02><0xF8><0x03>Seite
+0x1F77BAD: <0xF8><0x0B>Wahl <0xF8><0x00>Ändern <0xF8><0x01>Ende <0xF8><0x02><0xF8><0x03>Seite
+0x1F77BCC: <0xF8><0x0C>Wahl <0xF8><0x00>Ändern <0xF8><0x01>OK <0xF8><0x02><0xF8><0x03>Wesen
 0x1F77C17: {DPAD_ANY}Ändern {SE_SHOP}OK {B_BUTTON}Zurück
 0x1F77C2E: {DPAD_ANY}Ändern {SE_SHOP}OK {B_BUTTON}Zurück {L_BUTTON}Min {R_BUTTON}Max
-0x1F77C51: {DPAD_LEFTRIGHT}Wählen {SE_SHOP}Prüfen {B_BUTTON}Schließen {L_BUTTON}{R_BUTTON}Seite
-0x1F77C71: {DPAD_LEFTRIGHT}Wählen {SE_SHOP}Erlernen {B_BUTTON}Schließen {L_BUTTON}{R_BUTTON}Seite
+0x1F77C51: <0xF8><0x0B>Wahl <0xF8><0x00>Prüfen <0xF8><0x01>Ende <0xF8><0x02><0xF8><0x03>Seite
+0x1F77C71: <0xF8><0x0B>Wahl <0xF8><0x00>Lehren <0xF8><0x01>Ende <0xF8><0x02><0xF8><0x03>Seite
 0x1F77C91: Nur Pokémon aus diesem\nSpielstand können bearbeitet werden.{PAUSE_UNTIL_PRESS}
 0x1F77CF5: Ei-Attacken
 0x1F77CFF: Lehrer
@@ -19089,13 +19089,13 @@ ich vollende Zephs Werk!
 0x1F7804A: Diese Attacken können nicht gelehrt werden.{PAUSE_UNTIL_PRESS}
 0x1F78073: Oh?\pSieht so aus, als hätte der Assistent von Prof. Log\nVerbesserungen für den Stat-Scanner!\pGeh zurück zu den Frozen Heights, um\nsie abzuholen.{PAUSE_UNTIL_PRESS}
 0x1F780E9: Willkommen bei der Oberfläche des\nStat-Scanners!\pMit diesem Gerät kannst du\ndie Werte deiner Pokémon sehen…\p
-0x1F78150: …du kannst die Attacken sehen, die\ndie Pokémon erlernen können!\pDrücke {L_BUTTON} und {R_BUTTON}, um\neinfach die Seite zu wechseln!{PAUSE_UNTIL_PRESS}
+0x1F78150: <0xB0>du kannst die Attacken sehen,\ndie die Pokémon erlernen können!\pDrücke <0xF8><0x02> und <0xF8><0x03>, um einfach die\nSeite zu wechseln!<0xFC><0x09>
 0x1F781C2: Willkommen bei der verbesserten\nOberfläche des Stat-Scanners!\pMit dieser speziellen Version kannst du\nAspekte deiner Pokémon ändern,\lwie die Werte…\p
 0x1F78263: Ihr Level und ihr Geschlecht…\p
 0x1F7827E: Ihre Fähigkeiten…\p
 0x1F78290: Ihr Wesen mit {L_BUTTON} und {R_BUTTON}…\p
 0x1F782AF: Sie mit {START_BUTTON} entwickeln lassen…\pUnd sogar…\p
-0x1F782CF: …ihnen Attacken beibringen!\pDrücke {SE_SHOP} zum Bearbeiten, {B_BUTTON} zum\nSpeichern, und {L_BUTTON} und {R_BUTTON}\lum einfach durch die Seiten zu blättern!\pFür weitere Infos schau unten\n\lin der Oberfläche während deiner Einstellungen.{PAUSE_UNTIL_PRESS}
+0x1F782CF: <0xB0>ihnen neue Attacken beibringen!\pDrück <0xF8><0x00> zum Bearbeiten, <0xF8><0x01> zum\nSpeichern und <0xF8><0x02> und <0xF8><0x03>, um bequem\ldie Seite zu wechseln!\pWeitere Hinweise findest du unten\nauf dem Bildschirm, während du\ldeine Pokémon anpasst.<0xFC><0x09>
 0x1F783E6: Tarmigan Town liegt auf dem\n„Epidimy Town“.\pAber wenn du gekommen bist, um die\nGewitter zu sehen, hast du\lPech gehabt.\pSie schlagen nur östlich von hier ein,\nin der Nähe von Epidimy Town.
 0x1F78496: Ich arbeite in der Einrichtung,\ndie Traumlabor genannt wird.\pWir tun, was der Name sagt,\nwir erforschen Träume.\pMeine Aufgabe besteht darin, einen\nbesonderen Nebel\lvom Pokémon Traunmagil zu sammeln.\pLeider funktioniert das\nnicht gut.\pIm Moment konnte ich noch keine\nNebelkapsel bekommen.\pEine einzelne Kapsel ist mir nutzlos,\nnimm sie.
 0x1F78600: Der {COLOR}ÉTraumnebel{COLOR}Ë kann einem\nPokémon eine Versteckte Fähigkeit geben.\pMan kann diese Änderung nicht\nrückgängig machen.\pIch würde dir mehr geben, wenn ich könnte,\naber unser Traunmagil scheint nicht\lmehr viel davon zu produzieren.\pWenn du dein eigenes Traunmagil\nzum Kämpfen findest, kann es\lTraumnebel freisetzen, wenn du es besiegst.
@@ -19206,14 +19206,8 @@ Können und echte Liebe zu Pokémon.\pDas wird meine letzte Prüfung.
 0x1F7AEE7: Unglaublich…{PAUSE} wirklich, du hast gezeigt,\ndass man dir zutrauen kann,\ldiese Macht mit\lMaß einzusetzen.\pIch überreiche dir deinen\nMega-Stein.\pAber vorher…{PAUSE} wähle\neinen passenden Träger.\pFu fu fu…{PAUSE} keine Sorge.\nSie sind in der Praxis identisch.\pNur…{PAUSE} wähle den, der dir\nzusagt.
 0x1F7B046: Nur…{PAUSE} wähle den, der dir\nzusagt.
 0x1F7B073: Möchtest du den\n{COLOR}É{STR_VAR_1}{COLOR}Ç?
-0x1F7B090: Ich verstehe.\pJa, ich finde, {STR_VAR_1} steht dir gut.\pJedenfalls hast du nun die Macht,\ndeine Pokémon zu {COLOR}ÉMega-Entwickeln{COLOR}Ç.\pDamit ein Pokémon im Kampf mega-\nentwickeln kann, muss es seinen\leinzigartigen {COLOR}ÉMega-Stein{COLOR}Ç tragen.\pPrüfe am {COLOR}ÉMega-Symbol{COLOR}Ç im\nKampfmenü, ob es mega-entwickeln kann.\pErscheint es, drücke {START_BUTTON}\nvor deinem nächsten Angriff.\pDein Pokémon wird mega-entwickeln\nund stärker werden.\pBeachte: Ein Pokémon kann\n{COLOR}Énur einmal{COLOR}Ç pro Kampf mega-\lentwickeln, es endet, wenn der Kampf\lendet oder das Pokémon\lkampfunfähig wird.\pNimm diese Macht…{PAUSE} und nutze sie\nfür das Wohl aller.\pIch zähle auf dich, die Welt zu\nverändern…{PAUSE} und etwas zu bewirken.
-0x1F7B371: Für Mega-Entwicklung im Kampf muss ein Pokémon
-seinen {COLOR}ÉMega-Stein{COLOR}Ç tragen.\pPrüfe am {COLOR}ÉMega-Symbol{COLOR}Ç im Kampfmenü,
-ob es das kann.\pErscheint es, drücke {START_BUTTON} vor dem
-Angriff - dein Pokémon wird stärker.\pNur {COLOR}Éeinmal{COLOR}Ç pro Kampf, bis Kampfende
-oder Ohnmacht des Pokémon.\pNimm diese Macht…{PAUSE} für das Wohl
-der Menschheit.\pIch zähle auf dich, die Welt zu verändern…{PAUSE}
-und etwas zu bewirken.
+0x1F7B090: Ich verstehe.\pJa, ich finde auch,\n<0xFD><0x02> steht dir sehr gut.\pNun kannst du bei deinen Pokémon\neine <0xFC><0x01><0x06>Mega-Entwicklung<0xFC><0x01><0x04> auslösen.\pDamit ein Pokémon im Kampf eine\nMega-Entwicklung auslösen kann,\lmuss es seinen eigenen\l<0xFC><0x01><0x06>Mega-Stein<0xFC><0x01><0x04> tragen.\pAm <0xFC><0x01><0x06>Mega-Symbol<0xFC><0x01><0x04> im Kampfmenü\nerkennst du, ob das Pokémon eine\lMega-Entwicklung auslösen kann.\pErscheint es, drück <0xF8><0x04> vor der\nnächsten Attackenwahl.\pDein Pokémon führt dann eine\nMega-Entwicklung durch und wird\lstärker.\pDu kannst eine Mega-Entwicklung\nnur <0xFC><0x01><0x06>einmal<0xFC><0x01><0x04> pro Kampf auslösen.\lSie endet mit dem Kampf oder\lwenn das Pokémon kampfunfähig\lwird.\pNutze diese Kraft<0xB0><0xFC><0x08><0x18> zum Wohle der\nMenschheit.\pIch zähle darauf, dass du die\nWelt veränderst<0xB0><0xFC><0x08><0x18> und wirklich\letwas bewirkst<0xB0>
+0x1F7B371: Damit ein Pokémon im Kampf eine\nMega-Entwicklung auslösen kann,\lmuss es seinen eigenen\l<0xFC><0x01><0x06>Mega-Stein<0xFC><0x01><0x04> tragen.\pAm <0xFC><0x01><0x06>Mega-Symbol<0xFC><0x01><0x04> im Kampfmenü\nerkennst du, ob das Pokémon eine\lMega-Entwicklung auslösen kann.\pErscheint es, drück <0xF8><0x04> vor der\nnächsten Attackenwahl.\pDein Pokémon führt dann eine\nMega-Entwicklung durch und wird\lstärker.\pDu kannst eine Mega-Entwicklung\nnur <0xFC><0x01><0x06>einmal<0xFC><0x01><0x04> pro Kampf auslösen.\lSie endet mit dem Kampf oder\lwenn das Pokémon kampfunfähig\lwird.\pNutze diese Kraft<0xB0><0xFC><0x08><0x18> zum Wohle der\nMenschheit.\pIch zähle darauf, dass du die\nWelt veränderst<0xB0><0xFC><0x08><0x18> und wirklich\letwas bewirkst<0xB0>
 0x1F7B5D4: Ach ja, natürlich.\nDas hätte ich fast vergessen.\pNimm diesen Mega-Stein, denselben,\nden ich für Altaria benutze.
 0x1F7B647: Mega-Ring
 0x1F7B651: Mega-Armband
@@ -19270,7 +19264,7 @@ rührt sich nicht, und ich weiß nicht, wie\lman ihn weckt.\pDu siehst pfiffig a
 0x1F7CBC9: Cool. Wie soll der neue\nSpitzname lauten?
 0x1F7CBF6: Fertig! Dieses Pokémon heißt jetzt\n{STR_VAR_1}!\pEs sieht gleich aus, wirkt aber\nzehnmal stylischer!\pDu hast Glück!
 0x1F7CC79: Fertig! Dieses Pokémon heißt jetzt\n{STR_VAR_1}!\pDas ist besser als sein alter Name!\nDu bist mega swag!
-0x1F7CCE0: Hallo! \nIch bin Assistent von Prof. Log.\pWenn dein Pokédex alle Daten\nzu {COLOR}É{STR_VAR_1}{COLOR}Ç Spezies hat, muss ich\ldir eine Belohnung geben.\pAlso, {PLAYER}, ich frage dich.\pHast du Daten zu mindestens\n{COLOR}É{STR_VAR_1}{COLOR}Ç Spezies?
+0x1F7CCE0: Hallo! Ich bin Assistent von\nProf. Log.\pWenn dein Pokédex alle Daten\nzu <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> Spezies hat, muss\lich dir eine Belohnung geben.\pAlso, <0xFD><0x01>,\nich frage dich.\pHast du Daten zu mindestens\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> Spezies?
 0x1F7CDB3: Super! Du hast {COLOR}É{STR_VAR_3}{COLOR}Ç Pokémon-Spezies\ngefangen!\pGlückwunsch!\nHier!
 0x1F7CE03: Benutze {COLOR}ÉFluxfinder{COLOR}Ç, um versteckte\nGegenstände in deiner Nähe zu sehen.\pWenn du ihn benutzt, schau in die\nobere linke Ecke deines\lBildschirms.\pGibt es einen versteckten Gegenstand\nin der Nähe, zeigt das Symbol\lin seine Richtung.\pIst kein Gegenstand in der Nähe,\nsiehst du einen weißen Kreis.
 0x1F7CF37: …Oh. Ich verstehe.\pWenn du {COLOR}É{STR_VAR_1}{COLOR}Ç Pokémon-Spezies hast,\nkomm zurück.
@@ -19290,7 +19284,7 @@ rührt sich nicht, und ich weiß nicht, wie\lman ihn weckt.\pDu siehst pfiffig a
 0x1F7D4F8: Interessant…\pIch habe meiner Forschung Daten\nhinzugefügt.\pAls Nächstes würde ich gerne ein {COLOR}É{STR_VAR_1}{COLOR}Ë in\nseiner {COLOR}É{STR_VAR_3}{COLOR}Ë-Form sehen.
 0x1F7D56D: Interessant…\pEs scheint, dass aus irgendeinem Grund\ndie auftauchenden Pokémon\lnicht die richtigen sind…\pWar das dein Werk?\p…\pIn dem Fall ist das mehr als\ngenug!\pWer braucht schon Deerling?\pDieses Phänomen ist es wert,\nerforscht zu werden!
 0x1F7D668: Vielen Dank!\pDu warst eine große Hilfe für meine\nForschung!\pAuch wenn das Klima in Borrius\nkonstant bleibt, haben Deerling und\lSawsbuck Formen,\ldie von ihrer Umgebung\labhängen, nicht von der Jahreszeit…\pAch ja, deine Belohnung.
-0x1F7D749: Als Dank könnte ich\netwas…{PAUSE} für deine\lPokémon tun?\pWeißt du, ich habe ein Gerät, das\ndie {COLOR}ÉWesensart{COLOR}Ë eines Pokémon ändern kann, \lsein Wachstum verändern.\pIch kann die Prozedur an deinem\nPokémon durchführen, kostenlos, nur\ldieses eine Mal.\pAber wisse…{PAUSE} deinem Pokémon wird\ndas nicht gefallen, und es wird dich am Ende\lhassen…
+0x1F7D749: Wie wäre es, wenn ich als Dank\netwas<0xB0><0xFC><0x08><0x18> Nützliches für deine\lPokémon tue?\pIch habe ein Gerät, das das\n<0xFC><0x01><0x06>Wesen<0xFC><0x01><0x08> eines Pokémon ändert und\ldamit sein Wachstum\lbeeinflusst.\pDieses eine Mal führe ich den\nEingriff kostenlos bei deinem\lPokémon durch.\pAber bedenke<0xB0><0xFC><0x08><0x18> deinem Pokémon\nkönnte das missfallen. Danach\lwird es dich hassen<0xB0>
 0x1F7D8A3: Welche Wesensart eines Pokémon\nsoll ich ändern?
 0x1F7D8CB: Welche Wesensart soll ich\n{STR_VAR_1} geben?
 0x1F7D8EA: Die Wesensart <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>\nfür <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>?
@@ -19359,7 +19353,7 @@ den Vorsprung - ich weiß nur nicht, wie lange.\pHätte ich nur eine Grabmaschin
 0x1F7EB62: Was geschehen ist, ist geschehen.\pIch werde diese Jahre meines Lebens\nnie zurückbekommen.\pAlles, was ich tun kann, ist\nweiterzumachen.\pIch werde es nicht mehr brauchen.
 0x1F7EBF0: Das ist ein Mega-Stein für das\nPokémon {COLOR}ÉAmpharos{COLOR}Ë.\pNur die stärksten Trainer\nkönnen ihn richtig nutzen.\pLeb wohl, Trainer.
 0x1F7EC6C: Seit Jahren habe ich mich\nin dieser Höhle abgeschottet.\pNach all dieser Zeit bin ich\nder stärkste Trainer hier.\pWenn du mich für diesen Titel\nherausfordern willst, besiege zuerst\lalle anderen Trainer.
-0x1F7ED32: Zzzz<0xB0>\p<0xFC><0x01><0x02>Sie scheint an ihrem Posten\neingeschlafen zu sein.\pBesser, du gehst woanders vorbei.
+0x1F7ED32: Zzzz<0xB0>\p<0xFC><0x01><0x02>Sie scheint an ihrem Posten\neingeschlafen zu sein.\pBesser, du gehst woanders\nvorbei.
 0x1F7ED85: Warum so eilig?\pDu wirst nicht bis zu Zapdos kommen,\negal wie schnell du bist!
 0x1F7EDD0: Na gut, dann eben nicht…
 0x1F7EDE8: Selbst wenn du schnell rennst, gibt es\ngenug Leute, die dich aufhalten!
@@ -19377,7 +19371,7 @@ den Vorsprung - ich weiß nur nicht, wie lange.\pHätte ich nur eine Grabmaschin
 0x1F7F061: Beeil dich, Kleiner.\pWenn diese Erschütterungen das bedeuten,\nwas ich glaube…
 0x1F7F0B6: Halt!\nWie bist du am Wächter vorbeigekommen?
 0x1F7F0DA: Na ja, das erklärt viel mehr, als\nes sollte…
-0x1F7F10F: Ich kann mir vorstellen, was die Chefs\nmit ihm machen werden…\p…\pMoment, ich habe doch auch versagt, oder?\pAah! Verzeihung, Herr Marlon!\pLassen Sie mich nicht die\nSchattenkrieger füttern! Gnade!
+0x1F7F10F: Ich kann mir vorstellen, was die\nChefs mit ihm machen werden<0xB0>\p<0xB0>\pMoment, ich habe doch auch\nversagt, oder?\pAah! Verzeihung, Herr Marlon!\pLassen Sie mich nicht die\nSchattenkrieger füttern! Gnade!
 0x1F7F1B8: Der Berg hat eine schöne Aussicht,\nfindest du nicht?\pSchade um die Pokémon, die\nhier leben.\pAber genau deshalb sind wir sie\nlosgeworden!
 0x1F7F23D: Trotz meiner Wut bleibe ich ein\nRattfratz im Käfig…
 0x1F7F272: Die Pokémon hier waren im Weg,\nalso haben wir sie eingesammelt\lund in den Elektrokäfig gesperrt.\pWie öffnet man ihn?\pHa! Das werde ich dir nie verraten!
@@ -19466,14 +19460,14 @@ Training gelohnt - Wahnsinn aus Machtgier muss\lbelohnt werden!\pTrainer, hast d
 verbessere sie gern, brauche dafür nur\l{COLOR}É{STR_VAR_1}s{COLOR}Ë!\pEinen {STR_VAR_1} gibt's pro Tag beim Zerschlagen
 des {COLOR}ÉHerausforderungsfels{COLOR}Ë hier.\pNimm ein {COLOR}ÉKampf{COLOR}Ë-Pokémon und schlag
 dich durch!
-0x1F8091F: Sei gegrüßt, Verrückter unter Verrückten!\pWenn du willst, zahl mir {COLOR}É{STR_VAR_3} {STR_VAR_1}{COLOR}Ë\nund ich verbessere alle deine\l{COLOR}ÉKraft-Items{COLOR}Ë auf {COLOR}É<0x34> {STR_VAR_2}{COLOR}Ë!
+0x1F8091F: Sei gegrüßt, Verrückter unter\nVerrückten!\pZahl mir <0xFC><0x01><0x06><0xFD><0x04> <0xFD><0x02><0xFC><0x01><0x08>\nund ich verbessere alle deine\l<0xFC><0x01><0x06>Machtitems<0xFC><0x01><0x08> auf <0xFC><0x01><0x06><0x34> <0xFD><0x03><0xFC><0x01><0x08>!
 0x1F809B9: {COLOR}ÁDas Level der Kraft-Items ist\nauf <0x34> {STR_VAR_2} gestiegen!\pPokémon erhalten jetzt\nFleißpunkte {COLOR}É{EVIL_LEGENDARY}{COLOR}Á, wenn sie getragen werden.
 0x1F80A3A: Sammle die Sterne von Borrius\nund komm zurück!
 0x1F80A6A: Leider fehlen dir {COLOR}É{STR_VAR_3} {STR_VAR_1}{COLOR}Ë\num deine Kraft-Items zu verbessern.\pVerdiene mehr Sterne\nund komm zurück!
-0x1F80AD5: Mit deinen Kraft-Items auf Maximalstufe\nwerden deine Pokémon zusätzliche\lFleißpunkte {COLOR}É{EVIL_LEGENDARY}{COLOR}Ë erhalten,\lwenn das Item getragen wird!\pSag mir, dass das nicht verrückt ist,\nVerrückter unter Verrückten!
+0x1F80AD5: Mit deinen Machtitems auf\nMaximalstufe erhalten\ldeine Pokémon zusätzlich\l<0xFC><0x01><0x06><0xFD><0x0C><0xFC><0x01><0x08> Fleißpunkte,\lwenn sie eines tragen!\pSag mir, dass das nicht verrückt\nist, Verrückter unter Verrückten!
 0x1F80B7B: {DPAD_ANY}Bewegen {SE_SHOP}Nehmen {B_BUTTON}Verlassen
-0x1F80B91: {DPAD_ANY}Bewegen {SE_SHOP}Ablegen {B_BUTTON}Zurück
-0x1F80BA8: {DPAD_ANY}Bewegen {SE_SHOP}Verschieben {B_BUTTON}Verlassen
+0x1F80B91: <0xF8><0x0C>Bewegen <0xF8><0x00>Ablegen <0xF8><0x01>Zurück
+0x1F80BA8: <0xF8><0x0C>Bewegen <0xF8><0x00>Schieben <0xF8><0x01>Ende
 0x1F80BBE: Dieses Bild muss neu erstellt werden,\num fortzufahren!{PAUSE_UNTIL_PRESS}
 0x1F80BE9: Puzzle aufgeben?
 0x1F80C18: Ein antikes Grabmal, das angeblich die\nletzte Ruhestätte von König Borrius III. ist.\nMan sagt, ein Schatz erwarte\njeden, der die\nGrabkammer erreichen kann.
@@ -19518,13 +19512,13 @@ dich durch!
 0x1F81EBB: Juni
 0x1F81EC1: Juli
 0x1F81F2F: Es hat in der Wand geklirrt!\n{STR_VAR_1} bestätigt!
-0x1F81F5B: Also, hör gut zu, Kleiner!\pDu wirst mit meinem eigenen\nHammer und meiner Spitzhacke graben!\pDrück {SE_SHOP}, um allerlei\nSachen auszugraben!\pWenn du das Werkzeug wechseln willst,\ndrück {L_BUTTON} oder {R_BUTTON}!\pIch bin sicher, du kannst einen\nSchatz bergen, bevor die Wand einstürzt.\pDu schaffst das!\nViel Glück!
-0x1F82087: …\pOh? Eine Notiz, die\nam ADM klebt.\p"Schatzsuche!"\pDer ADM ist mit seinem\neigenen Hammer und seiner Spitzhacke ausgestattet!\pDrück {SE_SHOP}, um allerlei\nSachen auszugraben!\pWenn du das Werkzeug wechseln willst,\ndrück {L_BUTTON} oder {R_BUTTON}!\pIch bin sicher, du kannst sie bergen,\nbevor die Wand zu Boden\lstürzt!\pDu schaffst das!\nViel Glück!
+0x1F81F5B: Also, hör gut zu!\pDu gräbst mit meinem eigenen\nVorschlaghammer und meiner\lSpitzhacke!\pDrück <0xF8><0x00>, um allerlei Sachen\nauszugraben!\pWenn du das Werkzeug wechseln\nwillst, drück <0xF8><0x02> oder <0xF8><0x03>!\pDu kannst bestimmt Schätze\nbergen, bevor die Wand\leinstürzt.\pDu schaffst das! Viel Glück!
+0x1F82087: <0xB0>\pOh? Im ADM klebt eine Notiz.\p<0xB1>Auf Schatzsuche!<0xB2>\pDer ADM hat einen eigenen\nVorschlaghammer und eine\lSpitzhacke!\pDrück <0xF8><0x00>, um allerlei Sachen\nauszugraben!\pWenn du das Werkzeug wechseln\nwillst, drück <0xF8><0x02> oder <0xF8><0x03>!\pDu kannst sie bestimmt bergen,\nbevor die Wand einstürzt!\pDu schaffst das! Viel Glück!
 0x1F821E0: Die Wand ist eingestürzt!
 0x1F821F4: Alles wurde geborgen!
 0x1F8220B: A{STR_VAR_2} {STR_VAR_1}\nwurde gefunden.
 0x1F8221D: A{STR_VAR_2} {STR_VAR_1}\nwurde gefunden.\pSchade! Dafür ist kein Platz\nim Würfel.
-0x1F82262: Der R-Tasten-Modus ist auf\nMinen-Analyse eingestellt.\pAuf dem {COLOR}ÉKBT Expressway{COLOR}Á, im\n{COLOR}ÉSeitenraum{COLOR}Á von {COLOR}ÉCrystal Peak 1F{COLOR}Á, oder\l{COLOR}Éunter Wasser{COLOR}Á, drück {R_BUTTON}, um\nnach versteckten Objekten\lzu suchen.\pWenn ein Schimmer an der Wand erscheint,\ndrück {SE_SHOP}, um dort zu graben.{PAUSE_UNTIL_PRESS}
+0x1F82262: Der R-Tasten-Modus ist auf\nMinen-Analyse eingestellt.\pIm <0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x02>, im\n<0xFC><0x01><0x06>Seitenraum<0xFC><0x01><0x02> auf <0xFC><0x01><0x06>Crystal Peak 1F<0xFC><0x01><0x02>\loder <0xFC><0x01><0x06>unter Wasser<0xFC><0x01><0x02> kannst du mit <0xF8><0x03>\lnach versteckten Items suchen.\pWenn die Wand funkelt, drück <0xF8><0x00>,\num dort zu graben.<0xFC><0x09>
 0x1F82358: Underground Pass
 0x1F82369: Ein Tunnel, der Tehl Town mit\nRoute 9 verbindet.\nEnthusiasten haben dort eine\ntägliche Herausforderung eingerichtet.
 0x1F823C3: Wirst du der Nächste sein, der\nunsere tägliche Herausforderung wagt?\pErreiche das andere Ende des Tunnels\nin weniger als 15 Sekunden, um einen\lfantastischen Preis zu gewinnen!
@@ -19956,8 +19950,8 @@ aus unbekanntem Grund offen.
 0x1F8A9C6: Welche Kampf-Show möchtest du?
 0x1F8A9E8: Ich bringe dich zur\nKampf-Show.
 0x1F8AA10: Ich bringe dich zur\nKampf-Lounge.
-0x1F8AA39: Der Battle Circus bietet Solo-,\nDuo- und Multi-Kämpfe.\pDeine Herausforderung dauert an, bis du\ndie Zirkusdirektorin besiegst\loder eine Pause wählst.\pIm Solo-Format trittst du mit\ndrei oder sechs Pokémon an.\pIm Duo-Format trittst du mit\nvier oder sechs Pokémon an.\pDie Kämpfe finden in\nder Hauptarena statt.\pVor jedem Kampf aktiviert die\nZirkusdirektorin einen zufälligen Effekt\lfür die Dauer des Kampfes.\pDieser Effekt ist dauerhaft und kann\nnicht entfernt oder überschrieben werden.\pDiese Effekte verstärken sich,\nje höher deine Siegesserie steigt.\pFür jeden besiegten Trainer\nerhältst du {COLOR}ÉKampfpunkte{COLOR}Ë ({COLOR}ÉBP{COLOR}Ë).\pUnterbrichst du deine Herausforderung,\nwird dein Fortschritt gespeichert,\lbis du weitermachen willst.\pGehst du ohne zu speichern,\nwirst du disqualifiziert.\pBitte denk daran!
-0x1F8ADD8: Der Battle Circus ist ein Ort für\ndie Solo-, Duo- und Multi-\lHerausforderungen im Kampf.\pIst deine Herausforderung erst gestartet, dauert sie\nan, bis du die Zirkusdirektorin\ldes Battle Circus besiegst oder dich zum Ausruhen entscheidest.\pDie Multi-Show des Battle Circus\nist für Multi-Kämpfe mit einem\lPartner.\pUm teilzunehmen, schließ dich einem anderen\nTrainer an und tretet mit zwei oder\ldrei Pokémon pro Person an.\pUnter dem Battle Circus befindet sich ein Raum\nnamens Kampf-Lounge, wo du\landere Trainer treffen kannst.\pDort kannst du einen Partner\nfür Multi-\lKämpfe finden.\pDu kannst dich auch mit einem\nFreund über ein Link-Kabel zusammentun.\pSeid ihr zu zweit, werdet ihr\nzur Hauptarena gebracht.\pIn der Arena werden dich Staffel-Teams\nherausfordern.\pVor jedem Kampf aktiviert die\nZirkusdirektorin einen zufälligen Effekt\lfür die gesamte Dauer des Kampfes.\pDieser Effekt ist dauerhaft und kann\nnicht entfernt oder ignoriert werden.\pDiese Effekte können auch an\nIntensität gewinnen und sich verstärken, wenn deine\lSiegesserie steigt.\pWenn du jedes Team besiegst,\nerhältst du Kampfpunkte (BP).\pWenn du deine Herausforderung unterbrechen willst, wird dein\nFortschritt\lgespeichert, für wann immer du\lfortsetzen möchtest.\pWenn du gehst, ohne zu speichern,\nwirst du von deiner\lHerausforderung disqualifiziert.\pWenn du mit einem Freund im Duo bist,\nkannst du die Herausforderung nicht\lunterbrechen.\pBitte denk daran!
+0x1F8AA39: Der Battle Circus bietet\nEinzel-, Doppel- und\lMultikämpfe.\pDeine Herausforderung dauert an,\nbis du die Zirkusdirektorin\lbesiegst oder eine Pause\leinlegst.\pIm Einzelkampf trittst du mit\ndrei oder sechs Pokémon an.\pIm Doppelkampf trittst du mit\nvier oder sechs Pokémon an.\pDie Kämpfe finden in der\nHauptarena statt.\pVor jedem Kampf aktiviert die\nZirkusdirektorin einen zufälligen\lEffekt für den ganzen Kampf.\pDieser Effekt ist dauerhaft. Du\nkannst ihn weder entfernen noch\lüberschreiben.\pMit steigender Siegesserie können\ndie Effekte stärker werden und\lsich überlagern.\pFür jeden besiegten Trainer\nerhältst du <0xFC><0x01><0x06>Gewinnpunkte<0xFC><0x01><0x08> (<0xFC><0x01><0x06>GP<0xFC><0x01><0x08>).\pBei einer Pause wird dein\nFortschritt gespeichert, bis du\lweitermachst.\pGehst du ohne zu speichern,\nwirst du disqualifiziert.\pBitte denk daran!
+0x1F8ADD8: Der Battle Circus bietet\nEinzel-, Doppel- und\lMultikämpfe.\pDeine Herausforderung dauert an,\nbis du die Zirkusdirektorin\lbesiegst oder eine Pause\leinlegst.\pIn der Multi-Show kämpfst du\ngemeinsam mit einem Partner.\pSchließ dich einem anderen\nTrainer an und tretet mit je\lzwei oder drei Pokémon an.\pUnter dem Battle Circus liegt\nder Battle Salon. Dort triffst du\landere Trainer.\pDort kannst du einen Partner für\ndie Multikämpfe finden.\pDu kannst auch per Link-Kabel\nmit einem Freund antreten.\pSobald ihr ein Team bildet,\nwerdet ihr zur Hauptarena\lgebracht.\pDort fordern euch andere\nZweierteams heraus.\pVor jedem Kampf aktiviert die\nZirkusdirektorin einen zufälligen\lEffekt für den ganzen Kampf.\pDieser Effekt ist dauerhaft. Du\nkannst ihn weder entfernen noch\lüberschreiben.\pMit steigender Siegesserie können\ndie Effekte stärker werden und\lsich überlagern.\pWenn ihr jedes Team besiegt,\nerhaltet ihr Gewinnpunkte (GP).\pBei einer Pause wird dein\nFortschritt gespeichert, bis du\lweitermachst.\pGehst du ohne zu speichern,\nwirst du disqualifiziert.\pSpielst du mit einem Freund,\nkannst du die Herausforderung\lnicht unterbrechen.\pBitte denk daran!
 0x1F8B2D9: Für deine Kämpfe kannst du\ndie folgenden Einstellungen anpassen:\p-Kampfniveau\n-Pokémon-Level\l-Anzahl der Pokémon pro Team\l-Kampfmusik\l-Kampfszenerie
 0x1F8B36E: Glückwunsch zu deinem Sieg über\ndie Zirkusdirektorin!\pWir hoffen, dich bald wiederzusehen!
 0x1F8B3BC: Zirkusdirektorin
@@ -20002,7 +19996,7 @@ bedeutet Disqualifikation.\pDenk daran!
 0x1F8C5FF: Über welche Niveaugruppe möchtest du\nmehr erfahren?
 0x1F8C62C: Beachte, dass der Minengräber in\ndiesem Format nicht herausgefordert werden kann.\pÜber welche Niveaugruppe möchtest du\nmehr erfahren?
 0x1F8C69E: Über welches Niveau von {COLOR}É{STR_VAR_1}{COLOR}Ë\nmöchtest du mehr erfahren?
-0x1F8C6D7: Entschuldige, dein Team ist für\ndieses Format nicht zulässig.\pEs gibt ein Problem mit deinem\n{STR_VAR_1}.\pÜberprüfe die im gewünschten Format\nenthaltenen Niveaus und stelle sicher,\ldass dein Team aus {COLOR}É6{COLOR}Ë\lPokémon jedes davon besteht.
+0x1F8C6D7: Entschuldige, dein Team ist für\ndieses Format nicht zugelassen.\pEs gibt ein Problem\nmit: <0xFD><0x02>.\pPrüfe die Kampfklassen dieses\nFormats. Dein Team aus <0xFC><0x01><0x06>6<0xFC><0x01><0x08>\lPokémon muss die Regeln jeder\lKlasse erfüllen.
 0x1F8C7C5: Steig in den Wagen hinter mir\nund fahr hinab in die Mine.
 0x1F8C803: Glückwunsch zu deinem Sieg über\nden Minengräber!\pKomm uns bald wieder besuchen!
 0x1F8C84E: Höhlenformat
@@ -20017,18 +20011,18 @@ bedeutet Disqualifikation.\pDenk daran!
 0x1F8CC05: Pablo
 0x1F8CC0B: Na, du hast es bis hierher geschafft.\pIch hörte den Krach von oben,\nalso ahne ich deinen Kampfstil.\pIch schufte Tag für Tag in\ndieser Mine…\pUnd warte auf jemanden, der gut\ngenug ist, herzukommen…\pUnd wofür?\pNiemand hinterlässt Eindruck.\pAber nach dem, was ich hörte,\nhast du wohl etwas Gutes zu zeigen.\pLos geht's.\nMal sehen, ob du meine Langeweile vertreibst.
 0x1F8CD94: Na, du hast mich also gefunden.\pUnd wenn du derjenige warst, den ich\noben gehört habe, hast du deine Klinge\lwirklich geschärft.\pNa gut, das verspricht was!\pIch habe die ganze Zeit gewartet…\p…auf den Trainer, der wirklich seine\ninnere Kraft gegen mich\lentfesseln kann!\pSchlag mich mit allem, was du hast!
-0x1F8CEAA: Ich schätze, der Tag war nicht\numsonst, da jemand wie du kam.\pKomm wieder vorbei, wenn ich mein\nernsthaftestes Team aufgestellt habe.\pDann will ich einen ECHTEN\nEindruck von dir.\pEinen Eindruck, den man nur erreicht,\nwenn beide alles geben.\pViel Glück beim Weitervordringen\nin die Mine.\pEs wird von hier an schwerer.\pBis später…{PAUSE} vielleicht…
+0x1F8CEAA: Der Tag war wohl nicht ganz\numsonst, wenn jemand so Gutes\lwie du auftaucht.\pKomm wieder, wenn ich mein\nstärkeres Team zusammengestellt\lhabe.\pDann will ich, dass du mich\nWIRKLICH beeindruckst.\pDas geht nur, wenn beide Trainer\nalles geben.\pBis dahin viel Glück auf dem Weg\ntiefer in die Mine.\pAb hier wird es nur noch\nschwerer.\pBis später<0xB0><0xFC><0x08><0x18> vielleicht<0xB0>
 0x1F8D026: Also, du verstehst die Art von\nTrainer, die ich suche.\pKämpfe erlauben es Trainern,\neinander zu verstehen.\pStrategien, Fähigkeiten, Pokémon…\nman kann viel voneinander\llernen.\pAber das Wichtigste ist, dass ein\nTrainer sein Herz hineinlegt.\pUnd das war ein ganz schöner Kampf, den\ndu mir heute gezeigt hast!\pGeh weiter in die Mine hinein\nund zeig ihnen\ldeinen Glanz!
 0x1F8D1AB: Glückwunsch!\pDein Sieg über den Minengräber\nwar eine Inspiration!\pUm deinem Talent Tribut zu zollen,\npräsentieren wir dir BP!
 0x1F8D227: Minengräber
 0x1F8D236: Manche Typmatchups in der\nBattle Mine sind schwierig,\lda mitzuhalten.\pDieses Pokémon hat diesen Typ, jenes\nist schwach gegen jene Attacke…\lEs ist wirklich viel.\pDa sollte man wohl die Hervorhebung\nim Fähigkeitenmenü nutzen,\lwürde ich sagen.
-0x1F8D35A: Ihr werdet gegen Gegner\nNr. {COLOR}É{STR_VAR_1}{COLOR}Ë antreten. Bereit?
-0x1F8D393: Ihr werdet gegen Gegner\nNr. {COLOR}É{STR_VAR_1}{COLOR}Ç antreten. Bereit?
+0x1F8D35A: Du trittst gegen Gegner Nr.\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> an. Bist du bereit?
+0x1F8D393: Du trittst gegen Gegner Nr.\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> an. Bist du bereit?
 0x1F8D3CC: Möchtet ihr mit einem weiteren\nMetronom-Kampf fortfahren?
-0x1F8D406: Euer Gegner wird diese\nPokémon einsetzen.\p{SE_SHOP} Neuen Start wählen\n{B_BUTTON} {STR_VAR_1} einsetzen
-0x1F8D44F: Euer Gegner wird diese\nPokémon einsetzen.\p{SE_SHOP} Neue Starts wählen\n{B_BUTTON} {STR_VAR_1} & {STR_VAR_2} einsetzen
-0x1F8D49E: Das Kampfzonen-Genie wird diese\nPokémon einsetzen.\p{SE_SHOP} Neuen Start wählen\n{B_BUTTON} {STR_VAR_1} einsetzen
-0x1F8D4EC: Das Kampfzonen-Genie wird diese\nPokémon einsetzen.\p{SE_SHOP} Neue Starts wählen\n{B_BUTTON} {STR_VAR_1} & {STR_VAR_2} einsetzen
+0x1F8D406: Dein Gegner setzt diese Pokémon\nein.\p<0xF8><0x00>Spitze ändern\n<0xF8><0x01>Vorn: <0xFD><0x02>
+0x1F8D44F: Dein Gegner setzt diese Pokémon\nein.\p<0xF8><0x00>Spitze ändern <0xF8><0x01>Vorn:\n<0xFD><0x02> & <0xFD><0x03>
+0x1F8D49E: Die Kampfkoryphäe setzt diese\nPokémon ein.\p<0xF8><0x00>Spitze ändern\n<0xF8><0x01>Vorn: <0xFD><0x02>
+0x1F8D4EC: Die Kampfkoryphäe setzt diese\nPokémon ein.\p<0xF8><0x00>Spitze ändern <0xF8><0x01>Vorn:\n<0xFD><0x02> & <0xFD><0x03>
 0x1F8D540: Glückwunsch zu deiner Siegesserie,\nHerausforderer!\pDer <0xFD><0x02> hat wissen lassen,\ndass <0xFD><0x03> von dir beeindruckt ist.\p<0xFD><0x04> sieht dein Talent, und\n<0xFD><0x03> will dich herausfordern!\pBist du bereit, gegen den\n<0xFD><0x02> anzutreten?
 0x1F8D608: <0xFD><0x01> erhält <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x02> BP!
 0x1F8D621: Palmer
@@ -20076,7 +20070,7 @@ bedeutet Disqualifikation.\pDenk daran!
 0x1F8E1FB: Wie geht's, Freund?\nWillkommen im Battle Sands!
 0x1F8E229: Willst du mitspielen?
 0x1F8E23E: Welches Format möchtest du?\nSolo oder Duo?
-0x1F8E271: Der Battle Sands ist ein Ort\nfür Solo- und Duo-Kämpfe.\pIn Solo-Kämpfen müssen zwei Pokémon\nangemeldet werden.\pIn Duo-Kämpfen müssen drei Pokémon\nangemeldet werden.\pHier ist die Besonderheit: Du kämpfst\nnicht wirklich selbst.\pDie Pokémon, die du hier anmeldest,\nwerden von einem Freiwilligen übernommen und\lfür dich eingesetzt, um zu kämpfen.\pDu wirst gefragt, ob deine\nPokémon angreifen oder wechseln sollen,\laber die endgültige Entscheidung\lliegt beim Trainer, der deine\lPokémon kontrolliert.\pWenn dieser Trainer Kämpfe gewinnt,\nwerden {COLOR}ÉKampfpunkte{COLOR}Ë ({COLOR}ÉBP{COLOR}Ë) verdient.\pDu kannst die Kämpfe jederzeit\nbeenden, aber sei dir bewusst, dass die\lSerie dann vorbei ist.\pOb der Trainer einen Kampf verliert oder\ndu dich entscheidest zu gehen, du\lerhältst die verdienten BP.\pGehst du ohne zu speichern, verlierst\ndu die angesammelten BP.\lNur damit du es weißt.\pOh, ich habe vergessen: Ein Pokémon pro Seite\perhält einen zufälligen Statusbonus\nzu\lBeginn des Kampfes.\lBehalte das im Hinterkopf.\pWähl deine Pokémon\ngut aus.
+0x1F8E271: Battle Sands bietet Einzel- und\nDoppelkämpfe.\pFür Einzelkämpfe meldest du zwei\nPokémon an.\pFür Doppelkämpfe meldest du\ndrei Pokémon an.\pDas Besondere hier: Du kämpfst\nnicht selbst.\pEin Freiwilliger übernimmt deine\nPokémon und kämpft für dich.\pDu darfst wählen, ob deine\nPokémon angreifen oder wechseln\lsollen. Doch der Trainer, der\lsie führt, entscheidet letztlich\lselbst.\pGewinnt dieser Trainer Kämpfe,\nsammelst du <0xFC><0x01><0x06>Gewinnpunkte<0xFC><0x01><0x08> (<0xFC><0x01><0x06>GP<0xFC><0x01><0x08>).\pDu kannst die Kämpfe jederzeit\nbeenden. Damit endet aber auch\ldeine Siegesserie.\pOb der Trainer verliert oder du\naufhörst: Du erhältst die\lgesammelten GP als Gewinn.\pGehst du ohne zu speichern,\nverlierst du alle gesammelten\lGP.\pBitte denk daran.\pOh, noch etwas: Ein Pokémon auf\njeder Seite erhält zu\lKampfbeginn einen zufälligen\lStatuswert-Boost.\pDenk daran, wenn du deine\nPokémon wählst.
 0x1F8E686: Für deine Kämpfe kannst du die\nfolgenden Einstellungen anpassen:\p-Kampfniveau\n-Pokémon-Niveau\l-Invertierter Kampf\l-Kampfmusik\l-Kampfhintergrund
 0x1F8E70F: Im GS-Cup-Format sind bis zu zwei\neingeschränkte Pokémon pro\lTeam erlaubt.\pZu diesen Pokémon gehören: Mewtu,\nLugia, Ho-Oh, Groudon, Kyogre,\lRayquaza, Dialga, Palkia, Giratina,\lReshiram, Zekrom, Kyurem, Xerneas,\lYveltal, Zygarde, Solgaleo, Lunala,\lund Necrozma.\pAußerdem sind doppelte Spezies oder\nItems verboten.\pDieses Niveau ist nur im\nDoppelformat verfügbar.
 0x1F8E87E: Bis bald, Freund.
@@ -22091,21 +22085,21 @@ threads/averagemons.3590605/
 0x1f546d6: Diese TM wurde östlich im Sumpf\nnach Surfer gefunden.
 0x1f54716: Ein Clown gab dir diese TM,\nnachdem du ihm bei der Flucht halfst.
 0x1f54752: Diese TM wurde auf dem\nMarktplatz gekauft.
-0x1f5477c: Diese TM wurde östlich der Route\nnach Einsatz von Zerschneider gefunden.
-0x1f547bd: Der Mann für Kraftreserve gab dir\ndiese TM in seinem Haus.
+0x1f5477c: Diese TM lag im Osten der\nRoute, nach Einsatz von\nZerschneider.
+0x1f547bd: Der Mann für Kraftreserve gab\ndir diese TM in seinem Haus.
 0x1f547f9: Ein Clown gab dir diese TM,\nnachdem du ihm Solrock oder\nSolgaleo gezeigt hast.
 0x1f54842: Diese TM war hinter\ndem Poké Mart versteckt.
-0x1f5486c: Diese TM wurde im 4F nach\ndem Sieg über zwei Ass-Trainer gefunden.
-0x1f548ac: Diese TM wurde im UG1 nach\ndem Schieben eines Felsens ins Loch gefunden.
-0x1f548ea: Diese TM wurde im 4F gekauft.
+0x1f5486c: Diese TM lag im 3. OG, nach\ndem Sieg über zwei\nAss-Trainer.
+0x1f548ac: Diese TM lag im 1. UG, nachdem\nein Fels in ein Loch fiel.
+0x1f548ea: Diese TM wurde im 3. OG\ngekauft.
 0x1f54907: Diese TM wurde für\n2000 Münzen gekauft.
 0x1f5492d: Diese TM wurde auf dem\nMarktplatz gekauft.
-0x1f54957: Ein Clown gab dir diese TM,\nnachdem du ihn im Versteck fandest.
-0x1f54993: Diese TM wurde mit Zerschneider\nnahe dem Ausgang zur Cube Corp. gefunden.
+0x1f54957: Ein Clown gab dir diese TM,\nnachdem du ihn im Versteck\nfandest.
+0x1f54993: Diese TM lag nahe Cube Corp.,\nerreichbar mit Zerschneider.
 0x1f549d1: Diese TM wurde für 16 GP\nim Laden gekauft.
-0x1f54a00: Diese TM wurde im UG1 nach\ndem mühsamen Überqueren des\nrissigen Bodens gefunden.
-0x1f54a51: Diese TM wurde unter einer\nBaumkrone im südlichen Teil der\nöstlichen Routenhälfte gefunden.
-0x1f54aac: Diese TM wurde nach dem Auftauchen\nmit dem ADM gefunden.
+0x1f54a00: Diese TM lag im 1. UG, hinter\ndem lästigen rissigen Boden.
+0x1f54a51: Diese TM lag unter einer\nBaumkrone im Süden der\nöstlichen Routenhälfte.
+0x1f54aac: Diese TM wurde nach dem\nAuftauchen mit dem ADM\ngefunden.
 0x1f54ade: Diese TM wurde im EG nahe dem\nEingang von Epidimy Town mit\nSurfer gefunden.
 0x1f54b25: Diese TM wurde nahe dem Gipfel\nmit Kraxler gefunden.
 0x1f9703a: Huah!<0xFB>Bei <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> kann ich den <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>-Wert\num <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> Punkte erhöhen!<0xFB>Soll ich das tun?
@@ -22743,3 +22737,21 @@ threads/averagemons.3590605/
 0x1f2171a: Übersetze.<0xFC><0x08><0x30>.<0xFC><0x08><0x30>.<0xFC><0x08><0x30>
 0x1f2bab6: <0xFC><0x01><0x04>Ach<0xB0> Wie traurig<0xB0>
 0x1f2f24d: Du da!
+0x1f5a560: In Box <0xB1><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08><0xB2>\nsind keine Eier<0xB0>
+0x1f5ad77: <0xFC><0x01><0x02><0xFD><0x02> verschwand.
+0x1f63c25: Du möchtest <0xFD><0x02><0xFC><0x01><0x04>?
+0x1f68177: <0xFC><0x01><0x02><0xFD><0x02> lief davon<0xB0>
+0x1f6dde6: <0xFC><0x01><0x02><0xFD><0x01>\nübergab: <0xFD><0x0C>
+0x1f6f5fb: EG
+0x1f6f5fe: UG1
+0x1f6f602: UG2
+0x1f6f606: UG3
+0x1f7c8a2: Mädel
+0x1f809a0: <0xFC><0x01><0x02><0xFD><0x01> übergab\n<0xFD><0x03> <0xFD><0x02>.
+0x1f81eaa: Mär.<0x00>
+0x1f81eb6: Mai<0x00>
+0x1f81ed3: Okt.<0x00>
+0x1f81edf: Dez.<0x00>
+0x1f84ef2: <0xFC><0x01><0x02><0xFD><0x02> lief an\neinen Ort in der Nähe.
+0x1f84f14: <0xFC><0x01><0x02><0xFD><0x02> lief davon.
+0x1f8d32c: Deine Pokémon werden vollständig\ngeheilt.
