@@ -26,6 +26,8 @@ def test_scope_glossary_and_exceptions():
         if row['status'] == 'exception':
             assert off not in TEXTS
             assert row['reason'] and not row['pointer_byte_matches']
+            # Un suffixe exclu reste strictement dans le champ nom de sa cellule.
+            assert 0 < off - int(row['cell'], 16) < 14
         else:
             expected = 'Poção' if row['source_text'] == 'Potion' else row['source_text']
             assert TEXTS[off] == expected == row['expected']

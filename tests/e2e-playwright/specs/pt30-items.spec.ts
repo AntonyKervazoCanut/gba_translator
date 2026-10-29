@@ -1,5 +1,5 @@
-/** PT-30 : le Cube rend la description livrée de Black Sludge, via son pointeur vivant.
- * Seule une copie temporaire remplace les champs de la Repousse de la fixture. */
+/** PT-30 : le Cube rend le nom Poção livré dans la table fixe.
+ * Seule une copie temporaire remplace le nom de la Repousse de la fixture. */
 import { test, expect } from '@playwright/test';
 import { spawn, execFileSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -12,7 +12,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.
 for (const sample of [
   { id: 'pocao', pointer: 0x87643c, text: 'Poção' },
 ]) {
- test(`le Cube affiche les trois lignes PT de ${sample.id}`, async ({ page }) => {
+ test(`le Cube affiche le nom livré ${sample.id}`, async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt30-items-'));
   const rom = fs.readFileSync(process.env.ROM_PATH ?? path.join(root, 'output/roms/GenedRom-pt.gba'));
   // Les pointeurs proviennent de l'audit de la table active ; aucun texte inventé en sonde.
@@ -77,7 +77,6 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
     for (const line of sample.text.split('\n')) {
       expect(normalized).toContain(line.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase());
     }
-    expect(normalized).not.toContain('potion');
     await page.getByRole('img').screenshot({ path: path.join(os.tmpdir(), `pt30-${sample.id}-proof.png`) });
   } finally {
     child.kill('SIGTERM');

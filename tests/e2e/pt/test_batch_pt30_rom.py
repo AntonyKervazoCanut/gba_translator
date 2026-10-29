@@ -18,7 +18,8 @@ def test_built_pt30_fixed_item_names():
     for row in audit['entries']:
         off = int(row['offset'], 16)
         if row['status'] == 'exception':
-            assert rom[off:off + 14] == source[off:off + 14]
+            end = int(row['cell'], 16) + 14
+            assert rom[off:end] == source[off:end]
         else:
             encoded = TextEncoder.encode_pokemon(row['expected'], strict=True)
             assert rom[off:off + len(encoded)] == encoded, row['offset']
