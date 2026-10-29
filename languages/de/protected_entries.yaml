@@ -4560,7 +4560,7 @@ entries:
 - offset: '0x26d524'
   name: English toponym canonicalisation 0x26D524
   issue: DE — English toponyms
-  expected: Jetzt, wo der Eingang zum SES Expressway nicht mehr versiegelt ist,\lkonnte ich endlich trainieren!\pSag mal, willst du gegen meine\nfrisch trainierten Pokémon kämpfen?
+  expected: 'Der SES Expressway ist nun\nnicht mehr versiegelt.\lEndlich konnte ich trainieren!\pWillst du gegen meine frisch\ntrainierten Pokémon kämpfen?'
 - offset: '0x270fa1'
   name: English toponym canonicalisation 0x270FA1
   issue: DE — English toponyms
@@ -5502,7 +5502,7 @@ entries:
 - offset: '0x1a6046'
   name: English toponym canonicalisation 0x1A6046
   issue: DE — English toponyms
-  expected: Ah, perfekt! Du und deine Pokémon\nseht viel besser aus.\pWenn die KP deiner Pokémon niedrig sind,\nheile sie in einem\p{COLOR}ÉPokémon Center{COLOR}Ç!\nDas nächste von hier ist in\p{COLOR}ÉBellin Town{COLOR}Ç.\nOder kauf\p{COLOR}ÉTränke{COLOR}Ç im\n{COLOR}ÉPoké Mart{COLOR}Ç!\pEs ist immer gut, sich auf das\nSchlimmste vorzubereiten.\pMach mich stolz, Schatz!\pPass auf dich auf!
+  expected: 'Oh, gut!\pDu und deine Pokémon seht\nschon viel besser aus.\pSind die KP deiner Pokémon niedrig,\ngeht in ein <0xFC><0x01><0x06>Pokémon Center<0xFC><0x01><0x04>!\pDas nächste ist wohl\nin <0xFC><0x01><0x06>Bellin Town<0xFC><0x01><0x04>.\pOder kaufe ein paar <0xFC><0x01><0x06>Tränke<0xFC><0x01><0x04>\nim <0xFC><0x01><0x06>Poké Mart<0xFC><0x01><0x04>!\pEs ist immer gut, auf das\nSchlimmste vorbereitet zu sein.\pMach mich stolz, Schatz!\pPass auf dich auf!'
 - offset: '0x750af3'
   name: English toponym canonicalisation 0x750AF3
   issue: DE — English toponyms
@@ -9919,3 +9919,120 @@ entries:
 - offset: '0x7b4225'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
   expected: "Eine rätselhafte Schuppe in\\nRegenbogenfarben. Entwickelt\\nbestimmte Pokémon."
+
+- offset: "0x17FF4A"
+  name: "B-667 combat_ui-01 0x17FF4A"
+  issue: "B-667"
+  expected: 'Ich kann nicht aufhören zu kaufen!\pEs gibt so viel Auswahl im\n<0xFC><0x01><0x06>Dehara Department Store<0xFC><0x01><0x04>!'
+- offset: "0x18EA45"
+  name: "B-667 combat_ui-01 0x18EA45"
+  issue: "B-667"
+  expected: 'Das ist Prof. Logs Pokémon.'
+- offset: "0x18EA66"
+  name: "B-667 combat_ui-01 0x18EA66"
+  issue: "B-667"
+  expected: 'Drücke START für das Menü!'
+- offset: "0x18EBE6"
+  name: "B-667 combat_ui-01 0x18EBE6"
+  issue: "B-667"
+  expected: 'Als Prof. Logs Assistent\nerforsche ich Pokémon.'
+- offset: "0x18ED81"
+  name: "B-667 combat_ui-01 0x18ED81"
+  issue: "B-667"
+  expected: 'Prof. Log erforscht seit Jahren\ndie Statuswerte von Pokémon.\pViele Trainer kommen mit Fragen\nzu diesen Werten zu ihm.'
+- offset: "0x197874"
+  name: "B-667 combat_ui-01 0x197874"
+  issue: "B-667"
+  expected: 'Pokémon-Arena von Dehara\nLeiter: Galavan\pSiegreiche Trainer:\n<0xFD><0x06>'
+- offset: "0x198BBB"
+  name: "B-667 combat_ui-01 0x198BBB"
+  issue: "B-667"
+  expected: 'Eines Tages werde ich ein Ninja!\pMeine Eltern setzen auf Gewalt,\naber ich werde listig sein!'
+- offset: "0x19A4F8"
+  name: "B-667 combat_ui-01 0x19A4F8"
+  issue: "B-667"
+  expected: 'Diese Stadt leidet schon lange\nunter schlimmen Albträumen.\pWenn du einen Wohnort suchst,\nwäre es wohl besser,\lwoanders zu wohnen.'
+- offset: "0x19A5BE"
+  name: "B-667 combat_ui-01 0x19A5BE"
+  issue: "B-667"
+  expected: 'Brauchst du einen Weg zurück\nden Berg hinunter?\pMein Abra und ich teleportieren\ndich gern nach unten.\pWas meinst du?\nSollen wir dich teleportieren?'
+- offset: "0x19A7A0"
+  name: "B-667 combat_ui-01 0x19A7A0"
+  issue: "B-667"
+  expected: 'Haben sie kein X-Angriff?\pIch mag es, weil es im Kampf\nden Angriff erhöht.'
+- offset: "0x19E9E5"
+  name: "B-667 combat_ui-01 0x19E9E5"
+  issue: "B-667"
+  expected: 'Hallo!\nIch bin <0xFC><0x01><0x06>Prof. Logs Assistent<0xFC><0x01><0x04>.\pHast du im Pokédex Daten zu\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> Arten, soll ich\ldich belohnen.\pAlso, <0xFD><0x01>, sag mir:\pHast du schon Daten zu mindestens<0xFC><0x01><0x06>\n<0xFD><0x02><0xFC><0x01><0x04> Pokémon-Arten erfasst?'
+- offset: "0x1A59E7"
+  name: "B-667 combat_ui-01 0x1A59E7"
+  issue: "B-667"
+  expected: 'Mein altes <0xFD><0x03> ist toll!'
+- offset: "0x1A5AD6"
+  name: "B-667 combat_ui-01 0x1A5AD6"
+  issue: "B-667"
+  expected: 'Hallo!\nHast du ein <0xFD><0x02>?\pWillst du es gegen mein\n<0xFD><0x03> tauschen?'
+- offset: "0x1A5BC6"
+  name: "B-667 combat_ui-01 0x1A5BC6"
+  issue: "B-667"
+  expected: 'Prof. Logs PC wird aufgerufen…\pPokédex-Bewertung wird\naufgerufen…'
+- offset: "0x1A6C74"
+  name: "B-667 combat_ui-01 0x1A6C74"
+  issue: "B-667"
+  expected: 'Das Wasser ist tiefblau…'
+- offset: "0x1A6CA3"
+  name: "B-667 combat_ui-01 0x1A6CA3"
+  issue: "B-667"
+  expected: 'Hier ist dein Fortschritt\nbei der Arbeit am Pokédex:\p<0xFD><0x02> Pokémon gesehen und\n<0xFD><0x03> Pokémon gefangen.\p<0xFC><0x06><0x02>Prof. Logs Bewertung:'
+- offset: "0x1B1D7D"
+  name: "B-667 combat_ui-01 0x1B1D7D"
+  issue: "B-667"
+  expected: 'Ein Pokémon-Drucker!\pEr druckt dein Pokémon auf\ndie Rückseite des Trainerpasses.\pEs kostet nur ¥50.\nWillst du es ausprobieren?'
+- offset: "0x1BDBF8"
+  name: "B-667 combat_ui-01 0x1BDBF8"
+  issue: "B-667"
+  expected: 'Ich erkläre euch, wie der\nPokémon-Funk-Club funktioniert.\pHier im obersten Stockwerk\ngibt es zwei Räume.\pDer Raum auf der linken Seite\nheißt Unions-Raum.\pDort trefft ihr Trainer\naus eurer Nähe, die auch\lim Unions-Raum sind.\pMit ihnen könnt ihr reden,\nkämpfen und tauschen.\pDer Raum auf der rechten Seite\nheißt Direkt-Ecke.\pDort könnt ihr mit Freunden\nPokémon tauschen oder kämpfen.\pFindet ihr eure Freunde weder\nim Unions-Raum\lnoch in der Direkt-Ecke?\pDann geht bitte näher\nan eure Freunde heran.\pOhne Funkadapter könnt ihr\neuch auch über ein\lGBA Game Link-Kabel verbinden.\pGeht in diesem Fall\nin die Direkt-Ecke.\pViel Spaß mit der\nkabellosen Verbindung!'
+- offset: "0x1BE19A"
+  name: "B-667 combat_ui-01 0x1BE19A"
+  issue: "B-667"
+  expected: 'Ein großer Fels. Ein Pokémon\nkönnte ihn zur Seite schieben.\pMöchtest du Stärke einsetzen?'
+- offset: "0x1BE42B"
+  name: "B-667 combat_ui-01 0x1BE42B"
+  issue: "B-667"
+  expected: 'Das Meer ist hier tief. Ein\nPokémon könnte hier tauchen.'
+- offset: "0x1BEF88"
+  name: "B-667 combat_ui-01 0x1BEF88"
+  issue: "B-667"
+  expected: 'Hallo, schön, dich kennenzulernen!\p...Das ist aber unfreundlich.\nSag doch auch mal Hallo!\pNa komm, erzähl mir\netwas über dich.\pIch würde gern dein Profil hören!'
+- offset: "0x1BF555"
+  name: "B-667 combat_ui-01 0x1BF555"
+  issue: "B-667"
+  expected: 'Ich bin der Pensionsleiter.\pIch helfe dabei, die wertvollen\nPokémon der Trainer zu betreuen.\pSoll ich deine Pokémon aufziehen,\nsprich mit meiner Frau.'
+- offset: "0x1BFB5A"
+  name: "B-667 combat_ui-01 0x1BFB5A"
+  issue: "B-667"
+  expected: 'Hm?'
+- offset: "0x24F3C4"
+  name: "B-667 combat_ui-01 0x24F3C4"
+  issue: "B-667"
+  expected: 'Keine Fähigkeit.'
+- offset: "0x26D6BD"
+  name: "B-667 combat_ui-01 0x26D6BD"
+  issue: "B-667"
+  expected: 'Hallo, Reisender.\pDrei Pokémon suchen dringend\neinen liebevollen Trainer.\pKümmerst du dich um sie?'
+- offset: "0x3E8187"
+  name: "B-667 combat_ui-01 0x3E8187"
+  issue: "B-667"
+  expected: 'KLIMASCHUTZ'
+- offset: "0x3E8198"
+  name: "B-667 combat_ui-01 0x3E8198"
+  issue: "B-667"
+  expected: 'SCHERENMACHT'
+- offset: "0x3E8BE1"
+  name: "B-667 combat_ui-01 0x3E8BE1"
+  issue: "B-667"
+  expected: 'ANFÜHRER'
+- offset: "0x3FC5E8"
+  name: "B-667 combat_ui-01 0x3FC5E8"
+  issue: "B-667"
+  expected: 'Für <0xFD><0x13>,\n<0xFD><0x16> <0xFD><0x00>'

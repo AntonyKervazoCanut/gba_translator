@@ -349,7 +349,7 @@
 0x19C0B4: Ich habe gehört, dass Leute auf der\n{COLOR}ÉRoute 9{COLOR}Ë Unfug treiben.
 0x19C0F7: Mit jedem Schritt werden deine\nPokémon dir mehr zugetan.\pWenn du ein Pokémon in der Pension\nhast, wird es auch stärker.
 0x19C177: Hast du das gehört?\pJemand hat das Problem mit den\nUnruhestiftern auf Route 9 gelöst!
-0x19E9E5: Hallo!\nIch bin ein Assistent von Prof. Log.\pWenn dein Pokédex {COLOR}É{STR_VAR_1}{COLOR}Ç\nSpezies enthält, muss ich dich belohnen.\lIch werde dir eine Belohnung geben.\pAlso, {PLAYER}, sag mir.\pHast du Daten zu\n{COLOR}É{STR_VAR_1}{COLOR}Ç Pokémon-Spezies?
+0x19E9E5: Hallo!\nIch bin <0xFC><0x01><0x06>Prof. Logs Assistent<0xFC><0x01><0x04>.\pHast du im Pokédex Daten zu\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> Arten, soll ich\ldich belohnen.\pAlso, <0xFD><0x01>, sag mir:\pHast du schon Daten zu mindestens<0xFC><0x01><0x06>\n<0xFD><0x02><0xFC><0x01><0x04> Pokémon-Arten erfasst?
 0x19EABE: zu mindestens {STR_VAR_1} Arten\nvon Pokémon?
 0x19EAE4: Super! Du hast {COLOR}É{STR_VAR_3}{COLOR}Ç\nSpezies gefangen!\pHerzlichen Glückwunsch!\nHier!
 0x19EB59: Manche Gegenstände am Boden sind versteckt.\nBenutze den {COLOR}ÉItemfinder{COLOR}Ç, um sie zu sehen.\pIn deiner Nähe.\nDas Gerät ist etwas eingeschränkt.\pEs kann dir nicht die genaue\nPosition zeigen.\pEs zeigt nur die Richtung des\nGegenstands an.\pNutze es zur Orientierung und such\ndann den Bereich von Hand ab.
@@ -428,7 +428,7 @@
 0x1A59B6: Awww!\nNa gut, dann eben nicht…
 0x1A59C6: Was?\nDas ist kein {STR_VAR_1}!
 0x1A59DA: Danke!
-0x1A59E7: Ist er nicht toll, mein altes {STR_VAR_2}?
+0x1A59E7: Mein altes <0xFD><0x03> ist toll!
 0x1A5AD5: 9Hallo!\nHast du ein {STR_VAR_1}?\pWillst du es gegen mein\n{STR_VAR_2} tauschen?
 0x1A5B08: Schade.
 0x1A5B18: …Das ist kein {STR_VAR_1}.\nWenn du eins bekommst, tausch es\pmit mir.
@@ -450,7 +450,7 @@
 0x1A5EC0: Deine Pokémon sind jetzt\nwieder topfit!\pWenn ihre KP sinken, komm\nohne Zögern zu uns zurück.\pWenn du weit wegreist, kauf dir\nTränke im Pokémon-Shop\lbevor du aufbrichst.\pViel Glück, Trainer!
 0x1A5F9B: Deine Pokémon sind\nwieder topfit!\pViel Glück, Trainer!
 0x1A5FDF: {PLAYER}!\nWillkommen zu Hause.\pSieht aus, als hättest du einiges\nerlebt.\pDu solltest dich vielleicht ausruhen.\n
-0x1A6046: Ah, perfekt! Du und deine Pokémon\nseht viel besser aus.\pWenn die KP deiner Pokémon niedrig sind,\nheile sie in einem\p{COLOR}ÉPokémon Center{COLOR}Ç!\nDas nächste von hier ist in\p{COLOR}ÉBellin Town{COLOR}Ç.\nOder kauf\p{COLOR}ÉTränke{COLOR}Ç im\n{COLOR}ÉPoké Mart{COLOR}Ç!\pEs ist immer gut, sich auf das\nSchlimmste vorzubereiten.\pMach mich stolz, Schatz!\pPass auf dich auf!
+0x1A6046: Oh, gut!\pDu und deine Pokémon seht\nschon viel besser aus.\pSind die KP deiner Pokémon niedrig,\ngeht in ein <0xFC><0x01><0x06>Pokémon Center<0xFC><0x01><0x04>!\pDas nächste ist wohl\nin <0xFC><0x01><0x06>Bellin Town<0xFC><0x01><0x04>.\pOder kaufe ein paar <0xFC><0x01><0x06>Tränke<0xFC><0x01><0x04>\nim <0xFC><0x01><0x06>Poké Mart<0xFC><0x01><0x04>!\pEs ist immer gut, auf das\nSchlimmste vorbereitet zu sein.\pMach mich stolz, Schatz!\pPass auf dich auf!
 0x1A6196: 9{PLAYER} hat keine kampffähigen\nPokémon mehr!\p{PLAYER} gerät in Panik und verliert ¥{STR_VAR_1}…\p…\p{PLAYER} wird ohnmächtig!
 0x1A6197: <0xFD><0x01> hat keine kampffähigen\nPokémon mehr!\p<0xFD><0x01> gerät in Panik, verliert ¥<0xFD><0x02>…\p…\p<0xFD><0x01> ist ohnmächtig geworden!
 0x1A61E5: {PLAYER} hat keine kampffähigen\nPokémon mehr!\p{PLAYER} wird ohnmächtig!
@@ -548,7 +548,7 @@
 0x1BD898: Hallo!\nIch heiße Teala.\pDas ist dein erstes Mal hier.\nIch zeige dir, wie das\pkabellose Kommunikationssystem\nfunktioniert.\pZuerst muss ich dir dieses\nStockwerk unseres Pokémon-Centers zeigen.\pHier entlang, bitte.
 0x1BD966: Im oberen Stockwerk gibt es zwei\nRäume.\pZuerst der Raum links.\nDas ist der Unions-Raum.\pDu kannst dich mit Trainern\nin deiner Nähe verbinden, die sich\lim Unions-Raum befinden.\pMit ihnen kannst du reden,\nkämpfen und tauschen.\pDann ist der Raum rechts die\nDirekt-Ecke.\pHier kannst du Pokémon tauschen\noder mit deinen Freunden kämpfen.\pWenn der Funkadapter nicht\nverbunden ist, kannst du dich immer noch\lmit einem GBA-Game-Link-Kabel verbinden.\pIn diesem Fall musst du zur\nDirekt-Ecke gehen.\pGenieße das\nkabellose Kommunikationssystem.
 0x1BDB85: Hallo, {PLAYER}!\pIch bin Teala, die 2F-Assistentin im Pokémon-Center.\pFragen zum Link?
-0x1BDBF8: Ich erkläre kurz den Pokémon-Funk-Club.\pHier oben gibt es zwei Räume.\pLinks liegt der Unions-Raum.\pDort verbindet ihr euch mit Trainern in der Nähe, die ebenfalls dort sind.\pMit ihnen könnt ihr reden, kämpfen und tauschen.\pRechts liegt die Direkt-Ecke.\pDort tauscht oder kämpft ihr mit Pokémon eurer Freunde.\pFindet ihr eure Freunde in keinem der Räume, geht näher an sie heran.\pOhne Funkadapter geht's per GBA-Link-Kabel - dann aber nur in der Direkt-Ecke.\pViel Spaß mit dem kabellosen Kommunikationssystem!
+0x1BDBF8: Ich erkläre euch, wie der\nPokémon-Funk-Club funktioniert.\pHier im obersten Stockwerk\ngibt es zwei Räume.\pDer Raum auf der linken Seite\nheißt Unions-Raum.\pDort trefft ihr Trainer\naus eurer Nähe, die auch\lim Unions-Raum sind.\pMit ihnen könnt ihr reden,\nkämpfen und tauschen.\pDer Raum auf der rechten Seite\nheißt Direkt-Ecke.\pDort könnt ihr mit Freunden\nPokémon tauschen oder kämpfen.\pFindet ihr eure Freunde weder\nim Unions-Raum\lnoch in der Direkt-Ecke?\pDann geht bitte näher\nan eure Freunde heran.\pOhne Funkadapter könnt ihr\neuch auch über ein\lGBA Game Link-Kabel verbinden.\pGeht in diesem Fall\nin die Direkt-Ecke.\pViel Spaß mit der\nkabellosen Verbindung!
 0x1BDEDF: Genieße das Funk-System.\n
 0x1BDF94: Dieser Baum sieht so aus, als\nkönnte man ihn fällen!\pMöchtet ihr Zerschneider einsetzen?
 0x1BDFD7: {FD02} setzt {FD03} ein!
@@ -996,7 +996,7 @@
 0x250026: LUFTSCHLEUSE
 0x26D4E5: Fangen wir an!
 0x26D4F7: Das war ein toller Kampf! Meine\nPokémon hatten Spaß daran!
-0x26D524: Jetzt, wo der Eingang zum SES Expressway nicht mehr versiegelt ist,\lkonnte ich endlich trainieren!\pSag mal, willst du gegen meine\nfrisch trainierten Pokémon kämpfen?
+0x26D524: Der SES Expressway ist nun\nnicht mehr versiegelt.\lEndlich konnte ich trainieren!\pWillst du gegen meine frisch\ntrainierten Pokémon kämpfen?
 0x26D5BF: Danke, dass du gegen mich gekämpft hast!
 0x26D5DC: Du willst über die Herausforderungsroute\ngehen?\pDann musst du zuerst an mir\nvorbei!
 0x26D733: Ach, okay. Falls du deine Meinung änderst,\nbist du jederzeit willkommen!
@@ -1350,9 +1350,9 @@
 0x3E8171: GESTEIN
 0x3E8176: SCHÖN
 0x3E8180: SCHÖNHEIT
-0x3E8187: AIR LOCK
+0x3E8187: KLIMASCHUTZ
 0x3E8190: PSYCHO
-0x3E8198: HYPER CUTTER
+0x3E8198: SCHERENMACHT
 0x3E81A5: KAMPF
 0x3E81AE: FLUCHTVERHINDERUNG
 0x3E81B9: SCHLAU
@@ -1498,7 +1498,7 @@
 0x3E8BCA: SCHWACH
 0x3E8BCF: ZU SCHWACH
 0x3E8BD8: LEICHT
-0x3E8BE1: LEADER
+0x3E8BE1: ANFÜHRER
 0x3E8BE8: REGEL
 0x3E8BED: Schlag
 0x3E8EEF: Ja
@@ -22705,3 +22705,28 @@ threads/averagemons.3590605/
 0x7b9a82: Rüpel: <0xFC><0x01><0x04>Oh nein!\p<0xFD><0x01> ist uns\ndicht auf den Fersen!\pIch muss Marlon warnen!
 0x7ba1ec: Puh<0xB0> Ich brauche eine Pause<0xB0>\pÄchz<0xB0>\pDer Vulkan hat es wirklich in sich!\pIch heile deine Pokémon, damit sie\nnicht auch müde werden.
 0x7ba2cc: <0xFC><0x01><0x08>Schnell!\pPackt sie!
+
+# B-667 — combat_ui-01, débuts vivants vérifiés
+0x17ff4a: Ich kann nicht aufhören zu kaufen!\pEs gibt so viel Auswahl im\n<0xFC><0x01><0x06>Dehara Department Store<0xFC><0x01><0x04>!
+0x18ea45: Das ist Prof. Logs Pokémon.
+0x18ea66: Drücke START für das Menü!
+0x18ebe6: Als Prof. Logs Assistent\nerforsche ich Pokémon.
+0x18ed81: Prof. Log erforscht seit Jahren\ndie Statuswerte von Pokémon.\pViele Trainer kommen mit Fragen\nzu diesen Werten zu ihm.
+0x197874: Pokémon-Arena von Dehara\nLeiter: Galavan\pSiegreiche Trainer:\n<0xFD><0x06>
+0x198bbb: Eines Tages werde ich ein Ninja!\pMeine Eltern setzen auf Gewalt,\naber ich werde listig sein!
+0x19a4f8: Diese Stadt leidet schon lange\nunter schlimmen Albträumen.\pWenn du einen Wohnort suchst,\nwäre es wohl besser,\lwoanders zu wohnen.
+0x19a5be: Brauchst du einen Weg zurück\nden Berg hinunter?\pMein Abra und ich teleportieren\ndich gern nach unten.\pWas meinst du?\nSollen wir dich teleportieren?
+0x19a7a0: Haben sie kein X-Angriff?\pIch mag es, weil es im Kampf\nden Angriff erhöht.
+0x1a5ad6: Hallo!\nHast du ein <0xFD><0x02>?\pWillst du es gegen mein\n<0xFD><0x03> tauschen?
+0x1a5bc6: Prof. Logs PC wird aufgerufen…\pPokédex-Bewertung wird\naufgerufen…
+0x1a6c74: Das Wasser ist tiefblau…
+0x1a6ca3: Hier ist dein Fortschritt\nbei der Arbeit am Pokédex:\p<0xFD><0x02> Pokémon gesehen und\n<0xFD><0x03> Pokémon gefangen.\p<0xFC><0x06><0x02>Prof. Logs Bewertung:
+0x1b1d7d: Ein Pokémon-Drucker!\pEr druckt dein Pokémon auf\ndie Rückseite des Trainerpasses.\pEs kostet nur ¥50.\nWillst du es ausprobieren?
+0x1be19a: Ein großer Fels. Ein Pokémon\nkönnte ihn zur Seite schieben.\pMöchtest du Stärke einsetzen?
+0x1be42b: Das Meer ist hier tief. Ein\nPokémon könnte hier tauchen.
+0x1bef88: Hallo, schön, dich kennenzulernen!\p...Das ist aber unfreundlich.\nSag doch auch mal Hallo!\pNa komm, erzähl mir\netwas über dich.\pIch würde gern dein Profil hören!
+0x1bf555: Ich bin der Pensionsleiter.\pIch helfe dabei, die wertvollen\nPokémon der Trainer zu betreuen.\pSoll ich deine Pokémon aufziehen,\nsprich mit meiner Frau.
+0x1bfb5a: Hm?
+0x24f3c4: Keine Fähigkeit.
+0x26d6bd: Hallo, Reisender.\pDrei Pokémon suchen dringend\neinen liebevollen Trainer.\pKümmerst du dich um sie?
+0x3fc5e8: Für <0xFD><0x13>,\n<0xFD><0x16> <0xFD><0x00>
