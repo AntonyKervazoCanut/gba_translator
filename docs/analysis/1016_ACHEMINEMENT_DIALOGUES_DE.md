@@ -1,84 +1,60 @@
-# B-1016 — Acheminement borné des dialogues DE
+# B-1016 — Acheminement des dialogues DE
 
-## Préparation du 29 octobre 2026 (non activée)
+## Résultat du 29 octobre 2026
 
-Le build DE local reproduit les cinq dialogues longs EN et les consommateurs
-Cube TV résiduels. Le réinséreur générique ne suffit pas. Le module
-`languages/de/patches/dialogue_routing.py` prépare une passe à huit sites explicites,
-sans scan global de pointeurs, avec validation des préimages EN, encodage partagé,
-umlauts DE, allocation existante, réutilisation d'une copie identique et application
-atomique. Aucune formulation FR n'est utilisée.
+B-680 est intégré : le texte vivant de `0x1F4C2ED` contient désormais
+`FD01, FD02, FD02`. Le patch borné est activé après les relocalisations DE,
+avant la restauration des noms d'espèces. Le test synthétique provisoire a
+été remplacé par la vraie dernière valeur de combined_de.
 
-Les pages FB restent des frontières dures ; les retours FE/FA sont recalculés
-avec le rewrap existant (192 px maximum, une première ligne puis défilements).
-Les séquences FC/FD et autres commandes doivent rester identiques à EN, dans
-leur ordre exact. Les corps DE proviennent toujours de la dernière valeur combined.
+Sept textes et huit consommateurs explicites sont vérifiés octet par octet
+sur le build final. Aucun scan aveugle ni copie de formulations FR. Le patch
+réutilise les copies déjà identiques, valide les préimages EN et refuse
+atomiquement les pertes de commandes ou allocations impossibles.
 
-## Prérequis B-680 identifié par les octets
+| Source | Consommateurs → cible DE | Octets avec FF | Largeur max | FB |
+|---|---|---:|---:|---:|
+| 0x7a9a75 | 0x74b0aa → 0x198107 | 1034 | 192 px | 14 |
+| 0x1eee8be | 0x1e5b206 → 0x198511 | 902 | 188 px | 14 |
+| 0x1f0f004 | 0x1e70293 → 0x19c1d4 | 1280 | 192 px | 13 |
+| 0x1f8e271 | 0x1e9fa40 → 0x19c6d4 | 836 | 192 px | 12 |
+| 0x1f4c2ed | 0x1e6d700 → 0x19ca18 | 951 | 192 px | 17 |
+| 0x1fb052c | 0x1eaf7f5 → 0x1fb052c | 519 | 190 px | 7 |
+| 0x1fb07fe | 0x1285745 → 0x1fe7638 ; 0x1eaf820 → 0x1fe7638 | 360 | 188 px | 2 |
 
-À `0x1F4C2ED`, EN exige `FD 01, FD 02, FD 02`. La valeur DE actuelle ne contient
-que `FD 01` ; les deux buffers suivants ont été remplacés par des formulations
-statiques. Le garde rejette cette entrée avant toute écriture. Sa correction
-textuelle appartient explicitement à B-680, encore à faire. Aucun texte ni
-`protected_entries.yaml` n'est modifié ici. Ne pas activer la passe dans
-`lang.yaml` avant intégration de ce prérequis.
+Les séquences FC/FD sont identiques à EN, dans leur ordre exact. Les pages FB
+sont celles de combined_de ; FE/FA sont recalculés par le rewrap partagé,
+avec une première ligne puis défilement, sans dépassement de 192 pixels.
+La TV `0x1FB052C` conserve les sept FB de la valeur DE existante contre dix
+pour EN : sa correction textuelle appartient à B-682, toujours actif lors de
+cette vérification. Le correctif technique ne modifie aucune traduction.
+Le tri Cube reste couvert par le générique et menu_sprites selon B-688 :
+aucun nouveau patch ajouté. Les déclarations meteorite/Cube TV de parity.yaml
+sont mises à jour seulement après preuve des consommateurs.
 
-Les tests d'acheminement utilisent des extraits binaires EN réels pour les sept
-chaînes et les huit sites, avec un court texte de test explicitement synthétique
-pour ce seul offset tant que B-680 manque. Cela prouve le mécanisme, **pas** la
-validité du texte DE vivant à cet offset. Un test distinct impose le rejet atomique
-des commandes manquantes.
+Cube V3 : `0x1E67DB8 → 0xb4eb26`, exclu de TARGETS et inchangé
+par la passe. Réapplication de la passe sur la ROM finale : aucun octet modifié.
+SHA-256 DE : `218db617486adcc6a7e432d3c96f22d5dc8c76931369184a093ece5e2ee5fca0`.
 
-## Mesure du build de référence
+## Validation
 
-`make build-de` réussi, avant activation du nouveau module.
-SHA-256 : `81e136fd620677b1b58c9b827f547c23db87cef44f7960a5c0cd71d945b1d5bc`.
-Les adresses relocalisées dépendent des autres textes du build ; elles ne sont
-pas codées en dur dans le correctif.
+- `make build-de` réussi via les hooks actifs ; builds FR/IT également imposés
+  par le hook, uniquement dans le worktree. Aucune ressource ni référence de
+  hash FR/IT modifiée dans les commits.
+- `python3 -m pytest tests/unit/de/test_dialogue_routing.py -q` : 21 tests,
+  dont sept contrôles sur le build réel et chacun des huit consommateurs.
+- Hook Python rapide : 3901 réussis, une exclusion existante ; Vitest : 68 réussis.
+- `make test-python` : 4042 réussis, 3 ignorés par les conditions existantes,
+  2285 désélectionnés.
+- `npx playwright test --config tests/e2e-playwright/playwright.dialogue-routing-de.config.ts` :
+  huit rendus natifs mGBA, assertions OCR sur les textes DE, capture jointe au ticket.
+- `python3 scripts/check_de_parity.py` : matrice complète et cohérente.
 
-| Source EN | Octets EN hors FF | Sites → cibles actuelles | Encodage préparé (FF inclus) | Largeur max |
-|---|---:|---|---:|---:|
-| 0x7A9A75 | 1046 | 0x74B0AA → 0x7A9A75 | 1034 | 192 px |
-| 0x1EEE8BE | 1037 | 0x1E5B206 → 0x1EEE8BE | 902 | 188 px |
-| 0x1F0F004 | 1441 | 0x1E70293 → 0x1F0F004 | 1280 | 192 px |
-| 0x1F8E271 | 1044 | 0x1E9FA40 → 0x1F8E271 | 1019 | 192 px |
-| 0x1F4C2ED | 1060 | 0x1E6D700 → 0x1F4C2ED | refusé : B-680 | — |
-| 0x1FB052C | 721 | 0x1EAF7F5 → 0x1FB052C | 519 | 190 px |
-| 0x1FB07FE | 285 | 0x1285745 → 0x1FB07FE ; 0x1EAF820 → 0xB3E4FB | 360 | 188 px |
+## Non vérifié
 
-Cube V3 : `0x1E67DB8 → 0x18A750`, non modifié par ce module.
-
-Commandes attendues, dans l'ordre :
-
-- 0x7A9A75 et 0x1EEE8BE : `FC 01 06 ; FC 01 08`.
-- 0x1F0F004 : aucune commande positionnelle.
-- 0x1F8E271 : `FC 01 06 ; FC 01 08 ; FC 01 06 ; FC 01 08`.
-- 0x1F4C2ED : `FD 01 ; FD 02 ; FD 02`.
-- 0x1FB052C : `FD 02 ; FC 01 06 ; FD 03 ; FC 01 08`.
-- 0x1FB07FE : `FC 01 06 ; FD 02 ; FC 01 08`.
-
-## Vérifications de la préparation
-
-- `make test-python` : 2 559 réussis, 97 ignorés existants, 1 132 désélectionnés.
-- Tests ciblés : 13 réussis (sept offsets, huit consommateurs, idempotence,
-  réutilisation Cube, préimage invalide, perte de commandes, allocation refusée, umlauts).
-- Ruff ciblé et `scripts/check_de_parity.py` : réussis.
-- Aucune ressource, traduction, déclaration de couverture ni référence de hash FR/IT modifiée.
-
-## Reprise après B-680
-
-1. Relire la dernière valeur DE et vérifier les trois buffers de 0x1F4C2ED.
-2. Activer `dialogue_routing` après les autres passes de relocalisation DE.
-3. Exécuter `make build-de`, vérifier chaque cible et tous ses octets, puis
-   `make test-python` et les tests ciblés.
-4. Exécuter Playwright headless avec assertions sur le rendu mGBA et joindre
-   une capture depuis le répertoire temporaire du système.
-5. Mettre à jour les déclarations de couverture de `parity.yaml` seulement
-   après cette preuve. Les exclusions existantes restent inchangées pour le moment ;
-   seul l'inventaire du nouveau test est ajouté.
-
-## Non vérifié à ce stade
-
-Acheminement final en ROM, capture Playwright finale et couverture complète :
-bloqués par les deux buffers manquants de B-680. Aucun parcours naturel des scènes
-n'est revendiqué. Les corrections linguistiques B-681/B-682 restent hors périmètre.
+Pas de parcours naturel des sept scènes ni de visionnage de toutes les pages.
+La sonde utilise une copie ROM temporaire et l'imprimante native avec les
+pointeurs réels ; les buffers secondaires sont vides pour isoler le texte.
+Les contrôles binaires portent sur les chaînes complètes. La qualité linguistique
+et les frontières de pages Cube TV restent du ressort de B-682 ; aucun résultat
+linguistique global n'est revendiqué ici. Aucun push ni pipeline distant.

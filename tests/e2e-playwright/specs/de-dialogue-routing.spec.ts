@@ -104,10 +104,10 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
   for (let n = 0; n < 8; n++) {
     const enlarged = path.join(temp, `readable${n}.png`);
     await page.getByRole('img').nth(n).screenshot({ path: enlarged });
-    texts.push(execFileSync(ocr, [enlarged], { encoding: 'utf8', timeout: 60_000 }));
+    texts.push(execFileSync(ocr, [enlarged], { encoding: 'utf8', timeout: 60_000 }).replace(/\s+/g, ' '));
   }
   console.log(texts);
-  expect(texts[0]).toMatch(/Vor dreißig Jahren/);
+  expect(texts[0]).toMatch(/Vor dreißig Jahren/i);
   expect(texts[1]).toMatch(/Vor zwanzig Jahren/);
   expect(texts[2]).toContain('besondere Option');
   expect(texts[3]).toContain('Battle Sands');

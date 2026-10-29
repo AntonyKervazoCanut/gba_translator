@@ -2,7 +2,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   testDir: '.',
-  testMatch: 'specs/dialogue-routing-de.spec.ts',
+  testMatch: 'specs/de-dialogue-routing.spec.ts',
   outputDir: '../../test-results/dialogue-routing-de',
   timeout: 360_000,
   workers: 1,

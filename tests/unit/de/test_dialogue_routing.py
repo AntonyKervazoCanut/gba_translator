@@ -100,6 +100,9 @@ def test_commands_pages_and_box_budget(row):
     assert actual == expected
     assert encoded[-1] == 0xFF
     assert max(line_widths(prepared)) <= 192
+    # Mesure indépendante des octets réellement encodés, arguments FC/FD ignorés.
+    from tests.unit.test_dialogues_08_de import inspect
+    assert inspect(encoded)[2] <= 192
     assert prepared.count('<0xFB>') == _normalize_text(text).count('<0xFB>')
     for page in prepared.split('<0xFB>'):
         assert page.count('\n') <= 1
