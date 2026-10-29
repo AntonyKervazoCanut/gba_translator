@@ -102,3 +102,25 @@ def test_glossary_and_battle_meaning() -> None:
     assert 'Leech Seed' in actual[0x3fbc99]
     assert 'movimentos' in actual[0x3fb2d1]
     assert actual[0x3fb283].startswith('<0x00>')  # Espace du tampon concaténé.
+
+
+def test_report_accounts_for_each_offset_once() -> None:
+    report = (ROOT / 'docs/analysis/25_PT_BR_PT09.md').read_text()
+    offsets = re.findall(r'^\| `(0x[\da-f]+)` \|', report, re.MULTILINE)
+    assert len(offsets) == len(set(offsets)) == 281
+    assert set(offsets) == {row['offset'] for row in entries()}
+    assert sum(len(row['live_sites']) for row in entries()) == 284
+
+
+def test_final_patch_is_limited_to_the_contractual_consumers() -> None:
+    from languages.pt.patches.batch_09 import definitions
+
+    contract = definitions()
+    active = [row for row in entries() if row.get('delivery') == 'structured']
+    assert len(contract) == len(active) == 36
+    for definition, row in zip(contract, active):
+        assert definition['offset'] == row['offset']
+        assert definition['references'] == [int(s, 16) for s in row['live_sites']]
+        assert definition['source_hex'] == row['source_hex']
+        assert definition['layout']['preserve_line_count']
+        assert definition['move_ids'] == []
