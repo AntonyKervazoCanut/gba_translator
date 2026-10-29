@@ -97,3 +97,5 @@ def test_audit_preserves_all_consumers_after_integration():
     for row in active:
         assert len(row['targets']) == len(row['source_sites'])
         assert all(0 <= int(target, 16) < 0x2000000 for target in row['targets'])
+        raw = TextEncoder.encode_pokemon(row['portuguese'].replace(r'\n', '\n'), strict=True)
+        assert row['bytes'] == len(raw)

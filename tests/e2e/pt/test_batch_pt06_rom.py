@@ -44,9 +44,10 @@ def test_every_active_pointer_delivers_the_exact_text(roms):
         refs = sites(source, offset)
         assert refs, hex(offset)
         assert rows[offset]['source_sites'] == [hex(site) for site in refs]
-        assert rows[offset]['targets'] == [
-            hex(struct.unpack_from('<I', built, site)[0] - 0x08000000) for site in refs
-        ], f'{offset:#x}: bilan périmé après relocalisation'
+        # Les adresses du bilan décrivent son build historique. L'allocateur
+        # peut les déplacer quand un autre lot est ajouté : le contrat porte
+        # sur chaque consommateur et les octets à sa cible vivante ci-dessous.
+        assert len(rows[offset]['targets']) == len(refs), hex(offset)
         if offset < 0x3DF7E8:
             assert any(0x876088 <= site < 0x880000
                        and (site - 0x876088) % 44 == 0 for site in refs), hex(offset)
@@ -62,6 +63,21 @@ def test_every_active_pointer_delivers_the_exact_text(roms):
                 budget = 186 if offset < 0x3E7F35 else 102
                 assert sum(built[widths + byte] for byte in line) <= budget, hex(offset)
     assert not failures, failures
+
+
+@pytest.mark.parametrize('damage', ['pointer', 'text'])
+def test_live_delivery_guard_rejects_corruption_after_relocation(roms, damage):
+    source, built = roms
+    offset = next(iter(translations()))
+    site = sites(source, offset)[0]
+    corrupted = bytearray(built)
+    if damage == 'pointer':
+        struct.pack_into('<I', corrupted, site, 0x08000000 + len(built))
+    else:
+        target = struct.unpack_from('<I', corrupted, site)[0] - 0x08000000
+        corrupted[target] ^= 1
+    with pytest.raises(AssertionError):
+        test_every_active_pointer_delivers_the_exact_text((source, bytes(corrupted)))
 
 
 def test_exceptions_are_not_silently_claimed_as_translated(roms):

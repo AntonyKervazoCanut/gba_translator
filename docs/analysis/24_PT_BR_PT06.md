@@ -60,8 +60,10 @@ préexistant), 68 tests Vitest et les constructions locales FR/IT/DE.
 Après rebase sur `cfa8b373` (PT-03/PT-04 et routage partagé intégrés), nouveau
 `make build-pt`, actualisation des cibles et **1486 tests réussis** : toutes les
 unités PT, tous les tests ROM PT, registre, intégrité et routage des descriptions.
-TypeScript et Ruff ciblé passent sur cette base. Une garde ROM compare désormais
-les cibles du bilan avec les vrais pointeurs pour détecter un bilan périmé.
+TypeScript et Ruff ciblé passent sur cette base. La garde ROM contrôle chaque
+référent et les octets exacts à sa cible vivante. Les adresses du bilan décrivent
+le build audité ; l'ajout d'autres lots peut modifier l'allocation sans changer
+les textes (vérifié lors de l'intégration de PT-08).
 Tests dédiés : `tests/unit/pt/test_batch_pt06.py`,
 `tests/e2e/pt/test_batch_pt06_rom.py` et Playwright
 `tests/e2e-playwright/playwright.pt06.config.ts`.
@@ -83,7 +85,7 @@ Aucun changement du code partagé ni des sources FR/IT/DE.
 ## Bilan offset par offset
 
 Les référents sont les sites dans la ROM EN ; les cibles sont les adresses
-finales pointées dans la ROM PT construite. ∅ signifie aucun référent/aucune
+pointées dans la ROM PT du bilan historique. ∅ signifie aucun référent/aucune
 injection, pas une traduction ignorée présentée comme un succès.
 
 | Offset | Décision | Référents EN | Cibles PT | Octets / px max | Justification |
