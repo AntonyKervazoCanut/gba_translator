@@ -478,6 +478,7 @@ de_only_rom_tests:
     - tests/unit/test_patch_de_wrappers.py
     - tests/unit/test_combat_ui_04_de.py
     - tests/unit/test_dialogues_01_de.py
+    - tests/unit/test_dialogues_07_de.py
 
 scope_guard:
   forbidden_prefixes:

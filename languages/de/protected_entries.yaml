@@ -1175,7 +1175,7 @@ entries:
 - offset: '0x1ee7369'
   name: 'B-597 : nom d’espèce EN canonique'
   issue: B-597
-  expected: 'Ah, ausgezeichnet!\pIch erklär dir kurz das Problem.\pFür meine Flügel fehlen mir noch Federn - aber nicht irgendwelche: {COLOR}ÉSchöne Federn{COLOR}Ç.\p{COLOR}É{STR_VAR_2}{COLOR}Ç Stück, genau gesagt.\pIch könnte andere nehmen, aber eine Dame mag schöne Sachen, oder?\pBring mir {COLOR}É{STR_VAR_2}{COLOR}Ç {COLOR}ÉSchöne Federn{COLOR}Ç hierher, und es gibt eine Belohnung!\pDu findest sie bei wilden {COLOR}ÉWingull{COLOR}Ç und {COLOR}ÉPelipper{COLOR}Ç.\pMit Diebstahl, Betteln oder Sabotage geht es leichter.\pAm besten {COLOR}ÉSabotage{COLOR}Ç, da du nichts zurückgeben musst.\pEin Pokémon mit {COLOR}ÉFacettenauge{COLOR}Ç oder {COLOR}ÉGlückspilz{COLOR}Ç vorn im Team erhöht zudem die Chance auf getragene Gegenstände!'
+  expected: 'Ah, ausgezeichnet!\pDann erkläre ich dir das\nProblem.\pIch brauche Federn, um die\nFlügel fertigzustellen, an denen\lich arbeite.\pAber nicht irgendwelche Federn:\nIch brauche <0xFC><0x01><0x06>Prachtfedern<0xFC><0x01><0x04>.\pGenau <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> Stück.\pIch könnte andere Federn\nnehmen, aber eine Dame braucht\ldoch schöne Dinge, oder?\pBring mir also <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> dieser\n<0xFC><0x01><0x06>Prachtfedern<0xFC><0x01><0x04>, und es gibt\lauch etwas Schönes für dich!\pWilde <0xFC><0x01><0x06>Wingull<0xFC><0x01><0x04> und <0xFC><0x01><0x06>Pelipper<0xFC><0x01><0x04>\ntragen Prachtfedern.\pMit Raub, Bezirzer oder\nAbschlag kommst du viel leichter\lan die Federn.\pIch empfehle <0xFC><0x01><0x06>Abschlag<0xFC><0x01><0x04>: Dann\nmusst du deinem Pokémon das\lItem nicht erst abnehmen.\pMit <0xFC><0x01><0x06>Facettenauge<0xFC><0x01><0x04> oder <0xFC><0x01><0x06>Glückspilz<0xFC><0x01><0x04>\nan der Spitze deines Teams\ltragen wilde Pokémon häufiger\lItems. Denk daran!'
   forbidden:
   - 'Ah, ausgezeichnet!\pIch erklär dir kurz das Problem.\pFür meine Flügel fehlen mir noch Federn - aber nicht irgendwelche: {COLOR}ÉSchöne Federn{COLOR}Ç.\p{COLOR}É{STR_VAR_2}{COLOR}Ç Stück, genau gesagt.\pIch könnte andere nehmen, aber eine Dame mag schöne Sachen, oder?\pBring mir {COLOR}É{STR_VAR_2}{COLOR}Ç {COLOR}ÉSchöne Federn{COLOR}Ç hierher, und es gibt eine Belohnung!\pDu findest sie bei wilden {COLOR}ÉGoélise{COLOR}Ç und {COLOR}ÉBekipan{COLOR}Ç.\pMit Diebstahl, Betteln oder Sabotage geht es leichter.\pAm besten {COLOR}ÉSabotage{COLOR}Ç, da du nichts zurückgeben musst.\pEin Pokémon mit {COLOR}ÉFacettenauge{COLOR}Ç oder {COLOR}ÉGlückspilz{COLOR}Ç vorn im Team erhöht zudem die Chance auf getragene Gegenstände!'
 - offset: '0x1ee76d5'
@@ -1199,13 +1199,13 @@ entries:
 - offset: '0x1eedcfb'
   name: 'B-597 : nom d’espèce EN canonique'
   issue: B-597
-  expected: 'Fantastisch !\pMeine Aufgabe: die\n{COLOR}Éeingestürzten Tore{COLOR}Ë des\l{COLOR}ÉKBT Expressway{COLOR}Ë\lmit deinem {COLOR}ÉADM{COLOR}Ë zerstören und\l{COLOR}É3 Carbink{COLOR}Ë fangen.\pUm ein Tor zu sprengen, lade dein\nADM auf.\lLade es mit {COLOR}É3 Licht-\plehm{COLOR}Ë auf, damit es\nstark genug ist.\lLichtlehm findet man beim\pGraben in den Wänden des KBT Expressway.\pWenn das erledigt ist, komm zurück\nfür eine Belohnung.\l\p\n'
+  expected: 'Ausgezeichnet!\pDeine Aufgabe: Zerstöre die\n<0xFC><0x01><0x06>eingestürzten Durchgänge<0xFC><0x01><0x08> im\l<0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> mit deinem\l<0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> und fange ab jetzt <0xFC><0x01><0x06>3 Carbink<0xFC><0x01><0x08>.\pUm einen Durchgang freizuräumen,\nmusst du dein ADM zuerst\laufladen.\pMit <0xFC><0x01><0x06>3 Lichtlehm<0xFC><0x01><0x08> wird es stark\ngenug, um die Trümmer zu\lzerstören!\pWo du Lichtlehm findest?\pBeim Graben in den Wänden des\nKBT Expressway kommt er recht\lhäufig vor.\pKomm danach für eine Belohnung\nzu mir zurück.'
   forbidden:
   - 'Fantastisch !\pMeine Aufgabe: die\n{COLOR}Éeingestürzten Tore{COLOR}Ë des\l{COLOR}ÉKBT-Expresswegs{COLOR}Ë\lmit deinem {COLOR}ÉADM{COLOR}Ë zerstören und\l{COLOR}É3 Strassie{COLOR}Ë fangen.\pUm ein Tor zu sprengen, lade dein\nADM auf.\lLade es mit {COLOR}É3 Licht-\plehm{COLOR}Ë auf, damit es\nstark genug ist.\lLichtlehm findet man beim\pGraben in den Wänden des KBT-Expresswegs.\pWenn das erledigt ist, komm zurück\nfür eine Belohnung.\l\p\n'
 - offset: '0x1eedf8d'
   name: 'B-597 : nom d’espèce EN canonique'
   issue: B-597
-  expected: Zerstöre die\n{COLOR}Éeingestürzten Tore{COLOR}Ë des\l{COLOR}ÉKBT Expressway{COLOR}Ë\lmit deinem {COLOR}ÉADM{COLOR}Ë und\pfang noch mehr\n{COLOR}É{STR_VAR_1}\lCarbink{COLOR}Ë.\pUm ein Tor zu sprengen, lade\nzuerst dein ADM auf.\lLade es mit {COLOR}É3 Licht-\plehm{COLOR}Ë auf, damit es\pstark genug ist.\nLichtlehm findet man beim\lGraben in den Wänden des KBT Expressway.\pWenn das erledigt ist, komm zurück\nfür eine Belohnung.
+  expected: 'Zerstöre die <0xFC><0x01><0x06>eingestürzten\nDurchgänge<0xFC><0x01><0x08> im <0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08>\lmit deinem <0xFC><0x01><0x06>ADM<0xFC><0x01><0x08> und fange noch\lmindestens <0xFC><0x01><0x06><0xFD><0x02> Carbink<0xFC><0x01><0x08>.\pUm einen Durchgang freizuräumen,\nmusst du dein ADM zuerst\laufladen.\pMit <0xFC><0x01><0x06>3 Lichtlehm<0xFC><0x01><0x08> wird es stark\ngenug, um die Trümmer zu\lzerstören!\pWo du Lichtlehm findest?\pBeim Graben in den Wänden des\nKBT Expressway kommt er recht\lhäufig vor.\pKomm danach für eine Belohnung\nzu mir zurück.'
   forbidden:
   - Zerstöre die\n{COLOR}Éeingestürzten Tore{COLOR}Ë des\l{COLOR}ÉKBT-Expresswegs{COLOR}Ë\lmit deinem {COLOR}ÉADM{COLOR}Ë und\pfang noch mehr\n{COLOR}É{STR_VAR_1}\lStrassie{COLOR}Ë.\pUm ein Tor zu sprengen, lade\nzuerst dein ADM auf.\lLade es mit {COLOR}É3 Licht-\plehm{COLOR}Ë auf, damit es\pstark genug ist.\nLichtlehm findet man beim\lGraben in den Wänden des KBT-Expresswegs.\pWenn das erledigt ist, komm zurück\nfür eine Belohnung.
 - offset: '0x1ef1137'
@@ -1343,13 +1343,13 @@ entries:
 - offset: '0x1f2c171'
   name: 'B-597 : nom d’espèce EN canonique'
   issue: B-597
-  expected: Mudbray ist eine große Hilfe\nin diesem schönen Lokal!\pEr hilft nicht nur bei der\nZubereitung der Gerichte, sondern\list auch hervorragend darin, den Kunden die Gerichte zu bringen!\pWürdest du nicht auch gerne einen\nMudbray haben, der das alles kann?
+  expected: 'Mudbray ist eine große Hilfe in\ndiesem schönen Lokal!\pEr hilft nicht nur bei der\nZubereitung der Gerichte,\lsondern ist auch hervorragend\ldarin, den Kunden die Gerichte\lzu bringen!\pWürdest du nicht auch gerne\neinen Mudbray haben, der das\lalles kann?'
   forbidden:
   - Tiboudet ist eine große Hilfe\nin diesem schönen Lokal!\pEr hilft nicht nur bei der\nZubereitung der Gerichte, sondern\list auch hervorragend darin, den Kunden die Gerichte zu bringen!\pWürdest du nicht auch gerne einen\nTiboudet haben, der das alles kann?
 - offset: '0x1f2d942'
   name: 'B-597 : nom d’espèce EN canonique'
   issue: B-597
-  expected: Ihr geht mir jetzt wirklich\nauf die Nerven!\pInkay! Skorupi!\pZeigt ihnen, warum man sich nicht mit\nder {COLOR}ÁTeam Ombres{COLOR}Ë anlegt!
+  expected: 'Ihr zwei geht mir langsam\nwirklich auf die Nerven!\pInkay! Skorupi!\pZeigt ihnen, warum man sich\nnicht mit den <0xFC><0x01><0x02>Schatten<0xFC><0x01><0x08> anlegt!'
   forbidden:
   - Ihr geht mir jetzt wirklich\nauf die Nerven!\pSepiatop! Rapion!\pZeigt ihnen, warum man sich nicht mit\nder {COLOR}ÁTeam Ombres{COLOR}Ë anlegt!
 - offset: '0x1f2db7d'
@@ -3732,7 +3732,7 @@ entries:
 - offset: '0x1ee7c01'
   name: English toponym canonicalisation 0x1EE7C01
   issue: DE — English toponyms
-  expected: Seit die Einfahrt zum KBT Expressway frei ist, können die Leute\pKräfte sparen, indem sie dort\ndurchfahren, statt zu Fuß zu laufen!
+  expected: 'Jetzt ist der Zugang zum\nKBT Expressway frei. Reisende\lkönnen\pKraft sparen, wenn sie dort\nhinaufgehen, statt den Berg zu\lerklimmen!'
 - offset: '0x1ee7e2a'
   name: English toponym canonicalisation 0x1EE7E2A
   issue: DE — English toponyms
@@ -3776,7 +3776,7 @@ entries:
 - offset: '0x1eed4eb'
   name: English toponym canonicalisation 0x1EED4EB
   issue: DE — English toponyms
-  expected: Diese Höhle führt aus der Stadt zur Route 6.\pVon dort geht es über Route 7, den Frost Mountain und Route 8 bis nach <0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08>.\pNimm viele Poké Bälle mit, wenn du hinaufsteigst.\pDie meisten kommen aber nicht vorbei, denn ohne den <0xFC><0x01><0x06>Weitsicht-Orden<0xFC><0x01><0x08> kann man den <0xFC><0x01><0x06>Morschen Baum<0xFC><0x01><0x08> vor dem Eingang nicht fällen.
+  expected: 'Diese Höhle führt aus der Stadt\nzur Route 6.\pWeiter geht es über Route 7,\nden Frost Mountain und Route 8\ldirekt nach <0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08>.\pNimm viele Pokébälle zum Fangen\nmit, wenn du ganz hinaufwandern\lwillst.\pDie meisten gehen aber nicht\ndort entlang, weil ihnen der\l<0xFC><0x01><0x06>Weitsicht-Orden<0xFC><0x01><0x08> fehlt.\pOhne ihn können sie den <0xFC><0x01><0x06>dünnen\nBaum<0xFC><0x01><0x08> vor dem Eingang nicht\lfällen.'
 - offset: '0x1eed690'
   name: English toponym canonicalisation 0x1EED690
   issue: DE — English toponyms
@@ -3956,7 +3956,7 @@ entries:
 - offset: '0x1efd04f'
   name: English toponym canonicalisation 0x1EFD04F
   issue: DE — English toponyms
-  expected: Ich heiße Fuji.\pIch habe die Karten von Seaport City bis zum Cootes Bog gemacht.\pUnd außerdem bin ich zu großen\nTeilen für das Ende des Spiels verantwortlich!\pDer Crystal Peak war das letzte große\nHindernis für Skeli, und hätte ich\lseine Tiles nicht gemacht,\lwäre das Spiel niemals\lfertig geworden!
+  expected: 'Ich heiße Fuji.\pIch habe die Karten von\nSeaport City bis zum Cootes Bog\lgemacht.\pUnd außerdem bin ich zu großen\nTeilen dafür verantwortlich,\ldass das Spiel fertig wurde!\pDer Crystal Peak war das letzte\ngroße Hindernis für Skeli, und\lhätte ich seine Tiles nicht\lgemacht, wäre das Spiel niemals\lfertig geworden!'
 - offset: '0x1efd457'
   name: English toponym canonicalisation 0x1EFD457
   issue: DE — English toponyms
@@ -3972,7 +3972,7 @@ entries:
 - offset: '0x1efec34'
   name: English toponym canonicalisation 0x1EFEC34
   issue: DE — English toponyms
-  expected: Wo willst du denn hin?\pIn dieser Kleidung kannst du die Great Desert nicht erkunden!\pOhne die nötige Schutzbrille\nkann ich dich nicht\ldurchlassen.
+  expected: 'Wo willst du denn hin?\pIn dieser Kleidung kannst du die\nGreat Desert nicht erkunden!\pOhne die nötige Schutzbrille\nkann ich dich nicht durchlassen.'
 - offset: '0x1eff254'
   name: English toponym canonicalisation 0x1EFF254
   issue: DE — English toponyms
@@ -3992,7 +3992,7 @@ entries:
 - offset: '0x1eff28a'
   name: English toponym canonicalisation 0x1EFF28A
   issue: DE — English toponyms
-  expected: Tut mir leid, du kannst nicht hier rein.\pMein Großvater hält sein Schläfchen und will nicht gestört werden.\pVersuch es mit der <0xFC><0x01><0x06>Arena von Dresco Town<0xFC><0x01><0x08>.\pDrinnen ist viel Nebel - ein Pokémon mit <0xFC><0x01><0x06>Sandsturm<0xFC><0x01><0x08> oder <0xFC><0x01><0x06>Auflockern<0xFC><0x01><0x08> hilft.\pApropos, ein Freund meines Großvaters wollte ein <0xFC><0x01><0x06>Piccolonso<0xFC><0x01><0x08> mit Auflockern eintauschen…
+  expected: 'Tut mir leid, du kannst nicht\nhier rein.\pMein Großvater hält sein\nSchläfchen und will nicht\lgestört werden.\pVersuch es mit der <0xFC><0x01><0x06>Arena von\nDresco Town<0xFC><0x01><0x08>.\pDrinnen ist viel Nebel - ein\nPokémon mit <0xFC><0x01><0x06>Sandsturm<0xFC><0x01><0x08> oder\l<0xFC><0x01><0x06>Auflockern<0xFC><0x01><0x08> hilft.\pApropos, ein Freund meines\nGroßvaters wollte ein <0xFC><0x01><0x06>Ducklett<0xFC><0x01><0x08>\lmit Auflockern wegtauschen<0xB0>'
 - offset: '0x1effb79'
   name: English toponym canonicalisation 0x1EFFB79
   issue: DE — English toponyms
@@ -4312,11 +4312,11 @@ entries:
 - offset: '0x1f1810f'
   name: English toponym canonicalisation 0x1F1810F
   issue: DE — English toponyms
-  expected: 'Na, schau an, wer meine\nLangeweile vertreibt!\pDu bist der Junge von Route 16,\noder?\p…\pAlso, {PLAYER}, wie?\pDann stell ich mich vor: Big Mo!\pIch halte allein die Unterwelt\nvon Antisis City unter Kontrolle!\pAlle Gangs kuschen vor mir,\nkapiert?\p{EVIL_LEGENDARY}\pSo wird man nicht durch Schwäche!\pKomm! Zeig mir, was du gegen\nden Paten ausrichtest!'
+  expected: 'Na, wer vertreibt mir denn da\ndie Langeweile?\pDu bist das Kind, das ich auf\nRoute 16 getroffen hab, was?\p<0xB0>\pDu heißt also <0xFD><0x01>!\pHah! Dann stell ich mich wohl\nauch mal richtig vor!\pHier nennt mich jeder Big Mo!\pIch bin der Einzige, der hier in\nAntisis die Unterwelt unter\lKontrolle hält!\pAlle Gangs liegen mir zu Füßen,\nkapiert?\p<0xFD><0x0C>\pAls Schwächling kommt man nicht\nso weit wie ich!\pNa los! Zeig, was du gegen den\nPaten von Antisis City draufhast!'
 - offset: '0x1f18710'
   name: English toponym canonicalisation 0x1F18710
   issue: DE — English toponyms
-  expected: Wenn du eines Tages nach Antisis City zurückkehrst, {PLAYER}, wisse, dass ich dich\lim Auge behalte!\pHa ha ha ha!\pIch hab hier jeden im Auge!\nDas ist mein Job!
+  expected: 'Wenn du eines Tages nach\nAntisis City zurückkehrst,\l<0xFD><0x01>, wisse, dass\lich dich im Auge behalte!\pHa ha ha ha!\pIch hab hier jeden im Auge! Das\nist mein Job!'
 - offset: '0x1f18799'
   name: English toponym canonicalisation 0x1F18799
   issue: DE — English toponyms
@@ -4360,11 +4360,11 @@ entries:
 - offset: '0x1f20ad0'
   name: English toponym canonicalisation 0x1F20AD0
   issue: DE — English toponyms
-  expected: Denkst du an die Arena-Herausforderung, {PLAYER}?\pIn Hoenn wie hier gibt's 8 Arenen.\pBesiegst du alle, giltst du als starker Trainer.\pIch hab angefangen, hatte aber Mühe in Dresco Town.\pDer Leiter setzte ständig {COLOR}É{STR_VAR_1}{COLOR}Ë ein, also suchte ich einen Weg, sie am {STR_VAR_2} zu hindern.\pZum Glück fand ich {COLOR}ÉFilter-Brille{COLOR}Ë, danach hatte er keine Chance mehr!\pViel Glück, {PLAYER}!
+  expected: 'Hast du schon an die\nArena-Herausforderung\lgedacht, <0xFD><0x01>?\pWie in meiner Heimat Hoenn gibt\nes auch in Borrius 8 Arenen.\pBesiegst du alle, wirst du als\nstarker Trainer gefeiert.\pIch habe schon angefangen,\nhatte aber in Dresco Town\lProbleme.\pDer Arenaleiter setzte\nständig <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> gegen\lmeine Pokémon ein. Ich suchte\lalso Schutz vor <0xFD><0x03>.\pZum Glück fand ich <0xFC><0x01><0x06>eine\nSchutzbrille<0xFC><0x01><0x08>. Danach hatte er\lkeine Chance mehr!\pViel Glück, <0xFD><0x01>.\pBeim nächsten Mal läuft unser\nKampf anders!\pVersprochen!'
 - offset: '0x1f20cf2'
   name: English toponym canonicalisation 0x1F20CF2
   issue: DE — English toponyms
-  expected: Denkst du an die Arena-Herausforderung, {PLAYER}?\pIn Hoenn wie hier gibt's 8 Arenen.\pBesiegst du alle, giltst du als starker Trainer.\pIch hab angefangen, hatte aber Mühe in Dresco Town.\pDer Leiter setzte ständig {COLOR}É{STR_VAR_1}{COLOR}Ë ein, also suchte ich einen Weg, sie am {STR_VAR_2} zu hindern.\pZum Glück fand ich {COLOR}ÉMaranga-Beeren{COLOR}Ë, danach hatte er keine Chance mehr!\pViel Glück, {PLAYER}!
+  expected: 'Hast du schon an die\nArena-Herausforderung\lgedacht, <0xFD><0x01>?\pWie in meiner Heimat Hoenn gibt\nes auch in Borrius 8 Arenen.\pBesiegst du alle, wirst du als\nstarker Trainer gefeiert.\pIch habe schon angefangen,\nhatte aber in Dresco Town\lProbleme.\pDer Arenaleiter setzte\nständig <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> gegen\lmeine Pokémon ein. Ich suchte\lalso Schutz vor <0xFD><0x03>.\pZum Glück fand ich <0xFC><0x01><0x06>Maronbeeren<0xFC><0x01><0x08>.\nDanach hatte er keine Chance\lmehr!\pViel Glück, <0xFD><0x01>.\pBeim nächsten Mal läuft unser\nKampf anders!\pVersprochen!'
 - offset: '0x1f212be'
   name: English toponym canonicalisation 0x1F212BE
   issue: DE — English toponyms
@@ -4400,7 +4400,7 @@ entries:
 - offset: '0x1f232ba'
   name: English toponym canonicalisation 0x1F232BA
   issue: DE — English toponyms
-  expected: Hol mein Paket vom\n{COLOR}ÉPoké Mart in Bellin Town{COLOR}Ë ab, {PLAYER}.\pIch brauche es, und nur du kannst\nes bekommen.
+  expected: 'Hol mein Paket vom <0xFC><0x01><0x06>Poké Mart\nin Bellin Town<0xFC><0x01><0x08> ab, <0xFD><0x01>.\pIch brauche es, und nur du\nkannst es bekommen.'
 - offset: '0x1f2350c'
   name: English toponym canonicalisation 0x1F2350C
   issue: DE — English toponyms
@@ -5730,11 +5730,11 @@ entries:
 - offset: '0x1efbe01'
   name: English toponym canonicalisation 0x1EFBE01
   issue: DE — English toponyms
-  expected: Lass mich dir was sagen, junger Mann.\pÖstlich von hier liegt eine gewaltige Wüste, die {COLOR}ÉGreat Desert{COLOR}Ë.\pKaum in Worte zu fassen!\pDoch ohne die richtige Ausrüstung ist sie schwer zu durchqueren, zieh also nicht einfach so los.\pDeine Kleidung ist etwas warm, schützt deinen Körper aber gut.\pFür die Augen empfehl ich eine gute {COLOR}ÉSandbrille{COLOR}Ë.\pIch geb dir sogar meine, wenn du mir zeigst, wie stark du bist, indem du {COLOR}Édie Arena besiegst{COLOR}Ë.
+  expected: 'Lass mich dir was sagen,\nJungchen.\pÖstlich von hier liegt eine\nriesige Wüste.\pSie ist so gewaltig, dass sie\neinfach <0xFC><0x01><0x06>Great Desert<0xFC><0x01><0x08> heißt.\pWorte können sie kaum\nbeschreiben!\pOhne die richtige Ausrüstung ist\nsie aber schwer zu durchqueren.\pZieh also bloß nicht\nunvorbereitet los.\pDein Outfit ist etwas warm für\ndie Wüste, schützt deinen Körper\laber gut.\pFür die Augen empfehl ich dir\nein gutes <0xFC><0x01><0x06>Wüstenglas<0xFC><0x01><0x08>.\pIch geb dir sogar meine, wenn\ndu deine Stärke zeigst und <0xFC><0x01><0x06>die\lArena bezwingst<0xFC><0x01><0x08>.'
 - offset: '0x1efd8a6'
   name: English toponym canonicalisation 0x1EFD8A6
   issue: DE — English toponyms
-  expected: Man könnte meinen, diese Typen da\nunten bleiben den ganzen Tag zu Hause?\pFALSCH!\pIch sehe sie jeden Tag rausgehen!\pSie verbringen Zeit damit, gegen\nTrainer in der {COLOR}ÉBattle Frontier{COLOR}Ç\lbei {COLOR}ÉSeaport City{COLOR}Ç zu kämpfen.
+  expected: 'Man könnte meinen, diese Typen\nda unten bleiben den ganzen Tag\lzu Hause?\pFALSCH!\pIch sehe sie jeden Tag\nrausgehen!\pSie verbringen Zeit damit, gegen\nTrainer in der <0xFC><0x01><0x06>Battle Frontier<0xFC><0x01><0x04>\lbei <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x04> zu kämpfen.'
 - offset: '0x1efe42d'
   name: English toponym canonicalisation 0x1EFE42D
   issue: DE — English toponyms
@@ -5750,7 +5750,7 @@ entries:
 - offset: '0x1f02ffa'
   name: English toponym canonicalisation 0x1F02FFA
   issue: DE — English toponyms
-  expected: Das {COLOR}ÉFlower Paradise{COLOR}Ç ist so schön!\pÜberall Blumen in allen\nFarben, und Pokémon\ldarin versteckt!\pDort fing ich mein {COLOR}ÉWommel{COLOR}Ç und\nnutzte {COLOR}ÉLockduft{COLOR}Ç, um\lmeine Attacken in der Arena zu erleichtern!
+  expected: 'Das <0xFC><0x01><0x06>Flower Paradise<0xFC><0x01><0x04> ist so\nschön!\pÜberall Blumen in allen Farben,\nund Pokémon darin versteckt!\pDort fing ich mein <0xFC><0x01><0x06>Cutiefly<0xFC><0x01><0x04> und\nnutzte <0xFC><0x01><0x06>Lockduft<0xFC><0x01><0x04>, um die Pokémon\lin der Arena leichter zu\ltreffen!'
 - offset: '0x1f04b37'
   name: English toponym canonicalisation 0x1F04B37
   issue: DE — English toponyms
@@ -5778,7 +5778,7 @@ entries:
 - offset: '0x1f23bf3'
   name: English toponym canonicalisation 0x1F23BF3
   issue: DE — English toponyms
-  expected: '{PLAYER}, beeil dich und geh\nzum {COLOR}ÉThundercap Mt.{COLOR}Ë!\pWenn die Schatten vor dir ankommen,\nist Borrius verloren!\pIm Norden, nimm schnell den {COLOR}ÉKBT Expressway{COLOR}Ë ganz nach Süden.'
+  expected: '<0xFD><0x01>, beeil dich und\ngeh zum <0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08>!\pKommen die Shadows vor dir an,\nist Borrius verloren!\pGeh nördlich aus der Stadt und\nfolge dem <0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x08> weit\lnach <0xFC><0x01><0x06>Süden<0xFC><0x01><0x08>. So geht es schnell.'
 - offset: '0x1f2657d'
   name: English toponym canonicalisation 0x1F2657D
   issue: DE — English toponyms
@@ -5790,7 +5790,7 @@ entries:
 - offset: '0x1f2ecd5'
   name: English toponym canonicalisation 0x1F2ECD5
   issue: DE — English toponyms
-  expected: Ah, ja, {PLAYER}. Du wirkst fähig…{PAUSE} du solltest mir helfen!\pDein Vater war fürs Helfen bekannt, das passt gut.\pEs gibt ein Paket in {COLOR}ÉBellin Town{COLOR}Ë, im {COLOR}ÉPoké Mart{COLOR}Ë.\pIch würde es selbst holen, aber meine Assistenten und ich sind zu sehr mit der Forschung beschäftigt…\pDer Verkäufer weiß, dass jemand es für mich abholt.\pMit deinem Pokémon sollte das einfach sein! Dieses Repel erleichtert dir die Reise.
+  expected: 'Ah, ja, <0xFD><0x01>.\pDu scheinst fähig zu sein<0xB0><0xFC><0x08><0x18> du\nsolltest mir helfen!\pWas für eine gute Idee! Dein\nVater war schließlich dafür\lbekannt, anderen zu helfen.\pAls <0xFD><0x03> deines\nVaters trittst du natürlich\lin seine Fußstapfen.\pEs gibt ein Paket in <0xFC><0x01><0x06>Bellin Town<0xFC><0x01><0x08>,\nim <0xFC><0x01><0x06>Poké Mart<0xFC><0x01><0x08>.\pIch würde es selbst holen, aber\nmeine Assistenten und ich sind\lmit unserer Forschung zu\lbeschäftigt<0xB0>\pKeine Sorge, der Verkäufer weiß,\ndass jemand es für mich abholt.\pMit deinem eigenen Pokémon\nsollte das leicht sein!\pFür alle Fälle erleichtert dir\ndieser Schutz die Reise.'
 - offset: '0x1f2fb19'
   name: English toponym canonicalisation 0x1F2FB19
   issue: DE — English toponyms
@@ -6214,7 +6214,7 @@ entries:
 - offset: '0x1eedc0b'
   name: English toponym canonicalisation 0x1EEDC0B
   issue: DE — English toponyms
-  expected: Das ADM, das du hast, ist genau die Maschine,\ndie ich brauche!\pIch versuche, die eingestürzten\nTore des KBT Expressway zu zerstören, und du\lkannst mir helfen!\lBitte benutze dein\p{COLOR}ÉADM{COLOR}Ë und hilf mir!\n
+  expected: 'Dein ADM ist genau die Maschine,\ndie ich suche!\pIch will die eingestürzten\nDurchgänge im KBT Expressway\lfreiräumen. Du hast das richtige\lMittel dafür!\pBitte hilf mir dabei mit deinem\n<0xFC><0x01><0x06>ADM<0xFC><0x01><0x08>!'
 - offset: '0x1ef7070'
   name: English toponym canonicalisation 0x1EF7070
   issue: DE — English toponyms
@@ -6262,7 +6262,7 @@ entries:
 - offset: '0x1efeda8'
   name: English toponym canonicalisation 0x1EFEDA8
   issue: DE — English toponyms
-  expected: Oh, hallo… Ich bin Nex.\pÄhm… was machst du hier?\pIch selbst warte auf einen Freund, aber…\pWie bitte? Niemand sonst würde in der Distortion World leben?\pHa ha… stimmt, aber mein Freund ist ein besonderer Fall.\pKommt er jetzt nicht, dann wohl nie mehr - hier vergeht ja kaum Zeit.\pSag… du musst stark sein, um aus eigenem Willen herzukommen.\pWürdest du gegen mich antreten?
+  expected: 'Oh, hallo<0xB0> Ich bin Nex.\pÄhm<0xB0> was machst du eigentlich\nhier?\pIch warte selbst auf einen\nFreund, aber<0xB0>\pWie bitte? Niemand sonst würde\nin der Distortion World leben?\pHa ha<0xB0> stimmt, aber mein Freund\nist ein besonderer Fall<0xB0>\pIst er bis jetzt nicht da, wird\ner wohl nie kommen<0xB0>\pGut möglich. Hier vergeht die\nZeit ja nicht wirklich.\pSag mal<0xB0>\pDu musst sehr stark sein, wenn\ndu aus eigener Kraft\lhierherkommst.\pAngesichts unseres\nAufenthaltsorts ist es etwas\lseltsam, aber würdest du gegen\lmich kämpfen?'
 - offset: '0x1eff0e3'
   name: English toponym canonicalisation 0x1EFF0E3
   issue: DE — English toponyms
@@ -6726,7 +6726,7 @@ entries:
 - offset: '0x1f0be99'
   name: English toponym canonicalisation 0x1F0BE99
   issue: DE — English toponyms
-  expected: 'Falls du es vergessen hast: der {COLOR}ÉCube{COLOR}Ç funktioniert wie eine Tasche, fasst aber anders als die 42er-Taschen im Poké Mart unendlich viel!\pEr digitalisiert die Gegenstände, du trägst also praktisch nichts extra!\pMit {START_BUTTON} sortierst du ihn sogar automatisch - praktisch, oder?\pScheint er trotzdem voll, nutz {L_BUTTON} und {R_BUTTON}, um schnell durchzublättern.\pOh, und leg ruhig das Abschiedsgeschenk hinein, das ich vorbereitet habe!'
+  expected: 'Falls du es vergessen hast: Der\nSuper Cube funktioniert wie ein\lBeutel.\pDie billigen Beutel im Poké Mart\nfassen nur 42 Items. Der Super\lCube, kurz <0xFC><0x01><0x06>Cube<0xFC><0x01><0x04>, hat dagegen\lunendlich viel Platz!\pEr digitalisiert die Daten der\nverstauten Items. So trägst du\lpraktisch kein zusätzliches\lGewicht!\pMit <0xF8><0x04> kannst du ihn sogar\nautomatisch sortieren!\pPraktisch, oder?\pIst er dir danach noch zu\nunübersichtlich, kannst du ihn\lmit <0xF8><0x02> und <0xF8><0x03> schnell durchblättern.\pDu kannst auch gleich mein\nAbschiedsgeschenk darin\lverstauen!'
 - offset: '0x1f12ff3'
   name: English toponym canonicalisation 0x1F12FF3
   issue: DE — English toponyms
@@ -10036,3 +10036,321 @@ entries:
   name: "B-667 combat_ui-01 0x3FC5E8"
   issue: "B-667"
   expected: 'Für <0xFD><0x13>,\n<0xFD><0x16> <0xFD><0x00>'
+- offset: '0x1ee6b5a'
+  name: B-679 dialogues-07
+  expected: 'Okay, dein Geburtstag ist der\n<0xFD><0x02>/<0xFD><0x03>/<0xFD><0x04>.\pHeute bist du <0xFD><0x07>\ngeworden! Alles Gute\lzum Geburtstag!'
+- offset: '0x1ee6bd8'
+  name: B-679 dialogues-07
+  expected: '<0xFC><0x01><0x02>Gib mit <0xF8><0x0C> dein Geburtsdatum ein.\nJJJJ/MM/TT. Mit <0xF8><0x00> bestätigen.'
+- offset: '0x1ee8761'
+  name: B-679 dialogues-07
+  expected: 'Wo der Wind eisig ist, sind es\nauch meine Hände.\pSoll ich einem deiner Pokémon\n<0xFC><0x01><0x06>Eishieb<0xFC><0x01><0x08> beibringen?\pFür meine frostigen\nHände brauche ich\l<0xFC><0x01><0x06><0xFD><0x03> x <0xFD><0x02><0xFC><0x01><0x08>.'
+- offset: '0x1ee92d1'
+  name: B-679 dialogues-07
+  expected: 'Der DexNav hat zwei Teile: eine\n<0xFC><0x01><0x06>Oberfläche<0xFC><0x01><0x08> und eine <0xFC><0x01><0x06>Suchleiste<0xFC><0x01><0x08>.\pÜber das <0xFC><0x01><0x06>Start-Menü<0xFC><0x01><0x08> öffnest du\ndie Oberfläche und wählst ein\lPokémon für die Suche.\pLebt es hier und ist im Pokédex\nmindestens als “<0xFC><0x01><0x06>gesehen<0xFC><0x01><0x08>”\lregistriert, kannst du danach\lsuchen.\pWählst du es mit <0xF8><0x00>, erscheint es\nwährend der Suche in der\lSuchleiste.\pAchte auf <0xFC><0x01><0x06>raschelndes Gras<0xFC><0x01><0x08> oder\n<0xFC><0x01><0x06>Staubwolken<0xFC><0x01><0x08> in Höhlen, um das\lgewählte Pokémon zu finden.\pNähere dich langsam, sonst\nflieht es.\pIst es im Pokédex noch nicht als\n“<0xFC><0x01><0x06>gefangen<0xFC><0x01><0x08>” registriert, ist es\lbis zum ersten Fang schwerer zu\lfinden.\pMit jeder DexNav-Begegnung\nsteigt sein <0xFC><0x01><0x06>Suchlevel<0xFC><0x01><0x08>. Spätere\lSuchen können bessere Pokémon\lliefern.'
+- offset: '0x1ee9d32'
+  name: B-679 dialogues-07
+  expected: 'Eine Kette entsteht, wenn du mit\ndem DexNav mehrmals\lhintereinander Pokémon\lbegegnest.\pSie wächst jedes Mal, wenn du\nein per DexNav gefundenes\lPokémon fängst oder besiegst.\pFängst oder besiegst du es\nnicht, bricht die Kette.\pSie bricht auch, wenn außerhalb\ndes Kampfes ein Pokémon flieht\loder du einem ohne DexNav\lbegegnest.\pAuch Speichern und Neustarten\nunterbricht die Kette.\pAlle 100 Kämpfe wird sie\nzurückgesetzt. Je länger die\lKette, desto höher das\lPokémon-Level.\pBei 50 und 100 steigt außerdem\ndie Chance auf schillernde\lPokémon.\pDas zeigt ein goldener Stern\nneben der Kettenlänge im HUD an.'
+- offset: '0x1eed28a'
+  name: B-679 dialogues-07
+  expected: 'Mit <0xF8><0x0B> die Outfitfarbe wählen.\n<0xF8><0x00>: Bestätigen. <0xF8><0x01>: Zurück.'
+- offset: '0x1eed2ce'
+  name: B-679 dialogues-07
+  expected: 'Mit <0xF8><0x0B> die Besatzfarbe wählen.\n<0xF8><0x00>: Bestätigen. <0xF8><0x01>: Zurück.'
+- offset: '0x1eee292'
+  name: B-679 dialogues-07
+  expected: '<0xFC><0x01><0x02>Oh nein! Diancie ist\nweggelaufen!'
+- offset: '0x1eee413'
+  name: B-679 dialogues-07
+  expected: 'Papa'
+- offset: '0x1eeeccc'
+  name: B-679 dialogues-07
+  expected: 'Nach dem Meteoriteneinschlag vor\nvielen Jahren entdeckte man zwei\lPokémon, die auf der Erde\lgelandet waren.\pEines war sehr mächtig und\nkonnte jeden Herzenswunsch\lerfüllen.\pDie Stadtbewohner und ich fanden\ndas zunächst wunderbar!\pDamit könnten wir unsere\nzerstörte Stadt wiederaufbauen!\pDoch bald erfuhren wir, dass\njeder Wunsch seinen Preis hatte.\pAus Angst vor einer noch\ngrößeren Katastrophe sperrten\lwir es ein.\pJetzt bist du als <0xFD><0x03>\nvon Aros Champion geworden.\lIch finde, wir sollten dir\ldieses Pokémon anvertrauen.\pMöchtest du ihm ein liebevolles\nZuhause geben?'
+- offset: '0x1eef488'
+  name: B-679 dialogues-07
+  expected: 'Sollen deine Pokémon eine\nAttacke lernen, brauche ich eine\l<0xFC><0x01><0x06>Herzschuppe<0xFC><0x01><0x08>.'
+- offset: '0x1ef143c'
+  name: B-679 dialogues-07
+  expected: '<0xFC><0x01><0x04>Oh, Gott sei Dank, du bist\nzurück!\pDieses<0xB0> dieses<0xB0> böse Pokémon lässt\nmeine Tochter nicht in Ruhe!\pEgal, was ich tue, es will\neinfach nicht<0xB0><0xFC><0x08><0x20> weg<0xB0><0xFC><0x08><0x20> gehen<0xB0><0xFC><0x08><0x20> urgh<0xB0>'
+- offset: '0x1ef18e9'
+  name: B-679 dialogues-07
+  expected: 'Smaragde übrig: <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x02>'
+- offset: '0x1ef1c2e'
+  name: B-679 dialogues-07
+  expected: 'Ihr habt mich besiegt. Geht also\nbrav wie gute kleine Trainer den\landeren Weg zurück.'
+- offset: '0x1ef517f'
+  name: B-679 dialogues-07
+  expected: 'Laut diesen Forschungsnotizen\naus Alola<0xB0>\pWurde dieses Pokémon nach dem\nVorbild des Mysteriösen Pokémon\lArceus erschaffen<0xB0>\pMan wollte seine Kraft\nnachbilden, um Wesen aus einer\landeren Welt zu bekämpfen.\pWir haben es hier in Borrius\nauch versucht, waren aber nicht\lerfolgreicher.\pDas Pokémon, das ich dir gab,\nwar eines der beiden, die wir\lerschufen.\pFalls eines Tages seine wahren\nKräfte freigesetzt werden können<0xB0>\pDann kann ich die Hilfsmittel\nherstellen, die es zum\lTypwechsel braucht.'
+- offset: '0x1ef5a7e'
+  name: B-679 dialogues-07
+  expected: 'Oh<0xB0><0xFC><0x08><0x18> mein ganzer Stolz<0xB0><0xFC><0x08><0x18> irreparabel\nbeschädigt<0xB0>'
+- offset: '0x1ef5ab2'
+  name: B-679 dialogues-07
+  expected: 'Schnief<0xB0><0xFC><0x08><0x18> mein Lebenswerk<0xB0><0xFC><0x08><0x18> dahin<0xB0><0xFC><0x08><0x18>\nverloren bei einem tragischen,\lgekünstelten Unfall<0xB0>\p<0xB0><0xFC><0x08><0x18>Dann kann ich wohl aufbrechen.\pHier rumzuhängen bringt ja doch\nnichts mehr.'
+- offset: '0x1ef5c2e'
+  name: B-679 dialogues-07
+  expected: 'Hast du die <0xFC><0x01><0x06>Raid-Höhlen<0xFC><0x01><0x08> in\nBorrius gesehen?\pFaszinierend, nicht wahr?\pSie entstanden, als ein Meteorit\nmit Energie aus einer anderen\lWelt beinahe auf Borrius\lstürzte.\pEine ferne Region soll etwas\nganz Ähnliches erlebt haben<0xB0>\pSo entstanden die Höhlen. Dort\nlässt die Energie Pokémon riesig\lwerden, doch sie können erst\lnach ihrem Fang hinaus<0xB0>\pWürdest du nach diesem kleinen\nVortrag einen kurzen Test für\lmich machen?'
+- offset: '0x1ef61d7'
+  name: B-679 dialogues-07
+  expected: 'Hmm, ja<0xB0> ich bin ein sehr\nwichtiger Wissenschaftler<0xB0> hoh,\lhoh.\pHmm<0xB0> ja, da bin ich sicher. Die\nLeute von Borrius<0xB0>\pSie alle<0xB0> hmm, ja<0xB0> stehen auf und\nfolgen jeden Tag derselben\lRoutine.\pGewohnheitstiere sind sie<0xB0> hoh,\nhoh. Genau das.\pHmm<0xB0> ja, du könntest mir helfen.\nBei meiner Forschung, hmm, ja.\lHoh, hoh.\pIch habe bestimmte Leute in\nBorrius ausspioniert<0xB0> äh,\lunauffällig beobachtet<0xB0> hmm, ja.\pDu sollst<0xB0> hmm, was war es noch<0xB0>?\pHmm, ja<0xB0> diese Leute finden, die\nzu viel Zeit haben<0xB0> hoh, hoh.\pFinde alle und tu, worum sie\ndich bitten<0xB0> oder nimm, was sie\lanbieten<0xB0> hoh, hoh.\pAlso, äh<0xB0> hilfst du einem sehr\nwichtigen Wissenschaftler?'
+- offset: '0x1ef82d3'
+  name: B-679 dialogues-07
+  expected: 'Mmm<0xB0>\pRiecht leicht nach <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08><0xB0>'
+- offset: '0x1efe6e4'
+  name: B-679 dialogues-07
+  expected: 'Sprudel<0xFC><0x13><0x54><0xFC><0x06><0x00>¥300'
+- offset: '0x1efe6f7'
+  name: B-679 dialogues-07
+  expected: 'Limonade<0xFC><0x13><0x54><0xFC><0x06><0x00>¥350'
+- offset: '0x1f00d23'
+  name: B-679 dialogues-07
+  expected: 'Ein Juwel ist ein besonderes\ngetragenes Item. Es verstärkt\leine einzige Attacke im Kampf.\pJedes Juwel gehört zu einem Typ\nund verstärkt nur Attacken\ldieses Typs.\pJuwelen verschwinden nach\nGebrauch. Nach wichtigen\lKämpfen, etwa gegen Arenaleiter,\lerhältst du sie wie die meisten\lVerbrauchsitems zurück.\pDie meisten Arenaleiter in\nBorrius haben mindestens ein\lPokémon mit einem Juwel dabei.\lSei vorsichtig.\pWenn dir das Sorgen macht,\nkannst du es mit <0xFC><0x01><0x06>Einäschern<0xFC><0x01><0x08>\lschmelzen, bevor es zum Einsatz\lkommt.'
+- offset: '0x1f02164'
+  name: B-679 dialogues-07
+  expected: 'Spüre meine physische\n<0xFC><0x01><0x06>Unlicht<0xFC><0x01><0x08>-Wut!'
+- offset: '0x1f03972'
+  name: B-679 dialogues-07
+  expected: 'Trägt dein Pokémon den\n<0xFC><0x01><0x06>Beulenhelm<0xFC><0x01><0x04>, erleidet jedes\lPokémon, das es berührt, ein\lSchädeltrauma!'
+- offset: '0x1f0591e'
+  name: B-679 dialogues-07
+  expected: 'Hier reden alle von “Entwicklung\nhier” und “Entwicklung da”.\pIch finde Entwicklung aber dumm!\pStatt kurz vor einer Entwicklung\n<0xF8><0x01> zu drücken, lasse ich mein\lPokémon lieber einen <0xFC><0x01><0x06>Ewigstein<0xFC><0x01><0x08>\ltragen.\pSo spare ich mir die ganze\nEntwicklung!\pUnd weißt du was?\pIch gebe dir einen, wenn du mir\nein Pokémon zeigst, das sich nie\lentwickelt hat und nicht\lentwickeln kann!\pHast du so eins im Team?'
+- offset: '0x1f05dd1'
+  name: B-679 dialogues-07
+  expected: 'Ich habe einen <0xFC><0x01><0x06>Donnerstein<0xFC><0x01><0x08> auf\nmein <0xFC><0x01><0x06>Pikachu<0xFC><0x01><0x08> angewandt, während\lich <0xFC><0x01><0x06>still<0xFC><0x01><0x08> am <0xFC><0x01><0x06>Meeresufer<0xFC><0x01><0x08> stand\lund <0xFC><0x01><0x06>Wasser meine Füße umspülte<0xFC><0x01><0x08>.\lJetzt surft es auf seinem\lSchwanz!'
+- offset: '0x1f05f6d'
+  name: B-679 dialogues-07
+  expected: 'Das ist kein <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>!\pWäääh! Ich will ein\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> sehen!'
+- offset: '0x1f06c7f'
+  name: B-679 dialogues-07
+  expected: 'Eine Mission ist ein zusätzliches\nZiel, das du erhältst, wenn du\leine Bitte um Hilfe annimmst.\pViele Menschen können ihre\nProbleme nicht allein lösen und\lbrauchen Hilfe.\pNimmst du die Mission an, werden\ndie Einzelheiten automatisch im\lMissions-Journal festgehalten.\pOft gibt es tolle Belohnungen:\nItems, Geld oder sogar neue\lOrte zum Erkunden.\pWird dir eine Mission angeboten,\nnimm sie sofort an.\pAuch wenn du sie nicht gleich\nerledigen willst, schadet ein\lEintrag im Missions-Journal\lnicht.\pHier sind übrigens mehrere\nLeute, die Hilfe brauchen.\pSieh dich um und entscheide,\nwem du helfen möchtest!\pKomm wieder, wenn du mindestens\n<0xFC><0x01><0x06>5<0xFC><0x01><0x08> Missionen erledigt hast.'
+- offset: '0x1f09434'
+  name: B-679 dialogues-07
+  expected: 'Deine Pokémon haben\nheute bisher <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>\lEP<0xFD><0x07> verdient.\pDu brauchst aber noch weitere\n<0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04> EP<0xFD><0x08>.\pErst dann steigst du über den\nRang “mäßig wohlhabend” hinaus.'
+- offset: '0x1f0ba1f'
+  name: B-679 dialogues-07
+  expected: 'Mama'
+- offset: '0x1f0d145'
+  name: B-679 dialogues-07
+  expected: 'Das ist genau, was ich\nbrauchte, <0xFD><0x01>!\pVielen Dank, ich weiß das zu\nschätzen!\pWeißt du<0xB0><0xFC><0x08><0x18> dein Vater hätte\ndasselbe für mich getan.\pEgal, wie klein die Aufgabe war,\ner half immer gern.\pDu bist gut in seine Fußstapfen\ngetreten.\pUnd ein großartiger\nPokémon-Trainer wie er bist du\lauch geworden!\pDer Weg war sicher lang\nund beschwerlich, aber\lich habe immer an dich\lgeglaubt, <0xFD><0x01>!\pNimm diesen seltenen Edelstein\nfür all die Mühe, die ich dir\lbereitet habe.'
+- offset: '0x1f0dc5c'
+  name: B-679 dialogues-07
+  expected: 'Du möchtest <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>? Das\nkostet <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> Münzen.'
+- offset: '0x1f13fc2'
+  name: B-679 dialogues-07
+  expected: 'Willkommen zurück!\pIch habe dein Fossil\nals gesundes <0xFD><0x02>\lwiederbelebt!'
+- offset: '0x1f18318'
+  name: B-679 dialogues-07
+  expected: 'Das gilt auch für deine kleine\nBande, die “Black <0xFD><0x01>”.\pNiedlich, wie du hier mitmischen\nwillst.'
+- offset: '0x1f1b708'
+  name: B-679 dialogues-07
+  expected: 'Willst du Big Mo wirklich\nbesiegen, wenn deine <0xFC><0x01><0x06>Initiative<0xFC><0x01><0x08>\ldein <0xFC><0x01><0x06>Gewicht<0xFC><0x01><0x08> ist und du <0xFC><0x01><0x06>weder<0xFC><0x01><0x08>\l<0xFC><0x01><0x06>Feen<0xFC><0x01><0x08>-Attacken noch <0xFC><0x01><0x06>Fähigkeiten\lmit Vorrang<0xFC><0x01><0x08> nutzen kannst, hm?'
+- offset: '0x1f1c019'
+  name: B-679 dialogues-07
+  expected: 'Arenaleiter Mirskle bevorzugt\nblumige Pokémon.\pMit einem <0xFC><0x01><0x06>Feuer<0xFC><0x01><0x08>- oder\n<0xFC><0x01><0x06>Flug<0xFC><0x01><0x08>-Pokémon solltest du ihn\lmühelos besiegen!\p-HUST- -HUST-\pEr füllt seine Arena gern mal\nmit Nebel. Das wirkt sich auf\lden Kampf aus.\pDu weichst leichter aus, hast\naber auch mehr Mühe, selbst zu\ltreffen!\pEntferne zuerst den Nebel vom\nKampffeld und setze dann deinem\lGegner zu.\pZum Beispiel mit <0xFC><0x01><0x06>Sandsturm<0xFC><0x01><0x08> oder\n<0xFC><0x01><0x06>Auflockern<0xFC><0x01><0x08>.\pViel Glück!\p-HUST- -KEUCH-'
+- offset: '0x1f1e1a5'
+  name: B-679 dialogues-07
+  expected: 'Wie in Mels Arena dreht sich\nhier alles um <0xFC><0x01><0x06>Wasser<0xFC><0x01><0x08>.\pDoch hier setzen die Trainer\ntatsächlich <0xFC><0x01><0x06>Wasser<0xFC><0x01><0x08>-Pokémon ein!\p<0xFC><0x01><0x06>Elektro<0xFC><0x01><0x08>- oder <0xFC><0x01><0x06>Pflanzen<0xFC><0x01><0x08>-Pokémon\nsind eine große Hilfe.\pAber Vorsicht.\pDiese Trainer sind Meister der\nAnpassung.\pIm Kampf erhalten alle Pokémon\ndie <0xFC><0x01><0x06>gleichen Typen<0xFC><0x01><0x08> wie ihre\l<0xFC><0x01><0x06>ersten beiden Attacken<0xFC><0x01><0x08>.\pUm Tessy zu erreichen, brauchst\ndu ein Pokémon, das mit Surfer\lübers Wasser kommt.\pBleibst du zu lange im Wasser,\nwirst du zum Eingang\lzurückgespült!\pSchau voraus und finde den\nkürzesten Weg zur nächsten\lPlattform.\pAuch an Land läuft die Zeit\nweiter. Solange du nicht im\lWasser bist, wirst du aber nicht\lweggespült.\pViel Glück!'
+- offset: '0x1f1e688'
+  name: B-679 dialogues-07
+  expected: 'Kennst du den seltsamen Fall von\nBenjamin Butterfree?\pAls Butterfree geboren, als\nCaterpie K.O. gegangen: Der\larme Benjamin wurde sein Leben\llang jünger.\pNach diesem Vorbild hat unser\nArenaleiter Benjamin diese Arena\lentworfen.\pDu ahnst es: Hier setzen Trainer\n<0xFC><0x01><0x06>Käfer<0xFC><0x01><0x08>-Pokémon ein!\p<0xFC><0x01><0x06>Gesteins<0xFC><0x01><0x08>-, <0xFC><0x01><0x06>Flug<0xFC><0x01><0x08>- oder\n<0xFC><0x01><0x06>Feuer<0xFC><0x01><0x08>-Pokémon weisen sie in die\lSchranken.\pAber Vorsicht: Wird hier ein\nPokémon besiegt, entwickelt es\lsich zurück.\pK.O. geht es erst, wenn es sich\nnicht weiter zurückentwickeln\lkann.\pWegen dieser besonderen Regel\ngibt es hier keine EP.\pWie du Benjamin findest? Hör gut\nzu.\pIn jedem Raum entlang der Wand\nsind Schalter in Felsen\lversteckt.\pDrücke sie in der richtigen\nReihenfolge, dann öffnet sich\lder Weg zu Benjamin.\pWelche Reihenfolge das ist?\pDenk einfach an den seltsamen\nFall von Benjamin Butterfree<0xB0>'
+- offset: '0x1f20544'
+  name: B-679 dialogues-07
+  expected: 'Wer sich an Insane wagt, sollte\nverrückt genug sein, Heilitems\lzu kaufen. Sonst kostet jede\lHeilung so viel wie 6\lTop-Genesungen, 5 Beleber und 6\lTop-Elixiere.\pDas gefällt dir nicht?\pSpiele auf einer niedrigeren\nStufe.\pDieser Modus ist nichts für\nLeute, die den einfachen Weg\lsuchen.\pDu bist gewarnt.'
+- offset: '0x1f206bc'
+  name: B-679 dialogues-07
+  expected: 'Warum'
+- offset: '0x1f2171a'
+  name: B-679 dialogues-07
+  expected: 'Übersetze.<0xFC><0x08><0x30>.<0xFC><0x08><0x30>.<0xFC><0x08><0x30>'
+- offset: '0x1f248e3'
+  name: B-679 dialogues-07
+  expected: 'Prof. Log und ich haben Tag und\nNacht an diesem Gerät\lgearbeitet!\pIch kann es nicht einfach jedem\ngeben!\pAllerdings<0xB0>\pWenn du einen Teil von Prof.\nLogs Bitte erfüllst<0xB0>\pSagen wir<0xB0> mindestens\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Arten als <0xFC><0x01><0x06>gefangen<0xFC><0x01><0x08>\lim Pokédex registrierst?\pDann überlasse ich dir das\nGerät.'
+- offset: '0x1f24a3c'
+  name: B-679 dialogues-07
+  expected: 'Mit dem <0xFC><0x01><0x06>Stats-Scanner<0xFC><0x01><0x08> siehst du\ndie versteckten Werte deiner\lPokémon überall in der Region!\pMit <0xF8><0x02> oder <0xF8><0x03> siehst du auch,\nwelche Attacken sie lernen\lkönnen!\pDu kannst ihn außerdem bequem\naus deiner <0xFC><0x01><0x06>Teamliste<0xFC><0x01><0x08> mit <0xF8><0x03> öffnen.'
+- offset: '0x1f2500b'
+  name: B-679 dialogues-07
+  expected: 'Mit dem vollständig verbesserten\n<0xFC><0x01><0x06>Stats-Scanner<0xFC><0x01><0x08> kannst du fast\lalles an deinen Pokémon ändern!\pDrück <0xF8><0x00> beim gewünschten\nPokémon. Dann änderst du\lmühelos Fähigkeit, Wesen,\lGeschlecht, Level, FP, DV und\lsogar die Kraftreserve!\pMit <0xF8><0x02> oder <0xF8><0x03> kannst du ihnen\nweiterhin neue Attacken\lbeibringen.'
+- offset: '0x1f26c29'
+  name: B-679 dialogues-07
+  expected: 'Weißt du<0xB0>\pIch habe viele Jahre die Welt\nnach den verschiedenen Vivillon\labgesucht.\pVivillon ist besonders: Es hat\nviele verschiedene Muster.\pBlumenmeer, Archipel,\nKontinental, Prunk, Ziergarten,\lDürre, Frost, Dschungel,\lAquamarin, Innovation, Monsun,\lOzean, Schneefeld, Flussdelta,\lSand, Savanne, Sonne, Flocken,\lFantasie und ein letztes\lbesonderes Muster.\pNach vielen Jahren hatte ich sie\nalle gefunden.\pVon diesen 20 Formen habe ich\n19 in Borrius versteckt.\pTraust du dir zu, meine Vivillon\naufzuspüren?\pDu musst sie nicht fangen. Als\nSammler wie ich möchtest du das\laber vielleicht.'
+- offset: '0x1f2731f'
+  name: B-679 dialogues-07
+  expected: 'Prunk'
+- offset: '0x1f274fd'
+  name: B-679 dialogues-07
+  expected: 'Innovation'
+- offset: '0x1f277bb'
+  name: B-679 dialogues-07
+  expected: 'Flocken'
+- offset: '0x1f286d7'
+  name: B-679 dialogues-07
+  expected: 'Hallo!\pIch glaube, ich habe mich noch\ngar nicht richtig vorgestellt.\pIch heiße Catherine! Die meisten\nnennen mich aber Cathy.\pIch kam mit meiner Freundin\nMahina aus Kanto hierher.\pProf. Eich wollte, dass wir den\nPokédex vervollständigen. Darum\lsuchen wir täglich in Borrius\lnach möglichst vielen seltenen\lPokémon.\pAuf diesen Reisen konnte ich eine\nverborgene Kraft in meinem\lBlastoise wecken.\pHast du auch ein Blastoise,\nhilft dir das, sein verborgenes\lPotenzial zu entfesseln.'
+- offset: '0x1f2bab6'
+  name: B-679 dialogues-07
+  expected: '<0xFC><0x01><0x04>Ach<0xB0> Wie traurig<0xB0>'
+- offset: '0x1f2e593'
+  name: B-679 dialogues-07
+  expected: 'Ich erforsche alle Aspekte der\nPokémon-Werte und Fangraten.\pUnd mein Titel ist Professor,\nnicht “Opa”!\pIhr beide habt sicher einiges\ndurchgemacht.\pIch bin froh, dass ihr\nunverletzt seid.\pUnd ihr habt sogar seltene\nPokémon bekommen!\pIch wollte <0xFD><0x06> eines\nTages ein eigenes Pokémon geben.\lDas muss ich jetzt nicht mehr!\pHo ho ho!'
+- offset: '0x1f2e742'
+  name: B-679 dialogues-07
+  expected: 'Natürlich wollte ich dir\nimmer eins geben, <0xFD><0x06>!\pSchließlich bin ich für viele\nBesorgungen selbst zu alt!\pNur<0xB0><0xFC><0x08><0x18> bestehst du darauf, deine\nEltern zu suchen.\pIch sage dir ständig, dass sie\nseit Jahren niemand gesehen hat!\pSelbst wenn sie noch in Borrius\nsind, ist die Suche eine viel zu\lgroße Aufgabe für dich allein.\pIch wollte dir erst ein Pokémon\ngeben, wenn du das einsiehst.\lAber du hörst ja nicht zu!'
+- offset: '0x1f2f24d'
+  name: B-679 dialogues-07
+  expected: 'Du da!'
+- offset: '0x1ef408c'
+  name: B-679 dialogues-07
+  expected: 'Ihr täuscht uns nicht, Cube\nCorp.! Wir wissen, was ihr da\ldrüben treibt!\pWir wissen, dass ihr von der\nWissenschaftsgesellschaft\lgeleitet werdet!\pUnd eines Tages jagen wir euch\nein für alle Mal davon!'
+- offset: '0x1ef8c8e'
+  name: B-679 dialogues-07
+  expected: 'Du wirst diese Pokémon nie\nwiedersehen.\pBist du WIRKLICH sicher,\ndass du mir alle deine\lPokémon aus der Box\l«<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>» überlassen willst?'
+- offset: '0x1f01739'
+  name: B-679 dialogues-07
+  expected: 'Wusstest du, dass wenn du deine\nKonsole ausschaltest, ohne zu\lspeichern, eine Bombe explodiert\lund unsere Welt zerstört?\pDu siehst es nicht, weil eine\nParalleldimension entsteht, wenn\ldu neu lädst.\pDanke, dass du unsere Welt nicht\nmehr zerstörst.\pBeweise deinen Willen\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Mal.'
+- offset: '0x1f03cbd'
+  name: B-679 dialogues-07
+  expected: 'Siehst du diesen Gegenstand auf\ndem Tisch?\pEr ist mein ganzer Stolz, der\n<0xFC><0x01><0x06>Meisterball<0xFC><0x01><0x04>.\pEin seltener Pokéball, der jedes\nPokémon garantiert fängt.\pDer Mann, der ihn mir gab, <0xFC><0x01><0x06>Aros<0xFC><0x01><0x04>,\nsagte, ich solle ihn hüten wie\lmein eigenes Leben.\pBis man mir ein kleines violettes\nPokémon zeigt, <0xFC><0x01><0x06>Hoopa<0xFC><0x01><0x04>.\pAros sagte, wer Hoopa\nbeherrscht, ist der Hüter von\lBorrius und dieses Balls würdig.\pBist du der Hüter von Borrius,\noder nur ein weiterer Balg?'
+- offset: '0x1f0714f'
+  name: B-679 dialogues-07
+  expected: 'Jetzt, wo du etwas Erfahrung\nhast, gebe ich dir deine Mission!\pBenutze das <0xFC><0x01><0x06>Trainer-Katalog<0xFC><0x01><0x08> und\nbesiege jeden gelisteten\lTrainer.\pDiese Trainer wollen kämpfen, du\ntust ihnen einen Gefallen, wenn\ldu gegen sie antrittst!'
+- offset: '0x1f0925a'
+  name: B-679 dialogues-07
+  expected: 'Ich bin so reich, dass mein Pool\nseinen eigenen Pool hat!\pUnd doch<0xB0><0xFC><0x08><0x20> und doch macht mich\nall das Geld nicht glücklich.\pWahrer Reichtum liegt in einer\nluxuriösen Währung: den\lErfahrungspunkten!\pWillst du mir also dein Verlangen\nzeigen, wirklich reich zu\lwerden?'
+- offset: '0x1f095a6'
+  name: B-679 dialogues-07
+  expected: 'Ich bin frei von meinen\nmateriellen Begierden.\pUnd endlich<0xB0><0xFC><0x08><0x20> endlich bin ich\nwirklich reich.\pSehr beeindruckend, Trainer.\pDoch ich sehe, dass dein\nVerlangen nach Reichtum meines\lübertrifft<0xB0>\pAls Belohnung für deinen Willen<0xB0><0xFC><0x08><0x18>\nah, ja.\pNimm diese Glücks-Eier.'
+- offset: '0x1f0974f'
+  name: B-679 dialogues-07
+  expected: 'Wenn du willst, verbessere ich\ndeine Glücks-Eier weiter.\pAber dafür brauche ich mehr als\nnur Erfahrungspunkte.\pBring mir <0xFC><0x01><0x06><0xFD><0x04>\n<0xFD><0x02><0xFC><0x01><0x04>, und ich verbessere\ldeine Glücks-Eier weiter.\pIch<0xB0><0xFC><0x08><0x18> mir wird gerade klar, dass\nich doch Nahrung brauche.'
+- offset: '0x1f09838'
+  name: B-679 dialogues-07
+  expected: 'Hallo, bist du hier, um deine\n<0xFC><0x01><0x06>Glücks-Eier<0xFC><0x01><0x04> zu verbessern?\pIch brauche <0xFC><0x01><0x06><0xFD><0x04>\n<0xFD><0x02><0xFC><0x01><0x04>, um ihr Glück\lauf <0xFC><0x01><0x06><0x34> <0xFD><0x03><0xFC><0x01><0x04> zu bringen.'
+- offset: '0x1f0e8bb'
+  name: B-679 dialogues-07
+  expected: 'Du hast Mumm.\pUm meinen Rekord zu brechen,\nmusst du an einem Tag mindestens\l<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Münzen beim Spielen\lvon <0xFC><0x01><0x06>Cloud Burst<0xFC><0x01><0x08> sammeln.\pIch hätte dir Münzen gegeben,\naber ich schulde noch Geld den\lBlack Ferrothorn.'
+- offset: '0x1f15c6c'
+  name: B-679 dialogues-07
+  expected: 'Hä? Oh<0xB0><0xFC><0x08><0x18> hi, <0xFD><0x02><0xB0>\pAlles klar?\pWollen deine Pokémon mal etwas\näh<0xB0><0xFC><0x08><0x18> Rosenrauch schnuppern?\pDas ist super für die Seele.\nMacht sie schön entspannt<0xB0>'
+- offset: '0x1f17df1'
+  name: B-679 dialogues-07
+  expected: 'Puh<0xB0> du hast mich ordentlich\ngegrillt!\pSieht aus, als wären deine\nKriegsmaschinen besser als meine.\pNichts einzuwenden! Ich muss dir\ndiesen <0xFC><0x01><0x06>Batterie-Orden<0xFC><0x01><0x08> geben!'
+- offset: '0x1f21e34'
+  name: B-679 dialogues-07
+  expected: 'Diese Wände sind voller Schätze.\pIch verdiene meinen\nLebensunterhalt, indem ich sie\lausgrabe und möglichst viele\lverkaufe.\pIch mache gerade eine Pause,\nalso versuch es an meiner\lStelle?\pEs kostet dich ¥<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>,\naber du darfst behalten,\lwas du findest!'
+- offset: '0x1f247c5'
+  name: B-679 dialogues-07
+  expected: 'Hallo, <0xFD><0x01>!\pWusstest du, dass deine Pokémon\nversteckte Werte haben, die\l<0xFC><0x01><0x06>Fleißpunkte <0xFC><0x01><0x08> und\l<0xFC><0x01><0x06>Determinantwerte (DV)<0xFC><0x01><0x08> genannt\lwerden?\pIch kann dir diese Werte zeigen,\nwenn du willst!'
+- offset: '0x1f24d93'
+  name: B-679 dialogues-07
+  expected: 'Mit dem verbesserten\n<0xFC><0x01><0x06>Stats-Scanner<0xFC><0x01><0x08> siehst du überall\ldie versteckten Werte und\lAttacken deiner Pokémon und\lkannst ihnen Attacken beibringen,\lfür die du sonst einen bestimmten\lOrt oder eine Person aufsuchen\lmüsstest!\pDrück <0xF8><0x02> oder <0xF8><0x03>, um die Attacken\nzu sehen, und wähl eine zum\lErlernen mit <0xF8><0x00>.\pUnd natürlich kannst du ihn auch\nschnell aus deiner <0xFC><0x01><0x06>Teamliste<0xFC><0x01><0x08> mit\l<0xF8><0x03> öffnen.'
+- offset: '0x1f251c9'
+  name: B-679 dialogues-07
+  expected: 'Hallo, <0xFD><0x01>!\pWusstest du, dass die Werte\ndeiner Pokémon auch anders\lsteigen als durch\lLevelaufstiege?\pBesiegst du Pokémon im Kampf,\nerhält dein Team versteckte\lWerte, je nach besiegtem\lPokémon.\pDiese Werte steigen auch durch\nVitamine wie Protein.\pProf. Log und ich bauten ein\nGerät, um diese Werte zu sehen,\laber ein Trainer im Modus\l<0xFC><0x01><0x06>Vanilla<0xFC><0x01><0x08> wie du muss sich darum\lkeine Sorgen machen.\pAlso geh raus und genieß, was\ndu fängst!'
+- offset: '0x1ee79b9'
+  name: B-679 dialogues-07
+  expected: 'Ngh!\pAu<0xB0><0xFC><0x08><0x18> nun, das hätte auch besser\nlaufen können<0xB0>\pHmm<0xB0><0xFC><0x08><0x18> ich erinnere mich an ein\nBuch, in dem stand, Vögel hätten\loft eine große Brust, das hilft\lbeim Fliegen<0xB0>\p<0xB0><0xFC><0x08><0x18>N-nun ja!\pIch glaube, ich überlasse das\nFliegen lieber denen, die wissen,\lwas sie tun!\pDanke für deine Hilfe,\n<0xFD><0x01>, auch wenn meine\lFlugträume zerplatzt sind.\pNimm das hier, als Bezahlung.'
+- offset: '0x1ee8477'
+  name: B-679 dialogues-07
+  expected: 'Die Leute hier lassen mich nicht\nrein, also muss ich draußen\lbleiben.\pDie anderen müssen nur <0xF8><0x00> neben\nder Tür drücken, um\lreinzukommen.\pAber nicht ich. Das Leben ist\nungerecht.'
+- offset: '0x1ee8a66'
+  name: B-679 dialogues-07
+  expected: '<0xFC><0x01><0x04>Hi! Hast du ein <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>?\pWillst du es gegen mein\n<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> tauschen?\pDas ist super, um gegen meine\nMama zu kämpfen!'
+- offset: '0x1ee9125'
+  name: B-679 dialogues-07
+  expected: 'Ich heiße Ayla!\pUnter Nats Anleitung konnte ich\nBills PC nach Borrius bringen\lund meine eigene Version\lerschaffen!\pDank meiner Verbesserungen\nkannst du bis zu <0xFC><0x01><0x06>750<0xFC><0x01><0x04>\lverschiedene Pokémon in meinem\lPC lagern!\pDas ist viel mehr als die 420,\ndie Bills PC erlaubt.'
+- offset: '0x1ee9c12'
+  name: B-679 dialogues-07
+  expected: 'Man kann ein Pokémon für die\nSuche über <0xF8><0x03> registrieren, wenn\ldie Oberfläche geöffnet ist.\pWenn ein Pokémon registriert ist\nund der <0xFC><0x01><0x06>R-Modus<0xFC><0x01><0x08> auf\l<0xFC><0x01><0x06>DexNav-Scan<0xFC><0x01><0x08> eingestellt ist,\lstartet das Drücken von <0xF8><0x03>\laußerhalb des Kampfes eine\lschnelle Suche, falls es in der\lZone auftaucht.'
+- offset: '0x1eeaa8c'
+  name: B-679 dialogues-07
+  expected: 'Oh, danke!\pDer Geburtstag meines Enkels\nrückt näher, und ich möchte ihm\leine Torte backen, aber mir\lfehlen einige Zutaten.\pIch brauche nur: <0xFC><0x01><0x06><0xFD><0x07><0xFC><0x01><0x04>\pWenn du sie mir so schnell wie\nmöglich bringen könntest, würde\lmir das sehr helfen.'
+- offset: '0x1eec4cf'
+  name: B-679 dialogues-07
+  expected: 'Das Magma ist wunderschön,\noder?\pManchmal lasse ich mich von\nmeinen Pokémon vom Typ <0xFC><0x01><0x06>Feuer<0xFC><0x01><0x04>\ldarüber gleiten.'
+- offset: '0x1eee420'
+  name: B-679 dialogues-07
+  expected: 'Weißt du, was ich im Fernsehen\ngesehen habe?\p<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>! Sie haben\ngesagt, dass es dort jede\lMenge <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> gibt!'
+- offset: '0x1eee478'
+  name: B-679 dialogues-07
+  expected: 'Weißt du, was sie im Radio\ngesagt haben?\p<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>! Sie haben\ngesagt, dass es dort jede\lMenge <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> gibt!'
+- offset: '0x1eee521'
+  name: B-679 dialogues-07
+  expected: 'Meine Tochter liebt <0xFD><0x02>.\pIch könnte ein Limit setzen,\naber ohne sie wüsste mein Sohn\lnicht, wann die <0xFC><0x01><0x06>Schwarm<0xFC><0x01><0x04>-Pokémon\lankommen!\pUnd diese Pokémon sind sonst\nschwer zu finden<0xB0>'
+- offset: '0x1eefcc9'
+  name: B-679 dialogues-07
+  expected: 'Yo! Guter Deal.\pTauschst du dein <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>\ngegen mein <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>?'
+- offset: '0x1ef11a0'
+  name: B-679 dialogues-07
+  expected: '<0xFC><0x01><0x04>Oh mein Gott<0xB0>\pMeine Tochter, ich finde sie\nnicht!\pWir waren hier im Urlaub, als\nplötzlich ein böses Pokémon sie\lentführt hat!\pIch bin ihm bis hierher gefolgt,\naber ich habe es aus den Augen\lverloren<0xB0>\pBitte, <0xFD><0x02>, suche sie!'
+- offset: '0x1ef3cfd'
+  name: B-679 dialogues-07
+  expected: 'Nur Pokémon-Züchter haben das\nRecht, an der Genetik zu rühren!\pKeine verrückten Wissenschaftler!\pGrr<0xB0><0xFC><0x08><0x18> daran zu denken, bringt mein\nBlut zum Kochen wie ein\l<0xFC><0x01><0x06>Magmastein<0xFC><0x01><0x08>!'
+- offset: '0x1ef412e'
+  name: B-679 dialogues-07
+  expected: 'Man sagt, <0xFC><0x01><0x06>Meisterbälle<0xFC><0x01><0x08> seien\nwirksam, aber im Gegenzug sind\lsie schwer herzustellen<0xB0>\pDas zeigt, was sie wissen, denn\nich stecke bis zu den Knien<0xB0><0xFC><0x08><0x18> in\lBällen!\pEigentlich überlasse ich dir\nmeine <0xFC><0x01><0x06>Meisterbälle<0xFC><0x01><0x08><0xB0>\pAber nur, wenn du mir\n<0xFC><0x01><0x06><0xFD><0x03> Juwelen<0xFC><0x01><0x08> für\lmeine Forschung gibst.'
+- offset: '0x1ef4962'
+  name: B-679 dialogues-07
+  expected: 'Also, du willst, dass\nich deine Ewigsteine in\l<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> verwandle?'
+- offset: '0x1ef67b8'
+  name: B-679 dialogues-07
+  expected: 'Hoh, hoh<0xB0> du hast mit allen\ngesprochen, die ich beobachte,\lhmm?\pAch ja<0xB0> einsam und eintönig, Tag\nfür Tag dasselbe tauschend<0xB0>\pDeine Belohnung fällt mir grad\nein. Hoh, hoh.\pHier. Geliehen<0xB0> na gut, stibitzt -\naber es fehlt wohl kaum\ljemandem<0xB0>'
+- offset: '0x1ef7b43'
+  name: B-679 dialogues-07
+  expected: 'Also gut, wir ziehen dein\n<0xFD><0x02> eine Weile auf.\pKomm später wieder.'
+- offset: '0x1efb1f7'
+  name: B-679 dialogues-07
+  expected: 'Oh, ich liebe Mineralien!\pDein <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> lässt mein\nHerz höherschlagen! Verkaufst\ldu es für ¥<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>?'
+- offset: '0x1efe70a'
+  name: B-679 dialogues-07
+  expected: 'Danke, dass Sie heute bei uns\neingekauft haben.\pIn welche Etage darf ich Sie\nbringen?'
+- offset: '0x1f03c8f'
+  name: B-679 dialogues-07
+  expected: 'Hat dir mein früheres <0xFD><0x03>\ngeholfen, Kämpfe zu gewinnen?'
+- offset: '0x1f0572f'
+  name: B-679 dialogues-07
+  expected: 'Er hat sein <0xFC><0x01><0x06>Magmar<0xFC><0x01><0x08>, das einen\n<0xFC><0x01><0x06>Magmaisierer<0xFC><0x01><0x08> trug, getauscht,\lund es hat sich entwickelt!'
+- offset: '0x1f08ac4'
+  name: B-679 dialogues-07
+  expected: 'Ich bin der Müllmann!\pIch lebe im Müll! Ich esse\nMüll!\pFrag nicht, das ist mein Ding.\pIch suche nicht irgendwelchen\nMüll, ich suche den edelsten\lMüll, aber das kostet Mühe.\pIch bezahle dich lieber, damit\ndu es für mich erledigst.\pDurchwühlst du die Mülltonnen\nfür mich und findest mindestens\l<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Gegenstände?'
+- offset: '0x1f0bb4b'
+  name: B-679 dialogues-07
+  expected: 'Schnief<0xB0>\pIch wusste, dieser Tag würde\nkommen, an dem du das Zuhause\lverlässt<0xB0>\pDer Fernseher hatte es gesagt.\pKönnte dein Vater dich jetzt\nsehen<0xB0><0xFC><0x08><0x20> er wäre so stolz!\pNun, wenn du Besorgungen für\nProf. Log machst, brauchst du\ldas hier!'
+- offset: '0x1f121e3'
+  name: B-679 dialogues-07
+  expected: 'Um deine Aufnahme\nabzuschließen, musst du\lmindestens <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Mal den\lNervenkitzel des Kampfes kosten.'
+- offset: '0x1f142be'
+  name: B-679 dialogues-07
+  expected: 'He, du. Ich habe eine Bitte an\ndich.\pIch bin ein Liebhaber.\pEin Freund harter Dinge, wenn\nich so sagen darf.\pAber anders als mein Kumpel will\nich dir nicht irgendwas abkaufen.\pIch will nur, dass du <0xFC><0x01><0x06><0xFD><0x02>\nHartsteine<0xFC><0x01><0x08> für mich sammelst.\pSchaffst du das?'
+- offset: '0x1f19700'
+  name: B-679 dialogues-07
+  expected: 'Drücke <0xF8><0x02>, um die Attackendetails\nzu sehen und zu wissen, welche\lAttacken in diesem Nebel\ltreffen.'
+- offset: '0x1f197de'
+  name: B-679 dialogues-07
+  expected: 'Drücke <0xF8><0x02>, um die Attackendetails\nzu sehen und zu wissen, welche\lAttacken treffen, wenn hier\lNebel herrscht.'
+- offset: '0x1f1b67a'
+  name: B-679 dialogues-07
+  expected: 'Glaubst du wirklich, du kannst\nBig Mo besiegen, wenn deine\l<0xFC><0x01><0x06>Initiative<0xFC><0x01><0x08> deinem <0xFC><0x01><0x06>Gewicht<0xFC><0x01><0x08>\lentspricht und du <0xFC><0x01><0x06>nicht<0xFC><0x01><0x08>\l<0xFC><0x01><0x06>Prioritäts-Fähigkeiten<0xFC><0x01><0x08> nutzen\lkannst?'
+- offset: '0x1f25b9d'
+  name: B-679 dialogues-07
+  expected: 'Sie sind zurück!\pDiese schrecklichen Pokémon, die\nunsere Ernten zerstört haben!'
+- offset: '0x1f29043'
+  name: B-679 dialogues-07
+  expected: 'Ach, hallo, <0xFD><0x01>.\pIch genieße es, in letzter Zeit\nmehr Freizeit zu haben<0xB0>\pUnd der Kaffee hier zieht mich\nimmer wieder an.\pAch, das erinnert mich<0xB0>\pIch habe kürzlich nach\neinem <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> gesucht<0xB0>\pWenn du eins hast, wärst\ndu bereit, es gegen mein\l<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> einzutauschen?'
+- offset: '0x1f299b9'
+  name: B-679 dialogues-07
+  expected: 'Ha ha ha ha! Wenn das\nnicht <0xFD><0x01> ist!\pMan hat mir gesagt, das wäre\nder beste Kaffee auf dieser\lSeite von Borrius, da bin ich.\pSag mal, keiner der anderen\nKunden hatte eins, aber<0xB0>\pWenn du ein <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>\nbei dir hast, wärst du\lbereit, es herzugeben?\pIch wollte mein <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>\nloswerden, also wenn du tauschen\lwillst, ist mir das recht.'
+- offset: '0x1f2c418'
+  name: B-679 dialogues-07
+  expected: 'Du hast bereits deine\n<0xFD><0x02> zum Mischen gewählt.\pBitte wähle eine andere.'
+- offset: '0x1f2cff4'
+  name: B-679 dialogues-07
+  expected: 'Wir müssen diese Pokémon finden!\nSie könnten unser Ausweg sein!'
+- offset: '0x1f2d3b2'
+  name: B-679 dialogues-07
+  expected: 'Ich heiße <0xFD><0x06>.\pIch suche meine Eltern, und ich\ndachte, diese Leute hätten\lvielleicht eine Spur zu ihnen.\pAber, na ja<0xB0><0xFC><0x08><0x18> weißt du, sie hassen\nes, wenn man rumschnüffelt.\pNaja, wir sollten lieber einen\nanderen Ausgang suchen, los\lgeht''s.'
+- offset: '0x1f2df20'
+  name: B-679 dialogues-07
+  expected: '<0xFC><0x01><0x04>Wie Sie beobachtet haben, sind\ndiese Exemplare völlig immun\lgegen extreme Kälte und Hitze.'
+- offset: '0x1f2fdbe'
+  name: B-679 dialogues-07
+  expected: 'Das ist es also?\pDann kannst du meinen <0xFC><0x01><0x06>Fernseher<0xFC><0x01><0x08>\nda drüben benutzen.\pIch habe gestern Abend eine\nSendung aufgenommen, die deine\lWissenslücken füllen könnte.'
