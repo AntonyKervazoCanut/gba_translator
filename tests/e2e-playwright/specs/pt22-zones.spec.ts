@@ -25,7 +25,9 @@ test('PT-22 : les dialogues de Borrius gardent leur texte et leurs accents dans 
     { offset: 0x780413, site: 0x780405, title: 'Borrius — le château de sable prend vie',
       matches: [/castelo de areia ganhou vida/i, /e atacou/i], forbidden: /sand castle|came alive/i, frames: [2450] },
     { offset: 0x787c0e, site: 0x76d54c, title: 'Borrius — dialogue de victoire et tilde',
-      matches: [/Voce e seus Pokemon/i, /sao incriveis/i], forbidden: /splendid|great/i, frames: [2450] },
+      // Vision confond parfois le ó de Pokémon avec a ; les octets exacts
+      // de la traduction restent contrôlés au pointeur avant le rendu.
+      matches: [/Voce e seus P[oa]kemon/i, /sao incriveis/i], forbidden: /splendid|great/i, frames: [2450] },
   ];
   for (let n = 0; n < scenes.length; n++) {
     const scene = scenes[n];

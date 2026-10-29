@@ -66,6 +66,25 @@ def test_live_fragments_are_translated_and_movement_is_excluded():
         assert 'névoa densa' in rows[offset]['portuguese'].lower()
 
 
+def test_integrated_batches_distinguish_script_opcodes_from_text_pointers():
+    batches = {
+        number: json.loads((ROOT / f'languages/pt/data/pt{number}_audit.json').read_text())['entries']
+        for number in (20, 22, 25)
+    }
+    script = next(row for row in batches[20] if row['offset'] == '0x745132')
+    dialogue = next(row for row in batches[25] if row['offset'] == '0x7c56ca')
+
+    assert script['status'] == 'exception'
+    assert bytes.fromhex(script['source_hex'])[:9] == bytes.fromhex('0f00ca567c08090602')
+    assert dialogue['status'] == 'translated'
+    assert dialogue['references'] == [0x745134]
+    owners = [
+        {site for row in batches[number] if row['status'] == 'translated' for site in row['references']}
+        for number in (20, 22, 25)
+    ]
+    assert all(not left & right for index, left in enumerate(owners) for right in owners[index + 1:])
+
+
 def test_glossary_names_gender_buffers_and_domain_semantics():
     actual = values()
     assert actual[0x77389C] == 'Fallshore City'

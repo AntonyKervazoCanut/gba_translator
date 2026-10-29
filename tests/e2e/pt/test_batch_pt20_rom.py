@@ -41,8 +41,12 @@ def test_every_live_entry_reaches_final_rom(source):
     assert built[0x72132C:0x72134C] == source[0x72132C:0x72134C]
     for offset in (0x74037D, 0x745132):
         # Les scripts continuent d'exécuter les mêmes opcodes avant leur texte.
-        size = 2 if offset == 0x74037D else 9
-        assert built[offset:offset + size] == source[offset:offset + size]
+        assert built[offset:offset + 2] == source[offset:offset + 2]
+        if offset == 0x745132:
+            # 0F 00 <pointeur> 09 06 02 : PT-25 traduit légitimement la cible
+            # 0x7C56CA. Son test vérifie le texte livré ; seuls les opcodes
+            # doivent rester identiques ici, pas les quatre octets du pointeur.
+            assert built[offset + 6:offset + 9] == source[offset + 6:offset + 9]
 
 
 def test_patch_is_atomic_idempotent_and_bounded(source):
