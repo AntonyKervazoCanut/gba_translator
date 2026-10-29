@@ -12074,3 +12074,822 @@ entries:
   - offset: "0x4586d0"
     name: "PT-17 0x4586d0"
     expected: 'Isso mesmo!\nEsse é o movimento certo!<0xFB>'
+  - offset: "0x48422e"
+    name: "PT-19 0x48422e"
+    expected: 'Permite fugir de\nPokémon selvagens\ne voltar ao último\nCentro Pokémon.'
+  - offset: "0x484278"
+    name: "PT-19 0x484278"
+    expected: 'Ataca com uma\nmiragem e causa\ndano igual ao\nnível do usuário.'
+  - offset: "0x4842c0"
+    name: "PT-19 0x4842c0"
+    expected: 'Copia o último\nmovimento do\nalvo pelo resto\nda batalha.'
+  - offset: "0x48430a"
+    name: "PT-19 0x48430a"
+    expected: 'Emite um grito\nagudo que\nreduz muito a\nDefesa do alvo.'
+  - offset: "0x484353"
+    name: "PT-19 0x484353"
+    expected: 'Cria cópias\nilusórias para\naumentar a evasão\ndo usuário.'
+  - offset: "0x484398"
+    name: "PT-19 0x484398"
+    expected: 'Recupera até\nmetade dos\nPS máximos\ndo usuário.'
+  - offset: "0x4843e5"
+    name: "PT-19 0x4843e5"
+    expected: 'Contrai todos\nos músculos\npara aumentar\na Defesa.'
+  - offset: "0x48442e"
+    name: "PT-19 0x48442e"
+    expected: 'Comprime as\ncélulas do corpo\npara aumentar\na evasão.'
+  - offset: "0x484476"
+    name: "PT-19 0x484476"
+    expected: 'Uma nuvem\nde fumaça ou\ntinta reduz a\nprecisão do alvo.'
+  - offset: "0x4844b5"
+    name: "PT-19 0x4844b5"
+    expected: 'Um raio\nsinistro atinge\no alvo e o\ndeixa confuso.'
+  - offset: "0x4844f3"
+    name: "PT-19 0x4844f3"
+    expected: 'Recolhe o corpo\nna carapaça dura\npara aumentar\na Defesa.'
+  - offset: "0x48453c"
+    name: "PT-19 0x48453c"
+    expected: 'Enrola o corpo\npara cobrir\npontos fracos e\nelevar a Defesa.'
+  - offset: "0x484580"
+    name: "PT-19 0x484580"
+    expected: 'Cria uma parede\nresistente que\naumenta muito\na Defesa.'
+  - offset: "0x4845c5"
+    name: "PT-19 0x4845c5"
+    expected: 'Uma parede de\nluz reduz o dano\nespecial por\ncinco turnos.'
+  - offset: "0x484606"
+    name: "PT-19 0x484606"
+    expected: 'Anula as mudanças\nde estatísticas\nde todos\nem batalha.'
+  - offset: "0x484647"
+    name: "PT-19 0x484647"
+    expected: 'Uma parede de\nluz reduz o\ndano físico por\ncinco turnos.'
+  - offset: "0x484689"
+    name: "PT-19 0x484689"
+    expected: 'Respira fundo\ne se concentra\npara elevar a\nchance de crítico.'
+  - offset: "0x4846d3"
+    name: "PT-19 0x4846d3"
+    expected: 'Suporta ataques\npor dois turnos\ne revida com o\ndobro do dano.'
+  - offset: "0x484715"
+    name: "PT-19 0x484715"
+    expected: 'Agita um dedo\ne estimula o\ncérebro a usar um\nmovimento aleatório.'
+  - offset: "0x48475e"
+    name: "PT-19 0x48475e"
+    expected: 'Revida com\no último\nmovimento usado\npelo alvo.'
+  - offset: "0x4847a2"
+    name: "PT-19 0x4847a2"
+    expected: 'Explode para\ncausar dano\ngrave e nocautear\na si mesmo.'
+  - offset: "0x4847e8"
+    name: "PT-19 0x4847e8"
+    expected: 'Lança um ovo\ngrande com\nmuita força\ncontra o alvo.'
+  - offset: "0x48482d"
+    name: "PT-19 0x48482d"
+    expected: 'Lambe o alvo\ncom uma língua\nlonga. Pode\nparalisá-lo.'
+  - offset: "0x484871"
+    name: "PT-19 0x484871"
+    expected: 'Ataca o alvo\ncom gases de\nescape. Pode\nenvenená-lo.'
+  - offset: "0x4848b5"
+    name: "PT-19 0x4848b5"
+    expected: 'Lança lodo\ntóxico no\nalvo. Pode\nenvenená-lo.'
+  - offset: "0x4848f2"
+    name: "PT-19 0x4848f2"
+    expected: 'Golpeia com um\nosso na mão.\nPode fazer o\nalvo hesitar.'
+  - offset: "0x48493b"
+    name: "PT-19 0x48493b"
+    expected: 'Atinge o alvo\ncom chamas\nintensas. Pode\nqueimá-lo.'
+  - offset: "0x484986"
+    name: "PT-19 0x484986"
+    expected: 'Uma investida\nforte que também\npermite subir\ncachoeiras.'
+  - offset: "0x4849ca"
+    name: "PT-19 0x4849ca"
+    expected: 'Prende e aperta\no alvo na\nconcha por dois\na cinco turnos.'
+  - offset: "0x484a15"
+    name: "PT-19 0x484a15"
+    expected: 'Raios em forma\nde estrela\natingem todos os\nalvos sem errar.'
+  - offset: "0x484a57"
+    name: "PT-19 0x484a57"
+    expected: 'Eleva a Defesa\nno primeiro\nturno e ataca\nno segundo.'
+  - offset: "0x484aa2"
+    name: "PT-19 0x484aa2"
+    expected: 'Dispara espinhos\nafiados no\nalvo de duas\na cinco vezes.'
+  - offset: "0x484ae1"
+    name: "PT-19 0x484ae1"
+    expected: 'Ataca com tentáculos\nou cipós longos.\nPode reduzir\na Velocidade.'
+  - offset: "0x484b27"
+    name: "PT-19 0x484b27"
+    expected: 'Esquece algo\npara aumentar\nmuito a Defesa\nEspecial.'
+  - offset: "0x484b5b"
+    name: "PT-19 0x484b5b"
+    expected: 'Distrai o alvo\ndobrando uma\ncolher. Pode\nreduzir a precisão.'
+  - offset: "0x484ba1"
+    name: "PT-19 0x484ba1"
+    expected: 'Recupera até metade\ndos PS máximos.\nTambém pode\ncurar um aliado.'
+  - offset: "0x484beb"
+    name: "PT-19 0x484beb"
+    expected: 'Salta e dá um\nforte chute de\njoelho. Se errar, o\nusuário se machuca.'
+  - offset: "0x484c27"
+    name: "PT-19 0x484c27"
+    expected: 'Intimida o alvo\ncom o desenho\nna barriga para\nparalisá-lo.'
+  - offset: "0x484c75"
+    name: "PT-19 0x484c75"
+    expected: 'Recupera PS iguais\nà metade do dano\ncausado a um\nalvo adormecido.'
+  - offset: "0x484cbb"
+    name: "PT-19 0x484cbb"
+    expected: 'Borrifa gás\ntóxico no\nalvo. Pode\nenvenená-lo.'
+  - offset: "0x484d01"
+    name: "PT-19 0x484d01"
+    expected: 'Lança objetos\nredondos no\nalvo de duas\na cinco vezes.'
+  - offset: "0x484d42"
+    name: "PT-19 0x484d42"
+    expected: 'Recupera PS\niguais à metade\ndo dano causado\nao alvo.'
+  - offset: "0x484d85"
+    name: "PT-19 0x484d85"
+    expected: 'Dá um beijo no\nalvo com uma\ncara assustadora\nque o faz dormir.'
+  - offset: "0x484dcd"
+    name: "PT-19 0x484dcd"
+    expected: 'Ataca no segundo\nturno com alta\nchance de crítico.\nPode fazer hesitar.'
+  - offset: "0x484e18"
+    name: "PT-19 0x484e18"
+    expected: 'Transforma-se\nem uma cópia do\nalvo, inclusive\ndos movimentos.'
+  - offset: "0x484e60"
+    name: "PT-19 0x484e60"
+    expected: 'Borrifa bolhas\nno alvo. Pode\nreduzir a\nVelocidade dele.'
+  - offset: "0x484ea4"
+    name: "PT-19 0x484ea4"
+    expected: 'Um soco ritmado\natinge o alvo.\nPode deixá-lo\nconfuso.'
+  - offset: "0x484ee5"
+    name: "PT-19 0x484ee5"
+    expected: 'Espalha\nesporos finos\nque fazem o\nalvo dormir.'
+  - offset: "0x484f20"
+    name: "PT-19 0x484f20"
+    expected: 'Um clarão reduz\na precisão do\nalvo. Também\nilumina cavernas.'
+  - offset: "0x484f6a"
+    name: "PT-19 0x484f6a"
+    expected: 'Uma onda quente\nde energia\nestranha ataca com\nforça variável.'
+  - offset: "0x484fb5"
+    name: "PT-19 0x484fb5"
+    expected: 'O usuário apenas\nse debate e\nsalpica água,\nsem efeito algum.'
+  - offset: "0x484ff8"
+    name: "PT-19 0x484ff8"
+    expected: 'Altera as células\npara se liquefazer\ne elevar muito\na Defesa.'
+  - offset: "0x48503f"
+    name: "PT-19 0x48503f"
+    expected: 'Golpeia o alvo\ncom uma grande\npinça. Alta chance\nde crítico.'
+  - offset: "0x48508b"
+    name: "PT-19 0x48508b"
+    expected: 'Explode para causar\ndano terrível\ne nocautear\na si mesmo.'
+  - offset: "0x4850d4"
+    name: "PT-19 0x4850d4"
+    expected: 'Rasga o alvo\ncom garras ou\nfoices de duas\na cinco vezes.'
+  - offset: "0x485114"
+    name: "PT-19 0x485114"
+    expected: 'Lança um osso\nque atinge o\nalvo na ida\ne na volta.'
+  - offset: "0x48515e"
+    name: "PT-19 0x48515e"
+    expected: 'Dorme por dois turnos\npara recuperar\ntodos os PS e\ncurar os estados.'
+  - offset: "0x4851ad"
+    name: "PT-19 0x4851ad"
+    expected: 'Lança grandes\npedras no\nalvo. Pode\nfazê-lo hesitar.'
+  - offset: "0x4851ef"
+    name: "PT-19 0x4851ef"
+    expected: 'Ataca com\npresas afiadas.\nPode fazer o\nalvo hesitar.'
+  - offset: "0x485231"
+    name: "PT-19 0x485231"
+    expected: 'Reduz os polígonos\npara afiar as\nbordas e aumentar\no Ataque.'
+  - offset: "0x485277"
+    name: "PT-19 0x485277"
+    expected: 'Muda seu tipo\npara o de\num dos seus\nmovimentos.'
+  - offset: "0x4852b8"
+    name: "PT-19 0x4852b8"
+    expected: 'Três raios\nsimultâneos podem\nparalisar, queimar\nou congelar o alvo.'
+  - offset: "0x485301"
+    name: "PT-19 0x485301"
+    expected: 'Ataca com\npresas afiadas e\nreduz os PS do\nalvo à metade.'
+  - offset: "0x48533c"
+    name: "PT-19 0x48533c"
+    expected: 'Corta o alvo com\ngarras e afins.\nAlta chance\nde crítico.'
+  - offset: "0x485382"
+    name: "PT-19 0x485382"
+    expected: 'Usa um quarto\ndos PS máximos\npara criar um\nsubstituto.'
+  - offset: "0x4853be"
+    name: "PT-19 0x4853be"
+    expected: 'Só pode ser\nusado sem PP.\nTambém machuca\no usuário.'
+  - offset: "0x485405"
+    name: "PT-19 0x485405"
+    expected: 'Copia o último\nmovimento do\nalvo e depois\ndesaparece.'
+  - offset: "0x485446"
+    name: "PT-19 0x485446"
+    expected: 'Três chutes\nque ficam mais\nfortes a cada\nacerto seguido.'
+  - offset: "0x48548b"
+    name: "PT-19 0x48548b"
+    expected: 'Pode roubar o\nitem do alvo se\no usuário não\ntiver um item.'
+  - offset: "0x4854d6"
+    name: "PT-19 0x4854d6"
+    expected: 'Prende o alvo com\nfios pegajosos,\nimpedindo fuga\nou troca.'
+  - offset: "0x48551d"
+    name: "PT-19 0x48551d"
+    expected: 'Prevê a ação do\nalvo para garantir\nque o próximo\nataque acerte.'
+  - offset: "0x485560"
+    name: "PT-19 0x485560"
+    expected: 'Um pesadelo\ncausa dano a um\nalvo adormecido\na cada turno.'
+  - offset: "0x4855aa"
+    name: "PT-19 0x4855aa"
+    expected: 'Uma investida\nem chamas que\npode queimar\no alvo.'
+  - offset: "0x4855e9"
+    name: "PT-19 0x4855e9"
+    expected: 'Só pode ser usado\nenquanto dorme.\nPode fazer o\nalvo hesitar.'
+  - offset: "0x48562f"
+    name: "PT-19 0x48562f"
+    expected: 'Tem efeitos\ndiferentes para o\ntipo Fantasma e\nos demais tipos.'
+  - offset: "0x485679"
+    name: "PT-19 0x485679"
+    expected: 'Ataque desesperado\nque fica mais\nforte quanto\nmenos PS restarem.'
+  - offset: "0x4856c1"
+    name: "PT-19 0x4856c1"
+    expected: 'Muda de tipo\npara resistir ao\núltimo ataque\nrecebido.'
+  - offset: "0x48570c"
+    name: "PT-19 0x48570c"
+    expected: 'Lança um turbilhão\nde ar no alvo.\nAlta chance\nde crítico.'
+  - offset: "0x485752"
+    name: "PT-19 0x485752"
+    expected: 'Esporos de algodão\ngrudam no alvo\ne reduzem muito\na Velocidade.'
+  - offset: "0x485798"
+    name: "PT-19 0x485798"
+    expected: 'Ataca com tudo.\nQuanto menos PS\nrestarem, maior\nserá a força.'
+  - offset: "0x4857df"
+    name: "PT-19 0x4857df"
+    expected: 'Reduz de 2 a\n5 PP do último\nmovimento usado\npelo alvo.'
+  - offset: "0x48581e"
+    name: "PT-19 0x48581e"
+    expected: 'Atinge o alvo\ncom uma rajada\nde neve. Pode\ncongelá-lo.'
+  - offset: "0x485857"
+    name: "PT-19 0x485857"
+    expected: 'Evita todos os\nataques. Pode\nfalhar se usado\nem sequência.'
+  - offset: "0x4858a1"
+    name: "PT-19 0x4858a1"
+    expected: 'Um soco em\nvelocidade ofuscante\nque sempre\nacerta primeiro.'
+  - offset: "0x4858e2"
+    name: "PT-19 0x4858e2"
+    expected: 'Assusta o alvo\ncom uma careta\ne reduz muito\na Velocidade.'
+  - offset: "0x485923"
+    name: "PT-19 0x485923"
+    expected: 'Aproxima-se\ndo alvo sem\nameaçar e ataca\nsem errar.'
+  - offset: "0x48596b"
+    name: "PT-19 0x48596b"
+    expected: 'Dá um beijo\ndoce e fofo\nque deixa o\nalvo confuso.'
+  - offset: "0x4859ae"
+    name: "PT-19 0x4859ae"
+    expected: 'Maximiza o\nAtaque ao custo\nde metade dos\nPS máximos.'
+  - offset: "0x4859f2"
+    name: "PT-19 0x4859f2"
+    expected: 'Lança lodo\nimundo no\nalvo. Pode\nenvenená-lo.'
+  - offset: "0x485a30"
+    name: "PT-19 0x485a30"
+    expected: 'Lança lama no\nrosto do alvo,\ncausando dano e\nreduzindo a precisão.'
+  - offset: "0x485a7a"
+    name: "PT-19 0x485a7a"
+    expected: 'Lança tinta no\nrosto ou olhos\ndo alvo e reduz\na precisão.'
+  - offset: "0x485ac1"
+    name: "PT-19 0x485ac1"
+    expected: 'Espinhos cercam\na equipe inimiga\ne ferem quem\nentra em batalha.'
+  - offset: "0x485b0c"
+    name: "PT-19 0x485b0c"
+    expected: 'Um disparo\nelétrico de canhão\ncausa dano e\nparalisa o alvo.'
+  - offset: "0x485b55"
+    name: "PT-19 0x485b55"
+    expected: 'Anula os\nesforços do alvo\npara aumentar\nsua evasão.'
+  - offset: "0x485b9c"
+    name: "PT-19 0x485b9c"
+    expected: 'Se o usuário for\nnocauteado, quem\ndeu o golpe final\ntambém será.'
+  - offset: "0x485bde"
+    name: "PT-19 0x485bde"
+    expected: 'Quem ouvir será\nnocauteado em\ntrês turnos, a\nmenos que saia.'
+  - offset: "0x485c24"
+    name: "PT-19 0x485c24"
+    expected: 'Ataca com vento\ngelado que\ntambém reduz\na Velocidade.'
+  - offset: "0x485c66"
+    name: "PT-19 0x485c66"
+    expected: 'Evita todos os\nataques. Pode\nfalhar se usado\nem sequência.'
+  - offset: "0x485cb0"
+    name: "PT-19 0x485cb0"
+    expected: 'Golpeia o alvo\ncom um osso\nde duas a\ncinco vezes.'
+  - offset: "0x485cf0"
+    name: "PT-19 0x485cf0"
+    expected: 'Mira no alvo\npara garantir\nque o próximo\nmovimento acerte.'
+  - offset: "0x485d30"
+    name: "PT-19 0x485d30"
+    expected: 'Debate-se por\ndois a três\nturnos e depois\nfica confuso.'
+  - offset: "0x485d77"
+    name: "PT-19 0x485d77"
+    expected: 'Tempestade de\nareia por 5 turnos.\nNão fere Pedra,\nTerrestre e Aço.'
+  - offset: "0x485dc1"
+    name: "PT-19 0x485dc1"
+    expected: 'Ataque forte\nque recupera PS\niguais à metade\ndo dano causado.'
+  - offset: "0x485e09"
+    name: "PT-19 0x485e09"
+    expected: 'Resiste a um golpe\ncom 1 PS. Pode\nfalhar se usado\nem sequência.'
+  - offset: "0x485e55"
+    name: "PT-19 0x485e55"
+    expected: 'Encanta o alvo\ncom apelos fofos\ne reduz muito\no Ataque dele.'
+  - offset: "0x485ea0"
+    name: "PT-19 0x485ea0"
+    expected: 'Rola por cinco\nturnos. Fica\nmais forte a\ncada acerto.'
+  - offset: "0x485ee1"
+    name: "PT-19 0x485ee1"
+    expected: 'Um ataque contido\nque sempre deixa\no alvo com ao\nmenos 1 PS.'
+  - offset: "0x485f24"
+    name: "PT-19 0x485f24"
+    expected: 'Deixa o alvo\nconfuso, mas também\naumenta muito\no Ataque dele.'
+  - offset: "0x485f6c"
+    name: "PT-19 0x485f6c"
+    expected: 'Recupera até metade\ndos PS máximos.\nTambém pode\ncurar um aliado.'
+  - offset: "0x485fb6"
+    name: "PT-19 0x485fb6"
+    expected: 'Uma investida\nelétrica que\ntambém pode\nparalisar o alvo.'
+  - offset: "0x485ff5"
+    name: "PT-19 0x485ff5"
+    expected: 'Ataque que\nfica mais\nforte a cada\nacerto seguido.'
+  - offset: "0x48602b"
+    name: "PT-19 0x48602b"
+    expected: 'Atinge com asas\nde aço. Pode\naumentar a Defesa\ndo usuário.'
+  - offset: "0x486075"
+    name: "PT-19 0x486075"
+    expected: 'Um olhar\nmalvado prende\no alvo e impede\nsua fuga.'
+  - offset: "0x4860b7"
+    name: "PT-19 0x4860b7"
+    expected: 'Se for do outro\ngênero, o alvo se\napaixona e tende\na não atacar.'
+  - offset: "0x486105"
+    name: "PT-19 0x486105"
+    expected: 'Enquanto dorme,\nusa ao acaso\num movimento\nque conhece.'
+  - offset: "0x486145"
+    name: "PT-19 0x486145"
+    expected: 'Um sino suave\ncura os problemas\nde estado de\ntodos os aliados.'
+  - offset: "0x486187"
+    name: "PT-19 0x486187"
+    expected: 'Quanto mais gostar\ndo Treinador,\nmais forte\nserá o ataque.'
+  - offset: "0x4861d1"
+    name: "PT-19 0x4861d1"
+    expected: 'Dá um presente\ncom armadilha ao\nalvo. Às vezes\nrecupera PS.'
+  - offset: "0x48621b"
+    name: "PT-19 0x48621b"
+    expected: 'Quanto menos gostar\ndo Treinador,\nmais forte\nserá o ataque.'
+  - offset: "0x486265"
+    name: "PT-19 0x486265"
+    expected: 'Protege a equipe\nde problemas\nde estado por\ncinco turnos.'
+  - offset: "0x4862ab"
+    name: "PT-19 0x4862ab"
+    expected: 'Soma os PS do\nusuário e do\nalvo e divide o\ntotal igualmente.'
+  - offset: "0x4862f3"
+    name: "PT-19 0x4862f3"
+    expected: 'Um ataque de\nfogo místico e\npoderoso que\npode queimar.'
+  - offset: "0x486330"
+    name: "PT-19 0x486330"
+    expected: 'Sacode o chão\ne atinge todos\nque o tocam.\nA força varia.'
+  - offset: "0x486378"
+    name: "PT-19 0x486378"
+    expected: 'Soca o alvo com\ntoda a força.\nSe acertar,\ndeixa-o confuso.'
+  - offset: "0x4863c7"
+    name: "PT-19 0x4863c7"
+    expected: 'Uma investida\nbrutal com um\nchifre duro\ne imponente.'
+  - offset: "0x48640b"
+    name: "PT-19 0x48640b"
+    expected: 'Um sopro\nincrível atinge\no alvo. Pode\nparalisá-lo.'
+  - offset: "0x486455"
+    name: "PT-19 0x486455"
+    expected: 'O usuário sai e\npassa suas mudanças\nde estatísticas\nao substituto.'
+  - offset: "0x48649f"
+    name: "PT-19 0x48649f"
+    expected: 'Faz o alvo\nrepetir o último\nmovimento por dois\na seis turnos.'
+  - offset: "0x4864e8"
+    name: "PT-19 0x4864e8"
+    expected: 'Ataque especialmente\neficaz contra um\nalvo que está\nsendo trocado.'
+  - offset: "0x486532"
+    name: "PT-19 0x486532"
+    expected: 'Um ataque que\nlivra de Bind,\nWrap, Leech\nSeed e Spikes.'
+  - offset: "0x486579"
+    name: "PT-19 0x486579"
+    expected: 'Atrai o alvo e\nreduz sua evasão.\nTambém atrai\nPokémon selvagens.'
+  - offset: "0x4865bf"
+    name: "PT-19 0x4865bf"
+    expected: 'Ataca com uma\ncauda dura\ncomo aço. Pode\nreduzir a Defesa.'
+  - offset: "0x486606"
+    name: "PT-19 0x486606"
+    expected: 'Ataca com garras\nde aço. Pode\nelevar o Ataque\ndo usuário.'
+  - offset: "0x486651"
+    name: "PT-19 0x486651"
+    expected: 'Ataca depois\ndo alvo. Em\ntroca, o ataque\nnão erra.'
+  - offset: "0x486693"
+    name: "PT-19 0x486693"
+    expected: 'Recupera os PS\ndo usuário. A\nquantidade varia\ncom o clima.'
+  - offset: "0x4866de"
+    name: "PT-19 0x4866de"
+    expected: 'Recupera os PS\ndo usuário. A\nquantidade varia\ncom o clima.'
+  - offset: "0x486729"
+    name: "PT-19 0x486729"
+    expected: 'Recupera os PS\ndo usuário. A\nquantidade varia\ncom o clima.'
+  - offset: "0x486774"
+    name: "PT-19 0x486774"
+    expected: 'Um ataque\núnico cujo tipo\nvaria conforme\no usuário.'
+  - offset: "0x4867b7"
+    name: "PT-19 0x4867b7"
+    expected: 'Dá dois golpes\nno alvo.\nAlta chance\nde crítico.'
+  - offset: "0x4867fb"
+    name: "PT-19 0x4867fb"
+    expected: 'Um tornado\nviolento ataca\no alvo. Pode\nfazê-lo hesitar.'
+  - offset: "0x48683a"
+    name: "PT-19 0x48683a"
+    expected: 'Chuva forte por\ncinco turnos\nfortalece\nmovimentos de Água.'
+  - offset: "0x48687c"
+    name: "PT-19 0x48687c"
+    expected: 'Sol intenso por\ncinco turnos\nfortalece\nmovimentos de Fogo.'
+  - offset: "0x4868b8"
+    name: "PT-19 0x4868b8"
+    expected: 'Morde o alvo com\npresas afiadas.\nPode reduzir\na Defesa dele.'
+  - offset: "0x4868fe"
+    name: "PT-19 0x4868fe"
+    expected: 'Revida o ataque\nespecial do\nalvo com o\ndobro do dano.'
+  - offset: "0x486941"
+    name: "PT-19 0x486941"
+    expected: 'Hipnotiza a si\nmesmo e copia\nas mudanças de\nestatísticas do alvo.'
+  - offset: "0x48698a"
+    name: "PT-19 0x48698a"
+    expected: 'Uma investida\nmuito veloz\nque sempre\nacerta primeiro.'
+  - offset: "0x4869cf"
+    name: "PT-19 0x4869cf"
+    expected: 'Ataca com poder\nancestral. Pode\nelevar todas as\nestatísticas.'
+  - offset: "0x486a1b"
+    name: "PT-19 0x486a1b"
+    expected: 'Lança uma bola\nsombria. Pode\nreduzir a Defesa\nEspecial do alvo.'
+  - offset: "0x486a62"
+    name: "PT-19 0x486a62"
+    expected: 'Dois turnos\ndepois do uso,\no alvo sofre um\nataque psíquico.'
+  - offset: "0x486aa6"
+    name: "PT-19 0x486aa6"
+    expected: 'Ataque que\nreduz a Defesa\ne também quebra\npedras rachadas.'
+  - offset: "0x486aef"
+    name: "PT-19 0x486aef"
+    expected: 'Prende o alvo\nnum redemoinho\nferoz por dois\na cinco turnos.'
+  - offset: "0x486b36"
+    name: "PT-19 0x486b36"
+    expected: 'Todos da equipe\natacam. Quanto\nmais aliados,\nmaior o dano.'
+  - offset: "0x486b7e"
+    name: "PT-19 0x486b7e"
+    expected: 'Ataca primeiro\ne faz hesitar.\nSó funciona no\nprimeiro turno.'
+  - offset: "0x486bc7"
+    name: "PT-19 0x486bc7"
+    expected: 'Ataca com alvoroço\nque impede o\nsono por dois\na cinco turnos.'
+  - offset: "0x486c10"
+    name: "PT-19 0x486c10"
+    expected: 'Acumula energia\npara usar depois.\nPode ser usado\ntrês vezes.'
+  - offset: "0x486c55"
+    name: "PT-19 0x486c55"
+    expected: 'Libera de uma\nvez a energia\nde Stockpile\npara atacar.'
+  - offset: "0x486c95"
+    name: "PT-19 0x486c95"
+    expected: 'Absorve a\nenergia de\nStockpile para\nrecuperar PS.'
+  - offset: "0x486cd4"
+    name: "PT-19 0x486cd4"
+    expected: 'Exala um sopro\nquente para\natacar. Pode\nqueimar o alvo.'
+  - offset: "0x486d1c"
+    name: "PT-19 0x486d1c"
+    expected: 'Granizo por\ncinco turnos fere\ntodos, exceto\nPokémon de Gelo.'
+  - offset: "0x486d64"
+    name: "PT-19 0x486d64"
+    expected: 'Enfurece o alvo\ne o impede de\nrepetir o mesmo\nmovimento.'
+  - offset: "0x486db1"
+    name: "PT-19 0x486db1"
+    expected: 'Elogia o alvo,\ndeixando-o confuso\ne elevando seu\nAtaque Especial.'
+  - offset: "0x486df2"
+    name: "PT-19 0x486df2"
+    expected: 'Dispara uma chama\nsinistra azul\ne branca que\nqueima o alvo.'
+  - offset: "0x486e37"
+    name: "PT-19 0x486e37"
+    expected: 'É nocauteado e\nreduz muito o\nAtaque e o Ataque\nEspecial do alvo.'
+  - offset: "0x486e79"
+    name: "PT-19 0x486e79"
+    expected: 'Fica mais forte se\no usuário estiver\nqueimado, envenenado\nou paralisado.'
+  - offset: "0x486ebe"
+    name: "PT-19 0x486ebe"
+    expected: 'Ataca por\núltimo. O usuário\nhesita se for\natingido antes.'
+  - offset: "0x486f04"
+    name: "PT-19 0x486f04"
+    expected: 'Dobra o efeito no\nalvo paralisado,\nmas também cura\nsua paralisia.'
+  - offset: "0x486f50"
+    name: "PT-19 0x486f50"
+    expected: 'Chama a atenção\ne faz os inimigos\natacarem apenas\no usuário.'
+  - offset: "0x486f96"
+    name: "PT-19 0x486f96"
+    expected: 'Um ataque cujo\ntipo varia\nconforme o local\ndo usuário.'
+  - offset: "0x486fd4"
+    name: "PT-19 0x486fd4"
+    expected: 'Acumula energia\npara fortalecer\no próximo\nmovimento Elétrico.'
+  - offset: "0x487014"
+    name: "PT-19 0x487014"
+    expected: 'Provoca o alvo,\nque só poderá\nusar movimentos\nde ataque.'
+  - offset: "0x48705c"
+    name: "PT-19 0x48705c"
+    expected: 'Aumenta a força\ndo ataque\nde um aliado\nem batalha.'
+  - offset: "0x48709b"
+    name: "PT-19 0x48709b"
+    expected: 'Engana o alvo\ne troca os\nitens segurados\nentre ambos.'
+  - offset: "0x4870dd"
+    name: "PT-19 0x4870dd"
+    expected: 'Imita o alvo\npor completo\ne copia a\nHabilidade dele.'
+  - offset: "0x48711e"
+    name: "PT-19 0x48711e"
+    expected: 'Recupera\nmetade dos\nPS máximos no\nturno seguinte.'
+  - offset: "0x487163"
+    name: "PT-19 0x487163"
+    expected: 'Escolhe e usa\nao acaso um\nmovimento de\num aliado.'
+  - offset: "0x4871a1"
+    name: "PT-19 0x4871a1"
+    expected: 'Cria raízes e\nrecupera PS a\ncada turno. Não\npode ser trocado.'
+  - offset: "0x4871e9"
+    name: "PT-19 0x4871e9"
+    expected: 'Ataque poderoso\nque também reduz\no Ataque e a\nDefesa do usuário.'
+  - offset: "0x487234"
+    name: "PT-19 0x487234"
+    expected: 'Devolve Leech Seed\ne movimentos que\ncausam problemas\nde estado.'
+  - offset: "0x487276"
+    name: "PT-19 0x487276"
+    expected: 'Recicla um item\nusado para que\npossa ser usado\noutra vez.'
+  - offset: "0x4872aa"
+    name: "PT-19 0x4872aa"
+    expected: 'Um ataque que\nfica mais forte\nse o alvo tiver\nferido o usuário.'
+  - offset: "0x4872f2"
+    name: "PT-19 0x4872f2"
+    expected: 'Ataca e quebra\nbarreiras como\nLight Screen\ne Reflect.'
+  - offset: "0x487338"
+    name: "PT-19 0x487338"
+    expected: 'Um grande\nbocejo faz o\nalvo dormir no\npróximo turno.'
+  - offset: "0x487378"
+    name: "PT-19 0x487378"
+    expected: 'Derruba o\nitem do alvo,\nimpedindo seu\nuso na batalha.'
+  - offset: "0x4873be"
+    name: "PT-19 0x4873be"
+    expected: 'Quanto menos PS\ntiver em relação\nao alvo, maior\nserá a força.'
+  - offset: "0x4873fb"
+    name: "PT-19 0x4873fb"
+    expected: 'Quanto mais\nPS o usuário\ntiver, mais forte\nserá o ataque.'
+  - offset: "0x48743c"
+    name: "PT-19 0x48743c"
+    expected: 'Usa poder psíquico\npara trocar\nde Habilidade\ncom o alvo.'
+  - offset: "0x48747f"
+    name: "PT-19 0x48747f"
+    expected: 'Impede o alvo de\nusar movimentos\nque o usuário\ntambém conhece.'
+  - offset: "0x4874c1"
+    name: "PT-19 0x4874c1"
+    expected: 'Cura envenenamento,\nqueimadura\nou paralisia\ndo usuário.'
+  - offset: "0x48750d"
+    name: "PT-19 0x48750d"
+    expected: 'Se o usuário\ncair, zera os\nPP do movimento\nque o nocauteou.'
+  - offset: "0x487558"
+    name: "PT-19 0x487558"
+    expected: 'Rouba os efeitos\nde cura ou mudança\nde estado do\nmovimento do alvo.'
+  - offset: "0x48759a"
+    name: "PT-19 0x48759a"
+    expected: 'Um ataque com\nefeito adicional\nque varia conforme\no terreno.'
+  - offset: "0x4875e5"
+    name: "PT-19 0x4875e5"
+    expected: 'Mergulha no\nprimeiro turno\ne ataca no\nturno seguinte.'
+  - offset: "0x487628"
+    name: "PT-19 0x487628"
+    expected: 'Uma rajada\nrápida de socos\natinge de duas\na cinco vezes.'
+  - offset: "0x48766b"
+    name: "PT-19 0x48766b"
+    expected: 'Muda o tipo\ndo usuário\nconforme o\nterreno do local.'
+  - offset: "0x4876a7"
+    name: "PT-19 0x4876a7"
+    expected: 'Emite uma luz\nque aumenta\nmuito seu\nAtaque Especial.'
+  - offset: "0x4876e6"
+    name: "PT-19 0x4876e6"
+    expected: 'Um clarão fere\no alvo e pode\nreduzir a Defesa\nEspecial dele.'
+  - offset: "0x48772d"
+    name: "PT-19 0x48772d"
+    expected: 'Ataca com\npenugem e pode\nreduzir o Ataque\nEspecial do alvo.'
+  - offset: "0x487771"
+    name: "PT-19 0x487771"
+    expected: 'Cobre o alvo\nde penugem e\nreduz muito o\nAtaque dele.'
+  - offset: "0x4877bb"
+    name: "PT-19 0x4877bb"
+    expected: 'Uma dança bamba\nconfunde todos\nos Pokémon\nem batalha.'
+  - offset: "0x4877f3"
+    name: "PT-19 0x4877f3"
+    expected: 'Chute em chamas\ncom alta chance\nde crítico.\nPode queimar.'
+  - offset: "0x48783a"
+    name: "PT-19 0x48783a"
+    expected: 'Enfraquece ataques\nElétricos enquanto\no usuário está\nem batalha.'
+  - offset: "0x48787a"
+    name: "PT-19 0x48787a"
+    expected: 'Rola por cinco\nturnos e fica\nmais forte a\ncada volta.'
+  - offset: "0x4878bc"
+    name: "PT-19 0x4878bc"
+    expected: 'Ataca com braços\nespinhosos.\nPode fazer o\nalvo hesitar.'
+  - offset: "0x4878f5"
+    name: "PT-19 0x4878f5"
+    expected: 'O usuário relaxa\ne recupera\nmetade dos\nPS máximos.'
+  - offset: "0x487932"
+    name: "PT-19 0x487932"
+    expected: 'Solta um grito\nmuito alto, forte\no bastante para\ncausar dano.'
+  - offset: "0x487976"
+    name: "PT-19 0x487976"
+    expected: 'Morde com\npresas tóxicas.\nPode envenenar\ngravemente o alvo.'
+  - offset: "0x4879bc"
+    name: "PT-19 0x4879bc"
+    expected: 'Ataca com\ngarras afiadas.\nPode reduzir a\nDefesa do alvo.'
+  - offset: "0x487a07"
+    name: "PT-19 0x487a07"
+    expected: 'Uma enorme\nexplosão atinge\no alvo. Não age\nno turno seguinte.'
+  - offset: "0x487a53"
+    name: "PT-19 0x487a53"
+    expected: 'Atinge com um\ncanhão de água.\nNão age no\nturno seguinte.'
+  - offset: "0x487a9e"
+    name: "PT-19 0x487a9e"
+    expected: 'Um soco forte\ne rápido. Pode\naumentar o Ataque\ndo usuário.'
+  - offset: "0x487aeb"
+    name: "PT-19 0x487aeb"
+    expected: 'Ataca com um\ngrito assustador.\nPode fazer o\nalvo hesitar.'
+  - offset: "0x487b2f"
+    name: "PT-19 0x487b2f"
+    expected: 'Um ataque\ncuja força e\ntipo variam\nconforme o clima.'
+  - offset: "0x487b71"
+    name: "PT-19 0x487b71"
+    expected: 'Um aroma suave\ncura os problemas\nde estado de\ntoda a equipe.'
+  - offset: "0x487bbf"
+    name: "PT-19 0x487bbf"
+    expected: 'Finge chorar e\nreduz muito a\nDefesa Especial\ndo alvo.'
+  - offset: "0x487bff"
+    name: "PT-19 0x487bff"
+    expected: 'Um vento cortante\natinge o alvo.\nAlta chance\nde crítico.'
+  - offset: "0x487c46"
+    name: "PT-19 0x487c46"
+    expected: 'Ataque intenso\nque também\nreduz muito seu\nAtaque Especial.'
+  - offset: "0x487c8b"
+    name: "PT-19 0x487c8b"
+    expected: 'Anula os\nesforços do alvo\npara aumentar\nsua evasão.'
+  - offset: "0x487cd2"
+    name: "PT-19 0x487cd2"
+    expected: 'Lança pedras\nno alvo. Se\nacertar, reduz a\nVelocidade dele.'
+  - offset: "0x487d1d"
+    name: "PT-19 0x487d1d"
+    expected: 'Ataca com pó\nprateado. Pode\nelevar todas as\nsuas estatísticas.'
+  - offset: "0x487d68"
+    name: "PT-19 0x487d68"
+    expected: 'Um grito metálico\nhorrível reduz\nmuito a Defesa\nEspecial do alvo.'
+  - offset: "0x487db0"
+    name: "PT-19 0x487db0"
+    expected: 'Toca uma melodia\nagradável que\nfaz o alvo dormir\nprofundamente.'
+  - offset: "0x487def"
+    name: "PT-19 0x487def"
+    expected: 'Faz o alvo\nrir e reduz\no Ataque e a\nDefesa dele.'
+  - offset: "0x487e30"
+    name: "PT-19 0x487e30"
+    expected: 'Absorve poder\nmístico e eleva\na Defesa e a\nDefesa Especial.'
+  - offset: "0x487e72"
+    name: "PT-19 0x487e72"
+    expected: 'Quanto mais\nPS o usuário\ntiver, mais forte\nserá o ataque.'
+  - offset: "0x487eb3"
+    name: "PT-19 0x487eb3"
+    expected: 'Um raio cintilante\natinge o alvo.\nPode deixá-lo\nconfuso.'
+  - offset: "0x487ef6"
+    name: "PT-19 0x487ef6"
+    expected: 'Dá um soco vindo\ndas sombras.\nNão pode\nser evitado.'
+  - offset: "0x487f35"
+    name: "PT-19 0x487f35"
+    expected: 'Ataca com um\npoder estranho.\nPode fazer o\nalvo hesitar.'
+  - offset: "0x487f76"
+    name: "PT-19 0x487f76"
+    expected: 'Ataca com um\ngancho lançado\ncom força\npara o céu.'
+  - offset: "0x487fb4"
+    name: "PT-19 0x487fb4"
+    expected: 'Prende o alvo\nnuma tempestade\nde areia por dois\na cinco turnos.'
+  - offset: "0x487ff9"
+    name: "PT-19 0x487ff9"
+    expected: 'Um frio extremo\nnocauteia o\nalvo se o\nataque acertar.'
+  - offset: "0x488041"
+    name: "PT-19 0x488041"
+    expected: 'Ataca com\nágua barrenta.\nPode reduzir a\nprecisão do alvo.'
+  - offset: "0x48808a"
+    name: "PT-19 0x48808a"
+    expected: 'Dispara de duas\na cinco sementes\nde uma vez\ncontra o alvo.'
+  - offset: "0x4880d0"
+    name: "PT-19 0x4880d0"
+    expected: 'Ataque muito\nveloz contra um\nalvo. Não pode\nser evitado.'
+  - offset: "0x488111"
+    name: "PT-19 0x488111"
+    expected: 'Dispara estacas\nde gelo de duas\na cinco vezes\ncontra o alvo.'
+  - offset: "0x488153"
+    name: "PT-19 0x488153"
+    expected: 'Endurece a\nsuperfície do\ncorpo e aumenta\nmuito a Defesa.'
+  - offset: "0x48819a"
+    name: "PT-19 0x48819a"
+    expected: 'Bloqueia o caminho\ndo alvo com\nos braços para\nimpedir a fuga.'
+  - offset: "0x4881e1"
+    name: "PT-19 0x4881e1"
+    expected: 'Uiva para\nelevar seu\nânimo e aumentar\no Ataque.'
+  - offset: "0x48821f"
+    name: "PT-19 0x48821f"
+    expected: 'Garras enormes\ne afiadas rasgam\no alvo com\nrapidez e força.'
+  - offset: "0x488266"
+    name: "PT-19 0x488266"
+    expected: 'Um tronco enorme\natinge o alvo.\nNão age no\nturno seguinte.'
+  - offset: "0x4882b4"
+    name: "PT-19 0x4882b4"
+    expected: 'Fortalece o\ncorpo para\naumentar o Ataque\ne a Defesa.'
+  - offset: "0x4882fb"
+    name: "PT-19 0x4882fb"
+    expected: 'Salta sobre o\nalvo no segundo\nturno. Pode\nparalisá-lo.'
+  - offset: "0x488341"
+    name: "PT-19 0x488341"
+    expected: 'Lança lama\nno alvo e\ntambém reduz a\nVelocidade dele.'
+  - offset: "0x488383"
+    name: "PT-19 0x488383"
+    expected: 'Ataque com\nalta chance de\ncrítico. Pode\nenvenenar o alvo.'
+  - offset: "0x4883c9"
+    name: "PT-19 0x4883c9"
+    expected: 'Um ataque fofo\nque também rouba\no item segurado\npelo alvo.'
+  - offset: "0x488408"
+    name: "PT-19 0x488408"
+    expected: 'Uma investida\nelétrica que\ntambém machuca um\npouco o usuário.'
+  - offset: "0x48844b"
+    name: "PT-19 0x48844b"
+    expected: 'Ataca com uma\nfolha estranha\nque não pode\nser evitada.'
+  - offset: "0x48848a"
+    name: "PT-19 0x48848a"
+    expected: 'Enfraquece ataques\nde Fogo enquanto\no usuário está\nem batalha.'
+  - offset: "0x4884c5"
+    name: "PT-19 0x4884c5"
+    expected: 'Concentra a mente\npara elevar\no Ataque e a\nDefesa Especiais.'
+  - offset: "0x488507"
+    name: "PT-19 0x488507"
+    expected: 'Corta o alvo\ncom uma folha\nafiada. Alta\nchance de crítico.'
+  - offset: "0x48854f"
+    name: "PT-19 0x48854f"
+    expected: 'Uma dança mística\ne forte eleva\no Ataque e a\nVelocidade.'
+  - offset: "0x488597"
+    name: "PT-19 0x488597"
+    expected: 'Lança de duas\na cinco pedras\nduras no alvo\npara atacar.'
+  - offset: "0x4885d3"
+    name: "PT-19 0x4885d3"
+    expected: 'Uma descarga\nelétrica rápida\natinge o alvo\nsem errar.'
+  - offset: "0x488614"
+    name: "PT-19 0x488614"
+    expected: 'Ataca com um\npulso de água.\nPode deixar o\nalvo confuso.'
+  - offset: "0x48865a"
+    name: "PT-19 0x48865a"
+    expected: 'Ataca com um\nclarão dois turnos\ndepois de usar\no movimento.'
+  - offset: "0x4886a1"
+    name: "PT-19 0x4886a1"
+    expected: 'Ataque intenso\nque também\nreduz muito seu\nAtaque Especial.'
+  - offset: "0x488ca2"
+    name: "PT-19 0x488ca2"
+    expected: 'A BERRY <0xFD><0x02> virou\numa BERRY <0xFD><0x03>.'
+  - offset: "0x488cce"
+    name: "PT-19 0x488cce"
+    expected: 'A BERRY <0xFD><0x02> já foi\nobtida.'
+  - offset: "0x488cf6"
+    name: "PT-19 0x488cf6"
+    expected: 'Uma FITA especial foi dada aos\nPokémon da sua equipe.'
+  - offset: "0x488d2a"
+    name: "PT-19 0x488d2a"
+    expected: 'A Pokédex foi atualizada\ncom o MODO Nacional.'
+  - offset: "0x488d60"
+    name: "PT-19 0x488d60"
+    expected: 'Uma palavra rara foi adicionada.'
+  - offset: "0x488d7c"
+    name: "PT-19 0x488d7c"
+    expected: '<0xFD><0x02> foi enviado!'
+  - offset: "0x488d8e"
+    name: "PT-19 0x488d8e"
+    expected: 'Sua equipe está cheia.\nNão foi possível enviar <0xFD><0x02>.'
+  - offset: "0x488dbd"
+    name: "PT-19 0x488dbd"
+    expected: 'Um novo Treinador chegou\na HOENN.'
+  - offset: "0x488dfd"
+    name: "PT-19 0x488dfd"
+    expected: 'Estes dados não podem ser usados\nnesta versão.'
+  - offset: "0x488fe3"
+    name: "PT-19 0x488fe3"
+    expected: 'Oh, sua equipe parece estar cheia.<0xFB>Volte depois de guardar\num Pokémon em um PC.'
+  - offset: "0x4891b0"
+    name: "PT-19 0x4891b0"
+    expected: 'Obrigado por usar o sistema\nPRESENTE MISTÉRIO.<0xFB>Um Treinador nas SEVII ISLANDS\nestá procurando por você.<0xFB>Esperamos que goste de batalhar\ncom o Treinador visitante.<0xFB>Você pode convidar Treinadores\nusando outras senhas.<0xFB>Procure outras senhas\nque possam funcionar.'
+  - offset: "0x489419"
+    name: "PT-19 0x489419"
+    expected: 'Obrigado por usar o sistema\nPRESENTE MISTÉRIO.<0xFB>Parabéns!<0xFB>Você ganhou um prêmio por vencer\ntrês batalhas!<0xFB>Esperamos que isso inspire você\na batalhar ainda mais.'
+  - offset: "0x489583"
+    name: "PT-19 0x489583"
+    expected: 'Parece ser para uso no porto\nde VERMILION CITY.<0xFB>Por que não tenta usar\npara ver do que se trata?'
+  - offset: "0x4895e8"
+    name: "PT-19 0x4895e8"
+    expected: 'Obrigado por usar o sistema\nPRESENTE MISTÉRIO.'
+  - offset: "0x489615"
+    name: "PT-19 0x489615"
+    expected: 'Sinto muito, <0xFD><0x01>. O setor de\nItens-chave da Bolsa está cheio.<0xFB>Guarde algo em seu PC\ne volte para buscar isto.'
+  - offset: "0x48975c"
+    name: "PT-19 0x48975c"
+    expected: 'Parece ser para uso no porto\nde VERMILION CITY.<0xFB>Por que não tenta usar\npara ver do que se trata?'
+  - offset: "0x4897c1"
+    name: "PT-19 0x4897c1"
+    expected: 'Obrigado por usar o sistema\nPRESENTE MISTÉRIO.'
+  - offset: "0x4897ee"
+    name: "PT-19 0x4897ee"
+    expected: 'Sinto muito, <0xFD><0x01>. O setor de\nItens-chave da Bolsa está cheio.<0xFB>Guarde algo em seu PC\ne volte para buscar isto.'
