@@ -39,3 +39,8 @@ def test_control_arguments_are_not_reinterpreted_as_tildes():
 def test_pokedex_consumer_accepts_portuguese_tildes():
     from src.core.pokedex import is_description
     assert is_description('Um Pokémon com ação. Ã Õ ã õ.')
+
+
+def test_tildes_surrounding_a_position_control_keep_their_order():
+    encoded = TextEncoder.encode_pokemon('ã<0xFC><0x13><0x63>õ')
+    assert encoded == bytes([0x60, 0xFC, 0x13, 0x63, 0x61, 0xFF])

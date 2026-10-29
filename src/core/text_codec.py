@@ -110,7 +110,7 @@ GERMAN_UMLAUT_CHARS: frozenset = frozenset(GERMAN_UMLAUT_TABLE)
 POKEMON_TABLE.update(GERMAN_UMLAUT_TABLE)
 
 # PT-BR : slots latins libres, dessinés uniquement par le patch police PT.
-PORTUGUESE_TILDE_TABLE: Dict[str, int] = {
+PORTUGUESE_TILDE_TABLE: dict[str, int] = {
     'ã': 0x60, 'õ': 0x61, 'Ã': 0x62, 'Õ': 0x63,
 }
 POKEMON_TABLE.update(PORTUGUESE_TILDE_TABLE)
