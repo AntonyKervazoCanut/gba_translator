@@ -69,9 +69,11 @@ def test_terms_story_and_distinct_expressways():
     assert 'Poké Ball' in TEXTS[0x753510]  # Mécanique fangame, ne pas corriger en lancer.
 
 
-def test_finalizer_is_last_and_does_not_target_scripts_or_connections():
+def test_finalizer_follows_repairs_and_does_not_target_scripts_or_connections():
     steps = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())['patches']
-    assert steps[-1] == 'batch_20' and steps.count('batch_20') == 1
+    assert steps.count('batch_20') == 1
+    for step in ('inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale'):
+        assert steps.index(step) < steps.index('batch_20')
     rows = [r for r in AUDIT['entries'] if r['status'] != 'exception']
     offsets = {int(r['offset'], 16) for r in rows}
     assert not offsets.intersection({0x721340, 0x72134C, 0x74037D, 0x745132})
