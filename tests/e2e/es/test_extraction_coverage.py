@@ -1,19 +1,16 @@
-"""E2E: languages/es/combined_es.txt offset coverage stays aligned with FR.
+"""Garde les lacunes ES auditées sans autoriser de nouvelles pertes.
 
-``languages/es/lang.yaml`` documents that ES is "an extraction at every offset
-present in combined_fr.txt". In practice ES lags slightly behind FR (FR keeps
-growing as new dialogue is fixed) — this guards that the gap stays small and
-doesn't silently widen, which would mean the ES reference extraction was
-never re-run after a batch of new FR offsets landed.
-
-Baseline measured on this ROM/combined pair: 258 FR offsets missing from ES,
-2 ES offsets not in FR. The ES reference intentionally lags behind newly
-authored FR entries; the threshold leaves headroom while still catching a
-real regression (e.g. combined_es.txt truncated or regenerated against a
-stale ref).
+A-663 fige les 308 absences connues dans son inventaire. Une simple limite
+numérique masquerait une nouvelle perte compensée par une autre correction.
+La référence communautaire reste immuable ; la cible maintenue sera es-maint.
 """
 
-MAX_MISSING_FROM_ES = 300
+import json
+from pathlib import Path
+
+import pytest
+
+AUDIT_PATH = Path(__file__).resolve().parents[3] / "docs/analysis/es/mesures.json"
 MAX_EXTRA_IN_ES = 25
 MIN_ES_ENTRIES = 20000
 
@@ -29,11 +26,27 @@ class TestExtractionCoverage:
         self, es_combined_entries, fr_combined_entries
     ):
         missing = set(fr_combined_entries) - set(es_combined_entries)
-        assert len(missing) <= MAX_MISSING_FROM_ES, (
-            f"{len(missing)} FR offsets are missing from combined_es.txt "
-            f"(baseline ~109, threshold {MAX_MISSING_FROM_ES}) — "
-            "re-run scripts/extract_combined_rom.py --lang ES to refresh the reference"
+        audit = json.loads(AUDIT_PATH.read_text(encoding="utf-8"))
+        known_missing = {int(offset, 16) for offset in audit["fr_absent_es"]}
+        unexpected = missing - known_missing
+        assert not unexpected, (
+            "Nouvelles absences FR→ES non auditées : "
+            f"{', '.join(hex(offset) for offset in sorted(unexpected))}. "
+            "Examiner les offsets et actualiser l'audit explicitement ; "
+            "ne jamais régénérer combined_es.txt pour masquer cette dérive."
         )
+
+    def test_new_gap_is_rejected_even_when_an_old_gap_is_filled(
+        self, es_combined_entries, fr_combined_entries
+    ):
+        reference = dict(es_combined_entries)
+        old_gap = next(iter(set(fr_combined_entries) - set(reference)))
+        new_gap = next(iter(set(fr_combined_entries) & set(reference)))
+        reference[old_gap] = fr_combined_entries[old_gap]
+        del reference[new_gap]
+
+        with pytest.raises(AssertionError, match="Nouvelles absences"):
+            self.test_es_coverage_close_to_fr_offsets(reference, fr_combined_entries)
 
     def test_es_has_few_offsets_absent_from_fr(
         self, es_combined_entries, fr_combined_entries
