@@ -333,10 +333,11 @@
       2498300
     ],
     "scene": "Échange de Pokémon",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "<0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Das ist dein einziges\\nkampffähiges Pokémon.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "<0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Das ist dein einziges\\nkampffähiges Pokémon."
   },
   {
     "offset": "0x41E199",
@@ -349,10 +350,11 @@
       2498308
     ],
     "scene": "Échange de Pokémon",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "<0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Warte, bis dein Freund\\nfertig ist<0xB0>",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "<0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Warte, bis dein Freund\\nfertig ist<0xB0>"
   },
   {
     "offset": "0x41E1C5",
@@ -365,10 +367,11 @@
       2498312
     ],
     "scene": "Échange de Pokémon",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Dein Freund möchte\\nPokémon tauschen.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Dein Freund möchte\\nPokémon tauschen."
   },
   {
     "offset": "0x41E1E9",
@@ -754,10 +757,11 @@
       936808
     ],
     "scene": "Maître des capacités / apprentissage",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "<0xFD><0x02> möchte\\n<0xFD><0x03> lernen.\\pDoch <0xFD><0x02> kann nur\\nvier Attacken kennen.\\pEine Attacke vergessen für\\n<0xFD><0x03>?",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "<0xFD><0x02> möchte\\n<0xFD><0x03> lernen.\\pDoch <0xFD><0x02> kann nur\\nvier Attacken kennen.\\pEine Attacke vergessen für\\n<0xFD><0x03>?"
   },
   {
     "offset": "0x41E481",
@@ -802,10 +806,11 @@
       937608
     ],
     "scene": "Maître des capacités / apprentissage",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "<0xFD><0x02> vergisst <0xFD><0x04>.\\pUnd<0xB0>\\p<0xFD><0x02> lernt\\n<0xFD><0x03>.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "<0xFD><0x02> vergisst <0xFD><0x04>.\\pUnd<0xB0>\\p<0xFD><0x02> lernt\\n<0xFD><0x03>."
   },
   {
     "offset": "0x41E4E2",
@@ -1011,10 +1016,11 @@
       4615900
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Lies die WUNDERKARTEN\\nin deinem Besitz.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Lies die WUNDERKARTEN\\nin deinem Besitz."
   },
   {
     "offset": "0x41E669",
@@ -1059,10 +1065,11 @@
       1322940
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Du hast keine WUNDERKARTE.\\nEine neue wird empfangen.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Du hast keine WUNDERKARTE.\\nEine neue wird empfangen."
   },
   {
     "offset": "0x41E6DC",
@@ -1075,10 +1082,11 @@
       1322976
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Du hast keine WUNDERNEWS.\\nNeue werden empfangen.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Du hast keine WUNDERNEWS.\\nNeue werden empfangen."
   },
   {
     "offset": "0x41E717",
@@ -1091,10 +1099,11 @@
       1322996
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Wo soll die WUNDERKARTE\\nabgerufen werden?",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Wo soll die WUNDERKARTE\\nabgerufen werden?"
   },
   {
     "offset": "0x41E741",
@@ -1203,10 +1212,11 @@
       1323480
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "WUNDERKARTE wegwerfen\\nund neue empfangen?",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "WUNDERKARTE wegwerfen\\nund neue empfangen?"
   },
   {
     "offset": "0x41E823",
@@ -1331,10 +1341,11 @@
       1322100
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Diese WUNDERKARTE\\nhast du bereits.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Diese WUNDERKARTE\\nhast du bereits."
   },
   {
     "offset": "0x41E968",
@@ -1347,10 +1358,11 @@
       1322124
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Diese WUNDERNEWS\\nhast du bereits.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Diese WUNDERNEWS\\nhast du bereits."
   },
   {
     "offset": "0x41E98F",
@@ -1363,10 +1375,11 @@
       1322112
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Diesen STEMPEL\\nhast du bereits.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Diesen STEMPEL\\nhast du bereits."
   },
   {
     "offset": "0x41E9AB",
@@ -1397,10 +1410,11 @@
       1322428
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Dein Rekord wurde\\ndrahtlos übertragen.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Dein Rekord wurde\\ndrahtlos übertragen."
   },
   {
     "offset": "0x41EA0D",
@@ -1413,10 +1427,11 @@
       1322172
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Von diesem Trainer kannst du\\nkeine WUNDERKARTE annehmen.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Von diesem Trainer kannst du\\nkeine WUNDERKARTE annehmen."
   },
   {
     "offset": "0x41EA3F",
@@ -1429,10 +1444,11 @@
       1322168
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Von diesem Trainer kannst du\\nkeine WUNDERNEWS annehmen.",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Von diesem Trainer kannst du\\nkeine WUNDERNEWS annehmen."
   },
   {
     "offset": "0x41EA6F",
@@ -1462,10 +1478,11 @@
       1321256
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Was möchtest du mit\\nden WUNDERKARTEN tun?",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Was möchtest du mit\\nden WUNDERKARTEN tun?"
   },
   {
     "offset": "0x41EAB7",
@@ -1478,10 +1495,11 @@
       1321352
     ],
     "scene": "Cadeau Mystère / connexion sans fil",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Was möchtest du mit\\nden WUNDERNEWS tun?",
-    "move_ids": []
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : le rewrap automatique du build modifie les ruptures de cette boîte ; injection retirée pour préserver commandes et forme.",
+    "after": null,
+    "move_ids": [],
+    "proposed_after": "Was möchtest du mit\\nden WUNDERNEWS tun?"
   },
   {
     "offset": "0x41EAE7",
@@ -2113,12 +2131,13 @@
       10089492
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Drei Strahlen, die\\nParalyse, Verbrennung\\noder Frostbrand\\nverursachen können.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       161
-    ]
+    ],
+    "proposed_after": "Drei Strahlen, die\\nParalyse, Verbrennung\\noder Frostbrand\\nverursachen können."
   },
   {
     "offset": "0xA37E33",
@@ -2131,12 +2150,13 @@
       10089764
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Befreit den Anwender\\nvon Fallen und\\nHindernissen. Erhöht\\nseine Initiative.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       229
-    ]
+    ],
+    "proposed_after": "Befreit den Anwender\\nvon Fallen und\\nHindernissen. Erhöht\\nseine Initiative."
   },
   {
     "offset": "0xA37EC4",
@@ -2150,12 +2170,13 @@
       10090268
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Absorbiert die Hälfte\\ndes verursachten\\nSchadens und stellt\\ndamit KP wieder her.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       355
-    ]
+    ],
+    "proposed_after": "Absorbiert die Hälfte\\ndes verursachten\\nSchadens und stellt\\ndamit KP wieder her."
   },
   {
     "offset": "0xA37F07",
@@ -2168,12 +2189,13 @@
       10090272
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Eine Luftklinge\\ntrifft den Gegner.\\nLässt ihn eventuell\\nzurückschrecken.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       356
-    ]
+    ],
+    "proposed_after": "Eine Luftklinge\\ntrifft den Gegner.\\nLässt ihn eventuell\\nzurückschrecken."
   },
   {
     "offset": "0xA37F4D",
@@ -2186,12 +2208,13 @@
       10090276
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein fast unsichtbar\\nschneller Angriff.\\nTrifft den Gegner\\nstets zuerst.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       357
-    ]
+    ],
+    "proposed_after": "Ein fast unsichtbar\\nschneller Angriff.\\nTrifft den Gegner\\nstets zuerst."
   },
   {
     "offset": "0xA37F8D",
@@ -2222,12 +2245,13 @@
       10090284
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein Stoß aus\\nAurakraft trifft\\nden Gegner. Geht\\nnie daneben.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       359
-    ]
+    ],
+    "proposed_after": "Ein Stoß aus\\nAurakraft trifft\\nden Gegner. Geht\\nnie daneben."
   },
   {
     "offset": "0xA38061",
@@ -2258,12 +2282,13 @@
       10090296
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Eine schädliche\\nSchallwelle senkt\\neventuell die\\nSp.-Vert. des Ziels.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       362
-    ]
+    ],
+    "proposed_after": "Eine schädliche\\nSchallwelle senkt\\neventuell die\\nSp.-Vert. des Ziels."
   },
   {
     "offset": "0xA380F4",
@@ -2420,12 +2445,13 @@
       10090368
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Lebensgefährlicher\\nRammangriff.\\nSchadet auch dem\\nAnwender sehr stark.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       380
-    ]
+    ],
+    "proposed_after": "Lebensgefährlicher\\nRammangriff.\\nSchadet auch dem\\nAnwender sehr stark."
   },
   {
     "offset": "0xA385FF",
@@ -2510,12 +2536,13 @@
       10090388
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein Schlammball\\ntrifft den Gegner.\\nSenkt eventuell\\nseine Genauigkeit.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       385
-    ]
+    ],
+    "proposed_after": "Ein Schlammball\\ntrifft den Gegner.\\nSenkt eventuell\\nseine Genauigkeit."
   },
   {
     "offset": "0xA3874A",
@@ -2564,12 +2591,13 @@
       10090400
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein widerlicher Wind\\ngreift an. Erhöht\\neventuell alle Werte\\ndes Anwenders.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       388
-    ]
+    ],
+    "proposed_after": "Ein widerlicher Wind\\ngreift an. Erhöht\\neventuell alle Werte\\ndes Anwenders."
   },
   {
     "offset": "0xA38821",
@@ -2636,12 +2664,13 @@
       10090424
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Wirft einen riesigen\\nFelsen. Der Anwender\\nmuss in der nächsten\\nRunde aussetzen.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       394
-    ]
+    ],
+    "proposed_after": "Wirft einen riesigen\\nFelsen. Der Anwender\\nmuss in der nächsten\\nRunde aussetzen."
   },
   {
     "offset": "0xA38A0F",
@@ -2744,12 +2773,13 @@
       10090460
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Dreht den Körper\\nwie einen Bohrer.\\nHat eine hohe\\nVolltrefferquote.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       403
-    ]
+    ],
+    "proposed_after": "Dreht den Körper\\nwie einen Bohrer.\\nHat eine hohe\\nVolltrefferquote."
   },
   {
     "offset": "0xA38C87",
@@ -2780,12 +2810,13 @@
       10090480
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Angriff nach einer\\nniedlichen Geste.\\nLässt das Ziel evtl.\\nzurückschrecken.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       408
-    ]
+    ],
+    "proposed_after": "Angriff nach einer\\nniedlichen Geste.\\nLässt das Ziel evtl.\\nzurückschrecken."
   },
   {
     "offset": "0xA38DAC",
@@ -2835,12 +2866,13 @@
       10090492
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Rollt sich zusammen.\\nErhöht Angriff,\\nVerteidigung und\\nGenauigkeit.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       411
-    ]
+    ],
+    "proposed_after": "Rollt sich zusammen.\\nErhöht Angriff,\\nVerteidigung und\\nGenauigkeit."
   },
   {
     "offset": "0xA38E70",
@@ -2871,12 +2903,13 @@
       10090500
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Lässt Eiszapfen auf\\nden Gegner fallen.\\nLässt ihn eventuell\\nzurückschrecken.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       413
-    ]
+    ],
+    "proposed_after": "Lässt Eiszapfen auf\\nden Gegner fallen.\\nLässt ihn eventuell\\nzurückschrecken."
   },
   {
     "offset": "0xA38F30",
@@ -2907,12 +2940,13 @@
       10090512
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Scharfe Blätter\\numkreisen das Ziel.\\nSenkt eventuell\\nseine Genauigkeit.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       416
-    ]
+    ],
+    "proposed_after": "Scharfe Blätter\\numkreisen das Ziel.\\nSenkt eventuell\\nseine Genauigkeit."
   },
   {
     "offset": "0xA38FB8",
@@ -2926,12 +2960,13 @@
       10090516
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Angriff auf\\ndie Beine\\ndes Gegners. Senkt\\nseine Initiative.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       417
-    ]
+    ],
+    "proposed_after": "Angriff auf\\ndie Beine\\ndes Gegners. Senkt\\nseine Initiative."
   },
   {
     "offset": "0xA38FF2",
@@ -2945,12 +2980,13 @@
       10090520
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Bedrohliches Bellen\\ngreift den Gegner an\\nund senkt seinen\\nSpezialangriff.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       418
-    ]
+    ],
+    "proposed_after": "Bedrohliches Bellen\\ngreift den Gegner an\\nund senkt seinen\\nSpezialangriff."
   },
   {
     "offset": "0xA39075",
@@ -2963,12 +2999,13 @@
       10090528
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Zerquetscht das Ziel\\nmit seinem Körper.\\nLässt es eventuell\\nzurückschrecken.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       420
-    ]
+    ],
+    "proposed_after": "Zerquetscht das Ziel\\nmit seinem Körper.\\nLässt es eventuell\\nzurückschrecken."
   },
   {
     "offset": "0xA390BE",
@@ -3000,12 +3037,13 @@
       10090536
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Säure trifft das Ziel.\\nDoppelte Stärke,\\nwenn der Gegner\\nvergiftet ist.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       422
-    ]
+    ],
+    "proposed_after": "Säure trifft das Ziel.\\nDoppelte Stärke,\\nwenn der Gegner\\nvergiftet ist."
   },
   {
     "offset": "0xA39198",
@@ -3055,12 +3093,13 @@
       10090552
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein Tanz in Flammen\\ngreift den Gegner an.\\nErhöht eventuell\\neigenen Sp.-Ang.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       426
-    ]
+    ],
+    "proposed_after": "Ein Tanz in Flammen\\ngreift den Gegner an.\\nErhöht eventuell\\neigenen Sp.-Ang."
   },
   {
     "offset": "0xA3927C",
@@ -3073,12 +3112,13 @@
       10090556
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Wirft besonderen\\nSchlamm auf das Ziel.\\nSetzt Änderungen\\naller Werte zurück.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       427
-    ]
+    ],
+    "proposed_after": "Wirft besonderen\\nSchlamm auf das Ziel.\\nSetzt Änderungen\\naller Werte zurück."
   },
   {
     "offset": "0xA392C2",
@@ -3290,12 +3330,13 @@
       10090616
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Nach dem Angriff\\nwird der Anwender\\ngegen ein Pokémon\\naus dem Team ersetzt.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       442
-    ]
+    ],
+    "proposed_after": "Nach dem Angriff\\nwird der Anwender\\ngegen ein Pokémon\\naus dem Team ersetzt."
   },
   {
     "offset": "0xA396D3",
@@ -3309,12 +3350,13 @@
       10090620
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Nach dem Angriff\\nwird der Anwender\\ngegen ein Pokémon\\naus dem Team ersetzt.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       443
-    ]
+    ],
+    "proposed_after": "Nach dem Angriff\\nwird der Anwender\\ngegen ein Pokémon\\naus dem Team ersetzt."
   },
   {
     "offset": "0xA3975D",
@@ -3345,12 +3387,13 @@
       10090632
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein Energieblitz\\nfügt dem Gegner\\nSchaden zu und senkt\\nseine Genauigkeit.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       446
-    ]
+    ],
+    "proposed_after": "Ein Energieblitz\\nfügt dem Gegner\\nSchaden zu und senkt\\nseine Genauigkeit."
   },
   {
     "offset": "0xA397E7",
@@ -3417,12 +3460,13 @@
       10090656
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Erhöht Angriff, Sp.-\\nAng. und Init. stark.\\nSenkt Verteidigung\\nund Sp.-Vert.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       452
-    ]
+    ],
+    "proposed_after": "Erhöht Angriff, Sp.-\\nAng. und Init. stark.\\nSenkt Verteidigung\\nund Sp.-Vert."
   },
   {
     "offset": "0xA3998B",
@@ -3471,12 +3515,13 @@
       10090668
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Scharfe Muscheln\\nschneiden den Gegner.\\nSenkt eventuell\\nseine Verteidigung.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       455
-    ]
+    ],
+    "proposed_after": "Scharfe Muscheln\\nschneiden den Gegner.\\nSenkt eventuell\\nseine Verteidigung."
   },
   {
     "offset": "0xA39A60",
@@ -3489,12 +3534,13 @@
       10090672
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ahmt die letzte\\nAttacke nach. Geht\\nfehl, wenn noch keine\\nAttacke benutzt ist.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       456
-    ]
+    ],
+    "proposed_after": "Ahmt die letzte\\nAttacke nach. Geht\\nfehl, wenn noch keine\\nAttacke benutzt ist."
   },
   {
     "offset": "0xA39AA8",
@@ -3544,12 +3590,13 @@
       10090684
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Siedendes Wasser\\ntrifft den Gegner.\\nKann ihn dabei\\nverbrennen.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       459
-    ]
+    ],
+    "proposed_after": "Siedendes Wasser\\ntrifft den Gegner.\\nKann ihn dabei\\nverbrennen."
   },
   {
     "offset": "0xA39B78",
@@ -3563,12 +3610,13 @@
       10090688
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Doppelte Stärke,\\nwenn die KP des\\nGegners höchstens\\nzur Hälfte voll sind.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       460
-    ]
+    ],
+    "proposed_after": "Doppelte Stärke,\\nwenn die KP des\\nGegners höchstens\\nzur Hälfte voll sind."
   },
   {
     "offset": "0xA39BF5",
@@ -3618,12 +3666,13 @@
       10090708
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein süßer Kuss\\nwandelt über die\\nHälfte des Schadens\\nin eigene KP um.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       465
-    ]
+    ],
+    "proposed_after": "Ein süßer Kuss\\nwandelt über die\\nHälfte des Schadens\\nin eigene KP um."
   },
   {
     "offset": "0xA39D55",
@@ -3636,12 +3685,13 @@
       10090716
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein bezaubernder\\nSchrei greift an.\\nIhm kann nicht\\nausgewichen werden.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       467
-    ]
+    ],
+    "proposed_after": "Ein bezaubernder\\nSchrei greift an.\\nIhm kann nicht\\nausgewichen werden."
   },
   {
     "offset": "0xA39DD9",
@@ -3654,12 +3704,13 @@
       10090724
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Legt giftige Spitzen\\naus, die gegnerischen\\nPokémon beim\\nEinwechseln schaden.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       469
-    ]
+    ],
+    "proposed_after": "Legt giftige Spitzen\\naus, die gegnerischen\\nPokémon beim\\nEinwechseln schaden."
   },
   {
     "offset": "0xA39E24",
@@ -3672,12 +3723,13 @@
       10090728
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Der Anwender geht KO.\\nDas eingewechselte\\nPokémon wird dafür\\nvollständig geheilt.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       470
-    ]
+    ],
+    "proposed_after": "Der Anwender geht KO.\\nDas eingewechselte\\nPokémon wird dafür\\nvollständig geheilt."
   },
   {
     "offset": "0xA39E67",
@@ -3690,12 +3742,13 @@
       10090732
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Der Anwender geht KO.\\nDas eingewechselte\\nPokémon wird dafür\\nvollständig geheilt.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       471
-    ]
+    ],
+    "proposed_after": "Der Anwender geht KO.\\nDas eingewechselte\\nPokémon wird dafür\\nvollständig geheilt."
   },
   {
     "offset": "0xA39EAA",
@@ -3708,12 +3761,13 @@
       10090736
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Erzeugt Rückenwind.\\nErhöht vier Runden\\nlang die Initiative\\naller Team-Pokémon.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       472
-    ]
+    ],
+    "proposed_after": "Erzeugt Rückenwind.\\nErhöht vier Runden\\nlang die Initiative\\naller Team-Pokémon."
   },
   {
     "offset": "0xA39EF6",
@@ -3726,12 +3780,13 @@
       10090740
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Erzeugt eine\\nschreckliche\\nSchallwelle, die alles\\nin der Nähe trifft.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       473
-    ]
+    ],
+    "proposed_after": "Erzeugt eine\\nschreckliche\\nSchallwelle, die alles\\nin der Nähe trifft."
   },
   {
     "offset": "0xA39F84",
@@ -3744,12 +3799,13 @@
       10090748
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Pflanzt einen Samen\\nauf dem Gegner.\\nSeine Fähigkeit\\nwird zu Insomnia.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       475
-    ]
+    ],
+    "proposed_after": "Pflanzt einen Samen\\nauf dem Gegner.\\nSeine Fähigkeit\\nwird zu Insomnia."
   },
   {
     "offset": "0xA39FC8",
@@ -3852,12 +3908,13 @@
       10090772
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Klebriges Netz\\nsenkt die Initiative\\ngegnerischer Pokémon\\nbeim Einwechseln.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       481
-    ]
+    ],
+    "proposed_after": "Klebriges Netz\\nsenkt die Initiative\\ngegnerischer Pokémon\\nbeim Einwechseln."
   },
   {
     "offset": "0xA3A16F",
@@ -3870,12 +3927,13 @@
       10090776
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Gespeicherte Kraft\\ngreift an. Jede\\neigene Werterhöhung\\nsteigert die Stärke.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       482
-    ]
+    ],
+    "proposed_after": "Gespeicherte Kraft\\ngreift an. Jede\\neigene Werterhöhung\\nsteigert die Stärke."
   },
   {
     "offset": "0xA3A1B6",
@@ -3906,12 +3964,13 @@
       10090784
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Je mehr der Gegner\\nseine Werte\\nerhöht hat, desto\\nstärker die Attacke.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       484
-    ]
+    ],
+    "proposed_after": "Je mehr der Gegner\\nseine Werte\\nerhöht hat, desto\\nstärker die Attacke."
   },
   {
     "offset": "0xA3A243",
@@ -3924,12 +3983,13 @@
       10090788
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Doppelter Schaden,\\nwenn der Gegner\\nin dieser Runde schon\\nSchaden erlitten hat.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       485
-    ]
+    ],
+    "proposed_after": "Doppelter Schaden,\\nwenn der Gegner\\nin dieser Runde schon\\nSchaden erlitten hat."
   },
   {
     "offset": "0xA3A31C",
@@ -3978,12 +4038,13 @@
       10090808
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Ein heftiger Sturm\\naus Blüten trifft\\nalles im Umkreis\\ndes Anwenders.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       490
-    ]
+    ],
+    "proposed_after": "Ein heftiger Sturm\\naus Blüten trifft\\nalles im Umkreis\\ndes Anwenders."
   },
   {
     "offset": "0xA3A3F4",
@@ -3996,12 +4057,13 @@
       10090812
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Das Ziel verliert\\nseinen Kampfwillen.\\nSein Angriff\\nwird gesenkt.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       491
-    ]
+    ],
+    "proposed_after": "Das Ziel verliert\\nseinen Kampfwillen.\\nSein Angriff\\nwird gesenkt."
   },
   {
     "offset": "0xA3A430",
@@ -4014,12 +4076,13 @@
       10090816
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Verzerrt die Zeit.\\nDer Anwender muss\\nin der nächsten\\nRunde aussetzen.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       492
-    ]
+    ],
+    "proposed_after": "Verzerrt die Zeit.\\nDer Anwender muss\\nin der nächsten\\nRunde aussetzen."
   },
   {
     "offset": "0xA3A474",
@@ -4176,12 +4239,13 @@
       10090880
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Schleudert ein\\nGeschoss aufs Ziel.\\nFliegende Pokémon\\nfallen dadurch\\nzu Boden.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       508
-    ]
+    ],
+    "proposed_after": "Schleudert ein\\nGeschoss aufs Ziel.\\nFliegende Pokémon\\nfallen dadurch\\nzu Boden."
   },
   {
     "offset": "0xA3A955",
@@ -4212,12 +4276,13 @@
       10090892
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Viele Arme\\ntreffen das Ziel.\\nUmgeht Schutz und\\nsenkt die eigene\\nVerteidigung.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       511
-    ]
+    ],
+    "proposed_after": "Viele Arme\\ntreffen das Ziel.\\nUmgeht Schutz und\\nsenkt die eigene\\nVerteidigung."
   },
   {
     "offset": "0xA3AAA0",
@@ -4536,12 +4601,13 @@
       10090996
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Eine schwarze\\nDruckwelle\\ngreift an.\\nSenkt eventuell\\ndie Genauigkeit.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       537
-    ]
+    ],
+    "proposed_after": "Eine schwarze\\nDruckwelle\\ngreift an.\\nSenkt eventuell\\ndie Genauigkeit."
   },
   {
     "offset": "0xA3B35D",
@@ -5076,12 +5142,13 @@
       10091172
     ],
     "scene": "Résumé / apprentissage : description d’attaque",
-    "decision": "corrigé",
-    "reason": "Traduction absente ; source canonique EN en ROM, commandes conservées et texte DE borné.",
-    "after": "Erhitzt den Schnabel\\nund greift an.\\nKontakt beim Erhitzen\\nführt zu Verbrennung.",
+    "decision": "besoin de patch séparé",
+    "reason": "B-1013 : offset absent de l’extraction EN du build ; les pointeurs restent sur le texte EN après construction.",
+    "after": null,
     "move_ids": [
       581
-    ]
+    ],
+    "proposed_after": "Erhitzt den Schnabel\\nund greift an.\\nKontakt beim Erhitzen\\nführt zu Verbrennung."
   },
   {
     "offset": "0xA3C314",

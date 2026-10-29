@@ -61,7 +61,12 @@ def test_closed_scope_and_individual_decisions():
     for row in ROWS:
         assert row['reason'] and row['scene']
         assert f"| `{row['offset']}` |" in report
-    assert sum(r['decision'] == 'corrigé' for r in ROWS) == 271
+    assert sum(r['decision'] == 'corrigé' for r in ROWS) == 204
+    deferred = [r for r in ROWS if r['decision'] == 'besoin de patch séparé']
+    assert len(deferred) == 67
+    for row in deferred:
+        assert row['proposed_after'] and row['after'] is None
+        assert int(row['offset'], 16) not in combined()
 
 
 @pytest.mark.parametrize('row', [r for r in ROWS if r['decision'] == 'corrigé'], ids=lambda r: r['offset'])
