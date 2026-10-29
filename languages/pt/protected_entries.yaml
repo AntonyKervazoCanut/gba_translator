@@ -3605,3 +3605,846 @@ entries:
   - offset: "0x3d936f"
     name: "PT-05 0x3d936f"
     expected: 'Visor que detecta a presença\nde Pokémon invisíveis.\nFeito pela Devon Corp.'
+  - offset: "0x3e8fc8"
+    name: "PT-07 Easy Chat 0x3e8fc8"
+    expected: 'E AÍ?'
+  - offset: "0x3e8fde"
+    name: "PT-07 Easy Chat 0x3e8fde"
+    expected: 'SEI, SEI'
+  - offset: "0x3e8fe9"
+    name: "PT-07 Easy Chat 0x3e8fe9"
+    expected: 'TCHAU'
+  - offset: "0x3e8ff1"
+    name: "PT-07 Easy Chat 0x3e8ff1"
+    expected: 'TE CONHECER'
+  - offset: "0x3e8ffe"
+    name: "PT-07 Easy Chat 0x3e8ffe"
+    expected: 'CHEIRO'
+  - offset: "0x3e9004"
+    name: "PT-07 Easy Chat 0x3e9004"
+    expected: 'OUVINDO'
+  - offset: "0x3e900e"
+    name: "PT-07 Easy Chat 0x3e900e"
+    expected: 'OBA!'
+  - offset: "0x3e9016"
+    name: "PT-07 Easy Chat 0x3e9016"
+    expected: 'IUPI'
+  - offset: "0x3e901f"
+    name: "PT-07 Easy Chat 0x3e901f"
+    expected: 'VEM CÁ'
+  - offset: "0x3e9029"
+    name: "PT-07 Easy Chat 0x3e9029"
+    expected: 'CONTE COM'
+  - offset: "0x3e923b"
+    name: "PT-07 Easy Chat 0x3e923b"
+    expected: 'SEU'
+  - offset: "0x3e9245"
+    name: "PT-07 Easy Chat 0x3e9245"
+    expected: 'SEU'
+  - offset: "0x3e924a"
+    name: "PT-07 Easy Chat 0x3e924a"
+    expected: 'VOCÊ É'
+  - offset: "0x3e9251"
+    name: "PT-07 Easy Chat 0x3e9251"
+    expected: 'VOCÊ TEM'
+  - offset: "0x3e9258"
+    name: "PT-07 Easy Chat 0x3e9258"
+    expected: 'MÃE'
+  - offset: "0x3e925f"
+    name: "PT-07 Easy Chat 0x3e925f"
+    expected: 'AVÔ'
+  - offset: "0x3e926b"
+    name: "PT-07 Easy Chat 0x3e926b"
+    expected: 'TIO'
+  - offset: "0x3e9271"
+    name: "PT-07 Easy Chat 0x3e9271"
+    expected: 'PAI'
+  - offset: "0x3e927c"
+    name: "PT-07 Easy Chat 0x3e927c"
+    expected: 'ADULTO'
+  - offset: "0x3e9282"
+    name: "PT-07 Easy Chat 0x3e9282"
+    expected: 'IRMÃO'
+  - offset: "0x3e928a"
+    name: "PT-07 Easy Chat 0x3e928a"
+    expected: 'IRMÃ'
+  - offset: "0x3e9291"
+    name: "PT-07 Easy Chat 0x3e9291"
+    expected: 'AVÓ'
+  - offset: "0x3e929d"
+    name: "PT-07 Easy Chat 0x3e929d"
+    expected: 'TIA'
+  - offset: "0x3e92a2"
+    name: "PT-07 Easy Chat 0x3e92a2"
+    expected: 'PAI OU MÃE'
+  - offset: "0x3e92b0"
+    name: "PT-07 Easy Chat 0x3e92b0"
+    expected: 'MENINA'
+  - offset: "0x3e92b5"
+    name: "PT-07 Easy Chat 0x3e92b5"
+    expected: 'BEBÊ'
+  - offset: "0x3e92ba"
+    name: "PT-07 Easy Chat 0x3e92ba"
+    expected: 'FAMÍLIA'
+  - offset: "0x3e92cc"
+    name: "PT-07 Easy Chat 0x3e92cc"
+    expected: 'LUGAR'
+  - offset: "0x3e92d2"
+    name: "PT-07 Easy Chat 0x3e92d2"
+    expected: 'FILHA'
+  - offset: "0x3e92e4"
+    name: "PT-07 Easy Chat 0x3e92e4"
+    expected: 'NÃO SÃO'
+  - offset: "0x3e92eb"
+    name: "PT-07 Easy Chat 0x3e92eb"
+    expected: 'IRMÃOS'
+  - offset: "0x3e92f8"
+    name: "PT-07 Easy Chat 0x3e92f8"
+    expected: 'CRIANÇAS'
+  - offset: "0x3e930a"
+    name: "PT-07 Easy Chat 0x3e930a"
+    expected: 'EU MESMO'
+  - offset: "0x3e9311"
+    name: "PT-07 Easy Chat 0x3e9311"
+    expected: 'EU ERA'
+  - offset: "0x3e9317"
+    name: "PT-07 Easy Chat 0x3e9317"
+    expected: 'PARA MIM'
+  - offset: "0x3e932e"
+    name: "PT-07 Easy Chat 0x3e932e"
+    expected: 'ALGUÉM'
+  - offset: "0x3e9336"
+    name: "PT-07 Easy Chat 0x3e9336"
+    expected: 'QUEM ERA'
+  - offset: "0x3e933e"
+    name: "PT-07 Easy Chat 0x3e933e"
+    expected: 'PARA QUEM'
+  - offset: "0x3e9346"
+    name: "PT-07 Easy Chat 0x3e9346"
+    expected: 'DE QUEM'
+  - offset: "0x3e934c"
+    name: "PT-07 Easy Chat 0x3e934c"
+    expected: 'QUEM É'
+  - offset: "0x3e9358"
+    name: "PT-07 Easy Chat 0x3e9358"
+    expected: 'SENHORA'
+  - offset: "0x3e935d"
+    name: "PT-07 Easy Chat 0x3e935d"
+    expected: 'AMIGO'
+  - offset: "0x3e9364"
+    name: "PT-07 Easy Chat 0x3e9364"
+    expected: 'ALIADO'
+  - offset: "0x3e9369"
+    name: "PT-07 Easy Chat 0x3e9369"
+    expected: 'PESSOA'
+  - offset: "0x3e9370"
+    name: "PT-07 Easy Chat 0x3e9370"
+    expected: 'CARA'
+  - offset: "0x3e9375"
+    name: "PT-07 Easy Chat 0x3e9375"
+    expected: 'ELES'
+  - offset: "0x3e937a"
+    name: "PT-07 Easy Chat 0x3e937a"
+    expected: 'ELES ERAM'
+  - offset: "0x3e9384"
+    name: "PT-07 Easy Chat 0x3e9384"
+    expected: 'PARA ELES'
+  - offset: "0x3e938c"
+    name: "PT-07 Easy Chat 0x3e938c"
+    expected: 'DELES'
+  - offset: "0x3e9392"
+    name: "PT-07 Easy Chat 0x3e9392"
+    expected: 'ELES SÃO'
+  - offset: "0x3e939a"
+    name: "PT-07 Easy Chat 0x3e939a"
+    expected: 'ELES TÊM'
+  - offset: "0x3e93a5"
+    name: "PT-07 Easy Chat 0x3e93a5"
+    expected: 'SIDO'
+  - offset: "0x3e93aa"
+    name: "PT-07 Easy Chat 0x3e93aa"
+    expected: 'PARA NÓS'
+  - offset: "0x3e93b4"
+    name: "PT-07 Easy Chat 0x3e93b4"
+    expected: 'NÓS SOMOS'
+  - offset: "0x3e93ba"
+    name: "PT-07 Easy Chat 0x3e93ba"
+    expected: 'RIVAL'
+  - offset: "0x3e93c0"
+    name: "PT-07 Easy Chat 0x3e93c0"
+    expected: 'NÓS TEMOS'
+  - offset: "0x3e93c6"
+    name: "PT-07 Easy Chat 0x3e93c6"
+    expected: 'MULHER'
+  - offset: "0x3e93d0"
+    name: "PT-07 Easy Chat 0x3e93d0"
+    expected: 'ELA ERA'
+  - offset: "0x3e93d8"
+    name: "PT-07 Easy Chat 0x3e93d8"
+    expected: 'PARA ELA'
+  - offset: "0x3e93df"
+    name: "PT-07 Easy Chat 0x3e93df"
+    expected: 'DELA'
+  - offset: "0x3e93e4"
+    name: "PT-07 Easy Chat 0x3e93e4"
+    expected: 'ELA É'
+  - offset: "0x3e93eb"
+    name: "PT-07 Easy Chat 0x3e93eb"
+    expected: 'ALGUNS'
+  - offset: "0x3e978f"
+    name: "PT-07 Easy Chat 0x3e978f"
+    expected: 'XI!'
+  - offset: "0x3e9795"
+    name: "PT-07 Easy Chat 0x3e9795"
+    expected: 'BUÁÁÁ'
+  - offset: "0x3e979b"
+    name: "PT-07 Easy Chat 0x3e979b"
+    expected: 'AHAHA'
+  - offset: "0x3e97a5"
+    name: "PT-07 Easy Chat 0x3e97a5"
+    expected: 'NEM'
+  - offset: "0x3e97aa"
+    name: "PT-07 Easy Chat 0x3e97aa"
+    expected: 'ARGH'
+  - offset: "0x3e97b3"
+    name: "PT-07 Easy Chat 0x3e97b3"
+    expected: 'UAU'
+  - offset: "0x3e97b9"
+    name: "PT-07 Easy Chat 0x3e97b9"
+    expected: 'GRRRRAU!'
+  - offset: "0x3e97c7"
+    name: "PT-07 Easy Chat 0x3e97c7"
+    expected: 'HIHI'
+  - offset: "0x3e97ce"
+    name: "PT-07 Easy Chat 0x3e97ce"
+    expected: 'SUSPIRO'
+  - offset: "0x3e97d3"
+    name: "PT-07 Easy Chat 0x3e97d3"
+    expected: 'INCRÍVEL'
+  - offset: "0x3e97e0"
+    name: "PT-07 Easy Chat 0x3e97e0"
+    expected: 'CHORA'
+  - offset: "0x3e97e6"
+    name: "PT-07 Easy Chat 0x3e97e6"
+    expected: 'CONCORDO'
+  - offset: "0x3e97f4"
+    name: "PT-07 Easy Chat 0x3e97f4"
+    expected: 'HEHEHE'
+  - offset: "0x3e97fa"
+    name: "PT-07 Easy Chat 0x3e97fa"
+    expected: 'EI, EI, EI'
+  - offset: "0x3e9805"
+    name: "PT-07 Easy Chat 0x3e9805"
+    expected: 'AH, SIM'
+  - offset: "0x3e9811"
+    name: "PT-07 Easy Chat 0x3e9811"
+    expected: 'OPA'
+  - offset: "0x3e9816"
+    name: "PT-07 Easy Chat 0x3e9816"
+    expected: 'CHOCADO'
+  - offset: "0x3e9822"
+    name: "PT-07 Easy Chat 0x3e9822"
+    expected: 'GRRR'
+  - offset: "0x3e9829"
+    name: "PT-07 Easy Chat 0x3e9829"
+    expected: 'MUAHAHAHA'
+  - offset: "0x3e983b"
+    name: "PT-07 Easy Chat 0x3e983b"
+    expected: 'HEHE'
+  - offset: "0x3e9848"
+    name: "PT-07 Easy Chat 0x3e9848"
+    expected: 'HAHAHA'
+  - offset: "0x3e984f"
+    name: "PT-07 Easy Chat 0x3e984f"
+    expected: 'AIII'
+  - offset: "0x3e9856"
+    name: "PT-07 Easy Chat 0x3e9856"
+    expected: 'IÁÁÁ'
+  - offset: "0x3e985c"
+    name: "PT-07 Easy Chat 0x3e985c"
+    expected: 'FUFUFU'
+  - offset: "0x3e9867"
+    name: "PT-07 Easy Chat 0x3e9867"
+    expected: 'PFFF'
+  - offset: "0x3e986d"
+    name: "PT-07 Easy Chat 0x3e986d"
+    expected: 'HUNF'
+  - offset: "0x3e9873"
+    name: "PT-07 Easy Chat 0x3e9873"
+    expected: 'HEHEHE'
+  - offset: "0x3e987e"
+    name: "PT-07 Easy Chat 0x3e987e"
+    expected: 'HOHOHO'
+  - offset: "0x3e9885"
+    name: "PT-07 Easy Chat 0x3e9885"
+    expected: 'AHAM'
+  - offset: "0x3e988c"
+    name: "PT-07 Easy Chat 0x3e988c"
+    expected: 'AI, AI'
+  - offset: "0x3e9895"
+    name: "PT-07 Easy Chat 0x3e9895"
+    expected: 'AARGH'
+  - offset: "0x3e989b"
+    name: "PT-07 Easy Chat 0x3e989b"
+    expected: 'MUFUFU'
+  - offset: "0x3e98a6"
+    name: "PT-07 Easy Chat 0x3e98a6"
+    expected: 'TÁ BOM'
+  - offset: "0x3e98ad"
+    name: "PT-07 Easy Chat 0x3e98ad"
+    expected: 'CERTO'
+  - offset: "0x3e98b2"
+    name: "PT-07 Easy Chat 0x3e98b2"
+    expected: 'LALALA'
+  - offset: "0x3e98c1"
+    name: "PT-07 Easy Chat 0x3e98c1"
+    expected: 'UAU!'
+  - offset: "0x3e98c7"
+    name: "PT-07 Easy Chat 0x3e98c7"
+    expected: 'GUÁ'
+  - offset: "0x3e98cc"
+    name: "PT-07 Easy Chat 0x3e98cc"
+    expected: 'UAHAHAHA'
+  - offset: "0x3e9bd3"
+    name: "PT-07 Easy Chat 0x3e9bd3"
+    expected: 'NÃO MUITO'
+  - offset: "0x3e9bdc"
+    name: "PT-07 Easy Chat 0x3e9bdc"
+    expected: 'MALVADO'
+  - offset: "0x3e9be9"
+    name: "PT-07 Easy Chat 0x3e9be9"
+    expected: 'RECOMENDAR'
+  - offset: "0x3e9bf3"
+    name: "PT-07 Easy Chat 0x3e9bf3"
+    expected: 'BOBO'
+  - offset: "0x3e9bfa"
+    name: "PT-07 Easy Chat 0x3e9bfa"
+    expected: 'BASTANTE'
+  - offset: "0x3e9c00"
+    name: "PT-07 Easy Chat 0x3e9c00"
+    expected: 'DE'
+  - offset: "0x3e9c05"
+    name: "PT-07 Easy Chat 0x3e9c05"
+    expected: 'SENTIMENTO'
+  - offset: "0x3e9c11"
+    name: "PT-07 Easy Chat 0x3e9c11"
+    expected: 'PORÉM'
+  - offset: "0x3e9c19"
+    name: "PT-07 Easy Chat 0x3e9c19"
+    expected: 'CASO'
+  - offset: "0x3e9c22"
+    name: "PT-07 Easy Chat 0x3e9c22"
+    expected: 'ERRAR'
+  - offset: "0x3e9c2f"
+    name: "PT-07 Easy Chat 0x3e9c2f"
+    expected: 'O SUFICIENTE'
+  - offset: "0x3e9c36"
+    name: "PT-07 Easy Chat 0x3e9c36"
+    expected: 'MUITO'
+  - offset: "0x3e9c3c"
+    name: "PT-07 Easy Chat 0x3e9c3c"
+    expected: 'UM POUCO'
+  - offset: "0x3e9c45"
+    name: "PT-07 Easy Chat 0x3e9c45"
+    expected: 'SEM DÚVIDA'
+  - offset: "0x3e9c54"
+    name: "PT-07 Easy Chat 0x3e9c54"
+    expected: 'SÓ'
+  - offset: "0x3e9c59"
+    name: "PT-07 Easy Chat 0x3e9c59"
+    expected: 'POR VOLTA'
+  - offset: "0x3e9c60"
+    name: "PT-07 Easy Chat 0x3e9c60"
+    expected: 'É PROVÁVEL'
+  - offset: "0x3e9c6c"
+    name: "PT-07 Easy Chat 0x3e9c6c"
+    expected: 'MUITO'
+  - offset: "0x3e9c71"
+    name: "PT-07 Easy Chat 0x3e9c71"
+    expected: 'UM POUQUINHO'
+  - offset: "0x3e9c7c"
+    name: "PT-07 Easy Chat 0x3e9c7c"
+    expected: 'SELVAGEM'
+  - offset: "0x3e9c81"
+    name: "PT-07 Easy Chat 0x3e9c81"
+    expected: 'ISSO É'
+  - offset: "0x3e9c88"
+    name: "PT-07 Easy Chat 0x3e9c88"
+    expected: 'APENAS'
+  - offset: "0x3e9c8d"
+    name: "PT-07 Easy Chat 0x3e9c8d"
+    expected: 'MESMO ASSIM,'
+  - offset: "0x3e9c96"
+    name: "PT-07 Easy Chat 0x3e9c96"
+    expected: 'DEVE SER'
+  - offset: "0x3e9c9e"
+    name: "PT-07 Easy Chat 0x3e9c9e"
+    expected: 'NATURALMENTE'
+  - offset: "0x3e9ca8"
+    name: "PT-07 Easy Chat 0x3e9ca8"
+    expected: 'POR ORA,'
+  - offset: "0x3e9cb1"
+    name: "PT-07 Easy Chat 0x3e9cb1"
+    expected: 'ENTENDIDO'
+  - offset: "0x3e9cbc"
+    name: "PT-07 Easy Chat 0x3e9cbc"
+    expected: 'BRINCANDO'
+  - offset: "0x3e9cc3"
+    name: "PT-07 Easy Chat 0x3e9cc3"
+    expected: 'PRONTO'
+  - offset: "0x3e9cc9"
+    name: "PT-07 Easy Chat 0x3e9cc9"
+    expected: 'ALGO'
+  - offset: "0x3e9cd3"
+    name: "PT-07 Easy Chat 0x3e9cd3"
+    expected: 'DE UM JEITO'
+  - offset: "0x3e9cdb"
+    name: "PT-07 Easy Chat 0x3e9cdb"
+    expected: 'EMBORA'
+  - offset: "0x3e9ce4"
+    name: "PT-07 Easy Chat 0x3e9ce4"
+    expected: 'TAMBÉM'
+  - offset: "0x3e9ce9"
+    name: "PT-07 Easy Chat 0x3e9ce9"
+    expected: 'PERFEITO'
+  - offset: "0x3e9cf1"
+    name: "PT-07 Easy Chat 0x3e9cf1"
+    expected: 'TANTO QUANTO'
+  - offset: "0x3e9cfc"
+    name: "PT-07 Easy Chat 0x3e9cfc"
+    expected: 'REALMENTE'
+  - offset: "0x3e9d03"
+    name: "PT-07 Easy Chat 0x3e9d03"
+    expected: 'DE VERDADE'
+  - offset: "0x3e9d09"
+    name: "PT-07 Easy Chat 0x3e9d09"
+    expected: 'A SÉRIO'
+  - offset: "0x3e9d13"
+    name: "PT-07 Easy Chat 0x3e9d13"
+    expected: 'TOTALMENTE'
+  - offset: "0x3e9d1b"
+    name: "PT-07 Easy Chat 0x3e9d1b"
+    expected: 'ATÉ'
+  - offset: "0x3e9d21"
+    name: "PT-07 Easy Chat 0x3e9d21"
+    expected: 'COMO SE'
+  - offset: "0x3e9d27"
+    name: "PT-07 Easy Chat 0x3e9d27"
+    expected: 'HUMOR'
+  - offset: "0x3e9d2c"
+    name: "PT-07 Easy Chat 0x3e9d2c"
+    expected: 'ATÉ QUE'
+  - offset: "0x3e9d33"
+    name: "PT-07 Easy Chat 0x3e9d33"
+    expected: 'MUITÍSSIMO'
+  - offset: "0x3e9d3b"
+    name: "PT-07 Easy Chat 0x3e9d3b"
+    expected: 'MODO'
+  - offset: "0x3e9d40"
+    name: "PT-07 Easy Chat 0x3e9d40"
+    expected: 'MAIS'
+  - offset: "0x3e9d45"
+    name: "PT-07 Easy Chat 0x3e9d45"
+    expected: 'TARDE DEMAIS'
+  - offset: "0x3e9d4e"
+    name: "PT-07 Easy Chat 0x3e9d4e"
+    expected: 'ENFIM'
+  - offset: "0x3e9d5a"
+    name: "PT-07 Easy Chat 0x3e9d5a"
+    expected: 'EM VEZ'
+  - offset: "0x3e9d62"
+    name: "PT-07 Easy Chat 0x3e9d62"
+    expected: 'FANTÁSTICO'
+  - offset: "0x3ea041"
+    name: "PT-07 Easy Chat 0x3ea041"
+    expected: 'ESTARÁ AQUI'
+  - offset: "0x3ea051"
+    name: "PT-07 Easy Chat 0x3ea051"
+    expected: 'VEZES'
+  - offset: "0x3ea057"
+    name: "PT-07 Easy Chat 0x3ea057"
+    expected: 'IMAGINAR'
+  - offset: "0x3ea05e"
+    name: "PT-07 Easy Chat 0x3ea05e"
+    expected: 'É MESMO?'
+  - offset: "0x3ea068"
+    name: "PT-07 Easy Chat 0x3ea068"
+    expected: 'ME DÁ'
+  - offset: "0x3ea06e"
+    name: "PT-07 Easy Chat 0x3ea06e"
+    expected: 'PODERIA'
+  - offset: "0x3ea074"
+    name: "PT-07 Easy Chat 0x3ea074"
+    expected: 'TENDE A'
+  - offset: "0x3ea07e"
+    name: "PT-07 Easy Chat 0x3ea07e"
+    expected: 'IRIA'
+  - offset: "0x3ea087"
+    name: "PT-07 Easy Chat 0x3ea087"
+    expected: 'NÃO É?'
+  - offset: "0x3ea091"
+    name: "PT-07 Easy Chat 0x3ea091"
+    expected: 'VAMOS'
+  - offset: "0x3ea097"
+    name: "PT-07 Easy Chat 0x3ea097"
+    expected: 'OUTRO'
+  - offset: "0x3ea0a5"
+    name: "PT-07 Easy Chat 0x3ea0a5"
+    expected: 'ERAM'
+  - offset: "0x3ea0aa"
+    name: "PT-07 Easy Chat 0x3ea0aa"
+    expected: 'AQUELES'
+  - offset: "0x3ea0b0"
+    name: "PT-07 Easy Chat 0x3ea0b0"
+    expected: 'NÃO É'
+  - offset: "0x3ea0b6"
+    name: "PT-07 Easy Chat 0x3ea0b6"
+    expected: 'NÃO VAI'
+  - offset: "0x3ea0bc"
+    name: "PT-07 Easy Chat 0x3ea0bc"
+    expected: 'NÃO PODE'
+  - offset: "0x3ea0c6"
+    name: "PT-07 Easy Chat 0x3ea0c6"
+    expected: 'NÃO FAÇA'
+  - offset: "0x3ea0cf"
+    name: "PT-07 Easy Chat 0x3ea0cf"
+    expected: 'FAZ'
+  - offset: "0x3ea0d4"
+    name: "PT-07 Easy Chat 0x3ea0d4"
+    expected: 'QUEM'
+  - offset: "0x3ea0d9"
+    name: "PT-07 Easy Chat 0x3ea0d9"
+    expected: 'QUAL'
+  - offset: "0x3ea0df"
+    name: "PT-07 Easy Chat 0x3ea0df"
+    expected: 'NÃO ERA'
+  - offset: "0x3ea0e6"
+    name: "PT-07 Easy Chat 0x3ea0e6"
+    expected: 'NÃO ERAM'
+  - offset: "0x3ea0ee"
+    name: "PT-07 Easy Chat 0x3ea0ee"
+    expected: 'TER'
+  - offset: "0x3ea0f3"
+    name: "PT-07 Easy Chat 0x3ea0f3"
+    expected: 'NÃO TEM'
+  - offset: "0x3ea104"
+    name: "PT-07 Easy Chat 0x3ea104"
+    expected: 'LÁ'
+  - offset: "0x3ea111"
+    name: "PT-07 Easy Chat 0x3ea111"
+    expected: 'TALVEZ'
+  - offset: "0x3ea117"
+    name: "PT-07 Easy Chat 0x3ea117"
+    expected: 'SOBRE'
+  - offset: "0x3ea11d"
+    name: "PT-07 Easy Chat 0x3ea11d"
+    expected: 'ACABOU'
+  - offset: "0x3ea13a"
+    name: "PT-07 Easy Chat 0x3ea13a"
+    expected: 'COM'
+  - offset: "0x3ea13f"
+    name: "PT-07 Easy Chat 0x3ea13f"
+    expected: 'MELHOR'
+  - offset: "0x3ea146"
+    name: "PT-07 Easy Chat 0x3ea146"
+    expected: 'ALGUMA VEZ'
+  - offset: "0x3ea14b"
+    name: "PT-07 Easy Chat 0x3ea14b"
+    expected: 'DESDE'
+  - offset: "0x3ea154"
+    name: "PT-07 Easy Chat 0x3ea154"
+    expected: 'PERTENCE A'
+  - offset: "0x3ea16d"
+    name: "PT-07 Easy Chat 0x3ea16d"
+    expected: 'COMO'
+  - offset: "0x3ea176"
+    name: "PT-07 Easy Chat 0x3ea176"
+    expected: 'NÃO FEZ'
+  - offset: "0x3ea17d"
+    name: "PT-07 Easy Chat 0x3ea17d"
+    expected: 'NÃO FAZ'
+  - offset: "0x3ea185"
+    name: "PT-07 Easy Chat 0x3ea185"
+    expected: 'SEM'
+  - offset: "0x3ea18d"
+    name: "PT-07 Easy Chat 0x3ea18d"
+    expected: 'DEPOIS'
+  - offset: "0x3ea193"
+    name: "PT-07 Easy Chat 0x3ea193"
+    expected: 'ANTES'
+  - offset: "0x3ea19a"
+    name: "PT-07 Easy Chat 0x3ea19a"
+    expected: 'ENQUANTO'
+  - offset: "0x3ea1a0"
+    name: "PT-07 Easy Chat 0x3ea1a0"
+    expected: 'DO QUE'
+  - offset: "0x3ea1a5"
+    name: "PT-07 Easy Chat 0x3ea1a5"
+    expected: 'UMA VEZ'
+  - offset: "0x3ea1aa"
+    name: "PT-07 Easy Chat 0x3ea1aa"
+    expected: 'ONDE FOR'
+  - offset: "0x3ea4f5"
+    name: "PT-07 Easy Chat 0x3ea4f5"
+    expected: 'BRINCAR'
+  - offset: "0x3ea4fa"
+    name: "PT-07 Easy Chat 0x3ea4fa"
+    expected: 'APRESSADO'
+  - offset: "0x3ea502"
+    name: "PT-07 Easy Chat 0x3ea502"
+    expected: 'VAI'
+  - offset: "0x3ea507"
+    name: "PT-07 Easy Chat 0x3ea507"
+    expected: 'EUFÓRICO'
+  - offset: "0x3ea50d"
+    name: "PT-07 Easy Chat 0x3ea50d"
+    expected: 'FELIZ'
+  - offset: "0x3ea513"
+    name: "PT-07 Easy Chat 0x3ea513"
+    expected: 'FELICIDADE'
+  - offset: "0x3ea51d"
+    name: "PT-07 Easy Chat 0x3ea51d"
+    expected: 'EMPOLGAR'
+  - offset: "0x3ea524"
+    name: "PT-07 Easy Chat 0x3ea524"
+    expected: 'IMPORTANTE'
+  - offset: "0x3ea52e"
+    name: "PT-07 Easy Chat 0x3ea52e"
+    expected: 'ENGRAÇADO'
+  - offset: "0x3ea538"
+    name: "PT-07 Easy Chat 0x3ea538"
+    expected: 'IR PARA CASA'
+  - offset: "0x3ea540"
+    name: "PT-07 Easy Chat 0x3ea540"
+    expected: 'DECEPCIONADO'
+  - offset: "0x3ea54d"
+    name: "PT-07 Easy Chat 0x3ea54d"
+    expected: 'DECEPCIONA'
+  - offset: "0x3ea561"
+    name: "PT-07 Easy Chat 0x3ea561"
+    expected: 'TENTA'
+  - offset: "0x3ea567"
+    name: "PT-07 Easy Chat 0x3ea567"
+    expected: 'OUVE'
+  - offset: "0x3ea56d"
+    name: "PT-07 Easy Chat 0x3ea56d"
+    expected: 'PENSAR'
+  - offset: "0x3ea573"
+    name: "PT-07 Easy Chat 0x3ea573"
+    expected: 'OUVIR'
+  - offset: "0x3ea578"
+    name: "PT-07 Easy Chat 0x3ea578"
+    expected: 'QUER'
+  - offset: "0x3ea57e"
+    name: "PT-07 Easy Chat 0x3ea57e"
+    expected: 'OUVIU MAL'
+  - offset: "0x3ea587"
+    name: "PT-07 Easy Chat 0x3ea587"
+    expected: 'NÃO GOSTAR'
+  - offset: "0x3ea58f"
+    name: "PT-07 Easy Chat 0x3ea58f"
+    expected: 'ZANGADO'
+  - offset: "0x3ea595"
+    name: "PT-07 Easy Chat 0x3ea595"
+    expected: 'RAIVA'
+  - offset: "0x3ea59b"
+    name: "PT-07 Easy Chat 0x3ea59b"
+    expected: 'ASSUSTADOR'
+  - offset: "0x3ea5a1"
+    name: "PT-07 Easy Chat 0x3ea5a1"
+    expected: 'SOLITÁRIO'
+  - offset: "0x3ea5aa"
+    name: "PT-07 Easy Chat 0x3ea5aa"
+    expected: 'DECEPCIONAR'
+  - offset: "0x3ea5b9"
+    name: "PT-07 Easy Chat 0x3ea5b9"
+    expected: 'OBTÉM'
+  - offset: "0x3ea5be"
+    name: "PT-07 Easy Chat 0x3ea5be"
+    expected: 'NUNCA'
+  - offset: "0x3ea5c4"
+    name: "PT-07 Easy Chat 0x3ea5c4"
+    expected: 'DROGA'
+  - offset: "0x3ea5c9"
+    name: "PT-07 Easy Chat 0x3ea5c9"
+    expected: 'ABATIDO'
+  - offset: "0x3ea5d2"
+    name: "PT-07 Easy Chat 0x3ea5d2"
+    expected: 'INCRÍVEL'
+  - offset: "0x3ea5dd"
+    name: "PT-07 Easy Chat 0x3ea5dd"
+    expected: 'GOSTA'
+  - offset: "0x3ea5e3"
+    name: "PT-07 Easy Chat 0x3ea5e3"
+    expected: 'NÃO GOSTA'
+  - offset: "0x3ea5ec"
+    name: "PT-07 Easy Chat 0x3ea5ec"
+    expected: 'CHATO'
+  - offset: "0x3ea5f3"
+    name: "PT-07 Easy Chat 0x3ea5f3"
+    expected: 'SE IMPORTAR'
+  - offset: "0x3ea5f8"
+    name: "PT-07 Easy Chat 0x3ea5f8"
+    expected: 'SE IMPORTA'
+  - offset: "0x3ea5fe"
+    name: "PT-07 Easy Chat 0x3ea5fe"
+    expected: 'TUDO BEM'
+  - offset: "0x3ea608"
+    name: "PT-07 Easy Chat 0x3ea608"
+    expected: 'ADORAR'
+  - offset: "0x3ea60e"
+    name: "PT-07 Easy Chat 0x3ea60e"
+    expected: 'DESASTRE'
+  - offset: "0x3ea617"
+    name: "PT-07 Easy Chat 0x3ea617"
+    expected: 'CURTIR'
+  - offset: "0x3ea61d"
+    name: "PT-07 Easy Chat 0x3ea61d"
+    expected: 'CURTE'
+  - offset: "0x3ea628"
+    name: "PT-07 Easy Chat 0x3ea628"
+    expected: 'FALTANDO'
+  - offset: "0x3ea634"
+    name: "PT-07 Easy Chat 0x3ea634"
+    expected: 'DIFÍCIL'
+  - offset: "0x3ea639"
+    name: "PT-07 Easy Chat 0x3ea639"
+    expected: 'TERRÍVEL'
+  - offset: "0x3ea642"
+    name: "PT-07 Easy Chat 0x3ea642"
+    expected: 'DEVERIA'
+  - offset: "0x3ea649"
+    name: "PT-07 Easy Chat 0x3ea649"
+    expected: 'LEGAL'
+  - offset: "0x3ea64e"
+    name: "PT-07 Easy Chat 0x3ea64e"
+    expected: 'BEBER'
+  - offset: "0x3ea654"
+    name: "PT-07 Easy Chat 0x3ea654"
+    expected: 'SURPRESA'
+  - offset: "0x3ea65d"
+    name: "PT-07 Easy Chat 0x3ea65d"
+    expected: 'MEDO'
+  - offset: "0x3ea662"
+    name: "PT-07 Easy Chat 0x3ea662"
+    expected: 'QUERER'
+  - offset: "0x3ea667"
+    name: "PT-07 Easy Chat 0x3ea667"
+    expected: 'ESPERAR'
+  - offset: "0x3ea66c"
+    name: "PT-07 Easy Chat 0x3ea66c"
+    expected: 'SATISFEITO'
+  - offset: "0x3ea67a"
+    name: "PT-07 Easy Chat 0x3ea67a"
+    expected: 'RARO'
+  - offset: "0x3ea67f"
+    name: "PT-07 Easy Chat 0x3ea67f"
+    expected: 'NEGATIVO'
+  - offset: "0x3ea688"
+    name: "PT-07 Easy Chat 0x3ea688"
+    expected: 'FEITO'
+  - offset: "0x3ea68d"
+    name: "PT-07 Easy Chat 0x3ea68d"
+    expected: 'PERIGO'
+  - offset: "0x3ea694"
+    name: "PT-07 Easy Chat 0x3ea694"
+    expected: 'DERROTADO'
+  - offset: "0x3ea69d"
+    name: "PT-07 Easy Chat 0x3ea69d"
+    expected: 'VENCE'
+  - offset: "0x3ea6a2"
+    name: "PT-07 Easy Chat 0x3ea6a2"
+    expected: 'ÓTIMO'
+  - offset: "0x3ea6a8"
+    name: "PT-07 Easy Chat 0x3ea6a8"
+    expected: 'ROMÂNTICO'
+  - offset: "0x3ea6b1"
+    name: "PT-07 Easy Chat 0x3ea6b1"
+    expected: 'PERGUNTA'
+  - offset: "0x3ea6ba"
+    name: "PT-07 Easy Chat 0x3ea6ba"
+    expected: 'ENTENDER'
+  - offset: "0x3ea6c5"
+    name: "PT-07 Easy Chat 0x3ea6c5"
+    expected: 'ENTENDE'
+  - offset: "0x3eaa14"
+    name: "PT-07 Easy Chat 0x3eaa14"
+    expected: 'EXISTE'
+  - offset: "0x3eaa1b"
+    name: "PT-07 Easy Chat 0x3eaa1b"
+    expected: 'EXCESSO'
+  - offset: "0x3eaa22"
+    name: "PT-07 Easy Chat 0x3eaa22"
+    expected: 'APROVADO'
+  - offset: "0x3eaa2f"
+    name: "PT-07 Easy Chat 0x3eaa2f"
+    expected: 'BOM'
+  - offset: "0x3eaa34"
+    name: "PT-07 Easy Chat 0x3eaa34"
+    expected: 'MENOS'
+  - offset: "0x3eaa39"
+    name: "PT-07 Easy Chat 0x3eaa39"
+    expected: 'IMPULSO'
+  - offset: "0x3eaa42"
+    name: "PT-07 Easy Chat 0x3eaa42"
+    expected: 'INDO'
+  - offset: "0x3eaa48"
+    name: "PT-07 Easy Chat 0x3eaa48"
+    expected: 'ESTRANHO'
+  - offset: "0x3eaa4e"
+    name: "PT-07 Easy Chat 0x3eaa4e"
+    expected: 'OCUPADO'
+  - offset: "0x3eaa53"
+    name: "PT-07 Easy Chat 0x3eaa53"
+    expected: 'JUNTOS'
+  - offset: "0x3eaa5c"
+    name: "PT-07 Easy Chat 0x3eaa5c"
+    expected: 'CHEIO'
+  - offset: "0x3eaa61"
+    name: "PT-07 Easy Chat 0x3eaa61"
+    expected: 'AUSENTE'
+  - offset: "0x3eaa68"
+    name: "PT-07 Easy Chat 0x3eaa68"
+    expected: 'SENDO'
+  - offset: "0x3eaa6e"
+    name: "PT-07 Easy Chat 0x3eaa6e"
+    expected: 'PRECISAR'
+  - offset: "0x3eaa73"
+    name: "PT-07 Easy Chat 0x3eaa73"
+    expected: 'SABOROSO'
+  - offset: "0x3eaa79"
+    name: "PT-07 Easy Chat 0x3eaa79"
+    expected: 'HABILIDOSO'
+  - offset: "0x3eaa81"
+    name: "PT-07 Easy Chat 0x3eaa81"
+    expected: 'BARULHENTO'
+  - offset: "0x3eaa8b"
+    name: "PT-07 Easy Chat 0x3eaa8b"
+    expected: 'ATRASADO'
+  - offset: "0x3eaa90"
+    name: "PT-07 Easy Chat 0x3eaa90"
+    expected: 'PERTO'
+  - offset: "0x3eaa96"
+    name: "PT-07 Easy Chat 0x3eaa96"
+    expected: 'DÓCIL'
+  - offset: "0x3eaa9d"
+    name: "PT-07 Easy Chat 0x3eaa9d"
+    expected: 'DIVERTIDO'
+  - offset: "0x3eaaa5"
+    name: "PT-07 Easy Chat 0x3eaaa5"
+    expected: 'DIVERTIDO'
+  - offset: "0x3eaab2"
+    name: "PT-07 Easy Chat 0x3eaab2"
+    expected: 'PERFEIÇÃO'
+  - offset: "0x3eaabd"
+    name: "PT-07 Easy Chat 0x3eaabd"
+    expected: 'BONITO'
+  - offset: "0x3eaac4"
+    name: "PT-07 Easy Chat 0x3eaac4"
+    expected: 'SAUDÁVEL'
+  - offset: "0x3eaacc"
+    name: "PT-07 Easy Chat 0x3eaacc"
+    expected: 'EXCELENTE'
+  - offset: "0x3eaad6"
+    name: "PT-07 Easy Chat 0x3eaad6"
+    expected: 'INVERTIDO'
