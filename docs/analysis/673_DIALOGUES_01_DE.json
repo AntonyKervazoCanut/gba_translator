@@ -6409,7 +6409,7 @@
         "after_hex": "09024f07"
       }
     ],
-    "de": "In Unova baute die Forscherin\\nFennel ein Gerät, mit dem Menschen\\ldie Träume von Pokémon sehen\\lkonnten.\\pMan konnte ihre Traumwelt betreten\\nund dort mit ihnen in Kontakt\\ltreten.\\pWir wollen so ein Gerät nachbauen\\nund als eigene Erfindung ausgeben.\\lVerrat es also niemandem.",
+    "de": "In Unova baute die Forscherin\\nFennel ein Gerät, mit dem Menschen\\ldie Träume von Pokémon sehen\\lkonnten.\\pMan konnte die Dream World\\nbetreten und dort mit ihnen in\\lKontakt treten.\\pWir wollen so ein Gerät nachbauen\\nund als eigene Erfindung ausgeben.\\lVerrat es also niemandem.",
     "decision": "corrigé (source ; ROM à vérifier)",
     "motif": "Absence DE : traduction du canon EN.",
     "scene": "Tarmigan Town : Dream Research Lab et légende de Darkrai.",
@@ -6418,14 +6418,14 @@
       189,
       160,
       42,
-      189,
-      157,
-      37,
+      146,
+      163,
+      81,
       184,
       189,
       139
     ],
-    "source_de_bytes": 271,
+    "source_de_bytes": 272,
     "verification_rom": "à effectuer"
   },
   {
@@ -6891,17 +6891,17 @@
         "after_hex": "090205c3"
       }
     ],
-    "de": "Er tauschte mir sein <0xFC><0x01><0x06>Electabuzz<0xFC><0x01><0x08>.\\nIch gab ihm einen <0xFC><0x01><0x06>Stromisierer<0xFC><0x01><0x08> wie\\leinen <0xFC><0x01><0x06>Entwicklungsstein<0xFC><0x01><0x08> und es\\lentwickelte sich!",
+    "de": "Er tauschte sein <0xFC><0x01><0x06>Electabuzz<0xFC><0x01><0x08> mit\\nmir. Ich nutzte einen <0xFC><0x01><0x06>Stromisierer<0xFC><0x01><0x08>\\lwie einen <0xFC><0x01><0x06>Entwicklungsstein<0xFC><0x01><0x08> und es\\lentwickelte sich!",
     "decision": "corrigé (source ; ROM à vérifier)",
     "motif": "Sens, terminologie, registre ou mise en page corrigés après confrontation EN/FR.",
     "scene": "PNJ explicatifs : objets, évolution et tactiques ; références de scripts consignées.",
     "source_de_pixels": [
-      178,
-      187,
-      161,
+      173,
+      184,
+      183,
       92
     ],
-    "source_de_bytes": 135,
+    "source_de_bytes": 138,
     "verification_rom": "à effectuer"
   },
   {
@@ -7687,15 +7687,15 @@
         "after_hex": "09036c02"
       }
     ],
-    "de": "Pokémon-Arena von Crater Town\\nLeiter: Vega Der Doppelagent.",
+    "de": "Pokémon-Arena von Crater Town\\nLeiter: Vega - der Doppelagent.",
     "decision": "corrigé (source ; ROM à vérifier)",
     "motif": "Absence DE : traduction du canon EN.",
     "scene": "Crater Town / arène de Vega.",
     "source_de_pixels": [
       165,
-      164
+      176
     ],
-    "source_de_bytes": 60,
+    "source_de_bytes": 62,
     "verification_rom": "à effectuer"
   },
   {
@@ -7740,16 +7740,16 @@
         "after_hex": "09030203"
       }
     ],
-    "de": "Pokémon-Arena von Blizzard City\\nLeiterin: Alice Die hochfliegende\\lEiskönigin.",
+    "de": "Pokémon-Arena von Blizzard City\\nLeiterin: Alice - die hochfliegende\\lEiskönigin.",
     "decision": "corrigé (source ; ROM à vérifier)",
     "motif": "Absence DE : traduction du canon EN.",
     "scene": "Blizzard City / accès montagne et SES Expressway ; maître Eishieb, arène Alice.",
     "source_de_pixels": [
       174,
-      180,
+      192,
       55
     ],
-    "source_de_bytes": 78,
+    "source_de_bytes": 80,
     "verification_rom": "à effectuer"
   },
   {
@@ -7770,15 +7770,15 @@
         "after_hex": "09030203"
       }
     ],
-    "de": "Blizzard City Die frostige\\nBergstadt.",
+    "de": "Blizzard City: Die frostige\\nBergstadt.",
     "decision": "corrigé (source ; ROM à vérifier)",
     "motif": "Absence DE : traduction du canon EN.",
     "scene": "Blizzard City / accès montagne et SES Expressway ; maître Eishieb, arène Alice.",
     "source_de_pixels": [
-      141,
+      146,
       55
     ],
-    "source_de_bytes": 38,
+    "source_de_bytes": 39,
     "verification_rom": "à effectuer"
   },
   {
@@ -8280,21 +8280,22 @@
         "after_hex": "09066c02"
       }
     ],
-    "de": "Seit uralten Zeiten sucht das\\nMysteriöse Pokémon Darkrai diesen\\lOrt heim.\\pJede Nacht um eins soll es\\nauftauchen und die Träume der\\lMenschen heimsuchen.\\pSei vorsichtig, Kind! Falle nicht\\nins finstere Nichts!",
+    "de": "Schon seit uralten Zeiten wird\\ndieser Ort vom Mysteriösen Pokémon\\lDarkrai heimgesucht.\\pMan sagt, dass es jede Nacht,\\nwenn die Uhr eins schlägt,\\lauftaucht, um die Träume der\\lMenschen heimzusuchen.\\pSei vorsichtig, mein Kind! Stürze\\nnicht ins finstere Nichts!",
     "decision": "corrigé (source ; ROM à vérifier)",
     "motif": "Absence DE : traduction du canon EN.",
     "scene": "Tarmigan Town : Dream Research Lab et légende de Darkrai.",
     "source_de_pixels": [
+      164,
+      189,
+      110,
+      165,
+      143,
       160,
-      181,
-      49,
-      147,
-      166,
-      112,
-      179,
-      105
+      124,
+      180,
+      137
     ],
-    "source_de_bytes": 207,
+    "source_de_bytes": 257,
     "verification_rom": "à effectuer"
   },
   {

@@ -9753,7 +9753,7 @@ entries:
   expected: "Hier im Dream Research Lab\\nerforschen wir die Träume von\\lPokémon."
 - offset: '0x7a2622'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
-  expected: "In Unova baute die Forscherin\\nFennel ein Gerät, mit dem Menschen\\ldie Träume von Pokémon sehen\\lkonnten.\\pMan konnte ihre Traumwelt betreten\\nund dort mit ihnen in Kontakt\\ltreten.\\pWir wollen so ein Gerät nachbauen\\nund als eigene Erfindung ausgeben.\\lVerrat es also niemandem."
+  expected: "In Unova baute die Forscherin\\nFennel ein Gerät, mit dem Menschen\\ldie Träume von Pokémon sehen\\lkonnten.\\pMan konnte die Dream World\\nbetreten und dort mit ihnen in\\lKontakt treten.\\pWir wollen so ein Gerät nachbauen\\nund als eigene Erfindung ausgeben.\\lVerrat es also niemandem."
 - offset: '0x7a2766'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
   expected: "Darkrai kann als einziges Pokémon\\nanderen Pokémon im Schlaf Schaden\\lzufügen.\\pIch will herausfinden, warum es\\nohne eine Attacke in die Träume\\leines Pokémon eindringen kann."
@@ -9777,7 +9777,7 @@ entries:
   expected: "LASS MICH REIN!"
 - offset: '0x7a823b'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
-  expected: "Er tauschte mir sein <0xFC><0x01><0x06>Electabuzz<0xFC><0x01><0x08>.\\nIch gab ihm einen <0xFC><0x01><0x06>Stromisierer<0xFC><0x01><0x08> wie\\leinen <0xFC><0x01><0x06>Entwicklungsstein<0xFC><0x01><0x08> und es\\lentwickelte sich!"
+  expected: "Er tauschte sein <0xFC><0x01><0x06>Electabuzz<0xFC><0x01><0x08> mit\\nmir. Ich nutzte einen <0xFC><0x01><0x06>Stromisierer<0xFC><0x01><0x08>\\lwie einen <0xFC><0x01><0x06>Entwicklungsstein<0xFC><0x01><0x08> und es\\lentwickelte sich!"
 - offset: '0x7a87b1'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
   expected: "<0xFC><0x01><0x06><0xFD><0x02>!<0xFC><0x01><0x04>\\pIch will ein <0xFC><0x01><0x06><0xFD><0x02> sehen!"
@@ -9828,13 +9828,13 @@ entries:
   expected: "Cinder Volcano Durchgang"
 - offset: '0x7b47ec'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
-  expected: "Pokémon-Arena von Crater Town\\nLeiter: Vega Der Doppelagent."
+  expected: "Pokémon-Arena von Crater Town\\nLeiter: Vega - der Doppelagent."
 - offset: '0x7b491c'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
-  expected: "Pokémon-Arena von Blizzard City\\nLeiterin: Alice Die hochfliegende\\lEiskönigin."
+  expected: "Pokémon-Arena von Blizzard City\\nLeiterin: Alice - die hochfliegende\\lEiskönigin."
 - offset: '0x7b496f'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
-  expected: "Blizzard City Die frostige\\nBergstadt."
+  expected: "Blizzard City: Die frostige\\nBergstadt."
 - offset: '0x7b5a47'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
   expected: "Unter dem Seerosenblatt versteckte\\nsich ein Pokémon!\\pDas Pokémon griff an!"
@@ -9864,7 +9864,7 @@ entries:
   expected: "Da hat heute jemand experimentiert<0xB0>"
 - offset: '0x7b8e3a'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
-  expected: "Seit uralten Zeiten sucht das\\nMysteriöse Pokémon Darkrai diesen\\lOrt heim.\\pJede Nacht um eins soll es\\nauftauchen und die Träume der\\lMenschen heimsuchen.\\pSei vorsichtig, Kind! Falle nicht\\nins finstere Nichts!"
+  expected: "Schon seit uralten Zeiten wird\\ndieser Ort vom Mysteriösen Pokémon\\lDarkrai heimgesucht.\\pMan sagt, dass es jede Nacht,\\nwenn die Uhr eins schlägt,\\lauftaucht, um die Träume der\\lMenschen heimzusuchen.\\pSei vorsichtig, mein Kind! Stürze\\nnicht ins finstere Nichts!"
 - offset: '0x7b9a82'
   name: "B-673 : dialogues-01, valeur relue sur ROM canonique"
   expected: "Rüpel: <0xFC><0x01><0x04>Oh nein!\\p<0xFD><0x01> ist uns\\ndicht auf den Fersen!\\pIch muss Marlon warnen!"
