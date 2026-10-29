@@ -12893,3 +12893,615 @@ entries:
   - offset: "0x4897ee"
     name: "PT-19 0x4897ee"
     expected: 'Sinto muito, <0xFD><0x01>. O setor de\nItens-chave da Bolsa está cheio.<0xFB>Guarde algo em seu PC\ne volte para buscar isto.'
+  - offset: "0x4586f8"
+    name: "PT-18 0x4586f8"
+    expected: 'Incrível!\nDá para batalhar assim?<0xFB>'
+  - offset: "0x458724"
+    name: "PT-18 0x458724"
+    expected: 'Você sabe a hora certa de\ntrocar de Pokémon!<0xFB>'
+  - offset: "0x45879c"
+    name: "PT-18 0x45879c"
+    expected: 'Chega de contar piadas!\nMinha barriga dói de rir!<0xFB>'
+  - offset: "0x4587d8"
+    name: "PT-18 0x4587d8"
+    expected: 'Ah?\nIsso aconteceu mesmo.<0xFB>'
+  - offset: "0x4587fc"
+    name: "PT-18 0x4587fc"
+    expected: 'Hum... O quê?\nÉ isso que você quer dizer?<0xFB>'
+  - offset: "0x458828"
+    name: "PT-18 0x458828"
+    expected: 'É mesmo?\nEu não sabia disso.<0xFB>'
+  - offset: "0x45884c"
+    name: "PT-18 0x45884c"
+    expected: 'Ahaha!\nDo que se trata?<0xFB>'
+  - offset: "0x458868"
+    name: "PT-18 0x458868"
+    expected: 'Sim, é isso mesmo!\nFoi o que eu quis dizer.<0xFB>'
+  - offset: "0x458898"
+    name: "PT-18 0x458898"
+    expected: 'Em outras palavras...\nSim! Isso mesmo!<0xFB>'
+  - offset: "0x458918"
+    name: "PT-18 0x458918"
+    expected: 'Espero conhecer você melhor!<0xFB>'
+  - offset: "0x45893c"
+    name: "PT-18 0x45893c"
+    expected: 'Mostramos nossos cartões de\nTreinador para nos conhecer.<0xFB>'
+  - offset: "0x45897c"
+    name: "PT-18 0x45897c"
+    expected: 'Prazer em conhecer você.\nNão suma!<0xFB>'
+  - offset: "0x4589e4"
+    name: "PT-18 0x4589e4"
+    expected: 'Enfim consegui numa troca o\nPokémon que eu tanto queria.<0xFB>'
+  - offset: "0x458a24"
+    name: "PT-18 0x458a24"
+    expected: 'Estou trocando Pokémon agora.<0xFB>'
+  - offset: "0x458a44"
+    name: "PT-18 0x458a44"
+    expected: 'Enfim consegui numa troca\no Pokémon que eu queria!<0xFB>'
+  - offset: "0x458a98"
+    name: "PT-18 0x458a98"
+    expected: '<0xFD><0x02> consultou o\nQUADRO DE TROCAS.<0xFB>'
+  - offset: "0x458ab8"
+    name: "PT-18 0x458ab8"
+    expected: 'Bem-vindo ao QUADRO DE TROCAS.<0xFB>Cadastre seu Pokémon e\nofereça-o para uma troca.<0xFB>Quer cadastrar um dos\nseus Pokémon?'
+  - offset: "0x458b44"
+    name: "PT-18 0x458b44"
+    expected: 'O QUADRO DE TROCAS serve para\noferecer um Pokémon para troca.<0xFB>Basta cadastrar um\nPokémon para troca.<0xFB>Outro Treinador pode oferecer\num Pokémon da equipe em troca.<0xFB>Esperamos que cadastre Pokémon\ne troque com muitos<0xFA>outros Treinadores.<0xFB>Quer cadastrar um dos\nseus Pokémon?'
+  - offset: "0x458cd4"
+    name: "PT-18 0x458cd4"
+    expected: 'Escolha o tipo de Pokémon\nque deseja receber na troca.\n'
+  - offset: "0x458d1c"
+    name: "PT-18 0x458d1c"
+    expected: 'Qual Pokémon da equipe\nvocê vai oferecer na troca?<0xFB>'
+  - offset: "0x458d54"
+    name: "PT-18 0x458d54"
+    expected: 'Cadastro cancelado.<0xFB>'
+  - offset: "0x458d78"
+    name: "PT-18 0x458d78"
+    expected: 'Cadastro concluído.<0xFB>'
+  - offset: "0x458d9c"
+    name: "PT-18 0x458d9c"
+    expected: 'Troca cancelada.<0xFB>'
+  - offset: "0x458dbc"
+    name: "PT-18 0x458dbc"
+    expected: 'Cancelar o cadastro do seu\nNv. <0xFD><0x03> <0xFD><0x02>?'
+  - offset: "0x458de8"
+    name: "PT-18 0x458de8"
+    expected: 'Cancelar o cadastro do seu\nOvo?'
+  - offset: "0x458e10"
+    name: "PT-18 0x458e10"
+    expected: 'O cadastro foi cancelado.<0xFB>'
+  - offset: "0x458e70"
+    name: "PT-18 0x458e70"
+    expected: 'Quer convidar <0xFD><0x02>\npara uma troca?'
+  - offset: "0x458ed0"
+    name: "PT-18 0x458ed0"
+    expected: 'Falta um Pokémon do tipo <0xFD><0x03>\nque <0xFD><0x02> quer.<0xFB>'
+  - offset: "0x458f04"
+    name: "PT-18 0x458f04"
+    expected: 'Você não tem o Ovo que\n<0xFD><0x02> quer.<0xFB>'
+  - offset: "0x458f2c"
+    name: "PT-18 0x458f2c"
+    expected: '<0xFD><0x02> não pode trocar\npelo seu Pokémon agora.<0xFB>'
+  - offset: "0x458f60"
+    name: "PT-18 0x458f60"
+    expected: 'Você não pode trocar pelo\nPokémon de <0xFD><0x02> agora.<0xFB>'
+  - offset: "0x458fbc"
+    name: "PT-18 0x458fbc"
+    expected: 'Troca de Ovos'
+  - offset: "0x458fc6"
+    name: "PT-18 0x458fc6"
+    expected: '<0xF8><0x0A>Escolher  <0xF8><0x00>Entrar  <0xF8><0x01>Cancelar'
+  - offset: "0x458fe4"
+    name: "PT-18 0x458fe4"
+    expected: 'Escolha um Treinador.'
+  - offset: "0x459000"
+    name: "PT-18 0x459000"
+    expected: 'Escolha um Treinador para\numa Batalha Individual.'
+  - offset: "0x459030"
+    name: "PT-18 0x459030"
+    expected: 'Escolha um Treinador para\numa Batalha Dupla.'
+  - offset: "0x459060"
+    name: "PT-18 0x459060"
+    expected: 'Escolha o líder para\numa Batalha Múltipla.'
+  - offset: "0x459090"
+    name: "PT-18 0x459090"
+    expected: 'Escolha o Treinador com\nquem deseja trocar.'
+  - offset: "0x4590bc"
+    name: "PT-18 0x4590bc"
+    expected: 'Escolha quem está enviando\nWonder Cards.'
+  - offset: "0x4590f4"
+    name: "PT-18 0x4590f4"
+    expected: 'Escolha quem está enviando\nWonder News.'
+  - offset: "0x45912c"
+    name: "PT-18 0x45912c"
+    expected: 'Pule com mini Pokémon!\nEscolha o líder.'
+  - offset: "0x459160"
+    name: "PT-18 0x459160"
+    expected: 'Berry Crush!\nEscolha o líder.'
+  - offset: "0x459188"
+    name: "PT-18 0x459188"
+    expected: 'Dodrio Berry-Picking!\nEscolha o líder.'
+  - offset: "0x459235"
+    name: "PT-18 0x459235"
+    expected: 'Aguardando resposta de <0xFD><0x02>...'
+  - offset: "0x459250"
+    name: "PT-18 0x459250"
+    expected: '<0xFD><0x02> recebeu seu pedido\nde adesão. Aguarde.'
+  - offset: "0x45928c"
+    name: "PT-18 0x45928c"
+    expected: 'Aguardando resposta do\nsistema de comunicação sem fio.'
+  - offset: "0x4592e8"
+    name: "PT-18 0x4592e8"
+    expected: 'Ninguém está enviando\ncartões agora.'
+  - offset: "0x459314"
+    name: "PT-18 0x459314"
+    expected: 'Ninguém está enviando\nnotícias agora.'
+  - offset: "0x45934b"
+    name: "PT-18 0x45934b"
+    expected: 'Conversa'
+  - offset: "0x459351"
+    name: "PT-18 0x459351"
+    expected: 'Saudações'
+  - offset: "0x45935e"
+    name: "PT-18 0x45935e"
+    expected: 'Sair'
+  - offset: "0x459365"
+    name: "PT-18 0x459365"
+    expected: 'Sair'
+  - offset: "0x45936d"
+    name: "PT-18 0x45936d"
+    expected: 'Info'
+  - offset: "0x459378"
+    name: "PT-18 0x459378"
+    expected: 'Nome<0xFC><0x13><0x3C>Busca<0xFC><0x13><0x6E>Oferta<0xFC><0x13><0xC6>Nv.'
+  - offset: "0x459394"
+    name: "PT-18 0x459394"
+    expected: 'Batalha Individual'
+  - offset: "0x4593a2"
+    name: "PT-18 0x4593a2"
+    expected: 'Batalha Dupla'
+  - offset: "0x4593b2"
+    name: "PT-18 0x4593b2"
+    expected: 'Batalha Múltipla'
+  - offset: "0x4593c1"
+    name: "PT-18 0x4593c1"
+    expected: 'Trocas Pokémon'
+  - offset: "0x4593d3"
+    name: "PT-18 0x4593d3"
+    expected: 'Conversa'
+  - offset: "0x4593d9"
+    name: "PT-18 0x4593d9"
+    expected: 'Cartões'
+  - offset: "0x4593e2"
+    name: "PT-18 0x4593e2"
+    expected: 'Wonder Cards'
+  - offset: "0x4593f1"
+    name: "PT-18 0x4593f1"
+    expected: 'Wonder News'
+  - offset: "0x459400"
+    name: "PT-18 0x459400"
+    expected: 'Pokémon Jump'
+  - offset: "0x45940d"
+    name: "PT-18 0x45940d"
+    expected: 'Berry Crush'
+  - offset: "0x45942a"
+    name: "PT-18 0x45942a"
+    expected: 'Buscar'
+  - offset: "0x45944c"
+    name: "PT-18 0x45944c"
+    expected: 'É um cartão normal.'
+  - offset: "0x459460"
+    name: "PT-18 0x459460"
+    expected: 'É um cartão de bronze!'
+  - offset: "0x459474"
+    name: "PT-18 0x459474"
+    expected: 'É um cartão de cobre!'
+  - offset: "0x459488"
+    name: "PT-18 0x459488"
+    expected: 'É um cartão de prata!'
+  - offset: "0x45949c"
+    name: "PT-18 0x45949c"
+    expected: 'É um cartão de ouro!'
+  - offset: "0x459544"
+    name: "PT-18 0x459544"
+    expected: '<0xF7><0x01>: Foi bom conhecer você!<0xFC><0x08><0x3C>'
+  - offset: "0x459564"
+    name: "PT-18 0x459564"
+    expected: '<0xF7><0x01>: Prazer em conhecer você!<0xFC><0x08><0x3C>'
+  - offset: "0x4595b0"
+    name: "PT-18 0x4595b0"
+    expected: 'Leitura do cartão cancelada.'
+  - offset: "0x463dbc"
+    name: "PT-18 0x463dbc"
+    expected: 'Hardy'
+  - offset: "0x463dc2"
+    name: "PT-18 0x463dc2"
+    expected: 'Lonely'
+  - offset: "0x463dc9"
+    name: "PT-18 0x463dc9"
+    expected: 'Brave'
+  - offset: "0x463dcf"
+    name: "PT-18 0x463dcf"
+    expected: 'Adamant'
+  - offset: "0x463dd7"
+    name: "PT-18 0x463dd7"
+    expected: 'Naughty'
+  - offset: "0x463ddf"
+    name: "PT-18 0x463ddf"
+    expected: 'Bold'
+  - offset: "0x463de4"
+    name: "PT-18 0x463de4"
+    expected: 'Docile'
+  - offset: "0x463deb"
+    name: "PT-18 0x463deb"
+    expected: 'Relaxed'
+  - offset: "0x463df3"
+    name: "PT-18 0x463df3"
+    expected: 'Impish'
+  - offset: "0x463dfa"
+    name: "PT-18 0x463dfa"
+    expected: 'Lax'
+  - offset: "0x463dfe"
+    name: "PT-18 0x463dfe"
+    expected: 'Timid'
+  - offset: "0x463e04"
+    name: "PT-18 0x463e04"
+    expected: 'Hasty'
+  - offset: "0x463e0a"
+    name: "PT-18 0x463e0a"
+    expected: 'Serious'
+  - offset: "0x463e12"
+    name: "PT-18 0x463e12"
+    expected: 'Jolly'
+  - offset: "0x463e18"
+    name: "PT-18 0x463e18"
+    expected: 'Naive'
+  - offset: "0x463e1e"
+    name: "PT-18 0x463e1e"
+    expected: 'Modest'
+  - offset: "0x463e25"
+    name: "PT-18 0x463e25"
+    expected: 'Mild'
+  - offset: "0x463e2a"
+    name: "PT-18 0x463e2a"
+    expected: 'Quiet'
+  - offset: "0x463e30"
+    name: "PT-18 0x463e30"
+    expected: 'Bashful'
+  - offset: "0x463e38"
+    name: "PT-18 0x463e38"
+    expected: 'Rash'
+  - offset: "0x463e3d"
+    name: "PT-18 0x463e3d"
+    expected: 'Calm'
+  - offset: "0x463e42"
+    name: "PT-18 0x463e42"
+    expected: 'Gentle'
+  - offset: "0x463e49"
+    name: "PT-18 0x463e49"
+    expected: 'Sassy'
+  - offset: "0x463e4f"
+    name: "PT-18 0x463e4f"
+    expected: 'Careful'
+  - offset: "0x463e57"
+    name: "PT-18 0x463e57"
+    expected: 'Quirky'
+  - offset: "0x475638"
+    name: "PT-18 0x475638"
+    expected: 'ABCDEFG'
+  - offset: "0x47aac1"
+    name: "PT-18 0x47aac1"
+    expected: 'ABCDE'
+  - offset: "0x47aac7"
+    name: "PT-18 0x47aac7"
+    expected: 'FGHIJ'
+  - offset: "0x47aacd"
+    name: "PT-18 0x47aacd"
+    expected: 'KLMNO'
+  - offset: "0x47aad3"
+    name: "PT-18 0x47aad3"
+    expected: 'PQRST'
+  - offset: "0x47aad9"
+    name: "PT-18 0x47aad9"
+    expected: 'UVWXY'
+  - offset: "0x47aafd"
+    name: "PT-18 0x47aafd"
+    expected: 'abcde'
+  - offset: "0x47ab03"
+    name: "PT-18 0x47ab03"
+    expected: 'fghij'
+  - offset: "0x47ab09"
+    name: "PT-18 0x47ab09"
+    expected: 'klmno'
+  - offset: "0x47ab0f"
+    name: "PT-18 0x47ab0f"
+    expected: 'pqrst'
+  - offset: "0x47ab15"
+    name: "PT-18 0x47ab15"
+    expected: 'uvwxy'
+  - offset: "0x482834"
+    name: "PT-18 0x482834"
+    expected: 'Ataque físico com\numa cauda longa ou\numa pata dianteira,\npor exemplo.'
+  - offset: "0x482874"
+    name: "PT-18 0x482874"
+    expected: 'Atinge o alvo com\num golpe cortante.\nTem alta chance\nde acerto crítico.'
+  - offset: "0x4828bd"
+    name: "PT-18 0x4828bd"
+    expected: 'Dá tapas no\nalvo de duas\na cinco vezes\nseguidas.'
+  - offset: "0x4828ff"
+    name: "PT-18 0x4828ff"
+    expected: 'Atinge o alvo\ncom uma série\nde dois a\ncinco socos.'
+  - offset: "0x482946"
+    name: "PT-18 0x482946"
+    expected: 'Atinge o alvo\ncom um soco\nde enorme\nforça muscular.'
+  - offset: "0x482985"
+    name: "PT-18 0x482985"
+    expected: 'Lança várias moedas\nno alvo. Você\nganha dinheiro\napós a batalha.'
+  - offset: "0x4829c9"
+    name: "PT-18 0x4829c9"
+    expected: 'Atinge o alvo\ncom um punho\nem chamas. Pode\ncausar queimadura.'
+  - offset: "0x482a53"
+    name: "PT-18 0x482a53"
+    expected: 'Atinge o alvo\ncom um punho\nelétrico. Pode\nparalisar o alvo.'
+  - offset: "0x482aa0"
+    name: "PT-18 0x482aa0"
+    expected: 'Arranha o alvo\ncom garras duras,\npontudas e afiadas.'
+  - offset: "0x482acd"
+    name: "PT-18 0x482acd"
+    expected: 'Pinças enormes e\npoderosas agarram\ne apertam o alvo.'
+  - offset: "0x482b00"
+    name: "PT-18 0x482b00"
+    expected: 'Ataque feroz\ncom pinças.\nSe acertar,\nnocauteia o alvo.'
+  - offset: "0x482b46"
+    name: "PT-18 0x482b46"
+    expected: 'Lâminas de vento\natingem no 2º\nturno. Alta chance\nde acerto crítico.'
+  - offset: "0x482b94"
+    name: "PT-18 0x482b94"
+    expected: 'Uma dança\nfrenética de\nluta aumenta\nmuito o Ataque.'
+  - offset: "0x482bd5"
+    name: "PT-18 0x482bd5"
+    expected: 'Ataque básico.\nPode cortar\nárvores finas\ne grama.'
+  - offset: "0x482c16"
+    name: "PT-18 0x482c16"
+    expected: 'Atinge o alvo\ncom uma rajada\nde vento criada\npelas asas.'
+  - offset: "0x482c4f"
+    name: "PT-18 0x482c4f"
+    expected: 'Atinge o alvo\ncom grandes\nasas abertas.'
+  - offset: "0x482c89"
+    name: "PT-18 0x482c89"
+    expected: 'Faz o alvo trocar\ncom um aliado.\nEncerra batalhas\nselvagens.'
+  - offset: "0x482cd3"
+    name: "PT-18 0x482cd3"
+    expected: 'Ataca no 2º\nturno. Permite\nvoar para cidades\nconhecidas.'
+  - offset: "0x482d1d"
+    name: "PT-18 0x482d1d"
+    expected: 'Um corpo longo ou\ntentáculos prendem\no alvo por dois\na cinco turnos.'
+  - offset: "0x482d66"
+    name: "PT-18 0x482d66"
+    expected: 'Atinge o alvo\ncom uma cauda\nlonga, cipós, etc.'
+  - offset: "0x482d96"
+    name: "PT-18 0x482d96"
+    expected: 'Atinge o alvo\ncom cipós finos\ncomo chicotes.'
+  - offset: "0x482dc8"
+    name: "PT-18 0x482dc8"
+    expected: 'Pisoteia o\nalvo com um pé\ngrande. Pode\nfazê-lo hesitar.'
+  - offset: "0x482e08"
+    name: "PT-18 0x482e08"
+    expected: 'Dá dois chutes\nrápidos com\nambas as pernas\nno mesmo turno.'
+  - offset: "0x482e45"
+    name: "PT-18 0x482e45"
+    expected: 'Atinge o alvo\ncom um chute\nde enorme\nforça muscular.'
+  - offset: "0x482e83"
+    name: "PT-18 0x482e83"
+    expected: 'Salta alto\ne chuta. Se\nerrar, o usuário\nse machuca.'
+  - offset: "0x482ecc"
+    name: "PT-18 0x482ecc"
+    expected: 'Dá um chute\nrápido girando o\ncorpo. Pode fazer\no alvo hesitar.'
+  - offset: "0x482f0a"
+    name: "PT-18 0x482f0a"
+    expected: 'Joga areia no\nrosto do alvo\npara reduzir\nsua precisão.'
+  - offset: "0x482f4c"
+    name: "PT-18 0x482f4c"
+    expected: 'Ataca com\numa cabeçada.\nPode fazer o\nalvo hesitar.'
+  - offset: "0x482f8f"
+    name: "PT-18 0x482f8f"
+    expected: 'Espeta o alvo\ncom um chifre\npontudo para\ncausar dano.'
+  - offset: "0x482fd0"
+    name: "PT-18 0x482fd0"
+    expected: 'Espeta o alvo\ncom bico ou\nchifre de duas\na cinco vezes.'
+  - offset: "0x483014"
+    name: "PT-18 0x483014"
+    expected: 'Gira o chifre\ncomo uma broca.\nSe acertar,\nnocauteia o alvo.'
+  - offset: "0x48305c"
+    name: "PT-18 0x48305c"
+    expected: 'Ataque físico em que\no usuário investe\ncontra o alvo com\ntodo o corpo.'
+  - offset: "0x4830a2"
+    name: "PT-18 0x4830a2"
+    expected: 'Joga todo o\npeso sobre o\nalvo. Pode\nparalisá-lo.'
+  - offset: "0x4830eb"
+    name: "PT-18 0x4830eb"
+    expected: 'Um corpo longo\nou cipós enrolam\no alvo por dois\na cinco turnos.'
+  - offset: "0x483130"
+    name: "PT-18 0x483130"
+    expected: 'Investida imprudente\ncom todo o corpo.\nTambém fere um\npouco o usuário.'
+  - offset: "0x483178"
+    name: "PT-18 0x483178"
+    expected: 'Ataca por\ndois a três\nturnos e depois\nfica confuso.'
+  - offset: "0x4831bf"
+    name: "PT-18 0x4831bf"
+    expected: 'Investida\narriscada que\ntambém fere um\npouco o usuário.'
+  - offset: "0x483203"
+    name: "PT-18 0x483203"
+    expected: 'Abana a cauda\nde forma fofa,\nreduzindo a\nDefesa do alvo.'
+  - offset: "0x483249"
+    name: "PT-18 0x483249"
+    expected: 'Espeta o alvo\ncom um ferrão\ntóxico. Pode\nenvenená-lo.'
+  - offset: "0x48328b"
+    name: "PT-18 0x48328b"
+    expected: 'Dá duas ferroadas\nno alvo com as\npatas dianteiras.\nPode envenenar.'
+  - offset: "0x4832d2"
+    name: "PT-18 0x4832d2"
+    expected: 'Dispara espinhos\nafiados no\nalvo de duas\na cinco vezes.'
+  - offset: "0x483314"
+    name: "PT-18 0x483314"
+    expected: 'Um olhar\nintimidador\nreduz a Defesa\ndo alvo.'
+  - offset: "0x483358"
+    name: "PT-18 0x483358"
+    expected: 'Morde com\npresas cruéis.\nPode fazer o\nalvo hesitar.'
+  - offset: "0x483397"
+    name: "PT-18 0x483397"
+    expected: 'Rosna de\nforma fofa\npara reduzir o\nAtaque do alvo.'
+  - offset: "0x4833dc"
+    name: "PT-18 0x4833dc"
+    expected: 'Faz o alvo trocar\ncom um aliado.\nEncerra batalhas\nselvagens.'
+  - offset: "0x483426"
+    name: "PT-18 0x483426"
+    expected: 'Uma canção\nsuave embala\no alvo num\nsono profundo.'
+  - offset: "0x48346c"
+    name: "PT-18 0x48346c"
+    expected: 'Emite ondas\nsonoras estranhas.\nPode confundir\no alvo.'
+  - offset: "0x4834a8"
+    name: "PT-18 0x4834a8"
+    expected: 'Uma onda de\nchoque que\nsempre causa\n20 PS de dano.'
+  - offset: "0x4834ed"
+    name: "PT-18 0x4834ed"
+    expected: 'Impede por alguns\nturnos que o\nalvo use seu\núltimo movimento.'
+  - offset: "0x483534"
+    name: "PT-18 0x483534"
+    expected: 'Borrifa um ácido\nforte que derrete\na pele e pode\nreduzir a Defesa.'
+  - offset: "0x483580"
+    name: "PT-18 0x483580"
+    expected: 'Ataca o alvo\ncom pequenas\nchamas. Pode\ncausar queimadura.'
+  - offset: "0x4835c2"
+    name: "PT-18 0x4835c2"
+    expected: 'Queima o alvo\ncom chamas\nintensas. Pode\ncausar queimadura.'
+  - offset: "0x483606"
+    name: "PT-18 0x483606"
+    expected: 'Protege a equipe\ncom uma névoa que\nimpede reduções\nde estatísticas.'
+  - offset: "0x48364b"
+    name: "PT-18 0x48364b"
+    expected: 'Atinge o alvo\ncom muita água\nexpelida com\nforça pela boca.'
+  - offset: "0x483693"
+    name: "PT-18 0x483693"
+    expected: 'Dispara muita\nágua contra\no alvo sob\ngrande pressão.'
+  - offset: "0x4836d6"
+    name: "PT-18 0x4836d6"
+    expected: 'Uma grande\nonda atinge o\nalvo. Permite\natravessar a água.'
+  - offset: "0x4837a1"
+    name: "PT-18 0x4837a1"
+    expected: 'Dispara um\nraio peculiar\nno alvo. Pode\ndeixá-lo confuso.'
+  - offset: "0x4837e3"
+    name: "PT-18 0x4837e3"
+    expected: 'Atinge o alvo\ncom bolhas.\nPode reduzir\nsua Velocidade.'
+  - offset: "0x48382a"
+    name: "PT-18 0x48382a"
+    expected: 'Um raio colorido\natinge o alvo.\nPode reduzir\nseu Ataque.'
+  - offset: "0x48386d"
+    name: "PT-18 0x48386d"
+    expected: 'Ataque muito\nforte. O usuário\nprecisa descansar\nno turno seguinte.'
+  - offset: "0x4838b3"
+    name: "PT-18 0x4838b3"
+    expected: 'Espeta o alvo\ncom um bico\nou chifre\npontudo.'
+  - offset: "0x4838ea"
+    name: "PT-18 0x4838ea"
+    expected: 'Um ataque\ngiratório com\no bico afiado\ncomo uma broca.'
+  - offset: "0x483927"
+    name: "PT-18 0x483927"
+    expected: 'Arremesso imprudente\ncom todo o corpo.\nTambém fere um\npouco o usuário.'
+  - offset: "0x48396e"
+    name: "PT-18 0x48396e"
+    expected: 'Chute rasteiro\nque causa mais\ndano em alvos\nmais pesados.'
+  - offset: "0x4839ae"
+    name: "PT-18 0x4839ae"
+    expected: 'Responde a um\ngolpe físico\ncom o dobro do\ndano recebido.'
+  - offset: "0x4839f8"
+    name: "PT-18 0x4839f8"
+    expected: 'Um arremesso\nque causa dano\nigual ao nível\ndo usuário.'
+  - offset: "0x483a3a"
+    name: "PT-18 0x483a3a"
+    expected: 'Atinge o alvo\ncom força\nmáxima. Permite\nmover rochedos.'
+  - offset: "0x483a82"
+    name: "PT-18 0x483a82"
+    expected: 'Restaura PS\nabsorvendo\nmetade do\ndano causado.'
+  - offset: "0x483ac5"
+    name: "PT-18 0x483ac5"
+    expected: 'Ataque forte\nque restaura PS\nabsorvendo metade\ndo dano causado.'
+  - offset: "0x483b0c"
+    name: "PT-18 0x483b0c"
+    expected: 'Planta uma semente\nno alvo para roubar\nPS para o usuário\na cada turno.'
+  - offset: "0x483b94"
+    name: "PT-18 0x483b94"
+    expected: 'Atinge com uma\nfolha cortante.\nAlta chance de\nacerto crítico.'
+  - offset: "0x483bda"
+    name: "PT-18 0x483bda"
+    expected: 'Absorve energia\nno 1º turno e\natinge o alvo\nno 2º turno.'
+  - offset: "0x483c22"
+    name: "PT-18 0x483c22"
+    expected: 'Espalha uma\nnuvem de pó\ntóxico. Pode\nenvenenar o alvo.'
+  - offset: "0x483c5d"
+    name: "PT-18 0x483c5d"
+    expected: 'Espalha muito\npó paralisante.\nPode paralisar\no alvo.'
+  - offset: "0x483c9b"
+    name: "PT-18 0x483c9b"
+    expected: 'Espalha muito\npó sonífero ao\nredor do alvo\npara adormecê-lo.'
+  - offset: "0x483cdb"
+    name: "PT-18 0x483cdb"
+    expected: 'Ataca com pétalas\npor dois a três\nturnos e depois\nfica confuso.'
+  - offset: "0x483d24"
+    name: "PT-18 0x483d24"
+    expected: 'Prende o alvo com\nfios lançados pela\nboca para reduzir\nsua Velocidade.'
+  - offset: "0x483d6b"
+    name: "PT-18 0x483d6b"
+    expected: 'Uma onda de\nchoque que\nsempre causa\n40 PS de dano.'
+  - offset: "0x483db0"
+    name: "PT-18 0x483db0"
+    expected: 'Prende o alvo num\nintenso redemoinho\nde fogo por dois\na cinco turnos.'
+  - offset: "0x483dfe"
+    name: "PT-18 0x483dfe"
+    expected: 'Um choque\nelétrico que\ntambém pode\nparalisar o alvo.'
+  - offset: "0x483e3e"
+    name: "PT-18 0x483e3e"
+    expected: 'Um forte ataque\nelétrico que\ntambém pode\nparalisar o alvo.'
+  - offset: "0x483e80"
+    name: "PT-18 0x483e80"
+    expected: 'Um choque fraco\nque sempre\nparalisa o alvo\nse acertar.'
+  - offset: "0x483ec2"
+    name: "PT-18 0x483ec2"
+    expected: 'Um relâmpago\nbrutal que\ntambém pode\nparalisar o alvo.'
+  - offset: "0x483f03"
+    name: "PT-18 0x483f03"
+    expected: 'Ataca o alvo com\nvárias pedras\npequenas e fáceis\nde arremessar.'
+  - offset: "0x483f44"
+    name: "PT-18 0x483f44"
+    expected: 'Um terremoto\natinge todos os\nPokémon em batalha,\nexceto o usuário.'
+  - offset: "0x483f89"
+    name: "PT-18 0x483f89"
+    expected: 'Joga o alvo\nnuma fissura.\nSe acertar,\nnocauteia o alvo.'
+  - offset: "0x483fc7"
+    name: "PT-18 0x483fc7"
+    expected: 'Ataca no 2º turno.\nPermite sair de\ncavernas e locais\nsemelhantes.'
+  - offset: "0x48400f"
+    name: "PT-18 0x48400f"
+    expected: 'Envenena muito o\nalvo. O dano do\nveneno aumenta\na cada turno.'
+  - offset: "0x484058"
+    name: "PT-18 0x484058"
+    expected: 'Um fraco ataque\ntelecinético que\npode deixar o\nalvo confuso.'
+  - offset: "0x484098"
+    name: "PT-18 0x484098"
+    expected: 'Um forte ataque\ntelecinético que pode\nreduzir a Defesa\nEspecial do alvo.'
+  - offset: "0x4840df"
+    name: "PT-18 0x4840df"
+    expected: 'Uma sugestão\nhipnótica faz o\nalvo cair num\nsono profundo.'
+  - offset: "0x484123"
+    name: "PT-18 0x484123"
+    expected: 'Medita para\ndespertar seu\npoder e aumentar\nseu Ataque.'
+  - offset: "0x484165"
+    name: "PT-18 0x484165"
+    expected: 'Relaxa e alivia\no peso do corpo\npara aumentar\nmuito a Velocidade.'
+  - offset: "0x4841a8"
+    name: "PT-18 0x4841a8"
+    expected: 'Ataque tão\nveloz que mal\nse vê. Sempre\nataca primeiro.'
+  - offset: "0x4841e9"
+    name: "PT-18 0x4841e9"
+    expected: 'O ataque fica\nmais forte a cada\ngolpe recebido\nem batalha.'
