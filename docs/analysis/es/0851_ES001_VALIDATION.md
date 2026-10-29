@@ -23,10 +23,11 @@ propres du hack suivent D-849, dont Maxima, Galavan, Mel et Ruins of Void.
 Les ressemblances de pointeurs dans des données ne sont pas toutes des
 consommateurs. Les textes concernés restent dans leur budget de préimage ;
 le test ROM vérifie explicitement que les sites suspects restent intacts.
+Le test rapide interdit aussi qu'une traduction concernée dépasse sa préimage.
 Deux occurrences de 0x180300 sont contenues dans des blocs LZ77 valides à
 0x16C78DC (818 octets comprimés) et 0x176E300 (892 octets comprimés).
 
-Le test unitaire ES-002 possède désormais son propre contrat figé de quatre
+Le test unitaire ES-002 possède désormais son propre contrat figé de cinq
 préimages, correspondant exactement à ses slices ROM. Un test supplémentaire
 vérifie leur identité avec les données de production, sans interdire
 l’extension du contrat par d’autres lots.
@@ -69,6 +70,11 @@ La sonde native déclenche les 349 textes de script sur une copie temporaire,
 capture chaque première page et vérifie des surfaces représentatives par OCR.
 Les trois progressions FA/FB choisies doivent afficher les mots de la suite.
 Aucune sauvegarde en jeu.
+
+Un contrôle complémentaire remplace les buffers de noms par dix `W`, les
+compteurs et tailles numériques par la borne décimale uint32 et les trois
+composantes du chronomètre par cinq chiffres. Les formulations sont bornées
+à 192 pixels dans ces cas ; cela ne remplace pas une expansion en jeu réel.
 
 ## Non vérifié
 

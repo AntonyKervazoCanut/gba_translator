@@ -2571,7 +2571,7 @@ entries:
   expected: Vaya, tío<0xB0><0xFB>¡Me he gastado todo el dinero\nen el Casino!<0xFB>¡Parece que ya no voy a\nnecesitar esto!
 - offset: '0x00197a38'
   name: 'ES-001 : 0x00197A38'
-  expected: <0xFD><0x01> ha recibido un Monedero\ndel chico.
+  expected: <0xFD><0x01> recibió un Monedero\ndel chico.
 - offset: '0x00197a5e'
   name: 'ES-001 : 0x00197A5E'
   expected: ¡Haz sitio para esto!
@@ -2619,7 +2619,7 @@ entries:
   expected: ¿Qué movimiento debe olvidar?
 - offset: '0x00199465'
   name: 'ES-001 : 0x00199465'
-  expected: Parece que <0xFD><0x02> solo conoce\nun movimiento<0xB0>
+  expected: Parece que <0xFD><0x02> conoce\nun solo movimiento<0xB0>
 - offset: '0x00199485'
   name: 'ES-001 : 0x00199485'
   expected: ¿<0xFD><0x02> debe olvidar\n<0xFD><0x03>?
@@ -2685,7 +2685,7 @@ entries:
   expected: ¿Te has enterado?<0xFB>¡Alguien se ha encargado de los\nalborotadores de la Ruta 9!
 - offset: '0x0019e9e5'
   name: 'ES-001 : 0x0019E9E5'
-  expected: ¡Hola!\nSoy <0xFC><0x01><0x06>ayudante del Profesor Log<0xFC><0x01><0x04>.<0xFB>Si tu Pokédex tiene los datos\nde <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> especies, debo darte<0xFA>una recompensa.<0xFB>Así que dime, <0xFD><0x01>.<0xFB>¿Has reunido datos de al menos<0xFC><0x01><0x06>\n<0xFD><0x02><0xFC><0x01><0x04> especies de Pokémon?
+  expected: ¡Hola!\nSoy <0xFC><0x01><0x06>ayudante del Profesor Log<0xFC><0x01><0x04>.<0xFB>Si tu Pokédex tiene los datos\nde <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> especies, debo<0xFA>darte una recompensa.<0xFB>Así que dime, <0xFD><0x01>.<0xFB>¿Has reunido datos de al menos<0xFC><0x01><0x06>\n<0xFD><0x02><0xFC><0x01><0x04> especies de Pokémon?
 - offset: '0x0019eae4'
   name: 'ES-001 : 0x0019EAE4'
   expected: ¡Genial! ¡Has atrapado <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04>\nespecies de Pokémon!<0xFB>¡Enhorabuena!\n¡Aquí tienes!
@@ -2724,7 +2724,7 @@ entries:
   expected: ¿Eh?\n¿<0xFD><0x03> pulgadas?<0xFB>Es del mismo tamaño que\nel que vi antes.
 - offset: '0x0019f40a'
   name: 'ES-001 : 0x0019F40A'
-  expected: Mmm<0xB0>\nEste mide <0xFD><0x03> pulgadas.<0xFB>No llega a las <0xFD><0x04> pulgadas\ndel que trajiste antes.
+  expected: Mmm<0xB0>\nEste mide <0xFD><0x03> pulgadas.<0xFB>No llega al tamaño del anterior:\n<0xFD><0x04> pulgadas.
 - offset: '0x0019f468'
   name: 'ES-001 : 0x0019F468'
   expected: Eh<0xB0> Eso no se parece mucho\na un Magikarp.

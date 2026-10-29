@@ -42,6 +42,11 @@ def test_all_translations_keep_commands_arguments_and_two_line_windows():
         raw = TextEncoder.encode_pokemon(normalized['translation'], skip_aliases=SPANISH_GLYPH_CHARS)
         assert raw.hex() == entry['encoded_hex']
         assert len(raw) <= 512
+        if entry['offset'] in {'0x0017D866', '0x00180300', '0x00185606',
+                               '0x00188119', '0x00188555', '0x00196D87'}:
+            # Une croissance pourrait déplacer une ressemblance de pointeur
+            # dans des données : ces textes doivent tenir dans la préimage.
+            assert len(raw) <= len(bytes.fromhex(entry['raw_hex']))
         for page in value.split('<0xFB>'):
             segments = page.split('<0xFA>')
             assert len(segments[0].split('\n')) <= 2
@@ -50,4 +55,21 @@ def test_all_translations_keep_commands_arguments_and_two_line_windows():
             # Numeric min/seconds buffers, bounded to three digits each;
             # the general name-buffer estimate (54 px each) is inapplicable.
             value = re.sub(r'<0xFD><0x0[234]>', '999', value)
+        assert all(line_width(line) <= 192 for line in re.split(r'\n|<0xF[AB]>', value)), entry['offset']
+
+
+def test_named_buffers_fit_ten_wide_glyphs_and_numbers_fit_uint32():
+    rows = json.loads((ROOT / 'docs/analysis/es/0851_ES001_TRAITEMENT.json').read_text())['entries']
+    numeric = {'0x0019E9E5': ('02',), '0x0019EAE4': ('04',),
+               '0x0019F31B': ('03',), '0x0019F3CB': ('03',),
+               '0x0019F40A': ('03', '04'), '0x0019F4CF': ('04',)}
+    for entry in rows:
+        if entry['decision'] != 'traduit_depuis_en':
+            continue
+        value = entry['translation'].replace(r'\n', '\n')
+        if entry['offset'] == '0x0017CC56':
+            value = re.sub(r'<0xFD><0x0[234]>', '99999', value)
+        for code in numeric.get(entry['offset'], ()):
+            value = value.replace(f'<0xFD><0x{code}>', '4294967295')
+        value = re.sub(r'<0xFD><0x[0-9A-F]{2}>', 'W' * 10, value)
         assert all(line_width(line) <= 192 for line in re.split(r'\n|<0xF[AB]>', value)), entry['offset']

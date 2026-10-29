@@ -12,17 +12,29 @@ ROOT = Path(__file__).resolve().parents[3]
 pytestmark = [pytest.mark.rom, pytest.mark.slow]
 
 
-def test_es001_real_pipeline_and_exact_write_ranges(tmp_path):
+def test_es001_real_pipeline_and_exact_write_ranges(tmp_path, monkeypatch):
     from dataclasses import replace
 
     report = json.loads((ROOT / 'docs/analysis/es/0851_ES001_TRAITEMENT.json').read_text())
     source = driver.ENGLISH_ROM.read_bytes()
-    config = replace(driver.load_registry().get('es-maint'), output_rom=str(tmp_path / 'es001.gba'))
-    ready = driver.generate_translation_json(config)
+    selected = [e for e in report['entries'] if e['decision'] == 'traduit_depuis_en']
+    combined = tmp_path / 'combined.txt'
+    combined.write_text(''.join(e['offset'] + ': ' + e['translation'].replace('\n', r'\n') + '\n'
+                                for e in selected))
+    original_config = driver.load_registry().get('es-maint')
+    config = replace(original_config, output_rom=str(tmp_path / 'es001.gba'),
+                     combined=str(combined),
+                     text_aliases=str(ROOT / original_config.text_aliases),
+                     system_texts=str(ROOT / original_config.system_texts),
+                     item_descriptions=str(ROOT / original_config.item_descriptions))
+    with monkeypatch.context() as patch:
+        patch.setattr(driver, 'REPO_ROOT', tmp_path)
+        patch.setattr(driver, 'TRANSLATION_DIR', tmp_path / 'output/translation')
+        ready = driver.generate_translation_json(config)
     items = json.loads(ready.read_text())['translations']
     by_key = {e.get('contract_offset', e['offset']): e for e in items}
-    selected = [e for e in report['entries'] if e['decision'] == 'traduit_depuis_en']
     assert len(selected) == 350
+    assert len(items) == 350
     assert all(int(e['offset'], 16) in by_key for e in selected)
     output = driver.build_rom(config, ready)
     built = output.read_bytes()
@@ -44,12 +56,15 @@ def test_es001_real_pipeline_and_exact_write_ranges(tmp_path):
     assert output.read_bytes() == built
     driver.apply_patches(config, output, ready, build_number=0)
     final = output.read_bytes()
+    production = original_config.output_rom_path(ROOT).read_bytes()
     for entry in selected:
         expected = bytes.fromhex(entry['encoded_hex'])
         for site_hex in entry['pointers']:
             site = int(site_hex, 16)
             target = int.from_bytes(final[site:site+4], 'little') - 0x08000000
             assert final[target:target+len(expected)] == expected, (entry['offset'], site_hex)
+            production_target = int.from_bytes(production[site:site+4], 'little') - 0x08000000
+            assert production[production_target:production_target+len(expected)] == expected
         key = int(entry['offset'], 16)
         if key != int(entry['live_offset'], 16):
             assert final[key] == source[key] == 0xAA

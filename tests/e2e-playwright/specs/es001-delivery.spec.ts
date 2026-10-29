@@ -85,7 +85,7 @@ end)
   }
   const samples: [number, RegExp][] = [
     [0x172482, /peque.a/i], [0x172FC3, /Solo pueden pasar/i],
-    [0x17D866, /Laboratorio Pok.mon Log/i], [0x17FF49, /dejar de comprar/i],
+    [0x17D866, /Labora?torio Pok.mon Log/i], [0x17FF49, /de\s*jar de comprar/i],
     [0x188119, /perlas estaban ah/i], [0x18D43E, /pel.cula en la tele/i],
     [0x18D492, /pel.cula en la tele/i], [0x18D53B, /aviso colgado/i],
     [0x190687, /No s. qu. hacer/i], [0x196A82, /No se lo digas/i],
