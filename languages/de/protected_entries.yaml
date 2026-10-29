@@ -98,7 +98,7 @@ entries:
   - Okay!\nI'm going to get all fired up!
 - offset: '0x1f478ee'
   name: 'B-680 : dialogue qualifié'
-  expected: 'Mann<0xB0> warum habe ich mir\nüberhaupt Sorgen gemacht?\lNatürlich bist du bereit!'
+  expected: 'Mann, wozu die Sorgen? Natürlich\nbist du bereit!'
 - offset: '0x1F479B7'
   name: 'Ace : ascension rapide du Pic Cristal'
   expected: Lass uns so schnell wie möglich\nden Gipfel erreichen.\pUnterwegs heile ich deine Pokémon.
@@ -10732,7 +10732,7 @@ entries:
   expected: 'Hehe…<0xFC><0x08><0x20> Ich kann dir wohl immer\nnoch nicht das Wasser reichen.\pDas ist…<0xFC><0x08><0x18> okay.\pIch kann also noch stärker\nwerden.\pUnd das werde ich.\pIch werde stark. Stärker als\nalle anderen!\pBei unserem nächsten\nTreffen wirst du sicher\lverlieren, <0xFD><0x01>!\pJetzt entschuldige mich, ich\nhabe Wichtiges zu tun.'
 - offset: '0x1f3403c'
   name: 'B-680 : dialogue qualifié'
-  expected: 'Stell dich mit einem Pokémon,\ndas Zertrümmerer erlernen kann,\lvor einen rissigen Felsen. Drücke\l<0xF8><0x00>, um ihn zu zerbrechen.\pMit aktivierten <0xFC><0x01><0x06>Schnellen VMs<0xFC><0x01><0x04>\nzerbricht er sofort!\pDu wirst nicht einmal gefragt,\nob du ihn zerbrechen willst!\pJetzt kennst du hoffentlich die\nGrundlagen von Zertrümmerer!\pIch muss zurück zur Arena. Bis\nzum nächsten Mal!'
+  expected: 'Mit einem Pokémon, das\nZertrümmerer erlernen kann,\lstellst du dich vor einen\lrissigen Felsen. Zum Zerbrechen\ldrückst du <0xF8><0x00>.\pMit aktivierten <0xFC><0x01><0x06>Schnellen VMs<0xFC><0x01><0x04>\nzerbricht er sofort!\pDu wirst nicht einmal gefragt,\nob du ihn zerbrechen willst!\pJetzt kennst du hoffentlich die\nGrundlagen von Zertrümmerer!\pIch muss zurück zur Arena. Bis\nzum nächsten Mal!'
 - offset: '0x1f342e5'
   name: 'B-680 : dialogue qualifié'
   expected: '<0xFC><0x01><0x08>Gah!\pMein Körper…<0xFC><0x08><0x20> gehorcht mir…<0xFC><0x08><0x20>\nnicht mehr…!'

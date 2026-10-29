@@ -51,7 +51,9 @@ partagé d'intégrité, dans le même commit. La matrice de parité n'ajoute que
 l'enregistrement du nouveau test, sans revendiquer de patch supplémentaire.
 
 Les suites de commandes FC/FD/F8 et les pages FB sont comparées à la ROM,
-dans leur ordre. Les retours FE/FA sont répartis selon le budget de 192 px,
+dans leur ordre. Deux répliques ont été reformulées après mesure du build
+(rendu initial à 193/194 px malgré une source plus courte) ; l’icône F8 et
+l’ellipse brute B0 sont comptées dans les octets finaux. Les retours FE/FA sont répartis selon le budget de 192 px,
 avec une cible de repli à 180 px pour laisser une marge aux icônes. Les buffers
 sont mesurés avec le budget conservateur du moteur de mise en ligne.
 Les apostrophes avec FD02 sont formulées sans accord masculin imposé : les
@@ -64,12 +66,19 @@ aucune ressource FR/IT et aucun hash FR ne sont modifiés par ce lot.
 
 ## Validation locale
 
+Les témoins JSON fixent les octets attendus à chaque site consommateur ; les
+tests suivent les pointeurs vivants, même si les destinations changent lors
+de l’intégration d’un autre lot. La réplique `0x1F35323` tient en 26 octets
+sur 31 et la confirmation `0x1F4E4E2` en 47 sur 51, ce qui couvre aussi leurs
+consommateurs non relocalisés sans modifier les patches.
+
 Les résultats du build, de la suite Python et de la sonde native sont consignés
 après exécution dans les métadonnées binaires JSON et le compte rendu du ticket.
 La sonde Playwright est exécutée headless, mGBA avec `QT_QPA_PLATFORM=offscreen`,
 sur une copie temporaire de la ROM finale. Elle déclenche l'imprimante native
 avec les adresses lues dans les pointeurs finaux ; ses assertions OCR portent
-sur Erdkräfte, Zertrümmerer, Quak et la confirmation des options. La capture
+sur Erdkräfte, Zertrümmerer, Quak, la confirmation des options,
+la réplique du rival et les excuses complètes. La capture
 reste dans le dossier temporaire de l'OS et est attachée au ticket.
 
 ## Non vérifié

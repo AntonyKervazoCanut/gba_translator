@@ -14,7 +14,7 @@ test('les oublis et termes DE sont imprimés par le moteur natif', async ({ page
   fs.copyFileSync(path.join(root, 'output/roms/GenedRom-de.gba'), romPath);
   fs.copyFileSync(path.join(root, 'tests/fixtures/saves/party_hp_bar_fr.sav'), path.join(temp, 'game.sav'));
   const rom = fs.readFileSync(romPath);
-  const offsets = [0x1e5e7ce, 0x1e564de, 0x1e7f8c2, 0x123f9c3].map(site => {
+  const offsets = [0x1e5e7ce, 0x1e564de, 0x1e7f8c2, 0x123f9c3, 0x1e5a488, 0x1e89c8a].map(site => {
     const target = rom.readUInt32LE(site) - 0x08000000;
     expect(target).toBeGreaterThan(0);
     expect(target).toBeLessThan(rom.length);
@@ -26,7 +26,7 @@ test('les oublis et termes DE sont imprimés par le moteur natif', async ({ page
   rom.set([0x09, 6, 2], scriptBase + 6);
   // Seule la copie temporaire reçoit les scripts de déclenchement.
   fs.writeFileSync(romPath, rom);
-  for (let scene = 0; scene < 4; scene++) {
+  for (let scene = 0; scene < 6; scene++) {
     fs.copyFileSync(path.join(root, 'tests/fixtures/saves/party_hp_bar_fr.sav'), path.join(temp, 'game.sav'));
     rom.writeUInt32LE(offsets[scene] + 0x08000000, scriptBase + 2);
     fs.writeFileSync(romPath, rom);
@@ -95,13 +95,13 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
 `);
   const ocr = path.join(temp, 'ocr');
   execFileSync('swiftc', [swift, '-o', ocr], { timeout: 60_000 });
-  const pictures = Array.from({ length: 4 }, (_, n) =>
+  const pictures = Array.from({ length: 6 }, (_, n) =>
     `<img alt="Dialogue DE ${n + 1}" src="data:image/png;base64,${fs.readFileSync(path.join(temp, `page${n}.png`)).toString('base64')}">`);
   await page.setContent(`<style>body{margin:0;background:#222}main{display:grid;grid-template-columns:repeat(2,720px);gap:8px;padding:8px;width:max-content}img{width:720px;height:480px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
-  await expect(page.getByRole('img')).toHaveCount(4);
+  await expect(page.getByRole('img')).toHaveCount(6);
   await page.getByRole('img').evaluateAll(images => Promise.all(images.map(image => (image as HTMLImageElement).decode())));
   const texts: string[] = [];
-  for (let n = 0; n < 4; n++) {
+  for (let n = 0; n < 6; n++) {
     const enlarged = path.join(temp, `readable${n}.png`);
     await page.getByRole('img').nth(n).screenshot({ path: enlarged });
     texts.push(execFileSync(ocr, [enlarged], { encoding: 'utf8', timeout: 60_000 }));
@@ -112,6 +112,10 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
   expect(texts[1]).toContain('Zertrümmerer');
   expect(texts[2]).toContain('Quak');
   expect(texts[3]).toMatch(/speichern/i);
+  expect(texts[4]).toContain('Sorgen');
+  expect(texts[4]).toContain('bereit');
+  expect(texts[5]).toContain('Verzeihung');
+  expect(texts[5]).toContain('versagte');
   expect(texts.join('\n')).not.toMatch(/Earth Power|Rock Smash|Croak|discard/);
   const proof = path.join(os.tmpdir(), 'b680-dialogues-08.png');
   await page.locator('main').screenshot({ path: proof });

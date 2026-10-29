@@ -61,6 +61,15 @@ def test_complete_scope():
     assert offsets[0] == 0x1F2FE44 and offsets[-1] == 0x1F54716
     assert all(row['decision'] and row['motif'] and row['scene'] and row['genre'] for row in ROWS)
     assert 0x7A823B not in offsets
+    assert sum(len(row['refs']) for row in ROWS) == 407
+
+
+def test_consumers_without_relocation_fit_the_original_slots():
+    # Ces anciens consommateurs ignoraient la chaîne relocalisée : l'un
+    # affichait un fragment DE et les deux autres restaient en anglais.
+    for row in ROWS:
+        if int(row['offset'], 16) in (0x1F35323, 0x1F4E4E2):
+            assert len(encode(row['de'])) <= len(bytes.fromhex(row['source_hex']))
 
 
 @pytest.mark.parametrize('row', ROWS, ids=lambda row: row['offset'])
@@ -101,10 +110,19 @@ def test_injected_bytes_and_all_original_references(row):
     for check in row['rom_checks']:
         site = int(check['site'], 16)
         target = int.from_bytes(built[site:site + 4], 'little') - 0x08000000
-        assert target == int(check['target'], 16)
+        # Le placement peut bouger quand un autre lot est intégré : suivre
+        # le pointeur vivant plutôt qu'une adresse de destination figée.
+        assert 0 <= target < len(built)
         expected = bytes.fromhex(check['expected_hex'])
-        assert built[target:target + len(expected)] == expected
-        if row.get('changed') and not row.get('acheminement'):
+        if row.get('acheminement'):
+            # B-1016 doit pouvoir acheminer ce texte sans que ce témoin
+            # historique impose de conserver l'anglais pour toujours.
+            expected = built[target:built.index(b'\xff', target) + 1]
+            if expected == original:
+                continue
+        else:
+            assert built[target:target + len(expected)] == expected
+        if row.get('changed'):
             assert unwrapped(expected) == unwrapped(encode(row['de']))
             assert inspect(expected)[:2] == inspect(original)[:2]
             assert inspect(expected)[2] <= 192
