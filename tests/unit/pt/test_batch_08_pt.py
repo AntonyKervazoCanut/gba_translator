@@ -41,6 +41,7 @@ def test_words_have_no_controls_and_fit(entry: dict) -> None:
 
 def test_glossary_and_easy_chat_context() -> None:
     pt = _load_combined(ROOT / 'languages/pt/combined_pt.txt')[0]
+    assert pt[0x3EB127] == 'SER NOCAUTEADO'  # Subir le K.O., pas le provoquer.
     assert pt[0x3EB12D] == 'NOCAUTEADO'
     assert pt[0x3EC086] == 'CONFUSO'
     assert pt[0x3EB5D4] == 'Festa'  # Quotidien, pas l’équipe Pokémon du menu.
