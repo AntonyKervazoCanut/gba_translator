@@ -70,7 +70,12 @@ Les fixtures binaires sont extraites de la table canonique. Les tests couvrent
 l’échec atomique, les préimages, les cibles inattendues, le pointeur de base,
 les dépassements, les noms manquants, les contrôles, l’idempotence et les deux
 exclusions. Les tests ROM comparent les 122 noms et les 178 autres cellules au
-build qualifié par B-683, ainsi que les données et pointeurs de description.
+build qualifié par B-683. Les données et pointeurs de description sont comparés
+au binaire sauvegardé immédiatement avant le patch des noms du build courant
+(`.gba.item-names.bak`). Après intégration des lots dialogues-07/08/09, leurs
+allocations ont déplacé certaines descriptions : figer les anciennes adresses
+de B-683 serait un faux positif. La sauvegarde dédiée vérifie leur préservation
+réelle sans empêcher les relocalisations légitimes du pipeline en amont.
 
 La sonde Playwright headless appelle `bufferitemname` dans le moteur mGBA réel
 pour les 122 identifiants et compare les buffers obtenus aux cellules de la ROM.
@@ -85,13 +90,13 @@ Résultats locaux :
 - `make test-python` : 3 310 réussis, 96 sous-tests réussis, trois skips
   préexistants (bridge mGBA facultatif, échantillon FD absent, CSV dynamique ES).
 - Test ROM : 300 cellules vérifiées, dont 122 corrigées et 178 préservées ;
-  métadonnées et pointeurs de description inchangés par rapport à la qualification.
+  métadonnées et pointeurs de description inchangés par le patch des noms.
 - Playwright : un test réussi, 122 lookups moteur, douze noms rendus, OCR et
   assertions de pixels sur ö/ä. Deux ambiguïtés OCR connues (Blouer/Blauer,
   Herte-Sconner/Werte-Scanner) sont tolérées ; les buffers restent comparés
   octet par octet et le a de Blauer est aussi comparé au a de Granitstein.
 - Ruff et TypeScript : aucune erreur sur le périmètre contrôlé.
-- SHA256 DE reconstruite :
+- SHA256 DE de la première validation isolée, avant intégration des autres lots :
   `dd961d9091f3c3e6214a2773aa0f8f509b8684ec62d15de9a6f73d1d49ca73af`.
 - Capture attachée au ticket : `0d44263f-3538-48b3-9da4-482d5053b4fc`.
 - SHA256 de la ROM FR du dépôt principal inchangé. Aucun fichier FR/IT livré,

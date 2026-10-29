@@ -558,6 +558,12 @@ def main() -> int:
     patched = apply_item_name_fixes(data, ALL_NAMES)
     desc_patched = apply_item_desc_fixes(data)
     if scoped or patched or desc_patched:
+        # Sauvegarde dédiée : les patchs suivants réutilisent le .bak commun.
+        # Elle prouve, sur chaque nouveau build, que les pointeurs de description
+        # déjà relocalisés par le pipeline restent identiques après nos écritures.
+        args.rom.with_suffix(args.rom.suffix + '.item-names.bak').write_bytes(
+            args.rom.read_bytes()
+        )
         args.rom.with_suffix(args.rom.suffix + '.bak').write_bytes(args.rom.read_bytes())
         args.rom.write_bytes(data)
     print(f'Cellules B-1026 vérifiées : {len(PREIMAGES)}, écrites : {scoped}')

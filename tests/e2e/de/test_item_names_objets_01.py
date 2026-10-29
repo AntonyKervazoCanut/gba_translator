@@ -15,6 +15,8 @@ pytestmark = pytest.mark.rom
 def test_all_live_names_metadata_and_remaining_cells():
     source = (ROOT / 'input/roms/englishrom.gba').read_bytes()
     built = (ROOT / 'output/roms/GenedRom-de.gba').read_bytes()
+    before_names = (ROOT / 'output/roms/GenedRom-de.gba.item-names.bak').read_bytes()
+    assert len(before_names) == len(built)
     combined, _ = _load_combined(ROOT / 'languages/de/combined_de.txt')
     scope = json.loads((ROOT / 'tests/unit/fixtures/item_names_objets_01_scope.json').read_text())
     assert len(scope) == 300
@@ -29,12 +31,11 @@ def test_all_live_names_metadata_and_remaining_cells():
         else:
             expected = bytes.fromhex(entry['name_hex_before'])
         assert built[offset:offset + 14] == expected, entry['offset']
-        # Données identiques à EN, pointeur de description identique au build
-        # DE qualifié par B-683 (les descriptions sont déjà relocalisées).
+        # Les autres lots peuvent déplacer légitimement les descriptions.
+        # Comparer leur pointeur avant/après le patch de CE build, plutôt que
+        # figer l'adresse allouée au moment de la qualification B-683.
         assert built[offset + 14:offset + 20] == source[offset + 14:offset + 20], entry['offset']
         assert built[offset + 24:offset + 44] == source[offset + 24:offset + 44], entry['offset']
-        assert int.from_bytes(built[offset + 20:offset + 24], 'little') == int(
-            entry['description_pointer_before'], 16
-        ), entry['offset']
+        assert built[offset + 14:offset + 44] == before_names[offset + 14:offset + 44], entry['offset']
     # Référence brute de l'extraction, non prouvée : jamais repointée.
     assert built[0x9AF055:0x9AF059] == source[0x9AF055:0x9AF059]
