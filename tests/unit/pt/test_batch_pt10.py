@@ -90,3 +90,11 @@ def test_glossary_and_capture_audio_are_preserved():
     for offset in [0x3FD7A2, 0x3FD7C0]:
         assert '<0xFD><0x3A>' in texts[offset]
         assert '<0xFC><0x0A><0xFC><0x0B><0x42><0x01>' in texts[offset]
+
+
+def test_finalizer_runs_after_passes_that_can_change_text():
+    config = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())
+    steps = config['patches']
+    assert steps.count('batch_10') == 1
+    for earlier in ['inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale']:
+        assert steps.index(earlier) < steps.index('batch_10')

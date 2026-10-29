@@ -1,6 +1,7 @@
 /** PT-10 : vrai combat et hausse de statistique ; météo livrée via msgbox.
  * Le combat utilise les buffers FD du moteur, sans injecter de texte en RAM.
- * Seul le script de lancement est ajouté à une copie temporaire de la ROM.
+ * La copie temporaire ajoute le script de lancement et garantit la précision
+ * et l'effet secondaire de Metal Claw, sans modifier les textes ni les buffers.
  */
 import { test, expect } from '@playwright/test';
 import { spawn, execFileSync } from 'node:child_process';
@@ -39,6 +40,16 @@ test('PT-10 : attaque et hausse de statistique natives, météo au pointeur viva
     const script = rom.lastIndexOf(Buffer.alloc(128, 255));
     expect(script).toBeGreaterThan(0x1000000);
     if (mode === 'battle') {
+      // La hausse native a normalement 10 % de chance : les autres traductions
+      // changent les durées d'affichage et donc la suite RNG. Garantir uniquement
+      // les deux probabilités rend le scénario indépendant de cette durée.
+      // 0x1cc contient le pointeur de la table CFRU, également consommée par le
+      // moteur ; Metal Claw est le mouvement 232, struct BattleMove de 12 octets.
+      const moves = rom.readUInt32LE(0x1cc) - 0x08000000;
+      const metalClaw = moves + 232 * 12;
+      expect(rom.subarray(metalClaw, metalClaw + 12)).toEqual(Buffer.from('8b32085f230a000013640000', 'hex'));
+      rom[metalClaw + 3] = 100; // Précision (95 % dans la ROM livrée).
+      rom[metalClaw + 5] = 100; // Hausse d'Attaque (10 % dans la ROM livrée).
       // setwildbattle Rattata, niveau 5, aucun objet ; dowildbattle ; end.
       rom.set([0xb6, 19, 0, 5, 0, 0, 0xb7, 2], script);
     } else {

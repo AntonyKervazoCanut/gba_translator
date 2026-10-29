@@ -33,10 +33,12 @@ Validation locale réussie :
 - `make build-pt` : 260 entrées vérifiées par la finalisation, dont 71 relocalisées pour retrouver exactement les textes et ruptures attendus.
 - `python3 -m pytest tests/e2e/pt/test_batch_pt10_rom.py -m rom -q` : cinq tests réussis ; 305 pointeurs contrôlés, préimages, commandes, exceptions, atomicité, idempotence et budgets réels des cinq polices.
 - `python3 -m pytest tests/unit/pt/test_batch_pt10.py tests/unit/test_translation_integrity.py -q` : 34 tests réussis. Le test de périmètre vérifie aussi la concordance du texte et du budget en octets consignés dans le JSON.
-- `npx playwright test --config tests/e2e-playwright/playwright.pt10.config.ts` : un test réussi, mGBA et navigateur hors écran. Combat réel contre Rattata : « Griknot usou Metal Claw! », puis « Griknot: Ataque aumentou ! ». La troisième scène rend « Está chovendo. » via le pointeur vivant dans une msgbox. Les textes ne sont pas injectés en RAM : le moteur développe ses propres paramètres FD.
-- Capture jointe au ticket F-769 (identifiant `9354c029-d5ac-4661-aca7-a769da010e93`), conservée hors dépôt.
+- `npx playwright test --config tests/e2e-playwright/playwright.pt10.config.ts` : un test réussi, mGBA et navigateur hors écran. Combat réel contre Rattata : « Griknot usou Metal Claw! », puis « Griknot: Ataque aumentou ! ». La troisième scène rend « Está chovendo. » via le pointeur vivant dans une msgbox. Les textes ne sont pas injectés en RAM : le moteur développe ses propres paramètres FD. La copie temporaire de la sonde porte la précision et la probabilité de hausse de Metal Claw à 100 %, après validation de sa préimage dans la table CFRU vivante ; la ROM livrée garde ses probabilités originales. Cela évite que les durées des textes des autres lots modifient aléatoirement le scénario.
+- Capture jointe au ticket F-769 (identifiant `4b8ef498-c5e8-4ef9-bad0-783823964651`), conservée hors dépôt.
 - Hooks actifs : 5 035 tests Python réussis, un skip préexistant ; 68 tests Vitest réussis ; builds FR/IT/DE réussis. Aucun code partagé modifié, aucun push ni lancement de pipeline distant.
 - Lint Python ciblé et `git diff --check` réussis.
+
+Après rebase sur les lots PT-07/PT-09 et ES-003, `make build-pt` réussit à nouveau : les **1 126 tests ROM PT** passent, ainsi que Playwright (un test), le typecheck `npx tsc --noEmit -p tsconfig.playwright.json` et le lint ciblé. La suite Python rapide intégrée donne 5 058 succès et un skip préexistant avant ajout du garde d'ordre des patchs. Les 97 cibles d'allocation devenues périmées dans le bilan PT-06 ont été actualisées après contrôle exact de leurs octets ; aucun texte de ce lot n'a été modifié.
 
 ### Non vérifié
 
