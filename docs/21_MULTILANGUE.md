@@ -21,7 +21,7 @@ languages/
   it/combined_it.txt           #   translations  <offset_hex>: <text>
   de/lang.yaml                 # German — build: generic
   de/combined_de.txt
-  indie/lang.yaml              # Indie — build: generic (reuses the FR font)
+  indie/lang.yaml              # Hindi romanisé (code `indie`) — build: generic (reuses the FR font)
   indie/combined_indie.txt
   es-maint/lang.yaml           # Maintained Spanish — generic, in_progress
   es-maint/combined_es-maint.txt # Verified entries only; initially empty
@@ -60,7 +60,7 @@ make langs           # list registered languages
 make build-fr        # French — dedicated, byte-perfect recipe (unchanged)
 make build-it        # Italian — generic driver
 make build-de        # German — generic driver
-make build-indie     # Indie — generic driver (reuses the FR font)
+make build-indie     # Hindi romanisé (`indie`) — generic driver (reuses the FR font)
 make build-lang LANG_CODE=it   # any generic language
 make build-es-maint  # Maintained Spanish, incremental from clean English
 make build-all       # FR + IT + DE + Indie + PT-BR + es-maint
@@ -108,7 +108,7 @@ partially-translated language still produces a bootable ROM.
   alias-preservation profile. Maintained Spanish preserves ü/Ü and ¡/¿ with
   its own explicit profile; default French/Italian alias behaviour is unchanged.
 * Italian reuses the French font glyphs, so its `font` step is enabled.
-* Indie also reuses the French font (no `patch_font_indie.py`), so the `font`
+* Hindi romanisé (`indie`) also reuses the French font (no `patch_font_indie.py`), so the `font`
   step falls back to `patch_font_fr.py` and the full FR accented set renders.
   It seeds with a near-empty `combined_indie.txt`, so an untranslated offset
   stays English and the build is bootable from day one.
@@ -164,3 +164,5 @@ Playwright compare les pixels aux données 2bpp natives indépendamment de l'enc
 et contrôle les motifs des six badges. La capture reste dans le dossier temporaire
 de l'OS ; ce n'est pas une capture d'un écran de gameplay ni une certification de la
 traduction complète. Le boot réel est capturé avant d'installer la sonde en RAM.
+
+La cible `indie` est le hindi romanisé en alphabet latin simple, et conserve ses identifiants et assets historiques `indie` et `IN.2.1`. Le devanagari exige un encodage et un moteur de composition (matras, réordonnancement, conjonctions), en plus des polices ; il est hors périmètre. Voir [l’inventaire et les budgets](analysis/infrastructure_hindi.md).

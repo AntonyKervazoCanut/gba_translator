@@ -443,7 +443,7 @@ certify-de:
 audit-toponyms-de:
 	@$(PYTHON) scripts/audit_english_toponyms_de.py
 
-build-indie: check-translations-indie
+build-indie: check-translations-indie check-indie-encoding
 	@$(PYTHON) scripts/build_language.py indie --build-number $(BUILD_NUMBER)
 
 # Build any registered generic language: make build-lang LANG_CODE=it
@@ -545,6 +545,9 @@ test-fr-build-regressions:
 # languages/<lang>/protected_entries.yaml. Voir docs/20_TRANSLATION_PRESERVATION.md §7.
 check-translations:
 	@$(PYTHON) scripts/check_translation_integrity.py
+
+check-indie-encoding:
+	@$(PYTHON) scripts/check_indie_encoding.py
 
 check-translations-%:
 	@$(PYTHON) scripts/check_translation_integrity.py --lang $*

@@ -171,7 +171,7 @@ Contributors can work with any workflow they prefer. Singularity is not required
 | French | Complete | Dedicated | `GenedRom-fr.gba` |
 | Italian | In progress | Generic | `GenedRom-it.gba` |
 | German | In progress | Generic | `GenedRom-de.gba` |
-| Indie | Experimental | Generic | `GenedRom-indie.gba` |
+| Hindi romanisé (`indie`) | Experimental | Generic | `GenedRom-indie.gba` |
 
 French must stay isolated from the generic driver. The dedicated French build exists to keep the validated ROM stable and byte-perfect.
 

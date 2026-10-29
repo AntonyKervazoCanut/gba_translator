@@ -270,7 +270,7 @@ class TextEncoder:
         return bytes(encoded)
 
     @classmethod
-    def encode_pokemon(cls, text: str, skip_aliases: frozenset = frozenset()) -> bytes:
+    def encode_pokemon(cls, text: str, skip_aliases: frozenset = frozenset(), *, strict: bool = False) -> bytes:
         for src, dst in ENCODE_ALIASES.items():
             if src not in skip_aliases:
                 text = text.replace(src, dst)
@@ -306,6 +306,8 @@ class TextEncoder:
                 base = SPANISH_ALIASES[char]
                 encoded.append(cls.POKEMON_TABLE.get(base, cls.POKEMON_TABLE['?']))
             else:
+                if strict:
+                    raise ValueError(f"Unencodable Pokemon character {char!r} at index {i}")
                 encoded.append(cls.POKEMON_TABLE.get('?', 0xAC))
             i += 1
 

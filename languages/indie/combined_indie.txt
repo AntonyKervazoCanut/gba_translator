@@ -11,8 +11,8 @@
 # French font, so the full accented glyph set is available.
 #
 # --- seed entries (short, proven-translatable offsets shared with the DE/IT seeds) ---
-# Hindi rendered in Hunterian (Latin) transliteration: the Indie target reuses the
-# French font, which has no Devanagari glyphs, so native Devanagari would encode to
+# Hindi rendered in simple Latin romanisation: the Indie target reuses the
+# French font; Devanagari also needs an encoding and composition engine. It would encode to
 # rows of '?' (0xAC fallback). Romanised Latin keeps the Hindi wording encodable.
 0x1773FD: Main tumhein bata raha hoon.
 0x177489: Abhi tak nahin!

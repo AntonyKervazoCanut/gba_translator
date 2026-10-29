@@ -739,6 +739,10 @@ def main() -> int:
     print("=" * 70)
 
     check_translation_integrity(config.code)
+    if config.code == "indie":
+        from scripts.check_indie_encoding import main as check_indie_encoding
+        if check_indie_encoding():
+            return 1
     ensure_extractions()
     translation_json = generate_translation_json(config)
     out_rom = build_rom(config, translation_json)

@@ -22,4 +22,13 @@
 #     absent: true
 #
 # Voir docs/20_TRANSLATION_PRESERVATION.md §7.
-entries: []
+entries:
+  - offset: '0x1773FD'
+    name: Seed hindi 1
+    expected: 'Main tumhein bata raha hoon.'
+  - offset: '0x177489'
+    name: Seed hindi 2
+    expected: 'Abhi tak nahin!'
+  - offset: '0x183509'
+    name: Seed hindi 3
+    expected: 'Tum mujhe peet dete ho.'
