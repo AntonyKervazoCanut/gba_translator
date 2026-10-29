@@ -58,6 +58,16 @@ assertées dans Chromium headless. La preuve finale est écrite dans le réperto
 temporaire du système, hors dépôt. Ce contrôle est une sonde native de rendu ;
 il ne certifie pas tous les parcours de Borrius ni les branches d'événements.
 
+Validation exécutée : `make build-pt` réussi, 262 textes / 299 références finalisés
+(dont 131 textes relocalisés par la passe finale), quatre tests ROM réussis et un
+test Playwright réussi sur deux captures natives. Le test vérifie aussi les deux
+rangées de pixels du tilde de « lição ». L'OCR Vision confond le O carré avec D et
+parfois ç avec g ; ces seules ambiguïtés sont tolérées dans la lecture, tandis que
+la comparaison intégrale du texte ROM et le contrôle pixel restent stricts.
+TypeScript et Ruff ciblé passent. Hooks actifs : 5 775 tests Python et 71 tests
+Vitest réussis, builds FR/IT/DE réussis ; un test Python ignoré par sa configuration
+préexistante. Aucun script partagé ni source d'une autre langue modifié.
+
 ## Bilan offset par offset
 
 Les références ci-dessous sont les sites source ; les cibles finales sont résolues

@@ -51,6 +51,8 @@ def test_domain_mechanics_and_retained_names():
     assert 'Água fica fraca contra Fogo' in inverse and 'resiste a Planta' in inverse
     assert [texts[o] for o in (0x793D11, 0x793D18, 0x793D1F, 0x793D26)] == [
         'Primavera', 'Verão', 'Outono', 'Inverno']
+    assert texts[0x78C364].startswith('Oi, Treinador das ondas!')
+    assert 'National Science Society' in texts[0x793C67]
     assert texts[0x78D717] == 'Dehara City'
     assert texts[0x7A2565] == 'Tarmigan Town'
     assert 'Link Stone' in texts[0x7A81DA] and 'por troca' in texts[0x7A81DA]

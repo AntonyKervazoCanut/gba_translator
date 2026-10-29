@@ -24,9 +24,11 @@ test('PT-23 : dialogues marins et accents lisibles dans le moteur', async ({ pag
   }
   const scenes = [
     { offset: 0x78c364, site: 0x78bfa2, title: 'PT-23 — sonde native : défi en mer',
-      matches: [/Oi, Treinador das ondas/i, /Que tal uma batalha no mar/i], forbidden: /wave.riding|battle on the sea/i },
+      // Vision confond le O carré de la police GBA avec D ; les octets de Oi sont vérifiés ci-dessous.
+      matches: [/Treinador das ondas/i, /Que tal uma batalha no mar/i], forbidden: /wave.riding|battle on the sea/i },
     { offset: 0x78c40f, site: 0x78bfa6, title: 'PT-23 — sonde native : défaite et tilde',
-      matches: [/Voce me deu uma bela licao/i], forbidden: /schooled me/i },
+      // Vision lit parfois ç comme g ; le texte complet est vérifié en ROM et le tilde en pixels.
+      matches: [/Voce me deu uma bela li[gc]ao/i], forbidden: /schooled me/i },
   ];
   for (const [n, scene] of scenes.entries()) {
     const value = values.get(scene.offset);
@@ -91,6 +93,17 @@ end)
     expect(fs.readFileSync(save)).toEqual(saveBytes);
     const png = PNG.sync.read(fs.readFileSync(capture));
     expect([png.width, png.height]).toEqual([240, 160]);
+    if (n === 1) {
+      // Dans « Você me deu uma bela lição. », ã commence à x=155 :
+      // avance des glyphes natifs depuis x=15 ; tilde aux rangées 124–125.
+      let tilde = '';
+      for (let y = 124; y < 126; y++) for (let x = 155; x < 163; x++) {
+        const pixel = (y * png.width + x) * 4;
+        tilde += Math.max(...png.data.subarray(pixel, pixel + 3)) < 100 ? '1' : '0';
+      }
+      expect(tilde, 'Le tilde de lição est réellement dessiné par le moteur').toBe('0011001001001100');
+    }
+
   }
   const swift = path.join(temp, 'ocr.swift');
   fs.writeFileSync(swift, `
