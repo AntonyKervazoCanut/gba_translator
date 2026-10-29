@@ -7171,3 +7171,611 @@ entries:
 - offset: '0x41cd7a'
   name: 'B-668 combat_ui-02 0x41CD7A'
   expected: 'Preis für Platz 1:\n{DYNAMIC}!'
+
+- offset: '0xA3C9C6'
+  name: 'B-670 description attaque'
+  expected: 'Feuert starke Laser\nmit Prismenkraft ab.\nDer Anwender muss\nin der nächsten\nRunde aussetzen.'
+
+- offset: '0xA3CA1F'
+  name: 'B-670 description attaque'
+  expected: 'Beißt mit Psycho-\nKraft zu. Zerstört\ndabei Lichtschild\nund Reflektor\ndes Ziels.'
+
+- offset: '0xA3CA7C'
+  name: 'B-670 description attaque'
+  expected: 'Heilt den Status\ndes Ziels. Gelingt\ndies, erhält auch\nder Anwender\nKP zurück.'
+
+- offset: '0xA3CAD9'
+  name: 'B-670 description attaque'
+  expected: 'Greift mit einem\nwilden Tanz an.\nDer Typ der Attacke\nentspricht dem Typ\ndes Anwenders.'
+
+- offset: '0xA3CB38'
+  name: 'B-670 description attaque'
+  expected: 'Trifft mit einem\nGeisterknochen.\nSenkt eventuell\ndie Verteidigung\ndes Gegners.'
+
+- offset: '0xA3CB88'
+  name: 'B-670 description attaque'
+  expected: 'Legt eine Falle.\nWird der Anwender\nphysisch getroffen,\nexplodiert\ndiese Falle.'
+
+- offset: '0xA3CBE2'
+  name: 'B-670 description attaque'
+  expected: 'Heilt bis zur Hälfte\nder maximalen KP.\nIm Sandsturm\nwerden noch mehr\nKP geheilt.'
+
+- offset: '0xA3CC78'
+  name: 'B-670 description attaque'
+  expected: 'Sammelt in Runde 1\nLicht und lädt eine\nKlinge damit auf.\nGreift in Runde 2\nmit der Klinge an.'
+
+- offset: '0xA3CCD7'
+  name: 'B-670 description attaque'
+  expected: 'Singt und erzeugt\ndabei Blasen.\nHeilt Verbrennungen\naller betroffenen\nPokémon.'
+
+- offset: '0xA3CD80'
+  name: 'B-670 description attaque'
+  expected: 'Tauscht den eigenen\nInitiative-Wert mit\ndem des Ziels.'
+
+- offset: '0xA3CE5A'
+  name: 'B-670 description attaque'
+  expected: 'Die Stärke wird\nverdoppelt, falls\ndie vorige Attacke\nfehlgeschlagen ist.'
+
+- offset: '0xA3CEA3'
+  name: 'B-670 description attaque'
+  expected: 'Entzieht dem Ziel KP\nin Höhe seines\nAngriffswerts.\nSenkt außerdem\nseinen Angriff.'
+
+- offset: '0xA3CF56'
+  name: 'B-670 description attaque'
+  expected: 'Rührt das Ziel\nmit Tränen.\nSenkt dessen\nAngriff und\nSpezialangriff.'
+
+- offset: '0xA3CFB3'
+  name: 'B-670 description attaque'
+  expected: 'Trifft die Kehle\ndes Ziels. Es kann\nzwei Runden lang\nkeine Lärm-Attacken\neinsetzen.'
+
+- offset: '0xA3D06D'
+  name: 'B-670 description attaque'
+  expected: 'Trifft mit einem\ntropischen Tritt.\nSenkt außerdem den\nAngriff des Ziels.'
+
+- offset: '0xA3D0B9'
+  name: 'B-670 description attaque'
+  expected: 'Ein starker Blitz\ntrifft das Ziel.\nLässt es eventuell\nzurückschrecken.'
+
+- offset: '0xA3D10E'
+  name: 'B-670 description attaque'
+  expected: 'Elektrofeld für\nfünf Runden. Stärkt\nElektro-Attacken\nund verhindert\nEinschlafen.'
+
+- offset: '0xA3D16C'
+  name: 'B-670 description attaque'
+  expected: 'Grasfeld für\nfünf Runden. Stärkt\nPflanzen-Attacken\nund stellt\nKP wieder her.'
+
+- offset: '0xA3D1C9'
+  name: 'B-670 description attaque'
+  expected: 'Nebelfeld für fünf\nRunden. Halbiert\nDrachen-Attacken\nund verhindert\nStatusprobleme.'
+
+- offset: '0xA3D228'
+  name: 'B-670 description attaque'
+  expected: 'Psychofeld für\nfünf Runden. Stärkt\nPsycho-Attacken\nund blockiert\nPrioritätsattacken.'
+
+- offset: '0xA3D286'
+  name: 'B-670 description attaque'
+  expected: 'Mit Wassersäulen\nsteigt die Stärke\nund es entsteht\nein großer Sumpf.'
+
+- offset: '0xA3D2D5'
+  name: 'B-670 description attaque'
+  expected: 'Mit Pflanzensäulen\nsteigt die Stärke\nund es entsteht\nein Flammenmeer.'
+
+- offset: '0xA3D325'
+  name: 'B-670 description attaque'
+  expected: 'Mit Feuersäulen\nsteigt die Stärke\nund es entsteht\nein Regenbogen.'
+
+- offset: '0xA3D370'
+  name: 'B-670 description attaque'
+  expected: 'Erzeugt einen Raum,\nin dem langsamere\nPokémon fünf Runden\nlang zuerst\nzum Zug kommen.'
+
+- offset: '0xA3D3CA'
+  name: 'B-670 description attaque'
+  expected: 'Erzeugt einen Raum,\nin dem getragene\nItems fünf Runden\nlang ihre Wirkung\nverlieren.'
+
+- offset: '0xA3D424'
+  name: 'B-670 description attaque'
+  expected: 'Tauscht für fünf\nRunden Verteidigung\nund Spezial-\nverteidigung aller\nPokémon im Kampf.'
+
+- offset: '0xA3D47D'
+  name: 'B-670 description attaque'
+  expected: 'Schützt den Anwender\nund seine Mitstreiter\nmit einer magischen\nKraft vor\nStatus-Attacken.'
+
+- offset: '0xA3D4D0'
+  name: 'B-670 description attaque'
+  expected: 'Schützt den Anwender\nund seine Mitstreiter\nmit einer Matte\nvor schädigenden\nAttacken.'
+
+- offset: '0xA3D530'
+  name: 'B-670 description attaque'
+  expected: 'Schützt den Anwender\nund seine Mitstreiter\nvor Attacken\nmit Priorität.'
+
+- offset: '0xA3D56D'
+  name: 'B-670 description attaque'
+  expected: 'Schützt den Anwender\nund seine Mitstreiter\nvor großflächigen\nAttacken.'
+
+- offset: '0xA3D652'
+  name: 'B-670 description attaque'
+  expected: 'Ein Rülpser trifft\ndas Ziel. Zuvor muss\nder Anwender eine\ngetragene Beere\ngefressen haben.'
+
+- offset: '0xA3D703'
+  name: 'B-670 description attaque'
+  expected: 'Wirft das getragene\nItem auf das Ziel.\nStärke und Wirkung\nder Attacke hängen\nvom Item ab.'
+
+- offset: '0xA3D7C1'
+  name: 'B-670 description attaque'
+  expected: 'Mehr Schwerkraft\nfür fünf Runden.\nVerhindert Flug-\nmanöver und hebt\nSchwebe auf.'
+
+- offset: '0xA3D81D'
+  name: 'B-670 description attaque'
+  expected: 'Teilt Verteidigung\nund Spezial-\nverteidigung mit dem\nZiel und gleicht\ndie Werte an.'
+
+- offset: '0xA3D87A'
+  name: 'B-670 description attaque'
+  expected: 'Verhindert fünf\nRunden lang, dass\ndas gegnerische Team\nKP wiederherstellt.'
+
+- offset: '0xA3D8C9'
+  name: 'B-670 description attaque'
+  expected: 'Verteilt elektrisch\ngeladene Teilchen.\nNormal-Attacken\nwerden dadurch zu\nElektro-Attacken.'
+
+- offset: '0xA3D926'
+  name: 'B-670 description attaque'
+  expected: 'Ein Zauberspruch\nverhindert fünf\nRunden lang\nVolltreffer durch\ndie Gegner.'
+
+- offset: '0xA3D983'
+  name: 'B-670 description attaque'
+  expected: 'Lässt den Anwender\nmittels Magnetkraft\nfünf Runden lang\nschweben.'
+
+- offset: '0xA3D9CD'
+  name: 'B-670 description attaque'
+  expected: 'Erhöht Verteidigung\nund Spezial-\nverteidigung von\nMitstreitern mit\nPlus oder Minus.'
+
+- offset: '0xA3DA2C'
+  name: 'B-670 description attaque'
+  expected: 'Bedeckt das Ziel\nmit Puder, der\nexplodiert, wenn es\neine Feuer-Attacke\neinsetzt.'
+
+- offset: '0xA3DA7E'
+  name: 'B-670 description attaque'
+  expected: 'Teilt Angriff und\nSpezialangriff mit\ndem Ziel und\ngleicht die\nWerte an.'
+
+- offset: '0xA3DB26'
+  name: 'B-670 description attaque'
+  expected: 'Eine Psycho-Welle\nändert die Fähigkeit\ndes Ziels\nzu Wankelmut.'
+
+- offset: '0xA3DBCA'
+  name: 'B-670 description attaque'
+  expected: 'Lässt das Ziel\nschweben. Es ist\ndrei Runden lang\nleichter zu treffen.'
+
+- offset: '0xA3DC2B'
+  name: 'B-670 description attaque'
+  expected: 'Lädt das Ziel zum\nzuckersüßen Spuk ein.\nEs erhält zusätzlich\nden Typ Geist.'
+
+- offset: '0xA3DC7C'
+  name: 'B-670 description attaque'
+  expected: 'Besprüht das Ziel\nmit Gift. Senkt bei\nvergifteten Zielen\nAngriff, Spezial-\nangriff und Initiative.'
+
+- offset: '0xA3DCD8'
+  name: 'B-670 description attaque'
+  expected: 'Ein Fluch des Waldes\ntrifft das Ziel.\nEs erhält\nzusätzlich den\nTyp Pflanze.'
+
+- offset: '0xA3DD2A'
+  name: 'B-670 description attaque'
+  expected: 'Lässt den Kopf\nexplodieren und\ntrifft alle ringsum.\nSchadet auch\ndem Anwender.'
+
+- offset: '0xA3DD88'
+  name: 'B-670 description attaque'
+  expected: 'Eine Lichtsäule\ntrifft physisch oder\nspeziell, je nach\ndem höheren Wert\ndes Anwenders.'
+
+- offset: '0xA3DDE1'
+  name: 'B-670 description attaque'
+  expected: 'Trifft mit elektrisch\ngeladenen Fäusten.\nNormal-Attacken\nwerden dadurch zu\nElektro-Attacken.'
+
+- offset: '0xA3DE3F'
+  name: 'B-670 description attaque'
+  expected: 'Wird das Ziel vor\nseiner Attacke\nelektrisiert,\nerhält seine Attacke\nden Typ Elektro.'
+
+- offset: '0xA3DE9D'
+  name: 'B-670 description attaque'
+  expected: 'Verhindert, dass\ndas Ziel Items nutzt.\nAuch sein Trainer\nkann keine Items\nauf es anwenden.'
+
+- offset: '0xA3DF4D'
+  name: 'B-670 description attaque'
+  expected: 'Feuert einen starken\nLichtstrahl aus der\nEwigen Blüte ab.\nSchadet auch\ndem Anwender.'
+
+- offset: '0xA3DFA5'
+  name: 'B-670 description attaque'
+  expected: 'Je weniger AP diese\nAttacke hat, desto\nstärker ist sie.'
+
+- offset: '0xA3DFD8'
+  name: 'B-670 description attaque'
+  expected: 'Hilft dem Ziel,\nseine Attacke direkt\nnach dem Anwender\neinzusetzen.'
+
+- offset: '0xA3E022'
+  name: 'B-670 description attaque'
+  expected: 'Weist das Ziel an,\nseine letzte Attacke\nerneut einzusetzen.'
+
+- offset: '0xA3E0EA'
+  name: 'B-670 description attaque'
+  expected: 'Richtet seine Mutter\naus und schlägt mit\nden Armen zweimal zu.\nLässt das Ziel evtl.\nzurückschrecken.'
+
+- offset: '0xA3E140'
+  name: 'B-670 description attaque'
+  expected: 'Nur einsetzbar, wenn\nder Anwender alle\nanderen Attacken\nim Kampf bereits\neingesetzt hat.'
+
+- offset: '0xA3E195'
+  name: 'B-670 description attaque'
+  expected: 'Trägt das Ziel hoch\nin die Luft. Es kann\nnicht angreifen und\nwird in der nächsten\nRunde fallen gelassen.'
+
+- offset: '0xA3E1E6'
+  name: 'B-670 description attaque'
+  expected: 'Das Pokémon\ngratuliert dir\nzu deinem\nbesonderen Tag!'
+
+- offset: '0xA3E219'
+  name: 'B-670 description attaque'
+  expected: 'Der Anwender und\nein Mitstreiter\nhalten Händchen.\nDas macht sie froh.'
+
+- offset: '0xA3E256'
+  name: 'B-670 description attaque'
+  expected: 'Ein starker Strahl\ntrifft das Ziel.\nDoppelter Schaden\nbei Dynamax-Zielen.'
+
+- offset: '0xA3E2A6'
+  name: 'B-670 description attaque'
+  expected: 'Ignoriert Attacken\nund Fähigkeiten,\ndie Attacken\nauf sich lenken.'
+
+- offset: '0xA3E2EE'
+  name: 'B-670 description attaque'
+  expected: 'Beißt sich fest.\nDer Anwender und\ndas Ziel können\nnicht auswechseln.'
+
+- offset: '0xA3E338'
+  name: 'B-670 description attaque'
+  expected: 'Frisst die getragene\nBeere und erhöht\ndie eigene\nVerteidigung stark.'
+
+- offset: '0xA3E37B'
+  name: 'B-670 description attaque'
+  expected: 'Erhöht alle eigenen\nStatuswerte. Flucht\nund Auswechseln\nsind danach\nnicht mehr möglich.'
+
+- offset: '0xA3E3C8'
+  name: 'B-670 description attaque'
+  expected: 'Klebriger Teer senkt\ndie Initiative und\nmacht das Ziel gegen\nFeuer anfälliger.'
+
+- offset: '0xA3E416'
+  name: 'B-670 description attaque'
+  expected: 'Magischer Puder\nändert den Typ\ndes Ziels\nzu Psycho.'
+
+- offset: '0xA3E462'
+  name: 'B-670 description attaque'
+  expected: 'Greift zweimal an.\nGibt es zwei Ziele,\nwird jedes\neinmal getroffen.'
+
+- offset: '0xA3E4A6'
+  name: 'B-670 description attaque'
+  expected: 'Alle Pokémon auf\ndem Feld halten\nTeestunde und fressen\nihre getragene Beere.'
+
+- offset: '0xA3E4EF'
+  name: 'B-670 description attaque'
+  expected: 'Hält das Ziel fest.\nSenkt jede Runde\nseine Verteidigung\nund Spezial-\nverteidigung.'
+
+- offset: '0xA3E538'
+  name: 'B-670 description attaque'
+  expected: 'Doppelte Stärke,\nwenn der Anwender\nvor dem Ziel\nzum Zug kommt.'
+
+- offset: '0xA3E580'
+  name: 'B-670 description attaque'
+  expected: 'Doppelte Stärke,\nwenn der Anwender\nvor dem Ziel\nzum Zug kommt.'
+
+- offset: '0xA3E5C8'
+  name: 'B-670 description attaque'
+  expected: 'Tauscht die Effekte\nauf beiden Seiten\ndes Kampffeldes\nmiteinander aus.'
+
+- offset: '0xA3E600'
+  name: 'B-670 description attaque'
+  expected: 'Erhöht alle eigenen\nStatuswerte\nauf Kosten eines\nTeils der KP.'
+
+- offset: '0xA3E63A'
+  name: 'B-670 description attaque'
+  expected: 'Je höher die eigene\nVerteidigung, desto\ngrößer ist\nder Schaden.'
+
+- offset: '0xA3E67A'
+  name: 'B-670 description attaque'
+  expected: 'Dekoriert das Ziel.\nErhöht dessen\nAngriff und\nSpezialangriff stark.'
+
+- offset: '0xA3E6C4'
+  name: 'B-670 description attaque'
+  expected: 'Greift mit einem\nTrommelschlag an.\nSenkt die Initiative\ndes Ziels.'
+
+- offset: '0xA3E70B'
+  name: 'B-670 description attaque'
+  expected: 'Hält das Ziel\nvier bis fünf\nRunden lang in\neiner Fangeisenfalle.'
+
+- offset: '0xA3E74D'
+  name: 'B-670 description attaque'
+  expected: 'Schleudert einen\nFeuerball auf\ndas Ziel. Kann es\nauch verbrennen.'
+
+- offset: '0xA3E795'
+  name: 'B-670 description attaque'
+  expected: 'Wird zum Schwert\nund greift an.\nDoppelter Schaden\nbei Dynamax-Zielen.'
+
+- offset: '0xA3E7DF'
+  name: 'B-670 description attaque'
+  expected: 'Wird zum Schild\nund greift an.\nDoppelter Schaden\nbei Dynamax-Zielen.'
+
+- offset: '0xA3E82A'
+  name: 'B-670 description attaque'
+  expected: 'Morpeko erhöht seine\nInitiative und greift\nan. Der Typ hängt\nvon seiner Form ab.'
+
+- offset: '0xA3E876'
+  name: 'B-670 description attaque'
+  expected: 'Schwingt den Schweif\nund trifft die Gegner.\nSenkt dabei\nihren Angriff.'
+
+- offset: '0xA3E8C4'
+  name: 'B-670 description attaque'
+  expected: 'Sticht das Ziel\nmit einem\nspitzen Ast.'
+
+- offset: '0xA3E904'
+  name: 'B-670 description attaque'
+  expected: 'Zupft seine Gitarre.\nErzeugt ein Echo\nund starke\nSchwingungen.'
+
+- offset: '0xA3E94C'
+  name: 'B-670 description attaque'
+  expected: 'Greift mit Säure\naus sauren Äpfeln an.\nSenkt beim Ziel die\nSpezialverteidigung.'
+
+- offset: '0xA3E998'
+  name: 'B-670 description attaque'
+  expected: 'Lässt einen Apfel\nauf das Ziel fallen.\nSenkt dessen\nVerteidigung.'
+
+- offset: '0xA3E9E4'
+  name: 'B-670 description attaque'
+  expected: 'Greift mit seelen-\nbrechender Kraft an.\nSenkt den Spezial-\nangriff des Ziels.'
+
+- offset: '0xA3EA30'
+  name: 'B-670 description attaque'
+  expected: 'Greift mit Dampf an.\nVerwirrt das Ziel\neventuell auch.'
+
+- offset: '0xA3EA7B'
+  name: 'B-670 description attaque'
+  expected: 'Versprüht Wasser.\nHeilt eigene KP\nund die KP\nder Mitstreiter.'
+
+- offset: '0xA3EAC2'
+  name: 'B-670 description attaque'
+  expected: 'Schützt den Anwender.\nSenkt bei Kontakt\ndie Verteidigung\ndes Gegners stark.'
+
+- offset: '0xA3EB0D'
+  name: 'B-670 description attaque'
+  expected: 'Verbeugt sich und\nsticht mit dem Haar\nzu. Diese Attacke\ntrifft immer.'
+
+- offset: '0xA3EB9C'
+  name: 'B-670 description attaque'
+  expected: 'Eternatus'' stärkste\nAttacke. Der Anwender\nmuss in der nächsten\nRunde aussetzen.'
+
+- offset: '0xA3EBE3'
+  name: 'B-670 description attaque'
+  expected: 'Feuert einen Strahl\naus Stahl aus\nseinem Körper ab.\nSchadet auch\ndem Anwender.'
+
+- offset: '0xA3EC26'
+  name: 'B-670 description attaque'
+  expected: 'Wird im Psychofeld\nstärker und trifft\nalle gegnerischen\nZiele.'
+
+- offset: '0xA3EC76'
+  name: 'B-670 description attaque'
+  expected: 'Greift an und hebt\ndas Feld auf.\nOhne Feld schlägt\ndie Attacke fehl.'
+
+- offset: '0xA3ECC8'
+  name: 'B-670 description attaque'
+  expected: 'Trifft zwei- bis\nfünfmal in Folge.\nInitiative steigt,\nVerteidigung sinkt.'
+
+- offset: '0xA3ED0E'
+  name: 'B-670 description attaque'
+  expected: 'Sammelt in Runde 1\nWeltraumenergie und\nerhöht dabei den\nSpezialangriff.'
+
+- offset: '0xA3ED59'
+  name: 'B-670 description attaque'
+  expected: 'Trifft physisch oder\nspeziell, je nachdem,\nwas wirksamer ist.\nKann vergiften.'
+
+- offset: '0xA3EDA8'
+  name: 'B-670 description attaque'
+  expected: 'Der Anwender\nexplodiert und wird\nbesiegt. Stärker\nim Nebelfeld.'
+
+- offset: '0xA3EDF3'
+  name: 'B-670 description attaque'
+  expected: 'Gleitet zum Angriff\nüber den Boden.\nHat im Grasfeld\nPriorität.'
+
+- offset: '0xA3EE3A'
+  name: 'B-670 description attaque'
+  expected: 'Greift mit Spannung\naus dem Boden an.\nDoppelte Stärke\nim Elektrofeld.'
+
+- offset: '0xA3EE8A'
+  name: 'B-670 description attaque'
+  expected: 'Typ und Stärke\nder Attacke hängen\nvom aktiven Feld\nim Kampf ab.'
+
+- offset: '0xA3EED5'
+  name: 'B-670 description attaque'
+  expected: 'Huscht hinter das\nZiel und greift an.\nSenkt dessen\nSpezialangriff.'
+
+- offset: '0xA3EF25'
+  name: 'B-670 description attaque'
+  expected: 'Verbrennt Ziele,\nderen Statuswerte\nin dieser Runde\nerhöht wurden.'
+
+- offset: '0xA3EF73'
+  name: 'B-670 description attaque'
+  expected: 'Doppelte Stärke,\nwenn eigene Werte\nin dieser Runde\ngesenkt wurden.'
+
+- offset: '0xA3EFBD'
+  name: 'B-670 description attaque'
+  expected: 'Greift mit dem Item\ndes Ziels an.\nSchlägt fehl, wenn\ndas Ziel keines hat.'
+
+- offset: '0xA3F00D'
+  name: 'B-670 description attaque'
+  expected: 'Ätzendes Gas löst\ndas getragene Item\ndes Ziels auf.'
+
+- offset: '0xA3F059'
+  name: 'B-670 description attaque'
+  expected: 'Trainiert einen\nMitstreiter. Erhöht\ndessen Angriff\nund Verteidigung.'
+
+- offset: '0xA3F0A1'
+  name: 'B-670 description attaque'
+  expected: 'Nach dem Angriff\nwechselt der Anwender\nmit einem Pokémon\naus dem Team.'
+
+- offset: '0xA3F0E1'
+  name: 'B-670 description attaque'
+  expected: 'Drei Tritte, die\nmit jedem Treffer\nstärker werden.'
+
+- offset: '0xA3F172'
+  name: 'B-670 description attaque'
+  expected: 'Wirft glühenden Sand\nauf das Ziel.\nKann es außerdem\nverbrennen.'
+
+- offset: '0xA3F1BC'
+  name: 'B-670 description attaque'
+  expected: 'Heilt eigene KP\nund Statusprobleme\nsowie die eines\nMitstreiters im Kampf.'
+
+- offset: '0xA3F202'
+  name: 'B-670 description attaque'
+  expected: 'Ein heftiger Schlag\ntrifft das Ziel.\nLandet immer\neinen Volltreffer.'
+
+- offset: '0xA3F24A'
+  name: 'B-670 description attaque'
+  expected: 'Trifft dreimal\nhintereinander.\nLandet dabei immer\nVolltreffer.'
+
+- offset: '0xA3F2E3'
+  name: 'B-670 description attaque'
+  expected: 'Ein heftiger Tritt\ntrifft das Ziel.\nSenkt dessen\nVerteidigung.'
+
+- offset: '0xA3F32A'
+  name: 'B-670 description attaque'
+  expected: 'Dunkle, heftige\nFlammen treffen.\nLässt das Ziel evtl.\nzurückschrecken.'
+
+- offset: '0xA3F377'
+  name: 'B-670 description attaque'
+  expected: 'Greift mit Psycho-\nKraft an. Zieht der\nletzten Attacke\ndes Ziels 3 AP ab.'
+
+- offset: '0xA3F3C7'
+  name: 'B-670 description attaque'
+  expected: 'Ein Elektrokäfig\nhält das Ziel\nvier bis fünf\nRunden lang fest.'
+
+- offset: '0xA3F410'
+  name: 'B-670 description attaque'
+  expected: 'Je mehr KP der\nAnwender hat,\ndesto stärker\nist diese Attacke.'
+
+- offset: '0xA3F5BF'
+  name: 'B-670 description attaque'
+  expected: 'Trifft mit einer Axt\nund hinterlässt\nSplitter. Hohe\nVolltrefferquote.'
+
+- offset: '0xA40110'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Venusaur:\nFügt über vier\nRunden Schaden zu.'
+
+- offset: '0xA40151'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Charizard:\nFügt über vier\nRunden Schaden zu.'
+
+- offset: '0xA40193'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Blastoise:\nFügt über vier\nRunden Schaden zu.'
+
+- offset: '0xA401D5'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Butterfree:\nKann lähmen,\neinschläfern\noder vergiften.'
+
+- offset: '0xA4021F'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Pikachu:\nLähmt das Ziel.'
+
+- offset: '0xA40258'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Meowth:\nVerwirrt den Gegner\nund erzeugt Geld.'
+
+- offset: '0xA4029E'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Machamp:\nErhöht die Chance\nauf Volltreffer.'
+
+- offset: '0xA402E5'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Gengar:\nVerhindert, dass\nder Gegner flieht.'
+
+- offset: '0xA40327'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Kingler:\nSenkt die Initiative\ndes Ziels stark.'
+
+- offset: '0xA4036D'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Lapras:\nVerringert den\nSchaden für\nfünf Runden.'
+
+- offset: '0xA403AE'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Eevee:\nBezaubert das Ziel.'
+
+- offset: '0xA403E6'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Snorlax:\nStellt verzehrte\nBeeren wieder her.'
+
+- offset: '0xA4042B'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Garbodor:\nVergiftet das Ziel.'
+
+- offset: '0xA40463'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Melmetal:\nVerhindert, dass\nder Gegner seine\nAttacken wiederholt.'
+
+- offset: '0xA404AE'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Rillaboom:\nTrifft trotz der\nFähigkeit des Ziels.'
+
+- offset: '0xA404FF'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Cinderace:\nTrifft trotz der\nFähigkeit des Ziels.'
+
+- offset: '0xA40550'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Inteleon:\nTrifft trotz der\nFähigkeit des Ziels.'
+
+- offset: '0xA405A0'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Corviknight:\nHebt die Effekte\nvon Wällen auf.'
+
+- offset: '0xA405EB'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Orbeetle:\nVerändert die\nSchwerkraft für\nfünf Runden.'
+
+- offset: '0xA4062F'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Drednaw:\nVerstreut Felsbrocken\nauf dem Feld.'
+
+- offset: '0xA40673'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Coalossal:\nFügt über vier\nRunden Schaden zu.'
+
+- offset: '0xA406B5'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Flapple:\nSenkt den Fluchtwert\ndes Gegners.'
+
+- offset: '0xA406F7'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Appletun:\nHeilt den Status\nseiner Verbündeten.'
+
+- offset: '0xA4073B'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Sandaconda:\nFängt den Gegner für\nvier bis fünf Runden.'
+
+- offset: '0xA40787'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Toxtricity:\nLähmt oder vergiftet\ndie Gegner.'
+
+- offset: '0xA407CD'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Centiskorch:\nFängt den Gegner für\nvier bis fünf Runden.'
+
+- offset: '0xA4081A'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Hatterene:\nVerwirrt das Ziel.'
+
+- offset: '0xA40854'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Grimmsnarl:\nMacht den Gegner\nschläfrig.'
+
+- offset: '0xA4089B'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Alcremie:\nHeilt die KP seiner\nVerbündeten.'
+
+- offset: '0xA408DB'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Copperajah:\nVerteilt Stahlsplitter\nauf dem Feld.'
+
+- offset: '0xA40923'
+  name: 'B-670 description attaque'
+  expected: 'G-Max Duraludon:\nSenkt die AP\nder zuletzt\neingesetzten Attacke.'

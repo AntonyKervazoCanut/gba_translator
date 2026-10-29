@@ -1,0 +1,5445 @@
+[
+  {
+    "offset": "0xA3C9C6",
+    "pointers": [
+      10091260
+    ],
+    "rom": "The user shoots\npowerful lasers using\nprism power. The\nuser can't move on\nthe next turn.",
+    "en": "",
+    "fr": "L'utilisateur tire de puissants\\nlasers en utilisant la puissance du\\nprisme. L’utilisateur ne peut pas\\nbouger au tour suivant.\\n",
+    "de": "Feuert starke Laser\\nmit Prismenkraft ab.\\nDer Anwender muss\\nin der nächsten\\nRunde aussetzen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      603
+    ],
+    "expected_rom": "Feuert starke Laser\\nmit Prismenkraft ab.\\nDer Anwender muss\\nin der nächsten\\nRunde aussetzen.",
+    "encoded_bytes": 92,
+    "max_pixels": 107,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CA1F",
+    "pointers": [
+      10091264
+    ],
+    "rom": "The user bites the\ntarget with psychic\ncapabilities. This\ndestroys Light\nScreen and Reflect.",
+    "en": "",
+    "fr": "L'utilisateur mord\\nla cible avec des\\ncapacités psychiques.\\nCela détruit Light\\nScreen et Reflect.",
+    "de": "Beißt mit Psycho-\\nKraft zu. Zerstört\\ndabei Lichtschild\\nund Reflektor\\ndes Ziels.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      604
+    ],
+    "expected_rom": "Beißt mit Psycho-\\nKraft zu. Zerstört\\ndabei Lichtschild\\nund Reflektor\\ndes Ziels.",
+    "encoded_bytes": 80,
+    "max_pixels": 99,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CA7C",
+    "pointers": [
+      10091268
+    ],
+    "rom": "The user heals the\ntarget's status\ncondition. If this\nsucceeds, it also\nheals the user's HP.",
+    "en": "",
+    "fr": "L’utilisateur soigne le statut\\nde la cible. Si cela réussit,\\ncela guérit également les HP de\\nl’utilisateur.\\n",
+    "de": "Heilt den Status\\ndes Ziels. Gelingt\\ndies, erhält auch\\nder Anwender\\nKP zurück.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      605
+    ],
+    "expected_rom": "Heilt den Status\\ndes Ziels. Gelingt\\ndies, erhält auch\\nder Anwender\\nKP zurück.",
+    "encoded_bytes": 78,
+    "max_pixels": 97,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CAD9",
+    "pointers": [
+      10091272
+    ],
+    "rom": "The user attacks the\ntarget by dancing\nvery hard. The user's\ntype determines this\nmove's type.",
+    "en": "",
+    "fr": "L'utilisateur attaque la cible en\\ndansant très fort. Le type de\\nl’utilisateur détermine le type de\\nce mouvement.\\n",
+    "de": "Greift mit einem\\nwilden Tanz an.\\nDer Typ der Attacke\\nentspricht dem Typ\\ndes Anwenders.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      606
+    ],
+    "expected_rom": "Greift mit einem\\nwilden Tanz an.\\nDer Typ der Attacke\\nentspricht dem Typ\\ndes Anwenders.",
+    "encoded_bytes": 87,
+    "max_pixels": 109,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CB38",
+    "pointers": [
+      10091276
+    ],
+    "rom": "The user attacks the\nfoe with a bone of\nspirit. It may lower\nthe foe's Defense.",
+    "en": "",
+    "fr": "L'utilisateur attaque l'ennemi avec\\nun os spirituel. Cela peut réduire\\nla défense de l’ennemi.\\n",
+    "de": "Trifft mit einem\\nGeisterknochen.\\nSenkt eventuell\\ndie Verteidigung\\ndes Gegners.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      607
+    ],
+    "expected_rom": "Trifft mit einem\\nGeisterknochen.\\nSenkt eventuell\\ndie Verteidigung\\ndes Gegners.",
+    "encoded_bytes": 79,
+    "max_pixels": 87,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CB88",
+    "pointers": [
+      10091280
+    ],
+    "rom": "The user sets a\nshell trap. If the\nuser is hit by a\nphysical move, the\ntrap will explode.",
+    "en": "",
+    "fr": "L'utilisateur définit un piège\\nshell. Si l'utilisateur est touché\\npar un mouvement physique, le piège\\nexplosera.\\n",
+    "de": "Legt eine Falle.\\nWird der Anwender\\nphysisch getroffen,\\nexplodiert\\ndiese Falle.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      608
+    ],
+    "expected_rom": "Legt eine Falle.\\nWird der Anwender\\nphysisch getroffen,\\nexplodiert\\ndiese Falle.",
+    "encoded_bytes": 79,
+    "max_pixels": 104,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CBE2",
+    "pointers": [
+      10091284
+    ],
+    "rom": "The user regains up\nto half of its max\nHP. It restores\nmore HP in a\nsandstorm.",
+    "en": "",
+    "fr": "L'utilisateur récupère jusqu'à la\\nmoitié de ses PV max. Il restaure\\nplus de HP lors d'une tempête de\\nsable.\\n",
+    "de": "Heilt bis zur Hälfte\\nder maximalen KP.\\nIm Sandsturm\\nwerden noch mehr\\nKP geheilt.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      609
+    ],
+    "expected_rom": "Heilt bis zur Hälfte\\nder maximalen KP.\\nIm Sandsturm\\nwerden noch mehr\\nKP geheilt.",
+    "encoded_bytes": 81,
+    "max_pixels": 109,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CC78",
+    "pointers": [
+      10091292
+    ],
+    "rom": "In this two-turn move,\nthe user gathers\nlight and fills a\nblade with light's\nenergy to attack.",
+    "en": "",
+    "fr": "Dans ce mouvement de deux tours,\\nl’utilisateur collecte de la lumière\\net remplit une lame d’énergie\\nlumineuse pour attaquer.\\n",
+    "de": "Sammelt in Runde 1\\nLicht und lädt eine\\nKlinge damit auf.\\nGreift in Runde 2\\nmit der Klinge an.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      611
+    ],
+    "expected_rom": "Sammelt in Runde 1\\nLicht und lädt eine\\nKlinge damit auf.\\nGreift in Runde 2\\nmit der Klinge an.",
+    "encoded_bytes": 94,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CCD7",
+    "pointers": [
+      10091296
+    ],
+    "rom": "The user bursts into\nsong, emitting\nbubbles. Any burnt\nPokémon will be\nhealed.",
+    "en": "",
+    "fr": "L'utilisateur\\nse met à chanter\\nen émettant des\\nbulles. Tout Pokémon\\nbrûlé sera guéri.",
+    "de": "Singt und erzeugt\\ndabei Blasen.\\nHeilt Verbrennungen\\naller betroffenen\\nPokémon.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      612
+    ],
+    "expected_rom": "Singt und erzeugt\\ndabei Blasen.\\nHeilt Verbrennungen\\naller betroffenen\\nPokémon.",
+    "encoded_bytes": 79,
+    "max_pixels": 104,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CD80",
+    "pointers": [
+      10091304
+    ],
+    "rom": "The user exchanges\nSpeed stats with\nthe target.",
+    "en": "",
+    "fr": "L'utilisateur échange des\\nstatistiques de vitesse avec la\\ncible.",
+    "de": "Tauscht den eigenen\\nInitiative-Wert mit\\ndem des Ziels.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      614
+    ],
+    "expected_rom": "Tauscht den eigenen\\nInitiative-Wert mit\\ndem des Ziels.",
+    "encoded_bytes": 55,
+    "max_pixels": 107,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CE5A",
+    "pointers": [
+      10091316
+    ],
+    "rom": "If the previous move\nfailed, frustration\ndoubles the power of\nthis move.",
+    "en": "",
+    "fr": "Si le coup précédent a échoué, la\\nfrustration double la puissance de\\nce coup.\\n",
+    "de": "Die Stärke wird\\nverdoppelt, falls\\ndie vorige Attacke\\nfehlgeschlagen ist.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      617
+    ],
+    "expected_rom": "Die Stärke wird\\nverdoppelt, falls\\ndie vorige Attacke\\nfehlgeschlagen ist.",
+    "encoded_bytes": 73,
+    "max_pixels": 104,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CEA3",
+    "pointers": [
+      10091320
+    ],
+    "rom": "The user drains HP\nequal to the foe's\nAttack stat. It\nalso lowers the\nfoe's Attack stat.",
+    "en": "",
+    "fr": "L’utilisateur draine des PV égaux à\\nla statistique d’attaque de\\nl’ennemi. Cela réduit également la\\nstatistique d’attaque de l’ennemi.\\n",
+    "de": "Entzieht dem Ziel KP\\nin Höhe seines\\nAngriffswerts.\\nSenkt außerdem\\nseinen Angriff.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      618
+    ],
+    "expected_rom": "Entzieht dem Ziel KP\\nin Höhe seines\\nAngriffswerts.\\nSenkt außerdem\\nseinen Angriff.",
+    "encoded_bytes": 82,
+    "max_pixels": 112,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CF56",
+    "pointers": [
+      10091328
+    ],
+    "rom": "The user gets teary\neyed to look pitiful.\nThis lowers the\ntarget's Attack and\nSp. Atk stats.",
+    "en": "",
+    "fr": "Larmes aux yeux\\npour attendrir.\\nBaisse Attaque\\net Att. Spé\\nde la cible.",
+    "de": "Rührt das Ziel\\nmit Tränen.\\nSenkt dessen\\nAngriff und\\nSpezialangriff.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      620
+    ],
+    "expected_rom": "Rührt das Ziel\\nmit Tränen.\\nSenkt dessen\\nAngriff und\\nSpezialangriff.",
+    "encoded_bytes": 68,
+    "max_pixels": 80,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3CFB3",
+    "pointers": [
+      10091332
+    ],
+    "rom": "The user attacks the\nfoe's throat to\nprevent it from\nusing moves that emit\nsound for two turns.",
+    "en": "",
+    "fr": "L’utilisateur attaque la gorge de\\nl’ennemi pour l’empêcher d’utiliser\\ndes mouvements émettant du son\\npendant deux tours.\\n",
+    "de": "Trifft die Kehle\\ndes Ziels. Es kann\\nzwei Runden lang\\nkeine Lärm-Attacken\\neinsetzen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      621
+    ],
+    "expected_rom": "Trifft die Kehle\\ndes Ziels. Es kann\\nzwei Runden lang\\nkeine Lärm-Attacken\\neinsetzen.",
+    "encoded_bytes": 84,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D06D",
+    "pointers": [
+      10091340
+    ],
+    "rom": "The user lands a\ntropical kick on the\nfoe. It also lowers\nthe foe's Attack.",
+    "en": "",
+    "fr": "L'utilisateur donne un coup de pied\\ntropical à l'ennemi. Cela réduit\\négalement l’attaque de l’ennemi.\\n",
+    "de": "Trifft mit einem\\ntropischen Tritt.\\nSenkt außerdem den\\nAngriff des Ziels.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      623
+    ],
+    "expected_rom": "Trifft mit einem\\ntropischen Tritt.\\nSenkt außerdem den\\nAngriff des Ziels.",
+    "encoded_bytes": 73,
+    "max_pixels": 103,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D0B9",
+    "pointers": [
+      10091344
+    ],
+    "rom": "A strong electric\nblast crashes down\non the target. This\nmay make the target\nflinch.",
+    "en": "",
+    "fr": "Une forte explosion\\nélectrique s'abat\\nsur la cible.\\nCela peut l'apeurer.",
+    "de": "Ein starker Blitz\\ntrifft das Ziel.\\nLässt es eventuell\\nzurückschrecken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      624
+    ],
+    "expected_rom": "Ein starker Blitz\\ntrifft das Ziel.\\nLässt es eventuell\\nzurückschrecken.",
+    "encoded_bytes": 71,
+    "max_pixels": 100,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D10E",
+    "pointers": [
+      10091348
+    ],
+    "rom": "The user electrifies\nthe ground for five\nturns, powering up\nElectric moves and\neluding sleep.",
+    "en": "",
+    "fr": "L'utilisateur électrise le sol\\npendant cinq tours, alimentant ainsi\\nles mouvements électriques et\\névitant le sommeil.\\n",
+    "de": "Elektrofeld für\\nfünf Runden. Stärkt\\nElektro-Attacken\\nund verhindert\\nEinschlafen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      625
+    ],
+    "expected_rom": "Elektrofeld für\\nfünf Runden. Stärkt\\nElektro-Attacken\\nund verhindert\\nEinschlafen.",
+    "encoded_bytes": 81,
+    "max_pixels": 104,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D16C",
+    "pointers": [
+      10091352
+    ],
+    "rom": "The user turns the\nground to grass for\nfive turns, powering\nup Grass moves and\nrestoring HP.",
+    "en": "",
+    "fr": "L'utilisateur transforme le sol en\\nherbe pendant cinq tours, activant\\nainsi les mouvements d'herbe et\\nrestaurant les PV.\\n",
+    "de": "Grasfeld für\\nfünf Runden. Stärkt\\nPflanzen-Attacken\\nund stellt\\nKP wieder her.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      626
+    ],
+    "expected_rom": "Grasfeld für\\nfünf Runden. Stärkt\\nPflanzen-Attacken\\nund stellt\\nKP wieder her.",
+    "encoded_bytes": 77,
+    "max_pixels": 104,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D1C9",
+    "pointers": [
+      10091356
+    ],
+    "rom": "The user covers the\nground in mist for\nfive turns, halving\nDragon moves and\npreventing status.",
+    "en": "",
+    "fr": "L'utilisateur couvre sol de brume\\npendant cinq tours, réduisant de\\nmoitié les mouvements du Dragon et\\nempêchant son statut.\\n",
+    "de": "Nebelfeld für fünf\\nRunden. Halbiert\\nDrachen-Attacken\\nund verhindert\\nStatusprobleme.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      627
+    ],
+    "expected_rom": "Nebelfeld für fünf\\nRunden. Halbiert\\nDrachen-Attacken\\nund verhindert\\nStatusprobleme.",
+    "encoded_bytes": 84,
+    "max_pixels": 100,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D228",
+    "pointers": [
+      10091360
+    ],
+    "rom": "The user makes the\nground weird for\nfive turns, boosting\nPsychic moves and\nblocking priority.",
+    "en": "",
+    "fr": "L'utilisateur rend le sol bizarre\\npendant cinq tours, renforçant ainsi\\nles mouvements psychiques et la\\npriorité de blocage.\\n",
+    "de": "Psychofeld für\\nfünf Runden. Stärkt\\nPsycho-Attacken\\nund blockiert\\nPrioritätsattacken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      628
+    ],
+    "expected_rom": "Psychofeld für\\nfünf Runden. Stärkt\\nPsycho-Attacken\\nund blockiert\\nPrioritätsattacken.",
+    "encoded_bytes": 85,
+    "max_pixels": 104,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D286",
+    "pointers": [
+      10091364
+    ],
+    "rom": "When combined with\nWater Pledge, its\npower increases and\na vast swamp appears.",
+    "en": "",
+    "fr": "Lorsqu'il est combiné avec Water\\nPledge, sa puissance augmente et un\\nvaste marécage apparaît.\\n",
+    "de": "Mit Wassersäulen\\nsteigt die Stärke\\nund es entsteht\\nein großer Sumpf.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      629
+    ],
+    "expected_rom": "Mit Wassersäulen\\nsteigt die Stärke\\nund es entsteht\\nein großer Sumpf.",
+    "encoded_bytes": 69,
+    "max_pixels": 95,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D2D5",
+    "pointers": [
+      10091368
+    ],
+    "rom": "When combined with\nGrass Pledge, its\npower increases and a\nsea of fire appears.",
+    "en": "",
+    "fr": "Lorsqu'il est combiné avec Grass\\nPledge, sa puissance augmente et une\\nmer de feu apparaît.\\n",
+    "de": "Mit Pflanzensäulen\\nsteigt die Stärke\\nund es entsteht\\nein Flammenmeer.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      630
+    ],
+    "expected_rom": "Mit Pflanzensäulen\\nsteigt die Stärke\\nund es entsteht\\nein Flammenmeer.",
+    "encoded_bytes": 70,
+    "max_pixels": 98,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D325",
+    "pointers": [
+      10091372
+    ],
+    "rom": "When combined with\nFire Pledge, its\npower increases and\na rainbow appears.",
+    "en": "",
+    "fr": "Lorsqu'il est combiné avec Fire\\nPledge, sa puissance augmente et un\\narc-en-ciel apparaît.\\n",
+    "de": "Mit Feuersäulen\\nsteigt die Stärke\\nund es entsteht\\nein Regenbogen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      631
+    ],
+    "expected_rom": "Mit Feuersäulen\\nsteigt die Stärke\\nund es entsteht\\nein Regenbogen.",
+    "encoded_bytes": 66,
+    "max_pixels": 92,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D370",
+    "pointers": [
+      10091376
+    ],
+    "rom": "The user creates a\nbizarre area in\nwhich slower Pokémon\nget to move first\nfor five turns.",
+    "en": "",
+    "fr": "L'utilisateur crée une zone bizarre\\ndans laquelle les Pokémon les plus\\nlents peuvent se déplacer en premier\\npendant cinq tours.\\n",
+    "de": "Erzeugt einen Raum,\\nin dem langsamere\\nPokémon fünf Runden\\nlang zuerst\\nzum Zug kommen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      632
+    ],
+    "expected_rom": "Erzeugt einen Raum,\\nin dem langsamere\\nPokémon fünf Runden\\nlang zuerst\\nzum Zug kommen.",
+    "encoded_bytes": 86,
+    "max_pixels": 107,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D3CA",
+    "pointers": [
+      10091380
+    ],
+    "rom": "The user creates a\nbizarre area in\nwhich Pokémon's held\nitems lose effect\nfor five turns.",
+    "en": "",
+    "fr": "L’utilisateur crée une zone bizarre\\ndans laquelle les objets détenus par\\nPokémon perdent leur effet pendant\\ncinq tours.\\n",
+    "de": "Erzeugt einen Raum,\\nin dem getragene\\nItems fünf Runden\\nlang ihre Wirkung\\nverlieren.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      633
+    ],
+    "expected_rom": "Erzeugt einen Raum,\\nin dem getragene\\nItems fünf Runden\\nlang ihre Wirkung\\nverlieren.",
+    "encoded_bytes": 84,
+    "max_pixels": 107,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D424",
+    "pointers": [
+      10091384
+    ],
+    "rom": "The user creates a\nbizarre area where\nPokémon's Defense\nand Sp. Def swap\nfor five turns.",
+    "en": "",
+    "fr": "Zone bizarre\\noù Défense\\net Déf. Spé\\ns'échangent\\npendant 5 tours.",
+    "de": "Tauscht für fünf\\nRunden Verteidigung\\nund Spezial-\\nverteidigung aller\\nPokémon im Kampf.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      634
+    ],
+    "expected_rom": "Tauscht für fünf\\nRunden Verteidigung\\nund Spezial-\\nverteidigung aller\\nPokémon im Kampf.",
+    "encoded_bytes": 87,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D47D",
+    "pointers": [
+      10091388
+    ],
+    "rom": "The user protects\nitself and its\nallies from status\nmoves with a\nmysterious power.",
+    "en": "",
+    "fr": "L'utilisateur se\\nprotège ainsi que ses\\nalliés des mouvements\\nde statut grâce à un\\npouvoir mystérieux.",
+    "de": "Schützt den Anwender\\nund seine Mitstreiter\\nmit einer magischen\\nKraft vor\\nStatus-Attacken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      635
+    ],
+    "expected_rom": "Schützt den Anwender\\nund seine Mitstreiter\\nmit einer magischen\\nKraft vor\\nStatus-Attacken.",
+    "encoded_bytes": 90,
+    "max_pixels": 114,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D4D0",
+    "pointers": [
+      10091392
+    ],
+    "rom": "Using a pulled-up\nmat as a shield,\nthe user protects\nitself and its allies\nfrom damaging moves.",
+    "en": "",
+    "fr": "En utilisant un tapis relevé comme\\nbouclier, l'utilisateur se protège\\nainsi que ses alliés des mouvements\\ndommageables.\\n",
+    "de": "Schützt den Anwender\\nund seine Mitstreiter\\nmit einer Matte\\nvor schädigenden\\nAttacken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      636
+    ],
+    "expected_rom": "Schützt den Anwender\\nund seine Mitstreiter\\nmit einer Matte\\nvor schädigenden\\nAttacken.",
+    "encoded_bytes": 86,
+    "max_pixels": 114,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D530",
+    "pointers": [
+      10091396
+    ],
+    "rom": "The user protects\nitself and its\nallies from priority\nmoves.",
+    "en": "",
+    "fr": "L'utilisateur se protège ainsi que\\nses alliés des mouvements\\nprioritaires.\\n",
+    "de": "Schützt den Anwender\\nund seine Mitstreiter\\nvor Attacken\\nmit Priorität.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      637
+    ],
+    "expected_rom": "Schützt den Anwender\\nund seine Mitstreiter\\nvor Attacken\\nmit Priorität.",
+    "encoded_bytes": 71,
+    "max_pixels": 114,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D56D",
+    "pointers": [
+      10091400
+    ],
+    "rom": "The user protects\nitself and its\nallies from wide-\nranged attacks.",
+    "en": "",
+    "fr": "L'utilisateur se protège ainsi que\\nses alliés contre les attaques à\\ngrande échelle.\\n",
+    "de": "Schützt den Anwender\\nund seine Mitstreiter\\nvor großflächigen\\nAttacken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      638
+    ],
+    "expected_rom": "Schützt den Anwender\\nund seine Mitstreiter\\nvor großflächigen\\nAttacken.",
+    "encoded_bytes": 71,
+    "max_pixels": 114,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D652",
+    "pointers": [
+      10091412
+    ],
+    "rom": "The user lets out a\ndamaging belch at\nthe target. The user\nmust eat a held\nBerry to use this.",
+    "en": "",
+    "fr": "L'utilisateur lâche un rot\\ndommageable sur la cible.\\nL'utilisateur doit manger une baie\\ntenue pour l'utiliser.\\n",
+    "de": "Ein Rülpser trifft\\ndas Ziel. Zuvor muss\\nder Anwender eine\\ngetragene Beere\\ngefressen haben.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      641
+    ],
+    "expected_rom": "Ein Rülpser trifft\\ndas Ziel. Zuvor muss\\nder Anwender eine\\ngetragene Beere\\ngefressen haben.",
+    "encoded_bytes": 91,
+    "max_pixels": 112,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D703",
+    "pointers": [
+      10091420
+    ],
+    "rom": "The user flings its\nheld item at the\ntarget to attack.\nIts power and effect\ndepend on the item.",
+    "en": "",
+    "fr": "L'utilisateur lance l'objet qu'il\\ntient sur la cible pour l'attaquer.\\nSa puissance et son effet dépendent\\nde l'objet.\\n",
+    "de": "Wirft das getragene\\nItem auf das Ziel.\\nStärke und Wirkung\\nder Attacke hängen\\nvom Item ab.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      643
+    ],
+    "expected_rom": "Wirft das getragene\\nItem auf das Ziel.\\nStärke und Wirkung\\nder Attacke hängen\\nvom Item ab.",
+    "encoded_bytes": 90,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D7C1",
+    "pointers": [
+      10091428
+    ],
+    "rom": "Gravity intensifies\nfor five turns,\npreventing moves\nthat use flight and\nnegating Levitate.",
+    "en": "",
+    "fr": "La gravité s'intensifie pendant 5\\ntours, empêchant les mouvements\\nutilisant le vol et annulant la\\nlévitation.\\n",
+    "de": "Mehr Schwerkraft\\nfür fünf Runden.\\nVerhindert Flug-\\nmanöver und hebt\\nSchwebe auf.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      645
+    ],
+    "expected_rom": "Mehr Schwerkraft\\nfür fünf Runden.\\nVerhindert Flug-\\nmanöver und hebt\\nSchwebe auf.",
+    "encoded_bytes": 81,
+    "max_pixels": 92,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D81D",
+    "pointers": [
+      10091432
+    ],
+    "rom": "The user employs its\npsychic power to\naverage its Defense\nand Sp. Def stats\nwith the target.",
+    "en": "",
+    "fr": "L'utilisateur utilise son pouvoir\\npsychique pour faire la moyenne de\\nsa Défense et de sa Déf. Spé avec la\\ncible.\\n",
+    "de": "Teilt Verteidigung\\nund Spezial-\\nverteidigung mit dem\\nZiel und gleicht\\ndie Werte an.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      646
+    ],
+    "expected_rom": "Teilt Verteidigung\\nund Spezial-\\nverteidigung mit dem\\nZiel und gleicht\\ndie Werte an.",
+    "encoded_bytes": 84,
+    "max_pixels": 110,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D87A",
+    "pointers": [
+      10091436
+    ],
+    "rom": "The user prevents\nthe opposing team\nfrom using any HP\nrecovery for five\nturns.",
+    "en": "",
+    "fr": "L'utilisateur empêche l'équipe\\nadverse d'utiliser toute\\nrécupération de HP pendant cinq\\ntours.\\n",
+    "de": "Verhindert fünf\\nRunden lang, dass\\ndas gegnerische Team\\nKP wiederherstellt.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      647
+    ],
+    "expected_rom": "Verhindert fünf\\nRunden lang, dass\\ndas gegnerische Team\\nKP wiederherstellt.",
+    "encoded_bytes": 75,
+    "max_pixels": 114,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D8C9",
+    "pointers": [
+      10091440
+    ],
+    "rom": "The user disperses\nelectrically charged\nparticles, changing\nNormal- to Electric-\ntype moves.",
+    "en": "",
+    "fr": "L'utilisateur disperse les\\nparticules chargées électriquement,\\nchangeant les mouvements de type\\nnormal en mouvements électriques.\\n",
+    "de": "Verteilt elektrisch\\ngeladene Teilchen.\\nNormal-Attacken\\nwerden dadurch zu\\nElektro-Attacken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      648
+    ],
+    "expected_rom": "Verteilt elektrisch\\ngeladene Teilchen.\\nNormal-Attacken\\nwerden dadurch zu\\nElektro-Attacken.",
+    "encoded_bytes": 91,
+    "max_pixels": 101,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D926",
+    "pointers": [
+      10091444
+    ],
+    "rom": "The user chants an\nincantation that\nprevents foes from\nlanding critical\nhits for five turns.",
+    "en": "",
+    "fr": "L'utilisateur chante l'incantation\\nqui empêche les ennemis de porter\\ndes coups critiques pendant cinq\\ntours.\\n",
+    "de": "Ein Zauberspruch\\nverhindert fünf\\nRunden lang\\nVolltreffer durch\\ndie Gegner.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      649
+    ],
+    "expected_rom": "Ein Zauberspruch\\nverhindert fünf\\nRunden lang\\nVolltreffer durch\\ndie Gegner.",
+    "encoded_bytes": 75,
+    "max_pixels": 94,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D983",
+    "pointers": [
+      10091448
+    ],
+    "rom": "The user levitates\nusing electrically\ngenerated magnetism\nfor five turns.",
+    "en": "",
+    "fr": "L'utilisateur lévite grâce au\\nmagnétisme généré électriquement\\npendant cinq tours.\\n",
+    "de": "Lässt den Anwender\\nmittels Magnetkraft\\nfünf Runden lang\\nschweben.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      650
+    ],
+    "expected_rom": "Lässt den Anwender\\nmittels Magnetkraft\\nfünf Runden lang\\nschweben.",
+    "encoded_bytes": 66,
+    "max_pixels": 102,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3D9CD",
+    "pointers": [
+      10091452
+    ],
+    "rom": "The user manipulates\nmagnets to up Def\nand Sp. Def stats of\nallies with Plus or\nMinus Ability.",
+    "en": "",
+    "fr": "L'utilisateur manipule les aimants\\npour augmenter la Déf. et la Déf.\\nSpé. des alliés dotés du talent\\nPlus ou Moins.",
+    "de": "Erhöht Verteidigung\\nund Spezial-\\nverteidigung von\\nMitstreitern mit\\nPlus oder Minus.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      651
+    ],
+    "expected_rom": "Erhöht Verteidigung\\nund Spezial-\\nverteidigung von\\nMitstreitern mit\\nPlus oder Minus.",
+    "encoded_bytes": 84,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DA2C",
+    "pointers": [
+      10091456
+    ],
+    "rom": "The user covers the\ntarget in a powder\nthat explodes if it\nuses a Fire-type\nmove.",
+    "en": "",
+    "fr": "L'utilisateur recouvre\\nla cible d'une\\npoudre qui explose\\ns'il utilise un\\nmouvement de type Feu.",
+    "de": "Bedeckt das Ziel\\nmit Puder, der\\nexplodiert, wenn es\\neine Feuer-Attacke\\neinsetzt.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      652
+    ],
+    "expected_rom": "Bedeckt das Ziel\\nmit Puder, der\\nexplodiert, wenn es\\neine Feuer-Attacke\\neinsetzt.",
+    "encoded_bytes": 81,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DA7E",
+    "pointers": [
+      10091460
+    ],
+    "rom": "The user employs its\npsychic power to\naverage its Attack\nand Sp. Atk stats\nwith the target.",
+    "en": "",
+    "fr": "Moyenne\\nl'Attaque\\net l'Att.\\nSpé avec\\nla cible.",
+    "de": "Teilt Angriff und\\nSpezialangriff mit\\ndem Ziel und\\ngleicht die\\nWerte an.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      653
+    ],
+    "expected_rom": "Teilt Angriff und\\nSpezialangriff mit\\ndem Ziel und\\ngleicht die\\nWerte an.",
+    "encoded_bytes": 72,
+    "max_pixels": 96,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DB26",
+    "pointers": [
+      10091468
+    ],
+    "rom": "The user's\nmysterious psychic\nwave changes the\ntarget's Ability to\nSimple.",
+    "en": "",
+    "fr": "La mystérieuse\\nonde psychique de\\nl’utilisateur change\\nla capacité de la\\ncible en Simple.",
+    "de": "Eine Psycho-Welle\\nändert die Fähigkeit\\ndes Ziels\\nzu Wankelmut.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      655
+    ],
+    "expected_rom": "Eine Psycho-Welle\\nändert die Fähigkeit\\ndes Ziels\\nzu Wankelmut.",
+    "encoded_bytes": 63,
+    "max_pixels": 109,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DBCA",
+    "pointers": [
+      10091476
+    ],
+    "rom": "The user makes the\ntarget float with\npsychic power. The\ntarget is easier to\nhit for three turns.",
+    "en": "",
+    "fr": "L'utilisateur fait flotter la cible\\ngrâce à un pouvoir psychique. La\\ncible est plus facile à atteindre\\npendant trois tours.\\n",
+    "de": "Lässt das Ziel\\nschweben. Es ist\\ndrei Runden lang\\nleichter zu treffen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      657
+    ],
+    "expected_rom": "Lässt das Ziel\\nschweben. Es ist\\ndrei Runden lang\\nleichter zu treffen.",
+    "encoded_bytes": 70,
+    "max_pixels": 109,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DC2B",
+    "pointers": [
+      10091480
+    ],
+    "rom": "The foe is brought\ntrick-or-treating.\nThis adds Ghost type\nto the target's type.",
+    "en": "",
+    "fr": "L'ennemi est emmené à la porte.\\nCela ajoute le type Spectre au type\\nde la cible.\\n",
+    "de": "Lädt das Ziel zum\\nzuckersüßen Spuk ein.\\nEs erhält zusätzlich\\nden Typ Geist.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      658
+    ],
+    "expected_rom": "Lädt das Ziel zum\\nzuckersüßen Spuk ein.\\nEs erhält zusätzlich\\nden Typ Geist.",
+    "encoded_bytes": 76,
+    "max_pixels": 117,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DC7C",
+    "pointers": [
+      10091484
+    ],
+    "rom": "The user sprays a\npoisonous liquid\nthat lowers Attack,\nSp. Atk, and Speed\nof poisoned foes.",
+    "en": "",
+    "fr": "Pulvérise un liquide\\ntoxique qui baisse\\nAttaque, Att. Spé et\\nVitesse des cibles\\nempoisonnées.",
+    "de": "Besprüht das Ziel\\nmit Gift. Senkt bei\\nvergifteten Zielen\\nAngriff, Spezial-\\nangriff und Initiative.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      659
+    ],
+    "expected_rom": "Besprüht das Ziel\\nmit Gift. Senkt bei\\nvergifteten Zielen\\nAngriff, Spezial-\\nangriff und Initiative.",
+    "encoded_bytes": 99,
+    "max_pixels": 121,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DCD8",
+    "pointers": [
+      10091488
+    ],
+    "rom": "The user puts a\nforest curse on the\ntarget. The target\nis now Grass type\nas well.",
+    "en": "",
+    "fr": "L'utilisateur lance une\\nmalédiction forestière\\nsur la cible. La cible est\\ndésormais également de type\\nHerbe.",
+    "de": "Ein Fluch des Waldes\\ntrifft das Ziel.\\nEs erhält\\nzusätzlich den\\nTyp Pflanze.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      660
+    ],
+    "expected_rom": "Ein Fluch des Waldes\\ntrifft das Ziel.\\nEs erhält\\nzusätzlich den\\nTyp Pflanze.",
+    "encoded_bytes": 76,
+    "max_pixels": 113,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DD2A",
+    "pointers": [
+      10091492
+    ],
+    "rom": "The user attacks\neverything around it\nby making its head\nexplode. This also\ndamages the user.",
+    "en": "",
+    "fr": "Attaque autour\\navec sa tête qui\\nexplose. Cela\\nblesse aussi le\\nlanceur.",
+    "de": "Lässt den Kopf\\nexplodieren und\\ntrifft alle ringsum.\\nSchadet auch\\ndem Anwender.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      661
+    ],
+    "expected_rom": "Lässt den Kopf\\nexplodieren und\\ntrifft alle ringsum.\\nSchadet auch\\ndem Anwender.",
+    "encoded_bytes": 79,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DD88",
+    "pointers": [
+      10091496
+    ],
+    "rom": "A pillar of light\nthat deals physical\nor special damage\nbased on the user's\nbetter stat.",
+    "en": "",
+    "fr": "Pilier lumineux inflige\\ndégâts physiques ou\\nspéciaux selon la\\nmeilleure stat du\\nlanceur.",
+    "de": "Eine Lichtsäule\\ntrifft physisch oder\\nspeziell, je nach\\ndem höheren Wert\\ndes Anwenders.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      662
+    ],
+    "expected_rom": "Eine Lichtsäule\\ntrifft physisch oder\\nspeziell, je nach\\ndem höheren Wert\\ndes Anwenders.",
+    "encoded_bytes": 87,
+    "max_pixels": 108,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DDE1",
+    "pointers": [
+      10091500
+    ],
+    "rom": "The user attacks\nwith electrically\ncharged fists. This\nmakes Normal-type\nmoves Electric-type.",
+    "en": "",
+    "fr": "Le lanceur attaque avec\\ndes poings électrifiés.\\nLes capacités Normal\\ndeviennent\\nÉlectrik.",
+    "de": "Trifft mit elektrisch\\ngeladenen Fäusten.\\nNormal-Attacken\\nwerden dadurch zu\\nElektro-Attacken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      663
+    ],
+    "expected_rom": "Trifft mit elektrisch\\ngeladenen Fäusten.\\nNormal-Attacken\\nwerden dadurch zu\\nElektro-Attacken.",
+    "encoded_bytes": 93,
+    "max_pixels": 110,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DE3F",
+    "pointers": [
+      10091504
+    ],
+    "rom": "If the target is\nelectrified before\nits move in the turn,\nthe target's move\nbecomes Electric.",
+    "en": "",
+    "fr": "Si la cible est\\nélectrifiée avant d'agir,\\nsa capacité devient\\nde type\\nÉlectrik.",
+    "de": "Wird das Ziel vor\\nseiner Attacke\\nelektrisiert,\\nerhält seine Attacke\\nden Typ Elektro.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      664
+    ],
+    "expected_rom": "Wird das Ziel vor\\nseiner Attacke\\nelektrisiert,\\nerhält seine Attacke\\nden Typ Elektro.",
+    "encoded_bytes": 85,
+    "max_pixels": 110,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DE9D",
+    "pointers": [
+      10091508
+    ],
+    "rom": "It prevents the\ntarget from using\nitems. Its Trainer\nalso can't use\nitems on it.",
+    "en": "",
+    "fr": "Empêche la cible\\nd'utiliser des objets.\\nSon dresseur ne\\npeut pas non plus en\\nutiliser.",
+    "de": "Verhindert, dass\\ndas Ziel Items nutzt.\\nAuch sein Trainer\\nkann keine Items\\nauf es anwenden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      665
+    ],
+    "expected_rom": "Verhindert, dass\\ndas Ziel Items nutzt.\\nAuch sein Trainer\\nkann keine Items\\nauf es anwenden.",
+    "encoded_bytes": 91,
+    "max_pixels": 116,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DF4D",
+    "pointers": [
+      10091516
+    ],
+    "rom": "The user fires a\npowerful beam of\nlight from the\nEternal Flower. This\ndamages the user.",
+    "en": "",
+    "fr": "L'utilisateur tire un\\npuissant faisceau de\\nlumière depuis la Fleur\\néternelle. Cela nuit à\\nl'utilisateur.",
+    "de": "Feuert einen starken\\nLichtstrahl aus der\\nEwigen Blüte ab.\\nSchadet auch\\ndem Anwender.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      667
+    ],
+    "expected_rom": "Feuert einen starken\\nLichtstrahl aus der\\nEwigen Blüte ab.\\nSchadet auch\\ndem Anwender.",
+    "encoded_bytes": 85,
+    "max_pixels": 109,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DFA5",
+    "pointers": [
+      10091520
+    ],
+    "rom": "The fewer PP this\nmove has, the\ngreater its power.",
+    "en": "",
+    "fr": "Moins cette capacité a de\\nPP, plus sa puissance est\\ngrande.",
+    "de": "Je weniger AP diese\\nAttacke hat, desto\\nstärker ist sie.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      668
+    ],
+    "expected_rom": "Je weniger AP diese\\nAttacke hat, desto\\nstärker ist sie.",
+    "encoded_bytes": 56,
+    "max_pixels": 107,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3DFD8",
+    "pointers": [
+      10091524
+    ],
+    "rom": "The user helps the\ntarget and makes it\nuse its move right\nafter the user.",
+    "en": "",
+    "fr": "L'utilisateur aide la\\ncible et lui fait utiliser\\nsa capacité juste après\\nl'utilisateur.",
+    "de": "Hilft dem Ziel,\\nseine Attacke direkt\\nnach dem Anwender\\neinzusetzen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      669
+    ],
+    "expected_rom": "Hilft dem Ziel,\\nseine Attacke direkt\\nnach dem Anwender\\neinzusetzen.",
+    "encoded_bytes": 68,
+    "max_pixels": 108,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E022",
+    "pointers": [
+      10091528
+    ],
+    "rom": "The user instructs\nthe target to use\nthe target's last\nmove again.",
+    "en": "",
+    "fr": "L’utilisateur demande\\nà la cible d’utiliser\\nà nouveau sa dernière\\ncapacité.",
+    "de": "Weist das Ziel an,\\nseine letzte Attacke\\nerneut einzusetzen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      670
+    ],
+    "expected_rom": "Weist das Ziel an,\\nseine letzte Attacke\\nerneut einzusetzen.",
+    "encoded_bytes": 60,
+    "max_pixels": 110,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E0EA",
+    "pointers": [
+      10091540
+    ],
+    "rom": "The user centers\nits hex nut and\nstrikes twice with\nits arms. It may\ncause flinching.",
+    "en": "",
+    "fr": "Le lanceur centre son\\nécrou hexagonal et frappe\\ndeux fois avec ses bras.\\nCela peut\\napeurer.",
+    "de": "Richtet seine Mutter\\naus und schlägt mit\\nden Armen zweimal zu.\\nLässt das Ziel evtl.\\nzurückschrecken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      673
+    ],
+    "expected_rom": "Richtet seine Mutter\\naus und schlägt mit\\nden Armen zweimal zu.\\nLässt das Ziel evtl.\\nzurückschrecken.",
+    "encoded_bytes": 101,
+    "max_pixels": 119,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E140",
+    "pointers": [
+      10091544
+    ],
+    "rom": "It can only be\nused after the\nuser has exhausted\nall other moves it\nknows in battle.",
+    "en": "",
+    "fr": "Il ne peut être utilisé\\nqu'une fois que l'utilisateur\\na épuisé tous les autres\\ncapacités qu'il connaît au\\ncombat.",
+    "de": "Nur einsetzbar, wenn\\nder Anwender alle\\nanderen Attacken\\nim Kampf bereits\\neingesetzt hat.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      674
+    ],
+    "expected_rom": "Nur einsetzbar, wenn\\nder Anwender alle\\nanderen Attacken\\nim Kampf bereits\\neingesetzt hat.",
+    "encoded_bytes": 89,
+    "max_pixels": 110,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E195",
+    "pointers": [
+      10091548
+    ],
+    "rom": "It takes the enemy\ninto the sky,\nwhere it can't\nattack. It is\ndropped next turn.",
+    "en": "",
+    "fr": "Il emmène l’ennemi\\ndans le ciel, où il ne\\npeut pas attaquer. Il\\nest abandonné au tour\\nsuivant.",
+    "de": "Trägt das Ziel hoch\\nin die Luft. Es kann\\nnicht angreifen und\\nwird in der nächsten\\nRunde fallen gelassen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      675
+    ],
+    "expected_rom": "Trägt das Ziel hoch\\nin die Luft. Es kann\\nnicht angreifen und\\nwird in der nächsten\\nRunde fallen gelassen.",
+    "encoded_bytes": 105,
+    "max_pixels": 122,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E1E6",
+    "pointers": [
+      10091552
+    ],
+    "rom": "The Pokémon\ncongratulates you\non your special\nday!",
+    "en": "",
+    "fr": "Le Pokémon vous\\nsouhaite une\\njoyeuse journée\\nspéciale !",
+    "de": "Das Pokémon\\ngratuliert dir\\nzu deinem\\nbesonderen Tag!",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      676
+    ],
+    "expected_rom": "Das Pokémon\\ngratuliert dir\\nzu deinem\\nbesonderen Tag!",
+    "encoded_bytes": 53,
+    "max_pixels": 86,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E219",
+    "pointers": [
+      10091556
+    ],
+    "rom": "The user and an\nally hold hands.\nThis makes them\nvery happy.",
+    "en": "",
+    "fr": "L'utilisateur et un\\nallié se tiennent la\\nmain. Cela les rend très\\nheureux.",
+    "de": "Der Anwender und\\nein Mitstreiter\\nhalten Händchen.\\nDas macht sie froh.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      677
+    ],
+    "expected_rom": "Der Anwender und\\nein Mitstreiter\\nhalten Händchen.\\nDas macht sie froh.",
+    "encoded_bytes": 70,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E256",
+    "pointers": [
+      10091560
+    ],
+    "rom": "The user unleashes\na strong beam that\ndeals double damage\nto Dynamaxed targets.",
+    "en": "",
+    "fr": "L'utilisateur libère un\\npuissant faisceau qui inflige\\nle double de dégâts aux cibles\\nDynamaxées.",
+    "de": "Ein starker Strahl\\ntrifft das Ziel.\\nDoppelter Schaden\\nbei Dynamax-Zielen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      678
+    ],
+    "expected_rom": "Ein starker Strahl\\ntrifft das Ziel.\\nDoppelter Schaden\\nbei Dynamax-Zielen.",
+    "encoded_bytes": 74,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E2A6",
+    "pointers": [
+      10091564
+    ],
+    "rom": "The user ignores\nthe effects of moves\nand Abilities that\ndraw in moves.",
+    "en": "",
+    "fr": "Ignore les effets des\\ncapacités et talents\\nqui attirent les\\ncapacités.",
+    "de": "Ignoriert Attacken\\nund Fähigkeiten,\\ndie Attacken\\nauf sich lenken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      679
+    ],
+    "expected_rom": "Ignoriert Attacken\\nund Fähigkeiten,\\ndie Attacken\\nauf sich lenken.",
+    "encoded_bytes": 66,
+    "max_pixels": 98,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E2EE",
+    "pointers": [
+      10091568
+    ],
+    "rom": "The user bites down,\npreventing itself\nand the target from\nswitching out.",
+    "en": "",
+    "fr": "Le lanceur mord,\\nempêchant la cible\\net lui-même de se\\nretirer.",
+    "de": "Beißt sich fest.\\nDer Anwender und\\ndas Ziel können\\nnicht auswechseln.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      680
+    ],
+    "expected_rom": "Beißt sich fest.\\nDer Anwender und\\ndas Ziel können\\nnicht auswechseln.",
+    "encoded_bytes": 69,
+    "max_pixels": 99,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E338",
+    "pointers": [
+      10091572
+    ],
+    "rom": "The user consumes\nits held Berry,\nthen raises its\nDefense sharply.",
+    "en": "",
+    "fr": "L'utilisateur consomme\\nsa Baie détenue, puis\\naugmente beaucoup sa\\nDéfense.",
+    "de": "Frisst die getragene\\nBeere und erhöht\\ndie eigene\\nVerteidigung stark.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      681
+    ],
+    "expected_rom": "Frisst die getragene\\nBeere und erhöht\\ndie eigene\\nVerteidigung stark.",
+    "encoded_bytes": 69,
+    "max_pixels": 109,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E37B",
+    "pointers": [
+      10091576
+    ],
+    "rom": "All of the user's\nstats are raised,\nbut it can no longer\nswitch out or flee.",
+    "en": "",
+    "fr": "Toutes les statistiques de\\nl’utilisateur sont augmentées, mais\\nil ne peut plus se retirer ni\\nfuir.",
+    "de": "Erhöht alle eigenen\\nStatuswerte. Flucht\\nund Auswechseln\\nsind danach\\nnicht mehr möglich.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      682
+    ],
+    "expected_rom": "Erhöht alle eigenen\\nStatuswerte. Flucht\\nund Auswechseln\\nsind danach\\nnicht mehr möglich.",
+    "encoded_bytes": 88,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E3C8",
+    "pointers": [
+      10091580
+    ],
+    "rom": "Sticky tar lowers\nthe target's Speed,\nand makes it weaker\nto Fire-type moves.",
+    "en": "",
+    "fr": "Goudron collant baisse\\nla Vit. et rend plus\\nvulnérable aux attaques\\nFeu.",
+    "de": "Klebriger Teer senkt\\ndie Initiative und\\nmacht das Ziel gegen\\nFeuer anfälliger.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      683
+    ],
+    "expected_rom": "Klebriger Teer senkt\\ndie Initiative und\\nmacht das Ziel gegen\\nFeuer anfälliger.",
+    "encoded_bytes": 79,
+    "max_pixels": 114,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E416",
+    "pointers": [
+      10091584
+    ],
+    "rom": "The user scatters\nmagic powder that\nchanges the target\ninto a Psychic-type.",
+    "en": "",
+    "fr": "L'utilisateur disperse\\nde la poudre magique qui\\ntransforme la cible en type\\nPsychique.",
+    "de": "Magischer Puder\\nändert den Typ\\ndes Ziels\\nzu Psycho.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      684
+    ],
+    "expected_rom": "Magischer Puder\\nändert den Typ\\ndes Ziels\\nzu Psycho.",
+    "encoded_bytes": 52,
+    "max_pixels": 85,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E462",
+    "pointers": [
+      10091588
+    ],
+    "rom": "The user attacks\ntwice. If there\nare two targets,\neach is hit once.",
+    "en": "",
+    "fr": "L'utilisateur attaque deux\\nfois. S'il y a deux cibles,\\nchacune est touchée une\\nfois.",
+    "de": "Greift zweimal an.\\nGibt es zwei Ziele,\\nwird jedes\\neinmal getroffen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      685
+    ],
+    "expected_rom": "Greift zweimal an.\\nGibt es zwei Ziele,\\nwird jedes\\neinmal getroffen.",
+    "encoded_bytes": 68,
+    "max_pixels": 104,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E4A6",
+    "pointers": [
+      10091592
+    ],
+    "rom": "All Pokémon on the\nfield have teatime.\nEach Pokémon eats\nits held Berry.",
+    "en": "",
+    "fr": "Tous les Pokémon sur le terrain\\nont l'heure du thé. Chaque\\nPokémon mange la Baie qu'il\\ndétient.",
+    "de": "Alle Pokémon auf\\ndem Feld halten\\nTeestunde und fressen\\nihre getragene Beere.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      686
+    ],
+    "expected_rom": "Alle Pokémon auf\\ndem Feld halten\\nTeestunde und fressen\\nihre getragene Beere.",
+    "encoded_bytes": 77,
+    "max_pixels": 118,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E4EF",
+    "pointers": [
+      10091596
+    ],
+    "rom": "The user traps the\nfoe and makes its\nDefense and Sp. Def\nfall each turn.",
+    "en": "",
+    "fr": "Piège l'ennemi et\\nfait baisser Déf.\\net Déf. Spé à chaque\\ntour.",
+    "de": "Hält das Ziel fest.\\nSenkt jede Runde\\nseine Verteidigung\\nund Spezial-\\nverteidigung.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      687
+    ],
+    "expected_rom": "Hält das Ziel fest.\\nSenkt jede Runde\\nseine Verteidigung\\nund Spezial-\\nverteidigung.",
+    "encoded_bytes": 83,
+    "max_pixels": 104,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E538",
+    "pointers": [
+      10091600
+    ],
+    "rom": "If the user moves\nbefore the target,\nthe power of this\nmove is doubled.",
+    "en": "",
+    "fr": "Si l'utilisateur\\nagit avant la cible,\\nla puissance est\\ndoublée.",
+    "de": "Doppelte Stärke,\\nwenn der Anwender\\nvor dem Ziel\\nzum Zug kommt.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      688
+    ],
+    "expected_rom": "Doppelte Stärke,\\nwenn der Anwender\\nvor dem Ziel\\nzum Zug kommt.",
+    "encoded_bytes": 63,
+    "max_pixels": 96,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E580",
+    "pointers": [
+      10091604
+    ],
+    "rom": "If the user moves\nbefore the target,\nthe power of this\nmove is doubled.",
+    "en": "",
+    "fr": "Si l'utilisateur\\nagit avant la cible,\\nla puissance est\\ndoublée.",
+    "de": "Doppelte Stärke,\\nwenn der Anwender\\nvor dem Ziel\\nzum Zug kommt.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      689
+    ],
+    "expected_rom": "Doppelte Stärke,\\nwenn der Anwender\\nvor dem Ziel\\nzum Zug kommt.",
+    "encoded_bytes": 63,
+    "max_pixels": 96,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E5C8",
+    "pointers": [
+      10091608
+    ],
+    "rom": "The user swaps\nthe effects on\neither side of\nthe field.",
+    "en": "",
+    "fr": "L'utilisateur\\néchange les effets\\nde chaque côté du\\nchamp.",
+    "de": "Tauscht die Effekte\\nauf beiden Seiten\\ndes Kampffeldes\\nmiteinander aus.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      690
+    ],
+    "expected_rom": "Tauscht die Effekte\\nauf beiden Seiten\\ndes Kampffeldes\\nmiteinander aus.",
+    "encoded_bytes": 71,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E600",
+    "pointers": [
+      10091612
+    ],
+    "rom": "The user raises\nall of its stats\nby using some of\nits HP.",
+    "en": "",
+    "fr": "L'utilisateur augmente\\ntoutes ses statistiques en\\nutilisant une partie de ses\\nPV.",
+    "de": "Erhöht alle eigenen\\nStatuswerte\\nauf Kosten eines\\nTeils der KP.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      691
+    ],
+    "expected_rom": "Erhöht alle eigenen\\nStatuswerte\\nauf Kosten eines\\nTeils der KP.",
+    "encoded_bytes": 63,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E63A",
+    "pointers": [
+      10091616
+    ],
+    "rom": "The higher the\nuser's Defense,\nthe more damage\nit will inflict.",
+    "en": "",
+    "fr": "Plus la Défense\\nest haute, plus\\nles dégâts infligés\\naugmentent.",
+    "de": "Je höher die eigene\\nVerteidigung, desto\\ngrößer ist\\nder Schaden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      692
+    ],
+    "expected_rom": "Je höher die eigene\\nVerteidigung, desto\\ngrößer ist\\nder Schaden.",
+    "encoded_bytes": 64,
+    "max_pixels": 108,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E67A",
+    "pointers": [
+      10091620
+    ],
+    "rom": "The user sharply\nraises the target's\nAttack and Sp. Atk\nby decorating it.",
+    "en": "",
+    "fr": "Augmente beaucoup\\nAttaque et Att. Spé\\nde la cible en la\\ndécorant.",
+    "de": "Dekoriert das Ziel.\\nErhöht dessen\\nAngriff und\\nSpezialangriff stark.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      693
+    ],
+    "expected_rom": "Dekoriert das Ziel.\\nErhöht dessen\\nAngriff und\\nSpezialangriff stark.",
+    "encoded_bytes": 68,
+    "max_pixels": 112,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E6C4",
+    "pointers": [
+      10091624
+    ],
+    "rom": "The user plays its\ndrum to attack.\nThe target's Speed\nstat is lowered.",
+    "en": "",
+    "fr": "Le lanceur bat son tambour\\npour attaquer. La Vitesse\\nde la cible\\nbaisse.",
+    "de": "Greift mit einem\\nTrommelschlag an.\\nSenkt die Initiative\\ndes Ziels.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      694
+    ],
+    "expected_rom": "Greift mit einem\\nTrommelschlag an.\\nSenkt die Initiative\\ndes Ziels.",
+    "encoded_bytes": 67,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E70B",
+    "pointers": [
+      10091628
+    ],
+    "rom": "The user snares\nthe target in a\nsnap trap for four\nto five turns.",
+    "en": "",
+    "fr": "Piège la cible dans\\nun piège en un instant\\npour quatre à cinq\\ntours.",
+    "de": "Hält das Ziel\\nvier bis fünf\\nRunden lang in\\neiner Fangeisenfalle.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      695
+    ],
+    "expected_rom": "Hält das Ziel\\nvier bis fünf\\nRunden lang in\\neiner Fangeisenfalle.",
+    "encoded_bytes": 65,
+    "max_pixels": 113,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E74D",
+    "pointers": [
+      10091632
+    ],
+    "rom": "The user launches\na fiery ball at\nthe target. It may\nalso cause a burn.",
+    "en": "",
+    "fr": "L'utilisateur lance une boule\\nenflammée sur la cible. Cela\\npeut également provoquer une\\nbrûlure.",
+    "de": "Schleudert einen\\nFeuerball auf\\ndas Ziel. Kann es\\nauch verbrennen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      696
+    ],
+    "expected_rom": "Schleudert einen\\nFeuerball auf\\ndas Ziel. Kann es\\nauch verbrennen.",
+    "encoded_bytes": 66,
+    "max_pixels": 94,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E795",
+    "pointers": [
+      10091636
+    ],
+    "rom": "The user becomes a\nsword and strikes.\nDouble damage on\nDynamaxed targets.",
+    "en": "",
+    "fr": "Le lanceur devient une\\népée et frappe. Dégâts\\ndoublés sur les cibles\\nDynamaxées.",
+    "de": "Wird zum Schwert\\nund greift an.\\nDoppelter Schaden\\nbei Dynamax-Zielen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      697
+    ],
+    "expected_rom": "Wird zum Schwert\\nund greift an.\\nDoppelter Schaden\\nbei Dynamax-Zielen.",
+    "encoded_bytes": 70,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E7DF",
+    "pointers": [
+      10091640
+    ],
+    "rom": "The user becomes a\nshield and strikes.\nDouble damage on\nDynamaxed targets.",
+    "en": "",
+    "fr": "Devient un bouclier\\net frappe. Dégâts\\ndoublés sur les cibles\\nDynamaxées.",
+    "de": "Wird zum Schild\\nund greift an.\\nDoppelter Schaden\\nbei Dynamax-Zielen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      698
+    ],
+    "expected_rom": "Wird zum Schild\\nund greift an.\\nDoppelter Schaden\\nbei Dynamax-Zielen.",
+    "encoded_bytes": 69,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E82A",
+    "pointers": [
+      10091644
+    ],
+    "rom": "Morpeko raises its\nSpeed and attacks.\nThe move's type is\nbased on its form.",
+    "en": "",
+    "fr": "Morpeko augmente sa vitesse\\net attaque. Le type de la\\ncapacité dépend de sa\\nforme.",
+    "de": "Morpeko erhöht seine\\nInitiative und greift\\nan. Der Typ hängt\\nvon seiner Form ab.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      699
+    ],
+    "expected_rom": "Morpeko erhöht seine\\nInitiative und greift\\nan. Der Typ hängt\\nvon seiner Form ab.",
+    "encoded_bytes": 81,
+    "max_pixels": 112,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E876",
+    "pointers": [
+      10091648
+    ],
+    "rom": "The user attacks the\nfoes by swinging its\ntail wildly, lowering\ntheir Attack.",
+    "en": "",
+    "fr": "Frappe les ennemis\\nen balançant sa\\nqueue et baisse leur\\nAttaque.",
+    "de": "Schwingt den Schweif\\nund trifft die Gegner.\\nSenkt dabei\\nihren Angriff.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      700
+    ],
+    "expected_rom": "Schwingt den Schweif\\nund trifft die Gegner.\\nSenkt dabei\\nihren Angriff.",
+    "encoded_bytes": 71,
+    "max_pixels": 119,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E8C4",
+    "pointers": [
+      10091652
+    ],
+    "rom": "The user attacks\nthe target by\npoking it with a\npointed branch.",
+    "en": "",
+    "fr": "Pique la\\ncible avec\\nune branche\\npointue.",
+    "de": "Sticht das Ziel\\nmit einem\\nspitzen Ast.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      701
+    ],
+    "expected_rom": "Sticht das Ziel\\nmit einem\\nspitzen Ast.",
+    "encoded_bytes": 39,
+    "max_pixels": 82,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E904",
+    "pointers": [
+      10091656
+    ],
+    "rom": "The user twangs\nits guitar, which\ncauses an echo and\nstrong vibrations.",
+    "en": "",
+    "fr": "L'utilisateur fait vibrer\\nsa guitare, ce qui provoque\\nun écho et de fortes\\nvibrations.",
+    "de": "Zupft seine Gitarre.\\nErzeugt ein Echo\\nund starke\\nSchwingungen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      702
+    ],
+    "expected_rom": "Zupft seine Gitarre.\\nErzeugt ein Echo\\nund starke\\nSchwingungen.",
+    "encoded_bytes": 63,
+    "max_pixels": 108,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E94C",
+    "pointers": [
+      10091660
+    ],
+    "rom": "The user attacks\nwith acid made from\ntart apples. Lowers\nthe foe's Sp. Def.",
+    "en": "",
+    "fr": "Acide de pomme\\nattaque la cible.\\nBaisse sa\\nDéf. Spé.",
+    "de": "Greift mit Säure\\naus sauren Äpfeln an.\\nSenkt beim Ziel die\\nSpezialverteidigung.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      703
+    ],
+    "expected_rom": "Greift mit Säure\\naus sauren Äpfeln an.\\nSenkt beim Ziel die\\nSpezialverteidigung.",
+    "encoded_bytes": 80,
+    "max_pixels": 117,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E998",
+    "pointers": [
+      10091664
+    ],
+    "rom": "The user attacks by\ndropping an apple\nfrom above. Lowers\nthe foe's Defense.",
+    "en": "",
+    "fr": "Fait tomber une pomme\\nsur la cible.\\nBaisse sa\\nDéfense.",
+    "de": "Lässt einen Apfel\\nauf das Ziel fallen.\\nSenkt dessen\\nVerteidigung.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      704
+    ],
+    "expected_rom": "Lässt einen Apfel\\nauf das Ziel fallen.\\nSenkt dessen\\nVerteidigung.",
+    "encoded_bytes": 66,
+    "max_pixels": 110,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3E9E4",
+    "pointers": [
+      10091668
+    ],
+    "rom": "The user attacks\nwith spirit-breaking\nforce, lowering the\ntarget's Sp. Atk.",
+    "en": "",
+    "fr": "Force brise-esprit\\nqui réduit\\nl'Att. Spé de la\\ncible.",
+    "de": "Greift mit seelen-\\nbrechender Kraft an.\\nSenkt den Spezial-\\nangriff des Ziels.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      705
+    ],
+    "expected_rom": "Greift mit seelen-\\nbrechender Kraft an.\\nSenkt den Spezial-\\nangriff des Ziels.",
+    "encoded_bytes": 78,
+    "max_pixels": 112,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EA30",
+    "pointers": [
+      10091672
+    ],
+    "rom": "The user attacks\nby emitting steam.\nThe steam may also\nconfuse the target.",
+    "en": "",
+    "fr": "Attaque en émettant de\\nla vapeur. Cela peut\\naussi confondre la\\ncible.",
+    "de": "Greift mit Dampf an.\\nVerwirrt das Ziel\\neventuell auch.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      706
+    ],
+    "expected_rom": "Greift mit Dampf an.\\nVerwirrt das Ziel\\neventuell auch.",
+    "encoded_bytes": 55,
+    "max_pixels": 109,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EA7B",
+    "pointers": [
+      10091676
+    ],
+    "rom": "The user scatters\nwater that restores\nthe HP of itself\nand its allies.",
+    "en": "",
+    "fr": "L'utilisateur disperse\\nde l'eau qui restaure\\nses PV et ceux de ses\\nalliés.",
+    "de": "Versprüht Wasser.\\nHeilt eigene KP\\nund die KP\\nder Mitstreiter.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      707
+    ],
+    "expected_rom": "Versprüht Wasser.\\nHeilt eigene KP\\nund die KP\\nder Mitstreiter.",
+    "encoded_bytes": 62,
+    "max_pixels": 94,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EAC2",
+    "pointers": [
+      10091680
+    ],
+    "rom": "The user protects\nitself, and harshly\nlowers the foe's\nDefense on contact.",
+    "en": "",
+    "fr": "L’utilisateur se protège\\net réduit considérablement\\nla défense de l’ennemi au\\ncontact.",
+    "de": "Schützt den Anwender.\\nSenkt bei Kontakt\\ndie Verteidigung\\ndes Gegners stark.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      708
+    ],
+    "expected_rom": "Schützt den Anwender.\\nSenkt bei Kontakt\\ndie Verteidigung\\ndes Gegners stark.",
+    "encoded_bytes": 76,
+    "max_pixels": 119,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EB0D",
+    "pointers": [
+      10091684
+    ],
+    "rom": "The user bows,\nthen uses its hair\nto stab the foe.\nIt never misses.",
+    "en": "",
+    "fr": "Le lanceur s'incline,\\npuis poignarde\\nl'ennemi avec ses cheveux.\\nNe rate jamais.",
+    "de": "Verbeugt sich und\\nsticht mit dem Haar\\nzu. Diese Attacke\\ntrifft immer.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      709
+    ],
+    "expected_rom": "Verbeugt sich und\\nsticht mit dem Haar\\nzu. Diese Attacke\\ntrifft immer.",
+    "encoded_bytes": 70,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EB9C",
+    "pointers": [
+      10091692
+    ],
+    "rom": "Eternatus's most\npowerful attack.\nThe user must rest\non the next turn.",
+    "en": "",
+    "fr": "L’attaque la plus puissante\\nd’Éthernatos. L'utilisateur\\ndoit se reposer au tour\\nsuivant.",
+    "de": "Eternatus' stärkste\\nAttacke. Der Anwender\\nmuss in der nächsten\\nRunde aussetzen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      711
+    ],
+    "expected_rom": "Eternatus' stärkste\\nAttacke. Der Anwender\\nmuss in der nächsten\\nRunde aussetzen.",
+    "encoded_bytes": 80,
+    "max_pixels": 118,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EBE3",
+    "pointers": [
+      10091696
+    ],
+    "rom": "It fires a beam\nof steel from its\nbody, which also\nhurts the user.",
+    "en": "",
+    "fr": "Tire un rayon d'acier\\ndepuis son corps.\\nBlesse aussi\\nle lanceur.",
+    "de": "Feuert einen Strahl\\naus Stahl aus\\nseinem Körper ab.\\nSchadet auch\\ndem Anwender.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      712
+    ],
+    "expected_rom": "Feuert einen Strahl\\naus Stahl aus\\nseinem Körper ab.\\nSchadet auch\\ndem Anwender.",
+    "encoded_bytes": 79,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EC26",
+    "pointers": [
+      10091700
+    ],
+    "rom": "The move's power\nincreases and damages\nall opposing targets\nin Psychic Terrain.",
+    "en": "",
+    "fr": "Sa puissance augmente\\net frappe tous les\\nadversaires en Champ\\nPsychique.",
+    "de": "Wird im Psychofeld\\nstärker und trifft\\nalle gegnerischen\\nZiele.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      713
+    ],
+    "expected_rom": "Wird im Psychofeld\\nstärker und trifft\\nalle gegnerischen\\nZiele.",
+    "encoded_bytes": 63,
+    "max_pixels": 100,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EC76",
+    "pointers": [
+      10091704
+    ],
+    "rom": "The user attacks and\ndestroys the terrain.\nThe move fails if\nthere is no terrain.",
+    "en": "",
+    "fr": "Le lanceur attaque et\\ndétruit le champ.\\nÉchoue s'il n'y a\\npas de champ.",
+    "de": "Greift an und hebt\\ndas Feld auf.\\nOhne Feld schlägt\\ndie Attacke fehl.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      714
+    ],
+    "expected_rom": "Greift an und hebt\\ndas Feld auf.\\nOhne Feld schlägt\\ndie Attacke fehl.",
+    "encoded_bytes": 69,
+    "max_pixels": 100,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3ECC8",
+    "pointers": [
+      10091708
+    ],
+    "rom": "It hits two to five\ntimes in a row.\nRaises Speed, but\nlowers Defense.",
+    "en": "",
+    "fr": "Frappe deux à cinq\\nfois. Monte la\\nVitesse mais baisse la\\nDéfense.",
+    "de": "Trifft zwei- bis\\nfünfmal in Folge.\\nInitiative steigt,\\nVerteidigung sinkt.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      715
+    ],
+    "expected_rom": "Trifft zwei- bis\\nfünfmal in Folge.\\nInitiative steigt,\\nVerteidigung sinkt.",
+    "encoded_bytes": 74,
+    "max_pixels": 100,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3ED0E",
+    "pointers": [
+      10091712
+    ],
+    "rom": "In this two-turn move,\nthe user gathers\nspace power and\nincreases Sp. Atk.",
+    "en": "",
+    "fr": "Capacité en deux tours :\\naccumule une puissance\\nspatiale et monte\\nl'Att. Spé.",
+    "de": "Sammelt in Runde 1\\nWeltraumenergie und\\nerhöht dabei den\\nSpezialangriff.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      716
+    ],
+    "expected_rom": "Sammelt in Runde 1\\nWeltraumenergie und\\nerhöht dabei den\\nSpezialangriff.",
+    "encoded_bytes": 72,
+    "max_pixels": 106,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3ED59",
+    "pointers": [
+      10091716
+    ],
+    "rom": "Inflicts the more\neffective of physical\nor special damage.\nMay poison the foe.",
+    "en": "",
+    "fr": "Inflige les dégâts physiques\\nou spéciaux les plus\\nefficaces. Peut empoisonner\\nl'ennemi.",
+    "de": "Trifft physisch oder\\nspeziell, je nachdem,\\nwas wirksamer ist.\\nKann vergiften.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      717
+    ],
+    "expected_rom": "Trifft physisch oder\\nspeziell, je nachdem,\\nwas wirksamer ist.\\nKann vergiften.",
+    "encoded_bytes": 78,
+    "max_pixels": 118,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EDA8",
+    "pointers": [
+      10091720
+    ],
+    "rom": "The user explodes\nand faints itself.\nIts power increases\non Misty Terrain.",
+    "en": "",
+    "fr": "Explose puis\\ns'évanouit. Puissance\\naccrue sur Champ\\nBrumeux.",
+    "de": "Der Anwender\\nexplodiert und wird\\nbesiegt. Stärker\\nim Nebelfeld.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      718
+    ],
+    "expected_rom": "Der Anwender\\nexplodiert und wird\\nbesiegt. Stärker\\nim Nebelfeld.",
+    "encoded_bytes": 64,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EDF3",
+    "pointers": [
+      10091724
+    ],
+    "rom": "The user glides\non the ground to\nattack. Hits first\non Grassy Terrain.",
+    "en": "",
+    "fr": "Glisse sur le sol\\npour attaquer. Frappe\\nen premier sur Champ\\nHerbu.",
+    "de": "Gleitet zum Angriff\\nüber den Boden.\\nHat im Grasfeld\\nPriorität.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      719
+    ],
+    "expected_rom": "Gleitet zum Angriff\\nüber den Boden.\\nHat im Grasfeld\\nPriorität.",
+    "encoded_bytes": 63,
+    "max_pixels": 103,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EE3A",
+    "pointers": [
+      10091728
+    ],
+    "rom": "The user attacks with\nearthly voltage. It\ndoubles in power on\nElectric Terrain.",
+    "en": "",
+    "fr": "L'utilisateur attaque avec\\nune tension terrestre. Il\\ndouble sa puissance sur Champ\\nÉlectrifié.",
+    "de": "Greift mit Spannung\\naus dem Boden an.\\nDoppelte Stärke\\nim Elektrofeld.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      720
+    ],
+    "expected_rom": "Greift mit Spannung\\naus dem Boden an.\\nDoppelte Stärke\\nim Elektrofeld.",
+    "encoded_bytes": 70,
+    "max_pixels": 103,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EE8A",
+    "pointers": [
+      10091732
+    ],
+    "rom": "The move's type\nand power depends on\nthe terrain currently\nused in battle.",
+    "en": "",
+    "fr": "Type et puissance\\ndépendent du champ\\nutilisé au\\ncombat.",
+    "de": "Typ und Stärke\\nder Attacke hängen\\nvom aktiven Feld\\nim Kampf ab.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      721
+    ],
+    "expected_rom": "Typ und Stärke\\nder Attacke hängen\\nvom aktiven Feld\\nim Kampf ab.",
+    "encoded_bytes": 64,
+    "max_pixels": 102,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EED5",
+    "pointers": [
+      10091736
+    ],
+    "rom": "The user skitters\nbehind the target to\nattack. It lowers the\nfoe's Sp.Atk stat.",
+    "en": "",
+    "fr": "Se faufile derrière\\npour attaquer.\\nBaisse l'Att. Spé de\\nl'ennemi.",
+    "de": "Huscht hinter das\\nZiel und greift an.\\nSenkt dessen\\nSpezialangriff.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      722
+    ],
+    "expected_rom": "Huscht hinter das\\nZiel und greift an.\\nSenkt dessen\\nSpezialangriff.",
+    "encoded_bytes": 67,
+    "max_pixels": 103,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EF25",
+    "pointers": [
+      10091740
+    ],
+    "rom": "Inflicts a burn on\ntargets that had\ntheir stats boosted\nduring the turn used.",
+    "en": "",
+    "fr": "Inflige une brûlure aux cibles\\ndont les statistiques ont\\nété boostées pendant le tour\\nutilisé.",
+    "de": "Verbrennt Ziele,\\nderen Statuswerte\\nin dieser Runde\\nerhöht wurden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      723
+    ],
+    "expected_rom": "Verbrennt Ziele,\\nderen Statuswerte\\nin dieser Runde\\nerhöht wurden.",
+    "encoded_bytes": 66,
+    "max_pixels": 95,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EF73",
+    "pointers": [
+      10091744
+    ],
+    "rom": "The move's power\ndoubles if the user's\nstats have fallen\nduring the turn.",
+    "en": "",
+    "fr": "La puissance du capacité\\ndouble si les statistiques de\\nl’utilisateur ont chuté pendant le\\ntour.",
+    "de": "Doppelte Stärke,\\nwenn eigene Werte\\nin dieser Runde\\ngesenkt wurden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      724
+    ],
+    "expected_rom": "Doppelte Stärke,\\nwenn eigene Werte\\nin dieser Runde\\ngesenkt wurden.",
+    "encoded_bytes": 67,
+    "max_pixels": 95,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3EFBD",
+    "pointers": [
+      10091748
+    ],
+    "rom": "The user controls\nthe target's item to\nattack. Fails if the\ntarget has no item.",
+    "en": "",
+    "fr": "Contrôle l'objet de la\\ncible pour attaquer.\\nÉchoue si la cible n'a pas\\nd'objet.",
+    "de": "Greift mit dem Item\\ndes Ziels an.\\nSchlägt fehl, wenn\\ndas Ziel keines hat.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      725
+    ],
+    "expected_rom": "Greift mit dem Item\\ndes Ziels an.\\nSchlägt fehl, wenn\\ndas Ziel keines hat.",
+    "encoded_bytes": 74,
+    "max_pixels": 109,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F00D",
+    "pointers": [
+      10091752
+    ],
+    "rom": "The user cloaks\nitself in acidic gas.\nIt melts away the\ntarget's held item.",
+    "en": "",
+    "fr": "L'utilisateur s'enveloppe\\nde gaz acide. Il fait\\nfondre l’objet détenu par la\\ncible.",
+    "de": "Ätzendes Gas löst\\ndas getragene Item\\ndes Ziels auf.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      726
+    ],
+    "expected_rom": "Ätzendes Gas löst\\ndas getragene Item\\ndes Ziels auf.",
+    "encoded_bytes": 52,
+    "max_pixels": 103,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F059",
+    "pointers": [
+      10091756
+    ],
+    "rom": "The user coaches\nits ally, raising\nthe ally's Attack\nand Defense stats.",
+    "en": "",
+    "fr": "L’utilisateur entraîne son\\nallié, augmentant ainsi ses\\nstatistiques d’attaque et de\\ndéfense.",
+    "de": "Trainiert einen\\nMitstreiter. Erhöht\\ndessen Angriff\\nund Verteidigung.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      727
+    ],
+    "expected_rom": "Trainiert einen\\nMitstreiter. Erhöht\\ndessen Angriff\\nund Verteidigung.",
+    "encoded_bytes": 69,
+    "max_pixels": 101,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F0A1",
+    "pointers": [
+      10091760
+    ],
+    "rom": "After attacking,\nthe user switches\nplaces with a\nparty Pokémon.",
+    "en": "",
+    "fr": "Après avoir attaqué,\\nl'utilisateur change de\\nplace avec un Pokémon du\\ngroupe.",
+    "de": "Nach dem Angriff\\nwechselt der Anwender\\nmit einem Pokémon\\naus dem Team.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      728
+    ],
+    "expected_rom": "Nach dem Angriff\\nwechselt der Anwender\\nmit einem Pokémon\\naus dem Team.",
+    "encoded_bytes": 71,
+    "max_pixels": 119,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F0E1",
+    "pointers": [
+      10091764
+    ],
+    "rom": "A 3-kick attack\nthat becomes more\npowerful with each\nsuccessive hit.",
+    "en": "",
+    "fr": "Une attaque à 3 coups\\nde pied qui devient plus\\npuissante à chaque coup\\nsuccessif.",
+    "de": "Drei Tritte, die\\nmit jedem Treffer\\nstärker werden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      729
+    ],
+    "expected_rom": "Drei Tritte, die\\nmit jedem Treffer\\nstärker werden.",
+    "encoded_bytes": 51,
+    "max_pixels": 95,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F172",
+    "pointers": [
+      10091772
+    ],
+    "rom": "The user throws\nscorching sand at the\ntarget. It may also\ninflict a burn.",
+    "en": "",
+    "fr": "Lance du sable brûlant\\nsur cible. Cela peut\\naussi provoquer une\\nbrûlure.",
+    "de": "Wirft glühenden Sand\\nauf das Ziel.\\nKann es außerdem\\nverbrennen.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      731
+    ],
+    "expected_rom": "Wirft glühenden Sand\\nauf das Ziel.\\nKann es außerdem\\nverbrennen.",
+    "encoded_bytes": 64,
+    "max_pixels": 111,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F1BC",
+    "pointers": [
+      10091776
+    ],
+    "rom": "The user restores\nHP and the status\nof itself and its\nally in battle.",
+    "en": "",
+    "fr": "L'utilisateur restaure ses\\nPV ainsi que son statut\\net celui de son allié au\\ncombat.",
+    "de": "Heilt eigene KP\\nund Statusprobleme\\nsowie die eines\\nMitstreiters im Kampf.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      732
+    ],
+    "expected_rom": "Heilt eigene KP\\nund Statusprobleme\\nsowie die eines\\nMitstreiters im Kampf.",
+    "encoded_bytes": 74,
+    "max_pixels": 117,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F202",
+    "pointers": [
+      10091780
+    ],
+    "rom": "The user strikes\nthe foe fiercely.\nIt always results in\na critical hit.",
+    "en": "",
+    "fr": "L'utilisateur frappe\\nviolemment l'ennemi. Cela\\naboutit toujours à un coup\\ncritique.",
+    "de": "Ein heftiger Schlag\\ntrifft das Ziel.\\nLandet immer\\neinen Volltreffer.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      733
+    ],
+    "expected_rom": "Ein heftiger Schlag\\ntrifft das Ziel.\\nLandet immer\\neinen Volltreffer.",
+    "encoded_bytes": 69,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F24A",
+    "pointers": [
+      10091784
+    ],
+    "rom": "The user strikes\nthree times in a row.\nIt always results in\na critical hit.",
+    "en": "",
+    "fr": "L'utilisateur frappe\\ntrois fois de suite. Cela\\naboutit toujours à un coup\\ncritique.",
+    "de": "Trifft dreimal\\nhintereinander.\\nLandet dabei immer\\nVolltreffer.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      734
+    ],
+    "expected_rom": "Trifft dreimal\\nhintereinander.\\nLandet dabei immer\\nVolltreffer.",
+    "encoded_bytes": 63,
+    "max_pixels": 101,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F2E3",
+    "pointers": [
+      10091792
+    ],
+    "rom": "The user delivers\na fierce kick that\nlowers the target's\ndefense stat.",
+    "en": "",
+    "fr": "L’utilisateur donne un coup\\nde pied féroce qui réduit les\\nstatistiques de défense de la\\ncible.",
+    "de": "Ein heftiger Tritt\\ntrifft das Ziel.\\nSenkt dessen\\nVerteidigung.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      736
+    ],
+    "expected_rom": "Ein heftiger Tritt\\ntrifft das Ziel.\\nSenkt dessen\\nVerteidigung.",
+    "encoded_bytes": 63,
+    "max_pixels": 95,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F32A",
+    "pointers": [
+      10091796
+    ],
+    "rom": "The user attacks with\nintense, dark flames.\nIt may also make\nthe foe flinch.",
+    "en": "",
+    "fr": "L'utilisateur attaque avec des\\nflammes sombres et intenses. Cela\\npeut aussi apeurer l’ennemi.",
+    "de": "Dunkle, heftige\\nFlammen treffen.\\nLässt das Ziel evtl.\\nzurückschrecken.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      737
+    ],
+    "expected_rom": "Dunkle, heftige\\nFlammen treffen.\\nLässt das Ziel evtl.\\nzurückschrecken.",
+    "encoded_bytes": 71,
+    "max_pixels": 110,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F377",
+    "pointers": [
+      10091800
+    ],
+    "rom": "The user attacks with\npsychic power that\nremoves 3 PP from\nthe foe's last move.",
+    "en": "",
+    "fr": "L’utilisateur attaque avec un\\npouvoir psychique qui retire\\n3 PP à la dernière\\ncapacité de l’ennemi.",
+    "de": "Greift mit Psycho-\\nKraft an. Zieht der\\nletzten Attacke\\ndes Ziels 3 AP ab.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      738
+    ],
+    "expected_rom": "Greift mit Psycho-\\nKraft an. Zieht der\\nletzten Attacke\\ndes Ziels 3 AP ab.",
+    "encoded_bytes": 74,
+    "max_pixels": 105,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F3C7",
+    "pointers": [
+      10091804
+    ],
+    "rom": "A cage made of\nelectricity that traps\nthe target for four\nto five turns.",
+    "en": "",
+    "fr": "Une cage faite d'électricité\\nqui emprisonne la cible\\npendant quatre à cinq\\ntours.",
+    "de": "Ein Elektrokäfig\\nhält das Ziel\\nvier bis fünf\\nRunden lang fest.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      739
+    ],
+    "expected_rom": "Ein Elektrokäfig\\nhält das Ziel\\nvier bis fünf\\nRunden lang fest.",
+    "encoded_bytes": 63,
+    "max_pixels": 94,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F410",
+    "pointers": [
+      10091808
+    ],
+    "rom": "The higher the\nuser's HP, the\nmore powerful this\nattack becomes.",
+    "en": "",
+    "fr": "Plus les PV de l’utilisateur\\nsont élevés, plus\\ncette attaque devient\\npuissante.",
+    "de": "Je mehr KP der\\nAnwender hat,\\ndesto stärker\\nist diese Attacke.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      740
+    ],
+    "expected_rom": "Je mehr KP der\\nAnwender hat,\\ndesto stärker\\nist diese Attacke.",
+    "encoded_bytes": 62,
+    "max_pixels": 97,
+    "reason": "Absence DE"
+  },
+  {
+    "offset": "0xA3F5BF",
+    "pointers": [
+      10091832
+    ],
+    "rom": "The foe is hit with\nan axe that leaves\nbehind splinters. It\nhas a high crit ratio.",
+    "en": "The foe is hit withan axe that leaves\\nbehind splinters. It\\nhas a high crit ratio.",
+    "fr": "L'ennemi est frappé avec une\\nhache qui laisse des éclats.\\nIl a un taux de critique\\nélevé.",
+    "de": "Trifft mit einer Axt\\nund hinterlässt\\nSplitter. Hohe\\nVolltrefferquote.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      746
+    ],
+    "expected_rom": "Trifft mit einer Axt\\nund hinterlässt\\nSplitter. Hohe\\nVolltrefferquote.",
+    "encoded_bytes": 70,
+    "max_pixels": 106,
+    "reason": "Budget et Volltrefferquote"
+  },
+  {
+    "offset": "0xA40110",
+    "pointers": [
+      10092276,
+      10092280
+    ],
+    "rom": "G-Max Venusaur's\nsignature move. It\ndeals damage for\nfour turns.",
+    "en": "G-Max Venusaur'ssignature move. It\\ndeals damage for\\nfour turns.",
+    "fr": "La capacité signature de\\nG-Max Florizarre. Elle\\ninflige des dégâts pendant\\nquatre tours.",
+    "de": "G-Max Venusaur:\\nFügt über vier\\nRunden Schaden zu.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      857,
+      858
+    ],
+    "expected_rom": "G-Max Venusaur:\\nFügt über vier\\nRunden Schaden zu.",
+    "encoded_bytes": 50,
+    "max_pixels": 104,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40151",
+    "pointers": [
+      10092284,
+      10092288
+    ],
+    "rom": "G-Max Charizard's\nsignature move. It\ndeals damage for\nfour turns.",
+    "en": "G-Max Charizard'ssignature move. It\\ndeals damage for\\nfour turns.",
+    "fr": "La capacité signature de\\nG-Max Dracaufeu. Elle\\ninflige des dégâts pendant\\nquatre tours.",
+    "de": "G-Max Charizard:\\nFügt über vier\\nRunden Schaden zu.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      859,
+      860
+    ],
+    "expected_rom": "G-Max Charizard:\\nFügt über vier\\nRunden Schaden zu.",
+    "encoded_bytes": 51,
+    "max_pixels": 104,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40193",
+    "pointers": [
+      10092292,
+      10092296
+    ],
+    "rom": "G-Max Blastoise's\nsignature move. It\ndeals damage for\nfour turns.",
+    "en": "G-Max Blastoise'ssignature move. It\\ndeals damage for\\nfour turns.",
+    "fr": "La capacité signature de\\nG-Max Tortank. Elle\\ninflige des dégâts pendant\\nquatre tours.",
+    "de": "G-Max Blastoise:\\nFügt über vier\\nRunden Schaden zu.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      861,
+      862
+    ],
+    "expected_rom": "G-Max Blastoise:\\nFügt über vier\\nRunden Schaden zu.",
+    "encoded_bytes": 51,
+    "max_pixels": 104,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA401D5",
+    "pointers": [
+      10092300,
+      10092304
+    ],
+    "rom": "G-Max Butterfree's\nsignature move. It\ncauses paralysis,\nsleep, or poison.",
+    "en": "G-Max Butterfree'ssignature move. It\\ncauses paralysis,\\nsleep, or poison.",
+    "fr": "La capacité signature de G-Max\\nPapilusion. Elle peut\\nparalyser, endormir ou\\nempoisonner.",
+    "de": "G-Max Butterfree:\\nKann lähmen,\\neinschläfern\\noder vergiften.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      863,
+      864
+    ],
+    "expected_rom": "G-Max Butterfree:\\nKann lähmen,\\neinschläfern\\noder vergiften.",
+    "encoded_bytes": 60,
+    "max_pixels": 96,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA4021F",
+    "pointers": [
+      10092308,
+      10092312
+    ],
+    "rom": "G-Max Pikachu's\nsignature move.\nIt paralyzes the\ntarget.",
+    "en": "G-Max Pikachu'ssignature move.\\nIt paralyzes the\\ntarget.",
+    "fr": "La capacité signature de\\nG-Max Pikachu. Elle\\nparalyse la\\ncible.",
+    "de": "G-Max Pikachu:\\nLähmt das Ziel.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      865,
+      866
+    ],
+    "expected_rom": "G-Max Pikachu:\\nLähmt das Ziel.",
+    "encoded_bytes": 31,
+    "max_pixels": 84,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40258",
+    "pointers": [
+      10092316,
+      10092320
+    ],
+    "rom": "G-Max Meowth's\nsignature move. It\nconfuses the foe\nand creates money.",
+    "en": "G-Max Meowth'ssignature move. It\\nconfuses the foe\\nand creates money.",
+    "fr": "La capacité signature de\\nG-Max Miaouss. Elle\\nconfond l'ennemi et crée\\nde l'argent.",
+    "de": "G-Max Meowth:\\nVerwirrt den Gegner\\nund erzeugt Geld.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      867,
+      868
+    ],
+    "expected_rom": "G-Max Meowth:\\nVerwirrt den Gegner\\nund erzeugt Geld.",
+    "encoded_bytes": 52,
+    "max_pixels": 105,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA4029E",
+    "pointers": [
+      10092324,
+      10092328
+    ],
+    "rom": "G-Max Machamp's\nsignature move. It\nraises the chance\nof critical hits.",
+    "en": "G-Max Machamp'ssignature move. It\\nraises the chance\\nof critical hits.",
+    "fr": "La capacité signature de\\nG-Max Mackogneur. Elle\\naugmente les chances de\\ncoups critiques.",
+    "de": "G-Max Machamp:\\nErhöht die Chance\\nauf Volltreffer.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      869,
+      870
+    ],
+    "expected_rom": "G-Max Machamp:\\nErhöht die Chance\\nauf Volltreffer.",
+    "encoded_bytes": 50,
+    "max_pixels": 97,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA402E5",
+    "pointers": [
+      10092332,
+      10092336
+    ],
+    "rom": "G-Max Gengar's\nsignature move. It\nprevents the foe\nfrom escaping.",
+    "en": "G-Max Gengar'ssignature move. It\\nprevents the foe\\nfrom escaping.",
+    "fr": "La capacité signature de\\nG-Max Ectoplasma. Elle\\nempêche l'ennemi de\\ns'échapper.",
+    "de": "G-Max Gengar:\\nVerhindert, dass\\nder Gegner flieht.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      871,
+      872
+    ],
+    "expected_rom": "G-Max Gengar:\\nVerhindert, dass\\nder Gegner flieht.",
+    "encoded_bytes": 50,
+    "max_pixels": 99,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40327",
+    "pointers": [
+      10092340,
+      10092344
+    ],
+    "rom": "G-Max Kingler's\nsignature move. It\nharshly lowers the\ntarget's Speed.",
+    "en": "G-Max Kingler'ssignature move. It\\nharshly lowers the\\ntarget's Speed.",
+    "fr": "La capacité signature de\\nG-Max Krabboss. Elle\\nbaisse beaucoup la\\nVitesse de la cible.",
+    "de": "G-Max Kingler:\\nSenkt die Initiative\\ndes Ziels stark.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      873,
+      874
+    ],
+    "expected_rom": "G-Max Kingler:\\nSenkt die Initiative\\ndes Ziels stark.",
+    "encoded_bytes": 53,
+    "max_pixels": 106,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA4036D",
+    "pointers": [
+      10092348,
+      10092352
+    ],
+    "rom": "G-Max Lapras's\nsignature move. It\nreduces damage\nfor five turns.",
+    "en": "G-Max Lapras'ssignature move. It\\nreduces damage\\nfor five turns.",
+    "fr": "La capacité signature de\\nG-Max Lokhlass. Elle\\nréduit les dégâts pendant\\ncinq tours.",
+    "de": "G-Max Lapras:\\nVerringert den\\nSchaden für\\nfünf Runden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      875,
+      876
+    ],
+    "expected_rom": "G-Max Lapras:\\nVerringert den\\nSchaden für\\nfünf Runden.",
+    "encoded_bytes": 54,
+    "max_pixels": 76,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA403AE",
+    "pointers": [
+      10092356,
+      10092360
+    ],
+    "rom": "G-Max Eevee's\nsignature move.\nIt infatuates\nthe target.",
+    "en": "G-Max Eevee'ssignature move.\\nIt infatuates\\nthe target.",
+    "fr": "La capacité signature de\\nG-Max Évoli. Elle\\ncharme la\\ncible.",
+    "de": "G-Max Eevee:\\nBezaubert das Ziel.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      877,
+      878
+    ],
+    "expected_rom": "G-Max Eevee:\\nBezaubert das Ziel.",
+    "encoded_bytes": 33,
+    "max_pixels": 107,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA403E6",
+    "pointers": [
+      10092364,
+      10092368
+    ],
+    "rom": "G-Max Snorlax's\nsignature move. It\nrestores Berries\nthat were eaten.",
+    "en": "G-Max Snorlax'ssignature move. It\\nrestores Berries\\nthat were eaten.",
+    "fr": "La capacité signature de\\nG-Max Ronflex. Elle\\nrestaure les Baies\\nmangées.",
+    "de": "G-Max Snorlax:\\nStellt verzehrte\\nBeeren wieder her.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      879,
+      880
+    ],
+    "expected_rom": "G-Max Snorlax:\\nStellt verzehrte\\nBeeren wieder her.",
+    "encoded_bytes": 51,
+    "max_pixels": 101,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA4042B",
+    "pointers": [
+      10092372,
+      10092376
+    ],
+    "rom": "G-Max Garbodor's\nsignature move.\nIt poisons the\ntarget.",
+    "en": "G-Max Garbodor'ssignature move.\\nIt poisons the\\ntarget.",
+    "fr": "La capacité signature de\\nG-Max Miasmax. Elle\\nempoisonne la\\ncible.",
+    "de": "G-Max Garbodor:\\nVergiftet das Ziel.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      881,
+      882
+    ],
+    "expected_rom": "G-Max Garbodor:\\nVergiftet das Ziel.",
+    "encoded_bytes": 36,
+    "max_pixels": 103,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40463",
+    "pointers": [
+      10092380,
+      10092384
+    ],
+    "rom": "G-Max Melmetal's\nsignature move. It\nprevents the foe\nfrom repeating moves.",
+    "en": "G-Max Melmetal'ssignature move. It\\nprevents the foe\\nfrom repeating moves.",
+    "fr": "La capacité signature de\\nG-Max Mélmetal. Elle\\nempêche l'ennemi de\\nrépéter ses capacités.",
+    "de": "G-Max Melmetal:\\nVerhindert, dass\\nder Gegner seine\\nAttacken wiederholt.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      883,
+      884
+    ],
+    "expected_rom": "G-Max Melmetal:\\nVerhindert, dass\\nder Gegner seine\\nAttacken wiederholt.",
+    "encoded_bytes": 71,
+    "max_pixels": 110,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA404AE",
+    "pointers": [
+      10092388,
+      10092392
+    ],
+    "rom": "G-Max Rillaboom's\nsignature move. It\nstrikes regardless of\nthe target's ability.",
+    "en": "G-Max Rillaboom'ssignature move. It\\nstrikes regardless of\\nthe target's ability.",
+    "fr": "La capacité signature de G-Max\\nGorythmic. Elle frappe\\nmalgré la capacité de la\\ncible.",
+    "de": "G-Max Rillaboom:\\nTrifft trotz der\\nFähigkeit des Ziels.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      885,
+      886
+    ],
+    "expected_rom": "G-Max Rillaboom:\\nTrifft trotz der\\nFähigkeit des Ziels.",
+    "encoded_bytes": 55,
+    "max_pixels": 108,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA404FF",
+    "pointers": [
+      10092396,
+      10092400
+    ],
+    "rom": "G-Max Cinderace's\nsignature move. It\nstrikes regardless of\nthe target's ability.",
+    "en": "G-Max Cinderace'ssignature move. It\\nstrikes regardless of\\nthe target's ability.",
+    "fr": "La capacité signature de G-Max\\nPyrobut. Elle frappe\\nmalgré la capacité de la\\ncible.",
+    "de": "G-Max Cinderace:\\nTrifft trotz der\\nFähigkeit des Ziels.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      887,
+      888
+    ],
+    "expected_rom": "G-Max Cinderace:\\nTrifft trotz der\\nFähigkeit des Ziels.",
+    "encoded_bytes": 55,
+    "max_pixels": 108,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40550",
+    "pointers": [
+      10092404,
+      10092408
+    ],
+    "rom": "G-Max Inteleon's\nsignature move. It\nstrikes regardless of\nthe target's ability.",
+    "en": "G-Max Inteleon'ssignature move. It\\nstrikes regardless of\\nthe target's ability.",
+    "fr": "La capacité signature de G-Max\\nLézargus. Elle frappe\\nmalgré la capacité de la\\ncible.",
+    "de": "G-Max Inteleon:\\nTrifft trotz der\\nFähigkeit des Ziels.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      889,
+      890
+    ],
+    "expected_rom": "G-Max Inteleon:\\nTrifft trotz der\\nFähigkeit des Ziels.",
+    "encoded_bytes": 54,
+    "max_pixels": 108,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA405A0",
+    "pointers": [
+      10092412,
+      10092416
+    ],
+    "rom": "G-Max Corviknight's\nsignature move. It\nremoves the effect\nof screen moves.",
+    "en": "G-Max Corviknight'ssignature move. It\\nremoves the effect\\nof screen moves.",
+    "fr": "La capacité signature de\\nG-Max Corvaillus. Elle\\nsupprime les effets\\ndes écrans.",
+    "de": "G-Max Corviknight:\\nHebt die Effekte\\nvon Wällen auf.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      891,
+      892
+    ],
+    "expected_rom": "G-Max Corviknight:\\nHebt die Effekte\\nvon Wällen auf.",
+    "encoded_bytes": 52,
+    "max_pixels": 99,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA405EB",
+    "pointers": [
+      10092420,
+      10092424
+    ],
+    "rom": "G-Max Orbeetle's\nsignature move. It\nchanges gravity\nfor five turns.",
+    "en": "G-Max Orbeetle'ssignature move. It\\nchanges gravity\\nfor five turns.",
+    "fr": "La capacité signature de\\nG-Max Astronelle. Elle\\nmodifie la gravité pendant\\ncinq tours.",
+    "de": "G-Max Orbeetle:\\nVerändert die\\nSchwerkraft für\\nfünf Runden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [
+      893
+    ],
+    "expected_rom": "G-Max Orbeetle:\\nVerändert die\\nSchwerkraft für\\nfünf Runden.",
+    "encoded_bytes": 59,
+    "max_pixels": 86,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA4062F",
+    "pointers": [
+      10092428,
+      10092432
+    ],
+    "rom": "G-Max Drednaw's\nsignature move.\nIt scatters rocks\naround the field.",
+    "en": "G-Max Drednaw's\\nsignature move.\\nIt scatters rocks\\naround the field.",
+    "fr": "La capacité signature de\\nG-Max Torgamord. Elle\\ndisperse des rochers sur le\\nterrain.",
+    "de": "G-Max Drednaw:\\nVerstreut Felsbrocken\\nauf dem Feld.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Drednaw:\\nVerstreut Felsbrocken\\nauf dem Feld.",
+    "encoded_bytes": 51,
+    "max_pixels": 116,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40673",
+    "pointers": [
+      10092436,
+      10092440
+    ],
+    "rom": "G-Max Coalossal's\nsignature move. It\ndeals damage for\nfour turns.",
+    "en": "G-Max Coalossal's\\nsignature move. It\\ndeals damage for\\nfour turns.",
+    "fr": "La capacité signature de\\nG-Max Monthracite. Elle\\ninflige des dégâts pendant\\nquatre tours.",
+    "de": "G-Max Coalossal:\\nFügt über vier\\nRunden Schaden zu.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Coalossal:\\nFügt über vier\\nRunden Schaden zu.",
+    "encoded_bytes": 51,
+    "max_pixels": 104,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA406B5",
+    "pointers": [
+      10092444,
+      10092448
+    ],
+    "rom": "G-Max Flapple's\nsignature move. It\nreduces the foe's\nevasiveness.",
+    "en": "G-Max Flapple's\\nsignature move. It\\nreduces the foe's\\nevasiveness.",
+    "fr": "La capacité signature de\\nG-Max Pomdrapi. Elle\\nbaisse l'Évasion de\\nl'ennemi.",
+    "de": "G-Max Flapple:\\nSenkt den Fluchtwert\\ndes Gegners.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Flapple:\\nSenkt den Fluchtwert\\ndes Gegners.",
+    "encoded_bytes": 49,
+    "max_pixels": 112,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA406F7",
+    "pointers": [
+      10092452,
+      10092456
+    ],
+    "rom": "G-Max Appletun's\nsignature move. It\nheals the status\nof its allies.",
+    "en": "G-Max Appletun's\\nsignature move. It\\nheals the status\\nof its allies.",
+    "fr": "La capacité signature de\\nG-Max Dratatin. Elle\\nsoigne le statut de ses\\nalliés.",
+    "de": "G-Max Appletun:\\nHeilt den Status\\nseiner Verbündeten.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Appletun:\\nHeilt den Status\\nseiner Verbündeten.",
+    "encoded_bytes": 53,
+    "max_pixels": 104,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA4073B",
+    "pointers": [
+      10092460,
+      10092464
+    ],
+    "rom": "G-Max Sandaconda's\nsignature move. It\ntraps the foe for\nfour to five turns.",
+    "en": "G-Max Sandaconda's\\nsignature move. It\\ntraps the foe for\\nfour to five turns.",
+    "fr": "La capacité signature de\\nG-Max Dunaconda. Elle\\npiège l'ennemi pendant\\nquatre à cinq tours.",
+    "de": "G-Max Sandaconda:\\nFängt den Gegner für\\nvier bis fünf Runden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Sandaconda:\\nFängt den Gegner für\\nvier bis fünf Runden.",
+    "encoded_bytes": 61,
+    "max_pixels": 114,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40787",
+    "pointers": [
+      10092468,
+      10092472
+    ],
+    "rom": "G-Max Toxtricity's\nsignature move.\nIt paralyzes or\npoisons opponents.",
+    "en": "G-Max Toxtricity's\\nsignature move.\\nIt paralyzes or\\npoisons opponents.",
+    "fr": "La capacité signature de\\nG-Max Salarsen. Elle\\nparalyse ou empoisonne\\nles adversaires.",
+    "de": "G-Max Toxtricity:\\nLähmt oder vergiftet\\ndie Gegner.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Toxtricity:\\nLähmt oder vergiftet\\ndie Gegner.",
+    "encoded_bytes": 51,
+    "max_pixels": 112,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA407CD",
+    "pointers": [
+      10092476,
+      10092480
+    ],
+    "rom": "G-Max Centiskorch's\nsignature move. It\ntraps the foe for\nfour to five turns.",
+    "en": "G-Max Centiskorch's\\nsignature move. It\\ntraps the foe for\\nfour to five turns.",
+    "fr": "La capacité signature de\\nG-Max Scolocendre. Elle\\npiège l'ennemi pendant\\nquatre à cinq tours.",
+    "de": "G-Max Centiskorch:\\nFängt den Gegner für\\nvier bis fünf Runden.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Centiskorch:\\nFängt den Gegner für\\nvier bis fünf Runden.",
+    "encoded_bytes": 62,
+    "max_pixels": 114,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA4081A",
+    "pointers": [
+      10092484,
+      10092488
+    ],
+    "rom": "G-Max Hatterene's\nsignature move.\nIt confuses the\ntarget.",
+    "en": "G-Max Hatterene's\\nsignature move.\\nIt confuses the\\ntarget.",
+    "fr": "La capacité signature de\\nG-Max Sorcilence. Elle\\nconfond la\\ncible.",
+    "de": "G-Max Hatterene:\\nVerwirrt das Ziel.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Hatterene:\\nVerwirrt das Ziel.",
+    "encoded_bytes": 36,
+    "max_pixels": 97,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40854",
+    "pointers": [
+      10092492,
+      10092496
+    ],
+    "rom": "G-Max Grimmsnarl's\nsignature move.\nIt inflicts Yawn\nstatus on the foe.",
+    "en": "G-Max Grimmsnarl's\\nsignature move.\\nIt inflicts Yawn\\nstatus on the foe.",
+    "fr": "La capacité signature de\\nG-Max Angoliath. Elle\\ninflige Bâillement\\nà l'ennemi.",
+    "de": "G-Max Grimmsnarl:\\nMacht den Gegner\\nschläfrig.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Grimmsnarl:\\nMacht den Gegner\\nschläfrig.",
+    "encoded_bytes": 46,
+    "max_pixels": 94,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA4089B",
+    "pointers": [
+      10092500,
+      10092504
+    ],
+    "rom": "G-Max Alcremie's\nsignature move.\nIt heals the HP\nof its allies.",
+    "en": "G-Max Alcremie's\\nsignature move.\\nIt heals the HP\\nof its allies.",
+    "fr": "La capacité signature de\\nG-Max Charmilly. Elle\\nsoigne les PV de ses\\nalliés.",
+    "de": "G-Max Alcremie:\\nHeilt die KP seiner\\nVerbündeten.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Alcremie:\\nHeilt die KP seiner\\nVerbündeten.",
+    "encoded_bytes": 49,
+    "max_pixels": 103,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA408DB",
+    "pointers": [
+      10092508,
+      10092512
+    ],
+    "rom": "G-Max Copperajah's\nsignature move. It\nscatters spikes\naround the field.",
+    "en": "G-Max Copperajah's\\nsignature move. It\\nscatters spikes\\naround the field.",
+    "fr": "La capacité signature de\\nG-Max Pachyradjah. Elle\\ndisperse des pointes sur le\\nterrain.",
+    "de": "G-Max Copperajah:\\nVerteilt Stahlsplitter\\nauf dem Feld.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Copperajah:\\nVerteilt Stahlsplitter\\nauf dem Feld.",
+    "encoded_bytes": 55,
+    "max_pixels": 117,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40923",
+    "pointers": [
+      10092516,
+      10092520
+    ],
+    "rom": "G-Max Duraludon's\nsignature move. It\nreduces the PP of\nthe last move used.",
+    "en": "G-Max Duraludon's\\nsignature move. It\\nreduces the PP of\\nthe last move used.",
+    "fr": "La capacité signature de\\nG-Max Duralugon. Elle\\nréduit les PP de la\\ndernière capacité utilisée.",
+    "de": "G-Max Duraludon:\\nSenkt die AP\\nder zuletzt\\neingesetzten Attacke.",
+    "decision": "corrigé",
+    "scene": "Résumé / détail attaque (combat et apprentissage)",
+    "move_indices": [],
+    "expected_rom": "G-Max Duraludon:\\nSenkt die AP\\nder zuletzt\\neingesetzten Attacke.",
+    "encoded_bytes": 64,
+    "max_pixels": 115,
+    "reason": "Nom propre EN et boîte ≤5 lignes / 122 px"
+  },
+  {
+    "offset": "0xA40A1D",
+    "pointers": [],
+    "rom": "Pound",
+    "en": "",
+    "fr": "Écras’Face",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      1
+    ],
+    "expected_rom": "Klaps",
+    "encoded_bytes": 6,
+    "max_pixels": 28,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A2A",
+    "pointers": [],
+    "rom": "Karate Chop",
+    "en": "",
+    "fr": "Poing Karaté",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      2
+    ],
+    "expected_rom": "Karateschlag",
+    "encoded_bytes": 13,
+    "max_pixels": 68,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A37",
+    "pointers": [],
+    "rom": "Double Slap",
+    "en": "",
+    "fr": "Torgnoles",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      3
+    ],
+    "expected_rom": "Duplexhieb",
+    "encoded_bytes": 11,
+    "max_pixels": 57,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A44",
+    "pointers": [],
+    "rom": "Comet Punch",
+    "en": "",
+    "fr": "Poing Comète",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      4
+    ],
+    "expected_rom": "Kometenhieb",
+    "encoded_bytes": 12,
+    "max_pixels": 62,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A51",
+    "pointers": [],
+    "rom": "Mega Punch",
+    "en": "",
+    "fr": "Ultimapoing",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      5
+    ],
+    "expected_rom": "Megahieb",
+    "encoded_bytes": 9,
+    "max_pixels": 46,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A5E",
+    "pointers": [],
+    "rom": "Pay Day",
+    "en": "",
+    "fr": "Jackpot",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      6
+    ],
+    "expected_rom": "Zahltag",
+    "encoded_bytes": 8,
+    "max_pixels": 40,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A6B",
+    "pointers": [],
+    "rom": "Fire Punch",
+    "en": "",
+    "fr": "Poing Feu",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      7
+    ],
+    "expected_rom": "Feuerschlag",
+    "encoded_bytes": 12,
+    "max_pixels": 63,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A78",
+    "pointers": [],
+    "rom": "Ice Punch",
+    "en": "",
+    "fr": "Poing Glace",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      8
+    ],
+    "expected_rom": "Eishieb",
+    "encoded_bytes": 8,
+    "max_pixels": 37,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A85",
+    "pointers": [],
+    "rom": "ThunderPunch",
+    "en": "otifs sur leur fourrure sont\\npropres à chaque Spinda. Son pas\\nchancelant le rend difficile à viser.",
+    "fr": "Poing Éclair",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      9
+    ],
+    "expected_rom": "Donnerschlag",
+    "encoded_bytes": 13,
+    "max_pixels": 67,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A92",
+    "pointers": [],
+    "rom": "Scratch",
+    "en": "r fourrure sont\\npropres à chaque Spinda. Son pas\\nchancelant le rend difficile à viser.",
+    "fr": "Griffe",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      10
+    ],
+    "expected_rom": "Kratzer",
+    "encoded_bytes": 8,
+    "max_pixels": 39,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40A9F",
+    "pointers": [],
+    "rom": "Vise Grip",
+    "en": "nt\\npropres à chaque Spinda. Son pas\\nchancelant le rend difficile à viser.",
+    "fr": "Force Poigne",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      11
+    ],
+    "expected_rom": "Klammer",
+    "encoded_bytes": 8,
+    "max_pixels": 40,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40AAC",
+    "pointers": [],
+    "rom": "Guillotine",
+    "en": "chaque Spinda. Son pas\\nchancelant le rend difficile à viser.",
+    "fr": "Guillotine",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      12
+    ],
+    "expected_rom": "Guillotine",
+    "encoded_bytes": 11,
+    "max_pixels": 52,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40AB9",
+    "pointers": [],
+    "rom": "Razor Wind",
+    "en": ". Son pas\\nchancelant le rend difficile à viser.",
+    "fr": "Coupe-Vent",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      13
+    ],
+    "expected_rom": "Klingensturm",
+    "encoded_bytes": 13,
+    "max_pixels": 64,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40AC6",
+    "pointers": [],
+    "rom": "Swords Dance",
+    "en": "ncelant le rend difficile à viser.",
+    "fr": "Danse-Lames",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      14
+    ],
+    "expected_rom": "Schwerttanz",
+    "encoded_bytes": 12,
+    "max_pixels": 62,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40AD3",
+    "pointers": [
+      10930876
+    ],
+    "rom": "Cut",
+    "en": "nd difficile à viser.",
+    "fr": null,
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      15
+    ],
+    "expected_rom": "Zerschneider",
+    "encoded_bytes": 13,
+    "max_pixels": 66,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40AE0",
+    "pointers": [],
+    "rom": "Gust",
+    "en": "à viser.",
+    "fr": "Tornade",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      16
+    ],
+    "expected_rom": "Windstoß",
+    "encoded_bytes": 9,
+    "max_pixels": 43,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40AED",
+    "pointers": [],
+    "rom": "Wing Attack",
+    "en": "",
+    "fr": "Cru-Ailes",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      17
+    ],
+    "expected_rom": "Flügelschlag",
+    "encoded_bytes": 13,
+    "max_pixels": 68,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40AFA",
+    "pointers": [],
+    "rom": "Whirlwind",
+    "en": "",
+    "fr": "Cyclone",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      18
+    ],
+    "expected_rom": "Wirbelwind",
+    "encoded_bytes": 11,
+    "max_pixels": 53,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B14",
+    "pointers": [],
+    "rom": "Bind",
+    "en": "",
+    "fr": "Étreinte",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      20
+    ],
+    "expected_rom": "Klammergriff",
+    "encoded_bytes": 13,
+    "max_pixels": 65,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B21",
+    "pointers": [],
+    "rom": "Slam",
+    "en": "",
+    "fr": "Souplesse",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      21
+    ],
+    "expected_rom": "Slam",
+    "encoded_bytes": 5,
+    "max_pixels": 23,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B2E",
+    "pointers": [],
+    "rom": "Vine Whip",
+    "en": "",
+    "fr": "Fouet Lianes",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      22
+    ],
+    "expected_rom": "Rankenhieb",
+    "encoded_bytes": 11,
+    "max_pixels": 55,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B3B",
+    "pointers": [],
+    "rom": "Stomp",
+    "en": "",
+    "fr": "Écrasement",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      23
+    ],
+    "expected_rom": "Stampfer",
+    "encoded_bytes": 9,
+    "max_pixels": 45,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B48",
+    "pointers": [],
+    "rom": "Double Kick",
+    "en": "la nuit pour chasser. Il traque\\nles proies épuisées après une journée\\ndans le désert.",
+    "fr": "Double Pied",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      24
+    ],
+    "expected_rom": "Doppelkick",
+    "encoded_bytes": 11,
+    "max_pixels": 55,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B55",
+    "pointers": [],
+    "rom": "Mega Kick",
+    "en": "chasser. Il traque\\nles proies épuisées après une journée\\ndans le désert.",
+    "fr": "Ultimawashi",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      25
+    ],
+    "expected_rom": "Megakick",
+    "encoded_bytes": 9,
+    "max_pixels": 44,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B62",
+    "pointers": [],
+    "rom": "Jump Kick",
+    "en": "raque\\nles proies épuisées après une journée\\ndans le désert.",
+    "fr": "Pied Sauté",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      26
+    ],
+    "expected_rom": "Sprungkick",
+    "encoded_bytes": 11,
+    "max_pixels": 54,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B6F",
+    "pointers": [],
+    "rom": "Rolling Kick",
+    "en": "ies épuisées après une journée\\ndans le désert.",
+    "fr": "Mawashi Geri",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      27
+    ],
+    "expected_rom": "Fegekick",
+    "encoded_bytes": 9,
+    "max_pixels": 44,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B7C",
+    "pointers": [],
+    "rom": "Sand Attack",
+    "en": "après une journée\\ndans le désert.",
+    "fr": "Jet de Sable",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      28
+    ],
+    "expected_rom": "Sandwirbel",
+    "encoded_bytes": 11,
+    "max_pixels": 55,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B89",
+    "pointers": [],
+    "rom": "Headbutt",
+    "en": "rnée\\ndans le désert.",
+    "fr": "Coup d’Boule",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      29
+    ],
+    "expected_rom": "Kopfnuss",
+    "encoded_bytes": 9,
+    "max_pixels": 44,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40B96",
+    "pointers": [],
+    "rom": "Horn Attack",
+    "en": "désert.",
+    "fr": "Koud’Korne",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      30
+    ],
+    "expected_rom": "Hornattacke",
+    "encoded_bytes": 12,
+    "max_pixels": 61,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40BA3",
+    "pointers": [],
+    "rom": "Fury Attack",
+    "en": "",
+    "fr": "Furie",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      31
+    ],
+    "expected_rom": "Furienschlag",
+    "encoded_bytes": 13,
+    "max_pixels": 66,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40BB0",
+    "pointers": [],
+    "rom": "Horn Drill",
+    "en": "",
+    "fr": "Empal’Korne",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      32
+    ],
+    "expected_rom": "Hornbohrer",
+    "encoded_bytes": 11,
+    "max_pixels": 56,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40BBD",
+    "pointers": [],
+    "rom": "Tackle",
+    "en": "",
+    "fr": "Charge",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      33
+    ],
+    "expected_rom": "Tackle",
+    "encoded_bytes": 7,
+    "max_pixels": 34,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40BCA",
+    "pointers": [],
+    "rom": "Body Slam",
+    "en": "",
+    "fr": "Plaquage",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      34
+    ],
+    "expected_rom": "Bodyslam",
+    "encoded_bytes": 9,
+    "max_pixels": 46,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40BD7",
+    "pointers": [],
+    "rom": "Wrap",
+    "en": "",
+    "fr": "Ligotage",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      35
+    ],
+    "expected_rom": "Wickel",
+    "encoded_bytes": 7,
+    "max_pixels": 32,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40BE4",
+    "pointers": [],
+    "rom": "Take Down",
+    "en": "",
+    "fr": "Bélier",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      36
+    ],
+    "expected_rom": "Bodycheck",
+    "encoded_bytes": 10,
+    "max_pixels": 53,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40BF1",
+    "pointers": [],
+    "rom": "Thrash",
+    "en": "",
+    "fr": "Mania",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      37
+    ],
+    "expected_rom": "Fuchtler",
+    "encoded_bytes": 9,
+    "max_pixels": 45,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40BFE",
+    "pointers": [],
+    "rom": "Double-Edge",
+    "en": "",
+    "fr": "Damoclès",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      38
+    ],
+    "expected_rom": "Risikotackle",
+    "encoded_bytes": 13,
+    "max_pixels": 63,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C0B",
+    "pointers": [],
+    "rom": "Tail Whip",
+    "en": "nt à l'aise que dans un\\nmilieu propre et repousse la poussière\\navec ses ailes.",
+    "fr": "Mimi-Queue",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      39
+    ],
+    "expected_rom": "Rutenschlag",
+    "encoded_bytes": 12,
+    "max_pixels": 62,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C18",
+    "pointers": [],
+    "rom": "Poison Sting",
+    "en": "ue dans un\\nmilieu propre et repousse la poussière\\navec ses ailes.",
+    "fr": "Dard-Venin",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      40
+    ],
+    "expected_rom": "Giftstachel",
+    "encoded_bytes": 12,
+    "max_pixels": 59,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C25",
+    "pointers": [],
+    "rom": "Twineedle",
+    "en": "lieu propre et repousse la poussière\\navec ses ailes.",
+    "fr": "Double Dard",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      41
+    ],
+    "expected_rom": "Duonadel",
+    "encoded_bytes": 9,
+    "max_pixels": 46,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C32",
+    "pointers": [],
+    "rom": "Pin Missile",
+    "en": "t repousse la poussière\\navec ses ailes.",
+    "fr": "Dard-Nuée",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      42
+    ],
+    "expected_rom": "Nadelrakete",
+    "encoded_bytes": 12,
+    "max_pixels": 62,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C3F",
+    "pointers": [],
+    "rom": "Leer",
+    "en": " poussière\\navec ses ailes.",
+    "fr": "Groz’Yeux",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      43
+    ],
+    "expected_rom": "Silberblick",
+    "encoded_bytes": 12,
+    "max_pixels": 58,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C4C",
+    "pointers": [],
+    "rom": "Bite",
+    "en": "ec ses ailes.",
+    "fr": "Morsure",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      44
+    ],
+    "expected_rom": "Biss",
+    "encoded_bytes": 5,
+    "max_pixels": 20,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C59",
+    "pointers": [],
+    "rom": "Growl",
+    "en": "",
+    "fr": "Rugissement",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      45
+    ],
+    "expected_rom": "Heuler",
+    "encoded_bytes": 7,
+    "max_pixels": 34,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C66",
+    "pointers": [],
+    "rom": "Roar",
+    "en": "",
+    "fr": "Hurlement",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      46
+    ],
+    "expected_rom": "Brüller",
+    "encoded_bytes": 8,
+    "max_pixels": 38,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C73",
+    "pointers": [],
+    "rom": "Sing",
+    "en": "",
+    "fr": "Berceuse",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      47
+    ],
+    "expected_rom": "Gesang",
+    "encoded_bytes": 7,
+    "max_pixels": 34,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C80",
+    "pointers": [],
+    "rom": "Supersonic",
+    "en": "",
+    "fr": "Ultrason",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      48
+    ],
+    "expected_rom": "Superschall",
+    "encoded_bytes": 12,
+    "max_pixels": 62,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C8D",
+    "pointers": [],
+    "rom": "Sonic Boom",
+    "en": "",
+    "fr": "Sonic Boom",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      49
+    ],
+    "expected_rom": "Ultraschall",
+    "encoded_bytes": 12,
+    "max_pixels": 60,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40C9A",
+    "pointers": [],
+    "rom": "Disable",
+    "en": "",
+    "fr": "Entrave",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      50
+    ],
+    "expected_rom": "Aussetzer",
+    "encoded_bytes": 10,
+    "max_pixels": 50,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40CA7",
+    "pointers": [],
+    "rom": "Acid",
+    "en": "",
+    "fr": "Acide",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      51
+    ],
+    "expected_rom": "Säure",
+    "encoded_bytes": 6,
+    "max_pixels": 29,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40CB4",
+    "pointers": [],
+    "rom": "Ember",
+    "en": "",
+    "fr": "Flammèche",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      52
+    ],
+    "expected_rom": "Glut",
+    "encoded_bytes": 5,
+    "max_pixels": 22,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40CC1",
+    "pointers": [],
+    "rom": "Flamethrower",
+    "en": "on corps glissant est difficile à\\nattraper. On dit qu'il a été créé dans\\nde la boue solidifiée.",
+    "fr": "Lance-Flammes",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      53
+    ],
+    "expected_rom": "Flammenwurf",
+    "encoded_bytes": 12,
+    "max_pixels": 62,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40CCE",
+    "pointers": [],
+    "rom": "Mist",
+    "en": "sant est difficile à\\nattraper. On dit qu'il a été créé dans\\nde la boue solidifiée.",
+    "fr": "Brume",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      54
+    ],
+    "expected_rom": "Weißnebel",
+    "encoded_bytes": 10,
+    "max_pixels": 50,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40CDB",
+    "pointers": [],
+    "rom": "Water Gun",
+    "en": "icile à\\nattraper. On dit qu'il a été créé dans\\nde la boue solidifiée.",
+    "fr": "Pistolet à O",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      55
+    ],
+    "expected_rom": "Aquaknarre",
+    "encoded_bytes": 11,
+    "max_pixels": 56,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40CE8",
+    "pointers": [],
+    "rom": "Hydro Pump",
+    "en": "per. On dit qu'il a été créé dans\\nde la boue solidifiée.",
+    "fr": "Hydrocanon",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      56
+    ],
+    "expected_rom": "Hydropumpe",
+    "encoded_bytes": 11,
+    "max_pixels": 59,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40CF5",
+    "pointers": [
+      10930900
+    ],
+    "rom": "Surf",
+    "en": "u'il a été créé dans\\nde la boue solidifiée.",
+    "fr": "Surf",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      57
+    ],
+    "expected_rom": "Surfer",
+    "encoded_bytes": 7,
+    "max_pixels": 33,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D02",
+    "pointers": [],
+    "rom": "Ice Beam",
+    "en": "éé dans\\nde la boue solidifiée.",
+    "fr": "Laser Glace",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      58
+    ],
+    "expected_rom": "Eisstrahl",
+    "encoded_bytes": 10,
+    "max_pixels": 47,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D0F",
+    "pointers": [],
+    "rom": "Blizzard",
+    "en": " boue solidifiée.",
+    "fr": "Blizzard",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      59
+    ],
+    "expected_rom": "Blizzard",
+    "encoded_bytes": 9,
+    "max_pixels": 44,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D1C",
+    "pointers": [],
+    "rom": "Psybeam",
+    "en": "iée.",
+    "fr": "Rafale Psy",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      60
+    ],
+    "expected_rom": "Psystrahl",
+    "encoded_bytes": 10,
+    "max_pixels": 49,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D29",
+    "pointers": [],
+    "rom": "Bubble Beam",
+    "en": "",
+    "fr": "Bulles d’O",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      61
+    ],
+    "expected_rom": "Blubbstrahl",
+    "encoded_bytes": 12,
+    "max_pixels": 61,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D36",
+    "pointers": [],
+    "rom": "Aurora Beam",
+    "en": "",
+    "fr": "Onde Boréale",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      62
+    ],
+    "expected_rom": "Aurorastrahl",
+    "encoded_bytes": 13,
+    "max_pixels": 66,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D43",
+    "pointers": [],
+    "rom": "Hyper Beam",
+    "en": "",
+    "fr": "Ultralaser",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      63
+    ],
+    "expected_rom": "Hyperstrahl",
+    "encoded_bytes": 12,
+    "max_pixels": 61,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D50",
+    "pointers": [],
+    "rom": "Peck",
+    "en": "",
+    "fr": "Picpic",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      64
+    ],
+    "expected_rom": "Pikser",
+    "encoded_bytes": 7,
+    "max_pixels": 31,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D5D",
+    "pointers": [],
+    "rom": "Drill Peck",
+    "en": "",
+    "fr": "Bec Vrille",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      65
+    ],
+    "expected_rom": "Bohrschnabel",
+    "encoded_bytes": 13,
+    "max_pixels": 68,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D6A",
+    "pointers": [],
+    "rom": "Submission",
+    "en": "",
+    "fr": "Sacrifice",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      66
+    ],
+    "expected_rom": "Überroller",
+    "encoded_bytes": 11,
+    "max_pixels": 55,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D77",
+    "pointers": [],
+    "rom": "Low Kick",
+    "en": "",
+    "fr": "Balayage",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      67
+    ],
+    "expected_rom": "Fußkick",
+    "encoded_bytes": 8,
+    "max_pixels": 38,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D84",
+    "pointers": [],
+    "rom": "Counter",
+    "en": "okémon a peut-être un physique\\ndisgracieux, mais il est robuste et peut\\nsurvivre dans très peu d'eau.",
+    "fr": "Riposte",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      68
+    ],
+    "expected_rom": "Konter",
+    "encoded_bytes": 7,
+    "max_pixels": 33,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D91",
+    "pointers": [],
+    "rom": "Seismic Toss",
+    "en": "-être un physique\\ndisgracieux, mais il est robuste et peut\\nsurvivre dans très peu d'eau.",
+    "fr": "Frappe Atlas",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      69
+    ],
+    "expected_rom": "Geowurf",
+    "encoded_bytes": 8,
+    "max_pixels": 40,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40D9E",
+    "pointers": [
+      10930892
+    ],
+    "rom": "Strength",
+    "en": "ique\\ndisgracieux, mais il est robuste et peut\\nsurvivre dans très peu d'eau.",
+    "fr": "Force",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      70
+    ],
+    "expected_rom": "Stärke",
+    "encoded_bytes": 7,
+    "max_pixels": 33,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40DAB",
+    "pointers": [],
+    "rom": "Absorb",
+    "en": "eux, mais il est robuste et peut\\nsurvivre dans très peu d'eau.",
+    "fr": "Vole-Vie",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      71
+    ],
+    "expected_rom": "Absorber",
+    "encoded_bytes": 9,
+    "max_pixels": 45,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40DB8",
+    "pointers": [],
+    "rom": "Mega Drain",
+    "en": "est robuste et peut\\nsurvivre dans très peu d'eau.",
+    "fr": "Méga-Sangsue",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      72
+    ],
+    "expected_rom": "Megasauger",
+    "encoded_bytes": 11,
+    "max_pixels": 58,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40DC5",
+    "pointers": [],
+    "rom": "Leech Seed",
+    "en": "t peut\\nsurvivre dans très peu d'eau.",
+    "fr": "Vampigraine",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      73
+    ],
+    "expected_rom": "Egelsamen",
+    "encoded_bytes": 10,
+    "max_pixels": 51,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40DD2",
+    "pointers": [],
+    "rom": "Growth",
+    "en": "re dans très peu d'eau.",
+    "fr": "Croissance",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      74
+    ],
+    "expected_rom": "Wachstum",
+    "encoded_bytes": 9,
+    "max_pixels": 46,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40DDF",
+    "pointers": [],
+    "rom": "Razor Leaf",
+    "en": "peu d'eau.",
+    "fr": "Tranch’Herbe",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      75
+    ],
+    "expected_rom": "Rasierblatt",
+    "encoded_bytes": 12,
+    "max_pixels": 59,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40DEC",
+    "pointers": [],
+    "rom": "Solar Beam",
+    "en": "",
+    "fr": "Lance-Soleil",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      76
+    ],
+    "expected_rom": "Solarstrahl",
+    "encoded_bytes": 12,
+    "max_pixels": 60,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40DF9",
+    "pointers": [],
+    "rom": "PoisonPowder",
+    "en": "",
+    "fr": "Poudre Toxik",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      77
+    ],
+    "expected_rom": "Giftpuder",
+    "encoded_bytes": 10,
+    "max_pixels": 49,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E06",
+    "pointers": [],
+    "rom": "Stun Spore",
+    "en": "",
+    "fr": "Para-Spore",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      78
+    ],
+    "expected_rom": "Stachelspore",
+    "encoded_bytes": 13,
+    "max_pixels": 68,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E13",
+    "pointers": [],
+    "rom": "Sleep Powder",
+    "en": "",
+    "fr": "Poudre Dodo",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      79
+    ],
+    "expected_rom": "Schlafpuder",
+    "encoded_bytes": 12,
+    "max_pixels": 63,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E20",
+    "pointers": [],
+    "rom": "Petal Dance",
+    "en": "",
+    "fr": "Danse Fleurs",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      80
+    ],
+    "expected_rom": "Blättertanz",
+    "encoded_bytes": 12,
+    "max_pixels": 60,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E2D",
+    "pointers": [],
+    "rom": "String Shot",
+    "en": "",
+    "fr": "Sécrétion",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      81
+    ],
+    "expected_rom": "Fadenschuss",
+    "encoded_bytes": 12,
+    "max_pixels": 62,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E3A",
+    "pointers": [],
+    "rom": "Dragon Rage",
+    "en": "",
+    "fr": "Draco-Rage",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      82
+    ],
+    "expected_rom": "Drachenwut",
+    "encoded_bytes": 11,
+    "max_pixels": 57,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E47",
+    "pointers": [],
+    "rom": "Fire Spin",
+    "en": "pée mue par la tristesse qui la\\nronge depuis qu'on l'a délaissée. Elle\\nrecherche son propriétaire.",
+    "fr": "Danse Flammes",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      83
+    ],
+    "expected_rom": "Feuerwirbel",
+    "encoded_bytes": 12,
+    "max_pixels": 61,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E54",
+    "pointers": [],
+    "rom": "ThunderShock",
+    "en": "a tristesse qui la\\nronge depuis qu'on l'a délaissée. Elle\\nrecherche son propriétaire.",
+    "fr": "Éclair",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      84
+    ],
+    "expected_rom": "Donnerschock",
+    "encoded_bytes": 13,
+    "max_pixels": 67,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E61",
+    "pointers": [],
+    "rom": "Thunderbolt",
+    "en": "ui la\\nronge depuis qu'on l'a délaissée. Elle\\nrecherche son propriétaire.",
+    "fr": "Tonnerre",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      85
+    ],
+    "expected_rom": "Donnerblitz",
+    "encoded_bytes": 12,
+    "max_pixels": 59,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E6E",
+    "pointers": [],
+    "rom": "Thunder Wave",
+    "en": "epuis qu'on l'a délaissée. Elle\\nrecherche son propriétaire.",
+    "fr": "Cage Éclair",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      86
+    ],
+    "expected_rom": "Donnerwelle",
+    "encoded_bytes": 12,
+    "max_pixels": 61,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E7B",
+    "pointers": [],
+    "rom": "Thunder",
+    "en": "'a délaissée. Elle\\nrecherche son propriétaire.",
+    "fr": "Fatal-Foudre",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      87
+    ],
+    "expected_rom": "Donner",
+    "encoded_bytes": 7,
+    "max_pixels": 33,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E88",
+    "pointers": [],
+    "rom": "Rock Throw",
+    "en": " Elle\\nrecherche son propriétaire.",
+    "fr": "Jet-Pierres",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      88
+    ],
+    "expected_rom": "Steinwurf",
+    "encoded_bytes": 10,
+    "max_pixels": 48,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40E95",
+    "pointers": [],
+    "rom": "Earthquake",
+    "en": "he son propriétaire.",
+    "fr": "Séisme",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      89
+    ],
+    "expected_rom": "Erdbeben",
+    "encoded_bytes": 9,
+    "max_pixels": 46,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40EA2",
+    "pointers": [],
+    "rom": "Fissure",
+    "en": "étaire.",
+    "fr": "Abîme",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      90
+    ],
+    "expected_rom": "Geofissur",
+    "encoded_bytes": 10,
+    "max_pixels": 48,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40EBC",
+    "pointers": [],
+    "rom": "Toxic",
+    "en": "",
+    "fr": "Toxik",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      92
+    ],
+    "expected_rom": "Toxin",
+    "encoded_bytes": 6,
+    "max_pixels": 27,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40EC9",
+    "pointers": [],
+    "rom": "Confusion",
+    "en": "",
+    "fr": "Choc Mental",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      93
+    ],
+    "expected_rom": "Konfusion",
+    "encoded_bytes": 10,
+    "max_pixels": 48,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40ED6",
+    "pointers": [],
+    "rom": "Psychic",
+    "en": "",
+    "fr": "Psyko",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      94
+    ],
+    "expected_rom": "Psychokinese",
+    "encoded_bytes": 13,
+    "max_pixels": 66,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40EE3",
+    "pointers": [],
+    "rom": "Hypnosis",
+    "en": "",
+    "fr": "Hypnose",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      95
+    ],
+    "expected_rom": "Hypnose",
+    "encoded_bytes": 8,
+    "max_pixels": 40,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40EF0",
+    "pointers": [],
+    "rom": "Meditate",
+    "en": "",
+    "fr": "Yoga",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      96
+    ],
+    "expected_rom": "Meditation",
+    "encoded_bytes": 11,
+    "max_pixels": 53,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40EFD",
+    "pointers": [],
+    "rom": "Agility",
+    "en": "",
+    "fr": "Hâte",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      97
+    ],
+    "expected_rom": "Agilität",
+    "encoded_bytes": 9,
+    "max_pixels": 41,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F0A",
+    "pointers": [],
+    "rom": "Quick Attack",
+    "en": " des groupes entiers de\\nStalgamin vivent en harmonie sous des\\nfeuilles gigantesques.",
+    "fr": "Vive-Attaque",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      98
+    ],
+    "expected_rom": "Ruckzuckhieb",
+    "encoded_bytes": 13,
+    "max_pixels": 68,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F17",
+    "pointers": [],
+    "rom": "Rage",
+    "en": "entiers de\\nStalgamin vivent en harmonie sous des\\nfeuilles gigantesques.",
+    "fr": "Frénésie",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      99
+    ],
+    "expected_rom": "Raserei",
+    "encoded_bytes": 8,
+    "max_pixels": 38,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F24",
+    "pointers": [
+      10930924
+    ],
+    "rom": "Teleport",
+    "en": "algamin vivent en harmonie sous des\\nfeuilles gigantesques.",
+    "fr": "Téléport",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      100
+    ],
+    "expected_rom": "Teleport",
+    "encoded_bytes": 9,
+    "max_pixels": 45,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F31",
+    "pointers": [],
+    "rom": "Night Shade",
+    "en": "t en harmonie sous des\\nfeuilles gigantesques.",
+    "fr": "Ténèbres",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      101
+    ],
+    "expected_rom": "Nachtnebel",
+    "encoded_bytes": 11,
+    "max_pixels": 57,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F3E",
+    "pointers": [],
+    "rom": "Mimic",
+    "en": " sous des\\nfeuilles gigantesques.",
+    "fr": "Copie",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      102
+    ],
+    "expected_rom": "Mimikry",
+    "encoded_bytes": 8,
+    "max_pixels": 36,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F4B",
+    "pointers": [],
+    "rom": "Screech",
+    "en": "illes gigantesques.",
+    "fr": "Grincement",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      103
+    ],
+    "expected_rom": "Kreideschrei",
+    "encoded_bytes": 13,
+    "max_pixels": 65,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F58",
+    "pointers": [],
+    "rom": "Double Team",
+    "en": "sques.",
+    "fr": "Reflet",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      104
+    ],
+    "expected_rom": "Doppelteam",
+    "encoded_bytes": 11,
+    "max_pixels": 58,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F65",
+    "pointers": [],
+    "rom": "Recover",
+    "en": "",
+    "fr": "Soin",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      105
+    ],
+    "expected_rom": "Genesung",
+    "encoded_bytes": 9,
+    "max_pixels": 45,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F72",
+    "pointers": [],
+    "rom": "Harden",
+    "en": "",
+    "fr": "Armure",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      106
+    ],
+    "expected_rom": "Härtner",
+    "encoded_bytes": 8,
+    "max_pixels": 38,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F7F",
+    "pointers": [],
+    "rom": "Minimize",
+    "en": "",
+    "fr": "Lilliput",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      107
+    ],
+    "expected_rom": "Komprimator",
+    "encoded_bytes": 12,
+    "max_pixels": 61,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F8C",
+    "pointers": [],
+    "rom": "Smokescreen",
+    "en": "",
+    "fr": "Brouillard",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      108
+    ],
+    "expected_rom": "Rauchwolke",
+    "encoded_bytes": 11,
+    "max_pixels": 58,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40F99",
+    "pointers": [],
+    "rom": "Confuse Ray",
+    "en": "",
+    "fr": "Onde Folie",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      109
+    ],
+    "expected_rom": "Konfusstrahl",
+    "encoded_bytes": 13,
+    "max_pixels": 65,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40FA6",
+    "pointers": [],
+    "rom": "Withdraw",
+    "en": "",
+    "fr": "Repli",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      110
+    ],
+    "expected_rom": "Panzerschutz",
+    "encoded_bytes": 13,
+    "max_pixels": 68,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40FB3",
+    "pointers": [],
+    "rom": "Defense Curl",
+    "en": "",
+    "fr": "Boul’Armure",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      111
+    ],
+    "expected_rom": "Einigler",
+    "encoded_bytes": 9,
+    "max_pixels": 41,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40FCD",
+    "pointers": [],
+    "rom": "Light Screen",
+    "en": " qu'une perle durant son\\nexistence. On raconte qu'elle amplifie\\nles pouvoirs psychiques.",
+    "fr": "Mur Lumière",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      113
+    ],
+    "expected_rom": "Lichtschild",
+    "encoded_bytes": 12,
+    "max_pixels": 59,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40FDA",
+    "pointers": [],
+    "rom": "Haze",
+    "en": " durant son\\nexistence. On raconte qu'elle amplifie\\nles pouvoirs psychiques.",
+    "fr": "Buée Noire",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      114
+    ],
+    "expected_rom": "Dunkelnebel",
+    "encoded_bytes": 12,
+    "max_pixels": 61,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40FE7",
+    "pointers": [],
+    "rom": "Reflect",
+    "en": "xistence. On raconte qu'elle amplifie\\nles pouvoirs psychiques.",
+    "fr": "Protection",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      115
+    ],
+    "expected_rom": "Reflektor",
+    "encoded_bytes": 10,
+    "max_pixels": 49,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA40FF4",
+    "pointers": [],
+    "rom": "Focus Energy",
+    "en": "raconte qu'elle amplifie\\nles pouvoirs psychiques.",
+    "fr": "Puissance",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      116
+    ],
+    "expected_rom": "Energiefokus",
+    "encoded_bytes": 13,
+    "max_pixels": 65,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41001",
+    "pointers": [],
+    "rom": "Bide",
+    "en": "le amplifie\\nles pouvoirs psychiques.",
+    "fr": "Patience",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      117
+    ],
+    "expected_rom": "Geduld",
+    "encoded_bytes": 7,
+    "max_pixels": 35,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4100E",
+    "pointers": [],
+    "rom": "Metronome",
+    "en": "es pouvoirs psychiques.",
+    "fr": "Métronome",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      118
+    ],
+    "expected_rom": "Metronom",
+    "encoded_bytes": 9,
+    "max_pixels": 45,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4101B",
+    "pointers": [],
+    "rom": "Mirror Move",
+    "en": "sychiques.",
+    "fr": "Mimique",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      119
+    ],
+    "expected_rom": "Spiegeltrick",
+    "encoded_bytes": 13,
+    "max_pixels": 64,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41028",
+    "pointers": [],
+    "rom": "Selfdestruct",
+    "en": "",
+    "fr": "Destruction",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      120
+    ],
+    "expected_rom": "Finale",
+    "encoded_bytes": 7,
+    "max_pixels": 32,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41035",
+    "pointers": [],
+    "rom": "Egg Bomb",
+    "en": "",
+    "fr": "Bombe Œuf",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      121
+    ],
+    "expected_rom": "Eierbombe",
+    "encoded_bytes": 10,
+    "max_pixels": 51,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41042",
+    "pointers": [],
+    "rom": "Lick",
+    "en": "",
+    "fr": "Léchouille",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      122
+    ],
+    "expected_rom": "Schlecker",
+    "encoded_bytes": 10,
+    "max_pixels": 51,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4104F",
+    "pointers": [],
+    "rom": "Smog",
+    "en": "",
+    "fr": "Purédpois",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      123
+    ],
+    "expected_rom": "Smog",
+    "encoded_bytes": 5,
+    "max_pixels": 24,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4105C",
+    "pointers": [],
+    "rom": "Sludge",
+    "en": "",
+    "fr": "Détritus",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      124
+    ],
+    "expected_rom": "Schlammbad",
+    "encoded_bytes": 11,
+    "max_pixels": 59,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41069",
+    "pointers": [],
+    "rom": "Bone Club",
+    "en": "",
+    "fr": "Massd’Os",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      125
+    ],
+    "expected_rom": "Knochenkeule",
+    "encoded_bytes": 13,
+    "max_pixels": 68,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41076",
+    "pointers": [],
+    "rom": "Fire Blast",
+    "en": "",
+    "fr": "Déflagration",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      126
+    ],
+    "expected_rom": "Feuersturm",
+    "encoded_bytes": 11,
+    "max_pixels": 56,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41083",
+    "pointers": [
+      10930916
+    ],
+    "rom": "Waterfall",
+    "en": "Pokémon rare aperçu lors d'une\\nexploration sous-marine. Il n'a pas\\névolué depuis 100 millions d'années.",
+    "fr": "Cascade",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      127
+    ],
+    "expected_rom": "Kaskade",
+    "encoded_bytes": 8,
+    "max_pixels": 40,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41090",
+    "pointers": [],
+    "rom": "Clamp",
+    "en": "aperçu lors d'une\\nexploration sous-marine. Il n'a pas\\névolué depuis 100 millions d'années.",
+    "fr": "Claquoir",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      128
+    ],
+    "expected_rom": "Schnapper",
+    "encoded_bytes": 10,
+    "max_pixels": 52,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4109D",
+    "pointers": [],
+    "rom": "Swift",
+    "en": "'une\\nexploration sous-marine. Il n'a pas\\névolué depuis 100 millions d'années.",
+    "fr": "Météores",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      129
+    ],
+    "expected_rom": "Sternschauer",
+    "encoded_bytes": 13,
+    "max_pixels": 67,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA410AA",
+    "pointers": [],
+    "rom": "Skull Bash",
+    "en": "ion sous-marine. Il n'a pas\\névolué depuis 100 millions d'années.",
+    "fr": "Coud’Krâne",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      130
+    ],
+    "expected_rom": "Schädelwumme",
+    "encoded_bytes": 13,
+    "max_pixels": 71,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA410B7",
+    "pointers": [],
+    "rom": "Spike Cannon",
+    "en": "ne. Il n'a pas\\névolué depuis 100 millions d'années.",
+    "fr": "Picanon",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      131
+    ],
+    "expected_rom": "Dornkanone",
+    "encoded_bytes": 11,
+    "max_pixels": 55,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA410C4",
+    "pointers": [],
+    "rom": "Constrict",
+    "en": "s\\névolué depuis 100 millions d'années.",
+    "fr": "Constriction",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      132
+    ],
+    "expected_rom": "Umklammerung",
+    "encoded_bytes": 13,
+    "max_pixels": 68,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA410D1",
+    "pointers": [],
+    "rom": "Amnesia",
+    "en": "is 100 millions d'années.",
+    "fr": "Amnésie",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      133
+    ],
+    "expected_rom": "Amnesie",
+    "encoded_bytes": 8,
+    "max_pixels": 38,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA410DE",
+    "pointers": [],
+    "rom": "Kinesis",
+    "en": "ns d'années.",
+    "fr": "Télékinésie",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      134
+    ],
+    "expected_rom": "Psykraft",
+    "encoded_bytes": 9,
+    "max_pixels": 43,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA410EB",
+    "pointers": [
+      10930948
+    ],
+    "rom": "Soft-Boiled",
+    "en": "",
+    "fr": "E-Coque",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      135
+    ],
+    "expected_rom": "Weichei",
+    "encoded_bytes": 8,
+    "max_pixels": 38,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA410F8",
+    "pointers": [],
+    "rom": "Hi Jump Kick",
+    "en": "",
+    "fr": "Pied Voltige",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      136
+    ],
+    "expected_rom": "Turmkick",
+    "encoded_bytes": 9,
+    "max_pixels": 43,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41105",
+    "pointers": [],
+    "rom": "Glare",
+    "en": "",
+    "fr": "Intimidation",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      137
+    ],
+    "expected_rom": "Schlangenbl.",
+    "encoded_bytes": 13,
+    "max_pixels": 67,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41112",
+    "pointers": [],
+    "rom": "Dream Eater",
+    "en": "",
+    "fr": "Dévorêve",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      138
+    ],
+    "expected_rom": "Traumfresser",
+    "encoded_bytes": 13,
+    "max_pixels": 66,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4111F",
+    "pointers": [],
+    "rom": "Poison Gas",
+    "en": "",
+    "fr": "Gaz Toxik",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      139
+    ],
+    "expected_rom": "Giftwolke",
+    "encoded_bytes": 10,
+    "max_pixels": 48,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4112C",
+    "pointers": [],
+    "rom": "Barrage",
+    "en": "",
+    "fr": "Pilonnage",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      140
+    ],
+    "expected_rom": "Stakkato",
+    "encoded_bytes": 9,
+    "max_pixels": 44,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41139",
+    "pointers": [],
+    "rom": "Leech Life",
+    "en": "",
+    "fr": "Vampirisme",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      141
+    ],
+    "expected_rom": "Blutsauger",
+    "encoded_bytes": 11,
+    "max_pixels": 56,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41146",
+    "pointers": [],
+    "rom": "Lovely Kiss",
+    "en": "itant des mers chaudes. On dit que\\nle couple qui tombe sur ce Pokémon\\nconnaîtra l'amour éternel.",
+    "fr": "Grobisou",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      142
+    ],
+    "expected_rom": "Todeskuss",
+    "encoded_bytes": 10,
+    "max_pixels": 50,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41153",
+    "pointers": [],
+    "rom": "Sky Attack",
+    "en": "s chaudes. On dit que\\nle couple qui tombe sur ce Pokémon\\nconnaîtra l'amour éternel.",
+    "fr": "Piqué",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      143
+    ],
+    "expected_rom": "Himmelsfeger",
+    "encoded_bytes": 13,
+    "max_pixels": 66,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41160",
+    "pointers": [],
+    "rom": "Transform",
+    "en": " dit que\\nle couple qui tombe sur ce Pokémon\\nconnaîtra l'amour éternel.",
+    "fr": "Morphing",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      144
+    ],
+    "expected_rom": "Wandler",
+    "encoded_bytes": 8,
+    "max_pixels": 39,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4116D",
+    "pointers": [],
+    "rom": "Bubble",
+    "en": "ouple qui tombe sur ce Pokémon\\nconnaîtra l'amour éternel.",
+    "fr": "Écume",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      145
+    ],
+    "expected_rom": "Blubber",
+    "encoded_bytes": 8,
+    "max_pixels": 40,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA4117A",
+    "pointers": [],
+    "rom": "Dizzy Punch",
+    "en": "be sur ce Pokémon\\nconnaîtra l'amour éternel.",
+    "fr": "Uppercut",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      146
+    ],
+    "expected_rom": "Irrschlag",
+    "encoded_bytes": 10,
+    "max_pixels": 50,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41187",
+    "pointers": [],
+    "rom": "Spore",
+    "en": "émon\\nconnaîtra l'amour éternel.",
+    "fr": "Spore",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      147
+    ],
+    "expected_rom": "Pilzspore",
+    "encoded_bytes": 10,
+    "max_pixels": 49,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA41194",
+    "pointers": [
+      10930868
+    ],
+    "rom": "Flash",
+    "en": "a l'amour éternel.",
+    "fr": "Flash",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      148
+    ],
+    "expected_rom": "Blitz",
+    "encoded_bytes": 6,
+    "max_pixels": 26,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA411A1",
+    "pointers": [],
+    "rom": "Psywave",
+    "en": "rnel.",
+    "fr": "Vague Psy",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      149
+    ],
+    "expected_rom": "Psywelle",
+    "encoded_bytes": 9,
+    "max_pixels": 45,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA411AE",
+    "pointers": [],
+    "rom": "Splash",
+    "en": "",
+    "fr": "Trempette",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      150
+    ],
+    "expected_rom": "Platscher",
+    "encoded_bytes": 10,
+    "max_pixels": 50,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  },
+  {
+    "offset": "0xA411BB",
+    "pointers": [],
+    "rom": "Acid Armor",
+    "en": "",
+    "fr": "Acidarmure",
+    "de": null,
+    "decision": "déjà patché",
+    "scene": "Table fixe des noms d’attaques / capacités de terrain",
+    "move_indices": [
+      151
+    ],
+    "expected_rom": "Säurepanzer",
+    "encoded_bytes": 12,
+    "max_pixels": 63,
+    "reason": "Patch move_names : index CFRU, glossaire officiel, cellule 13 octets ; absence combined légitime"
+  }
+]
