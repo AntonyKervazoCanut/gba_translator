@@ -1,7 +1,7 @@
 {
   "ticket": "B-686",
   "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
-  "final_sha256": "ff8577533147d34098debfdce44ef5519c185a92e491a391ed97859ff050d5ae",
+  "final_sha256": "3ec81e29584826c6fee8fe4ed233f7a7dab0734c4e600a17e796acdf7eb30d1d",
   "entries": [
     {
       "offset": "0x447800",
@@ -2682,7 +2682,7 @@
       "de_before": "Man bietet dir an, dein\\nregistriertes {DYNAMIC} Lv. {DYNAMIC} zu tauschen.\\pGegen ein {DYNAMIC} Lv.\\n{DYNAMIC}.\\pNimmst du dieses\\nTauschangebot an?",
       "en_corpus": "There is an offer to trade your\nregistered Lv. <0xF7>  <0xF7>À<0xFB>in exchange for a\nLv. <0xF7>Á <0xF7>Â.<0xFB>Will you accept this trade\noffer?",
       "fr_corpus": "On te propose d'échanger ton\n{DYNAMIC} N.{DYNAMIC} enregistré.<0xFB>Contre un {DYNAMIC} N.\n{DYNAMIC}.<0xFB>Acceptes-tu cette offre\nd'échange ?",
-      "de_final_source": "Tauschangebot für dein registriertes\nPokémon: Lv. <0xF7><0x00> <0xF7><0x01><0xFB>Im Gegenzug erhältst du:\nLv. <0xF7><0x02> <0xF7><0x03>.<0xFB>Nimmst du dieses\nTauschangebot an?",
+      "de_final_source": "Registriert:\nLv. <0xF7><0x00> <0xF7><0x01><0xFB>Im Tausch:\nLv. <0xF7><0x02> <0xF7><0x03>.<0xFB>Angebot\nannehmen?",
       "source_hex": "cedcd9e6d900dde700d5e200e3dadad9e600e8e300e8e6d5d8d900ede3e9e6fee6d9dbdde7e8d9e6d9d800c6eaad00f70000f701fbdde200d9ecd7dcd5e2dbd900dae3e600d5fec6eaad00f70200f703adfbd1dde0e000ede3e900d5d7d7d9e4e800e8dcdde700e8e6d5d8d9fee3dadad9e6acff",
       "references": [
         "0x11b074",
@@ -2716,10 +2716,10 @@
       "final": [
         {
           "ref": "0x11b074",
-          "target": "0x179244",
-          "hex": "ced5e9e7d7dcd5e2dbd9d6e3e800daf6e600d8d9dde2fee6d9dbdde7e8e6ddd9e6e8d9e700cae3df1be1e3e2f000c6eaad00f70000f701fbc3e100c1d9dbd9e2eee9db00d9e6dcf4e0e8e7e800d8e9f000c6eaad00f70200f703adfbc8dde1e1e7e800d8e900d8ddd9e7d9e700ced5e9e7d7dcd5e2dbd9d6e3e800d5e2acff",
-          "byte_count": 127,
-          "decoded_debug": "Tauschangebot für dein\nregistriertes Pokémon: Lv. ?  ?À?Im Gegenzug erhältst du: Lv. ?Á ?Â.?Nimmst du dieses Tauschangebot an?",
+          "target": "0x457d44",
+          "hex": "ccd9dbdde7e8e6ddd9e6e8f000c6eaad00f70000f701fbc3e100ced5e9e7d7dcf000c6eaad00f70200f703adfbbbe2dbd9d6e3e8fed5e2e2d9dce1d9e2acff",
+          "byte_count": 63,
+          "decoded_debug": "Registriert: Lv. ?  ?À?Im Tausch: Lv. ?Á ?Â.?Angebot\nannehmen?",
           "controls": [
             [
               247,
@@ -2748,10 +2748,10 @@
         },
         {
           "ref": "0x457e84",
-          "target": "0x179244",
-          "hex": "ced5e9e7d7dcd5e2dbd9d6e3e800daf6e600d8d9dde2fee6d9dbdde7e8e6ddd9e6e8d9e700cae3df1be1e3e2f000c6eaad00f70000f701fbc3e100c1d9dbd9e2eee9db00d9e6dcf4e0e8e7e800d8e9f000c6eaad00f70200f703adfbc8dde1e1e7e800d8e900d8ddd9e7d9e700ced5e9e7d7dcd5e2dbd9d6e3e800d5e2acff",
-          "byte_count": 127,
-          "decoded_debug": "Tauschangebot für dein\nregistriertes Pokémon: Lv. ?  ?À?Im Gegenzug erhältst du: Lv. ?Á ?Â.?Nimmst du dieses Tauschangebot an?",
+          "target": "0x457d44",
+          "hex": "ccd9dbdde7e8e6ddd9e6e8f000c6eaad00f70000f701fbc3e100ced5e9e7d7dcf000c6eaad00f70200f703adfbbbe2dbd9d6e3e8fed5e2e2d9dce1d9e2acff",
+          "byte_count": 63,
+          "decoded_debug": "Registriert: Lv. ?  ?À?Im Tausch: Lv. ?Á ?Â.?Angebot\nannehmen?",
           "controls": [
             [
               247,
@@ -2780,7 +2780,7 @@
         }
       ],
       "decision": "corrigé",
-      "motif": "Échange Salle Union : niveau avant espèce ; quatre buffers F7 00/01/02/03, dans l’ordre canonique."
+      "motif": "Échange Salle Union : quatre buffers F7 00/01/02/03 ordonnés ; pages de 187/188 px même après fusion avec niveau 100 et nom de 12 glyphes larges."
     },
     {
       "offset": "0x457e28",
@@ -3037,5 +3037,7 @@
         "de_source": "<0xF7><0x01> : Sehr erfreut!<0xFC><0x08><0x3C>"
       }
     }
-  ]
+  ],
+  "validation_source_commit": "0ca665da",
+  "artifact_note": "Instantané du build validé avant rebase ; les tests ROM recalculent les pointeurs du build courant."
 }

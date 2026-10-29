@@ -37,10 +37,15 @@ def test_trade_preserves_level_then_species_and_clear_positions():
 
 def test_qualification_covers_exactly_the_ticket():
     report = json.loads((ROOT / 'docs/analysis/686_POKEDEX_01_DE.json').read_text())
+    texts, _ = _load_combined(ROOT / 'languages/de/combined_de.txt')
     offsets = [int(entry['offset'], 16) for entry in report['entries']]
     assert len(offsets) == len(set(offsets)) == 97
     assert set(offsets) == set(OFFSETS)
     assert all(entry['decision'] and entry['motif'] for entry in report['entries'])
+    assert sum(len(entry['references']) for entry in report['entries']) == 76
+    for entry in report['entries']:
+        assert entry['de_final_source'] == texts.get(int(entry['offset'], 16))
+        assert all(target['controls_match_source'] for target in entry['final'])
 
 
 @pytest.mark.rom

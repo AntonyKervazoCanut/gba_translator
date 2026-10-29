@@ -35,6 +35,8 @@ par ligne (garde conservatrice 110 px). Les fiches restent sur 3 lignes de
 232 px maximum. L’échange garde ses deux changements de page et ses quatre
 buffers ordonnés. L’en-tête conserve les trois commandes de positionnement.
 Les pauses des deux chaînes d’attente sont conservées sans changement.
+Les pages de l’offre d’échange tiennent en 187/188 px même si le build fusionne
+leurs lignes, avec niveau 100 et nom d’espèce de douze glyphes larges.
 
 ## Qualification exhaustive
 
@@ -128,7 +130,7 @@ Les pauses des deux chaînes d’attente sont conservées sans changement.
 | `0x457a70` | déjà correct | Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets. | 0x457b08 |
 | `0x457b2a` | fragment sans pointeur direct | Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici. | aucune |
 | `0x457b4c` | déjà correct | Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets. | 0x457b88, 0x457b8c |
-| `0x457d44` | corrigé | Échange Salle Union : niveau avant espèce ; quatre buffers F7 00/01/02/03, dans l’ordre canonique. | 0x11b074, 0x457e84 |
+| `0x457d44` | corrigé | Échange Salle Union : quatre buffers F7 00/01/02/03 ordonnés ; pages de 187/188 px même après fusion avec niveau 100 et nom de 12 glyphes larges. | 0x11b074, 0x457e84 |
 | `0x457e28` | déjà correct | Sens conforme à la ROM EN, aucun ajout requis ; contrôles comparés en octets. | 0x116308 |
 | `0x457e41` | fragment sans pointeur direct | Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici. | aucune |
 | `0x458fc6` | fragment sans pointeur direct | Préfixe de remplissage avant la chaîne réellement référencée : ne pas écrire ici. Aide de touches vivante hors lot : besoin de correction distincte à qualifier, aucun patch ici. | aucune |
@@ -155,6 +157,12 @@ préfixes risquerait de tronquer la chaîne voisine. Les deux occurrences de Cha
 sont légitimes en allemand. L’aide à 0x458FC8 est hors lot et nécessite une
 qualification distincte ; aucune modification à un voisin n’est incluse.
 
+La sonde visuelle vérifie six chaînes réellement lues via leurs pointeurs
+finaux et imprimées par mGBA, avec assertions OCR Playwright. Elle utilise une
+boîte native de dialogue : elle ne certifie pas le parcours du menu de
+décorations, du Pokédex ou de la Salle Union. Ces parcours exhaustifs ne sont
+pas vérifiés ; les budgets des chaînes finales sont contrôlés séparément.
+
 Aucun patch de jeu ni ressource de données de jeu modifié. La matrice de tests
 DE est seulement complétée pour déclarer le nouveau fichier de tests.
 Les boîtes de communication existantes emploient aussi le vouvoiement : ce sont
@@ -162,4 +170,41 @@ des messages système, sans personnage ni accord de genre à reconstruire.
 
 ## Résultats locaux
 
-À compléter après vérification du build final et de la sonde native.
+Validation sur les sources du commit `0ca665da` (instantané JSON avant rebase).
+Les tests ROM recalculent les pointeurs du build courant ; les adresses du JSON
+ne sont pas des constantes d’injection.
+
+- `make build-de` : succès ; les hooks ont également reconstruit FR/IT/DE dans
+  le worktree isolé, sans changer leurs sources ni les ROMs du dépôt principal.
+- `make test-python` : **4 041 réussis, 3 ignorés préexistants, 2 280 désélectionnés**.
+- Hook : **3 900 tests Python rapides et 68 tests Vitest réussis**.
+- `python3 -m pytest tests/unit/de/test_pokedex_01.py -q` : **4 réussis**, dont
+  les octets finaux, les commandes ordonnées, les boîtes et les faux pointeurs.
+- `npx playwright test --config tests/e2e-playwright/playwright.pokedex-01-de.config.ts` :
+  **1 réussi**, six rendus natifs mGBA avec assertions OCR. Capture PNG hors dépôt,
+  jointe à B-686. Seule ambiguïté OCR tolérée : le glyphe `l` lu comme `1` ; les
+  octets du nom sont vérifiés indépendamment.
+- `make lint` et ruff sur le test ajouté : succès.
+- 76 références structurées : commandes finales identiques à la ROM EN ;
+  67 valeurs corrigées/alignées livrées exactement, à repli des lignes près.
+- Budgets finaux : Pokédex au plus **212/232 px**, décorations **107/110 px**,
+  au plus 3 lignes. Offre d’échange : **187/188 px** en expansion maximale.
+- `scripts/verify_roms.py` : les trois entrées privées correspondent au baseline.
+  SHA-256 de la ROM FR principale inchangé :
+  `74a0b3b13a1b02cebb1519c36df7552dfde8e6a383ff16e17ae46bbdd0830a6e`.
+- Préservation vérifiée byte à byte : 66 dernières occurrences modifiées,
+  un ajout (`0x459378`), toutes les autres lignes et fins de ligne identiques.
+  Les 67 valeurs ont leur protection exacte dans le même commit que leur texte.
+
+Les premiers essais ont exposé deux problèmes de préparation, résolus sans
+modifier le produit : déclaration du test dans la matrice DE et présence des
+artefacts locaux attendus par le dry-run Make. Un essai Python lancé pendant
+le rebuild IT a été entièrement rejoué après stabilisation (résultat ci-dessus).
+La sonde écrit le contexte du script GBA atomiquement pour éviter qu’une frame
+ne consomme un pointeur encore ancien entre deux commandes du pont.
+
+Aucun audit qualitatif global relancé, aucun push ni pipeline distant démarré.
+L’aide de touches vivante `0x458FC8`, appelée par `0x1168F8`, reste anglaise
+(`Choose / Join / Cancel`) : correction distincte hors lot requise à cette
+adresse, pas au préfixe `0x458FC6`. Aucun autre besoin de patch de jeu n’est
+nécessaire pour livrer les 67 valeurs de ce lot.
