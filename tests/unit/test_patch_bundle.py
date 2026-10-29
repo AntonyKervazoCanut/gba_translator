@@ -279,7 +279,12 @@ def test_tracked_bundle_is_complete_and_contains_no_rom() -> None:
     }
 
     assert manifest["build_number"] > 0
-    assert manifest_statuses == registry_statuses
+    # Le bundle suivi reste une release historique ; les nouvelles langues
+    # in_progress sont construites par release-all avant leur publication.
+    assert set(manifest_statuses) <= set(registry_statuses)
+    assert manifest_statuses == {code: registry_statuses[code] for code in manifest_statuses}
+    assert all(registry_statuses[code] == "in_progress"
+               for code in set(registry_statuses) - set(manifest_statuses))
     assert {
         language["source"]["sha256"] for language in manifest["languages"]
     } == {ENGLISH_ROM_SHA256}

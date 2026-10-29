@@ -72,3 +72,8 @@ output/translation/generic_base_trilingual.csv
 
 # Private, locally extracted sprite pilot bundles and derived ROMs
 /output/sprite-workflow/
+
+# Artefacts dérivés PT-BR (reproductibles par make build-pt)
+output/roms/GenedRom-pt.gba
+output/translation/pt_*.json
+output/translation/pt_*.csv

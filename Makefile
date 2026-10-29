@@ -111,7 +111,7 @@ SPANISH_BUILD := $(ROM_OUT_DIR)/GenedRom-es.gba
 .DEFAULT_GOAL := pipeline
 
 .PHONY: pipeline verify-roms extract extract-en extract-es extract-fr diff build-es build-fr verify-fr-determinism prepare-fr ensure-fr-translation validate-es trilingual-csv \
-	build-it build-de build-indie build-lang build-all release-all update-patches verify-patches materialize-test-roms materialize-test-rom-fr langs audit-toponyms-de \
+	build-it build-de build-indie build-pt build-lang build-all release-all update-patches verify-patches materialize-test-roms materialize-test-rom-fr langs audit-toponyms-de \
 	test test-python-fast test-python test-rom test-private-build test-fr-rebuild check-translations check-de-parity check-de-scope test-vitest test-playwright test-all \
 	sync-charmap sync-charmap-check install install-playwright lint tickets report \
 	clean help
@@ -368,6 +368,9 @@ verify-fr-determinism:
 # French keeps its dedicated byte-perfect recipe above (build-fr). Italian and
 # German are driven generically from their languages/<code>/ descriptors.
 
+build-pt: check-translations-pt
+	@$(PYTHON) scripts/build_language.py pt --build-number $(BUILD_NUMBER)
+
 build-it: check-translations-it
 	@$(PYTHON) scripts/build_language.py it --build-number $(BUILD_NUMBER)
 
@@ -450,7 +453,7 @@ build-lang:
 	@$(PYTHON) scripts/build_language.py $(LANG_CODE) --build-number $(BUILD_NUMBER)
 
 # Build every language: FR (dedicated) + IT + DE + Indie (generic).
-build-all: build-fr build-it build-de build-indie
+build-all: build-fr build-it build-de build-indie build-pt
 	@echo "✓ All languages built (FR, IT, DE, Indie)."
 
 # Build every language and package verified BPS patches (never full ROMs).

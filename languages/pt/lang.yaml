@@ -1,0 +1,29 @@
+# Portugais brésilien — socle incrémental, accents tildés en attente du ticket police.
+code: pt
+name: Brazilian Portuguese
+native_name: Português brasileiro
+builder_language: portuguese
+status: in_progress
+build: generic
+combined: languages/pt/combined_pt.txt
+output_rom: GenedRom-pt.gba
+patch_source: input/roms/englishrom.gba
+version_label: PT.2.1.0
+font_glyphs: "ãõâêôáéíóúàçÃÕÂÊÔÁÉÍÓÚÀÇ"
+status_abbrev:
+  poison: PSN
+  burn: QMD
+  freeze: CNG
+  paralysis: PAR
+  sleep: DRM
+  faint: DES
+patches:
+  - inline
+  - repair_lz77
+  - repair_localized_lz77
+  - repoint_stale
+  - legendary_ritual
+  # B-211 : la police doit suivre les réparations LZ77.
+  - font
+  - status_abbrevs
+  - version

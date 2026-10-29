@@ -42,6 +42,11 @@ export default defineConfig({
   snapshotPathTemplate: '{snapshotDir}/{testFileDir}/{testFileName}-snapshots/{arg}{ext}',
   projects: [
     {
+      name: 'pt-seed',
+      testMatch: 'specs/pt-seed-boot.spec.ts',
+      use: { browserName: 'chromium' },
+    },
+    {
       name: 'boot',
       testMatch: 'boot.spec.ts',
       use: { browserName: 'chromium' },

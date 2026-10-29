@@ -13,12 +13,12 @@ from src.i18n import LanguageRegistry, RegistryError, load_registry
 from src.i18n.registry import REPO_ROOT, _validate
 from src.i18n.registry import load_registry as _load
 
-EXPECTED_BUILDABLE = {"fr", "it", "de", "indie"}
+EXPECTED_BUILDABLE = {"fr", "it", "de", "indie", "pt"}
 EXPECTED_REFERENCES = {"en", "es"}
 
 # Generic (non-dedicated) buildable languages driven by build_language.py.
-GENERIC_CODES = ["it", "de", "indie"]
-IN_PROGRESS_GENERIC_CODES = ["it", "indie"]
+GENERIC_CODES = ["it", "de", "indie", "pt"]
+IN_PROGRESS_GENERIC_CODES = ["it", "indie", "pt"]
 
 
 @pytest.fixture(scope="module")
@@ -232,3 +232,11 @@ def test_validate_rejects_buildable_language_without_patch_source(tmp_path):
 
     with pytest.raises(RegistryError, match="patch_source"):
         _validate(yaml.safe_load(bad.read_text()), bad)
+
+
+def test_brazilian_portuguese_seed(registry):
+    cfg = registry.get("pt")
+    assert cfg.native_name == "Português brasileiro"
+    assert set("ãõâêôáéíóúàçÃÕÂÊÔÁÉÍÓÚÀÇ") <= set(cfg.font_glyphs)
+    assert cfg.status_abbrev == dict(poison="PSN", burn="QMD", freeze="CNG", paralysis="PAR", sleep="DRM", faint="DES")
+    assert cfg.output_rom == "GenedRom-pt.gba"
