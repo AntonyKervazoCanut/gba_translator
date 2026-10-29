@@ -12054,3 +12054,46 @@ entries:
 - offset: '0x87cd98'
   name: 'B-1027 — Love Ball'
   expected: 'Sympaball'
+- offset: "0x1978AC"
+  name: "B-690 — nom propre actif"
+  expected: 'Pokémon-Arena von Dehara\nArenaleiter : Galavan\pSiegreiche Trainer :\n{RIVAL}, {PLAYER}'
+
+- offset: "0x7CFD04"
+  name: "B-690 — nom propre actif"
+  expected: 'Bist du zufällig {PLAYER}\n?\p…\pDas dachte ich mir.\pIch erkannte dich auf einem Foto,\ndas ich im Internet fand.\pMein Name ist Looker.\pAgent Looker, von der Internationalen\nPolizei.\pIch war gerade fertig mit Team\nRocket in Kanto, als ich zu\leiner Situation in Borrius\lgerufen wurde.\pEin junger Mann, Jax glaube ich,\nsagte mir, du hättest Beweise für\lVerbrechen einer Organisation namens\l«Die Shadows».\pTriff mich bitte in der\n{COLOR}ÉDehara-Spielhalle{COLOR}Ë, dort\lbesprechen wir alles weitere.\pJax ist auch dort.\pLooker, Ende.'
+
+- offset: "0x7EAC6A"
+  name: "B-690 — nom propre actif"
+  expected: 'Wenn du den Meisteringenieur der\nArena von Dehara besiegst, bist du bereit für\lGalavan.'
+
+- offset: "0x7EC0EF"
+  name: "B-690 — nom propre actif"
+  expected: 'Ich liebe das Dehara-Kaufhaus!\n\pIch kaufe hier ein, seit\nes eröffnet hat!'
+
+- offset: "0x1EF97C8"
+  name: "B-690 — nom propre actif"
+  expected: 'Ich kann nicht aufhören zu kaufen !\pEs gibt so viel Auswahl im\n{COLOR}ÉDehara-Kaufhaus{COLOR}Ç !'
+
+- offset: "0x1EFA91B"
+  name: "B-690 — nom propre actif"
+  expected: 'Der Strand von Dehara war ein\nbeliebtes Touristenziel für\lBesucher aus dem Osten von Borrius.\pDoch die Besucherzahl ist zuletzt\ngesunken, seit hier immer wieder\lGufa stranden.\pSie sind stachelig und verletzen\ndie Touristen, die auf sie treten.\pIch brauche wirklich einen Trainer,\nder sie zurück ins Meer wirft.\pAlso, was sagst du?\pGlaubst du, du hast das Zeug\nzum {COLOR}ÉGufa-Werfer{COLOR}Ë?'
+
+- offset: "0x1EFDFB1"
+  name: "B-690 — nom propre actif"
+  expected: 'Ich liebe das Kaufhaus von\nDehara!\pIch kaufe hier ein, seit es\ndamals eröffnet hat!'
+
+- offset: "0x1F1A819"
+  name: "B-690 — nom propre actif"
+  expected: 'Wenn du den Werkmeister der Arena\nvon Dehara besiegen kannst, bist du\lGalavan gewachsen.'
+
+- offset: "0x1F1EE71"
+  name: "B-690 — nom propre actif"
+  expected: 'Pokémon-Arena von Dehara\nArenaleiter : Galavan\pSiegreiche Trainer :\nJax, {RIVAL}'
+
+- offset: "0x1F1EEAE"
+  name: "B-690 — nom propre actif"
+  expected: 'Pokémon-Arena von Dehara\nArenaleiter : Galavan\pSiegreiche Trainer :\nJax, {RIVAL}, {PLAYER}'
+
+- offset: "0x1F74017"
+  name: "B-690 — nom propre actif"
+  expected: 'Trainertipps!\pEs gibt {COLOR}Ékeine Begrenzung{COLOR}Á, wie viel\n{COLOR}ÉProtein{COLOR}Á oder\l{COLOR}ÉKohlenhydrat{COLOR}Á du geben kannst\p! Kauf diese Vitamine im Großhandel im\n{COLOR}ÉKaufhaus von Dehara{COLOR}Á!'
