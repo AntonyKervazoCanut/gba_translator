@@ -1,3 +1,223 @@
 # Création initiale vide autorisée par F-850 et A-663.
 # Importer uniquement les textes vérifiés, protégés dans protected_entries.yaml.
 # Aucun contenu recopié depuis la référence communautaire es.
+# ES-003 — classes de Dresseurs, cellules de 13 octets.
+0x0023e5b3: Ciclista
+0x0023e5c0: Ídolo
+0x0023e5cd: ENTREN. GUAY
+0x0023e5da: Enfermera
+0x0023e5e7: DAMA
+0x0023e5f4: Pokéchico
+0x0023e601: Niño Bien
+0x0023e61b: Campistas
+0x0023e628: Esquiador
+0x0023e635: Guitarrista
+0x0023e642: Fogonero
+0x0023e64f: Eléctrico
+0x0023e65c: Bichomaníaco
+0x0023e669: Policía
+0x0023e683: Niña Bien
+0x0023e690: Sucesora
+0x0023e69d: Escolar
+0x0023e6c4: Experto
+0x0023e6d1: Ranchero
+0x0023e6f8: Corredor
+0x0023e705: Domadragón
+0x0023e712: ORNITÓLOGO
+0x0023e71f: Chico Ninja
+0x0023e72c: Megaentren.
+0x0023e739: Dama Parasol
+0x0023e753: DOMINGUERA
+0x0023e76d: Creador
+0x0023e77a: Snowboarder
+0x0023e787: Coleccion.
+0x0023e794: Entren. <0x53><0x54>
+0x0023e7c8: Adm. Shadows
+0x0023e7e2: Cazabichos
+0x0023e7ef: MONTAÑERO
+0x0023e7fc: Pareja Joven
+0x0023e809: Dúo Experto
+0x0023e816: Hermanos
+0x0023e823: ADMIN. AQUA
+0x0023e830: ADMIN. MAGMA
+0x0023e83d: Joven
+0x0023e84a: Cazabichos
+0x0023e857: Chica
+0x0023e864: Marinero
+0x0023e871: Campista
+0x0023e87e: Dominguera
+0x0023e88b: Pokémaníaco
+0x0023e898: Supernecio
+0x0023e8a5: Montañero
+0x0023e8b2: Motorista
+0x0023e8bf: Ladrón
+0x0023e8cc: Obrero
+0x0023e8d9: Pescador
+0x0023e8e6: Nadador♂
+0x0023e8f3: Malote
+0x0023e900: Jugón
+0x0023e90d: Bella
+0x0023e91a: Nadadora♀
+0x0023e927: Médium
+0x0023e934: Rockero
+0x0023e941: Malabarista
+0x0023e94e: Domador
+0x0023e95b: Ornitólogo
+0x0023e968: Karateka
+0x0023e982: Científico
+0x0023e98f: Jefe
+0x0023e99c: Líder
+0x0023e9a9: Shadows
+0x0023e9b6: Entren. Guay
+0x0023e9c3: Alto Mando
+0x0023e9d0: Caballero
+0x0023e9ea: Entren. <0x53><0x54>
+0x0023e9f7: Exorcista
+0x0023ea04: Gemelas
+0x0023ea11: Dúo Guay
+0x0023ea1e: PAREJA JOVEN
+0x0023ea2b: Kin Karate
+0x0023ea38: HERMANOS
+0x0023ea45: PROF. <0x53><0x54>
+0x0023ea52: Jugador
+0x0023ea5f: Luchadora
+0x0023ea6c: Playera
+0x0023ea79: Criapokémon
+0x0023ea86: Ranger <0x53><0x54>
+0x0023ea93: Dama Aroma
+0x0023eaa0: Ruinamaníaco
+0x0023eaad: Dama
+0x0023eaba: Pintor
+# ES-003 — descriptions d'habilités : fidélité aux effets EN.
+0x0024f1a7: LUCHA
+0x0024f1ae: VOLADOR
+0x0024f1b5: VENENO
+0x0024f1bc: TIERRA
+0x0024f1c3: ROCA
+0x0024f1ca: BICHO
+0x0024f1d1: FANTASMA
+0x0024f1d8: ACERO
+0x0024f1e6: FUEGO
+0x0024f1ed: AGUA
+0x0024f1f4: PLANTA
+0x0024f1fb: ELÉCTRICO
+0x0024f202: PSÍQUICO
+0x0024f209: HIELO
+0x0024f217: SINIESTRO
+0x0024f3d8: Repele Pokémon salvajes.
+0x0024f3f2: Invoca lluvia en combate.
+0x0024f40a: Sube Velocidad poco a poco.
+0x0024f422: Evita golpes críticos.
+0x0024f438: Evita golpes fulminantes.
+0x0024f452: Evita la autodestrucción.
+0x0024f46d: Evita la parálisis.
+0x0024f481: Sube Evasión con arena.
+0x0024f49d: Paraliza al contacto.
+0x0024f4b3: Convierte electricidad en PS.
+0x0024f4ce: Convierte agua en PS.
+0x0024f4e5: Evita el enamoramiento.
+0x0024f4fa: Anula efectos del clima.
+0x0024f513: Sube la Precisión.
+0x0024f524: Evita el sueño.
+0x0024f534: Adopta el tipo del movimiento.
+0x0024f550: Evita el envenenamiento.
+0x0024f564: Se potencia al recibir fuego.
+0x0024f57e: Evita efectos secundarios.
+0x0024f596: Evita la confusión.
+0x0024f5aa: Se aferra al suelo.
+0x0024f5c3: Baja el Ataque del rival.
+0x0024f5dc: Impide la huida del rival.
+0x0024f5f7: Hiere al contacto.
+0x0024f607: Solo recibe daño supereficaz.
+0x0024f61f: Evita movimientos de Tierra.
+0x0024f63a: Libera esporas al contacto.
+0x0024f654: Transmite problemas de estado.
+0x0024f66f: Evita bajadas de estadísticas.
+0x0024f68b: Se cura al ser retirado.
+0x0024f6a5: Atrae movimientos eléctricos.
+0x0024f6bd: Favorece efectos secundarios.
+0x0024f6d5: Sube Velocidad con lluvia.
+0x0024f6eb: Sube Velocidad con sol.
+0x0024f705: Aumenta los encuentros.
+0x0024f71f: Copia la habilidad del rival.
+0x0024f737: Sube el Ataque.
+0x0024f746: Envenena al contacto.
+0x0024f75e: Evita el amedrentamiento.
+0x0024f772: Evita la congelación.
+0x0024f785: Evita las quemaduras.
+0x0024f795: Atrapa Pokémon de tipo Acero.
+0x0024f7af: Evita movimientos de sonido.
+0x0024f7c9: Recupera PS con lluvia.
+0x0024f7e5: Invoca tormentas de arena.
+0x0024f7fa: El rival gasta más PP.
+0x0024f811: Protege del calor y del frío.
+0x0024f82b: Despierta rápidamente.
+0x0024f847: Quema al contacto.
+0x0024f861: Facilita la huida.
+0x0024f878: Evita bajadas de Precisión.
+0x0024f893: Evita bajadas de Ataque.
+0x0024f8ae: Puede recoger objetos.
+0x0024f8c1: Actúa cada dos turnos.
+0x0024f8dd: Más potencia, menos Precisión.
+0x0024f8f8: Enamora al contacto.
+0x0024f90f: Se potencia con Menos.
+0x0024f925: Se potencia con Más.
+0x0024f93a: Cambia según el clima.
+0x0024f954: Evita el robo de objetos.
+0x0024f969: Cura su estado al mudar.
+0x0024f985: Sube Ataque si sufre.
+0x0024f99e: Sube Defensa si sufre.
+0x0024f9b8: Daña a quien le drena PS.
+0x0024f9d0: Potencia Planta en apuros.
+0x0024f9ec: Potencia Fuego en apuros.
+0x0024fa07: Potencia Agua en apuros.
+0x0024fa23: Potencia Bicho en apuros.
+0x0024fa3d: Evita daño de retroceso.
+0x0024fa55: Invoca sol en combate.
+0x0024fa71: Impide la huida.
+0x0024fa83: Evita el sueño.
+0x0024fa93: Evita bajadas de estadísticas.
+0x0024faaf: Sube el Ataque.
+0x0024fabe: Evita golpes críticos.
+0x0024fad4: Evita movimientos de sonido.
+0x0024faee: Anula efectos del clima.
+# ES-003 — dialogues et effets de combat.
+0x0026d4e5: ¡Empecemos!
+0x0026d4f7: ¡Qué buen combate! ¡Mis\nPokémon se han divertido!
+0x0026d524: Ahora que la entrada de la\nAutovía SES está abierta,<0xFA>¡por fin he podido entrenar!<0xFB>Dime, ¿te gustaría combatir con\nmis Pokémon recién entrenados?
+0x0026d5bf: ¡Gracias por combatir conmigo!
+0x0026d5dc: ¿Quieres cruzar Challenge Road?<0xFB>¡Pues antes tendrás que\nenfrentarte a mí!
+0x0026d733: Bueno, ¡si cambias de idea,\npuedes volver cuando quieras!
+0x00270fa1: Intenté cruzar el Great Desert\nal este del pueblo,<0xFA>pero la tormenta era muy fuerte.<0xFB>La arena me daba en la cara\ny no podía ver nada.<0xFB>Sin ningún tipo de protección,\nes imposible ir a ningún sitio.<0xFB>Ojalá encontrase algo<0xB0>
+0x00271c3e: ¡Hay púas venenosas esparcidas\nalrededor de tu equipo!
+0x0027795d: ¡Hay piedras puntiagudas\nalrededor del equipo rival!
+0x00277999: ¡Una red viscosa rodea\nal equipo rival!
+0x00277a12: ¡Las púas han desaparecido\nde los pies de <0xFD><0x0F>!
+# ES-003 — descriptions des objets reconstruites depuis la ROM EN.
+0x003d4f26: Poké Ball de gran calidad.\nSu índice de captura supera\nal de la Super Ball.
+0x003d4f78: Poké Ball de buena calidad.\nSu índice de captura supera\nal de una Poké Ball normal.
+0x003d4fd0: Dispositivo con diseño capsular\nque atrapa Pokémon salvajes.
+0x003d501a: Poké Ball de camuflaje que\nsolo se utiliza en la\nZona Safari.
+0x003d5077: Poké Ball especialmente eficaz\ncon los Pokémon de tipo Agua\ny Bicho.
+0x003d50cc: Poké Ball especialmente eficaz\ncon los Pokémon que viven\nen las profundidades del mar.
+0x003d511d: Poké Ball especialmente eficaz\ncon los Pokémon más débiles.
+0x003d5165: Poké Ball especialmente eficaz\ncon las especies de Pokémon\nque ya has capturado.
+0x003d51b4: Poké Ball que va mejorando\nsu eficacia con cada turno\nde combate.
+0x003d5216: Cómoda Poké Ball que vuelve\namistosos rápidamente a los\nPokémon salvajes capturados.
+0x003d5263: Poké Ball poco común creada\npara conmemorar un\nacontecimiento especial.
+0x003d52b2: Medicina en espray que cura\nheridas y restaura 20 PS\nde un Pokémon.
+0x003d52ff: Medicina en espray que cura\nel envenenamiento de\nun Pokémon.
+0x003d533d: Medicina en espray que cura\nlas quemaduras de un Pokémon.
+0x003d5374: Medicina en espray que\ndescongela a un Pokémon.
+0x003d53a9: Medicina en espray que\ndespierta a un Pokémon dormido.
+0x003d53df: Medicina en espray que cura\nla parálisis de un Pokémon.
+0x003d541b: Medicina que restaura todos\nlos PS y cura los problemas\nde estado de un Pokémon.
+0x003d546f: Medicina en espray que cura\nheridas y restaura todos\nlos PS de un Pokémon.
+0x003d54b5: Medicina en espray que cura\nheridas y restaura 200 PS\nde un Pokémon.
+0x003d5503: Medicina en espray que cura\nheridas y restaura 50 PS\nde un Pokémon.
+0x003d5550: Medicina en espray que cura\ntodos los problemas de\nestado de un Pokémon.
+0x003d5598: Revive a un Pokémon debilitado\ny le devuelve la mitad\nde sus PS máximos.
+0x003d55ec: Revive a un Pokémon debilitado\ny le devuelve todos\nsus PS.
+0x003d562b: Agua rica en minerales\nque restaura 50 PS\nde un Pokémon.
+0x003d567e: Bebida gaseosa que restaura\n60 PS de un Pokémon.
+0x003d56c2: Bebida muy dulce que restaura\n80 PS de un Pokémon.

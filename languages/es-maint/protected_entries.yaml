@@ -1,2 +1,650 @@
-# Création initiale vide F-850 ; chaque import futur sera protégé ici.
-entries: []
+# ES-003 : valeurs exactes, dernière occurrence gagnante.
+entries:
+- offset: '0x0023e5b3'
+  name: 'ES-003 : 0x0023e5b3'
+  expected: Ciclista
+- offset: '0x0023e5c0'
+  name: 'ES-003 : 0x0023e5c0'
+  expected: Ídolo
+- offset: '0x0023e5cd'
+  name: 'ES-003 : 0x0023e5cd'
+  expected: ENTREN. GUAY
+- offset: '0x0023e5da'
+  name: 'ES-003 : 0x0023e5da'
+  expected: Enfermera
+- offset: '0x0023e5e7'
+  name: 'ES-003 : 0x0023e5e7'
+  expected: DAMA
+- offset: '0x0023e5f4'
+  name: 'ES-003 : 0x0023e5f4'
+  expected: Pokéchico
+- offset: '0x0023e601'
+  name: 'ES-003 : 0x0023e601'
+  expected: Niño Bien
+- offset: '0x0023e61b'
+  name: 'ES-003 : 0x0023e61b'
+  expected: Campistas
+- offset: '0x0023e628'
+  name: 'ES-003 : 0x0023e628'
+  expected: Esquiador
+- offset: '0x0023e635'
+  name: 'ES-003 : 0x0023e635'
+  expected: Guitarrista
+- offset: '0x0023e642'
+  name: 'ES-003 : 0x0023e642'
+  expected: Fogonero
+- offset: '0x0023e64f'
+  name: 'ES-003 : 0x0023e64f'
+  expected: Eléctrico
+- offset: '0x0023e65c'
+  name: 'ES-003 : 0x0023e65c'
+  expected: Bichomaníaco
+- offset: '0x0023e669'
+  name: 'ES-003 : 0x0023e669'
+  expected: Policía
+- offset: '0x0023e683'
+  name: 'ES-003 : 0x0023e683'
+  expected: Niña Bien
+- offset: '0x0023e690'
+  name: 'ES-003 : 0x0023e690'
+  expected: Sucesora
+- offset: '0x0023e69d'
+  name: 'ES-003 : 0x0023e69d'
+  expected: Escolar
+- offset: '0x0023e6c4'
+  name: 'ES-003 : 0x0023e6c4'
+  expected: Experto
+- offset: '0x0023e6d1'
+  name: 'ES-003 : 0x0023e6d1'
+  expected: Ranchero
+- offset: '0x0023e6f8'
+  name: 'ES-003 : 0x0023e6f8'
+  expected: Corredor
+- offset: '0x0023e705'
+  name: 'ES-003 : 0x0023e705'
+  expected: Domadragón
+- offset: '0x0023e712'
+  name: 'ES-003 : 0x0023e712'
+  expected: ORNITÓLOGO
+- offset: '0x0023e71f'
+  name: 'ES-003 : 0x0023e71f'
+  expected: Chico Ninja
+- offset: '0x0023e72c'
+  name: 'ES-003 : 0x0023e72c'
+  expected: Megaentren.
+- offset: '0x0023e739'
+  name: 'ES-003 : 0x0023e739'
+  expected: Dama Parasol
+- offset: '0x0023e753'
+  name: 'ES-003 : 0x0023e753'
+  expected: DOMINGUERA
+- offset: '0x0023e76d'
+  name: 'ES-003 : 0x0023e76d'
+  expected: Creador
+- offset: '0x0023e77a'
+  name: 'ES-003 : 0x0023e77a'
+  expected: Snowboarder
+- offset: '0x0023e787'
+  name: 'ES-003 : 0x0023e787'
+  expected: Coleccion.
+- offset: '0x0023e794'
+  name: 'ES-003 : 0x0023e794'
+  expected: Entren. <0x53><0x54>
+- offset: '0x0023e7c8'
+  name: 'ES-003 : 0x0023e7c8'
+  expected: Adm. Shadows
+- offset: '0x0023e7e2'
+  name: 'ES-003 : 0x0023e7e2'
+  expected: Cazabichos
+- offset: '0x0023e7ef'
+  name: 'ES-003 : 0x0023e7ef'
+  expected: MONTAÑERO
+- offset: '0x0023e7fc'
+  name: 'ES-003 : 0x0023e7fc'
+  expected: Pareja Joven
+- offset: '0x0023e809'
+  name: 'ES-003 : 0x0023e809'
+  expected: Dúo Experto
+- offset: '0x0023e816'
+  name: 'ES-003 : 0x0023e816'
+  expected: Hermanos
+- offset: '0x0023e823'
+  name: 'ES-003 : 0x0023e823'
+  expected: ADMIN. AQUA
+- offset: '0x0023e830'
+  name: 'ES-003 : 0x0023e830'
+  expected: ADMIN. MAGMA
+- offset: '0x0023e83d'
+  name: 'ES-003 : 0x0023e83d'
+  expected: Joven
+- offset: '0x0023e84a'
+  name: 'ES-003 : 0x0023e84a'
+  expected: Cazabichos
+- offset: '0x0023e857'
+  name: 'ES-003 : 0x0023e857'
+  expected: Chica
+- offset: '0x0023e864'
+  name: 'ES-003 : 0x0023e864'
+  expected: Marinero
+- offset: '0x0023e871'
+  name: 'ES-003 : 0x0023e871'
+  expected: Campista
+- offset: '0x0023e87e'
+  name: 'ES-003 : 0x0023e87e'
+  expected: Dominguera
+- offset: '0x0023e88b'
+  name: 'ES-003 : 0x0023e88b'
+  expected: Pokémaníaco
+- offset: '0x0023e898'
+  name: 'ES-003 : 0x0023e898'
+  expected: Supernecio
+- offset: '0x0023e8a5'
+  name: 'ES-003 : 0x0023e8a5'
+  expected: Montañero
+- offset: '0x0023e8b2'
+  name: 'ES-003 : 0x0023e8b2'
+  expected: Motorista
+- offset: '0x0023e8bf'
+  name: 'ES-003 : 0x0023e8bf'
+  expected: Ladrón
+- offset: '0x0023e8cc'
+  name: 'ES-003 : 0x0023e8cc'
+  expected: Obrero
+- offset: '0x0023e8d9'
+  name: 'ES-003 : 0x0023e8d9'
+  expected: Pescador
+- offset: '0x0023e8e6'
+  name: 'ES-003 : 0x0023e8e6'
+  expected: Nadador♂
+- offset: '0x0023e8f3'
+  name: 'ES-003 : 0x0023e8f3'
+  expected: Malote
+- offset: '0x0023e900'
+  name: 'ES-003 : 0x0023e900'
+  expected: Jugón
+- offset: '0x0023e90d'
+  name: 'ES-003 : 0x0023e90d'
+  expected: Bella
+- offset: '0x0023e91a'
+  name: 'ES-003 : 0x0023e91a'
+  expected: Nadadora♀
+- offset: '0x0023e927'
+  name: 'ES-003 : 0x0023e927'
+  expected: Médium
+- offset: '0x0023e934'
+  name: 'ES-003 : 0x0023e934'
+  expected: Rockero
+- offset: '0x0023e941'
+  name: 'ES-003 : 0x0023e941'
+  expected: Malabarista
+- offset: '0x0023e94e'
+  name: 'ES-003 : 0x0023e94e'
+  expected: Domador
+- offset: '0x0023e95b'
+  name: 'ES-003 : 0x0023e95b'
+  expected: Ornitólogo
+- offset: '0x0023e968'
+  name: 'ES-003 : 0x0023e968'
+  expected: Karateka
+- offset: '0x0023e982'
+  name: 'ES-003 : 0x0023e982'
+  expected: Científico
+- offset: '0x0023e98f'
+  name: 'ES-003 : 0x0023e98f'
+  expected: Jefe
+- offset: '0x0023e99c'
+  name: 'ES-003 : 0x0023e99c'
+  expected: Líder
+- offset: '0x0023e9a9'
+  name: 'ES-003 : 0x0023e9a9'
+  expected: Shadows
+- offset: '0x0023e9b6'
+  name: 'ES-003 : 0x0023e9b6'
+  expected: Entren. Guay
+- offset: '0x0023e9c3'
+  name: 'ES-003 : 0x0023e9c3'
+  expected: Alto Mando
+- offset: '0x0023e9d0'
+  name: 'ES-003 : 0x0023e9d0'
+  expected: Caballero
+- offset: '0x0023e9ea'
+  name: 'ES-003 : 0x0023e9ea'
+  expected: Entren. <0x53><0x54>
+- offset: '0x0023e9f7'
+  name: 'ES-003 : 0x0023e9f7'
+  expected: Exorcista
+- offset: '0x0023ea04'
+  name: 'ES-003 : 0x0023ea04'
+  expected: Gemelas
+- offset: '0x0023ea11'
+  name: 'ES-003 : 0x0023ea11'
+  expected: Dúo Guay
+- offset: '0x0023ea1e'
+  name: 'ES-003 : 0x0023ea1e'
+  expected: PAREJA JOVEN
+- offset: '0x0023ea2b'
+  name: 'ES-003 : 0x0023ea2b'
+  expected: Kin Karate
+- offset: '0x0023ea38'
+  name: 'ES-003 : 0x0023ea38'
+  expected: HERMANOS
+- offset: '0x0023ea45'
+  name: 'ES-003 : 0x0023ea45'
+  expected: PROF. <0x53><0x54>
+- offset: '0x0023ea52'
+  name: 'ES-003 : 0x0023ea52'
+  expected: Jugador
+- offset: '0x0023ea5f'
+  name: 'ES-003 : 0x0023ea5f'
+  expected: Luchadora
+- offset: '0x0023ea6c'
+  name: 'ES-003 : 0x0023ea6c'
+  expected: Playera
+- offset: '0x0023ea79'
+  name: 'ES-003 : 0x0023ea79'
+  expected: Criapokémon
+- offset: '0x0023ea86'
+  name: 'ES-003 : 0x0023ea86'
+  expected: Ranger <0x53><0x54>
+- offset: '0x0023ea93'
+  name: 'ES-003 : 0x0023ea93'
+  expected: Dama Aroma
+- offset: '0x0023eaa0'
+  name: 'ES-003 : 0x0023eaa0'
+  expected: Ruinamaníaco
+- offset: '0x0023eaad'
+  name: 'ES-003 : 0x0023eaad'
+  expected: Dama
+- offset: '0x0023eaba'
+  name: 'ES-003 : 0x0023eaba'
+  expected: Pintor
+- offset: '0x0024f1a7'
+  name: 'ES-003 : 0x0024f1a7'
+  expected: LUCHA
+- offset: '0x0024f1ae'
+  name: 'ES-003 : 0x0024f1ae'
+  expected: VOLADOR
+- offset: '0x0024f1b5'
+  name: 'ES-003 : 0x0024f1b5'
+  expected: VENENO
+- offset: '0x0024f1bc'
+  name: 'ES-003 : 0x0024f1bc'
+  expected: TIERRA
+- offset: '0x0024f1c3'
+  name: 'ES-003 : 0x0024f1c3'
+  expected: ROCA
+- offset: '0x0024f1ca'
+  name: 'ES-003 : 0x0024f1ca'
+  expected: BICHO
+- offset: '0x0024f1d1'
+  name: 'ES-003 : 0x0024f1d1'
+  expected: FANTASMA
+- offset: '0x0024f1d8'
+  name: 'ES-003 : 0x0024f1d8'
+  expected: ACERO
+- offset: '0x0024f1e6'
+  name: 'ES-003 : 0x0024f1e6'
+  expected: FUEGO
+- offset: '0x0024f1ed'
+  name: 'ES-003 : 0x0024f1ed'
+  expected: AGUA
+- offset: '0x0024f1f4'
+  name: 'ES-003 : 0x0024f1f4'
+  expected: PLANTA
+- offset: '0x0024f1fb'
+  name: 'ES-003 : 0x0024f1fb'
+  expected: ELÉCTRICO
+- offset: '0x0024f202'
+  name: 'ES-003 : 0x0024f202'
+  expected: PSÍQUICO
+- offset: '0x0024f209'
+  name: 'ES-003 : 0x0024f209'
+  expected: HIELO
+- offset: '0x0024f217'
+  name: 'ES-003 : 0x0024f217'
+  expected: SINIESTRO
+- offset: '0x0024f3d8'
+  name: 'ES-003 : 0x0024f3d8'
+  expected: Repele Pokémon salvajes.
+- offset: '0x0024f3f2'
+  name: 'ES-003 : 0x0024f3f2'
+  expected: Invoca lluvia en combate.
+- offset: '0x0024f40a'
+  name: 'ES-003 : 0x0024f40a'
+  expected: Sube Velocidad poco a poco.
+- offset: '0x0024f422'
+  name: 'ES-003 : 0x0024f422'
+  expected: Evita golpes críticos.
+- offset: '0x0024f438'
+  name: 'ES-003 : 0x0024f438'
+  expected: Evita golpes fulminantes.
+- offset: '0x0024f452'
+  name: 'ES-003 : 0x0024f452'
+  expected: Evita la autodestrucción.
+- offset: '0x0024f46d'
+  name: 'ES-003 : 0x0024f46d'
+  expected: Evita la parálisis.
+- offset: '0x0024f481'
+  name: 'ES-003 : 0x0024f481'
+  expected: Sube Evasión con arena.
+- offset: '0x0024f49d'
+  name: 'ES-003 : 0x0024f49d'
+  expected: Paraliza al contacto.
+- offset: '0x0024f4b3'
+  name: 'ES-003 : 0x0024f4b3'
+  expected: Convierte electricidad en PS.
+- offset: '0x0024f4ce'
+  name: 'ES-003 : 0x0024f4ce'
+  expected: Convierte agua en PS.
+- offset: '0x0024f4e5'
+  name: 'ES-003 : 0x0024f4e5'
+  expected: Evita el enamoramiento.
+- offset: '0x0024f4fa'
+  name: 'ES-003 : 0x0024f4fa'
+  expected: Anula efectos del clima.
+- offset: '0x0024f513'
+  name: 'ES-003 : 0x0024f513'
+  expected: Sube la Precisión.
+- offset: '0x0024f524'
+  name: 'ES-003 : 0x0024f524'
+  expected: Evita el sueño.
+- offset: '0x0024f534'
+  name: 'ES-003 : 0x0024f534'
+  expected: Adopta el tipo del movimiento.
+- offset: '0x0024f550'
+  name: 'ES-003 : 0x0024f550'
+  expected: Evita el envenenamiento.
+- offset: '0x0024f564'
+  name: 'ES-003 : 0x0024f564'
+  expected: Se potencia al recibir fuego.
+- offset: '0x0024f57e'
+  name: 'ES-003 : 0x0024f57e'
+  expected: Evita efectos secundarios.
+- offset: '0x0024f596'
+  name: 'ES-003 : 0x0024f596'
+  expected: Evita la confusión.
+- offset: '0x0024f5aa'
+  name: 'ES-003 : 0x0024f5aa'
+  expected: Se aferra al suelo.
+- offset: '0x0024f5c3'
+  name: 'ES-003 : 0x0024f5c3'
+  expected: Baja el Ataque del rival.
+- offset: '0x0024f5dc'
+  name: 'ES-003 : 0x0024f5dc'
+  expected: Impide la huida del rival.
+- offset: '0x0024f5f7'
+  name: 'ES-003 : 0x0024f5f7'
+  expected: Hiere al contacto.
+- offset: '0x0024f607'
+  name: 'ES-003 : 0x0024f607'
+  expected: Solo recibe daño supereficaz.
+- offset: '0x0024f61f'
+  name: 'ES-003 : 0x0024f61f'
+  expected: Evita movimientos de Tierra.
+- offset: '0x0024f63a'
+  name: 'ES-003 : 0x0024f63a'
+  expected: Libera esporas al contacto.
+- offset: '0x0024f654'
+  name: 'ES-003 : 0x0024f654'
+  expected: Transmite problemas de estado.
+- offset: '0x0024f66f'
+  name: 'ES-003 : 0x0024f66f'
+  expected: Evita bajadas de estadísticas.
+- offset: '0x0024f68b'
+  name: 'ES-003 : 0x0024f68b'
+  expected: Se cura al ser retirado.
+- offset: '0x0024f6a5'
+  name: 'ES-003 : 0x0024f6a5'
+  expected: Atrae movimientos eléctricos.
+- offset: '0x0024f6bd'
+  name: 'ES-003 : 0x0024f6bd'
+  expected: Favorece efectos secundarios.
+- offset: '0x0024f6d5'
+  name: 'ES-003 : 0x0024f6d5'
+  expected: Sube Velocidad con lluvia.
+- offset: '0x0024f6eb'
+  name: 'ES-003 : 0x0024f6eb'
+  expected: Sube Velocidad con sol.
+- offset: '0x0024f705'
+  name: 'ES-003 : 0x0024f705'
+  expected: Aumenta los encuentros.
+- offset: '0x0024f71f'
+  name: 'ES-003 : 0x0024f71f'
+  expected: Copia la habilidad del rival.
+- offset: '0x0024f737'
+  name: 'ES-003 : 0x0024f737'
+  expected: Sube el Ataque.
+- offset: '0x0024f746'
+  name: 'ES-003 : 0x0024f746'
+  expected: Envenena al contacto.
+- offset: '0x0024f75e'
+  name: 'ES-003 : 0x0024f75e'
+  expected: Evita el amedrentamiento.
+- offset: '0x0024f772'
+  name: 'ES-003 : 0x0024f772'
+  expected: Evita la congelación.
+- offset: '0x0024f785'
+  name: 'ES-003 : 0x0024f785'
+  expected: Evita las quemaduras.
+- offset: '0x0024f795'
+  name: 'ES-003 : 0x0024f795'
+  expected: Atrapa Pokémon de tipo Acero.
+- offset: '0x0024f7af'
+  name: 'ES-003 : 0x0024f7af'
+  expected: Evita movimientos de sonido.
+- offset: '0x0024f7c9'
+  name: 'ES-003 : 0x0024f7c9'
+  expected: Recupera PS con lluvia.
+- offset: '0x0024f7e5'
+  name: 'ES-003 : 0x0024f7e5'
+  expected: Invoca tormentas de arena.
+- offset: '0x0024f7fa'
+  name: 'ES-003 : 0x0024f7fa'
+  expected: El rival gasta más PP.
+- offset: '0x0024f811'
+  name: 'ES-003 : 0x0024f811'
+  expected: Protege del calor y del frío.
+- offset: '0x0024f82b'
+  name: 'ES-003 : 0x0024f82b'
+  expected: Despierta rápidamente.
+- offset: '0x0024f847'
+  name: 'ES-003 : 0x0024f847'
+  expected: Quema al contacto.
+- offset: '0x0024f861'
+  name: 'ES-003 : 0x0024f861'
+  expected: Facilita la huida.
+- offset: '0x0024f878'
+  name: 'ES-003 : 0x0024f878'
+  expected: Evita bajadas de Precisión.
+- offset: '0x0024f893'
+  name: 'ES-003 : 0x0024f893'
+  expected: Evita bajadas de Ataque.
+- offset: '0x0024f8ae'
+  name: 'ES-003 : 0x0024f8ae'
+  expected: Puede recoger objetos.
+- offset: '0x0024f8c1'
+  name: 'ES-003 : 0x0024f8c1'
+  expected: Actúa cada dos turnos.
+- offset: '0x0024f8dd'
+  name: 'ES-003 : 0x0024f8dd'
+  expected: Más potencia, menos Precisión.
+- offset: '0x0024f8f8'
+  name: 'ES-003 : 0x0024f8f8'
+  expected: Enamora al contacto.
+- offset: '0x0024f90f'
+  name: 'ES-003 : 0x0024f90f'
+  expected: Se potencia con Menos.
+- offset: '0x0024f925'
+  name: 'ES-003 : 0x0024f925'
+  expected: Se potencia con Más.
+- offset: '0x0024f93a'
+  name: 'ES-003 : 0x0024f93a'
+  expected: Cambia según el clima.
+- offset: '0x0024f954'
+  name: 'ES-003 : 0x0024f954'
+  expected: Evita el robo de objetos.
+- offset: '0x0024f969'
+  name: 'ES-003 : 0x0024f969'
+  expected: Cura su estado al mudar.
+- offset: '0x0024f985'
+  name: 'ES-003 : 0x0024f985'
+  expected: Sube Ataque si sufre.
+- offset: '0x0024f99e'
+  name: 'ES-003 : 0x0024f99e'
+  expected: Sube Defensa si sufre.
+- offset: '0x0024f9b8'
+  name: 'ES-003 : 0x0024f9b8'
+  expected: Daña a quien le drena PS.
+- offset: '0x0024f9d0'
+  name: 'ES-003 : 0x0024f9d0'
+  expected: Potencia Planta en apuros.
+- offset: '0x0024f9ec'
+  name: 'ES-003 : 0x0024f9ec'
+  expected: Potencia Fuego en apuros.
+- offset: '0x0024fa07'
+  name: 'ES-003 : 0x0024fa07'
+  expected: Potencia Agua en apuros.
+- offset: '0x0024fa23'
+  name: 'ES-003 : 0x0024fa23'
+  expected: Potencia Bicho en apuros.
+- offset: '0x0024fa3d'
+  name: 'ES-003 : 0x0024fa3d'
+  expected: Evita daño de retroceso.
+- offset: '0x0024fa55'
+  name: 'ES-003 : 0x0024fa55'
+  expected: Invoca sol en combate.
+- offset: '0x0024fa71'
+  name: 'ES-003 : 0x0024fa71'
+  expected: Impide la huida.
+- offset: '0x0024fa83'
+  name: 'ES-003 : 0x0024fa83'
+  expected: Evita el sueño.
+- offset: '0x0024fa93'
+  name: 'ES-003 : 0x0024fa93'
+  expected: Evita bajadas de estadísticas.
+- offset: '0x0024faaf'
+  name: 'ES-003 : 0x0024faaf'
+  expected: Sube el Ataque.
+- offset: '0x0024fabe'
+  name: 'ES-003 : 0x0024fabe'
+  expected: Evita golpes críticos.
+- offset: '0x0024fad4'
+  name: 'ES-003 : 0x0024fad4'
+  expected: Evita movimientos de sonido.
+- offset: '0x0024faee'
+  name: 'ES-003 : 0x0024faee'
+  expected: Anula efectos del clima.
+- offset: '0x0026d4e5'
+  name: 'ES-003 : 0x0026d4e5'
+  expected: ¡Empecemos!
+- offset: '0x0026d4f7'
+  name: 'ES-003 : 0x0026d4f7'
+  expected: ¡Qué buen combate! ¡Mis\nPokémon se han divertido!
+- offset: '0x0026d524'
+  name: 'ES-003 : 0x0026d524'
+  expected: Ahora que la entrada de la\nAutovía SES está abierta,<0xFA>¡por fin he podido entrenar!<0xFB>Dime, ¿te gustaría combatir con\nmis Pokémon recién entrenados?
+- offset: '0x0026d5bf'
+  name: 'ES-003 : 0x0026d5bf'
+  expected: ¡Gracias por combatir conmigo!
+- offset: '0x0026d5dc'
+  name: 'ES-003 : 0x0026d5dc'
+  expected: ¿Quieres cruzar Challenge Road?<0xFB>¡Pues antes tendrás que\nenfrentarte a mí!
+- offset: '0x0026d733'
+  name: 'ES-003 : 0x0026d733'
+  expected: Bueno, ¡si cambias de idea,\npuedes volver cuando quieras!
+- offset: '0x00270fa1'
+  name: 'ES-003 : 0x00270fa1'
+  expected: Intenté cruzar el Great Desert\nal este del pueblo,<0xFA>pero la tormenta era muy fuerte.<0xFB>La arena me daba en la cara\ny no podía ver nada.<0xFB>Sin ningún tipo de protección,\nes imposible ir a ningún sitio.<0xFB>Ojalá encontrase algo<0xB0>
+- offset: '0x00271c3e'
+  name: 'ES-003 : 0x00271c3e'
+  expected: ¡Hay púas venenosas esparcidas\nalrededor de tu equipo!
+- offset: '0x0027795d'
+  name: 'ES-003 : 0x0027795d'
+  expected: ¡Hay piedras puntiagudas\nalrededor del equipo rival!
+- offset: '0x00277999'
+  name: 'ES-003 : 0x00277999'
+  expected: ¡Una red viscosa rodea\nal equipo rival!
+- offset: '0x00277a12'
+  name: 'ES-003 : 0x00277a12'
+  expected: ¡Las púas han desaparecido\nde los pies de <0xFD><0x0F>!
+- offset: '0x003d4f26'
+  name: 'ES-003 : 0x003d4f26'
+  expected: Poké Ball de gran calidad.\nSu índice de captura supera\nal de la Super Ball.
+- offset: '0x003d4f78'
+  name: 'ES-003 : 0x003d4f78'
+  expected: Poké Ball de buena calidad.\nSu índice de captura supera\nal de una Poké Ball normal.
+- offset: '0x003d4fd0'
+  name: 'ES-003 : 0x003d4fd0'
+  expected: Dispositivo con diseño capsular\nque atrapa Pokémon salvajes.
+- offset: '0x003d501a'
+  name: 'ES-003 : 0x003d501a'
+  expected: Poké Ball de camuflaje que\nsolo se utiliza en la\nZona Safari.
+- offset: '0x003d5077'
+  name: 'ES-003 : 0x003d5077'
+  expected: Poké Ball especialmente eficaz\ncon los Pokémon de tipo Agua\ny Bicho.
+- offset: '0x003d50cc'
+  name: 'ES-003 : 0x003d50cc'
+  expected: Poké Ball especialmente eficaz\ncon los Pokémon que viven\nen las profundidades del mar.
+- offset: '0x003d511d'
+  name: 'ES-003 : 0x003d511d'
+  expected: Poké Ball especialmente eficaz\ncon los Pokémon más débiles.
+- offset: '0x003d5165'
+  name: 'ES-003 : 0x003d5165'
+  expected: Poké Ball especialmente eficaz\ncon las especies de Pokémon\nque ya has capturado.
+- offset: '0x003d51b4'
+  name: 'ES-003 : 0x003d51b4'
+  expected: Poké Ball que va mejorando\nsu eficacia con cada turno\nde combate.
+- offset: '0x003d5216'
+  name: 'ES-003 : 0x003d5216'
+  expected: Cómoda Poké Ball que vuelve\namistosos rápidamente a los\nPokémon salvajes capturados.
+- offset: '0x003d5263'
+  name: 'ES-003 : 0x003d5263'
+  expected: Poké Ball poco común creada\npara conmemorar un\nacontecimiento especial.
+- offset: '0x003d52b2'
+  name: 'ES-003 : 0x003d52b2'
+  expected: Medicina en espray que cura\nheridas y restaura 20 PS\nde un Pokémon.
+- offset: '0x003d52ff'
+  name: 'ES-003 : 0x003d52ff'
+  expected: Medicina en espray que cura\nel envenenamiento de\nun Pokémon.
+- offset: '0x003d533d'
+  name: 'ES-003 : 0x003d533d'
+  expected: Medicina en espray que cura\nlas quemaduras de un Pokémon.
+- offset: '0x003d5374'
+  name: 'ES-003 : 0x003d5374'
+  expected: Medicina en espray que\ndescongela a un Pokémon.
+- offset: '0x003d53a9'
+  name: 'ES-003 : 0x003d53a9'
+  expected: Medicina en espray que\ndespierta a un Pokémon dormido.
+- offset: '0x003d53df'
+  name: 'ES-003 : 0x003d53df'
+  expected: Medicina en espray que cura\nla parálisis de un Pokémon.
+- offset: '0x003d541b'
+  name: 'ES-003 : 0x003d541b'
+  expected: Medicina que restaura todos\nlos PS y cura los problemas\nde estado de un Pokémon.
+- offset: '0x003d546f'
+  name: 'ES-003 : 0x003d546f'
+  expected: Medicina en espray que cura\nheridas y restaura todos\nlos PS de un Pokémon.
+- offset: '0x003d54b5'
+  name: 'ES-003 : 0x003d54b5'
+  expected: Medicina en espray que cura\nheridas y restaura 200 PS\nde un Pokémon.
+- offset: '0x003d5503'
+  name: 'ES-003 : 0x003d5503'
+  expected: Medicina en espray que cura\nheridas y restaura 50 PS\nde un Pokémon.
+- offset: '0x003d5550'
+  name: 'ES-003 : 0x003d5550'
+  expected: Medicina en espray que cura\ntodos los problemas de\nestado de un Pokémon.
+- offset: '0x003d5598'
+  name: 'ES-003 : 0x003d5598'
+  expected: Revive a un Pokémon debilitado\ny le devuelve la mitad\nde sus PS máximos.
+- offset: '0x003d55ec'
+  name: 'ES-003 : 0x003d55ec'
+  expected: Revive a un Pokémon debilitado\ny le devuelve todos\nsus PS.
+- offset: '0x003d562b'
+  name: 'ES-003 : 0x003d562b'
+  expected: Agua rica en minerales\nque restaura 50 PS\nde un Pokémon.
+- offset: '0x003d567e'
+  name: 'ES-003 : 0x003d567e'
+  expected: Bebida gaseosa que restaura\n60 PS de un Pokémon.
+- offset: '0x003d56c2'
+  name: 'ES-003 : 0x003d56c2'
+  expected: Bebida muy dulce que restaura\n80 PS de un Pokémon.
