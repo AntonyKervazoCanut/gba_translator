@@ -2303,3 +2303,281 @@
 0x3ec098: ESQUERDA
 0x3ec09d: DIREITA
 0x3ec2a6: BAMBO
+
+# PT-13 — menus, systèmes et résumés (F-772).
+0x417fd0: filha
+0x417fd9: BOULDERBADGE
+0x417fe6: CASCADEBADGE
+0x417ff3: THUNDERBADGE
+0x418000: RAINBOWBADGE
+0x41800d: SOULBADGE
+0x418017: MARSHBADGE
+0x418022: VOLCANOBADGE
+0x41802f: EARTHBADGE
+0x41803a: 1º
+0x41803d: 2º
+0x418040: 3º
+0x418043: 4º
+0x418046: 5º
+0x418049: 6º
+0x41804c: 7º
+0x41804f: 8º
+0x418052: 9º
+0x418055: 10º
+0x418059: 11º
+0x41805d: S1
+0x418061: S2
+0x418065: S3
+0x418069: S4
+0x41806d: TERRAÇO
+0x418075: Andar:
+0x41807d: JOGO EM CONEXÃO
+0x41808e: CONEXÃO DIRETA
+0x41809c: SALA DE UNIÃO
+0x4180a7: ENERGYPOWDER<0xFC><0x13><0x74><0xFC><0x06><0x00>50
+0x4180bc: ENERGY ROOT<0xFC><0x13><0x74><0xFC><0x06><0x00>80
+0x4180d0: HEAL POWDER<0xFC><0x13><0x74><0xFC><0x06><0x00>50
+0x4180e4: REVIVAL HERB<0xFC><0x13><0x6F><0xFC><0x06><0x00>300
+0x4180fa: PROTEIN<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000
+0x41810d: IRON<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000
+0x41811d: CARBOS<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000
+0x41812f: CALCIUM<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000
+0x418142: ZINC<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000
+0x418152: HP UP<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000
+0x418163: PP UP<0xFC><0x13><0x65><0xFC><0x06><0x00>3,000
+0x418174: <0xFD><0x01>: RESULTADOS
+0x418188: V:<0xFD><0x02> D:<0xFD><0x03> E:<0xFD><0x04>
+0x4181a4: VIT.<0xFC><0x13><0x30>DER.<0xFC><0x13><0x60>EMP.
+0x4181c3: O FAME CHECKER será fechado.
+0x418208: Sair da Caixa.
+0x41821b: O que deseja fazer?
+0x418233: Escolha um tema.
+0x418248: Escolha o fundo.
+0x41825c: <0xF7><0x00> em seleção.
+0x41826c: Ir para qual Caixa?
+0x41827f: Depositar em qual Caixa?
+0x418295: <0xF7><0x00> no depósito.
+0x4182a7: A Caixa está cheia.
+0x4182b8: Libertar este Pokémon?
+0x4182ce: <0xF7><0x00> em liberdade.
+0x4182df: Tchau, <0xF7><0x00>!
+0x4182ec: Marque seu Pokémon.
+0x4182ff: É seu último Pokémon!
+0x418319: Sua equipe está cheia!
+0x41832c: Você segura um Pokémon!
+0x418346: Qual vai pegar?
+0x41835f: Não pode libertar um Ovo.
+0x418379: Continuar nas Caixas?
+0x418392: <0xF7><0x00> voltou!
+0x4183a0: Estava preocupado com você?
+0x4183ba: <0xB0> <0xB0> <0xB0> <0xB0> <0xB0>!
+0x4183c5: Remova o Mail.
+0x4183dd: Dar a um Pokémon?
+0x4183f0: Item guardado no Cube V3.
+0x418408: Cube V3 cheio.
+0x418419: Guardar no Cube V3?
+0x418433: <0xF7><0x00> equipado.
+0x418443: Mudou para <0xF7><0x00>.
+0x418452: Não pode guardar Mail!
+0x418468: Cancelar
+0x41846f: Guardar
+0x418475: Retirar
+0x41847e: Trocar
+0x418484: Mover
+0x418489: Colocar
+0x41848f: Resumo
+0x418497: Libertar
+0x41849f: Marcar
+0x4184a4: Nome
+0x4184a9: Ir
+0x4184ae: Fundo
+0x4184b8: Pegar
+0x4184bd: Dar
+0x4184c2: Trocar
+0x4184c9: Bolsa
+0x4184cd: Info
+0x4184d2: Cenário 1
+0x4184dc: Cenário 2
+0x4184e6: Cenário 3
+0x4184f0: Outros
+0x4184f9: Floresta
+0x418500: Cidade
+0x418505: Deserto
+0x41850c: Savana
+0x418514: Rochedo
+0x418519: Vulcão
+0x418521: Neve
+0x418526: Caverna
+0x41852b: Praia
+0x418531: Fundo do mar
+0x41853a: Rio
+0x418540: Céu
+0x418544: Estrelas
+0x41854a: Centro Pokémon
+0x418555: Ladrilhos
+0x41855b: Simples
+0x41856c: Retirar Pokémon
+0x41857d: Depositar Pokémon
+0x41858d: Mover Pokémon
+0x41859a: Mover itens
+0x4185a5: Até mais!
+0x4185ad: Retire um Pokémon que esteja\nguardado em uma Caixa.
+0x4185e2: Deposite os Pokémon da sua\nequipe em qualquer Caixa.
+0x418611: Mova os Pokémon guardados\nem qualquer Caixa.
+0x418642: Mova itens dos Pokémon\ndas Caixas ou da sua equipe.
+0x418681: Até a próxima!
+0x418690: Não pode depositar o último!
+0x4186b0: Não pode pegar mais Pokémon.
+0x4186cd: Caixa
+0x4186d1: Combine quatro palavras ou frases
+0x4186ef: e crie seu perfil.
+0x418706: Crie uma mensagem de seis frases.
+0x418725: Duas frases de 12 letras/linha.
+0x418745: Ache palavras que descrevam seus
+0x418763: sentimentos atuais.
+0x418780: Combine nove palavras ou frases
+0x41879e: e crie uma mensagem.
+0x4187b2: Mude só uma palavra ou frase
+0x4187d1: e melhore a canção do BARDO.
+0x4187ee: e preencha o questionário.
+0x41880e: Seu perfil
+0x41881b: Seu sentimento ao iniciar a luta
+0x41883e: O que diz ao vencer uma batalha
+0x41885f: O que diz ao perder uma batalha
+0x418881: A resposta
+0x41888c: A mensagem do Mail
+0x4188ac: A nova canção
+0x4188b9: Combine duas palavras ou frases
+0x4188d6: e crie uma expressão da moda.
+0x4188f0: A expressão da moda
+0x418902: está assim. Certo?
+0x418937: Todo o texto em edição será
+0x418956: apagado. Tudo bem?
+0x4189e0: Parar a edição?
+0x4189ee: Parar de dar Mail ao Pokémon?
+0x418a2b: PERFIL
+0x418a33: Ao iniciar a batalha:
+0x418a4a: Ao vencer a batalha:
+0x418a61: Ao perder a batalha:
+0x418a77: Canção do BARDO
+0x418a87: O que está na moda?
+0x418aa1: Entrevista
+0x418c1b: CENTRO POKÉMON
+0x418c83: Falha ao salvar.\nVerificando a memória...\nAguarde.\n“Tempo necessário:\ncerca de 1 minuto”
+0x418cd9: A memória está danificada\nou a bateria se esgotou.\nÉ possível jogar, mas não\nsalvar seu progresso.\n“Pressione o botão A.”
+0x418e09: Jogo salvo.\n“Pressione o botão A.”
+0x418e47: Seu nome?
+0x418e52: Nome da Caixa?
+0x418e5c: : apelido?
+0x418e69: Nome do rival?
+0x418e77: <0xF8><0x0C>Mover <0xF8><0x00>OK <0xF8><0x01>Voltar
+0x418e8d: <0xF8><0x00>Guia
+0x418e95: <0xF8><0x00>Cancelar
+0x418e9e: <0xF8><0x00>Cancelar
+0x418ea7: <0xF8><0x00>Trocar
+0x418eb0: <0xF8><0x00>OK
+0x418eb5: <0xF8><0x0C>Mover
+0x418ebc: <0xF8><0x0A>Escolher
+0x418ec3: Sem dados
+0x418ecb: Uma floresta vasta e densa\nao redor de VIRIDIAN CITY.\nUm labirinto natural onde\nmuitos acabam se perdendo.
+0x418f3a: Uma montanha mística com\nfrequentes quedas de meteoros.\nOs fragmentos de estrelas\nsão chamados de MOON STONES.
+0x418fb8: Um túnel de aparência comum,\nescavado por DIGLETT selvagens.\nÉ famoso por ligar as\nROTAS 2 e 11.
+0x41901c: Um túnel situado na ROTA 23.\nSeu nome vem de ser passagem\nobrigatória aos Treinadores\nque almejam o topo.
+0x41908e: Uma mansão em ruínas, queimada,\nem CINNABAR ISLAND.\nTem esse nome porque um famoso\npesquisador Pokémon morou ali.
+0x419103: Um parque perto de FUCHSIA CITY\ncom muitos Pokémon raros\npara observar na natureza.\nCapture-os num jogo popular!
+0x41917d: Um túnel subterrâneo natural.\nComo não foi desenvolvido,\nseu interior é muito escuro.\nÉ preciso luz para atravessá-lo.
+0x419201: Duas ilhas situadas na ROTA 20.\nAs duas possuem o mesmo\nformato, como se fossem\nilhas gêmeas.
+0x41926d: Uma torre com túmulos de\nincontáveis Pokémon.\nMuitos a visitam diariamente\npara homenagear os falecidos.
+0x4192e2: Uma caverna misteriosa, cheia\nde Pokémon muito fortes.\nÉ tão perigosa que está\nsob os cuidados da LIGA POKÉMON.
+0x41935b: Uma usina abandonada há anos,\nmas algumas de suas máquinas\nainda funcionam. É infestada\nde Pokémon elétricos.
+0x4193d5: Um vulcão supostamente inativo.\nPorém, há relatos frequentes\nde que seu pico arde em\nchamas durante a noite.
+0x419444: Uma floresta perto de\nTHREE ISLAND. BERRIES crescem\nem profusão, repondo depressa\nas que caem.
+0x4194c9: Uma caverna coberta de água\ne gelo em FOUR ISLAND.\nParece que o final da caverna\nestá ligado ao oceano.
+0x41953f: Uma caverna confusa perto\nde RESORT GORGEOUS.\nAlguns curiosos em busca de\nemoção nunca saíram dela.
+0x4195ac: Uma ruína antiga onde dizem\nhabitar um Pokémon peculiar.\nPorém, até hoje o Pokémon\ncontinua sendo só um rumor.
+0x419629: Esta ilha tem esse nome\ndesde um passado distante.\nHoje, ninguém sabe de onde\nveio esse nome.
+0x41969d: Uma área de vegetação densa.\nHá desenhos onde a grama\nnão cresce. Alguns a estudam\npor crer que oculta um segredo.
+0x41971a: Uma ruína misteriosa recém-\ndescoberta, de tempos antigos.\nSeu nome vem dos seis pontos\nem sua porta.
+0x419782: <0xF7><0x00> por natureza.\nVeio de uma troca.
+0x41979d: <0xF7><0x00> por natureza.\nVeio de uma troca.
+0x4197b8: <0xF7><0x00> por natureza.\nEncontro predestinado\nno <0xF9><0x05> <0xF7><0x01>.
+0x4197ed: <0xF7><0x00> por natureza.\nEncontro predestinado\nno <0xF9><0x05> <0xF7><0x01>.
+0x419822: <0xF7><0x00> por natureza.\nEm <0xF7><0x02>, <0xF9><0x05> <0xF7><0x01>.
+0x419841: <0xF7><0x00> por natureza.\nEm <0xF7><0x02>, <0xF9><0x05> <0xF7><0x01>.
+0x419860: <0xF7><0x00> por natureza.\nParece vir de <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>.
+0x41988a: <0xF7><0x00> por natureza.\nParece vir de <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>.
+0x4198b4: <0xF7><0x00> por natureza.\nChocou em <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>.
+0x4198d5: <0xF7><0x00> por natureza.\nChocou em <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>.
+0x41992f: <0xF7><0x00>: encontro predestinado\n(chocou em <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>).
+0x41996d: <0xF7><0x00>: encontro predestinado\n(chocou em <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>).
+0x4199ab: <0xF7><0x00>: parece predestinado\no encontro (chocou em\n<0xF7><0x02>, <0xF9><0x05> <0xF7><0x01>).
+0x4199f4: <0xF7><0x00>: parece predestinado\no encontro (chocou em\n<0xF7><0x02>, <0xF9><0x05> <0xF7><0x01>).
+0x419a3d: Um Ovo Pokémon estranho achado\npelo casal do Day-Care.
+0x419aa2: Um Ovo Pokémon muito peculiar\nobtido num lugar agradável.
+0x419ade: Um Ovo Pokémon estranho obtido\nde uma senhora no SPA.
+0x419b18: Um Ovo Pokémon peculiar obtido\nem uma troca.
+0x419b44: Parece que este\nOvo vai demorar\nmuito a chocar.
+0x419b7b: O que vai nascer?\nAinda vai levar\nalgum tempo.
+0x419bae: Às vezes se move.\nDeve chocar\nem breve.
+0x419bdb: Está fazendo sons.\nEstá quase pronto\npara chocar!
+0x419c0b: uma troca
+0x419c1d: Dados Pokémon
+0x419c2a: Atributos
+0x419c39: Movimentos
+0x419c45: Sem dados
+0x419c5a: Confirmar
+0x419c62: <0xF8><0x09>Pág. <0xF8><0x00>Sair
+0x419c72: <0xF8><0x00>Sair
+0x419c7b: <0xF8><0x0B>Pág.
+0x419c82: <0xF8><0x08>Pág. <0xF8><0x00>Detalhe
+0x419c92: <0xF8><0x0A>Escolher <0xF8><0x00>Trocar
+0x419ca2: <0xF8><0x0A>Escolher
+0x419ca9: <0xF8><0x0A>Escolher <0xF8><0x00>APAGAR
+0x419cb9: Não pode esquecer\nmovimentos HM agora.
+0x419cda: Nome:<0x00>
+0x419ce1: Nº ID
+0x419cef: Pokédex
+0x419cfd: TEMPO
+0x419d0a: : Cartão de Treinador
+0x419d1a: ESTREIA NO HALL DA FAMA
+0x419d2f: LUTAS LINK
+0x419d3c: LUTAS VIA CABO LINK
+0x419d4f: V:<0xFC><0x13><0x30>D:
+0x419d57: TROCAS POKÉMON
+0x419d66: TROCAS E LUTAS UNIÃO
+0x419d7d: BERRY CRUSH
+0x419d89: Aguarde o outro Treinador\nterminar de ler seu Cartão.
+0x419dcc: Opções
+0x419dd3: Veloc. texto
+0x419dde: Cena de luta
+0x419deb: Estilo de luta
+0x419df8: Som
+0x419dfe: Modo botões
+0x419e0a: Moldura
+0x419e17: Lento
+0x419e1c: Méd.
+0x419e20: Rápido
+0x419e25: Sim
+0x419e28: Não
+0x419e2c: Trocar
+0x419e32: Fixo
+0x419e36: Mono
+0x419e3b: Estéreo
+0x419e46: Ajuda
+0x419e4b: L=A
+0x419e4f: LR
+0x419e52: Tipo
+0x419e57: <0xF8><0x0A>ESC. <0xF8><0x0B>TROCAR <0xF8><0x00><0xF8><0x01>Cancelar
+0x419f54: SALVANDO...\nNÃO DESLIGUE O APARELHO.
+0x419f76: Registra os segredos dos Pokémon\nao encontrá-los ou capturá-los.
+0x419fbb: Veja e organize os Pokémon\nque viajam na sua equipe.
+0x41a001: Guarda os itens que você comprou,\nrecebeu ou encontrou.
+0x41a049: Veja seu dinheiro e outros dados.
+0x41a06f: Salve todo o seu progresso\npara fazer uma pausa.
+0x41a0b7: Ajuste a velocidade do texto,\nas regras e outras opções.
+0x41a0f9: Feche esta janela de Menu.
+0x41a111: Saia do JOGO SAFARI e volte\nao balcão de inscrição.
+0x41a155: Antes, em sua jornada...
+0x41a16f: <0xFD><0x01> trocou o Pokémon\n<0xFD><0x02> por <0xFD><0x03>.
+0x41a193: Tirou o item <0xFD><0x03> de\n<0xFD><0x02> e lhe deu o item\n<0xFD><0x04> para segurar.
+0x41a1cd: Tirou o item <0xFD><0x03> de\n<0xFD><0x02>.

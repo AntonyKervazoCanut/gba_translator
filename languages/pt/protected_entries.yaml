@@ -6866,3 +6866,831 @@ entries:
   - offset: "0x3ec2a6"
     name: "PT-08 0x3ec2a6"
     expected: "BAMBO"
+  - offset: "0x417fd0"
+    name: "PT-13 0x417fd0"
+    expected: 'filha'
+  - offset: "0x417fd9"
+    name: "PT-13 0x417fd9"
+    expected: 'BOULDERBADGE'
+  - offset: "0x417fe6"
+    name: "PT-13 0x417fe6"
+    expected: 'CASCADEBADGE'
+  - offset: "0x417ff3"
+    name: "PT-13 0x417ff3"
+    expected: 'THUNDERBADGE'
+  - offset: "0x418000"
+    name: "PT-13 0x418000"
+    expected: 'RAINBOWBADGE'
+  - offset: "0x41800d"
+    name: "PT-13 0x41800d"
+    expected: 'SOULBADGE'
+  - offset: "0x418017"
+    name: "PT-13 0x418017"
+    expected: 'MARSHBADGE'
+  - offset: "0x418022"
+    name: "PT-13 0x418022"
+    expected: 'VOLCANOBADGE'
+  - offset: "0x41802f"
+    name: "PT-13 0x41802f"
+    expected: 'EARTHBADGE'
+  - offset: "0x41803a"
+    name: "PT-13 0x41803a"
+    expected: '1º'
+  - offset: "0x41803d"
+    name: "PT-13 0x41803d"
+    expected: '2º'
+  - offset: "0x418040"
+    name: "PT-13 0x418040"
+    expected: '3º'
+  - offset: "0x418043"
+    name: "PT-13 0x418043"
+    expected: '4º'
+  - offset: "0x418046"
+    name: "PT-13 0x418046"
+    expected: '5º'
+  - offset: "0x418049"
+    name: "PT-13 0x418049"
+    expected: '6º'
+  - offset: "0x41804c"
+    name: "PT-13 0x41804c"
+    expected: '7º'
+  - offset: "0x41804f"
+    name: "PT-13 0x41804f"
+    expected: '8º'
+  - offset: "0x418052"
+    name: "PT-13 0x418052"
+    expected: '9º'
+  - offset: "0x418055"
+    name: "PT-13 0x418055"
+    expected: '10º'
+  - offset: "0x418059"
+    name: "PT-13 0x418059"
+    expected: '11º'
+  - offset: "0x41805d"
+    name: "PT-13 0x41805d"
+    expected: 'S1'
+  - offset: "0x418061"
+    name: "PT-13 0x418061"
+    expected: 'S2'
+  - offset: "0x418065"
+    name: "PT-13 0x418065"
+    expected: 'S3'
+  - offset: "0x418069"
+    name: "PT-13 0x418069"
+    expected: 'S4'
+  - offset: "0x41806d"
+    name: "PT-13 0x41806d"
+    expected: 'TERRAÇO'
+  - offset: "0x418075"
+    name: "PT-13 0x418075"
+    expected: 'Andar:'
+  - offset: "0x41807d"
+    name: "PT-13 0x41807d"
+    expected: 'JOGO EM CONEXÃO'
+  - offset: "0x41808e"
+    name: "PT-13 0x41808e"
+    expected: 'CONEXÃO DIRETA'
+  - offset: "0x41809c"
+    name: "PT-13 0x41809c"
+    expected: 'SALA DE UNIÃO'
+  - offset: "0x4180a7"
+    name: "PT-13 0x4180a7"
+    expected: 'ENERGYPOWDER<0xFC><0x13><0x74><0xFC><0x06><0x00>50'
+  - offset: "0x4180bc"
+    name: "PT-13 0x4180bc"
+    expected: 'ENERGY ROOT<0xFC><0x13><0x74><0xFC><0x06><0x00>80'
+  - offset: "0x4180d0"
+    name: "PT-13 0x4180d0"
+    expected: 'HEAL POWDER<0xFC><0x13><0x74><0xFC><0x06><0x00>50'
+  - offset: "0x4180e4"
+    name: "PT-13 0x4180e4"
+    expected: 'REVIVAL HERB<0xFC><0x13><0x6F><0xFC><0x06><0x00>300'
+  - offset: "0x4180fa"
+    name: "PT-13 0x4180fa"
+    expected: 'PROTEIN<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000'
+  - offset: "0x41810d"
+    name: "PT-13 0x41810d"
+    expected: 'IRON<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000'
+  - offset: "0x41811d"
+    name: "PT-13 0x41811d"
+    expected: 'CARBOS<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000'
+  - offset: "0x41812f"
+    name: "PT-13 0x41812f"
+    expected: 'CALCIUM<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000'
+  - offset: "0x418142"
+    name: "PT-13 0x418142"
+    expected: 'ZINC<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000'
+  - offset: "0x418152"
+    name: "PT-13 0x418152"
+    expected: 'HP UP<0xFC><0x13><0x65><0xFC><0x06><0x00>1,000'
+  - offset: "0x418163"
+    name: "PT-13 0x418163"
+    expected: 'PP UP<0xFC><0x13><0x65><0xFC><0x06><0x00>3,000'
+  - offset: "0x418174"
+    name: "PT-13 0x418174"
+    expected: '<0xFD><0x01>: RESULTADOS'
+  - offset: "0x418188"
+    name: "PT-13 0x418188"
+    expected: 'V:<0xFD><0x02> D:<0xFD><0x03> E:<0xFD><0x04>'
+  - offset: "0x4181a4"
+    name: "PT-13 0x4181a4"
+    expected: 'VIT.<0xFC><0x13><0x30>DER.<0xFC><0x13><0x60>EMP.'
+  - offset: "0x4181c3"
+    name: "PT-13 0x4181c3"
+    expected: 'O FAME CHECKER será fechado.'
+  - offset: "0x418208"
+    name: "PT-13 0x418208"
+    expected: 'Sair da Caixa.'
+  - offset: "0x41821b"
+    name: "PT-13 0x41821b"
+    expected: 'O que deseja fazer?'
+  - offset: "0x418233"
+    name: "PT-13 0x418233"
+    expected: 'Escolha um tema.'
+  - offset: "0x418248"
+    name: "PT-13 0x418248"
+    expected: 'Escolha o fundo.'
+  - offset: "0x41825c"
+    name: "PT-13 0x41825c"
+    expected: '<0xF7><0x00> em seleção.'
+  - offset: "0x41826c"
+    name: "PT-13 0x41826c"
+    expected: 'Ir para qual Caixa?'
+  - offset: "0x41827f"
+    name: "PT-13 0x41827f"
+    expected: 'Depositar em qual Caixa?'
+  - offset: "0x418295"
+    name: "PT-13 0x418295"
+    expected: '<0xF7><0x00> no depósito.'
+  - offset: "0x4182a7"
+    name: "PT-13 0x4182a7"
+    expected: 'A Caixa está cheia.'
+  - offset: "0x4182b8"
+    name: "PT-13 0x4182b8"
+    expected: 'Libertar este Pokémon?'
+  - offset: "0x4182ce"
+    name: "PT-13 0x4182ce"
+    expected: '<0xF7><0x00> em liberdade.'
+  - offset: "0x4182df"
+    name: "PT-13 0x4182df"
+    expected: 'Tchau, <0xF7><0x00>!'
+  - offset: "0x4182ec"
+    name: "PT-13 0x4182ec"
+    expected: 'Marque seu Pokémon.'
+  - offset: "0x4182ff"
+    name: "PT-13 0x4182ff"
+    expected: 'É seu último Pokémon!'
+  - offset: "0x418319"
+    name: "PT-13 0x418319"
+    expected: 'Sua equipe está cheia!'
+  - offset: "0x41832c"
+    name: "PT-13 0x41832c"
+    expected: 'Você segura um Pokémon!'
+  - offset: "0x418346"
+    name: "PT-13 0x418346"
+    expected: 'Qual vai pegar?'
+  - offset: "0x41835f"
+    name: "PT-13 0x41835f"
+    expected: 'Não pode libertar um Ovo.'
+  - offset: "0x418379"
+    name: "PT-13 0x418379"
+    expected: 'Continuar nas Caixas?'
+  - offset: "0x418392"
+    name: "PT-13 0x418392"
+    expected: '<0xF7><0x00> voltou!'
+  - offset: "0x4183a0"
+    name: "PT-13 0x4183a0"
+    expected: 'Estava preocupado com você?'
+  - offset: "0x4183ba"
+    name: "PT-13 0x4183ba"
+    expected: '<0xB0> <0xB0> <0xB0> <0xB0> <0xB0>!'
+  - offset: "0x4183c5"
+    name: "PT-13 0x4183c5"
+    expected: 'Remova o Mail.'
+  - offset: "0x4183dd"
+    name: "PT-13 0x4183dd"
+    expected: 'Dar a um Pokémon?'
+  - offset: "0x4183f0"
+    name: "PT-13 0x4183f0"
+    expected: 'Item guardado no Cube V3.'
+  - offset: "0x418408"
+    name: "PT-13 0x418408"
+    expected: 'Cube V3 cheio.'
+  - offset: "0x418419"
+    name: "PT-13 0x418419"
+    expected: 'Guardar no Cube V3?'
+  - offset: "0x418433"
+    name: "PT-13 0x418433"
+    expected: '<0xF7><0x00> equipado.'
+  - offset: "0x418443"
+    name: "PT-13 0x418443"
+    expected: 'Mudou para <0xF7><0x00>.'
+  - offset: "0x418452"
+    name: "PT-13 0x418452"
+    expected: 'Não pode guardar Mail!'
+  - offset: "0x418468"
+    name: "PT-13 0x418468"
+    expected: 'Cancelar'
+  - offset: "0x41846f"
+    name: "PT-13 0x41846f"
+    expected: 'Guardar'
+  - offset: "0x418475"
+    name: "PT-13 0x418475"
+    expected: 'Retirar'
+  - offset: "0x41847e"
+    name: "PT-13 0x41847e"
+    expected: 'Trocar'
+  - offset: "0x418484"
+    name: "PT-13 0x418484"
+    expected: 'Mover'
+  - offset: "0x418489"
+    name: "PT-13 0x418489"
+    expected: 'Colocar'
+  - offset: "0x41848f"
+    name: "PT-13 0x41848f"
+    expected: 'Resumo'
+  - offset: "0x418497"
+    name: "PT-13 0x418497"
+    expected: 'Libertar'
+  - offset: "0x41849f"
+    name: "PT-13 0x41849f"
+    expected: 'Marcar'
+  - offset: "0x4184a4"
+    name: "PT-13 0x4184a4"
+    expected: 'Nome'
+  - offset: "0x4184a9"
+    name: "PT-13 0x4184a9"
+    expected: 'Ir'
+  - offset: "0x4184ae"
+    name: "PT-13 0x4184ae"
+    expected: 'Fundo'
+  - offset: "0x4184b8"
+    name: "PT-13 0x4184b8"
+    expected: 'Pegar'
+  - offset: "0x4184bd"
+    name: "PT-13 0x4184bd"
+    expected: 'Dar'
+  - offset: "0x4184c2"
+    name: "PT-13 0x4184c2"
+    expected: 'Trocar'
+  - offset: "0x4184c9"
+    name: "PT-13 0x4184c9"
+    expected: 'Bolsa'
+  - offset: "0x4184cd"
+    name: "PT-13 0x4184cd"
+    expected: 'Info'
+  - offset: "0x4184d2"
+    name: "PT-13 0x4184d2"
+    expected: 'Cenário 1'
+  - offset: "0x4184dc"
+    name: "PT-13 0x4184dc"
+    expected: 'Cenário 2'
+  - offset: "0x4184e6"
+    name: "PT-13 0x4184e6"
+    expected: 'Cenário 3'
+  - offset: "0x4184f0"
+    name: "PT-13 0x4184f0"
+    expected: 'Outros'
+  - offset: "0x4184f9"
+    name: "PT-13 0x4184f9"
+    expected: 'Floresta'
+  - offset: "0x418500"
+    name: "PT-13 0x418500"
+    expected: 'Cidade'
+  - offset: "0x418505"
+    name: "PT-13 0x418505"
+    expected: 'Deserto'
+  - offset: "0x41850c"
+    name: "PT-13 0x41850c"
+    expected: 'Savana'
+  - offset: "0x418514"
+    name: "PT-13 0x418514"
+    expected: 'Rochedo'
+  - offset: "0x418519"
+    name: "PT-13 0x418519"
+    expected: 'Vulcão'
+  - offset: "0x418521"
+    name: "PT-13 0x418521"
+    expected: 'Neve'
+  - offset: "0x418526"
+    name: "PT-13 0x418526"
+    expected: 'Caverna'
+  - offset: "0x41852b"
+    name: "PT-13 0x41852b"
+    expected: 'Praia'
+  - offset: "0x418531"
+    name: "PT-13 0x418531"
+    expected: 'Fundo do mar'
+  - offset: "0x41853a"
+    name: "PT-13 0x41853a"
+    expected: 'Rio'
+  - offset: "0x418540"
+    name: "PT-13 0x418540"
+    expected: 'Céu'
+  - offset: "0x418544"
+    name: "PT-13 0x418544"
+    expected: 'Estrelas'
+  - offset: "0x41854a"
+    name: "PT-13 0x41854a"
+    expected: 'Centro Pokémon'
+  - offset: "0x418555"
+    name: "PT-13 0x418555"
+    expected: 'Ladrilhos'
+  - offset: "0x41855b"
+    name: "PT-13 0x41855b"
+    expected: 'Simples'
+  - offset: "0x41856c"
+    name: "PT-13 0x41856c"
+    expected: 'Retirar Pokémon'
+  - offset: "0x41857d"
+    name: "PT-13 0x41857d"
+    expected: 'Depositar Pokémon'
+  - offset: "0x41858d"
+    name: "PT-13 0x41858d"
+    expected: 'Mover Pokémon'
+  - offset: "0x41859a"
+    name: "PT-13 0x41859a"
+    expected: 'Mover itens'
+  - offset: "0x4185a5"
+    name: "PT-13 0x4185a5"
+    expected: 'Até mais!'
+  - offset: "0x4185ad"
+    name: "PT-13 0x4185ad"
+    expected: 'Retire um Pokémon que esteja\nguardado em uma Caixa.'
+  - offset: "0x4185e2"
+    name: "PT-13 0x4185e2"
+    expected: 'Deposite os Pokémon da sua\nequipe em qualquer Caixa.'
+  - offset: "0x418611"
+    name: "PT-13 0x418611"
+    expected: 'Mova os Pokémon guardados\nem qualquer Caixa.'
+  - offset: "0x418642"
+    name: "PT-13 0x418642"
+    expected: 'Mova itens dos Pokémon\ndas Caixas ou da sua equipe.'
+  - offset: "0x418681"
+    name: "PT-13 0x418681"
+    expected: 'Até a próxima!'
+  - offset: "0x418690"
+    name: "PT-13 0x418690"
+    expected: 'Não pode depositar o último!'
+  - offset: "0x4186b0"
+    name: "PT-13 0x4186b0"
+    expected: 'Não pode pegar mais Pokémon.'
+  - offset: "0x4186cd"
+    name: "PT-13 0x4186cd"
+    expected: 'Caixa'
+  - offset: "0x4186d1"
+    name: "PT-13 0x4186d1"
+    expected: 'Combine quatro palavras ou frases'
+  - offset: "0x4186ef"
+    name: "PT-13 0x4186ef"
+    expected: 'e crie seu perfil.'
+  - offset: "0x418706"
+    name: "PT-13 0x418706"
+    expected: 'Crie uma mensagem de seis frases.'
+  - offset: "0x418725"
+    name: "PT-13 0x418725"
+    expected: 'Duas frases de 12 letras/linha.'
+  - offset: "0x418745"
+    name: "PT-13 0x418745"
+    expected: 'Ache palavras que descrevam seus'
+  - offset: "0x418763"
+    name: "PT-13 0x418763"
+    expected: 'sentimentos atuais.'
+  - offset: "0x418780"
+    name: "PT-13 0x418780"
+    expected: 'Combine nove palavras ou frases'
+  - offset: "0x41879e"
+    name: "PT-13 0x41879e"
+    expected: 'e crie uma mensagem.'
+  - offset: "0x4187b2"
+    name: "PT-13 0x4187b2"
+    expected: 'Mude só uma palavra ou frase'
+  - offset: "0x4187d1"
+    name: "PT-13 0x4187d1"
+    expected: 'e melhore a canção do BARDO.'
+  - offset: "0x4187ee"
+    name: "PT-13 0x4187ee"
+    expected: 'e preencha o questionário.'
+  - offset: "0x41880e"
+    name: "PT-13 0x41880e"
+    expected: 'Seu perfil'
+  - offset: "0x41881b"
+    name: "PT-13 0x41881b"
+    expected: 'Seu sentimento ao iniciar a luta'
+  - offset: "0x41883e"
+    name: "PT-13 0x41883e"
+    expected: 'O que diz ao vencer uma batalha'
+  - offset: "0x41885f"
+    name: "PT-13 0x41885f"
+    expected: 'O que diz ao perder uma batalha'
+  - offset: "0x418881"
+    name: "PT-13 0x418881"
+    expected: 'A resposta'
+  - offset: "0x41888c"
+    name: "PT-13 0x41888c"
+    expected: 'A mensagem do Mail'
+  - offset: "0x4188ac"
+    name: "PT-13 0x4188ac"
+    expected: 'A nova canção'
+  - offset: "0x4188b9"
+    name: "PT-13 0x4188b9"
+    expected: 'Combine duas palavras ou frases'
+  - offset: "0x4188d6"
+    name: "PT-13 0x4188d6"
+    expected: 'e crie uma expressão da moda.'
+  - offset: "0x4188f0"
+    name: "PT-13 0x4188f0"
+    expected: 'A expressão da moda'
+  - offset: "0x418902"
+    name: "PT-13 0x418902"
+    expected: 'está assim. Certo?'
+  - offset: "0x418937"
+    name: "PT-13 0x418937"
+    expected: 'Todo o texto em edição será'
+  - offset: "0x418956"
+    name: "PT-13 0x418956"
+    expected: 'apagado. Tudo bem?'
+  - offset: "0x4189e0"
+    name: "PT-13 0x4189e0"
+    expected: 'Parar a edição?'
+  - offset: "0x4189ee"
+    name: "PT-13 0x4189ee"
+    expected: 'Parar de dar Mail ao Pokémon?'
+  - offset: "0x418a2b"
+    name: "PT-13 0x418a2b"
+    expected: 'PERFIL'
+  - offset: "0x418a33"
+    name: "PT-13 0x418a33"
+    expected: 'Ao iniciar a batalha:'
+  - offset: "0x418a4a"
+    name: "PT-13 0x418a4a"
+    expected: 'Ao vencer a batalha:'
+  - offset: "0x418a61"
+    name: "PT-13 0x418a61"
+    expected: 'Ao perder a batalha:'
+  - offset: "0x418a77"
+    name: "PT-13 0x418a77"
+    expected: 'Canção do BARDO'
+  - offset: "0x418a87"
+    name: "PT-13 0x418a87"
+    expected: 'O que está na moda?'
+  - offset: "0x418aa1"
+    name: "PT-13 0x418aa1"
+    expected: 'Entrevista'
+  - offset: "0x418c1b"
+    name: "PT-13 0x418c1b"
+    expected: 'CENTRO POKÉMON'
+  - offset: "0x418c83"
+    name: "PT-13 0x418c83"
+    expected: 'Falha ao salvar.\nVerificando a memória...\nAguarde.\n“Tempo necessário:\ncerca de 1 minuto”'
+  - offset: "0x418cd9"
+    name: "PT-13 0x418cd9"
+    expected: 'A memória está danificada\nou a bateria se esgotou.\nÉ possível jogar, mas não\nsalvar seu progresso.\n“Pressione o botão A.”'
+  - offset: "0x418e09"
+    name: "PT-13 0x418e09"
+    expected: 'Jogo salvo.\n“Pressione o botão A.”'
+  - offset: "0x418e47"
+    name: "PT-13 0x418e47"
+    expected: 'Seu nome?'
+  - offset: "0x418e52"
+    name: "PT-13 0x418e52"
+    expected: 'Nome da Caixa?'
+  - offset: "0x418e5c"
+    name: "PT-13 0x418e5c"
+    expected: ': apelido?'
+  - offset: "0x418e69"
+    name: "PT-13 0x418e69"
+    expected: 'Nome do rival?'
+  - offset: "0x418e77"
+    name: "PT-13 0x418e77"
+    expected: '<0xF8><0x0C>Mover <0xF8><0x00>OK <0xF8><0x01>Voltar'
+  - offset: "0x418e8d"
+    name: "PT-13 0x418e8d"
+    expected: '<0xF8><0x00>Guia'
+  - offset: "0x418e95"
+    name: "PT-13 0x418e95"
+    expected: '<0xF8><0x00>Cancelar'
+  - offset: "0x418e9e"
+    name: "PT-13 0x418e9e"
+    expected: '<0xF8><0x00>Cancelar'
+  - offset: "0x418ea7"
+    name: "PT-13 0x418ea7"
+    expected: '<0xF8><0x00>Trocar'
+  - offset: "0x418eb0"
+    name: "PT-13 0x418eb0"
+    expected: '<0xF8><0x00>OK'
+  - offset: "0x418eb5"
+    name: "PT-13 0x418eb5"
+    expected: '<0xF8><0x0C>Mover'
+  - offset: "0x418ebc"
+    name: "PT-13 0x418ebc"
+    expected: '<0xF8><0x0A>Escolher'
+  - offset: "0x418ec3"
+    name: "PT-13 0x418ec3"
+    expected: 'Sem dados'
+  - offset: "0x418ecb"
+    name: "PT-13 0x418ecb"
+    expected: 'Uma floresta vasta e densa\nao redor de VIRIDIAN CITY.\nUm labirinto natural onde\nmuitos acabam se perdendo.'
+  - offset: "0x418f3a"
+    name: "PT-13 0x418f3a"
+    expected: 'Uma montanha mística com\nfrequentes quedas de meteoros.\nOs fragmentos de estrelas\nsão chamados de MOON STONES.'
+  - offset: "0x418fb8"
+    name: "PT-13 0x418fb8"
+    expected: 'Um túnel de aparência comum,\nescavado por DIGLETT selvagens.\nÉ famoso por ligar as\nROTAS 2 e 11.'
+  - offset: "0x41901c"
+    name: "PT-13 0x41901c"
+    expected: 'Um túnel situado na ROTA 23.\nSeu nome vem de ser passagem\nobrigatória aos Treinadores\nque almejam o topo.'
+  - offset: "0x41908e"
+    name: "PT-13 0x41908e"
+    expected: 'Uma mansão em ruínas, queimada,\nem CINNABAR ISLAND.\nTem esse nome porque um famoso\npesquisador Pokémon morou ali.'
+  - offset: "0x419103"
+    name: "PT-13 0x419103"
+    expected: 'Um parque perto de FUCHSIA CITY\ncom muitos Pokémon raros\npara observar na natureza.\nCapture-os num jogo popular!'
+  - offset: "0x41917d"
+    name: "PT-13 0x41917d"
+    expected: 'Um túnel subterrâneo natural.\nComo não foi desenvolvido,\nseu interior é muito escuro.\nÉ preciso luz para atravessá-lo.'
+  - offset: "0x419201"
+    name: "PT-13 0x419201"
+    expected: 'Duas ilhas situadas na ROTA 20.\nAs duas possuem o mesmo\nformato, como se fossem\nilhas gêmeas.'
+  - offset: "0x41926d"
+    name: "PT-13 0x41926d"
+    expected: 'Uma torre com túmulos de\nincontáveis Pokémon.\nMuitos a visitam diariamente\npara homenagear os falecidos.'
+  - offset: "0x4192e2"
+    name: "PT-13 0x4192e2"
+    expected: 'Uma caverna misteriosa, cheia\nde Pokémon muito fortes.\nÉ tão perigosa que está\nsob os cuidados da LIGA POKÉMON.'
+  - offset: "0x41935b"
+    name: "PT-13 0x41935b"
+    expected: 'Uma usina abandonada há anos,\nmas algumas de suas máquinas\nainda funcionam. É infestada\nde Pokémon elétricos.'
+  - offset: "0x4193d5"
+    name: "PT-13 0x4193d5"
+    expected: 'Um vulcão supostamente inativo.\nPorém, há relatos frequentes\nde que seu pico arde em\nchamas durante a noite.'
+  - offset: "0x419444"
+    name: "PT-13 0x419444"
+    expected: 'Uma floresta perto de\nTHREE ISLAND. BERRIES crescem\nem profusão, repondo depressa\nas que caem.'
+  - offset: "0x4194c9"
+    name: "PT-13 0x4194c9"
+    expected: 'Uma caverna coberta de água\ne gelo em FOUR ISLAND.\nParece que o final da caverna\nestá ligado ao oceano.'
+  - offset: "0x41953f"
+    name: "PT-13 0x41953f"
+    expected: 'Uma caverna confusa perto\nde RESORT GORGEOUS.\nAlguns curiosos em busca de\nemoção nunca saíram dela.'
+  - offset: "0x4195ac"
+    name: "PT-13 0x4195ac"
+    expected: 'Uma ruína antiga onde dizem\nhabitar um Pokémon peculiar.\nPorém, até hoje o Pokémon\ncontinua sendo só um rumor.'
+  - offset: "0x419629"
+    name: "PT-13 0x419629"
+    expected: 'Esta ilha tem esse nome\ndesde um passado distante.\nHoje, ninguém sabe de onde\nveio esse nome.'
+  - offset: "0x41969d"
+    name: "PT-13 0x41969d"
+    expected: 'Uma área de vegetação densa.\nHá desenhos onde a grama\nnão cresce. Alguns a estudam\npor crer que oculta um segredo.'
+  - offset: "0x41971a"
+    name: "PT-13 0x41971a"
+    expected: 'Uma ruína misteriosa recém-\ndescoberta, de tempos antigos.\nSeu nome vem dos seis pontos\nem sua porta.'
+  - offset: "0x419782"
+    name: "PT-13 0x419782"
+    expected: '<0xF7><0x00> por natureza.\nVeio de uma troca.'
+  - offset: "0x41979d"
+    name: "PT-13 0x41979d"
+    expected: '<0xF7><0x00> por natureza.\nVeio de uma troca.'
+  - offset: "0x4197b8"
+    name: "PT-13 0x4197b8"
+    expected: '<0xF7><0x00> por natureza.\nEncontro predestinado\nno <0xF9><0x05> <0xF7><0x01>.'
+  - offset: "0x4197ed"
+    name: "PT-13 0x4197ed"
+    expected: '<0xF7><0x00> por natureza.\nEncontro predestinado\nno <0xF9><0x05> <0xF7><0x01>.'
+  - offset: "0x419822"
+    name: "PT-13 0x419822"
+    expected: '<0xF7><0x00> por natureza.\nEm <0xF7><0x02>, <0xF9><0x05> <0xF7><0x01>.'
+  - offset: "0x419841"
+    name: "PT-13 0x419841"
+    expected: '<0xF7><0x00> por natureza.\nEm <0xF7><0x02>, <0xF9><0x05> <0xF7><0x01>.'
+  - offset: "0x419860"
+    name: "PT-13 0x419860"
+    expected: '<0xF7><0x00> por natureza.\nParece vir de <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>.'
+  - offset: "0x41988a"
+    name: "PT-13 0x41988a"
+    expected: '<0xF7><0x00> por natureza.\nParece vir de <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>.'
+  - offset: "0x4198b4"
+    name: "PT-13 0x4198b4"
+    expected: '<0xF7><0x00> por natureza.\nChocou em <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>.'
+  - offset: "0x4198d5"
+    name: "PT-13 0x4198d5"
+    expected: '<0xF7><0x00> por natureza.\nChocou em <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>.'
+  - offset: "0x41992f"
+    name: "PT-13 0x41992f"
+    expected: '<0xF7><0x00>: encontro predestinado\n(chocou em <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>).'
+  - offset: "0x41996d"
+    name: "PT-13 0x41996d"
+    expected: '<0xF7><0x00>: encontro predestinado\n(chocou em <0xF7><0x02>\nno <0xF9><0x05> <0xF7><0x01>).'
+  - offset: "0x4199ab"
+    name: "PT-13 0x4199ab"
+    expected: '<0xF7><0x00>: parece predestinado\no encontro (chocou em\n<0xF7><0x02>, <0xF9><0x05> <0xF7><0x01>).'
+  - offset: "0x4199f4"
+    name: "PT-13 0x4199f4"
+    expected: '<0xF7><0x00>: parece predestinado\no encontro (chocou em\n<0xF7><0x02>, <0xF9><0x05> <0xF7><0x01>).'
+  - offset: "0x419a3d"
+    name: "PT-13 0x419a3d"
+    expected: 'Um Ovo Pokémon estranho achado\npelo casal do Day-Care.'
+  - offset: "0x419aa2"
+    name: "PT-13 0x419aa2"
+    expected: 'Um Ovo Pokémon muito peculiar\nobtido num lugar agradável.'
+  - offset: "0x419ade"
+    name: "PT-13 0x419ade"
+    expected: 'Um Ovo Pokémon estranho obtido\nde uma senhora no SPA.'
+  - offset: "0x419b18"
+    name: "PT-13 0x419b18"
+    expected: 'Um Ovo Pokémon peculiar obtido\nem uma troca.'
+  - offset: "0x419b44"
+    name: "PT-13 0x419b44"
+    expected: 'Parece que este\nOvo vai demorar\nmuito a chocar.'
+  - offset: "0x419b7b"
+    name: "PT-13 0x419b7b"
+    expected: 'O que vai nascer?\nAinda vai levar\nalgum tempo.'
+  - offset: "0x419bae"
+    name: "PT-13 0x419bae"
+    expected: 'Às vezes se move.\nDeve chocar\nem breve.'
+  - offset: "0x419bdb"
+    name: "PT-13 0x419bdb"
+    expected: 'Está fazendo sons.\nEstá quase pronto\npara chocar!'
+  - offset: "0x419c0b"
+    name: "PT-13 0x419c0b"
+    expected: 'uma troca'
+  - offset: "0x419c1d"
+    name: "PT-13 0x419c1d"
+    expected: 'Dados Pokémon'
+  - offset: "0x419c2a"
+    name: "PT-13 0x419c2a"
+    expected: 'Atributos'
+  - offset: "0x419c39"
+    name: "PT-13 0x419c39"
+    expected: 'Movimentos'
+  - offset: "0x419c45"
+    name: "PT-13 0x419c45"
+    expected: 'Sem dados'
+  - offset: "0x419c5a"
+    name: "PT-13 0x419c5a"
+    expected: 'Confirmar'
+  - offset: "0x419c62"
+    name: "PT-13 0x419c62"
+    expected: '<0xF8><0x09>Pág. <0xF8><0x00>Sair'
+  - offset: "0x419c72"
+    name: "PT-13 0x419c72"
+    expected: '<0xF8><0x00>Sair'
+  - offset: "0x419c7b"
+    name: "PT-13 0x419c7b"
+    expected: '<0xF8><0x0B>Pág.'
+  - offset: "0x419c82"
+    name: "PT-13 0x419c82"
+    expected: '<0xF8><0x08>Pág. <0xF8><0x00>Detalhe'
+  - offset: "0x419c92"
+    name: "PT-13 0x419c92"
+    expected: '<0xF8><0x0A>Escolher <0xF8><0x00>Trocar'
+  - offset: "0x419ca2"
+    name: "PT-13 0x419ca2"
+    expected: '<0xF8><0x0A>Escolher'
+  - offset: "0x419ca9"
+    name: "PT-13 0x419ca9"
+    expected: '<0xF8><0x0A>Escolher <0xF8><0x00>APAGAR'
+  - offset: "0x419cb9"
+    name: "PT-13 0x419cb9"
+    expected: 'Não pode esquecer\nmovimentos HM agora.'
+  - offset: "0x419cda"
+    name: "PT-13 0x419cda"
+    expected: 'Nome:<0x00>'
+  - offset: "0x419ce1"
+    name: "PT-13 0x419ce1"
+    expected: 'Nº ID'
+  - offset: "0x419cef"
+    name: "PT-13 0x419cef"
+    expected: 'Pokédex'
+  - offset: "0x419cfd"
+    name: "PT-13 0x419cfd"
+    expected: 'TEMPO'
+  - offset: "0x419d0a"
+    name: "PT-13 0x419d0a"
+    expected: ': Cartão de Treinador'
+  - offset: "0x419d1a"
+    name: "PT-13 0x419d1a"
+    expected: 'ESTREIA NO HALL DA FAMA'
+  - offset: "0x419d2f"
+    name: "PT-13 0x419d2f"
+    expected: 'LUTAS LINK'
+  - offset: "0x419d3c"
+    name: "PT-13 0x419d3c"
+    expected: 'LUTAS VIA CABO LINK'
+  - offset: "0x419d4f"
+    name: "PT-13 0x419d4f"
+    expected: 'V:<0xFC><0x13><0x30>D:'
+  - offset: "0x419d57"
+    name: "PT-13 0x419d57"
+    expected: 'TROCAS POKÉMON'
+  - offset: "0x419d66"
+    name: "PT-13 0x419d66"
+    expected: 'TROCAS E LUTAS UNIÃO'
+  - offset: "0x419d7d"
+    name: "PT-13 0x419d7d"
+    expected: 'BERRY CRUSH'
+  - offset: "0x419d89"
+    name: "PT-13 0x419d89"
+    expected: 'Aguarde o outro Treinador\nterminar de ler seu Cartão.'
+  - offset: "0x419dcc"
+    name: "PT-13 0x419dcc"
+    expected: 'Opções'
+  - offset: "0x419dd3"
+    name: "PT-13 0x419dd3"
+    expected: 'Veloc. texto'
+  - offset: "0x419dde"
+    name: "PT-13 0x419dde"
+    expected: 'Cena de luta'
+  - offset: "0x419deb"
+    name: "PT-13 0x419deb"
+    expected: 'Estilo de luta'
+  - offset: "0x419df8"
+    name: "PT-13 0x419df8"
+    expected: 'Som'
+  - offset: "0x419dfe"
+    name: "PT-13 0x419dfe"
+    expected: 'Modo botões'
+  - offset: "0x419e0a"
+    name: "PT-13 0x419e0a"
+    expected: 'Moldura'
+  - offset: "0x419e17"
+    name: "PT-13 0x419e17"
+    expected: 'Lento'
+  - offset: "0x419e1c"
+    name: "PT-13 0x419e1c"
+    expected: 'Méd.'
+  - offset: "0x419e20"
+    name: "PT-13 0x419e20"
+    expected: 'Rápido'
+  - offset: "0x419e25"
+    name: "PT-13 0x419e25"
+    expected: 'Sim'
+  - offset: "0x419e28"
+    name: "PT-13 0x419e28"
+    expected: 'Não'
+  - offset: "0x419e2c"
+    name: "PT-13 0x419e2c"
+    expected: 'Trocar'
+  - offset: "0x419e32"
+    name: "PT-13 0x419e32"
+    expected: 'Fixo'
+  - offset: "0x419e36"
+    name: "PT-13 0x419e36"
+    expected: 'Mono'
+  - offset: "0x419e3b"
+    name: "PT-13 0x419e3b"
+    expected: 'Estéreo'
+  - offset: "0x419e46"
+    name: "PT-13 0x419e46"
+    expected: 'Ajuda'
+  - offset: "0x419e4b"
+    name: "PT-13 0x419e4b"
+    expected: 'L=A'
+  - offset: "0x419e4f"
+    name: "PT-13 0x419e4f"
+    expected: 'LR'
+  - offset: "0x419e52"
+    name: "PT-13 0x419e52"
+    expected: 'Tipo'
+  - offset: "0x419e57"
+    name: "PT-13 0x419e57"
+    expected: '<0xF8><0x0A>ESC. <0xF8><0x0B>TROCAR <0xF8><0x00><0xF8><0x01>Cancelar'
+  - offset: "0x419f54"
+    name: "PT-13 0x419f54"
+    expected: 'SALVANDO...\nNÃO DESLIGUE O APARELHO.'
+  - offset: "0x419f76"
+    name: "PT-13 0x419f76"
+    expected: 'Registra os segredos dos Pokémon\nao encontrá-los ou capturá-los.'
+  - offset: "0x419fbb"
+    name: "PT-13 0x419fbb"
+    expected: 'Veja e organize os Pokémon\nque viajam na sua equipe.'
+  - offset: "0x41a001"
+    name: "PT-13 0x41a001"
+    expected: 'Guarda os itens que você comprou,\nrecebeu ou encontrou.'
+  - offset: "0x41a049"
+    name: "PT-13 0x41a049"
+    expected: 'Veja seu dinheiro e outros dados.'
+  - offset: "0x41a06f"
+    name: "PT-13 0x41a06f"
+    expected: 'Salve todo o seu progresso\npara fazer uma pausa.'
+  - offset: "0x41a0b7"
+    name: "PT-13 0x41a0b7"
+    expected: 'Ajuste a velocidade do texto,\nas regras e outras opções.'
+  - offset: "0x41a0f9"
+    name: "PT-13 0x41a0f9"
+    expected: 'Feche esta janela de Menu.'
+  - offset: "0x41a111"
+    name: "PT-13 0x41a111"
+    expected: 'Saia do JOGO SAFARI e volte\nao balcão de inscrição.'
+  - offset: "0x41a155"
+    name: "PT-13 0x41a155"
+    expected: 'Antes, em sua jornada...'
+  - offset: "0x41a16f"
+    name: "PT-13 0x41a16f"
+    expected: '<0xFD><0x01> trocou o Pokémon\n<0xFD><0x02> por <0xFD><0x03>.'
+  - offset: "0x41a193"
+    name: "PT-13 0x41a193"
+    expected: 'Tirou o item <0xFD><0x03> de\n<0xFD><0x02> e lhe deu o item\n<0xFD><0x04> para segurar.'
+  - offset: "0x41a1cd"
+    name: "PT-13 0x41a1cd"
+    expected: 'Tirou o item <0xFD><0x03> de\n<0xFD><0x02>.'
