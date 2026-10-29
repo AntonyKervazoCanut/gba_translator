@@ -18027,3 +18027,804 @@ entries:
   - offset: "0x7d617a"
     name: "PT-26 0x7d617a"
     expected: '<0xFC><0x01><0x02>Arceus: <0xFC><0x01><0x08>...SIM.<0xFB>É HORA DO SEU JULGAMENTO.'
+  - offset: "0x7f518d"
+    name: "PT-29 0x7f518d"
+    expected: 'Aklove: <0xFC><0x01><0x08>Queime logo no\nCinder Volcano.<0xFB>É o que merece pelas vidas\nque reduziu a cinzas.'
+  - offset: "0x7f5200"
+    name: "PT-29 0x7f5200"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>Você... o matou!'
+  - offset: "0x7f521d"
+    name: "PT-29 0x7f521d"
+    expected: 'Aklove: <0xFC><0x01><0x08>Ele mereceu.<0xFB>O sangue de todas as suas\nvítimas foi vingado.'
+  - offset: "0x7f527b"
+    name: "PT-29 0x7f527b"
+    expected: 'Marlon: <0xFC><0x01><0x08>Não...<0xFB>Zeph fez muita coisa errada,\nmas seu coração<0xFA>estava no lugar certo.<0xFB>Já você pretende tirar\nmais vidas do que Zeph<0xFA>jamais tirou.<0xFB>Você é o verdadeiro vilão.'
+  - offset: "0x7f5342"
+    name: "PT-29 0x7f5342"
+    expected: 'Aklove: <0xFC><0x01><0x08>É você, Marlon?<0xFB>Não o reconheci sem\nseu disfarce.<0xFB>Véga disse que você e <0xFD><0x01>\nvoltaram dos mortos. Agora,<0xFA>tenho um jeito bem melhor<0xFA>de me livrar dos dois.'
+  - offset: "0x7f5401"
+    name: "PT-29 0x7f5401"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>Não!\nEu precisava de respostas!<0xFB>Para onde o mandou?<0xFB>Me diga!'
+  - offset: "0x7f5448"
+    name: "PT-29 0x7f5448"
+    expected: 'Aklove: <0xFC><0x01><0x08>Só o mandei para uma\nilha remota em algum lugar<0xFA>no meio do oceano.<0xFB>Mesmo que ele não morra,\nisso me dá tempo de pôr meu<0xFA>plano em prática até ele voltar.<0xFB>Se é que ele vai voltar...'
+  - offset: "0x7f5522"
+    name: "PT-29 0x7f5522"
+    expected: '<0xFC><0x01><0x08>Não sei quem é você, de vermelho,\nmas vou lhe dar uma chance<0xFA>de ir embora agora.<0xFB>Você ainda não me irritou muito,\nentão não preciso tirar sua vida.<0xFB>Você deve viver para\nver meu grande final.'
+  - offset: "0x7f55f4"
+    name: "PT-29 0x7f55f4"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>De jeito nenhum!<0xFB>Eu vim aqui derrotar a\nLight of Ruin, e é isso<0xFA>que vou fazer!'
+  - offset: "0x7f564f"
+    name: "PT-29 0x7f564f"
+    expected: 'Aklove: <0xFC><0x01><0x08>Mande-o para casa, Hoopa.'
+  - offset: "0x7f5670"
+    name: "PT-29 0x7f5670"
+    expected: 'Hoopa: <0xFC><0x01><0x06>Hoop!'
+  - offset: "0x7f5680"
+    name: "PT-29 0x7f5680"
+    expected: '<0xFC><0x01><0x08><0xFD><0x01>, <0xFD><0x01>, <0xFD><0x01>.<0xFB>Só resta você agora.<0xFB>Vai tentar me impedir\nou vai fugir?'
+  - offset: "0x7f56f1"
+    name: "PT-29 0x7f56f1"
+    expected: 'Ficar e lutar'
+  - offset: "0x7f5700"
+    name: "PT-29 0x7f5700"
+    expected: 'Fugir'
+  - offset: "0x7f5709"
+    name: "PT-29 0x7f5709"
+    expected: '<0xFC><0x01><0x08>Você tem coragem, <0xFD><0x01>.<0xFB>Se é uma luta que quer,\né uma luta que vai ter!'
+  - offset: "0x7f5754"
+    name: "PT-29 0x7f5754"
+    expected: '<0xFC><0x01><0x08>Não há saída, <0xFD><0x01>!<0xFB>Vou me livrar de você hoje,\nde um jeito ou de outro!<0xFB>Mas antes, preciso que veja\no poder que possuo!'
+  - offset: "0x7f57ec"
+    name: "PT-29 0x7f57ec"
+    expected: '<0xFC><0x01><0x08>Hoopa!<0xFB>Mostre a <0xFD><0x01> o que ele\nestá enfrentando!'
+  - offset: "0x7f5821"
+    name: "PT-29 0x7f5821"
+    expected: '<0xFC><0x01><0x08>Hoopa!<0xFB>Mostre a <0xFD><0x01> o que ela\nestá enfrentando!'
+  - offset: "0x7f5857"
+    name: "PT-29 0x7f5857"
+    expected: 'Falta poder...'
+  - offset: "0x7f5869"
+    name: "PT-29 0x7f5869"
+    expected: 'Agora vê o verdadeiro poder\ndo seu inimigo.'
+  - offset: "0x7f589b"
+    name: "PT-29 0x7f589b"
+    expected: '<0xFC><0x01><0x08>De que serviu todo aquele\ntreino em Hoenn se você<0xFA>não vence nem um Treinador?!'
+  - offset: "0x7f58ff"
+    name: "PT-29 0x7f58ff"
+    expected: '<0xFC><0x01><0x08>Não vou tolerar seu fedor\npor mais tempo!'
+  - offset: "0x7f5932"
+    name: "PT-29 0x7f5932"
+    expected: '<0xFC><0x01><0x08>Agora você entende.<0xFB>Você nunca teve chance\ncontra mim.<0xFB>Mas ainda é uma ameaça\ngrande demais para ficar aqui.<0xFB>Não posso mais permitir\nsua presença neste mundo!'
+  - offset: "0x7f59db"
+    name: "PT-29 0x7f59db"
+    expected: '<0xFC><0x01><0x08>Vou mandar você para o lugar\nde onde jamais voltará!'
+  - offset: "0x7f5a1f"
+    name: "PT-29 0x7f5a1f"
+    expected: '<0xFC><0x01><0x08>Hoopa!<0xFB>Mande <0xFD><0x01> ao seu amigo!'
+  - offset: "0x7f5a45"
+    name: "PT-29 0x7f5a45"
+    expected: '<0xFC><0x01><0x08>Hoopa!<0xFB>Mande <0xFD><0x01> ao seu amigo!'
+  - offset: "0x7f5a6b"
+    name: "PT-29 0x7f5a6b"
+    expected: 'Hoopa: <0xFC><0x01><0x06>Hoo... hoo... pa!'
+  - offset: "0x7f5ae0"
+    name: "PT-29 0x7f5ae0"
+    expected: '<0xFC><0x01><0x08>Este lugar...<0xFB>Você sente?\nNão há nenhum Pokémon aqui.<0xFB>O tempo não passa.\nE o espaço é instável.<0xFB>Um mundo sem regras.<0xFB>Meu avô já me falou\nde um mundo assim.<0xFB>Ele disse que é uma espécie de\nmundo distorcido...<0xFB>Governado por um só Pokémon...<0xFB>Giratina...'
+  - offset: "0x7f5bfd"
+    name: "PT-29 0x7f5bfd"
+    expected: '<0xFC><0x01><0x08>Vamos achar Giratina.<0xFB>Talvez ele nos mostre a saída.'
+  - offset: "0x7f5ca1"
+    name: "PT-29 0x7f5ca1"
+    expected: '<0xFC><0x01><0x08>Veremos Giratina se\ncontinuarmos descendo?<0xFB>...No Distortion World, será\nque estamos mesmo descendo?'
+  - offset: "0x7f5d1e"
+    name: "PT-29 0x7f5d1e"
+    expected: '<0xFC><0x01><0x08>Esta laje de pedra...<0xFB>Parece se mover quando\npisamos num certo ponto...'
+  - offset: "0x7f5daf"
+    name: "PT-29 0x7f5daf"
+    expected: 'Poucos ainda se lembram\nda lenda de Giratina...<0xFB>A lenda fala de um mundo\ndo outro lado do nosso. Este.<0xFB>Por que este mundo existe?\nPor que Giratina está só aqui?<0xFB>Há tanto que não dá\npara explicar...'
+  - offset: "0x7f5e95"
+    name: "PT-29 0x7f5e95"
+    expected: 'Vamos nos separar.\nTemos que achar o caminho certo.'
+  - offset: "0x7f5ef3"
+    name: "PT-29 0x7f5ef3"
+    expected: '<0xFC><0x01><0x08>É intuição de Treinador,\nmas estamos perto.<0xFB>Vamos continuar!'
+  - offset: "0x7f5fcf"
+    name: "PT-29 0x7f5fcf"
+    expected: '<0xFC><0x01><0x08>É aqui...\nGiratina está logo à frente.'
+  - offset: "0x7f60d7"
+    name: "PT-29 0x7f60d7"
+    expected: '<0xFC><0x01><0x08>Você achou o caminho\ncerto, <0xFD><0x01>.<0xFB>Ainda bem que alcancei\nvocê.<0xFB>Vamos seguir juntos.'
+  - offset: "0x7f62f0"
+    name: "PT-29 0x7f62f0"
+    expected: 'Vamos encontrar Giratina.<0xFB>...Opa, antes vou curar\nseus Pokémon.'
+  - offset: "0x7f6331"
+    name: "PT-29 0x7f6331"
+    expected: 'Jax curou o time de <0xFD><0x01>\npor completo.'
+  - offset: "0x7f6350"
+    name: "PT-29 0x7f6350"
+    expected: 'Agora vamos encontrar Giratina!'
+  - offset: "0x7f636c"
+    name: "PT-29 0x7f636c"
+    expected: 'Não há o que temer de\nGiratina.<0xFB>Ele governa este mundo,\nmas sei que pode vencê-lo e<0xFA>mostrar o forte laço entre<0xFA>você e seus Pokémon!<0xFB>Se conseguir, Giratina\nvai nos entender.<0xFB>Ele nos mostrará a saída!'
+  - offset: "0x7f6452"
+    name: "PT-29 0x7f6452"
+    expected: 'Há um portal onde\nGiratina estava.<0xFB>Quer saltar para dentro dele?'
+  - offset: "0x7f6497"
+    name: "PT-29 0x7f6497"
+    expected: '<0xFD><0x01> saltou no portal.'
+  - offset: "0x7f691e"
+    name: "PT-29 0x7f691e"
+    expected: '<0xFC><0x01><0x06>Giygogagohgwooh!'
+  - offset: "0x7f6932"
+    name: "PT-29 0x7f6932"
+    expected: 'Jax: <0xFC><0x01><0x08>Giratina parece ter\nnos entendido!'
+  - offset: "0x7f6960"
+    name: "PT-29 0x7f6960"
+    expected: '<0xFC><0x01><0x08>Vamos voltar para casa.<0xFB>O portal onde Giratina estava\ndeve levar ao nosso mundo.<0xFB>A lenda dizia que Giratina\nvivia do outro lado do nosso<0xFA>mundo.<0xFB>É lógico que ele tenha\num elo com o outro lado.'
+  - offset: "0x7f6aca"
+    name: "PT-29 0x7f6aca"
+    expected: 'Jax: <0xFC><0x01><0x08>...Este lugar?!'
+  - offset: "0x7f6ae0"
+    name: "PT-29 0x7f6ae0"
+    expected: '<0xFC><0x01><0x08>É Rift Cave...<0xFB>Dizem que tem alguma\nligação com o além...<0xFB>E dizem que Giratina vive\nnum mundo oposto ao nosso...'
+  - offset: "0x7f6b6d"
+    name: "PT-29 0x7f6b6d"
+    expected: '<0xFC><0x01><0x08>Então isso deve significar\nque voltamos ao nosso mundo.<0xFB>Não sei como agradecer\npor me tirar daquele lugar.<0xFB>Mas agora precisamos focar.<0xFB>É hora de achar The Shadows e\nacabar com seu plano maligno!<0xFB>...<0xFB>O quê?\nThe Shadows já acabou?<0xFB>Mas há uma nova ameaça\nem Vivill Town?<0xFB>Não há tempo a perder!\nVamos para Vivill Town!'
+  - offset: "0x7f6e4c"
+    name: "PT-29 0x7f6e4c"
+    expected: 'Algo invisível bloqueia o caminho.'
+  - offset: "0x7f6e6f"
+    name: "PT-29 0x7f6e6f"
+    expected: '???: <0xFC><0x01><0x08>Saia, criança!<0xFB>Está bloqueando a estrada!'
+  - offset: "0x7f6e9c"
+    name: "PT-29 0x7f6e9c"
+    expected: '<0xFC><0x01><0x08>Hã?<0xFB>Tem algo no caminho?<0xFB>É bom que não seja aquele\nPokémon de novo...'
+  - offset: "0x7f6ee7"
+    name: "PT-29 0x7f6ee7"
+    expected: '<0xFC><0x01><0x08>Pegue isto.<0xFB>Deve remover o que quer\nque esteja bloqueando a estrada.'
+  - offset: "0x7f6f28"
+    name: "PT-29 0x7f6f28"
+    expected: '<0xFC><0x01><0x08>Fale com o obstáculo agora.'
+  - offset: "0x7f6f4c"
+    name: "PT-29 0x7f6f4c"
+    expected: 'Algo invisível está no caminho.<0xFB>Quer usar o Devon Scope?'
+  - offset: "0x7f6f8c"
+    name: "PT-29 0x7f6f8c"
+    expected: '<0xFD><0x01> usou o Devon Scope.<0xFB>Um Pokémon invisível ficou\ncompletamente visível!'
+  - offset: "0x7f6fd5"
+    name: "PT-29 0x7f6fd5"
+    expected: 'O Pokémon assustado atacou!'
+  - offset: "0x7f6ff4"
+    name: "PT-29 0x7f6ff4"
+    expected: '<0xFD><0x02> fugiu.'
+  - offset: "0x7f7004"
+    name: "PT-29 0x7f7004"
+    expected: '???: <0xFC><0x01><0x08>Hum.<0xFB>Gosto do seu jeito de lutar.\nVocê tem potencial.<0xFB>Deveria desafiar o Antisis Gym\ncom seus Pokémon.<0xFB>Dizem que o Líder anda\nbem entediado ultimamente.'
+  - offset: "0x7f715d"
+    name: "PT-29 0x7f715d"
+    expected: 'Um forte Treinador veio\nparar nesta terra árida!'
+  - offset: "0x7f7198"
+    name: "PT-29 0x7f7198"
+    expected: 'Vim na esperança de trazer\nvida nova para esta região.'
+  - offset: "0x7f7231"
+    name: "PT-29 0x7f7231"
+    expected: 'Vou te dar umas bicadas!'
+  - offset: "0x7f7251"
+    name: "PT-29 0x7f7251"
+    expected: 'Sabia que existe um Pokémon\nave que imita a fala humana?'
+  - offset: "0x7f72cb"
+    name: "PT-29 0x7f72cb"
+    expected: 'Já sentia a presença de um\nTreinador. Era você!'
+  - offset: "0x7f7309"
+    name: "PT-29 0x7f7309"
+    expected: 'Derrotar você não será\nnada fácil.'
+  - offset: "0x7f732f"
+    name: "PT-29 0x7f732f"
+    expected: 'É possível ficar mais forte\nentendendo os Pokémon?'
+  - offset: "0x7f73e1"
+    name: "PT-29 0x7f73e1"
+    expected: 'Nossa... É mesmo?'
+  - offset: "0x7f73f4"
+    name: "PT-29 0x7f73f4"
+    expected: 'Não consigo decidir qual\nPokémon mimar.'
+  - offset: "0x7f7486"
+    name: "PT-29 0x7f7486"
+    expected: 'Ah...\nPerdemos...'
+  - offset: "0x7f7493"
+    name: "PT-29 0x7f7493"
+    expected: 'Aqui é bom para acampar.\nNão fica longe da cidade.'
+  - offset: "0x7f7563"
+    name: "PT-29 0x7f7563"
+    expected: 'Perdi, mas estou mais perto\nde realizar meu sonho!'
+  - offset: "0x7f759b"
+    name: "PT-29 0x7f759b"
+    expected: 'Escute! Aconteça o que acontecer,\nnunca perca seu sonho de vista!'
+  - offset: "0x7f7666"
+    name: "PT-29 0x7f7666"
+    expected: 'Tchibum!'
+  - offset: "0x7f7670"
+    name: "PT-29 0x7f7670"
+    expected: 'Se não sabe nadar, posso\nensinar você.'
+  - offset: "0x7f772a"
+    name: "PT-29 0x7f772a"
+    expected: 'A maré está baixando...'
+  - offset: "0x7f7741"
+    name: "PT-29 0x7f7741"
+    expected: 'Não me entenda mal, eu até\ngosto de homens das montanhas.<0xFB>Mas sabe, eu prefiro um cara\nque fique bem com Pokémon!'
+  - offset: "0x7f7862"
+    name: "PT-29 0x7f7862"
+    expected: 'Não sei como, mas perdi!'
+  - offset: "0x7f7880"
+    name: "PT-29 0x7f7880"
+    expected: 'Ah, é...\nEu estava pescando, né?'
+  - offset: "0x7f790b"
+    name: "PT-29 0x7f790b"
+    expected: 'Não me irrite!'
+  - offset: "0x7f791e"
+    name: "PT-29 0x7f791e"
+    expected: 'Me divirto atormentando pessoas\ncom meus Pokémon fedorentos.<0xFB>Eles são ótimos para assustar.\nE também mordem.'
+  - offset: "0x7f7994"
+    name: "PT-29 0x7f7994"
+    expected: 'Já vai embora?<0xFB>Tem um pedágio para sair!'
+  - offset: "0x7f79c2"
+    name: "PT-29 0x7f79c2"
+    expected: 'Você pegou meu dinheiro!'
+  - offset: "0x7f79d5"
+    name: "PT-29 0x7f79d5"
+    expected: 'Esqueça!\nNão preciso do seu dinheiro!'
+  - offset: "0x7f79f9"
+    name: "PT-29 0x7f79f9"
+    expected: 'Route 16<0xFB><0x79> Gurun Town\n<0x7A> Antisis City'
+  - offset: "0x7f7bef"
+    name: "PT-29 0x7f7bef"
+    expected: 'Looker: <0xFC><0x01><0x08>...mas agora a base\nestá quase toda abandonada...'
+  - offset: "0x7f7c2d"
+    name: "PT-29 0x7f7c2d"
+    expected: '<0xFC><0x01><0x08><0xFD><0x01>!<0xFB>Que bom que veio.\nTemos muito para conversar.'
+  - offset: "0x7f7c71"
+    name: "PT-29 0x7f7c71"
+    expected: '<0xFC><0x01><0x08>Eu estava contando ao Jax\ntudo que houve desde que<0xFA>você sumiu de Dehara City.'
+  - offset: "0x7f7cd9"
+    name: "PT-29 0x7f7cd9"
+    expected: 'Jax: <0xFC><0x01><0x08>Looker está me\ncontando tudo.<0xFB>Muita coisa aconteceu desde\nque fui ao Distortion World...<0xFB>Eu só estava lá havia poucas\nhoras quando você apareceu,<0xFA>mas muito mais tempo passou<0xFA>no mundo real nesse período.'
+  - offset: "0x7f7dcc"
+    name: "PT-29 0x7f7dcc"
+    expected: 'Looker: <0xFC><0x01><0x08>Você também perdeu\nmuita coisa, <0xFD><0x01>.<0xFB>Como combinado, esperei fora\ndo armazém por você e <0xFD><0x06>,<0xFA>quando figuras encapuzadas<0xFA>saíram com um grande Pokémon<0xFA>roxo.<0xFB>Eu ia prendê-las quando,\nde repente, seu líder<0xFA>gritou algo para o Pokémon<0xFA>que estava atrás delas.<0xFB>Quando percebi, elas tinham\nsumido sem deixar rastros.<0xFB>Logo procurei membros\nno armazém, mas<0xFA>só encontrei um recruta<0xFA>que ficou para trás.<0xFB>Ele disse que só sabia\nque a Light of Ruin ia<0xFA>para algum lugar de <0xFC><0x01><0x06>East Borrius<0xFC><0x01><0x08>.'
+  - offset: "0x7f8011"
+    name: "PT-29 0x7f8011"
+    expected: 'Jax: <0xFC><0x01><0x08><0xFC><0x01><0x06>East Borrius<0xFC><0x01><0x08>?<0xFB>O que a Light of Ruin\nestaria fazendo lá?'
+  - offset: "0x7f805a"
+    name: "PT-29 0x7f805a"
+    expected: 'Looker: <0xFC><0x01><0x08>Não sei, Jax.<0xFB>Era tudo o que ele sabia, e\ntodos os dados foram apagados<0xFA>do sistema deles.'
+  - offset: "0x7f80cb"
+    name: "PT-29 0x7f80cb"
+    expected: 'Jax: <0xFC><0x01><0x08>Parados aqui não\nvamos descobrir nada.<0xFB>Vamos de barco para <0xFC><0x01><0x06>East\nBorrius <0xFC><0x01><0x08>saindo de <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x08>!'
+  - offset: "0x7f8154"
+    name: "PT-29 0x7f8154"
+    expected: 'Looker: <0xFC><0x01><0x08>Concordo.\nVou arranjar as passagens.<0xFB>Vocês dois me encontram lá.'
+  - offset: "0x7f819f"
+    name: "PT-29 0x7f819f"
+    expected: 'Jax: <0xFC><0x01><0x08>Entendeu, <0xFD><0x01>?<0xFB>Vamos para <0xFC><0x01><0x06>Seaport City!'
+  - offset: "0x7f81d9"
+    name: "PT-29 0x7f81d9"
+    expected: 'Looker: <0xFC><0x01><0x08>Com licença.\nTambém preciso ir agora.'
+  - offset: "0x7f820c"
+    name: "PT-29 0x7f820c"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>Vou acabar com ele!'
+  - offset: "0x7f8229"
+    name: "PT-29 0x7f8229"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>Eles se foram...\nTodos se foram!'
+  - offset: "0x7f8248"
+    name: "PT-29 0x7f8248"
+    expected: '<0xFC><0x01><0x08><0xFD><0x01>!<0xFB>Onde está a Light of Ruin?<0xFB>...<0xFB><0xFC><0x01><0x06>East Borrius<0xFC><0x01><0x08>?<0xFB>Preciso correr para <0xFC><0x01><0x06>Seaport\nCity <0xFC><0x01><0x08>antes do próximo barco!'
+  - offset: "0x7f885a"
+    name: "PT-29 0x7f885a"
+    expected: 'É uma reportagem:<0xFB>A Terror Granbull, gangue\nque aterrorizava<0xFA>os moradores de Antisis City,<0xFA>desapareceu!<0xFB>Será o início de uma era de\npaz e prosperidade na cidade,<0xFA>agora que todo o crime<0xFA>foi eliminado?<0xFB>Os cidadãos devem sair\nde casa e devolver a Antisis<0xFA>City sua antiga glória.<0xFB>Por uma Antisis grandiosa de novo!'
+  - offset: "0x7f89b6"
+    name: "PT-29 0x7f89b6"
+    expected: 'Os otários acham que Antisis\nCity está segura sem a Terror<0xFA>Granbull!<0xFB>Ha, ha!<0xFB>Estão muito enganados!'
+  - offset: "0x7f8a44"
+    name: "PT-29 0x7f8a44"
+    expected: 'Meu namorado é tão forte\ne durão!<0xFB>Não há ninguém como ele\nna cidade!<0xFB>Bem, fora o Big Mo, claro.'
+  - offset: "0x7f8b25"
+    name: "PT-29 0x7f8b25"
+    expected: 'Quer provar que é durão?\nHein, garoto?<0xFB>Vai ter que enfrentar o Big Mo.<0xFB>Ele é o maior e mais forte\nde toda Antisis City.'
+  - offset: "0x7f8ba7"
+    name: "PT-29 0x7f8ba7"
+    expected: 'Quer provar que é durona?\nHein, garota?<0xFB>Vai ter que enfrentar o Big Mo.<0xFB>Ele é o maior e mais forte\nde toda Antisis City.'
+  - offset: "0x7f8c2b"
+    name: "PT-29 0x7f8c2b"
+    expected: 'Hum...<0xFB>Você deve ter muita força\npara vencer o Big Mo.<0xFB>Não é fácil.<0xFB>Sabe, pegue isto como\nmeus parabéns.'
+  - offset: "0x7f8ca4"
+    name: "PT-29 0x7f8ca4"
+    expected: 'Use essas bolas para pegar\nainda mais Pokémon fortes.'
+  - offset: "0x7f8cd6"
+    name: "PT-29 0x7f8cd6"
+    expected: 'Você não precisa delas.'
+  - offset: "0x7f8cea"
+    name: "PT-29 0x7f8cea"
+    expected: 'Uiiiiiiiiiiiuuuuuuuuu!'
+  - offset: "0x7f8dfa"
+    name: "PT-29 0x7f8dfa"
+    expected: 'Então me dê logo seus Pokémon.'
+  - offset: "0x7f8e1b"
+    name: "PT-29 0x7f8e1b"
+    expected: 'É... Acho que seus Pokémon\nestão curados.<0xFB>Mas não estudei enfermagem,\nentão não tenho certeza.'
+  - offset: "0x7f8e80"
+    name: "PT-29 0x7f8e80"
+    expected: 'Espero rever você e seu\ndinheiro em breve.'
+  - offset: "0x7f8eae"
+    name: "PT-29 0x7f8eae"
+    expected: 'Bem-vindo à sede policial de\nAntisis City!<0xFB>...<0xFB>Bem, agora é só minha\ncasa mesmo.<0xFB>As gangues daqui ficaram\nagitadas demais para nós.'
+  - offset: "0x7f8f39"
+    name: "PT-29 0x7f8f39"
+    expected: 'Que bom que alguém da sua idade\nescolheu a carreira saudável de<0xFA>Treinador de Pokémon.<0xFB>É bem melhor do que fazer\nparte de uma gangue.<0xFB>Confie em mim, eu sei.\nVejo o que acontece por aqui.'
+  - offset: "0x7f9015"
+    name: "PT-29 0x7f9015"
+    expected: 'É triste alguém da sua\nidade fazer parte de uma gangue.<0xFB>Uma pena mesmo.<0xFB>Você tinha tanto potencial,\nmas agora não tem mais nada.'
+  - offset: "0x7f90ba"
+    name: "PT-29 0x7f90ba"
+    expected: 'Numa cidade assim, até\num excluído como eu se encaixa.<0xFB>Ninguém mais julga nada\ndo que eu faço.'
+  - offset: "0x7f912c"
+    name: "PT-29 0x7f912c"
+    expected: 'Eu era da Terror Granbull,\na gangue que mandava nesta<0xFA>cidade.<0xFB>Mas a Black Ferrothorn\natacou nossa base de surpresa<0xFA>pelos esgotos.<0xFB>Agora sou de novo um zé-ninguém\nque mora com a mãe.<0xFB>Não deixe isso acontecer\ncom você, criança!<0xFB>Continue na escola!'
+  - offset: "0x7f924c"
+    name: "PT-29 0x7f924c"
+    expected: 'Meu filho é um vagabundo.<0xFB>Quando vai arrumar um emprego\nde verdade e sair de casa?'
+  - offset: "0x7f92af"
+    name: "PT-29 0x7f92af"
+    expected: 'Antisis City é a cidade com\nmais crimes em Borrius.<0xFB>Mas sua existência atrai\na maioria dos bandidos<0xFA>da região, reduzindo<0xFA>o crime nos outros lugares.'
+  - offset: "0x7f9425"
+    name: "PT-29 0x7f9425"
+    expected: 'Não volte.'
+  - offset: "0x7f95a4"
+    name: "PT-29 0x7f95a4"
+    expected: 'Ei, <0xFD><0x01>, meu chapa,\ncomo vai?<0xFB>Escute, cara, outro dia dei\ndescarga sem querer nas minhas<0xFA>meias favoritas.'
+  - offset: "0x7f9624"
+    name: "PT-29 0x7f9624"
+    expected: 'Ei, <0xFD><0x01>, minha chapa,\ncomo vai?<0xFB>Escute, garota, outro dia dei\ndescarga sem querer nas minhas<0xFA>meias favoritas.'
+  - offset: "0x7f96a5"
+    name: "PT-29 0x7f96a5"
+    expected: 'Desci ao esgoto para\nprocurar, mas não consegui<0xFA>achá-las de jeito nenhum.<0xFB>Sei que deve estar pensando\npor que minhas meias estavam<0xFA>no vaso sanitário, para começar.<0xFB>Mas essa é uma história\npara outra hora.<0xFB>Então pensei que talvez\nvocê pudesse procurar para mim.'
+  - offset: "0x7f97ca"
+    name: "PT-29 0x7f97ca"
+    expected: 'Valeu, cara. Sabia que podia\ncontar com você.'
+  - offset: "0x7f97f4"
+    name: "PT-29 0x7f97f4"
+    expected: 'Valeu, garota. Sabia que podia\ncontar com você.'
+  - offset: "0x7f981f"
+    name: "PT-29 0x7f981f"
+    expected: 'Desça ao esgoto e procure\nminhas meias.<0xFB>A entrada principal fica junto\nà SES Expressway.'
+  - offset: "0x7f987d"
+    name: "PT-29 0x7f987d"
+    expected: 'Não culpo você, <0xFD><0x01>.\nSem ressentimentos.<0xFB>Vou ter que viver sem\nminhas meias favoritas<0xFA>daqui para frente. Snif.'
+  - offset: "0x7f98f6"
+    name: "PT-29 0x7f98f6"
+    expected: 'Você achou!<0xFB>Mas, cara, como estão fedendo!'
+  - offset: "0x7f991f"
+    name: "PT-29 0x7f991f"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> entregou as meias sujas\nao capanga da Black <0xFD><0x01>.'
+  - offset: "0x7f9957"
+    name: "PT-29 0x7f9957"
+    expected: 'Ah... é, eu devia\nlhe dar algo pelo<0xFA>trabalho.'
+  - offset: "0x7f999a"
+    name: "PT-29 0x7f999a"
+    expected: 'Tirei aquela sujeira das meias,\nmas não sei para que serve.<0xFB>Você vai fazer melhor uso\ndisso do que eu.'
+  - offset: "0x7f9a0d"
+    name: "PT-29 0x7f9a0d"
+    expected: 'Já calcei minhas meias\nsem nem lavar!<0xFB>Fiquei tão feliz por\ntê-las de volta.'
+  - offset: "0x7f9a69"
+    name: "PT-29 0x7f9a69"
+    expected: 'Se quiser, precisa de mais\nespaço na Bolsa.'
+  - offset: "0x7f9a9a"
+    name: "PT-29 0x7f9a9a"
+    expected: 'Esta base era da gangue\nque mandava em Antisis City.<0xFB>Depois que a Black Ferrothorn\na expulsou, a base ficou<0xFA>abandonada.<0xFB>Nós a reformamos e até\ntrocamos o buraco do esgoto<0xFA>por uma escada!'
+  - offset: "0x7f9b92"
+    name: "PT-29 0x7f9b92"
+    expected: 'Estamos planejando como\nderrubar a Black Ferrothorn.'
+  - offset: "0x7f9c4a"
+    name: "PT-29 0x7f9c4a"
+    expected: 'James: <0xFC><0x01><0x08><0xFD><0x01>!<0xFB>Você veio!\nSede da Black <0xFD><0x01>!'
+  - offset: "0x7f9c81"
+    name: "PT-29 0x7f9c81"
+    expected: '<0xFC><0x01><0x08>Parece pouca coisa agora,\nmas vamos arrumar tudo assim<0xFA>que vencermos a Black Ferrothorn.<0xFB>Pode ficar por aqui e\nnos ajudar a enfrentar eles.<0xFB>Ainda estamos planejando\na estratégia, então por ora<0xFA>veja se algum dos seus colegas<0xFA>da Black <0xFD><0x01> quer ajuda.'
+  - offset: "0x7f9dea"
+    name: "PT-29 0x7f9dea"
+    expected: 'James: <0xFC><0x01><0x08>Você chegou na hora,\n<0xFD><0x01>.<0xFB>Descobrimos como derrubar\naqueles da Black Ferrothorn.<0xFB>Vamos agir com coragem e\natacar pelos esgotos.<0xFB>Gua ha ha ha!<0xFB>Aqueles brutamontes arrogantes\nnem vão saber o que os atingiu!'
+  - offset: "0x7f9ece"
+    name: "PT-29 0x7f9ece"
+    expected: '<0xFC><0x01><0x08>Capangas! Peguem suas bikes!\nVamos para o esgoto!'
+  - offset: "0x7f9f05"
+    name: "PT-29 0x7f9f05"
+    expected: 'James: <0xFC><0x01><0x08>Ajude o pessoal da Black\n<0xFD><0x01> enquanto planejamos.'
+  - offset: "0x7f9f48"
+    name: "PT-29 0x7f9f48"
+    expected: 'Um dia vou ficar rico\ne comprar um sofá de verdade.'
+  - offset: "0x7fa4c8"
+    name: "PT-29 0x7fa4c8"
+    expected: 'Ei! <0xFD><0x01>!<0xFB>Uma mulher da cidade anda\nme irritando muito.<0xFB>Me ajude a roubar seu Pokémon!\nEla precisa sofrer!'
+  - offset: "0x7fa546"
+    name: "PT-29 0x7fa546"
+    expected: 'Beleza!<0xFB>Antes de irmos, coloque\numa máscara ou algo assim<0xFA>para ninguém reconhecer você.<0xFB>Não quero que acabe como eu,\nporque alguém te viu cometer<0xFA>um crime quando era jovem.'
+  - offset: "0x7fa608"
+    name: "PT-29 0x7fa608"
+    expected: '<0xFC><0x01><0x02>Vestir o uniforme de Marlon?'
+  - offset: "0x7fa63f"
+    name: "PT-29 0x7fa63f"
+    expected: 'Tá bom! Então vou sozinho!'
+  - offset: "0x7fa65e"
+    name: "PT-29 0x7fa65e"
+    expected: 'Está curtindo esse novo\nPokémon, <0xFD><0x01>?'
+  - offset: "0x7fa68e"
+    name: "PT-29 0x7fa68e"
+    expected: 'Ei, <0xFD><0x01>.<0xFB>Tentei soltar o Pokémon\npara ver qual era, mas<0xFA>ele se recusou a me obedecer.<0xFB>Acho que é porque\nroubamos o Pokémon.<0xFB>Então vamos fazer o seguinte.<0xFB>Vou soltá-lo da bola,\ne você vai lutar com ele<0xFA>e capturá-lo por conta própria.<0xFB>Tudo pronto?'
+  - offset: "0x7fa7bf"
+    name: "PT-29 0x7fa7bf"
+    expected: 'Pegue estas Ultra Balls\npara ajudar na captura.'
+  - offset: "0x7fa7ec"
+    name: "PT-29 0x7fa7ec"
+    expected: 'Se prepare logo.<0xFB>Acho que é um Pokémon do tipo\nVenenoso de Nv. 35.'
+  - offset: "0x7fa834"
+    name: "PT-29 0x7fa834"
+    expected: 'Esqueça, parece que você\nnão precisa delas.'
+  - offset: "0x7fa85f"
+    name: "PT-29 0x7fa85f"
+    expected: 'Lá vem o Pokémon!'
+  - offset: "0x7fa877"
+    name: "PT-29 0x7fa877"
+    expected: 'Boa!\nVocê pegou!<0xFB>Isso vai ensinar aquela mulher!<0xFB>O Pokémon dela está nas mãos\nde um Treinador de primeira!'
+  - offset: "0x7fa8dd"
+    name: "PT-29 0x7fa8dd"
+    expected: 'Por que você o nocauteou?<0xFB>Agora temos que curá-lo, e\nvocê vai ter que lutar de novo!'
+  - offset: "0x7fa940"
+    name: "PT-29 0x7fa940"
+    expected: 'O Grimer está curado.\nTudo pronto para lutar de novo?'
+  - offset: "0x7faf90"
+    name: "PT-29 0x7faf90"
+    expected: 'Já resolveu o quebra-cabeça.'
+  - offset: "0x7fb0fb"
+    name: "PT-29 0x7fb0fb"
+    expected: 'Ei, <0xFD><0x01>, quer ajudar\ncom um probleminha que tenho<0xFA>com a Black Ferrothorn?'
+  - offset: "0x7fb156"
+    name: "PT-29 0x7fb156"
+    expected: 'É o seguinte.<0xFB>Lutei contra uns capangas\nda Black Ferrothorn, mas<0xFA>me acabaram por completo.<0xFB>Um deles usou também os\nPokémon do parceiro, então<0xFA>não tive chance.<0xFB>Quero dar uma lição neles,\nmas não tenho força<0xFA>suficiente.<0xFB>Pode derrotar os dois\npor mim?'
+  - offset: "0x7fb28a"
+    name: "PT-29 0x7fb28a"
+    expected: 'Você tem coragem, <0xFD><0x01>.<0xFB>Vou te levar até eles.'
+  - offset: "0x7fb2b6"
+    name: "PT-29 0x7fb2b6"
+    expected: 'Hum.\nAchei que você tinha coragem.'
+  - offset: "0x7fb2d9"
+    name: "PT-29 0x7fb2d9"
+    expected: 'Vai precisar de dois Pokémon\nse eles se juntarem contra você.'
+  - offset: "0x7fb318"
+    name: "PT-29 0x7fb318"
+    expected: 'Quer tentar de novo,\n<0xFD><0x01>?<0xFB>Aqueles capangas precisam\nde uma lição.'
+  - offset: "0x7fb369"
+    name: "PT-29 0x7fb369"
+    expected: 'Você venceu os capangas da\nBlack Ferrothorn, <0xFD><0x01>.<0xFB>É o Treinador mais corajoso\nque conheço.'
+  - offset: "0x7fb3c9"
+    name: "PT-29 0x7fb3c9"
+    expected: 'Esse item que te dei é\nessencial para quem tem coragem.<0xFB>Sempre que o inimigo tocar\nseu Pokémon, também sofrerá dano.'
+  - offset: "0x7fb449"
+    name: "PT-29 0x7fb449"
+    expected: 'Eles não vão mais me\nincomodar. Valeu, <0xFD><0x01>.'
+  - offset: "0x7fb47f"
+    name: "PT-29 0x7fb47f"
+    expected: 'Queria te dar um item, mas\nvocê não tem espaço.'
+  - offset: "0x7fb6f3"
+    name: "PT-29 0x7fb6f3"
+    expected: 'Capanga: <0xFC><0x01><0x08>Ei, seus idiotas da Black\nFerrothorn! Quero revanche!'
+  - offset: "0x7fb735"
+    name: "PT-29 0x7fb735"
+    expected: 'Rory: <0xFC><0x01><0x08>Ouviu isso, Chad?<0xFB>Esse fracote acha que\npode vencer a gente!'
+  - offset: "0x7fb779"
+    name: "PT-29 0x7fb779"
+    expected: 'Capanga: <0xFC><0x01><0x08>Ah, eu não vou\nlutar, não.<0xFB>Meu chapa <0xFD><0x01> aqui vai\nacabar com vocês por mim!'
+  - offset: "0x7fb7e0"
+    name: "PT-29 0x7fb7e0"
+    expected: 'Rory: <0xFC><0x01><0x08>É mesmo?<0xFB>Então vamos ter que\nesmagar esse garoto!'
+  - offset: "0x7fb835"
+    name: "PT-29 0x7fb835"
+    expected: 'Rory: <0xFC><0x01><0x08>É mesmo?<0xFB>Então vamos ter que\nesmagar essa garota!'
+  - offset: "0x7fb88a"
+    name: "PT-29 0x7fb88a"
+    expected: '<0xFC><0x01><0x08>Chad! Me dê seus Pokémon!<0xFB>Vou vencer eles com\nnossa força combinada!'
+  - offset: "0x7fb8db"
+    name: "PT-29 0x7fb8db"
+    expected: 'Chad: <0xFC><0x01><0x08>Vai nessa, cara!<0xFB>Arranque as meias deles e jogue\nno esgoto, como as do outro cara!'
+  - offset: "0x7fb93c"
+    name: "PT-29 0x7fb93c"
+    expected: 'Rory: <0xFC><0x01><0x08>É bom ter se preparado\npara minha fúria dupla!'
+  - offset: "0x7fb97b"
+    name: "PT-29 0x7fb97b"
+    expected: 'Quê... não pode ser...\nVocê me tirou até as meias!'
+  - offset: "0x7fb9a1"
+    name: "PT-29 0x7fb9a1"
+    expected: 'Gua ha ha ha! Aprenda a lição,\nseu pirralho!'
+  - offset: "0x7fb9d2"
+    name: "PT-29 0x7fb9d2"
+    expected: 'Rory: <0xFC><0x01><0x08>Quê... Você não devia\nvencer a Black Ferrothorn!<0xFB>Nossa pele é de ferro!\nComo isso é possível?!'
+  - offset: "0x7fba42"
+    name: "PT-29 0x7fba42"
+    expected: 'Capanga: <0xFC><0x01><0x08>Agora viu a força\nde verdade da Black <0xFD><0x01>!<0xFB>Sua pele é tão macia\nquanto um Smoochum!<0xFB>Hahaha!'
+  - offset: "0x7fbabb"
+    name: "PT-29 0x7fbabb"
+    expected: '<0xFC><0x01><0x08>Você é um Treinador corajoso,\n<0xFD><0x01>!<0xFB>Não conheço outro que\nenfrentaria Pokémon de dois<0xFA>Treinadores ao mesmo tempo!<0xFB>Sabe... Volte para a\nbase e vou te dar algo<0xFA>pela ajuda.'
+  - offset: "0x7fbb84"
+    name: "PT-29 0x7fbb84"
+    expected: 'Rory: <0xFC><0x01><0x08>Quê... Achou mesmo\nque podia vencer a gente?<0xFB>A Black Ferrothorn?'
+  - offset: "0x7fbbd2"
+    name: "PT-29 0x7fbbd2"
+    expected: 'Capanga: <0xFC><0x01><0x08>Achei que ia vencer,\n<0xFD><0x01>...<0xFB>Agora você humilhou a\nBlack <0xFD><0x01>...<0xFB>É bom ficar mais forte\npara vencê-los da próxima vez.'
+  - offset: "0x7fbc63"
+    name: "PT-29 0x7fbc63"
+    expected: 'Rory: <0xFC><0x01><0x08>É mesmo?<0xFB>Então é hora de\napanhar de novo!'
+  - offset: "0x7fbe45"
+    name: "PT-29 0x7fbe45"
+    expected: 'Não parece haver barreira\nentre você e seus Pokémon!'
+  - offset: "0x7fbe82"
+    name: "PT-29 0x7fbe82"
+    expected: 'Desde que fizemos este esgoto,\nsurgiu todo tipo de Pokémon.'
+  - offset: "0x7fbee1"
+    name: "PT-29 0x7fbee1"
+    expected: 'Eu perdiii!'
+  - offset: "0x7fbeeb"
+    name: "PT-29 0x7fbeeb"
+    expected: 'Não é divertido gritar no\nesgoto e ouvir o eco?'
+  - offset: "0x7fbf6e"
+    name: "PT-29 0x7fbf6e"
+    expected: 'Se minha decepção\ntivesse um cheiro, seria<0xFA>igual ao de um Gloom.'
+  - offset: "0x7fbfc1"
+    name: "PT-29 0x7fbfc1"
+    expected: 'Odores ruins para humanos\npodem ser perfume para Pokémon.'
+  - offset: "0x7fc046"
+    name: "PT-29 0x7fc046"
+    expected: 'Que teorema catastrófico!'
+  - offset: "0x7fc0a2"
+    name: "PT-29 0x7fc0a2"
+    expected: 'Na verdade, eu até gosto.'
+  - offset: "0x7fc0c0"
+    name: "PT-29 0x7fc0c0"
+    expected: 'Adoro limpar, então nem\nparece que estou trabalhando!'
+  - offset: "0x7fc150"
+    name: "PT-29 0x7fc150"
+    expected: 'Que viagem divertida...'
+  - offset: "0x7fc163"
+    name: "PT-29 0x7fc163"
+    expected: 'Pode passar pelo cano para ir\naos esgotos debaixo da parte<0xFA>sul de Antisis City.'
+  - offset: "0x7fc3b4"
+    name: "PT-29 0x7fc3b4"
+    expected: 'Muitas toxinas se acumulam\nna rede de esgoto.<0xFB>Acho que posso usá-las\npara fazer remédios!<0xFB>Estou fazendo uma experiência!<0xFB>Se der certo, poderei usar\no veneno de Pokémon do tipo<0xFA>Venenoso para fazer vários<0xFA>remédios. Que empolgante!<0xFB>Bem, bem...<0xFB>O resultado da experiência\nde hoje foi...'
+  - offset: "0x7fc4cd"
+    name: "PT-29 0x7fc4cd"
+    expected: 'Uau! A experiência de hoje\nfoi um sucesso!<0xFB>Aqui! Aceite\n<0xFD><0x02> que eu fiz!'
+  - offset: "0x7fc51e"
+    name: "PT-29 0x7fc51e"
+    expected: 'Não há mais espaço na Bolsa\npara <0xFD><0x02>!'
+  - offset: "0x7fc549"
+    name: "PT-29 0x7fc549"
+    expected: 'Vou experimentar todo dia!\nÉ importante continuar tentando.<0xFB>Volte para ver como está indo!'
+  - offset: "0x7fc819"
+    name: "PT-29 0x7fc819"
+    expected: 'James: <0xFC><0x01><0x08>Vamos, capangas!\nChegou a hora!'
+  - offset: "0x7fc845"
+    name: "PT-29 0x7fc845"
+    expected: 'James: <0xFC><0x01><0x08>A bomba vai explodir!<0xFB>Tapem os ouvidos se não\nquiserem ficar sem eles!'
+  - offset: "0x7fc89b"
+    name: "PT-29 0x7fc89b"
+    expected: 'James: <0xFC><0x01><0x08>Vamos!\nPulem pelo buraco!'
+  - offset: "0x7fca8c"
+    name: "PT-29 0x7fca8c"
+    expected: '???: <0xFC><0x01><0x08>Quem vocês pensam\nque são para entrar aqui e<0xFA>atacar meus capangas?<0xFB>Somos a Black Ferrothorn!\nE eu sou Barbs, o líder!<0xFB>Querem mesmo continuar\nmexendo com a gente?<0xFB>Vamos destruir vocês num instante!'
+  - offset: "0x7fcb63"
+    name: "PT-29 0x7fcb63"
+    expected: 'James: <0xFC><0x01><0x08>Somos a Black <0xFD><0x01>!<0xFB>Vamos derrubar vocês da Black\nFerrothorn para mandarmos<0xFA>na cidade no lugar de vocês!<0xFB>Gua ha ha ha ha!'
+  - offset: "0x7fcbe9"
+    name: "PT-29 0x7fcbe9"
+    expected: 'Barbs: <0xFC><0x01><0x08>A Black <0xFD><0x01>?<0xFB>Vocês devem ser a gangue fraca\nde que andei ouvindo falar...<0xFB>Alguém tem que dar uma\nlição em vocês!<0xFB>E esse alguém sou eu!<0xFB>Quem é esse tal de <0xFD><0x01>\nde quem tanto falam?<0xFB>Vou derrotá-lo e dar uma\nlição que nunca vão esquecer!'
+  - offset: "0x7fccf4"
+    name: "PT-29 0x7fccf4"
+    expected: 'James: <0xFC><0x01><0x08>É esta pessoa aqui!'
+  - offset: "0x7fcd16"
+    name: "PT-29 0x7fcd16"
+    expected: '<0xFC><0x01><0x08>Mas você não tem força\npara vencer <0xFD><0x01>!<0xFB>Vai ser esmagado se tentar!'
+  - offset: "0x7fcd63"
+    name: "PT-29 0x7fcd63"
+    expected: 'Barbs: <0xFC><0x01><0x08>Cha ha ha ha!<0xFB>Acha mesmo que uma criança\npode me vencer? Eu, Barbs?<0xFB>Eu lidero a Black Ferrothorn!<0xFB>Eu sou a Black Ferrothorn!'
+  - offset: "0x7fcde1"
+    name: "PT-29 0x7fcde1"
+    expected: 'Barbs: <0xFC><0x01><0x08>Vamos ver quem é\no mais durão de Antisis City!'
+  - offset: "0x7fce25"
+    name: "PT-29 0x7fce25"
+    expected: 'Cha ha ha ha!\nVocê não decepciona, <0xFD><0x01>!'
+  - offset: "0x7fce4d"
+    name: "PT-29 0x7fce4d"
+    expected: 'Barbs: <0xFC><0x01><0x08>Foi uma boa luta,\n<0xFD><0x01>.<0xFB>Eu teria orgulho de ter você\nna Black Ferrothorn.<0xFB>Pena que é leal àqueles\nidiotas.<0xFB>Por falar neles, parece que\nmeus homens acabaram com eles!'
+  - offset: "0x7fcf19"
+    name: "PT-29 0x7fcf19"
+    expected: 'James: <0xFC><0x01><0x08>Não! A gangue! Minha vida!'
+  - offset: "0x7fcf40"
+    name: "PT-29 0x7fcf40"
+    expected: '<0xFC><0x01><0x08>Bem, <0xFD><0x01>, parece\nque acabou.<0xFB>Você lutou bem.\nNos deu orgulho até o fim.<0xFB>Mas é hora de a Black\n<0xFD><0x01> seguir em frente.<0xFB>Fomos expulsos da cidade.\nMais uma vez sem um lugar.<0xFB>Vamos viver fugindo até\nacharmos um novo lar.'
+  - offset: "0x7fd049"
+    name: "PT-29 0x7fd049"
+    expected: '<0xFC><0x01><0x08>Talvez a gente se encontre\npor aí algum dia.<0xFB>Vou esperar por esse dia.'
+  - offset: "0x7fd0a5"
+    name: "PT-29 0x7fd0a5"
+    expected: 'Barbs: <0xFC><0x01><0x08>Olhe, agora eu\nrespeito você, de verdade.<0xFB>Mas é hora de sair\nda nossa casa e nunca voltar.<0xFB>...<0xFB>Estou falando sério.<0xFB>FORA!'
+  - offset: "0x7fd164"
+    name: "PT-29 0x7fd164"
+    expected: 'Este é o Antisis Gym!<0xFB>Acha que tem o que precisa\npara sobreviver ao ringue?'
+  - offset: "0x7fd1b3"
+    name: "PT-29 0x7fd1b3"
+    expected: 'Poucos desafiantes sobrevivem\nao ringue como você.<0xFB>Você é mesmo especial.'
+  - offset: "0x7fd4ac"
+    name: "PT-29 0x7fd4ac"
+    expected: 'Entrar'
+  - offset: "0x7fd4b2"
+    name: "PT-29 0x7fd4b2"
+    expected: 'Regras'
+  - offset: "0x7fd4b8"
+    name: "PT-29 0x7fd4b8"
+    expected: 'Sair'
+  - offset: "0x7fd4be"
+    name: "PT-29 0x7fd4be"
+    expected: 'Fique aqui.'
+  - offset: "0x7fd4c9"
+    name: "PT-29 0x7fd4c9"
+    expected: 'Vou te jogar para fora do\nringue antes mesmo de começar!'
+  - offset: "0x7fd50f"
+    name: "PT-29 0x7fd50f"
+    expected: 'Vim testar sua força\nno ringue.<0xFB>Hiá!'
+  - offset: "0x7fd545"
+    name: "PT-29 0x7fd545"
+    expected: 'Me vença e terá caminho livre\naté Big Mo!<0xFB>Pena que não vou deixar\nisso acontecer!'
+  - offset: "0x7fd59c"
+    name: "PT-29 0x7fd59c"
+    expected: 'Ah, não!'
+  - offset: "0x7fd5a4"
+    name: "PT-29 0x7fd5a4"
+    expected: 'Sua força é admirável.'
+  - offset: "0x7fd5c0"
+    name: "PT-29 0x7fd5c0"
+    expected: 'Hã?<0xFB>Como alguém tão jovem\nsobrevive ao ringue?'
+  - offset: "0x7fd5ee"
+    name: "PT-29 0x7fd5ee"
+    expected: 'Você sobreviveu ao ringue.\nMuito bem.<0xFB>Passe por aquela porta\nse quiser ver o Big Mo.'
+  - offset: "0x7fd645"
+    name: "PT-29 0x7fd645"
+    expected: 'As regras são simples.<0xFB>Escolha um Pokémon para lutar\ncom três Treinadores seguidos.<0xFB>Cada Treinador também usa\num só Pokémon.<0xFB>Mas sem <0xFC><0x01><0x06>Voador<0xFC><0x01><0x08>, <0xFC><0x01><0x06>Psíquico<0xFC><0x01><0x08> ou <0xFC><0x01><0x06>Fada<0xFC><0x01><0x08>\naqui!<0xFB>Pode usar esses tipos contra\no Big Mo, mas não queremos<0xFA>esses tipos aqui no ringue.'
+  - offset: "0x7fd75b"
+    name: "PT-29 0x7fd75b"
+    expected: 'Você tem Pokémon demais!\nSó pode usar um!<0xFB>Deixe alguns Pokémon se\nquiser aceitar o desafio!'
+  - offset: "0x7fd7ca"
+    name: "PT-29 0x7fd7ca"
+    expected: 'Pokémon do tipo <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>\nsão proibidos no ringue!<0xFB>Troque de Pokémon se\nquiser lutar!'
+  - offset: "0x7fd829"
+    name: "PT-29 0x7fd829"
+    expected: 'Você sobreviveu ao ringue\ne ainda venceu o Big Mo!<0xFB>Não me impressiono fácil,\nmas você conseguiu.'
+  - offset: "0x7fd8a5"
+    name: "PT-29 0x7fd8a5"
+    expected: 'Voador'
+  - offset: "0x7fd8ac"
+    name: "PT-29 0x7fd8ac"
+    expected: 'Psíquico'
+  - offset: "0x7fd8b4"
+    name: "PT-29 0x7fd8b4"
+    expected: 'Fada'
+  - offset: "0x7fda18"
+    name: "PT-29 0x7fda18"
+    expected: 'Olha quem decidiu acabar\ncom meu tédio!<0xFB>A criança da Route 16!<0xFB>...<0xFB>Como é?\nSeu nome é <0xFD><0x01>?<0xFB>Então deixe eu também\nme apresentar direito!<0xFB>O pessoal me chama de Big Mo!<0xFB>Sou eu quem mantém o submundo\nde Antisis sob controle!'
+  - offset: "0x7fdb0d"
+    name: "PT-29 0x7fdb0d"
+    expected: 'A Black Ferrothorn e a Black\n<0xFD><0x01> estão abaixo de mim!<0xFB>Vamos ver o que pode fazer\ncontra o chefão de Antisis City!'
+  - offset: "0x7fdb88"
+    name: "PT-29 0x7fdb88"
+    expected: 'A Terror Granbull e a Black\nFerrothorn estão abaixo de mim!<0xFB>Vamos ver o que pode fazer\ncontra o chefão de Antisis City!'
+  - offset: "0x7fdc0a"
+    name: "PT-29 0x7fdc0a"
+    expected: 'Ha ha ha ha!<0xFB>Deviam começar a te chamar\nde Big <0xFD><0x01>!'
+  - offset: "0x7fdc3d"
+    name: "PT-29 0x7fdc3d"
+    expected: 'Nossa, criança...\nQue luta...<0xFB>Pegue a Brawl Badge pela\nsua vitória no Antisis Gym!'
+  - offset: "0x7fdc9b"
+    name: "PT-29 0x7fdc9b"
+    expected: '<0xFD><0x01> recebeu a Brawl Badge\nde Big Mo!'
+  - offset: "0x7fdcc4"
+    name: "PT-29 0x7fdcc4"
+    expected: 'Com a Brawl Badge, Pokémon\naté o Nv. 70 reconhecerão sua<0xFA>força e obedecerão!<0xFB>Agora também pode escalar rochas\ncom o movimento Rock Climb!<0xFB>Vai dizer que não é útil!<0xFB>Pegue esta TM também!'
+  - offset: "0x7fdd8c"
+    name: "PT-29 0x7fdd8c"
+    expected: '<0xFD><0x01> recebeu a TM60\nde Big Mo!'
+  - offset: "0x7fddaa"
+    name: "PT-29 0x7fddaa"
+    expected: 'A TM60 contém Drain Punch!<0xFB>Causa dano e drena os PS\ndo inimigo ao mesmo tempo!'
+  - offset: "0x7fde03"
+    name: "PT-29 0x7fde03"
+    expected: 'Se quiser minha TM, vai ter\nque abrir espaço na Bolsa!'
+  - offset: "0x7fde41"
+    name: "PT-29 0x7fde41"
+    expected: 'Se voltar a Antisis\nCity, <0xFD><0x01>, saiba que<0xFA>estou de olho em você!<0xFB>Ha ha ha ha!<0xFB>Estou de olho em todos aqui!\nÉ meu trabalho!'
+  - offset: "0x7fdee5"
+    name: "PT-29 0x7fdee5"
+    expected: 'Acha mesmo que pode\nvencer o Big Mo? Hein?'
+  - offset: "0x7fdf17"
+    name: "PT-29 0x7fdf17"
+    expected: 'Você é a nova fera\nde Antisis City!'
+  - offset: "0x7fdf61"
+    name: "PT-29 0x7fdf61"
+    expected: 'Antisis Pokémon Gym\nLíder: Big Mo<0xFB>Treinadores vencedores:\n<0xFD><0x06>'
+  - offset: "0x7fdf99"
+    name: "PT-29 0x7fdf99"
+    expected: 'Antisis Pokémon Gym\nLíder: Big Mo<0xFB>Treinadores vencedores:\n<0xFD><0x06>, <0xFD><0x01>'
+  - offset: "0x800880"
+    name: "PT-29 0x800880"
+    expected: 'Não teve efeito em\n<0xFD><0x10>...'
+  - offset: "0x800fc0"
+    name: "PT-29 0x800fc0"
+    expected: 'Cube'
+  - offset: "0x800fd0"
+    name: "PT-29 0x800fd0"
+    expected: 'Modo numérico: Borrius'
+  - offset: "0x80dc10"
+    name: "PT-29 0x80dc10"
+    expected: '<0xFD><0x0F> perdeu\num pouco dos PS!'
+  - offset: "0x820da0"
+    name: "PT-29 0x820da0"
+    expected: 'Escale paredes rochosas.'
+  - offset: "0x821093"
+    name: "PT-29 0x821093"
+    expected: '<0xFD><0x02> usou Sunny Day!\nFicou ensolarado lá fora.'
+  - offset: "0x8210bf"
+    name: "PT-29 0x8210bf"
+    expected: 'Não pode fazer sol aqui dentro...'
+  - offset: "0x8254bf"
+    name: "PT-29 0x8254bf"
+    expected: 'A parede é muito rochosa...\nQuer usar <0xFD><0x03>?'
+  - offset: "0x8254f1"
+    name: "PT-29 0x8254f1"
+    expected: '<0xFD><0x02> usou <0xFD><0x03>!'
+  - offset: "0x8254fd"
+    name: "PT-29 0x8254fd"
+    expected: 'A parede é muito rochosa...\nUm movimento pode escalá-la?'
+  - offset: "0x825535"
+    name: "PT-29 0x825535"
+    expected: 'Não pode usar Rock Climb aqui!'
+  - offset: "0x825660"
+    name: "PT-29 0x825660"
+    expected: 'A névoa desapareceu.'
+  - offset: "0x825680"
+    name: "PT-29 0x825680"
+    expected: 'A névoa é densa...'
+  - offset: "0x83001c"
+    name: "PT-29 0x83001c"
+    expected: '<0xFD><0x00> megaevoluiu para\nMega <0xFD><0x04>!'
+  - offset: "0x83003c"
+    name: "PT-29 0x83003c"
+    expected: 'Uma luz forte vai sair de\n<0xFD><0x00>!'
+  - offset: "0x830068"
+    name: "PT-29 0x830068"
+    expected: 'O desejo de <0xFD><0x02>\nchegou a <0xFD><0x00>!'
+  - offset: "0x83008c"
+    name: "PT-29 0x83008c"
+    expected: '<0xFD><0x00>: <0xFD><0x01>\nreage a <0xFD><0x02>: <0xFD><0x03>!'
+  - offset: "0x830ce0"
+    name: "PT-29 0x830ce0"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nfez chover!'
+  - offset: "0x830cf6"
+    name: "PT-29 0x830cf6"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nintensificou os raios solares!'
+  - offset: "0x830d1a"
+    name: "PT-29 0x830d1a"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nlevantou uma tempestade de areia!'
+  - offset: "0x834ae7"
+    name: "PT-29 0x834ae7"
+    expected: 'VISOR EV-IV'
+  - offset: "0x87622c"
+    name: "PT-29 0x87622c"
+    expected: 'Master Ball'
+  - offset: "0x876258"
+    name: "PT-29 0x876258"
+    expected: 'Ultra Ball'
