@@ -230,6 +230,18 @@ def generate_translation_json(config) -> Path:
     lang_csv = TRANSLATION_DIR / f"{config.code}_trilingual_translation.csv"
     out_json = config.translation_json_path(REPO_ROOT)
 
+    aliases = None
+    alias_keys = set()
+    if getattr(config, "text_aliases", None):
+        from src.core.text_aliases import TextAliases
+        aliases = TextAliases.load(REPO_ROOT / config.text_aliases, ENGLISH_ROM.read_bytes())
+        combined_map, _ = _load_module(APPLY_COMBINED_SCRIPT)._load_combined(combined)
+        alias_keys = set(combined_map)
+        alias_csv = TRANSLATION_DIR / f"{config.code}_alias_base.csv"
+        aliases.prepare_csv(base_csv, alias_csv, alias_keys, OFFSET_MAP,
+                            SPANISH_ROM.read_bytes(), SPANISH_EXTRACT, ENGLISH_EXTRACT)
+        base_csv = alias_csv
+
     critical = config.critical_path(REPO_ROOT)
     # apply_combined_fr.py is language-agnostic: it only fills the translation
     # column from whatever combined file / critical file we point it at.
@@ -252,6 +264,8 @@ def generate_translation_json(config) -> Path:
         input_path=lang_csv, output_path=out_json, allow_too_long=True
     )
     stats = validator.validate_and_convert()
+    if aliases is not None:
+        aliases.resolve_json(out_json, alias_keys)
     print(f"✓ Translation JSON: {out_json.name} ({stats['successful']} entries)")
     return out_json
 
@@ -381,6 +395,8 @@ def apply_patches(config, out_rom: Path, translation_json: Path | None = None,
 
         elif step == "inline":
             extra = []
+            if getattr(config, "text_aliases", None):
+                extra += ["--text-aliases", REPO_ROOT / config.text_aliases]
             if config.builder_language == "spanish":
                 extra.append("--preserve-spanish-glyphs")
             if config.code == "de":

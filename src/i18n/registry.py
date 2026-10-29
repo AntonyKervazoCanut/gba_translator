@@ -57,6 +57,7 @@ class LanguageConfig:
     builder_language: str = ""    # empty for build: none languages
     native_name: str = ""
     critical: Optional[str] = None
+    text_aliases: Optional[str] = None
     version_label: str = ""
     font_glyphs: str = ""
     status_abbrev: Dict[str, str] = field(default_factory=dict)
@@ -196,6 +197,7 @@ def _validate(data: dict, source: Path) -> LanguageConfig:
         patch_source=data.get("patch_source", ""),
         native_name=data.get("native_name", ""),
         critical=data.get("critical"),
+        text_aliases=data.get("text_aliases"),
         version_label=data.get("version_label", ""),
         font_glyphs=data.get("font_glyphs", ""),
         status_abbrev=dict(data.get("status_abbrev") or {}),

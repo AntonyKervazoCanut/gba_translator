@@ -694,6 +694,21 @@ class TranslatedROMBuilder:
             english_raw_bytes,
         )
 
+        # Opt-in pour les préimages contractuelles : le lot maîtrise ses lignes,
+        # le builder protège commandes/arguments et ne réécrit pas FA/FB.
+        preserve_control_flow = item.get('preserve_control_flow', False)
+        if preserve_control_flow:
+            if not english_raw_bytes:
+                raise ValueError(f"0x{offset:X}: source canonique requise pour les commandes")
+            encoded = TextEncoder.encode_pokemon(
+                translation_text, skip_aliases=self._skip_encode_aliases()
+            )
+            source = bytes.fromhex(english_raw_bytes)
+            if self._extract_control_sequences_from_raw(encoded) != self._extract_control_sequences_from_raw(source):
+                raise ValueError(f"0x{offset:X}: commandes ou arguments différents")
+            if len(encoded) > 512:
+                raise ValueError(f"0x{offset:X}: plafond de 512 octets dépassé")
+
         # Une fenêtre déclarée et bornée conserve ses ruptures exactement.
         # Ce contrat est opt-in : les dialogues ordinaires gardent le rewrap.
         layout = item.get('layout')
@@ -717,7 +732,7 @@ class TranslatedROMBuilder:
         # Dialogue inherits its break positions from the English source;
         # French lines are longer, so re-balance them against the real
         # FRLG font metrics (and enforce the \n / scroll rule).
-        if translation_text and encoding == 'pokemon' and layout is None:
+        if translation_text and encoding == 'pokemon' and layout is None and not preserve_control_flow:
             try:
                 # Consecutive breaks render as blank lines; collapse them
                 # unless the English source has them too (credits layout).

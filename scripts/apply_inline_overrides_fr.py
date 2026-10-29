@@ -501,6 +501,7 @@ def main() -> int:
 
     parser.add_argument("--preserve-spanish-glyphs", action="store_true")
     parser.add_argument("--allow-empty-translations", action="store_true")
+    parser.add_argument("--text-aliases", type=Path)
     args = parser.parse_args()
 
     for path in (args.rom, args.source, args.combined):
@@ -509,6 +510,12 @@ def main() -> int:
             return 1
 
     combined_map, skipped = _load_combined(args.combined)
+    if args.text_aliases:
+        from src.core.text_aliases import TextAliases
+        aliases = TextAliases.load(args.text_aliases, args.source.read_bytes())
+        aliases.check_keys(set(combined_map))
+        combined_map = {key: value for key, value in combined_map.items()
+                        if key not in aliases.entries}
     if not combined_map:
         print('No combined entries found.')
         return 0 if args.allow_empty_translations else 1
