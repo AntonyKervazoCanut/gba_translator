@@ -9,8 +9,8 @@ from pathlib import Path
 
 import pytest
 
-from src.core.text_codec import TextEncoder
 from src.core.font_glyphs import LATIN_FONTS
+from src.core.text_codec import TextEncoder
 
 pytestmark = pytest.mark.rom
 ROOT = Path(__file__).resolve().parents[3]
