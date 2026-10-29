@@ -43,6 +43,7 @@ print(json.dumps(positions))
   const lua = path.join(temp, 'probe.lua');
   fs.writeFileSync(lua, `
 local f=0
+local keys={[4020]=3,[4070]=4,[4100]=4,[4130]=0,[4220]=4,[4350]=0}
 callbacks:add('frame', function()
  f=f+1
  if f>=300 and f<=1800 and f%120==0 then emu:addKey(0) end
@@ -59,6 +60,9 @@ callbacks:add('frame', function()
   if f==2370+n*1000 or f==2620+n*1000 then emu:addKey(0) end
   if f==2374+n*1000 or f==2624+n*1000 then emu:clearKey(0) end
  end
+ if keys[f] then emu:addKey(keys[f]) end
+ if keys[f-4] then emu:clearKey(keys[f-4]) end
+ if f==4450 then emu:screenshot(${JSON.stringify(temp)}..'/page2.png') end
 end)
 `);
   const child = spawn(process.env.MGBA_PATH ?? '/opt/homebrew/opt/mgba/bin/mGBA', [
@@ -73,7 +77,7 @@ end)
     await expect.poll(() => {
       if (launchError) throw launchError;
       if (child.exitCode !== null) throw new Error(`mGBA terminé : ${child.exitCode}`);
-      return fs.existsSync(path.join(temp, 'page1.png'));
+      return fs.existsSync(path.join(temp, 'page2.png'));
     }, { timeout: 90_000 }).toBe(true);
     child.kill('SIGTERM');
     await new Promise<void>(resolve => child.once('exit', () => resolve()));
@@ -90,18 +94,21 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
 `);
     const ocr = path.join(temp, 'ocr');
     execFileSync('swiftc', [swift, '-o', ocr], { timeout: 60_000 });
-    const pictures = Array.from({ length: 2 }, (_, n) =>
+    const pictures = Array.from({ length: 3 }, (_, n) =>
       `<img alt="Étape ${n + 1}" src="data:image/png;base64,${fs.readFileSync(path.join(temp, `page${n}.png`)).toString('base64')}">`);
     await page.setContent(`<style>body{margin:0;background:#222}main{display:grid;grid-template-columns:repeat(2,480px);gap:8px;padding:8px;width:max-content}img{width:480px;height:320px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
-    await expect(page.getByRole('img')).toHaveCount(2);
+    await expect(page.getByRole('img')).toHaveCount(3);
     const texts: string[] = [];
-    for (let n = 0; n < 2; n++) {
+    for (let n = 0; n < 3; n++) {
       const enlarged = path.join(temp, `readable${n}.png`);
       await page.getByRole('img').nth(n).screenshot({ path: enlarged });
       texts.push(execFileSync(ocr, [enlarged], { encoding: 'utf8', timeout: 60_000 }));
     }
     expect(texts[0]).toMatch(/GR[ÜU]SSE/i);
     expect(texts[1]).toMatch(/GEF[ÜU]HLE/i);
+    // Le troisième écran est le vrai menu d'action du Cube, ouvert par
+    // navigation depuis la sauvegarde, sans substitution du texte affiché.
+    expect(texts[2]).toMatch(/\bNutzen\b/i);
     expect(texts.join(' ')).not.toMatch(/GREETINGS|FEELINGS/);
     const proof = path.join(os.tmpdir(), 'combat-ui-02-proof.png');
     await page.locator('main').screenshot({ path: proof });

@@ -1,5 +1,7 @@
 """B-668 : buffers positionnels, aides Pokédex et boîtes des mémos."""
 from pathlib import Path
+import hashlib
+import json
 import re
 
 import pytest
@@ -7,6 +9,27 @@ import pytest
 from src.core.dialogue_linewrap import line_width
 
 ROOT = Path(__file__).resolve().parents[3]
+
+
+def test_qualification_covers_exact_ticket_scope_and_rom_corrections():
+    """Empêche une omission, un doublon ou un débordement vers un autre lot."""
+    report = (ROOT / 'docs/analysis/68_DE_COMBAT_UI_02.md').read_text()
+    cases = json.loads((ROOT / 'tests/fixtures/combat_ui_02.json').read_text())
+
+    rows = re.findall(r'^\| (0x[0-9A-F]+) \| .*$', report, re.MULTILINE)
+    offsets = sorted(int(offset, 16) for offset in rows)
+    fingerprint = hashlib.sha256(
+        ','.join(f'{offset:06X}' for offset in offsets).encode()
+    ).hexdigest()
+    corrected = set(re.findall(
+        r'^\| (0x[0-9A-F]+) \| [^|]+ \| Corrigé :', report, re.MULTILINE
+    ))
+
+    assert len(offsets) == len(set(offsets)) == 300
+    # Empreinte de la liste exclusive fournie dans B-668, indépendante du rapport.
+    assert fingerprint == 'a5bf4007ff8c3e5786724f9f91ef391c4c335b4064fec7e7fcd15137e6cbe43f'
+    assert corrected == {case['offset'] for case in cases}
+    assert 'ÉCHEC' not in report
 
 
 def translations():
