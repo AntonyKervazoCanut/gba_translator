@@ -3065,3 +3065,543 @@ entries:
   - offset: "0x3e8fb8"
     name: "PT-06 0x3e8fb8"
     expected: 'AGRADECER'
+  - offset: "0x3d4f26"
+    name: "PT-05 0x3d4f26"
+    expected: 'Bola de alta qualidade, com\nmais chance de captura que\numa Great Ball.'
+  - offset: "0x3d4f78"
+    name: "PT-05 0x3d4f78"
+    expected: 'Bola de boa qualidade, com\nmais chance de captura que\numa Poké Ball comum.'
+  - offset: "0x3d4fd0"
+    name: "PT-05 0x3d4fd0"
+    expected: 'Bola para capturar Pokémon\nselvagens. Seu formato\nlembra uma cápsula.'
+  - offset: "0x3d501a"
+    name: "PT-05 0x3d501a"
+    expected: 'Bola usada somente na\nSafari Zone. Tem uma estampa\ncamuflada.'
+  - offset: "0x3d5077"
+    name: "PT-05 0x3d5077"
+    expected: 'Bola especial que funciona\nmelhor com Pokémon dos tipos\nÁgua e Inseto.'
+  - offset: "0x3d50cc"
+    name: "PT-05 0x3d50cc"
+    expected: 'Bola especial que funciona\nmelhor com Pokémon nas\nprofundezas do mar.'
+  - offset: "0x3d511d"
+    name: "PT-05 0x3d511d"
+    expected: 'Bola especial que funciona\nmelhor com Pokémon\nmais fracos.'
+  - offset: "0x3d5165"
+    name: "PT-05 0x3d5165"
+    expected: 'Bola especial que funciona\nmelhor com Pokémon\njá capturados antes.'
+  - offset: "0x3d51b4"
+    name: "PT-05 0x3d51b4"
+    expected: 'Bola especial que melhora\nquanto mais turnos durarem\na batalha.'
+  - offset: "0x3d5216"
+    name: "PT-05 0x3d5216"
+    expected: 'Bola confortável que deixa\no Pokémon selvagem capturado\namigável depressa.'
+  - offset: "0x3d5263"
+    name: "PT-05 0x3d5263"
+    expected: 'Bola rara feita para\ncomemorar um evento\nespecial.'
+  - offset: "0x3d52b2"
+    name: "PT-05 0x3d52b2"
+    expected: 'Remédio em spray para feridas.\nRestaura 20 PS\nde um Pokémon.'
+  - offset: "0x3d52ff"
+    name: "PT-05 0x3d52ff"
+    expected: 'Remédio em spray.\nCura o envenenamento\nde um Pokémon.'
+  - offset: "0x3d533d"
+    name: "PT-05 0x3d533d"
+    expected: 'Remédio em spray.\nCura a queimadura de um Pokémon.'
+  - offset: "0x3d53a9"
+    name: "PT-05 0x3d53a9"
+    expected: 'Remédio em spray.\nAcorda um Pokémon adormecido.'
+  - offset: "0x3d53df"
+    name: "PT-05 0x3d53df"
+    expected: 'Remédio em spray.\nCura a paralisia\nde um Pokémon.'
+  - offset: "0x3d541b"
+    name: "PT-05 0x3d541b"
+    expected: 'Remédio que restaura todos\nos PS e cura os problemas\nde status de um Pokémon.'
+  - offset: "0x3d546f"
+    name: "PT-05 0x3d546f"
+    expected: 'Remédio em spray para feridas.\nRestaura todos os PS\nde um Pokémon.'
+  - offset: "0x3d54b5"
+    name: "PT-05 0x3d54b5"
+    expected: 'Remédio em spray para feridas.\nRestaura 200 PS\nde um Pokémon.'
+  - offset: "0x3d5503"
+    name: "PT-05 0x3d5503"
+    expected: 'Remédio em spray para feridas.\nRestaura 50 PS\nde um Pokémon.'
+  - offset: "0x3d5550"
+    name: "PT-05 0x3d5550"
+    expected: 'Remédio em spray.\nCura todos os problemas\nde status de um Pokémon.'
+  - offset: "0x3d5598"
+    name: "PT-05 0x3d5598"
+    expected: 'Revive um Pokémon nocauteado\ne restaura metade\ndos seus PS máximos.'
+  - offset: "0x3d55ec"
+    name: "PT-05 0x3d55ec"
+    expected: 'Revive um Pokémon nocauteado\ne restaura todos os seus PS.'
+  - offset: "0x3d562b"
+    name: "PT-05 0x3d562b"
+    expected: 'Água rica em minerais.\nRestaura 50 PS\nde um Pokémon.'
+  - offset: "0x3d567e"
+    name: "PT-05 0x3d567e"
+    expected: 'Refrigerante com gás.\nRestaura 60 PS\nde um Pokémon.'
+  - offset: "0x3d56c2"
+    name: "PT-05 0x3d56c2"
+    expected: 'Bebida muito doce.\nRestaura 80 PS\nde um Pokémon.'
+  - offset: "0x3d5706"
+    name: "PT-05 0x3d5706"
+    expected: 'Leite muito nutritivo.\nRestaura 100 PS\nde um Pokémon.'
+  - offset: "0x3d574f"
+    name: "PT-05 0x3d574f"
+    expected: 'Pó medicinal muito amargo.\nRestaura 50 PS\nde um Pokémon.'
+  - offset: "0x3d579e"
+    name: "PT-05 0x3d579e"
+    expected: 'Raiz muito amarga.\nRestaura 200 PS\nde um Pokémon.'
+  - offset: "0x3d57e3"
+    name: "PT-05 0x3d57e3"
+    expected: 'Pó medicinal muito amargo.\nCura todos os problemas\nde status de um Pokémon.'
+  - offset: "0x3d5833"
+    name: "PT-05 0x3d5833"
+    expected: 'Erva medicinal bem amarga.\nRevive um Pokémon nocauteado\ncom todos os PS.'
+  - offset: "0x3d5883"
+    name: "PT-05 0x3d5883"
+    expected: 'Restaura 10 PP de um movimento\nescolhido de um Pokémon.'
+  - offset: "0x3d58bf"
+    name: "PT-05 0x3d58bf"
+    expected: 'Restaura todos os PP de um\nmovimento de um Pokémon.'
+  - offset: "0x3d58f4"
+    name: "PT-05 0x3d58f4"
+    expected: 'Restaura 10 PP de cada\nmovimento de um Pokémon.'
+  - offset: "0x3d5934"
+    name: "PT-05 0x3d5934"
+    expected: 'Restaura todos os PP dos\nmovimentos de um Pokémon.'
+  - offset: "0x3d5968"
+    name: "PT-05 0x3d5968"
+    expected: 'Especialidade de Lavaridge Town.\nCura todos os problemas\nde status de um Pokémon.'
+  - offset: "0x3d59bb"
+    name: "PT-05 0x3d59bb"
+    expected: 'Flauta azul de vidro.\nAcorda um Pokémon adormecido.'
+  - offset: "0x3d59ef"
+    name: "PT-05 0x3d59ef"
+    expected: 'Flauta de vidro amarelo que\ncura a confusão de um Pokémon.'
+  - offset: "0x3d5a2d"
+    name: "PT-05 0x3d5a2d"
+    expected: 'Flauta de vidro vermelho que\ncura a paixão de um Pokémon.'
+  - offset: "0x3d5a6a"
+    name: "PT-05 0x3d5a6a"
+    expected: 'Flauta de vidro preto.\nAo tocar, eleva o nível\ndos Pokémon selvagens.'
+  - offset: "0x3d5ab8"
+    name: "PT-05 0x3d5ab8"
+    expected: 'Flauta branca de vidro\nReduz o nível dos\nPokémon selvagens ao tocar.'
+  - offset: "0x3d5b06"
+    name: "PT-05 0x3d5b06"
+    expected: 'Suco 100% puro.\nRestaura 20 PS\nde um Pokémon.'
+  - offset: "0x3d5b49"
+    name: "PT-05 0x3d5b49"
+    expected: 'Revive todos os nocauteados\ncom todos os PS.'
+  - offset: "0x3d5b7a"
+    name: "PT-05 0x3d5b7a"
+    expected: 'Sal puro obtido sob a água.\nÉ extremamente salgado.'
+  - offset: "0x3d5bc5"
+    name: "PT-05 0x3d5bc5"
+    expected: 'Bela concha achada sob a água.\nTem listras azuis e brancas.'
+  - offset: "0x3d5c1a"
+    name: "PT-05 0x3d5c1a"
+    expected: 'Fragmento vermelho.\nParece ser parte de uma\nferramenta muito antiga.'
+  - offset: "0x3d5c66"
+    name: "PT-05 0x3d5c66"
+    expected: 'Pequeno fragmento azul.\nParece ser parte de uma\nferramenta muito antiga.'
+  - offset: "0x3d5cb3"
+    name: "PT-05 0x3d5cb3"
+    expected: 'Pequeno fragmento amarelo.\nParece ser parte de uma\nferramenta muito antiga.'
+  - offset: "0x3d5d02"
+    name: "PT-05 0x3d5d02"
+    expected: 'Pequeno fragmento verde.\nParece ser parte de uma\nferramenta muito antiga.'
+  - offset: "0x3d5d50"
+    name: "PT-05 0x3d5d50"
+    expected: 'Bebida nutritiva para Pokémon.\nAumenta os PS de base\nde um Pokémon.'
+  - offset: "0x3d5d96"
+    name: "PT-05 0x3d5d96"
+    expected: 'Bebida nutritiva para Pokémon.\nAumenta o Ataque de base\nde um Pokémon.'
+  - offset: "0x3d5de5"
+    name: "PT-05 0x3d5de5"
+    expected: 'Bebida nutritiva para Pokémon.\nAumenta a Defesa de base\nde um Pokémon.'
+  - offset: "0x3d5e35"
+    name: "PT-05 0x3d5e35"
+    expected: 'Bebida nutritiva para Pokémon.\nAumenta a Velocidade de base\nde um Pokémon.'
+  - offset: "0x3d5e83"
+    name: "PT-05 0x3d5e83"
+    expected: 'Bebida nutritiva para Pokémon.\nAumenta o Ataque Especial\nde base de um Pokémon.'
+  - offset: "0x3d5ed3"
+    name: "PT-05 0x3d5ed3"
+    expected: 'Doce cheio de energia.\nEleva o nível de um Pokémon\nem um ponto.'
+  - offset: "0x3d5f20"
+    name: "PT-05 0x3d5f20"
+    expected: 'Aumenta um pouco os PP máximos\nde um movimento de um Pokémon.'
+  - offset: "0x3d5f63"
+    name: "PT-05 0x3d5f63"
+    expected: 'Bebida nutritiva para Pokémon.\nAumenta a Defesa Especial\nde base de um Pokémon.'
+  - offset: "0x3d5fb3"
+    name: "PT-05 0x3d5fb3"
+    expected: 'Eleva os PP de um movimento\nde um Pokémon ao\nseu valor máximo.'
+  - offset: "0x3d5ffa"
+    name: "PT-05 0x3d5ffa"
+    expected: 'Impede a redução dos atributos\ndos Pokémon da equipe por\ncinco turnos após o uso.'
+  - offset: "0x3d604d"
+    name: "PT-05 0x3d604d"
+    expected: 'Aumenta a chance de críticos\nna batalha. O efeito acaba\nse o Pokémon for retirado.'
+  - offset: "0x3d624f"
+    name: "PT-05 0x3d624f"
+    expected: 'Boneca atraente.\nPermite fugir de uma batalha\ncom um Pokémon selvagem.'
+  - offset: "0x3d6297"
+    name: "PT-05 0x3d6297"
+    expected: 'Objeto atraente.\nPermite fugir de uma batalha\ncom um Pokémon selvagem.'
+  - offset: "0x3d62df"
+    name: "PT-05 0x3d62df"
+    expected: 'Afasta Pokémon selvagens\nfracos por 200 passos.'
+  - offset: "0x3d6318"
+    name: "PT-05 0x3d6318"
+    expected: 'Afasta Pokémon selvagens\nfracos por 250 passos.'
+  - offset: "0x3d6351"
+    name: "PT-05 0x3d6351"
+    expected: 'Corda longa e resistente.\nPermite sair de cavernas\nou masmorras na hora.'
+  - offset: "0x3d639c"
+    name: "PT-05 0x3d639c"
+    expected: 'Afasta Pokémon selvagens\nfracos por 100 passos.'
+  - offset: "0x3d63d5"
+    name: "PT-05 0x3d63d5"
+    expected: 'Pedra peculiar que faz certas\nespécies de Pokémon evoluírem.\nÉ vermelha como o sol.'
+  - offset: "0x3d642d"
+    name: "PT-05 0x3d642d"
+    expected: 'Pedra peculiar que faz certas\nespécies de Pokémon evoluírem.\nÉ preta como o céu noturno.'
+  - offset: "0x3d648d"
+    name: "PT-05 0x3d648d"
+    expected: 'Pedra peculiar que faz certas\nespécies de Pokémon evoluírem.\nÉ de cor laranja.'
+  - offset: "0x3d64e2"
+    name: "PT-05 0x3d64e2"
+    expected: 'Pedra peculiar que faz certas\nespécies de Pokémon evoluírem.\nTem um desenho de raio.'
+  - offset: "0x3d653f"
+    name: "PT-05 0x3d653f"
+    expected: 'Pedra peculiar que faz certas\nespécies de Pokémon evoluírem.\nÉ azul-clara e límpida.'
+  - offset: "0x3d6598"
+    name: "PT-05 0x3d6598"
+    expected: 'Pedra peculiar que faz certas\nespécies de Pokémon evoluírem.\nTem um desenho de folha.'
+  - offset: "0x3d65ee"
+    name: "PT-05 0x3d65ee"
+    expected: 'Cogumelo pequeno e raro.\nÉ muito popular entre\ncertas pessoas.'
+  - offset: "0x3d6633"
+    name: "PT-05 0x3d6633"
+    expected: 'Cogumelo grande e raro.\nÉ muito popular entre\ncertas pessoas.'
+  - offset: "0x3d6677"
+    name: "PT-05 0x3d6677"
+    expected: 'Pérola pequena com um\nbelo brilho prateado.\nVendida por um preço baixo.'
+  - offset: "0x3d66d0"
+    name: "PT-05 0x3d66d0"
+    expected: 'Pérola grande com um\nbelo brilho prateado.\nVendida por um preço alto.'
+  - offset: "0x3d672c"
+    name: "PT-05 0x3d672c"
+    expected: 'Areia vermelha e sedosa.\nÉ solta e muito bonita.\nVendida por um preço alto.'
+  - offset: "0x3d6778"
+    name: "PT-05 0x3d6778"
+    expected: 'Fragmento de uma bela gema\ncom brilho vermelho.\nVendido por um preço alto.'
+  - offset: "0x3d67ce"
+    name: "PT-05 0x3d67ce"
+    expected: 'Pepita de ouro puro\ncom um brilho intenso.\nVendida por um preço alto.'
+  - offset: "0x3d6825"
+    name: "PT-05 0x3d6825"
+    expected: 'Escama rara em forma de coração.\nTem um brilho suave com\nas cores do arco-íris.'
+  - offset: "0x3d6887"
+    name: "PT-05 0x3d6887"
+    expected: 'Carta com estampa de Zigzagoon.\nÉ muito fofa.\nPara um Pokémon segurar.'
+  - offset: "0x3d68d8"
+    name: "PT-05 0x3d68d8"
+    expected: 'Carta com estampa de Wingull.\nÉ muito fofa.\nPara um Pokémon segurar.'
+  - offset: "0x3d6927"
+    name: "PT-05 0x3d6927"
+    expected: 'Carta com estampa de Pikachu.\nÉ muito fofa.\nPara um Pokémon segurar.'
+  - offset: "0x3d6976"
+    name: "PT-05 0x3d6976"
+    expected: 'Carta com estampa de Magnemite.\nÉ muito fofa.\nPara um Pokémon segurar.'
+  - offset: "0x3d69c7"
+    name: "PT-05 0x3d69c7"
+    expected: 'Carta com estampa de Slakoth.\nÉ muito fofa.\nPara um Pokémon segurar.'
+  - offset: "0x3d6a16"
+    name: "PT-05 0x3d6a16"
+    expected: 'Carta com estampa de Wailmer.\nÉ muito fofa.\nPara um Pokémon segurar.'
+  - offset: "0x3d6a65"
+    name: "PT-05 0x3d6a65"
+    expected: 'Carta para um Pokémon segurar.\nTerá a estampa do Pokémon\nque a estiver segurando.'
+  - offset: "0x3d6ac0"
+    name: "PT-05 0x3d6ac0"
+    expected: 'Carta com estampa de Duskull.\nÉ muito fofa.\nPara um Pokémon segurar.'
+  - offset: "0x3d6b0f"
+    name: "PT-05 0x3d6b0f"
+    expected: 'Carta com estampa de Bellossom.\nÉ muito fofa.\nPara um Pokémon segurar.'
+  - offset: "0x3d6b60"
+    name: "PT-05 0x3d6b60"
+    expected: 'Carta para um Pokémon segurar.\nTerá a estampa do Pokémon\nque a estiver segurando.'
+  - offset: "0x3d6bbb"
+    name: "PT-05 0x3d6bbb"
+    expected: 'Carta com uma estampa\nlinda e extravagante.\nPara um Pokémon segurar.'
+  - offset: "0x3d6c13"
+    name: "PT-05 0x3d6c13"
+    expected: 'Carta com estampa de três\nPokémon fofos.\nPara um Pokémon segurar.'
+  - offset: "0x3d6c6b"
+    name: "PT-05 0x3d6c6b"
+    expected: 'Segurada por um Pokémon, cura\na paralisia durante a batalha.'
+  - offset: "0x3d6cb0"
+    name: "PT-05 0x3d6cb0"
+    expected: 'Segurada por um Pokémon,\no acorda durante a batalha.'
+  - offset: "0x3d6cee"
+    name: "PT-05 0x3d6cee"
+    expected: 'Segurada por um Pokémon, cura\no veneno durante a batalha.'
+  - offset: "0x3d6d30"
+    name: "PT-05 0x3d6d30"
+    expected: 'Segurada por um Pokémon, cura\na queimadura durante a batalha.'
+  - offset: "0x3d6db4"
+    name: "PT-05 0x3d6db4"
+    expected: 'Segurada por um Pokémon,\nrestaura 10 PP na batalha.'
+  - offset: "0x3d6df8"
+    name: "PT-05 0x3d6df8"
+    expected: 'Segurada por um Pokémon,\nrestaura 10 PS na batalha.'
+  - offset: "0x3d6e3c"
+    name: "PT-05 0x3d6e3c"
+    expected: 'Segurada por um Pokémon, cura\na confusão durante a batalha.'
+  - offset: "0x3d6e81"
+    name: "PT-05 0x3d6e81"
+    expected: 'Segurada por um Pokémon, cura\nproblemas de status na batalha.'
+  - offset: "0x3d6f0c"
+    name: "PT-05 0x3d6f0c"
+    expected: 'Item que restaura PS ao portador,\nmas pode causar confusão.'
+  - offset: "0x3d6f4c"
+    name: "PT-05 0x3d6f4c"
+    expected: 'Item que restaura PS ao portador,\nmas pode causar confusão.'
+  - offset: "0x3d6f8c"
+    name: "PT-05 0x3d6f8c"
+    expected: 'Item que restaura PS ao portador,\nmas pode causar confusão.'
+  - offset: "0x3d6fcc"
+    name: "PT-05 0x3d6fcc"
+    expected: 'Item que restaura PS ao portador,\nmas pode causar confusão.'
+  - offset: "0x3d700c"
+    name: "PT-05 0x3d700c"
+    expected: 'Item que restaura PS ao portador,\nmas pode causar confusão.'
+  - offset: "0x3d7524"
+    name: "PT-05 0x3d7524"
+    expected: 'Aumenta o Ataque do portador\nquando ele está em apuros.'
+  - offset: "0x3d7562"
+    name: "PT-05 0x3d7562"
+    expected: 'Aumenta a Defesa do portador\nquando ele está em apuros.'
+  - offset: "0x3d75a1"
+    name: "PT-05 0x3d75a1"
+    expected: 'Aumenta a Velocidade do portador\nquando ele está em apuros.'
+  - offset: "0x3d75de"
+    name: "PT-05 0x3d75de"
+    expected: 'Eleva o Ataque Especial\ndo portador em apuros.'
+  - offset: "0x3d761d"
+    name: "PT-05 0x3d761d"
+    expected: 'Eleva a Defesa Especial\ndo portador em apuros.'
+  - offset: "0x3d765c"
+    name: "PT-05 0x3d765c"
+    expected: 'Aumenta a chance de críticos\nquando o portador está em apuros.'
+  - offset: "0x3d76a1"
+    name: "PT-05 0x3d76a1"
+    expected: 'Eleva muito um atributo do\nportador quando está em apuros.'
+  - offset: "0x3d76e0"
+    name: "PT-05 0x3d76e0"
+    expected: 'Pode ser moída em pó para\nservir de ingrediente medicinal.'
+  - offset: "0x3d771e"
+    name: "PT-05 0x3d771e"
+    expected: 'Item para um Pokémon segurar.\nSeu brilho enganoso reduz\na precisão do adversário.'
+  - offset: "0x3d777c"
+    name: "PT-05 0x3d777c"
+    expected: 'Item para um Pokémon segurar.\nRestaura atributos reduzidos\nna batalha. Uso único.'
+  - offset: "0x3d77df"
+    name: "PT-05 0x3d77df"
+    expected: 'Item para um Pokémon segurar.\nPromove o crescimento, mas\nreduz a Velocidade ao segurá-lo.'
+  - offset: "0x3d783d"
+    name: "PT-05 0x3d783d"
+    expected: 'Ao ligar, todos os Pokémon\nda equipe recebem pontos\nde Exp. das batalhas.'
+  - offset: "0x3d789f"
+    name: "PT-05 0x3d789f"
+    expected: 'Item para um Pokémon segurar.\nGarra leve e afiada que pode\nfazer o portador agir primeiro.'
+  - offset: "0x3d7900"
+    name: "PT-05 0x3d7900"
+    expected: 'Item para um Pokémon segurar.\nSino de som suave que deixa\no portador calmo e amigável.'
+  - offset: "0x3d7969"
+    name: "PT-05 0x3d7969"
+    expected: 'Item para um Pokémon segurar.\nCura a paixão do portador.\nSó pode ser usado uma vez.'
+  - offset: "0x3d79c7"
+    name: "PT-05 0x3d79c7"
+    expected: 'Item para um Pokémon segurar.\nFortalece um movimento, que\nse torna o único utilizável.'
+  - offset: "0x3d7a22"
+    name: "PT-05 0x3d7a22"
+    expected: 'Item para um Pokémon segurar.\nPode fazer o alvo recuar\nao sofrer dano.'
+  - offset: "0x3d7a76"
+    name: "PT-05 0x3d7a76"
+    expected: 'Item para um Pokémon segurar.\nPó prateado que fortalece\nmovimentos do tipo Inseto.'
+  - offset: "0x3d7b36"
+    name: "PT-05 0x3d7b36"
+    expected: 'Item para um Pokémon segurar.\nAfasta Pokémon selvagens se\no portador liderar a equipe.'
+  - offset: "0x3d7be5"
+    name: "PT-05 0x3d7be5"
+    expected: 'Presa de brilho prateado\npara Clamperl segurar.\nAumenta o Ataque Especial.'
+  - offset: "0x3d7c45"
+    name: "PT-05 0x3d7c45"
+    expected: 'Escama de brilho rosa suave\npara Clamperl segurar.\nAumenta a Defesa Especial.'
+  - offset: "0x3d7ca4"
+    name: "PT-05 0x3d7ca4"
+    expected: 'Item para um Pokémon segurar.\nPermite ao portador fugir de\nqualquer Pokémon selvagem.'
+  - offset: "0x3d7d02"
+    name: "PT-05 0x3d7d02"
+    expected: 'Item para um Pokémon segurar.\nImpede a evolução\ndo portador.'
+  - offset: "0x3d7d53"
+    name: "PT-05 0x3d7d53"
+    expected: 'Item para um Pokémon segurar.\nPode permitir resistir a um\nataque e ficar com 1 PS.'
+  - offset: "0x3d7db1"
+    name: "PT-05 0x3d7db1"
+    expected: 'Item para um Pokémon segurar.\nOvo cheio de alegria que dá\nExp. extra nas batalhas.'
+  - offset: "0x3d7e17"
+    name: "PT-05 0x3d7e17"
+    expected: 'Item para um Pokémon segurar.\nLente que aumenta a chance\nde críticos do portador.'
+  - offset: "0x3d7e7a"
+    name: "PT-05 0x3d7e7a"
+    expected: 'Item para um Pokémon segurar.\nPelícula metálica que fortalece\nmovimentos do tipo Aço.'
+  - offset: "0x3d7ede"
+    name: "PT-05 0x3d7ede"
+    expected: 'Item para um Pokémon segurar.\nO portador recupera PS\naos poucos durante a batalha.'
+  - offset: "0x3d7f37"
+    name: "PT-05 0x3d7f37"
+    expected: 'Escama grossa e dura.\nPode ser segurada por\num Pokémon Dragão.'
+  - offset: "0x3d7f79"
+    name: "PT-05 0x3d7f79"
+    expected: 'Esfera para Pikachu segurar.\nAumenta atributos ofensivos.\nPode dar choque ao tocá-la.'
+  - offset: "0x3d7fd5"
+    name: "PT-05 0x3d7fd5"
+    expected: 'Item para um Pokémon segurar.\nAreia solta e sedosa que reforça\nmovimentos do tipo Terrestre.'
+  - offset: "0x3d8036"
+    name: "PT-05 0x3d8036"
+    expected: 'Item para um Pokémon segurar.\nPedra indestrutível que reforça\nmovimentos do tipo Pedra.'
+  - offset: "0x3d8096"
+    name: "PT-05 0x3d8096"
+    expected: 'Item para um Pokémon segurar.\nSemente cheia de vida que reforça\nmovimentos do tipo Planta.'
+  - offset: "0x3d80fa"
+    name: "PT-05 0x3d80fa"
+    expected: 'Item para um Pokémon segurar.\nÓculos suspeitos que reforçam\nmovimentos do tipo Sombrio.'
+  - offset: "0x3d8158"
+    name: "PT-05 0x3d8158"
+    expected: 'Item para um Pokémon segurar.\nFaixa que dá determinação e\nreforça movimentos tipo Lutador.'
+  - offset: "0x3d81b3"
+    name: "PT-05 0x3d81b3"
+    expected: 'Item para um Pokémon segurar.\nÍmã forte que reforça\nmovimentos do tipo Elétrico.'
+  - offset: "0x3d8214"
+    name: "PT-05 0x3d8214"
+    expected: 'Item para um Pokémon segurar.\nGema em forma de gota que reforça\nmovimentos do tipo Água.'
+  - offset: "0x3d8276"
+    name: "PT-05 0x3d8276"
+    expected: 'Item para um Pokémon segurar.\nBico afiado que reforça\nmovimentos do tipo Voador.'
+  - offset: "0x3d82d6"
+    name: "PT-05 0x3d82d6"
+    expected: 'Item para um Pokémon segurar.\nFarpa venenosa que reforça\nmovimentos do tipo Venenoso.'
+  - offset: "0x3d833b"
+    name: "PT-05 0x3d833b"
+    expected: 'Item para um Pokémon segurar.\nGelo que repele calor e reforça\nmovimentos do tipo Gelo.'
+  - offset: "0x3d8397"
+    name: "PT-05 0x3d8397"
+    expected: 'Item para um Pokémon segurar.\nTalismã que reforça\nmovimentos do tipo Fantasma.'
+  - offset: "0x3d83ec"
+    name: "PT-05 0x3d83ec"
+    expected: 'Item para um Pokémon segurar.\nColher telecinética que reforça\nmovimentos do tipo Psíquico.'
+  - offset: "0x3d844e"
+    name: "PT-05 0x3d844e"
+    expected: 'Item para um Pokémon segurar.\nCombustível que reforça\nmovimentos do tipo Fogo.'
+  - offset: "0x3d84ac"
+    name: "PT-05 0x3d84ac"
+    expected: 'Item para um Pokémon segurar.\nPresa dura e afiada que reforça\nmovimentos do tipo Dragão.'
+  - offset: "0x3d850f"
+    name: "PT-05 0x3d850f"
+    expected: 'Item para um Pokémon segurar.\nLenço luxuoso que reforça\nmovimentos do tipo Normal.'
+  - offset: "0x3d856e"
+    name: "PT-05 0x3d856e"
+    expected: 'Aparelho transparente cheio\nde dados variados.\nFabricado pela Silph Co.'
+  - offset: "0x3d85ba"
+    name: "PT-05 0x3d85ba"
+    expected: 'Item para um Pokémon segurar.\nO portador recupera alguns PS\nao atingir o adversário.'
+  - offset: "0x3d8616"
+    name: "PT-05 0x3d8616"
+    expected: 'Item para um Pokémon segurar.\nReforça um pouco os movimentos\ndo tipo Água.'
+  - offset: "0x3d8669"
+    name: "PT-05 0x3d8669"
+    expected: 'Item para um Pokémon segurar.\nSeu aroma enganoso reduz\num pouco a precisão do alvo.'
+  - offset: "0x3d86c0"
+    name: "PT-05 0x3d86c0"
+    expected: 'Luva para Chansey segurar.\nAumenta sua chance\nde acertos críticos.'
+  - offset: "0x3d8709"
+    name: "PT-05 0x3d8709"
+    expected: 'Pó fino e duro\npara Ditto segurar.\nAumenta sua Defesa.'
+  - offset: "0x3d8754"
+    name: "PT-05 0x3d8754"
+    expected: 'Osso duro para Cubone\nou Marowak segurar.\nAumenta o Ataque.'
+  - offset: "0x3d87ab"
+    name: "PT-05 0x3d87ab"
+    expected: 'Alho-poró para Farfetch''d\nsegurar. Aumenta sua chance\nde acertos críticos.'
+  - offset: "0x3d89d7"
+    name: "PT-05 0x3d89d7"
+    expected: 'Bicicleta dobrável, ao menos\nduas vezes mais veloz que a pé.'
+  - offset: "0x3d8acc"
+    name: "PT-05 0x3d8acc"
+    expected: 'Vara de pesca velha e gasta.\nUse perto da água para\npescar Pokémon selvagens.'
+  - offset: "0x3d8b23"
+    name: "PT-05 0x3d8b23"
+    expected: 'Vara de pesca nova e boa.\nUse perto da água para\npescar Pokémon selvagens.'
+  - offset: "0x3d8b7b"
+    name: "PT-05 0x3d8b7b"
+    expected: 'Vara de pesca de alta tecnologia.\nUse perto da água para\npescar Pokémon selvagens.'
+  - offset: "0x3d8bd4"
+    name: "PT-05 0x3d8bd4"
+    expected: 'Bilhete para navegar entre\nWest e East Borrius.\nTem um desenho de navio.'
+  - offset: "0x3d8c8a"
+    name: "PT-05 0x3d8c8a"
+    expected: 'Regador prático.\nAjuda as Berries plantadas\nem solo fofo a crescerem fortes.'
+  - offset: "0x3d8d37"
+    name: "PT-05 0x3d8d37"
+    expected: 'Saco que recolhe cinza\nvulcânica ao caminhar\nsobre cinzas profundas.'
+  - offset: "0x3d8d85"
+    name: "PT-05 0x3d8d85"
+    expected: 'Chave de NEW MAUVILLE,\nconstruída sob\nMAUVILLE CITY.'
+  - offset: "0x3d8e68"
+    name: "PT-05 0x3d8e68"
+    expected: 'Carta importante para STEVEN,\ndo PRESIDENTE da\nDEVON CORPORATION.'
+  - offset: "0x3d8ebd"
+    name: "PT-05 0x3d8ebd"
+    expected: 'Bilhete para viajar de balsa\naté uma ilha distante ao sul.\nTem um desenho de ilha.'
+  - offset: "0x3d8f2a"
+    name: "PT-05 0x3d8f2a"
+    expected: 'Esfera de brilho vermelho.\nDizem que guarda um incrível\npoder dos tempos antigos.'
+  - offset: "0x3d8f7f"
+    name: "PT-05 0x3d8f7f"
+    expected: 'Esfera que brilha em azul.\nDizem que guarda um incrível\npoder dos tempos antigos.'
+  - offset: "0x3d9025"
+    name: "PT-05 0x3d9025"
+    expected: 'Óculos de proteção que\npermitem a um Treinador cruzar\naté tempestades de areia.'
+  - offset: "0x3d9083"
+    name: "PT-05 0x3d9083"
+    expected: 'Pedaço do meteorito que caiu\ndo espaço em Crater Town\nhá muito tempo.\n'
+  - offset: "0x3d90d7"
+    name: "PT-05 0x3d90d7"
+    expected: 'Chave que desliga a barreira\nelétrica de The Shadows\nem Thundercap Mt.'
+  - offset: "0x3d9139"
+    name: "PT-05 0x3d9139"
+    expected: 'Cartão-chave que abre portas\nde nível de acesso 2\nna base de The Shadows.'
+  - offset: "0x3d919b"
+    name: "PT-05 0x3d919b"
+    expected: 'Cartão-chave que abre portas\nde nível de acesso 3\nna base de The Shadows.'
+  - offset: "0x3d91fd"
+    name: "PT-05 0x3d91fd"
+    expected: 'Cartão-chave que abre portas\nde nível de acesso 1\nna base de The Shadows.'
+  - offset: "0x3d925f"
+    name: "PT-05 0x3d925f"
+    expected: 'Chave do porão do\nABANDONED SHIP. É velha\ne parece frágil.'
+  - offset: "0x3d92bf"
+    name: "PT-05 0x3d92bf"
+    expected: 'Fóssil de um antigo Pokémon\ndo fundo do mar. Parece\nparte de uma raiz.'
+  - offset: "0x3d931a"
+    name: "PT-05 0x3d931a"
+    expected: 'Fóssil de um antigo Pokémon\ndo fundo do mar. Parece\nparte de uma garra.'
+  - offset: "0x3d936f"
+    name: "PT-05 0x3d936f"
+    expected: 'Visor que detecta a presença\nde Pokémon invisíveis.\nFeito pela Devon Corp.'
