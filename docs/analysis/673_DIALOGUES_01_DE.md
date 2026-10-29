@@ -14,7 +14,7 @@ ROM EN vérifiée : SHA-256
 Les noms d'attaques sont confrontés au référentiel figé
 `languages/de/data/move_names_de_official.json`, les objets au glossaire
 `official_terminology.yaml` et à la table allemande existante, lus sans édition.
-Les 162 traductions préparées sont toutes présentes dans l'extraction EN utilisée
+Les 162 traductions corrigées sont toutes présentes dans l'extraction EN utilisée
 par le build ; leur insertion ne repose donc pas sur une hypothèse de couverture.
 
 Les corrections portent notamment sur Eishieb (au lieu d'Eisenfaust), Rückkehr
@@ -68,6 +68,9 @@ sans scène active démontrée, l'absence de référence directe est le constat
 binaire ; elle ne constitue pas une preuve universelle d'inaccessibilité par
 calcul d'adresse. Aucune insertion n'est faite sur cette seule supposition.
 
+Bilan des 300 décisions : **162 corrigés**, **6 déjà corrects**, **83 noms/cris
+légitimes**, **29 entrées sans référence directe**, **20 besoins de patch séparé**.
+
 Vingt offsets possèdent une référence mais commencent dans un fragment ou des
 instructions : ils sont classés **besoin de patch séparé**, et non « chaîne morte ».
 Les sites exacts sont consignés dans le JSON. Corriger leur pointeur ou traduire
@@ -79,11 +82,72 @@ déplacement : ce préfixe n'est pas une lettre à traduire aveuglément.
 
 ## Validation locale
 
-Résultats binaires et visuels à compléter après le build et la lecture du commit.
-Le test `tests/unit/test_dialogues_01_de.py` contrôle les 300 décisions et les
-valeurs gagnantes ; ses tests marqués `rom` suivent les sites de pointeurs
-originaux après toute la chaîne de patches. Le test Playwright
-`tests/e2e-playwright/specs/dialogues-01-de.spec.ts` ouvre les textes réellement
-injectés dans l'imprimante native mGBA, hors écran, et contrôle leur rendu par OCR.
-Il utilise une copie temporaire de la ROM et de la sauvegarde ; aucune sauvegarde
-en jeu n'est effectuée.
+Les gardes ROM suivent les **312 sites de référence** du lot après la chaîne
+complète, et comparent les textes, commandes et pages aux attentes. Les adresses
+allouées sont résolues à chaque test, car elles peuvent changer lors d'un rebuild.
+Les octets attendus sont consignés par site dans le JSON. Les vingt fragments
+référencés y sont expressément identifiés comme défectueux : le test documente
+leur état, sans prétendre qu'ils sont traduits correctement.
+
+Le dialogue complet de Darkrai (`0x7B8E3A`) est relocalisé : le pointeur
+`0x7A2A9D` lit les 257 octets DE et ne réécrit plus le suffixe `0x7B8EDD`,
+encore atteint en anglais via `0x7A8C9A`. Une garde interdit qu'une nouvelle
+chaîne DE recouvre un des vingt suffixes non résolus. Le seul partage interne
+entre deux textes corrigés est le suffixe enfant `0x7AA8E5` du dialogue
+`0x7AA8CE` : les deux chaînes complètes attendues sont vérifiées séparément.
+
+La mesure des boîtes utilise aussi les **octets encodés et les largeurs de
+glyphes**, pas seulement les jetons de la source. Cela inclut le glyphe B0
+d'ellipse (6 pixels) : `0x7B8CFF` est limité à 180 pixels. Les commandes FC01
+sont sans largeur ; les variables FD réservent la largeur prudente du moteur
+de mise en page du dépôt. Les pages FB restent strictement identiques en nombre
+et en ordre au canon, et aucune variable n'est supprimée ou déplacée.
+
+Commandes de validation locale :
+
+- `make build-de` (également imposé par les hooks, avec les builds FR/IT isolés) ;
+- `make test-python` et `make lint` ;
+- `python3 -m pytest tests/unit/test_dialogues_01_de.py tests/unit/test_translation_integrity.py -q` ;
+- `npx playwright test -c tests/e2e-playwright/playwright.dialogues-01-de.config.ts`.
+
+Le test Playwright ouvre les textes réellement injectés dans l'imprimante
+native mGBA, hors écran, puis vérifie Zerschneider, Eishieb, Rückkehr, Electabuzz,
+Stromisierer et la fin du dialogue d'évolution par OCR. La capture est produite
+dans le répertoire temporaire du système et jointe au ticket, jamais au dépôt.
+Une copie temporaire de la ROM reçoit seulement les scripts de déclenchement ;
+les textes proviennent des pointeurs de la ROM reconstruite. Aucune sauvegarde
+en jeu n'est effectuée. Les résultats de la dernière exécution sur la branche
+intégrée et la capture sont consignés dans la résolution de B-673.
+
+## Non vérifié / travail distinct
+
+Le parcours manuel de toutes les scènes et l'inaccessibilité absolue des données
+sans référence directe ne sont pas démontrés. La qualification précise ce que
+prouvent les octets, les sites de référence et les scénarios visuels couverts.
+Les vingt fragments ci-dessous nécessitent une analyse de leur script appelant
+et un patch séparé : aucune relocalisation aveugle ni modification d'un début
+de chaîne hors lot n'est autorisée ici. Le relevé conserve leur texte réellement
+atteint, y compris les fragments allemands tronqués et les résidus français.
+
+| Offset | Sites à qualifier / repointer |
+|---|---|
+| 0x741693 | 0x741548 |
+| 0x7416B5 | 0x741565 |
+| 0x741717 | 0x74157f |
+| 0x7417CE | 0x7414ac |
+| 0x74C34E | 0x74c228 |
+| 0x74C367 | 0x74c237 |
+| 0x778EAF | 0x7635d7, 0x7635de, 0x7635e5, 0x7636fa, 0x763701 |
+| 0x788BAB | 0x744c9b |
+| 0x788BCD | 0x744cae |
+| 0x788BFF | 0x744cc8 |
+| 0x788C15 | 0x744cf9 |
+| 0x78C6F8 | 0x78c664 |
+| 0x78D961 | 0x78dcca |
+| 0x78DC12 | 0x78dcf8 |
+| 0x7A3D5D | 0x7a3f10 |
+| 0x7A3D98 | 0x7a3f26 |
+| 0x7A3DFE | 0x7a3f41 |
+| 0x7AB089 | 0x7538cb |
+| 0x7B4A4E | 0xb50347 |
+| 0x7B8EDD | 0x7a8c9a |
