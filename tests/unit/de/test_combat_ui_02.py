@@ -1,8 +1,8 @@
 """B-668 : buffers positionnels, aides Pokédex et boîtes des mémos."""
-from pathlib import Path
 import hashlib
 import json
 import re
+from pathlib import Path
 
 import pytest
 

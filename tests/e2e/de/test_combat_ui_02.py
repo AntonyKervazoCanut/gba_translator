@@ -1,7 +1,7 @@
 """B-668 : vérifie les chaînes corrigées à tous leurs pointeurs EN."""
-from pathlib import Path
 import json
 import struct
+from pathlib import Path
 
 import pytest
 
