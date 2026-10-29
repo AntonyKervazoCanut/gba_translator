@@ -6,6 +6,7 @@ from pathlib import Path
 import yaml
 
 from src.core.dialogue_linewrap import line_width
+from src.core.fixed_tables import in_fixed_table
 from src.core.text_codec import TextEncoder
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -40,6 +41,7 @@ def test_exact_coverage_and_protections():
     assert len(exceptions()) == 60
     assert set(actual) == batch_offsets() - exceptions()
     assert all(expected[o] == text for o, text in actual.items())
+    assert not any(in_fixed_table(offset) for offset in actual)
 
 
 def test_encoding_and_display_budgets():
@@ -67,3 +69,21 @@ def test_glossary_and_domain_meaning():
     assert 'The Shadow' in actual[0x3DA9BB]
     assert 'TM' in actual[0x3DACA5] and 'HM' in actual[0x3DACA5]
     assert 'Mega Stone' in actual[0x3DA907]
+
+
+def test_audit_report_covers_all_offsets_and_justifies_exceptions():
+    audit = json.loads((ROOT / 'docs/analysis/24_PT_BR_PT06.json').read_text())
+    rows = {int(row['offset'], 16): row for row in audit['entries']}
+    assert len(audit['entries']) == len(rows) == 282
+    assert set(rows) == batch_offsets()
+    assert {o for o, row in rows.items() if row['status'] == 'exception'} == exceptions()
+    assert len(audit['source_sha256']) == 64
+    for offset, text in translations().items():
+        assert rows[offset]['portuguese'] == text
+        assert rows[offset]['source_sites'] and rows[offset]['targets']
+        assert rows[offset]['french_reference']
+    assert all(row['reason'] and row['english'] for row in rows.values())
+    report = (ROOT / 'docs/analysis/24_PT_BR_PT06.md').read_text()
+    documented = re.findall(r'^\| `(0x[0-9a-f]+)` \|', report, re.MULTILINE)
+    assert len(documented) == 282
+    assert {int(offset, 16) for offset in documented} == batch_offsets()
