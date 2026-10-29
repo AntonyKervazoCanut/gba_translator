@@ -56,11 +56,12 @@ from src.core.dialogue_linewrap import (
     collapse_empty_breaks,
     has_empty_break_run,
     is_multiline_layout,
+    line_width,
     rewrap as rewrap_dialogue,
     rewrap_multiline,
 )
 from src.core.fixed_tables import in_fixed_table
-from src.core.text_codec import TextDecoder, GERMAN_UMLAUT_CHARS
+from src.core.text_codec import TextDecoder, TextEncoder, GERMAN_UMLAUT_CHARS
 from src.core.text_reinserter import SmartReinserter
 from src.extractors.pointer_text_extractor import PointerTextExtractor
 
@@ -292,7 +293,9 @@ class TranslatedROMBuilder:
         ]
 
     @classmethod
-    def _extract_control_sequences_from_raw(cls, raw_bytes: bytes) -> List[List[int]]:
+    def _extract_control_sequences_from_raw(
+        cls, raw_bytes: bytes, *, include_breaks: bool = False
+    ) -> List[List[int]]:
         sequences: List[List[int]] = []
         i = 0
         while i < len(raw_bytes):
@@ -310,7 +313,7 @@ class TranslatedROMBuilder:
                     sequences.append([value])
                     i += 1
                 continue
-            if value in cls.CONTROL_PREFIXES:
+            if value in cls.CONTROL_PREFIXES or (include_breaks and value == 0xFE):
                 seq = [value]
                 arg_len = cls.RAW_ARG_PREFIXES.get(value, 0)
                 if arg_len and i + 1 < len(raw_bytes):
@@ -686,10 +689,30 @@ class TranslatedROMBuilder:
             english_raw_bytes,
         )
 
+        # Une fenêtre déclarée et bornée conserve ses ruptures exactement.
+        # Ce contrat est opt-in : les dialogues ordinaires gardent le rewrap.
+        layout = item.get('layout')
+        if layout is not None:
+            if not english_raw_bytes:
+                raise ValueError(f"0x{offset:X}: source canonique requise pour la structure")
+            encoded = TextEncoder.encode_pokemon(
+                translation_text, skip_aliases=GERMAN_UMLAUT_CHARS
+            )
+            source = bytes.fromhex(english_raw_bytes)
+            if self._extract_control_sequences_from_raw(encoded, include_breaks=True) != self._extract_control_sequences_from_raw(source, include_breaks=True):
+                raise ValueError(f"0x{offset:X}: commandes ou ruptures différentes")
+            pages = translation_text.split('<0xFB>')
+            for page in pages:
+                lines = page.split('\n')
+                if len(lines) > layout['max_lines'] or any(
+                    line_width(line) > layout['max_width'] for line in lines
+                ):
+                    raise ValueError(f"0x{offset:X}: budget de fenêtre dépassé")
+
         # Dialogue inherits its break positions from the English source;
         # French lines are longer, so re-balance them against the real
         # FRLG font metrics (and enforce the \n / scroll rule).
-        if translation_text and encoding == 'pokemon':
+        if translation_text and encoding == 'pokemon' and layout is None:
             try:
                 # Consecutive breaks render as blank lines; collapse them
                 # unless the English source has them too (credits layout).

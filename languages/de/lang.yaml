@@ -221,6 +221,7 @@ patches:
   - world_map_action_labels
   - mission_tab_labels   # « All » → « Alle » et supprime le suffixe runtime
   - mission_titles       # « The Food Thief » → « Der Essensdieb » in-place
+  - combat_ui_structure  # B-1013 : 67 textes structurés, après les réparations
   - mission_descriptions
   - worldmap_junction_panels
   - worldmap_route_panels

@@ -66,7 +66,8 @@ def test_closed_scope_and_individual_decisions():
     assert len(deferred) == 67
     for row in deferred:
         assert row['proposed_after'] and row['after'] is None
-        assert int(row['offset'], 16) not in combined()
+        # B-1013 réintroduit les propositions ; le diagnostic B-669 reste figé.
+        assert combined()[int(row['offset'], 16)] == row['proposed_after']
 
 
 def test_deferred_cases_preserve_the_verified_pipeline_diagnosis():

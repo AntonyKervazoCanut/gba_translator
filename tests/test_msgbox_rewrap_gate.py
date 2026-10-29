@@ -110,6 +110,20 @@ class MsgboxRewrapGateTests(unittest.TestCase):
             'Panneau<0xFB><0x7B> Un\n<0x79> Deux<0xFA><0x7C> Trois',
         )
 
+    def test_explicit_bounded_layout_is_opt_in_for_every_language(self):
+        # La nouvelle structure ne dépend ni du code langue ni de l'offset.
+        for text in ('Court\ntexte.', 'Breve\ntesto.', 'Kurzer\nText.'):
+            with self.subTest(text=text):
+                english = 'Short\ntext.'
+                item = {'translation': text, 'english_raw_bytes': 'cde8e6e8fed9ffff',
+                        'original_text': english, 'category': 'dialogue'}
+                regular = _bare_builder()._normalize_translation_item(0, item)
+                self.assertEqual(regular['translation'], text)
+                bounded = _bare_builder()._normalize_translation_item(0, {
+                    **item, 'layout': {'max_lines': 2, 'max_width': 192},
+                })
+                self.assertEqual(bounded['translation'], text)
+
     def test_pure_newline_description_stays_untouched(self):
         # No scroll/page code in the English source: a fixed window (item
         # description, sign, fullscreen text) — the gate must not touch it.
