@@ -8,14 +8,18 @@ from src.core.text_aliases import TextAliases
 ROOT = Path(__file__).resolve().parents[2]
 CONTRACT = ROOT / 'languages/es-maint/text_aliases.json'
 FIXTURE = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es001.json').read_text())
+EXTRA = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es003.json').read_text())
+for language in ('english', 'spanish'):
+    FIXTURE[language].extend(EXTRA[language])
 
 
 def rom_fixture():
-    rom = bytearray(0x800000)
+    rom = bytearray(0xA00000)
     for entry in FIXTURE['english']:
         offset = entry['offset']
         raw = bytes.fromhex(entry['raw_bytes'])
-        rom[offset - 1:offset + len(raw)] = b'\xaa' + raw
+        prefix = {0x24F210: b'\x00\x00\x00', 0x24F3C4: b'\x05\x00\x00'}.get(offset, b'\xaa')
+        rom[offset - len(prefix):offset + len(raw)] = prefix + raw
         for pointer in entry['pointer_offsets']:
             p = int(pointer, 16)
             rom[p:p + 4] = (0x08000000 + offset).to_bytes(4, 'little')
@@ -24,7 +28,9 @@ def rom_fixture():
 
 def test_real_preimages_resolve_ten_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 10
+    assert len(aliases.entries) == 12
+    assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
+    assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries
     assert aliases.entries[0x17FF49]['live_offset'] == 0x17FF4A
 
@@ -79,7 +85,7 @@ def csv_fixture(tmp_path):
     es.write_text(json.dumps({'texts': FIXTURE['spanish']}))
     mapping = tmp_path / 'map.json'
     mapping.write_text(json.dumps({'offset_map': [{'english_offset': e['offset'], 'spanish_offset': e['offset'], 'status': 'matched'} for e in FIXTURE['english']]}))
-    rom = bytearray(0x800000)
+    rom = bytearray(0xA00000)
     for entry in FIXTURE['spanish']:
         raw = bytes.fromhex(entry['raw_bytes'])
         rom[entry['offset']:entry['offset'] + len(raw)] = raw

@@ -39,10 +39,11 @@ def test_ten_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
         patch.setattr(driver, 'TRANSLATION_DIR', tmp_path / 'output/translation')
         ready = driver.generate_translation_json(config)
     items = json.loads(ready.read_text())['translations']
-    assert len(items) == 10
+    assert len(items) == len(records)
     assert {i['contract_offset'] for i in items} == {int(r['contract_offset'], 16) for r in records}
     for item in items:
-        assert item['offset'] == item['contract_offset'] + 1
+        record = next(r for r in records if int(r['contract_offset'], 16) == item['contract_offset'])
+        assert item['offset'] == int(record['live_offset'], 16)
         assert item['pointer_offsets']
     output = driver.build_rom(config, ready)
     driver.apply_patches(config, output, ready, build_number=0)
@@ -57,7 +58,8 @@ def test_ten_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
         for pointer in record['pointer_offsets']:
             p = int(pointer, 16)
             live = int.from_bytes(rom[p:p + 4], 'little') - 0x08000000
-            assert live != key and live != key + 1
+            assert live != key and live != int(record['live_offset'], 16)
             assert rom[live:live + len(expected)] == expected
-        assert rom[key:key + 1 + len(raw)] == english[key:key + 1 + len(raw)]
+        end = int(record['live_offset'], 16) + len(raw)
+        assert rom[key:end] == english[key:end]
     assert {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in sources} == before

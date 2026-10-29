@@ -1,0 +1,70 @@
+{
+  "english": [
+    {
+      "offset": 2421264,
+      "byte_length": 7,
+      "length": 7,
+      "encoding": "pokemon",
+      "raw_bytes": "beccbbc1c9c8ff",
+      "text": "DRAGON",
+      "decoded_text": "DRAGON",
+      "table_offsets": [],
+      "pointer_offsets": [
+        "0x00456EE4"
+      ]
+    },
+    {
+      "offset": 2421700,
+      "byte_length": 20,
+      "length": 20,
+      "encoding": "pokemon",
+      "raw_bytes": "c8e300e7e4d9d7ddd5e000d5d6dde0dde8edadff",
+      "text": "No special ability.",
+      "decoded_text": "No special ability.",
+      "table_offsets": [
+        "0x0024FB08",
+        "0x0096DE04",
+        "0x0096DE04"
+      ],
+      "pointer_offsets": [
+        "0x0024FB08",
+        "0x0096DE04",
+        "0x0096DF38"
+      ]
+    }
+  ],
+  "spanish": [
+    {
+      "offset": 2421264,
+      "byte_length": 7,
+      "length": 7,
+      "encoding": "pokemon",
+      "raw_bytes": "beccbbc1c9c8ff",
+      "text": "DRAGON",
+      "decoded_text": "DRAGON",
+      "table_offsets": [],
+      "pointer_offsets": [
+        "0x00456EE4"
+      ]
+    },
+    {
+      "offset": 2421700,
+      "byte_length": 15,
+      "length": 15,
+      "encoding": "pokemon",
+      "raw_bytes": "cddde200dcd5d6dde0ddd8d5d8adff",
+      "text": "Sin habilidad.",
+      "decoded_text": "Sin habilidad.",
+      "table_offsets": [
+        "0x0024FB08",
+        "0x0096DE04",
+        "0x0096DE04"
+      ],
+      "pointer_offsets": [
+        "0x0024FB08",
+        "0x0096DE04",
+        "0x0096DF38"
+      ]
+    }
+  ]
+}

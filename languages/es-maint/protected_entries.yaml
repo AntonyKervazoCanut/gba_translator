@@ -648,3 +648,9 @@ entries:
 - offset: '0x003d56c2'
   name: 'ES-003 : 0x003d56c2'
   expected: Bebida muy dulce que restaura\n80 PS de un Pokémon.
+- offset: '0x0024f20d'
+  name: 'ES-003 : type Dragon vivant à +3'
+  expected: DRAGÓN
+- offset: '0x0024f3c1'
+  name: 'ES-003 : absence de talent, vivant à +3'
+  expected: Sin habilidad.
