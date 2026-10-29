@@ -266,6 +266,12 @@ def generate_translation_json(config) -> Path:
     stats = validator.validate_and_convert()
     if aliases is not None:
         aliases.resolve_json(out_json, alias_keys)
+    if getattr(config, "item_descriptions", None):
+        from scripts.apply_combined_fr import _load_combined
+        from src.core.item_description_routes import ItemDescriptionRoutes
+        routes = ItemDescriptionRoutes.load(REPO_ROOT / config.item_descriptions, ENGLISH_ROM.read_bytes())
+        combined_map, _ = _load_combined(combined)
+        stats["successful"] = routes.enrich_json(out_json, combined_map)
     print(f"✓ Translation JSON: {out_json.name} ({stats['successful']} entries)")
     return out_json
 
@@ -763,6 +769,10 @@ def main() -> int:
     translation_json = generate_translation_json(config)
     out_rom = build_rom(config, translation_json)
     apply_patches(config, out_rom, translation_json, args.build_number)
+    if getattr(config, "item_descriptions", None):
+        from src.core.item_description_routes import ItemDescriptionRoutes
+        routes = ItemDescriptionRoutes.load(REPO_ROOT / config.item_descriptions, ENGLISH_ROM.read_bytes())
+        routes.verify(out_rom.read_bytes(), translation_json)
 
     print("\n" + "=" * 70)
     print(f"✓ {config.name} ROM built: {out_rom.relative_to(REPO_ROOT)}")

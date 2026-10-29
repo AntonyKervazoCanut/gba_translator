@@ -35,9 +35,9 @@ def _make_rom() -> bytearray:
     return rom
 
 
-def test_patches_both_copies():
+def test_patches_both_copies(tmp_path):
     rom = _make_rom()
-    p = Path("/tmp/_typeicons_de_test.gba")
+    p = tmp_path / "typeicons_de_test.gba"
     p.write_bytes(rom)
     n = mod.apply_patches(p)
     assert n == len(mod.DE_NAME) * len(mod.BASES)
@@ -78,8 +78,8 @@ def test_extra_german_glyphs_defined():
         assert ch in mod._FONT, f"glyph '{ch}' missing — needed by a German name"
 
 
-def test_idempotent():
-    p = Path("/tmp/_typeicons_de_idem.gba")
+def test_idempotent(tmp_path):
+    p = tmp_path / "typeicons_de_idem.gba"
     p.write_bytes(_make_rom())
     mod.apply_patches(p)
     once = p.read_bytes()
@@ -141,8 +141,8 @@ def test_fairy_uses_per_copy_tile_offset():
         assert mod._tileoff(0xB1EC64, icon) == mod._tileoff(0x961A00, icon) == mod.TILEOFF[icon]
 
 
-def test_fairy_stamped_at_correct_offset_per_copy():
-    p = Path("/tmp/_typeicons_de_fairy.gba")
+def test_fairy_stamped_at_correct_offset_per_copy(tmp_path):
+    p = tmp_path / "typeicons_de_fairy.gba"
     p.write_bytes(_make_rom())
     mod.apply_patches(p)
     rom = bytearray(p.read_bytes())

@@ -62,6 +62,7 @@ class LanguageConfig:
     font_glyphs: str = ""
     status_abbrev: Dict[str, str] = field(default_factory=dict)
     patches: List[str] = field(default_factory=list)
+    item_descriptions: Optional[str] = None
     descriptor_path: Optional[Path] = None
 
     # -- convenience accessors -------------------------------------------------
@@ -202,6 +203,7 @@ def _validate(data: dict, source: Path) -> LanguageConfig:
         font_glyphs=data.get("font_glyphs", ""),
         status_abbrev=dict(data.get("status_abbrev") or {}),
         patches=list(data.get("patches") or []),
+        item_descriptions=data.get("item_descriptions"),
         descriptor_path=source,
     )
 

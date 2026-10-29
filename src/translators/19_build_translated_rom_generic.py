@@ -719,7 +719,8 @@ class TranslatedROMBuilder:
                 translation_text, skip_aliases=GERMAN_UMLAUT_CHARS
             )
             source = bytes.fromhex(english_raw_bytes)
-            if self._extract_control_sequences_from_raw(encoded, include_breaks=True) != self._extract_control_sequences_from_raw(source, include_breaks=True):
+            include_breaks = layout.get('preserve_line_count', True)
+            if self._extract_control_sequences_from_raw(encoded, include_breaks=include_breaks) != self._extract_control_sequences_from_raw(source, include_breaks=include_breaks):
                 raise ValueError(f"0x{offset:X}: commandes ou ruptures différentes")
             pages = translation_text.split('<0xFB>')
             for page in pages:
