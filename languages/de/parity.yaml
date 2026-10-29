@@ -474,6 +474,7 @@ de_only_rom_tests:
     - tests/unit/de/test_patch_fixed_table_names_de.py
     - tests/unit/de/test_item_names_objets02.py
     - tests/e2e-playwright/specs/de-item-names-objets02.spec.ts
+    - tests/unit/de/test_pokedex_01.py
     - tests/unit/de/test_patch_font_de.py
     - tests/unit/de/test_patch_move_and_species_names_de.py
     - tests/unit/de/test_patch_nature_names_de.py
