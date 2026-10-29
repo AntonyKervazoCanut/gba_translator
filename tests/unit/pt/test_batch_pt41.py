@@ -45,3 +45,15 @@ def test_unbound_names_are_kept_exactly_including_abbreviations():
     assert rows[572] == '1000 Arrows'
     assert rows[678] == 'DMax Cannon'
     assert rows[701] == 'Branch Poke'
+
+
+def test_shadow_force_keeps_space_instead_of_early_terminator():
+    row = next(r for r in AUDIT['entries'] if r['offset'] == '0xa42340')
+    assert row['move_id'] == 496
+    assert row['portuguese'] == 'Shadow Force'
+    cell = bytes.fromhex(row['source_hex'])
+    # La passe générique écrivait FF à la place de cet espace ; le nom
+    # devenait « Shadow ». La préimage livrée doit garder son unique fin.
+    assert cell[6] == 0x00
+    assert cell.index(0xFF) == 12
+    assert cell == TextEncoder.encode_pokemon('Shadow Force', strict=True)
