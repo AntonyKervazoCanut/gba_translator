@@ -7779,3 +7779,287 @@ entries:
 - offset: '0xA40923'
   name: 'B-670 description attaque'
   expected: 'G-Max Duraludon:\nSenkt die AP\nder zuletzt\neingesetzten Attacke.'
+- offset: '0x482dc8'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Stampft mit\ngroßem Fuß zu.\nGegner schreckt\neventuell zurück.'
+- offset: '0x482f4c'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Rammt den Gegner mit\ndem Kopf. Lässt ihn\nevtl. zurückschrecken.'
+- offset: '0x483358'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Beißt mit scharfen\nZähnen zu. Gegner\nschreckt evtl. zurück.'
+- offset: '0x483534'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Ätzende Säure\ntrifft den Gegner.\nSenkt evtl. seine\nSpezial-Verteidigung.'
+- offset: '0x4839f8'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Wirft den Gegner.\nDer Schaden\nentspricht dem Level\ndes Anwenders.'
+- offset: '0x483c5d'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Verstreut lähmenden\nStaub. Paralysiert\nden Gegner.'
+- offset: '0x483f89'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Lässt den Gegner\nin eine Spalte\nfallen. Bei Treffer\nsofort K.O.'
+- offset: '0x4841e9'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Wird der Anwender\ngetroffen, steigt\nsein Angriff,\nsolange er wütet.'
+- offset: '0x484986'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Starker Ansturm.\nLässt Gegner evtl.\nzurückschrecken.\nErklimmt Wasserfälle.'
+- offset: '0x484b27'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Vergisst etwas und\nerhöht die eigene\nSpezial-Verteidigung\nstark.'
+- offset: '0x484ba1'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Heilt den Anwender\noder einen Partner\num bis zu die Hälfte\nder maximalen KP.'
+- offset: '0x484c75'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Trifft nur Schlafende.\nHeilt KP in Höhe der\nHälfte des Schadens.'
+- offset: '0x484d42'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Saugt KP ab. Heilt\nden Anwender um die\nHälfte des Schadens.'
+- offset: '0x484f20'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Licht senkt die\nGenauigkeit des\nGegners. Erhellt\nauch Höhlen.'
+- offset: '0x485857'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Schützt vor Angriffen.\nBei Wiederholung\nsteigt die Chance\nauf Fehlschlag.'
+- offset: '0x485b55'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Hebt erhöhten\nFluchtwert des\nGegners auf.\nTrifft Geist mit\nNormal und Kampf.'
+- offset: '0x485c66'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Schützt vor Angriffen.\nBei Wiederholung\nsteigt die Chance\nauf Fehlschlag.'
+- offset: '0x485f6c'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Heilt den Anwender\noder einen Partner\num bis zu die Hälfte\nder maximalen KP.'
+- offset: '0x4861d1'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Ein explosives\nGeschenk trifft\nden Gegner. Heilt\nihn aber manchmal.'
+- offset: '0x486330'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Erschüttert den\nBoden. Trifft\nalle am Boden mit\nwechselnder Stärke.'
+- offset: '0x486aa6'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Senkt evtl. die\nVerteidigung des\nGegners. Zertrümmert\nbrüchige Felsen.'
+- offset: '0x486b36'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Das Team greift\ngemeinsam an. Mehr\nMitstreiter bedeuten\nmehr Treffer.'
+- offset: '0x486c10'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Speichert bis zu\ndreimal Kraft. Erhöht\nVerteidigung und\nSpezial-Verteidigung.'
+- offset: '0x4872f2'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Durchbricht Barrieren\nwie Lichtschild\nund Reflektor\nund greift an.'
+- offset: '0x487558'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Stiehlt die Wirkung\neiner heilenden oder\nstatusändernden\nAttacke.'
+- offset: '0x4875e5'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Taucht in Runde eins\nunter und greift\nin Runde zwei an.'
+- offset: '0x487c8b'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Hebt erhöhten\nFluchtwert\nauf. Ermöglicht\nPsycho-Treffer\ngegen Unlicht.'
+- offset: '0x488408'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Elektrischer\nAnsturm. Schadet\nauch dem Anwender.\nParalysiert eventuell.'
+- offset: '0x4884c5'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Konzentriert\nsich. Erhöht\nSpezial-Angriff und\nSpezial-Verteidigung.'
+- offset: '0xa383d5'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Naturenergie\ntrifft den Gegner.\nSenkt evtl. seine\nSpezial-Verteidigung.'
+- offset: '0xa38422'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Entfesselt Kräfte.\nSenkt evtl. die\nSpezial-Verteidigung\ndes Gegners.'
+- offset: '0xa38c36'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Stampft auf.\nTrifft alle anderen\nPokémon und senkt\nderen Initiative.'
+- offset: '0xa3987a'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Schießt Licht\nauf den Gegner.\nSenkt evtl. seine\nSpezial-Verteidigung.'
+- offset: '0xa398ff'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Pickt den Gegner.\nFrisst dabei dessen\nBeere, falls\ner eine trägt.'
+- offset: '0xa3a285'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Furchterregender\nAnsturm. Lässt\ndas Ziel evtl.\nzurückschrecken.'
+- offset: '0xa3a6d6'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Kann Erfrierungen\nverursachen. Auch\ngegen Wasser\nsehr effektiv.'
+- offset: '0xa3a77d'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Greift mit Gesang an.\nStimmen andere ein,\nsteigt die Stärke.'
+- offset: '0xa3a87d'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Typ und Stärke\nder Attacke hängen\nvon der Beere\ndes Anwenders ab.'
+- offset: '0xa3ac0c'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Trifft die Gegner mit\nzahllosen tiefblau\nleuchtenden Strahlen.'
+- offset: '0xa3ac63'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Greift die Gegner mit\nSteinklingen aus der\nKraft des Landes an.'
+- offset: '0xa3aed7'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Überträgt eigene\nStatusprobleme\ndurch Suggestion\nauf das Ziel.'
+- offset: '0xa3b090'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Diamantensturm\ntrifft Gegner.\nErhöht evtl. die\neigene Verteidigung.'
+- offset: '0xa3b0f3'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Eine riesige\nSchlammwelle trifft\nalle ringsum.\nVergiftet eventuell.'
+- offset: '0xa3b7d7'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Hüllt den Gegner\nin heftige blaue\nFlammen. Verbrennt\neventuell.'
+- offset: '0xa3b836'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Lädt eine Runde,\ngreift dann mit\nelektrischem Eis an.\nParalysiert eventuell.'
+- offset: '0xa3b9a7'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Wirft einen\nRiesenblitz.\nNach Kreuzflamme\nsteigt die Stärke.'
+- offset: '0xa3ba04'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Besiegt die\nAttacke ein Ziel,\nsteigt der eigene\nAngriff drastisch.'
+- offset: '0xa3babd'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Sturz aus der\nLuft. Senkt eigene\nVerteidigung und\nSpezial-Verteidigung.'
+- offset: '0xa3bc34'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Ohrenbetäubendes\nGeschwätz trifft und\nverwirrt das Ziel.'
+- offset: '0xa3bfa0'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Bodenwelle trifft\nGegner. Getroffene\nkönnen nicht\nmehr fliehen.'
+- offset: '0xa3c46a'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Eine brennende\nPeitsche trifft\ndas Ziel und senkt\nseine Verteidigung.'
+- offset: '0xa3c4c7'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Starke Attacke.\nWirkt nur in der\nersten Runde nach\nKampfeintritt.'
+- offset: '0xa3c57d'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Heilt bis zur Hälfte\nder maximalen KP\ndes Ziels. Mehr\nbei Grasfeld.'
+- offset: '0xa3c6bd'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Konzentriert sich.\nDie nächste Runde\nbringt sicher\neinen Volltreffer.'
+- offset: '0xa3cd26'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Stiehlt im Schatten\ndes Ziels dessen\nerhöhte Statuswerte\nund greift an.'
+- offset: '0xa3cefc'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Trifft mit der Wucht\neines Meteors.\nIgnoriert die\nFähigkeit des Ziels.'
+- offset: '0xa3d013'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Giftige Fäden\nvergiften das\nZiel und senken\nseine Initiative.'
+- offset: '0xa3f53a'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Psychischer Ansturm.\nErhöht auch die\neigene Verteidigung.'
+- offset: '0xa3f612'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Greift an und\nerhöht die höheren\nAngriffs- oder\nVerteidigungswerte.'
+- offset: '0xa3f6fb'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Schleudert geballtes\nChlorophyll. Schadet\nauch dem Anwender.'
+- offset: '0xa3f74b'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Wirft riesige\nEisbrocken. Lässt\nden Gegner evtl.\nzurückschrecken.'
+- offset: '0xa3f832'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Giftige Stacheln.\nVergiftet evtl.\nDoppelte Stärke gegen\nvergiftete Gegner.'
+- offset: '0xa3f985'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Pfeile mit hoher\nVolltrefferquote.\nSenken die\nVerteidigung\ndes Gegners.'
+- offset: '0xa3f9d8'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Feuerbälle verbrennen\neventuell. Doppelte\nStärke gegen\nverbrannte Gegner.'
+- offset: '0xa3fc31'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Schützt vor Angriffen.\nBei Wiederholung\nsteigt die Chance\nauf Fehlschlag.'
+- offset: '0x483f44'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Ein Erdbeben trifft\nalle Pokémon im Kampf\naußer dem Anwender.'
+- offset: '0x484098'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Psychischer Angriff.\nSenkt evtl. die\nSpezial-Verteidigung\ndes Gegners.'
+- offset: '0xa3a99e'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Drehangriff. Je\nlangsamer als der\nGegner, desto stärker.'
+- offset: '0xa39d8d'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Schwebende Steine\nverletzen Gegner,\ndie in den Kampf\neingewechselt werden.'
+- offset: '0xa3a733'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Eine seltsame\nPsychowelle trifft das\nZiel und verursacht\nphysischen Schaden.'
+- offset: '0xa3961d'
+  name: Description attaque ou CT/CS — B-688
+  issue: B-688
+  expected: 'Flinker Angriff.\nDoppelte Stärke ohne\ngetragenes Item.'
