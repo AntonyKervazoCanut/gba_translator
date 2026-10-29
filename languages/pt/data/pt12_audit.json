@@ -1,0 +1,6848 @@
+{
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "entries": [
+    {
+      "offset": "0x416a3a",
+      "english": "<0xFD>Á is already\\nin battle!<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} est déjà\\nau combat !{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200dde700d5e0e6d9d5d8edfedde200d6d5e8e8e0d9abfc09ff",
+      "source_sites": [
+        "0x127c60"
+      ],
+      "live_sites": [
+        "0x127c60"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> já está\\nem batalha!<0xFC><0x09>",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        100,
+        64
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac065"
+      ]
+    },
+    {
+      "offset": "0x416a55",
+      "english": "<0xFD>Á has already been\\nselected.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} est déjà sélectionné.\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200dcd5e700d5e0e6d9d5d8ed00d6d9d9e2fee7d9e0d9d7e8d9d8adfc09ff",
+      "source_sites": [
+        "0x127bd4"
+      ],
+      "live_sites": [
+        "0x127bd4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> já foi\\nselecionado.<0xFC><0x09>",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        93,
+        66
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416a55"
+      ]
+    },
+    {
+      "offset": "0x416a75",
+      "english": "<0xFD>Á has no energy\\nleft to battle!<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} n'a plus assez d'énergie\\npour se battre !{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200dcd5e700e2e300d9e2d9e6dbedfee0d9dae800e8e300d6d5e8e8e0d9abfc09ff",
+      "source_sites": [
+        "0x127b38"
+      ],
+      "live_sites": [
+        "0x127b38"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> está sem energia\\npara lutar!<0xFC><0x09>",
+      "encoded_bytes": 34,
+      "line_pixels": [
+        149,
+        62
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac07e"
+      ]
+    },
+    {
+      "offset": "0x416a98",
+      "english": "You can't switch <0xFD>Á's\\nPokémon with one of yours!<0xFC>Ì",
+      "french_reference": "Impossible d'échanger le Pokémon\\nde {STR_VAR_1} avec l'un des tiens !{PAUSE_UNTIL_PRESS}",
+      "source_hex": "d3e3e900d7d5e2b4e800e7ebdde8d7dc00fd02b4e7fecae3df1be1e3e200ebdde8dc00e3e2d900e3da00ede3e9e6e7abfc09ff",
+      "source_sites": [
+        "0x127b04"
+      ],
+      "live_sites": [
+        "0x127b04"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Um Pokémon de <0xFD><0x02>\\nnão pode ser trocado pelo seu!<0xFC><0x09>",
+      "encoded_bytes": 50,
+      "line_pixels": [
+        136,
+        173
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac0a0"
+      ]
+    },
+    {
+      "offset": "0x416acb",
+      "english": "An Egg can't battle!<0xFC>Ì",
+      "french_reference": "Un Œuf ne peut pas se battre ! {PAUSE_UNTIL_PRESS}",
+      "source_hex": "bbe200bfdbdb00d7d5e2b4e800d6d5e8e8e0d9abfc09ff",
+      "source_sites": [
+        "0x127ba0"
+      ],
+      "live_sites": [
+        "0x127ba0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Um Ovo não pode lutar!<0xFC><0x09>",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        128
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a37ec"
+      ]
+    },
+    {
+      "offset": "0x416ae2",
+      "english": "This can't be used until a new\\nBadge is obtained.<0xFC>Ì",
+      "french_reference": "Inutilisable tant qu'un nouveau\\nBadge n'est pas obtenu.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcdde700d7d5e2b4e800d6d900e9e7d9d800e9e2e8dde000d500e2d9ebfebcd5d8dbd900dde700e3d6e8d5dde2d9d8adfc09ff",
+      "source_sites": [
+        "0x12464c",
+        "0x8c5795"
+      ],
+      "live_sites": [
+        "0x12464c",
+        "0x8c5795"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Só pode usar após obter\\numa nova Insígnia.<0xFC><0x09>",
+      "encoded_bytes": 45,
+      "line_pixels": [
+        133,
+        101
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416ae2",
+        "0x416ae2"
+      ]
+    },
+    {
+      "offset": "0x416b16",
+      "english": "No more than three Pokémon\\nmay enter.<0xFC>Ì",
+      "french_reference": "Pas plus de trois Pokémon ne\\npeuvent entrer.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c8e300e1e3e6d900e8dcd5e200e8dce6d9d900cae3df1be1e3e2fee1d5ed00d9e2e8d9e6adfc09ff",
+      "source_sites": [
+        "0x1241fc",
+        "0xa02d58",
+        "0xa6c928"
+      ],
+      "live_sites": [
+        "0x1241fc",
+        "0xa02d58",
+        "0xa6c928"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Só três Pokémon\\npodem entrar.<0xFC><0x09>",
+      "encoded_bytes": 32,
+      "line_pixels": [
+        85,
+        73
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416b16",
+        "0x416b16",
+        "0x416b16"
+      ]
+    },
+    {
+      "offset": "0x416b3e",
+      "english": "No more than two Pokémon\\nmay enter.<0xFC>Ì",
+      "french_reference": "Pas plus de deux Pokémon ne\\npeuvent entrer.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c8e300e1e3e6d900e8dcd5e200e8ebe300cae3df1be1e3e2fee1d5ed00d9e2e8d9e6adfc09ff",
+      "source_sites": [
+        "0x124180",
+        "0xa02e88",
+        "0xa6c924"
+      ],
+      "live_sites": [
+        "0x124180",
+        "0xa02e88",
+        "0xa6c924"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Só dois Pokémon\\npodem entrar.<0xFC><0x09>",
+      "encoded_bytes": 32,
+      "line_pixels": [
+        85,
+        73
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416b3e",
+        "0x416b3e",
+        "0x416b3e"
+      ]
+    },
+    {
+      "offset": "0x416b64",
+      "english": "Send the removed Mail to\\nyour PC?",
+      "french_reference": "Envoyer le Courrier retiré\\nsur ton PC ?",
+      "source_hex": "cdd9e2d800e8dcd900e6d9e1e3ead9d800c7d5dde000e8e3feede3e9e600cabdacff",
+      "source_sites": [
+        "0x123e4c"
+      ],
+      "live_sites": [
+        "0x123e4c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Enviar a Carta retirada\\nao seu PC?",
+      "encoded_bytes": 35,
+      "line_pixels": [
+        127,
+        59
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac0d2"
+      ]
+    },
+    {
+      "offset": "0x416b86",
+      "english": "The Mail was sent to your PC.<0xFC>Ì",
+      "french_reference": "Courrier envoyé sur ton PC.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcd900c7d5dde000ebd5e700e7d9e2e800e8e300ede3e9e600cabdadfc09ff",
+      "source_sites": [
+        "0x123eec"
+      ],
+      "live_sites": [
+        "0x123eec"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "A Carta foi enviada ao PC.<0xFC><0x09>",
+      "encoded_bytes": 29,
+      "line_pixels": [
+        147
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416b86"
+      ]
+    },
+    {
+      "offset": "0x416ba6",
+      "english": "Your PC's Mailbox is full.<0xFC>Ì",
+      "french_reference": "La Boîte Mail du PC est pleine.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "d3e3e9e600cabdb4e700c7d5dde0d6e3ec00dde700dae9e0e0adfc09ff",
+      "source_sites": [
+        "0x123f10"
+      ],
+      "live_sites": [
+        "0x123f10"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "A caixa de correio está cheia.<0xFC><0x09>",
+      "encoded_bytes": 33,
+      "line_pixels": [
+        169
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x80ee6c"
+      ]
+    },
+    {
+      "offset": "0x416bc3",
+      "english": "If the Mail is removed, the\\nmessage will be lost. Okay?",
+      "french_reference": "Retirer le Courrier effacera\\nle message. D'accord ?",
+      "source_hex": "c3da00e8dcd900c7d5dde000dde700e6d9e1e3ead9d8b800e8dcd9fee1d9e7e7d5dbd900ebdde0e000d6d900e0e3e7e8ad00c9dfd5edacff",
+      "source_sites": [
+        "0x123f40"
+      ],
+      "live_sites": [
+        "0x123f40"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Se retirar a Carta,\\na mensagem será apagada. Certo?",
+      "encoded_bytes": 52,
+      "line_pixels": [
+        105,
+        179
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac0f5"
+      ]
+    },
+    {
+      "offset": "0x416bfb",
+      "english": "Mail must be removed before\\nholding an item.<0xFC>Ì",
+      "french_reference": "Retire le Courrier avant de faire\\nporter un objet.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c7d5dde000e1e9e7e800d6d900e6d9e1e3ead9d800d6d9dae3e6d9fedce3e0d8dde2db00d5e200dde8d9e1adfc09ff",
+      "source_sites": [
+        "0x127378"
+      ],
+      "live_sites": [
+        "0x127378"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Retire a Carta antes\\nde dar um item.<0xFC><0x09>",
+      "encoded_bytes": 39,
+      "line_pixels": [
+        111,
+        85
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416bfb"
+      ]
+    },
+    {
+      "offset": "0x416c2a",
+      "english": "<0xFD>Á was given the\\n<0xFD>Â to hold.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} tient\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200ebd5e700dbddead9e200e8dcd9fefd0300e8e300dce3e0d8adfc09ff",
+      "source_sites": [
+        "0x1204a8",
+        "0xa0190c"
+      ],
+      "live_sites": [
+        "0x1204a8",
+        "0xa0190c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> recebeu\\n<0xFD><0x03> para segurar.<0xFC><0x09>",
+      "encoded_bytes": 30,
+      "line_pixels": [
+        101,
+        133
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416c2a",
+        "0x416c2a"
+      ]
+    },
+    {
+      "offset": "0x416c49",
+      "english": "<0xFD>Á is already holding\\none <0xFD>Â.<0xFB>Would you like to switch the\\ntwo items?",
+      "french_reference": "{STR_VAR_1} tient déjà\\n{STR_VAR_2}.\\pÉchanger les deux\\nobjets ?",
+      "source_hex": "fd0200dde700d5e0e6d9d5d8ed00dce3e0d8dde2dbfee3e2d900fd03adfbd1e3e9e0d800ede3e900e0dddfd900e8e300e7ebdde8d7dc00e8dcd9fee8ebe300dde8d9e1e7acff",
+      "source_sites": [
+        "0x120554"
+      ],
+      "live_sites": [
+        "0x120554"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> já segura\\num item: <0xFD><0x03>.<0xFB>Quer trocar os\\ndois itens?",
+      "encoded_bytes": 53,
+      "line_pixels": [
+        112,
+        109,
+        79,
+        58
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac129"
+      ]
+    },
+    {
+      "offset": "0x416c8f",
+      "english": "<0xFD>Á isn't holding\\nanything.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} ne tient rien.\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200dde7e2b4e800dce3e0d8dde2dbfed5e2ede8dcdde2dbadfc09ff",
+      "source_sites": [
+        "0x123cbc",
+        "0xa016e8"
+      ],
+      "live_sites": [
+        "0x123cbc",
+        "0xa016e8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> não segura\\nnenhum item.<0xFC><0x09>",
+      "encoded_bytes": 29,
+      "line_pixels": [
+        117,
+        66
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xc27808",
+        "0xc27808"
+      ]
+    },
+    {
+      "offset": "0x416cac",
+      "english": "Received the <0xFD>Â\\nfrom <0xFD>Á.<0xFC>Ì",
+      "french_reference": "Reçu {STR_VAR_2}\\nde {STR_VAR_1}.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "ccd9d7d9ddead9d800e8dcd900fd03fedae6e3e100fd02adfc09ff",
+      "source_sites": [
+        "0x120508"
+      ],
+      "live_sites": [
+        "0x120508"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Recebeu <0xFD><0x03>\\nde <0xFD><0x02>.<0xFC><0x09>",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        102,
+        77
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416cac"
+      ]
+    },
+    {
+      "offset": "0x416cc7",
+      "english": "Mail was taken from the\\nPokémon.<0xFC>Ì",
+      "french_reference": "Courrier retiré du Pokémon.\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c7d5dde000ebd5e700e8d5dfd9e200dae6e3e100e8dcd9fecae3df1be1e3e2adfc09ff",
+      "source_sites": [
+        "0x124004"
+      ],
+      "live_sites": [
+        "0x124004"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "A Carta foi retirada\\ndo Pokémon.<0xFC><0x09>",
+      "encoded_bytes": 35,
+      "line_pixels": [
+        110,
+        63
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x16b826"
+      ]
+    },
+    {
+      "offset": "0x416cea",
+      "english": "The <0xFD>Â was taken and\\nreplaced with the <0xFD>Á.<0xFC>Ì",
+      "french_reference": "{STR_VAR_2} retiré, remplacé\\npar {STR_VAR_1}.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcd900fd0300ebd5e700e8d5dfd9e200d5e2d8fee6d9e4e0d5d7d9d800ebdde8dc00e8dcd900fd02adfc09ff",
+      "source_sites": [
+        "0x1205c4"
+      ],
+      "live_sites": [
+        "0x1205c4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Retirou <0xFD><0x03> e\\ncolocou <0xFD><0x02>.<0xFC><0x09>",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        110,
+        106
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416cea"
+      ]
+    },
+    {
+      "offset": "0x416d17",
+      "english": "This Pokémon is holding an\\nitem. It cannot hold Mail.<0xFC>Ì",
+      "french_reference": "Ce Pokémon tient un objet.\\nIl ne peut pas porter de Courrier.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcdde700cae3df1be1e3e200dde700dce3e0d8dde2db00d5e2fedde8d9e1ad00c3e800d7d5e2e2e3e800dce3e0d800c7d5dde0adfc09ff",
+      "source_sites": [
+        "0x127468"
+      ],
+      "live_sites": [
+        "0x127468"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Este Pokémon segura um item.\\nNão pode segurar uma Carta.<0xFC><0x09>",
+      "encoded_bytes": 59,
+      "line_pixels": [
+        158,
+        156
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1a3ae2"
+      ]
+    },
+    {
+      "offset": "0x416d4f",
+      "english": "Mail was transferred from\\nthe Mailbox.<0xFC>Ì",
+      "french_reference": "Courrier transféré de la\\nBoîte Mail.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c7d5dde000ebd5e700e8e6d5e2e7dad9e6e6d9d800dae6e3e1fee8dcd900c7d5dde0d6e3ecadfc09ff",
+      "source_sites": [
+        "0x12749c"
+      ],
+      "live_sites": [
+        "0x12749c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "A Carta veio da\\ncaixa de correio.<0xFC><0x09>",
+      "encoded_bytes": 36,
+      "line_pixels": [
+        86,
+        95
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416d4f"
+      ]
+    },
+    {
+      "offset": "0x416d78",
+      "english": "The <0xFD>Á is full. The Pokémon's\\nitem could not be removed.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} est plein. Objet du\\nPokémon non retiré.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcd900fd0200dde700dae9e0e0ad00cedcd900cae3df1be1e3e2b4e7fedde8d9e100d7e3e9e0d800e2e3e800d6d900e6d9e1e3ead9d8adfc09ff",
+      "source_sites": [
+        "0x1206a4"
+      ],
+      "live_sites": [
+        "0x1206a4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> está sem espaço.\\nNão foi possível retirar o item.<0xFC><0x09>",
+      "encoded_bytes": 55,
+      "line_pixels": [
+        151,
+        176
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416d78"
+      ]
+    },
+    {
+      "offset": "0x416db3",
+      "english": "<0xFD>Á learned\\n<0xFD>Â!",
+      "french_reference": "{STR_VAR_1} a appris\\n{STR_VAR_2} !",
+      "source_hex": "fd0200e0d9d5e6e2d9d8fefd03abff",
+      "source_sites": [
+        "0x125ce8",
+        "0x126888",
+        "0x1e5202e"
+      ],
+      "live_sites": [
+        "0x125ce8",
+        "0x126888",
+        "0x1e5202e"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> aprendeu\\n<0xFD><0x03>!",
+      "encoded_bytes": 16,
+      "line_pixels": [
+        106,
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904d3d",
+        "0x904d3d",
+        "0x904d3d"
+      ]
+    },
+    {
+      "offset": "0x416dc2",
+      "english": "<0xFD>Á and <0xFD>Â\\nare not compatible.<0xFB><0xFD>Â can't be\\nlearned.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} et {STR_VAR_2} ne sont pas compatibles.\\p{STR_VAR_2} ne peut pas être\\napprise.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d5e2d800fd03fed5e6d900e2e3e800d7e3e1e4d5e8ddd6e0d9adfbfd0300d7d5e2b4e800d6d9fee0d9d5e6e2d9d8adfc09ff",
+      "source_sites": [
+        "0x125bf8",
+        "0x9a34ac"
+      ],
+      "live_sites": [
+        "0x125bf8",
+        "0x9a34ac"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> e <0xFD><0x03>\\nsão incompatíveis.<0xFB><0xFD><0x03> não pode\\nser aprendido.<0xFC><0x09>",
+      "encoded_bytes": 56,
+      "line_pixels": [
+        126,
+        99,
+        107,
+        77
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac15e",
+        "0x1ac15e"
+      ]
+    },
+    {
+      "offset": "0x416df7",
+      "english": "<0xFD>Á wants to learn the\\nmove <0xFD>Â.<0xFB>However, <0xFD>Á already\\nknows four moves.<0xFB>Should a move be deleted and\\nreplaced with <0xFD>Â?",
+      "french_reference": "{STR_VAR_1} veut apprendre la capacité {STR_VAR_2}.\\n{STR_VAR_1} connaît déjà\\pquatre capacités.\\n\\pOublier une capacité pour\\napprendre {STR_VAR_2} ?",
+      "source_hex": "fd0200ebd5e2e8e700e8e300e0d9d5e6e200e8dcd9fee1e3ead900fd03adfbc2e3ebd9ead9e6b800fd0200d5e0e6d9d5d8edfedfe2e3ebe700dae3e9e600e1e3ead9e7adfbcddce3e9e0d800d500e1e3ead900d6d900d8d9e0d9e8d9d800d5e2d8fee6d9e4e0d5d7d9d800ebdde8dc00fd03acff",
+      "source_sites": [
+        "0x125c2c",
+        "0x126280",
+        "0x1267f8",
+        "0x126ea4",
+        "0x1e51feb"
+      ],
+      "live_sites": [
+        "0x125c2c",
+        "0x126280",
+        "0x1267f8",
+        "0x126ea4",
+        "0x1e51feb"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> quer aprender\\no movimento <0xFD><0x03>.<0xFB>Porém, <0xFD><0x02> já\\nsabe quatro movimentos.<0xFB>Esquecer um movimento e\\naprender <0xFD><0x03>?",
+      "encoded_bytes": 107,
+      "line_pixels": [
+        134,
+        127,
+        112,
+        129,
+        132,
+        111
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac196",
+        "0x1ac196",
+        "0x1ac196",
+        "0x1ac196",
+        "0x1ac196"
+      ]
+    },
+    {
+      "offset": "0x416e6b",
+      "english": "Stop trying to teach\\n<0xFD>Â?",
+      "french_reference": "Arrêter d'enseigner\\n{STR_VAR_2} ?",
+      "source_hex": "cde8e3e400e8e6eddde2db00e8e300e8d9d5d7dcfefd03acff",
+      "source_sites": [
+        "0x126130"
+      ],
+      "live_sites": [
+        "0x126130"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Desistir de ensinar\\n<0xFD><0x03>?",
+      "encoded_bytes": 24,
+      "line_pixels": [
+        100,
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416e6b"
+      ]
+    },
+    {
+      "offset": "0x416e84",
+      "english": "<0xFD>Á did not learn the\\nmove <0xFD>Â.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} n'a pas appris\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d8ddd800e2e3e800e0d9d5e6e200e8dcd9fee1e3ead900fd03adfc09ff",
+      "source_sites": [
+        "0x126204"
+      ],
+      "live_sites": [
+        "0x126204"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> não aprendeu\\no movimento <0xFD><0x03>.<0xFC><0x09>",
+      "encoded_bytes": 34,
+      "line_pixels": [
+        129,
+        127
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x16b7c0"
+      ]
+    },
+    {
+      "offset": "0x416ea4",
+      "english": "Which move should be forgotten?<0xFC>Ì",
+      "french_reference": "Quelle capacité oublier ? {PAUSE_UNTIL_PRESS}",
+      "source_hex": "d1dcddd7dc00e1e3ead900e7dce3e9e0d800d6d900dae3e6dbe3e8e8d9e2acfc09ff",
+      "source_sites": [
+        "0x125dfc"
+      ],
+      "live_sites": [
+        "0x125dfc"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Qual movimento esquecer?<0xFC><0x09>",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        137
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416ea4"
+      ]
+    },
+    {
+      "offset": "0x416ec6",
+      "english": "1, <0xFC>ËÔ2, and<0xFC>ËÔ\" <0xFC>ËÔ\" <0xFC>ËÔ\" <0xFC>ËÔ<0xFC>Œ<0x31> Poof!<0xFB><0xFD>Á forgot how to\\nuse <0xFD>Â.<0xFB>And...<0xFC>Ì",
+      "french_reference": "1, <0xFC><0x08><0x0F>2, et<0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00>TADAA!\\p<0xFD><0x02> oublie comment\\nutiliser <0xFD><0x03>.\\pEt…<0xFC><0x09>",
+      "source_hex": "a2b800fc080fa3b800d5e2d8fc080fb000fc080fb000fc080fb000fc080ffc103100cae3e3daabfbfd0200dae3e6dbe3e800dce3eb00e8e3fee9e7d900fd03adfbbbe2d8adadadfc09ff",
+      "source_sites": [
+        "0x126070"
+      ],
+      "live_sites": [
+        "0x126070"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "1, <0xFC><0x08><0x0F>2 e<0xFC><0x08><0x0F>… <0xFC><0x08><0x0F>… <0xFC><0x08><0x0F>… <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00> Puf!<0xFB><0xFD><0x02> esqueceu como\\nusar <0xFD><0x03>.<0xFB>E...<0xFC><0x09>",
+      "encoded_bytes": 76,
+      "line_pixels": [
+        127,
+        137,
+        87,
+        21
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac201"
+      ]
+    },
+    {
+      "offset": "0x416f10",
+      "english": "<0xFD>Á already knows\\n<0xFD>Â.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} connaît déjà\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d5e0e6d9d5d8ed00dfe2e3ebe7fefd03adfc09ff",
+      "source_sites": [
+        "0x125c08",
+        "0x126e80",
+        "0x9a34b0",
+        "0x1ed551c"
+      ],
+      "live_sites": [
+        "0x125c08",
+        "0x126e80",
+        "0x9a34b0",
+        "0x1ed551c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> já sabe\\n<0xFD><0x03>.<0xFC><0x09>",
+      "encoded_bytes": 17,
+      "line_pixels": [
+        101,
+        59
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416f10",
+        "0x416f10",
+        "0x416f10",
+        "0x416f10"
+      ]
+    },
+    {
+      "offset": "0x416f27",
+      "english": "<0xFD>Á's HP was restored\\nby <0xFD>Â point(s).<0xFC>Ì",
+      "french_reference": "PV de {STR_VAR_1} restaurés de {STR_VAR_2} point(s).\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd02b4e700c2ca00ebd5e700e6d9e7e8e3e6d9d8fed6ed00fd0300e4e3dde2e85ce75dadfc09ff",
+      "source_sites": [
+        "0xe5894",
+        "0x1255b0",
+        "0x126b54"
+      ],
+      "live_sites": [
+        "0xe5894",
+        "0x1255b0",
+        "0x126b54"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> recuperou\\n<0xFD><0x03> PS.<0xFC><0x09>",
+      "encoded_bytes": 22,
+      "line_pixels": [
+        112,
+        77
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416f27",
+        "0x416f27",
+        "0x416f27"
+      ]
+    },
+    {
+      "offset": "0x416f4e",
+      "english": "<0xFD>Á was cured of its\\npoisoning.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} guéri du poison.\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200ebd5e700d7e9e6d9d800e3da00dde8e7fee4e3dde7e3e2dde2dbadfc09ff",
+      "source_sites": [
+        "0x1250d8"
+      ],
+      "live_sites": [
+        "0x1250d8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> se curou\\ndo envenenamento.<0xFC><0x09>",
+      "encoded_bytes": 32,
+      "line_pixels": [
+        106,
+        96
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416f4e"
+      ]
+    },
+    {
+      "offset": "0x416f6f",
+      "english": "<0xFD>Á was cured of\\nparalysis.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} guéri de la paralysie.\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200ebd5e700d7e9e6d9d800e3dafee4d5e6d5e0ede7dde7adfc09ff",
+      "source_sites": [
+        "0x125128"
+      ],
+      "live_sites": [
+        "0x125128"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> se curou\\nda paralisia.<0xFC><0x09>",
+      "encoded_bytes": 28,
+      "line_pixels": [
+        106,
+        70
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416f6f"
+      ]
+    },
+    {
+      "offset": "0x416f8c",
+      "english": "<0xFD>Á woke up.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} s'est réveillé. {PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200ebe3dfd900e9e4adfc09ff",
+      "source_sites": [
+        "0x1250ec"
+      ],
+      "live_sites": [
+        "0x1250ec"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> acordou.<0xFC><0x09>",
+      "encoded_bytes": 14,
+      "line_pixels": [
+        106
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904c17"
+      ]
+    },
+    {
+      "offset": "0x416f9a",
+      "english": "<0xFD>Á's burn was healed.<0xFC>Ì",
+      "french_reference": "Brûlure de {STR_VAR_1} guérie. {PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd02b4e700d6e9e6e200ebd5e700dcd9d5e0d9d8adfc09ff",
+      "source_sites": [
+        "0x125100"
+      ],
+      "live_sites": [
+        "0x125100"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> curou a queimadura.<0xFC><0x09>",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        169
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a381e"
+      ]
+    },
+    {
+      "offset": "0x416fb2",
+      "english": "<0xFD>Á was thawed out.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} a dégelé. {PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200ebd5e700e8dcd5ebd9d800e3e9e8adfc09ff",
+      "source_sites": [
+        "0x125114"
+      ],
+      "live_sites": [
+        "0x125114"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> descongelou.<0xFC><0x09>",
+      "encoded_bytes": 18,
+      "line_pixels": [
+        128
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416fb2"
+      ]
+    },
+    {
+      "offset": "0x416fc7",
+      "english": "PP was restored.<0xFC>Ì",
+      "french_reference": "PP restaurés.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "caca00ebd5e700e6d9e7e8e3e6d9d8adfc09ff",
+      "source_sites": [
+        "0x125200"
+      ],
+      "live_sites": [
+        "0x125200"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PP restaurados.<0xFC><0x09>",
+      "encoded_bytes": 18,
+      "line_pixels": [
+        84
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x416fc7"
+      ]
+    },
+    {
+      "offset": "0x416fed",
+      "english": "<0xFD>Á became healthy.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} est en pleine forme. {PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d6d9d7d5e1d900dcd9d5e0e8dcedadfc09ff",
+      "source_sites": [
+        "0x125164"
+      ],
+      "live_sites": [
+        "0x125164"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> ficou saudável.<0xFC><0x09>",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        144
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe057a"
+      ]
+    },
+    {
+      "offset": "0x417002",
+      "english": "<0xFD>Á's PP increased.<0xFC>Ì",
+      "french_reference": "PP de {STR_VAR_1} augmentés. {PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd02b4e700caca00dde2d7e6d9d5e7d9d8adfc09ff",
+      "source_sites": [
+        "0x1251ec"
+      ],
+      "live_sites": [
+        "0x1251ec"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Os PP de <0xFD><0x02> subiram.<0xFC><0x09>",
+      "encoded_bytes": 23,
+      "line_pixels": [
+        156
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1ee6"
+      ]
+    },
+    {
+      "offset": "0x417017",
+      "english": "<0xFD>Á was elevated to\\nLv. <0xFD>Â.",
+      "french_reference": "{STR_VAR_1} monte au\\nN.{STR_VAR_2}.",
+      "source_hex": "fd0200ebd5e700d9e0d9ead5e8d9d800e8e3fec6eaad00fd03adff",
+      "source_sites": [
+        "0x126434"
+      ],
+      "live_sites": [
+        "0x126434"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> subiu para\\no Nv. <0xFD><0x03>.",
+      "encoded_bytes": 24,
+      "line_pixels": [
+        116,
+        94
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417017"
+      ]
+    },
+    {
+      "offset": "0x417032",
+      "english": "<0xFD>Á's base <0xFD>Â\\nstat was raised.<0xFC>Ì",
+      "french_reference": "Stat de base {STR_VAR_2} de {STR_VAR_1} augmentée.\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd02b4e700d6d5e7d900fd03fee7e8d5e800ebd5e700e6d5dde7d9d8adfc09ff",
+      "source_sites": [
+        "0x1251d8",
+        "0x8c10b3"
+      ],
+      "live_sites": [
+        "0x1251d8",
+        "0x8c10b3"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02>: atributo <0xFD><0x03>\\nbase aumentado.<0xFC><0x09>",
+      "encoded_bytes": 34,
+      "line_pixels": [
+        168,
+        86
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x16b7e2",
+        "0x16b7e2"
+      ]
+    },
+    {
+      "offset": "0x417052",
+      "english": "<0xFD>Á snapped out of its\\nconfusion.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} n'est plus confus.\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200e7e2d5e4e4d9d800e3e9e800e3da00dde8e7fed7e3e2dae9e7dde3e2adfc09ff",
+      "source_sites": [
+        "0x12513c"
+      ],
+      "live_sites": [
+        "0x12513c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> se livrou\\nda confusão.<0xFC><0x09>",
+      "encoded_bytes": 28,
+      "line_pixels": [
+        109,
+        68
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417052"
+      ]
+    },
+    {
+      "offset": "0x417075",
+      "english": "<0xFD>Á got over its\\ninfatuation.<0xFC>Ì",
+      "french_reference": "{STR_VAR_1} n'est plus amoureux.\\n{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200dbe3e800e3ead9e600dde8e7fedde2dad5e8e9d5e8dde3e2adfc09ff",
+      "source_sites": [
+        "0x125150"
+      ],
+      "live_sites": [
+        "0x125150"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> se livrou\\nda paixão.<0xFC><0x09>",
+      "encoded_bytes": 26,
+      "line_pixels": [
+        109,
+        57
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417075"
+      ]
+    },
+    {
+      "offset": "0x417094",
+      "english": "That's your only\\nPokémon for battle.",
+      "french_reference": "C'est ton seul Pokémon\\npour combattre.",
+      "source_hex": "cedcd5e8b4e700ede3e9e600e3e2e0edfecae3df1be1e3e200dae3e600d6d5e8e8e0d9adff",
+      "source_sites": [
+        "0x261f00"
+      ],
+      "live_sites": [
+        "0x261f00"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "É seu único Pokémon\\ncapaz de lutar.",
+      "encoded_bytes": 36,
+      "line_pixels": [
+        108,
+        86
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac24d"
+      ]
+    },
+    {
+      "offset": "0x4170b9",
+      "english": "   That Pokémon can't be traded\\nnow.",
+      "french_reference": "Ce Pokémon ne peut pas être échangé\\nmaintenant.",
+      "source_hex": "000000cedcd5e800cae3df1be1e3e200d7d5e2b4e800d6d900e8e6d5d8d9d8fee2e3ebadff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Préfixe de padding sans pointeur ; la chaîne utile suivante possède ses pointeurs propres et est traduite séparément.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x4170bc",
+      "english": "That Pokémon can't be traded\\nnow.",
+      "french_reference": "Ce Pokémon ne peut être\\néchangé maintenant.",
+      "source_hex": "cedcd5e800cae3df1be1e3e200d7d5e2b4e800d6d900e8e6d5d8d9d8fee2e3ebadff",
+      "source_sites": [
+        "0x124428",
+        "0x261f0c",
+        "0x45a7f0",
+        "0x45a7f4",
+        "0x820e28",
+        "0x820e2c"
+      ],
+      "live_sites": [
+        "0x124428",
+        "0x261f0c",
+        "0x45a7f0",
+        "0x45a7f4",
+        "0x820e28",
+        "0x820e2c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Esse Pokémon não pode\\nser trocado agora.",
+      "encoded_bytes": 41,
+      "line_pixels": [
+        121,
+        102
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbcbc9f",
+        "0xbcbc9f",
+        "0xbcbc9f",
+        "0xbcbc9f",
+        "0xbcbc9f",
+        "0xbcbc9f"
+      ]
+    },
+    {
+      "offset": "0x4170de",
+      "english": "  An Egg can't be traded now.",
+      "french_reference": "Un œuf ne peut plus être échangé\\npour le moment.",
+      "source_hex": "0000bbe200bfdbdb00d7d5e2b4e800d6d900e8e6d5d8d9d800e2e3ebadff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Préfixe de padding sans pointeur ; la chaîne utile suivante possède ses pointeurs propres et est traduite séparément.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x4170e0",
+      "english": "An Egg can't be traded now.",
+      "french_reference": "Un Oeuf ne peut être échangé.",
+      "source_hex": "bbe200bfdbdb00d7d5e2b4e800d6d900e8e6d5d8d9d800e2e3ebadff",
+      "source_sites": [
+        "0x12447c",
+        "0x261f10",
+        "0x45a7fc",
+        "0x820e34"
+      ],
+      "live_sites": [
+        "0x12447c",
+        "0x261f10",
+        "0x45a7fc",
+        "0x820e34"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não pode trocar um Ovo agora.",
+      "encoded_bytes": 30,
+      "line_pixels": [
+        169
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x80eb3c",
+        "0x80eb3c",
+        "0x80eb3c",
+        "0x80eb3c"
+      ]
+    },
+    {
+      "offset": "0x4170fc",
+      "english": "The other Trainer's Pokémon\\ncan't be traded now.",
+      "french_reference": "Le Pokémon de l'autre\\nDresseur ne peut pas être troqué.",
+      "source_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e6b4e700cae3df1be1e3e2fed7d5e2b4e800d6d900e8e6d5d8d9d800e2e3ebadff",
+      "source_sites": [
+        "0x261f14",
+        "0x45a7f8",
+        "0x820e30"
+      ],
+      "live_sites": [
+        "0x261f14",
+        "0x45a7f8",
+        "0x820e30"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "O Pokémon do outro Treinador\\nnão pode ser trocado agora.",
+      "encoded_bytes": 57,
+      "line_pixels": [
+        159,
+        155
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1a39bf",
+        "0x1a39bf",
+        "0x1a39bf"
+      ]
+    },
+    {
+      "offset": "0x41712d",
+      "english": "   The other Trainer can't accept\\nthat Pokémon now.",
+      "french_reference": "L’autre Dresseur ne peut pas\\naccepter ce Pokémon maintenant.",
+      "source_hex": "000000cedcd900e3e8dcd9e600cee6d5dde2d9e600d7d5e2b4e800d5d7d7d9e4e8fee8dcd5e800cae3df1be1e3e200e2e3ebadff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Préfixe de padding sans pointeur ; la chaîne utile suivante possède ses pointeurs propres et est traduite séparément.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417130",
+      "english": "The other Trainer can't accept\\nthat Pokémon now.",
+      "french_reference": "L'autre Dresseur ne peut pas\\naccepter ce Pokémon maintenant.",
+      "source_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600d7d5e2b4e800d5d7d7d9e4e8fee8dcd5e800cae3df1be1e3e200e2e3ebadff",
+      "source_sites": [
+        "0x45a800",
+        "0x820e38"
+      ],
+      "live_sites": [
+        "0x45a800",
+        "0x820e38"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "O outro Treinador não pode\\nreceber esse Pokémon agora.",
+      "encoded_bytes": 55,
+      "line_pixels": [
+        148,
+        154
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1a38a8",
+        "0x1a38a8"
+      ]
+    },
+    {
+      "offset": "0x417161",
+      "english": "   You can't trade with that\\nTrainer now.",
+      "french_reference": "Échange impossible\\navec ce Dresseur.",
+      "source_hex": "000000d3e3e900d7d5e2b4e800e8e6d5d8d900ebdde8dc00e8dcd5e8fecee6d5dde2d9e600e2e3ebadff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Préfixe de padding sans pointeur ; la chaîne utile suivante possède ses pointeurs propres et est traduite séparément.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417164",
+      "english": "You can't trade with that\\nTrainer now.",
+      "french_reference": "Impossible d'échanger avec\\nce Dresseur maintenant.",
+      "source_hex": "d3e3e900d7d5e2b4e800e8e6d5d8d900ebdde8dc00e8dcd5e8fecee6d5dde2d9e600e2e3ebadff",
+      "source_sites": [
+        "0x45a804",
+        "0x45a808",
+        "0x820e3c",
+        "0x820e40"
+      ],
+      "live_sites": [
+        "0x45a804",
+        "0x45a808",
+        "0x820e3c",
+        "0x820e40"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não pode trocar com\\nesse Treinador agora.",
+      "encoded_bytes": 42,
+      "line_pixels": [
+        111,
+        117
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac271",
+        "0x1ac271",
+        "0x1ac271",
+        "0x1ac271"
+      ]
+    },
+    {
+      "offset": "0x41718b",
+      "english": " That isn't the type of Pokémon\\nthat the other Trainer wants.",
+      "french_reference": "Ce n'est pas le type de Pokémon\\nvoulu par l'autre Dresseur.",
+      "source_hex": "00cedcd5e800dde7e2b4e800e8dcd900e8ede4d900e3da00cae3df1be1e3e2fee8dcd5e800e8dcd900e3e8dcd9e600cee6d5dde2d9e600ebd5e2e8e7adff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Préfixe de padding sans pointeur ; la chaîne utile suivante possède ses pointeurs propres et est traduite séparément.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x41718c",
+      "english": "That isn't the type of Pokémon\\nthat the other Trainer wants.",
+      "french_reference": "Ce n'est pas le type de Pokémon\\nque veut l'autre Dresseur.",
+      "source_hex": "cedcd5e800dde7e2b4e800e8dcd900e8ede4d900e3da00cae3df1be1e3e2fee8dcd5e800e8dcd900e3e8dcd9e600cee6d5dde2d9e600ebd5e2e8e7adff",
+      "source_sites": [
+        "0x45a7e8",
+        "0x820e20"
+      ],
+      "live_sites": [
+        "0x45a7e8",
+        "0x820e20"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não é o tipo de Pokémon\\nque o outro Treinador quer.",
+      "encoded_bytes": 52,
+      "line_pixels": [
+        133,
+        153
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x41718c",
+        "0x41718c"
+      ]
+    },
+    {
+      "offset": "0x4171c9",
+      "english": "   That isn't an Egg.",
+      "french_reference": "Ce n'est pas un œuf.",
+      "source_hex": "000000cedcd5e800dde7e2b4e800d5e200bfdbdbadff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Préfixe de padding sans pointeur ; la chaîne utile suivante possède ses pointeurs propres et est traduite séparément.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x4171cc",
+      "english": "That isn't an Egg.",
+      "french_reference": "Pas un OEuf.",
+      "source_hex": "cedcd5e800dde7e2b4e800d5e200bfdbdbadff",
+      "source_sites": [
+        "0x45a7ec",
+        "0x820e24"
+      ],
+      "live_sites": [
+        "0x45a7ec",
+        "0x820e24"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Isso não é um Ovo.",
+      "encoded_bytes": 19,
+      "line_pixels": [
+        104
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe0293",
+        "0xbe0293"
+      ]
+    },
+    {
+      "offset": "0x4171df",
+      "english": "Choose a Pokémon.",
+      "french_reference": "Choisis un Pokémon.",
+      "source_hex": "bddce3e3e7d900d500cae3df1be1e3e2adff",
+      "source_sites": [
+        "0x45a2e8"
+      ],
+      "live_sites": [
+        "0x45a2e8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Escolha um Pokémon.",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        109
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe037c"
+      ]
+    },
+    {
+      "offset": "0x4171f1",
+      "english": "Move to where?",
+      "french_reference": "Dépl. où ?",
+      "source_hex": "c7e3ead900e8e300ebdcd9e6d9acff",
+      "source_sites": [
+        "0x45a2f4"
+      ],
+      "live_sites": [
+        "0x45a2f4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Mover para onde?",
+      "encoded_bytes": 17,
+      "line_pixels": [
+        93
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904da1"
+      ]
+    },
+    {
+      "offset": "0x417200",
+      "english": "Teach which Pokémon?",
+      "french_reference": "Enseigner à quel Pokémon ?",
+      "source_hex": "ced9d5d7dc00ebdcddd7dc00cae3df1be1e3e2acff",
+      "source_sites": [
+        "0x40f1aa",
+        "0x45a2f8"
+      ],
+      "live_sites": [
+        "0x45a2f8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Ensinar a qual Pokémon?",
+      "encoded_bytes": 24,
+      "line_pixels": [
+        129
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b2041"
+      ]
+    },
+    {
+      "offset": "0x417215",
+      "english": "Use on which Pokémon?",
+      "french_reference": "Utiliser sur quel Pokémon ?",
+      "source_hex": "cfe7d900e3e200ebdcddd7dc00cae3df1be1e3e2acff",
+      "source_sites": [
+        "0x45a2fc"
+      ],
+      "live_sites": [
+        "0x45a2fc"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Usar em qual Pokémon?",
+      "encoded_bytes": 22,
+      "line_pixels": [
+        121
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1e48"
+      ]
+    },
+    {
+      "offset": "0x41722b",
+      "english": "Give to which Pokémon?",
+      "french_reference": "Donner à quel Pokémon ?",
+      "source_hex": "c1ddead900e8e300ebdcddd7dc00cae3df1be1e3e2acff",
+      "source_sites": [
+        "0x45a300"
+      ],
+      "live_sites": [
+        "0x45a300"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Dar a qual Pokémon?",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        110
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x41722b"
+      ]
+    },
+    {
+      "offset": "0x417242",
+      "english": "Do what with this <0x53><0x54>?",
+      "french_reference": "Que faire de ce <0x53><0x54> ?",
+      "source_hex": "bee300ebdcd5e800ebdde8dc00e8dcdde7005354acff",
+      "source_sites": [
+        "0x45a340"
+      ],
+      "live_sites": [
+        "0x45a340"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "O que fazer com este <0x53><0x54>?",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        128
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a37a1"
+      ]
+    },
+    {
+      "offset": "0x417258",
+      "english": "There's nothing to Cut.",
+      "french_reference": "Rien à Coupe.",
+      "source_hex": "cedcd9e6d9b4e700e2e3e8dcdde2db00e8e300bde9e8adff",
+      "source_sites": [
+        "0x45a304"
+      ],
+      "live_sites": [
+        "0x45a304"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Nada para usar Cut.",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        109
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417258"
+      ]
+    },
+    {
+      "offset": "0x417270",
+      "english": "No Surfing here!",
+      "french_reference": "Surf impossible ici !",
+      "source_hex": "c8e300cde9e6dadde2db00dcd9e6d9abff",
+      "source_sites": [
+        "0x45a308"
+      ],
+      "live_sites": [
+        "0x45a308"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não pode usar Surf aqui!",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        138
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b21f4"
+      ]
+    },
+    {
+      "offset": "0x417281",
+      "english": "You're already Surfing.",
+      "french_reference": "Tu surfes déjà.",
+      "source_hex": "d3e3e9b4e6d900d5e0e6d9d5d8ed00cde9e6dadde2dbadff",
+      "source_sites": [
+        "0x45a30c"
+      ],
+      "live_sites": [
+        "0x45a30c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Já está usando Surf.",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        113
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417281"
+      ]
+    },
+    {
+      "offset": "0x417299",
+      "english": "Can't use that here.",
+      "french_reference": "Inutilisable ici.",
+      "source_hex": "bdd5e2b4e800e9e7d900e8dcd5e800dcd9e6d9adff",
+      "source_sites": [
+        "0x45a31c"
+      ],
+      "live_sites": [
+        "0x45a31c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não pode usar aqui.",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        109
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417299"
+      ]
+    },
+    {
+      "offset": "0x4172ae",
+      "english": "Restore which move?",
+      "french_reference": "Restaurer quelle capacité ?",
+      "source_hex": "ccd9e7e8e3e6d900ebdcddd7dc00e1e3ead9acff",
+      "source_sites": [
+        "0x45a344"
+      ],
+      "live_sites": [
+        "0x45a344"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Restaurar qual movimento?",
+      "encoded_bytes": 26,
+      "line_pixels": [
+        141
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a3985"
+      ]
+    },
+    {
+      "offset": "0x4172c2",
+      "english": "Boost PP of which?",
+      "french_reference": "Booster les PP de quoi ?",
+      "source_hex": "bce3e3e7e800caca00e3da00ebdcddd7dcacff",
+      "source_sites": [
+        "0x45a348"
+      ],
+      "live_sites": [
+        "0x45a348"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Aumentar PP de qual?",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        116
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe04a8"
+      ]
+    },
+    {
+      "offset": "0x4172d5",
+      "english": "Do what with an item?",
+      "french_reference": "Que faire avec cet objet ?",
+      "source_hex": "bee300ebdcd5e800ebdde8dc00d5e200dde8d9e1acff",
+      "source_sites": [
+        "0x45a34c"
+      ],
+      "live_sites": [
+        "0x45a34c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "O que fazer com o item?",
+      "encoded_bytes": 24,
+      "line_pixels": [
+        133
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b2071"
+      ]
+    },
+    {
+      "offset": "0x4172eb",
+      "english": "No battling this way!",
+      "french_reference": "Pas de combat par ici !",
+      "source_hex": "c8e300d6d5e8e8e0dde2db00e8dcdde700ebd5edabff",
+      "source_sites": [
+        "0x45a320"
+      ],
+      "live_sites": [
+        "0x45a320"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não pode lutar assim!",
+      "encoded_bytes": 22,
+      "line_pixels": [
+        119
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1e1c"
+      ]
+    },
+    {
+      "offset": "0x417301",
+      "english": "Choose a Pokémon.",
+      "french_reference": "Choisis un Pokémon.",
+      "source_hex": "bddce3e3e7d900d500cae3df1be1e3e2adff",
+      "source_sites": [
+        "0x45a324"
+      ],
+      "live_sites": [
+        "0x45a324"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Escolha um Pokémon.",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        109
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe037c"
+      ]
+    },
+    {
+      "offset": "0x417313",
+      "english": "Not enough HP\"",
+      "french_reference": "PV insuffisants…",
+      "source_hex": "c8e3e800d9e2e3e9dbdc00c2cab0ff",
+      "source_sites": [
+        "0x45a328"
+      ],
+      "live_sites": [
+        "0x45a328"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PS insuficientes…",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        99
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe03f4"
+      ]
+    },
+    {
+      "offset": "0x417322",
+      "english": "Three <0x53><0x54> are needed.",
+      "french_reference": "3 <0x53><0x54> requis.",
+      "source_hex": "cedce6d9d900535400d5e6d900e2d9d9d8d9d8adff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417337",
+      "english": "<0x53><0x54> can't be the same.",
+      "french_reference": "Pas de <0x53><0x54> identiques.",
+      "source_hex": "535400d7d5e2b4e800d6d900e8dcd900e7d5e1d9adff",
+      "source_sites": [
+        "0x45a334"
+      ],
+      "live_sites": [
+        "0x45a334"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0x53><0x54> devem ser diferentes.",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        122
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac29b"
+      ]
+    },
+    {
+      "offset": "0x41734d",
+      "english": "No same hold items!",
+      "french_reference": "Pas d'objets identiques !",
+      "source_hex": "c8e300e7d5e1d900dce3e0d800dde8d9e1e7abff",
+      "source_sites": [
+        "0x45a338"
+      ],
+      "live_sites": [
+        "0x45a338"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Sem itens repetidos!",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        110
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe0511"
+      ]
+    },
+    {
+      "offset": "0x41735b",
+      "english": "tems!",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "e8d9e1e7abff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; préfixe/suffixe interne sans consommateur autonome.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417361",
+      "english": "The current is much too fast!",
+      "french_reference": "Le courant est trop rapide !",
+      "source_hex": "cedcd900d7e9e6e6d9e2e800dde700e1e9d7dc00e8e3e300dad5e7e8abff",
+      "source_sites": [
+        "0x45a310"
+      ],
+      "live_sites": [
+        "0x45a310"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "A correnteza é forte demais!",
+      "encoded_bytes": 29,
+      "line_pixels": [
+        158
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417361"
+      ]
+    },
+    {
+      "offset": "0x41736b",
+      "english": "t is much too fast!",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "e800dde700e1e9d7dc00e8e3e300dad5e7e8abff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; préfixe/suffixe interne sans consommateur autonome.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x41737f",
+      "english": "Do what with the Mail?",
+      "french_reference": "Que faire du Courrier ?",
+      "source_hex": "bee300ebdcd5e800ebdde8dc00e8dcd900c7d5dde0acff",
+      "source_sites": [
+        "0x45a350"
+      ],
+      "live_sites": [
+        "0x45a350"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "O que fazer com a Carta?",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        140
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b220d"
+      ]
+    },
+    {
+      "offset": "0x417396",
+      "english": "Choose Pokémon or Cancel.",
+      "french_reference": "Choisis Pokémon ou Sortir.",
+      "source_hex": "bddce3e3e7d900cae3df1be1e3e200e3e600bdd5e2d7d9e0adff",
+      "source_sites": [
+        "0x45a2ec"
+      ],
+      "live_sites": [
+        "0x45a2ec"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Escolha Pokémon ou cancele.",
+      "encoded_bytes": 28,
+      "line_pixels": [
+        155
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xc27523"
+      ]
+    },
+    {
+      "offset": "0x4173b0",
+      "english": "Choose Pokémon and confirm.",
+      "french_reference": "Choisis Pokémon et confirme.",
+      "source_hex": "bddce3e3e7d900cae3df1be1e3e200d5e2d800d7e3e2dadde6e1adff",
+      "source_sites": [
+        "0x45a2f0"
+      ],
+      "live_sites": [
+        "0x45a2f0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Escolha Pokémon e confirme.",
+      "encoded_bytes": 28,
+      "line_pixels": [
+        152
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xc27507"
+      ]
+    },
+    {
+      "offset": "0x4173cc",
+      "english": "Two Pokémon are needed.",
+      "french_reference": "Deux Pokémon sont requis.",
+      "source_hex": "ceebe300cae3df1be1e3e200d5e6d900e2d9d9d8d9d8adff",
+      "source_sites": [
+        "0x45a330"
+      ],
+      "live_sites": [
+        "0x45a330"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "São precisos dois Pokémon.",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        145
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a3b67"
+      ]
+    },
+    {
+      "offset": "0x4173e4",
+      "english": "Let's enjoy cycling!",
+      "french_reference": "Profitons du vélo !",
+      "source_hex": "c6d9e8b4e700d9e2dee3ed00d7edd7e0dde2dbabff",
+      "source_sites": [
+        "0x45a314"
+      ],
+      "live_sites": [
+        "0x45a314"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Vamos pedalar!",
+      "encoded_bytes": 15,
+      "line_pixels": [
+        81
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4173e4"
+      ]
+    },
+    {
+      "offset": "0x4173f9",
+      "english": "This is in use already.",
+      "french_reference": "Déjà en cours d'utilisation.",
+      "source_hex": "cedcdde700dde700dde200e9e7d900d5e0e6d9d5d8edadff",
+      "source_sites": [
+        "0x45a318"
+      ],
+      "live_sites": [
+        "0x45a318"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Já está em uso.",
+      "encoded_bytes": 16,
+      "line_pixels": [
+        86
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4173f9"
+      ]
+    },
+    {
+      "offset": "0x417411",
+      "english": "No use.",
+      "french_reference": "Inutilisable.",
+      "source_hex": "c8e300e9e7d9adff",
+      "source_sites": [
+        "0x45a354"
+      ],
+      "live_sites": [
+        "0x45a354"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Sem efeito.",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        61
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe697df"
+      ]
+    },
+    {
+      "offset": "0x417419",
+      "english": "ABLE",
+      "french_reference": "APTE",
+      "source_hex": "bbbcc6bfff",
+      "source_sites": [
+        "0x45a358"
+      ],
+      "live_sites": [
+        "0x45a358"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PODE",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        24
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c8d"
+      ]
+    },
+    {
+      "offset": "0x41741e",
+      "english": "FIRST",
+      "french_reference": "PREMIER",
+      "source_hex": "c0c3cccdceff",
+      "source_sites": [
+        "0x45a35c"
+      ],
+      "live_sites": [
+        "0x45a35c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PRIMEIRO",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        48
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58fc9"
+      ]
+    },
+    {
+      "offset": "0x417424",
+      "english": "SECOND",
+      "french_reference": "SECOND",
+      "source_hex": "cdbfbdc9c8beff",
+      "source_sites": [
+        "0x45a360"
+      ],
+      "live_sites": [
+        "0x45a360"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SEGUNDO",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58d9c"
+      ]
+    },
+    {
+      "offset": "0x41742b",
+      "english": "THIRD",
+      "french_reference": "TROISIÈME",
+      "source_hex": "cec2c3ccbeff",
+      "source_sites": [
+        "0x45a364"
+      ],
+      "live_sites": [
+        "0x45a364"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "TERCEIRO",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        48
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe6944c"
+      ]
+    },
+    {
+      "offset": "0x417431",
+      "english": "ABLE",
+      "french_reference": "APTE",
+      "source_hex": "bbbcc6bfff",
+      "source_sites": [
+        "0x45a368"
+      ],
+      "live_sites": [
+        "0x45a368"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PODE",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        24
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c8d"
+      ]
+    },
+    {
+      "offset": "0x417436",
+      "english": "NOT ABLE",
+      "french_reference": "INAPTE",
+      "source_hex": "c8c9ce00bbbcc6bfff",
+      "source_sites": [
+        "0x45a36c"
+      ],
+      "live_sites": [
+        "0x45a36c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "NÃO PODE",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        48
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58f42"
+      ]
+    },
+    {
+      "offset": "0x41743f",
+      "english": "ABLE!",
+      "french_reference": "APTE !",
+      "source_hex": "bbbcc6bfabff",
+      "source_sites": [
+        "0x45a370"
+      ],
+      "live_sites": [
+        "0x45a370"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PODE!",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        30
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10dab"
+      ]
+    },
+    {
+      "offset": "0x417445",
+      "english": "NOT ABLE!",
+      "french_reference": "INAPTE !",
+      "source_hex": "c8c9ce00bbbcc6bfabff",
+      "source_sites": [
+        "0x45a374"
+      ],
+      "live_sites": [
+        "0x45a374"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "NÃO PODE!",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        54
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe6953e"
+      ]
+    },
+    {
+      "offset": "0x41744f",
+      "english": "LEARNED",
+      "french_reference": "APPRISE",
+      "source_hex": "c6bfbbccc8bfbeff",
+      "source_sites": [
+        "0x45a378"
+      ],
+      "live_sites": [
+        "0x45a378"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "APRENDEU",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        48
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58dfe"
+      ]
+    },
+    {
+      "offset": "0x417457",
+      "english": "OAK: It's important to get to know\\nyour Pokémon thoroughly.<0xFB>",
+      "french_reference": "CHEN : Il faut bien connaître\\nses Pokémon.\\p",
+      "source_hex": "c9bbc5f000c3e8b4e700dde1e4e3e6e8d5e2e800e8e300dbd9e800e8e300dfe2e3ebfeede3e9e600cae3df1be1e3e200e8dce3e6e3e9dbdce0edadfbff",
+      "source_sites": [
+        "0x12210c",
+        "0x1bb7b57"
+      ],
+      "live_sites": [
+        "0x12210c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "OAK: É importante conhecer\\nbem os seus Pokémon.<0xFB>",
+      "encoded_bytes": 49,
+      "line_pixels": [
+        147,
+        114,
+        0
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac2b4"
+      ]
+    },
+    {
+      "offset": "0x417494",
+      "english": "This is a list of your Pokémon,\\n<0xFD>À.<0xFB>Open this to check the skills\\nand moves of your Pokémon.<0xFB>You also choose Pokémon here if\\nyou want to use an item on one.<0xFC>Ì",
+      "french_reference": "Liste de tes Pokémon,\\n{PLAYER}.\\pOuvre-la pour voir les capacités et\\nles attaques de tes Pokémon.\\pChoisis un Pokémon ici si tu veux\\nutiliser un objet.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcdde700dde700d500e0dde7e800e3da00ede3e9e600cae3df1be1e3e2b8fefd01adfbc9e4d9e200e8dcdde700e8e300d7dcd9d7df00e8dcd900e7dfdde0e0e7fed5e2d800e1e3ead9e700e3da00ede3e9e600cae3df1be1e3e2adfbd3e3e900d5e0e7e300d7dce3e3e7d900cae3df1be1e3e200dcd9e6d900dddafeede3e900ebd5e2e800e8e300e9e7d900d5e200dde8d9e100e3e200e3e2d9adfc09ff",
+      "source_sites": [
+        "0x120dd8"
+      ],
+      "live_sites": [
+        "0x120dd8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Esta é sua lista de Pokémon,\\n<0xFD><0x01>.<0xFB>Abra para ver as habilidades\\ne movimentos dos seus Pokémon.<0xFB>Escolha aqui um Pokémon\\npara usar um item nele.<0xFC><0x09>",
+      "encoded_bytes": 143,
+      "line_pixels": [
+        157,
+        59,
+        158,
+        169,
+        132,
+        129
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac2e5"
+      ]
+    },
+    {
+      "offset": "0x417533",
+      "english": "Cut a tree or grass.",
+      "french_reference": "Coupe un arbre ou de l'herbe.",
+      "source_hex": "bde9e800d500e8e6d9d900e3e600dbe6d5e7e7adff",
+      "source_sites": [
+        "0x8209e4",
+        "0xa6c96c"
+      ],
+      "live_sites": [
+        "0x8209e4",
+        "0xa6c96c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Cortar árvore ou grama.",
+      "encoded_bytes": 24,
+      "line_pixels": [
+        131
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b2029",
+        "0x7b2029"
+      ]
+    },
+    {
+      "offset": "0x417548",
+      "english": "Fly to a known town.",
+      "french_reference": "Vol vers une ville connue.",
+      "source_hex": "c0e0ed00e8e300d500dfe2e3ebe200e8e3ebe2adff",
+      "source_sites": [
+        "0x45a384",
+        "0x8209e8",
+        "0xa6c970"
+      ],
+      "live_sites": [
+        "0x45a384",
+        "0x8209e8",
+        "0xa6c970"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Voar a uma cidade conhecida.",
+      "encoded_bytes": 29,
+      "line_pixels": [
+        161
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xc277ce",
+        "0xc277ce",
+        "0xc277ce"
+      ]
+    },
+    {
+      "offset": "0x41755d",
+      "english": "Travel on water.",
+      "french_reference": "Voyage sur l'eau.",
+      "source_hex": "cee6d5ead9e000e3e200ebd5e8d9e6adff",
+      "source_sites": [
+        "0x45a38c",
+        "0x8209f0",
+        "0xa6c978"
+      ],
+      "live_sites": [
+        "0x45a38c",
+        "0x8209f0",
+        "0xa6c978"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Viajar sobre a água.",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        114
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe0565",
+        "0xbe0565",
+        "0xbe0565"
+      ]
+    },
+    {
+      "offset": "0x41756e",
+      "english": "Move heavy boulders.",
+      "french_reference": "Bouge des rochers lourds.",
+      "source_hex": "c7e3ead900dcd9d5eaed00d6e3e9e0d8d9e6e7adff",
+      "source_sites": [
+        "0x45a388",
+        "0x8209ec",
+        "0xa6c974"
+      ],
+      "live_sites": [
+        "0x45a388",
+        "0x8209ec",
+        "0xa6c974"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Mover pedras pesadas.",
+      "encoded_bytes": 22,
+      "line_pixels": [
+        120
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe063c",
+        "0xbe063c",
+        "0xbe063c"
+      ]
+    },
+    {
+      "offset": "0x417583",
+      "english": "Light up darkness.",
+      "french_reference": "Éclaire l'obscurité.",
+      "source_hex": "c6dddbdce800e9e400d8d5e6dfe2d9e7e7adff",
+      "source_sites": [
+        "0x8209e0",
+        "0xa6c968"
+      ],
+      "live_sites": [
+        "0x8209e0",
+        "0xa6c968"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Iluminar a escuridão.",
+      "encoded_bytes": 22,
+      "line_pixels": [
+        116
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe0626",
+        "0xbe0626"
+      ]
+    },
+    {
+      "offset": "0x417596",
+      "english": "Shatter a cracked rock.",
+      "french_reference": "Brise un rocher fissuré.",
+      "source_hex": "cddcd5e8e8d9e600d500d7e6d5d7dfd9d800e6e3d7dfadff",
+      "source_sites": [
+        "0x45a390",
+        "0x8209f4",
+        "0xa6c97c"
+      ],
+      "live_sites": [
+        "0x45a390",
+        "0x8209f4",
+        "0xa6c97c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Quebrar uma rocha rachada.",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        151
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a3b4c",
+        "0x7a3b4c",
+        "0x7a3b4c"
+      ]
+    },
+    {
+      "offset": "0x4175ae",
+      "english": "Climb a waterfall.",
+      "french_reference": "Escalade une cascade.",
+      "source_hex": "bde0dde1d600d500ebd5e8d9e6dad5e0e0adff",
+      "source_sites": [
+        "0x45a394",
+        "0x8209f8",
+        "0xa6c980"
+      ],
+      "live_sites": [
+        "0x45a394",
+        "0x8209f8",
+        "0xa6c980"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Subir uma cachoeira.",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        113
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe053b",
+        "0xbe053b",
+        "0xbe053b"
+      ]
+    },
+    {
+      "offset": "0x4175cc",
+      "english": "Escape from here.",
+      "french_reference": "Fuis d'ici.",
+      "source_hex": "bfe7d7d5e4d900dae6e3e100dcd9e6d9adff",
+      "source_sites": [
+        "0x45a39c",
+        "0x820a00",
+        "0xa6c988"
+      ],
+      "live_sites": [
+        "0x45a39c",
+        "0x820a00",
+        "0xa6c988"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Escapar daqui.",
+      "encoded_bytes": 15,
+      "line_pixels": [
+        79
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4175cc",
+        "0x4175cc",
+        "0x4175cc"
+      ]
+    },
+    {
+      "offset": "0x4175de",
+      "english": "Lure wild Pokémon.",
+      "french_reference": "Attire des Pokémon sauvages.",
+      "source_hex": "c6e9e6d900ebdde0d800cae3df1be1e3e2adff",
+      "source_sites": [
+        "0x45a3a8",
+        "0x820a0c",
+        "0xa6c994"
+      ],
+      "live_sites": [
+        "0x45a3a8",
+        "0x820a0c",
+        "0xa6c994"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Atrair Pokémon selvagens.",
+      "encoded_bytes": 26,
+      "line_pixels": [
+        138
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a38b5",
+        "0x7a38b5",
+        "0x7a38b5"
+      ]
+    },
+    {
+      "offset": "0x4175f1",
+      "english": "Share HP.",
+      "french_reference": "Partage les PV.",
+      "source_hex": "cddcd5e6d900c2caadff",
+      "source_sites": [
+        "0x45a3a0",
+        "0x45a3a4",
+        "0x820a04",
+        "0x820a08",
+        "0xa6c98c",
+        "0xa6c990"
+      ],
+      "live_sites": [
+        "0x45a3a0",
+        "0x45a3a4",
+        "0x820a04",
+        "0x820a08",
+        "0xa6c98c",
+        "0xa6c990"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Compartilhar PS.",
+      "encoded_bytes": 17,
+      "line_pixels": [
+        89
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904d90",
+        "0x904d90",
+        "0x904d90",
+        "0x904d90",
+        "0x904d90",
+        "0x904d90"
+      ]
+    },
+    {
+      "offset": "0x4175fb",
+      "english": "Return to a healing spot.",
+      "french_reference": "Retourne au point de soin.",
+      "source_hex": "ccd9e8e9e6e200e8e300d500dcd9d5e0dde2db00e7e4e3e8adff",
+      "source_sites": [
+        "0x45a398",
+        "0x8209fc",
+        "0xa6c984"
+      ],
+      "live_sites": [
+        "0x45a398",
+        "0x8209fc",
+        "0xa6c984"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Voltar ao ponto de cura.",
+      "encoded_bytes": 25,
+      "line_pixels": [
+        137
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4175fb",
+        "0x4175fb",
+        "0x4175fb"
+      ]
+    },
+    {
+      "offset": "0x417615",
+      "english": "Want to escape from here and return\\nto <0xFD>Á?",
+      "french_reference": "Quitter et revenir à\\n{STR_VAR_1} ?",
+      "source_hex": "d1d5e2e800e8e300d9e7d7d5e4d900dae6e3e100dcd9e6d900d5e2d800e6d9e8e9e6e2fee8e300fd02acff",
+      "source_sites": [
+        "0x124744"
+      ],
+      "live_sites": [
+        "0x124744"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Quer sair daqui e voltar\\na <0xFD><0x02>?",
+      "encoded_bytes": 31,
+      "line_pixels": [
+        134,
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac374"
+      ]
+    },
+    {
+      "offset": "0x417640",
+      "english": "Want to return to the healing spot\\nused last in <0xFD>Á?",
+      "french_reference": "Revenir au dernier point\\nde soin à {STR_VAR_1} ?",
+      "source_hex": "d1d5e2e800e8e300e6d9e8e9e6e200e8e300e8dcd900dcd9d5e0dde2db00e7e4e3e8fee9e7d9d800e0d5e7e800dde200fd02acff",
+      "source_sites": [
+        "0x1246ec"
+      ],
+      "live_sites": [
+        "0x1246ec"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Voltar ao último ponto de cura\\nusado em <0xFD><0x02>?",
+      "encoded_bytes": 44,
+      "line_pixels": [
+        170,
+        113
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac393"
+      ]
+    },
+    {
+      "offset": "0x417674",
+      "english": "Attack",
+      "french_reference": "Attaque",
+      "source_hex": "bbe8e8d5d7dfff",
+      "source_sites": [
+        "0x125184"
+      ],
+      "live_sites": [
+        "0x125184"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Ataque",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        35
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10e48"
+      ]
+    },
+    {
+      "offset": "0x41767b",
+      "english": "Defense",
+      "french_reference": "Défense",
+      "source_hex": "bed9dad9e2e7d9ff",
+      "source_sites": [
+        "0x125194"
+      ],
+      "live_sites": [
+        "0x125194"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Defesa",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        34
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x41767b"
+      ]
+    },
+    {
+      "offset": "0x41768d",
+      "english": "Speed",
+      "french_reference": "Vitesse",
+      "source_hex": "cde4d9d9d8ff",
+      "source_sites": [
+        "0x1251a4"
+      ],
+      "live_sites": [
+        "0x1251a4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Velocidade",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        57
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe69768"
+      ]
+    },
+    {
+      "offset": "0x417696",
+      "english": "That Pokémon can't participate.<0xFC>Ì",
+      "french_reference": "Ce Pokémon ne peut participer. {PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcd5e800cae3df1be1e3e200d7d5e2b4e800e4d5e6e8ddd7dde4d5e8d9adfc09ff",
+      "source_sites": [
+        "0x120a4c"
+      ],
+      "live_sites": [
+        "0x120a4c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Esse Pokémon não pode participar.<0xFC><0x09>",
+      "encoded_bytes": 36,
+      "line_pixels": [
+        185
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x16b940"
+      ]
+    },
+    {
+      "offset": "0x4176b8",
+      "english": "Cancel participation?",
+      "french_reference": "Annuler la participation ?",
+      "source_hex": "bdd5e2d7d9e000e4d5e6e8ddd7dde4d5e8dde3e2acff",
+      "source_sites": [
+        "0x120a84"
+      ],
+      "live_sites": [
+        "0x120a84"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Cancelar participação?",
+      "encoded_bytes": 23,
+      "line_pixels": [
+        123
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1eb8"
+      ]
+    },
+    {
+      "offset": "0x4176cf",
+      "english": "Cancel the battle?",
+      "french_reference": "Annuler le combat ?",
+      "source_hex": "bdd5e2d7d9e000e8dcd900d6d5e8e8e0d9acff",
+      "source_sites": [
+        "0x11fe64"
+      ],
+      "live_sites": [
+        "0x11fe64"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Cancelar a batalha?",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        109
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe0368"
+      ]
+    },
+    {
+      "offset": "0x4176e2",
+      "english": "Turn Off",
+      "french_reference": "Éteindre",
+      "source_hex": "cee9e6e200c9dadaff",
+      "source_sites": [
+        "0x4021f8"
+      ],
+      "live_sites": [
+        "0x4021f8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Desligar",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        43
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4176e2"
+      ]
+    },
+    {
+      "offset": "0x4176f1",
+      "english": "Item Storage",
+      "french_reference": "Stockage d'objets",
+      "source_hex": "c3e8d9e100cde8e3e6d5dbd9ff",
+      "source_sites": [
+        "0x4021e8"
+      ],
+      "live_sites": [
+        "0x4021e8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Itens no PC",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        62
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4176f1"
+      ]
+    },
+    {
+      "offset": "0x4176fe",
+      "english": "Mailbox",
+      "french_reference": "Boîte aux lettres",
+      "source_hex": "c7d5dde0d6e3ecff",
+      "source_sites": [
+        "0xebf34",
+        "0x4021f0"
+      ],
+      "live_sites": [
+        "0xebf34",
+        "0x4021f0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Correio",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        38
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58c64",
+        "0xe58c64"
+      ]
+    },
+    {
+      "offset": "0x417706",
+      "english": "Deposit Item",
+      "french_reference": "Déposer objet",
+      "source_hex": "bed9e4e3e7dde800c3e8d9e1ff",
+      "source_sites": [
+        "0x402210"
+      ],
+      "live_sites": [
+        "0x402210"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Depositar item",
+      "encoded_bytes": 15,
+      "line_pixels": [
+        76
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904c41"
+      ]
+    },
+    {
+      "offset": "0x417713",
+      "english": "Withdraw Item",
+      "french_reference": "Retirer objet",
+      "source_hex": "d1dde8dcd8e6d5eb00c3e8d9e1ff",
+      "source_sites": [
+        "0x402208"
+      ],
+      "live_sites": [
+        "0x402208"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Retirar item",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        64
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417713"
+      ]
+    },
+    {
+      "offset": "0x41772a",
+      "english": "Store items in the PC.",
+      "french_reference": "Ranger des objets dans le PC.",
+      "source_hex": "cde8e3e6d900dde8d9e1e700dde200e8dcd900cabdadff",
+      "source_sites": [
+        "0x4021e0"
+      ],
+      "live_sites": [
+        "0x4021e0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Guardar itens no PC.",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        111
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x41772a"
+      ]
+    },
+    {
+      "offset": "0x417741",
+      "english": "Take out items from the PC.",
+      "french_reference": "Sortir des objets du PC.",
+      "source_hex": "ced5dfd900e3e9e800dde8d9e1e700dae6e3e100e8dcd900cabdadff",
+      "source_sites": [
+        "0x4021dc"
+      ],
+      "live_sites": [
+        "0x4021dc"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Retirar itens do PC.",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        109
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417741"
+      ]
+    },
+    {
+      "offset": "0x417774",
+      "english": "There are no items.<0xFC>Ì",
+      "french_reference": "Aucun objet.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcd9e6d900d5e6d900e2e300dde8d9e1e7adfc09ff",
+      "source_sites": [
+        "0xebca4"
+      ],
+      "live_sites": [
+        "0xebca4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não há itens.<0xFC><0x09>",
+      "encoded_bytes": 16,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417774"
+      ]
+    },
+    {
+      "offset": "0x41778a",
+      "english": "There is no more\\nroom in the BAG.",
+      "french_reference": "Plus de place dans le SAC.\\n",
+      "source_hex": "cedcd9e6d900dde700e2e300e1e3e6d9fee6e3e3e100dde200e8dcd900bcbbc1adff",
+      "source_sites": [
+        "0x1aaa166",
+        "0x1da2f35",
+        "0x1eba79c"
+      ],
+      "live_sites": [
+        "0x1eba79c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não há mais\\nespaço na Bolsa.",
+      "encoded_bytes": 29,
+      "line_pixels": [
+        63,
+        91
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x41778a"
+      ]
+    },
+    {
+      "offset": "0x4177ac",
+      "english": "Withdraw how many\\n<0xFD>Á(s)?",
+      "french_reference": "Retirer combien de\\n{STR_VAR_1} ?",
+      "source_hex": "d1dde8dcd8e6d5eb00dce3eb00e1d5e2edfefd025ce75dacff",
+      "source_sites": [
+        "0x10e668"
+      ],
+      "live_sites": [
+        "0x10e668"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Retirar quantos\\n<0xFD><0x02>?",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        82,
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4177ac"
+      ]
+    },
+    {
+      "offset": "0x4177c5",
+      "english": "Withdrew <0xFD>Â\\n<0xFD>Á(s).",
+      "french_reference": "Retrait de <0xFD><0x03>\\n×<0xFD><0x02>.",
+      "source_hex": "d1dde8dcd8e6d9eb00fd03fefd025ce75dadff",
+      "source_sites": [
+        "0x10e4b0",
+        "0x1eba794"
+      ],
+      "live_sites": [
+        "0x10e4b0",
+        "0x1eba794"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Retirou <0xFD><0x03>\\n<0xFD><0x02>.",
+      "encoded_bytes": 15,
+      "line_pixels": [
+        98,
+        59
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4177c5",
+        "0x4177c5"
+      ]
+    },
+    {
+      "offset": "0x4177d8",
+      "english": "Read",
+      "french_reference": "Lire",
+      "source_hex": "ccd9d5d8ff",
+      "source_sites": [
+        "0x402228"
+      ],
+      "live_sites": [
+        "0x402228"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Ler",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        17
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4177d8"
+      ]
+    },
+    {
+      "offset": "0x4177dd",
+      "english": "Move To Bag",
+      "french_reference": "Vers le sac",
+      "source_hex": "c7e3ead900cee300bcd5dbff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x4177e9",
+      "english": "Give",
+      "french_reference": "Donner",
+      "source_hex": "c1ddead9ff",
+      "source_sites": [
+        "0x402238"
+      ],
+      "live_sites": [
+        "0x402238"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Dar",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        17
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4177e9"
+      ]
+    },
+    {
+      "offset": "0x4177ee",
+      "english": "There's no Mail here.<0xFC>Ì",
+      "french_reference": "Pas de lettre ici. {PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcd9e6d9b4e700e2e300c7d5dde000dcd9e6d9adfc09ff",
+      "source_sites": [
+        "0xeb938",
+        "0xeb9b0"
+      ],
+      "live_sites": [
+        "0xeb938",
+        "0xeb9b0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Não há Cartas aqui.<0xFC><0x09>",
+      "encoded_bytes": 22,
+      "line_pixels": [
+        108
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4177ee",
+        "0x4177ee"
+      ]
+    },
+    {
+      "offset": "0x417806",
+      "english": "What would you like to do with\\n<0xFD>Á's Mail?",
+      "french_reference": "Que faire du Courrier de\\n{STR_VAR_1} ?",
+      "source_hex": "d1dcd5e800ebe3e9e0d800ede3e900e0dddfd900e8e300d8e300ebdde8dcfefd02b4e700c7d5dde0acff",
+      "source_sites": [
+        "0xec08c"
+      ],
+      "live_sites": [
+        "0xec08c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "O que fazer com a\\nCarta de <0xFD><0x02>?",
+      "encoded_bytes": 31,
+      "line_pixels": [
+        100,
+        112
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417806"
+      ]
+    },
+    {
+      "offset": "0x417830",
+      "english": "The message will be lost.\\nIs that okay?",
+      "french_reference": "Le message sera perdu.\\nEst-ce OK ?",
+      "source_hex": "cedcd900e1d9e7e7d5dbd900ebdde0e000d6d900e0e3e7e8adfec3e700e8dcd5e800e3dfd5edacff",
+      "source_sites": [
+        "0xec2f4"
+      ],
+      "live_sites": [
+        "0xec2f4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "A mensagem será apagada.\\nTudo bem?",
+      "encoded_bytes": 35,
+      "line_pixels": [
+        139,
+        54
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x1ac3bf"
+      ]
+    },
+    {
+      "offset": "0x417858",
+      "english": "The BAG is full.<0xFC>Ì",
+      "french_reference": "SAC plein.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcd900bcbbc100dde700dae9e0e0adfc09ff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x41786b",
+      "english": "The Mail was returned to the BAG\\nwith its message erased.<0xFC>Ì",
+      "french_reference": "Le courrier a été renvoyé au BAG\\navec son message effacé.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "cedcd900c7d5dde000ebd5e700e6d9e8e9e6e2d9d800e8e300e8dcd900bcbbc1feebdde8dc00dde8e700e1d9e7e7d5dbd900d9e6d5e7d9d8adfc09ff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x4178a7",
+      "english": "Withdraw\\nItem",
+      "french_reference": "Retirer\\nObjet",
+      "source_hex": "d1dde8dcd8e6d5ebfec3e8d9e1ff",
+      "source_sites": [
+        "0x10db58"
+      ],
+      "live_sites": [
+        "0x10db58"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Retirar\\nitem",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        37,
+        21
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4178a7"
+      ]
+    },
+    {
+      "offset": "0x4178b5",
+      "english": "Withdraw",
+      "french_reference": "Retirer",
+      "source_hex": "d1dde8dcd8e6d5ebff",
+      "source_sites": [
+        "0x453f74"
+      ],
+      "live_sites": [
+        "0x453f74"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Retirar",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        37
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4178b5"
+      ]
+    },
+    {
+      "offset": "0x4178be",
+      "english": "Return to the PC.",
+      "french_reference": "Retour au PC.",
+      "source_hex": "ccd9e8e9e6e200e8e300e8dcd900cabdadff",
+      "source_sites": [
+        "0x10da18"
+      ],
+      "live_sites": [
+        "0x10da18"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Voltar ao PC.",
+      "encoded_bytes": 14,
+      "line_pixels": [
+        74
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4178be"
+      ]
+    },
+    {
+      "offset": "0x4178d0",
+      "english": "LT. SURGE",
+      "french_reference": "MAJOR BOB",
+      "source_hex": "c6cead00cdcfccc1bfff",
+      "source_sites": [
+        "0x113444"
+      ],
+      "live_sites": [
+        "0x113444"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "LT. SURGE",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        53
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4178d0"
+      ]
+    },
+    {
+      "offset": "0x4178da",
+      "english": "KOGA",
+      "french_reference": "KOGA",
+      "source_hex": "c5c9c1bbff",
+      "source_sites": [
+        "0x113458"
+      ],
+      "live_sites": [
+        "0x113458"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "KOGA",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        24
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4178da"
+      ]
+    },
+    {
+      "offset": "0x4178e6",
+      "english": "Info",
+      "french_reference": "Infos",
+      "source_hex": "c3e2dae3ff",
+      "source_sites": [
+        "0x3dfe58",
+        "0x3dfe78",
+        "0x3dfe98"
+      ],
+      "live_sites": [
+        "0x3dfe58",
+        "0x3dfe78",
+        "0x3dfe98"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Info",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        22
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4178e6",
+        "0x4178e6",
+        "0x4178e6"
+      ]
+    },
+    {
+      "offset": "0x4178eb",
+      "english": "EggS",
+      "french_reference": "Œufs",
+      "source_hex": "bfdbdbcdff",
+      "source_sites": [
+        "0x3dfd90",
+        "0x3dfdb8",
+        "0x3dfde0",
+        "0x3dfe00"
+      ],
+      "live_sites": [
+        "0x3dfd90",
+        "0x3dfdb8",
+        "0x3dfde0",
+        "0x3dfe00"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Ovos",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        23
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c88",
+        "0xd10c88",
+        "0xd10c88",
+        "0xd10c88"
+      ]
+    },
+    {
+      "offset": "0x4178f0",
+      "english": "HALL OF FAME",
+      "french_reference": "PANTHÉON",
+      "source_hex": "c2bbc6c600c9c000c0bbc7bfff",
+      "source_sites": [
+        "0x3dfd80",
+        "0x3dfdb0",
+        "0x3dfdc8",
+        "0x3dfdf8"
+      ],
+      "live_sites": [
+        "0x3dfd80",
+        "0x3dfdb0",
+        "0x3dfdc8",
+        "0x3dfdf8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "HALL DA FAMA",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904ac9",
+        "0x904ac9",
+        "0x904ac9",
+        "0x904ac9"
+      ]
+    },
+    {
+      "offset": "0x4178fd",
+      "english": "VICTORIES",
+      "french_reference": "VICTOIRES",
+      "source_hex": "d0c3bdcec9ccc3bfcdff",
+      "source_sites": [
+        "0x3dfda0",
+        "0x3dfdd0",
+        "0x3dfde8",
+        "0x3dfe08"
+      ],
+      "live_sites": [
+        "0x3dfda0",
+        "0x3dfdd0",
+        "0x3dfde8",
+        "0x3dfe08"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "VITÓRIAS",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        48
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4178fd",
+        "0x4178fd",
+        "0x4178fd",
+        "0x4178fd"
+      ]
+    },
+    {
+      "offset": "0x417907",
+      "english": "QUIT",
+      "french_reference": "QUITTER",
+      "source_hex": "cbcfc3ceff",
+      "source_sites": [
+        "0x3dfd88",
+        "0x3dfd98",
+        "0x3dfda8",
+        "0x3dfdc0",
+        "0x3dfdd8",
+        "0x3dfdf0",
+        "0x3dfe10"
+      ],
+      "live_sites": [
+        "0x3dfd88",
+        "0x3dfd98",
+        "0x3dfda8",
+        "0x3dfdc0",
+        "0x3dfdd8",
+        "0x3dfdf0",
+        "0x3dfe10"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SAIR",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        24
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10ca1",
+        "0xd10ca1",
+        "0xd10ca1",
+        "0xd10ca1",
+        "0xd10ca1",
+        "0xd10ca1",
+        "0xd10ca1"
+      ]
+    },
+    {
+      "offset": "0x41790c",
+      "english": "PSN",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "cacdc8ff",
+      "source_sites": [
+        "0x3dfe20"
+      ],
+      "live_sites": [
+        "0x3dfe20"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PSN",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        18
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x41790c"
+      ]
+    },
+    {
+      "offset": "0x417910",
+      "english": "PAR",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "cabbccff",
+      "source_sites": [
+        "0x3dfe28"
+      ],
+      "live_sites": [
+        "0x3dfe28"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PAR",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        18
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417910"
+      ]
+    },
+    {
+      "offset": "0x417914",
+      "english": "SLP",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "cdc6caff",
+      "source_sites": [
+        "0x3dfe18"
+      ],
+      "live_sites": [
+        "0x3dfe18"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "DRM",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        18
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c24"
+      ]
+    },
+    {
+      "offset": "0x417918",
+      "english": "BRN",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "bcccc8ff",
+      "source_sites": [
+        "0x3dfe30"
+      ],
+      "live_sites": [
+        "0x3dfe30"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "QMD",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        18
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c2c"
+      ]
+    },
+    {
+      "offset": "0x41791c",
+      "english": "FRZ",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "c0ccd4ff",
+      "source_sites": [
+        "0x3dfe38"
+      ],
+      "live_sites": [
+        "0x3dfe38"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "CNG",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        18
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x41791c"
+      ]
+    },
+    {
+      "offset": "0x417920",
+      "english": "TOXIC",
+      "french_reference": "TOXIK",
+      "source_hex": "cec9d2c3bdff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417926",
+      "english": "OK",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "c9c5ff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417929",
+      "english": "QUIT",
+      "french_reference": "QUITTER",
+      "source_hex": "cbcfc3ceff",
+      "source_sites": [
+        "0x3e0260",
+        "0x3f5c98"
+      ],
+      "live_sites": [
+        "0x3e0260",
+        "0x3f5c98"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SAIR",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        24
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417929",
+        "0x417929"
+      ]
+    },
+    {
+      "offset": "0x417938",
+      "english": "YES",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "d3bfcdff",
+      "source_sites": [
+        "0x12a514",
+        "0x155858",
+        "0x155914",
+        "0x3dfd50",
+        "0x3dfe48",
+        "0x3dfe88"
+      ],
+      "live_sites": [
+        "0x12a514",
+        "0x155858",
+        "0x155914",
+        "0x3dfd50",
+        "0x3dfe48",
+        "0x3dfe88"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SIM",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        18
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c30",
+        "0xd10c30",
+        "0xd10c30",
+        "0xd10c30",
+        "0xd10c30",
+        "0xd10c30"
+      ]
+    },
+    {
+      "offset": "0x41793c",
+      "english": "NO",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "c8c9ff",
+      "source_sites": [
+        "0x12a518",
+        "0x15585c",
+        "0x155918",
+        "0x3dfd58",
+        "0x3dfe50",
+        "0x3dfe90"
+      ],
+      "live_sites": [
+        "0x12a518",
+        "0x15585c",
+        "0x155918",
+        "0x3dfd58",
+        "0x3dfe50",
+        "0x3dfe90"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "NÃO",
+      "encoded_bytes": 4,
+      "line_pixels": [
+        18
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c28",
+        "0xd10c28",
+        "0xd10c28",
+        "0xd10c28",
+        "0xd10c28",
+        "0xd10c28"
+      ]
+    },
+    {
+      "offset": "0x417944",
+      "english": "SINGLE BATTLE",
+      "french_reference": "COMBAT SOLO",
+      "source_hex": "cdc3c8c1c6bf00bcbbcecec6bfff",
+      "source_sites": [
+        "0x3dfe60"
+      ],
+      "live_sites": [
+        "0x3dfe60"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "BATALHA INDIVIDUAL",
+      "encoded_bytes": 19,
+      "line_pixels": [
+        108
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe026d"
+      ]
+    },
+    {
+      "offset": "0x417952",
+      "english": "DOUBLE BATTLE",
+      "french_reference": "COMBAT DUO",
+      "source_hex": "bec9cfbcc6bf00bcbbcecec6bfff",
+      "source_sites": [
+        "0x3dfe68"
+      ],
+      "live_sites": [
+        "0x3dfe68"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "BATALHA DUPLA",
+      "encoded_bytes": 14,
+      "line_pixels": [
+        78
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904b99"
+      ]
+    },
+    {
+      "offset": "0x417960",
+      "english": "MULTI BATTLE",
+      "french_reference": "COMBAT MULTI",
+      "source_hex": "c7cfc6cec300bcbbcecec6bfff",
+      "source_sites": [
+        "0x3dfe70"
+      ],
+      "live_sites": [
+        "0x3dfe70"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "BATALHA MÚLTIPLA",
+      "encoded_bytes": 17,
+      "line_pixels": [
+        96
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904d5d"
+      ]
+    },
+    {
+      "offset": "0x41796d",
+      "english": "Make a challenge.",
+      "french_reference": "Lancer un défi.",
+      "source_hex": "c7d5dfd900d500d7dcd5e0e0d9e2dbd9adff",
+      "source_sites": [
+        "0x3dfea0"
+      ],
+      "live_sites": [
+        "0x3dfea0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Fazer um desafio.",
+      "encoded_bytes": 18,
+      "line_pixels": [
+        96
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904e6e"
+      ]
+    },
+    {
+      "offset": "0x41797f",
+      "english": "Info",
+      "french_reference": "Infos",
+      "source_hex": "c3e2dae3ff",
+      "source_sites": [
+        "0x3dfea8"
+      ],
+      "live_sites": [
+        "0x3dfea8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Info",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        22
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x41797f"
+      ]
+    },
+    {
+      "offset": "0x417984",
+      "english": "FRESH WATER<0xFC>Û<0x57><0xFC>É ¥200",
+      "french_reference": "EAU FRAÎCHE{CLEAR_TO}{FONT_SMALL}¥200",
+      "source_hex": "c0ccbfcdc200d1bbcebfccfc1357fc0600b7a3a1a1ff",
+      "source_sites": [
+        "0x3dff30"
+      ],
+      "live_sites": [
+        "0x3dff30"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "FRESH WATER<0xFC><0x13><0x57><0xFC><0x06><0x00>¥200",
+      "encoded_bytes": 22,
+      "line_pixels": [
+        92
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe05fa"
+      ]
+    },
+    {
+      "offset": "0x41799a",
+      "english": "SODA POP<0xFC>Û<0x57><0xFC>É ¥300",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "cdc9bebb00cac9cafc1357fc0600b7a4a1a1ff",
+      "source_sites": [
+        "0x3dff38"
+      ],
+      "live_sites": [
+        "0x3dff38"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SODA POP<0xFC><0x13><0x57><0xFC><0x06><0x00>¥300",
+      "encoded_bytes": 19,
+      "line_pixels": [
+        74
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe02b9"
+      ]
+    },
+    {
+      "offset": "0x4179ad",
+      "english": "LEMONADE<0xFC>Û<0x57><0xFC>É ¥350",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "c6bfc7c9c8bbbebffc1357fc0600b7a4a6a1ff",
+      "source_sites": [
+        "0x3dff40"
+      ],
+      "live_sites": [
+        "0x3dff40"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "LEMONADE<0xFC><0x13><0x57><0xFC><0x06><0x00>¥350",
+      "encoded_bytes": 19,
+      "line_pixels": [
+        74
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe02a6"
+      ]
+    },
+    {
+      "offset": "0x4179c0",
+      "english": "<0xFC>É  50 COINS<0xFC>Û<0x45>¥1,000",
+      "french_reference": "{FONT_SMALL} 50 JETONS{CLEAR_TO}¥1,000",
+      "source_hex": "fc060000a6a100bdc9c3c8cdfc1345b7a2b8a1a1a1ff",
+      "source_sites": [
+        "0x3dffb0"
+      ],
+      "live_sites": [
+        "0x3dffb0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFC><0x06><0x00> 50 FICHAS<0xFC><0x13><0x45>¥1,000",
+      "encoded_bytes": 23,
+      "line_pixels": [
+        97
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1fb5"
+      ]
+    },
+    {
+      "offset": "0x4179d6",
+      "english": "<0xFC>É 500 COINS<0xFC>Û<0x40>¥10,000",
+      "french_reference": "{FONT_SMALL}500 JETONS{CLEAR_TO}¥10,000",
+      "source_hex": "fc0600a6a1a100bdc9c3c8cdfc1340b7a2a1b8a1a1a1ff",
+      "source_sites": [
+        "0x3dffb8"
+      ],
+      "live_sites": [
+        "0x3dffb8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "<0xFC><0x06><0x00>500 FICHAS<0xFC><0x13><0x40>¥10,000",
+      "encoded_bytes": 24,
+      "line_pixels": [
+        103
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b20d1"
+      ]
+    },
+    {
+      "offset": "0x4179ed",
+      "english": "Excellent",
+      "french_reference": "Excellent",
+      "source_hex": "bfecd7d9e0e0d9e2e8ff",
+      "source_sites": [
+        "0x3dffc8"
+      ],
+      "live_sites": [
+        "0x3dffc8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Excelente",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        51
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe69502"
+      ]
+    },
+    {
+      "offset": "0x4179f7",
+      "english": "Not so bad",
+      "french_reference": "Pas si mal",
+      "source_hex": "c8e3e800e7e300d6d5d8ff",
+      "source_sites": [
+        "0x3dffd0"
+      ],
+      "live_sites": [
+        "0x3dffd0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Razoável",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        47
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x4179f7"
+      ]
+    },
+    {
+      "offset": "0x417a02",
+      "english": "RED SHARD",
+      "french_reference": "TESSON ROUGE",
+      "source_hex": "ccbfbe00cdc2bbccbeff",
+      "source_sites": [
+        "0x3e00c0",
+        "0x3e00f0",
+        "0x3e0128",
+        "0x3e0168"
+      ],
+      "live_sites": [
+        "0x3e00c0",
+        "0x3e00f0",
+        "0x3e0128",
+        "0x3e0168"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "RED SHARD",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        54
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417a02",
+        "0x417a02",
+        "0x417a02",
+        "0x417a02"
+      ]
+    },
+    {
+      "offset": "0x417a0c",
+      "english": "YELLOW SHARD",
+      "french_reference": "TESSON JAUNE",
+      "source_hex": "d3bfc6c6c9d100cdc2bbccbeff",
+      "source_sites": [
+        "0x3e00d8",
+        "0x3e00f8",
+        "0x3e0148",
+        "0x3e0170"
+      ],
+      "live_sites": [
+        "0x3e00d8",
+        "0x3e00f8",
+        "0x3e0148",
+        "0x3e0170"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "YELLOW SHARD",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417a0c",
+        "0x417a0c",
+        "0x417a0c",
+        "0x417a0c"
+      ]
+    },
+    {
+      "offset": "0x417a19",
+      "english": "BLUE SHARD",
+      "french_reference": "TESSON BLEU",
+      "source_hex": "bcc6cfbf00cdc2bbccbeff",
+      "source_sites": [
+        "0x3e0110",
+        "0x3e0130",
+        "0x3e0150",
+        "0x3e0178"
+      ],
+      "live_sites": [
+        "0x3e0110",
+        "0x3e0130",
+        "0x3e0150",
+        "0x3e0178"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "BLUE SHARD",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417a19",
+        "0x417a19",
+        "0x417a19",
+        "0x417a19"
+      ]
+    },
+    {
+      "offset": "0x417a24",
+      "english": "GREEN SHARD",
+      "french_reference": "TESSON VERT",
+      "source_hex": "c1ccbfbfc800cdc2bbccbeff",
+      "source_sites": [
+        "0x3e00b0",
+        "0x3e00c8",
+        "0x3e00e0",
+        "0x3e0100",
+        "0x3e0118",
+        "0x3e0138",
+        "0x3e0158",
+        "0x3e0180"
+      ],
+      "live_sites": [
+        "0x3e00b0",
+        "0x3e00c8",
+        "0x3e00e0",
+        "0x3e0100",
+        "0x3e0118",
+        "0x3e0138",
+        "0x3e0158",
+        "0x3e0180"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "GREEN SHARD",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        66
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417a24",
+        "0x417a24",
+        "0x417a24",
+        "0x417a24",
+        "0x417a24",
+        "0x417a24",
+        "0x417a24",
+        "0x417a24"
+      ]
+    },
+    {
+      "offset": "0x417a37",
+      "english": "Right",
+      "french_reference": "Droite",
+      "source_hex": "ccdddbdce8ff",
+      "source_sites": [
+        "0x3dffd8"
+      ],
+      "live_sites": [
+        "0x3dffd8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Direita",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        36
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58ca4"
+      ]
+    },
+    {
+      "offset": "0x417a3d",
+      "english": "Left",
+      "french_reference": "Gauche",
+      "source_hex": "c6d9dae8ff",
+      "source_sites": [
+        "0x3dffe0"
+      ],
+      "live_sites": [
+        "0x3dffe0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Esquerda",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        46
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58ee8"
+      ]
+    },
+    {
+      "offset": "0x417a42",
+      "english": "TM13<0xFC>Û<0x48><0xFC>É 4,000 COINS",
+      "french_reference": "CT13{CLEAR_TO}{FONT_SMALL}4,000 JETONS",
+      "source_hex": "cec7a2a4fc1348fc0600a5b8a1a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff50"
+      ],
+      "live_sites": [
+        "0x3dff50"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "TM13<0xFC><0x13><0x48><0xFC><0x06><0x00>4,000 FICHAS",
+      "encoded_bytes": 23,
+      "line_pixels": [
+        95
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1f14"
+      ]
+    },
+    {
+      "offset": "0x417a58",
+      "english": "TM23<0xFC>Û<0x48><0xFC>É 3,500 COINS",
+      "french_reference": "CT23{CLEAR_TO}{FONT_SMALL}3,500 JETONS",
+      "source_hex": "cec7a3a4fc1348fc0600a4b8a6a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff58"
+      ],
+      "live_sites": [
+        "0x3dff58"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "TM23<0xFC><0x13><0x48><0xFC><0x06><0x00>3,500 FICHAS",
+      "encoded_bytes": 23,
+      "line_pixels": [
+        95
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1f2b"
+      ]
+    },
+    {
+      "offset": "0x417a6e",
+      "english": "TM24<0xFC>Û<0x48><0xFC>É 4,000 COINS",
+      "french_reference": "CT24{CLEAR_TO}{FONT_SMALL}4,000 JETONS",
+      "source_hex": "cec7a3a5fc1348fc0600a5b8a1a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff60"
+      ],
+      "live_sites": [
+        "0x3dff60"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "TM24<0xFC><0x13><0x48><0xFC><0x06><0x00>4,000 FICHAS",
+      "encoded_bytes": 23,
+      "line_pixels": [
+        95
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1f42"
+      ]
+    },
+    {
+      "offset": "0x417a84",
+      "english": "TM30<0xFC>Û<0x48><0xFC>É 4,500 COINS",
+      "french_reference": "CT30{CLEAR_TO}{FONT_SMALL}4,500 JETONS",
+      "source_hex": "cec7a4a1fc1348fc0600a5b8a6a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff68"
+      ],
+      "live_sites": [
+        "0x3dff68"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "TM30<0xFC><0x13><0x48><0xFC><0x06><0x00>4,500 FICHAS",
+      "encoded_bytes": 23,
+      "line_pixels": [
+        95
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1f59"
+      ]
+    },
+    {
+      "offset": "0x417a9a",
+      "english": "TM35<0xFC>Û<0x48><0xFC>É 4,000 COINS",
+      "french_reference": "CT35{CLEAR_TO}{FONT_SMALL}4,000 JETONS",
+      "source_hex": "cec7a4a6fc1348fc0600a5b8a1a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff70"
+      ],
+      "live_sites": [
+        "0x3dff70"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "TM35<0xFC><0x13><0x48><0xFC><0x06><0x00>4,000 FICHAS",
+      "encoded_bytes": 23,
+      "line_pixels": [
+        95
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7b1f70"
+      ]
+    },
+    {
+      "offset": "0x417ab0",
+      "english": "1F",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "a2c0ff",
+      "source_sites": [
+        "0x3e0008"
+      ],
+      "live_sites": [
+        "0x3e0008"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "1º",
+      "encoded_bytes": 3,
+      "line_pixels": [
+        12
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c0c"
+      ]
+    },
+    {
+      "offset": "0x417ab3",
+      "english": "2F",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "a3c0ff",
+      "source_sites": [
+        "0x3e0000"
+      ],
+      "live_sites": [
+        "0x3e0000"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "2º",
+      "encoded_bytes": 3,
+      "line_pixels": [
+        12
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c0f"
+      ]
+    },
+    {
+      "offset": "0x417ab6",
+      "english": "3F",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "a4c0ff",
+      "source_sites": [
+        "0x3dfff8"
+      ],
+      "live_sites": [
+        "0x3dfff8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "3º",
+      "encoded_bytes": 3,
+      "line_pixels": [
+        12
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c12"
+      ]
+    },
+    {
+      "offset": "0x417ab9",
+      "english": "4F",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "a5c0ff",
+      "source_sites": [
+        "0x3dfff0"
+      ],
+      "live_sites": [
+        "0x3dfff0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "4º",
+      "encoded_bytes": 3,
+      "line_pixels": [
+        12
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c15"
+      ]
+    },
+    {
+      "offset": "0x417abc",
+      "english": "5F",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "a6c0ff",
+      "source_sites": [
+        "0x3dffe8"
+      ],
+      "live_sites": [
+        "0x3dffe8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "5º",
+      "encoded_bytes": 3,
+      "line_pixels": [
+        12
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c18"
+      ]
+    },
+    {
+      "offset": "0x417abf",
+      "english": "COOL",
+      "french_reference": "COOL",
+      "source_hex": "bdc9c9c6ff",
+      "source_sites": [
+        "0x3e06b8"
+      ],
+      "live_sites": [
+        "0x3e06b8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "ESTILO",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        36
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10ea3"
+      ]
+    },
+    {
+      "offset": "0x417ac4",
+      "english": "BEAUTY",
+      "french_reference": "BEAUTÉ",
+      "source_hex": "bcbfbbcfced3ff",
+      "source_sites": [
+        "0x3e06bc"
+      ],
+      "live_sites": [
+        "0x3e06bc"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "BELEZA",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        36
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10e56"
+      ]
+    },
+    {
+      "offset": "0x417acb",
+      "english": "CUTE",
+      "french_reference": "MIGNON",
+      "source_hex": "bdcfcebfff",
+      "source_sites": [
+        "0x3e06c0"
+      ],
+      "live_sites": [
+        "0x3e06c0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "FOFURA",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        36
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10eb8"
+      ]
+    },
+    {
+      "offset": "0x417ad0",
+      "english": "SMART",
+      "french_reference": "INTELLO",
+      "source_hex": "cdc7bbccceff",
+      "source_sites": [
+        "0x3e06c4"
+      ],
+      "live_sites": [
+        "0x3e06c4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "ASTÚCIA",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10fc7"
+      ]
+    },
+    {
+      "offset": "0x417ad6",
+      "english": "TOUGH",
+      "french_reference": "COSTAUD",
+      "source_hex": "cec9cfc1c2ff",
+      "source_sites": [
+        "0x3e06c8"
+      ],
+      "live_sites": [
+        "0x3e06c8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "FIRMEZA",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58cfc"
+      ]
+    },
+    {
+      "offset": "0x417adc",
+      "english": "Normal",
+      "french_reference": "Normal",
+      "source_hex": "c8e3e6e1d5e0ff",
+      "source_sites": [
+        "0x3dfd60"
+      ],
+      "live_sites": [
+        "0x3dfd60"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Normal",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        34
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417adc"
+      ]
+    },
+    {
+      "offset": "0x417ae3",
+      "english": "Black",
+      "french_reference": "Noir",
+      "source_hex": "bce0d5d7dfff",
+      "source_sites": [
+        "0x3dfd68"
+      ],
+      "live_sites": [
+        "0x3dfd68"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Preto",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        28
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10db7"
+      ]
+    },
+    {
+      "offset": "0x417ae9",
+      "english": "Pink",
+      "french_reference": "Rose",
+      "source_hex": "cadde2dfff",
+      "source_sites": [
+        "0x3dfd70"
+      ],
+      "live_sites": [
+        "0x3dfd70"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Rosa",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        23
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10c9c"
+      ]
+    },
+    {
+      "offset": "0x417aee",
+      "english": "Sepia",
+      "french_reference": "Sépia",
+      "source_hex": "cdd9e4ddd5ff",
+      "source_sites": [
+        "0x3dfd78"
+      ],
+      "live_sites": [
+        "0x3dfd78"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Sépia",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        28
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10dc9"
+      ]
+    },
+    {
+      "offset": "0x417af4",
+      "english": "COOL",
+      "french_reference": "COOL",
+      "source_hex": "bdc9c9c6ff",
+      "source_sites": [
+        "0x3e06cc"
+      ],
+      "live_sites": [
+        "0x3e06cc"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "ESTILO",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        36
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10ea3"
+      ]
+    },
+    {
+      "offset": "0x417af9",
+      "english": "BEAUTY",
+      "french_reference": "BEAUTÉ",
+      "source_hex": "bcbfbbcfced3ff",
+      "source_sites": [
+        "0x3e06d0"
+      ],
+      "live_sites": [
+        "0x3e06d0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "BELEZA",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        36
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10e56"
+      ]
+    },
+    {
+      "offset": "0x417b00",
+      "english": "CUTE",
+      "french_reference": "MIGNON",
+      "source_hex": "bdcfcebfff",
+      "source_sites": [
+        "0x3e06d4"
+      ],
+      "live_sites": [
+        "0x3e06d4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "FOFURA",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        36
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10eb8"
+      ]
+    },
+    {
+      "offset": "0x417b05",
+      "english": "SMART",
+      "french_reference": "INTELLO",
+      "source_hex": "cdc7bbccceff",
+      "source_sites": [
+        "0x3e06d8"
+      ],
+      "live_sites": [
+        "0x3e06d8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "ASTÚCIA",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10fc7"
+      ]
+    },
+    {
+      "offset": "0x417b0b",
+      "english": "TOUGH",
+      "french_reference": "COSTAUD",
+      "source_hex": "cec9cfc1c2ff",
+      "source_sites": [
+        "0x3e06dc"
+      ],
+      "live_sites": [
+        "0x3e06dc"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "FIRMEZA",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58cfc"
+      ]
+    },
+    {
+      "offset": "0x417b11",
+      "english": "Items",
+      "french_reference": "Objets",
+      "source_hex": "c3e8d9e1e7ff",
+      "source_sites": [
+        "0x3e06e0"
+      ],
+      "live_sites": [
+        "0x3e06e0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Itens",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        27
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10d3f"
+      ]
+    },
+    {
+      "offset": "0x417b17",
+      "english": "Key Items",
+      "french_reference": "Objets rares",
+      "source_hex": "c5d9ed00c3e8d9e1e7ff",
+      "source_sites": [
+        "0x3e06e4"
+      ],
+      "live_sites": [
+        "0x3e06e4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Itens-chave",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        63
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe697af"
+      ]
+    },
+    {
+      "offset": "0x417b21",
+      "english": "Poké Balls",
+      "french_reference": "Poké Balls",
+      "source_hex": "cae3df1b00bcd5e0e0e7ff",
+      "source_sites": [
+        "0x3e06e8"
+      ],
+      "live_sites": [
+        "0x3e06e8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Poké Balls",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        56
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b21"
+      ]
+    },
+    {
+      "offset": "0x417b2c",
+      "english": "TMs & HMs",
+      "french_reference": "Absent du combined FR (fragment sans référence autonome).",
+      "source_hex": "cec7e7002d00c2c7e7ff",
+      "source_sites": [
+        "0x3e06ec"
+      ],
+      "live_sites": [
+        "0x3e06ec"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "TMs e HMs",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        52
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe695b6"
+      ]
+    },
+    {
+      "offset": "0x417b36",
+      "english": "BERRIES",
+      "french_reference": "BAIES",
+      "source_hex": "bcbfccccc3bfcdff",
+      "source_sites": [
+        "0x3e06f0"
+      ],
+      "live_sites": [
+        "0x3e06f0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "BERRIES",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b36"
+      ]
+    },
+    {
+      "offset": "0x417b3e",
+      "english": "BOULDERBADGE",
+      "french_reference": "BADGE ROCHE",
+      "source_hex": "bcc9cfc6bebfccbcbbbec1bfff",
+      "source_sites": [
+        "0x3e06f4"
+      ],
+      "live_sites": [
+        "0x3e06f4"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "BOULDERBADGE",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b3e"
+      ]
+    },
+    {
+      "offset": "0x417b4b",
+      "english": "CASCADEBADGE",
+      "french_reference": "BADGE CASCADE",
+      "source_hex": "bdbbcdbdbbbebfbcbbbec1bfff",
+      "source_sites": [
+        "0x3e06f8"
+      ],
+      "live_sites": [
+        "0x3e06f8"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "CASCADEBADGE",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b4b"
+      ]
+    },
+    {
+      "offset": "0x417b58",
+      "english": "THUNDERBADGE",
+      "french_reference": "BADGE FOUDRE",
+      "source_hex": "cec2cfc8bebfccbcbbbec1bfff",
+      "source_sites": [
+        "0x3e06fc"
+      ],
+      "live_sites": [
+        "0x3e06fc"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "THUNDERBADGE",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b58"
+      ]
+    },
+    {
+      "offset": "0x417b65",
+      "english": "RAINBOWBADGE",
+      "french_reference": "BADGE PRISME",
+      "source_hex": "ccbbc3c8bcc9d1bcbbbec1bfff",
+      "source_sites": [
+        "0x3e0700"
+      ],
+      "live_sites": [
+        "0x3e0700"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "RAINBOWBADGE",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b65"
+      ]
+    },
+    {
+      "offset": "0x417b72",
+      "english": "SOULBADGE",
+      "french_reference": "BADGE ÂME",
+      "source_hex": "cdc9cfc6bcbbbec1bfff",
+      "source_sites": [
+        "0x3e0704"
+      ],
+      "live_sites": [
+        "0x3e0704"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "SOULBADGE",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        54
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b72"
+      ]
+    },
+    {
+      "offset": "0x417b7c",
+      "english": "MARSHBADGE",
+      "french_reference": "BADGE MARAIS",
+      "source_hex": "c7bbcccdc2bcbbbec1bfff",
+      "source_sites": [
+        "0x3e0708"
+      ],
+      "live_sites": [
+        "0x3e0708"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "MARSHBADGE",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b7c"
+      ]
+    },
+    {
+      "offset": "0x417b87",
+      "english": "VOLCANOBADGE",
+      "french_reference": "BADGE VOLCAN",
+      "source_hex": "d0c9c6bdbbc8c9bcbbbec1bfff",
+      "source_sites": [
+        "0x3e070c"
+      ],
+      "live_sites": [
+        "0x3e070c"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "VOLCANOBADGE",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b87"
+      ]
+    },
+    {
+      "offset": "0x417b94",
+      "english": "EARTHBADGE",
+      "french_reference": "BADGE TERRE",
+      "source_hex": "bfbbcccec2bcbbbec1bfff",
+      "source_sites": [
+        "0x3e0710"
+      ],
+      "live_sites": [
+        "0x3e0710"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "EARTHBADGE",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417b94"
+      ]
+    },
+    {
+      "offset": "0x417b9f",
+      "english": "Someone's PC",
+      "french_reference": "PC de ???",
+      "source_hex": "cde3e1d9e3e2d9b4e700cabdff",
+      "source_sites": [
+        "0x9d248",
+        "0x1ec3f8c"
+      ],
+      "live_sites": [
+        "0x9d248",
+        "0x1ec3f8c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PC de alguém",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        71
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904b17",
+        "0x904b17"
+      ]
+    },
+    {
+      "offset": "0x417bac",
+      "english": "Ayla's PC",
+      "french_reference": "PC Ayla",
+      "source_hex": "bbede0d5b4e700cabdff",
+      "source_sites": [
+        "0x9d1e0",
+        "0x1ec3f70"
+      ],
+      "live_sites": [
+        "0x9d1e0",
+        "0x1ec3f70"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PC de Ayla",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        59
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe696fa",
+        "0xe696fa"
+      ]
+    },
+    {
+      "offset": "0x417bb6",
+      "english": "<0xFD>À's PC",
+      "french_reference": "PC de {PLAYER}",
+      "source_hex": "fd01b4e700cabdff",
+      "source_sites": [
+        "0x9d11c",
+        "0x9d250"
+      ],
+      "live_sites": [
+        "0x9d11c",
+        "0x9d250"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PC de <0xFD><0x01>",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        90
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe58f8a",
+        "0xe58f8a"
+      ]
+    },
+    {
+      "offset": "0x417bbe",
+      "english": "Hall of Fame",
+      "french_reference": "Panthéon",
+      "source_hex": "c2d5e0e000e3da00c0d5e1d9ff",
+      "source_sites": [
+        "0x9d12c"
+      ],
+      "live_sites": [
+        "0x9d12c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Hall da Fama",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        70
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904ad6"
+      ]
+    },
+    {
+      "offset": "0x417bcb",
+      "english": "Log Off",
+      "french_reference": "Déconnexion",
+      "source_hex": "c6e3db00c9dadaff",
+      "source_sites": [
+        "0x9d130",
+        "0x9d1d8"
+      ],
+      "live_sites": [
+        "0x9d130",
+        "0x9d1d8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Desconectar",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        62
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe697a3",
+        "0xe697a3"
+      ]
+    },
+    {
+      "offset": "0x417bd3",
+      "english": "Prof. Log's PC",
+      "french_reference": "PC du Prof. Log",
+      "source_hex": "cae6e3daad00c6e3dbb4e700cabdff",
+      "source_sites": [
+        "0x9d128",
+        "0x9d1d4"
+      ],
+      "live_sites": [
+        "0x9d128",
+        "0x9d1d4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PC do Prof. Log",
+      "encoded_bytes": 16,
+      "line_pixels": [
+        87
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904ced",
+        "0x904ced"
+      ]
+    },
+    {
+      "offset": "0x417be2",
+      "english": "EEVEE",
+      "french_reference": "EVOLI",
+      "source_hex": "bfbfd0bfbfff",
+      "source_sites": [
+        "0x3e0190"
+      ],
+      "live_sites": [
+        "0x3e0190"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "EEVEE",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        30
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417be2"
+      ]
+    },
+    {
+      "offset": "0x417be8",
+      "english": "FLAREON",
+      "french_reference": "PYROLI",
+      "source_hex": "c0c6bbccbfc9c8ff",
+      "source_sites": [
+        "0x3e0198"
+      ],
+      "live_sites": [
+        "0x3e0198"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "FLAREON",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417be8"
+      ]
+    },
+    {
+      "offset": "0x417bf0",
+      "english": "JOLTEON",
+      "french_reference": "VOLTALI",
+      "source_hex": "c4c9c6cebfc9c8ff",
+      "source_sites": [
+        "0x3e01a0"
+      ],
+      "live_sites": [
+        "0x3e01a0"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "JOLTEON",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417bf0"
+      ]
+    },
+    {
+      "offset": "0x417bf8",
+      "english": "VAPOREON",
+      "french_reference": "AQUALI",
+      "source_hex": "d0bbcac9ccbfc9c8ff",
+      "source_sites": [
+        "0x3e01a8"
+      ],
+      "live_sites": [
+        "0x3e01a8"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "VAPOREON",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        48
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417bf8"
+      ]
+    },
+    {
+      "offset": "0x417c01",
+      "english": "Quit looking.",
+      "french_reference": "Arrêter de regarder.",
+      "source_hex": "cbe9dde800e0e3e3dfdde2dbadff",
+      "source_sites": [
+        "0x3e01b0"
+      ],
+      "live_sites": [
+        "0x3e01b0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Parar de olhar.",
+      "encoded_bytes": 16,
+      "line_pixels": [
+        85
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904cfd"
+      ]
+    },
+    {
+      "offset": "0x417c0f",
+      "english": "Fresh Water",
+      "french_reference": "Eau fraîche",
+      "source_hex": "c0e6d9e7dc00d1d5e8d9e6ff",
+      "source_sites": [
+        "0x3e0018",
+        "0x3e0038",
+        "0x3e0060",
+        "0x3e0090"
+      ],
+      "live_sites": [
+        "0x3e0018",
+        "0x3e0038",
+        "0x3e0060",
+        "0x3e0090"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "Fresh Water",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        62
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417c0f",
+        "0x417c0f",
+        "0x417c0f",
+        "0x417c0f"
+      ]
+    },
+    {
+      "offset": "0x417c1b",
+      "english": "Soda Pop",
+      "french_reference": "Soda Cool",
+      "source_hex": "cde3d8d500cae3e4ff",
+      "source_sites": [
+        "0x3e0028",
+        "0x3e0040",
+        "0x3e0078",
+        "0x3e0098"
+      ],
+      "live_sites": [
+        "0x3e0028",
+        "0x3e0040",
+        "0x3e0078",
+        "0x3e0098"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "Soda Pop",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        48
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417c1b",
+        "0x417c1b",
+        "0x417c1b",
+        "0x417c1b"
+      ]
+    },
+    {
+      "offset": "0x417c24",
+      "english": "Lemonade",
+      "french_reference": "Limonade",
+      "source_hex": "c6d9e1e3e2d5d8d9ff",
+      "source_sites": [
+        "0x3e0050",
+        "0x3e0068",
+        "0x3e0080",
+        "0x3e00a0"
+      ],
+      "live_sites": [
+        "0x3e0050",
+        "0x3e0068",
+        "0x3e0080",
+        "0x3e00a0"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "Lemonade",
+      "encoded_bytes": 9,
+      "line_pixels": [
+        47
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417c24",
+        "0x417c24",
+        "0x417c24",
+        "0x417c24"
+      ]
+    },
+    {
+      "offset": "0x417c2d",
+      "english": "Coins",
+      "french_reference": "Jetons",
+      "source_hex": "bde3dde2e7ff",
+      "source_sites": [
+        "0xd06cc",
+        "0xd07c4",
+        "0x3e0714"
+      ],
+      "live_sites": [
+        "0xd06cc",
+        "0xd07c4",
+        "0x3e0714"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Fichas",
+      "encoded_bytes": 7,
+      "line_pixels": [
+        33
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10ebf",
+        "0xd10ebf",
+        "0xd10ebf"
+      ]
+    },
+    {
+      "offset": "0x417c33",
+      "english": "Bicycle<0xFC>Û<0x49><0xFC>É ¥1,000,000",
+      "french_reference": "Vélo{CLEAR_TO}{FONT_SMALL}¥1,000,000",
+      "source_hex": "bcddd7edd7e0d9fc1349fc0600b7a2b8a1a1a1b8a1a1a1ff",
+      "source_sites": [
+        "0x3e01b8"
+      ],
+      "live_sites": [
+        "0x3e01b8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Bicicleta<0xFC><0x13><0x49><0xFC><0x06><0x00>¥1,000,000",
+      "encoded_bytes": 26,
+      "line_pixels": [
+        108
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a38cf"
+      ]
+    },
+    {
+      "offset": "0x417c4b",
+      "english": "NO THANKS",
+      "french_reference": "NON MERCI",
+      "source_hex": "c8c900cec2bbc8c5cdff",
+      "source_sites": [
+        "0x3e01c0"
+      ],
+      "live_sites": [
+        "0x3e01c0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "NÃO, OBRIGADO",
+      "encoded_bytes": 14,
+      "line_pixels": [
+        77
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904bd1"
+      ]
+    },
+    {
+      "offset": "0x417c55",
+      "english": "ABRA<0xFC>Û<0x55><0xFC>É  180 COINS",
+      "french_reference": "ABRA{CLEAR_TO}{FONT_SMALL} 180 JETONS",
+      "source_hex": "bbbcccbbfc1355fc060000a2a9a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3e01c8"
+      ],
+      "live_sites": [
+        "0x3e01c8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "ABRA<0xFC><0x13><0x55><0xFC><0x06><0x00> 180 FICHAS",
+      "encoded_bytes": 22,
+      "line_pixels": [
+        90
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe05ce"
+      ]
+    },
+    {
+      "offset": "0x417c6a",
+      "english": "CLEFAIRY<0xFC>Û<0x55><0xFC>É  500 COINS",
+      "french_reference": "MÉLOFÉE{CLEAR_TO}{FONT_SMALL} 500 JETONS",
+      "source_hex": "bdc6bfc0bbc3ccd3fc1355fc060000a6a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3e01d0"
+      ],
+      "live_sites": [
+        "0x3e01d0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "CLEFAIRY<0xFC><0x13><0x55><0xFC><0x06><0x00> 500 FICHAS",
+      "encoded_bytes": 26,
+      "line_pixels": [
+        114
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a38e9"
+      ]
+    },
+    {
+      "offset": "0x417c83",
+      "english": "DRATINI<0xFC>Û<0x4B><0xFC>É  2,800 COINS",
+      "french_reference": "MINIDRACO{CLEAR_TO}{FONT_SMALL} 2,800 JETONS",
+      "source_hex": "beccbbcec3c8c3fc134bfc060000a3b8a9a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3e01d8"
+      ],
+      "live_sites": [
+        "0x3e01d8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "DRATINI<0xFC><0x13><0x4B><0xFC><0x06><0x00> 2,800 FICHAS",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        119
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a3a59"
+      ]
+    },
+    {
+      "offset": "0x417c9d",
+      "english": "SCYTHER<0xFC>Û<0x4B><0xFC>É  5,500 COINS",
+      "french_reference": "INSECATEUR{CLEAR_TO}{FONT_SMALL} 5,500 JETONS",
+      "source_hex": "cdbdd3cec2bfccfc134bfc060000a6b8a6a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3e01e0"
+      ],
+      "live_sites": [
+        "0x3e01e0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SCYTHER<0xFC><0x13><0x4B><0xFC><0x06><0x00> 5,500 FICHAS",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        119
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a3b82"
+      ]
+    },
+    {
+      "offset": "0x417cb7",
+      "english": "PORYGON<0xFC>Û<0x4B><0xFC>É  9,999 COINS",
+      "french_reference": "PORYGON{CLEAR_TO}{FONT_SMALL} 9,999 JETONS",
+      "source_hex": "cac9ccd3c1c9c8fc134bfc060000aab8aaaaaa00bdc9c3c8cdff",
+      "source_sites": [
+        "0x3e01e8"
+      ],
+      "live_sites": [
+        "0x3e01e8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "PORYGON<0xFC><0x13><0x4B><0xFC><0x06><0x00> 9,999 FICHAS",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        119
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a3b31"
+      ]
+    },
+    {
+      "offset": "0x417cd1",
+      "english": "ABRA<0xFC>Û<0x55><0xFC>É  120 COINS",
+      "french_reference": "ABRA{CLEAR_TO}Oh{FONT_SMALL} 120\\nPIÈCES",
+      "source_hex": "bbbcccbbfc1355fc060000a2a3a100bdc9c3c8cdff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417ce6",
+      "english": "CLEFAIRY<0xFC>Û<0x55><0xFC>É  750 COINS",
+      "french_reference": "MÉLOFÉE{CLEAR_TO}Oh{FONT_SMALL} 750\\nPIÈCES",
+      "source_hex": "bdc6bfc0bbc3ccd3fc1355fc060000a8a6a100bdc9c3c8cdff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417cff",
+      "english": "PINSIR<0xFC>Û<0x4B><0xFC>É  2,500 COINS",
+      "french_reference": "SCARABRUTE{CLEAR_TO}{FONT_SMALL} 2\\n500 PIÈCES",
+      "source_hex": "cac3c8cdc3ccfc134bfc060000a3b8a6a1a100bdc9c3c8cdff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417d18",
+      "english": "DRATINI<0xFC>Û<0x4B><0xFC>É  4,600 COINS",
+      "french_reference": "MINIDRACO{CLEAR_TO}PA{FONT_SMALL} 4\\n600 PIÈCES",
+      "source_hex": "beccbbcec3c8c3fc134bfc060000a5b8a7a1a100bdc9c3c8cdff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417d32",
+      "english": "PORYGON<0xFC>Û<0x4B><0xFC>É  6,500 COINS",
+      "french_reference": "PORYGON{CLEAR_TO}{FONT_SMALL} 6,500 JETONS",
+      "source_hex": "cac9ccd3c1c9c8fc134bfc060000a7b8a6a1a100bdc9c3c8cdff",
+      "source_sites": [],
+      "live_sites": [],
+      "status": "exception",
+      "reason": "Aucun pointeur littéral dans la ROM EN ; ancien texte isolé sans consommateur dans les tables de menus.",
+      "portuguese": null,
+      "targets": []
+    },
+    {
+      "offset": "0x417d4c",
+      "english": "NO THANKS",
+      "french_reference": "NON MERCI",
+      "source_hex": "c8c900cec2bbc8c5cdff",
+      "source_sites": [
+        "0x3dff78",
+        "0x3dffa8",
+        "0x3e01f0"
+      ],
+      "live_sites": [
+        "0x3dff78",
+        "0x3dffa8",
+        "0x3e01f0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "NÃO, OBRIGADO",
+      "encoded_bytes": 14,
+      "line_pixels": [
+        77
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904bd1",
+        "0x904bd1",
+        "0x904bd1"
+      ]
+    },
+    {
+      "offset": "0x417d56",
+      "english": "HELIX FOSSIL",
+      "french_reference": "FOSSILE NAUTILUS",
+      "source_hex": "c2bfc6c3d200c0c9cdcdc3c6ff",
+      "source_sites": [
+        "0x3dfed0",
+        "0x3dff00"
+      ],
+      "live_sites": [
+        "0x3dfed0",
+        "0x3dff00"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "HELIX FOSSIL",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417d56",
+        "0x417d56"
+      ]
+    },
+    {
+      "offset": "0x417d63",
+      "english": "DOME FOSSIL",
+      "french_reference": "FOSSILE DOME",
+      "source_hex": "bec9c7bf00c0c9cdcdc3c6ff",
+      "source_sites": [
+        "0x3dfee0",
+        "0x3dff18"
+      ],
+      "live_sites": [
+        "0x3dfee0",
+        "0x3dff18"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "DOME FOSSIL",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        66
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417d63",
+        "0x417d63"
+      ]
+    },
+    {
+      "offset": "0x417d6f",
+      "english": "OLD AMBER",
+      "french_reference": "VIEIL AMBRE",
+      "source_hex": "c9c6be00bbc7bcbfccff",
+      "source_sites": [
+        "0x3dfef0",
+        "0x3dff08",
+        "0x3dff20"
+      ],
+      "live_sites": [
+        "0x3dfef0",
+        "0x3dff08",
+        "0x3dff20"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "OLD AMBER",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        54
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417d6f",
+        "0x417d6f",
+        "0x417d6f"
+      ]
+    },
+    {
+      "offset": "0x417d79",
+      "english": "Trade Center",
+      "french_reference": "Centre d'Échange",
+      "source_hex": "cee6d5d8d900bdd9e2e8d9e6ff",
+      "source_sites": [
+        "0x3e01f8",
+        "0x3e02b0",
+        "0x3e02e8",
+        "0x3e0328",
+        "0x3e0350"
+      ],
+      "live_sites": [
+        "0x3e01f8",
+        "0x3e02b0",
+        "0x3e02e8",
+        "0x3e0328",
+        "0x3e0350"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Centro de Trocas",
+      "encoded_bytes": 17,
+      "line_pixels": [
+        91
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904d7f",
+        "0x904d7f",
+        "0x904d7f",
+        "0x904d7f",
+        "0x904d7f"
+      ]
+    },
+    {
+      "offset": "0x417d86",
+      "english": "Colosseum",
+      "french_reference": "Colisée",
+      "source_hex": "bde3e0e3e7e7d9e9e1ff",
+      "source_sites": [
+        "0x3e0200"
+      ],
+      "live_sites": [
+        "0x3e0200"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Coliseu",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        38
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417d86"
+      ]
+    },
+    {
+      "offset": "0x417d90",
+      "english": "Game Link cable",
+      "french_reference": "Câble Link",
+      "source_hex": "c1d5e1d900c6dde2df00d7d5d6e0d9ff",
+      "source_sites": [
+        "0x3bfc8a",
+        "0x3e0210"
+      ],
+      "live_sites": [
+        "0x3e0210"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Cabo Game Link",
+      "encoded_bytes": 15,
+      "line_pixels": [
+        80
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417d90"
+      ]
+    },
+    {
+      "offset": "0x417da0",
+      "english": "Wireless",
+      "french_reference": "Sans-fil",
+      "source_hex": "d1dde6d9e0d9e7e7ff",
+      "source_sites": [
+        "0x3e0218"
+      ],
+      "live_sites": [
+        "0x3e0218"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Sem fio",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        39
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417da0"
+      ]
+    },
+    {
+      "offset": "0x417da9",
+      "english": "Items Sector",
+      "french_reference": "Zone Objets",
+      "source_hex": "c3e8d9e1e700cdd9d7e8e3e6ff",
+      "source_sites": [
+        "0x3e0718"
+      ],
+      "live_sites": [
+        "0x3e0718"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Setor de itens",
+      "encoded_bytes": 15,
+      "line_pixels": [
+        77
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904c6e"
+      ]
+    },
+    {
+      "offset": "0x417db6",
+      "english": "Key Items Sector",
+      "french_reference": "Zone Objets rares",
+      "source_hex": "c5d9ed00c3e8d9e1e700cdd9d7e8e3e6ff",
+      "source_sites": [
+        "0x3e071c"
+      ],
+      "live_sites": [
+        "0x3e071c"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Setor de itens-chave",
+      "encoded_bytes": 21,
+      "line_pixels": [
+        113
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe0526"
+      ]
+    },
+    {
+      "offset": "0x417dc7",
+      "english": "Poké Balls Sector",
+      "french_reference": "Zone Poké Balls",
+      "source_hex": "cae3df1b00bcd5e0e0e700cdd9d7e8e3e6ff",
+      "source_sites": [
+        "0x3e0720"
+      ],
+      "live_sites": [
+        "0x3e0720"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Setor de Poké Balls",
+      "encoded_bytes": 20,
+      "line_pixels": [
+        108
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xbe041c"
+      ]
+    },
+    {
+      "offset": "0x417dd9",
+      "english": "TM Case",
+      "french_reference": "Boîte CT",
+      "source_hex": "cec700bdd5e7d9ff",
+      "source_sites": [
+        "0x3e0724"
+      ],
+      "live_sites": [
+        "0x3e0724"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Estojo de TMs",
+      "encoded_bytes": 14,
+      "line_pixels": [
+        75
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904bc3"
+      ]
+    },
+    {
+      "offset": "0x417de1",
+      "english": "Berry Pouch",
+      "french_reference": "Sac à Baies",
+      "source_hex": "bcd9e6e6ed00cae3e9d7dcff",
+      "source_sites": [
+        "0x3e0728"
+      ],
+      "live_sites": [
+        "0x3e0728"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Bolsa de Berries",
+      "encoded_bytes": 17,
+      "line_pixels": [
+        89
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904d6e"
+      ]
+    },
+    {
+      "offset": "0x417ded",
+      "english": "Other",
+      "french_reference": "Autres",
+      "source_hex": "c9e8dcd9e6ff",
+      "source_sites": [
+        "0x9d8b8"
+      ],
+      "live_sites": [
+        "0x9d8b8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Outro",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        28
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10d93"
+      ]
+    },
+    {
+      "offset": "0x417df3",
+      "english": "ONE ISLAND",
+      "french_reference": "ÎLE 1",
+      "source_hex": "c9c8bf00c3cdc6bbc8beff",
+      "source_sites": [
+        "0x3e0280",
+        "0x3e0298",
+        "0x3e03c0",
+        "0x3e0408",
+        "0x3e0428",
+        "0x3e17e4"
+      ],
+      "live_sites": [
+        "0x3e0280",
+        "0x3e0298",
+        "0x3e03c0",
+        "0x3e0408",
+        "0x3e0428",
+        "0x3e17e4"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "ONE ISLAND",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417df3",
+        "0x417df3",
+        "0x417df3",
+        "0x417df3",
+        "0x417df3",
+        "0x417df3"
+      ]
+    },
+    {
+      "offset": "0x417dfe",
+      "english": "TWO ISLAND",
+      "french_reference": "ÎLE 2",
+      "source_hex": "ced1c900c3cdc6bbc8beff",
+      "source_sites": [
+        "0x3e0268",
+        "0x3e02a0",
+        "0x3e03c8",
+        "0x3e03e8",
+        "0x3e0430",
+        "0x3e17e8"
+      ],
+      "live_sites": [
+        "0x3e0268",
+        "0x3e02a0",
+        "0x3e03c8",
+        "0x3e03e8",
+        "0x3e0430",
+        "0x3e17e8"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "TWO ISLAND",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417dfe",
+        "0x417dfe",
+        "0x417dfe",
+        "0x417dfe",
+        "0x417dfe",
+        "0x417dfe"
+      ]
+    },
+    {
+      "offset": "0x417e09",
+      "english": "THREE ISLAND",
+      "french_reference": "ÎLE 3",
+      "source_hex": "cec2ccbfbf00c3cdc6bbc8beff",
+      "source_sites": [
+        "0x3e0270",
+        "0x3e0288",
+        "0x3e03d0",
+        "0x3e03f0",
+        "0x3e0410",
+        "0x3e17ec"
+      ],
+      "live_sites": [
+        "0x3e0270",
+        "0x3e0288",
+        "0x3e03d0",
+        "0x3e03f0",
+        "0x3e0410",
+        "0x3e17ec"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "THREE ISLAND",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e09",
+        "0x417e09",
+        "0x417e09",
+        "0x417e09",
+        "0x417e09",
+        "0x417e09"
+      ]
+    },
+    {
+      "offset": "0x417e16",
+      "english": "FOUR ISLAND",
+      "french_reference": "ÎLE 4",
+      "source_hex": "c0c9cfcc00c3cdc6bbc8beff",
+      "source_sites": [
+        "0x3e17f0"
+      ],
+      "live_sites": [
+        "0x3e17f0"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "FOUR ISLAND",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        66
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e16"
+      ]
+    },
+    {
+      "offset": "0x417e22",
+      "english": "FIVE ISLAND",
+      "french_reference": "ÎLE 5",
+      "source_hex": "c0c3d0bf00c3cdc6bbc8beff",
+      "source_sites": [
+        "0x3e17f4"
+      ],
+      "live_sites": [
+        "0x3e17f4"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "FIVE ISLAND",
+      "encoded_bytes": 12,
+      "line_pixels": [
+        66
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e22"
+      ]
+    },
+    {
+      "offset": "0x417e2e",
+      "english": "SIX ISLAND",
+      "french_reference": "ÎLE 6",
+      "source_hex": "cdc3d200c3cdc6bbc8beff",
+      "source_sites": [
+        "0x3e17f8"
+      ],
+      "live_sites": [
+        "0x3e17f8"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "SIX ISLAND",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e2e"
+      ]
+    },
+    {
+      "offset": "0x417e39",
+      "english": "SEVEN ISLAND",
+      "french_reference": "ÎLE 7",
+      "source_hex": "cdbfd0bfc800c3cdc6bbc8beff",
+      "source_sites": [
+        "0x3e17fc"
+      ],
+      "live_sites": [
+        "0x3e17fc"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "SEVEN ISLAND",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e39"
+      ]
+    },
+    {
+      "offset": "0x417e46",
+      "english": "VERMILION",
+      "french_reference": "CARMIN-SUR-MER",
+      "source_hex": "d0bfccc7c3c6c3c9c8ff",
+      "source_sites": [
+        "0x3e03e0",
+        "0x3e0400",
+        "0x3e0420",
+        "0x3e0440",
+        "0x3e17e0"
+      ],
+      "live_sites": [
+        "0x3e03e0",
+        "0x3e0400",
+        "0x3e0420",
+        "0x3e0440",
+        "0x3e17e0"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "VERMILION",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        54
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e46",
+        "0x417e46",
+        "0x417e46",
+        "0x417e46",
+        "0x417e46"
+      ]
+    },
+    {
+      "offset": "0x417e50",
+      "english": "COLOSSEUM",
+      "french_reference": "COLOSSEUM",
+      "source_hex": "bdc9c6c9cdcdbfcfc7ff",
+      "source_sites": [
+        "0x3e02b8",
+        "0x3e02f0",
+        "0x3e0330",
+        "0x3e0358"
+      ],
+      "live_sites": [
+        "0x3e02b8",
+        "0x3e02f0",
+        "0x3e0330",
+        "0x3e0358"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "COLISEU",
+      "encoded_bytes": 8,
+      "line_pixels": [
+        42
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e50",
+        "0x417e50",
+        "0x417e50",
+        "0x417e50"
+      ]
+    },
+    {
+      "offset": "0x417e5a",
+      "english": "BERRY CRUSH",
+      "french_reference": "BROYEUR DE BAIES",
+      "source_hex": "bcbfccccd300bdcccfcdc2ff",
+      "source_sites": [
+        "0x3e02c0",
+        "0x3e0340"
+      ],
+      "live_sites": [
+        "0x3e02c0",
+        "0x3e0340"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "ESMAGAR BERRIES",
+      "encoded_bytes": 16,
+      "line_pixels": [
+        90
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904cdd",
+        "0x904cdd"
+      ]
+    },
+    {
+      "offset": "0x417e72",
+      "english": "Pokémon JUMP",
+      "french_reference": "SAUT POKÉMON",
+      "source_hex": "cae3df1be1e3e200c4cfc7caff",
+      "source_sites": [
+        "0x3e0300"
+      ],
+      "live_sites": [
+        "0x3e0300"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SALTO POKÉMON",
+      "encoded_bytes": 14,
+      "line_pixels": [
+        78
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904bfb"
+      ]
+    },
+    {
+      "offset": "0x417e7f",
+      "english": "DODRIO BERRY-PICKING",
+      "french_reference": "RÉCOLTE DE BAIES DODRIO",
+      "source_hex": "bec9beccc3c900bcbfccccd3aecac3bdc5c3c8c1ff",
+      "source_sites": [
+        "0x3e0308"
+      ],
+      "live_sites": [
+        "0x3e0308"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "COLHEITA DE DODRIO",
+      "encoded_bytes": 19,
+      "line_pixels": [
+        108
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e7f"
+      ]
+    },
+    {
+      "offset": "0x417e94",
+      "english": "2 TINYMUSHROOMS",
+      "french_reference": "2 PETITS CHAMPI",
+      "source_hex": "a300cec3c8d3c7cfcdc2ccc9c9c7cdff",
+      "source_sites": [
+        "0x3e0318"
+      ],
+      "live_sites": [
+        "0x3e0318"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "2 TINYMUSHROOMS",
+      "encoded_bytes": 16,
+      "line_pixels": [
+        90
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417e94"
+      ]
+    },
+    {
+      "offset": "0x417ea4",
+      "english": "1 BIG MUSHROOM",
+      "french_reference": "1 GROS CHAMPI",
+      "source_hex": "a200bcc3c100c7cfcdc2ccc9c9c7ff",
+      "source_sites": [
+        "0x3e0320"
+      ],
+      "live_sites": [
+        "0x3e0320"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "1 BIG MUSHROOM",
+      "encoded_bytes": 15,
+      "line_pixels": [
+        84
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417ea4"
+      ]
+    },
+    {
+      "offset": "0x417eb3",
+      "english": "SEVII ISLANDS",
+      "french_reference": "ÎLES SEVII",
+      "source_hex": "cdbfd0c3c300c3cdc6bbc8becdff",
+      "source_sites": [
+        "0x3e0370",
+        "0x3e0388",
+        "0x3e03a0"
+      ],
+      "live_sites": [
+        "0x3e0370",
+        "0x3e0388",
+        "0x3e03a0"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "SEVII ISLANDS",
+      "encoded_bytes": 14,
+      "line_pixels": [
+        78
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417eb3",
+        "0x417eb3",
+        "0x417eb3"
+      ]
+    },
+    {
+      "offset": "0x417ec1",
+      "english": "NAVEL ROCK",
+      "french_reference": "ROCHE OMBELINE",
+      "source_hex": "c8bbd0bfc600ccc9bdc5ff",
+      "source_sites": [
+        "0x3e0378",
+        "0x3e03a8"
+      ],
+      "live_sites": [
+        "0x3e0378",
+        "0x3e03a8"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "NAVEL ROCK",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417ec1",
+        "0x417ec1"
+      ]
+    },
+    {
+      "offset": "0x417ecc",
+      "english": "BIRTH ISLAND",
+      "french_reference": "ÎLE ORIGINE",
+      "source_hex": "bcc3cccec200c3cdc6bbc8beff",
+      "source_sites": [
+        "0x3e0390",
+        "0x3e03b0"
+      ],
+      "live_sites": [
+        "0x3e0390",
+        "0x3e03b0"
+      ],
+      "reason": "Nom propre ou nom d’objet conservé selon F-759.",
+      "status": "translated",
+      "portuguese": "BIRTH ISLAND",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417ecc",
+        "0x417ecc"
+      ]
+    },
+    {
+      "offset": "0x417ed9",
+      "english": "MIRACLE SEED<0xFC>Û<0x50><0xFC>É 1,000 COINS",
+      "french_reference": "GRAINE MIRACLE{CLEAR_TO}{FONT_SMALL}1,000 JETONS",
+      "source_hex": "c7c3ccbbbdc6bf00cdbfbfbefc1350fc0600a2b8a1a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff88"
+      ],
+      "live_sites": [
+        "0x3dff88"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "MIRACLE SEED<0xFC><0x13><0x50><0xFC><0x06><0x00>1,000 FICHAS",
+      "encoded_bytes": 31,
+      "line_pixels": [
+        143
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x80ebd4"
+      ]
+    },
+    {
+      "offset": "0x417ef7",
+      "english": "CHARCOAL<0xFC>Û<0x50><0xFC>É 1,000 COINS",
+      "french_reference": "CHARBON{CLEAR_TO}{FONT_SMALL}1,000 JETONS",
+      "source_hex": "bdc2bbccbdc9bbc6fc1350fc0600a2b8a1a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff90"
+      ],
+      "live_sites": [
+        "0x3dff90"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "CHARCOAL<0xFC><0x13><0x50><0xFC><0x06><0x00>1,000 FICHAS",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        119
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a3a3e"
+      ]
+    },
+    {
+      "offset": "0x417f11",
+      "english": "MYSTIC WATER<0xFC>Û<0x50><0xFC>É 1,000 COINS",
+      "french_reference": "EAU MYSTIQUE{CLEAR_TO}{FONT_SMALL}1,000 JETONS",
+      "source_hex": "c7d3cdcec3bd00d1bbcebfccfc1350fc0600a2b8a1a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff98"
+      ],
+      "live_sites": [
+        "0x3dff98"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "MYSTIC WATER<0xFC><0x13><0x50><0xFC><0x06><0x00>1,000 FICHAS",
+      "encoded_bytes": 31,
+      "line_pixels": [
+        143
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x80ebf3"
+      ]
+    },
+    {
+      "offset": "0x417f2f",
+      "english": "YELLOW FLUTE<0xFC>Û<0x50><0xFC>É 1,600 COINS",
+      "french_reference": "FLÛTE JAUNE{CLEAR_TO}{FONT_SMALL}1,600 JETONS",
+      "source_hex": "d3bfc6c6c9d100c0c6cfcebffc1350fc0600a2b8a7a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dffa0"
+      ],
+      "live_sites": [
+        "0x3dffa0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "YELLOW FLUTE<0xFC><0x13><0x50><0xFC><0x06><0x00>1,600 FICHAS",
+      "encoded_bytes": 31,
+      "line_pixels": [
+        143
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x80ec50"
+      ]
+    },
+    {
+      "offset": "0x417f4d",
+      "english": "SMOKE BALL<0xFC>ÛÍ<0xFC>É 800 COINS",
+      "french_reference": "BALLE FUMEE{CLEAR_TO}{FONT_SMALL}800 JETONS",
+      "source_hex": "cdc7c9c5bf00bcbbc6c6fc135afc0600a9a1a100bdc9c3c8cdff",
+      "source_sites": [
+        "0x3dff80"
+      ],
+      "live_sites": [
+        "0x3dff80"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SMOKE BALL<0xFC><0x13><0x5A><0xFC><0x06><0x00>800 FICHAS",
+      "encoded_bytes": 27,
+      "line_pixels": [
+        120
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x7a3b9d"
+      ]
+    },
+    {
+      "offset": "0x417f69",
+      "english": "BECOME LEADER",
+      "french_reference": "DEVENIR CHEF",
+      "source_hex": "bcbfbdc9c7bf00c6bfbbbebfccff",
+      "source_sites": [
+        "0x3e0470"
+      ],
+      "live_sites": [
+        "0x3e0470"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "SER LÍDER",
+      "encoded_bytes": 10,
+      "line_pixels": [
+        54
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417f69"
+      ]
+    },
+    {
+      "offset": "0x417f77",
+      "english": "JOIN GROUP",
+      "french_reference": "REJOINDRE GROUPE",
+      "source_hex": "c4c9c3c800c1ccc9cfcaff",
+      "source_sites": [
+        "0x3e0468"
+      ],
+      "live_sites": [
+        "0x3e0468"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "ENTRAR NO GRUPO",
+      "encoded_bytes": 16,
+      "line_pixels": [
+        90
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904ccd"
+      ]
+    },
+    {
+      "offset": "0x417f82",
+      "english": "SINGLE",
+      "french_reference": "SOLO",
+      "source_hex": "cdc3c8c1c6bfff",
+      "source_sites": [
+        "0x3e0480",
+        "0x3fe9c4"
+      ],
+      "live_sites": [
+        "0x3e0480",
+        "0x3fe9c4"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "INDIVIDUAL",
+      "encoded_bytes": 11,
+      "line_pixels": [
+        60
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xe696c3",
+        "0xe696c3"
+      ]
+    },
+    {
+      "offset": "0x417f89",
+      "english": "DOUBLE",
+      "french_reference": "DUO",
+      "source_hex": "bec9cfbcc6bfff",
+      "source_sites": [
+        "0x3e0488",
+        "0x3fe9c8"
+      ],
+      "live_sites": [
+        "0x3e0488",
+        "0x3fe9c8"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "DUPLA",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        30
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417f89",
+        "0x417f89"
+      ]
+    },
+    {
+      "offset": "0x417f90",
+      "english": "KNOCKOUT",
+      "french_reference": "K.O.",
+      "source_hex": "c5c8c9bdc5c9cfceff",
+      "source_sites": [
+        "0x3e0490",
+        "0x3fe9cc"
+      ],
+      "live_sites": [
+        "0x3e0490",
+        "0x3fe9cc"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "ELIMINATÓRIA",
+      "encoded_bytes": 13,
+      "line_pixels": [
+        72
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x904a95",
+        "0x904a95"
+      ]
+    },
+    {
+      "offset": "0x417f99",
+      "english": "MIXED",
+      "french_reference": "MIXTE",
+      "source_hex": "c7c3d2bfbeff",
+      "source_sites": [
+        "0x3e0498",
+        "0x3fe9d0"
+      ],
+      "live_sites": [
+        "0x3e0498",
+        "0x3fe9d0"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "MISTA",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        30
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417f99",
+        "0x417f99"
+      ]
+    },
+    {
+      "offset": "0x417fbb",
+      "english": "Big guy",
+      "french_reference": "Grand gars",
+      "source_hex": "bcdddb00dbe9edff",
+      "source_sites": [
+        "0xca6fc"
+      ],
+      "live_sites": [
+        "0xca6fc"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Rapaz",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        30
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417fbb"
+      ]
+    },
+    {
+      "offset": "0x417fc3",
+      "english": "Big girl",
+      "french_reference": "Grande fille",
+      "source_hex": "bcdddb00dbdde6e0ff",
+      "source_sites": [
+        "0xca710"
+      ],
+      "live_sites": [
+        "0xca710"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "Moça",
+      "encoded_bytes": 5,
+      "line_pixels": [
+        24
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0x417fc3"
+      ]
+    },
+    {
+      "offset": "0x417fcc",
+      "english": "son",
+      "french_reference": "fils",
+      "source_hex": "e7e3e2ff",
+      "source_sites": [
+        "0xca748"
+      ],
+      "live_sites": [
+        "0xca748"
+      ],
+      "reason": "Traduction PT-BR ; commandes et ruptures conservées.",
+      "status": "translated",
+      "portuguese": "filho",
+      "encoded_bytes": 6,
+      "line_pixels": [
+        26
+      ],
+      "delivery": "structured",
+      "targets": [
+        "0xd10e11"
+      ]
+    }
+  ],
+  "rejected_sites": [
+    "0x3bfc8a",
+    "0x40f1aa",
+    "0x1aaa166",
+    "0x1bb7b57",
+    "0x1da2f35"
+  ],
+  "built_sha256": "e0690d021379985d7b1197a76aaf1f5fd49fbec852f9ec7ce5cd467389e0a8be"
+}
