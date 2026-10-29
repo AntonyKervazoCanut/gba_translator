@@ -6,12 +6,16 @@
 # German is built by the generic driver `scripts/build_language.py de`.
 # Translations live in languages/de/combined_de.txt (same `<offset_hex>:
 # <text>` format as combined_fr.txt). Offsets not present there stay
-# English — this still includes proper names/credits, corrupted/garbage
-# cells, and the move description table (no dedicated German patch yet;
+# English — this still includes proper names/credits and corrupted/garbage
+# cells. Move descriptions are only partly reached by the generic pipeline:
+# B-688 checks live pointers and documents extraction gaps requiring B-1013
+# (docs/analysis/688_PARITE_DESCRIPTIONS_DE.md). No dedicated DE patch yet;
+#
+# Other tables are covered:
 # the species-name table, move-name table, ability-name table, mission/
 # world-map text and the one-off fixed-table name cells are now covered by
 # the species_names/move_names/ability_names/mission_descriptions/
-# worldmap_junction_panels/fixed_table_names steps below — F-83, #81).
+# worldmap_junction_panels/fixed_table_names steps below — F-83, #81.
 #
 # ä ö ü Ä Ö Ü are now in the charmap (slots 0xF1-0xF6) and have glyphs
 # drawn by languages/de/patches/font.py. The `font` step must be scheduled
