@@ -147,3 +147,10 @@ def test_corrected_text_does_not_overwrite_unresolved_suffix(rom_pair):
             start = int.from_bytes(built[site:site + 4], 'little') - 0x08000000
             end = start + len(bytes.fromhex(check['expected_hex']))
             assert not any(start <= target < end for target in unresolved_targets), row['offset']
+
+
+def test_encoded_ellipsis_is_counted_and_control_arguments_are_atomic():
+    # B0 est imprimable ; FA à l'intérieur de FC01/FD n'est pas un retour.
+    assert display_widths(bytes.fromhex('b0ff')) == [6]
+    assert commands(bytes.fromhex('fc01fafdfaff')) == [bytes.fromhex('fc01fa'), bytes.fromhex('fdfa')]
+    assert display_widths(bytes.fromhex('fc01fafdfab0ff')) == [VARIABLE_WIDTH + 6]
