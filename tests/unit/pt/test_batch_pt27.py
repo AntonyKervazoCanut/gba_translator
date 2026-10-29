@@ -101,4 +101,6 @@ def test_visual_probe_covers_complete_messages_and_accented_types():
     assert all(text.count('\n') <= 1 for text in samples)
     assert all(not re.search(r'<0xF[ABCD]>', text) for text in samples)
     assert 'chão' in samples[0]
-    assert 'Elétrico' in samples[1] and 'Aço' in samples[1]
+    glossary = yaml.safe_load((ROOT / 'languages/pt/data/official_terminology.yaml').read_text())
+    types = glossary['categories']['types']['entries']
+    assert all(types[name]['value'] in samples[1] for name in ('Electric', 'Steel'))

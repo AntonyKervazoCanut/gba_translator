@@ -19,7 +19,7 @@ python3 -m pytest tests/e2e/pt/test_batch_pt27_rom.py -m rom -q
 npx playwright test --config tests/e2e-playwright/playwright.pt27.config.ts
 ```
 
-Playwright utilise deux messages complets lus aux pointeurs de la ROM finale (0x7e94cb, 0x7eaae7), affichés par le moteur natif dans une copie temporaire mGBA hors écran. Les assertions OCR portent sur toutes leurs lignes. La sonde ne revendique pas un parcours des 270 dialogues. Les images restent dans le répertoire temporaire de l’OS, hors dépôt.
+Playwright utilise deux messages complets lus aux pointeurs de la ROM finale (0x7e94cb, 0x7eaae7), affichés par le moteur natif dans une copie temporaire mGBA hors écran. Les assertions OCR PT-BR portent sur la zone des deux lignes natives, parmi les trois meilleurs candidats par observation, et exigent chaque ligne complète. Aucun remplacement de lettres n’est autorisé : cela évite le faux négatif ç/g tout en exigeant la phrase exacte. La sonde ne revendique pas un parcours des 270 dialogues. Les images restent dans le répertoire temporaire de l’OS, hors dépôt.
 
 ## Validation exécutée
 

@@ -38,10 +38,11 @@ test('PT-27 : deux dialogues aux pointeurs vivants sont lisibles dans mGBA', asy
 import Vision
 let r = VNRecognizeTextRequest()
 r.recognitionLevel = .accurate
-r.recognitionLanguages = ["pt-BR", "en-US"]
+r.recognitionLanguages = ["pt-BR"]
 r.usesLanguageCorrection = true
 try VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([r])
-print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))
+// ç et g sont visuellement proches dans la police GBA : garder les candidats, sans réécrire le texte.
+print((r.results ?? []).flatMap { $0.topCandidates(3).map { $0.string } }.joined(separator: "\\n"))
 `);
   const ocr = path.join(temp, 'ocr');
   execFileSync('swiftc', [path.join(temp, 'ocr.swift'), '-o', ocr]);
@@ -92,7 +93,13 @@ end)
     await page.setContent(`<style>img{width:960px;height:640px;image-rendering:pixelated}</style>${picture}`);
     await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
     const large = path.join(temp, 'large.png');
-    await page.getByRole('img').screenshot({ path: large });
+    const bounds = await page.getByRole('img').boundingBox();
+    expect(bounds).not.toBeNull();
+    // Isoler les deux lignes natives : le décor ne doit pas orienter l’OCR.
+    await page.screenshot({ path: large, clip: {
+      x: bounds!.x + 12 * 4, y: bounds!.y + 120 * 4,
+      width: 216 * 4, height: 34 * 4,
+    } });
     const text = normalize(execFileSync(ocr, [large], { encoding: 'utf8' }));
     pictures.push(picture);
     console.log(cases[n].offset, text);
