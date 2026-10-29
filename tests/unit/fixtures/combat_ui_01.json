@@ -19,7 +19,15 @@
     "before": null,
     "after": "Ich kann nicht aufhören zu kaufen!\\pEs gibt so viel Auswahl im\\n<0xFC><0x01><0x06>Dehara Department Store<0xFC><0x01><0x04>!",
     "expected_hex": "c3d7dc00dfd5e2e200e2ddd7dce800d5e9dadcf5e6d9e200eee900dfd5e9dad9e2abfbbfe700dbddd6e800e7e300eaddd9e000bbe9e7ebd5dce000dde1fefc0106bed9dcd5e6d500bed9e4d5e6e8e1d9e2e800cde8e3e6d9fc0104abff",
-    "max_pixels_with_10_glyph_buffers": 191
+    "max_pixels_with_10_glyph_buffers": 191,
+    "built_references": [
+      {
+        "site": "0x166caf",
+        "target": "0x17ff4a",
+        "hex": "c3d7dc00dfd5e2e200e2ddd7dce800d5e9dadcf5e6d9e200eee900dfd5e9dad9e2abfbbfe700dbddd6e800e7e300eaddd9e000bbe9e7ebd5dce000dde100fc0106bed9dcd5e6d5febed9e4d5e6e8e1d9e2e800cde8e3e6d9fc0104abff",
+        "decoded": "Ich kann nicht aufhören zu kaufen!\\pEs gibt so viel Auswahl im <0xFC><0x01><0x06>Dehara\\nDepartment Store<0xFC><0x01><0x04>!"
+      }
+    ]
   },
   {
     "offset": "0x180AF3",
@@ -40,7 +48,8 @@
     "reason": "Données binaires prises pour du texte, zéro référent.",
     "zone": "Données ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x183482",
@@ -66,7 +75,15 @@
     "reason": "Valley Cave explicitement conservé par english_toponyms.yaml ; référent de panneau valide.",
     "zone": "Valley Cave, panneau",
     "before": "Valley Cave",
-    "after": "Valley Cave"
+    "after": "Valley Cave",
+    "built_references": [
+      {
+        "site": "0x167f70",
+        "target": "0x183482",
+        "hex": "d0d5e0e0d9ed00bdd5ead9ff",
+        "decoded": "Valley Cave"
+      }
+    ]
   },
   {
     "offset": "0x18EA45",
@@ -88,7 +105,15 @@
     "before": null,
     "after": "Das ist Prof. Logs Pokémon.",
     "expected_hex": "bed5e700dde7e800cae6e3daad00c6e3dbe700cae3df1be1e3e2adff",
-    "max_pixels_with_10_glyph_buffers": 150
+    "max_pixels_with_10_glyph_buffers": 150,
+    "built_references": [
+      {
+        "site": "0x169de6",
+        "target": "0x18ea45",
+        "hex": "bed5e700dde7e800cae6e3daad00c6e3dbe700cae3df1be1e3e2adff",
+        "decoded": "Das ist Prof. Logs Pokémon."
+      }
+    ]
   },
   {
     "offset": "0x18EA66",
@@ -110,7 +135,15 @@
     "before": null,
     "after": "Drücke START für das Menü!",
     "expected_hex": "bee6f6d7dfd900cdcebbccce00daf6e600d8d5e700c7d9e2f6abff",
-    "max_pixels_with_10_glyph_buffers": 150
+    "max_pixels_with_10_glyph_buffers": 150,
+    "built_references": [
+      {
+        "site": "0x169e73",
+        "target": "0x18ea66",
+        "hex": "bee6f6d7dfd900cdcebbccce00daf6e600d8d5e700c7d9e2f6abff",
+        "decoded": "Drücke START für das Menü!"
+      }
+    ]
   },
   {
     "offset": "0x18EBE6",
@@ -132,7 +165,15 @@
     "before": null,
     "after": "Als Prof. Logs Assistent\\nerforsche ich Pokémon.",
     "expected_hex": "bbe0e700cae6e3daad00c6e3dbe700bbe7e7dde7e8d9e2e8fed9e6dae3e6e7d7dcd900ddd7dc00cae3df1be1e3e2adff",
-    "max_pixels_with_10_glyph_buffers": 130
+    "max_pixels_with_10_glyph_buffers": 130,
+    "built_references": [
+      {
+        "site": "0x169e1c",
+        "target": "0x18ebe6",
+        "hex": "bbe0e700cae6e3daad00c6e3dbe700bbe7e7dde7e8d9e2e800d9e6dae3e6e7d7dcd9feddd7dc00cae3df1be1e3e2adff",
+        "decoded": "Als Prof. Logs Assistent erforsche\\nich Pokémon."
+      }
+    ]
   },
   {
     "offset": "0x18ED81",
@@ -154,7 +195,15 @@
     "before": null,
     "after": "Prof. Log erforscht seit Jahren\\ndie Statuswerte von Pokémon.\\pViele Trainer kommen mit Fragen\\nzu diesen Werten zu ihm.",
     "expected_hex": "cae6e3daad00c6e3db00d9e6dae3e6e7d7dce800e7d9dde800c4d5dce6d9e2fed8ddd900cde8d5e8e9e7ebd9e6e8d900eae3e200cae3df1be1e3e2adfbd0ddd9e0d900cee6d5dde2d9e600dfe3e1e1d9e200e1dde800c0e6d5dbd9e2feeee900d8ddd9e7d9e200d1d9e6e8d9e200eee900dddce1adff",
-    "max_pixels_with_10_glyph_buffers": 172
+    "max_pixels_with_10_glyph_buffers": 172,
+    "built_references": [
+      {
+        "site": "0x169e48",
+        "target": "0x18ed81",
+        "hex": "cae6e3daad00c6e3db00d9e6dae3e6e7d7dce800e7d9dde800c4d5dce6d9e2fed8ddd900cde8d5e8e9e7ebd9e6e8d900eae3e200cae3df1be1e3e2adfbd0ddd9e0d900cee6d5dde2d9e600dfe3e1e1d9e200e1dde800c0e6d5dbd9e2feeee900d8ddd9e7d9e200d1d9e6e8d9e200eee900dddce1adff",
+        "decoded": "Prof. Log erforscht seit Jahren\\ndie Statuswerte von Pokémon.\\pViele Trainer kommen mit Fragen\\nzu diesen Werten zu ihm."
+      }
+    ]
   },
   {
     "offset": "0x192116",
@@ -171,10 +220,18 @@
     ],
     "canonical": "you the edge against\\lhim.",
     "decision": "besoin de patch séparé",
-    "reason": "Le loadpointer 0x16AA68 vise un suffixe à +0x9D du texte complet 0x192079 (conseil Mirskle/Icicle Cave). Corriger la cible de script et le message complet hors lot ; traduire seulement le fragment perdrait le conseil.",
+    "reason": "Le loadpointer 0x16AA68 vise un suffixe à +0x9D du texte complet 0x192079 (conseil Mirskle/Icicle Cave). Corriger la cible de script et le message complet hors lot ; traduire seulement le fragment perdrait le conseil. ROM DE : le script atteint seulement « Vorteil gegen ihn / verschaffen. » ; début du conseil toujours absent.",
     "zone": "Dresco, conseiller arène Mirskle",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x16aa68",
+        "target": "0x192116",
+        "hex": "00d0e3e6e8d9dde000dbd9dbd9e200dddce2faead9e6e7d7dcd5dadad9e2adff",
+        "decoded": " Vorteil gegen ihn\\lverschaffen."
+      }
+    ]
   },
   {
     "offset": "0x1949CB",
@@ -200,7 +257,15 @@
     "reason": "Échange Pokémon : buffers FD02 puis FD03, tutoiement et pages conservés.",
     "zone": "PNJ échange Pokémon",
     "before": "Hallo!\\nHast du ein {STR_VAR_1}?\\pMöchtest du es gegen mein\\n{STR_VAR_2} tauschen?",
-    "after": "Hallo!\\nHast du ein {STR_VAR_1}?\\pMöchtest du es gegen mein\\n{STR_VAR_2} tauschen?"
+    "after": "Hallo!\\nHast du ein {STR_VAR_1}?\\pMöchtest du es gegen mein\\n{STR_VAR_2} tauschen?",
+    "built_references": [
+      {
+        "site": "0x16b5ee",
+        "target": "0xb4a28c",
+        "hex": "c2d5e0e0e3ab00c2d5e7e800d8e9fed9dde200fd02acfbc7f5d7dce8d9e7e800d8e900d9e700dbd9dbd9e2fee1d9dde200fd0300e8d5e9e7d7dcd9e2acff",
+        "decoded": "Hallo! Hast du\\nein <0xFD><0x02>?\\pMöchtest du es gegen\\nmein <0xFD><0x03> tauschen?"
+      }
+    ]
   },
   {
     "offset": "0x197874",
@@ -222,7 +287,15 @@
     "before": null,
     "after": "Pokémon-Arena von Dehara\\nLeiter: Galavan\\pSiegreiche Trainer:\\n<0xFD><0x06>",
     "expected_hex": "cae3df1be1e3e2aebbe6d9e2d500eae3e200bed9dcd5e6d5fec6d9dde8d9e6f000c1d5e0d5ead5e2fbcdddd9dbe6d9ddd7dcd900cee6d5dde2d9e6f0fefd06ff",
-    "max_pixels_with_10_glyph_buffers": 138
+    "max_pixels_with_10_glyph_buffers": 138,
+    "built_references": [
+      {
+        "site": "0x16d1d8",
+        "target": "0x17d57a",
+        "hex": "cae3df1be1e3e2aebbe6d9e2d500eae3e200bed9dcd5e6d500c6d9dde8d9e6f0fec1d5e0d5ead5e2fbcdddd9dbe6d9ddd7dcd9fecee6d5dde2d9e6f000fd06ff",
+        "decoded": "Pokémon-Arena von Dehara Leiter:\\nGalavan\\pSiegreiche\\nTrainer: <0xFD><0x06>"
+      }
+    ]
   },
   {
     "offset": "0x198BBB",
@@ -244,7 +317,15 @@
     "before": null,
     "after": "Eines Tages werde ich ein Ninja!\\pMeine Eltern setzen auf Gewalt,\\naber ich werde listig sein!",
     "expected_hex": "bfdde2d9e700ced5dbd9e700ebd9e6d8d900ddd7dc00d9dde200c8dde2ded5abfbc7d9dde2d900bfe0e8d9e6e200e7d9e8eed9e200d5e9da00c1d9ebd5e0e8b8fed5d6d9e600ddd7dc00ebd9e6d8d900e0dde7e8dddb00e7d9dde2abff",
-    "max_pixels_with_10_glyph_buffers": 178
+    "max_pixels_with_10_glyph_buffers": 178,
+    "built_references": [
+      {
+        "site": "0x7c0a4c",
+        "target": "0x198bbb",
+        "hex": "bfdde2d9e700ced5dbd9e700ebd9e6d8d900ddd7dc00d9dde200c8dde2ded5abfbc7d9dde2d900bfe0e8d9e6e200e7d9e8eed9e200d5e9da00c1d9ebd5e0e8b8fed5d6d9e600ddd7dc00ebd9e6d8d900e0dde7e8dddb00e7d9dde2abff",
+        "decoded": "Eines Tages werde ich ein Ninja!\\pMeine Eltern setzen auf Gewalt,\\naber ich werde listig sein!"
+      }
+    ]
   },
   {
     "offset": "0x19A4F8",
@@ -266,7 +347,15 @@
     "before": null,
     "after": "Diese Stadt leidet schon lange\\nunter schlimmen Albträumen.\\pWenn du einen Wohnort suchst,\\nwäre es wohl besser,\\lwoanders zu wohnen.",
     "expected_hex": "beddd9e7d900cde8d5d8e800e0d9ddd8d9e800e7d7dce3e200e0d5e2dbd9fee9e2e8d9e600e7d7dce0dde1e1d9e200bbe0d6e8e6f4e9e1d9e2adfbd1d9e2e200d8e900d9dde2d9e200d1e3dce2e3e6e800e7e9d7dce7e8b8feebf4e6d900d9e700ebe3dce000d6d9e7e7d9e6b8faebe3d5e2d8d9e6e700eee900ebe3dce2d9e2adff",
-    "max_pixels_with_10_glyph_buffers": 167
+    "max_pixels_with_10_glyph_buffers": 167,
+    "built_references": [
+      {
+        "site": "0x16e8fa",
+        "target": "0x19a4f8",
+        "hex": "beddd9e7d900cde8d5d8e800e0d9ddd8d9e800e7d7dce3e200e0d5e2dbd9fee9e2e8d9e600e7d7dce0dde1e1d9e200bbe0d6e8e6f4e9e1d9e2adfbd1d9e2e200d8e900d9dde2d9e200d1e3dce2e3e6e800e7e9d7dce7e8b800ebf4e6d9fed9e700ebe3dce000d6d9e7e7d9e6b800ebe3d5e2d8d9e6e700eee9faebe3dce2d9e2adff",
+        "decoded": "Diese Stadt leidet schon lange\\nunter schlimmen Albträumen.\\pWenn du einen Wohnort suchst, wäre\\nes wohl besser, woanders zu\\lwohnen."
+      }
+    ]
   },
   {
     "offset": "0x19A5BE",
@@ -290,7 +379,27 @@
     "before": null,
     "after": "Brauchst du einen Weg zurück\\nden Berg hinunter?\\pMein Abra und ich teleportieren\\ndich gern nach unten.\\pWas meinst du?\\nSollen wir dich teleportieren?",
     "expected_hex": "bce6d5e9d7dce7e800d8e900d9dde2d9e200d1d9db00eee9e6f6d7dffed8d9e200bcd9e6db00dcdde2e9e2e8d9e6acfbc7d9dde200bbd6e6d500e9e2d800ddd7dc00e8d9e0d9e4e3e6e8ddd9e6d9e2fed8ddd7dc00dbd9e6e200e2d5d7dc00e9e2e8d9e2adfbd1d5e700e1d9dde2e7e800d8e9acfecde3e0e0d9e200ebdde600d8ddd7dc00e8d9e0d9e4e3e6e8ddd9e6d9e2acff",
-    "max_pixels_with_10_glyph_buffers": 171
+    "max_pixels_with_10_glyph_buffers": 171,
+    "built_references": [
+      {
+        "site": "0x7c3779",
+        "target": "0xb4b974",
+        "hex": "bce6d5e9d7dce7e800d8e900d9dde2d9e200d1d9db00eee9e6f6d7df00d8d9e2febcd9e6db00dcdde2e9e2e8d9e6acfbc7d9dde200bbd6e6d500e9e2d800ddd7dc00e8d9e0d9e4e3e6e8ddd9e6d9e2fed8ddd7dc00dbd9e6e200e2d5d7dc00e9e2e8d9e2adfbd1d5e700e1d9dde2e7e800d8e9ac00cde3e0e0d9e200ebdde600d8ddd7dcfee8d9e0d9e4e3e6e8ddd9e6d9e2acff",
+        "decoded": "Brauchst du einen Weg zurück den\\nBerg hinunter?\\pMein Abra und ich teleportieren\\ndich gern nach unten.\\pWas meinst du? Sollen wir dich\\nteleportieren?"
+      },
+      {
+        "site": "0x7c3811",
+        "target": "0xb4b974",
+        "hex": "bce6d5e9d7dce7e800d8e900d9dde2d9e200d1d9db00eee9e6f6d7df00d8d9e2febcd9e6db00dcdde2e9e2e8d9e6acfbc7d9dde200bbd6e6d500e9e2d800ddd7dc00e8d9e0d9e4e3e6e8ddd9e6d9e2fed8ddd7dc00dbd9e6e200e2d5d7dc00e9e2e8d9e2adfbd1d5e700e1d9dde2e7e800d8e9ac00cde3e0e0d9e200ebdde600d8ddd7dcfee8d9e0d9e4e3e6e8ddd9e6d9e2acff",
+        "decoded": "Brauchst du einen Weg zurück den\\nBerg hinunter?\\pMein Abra und ich teleportieren\\ndich gern nach unten.\\pWas meinst du? Sollen wir dich\\nteleportieren?"
+      },
+      {
+        "site": "0x7c383e",
+        "target": "0xb4b974",
+        "hex": "bce6d5e9d7dce7e800d8e900d9dde2d9e200d1d9db00eee9e6f6d7df00d8d9e2febcd9e6db00dcdde2e9e2e8d9e6acfbc7d9dde200bbd6e6d500e9e2d800ddd7dc00e8d9e0d9e4e3e6e8ddd9e6d9e2fed8ddd7dc00dbd9e6e200e2d5d7dc00e9e2e8d9e2adfbd1d5e700e1d9dde2e7e800d8e9ac00cde3e0e0d9e200ebdde600d8ddd7dcfee8d9e0d9e4e3e6e8ddd9e6d9e2acff",
+        "decoded": "Brauchst du einen Weg zurück den\\nBerg hinunter?\\pMein Abra und ich teleportieren\\ndich gern nach unten.\\pWas meinst du? Sollen wir dich\\nteleportieren?"
+      }
+    ]
   },
   {
     "offset": "0x19A6B1",
@@ -312,7 +421,27 @@
     "reason": "Cri Abra « Bra! », trois messages/opcodes 67 valides ; onomatopée à conserver.",
     "zone": "Service de téléportation Abra",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x7c386f",
+        "target": "0x19a6b1",
+        "hex": "bce6d5abff",
+        "decoded": "Bra!"
+      },
+      {
+        "site": "0x7c5462",
+        "target": "0x19a6b1",
+        "hex": "bce6d5abff",
+        "decoded": "Bra!"
+      },
+      {
+        "site": "0x7c550e",
+        "target": "0x19a6b1",
+        "hex": "bce6d5abff",
+        "decoded": "Bra!"
+      }
+    ]
   },
   {
     "offset": "0x19A7A0",
@@ -334,7 +463,15 @@
     "before": null,
     "after": "Haben sie kein X-Angriff?\\pIch mag es, weil es im Kampf\\nden Angriff erhöht.",
     "expected_hex": "c2d5d6d9e200e7ddd900dfd9dde200d2aebbe2dbe6dddadaacfbc3d7dc00e1d5db00d9e7b800ebd9dde000d9e700dde100c5d5e1e4dafed8d9e200bbe2dbe6dddada00d9e6dcf5dce8adff",
-    "max_pixels_with_10_glyph_buffers": 159
+    "max_pixels_with_10_glyph_buffers": 159,
+    "built_references": [
+      {
+        "site": "0x16ea12",
+        "target": "0x19a7a0",
+        "hex": "c2d5d6d9e200e7ddd900dfd9dde200d2aebbe2dbe6dddadaacfbc3d7dc00e1d5db00d9e7b800ebd9dde000d9e700dde100c5d5e1e4da00d8d9e2febbe2dbe6dddada00d9e6dcf5dce8adff",
+        "decoded": "Haben sie kein X-Angriff?\\pIch mag es, weil es im Kampf den\\nAngriff erhöht."
+      }
+    ]
   },
   {
     "offset": "0x19E9E5",
@@ -362,7 +499,15 @@
     "before": "Hallo!\\nIch bin ein Assistent von Prof. Log.\\pWenn dein Pokédex {COLOR}É{STR_VAR_1}{COLOR}Ç\\nSpezies enthält, muss ich dich belohnen.\\lIch werde dir eine Belohnung geben.\\pAlso, {PLAYER}, sag mir.\\pHast du Daten zu\\n{COLOR}É{STR_VAR_1}{COLOR}Ç Pokémon-Spezies?",
     "after": "Hallo!\\nIch bin <0xFC><0x01><0x06>Prof. Logs Assistent<0xFC><0x01><0x04>.\\pHast du im Pokédex Daten zu\\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> Arten, soll ich\\ldich belohnen.\\pAlso, <0xFD><0x01>, sag mir:\\pHast du schon Daten zu mindestens<0xFC><0x01><0x06>\\n<0xFD><0x02><0xFC><0x01><0x04> Pokémon-Arten erfasst?",
     "expected_hex": "c2d5e0e0e3abfec3d7dc00d6dde200fc0106cae6e3daad00c6e3dbe700bbe7e7dde7e8d9e2e8fc0104adfbc2d5e7e800d8e900dde100cae3df1bd8d9ec00bed5e8d9e200eee9fefc0106fd02fc010400bbe6e8d9e2b800e7e3e0e000ddd7dcfad8ddd7dc00d6d9e0e3dce2d9e2adfbbbe0e7e3b800fd01b800e7d5db00e1dde6f0fbc2d5e7e800d8e900e7d7dce3e200bed5e8d9e200eee900e1dde2d8d9e7e8d9e2e7fc0106fefd02fc010400cae3df1be1e3e2aebbe6e8d9e200d9e6dad5e7e7e8acff",
-    "max_pixels_with_10_glyph_buffers": 188
+    "max_pixels_with_10_glyph_buffers": 188,
+    "built_references": [
+      {
+        "site": "0x16fde9",
+        "target": "0x19e9e5",
+        "hex": "c2d5e0e0e3ab00c3d7dc00d6dde200fc0106cae6e3daad00c6e3dbe7febbe7e7dde7e8d9e2e8fc0104adfbc2d5e7e800d8e900dde100cae3df1bd8d9ec00bed5e8d9e200eee9fefc0106fd02fc010400bbe6e8d9e2b800e7e3e0e000ddd7dcfad8ddd7dc00d6d9e0e3dce2d9e2adfbbbe0e7e3b800fd01b800e7d5db00e1dde6f0fbc2d5e7e800d8e900e7d7dce3e200bed5e8d9e200eee900e1dde2d8d9e7e8d9e2e7fc0106fefd02fc010400cae3df1be1e3e2aebbe6e8d9e200d9e6dad5e7e7e8acff",
+        "decoded": "Hallo! Ich bin <0xFC><0x01><0x06>Prof. Logs\\nAssistent<0xFC><0x01><0x04>.\\pHast du im Pokédex Daten zu\\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> Arten, soll ich\\ldich belohnen.\\pAlso, <0xFD><0x01>, sag mir:\\pHast du schon Daten zu mindestens<0xFC><0x01><0x06>\\n<0xFD><0x02><0xFC><0x01><0x04> Pokémon-Arten erfasst?"
+      }
+    ]
   },
   {
     "offset": "0x1A2328",
@@ -390,7 +535,27 @@
     "reason": "Suffixe du texte 0x1A231B « Obtained the TRI-PASS! ». Matches dans graphismes (0xC70FFB, 0x125EFF8, 0x12EDDAE), pas référents de texte identifiés. Ne pas injecter un nom isolé.",
     "zone": "Données/graphiques et ancien message objet",
     "before": "TRI-PASS!",
-    "after": "TRI-PASS!"
+    "after": "TRI-PASS!",
+    "built_references": [
+      {
+        "site": "0xc70ffb",
+        "target": "0x1a2328",
+        "hex": "ceccc3aecabbcdcdabff",
+        "decoded": "TRI-PASS!"
+      },
+      {
+        "site": "0x125eff8",
+        "target": "0x1a2328",
+        "hex": "ceccc3aecabbcdcdabff",
+        "decoded": "TRI-PASS!"
+      },
+      {
+        "site": "0x12eddae",
+        "target": "0x1a2328",
+        "hex": "ceccc3aecabbcdcdabff",
+        "decoded": "TRI-PASS!"
+      }
+    ]
   },
   {
     "offset": "0x1A2D75",
@@ -413,7 +578,15 @@
     "reason": "Suffixe de 0x1A2D43 ; unique match 0x51BD6C dans données graphiques sans opcode de message.",
     "zone": "Ancien dialogue donneur de capacités",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x51bd6c",
+        "target": "0x1a2d75",
+        "hex": "dde6acff",
+        "decoded": "ir?"
+      }
+    ]
   },
   {
     "offset": "0x1A2E4E",
@@ -436,7 +609,15 @@
     "reason": "Suffixe de 0x1A2E20 ; unique match 0x4E9294 dans données graphiques sans opcode de message.",
     "zone": "Ancien dialogue donneur de capacités",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4e9294",
+        "target": "0x1a2e4e",
+        "hex": "adff",
+        "decoded": "."
+      }
+    ]
   },
   {
     "offset": "0x1A5200",
@@ -453,10 +634,18 @@
     ],
     "canonical": "he <0xFD><0x03>!",
     "decision": "besoin de patch séparé",
-    "reason": "Loadpointer 0x1A6990 réellement présent mais vise +10 dans « Obtained the {STR_VAR_2}! » début 0x1A51F6. Restaurer message/cible complet hors lot avant localisation.",
+    "reason": "Loadpointer 0x1A6990 réellement présent mais vise +10 dans « Obtained the {STR_VAR_2}! » début 0x1A51F6. Restaurer message/cible complet hors lot avant localisation. ROM DE : le script atteint seulement « n! » ; problème de pointeur confirmé, pas une omission à combler au suffixe.",
     "zone": "Script obtention objet",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x1a6990",
+        "target": "0x1a5200",
+        "hex": "e2abff",
+        "decoded": "n!"
+      }
+    ]
   },
   {
     "offset": "0x1A597B",
@@ -482,7 +671,15 @@
     "reason": "Échange Pokémon, FD02 puis FD03 et ordre des pages conservés.",
     "zone": "PNJ échange Pokémon",
     "before": "Ich suche das Pokémon\\n{STR_VAR_1}!\\pMöchtest du eins gegen mein\\n{STR_VAR_2} tauschen?",
-    "after": "Ich suche das Pokémon\\n{STR_VAR_1}!\\pMöchtest du eins gegen mein\\n{STR_VAR_2} tauschen?"
+    "after": "Ich suche das Pokémon\\n{STR_VAR_1}!\\pMöchtest du eins gegen mein\\n{STR_VAR_2} tauschen?",
+    "built_references": [
+      {
+        "site": "0x16fd73",
+        "target": "0x6dd93a",
+        "hex": "c3d7dc00e7e9d7dcd900d8d5e7fecae3df1be1e3e200fd02abfbc7f5d7dce8d9e7e800d8e900d9dde2e700dbd9dbd9e2fee1d9dde200fd0300e8d5e9e7d7dcd9e2acff",
+        "decoded": "Ich suche das\\nPokémon <0xFD><0x02>!\\pMöchtest du eins gegen\\nmein <0xFD><0x03> tauschen?"
+      }
+    ]
   },
   {
     "offset": "0x1A59E7",
@@ -510,7 +707,15 @@
     "before": "Ist er nicht toll, mein altes {STR_VAR_2}?",
     "after": "Mein altes <0xFD><0x03> ist toll!",
     "expected_hex": "c7d9dde200d5e0e8d9e700fd0300dde7e800e8e3e0e0abff",
-    "max_pixels_with_10_glyph_buffers": 177
+    "max_pixels_with_10_glyph_buffers": 173,
+    "built_references": [
+      {
+        "site": "0x16fdd0",
+        "target": "0x1a59e7",
+        "hex": "c7d9dde200d5e0e8d9e700fd0300dde7e800e8e3e0e0abff",
+        "decoded": "Mein altes <0xFD><0x03> ist toll!"
+      }
+    ]
   },
   {
     "offset": "0x1A5AD5",
@@ -534,7 +739,8 @@
     "reason": "Octet AA préfixé (« 9 » décodé), aucun référent ; vrai début à 0x1A5AD6. Ne pas corriger le faux préfixe.",
     "zone": "PNJ échange, faux début extrait",
     "before": "9Hallo!\\nHast du ein {STR_VAR_1}?\\pWillst du es gegen mein\\n{STR_VAR_2} tauschen?",
-    "after": "9Hallo!\\nHast du ein {STR_VAR_1}?\\pWillst du es gegen mein\\n{STR_VAR_2} tauschen?"
+    "after": "9Hallo!\\nHast du ein {STR_VAR_1}?\\pWillst du es gegen mein\\n{STR_VAR_2} tauschen?",
+    "built_references": []
   },
   {
     "offset": "0x1A5AD6",
@@ -556,7 +762,15 @@
     "before": null,
     "after": "Hallo!\\nHast du ein <0xFD><0x02>?\\pWillst du es gegen mein\\n<0xFD><0x03> tauschen?",
     "expected_hex": "c2d5e0e0e3abfec2d5e7e800d8e900d9dde200fd02acfbd1dde0e0e7e800d8e900d9e700dbd9dbd9e200e1d9dde2fefd0300e8d5e9e7d7dcd9e2acff",
-    "max_pixels_with_10_glyph_buffers": 133
+    "max_pixels_with_10_glyph_buffers": 133,
+    "built_references": [
+      {
+        "site": "0x16e35f",
+        "target": "0xbe2d34",
+        "hex": "c2d5e0e0e3ab00c2d5e7e800d8e9fed9dde200fd02acfbd1dde0e0e7e800d8e900d9e700dbd9dbd9e200e1d9dde2fefd0300e8d5e9e7d7dcd9e2acff",
+        "decoded": "Hallo! Hast du\\nein <0xFD><0x02>?\\pWillst du es gegen mein\\n<0xFD><0x03> tauschen?"
+      }
+    ]
   },
   {
     "offset": "0x1A5B60",
@@ -583,7 +797,21 @@
     "reason": "FD03 puis FD02 fidèles à EN ; tutoiement, question elliptique acceptable.",
     "zone": "PNJ après échange Pokémon",
     "before": "Na, mein früheres {STR_VAR_2}?\\nMeinem {STR_VAR_1} geht es super!",
-    "after": "Na, mein früheres {STR_VAR_2}?\\nMeinem {STR_VAR_1} geht es super!"
+    "after": "Na, mein früheres {STR_VAR_2}?\\nMeinem {STR_VAR_1} geht es super!",
+    "built_references": [
+      {
+        "site": "0x16e3d6",
+        "target": "0xc03e0b",
+        "hex": "c8d5b800e1d9dde200dae6f6dcd9e6d9e700fd03acfec7d9dde2d9e100fd0200dbd9dce800d9e700e7e9e4d9e6abff",
+        "decoded": "Na, mein früheres <0xFD><0x03>?\\nMeinem <0xFD><0x02> geht es super!"
+      },
+      {
+        "site": "0x7c2c4b",
+        "target": "0xc03e0b",
+        "hex": "c8d5b800e1d9dde200dae6f6dcd9e6d9e700fd03acfec7d9dde2d9e100fd0200dbd9dce800d9e700e7e9e4d9e6abff",
+        "decoded": "Na, mein früheres <0xFD><0x03>?\\nMeinem <0xFD><0x02> geht es super!"
+      }
+    ]
   },
   {
     "offset": "0x1A5BC6",
@@ -608,7 +836,15 @@
     "before": null,
     "after": "Prof. Logs PC wird aufgerufen…\\pPokédex-Bewertung wird\\naufgerufen…",
     "expected_hex": "cae6e3daad00c6e3dbe700cabd00ebdde6d800d5e9dadbd9e6e9dad9e2adadadfbcae3df1bd8d9ecaebcd9ebd9e6e8e9e2db00ebdde6d8fed5e9dadbd9e6e9dad9e2adadadff",
-    "max_pixels_with_10_glyph_buffers": 178
+    "max_pixels_with_10_glyph_buffers": 178,
+    "built_references": [
+      {
+        "site": "0x1a6a88",
+        "target": "0x8de2f2",
+        "hex": "cae6e3daad00c6e3dbe700cabd00ebdde6d800d5e9dadbd9e6e9dad9e2adadadfbcae3df1bd8d9ecaebcd9ebd9e6e8e9e2db00ebdde6d8fed5e9dadbd9e6e9dad9e2adadadff",
+        "decoded": "Prof. Logs PC wird aufgerufen...\\pPokédex-Bewertung wird\\naufgerufen..."
+      }
+    ]
   },
   {
     "offset": "0x1A6046",
@@ -636,7 +872,15 @@
     "before": "Ah, perfekt! Du und deine Pokémon\\nseht viel besser aus.\\pWenn die KP deiner Pokémon niedrig sind,\\nheile sie in einem\\p{COLOR}ÉPokémon Center{COLOR}Ç!\\nDas nächste von hier ist in\\p{COLOR}ÉBellin Town{COLOR}Ç.\\nOder kauf\\p{COLOR}ÉTränke{COLOR}Ç im\\n{COLOR}ÉPoké Mart{COLOR}Ç!\\pEs ist immer gut, sich auf das\\nSchlimmste vorzubereiten.\\pMach mich stolz, Schatz!\\pPass auf dich auf!",
     "after": "Oh, gut!\\pDu und deine Pokémon seht\\nschon viel besser aus.\\pSind die KP deiner Pokémon niedrig,\\ngeht in ein <0xFC><0x01><0x06>Pokémon Center<0xFC><0x01><0x04>!\\pDas nächste ist wohl\\nin <0xFC><0x01><0x06>Bellin Town<0xFC><0x01><0x04>.\\pOder kaufe ein paar <0xFC><0x01><0x06>Tränke<0xFC><0x01><0x04>\\nim <0xFC><0x01><0x06>Poké Mart<0xFC><0x01><0x04>!\\pEs ist immer gut, auf das\\nSchlimmste vorbereitet zu sein.\\pMach mich stolz, Schatz!\\pPass auf dich auf!",
     "expected_hex": "c9dcb800dbe9e8abfbbee900e9e2d800d8d9dde2d900cae3df1be1e3e200e7d9dce8fee7d7dce3e200eaddd9e000d6d9e7e7d9e600d5e9e7adfbcddde2d800d8ddd900c5ca00d8d9dde2d9e600cae3df1be1e3e200e2ddd9d8e6dddbb8fedbd9dce800dde200d9dde200fc0106cae3df1be1e3e200bdd9e2e8d9e6fc0104abfbbed5e700e2f4d7dce7e8d900dde7e800ebe3dce0fedde200fc0106bcd9e0e0dde200cee3ebe2fc0104adfbc9d8d9e600dfd5e9dad900d9dde200e4d5d5e600fc0106cee6f4e2dfd9fc0104fedde100fc0106cae3df1b00c7d5e6e8fc0104abfbbfe700dde7e800dde1e1d9e600dbe9e8b800d5e9da00d8d5e7fecdd7dce0dde1e1e7e8d900eae3e6d6d9e6d9dde8d9e800eee900e7d9dde2adfbc7d5d7dc00e1ddd7dc00e7e8e3e0eeb800cdd7dcd5e8eeabfbcad5e7e700d5e9da00d8ddd7dc00d5e9daabff",
-    "max_pixels_with_10_glyph_buffers": 192
+    "max_pixels_with_10_glyph_buffers": 192,
+    "built_references": [
+      {
+        "site": "0x1a8df4",
+        "target": "0x1a6046",
+        "hex": "c9dcb800dbe9e8abfbbee900e9e2d800d8d9dde2d900cae3df1be1e3e200e7d9dce800e7d7dce3e2feeaddd9e000d6d9e7e7d9e600d5e9e7adfbcddde2d800d8ddd900c5ca00d8d9dde2d9e600cae3df1be1e3e200e2ddd9d8e6dddbb8fedbd9dce800dde200d9dde200fc0106cae3df1be1e3e200bdd9e2e8d9e6fc0104abfbbed5e700e2f4d7dce7e8d900dde7e800ebe3dce000dde200fc0106bcd9e0e0dde2fecee3ebe2fc0104adfbc9d8d9e600dfd5e9dad900d9dde200e4d5d5e600fc0106cee6f4e2dfd9fc010400dde100fc0106cae3df1bfec7d5e6e8fc0104abfbbfe700dde7e800dde1e1d9e600dbe9e8b800d5e9da00d8d5e7fecdd7dce0dde1e1e7e8d900eae3e6d6d9e6d9dde8d9e800eee900e7d9dde2adfbc7d5d7dc00e1ddd7dc00e7e8e3e0eeb800cdd7dcd5e8eeabfbcad5e7e700d5e9da00d8ddd7dc00d5e9daabff",
+        "decoded": "Oh, gut!\\pDu und deine Pokémon seht schon\\nviel besser aus.\\pSind die KP deiner Pokémon niedrig,\\ngeht in ein <0xFC><0x01><0x06>Pokémon Center<0xFC><0x01><0x04>!\\pDas nächste ist wohl in <0xFC><0x01><0x06>Bellin\\nTown<0xFC><0x01><0x04>.\\pOder kaufe ein paar <0xFC><0x01><0x06>Tränke<0xFC><0x01><0x04> im <0xFC><0x01><0x06>Poké\\nMart<0xFC><0x01><0x04>!\\pEs ist immer gut, auf das\\nSchlimmste vorbereitet zu sein.\\pMach mich stolz, Schatz!\\pPass auf dich auf!"
+      }
+    ]
   },
   {
     "offset": "0x1A6447",
@@ -660,7 +904,8 @@
     "reason": "Octet AA = faux « 9 », zéro référent ; cri vivant à +1.",
     "zone": "Cri Pokémon, faux début extrait",
     "before": "9Gyaoo!",
-    "after": "9Gyaoo!"
+    "after": "9Gyaoo!",
+    "built_references": []
   },
   {
     "offset": "0x1A6448",
@@ -688,7 +933,27 @@
     "reason": "Cri « Gyaoo! », trois opcodes 67 valides, pas une phrase anglaise.",
     "zone": "Cri Pokémon",
     "before": "Gyaoo!",
-    "after": "Gyaoo!"
+    "after": "Gyaoo!",
+    "built_references": [
+      {
+        "site": "0x1637d8",
+        "target": "0x1a6448",
+        "hex": "c1edd5e3e3abff",
+        "decoded": "Gyaoo!"
+      },
+      {
+        "site": "0x163b53",
+        "target": "0x1a6448",
+        "hex": "c1edd5e3e3abff",
+        "decoded": "Gyaoo!"
+      },
+      {
+        "site": "0x788909",
+        "target": "0x1a6448",
+        "hex": "c1edd5e3e3abff",
+        "decoded": "Gyaoo!"
+      }
+    ]
   },
   {
     "offset": "0x1A6C74",
@@ -710,7 +975,15 @@
     "before": null,
     "after": "Das Wasser ist tiefblau…",
     "expected_hex": "bed5e700d1d5e7e7d9e600dde7e800e8ddd9dad6e0d5e9adadadff",
-    "max_pixels_with_10_glyph_buffers": 140
+    "max_pixels_with_10_glyph_buffers": 140,
+    "built_references": [
+      {
+        "site": "0x1a6c6c",
+        "target": "0x1a6c74",
+        "hex": "bed5e700d1d5e7e7d9e600dde7e800e8ddd9dad6e0d5e9adadadff",
+        "decoded": "Das Wasser ist tiefblau..."
+      }
+    ]
   },
   {
     "offset": "0x1A6CA3",
@@ -735,7 +1008,15 @@
     "before": null,
     "after": "Hier ist dein Fortschritt\\nbei der Arbeit am Pokédex:\\p<0xFD><0x02> Pokémon gesehen und\\n<0xFD><0x03> Pokémon gefangen.\\p<0xFC><0x06><0x02>Prof. Logs Bewertung:",
     "expected_hex": "c2ddd9e600dde7e800d8d9dde200c0e3e6e8e7d7dce6dde8e8fed6d9dd00d8d9e600bbe6d6d9dde800d5e100cae3df1bd8d9ecf0fbfd0200cae3df1be1e3e200dbd9e7d9dcd9e200e9e2d8fefd0300cae3df1be1e3e200dbd9dad5e2dbd9e2adfbfc0602cae6e3daad00c6e3dbe700bcd9ebd9e6e8e9e2dbf0ff",
-    "max_pixels_with_10_glyph_buffers": 175
+    "max_pixels_with_10_glyph_buffers": 175,
+    "built_references": [
+      {
+        "site": "0x1a740e",
+        "target": "0x6c4eb8",
+        "hex": "c2ddd9e600dde7e800d8d9dde200c0e3e6e8e7d7dce6dde8e800d6d9dd00d8d9e6febbe6d6d9dde800d5e100cae3df1bd8d9ecf0fbfd0200cae3df1be1e3e200dbd9e7d9dcd9e200e9e2d8fefd0300cae3df1be1e3e200dbd9dad5e2dbd9e2adfbfc0602cae6e3daad00c6e3dbe700bcd9ebd9e6e8e9e2dbf0ff",
+        "decoded": "Hier ist dein Fortschritt bei der\\nArbeit am Pokédex:\\p<0xFD><0x02> Pokémon gesehen und\\n<0xFD><0x03> Pokémon gefangen.\\p<0xFC><0x06><0x02>Prof. Logs Bewertung:"
+      }
+    ]
   },
   {
     "offset": "0x1A71AA",
@@ -761,7 +1042,15 @@
     "reason": "FD02 puis FD03, page conservée ; « besessen » compréhensible pour owned même si gefangen serait plus idiomatique.",
     "zone": "PC, Pokédex national",
     "before": "Und dein Nationaler Pokédex zeigt:\\p{STR_VAR_1} Pokémon gesehen und\\n{STR_VAR_2} Pokémon besessen.",
-    "after": "Und dein Nationaler Pokédex zeigt:\\p{STR_VAR_1} Pokémon gesehen und\\n{STR_VAR_2} Pokémon besessen."
+    "after": "Und dein Nationaler Pokédex zeigt:\\p{STR_VAR_1} Pokémon gesehen und\\n{STR_VAR_2} Pokémon besessen.",
+    "built_references": [
+      {
+        "site": "0x1a744b",
+        "target": "0x917991",
+        "hex": "cfe2d800d8d9dde200c8d5e8dde3e2d5e0d9e600cae3df1bd8d9ec00eed9dddbe8f0fbfd0200cae3df1be1e3e200dbd9e7d9dcd9e200e9e2d8fefd0300cae3df1be1e3e200d6d9e7d9e7e7d9e2adff",
+        "decoded": "Und dein Nationaler Pokédex zeigt:\\p<0xFD><0x02> Pokémon gesehen und\\n<0xFD><0x03> Pokémon besessen."
+      }
+    ]
   },
   {
     "offset": "0x1B1D7D",
@@ -783,7 +1072,15 @@
     "before": null,
     "after": "Ein Pokémon-Drucker!\\pEr druckt dein Pokémon auf\\ndie Rückseite des Trainerpasses.\\pEs kostet nur ¥50.\\nWillst du es ausprobieren?",
     "expected_hex": "bfdde200cae3df1be1e3e2aebee6e9d7dfd9e6abfbbfe600d8e6e9d7dfe800d8d9dde200cae3df1be1e3e200d5e9dafed8ddd900ccf6d7dfe7d9dde8d900d8d9e700cee6d5dde2d9e6e4d5e7e7d9e7adfbbfe700dfe3e7e8d9e800e2e9e600b7a6a1adfed1dde0e0e7e800d8e900d9e700d5e9e7e4e6e3d6ddd9e6d9e2acff",
-    "max_pixels_with_10_glyph_buffers": 175
+    "max_pixels_with_10_glyph_buffers": 175,
+    "built_references": [
+      {
+        "site": "0x1b286e",
+        "target": "0x1b1d7d",
+        "hex": "bfdde200cae3df1be1e3e2aebee6e9d7dfd9e6abfbbfe600d8e6e9d7dfe800d8d9dde200cae3df1be1e3e200d5e9da00d8ddd9feccf6d7dfe7d9dde8d900d8d9e700cee6d5dde2d9e6e4d5e7e7d9e7adfbbfe700dfe3e7e8d9e800e2e9e600b7a6a1ad00d1dde0e0e7e800d8e900d9e7fed5e9e7e4e6e3d6ddd9e6d9e2acff",
+        "decoded": "Ein Pokémon-Drucker!\\pEr druckt dein Pokémon auf die\\nRückseite des Trainerpasses.\\pEs kostet nur ¥50. Willst du es\\nausprobieren?"
+      }
+    ]
   },
   {
     "offset": "0x1BDBF8",
@@ -811,7 +1108,15 @@
     "before": "Ich erkläre kurz den Pokémon-Funk-Club.\\pHier oben gibt es zwei Räume.\\pLinks liegt der Unions-Raum.\\pDort verbindet ihr euch mit Trainern in der Nähe, die ebenfalls dort sind.\\pMit ihnen könnt ihr reden, kämpfen und tauschen.\\pRechts liegt die Direkt-Ecke.\\pDort tauscht oder kämpft ihr mit Pokémon eurer Freunde.\\pFindet ihr eure Freunde in keinem der Räume, geht näher an sie heran.\\pOhne Funkadapter geht's per GBA-Link-Kabel - dann aber nur in der Direkt-Ecke.\\pViel Spaß mit dem kabellosen Kommunikationssystem!",
     "after": "Ich erkläre euch, wie der\\nPokémon-Funk-Club funktioniert.\\pHier im obersten Stockwerk\\ngibt es zwei Räume.\\pDer Raum auf der linken Seite\\nheißt Unions-Raum.\\pDort trefft ihr Trainer\\naus eurer Nähe, die auch\\lim Unions-Raum sind.\\pMit ihnen könnt ihr reden,\\nkämpfen und tauschen.\\pDer Raum auf der rechten Seite\\nheißt Direkt-Ecke.\\pDort könnt ihr mit Freunden\\nPokémon tauschen oder kämpfen.\\pFindet ihr eure Freunde weder\\nim Unions-Raum\\lnoch in der Direkt-Ecke?\\pDann geht bitte näher\\nan eure Freunde heran.\\pOhne Funkadapter könnt ihr\\neuch auch über ein\\lGBA Game Link-Kabel verbinden.\\pGeht in diesem Fall\\nin die Direkt-Ecke.\\pViel Spaß mit der\\nkabellosen Verbindung!",
     "expected_hex": "c3d7dc00d9e6dfe0f4e6d900d9e9d7dcb800ebddd900d8d9e6fecae3df1be1e3e2aec0e9e2dfaebde0e9d600dae9e2dfe8dde3e2ddd9e6e8adfbc2ddd9e600dde100e3d6d9e6e7e8d9e200cde8e3d7dfebd9e6dffedbddd6e800d9e700eeebd9dd00ccf4e9e1d9adfbbed9e600ccd5e9e100d5e9da00d8d9e600e0dde2dfd9e200cdd9dde8d9fedcd9dd15e800cfe2dde3e2e7aeccd5e9e1adfbbee3e6e800e8e6d9dadae800dddce600cee6d5dde2d9e6fed5e9e700d9e9e6d9e600c8f4dcd9b800d8ddd900d5e9d7dcfadde100cfe2dde3e2e7aeccd5e9e100e7dde2d8adfbc7dde800dddce2d9e200dff5e2e2e800dddce600e6d9d8d9e2b8fedff4e1e4dad9e200e9e2d800e8d5e9e7d7dcd9e2adfbbed9e600ccd5e9e100d5e9da00d8d9e600e6d9d7dce8d9e200cdd9dde8d9fedcd9dd15e800bedde6d9dfe8aebfd7dfd9adfbbee3e6e800dff5e2e2e800dddce600e1dde800c0e6d9e9e2d8d9e2fecae3df1be1e3e200e8d5e9e7d7dcd9e200e3d8d9e600dff4e1e4dad9e2adfbc0dde2d8d9e800dddce600d9e9e6d900c0e6d9e9e2d8d900ebd9d8d9e6fedde100cfe2dde3e2e7aeccd5e9e1fae2e3d7dc00dde200d8d9e600bedde6d9dfe8aebfd7dfd9acfbbed5e2e200dbd9dce800d6dde8e8d900e2f4dcd9e6fed5e200d9e9e6d900c0e6d9e9e2d8d900dcd9e6d5e2adfbc9dce2d900c0e9e2dfd5d8d5e4e8d9e600dff5e2e2e800dddce6fed9e9d7dc00d5e9d7dc00f6d6d9e600d9dde2fac1bcbb00c1d5e1d900c6dde2dfaec5d5d6d9e000ead9e6d6dde2d8d9e2adfbc1d9dce800dde200d8ddd9e7d9e100c0d5e0e0fedde200d8ddd900bedde6d9dfe8aebfd7dfd9adfbd0ddd9e000cde4d51500e1dde800d8d9e6fedfd5d6d9e0e0e3e7d9e200d0d9e6d6dde2d8e9e2dbabff",
-    "max_pixels_with_10_glyph_buffers": 170
+    "max_pixels_with_10_glyph_buffers": 171,
+    "built_references": [
+      {
+        "site": "0x1bbb8a",
+        "target": "0x1bdbf8",
+        "hex": "c3d7dc00d9e6dfe0f4e6d900d9e9d7dcb800ebddd900d8d9e6fecae3df1be1e3e2aec0e9e2dfaebde0e9d600dae9e2dfe8dde3e2ddd9e6e8adfbc2ddd9e600dde100e3d6d9e6e7e8d9e200cde8e3d7dfebd9e6df00dbddd6e800d9e7feeeebd9dd00ccf4e9e1d9adfbbed9e600ccd5e9e100d5e9da00d8d9e600e0dde2dfd9e200cdd9dde8d9fedcd9dd15e800cfe2dde3e2e7aeccd5e9e1adfbbee3e6e800e8e6d9dadae800dddce600cee6d5dde2d9e600d5e9e700d9e9e6d9e6fec8f4dcd9b800d8ddd900d5e9d7dc00dde100cfe2dde3e2e7aeccd5e9e1fae7dde2d8adfbc7dde800dddce2d9e200dff5e2e2e800dddce600e6d9d8d9e2b800dff4e1e4dad9e2fee9e2d800e8d5e9e7d7dcd9e2adfbbed9e600ccd5e9e100d5e9da00d8d9e600e6d9d7dce8d9e200cdd9dde8d9fedcd9dd15e800bedde6d9dfe8aebfd7dfd9adfbbee3e6e800dff5e2e2e800dddce600e1dde800c0e6d9e9e2d8d9e2fecae3df1be1e3e200e8d5e9e7d7dcd9e200e3d8d9e600dff4e1e4dad9e2adfbc0dde2d8d9e800dddce600d9e9e6d900c0e6d9e9e2d8d900ebd9d8d9e600dde1fecfe2dde3e2e7aeccd5e9e100e2e3d7dc00dde200d8d9e6fabedde6d9dfe8aebfd7dfd9acfbbed5e2e200dbd9dce800d6dde8e8d900e2f4dcd9e600d5e200d9e9e6d9fec0e6d9e9e2d8d900dcd9e6d5e2adfbc9dce2d900c0e9e2dfd5d8d5e4e8d9e600dff5e2e2e800dddce600d9e9d7dcfed5e9d7dc00f6d6d9e600d9dde200c1bcbb00c1d5e1d900c6dde2dfaec5d5d6d9e0faead9e6d6dde2d8d9e2adfbc1d9dce800dde200d8ddd9e7d9e100c0d5e0e000dde200d8ddd9febedde6d9dfe8aebfd7dfd9adfbd0ddd9e000cde4d51500e1dde800d8d9e600dfd5d6d9e0e0e3e7d9e2fed0d9e6d6dde2d8e9e2dbabff",
+        "decoded": "Ich erkläre euch, wie der\\nPokémon-Funk-Club funktioniert.\\pHier im obersten Stockwerk gibt es\\nzwei Räume.\\pDer Raum auf der linken Seite\\nheißt Unions-Raum.\\pDort trefft ihr Trainer aus eurer\\nNähe, die auch im Unions-Raum\\lsind.\\pMit ihnen könnt ihr reden, kämpfen\\nund tauschen.\\pDer Raum auf der rechten Seite\\nheißt Direkt-Ecke.\\pDort könnt ihr mit Freunden\\nPokémon tauschen oder kämpfen.\\pFindet ihr eure Freunde weder im\\nUnions-Raum noch in der\\lDirekt-Ecke?\\pDann geht bitte näher an eure\\nFreunde heran.\\pOhne Funkadapter könnt ihr euch\\nauch über ein GBA Game Link-Kabel\\lverbinden.\\pGeht in diesem Fall in die\\nDirekt-Ecke.\\pViel Spaß mit der kabellosen\\nVerbindung!"
+      }
+    ]
   },
   {
     "offset": "0x1BDF08",
@@ -834,7 +1139,15 @@
     "reason": "Suffixe de 0x1BDEDF. Match 0x1BDF64 chevauche les octets d’instructions/pointeurs adjacents (…08 DF 1B 08…), pas un opérande loadpointer.",
     "zone": "Club sans fil, faux suffixe",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x1bdf64",
+        "target": "0x1bdf08",
+        "hex": "e3e200cdede7e8d9e1adff",
+        "decoded": "on System."
+      }
+    ]
   },
   {
     "offset": "0x1BE19A",
@@ -856,7 +1169,15 @@
     "before": null,
     "after": "Ein großer Fels. Ein Pokémon\\nkönnte ihn zur Seite schieben.\\pMöchtest du Stärke einsetzen?",
     "expected_hex": "bfdde200dbe6e315d9e600c0d9e0e7ad00bfdde200cae3df1be1e3e2fedff5e2e2e8d900dddce200eee9e600cdd9dde8d900e7d7dcddd9d6d9e2adfbc7f5d7dce8d9e7e800d8e900cde8f4e6dfd900d9dde2e7d9e8eed9e2acff",
-    "max_pixels_with_10_glyph_buffers": 164
+    "max_pixels_with_10_glyph_buffers": 164,
+    "built_references": [
+      {
+        "site": "0x1be14d",
+        "target": "0x1be19a",
+        "hex": "bfdde200dbe6e315d9e600c0d9e0e7ad00bfdde200cae3df1be1e3e2fedff5e2e2e8d900dddce200eee9e600cdd9dde8d900e7d7dcddd9d6d9e2adfbc7f5d7dce8d9e7e800d8e900cde8f4e6dfd900d9dde2e7d9e8eed9e2acff",
+        "decoded": "Ein großer Fels. Ein Pokémon\\nkönnte ihn zur Seite schieben.\\pMöchtest du Stärke einsetzen?"
+      }
+    ]
   },
   {
     "offset": "0x1BE42B",
@@ -878,7 +1199,15 @@
     "before": null,
     "after": "Das Meer ist hier tief. Ein\\nPokémon könnte hier tauchen.",
     "expected_hex": "bed5e700c7d9d9e600dde7e800dcddd9e600e8ddd9daad00bfdde2fecae3df1be1e3e200dff5e2e2e8d900dcddd9e600e8d5e9d7dcd9e2adff",
-    "max_pixels_with_10_glyph_buffers": 156
+    "max_pixels_with_10_glyph_buffers": 156,
+    "built_references": [
+      {
+        "site": "0x1be3cc",
+        "target": "0x1be42b",
+        "hex": "bed5e700c7d9d9e600dde7e800dcddd9e600e8ddd9daad00bfdde2fecae3df1be1e3e200dff5e2e2e8d900dcddd9e600e8d5e9d7dcd9e2adff",
+        "decoded": "Das Meer ist hier tief. Ein\\nPokémon könnte hier tauchen."
+      }
+    ]
   },
   {
     "offset": "0x1BEF88",
@@ -900,7 +1229,15 @@
     "before": null,
     "after": "Hallo, schön, dich kennenzulernen!\\p...Das ist aber unfreundlich.\\nSag doch auch mal Hallo!\\pNa komm, erzähl mir\\netwas über dich.\\pIch würde gern dein Profil hören!",
     "expected_hex": "c2d5e0e0e3b800e7d7dcf5e2b800d8ddd7dc00dfd9e2e2d9e2eee9e0d9e6e2d9e2abfbadadadbed5e700dde7e800d5d6d9e600e9e2dae6d9e9e2d8e0ddd7dcadfecdd5db00d8e3d7dc00d5e9d7dc00e1d5e000c2d5e0e0e3abfbc8d500dfe3e1e1b800d9e6eef4dce000e1dde6fed9e8ebd5e700f6d6d9e600d8ddd7dcadfbc3d7dc00ebf6e6d8d900dbd9e6e200d8d9dde200cae6e3dadde000dcf5e6d9e2abff",
-    "max_pixels_with_10_glyph_buffers": 188
+    "max_pixels_with_10_glyph_buffers": 188,
+    "built_references": [
+      {
+        "site": "0x1bee2e",
+        "target": "0x1a09f8",
+        "hex": "c2d5e0e0e3b800e7d7dcf5e2b800d8ddd7dc00dfd9e2e2d9e2eee9e0d9e6e2d9e2abfbadadadbed5e700dde7e800d5d6d9e600e9e2dae6d9e9e2d8e0ddd7dcad00cdd5dbfed8e3d7dc00d5e9d7dc00e1d5e000c2d5e0e0e3abfbc8d500dfe3e1e1b800d9e6eef4dce000e1dde600d9e8ebd5e700f6d6d9e6fed8ddd7dcadfbc3d7dc00ebf6e6d8d900dbd9e6e200d8d9dde200cae6e3dadde000dcf5e6d9e2abff",
+        "decoded": "Hallo, schön, dich kennenzulernen!\\p...Das ist aber unfreundlich. Sag\\ndoch auch mal Hallo!\\pNa komm, erzähl mir etwas über\\ndich.\\pIch würde gern dein Profil hören!"
+      }
+    ]
   },
   {
     "offset": "0x1BF555",
@@ -922,7 +1259,15 @@
     "before": null,
     "after": "Ich bin der Pensionsleiter.\\pIch helfe dabei, die wertvollen\\nPokémon der Trainer zu betreuen.\\pSoll ich deine Pokémon aufziehen,\\nsprich mit meiner Frau.",
     "expected_hex": "c3d7dc00d6dde200d8d9e600cad9e2e7dde3e2e7e0d9dde8d9e6adfbc3d7dc00dcd9e0dad900d8d5d6d9ddb800d8ddd900ebd9e6e8eae3e0e0d9e2fecae3df1be1e3e200d8d9e600cee6d5dde2d9e600eee900d6d9e8e6d9e9d9e2adfbcde3e0e000ddd7dc00d8d9dde2d900cae3df1be1e3e200d5e9daeeddd9dcd9e2b8fee7e4e6ddd7dc00e1dde800e1d9dde2d9e600c0e6d5e9adff",
-    "max_pixels_with_10_glyph_buffers": 184
+    "max_pixels_with_10_glyph_buffers": 184,
+    "built_references": [
+      {
+        "site": "0x167d82",
+        "target": "0xb4d567",
+        "hex": "c3d7dc00d6dde200d8d9e600cad9e2e7dde3e2e7e0d9dde8d9e6adfbc3d7dc00dcd9e0dad900d8d5d6d9ddb800d8ddd900ebd9e6e8eae3e0e0d9e2fecae3df1be1e3e200d8d9e600cee6d5dde2d9e600eee900d6d9e8e6d9e9d9e2adfbcde3e0e000ddd7dc00d8d9dde2d900cae3df1be1e3e200d5e9daeeddd9dcd9e2b8fee7e4e6ddd7dc00e1dde800e1d9dde2d9e600c0e6d5e9adff",
+        "decoded": "Ich bin der Pensionsleiter.\\pIch helfe dabei, die wertvollen\\nPokémon der Trainer zu betreuen.\\pSoll ich deine Pokémon aufziehen,\\nsprich mit meiner Frau."
+      }
+    ]
   },
   {
     "offset": "0x1BF860",
@@ -948,7 +1293,15 @@
     "reason": "FD02 et FB conservés ; pension, tutoiement cohérent.",
     "zone": "Pension Pokémon",
     "before": "Okay, wir ziehen dein\\n{STR_VAR_1} eine Weile auf.\\pKomm später zurück, um es abzuholen.",
-    "after": "Okay, wir ziehen dein\\n{STR_VAR_1} eine Weile auf.\\pKomm später zurück, um es abzuholen."
+    "after": "Okay, wir ziehen dein\\n{STR_VAR_1} eine Weile auf.\\pKomm später zurück, um es abzuholen.",
+    "built_references": [
+      {
+        "site": "0x1719d9",
+        "target": "0x1699ad",
+        "hex": "c9dfd5edb800ebdde600eeddd9dcd9e200d8d9dde2fefd0200d9dde2d900d1d9dde0d900d5e9daadfbc5e3e1e100e7e4f4e8d9e600eee9e6f6d7dfb800e9e100d9e7fed5d6eee9dce3e0d9e2adff",
+        "decoded": "Okay, wir ziehen dein\\n<0xFD><0x02> eine Weile auf.\\pKomm später zurück, um es\\nabzuholen."
+      }
+    ]
   },
   {
     "offset": "0x1BFA3B",
@@ -974,7 +1327,15 @@
     "reason": "FD02 puis FD03 et symbole monétaire conservés ; longueur à contrôler après rewrap pipeline.",
     "zone": "Pension Pokémon, prix retrait",
     "before": "Wenn du dein {STR_VAR_1} abholen möchtest,\\nkostet das ¥{STR_VAR_2}.",
-    "after": "Wenn du dein {STR_VAR_1} abholen möchtest,\\nkostet das ¥{STR_VAR_2}."
+    "after": "Wenn du dein {STR_VAR_1} abholen möchtest,\\nkostet das ¥{STR_VAR_2}.",
+    "built_references": [
+      {
+        "site": "0x171ad4",
+        "target": "0x1933c3",
+        "hex": "d1d9e2e200d8e900d8d9dde200fd0200d5d6dce3e0d9e2fee1f5d7dce8d9e7e8b800dfe3e7e8d9e800d8d5e700b7fd03adff",
+        "decoded": "Wenn du dein <0xFD><0x02> abholen\\nmöchtest, kostet das ¥<0xFD><0x03>."
+      }
+    ]
   },
   {
     "offset": "0x1BFB5A",
@@ -996,7 +1357,15 @@
     "before": null,
     "after": "Hm?",
     "expected_hex": "c2e1acff",
-    "max_pixels_with_10_glyph_buffers": 18
+    "max_pixels_with_10_glyph_buffers": 18,
+    "built_references": [
+      {
+        "site": "0x1bf549",
+        "target": "0x1bfb5a",
+        "hex": "c2e1acff",
+        "decoded": "Hm?"
+      }
+    ]
   },
   {
     "offset": "0x1C5758",
@@ -1021,7 +1390,27 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x130348",
+        "target": "0x1c5758",
+        "hex": "c1ccbfbfc8ff",
+        "decoded": "GREEN"
+      },
+      {
+        "site": "0x130388",
+        "target": "0x1c5758",
+        "hex": "c1ccbfbfc8ff",
+        "decoded": "GREEN"
+      },
+      {
+        "site": "0x463124",
+        "target": "0x1c5758",
+        "hex": "c1ccbfbfc8ff",
+        "decoded": "GREEN"
+      }
+    ]
   },
   {
     "offset": "0x1C575E",
@@ -1045,7 +1434,21 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x46308c",
+        "target": "0x1c575e",
+        "hex": "cdd5e1ff",
+        "decoded": "Sam"
+      },
+      {
+        "site": "0x4630d8",
+        "target": "0x1c575e",
+        "hex": "cdd5e1ff",
+        "decoded": "Sam"
+      }
+    ]
   },
   {
     "offset": "0x1C5762",
@@ -1066,7 +1469,8 @@
     "reason": "Ancien nom de la table de sélection, aucun pointeur ; ne pas réintroduire une cellule inutilisée.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1C5767",
@@ -1090,7 +1494,21 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463090",
+        "target": "0x1c5767",
+        "hex": "c2e3e3e4ff",
+        "decoded": "Hoop"
+      },
+      {
+        "site": "0x4630dc",
+        "target": "0x1c5767",
+        "hex": "c2e3e3e4ff",
+        "decoded": "Hoop"
+      }
+    ]
   },
   {
     "offset": "0x1C576C",
@@ -1113,7 +1531,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463128",
+        "target": "0x1c576c",
+        "hex": "c1bbccd3ff",
+        "decoded": "GARY"
+      }
+    ]
   },
   {
     "offset": "0x1C5771",
@@ -1136,7 +1562,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x46312c",
+        "target": "0x1c5771",
+        "hex": "c5bbd4ff",
+        "decoded": "KAZ"
+      }
+    ]
   },
   {
     "offset": "0x1C5775",
@@ -1159,7 +1593,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463130",
+        "target": "0x1c5775",
+        "hex": "cec9cccfff",
+        "decoded": "TORU"
+      }
+    ]
   },
   {
     "offset": "0x1C577E",
@@ -1182,7 +1624,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463098",
+        "target": "0x1c577e",
+        "hex": "bce6d5d8ff",
+        "decoded": "Brad"
+      }
+    ]
   },
   {
     "offset": "0x1C5783",
@@ -1205,7 +1655,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x46309c",
+        "target": "0x1c5783",
+        "hex": "c4e3dce2ff",
+        "decoded": "John"
+      }
+    ]
   },
   {
     "offset": "0x1C578C",
@@ -1228,7 +1686,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630a4",
+        "target": "0x1c578c",
+        "hex": "c4d5e1d9e7ff",
+        "decoded": "James"
+      }
+    ]
   },
   {
     "offset": "0x1C5792",
@@ -1249,7 +1715,8 @@
     "reason": "Ancien nom de la table de sélection, aucun pointeur ; ne pas réintroduire une cellule inutilisée.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1C5797",
@@ -1272,7 +1739,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630ac",
+        "target": "0x1c5797",
+        "hex": "bdd5e6e0ff",
+        "decoded": "Carl"
+      }
+    ]
   },
   {
     "offset": "0x1C579D",
@@ -1293,7 +1768,8 @@
     "reason": "Ancien nom de la table de sélection, aucun pointeur ; ne pas réintroduire une cellule inutilisée.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1C57A2",
@@ -1316,7 +1792,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630b4",
+        "target": "0x1c57a2",
+        "hex": "ced5ede0e3e6ff",
+        "decoded": "Taylor"
+      }
+    ]
   },
   {
     "offset": "0x1C57A9",
@@ -1339,7 +1823,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630b8",
+        "target": "0x1c57a9",
+        "hex": "ccd5e4e0dcff",
+        "decoded": "Raplh"
+      }
+    ]
   },
   {
     "offset": "0x1C57AF",
@@ -1362,7 +1854,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630bc",
+        "target": "0x1c57af",
+        "hex": "d4d9dfd9ff",
+        "decoded": "Zeke"
+      }
+    ]
   },
   {
     "offset": "0x1C57BC",
@@ -1385,7 +1885,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630c8",
+        "target": "0x1c57bc",
+        "hex": "c4e3e2d5dcff",
+        "decoded": "Jonah"
+      }
+    ]
   },
   {
     "offset": "0x1C57C6",
@@ -1406,7 +1914,8 @@
     "reason": "Ancien nom de la table de sélection, aucun pointeur ; ne pas réintroduire une cellule inutilisée.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1C57CB",
@@ -1427,7 +1936,8 @@
     "reason": "Ancien nom de la table de sélection, aucun pointeur ; ne pas réintroduire une cellule inutilisée.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1C57D4",
@@ -1450,7 +1960,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630e4",
+        "target": "0x1c57d4",
+        "hex": "c4c9bec3ff",
+        "decoded": "JODI"
+      }
+    ]
   },
   {
     "offset": "0x1C57D9",
@@ -1473,7 +1991,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630e8",
+        "target": "0x1c57d9",
+        "hex": "bbc7bbc8bebbff",
+        "decoded": "AMANDA"
+      }
+    ]
   },
   {
     "offset": "0x1C57E0",
@@ -1496,7 +2022,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630ec",
+        "target": "0x1c57e0",
+        "hex": "c2c3c6c6bbccd3ff",
+        "decoded": "HILLARY"
+      }
+    ]
   },
   {
     "offset": "0x1C57E8",
@@ -1519,7 +2053,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630f0",
+        "target": "0x1c57e8",
+        "hex": "c7bbc5bfd3ff",
+        "decoded": "MAKEY"
+      }
+    ]
   },
   {
     "offset": "0x1C57EE",
@@ -1542,7 +2084,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630f4",
+        "target": "0x1c57ee",
+        "hex": "c7c3bdc2c3ff",
+        "decoded": "MICHI"
+      }
+    ]
   },
   {
     "offset": "0x1C57F4",
@@ -1565,7 +2115,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630f8",
+        "target": "0x1c57f4",
+        "hex": "cabbcfc6bbff",
+        "decoded": "PAULA"
+      }
+    ]
   },
   {
     "offset": "0x1C57FA",
@@ -1588,7 +2146,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x4630fc",
+        "target": "0x1c57fa",
+        "hex": "c4cfc8bfff",
+        "decoded": "JUNE"
+      }
+    ]
   },
   {
     "offset": "0x1C57FF",
@@ -1611,7 +2177,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463100",
+        "target": "0x1c57ff",
+        "hex": "bdbbcdcdc3bfff",
+        "decoded": "CASSIE"
+      }
+    ]
   },
   {
     "offset": "0x1C580A",
@@ -1634,7 +2208,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463108",
+        "target": "0x1c580a",
+        "hex": "cdbfbebbff",
+        "decoded": "SEDA"
+      }
+    ]
   },
   {
     "offset": "0x1C580F",
@@ -1657,7 +2239,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x46310c",
+        "target": "0x1c580f",
+        "hex": "c5c3c5c9ff",
+        "decoded": "KIKO"
+      }
+    ]
   },
   {
     "offset": "0x1C5814",
@@ -1680,7 +2270,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463110",
+        "target": "0x1c5814",
+        "hex": "c7c3c8bbff",
+        "decoded": "MINA"
+      }
+    ]
   },
   {
     "offset": "0x1C5819",
@@ -1703,7 +2301,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463114",
+        "target": "0x1c5819",
+        "hex": "c8c9ccc3bfff",
+        "decoded": "NORIE"
+      }
+    ]
   },
   {
     "offset": "0x1C5823",
@@ -1726,7 +2332,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x46311c",
+        "target": "0x1c5823",
+        "hex": "c7c9c7c9ff",
+        "decoded": "MOMO"
+      }
+    ]
   },
   {
     "offset": "0x1C5828",
@@ -1749,7 +2363,15 @@
     "reason": "Nom proposé dans la table de choix du nom ; graphie EN volontaire, aucune traduction.",
     "zone": "Écran choix du nom",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x463120",
+        "target": "0x1c5828",
+        "hex": "cdcfd4c3ff",
+        "decoded": "SUZI"
+      }
+    ]
   },
   {
     "offset": "0x1EAF1A",
@@ -1770,7 +2392,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EAF3A",
@@ -1791,7 +2414,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EB1C6",
@@ -1812,7 +2436,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EB1E6",
@@ -1833,7 +2458,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EB246",
@@ -1854,7 +2480,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EB266",
@@ -1875,7 +2502,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EB346",
@@ -1896,7 +2524,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EB366",
@@ -1917,7 +2546,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EB3C6",
@@ -1938,7 +2568,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x1EB3E6",
@@ -1959,7 +2590,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x208B85",
@@ -1980,7 +2612,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x2094E4",
@@ -2001,7 +2634,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x209D0A",
@@ -2022,7 +2656,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x209DEB",
@@ -2043,7 +2678,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x20A062",
@@ -2064,7 +2700,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x2101A0",
@@ -2085,7 +2722,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x213720",
@@ -2106,7 +2744,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x2197FC",
@@ -2127,7 +2766,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x21A05A",
@@ -2148,7 +2788,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x21A0E1",
@@ -2169,7 +2810,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x21A101",
@@ -2190,7 +2832,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x2204B8",
@@ -2211,7 +2854,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x223A38",
@@ -2232,7 +2876,8 @@
     "reason": "Données de tuiles/polices décodées artificiellement en caractères ; aucun pointeur de texte. Ne pas copier le faux positif FR.",
     "zone": "Graphismes ROM",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x237321",
@@ -2258,7 +2903,15 @@
     "reason": "Nugget est aussi le nom officiel DE (item_names.py) ; référent valide.",
     "zone": "Objet Nugget",
     "before": "Nugget",
-    "after": "Nugget"
+    "after": "Nugget",
+    "built_references": [
+      {
+        "site": "0x2372d8",
+        "target": "0x237321",
+        "hex": "c8e9dbdbd9e8ff",
+        "decoded": "Nugget"
+      }
+    ]
   },
   {
     "offset": "0x23E572",
@@ -2276,7 +2929,8 @@
     "reason": "Début binaire incluant préfixe avant « Leader », zéro référent ; table structurée voisine à ne pas injecter par extracteur texte.",
     "zone": "Table classes Dresseur / faux début",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E57F",
@@ -2300,7 +2954,8 @@
     "reason": "« Agent » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Agent",
-    "after": "Agent"
+    "after": "Agent",
+    "built_references": []
   },
   {
     "offset": "0x23E5C0",
@@ -2324,7 +2979,8 @@
     "reason": "« Idol » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Idol",
-    "after": "Idol"
+    "after": "Idol",
+    "built_references": []
   },
   {
     "offset": "0x23E610",
@@ -2342,7 +2998,8 @@
     "reason": "Cellule CFRU à 0x23E60E : ses quatre premiers octets pointent vers 0x1FAE6F4 (Terror Granbull). Cet offset est dans le pointeur ou son ancien suffixe, pas le texte vivant ; aucune écriture.",
     "zone": "Table des classes de Dresseurs, cellule indirecte",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E678",
@@ -2360,7 +3017,8 @@
     "reason": "Cellule CFRU à 0x23E676 : ses quatre premiers octets pointent vers 0x1FA1EE4 (Black Ferrothorn). Cet offset est dans le pointeur ou son ancien suffixe, pas le texte vivant ; aucune écriture.",
     "zone": "Table des classes de Dresseurs, cellule indirecte",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E6AC",
@@ -2378,7 +3036,8 @@
     "reason": "Cellule CFRU à 0x23E6AA : ses quatre premiers octets pointent vers 0x1FA1EF5 (Black Ferrothorn Boss). Cet offset est dans le pointeur ou son ancien suffixe, pas le texte vivant ; aucune écriture.",
     "zone": "Table des classes de Dresseurs, cellule indirecte",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E6B7",
@@ -2402,7 +3061,8 @@
     "reason": "« Pokéfan » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Pokéfan",
-    "after": "Pokéfan"
+    "after": "Pokéfan",
+    "built_references": []
   },
   {
     "offset": "0x23E6E1",
@@ -2420,7 +3080,8 @@
     "reason": "Cellule CFRU à 0x23E6DE : ses quatre premiers octets pointent vers 0x1F949EC (Frontier Brain). Cet offset est dans le pointeur ou son ancien suffixe, pas le texte vivant ; aucune écriture.",
     "zone": "Table des classes de Dresseurs, cellule indirecte",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E6EC",
@@ -2438,7 +3099,8 @@
     "reason": "Cellule CFRU à 0x23E6EB : ses quatre premiers octets pointent vers 0x1FACB8D (Science Society). Cet offset est dans le pointeur ou son ancien suffixe, pas le texte vivant ; aucune écriture.",
     "zone": "Table des classes de Dresseurs, cellule indirecte",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E6F8",
@@ -2462,7 +3124,8 @@
     "reason": "« Jogger » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Jogger",
-    "after": "Jogger"
+    "after": "Jogger",
+    "built_references": []
   },
   {
     "offset": "0x23E746",
@@ -2483,7 +3146,8 @@
     "reason": "Nom propre de faction : cellule fixe de 13 octets (Black Horizon sous forme contrainte / Black Emboar), conservée par trainer_class_names. Aucun contrôle perdu.",
     "zone": "Classes/factions de Dresseurs",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E763",
@@ -2501,7 +3165,8 @@
     "reason": "Cellule CFRU à 0x23E760 : ses quatre premiers octets pointent vers 0x1EEA039 (Sinnoh Leader). Cet offset est dans le pointeur ou son ancien suffixe, pas le texte vivant ; aucune écriture.",
     "zone": "Table des classes de Dresseurs, cellule indirecte",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E7A1",
@@ -2522,7 +3187,8 @@
     "reason": "Nom propre de faction : cellule fixe de 13 octets (Black Horizon sous forme contrainte / Black Emboar), conservée par trainer_class_names. Aucun contrôle perdu.",
     "zone": "Classes/factions de Dresseurs",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E7AF",
@@ -2540,7 +3206,8 @@
     "reason": "Cellule CFRU à 0x23E7AE : ses quatre premiers octets pointent vers 0x1F2CB68 (Light of Ruin Admin). Cet offset est dans le pointeur ou son ancien suffixe, pas le texte vivant ; aucune écriture.",
     "zone": "Table des classes de Dresseurs, cellule indirecte",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E7BB",
@@ -2558,7 +3225,8 @@
     "reason": "Cellule CFRU à 0x23E7BB : ses quatre premiers octets pointent vers 0x1F2CB5A (Light of Ruin). Cet offset est dans le pointeur ou son ancien suffixe, pas le texte vivant ; aucune écriture.",
     "zone": "Table des classes de Dresseurs, cellule indirecte",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x23E871",
@@ -2582,7 +3250,8 @@
     "reason": "« Camper » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Camper",
-    "after": "Camper"
+    "after": "Camper",
+    "built_references": []
   },
   {
     "offset": "0x23E8B2",
@@ -2606,7 +3275,8 @@
     "reason": "« Biker » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Biker",
-    "after": "Biker"
+    "after": "Biker",
+    "built_references": []
   },
   {
     "offset": "0x23E934",
@@ -2630,7 +3300,8 @@
     "reason": "« Rocker » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Rocker",
-    "after": "Rocker"
+    "after": "Rocker",
+    "built_references": []
   },
   {
     "offset": "0x23E98F",
@@ -2654,7 +3325,8 @@
     "reason": "« Boss » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Boss",
-    "after": "Boss"
+    "after": "Boss",
+    "built_references": []
   },
   {
     "offset": "0x23E9D0",
@@ -2678,7 +3350,8 @@
     "reason": "« Gentleman » est un terme allemand valide. Cellule fixe de 13 octets, adressage par index depuis 0x23E558 ; reprise par trainer_class_names, sans dépassement ni commandes.",
     "zone": "Classes de Dresseurs",
     "before": "Gentleman",
-    "after": "Gentleman"
+    "after": "Gentleman",
+    "built_references": []
   },
   {
     "offset": "0x23EAF9",
@@ -2699,7 +3372,8 @@
     "reason": "Séquence alphabétique fghijk, hors des 107 cellules de classes, aucun référent. Donnée de test, pas un dialogue.",
     "zone": "Données après classes",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x24F3C4",
@@ -2723,7 +3397,27 @@
     "before": null,
     "after": "Keine Fähigkeit.",
     "expected_hex": "c5d9dde2d900c0f4dcdddbdfd9dde8adff",
-    "max_pixels_with_10_glyph_buffers": 86
+    "max_pixels_with_10_glyph_buffers": 86,
+    "built_references": [
+      {
+        "site": "0x24fb08",
+        "target": "0x24f3c4",
+        "hex": "c5d9dde2d900c0f4dcdddbdfd9dde8adff",
+        "decoded": "Keine Fähigkeit."
+      },
+      {
+        "site": "0x96de04",
+        "target": "0x24f3c4",
+        "hex": "c5d9dde2d900c0f4dcdddbdfd9dde8adff",
+        "decoded": "Keine Fähigkeit."
+      },
+      {
+        "site": "0x96df38",
+        "target": "0x24f3c4",
+        "hex": "c5d9dde2d900c0f4dcdddbdfd9dde8adff",
+        "decoded": "Keine Fähigkeit."
+      }
+    ]
   },
   {
     "offset": "0x24FD03",
@@ -2747,7 +3441,8 @@
     "reason": "Ancienne table de talents ; aucun pointeur sur cette chaîne. Table CFRU active des noms à 0xA36398, maintenue par ability_names. Ne pas traduire cette copie ni ses espaces de bourrage.",
     "zone": "Ancienne table noms talents",
     "before": "INSOMNIA",
-    "after": "INSOMNIA"
+    "after": "INSOMNIA",
+    "built_references": []
   },
   {
     "offset": "0x24FDF8",
@@ -2771,7 +3466,8 @@
     "reason": "Ancienne table de talents ; aucun pointeur sur cette chaîne. Table CFRU active des noms à 0xA36398, maintenue par ability_names. Ne pas traduire cette copie ni ses espaces de bourrage.",
     "zone": "Ancienne table noms talents",
     "before": "CHLOROPHYLL",
-    "after": "CHLOROPHYLL"
+    "after": "CHLOROPHYLL",
+    "built_references": []
   },
   {
     "offset": "0x24FF23",
@@ -2795,7 +3491,8 @@
     "reason": "Ancienne table de talents ; aucun pointeur sur cette chaîne. Table CFRU active des noms à 0xA36398, maintenue par ability_names. Ne pas traduire cette copie ni ses espaces de bourrage.",
     "zone": "Ancienne table noms talents",
     "before": "PLUS",
-    "after": "PLUS"
+    "after": "PLUS",
+    "built_references": []
   },
   {
     "offset": "0x24FF2A",
@@ -2819,7 +3516,8 @@
     "reason": "Ancienne table de talents ; aucun pointeur sur cette chaîne. Table CFRU active des noms à 0xA36398, maintenue par ability_names. Ne pas traduire cette copie ni ses espaces de bourrage.",
     "zone": "Ancienne table noms talents",
     "before": "MINUS",
-    "after": "MINUS"
+    "after": "MINUS",
+    "built_references": []
   },
   {
     "offset": "0x255689",
@@ -2840,7 +3538,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x255A8D",
@@ -2861,7 +3560,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x255EF1",
@@ -2882,7 +3582,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x2562F1",
@@ -2903,7 +3604,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26CFBB",
@@ -2924,7 +3626,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26CFF3",
@@ -2945,7 +3648,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D001",
@@ -2966,7 +3670,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D02F",
@@ -2987,7 +3692,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D06B",
@@ -3008,7 +3714,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D0A7",
@@ -3029,7 +3736,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D0AF",
@@ -3050,7 +3758,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D0E3",
@@ -3071,7 +3780,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D0EB",
@@ -3092,7 +3802,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D11F",
@@ -3113,7 +3824,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D15B",
@@ -3134,7 +3846,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D197",
@@ -3155,7 +3868,8 @@
     "reason": "Nom de Dresseur/surnom dans des structures de 60 octets (Quacker, Edmund, The Top, Saige, Alicia, Shroomu, Among Us, Torch, Balogna, NORMA, GARETT). Préfixes binaires/espaces ne sont pas du texte à traduire ; conserver les noms.",
     "zone": "Structures de noms/surnoms, bloc 0x26CFxx",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x26D4DF",
@@ -3172,11 +3886,25 @@
       "0x26d3e4"
     ],
     "canonical": " <0xFC><0x03><0x00>  get started then!",
-    "decision": "besoin de patch séparé",
-    "reason": "Deux commandes msgbox référencent ce début (0x26D3C6/0x26D3E4), dont la préimage est 00 FC 03 00 00 00 puis « get started then! ». Le suffixe 0x26D4E5 est déjà traduit « Fangen wir an! » hors lot. Début tronqué/structure adjacente dans EN et chevauchement avec ce suffixe : qualifier l’injection structurée avant toute écriture ; ne pas ajouter un second texte concurrent.",
+    "decision": "déjà correct/patché",
+    "reason": "Début structuré 00 FC 03 00 00 00 : les deux pointeurs 0x26D3C6/0x26D3E4 atteignent après build « Fangen wir an! » grâce au suffixe déjà traduit 0x26D4E5 hors lot. Contrôle FC0300 intact ; ne pas ajouter une écriture chevauchante.",
     "zone": "Dresseur, accès SES Expressway / Challenge Road",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0x26d3c6",
+        "target": "0x26d4df",
+        "hex": "00fc03000000c0d5e2dbd9e200ebdde600d5e2abff",
+        "decoded": " <0xFC><0x03><0x00>  Fangen wir an!"
+      },
+      {
+        "site": "0x26d3e4",
+        "target": "0x26d4df",
+        "hex": "00fc03000000c0d5e2dbd9e200ebdde600d5e2abff",
+        "decoded": " <0xFC><0x03><0x00>  Fangen wir an!"
+      }
+    ]
   },
   {
     "offset": "0x26D524",
@@ -3204,7 +3932,15 @@
     "before": "Jetzt, wo der Eingang zum SES Expressway nicht mehr versiegelt ist,\\lkonnte ich endlich trainieren!\\pSag mal, willst du gegen meine\\nfrisch trainierten Pokémon kämpfen?",
     "after": "Der SES Expressway ist nun\\nnicht mehr versiegelt.\\lEndlich konnte ich trainieren!\\pWillst du gegen meine frisch\\ntrainierten Pokémon kämpfen?",
     "expected_hex": "bed9e600cdbfcd00bfece4e6d9e7e7ebd5ed00dde7e800e2e9e2fee2ddd7dce800e1d9dce600ead9e6e7ddd9dbd9e0e8adfabfe2d8e0ddd7dc00dfe3e2e2e8d900ddd7dc00e8e6d5dde2ddd9e6d9e2abfbd1dde0e0e7e800d8e900dbd9dbd9e200e1d9dde2d900dae6dde7d7dcfee8e6d5dde2ddd9e6e8d9e200cae3df1be1e3e200dff4e1e4dad9e2acff",
-    "max_pixels_with_10_glyph_buffers": 161
+    "max_pixels_with_10_glyph_buffers": 161,
+    "built_references": [
+      {
+        "site": "0x26d3a8",
+        "target": "0x26d524",
+        "hex": "bed9e600cdbfcd00bfece4e6d9e7e7ebd5ed00dde7e800e2e9e200e2ddd7dce8fee1d9dce600ead9e6e7ddd9dbd9e0e8ad00bfe2d8e0ddd7dc00dfe3e2e2e8d900ddd7dcfae8e6d5dde2ddd9e6d9e2abfbd1dde0e0e7e800d8e900dbd9dbd9e200e1d9dde2d900dae6dde7d7dcfee8e6d5dde2ddd9e6e8d9e200cae3df1be1e3e200dff4e1e4dad9e2acff",
+        "decoded": "Der SES Expressway ist nun nicht\\nmehr versiegelt. Endlich konnte ich\\ltrainieren!\\pWillst du gegen meine frisch\\ntrainierten Pokémon kämpfen?"
+      }
+    ]
   },
   {
     "offset": "0x26D6BD",
@@ -3226,7 +3962,15 @@
     "before": null,
     "after": "Hallo, Reisender.\\pDrei Pokémon suchen dringend\\neinen liebevollen Trainer.\\pKümmerst du dich um sie?",
     "expected_hex": "c2d5e0e0e3b800ccd9dde7d9e2d8d9e6adfbbee6d9dd00cae3df1be1e3e200e7e9d7dcd9e200d8e6dde2dbd9e2d8fed9dde2d9e200e0ddd9d6d9eae3e0e0d9e200cee6d5dde2d9e6adfbc5f6e1e1d9e6e7e800d8e900d8ddd7dc00e9e100e7ddd9acff",
-    "max_pixels_with_10_glyph_buffers": 156
+    "max_pixels_with_10_glyph_buffers": 156,
+    "built_references": [
+      {
+        "site": "0x26d644",
+        "target": "0x26d6bd",
+        "hex": "c2d5e0e0e3b800ccd9dde7d9e2d8d9e6adfbbee6d9dd00cae3df1be1e3e200e7e9d7dcd9e200d8e6dde2dbd9e2d800d9dde2d9e2fee0ddd9d6d9eae3e0e0d9e200cee6d5dde2d9e6adfbc5f6e1e1d9e6e7e800d8e900d8ddd7dc00e9e100e7ddd9acff",
+        "decoded": "Hallo, Reisender.\\pDrei Pokémon suchen dringend einen\\nliebevollen Trainer.\\pKümmerst du dich um sie?"
+      }
+    ]
   },
   {
     "offset": "0x2A49C5",
@@ -3247,7 +3991,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x2C486A",
@@ -3268,7 +4013,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x2C89B0",
@@ -3289,7 +4035,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x2F9AF8",
@@ -3310,7 +4057,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x353F9E",
@@ -3331,7 +4079,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x354081",
@@ -3352,7 +4101,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x369D6A",
@@ -3373,7 +4123,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x369E04",
@@ -3394,7 +4145,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x38F86F",
@@ -3415,7 +4167,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x38FBF6",
@@ -3436,7 +4189,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x38FDDF",
@@ -3457,7 +4211,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x399871",
@@ -3478,7 +4233,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x399A71",
@@ -3499,7 +4255,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x39BF30",
@@ -3520,7 +4277,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x39C044",
@@ -3541,7 +4299,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x39C178",
@@ -3562,7 +4321,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x39C2AC",
@@ -3583,7 +4343,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x39C3C0",
@@ -3604,7 +4365,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x39C4F8",
@@ -3625,7 +4387,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABDE6",
@@ -3646,7 +4409,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABE50",
@@ -3667,7 +4431,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABE6E",
@@ -3688,7 +4453,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABE86",
@@ -3709,7 +4475,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABE9C",
@@ -3730,7 +4497,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABEA4",
@@ -3751,7 +4519,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABEB9",
@@ -3772,7 +4541,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABEC1",
@@ -3793,7 +4563,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABEE6",
@@ -3814,7 +4585,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABF46",
@@ -3835,7 +4607,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABF60",
@@ -3856,7 +4629,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABF7E",
@@ -3877,7 +4651,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABF9C",
@@ -3898,7 +4673,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3ABFB9",
@@ -3919,7 +4695,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC023",
@@ -3940,7 +4717,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC05C",
@@ -3961,7 +4739,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC07A",
@@ -3982,7 +4761,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC094",
@@ -4003,7 +4783,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC0B2",
@@ -4024,7 +4805,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC0E6",
@@ -4045,7 +4827,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC154",
@@ -4066,7 +4849,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC172",
@@ -4087,7 +4871,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC186",
@@ -4108,7 +4893,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC18C",
@@ -4129,7 +4915,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC19C",
@@ -4150,7 +4937,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3AC1AA",
@@ -4171,7 +4959,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3CAF09",
@@ -4192,7 +4981,8 @@
     "reason": "Faux positif d’extraction de données binaires/graphiques ; aucun pointeur vers cet offset, aucune phrase canonique à traduire.",
     "zone": "Données binaires/graphiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3D98DC",
@@ -4216,7 +5006,8 @@
     "reason": "Copie ancienne de description sans référent ; la table active 0x99F190 pour Lichtschild/Reflektor vise 0x4845C5. Ne pas modifier cette copie morte, même si sa forme DE comporte un habillage perfectible.",
     "zone": "Descriptions historiques Lichtschild/Reflektor",
     "before": "Eine Lichtwand entsteht für fünf\\nRunden. Sie verringert Schaden\\ndurch Sp.-Angriff-Attacken.",
-    "after": "Eine Lichtwand entsteht für fünf\\nRunden. Sie verringert Schaden\\ndurch Sp.-Angriff-Attacken."
+    "after": "Eine Lichtwand entsteht für fünf\\nRunden. Sie verringert Schaden\\ndurch Sp.-Angriff-Attacken.",
+    "built_references": []
   },
   {
     "offset": "0x3D9EAC",
@@ -4240,7 +5031,8 @@
     "reason": "Copie ancienne de description sans référent ; la table active 0x99F190 pour Lichtschild/Reflektor vise 0x484647. Ne pas modifier cette copie morte, même si sa forme DE comporte un habillage perfectible.",
     "zone": "Descriptions historiques Lichtschild/Reflektor",
     "before": "Eine feste Barriere wird für\\nfünf Runden errichtet. Sie\\nverringert Schaden durch\\nphysische Attacken.",
-    "after": "Eine feste Barriere wird für\\nfünf Runden errichtet. Sie\\nverringert Schaden durch\\nphysische Attacken."
+    "after": "Eine feste Barriere wird für\\nfünf Runden errichtet. Sie\\nverringert Schaden durch\\nphysische Attacken.",
+    "built_references": []
   },
   {
     "offset": "0x3DDD0B",
@@ -4261,7 +5053,8 @@
     "reason": "Suffixe sans référent dans une structure d’objet ancienne (Dows(e)r/Parcel), pas une chaîne autonome. Aucun ajout DE.",
     "zone": "Structures anciennes objets",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3DEC2D",
@@ -4282,7 +5075,8 @@
     "reason": "Suffixe sans référent dans une structure d’objet ancienne (Dows(e)r/Parcel), pas une chaîne autonome. Aucun ajout DE.",
     "zone": "Structures anciennes objets",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3E1448",
@@ -4303,7 +5097,8 @@
     "reason": "Données non linguistiques, suite hkiii/ki… sans référent : ne pas reproduire le faux texte présent dans FR.",
     "zone": "Données binaires avant lexique",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3E144E",
@@ -4324,7 +5119,8 @@
     "reason": "Données non linguistiques, suite hkiii/ki… sans référent : ne pas reproduire le faux texte présent dans FR.",
     "zone": "Données binaires avant lexique",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3E7F66",
@@ -4350,7 +5146,15 @@
     "reason": "Mot du lexique Easy Chat référencé par la table à 0x3E80xx ; terme allemand admis (CENTER, LINK, VERSION) ou nom de fonction POKéNAV. Chaîne courte intacte sans contrôles.",
     "zone": "Lexique Easy Chat, Pokémon/communication",
     "before": "CENTER",
-    "after": "CENTER"
+    "after": "CENTER",
+    "built_references": [
+      {
+        "site": "0x3e8034",
+        "target": "0x3e7f66",
+        "hex": "bdbfc8cebfccff",
+        "decoded": "CENTER"
+      }
+    ]
   },
   {
     "offset": "0x3E7F71",
@@ -4376,7 +5180,15 @@
     "reason": "Mot du lexique Easy Chat référencé par la table à 0x3E80xx ; terme allemand admis (CENTER, LINK, VERSION) ou nom de fonction POKéNAV. Chaîne courte intacte sans contrôles.",
     "zone": "Lexique Easy Chat, Pokémon/communication",
     "before": "LINK",
-    "after": "LINK"
+    "after": "LINK",
+    "built_references": [
+      {
+        "site": "0x3e804c",
+        "target": "0x3e7f71",
+        "hex": "c6c3c8c5ff",
+        "decoded": "LINK"
+      }
+    ]
   },
   {
     "offset": "0x3E7F8A",
@@ -4402,7 +5214,15 @@
     "reason": "Mot du lexique Easy Chat référencé par la table à 0x3E80xx ; terme allemand admis (CENTER, LINK, VERSION) ou nom de fonction POKéNAV. Chaîne courte intacte sans contrôles.",
     "zone": "Lexique Easy Chat, Pokémon/communication",
     "before": "VERSION",
-    "after": "VERSION"
+    "after": "VERSION",
+    "built_references": [
+      {
+        "site": "0x3e8070",
+        "target": "0x3e7f8a",
+        "hex": "d0bfcccdc3c9c8ff",
+        "decoded": "VERSION"
+      }
+    ]
   },
   {
     "offset": "0x3E7F92",
@@ -4428,7 +5248,15 @@
     "reason": "Mot du lexique Easy Chat référencé par la table à 0x3E80xx ; terme allemand admis (CENTER, LINK, VERSION) ou nom de fonction POKéNAV. Chaîne courte intacte sans contrôles.",
     "zone": "Lexique Easy Chat, Pokémon/communication",
     "before": "POKéNAV",
-    "after": "POKéNAV"
+    "after": "POKéNAV",
+    "built_references": [
+      {
+        "site": "0x3e807c",
+        "target": "0x3e7f92",
+        "hex": "cac9c51bc8bbd0ff",
+        "decoded": "POKéNAV"
+      }
+    ]
   },
   {
     "offset": "0x3E7F9A",
@@ -4454,7 +5282,15 @@
     "reason": "Pokémon : nom de franchise officiel commun, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "Pokémon",
-    "after": "Pokémon"
+    "after": "Pokémon",
+    "built_references": [
+      {
+        "site": "0x3e8088",
+        "target": "0x3e7f9a",
+        "hex": "cae3df1be1e3e2ff",
+        "decoded": "Pokémon"
+      }
+    ]
   },
   {
     "offset": "0x3E7FA6",
@@ -4480,7 +5316,15 @@
     "reason": "Pokédex : nom d’appareil officiel commun, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "Pokédex",
-    "after": "Pokédex"
+    "after": "Pokédex",
+    "built_references": [
+      {
+        "site": "0x3e80a0",
+        "target": "0x3e7fa6",
+        "hex": "cae3df1bd8d9ecff",
+        "decoded": "Pokédex"
+      }
+    ]
   },
   {
     "offset": "0x3E7FB3",
@@ -4506,7 +5350,15 @@
     "reason": "LEVEL : emprunt usuel allemand désignant le niveau, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "LEVEL",
-    "after": "LEVEL"
+    "after": "LEVEL",
+    "built_references": [
+      {
+        "site": "0x3e80b8",
+        "target": "0x3e7fb3",
+        "hex": "c6bfd0bfc6ff",
+        "decoded": "LEVEL"
+      }
+    ]
   },
   {
     "offset": "0x3E7FCD",
@@ -4532,7 +5384,15 @@
     "reason": "GOLD : nom allemand de l’or/version, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "GOLD",
-    "after": "GOLD"
+    "after": "GOLD",
+    "built_references": [
+      {
+        "site": "0x3e80f4",
+        "target": "0x3e7fcd",
+        "hex": "c1c9c6beff",
+        "decoded": "GOLD"
+      }
+    ]
   },
   {
     "offset": "0x3E8187",
@@ -4560,7 +5420,15 @@
     "before": "AIR LOCK",
     "after": "KLIMASCHUTZ",
     "expected_hex": "c5c6c3c7bbcdbdc2cfced4ff",
-    "max_pixels_with_10_glyph_buffers": 66
+    "max_pixels_with_10_glyph_buffers": 66,
+    "built_references": [
+      {
+        "site": "0x3e85a0",
+        "target": "0xc27604",
+        "hex": "c5c6c3c7bbcdbdc2cfced4ff",
+        "decoded": "KLIMASCHUTZ"
+      }
+    ]
   },
   {
     "offset": "0x3E8198",
@@ -4588,7 +5456,15 @@
     "before": "HYPER CUTTER",
     "after": "SCHERENMACHT",
     "expected_hex": "cdbdc2bfccbfc8c7bbbdc2ceff",
-    "max_pixels_with_10_glyph_buffers": 72
+    "max_pixels_with_10_glyph_buffers": 72,
+    "built_references": [
+      {
+        "site": "0x3e85b8",
+        "target": "0x16b6c9",
+        "hex": "cdbdc2bfccbfc8c7bbbdc2ceff",
+        "decoded": "SCHERENMACHT"
+      }
+    ]
   },
   {
     "offset": "0x3E81D5",
@@ -4614,7 +5490,15 @@
     "reason": "COOL : adjectif allemand et catégorie Concours, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "COOL",
-    "after": "COOL"
+    "after": "COOL",
+    "built_references": [
+      {
+        "site": "0x3e8600",
+        "target": "0x3e81d5",
+        "hex": "bdc9c9c6ff",
+        "decoded": "COOL"
+      }
+    ]
   },
   {
     "offset": "0x3E838F",
@@ -4640,7 +5524,15 @@
     "reason": "NORMAL : type officiel Normal, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "NORMAL",
-    "after": "NORMAL"
+    "after": "NORMAL",
+    "built_references": [
+      {
+        "site": "0x3e8840",
+        "target": "0x3e838f",
+        "hex": "c8c9ccc7bbc6ff",
+        "decoded": "NORMAL"
+      }
+    ]
   },
   {
     "offset": "0x3E8402",
@@ -4666,7 +5558,15 @@
     "reason": "INSOMNIA : talent officiel Insomnia, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "INSOMNIA",
-    "after": "INSOMNIA"
+    "after": "INSOMNIA",
+    "built_references": [
+      {
+        "site": "0x3e88d0",
+        "target": "0x3e8402",
+        "hex": "c3c8cdc9c7c8c3bbff",
+        "decoded": "INSOMNIA"
+      }
+    ]
   },
   {
     "offset": "0x3E8414",
@@ -4692,7 +5592,15 @@
     "reason": "PLUS : talent officiel Plus, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "PLUS",
-    "after": "PLUS"
+    "after": "PLUS",
+    "built_references": [
+      {
+        "site": "0x3e88e8",
+        "target": "0x3e8414",
+        "hex": "cac6cfcdff",
+        "decoded": "PLUS"
+      }
+    ]
   },
   {
     "offset": "0x3E8467",
@@ -4718,7 +5626,15 @@
     "reason": "MINUS : talent officiel Minus, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "MINUS",
-    "after": "MINUS"
+    "after": "MINUS",
+    "built_references": [
+      {
+        "site": "0x3e8954",
+        "target": "0x3e8467",
+        "hex": "c7c3c8cfcdff",
+        "decoded": "MINUS"
+      }
+    ]
   },
   {
     "offset": "0x3E84DF",
@@ -4744,7 +5660,15 @@
     "reason": "CHLOROPHYLL : talent officiel Chlorophyll, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "CHLOROPHYLL",
-    "after": "CHLOROPHYLL"
+    "after": "CHLOROPHYLL",
+    "built_references": [
+      {
+        "site": "0x3e89fc",
+        "target": "0x3e84df",
+        "hex": "bdc2c6c9ccc9cac2d3c6c6ff",
+        "decoded": "CHLOROPHYLL"
+      }
+    ]
   },
   {
     "offset": "0x3E8AC3",
@@ -4770,7 +5694,15 @@
     "reason": "TALENT : nom commun allemand, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "TALENT",
-    "after": "TALENT"
+    "after": "TALENT",
+    "built_references": [
+      {
+        "site": "0x3e8cf0",
+        "target": "0x3e8ac3",
+        "hex": "cebbc6bfc8ceff",
+        "decoded": "TALENT"
+      }
+    ]
   },
   {
     "offset": "0x3E8AD9",
@@ -4796,7 +5728,15 @@
     "reason": "MATCH : emprunt sportif allemand, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "MATCH",
-    "after": "MATCH"
+    "after": "MATCH",
+    "built_references": [
+      {
+        "site": "0x3e8d14",
+        "target": "0x3e8ad9",
+        "hex": "c7bbcebdc2ff",
+        "decoded": "MATCH"
+      }
+    ]
   },
   {
     "offset": "0x3E8AE7",
@@ -4822,7 +5762,15 @@
     "reason": "OFFENSIVE : nom allemand de l’offensive, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "OFFENSIVE",
-    "after": "OFFENSIVE"
+    "after": "OFFENSIVE",
+    "built_references": [
+      {
+        "site": "0x3e8d2c",
+        "target": "0x3e8ae7",
+        "hex": "c9c0c0bfc8cdc3d0bfff",
+        "decoded": "OFFENSIVE"
+      }
+    ]
   },
   {
     "offset": "0x3E8B9B",
@@ -4848,7 +5796,15 @@
     "reason": "PARTNER : nom allemand du partenaire, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "PARTNER",
-    "after": "PARTNER"
+    "after": "PARTNER",
+    "built_references": [
+      {
+        "site": "0x3e8e58",
+        "target": "0x3e8b9b",
+        "hex": "cabbcccec8bfccff",
+        "decoded": "PARTNER"
+      }
+    ]
   },
   {
     "offset": "0x3E8BE1",
@@ -4876,7 +5832,15 @@
     "before": "LEADER",
     "after": "ANFÜHRER",
     "expected_hex": "bbc8c0f3c2ccbfccff",
-    "max_pixels_with_10_glyph_buffers": 48
+    "max_pixels_with_10_glyph_buffers": 48,
+    "built_references": [
+      {
+        "site": "0x3e8ec4",
+        "target": "0x7a38b4",
+        "hex": "bbc8c0f3c2ccbfccff",
+        "decoded": "ANFÜHRER"
+      }
+    ]
   },
   {
     "offset": "0x3E9369",
@@ -4902,7 +5866,15 @@
     "reason": "PERSON : nom allemand de la personne, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "PERSON",
-    "after": "PERSON"
+    "after": "PERSON",
+    "built_references": [
+      {
+        "site": "0x3e966c",
+        "target": "0x3e9369",
+        "hex": "cabfcccdc9c8ff",
+        "decoded": "PERSON"
+      }
+    ]
   },
   {
     "offset": "0x3E97F4",
@@ -4928,7 +5900,15 @@
     "reason": "EHEHE : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "EHEHE",
-    "after": "EHEHE"
+    "after": "EHEHE",
+    "built_references": [
+      {
+        "site": "0x3e9a10",
+        "target": "0x3e97f4",
+        "hex": "bfc2bfc2bfff",
+        "decoded": "EHEHE"
+      }
+    ]
   },
   {
     "offset": "0x3E9822",
@@ -4954,7 +5934,15 @@
     "reason": "GRAAAH : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "GRAAAH",
-    "after": "GRAAAH"
+    "after": "GRAAAH",
+    "built_references": [
+      {
+        "site": "0x3e9a64",
+        "target": "0x3e9822",
+        "hex": "c1ccbbbbbbc2ff",
+        "decoded": "GRAAAH"
+      }
+    ]
   },
   {
     "offset": "0x3E983B",
@@ -4980,7 +5968,15 @@
     "reason": "HEHE : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "HEHE",
-    "after": "HEHE"
+    "after": "HEHE",
+    "built_references": [
+      {
+        "site": "0x3e9a94",
+        "target": "0x3e983b",
+        "hex": "c2bfc2bfff",
+        "decoded": "HEHE"
+      }
+    ]
   },
   {
     "offset": "0x3E9848",
@@ -5006,7 +6002,15 @@
     "reason": "HAHAHA : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "HAHAHA",
-    "after": "HAHAHA"
+    "after": "HAHAHA",
+    "built_references": [
+      {
+        "site": "0x3e9ab8",
+        "target": "0x3e9848",
+        "hex": "c2bbc2bbc2bbff",
+        "decoded": "HAHAHA"
+      }
+    ]
   },
   {
     "offset": "0x3E9856",
@@ -5032,7 +6036,15 @@
     "reason": "HIYAH : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "HIYAH",
-    "after": "HIYAH"
+    "after": "HIYAH",
+    "built_references": [
+      {
+        "site": "0x3e9ad0",
+        "target": "0x3e9856",
+        "hex": "c2c3d3bbc2ff",
+        "decoded": "HIYAH"
+      }
+    ]
   },
   {
     "offset": "0x3E985C",
@@ -5058,7 +6070,15 @@
     "reason": "FUFUFU : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "FUFUFU",
-    "after": "FUFUFU"
+    "after": "FUFUFU",
+    "built_references": [
+      {
+        "site": "0x3e9adc",
+        "target": "0x3e985c",
+        "hex": "c0cfc0cfc0cfff",
+        "decoded": "FUFUFU"
+      }
+    ]
   },
   {
     "offset": "0x3E9873",
@@ -5084,7 +6104,15 @@
     "reason": "HEHEHE : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "HEHEHE",
-    "after": "HEHEHE"
+    "after": "HEHEHE",
+    "built_references": [
+      {
+        "site": "0x3e9b0c",
+        "target": "0x3e9873",
+        "hex": "c2bfc2bfc2bfff",
+        "decoded": "HEHEHE"
+      }
+    ]
   },
   {
     "offset": "0x3E987E",
@@ -5110,7 +6138,15 @@
     "reason": "HOHOHO : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "HOHOHO",
-    "after": "HOHOHO"
+    "after": "HOHOHO",
+    "built_references": [
+      {
+        "site": "0x3e9b24",
+        "target": "0x3e987e",
+        "hex": "c2c9c2c9c2c9ff",
+        "decoded": "HOHOHO"
+      }
+    ]
   },
   {
     "offset": "0x3E989B",
@@ -5136,7 +6172,15 @@
     "reason": "MUFUFU : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "MUFUFU",
-    "after": "MUFUFU"
+    "after": "MUFUFU",
+    "built_references": [
+      {
+        "site": "0x3e9b54",
+        "target": "0x3e989b",
+        "hex": "c7cfc0cfc0cfff",
+        "decoded": "MUFUFU"
+      }
+    ]
   },
   {
     "offset": "0x3E98B2",
@@ -5162,7 +6206,15 @@
     "reason": "LALALA : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "LALALA",
-    "after": "LALALA"
+    "after": "LALALA",
+    "built_references": [
+      {
+        "site": "0x3e9b84",
+        "target": "0x3e98b2",
+        "hex": "c6bbc6bbc6bbff",
+        "decoded": "LALALA"
+      }
+    ]
   },
   {
     "offset": "0x3E98C7",
@@ -5188,7 +6240,15 @@
     "reason": "GWAH : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "GWAH",
-    "after": "GWAH"
+    "after": "GWAH",
+    "built_references": [
+      {
+        "site": "0x3e9bb4",
+        "target": "0x3e98c7",
+        "hex": "c1d1bbc2ff",
+        "decoded": "GWAH"
+      }
+    ]
   },
   {
     "offset": "0x3E98CC",
@@ -5214,7 +6274,15 @@
     "reason": "WAHAHAHA : rire/cri/chant de la catégorie Voix, onomatopée volontaire identique en FR ; pas de prose anglaise résiduelle.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "WAHAHAHA",
-    "after": "WAHAHAHA"
+    "after": "WAHAHAHA",
+    "built_references": [
+      {
+        "site": "0x3e9bc0",
+        "target": "0x3e98cc",
+        "hex": "d1bbc2bbc2bbc2bbff",
+        "decoded": "WAHAHAHA"
+      }
+    ]
   },
   {
     "offset": "0x3E9C7C",
@@ -5240,7 +6308,15 @@
     "reason": "WILD : adjectif allemand sauvage, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "WILD",
-    "after": "WILD"
+    "after": "WILD",
+    "built_references": [
+      {
+        "site": "0x3e9ebc",
+        "target": "0x3e9c7c",
+        "hex": "d1c3c6beff",
+        "decoded": "WILD"
+      }
+    ]
   },
   {
     "offset": "0x3EB849",
@@ -5266,7 +6342,15 @@
     "reason": "ANIME : emprunt allemand consacré, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "ANIME",
-    "after": "ANIME"
+    "after": "ANIME",
+    "built_references": [
+      {
+        "site": "0x3eb9cc",
+        "target": "0x3eb849",
+        "hex": "bbc8c3c7bfff",
+        "decoded": "ANIME"
+      }
+    ]
   },
   {
     "offset": "0x3EB861",
@@ -5292,7 +6376,15 @@
     "reason": "CHAT : emprunt informatique allemand, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "CHAT",
-    "after": "CHAT"
+    "after": "CHAT",
+    "built_references": [
+      {
+        "site": "0x3eb9fc",
+        "target": "0x3eb861",
+        "hex": "bdc2bbceff",
+        "decoded": "CHAT"
+      }
+    ]
   },
   {
     "offset": "0x3EB884",
@@ -5318,7 +6410,15 @@
     "reason": "SHOPPING : emprunt allemand consacré, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "SHOPPING",
-    "after": "SHOPPING"
+    "after": "SHOPPING",
+    "built_references": [
+      {
+        "site": "0x3eba38",
+        "target": "0x3eb884",
+        "hex": "cdc2c9cacac3c8c1ff",
+        "decoded": "SHOPPING"
+      }
+    ]
   },
   {
     "offset": "0x3EB8A6",
@@ -5344,7 +6444,15 @@
     "reason": "GOURMET : nom allemand du gourmet, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "GOURMET",
-    "after": "GOURMET"
+    "after": "GOURMET",
+    "built_references": [
+      {
+        "site": "0x3eba68",
+        "target": "0x3eb8a6",
+        "hex": "c1c9cfccc7bfceff",
+        "decoded": "GOURMET"
+      }
+    ]
   },
   {
     "offset": "0x3EB8DE",
@@ -5370,7 +6478,15 @@
     "reason": "HOBBY : nom allemand du loisir, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "HOBBY",
-    "after": "HOBBY"
+    "after": "HOBBY",
+    "built_references": [
+      {
+        "site": "0x3ebac8",
+        "target": "0x3eb8de",
+        "hex": "c2c9bcbcd3ff",
+        "decoded": "HOBBY"
+      }
+    ]
   },
   {
     "offset": "0x3EB8EB",
@@ -5396,7 +6512,15 @@
     "reason": "SOFTWARE : nom allemand du logiciel, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "SOFTWARE",
-    "after": "SOFTWARE"
+    "after": "SOFTWARE",
+    "built_references": [
+      {
+        "site": "0x3ebae0",
+        "target": "0x3eb8eb",
+        "hex": "cdc9c0ced1bbccbfff",
+        "decoded": "SOFTWARE"
+      }
+    ]
   },
   {
     "offset": "0x3EB931",
@@ -5422,7 +6546,15 @@
     "reason": "DESIGN : nom allemand du design, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "DESIGN",
-    "after": "DESIGN"
+    "after": "DESIGN",
+    "built_references": [
+      {
+        "site": "0x3ebb58",
+        "target": "0x3eb931",
+        "hex": "bebfcdc3c1c8ff",
+        "decoded": "DESIGN"
+      }
+    ]
   },
   {
     "offset": "0x3EB982",
@@ -5448,7 +6580,15 @@
     "reason": "BALL : nom allemand du ballon, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "BALL",
-    "after": "BALL"
+    "after": "BALL",
+    "built_references": [
+      {
+        "site": "0x3ebbdc",
+        "target": "0x3eb982",
+        "hex": "bcbbc6c6ff",
+        "decoded": "BALL"
+      }
+    ]
   },
   {
     "offset": "0x3EB98C",
@@ -5474,7 +6614,15 @@
     "reason": "FESTIVAL : nom allemand du festival, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "FESTIVAL",
-    "after": "FESTIVAL"
+    "after": "FESTIVAL",
+    "built_references": [
+      {
+        "site": "0x3ebbf4",
+        "target": "0x3eb98c",
+        "hex": "c0bfcdcec3d0bbc6ff",
+        "decoded": "FESTIVAL"
+      }
+    ]
   },
   {
     "offset": "0x3EB9BA",
@@ -5500,7 +6648,15 @@
     "reason": "LOOK : emprunt allemand pour l’apparence, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "LOOK",
-    "after": "LOOK"
+    "after": "LOOK",
+    "built_references": [
+      {
+        "site": "0x3ebc3c",
+        "target": "0x3eb9ba",
+        "hex": "c6c9c9c5ff",
+        "decoded": "LOOK"
+      }
+    ]
   },
   {
     "offset": "0x3EBD3B",
@@ -5526,7 +6682,15 @@
     "reason": "WINTER : nom allemand de l’hiver, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "WINTER",
-    "after": "WINTER"
+    "after": "WINTER",
+    "built_references": [
+      {
+        "site": "0x3ebf2c",
+        "target": "0x3ebd3b",
+        "hex": "d1c3c8cebfccff",
+        "decoded": "WINTER"
+      }
+    ]
   },
   {
     "offset": "0x3EC59E",
@@ -5552,7 +6716,15 @@
     "reason": "SUPER : intensif allemand, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "SUPER",
-    "after": "SUPER"
+    "after": "SUPER",
+    "built_references": [
+      {
+        "site": "0x3ec698",
+        "target": "0x3ec59e",
+        "hex": "cdcfcabfccff",
+        "decoded": "SUPER"
+      }
+    ]
   },
   {
     "offset": "0x3EC5C1",
@@ -5578,7 +6750,15 @@
     "reason": "HYPER : préfixe allemand, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "HYPER",
-    "after": "HYPER"
+    "after": "HYPER",
+    "built_references": [
+      {
+        "site": "0x3ec6c8",
+        "target": "0x3ec5c1",
+        "hex": "c2d3cabfccff",
+        "decoded": "HYPER"
+      }
+    ]
   },
   {
     "offset": "0x3EC5C7",
@@ -5604,7 +6784,15 @@
     "reason": "BATTLE TOWER : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "BATTLE TOWER",
-    "after": "BATTLE TOWER"
+    "after": "BATTLE TOWER",
+    "built_references": [
+      {
+        "site": "0x3ec6d4",
+        "target": "0x3ec5c7",
+        "hex": "bcbbcecec6bf00cec9d1bfccff",
+        "decoded": "BATTLE TOWER"
+      }
+    ]
   },
   {
     "offset": "0x3EC62D",
@@ -5630,7 +6818,15 @@
     "reason": "UNION : nom allemand de l’union, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "UNION",
-    "after": "UNION"
+    "after": "UNION",
+    "built_references": [
+      {
+        "site": "0x3ec770",
+        "target": "0x3ec62d",
+        "hex": "cfc8c3c9c8ff",
+        "decoded": "UNION"
+      }
+    ]
   },
   {
     "offset": "0x3ECA95",
@@ -5656,7 +6852,15 @@
     "reason": "MEGA : préfixe allemand, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "MEGA",
-    "after": "MEGA"
+    "after": "MEGA",
+    "built_references": [
+      {
+        "site": "0x3ecb98",
+        "target": "0x3eca95",
+        "hex": "c7bfc1bbff",
+        "decoded": "MEGA"
+      }
+    ]
   },
   {
     "offset": "0x3ECAF9",
@@ -5682,7 +6886,15 @@
     "reason": "MODERN : adjectif allemand, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "MODERN",
-    "after": "MODERN"
+    "after": "MODERN",
+    "built_references": [
+      {
+        "site": "0x3ecc40",
+        "target": "0x3ecaf9",
+        "hex": "c7c9bebfccc8ff",
+        "decoded": "MODERN"
+      }
+    ]
   },
   {
     "offset": "0x3ECB09",
@@ -5708,7 +6920,15 @@
     "reason": "BANG : onomatopée de bruit, conservée comme FR, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "BANG",
-    "after": "BANG"
+    "after": "BANG",
+    "built_references": [
+      {
+        "site": "0x3ecc58",
+        "target": "0x3ecb09",
+        "hex": "bcbbc8c1ff",
+        "decoded": "BANG"
+      }
+    ]
   },
   {
     "offset": "0x3ECB33",
@@ -5734,7 +6954,15 @@
     "reason": "BABY : nom allemand du bébé, identique à EN sans être un oubli ; aucun contrôle ni buffer dans ce mot isolé.",
     "zone": "Easy Chat / mots des catégories Pokémon, statut, combat, voix, loisirs et lieux",
     "before": "BABY",
-    "after": "BABY"
+    "after": "BABY",
+    "built_references": [
+      {
+        "site": "0x3ecca0",
+        "target": "0x3ecb33",
+        "hex": "bcbbbcd3ff",
+        "decoded": "BABY"
+      }
+    ]
   },
   {
     "offset": "0x3EED08",
@@ -5760,7 +6988,15 @@
     "reason": "Bellin Town : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Bellin Town",
-    "after": "Bellin Town"
+    "after": "Bellin Town",
+    "built_references": [
+      {
+        "site": "0x3f1cb0",
+        "target": "0x3eed08",
+        "hex": "bcd9e0e0dde200cee3ebe2ff",
+        "decoded": "Bellin Town"
+      }
+    ]
   },
   {
     "offset": "0x3EED22",
@@ -5786,7 +7022,15 @@
     "reason": "Crater Town : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Crater Town",
-    "after": "Crater Town"
+    "after": "Crater Town",
+    "built_references": [
+      {
+        "site": "0x3f1cb8",
+        "target": "0x3eed22",
+        "hex": "bde6d5e8d9e600cee3ebe2ff",
+        "decoded": "Crater Town"
+      }
+    ]
   },
   {
     "offset": "0x3EED67",
@@ -5812,7 +7056,15 @@
     "reason": "Tarmigan Town : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Tarmigan Town",
-    "after": "Tarmigan Town"
+    "after": "Tarmigan Town",
+    "built_references": [
+      {
+        "site": "0x3f1ccc",
+        "target": "0x3eed67",
+        "hex": "ced5e6e1dddbd5e200cee3ebe2ff",
+        "decoded": "Tarmigan Town"
+      }
+    ]
   },
   {
     "offset": "0x3EED77",
@@ -5838,7 +7090,15 @@
     "reason": "INDIGO PLATEAU : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "INDIGO PLATEAU",
-    "after": "INDIGO PLATEAU"
+    "after": "INDIGO PLATEAU",
+    "built_references": [
+      {
+        "site": "0x3f1cd0",
+        "target": "0x3eed77",
+        "hex": "c3c8bec3c1c900cac6bbcebfbbcfff",
+        "decoded": "INDIGO PLATEAU"
+      }
+    ]
   },
   {
     "offset": "0x3EED93",
@@ -5864,7 +7124,15 @@
     "reason": "Route 4 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 4",
-    "after": "Route 4"
+    "after": "Route 4",
+    "built_references": [
+      {
+        "site": "0x3f1cd8",
+        "target": "0x3eed93",
+        "hex": "cce3e9e8d900a5ff",
+        "decoded": "Route 4"
+      }
+    ]
   },
   {
     "offset": "0x3EED9B",
@@ -5890,7 +7158,15 @@
     "reason": "Route 10 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 10",
-    "after": "Route 10"
+    "after": "Route 10",
+    "built_references": [
+      {
+        "site": "0x3f1cdc",
+        "target": "0x3eed9b",
+        "hex": "cce3e9e8d900a2a1ff",
+        "decoded": "Route 10"
+      }
+    ]
   },
   {
     "offset": "0x3EEDA4",
@@ -5916,7 +7192,15 @@
     "reason": "Route 1 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 1",
-    "after": "Route 1"
+    "after": "Route 1",
+    "built_references": [
+      {
+        "site": "0x3f1ce0",
+        "target": "0x3eeda4",
+        "hex": "cce3e9e8d900a2ff",
+        "decoded": "Route 1"
+      }
+    ]
   },
   {
     "offset": "0x3EEDAC",
@@ -5942,7 +7226,15 @@
     "reason": "Route 2 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 2",
-    "after": "Route 2"
+    "after": "Route 2",
+    "built_references": [
+      {
+        "site": "0x3f1ce4",
+        "target": "0x3eedac",
+        "hex": "cce3e9e8d900a3ff",
+        "decoded": "Route 2"
+      }
+    ]
   },
   {
     "offset": "0x3EEDB4",
@@ -5968,7 +7260,15 @@
     "reason": "Route 3 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 3",
-    "after": "Route 3"
+    "after": "Route 3",
+    "built_references": [
+      {
+        "site": "0x3f1ce8",
+        "target": "0x3eedb4",
+        "hex": "cce3e9e8d900a4ff",
+        "decoded": "Route 3"
+      }
+    ]
   },
   {
     "offset": "0x3EEDC4",
@@ -5994,7 +7294,15 @@
     "reason": "Route 5 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 5",
-    "after": "Route 5"
+    "after": "Route 5",
+    "built_references": [
+      {
+        "site": "0x3f1cf0",
+        "target": "0x3eedc4",
+        "hex": "cce3e9e8d900a6ff",
+        "decoded": "Route 5"
+      }
+    ]
   },
   {
     "offset": "0x3EEDCC",
@@ -6020,7 +7328,15 @@
     "reason": "Route 6 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 6",
-    "after": "Route 6"
+    "after": "Route 6",
+    "built_references": [
+      {
+        "site": "0x3f1cf4",
+        "target": "0x3eedcc",
+        "hex": "cce3e9e8d900a7ff",
+        "decoded": "Route 6"
+      }
+    ]
   },
   {
     "offset": "0x3EEDD4",
@@ -6046,7 +7362,15 @@
     "reason": "Route 7 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 7",
-    "after": "Route 7"
+    "after": "Route 7",
+    "built_references": [
+      {
+        "site": "0x3f1cf8",
+        "target": "0x3eedd4",
+        "hex": "cce3e9e8d900a8ff",
+        "decoded": "Route 7"
+      }
+    ]
   },
   {
     "offset": "0x3EEDDC",
@@ -6072,7 +7396,15 @@
     "reason": "Route 8 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 8",
-    "after": "Route 8"
+    "after": "Route 8",
+    "built_references": [
+      {
+        "site": "0x3f1cfc",
+        "target": "0x3eeddc",
+        "hex": "cce3e9e8d900a9ff",
+        "decoded": "Route 8"
+      }
+    ]
   },
   {
     "offset": "0x3EEDE4",
@@ -6098,7 +7430,15 @@
     "reason": "Route 9 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 9",
-    "after": "Route 9"
+    "after": "Route 9",
+    "built_references": [
+      {
+        "site": "0x3f1d00",
+        "target": "0x3eede4",
+        "hex": "cce3e9e8d900aaff",
+        "decoded": "Route 9"
+      }
+    ]
   },
   {
     "offset": "0x3EEDEC",
@@ -6124,7 +7464,15 @@
     "reason": "ROUTE 10 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "ROUTE 10",
-    "after": "ROUTE 10"
+    "after": "ROUTE 10",
+    "built_references": [
+      {
+        "site": "0x3f1d04",
+        "target": "0x3eedec",
+        "hex": "ccc9cfcebf00a2a1ff",
+        "decoded": "ROUTE 10"
+      }
+    ]
   },
   {
     "offset": "0x3EEDF5",
@@ -6150,7 +7498,15 @@
     "reason": "Route 11 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 11",
-    "after": "Route 11"
+    "after": "Route 11",
+    "built_references": [
+      {
+        "site": "0x3f1d08",
+        "target": "0x3eedf5",
+        "hex": "cce3e9e8d900a2a2ff",
+        "decoded": "Route 11"
+      }
+    ]
   },
   {
     "offset": "0x3EEDFE",
@@ -6176,7 +7532,15 @@
     "reason": "Route 12 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 12",
-    "after": "Route 12"
+    "after": "Route 12",
+    "built_references": [
+      {
+        "site": "0x3f1d0c",
+        "target": "0x3eedfe",
+        "hex": "cce3e9e8d900a2a3ff",
+        "decoded": "Route 12"
+      }
+    ]
   },
   {
     "offset": "0x3EEE07",
@@ -6202,7 +7566,15 @@
     "reason": "Route 13 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 13",
-    "after": "Route 13"
+    "after": "Route 13",
+    "built_references": [
+      {
+        "site": "0x3f1d10",
+        "target": "0x3eee07",
+        "hex": "cce3e9e8d900a2a4ff",
+        "decoded": "Route 13"
+      }
+    ]
   },
   {
     "offset": "0x3EEE10",
@@ -6228,7 +7600,15 @@
     "reason": "Route 14 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 14",
-    "after": "Route 14"
+    "after": "Route 14",
+    "built_references": [
+      {
+        "site": "0x3f1d14",
+        "target": "0x3eee10",
+        "hex": "cce3e9e8d900a2a5ff",
+        "decoded": "Route 14"
+      }
+    ]
   },
   {
     "offset": "0x3EEE19",
@@ -6254,7 +7634,15 @@
     "reason": "Route 15 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 15",
-    "after": "Route 15"
+    "after": "Route 15",
+    "built_references": [
+      {
+        "site": "0x3f1d18",
+        "target": "0x3eee19",
+        "hex": "cce3e9e8d900a2a6ff",
+        "decoded": "Route 15"
+      }
+    ]
   },
   {
     "offset": "0x3EEE22",
@@ -6280,7 +7668,15 @@
     "reason": "Route 16 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 16",
-    "after": "Route 16"
+    "after": "Route 16",
+    "built_references": [
+      {
+        "site": "0x3f1d1c",
+        "target": "0x3eee22",
+        "hex": "cce3e9e8d900a2a7ff",
+        "decoded": "Route 16"
+      }
+    ]
   },
   {
     "offset": "0x3EEE2B",
@@ -6306,7 +7702,15 @@
     "reason": "Route 17 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 17",
-    "after": "Route 17"
+    "after": "Route 17",
+    "built_references": [
+      {
+        "site": "0x3f1d20",
+        "target": "0x3eee2b",
+        "hex": "cce3e9e8d900a2a8ff",
+        "decoded": "Route 17"
+      }
+    ]
   },
   {
     "offset": "0x3EEE34",
@@ -6332,7 +7736,15 @@
     "reason": "Route 18 : désignation de route identique en allemand, nombre conservé ; référent dans la table des sections carte.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Route 18",
-    "after": "Route 18"
+    "after": "Route 18",
+    "built_references": [
+      {
+        "site": "0x3f1d24",
+        "target": "0x3eee34",
+        "hex": "cce3e9e8d900a2a9ff",
+        "decoded": "Route 18"
+      }
+    ]
   },
   {
     "offset": "0x3EEE7C",
@@ -6359,7 +7771,21 @@
     "reason": "Grim Woods : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Grim Woods",
-    "after": "Grim Woods"
+    "after": "Grim Woods",
+    "built_references": [
+      {
+        "site": "0x3f1b40",
+        "target": "0x3eee7c",
+        "hex": "c1e6dde100d1e3e3d8e7ff",
+        "decoded": "Grim Woods"
+      },
+      {
+        "site": "0x3f1d44",
+        "target": "0x3eee7c",
+        "hex": "c1e6dde100d1e3e3d8e7ff",
+        "decoded": "Grim Woods"
+      }
+    ]
   },
   {
     "offset": "0x3EEE9F",
@@ -6385,7 +7811,15 @@
     "reason": "Underground Pass : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Underground Pass",
-    "after": "Underground Pass"
+    "after": "Underground Pass",
+    "built_references": [
+      {
+        "site": "0x3f1d50",
+        "target": "0x3eee9f",
+        "hex": "cfe2d8d9e6dbe6e3e9e2d800cad5e7e7ff",
+        "decoded": "Underground Pass"
+      }
+    ]
   },
   {
     "offset": "0x3EEEC1",
@@ -6412,7 +7846,21 @@
     "reason": "Valley Cave : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Valley Cave",
-    "after": "Valley Cave"
+    "after": "Valley Cave",
+    "built_references": [
+      {
+        "site": "0x3f1b58",
+        "target": "0x3eeec1",
+        "hex": "d0d5e0e0d9ed00bdd5ead9ff",
+        "decoded": "Valley Cave"
+      },
+      {
+        "site": "0x3f1d58",
+        "target": "0x3eeec1",
+        "hex": "d0d5e0e0d9ed00bdd5ead9ff",
+        "decoded": "Valley Cave"
+      }
+    ]
   },
   {
     "offset": "0x3EEED0",
@@ -6439,7 +7887,21 @@
     "reason": "Victory Road : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Victory Road",
-    "after": "Victory Road"
+    "after": "Victory Road",
+    "built_references": [
+      {
+        "site": "0x3f1b64",
+        "target": "0x3eeed0",
+        "hex": "d0ddd7e8e3e6ed00cce3d5d8ff",
+        "decoded": "Victory Road"
+      },
+      {
+        "site": "0x3f1d5c",
+        "target": "0x3eeed0",
+        "hex": "d0ddd7e8e3e6ed00cce3d5d8ff",
+        "decoded": "Victory Road"
+      }
+    ]
   },
   {
     "offset": "0x3EEF12",
@@ -6465,7 +7927,15 @@
     "reason": "Pokémon League : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Pokémon League",
-    "after": "Pokémon League"
+    "after": "Pokémon League",
+    "built_references": [
+      {
+        "site": "0x3f1d70",
+        "target": "0x3eef12",
+        "hex": "cae3df1be1e3e200c6d9d5dbe9d9ff",
+        "decoded": "Pokémon League"
+      }
+    ]
   },
   {
     "offset": "0x3EEF2D",
@@ -6492,7 +7962,21 @@
     "reason": "Rift Cave : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Rift Cave",
-    "after": "Rift Cave"
+    "after": "Rift Cave",
+    "built_references": [
+      {
+        "site": "0x3f1b94",
+        "target": "0x3eef2d",
+        "hex": "ccdddae800bdd5ead9ff",
+        "decoded": "Rift Cave"
+      },
+      {
+        "site": "0x3f1d78",
+        "target": "0x3eef2d",
+        "hex": "ccdddae800bdd5ead9ff",
+        "decoded": "Rift Cave"
+      }
+    ]
   },
   {
     "offset": "0x3EEF3D",
@@ -6519,7 +8003,21 @@
     "reason": "Vivill Woods : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Vivill Woods",
-    "after": "Vivill Woods"
+    "after": "Vivill Woods",
+    "built_references": [
+      {
+        "site": "0x3f1ba0",
+        "target": "0x3eef3d",
+        "hex": "d0ddeadde0e000d1e3e3d8e7ff",
+        "decoded": "Vivill Woods"
+      },
+      {
+        "site": "0x3f1d7c",
+        "target": "0x3eef3d",
+        "hex": "d0ddeadde0e000d1e3e3d8e7ff",
+        "decoded": "Vivill Woods"
+      }
+    ]
   },
   {
     "offset": "0x3EEF4B",
@@ -6546,7 +8044,21 @@
     "reason": "Icicle Cave : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Icicle Cave",
-    "after": "Icicle Cave"
+    "after": "Icicle Cave",
+    "built_references": [
+      {
+        "site": "0x3f1bac",
+        "target": "0x3eef4b",
+        "hex": "c3d7ddd7e0d900bdd5ead9ff",
+        "decoded": "Icicle Cave"
+      },
+      {
+        "site": "0x3f1d80",
+        "target": "0x3eef4b",
+        "hex": "c3d7ddd7e0d900bdd5ead9ff",
+        "decoded": "Icicle Cave"
+      }
+    ]
   },
   {
     "offset": "0x3EEF94",
@@ -6572,7 +8084,15 @@
     "reason": "Cube Corp. : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Cube Corp.",
-    "after": "Cube Corp."
+    "after": "Cube Corp.",
+    "built_references": [
+      {
+        "site": "0x3f1d98",
+        "target": "0x3eef94",
+        "hex": "bde9d6d900bde3e6e4adff",
+        "decoded": "Cube Corp."
+      }
+    ]
   },
   {
     "offset": "0x3EEFEA",
@@ -6598,7 +8118,15 @@
     "reason": "Cave of Being : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Cave of Being",
-    "after": "Cave of Being"
+    "after": "Cave of Being",
+    "built_references": [
+      {
+        "site": "0x3f1db4",
+        "target": "0x3eefea",
+        "hex": "bdd5ead900e3da00bcd9dde2dbff",
+        "decoded": "Cave of Being"
+      }
+    ]
   },
   {
     "offset": "0x3EF133",
@@ -6624,7 +8152,15 @@
     "reason": "Battle Mine : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Battle Mine",
-    "after": "Battle Mine"
+    "after": "Battle Mine",
+    "built_references": [
+      {
+        "site": "0x3f1e14",
+        "target": "0x3ef133",
+        "hex": "bcd5e8e8e0d900c7dde2d9ff",
+        "decoded": "Battle Mine"
+      }
+    ]
   },
   {
     "offset": "0x3EF144",
@@ -6650,7 +8186,15 @@
     "reason": "Battle Tower : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Battle Tower",
-    "after": "Battle Tower"
+    "after": "Battle Tower",
+    "built_references": [
+      {
+        "site": "0x3f1e18",
+        "target": "0x3ef144",
+        "hex": "bcd5e8e8e0d900cee3ebd9e6ff",
+        "decoded": "Battle Tower"
+      }
+    ]
   },
   {
     "offset": "0x3EF183",
@@ -6677,7 +8221,21 @@
     "reason": "Autl Woods : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Autl Woods",
-    "after": "Autl Woods"
+    "after": "Autl Woods",
+    "built_references": [
+      {
+        "site": "0x3f1bf4",
+        "target": "0x3ef183",
+        "hex": "bbe9e8e000d1e3e3d8e7ff",
+        "decoded": "Autl Woods"
+      },
+      {
+        "site": "0x3f1e2c",
+        "target": "0x3ef183",
+        "hex": "bbe9e8e000d1e3e3d8e7ff",
+        "decoded": "Autl Woods"
+      }
+    ]
   },
   {
     "offset": "0x3EF193",
@@ -6703,7 +8261,15 @@
     "reason": "Cliff Cave : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Cliff Cave",
-    "after": "Cliff Cave"
+    "after": "Cliff Cave",
+    "built_references": [
+      {
+        "site": "0x3f1e30",
+        "target": "0x3ef193",
+        "hex": "bde0dddada00bdd5ead9ff",
+        "decoded": "Cliff Cave"
+      }
+    ]
   },
   {
     "offset": "0x3EF22E",
@@ -6730,7 +8296,21 @@
     "reason": "Dehara Dept. : toponyme EN volontaire de la politique DE (english_toponyms.yaml), graphie canonique conservée ; FR localise les lieux mais ce choix ne se transpose pas en DE.",
     "zone": "Carte / noms des zones et bâtiments",
     "before": "Dehara Dept.",
-    "after": "Dehara Dept."
+    "after": "Dehara Dept.",
+    "built_references": [
+      {
+        "site": "0xc4da0",
+        "target": "0x3ef22e",
+        "hex": "bed9dcd5e6d500bed9e4e8adff",
+        "decoded": "Dehara Dept."
+      },
+      {
+        "site": "0x3f1e5c",
+        "target": "0x3ef22e",
+        "hex": "bed9dcd5e6d500bed9e4e8adff",
+        "decoded": "Dehara Dept."
+      }
+    ]
   },
   {
     "offset": "0x3FB284",
@@ -6751,7 +8331,8 @@
     "reason": "Extraction tronquée 'a boosted', aucun référent absolu dans la ROM EN ; aucune traduction DE à ajouter sur ce suffixe.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3FB9D6",
@@ -6772,7 +8353,8 @@
     "reason": "Extraction tronquée 'l!', aucun référent absolu dans la ROM EN ; aucune traduction DE à ajouter sur ce suffixe.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3FBA2C",
@@ -6793,7 +8375,8 @@
     "reason": "Extraction tronquée 'd!', aucun référent absolu dans la ROM EN ; aucune traduction DE à ajouter sur ce suffixe.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3FC5E8",
@@ -6818,7 +8401,15 @@
     "before": null,
     "after": "Für <0xFD><0x13>,\\n<0xFD><0x16> <0xFD><0x00>",
     "expected_hex": "c0f6e600fd13b8fefd1600fd00ff",
-    "max_pixels_with_10_glyph_buffers": 126
+    "max_pixels_with_10_glyph_buffers": 126,
+    "built_references": [
+      {
+        "site": "0x3fe41c",
+        "target": "0x3fc5e8",
+        "hex": "c0f6e600fd13b8fefd1600fd00ff",
+        "decoded": "Für <0xFD><0x13>,\\n<0xFD><0x16> <0xFD><0x00>"
+      }
+    ]
   },
   {
     "offset": "0x3FC873",
@@ -6839,7 +8430,8 @@
     "reason": "Extraction tronquée 'ith ?ç!', aucun référent absolu dans la ROM EN ; aucune traduction DE à ajouter sur ce suffixe.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3FC92C",
@@ -6857,7 +8449,8 @@
     "reason": "Extraction tronquée ' little!', aucun référent absolu dans la ROM EN ; aucune traduction DE à ajouter sur ce suffixe.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3FCA27",
@@ -6878,7 +8471,8 @@
     "reason": "Extraction tronquée 'ack!', aucun référent absolu dans la ROM EN ; aucune traduction DE à ajouter sur ce suffixe.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3FCB4B",
@@ -6896,7 +8490,8 @@
     "reason": "Extraction tronquée 'ose!', aucun référent absolu dans la ROM EN ; aucune traduction DE à ajouter sur ce suffixe. Intérieur de rose! à 0x3FCB4A, cas de chevauchement documenté dans la mémoire phantom-tail-overlap ; ne pas réintroduire.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3FD361",
@@ -6917,7 +8512,8 @@
     "reason": "Extraction tronquée 'k!?\\n', aucun référent absolu dans la ROM EN ; aucune traduction DE à ajouter sur ce suffixe.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": []
   },
   {
     "offset": "0x3FD586",
@@ -6940,7 +8536,15 @@
     "reason": "Buffer de ponctuation ! appelé par le moteur (référent 0xd8784) ; absence DE légitime, aucun mot à traduire ni commande perdue.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0xd8784",
+        "target": "0x3fd586",
+        "hex": "abff",
+        "decoded": "!"
+      }
+    ]
   },
   {
     "offset": "0x3FD588",
@@ -6963,7 +8567,15 @@
     "reason": "Buffer de ponctuation ! appelé par le moteur (référent 0xd878c) ; absence DE légitime, aucun mot à traduire ni commande perdue.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0xd878c",
+        "target": "0x3fd588",
+        "hex": "abff",
+        "decoded": "!"
+      }
+    ]
   },
   {
     "offset": "0x3FD58A",
@@ -6986,6 +8598,14 @@
     "reason": "Buffer de ponctuation ! appelé par le moteur (référent 0xd8794) ; absence DE légitime, aucun mot à traduire ni commande perdue.",
     "zone": "Combat / fragments et buffers historiques",
     "before": null,
-    "after": null
+    "after": null,
+    "built_references": [
+      {
+        "site": "0xd8794",
+        "target": "0x3fd58a",
+        "hex": "abff",
+        "decoded": "!"
+      }
+    ]
   }
 ]

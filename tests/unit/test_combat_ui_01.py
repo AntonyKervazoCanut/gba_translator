@@ -11,9 +11,8 @@ from pathlib import Path
 
 import pytest
 
-from src.core.dialogue_linewrap import line_width
+from src.core.dialogue_linewrap import line_width, line_widths
 from src.core.text_codec import GERMAN_UMLAUT_CHARS, TextEncoder
-from src.core.dialogue_linewrap import line_widths
 
 ROOT = Path(__file__).resolve().parents[2]
 ROWS = json.loads((ROOT / 'tests/unit/fixtures/combat_ui_01.json').read_text())
@@ -45,6 +44,10 @@ def test_scope_and_decisions() -> None:
     digest = hashlib.sha256(b''.join(o.to_bytes(4, 'little') for o in offsets)).hexdigest()
     assert len(offsets) == len(set(offsets)) == 300
     assert digest == 'ca179097b066fa5b076900b0cde041a945ae64e5928edf533c2fa111633f72dc'
+    report = (ROOT / 'docs/analysis/667_COMBAT_UI_01_DE.md').read_text()
+    assert re.findall(r'^\| (0x[0-9A-F]+) \|', report, re.MULTILINE) == [
+        row['offset'] for row in ROWS
+    ]
     for row in ROWS:
         assert row['reason'] and row['zone'] and row['canonical']
         assert row['decision'] in {
@@ -108,11 +111,17 @@ def test_every_live_pointer(row: dict, roms: tuple[bytes, bytes]) -> None:
         src_controls = controls(expected, include_breaks=True)
         dst_controls = controls(actual, include_breaks=True)
         for breaks in (False, True):
-            select = lambda seq: [c for c in seq if (c[0] in (0xFA, 0xFB, 0xFE)) == breaks]
-            assert select(src_controls) == select(dst_controls), row['offset']
+            src = [c for c in src_controls if (c[0] in (0xFA, 0xFB, 0xFE)) == breaks]
+            dst = [c for c in dst_controls if (c[0] in (0xFA, 0xFB, 0xFE)) == breaks]
+            assert src == dst, row['offset']
         assert max(line_widths(visible_rom_text(actual))) <= 192, row['offset']
         if target == offset:
-            assert len(actual) <= len(original), row['offset']
+            # Une chaîne peut grandir en place dans son padding FF prouvé.
+            extra_start = offset + len(original)
+            extra_end = offset + len(actual)
+            assert all(byte == 0xFF for byte in source[extra_start:extra_end])
+            for address in range(extra_start, extra_end):
+                assert struct.pack('<I', address + 0x08000000) not in source
 
 
 def meaningful_tokens(raw: bytes) -> list[bytes]:
@@ -148,3 +157,34 @@ def visible_rom_text(raw: bytes) -> str:
             result.append(TextDecoder.decode_pokemon(bytes([code])))
         index += size
     return ''.join(result)
+
+
+@pytest.mark.rom
+@pytest.mark.private_build
+def test_relocations_and_non_overlap(roms: tuple[bytes, bytes]) -> None:
+    """Toute relocalisation occupe du FF ; les corrections restent disjointes."""
+    source, built = roms
+    spans = set()
+    for row in CORRECTED:
+        original = int(row['offset'], 16)
+        for site in row['sites']:
+            target = struct.unpack_from('<I', built, int(site, 16))[0] - 0x08000000
+            end = built.index(b'\xff', target) + 1
+            if target != original:
+                assert source[target:end] == b'\xff' * (end - target), row['offset']
+            spans.add((target, end, original))
+    ordered = sorted(spans)
+    for index in range(1, len(ordered)):
+        left, right = ordered[index - 1], ordered[index]
+        assert left[1] <= right[0], (left, right)
+
+
+@pytest.mark.rom
+@pytest.mark.private_build
+def test_structured_prefix_is_already_translated(roms: tuple[bytes, bytes]) -> None:
+    """Le suffixe traduit voisin rend 0x26D4DF correct sans écriture chevauchante."""
+    _, built = roms
+    expected = encoded(' <0xFC><0x03><0x00>  Fangen wir an!')
+    for site in (0x26D3C6, 0x26D3E4):
+        target = struct.unpack_from('<I', built, site)[0] - 0x08000000
+        assert built[target:target + len(expected)] == expected
