@@ -6900,3 +6900,7 @@ entries:
   name: English toponym canonicalisation 0x1FAA781
   issue: DE — English toponyms
   expected: Dieses Pokémon wurde tagsüber\noberhalb des Cinder Volcano gefunden, nachdem\nder Wasserfall hinaufgeschwommen wurde.
+- offset: '0xa438f0'
+  name: Menu de débogage — définir un flag
+  issue: B-671 combat_ui-05
+  expected: Flag setzen
