@@ -22176,3 +22176,828 @@ entries:
   - offset: "0x879590"
     name: "PT-30 0x879590"
     expected: 'TM12'
+  - offset: "0x87c8f4"
+    name: "PT-32 0x87c8f4"
+    expected: 'Fire Gem'
+  - offset: "0x87c920"
+    name: "PT-32 0x87c920"
+    expected: 'Water Gem'
+  - offset: "0x87c94c"
+    name: "PT-32 0x87c94c"
+    expected: 'Grass Gem'
+  - offset: "0x87c978"
+    name: "PT-32 0x87c978"
+    expected: 'Electric Gem'
+  - offset: "0x87c9a4"
+    name: "PT-32 0x87c9a4"
+    expected: 'Psychic Gem'
+  - offset: "0x87c9d0"
+    name: "PT-32 0x87c9d0"
+    expected: 'Ice Gem'
+  - offset: "0x87c9fc"
+    name: "PT-32 0x87c9fc"
+    expected: 'Dragon Gem'
+  - offset: "0x87ca28"
+    name: "PT-32 0x87ca28"
+    expected: 'Dark Gem'
+  - offset: "0x87ca54"
+    name: "PT-32 0x87ca54"
+    expected: 'Fairy Gem'
+  - offset: "0x87caac"
+    name: "PT-32 0x87caac"
+    expected: 'Health Wing'
+  - offset: "0x87cad8"
+    name: "PT-32 0x87cad8"
+    expected: 'Muscle Wing'
+  - offset: "0x87cb04"
+    name: "PT-32 0x87cb04"
+    expected: 'Resist Wing'
+  - offset: "0x87cb30"
+    name: "PT-32 0x87cb30"
+    expected: 'Genius Wing'
+  - offset: "0x87cb5c"
+    name: "PT-32 0x87cb5c"
+    expected: 'Clever Wing'
+  - offset: "0x87cb88"
+    name: "PT-32 0x87cb88"
+    expected: 'Swift Wing'
+  - offset: "0x87cbb4"
+    name: "PT-32 0x87cbb4"
+    expected: 'Pretty Wing'
+  - offset: "0x87cbe0"
+    name: "PT-32 0x87cbe0"
+    expected: 'Bottle Cap'
+  - offset: "0x87cc38"
+    name: "PT-32 0x87cc38"
+    expected: 'Red Nectar'
+  - offset: "0x87cc90"
+    name: "PT-32 0x87cc90"
+    expected: 'Pink Nectar'
+  - offset: "0x87ccbc"
+    name: "PT-32 0x87ccbc"
+    expected: 'Purp Nectar'
+  - offset: "0x87cce8"
+    name: "PT-32 0x87cce8"
+    expected: 'Fast Ball'
+  - offset: "0x87cd14"
+    name: "PT-32 0x87cd14"
+    expected: 'Level Ball'
+  - offset: "0x87cd40"
+    name: "PT-32 0x87cd40"
+    expected: 'Lure Ball'
+  - offset: "0x87cd6c"
+    name: "PT-32 0x87cd6c"
+    expected: 'Heavy Ball'
+  - offset: "0x87cd98"
+    name: "PT-32 0x87cd98"
+    expected: 'Love Ball'
+  - offset: "0x87cdc4"
+    name: "PT-32 0x87cdc4"
+    expected: 'Friend Ball'
+  - offset: "0x87cdf0"
+    name: "PT-32 0x87cdf0"
+    expected: 'Moon Ball'
+  - offset: "0x87ce1c"
+    name: "PT-32 0x87ce1c"
+    expected: 'Sport Ball'
+  - offset: "0x87ce48"
+    name: "PT-32 0x87ce48"
+    expected: 'Beast Ball'
+  - offset: "0x87ce74"
+    name: "PT-32 0x87ce74"
+    expected: 'Dream Ball'
+  - offset: "0x87cea0"
+    name: "PT-32 0x87cea0"
+    expected: 'Oval Charm'
+  - offset: "0x87cecc"
+    name: "PT-32 0x87cecc"
+    expected: 'Shiny Charm'
+  - offset: "0x87cef8"
+    name: "PT-32 0x87cef8"
+    expected: 'Burn Drive'
+  - offset: "0x87cf24"
+    name: "PT-32 0x87cf24"
+    expected: 'Douse Drive'
+  - offset: "0x87cf50"
+    name: "PT-32 0x87cf50"
+    expected: 'Shock Drive'
+  - offset: "0x87cf7c"
+    name: "PT-32 0x87cf7c"
+    expected: 'Chill Drive'
+  - offset: "0x87cfa8"
+    name: "PT-32 0x87cfa8"
+    expected: 'Fist Memory'
+  - offset: "0x87cfd4"
+    name: "PT-32 0x87cfd4"
+    expected: 'Sky Memory'
+  - offset: "0x87d000"
+    name: "PT-32 0x87d000"
+    expected: 'Toxic Memory'
+  - offset: "0x87d02c"
+    name: "PT-32 0x87d02c"
+    expected: 'Earth Memory'
+  - offset: "0x87d058"
+    name: "PT-32 0x87d058"
+    expected: 'Rock Memory'
+  - offset: "0x87d084"
+    name: "PT-32 0x87d084"
+    expected: 'Bug Memory'
+  - offset: "0x87d0b0"
+    name: "PT-32 0x87d0b0"
+    expected: 'Ghost Memory'
+  - offset: "0x87d0dc"
+    name: "PT-32 0x87d0dc"
+    expected: 'Steel Memory'
+  - offset: "0x87d108"
+    name: "PT-32 0x87d108"
+    expected: 'Fire Memory'
+  - offset: "0x87d134"
+    name: "PT-32 0x87d134"
+    expected: 'Water Memory'
+  - offset: "0x87d160"
+    name: "PT-32 0x87d160"
+    expected: 'Grass Memory'
+  - offset: "0x87d18c"
+    name: "PT-32 0x87d18c"
+    expected: 'Zap Memory'
+  - offset: "0x87d1b8"
+    name: "PT-32 0x87d1b8"
+    expected: 'Psych Memory'
+  - offset: "0x87d1e4"
+    name: "PT-32 0x87d1e4"
+    expected: 'Ice Memory'
+  - offset: "0x87d210"
+    name: "PT-32 0x87d210"
+    expected: 'Draco Memory'
+  - offset: "0x87d23c"
+    name: "PT-32 0x87d23c"
+    expected: 'Dark Memory'
+  - offset: "0x87d268"
+    name: "PT-32 0x87d268"
+    expected: 'Fairy Memory'
+  - offset: "0x87d294"
+    name: "PT-32 0x87d294"
+    expected: 'Rainbow Wing'
+  - offset: "0x87d2c0"
+    name: "PT-32 0x87d2c0"
+    expected: 'Silver Wing'
+  - offset: "0x87d2ec"
+    name: "PT-32 0x87d2ec"
+    expected: 'N-Solarizer'
+  - offset: "0x87d318"
+    name: "PT-32 0x87d318"
+    expected: 'N-Lunarizer'
+  - offset: "0x87d344"
+    name: "PT-32 0x87d344"
+    expected: 'Sun Flute'
+  - offset: "0x87d370"
+    name: "PT-32 0x87d370"
+    expected: 'Moon Flute'
+  - offset: "0x87d39c"
+    name: "PT-32 0x87d39c"
+    expected: 'Light Stone'
+  - offset: "0x87d3c8"
+    name: "PT-32 0x87d3c8"
+    expected: 'Dark Stone'
+  - offset: "0x87d3f4"
+    name: "PT-32 0x87d3f4"
+    expected: 'Relic Copper'
+  - offset: "0x87d420"
+    name: "PT-32 0x87d420"
+    expected: 'Relic Silver'
+  - offset: "0x87d44c"
+    name: "PT-32 0x87d44c"
+    expected: 'Relic Gold'
+  - offset: "0x87d478"
+    name: "PT-32 0x87d478"
+    expected: 'Relic Vase'
+  - offset: "0x87d4a4"
+    name: "PT-32 0x87d4a4"
+    expected: 'Relic Band'
+  - offset: "0x87d4d0"
+    name: "PT-32 0x87d4d0"
+    expected: 'Relic Statue'
+  - offset: "0x87d4fc"
+    name: "PT-32 0x87d4fc"
+    expected: 'Relic Crown'
+  - offset: "0x87d528"
+    name: "PT-32 0x87d528"
+    expected: 'Normalium Z'
+  - offset: "0x87d554"
+    name: "PT-32 0x87d554"
+    expected: 'Fightinium Z'
+  - offset: "0x87d580"
+    name: "PT-32 0x87d580"
+    expected: 'Flyinium Z'
+  - offset: "0x87d5ac"
+    name: "PT-32 0x87d5ac"
+    expected: 'Poisonium Z'
+  - offset: "0x87d5d8"
+    name: "PT-32 0x87d5d8"
+    expected: 'Groundium Z'
+  - offset: "0x87d604"
+    name: "PT-32 0x87d604"
+    expected: 'Rockium Z'
+  - offset: "0x87d630"
+    name: "PT-32 0x87d630"
+    expected: 'Buginium Z'
+  - offset: "0x87d65c"
+    name: "PT-32 0x87d65c"
+    expected: 'Ghostium Z'
+  - offset: "0x87d688"
+    name: "PT-32 0x87d688"
+    expected: 'Steelium Z'
+  - offset: "0x87d6b4"
+    name: "PT-32 0x87d6b4"
+    expected: 'Firium Z'
+  - offset: "0x87d6e0"
+    name: "PT-32 0x87d6e0"
+    expected: 'Waterium Z'
+  - offset: "0x87d70c"
+    name: "PT-32 0x87d70c"
+    expected: 'Grassium Z'
+  - offset: "0x87d738"
+    name: "PT-32 0x87d738"
+    expected: 'Electrium Z'
+  - offset: "0x87d764"
+    name: "PT-32 0x87d764"
+    expected: 'Psychium Z'
+  - offset: "0x87d790"
+    name: "PT-32 0x87d790"
+    expected: 'Icium Z'
+  - offset: "0x87d7bc"
+    name: "PT-32 0x87d7bc"
+    expected: 'Dragonium Z'
+  - offset: "0x87d7e8"
+    name: "PT-32 0x87d7e8"
+    expected: 'Darkinium Z'
+  - offset: "0x87d814"
+    name: "PT-32 0x87d814"
+    expected: 'Fairium Z'
+  - offset: "0x87d840"
+    name: "PT-32 0x87d840"
+    expected: 'Alorichium Z'
+  - offset: "0x87d86c"
+    name: "PT-32 0x87d86c"
+    expected: 'Decidium Z'
+  - offset: "0x87d898"
+    name: "PT-32 0x87d898"
+    expected: 'Eevium Z'
+  - offset: "0x87d8c4"
+    name: "PT-32 0x87d8c4"
+    expected: 'Incinium Z'
+  - offset: "0x87d8f0"
+    name: "PT-32 0x87d8f0"
+    expected: 'Kommonium Z'
+  - offset: "0x87d91c"
+    name: "PT-32 0x87d91c"
+    expected: 'Lunalium Z'
+  - offset: "0x87d948"
+    name: "PT-32 0x87d948"
+    expected: 'Lycanium Z'
+  - offset: "0x87d974"
+    name: "PT-32 0x87d974"
+    expected: 'Marshadium Z'
+  - offset: "0x87d9a0"
+    name: "PT-32 0x87d9a0"
+    expected: 'Mewnium Z'
+  - offset: "0x87d9cc"
+    name: "PT-32 0x87d9cc"
+    expected: 'Mimikium Z'
+  - offset: "0x87d9f8"
+    name: "PT-32 0x87d9f8"
+    expected: 'Pikanium Z'
+  - offset: "0x87da24"
+    name: "PT-32 0x87da24"
+    expected: 'Pikasunium Z'
+  - offset: "0x87da50"
+    name: "PT-32 0x87da50"
+    expected: 'Primarium Z'
+  - offset: "0x87da7c"
+    name: "PT-32 0x87da7c"
+    expected: 'Snorlium Z'
+  - offset: "0x87daa8"
+    name: "PT-32 0x87daa8"
+    expected: 'Solganium Z'
+  - offset: "0x87dad4"
+    name: "PT-32 0x87dad4"
+    expected: 'Tapunium Z'
+  - offset: "0x87db00"
+    name: "PT-32 0x87db00"
+    expected: 'Eject Pack'
+  - offset: "0x87db2c"
+    name: "PT-32 0x87db2c"
+    expected: 'Room Service'
+  - offset: "0x87db84"
+    name: "PT-32 0x87db84"
+    expected: 'Heavy Boots'
+  - offset: "0x87dbdc"
+    name: "PT-32 0x87dbdc"
+    expected: 'Throat Spray'
+  - offset: "0x87dc60"
+    name: "PT-32 0x87dc60"
+    expected: 'Sweet Apple'
+  - offset: "0x87dc8c"
+    name: "PT-32 0x87dc8c"
+    expected: 'Tart Apple'
+  - offset: "0x87dcb8"
+    name: "PT-32 0x87dcb8"
+    expected: 'Cracked Pot'
+  - offset: "0x87dce4"
+    name: "PT-32 0x87dce4"
+    expected: 'Chipped Pot'
+  - offset: "0x87dd3c"
+    name: "PT-32 0x87dd3c"
+    expected: 'Berry Sweet'
+  - offset: "0x87dd68"
+    name: "PT-32 0x87dd68"
+    expected: 'Love Sweet'
+  - offset: "0x87dd94"
+    name: "PT-32 0x87dd94"
+    expected: 'Clover Sweet'
+  - offset: "0x87ddc0"
+    name: "PT-32 0x87ddc0"
+    expected: 'Flower Sweet'
+  - offset: "0x87ddec"
+    name: "PT-32 0x87ddec"
+    expected: 'Ribbon Sweet'
+  - offset: "0x87de18"
+    name: "PT-32 0x87de18"
+    expected: 'Star Sweet'
+  - offset: "0x87de9c"
+    name: "PT-32 0x87de9c"
+    expected: 'Reins of Uni'
+  - offset: "0x87def4"
+    name: "PT-32 0x87def4"
+    expected: 'Peat Block'
+  - offset: "0x87df20"
+    name: "PT-32 0x87df20"
+    expected: 'Hisui Rock'
+  - offset: "0x883590"
+    name: "PT-32 0x883590"
+    expected: 'drasticamente<0x00>'
+  - offset: "0x8835a0"
+    name: "PT-32 0x8835a0"
+    expected: 'severamente<0x00>'
+  - offset: "0x8835b0"
+    name: "PT-32 0x8835b0"
+    expected: '<0xFD><0x02> resistiu ao veneno.\nO veneno passou!<0xFB>'
+  - offset: "0x8854b0"
+    name: "PT-32 0x8854b0"
+    expected: 'Você recebeu um desafio de\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>'
+  - offset: "0x88882a"
+    name: "PT-32 0x88882a"
+    expected: 'Quer subir a\nescada?'
+  - offset: "0x88884e"
+    name: "PT-32 0x88884e"
+    expected: 'Não dá para alcançar a escada\ndaqui.'
+  - offset: "0x893a1f"
+    name: "PT-32 0x893a1f"
+    expected: '<0xFD><0x02>,\nfica ¥<0xFD><0x03>. Tudo bem?'
+  - offset: "0x8a0b40"
+    name: "PT-32 0x8a0b40"
+    expected: 'O golpe de Fogo se apagou\nna chuva forte!'
+  - offset: "0x8a0c4c"
+    name: "PT-32 0x8a0c4c"
+    expected: '<0xFD><0x0F> sofre dano\npor <0xFD><0x16>!'
+  - offset: "0x8a0d00"
+    name: "PT-32 0x8a0d00"
+    expected: '<0xFD><0x0F> recuperou\nalguns PS com <0xFD><0x16>!'
+  - offset: "0x8a3d40"
+    name: "PT-32 0x8a3d40"
+    expected: '<0xFD><0x10>: <0xFD><0x16>\nferiu <0xFD><0x0F>!'
+  - offset: "0x8a475b"
+    name: "PT-32 0x8a475b"
+    expected: '<0xFD><0x01> usou Repel.'
+  - offset: "0x8a476e"
+    name: "PT-32 0x8a476e"
+    expected: '<0xFD><0x01> usou Super Repel.'
+  - offset: "0x8a4787"
+    name: "PT-32 0x8a4787"
+    expected: '<0xFD><0x01> usou Max Repel.'
+  - offset: "0x8a479e"
+    name: "PT-32 0x8a479e"
+    expected: 'O efeito do Repel acabou!'
+  - offset: "0x8a47bd"
+    name: "PT-32 0x8a47bd"
+    expected: 'Você não tem mais Repels.'
+  - offset: "0x8a47da"
+    name: "PT-32 0x8a47da"
+    expected: 'Não há mais Super Repels.'
+  - offset: "0x8a47fd"
+    name: "PT-32 0x8a47fd"
+    expected: 'Não há mais Max Repels.'
+  - offset: "0x8a481e"
+    name: "PT-32 0x8a481e"
+    expected: 'Quer usar outro\nRepel?'
+  - offset: "0x8a90f9"
+    name: "PT-32 0x8a90f9"
+    expected: 'AKLOV'
+  - offset: "0x8a9876"
+    name: "PT-32 0x8a9876"
+    expected: '<0xFD><0x14> protegeu\na equipe adversária!'
+  - offset: "0x8a9898"
+    name: "PT-32 0x8a9898"
+    expected: '<0xFD><0x0F> ergue\num tatame contra os golpes!'
+  - offset: "0x8a98d0"
+    name: "PT-32 0x8a98d0"
+    expected: 'Wide Guard protegeu\n<0xFD><0x10>!'
+  - offset: "0x8a98e9"
+    name: "PT-32 0x8a98e9"
+    expected: 'Quick Guard protegeu\n<0xFD><0x10>!'
+  - offset: "0x8a9903"
+    name: "PT-32 0x8a9903"
+    expected: 'Crafty Shield protegeu\n<0xFD><0x10>!'
+  - offset: "0x8a991f"
+    name: "PT-32 0x8a991f"
+    expected: '<0xFD><0x14> foi bloqueado\npelo tatame erguido!'
+  - offset: "0x8a9944"
+    name: "PT-32 0x8a9944"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\naumentou muito <0xFD><0x00>!'
+  - offset: "0x8a9963"
+    name: "PT-32 0x8a9963"
+    expected: '<0xFD><0x0F> foi ferido!\n<0xFD><0x10>: Spiky Shield!'
+  - offset: "0x8a9bb0"
+    name: "PT-32 0x8a9bb0"
+    expected: 'Os efeitos de proteção sumiram\ndo lado do alvo!'
+  - offset: "0x8a9c40"
+    name: "PT-32 0x8a9c40"
+    expected: '<0xFD><0x0F> desapareceu\nnum instante!'
+  - offset: "0x8aa30c"
+    name: "PT-32 0x8aa30c"
+    expected: 'É um meteoro vindo do espaço...'
+  - offset: "0x8aa332"
+    name: "PT-32 0x8aa332"
+    expected: '<0xFD><0x03> reage ao meteorito...'
+  - offset: "0x8aa355"
+    name: "PT-32 0x8aa355"
+    expected: 'Quer aproximar o Deoxys\nda sua equipe<0xFB>do meteorito?'
+  - offset: "0x8aa39f"
+    name: "PT-32 0x8aa39f"
+    expected: '<0xFD><0x03> mudou para\nter mais força de ataque!'
+  - offset: "0x8aa3d4"
+    name: "PT-32 0x8aa3d4"
+    expected: '<0xFD><0x03> mudou para\nter mais força de defesa!'
+  - offset: "0x8aa40a"
+    name: "PT-32 0x8aa40a"
+    expected: '<0xFD><0x03> mudou para\nter mais velocidade!'
+  - offset: "0x8aa432"
+    name: "PT-32 0x8aa432"
+    expected: '<0xFD><0x03> mudou para\nter atributos equilibrados!'
+  - offset: "0x8aa459"
+    name: "PT-32 0x8aa459"
+    expected: 'O Pokémon não reage\nao meteoro.'
+  - offset: "0x8aa4b3"
+    name: "PT-32 0x8aa4b3"
+    expected: '<0xFD><0x03> mudou de forma!'
+  - offset: "0x8aa54b"
+    name: "PT-32 0x8aa54b"
+    expected: 'Não terá efeito algum!'
+  - offset: "0x8aa564"
+    name: "PT-32 0x8aa564"
+    expected: '<0xFD><0x03> mudou de forma!'
+  - offset: "0x8aa575"
+    name: "PT-32 0x8aa575"
+    expected: 'Não há Kyurem na equipe!'
+  - offset: "0x8aa596"
+    name: "PT-32 0x8aa596"
+    expected: 'Não são permitidas várias fusões!'
+  - offset: "0x8aa5b8"
+    name: "PT-32 0x8aa5b8"
+    expected: 'Não há espaço suficiente na equipe!'
+  - offset: "0x8aa800"
+    name: "PT-32 0x8aa800"
+    expected: 'Oh? <0xFD><0x03> quer\ninvestigar os motores<0xFA>dos aparelhos elétricos.'
+  - offset: "0x8aa84a"
+    name: "PT-32 0x8aa84a"
+    expected: 'Tudo bem?'
+  - offset: "0x8aa856"
+    name: "PT-32 0x8aa856"
+    expected: 'Em qual aparelho você\nvai deixar <0xFD><0x03> entrar?'
+  - offset: "0x8aa88b"
+    name: "PT-32 0x8aa88b"
+    expected: '<0xFD><0x03> entrou nos motores.'
+  - offset: "0x8aa8a2"
+    name: "PT-32 0x8aa8a2"
+    expected: '<0xFD><0x03> saiu dos motores.'
+  - offset: "0x8aa8be"
+    name: "PT-32 0x8aa8be"
+    expected: '<0xFD><0x03> esqueceu <0xFD><0x04>!'
+  - offset: "0x8aa8cc"
+    name: "PT-32 0x8aa8cc"
+    expected: '<0xFD><0x03> aprendeu <0xFD><0x04>!'
+  - offset: "0x8aa8db"
+    name: "PT-32 0x8aa8db"
+    expected: '<0xFD><0x03> quer\naprender <0xFD><0x04>.<0xFB>Mas só pode aprender\naté quatro movimentos.<0xFB>Apagar um movimento\npara aprender <0xFD><0x04>?'
+  - offset: "0x8aa942"
+    name: "PT-32 0x8aa942"
+    expected: '<0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2 e<0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00> Puf!'
+  - offset: "0x8aa96d"
+    name: "PT-32 0x8aa96d"
+    expected: 'Este Rotom já entrou\nno motor desse aparelho.'
+  - offset: "0x8aa9a2"
+    name: "PT-32 0x8aa9a2"
+    expected: '<0xFD><0x03> não entrou num motor.'
+  - offset: "0x8aa9bd"
+    name: "PT-32 0x8aa9bd"
+    expected: 'Este Rotom não é válido.'
+  - offset: "0x8aa9ff"
+    name: "PT-32 0x8aa9ff"
+    expected: '<0xFD><0x03> mudou de forma!'
+  - offset: "0x8aaa55"
+    name: "PT-32 0x8aaa55"
+    expected: '<0xFD><0x03> mudou à forma <0xFC><0x01><0x0F>Therian<0xFC><0x01><0x02>!'
+  - offset: "0x8aaa77"
+    name: "PT-32 0x8aaa77"
+    expected: '<0xFD><0x03> mudou à forma <0xFC><0x01><0x0F>Incarnate<0xFC><0x01><0x02>!'
+  - offset: "0x8ab7d0"
+    name: "PT-32 0x8ab7d0"
+    expected: 'Há caixas de papelão cheias\nde aparelhos elétricos.'
+  - offset: "0x8ac410"
+    name: "PT-32 0x8ac410"
+    expected: '<0xFD><0x10>: <0xFD><0x16>\nreduziu a força de <0xFD><0x14>!'
+  - offset: "0x8b105b"
+    name: "PT-32 0x8b105b"
+    expected: '<0xF8><0x0C>MOVER <0xF8><0x00>SOLTAR <0xF8><0x01>SAIR'
+  - offset: "0x8b2fbb"
+    name: "PT-32 0x8b2fbb"
+    expected: 'Segure <0xFC><0x01><0x06>B <0xFC><0x01><0x02>para correr!'
+  - offset: "0x8b4ec0"
+    name: "PT-32 0x8b4ec0"
+    expected: '<0xFD><0x10>\n<0xFD><0x16> elevou Ataque Especial!'
+  - offset: "0x8b5030"
+    name: "PT-32 0x8b5030"
+    expected: '<0xFD><0x10>\n<0xFD><0x16> elevou seu Ataque!'
+  - offset: "0x8b50a0"
+    name: "PT-32 0x8b50a0"
+    expected: '<0xFD><0x10>: Adrenaline Orb\naumentou sua Velocidade!'
+  - offset: "0x8b5b10"
+    name: "PT-32 0x8b5b10"
+    expected: '<0xFD><0x10> é trocado\ncom <0xFD><0x16>!'
+  - offset: "0x8b5c70"
+    name: "PT-32 0x8b5c70"
+    expected: '<0xFD><0x10>: <0xFD><0x16>\ncontra <0xFD><0x0F>!'
+  - offset: "0x8b5c90"
+    name: "PT-32 0x8b5c90"
+    expected: 'Mas <0xFD><0x0F> se firmou\ncom suas raízes!'
+  - offset: "0x8b5cc0"
+    name: "PT-32 0x8b5cc0"
+    expected: 'Mas <0xFD><0x0F> se firma\ncom <0xFD><0x18>!'
+  - offset: "0x8b5d90"
+    name: "PT-32 0x8b5d90"
+    expected: '<0xFD><0x16> grudou em\n<0xFD><0x0F>!'
+  - offset: "0x8b68a0"
+    name: "PT-32 0x8b68a0"
+    expected: '<0xFD><0x0F> desfez\no cardume!'
+  - offset: "0x8b68c0"
+    name: "PT-32 0x8b68c0"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nse ativou!'
+  - offset: "0x8b6d90"
+    name: "PT-32 0x8b6d90"
+    expected: '<0xFD><0x0F> virou\nAsh-Greninja!'
+  - offset: "0x8b6ff0"
+    name: "PT-32 0x8b6ff0"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nse ativou!'
+  - offset: "0x8b7010"
+    name: "PT-32 0x8b7010"
+    expected: '<0xFD><0x0F> assumiu\na forma de lâmina!'
+  - offset: "0x8b7070"
+    name: "PT-32 0x8b7070"
+    expected: '<0xFD><0x0F> assumiu\na forma de escudo!'
+  - offset: "0x8b7270"
+    name: "PT-32 0x8b7270"
+    expected: 'A explosão de fogo atingiu\n<0xFD><0x10>!'
+  - offset: "0x8b74f0"
+    name: "PT-32 0x8b74f0"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\ntornou a luz solar extrema!'
+  - offset: "0x8b7580"
+    name: "PT-32 0x8b7580"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nfez cair uma chuva forte!'
+  - offset: "0x8b7610"
+    name: "PT-32 0x8b7610"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\ntrouxe uma corrente de ar<0xFA>que protege Pokémon Voadores!'
+  - offset: "0x8b7850"
+    name: "PT-32 0x8b7850"
+    expected: 'O golpe de Água evaporou\nna luz solar intensa!'
+  - offset: "0x8b7960"
+    name: "PT-32 0x8b7960"
+    expected: '<0xFD><0x10> se envolve\nnum terreno psíquico!'
+  - offset: "0x8b7c90"
+    name: "PT-32 0x8b7c90"
+    expected: '<0xFD><0x0F> estremeceu!'
+  - offset: "0x8b7d50"
+    name: "PT-32 0x8b7d50"
+    expected: '<0xFD><0x0F> sofreu dano:\n<0xFD><0x10>: <0xFD><0x19>'
+  - offset: "0x8b7f30"
+    name: "PT-32 0x8b7f30"
+    expected: '<0xFD><0x10>: seu disfarce\nserviu de isca!'
+  - offset: "0x8b7f60"
+    name: "PT-32 0x8b7f60"
+    expected: '<0xFD><0x10>: seu disfarce\nse rompeu!'
+  - offset: "0x8b8030"
+    name: "PT-32 0x8b8030"
+    expected: '<0xFD><0x10> sofre:\n<0xFD><0x0F>: <0xFD><0x18>'
+  - offset: "0x8b8180"
+    name: "PT-32 0x8b8180"
+    expected: '<0xFD><0x0F> achou\n<0xFD><0x16> com <0xFD><0x18>!'
+  - offset: "0x8b8280"
+    name: "PT-32 0x8b8280"
+    expected: '<0xFD><0x0F> colheu\n<0xFD><0x16> com <0xFD><0x18>!'
+  - offset: "0x8b84a0"
+    name: "PT-32 0x8b84a0"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\ndeixou sua equipe nervosa<0xFA>demais para comer Berries!'
+  - offset: "0x8b84e0"
+    name: "PT-32 0x8b84e0"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\na equipe rival teme comer Berries!'
+  - offset: "0x8b8630"
+    name: "PT-32 0x8b8630"
+    expected: '<0xFD><0x10> assumiu\n<0xFD><0x19>!'
+  - offset: "0x8b9010"
+    name: "PT-32 0x8b9010"
+    expected: 'O Tailwind da sua equipe acabou!'
+  - offset: "0x8b9032"
+    name: "PT-32 0x8b9032"
+    expected: 'O Tailwind da equipe rival\nacabou!'
+  - offset: "0x8b905c"
+    name: "PT-32 0x8b905c"
+    expected: 'O Lucky Chant da sua equipe acabou!'
+  - offset: "0x8b907e"
+    name: "PT-32 0x8b907e"
+    expected: 'O Lucky Chant da equipe rival\nacabou!'
+  - offset: "0x8b90a8"
+    name: "PT-32 0x8b90a8"
+    expected: 'O arco-íris do seu lado\ndesapareceu!'
+  - offset: "0x8b90d5"
+    name: "PT-32 0x8b90d5"
+    expected: 'O arco-íris do lado adversário\ndesapareceu!'
+  - offset: "0x8b910a"
+    name: "PT-32 0x8b910a"
+    expected: 'O mar de fogo ao redor da sua\nequipe desapareceu!'
+  - offset: "0x8b913d"
+    name: "PT-32 0x8b913d"
+    expected: 'O mar de fogo ao redor da equipe\nrival desapareceu!'
+  - offset: "0x8b9178"
+    name: "PT-32 0x8b9178"
+    expected: 'O pântano ao redor da sua equipe\ndesapareceu!'
+  - offset: "0x8b91a0"
+    name: "PT-32 0x8b91a0"
+    expected: 'O pântano ao redor da equipe\nrival desapareceu!'
+  - offset: "0x8b91d0"
+    name: "PT-32 0x8b91d0"
+    expected: 'As dimensões distorcidas\nvoltaram ao normal!'
+  - offset: "0x8b91fb"
+    name: "PT-32 0x8b91fb"
+    expected: 'O efeito de Water Sport acabou!'
+  - offset: "0x8b921b"
+    name: "PT-32 0x8b921b"
+    expected: 'O efeito de Mud Sport acabou!'
+  - offset: "0x8b9239"
+    name: "PT-32 0x8b9239"
+    expected: 'Wonder Room acabou! Defesa e\nDefesa Especial voltam ao normal!'
+  - offset: "0x8b9286"
+    name: "PT-32 0x8b9286"
+    expected: 'Magic Room acabou! Os itens\nvoltam a ter efeito!'
+  - offset: "0x8b92c7"
+    name: "PT-32 0x8b92c7"
+    expected: 'A gravidade voltou ao normal!'
+  - offset: "0x8b92e3"
+    name: "PT-32 0x8b92e3"
+    expected: 'O terreno voltou ao normal!'
+  - offset: "0x8b9460"
+    name: "PT-32 0x8b9460"
+    expected: '<0xFD><0x0F> sofre dano\npelo mar de fogo!'
+  - offset: "0x8b9480"
+    name: "PT-32 0x8b9480"
+    expected: 'O terreno de grama recuperou\na saúde de <0xFD><0x0F>!'
+  - offset: "0x8b99b0"
+    name: "PT-32 0x8b99b0"
+    expected: '<0xFD><0x0F>: <0xFD><0x16>\nrestaurou seu estado mental!'
+  - offset: "0x8b9a40"
+    name: "PT-32 0x8b9a40"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\nrecuperou seus PS!'
+  - offset: "0x8b9aa0"
+    name: "PT-32 0x8b9aa0"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nrecuperou seus PS!'
+  - offset: "0x8b9bd0"
+    name: "PT-32 0x8b9bd0"
+    expected: '<0xFD><0x10> evita\ngolpes do seu Pokémon aliado!'
+  - offset: "0x8b9d20"
+    name: "PT-32 0x8b9d20"
+    expected: '<0xFD><0x10>: <0xFD><0x16>\naumentou sua Defesa!'
+  - offset: "0x8b9d40"
+    name: "PT-32 0x8b9d40"
+    expected: '<0xFD><0x10>: <0xFD><0x16>\naumentou sua Defesa Especial!'
+  - offset: "0x8b9f80"
+    name: "PT-32 0x8b9f80"
+    expected: 'A grama cobriu o campo de batalha!'
+  - offset: "0x8ba000"
+    name: "PT-32 0x8ba000"
+    expected: 'Névoa envolve o campo de batalha!'
+  - offset: "0x8ba080"
+    name: "PT-32 0x8ba080"
+    expected: 'O campo de batalha ficou estranho!'
+  - offset: "0x8ba160"
+    name: "PT-32 0x8ba160"
+    expected: '<0xFD><0x16> aumentou\na força de <0xFD><0x01>'
+  - offset: "0x8ba360"
+    name: "PT-32 0x8ba360"
+    expected: '<0xFD><0x0F>: <0xFD><0x16>\nfoi dado a <0xFD><0x10><0xFA>por <0xFD><0x18>!'
+  - offset: "0x8ba8b0"
+    name: "PT-32 0x8ba8b0"
+    expected: 'A luz solar extrema se apagou!'
+  - offset: "0x8ba8e0"
+    name: "PT-32 0x8ba8e0"
+    expected: 'A misteriosa corrente de ar\nse dissipou!'
+  - offset: "0x8baee0"
+    name: "PT-32 0x8baee0"
+    expected: '<0xFD><0x0F>: <0xFD><0x16>\ndeixou-o agir primeiro!'
+  - offset: "0x8bb1e0"
+    name: "PT-32 0x8bb1e0"
+    expected: '<0xFD><0x13> sofre dano\npelos Spikes!'
+  - offset: "0x8bb200"
+    name: "PT-32 0x8bb200"
+    expected: '<0xFD><0x0F> flutua\ncom seu Air Balloon!'
+  - offset: "0x8bb430"
+    name: "PT-32 0x8bb430"
+    expected: '<0xFD><0x0F>:\nPrimal Reversion!<0xFB>Voltou à sua forma primitiva!'
+  - offset: "0x8bbb80"
+    name: "PT-32 0x8bbb80"
+    expected: '<0xFD><0x0F> se transformou!'
+  - offset: "0x8bbe50"
+    name: "PT-32 0x8bbe50"
+    expected: '<0xFD><0x0F>: seu\neletromagnetismo acabou!'
+  - offset: "0x8bbe70"
+    name: "PT-32 0x8bbe70"
+    expected: '<0xFD><0x0F> se livrou\nda telecinese!'
+  - offset: "0x8bbea0"
+    name: "PT-32 0x8bbea0"
+    expected: '<0xFD><0x0F>:\nHeal Block acabou!'
+  - offset: "0x8bbec0"
+    name: "PT-32 0x8bbec0"
+    expected: 'O Aurora Veil da sua equipe\nacabou!'
+  - offset: "0x8bbef0"
+    name: "PT-32 0x8bbef0"
+    expected: 'O Aurora Veil da equipe rival\nacabou!'
+  - offset: "0x8bc230"
+    name: "PT-32 0x8bc230"
+    expected: 'Uma corrente elétrica percorre\no campo de batalha.'
+  - offset: "0x8bc270"
+    name: "PT-32 0x8bc270"
+    expected: 'A grama cobre o campo de batalha.'
+  - offset: "0x8bc290"
+    name: "PT-32 0x8bc290"
+    expected: 'Névoa envolve o campo de batalha.'
+  - offset: "0x8bc2c0"
+    name: "PT-32 0x8bc2c0"
+    expected: 'O campo de batalha está estranho.'
+  - offset: "0x8bc450"
+    name: "PT-32 0x8bc450"
+    expected: 'O tipo Fantasma foi dado a\n<0xFD><0x10>!'
+  - offset: "0x8bc470"
+    name: "PT-32 0x8bc470"
+    expected: 'O tipo Planta foi dado a\n<0xFD><0x10>!'
+  - offset: "0x8bc630"
+    name: "PT-32 0x8bc630"
+    expected: '<0xFD><0x10> mudou\npara o tipo Água!'
+  - offset: "0x8bc990"
+    name: "PT-32 0x8bc990"
+    expected: '<0xFD><0x10> foi\nimpedido de se curar!'
+  - offset: "0x8bc9b0"
+    name: "PT-32 0x8bc9b0"
+    expected: '<0xFD><0x10> não pode\nmais usar itens!'
+  - offset: "0x8bc9d0"
+    name: "PT-32 0x8bc9d0"
+    expected: '<0xFD><0x10> está coberto\nde pó!'
+  - offset: "0x8bc9f0"
+    name: "PT-32 0x8bc9f0"
+    expected: '<0xFD><0x10> foi lançado\npara o alto!'
+  - offset: "0x8bca10"
+    name: "PT-32 0x8bca10"
+    expected: '<0xFD><0x0F> não usa golpes\nsonoros após Throat Chop!'
+  - offset: "0x8bca60"
+    name: "PT-32 0x8bca60"
+    expected: 'O pó explodiu com a chama\nsobre <0xFD><0x0F>!'
+  - offset: "0x8bce60"
+    name: "PT-32 0x8bce60"
+    expected: '<0xFD><0x10> caiu\ndireto no chão!'
+  - offset: "0x8bcfd0"
+    name: "PT-32 0x8bcfd0"
+    expected: '<0xFD><0x0F> armou\num Shell Trap!'
+  - offset: "0x8bd140"
+    name: "PT-32 0x8bd140"
+    expected: 'Um <0xFD><0x06> selvagem apareceu!<0xFB>'
+  - offset: "0x8bd3f0"
+    name: "PT-32 0x8bd3f0"
+    expected: '<0xFD><0x10>: os atributos\nalterados foram invertidos!'
+  - offset: "0x8bd420"
+    name: "PT-32 0x8bd420"
+    expected: '<0xFD><0x10>: seus golpes\nforam eletrificados!'
+  - offset: "0x8bee00"
+    name: "PT-32 0x8bee00"
+    expected: '<0xFD><0x10> se apaixonou\npor causa de Destiny Knot!'
+  - offset: "0x8bef20"
+    name: "PT-32 0x8bef20"
+    expected: 'Flower Veil impediu\n<0xFD><0x13>: <0xFD><0x00><0xFA>não teve efeito!'
+  - offset: "0x8bf360"
+    name: "PT-32 0x8bf360"
+    expected: '<0xFD><0x10>: <0xFD><0x16>\nfixou sua mira no alvo!'

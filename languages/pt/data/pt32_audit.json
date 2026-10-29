@@ -1,0 +1,5384 @@
+{
+  "batch": "PT-32",
+  "domain": "Objets en table fixe, combat et changements de forme",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "entries": [
+    {
+      "offset": "0x87c8f4",
+      "english_reference": "Fire Gem",
+      "french_reference": null,
+      "source_hex": "c0dde6d900c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Fire Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 9,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 599,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x87c920",
+      "english_reference": "Water Gem",
+      "french_reference": null,
+      "source_hex": "d1d5e8d9e600c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Water Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 600,
+      "line_widths": [
+        52
+      ]
+    },
+    {
+      "offset": "0x87c94c",
+      "english_reference": "Grass Gem",
+      "french_reference": null,
+      "source_hex": "c1e6d5e7e700c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Grass Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 601,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x87c978",
+      "english_reference": "Electric Gem",
+      "french_reference": null,
+      "source_hex": "bfe0d9d7e8e6ddd700c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Electric Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 602,
+      "line_widths": [
+        67
+      ]
+    },
+    {
+      "offset": "0x87c9a4",
+      "english_reference": "Psychic Gem",
+      "french_reference": null,
+      "source_hex": "cae7edd7dcddd700c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Psychic Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 603,
+      "line_widths": [
+        63
+      ]
+    },
+    {
+      "offset": "0x87c9d0",
+      "english_reference": "Ice Gem",
+      "french_reference": null,
+      "source_hex": "c3d7d900c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Ice Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 8,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 604,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x87c9fc",
+      "english_reference": "Dragon Gem",
+      "french_reference": null,
+      "source_hex": "bee6d5dbe3e200c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Dragon Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 605,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0x87ca28",
+      "english_reference": "Dark Gem",
+      "french_reference": null,
+      "source_hex": "bed5e6df00c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Dark Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 9,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 606,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x87ca54",
+      "english_reference": "Fairy Gem",
+      "french_reference": null,
+      "source_hex": "c0d5dde6ed00c1d9e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Fairy Gem",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 607,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x87caac",
+      "english_reference": "Health Wing",
+      "french_reference": null,
+      "source_hex": "c2d9d5e0e8dc00d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Health Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 609,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87cad8",
+      "english_reference": "Muscle Wing",
+      "french_reference": null,
+      "source_hex": "c7e9e7d7e0d900d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Muscle Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 610,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87cb04",
+      "english_reference": "Resist Wing",
+      "french_reference": null,
+      "source_hex": "ccd9e7dde7e800d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Resist Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 611,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0x87cb30",
+      "english_reference": "Genius Wing",
+      "french_reference": null,
+      "source_hex": "c1d9e2dde9e700d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Genius Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 612,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0x87cb5c",
+      "english_reference": "Clever Wing",
+      "french_reference": null,
+      "source_hex": "bde0d9ead9e600d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Clever Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 613,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87cb88",
+      "english_reference": "Swift Wing",
+      "french_reference": null,
+      "source_hex": "cdebdddae800d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Swift Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 614,
+      "line_widths": [
+        53
+      ]
+    },
+    {
+      "offset": "0x87cbb4",
+      "english_reference": "Pretty Wing",
+      "french_reference": null,
+      "source_hex": "cae6d9e8e8ed00d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Pretty Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 615,
+      "line_widths": [
+        60
+      ]
+    },
+    {
+      "offset": "0x87cbe0",
+      "english_reference": "Bottle Cap",
+      "french_reference": null,
+      "source_hex": "bce3e8e8e0d900bdd5e4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Bottle Cap",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 616,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87cc38",
+      "english_reference": "Red Nectar",
+      "french_reference": null,
+      "source_hex": "ccd9d800c8d9d7e8d5e6ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Red Nectar",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 618,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0x87cc90",
+      "english_reference": "Pink Nectar",
+      "french_reference": null,
+      "source_hex": "cadde2df00c8d9d7e8d5e6ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Pink Nectar",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 620,
+      "line_widths": [
+        60
+      ]
+    },
+    {
+      "offset": "0x87ccbc",
+      "english_reference": "Purp Nectar",
+      "french_reference": null,
+      "source_hex": "cae9e6e400c8d9d7e8d5e6ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Purp Nectar",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 621,
+      "line_widths": [
+        63
+      ]
+    },
+    {
+      "offset": "0x87cce8",
+      "english_reference": "Fast Ball",
+      "french_reference": null,
+      "source_hex": "c0d5e7e800bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Fast Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 622,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x87cd14",
+      "english_reference": "Level Ball",
+      "french_reference": null,
+      "source_hex": "c6d9ead9e000bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Level Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 623,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87cd40",
+      "english_reference": "Lure Ball",
+      "french_reference": null,
+      "source_hex": "c6e9e6d900bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Lure Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 624,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x87cd6c",
+      "english_reference": "Heavy Ball",
+      "french_reference": null,
+      "source_hex": "c2d9d5eaed00bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Heavy Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 625,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0x87cd98",
+      "english_reference": "Love Ball",
+      "french_reference": null,
+      "source_hex": "c6e3ead900bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Love Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 626,
+      "line_widths": [
+        52
+      ]
+    },
+    {
+      "offset": "0x87cdc4",
+      "english_reference": "Friend Ball",
+      "french_reference": null,
+      "source_hex": "c0e6ddd9e2d800bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Friend Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 627,
+      "line_widths": [
+        60
+      ]
+    },
+    {
+      "offset": "0x87cdf0",
+      "english_reference": "Moon Ball",
+      "french_reference": null,
+      "source_hex": "c7e3e3e200bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Moon Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 628,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x87ce1c",
+      "english_reference": "Sport Ball",
+      "french_reference": null,
+      "source_hex": "cde4e3e6e800bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Sport Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 629,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87ce48",
+      "english_reference": "Beast Ball",
+      "french_reference": null,
+      "source_hex": "bcd9d5e7e800bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Beast Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 630,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87ce74",
+      "english_reference": "Dream Ball",
+      "french_reference": null,
+      "source_hex": "bee6d9d5e100bcd5e0e0ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Dream Ball",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 631,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87cea0",
+      "english_reference": "Oval Charm",
+      "french_reference": null,
+      "source_hex": "c9ead5e000bddcd5e6e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Oval Charm",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 632,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0x87cecc",
+      "english_reference": "Shiny Charm",
+      "french_reference": null,
+      "source_hex": "cddcdde2ed00bddcd5e6e1ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Shiny Charm",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 633,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x87cef8",
+      "english_reference": "Burn Drive",
+      "french_reference": null,
+      "source_hex": "bce9e6e200bee6ddead9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Burn Drive",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 634,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x87cf24",
+      "english_reference": "Douse Drive",
+      "french_reference": null,
+      "source_hex": "bee3e9e7d900bee6ddead9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Douse Drive",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 635,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x87cf50",
+      "english_reference": "Shock Drive",
+      "french_reference": null,
+      "source_hex": "cddce3d7df00bee6ddead9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Shock Drive",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 636,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x87cf7c",
+      "english_reference": "Chill Drive",
+      "french_reference": null,
+      "source_hex": "bddcdde0e000bee6ddead9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Chill Drive",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 637,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0x87cfa8",
+      "english_reference": "Fist Memory",
+      "french_reference": null,
+      "source_hex": "c0dde7e800c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Fist Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 638,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87cfd4",
+      "english_reference": "Sky Memory",
+      "french_reference": null,
+      "source_hex": "cddfed00c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Sky Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 639,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0x87d000",
+      "english_reference": "Toxic Memory",
+      "french_reference": null,
+      "source_hex": "cee3ecddd700c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Toxic Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 640,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87d02c",
+      "english_reference": "Earth Memory",
+      "french_reference": null,
+      "source_hex": "bfd5e6e8dc00c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Earth Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 641,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87d058",
+      "english_reference": "Rock Memory",
+      "french_reference": null,
+      "source_hex": "cce3d7df00c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Rock Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 642,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0x87d084",
+      "english_reference": "Bug Memory",
+      "french_reference": null,
+      "source_hex": "bce9db00c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Bug Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 643,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0x87d0b0",
+      "english_reference": "Ghost Memory",
+      "french_reference": null,
+      "source_hex": "c1dce3e7e800c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Ghost Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 644,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87d0dc",
+      "english_reference": "Steel Memory",
+      "french_reference": null,
+      "source_hex": "cde8d9d9e000c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Steel Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 645,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87d108",
+      "english_reference": "Fire Memory",
+      "french_reference": null,
+      "source_hex": "c0dde6d900c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Fire Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 646,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x87d134",
+      "english_reference": "Water Memory",
+      "french_reference": null,
+      "source_hex": "d1d5e8d9e600c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Water Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 647,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87d160",
+      "english_reference": "Grass Memory",
+      "french_reference": null,
+      "source_hex": "c1e6d5e7e700c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Grass Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 648,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0x87d18c",
+      "english_reference": "Zap Memory",
+      "french_reference": null,
+      "source_hex": "d4d5e400c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Zap Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 649,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0x87d1b8",
+      "english_reference": "Psych Memory",
+      "french_reference": null,
+      "source_hex": "cae7edd7dc00c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Psych Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 650,
+      "line_widths": [
+        70
+      ]
+    },
+    {
+      "offset": "0x87d1e4",
+      "english_reference": "Ice Memory",
+      "french_reference": null,
+      "source_hex": "c3d7d900c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Ice Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 651,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0x87d210",
+      "english_reference": "Draco Memory",
+      "french_reference": null,
+      "source_hex": "bee6d5d7e300c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Draco Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 652,
+      "line_widths": [
+        70
+      ]
+    },
+    {
+      "offset": "0x87d23c",
+      "english_reference": "Dark Memory",
+      "french_reference": null,
+      "source_hex": "bed5e6df00c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Dark Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 653,
+      "line_widths": [
+        63
+      ]
+    },
+    {
+      "offset": "0x87d268",
+      "english_reference": "Fairy Memory",
+      "french_reference": null,
+      "source_hex": "c0d5dde6ed00c7d9e1e3e6edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Fairy Memory",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 654,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0x87d294",
+      "english_reference": "Rainbow Wing",
+      "french_reference": null,
+      "source_hex": "ccd5dde2d6e3eb00d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Rainbow Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 655,
+      "line_widths": [
+        66
+      ]
+    },
+    {
+      "offset": "0x87d2c0",
+      "english_reference": "Silver Wing",
+      "french_reference": null,
+      "source_hex": "cddde0ead9e600d1dde2dbff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Silver Wing",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 656,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0x87d2ec",
+      "english_reference": "N-Solarizer",
+      "french_reference": null,
+      "source_hex": "c8aecde3e0d5e6ddeed9e6ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "N-Solarizer",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 657,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87d318",
+      "english_reference": "N-Lunarizer",
+      "french_reference": null,
+      "source_hex": "c8aec6e9e2d5e6ddeed9e6ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "N-Lunarizer",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 658,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87d344",
+      "english_reference": "Sun Flute",
+      "french_reference": null,
+      "source_hex": "cde9e200c0e0e9e8d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Sun Flute",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 659,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x87d370",
+      "english_reference": "Moon Flute",
+      "french_reference": null,
+      "source_hex": "c7e3e3e200c0e0e9e8d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Moon Flute",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 660,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87d39c",
+      "english_reference": "Light Stone",
+      "french_reference": null,
+      "source_hex": "c6dddbdce800cde8e3e2d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Light Stone",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 661,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87d3c8",
+      "english_reference": "Dark Stone",
+      "french_reference": null,
+      "source_hex": "bed5e6df00cde8e3e2d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Dark Stone",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 662,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d3f4",
+      "english_reference": "Relic Copper",
+      "french_reference": null,
+      "source_hex": "ccd9e0ddd700bde3e4e4d9e6ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Relic Copper",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 663,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0x87d420",
+      "english_reference": "Relic Silver",
+      "french_reference": null,
+      "source_hex": "ccd9e0ddd700cddde0ead9e6ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Relic Silver",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 664,
+      "line_widths": [
+        65
+      ]
+    },
+    {
+      "offset": "0x87d44c",
+      "english_reference": "Relic Gold",
+      "french_reference": null,
+      "source_hex": "ccd9e0ddd700c1e3e0d8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Relic Gold",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 665,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d478",
+      "english_reference": "Relic Vase",
+      "french_reference": null,
+      "source_hex": "ccd9e0ddd700d0d5e7d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Relic Vase",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 666,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d4a4",
+      "english_reference": "Relic Band",
+      "french_reference": null,
+      "source_hex": "ccd9e0ddd700bcd5e2d8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Relic Band",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 667,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d4d0",
+      "english_reference": "Relic Statue",
+      "french_reference": null,
+      "source_hex": "ccd9e0ddd700cde8d5e8e9d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Relic Statue",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 668,
+      "line_widths": [
+        67
+      ]
+    },
+    {
+      "offset": "0x87d4fc",
+      "english_reference": "Relic Crown",
+      "french_reference": null,
+      "source_hex": "ccd9e0ddd700bde6e3ebe2ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Relic Crown",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 669,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87d528",
+      "english_reference": "Normalium Z",
+      "french_reference": null,
+      "source_hex": "c8e3e6e1d5e0dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Normalium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 670,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x87d554",
+      "english_reference": "Fightinium Z",
+      "french_reference": null,
+      "source_hex": "c0dddbdce8dde2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Fightinium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 671,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0x87d580",
+      "english_reference": "Flyinium Z",
+      "french_reference": null,
+      "source_hex": "c0e0eddde2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Flyinium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 672,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x87d5ac",
+      "english_reference": "Poisonium Z",
+      "french_reference": null,
+      "source_hex": "cae3dde7e3e2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Poisonium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 673,
+      "line_widths": [
+        60
+      ]
+    },
+    {
+      "offset": "0x87d5d8",
+      "english_reference": "Groundium Z",
+      "french_reference": null,
+      "source_hex": "c1e6e3e9e2d8dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Groundium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 674,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x87d604",
+      "english_reference": "Rockium Z",
+      "french_reference": null,
+      "source_hex": "cce3d7dfdde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Rockium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 675,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x87d630",
+      "english_reference": "Buginium Z",
+      "french_reference": null,
+      "source_hex": "bce9dbdde2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Buginium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 676,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x87d65c",
+      "english_reference": "Ghostium Z",
+      "french_reference": null,
+      "source_hex": "c1dce3e7e8dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Ghostium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 677,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d688",
+      "english_reference": "Steelium Z",
+      "french_reference": null,
+      "source_hex": "cde8d9d9e0dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Steelium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 678,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d6b4",
+      "english_reference": "Firium Z",
+      "french_reference": null,
+      "source_hex": "c0dde6dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Firium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 9,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 679,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x87d6e0",
+      "english_reference": "Waterium Z",
+      "french_reference": null,
+      "source_hex": "d1d5e8d9e6dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Waterium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 680,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d70c",
+      "english_reference": "Grassium Z",
+      "french_reference": null,
+      "source_hex": "c1e6d5e7e7dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Grassium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 681,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x87d738",
+      "english_reference": "Electrium Z",
+      "french_reference": null,
+      "source_hex": "bfe0d9d7e8e6dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Electrium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 682,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0x87d764",
+      "english_reference": "Psychium Z",
+      "french_reference": null,
+      "source_hex": "cae7edd7dcdde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Psychium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 683,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87d790",
+      "english_reference": "Icium Z",
+      "french_reference": null,
+      "source_hex": "c3d7dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Icium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 8,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 684,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x87d7bc",
+      "english_reference": "Dragonium Z",
+      "french_reference": null,
+      "source_hex": "bee6d5dbe3e2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Dragonium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 685,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x87d7e8",
+      "english_reference": "Darkinium Z",
+      "french_reference": null,
+      "source_hex": "bed5e6dfdde2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Darkinium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 686,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0x87d814",
+      "english_reference": "Fairium Z",
+      "french_reference": null,
+      "source_hex": "c0d5dde6dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Fairium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 687,
+      "line_widths": [
+        49
+      ]
+    },
+    {
+      "offset": "0x87d840",
+      "english_reference": "Alorichium Z",
+      "french_reference": null,
+      "source_hex": "bbe0e3e6ddd7dcdde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Alorichium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 688,
+      "line_widths": [
+        66
+      ]
+    },
+    {
+      "offset": "0x87d86c",
+      "english_reference": "Decidium Z",
+      "french_reference": null,
+      "source_hex": "bed9d7ddd8dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Decidium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 689,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d898",
+      "english_reference": "Eevium Z",
+      "french_reference": null,
+      "source_hex": "bfd9eadde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Eevium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 9,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 690,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x87d8c4",
+      "english_reference": "Incinium Z",
+      "french_reference": null,
+      "source_hex": "c3e2d7dde2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Incinium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 691,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x87d8f0",
+      "english_reference": "Kommonium Z",
+      "french_reference": null,
+      "source_hex": "c5e3e1e1e3e2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Kommonium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 692,
+      "line_widths": [
+        63
+      ]
+    },
+    {
+      "offset": "0x87d91c",
+      "english_reference": "Lunalium Z",
+      "french_reference": null,
+      "source_hex": "c6e9e2d5e0dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Lunalium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 693,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x87d948",
+      "english_reference": "Lycanium Z",
+      "french_reference": null,
+      "source_hex": "c6edd7d5e2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Lycanium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 694,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87d974",
+      "english_reference": "Marshadium Z",
+      "french_reference": null,
+      "source_hex": "c7d5e6e7dcd5d8dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Marshadium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 695,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0x87d9a0",
+      "english_reference": "Mewnium Z",
+      "french_reference": null,
+      "source_hex": "c7d9ebe2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Mewnium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 10,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 696,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x87d9cc",
+      "english_reference": "Mimikium Z",
+      "french_reference": null,
+      "source_hex": "c7dde1dddfdde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Mimikium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 697,
+      "line_widths": [
+        53
+      ]
+    },
+    {
+      "offset": "0x87d9f8",
+      "english_reference": "Pikanium Z",
+      "french_reference": null,
+      "source_hex": "cadddfd5e2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Pikanium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 698,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x87da24",
+      "english_reference": "Pikasunium Z",
+      "french_reference": null,
+      "source_hex": "cadddfd5e7e9e2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Pikasunium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 699,
+      "line_widths": [
+        65
+      ]
+    },
+    {
+      "offset": "0x87da50",
+      "english_reference": "Primarium Z",
+      "french_reference": null,
+      "source_hex": "cae6dde1d5e6dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Primarium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 700,
+      "line_widths": [
+        60
+      ]
+    },
+    {
+      "offset": "0x87da7c",
+      "english_reference": "Snorlium Z",
+      "french_reference": null,
+      "source_hex": "cde2e3e6e0dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Snorlium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 701,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x87daa8",
+      "english_reference": "Solganium Z",
+      "french_reference": null,
+      "source_hex": "cde3e0dbd5e2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Solganium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 702,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x87dad4",
+      "english_reference": "Tapunium Z",
+      "french_reference": null,
+      "source_hex": "ced5e4e9e2dde9e100d4ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Tapunium Z",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 703,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87db00",
+      "english_reference": "Eject Pack",
+      "french_reference": null,
+      "source_hex": "bfded9d7e800cad5d7dfff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Eject Pack",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 704,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0x87db2c",
+      "english_reference": "Room Service",
+      "french_reference": null,
+      "source_hex": "cce3e3e100cdd9e6eaddd7d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Room Service",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 705,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87db84",
+      "english_reference": "Heavy Boots",
+      "french_reference": null,
+      "source_hex": "c2d9d5eaed00bce3e3e8e7ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Heavy Boots",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 707,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0x87dbdc",
+      "english_reference": "Throat Spray",
+      "french_reference": null,
+      "source_hex": "cedce6e3d5e800cde4e6d5edff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Throat Spray",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 709,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87dc60",
+      "english_reference": "Sweet Apple",
+      "french_reference": null,
+      "source_hex": "cdebd9d9e800bbe4e4e0d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Sweet Apple",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 712,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0x87dc8c",
+      "english_reference": "Tart Apple",
+      "french_reference": null,
+      "source_hex": "ced5e6e800bbe4e4e0d9ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Tart Apple",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 713,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87dcb8",
+      "english_reference": "Cracked Pot",
+      "french_reference": null,
+      "source_hex": "bde6d5d7dfd9d800cae3e8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Cracked Pot",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 714,
+      "line_widths": [
+        63
+      ]
+    },
+    {
+      "offset": "0x87dce4",
+      "english_reference": "Chipped Pot",
+      "french_reference": null,
+      "source_hex": "bddcdde4e4d9d800cae3e8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Chipped Pot",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 715,
+      "line_widths": [
+        63
+      ]
+    },
+    {
+      "offset": "0x87dd3c",
+      "english_reference": "Berry Sweet",
+      "french_reference": null,
+      "source_hex": "bcd9e6e6ed00cdebd9d9e8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Berry Sweet",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 12,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 717,
+      "line_widths": [
+        63
+      ]
+    },
+    {
+      "offset": "0x87dd68",
+      "english_reference": "Love Sweet",
+      "french_reference": null,
+      "source_hex": "c6e3ead900cdebd9d9e8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Love Sweet",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 718,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0x87dd94",
+      "english_reference": "Clover Sweet",
+      "french_reference": null,
+      "source_hex": "bde0e3ead9e600cdebd9d9e8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Clover Sweet",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 719,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87ddc0",
+      "english_reference": "Flower Sweet",
+      "french_reference": null,
+      "source_hex": "c0e0e3ebd9e600cdebd9d9e8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Flower Sweet",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 720,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0x87ddec",
+      "english_reference": "Ribbon Sweet",
+      "french_reference": null,
+      "source_hex": "ccddd6d6e3e200cdebd9d9e8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Ribbon Sweet",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 721,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0x87de18",
+      "english_reference": "Star Sweet",
+      "french_reference": null,
+      "source_hex": "cde8d5e600cdebd9d9e8ff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Star Sweet",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 722,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87de9c",
+      "english_reference": "Reins of Uni",
+      "french_reference": null,
+      "source_hex": "ccd9dde2e700e3da00cfe2ddff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Reins of Uni",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 13,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 725,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0x87def4",
+      "english_reference": "Peat Block",
+      "french_reference": null,
+      "source_hex": "cad9d5e800bce0e3d7dfff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Peat Block",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 727,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x87df20",
+      "english_reference": "Hisui Rock",
+      "french_reference": null,
+      "source_hex": "c2dde7e9dd00cce3d7dfff",
+      "references": [],
+      "status": "retained",
+      "portuguese": "Hisui Rock",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 11,
+      "max_width": 192,
+      "table_base": "0x876200",
+      "stride": 44,
+      "cell_bytes": 14,
+      "table_pointer": "0x9a8d8",
+      "item_id": 728,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x883590",
+      "english_reference": "drastically ",
+      "french_reference": "radicalement",
+      "source_hex": "d8e6d5e7e8ddd7d5e0e0ed00ff",
+      "references": [
+        8926584
+      ],
+      "status": "translated",
+      "portuguese": "drasticamente<0x00>",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 15,
+      "max_width": 208,
+      "line_widths": [
+        71
+      ]
+    },
+    {
+      "offset": "0x8835a0",
+      "english_reference": "severely ",
+      "french_reference": "gravement",
+      "source_hex": "e7d9ead9e6d9e0ed00ff",
+      "references": [
+        8926588
+      ],
+      "status": "translated",
+      "portuguese": "severamente<0x00>",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 13,
+      "max_width": 208,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0x8835b0",
+      "english_reference": "<0xFD>Á survived the poisoning.\\nThe poison faded away!<0xFB>",
+      "french_reference": "{STR_VAR_1} a survécu à l'empoisonnement.\\nLe poison a disparu !\\p",
+      "source_hex": "fd0200e7e9e6eaddead9d800e8dcd900e4e3dde7e3e2dde2dbadfecedcd900e4e3dde7e3e200dad5d8d9d800d5ebd5edabfbff",
+      "references": [
+        656868
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x02> resistiu ao veneno.\\nO veneno passou!<0xFB>",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 41,
+      "max_width": 208,
+      "line_widths": [
+        163,
+        92,
+        0
+      ]
+    },
+    {
+      "offset": "0x883a3a",
+      "english_reference": "kR:RRR                    ",
+      "french_reference": "kR:RRR",
+      "source_hex": "dfccf0cccccc0000000000000000000000000000000000000000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Faux texte extrait de tuiles 4bpp (motifs de nibbles/pixels répétés), pas une chaîne ; préserver les données graphiques et leur pointeur."
+    },
+    {
+      "offset": "0x883c3a",
+      "english_reference": "kR:RRR                    ",
+      "french_reference": "kR:RRR",
+      "source_hex": "dfccf0cccccc0000000000000000000000000000000000000000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Faux texte extrait de tuiles 4bpp (motifs de nibbles/pixels répétés), pas une chaîne ; préserver les données graphiques et leur pointeur."
+    },
+    {
+      "offset": "0x883e3a",
+      "english_reference": "SR:RRR                    ",
+      "french_reference": "SR:RRR",
+      "source_hex": "cdccf0cccccc0000000000000000000000000000000000000000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Faux texte extrait de tuiles 4bpp (motifs de nibbles/pixels répétés), pas une chaîne ; préserver les données graphiques et leur pointeur."
+    },
+    {
+      "offset": "0x88403a",
+      "english_reference": "SR:RRR                    ",
+      "french_reference": "SR:RRR",
+      "source_hex": "cdccf0cccccc0000000000000000000000000000000000000000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Faux texte extrait de tuiles 4bpp (motifs de nibbles/pixels répétés), pas une chaîne ; préserver les données graphiques et leur pointeur."
+    },
+    {
+      "offset": "0x8854b0",
+      "english_reference": "You are challenged by\\n<0xFD>ê <0xFD>ë!<0xFB>",
+      "french_reference": "Tu es défié par\\n{FD1C} {FD1D}!\\p",
+      "source_hex": "d3e3e900d5e6d900d7dcd5e0e0d9e2dbd9d800d6edfefd1c00fd1dabfbff",
+      "references": [
+        881600
+      ],
+      "status": "translated",
+      "portuguese": "Você recebeu um desafio de\\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 35,
+      "max_width": 208,
+      "line_widths": [
+        151,
+        120,
+        0
+      ]
+    },
+    {
+      "offset": "0x8854d0",
+      "english_reference": "<0xFD>ê <0xFD>ë is\\nabout to send in <0xFD>À.<0xFA>Will you switch your Pokémon?",
+      "french_reference": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\\nest sur le point d'envoyer {PLAYER}.\\lVoulez-vous changer de Pokémon ?",
+      "source_hex": "fd1c00fd1d00dde7fed5d6e3e9e800e8e300e7d9e2d800dde200fd01adfad1dde0e000ede3e900e7ebdde8d7dc00ede3e9e600cae3df1be1e3e2acff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucune référence absolue dans la ROM EN, ni pointeur sur les quatre octets voisins ; copie non adressée laissée intacte, aucune livraison revendiquée."
+    },
+    {
+      "offset": "0x885510",
+      "english_reference": "The opposing ",
+      "french_reference": "L'adversaire",
+      "source_hex": "cedcd900e3e4e4e3e7dde2db00ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucune référence absolue dans la ROM EN, ni pointeur sur les quatre octets voisins ; copie non adressée laissée intacte, aucune livraison revendiquée. Variante adressée à 0xa4c61a, sites : 0xd7b7c, 0xd7ca4, 0xd7d18, 0xd7d8c, 0xd7e00, 0xd7e74, 0xd82c0, 0xd8554, 0x9bd350, 0x9bd67c, 0x9bda0c, 0x9bda30, 0x9bda3c, 0x9bda44. Hors lot, non modifiée.",
+      "related_consumers": [
+        {
+          "offset": "0xa4c61a",
+          "references": [
+            883580,
+            883876,
+            883992,
+            884108,
+            884224,
+            884340,
+            885440,
+            886100,
+            10212176,
+            10212988,
+            10213900,
+            10213936,
+            10213948,
+            10213956
+          ],
+          "source_hex": "cedcd900e3e4e4e3e7dde2db00ff"
+        }
+      ]
+    },
+    {
+      "offset": "0x887280",
+      "english_reference": "  i  VRiVRRRVRhA Sy",
+      "french_reference": "i  VRiVRRRVRhA Sy",
+      "source_hex": "0000dd0000d0ccddd0ccccccd0ccdcbb00cdedff",
+      "references": [
+        8946816
+      ],
+      "status": "exception",
+      "reason": "Faux texte extrait de tuiles 4bpp (motifs de nibbles/pixels répétés), pas une chaîne ; préserver les données graphiques et leur pointeur."
+    },
+    {
+      "offset": "0x8883c8",
+      "english_reference": " SRR VRi  i             <0x34><0x93><0x97><0x72>",
+      "french_reference": "SRR VRi  i             {LV}",
+      "source_hex": "00cdcccc00d0ccdd0000dd0000000000000000000000000034939772ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Faux texte extrait de tuiles 4bpp (motifs de nibbles/pixels répétés), pas une chaîne ; préserver les données graphiques et leur pointeur."
+    },
+    {
+      "offset": "0x88882a",
+      "english_reference": "Would you like to climb the\\nladder?",
+      "french_reference": "Voulez-vous monter à\\nl'échelle ?",
+      "source_hex": "d1e3e9e0d800ede3e900e0dddfd900e8e300d7e0dde1d600e8dcd9fee0d5d8d8d9e6acff",
+      "references": [
+        8947537
+      ],
+      "status": "translated",
+      "portuguese": "Quer subir a\\nescada?",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 21,
+      "max_width": 208,
+      "line_widths": [
+        67,
+        41
+      ]
+    },
+    {
+      "offset": "0x88884e",
+      "english_reference": "You can't reach the ladder from\\nhere.",
+      "french_reference": "Tu ne peux pas atteindre l'échelle \\nd'ici.",
+      "source_hex": "d3e3e900d7d5e2b4e800e6d9d5d7dc00e8dcd900e0d5d8d8d9e600dae6e3e1fedcd9e6d9adff",
+      "references": [
+        8947603
+      ],
+      "status": "translated",
+      "portuguese": "Não dá para alcançar a escada\\ndaqui.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 37,
+      "max_width": 208,
+      "line_widths": [
+        169,
+        33
+      ]
+    },
+    {
+      "offset": "0x88b8bc",
+      "english_reference": "    LRx R",
+      "french_reference": "LRx R",
+      "source_hex": "00000000c6ccec00ccff",
+      "references": [],
+      "status": "exception",
+      "reason": "Faux texte extrait de tuiles 4bpp (motifs de nibbles/pixels répétés), pas une chaîne ; préserver les données graphiques et leur pointeur."
+    },
+    {
+      "offset": "0x893a1f",
+      "english_reference": "<0xFD>Á,\\nThat will be ¥<0xFD>Â. Okay?",
+      "french_reference": "{STR_VAR_1},\\nCela fera {STR_VAR_2}¥. D'accord ?",
+      "source_hex": "fd02b8fecedcd5e800ebdde0e000d6d900b7fd03ad00c9dfd5edacff",
+      "references": [
+        8993280
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x02>,\\nfica ¥<0xFD><0x03>. Tudo bem?",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 24,
+      "max_width": 208,
+      "line_widths": [
+        59,
+        154
+      ]
+    },
+    {
+      "offset": "0x8a0b40",
+      "english_reference": "The Fire-type attack fizzled\\nout in the heavy rain!",
+      "french_reference": "L'attaque de type Feu s'est\\néteinte sous la forte pluie !",
+      "source_hex": "cedcd900c0dde6d9aee8ede4d900d5e8e8d5d7df00daddeeeee0d9d8fee3e9e800dde200e8dcd900dcd9d5eaed00e6d5dde2abff",
+      "references": [
+        9148960
+      ],
+      "status": "translated",
+      "portuguese": "O golpe de Fogo se apagou\\nna chuva forte!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 42,
+      "max_width": 208,
+      "line_widths": [
+        148,
+        86
+      ]
+    },
+    {
+      "offset": "0x8a0c4c",
+      "english_reference": "<0xFD>Ô is hurt\\nby <0xFD>à!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} est blessé\\npar {B_LAST_ITEM} !",
+      "source_hex": "fd0f00dde700dce9e6e8fed6ed00fd16abff",
+      "references": [
+        9047084
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> sofre dano\\npor <0xFD><0x16>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 22,
+      "max_width": 208,
+      "line_widths": [
+        116,
+        83
+      ]
+    },
+    {
+      "offset": "0x8a0d00",
+      "english_reference": "<0xFD>Ô restored\\na little HP using its <0xFD>à!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} restaure quelques PV grâce à son\\n{B_LAST_ITEM} !",
+      "source_hex": "fd0f00e6d9e7e8e3e6d9d8fed500e0dde8e8e0d900c2ca00e9e7dde2db00dde8e700fd16abff",
+      "references": [
+        9047260
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> recuperou\\nalguns PS com <0xFD><0x16>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 31,
+      "max_width": 208,
+      "line_widths": [
+        112,
+        141
+      ]
+    },
+    {
+      "offset": "0x8a3d40",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nhurt <0xFD>Ô!",
+      "french_reference": "<0xFD><0x16> de <0xFD><0x10>\\nblesse <0xFD><0x0F> !",
+      "source_hex": "fd10b4e700fd16fedce9e6e800fd0fabff",
+      "references": [
+        9059580,
+        9171257
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: <0xFD><0x16>\\nferiu <0xFD><0x0F>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 17,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        92
+      ]
+    },
+    {
+      "offset": "0x8a475b",
+      "english_reference": "<0xFD>À used a Repel.",
+      "french_reference": "{PLAYER} utilise un Repousse.",
+      "source_hex": "fd0100e9e7d9d800d500ccd9e4d9e0adff",
+      "references": [
+        9062120
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x01> usou Repel.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 15,
+      "max_width": 208,
+      "line_widths": [
+        123
+      ]
+    },
+    {
+      "offset": "0x8a476e",
+      "english_reference": "<0xFD>À used a Super Repel.",
+      "french_reference": "{PLAYER} utilise un Superepousse.",
+      "source_hex": "fd0100e9e7d9d800d500cde9e4d9e600ccd9e4d9e0adff",
+      "references": [
+        9062168
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x01> usou Super Repel.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 21,
+      "max_width": 208,
+      "line_widths": [
+        158
+      ]
+    },
+    {
+      "offset": "0x8a4787",
+      "english_reference": "<0xFD>À used a Max Repel.",
+      "french_reference": "{PLAYER} utilise un Max Repousse.",
+      "source_hex": "fd0100e9e7d9d800d500c7d5ec00ccd9e4d9e0adff",
+      "references": [
+        9062216
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x01> usou Max Repel.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 19,
+      "max_width": 208,
+      "line_widths": [
+        147
+      ]
+    },
+    {
+      "offset": "0x8a479e",
+      "english_reference": "The Repel's effect wore off\"",
+      "french_reference": "L'effet du Repousse s'est atténué…",
+      "source_hex": "cedcd900ccd9e4d9e0b4e700d9dadad9d7e800ebe3e6d900e3dadab0ff",
+      "references": [
+        9062003
+      ],
+      "status": "translated",
+      "portuguese": "O efeito do Repel acabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 26,
+      "max_width": 208,
+      "line_widths": [
+        145
+      ]
+    },
+    {
+      "offset": "0x8a47bd",
+      "english_reference": "You have no Repels left.",
+      "french_reference": "Tu n'as plus de Repousse.",
+      "source_hex": "d3e3e900dcd5ead900e2e300ccd9e4d9e0e700e0d9dae8adff",
+      "references": [
+        9062109
+      ],
+      "status": "translated",
+      "portuguese": "Você não tem mais Repels.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 26,
+      "max_width": 208,
+      "line_widths": [
+        142
+      ]
+    },
+    {
+      "offset": "0x8a47da",
+      "english_reference": "You have no Super Repels left.",
+      "french_reference": "Tu n'as plus de Superepousse.",
+      "source_hex": "d3e3e900dcd5ead900e2e300cde9e4d9e600ccd9e4d9e0e700e0d9dae8adff",
+      "references": [
+        9062157
+      ],
+      "status": "translated",
+      "portuguese": "Não há mais Super Repels.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 26,
+      "max_width": 208,
+      "line_widths": [
+        143
+      ]
+    },
+    {
+      "offset": "0x8a47fd",
+      "english_reference": "You have no Max Repels left",
+      "french_reference": "Tu n'as plus de Max Repousse",
+      "source_hex": "d3e3e900dcd5ead900e2e300c7d5ec00ccd9e4d9e0e700e0d9dae8ff",
+      "references": [
+        9062205
+      ],
+      "status": "translated",
+      "portuguese": "Não há mais Max Repels.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 24,
+      "max_width": 208,
+      "line_widths": [
+        132
+      ]
+    },
+    {
+      "offset": "0x8a481e",
+      "english_reference": "Would you like to use another\\nRepel?",
+      "french_reference": "Veux-tu utiliser un autre\\nRepousse ?",
+      "source_hex": "d1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900d5e2e3e8dcd9e6feccd9e4d9e0acff",
+      "references": [
+        9062011
+      ],
+      "status": "translated",
+      "portuguese": "Quer usar outro\\nRepel?",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 23,
+      "max_width": 208,
+      "line_widths": [
+        85,
+        35
+      ]
+    },
+    {
+      "offset": "0x8a90f9",
+      "english_reference": "AKLOV",
+      "french_reference": "AKLOV",
+      "source_hex": "bbc5c6c9d0ff",
+      "references": [
+        8339066
+      ],
+      "status": "retained",
+      "portuguese": "AKLOV",
+      "reason": "F-759 : nom propre non attesté conservé exactement en anglais.",
+      "encoded_bytes": 6,
+      "max_width": 192,
+      "line_widths": [
+        30
+      ]
+    },
+    {
+      "offset": "0x8a9876",
+      "english_reference": "<0xFD>Ñ protected the\\nopponent's team!",
+      "french_reference": "{B_CURRENT_MOVE} protège l'équipe\\nadverse !",
+      "source_hex": "fd1400e4e6e3e8d9d7e8d9d800e8dcd9fee3e4e4e3e2d9e2e8b4e700e8d9d5e1abff",
+      "references": [
+        9082028
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x14> protegeu\\na equipe adversária!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 33,
+      "max_width": 208,
+      "line_widths": [
+        106,
+        113
+      ]
+    },
+    {
+      "offset": "0x8a9898",
+      "english_reference": "<0xFD>Ô intends to flip up a mat\\nand block incoming attacks!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX}\\nretourne un tatami !",
+      "source_hex": "fd0f00dde2e8d9e2d8e700e8e300dae0dde400e9e400d500e1d5e8fed5e2d800d6e0e3d7df00dde2d7e3e1dde2db00d5e8e8d5d7dfe7abff",
+      "references": [
+        9082032
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> ergue\\num tatame contra os golpes!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 37,
+      "max_width": 208,
+      "line_widths": [
+        89,
+        154
+      ]
+    },
+    {
+      "offset": "0x8a98d0",
+      "english_reference": "Wide Guard protected <0xFD>Œ!",
+      "french_reference": "Garde Large protège {B_DEF_NAME_WITH_PREFIX} !",
+      "source_hex": "d1ddd8d900c1e9d5e6d800e4e6e3e8d9d7e8d9d800fd10abff",
+      "references": [
+        9082496
+      ],
+      "status": "translated",
+      "portuguese": "Wide Guard protegeu\\n<0xFD><0x10>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 24,
+      "max_width": 208,
+      "line_widths": [
+        109,
+        60
+      ]
+    },
+    {
+      "offset": "0x8a98e9",
+      "english_reference": "Quick Guard protected <0xFD>Œ!",
+      "french_reference": "Prévention protège {B_DEF_NAME_WITH_PREFIX} !",
+      "source_hex": "cbe9ddd7df00c1e9d5e6d800e4e6e3e8d9d7e8d9d800fd10abff",
+      "references": [
+        9082500
+      ],
+      "status": "translated",
+      "portuguese": "Quick Guard protegeu\\n<0xFD><0x10>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 25,
+      "max_width": 208,
+      "line_widths": [
+        114,
+        60
+      ]
+    },
+    {
+      "offset": "0x8a9903",
+      "english_reference": "Crafty Sheild protected <0xFD>Œ!",
+      "french_reference": "Vigilance protège {B_DEF_NAME_WITH_PREFIX} !",
+      "source_hex": "bde6d5dae8ed00cddcd9dde0d800e4e6e3e8d9d7e8d9d800fd10abff",
+      "references": [
+        9082504
+      ],
+      "status": "translated",
+      "portuguese": "Crafty Shield protegeu\\n<0xFD><0x10>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 27,
+      "max_width": 208,
+      "line_widths": [
+        124,
+        60
+      ]
+    },
+    {
+      "offset": "0x8a991f",
+      "english_reference": "<0xFD>Ñ was blocked by the\\nkicked-up mat!",
+      "french_reference": "{B_CURRENT_MOVE} est bloqué par le\\ntatami soulevé !",
+      "source_hex": "fd1400ebd5e700d6e0e3d7dfd9d800d6ed00e8dcd9fedfddd7dfd9d8aee9e400e1d5e8abff",
+      "references": [
+        9082508
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x14> foi bloqueado\\npelo tatame erguido!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 38,
+      "max_width": 208,
+      "line_widths": [
+        134,
+        114
+      ]
+    },
+    {
+      "offset": "0x8a9944",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18> sharply\\nraised its <0xFD> !",
+      "french_reference": "La {B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} a beaucoup\\naugmenté son {UNKNOWN_STR} !",
+      "source_hex": "fd0fb4e700fd1800e7dcd5e6e4e0edfee6d5dde7d9d800dde8e700fd00abff",
+      "references": [
+        9082778
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\naumentou muito <0xFD><0x00>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 26,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        145
+      ]
+    },
+    {
+      "offset": "0x8a9963",
+      "english_reference": "<0xFD>Ô was hurt by\\n<0xFD>Œ's Spiky Shield!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX}\\n{B_ATK_NAME_WITH_PREFIX} piqué !",
+      "source_hex": "fd0f00ebd5e700dce9e6e800d6edfefd10b4e700cde4dddfed00cddcddd9e0d8abff",
+      "references": [
+        9082824
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> foi ferido!\\n<0xFD><0x10>: Spiky Shield!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 33,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        137
+      ]
+    },
+    {
+      "offset": "0x8a9bb0",
+      "english_reference": "The protection effects were lifted\\nfrom the target's side!",
+      "french_reference": "Les effets de protection sont levés\\ndu côté de la cible !",
+      "source_hex": "cedcd900e4e6e3e8d9d7e8dde3e200d9dadad9d7e8e700ebd9e6d900e0dddae8d9d8fedae6e3e100e8dcd900e8d5e6dbd9e8b4e700e7ddd8d9abff",
+      "references": [
+        9083753
+      ],
+      "status": "translated",
+      "portuguese": "Os efeitos de proteção sumiram\\ndo lado do alvo!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 48,
+      "max_width": 208,
+      "line_widths": [
+        168,
+        94
+      ]
+    },
+    {
+      "offset": "0x8a9c40",
+      "english_reference": "<0xFD>Ô vanished\\ninstantly!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} disparaît\\ninstantanément !",
+      "source_hex": "fd0f00ead5e2dde7dcd9d8fedde2e7e8d5e2e8e0edabff",
+      "references": [
+        9083522
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> desapareceu\\nnum instante!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 29,
+      "max_width": 208,
+      "line_widths": [
+        124,
+        70
+      ]
+    },
+    {
+      "offset": "0x8aa30c",
+      "english_reference": "It's a meteor that fell from space...",
+      "french_reference": null,
+      "source_hex": "c3e8b4e700d500e1d9e8d9e3e600e8dcd5e800dad9e0e000dae6e3e100e7e4d5d7d9adadadff",
+      "references": [
+        9085523
+      ],
+      "status": "translated",
+      "portuguese": "É um meteoro vindo do espaço...",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 32,
+      "max_width": 208,
+      "line_widths": [
+        177
+      ]
+    },
+    {
+      "offset": "0x8aa332",
+      "english_reference": "<0xFD>Â is reacting to the meteorite...",
+      "french_reference": "<0xFD><0x03> réagit à la météorite…",
+      "source_hex": "fd0300dde700e6d9d5d7e8dde2db00e8e300e8dcd900e1d9e8d9e3e6dde8d9adadadff",
+      "references": [
+        9085563
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> reage ao meteorito...",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 25,
+      "max_width": 208,
+      "line_widths": [
+        177
+      ]
+    },
+    {
+      "offset": "0x8aa355",
+      "english_reference": "Would you like to bring\\nthe Deoxys in your party<0xFB>closer to the meteorite?",
+      "french_reference": "Veux-tu rapprocher\\nle Deoxys de ton équipe\\pde la météorite ?",
+      "source_hex": "d1e3e9e0d800ede3e900e0dddfd900e8e300d6e6dde2dbfee8dcd900bed9e3ecede700dde200ede3e9e600e4d5e6e8edfbd7e0e3e7d9e600e8e300e8dcd900e1d9e8d9e3e6dde8d9acff",
+      "references": [
+        9085572
+      ],
+      "status": "translated",
+      "portuguese": "Quer aproximar o Deoxys\\nda sua equipe<0xFB>do meteorito?",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 52,
+      "max_width": 208,
+      "line_widths": [
+        132,
+        75,
+        73
+      ]
+    },
+    {
+      "offset": "0x8aa39f",
+      "english_reference": "<0xFD>Â has changed to have\\nsuperior stats for attacking!",
+      "french_reference": "{STR_VAR_2} a changé pour avoir des\\nstats meilleures en attaque !",
+      "source_hex": "fd0300dcd5e700d7dcd5e2dbd9d800e8e300dcd5ead9fee7e9e4d9e6dde3e600e7e8d5e8e700dae3e600d5e8e8d5d7dfdde2dbabff",
+      "references": [
+        9085670
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou para\\nter mais força de ataque!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 40,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        142
+      ]
+    },
+    {
+      "offset": "0x8aa3d4",
+      "english_reference": "<0xFD>Â has changed to have\\nsuperior stats when defending!",
+      "french_reference": "{STR_VAR_2} a changé pour avoir des\\nstats meilleures en défense !",
+      "source_hex": "fd0300dcd5e700d7dcd5e2dbd9d800e8e300dcd5ead9fee7e9e4d9e6dde3e600e7e8d5e8e700ebdcd9e200d8d9dad9e2d8dde2dbabff",
+      "references": [
+        9085680
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou para\\nter mais força de defesa!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 40,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        141
+      ]
+    },
+    {
+      "offset": "0x8aa40a",
+      "english_reference": "<0xFD>Â has changed to have\\nincreased speed!",
+      "french_reference": "{STR_VAR_2} a changé pour avoir une\\nvitesse accrue !",
+      "source_hex": "fd0300dcd5e700d7dcd5e2dbd9d800e8e300dcd5ead9fedde2d7e6d9d5e7d9d800e7e4d9d9d8abff",
+      "references": [
+        9085690
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou para\\nter mais velocidade!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 35,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        112
+      ]
+    },
+    {
+      "offset": "0x8aa432",
+      "english_reference": "<0xFD>Â has changed to have\\nbalanced stats!",
+      "french_reference": "{STR_VAR_2} a changé pour avoir des\\nstats équilibrées !",
+      "source_hex": "fd0300dcd5e700d7dcd5e2dbd9d800e8e300dcd5ead9fed6d5e0d5e2d7d9d800e7e8d5e8e7abff",
+      "references": [
+        9085700
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou para\\nter atributos equilibrados!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 42,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        147
+      ]
+    },
+    {
+      "offset": "0x8aa459",
+      "english_reference": "The pokémon does not react\\nto the meteor.",
+      "french_reference": "Le Pokémon ne réagit pas\\nà la météorite.",
+      "source_hex": "cedcd900e4e3df1be1e3e200d8e3d9e700e2e3e800e6d9d5d7e8fee8e300e8dcd900e1d9e8d9e3e6adff",
+      "references": [
+        9085656
+      ],
+      "status": "translated",
+      "portuguese": "O Pokémon não reage\\nao meteoro.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 32,
+      "max_width": 208,
+      "line_widths": [
+        110,
+        63
+      ]
+    },
+    {
+      "offset": "0x8aa4b3",
+      "english_reference": "<0xFD>Â changed form!",
+      "french_reference": null,
+      "source_hex": "fd0300d7dcd5e2dbd9d800dae3e6e1abff",
+      "references": [
+        9086111,
+        9179717
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou de forma!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 19,
+      "max_width": 208,
+      "line_widths": [
+        148
+      ]
+    },
+    {
+      "offset": "0x8aa54b",
+      "english_reference": "It wont have any effect!",
+      "french_reference": null,
+      "source_hex": "c3e800ebe3e2e800dcd5ead900d5e2ed00d9dadad9d7e8abff",
+      "references": [
+        9086219
+      ],
+      "status": "translated",
+      "portuguese": "Não terá efeito algum!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 23,
+      "max_width": 208,
+      "line_widths": [
+        125
+      ]
+    },
+    {
+      "offset": "0x8aa564",
+      "english_reference": "<0xFD>Â changed form!",
+      "french_reference": "{STR_VAR_2} a changé de forme !",
+      "source_hex": "fd0300d7dcd5e2dbd9d800dae3e6e1abff",
+      "references": [
+        9086230,
+        9086263
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou de forma!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 19,
+      "max_width": 208,
+      "line_widths": [
+        148
+      ]
+    },
+    {
+      "offset": "0x8aa575",
+      "english_reference": "There is no Kyurem in the party!",
+      "french_reference": "Il n'y a pas de Kyurem\\ndans l'équipe !",
+      "source_hex": "cedcd9e6d900dde700e2e300c5ede9e6d9e100dde200e8dcd900e4d5e6e8edabff",
+      "references": [
+        9086241
+      ],
+      "status": "translated",
+      "portuguese": "Não há Kyurem na equipe!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 25,
+      "max_width": 208,
+      "line_widths": [
+        140
+      ]
+    },
+    {
+      "offset": "0x8aa596",
+      "english_reference": "Multiple fusions are not allowed!",
+      "french_reference": "Les fusions multiples sont\\ninterdites !",
+      "source_hex": "c7e9e0e8dde4e0d900dae9e7dde3e2e700d5e6d900e2e3e800d5e0e0e3ebd9d8abff",
+      "references": [
+        9086252
+      ],
+      "status": "translated",
+      "portuguese": "Não são permitidas várias fusões!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 34,
+      "max_width": 208,
+      "line_widths": [
+        183
+      ]
+    },
+    {
+      "offset": "0x8aa5b8",
+      "english_reference": "There is no enough space in the party!",
+      "french_reference": "Pas assez de place dans l'équipe !",
+      "source_hex": "cedcd9e6d900dde700e2e300d9e2e3e9dbdc00e7e4d5d7d900dde200e8dcd900e4d5e6e8edabff",
+      "references": [
+        9086274
+      ],
+      "status": "translated",
+      "portuguese": "Não há espaço suficiente na equipe!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 36,
+      "max_width": 208,
+      "line_widths": [
+        198
+      ]
+    },
+    {
+      "offset": "0x8aa800",
+      "english_reference": "Oh? <0xFD>Â would like to\\ninvestigate the motors of<0xFA>the electrical appliances.",
+      "french_reference": "Oh ? {STR_VAR_2} veut\\ninspecter les moteurs des\\lappareils électriques.",
+      "source_hex": "c9dcac00fd0300ebe3e9e0d800e0dddfd900e8e3fedde2ead9e7e8dddbd5e8d900e8dcd900e1e3e8e3e6e700e3dafae8dcd900d9e0d9d7e8e6ddd7d5e000d5e4e4e0ddd5e2d7d9e7adff",
+      "references": [
+        9086491
+      ],
+      "status": "translated",
+      "portuguese": "Oh? <0xFD><0x03> quer\\ninvestigar os motores<0xFA>dos aparelhos elétricos.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 59,
+      "max_width": 208,
+      "line_widths": [
+        107,
+        114,
+        133
+      ]
+    },
+    {
+      "offset": "0x8aa84a",
+      "english_reference": "Is that OK?",
+      "french_reference": "D'accord ?",
+      "source_hex": "c3e700e8dcd5e800c9c5acff",
+      "references": [
+        9086500
+      ],
+      "status": "translated",
+      "portuguese": "Tudo bem?",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 10,
+      "max_width": 208,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x8aa856",
+      "english_reference": "Which appliance's motors will you\\nallow <0xFD>Â to enter?",
+      "french_reference": "Dans quels moteurs autorises-tu\\n{STR_VAR_2} à entrer ?",
+      "source_hex": "d1dcddd7dc00d5e4e4e0ddd5e2d7d9b4e700e1e3e8e3e6e700ebdde0e000ede3e9fed5e0e0e3eb00fd0300e8e300d9e2e8d9e6acff",
+      "references": [
+        9086518
+      ],
+      "status": "translated",
+      "portuguese": "Em qual aparelho você\\nvai deixar <0xFD><0x03> entrar?",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 44,
+      "max_width": 208,
+      "line_widths": [
+        123,
+        159
+      ]
+    },
+    {
+      "offset": "0x8aa88b",
+      "english_reference": "<0xFD>Â entered the motors.",
+      "french_reference": "{STR_VAR_2} est entré dans les moteurs.",
+      "source_hex": "fd0300d9e2e8d9e6d9d800e8dcd900e1e3e8e3e6e7adff",
+      "references": [
+        9086595
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> entrou nos motores.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 23,
+      "max_width": 208,
+      "line_widths": [
+        165
+      ]
+    },
+    {
+      "offset": "0x8aa8a2",
+      "english_reference": "<0xFD>Â emerged from the motors.",
+      "french_reference": "{STR_VAR_2} est sorti des moteurs.",
+      "source_hex": "fd0300d9e1d9e6dbd9d800dae6e3e100e8dcd900e1e3e8e3e6e7adff",
+      "references": [
+        9086812,
+        9086866
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> saiu dos motores.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 21,
+      "max_width": 208,
+      "line_widths": [
+        154
+      ]
+    },
+    {
+      "offset": "0x8aa8be",
+      "english_reference": "<0xFD>Â forgot <0xFD>Ç!",
+      "french_reference": "{STR_VAR_2} a oublié {STR_VAR_3} !",
+      "source_hex": "fd0300dae3e6dbe3e800fd04abff",
+      "references": [
+        9086622,
+        9086748,
+        9086821
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> esqueceu <0xFD><0x04>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 16,
+      "max_width": 208,
+      "line_widths": [
+        173
+      ]
+    },
+    {
+      "offset": "0x8aa8cc",
+      "english_reference": "<0xFD>Â learned <0xFD>Ç!",
+      "french_reference": "{STR_VAR_2} apprend {STR_VAR_3} !",
+      "source_hex": "fd0300e0d9d5e6e2d9d800fd04abff",
+      "references": [
+        9086673
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> aprendeu <0xFD><0x04>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 16,
+      "max_width": 208,
+      "line_widths": [
+        172
+      ]
+    },
+    {
+      "offset": "0x8aa8db",
+      "english_reference": "<0xFD>Â is trying to\\nlearn <0xFD>Ç.<0xFB>But, it can't learn\\nmore than four moves.<0xFB>Delete a move to make\\nroom for <0xFD>Ç?",
+      "french_reference": "{STR_VAR_2} veut apprendre\\n{STR_VAR_3}.\\pMais il ne peut avoir que\\nquatre capacités.\\pOublier une capacité pour\\nfaire place à {STR_VAR_3} ?",
+      "source_hex": "fd0300dde700e8e6eddde2db00e8e3fee0d9d5e6e200fd04adfbbce9e8b800dde800d7d5e2b4e800e0d9d5e6e2fee1e3e6d900e8dcd5e200dae3e9e600e1e3ead9e7adfbbed9e0d9e8d900d500e1e3ead900e8e300e1d5dfd9fee6e3e3e100dae3e600fd04acff",
+      "references": [
+        9086689
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> quer\\naprender <0xFD><0x04>.<0xFB>Mas só pode aprender\\naté quatro movimentos.<0xFB>Apagar um movimento\\npara aprender <0xFD><0x04>?",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 103,
+      "max_width": 208,
+      "line_widths": [
+        83,
+        110,
+        115,
+        123,
+        109,
+        140
+      ]
+    },
+    {
+      "offset": "0x8aa942",
+      "english_reference": "<0xFC>Ëî1, <0xFC>ËÔ2, and<0xFC>ËÔ\" <0xFC>ËÔ\" <0xFC>ËÔ\" <0xFC>ËÔ<0xFC>Œ<0x31> Poof!",
+      "french_reference": "<0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2, et<0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31> TADAA!",
+      "source_hex": "fc0820a2b800fc080fa3b800d5e2d8fc080fb000fc080fb000fc080fb000fc080ffc103100cae3e3daabff",
+      "references": [
+        9086723
+      ],
+      "status": "translated",
+      "portuguese": "<0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2 e<0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00> Puf!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 40,
+      "max_width": 208,
+      "line_widths": [
+        82
+      ]
+    },
+    {
+      "offset": "0x8aa96d",
+      "english_reference": "This Rotom has already entered\\nthat appliance motor.",
+      "french_reference": "Ce Motisma est déjà entré dans\\nle moteur de cet appareil.",
+      "source_hex": "cedcdde700cce3e8e3e100dcd5e700d5e0e6d9d5d8ed00d9e2e8d9e6d9d8fee8dcd5e800d5e4e4e0ddd5e2d7d900e1e3e8e3e6adff",
+      "references": [
+        9086767
+      ],
+      "status": "translated",
+      "portuguese": "Este Rotom já entrou\\nno motor desse aparelho.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 46,
+      "max_width": 208,
+      "line_widths": [
+        114,
+        136
+      ]
+    },
+    {
+      "offset": "0x8aa9a2",
+      "english_reference": "<0xFD>Â hasn't entered a motor.",
+      "french_reference": "{STR_VAR_2} n'est pas entré dans un moteur.",
+      "source_hex": "fd0300dcd5e7e2b4e800d9e2e8d9e6d9d800d500e1e3e8e3e6adff",
+      "references": [
+        9086781
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> não entrou num motor.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 25,
+      "max_width": 208,
+      "line_widths": [
+        178
+      ]
+    },
+    {
+      "offset": "0x8aa9bd",
+      "english_reference": "Not a valid Rotom.",
+      "french_reference": "Ce n'est pas un Motisma valide.",
+      "source_hex": "c8e3e800d500ead5e0ddd800cce3e8e3e1adff",
+      "references": [
+        9086900
+      ],
+      "status": "translated",
+      "portuguese": "Este Rotom não é válido.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 25,
+      "max_width": 208,
+      "line_widths": [
+        136
+      ]
+    },
+    {
+      "offset": "0x8aa9ff",
+      "english_reference": "<0xFD>Â changed form!",
+      "french_reference": null,
+      "source_hex": "fd0300d7dcd5e2dbd9d800dae3e6e1abff",
+      "references": [
+        9087467
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou de forma!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 19,
+      "max_width": 208,
+      "line_widths": [
+        148
+      ]
+    },
+    {
+      "offset": "0x8aaa55",
+      "english_reference": "<0xFD>Â changed to <0xFC>ÀÔTherian<0xFC>ÀÁ form!",
+      "french_reference": null,
+      "source_hex": "fd0300d7dcd5e2dbd9d800e8e300fc010fcedcd9e6ddd5e2fc010200dae3e6e1abff",
+      "references": [
+        9087553
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou à forma <0xFC><0x01><0x0F>Therian<0xFC><0x01><0x02>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 32,
+      "max_width": 208,
+      "line_widths": [
+        186
+      ]
+    },
+    {
+      "offset": "0x8aaa77",
+      "english_reference": "<0xFD>Â changed to <0xFC>ÀÔIncarnate<0xFC>ÀÁ form!",
+      "french_reference": null,
+      "source_hex": "fd0300d7dcd5e2dbd9d800e8e300fc010fc3e2d7d5e6e2d5e8d9fc010200dae3e6e1abff",
+      "references": [
+        9087564
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x03> mudou à forma <0xFC><0x01><0x0F>Incarnate<0xFC><0x01><0x02>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité. Deux faux pointeurs dans les graphismes 4bpp/LZ77 sont exclus et restaurés après le build générique.",
+      "encoded_bytes": 34,
+      "max_width": 208,
+      "line_widths": [
+        198
+      ],
+      "raw_references": [
+        4400190,
+        9087564,
+        13895598
+      ],
+      "non_text_references": [
+        4400190,
+        13895598
+      ]
+    },
+    {
+      "offset": "0x8ab7d0",
+      "english_reference": "It's full of cardboard boxes with\\nelectrical appliances in them.",
+      "french_reference": "C'est plein de cartons remplis\\nd'appareils électroménagers.",
+      "source_hex": "c3e8b4e700dae9e0e000e3da00d7d5e6d8d6e3d5e6d800d6e3ecd9e700ebdde8dcfed9e0d9d7e8e6ddd7d5e000d5e4e4e0ddd5e2d7d9e700dde200e8dcd9e1adff",
+      "references": [
+        9086451
+      ],
+      "status": "translated",
+      "portuguese": "Há caixas de papelão cheias\\nde aparelhos elétricos.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 52,
+      "max_width": 208,
+      "line_widths": [
+        155,
+        128
+      ]
+    },
+    {
+      "offset": "0x8ac410",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nreduced <0xFD>Ñ's power!",
+      "french_reference": "Le {B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX} a réduit la\\npuissance de {B_CURRENT_MOVE} !",
+      "source_hex": "fd10b4e700fd16fee6d9d8e9d7d9d800fd14b4e700e4e3ebd9e6abff",
+      "references": [
+        9094108
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: <0xFD><0x16>\\nreduziu a força de <0xFD><0x14>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 30,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        169
+      ]
+    },
+    {
+      "offset": "0x8b105b",
+      "english_reference": " <0xF8>ÏMOVE  <0xF8> DROP  <0xF8>ÀEXIT",
+      "french_reference": "{DPAD_ANY}DÉPLACER  {SE_SHOP}POSER  {B_BUTTON}QUITTER",
+      "source_hex": "00f80cc7c9d0bf0000f800beccc9ca0000f801bfd2c3ceff",
+      "references": [],
+      "status": "translated",
+      "portuguese": "<0xF8><0x0C>MOVER <0xF8><0x00>SOLTAR <0xF8><0x01>SAIR",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 24,
+      "max_width": 208,
+      "consumer_offset": "0x8b105c",
+      "consumer_references": [
+        9099564
+      ],
+      "prefix_bytes": 1,
+      "line_widths": [
+        102
+      ]
+    },
+    {
+      "offset": "0x8b2fbb",
+      "english_reference": "Hold the <0xFC>ÀÉB Button <0xFC>ÀÁto run!",
+      "french_reference": "Maintiens le bouton {COLOR}ÉB{COLOR}Á pour courir !",
+      "source_hex": "c2e3e0d800e8dcd900fc0106bc00bce9e8e8e3e200fc0102e8e300e6e9e2abff",
+      "references": [
+        9121714
+      ],
+      "status": "translated",
+      "portuguese": "Segure <0xFC><0x01><0x06>B <0xFC><0x01><0x02>para correr!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 28,
+      "max_width": 208,
+      "line_widths": [
+        121
+      ]
+    },
+    {
+      "offset": "0x8b4ec0",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nraised its Special Attack!",
+      "french_reference": "Le {B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX} a augmenté son\\nAttaque Spéciale !",
+      "source_hex": "fd10b4e700fd16fee6d5dde7d9d800dde8e700cde4d9d7ddd5e000bbe8e8d5d7dfabff",
+      "references": [
+        9129638
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>\\n<0xFD><0x16> elevou Ataque Especial!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 30,
+      "max_width": 208,
+      "line_widths": [
+        54,
+        192
+      ]
+    },
+    {
+      "offset": "0x8b5030",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nraised its Attack!",
+      "french_reference": "Le {B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX} a augmenté son\\nAttaque !",
+      "source_hex": "fd10b4e700fd16fee6d5dde7d9d800dde8e700bbe8e8d5d7dfabff",
+      "references": [
+        9130006,
+        9130742
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>\\n<0xFD><0x16> elevou seu Ataque!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 25,
+      "max_width": 208,
+      "line_widths": [
+        54,
+        165
+      ]
+    },
+    {
+      "offset": "0x8b50a0",
+      "english_reference": "<0xFD>Œ's Adrenaline Orb\\nraised its Speed!",
+      "french_reference": "L'Orbe Adrénaline de {B_DEF_NAME_WITH_PREFIX} a augmenté sa\\nVitesse !",
+      "source_hex": "fd10b4e700bbd8e6d9e2d5e0dde2d900c9e6d6fee6d5dde7d9d800dde8e700cde4d9d9d8abff",
+      "references": [
+        9170887
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: Adrenaline Orb\\naumentou sua Velocidade!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 44,
+      "max_width": 208,
+      "line_widths": [
+        142,
+        138
+      ]
+    },
+    {
+      "offset": "0x8b5b10",
+      "english_reference": "<0xFD>Œ is switched\\nout with the <0xFD>à!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} est échangé\\ngrâce à {B_LAST_ITEM} !",
+      "source_hex": "fd1000dde700e7ebdde8d7dcd9d8fee3e9e800ebdde8dc00e8dcd900fd16abff",
+      "references": [
+        9132733
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> é trocado\\ncom <0xFD><0x16>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 21,
+      "max_width": 208,
+      "line_widths": [
+        112,
+        84
+      ]
+    },
+    {
+      "offset": "0x8b5c70",
+      "english_reference": "<0xFD>Œ held up its\\n<0xFD>à against <0xFD>Ô!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} a opposé son\\n{B_LAST_ITEM} à {B_ATK_NAME_WITH_PREFIX} !",
+      "source_hex": "fd1000dcd9e0d800e9e400dde8e7fefd1600d5dbd5dde2e7e800fd0fabff",
+      "references": [
+        9133077,
+        9133117
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: <0xFD><0x16>\\ncontra <0xFD><0x0F>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 18,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        99
+      ]
+    },
+    {
+      "offset": "0x8b5c90",
+      "english_reference": "But <0xFD>Ô anchored\\nitself with its roots!",
+      "french_reference": "Mais {B_ATK_NAME_WITH_PREFIX} s'ancre avec\\nses racines !",
+      "source_hex": "bce9e800fd0f00d5e2d7dce3e6d9d8fedde8e7d9e0da00ebdde8dc00dde8e700e6e3e3e8e7abff",
+      "references": [
+        9133134
+      ],
+      "status": "translated",
+      "portuguese": "Mas <0xFD><0x0F> se firmou\\ncom suas raízes!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 34,
+      "max_width": 208,
+      "line_widths": [
+        132,
+        92
+      ]
+    },
+    {
+      "offset": "0x8b5cc0",
+      "english_reference": "But <0xFD>Ô anchors\\nitself with <0xFD><0x18>!",
+      "french_reference": "Mais {B_ATK_NAME_WITH_PREFIX} s'ancre\\ngrâce à {B_ATK_ABILITY} !",
+      "source_hex": "bce9e800fd0f00d5e2d7dce3e6e7fedde8e7d9e0da00ebdde8dc00fd18abff",
+      "references": [
+        9133094
+      ],
+      "status": "translated",
+      "portuguese": "Mas <0xFD><0x0F> se firma\\ncom <0xFD><0x18>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 24,
+      "max_width": 208,
+      "line_widths": [
+        126,
+        84
+      ]
+    },
+    {
+      "offset": "0x8b5d90",
+      "english_reference": "The <0xFD>à attached itself to\\n<0xFD>Ô!",
+      "french_reference": "Le {B_LAST_ITEM} s'est fixé sur\\n{B_ATK_NAME_WITH_PREFIX} !",
+      "source_hex": "cedcd900fd1600d5e8e8d5d7dcd9d800dde8e7d9e0da00e8e3fefd0fabff",
+      "references": [
+        9133436
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x16> grudou em\\n<0xFD><0x0F>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 17,
+      "max_width": 208,
+      "line_widths": [
+        113,
+        60
+      ]
+    },
+    {
+      "offset": "0x8b68a0",
+      "english_reference": "<0xFD>Ô stopped\\nschooling!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} met fin à sa\\nForme Banc !",
+      "source_hex": "fd0f00e7e8e3e4e4d9d8fee7d7dce3e3e0dde2dbabff",
+      "references": [
+        9136130
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> desfez\\no cardume!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 21,
+      "max_width": 208,
+      "line_widths": [
+        94,
+        59
+      ]
+    },
+    {
+      "offset": "0x8b68c0",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18>\\nactivated!",
+      "french_reference": "La {B_ATK_ABILITY} de\\n{B_ATK_NAME_WITH_PREFIX} s'active !",
+      "source_hex": "fd0fb4e700fd18fed5d7e8ddead5e8d9d8abff",
+      "references": [
+        9136034
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\nse ativou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 18,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        56
+      ]
+    },
+    {
+      "offset": "0x8b6d90",
+      "english_reference": "<0xFD>Ô became\\nAsh-Greninja!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} devient\\nSachanobi !",
+      "source_hex": "fd0f00d6d9d7d5e1d9febbe7dcaec1e6d9e2dde2ded5abff",
+      "references": [
+        9188141
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> virou\\nAsh-Greninja!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 23,
+      "max_width": 208,
+      "line_widths": [
+        87,
+        72
+      ]
+    },
+    {
+      "offset": "0x8b6ff0",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18>\\nactivated!",
+      "french_reference": "La {B_ATK_ABILITY} de\\n{B_ATK_NAME_WITH_PREFIX} s'active !",
+      "source_hex": "fd0fb4e700fd18fed5d7e8ddead5e8d9d8abff",
+      "references": [
+        9138119,
+        9138247,
+        9486317
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\nse ativou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 18,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        56
+      ]
+    },
+    {
+      "offset": "0x8b7010",
+      "english_reference": "<0xFD>Ô transformed\\ninto its blade form!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} prend sa\\nForme Lame !",
+      "source_hex": "fd0f00e8e6d5e2e7dae3e6e1d9d8fedde2e8e300dde8e700d6e0d5d8d900dae3e6e1abff",
+      "references": [
+        9138138
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> assumiu\\na forma de lâmina!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 30,
+      "max_width": 208,
+      "line_widths": [
+        98,
+        102
+      ]
+    },
+    {
+      "offset": "0x8b7070",
+      "english_reference": "<0xFD>Ô transformed\\ninto its shield form!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} prend sa\\nForme Bouclier !",
+      "source_hex": "fd0f00e8e6d5e2e7dae3e6e1d9d8fedde2e8e300dde8e700e7dcddd9e0d800dae3e6e1abff",
+      "references": [
+        9138266
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> assumiu\\na forma de escudo!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 30,
+      "max_width": 208,
+      "line_widths": [
+        98,
+        105
+      ]
+    },
+    {
+      "offset": "0x8b7270",
+      "english_reference": "The bursting flame hit\\n<0xFD>Œ!",
+      "french_reference": "La gerbe de flammes touche\\n{B_DEF_NAME_WITH_PREFIX} !",
+      "source_hex": "cedcd900d6e9e6e7e8dde2db00dae0d5e1d900dcdde8fefd10abff",
+      "references": [
+        9138662
+      ],
+      "status": "translated",
+      "portuguese": "A explosão de fogo atingiu\\n<0xFD><0x10>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 31,
+      "max_width": 208,
+      "line_widths": [
+        147,
+        60
+      ]
+    },
+    {
+      "offset": "0x8b74f0",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18>\\nturned the sunlight extremely harsh!",
+      "french_reference": "La {B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} rend le soleil\\ncaniculaire !",
+      "source_hex": "fd0fb4e700fd18fee8e9e6e2d9d800e8dcd900e7e9e2e0dddbdce800d9ece8e6d9e1d9e0ed00dcd5e6e7dcabff",
+      "references": [
+        9139414
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\ntornou a luz solar extrema!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 35,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        153
+      ]
+    },
+    {
+      "offset": "0x8b7580",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18>\\ncaused a heavy rain to fall!",
+      "french_reference": "La {B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} fait tomber une\\npluie diluvienne !",
+      "source_hex": "fd0fb4e700fd18fed7d5e9e7d9d800d500dcd9d5eaed00e6d5dde200e8e300dad5e0e0abff",
+      "references": [
+        9139558
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\nfez cair uma chuva forte!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 33,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        143
+      ]
+    },
+    {
+      "offset": "0x8b7610",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18>\\nsummoned a mysterious air current<0xFA>that protects Flying-type Pokemon!",
+      "french_reference": "La {B_ATK_ABILITY} de {B_ATK_NAME_WITH_PREFIX} invoque un\\ncourant d'air mystérieux qui protège\\lles Pokémon Vol !",
+      "source_hex": "fd0fb4e700fd18fee7e9e1e1e3e2d9d800d500e1ede7e8d9e6dde3e9e700d5dde600d7e9e6e6d9e2e8fae8dcd5e800e4e6e3e8d9d7e8e700c0e0eddde2dbaee8ede4d900cae3dfd9e1e3e2abff",
+      "references": [
+        9139688
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\ntrouxe uma corrente de ar<0xFA>que protege Pokémon Voadores!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 63,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        143,
+        168
+      ]
+    },
+    {
+      "offset": "0x8b7850",
+      "english_reference": "The Water-type attack evaporated\\nin the harsh sunlight!",
+      "french_reference": "L'attaque Eau s'évapore sous le\\nsoleil de plomb !",
+      "source_hex": "cedcd900d1d5e8d9e6aee8ede4d900d5e8e8d5d7df00d9ead5e4e3e6d5e8d9d8fedde200e8dcd900dcd5e6e7dc00e7e9e2e0dddbdce8abff",
+      "references": [
+        9140288
+      ],
+      "status": "translated",
+      "portuguese": "O golpe de Água evaporou\\nna luz solar intensa!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 47,
+      "max_width": 208,
+      "line_widths": [
+        142,
+        115
+      ]
+    },
+    {
+      "offset": "0x8b7960",
+      "english_reference": "<0xFD>Œ surrounds itself\\nwith psychic terrain!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} crée un Champ\\nPsychique autour de lui !",
+      "source_hex": "fd1000e7e9e6e6e3e9e2d8e700dde8e7d9e0dafeebdde8dc00e4e7edd7dcddd700e8d9e6e6d5dde2abff",
+      "references": [
+        9140552
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> se envolve\\nnum terreno psíquico!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 36,
+      "max_width": 208,
+      "line_widths": [
+        117,
+        118
+      ]
+    },
+    {
+      "offset": "0x8b7c90",
+      "english_reference": "<0xFD>Ô shuddered!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} frémit !",
+      "source_hex": "fd0f00e7dce9d8d8d9e6d9d8abff",
+      "references": [
+        9141353
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> estremeceu!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 15,
+      "max_width": 208,
+      "line_widths": [
+        123
+      ]
+    },
+    {
+      "offset": "0x8b7d50",
+      "english_reference": "<0xFD>Ô was hurt by\\n<0xFD>Œ's <0xFD>ç!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} est blessé par la\\n{B_DEF_ABILITY} de {B_DEF_NAME_WITH_PREFIX} !",
+      "source_hex": "fd0f00ebd5e700dce9e6e800d6edfefd10b4e700fd19abff",
+      "references": [
+        9141556
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> sofreu dano:\\n<0xFD><0x10>: <0xFD><0x19>",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 23,
+      "max_width": 208,
+      "line_widths": [
+        127,
+        119
+      ]
+    },
+    {
+      "offset": "0x8b7f30",
+      "english_reference": "<0xFD>Œ's disguise\\nserved as its decoy!",
+      "french_reference": "Le Déguisement de\\n{B_DEF_NAME_WITH_PREFIX} servait de leurre !",
+      "source_hex": "fd10b4e700d8dde7dbe9dde7d9fee7d9e6ead9d800d5e700dde8e700d8d9d7e3edabff",
+      "references": [
+        9142011
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: seu disfarce\\nserviu de isca!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 33,
+      "max_width": 208,
+      "line_widths": [
+        131,
+        83
+      ]
+    },
+    {
+      "offset": "0x8b7f60",
+      "english_reference": "<0xFD>Œ's disguise\\nwas busted!",
+      "french_reference": "Le Déguisement de\\n{B_DEF_NAME_WITH_PREFIX} est brisé !",
+      "source_hex": "fd10b4e700d8dde7dbe9dde7d9feebd5e700d6e9e7e8d9d8abff",
+      "references": [
+        9142044
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: seu disfarce\\nse rompeu!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 28,
+      "max_width": 208,
+      "line_widths": [
+        131,
+        58
+      ]
+    },
+    {
+      "offset": "0x8b8030",
+      "english_reference": "<0xFD>Œ is tormented\\nby <0xFD>Ô's <0xFD><0x18>!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} est tourmenté par la {B_ATK_ABILITY} de\\n{B_ATK_NAME_WITH_PREFIX} !",
+      "source_hex": "fd1000dde700e8e3e6e1d9e2e8d9d8fed6ed00fd0fb4e700fd18abff",
+      "references": [
+        9142586
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> sofre:\\n<0xFD><0x0F>: <0xFD><0x18>",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 17,
+      "max_width": 208,
+      "line_widths": [
+        92,
+        119
+      ]
+    },
+    {
+      "offset": "0x8b8180",
+      "english_reference": "<0xFD>Ô found one\\n<0xFD>à with <0xFD><0x18>!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} trouve\\n{B_LAST_ITEM} avec {B_ATK_ABILITY} !",
+      "source_hex": "fd0f00dae3e9e2d800e3e2d9fefd1600ebdde8dc00fd18abff",
+      "references": [
+        9142629
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> achou\\n<0xFD><0x16> com <0xFD><0x18>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 20,
+      "max_width": 208,
+      "line_widths": [
+        90,
+        144
+      ]
+    },
+    {
+      "offset": "0x8b8280",
+      "english_reference": "<0xFD>Ô harvested\\none <0xFD>à with <0xFD><0x18>!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} récolte un {B_LAST_ITEM} grâce à\\n{B_ATK_ABILITY} !",
+      "source_hex": "fd0f00dcd5e6ead9e7e8d9d8fee3e2d900fd1600ebdde8dc00fd18abff",
+      "references": [
+        9142874
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> colheu\\n<0xFD><0x16> com <0xFD><0x18>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 21,
+      "max_width": 208,
+      "line_widths": [
+        95,
+        144
+      ]
+    },
+    {
+      "offset": "0x8b84a0",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18>\\nmade your team too nervous to<0xFA>eat berries!",
+      "french_reference": "La {B_ATK_ABILITY} de\\n{B_ATK_NAME_WITH_PREFIX} rend ton équipe trop\\lnerveuse pour manger des Baies !",
+      "source_hex": "fd0fb4e700fd18fee1d5d8d900ede3e9e600e8d9d5e100e8e3e300e2d9e6eae3e9e700e8e3fad9d5e800d6d9e6e6ddd9e7abff",
+      "references": [
+        9143412
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\ndeixou sua equipe nervosa<0xFA>demais para comer Berries!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 60,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        142,
+        146
+      ]
+    },
+    {
+      "offset": "0x8b84e0",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18> made the opposing\\nteam too nervous to eat berries!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX}\\n{B_ATK_ABILITY} : Baies KO !",
+      "source_hex": "fd0fb4e700fd1800e1d5d8d900e8dcd900e3e4e4e3e7dde2dbfee8d9d5e100e8e3e300e2d9e6eae3e9e700e8e300d9d5e800d6d9e6e6ddd9e7abff",
+      "references": [
+        9143432
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\na equipe rival teme comer Berries!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 42,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        191
+      ]
+    },
+    {
+      "offset": "0x8b8630",
+      "english_reference": "<0xFD>Œ took over \\n<0xFD>ç!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} s'approprie\\n{B_DEF_ABILITY} !",
+      "source_hex": "fd1000e8e3e3df00e3ead9e600fefd19abff",
+      "references": [
+        9156186,
+        9187797
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> assumiu\\n<0xFD><0x19>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 15,
+      "max_width": 208,
+      "line_widths": [
+        98,
+        60
+      ]
+    },
+    {
+      "offset": "0x8b8790",
+      "english_reference": "<0xFD>Û used\\nthe <0xFD>à to get pumped!",
+      "french_reference": "{B_LAST_ITEM} utilisé !\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}",
+      "source_hex": "fd1300e9e7d9d8fee8dcd900fd1600e8e300dbd9e800e4e9e1e4d9d8abff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucune référence absolue dans la ROM EN, ni pointeur sur les quatre octets voisins ; copie non adressée laissée intacte, aucune livraison revendiquée. Variante adressée à 0xa4af59, sites : 0x3fe424. Hors lot, non modifiée.",
+      "related_consumers": [
+        {
+          "offset": "0xa4af59",
+          "references": [
+            4187172
+          ],
+          "source_hex": "fd1300e9e7d9d800e8dcd9fefd1600e8e300dbd9e800e4e9e1e4d9d8abff"
+        }
+      ]
+    },
+    {
+      "offset": "0x8b9010",
+      "english_reference": "Your team's tailwind petered out!",
+      "french_reference": "Vent Arrière s'estompe !",
+      "source_hex": "d3e3e9e600e8d9d5e1b4e700e8d5dde0ebdde2d800e4d9e8d9e6d9d800e3e9e8abff",
+      "references": [
+        9145782
+      ],
+      "status": "translated",
+      "portuguese": "O Tailwind da sua equipe acabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 33,
+      "max_width": 208,
+      "line_widths": [
+        183
+      ]
+    },
+    {
+      "offset": "0x8b9032",
+      "english_reference": "The opposing team's tailwind\\npetered out!",
+      "french_reference": "Vent Arrière de l'équipe adverse\\nse dissipe !",
+      "source_hex": "cedcd900e3e4e4e3e7dde2db00e8d9d5e1b4e700e8d5dde0ebdde2d8fee4d9e8d9e6d9d800e3e9e8abff",
+      "references": [
+        9145814
+      ],
+      "status": "translated",
+      "portuguese": "O Tailwind da equipe rival\\nacabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 35,
+      "max_width": 208,
+      "line_widths": [
+        144,
+        42
+      ]
+    },
+    {
+      "offset": "0x8b905c",
+      "english_reference": "Your team's Lucky Chant wore off!",
+      "french_reference": "Rune Protect s'estompe !",
+      "source_hex": "d3e3e9e600e8d9d5e1b4e700c6e9d7dfed00bddcd5e2e800ebe3e6d900e3dadaabff",
+      "references": [
+        9145862
+      ],
+      "status": "translated",
+      "portuguese": "O Lucky Chant da sua equipe acabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 36,
+      "max_width": 208,
+      "line_widths": [
+        204
+      ]
+    },
+    {
+      "offset": "0x8b907e",
+      "english_reference": "The opposing team's Lucky Chant\\nwore off!",
+      "french_reference": "Rune Protect de l'équipe adverse\\ndisparaît !",
+      "source_hex": "cedcd900e3e4e4e3e7dde2db00e8d9d5e1b4e700c6e9d7dfed00bddcd5e2e8feebe3e6d900e3dadaabff",
+      "references": [
+        9145894
+      ],
+      "status": "translated",
+      "portuguese": "O Lucky Chant da equipe rival\\nacabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 38,
+      "max_width": 208,
+      "line_widths": [
+        165,
+        42
+      ]
+    },
+    {
+      "offset": "0x8b90a8",
+      "english_reference": "The rainbow on your team's side\\ndisappeared!",
+      "french_reference": "L'arc-en-ciel du côté de ton équipe\\na disparu !",
+      "source_hex": "cedcd900e6d5dde2d6e3eb00e3e200ede3e9e600e8d9d5e1b4e700e7ddd8d9fed8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        9145942
+      ],
+      "status": "translated",
+      "portuguese": "O arco-íris do seu lado\\ndesapareceu!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 37,
+      "max_width": 208,
+      "line_widths": [
+        131,
+        70
+      ]
+    },
+    {
+      "offset": "0x8b90d5",
+      "english_reference": "The rainbow on the opposing team's\\nside disappeared!",
+      "french_reference": "L'arc-en-ciel du côté adverse a\\ndisparu !",
+      "source_hex": "cedcd900e6d5dde2d6e3eb00e3e200e8dcd900e3e4e4e3e7dde2db00e8d9d5e1b4e7fee7ddd8d900d8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        9145974
+      ],
+      "status": "translated",
+      "portuguese": "O arco-íris do lado adversário\\ndesapareceu!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 44,
+      "max_width": 208,
+      "line_widths": [
+        169,
+        70
+      ]
+    },
+    {
+      "offset": "0x8b910a",
+      "english_reference": "The sea of fire disappeared from\\naround your team!",
+      "french_reference": "La mer de flammes autour de ton\\néquipe disparaît !",
+      "source_hex": "cedcd900e7d9d500e3da00dadde6d900d8dde7d5e4e4d9d5e6d9d800dae6e3e1fed5e6e3e9e2d800ede3e9e600e8d9d5e1abff",
+      "references": [
+        9146022
+      ],
+      "status": "translated",
+      "portuguese": "O mar de fogo ao redor da sua\\nequipe desapareceu!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 50,
+      "max_width": 208,
+      "line_widths": [
+        169,
+        110
+      ]
+    },
+    {
+      "offset": "0x8b913d",
+      "english_reference": "The sea of fire disappeared from\\naround the opposing team!",
+      "french_reference": "Mer de flammes autour\\nde l'équipe adverse s'éteint !",
+      "source_hex": "cedcd900e7d9d500e3da00dadde6d900d8dde7d5e4e4d9d5e6d9d800dae6e3e1fed5e6e3e9e2d800e8dcd900e3e4e4e3e7dde2db00e8d9d5e1abff",
+      "references": [
+        9146054
+      ],
+      "status": "translated",
+      "portuguese": "O mar de fogo ao redor da equipe\\nrival desapareceu!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 52,
+      "max_width": 208,
+      "line_widths": [
+        186,
+        102
+      ]
+    },
+    {
+      "offset": "0x8b9178",
+      "english_reference": "The swamp around your team\\ndisappeared!",
+      "french_reference": "Le marécage autour de ton équipe\\ns'estompe !",
+      "source_hex": "cedcd900e7ebd5e1e400d5e6e3e9e2d800ede3e9e600e8d9d5e1fed8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        9146102
+      ],
+      "status": "translated",
+      "portuguese": "O pântano ao redor da sua equipe\\ndesapareceu!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 46,
+      "max_width": 208,
+      "line_widths": [
+        184,
+        70
+      ]
+    },
+    {
+      "offset": "0x8b91a0",
+      "english_reference": "The swamp around the opposing\\nteam disappeared!",
+      "french_reference": "Le marécage autour de l'équipe\\nadverse s'estompe !",
+      "source_hex": "cedcd900e7ebd5e1e400d5e6e3e9e2d800e8dcd900e3e4e4e3e7dde2dbfee8d9d5e100d8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        9146134
+      ],
+      "status": "translated",
+      "portuguese": "O pântano ao redor da equipe\\nrival desapareceu!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 48,
+      "max_width": 208,
+      "line_widths": [
+        161,
+        102
+      ]
+    },
+    {
+      "offset": "0x8b91d0",
+      "english_reference": "The twisted dimensions returned\\nto normal!",
+      "french_reference": "Les dimensions reviennent à la\\nnormale !",
+      "source_hex": "cedcd900e8ebdde7e8d9d800d8dde1d9e2e7dde3e2e700e6d9e8e9e6e2d9d8fee8e300e2e3e6e1d5e0abff",
+      "references": [
+        9146166,
+        9500450
+      ],
+      "status": "translated",
+      "portuguese": "As dimensões distorcidas\\nvoltaram ao normal!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 45,
+      "max_width": 208,
+      "line_widths": [
+        130,
+        108
+      ]
+    },
+    {
+      "offset": "0x8b91fb",
+      "english_reference": "Water Sport's effects wore off!",
+      "french_reference": "Tourniquet s'estompe !",
+      "source_hex": "d1d5e8d9e600cde4e3e6e8b4e700d9dadad9d7e8e700ebe3e6d900e3dadaabff",
+      "references": [
+        9146198
+      ],
+      "status": "translated",
+      "portuguese": "O efeito de Water Sport acabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 32,
+      "max_width": 208,
+      "line_widths": [
+        178
+      ]
+    },
+    {
+      "offset": "0x8b921b",
+      "english_reference": "Mud Sport's effects wore off!",
+      "french_reference": "Boue Sport s'estompe !",
+      "source_hex": "c7e9d800cde4e3e6e8b4e700d9dadad9d7e8e700ebe3e6d900e3dadaabff",
+      "references": [
+        9146230
+      ],
+      "status": "translated",
+      "portuguese": "O efeito de Mud Sport acabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 30,
+      "max_width": 208,
+      "line_widths": [
+        168
+      ]
+    },
+    {
+      "offset": "0x8b9239",
+      "english_reference": "Wonder Room wore off, and the Defense\\nand Sp. Def. stats returned to normal!",
+      "french_reference": "Distorsion finit : Déf. et\\nDéf.Spé reviennent !",
+      "source_hex": "d1e3e2d8d9e600cce3e3e100ebe3e6d900e3dadab800d5e2d800e8dcd900bed9dad9e2e7d9fed5e2d800cde4ad00bed9daad00e7e8d5e8e700e6d9e8e9e6e2d9d800e8e300e2e3e6e1d5e0abff",
+      "references": [
+        9146262,
+        9500517
+      ],
+      "status": "translated",
+      "portuguese": "Wonder Room acabou! Defesa e\\nDefesa Especial voltam ao normal!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 63,
+      "max_width": 208,
+      "line_widths": [
+        164,
+        187
+      ]
+    },
+    {
+      "offset": "0x8b9286",
+      "english_reference": "Magic Room wore off, and held items'\\neffects returned to normal!",
+      "french_reference": "Zone Magique finit :\\nobjets tenus OK !",
+      "source_hex": "c7d5dbddd700cce3e3e100ebe3e6d900e3dadab800d5e2d800dcd9e0d800dde8d9e1e7b4fed9dadad9d7e8e700e6d9e8e9e6e2d9d800e8e300e2e3e6e1d5e0abff",
+      "references": [
+        9146294,
+        9500584
+      ],
+      "status": "translated",
+      "portuguese": "Magic Room acabou! Os itens\\nvoltam a ter efeito!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 49,
+      "max_width": 208,
+      "line_widths": [
+        154,
+        112
+      ]
+    },
+    {
+      "offset": "0x8b92c7",
+      "english_reference": "Gravity returned to normal!",
+      "french_reference": "Gravité revient à la normale !",
+      "source_hex": "c1e6d5eadde8ed00e6d9e8e9e6e2d9d800e8e300e2e3e6e1d5e0abff",
+      "references": [
+        9146326,
+        9500793
+      ],
+      "status": "translated",
+      "portuguese": "A gravidade voltou ao normal!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 30,
+      "max_width": 208,
+      "line_widths": [
+        166
+      ]
+    },
+    {
+      "offset": "0x8b92e3",
+      "english_reference": "The terrain returned to normal!",
+      "french_reference": "Le terrain redevient normal !",
+      "source_hex": "cedcd900e8d9e6e6d5dde200e6d9e8e9e6e2d9d800e8e300e2e3e6e1d5e0abff",
+      "references": [
+        9146364,
+        9147292
+      ],
+      "status": "translated",
+      "portuguese": "O terreno voltou ao normal!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 28,
+      "max_width": 208,
+      "line_widths": [
+        153
+      ]
+    },
+    {
+      "offset": "0x8b9460",
+      "english_reference": "<0xFD>Ô is hurt by\\nthe sea of fire!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} est blessé par la\\nmer de flammes !",
+      "source_hex": "fd0f00dde700dce9e6e800d6edfee8dcd900e7d9d500e3da00dadde6d9abff",
+      "references": [
+        9147626
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> sofre dano\\npelo mar de fogo!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 32,
+      "max_width": 208,
+      "line_widths": [
+        116,
+        99
+      ]
+    },
+    {
+      "offset": "0x8b9480",
+      "english_reference": "The grassy terrain restored\\n<0xFD>Ô's health!",
+      "french_reference": "Le Champ Herbu rend des PV à\\n{B_ATK_NAME_WITH_PREFIX} !",
+      "source_hex": "cedcd900dbe6d5e7e7ed00e8d9e6e6d5dde200e6d9e7e8e3e6d9d8fefd0fb4e700dcd9d5e0e8dcabff",
+      "references": [
+        9147718
+      ],
+      "status": "translated",
+      "portuguese": "O terreno de grama recuperou\\na saúde de <0xFD><0x0F>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 44,
+      "max_width": 208,
+      "line_widths": [
+        161,
+        125
+      ]
+    },
+    {
+      "offset": "0x8b99b0",
+      "english_reference": "<0xFD>Ô's <0xFD>à\\nrestored its mental state!",
+      "french_reference": "Le {B_LAST_ITEM} de\\n{B_ATK_NAME_WITH_PREFIX} lui a rendu son calme !",
+      "source_hex": "fd0fb4e700fd16fee6d9e7e8e3e6d9d800dde8e700e1d9e2e8d5e000e7e8d5e8d9abff",
+      "references": [
+        9148828
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x16>\\nrestaurou seu estado mental!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 36,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        158
+      ]
+    },
+    {
+      "offset": "0x8b9a40",
+      "english_reference": "<0xFD>Û's <0xFD>è\\nrestored its HP!",
+      "french_reference": "La {B_SCR_ACTIVE_ABILITY} de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} a restauré ses PV !",
+      "source_hex": "fd13b4e700fd1afee6d9e7e8e3e6d9d800dde8e700c2caabff",
+      "references": [
+        9149070,
+        9149166
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x13>: <0xFD><0x1A>\\nrecuperou seus PS!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 26,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        104
+      ]
+    },
+    {
+      "offset": "0x8b9aa0",
+      "english_reference": "<0xFD>Ô's <0xFD><0x18>\\nrestored its HP!",
+      "french_reference": "La {B_ATK_ABILITY} de\\n{B_ATK_NAME_WITH_PREFIX} a restauré ses PV !",
+      "source_hex": "fd0fb4e700fd18fee6d9e7e8e3e6d9d800dde8e700c2caabff",
+      "references": [
+        9470165
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x18>\\nrecuperou seus PS!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 26,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        104
+      ]
+    },
+    {
+      "offset": "0x8b9bd0",
+      "english_reference": "<0xFD>Œ avoids\\nattacks by its ally Pokémon!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} évite les attaques\\nde son allié Pokémon !",
+      "source_hex": "fd1000d5eae3ddd8e7fed5e8e8d5d7dfe700d6ed00dde8e700d5e0e0ed00cae3df1be1e3e2abff",
+      "references": [
+        9149376
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> evita\\ngolpes do seu Pokémon aliado!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 39,
+      "max_width": 208,
+      "line_widths": [
+        87,
+        166
+      ]
+    },
+    {
+      "offset": "0x8b9d20",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nraised its Defense!",
+      "french_reference": "Le {B_LAST_ITEM} de\\n{B_DEF_NAME_WITH_PREFIX} a augmenté sa Défense !",
+      "source_hex": "fd10b4e700fd16fee6d5dde7d9d800dde8e700bed9dad9e2e7d9abff",
+      "references": [
+        9150121,
+        9171494
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: <0xFD><0x16>\\naumentou sua Defesa!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 28,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        115
+      ]
+    },
+    {
+      "offset": "0x8b9d40",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nraised its Special Defense!",
+      "french_reference": "Le {B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX} a augmenté sa Défense\\nSpéciale !",
+      "source_hex": "fd10b4e700fd16fee6d5dde7d9d800dde8e700cde4d9d7ddd5e000bed9dad9e2e7d9abff",
+      "references": [
+        9130394,
+        9150214
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: <0xFD><0x16>\\naumentou sua Defesa Especial!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 37,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        165
+      ]
+    },
+    {
+      "offset": "0x8b9d70",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nlowered its Defense!",
+      "french_reference": "{B_LAST_ITEM} de\\n{B_DEF_NAME_WITH_PREFIX} baisse Déf!",
+      "source_hex": "fd10b4e700fd16fee0e3ebd9e6d9d800dde8e700bed9dad9e2e7d9abff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucune référence absolue dans la ROM EN, ni pointeur sur les quatre octets voisins ; copie non adressée laissée intacte, aucune livraison revendiquée. Variante adressée à 0x9075e0, sites : 0x90758f. Hors lot, non modifiée.",
+      "related_consumers": [
+        {
+          "offset": "0x9075e0",
+          "references": [
+            9467279
+          ],
+          "source_hex": "fd10b4e700fd19fee0e3ebd9e6d9d800dde8e700bed9dad9e2e7d9abff"
+        }
+      ]
+    },
+    {
+      "offset": "0x8b9d90",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nlowered its Sp. Defense!",
+      "french_reference": "{B_LAST_ITEM} de\\n{B_DEF_NAME_WITH_PREFIX} baisse DSpé",
+      "source_hex": "fd10b4e700fd16fee0e3ebd9e6d9d800dde8e700cde4ad00bed9dad9e2e7d9abff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucune référence absolue dans la ROM EN, ni pointeur sur les quatre octets voisins ; copie non adressée laissée intacte, aucune livraison revendiquée."
+    },
+    {
+      "offset": "0x8b9f80",
+      "english_reference": "Grass grew to cover the battlefield!",
+      "french_reference": "Herbe sur le terrain !",
+      "source_hex": "c1e6d5e7e700dbe6d9eb00e8e300d7e3ead9e600e8dcd900d6d5e8e8e0d9daddd9e0d8abff",
+      "references": [
+        9150433,
+        9502636
+      ],
+      "status": "translated",
+      "portuguese": "A grama cobriu o campo de batalha!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 35,
+      "max_width": 208,
+      "line_widths": [
+        198
+      ]
+    },
+    {
+      "offset": "0x8ba000",
+      "english_reference": "Mist swirls around the battlefield!",
+      "french_reference": "Brume sur le terrain !",
+      "source_hex": "c7dde7e800e7ebdde6e0e700d5e6e3e9e2d800e8dcd900d6d5e8e8e0d9daddd9e0d8abff",
+      "references": [
+        9150561,
+        9502640
+      ],
+      "status": "translated",
+      "portuguese": "Névoa envolve o campo de batalha!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 34,
+      "max_width": 208,
+      "line_widths": [
+        194
+      ]
+    },
+    {
+      "offset": "0x8ba080",
+      "english_reference": "The battlefield got weird!",
+      "french_reference": "Le terrain devient étrange !",
+      "source_hex": "cedcd900d6d5e8e8e0d9daddd9e0d800dbe3e800ebd9dde6d8abff",
+      "references": [
+        9150673,
+        9502644
+      ],
+      "status": "translated",
+      "portuguese": "O campo de batalha ficou estranho!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 35,
+      "max_width": 208,
+      "line_widths": [
+        195
+      ]
+    },
+    {
+      "offset": "0x8ba160",
+      "english_reference": "The <0xFD>à strengthened\\nthe power of <0xFD>À",
+      "french_reference": "Le {B_LAST_ITEM} a renforcé la\\npuissance de {PLAYER}",
+      "source_hex": "cedcd900fd1600e7e8e6d9e2dbe8dcd9e2d9d8fee8dcd900e4e3ebd9e600e3da00fd01ff",
+      "references": [
+        9150881
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x16> aumentou\\na força de <0xFD><0x01>",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 26,
+      "max_width": 208,
+      "line_widths": [
+        106,
+        118
+      ]
+    },
+    {
+      "offset": "0x8ba360",
+      "english_reference": "<0xFD>Ô shared its\\n<0xFD>à with <0xFD>Œ<0xFA>using <0xFD><0x18>!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} partage son\\n{B_LAST_ITEM} avec\\l{B_DEF_NAME_WITH_PREFIX} grâce à {B_ATK_ABILITY} !",
+      "source_hex": "fd0f00e7dcd5e6d9d800dde8e7fefd1600ebdde8dc00fd10fae9e7dde2db00fd18abff",
+      "references": [
+        9151263
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x16>\\nfoi dado a <0xFD><0x10><0xFA>por <0xFD><0x18>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 29,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        117,
+        83
+      ]
+    },
+    {
+      "offset": "0x8ba8b0",
+      "english_reference": "The extremely harsh sunlight faded!",
+      "french_reference": "Le soleil brûlant s'atténue !",
+      "source_hex": "cedcd900d9ece8e6d9e1d9e0ed00dcd5e6e7dc00e7e9e2e0dddbdce800dad5d8d9d8abff",
+      "references": [
+        9152221
+      ],
+      "status": "translated",
+      "portuguese": "A luz solar extrema se apagou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 31,
+      "max_width": 208,
+      "line_widths": [
+        173
+      ]
+    },
+    {
+      "offset": "0x8ba8e0",
+      "english_reference": "The mysterious air current has\\ndissipated!",
+      "french_reference": "Le courant d'air mystérieux se\\ndissipe !",
+      "source_hex": "cedcd900e1ede7e8d9e6dde3e9e700d5dde600d7e9e6e6d9e2e800dcd5e7fed8dde7e7dde4d5e8d9d8abff",
+      "references": [
+        9152256
+      ],
+      "status": "translated",
+      "portuguese": "A misteriosa corrente de ar\\nse dissipou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 41,
+      "max_width": 208,
+      "line_widths": [
+        149,
+        65
+      ]
+    },
+    {
+      "offset": "0x8baee0",
+      "english_reference": "<0xFD>Ô's <0xFD>à\\nlet it move first!",
+      "french_reference": "Le {B_LAST_ITEM} de\\n{B_ATK_NAME_WITH_PREFIX} lui permet d'agir en premier !",
+      "source_hex": "fd0fb4e700fd16fee0d9e800dde800e1e3ead900dadde6e7e8abff",
+      "references": [
+        9154553
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: <0xFD><0x16>\\ndeixou-o agir primeiro!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 31,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        127
+      ]
+    },
+    {
+      "offset": "0x8bb1e0",
+      "english_reference": "<0xFD>Û is hurt\\nby the Spikes!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} est blessé\\npar les Pics !",
+      "source_hex": "fd1300dde700dce9e6e8fed6ed00e8dcd900cde4dddfd9e7abff",
+      "references": [
+        4186464
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x13> sofre dano\\npelos Spikes!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 28,
+      "max_width": 208,
+      "line_widths": [
+        116,
+        72
+      ]
+    },
+    {
+      "offset": "0x8bb200",
+      "english_reference": "<0xFD>Ô floats in\\nthe air with its Air Balloon!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} flotte dans l'air\\ngrâce à son Ballon !",
+      "source_hex": "fd0f00dae0e3d5e8e700dde2fee8dcd900d5dde600ebdde8dc00dde8e700bbdde600bcd5e0e0e3e3e2abff",
+      "references": [
+        9155176
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> flutua\\ncom seu Air Balloon!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 31,
+      "max_width": 208,
+      "line_widths": [
+        93,
+        113
+      ]
+    },
+    {
+      "offset": "0x8bb430",
+      "english_reference": "<0xFD>Ô's\\nPrimal Reversion!<0xFB>It reverted to its primal form!",
+      "french_reference": "Réversion Primaire de\\n{B_ATK_NAME_WITH_PREFIX} !\\pIl reprend sa forme primitive !",
+      "source_hex": "fd0fb4e7fecae6dde1d5e000ccd9ead9e6e7dde3e2abfbc3e800e6d9ead9e6e8d9d800e8e300dde8e700e4e6dde1d5e000dae3e6e1abff",
+      "references": [
+        9155810
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>:\\nPrimal Reversion!<0xFB>Voltou à sua forma primitiva!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 52,
+      "max_width": 208,
+      "line_widths": [
+        59,
+        93,
+        161
+      ]
+    },
+    {
+      "offset": "0x8bbb80",
+      "english_reference": "<0xFD>Ô transformed!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} se transforme !",
+      "source_hex": "fd0f00e8e6d5e2e7dae3e6e1d9d8abff",
+      "references": [
+        9136172,
+        9163611
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> se transformou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 19,
+      "max_width": 208,
+      "line_widths": [
+        143
+      ]
+    },
+    {
+      "offset": "0x8bbe50",
+      "english_reference": "<0xFD>Ô's\\nelectromagnetism wore off!",
+      "french_reference": "L'électromagnétisme de\\n{B_ATK_NAME_WITH_PREFIX} s'est dissipé !",
+      "source_hex": "fd0fb4e7fed9e0d9d7e8e6e3e1d5dbe2d9e8dde7e100ebe3e6d900e3dadaabff",
+      "references": [
+        9158851
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>: seu\\neletromagnetismo acabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 33,
+      "max_width": 208,
+      "line_widths": [
+        82,
+        136
+      ]
+    },
+    {
+      "offset": "0x8bbe70",
+      "english_reference": "<0xFD>Ô was freed\\nfrom the telekinesis!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} est libéré de la\\nLévikinésie !",
+      "source_hex": "fd0f00ebd5e700dae6d9d9d8fedae6e3e100e8dcd900e8d9e0d9dfdde2d9e7dde7abff",
+      "references": [
+        9158902,
+        9160163,
+        9162115
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> se livrou\\nda telecinese!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 28,
+      "max_width": 208,
+      "line_widths": [
+        109,
+        78
+      ]
+    },
+    {
+      "offset": "0x8bbea0",
+      "english_reference": "<0xFD>Ô's\\nHeal Block wore off!",
+      "french_reference": "Anti-Soin de\\n{B_ATK_NAME_WITH_PREFIX} s'estompe !",
+      "source_hex": "fd0fb4e7fec2d9d5e000bce0e3d7df00ebe3e6d900e3dadaabff",
+      "references": [
+        9158928,
+        9161986,
+        9162142
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F>:\\nHeal Block acabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 23,
+      "max_width": 208,
+      "line_widths": [
+        59,
+        105
+      ]
+    },
+    {
+      "offset": "0x8bbec0",
+      "english_reference": "Your team's Aurora Veil\\nwore off!",
+      "french_reference": "Voile Aurore\\nde ton équipe s'estompe !",
+      "source_hex": "d3e3e9e600e8d9d5e1b4e700bbe9e6e3e6d500d0d9dde0feebe3e6d900e3dadaabff",
+      "references": [
+        9145702,
+        9162031,
+        9162187
+      ],
+      "status": "translated",
+      "portuguese": "O Aurora Veil da sua equipe\\nacabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 36,
+      "max_width": 208,
+      "line_widths": [
+        154,
+        42
+      ]
+    },
+    {
+      "offset": "0x8bbef0",
+      "english_reference": "The opposing team's Aurora Veil\\nwore off!",
+      "french_reference": "Voile Aurore de l'équipe adverse se\\ndissipe !",
+      "source_hex": "cedcd900e3e4e4e3e7dde2db00e8d9d5e1b4e700bbe9e6e3e6d500d0d9dde0feebe3e6d900e3dadaabff",
+      "references": [
+        9145734,
+        9162063,
+        9162219
+      ],
+      "status": "translated",
+      "portuguese": "O Aurora Veil da equipe rival\\nacabou!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 38,
+      "max_width": 208,
+      "line_widths": [
+        163,
+        42
+      ]
+    },
+    {
+      "offset": "0x8bc230",
+      "english_reference": "An electric current runs across\\nthe battlefield.",
+      "french_reference": "Un courant électrique\\nparcourt le terrain.",
+      "source_hex": "bbe200d9e0d9d7e8e6ddd700d7e9e6e6d9e2e800e6e9e2e700d5d7e6e3e7e7fee8dcd900d6d5e8e8e0d9daddd9e0d8adff",
+      "references": [
+        9157442
+      ],
+      "status": "translated",
+      "portuguese": "Uma corrente elétrica percorre\\no campo de batalha.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 51,
+      "max_width": 208,
+      "line_widths": [
+        168,
+        111
+      ]
+    },
+    {
+      "offset": "0x8bc270",
+      "english_reference": "Grass covers the battlefield.",
+      "french_reference": "L'herbe recouvre le terrain.",
+      "source_hex": "c1e6d5e7e700d7e3ead9e6e700e8dcd900d6d5e8e8e0d9daddd9e0d8adff",
+      "references": [
+        9157462
+      ],
+      "status": "translated",
+      "portuguese": "A grama cobre o campo de batalha.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 34,
+      "max_width": 208,
+      "line_widths": [
+        193
+      ]
+    },
+    {
+      "offset": "0x8bc290",
+      "english_reference": "Mist swirls around the battlefield.",
+      "french_reference": "Brume sur le terrain.",
+      "source_hex": "c7dde7e800e7ebdde6e0e700d5e6e3e9e2d800e8dcd900d6d5e8e8e0d9daddd9e0d8adff",
+      "references": [
+        9157482
+      ],
+      "status": "translated",
+      "portuguese": "Névoa envolve o campo de batalha.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 34,
+      "max_width": 208,
+      "line_widths": [
+        193
+      ]
+    },
+    {
+      "offset": "0x8bc2c0",
+      "english_reference": "The battlefield is weird.",
+      "french_reference": "Le terrain est étrange.",
+      "source_hex": "cedcd900d6d5e8e8e0d9daddd9e0d800dde700ebd9dde6d8adff",
+      "references": [
+        9157422
+      ],
+      "status": "translated",
+      "portuguese": "O campo de batalha está estranho.",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 34,
+      "max_width": 208,
+      "line_widths": [
+        189
+      ]
+    },
+    {
+      "offset": "0x8bc450",
+      "english_reference": "Ghost type was added to\\n<0xFD>Œ!",
+      "french_reference": "Le type Spectre s'ajoute à\\n{B_DEF_NAME_WITH_PREFIX} !",
+      "source_hex": "c1dce3e7e800e8ede4d900ebd5e700d5d8d8d9d800e8e3fefd10abff",
+      "references": [
+        9160112
+      ],
+      "status": "translated",
+      "portuguese": "O tipo Fantasma foi dado a\\n<0xFD><0x10>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 31,
+      "max_width": 208,
+      "line_widths": [
+        147,
+        60
+      ]
+    },
+    {
+      "offset": "0x8bc470",
+      "english_reference": "Grass type was added to\\n<0xFD>Œ!",
+      "french_reference": "Le type Plante s'ajoute à\\n{B_DEF_NAME_WITH_PREFIX} !",
+      "source_hex": "c1e6d5e7e700e8ede4d900ebd5e700d5d8d8d9d800e8e3fefd10abff",
+      "references": [
+        9160116
+      ],
+      "status": "translated",
+      "portuguese": "O tipo Planta foi dado a\\n<0xFD><0x10>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 29,
+      "max_width": 208,
+      "line_widths": [
+        135,
+        60
+      ]
+    },
+    {
+      "offset": "0x8bc630",
+      "english_reference": "<0xFD>Œ transformed\\ninto the Water type!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} devient de type\\nEau !",
+      "source_hex": "fd1000e8e6d5e2e7dae3e6e1d9d8fedde2e8e300e8dcd900d1d5e8d9e600e8ede4d9abff",
+      "references": [
+        9160108
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> mudou\\npara o tipo Água!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 27,
+      "max_width": 208,
+      "line_widths": [
+        90,
+        98
+      ]
+    },
+    {
+      "offset": "0x8bc990",
+      "english_reference": "<0xFD>Œ was\\nprevented from healing!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} ne peut plus se\\nsoigner !",
+      "source_hex": "fd1000ebd5e7fee4e6d9ead9e2e8d9d800dae6e3e100dcd9d5e0dde2dbabff",
+      "references": [
+        9161628
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> foi\\nimpedido de se curar!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 29,
+      "max_width": 208,
+      "line_widths": [
+        75,
+        119
+      ]
+    },
+    {
+      "offset": "0x8bc9b0",
+      "english_reference": "<0xFD>Œ can't use\\nitems anymore!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} ne peut plus\\nutiliser d'objets !",
+      "source_hex": "fd1000d7d5e2b4e800e9e7d9fedde8d9e1e700d5e2ede1e3e6d9abff",
+      "references": [
+        9161690
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> não pode\\nmais usar itens!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 29,
+      "max_width": 208,
+      "line_widths": [
+        107,
+        86
+      ]
+    },
+    {
+      "offset": "0x8bc9d0",
+      "english_reference": "<0xFD>Œ is covered\\nin powder!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} est couvert de\\npoudre !",
+      "source_hex": "fd1000dde700d7e3ead9e6d9d8fedde200e4e3ebd8d9e6abff",
+      "references": [
+        9161742
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> está coberto\\nde pó!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 23,
+      "max_width": 208,
+      "line_widths": [
+        128,
+        36
+      ]
+    },
+    {
+      "offset": "0x8bc9f0",
+      "english_reference": "<0xFD>Œ was hurled\\ninto the air!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} est projeté dans\\nles airs !",
+      "source_hex": "fd1000ebd5e700dce9e6e0d9d8fedde2e8e300e8dcd900d5dde6abff",
+      "references": [
+        9161890
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> foi lançado\\npara o alto!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 28,
+      "max_width": 208,
+      "line_widths": [
+        121,
+        69
+      ]
+    },
+    {
+      "offset": "0x8bca10",
+      "english_reference": "<0xFD>Ô can't use\\nsound moves after the Throat Chop!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX}\\npas de cap. sonores : Étranglement !",
+      "source_hex": "fd0f00d7d5e2b4e800e9e7d9fee7e3e9e2d800e1e3ead9e700d5dae8d9e600e8dcd900cedce6e3d5e800bddce3e4abff",
+      "references": [
+        9161296
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> não usa golpes\\nsonoros após Throat Chop!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 44,
+      "max_width": 208,
+      "line_widths": [
+        140,
+        143
+      ]
+    },
+    {
+      "offset": "0x8bca60",
+      "english_reference": "When the flame touched the powder on\\n<0xFD>Ô, it exploded!",
+      "french_reference": "La flamme touche la poudre sur\\n{B_ATK_NAME_WITH_PREFIX}, elle explose !",
+      "source_hex": "d1dcd9e200e8dcd900dae0d5e1d900e8e3e9d7dcd9d800e8dcd900e4e3ebd8d9e600e3e2fefd0fb800dde800d9ece4e0e3d8d9d8abff",
+      "references": [
+        9161463
+      ],
+      "status": "translated",
+      "portuguese": "O pó explodiu com a chama\\nsobre <0xFD><0x0F>!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 36,
+      "max_width": 208,
+      "line_widths": [
+        147,
+        94
+      ]
+    },
+    {
+      "offset": "0x8bce60",
+      "english_reference": "<0xFD>Œ fell\\nstraight down!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} tombe tout droit !\\n",
+      "source_hex": "fd1000dad9e0e0fee7e8e6d5dddbdce800d8e3ebe2abff",
+      "references": [
+        9162462
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> caiu\\ndireto no chão!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 24,
+      "max_width": 208,
+      "line_widths": [
+        82,
+        85
+      ]
+    },
+    {
+      "offset": "0x8bcfd0",
+      "english_reference": "<0xFD>Ô set a\\nShell Trap!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} pose un\\nCarapiège !",
+      "source_hex": "fd0f00e7d9e800d5fecddcd9e0e000cee6d5e4abff",
+      "references": [
+        9162908
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x0F> armou\\num Shell Trap!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 24,
+      "max_width": 208,
+      "line_widths": [
+        89,
+        81
+      ]
+    },
+    {
+      "offset": "0x8bd140",
+      "english_reference": "A wild <0xFD>É appeared!<0xFB>",
+      "french_reference": "{RIVAL} sauvage apparaît !\\p",
+      "source_hex": "bb00ebdde0d800fd0600d5e4e4d9d5e6d9d8abfbff",
+      "references": [
+        881696
+      ],
+      "status": "translated",
+      "portuguese": "Um <0xFD><0x06> selvagem apareceu!<0xFB>",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 26,
+      "max_width": 208,
+      "line_widths": [
+        183,
+        0
+      ]
+    },
+    {
+      "offset": "0x8bd155",
+      "english_reference": "The wild ",
+      "french_reference": "Le sauvage",
+      "source_hex": "cedcd900ebdde0d800ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucune référence absolue dans la ROM EN, ni pointeur sur les quatre octets voisins ; copie non adressée laissée intacte, aucune livraison revendiquée. Variante adressée à 0xa4c636, sites : 0xd7b78, 0xd7ca0, 0xd7d14, 0xd7d88, 0xd7dfc, 0xd7e70, 0xd82bc, 0xd8584, 0x9bd354, 0x9bd684, 0x9bda14. Hors lot, non modifiée.",
+      "related_consumers": [
+        {
+          "offset": "0xa4c636",
+          "references": [
+            883576,
+            883872,
+            883988,
+            884104,
+            884220,
+            884336,
+            885436,
+            886148,
+            10212180,
+            10212996,
+            10213908
+          ],
+          "source_hex": "cedcd900ebdde0d800ff"
+        }
+      ]
+    },
+    {
+      "offset": "0x8bd3f0",
+      "english_reference": "<0xFD>Œ's stats changes were\\nreversed!",
+      "french_reference": "Les changements de stats de\\n{B_DEF_NAME_WITH_PREFIX} sont inversés !",
+      "source_hex": "fd10b4e700e7e8d5e8e700d7dcd5e2dbd9e700ebd9e6d9fee6d9ead9e6e7d9d8abff",
+      "references": [
+        9163900
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: os atributos\\nalterados foram invertidos!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 45,
+      "max_width": 208,
+      "line_widths": [
+        130,
+        148
+      ]
+    },
+    {
+      "offset": "0x8bd420",
+      "english_reference": "<0xFD>Œ's moves\\nhave been electrified!",
+      "french_reference": "Les capacités de\\n{B_DEF_NAME_WITH_PREFIX} sont électrifiées !",
+      "source_hex": "fd10b4e700e1e3ead9e7fedcd5ead900d6d9d9e200d9e0d9d7e8e6dddaddd9d8abff",
+      "references": [
+        9163962
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: seus golpes\\nforam eletrificados!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 37,
+      "max_width": 208,
+      "line_widths": [
+        127,
+        109
+      ]
+    },
+    {
+      "offset": "0x8bee00",
+      "english_reference": "<0xFD>Œ fell in love\\nfrom the Destiny Knot!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} tombe amoureux\\nà cause du Nœud Destin !",
+      "source_hex": "fd1000dad9e0e000dde200e0e3ead9fedae6e3e100e8dcd900bed9e7e8dde2ed00c5e2e3e8abff",
+      "references": [
+        9170540,
+        9170669
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10> se apaixonou\\npor causa de Destiny Knot!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 43,
+      "max_width": 208,
+      "line_widths": [
+        128,
+        147
+      ]
+    },
+    {
+      "offset": "0x8bef20",
+      "english_reference": "Flower Veil prevented\\n<0xFD>Û's <0xFD> <0xFA>from working!",
+      "french_reference": "Toison Éclat empêche\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} : {UNKNOWN_STR} ne\\lfonctionne pas !",
+      "source_hex": "c0e0e3ebd9e600d0d9dde000e4e6d9ead9e2e8d9d8fefd13b4e700fd00fadae6e3e100ebe3e6dfdde2dbabff",
+      "references": [
+        9170996
+      ],
+      "status": "translated",
+      "portuguese": "Flower Veil impediu\\n<0xFD><0x13>: <0xFD><0x00><0xFA>não teve efeito!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 44,
+      "max_width": 208,
+      "line_widths": [
+        105,
+        119,
+        90
+      ]
+    },
+    {
+      "offset": "0x8bf360",
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nlocked it on target!",
+      "french_reference": "Le {B_LAST_ITEM} de\\n{B_DEF_NAME_WITH_PREFIX} le fixe sur sa cible !",
+      "source_hex": "fd10b4e700fd16fee0e3d7dfd9d800dde800e3e200e8d5e6dbd9e8abff",
+      "references": [
+        9171885
+      ],
+      "status": "translated",
+      "portuguese": "<0xFD><0x10>: <0xFD><0x16>\\nfixou sua mira no alvo!",
+      "reason": "Traduction PT-BR depuis EN, comparaison FR ; commandes exactes et consommateur ROM audité.",
+      "encoded_bytes": 31,
+      "max_width": 208,
+      "line_widths": [
+        119,
+        129
+      ]
+    }
+  ]
+}
