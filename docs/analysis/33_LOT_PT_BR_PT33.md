@@ -356,7 +356,17 @@ Les sites, préimages et motifs détaillés sont dans l’audit JSON.
 
 ## Validation
 
-Les résultats de build, tests ROM et Playwright sont consignés après exécution.
+Validation locale du commit source `ae9a1200` :
+
+- Hooks actifs : 6 843 tests Python réussis, un skip existant ; 71 tests Vitest réussis ; builds FR/IT/DE réussis.
+- `make build-pt` réussi ; finaliseur PT-33 : 263 chaînes vérifiées, 132 relocalisations.
+- 38 tests ciblés réussis : intégrité, domaine, préimages, exceptions, bornes, idempotence, pointeurs, ROM finale et polices finales.
+- TypeScript (`npx tsc --noEmit`) et ruff ciblé réussis ; diff propre.
+- Préfixe du combined antérieur conservé octet par octet ; 263 ajouts, tous dans le manifeste PT-33.
+- Playwright : un test réussi, OCR des trois messages ; capture jointe au ticket F-792 depuis le répertoire temporaire de l’OS.
+
+Non vérifié : parcours naturel des 263 chaînes et de toutes leurs pages en jeu ; la certification complète relève de T-848.
+
 La sonde visuelle appelle la vraie msgbox sur une copie temporaire de ROM, à
 partir des pointeurs finaux des missions, du Bird Keeper et du combat. Elle
 contrôle par OCR les premières lignes et l’absence de modification du fichier

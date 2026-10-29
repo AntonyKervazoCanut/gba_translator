@@ -6730,7 +6730,7 @@
       "reference_contexts": [],
       "max_width": 122,
       "status": "exception",
-      "reason": "Clé de remplissage sans pointeur ; la chaîne vivante commence un octet plus loin et est traitée à son propre offset du manifeste.",
+      "reason": "Clé commençant dans un octet nul de remplissage, sans pointeur direct. La cible 0x920090 est référencée uniquement par l’ancienne table de descriptions 0x904000, elle-même sans consommateur moteur. Cette autre clé du manifeste est également une exception ; aucune traduction ni injection revendiquée pour les deux clés.",
       "owner_offset": "0x920090",
       "owner_sites": [
         9455000
@@ -6792,7 +6792,7 @@
       "reference_contexts": [],
       "max_width": 122,
       "status": "exception",
-      "reason": "Clé de remplissage sans pointeur ; la chaîne vivante commence un octet plus loin et est traitée à son propre offset du manifeste.",
+      "reason": "Clé commençant dans un octet nul de remplissage, sans pointeur direct. La cible 0x9200d3 est référencée uniquement par l’ancienne table de descriptions 0x904000, elle-même sans consommateur moteur. Cette autre clé du manifeste est également une exception ; aucune traduction ni injection revendiquée pour les deux clés.",
       "owner_offset": "0x9200d3",
       "owner_sites": [
         9455008
@@ -6854,7 +6854,7 @@
       "reference_contexts": [],
       "max_width": 122,
       "status": "exception",
-      "reason": "Clé de remplissage sans pointeur ; la chaîne vivante commence un octet plus loin et est traitée à son propre offset du manifeste.",
+      "reason": "Clé commençant dans un octet nul de remplissage, sans pointeur direct. La cible 0x92011e est référencée uniquement par l’ancienne table de descriptions 0x904000, elle-même sans consommateur moteur. Cette autre clé du manifeste est également une exception ; aucune traduction ni injection revendiquée pour les deux clés.",
       "owner_offset": "0x92011e",
       "owner_sites": [
         9455012
@@ -6916,7 +6916,7 @@
       "reference_contexts": [],
       "max_width": 122,
       "status": "exception",
-      "reason": "Clé de remplissage sans pointeur ; la chaîne vivante commence un octet plus loin et est traitée à son propre offset du manifeste.",
+      "reason": "Clé commençant dans un octet nul de remplissage, sans pointeur direct. La cible 0x920168 est référencée uniquement par l’ancienne table de descriptions 0x904000, elle-même sans consommateur moteur. Cette autre clé du manifeste est également une exception ; aucune traduction ni injection revendiquée pour les deux clés.",
       "owner_offset": "0x920168",
       "owner_sites": [
         9455016
@@ -6978,7 +6978,7 @@
       "reference_contexts": [],
       "max_width": 122,
       "status": "exception",
-      "reason": "Clé de remplissage sans pointeur ; la chaîne vivante commence un octet plus loin et est traitée à son propre offset du manifeste.",
+      "reason": "Clé commençant dans un octet nul de remplissage, sans pointeur direct. La cible 0x9201ae est référencée uniquement par l’ancienne table de descriptions 0x904000, elle-même sans consommateur moteur. Cette autre clé du manifeste est également une exception ; aucune traduction ni injection revendiquée pour les deux clés.",
       "owner_offset": "0x9201ae",
       "owner_sites": [
         9455020
@@ -7040,7 +7040,7 @@
       "reference_contexts": [],
       "max_width": 122,
       "status": "exception",
-      "reason": "Clé de remplissage sans pointeur ; la chaîne vivante commence un octet plus loin et est traitée à son propre offset du manifeste.",
+      "reason": "Clé commençant dans un octet nul de remplissage, sans pointeur direct. La cible 0x9201f9 est référencée uniquement par l’ancienne table de descriptions 0x904000, elle-même sans consommateur moteur. Cette autre clé du manifeste est également une exception ; aucune traduction ni injection revendiquée pour les deux clés.",
       "owner_offset": "0x9201f9",
       "owner_sites": [
         9455024
@@ -7102,7 +7102,7 @@
       "reference_contexts": [],
       "max_width": 122,
       "status": "exception",
-      "reason": "Clé de remplissage sans pointeur ; la chaîne vivante commence un octet plus loin et est traitée à son propre offset du manifeste.",
+      "reason": "Clé commençant dans un octet nul de remplissage, sans pointeur direct. La cible 0x92023f est référencée uniquement par l’ancienne table de descriptions 0x904000, elle-même sans consommateur moteur. Cette autre clé du manifeste est également une exception ; aucune traduction ni injection revendiquée pour les deux clés.",
       "owner_offset": "0x92023f",
       "owner_sites": [
         9455032

@@ -77,3 +77,13 @@ def test_finalizer_follows_repairs():
     assert steps.count('batch_33') == 1
     for step in ('inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale'):
         assert steps.index(step) < steps.index('batch_33')
+
+
+def test_padding_keys_do_not_claim_delivery_through_a_dead_table():
+    rows = {r['offset']: r for r in AUDIT['entries']}
+    padding = [r for r in rows.values() if 'owner_offset' in r]
+    assert len(padding) == 7
+    for row in padding:
+        assert row['status'] == rows[row['owner_offset']]['status'] == 'exception'
+        assert 'ancienne table' in row['reason']
+        assert 'legacy_table_references' in rows[row['owner_offset']]
