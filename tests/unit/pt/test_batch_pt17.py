@@ -71,3 +71,11 @@ def test_link_choices_and_dynamic_buffers():
     steps = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())['patches']
     assert steps.count('batch_17') == 1
     assert steps.index('batch_17') > steps.index('repoint_stale')
+
+
+def test_report_accounts_for_every_manifest_offset():
+    report = (ROOT / 'docs/analysis/23_PT17_MENUS_SYSTEMES.md').read_text()
+    rows = re.findall(r'^\| `(0x[0-9a-f]+)` \| ([^|]+) \|', report, re.MULTILINE)
+    assert [offset for offset, _ in rows] == [r['offset'] for r in AUDIT['entries']]
+    assert sum(status.strip() == 'traduit / vérifié en ROM' for _, status in rows) == 210
+    assert sum(status.strip() == 'exception' for _, status in rows) == 71
