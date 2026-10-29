@@ -91,7 +91,10 @@ def test_atomic_patch_bounded_idempotent_and_relocated_name_table():
     assert patch.apply(rom)['relocated'] == 0
     assert rom[0xa40a10:0xa438f0] == source[0xa40a10:0xa438f0]
     before = bytes(rom)
-    patch.source = bytes(source[:0xa42db6]) + b'\x00' + bytes(source[0xa42db7:])
-    with pytest.raises(ValueError, match='préimage'):
-        patch.apply(rom)
-    assert rom == before
+    for address, message in [(0xa42db6, 'préimage'), (0x9a51c8, 'pointeur source')]:
+        corrupt = bytearray(source)
+        corrupt[address] ^= 1
+        patch.source = bytes(corrupt)
+        with pytest.raises(ValueError, match=message):
+            patch.apply(rom)
+        assert rom == before

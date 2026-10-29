@@ -39,6 +39,8 @@ test('PT-42 : trois messages aux pointeurs vivants sont lisibles dans mGBA', asy
 import Vision
 let r = VNRecognizeTextRequest()
 r.recognitionLevel = .accurate
+// Analyser le dialogue, sans laisser le décor modifier la segmentation OCR.
+r.regionOfInterest = CGRect(x: 0, y: 0, width: 1, height: 0.30)
 r.recognitionLanguages = ["pt-BR", "en-US"]
 r.usesLanguageCorrection = true
 r.customWords = ["Pokémon"]
