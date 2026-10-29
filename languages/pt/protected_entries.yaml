@@ -24327,3 +24327,795 @@ entries:
   - offset: "0x9a436f"
     name: "PT-35 0x9a436f"
     expected: 'Escolha um Pokémon.'
+  - offset: "0x8bf460"
+    name: "PT-33 0x8bf460"
+    expected: '<0xFD><0x10>:\n<0xFD><0x16> restaurou sua calma!'
+  - offset: "0x8bf9f0"
+    name: "PT-33 0x8bf9f0"
+    expected: 'A ilusão de <0xFD><0x10>\nse desfez!'
+  - offset: "0x8c0e2d"
+    name: "PT-33 0x8c0e2d"
+    expected: '<0xFD><0x1D> ficou sem Balls...<0xFB><0xFD><0x1D> lançou uma PEDRA.'
+  - offset: "0x8c5720"
+    name: "PT-33 0x8c5720"
+    expected: 'Remover o nevoeiro.'
+  - offset: "0x8c579e"
+    name: "PT-33 0x8c579e"
+    expected: '<0xFD><0x02> dissipou o nevoeiro!'
+  - offset: "0x8c57b4"
+    name: "PT-33 0x8c57b4"
+    expected: '<0xFD><0x02> usou <0xFD><0x03>!<0xFB>Mas não havia nevoeiro\npara dissipar...'
+  - offset: "0x8c8da0"
+    name: "PT-33 0x8c8da0"
+    expected: '<0xFD><0x14> não pode ser usado\nsob o efeito de Gravity!<0xFB>'
+  - offset: "0x8c8dd0"
+    name: "PT-33 0x8c8dd0"
+    expected: 'Movimentos sonoros não podem ser\nusados após Throat Chop!<0xFB>'
+  - offset: "0x8c8e10"
+    name: "PT-33 0x8c8e10"
+    expected: '<0xFD><0x14> não pode ser usado\napós Heal Block!<0xFB>'
+  - offset: "0x8c8ff0"
+    name: "PT-33 0x8c8ff0"
+    expected: '<0xFD><0x10>\nse recompôs!'
+  - offset: "0x8c9050"
+    name: "PT-33 0x8c9050"
+    expected: '<0xFD><0x10>\naceitou a oferta gentil!'
+  - offset: "0x8c9070"
+    name: "PT-33 0x8c9070"
+    expected: 'O movimento de <0xFD><0x10>\nfoi adiado!'
+  - offset: "0x8c976e"
+    name: "PT-33 0x8c976e"
+    expected: 'Capture para\nobter mais informações!'
+  - offset: "0x8c9a17"
+    name: "PT-33 0x8c9a17"
+    expected: '<0xFD><0x02> ficou mais amigável.<0xFB>Base <0xFD><0x03> no mínimo.'
+  - offset: "0x8c9a4c"
+    name: "PT-33 0x8c9a4c"
+    expected: '<0xFD><0x02> adora você!<0xFB>Sua base de <0xFD><0x03> caiu!'
+  - offset: "0x8ca5e0"
+    name: "PT-33 0x8ca5e0"
+    expected: '<0xFD><0x10>:\n<0xFD><0x16> restaurou seus PS!'
+  - offset: "0x8ca6c5"
+    name: "PT-33 0x8ca6c5"
+    expected: '<0xFC><0x01><0x02>Mãe: <0xFC><0x01><0x04><0xFD><0x01>!\nOnde você estava?<0xFB>Eu estava muito preocupada!<0xFB>...<0xFB>Nossa...<0xFB>Que história assustadora!\nQue bom que agora está a salvo!<0xFB>Antes de fazer qualquer coisa,\ndescanse bastante.'
+  - offset: "0x8ca792"
+    name: "PT-33 0x8ca792"
+    expected: 'Não está se sentindo melhor,\nmeu bem?<0xFB>Agora tem mais energia para\najudar o Prof. Log!'
+  - offset: "0x8ca7ef"
+    name: "PT-33 0x8ca7ef"
+    expected: 'Snif...<0xFB>Sempre soube que chegaria o dia\nem que você sairia de casa...<0xFB>Foi o que disseram na TV.<0xFB>Se seu pai pudesse ver você\nagora... ficaria tão orgulhoso!<0xFB>Bem, para fazer as tarefas do\nProf. Log, você vai precisar<0xFA>disto!'
+  - offset: "0x8ca8c3"
+    name: "PT-33 0x8ca8c3"
+    expected: 'Esta é a função <0xFC><0x01><0x06>Quest Log<0xFC><0x01><0x04>\ndo seu Super Cube!<0xFB>Ela registra tudo o que\npediram para você fazer!<0xFB>Ah, antes que eu me esqueça,\numa peça essencial do seu Cube<0xFA>ficou no chão do seu quarto.<0xFB>Antes ela não era necessária,\nmas agora que tem seu próprio<0xFA>Pokémon, vai precisar dela para<0xFA>usar itens nas batalhas.'
+  - offset: "0x8caa11"
+    name: "PT-33 0x8caa11"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> recebeu da Mãe\no Super Cube Battle Component!'
+  - offset: "0x8caa4a"
+    name: "PT-33 0x8caa4a"
+    expected: 'Caso tenha se esquecido, o\nSuper Cube funciona como Bolsa.<0xFB>Mas as Bolsas baratas do Dalmart\nsó comportam 42<0xFA>itens. Já o Super Cube, também<0xFA>conhecido como <0xFC><0x01><0x06>Cube<0xFC><0x01><0x04>, tem<0xFA>espaço infinito!<0xFB>Ele digitaliza os dados dos\nitens guardados. Assim,<0xFA>é como se você não carregasse<0xFA>peso extra algum!<0xFB>Cuide-se lá fora, meu bem!<0xFB>Leve o pacote ao Prof. Log!'
+  - offset: "0x8caf31"
+    name: "PT-33 0x8caf31"
+    expected: 'Visite sua <0xFC><0x01><0x06>mãe<0xFC><0x01><0x08> antes de\nbuscar meu pacote, <0xFD><0x01>.<0xFB>Ela deve estar muito\npreocupada com você.'
+  - offset: "0x8caf99"
+    name: "PT-33 0x8caf99"
+    expected: 'Busque meu pacote no\n<0xFC><0x01><0x06>Bellin Town Poké Mart<0xFC><0x01><0x08>, <0xFD><0x01>.<0xFB>Preciso dele, e só você pode ir.'
+  - offset: "0x8caffd"
+    name: "PT-33 0x8caffd"
+    expected: 'Ah, <0xFD><0x01>!\nVocê trouxe meu pacote!'
+  - offset: "0x8cb023"
+    name: "PT-33 0x8cb023"
+    expected: '<0xFD><0x01> entregou o pacote.'
+  - offset: "0x8cb03c"
+    name: "PT-33 0x8cb03c"
+    expected: 'Ah!<0xFB>É uma encomenda do meu amigo\nOak, da região de Kanto!<0xFB>Vamos ver...<0xFB>Poké Balls, Pokédexes e... hã?\nOnde estão as Master Balls?<0xFB>Você abriu este pacote e tirou\nalguma coisa dele, <0xFD><0x01>?'
+  - offset: "0x8cb0ff"
+    name: "PT-33 0x8cb0ff"
+    expected: 'Abriu?<0xFB>Sua mãe nunca ensinou que não\nse abre a correspondência alheia?'
+  - offset: "0x8cb14b"
+    name: "PT-33 0x8cb14b"
+    expected: 'Então onde estão as Master Balls?<0xFB>É óbvio que alguém\nmexeu nas coisas aqui!'
+  - offset: "0x8cb199"
+    name: "PT-33 0x8cb199"
+    expected: '...<0xFB>Ah...\nEntendo.<0xFB>Você recuperou meu pacote\nde uns bandidos...<0xFB>E eles devem ter levado\nas Master Balls...<0xFB>...'
+  - offset: "0x8cb1fd"
+    name: "PT-33 0x8cb1fd"
+    expected: 'O quê!?<0xFB>Você os viu usar uma para\ncapturar Articuno?<0xFB>Hmm...<0xFB>Se eu estiver certo, estamos\ncorrendo um grande perigo...'
+  - offset: "0x8cb260"
+    name: "PT-33 0x8cb260"
+    expected: 'Tenho mais uma tarefa\npara você, <0xFD><0x01>.<0xFB>Um velho amigo meu mora em\n<0xFC><0x01><0x06>Dresco Town<0xFC><0x01><0x08>.<0xFB>Ele conhece muito bem\na história de Borrius.<0xFB>Preciso que conte a ele tudo\no que aconteceu até agora.<0xFB>Tenho uma teoria sobre isso,\nmas preciso que ele a confirme.<0xFB>Agora você tem seu Pokémon,\nentão não deve ser tão difícil.<0xFB>Para chegar a <0xFC><0x01><0x06>Dresco Town<0xFC><0x01><0x08>,\npasse por <0xFC><0x01><0x06>Icicle Cave<0xFC><0x01><0x08>.'
+  - offset: "0x8cb3f5"
+    name: "PT-33 0x8cb3f5"
+    expected: 'Ah!\nQue distração minha!<0xFB>Como acharia <0xFC><0x01><0x06>Icicle Cave<0xFC><0x01><0x08>\nsem conhecer o caminho?<0xFB>Este <0xFC><0x01><0x06>Town Map<0xFC><0x01><0x08> será\nde grande ajuda!'
+  - offset: "0x8cb47b"
+    name: "PT-33 0x8cb47b"
+    expected: 'E sabe de uma coisa?<0xFB>Já que vai a Dresco Town,\npode me ajudar em outra tarefa!<0xFB>Meu amigo Oak me pediu para dar\nsua Pokédex a dois Treinadores.<0xFB>É uma enciclopédia de alta\ntecnologia para registrar<0xFA>dados de Pokémon.<0xFB>Pelo visto, Borrius tem muitos\nPokémon que não existem<0xFA>em Kanto.'
+  - offset: "0x8cb5a8"
+    name: "PT-33 0x8cb5a8"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> recebeu a Pokédex\ndo Prof. Log!'
+  - offset: "0x8cb5d3"
+    name: "PT-33 0x8cb5d3"
+    expected: 'Só ver um Pokémon não basta\npara obter dados detalhados.<0xFB>É preciso capturá-lo para\nobter os dados completos.<0xFB>Aqui estão algumas ferramentas\npara capturar Pokémon selvagens.'
+  - offset: "0x8cb66f"
+    name: "PT-33 0x8cb66f"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> recebeu 5 Poké Balls\nde Log!'
+  - offset: "0x8cb695"
+    name: "PT-33 0x8cb695"
+    expected: 'Se não sabe capturar Pokémon\nselvagens, um velho amigo meu<0xFA>na Route 1 pode ensinar.'
+  - offset: "0x8cb6f7"
+    name: "PT-33 0x8cb6f7"
+    expected: 'Ah!<0xFB>Minha memória anda falhando...\nTenho mais uma coisa para você.<0xFB>Na próxima vez que encontrar\n<0xFD><0x06>, dê esta Pokédex a ele.'
+  - offset: "0x8cb773"
+    name: "PT-33 0x8cb773"
+    expected: 'Ele é frio comigo desde que os\npais o deixaram aos meus cuidados<0xFA>quando criança, mas parece<0xFA>se dar bem com você.<0xFB>Se você lhe der a Pokédex,\ncertamente vai querer ajudar.'
+  - offset: "0x8cb82c"
+    name: "PT-33 0x8cb82c"
+    expected: 'Visite meu amigo em <0xFC><0x01><0x06>Dresco Town<0xFC><0x01><0x08>,\n<0xFD><0x01>.<0xFB>Estou contando com você.'
+  - offset: "0x8cb872"
+    name: "PT-33 0x8cb872"
+    expected: '<0xFD><0x01>, corra para\n<0xFC><0x01><0x06>Thundercap Mountain<0xFC><0x01><0x08>!<0xFB>Se The Shadows chegar antes,\nBorrius estará perdida!<0xFB>Vá ao norte e pegue a <0xFC><0x01><0x06>SES\nExpressway<0xFC><0x01><0x08> rumo ao <0xFC><0x01><0x06>sul<0xFC><0x01><0x08>. É rápido.'
+  - offset: "0x8cb932"
+    name: "PT-33 0x8cb932"
+    expected: 'Com Zapdos em seu poder,\nThe Shadows só precisa levar<0xFA>os três pássaros até as<0xFA><0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x08> para soltar a força.<0xFB>Se conseguirem fazer isso\ne romper o selo...<0xFB>Nem quero pensar\nnisso.<0xFB>Vá logo até lá com Jax e tente\nimpedi-los uma última vez.<0xFB>O futuro está nas suas mãos,\n<0xFD><0x01>!'
+  - offset: "0x8cba7a"
+    name: "PT-33 0x8cba7a"
+    expected: 'Agora que a força sombria foi\nlibertada, nosso fim está perto.<0xFB>Até lá, só nos resta\nseguir vivendo normalmente.'
+  - offset: "0x8cbaec"
+    name: "PT-33 0x8cbaec"
+    expected: '<0xFD><0x01>!<0xFB>Você salvou Borrius!\nSalvou todos nós!<0xFB>Obrigado!<0xFB>Seu pai teria orgulho de você,\nGuardião de Borrius.'
+  - offset: "0x8cbb58"
+    name: "PT-33 0x8cbb58"
+    expected: 'Infelizmente, <0xFD><0x01>, não tenho\nmais tarefas para você.<0xFB>Já pensou em desafiar a\n<0xFC><0x01><0x06>Pokémon League<0xFC><0x01><0x08>?'
+  - offset: "0x8cc387"
+    name: "PT-33 0x8cc387"
+    expected: 'Há muito tempo...'
+  - offset: "0x8cc391"
+    name: "PT-33 0x8cc391"
+    expected: 'A região de Borrius travou\numa grande guerra com Kalos.\n\nFoi uma guerra brutal, que\ndurou muitos anos.\n\nNaquela época, Kalos\nconseguiu levar a melhor...'
+  - offset: "0x8cc43b"
+    name: "PT-33 0x8cc43b"
+    expected: 'À beira da derrota, o rei de\nBorrius invocou uma força sombria<0xFA>para mudar o rumo da batalha...'
+  - offset: "0x8cc49c"
+    name: "PT-33 0x8cc49c"
+    expected: 'A vantagem do exército de Kalos\nsumiu quase instantaneamente.<0xFB>Assim que entrou em combate,\na força sombria abriu portais<0xFA>e transportou o exército invasor<0xFA>de volta para Kalos...'
+  - offset: "0x8cc55b"
+    name: "PT-33 0x8cc55b"
+    expected: 'Com a saída dos invasores,\na guerra parecia ter acabado.<0xFB>Mas o rei, dominado pela sede de\npoder, também enviou seu exército<0xFA>através dos portais...'
+  - offset: "0x8cc605"
+    name: "PT-33 0x8cc605"
+    expected: 'A guerra continuou em Kalos\npor vários anos.<0xFB>Muitos homens e Pokémon foram\nconvocados para lutar e acabaram<0xFA>morrendo no campo de batalha.<0xFB>Um desses Pokémon era um amigo\nmuito querido do rei de Kalos...'
+  - offset: "0x8cc6e1"
+    name: "PT-33 0x8cc6e1"
+    expected: 'Tomado pela dor, o rei criou um\naparelho para trazê-lo à vida,<0xFA>tornando-se imortal no processo.'
+  - offset: "0x8cc752"
+    name: "PT-33 0x8cc752"
+    expected: 'Mas esse trauma deixou marcas\ne o encheu de raiva.<0xFB>Sem perdoar o mundo que ferira\nseu precioso Pokémon, ele<0xFA>transformou a máquina em uma arma<0xFA>gigantesca: a Ultimate Weapon.<0xFB>O rei se tornou um arauto da\ndestruição que encerrou a guerra.'
+  - offset: "0x8cc850"
+    name: "PT-33 0x8cc850"
+    expected: 'Com o fim da guerra, o que\nrestou do exército de Borrius<0xFA>voltou para casa.<0xFB>O Pokémon do rei o abandonou,\ne o campo de batalha se calou...'
+  - offset: "0x8cc8db"
+    name: "PT-33 0x8cc8db"
+    expected: 'Mas a paz ainda estava distante.'
+  - offset: "0x8cc8f9"
+    name: "PT-33 0x8cc8f9"
+    expected: 'A força sombria de Borrius\nqueria algo em troca da ajuda.<0xFB>Quando o rei não teve nada a\noferecer, a força se enfureceu.<0xFB>Ela começou a destruir cidades\ne vilarejos por diversão.'
+  - offset: "0x8cc9b2"
+    name: "PT-33 0x8cc9b2"
+    expected: 'Para tentar deter sua fúria,\no rei de Borrius reuniu os<0xFA>Pokémon lendários:'
+  - offset: "0x8cca05"
+    name: "PT-33 0x8cca05"
+    expected: 'Articuno!'
+  - offset: "0x8cca10"
+    name: "PT-33 0x8cca10"
+    expected: 'Zapdos!'
+  - offset: "0x8cca18"
+    name: "PT-33 0x8cca18"
+    expected: 'Moltres!'
+  - offset: "0x8cca21"
+    name: "PT-33 0x8cca21"
+    expected: 'Com o poder dos três pássaros\ne uma garrafa divina dada<0xFA>por Arceus, criador de todos os<0xFA>Pokémon, a força foi selada.'
+  - offset: "0x8ccaac"
+    name: "PT-33 0x8ccaac"
+    expected: 'Tornou-se uma sombra do que\nera antes.'
+  - offset: "0x8ccad3"
+    name: "PT-33 0x8ccad3"
+    expected: 'Sem seus poderes, foi acolhida\npelo rei e vigiada por seus<0xFA>descendentes, até um dia fatal...'
+  - offset: "0x8ccb3e"
+    name: "PT-33 0x8ccb3e"
+    expected: 'Sem seus poderes, foi acolhida\npelo rei e vigiada por seus<0xFA>descendentes, até o dia de hoje.'
+  - offset: "0x8ccba6"
+    name: "PT-33 0x8ccba6"
+    expected: 'Há 16 anos'
+    expected_raw: '            Há 16 anos'
+  - offset: "0x8ccbbf"
+    name: "PT-33 0x8ccbbf"
+    expected: 'Em outro lugar'
+    expected_raw: '             Em outro lugar'
+  - offset: "0x8ccce0"
+    name: "PT-33 0x8ccce0"
+    expected: '???: <0xFC><0x01><0x08>Arceus...<0xFB>Não posso continuar assim...'
+  - offset: "0x8ccd09"
+    name: "PT-33 0x8ccd09"
+    expected: 'Este Pokémon...<0xFB>Sei que é meu dever vigiá-lo,\nmas ele não pode ir<0xFA>para onde estou indo!'
+  - offset: "0x8ccd61"
+    name: "PT-33 0x8ccd61"
+    expected: 'Sei que eu disse a ele que usar\nesse poder seria uma má ideia,<0xFA>mas temo que logo ele pare<0xFA>de me ouvir...'
+  - offset: "0x8ccdd2"
+    name: "PT-33 0x8ccdd2"
+    expected: 'Por isso preciso fazer isso!'
+  - offset: "0x8ccdf4"
+    name: "PT-33 0x8ccdf4"
+    expected: 'Ele se foi...'
+  - offset: "0x8ccdff"
+    name: "PT-33 0x8ccdff"
+    expected: 'Agora é hora de você ir também,\nArceus...<0xFB>Não quero você por perto\nquando aquilo acontecer...<0xFB>Só me prometa uma coisa...<0xFB>Por favor, cuide de meu bebê...'
+  - offset: "0x8cd03d"
+    name: "PT-33 0x8cd03d"
+    expected: '???: <0xFC><0x01><0x08>ARGH!<0xFB>Como cumprir o desejo do vovô se\nnão consigo capturar um Pokémon!?'
+  - offset: "0x8cd093"
+    name: "PT-33 0x8cd093"
+    expected: '<0xFC><0x01><0x08>Prometi ao vovô acabar com\na raiz do sofrimento, mas agora<0xFA>não vejo como isso seria<0xFA>sequer possível!'
+  - offset: "0x8cd10e"
+    name: "PT-33 0x8cd10e"
+    expected: '<0xFC><0x01><0x08>Por favor, Arceus!<0xFB>Se você existe, dê um sinal\nde que tudo vai dar certo!'
+  - offset: "0x8cd15f"
+    name: "PT-33 0x8cd15f"
+    expected: '<0xFC><0x01><0x08>Uma Poké Ball? Aqui? Agora?<0xFB>Arceus existe mesmo...'
+  - offset: "0x8cd194"
+    name: "PT-33 0x8cd194"
+    expected: '<0xFC><0x01><0x08>Este Pokémon...'
+  - offset: "0x8cd1a5"
+    name: "PT-33 0x8cd1a5"
+    expected: '<0xFC><0x01><0x06>Hoo...pa...'
+  - offset: "0x8cd1b2"
+    name: "PT-33 0x8cd1b2"
+    expected: '<0xFC><0x01><0x08>Parece, vovô, que ainda\npode haver um jeito...<0xFB>É hora de a flor eterna\nflorescer outra vez...'
+  - offset: "0x8cd5fc"
+    name: "PT-33 0x8cd5fc"
+    expected: 'Olá, jovem <0xFD><0x02>!\nEm que posso ajudar?<0xFB>...<0xFB>...<0xFB>Ah, então Log mandou você.<0xFB>Espero poder esclarecer\no que o está preocupando.<0xFB>Você conhece bem a\nhistória de Borrius?'
+  - offset: "0x8cd6a6"
+    name: "PT-33 0x8cd6a6"
+    expected: 'Hmm...\nÉ mesmo...<0xFB>Há um especial na TV agora\nque pode refrescar<0xFA>sua memória.'
+  - offset: "0x8cd70a"
+    name: "PT-33 0x8cd70a"
+    expected: 'Excelente.<0xFB>Como sabe, a força sombria de\nBorrius foi selada há muitos<0xFA>anos.<0xFB>Mas dizem que, se os três\nPokémon lendários que a selaram<0xFA>forem reunidos novamente nas<0xFA><0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x08>, o poder poderá<0xFA>ser libertado outra vez.<0xFB>Deve ser isso que os bandidos\nque você encontrou querem.<0xFB>Eles devem querer cobrir\nBorrius de sombras outra vez.<0xFB>Se estou certo, o próximo alvo\ndeles será...'
+  - offset: "0x8cd8a6"
+    name: "PT-33 0x8cd8a6"
+    expected: '???: <0xFC><0x01><0x08>Vovô Arthur!'
+  - offset: "0x8cd8be"
+    name: "PT-33 0x8cd8be"
+    expected: 'Arthur: <0xFC><0x01><0x08>O que foi, Jax?'
+  - offset: "0x8cd8dc"
+    name: "PT-33 0x8cd8dc"
+    expected: 'Jax: <0xFC><0x01><0x08>Vi os caras de preto\nindo em direção ao<0xFA><0xFC><0x01><0x06>Cinder Volcano<0xFC><0x01><0x08>!'
+  - offset: "0x8cd935"
+    name: "PT-33 0x8cd935"
+    expected: 'Arthur: <0xFC><0x01><0x08>Eu estava contando a\n<0xFD><0x01> sobre a possível<0xFA>meta deles, mas isso<0xFA>confirma minhas suspeitas.<0xFB>Eles estão atrás do Pokémon\npássaro lendário, <0xFC><0x01><0x06>Moltres<0xFC><0x01><0x08>.'
+  - offset: "0x8cd9d8"
+    name: "PT-33 0x8cd9d8"
+    expected: 'Jax: <0xFC><0x01><0x08>Devo tentar impedi-los?'
+  - offset: "0x8cd9fc"
+    name: "PT-33 0x8cd9fc"
+    expected: 'Arthur: <0xFC><0x01><0x08>Ainda não, Jax.<0xFB>Primeiro voe até Frozen Heights\ne traga o Prof. Log aqui.'
+  - offset: "0x8cda59"
+    name: "PT-33 0x8cda59"
+    expected: 'Jax: <0xFC><0x01><0x08>Já vou, vovô!'
+  - offset: "0x8cda75"
+    name: "PT-33 0x8cda75"
+    expected: 'Log: <0xFC><0x01><0x08>Hmm...<0xFB>Então é tão ruim como eu temia...<0xFB>O que acha que devemos fazer\na respeito, Arthur?'
+  - offset: "0x8cdad4"
+    name: "PT-33 0x8cdad4"
+    expected: 'Arthur: <0xFC><0x01><0x08>Jax é capaz de\nresolver esse problema.<0xFB>Ele já provou seu valor\na esta altura.<0xFB>Pensei em mandá-lo enfrentar\nesses “Shadows” e detê-los<0xFA>antes que cheguem a Moltres.'
+  - offset: "0x8cdb97"
+    name: "PT-33 0x8cdb97"
+    expected: 'Log: <0xFC><0x01><0x08>Claro.<0xFB>A polícia já deve estar indo,\nmas a ajuda dele pode<0xFA>ser inestimável para eles.'
+  - offset: "0x8cdc07"
+    name: "PT-33 0x8cdc07"
+    expected: 'Jax: <0xFC><0x01><0x08>Entendido, vovô.<0xFB>Estou indo.<0xFB>Vou detê-los e salvar Moltres!'
+  - offset: "0x8cdc55"
+    name: "PT-33 0x8cdc55"
+    expected: 'Log: <0xFC><0x01><0x08>Bem, <0xFD><0x01>, acho\nque é hora de voltar para casa.<0xFB>Você cumpriu sua tarefa, e sua\nmãe deve estar com saudades.'
+  - offset: "0x8cdcd3"
+    name: "PT-33 0x8cdcd3"
+    expected: 'Arthur: <0xFC><0x01><0x08>Espere,\nLog.<0xFB><0xFD><0x01> pode aprender muito\nvendo Jax<0xFA>enfrentar The Shadows.<0xFB>Deixe <0xFD><0x02> ir.'
+  - offset: "0x8cdd6c"
+    name: "PT-33 0x8cdd6c"
+    expected: 'Log: <0xFC><0x01><0x08>Hmm...<0xFB>Talvez tenha razão.<0xFB><0xFD><0x03> terá experiência;\n<0xFD><0x02> fará tarefas difíceis...'
+  - offset: "0x8cddd0"
+    name: "PT-33 0x8cddd0"
+    expected: '<0xFC><0x01><0x08>Certo, <0xFD><0x01>, acho que\ndeve seguir Jax.<0xFB>Vou avisar sua mãe que\nvocê vai demorar um pouco.<0xFB>Sei que ela vai entender.'
+  - offset: "0x8cde49"
+    name: "PT-33 0x8cde49"
+    expected: 'Vá ao <0xFC><0x01><0x06>Cinder Volcano<0xFC><0x01><0x08> e veja\nJax salvar <0xFC><0x01><0x06>Moltres<0xFC><0x01><0x08>.<0xFB>Você pode ganhar uma\nexperiência valiosa assim.'
+  - offset: "0x8cdebb"
+    name: "PT-33 0x8cdebb"
+    expected: 'O tempo está acabando,\n<0xFD><0x01>.<0xFB>Corra para <0xFC><0x01><0x06>Thundercap Mountain<0xFC><0x01><0x08>\ne salve <0xFC><0x01><0x06>Zapdos<0xFC><0x01><0x08>!<0xFB>Se ele também for capturado,\nestaremos todos perdidos...'
+  - offset: "0x8cdf4b"
+    name: "PT-33 0x8cdf4b"
+    expected: 'Com os três Pokémon lendários,\nThe Shadows está a um passo<0xFA>de libertar<0xFA>a força sombria.<0xFB>Jax espera em <0xFC><0x01><0x06>Dehara City<0xFC><0x01><0x08>\npara levar você às <0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x08><0xFA>e impedir The Shadows de<0xFA>executar seu plano.'
+  - offset: "0x8ce03c"
+    name: "PT-33 0x8ce03c"
+    expected: 'Então, a força sombria foi\nlibertada...<0xFB>Se não for detida, poderá\ndestruir toda a região!<0xFB>Encontre Jax e sele-a\nnovamente!'
+  - offset: "0x8ce0c8"
+    name: "PT-33 0x8ce0c8"
+    expected: 'Você conseguiu!<0xFB>Derrotou a Light of Ruin\ne nos salvou!<0xFB>Você é um verdadeiro Guardião\nde Borrius!<0xFB>Seu pai teria orgulho.'
+  - offset: "0x8ce141"
+    name: "PT-33 0x8ce141"
+    expected: 'Agora que tudo está em paz\noutra vez, que tal desafiar<0xFA>a <0xFC><0x01><0x06>Pokémon League<0xFC><0x01><0x08>?<0xFB>Com sua habilidade, certamente\npoderia virar o campeão.'
+  - offset: "0x8ce1df"
+    name: "PT-33 0x8ce1df"
+    expected: 'Como vão suas viagens, <0xFD><0x01>?'
+  - offset: "0x8ce1f8"
+    name: "PT-33 0x8ce1f8"
+    expected: 'rapaz'
+  - offset: "0x8ce1fc"
+    name: "PT-33 0x8ce1fc"
+    expected: 'moça'
+  - offset: "0x8ce9cb"
+    name: "PT-33 0x8ce9cb"
+    expected: 'Bem-vindo a Pokémon Unbound!\n\nAntes de jogar, saiba que este\né um jogo de fãs sem fins\nlucrativos.\n\nSe pagou por este jogo, exija\nseu dinheiro de volta agora!'
+  - offset: "0x8cea72"
+    name: "PT-33 0x8cea72"
+    expected: 'Com isso em mente, está quase\nna hora de entrar em Borrius!\nMas, antes...'
+  - offset: "0x8ceac2"
+    name: "PT-33 0x8ceac2"
+    expected: 'Escolha seu personagem.'
+  - offset: "0x8cead9"
+    name: "PT-33 0x8cead9"
+    expected: 'Escolha seu tom de pele.'
+  - offset: "0x8ceaf0"
+    name: "PT-33 0x8ceaf0"
+    expected: 'Escolha a cor do cabelo.'
+  - offset: "0x8ceb09"
+    name: "PT-33 0x8ceb09"
+    expected: 'Escolha a cor da roupa.'
+  - offset: "0x8ceb24"
+    name: "PT-33 0x8ceb24"
+    expected: 'Por fim, qual é o seu\nnome?'
+  - offset: "0x8ceb4c"
+    name: "PT-33 0x8ceb4c"
+    expected: 'Seu nome é <0xFD><0x01>?'
+  - offset: "0x8ceb5d"
+    name: "PT-33 0x8ceb5d"
+    expected: 'Hoje'
+    expected_raw: '             Hoje'
+  - offset: "0x8cefb1"
+    name: "PT-33 0x8cefb1"
+    expected: 'Bem-vindo ao Mission HQ!<0xFB>É sua primeira vez aqui,\nnão é?<0xFB>Então me diga, conhece as\n<0xFC><0x01><0x06>Missões<0xFC><0x01><0x08>?'
+  - offset: "0x8cf025"
+    name: "PT-33 0x8cf025"
+    expected: 'Claro que conhece!\nQuem não conhece?<0xFB>Mas...<0xFB>Caso tenha dito sim por distração,\ndeixe-me dar uma<0xFA>explicação formal.'
+  - offset: "0x8cf09d"
+    name: "PT-33 0x8cf09d"
+    expected: 'Entendo...<0xFB>Bem, nesse caso, deixe-me\ndar uma explicação formal.'
+  - offset: "0x8cf0e4"
+    name: "PT-33 0x8cf0e4"
+    expected: 'Uma Missão é um objetivo extra\nque você recebe ao aceitar um<0xFA>pedido de ajuda.<0xFB>Muitas pessoas não conseguem\nresolver seus próprios problemas<0xFA>e precisam de ajuda.<0xFB>Ao aceitar uma Missão, os\ndetalhes ficam registrados<0xFA>no Quest Log automaticamente.<0xFB>Missões podem render boas\nrecompensas: itens, dinheiro ou<0xFA>até novas áreas para explorar.<0xFB>Se alguém oferecer uma Missão,\naceite imediatamente.<0xFB>Mesmo que não pretenda\nconcluí-la logo, não há<0xFA>problema em deixá-la registrada<0xFA>no seu Quest Log.<0xFB>Dito isso, há várias pessoas\naqui precisando de<0xFA>ajuda.<0xFB>Olhe ao redor e veja se há\nalguém que gostaria de ajudar!<0xFB>E volte a falar comigo quando\nconcluir ao menos <0xFC><0x01><0x06>5<0xFC><0x01><0x08> Missões.'
+  - offset: "0x8cf3bd"
+    name: "PT-33 0x8cf3bd"
+    expected: 'Volte quando tiver concluído\nao menos <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Missões.'
+  - offset: "0x8cf3fb"
+    name: "PT-33 0x8cf3fb"
+    expected: 'Você concluiu ao menos\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Missões!<0xFB>Por isso, ganha...<0xFB><0xFD><0x03>!'
+  - offset: "0x8cf44a"
+    name: "PT-33 0x8cf44a"
+    expected: 'Já dei tudo o que podia!\nVocê superou minhas expectativas!<0xFB>As Missões que concluir agora\nvalerão como um bônus.'
+  - offset: "0x8cf4cb"
+    name: "PT-33 0x8cf4cb"
+    expected: 'Você recebeu <0xFD><0x02>!'
+  - offset: "0x8cf4de"
+    name: "PT-33 0x8cf4de"
+    expected: 'Não há espaço na equipe nem\nno PC para este Pokémon!'
+  - offset: "0x8cf522"
+    name: "PT-33 0x8cf522"
+    expected: 'Um Nugget'
+  - offset: "0x8cf52b"
+    name: "PT-33 0x8cf52b"
+    expected: 'Um Pokémon raro'
+  - offset: "0x8cf53a"
+    name: "PT-33 0x8cf53a"
+    expected: 'Uma Latiosite e uma Latiasite'
+  - offset: "0x8cf554"
+    name: "PT-33 0x8cf554"
+    expected: 'O Shiny Charm'
+  - offset: "0x8d072f"
+    name: "PT-33 0x8d072f"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>Você só está saindo de\nDehara City agora?<0xFB>Como você é devagar!<0xFB>Enquanto você enrolava,\ndescobri como chegar<0xFA>às Ruins of Void.<0xFB>Mas quando cheguei lá, já era\ntarde demais para fazer algo.<0xFB>O que quer que The Shadows\nplanejasse, já tinha feito.<0xFB>Havia sinais de uma batalha na\nsala principal e uma pilha<0xFA>estranha de cinzas no chão.<0xFB>Será que era para algum\ntipo de ritual?<0xFB>...<0xFB>...<0xFB>O quê!?<0xFB>Que loucura!<0xFB>Você morreu e voltou à vida!?'
+  - offset: "0x8d0906"
+    name: "PT-33 0x8d0906"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>Mas o que...<0xFB>Quem é você, afinal?'
+  - offset: "0x8d0933"
+    name: "PT-33 0x8d0933"
+    expected: 'Looker: <0xFC><0x01><0x08>...<0xFB><0xFD><0x01>, deve estar pensando\npor que não entrei no portal<0xFA>junto com você e Jax.<0xFB>Quando o portal apareceu,\nfiquei receoso.<0xFB>Então, ao contrário de Jax,\nrecuei com cautela, o que<0xFA>me fez perder vocês de vista.<0xFB>Peço desculpas por isso.<0xFB>Achei que haviam sido levados\nàs Ruins of Void.<0xFB>Por isso, tentei\nir até lá também.<0xFB>Mas, como não tenho Pokémon,\nnão consegui chegar.<0xFB>Diga, <0xFD><0x01>, o que aconteceu\ncom vocês do outro lado<0xFA>do portal?<0xFB>...<0xFB>...<0xFB>Entendo...<0xFB>Então, o melhor é ir\na <0xFC><0x01><0x06>Vivill Town<0xFC><0x01><0x08><0xFA>e ajudar The Shadows.<0xFB>Quando eles e a Light of Ruin\nse enfrentarem, será a chance<0xFA>perfeita para intervir<0xFA>e prender todos.<0xFB>Ajude The Shadows\nem sua última missão.<0xFB>Após sua vitória, estarei fora\ncom uma equipe de policiais<0xFA>para acabar com essa loucura.'
+  - offset: "0x8d0ca6"
+    name: "PT-33 0x8d0ca6"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>Ei!\nNão me ignore!<0xFB>Não sei quem é ou o que\nestá havendo, mas, se isso<0xFA>tem a ver com The Shadows,<0xFA>eu quero participar!'
+  - offset: "0x8d0d33"
+    name: "PT-33 0x8d0d33"
+    expected: 'Looker: <0xFC><0x01><0x08>E quem seria você,\nrapaz?'
+  - offset: "0x8d0d5f"
+    name: "PT-33 0x8d0d5f"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>Estou furioso!<0xFB>Estava tão perto de alcançar\nThe Shadows e encontrar meus<0xFA>pais, e eles escaparam<0xFA>de mim de novo!<0xFB>Agora ouço que eles vão\npara Vivill Town?<0xFB>É para lá que eu vou!\nVou detê-los de uma vez!'
+  - offset: "0x8d0e55"
+    name: "PT-33 0x8d0e55"
+    expected: 'Looker: <0xFC><0x01><0x08>Espere, espere!<0xFB>Por ora, The Shadows é nosso peão\npara resolver um problema maior!<0xFB>Ao menos adie sua vingança\naté que essa provação<0xFA>termine, entendeu?'
+  - offset: "0x8d0f02"
+    name: "PT-33 0x8d0f02"
+    expected: '<0xFD><0x06>: <0xFC><0x01><0x08>...Tudo bem.<0xFB>Mas, quando esse problema\nfor resolvido, nada poderá<0xFA>me impedir de ir atrás<0xFA>de cada um deles!'
+  - offset: "0x8d0f8a"
+    name: "PT-33 0x8d0f8a"
+    expected: '<0xFC><0x01><0x08>Já que esta é oficialmente\nsua “missão”, vou esperar<0xFA>por você em <0xFC><0x01><0x06>Vivill Town<0xFC><0x01><0x08>.<0xFB>E, por você, vou até “ser legal”\ncom The Shadows até<0xFA>terminarmos.<0xFB>Não se atrase, <0xFD><0x01>.'
+  - offset: "0x8d1043"
+    name: "PT-33 0x8d1043"
+    expected: 'Looker: <0xFC><0x01><0x08>Esse garoto...\né mesmo uma figura...<0xFB>Bem, boa sorte em sua\nmissão, <0xFD><0x01>.<0xFB>Looker, desligando.'
+  - offset: "0x8d1651"
+    name: "PT-33 0x8d1651"
+    expected: 'Sou um eloquente Bird Keeper.<0xFB>Só participo das melhores\nbatalhas aéreas.<0xFB>Por isso, me recuso a lutar\nem batalhas com Pokémon<0xFA>que ficam no chão.<0xFB>Sabendo disso, que tal uma\n<0xFC><0x01><0x06>Sky Battle<0xFC><0x01><0x08>?'
+  - offset: "0x8d1726"
+    name: "PT-33 0x8d1726"
+    expected: 'Hoje parece ser meu dia de sorte.\nVamos batalhar!'
+  - offset: "0x8d1757"
+    name: "PT-33 0x8d1757"
+    expected: 'Você é um mestre dos ares.'
+  - offset: "0x8d1777"
+    name: "PT-33 0x8d1777"
+    expected: 'Nossa batalha aérea encheu\nmeu coração de alegria.<0xFB>Aceite estas Wings como sinal\nda minha gratidão!'
+  - offset: "0x8d17db"
+    name: "PT-33 0x8d17db"
+    expected: 'Nossa batalha aérea me trouxe\ntanta alegria!<0xFB>Vamos repetir amanhã.'
+  - offset: "0x8d1826"
+    name: "PT-33 0x8d1826"
+    expected: 'Que pena.\nÉ mesmo uma infelicidade.'
+  - offset: "0x8d184b"
+    name: "PT-33 0x8d184b"
+    expected: 'Você não tem Pokémon que\neu aceite enfrentar.<0xFB>Só Pokémon do tipo <0xFC><0x01><0x06>Voador<0xFC><0x01><0x08>\nou com a Habilidade <0xFC><0x01><0x06>Levitate<0xFC><0x01><0x08><0xFA>podem lutar com os meus.'
+  - offset: "0x905690"
+    name: "PT-33 0x905690"
+    expected: '<0xFD><0x0F> voltou\npara <0xFD><0x23>!'
+  - offset: "0x9056b4"
+    name: "PT-33 0x9056b4"
+    expected: 'A Defesa de <0xFD><0x0F>\naumentou drasticamente!'
+  - offset: "0x905770"
+    name: "PT-33 0x905770"
+    expected: '<0xFD><0x0F> voltou\npara <0xFD><0x1D>!'
+  - offset: "0x905a30"
+    name: "PT-33 0x905a30"
+    expected: '<0xFD><0x10>:\nHabilidade suprimida!'
+  - offset: "0x905a50"
+    name: "PT-33 0x905a50"
+    expected: '<0xFD><0x10> adquiriu\n<0xFD><0x19>!'
+  - offset: "0x905c25"
+    name: "PT-33 0x905c25"
+    expected: '<0xFD><0x10> acordou!'
+  - offset: "0x905c40"
+    name: "PT-33 0x905c40"
+    expected: '<0xFD><0x0F>:\nAtaque Especial subiu muito!'
+  - offset: "0x905e9a"
+    name: "PT-33 0x905e9a"
+    expected: '<0xFD><0x0F> está\nabsorvendo poder!'
+  - offset: "0x906470"
+    name: "PT-33 0x906470"
+    expected: 'Healing Wish se realizou\npara <0xFD><0x13>!'
+  - offset: "0x9064a0"
+    name: "PT-33 0x9064a0"
+    expected: '<0xFD><0x13> ficou sob\num luar místico!'
+  - offset: "0x906520"
+    name: "PT-33 0x906520"
+    expected: '<0xFD><0x0F>:\n<0xFD><0x18> foi ativada!'
+  - offset: "0x906540"
+    name: "PT-33 0x906540"
+    expected: '<0xFD><0x10>:\n<0xFD><0x16> foi queimado!'
+  - offset: "0x906619"
+    name: "PT-33 0x906619"
+    expected: '<0xFD><0x14> protegeu a equipe\nadversária de golpes críticos!'
+  - offset: "0x906740"
+    name: "PT-33 0x906740"
+    expected: '<0xFD><0x0F> roubou e comeu\no <0xFD><0x16> do oponente!'
+  - offset: "0x906810"
+    name: "PT-33 0x906810"
+    expected: 'Tailwind soprou por trás\nda sua equipe!'
+  - offset: "0x9068a0"
+    name: "PT-33 0x9068a0"
+    expected: 'Tailwind soprou por trás\nda equipe adversária!'
+  - offset: "0x9068e0"
+    name: "PT-33 0x9068e0"
+    expected: '<0xFD><0x14> protegeu sua equipe\nde golpes críticos!'
+  - offset: "0x906b90"
+    name: "PT-33 0x906b90"
+    expected: '<0xFD><0x0F> arremessou\nseu <0xFD><0x16>!'
+  - offset: "0x906bf0"
+    name: "PT-33 0x906bf0"
+    expected: '<0xFD><0x0F> levitou\ncom eletromagnetismo!'
+  - offset: "0x906c20"
+    name: "PT-33 0x906c20"
+    expected: 'Mas <0xFD><0x0F> não pode\nusar o movimento!'
+  - offset: "0x906c40"
+    name: "PT-33 0x906c40"
+    expected: 'Mas <0xFD><0x0F> não pode\nusá-lo neste estado!'
+  - offset: "0x906d20"
+    name: "PT-33 0x906d20"
+    expected: '<0xFD><0x0F> está exercendo\nsua pressão!'
+  - offset: "0x906d70"
+    name: "PT-33 0x906d70"
+    expected: 'Os efeitos do clima\ndesapareceram.'
+  - offset: "0x906dd0"
+    name: "PT-33 0x906dd0"
+    expected: '<0xFD><0x0F>:\n<0xFD><0x18> quebra os padrões!'
+  - offset: "0x906e20"
+    name: "PT-33 0x906e20"
+    expected: '<0xFD><0x0F> não consegue\nse animar!'
+  - offset: "0x906e70"
+    name: "PT-33 0x906e70"
+    expected: '<0xFD><0x0F> está emitindo\numa aura ardente!'
+  - offset: "0x906f60"
+    name: "PT-33 0x906f60"
+    expected: '<0xFD><0x0F> está emitindo\numa aura de Fada!'
+  - offset: "0x906fb0"
+    name: "PT-33 0x906fb0"
+    expected: '<0xFD><0x0F> inverteu\nas auras dos outros Pokémon!'
+  - offset: "0x906fe0"
+    name: "PT-33 0x906fe0"
+    expected: '<0xFD><0x0F> formou\num cardume!'
+  - offset: "0x907000"
+    name: "PT-33 0x907000"
+    expected: '<0xFD><0x13> está emitindo\numa aura explosiva!'
+  - offset: "0x907070"
+    name: "PT-33 0x907070"
+    expected: 'Uma corrente elétrica percorre\no campo de batalha!'
+  - offset: "0x907250"
+    name: "PT-33 0x907250"
+    expected: '<0xFD><0x10>:\n<0xFD><0x19>: + Ataque!'
+  - offset: "0x907310"
+    name: "PT-33 0x907310"
+    expected: '<0xFD><0x10>:\n<0xFD><0x19>: + Defesa!'
+  - offset: "0x9073e0"
+    name: "PT-33 0x9073e0"
+    expected: '<0xFD><0x10>:\n<0xFD><0x19>: ++ Defesa!'
+  - offset: "0x9074d0"
+    name: "PT-33 0x9074d0"
+    expected: '<0xFD><0x10>:\n<0xFD><0x19>: + Velocidade!'
+  - offset: "0x9075e0"
+    name: "PT-33 0x9075e0"
+    expected: '<0xFD><0x10>:\n<0xFD><0x19>: - Defesa!'
+  - offset: "0x907600"
+    name: "PT-33 0x907600"
+    expected: '<0xFD><0x10>:\n<0xFD><0x19>: ++ Velocidade!'
+  - offset: "0x907730"
+    name: "PT-33 0x907730"
+    expected: '<0xFD><0x13> revistou\n<0xFD><0x10> e achou seu<0xFA><0xFD><0x16>!'
+  - offset: "0x907860"
+    name: "PT-33 0x907860"
+    expected: '<0xFD><0x0F>:\nHabilidade virou <0xFD><0x19>!'
+  - offset: "0x907bf0"
+    name: "PT-33 0x907bf0"
+    expected: '<0xFD><0x10>:\n<0xFD><0x19> o retira!'
+  - offset: "0x907c40"
+    name: "PT-33 0x907c40"
+    expected: '<0xFD><0x0F> está\ncochilando!'
+  - offset: "0x907de5"
+    name: "PT-33 0x907de5"
+    expected: '<0xFD><0x10>:\n<0xFD><0x19>: máx. Ataque!'
+  - offset: "0x9082a0"
+    name: "PT-33 0x9082a0"
+    expected: '<0xFD><0x10> sofreu dano\npor sua <0xFD><0x19>!'
+  - offset: "0x9085a0"
+    name: "PT-33 0x9085a0"
+    expected: '<0xFD><0x10>:\nalterações de atributos removidas!'
+  - offset: "0x9089e0"
+    name: "PT-33 0x9089e0"
+    expected: '<0xFD><0x0F> bloqueou\no campo de batalha!'
+  - offset: "0x908a00"
+    name: "PT-33 0x908a00"
+    expected: 'Todos se deixam levar\npela atmosfera alegre!'
+  - offset: "0x908cdb"
+    name: "PT-33 0x908cdb"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Sp. Atk!'
+  - offset: "0x908cf9"
+    name: "PT-33 0x908cf9"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Ataque!'
+  - offset: "0x9092d0"
+    name: "PT-33 0x9092d0"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Ataque!'
+  - offset: "0x9092f0"
+    name: "PT-33 0x9092f0"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Defesa!'
+  - offset: "0x909311"
+    name: "PT-33 0x909311"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Velocidade!'
+  - offset: "0x909330"
+    name: "PT-33 0x909330"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Sp. Atk!'
+  - offset: "0x909351"
+    name: "PT-33 0x909351"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Sp. Def!'
+  - offset: "0x909372"
+    name: "PT-33 0x909372"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Precisão!'
+  - offset: "0x909394"
+    name: "PT-33 0x909394"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: + Evasão!'
+  - offset: "0x9093b9"
+    name: "PT-33 0x9093b9"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: - Ataque!'
+  - offset: "0x9093d9"
+    name: "PT-33 0x9093d9"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: - Defesa!'
+  - offset: "0x9093fa"
+    name: "PT-33 0x9093fa"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: - Velocidade!'
+  - offset: "0x909419"
+    name: "PT-33 0x909419"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: - Sp. Atk!'
+  - offset: "0x90943a"
+    name: "PT-33 0x90943a"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: - Sp. Def!'
+  - offset: "0x90945b"
+    name: "PT-33 0x90945b"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: - Precisão!'
+  - offset: "0x90947d"
+    name: "PT-33 0x90947d"
+    expected: '<0xFD><0x13>:\n<0xFD><0x1B>: - Evasão!'
+  - offset: "0x909af0"
+    name: "PT-33 0x909af0"
+    expected: '<0xFD><0x0F>:\n<0xFD><0x18> causou granizo!'
+  - offset: "0x909bf0"
+    name: "PT-33 0x909bf0"
+    expected: '<0xFD><0x0F>:\nefeito acumulado dissipado!'
+  - offset: "0x90a718"
+    name: "PT-33 0x90a718"
+    expected: 'Equipe de <0xFD><0x10>:\nprotegida por Sweet Veil!'
+  - offset: "0x90a740"
+    name: "PT-33 0x90a740"
+    expected: '<0xFD><0x10> está\nprotegido por <0xFD><0x19>!'
+  - offset: "0x90a7a0"
+    name: "PT-33 0x90a7a0"
+    expected: 'Equipe de <0xFD><0x10>:\nprotegida por Flower Veil!'
+  - offset: "0x90a9c0"
+    name: "PT-33 0x90a9c0"
+    expected: 'Equipe de <0xFD><0x10>:\nprotegida por Aroma Veil!'
+  - offset: "0x90b2a0"
+    name: "PT-33 0x90b2a0"
+    expected: 'Spikes foram espalhados\nao redor da sua equipe!'
+  - offset: "0x90b780"
+    name: "PT-33 0x90b780"
+    expected: '<0xFD><0x0F>:\ncarga total com a Power Herb!'
+  - offset: "0x90c710"
+    name: "PT-33 0x90c710"
+    expected: '<0xFD><0x0F>:\nVelocidade caiu por <0xFD><0x19>!'
+  - offset: "0x90c802"
+    name: "PT-33 0x90c802"
+    expected: '<0xFD><0x10>:\nStorm Drain elevou Sp. Atk!'
+  - offset: "0x90c827"
+    name: "PT-33 0x90c827"
+    expected: '<0xFD><0x10>:\nLightningrod elevou Sp. Atk!'
+  - offset: "0x90c850"
+    name: "PT-33 0x90c850"
+    expected: 'Pedras pontiagudas flutuam\nao redor da sua equipe!'
+  - offset: "0x90cae0"
+    name: "PT-33 0x90cae0"
+    expected: 'Espinhos venenosos cercam\na equipe adversária!'
+  - offset: "0x90cf46"
+    name: "PT-33 0x90cf46"
+    expected: '<0xFD><0x0F>:\n<0xFD><0x1A> foi ativada!'
+  - offset: "0x90d120"
+    name: "PT-33 0x90d120"
+    expected: 'Você sente muitas presenças.<0xFA><0xFD><0x10>:\n<0xFD><0x19> foi ativada!'
+  - offset: "0x90d160"
+    name: "PT-33 0x90d160"
+    expected: '<0xFD><0x10> se transformou\nna Complete Forme!'
+  - offset: "0x90d2c0"
+    name: "PT-33 0x90d2c0"
+    expected: '<0xFD><0x0F>:\n<0xFD><0x18> foi desativada!'
+  - offset: "0x90d3f0"
+    name: "PT-33 0x90d3f0"
+    expected: 'Você sente muitas presenças.<0xFA><0xFD><0x0F>:\n<0xFD><0x18> foi ativada!'
+  - offset: "0x90d430"
+    name: "PT-33 0x90d430"
+    expected: '<0xFD><0x0F> se transformou\nna Complete Form!'
+  - offset: "0x90d780"
+    name: "PT-33 0x90d780"
+    expected: '<0xFD><0x10> resistiu\nao golpe com <0xFD><0x19>!'
+  - offset: "0x90d930"
+    name: "PT-33 0x90d930"
+    expected: '<0xFD><0x10> foi curado\ndo problema de status.'
+  - offset: "0x90d9b0"
+    name: "PT-33 0x90d9b0"
+    expected: '<0xFD><0x0F> ficou ágil!'
+  - offset: "0x90db70"
+    name: "PT-33 0x90db70"
+    expected: '<0xFD><0x14> protege contra golpes\nfísicos e especiais!'
+  - offset: "0x90dd30"
+    name: "PT-33 0x90dd30"
+    expected: '<0xFD><0x0F> se concentrou\nintensamente!'
+  - offset: "0x90e100"
+    name: "PT-33 0x90e100"
+    expected: '<0xFD><0x0F> dissipou o\nnevoeiro com <0xFD><0x14>!'
+  - offset: "0x90e130"
+    name: "PT-33 0x90e130"
+    expected: '<0xFD><0x0F> dissipou as\nbarreiras de <0xFD><0x10>!'
+  - offset: "0x90e400"
+    name: "PT-33 0x90e400"
+    expected: '<0xFD><0x10>:\nqueimadura curada!'
+  - offset: "0x90e940"
+    name: "PT-33 0x90e940"
+    expected: '<0xFD><0x0F> se consumiu\nem chamas!'
+  - offset: "0x90ea30"
+    name: "PT-33 0x90ea30"
+    expected: '<0xFD><0x0F> roubou\nos bônus de <0xFD><0x10>!'
+  - offset: "0x90eaa0"
+    name: "PT-33 0x90eaa0"
+    expected: '<0xFD><0x10>:<0xFD><0x16>\nrecebido de <0xFD><0x0F>!'
+  - offset: "0x90ef70"
+    name: "PT-33 0x90ef70"
+    expected: '<0xFD><0x0F> passou seu\nproblema de status para<0xFA><0xFD><0x10>!'
+  - offset: "0x90f3a0"
+    name: "PT-33 0x90f3a0"
+    expected: '<0xFD><0x13> ficou sob\num luar místico!'
+  - offset: "0x90f530"
+    name: "PT-33 0x90f530"
+    expected: '<0xFD><0x0F> não pode usar\n<0xFD><0x14> devido à gravidade!'
+  - offset: "0x90f560"
+    name: "PT-33 0x90f560"
+    expected: 'A gravidade se intensificou!'
+  - offset: "0x90f580"
+    name: "PT-33 0x90f580"
+    expected: '<0xFD><0x0F> distorceu\nas dimensões!'
+  - offset: "0x90f5a0"
+    name: "PT-33 0x90f5a0"
+    expected: 'Criou uma área estranha onde\nitens equipados perdem o efeito!'
+  - offset: "0x90f5f0"
+    name: "PT-33 0x90f5f0"
+    expected: 'Criou uma área estranha onde\nDefesa e Sp. Def se invertem!'
+  - offset: "0x90f640"
+    name: "PT-33 0x90f640"
+    expected: '<0xFD><0x10> não ficou no ar\ndevido à gravidade!'
+  - offset: "0x90f670"
+    name: "PT-33 0x90f670"
+    expected: 'Um dilúvio de íons cai\nsobre o campo de batalha!'
+  - offset: "0x90f8f0"
+    name: "PT-33 0x90f8f0"
+    expected: '<0xFD><0x0F> trocou seu\nAtaque e sua Defesa!'
+  - offset: "0x90f920"
+    name: "PT-33 0x90f920"
+    expected: '<0xFD><0x0F> trocou suas\nalterações de Ataque e Sp. Atk<0xFA>com <0xFD><0x10>!'
+  - offset: "0x90f960"
+    name: "PT-33 0x90f960"
+    expected: '<0xFD><0x0F> trocou suas\nalterações de Defesa e Sp. Def<0xFA>com <0xFD><0x10>!'
+  - offset: "0x90f9a0"
+    name: "PT-33 0x90f9a0"
+    expected: '<0xFD><0x0F> trocou\nVelocidade c/ <0xFD><0x10>!'
+  - offset: "0x90f9c0"
+    name: "PT-33 0x90f9c0"
+    expected: '<0xFD><0x0F> trocou suas\nalterações de atributos com<0xFA><0xFD><0x10>!'
+  - offset: "0x90f9f0"
+    name: "PT-33 0x90f9f0"
+    expected: '<0xFD><0x0F> compartilhou\nsua defesa com o alvo!'
+  - offset: "0x90fa20"
+    name: "PT-33 0x90fa20"
+    expected: '<0xFD><0x0F> compartilhou\nseu poder com o alvo!'
+  - offset: "0x90fc0b"
+    name: "PT-33 0x90fc0b"
+    expected: 'Um mar de fogo envolveu\nsua equipe!'
+  - offset: "0x90fc30"
+    name: "PT-33 0x90fc30"
+    expected: 'Um mar de fogo envolveu\na equipe adversária!'
+  - offset: "0x90fc60"
+    name: "PT-33 0x90fc60"
+    expected: 'Um pântano envolveu\nsua equipe!'
+  - offset: "0x90fc80"
+    name: "PT-33 0x90fc80"
+    expected: 'Um pântano envolveu\na equipe adversária!'
+  - offset: "0x90fcb0"
+    name: "PT-33 0x90fcb0"
+    expected: 'Um arco-íris surgiu no céu\ndo lado da sua equipe!'
+  - offset: "0x90fcf0"
+    name: "PT-33 0x90fcf0"
+    expected: 'Um arco-íris surgiu no céu\ndo lado da equipe adversária!'
+  - offset: "0x90fd30"
+    name: "PT-33 0x90fd30"
+    expected: '<0xFD><0x0F> aguarda\no golpe de <0xFD><0x10>!'
+  - offset: "0x90fd50"
+    name: "PT-33 0x90fd50"
+    expected: '<0xFD><0x0F> usou\n<0xFD><0x14>!<0xFB>Os dois movimentos se uniram!\nÉ um movimento combinado!'
+  - offset: "0x9100b0"
+    name: "PT-33 0x9100b0"
+    expected: 'Healing Wish se realizou\npara <0xFD><0x13>!'
