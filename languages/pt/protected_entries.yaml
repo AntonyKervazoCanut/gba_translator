@@ -23838,3 +23838,492 @@ entries:
   - offset: "0xa369d6"
     name: "PT-36 0xa369d6"
     expected: 'Rivalry'
+  - offset: "0x961b50"
+    name: "PT-35 0x961b50"
+    expected: 'Normal'
+  - offset: "0x961b5d"
+    name: "PT-35 0x961b5d"
+    expected: 'Voador'
+  - offset: "0x961b73"
+    name: "PT-35 0x961b73"
+    expected: 'Pedra'
+  - offset: "0x961b87"
+    name: "PT-35 0x961b87"
+    expected: 'Aço'
+  - offset: "0x961b93"
+    name: "PT-35 0x961b93"
+    expected: 'Fogo'
+  - offset: "0x961b9b"
+    name: "PT-35 0x961b9b"
+    expected: 'Água'
+  - offset: "0x961ba3"
+    name: "PT-35 0x961ba3"
+    expected: 'Planta'
+  - offset: "0x961bbd"
+    name: "PT-35 0x961bbd"
+    expected: 'Dragão'
+  - offset: "0x961bf1"
+    name: "PT-35 0x961bf1"
+    expected: 'Fada'
+  - offset: "0x964160"
+    name: "PT-35 0x964160"
+    expected: 'Tipo do movimento: Fada'
+  - offset: "0x964180"
+    name: "PT-35 0x964180"
+    expected: 'Tipo do Pokémon: Fada'
+  - offset: "0x9641a0"
+    name: "PT-35 0x9641a0"
+    expected: 'Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Lutador, Inseto, Fada<0xFB><0xF9><0x16>: Fantasma, Sombrio<0xFB><0xF9><0x17>: Psíquico'
+  - offset: "0x964210"
+    name: "PT-35 0x964210"
+    expected: 'Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Normal, Pedra, Aço, Gelo, Sombrio<0xFB><0xF9><0x16>: Voador, Venenoso, Inseto, Psíquico,<0xFA>       Fada<0xFB><0xF9><0x17>: Fantasma'
+  - offset: "0x9642a0"
+    name: "PT-35 0x9642a0"
+    expected: 'Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Voador, Psíquico, Fada<0xFB><0xF9><0x16>: Pedra, Inseto, Sombrio'
+  - offset: "0x964300"
+    name: "PT-35 0x964300"
+    expected: 'Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Planta, Fada<0xFB><0xF9><0x16>: Venenoso, Terrestre, Pedra, Fantasma<0xFB><0xF9><0x17>: Aço'
+  - offset: "0x964370"
+    name: "PT-35 0x964370"
+    expected: 'Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Terrestre, Psíquico<0xFB><0xF9><0x16>: Lutador, Venenoso, Inseto, Planta,<0xFA>       Fada'
+  - offset: "0x9643e0"
+    name: "PT-35 0x9643e0"
+    expected: 'Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Planta, Psíquico, Sombrio<0xFB><0xF9><0x16>: Lutador, Voador, Venenoso, Fantasma,<0xFA>       Aço, Fogo, Fada'
+  - offset: "0x964460"
+    name: "PT-35 0x964460"
+    expected: 'Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Pedra, Gelo, Fada<0xFB><0xF9><0x16>: Aço, Fogo, Água, Elétrico'
+  - offset: "0x9644c0"
+    name: "PT-35 0x9644c0"
+    expected: 'Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Terrestre, Pedra, Água<0xFB><0xF9><0x16>: Inseto, Aço, Fogo, Planta,<0xFA>       Gelo, Fada'
+  - offset: "0x964540"
+    name: "PT-35 0x964540"
+    expected: 'Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Dragão<0xFB><0xF9><0x16>: Aço<0xFB><0xF9><0x17>: Fada'
+  - offset: "0x964590"
+    name: "PT-35 0x964590"
+    expected: 'Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Gelo, Dragão, Fada<0xFB><0xF9><0x16>: Fogo, Água, Planta, Elétrico'
+  - offset: "0x964600"
+    name: "PT-35 0x964600"
+    expected: 'Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Lutador, Dragão, Sombrio<0xFB><0xF9><0x16>: Venenoso, Aço, Fogo'
+  - offset: "0x964660"
+    name: "PT-35 0x964660"
+    expected: 'Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Venenoso, Aço<0xFB><0xF9><0x16>: Lutador, Inseto, Sombrio<0xFB><0xF9><0x17>: Dragão'
+  - offset: "0x964a7e"
+    name: "PT-35 0x964a7e"
+    expected: 'Capture para\nver mais informações!'
+  - offset: "0x965b87"
+    name: "PT-35 0x965b87"
+    expected: '<0xFD><0x10> sofreu dano!'
+  - offset: "0x965b94"
+    name: "PT-35 0x965b94"
+    expected: '<0xFD><0x10> está sob tormento!'
+  - offset: "0x965ba5"
+    name: "PT-35 0x965ba5"
+    expected: '<0xFD><0x13> colheu\num <0xFD><0x16>!'
+  - offset: "0x965bba"
+    name: "PT-35 0x965bba"
+    expected: '<0xFD><0x13> achou um\n<0xFD><0x16>!'
+  - offset: "0x965bcb"
+    name: "PT-35 0x965bcb"
+    expected: '<0xFD><0x13> se apaixonou\npor causa de <0xFD><0x16>!'
+  - offset: "0x965be8"
+    name: "PT-35 0x965be8"
+    expected: '<0xFD><0x0F>: a Habilidade\nagora é <0xFD><0x19>!'
+  - offset: "0x965c16"
+    name: "PT-35 0x965c16"
+    expected: '<0xFD><0x13>: a ilusão\nse desfez!'
+  - offset: "0x965c2e"
+    name: "PT-35 0x965c2e"
+    expected: 'Não teve efeito em\n<0xFD><0x10><0xB0>'
+  - offset: "0x965c46"
+    name: "PT-35 0x965c46"
+    expected: '<0xFD><0x10>: o disfarce\nserviu de chamariz!'
+  - offset: "0x965c69"
+    name: "PT-35 0x965c69"
+    expected: '<0xFD><0x10>: o disfarce\nfoi destruído!'
+  - offset: "0x966083"
+    name: "PT-35 0x966083"
+    expected: '<0xFD><0x0F> sob gravidade!\n<0xFD><0x14> proibido!'
+  - offset: "0x9660a7"
+    name: "PT-35 0x9660a7"
+    expected: '<0xFD><0x0F> sob Heal Block!\n<0xFD><0x14> proibido!'
+  - offset: "0x9660cd"
+    name: "PT-35 0x9660cd"
+    expected: '<0xFD><0x0F> não pode usar\nsons após Throat Chop!'
+  - offset: "0x9660fd"
+    name: "PT-35 0x9660fd"
+    expected: 'O ataque de Água evaporou\nsob a luz solar intensa!'
+  - offset: "0x966135"
+    name: "PT-35 0x966135"
+    expected: 'O ataque de Fogo se apagou\ncom a chuva forte!'
+  - offset: "0x966169"
+    name: "PT-35 0x966169"
+    expected: '<0xFD><0x10> se envolve\nem terreno psíquico!'
+  - offset: "0x966193"
+    name: "PT-35 0x966193"
+    expected: 'A chama tocou o pó em\n<0xFD><0x0F> e ele explodiu!'
+  - offset: "0x9661c9"
+    name: "PT-35 0x9661c9"
+    expected: '<0xFD><0x0F> assumiu\nsua forma de lâmina!'
+  - offset: "0x9661ed"
+    name: "PT-35 0x9661ed"
+    expected: '<0xFD><0x0F> assumiu\nsua forma de escudo!'
+  - offset: "0x966212"
+    name: "PT-35 0x966212"
+    expected: '<0xFD><0x0F> se envolveu\nem seu Poder Z!'
+  - offset: "0x966239"
+    name: "PT-35 0x966239"
+    expected: '<0xFD><0x0F> libera\nseu movimento Z com força total!'
+  - offset: "0x96625d"
+    name: "PT-35 0x96625d"
+    expected: '<0xFD><0x13>: a ilusão\nse desfez!'
+  - offset: "0x966275"
+    name: "PT-35 0x966275"
+    expected: 'Mas não funciona bem em\nSky Battles<0xB0>'
+  - offset: "0x9665b0"
+    name: "PT-35 0x9665b0"
+    expected: '<0xFD><0x13>: a aura\nse acendeu!'
+  - offset: "0x9665ca"
+    name: "PT-35 0x9665ca"
+    expected: '<0xFD><0x0F>:\nPrimal Reversion!<0xFB>Retornou à sua forma primal!'
+  - offset: "0x966601"
+    name: "PT-35 0x966601"
+    expected: 'Uma corrente elétrica percorre\no campo de batalha.'
+  - offset: "0x966632"
+    name: "PT-35 0x966632"
+    expected: 'A grama cobre o campo de batalha.'
+  - offset: "0x966650"
+    name: "PT-35 0x966650"
+    expected: 'A névoa envolve o campo de batalha.'
+  - offset: "0x966674"
+    name: "PT-35 0x966674"
+    expected: 'O campo de batalha está estranho.'
+  - offset: "0x96668e"
+    name: "PT-35 0x96668e"
+    expected: '<0xFD><0x13> começou\na aquecer o bico!'
+  - offset: "0x9666ae"
+    name: "PT-35 0x9666ae"
+    expected: '<0xFD><0x13> preparou\nShell Trap!'
+  - offset: "0x966b45"
+    name: "PT-35 0x966b45"
+    expected: '<0xFD><0x0F> sofreu dano de\n<0xFD><0x10> com Spiky Shield!'
+  - offset: "0x966b67"
+    name: "PT-35 0x966b67"
+    expected: '<0xFD><0x11> foi\nenvenenado por Toxic Spikes!'
+  - offset: "0x966b8c"
+    name: "PT-35 0x966b8c"
+    expected: '<0xFD><0x11> foi\nmuito envenenado por Toxic Spikes!'
+  - offset: "0x966bb6"
+    name: "PT-35 0x966bb6"
+    expected: '<0xFD><0x11> foi muito\nenvenenado por <0xFD><0x16>!'
+  - offset: "0x966bd7"
+    name: "PT-35 0x966bd7"
+    expected: '<0xFD><0x11> foi\nenvenenado por Baneful Bunker!'
+  - offset: "0x966bfe"
+    name: "PT-35 0x966bfe"
+    expected: '<0xFD><0x11> foi queimado\npelo bico de <0xFD><0x0F>!'
+  - offset: "0x966c1a"
+    name: "PT-35 0x966c1a"
+    expected: '<0xFD><0x11> foi queimado\npor <0xFD><0x16>!'
+  - offset: "0x966c61"
+    name: "PT-35 0x966c61"
+    expected: '<0xFD><0x0F> gastou seus\nPS para fortalecer seu ataque!'
+  - offset: "0x966c8b"
+    name: "PT-35 0x966c8b"
+    expected: '<0xFD><0x0F> perdeu\nparte de seus PS!'
+  - offset: "0x966ca3"
+    name: "PT-35 0x966ca3"
+    expected: '<0xFD><0x0F> roubou e comeu\no <0xFD><0x16> do adversário!'
+  - offset: "0x967539"
+    name: "PT-35 0x967539"
+    expected: 'A neblina está densa...'
+  - offset: "0x96754c"
+    name: "PT-35 0x96754c"
+    expected: 'O terreno de grama curou\nos PS de <0xFD><0x0F>!'
+  - offset: "0x967575"
+    name: "PT-35 0x967575"
+    expected: 'Aqua Ring curou\nos PS de <0xFD><0x0F>!'
+  - offset: "0x967599"
+    name: "PT-35 0x967599"
+    expected: '<0xFD><0x0F>: o efeito\nmagnético acabou!'
+  - offset: "0x9675b9"
+    name: "PT-35 0x9675b9"
+    expected: '<0xFD><0x0F> se livrou\nda telecinese!'
+  - offset: "0x9675dc"
+    name: "PT-35 0x9675dc"
+    expected: '<0xFD><0x0F>:\nHeal Block acabou!'
+  - offset: "0x9675f6"
+    name: "PT-35 0x9675f6"
+    expected: '<0xFD><0x0F>:\nEmbargo acabou!'
+  - offset: "0x96760a"
+    name: "PT-35 0x96760a"
+    expected: 'As dimensões distorcidas\nvoltaram ao normal!'
+  - offset: "0x967635"
+    name: "PT-35 0x967635"
+    expected: 'O efeito de Water Sport acabou!'
+  - offset: "0x967655"
+    name: "PT-35 0x967655"
+    expected: 'O efeito de Mud Sport acabou!'
+  - offset: "0x967673"
+    name: "PT-35 0x967673"
+    expected: 'Wonder Room acabou. A Defesa\ne a Defesa Especial normalizaram!'
+  - offset: "0x9676c0"
+    name: "PT-35 0x9676c0"
+    expected: 'Magic Room acabou. Os objetos\nvoltaram a funcionar normalmente!'
+  - offset: "0x967701"
+    name: "PT-35 0x967701"
+    expected: 'A gravidade voltou ao normal!'
+  - offset: "0x96771d"
+    name: "PT-35 0x96771d"
+    expected: 'O terreno voltou ao normal!'
+  - offset: "0x967750"
+    name: "PT-35 0x967750"
+    expected: 'Você sente muitas presenças!'
+  - offset: "0x967770"
+    name: "PT-35 0x967770"
+    expected: '<0xFD><0x13> assumiu\nsua Forma Completa!'
+  - offset: "0x967797"
+    name: "PT-35 0x967797"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\nativou!'
+  - offset: "0x9677aa"
+    name: "PT-35 0x9677aa"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\ndesativou!'
+  - offset: "0x9677bf"
+    name: "PT-35 0x9677bf"
+    expected: '<0xFD><0x13> se transformou!'
+  - offset: "0x9678f0"
+    name: "PT-35 0x9678f0"
+    expected: '<0xFD><0x13>\nfoi nocauteado!<0xFA>'
+  - offset: "0x96be0c"
+    name: "PT-35 0x96be0c"
+    expected: '<0xFD><0x0F>: seu tipo ficou\nigual ao de <0xFD><0x10>!'
+  - offset: "0x96be2f"
+    name: "PT-35 0x96be2f"
+    expected: '<0xFD><0x10> foi curado\ndo problema <0xFD><0x00>!'
+  - offset: "0x96be4f"
+    name: "PT-35 0x96be4f"
+    expected: '<0xFD><0x0F> ficou ágil!'
+  - offset: "0x96be61"
+    name: "PT-35 0x96be61"
+    expected: '<0xFD><0x0F> se envolveu\nem uma luz congelante!'
+  - offset: "0x96be88"
+    name: "PT-35 0x96be88"
+    expected: '<0xFD><0x0F> se envolveu\nem ar congelante!'
+  - offset: "0x96beab"
+    name: "PT-35 0x96beab"
+    expected: '<0xFD><0x0F> desapareceu\ninstantaneamente!'
+  - offset: "0x96bec2"
+    name: "PT-35 0x96bec2"
+    expected: '<0xFD><0x0F> se concentrou\nintensamente!'
+  - offset: "0x96bedd"
+    name: "PT-35 0x96bedd"
+    expected: '<0xFD><0x0F> esgotou\nsuas chamas!'
+  - offset: "0x96bef3"
+    name: "PT-35 0x96bef3"
+    expected: '<0xFD><0x0F> voltou\npara <0xFD><0x39>!'
+  - offset: "0x96bf07"
+    name: "PT-35 0x96bf07"
+    expected: '<0xFD><0x0F> dissipou a neblina\ncom <0xFD><0x14>!'
+  - offset: "0x96bf2a"
+    name: "PT-35 0x96bf2a"
+    expected: '<0xFD><0x0F> roubou\nos aumentos de stats de <0xFD><0x10>!'
+  - offset: "0x96bf45"
+    name: "PT-35 0x96bf45"
+    expected: '<0xFD><0x0F>: o efeito\nacumulado acabou!'
+  - offset: "0x96bf66"
+    name: "PT-35 0x96bf66"
+    expected: '<0xFD><0x10> recebeu\n<0xFD><0x16> de <0xFD><0x0F>!'
+  - offset: "0x96bf82"
+    name: "PT-35 0x96bf82"
+    expected: '<0xFD><0x0F> se envolveu\nem um véu de água!'
+  - offset: "0x96bfad"
+    name: "PT-35 0x96bfad"
+    expected: 'Mas <0xFD><0x0F> não pode\nusar o movimento!'
+  - offset: "0x96bfc8"
+    name: "PT-35 0x96bfc8"
+    expected: 'Mas <0xFD><0x0F> não pode\nusá-lo nesse estado!'
+  - offset: "0x96bfef"
+    name: "PT-35 0x96bfef"
+    expected: '<0xFD><0x0F> transferiu\nseu problema de status para<0xFA><0xFD><0x10>!'
+  - offset: "0x96c016"
+    name: "PT-35 0x96c016"
+    expected: '<0xFD><0x0F> está absorvendo\nenergia!'
+  - offset: "0x96c02d"
+    name: "PT-35 0x96c02d"
+    expected: '<0xFD><0x0F> foi carregado\ntotalmente por Power Herb!'
+  - offset: "0x96c05c"
+    name: "PT-35 0x96c05c"
+    expected: '<0xFD><0x0F> trocou\nseu Ataque e sua Defesa!'
+  - offset: "0x96c080"
+    name: "PT-35 0x96c080"
+    expected: '<0xFD><0x0F> trocou aumentos\nde Ataque e Ataque Especial<0xFA>com <0xFD><0x10>!'
+  - offset: "0x96c0bb"
+    name: "PT-35 0x96c0bb"
+    expected: '<0xFD><0x0F> trocou aumentos\nde Defesa e Defesa Especial<0xFA>com <0xFD><0x10>!'
+  - offset: "0x96c0f7"
+    name: "PT-35 0x96c0f7"
+    expected: '<0xFD><0x0F> trocou\nVelocidade com <0xFD><0x10>!'
+  - offset: "0x96c112"
+    name: "PT-35 0x96c112"
+    expected: '<0xFD><0x0F> trocou\nalterações de stats com<0xFA><0xFD><0x10>!'
+  - offset: "0x96c134"
+    name: "PT-35 0x96c134"
+    expected: '<0xFD><0x0F> dividiu\nsua força com o alvo!'
+  - offset: "0x96c159"
+    name: "PT-35 0x96c159"
+    expected: '<0xFD><0x0F> dividiu\nsua defesa com o alvo!'
+  - offset: "0x96c17e"
+    name: "PT-35 0x96c17e"
+    expected: '<0xFD><0x0F> espera\no movimento de <0xFD><0x13>!'
+  - offset: "0x96c19b"
+    name: "PT-35 0x96c19b"
+    expected: '<0xFD><0x0F> usou\n<0xFD><0x14>!<0xFB>Os dois movimentos se uniram!\nÉ um movimento combinado!'
+  - offset: "0x96c1d7"
+    name: "PT-35 0x96c1d7"
+    expected: 'Um pântano envolveu\na equipe <0xFD><0x35>!'
+  - offset: "0x96c1f2"
+    name: "PT-35 0x96c1f2"
+    expected: 'Um mar de fogo envolveu\na equipe <0xFD><0x35>!'
+  - offset: "0x96c213"
+    name: "PT-35 0x96c213"
+    expected: 'Um arco-íris apareceu\nno lado da equipe <0xFD><0x36>!'
+  - offset: "0x96c244"
+    name: "PT-35 0x96c244"
+    expected: '<0xFD><0x0F> lançou\nseu <0xFD><0x16>!'
+  - offset: "0x96c255"
+    name: "PT-35 0x96c255"
+    expected: 'Os efeitos de proteção acabaram\nno lado do alvo!'
+  - offset: "0x96c290"
+    name: "PT-35 0x96c290"
+    expected: '<0xFD><0x10> foi\nimpedido de se curar!'
+  - offset: "0x96c2af"
+    name: "PT-35 0x96c2af"
+    expected: '<0xFD><0x10> não pode usar\nmais objetos!'
+  - offset: "0x96c2cb"
+    name: "PT-35 0x96c2cb"
+    expected: '<0xFD><0x10> ficou coberto\nde pó!'
+  - offset: "0x96c2e4"
+    name: "PT-35 0x96c2e4"
+    expected: '<0xFD><0x10> foi lançado\npara o alto!'
+  - offset: "0x96c300"
+    name: "PT-35 0x96c300"
+    expected: '<0xFD><0x10> não pode\nse curar devido a Heal Block!'
+  - offset: "0x96c331"
+    name: "PT-35 0x96c331"
+    expected: '<0xFD><0x10>: os movimentos\nforam eletrificados!'
+  - offset: "0x96c353"
+    name: "PT-35 0x96c353"
+    expected: '<0xFD><0x10>: alterações\nde stats foram invertidas!'
+  - offset: "0x96c375"
+    name: "PT-35 0x96c375"
+    expected: '<0xFD><0x10>\naceitou a oferta gentil!'
+  - offset: "0x96c38d"
+    name: "PT-35 0x96c38d"
+    expected: '<0xFD><0x10>: o movimento\nfoi adiado!'
+  - offset: "0x96c3a6"
+    name: "PT-35 0x96c3a6"
+    expected: '<0xFD><0x0F> levitou\ncom eletromagnetismo!'
+  - offset: "0x96c3ca"
+    name: "PT-35 0x96c3ca"
+    expected: 'A explosão de chamas atingiu\n<0xFD><0x13>!'
+  - offset: "0x96c9b2"
+    name: "PT-35 0x96c9b2"
+    expected: '<0xFD><0x10>:\n<0xFD><0x16> ativou!'
+  - offset: "0x96c9c5"
+    name: "PT-35 0x96c9c5"
+    expected: '<0xFD><0x10>: <0xFD><0x16>\nferiu <0xFD><0x0F>!'
+  - offset: "0x96c9d6"
+    name: "PT-35 0x96c9d6"
+    expected: '<0xFD><0x13> sofreu dano\npor seu <0xFD><0x16>!'
+  - offset: "0x96c9ed"
+    name: "PT-35 0x96c9ed"
+    expected: '<0xFD><0x13> aumentou\na precisão do próximo movimento<0xFA>com seu <0xFD><0x16>!'
+  - offset: "0x96ca24"
+    name: "PT-35 0x96ca24"
+    expected: '<0xFD><0x16> se prendeu a\n<0xFD><0x0F>!'
+  - offset: "0x96ca42"
+    name: "PT-35 0x96ca42"
+    expected: '<0xFD><0x13> é substituído\npor causa de <0xFD><0x16>!'
+  - offset: "0x96ca62"
+    name: "PT-35 0x96ca62"
+    expected: '<0xFD><0x13> ergueu seu\n<0xFD><0x16> contra <0xFD><0x0F>!'
+  - offset: "0x96ca80"
+    name: "PT-35 0x96ca80"
+    expected: 'Mas <0xFD><0x0F> se fixou\ncom suas raízes!'
+  - offset: "0x96caa7"
+    name: "PT-35 0x96caa7"
+    expected: 'Mas <0xFD><0x0F> se fixa\ncom <0xFD><0x18>!'
+  - offset: "0x96cae2"
+    name: "PT-35 0x96cae2"
+    expected: '<0xFD><0x16> aumentou\na força de <0xFD><0x14>!'
+  - offset: "0x96cb07"
+    name: "PT-35 0x96cb07"
+    expected: '<0xFD><0x13>: <0xFD><0x16>\nreduziu <0xFD><0x14>!'
+  - offset: "0x96cc1c"
+    name: "PT-35 0x96cc1c"
+    expected: '<0xFD><0x00>: <0xFD><0x16> reage\na <0xFD><0x39> com <0xFD><0x01>!'
+  - offset: "0x96cc3c"
+    name: "PT-35 0x96cc3c"
+    expected: '<0xFD><0x13> Mega Evoluiu\npara Mega <0xFD><0x34>!'
+  - offset: "0x96cc5a"
+    name: "PT-35 0x96cc5a"
+    expected: '<0xFD><0x39>: seu forte desejo\nchegou a <0xFD><0x00>!'
+  - offset: "0x96cc7c"
+    name: "PT-35 0x96cc7c"
+    expected: 'Uma luz intensa vai sair de\n<0xFD><0x13>!'
+  - offset: "0x96cca6"
+    name: "PT-35 0x96cca6"
+    expected: '<0xFD><0x13> recuperou\nsua força com Ultra Burst!'
+  - offset: "0x96cd83"
+    name: "PT-35 0x96cd83"
+    expected: '<0xFD><0x16> impede o uso de\nmovimentos de status!<0xFB>'
+  - offset: "0x96cdad"
+    name: "PT-35 0x96cdad"
+    expected: '<0xFD><0x14>: proibido\nem Sky Battle!<0xFB>'
+  - offset: "0x96cdd0"
+    name: "PT-35 0x96cdd0"
+    expected: '<0xFD><0x14>: proibido\ncom Gravity em efeito!<0xFB>'
+  - offset: "0x96cdfe"
+    name: "PT-35 0x96cdfe"
+    expected: '<0xFD><0x13> não pode usar sons\napós Throat Chop!<0xFB>'
+  - offset: "0x96ce2f"
+    name: "PT-35 0x96ce2f"
+    expected: '<0xFD><0x13>: <0xFD><0x14>\nproibido após Heal Block!<0xFB>'
+  - offset: "0x96d56e"
+    name: "PT-35 0x96d56e"
+    expected: '<0xFD><0x10>: a queimadura\nfoi curada!'
+  - offset: "0x96d584"
+    name: "PT-35 0x96d584"
+    expected: '<0xFD><0x10>: o objeto\nnão pode ser removido!'
+  - offset: "0x96db53"
+    name: "PT-35 0x96db53"
+    expected: '<0xFD><0x0F> se envolveu\nem uma luz lunar mística!'
+  - offset: "0x96db7c"
+    name: "PT-35 0x96db7c"
+    expected: 'A chuva forte parou!'
+  - offset: "0x96db97"
+    name: "PT-35 0x96db97"
+    expected: 'A luz solar extrema se dissipou!'
+  - offset: "0x96dbbb"
+    name: "PT-35 0x96dbbb"
+    expected: 'A misteriosa corrente de ar\nse dissipou!'
+  - offset: "0x96dcfd"
+    name: "PT-35 0x96dcfd"
+    expected: '<0xFD><0x13> aumentou\n<0xFD><0x00> <0xFD><0x01>via Poder Z!'
+  - offset: "0x96dd24"
+    name: "PT-35 0x96dd24"
+    expected: '<0xFD><0x13> aumentou suas\nstats com seu Poder Z!'
+  - offset: "0x96dd4c"
+    name: "PT-35 0x96dd4c"
+    expected: '<0xFD><0x13> aumentou sua\nchance de crítico com Poder Z!'
+  - offset: "0x96dd81"
+    name: "PT-35 0x96dd81"
+    expected: '<0xFD><0x13> recuperou\nseus PS com seu Poder Z!'
+  - offset: "0x96dda7"
+    name: "PT-35 0x96dda7"
+    expected: '<0xFD><0x13> vai curar os\nPS do substituto com Poder Z!'
+  - offset: "0x96dddf"
+    name: "PT-35 0x96dddf"
+    expected: '<0xFD><0x13>: seus PS foram\ncurados pelo Poder Z!'
+  - offset: "0x9a436f"
+    name: "PT-35 0x9a436f"
+    expected: 'Escolha um Pokémon.'

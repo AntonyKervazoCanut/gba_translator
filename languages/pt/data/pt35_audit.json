@@ -1,0 +1,5048 @@
+{
+  "batch": "PT-35",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "entries": [
+    {
+      "offset": "0x922fc6",
+      "source_hex": "cde9e1e1e3e2e700d500e1ede7e8d9e6dde3e9e700d5dde600d7e9e6e6d9e2e8adff",
+      "references": [],
+      "english_reference": "Summons a mysterious air current.",
+      "french_reference": "Invoque un air mystérieux.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35d5e",
+          "sites": [
+            9888092
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x922fe8",
+      "source_hex": "cfe4e700cde4ad00bbe8df00ebdcd9e200c2ca00dcd5e0ead9e7adff",
+      "references": [],
+      "english_reference": "Ups Sp. Atk when HP halves.",
+      "french_reference": "Att. Spé. monte à mi-PV.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35d80",
+          "sites": [
+            9888100
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923004",
+      "source_hex": "c8d9ead9e600e1d5dfd9e700d7e3e2e8d5d7e8adff",
+      "references": [],
+      "english_reference": "Never makes contact.",
+      "french_reference": "Jamais de contact.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35d9b",
+          "sites": [
+            9888104
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923019",
+      "source_hex": "cde3e9e2d800e1e3ead9e700d6d9d7e3e1d900ebd5e8d9e6aee8ede4d9adff",
+      "references": [],
+      "english_reference": "Sound moves become water-type.",
+      "french_reference": "Sons de type Eau.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35db0",
+          "sites": [
+            9888108
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923038",
+      "source_hex": "bce0e3d7dfe700e4e6dde3e6dde8ed00e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Blocks priority moves.",
+      "french_reference": "Bloque les priorités.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35e00",
+          "sites": [
+            9888120
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92304f",
+      "source_hex": "bfd5e8e700d6d9e6e6ddd9e700d9d5e6e0edadff",
+      "references": [],
+      "english_reference": "Eats berries early.",
+      "french_reference": "Mange les Baies en avance.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35e17",
+          "sites": [
+            9888124
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923063",
+      "source_hex": "caddd7dfe700e9e400c2e3e2d9ed00d5dae8d9e600d6d5e8e8e0d9adff",
+      "references": [],
+      "english_reference": "Picks up Honey after battle.",
+      "french_reference": "Ramasse miel après combat.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35e2b",
+          "sites": [
+            9888128
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923080",
+      "source_hex": "ccd5dde7d9e700d5e0e0ddd9e7b400bed9dad9e2e7d9adff",
+      "references": [],
+      "english_reference": "Raises allies' Defense.",
+      "french_reference": "Boost Défense alliés.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35e48",
+          "sites": [
+            9888132
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923098",
+      "source_hex": "bdd5e200e6d9dbd5dde200d7e3e2e7e9e1d9d800d6d9e6e6ddd9e7adff",
+      "references": [],
+      "english_reference": "Can regain consumed berries.",
+      "french_reference": "Récupère les Baies.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35e67",
+          "sites": [
+            9888136
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9230b5",
+      "source_hex": "cae6e3e8d9d7e8e700dae6e3e100d5e0e0ddd9e7b400e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Protects from allies' moves.",
+      "french_reference": "Protège des capacités alliées.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35e84",
+          "sites": [
+            9888140
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9230d2",
+      "source_hex": "bfe2e8d9e6e700d6d5e8e8e0d900d8dde7dbe9dde7d9d8adff",
+      "references": [],
+      "english_reference": "Enters battle disguised.",
+      "french_reference": "Entre en combat déguisé.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35ea1",
+          "sites": [
+            9888144
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9230eb",
+      "source_hex": "bfd5e8dde2db00d6d9e6e6ddd9e700e6d9e7e8e3e6d9e700dcd9d5e0e8dcadff",
+      "references": [],
+      "english_reference": "Eating berries restores health.",
+      "french_reference": "Manger une Baie rend des PV.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35eba",
+          "sites": [
+            9888148
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92310b",
+      "source_hex": "c1ddead9e700dde8d9e100e8e300d5e0e0ed00d5dae8d9e600e9e7d9adff",
+      "references": [],
+      "english_reference": "Gives item to ally after use.",
+      "french_reference": "Donne l'objet à un allié.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35ed6",
+          "sites": [
+            9888152
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923129",
+      "source_hex": "bee3e9d6e0d9e700d8d5e1d5dbd900e3e200e7ebdde8d7dc00dde2e7adff",
+      "references": [],
+      "english_reference": "Doubles damage on switch ins.",
+      "french_reference": "Dégâts x2 sur switch.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35ef4",
+          "sites": [
+            9888156
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923147",
+      "source_hex": "bbd7e8e700d5e700ddda00d5e7e0d9d9e4adff",
+      "references": [],
+      "english_reference": "Acts as if asleep.",
+      "french_reference": "Agit endormi.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35f14",
+          "sites": [
+            9888160
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92315a",
+      "source_hex": "bde3e4ddd9e700d8d5e2d7d900e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Copies dance moves.",
+      "french_reference": "Copie les danses.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35f27",
+          "sites": [
+            9888164
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92316e",
+      "source_hex": "cae3ebd9e6e700e9e400d5e0e0ddd9e7adff",
+      "references": [],
+      "english_reference": "Powers up allies.",
+      "french_reference": "Renforce les alliés.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35f3b",
+          "sites": [
+            9888168
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x923180",
+      "source_hex": "ced5dfd9e700e3ead9e600d500c5c9d9d800d5e0e0edb4e700d5d6dde0dde8edadff",
+      "references": [],
+      "english_reference": "Takes over a KOed ally's ability.",
+      "french_reference": "Prend le talent d'un allié K.O.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35f4d",
+          "sites": [
+            9888172
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9231a2",
+      "source_hex": "cae3ebd9e6e700e9e400cde9e4d9e6aebfdadad9d7e8ddead900dcdde8e7adff",
+      "references": [],
+      "english_reference": "Powers up Super-Effective hits.",
+      "french_reference": "Renforce les coups super efficaces.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35f6f",
+          "sites": [
+            9888180
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9231c2",
+      "source_hex": "c8e3e6e1d5e000e1e3ead9e700d6d9d7e3e1d900bfe0d9d7e8e6ddd7aee8ede4d9adff",
+      "references": [],
+      "english_reference": "Normal moves become Electric-type.",
+      "french_reference": "Normal -> Électrik.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35f8f",
+          "sites": [
+            9888184
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92fb74",
+      "source_hex": "c1d5e0ead5e2ddeed9ff",
+      "references": [],
+      "english_reference": "Galvanize",
+      "french_reference": "Galvanisation",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa37355",
+      "replacement_name_index": 237,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fb7e",
+      "source_hex": "cae3ebd9e600e3da00bbe0d7dcd9e1edff",
+      "references": [],
+      "english_reference": "Power of Alchemy",
+      "french_reference": "Puissance Chimique",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fb8f",
+      "source_hex": "cbe9d9d9e2e0ed00c7d5ded9e7e8edff",
+      "references": [],
+      "english_reference": "Queenly Majesty",
+      "french_reference": "Prestance Royale",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa37564",
+          "sites": [
+            10132576
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92fb9f",
+      "source_hex": "bed9e7e3e0d5e8d900c6d5e2d8ff",
+      "references": [],
+      "english_reference": "Desolate Land",
+      "french_reference": "Terre Finale",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa371bd",
+      "replacement_name_index": 213,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fbad",
+      "source_hex": "cae6dde1e3e6d8ddd5e000cdd9d5ff",
+      "references": [],
+      "english_reference": "Primordial Sea",
+      "french_reference": "Mer Primaire",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa371ac",
+      "replacement_name_index": 212,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fbbc",
+      "source_hex": "cae7edd7dcddd700cde9e6dbd9ff",
+      "references": [],
+      "english_reference": "Psychic Surge",
+      "french_reference": "Champ Psychique",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa36fd0",
+      "replacement_name_index": 184,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fbca",
+      "source_hex": "bfe0d9d7e8e6ddd700cde9e6dbd9ff",
+      "references": [],
+      "english_reference": "Electric Surge",
+      "french_reference": "Créa-Élec",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa36f9d",
+      "replacement_name_index": 181,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fbd9",
+      "source_hex": "d1d5e8d9e600bde3e1e4d5d7e8dde3e2ff",
+      "references": [],
+      "english_reference": "Water Compaction",
+      "french_reference": "Sable Humide",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fbea",
+      "source_hex": "ced5e2dbe0dde2db00c2d5dde6ff",
+      "references": [],
+      "english_reference": "Tangling Hair",
+      "french_reference": "Mèche Rebelle",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa37542",
+          "sites": [
+            10132556
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92fbf8",
+      "source_hex": "cddcd5d8e3eb00cddcddd9e0d8ff",
+      "references": [],
+      "english_reference": "Shadow Shield",
+      "french_reference": "Spectro-Bouclier",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa36ed1",
+      "replacement_name_index": 169,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fc06",
+      "source_hex": "cad5e6d9e2e8d5e000bce3e2d8ff",
+      "references": [],
+      "english_reference": "Parental Bond",
+      "french_reference": "Amour Filial",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa36d9f",
+      "replacement_name_index": 151,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fc14",
+      "source_hex": "c7d9dbd500c6d5e9e2d7dcd9e6ff",
+      "references": [],
+      "english_reference": "Mega Launcher",
+      "french_reference": "Mega Blaster",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa36c07",
+      "replacement_name_index": 127,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fc22",
+      "source_hex": "cde8d5e2d7d900bddcd5e2dbd9ff",
+      "references": [],
+      "english_reference": "Stance Change",
+      "french_reference": "Déclic Tactique",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "replacement_name_offset": "0xa3719b",
+      "replacement_name_index": 211,
+      "name_table_base": "0xa36398",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x92fc30",
+      "source_hex": "cae3ebd9e6e700e9e400c0d5dde6edaee8ede4d900e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Powers up Fairy-type moves.",
+      "french_reference": "Renforce les capacités Fée.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35533",
+          "sites": [
+            9887768
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92fc4c",
+      "source_hex": "ccd9ead9e6e7d9e700b1bbe9e6d5b200d5d6dde0dde8ddd9e7adff",
+      "references": [],
+      "english_reference": "Reverses “Aura” abilities.",
+      "french_reference": "Inverse les talents «Aura».",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3554f",
+          "sites": [
+            9887772
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92fc67",
+      "source_hex": "c8e3e6e1d5e0ae00e1e3ead9e700d6d9d7e3e1d900c3d7d9aee8ede4d9adff",
+      "references": [],
+      "english_reference": "Normal- moves become Ice-type.",
+      "french_reference": "Normal -> Glace.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35568",
+          "sites": [
+            9887776
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92fc8a",
+      "source_hex": "c8e3e6e1d5e0ae00e1e3ead9e700d6d9d7e3e1d900c0d5dde6edaee8ede4d9adff",
+      "references": [],
+      "english_reference": "Normal- moves become Fairy-type.",
+      "french_reference": "Normal -> Fée.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35581",
+          "sites": [
+            9887780
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92fcaf",
+      "source_hex": "c8e3e6e1d5e0ae00e1e3ead9e700d6d9d7e3e1d900c0e0eddde2dbaee8ede4d9adff",
+      "references": [],
+      "english_reference": "Normal- moves become Flying-type.",
+      "french_reference": "Normal -> Vol.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3559c",
+          "sites": [
+            9887784
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x92fcd5",
+      "source_hex": "bbe0e000e1e3ead9e700d6d9d7e3e1d900c8e3e6e1d5e0aee8ede4d9adff",
+      "references": [],
+      "english_reference": "All moves become Normal-type.",
+      "french_reference": "Tout devient Normal.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa355b8",
+          "sites": [
+            9887788
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950a60",
+      "source_hex": "c7e9e0e8ddaedcdde800e1e3ead9e700dcdde800daddead900e8dde1d9e7adff",
+      "references": [],
+      "english_reference": "Multi-hit moves hit five times.",
+      "french_reference": "Multi-coups tapent cinq fois.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa34f7e",
+          "sites": [
+            9887552
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950a80",
+      "source_hex": "cee9e6e2e700d9e0d9d7e8e6ddd7dde8ed00dde2e8e300cde4d9d9d8adff",
+      "references": [],
+      "english_reference": "Turns electricity into Speed.",
+      "french_reference": "Élec -> Vitesse.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa34f9e",
+          "sites": [
+            9887556
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950aa0",
+      "source_hex": "ccd9d8e9d7d9e700d8d5e1d5dbd900d5e800dae9e0e000c2caadff",
+      "references": [],
+      "english_reference": "Reduces damage at full HP.",
+      "french_reference": "Réduit les dégâts à PV max.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa34fbc",
+          "sites": [
+            9887560
+          ]
+        },
+        {
+          "offset": "0xa35876",
+          "sites": [
+            9887912
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950ac0",
+      "source_hex": "bce3e3e7e8e700ebd9d5dfd9e600e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Boosts weaker moves.",
+      "french_reference": "Renforce les capacités faibles.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa34fd7",
+          "sites": [
+            9887564
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950ae0",
+      "source_hex": "c7e3ead9e700dcdde800c1dce3e7e8aee8ede4d900cae3df1be1e3e2adff",
+      "references": [],
+      "english_reference": "Moves hit Ghost-type Pokémon.",
+      "french_reference": "Les capacités touchent les Spectre.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa34fec",
+          "sites": [
+            9887568
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950b00",
+      "source_hex": "bde6dde8ddd7d5e000dcdde8e700e0d5e2d800e1e3e6d900e3dae8d9e2adff",
+      "references": [],
+      "english_reference": "Critical hits land more often.",
+      "french_reference": "Critiques plus fréquents.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3500a",
+          "sites": [
+            9887572
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950b20",
+      "source_hex": "bce3e3e7e8e700d7e6dde8ddd7d5e000dcdde8e7adff",
+      "references": [],
+      "english_reference": "Boosts critical hits.",
+      "french_reference": "Booste les coups critiques.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35029",
+          "sites": [
+            9887576
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950b40",
+      "source_hex": "cde8d5e8e9e700e1e3ead9e700dcdde800dadde6e7e8adff",
+      "references": [],
+      "english_reference": "Status moves hit first.",
+      "french_reference": "Cap. statut en priorité.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35059",
+          "sites": [
+            9887584
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950b60",
+      "source_hex": "bce3e3e7e8e700e7d5e1d900e8ede4d900d5e8e8d5d7dfe7adff",
+      "references": [],
+      "english_reference": "Boosts same type attacks.",
+      "french_reference": "Renforce les attaques de même type.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35071",
+          "sites": [
+            9887588
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950b80",
+      "source_hex": "cae6d9ead9e2e8e700bed9dad9e2e7d900e6d9d8e9d7e8dde3e2adff",
+      "references": [],
+      "english_reference": "Prevents Defense reduction.",
+      "french_reference": "Empêche de baisser la Défense.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3508b",
+          "sites": [
+            9887592
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950ba0",
+      "source_hex": "ccd9dae0d9d7e8e700e7e8d5e8e9e700e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Reflects status moves.",
+      "french_reference": "Renvoie les capacités de statut.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa350a7",
+          "sites": [
+            9887596
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950bc0",
+      "source_hex": "bce3e3e7e8e700e1e3ead9e700ebdde8dc00e6d9d7e3dde0adff",
+      "references": [],
+      "english_reference": "Boosts moves with recoil.",
+      "french_reference": "Renforce les coups à contrecoup.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa350be",
+          "sites": [
+            9887600
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950be0",
+      "source_hex": "cee6d5d8d9e700d5d8d8d9d800d9dadad9d7e8e700dae3e600e4e3ebd9e6adff",
+      "references": [],
+      "english_reference": "Trades added effects for power.",
+      "french_reference": "Bonus contre puissance.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa350d8",
+          "sites": [
+            9887604
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950c00",
+      "source_hex": "bce3e3e7e8e700e4e9e2d7dcdde2db00e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Boosts punching moves.",
+      "french_reference": "Renforce les coups de poing.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa350f8",
+          "sites": [
+            9887608
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950c20",
+      "source_hex": "bce3e3e7e8e700e1e3ead9e700d5dbd5dde2e7e800e6ddead5e0e7adff",
+      "references": [],
+      "english_reference": "Boosts moves against rivals.",
+      "french_reference": "Renforce les coups contre rivaux.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3510f",
+          "sites": [
+            9887612
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950c40",
+      "source_hex": "bce3e3e7e8e700e1e3ead9e700dde200d500e7d5e2d8e7e8e3e6e1adff",
+      "references": [],
+      "english_reference": "Boosts moves in a sandstorm.",
+      "french_reference": "Renforce sous tempête de sable.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3512e",
+          "sites": [
+            9887616
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950c60",
+      "source_hex": "cee6d5d8d9e700c2ca00dae3e600e4e3ebd9e600dde200e7e9e2e7dcdde2d9adff",
+      "references": [],
+      "english_reference": "Trades HP for power in sunshine.",
+      "french_reference": "Au soleil, sacrifie PV.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3514b",
+          "sites": [
+            9887620
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950c81",
+      "source_hex": "c2d9d5e800e4e6e3e8d9d7e8dde3e2adff",
+      "references": [],
+      "english_reference": "Heat protection.",
+      "french_reference": "Protège de la chaleur.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3516c",
+          "sites": [
+            9887624
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950c9a",
+      "source_hex": "cae6d9dad9e6e700e8dcd900e6d5dde200e8e300dcd9d5e8adff",
+      "references": [],
+      "english_reference": "Prefers the rain to heat.",
+      "french_reference": "Préfère la pluie à la chaleur.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3517d",
+          "sites": [
+            9887628
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950cb7",
+      "source_hex": "bce3e3e7e8e700e2e3e800ead9e6ed00d9dadad9d7e8ddead900e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Boosts not very effective moves.",
+      "french_reference": "Boost coups peu efficaces.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35197",
+          "sites": [
+            9887632
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950cda",
+      "source_hex": "d1d9d5dfd9e2e700cde9e4d9e600bfdadad9d7e8ddead900e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Weakens Super Effective moves.",
+      "french_reference": "Réduit coups supereff.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa351ba",
+          "sites": [
+            9887640
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950cfa",
+      "source_hex": "e3ead9e7adff",
+      "references": [],
+      "english_reference": "oves.",
+      "french_reference": "oves.",
+      "status": "exception",
+      "reason": "Fragment « oves. » isolé entre deux terminateurs FF à 0x950cf8/0x950cf9 ; aucun pointeur. Les vrais messages voisins commencent à 0x950cda et 0x950d00, également historiques.",
+      "related_consumers": []
+    },
+    {
+      "offset": "0x950d00",
+      "source_hex": "c7e3ead9e700dcdde800e8dce6e3e9dbdc00d5d6dde0dde8ddd9e7adff",
+      "references": [],
+      "english_reference": "Moves hit through abilities.",
+      "french_reference": "Les coups traversent les talents.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35738",
+          "sites": [
+            9887844
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950d20",
+      "source_hex": "bbd8dee9e7e8e700e4e3ebd9e600dae6e3e100dae3d9b4e700e7e8d5e8e7adff",
+      "references": [],
+      "english_reference": "Adjusts power from foe's stats.",
+      "french_reference": "Puissance selon stats foe.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa351fa",
+          "sites": [
+            9887648
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950d40",
+      "source_hex": "ccd9e7e8e3e6d9e700c2ca00ddda00e4e3dde7e3e2d9d8adff",
+      "references": [],
+      "english_reference": "Restores HP if poisoned.",
+      "french_reference": "Restaure des PV si empoisonné.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3521a",
+          "sites": [
+            9887652
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950d60",
+      "source_hex": "cde0dddbdce800c2ca00e6d9d7e3ead9e6ed00dde200dcd5dde0adff",
+      "references": [],
+      "english_reference": "Slight HP recovery in hail.",
+      "french_reference": "Rend peu de PV sous grêle.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35233",
+          "sites": [
+            9887656
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950d7c",
+      "source_hex": "ccd5dde7d9e700e3e2d900e7e8d5e800d5e2d800e0e3ebd9e6e700d5e2e3e8dcd9e6adff",
+      "references": [],
+      "english_reference": "Raises one stat and lowers another.",
+      "french_reference": "Monte une stat, baisse une autre.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3524f",
+          "sites": [
+            9887660
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950da0",
+      "source_hex": "c2d9d5e0e700e7e8d5e8e9e700e4e6e3d6e0d9e1e700dde200e6d5dde2adff",
+      "references": [],
+      "english_reference": "Heals status problems in rain.",
+      "french_reference": "Guérit les statuts sous la pluie.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3526f",
+          "sites": [
+            9887664
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950dbf",
+      "source_hex": "c7d5ed00dcd9d5e000d5e0e0edb4e700e7e8d5e8e9e700e4e6e3d6e0d9e1e7adff",
+      "references": [],
+      "english_reference": "May heal ally's status problems.",
+      "french_reference": "Soigne statut d'un allié.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3528e",
+          "sites": [
+            9887668
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950de0",
+      "source_hex": "cfe4e700d9ead5e7dde3e200dde200dcd5dde0adff",
+      "references": [],
+      "english_reference": "Ups evasion in hail.",
+      "french_reference": "Esquive augmentée sous la grêle.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa352af",
+          "sites": [
+            9887672
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950e00",
+      "source_hex": "cfe4e700d9ead5e7dde3e200ddda00d7e3e2dae9e7d9d8adff",
+      "references": [],
+      "english_reference": "Ups evasion if confused.",
+      "french_reference": "Esquive augmentée si confus.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa352c4",
+          "sites": [
+            9887676
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950e20",
+      "source_hex": "cde9e1e1e3e2e700d500dcd5dde0e7e8e3e6e100dde200d6d5e8e8e0d9adff",
+      "references": [],
+      "english_reference": "Summons a hailstorm in battle.",
+      "french_reference": "Invoque la grêle en combat.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa352dd",
+          "sites": [
+            9887680
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950e40",
+      "source_hex": "cfe4e700cde4d9d9d800ddda00e7e9dadad9e6dde2dbadff",
+      "references": [],
+      "english_reference": "Ups Speed if suffering.",
+      "french_reference": "Vitesse augmente quand ça fait mal.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa352fc",
+          "sites": [
+            9887684
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950e60",
+      "source_hex": "bce3e3e7e8e700bbe8e8d5d7df00ddda00dcdde800d6ed00c1e6d5e7e7adff",
+      "references": [],
+      "english_reference": "Boosts Attack if hit by Grass.",
+      "french_reference": "Attaque monte si touché par Plante.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35314",
+          "sites": [
+            9887688
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950e80",
+      "source_hex": "c3e1e1e9e2d900e8e300ebd9d5e8dcd9e600d5e2d800e4e3ebd8d9e6adff",
+      "references": [],
+      "english_reference": "Immune to weather and powder.",
+      "french_reference": "Immunisé météo et poudres.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35333",
+          "sites": [
+            9887692
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950ea0",
+      "source_hex": "c9e2e0ed00d8d5e1d5dbd9d800d6ed00d5e8e8d5d7dfe7adff",
+      "references": [],
+      "english_reference": "Only damaged by attacks.",
+      "french_reference": "Ne subit que les attaques.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35351",
+          "sites": [
+            9887696
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950ec0",
+      "source_hex": "bbeae3ddd8e700d6d5e0e000d5e2d800d6e3e1d600e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Avoids ball and bomb moves.",
+      "french_reference": "Esquive les boules et bombes.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3536a",
+          "sites": [
+            9887700
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950ee0",
+      "source_hex": "c0e0eddde2db00e1e3ead9e700dcdde800dadde6e7e8adff",
+      "references": [],
+      "english_reference": "Flying moves hit first.",
+      "french_reference": "Attaques Vol en priorité.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35386",
+          "sites": [
+            9887704
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950f00",
+      "source_hex": "cad5e7e7d9e700e8dce6e3e9dbdc00d6d5e6e6ddd9e6e7adff",
+      "references": [],
+      "english_reference": "Passes through barriers.",
+      "french_reference": "Traverse les barrières.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa351d9",
+          "sites": [
+            9887644
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950f20",
+      "source_hex": "bbe200dde8d9e100e8e300d6d900dcd9e0d800d6ed00d500cae3df1be1e3e2adfecedcd9e7d900dbe0d5e7e7d9e700e6d5dde7d900cde4ad00bbe8dfb800d6e9e8fed5e0e0e3ebe700e8dcd900e9e7d900e3da00e3e2e0ed00e3e2d900e1e3ead9adff",
+      "references": [],
+      "english_reference": "An item to be held by a Pokémon.\\nThese glasses raise Sp. Atk, but\\nallows the use of only one move.",
+      "french_reference": "Objet tenu. Lunettes.\\nAtt. Spé +, mais\\nverrouille sur 1 cap.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0x7b42d3",
+          "sites": [
+            8880256
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950f90",
+      "source_hex": "bbe200dde8d9e100e8e300d6d900dcd9e0d800d6ed00d500cae3df1be1e3e2adfecedcdde700e7d7d5e6da00d6e3e3e7e8e700cde4d9d9d8b800d6e9e8fed5e0e0e3ebe700e8dcd900e9e7d900e3da00e3e2e0ed00e3e2d900e1e3ead9adff",
+      "references": [],
+      "english_reference": "An item to be held by a Pokémon.\\nThis scarf boosts Speed, but\\nallows the use of only one move.",
+      "french_reference": "Objet tenu. Écharpe.\\nVit. +, mais\\nverrouille sur 1 cap.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0x7b4336",
+          "sites": [
+            8880300
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x950ff0",
+      "source_hex": "bbe200dde8d9e100e8e300d6d900dcd9e0d800d6ed00d500cae3df1be1e3e2adfecedcdde700dcd9d5d8d6d5e2d800e9e4e700bbe8e8d5d7dfb800d6e9e8fed5e0e0e3ebe700e8dcd900e9e7d900e3da00e3e2e0ed00e3e2d900e1e3ead9adff",
+      "references": [],
+      "english_reference": "An item to be held by a Pokémon.\\nThis headband ups Attack, but\\nallows the use of only one move.",
+      "french_reference": "Objet tenu. Bandeau.\\nAttaque +, mais\\nverrouille sur 1 cap.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0x7b4273",
+          "sites": [
+            8880212
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951050",
+      "source_hex": "bbe200dde8d9e100e8e300d6d900dcd9e0d800d6ed00d500cae3df1be1e3e2adfec3e800d6e3e3e7e8e700e8dcd900e4e3ebd9e600e3da00e1e3ead9e7b800d5e8fee8dcd900d7e3e7e800e3da00e7e3e1d900c2ca00e3e200d9d5d7dc00dcdde8adff",
+      "references": [],
+      "english_reference": "An item to be held by a Pokémon.\\nIt boosts the power of moves, at\\nthe cost of some HP on each hit.",
+      "french_reference": "Objet tenu. Puissance +.\\nPerd des PV à chaque\\ncoup.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0x7b3c6a",
+          "sites": [
+            8874888
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9510c0",
+      "source_hex": "c5e2e3d7dfe3e9e8e700d6e3e3e7e800bbe8e8d5d7dfadff",
+      "references": [],
+      "english_reference": "Knockouts boost Attack.",
+      "french_reference": "Les K.O. boostent l'Attaque.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa353a3",
+          "sites": [
+            2881369,
+            9887708
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9510e0",
+      "source_hex": "c0d5dde2e8dde2db00d8d5e1d5dbd9e700e8dcd900dae3d9adff",
+      "references": [],
+      "english_reference": "Fainting damages the foe.",
+      "french_reference": "Blesse l'ennemi en mourant",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa353bb",
+          "sites": [
+            9887712
+          ]
+        },
+        {
+          "offset": "0xa35de6",
+          "sites": [
+            9888116
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951100",
+      "source_hex": "c7d5ed00d8dde7d5d6e0d900d500dae3d9b4e700e1e3ead9adff",
+      "references": [],
+      "english_reference": "May disable a foe's move.",
+      "french_reference": "Désactive une capacité.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa353d5",
+          "sites": [
+            9887716
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951120",
+      "source_hex": "c6e3ebd9e6e700e8dcd900dae3d9b4e700cde4d9d9d800ddda00dcdde8adff",
+      "references": [],
+      "english_reference": "Lowers the foe's Speed if hit.",
+      "french_reference": "Baisse Vit. du foe touché.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa353ef",
+          "sites": [
+            9887720
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951140",
+      "source_hex": "cde4e6d9d5d8e700ebdde8dc00d7e3e2e8d5d7e8adff",
+      "references": [],
+      "english_reference": "Spreads with contact.",
+      "french_reference": "Se propage au toucher",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3540e",
+          "sites": [
+            9887724
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951160",
+      "source_hex": "bbe200dde8d9e100e8e300d6d900dcd9e0d800d6ed00d500cae3df1be1e3e2adfec3da00e8dcd900dce3e0d8d9e600dde700dcdde8b800e8dcd900d5e8e8d5d7dfd9e6feebdde0e000d5e0e7e300d6d900d8d5e1d5dbd9d800e9e4e3e200d7e3e2e8d5d7e8adff",
+      "references": [],
+      "english_reference": "An item to be held by a Pokémon.\\nIf the holder is hit, the attacker\\nwill also be damaged upon contact.",
+      "french_reference": "Objet tenu. Si touché,\\nle porteur blesse\\nl'attaquant au contact.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xeb38a8",
+          "sites": [
+            8882412
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9511d0",
+      "source_hex": "bbe200dde8d9e100e8e300d6d900dcd9e0d800d6ed00d500cae3df1be1e3e2adfecae3dde7e3e2aee8ede4d900cae3df1be1e3e200e6d9dbd5dde200c2cab8fed6e9e800dde800d8d5e1d5dbd9e700d5e2ed00e3e8dcd9e600e8ede4d9adff",
+      "references": [],
+      "english_reference": "An item to be held by a Pokémon.\\nPoison-type Pokémon regain HP,\\nbut it damages any other type.",
+      "french_reference": "Objet tenu. Poison soigne.\\nLes autres prennent des\\ndégâts.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0x7b3d8e",
+          "sites": [
+            8875020
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x95122f",
+      "source_hex": "00ccd5dde7d9e700cde4d9d9d800dde200d500e7d5e2d8e7e8e3e6e1adff",
+      "references": [],
+      "english_reference": " Raises Speed in a sandstorm.",
+      "french_reference": "Vit. + en tempête sable.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35434",
+          "sites": [
+            9887732
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951250",
+      "source_hex": "c7e3eadde2db00e0d5e7e800d6e3e3e7e8e700e4e3ebd9e6adff",
+      "references": [],
+      "english_reference": "Moving last boosts power.",
+      "french_reference": "Agir en dernier booste.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35451",
+          "sites": [
+            9887736
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951270",
+      "source_hex": "bfe2e7e9e6d9e700e8dcd5e800d5e0e000e1e3ead9e700e0d5e2d8adff",
+      "references": [],
+      "english_reference": "Ensures that all moves land.",
+      "french_reference": "Toutes cap. touchent.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa3546b",
+          "sites": [
+            9887740
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951290",
+      "source_hex": "bbe200dde8d9e100e8e300d6d900dcd9e0d800d6ed00d500cae3df1be1e3e2adfecedcdde700ead9e7e800e6d5dde7d9e700cde4ad00bed9da00d6e9e8fee4e6d9ead9e2e8e700e8dcd900e9e7d900e3da00e7e8d5e8e9e700e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "An item to be held by a Pokémon.\\nThis vest raises Sp. Def but\\nprevents the use of status moves.",
+      "french_reference": "Objet tenu. Gilet.\\nDéf. Spé +, mais\\npas de cap. statut.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xeb390f",
+          "sites": [
+            8894204
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9512f0",
+      "source_hex": "bce3e3e7e8e700d5e9e6d500d5e2d800e4e9e0e7d900e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Boosts aura and pulse moves.",
+      "french_reference": "Boost les auras et ondes.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35488",
+          "sites": [
+            9887744
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951310",
+      "source_hex": "bce3e3e7e8e700e1e3ead9e700e8dcd5e800e1d5dfd900d7e3e2e8d5d7e8adff",
+      "references": [],
+      "english_reference": "Boosts moves that make contact.",
+      "french_reference": "Boost les coups à contact.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa354a5",
+          "sites": [
+            9887748
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951330",
+      "source_hex": "bce3e3e7e8e700d6dde8dde2db00e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Boosts biting moves.",
+      "french_reference": "Boost les morsures.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa354c5",
+          "sites": [
+            9887752
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x951345",
+      "source_hex": "bb00e1ede7e8d9e6dde3e9e700d9eae3e0e9e8dde3e2d5e6ed00e0e9e1e4adfec3e800e6d5dde7d9e700e8dcd900bed9dad9e2e7d900d5e2d800cde4ad00bed9dafee3da00d500cae3df1be1e3e200e8dcd5e800d7d5e200d9eae3e0ead9adff",
+      "references": [],
+      "english_reference": "A mysterious evolutionary lump.\\nIt raises the Defense and Sp. Def\\nof a Pokémon that can evolve.",
+      "french_reference": "Masse évolutive.\\nMonte Déf. et Déf. Spé\\nchez Pokémon évolutifs.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xeb3848",
+          "sites": [
+            8894248
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9513b0",
+      "source_hex": "bee6d5ebe700dde200d1d5e8d9e6aee8ede4d900e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Draws in Water-type moves.",
+      "french_reference": "Attire les attaques Eau.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa354fa",
+          "sites": [
+            9887760
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x9513d0",
+      "source_hex": "cae3ebd9e6e700e9e400bed5e6dfaee8ede4d900e1e3ead9e7adff",
+      "references": [],
+      "english_reference": "Powers up Dark-type moves.",
+      "french_reference": "Renforce les capacités Ténèbres.",
+      "status": "exception",
+      "reason": "Copie historique sans référence directe ; la table vivante utilise un autre offset, hors PT-35. Aucune écriture sur cette copie morte.",
+      "related_consumers": [
+        {
+          "offset": "0xa35518",
+          "sites": [
+            9887764
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x95f9f4",
+      "source_hex": "ddddddddddfdff",
+      "references": [],
+      "english_reference": "iiiii<0xFD>",
+      "french_reference": "iiiii{STRING}",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fa2b",
+      "source_hex": "ddddddddff",
+      "references": [],
+      "english_reference": "iiii",
+      "french_reference": "iiii",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fa30",
+      "source_hex": "dddddddddedddddde0eeeeee00000000dfddddddfddfddff",
+      "references": [],
+      "english_reference": "iiiijiiilzzz    kiii<0xFD>ki",
+      "french_reference": "iiiijiiilzzz    kiii{STRING}ki",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fa4b",
+      "source_hex": "ddddddddddff",
+      "references": [],
+      "english_reference": "iiiii",
+      "french_reference": "iiiii",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fc34",
+      "source_hex": "ddddddddddfdff",
+      "references": [],
+      "english_reference": "iiiii<0xFD>",
+      "french_reference": "iiiii{STRING}",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fc6b",
+      "source_hex": "ddddddddff",
+      "references": [],
+      "english_reference": "iiii",
+      "french_reference": "iiii",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fc70",
+      "source_hex": "dddddddddedddddde0eeeeee00000000dfddddddfddfddff",
+      "references": [],
+      "english_reference": "iiiijiiilzzz    kiii<0xFD>ki",
+      "french_reference": "iiiijiiilzzz    kiii{STRING}ki",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fc8b",
+      "source_hex": "ddddddddddff",
+      "references": [],
+      "english_reference": "iiiii",
+      "french_reference": "iiiii",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fe74",
+      "source_hex": "ddddddddddfdff",
+      "references": [],
+      "english_reference": "iiiii<0xFD>",
+      "french_reference": "iiiii{STRING}",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95feab",
+      "source_hex": "ddddddddff",
+      "references": [],
+      "english_reference": "iiii",
+      "french_reference": "iiii",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95feb0",
+      "source_hex": "dddddddddedddddde0eeeeee00000000dfddddddfddfddff",
+      "references": [],
+      "english_reference": "iiiijiiilzzz    kiii<0xFD>ki",
+      "french_reference": "iiiijiiilzzz    kiii{STRING}ki",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x95fecb",
+      "source_hex": "ddddddddddff",
+      "references": [],
+      "english_reference": "iiiii",
+      "french_reference": "iiiii",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter.",
+      "graphic_owner_offset": "0x95f900",
+      "graphic_owner_pointer": "0x95f8e4"
+    },
+    {
+      "offset": "0x961b50",
+      "source_hex": "c8e3e6e1d5e0ff",
+      "references": [
+        199112,
+        4550260
+      ],
+      "english_reference": "Normal",
+      "french_reference": "Normal",
+      "status": "retained",
+      "cell_offset": "0x961b50",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Normal",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "max_width": 208,
+      "type_index": 0,
+      "canonical_portuguese": "Normal",
+      "canonical_bytes": 7
+    },
+    {
+      "offset": "0x961b57",
+      "source_hex": "c0dddbdce8ff",
+      "references": [],
+      "english_reference": "Fight",
+      "french_reference": "Combat",
+      "status": "exception",
+      "cell_offset": "0x961b57",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Exception de rendu F-759 : nom canonique PT-BR supérieur à six octets ; cellule EN conservée sans abréviation inventée. Table indexée 0x961b50, pointeurs 0x309c8/0x456e74.",
+      "type_index": 1,
+      "canonical_portuguese": "Lutador",
+      "canonical_bytes": 8
+    },
+    {
+      "offset": "0x961b5d",
+      "source_hex": "00c0e0eddde2dbff",
+      "references": [],
+      "english_reference": " Flying",
+      "french_reference": "Vol",
+      "status": "translated",
+      "cell_offset": "0x961b5e",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Voador",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "max_width": 208,
+      "type_index": 2,
+      "canonical_portuguese": "Voador",
+      "canonical_bytes": 7
+    },
+    {
+      "offset": "0x961b65",
+      "source_hex": "cae3dde7e3e2ff",
+      "references": [],
+      "english_reference": "Poison",
+      "french_reference": "Poison",
+      "status": "exception",
+      "cell_offset": "0x961b65",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Exception de rendu F-759 : nom canonique PT-BR supérieur à six octets ; cellule EN conservée sans abréviation inventée. Table indexée 0x961b50, pointeurs 0x309c8/0x456e74.",
+      "type_index": 3,
+      "canonical_portuguese": "Venenoso",
+      "canonical_bytes": 9
+    },
+    {
+      "offset": "0x961b6c",
+      "source_hex": "c1e6e3e9e2d8ff",
+      "references": [],
+      "english_reference": "Ground",
+      "french_reference": "Sol",
+      "status": "exception",
+      "cell_offset": "0x961b6c",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Exception de rendu F-759 : nom canonique PT-BR supérieur à six octets ; cellule EN conservée sans abréviation inventée. Table indexée 0x961b50, pointeurs 0x309c8/0x456e74.",
+      "type_index": 4,
+      "canonical_portuguese": "Terrestre",
+      "canonical_bytes": 10
+    },
+    {
+      "offset": "0x961b73",
+      "source_hex": "cce3d7dfff",
+      "references": [
+        7720322
+      ],
+      "english_reference": "Rock",
+      "french_reference": "Roche",
+      "status": "translated",
+      "cell_offset": "0x961b73",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Pedra",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "max_width": 208,
+      "type_index": 5,
+      "canonical_portuguese": "Pedra",
+      "canonical_bytes": 6
+    },
+    {
+      "offset": "0x961b7e",
+      "source_hex": "000000c1dce3e7e8ff",
+      "references": [],
+      "english_reference": "   Ghost",
+      "french_reference": "Spectre",
+      "status": "exception",
+      "cell_offset": "0x961b81",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Exception de rendu F-759 : nom canonique PT-BR supérieur à six octets ; cellule EN conservée sans abréviation inventée. Table indexée 0x961b50, pointeurs 0x309c8/0x456e74.",
+      "type_index": 7,
+      "canonical_portuguese": "Fantasma",
+      "canonical_bytes": 9
+    },
+    {
+      "offset": "0x961b87",
+      "source_hex": "00cde8d9d9e0ff",
+      "references": [],
+      "english_reference": " Steel",
+      "french_reference": "Acier",
+      "status": "translated",
+      "cell_offset": "0x961b88",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Aço",
+      "encoded_bytes": 4,
+      "line_widths": [
+        18
+      ],
+      "max_width": 208,
+      "type_index": 8,
+      "canonical_portuguese": "Aço",
+      "canonical_bytes": 4
+    },
+    {
+      "offset": "0x961b93",
+      "source_hex": "000000c0dde6d9ff",
+      "references": [],
+      "english_reference": "   Fire",
+      "french_reference": "Feu",
+      "status": "translated",
+      "cell_offset": "0x961b96",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Fogo",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "max_width": 208,
+      "type_index": 10,
+      "canonical_portuguese": "Fogo",
+      "canonical_bytes": 5
+    },
+    {
+      "offset": "0x961b9b",
+      "source_hex": "0000d1d5e8d9e6ff",
+      "references": [],
+      "english_reference": "  Water",
+      "french_reference": "Eau",
+      "status": "translated",
+      "cell_offset": "0x961b9d",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Água",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "max_width": 208,
+      "type_index": 11,
+      "canonical_portuguese": "Água",
+      "canonical_bytes": 5
+    },
+    {
+      "offset": "0x961ba3",
+      "source_hex": "00c1e6d5e7e7ff",
+      "references": [],
+      "english_reference": " Grass",
+      "french_reference": "Herbe",
+      "status": "translated",
+      "cell_offset": "0x961ba4",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Planta",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "max_width": 208,
+      "type_index": 12,
+      "canonical_portuguese": "Planta",
+      "canonical_bytes": 7
+    },
+    {
+      "offset": "0x961baa",
+      "source_hex": "00bfe0d9d7e8e6ff",
+      "references": [],
+      "english_reference": " Electr",
+      "french_reference": "Electrik",
+      "status": "exception",
+      "cell_offset": "0x961bab",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Exception de rendu F-759 : nom canonique PT-BR supérieur à six octets ; cellule EN conservée sans abréviation inventée. Table indexée 0x961b50, pointeurs 0x309c8/0x456e74.",
+      "type_index": 13,
+      "canonical_portuguese": "Elétrico",
+      "canonical_bytes": 9
+    },
+    {
+      "offset": "0x961bb2",
+      "source_hex": "cae7edd7dcd7ff",
+      "references": [],
+      "english_reference": "Psychc",
+      "french_reference": "Psy",
+      "status": "exception",
+      "cell_offset": "0x961bb2",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Exception de rendu F-759 : nom canonique PT-BR supérieur à six octets ; cellule EN conservée sans abréviation inventée. Table indexée 0x961b50, pointeurs 0x309c8/0x456e74.",
+      "type_index": 14,
+      "canonical_portuguese": "Psíquico",
+      "canonical_bytes": 9
+    },
+    {
+      "offset": "0x961bbd",
+      "source_hex": "000000bee6d5dbe3e2ff",
+      "references": [],
+      "english_reference": "   Dragon",
+      "french_reference": "Dragon",
+      "status": "translated",
+      "cell_offset": "0x961bc0",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Dragão",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "max_width": 208,
+      "type_index": 16,
+      "canonical_portuguese": "Dragão",
+      "canonical_bytes": 7
+    },
+    {
+      "offset": "0x961bc7",
+      "source_hex": "bed5e6dfff",
+      "references": [],
+      "english_reference": "Dark",
+      "french_reference": "Sombre",
+      "status": "exception",
+      "cell_offset": "0x961bc7",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Exception de rendu F-759 : nom canonique PT-BR supérieur à six octets ; cellule EN conservée sans abréviation inventée. Table indexée 0x961b50, pointeurs 0x309c8/0x456e74.",
+      "type_index": 17,
+      "canonical_portuguese": "Sombrio",
+      "canonical_bytes": 8
+    },
+    {
+      "offset": "0x961bcc",
+      "source_hex": "0000c0dddbdce8ff",
+      "references": [],
+      "english_reference": "  Fight",
+      "french_reference": "Combat",
+      "status": "exception",
+      "cell_offset": "0x961bce",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Exception de rendu F-759 : nom canonique PT-BR supérieur à six octets ; cellule EN conservée sans abréviation inventée. Table indexée 0x961b50, pointeurs 0x309c8/0x456e74.",
+      "type_index": 18,
+      "canonical_portuguese": "Lutador",
+      "canonical_bytes": 8
+    },
+    {
+      "offset": "0x961bf1",
+      "source_hex": "c0d5dde6edff",
+      "references": [],
+      "english_reference": "Fairy",
+      "french_reference": "Fée",
+      "status": "translated",
+      "cell_offset": "0x961bf1",
+      "cell_bytes": 7,
+      "table_base": "0x961b50",
+      "table_references": [
+        199112,
+        4550260
+      ],
+      "reason": "Cellule indexée de sept octets : nom canonique entier, écrit par le patch dédié ; préfixe de bourrage préservé.",
+      "portuguese": "Fada",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ],
+      "max_width": 208,
+      "type_index": 23,
+      "canonical_portuguese": "Fada",
+      "canonical_bytes": 5
+    },
+    {
+      "offset": "0x962f43",
+      "source_hex": "feeeeeeeeedddddddddddddddd00000000000000000000000000000000ff",
+      "references": [],
+      "english_reference": "\\nzzzziiiiiiii                ",
+      "french_reference": "\\nzzzziiiiiiii                ",
+      "status": "exception",
+      "reason": "Motif de tuiles/pixels, pas une chaîne : répétitions DD/EE/FD, aucun pointeur texte, fragments identiques dans trois blocs graphiques. Ne pas injecter."
+    },
+    {
+      "offset": "0x964160",
+      "source_hex": "c9ebe200e1e3ead900e8ede4d9f000c0d5dde6edff",
+      "references": [
+        9846928
+      ],
+      "english_reference": "Own move type: Fairy",
+      "french_reference": "Type de la capacité : Fee",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Tipo do movimento: Fada",
+      "encoded_bytes": 24,
+      "line_widths": [
+        131
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964180",
+      "source_hex": "c9ebe200cae3df1be1e3e200e8ede4d9f000c0d5dde6edff",
+      "references": [
+        9846932
+      ],
+      "english_reference": "Own Pokémon type: Fairy",
+      "french_reference": "Type du Pokémon : Fee",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Tipo do Pokémon: Fada",
+      "encoded_bytes": 22,
+      "line_widths": [
+        121
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x9641a0",
+      "source_hex": "bfdadad9d7e800e3da00dae3d9b4e700e1e3ead900e3e200e3ebe200cae3df1be1e3e2f0fb000000f915f000c0dddbdce8dde2dbb800bce9dbb800c0d5dde6edfb000000f916f000c1dce3e7e8b800bed5e6dffb000000f917f000cae7edd7dcddd7ff",
+      "references": [
+        9846948
+      ],
+      "english_reference": "Effect of foe's move on own Pokémon:<0xFB>   <0xF9>ß: Fighting, Bug, Fairy<0xFB>   <0xF9>à: Ghost, Dark<0xFB>   <0xF9>á: Psychic",
+      "french_reference": "Effet cap. adverse :\\p   {CIRCLE_DOT}: Com/Ins/Fee\\p   {TRIANGLE}: Spe/Ten\\p   {BIG_MULT_X}: Psy",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Lutador, Inseto, Fada<0xFB><0xF9><0x16>: Fantasma, Sombrio<0xFB><0xF9><0x17>: Psíquico",
+      "encoded_bytes": 84,
+      "line_widths": [
+        123,
+        130,
+        106,
+        56
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964210",
+      "source_hex": "bfdadad9d7e800e3e200e8dcd900e3e4e4e3e7dde2db00cae3df1be1e3e2f0fb000000f915f000c8e3e6e1d5e0b800cce3d7dfb800cde8d9d9e0b800c3d7d9b800bed5e6dffb000000f916f000c0e0eddde2dbb800cae3dde7e3e2b800bce9dbb800cae7edd7dcddd7b8fa00000000000000c0d5dde6edfb000000f917f000c1dce3e7e8ff",
+      "references": [
+        9846968
+      ],
+      "english_reference": "Effect on the opposing Pokémon:<0xFB>   <0xF9>ß: Normal, Rock, Steel, Ice, Dark<0xFB>   <0xF9>à: Flying, Poison, Bug, Psychic,<0xFA>       Fairy<0xFB>   <0xF9>á: Ghost",
+      "french_reference": "Effet sur l'ennemi :\\p   {CIRCLE_DOT}: Nor/Roc/Aci/Gla/Ten\\p   {TRIANGLE}: Vol/Poi/Ins/Psy\\l       Fee\\p   {BIG_MULT_X}: Spe",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Normal, Pedra, Aço, Gelo, Sombrio<0xFB><0xF9><0x16>: Voador, Venenoso, Inseto, Psíquico,<0xFA>       Fada<0xFB><0xF9><0x17>: Fantasma",
+      "encoded_bytes": 133,
+      "line_widths": [
+        161,
+        198,
+        207,
+        24,
+        56
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x9642a0",
+      "source_hex": "bfdadad9d7e800e3da00dae3d9b4e700e1e3ead900e3e200e3ebe200cae3df1be1e3e2f0fb000000f915f000c0e0eddde2dbb800cae7edd7dcddd7b800c0d5dde6edfb000000f916f000cce3d7dfb800bce9dbb800bed5e6dfff",
+      "references": [
+        9846972
+      ],
+      "english_reference": "Effect of foe's move on own Pokémon:<0xFB>   <0xF9>ß: Flying, Psychic, Fairy<0xFB>   <0xF9>à: Rock, Bug, Dark",
+      "french_reference": "Effet cap. adverse :\\p   {CIRCLE_DOT}: Vol/Psy/Fee\\p   {TRIANGLE}: Roc/Ins/Ten",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Voador, Psíquico, Fada<0xFB><0xF9><0x16>: Pedra, Inseto, Sombrio",
+      "encoded_bytes": 77,
+      "line_widths": [
+        123,
+        137,
+        134
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964300",
+      "source_hex": "bfdadad9d7e800e3e200e8dcd900e3e4e4e3e7dde2db00cae3df1be1e3e2f0fb000000f915f000c1e6d5e7e7b800c0d5dde6edfb000000f916f000cae3dde7e3e2b800c1e6e3e9e2d8b800cce3d7dfb800c1dce3e7e8fb000000f917f000cde8d9d9e0ff",
+      "references": [
+        9847016
+      ],
+      "english_reference": "Effect on the opposing Pokémon:<0xFB>   <0xF9>ß: Grass, Fairy<0xFB>   <0xF9>à: Poison, Ground, Rock, Ghost<0xFB>   <0xF9>á: Steel",
+      "french_reference": "Effet sur l'ennemi :\\p   {CIRCLE_DOT}: Pla/Fee\\p   {TRIANGLE}: Poi/Sol/Roc/Spe\\p   {BIG_MULT_X}: Aci",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Planta, Fada<0xFB><0xF9><0x16>: Venenoso, Terrestre, Pedra, Fantasma<0xFB><0xF9><0x17>: Aço",
+      "encoded_bytes": 96,
+      "line_widths": [
+        161,
+        79,
+        212,
+        29
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964370",
+      "source_hex": "bfdadad9d7e800e3da00dae3d9b4e700e1e3ead900e3e200e3ebe200cae3df1be1e3e2f0fb000000f915f000c1e6e3e9e2d8b800cae7edd7dcddd7fb000000f916f000c0dddbdce8dde2dbb800cae3dde7e3e2b800bce9dbb800c1e6d5e7e7b8fa00000000000000c0d5dde6edff",
+      "references": [
+        9847020
+      ],
+      "english_reference": "Effect of foe's move on own Pokémon:<0xFB>   <0xF9>ß: Ground, Psychic<0xFB>   <0xF9>à: Fighting, Poison, Bug, Grass,<0xFA>       Fairy",
+      "french_reference": "Effet cap. adverse :\\p   {CIRCLE_DOT}: Sol/Psy\\p   {TRIANGLE}: Com/Poi/Ins/Pla,\\l       Fee",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Terrestre, Psíquico<0xFB><0xF9><0x16>: Lutador, Venenoso, Inseto, Planta,<0xFA>       Fada",
+      "encoded_bytes": 98,
+      "line_widths": [
+        123,
+        116,
+        200,
+        24
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x9643e0",
+      "source_hex": "bfdadad9d7e800e3e200e8dcd900e3e4e4e3e7dde2db00cae3df1be1e3e2f0fb000000f915f000c1e6d5e7e7b800cae7edd7dcddd7b800bed5e6dffb000000f916f000c0dddbdce8dde2dbb800c0e0eddde2dbb800cae3dde7e3e2b800c1dce3e7e8b8fa00000000000000cde8d9d9e0b800c0dde6d9b800c0d5dde6edff",
+      "references": [
+        9847072
+      ],
+      "english_reference": "Effect on the opposing Pokémon:<0xFB>   <0xF9>ß: Grass, Psychic, Dark<0xFB>   <0xF9>à: Fighting, Flying, Poison, Ghost,<0xFA>       Steel, Fire, Fairy",
+      "french_reference": "Effet sur l'ennemi :\\p   {CIRCLE_DOT}: Pla/Psy/Ten\\p   {TRIANGLE}: Com/Vol/Poi/Spe,\\l       Aci/Feu/Fee",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Planta, Psíquico, Sombrio<0xFB><0xF9><0x16>: Lutador, Voador, Venenoso, Fantasma,<0xFA>       Aço, Fogo, Fada",
+      "encoded_bytes": 124,
+      "line_widths": [
+        161,
+        150,
+        214,
+        88
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964460",
+      "source_hex": "bfdadad9d7e800e3e200e8dcd900e3e4e4e3e7dde2db00cae3df1be1e3e2f0fb000000f915f000cce3d7dfb800c3d7d9b800c0d5dde6edfb000000f916f000cde8d9d9e0b800c0dde6d9b800d1d5e8d9e6b800bfe0d9d7e8e6ddd7ff",
+      "references": [
+        9847040
+      ],
+      "english_reference": "Effect on the opposing Pokémon:<0xFB>   <0xF9>ß: Rock, Ice, Fairy<0xFB>   <0xF9>à: Steel, Fire, Water, Electric",
+      "french_reference": "Effet sur l'ennemi :\\p   {CIRCLE_DOT}: Roc/Gla/Fee\\p   {TRIANGLE}: Aci/Feu/Eau/Elec",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Pedra, Gelo, Fada<0xFB><0xF9><0x16>: Aço, Fogo, Água, Elétrico",
+      "encoded_bytes": 82,
+      "line_widths": [
+        161,
+        109,
+        153
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x9644c0",
+      "source_hex": "bfdadad9d7e800e3da00dae3d9b4e700e1e3ead900e3e200e3ebe200cae3df1be1e3e2f0fb000000f915f000c1e6e3e9e2d8b800cce3d7dfb800d1d5e8d9e6fb000000f916f000bce9dbb800cde8d9d9e0b800c0dde6d9b800c1e6d5e7e7b8fa00000000000000c3d7d9b800c0d5dde6edff",
+      "references": [
+        9847060
+      ],
+      "english_reference": "Effect of foe's move on own Pokémon:<0xFB>   <0xF9>ß: Ground, Rock, Water<0xFB>   <0xF9>à: Bug, Steel, Fire, Grass,<0xFA>       Ice, Fairy",
+      "french_reference": "Effet cap. adverse :\\p   {CIRCLE_DOT}: Sol/Roc/Eau\\p   {TRIANGLE}: Ins/Aci/Feu/Pla,\\l       Gla/Fee",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Terrestre, Pedra, Água<0xFB><0xF9><0x16>: Inseto, Aço, Fogo, Planta,<0xFA>       Gelo, Fada",
+      "encoded_bytes": 99,
+      "line_widths": [
+        123,
+        135,
+        157,
+        58
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964540",
+      "source_hex": "bfdadad9d7e800e3e200e8dcd900e3e4e4e3e7dde2db00cae3df1be1e3e2f0fb000000f915f000bee6d5dbe3e2fb000000f916f000cde8d9d9e0fb000000f917f000c0d5dde6edff",
+      "references": [
+        9847024
+      ],
+      "english_reference": "Effect on the opposing Pokémon:<0xFB>   <0xF9>ß: Dragon<0xFB>   <0xF9>à: Steel<0xFB>   <0xF9>á: Fairy",
+      "french_reference": "Effet sur l'ennemi :\\p   {CIRCLE_DOT}: Dra\\p   {TRIANGLE}: Aci\\p   {BIG_MULT_X}: Fee",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Dragão<0xFB><0xF9><0x16>: Aço<0xFB><0xF9><0x17>: Fada",
+      "encoded_bytes": 58,
+      "line_widths": [
+        161,
+        46,
+        29,
+        35
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964590",
+      "source_hex": "bfdadad9d7e800e3da00dae3d9b4e700e1e3ead900e3e200e3ebe200cae3df1be1e3e2f0fb000000f915f000c3d7d9b800bee6d5dbe3e2b800c0d5dde6edfb000000f916f000c0dde6d9b800d1d5e8d9e6b800c1e6d5e7e7b800bfe0d9d7e8e6ddd7ff",
+      "references": [
+        9847028
+      ],
+      "english_reference": "Effect of foe's move on own Pokémon:<0xFB>   <0xF9>ß: Ice, Dragon, Fairy<0xFB>   <0xF9>à: Fire, Water, Grass, Electric",
+      "french_reference": "Effet cap. adverse :\\p   {CIRCLE_DOT}: Gla/Dra/Fee\\p   {TRIANGLE}: Feu/Eau/Pla/Elec",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Gelo, Dragão, Fada<0xFB><0xF9><0x16>: Fogo, Água, Planta, Elétrico",
+      "encoded_bytes": 79,
+      "line_widths": [
+        123,
+        115,
+        168
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964600",
+      "source_hex": "bfdadad9d7e800e3e200e8dcd900e3e4e4e3e7dde2db00cae3df1be1e3e2f0fb000000f915f000c0dddbdce8dde2dbb800bee6d5dbe3e2b800bed5e6dffb000000f916f000cae3dde7e3e2b800cde8d9d9e0b800c0dde6d9ff",
+      "references": [
+        9847080
+      ],
+      "english_reference": "Effect on the opposing Pokémon:<0xFB>   <0xF9>ß: Fighting, Dragon, Dark<0xFB>   <0xF9>à: Poison, Steel, Fire",
+      "french_reference": "Effet sur l'ennemi :\\p   {CIRCLE_DOT}: Com/Dra/Ten\\p   {TRIANGLE}: Poi/Aci/Feu",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no Pokémon adversário:<0xFB><0xF9><0x15>: Lutador, Dragão, Sombrio<0xFB><0xF9><0x16>: Venenoso, Aço, Fogo",
+      "encoded_bytes": 83,
+      "line_widths": [
+        161,
+        147,
+        120
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964660",
+      "source_hex": "bfdadad9d7e800e3da00dae3d9b4e700e1e3ead900e3e200e3ebe200cae3df1be1e3e2f0fb000000f915f000cae3dde7e3e2b800cde8d9d9e0fb000000f916f000c0dddbdce8dde2dbb800bce9dbb800bed5e6dffb000000f917f000bee6d5dbe3e2ff",
+      "references": [
+        9847084
+      ],
+      "english_reference": "Effect of foe's move on own Pokémon:<0xFB>   <0xF9>ß: Poison, Steel<0xFB>   <0xF9>à: Fighting, Bug, Dark<0xFB>   <0xF9>á: Dragon",
+      "french_reference": "Effet cap. adverse :\\p   {CIRCLE_DOT}: Poi/Aci\\p   {TRIANGLE}: Com/Ins/Ten\\p   {BIG_MULT_X}: Dra",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Efeito no seu Pokémon:<0xFB><0xF9><0x15>: Venenoso, Aço<0xFB><0xF9><0x16>: Lutador, Inseto, Sombrio<0xFB><0xF9><0x17>: Dragão",
+      "encoded_bytes": 81,
+      "line_widths": [
+        123,
+        85,
+        145,
+        46
+      ],
+      "max_width": 224
+    },
+    {
+      "offset": "0x964a7e",
+      "source_hex": "bdd5e4e8e9e6d900dae3e6fee1e3e6d900dde2dae3e6e1d5e8dde3e2abff",
+      "references": [
+        9849392
+      ],
+      "english_reference": "Capture for\\nmore information!",
+      "french_reference": "Capture pour\\nplus d'infos !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Capture para\\nver mais informações!",
+      "encoded_bytes": 35,
+      "line_widths": [
+        69,
+        116
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965b87",
+      "source_hex": "fd1000ebd5e700dce9e6e8abff",
+      "references": [
+        9850991
+      ],
+      "english_reference": "<0xFD>Œ was hurt!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} a subi des dégâts !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> sofreu dano!",
+      "encoded_bytes": 16,
+      "line_widths": [
+        128
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965b94",
+      "source_hex": "fd1000dde700e8e3e6e1d9e2e8d9d8abff",
+      "references": [
+        9851192
+      ],
+      "english_reference": "<0xFD>Œ is tormented!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} est tourmenté !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> está sob tormento!",
+      "encoded_bytes": 22,
+      "line_widths": [
+        161
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965ba5",
+      "source_hex": "fd1300dcd5e6ead9e7e8d9d8fee3e2d900fd16abff",
+      "references": [
+        9851225
+      ],
+      "english_reference": "<0xFD>Û harvested\\none <0xFD>à!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} a récolté\\nun {B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> colheu\\num <0xFD><0x16>!",
+      "encoded_bytes": 17,
+      "line_widths": [
+        95,
+        78
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965bba",
+      "source_hex": "fd1300dae3e9e2d800e3e2d9fefd16abff",
+      "references": [
+        9851262
+      ],
+      "english_reference": "<0xFD>Û found one\\n<0xFD>à!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} a trouvé un\\n{B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> achou um\\n<0xFD><0x16>!",
+      "encoded_bytes": 16,
+      "line_widths": [
+        108,
+        60
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965bcb",
+      "source_hex": "fd1300dad9e0e000dde200e0e3ead9fedae6e3e100e8dcd900fd16abff",
+      "references": [
+        9851745,
+        9868136,
+        9884431
+      ],
+      "english_reference": "<0xFD>Û fell in love\\nfrom the <0xFD>à!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} est tombé amoureux\\nà cause du {B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> se apaixonou\\npor causa de <0xFD><0x16>!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        128,
+        136
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965be8",
+      "source_hex": "fd0fb4e700d5d6dde0dde8edfed6d9d7d5e1d900fd19abff",
+      "references": [
+        9851974
+      ],
+      "english_reference": "<0xFD>Ô's ability\\nbecame <0xFD>ç!",
+      "french_reference": "Le talent de {B_ATK_NAME_WITH_PREFIX}\\ndevient {B_DEF_ABILITY} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F>: a Habilidade\\nagora é <0xFD><0x19>!",
+      "encoded_bytes": 29,
+      "line_widths": [
+        132,
+        107
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965c16",
+      "source_hex": "fd13b4e700dde0e0e9e7dde3e2feebe3e6d900e3dadaabff",
+      "references": [
+        9852156,
+        9852207
+      ],
+      "english_reference": "<0xFD>Û's illusion\\nwore off!",
+      "french_reference": "L'illusion de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nse dissipe !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>: a ilusão\\nse desfez!",
+      "encoded_bytes": 24,
+      "line_widths": [
+        109,
+        57
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965c2e",
+      "source_hex": "c3e800dcd5d800e2e300d9dadad9d7e800e3e2fefd10b0ff",
+      "references": [
+        9852305
+      ],
+      "english_reference": "It had no effect on\\n<0xFD>Œ\"",
+      "french_reference": "Aucun effet sur\\n{B_DEF_NAME_WITH_PREFIX}…",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Não teve efeito em\\n<0xFD><0x10><0xB0>",
+      "encoded_bytes": 23,
+      "line_widths": [
+        103,
+        54
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965c46",
+      "source_hex": "fd10b4e700d8dde7dbe9dde7d9fee7d9e6ead9d800d5e700dde8e700d8d9d7e3edabff",
+      "references": [
+        9852398
+      ],
+      "english_reference": "<0xFD>Œ's disguise\\nserved as its decoy!",
+      "french_reference": "Le déguisement de\\n{B_DEF_NAME_WITH_PREFIX} a servi d'appât !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>: o disfarce\\nserviu de chamariz!",
+      "encoded_bytes": 35,
+      "line_widths": [
+        120,
+        107
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965c69",
+      "source_hex": "fd10b4e700d8dde7dbe9dde7d9feebd5e700d6e9e7e8d9d8abff",
+      "references": [
+        9852448
+      ],
+      "english_reference": "<0xFD>Œ's disguise\\nwas busted!",
+      "french_reference": "Le déguisement de\\n{B_DEF_NAME_WITH_PREFIX} a été brisé !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>: o disfarce\\nfoi destruído!",
+      "encoded_bytes": 30,
+      "line_widths": [
+        120,
+        78
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x965c9a",
+      "source_hex": "fd13b4e700fd1afee7dcd5e6e4e0ed00e6d5dde7d9d800dde8e700fd00abff",
+      "references": [],
+      "english_reference": "<0xFD>Û's <0xFD>è\\nsharply raised its <0xFD> !",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} !\\n{B_SCR_ACTIVE_ABILITY}:{UNKNOWN_STR}",
+      "status": "exception",
+      "reason": "Ancien message de combat non référencé ; aucune référence directe dans les 32 Mio de la source, aucun consommateur de table indexée de texte dans ce bloc de scripts."
+    },
+    {
+      "offset": "0x966083",
+      "source_hex": "fd0f00d7d5e2b4e800e9e7d9fefd1400d6d9d7d5e9e7d900e3da00dbe6d5eadde8edabff",
+      "references": [
+        9854404
+      ],
+      "english_reference": "<0xFD>Ô can't use\\n<0xFD>Ñ because of gravity!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser\\n{B_CURRENT_MOVE} à cause de Gravité !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> sob gravidade!\\n<0xFD><0x14> proibido!",
+      "encoded_bytes": 31,
+      "line_widths": [
+        140,
+        109
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9660a7",
+      "source_hex": "fd0f00d7d5e2b4e800e9e7d9fefd1400d5dae8d9e600e8dcd900c2d9d5e000bce0e3d7dfabff",
+      "references": [
+        9854430
+      ],
+      "english_reference": "<0xFD>Ô can't use\\n<0xFD>Ñ after the Heal Block!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser\\n{B_CURRENT_MOVE} après Anti-Soin !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> sob Heal Block!\\n<0xFD><0x14> proibido!",
+      "encoded_bytes": 32,
+      "line_widths": [
+        146,
+        109
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9660cd",
+      "source_hex": "fd0f00d7d5e2b4e800e9e7d9fee7e3e9e2d800e1e3ead9e700d5dae8d9e600e8dcd900cedce6e3d5e800bddce3e4abff",
+      "references": [
+        9854456
+      ],
+      "english_reference": "<0xFD>Ô can't use\\nsound moves after the Throat Chop!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} ne peut pas utiliser\\nles sons après Coud'Pince !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> não pode usar\\nsons após Throat Chop!",
+      "encoded_bytes": 40,
+      "line_widths": [
+        135,
+        126
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9660fd",
+      "source_hex": "cedcd900d1d5e8d9e6aee8ede4d900d5e8e8d5d7df00d9ead5e4e3e6d5e8d9d8fedde200e8dcd900dcd5e6e7dc00e7e9e2e0dddbdce8abff",
+      "references": [
+        9854519
+      ],
+      "english_reference": "The Water-type attack evaporated\\nin the harsh sunlight!",
+      "french_reference": "L'attaque Eau\\ns'évapore au soleil !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "O ataque de Água evaporou\\nsob a luz solar intensa!",
+      "encoded_bytes": 51,
+      "line_widths": [
+        148,
+        133
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966135",
+      "source_hex": "cedcd900c0dde6d9aee8ede4d900d5e8e8d5d7df00daddeeeee0d9d8fee3e9e800dde200e8dcd900dcd9d5eaed00e6d5dde2abff",
+      "references": [
+        9854499
+      ],
+      "english_reference": "The Fire-type attack fizzled\\nout in the heavy rain!",
+      "french_reference": "L'attaque Feu s'éteint\\nsous la pluie torrentielle !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "O ataque de Fogo se apagou\\ncom a chuva forte!",
+      "encoded_bytes": 46,
+      "line_widths": [
+        154,
+        105
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966169",
+      "source_hex": "fd1000e7e9e6e6e3e9e2d8e700dde8e7d9e0dafeebdde8dc00e4e7edd7dcddd700e8d9e6e6d5dde2abff",
+      "references": [
+        9854550,
+        10473748
+      ],
+      "english_reference": "<0xFD>Œ surrounds itself\\nwith psychic terrain!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} crée un\\nChamp Psychique !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> se envolve\\nem terreno psíquico!",
+      "encoded_bytes": 35,
+      "line_widths": [
+        117,
+        113
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966193",
+      "source_hex": "d1dcd9e200e8dcd900dae0d5e1d900e8e3e9d7dcd9d800e8dcd900e4e3ebd8d9e600e3e2fefd0fb800dde800d9ece4e0e3d8d9d8abff",
+      "references": [
+        9854593
+      ],
+      "english_reference": "When the flame touched the powder on\\n<0xFD>Ô, it exploded!",
+      "french_reference": "La flamme sur {B_ATK_NAME_WITH_PREFIX}\\nexplose en touchant la poudre !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A chama tocou o pó em\\n<0xFD><0x0F> e ele explodiu!",
+      "encoded_bytes": 41,
+      "line_widths": [
+        125,
+        146
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9661c9",
+      "source_hex": "fd0f00e8e6d5e2e7dae3e6e1d9d8fedde2e8e300dde8e700d6e0d5d8d900dae3e6e1abff",
+      "references": [
+        9854643
+      ],
+      "english_reference": "<0xFD>Ô transformed\\ninto its blade form!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} prend sa\\nforme Lame !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> assumiu\\nsua forma de lâmina!",
+      "encoded_bytes": 32,
+      "line_widths": [
+        98,
+        113
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9661ed",
+      "source_hex": "fd0f00e8e6d5e2e7dae3e6e1d9d8fedde2e8e300dde8e700e7dcddd9e0d800dae3e6e1abff",
+      "references": [
+        9854681
+      ],
+      "english_reference": "<0xFD>Ô transformed\\ninto its shield form!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} prend sa\\nforme Bouclier !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> assumiu\\nsua forma de escudo!",
+      "encoded_bytes": 32,
+      "line_widths": [
+        98,
+        116
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966212",
+      "source_hex": "fd0f00e7e9e6e6e3e9e2d8d9d8fedde8e7d9e0da00ebdde8dc00dde8e700d4aecae3ebd9e6abff",
+      "references": [
+        9854707,
+        9854752
+      ],
+      "english_reference": "<0xFD>Ô surrounded\\nitself with its Z-Power!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} canalise\\nsa Force Z !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> se envolveu\\nem seu Poder Z!",
+      "encoded_bytes": 31,
+      "line_widths": [
+        123,
+        88
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966239",
+      "source_hex": "fd0f00e9e2e0d9d5e7dcd9e7fedde8e700dae9e0e0aedae3e6d7d900d4aee1e3ead9abff",
+      "references": [
+        9854731,
+        9854771
+      ],
+      "english_reference": "<0xFD>Ô unleashes\\nits full-force Z-move!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} libère\\nsa Capacité Z ultime !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> libera\\nseu movimento Z com força total!",
+      "encoded_bytes": 43,
+      "line_widths": [
+        92,
+        182
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96625d",
+      "source_hex": "fd13b4e700dde0e0e9e7dde3e2feebe3e6d900e3dadaabff",
+      "references": [
+        9854824
+      ],
+      "english_reference": "<0xFD>Û's illusion\\nwore off!",
+      "french_reference": "L'illusion de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nse dissipe !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>: a ilusão\\nse desfez!",
+      "encoded_bytes": 24,
+      "line_widths": [
+        109,
+        57
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966275",
+      "source_hex": "bce9e800dde800ebe3e2b4e800ebe3e6df00ebd9e0e000dde2fecddfed00bcd5e8e8e0d9e7b0ff",
+      "references": [
+        9854868
+      ],
+      "english_reference": "But it won't work well in\\nSky Battles\"",
+      "french_reference": "Mais ça marche mal\\nen Sky Battles…",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Mas não funciona bem em\\nSky Battles<0xB0>",
+      "encoded_bytes": 37,
+      "line_widths": [
+        131,
+        61
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9665b0",
+      "source_hex": "fd13b4e700d5e9e6d5fedae0d5e6d9d800e8e300e0dddad9abff",
+      "references": [
+        9855713,
+        9855769,
+        9855863
+      ],
+      "english_reference": "<0xFD>Û's aura\\nflared to life!",
+      "french_reference": "L'aura de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\ns'enflamme !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>: a aura\\nse acendeu!",
+      "encoded_bytes": 23,
+      "line_widths": [
+        100,
+        64
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9665ca",
+      "source_hex": "fd0fb4e7fecae6dde1d5e000ccd9ead9e6e7dde3e2abfbc3e800e6d9ead9e6e8d9d800e8e300dde8e700e4e6dde1d5e000dae3e6e1abff",
+      "references": [
+        9855971
+      ],
+      "english_reference": "<0xFD>Ô's\\nPrimal Reversion!<0xFB>It reverted to its primal form!",
+      "french_reference": "Régression Primitive de\\n{B_ATK_NAME_WITH_PREFIX} !\\pIl revient à sa forme primale !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F>:\\nPrimal Reversion!<0xFB>Retornou à sua forma primal!",
+      "encoded_bytes": 51,
+      "line_widths": [
+        59,
+        93,
+        158
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966601",
+      "source_hex": "bbe200d9e0d9d7e8e6ddd700d7e9e6e6d9e2e800e6e9e2e700d5d7e6e3e7e7fee8dcd900d6d5e8e8e0d9daddd9e0d8adff",
+      "references": [
+        9855987
+      ],
+      "english_reference": "An electric current runs across\\nthe battlefield.",
+      "french_reference": "Un courant électrique parcourt le\\nchamp de bataille.",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Uma corrente elétrica percorre\\no campo de batalha.",
+      "encoded_bytes": 51,
+      "line_widths": [
+        168,
+        111
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966632",
+      "source_hex": "c1e6d5e7e700d7e3ead9e6e700e8dcd900d6d5e8e8e0d9daddd9e0d8adff",
+      "references": [
+        9856007
+      ],
+      "english_reference": "Grass covers the battlefield.",
+      "french_reference": "L'herbe recouvre le champ.",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A grama cobre o campo de batalha.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        193
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966650",
+      "source_hex": "c7dde7e800e7ebdde6e0e700d5e6e3e9e2d800e8dcd900d6d5e8e8e0d9daddd9e0d8adff",
+      "references": [
+        9856027
+      ],
+      "english_reference": "Mist swirls around the battlefield.",
+      "french_reference": "La brume tourbillonne sur le champ.",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A névoa envolve o campo de batalha.",
+      "encoded_bytes": 36,
+      "line_widths": [
+        204
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966674",
+      "source_hex": "cedcd900d6d5e8e8e0d9daddd9e0d800dde700ebd9dde6d8adff",
+      "references": [
+        9856047
+      ],
+      "english_reference": "The battlefield is weird.",
+      "french_reference": "Le champ devient étrange.",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "O campo de batalha está estranho.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        189
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96668e",
+      "source_hex": "fd1300e7e8d5e6e8d9d8fedcd9d5e8dde2db00e9e400dde8e700d6d9d5dfabff",
+      "references": [
+        9856247
+      ],
+      "english_reference": "<0xFD>Û started\\nheating up its beak!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} chauffe son bec !\\n",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> começou\\na aquecer o bico!",
+      "encoded_bytes": 29,
+      "line_widths": [
+        102,
+        99
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9666ae",
+      "source_hex": "fd1300e7d9e800d5fecddcd9e0e000cee6d5e4abff",
+      "references": [
+        9856276
+      ],
+      "english_reference": "<0xFD>Û set a\\nShell Trap!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} pose un\\nPyro-Tacle !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> preparou\\nShell Trap!",
+      "encoded_bytes": 24,
+      "line_widths": [
+        106,
+        63
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966b45",
+      "source_hex": "fd0f00ebd5e700dce9e6e800d6edfefd10b4e700cde4dddfed00cddcddd9e0d8abff",
+      "references": [
+        9856798
+      ],
+      "english_reference": "<0xFD>Ô was hurt by\\n<0xFD>Œ's Spiky Shield!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} subit des dégâts du\\nPico-Défense de {B_DEF_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> sofreu dano de\\n<0xFD><0x10> com Spiky Shield!",
+      "encoded_bytes": 39,
+      "line_widths": [
+        140,
+        156
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966b67",
+      "source_hex": "fd1100ebd5e7fee4e3dde7e3e2d9d800d6ed00e8dcd900cee3ecddd700cde4dddfd9e7abff",
+      "references": [
+        9857205
+      ],
+      "english_reference": "<0xFD>Ù was\\npoisoned by the Toxic Spikes!",
+      "french_reference": "{B_EFF_NAME_WITH_PREFIX} est\\nempoisonné par Pics Toxik !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x11> foi\\nenvenenado por Toxic Spikes!",
+      "encoded_bytes": 36,
+      "line_widths": [
+        75,
+        158
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966b8c",
+      "source_hex": "fd1100dde700d6d5d8e0edfee4e3dde7e3e2d9d800d6ed00e8dcd900cee3ecddd700cde4dddfd9e7abff",
+      "references": [
+        9857314
+      ],
+      "english_reference": "<0xFD>Ù is badly\\npoisoned by the Toxic Spikes!",
+      "french_reference": "{B_EFF_NAME_WITH_PREFIX} est gravement\\nempoisonné par Pics Toxik !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x11> foi\\nmuito envenenado por Toxic Spikes!",
+      "encoded_bytes": 42,
+      "line_widths": [
+        75,
+        191
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966bb6",
+      "source_hex": "fd1100ebd5e700d6d5d8e0edfee4e3dde7e3e2d9d800d6ed00e8dcd900fd16abff",
+      "references": [
+        9857340,
+        9859619
+      ],
+      "english_reference": "<0xFD>Ù was badly\\npoisoned by the <0xFD>à!",
+      "french_reference": "{B_EFF_NAME_WITH_PREFIX} est gravement\\nempoisonné par le {B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x11> foi muito\\nenvenenado por <0xFD><0x16>!",
+      "encoded_bytes": 32,
+      "line_widths": [
+        108,
+        146
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966bd7",
+      "source_hex": "fd1100ebd5e7fee4e3dde7e3e2d9d800d6ed00e8dcd900bcd5e2d9dae9e000bce9e2dfd9e6abff",
+      "references": [
+        9856825,
+        9857231
+      ],
+      "english_reference": "<0xFD>Ù was\\npoisoned by the Baneful Bunker!",
+      "french_reference": "{B_EFF_NAME_WITH_PREFIX} est\\nempoisonné par Blockhaus !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x11> foi\\nenvenenado por Baneful Bunker!",
+      "encoded_bytes": 38,
+      "line_widths": [
+        75,
+        170
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966bfe",
+      "source_hex": "fd1100ebd5e700d6e9e6e2d9d8fed6ed00fd0fb4e700d6d9d5dfabff",
+      "references": [
+        9857403
+      ],
+      "english_reference": "<0xFD>Ù was burned\\nby <0xFD>Ô's beak!",
+      "french_reference": "{B_EFF_NAME_WITH_PREFIX} est brûlé\\npar le bec de {B_ATK_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x11> foi queimado\\npelo bico de <0xFD><0x0F>!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        127,
+        135
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966c1a",
+      "source_hex": "fd1100ebd5e700d6e9e6e2d9d8fed6ed00e8dcd900fd16abff",
+      "references": [
+        9857429,
+        9859640
+      ],
+      "english_reference": "<0xFD>Ù was burned\\nby the <0xFD>à!",
+      "french_reference": "{B_EFF_NAME_WITH_PREFIX} est brûlé\\npar le {B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x11> foi queimado\\npor <0xFD><0x16>!",
+      "encoded_bytes": 24,
+      "line_widths": [
+        127,
+        83
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966c33",
+      "source_hex": "fd10b4e700fd16feebd5e700e7e8e3e0d9e200d6ed00fd18abff",
+      "references": [],
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nwas stolen by <0xFD><0x18>!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} :\\n{B_LAST_ITEM} volé:{B_ATK_ABILITY} !",
+      "status": "exception",
+      "reason": "Ancien message de combat non référencé ; aucune référence directe dans les 32 Mio de la source, aucun consommateur de table indexée de texte dans ce bloc de scripts."
+    },
+    {
+      "offset": "0x966c4d",
+      "source_hex": "fd10b4e700fd16feebd5e700e7e8e3e0d9e2abff",
+      "references": [],
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nwas stolen!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} :\\n{B_LAST_ITEM} volé !",
+      "status": "exception",
+      "reason": "Ancien message de combat non référencé ; aucune référence directe dans les 32 Mio de la source, aucun consommateur de table indexée de texte dans ce bloc de scripts."
+    },
+    {
+      "offset": "0x966c61",
+      "source_hex": "fd0f00d7e9e800dde8e700e3ebe2fec2ca00e8e300e4e3ebd9e600e9e400dde8e700d5e8e8d5d7dfabff",
+      "references": [
+        9857010
+      ],
+      "english_reference": "<0xFD>Ô cut its own\\nHP to power up its attack!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} sacrifie des PV\\npour booster son attaque !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> gastou seus\\nPS para fortalecer seu ataque!",
+      "encoded_bytes": 46,
+      "line_widths": [
+        122,
+        172
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966c8b",
+      "source_hex": "fd0f00e0e3e7e800e7e3e1d9fee3da00dde8e700c2caabff",
+      "references": [
+        9857060
+      ],
+      "english_reference": "<0xFD>Ô lost some\\nof its HP!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} perd quelques PV !\\n",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> perdeu\\nparte de seus PS!",
+      "encoded_bytes": 28,
+      "line_widths": [
+        95,
+        98
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x966ca3",
+      "source_hex": "fd0f00e7e8e3e0d900d5e2d800d5e8d9fedde8e700dae3d9b4e700fd16abff",
+      "references": [
+        9857610
+      ],
+      "english_reference": "<0xFD>Ô stole and ate\\nits foe's <0xFD>à!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} vole et mange\\nle {B_LAST_ITEM} adverse !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> roubou e comeu\\no <0xFD><0x16> do adversário!",
+      "encoded_bytes": 38,
+      "line_widths": [
+        143,
+        151
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967539",
+      "source_hex": "cedcd900dae3db00dde700d8d9d9e4adadadff",
+      "references": [
+        9858971
+      ],
+      "english_reference": "The fog is deep...",
+      "french_reference": "Le brouillard est dense…",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A neblina está densa...",
+      "encoded_bytes": 24,
+      "line_widths": [
+        126
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96754c",
+      "source_hex": "cedcd900dbe6d5e7e7ed00e8d9e6e6d5dde200e6d9e7e8e3e6d9d8fefd0fb4e700dcd9d5e0e8dcabff",
+      "references": [
+        9859045
+      ],
+      "english_reference": "The grassy terrain restored\\n<0xFD>Ô's health!",
+      "french_reference": "Le Champ Herbu restaure\\nla santé de {B_ATK_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "O terreno de grama curou\\nos PS de <0xFD><0x0F>!",
+      "encoded_bytes": 38,
+      "line_widths": [
+        138,
+        113
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967575",
+      "source_hex": "cedcd900bbe5e9d500ccdde2db00e6d9e7e8e3e6d9d8fefd0fb4e700dcd9d5e0e8dcabff",
+      "references": [
+        9859081
+      ],
+      "english_reference": "The Aqua Ring restored\\n<0xFD>Ô's health!",
+      "french_reference": "Anneau Hydro restaure\\nla santé de {B_ATK_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Aqua Ring curou\\nos PS de <0xFD><0x0F>!",
+      "encoded_bytes": 29,
+      "line_widths": [
+        86,
+        113
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967599",
+      "source_hex": "fd0fb4e7fed9e0d9d7e8e6e3e1d5dbe2d9e8dde7e100ebe3e6d900e3dadaabff",
+      "references": [
+        9859333
+      ],
+      "english_reference": "<0xFD>Ô's\\nelectromagnetism wore off!",
+      "french_reference": "L'électromagnétisme de\\n{B_ATK_NAME_WITH_PREFIX} se dissipe !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F>: o efeito\\nmagnético acabou!",
+      "encoded_bytes": 31,
+      "line_widths": [
+        109,
+        98
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9675b9",
+      "source_hex": "fd0f00ebd5e700dae6d9d9d8fedae6e3e100e8dcd900e8d9e0d9dfdde2d9e7dde7abff",
+      "references": [
+        9859355
+      ],
+      "english_reference": "<0xFD>Ô was freed\\nfrom the telekinesis!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} est libéré\\nde Télékinésie !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> se livrou\\nda telecinese!",
+      "encoded_bytes": 28,
+      "line_widths": [
+        109,
+        78
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9675dc",
+      "source_hex": "fd0fb4e7fec2d9d5e000bce0e3d7df00ebe3e6d900e3dadaabff",
+      "references": [
+        9859371
+      ],
+      "english_reference": "<0xFD>Ô's\\nHeal Block wore off!",
+      "french_reference": "L'Anti-Soin de {B_ATK_NAME_WITH_PREFIX}\\nse dissipe !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F>:\\nHeal Block acabou!",
+      "encoded_bytes": 23,
+      "line_widths": [
+        59,
+        105
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9675f6",
+      "source_hex": "fd0fb4e7febfe1d6d5e6dbe300d9e2d8d9d8abff",
+      "references": [
+        9859387
+      ],
+      "english_reference": "<0xFD>Ô's\\nEmbargo ended!",
+      "french_reference": "L'Embargo de {B_ATK_NAME_WITH_PREFIX}\\nprend fin !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F>:\\nEmbargo acabou!",
+      "encoded_bytes": 20,
+      "line_widths": [
+        59,
+        89
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96760a",
+      "source_hex": "cedcd900e8ebdde7e8d9d800d8dde1d9e2e7dde3e2e700e6d9e8e9e6e2d9d8fee8e300e2e3e6e1d5e0abff",
+      "references": [
+        9859473,
+        10188120
+      ],
+      "english_reference": "The twisted dimensions returned\\nto normal!",
+      "french_reference": "Les dimensions tordues redeviennent\\nnormales !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "As dimensões distorcidas\\nvoltaram ao normal!",
+      "encoded_bytes": 45,
+      "line_widths": [
+        130,
+        108
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967635",
+      "source_hex": "d1d5e8d9e600cde4e3e6e8b4e700d9dadad9d7e8e700ebe3e6d900e3dadaabff",
+      "references": [
+        9859487
+      ],
+      "english_reference": "Water Sport's effects wore off!",
+      "french_reference": "Effets de Tourniquet terminés !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "O efeito de Water Sport acabou!",
+      "encoded_bytes": 32,
+      "line_widths": [
+        178
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967655",
+      "source_hex": "c7e9d800cde4e3e6e8b4e700d9dadad9d7e8e700ebe3e6d900e3dadaabff",
+      "references": [
+        9859501
+      ],
+      "english_reference": "Mud Sport's effects wore off!",
+      "french_reference": "Effets de Lance-Boue terminés !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "O efeito de Mud Sport acabou!",
+      "encoded_bytes": 30,
+      "line_widths": [
+        168
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967673",
+      "source_hex": "d1e3e2d8d9e600cce3e3e100ebe3e6d900e3dadab800d5e2d800e8dcd900bed9dad9e2e7d9fed5e2d800cde4ad00bed9daad00e7e8d5e8e700e6d9e8e9e6e2d9d800e8e300e2e3e6e1d5e0abff",
+      "references": [
+        9859515,
+        10188140
+      ],
+      "english_reference": "Wonder Room wore off, and the Defense\\nand Sp. Def. stats returned to normal!",
+      "french_reference": "Zone Étrange cesse, Déf./Déf.Spé\\nredeviennent normales !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Wonder Room acabou. A Defesa\\ne a Defesa Especial normalizaram!",
+      "encoded_bytes": 63,
+      "line_widths": [
+        163,
+        186
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9676c0",
+      "source_hex": "c7d5dbddd700cce3e3e100ebe3e6d900e3dadab800d5e2d800dcd9e0d800dde8d9e1e7b4fed9dadad9d7e8e700e6d9e8e9e6e2d9d800e8e300e2e3e6e1d5e0abff",
+      "references": [
+        9859529,
+        10188148
+      ],
+      "english_reference": "Magic Room wore off, and held items'\\neffects returned to normal!",
+      "french_reference": "Zone Magique cesse, les objets\\nrefonctionnent !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Magic Room acabou. Os objetos\\nvoltaram a funcionar normalmente!",
+      "encoded_bytes": 64,
+      "line_widths": [
+        168,
+        184
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967701",
+      "source_hex": "c1e6d5eadde8ed00e6d9e8e9e6e2d9d800e8e300e2e3e6e1d5e0abff",
+      "references": [
+        9859543,
+        10188116
+      ],
+      "english_reference": "Gravity returned to normal!",
+      "french_reference": "Gravité redevient normale !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A gravidade voltou ao normal!",
+      "encoded_bytes": 30,
+      "line_widths": [
+        166
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96771d",
+      "source_hex": "cedcd900e8d9e6e6d5dde200e6d9e8e9e6e2d9d800e8e300e2e3e6e1d5e0abff",
+      "references": [
+        9859589,
+        10471004,
+        10528040
+      ],
+      "english_reference": "The terrain returned to normal!",
+      "french_reference": "Le champ redevient normal !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "O terreno voltou ao normal!",
+      "encoded_bytes": 28,
+      "line_widths": [
+        153
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96773d",
+      "source_hex": "fd13b4e700fd1afed5d7e8ddead5e8d9d8abff",
+      "references": [],
+      "english_reference": "<0xFD>Û's <0xFD>è\\nactivated!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\\n{B_SCR_ACTIVE_ABILITY} activé !",
+      "status": "exception",
+      "reason": "Ancien message de combat non référencé ; aucune référence directe dans les 32 Mio de la source, aucun consommateur de table indexée de texte dans ce bloc de scripts.",
+      "related_consumers": [
+        {
+          "offset": "0x967797",
+          "sites": [
+            9859809
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x967750",
+      "source_hex": "d3e3e900e7d9e2e7d900e8dcd900e4e6d9e7d9e2d7d900e3da00e1d5e2edabff",
+      "references": [
+        9859659
+      ],
+      "english_reference": "You sense the presence of many!",
+      "french_reference": "Vous sentez des présences !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Você sente muitas presenças!",
+      "encoded_bytes": 29,
+      "line_widths": [
+        157
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967770",
+      "source_hex": "fd1300e8e6d5e2e7dae3e6e1d9d8fedde2e8e300dde8e700bde3e1e4e0d9e8d900c0e3e6e1abff",
+      "references": [
+        9859697
+      ],
+      "english_reference": "<0xFD>Û transformed\\ninto its Complete Form!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} prend sa\\nForme Parfaite !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> assumiu\\nsua Forma Completa!",
+      "encoded_bytes": 31,
+      "line_widths": [
+        98,
+        110
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x967797",
+      "source_hex": "fd13b4e700fd1afed5d7e8ddead5e8d9d8abff",
+      "references": [
+        9859809
+      ],
+      "english_reference": "<0xFD>Û's <0xFD>è\\nactivated!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} : son talent\\n{B_SCR_ACTIVE_ABILITY} s'active !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>: <0xFD><0x1A>\\nativou!",
+      "encoded_bytes": 15,
+      "line_widths": [
+        119,
+        39
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9677aa",
+      "source_hex": "fd13b4e700fd1afed8d9d5d7e8ddead5e8d9d8abff",
+      "references": [
+        9859848
+      ],
+      "english_reference": "<0xFD>Û's <0xFD>è\\ndeactivated!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} : son talent\\n{B_SCR_ACTIVE_ABILITY} se désactive !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>: <0xFD><0x1A>\\ndesativou!",
+      "encoded_bytes": 18,
+      "line_widths": [
+        119,
+        56
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9677bf",
+      "source_hex": "fd1300e8e6d5e2e7dae3e6e1d9d8abff",
+      "references": [
+        9850791,
+        9859893,
+        9859938,
+        9877218,
+        9883338
+      ],
+      "english_reference": "<0xFD>Û transformed!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} se transforme !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> se transformou!",
+      "encoded_bytes": 19,
+      "line_widths": [
+        143
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9678f0",
+      "source_hex": "fd13fedad5dde2e8d9d8abfaff",
+      "references": [
+        9861175
+      ],
+      "english_reference": "<0xFD>Û\\nfainted!<0xFA>",
+      "french_reference": "<0xFD><0x13>\\nest K.O. !\\l",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>\\nfoi nocauteado!<0xFA>",
+      "encoded_bytes": 20,
+      "line_widths": [
+        54,
+        85,
+        0
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96be0c",
+      "source_hex": "fd0fb4e700e8ede4d900d6d9d7d5e1d9fee8dcd900e7d5e1d900d5e700fd10b4e7abff",
+      "references": [
+        9863278
+      ],
+      "english_reference": "<0xFD>Ô's type became\\nthe same as <0xFD>Œ's!",
+      "french_reference": "Le type de {B_ATK_NAME_WITH_PREFIX}\\ndevient celui de {B_DEF_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F>: seu tipo ficou\\nigual ao de <0xFD><0x10>!",
+      "encoded_bytes": 35,
+      "line_widths": [
+        142,
+        129
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96be2f",
+      "source_hex": "fd1000ebd5e700d7e9e6d9d8fee3da00dde8e700fd0000e4e6e3d6e0d9e1abff",
+      "references": [
+        9863563,
+        9863793,
+        9863881,
+        9863987
+      ],
+      "english_reference": "<0xFD>Œ was cured\\nof its <0xFD>  problem!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} guérit\\nson souci {UNKNOWN_STR} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> foi curado\\ndo problema <0xFD><0x00>!",
+      "encoded_bytes": 30,
+      "line_widths": [
+        116,
+        130
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96be4f",
+      "source_hex": "fd0f00d6d9d7d5e1d900e2dde1d6e0d9abff",
+      "references": [
+        9864712
+      ],
+      "english_reference": "<0xFD>Ô became nimble!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} devient agile !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> ficou ágil!",
+      "encoded_bytes": 15,
+      "line_widths": [
+        120
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96be61",
+      "source_hex": "fd0f00d6d9d7d5e1d9fed7e0e3d5dfd9d800dde200d500dae6d9d9eedde2db00e0dddbdce8abff",
+      "references": [
+        9865587
+      ],
+      "english_reference": "<0xFD>Ô became\\ncloaked in a freezing light!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} s'enveloppe\\nd'une lumière glaciale !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> se envolveu\\nem uma luz congelante!",
+      "encoded_bytes": 38,
+      "line_widths": [
+        123,
+        127
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96be88",
+      "source_hex": "fd0f00d6d9d7d5e1d9fed7e0e3d5dfd9d800dde200dae6d9d9eedde2db00d5dde6abff",
+      "references": [
+        9865603
+      ],
+      "english_reference": "<0xFD>Ô became\\ncloaked in freezing air!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} s'enveloppe\\nd'un air glacial !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> se envolveu\\nem ar congelante!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        123,
+        97
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96beab",
+      "source_hex": "fd0f00ead5e2dde7dcd9d8fedde2e7e8d5e2e8e0edabff",
+      "references": [
+        9865619
+      ],
+      "english_reference": "<0xFD>Ô vanished\\ninstantly!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} disparaît\\ninstantanément !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> desapareceu\\ninstantaneamente!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        124,
+        92
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bec2",
+      "source_hex": "fd0f00d7e3e2d7d9e2e8e6d5e8d9d8fedde2e8d9e2e7d9e0edabff",
+      "references": [
+        9866517
+      ],
+      "english_reference": "<0xFD>Ô concentrated\\nintensely!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} se concentre\\nintensément !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> se concentrou\\nintensamente!",
+      "encoded_bytes": 31,
+      "line_widths": [
+        133,
+        70
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bedd",
+      "source_hex": "fd0f00d6e9e6e2d9d8fedde8e7d9e0da00e3e9e8abff",
+      "references": [
+        9868261
+      ],
+      "english_reference": "<0xFD>Ô burned\\nitself out!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} se consume !\\n",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> esgotou\\nsuas chamas!",
+      "encoded_bytes": 24,
+      "line_widths": [
+        100,
+        69
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bef3",
+      "source_hex": "fd0f00ebd9e2e800d6d5d7dffee8e300fd39abff",
+      "references": [
+        9868550
+      ],
+      "english_reference": "<0xFD>Ô went back\\nto <0xFD><0x39>!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} est retourné\\nà {STRING} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> voltou\\npara <0xFD><0x39>!",
+      "encoded_bytes": 19,
+      "line_widths": [
+        94,
+        89
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bf07",
+      "source_hex": "fd0f00d6e0d9eb00d5ebd5edfee8dcd900d8d9d9e400dae3db00ebdde8dc00fd14abff",
+      "references": [
+        9869118
+      ],
+      "english_reference": "<0xFD>Ô blew away\\nthe deep fog with <0xFD>Ñ!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} dissipe le brouillard\\népais avec {B_CURRENT_MOVE} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> dissipou a neblina\\ncom <0xFD><0x14>!",
+      "encoded_bytes": 30,
+      "line_widths": [
+        157,
+        84
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bf2a",
+      "source_hex": "fd0f00e7e8e3e0d9fefd10b4e700e7e8d5e800d6e3e3e7e8e7abff",
+      "references": [
+        9869714
+      ],
+      "english_reference": "<0xFD>Ô stole\\n<0xFD>Œ's stat boosts!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} vole\\nles boosts de {B_DEF_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> roubou\\nos aumentos de stats de <0xFD><0x10>!",
+      "encoded_bytes": 38,
+      "line_widths": [
+        95,
+        196
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bf45",
+      "source_hex": "fd0fb4e700e7e8e3d7dfe4dde0d9d8fed9dadad9d7e800ebe3e6d900e3dadaabff",
+      "references": [
+        9870825
+      ],
+      "english_reference": "<0xFD>Ô's stockpiled\\neffect wore off!",
+      "french_reference": "L'effet de Stockage\\nde {B_ATK_NAME_WITH_PREFIX} s'est dissipé !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F>: o efeito\\nacumulado acabou!",
+      "encoded_bytes": 31,
+      "line_widths": [
+        109,
+        101
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bf66",
+      "source_hex": "fd1000e6d9d7d9ddead9d800e8dcd9fefd1600dae6e3e100fd0fabff",
+      "references": [
+        9872019
+      ],
+      "english_reference": "<0xFD>Œ received the\\n<0xFD>à from <0xFD>Ô!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} reçoit le\\n{B_LAST_ITEM} de {B_ATK_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> recebeu\\n<0xFD><0x16> de <0xFD><0x0F>!",
+      "encoded_bytes": 21,
+      "line_widths": [
+        101,
+        138
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bf82",
+      "source_hex": "fd0f00e7e9e6e6e3e9e2d8d9d8fedde8e7d9e0da00ebdde8dc00d500ead9dde000e3da00ebd5e8d9e6abff",
+      "references": [
+        9872243
+      ],
+      "english_reference": "<0xFD>Ô surrounded\\nitself with a veil of water!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} s'entoure d'un\\nvoile d'eau !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> se envolveu\\nem um véu de água!",
+      "encoded_bytes": 34,
+      "line_widths": [
+        123,
+        108
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bfad",
+      "source_hex": "bce9e800fd0f00d7d5e2b4e800e9e7d9fee8dcd900e1e3ead9abff",
+      "references": [
+        9854928
+      ],
+      "english_reference": "But <0xFD>Ô can't use\\nthe move!",
+      "french_reference": "Mais {B_ATK_NAME_WITH_PREFIX} ne peut pas\\nutiliser cette capacité !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Mas <0xFD><0x0F> não pode\\nusar o movimento!",
+      "encoded_bytes": 34,
+      "line_widths": [
+        130,
+        96
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bfc8",
+      "source_hex": "bce9e800fd0f00d7d5e2b4e800e9e7d900dde800e8dcd9feebd5ed00dde800dde700e2e3ebabff",
+      "references": [
+        9854958
+      ],
+      "english_reference": "But <0xFD>Ô can't use it the\\nway it is now!",
+      "french_reference": "Mais {B_ATK_NAME_WITH_PREFIX} ne peut pas\\nl'utiliser dans cet état !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Mas <0xFD><0x0F> não pode\\nusá-lo nesse estado!",
+      "encoded_bytes": 37,
+      "line_widths": [
+        130,
+        113
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96bfef",
+      "source_hex": "fd0f00e7dcdddae8d9d8fedde8e700e7e8d5e8e9e700e4e6e3d6e0d9e100e3e2e8e3fafd10abff",
+      "references": [
+        9873443
+      ],
+      "english_reference": "<0xFD>Ô shifted\\nits status problem onto<0xFA><0xFD>Œ!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} transfère son\\nproblème de statut à\\l{B_DEF_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> transferiu\\nseu problema de status para<0xFA><0xFD><0x10>!",
+      "encoded_bytes": 46,
+      "line_widths": [
+        112,
+        154,
+        60
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c016",
+      "source_hex": "fd0f00dde700d5d6e7e3e6d6dde2dbfee4e3ebd9e6abff",
+      "references": [
+        9876242
+      ],
+      "english_reference": "<0xFD>Ô is absorbing\\npower!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} absorbe de la\\npuissance !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> está absorvendo\\nenergia!",
+      "encoded_bytes": 28,
+      "line_widths": [
+        145,
+        44
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c02d",
+      "source_hex": "fd0f00d6d9d7d5e1d900dae9e0e0edfed7dcd5e6dbd9d800d8e9d900e8e300dde8e700cae3ebd9e600c2d9e6d6abff",
+      "references": [
+        9865693,
+        9876427
+      ],
+      "english_reference": "<0xFD>Ô became fully\\ncharged due to its Power Herb!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} se charge à fond\\ngrâce à son Herbe Pouvoir !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> foi carregado\\ntotalmente por Power Herb!",
+      "encoded_bytes": 44,
+      "line_widths": [
+        133,
+        148
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c05c",
+      "source_hex": "fd0f00e7ebdde8d7dcd9d8fedde8e700bbe8e8d5d7df00d5e2d800bed9dad9e2e7d9abff",
+      "references": [
+        10183860
+      ],
+      "english_reference": "<0xFD>Ô switched\\nits Attack and Defense!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} inverse son\\nAttaque et sa Défense !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> trocou\\nseu Ataque e sua Defesa!",
+      "encoded_bytes": 35,
+      "line_widths": [
+        94,
+        139
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c080",
+      "source_hex": "fd0f00e7ebdde8d7dcd9d800d5e0e0fed7dcd5e2dbd9e700e8e300dde8e700bbe8e8d5d7df00d5e2d800cde4ad00bbe8dffaebdde8dc00fd10abff",
+      "references": [
+        10183868
+      ],
+      "english_reference": "<0xFD>Ô switched all\\nchanges to its Attack and Sp. Atk<0xFA>with <0xFD>Œ!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} échange tous les\\nboosts d'Attaque et Att. Spé\\laec {B_DEF_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> trocou aumentos\\nde Ataque e Ataque Especial<0xFA>com <0xFD><0x10>!",
+      "encoded_bytes": 55,
+      "line_widths": [
+        145,
+        156,
+        84
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c0bb",
+      "source_hex": "fd0f00e7ebdde8d7dcd9d800d5e0e0fed7dcd5e2dbd9e700e8e300dde8e700bed9dad9e2e7d900d5e2d800cde4ad00bed9dafaebdde8dc00fd10abff",
+      "references": [
+        10183828
+      ],
+      "english_reference": "<0xFD>Ô switched all\\nchanges to its Defense and Sp. Def<0xFA>with <0xFD>Œ!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} échange tous les\\nboosts de Défense et Déf. Spé\\laec {B_DEF_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> trocou aumentos\\nde Defesa e Defesa Especial<0xFA>com <0xFD><0x10>!",
+      "encoded_bytes": 55,
+      "line_widths": [
+        145,
+        154,
+        84
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c0f7",
+      "source_hex": "fd0f00e7ebdde8d7dcd9d8fee7e4d9d9d800ebdde8dc00fd10abff",
+      "references": [
+        10183872
+      ],
+      "english_reference": "<0xFD>Ô switched\\nspeed with <0xFD>Œ!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} échange sa\\nVitesse avec {B_DEF_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> trocou\\nVelocidade com <0xFD><0x10>!",
+      "encoded_bytes": 29,
+      "line_widths": [
+        94,
+        147
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c112",
+      "source_hex": "fd0f00e7ebdde8d7dcd9d8fee7e8d5e800d7dcd5e2dbd9e700ebdde8dcfafd10abff",
+      "references": [
+        10183876
+      ],
+      "english_reference": "<0xFD>Ô switched\\nstat changes with<0xFA><0xFD>Œ!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} échange ses\\nchangements de stats\\lavec {B_DEF_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> trocou\\nalterações de stats com<0xFA><0xFD><0x10>!",
+      "encoded_bytes": 38,
+      "line_widths": [
+        94,
+        130,
+        60
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c134",
+      "source_hex": "fd0f00e7dcd5e6d9d800dde8e7fee4e3ebd9e600ebdde8dc00e8dcd900e8d5e6dbd9e8abff",
+      "references": [
+        10183880
+      ],
+      "english_reference": "<0xFD>Ô shared its\\npower with the target!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} partage sa\\npuissance avec la cible !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> dividiu\\nsua força com o alvo!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        96,
+        122
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c159",
+      "source_hex": "fd0f00e7dcd5e6d9d800dde8e7fedbe9d5e6d800ebdde8dc00e8dcd900e8d5e6dbd9e8abff",
+      "references": [
+        10183884
+      ],
+      "english_reference": "<0xFD>Ô shared its\\nguard with the target!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} partage sa\\ngarde avec la cible !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> dividiu\\nsua defesa com o alvo!",
+      "encoded_bytes": 34,
+      "line_widths": [
+        96,
+        128
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c17e",
+      "source_hex": "fd0f00dde700ebd5dde8dde2dbfedae3e600fd13b4e700e1e3ead9abff",
+      "references": [
+        9877317
+      ],
+      "english_reference": "<0xFD>Ô is waiting\\nfor <0xFD>Û's move!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} attend la capacité\\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> espera\\no movimento de <0xFD><0x13>!",
+      "encoded_bytes": 29,
+      "line_widths": [
+        94,
+        146
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c19b",
+      "source_hex": "fd0f00e9e7d9d8fefd14abfbcedcd900e8ebe300e1e3ead9e700d5e6d900dee3dde2d9d8abfec3e8b4e700d500d7e3e1d6dde2d9d800e1e3ead9abff",
+      "references": [
+        9877337
+      ],
+      "english_reference": "<0xFD>Ô used\\n<0xFD>Ñ!<0xFB>The two moves are joined!\\nIt's a combined move!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} utilise\\n{B_CURRENT_MOVE} !\\pLes deux capacités se combinent !\\nC'est une capacité combinée !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> usou\\n<0xFD><0x14>!<0xFB>Os dois movimentos se uniram!\\nÉ um movimento combinado!",
+      "encoded_bytes": 68,
+      "line_widths": [
+        83,
+        60,
+        160,
+        143
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c1d7",
+      "source_hex": "bb00e7ebd5e1e400d9e2ead9e0e3e4d9d8fefd3500e8d9d5e1abff",
+      "references": [
+        10187496
+      ],
+      "english_reference": "A swamp enveloped\\n<0xFD>= team!",
+      "french_reference": "Un marais engloutit\\nl'équipe de {STRING}=",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Um pântano envolveu\\na equipe <0xFD><0x35>!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        109,
+        112
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c1f2",
+      "source_hex": "bb00e7d9d500e3da00dadde6d900d9e2ead9e0e3e4d9d8fefd3500e8d9d5e1abff",
+      "references": [
+        10187504
+      ],
+      "english_reference": "A sea of fire enveloped\\n<0xFD>= team!",
+      "french_reference": "Une mer de feu engloutit\\nl'équipe de {STRING}=",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Um mar de fogo envolveu\\na equipe <0xFD><0x35>!",
+      "encoded_bytes": 37,
+      "line_widths": [
+        134,
+        112
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c213",
+      "source_hex": "bb00e6d5dde2d6e3eb00d5e4e4d9d5e6d9d800dde200e8dcd900e7dfedfee3e200fd3600e8d9d5e1b4e700e7ddd8d9abff",
+      "references": [
+        10187512
+      ],
+      "english_reference": "A rainbow appeared in the sky\\non <0xFD>; team's side!",
+      "french_reference": "Un arc-en-ciel apparaît du côté de\\nl'équipe de {STRING}= !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Um arco-íris apareceu\\nno lado da equipe <0xFD><0x36>!",
+      "encoded_bytes": 44,
+      "line_widths": [
+        120,
+        164
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c244",
+      "source_hex": "fd0f00dae0e9e2dbfedde8e700fd16abff",
+      "references": [
+        9877489
+      ],
+      "english_reference": "<0xFD>Ô flung\\nits <0xFD>à!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} a lancé\\nson {B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> lançou\\nseu <0xFD><0x16>!",
+      "encoded_bytes": 18,
+      "line_widths": [
+        94,
+        83
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c255",
+      "source_hex": "cedcd900e4e6e3e8d9d7e8dde3e200d9dadad9d7e8e700ebd9e6d900e0dddae8d9d8fedae6e3e100e8dcd900e8d5e6dbd9e8b4e700e7ddd8d9abff",
+      "references": [
+        9877598
+      ],
+      "english_reference": "The protection effects were lifted\\nfrom the target's side!",
+      "french_reference": "Les protections ont été levées\\ndu côté cible !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Os efeitos de proteção acabaram\\nno lado do alvo!",
+      "encoded_bytes": 49,
+      "line_widths": [
+        177,
+        93
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c290",
+      "source_hex": "fd1000ebd5e7fee4e6d9ead9e2e8d9d800dae6e3e100dcd9d5e0dde2dbabff",
+      "references": [
+        9877709
+      ],
+      "english_reference": "<0xFD>Œ was\\nprevented from healing!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} ne peut plus\\nse soigner !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> foi\\nimpedido de se curar!",
+      "encoded_bytes": 29,
+      "line_widths": [
+        75,
+        119
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c2af",
+      "source_hex": "fd1000d7d5e2b4e800e9e7d9fedde8d9e1e700d5e2ede1e3e6d9abff",
+      "references": [
+        9877765
+      ],
+      "english_reference": "<0xFD>Œ can't use\\nitems anymore!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} ne peut plus\\nutiliser d'objets !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> não pode usar\\nmais objetos!",
+      "encoded_bytes": 31,
+      "line_widths": [
+        135,
+        73
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c2cb",
+      "source_hex": "fd1000dde700d7e3ead9e6d9d8fedde200e4e3ebd8d9e6abff",
+      "references": [
+        9877823
+      ],
+      "english_reference": "<0xFD>Œ is covered\\nin powder!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} est couvert\\nde poudre !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> ficou coberto\\nde pó!",
+      "encoded_bytes": 24,
+      "line_widths": [
+        133,
+        36
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c2e4",
+      "source_hex": "fd1000ebd5e700dce9e6e0d9d8fedde2e8e300e8dcd900d5dde6abff",
+      "references": [
+        9877880
+      ],
+      "english_reference": "<0xFD>Œ was hurled\\ninto the air!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} est projeté\\ndans les airs !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> foi lançado\\npara o alto!",
+      "encoded_bytes": 28,
+      "line_widths": [
+        121,
+        69
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c300",
+      "source_hex": "fd1000ebd5e700e4e6d9ead9e2e8d9d8fedae6e3e100dcd9d5e0dde2db00d8e9d900e8e300c2d9d5e000bce0e3d7dfabff",
+      "references": [
+        9863915,
+        9878092
+      ],
+      "english_reference": "<0xFD>Œ was prevented\\nfrom healing due to Heal Block!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX} ne peut plus\\nse soigner à cause d'Anti-Soin !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10> não pode\\nse curar devido a Heal Block!",
+      "encoded_bytes": 42,
+      "line_widths": [
+        107,
+        166
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c331",
+      "source_hex": "fd10b4e700e1e3ead9e7fedcd5ead900d6d9d9e200d9e0d9d7e8e6dddaddd9d8abff",
+      "references": [
+        9878204
+      ],
+      "english_reference": "<0xFD>Œ's moves\\nhave been electrified!",
+      "french_reference": "Les capacités de {B_DEF_NAME_WITH_PREFIX}\\nsont électrifiées !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>: os movimentos\\nforam eletrificados!",
+      "encoded_bytes": 39,
+      "line_widths": [
+        137,
+        109
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c353",
+      "source_hex": "fd10b4e700e7e8d5e8e700d7dcd5e2dbd9e7feebd9e6d900e6d9ead9e6e7d9d8abff",
+      "references": [
+        9878167
+      ],
+      "english_reference": "<0xFD>Œ's stats changes\\nwere reversed!",
+      "french_reference": "Les changements de stats de\\n{B_DEF_NAME_WITH_PREFIX} ont été inversés !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>: alterações\\nde stats foram invertidas!",
+      "encoded_bytes": 42,
+      "line_widths": [
+        121,
+        142
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c375",
+      "source_hex": "fd10fee8e3e3df00e8dcd900dfdde2d800e3dadad9e6abff",
+      "references": [
+        9878350
+      ],
+      "english_reference": "<0xFD>Œ\\ntook the kind offer!",
+      "french_reference": "{B_DEF_NAME_WITH_PREFIX}\\na accepté la gentille offre !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>\\naceitou a oferta gentil!",
+      "encoded_bytes": 28,
+      "line_widths": [
+        54,
+        133
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c38d",
+      "source_hex": "fd10b4e700e1e3ead9feebd5e700e4e3e7e8e4e3e2d9d8abff",
+      "references": [
+        9878386
+      ],
+      "english_reference": "<0xFD>Œ's move\\nwas postponed!",
+      "french_reference": "La capacité de {B_DEF_NAME_WITH_PREFIX}\\na été différée !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>: o movimento\\nfoi adiado!",
+      "encoded_bytes": 28,
+      "line_widths": [
+        127,
+        61
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c3a6",
+      "source_hex": "fd0f00e0d9eadde8d5e8d9d8feebdde8dc00d9e0d9d7e8e6e3e1d5dbe2d9e8dde7e1abff",
+      "references": [
+        9878489
+      ],
+      "english_reference": "<0xFD>Ô levitated\\nwith electromagnetism!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} lévite grâce à\\nl'électromagnétisme !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> levitou\\ncom eletromagnetismo!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        98,
+        118
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c3ca",
+      "source_hex": "cedcd900d6e9e6e7e8dde2db00dae0d5e1d900dcdde8fefd13abff",
+      "references": [
+        9878583
+      ],
+      "english_reference": "The bursting flame hit\\n<0xFD>Û!",
+      "french_reference": "La flamme a frappé\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A explosão de chamas atingiu\\n<0xFD><0x13>!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        159,
+        60
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c9b2",
+      "source_hex": "fd10b4e7fefd1600d5d7e8ddead5e8d9d8abff",
+      "references": [
+        9881235
+      ],
+      "english_reference": "<0xFD>Œ's\\n<0xFD>à activated!",
+      "french_reference": "Le {B_LAST_ITEM} de {B_DEF_NAME_WITH_PREFIX}\\ns'est activé !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>:\\n<0xFD><0x16> ativou!",
+      "encoded_bytes": 15,
+      "line_widths": [
+        59,
+        99
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c9c5",
+      "source_hex": "fd10b4e700fd16fedce9e6e800fd0fabff",
+      "references": [
+        9881335,
+        9881383
+      ],
+      "english_reference": "<0xFD>Œ's <0xFD>à\\nhurt <0xFD>Ô!",
+      "french_reference": "<0xFD><0x16> de <0xFD><0x10>\\nblesse <0xFD><0x0F> !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>: <0xFD><0x16>\\nferiu <0xFD><0x0F>!",
+      "encoded_bytes": 17,
+      "line_widths": [
+        119,
+        92
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c9d6",
+      "source_hex": "fd1300ebd5e700dce9e6e8fed6ed00dde8e700fd16abff",
+      "references": [
+        9881431
+      ],
+      "english_reference": "<0xFD>Û was hurt\\nby its <0xFD>à!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} subit des dégâts\\nde son {B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> sofreu dano\\npor seu <0xFD><0x16>!",
+      "encoded_bytes": 27,
+      "line_widths": [
+        122,
+        106
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96c9ed",
+      "source_hex": "fd1300d6e3e3e7e8d9d8fee8dcd900d5d7d7e9e6d5d7ed00e3da00dde8e700e2d9ece800e1e3ead9fae9e7dde2db00dde8e700fd16abff",
+      "references": [
+        9881466
+      ],
+      "english_reference": "<0xFD>Û boosted\\nthe accuracy of its next move<0xFA>using its <0xFD>à!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} améliore la précision\\nde sa prochaine capacité\\lavec son {B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> aumentou\\na precisão do próximo movimento<0xFA>com seu <0xFD><0x16>!",
+      "encoded_bytes": 56,
+      "line_widths": [
+        106,
+        175,
+        107
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96ca24",
+      "source_hex": "cedcd900fd1600d5e8e8d5d7dcd9d800dde8e7d9e0da00e8e3fefd0fabff",
+      "references": [
+        9881505
+      ],
+      "english_reference": "The <0xFD>à attached itself to\\n<0xFD>Ô!",
+      "french_reference": "Le {B_LAST_ITEM} s'est attaché à\\n{B_ATK_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x16> se prendeu a\\n<0xFD><0x0F>!",
+      "encoded_bytes": 20,
+      "line_widths": [
+        129,
+        60
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96ca42",
+      "source_hex": "fd1300dde700e7ebdde8d7dcd9d8fee3e9e800ebdde8dc00e8dcd900fd16abff",
+      "references": [
+        9881536
+      ],
+      "english_reference": "<0xFD>Û is switched\\nout with the <0xFD>à!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} est remplacé\\ngrâce au {B_LAST_ITEM} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> é substituído\\npor causa de <0xFD><0x16>!",
+      "encoded_bytes": 34,
+      "line_widths": [
+        132,
+        136
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96ca62",
+      "source_hex": "fd1300dcd9e0d800e9e400dde8e7fefd1600d5dbd5dde2e7e800fd0fabff",
+      "references": [
+        9881659
+      ],
+      "english_reference": "<0xFD>Û held up its\\n<0xFD>à against <0xFD>Ô!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} brandit son\\n{B_LAST_ITEM} contre {B_ATK_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> ergueu seu\\n<0xFD><0x16> contra <0xFD><0x0F>!",
+      "encoded_bytes": 28,
+      "line_widths": [
+        118,
+        159
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96ca80",
+      "source_hex": "bce9e800fd0f00d5e2d7dce3e6d9d8fedde8e7d9e0da00ebdde8dc00dde8e700e6e3e3e8e7abff",
+      "references": [
+        9881729
+      ],
+      "english_reference": "But <0xFD>Ô anchored\\nitself with its roots!",
+      "french_reference": "Mais {B_ATK_NAME_WITH_PREFIX} s'est ancré\\navec ses racines !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Mas <0xFD><0x0F> se fixou\\ncom suas raízes!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        127,
+        92
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96caa7",
+      "source_hex": "bce9e800fd0f00d5e2d7dce3e6e7fedde8e7d9e0da00ebdde8dc00fd18abff",
+      "references": [
+        9881749
+      ],
+      "english_reference": "But <0xFD>Ô anchors\\nitself with <0xFD><0x18>!",
+      "french_reference": "Mais {B_ATK_NAME_WITH_PREFIX} s'ancre\\navec {B_ATK_ABILITY} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Mas <0xFD><0x0F> se fixa\\ncom <0xFD><0x18>!",
+      "encoded_bytes": 23,
+      "line_widths": [
+        121,
+        84
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cac6",
+      "source_hex": "fd13b4e700fd16fee6d9d8e9d7d9d800fd14b4e700e4e3ebd9e6abff",
+      "references": [],
+      "english_reference": "<0xFD>Û's <0xFD>à\\nreduced <0xFD>Ñ's power!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} :\\n{B_LAST_ITEM} dim. {B_CURRENT_MOVE}",
+      "status": "exception",
+      "reason": "Ancien message de combat non référencé ; aucune référence directe dans les 32 Mio de la source, aucun consommateur de table indexée de texte dans ce bloc de scripts.",
+      "related_consumers": [
+        {
+          "offset": "0x96cb07",
+          "sites": [
+            9881833
+          ]
+        }
+      ]
+    },
+    {
+      "offset": "0x96cae2",
+      "source_hex": "cedcd900fd1600e7e8e6d9e2dbe8dcd9e2d9d8fee8dcd900e4e3ebd9e600e3da00fd14abff",
+      "references": [
+        9881800
+      ],
+      "english_reference": "The <0xFD>à strengthened\\nthe power of <0xFD>Ñ!",
+      "french_reference": "Le {B_LAST_ITEM} renforce\\n{B_CURRENT_MOVE} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x16> aumentou\\na força de <0xFD><0x14>!",
+      "encoded_bytes": 27,
+      "line_widths": [
+        106,
+        124
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cb07",
+      "source_hex": "fd13b4e700fd16fee6d9d8e9d7d9d800fd14b4e700e4e3ebd9e6abff",
+      "references": [
+        9881833
+      ],
+      "english_reference": "<0xFD>Û's <0xFD>à\\nreduced <0xFD>Ñ's power!",
+      "french_reference": "Le {B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nréduit la puissance de {B_CURRENT_MOVE} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>: <0xFD><0x16>\\nreduziu <0xFD><0x14>!",
+      "encoded_bytes": 19,
+      "line_widths": [
+        119,
+        105
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cc1c",
+      "source_hex": "fd00b4e700fd1600dde700e6d9d5d7e8dde2dbfee8e300fd39b4e700fd01abff",
+      "references": [
+        9882409
+      ],
+      "english_reference": "Absent du combined EN ; ROM : ? 's ?à is reacting\nto ??'s ?À!",
+      "french_reference": "Le <0xFD><0x16> de <0xFD><0x00> réagit\\nau <0xFD><0x01> de <0xFD><0x39>!",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x00>: <0xFD><0x16> reage\\na <0xFD><0x39> com <0xFD><0x01>!",
+      "encoded_bytes": 26,
+      "line_widths": [
+        154,
+        156
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cc3c",
+      "source_hex": "fd1300c7d9dbd500bfeae3e0ead9d8fedde2e8e300c7d9dbd500fd34abff",
+      "references": [
+        9882434
+      ],
+      "english_reference": "<0xFD>Û Mega Evolved\\ninto Mega <0xFD><0x34>!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} Méga-Évolue\\nen Méga {STRING} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> Mega Evoluiu\\npara Mega <0xFD><0x34>!",
+      "encoded_bytes": 30,
+      "line_widths": [
+        129,
+        119
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cc5a",
+      "source_hex": "fd39b4e700dad9e6ead9e2e800ebdde7dcfedcd5e700e6d9d5d7dcd9d800fd00abff",
+      "references": [
+        9882455
+      ],
+      "english_reference": "<0xFD><0x39>'s fervent wish\\nhas reached <0xFD> !",
+      "french_reference": "Le vœu de {STRING}\\na atteint {UNKNOWN_STR} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x39>: seu forte desejo\\nchegou a <0xFD><0x00>!",
+      "encoded_bytes": 34,
+      "line_widths": [
+        156,
+        114
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cc7c",
+      "source_hex": "bce6dddbdce800e0dddbdce800dde700d5d6e3e9e800e8e300d6e9e6e7e800e3e9e800e3dafefd13abff",
+      "references": [
+        9882475
+      ],
+      "english_reference": "Bright light is about to burst out of\\n<0xFD>Û!",
+      "french_reference": "Une lumière vive va jaillir de\\n{B_SCR_ACTIVE_NAME_WITH_PREFIX} !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Uma luz intensa vai sair de\\n<0xFD><0x13>!",
+      "encoded_bytes": 32,
+      "line_widths": [
+        149,
+        60
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cca6",
+      "source_hex": "fd1300e6d9dbd5dde2d9d800dde8e7fee8e6e9d900e4e3ebd9e600e8dce6e3e9dbdc00cfe0e8e6d500bce9e6e7e8abff",
+      "references": [
+        9882500
+      ],
+      "english_reference": "<0xFD>Û regained its\\ntrue power through Ultra Burst!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} retrouve sa vraie puissance\\ngrâce à l'Ultra-Burst !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> recuperou\\nsua força com Ultra Burst!",
+      "encoded_bytes": 40,
+      "line_widths": [
+        112,
+        147
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cd83",
+      "source_hex": "cedcd900fd1600e4e6d9ead9e2e8e700e8dcd9fee9e7d900e3da00cde8d5e8e9e700c7e3ead9e7abfbff",
+      "references": [
+        9882871
+      ],
+      "english_reference": "The <0xFD>à prevents the\\nuse of Status Moves!<0xFB>",
+      "french_reference": "Le {B_LAST_ITEM} empêche\\nd'utiliser les capacités de statut !\\p",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x16> impede o uso de\\nmovimentos de status!<0xFB>",
+      "encoded_bytes": 42,
+      "line_widths": [
+        147,
+        117,
+        0
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cdad",
+      "source_hex": "fd1400d7d5e2b4e800d6d900e9e7d9d8fedde200d500cddfed00bcd5e8e8e0d9abfbff",
+      "references": [
+        9882884
+      ],
+      "english_reference": "<0xFD>Ñ can't be used\\nin a Sky Battle!<0xFB>",
+      "french_reference": "{B_CURRENT_MOVE} ne peut pas être utilisé\\nen Sky Battle !\\p",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x14>: proibido\\nem Sky Battle!<0xFB>",
+      "encoded_bytes": 29,
+      "line_widths": [
+        108,
+        80,
+        0
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cdd0",
+      "source_hex": "fd1400d7d5e2b4e800d6d900e9e7d9d8feebdcdde0d900c1e6d5eadde8ed00dde700dde200d9dadad9d7e8abfbff",
+      "references": [
+        9882923
+      ],
+      "english_reference": "<0xFD>Ñ can't be used\\nwhile Gravity is in effect!<0xFB>",
+      "french_reference": "{B_CURRENT_MOVE} ne peut pas être utilisé\\navec Gravité !\\p",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x14>: proibido\\ncom Gravity em efeito!<0xFB>",
+      "encoded_bytes": 37,
+      "line_widths": [
+        108,
+        124,
+        0
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96cdfe",
+      "source_hex": "fd1300d7d5e2b4e800e9e7d900cde3e9e2d800e1e3ead9e7fed5dae8d9e600e8dcd900cedce6e3d5e800bddce3e4abfbff",
+      "references": [
+        9882936
+      ],
+      "english_reference": "<0xFD>Û can't use Sound moves\\nafter the Throat Chop!<0xFB>",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} ne peut pas utiliser les sons\\naprès Coud'Pince !\\p",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> não pode usar sons\\napós Throat Chop!<0xFB>",
+      "encoded_bytes": 41,
+      "line_widths": [
+        162,
+        99,
+        0
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96ce2f",
+      "source_hex": "fd1300d7d5e2b4e800e9e7d900fd14fed5dae8d9e600e8dcd900c2d9d5e000bce0e3d7dfabfbff",
+      "references": [
+        9882949
+      ],
+      "english_reference": "<0xFD>Û can't use <0xFD>Ñ\\nafter the Heal Block!<0xFB>",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} ne peut plus utiliser {B_CURRENT_MOVE}\\naprès Anti-Soin !\\p",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>: <0xFD><0x14>\\nproibido após Heal Block!<0xFB>",
+      "encoded_bytes": 34,
+      "line_widths": [
+        119,
+        141,
+        0
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96d56e",
+      "source_hex": "fd10b4e700d6e9e6e2feebd5e700dcd9d5e0d9d8abff",
+      "references": [
+        9883247
+      ],
+      "english_reference": "<0xFD>Œ's burn\\nwas healed!",
+      "french_reference": "La brûlure de {B_DEF_NAME_WITH_PREFIX} est\\nsoignée !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>: a queimadura\\nfoi curada!",
+      "encoded_bytes": 29,
+      "line_widths": [
+        134,
+        62
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96d584",
+      "source_hex": "fd10b4e700dde8d9e1fed7d5e2b4e800d6d900e6d9e1e3ead9d8abff",
+      "references": [
+        9883273
+      ],
+      "english_reference": "<0xFD>Œ's item\\ncan't be removed!",
+      "french_reference": "L'objet de {B_DEF_NAME_WITH_PREFIX}\\nne peut pas être enlevé !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x10>: o objeto\\nnão pode ser removido!",
+      "encoded_bytes": 36,
+      "line_widths": [
+        112,
+        126
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96db53",
+      "source_hex": "fd0f00d6d9d7d5e1d9fed7e0e3d5dfd9d800dde200e1ede7e8ddd7d5e000e1e3e3e2e0dddbdce8abff",
+      "references": [
+        9885174
+      ],
+      "english_reference": "<0xFD>Ô became\\ncloaked in mystical moonlight!",
+      "french_reference": "{B_ATK_NAME_WITH_PREFIX} est enveloppé\\nd'une lueur lunaire mystique !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x0F> se envolveu\\nem uma luz lunar mística!",
+      "encoded_bytes": 41,
+      "line_widths": [
+        123,
+        142
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96db7c",
+      "source_hex": "cedcd900dcd9d5eaed00e6d5dde200dcd5e700e0dddae8d9d8abff",
+      "references": [
+        10194416,
+        10540216
+      ],
+      "english_reference": "The heavy rain has lifted!",
+      "french_reference": "La pluie battante cesse !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A chuva forte parou!",
+      "encoded_bytes": 21,
+      "line_widths": [
+        116
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96db97",
+      "source_hex": "cedcd900d9ece8e6d9e1d9e0ed00dcd5e6e7dc00e7e9e2e0dddbdce800dad5d8d9d8abff",
+      "references": [
+        10194444,
+        10540240
+      ],
+      "english_reference": "The extremely harsh sunlight faded!",
+      "french_reference": "Le soleil de plomb se dissipe !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A luz solar extrema se dissipou!",
+      "encoded_bytes": 33,
+      "line_widths": [
+        179
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96dbbb",
+      "source_hex": "cedcd900e1ede7e8d9e6dde3e9e700d5dde600d7e9e6e6d9e2e800dcd5e7fed8dde7e7dde4d5e8d9d8abff",
+      "references": [
+        10194448,
+        10540244
+      ],
+      "english_reference": "The mysterious air current has\\ndissipated!",
+      "french_reference": "Le courant d'air mystérieux\\na disparu !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "A misteriosa corrente de ar\\nse dissipou!",
+      "encoded_bytes": 41,
+      "line_widths": [
+        149,
+        65
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96dcfd",
+      "source_hex": "fd1300d6e3e3e7e8d9d800dde8e7fefd0000fd01e9e7dde2db00dde8e700d4aecae3ebd9e6abff",
+      "references": [
+        9886833
+      ],
+      "english_reference": "<0xFD>Û boosted its\\n<0xFD>  <0xFD>Àusing its Z-Power!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} booste son\\n{UNKNOWN_STR} {PLAYER}avec son Pouvoir Z !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> aumentou\\n<0xFD><0x00> <0xFD><0x01>via Poder Z!",
+      "encoded_bytes": 30,
+      "line_widths": [
+        106,
+        183
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96dd24",
+      "source_hex": "fd1300d6e3e3e7e8d9d800dde8e7fee7e8d5e8e700e9e7dde2db00dde8e700d4aecae3ebd9e6abff",
+      "references": [
+        9886749
+      ],
+      "english_reference": "<0xFD>Û boosted its\\nstats using its Z-Power!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} booste ses\\nstats avec son Pouvoir Z !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> aumentou suas\\nstats com seu Poder Z!",
+      "encoded_bytes": 40,
+      "line_widths": [
+        134,
+        126
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96dd4c",
+      "source_hex": "fd1300d6e3e3e7e8d9d800dde8e7fed7e6dde8ddd7d5e0aedcdde800e6d5e8dde300e9e7dde2db00dde8e700d4aecae3ebd9e6abff",
+      "references": [
+        9886765
+      ],
+      "english_reference": "<0xFD>Û boosted its\\ncritical-hit ratio using its Z-Power!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} booste son taux de critique\\navec son Pouvoir Z !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> aumentou sua\\nchance de crítico com Poder Z!",
+      "encoded_bytes": 47,
+      "line_widths": [
+        129,
+        174
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96dd81",
+      "source_hex": "fd1300e6d9e7e8e3e6d9d800dde8e7fec2ca00e9e7dde2db00dde8e700d4aecae3ebd9e6abff",
+      "references": [
+        9886801
+      ],
+      "english_reference": "<0xFD>Û restored its\\nHP using its Z-Power!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} restaure ses\\nPV avec son Pouvoir Z !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> recuperou\\nseus PS com seu Poder Z!",
+      "encoded_bytes": 38,
+      "line_widths": [
+        112,
+        140
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96dda7",
+      "source_hex": "fd1300ebdde0e000e6d9e7e8e3e6d900dde8e7fee6d9e4e0d5d7d9e1d9e2e8b4e700c2ca00e9e7dde2db00dde8e700d4aecae3ebd9e6abff",
+      "references": [
+        9886849
+      ],
+      "english_reference": "<0xFD>Û will restore its\\nreplacement's HP using its Z-Power!",
+      "french_reference": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} restaurera les PV\\ndu remplaçant par Pouvoir Z !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13> vai curar os\\nPS do substituto com Poder Z!",
+      "encoded_bytes": 46,
+      "line_widths": [
+        127,
+        166
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x96dddf",
+      "source_hex": "fd13b4e700c2ca00ebd5e7fee6d9e7e8e3e6d9d800d6ed00e8dcd900d4aecae3ebd9e6abff",
+      "references": [
+        9886881
+      ],
+      "english_reference": "<0xFD>Û's HP was\\nrestored by the Z-Power!",
+      "french_reference": "Les PV de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\\nsont restaurés par le Pouvoir Z !",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "<0xFD><0x13>: seus PS foram\\ncurados pelo Poder Z!",
+      "encoded_bytes": 40,
+      "line_widths": [
+        139,
+        122
+      ],
+      "max_width": 208
+    },
+    {
+      "offset": "0x9a436f",
+      "source_hex": "cdd9e0d9d7e800d500cae3df1be1e3e2adff",
+      "references": [
+        10109780
+      ],
+      "english_reference": "Select a Pokémon.",
+      "french_reference": "Choisis un Pokémon.",
+      "status": "translated",
+      "reason": "Texte vivant repointé après les réparations ; commandes et pages exactes.",
+      "portuguese": "Escolha um Pokémon.",
+      "encoded_bytes": 20,
+      "line_widths": [
+        109
+      ],
+      "max_width": 208
+    }
+  ]
+}
