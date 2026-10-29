@@ -66,3 +66,24 @@ def test_domain_semantics_and_retained_names():
     assert 'polegadas' in actual[0x19F3CB]
     assert 'comunicação sem fio.' in actual[0x1BD966]
     assert 'comunicação sem fio.' in actual[0x1BDBF8]
+
+
+def test_audit_report_covers_offsets_and_keeps_source_pointer_column():
+    """Le bilan ne perd ni exception ni site source lors d'un changement de cible."""
+    report = (ROOT / 'docs/analysis/23_PT_BR_PT02.md').read_text()
+    rows = {}
+    for line in report.splitlines():
+        if re.match(r'^\| `0x[0-9a-f]+` \|', line):
+            columns = [column.strip() for column in line.split('|')]
+            assert len(columns) == 7
+            offset = int(columns[1].strip('`'), 16)
+            assert offset not in rows
+            rows[offset] = columns
+    assert set(rows) == batch_offsets()
+    assert {offset for offset, columns in rows.items()
+            if columns[2].startswith('exception')} == EXCEPTIONS
+    assert rows[0x196DF8][4] == '`0x16c932`'
+    assert rows[0x1A51F6][4] == '`0x1a674a`, `0x1a682f`, `0x9a48dd`'
+    assert rows[0x1A5200][4] == '`0x1a6990`'
+    for offset in set(rows) - EXCEPTIONS:
+        assert re.fullmatch(r'`0x[0-9a-f]+`(?:, `0x[0-9a-f]+`)*', rows[offset][5])
