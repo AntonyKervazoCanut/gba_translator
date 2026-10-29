@@ -44,7 +44,8 @@ NAME_FIXES = {
     0x87A000: (" " * 12 + "Town Map", " " * 12 + "Karte", 26),
     # Hard Stone hold item: same class-2 structure.
     0x3DD32C: (" " * 12 + "Hard Stone", " " * 12 + "Harter Stein", 26),
-    0x878504: (" " * 12 + "Hard Stone", " " * 12 + "Harter Stein", 26),
+    # La cellule vivante 0x878510 est désormais possédée par item_names,
+    # depuis combined_de.txt. Ne pas réécrire les 12 octets du struct précédent.
     # TM Case key item: same class-2 structure. "TM-Box" (not "TM-Hülle" /
     # "Etui", which are not the game's established German term) — issue #39.
     0x3DEEAC: (" " * 12 + "TM Case", " " * 12 + "TM-Box", 26),

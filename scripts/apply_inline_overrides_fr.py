@@ -113,9 +113,12 @@ def _load_combined(path: Path) -> Tuple[Dict[int, str], int]:
 
 
 def _dedicated_offsets_for_combined(path: Path) -> frozenset[int]:
-    """Le titre dédié n'est exclu que du pipeline français."""
+    """Préserve les cellules possédées par les patchs dédiés de chaque langue."""
     if path.parent.name.lower() == "fr":
         return INLINE_OVERRIDE_OFFSETS
+    if path.parent.name.lower() == "de":
+        from languages.de.item_name_cells import OFFSETS
+        return OFFSETS
     return frozenset()
 
 

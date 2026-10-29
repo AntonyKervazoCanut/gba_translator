@@ -185,9 +185,12 @@ def _load_csv(path: Path) -> Tuple[List[dict], List[str]]:
 
 
 def _dedicated_offsets_for_combined(path: Path) -> frozenset[int]:
-    """Les exclusions post-build sont propres à la source française."""
+    """Exclut les cellules possédées par les patchs de la langue concernée."""
     if path.parent.name.lower() == "fr":
         return GENERIC_TRANSLATION_OFFSETS
+    if path.parent.name.lower() == "de":
+        from languages.de.item_name_cells import OFFSETS
+        return OFFSETS
     return frozenset()
 
 
@@ -198,7 +201,7 @@ def _exclude_dedicated_offsets(
 ) -> int:
     """Retirer les offsets post-build et effacer toute valeur CSV obsolète."""
     excluded = 0
-    if dedicated_offsets:
+    if dedicated_offsets == GENERIC_TRANSLATION_OFFSETS:
         for offset, placeholder in GENERIC_PLACEHOLDER_TRANSLATIONS.items():
             if offset in combined_map:
                 combined_map[offset] = placeholder

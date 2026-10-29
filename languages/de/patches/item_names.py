@@ -1,48 +1,19 @@
 #!/usr/bin/env python3
-"""Translate untranslated item NAME cells (Berries + general items) in the DE ROM.
+"""Traduit les noms inline DE de gItems (base vivante 0x876200, stride 44).
 
-Item names live as fixed-width cells inside the CFRU item table (``gItems``)
-at 0x876074, stride 44: ``name[14]`` followed by the item data (id, price,
-hold-effect, description pointer at +0x14…). These *inline* name cells are
-**copied byte-for-byte from the source ROM** by the build pipeline — no
-translation pass touches them (they are absent from translation_ready.json,
-combined_fr.txt and the Spanish extraction). The Unbound source already ships
-translated names for the medicine/general items *and* for the long names
-stored as a ROM pointer (union: name[14] starting with an 0x08 MSB pointer →
-"Bright Powder" → its translated form etc. are pipeline-translated). What
-stayed English are the short *inline* cells: every Berry ("Aspear Berry" →
-"Wilbirbeere"), plus a large set of general items — evolution stones,
-valuables, held/battle items, type Gems, Silvally ROMs, Genesect Drives,
-incenses, mails, fishing rods, fossils, HMs…
+B-1026 possède exactement 122 cellules name[14], préimages canoniques figées
+et textes last-wins dans combined_de.txt. L'extraction générique les exclut :
+ses références brutes ne constituent pas une preuve de pointeur.
 
-This script rewrites those inline cells in place, byte-exact, with their
-official German (Germany) names. It is data-driven: each cell whose current
-name exactly matches a source-string key in ALL_NAMES is rewritten with the
-German value. That source string is English for almost every item, but the
-standard Poké Ball line is a special case: the Unbound base ROM ships those
-inline cells PRE-LOCALISED TO FRENCH, so their keys are the French source
-strings ("Hyper Ball", "Super Ball", …) mapped to the German name (see the
-"Standard Poké Ball line" block in ITEM_NAMES). Cells that already hold the
-German name are skipped (idempotent), pointer cells never match a key, and
-item data after the 14-byte name field is never touched.
-
-German names are the official localised names (verified against Bulbapedia
-"In other languages" tables / Pokéwiki); only names that fit the 13-glyph
-cell are included here. Names whose official DE form exceeds 13 glyphs
-(most Mega Stones, type Plates, "Bizarroservice", "Silberkronkorken",
-"Purpurner Nektar", most Poké Ball-related long compounds, custom Unbound
-Mega-key items) require a pointer relocation — out of scope for this
-byte-exact in-place patch — and are left as the source ships them. German
-compounds are frequently *longer* than their English/French counterparts, so
-this exclusion list is meaningfully larger than the French script's.
-
-Usage:
-    python3 languages/de/patches/item_names.py --rom output/roms/GenedRom-de.gba
+Le passage historique conserve les autres objets (baies, etc.). Ses alias FR
+restent compatibles avec les anciennes fixtures ; les balles EN du lot sont
+traitées par le raccordement borné. Aucun pointeur de description n'est écrit.
 """
 
 from __future__ import annotations
 
 import argparse
+import hashlib
 import sys
 from pathlib import Path
 
@@ -50,11 +21,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 
 from src.core.text_codec import GERMAN_UMLAUT_CHARS, TextEncoder
 from src.text.charmap_data import BYTE_TO_CHAR, CHAR_TO_BYTE
+from languages.de.item_name_cells import MANIFEST, PREIMAGES
+from scripts.apply_combined_fr import _load_combined
+from src.core.dialogue_linewrap import line_width
 
 # CFRU item table (gItems). Each entry is 44 bytes: name[14] then item data
 # (id u16 at +14, price u16 at +16, …, description pointer at +0x14). Only the
 # 14-byte name field is ever rewritten here.
-ITEM_TABLE_BASE = 0x876074
+ITEM_TABLE_BASE = 0x876200
 ITEM_STRIDE = 44
 NAME_FIELD = 14  # bytes available for the name (13 glyphs max + 0xFF terminator)
 # Generous upper bound on the number of item entries to scan. The exact-name
@@ -487,6 +461,46 @@ def apply_item_name_fixes(data: bytearray, names: dict) -> int:
     return patched
 
 
+def apply_scoped_item_names(
+    data: bytearray, source: bytes, translations: dict[int, str]
+) -> int:
+    """Valide puis écrit uniquement les 122 cellules inline autorisées.
+
+    Aucune référence issue de l'extraction n'est suivie. Les deux ROM doivent
+    conserver la base lue par GetItemName ; chaque préimage complète est figée.
+    Les écritures attendent la validation de tout le lot (échec atomique).
+    """
+    pointer = (0x08000000 + ITEM_TABLE_BASE).to_bytes(4, 'little')
+    if len(data) != len(source) or any(
+        rom[0x9A8D8:0x9A8DC] != pointer for rom in (data, source)
+    ):
+        raise ValueError('Table vivante des objets différente')
+    writes = []
+    for offset, expected in PREIMAGES.items():
+        if (offset - ITEM_TABLE_BASE) % ITEM_STRIDE or offset + NAME_FIELD > len(data):
+            raise ValueError(f'0x{offset:X}: cellule hors table')
+        if source[offset:offset + NAME_FIELD] != expected:
+            raise ValueError(f'0x{offset:X}: préimage canonique différente')
+        text = translations.get(offset)
+        if not text or any(c in text for c in '{}<>\\\n\r'):
+            raise ValueError(f'0x{offset:X}: nom absent ou contrôle interdit')
+        encoded = encode(text) + b'\xff'
+        if len(encoded) > NAME_FIELD or line_width(text) > 78:
+            raise ValueError(f'0x{offset:X}: nom hors budget sac')
+        if line_width('WWWWWWW hat ' + text + ' in der') > 192:
+            raise ValueError(f'0x{offset:X}: nom hors budget message')
+        target = encoded.ljust(NAME_FIELD, b'\x00')
+        current = bytes(data[offset:offset + NAME_FIELD])
+        if current == target:
+            continue
+        if current != expected:
+            raise ValueError(f'0x{offset:X}: cellule cible inattendue')
+        writes.append((offset, target))
+    for offset, target in writes:
+        data[offset:offset + NAME_FIELD] = target
+    return len(writes)
+
+
 # ROM offset -> corrected German description. These target the item struct's
 # fixed base-ROM description string in place: never reached by the generic
 # reinsertion pipeline (absent from translation_ready.json and the Spanish
@@ -535,10 +549,18 @@ def main() -> int:
     args = parser.parse_args()
 
     data = bytearray(args.rom.read_bytes())
+    root = Path(__file__).resolve().parents[3]
+    source = (root / 'input/roms/englishrom.gba').read_bytes()
+    if hashlib.sha256(source).hexdigest() != MANIFEST['source_sha256']:
+        raise ValueError('ROM source non canonique')
+    translations, _ = _load_combined(root / 'languages/de/combined_de.txt')
+    scoped = apply_scoped_item_names(data, source, translations)
     patched = apply_item_name_fixes(data, ALL_NAMES)
     desc_patched = apply_item_desc_fixes(data)
-    if patched or desc_patched:
+    if scoped or patched or desc_patched:
+        args.rom.with_suffix(args.rom.suffix + '.bak').write_bytes(args.rom.read_bytes())
         args.rom.write_bytes(data)
+    print(f'Cellules B-1026 vérifiées : {len(PREIMAGES)}, écrites : {scoped}')
     print(f"Item name cells translated: {patched} (of {len(ALL_NAMES)} known)")
     if desc_patched:
         print(f"Item description overrides applied: {desc_patched}")
