@@ -4,7 +4,32 @@ Périmètre fermé : les 300 offsets du ticket, comparés aux dernières valeurs
 La fixture `tests/unit/fixtures/de_combat_ui_03.json` conserve les trois valeurs avant correction,
 les octets canoniques EN, les sites de pointeurs et les décisions individuelles.
 
-## Méthode et limites
+## Clôture après intégration des enfants
+
+B-1013 (`2d53f80e`) réinjecte les 67 exclusions historiques : 49 descriptions
+(44 absentes de l’extraction EN, 5 extraites vides) et 18 boîtes UI. Le lot compte
+donc **271 corrections livrées**, 16 noms légitimes, 10 fragments non vivants et
+3 sentinelles. Les décisions de la fixture et du tableau ci-dessous restent le
+diagnostic initial ; le traitement final des 67 entrées est détaillé dans
+[`1013_DE_COMBAT_UI_STRUCTURE.md`](1013_DE_COMBAT_UI_STRUCTURE.md).
+Les protections fixent désormais leurs valeurs DE exactes dans le même commit.
+
+T-915 confirme que la garde ES/FR est déjà intégrée par A-663 (`6988ec86`) :
+les 308 lacunes connues restent inventoriées et toute nouvelle absence est rejetée,
+même si une ancienne lacune est comblée. Aucun correctif ES/FR supplémentaire.
+
+Vérification d’intégration : `make build-de` réussi ; 67 cibles structurées vérifiées,
+zéro collision, SHA-256 DE
+`ad078454e10aebff740c20ced7a133c30ae15f0f0835d098ec7ae0e06417e1b0`.
+Les tests `test_combat_ui_03.py`, `test_structured_combat_ui_03.py` et
+`test_extraction_coverage.py` passent ensemble : **488 tests**, y compris les
+octets et pointeurs vivants après toutes les passes du build. Le premier contrôle
+avait détecté une ROM locale antérieure au patch ; la reconstruction résout cet
+écart sans changement des sources.
+Suite complète d’intégration `make test-python` : **2 948 passés, 3 ignorés
+préexistants, 1 339 désélectionnés**, aucun échec.
+
+## Méthode et limites du diagnostic initial
 
 - Source EN SHA-256 : `7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7`.
 - 204 corrections : 203 ajouts et un pied de menu existant raccourci, protégés exactement.
@@ -29,7 +54,7 @@ les octets canoniques EN, les sites de pointeurs et les décisions individuelles
 - Les noms officiels allemands identiques à l’anglais restent légitimes, même absents du
   fichier DE : leur cellule EN est déjà correcte (Insomnia, Chlorophyll, Plus, Minus, etc.).
 
-## Validation
+## Validation initiale avant intégration de B-1013
 
 Contrôle ciblé source et ROM après retrait des 67 injections non conformes : **409 tests passés**.
 Construction DE : succès, zéro collision. Hooks : 2 239 tests Python rapides et 68 Vitest passés.
@@ -45,7 +70,15 @@ la présence du texte dans le fichier. Aucun audit global A-661 relancé.
 
 ## Non vérifié
 
-Les 67 entrées de B-1013 ne sont pas corrigées en jeu. La preuve visuelle exerce une boîte réelle à partir du pointeur de la Pension via un script de test temporaire ; elle ne constitue pas un parcours manuel des 204 surfaces. Les octets et références vivantes de toutes les corrections sont contrôlés automatiquement.
+Le parcours naturel de toutes les scènes UI et de toutes les CT/CS reste non vérifié.
+La preuve initiale exerce une boîte réelle à partir du pointeur de la Pension.
+Les deux tests Playwright headless de B-1013 ajoutent quatre descriptions dans la
+fenêtre réelle des attaques et une boîte d’échange via son pointeur vivant, avec
+assertions binaires/OCR et captures attachées au ticket enfant. La boîte d’échange
+utilise une sonde temporaire dans la boîte standard ; l’équipe des quatre attaques
+est ajustée temporairement en RAM. Aucun enregistrement de sauvegarde en jeu.
+Ces sondes ne constituent pas un parcours manuel des 271 surfaces ; les octets et
+références vivantes de toutes les corrections sont contrôlés automatiquement.
 
 ## Décision par offset
 

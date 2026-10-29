@@ -81,6 +81,25 @@ def test_deferred_cases_preserve_the_verified_pipeline_diagnosis():
     assert all('B-1013' in row['reason'] for row in deferred)
 
 
+def test_integrated_closure_accounts_for_all_300_offsets():
+    """Le bilan final distingue corrections livrées et décisions conservées."""
+    manifest = json.loads((ROOT / 'languages/de/data/combat_ui_03_structure.json').read_text())
+    initial = {row['offset'] for row in ROWS if row['decision'] == 'corrigé'}
+    integrated = {row['offset'] for row in manifest}
+    unchanged = {row['offset'] for row in ROWS if row['decision'] in {
+        'nom propre légitime', 'fragment non vivant', 'déjà correct/patché',
+    }}
+    report = (ROOT / 'docs/22_DE_COMBAT_UI_03.md').read_text()
+
+    assert initial.isdisjoint(integrated)
+    assert (initial | integrated).isdisjoint(unchanged)
+    assert len(initial | integrated) == 271
+    assert len(unchanged) == 29
+    assert initial | integrated | unchanged == {row['offset'] for row in ROWS}
+    assert '271 corrections livrées' in report
+    assert '(1013_DE_COMBAT_UI_STRUCTURE.md)' in report
+
+
 @pytest.mark.parametrize('row', [r for r in ROWS if r['decision'] == 'corrigé'], ids=lambda r: r['offset'])
 def test_source_controls_and_boxes(row):
     """Le texte gagnant conserve les commandes EN et les budgets de fenêtre."""
