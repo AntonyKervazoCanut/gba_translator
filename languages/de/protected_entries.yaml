@@ -62,15 +62,11 @@ entries:
   forbidden:
   - If that'll get us there quickly, let's do that.
 - offset: '0x1f4728d'
-  name: 'Jax: Treffpunkt an den Docks und Fahrkarte'
-  expected: Hast du das verstanden, <0xFD><0x01>?\pTriff uns am Boot an den Docks nördlich von hier.\pWir gehen schon vor und gehen ohne dich an Bord, damit es keine Verzögerung gibt.\pAch ja - nimm diese Fahrkarte, damit du auch aufs Boot kommst.
-  forbidden:
-  - Meet us at the boat on the docks north of here.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Verstanden, <0xFD><0x01>?\pTriff uns am Boot an den Docks\n<0xFC><0x01><0x06>nördlich<0xFC><0x01><0x08> von hier.\pWir gehen schon an Bord, damit\nwir keine Zeit verlieren.\pAch ja, nimm diese Fahrkarte,\ndamit du auch an Bord kommst.'
 - offset: '0x1f53396'
-  name: 'PNJ Fähre: Fahrplan der S.S. Marine'
-  expected: Wenn sie in Betrieb ist, fährt die S.S. Marine sonntags und mittwochs nach West-Borrius.
-  forbidden:
-  - When it's working, the S.S. Marine sets sail to West Borrius on Sundays and Wednesdays.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wenn sie in Betrieb ist, fährt\ndie S.S. Marine sonntags und\lmittwochs nach West-Borrius.'
 - offset: '0x1F53F7C'
   name: 'PNJ Centre Pokémon (chambre): Fulica-Sumpf wenige Käfer-Pokémon'
   issue: B-303
@@ -101,11 +97,8 @@ entries:
   forbidden:
   - Okay!\nI'm going to get all fired up!
 - offset: '0x1f478ee'
-  name: 'Rivale : réplique post-combat Carohacrok'
-  issue: B-302
-  expected: Mann<0xB0> warum habe ich mir überhaupt Sorgen gemacht?\nNatürlich bist du bereit!
-  forbidden:
-  - Man… what was I even worried about?
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Mann<0xB0> warum habe ich mir\nüberhaupt Sorgen gemacht?\lNatürlich bist du bereit!'
 - offset: '0x1F479B7'
   name: 'Ace : ascension rapide du Pic Cristal'
   expected: Lass uns so schnell wie möglich\nden Gipfel erreichen.\pUnterwegs heile ich deine Pokémon.
@@ -229,33 +222,26 @@ entries:
   issue: F-601
   expected: Angelmeister
 - offset: '0x1f5346c'
-  name: Angelmission erste Stufe
-  issue: F-601
-  expected: Hol deine Angel heraus und\nleg los! Fange <0xFD><0x02> Pokémon.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hol deine Angel heraus und leg\nlos! Fange <0xFD><0x02> Pokémon.'
 - offset: '0x1f534ad'
-  name: Angelmission zweite Stufe
-  issue: F-601
-  expected: Wirf den Köder aus und locke\ndie Fische an! Fange <0xFD><0x02> Pokémon.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wirf den Köder aus und\nlocke die Fische an!\lFange <0xFD><0x02> Pokémon.'
 - offset: '0x1f534f4'
-  name: Angelmission dritte Stufe
-  issue: F-601
-  expected: Stell dich fest hin und schau\nnach vorn. Fange <0xFD><0x02> Pokémon.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Stell dich fest hin und\nschau nach vorn. Fange\l<0xFD><0x02> Pokémon.'
 - offset: '0x1f5378e'
-  name: Angelmission Folgeauftrag
-  issue: F-601
-  expected: Nach deiner tollen Leistung habe ich\nnun eine neue Aufgabe für dich.<0xFB>Wirb weiter für die Angeln der\nCube Corp., indem du Pokémon<0xFA>mindestens <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>-mal angelst.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Nach deiner tollen Leistung habe\nich nun eine neue Aufgabe für\ldich.\pWirb weiter für die Angeln der\nCube Corp., indem du Pokémon\lmindestens\l<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>-mal angelst.'
 - offset: '0x1f53912'
-  name: Angelmission Belohnung
-  issue: F-601
-  expected: Großartig, Trainer!<0xFB>Die Cube Corp. meldet mir,\ndass du ihre Marke insgesamt<0xFA><0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>-mal beworben hast!<0xFB>Hier ist deine Belohnung!
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Großartig, Trainer!\pDie Cube Corp. meldet mir, dass\ndu ihre Marke insgesamt\l<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>-mal beworben hast!\pHier ist deine Belohnung!'
 - offset: '0x1f53999'
-  name: Angelmission Beförderung
-  issue: F-601
-  expected: Dank deiner Angelerfolge wurde ich\nbefördert!<0xFB>Jetzt bin ich Assistent des\nRegionalleiters der Angelabteilung<0xFA>der Cube Corp.!<0xFB>Bald leite ich\nden Laden selbst!
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Dank deiner Angelerfolge wurde\nich befördert!\pJetzt bin ich Assistent des\nRegionalleiters der\lAngelabteilung der Cube Corp.!\pBald leite ich den Laden selbst!'
 - offset: '0x1f53a46'
-  name: Angelmission Fortschritt
-  issue: F-601
-  expected: Meine Quellen bei der Cube Corp.\nsagen, du hast bisher nur <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08><0xFA>Pokémon geangelt.<0xFB>Für die Belohnung musst du mindestens\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> fangen.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Meine Quellen bei Cube Corp.\nsagen, du hast bisher nur\l<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> Pokémon geangelt.\pFür die Belohnung\nmusst du mindestens\l<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Pokémon angeln.'
 - offset: '0x1f53adb'
   name: Angelmission Team voll
   issue: F-601
@@ -269,13 +255,11 @@ entries:
   issue: F-601
   expected: Diese TM wurde im äußeren\nHeckenlabyrinth gefunden.
 - offset: '0x1f545f9'
-  name: TM-Fundort Schneeklippen
-  issue: F-601
-  expected: Diese TM lag an den Schneeklippen\nund war nur mit Kraxler erreichbar.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Diese TM lag an den\nSchneeklippen und war nur mit\lKraxler erreichbar.'
 - offset: '0x1f54637'
-  name: TM-Fundort blaue Brücke
-  issue: F-601
-  expected: Diese TM wurde im UG1 nach\nÜberqueren der blauen Brücke gefunden.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Diese TM wurde im UG1 nach\nÜberqueren der blauen Brücke\lgefunden.'
 - offset: '0x1f54670'
   name: TM-Kauf Marktplatz 1
   issue: F-601
@@ -289,9 +273,8 @@ entries:
   issue: F-601
   expected: Diese TM wurde östlich im Sumpf\nnach Surfer gefunden.
 - offset: '0x1f54716'
-  name: TM vom befreiten Clown
-  issue: F-601
-  expected: Ein Clown gab dir diese TM,\nnachdem du ihm bei der Flucht halfst.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ein Clown gab dir diese TM,\nnachdem du ihm bei der Flucht\lhalfst.'
 - offset: '0x1f54752'
   name: TM-Kauf Marktplatz 2
   issue: F-601
@@ -1389,11 +1372,8 @@ entries:
   forbidden:
   - Das ist die Schuld dieses Kaorine…
 - offset: '0x1f3e2fe'
-  name: 'B-597 : nom d’espèce EN canonique'
-  issue: B-597
-  expected: 'Ganz einfach: Dann gräbt mich Krookodile raus.\pSelbst gefangen, Vega - ich kenne Fey. Nur wenige Orte in Borrius wären ihr sicher genug für die Schattenkrieger.\pMit Zeph in Frozen Heights durchsuchen wir jeden Ort, bis wir sie finden!'
-  forbidden:
-  - 'Ganz einfach: Dann gräbt mich Crocorible raus.\pSelbst gefangen, Vega - ich kenne Fey. Nur wenige Orte in Borrius wären ihr sicher genug für die Schattenkrieger.\pMit Zeph in Cimes Gelées durchsuchen wir jeden Ort, bis wir sie finden!'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ganz einfach.\pDann gräbt Krookodile mir einen\nWeg nach draußen.\pAuch wenn du gefangen bleibst,\nVéga: Ich kenne Fey.\pNur wenige Orte in Borrius wären\nihr sicher genug, um die\lSchattenkrieger zu lagern.\pSobald ich Zeph in\nFrozen Heights treffe, suchen\lwir jeden Ort ab, bis wir sie\lfinden!'
 - offset: '0x1f3e757'
   name: 'B-597 : nom d’espèce EN canonique'
   issue: B-597
@@ -2626,13 +2606,11 @@ entries:
   issue: DE — English toponyms
   expected: Mein Staravia ist vom Kampf\nvon vorhin noch müde, aber ich\lsollte dich zurück zum\l<0xFC><0x01><0x06>Cinder Volcano<0xFC><0x01><0x08> bringen können.\pSoll ich das tun?
 - offset: '0x1f32467'
-  name: English toponym canonicalisation 0x1F32467
-  issue: DE — English toponyms
-  expected: In dem Fall sollten dir diese Schutz-Sprays\nhelfen, schneller durch Grim Woods und den Cinder Volcano zu kommen.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Dann hilft dir dieser Schutz,\nschneller durch Grim Woods und\lCinder Volcano zurückzukommen.'
 - offset: '0x1f33067'
-  name: English toponym canonicalisation 0x1F33067
-  issue: DE — English toponyms
-  expected: Hoooo weeee!\pWenn das nicht das Verrückteste ist,\nwas ich je gesehen habe, ein {STR_VAR_1}, das aus\leinem magischen Portal kommt!\pWo kommst du her, {STR_VAR_1}?\p…\pWie bitte?\pDu hast versucht, zum Thundercap Mt. zu gelangen, als du plötzlich\lentführt wurdest?\pHoooo weeee!\nDas ist wirklich gruselig, {STR_VAR_1}.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Huiii!\pSo was Verrücktes hab\nich noch nie gesehen! Ein\lZauberportal, und du,\l<0xFD><0x02>, kommst daraus!\pWo kommst du her, <0xFD><0x02>?\p…\pWie bitte?\pDu wolltest zum Thundercap Mt.\nund wurdest plötzlich entführt?\pHuiii! Das klingt ganz\nschön gruselig, <0xFD><0x02>.'
 - offset: '0x1f3316d'
   name: English toponym canonicalisation 0x1F3316D
   issue: DE — English toponyms
@@ -2642,21 +2620,18 @@ entries:
   issue: DE — English toponyms
   expected: Ich habe gerade neue\nAnweisungen von Zeph erhalten.\pWir werden die Sicherheit\nauf der Route 9 verstärken.\pDer Junge mit dem grünen Hut, der\nversucht hat, in unsere Operation\lam Cinder Volcano einzugreifen, wurde gesehen,\lwie er darüber hinwegflog.\pWährend ihr das Tor bewacht,\nsuche ich nach einem geeigneten Ort,\lum eine psychische\lBarriere um die Straße zu errichten.
 - offset: '0x1f339b2'
-  name: English toponym canonicalisation 0x1F339B2
-  issue: DE — English toponyms
-  expected: Mmm? <0xFD><0x01>…<0xFC><0x08> bist du's?\pWas verschlägt dich hierher?\pWarte…<0xFC><0x08><0x18> sag nicht…<0xFC><0x08><0x18> dass du\nhier noch mehr Pokémon suchst?\pNa ja, mache ich sowieso.\pFortschrittsmäßig habe ich schon über\n100 Arten registriert.\pKennst du Logs Schwester? Sie lebt\nin <0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08>.\pSie hat meinen Pokédex gesehen und ihn\nmit der\l<0xFC><0x01><0x06>DexNav<0xFC><0x01><0x08>-Funktion aufgerüstet, seltene\lPokémon zu finden ist nun ein Kinderspiel!\p…\pIch verstehe…<0xFC><0x08><0x18> du brauchst die VM\nSteinhieb aus Blizzard City…\p…<0xFC><0x08><0x18>und hast auch beschlossen,\neinen Groll gegen die Schatten zu hegen, was?\pNun, während du den Helden gespielt hast,\nbin ich viel stärker geworden.\pDu hast keine Chance mehr gegen\nmich, <0xFD><0x01>.\pDas werde ich dir hier und jetzt\nbeweisen!
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Mmm? <0xFD><0x01>…<0xFC><0x08><0x20> Bist du''s?\pWas verschlägt dich hierher?\pWarte…<0xFC><0x08><0x18> Sag nicht…<0xFC><0x08><0x18> du suchst\nhier noch mehr Pokémon?\pDas mache ich jedenfalls.\pIch habe inzwischen über 100\nArten registriert.\pKennst du Logs Schwester? Sie\nlebt in <0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08>.\pAls sie meinen Pokédex sah,\nrüstete sie ihn mit der\l<0xFC><0x01><0x06>DexNav<0xFC><0x01><0x08>-Funktion auf. Seltene\lPokémon zu finden ist jetzt\lkinderleicht!\p…\pVerstehe…<0xFC><0x08><0x18> Du brauchst die VM\nZertrümmerer aus\lBlizzard City…\p…<0xFC><0x08><0x18>Und du hast auch mit den\nSchatten ein Hühnchen zu\lrupfen?\pWährend du den Helden gespielt\nhast, bin ich viel stärker\lgeworden.\pDu hast keine Chance mehr\ngegen mich, <0xFD><0x01>.\pDas beweise ich dir hier und\njetzt!'
 - offset: '0x1f33f05'
   name: English toponym canonicalisation 0x1F33F05
   issue: DE — English toponyms
   expected: <0xFD><0x01>, ich habe vergessen, dir\netwas zu zeigen!\pKomm bitte mit mir zum\nKBT Expressway.
 - offset: '0x1f34454'
-  name: English toponym canonicalisation 0x1F34454
-  issue: DE — English toponyms
-  expected: '{PLAYER}!\pÄh…{PAUSE} ich hoffe, du hast nicht…{PAUSE} du\nweißt schon…{PAUSE} das gesehen…\pAlso…{PAUSE} ich war nur…{PAUSE} überrumpelt…\pVergiss es. Ich brauche deine Hilfe.\pIch weiß, du sollst zum Thundercap Mt.,\naber vorher…\pKönntest du mir zuerst helfen?\pDie Schatten legten eine unsichtbare\nBarriere über die Route, wo ich fliegen\lwollte.\pIch brauche Hilfe, sie niederzureißen\noder einen anderen Weg zur\l{COLOR}ÉRoute 9{COLOR}Ë zu finden.\pHast du dafür einen Moment?'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>!\pÄh…<0xFC><0x08><0x18> Ich hoffe, du hast\nnicht…<0xFC><0x08><0x18> du weißt schon…<0xFC><0x08><0x18> das\lgesehen…\pAlso…<0xFC><0x08><0x18> Ich war nur…<0xFC><0x08><0x18>\nüberrumpelt…\pAch, vergiss es.\pHör zu, ich brauche deine Hilfe.\pOpa hat dich zum Thundercap Mt.\ngeschickt, aber vorher…\pKönntest du mir kurz helfen?\pDie Schatten haben eine\nunsichtbare Barriere um die\lRoute errichtet, zu der ich\lfliegen wollte.\pWir müssen sie beseitigen oder\neinen anderen Weg zur <0xFC><0x01><0x06>Route 9<0xFC><0x01><0x08>\lfinden.\pHast du kurz Zeit dafür?'
 - offset: '0x1f362d1'
-  name: English toponym canonicalisation 0x1F362D1
-  issue: DE — English toponyms
-  expected: Ich weigere mich, meinen Posten zu verlassen.\pIch muss {PLAYER} um jeden Preis daran hindern,\nden Thundercap Mt. zu betreten.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ich werde meinen Posten nicht\nverlassen.\pIch muss <0xFD><0x01>\num jeden Preis vom\lThundercap Mt. fernhalten.'
 - offset: '0x1f37b33'
   name: English toponym canonicalisation 0x1F37B33
   issue: DE — English toponyms
@@ -2686,13 +2661,11 @@ entries:
   issue: DE — English toponyms
   expected: Mit ihrer Hilfe beschleunigten sich\nunsere Forschungen schlagartig. Allerdings\perforderten diese Forschungen meine\nvolle Aufmerksamkeit. Und so,\pals mir klar wurde, dass ich nicht mehr\nso viele Projekte überwachen konnte,\lverließ ich meinen Posten als Geschäftsführer von Cube Corp.
 - offset: '0x1f405ad'
-  name: English toponym canonicalisation 0x1F405AD
-  issue: DE — English toponyms
-  expected: Ja…{PAUSE} Zeph ist der Erfinder des Super\nCube. Der erste Cube, gedacht für\peinfache Lagerung, war eine\ngemeinschaftliche Anstrengung zwischen ihm, deinem Vater\lund Fey. Das hat Cube Corp. ermöglicht, durchzustarten und zu werden,\nwas heute der größte\lEinfluss in Borrius ist.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ja…<0xFC><0x08><0x18> Zeph erfand den Super\nCube.\pDen ersten Cube als einfachen\nLagerraum entwickelten er, dein\lVater und Fey gemeinsam.\pDadurch stieg Cube Corp. zu dem\neinflussreichen Unternehmen auf,\ldas es heute in Borrius ist.'
 - offset: '0x1f406a5'
-  name: English toponym canonicalisation 0x1F406A5
-  issue: DE — English toponyms
-  expected: Und so dankt sie mir,\nnach all dem… ! Sie hat praktisch\pCube Corp. gestohlen, die Firma, die ich\nmit meinen eigenen Händen gegründet habe… Und sie\llässt Aklove auch meine Schatten\pstehlen…\n!
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Und so dankt sie mir nach all\ndem…!\pSie hat mir Cube Corp. praktisch\ngestohlen. Die Firma, die ich\leigenhändig aufgebaut habe…\pUnd sie lässt Aklove auch noch\nmeine Schatten stehlen…!'
 - offset: '0x1f407e3'
   name: English toponym canonicalisation 0x1F407E3
   issue: DE — English toponyms
@@ -2714,9 +2687,8 @@ entries:
   issue: DE — English toponyms
   expected: '{PLAYER}, hast du Jax gesehen? Das letzte\pMal habe ich gehört, dass er vorhatte,\nzu den Ruins of Void zu gehen.'
 - offset: '0x1f420e2'
-  name: English toponym canonicalisation 0x1F420E2
-  issue: DE — English toponyms
-  expected: Haben sie Jax{PAUSE} nein, ich bleibe optimistisch. Jax ist einfallsreich.\pEr meldet sich immer seltener, mit immer weniger Elan.\p{PLAYER}, geh nach Vivill Town. Stoppe das Licht des Verderbens und such Jax.\pOb freiwillig oder nicht - er ist wohl bei ihnen.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wenn sie Jax haben…<0xFC><0x08><0x18> Nein, ich\nbleibe zuversichtlich.\pJax ist ein einfallsreicher\nJunge…\pDoch er meldet sich immer\nseltener und mit immer weniger\lElan.\p<0xFD><0x01>, geh\nnach Vivill Town.\pStoppe das Licht des Verderbens\nund finde Jax.\pOb freiwillig oder nicht, ich\nvermute, er ist bei ihnen.'
 - offset: '0x1f42360'
   name: English toponym canonicalisation 0x1F42360
   issue: DE — English toponyms
@@ -2754,29 +2726,25 @@ entries:
   issue: DE — English toponyms
   expected: Also <0xFD><0x01>, geh nach <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x08>\nso schnell wie möglich!\pWenn du noch nicht fliegen kannst,\nist es am schnellsten, den\lOrden von <0xFC><0x01><0x06>Antisis City<0xFC><0x01><0x08> zu holen und\lüber die <0xFC><0x01><0x06>Route 17<0xFC><0x01><0x08> nach Osten zu gehen.\pWährend du unterwegs bist,\nwerden Opa Arthur und ich sehen,\lwas wir finden können.
 - offset: '0x1f470f7'
-  name: English toponym canonicalisation 0x1F470F7
-  issue: DE — English toponyms
-  expected: Hör zu, Freund.\pTut mir leid, aber daran lässt sich nichts ändern.\pDas Schiff hat Motorprobleme, ich kann nichts tun.\pAber ein Freund, der mir was schuldet, bringt dich notfalls nach Polder Town.\pEr ist an den Docks im Norden von hier.\pZeig ihm ein S.S.-Ticket, sag, ich schicke dich, und er nimmt dich mit.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hör zu, Freund.\pTut mir leid, aber daran lässt\nsich nichts ändern.\pDas Schiff hat Motorprobleme,\nich kann nichts tun.\pAber ein Freund, der mir was\nschuldet, bringt dich notfalls\lnach Polder Town.\pEr ist an den Docks im Norden\nvon hier.\pZeig ihm ein S.S.-Ticket, sag,\nich schicke dich, und er nimmt\ldich mit.'
 - offset: '0x1f47376'
   name: English toponym canonicalisation 0x1F47376
   issue: DE — English toponyms
   expected: Häh? Da oben<0xB0><0xFC><0x08><0x18> über Crystal Peak<0xB0>!
 - offset: '0x1f474c3'
-  name: English toponym canonicalisation 0x1F474C3
-  issue: DE — English toponyms
-  expected: Opa und ich gehen voraus zum Gipfel von Crystal Peak, <0xFD><0x01>.\pWir planen erst gegen ihr Vorhaben, statt blind reinzulaufen. Komm so schnell du kannst!\pFür den Gipfel musst du Wasserfälle hochklettern können<0xB0>\p<0xB0>\pJa<0xB0><0xFC><0x08><0x18> dein Blick verrät es schon<0xB0><0xFC><0x08><0x18> die Geschichte deiner Arenen-Challenge<0xB0>\pGenau<0xB0><0xFC><0x08><0x18> du brauchst den Orden von <0xFC><0x01><0x06>Polder Town<0xFC><0x01><0x08> und die passende VM.\pDanach geh direkt zum <0xFC><0x01><0x06>Crystal Peak<0xFC><0x01><0x08>.\pWir sehen uns dort, <0xFD><0x01>.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Opa und ich gehen\nvoraus zum Gipfel des\lCrystal Peak, <0xFD><0x01>.\pWir laufen nicht blind hinein,\nsondern planen, wie wir ihr\lVorhaben stoppen.\pFolge uns so schnell du kannst,\nokay?\pUm den Gipfel zu erreichen,\nmusst du Wasserfälle erklimmen\lkönnen…\p…\pJa…<0xFC><0x08><0x18> Dein Blick sagt es schon…<0xFC><0x08><0x18>\ndie Geschichte deiner ganzen\lArenen-Herausforderung…\pGenau…<0xFC><0x08><0x18> Du brauchst den Orden\nvon <0xFC><0x01><0x06>Polder Town<0xFC><0x01><0x08> und die\lpassende VM.\pDanach komm direkt zum\n<0xFC><0x01><0x06>Crystal Peak<0xFC><0x01><0x08>.\pWir sehen uns dort, <0xFD><0x01>.'
 - offset: '0x1f49b76'
   name: English toponym canonicalisation 0x1F49B76
   issue: DE — English toponyms
   expected: Bourg Dresco Town<0xB0><0xFC><0x08><0x20> mein Zuhause<0xB0><0xFC><0x08><0x20>\nNein!
 - offset: '0x1f4ad47'
-  name: English toponym canonicalisation 0x1F4AD47
-  issue: DE — English toponyms
-  expected: <0xFD><0x01>, du bist genauso stark geworden wie ich<0xB0><0xFC><0x08><0x18> vielleicht stärker.\pDu hast einen weiten Weg zurückgelegt, seit unserem Team in der Basis der Schatten.\pOb Schicksal oder Hoopa uns zusammengebracht hat<0xB0>\pIch bin froh, dass wir Freunde sind.\pWenn du nichts vorhast, beende doch den Rest der Arenen-Challenge.\pDer Champion-Titel von Borrius ist unbesetzt<0xB0>\pUnd niemand verdient ihn mehr als du.\pDie letzte Arena liegt östlich von Magnolia Town, in <0xFC><0x01><0x06>Rougebois<0xFC><0x01><0x08>.\pViel Glück, <0xFD><0x01>.\pIch gratuliere dir, sobald du Champion bist!
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>, du bist so\nstark wie ich…<0xFC><0x08><0x18> Nein,\lvielleicht sogar stärker.\pSeit wir uns in der Basis der\nSchatten zusammentaten, hast du\les weit gebracht.\pOb Schicksal oder Hoopa uns\nzusammenführte…\pIch bin froh, dass wir Freunde\ngeworden sind.\pWenn du nichts anderes vorhast,\nbeende doch die\lArenen-Herausforderung.\pDer Champion-Thron von Borrius\nist gerade unbesetzt…\pNiemand verdient den Titel mehr\nals du.\pDie letzte Arena liegt östlich\nvon Magnolia Town, in\l<0xFC><0x01><0x06>Redwood Village<0xFC><0x01><0x08>.\pViel Glück, <0xFD><0x01>.\pSobald du Champion bist, komme\nich dir gratulieren!'
 - offset: '0x1f4b80a'
-  name: English toponym canonicalisation 0x1F4B80A
-  issue: DE — English toponyms
-  expected: Weißt du, vor unserem Kampf dachte ich<0xB0>\p<0xB0>an all die Male, wo ich vorgeprescht bin und du mich rausgehauen hast.\pSelbst bei Crystal Peak, gut vorbereitet, hätten wir ohne dich nicht gewonnen.\pTrotz des Sieges wurde ich nachlässig, und Aklove entkam.\pDa wurde mir klar<0xB0>\pWerden meine Pokémon stärker, nützt das nichts, wenn ich nicht mitwachse.\pDas hat wohl heute den Unterschied gemacht.\pAlso werde ich stärker.\pNicht nur meine Pokémon.\pIch.\pUnd dann machen wir das noch mal!\pIch hole mir deine Krone mit eigenen Händen!\pAber jetzt lass uns dich als neuen Champion von Borrius anerkennen!\pLos geht's! Das Register ist gleich vorn.\pFolg mir!
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Vor unserem Kampf dachte ich…\p…an all die Male, als ich\nvorpreschte und du mich retten\lmusstest.\pSelbst am Crystal Peak hätten\nwir ohne dich nicht gewonnen,\lobwohl ich meine Pokémon gut\lvorbereitet glaubte.\pNach unserem Sieg wurde ich\nnachlässig. Aklove entkam.\pDa begriff ich…\pWas nützt es, wenn meine Pokémon\nstärker werden, ich aber nicht\lmit ihnen wachse?\pDas hat wohl heute den Sieg\nentschieden.\pAlso werde ich stärker.\pNicht nur meine Pokémon.\pIch selbst.\pUnd dann machen wir das noch\nmal!\pIch hole mir deine Krone mit\neigenen Händen!\pJetzt wirst du aber erst als\nneuer Champion von Borrius\lanerkannt!\pLos! Das Register ist gleich da\nvorn.\pFolg mir!'
 - offset: '0x1f4bda6'
   name: English toponym canonicalisation 0x1F4BDA6
   issue: DE — English toponyms
@@ -2786,9 +2754,8 @@ entries:
   issue: DE — English toponyms
   expected: Egal, wir schauen uns mal\ndie <0xFC><0x01><0x06>Battle Frontier<0xFC><0x01><0x08> an.\pSie liegt im <0xFC><0x01><0x06>Norden<0xFC><0x01><0x08> von <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x08>,\nund man sagt, dass sich dort die Besten\lder ganzen Welt treffen.\pDa sie gerade erst wiedereröffnet hat, wird\nes jede Menge Trainer geben, die\lnur ans Kämpfen denken!\pPapa und ich, wir zeigen ihnen,\nwas ein echter Trainer ist!\pWir sehen uns später, <0xFD><0x01>!
 - offset: '0x1f4d42f'
-  name: English toponym canonicalisation 0x1F4D42F
-  issue: DE — English toponyms
-  expected: <0xFD><0x01>, wir treffen uns wohl stets in den schlimmsten Lagen, was?\p<0xB0>Wie auch immer, ich bin froh, ein letztes Mal mit dir gekämpft zu haben.\pDu bist der Champion, niemand kämpft lieber an deiner Seite als ich.\pWillst du je wieder ein Team bilden, ich bin oft bei der Battle Frontier, gib mir Bescheid!
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>, wir tun uns\nimmer in den schlimmsten\lLagen zusammen, was?\p…Jedenfalls bin ich froh, dass\nwir ein letztes Mal zusammen\lkämpfen konnten.\pDu bist schließlich Champion. Mit\nniemandem kämpfe ich lieber\lSeite an Seite.\pWillst du wieder ein Team\nbilden, findest du mich bei der\lBattle Frontier. Sprich mich\leinfach an!'
 - offset: '0x1f4d749'
   name: English toponym canonicalisation 0x1F4D749
   issue: DE — English toponyms
@@ -2810,9 +2777,8 @@ entries:
   issue: DE — English toponyms
   expected: Willkommen in unserem\nPokémon Center!
 - offset: '0x1f4f791'
-  name: English toponym canonicalisation 0x1F4F791
-  issue: DE — English toponyms
-  expected: Trainer!\pGehst du durch die Tür hinter mir, beginnt deine Pokémon League-Herausforderung.\pDanach gibt es kein Zurück, bis du sie meisterst.\pHast du deine Pokémon geheilt?\pHast du wichtige Items gekauft?\pWenn ja, beginne, wann immer du willst.\pZeig die Stärke, die dich hierher brachte, und strebe nach Ruhm!
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Trainer!\pGehst du durch die Tür hinter\nmir, beginnt deine\lPokémon League-Herausforderung.\pDanach gibt es kein Zurück, bis\ndu sie meisterst.\pHast du deine Pokémon geheilt?\pHast du wichtige Items gekauft?\pWenn ja, beginne, wann immer du\nwillst.\pZeig die Stärke, die dich\nhierher brachte, und strebe nach\lRuhm!'
 - offset: '0x1f4fa1b'
   name: English toponym canonicalisation 0x1F4FA1B
   issue: DE — English toponyms
@@ -2822,9 +2788,8 @@ entries:
   issue: DE — English toponyms
   expected: 'Hey, <0xFD><0x01>! Endlich eingeholt!\pLustige Geschichte: Meine Orden musste wegen Papa warten<0xB0>\pAber jetzt hab ich die Top 4 besiegt, nur um dich zu sehen.\pAlso zurück zum Wichtigen.\pIch<0xB0><0xFC><0x08><0x20> der neue Meister werden!\pIch hab die Crème de la Crème in diesem Team<0xB0>\pMit einem superseltenen Pokémon vom Cinder Volcano!\pBereit, <0xFD><0x01>? Denn du gehst unter!'
 - offset: '0x1f51a99'
-  name: English toponym canonicalisation 0x1F51A99
-  issue: DE — English toponyms
-  expected: 'Warte, <0xFD><0x01>!\pÜberrascht, mich hier zu sehen?\pIch hörte einen vertrauten Schrei<0xB0>\pDa traf ich Zapdos.\pNicht das vom Thundercap Mt.<0xB0><0xFC><0x08><0x18> sondern das, das Aklove zur Befreiung an den Ruins of Void nutzte.\pWarum es zu mir kam, weiß ich nicht<0xB0>\pAber es war ein Zeichen: ich musste dich wiederfinden und erneut fordern!\pVor allem will <0xFD><0x06> dich besiegen<0xB0>\pAber ich bin sein Vater - ich kann nicht zusehen, wie meine Fähigkeiten einrosten.\pDrum versuch ich''s, so gering die Chancen stehen.'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Warte einen Moment, <0xFD><0x01>!\pÜberrascht, mich hier zu sehen?\pIch hörte wohl einen vertrauten\nRuf nach mir…\pDa begegnete ich Zapdos.\pNicht dem vom Thundercap Mt.…<0xFC><0x08><0x18>\nSondern dem, das Aklove bei der\lEntfesselung in den Ruins of Void\lnutzte.\pIch weiß noch immer nicht, warum\nes zu mir kam und mich als\lTrainer wählte…\pAber es war ein Zeichen: Ich\nmusste dich finden und erneut\lherausfordern!\pDich zu besiegen ist\nnatürlich vor allem das\lZiel von <0xFD><0x06>…\pAber ich bin sein Vater. Ich\nkann meine eigenen Fähigkeiten\lnicht einrosten lassen!\pAuch wenn meine Chancen gering\nsind, möchte ich versuchen, dich\lzu besiegen!'
 - offset: '0x1f52a74'
   name: English toponym canonicalisation 0x1F52A74
   issue: DE — English toponyms
@@ -5796,17 +5761,15 @@ entries:
   issue: DE — English toponyms
   expected: Gut, Rüpel.\pFür unsere nächste Operation gehen\nwir zum {COLOR}ÉCinder Volcano{COLOR}Ë, und\lIvory soll sein Ziel bekommen.
 - offset: '0x1f2fe44'
-  name: English toponym canonicalisation 0x1F2FE44
-  issue: DE — English toponyms
-  expected: Ausgezeichnet. Die Macht von Borrius wurde vor langer Zeit versiegelt.\pMan sagt, werden die drei legendären Pokémon, die sie versiegelten, bei {COLOR}ÉRuins of Void{COLOR}Ë wieder vereint, wird sie frei.\pGenau das suchen wohl die Schurken, um Borrius wieder in Dunkelheit zu stürzen.\pStimmt das, ist ihr nächstes Ziel sicher…
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ausgezeichnet.\pWie du weißt, wurde Borrius''\ndunkle Macht vor langer, langer\lZeit versiegelt.\pDoch vereint man die drei\nlegendären Pokémon, die sie\lversiegelten, in den\l<0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x08>, kann sie wieder\lbefreit werden.\pDarauf sind die Schurken wohl\naus: Borrius erneut in Dunkelheit\lzu stürzen.\pWenn das stimmt, ist ihr nächstes\nZiel sicher…'
 - offset: '0x1f30020'
   name: English toponym canonicalisation 0x1F30020
   issue: DE — English toponyms
   expected: Ich habe gerade gesehen, wie diese Typen in Schwarz\nsich zum\l{COLOR}ÉCinder Volcano{COLOR}Ë bewegt haben!
 - offset: '0x1f30933'
-  name: English toponym canonicalisation 0x1F30933
-  issue: DE — English toponyms
-  expected: Wir haben keine Zeit mehr, {PLAYER}.\pDu musst schnell zum {COLOR}ÉThundercap Mt.{COLOR}Ë und {COLOR}ÉZapdos{COLOR}Ë retten!\pWenn er auch gefangen wird, sind wir\nalle verloren…
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Uns läuft die Zeit\ndavon, <0xFD><0x01>.\pEile zum <0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08> und\nrette <0xFC><0x01><0x06>Zapdos<0xFC><0x01><0x08>!\pWird es auch gefangen, sind wir\nalle verloren…'
 - offset: '0x1f309be'
   name: English toponym canonicalisation 0x1F309BE
   issue: DE — English toponyms
@@ -5820,9 +5783,8 @@ entries:
   issue: DE — English toponyms
   expected: Zapdos…\pEr lebt am {COLOR}ÉThundercap Mt.{COLOR}Ë, oder?\pIch breche sofort auf.
 - offset: '0x1f32141'
-  name: English toponym canonicalisation 0x1F32141
-  issue: DE — English toponyms
-  expected: Gut, gut.\pUnterdessen rettet {PLAYER} {COLOR}ÉZapdos{COLOR}Ë am {COLOR}ÉThundercap Mt.{COLOR}Ë.\p{PLAYER}…{PAUSE} du hast dich bei Jax im Cinder Volcano bewährt, du bist bereit.\pDu erreichst ihn über die Autobahn südöstlich von {COLOR}ÉCrater Town{COLOR}Ë.\pDu brauchst dort den Orden für {COLOR}ÉThundercap Mt.{COLOR}Ë – oberste Priorität.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gut, gut.\pInzwischen wird <0xFD><0x01>\nzum <0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08>\lgehen und <0xFC><0x01><0x06>Zapdos<0xFC><0x01><0x08> retten.\p<0xFD><0x01>…<0xFC><0x08><0x18> du hast Jax\nim Cinder Volcano verteidigt\lund dich bewährt. Du bist\lder Aufgabe gewachsen.\pNimm die Autobahn südöstlich der\nnächsten Stadt, <0xFC><0x01><0x06>Crater Town<0xFC><0x01><0x08>.\pFür den Weg zum <0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08>\nbrauchst du wohl ihren Orden.\lIhn zu holen hat Vorrang.'
 - offset: '0x1f336c0'
   name: English toponym canonicalisation 0x1F336C0
   issue: DE — English toponyms
@@ -5856,13 +5818,11 @@ entries:
   issue: DE — English toponyms
   expected: Lass uns nicht zu lange\npausieren.\pDie Schatten lauern noch da draußen\nund haben immer noch Lavados und\lArktos.\pZum Glück habe ich mit Papy geredet\nund glaube, ich weiß, wie wir sie\lzurückholen.\pSobald du mit der {COLOR}ÉTarmigan Mansion{COLOR}Ë fertig bist, geh nach\l{COLOR}ÉNorden{COLOR}Ë zur {COLOR}ÉRoute 12{COLOR}Ë.\pIch treffe dich in {COLOR}ÉDehara City{COLOR}Ë.\pDort besprechen wir den Plan, um sie\nvor den Schatten zu retten.\pAlso gut, bis bald!
 - offset: '0x1f3e84e'
-  name: English toponym canonicalisation 0x1F3E84E
-  issue: DE — English toponyms
-  expected: 'Ich bin dankbar. Aber diese Aufgabe{PAUSE} muss ich allein erledigen.\pIch brauche Zephs Hilfe, um die neue Basis des Lichts des Verderbens zu finden.\pFolgtest du mir zu unserer Basis in {COLOR}ÉFrozen Heights{COLOR}Ë, würde Zeph nie helfen.\pAlso bitte, {PLAYER}: Bleib uns fern.'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hör zu, ich bin dir dankbar.\pWirklich.\pAber die nächste Aufgabe…<0xFC><0x08><0x18> muss\nich allein erledigen.\pIch brauche Zephs Hilfe, um die\nneue Basis des Lichts des\lVerderbens zu finden.\pFolgst du mir zu unserer Basis\nin <0xFC><0x01><0x06>Frozen Heights<0xFC><0x01><0x08>, wird Zeph\lniemals helfen.\pAlso bitte, <0xFD><0x01>,\nfür unser beider Wohl:\lBleib unserer Basis fern.'
 - offset: '0x1f419e6'
-  name: English toponym canonicalisation 0x1F419E6
-  issue: DE — English toponyms
-  expected: Hast du etwas, um über Wasser zu kommen, die\nVM Surfer? Wenn du sie nicht\pbenutzen kannst, solltest du zuerst\nden Arenaorden von {COLOR}ÉDehara City{COLOR}Ë holen, bevor du dich uns anschließt.\lWir müssen {COLOR}ÉVivill Town{COLOR}Ë\pso schnell wie möglich erreichen, also beeil dich.\nDas ist {COLOR}Énordöstlich{COLOR}Ë von {COLOR}ÉDehara City{COLOR}Ë, wenn du\nbereit bist.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Kannst du Wasser überqueren, mit\nder VM Surfer?\pFalls nicht, hole erst den Orden\nvon <0xFC><0x01><0x06>Dehara City<0xFC><0x01><0x08>, bevor du zu\luns stößt.\pWir müssen schnell nach\n<0xFC><0x01><0x06>Vivill Town<0xFC><0x01><0x08>. Beeil dich bitte.\pEs liegt <0xFC><0x01><0x06>nordöstlich<0xFC><0x01><0x08> von\n<0xFC><0x01><0x06>Dehara City<0xFC><0x01><0x08>, wenn du so weit\lbist.'
 - offset: '0x1f425c7'
   name: English toponym canonicalisation 0x1F425C7
   issue: DE — English toponyms
@@ -6432,9 +6392,8 @@ entries:
   issue: DE — English toponyms
   expected: Hallo, hört ihr mich?…{PAUSE}îHier ist der Schergen von vorhin.\pIch habe soeben das letzte\nnötige Pokémon gesichert.\pGleich geht es weiter zu den Ruins of Void.\n…{PAUSE}îJa, natürlich. Wie versprochen:\pDu übernimmst das Kommando über die Zweigstelle?\n…{PAUSE}îGewiss, solange Hoopa\lunversehrt bleibt, könnt ihr\pherausfinden, was ihr wollt.\n…{PAUSE}îKeine Sorge, die Schattenkrieger\lwerden schnell und spurlos beseitigt.\p…{PAUSE}îVerstanden. Wir sprechen uns,\nsobald ich Bericht erstatte.
 - offset: '0x1f389bb'
-  name: English toponym canonicalisation 0x1F389BB
-  issue: DE — English toponyms
-  expected: 'Gut, das reicht. Hör zu:\pWährend ich auf dich gewartet habe, sah ich\neine Gruppe Schatten-Schergen nach Westen\laufbrechen, Richtung Ruins of Void.\pLaut Papy gibt es dafür nur einen Grund…{PAUSE}\nsie haben alles Nötige für das\lEntfesselungsritual - das Ritual, das die\ldunkle Macht befreit.\pAber das sollte ohne Zapdos unmöglich sein…\nDeshalb glaubt Papy, sie versuchen es trotzdem\lund hoffen, das unvollständige Ritual reicht.\pDas ist unsere Chance, auch dorthin zu gehen\nund Arktos und Lavados zurückzuholen!\pPerfekt: Sie sind dort ganz allein,\nalso müssen wir nicht befürchten, dass sie\lUnschuldige in diese Monster verwandeln!'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gut, das dürfte reichen.\pAlso, hör zu.\pWährend ich wartete, sah ich\nSchatten-Schergen nach Westen\lzu den Ruins of Void ziehen.\pLaut Opa gehen sie nur\ndorthin…<0xFC><0x08><0x18> wenn sie alles für das\lEntfesselungsritual haben.\pDu weißt schon, das Ritual zur\nBefreiung der dunklen Macht.\pAber ohne Zapdos dürfte das\nnicht gehen…\pOpa glaubt deshalb, sie\nversuchen es trotzdem und\lhoffen, das unvollständige\lRitual reicht ihnen.\pDas ist unsere Chance, auch\nhinzugehen und Articuno und\lMoltres zurückzuholen!\pPerfekt.\pNur sie werden in den Ruinen\nsein. Also können sie keine\lUnschuldigen in diese Monster\lverwandeln!'
 - offset: '0x1f38e6b'
   name: English toponym canonicalisation 0x1F38E6B
   issue: DE — English toponyms
@@ -6660,21 +6619,17 @@ entries:
   issue: DE — English toponyms
   expected: Ich sage dir genau, was ich\n{RIVAL} gesagt habe.\pDer einzige Weg zu den Ruins of Void ist, ein Boot zu nehmen\loder auf {COLOR}ÉRoute 14{COLOR}Ë zu surfen.
 - offset: '0x1f3853f'
-  name: English toponym canonicalisation 0x1F3853F
-  issue: DE — English toponyms
-  expected: Gut…{PAUSE} keine Zeit mehr.\nMit Zapdos in meinen Händen hat Zeph\pdas letzte Teil fürs Entfesselungsritual.\nJetzt…{PAUSE} öffne ein Portal zu den Ruins of Void, Hoopa.\pDu hast sicher noch Kraft dafür, selbst nach\nder Beschwörung eines so mächtigen Pokémon…\pSobald deine Kraft zurück ist, wird\nErschöpfung kein Problem mehr sein…\pSchöpf neue Kraft und komm dann auch dorthin.\nDu findest mich am Signal meines Cubes.\pUnd zur Erinnerung…{PAUSE}î bleib unauffällig.\nZeph hat noch treue Anhänger, die sich als…{PAUSE}\lProblem erweisen könnten.\pEr darf nichts wissen, sonst ist alles ruiniert.\nIch vertraue dir ein letztes Mal, Hoopa -\lvermassle es nicht!
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Nun…<0xFC><0x08><0x18> Wir haben keine Zeit zu\nverlieren.\pMit Zapdos hat Zeph endlich\nalles für das\lEntfesselungsritual.\pJetzt…<0xFC><0x08><0x18> öffne ein Portal zu den\nRuins of Void, Hoopa.\pDafür hast du sicher noch Kraft,\nauch nach der Beschwörung eines\lso mächtigen Pokémon…\pSobald du deine volle Kraft\nzurückhast, ist Erschöpfung kein\lProblem mehr…\pErhole dich und komm dann auch\ndorthin.\pDu findest mich am Signal meines\nCubes.\pUnd denk daran…<0xFC><0x08><0x20> bleib\nunauffällig.\pZeph hat noch treue Anhänger,\ndie sich als…<0xFC><0x08><0x18> Problem erweisen\lkönnten.\pEr darf nichts erfahren. Das\nwürde alles ruinieren.\pIch vertraue dir ein letztes\nMal, Hoopa. Enttäusche mich\lnicht!'
 - offset: '0x1f41b1f'
-  name: English toponym canonicalisation 0x1F41B1F
-  issue: DE — English toponyms
-  expected: Du verlässt Daherapolis erst\njetzt? Na so was, du bist wirklich\plangsam! Während du getrödelt hast, habe ich\peinen Weg zu den Ruins of Void gefunden. Natürlich, als ich dort\lankam, war es zu spät, um\pirgendetwas zu\ntun…
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du verlässt Dehara erst jetzt?\pMann, bist du langsam!\pWährend du getrödelt hast, fand\nich den Weg zu den\lRuins of Void.\pAls ich ankam, war es natürlich\nzu spät, noch etwas zu tun…'
 - offset: '0x1f49d19'
-  name: English toponym canonicalisation 0x1F49D19
-  issue: DE — English toponyms
-  expected: Es ist eigentlich ganz einfach.\pDein Hoopa hatte Hundemon\nin eine leere Höhle im Cinder Volcano geschickt, einen Ort ohne jede\lGefahr für ihn.\pDu hast mich danach auch dorthin geschickt.\nZusammen konnten wir fliehen.\pEinmal draußen, habe ich Fey kontaktiert,\nund sie beauftragte Agent Véga,\lmich hierher zu führen.\pEs scheint, sie wollte nie,\ndass du Zerstörung säst<0xB0>
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ganz einfach.\pDein Hoopa schickte Houndoom in\neine leere Höhle im\lCinder Volcano. Dort drohte ihm\lkeinerlei Gefahr.\pDann schicktest du auch mich\ndorthin. Gemeinsam entkamen wir.\pDraußen kontaktierte ich Fey.\nSie ließ Agent Véga mich\lhierherführen.\pOffenbar wollte sie dich nie\nwirklich Zerstörung säen\llassen…'
 - offset: '0x1f4c2ed'
-  name: English toponym canonicalisation 0x1F4C2ED
-  issue: DE — English toponyms
-  expected: <0xFD><0x01>, meinen herzlichsten\nGlückwunsch!\pIch habe von der Neuigkeit gehört!\pZu denken, dass ich nach all dieser Zeit\nendlich den alten Arthur besiegt habe!\pHo ho ho!\pÄh… entschuldige.\pNun, kommen wir zum Grund\nmeines Besuchs.\pIch habe noch eine Mission, die ich dir\nanvertrauen möchte!\pDu dachtest, du wärst mit\ndenen durch, nicht wahr?\pHo ho ho!\pÄh… wie auch immer, seit du\nHoopa auf dem Gipfel von Crystal Peak besiegt hast, sind mysteriöse Portale\lüberall in Borrius aufgetaucht.\pWenn man sich ihnen nähert, sollen\nmächtige Pokémon erscheinen.\pAls Wächter von Borrius,\ndem Namen wie auch dem Rang nach, obliegt\les dir, über diese\lPokémon zu wachen.\pIch nehme an, dass in vielen Fällen, wenn du\ndas Pokémon fängst, das Portal\lendgültig verschwinden wird.\pAllerdings ist es unwahrscheinlich,\ndass sie für immer geschlossen bleiben…\pWie dem auch sei!\pFang die Pokémon, die sich in\ndiesen mysteriösen Portalen verstecken.\pManche Portale erscheinen nur\nmit bestimmten Pokémon, aber\ldie Pokémon, die sie beherbergen,\lmüssen trotzdem gefangen werden.\pUnd falls ein Portal sich weigert,\nnach dem Fang zu verschwinden,\lreicht es, es\lin deinem Pokédex zu registrieren.
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>, herzlichen\nGlückwunsch! Du bist mein\lganzer Stolz, <0xFD><0x02>!\pIch habe es gehört!\pNach all der Zeit habe ich\nendlich den alten Arthur\lübertroffen!\pHo ho ho!\pÄhm… Verzeihung.\pNun, <0xFD><0x02>, zum\nGrund meines Besuchs.\pIch habe noch eine Besorgung\nfür dich!\pDu dachtest, damit wärst du\nfertig, was?\pHo ho ho!\pÄhm… Seit du Hoopa auf dem\nCrystal Peak besiegt hast,\lerscheinen geheimnisvolle\lPortale in Borrius.\pNähert man sich, sollen mächtige\nPokémon herausspringen.\pAls Wächter von Borrius, dem\nTitel und Rang nach, musst du\ldich um diese Pokémon kümmern.\pFängst du sie, verschwinden die\nPortale wohl meist dauerhaft.\pWahrscheinlich bleiben aber\nnicht alle für immer fort…\pWie dem auch sei!\pFange die Pokémon in diesen\ngeheimnisvollen Portalen.\pManche Portale erscheinen nur\nmit bestimmten Pokémon im Team.\lDie Pokémon darin musst du\ltrotzdem fangen.\pVerschwindet ein Portal nach dem\nFang nicht dauerhaft, genügt es,\lsein Pokémon im Pokédex zu\lregistrieren.'
 - offset: '0x1f55d51'
   name: English toponym canonicalisation 0x1F55D51
   issue: DE — English toponyms
@@ -6764,9 +6719,8 @@ entries:
   issue: DE — English toponyms
   expected: '{PLAYER}, du hast die Pokémon-\nPokémon League erreicht !\pAlso, willst du Galavans Klatsch\nüber die Top Vier, was ?\pWenn du Zeit zum Plaudern hast, ist das\nZeit, den finalen Angriff besser\lvorzubereiten, oder ?\pKeine Sorge !\pDer alte Galavan steht die ganze\nZeit hinter dir, also los !\pHa ha ha !'
 - offset: '0x1f4b14c'
-  name: English toponym canonicalisation 0x1F4B14C
-  issue: DE — English toponyms
-  expected: 'In Borrius gibt es Tesson-Fans, die auch Meister der Fähigkeiten sind.\pSie sammeln Tessons: Können sie deinen Pokémon nützliche Techniken für die Pokémon League beibringen, zögere nicht, sie zu suchen.\pIch sollte zu meiner Forschung zurück.\pIch sehe derweil nach, ob Arthur eine Spur des Flüchtlings hat<0xB0>\pViel Glück, <0xFD><0x01>! Ich hoffe, du glänzt!'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'In Borrius gibt es Sammler von\nScherben, die auch wahre\lAttacken-Meister sind.\pSie sammeln Scherben. Wenn sie\ndeinen Pokémon nützliche\lAttacken für die Pokémon League\lbeibringen können, such sie ruhig\lauf.\pIch sollte zu meiner Forschung\nzurück.\pUnd ich frage Arthur, ob er bei\nder Suche nach dem Flüchtling\lweitergekommen ist…\pViel Glück, <0xFD><0x01>!\nIch hoffe, du glänzt!'
 - offset: '0x1f51f11'
   name: English toponym canonicalisation 0x1F51F11
   issue: DE — English toponyms
@@ -6828,9 +6782,8 @@ entries:
   issue: DE — English toponyms
   expected: Gut, wenn Zapdos in Sicherheit ist,\nkönnen wir erstmal durchatmen.\pAch ja…{PAUSE} du machst doch die\nArena-Herausforderung, oder?\pDann solltest du zur {COLOR}ÉTarmigan Mansion{COLOR}Ë\ngehen.\pSie ist keine offizielle Arena, aber\nsieh sie als Arena 4,5!\pIch hörte, wenn du die Nachfolgerin der\nVilla besiegst, erhältst du eine\lunglaubliche neue Kraft!\pWelche? Ha ha, das würde die\nÜberraschung verderben!
 - offset: '0x1f4639b'
-  name: English toponym canonicalisation 0x1F4639B
-  issue: DE — English toponyms
-  expected: Ja, {PLAYER}, ich bin erleichtert zu\nsehen, dass du und Jax wohlauf\pseid. Ihr habt mir beiden\pgroße Sorgen bereitet! Auch wenn es euch\nnicht sehr lang vorkam, ist hier\lviel Zeit vergangen, während\lihr in der Distortion World wart.
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ja, <0xFD><0x01>, zum Glück\nseid du und Jax wohlauf.\pIhr beide habt mir große Sorgen\ngemacht!\pFür euch war es vielleicht kurz,\naber hier verging viel Zeit,\lwährend ihr in der\lDistortion World wart.'
 - offset: '0x1f54b5d'
   name: English toponym canonicalisation 0x1F54B5D
   issue: DE — English toponyms
@@ -10750,3 +10703,675 @@ entries:
   name: 'B-681 aide Safari 0x1F6834C'
   issue: B-681
   expected: '<0xF8><0x0C>Wahl <0xF8><0x01>Ende <0xF8><0x04>Mehr <0xF8><0x00>Wurf <0xFD><0x02>'
+- offset: '0x1f30071'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Also ist es wahr…\pIch erklärte <0xFD><0x01> gerade\nihre möglichen Ziele… Das\lbestätigt meinen Verdacht.\pDiese Schurken haben es auf das\nlegendäre Pokémon <0xFC><0x01><0x06>Moltres<0xFC><0x01><0x08>\labgesehen.'
+- offset: '0x1f303f6'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Nun, <0xFD><0x01>, es wird\nZeit, dass du heimgehst.\pDu hast deine Besorgung\nerledigt. Deine Mutter vermisst\ldich bestimmt.\pMich überrascht trotzdem, wie\nleicht du hierhergefunden\lhast…\pIch muss deiner Mutter\nerzählen, wie zuverlässig\ldu bei Besorgungen\lgeworden bist, <0xFD><0x02>!\pHo ho ho!'
+- offset: '0x1f307eb'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gut, <0xFD><0x01>, du\nkannst Jax folgen.\pIch werde…<0xFC><0x08><0x20> deiner Mutter\nsagen, du hast meine Besorgung\lerledigt und bist zur\lArenen-Herausforderung\laufgebrochen.\pJa, das dürfte reichen.'
+- offset: '0x1f30c2d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Oh, <0xFD><0x01>! Willkommen.\pDanke, dass du Jax bei meiner\nRettung geholfen hast.\pEr…<0xFC><0x08><0x18> nun, er war gerade bei\nmir.\pEr erzählte, wie ihn der Druck\nbelastete, meinem Erbe gerecht\lzu werden…\pBesonders nach den Rückschlägen\ngegen die Schatten und das\lLicht des Verderbens.\pVielleicht habe ich zu viel von\nihm verlangt…\pIch sagte ihm, er solle für sich\nselbst stärker werden, nicht für\lmich.\pWobei… Ich hätte nichts\ndagegen, wenn er stark genug\lwürde, deinen Platz als Champion\leinzunehmen.\pHo ho ho!\pAch ja.\pAls Dank für meine Rettung\nmöchte ich dir das geben.'
+- offset: '0x1f30f62'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wie läuft deine\nReise, <0xFD><0x01>?'
+- offset: '0x1f3129d'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Seufz…<0xFC><0x08><0x18> Ich hatte gehofft, es\nkäme nicht so weit…\pIch habe nur wenige Pokémon für\ndiese Mission mitgenommen. Zum\lGlück habe ich noch andere\lVerbündete…\pSchattenkrieger…<0xFC><0x08><0x20> wenn ich\nbitten darf…<0xFC><0x01><0x08>'
+- offset: '0x1f31c5c'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Ich helfe Ihnen im Kampf,\nMarlon, Sir!'
+- offset: '0x1f33351'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wie bitte? Du weißt nicht, was\neine VM ist?\pHuiii!\pEine <0xFC><0x01><0x06>VM<0xFC><0x01><0x08>, eine Versteckte\nMaschine, ermöglicht eine\lAttacke, mit der Pokémon\lHindernisse beseitigen.\pIst die VM in deinem Cube und\nein Pokémon im Team kann sie\lerlernen, kannst du sie draußen\leinsetzen. Selbst wenn das\lPokémon kampfunfähig ist!\pAlso: <0xFC><0x01><0x06>Deine Pokémon müssen die\nVM zum Einsatz nicht erlernt\lhaben<0xFC><0x01><0x08>.\pPraktisch, was?\pMit der VM <0xFC><0x01><0x06>Zerschneider<0xFC><0x01><0x08> kannst\ndu den lästigen Baum vor\l<0xFC><0x01><0x06>Valley Cave<0xFC><0x01><0x08> beseitigen.\pViel Glück, <0xFD><0x02>!'
+- offset: '0x1f33cc0'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hehe…<0xFC><0x08><0x20> Ich kann dir wohl immer\nnoch nicht das Wasser reichen.\pDas ist…<0xFC><0x08><0x18> okay.\pIch kann also noch stärker\nwerden.\pUnd das werde ich.\pIch werde stark. Stärker als\nalle anderen!\pBei unserem nächsten\nTreffen wirst du sicher\lverlieren, <0xFD><0x01>!\pJetzt entschuldige mich, ich\nhabe Wichtiges zu tun.'
+- offset: '0x1f3403c'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Stell dich mit einem Pokémon,\ndas Zertrümmerer erlernen kann,\lvor einen rissigen Felsen. Drücke\l<0xF8><0x00>, um ihn zu zerbrechen.\pMit aktivierten <0xFC><0x01><0x06>Schnellen VMs<0xFC><0x01><0x04>\nzerbricht er sofort!\pDu wirst nicht einmal gefragt,\nob du ihn zerbrechen willst!\pJetzt kennst du hoffentlich die\nGrundlagen von Zertrümmerer!\pIch muss zurück zur Arena. Bis\nzum nächsten Mal!'
+- offset: '0x1f342e5'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x08>Gah!\pMein Körper…<0xFC><0x08><0x20> gehorcht mir…<0xFC><0x08><0x20>\nnicht mehr…!'
+- offset: '0x1f34aa1'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Prima!\pDie Route ist ziemlich groß. Das\nist wohl eine Aufgabe für zwei\lTrainer.\pÜbernimm du die Führung.\pIch unterstütze deine Pokémon\nund halte sie gesund.\pLos geht''s, <0xFD><0x01>!'
+- offset: '0x1f35323'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Es tut mir leid, dass ich Sie\nenttäuscht habe, Ma''am!'
+- offset: '0x1f35342'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x08>Na also!\pMit meinen Pokémon bin ich nicht\naufzuhalten!\pNein…<0xFC><0x08><0x18> WIR sind nicht\naufzuhalten!\pJetzt her mit dem\nGefängnisstein!'
+- offset: '0x1f3557d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Sie wurden optimiert,\numgewandelt in etwas, das besser\lfür unser Ziel geeignet ist.\pUnd im Moment ist ihr Ziel…<0xFC><0x08><0x18>\neuch aufzuhalten, während wir\luns zurückziehen.'
+- offset: '0x1f357f8'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Sie sind also entkommen…\pJax, du musst sie verfolgen!\pWenn sie den Stein zerbrechen\nund die Flasche benutzen, wären\ldie Folgen katastrophal!'
+- offset: '0x1f35890'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ich weiß…<0xFC><0x08><0x18> Wissen Sie, wohin sie\nunterwegs sein könnten, Dr.\lHarth?'
+- offset: '0x1f37282'
+  name: 'B-680 : dialogue qualifié'
+  expected: '…\p<0xFC><0x06><0x00>Du bist wirklich unglaublich,\n<0xFD><0x01>… Ich meine…<0xFC><0x08><0x18>\lganz allein, du…'
+- offset: '0x1f374a2'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Endlich habe ich dich eingeholt!\pIch habe Nachfolgerin Maxima\nbesiegt. Etwas mehr Training in\lder Villa konnte aber nicht\lschaden.\pLass mich raten: Du hast auch\ndie Kraft der Mega-Entwicklung?\p…\pWas rede ich da? Natürlich hast\ndu sie.\pWer mich so oft besiegt, lässt\nsich davon nicht aufhalten.\pAber hier und jetzt beende ich\ndeine Siegesserie!\pLos! Ich zeige dir meine neue\nKraft!'
+- offset: '0x1f3b018'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Aber das ist…\pDAS IST MEINE ORGANISATION!\pIch habe die Firma gegründet!\nDiese Zweigstelle durfte nur mit\lmeiner Zustimmung entstehen!\pIch bin zwar im Ruhestand und\nhabe die Leitung abgegeben,\laber man kann mich nicht\leinfach…<0xFC><0x08><0x18> ersetzen!\pWir hatten eine Abmachung!'
+- offset: '0x1f3c04d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Diese Hexe!\pNur ihretwegen bin ich hier!\pAls sie Hoopa sah, merkte ich\nsofort, wie ihre Besessenheit\lwuchs.\pDarum warf ich Hoopas Pokéball\nins Meer…<0xFC><0x08><0x18> um ihn ihrem Zugriff\lzu entziehen.\pAls wir uns auf der Brücke\ntrafen, fragte sie nach Hoopa.\pIch blieb gelassen und sagte,\nich hätte es nicht mehr…\pDa zog sie einen Cube aus der\nTasche und…<0xFC><0x08><0x18> nun…\p…\pMoment…<0xFC><0x08><0x18> War es mein Widerstand\ngegen das\lSchattenkrieger-Projekt?\pNachdem ich davon erfahren\nhatte, sabotierte ich heimlich\lNacht für Nacht eure Arbeit…\pNein, das kann nicht sein…<0xFC><0x08><0x18> Dann\nwäre ich längst tot…'
+- offset: '0x1f3c6e8'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ich kann euch wohl befreien,\nfalls dies wirklich die dritte\lVersion des Cube-Raums ist.\pDa bin ich recht sicher: Als ich\nherkam, war er völlig ohne\lItems.\pDer Cube V3 war gerade\nvorgestellt worden, aber noch\lniemand hatte Zugang.\pBald war mir klar, dass ich in\neinem fortschrittlicheren\lCube-Raum festsaß.\pIch hatte einen Fluchtplan, aber\nmein Cube ist ein veralteter V2.\pBei euch beiden…<0xFC><0x08><0x18> könnte es\nklappen!'
+- offset: '0x1f3cf8d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Egal!\pDie Zeit drängt! Ihr müsst jetzt\nlos!'
+- offset: '0x1f3d299'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Ähm…<0xFC><0x08><0x18> Sir…?'
+- offset: '0x1f3d2fd'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Bitte. Glaubst du wirklich, du\nkannst mir noch Befehle\lerteilen?\pIch bin Agent Véga der\nWissenschaftlichen Gesellschaft.\pMeine Treue gilt Fey…<0xFC><0x08><0x18> Du hast\ndeine Befugnis über mich\lverloren, als du den Vertrag mit\lihr brachst.\pSchattenkrieger öffentlich\neinsetzen?\pEine zerstörerische dunkle Macht\nfreisetzen, ohne sie erst zu\lverstehen?\pDie Ranger suchen schon einen\nGrund, uns zu schnappen. Zum\lGlück hat sonst niemand unsere\llebenden Waffen entdeckt.\pDu musstest doch ahnen, was\npassiert, wenn Fey davon\lerfährt?\pGerade jetzt, wo sie der\nPerfektion so nah ist…'
+- offset: '0x1f3d5ae'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Sir…<0xFC><0x08><0x18> ähm…<0xFC><0x08><0x18> entschuldigen Sie,\nSir…?'
+- offset: '0x1f3d7b4'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wer weiß…\pSie sagt es nicht einmal mir,\nihrer rechten Hand.\pSie lässt sich eben ungern in die\nKarten schauen…'
+- offset: '0x1f3d8b8'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Vernichtet sie. All diese armen\nGeschöpfe.\pIch konnte darüber nachdenken,\nwas wir diesen armen Pokémon\langetan haben…\pEs war falsch. Alles!\pKeines verdiente solche\nVersuche…<0xFC><0x08><0x18> schon gar nicht auf\ldiese Weise!\pIch kann es nicht ändern, aber\nihrem Schmerz ein Ende setzen.'
+- offset: '0x1f3db1c'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Es ist <0xFD><0x01>, Sir!\p<0xFD><0x04> ist auch hier!'
+- offset: '0x1f3e786'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Danke für deine\nHilfe, <0xFD><0x01>.\pOhne dich hätte ich nicht\nweitergewusst.\pHier, du möchtest wohl deine\nPokémon zurück.'
+- offset: '0x1f3ef60'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Genau…\pUnsere übrigen Wissenschaftler\nsuchen ihre Basis.\pFinden sie sie, überraschen wir\ndas Licht des Verderbens und\lzerstören seine Basis.\pIst ihre Hauptstreitmacht\ngeschwächt, holen wir die\lBannflasche und ihre übrigen\lSchattenkrieger zurück.\pIch weiß nur nicht, wie lange\ndie Suche dauert…\pUnd leider drängt die Zeit.\pAklove ist bei Fey, während sie\nHoopa erforscht.\pDanach will er dessen Kraft\ngegen Borrius richten…\pZerstören wir seine Basis in\nseiner Abwesenheit, überraschen\lwir ihn bei der Rückkehr und\lversiegeln Hoopas Kraft erneut.\pOhne sie ist Aklove erheblich\ngeschwächt.'
+- offset: '0x1f3f277'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ich bin sicher, Marlon.\pLaut unseren Wissenschaftlern\nsind Fey Akloves Ziele völlig\legal.\pSie will nur die Kraft dieses\nPokémon erforschen.\pSie unterstützt ihn zwar, aber\nob er Erfolg hat, liegt\lhauptsächlich an ihm selbst.\pTrotzdem dürfen wir nicht\nunterschätzen, wie gefährlich er\lallein ist…'
+- offset: '0x1f3f846'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Also, <0xFD><0x01>…\nHilfst du uns?\pWir sammeln alle verfügbaren\nMittel und greifen das Licht des\lVerderbens direkt an.\p…\pJa, ich weiß: Du und die\nSchatten…<0xFC><0x08><0x18> wir waren uns nicht\limmer einig, was?\pWürde es reichen, wenn ich dir\nunsere wichtigsten Geheimnisse\lanvertraue?\pDann erkläre ich dir unser\nwahres Ziel…\pDas wahre Ziel der Schatten…'
+- offset: '0x1f3fc2a'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ihr seid erfahrene\nWissenschaftler…<0xFC><0x08><0x18> Habt ihr je\lüberlegt, ihn zurückzuholen?'
+- offset: '0x1f3fc84'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Natürlich…\pWenn jemand einen Weg finden\nkönnte, dann wir, dachten wir als\lWissenschaftler.\pLeider gibt es keine bekannte\nMethode, Tote wirklich\lwiederzubeleben.\pWir mussten versuchen\nweiterzuleben.\pVor einem Jahr brachte Ivory\ndann Zwillinge zur Welt…\pEiner der glücklichsten Momente\nunseres Lebens.\pUnser erstes Kind fehlt uns.\nDoch unsere jüngeren Kinder\lhaben die Leere in unseren\lHerzen etwas gefüllt…'
+- offset: '0x1f40320'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Sie brachten ihre Kinder zurück\nnach Hoenn und zogen ohne sie\lnach Borrius.\pOhne Ablenkung würden wir Erfolg\nhaben, da war ich sicher.'
+- offset: '0x1f40fa8'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Natürlich wurde niemand gegen\nseinen Willen verwandelt.\pAlle Schergen wurden freiwillig\nzu Schattenkriegern, um große\lMacht zu erlangen…\pAber Fey…<0xFC><0x08><0x18> Wie eine Dämonin\ntrieb sie uns zu immer\lgrausameren Extremen, um unsere\lKinder zurückzuholen.\pDabei glaube ich, dass sie sich\nnie für die Kinder interessierte.\pIhr ging es immer nur um die\nSchattenkrieger.'
+- offset: '0x1f41136'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Schließlich erkannten wir, dass\ndie Schattenkrieger unsere\lKinder nicht zurückbringen\lkonnten.\pDer letzte Versuch kam dem\nnahe, aber der Preis für unsere\lKinder wäre zu hoch gewesen.\pWir mussten einen neuen Ansatz\nversuchen.\pEinen extremen, doch plausiblen,\nwenn man die jüngsten Ereignisse\lbedenkt…'
+- offset: '0x1f4129b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wir wollten die Ultimative Waffe\naus den alten Legenden nach\lBorrius bringen.\pSie kann zwar Massenvernichtung\nbewirken, hat aber auch das\lPokémon des fremden Königs\lwiederbelebt.\pWenn sie ein Pokémon\nwiederbeleben konnte…\p…dann wohl auch unsere\nKinder…\pDoch wie viel davon war unsere\nIdee…?\pUnd wie viel war Akloves\nIntrige…?'
+- offset: '0x1f41d4c'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>, du hast\nihn zuletzt gesehen!\pWas ist dort passiert?\p…\pAklove? Nie von ihm gehört…\pWie befürchtet: Die dunkle Macht\nwurde endlich freigesetzt…\p…\pWas!? Aros ist in einem Cube\ngefangen?\pWahnsinn!\p…\pOh nein…\pKenne ich Zeph, kann er mit Jax\nnur eines gemacht haben…\p…\pOh? Jax war nicht bei Zeph?\pDas gibt mir Hoffnung…<0xFC><0x08><0x18> Er muss\nnoch irgendwo da draußen sein…\pDass Zeph dir hilft, überrascht\nmich. Aber du kennst das\lSprichwort…\p„Der Feind meines Feindes ist\nmein Freund.“'
+- offset: '0x1f42b34'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'CHZKKK…\p…<0xFC><0x08><0x20>Ma''am…<0xFC><0x08><0x18> Sie sind wohl doch\ngekommen.\pAber Sie sagten, sie hätten eine\nkleine Armee dabei…\pNein, nur zwei Trainer…\pVerstanden.\pKeine Verstärkung nötig. Ich\nwerde mit ihnen fertig.'
+- offset: '0x1f42c00'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ihr habt einen großen Fehler\ngemacht, indem ihr allein\lhierhergekommen seid.'
+- offset: '0x1f42c83'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ha ha…<0xFC><0x08><0x18> Danke, dass ihr unseren\nVerdacht bestätigt…\p…<0xFC><0x08><0x18>Aber das spielt keine Rolle.\pGlaubt ihr, hinter diesen Türen\nliegt ein roter Teppich für\leuch?\pIch verrate es euch: Dort ist\nunser ganzer Zweig des Lichts\ldes Verderbens!\pKeine Streitmacht in Borrius ist\ngroß genug, uns zu besiegen!\pIhr überheblichen Narren wisst\nnicht, worauf ihr euch einlasst!'
+- offset: '0x1f4362f'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Haltet stand, Schergen! Sie\nversuchen einzudringen!'
+- offset: '0x1f436d1'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Ahh! Sie sind hinter uns!<0xFC><0x08><0x20>'
+- offset: '0x1f43b53'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Ich habe dich verraten? Das\nstimmt nicht, Zeph.\pMeine Haltung…<0xFC><0x08><0x18> meine Ziele…<0xFC><0x08><0x18>\nsind unverändert.\pDu hast uns verraten…<0xFC><0x08><0x18> als du\nAklove nicht als deinen Ersatz\lakzeptieren wolltest.'
+- offset: '0x1f4415f'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ich stimme Marlon zu, Ivory.\pIch habe viele Grenzen\nüberschritten, doch diese werde\lich nicht überschreiten…\pUnd ich kann es auch dir nicht\nerlauben.\pBorrius ist mein Zuhause…<0xFC><0x08><0x18> Nein,\nunser Zuhause!\pAuch mein Sohn…<0xFC><0x08><0x18> braucht ein\nZuhause, in das er zurückkehren\lkann!\pSchattenkrieger! Pack sie!\pEs tut mir leid, aber es muss\nsein, Ivory…'
+- offset: '0x1f44629'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Verzeihung, Aklove.\pDie Schatten sind lästiger als\nerwartet.\pDie von Ihnen zur Überwachung\nder Gewässer beschworenen\lPokémon konnten sie leider nicht\labwehren.\pDie Schatten beschossen die\nKlippe, durchbrachen die Wand\lund überfluteten das\lForschungslabor.'
+- offset: '0x1f44e27'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Was ist das für eine dumme\nLogik!? Mein Bruder ist tot!\pWas ist mit mir? Was ist mit\nMelony?\pHat unser Leben euch überhaupt\ninteressiert?\pUnd all die Male, als ich so nah\nwar…\pIhr habt euch nicht einmal\ngemeldet, um zu sagen, dass es\leuch gut geht!'
+- offset: '0x1f45572'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Häh? Wie ich herkam?\pIch…<0xFC><0x08><0x20> Nun, es war…\pDu kamst nicht aus den Ruinen,\nalso lief ich hinein, um dich zu\lsuchen.\pPlötzlich öffnete sich unter mir\nein Portal, und ich landete\lhier.\pWie konnte ich nur so dumm\nsein…\pSo dumm…<0xFC><0x08><0x18> Wofür trainiert Opa\nmich, wenn ich im wichtigsten\lMoment so leicht versage…?'
+- offset: '0x1f464ab'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wie du wohl schon ahnst, ist das\nLicht des Verderbens längst\lfort.\pIch habe es selbst gesehen.\pIch beobachtete euren Zustand\nvon Route 2 aus.\pHoopa erschien vor dem\nLagerhaus mit dem mutmaßlichen\lAnführer.\pAls ihr nicht auftauchtet,\nfürchtete ich das Schlimmste.\pBevor ich herüberschippern\nkonnte, waren der Anführer und\lseine Schergen verschwunden!\pFort!\pIn einem Augenblick!\pHoopa ist unter ihrer Kontrolle.\nIch wage mir nicht auszumalen,\lwas Aklove plant…'
+- offset: '0x1f46e57'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Warte!'
+- offset: '0x1f46e5d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Es bringt nichts, ohne Plan\nhineinzustürmen.\pAlle müssen bereit sein.\pWir schlagen mit allem zu, was\nwir haben.'
+- offset: '0x1f46edd'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ja, ja, schon verstanden.'
+- offset: '0x1f46fff'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Also, Opa Arthur, bist du\nbereit?'
+- offset: '0x1f47056'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Staraptor! Bring uns nach\n<0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x08>!'
+- offset: '0x1f47080'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Angestellter'
+- offset: '0x1f4739d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Opa Arthur, wir müssen zum\nCrystal Peak.\pDas ist kein gewöhnlicher Sturm\nüber dem Berg.\pSie machen wohl die Ultimative\nWaffe bereit, um Borrius zu\lzerstören!'
+- offset: '0x1f476ec'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>! Was hat\ndich aufgehalten?\pJax und sein Opa trafen mich\nbeim Aufstieg.\pSie baten mich, hier auf dich zu\nwarten. Du würdest bald\lmitkämpfen.\pMit dir komme ich ohnehin\nleichter den Berg hinauf.\pHier wimmelt es von Schergen des\nLichts des Verderbens. Allein ist\les nicht leicht.\pAber vorher…<0xFC><0x08><0x18> kämpfe gegen\nmich.\pNur ein kurzer Test, ob du\nbereit bist.\pSo weiß ich, ob du stark genug\nbist, mit mir hochzuklettern!'
+- offset: '0x1f4792a'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du bist vielleicht bereit für den\nAufstieg, aber ich wohl nicht.\pIch hole schnell andere Pokémon\nvom PC.'
+- offset: '0x1f479a4'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'So, da bin ich wieder.'
+- offset: '0x1f47a18'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Bereit für den weiteren\nAufstieg, <0xFD><0x01>?'
+- offset: '0x1f47a45'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x02><0xFD><0x01> geht mit\n<0xFD><0x06> weiter!'
+- offset: '0x1f47afb'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Beeil dich, <0xFD><0x01>. Wir\nhaben keine Zeit zu verlieren!'
+- offset: '0x1f47b23'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gehen wir so schnell wie möglich\nzum Gipfel.\pDie Kerle vom Licht des\nVerderbens haben gegen uns\lbeide keine Chance!'
+- offset: '0x1f47d2c'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Das scheint der Gipfel\nzu sein, <0xFD><0x01>!\pNur noch ein Stück, dann können\nwir Aklove stoppen!'
+- offset: '0x1f47d84'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wohin gehst du, <0xFD><0x01>?\pMusst du zurück in die Stadt, um\nVorräte zu holen oder so?'
+- offset: '0x1f47ddc'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Komm schnell zurück,\n<0xFD><0x01>. Wir haben\lkeine Zeit zu verlieren!'
+- offset: '0x1f47e06'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Was? Diese Pokémon…\pAklove muss Hoopa diese Falle\ngestellt haben lassen, um uns\laufzuhalten!\pAber wir dürfen jetzt nicht\nstehen bleiben!\pLos, <0xFD><0x01>! Räumen\nwir sie aus dem Weg und\lerreichen den Gipfel!'
+- offset: '0x1f47ebf'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Na also! Als könnte uns so etwas\naufhalten!'
+- offset: '0x1f47eee'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du! Du bist noch hier!?\pWarum? Warum tust du das\nalles!?\pEs bringt nichts, diesem Schurken\nAklove zu helfen!'
+- offset: '0x1f48049'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ich bin nicht zurückgekommen, um\nin Sicherheit zu sein!\pIch will die Zerstörung\nverhindern, die du planst!\pIch wollte immer, dass du und\nPapa heimkommt und wir wieder\leine Familie sind.\pUnd kaum finde ich dich, glaubst\ndu, mit so etwas\ldavonzukommen!?\pNiemals!\pAls du uns verließest, hast du\nschon ein Zuhause zerstört.\pIch lasse dich kein zweites\nzerstören!'
+- offset: '0x1f481b4'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Ginge es nach mir, würden wir\nnichts zerstören, <0xFD><0x06>.\pAber das ist der einzige Weg…'
+- offset: '0x1f4820e'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Alakazam! Halte ihn fest!'
+- offset: '0x1f48340'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x02><0xFD><0x06> leiht dir Toucannon,\nVaporeon und Mamoswine für\lden Kampf gegen Ivory!\pZu Kampfbeginn treten sie\nautomatisch deinem Team bei.'
+- offset: '0x1f483d7'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Du willst diesen Weg also um\njeden Preis gehen…\pNun gut… Ich muss dich nur\nlange genug aufhalten…\pBis Aklove fertig ist, kommst du\nhier nicht durch!'
+- offset: '0x1f48591'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gut, ich bin bereit.\pGehen wir weiter und beenden das\nein für alle Mal!'
+- offset: '0x1f485d8'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Komm schon, Krookodile…\pHeb den Felsbrocken einfach\nhoch und leg ihn zur Seite.'
+- offset: '0x1f4868b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hey! Ich sagte doch, ich komme\nzurück!'
+- offset: '0x1f486aa'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x02>! Setz <0xFD><0x03>\nein! Hilf ihm da heraus!'
+- offset: '0x1f48785'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ich kann mich dafür\ngar nicht genug\lentschuldigen, <0xFD><0x06>…\pIch erwarte auch nicht, dass du\nuns je verzeihst, was wir getan\lhaben…'
+- offset: '0x1f489d3'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Genau diese Schergen sind das\nProblem…\pIch weiß nicht wie, aber sobald\nsie mir in die Augen sahen…\p…erstarrte mein Körper, und sie\nwarfen mich in die Zelle zurück.\pEs sei denn, ihr könnt irgendwie\nan ihnen vorbeischleichen…'
+- offset: '0x1f48a96'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Und dieses „Irgendwie“ finden\nwir.\p<0xFD><0x01> und ich haben\nes doch auch allein\lbis hierher geschafft!\pSelbst wenn wir uns nicht\ndurchkämpfen können, finden wir\leinen Weg!'
+- offset: '0x1f48c0b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hier, <0xFD><0x01>. Das\nwirst du brauchen.'
+- offset: '0x1f48c27'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Anscheinend kann nur das die\ndunkle Macht wieder versiegeln.\lLass es also nicht fallen.\pLos geht''s, <0xFD><0x01>!'
+- offset: '0x1f48c92'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wenn du dem Schergen die Sicht\nversperrst, bemerkt er dich\lvielleicht nicht, wenn du\lvorbeischleichst.'
+- offset: '0x1f48d07'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Dieser komische Typ will mir\neinreden, er sei mein Vater.\p<0xFD><0x06> war nicht begeistert,\nhat es ihm aber geglaubt.\pIch falle nicht darauf rein!\pWarum sollte mein Vater nach 16\nJahren plötzlich auftauchen?'
+- offset: '0x1f48dce'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Dieser komische Typ ist zum\nGipfel gerannt, um mitzukämpfen.\pHoffentlich kommen wir hier heil\nraus…'
+- offset: '0x1f48e35'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x06><0x00>Psst<0xFC><0x06><0x01>…<0xFC><0x06><0x00>\pIhr zwei! Kommt her!'
+- offset: '0x1f48ed0'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Alle Vorbereitungen sind\nabgeschlossen, Aklove.\pDie Schattenkrieger wurden\nerfolgreich in die Waffe\lintegriert.\pMit der aus dem Berg\nabsorbierten Energie ist sie voll\laufgeladen.\pSie können die Aktivierung\ndurchführen, wann immer Sie\lmöchten.'
+- offset: '0x1f48fbd'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Die Ultimative Waffe…'
+- offset: '0x1f48fd2'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Unfassbar, er war die ganze Zeit\ndirekt vor unseren Augen\lverborgen!\pDen Kristall auf dem Gipfel…<0xFC><0x08><0x18>\nmüssen die Aufständischen vor\l3000 Jahren mit Hoopas Kraft\lhergebracht haben.\pDieses Detail stand nie in den\nGeschichtsbüchern…\pUnd ich verschwendete unzählige\nStunden mit der Suche!\pEgal. Jetzt kann ich die Waffe\naktivieren.'
+- offset: '0x1f49131'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Alle Systeme sind aktiviert.\pUnd ein Druck auf diesen\nKnopf…'
+- offset: '0x1f49172'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gastrodon, jetzt! Setz Erdkräfte\nein!'
+- offset: '0x1f491d9'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Tja. Die Welt, in die du mich\ngeschickt hast, war wohl nicht\lso tödlich wie erhofft!'
+- offset: '0x1f4921c'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hoopa! Du nutzloses Pokémon!\pDu konntest ihn nicht einmal\nrichtig loswerden!?'
+- offset: '0x1f49264'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Moment…\pDu warst beim Angriff auf unsere\nBasis nicht dabei, also kannst du\lnicht allein entkommen sein…\pDann hindert mich nichts daran,\ndich gleich zurückzuschicken!'
+- offset: '0x1f49319'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hoopa! Schaff ihn weg!'
+- offset: '0x1f493c2'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>! Das\nist deine Chance!'
+- offset: '0x1f493d9'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gah…<0xFC><0x08><0x20> Ich hätte es wissen\nmüssen.\pDu hast also bei der Flucht\ngeholfen…!'
+- offset: '0x1f4941b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gut! Hoopa! Kümmere dich um\n<0xFD><0x01>! Ich übernehme\lden anderen Plagegeist.'
+- offset: '0x1f49459'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Und du, Ivory, aktiviere die\nWaffe an meiner Stelle!'
+- offset: '0x1f4948d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Das hättest du wohl gern! Du\ngehst nirgendwohin, Ivory!'
+- offset: '0x1f494c1'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Vorher hast du mich besiegt,\naber diesmal stutze ich dich\lzurecht!\pIch werde dich stoppen und uns\nalle retten!'
+- offset: '0x1f4971e'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x02>Rayquaza ist davongeflogen!'
+- offset: '0x1f49748'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x02>Hoopa beschwor eine\ngeheimnisvolle Kraft und wurde\lgrößer!'
+- offset: '0x1f4978d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Schnell, <0xFD><0x01>!\nVersiegle seine Kraft,\lsolange es geschwächt ist!'
+- offset: '0x1f4983d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Verschwinde, Hoopa! Geh mir aus\nden Augen!\pDa deine Kraft versiegelt ist,\nmuss ich eben…'
+- offset: '0x1f498bd'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Lass mich los, du ungehobelter\nGrobian!'
+- offset: '0x1f49935'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Aus dem Weg!\pDie Waffe muss aktiviert werden,\nkoste es, was es wolle!\pWenn du mich nicht durchlässt,\nzwinge ich dich mit oder ohne\lHoopa in die Knie!'
+- offset: '0x1f499e8'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du übernimmst ab hier, okay?'
+- offset: '0x1f49a05'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>! Du dachtest\ndoch nicht, dass ich\ldich damit allein lasse?\pWir haben uns gemeinsam\nheraufgekämpft, also besiegen\lwir ihn gemeinsam!'
+- offset: '0x1f49a85'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Nein… Ich gebe mich nicht\ngeschlagen!'
+- offset: '0x1f49ae9'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Es ist vorbei, Aklove. Zeit, dich\nzu stellen.'
+- offset: '0x1f49b63'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Das ist unmöglich…'
+- offset: '0x1f49cc1'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Nein…<0xFC><0x08><0x20> Das kann nicht sein…\pDie Farbe der Kanone… Sie ist\nvöllig falsch!'
+- offset: '0x1f49d01'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Was…\pWie kommst du hierher!?'
+- offset: '0x1f49e7a'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Diese hinterlistige Hexe!\pIch hätte wissen müssen, dass\nman ihr nicht trauen kann…'
+- offset: '0x1f49f6d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du…<0xFC><0x08><0x20> du ausgemachter Vollidiot!\pWir konnten den Schattenkriegern\nnur genug Energie für einen\lSchuss entziehen, bevor sie alle\lzerfielen!'
+- offset: '0x1f49ff3'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Aber…<0xFC><0x08><0x20> du wolltest mit der\nWaffe meinen toten Sohn\lzurückholen!\pWolltest du mich die ganze Zeit\nhintergehen?'
+- offset: '0x1f4a06e'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Natürlich!\pIch hatte nie vor, dir zu\nhelfen!\pWäre alles nach Plan gelaufen,\nhätte ich dich als Sündenbock\lzurückgelassen und wäre\ldavongeflogen!\pUnd zwar so!'
+- offset: '0x1f4a10f'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Staraptor! Hinterher! Los\ngeht''s!'
+- offset: '0x1f4a12f'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Zeph…<0xFC><0x08><0x20> die Überreste meines\nSohnes…<0xFC><0x08><0x20> ich hatte sie bei\lmir…\pWarum hast du sie nicht…<0xFC><0x08><0x20> warum\nhast du sie nicht geholt!?'
+- offset: '0x1f4a288'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Marlon…<0xFC><0x08><0x20> <0xFD><0x06>…<0xFC><0x08><0x20> alles,\nwas ich wollte, war…<0xFC><0x08><0x20> war…\pAlles war für ihn…<0xFC><0x08><0x20> immer für\nihn…'
+- offset: '0x1f4a2e3'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ivory…<0xFC><0x08><0x20> Du verstehst es noch\nimmer nicht.\pJa, wir verloren ein Kind, doch\nwir bekamen zwei weitere.\pSeit ich <0xFD><0x06> traf…<0xFC><0x08><0x20>\nverstehe ich, was wir\lverloren haben, als wir\lsie damals verließen.\pAber es ist nicht zu spät!\pWir können neu anfangen…<0xFC><0x08><0x20> eine\nneue Beziehung zu ihnen\laufbauen!\pDie verlorenen Jahre holen wir\nnie ganz nach. Aber wir können\lwenigstens anfangen.'
+- offset: '0x1f4a44c'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x04>Ich…<0xFC><0x08><0x20> brauche Zeit zum\nNachdenken. Allein.\pSucht nicht nach mir.'
+- offset: '0x1f4a4a1'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Zeph, Marlon, ihr seid\nverhaftet.\pEure Verbrechen muss ich wohl\nnicht aufzählen.\pIhr wisst beide genau, was ihr\ngetan habt.'
+- offset: '0x1f4a51e'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Bitte, Arthur.\pVerhafte mich, aber lass Marlon\ngehen.\pEr hat schon genug unter all\ndem gelitten…'
+- offset: '0x1f4a574'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hmm…\pDu hast entscheidend dazu\nbeigetragen, der Ultimativen\lWaffe die Energie zu\lentziehen…\pWir können uns wohl einigen.\pMarlon darf vorerst gehen.\pDu kommst bitte mit uns. Wir\nhaben viel zu besprechen.'
+- offset: '0x1f4a639'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Marlon, bitte pass auf meinen\nSohn auf, solange ich weg bin.'
+- offset: '0x1f4a66b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Natürlich, Zeph.\pEr bleibt bei mir zu Hause, bis\ndu freikommst.'
+- offset: '0x1f4a7e3'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x06>, ich weiß schon,\ndass du stark bist…'
+- offset: '0x1f4a805'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Nein, nein, nein. Du verstehst\ndas nicht, alter Mann.\pMich kämpfen zu sehen ist eins.\nAber du hast es noch nicht\lselbst erlebt.'
+- offset: '0x1f4a996'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Los geht''s, alter Mann!\pDas habe ich mir nur für dich\naufgehoben!'
+- offset: '0x1f4a9d7'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ach so…<0xFC><0x08><0x20> Aber meinen\nTrainerstolz habe\lich noch, <0xFD><0x06>.\pSo leicht lasse ich dich nicht\ngewinnen!'
+- offset: '0x1f4aa46'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Natürlich habe ich dabei nichts\nerfahren, was ich nicht schon\lwusste.'
+- offset: '0x1f4abc8'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x06>, holen wir Melony und\ngehen heim nach Frozen Heights.\pIch möchte euch beide\nkennenlernen.'
+- offset: '0x1f4ac1c'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Und was ist mit…<0xFC><0x08><0x20> du weißt\nschon…<0xFC><0x08><0x20> ihr?'
+- offset: '0x1f4ac3d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ivory…<0xFC><0x08><0x20> braucht Zeit für sich.\pSie hat so viel geopfert,\nletztlich für nichts.\pDas muss sie wohl erst\nverarbeiten.\pWenn sie so weit ist, können wir\nsie immer noch suchen.'
+- offset: '0x1f4afa2'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFD><0x01>!\pArthur hat mir gerade die gute\nNachricht überbracht!\pGott sei Dank, du bist heil\nzurück!\pUnd natürlich, danke dir!\pDu, Jax, <0xFD><0x06><0xB0><0xFC><0x08><0x18> ihr\nhabt alles gegeben,\lum Borrius zu retten!\pMan sagt mir zwar, dass mit\ndiesem <0xB1>Aklove<0xB2> noch nicht alles\lgeklärt ist, aber darum kümmerst\ldu dich wohl später.\pDenk erstmal an den leeren Platz\ndes Champions!\pHier, das dürfte dir nützlich\nsein.'
+- offset: '0x1f4b2d7'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Halt!'
+- offset: '0x1f4b2e0'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Endlich habe ich dich\neingeholt, <0xFD><0x01>!\pIch war am Boden zerstört, weil\nAklove entkam, aber dich zu\lfinden hat mich sofort\laufgemuntert!\p<0xB0>\pHäh? Warum bin ich hier?\pNun ja, komische Geschichte<0xB0><0xFC><0x08><0x18>\neigentlich war Opa Arthur\lChampion von Borrius.\pSeit seinem Ruhestand ist der\nTitel unbesetzt!\pDie ganze Zeit hat er mich als\nErsatz trainiert, indem er mich\lgegen Bedrohungen der Region\lkämpfen ließ.\pDeshalb hat Prof. Log dir sicher\nauch all diese Missionen gegeben<0xB0>\pEr und Opa waren schon immer ein\nbisschen Rivalen, ha ha!\pAber gegen einen würdigen\nGegner, den ich respektiere,\lwird dieser Kampf Spaß machen!'
+- offset: '0x1f4b586'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Jetzt sind nur noch du und ich\nübrig.\pBereit? Los geht''s!'
+- offset: '0x1f4bc44'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Glückwunsch! Du hast die\nHaupthandlung von Pokémon\lUnbound abgeschlossen!\pFür diese Leistung wurden alle\nKampfschwierigkeitsgrade\lfreigeschaltet!'
+- offset: '0x1f4bcd8'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Außerdem wurde der Kostümbox\nein neues Outfit hinzugefügt!'
+- offset: '0x1f4bd16'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Auch als Champion hast du noch\nviel zu tun. Geh also noch\lnicht!\pViel Spaß weiterhin mit Pokémon\nUnbound und danke fürs Spielen!'
+- offset: '0x1f4bef9'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ja, herzlichen\nGlückwunsch, <0xFD><0x01>!\pIch hoffte, dich bei deiner\nHeimkehr persönlich zu sehen.\pÜberrascht, dass ich wieder\nSchwarz und Rot trage?\pDas Outfit, das du behalten\ndurftest, war nicht mein\leinziges!\pNach allem musste ich es einfach\nwieder anziehen.\pIvory fehlt noch. Vielleicht\nfinde ich sie leichter, wenn ich\lihr genau gleiche.\pHörst du etwas, <0xFD><0x01>,\nsag mir bitte Bescheid.\pDeinen Vater habe ich natürlich\nnicht vergessen.\pIch suche einen Weg, ihn aus\ndem Cube zu befreien. Bisher\lleider erfolglos.\pFinde ich etwas Nützliches, habe\nich bestimmt eine Mission für\ldich.'
+- offset: '0x1f4c712'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Damit verabschiede ich mich!\pGrüß deine Mutter von\nmir, ja, <0xFD><0x01>?'
+- offset: '0x1f4c75e'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du bist also gekommen…\pHa ha ha ha… Du hattest ja\nauch kaum eine Wahl…'
+- offset: '0x1f4c838'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Seid ihr wütend? Verzehrt die\nWut eure Seelen?\pSo…<0xFC><0x08><0x18> fühlte ich mich, als ihr\nmir alles nahmt…\pAlles, wofür ich so hart\ngearbeitet hatte, im Nu dahin…\pIch hätte endlich meine\nBestimmung erfüllen können…\pFey hat mich verlassen und\nverraten…<0xFC><0x08><0x18> Aber es ist noch\lZeit!\pIch fange wieder an!\pGanz von vorn, ohne auf\njemanden angewiesen zu sein…\pWie diesen Narren Zeph! Oder\ndiese Verräterin Fey!\pSie kamen nicht mit euch. Aber\nan euch beiden kann ich mich\lnoch rächen!'
+- offset: '0x1f4cc4b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Na gut…<0xFC><0x08><0x20> Ich sage es dir…\pMein Vorfahre, den die Legenden\nden „fremden König“ aus dem\lGroßen Krieg nennen…\pSelbst nach 3000 Jahren wandelt\ner noch auf dieser Erde.\pHätte ich sein Werk vollendet…<0xFC><0x08><0x18>\ndiesen Krieg zu seinem rechten\lEnde gebracht…\pDann könnte er in Frieden ruhen.\pBorrius zu unterwerfen…<0xFC><0x08><0x18> hätte\nseinen letzten Wunsch erfüllt.\pAber jetzt…<0xFC><0x08><0x18> ist das nicht mehr\nmöglich…'
+- offset: '0x1f4cde8'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wie erbärmlich.'
+- offset: '0x1f4cdfc'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'W-was hast du gesagt!?'
+- offset: '0x1f4cf5d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hmm? Was sind das für Geräusche\nvon unten?'
+- offset: '0x1f4cf8b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hier hast du ihn also\nhingebracht, Aklove!'
+- offset: '0x1f4cfb3'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Marlon! Du bist auch hier?'
+- offset: '0x1f4d09b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du hättest dich so leicht rächen\nkönnen.\pDie Mutter von <0xFD><0x01>…<0xFC><0x08><0x18>\nJax'' Großvater…<0xFC><0x08><0x18> Zephs Sohn…\pDu hättest sie töten können, als\nsie in deiner Gewalt waren.\pAber du musstest deine\nÜberlegenheit zeigen. Du ließest\lsie leben und kämpftest lieber\lgegen <0xFD><0x01> und Jax.\pWie ich immer dachte…<0xFC><0x08><0x18> Deine\nschlimmsten Instinkte werden dich\lstets den Sieg kosten!'
+- offset: '0x1f4d21c'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Aklove, du gehst jetzt mit\ndiesen Beamten.\pEs wird Zeit, dass du dich\nendlich vor Gericht\lverantwortest.'
+- offset: '0x1f4d27d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Bringen wir dich heim, Zeph Jr.\pJetzt sitzt der böse Mann hinter\nGittern. Dein Vater kommt sicher\lbald frei…'
+- offset: '0x1f4d2e2'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Opa Arthur! Ich habe mir große\nSorgen gemacht!\pGeht es dir gut? Er hat dir\ndoch nichts getan?'
+- offset: '0x1f4d33b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Nein, Jax, mir geht es bestens,\nwie du siehst.\pWie Marlon sagt, hat er uns\nmeist in Ruhe gelassen.\pEr wollte euch wohl nur\nhierherlocken.\pSei froh, dass sein Ego größer\nwar als sein Verstand.'
+- offset: '0x1f4d401'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Puh… Da bin ich erleichtert.\pGehen wir heim, Opa.'
+- offset: '0x1f4d5a6'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Dein Vater wäre so stolz auf\ndich, wie du jetzt bist…'
+- offset: '0x1f4d5e1'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Schnief…'
+- offset: '0x1f4d66d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gehen wir heim, <0xFD><0x01>. Du\nhast dir eine Pause verdient.'
+- offset: '0x1f4d699'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Als Belohnung für Akloves\nFestnahme wurde dein Missionslog\laktualisiert!\pDie Orte verfügbarer Missionen in\nBorrius werden jetzt angezeigt!\pAußerdem wurde Neues Spiel +\nfreigeschaltet!'
+- offset: '0x1f4d8d3'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x02>Darkrai verschwand in der\nDunkelheit…'
+- offset: '0x1f4d8fd'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x02>…Irgendwoher rief eine\nStimme…'
+- offset: '0x1f4ddd0'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Die allgemeine Funktion von <0xF8><0x02>.'
+- offset: '0x1f4ddf1'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Die allgemeine Funktion von <0xF8><0x03>.'
+- offset: '0x1f4e244'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xF8><0x0A>Wahl <0xF8><0x0B>Wechsel <0xF8><0x00><0xF8><0x01>OK <0xFC><0x01><0x05><0xFC><0x03><0x04><0xF8><0x02><0xF8><0x03>Mehr'
+- offset: '0x1f4e4e2'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gewählte Einstellungen <0xFC><0x01><0x06>speichern<0xFC><0x01><0x02>\noder <0xFC><0x01><0x04>verwerfen<0xFC><0x01><0x02>?'
+- offset: '0x1f4e568'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Alles Gute zum Geburtstag! Darf\nich deine Pokémon heilen?'
+- offset: '0x1f4e913'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Äh… Deine Pokémon zu heilen\nkostet dich ¥500.'
+- offset: '0x1f4e951'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Äh… Deine Pokémon zu heilen\nkostet dich alles, was du dabei\lhast.'
+- offset: '0x1f4e9a5'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Äh… Du hast nicht genug Geld.'
+- offset: '0x1f4e9c3'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gib mir endlich deine Pokémon.'
+- offset: '0x1f4e9df'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ja… Ich glaube, deine Pokémon\nsind geheilt.\pAber ich habe keine\nPflegeausbildung, also weiß ich\les nicht genau.'
+- offset: '0x1f4ea46'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hoffentlich sehe ich dich und\ndein Geld bald wieder.'
+- offset: '0x1f4ea74'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Tut mir leid, auf <0xFC><0x01><0x06>Wahnsinnig<0xFC><0x01><0x04> sind\nLink-Funktionen erst nach\lAbschluss des Spiels verfügbar.'
+- offset: '0x1f4ead7'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Tut mir leid, in einer\nZufallsversion von Pokémon\lUnbound sind Link-Funktionen\ldeaktiviert.'
+- offset: '0x1f4eb34'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Tut mir leid, im Sandbox-Modus\nvon Pokémon Unbound sind\lLink-Funktionen deaktiviert.'
+- offset: '0x1f4eb8d'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Tut mir leid, hier endet der\nSandbox-Modus.\pDu kannst deine gefangenen\nPokémon aber gerne tauschen!'
+- offset: '0x1f4ec02'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Es tut mir sehr leid.\pDer Pokémon-Wireless-Club wird\ngerade angepasst.'
+- offset: '0x1f4ec4f'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Tut mir leid, im Kabel-Club\nkannst du nicht mehr tauschen.\pNutze bitte Unbound Cloud, wenn\ndu Pokémon tauschen möchtest.'
+- offset: '0x1f4ed3f'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hallo, <0xFD><0x01>!\pIch bin''s, Teala, die\nEmpfangsdame im 1. Stock des\lPokémon-Centers.\pHast du Fragen zu\nLink-Verbindungen?'
+- offset: '0x1f4edb2'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Ich erkläre dir den\nPokémon-Wireless-Club.\pHier oben gibt es zwei Räume.\pLinks ist der Konnex-Klub.\pDort verbindest du dich per\nDrahtlosadapter mit Trainern in\lder Nähe, die ebenfalls im\lKonnex-Klub sind.\pIhr könnt reden, kämpfen und\ntauschen.\pRechts ist die Direktverbindung.\pHier kannst du mit Freunden\nkämpfen, aber nicht mehr\ltauschen.\pNutze zum Tauschen bitte\nUnbound Cloud.\pManchmal findest du deine\nFreunde weder im Konnex-Klub\lnoch in der Direktverbindung.\pGehe dann näher an sie heran.\pOhne Drahtlosadapter kannst du\nauch ein GBA-Game-Link-Kabel\lverwenden.\pDafür musst du zur\nDirektverbindung.\pViel Spaß mit dem drahtlosen\nKommunikationssystem.'
+- offset: '0x1f4f105'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Deine Link-Kampfrekorde?\nNatürlich.'
+- offset: '0x1f4f12a'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Viel Spaß mit dem drahtlosen\nKommunikationssystem.'
+- offset: '0x1f4f1ad'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Eine mächtige Präsenz ist zu\nspüren!'
+- offset: '0x1f4f1da'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Jedes Mitglied der Top 4 schafft\nvor dem Kampf besondere\lFeldbedingungen.\pZuerst <0xFC><0x01><0x06>Moleman<0xFC><0x01><0x08>.\pEr löst einen heftigen Sandsturm\naus, der mehr Schaden\lverursacht als ein normaler.\pDieser stärkt auch die\nSpezialverteidigung von\lBoden-Pokémon und lässt sich\lnicht vertreiben.\pDann <0xFC><0x01><0x06>Elias<0xFC><0x01><0x08>.\pBei vollen KP erleiden\nGeist-Pokémon nur halben\lSchaden und sind gegen\lEintrittsgefahren immun.\pBodyguard und Delegator\nscheitern, außer bei\lGeist-Pokémon.\pAls Dritte kommt <0xFC><0x01><0x06>Arabella<0xFC><0x01><0x08>.\pIhr Raum ist von Nebelfeld\nerfüllt.\pAußerdem steigt bei jedem\neingewechselten Fee-Pokémon der\lniedrigere Verteidigungswert.\pZuletzt kommt <0xFC><0x01><0x06>Penny<0xFC><0x01><0x08>.\pEin Regenbogen erhöht die\nChance auf Zusatzeffekte von\lAttacken, die Drachen-Pokémon\leinsetzen.\pBereite dich auf diese\nBedingungen vor!'
+- offset: '0x1f4f57b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Manche Mitglieder der Top 4\nbestreiten gern Doppelkämpfe.\pHast du die TM für\n<0xFC><0x01><0x06>Schutzschild<0xFC><0x01><0x04> noch nicht,\lsolltest du sie jetzt auf dem\lMarkt in <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> kaufen.'
+- offset: '0x1f4f900'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du trittst gegen die Top 4 der\nPokémon League an.\pDie Reihenfolge ist beliebig.\nVerlierst du aber gegen eines\lder Mitglieder, musst du von\lvorn beginnen.'
+- offset: '0x1f4f9aa'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du bist mein Ein und Alles'
+- offset: '0x1f4fb38'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Viel Glück! Vergiss nie: Die\nBindung zu deinen Pokémon gibt\ldir Kraft!'
+- offset: '0x1f4fb93'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du gehörst wohl zu denen, die\nmehr als einen Freund brauchen.'
+- offset: '0x1f4fbd7'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du schaffst das!\pDu musst nur die Pokémon League\nmit einem einzigen Pokémon\lbesiegen!'
+- offset: '0x1f4fc2b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du hast es geschafft!\pIch habe nie an dir gezweifelt!\pDie Bindung zu deinen Pokémon\nist dir am wichtigsten. Das hast\ldu bewiesen.\pHier, falls du einen noch\nstärkeren Freund möchtest.'
+- offset: '0x1f4fcd5'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Unterschätze nie die Kraft der\nFreundschaft!\pSie ist zweifellos der wichtigste\nWert!'
+- offset: '0x1f4fd34'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wer wagt es, das Reich des\nMaulwurfmanns zu betreten?\pOberflächenbewohner!\pJahrelang lebten mein Volk und\nich unter der Erde, nur mit\lBoden-Pokémon und der Erde\lselbst.\pIn dieser sonnenlosen Welt sind\nwir gestählt und erstarkt!\pUnd dennoch versuchst du, uns\nzu beherrschen, wie einst deine\lVorfahren!?\pNun gut! Koste den Zorn des\nMaulwurfvolks und der Erde!'
+- offset: '0x1f4ff74'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Noch kann ich mich nicht aus den\nFängen dieser „Top 4“ befreien.\pAber wenn die Zeit kommt…\nHmpf.\pNun gut.\pStell dich den übrigen\nMitgliedern.\pBis wir uns wiedersehen…'
+- offset: '0x1f5021f'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gah… Meine Rache muss wohl\nnoch warten…\pGeh. Und komm nicht wieder, denn\nnächstes Mal werde ich siegen!'
+- offset: '0x1f50295'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Du hast also die Größten der\nMenschen und Maulwurfmenschen\lbesiegt.\pNun verteidige deinen\nChampion-Titel.\pBis wir Maulwurfmenschen ihn uns\nholen…'
+- offset: '0x1f50338'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Howdy. Ich bin Elias.\pOder besser: die Leiche, die\nfrüher Elias hieß.\pTot zu sein befreit wohl nicht\nvon den Pflichten bei den Top 4,\lwas?\pMiese Wirtschaftslage…\pJa, ich war schon zu Lebzeiten\njahrelang Mitglied.\pNach meinem Tod gruben diese\nIdioten mich aus und steckten\lein Geist-Pokémon samt meinem\lGeist hinein.\pVersteh mich nicht falsch.\pIch habe noch alle Sinne\nbeisammen. Meine Pokémon sind\lauch nicht schwächer.\pEher noch stärker geworden…\pSeufz. Kämpfen wir, bevor dieses\nblöde Fleischgefängnis zerfällt.'
+- offset: '0x1f50576'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Gut gemacht. Ich würde dir die\nHand geben, aber ich bin nicht\lmehr so beweglich…\pAußerdem würde sie dabei wohl\nabfallen…'
+- offset: '0x1f506de'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Na, sieh mal einer an!\pDamit sind wir alle vier besiegt.\pBesteige deinen verdienten\nChampion-Thron.\pDraußen die mittlere Tür. Nicht\nzu übersehen.'
+- offset: '0x1f50979'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Na, sieh mal einer an!\pDamit sind wir alle vier besiegt.\pGeh deinen Champion-Titel\nverteidigen.'
+- offset: '0x1f509eb'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hallöchen!\pNein, ich bin kein verirrtes\nKind!\pIch bin Feenprinzessin Arabella!\nIch gehöre zu den Top 4!\pPapa war auch Mitglied, aber er\nwurde gefeuert.\pIch habe mich freiwillig\ngemeldet. Jetzt bin ich bei den\lTop 4!\pToll! Ich bekomme viel Geld für\nKämpfe gegen Trainer!\p…auch wenn ich etwas mit Papa\nteilen muss.\pUnd wenn ich gewinne, darf ich\nLeute zu meinen Teepartys\leinladen!\pAlso dann!\pKämpfen wir! Ich zeige dir, wie\neine Feenprinzessin das macht!'
+- offset: '0x1f50ba2'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Das war supertoll, <0xFD><0x01>!\nIch hatte so viel Spaß!'
+- offset: '0x1f50ca4'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wow! Du hast uns alle besiegt!\nDu bist superstark!\pMitten in der Halle draußen ist\neine große Tür.\pDort ist der Raum des Champions!\nSchau ihn dir an!'
+- offset: '0x1f50e8b'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Danke für den erneuten Kampf!\pPapa kämpft kaum noch, seit er\naufgehört hat.\pAber das ist okay!\pIch bleibe bei den Top 4, bis\nPapa einen neuen Job hat!'
+- offset: '0x1f50f24'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wow! Du hast uns alle besiegt!\nDu bist superstark!\pJetzt solltest du deinen\nChampion-Titel verteidigen!'
+- offset: '0x1f51177'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Was!? Dabei hatte ich den\nallerbesten Pokémon-Typ der\lWelt!\p…Na gut. Das war schon\nbeeindruckend.\pMeine Drachen und ich müssen\nwohl noch stärker werden.'
+- offset: '0x1f5172e'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x02>Du hast deinen Titel verteidigt!\nHerzlichen Glückwunsch!'
+- offset: '0x1f528c9'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hi, <0xFD><0x01>!\pWeißt du noch? Ich bin Milo vom\nThundercap Mt.!\pIch bin extra hergekommen, um\ndich wiederzusehen!\pLass uns kämpfen!\pMit einem starken Trainer wie dir\nmacht das bestimmt Spaß!'
+- offset: '0x1f529cf'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Hey, Champion!\pIch habe die Top 4 nur\ngeschafft, um gegen dich zu\lkämpfen!\pMeine Shorts und ich verlieren\ndiesen Kampf nicht!'
+- offset: '0x1f52cb9'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Heute tanzen wir aus einem\nGrund.\pHaben wir unseren Zweck erfüllt,\nverschwinden wir aus einem\lGrund.'
+- offset: '0x1f52d17'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Wir tanzen zu Ehren unserer\nGöttin! Der einzigen, wahren\lMeloetta!\pWer braucht schon Arceus?'
+- offset: '0x1f52d65'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Die Legende sagt, Meloetta\nerscheint, wenn man eifrig genug\ltanzt.\pWir tanzen, um eines Tages eine\nwahre Tänzerin zu sehen.'
+- offset: '0x1f52de1'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'In der Nacht, in der ich\nMeloetta sehe, kehre ich in mein\lnormales Leben zurück.\pDoch bis dahin… tanze ich!'
+- offset: '0x1f52e39'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Meloetta! Wir lieben dich!'
+- offset: '0x1f53305'
+  name: 'B-680 : dialogue qualifié'
+  expected: '<0xFC><0x01><0x06>Quak…'
+- offset: '0x1f5330f'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Jeden Tag ein Schiff zu steuern\nmacht müde! Heute fährt es\lnicht.\pEs fährt <0xFC><0x01><0x06>sonntags<0xFC><0x01><0x08> und <0xFC><0x01><0x06>mittwochs<0xFC><0x01><0x08>\nnach Seaport City!'
+- offset: '0x1f533ee'
+  name: 'B-680 : dialogue qualifié'
+  expected: 'Die S.S. Marine fährt jeden\n<0xFC><0x01><0x06>Sonntag<0xFC><0x01><0x08> und <0xFC><0x01><0x06>Mittwoch<0xFC><0x01><0x08> nach\lWest-Borrius.'

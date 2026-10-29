@@ -431,6 +431,7 @@ rom_test_exclusions:
 de_only_rom_tests:
   reason: Couverture déjà propre à DE sans scénario FR strictement équivalent.
   sources:
+    - tests/unit/test_dialogues_08_de.py
     - tests/unit/de/test_combat_ui_02.py
     - tests/e2e/de/test_combat_ui_02.py
     - tests/unit/de/test_structured_combat_ui_03.py
