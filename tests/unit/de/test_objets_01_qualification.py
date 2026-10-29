@@ -14,6 +14,17 @@ REPORT = json.loads((ROOT / 'docs/analysis/683_OBJETS_01_DE.json').read_text())
 ENTRIES = REPORT['entries']
 
 
+def test_child_corrections_cover_exactly_the_parent_patch_requirements() -> None:
+    """La clôture exige une correction enfant pour chacun des besoins relevés."""
+    child = json.loads((ROOT / 'docs/analysis/1026_OBJETS_01_DE.json').read_text())
+    required = {row['offset'] for row in ENTRIES if row['decision'] == 'patch séparé requis'}
+
+    corrected = [row['offset'] for row in child['entries']]
+
+    assert len(corrected) == len(set(corrected)) == 122
+    assert set(corrected) == required
+
+
 def test_objets_01_scope_matches_the_exclusive_ticket_list() -> None:
     """Une omission, un doublon ou un offset étranger invalide le relevé."""
     offsets = [row['offset'] for row in ENTRIES]

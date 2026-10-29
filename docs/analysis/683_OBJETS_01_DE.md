@@ -2,6 +2,37 @@
 
 Qualification des **300 offsets exclusifs** du ticket, le 29 octobre 2026. Aucun audit global.
 
+## Clôture après intégration de B-1026
+
+Les 122 besoins de patch séparé décrits ci-dessous sont désormais résolus par
+B-1026, intégré dans les commits `2630ebcf`, `c7ddb7d9` et `a00074bb`.
+La comparaison des ensembles d'offsets confirme une correspondance exacte entre
+les 122 besoins du présent relevé et les 122 corrections du rapport enfant.
+Le bilan final est donc **122 noms corrigés, 145 déjà correctement patchés et
+33 termes légitimes conservés**, soit 300 décisions sur 300.
+
+Le rapport et le JSON B-683 restent un relevé historique avant correction : les
+mentions « absent du corpus », « patch séparé requis » et les octets observés
+ci-dessous ne décrivent pas la ROM finale. Les valeurs définitives, les six
+abréviations et les neuf décisions spécifiques Unbound sont documentées dans
+[1026_OBJETS_01_DE.md](1026_OBJETS_01_DE.md) et son JSON associé. En particulier,
+les propositions « Schlüssel: 2/3 » ont été remplacées par « Codekarte: 2/3 »
+après confrontation aux descriptions ; Hard Stone est désormais Granitstein.
+
+Vérification parent après intégration : `make build-de` réussi, puis **315 tests
+ciblés réussis**, dont le contrôle ROM des 300 cellules, de la base vivante et
+de la préservation des métadonnées et pointeurs pendant le patch des noms.
+L'absence initiale de la sauvegarde `.item-names.bak` dans l'ancien build parent
+a été résolue par cette reconstruction, sans désactiver le test.
+La reprise confirme `make test-python` : **4 341 réussis, trois skips préexistants**,
+sans échec ; Ruff et le contrôle du diff passent également.
+
+Preuve visuelle fournie par B-1026 : 122 résolutions `bufferitemname` dans mGBA,
+douze noms rendus avec OCR et assertions de pixels ; capture finale attachée
+au ticket enfant : `d0f9264e-d776-4f2f-b8ff-4b5ed6caaec8`.
+Non vérifié : capture individuelle des 122 lignes du sac et accessibilité de
+chaque objet en partie ; les budgets pixels sont contrôlés automatiquement.
+
 ## Résultat
 
 | Décision | Nombre |
