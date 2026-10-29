@@ -28226,3 +28226,234 @@ entries:
   - offset: "0xa42da9"
     name: "PT-41 mouvement 701"
     expected: "Branch Poke"
+  - offset: "0xa43d50"
+    name: "PT-43 0xa43d50"
+    expected: 'Ué? O DexNav detectou um\nPokémon incomum!'
+  - offset: "0xa43d94"
+    name: "PT-43 0xa43d94"
+    expected: 'Spikes se espalharam\nao redor da equipe <0xFD><0x35>!'
+  - offset: "0xa43dbe"
+    name: "PT-43 0xa43dbe"
+    expected: 'Espinhos venenosos cercam\na equipe <0xFD><0x35>!'
+  - offset: "0xa43def"
+    name: "PT-43 0xa43def"
+    expected: 'Pedras pontudas flutuam\nao redor da equipe <0xFD><0x35>!'
+  - offset: "0xa43e1f"
+    name: "PT-43 0xa43e1f"
+    expected: 'Uma teia pegajosa cerca\na equipe <0xFD><0x35>!'
+  - offset: "0xa43e4e"
+    name: "PT-43 0xa43e4e"
+    expected: 'Lascas de aço flutuam\nao redor da equipe <0xFD><0x35>!'
+  - offset: "0xa43e85"
+    name: "PT-43 0xa43e85"
+    expected: 'As armadilhas do lado\n<0xFD><0x36> foram removidas!'
+  - offset: "0xa43eb7"
+    name: "PT-43 0xa43eb7"
+    expected: 'As armadilhas do lado\n<0xFD><0x35> foram removidas!'
+  - offset: "0xa43ee9"
+    name: "PT-43 0xa43ee9"
+    expected: '<0xFD><0x10> sofreu dano\ncom Spikes!'
+  - offset: "0xa43f03"
+    name: "PT-43 0xa43f03"
+    expected: 'Pedras pontudas atingiram\n<0xFD><0x10>!'
+  - offset: "0xa43f1f"
+    name: "PT-43 0xa43f1f"
+    expected: 'Lascas de aço atingiram\n<0xFD><0x10>!'
+  - offset: "0xa43f3c"
+    name: "PT-43 0xa43f3c"
+    expected: 'Toxic Spikes sumiram dos pés\nde <0xFD><0x10>!'
+  - offset: "0xa43f70"
+    name: "PT-43 0xa43f70"
+    expected: '<0xFD><0x10> caiu\nnuma Sticky Web!'
+  - offset: "0xa43f8f"
+    name: "PT-43 0xa43f8f"
+    expected: 'As armadilhas ao redor de\n<0xFD><0x0F> sumiram!'
+  - offset: "0xa43fbb"
+    name: "PT-43 0xa43fbb"
+    expected: 'Recorde Individual'
+  - offset: "0xa43fd1"
+    name: "PT-43 0xa43fd1"
+    expected: 'Recorde Dupla'
+  - offset: "0xa43fe6"
+    name: "PT-43 0xa43fe6"
+    expected: 'Recorde Multi'
+  - offset: "0xa43ffa"
+    name: "PT-43 0xa43ffa"
+    expected: 'Recorde Multi Link'
+  - offset: "0xa44013"
+    name: "PT-43 0xa44013"
+    expected: 'Rec. Indiv. Aleat.'
+  - offset: "0xa4402a"
+    name: "PT-43 0xa4402a"
+    expected: 'Rec. Dupla Aleat.'
+  - offset: "0xa44041"
+    name: "PT-43 0xa44041"
+    expected: 'Rec. Multi Aleat.'
+  - offset: "0xa44057"
+    name: "PT-43 0xa44057"
+    expected: 'Batalha Individual'
+  - offset: "0xa44065"
+    name: "PT-43 0xa44065"
+    expected: 'Batalha Dupla'
+  - offset: "0xa44073"
+    name: "PT-43 0xa44073"
+    expected: 'Batalha Multi'
+  - offset: "0xa44080"
+    name: "PT-43 0xa44080"
+    expected: 'Batalha Multi Link'
+  - offset: "0xa44092"
+    name: "PT-43 0xa44092"
+    expected: 'Individual Aleatória'
+  - offset: "0xa440a7"
+    name: "PT-43 0xa440a7"
+    expected: 'Dupla Aleatória'
+  - offset: "0xa440bc"
+    name: "PT-43 0xa440bc"
+    expected: 'Multi Aleatória'
+  - offset: "0xa440d0"
+    name: "PT-43 0xa440d0"
+    expected: 'Nível 5'
+  - offset: "0xa440d8"
+    name: "PT-43 0xa440d8"
+    expected: 'Nível 50'
+  - offset: "0xa440e1"
+    name: "PT-43 0xa440e1"
+    expected: 'Nível 100'
+  - offset: "0xa440eb"
+    name: "PT-43 0xa440eb"
+    expected: 'Série atual:\nRecorde:'
+  - offset: "0xa4410a"
+    name: "PT-43 0xa4410a"
+    expected: 'Recorde:'
+  - offset: "0xa4412b"
+    name: "PT-43 0xa4412b"
+    expected: 'Padrão'
+  - offset: "0xa44134"
+    name: "PT-43 0xa44134"
+    expected: 'Sem restrições'
+  - offset: "0xa44250"
+    name: "PT-43 0xa44250"
+    expected: 'Dynamax Padrão'
+  - offset: "0xa442b9"
+    name: "PT-43 0xa442b9"
+    expected: 'Formato Caverna'
+  - offset: "0xa442c5"
+    name: "PT-43 0xa442c5"
+    expected: 'Formato Montanha'
+  - offset: "0xa442d5"
+    name: "PT-43 0xa442d5"
+    expected: 'Formato Seixo'
+  - offset: "0xa442e3"
+    name: "PT-43 0xa442e3"
+    expected: 'Formato Cordilheira'
+  - offset: "0xa442fc"
+    name: "PT-43 0xa442fc"
+    expected: 'poder'
+  - offset: "0xa44304"
+    name: "PT-43 0xa44304"
+    expected: 'não poder'
+  - offset: "0xa44310"
+    name: "PT-43 0xa44310"
+    expected: 'Anterior'
+  - offset: "0xa44319"
+    name: "PT-43 0xa44319"
+    expected: 'Atual'
+  - offset: "0xa44325"
+    name: "PT-43 0xa44325"
+    expected: 'Nenhum'
+  - offset: "0xa4432a"
+    name: "PT-43 0xa4432a"
+    expected: 'com o campo eletrificado!<0xFB>No chão, Pokémon não adormecem\ne golpes Elétricos ganham força!'
+  - offset: "0xa44391"
+    name: "PT-43 0xa44391"
+    expected: 'com o campo gramado!<0xFB>No chão, golpes Planta ganham força\ne Pokémon se curam a cada turno!'
+  - offset: "0xa443ee"
+    name: "PT-43 0xa443ee"
+    expected: 'com o campo enevoado!<0xFB>No chão, golpes Fada ganham força\ne Pokémon ficam imunes<0xFA>a condições de status!'
+  - offset: "0xa44464"
+    name: "PT-43 0xa44464"
+    expected: 'com o campo estranho!<0xFB>No chão, golpes Psíquicos têm bônus\ne Pokémon ficam imunes<0xFA>a golpes com prioridade!'
+  - offset: "0xa444d1"
+    name: "PT-43 0xa444d1"
+    expected: 'na chuva!'
+  - offset: "0xa444de"
+    name: "PT-43 0xa444de"
+    expected: 'sob o sol!'
+  - offset: "0xa444ea"
+    name: "PT-43 0xa444ea"
+    expected: 'numa tempestade de areia!'
+  - offset: "0xa444fa"
+    name: "PT-43 0xa444fa"
+    expected: 'numa tempestade de granizo!'
+  - offset: "0xa4450a"
+    name: "PT-43 0xa4450a"
+    expected: 'com ventos fortes!<0xFB>Pokémon Voadores sofrem menos\ndano de golpes supereficazes!'
+  - offset: "0xa44566"
+    name: "PT-43 0xa44566"
+    expected: 'em Trick Room!<0xFB>Pokémon lentos agem primeiro!'
+  - offset: "0xa44599"
+    name: "PT-43 0xa44599"
+    expected: 'em Magic Room!<0xFB>A maioria dos itens segurados\nnão tem efeito!'
+  - offset: "0xa445ca"
+    name: "PT-43 0xa445ca"
+    expected: 'em Wonder Room!<0xFB>Defesa e Defesa Especial\nsão trocadas!'
+  - offset: "0xa44603"
+    name: "PT-43 0xa44603"
+    expected: 'com gravidade intensa!<0xFB>Nenhum Pokémon fica no ar!'
+  - offset: "0xa4463a"
+    name: "PT-43 0xa4463a"
+    expected: 'com eletromagnetismo no campo!<0xFB>Pokémon Elétricos e Aço são imunes\na movimentos do tipo Terrestre!'
+  - offset: "0xa446a2"
+    name: "PT-43 0xa446a2"
+    expected: 'com o campo bloqueado!<0xFB>Nenhum Pokémon poderá\nser trocado!'
+  - offset: "0xa446eb"
+    name: "PT-43 0xa446eb"
+    expected: 'com fadas no ar!<0xFB>Pokémon Fada terão aumentada\nsua menor estatística defensiva!'
+  - offset: "0xa44745"
+    name: "PT-43 0xa44745"
+    expected: 'com emoções negativas no ar!<0xFB>Pokémon que não sejam Sombrio,\nFantasma ou Psíquico,<0xFA>nem tenham as Habilidades<0xFA>Unaware, Oblivious ou Magic Guard,<0xFA>sofrerão dano a cada turno!'
+  - offset: "0xa447ff"
+    name: "PT-43 0xa447ff"
+    expected: 'numa Batalha Inversa!<0xFB>As relações de tipos se invertem!'
+  - offset: "0xa44835"
+    name: "PT-43 0xa44835"
+    expected: 'com um Power Spot ativo!<0xFB>Todos os Pokémon poderão usar\nDynamax!<0xFB>Mas não poderão usar Mega Evolução,\nPrimal Reversion, Ultra Burst<0xFA>nem movimentos Z!'
+  - offset: "0xa448d0"
+    name: "PT-43 0xa448d0"
+    expected: 'com Pokémon trocados!<0xFB>Cada lado usará um Pokémon\naleatório da equipe adversária!'
+  - offset: "0xa44927"
+    name: "PT-43 0xa44927"
+    expected: 'com um véu protegendo<0xFA>os dois lados do campo!<0xFB>Nenhum Pokémon poderá causar\ncondições de status em outro!'
+  - offset: "0xa44992"
+    name: "PT-43 0xa44992"
+    expected: 'com Mist envolvendo<0xFA>os dois lados do campo!<0xFB>Nenhum Pokémon terá estatísticas\nreduzidas por outro!'
+  - offset: "0xa449fb"
+    name: "PT-43 0xa449fb"
+    expected: 'com um mar de fogo envolvendo<0xFA>os dois lados do campo!<0xFB>Pokémon que não sejam Fogo\nsofrerão dano a cada turno!'
+  - offset: "0xa44a6c"
+    name: "PT-43 0xa44a6c"
+    expected: 'com um arco-íris presente<0xFA>nos dois lados do campo!<0xFB>A chance de efeitos secundários\ndos movimentos é dobrada!'
+  - offset: "0xa44adb"
+    name: "PT-43 0xa44adb"
+    expected: 'com todos os Pokémon confusos!'
+  - offset: "0xa44af6"
+    name: "PT-43 0xa44af6"
+    expected: 'com todos sob Taunt!<0xFB>Movimentos de status são proibidos!'
+  - offset: "0xa44b2d"
+    name: "PT-43 0xa44b2d"
+    expected: 'com todos sob Torment!<0xFB>Não se pode repetir um movimento\nduas vezes seguidas.'
+  - offset: "0xa44b6d"
+    name: "PT-43 0xa44b6d"
+    expected: 'com todos sob Heal Block!<0xFB>Nenhum Pokémon poderá se curar!'
+  - offset: "0xa44bad"
+    name: "PT-43 0xa44bad"
+    expected: 'com todos sob Throat Chop!<0xFB>Movimentos sonoros são proibidos!'
+  - offset: "0xa44bf0"
+    name: "PT-43 0xa44bf0"
+    expected: 'com todos sob Laser Focus!<0xFB>Movimentos sempre causarão\nacertos críticos!'
+  - offset: "0xa44c37"
+    name: "PT-43 0xa44c37"
+    expected: 'sem que nenhum Pokémon possa<0xFA>causar um acerto crítico!'
+  - offset: "0xa44c6b"
+    name: "PT-43 0xa44c6b"
+    expected: 'com as Habilidades de todos<0xFA>os Pokémon anuladas!'

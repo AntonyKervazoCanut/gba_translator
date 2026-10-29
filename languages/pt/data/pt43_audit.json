@@ -1,0 +1,5157 @@
+{
+  "batch": "PT-43",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "entries": [
+    {
+      "offset": "0xa43d50",
+      "live_offset": "0xa43d50",
+      "status": "translated",
+      "corpus_en": "Huh? The DexNav is detecting an\nunusual Pokémon!",
+      "comparison_fr": "Hein ? Le DexNav détecte un\nPokémon inhabituel !",
+      "expected": "Ué? O DexNav detectou um\\nPokémon incomum!",
+      "source_hex": "c2e9dcac00cedcd900bed9ecc8d5ea00dde700d8d9e8d9d7e8dde2db00d5e2fee9e2e9e7e9d5e000cae3df1be1e3e2abff",
+      "references": [
+        10110904
+      ],
+      "pt_bytes": 42,
+      "pixels": [
+        142,
+        91
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43d8e",
+      "live_offset": "0xa43d8e",
+      "status": "exception",
+      "corpus_en": "Cube",
+      "comparison_fr": "Cube",
+      "expected": "Cube",
+      "source_hex": "bde9d6d9ff",
+      "references": [],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Aucun pointeur vers cette clé. Cube sans consommateur trouvé ; aucune injection."
+    },
+    {
+      "offset": "0xa43d93",
+      "live_offset": "0xa43d93",
+      "status": "exception",
+      "corpus_en": "Spikes were scattered all\naround <0xFD>= team!",
+      "comparison_fr": "Spikes were scattered all\naround {STRING}= team!",
+      "expected": "Spikes were scattered all\\naround <0xFD>= team!",
+      "source_hex": "00cde4dddfd9e700ebd9e6d900e7d7d5e8e8d9e6d9d800d5e0e0fed5e6e3e9e2d800fd3500e8d9d5e1abff",
+      "references": [],
+      "pt_bytes": 42,
+      "pixels": [
+        139,
+        137
+      ],
+      "max_width": 204,
+      "reason": "Clé sur remplissage 00 ; consommateur 0xa6b9e0 cible 0xa43d94, entrée distincte du même lot traduite."
+    },
+    {
+      "offset": "0xa43d94",
+      "live_offset": "0xa43d94",
+      "status": "translated",
+      "corpus_en": "Spikes were scattered all\naround <0xFD>= team!",
+      "comparison_fr": "Des pics sont éparpillés\nautour de l'équipe <0xFD><0x35> !",
+      "expected": "Spikes se espalharam\\nao redor da equipe <0xFD><0x35>!",
+      "source_hex": "cde4dddfd9e700ebd9e6d900e7d7d5e8e8d9e6d9d800d5e0e0fed5e6e3e9e2d800fd3500e8d9d5e1abff",
+      "references": [
+        10926560
+      ],
+      "pt_bytes": 44,
+      "pixels": [
+        112,
+        170
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43dbe",
+      "live_offset": "0xa43dbe",
+      "status": "translated",
+      "corpus_en": "Poison spikes were scattered all\naround <0xFD>= team!",
+      "comparison_fr": "Des pics toxiques se sont éparpillés\nautour de l'équipe de <0xFD><0x35> !",
+      "expected": "Espinhos venenosos cercam\\na equipe <0xFD><0x35>!",
+      "source_hex": "cae3dde7e3e200e7e4dddfd9e700ebd9e6d900e7d7d5e8e8d9e6d9d800d5e0e0fed5e6e3e9e2d800fd3500e8d9d5e1abff",
+      "references": [
+        10926568
+      ],
+      "pt_bytes": 39,
+      "pixels": [
+        140,
+        112
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43def",
+      "live_offset": "0xa43def",
+      "status": "translated",
+      "corpus_en": "Pointed stones float in the air\naround <0xFD>= team!",
+      "comparison_fr": "Pointed stones float in the air\naround {STRING}= team!",
+      "expected": "Pedras pontudas flutuam\\nao redor da equipe <0xFD><0x35>!",
+      "source_hex": "cae3dde2e8d9d800e7e8e3e2d9e700dae0e3d5e800dde200e8dcd900d5dde6fed5e6e3e9e2d800fd3500e8d9d5e1abff",
+      "references": [
+        10926564
+      ],
+      "pt_bytes": 47,
+      "pixels": [
+        130,
+        170
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43e1f",
+      "live_offset": "0xa43e1f",
+      "status": "translated",
+      "corpus_en": "A sticky web has been laid out\naround <0xFD>= team!",
+      "comparison_fr": "Une toile gluante entoure\nl'équipe {STRING} !",
+      "expected": "Uma teia pegajosa cerca\\na equipe <0xFD><0x35>!",
+      "source_hex": "bb00e7e8ddd7dfed00ebd9d600dcd5e700d6d9d9e200e0d5ddd800e3e9e8fed5e6e3e9e2d800fd3500e8d9d5e1abff",
+      "references": [
+        10926572
+      ],
+      "pt_bytes": 37,
+      "pixels": [
+        133,
+        112
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43e4e",
+      "live_offset": "0xa43e4e",
+      "status": "translated",
+      "corpus_en": "Sharp pieces of steel started\nfloating around <0xFD>= team!",
+      "comparison_fr": "Sharp pieces of steel started\nfloating around {STRING}= team!",
+      "expected": "Lascas de aço flutuam\\nao redor da equipe <0xFD><0x35>!",
+      "source_hex": "cddcd5e6e400e4ddd9d7d9e700e3da00e7e8d9d9e000e7e8d5e6e8d9d8fedae0e3d5e8dde2db00d5e6e3e9e2d800fd3500e8d9d5e1abff",
+      "references": [
+        10926576
+      ],
+      "pt_bytes": 45,
+      "pixels": [
+        121,
+        170
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43e85",
+      "live_offset": "0xa43e85",
+      "status": "translated",
+      "corpus_en": "The entry hazards around\n<0xFD>; side were blown away!",
+      "comparison_fr": "Les pièges autour du camp\nde {STRING} ont été balayés !",
+      "expected": "As armadilhas do lado\\n<0xFD><0x36> foram removidas!",
+      "source_hex": "cedcd900d9e2e8e6ed00dcd5eed5e6d8e700d5e6e3e9e2d8fefd3600e7ddd8d900ebd9e6d900d6e0e3ebe200d5ebd5edabff",
+      "references": [
+        10423112
+      ],
+      "pt_bytes": 42,
+      "pixels": [
+        119,
+        150
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43eb7",
+      "live_offset": "0xa43eb7",
+      "status": "translated",
+      "corpus_en": "The entry hazards around\n<0xFD>= side were blown away!",
+      "comparison_fr": "Les pièges autour du camp\nde {STRING} ont été balayés !",
+      "expected": "As armadilhas do lado\\n<0xFD><0x35> foram removidas!",
+      "source_hex": "cedcd900d9e2e8e6ed00dcd5eed5e6d8e700d5e6e3e9e2d8fefd3500e7ddd8d900ebd9e6d900d6e0e3ebe200d5ebd5edabff",
+      "references": [
+        10423120
+      ],
+      "pt_bytes": 42,
+      "pixels": [
+        119,
+        150
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43ee9",
+      "live_offset": "0xa43ee9",
+      "status": "translated",
+      "corpus_en": "<0xFD>OE is hurt\nby the Spikes!",
+      "comparison_fr": "{B_DEF_NAME_WITH_PREFIX} est blessé\npar les Picots !",
+      "expected": "<0xFD><0x10> sofreu dano\\ncom Spikes!",
+      "source_hex": "fd1000dde700dce9e6e8fed6ed00e8dcd900cde4dddfd9e7abff",
+      "references": [
+        9885216
+      ],
+      "pt_bytes": 27,
+      "pixels": [
+        122,
+        62
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43f03",
+      "live_offset": "0xa43f03",
+      "status": "translated",
+      "corpus_en": "Pointed stones dug into\n<0xFD>OE!",
+      "comparison_fr": "Des rocs pointus ont blessé\n<0xFD><0x10> !",
+      "expected": "Pedras pontudas atingiram\\n<0xFD><0x10>!",
+      "source_hex": "cae3dde2e8d9d800e7e8e3e2d9e700d8e9db00dde2e8e3fefd10abff",
+      "references": [
+        9885286
+      ],
+      "pt_bytes": 30,
+      "pixels": [
+        138,
+        60
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43f1f",
+      "live_offset": "0xa43f1f",
+      "status": "translated",
+      "corpus_en": "The sharp steel bit into\n<0xFD>OE!",
+      "comparison_fr": "L'acier pointu a blessé\n<0xFD><0x10> !",
+      "expected": "Lascas de aço atingiram\\n<0xFD><0x10>!",
+      "source_hex": "cedcd900e7dcd5e6e400e7e8d9d9e000d6dde800dde2e8e3fefd10abff",
+      "references": [
+        9885329
+      ],
+      "pt_bytes": 28,
+      "pixels": [
+        129,
+        60
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43f3c",
+      "live_offset": "0xa43f3c",
+      "status": "translated",
+      "corpus_en": "The Toxic Spikes disappeared from\naround <0xFD>OE's feet!",
+      "comparison_fr": "Les pics toxiques ont disparu\ndes pieds de <0xFD><0x10> !",
+      "expected": "Toxic Spikes sumiram dos pés\\nde <0xFD><0x10>!",
+      "source_hex": "cedcd900cee3ecddd700cde4dddfd9e700d8dde7d5e4e4d9d5e6d9d800dae6e3e1fed5e6e3e9e2d800fd10b4e700dad9d9e8abff",
+      "references": [
+        9885435
+      ],
+      "pt_bytes": 36,
+      "pixels": [
+        156,
+        78
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43f70",
+      "live_offset": "0xa43f70",
+      "status": "translated",
+      "corpus_en": "<0xFD>OE was caught\nin a Sticky Web!",
+      "comparison_fr": "<0xFD><0x10> est piégé dans\nune Toile Gluante !",
+      "expected": "<0xFD><0x10> caiu\\nnuma Sticky Web!",
+      "source_hex": "fd1000ebd5e700d7d5e9dbdce8fedde200d500cde8ddd7dfed00d1d9d6abff",
+      "references": [
+        9885456
+      ],
+      "pt_bytes": 25,
+      "pixels": [
+        82,
+        91
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43f8f",
+      "live_offset": "0xa43f8f",
+      "status": "translated",
+      "corpus_en": "The hazards were blown away from\naround <0xFD>Ô!",
+      "comparison_fr": "Les pièges autour de\n{B_ATK_NAME_WITH_PREFIX} ont été balayés !",
+      "expected": "As armadilhas ao redor de\\n<0xFD><0x0F> sumiram!",
+      "source_hex": "cedcd900dcd5eed5e6d8e700ebd9e6d900d6e0e3ebe200d5ebd5ed00dae6e3e1fed5e6e3e9e2d800fd0fabff",
+      "references": [
+        4186504
+      ],
+      "pt_bytes": 38,
+      "pixels": [
+        142,
+        104
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43fbb",
+      "live_offset": "0xa43fbc",
+      "status": "translated",
+      "corpus_en": "Single Battle Record",
+      "comparison_fr": "Single Battle Record",
+      "expected": "Recorde Individual",
+      "source_hex": "cddde2dbe0d900bcd5e8e8e0d900ccd9d7e3e6d8ff",
+      "references": [
+        10926204
+      ],
+      "pt_bytes": 19,
+      "pixels": [
+        101
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU. Clé du manifeste sur remplissage 00 ; chaîne vivante à +1, sans ajouter de clé hors lot."
+    },
+    {
+      "offset": "0xa43fd1",
+      "live_offset": "0xa43fd1",
+      "status": "translated",
+      "corpus_en": "Double Battle Record",
+      "comparison_fr": "Double Battle Record",
+      "expected": "Recorde Dupla",
+      "source_hex": "bee3e9d6e0d900bcd5e8e8e0d900ccd9d7e3e6d8ff",
+      "references": [
+        10926208
+      ],
+      "pt_bytes": 14,
+      "pixels": [
+        76
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43fe6",
+      "live_offset": "0xa43fe6",
+      "status": "translated",
+      "corpus_en": "Multi Battle Record",
+      "comparison_fr": "Multi Battle Record",
+      "expected": "Recorde Multi",
+      "source_hex": "c7e9e0e8dd00bcd5e8e8e0d900ccd9d7e3e6d8ff",
+      "references": [
+        10926212
+      ],
+      "pt_bytes": 14,
+      "pixels": [
+        73
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa43ffa",
+      "live_offset": "0xa43ffa",
+      "status": "translated",
+      "corpus_en": "Link Multi Battle Record",
+      "comparison_fr": "Link Multi Battle Record",
+      "expected": "Recorde Multi Link",
+      "source_hex": "c6dde2df00c7e9e0e8dd00bcd5e8e8e0d900ccd9d7e3e6d8ff",
+      "references": [
+        10393572,
+        10926216
+      ],
+      "pt_bytes": 19,
+      "pixels": [
+        99
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44013",
+      "live_offset": "0xa44013",
+      "status": "translated",
+      "corpus_en": "Rand Single Btl Record",
+      "comparison_fr": "Rand Single Btl Record",
+      "expected": "Rec. Indiv. Aleat.",
+      "source_hex": "ccd5e2d800cddde2dbe0d900bce8e000ccd9d7e3e6d8ff",
+      "references": [
+        10926220
+      ],
+      "pt_bytes": 19,
+      "pixels": [
+        100
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa4402a",
+      "live_offset": "0xa4402a",
+      "status": "translated",
+      "corpus_en": "Rand Double Btl Record",
+      "comparison_fr": "Rand Double Btl Record",
+      "expected": "Rec. Dupla Aleat.",
+      "source_hex": "ccd5e2d800bee3e9d6e0d900bce8e000ccd9d7e3e6d8ff",
+      "references": [
+        10926224
+      ],
+      "pt_bytes": 18,
+      "pixels": [
+        97
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44041",
+      "live_offset": "0xa44041",
+      "status": "translated",
+      "corpus_en": "Rand Multi Btl Record",
+      "comparison_fr": "Rand Multi Btl Record",
+      "expected": "Rec. Multi Aleat.",
+      "source_hex": "ccd5e2d800c7e9e0e8dd00bce8e000ccd9d7e3e6d8ff",
+      "references": [
+        10926228
+      ],
+      "pt_bytes": 18,
+      "pixels": [
+        94
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44057",
+      "live_offset": "0xa44057",
+      "status": "translated",
+      "corpus_en": "Single Battle",
+      "comparison_fr": "Single Battle",
+      "expected": "Batalha Individual",
+      "source_hex": "cddde2dbe0d900bcd5e8e8e0d9ff",
+      "references": [
+        10925928
+      ],
+      "pt_bytes": 19,
+      "pixels": [
+        100
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44065",
+      "live_offset": "0xa44065",
+      "status": "translated",
+      "corpus_en": "Double Battle",
+      "comparison_fr": "Double Battle",
+      "expected": "Batalha Dupla",
+      "source_hex": "bee3e9d6e0d900bcd5e8e8e0d9ff",
+      "references": [
+        10925932
+      ],
+      "pt_bytes": 14,
+      "pixels": [
+        75
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44073",
+      "live_offset": "0xa44073",
+      "status": "translated",
+      "corpus_en": "Multi Battle",
+      "comparison_fr": "Multi Battle",
+      "expected": "Batalha Multi",
+      "source_hex": "c7e9e0e8dd00bcd5e8e8e0d9ff",
+      "references": [
+        10925936
+      ],
+      "pt_bytes": 14,
+      "pixels": [
+        72
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44080",
+      "live_offset": "0xa44080",
+      "status": "translated",
+      "corpus_en": "Link Multi Battle",
+      "comparison_fr": "Link Multi Battle",
+      "expected": "Batalha Multi Link",
+      "source_hex": "c6dde2df00c7e9e0e8dd00bcd5e8e8e0d9ff",
+      "references": [
+        10925940
+      ],
+      "pt_bytes": 19,
+      "pixels": [
+        98
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44092",
+      "live_offset": "0xa44092",
+      "status": "translated",
+      "corpus_en": "Random Single Battle",
+      "comparison_fr": "Random Single Battle",
+      "expected": "Individual Aleatória",
+      "source_hex": "ccd5e2d8e3e100cddde2dbe0d900bcd5e8e8e0d9ff",
+      "references": [
+        10925944
+      ],
+      "pt_bytes": 21,
+      "pixels": [
+        109
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa440a7",
+      "live_offset": "0xa440a7",
+      "status": "translated",
+      "corpus_en": "Random Double Battle",
+      "comparison_fr": "Random Double Battle",
+      "expected": "Dupla Aleatória",
+      "source_hex": "ccd5e2d8e3e100bee3e9d6e0d900bcd5e8e8e0d9ff",
+      "references": [
+        10925948
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        84
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa440bc",
+      "live_offset": "0xa440bc",
+      "status": "translated",
+      "corpus_en": "Random Multi Battle",
+      "comparison_fr": "Random Multi Battle",
+      "expected": "Multi Aleatória",
+      "source_hex": "ccd5e2d8e3e100c7e9e0e8dd00bcd5e8e8e0d9ff",
+      "references": [
+        10925952
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        81
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa440d0",
+      "live_offset": "0xa440d0",
+      "status": "translated",
+      "corpus_en": "Level 5",
+      "comparison_fr": "Level 5",
+      "expected": "Nível 5",
+      "source_hex": "c6d9ead9e000a6ff",
+      "references": [
+        10393588
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        41
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa440d8",
+      "live_offset": "0xa440d8",
+      "status": "translated",
+      "corpus_en": "Level 50",
+      "comparison_fr": "Level 50",
+      "expected": "Nível 50",
+      "source_hex": "c6d9ead9e000a6a1ff",
+      "references": [
+        10393596
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        47
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa440e1",
+      "live_offset": "0xa440e1",
+      "status": "translated",
+      "corpus_en": "Level 100",
+      "comparison_fr": "Level 100",
+      "expected": "Nível 100",
+      "source_hex": "c6d9ead9e000a2a1a1ff",
+      "references": [
+        10393592
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        53
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa440eb",
+      "live_offset": "0xa440eb",
+      "status": "translated",
+      "corpus_en": "Current Streak:\nRecord Streak:",
+      "comparison_fr": "Current Streak:\nRecord Streak:",
+      "expected": "Série atual:\\nRecorde:",
+      "source_hex": "bde9e6e6d9e2e800cde8e6d9d5dff0feccd9d7e3e6d800cde8e6d9d5dff0ff",
+      "references": [
+        10393540
+      ],
+      "pt_bytes": 22,
+      "pixels": [
+        66,
+        46
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa4410a",
+      "live_offset": "0xa4410a",
+      "status": "translated",
+      "corpus_en": "Record Streak:",
+      "comparison_fr": "Record Streak:",
+      "expected": "Recorde:",
+      "source_hex": "ccd9d7e3e6d800cde8e6d9d5dff0ff",
+      "references": [
+        10393544
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa4412b",
+      "live_offset": "0xa4412b",
+      "status": "translated",
+      "corpus_en": "Standard",
+      "comparison_fr": "Standard",
+      "expected": "Padrão",
+      "source_hex": "cde8d5e2d8d5e6d8ff",
+      "references": [
+        10925824
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44134",
+      "live_offset": "0xa44134",
+      "status": "translated",
+      "corpus_en": "No Restrictions",
+      "comparison_fr": "No Restrictions",
+      "expected": "Sem restrições",
+      "source_hex": "c8e300ccd9e7e8e6ddd7e8dde3e2e7ff",
+      "references": [
+        10925828
+      ],
+      "pt_bytes": 15,
+      "pixels": [
+        77
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44144",
+      "live_offset": "0xa44144",
+      "status": "retained",
+      "corpus_en": "Smogon OU",
+      "comparison_fr": "Smogon OU",
+      "expected": "Smogon OU",
+      "source_hex": "cde1e3dbe3e200c9cfff",
+      "references": [
+        10925832
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        53
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa4414e",
+      "live_offset": "0xa4414e",
+      "status": "retained",
+      "corpus_en": "Smogon Doubles OU",
+      "comparison_fr": "Smogon Doubles OU",
+      "expected": "Smogon Doubles OU",
+      "source_hex": "cde1e3dbe3e200bee3e9d6e0d9e700c9cfff",
+      "references": [
+        10382780
+      ],
+      "pt_bytes": 18,
+      "pixels": [
+        99
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa44160",
+      "live_offset": "0xa44160",
+      "status": "retained",
+      "corpus_en": "Smogon Ubers",
+      "comparison_fr": "Smogon Ubers",
+      "expected": "Smogon Ubers",
+      "source_hex": "cde1e3dbe3e200cfd6d9e6e7ff",
+      "references": [
+        10925836
+      ],
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa4416d",
+      "live_offset": "0xa4416d",
+      "status": "retained",
+      "corpus_en": "Smogon Little Cup",
+      "comparison_fr": "Smogon Little Cup",
+      "expected": "Smogon Little Cup",
+      "source_hex": "cde1e3dbe3e200c6dde8e8e0d900bde9e4ff",
+      "references": [
+        10925840
+      ],
+      "pt_bytes": 18,
+      "pixels": [
+        96
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa4417f",
+      "live_offset": "0xa4417f",
+      "status": "retained",
+      "corpus_en": "Middle Cup",
+      "comparison_fr": "Middle Cup",
+      "expected": "Middle Cup",
+      "source_hex": "c7ddd8d8e0d900bde9e4ff",
+      "references": [
+        10925844
+      ],
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa4418a",
+      "live_offset": "0xa4418a",
+      "status": "retained",
+      "corpus_en": "Smogon Monotype",
+      "comparison_fr": "Smogon Monotype",
+      "expected": "Smogon Monotype",
+      "source_hex": "cde1e3dbe3e200c7e3e2e3e8ede4d9ff",
+      "references": [
+        10925848
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        87
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa4419a",
+      "live_offset": "0xa4419a",
+      "status": "retained",
+      "corpus_en": "GS Cup",
+      "comparison_fr": "GS Cup",
+      "expected": "GS Cup",
+      "source_hex": "c1cd00bde9e4ff",
+      "references": [
+        10382784
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        36
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa441a1",
+      "live_offset": "0xa441a1",
+      "status": "retained",
+      "corpus_en": "Smogon Camomons",
+      "comparison_fr": "Smogon Camomons",
+      "expected": "Smogon Camomons",
+      "source_hex": "cde1e3dbe3e200bdd5e1e3e1e3e2e7ff",
+      "references": [
+        10925852
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        87
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa441b1",
+      "live_offset": "0xa441b1",
+      "status": "retained",
+      "corpus_en": "Uber Camomons",
+      "comparison_fr": "Uber Camomons",
+      "expected": "Uber Camomons",
+      "source_hex": "cfd6d9e600bdd5e1e3e1e3e2e7ff",
+      "references": [
+        10925856
+      ],
+      "pt_bytes": 14,
+      "pixels": [
+        75
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa441bf",
+      "live_offset": "0xa441bf",
+      "status": "retained",
+      "corpus_en": "Little Cup Camomons",
+      "comparison_fr": "Little Cup Camomons",
+      "expected": "Little Cup Camomons",
+      "source_hex": "c6dde8e8e0d900bde9e400bdd5e1e3e1e3e2e7ff",
+      "references": [
+        10925860
+      ],
+      "pt_bytes": 20,
+      "pixels": [
+        107
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa441d3",
+      "live_offset": "0xa441d3",
+      "status": "retained",
+      "corpus_en": "Middle Cup Camomons",
+      "comparison_fr": "Middle Cup Camomons",
+      "expected": "Middle Cup Camomons",
+      "source_hex": "c7ddd8d8e0d900bde9e400bdd5e1e3e1e3e2e7ff",
+      "references": [
+        10925864
+      ],
+      "pt_bytes": 20,
+      "pixels": [
+        109
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa441e7",
+      "live_offset": "0xa441e7",
+      "status": "retained",
+      "corpus_en": "GS Cup Camomons",
+      "comparison_fr": "GS Cup Camomons",
+      "expected": "GS Cup Camomons",
+      "source_hex": "c1cd00bde9e400bdd5e1e3e1e3e2e7ff",
+      "references": [
+        10382776
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        88
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa441f7",
+      "live_offset": "0xa441f7",
+      "status": "retained",
+      "corpus_en": "Smogon Scalemons",
+      "comparison_fr": "Smogon Scalemons",
+      "expected": "Smogon Scalemons",
+      "source_hex": "cde1e3dbe3e200cdd7d5e0d9e1e3e2e7ff",
+      "references": [
+        10925868
+      ],
+      "pt_bytes": 17,
+      "pixels": [
+        92
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa44208",
+      "live_offset": "0xa44208",
+      "status": "retained",
+      "corpus_en": "Smogon 350 Cup",
+      "comparison_fr": "Smogon 350 Cup",
+      "expected": "Smogon 350 Cup",
+      "source_hex": "cde1e3dbe3e200a4a6a100bde9e4ff",
+      "references": [
+        10925872
+      ],
+      "pt_bytes": 15,
+      "pixels": [
+        83
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa44217",
+      "live_offset": "0xa44217",
+      "status": "retained",
+      "corpus_en": "Smogon Averagemons",
+      "comparison_fr": "Smogon Averagemons",
+      "expected": "Smogon Averagemons",
+      "source_hex": "cde1e3dbe3e200bbead9e6d5dbd9e1e3e2e7ff",
+      "references": [
+        10925876
+      ],
+      "pt_bytes": 19,
+      "pixels": [
+        104
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa4422a",
+      "live_offset": "0xa4422a",
+      "status": "retained",
+      "corpus_en": "Smogon Benjamin Butterfree",
+      "comparison_fr": "Smogon Benjamin Papilusion",
+      "expected": "Smogon Benjamin Butterfree",
+      "source_hex": "cde1e3dbe3e200bcd9e2ded5e1dde200bce9e8e8d9e6dae6d9d9ff",
+      "references": [
+        10925880
+      ],
+      "pt_bytes": 27,
+      "pixels": [
+        146
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa44245",
+      "live_offset": "0xa44245",
+      "status": "retained",
+      "corpus_en": "Mega Brawl",
+      "comparison_fr": "Mega Brawl",
+      "expected": "Mega Brawl",
+      "source_hex": "c7d9dbd500bce6d5ebe0ff",
+      "references": [
+        10925884
+      ],
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa44250",
+      "live_offset": "0xa44250",
+      "status": "translated",
+      "corpus_en": "Dynamax Standard",
+      "comparison_fr": "Dynamax Standard",
+      "expected": "Dynamax Padrão",
+      "source_hex": "beede2d5e1d5ec00cde8d5e2d8d5e6d8ff",
+      "references": [
+        10925888
+      ],
+      "pt_bytes": 15,
+      "pixels": [
+        82
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44261",
+      "live_offset": "0xa44261",
+      "status": "retained",
+      "corpus_en": "Smogon National Dex OU",
+      "comparison_fr": "Smogon National Dex OU",
+      "expected": "Smogon National Dex OU",
+      "source_hex": "cde1e3dbe3e200c8d5e8dde3e2d5e000bed9ec00c9cfff",
+      "references": [
+        10925892
+      ],
+      "pt_bytes": 23,
+      "pixels": [
+        126
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa44278",
+      "live_offset": "0xa44278",
+      "status": "retained",
+      "corpus_en": "Smogon Metronome",
+      "comparison_fr": "Smogon Metronome",
+      "expected": "Smogon Metronome",
+      "source_hex": "cde1e3dbe3e200c7d9e8e6e3e2e3e1d9ff",
+      "references": [
+        10925896
+      ],
+      "pt_bytes": 17,
+      "pixels": [
+        92
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa44289",
+      "live_offset": "0xa44289",
+      "status": "retained",
+      "corpus_en": "Smogon Gen 7 UU",
+      "comparison_fr": "Smogon Gen 7 UU",
+      "expected": "Smogon Gen 7 UU",
+      "source_hex": "cde1e3dbe3e200c1d9e200a800cfcfff",
+      "references": [
+        10925900
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        88
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa44299",
+      "live_offset": "0xa44299",
+      "status": "retained",
+      "corpus_en": "Smogon Gen 7 RU",
+      "comparison_fr": "Smogon Gen 7 RU",
+      "expected": "Smogon Gen 7 RU",
+      "source_hex": "cde1e3dbe3e200c1d9e200a800cccfff",
+      "references": [
+        10925908
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        88
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa442a9",
+      "live_offset": "0xa442a9",
+      "status": "retained",
+      "corpus_en": "Smogon Gen 7 NU",
+      "comparison_fr": "Smogon Gen 7 NU",
+      "expected": "Smogon Gen 7 NU",
+      "source_hex": "cde1e3dbe3e200c1d9e200a800c8cfff",
+      "references": [
+        10925904
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        88
+      ],
+      "max_width": 204,
+      "reason": "Nom de format compétitif conservé."
+    },
+    {
+      "offset": "0xa442b9",
+      "live_offset": "0xa442b9",
+      "status": "translated",
+      "corpus_en": "Cave Format",
+      "comparison_fr": "Cave Format",
+      "expected": "Formato Caverna",
+      "source_hex": "bdd5ead900c0e3e6e1d5e8ff",
+      "references": [
+        10925912
+      ],
+      "pt_bytes": 16,
+      "pixels": [
+        86
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa442c5",
+      "live_offset": "0xa442c5",
+      "status": "translated",
+      "corpus_en": "Mountain Format",
+      "comparison_fr": "Mountain Format",
+      "expected": "Formato Montanha",
+      "source_hex": "c7e3e9e2e8d5dde200c0e3e6e1d5e8ff",
+      "references": [
+        10925916
+      ],
+      "pt_bytes": 17,
+      "pixels": [
+        91
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa442d5",
+      "live_offset": "0xa442d5",
+      "status": "translated",
+      "corpus_en": "Pebble Format",
+      "comparison_fr": "Pebble Format",
+      "expected": "Formato Seixo",
+      "source_hex": "cad9d6d6e0d900c0e3e6e1d5e8ff",
+      "references": [
+        10925920
+      ],
+      "pt_bytes": 14,
+      "pixels": [
+        74
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa442e3",
+      "live_offset": "0xa442e3",
+      "status": "translated",
+      "corpus_en": "Cordillera Format",
+      "comparison_fr": "Cordillera Format",
+      "expected": "Formato Cordilheira",
+      "source_hex": "bde3e6d8dde0e0d9e6d500c0e3e6e1d5e8ff",
+      "references": [
+        10925924
+      ],
+      "pt_bytes": 20,
+      "pixels": [
+        105
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa442fc",
+      "live_offset": "0xa442fc",
+      "status": "translated",
+      "corpus_en": "be able",
+      "comparison_fr": "be able",
+      "expected": "poder",
+      "source_hex": "d6d900d5d6e0d9ff",
+      "references": [
+        10390452
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44304",
+      "live_offset": "0xa44304",
+      "status": "translated",
+      "corpus_en": "not be able",
+      "comparison_fr": "not be able",
+      "expected": "não poder",
+      "source_hex": "e2e3e800d6d900d5d6e0d9ff",
+      "references": [
+        10390456
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44310",
+      "live_offset": "0xa44310",
+      "status": "translated",
+      "corpus_en": "Previous",
+      "comparison_fr": "Previous",
+      "expected": "Anterior",
+      "source_hex": "cae6d9eadde3e9e7ff",
+      "references": [
+        10925956
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        42
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44319",
+      "live_offset": "0xa44319",
+      "status": "translated",
+      "corpus_en": "Current",
+      "comparison_fr": "Current",
+      "expected": "Atual",
+      "source_hex": "bde9e6e6d9e2e8ff",
+      "references": [
+        10925976
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44325",
+      "live_offset": "0xa44325",
+      "status": "translated",
+      "corpus_en": "None",
+      "comparison_fr": "None",
+      "expected": "Nenhum",
+      "source_hex": "c8e3e2d9ff",
+      "references": [
+        10389596
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa4432a",
+      "live_offset": "0xa4432a",
+      "status": "translated",
+      "corpus_en": "with the battlefield electrified!<0xFB>Grounded Pokémon can't fall asleep\nand have stronger Electric-moves!",
+      "comparison_fr": "avec le terrain électrifié !<0xFB>Les Pokémon au sol ne peuvent pas\ns'endormir et leurs attaques<0xFA>Électrik sont renforcées !",
+      "expected": "com o campo eletrificado!<0xFB>No chão, Pokémon não adormecem\\ne golpes Elétricos ganham força!",
+      "source_hex": "ebdde8dc00e8dcd900d6d5e8e8e0d9daddd9e0d800d9e0d9d7e8e6dddaddd9d8abfbc1e6e3e9e2d8d9d800cae3df1be1e3e200d7d5e2b4e800dad5e0e000d5e7e0d9d9e4fed5e2d800dcd5ead900e7e8e6e3e2dbd9e600bfe0d9d7e8e6ddd7aee1e3ead9e7abff",
+      "references": [
+        10925984
+      ],
+      "pt_bytes": 90,
+      "pixels": [
+        142,
+        175,
+        181
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44391",
+      "live_offset": "0xa44391",
+      "status": "translated",
+      "corpus_en": "with the battlefield grassy!<0xFB>Grounded Pokémon have stronger\nGrass-moves and heal every turn!",
+      "comparison_fr": "avec le terrain herbu !<0xFB>Les Pokémon au sol ont des attaques\nPlante renforcées et récupèrent<0xFA>des PV chaque tour !",
+      "expected": "com o campo gramado!<0xFB>No chão, golpes Planta ganham força\\ne Pokémon se curam a cada turno!",
+      "source_hex": "ebdde8dc00e8dcd900d6d5e8e8e0d9daddd9e0d800dbe6d5e7e7edabfbc1e6e3e9e2d8d9d800cae3df1be1e3e200dcd5ead900e7e8e6e3e2dbd9e6fec1e6d5e7e7aee1e3ead9e700d5e2d800dcd9d5e000d9ead9e6ed00e8e9e6e2abff",
+      "references": [
+        10925988
+      ],
+      "pt_bytes": 90,
+      "pixels": [
+        119,
+        201,
+        185
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa443ee",
+      "live_offset": "0xa443ee",
+      "status": "translated",
+      "corpus_en": "with the battlefield misty!<0xFB>Grounded Pokémon have stronger\nFairy-moves and can't be afflicted<0xFA>with status conditions!",
+      "comparison_fr": "avec le terrain brumeux !<0xFB>Les Pokémon au sol ont des attaques\nFée renforcées et ne peuvent subir<0xFA>aucune altération de statut !",
+      "expected": "com o campo enevoado!<0xFB>No chão, golpes Fada ganham força\\ne Pokémon ficam imunes<0xFA>a condições de status!",
+      "source_hex": "ebdde8dc00e8dcd900d6d5e8e8e0d9daddd9e0d800e1dde7e8edabfbc1e6e3e9e2d8d9d800cae3df1be1e3e200dcd5ead900e7e8e6e3e2dbd9e6fec0d5dde6edaee1e3ead9e700d5e2d800d7d5e2b4e800d6d900d5dadae0ddd7e8d9d8faebdde8dc00e7e8d5e8e9e700d7e3e2d8dde8dde3e2e7abff",
+      "references": [
+        10925992
+      ],
+      "pt_bytes": 102,
+      "pixels": [
+        125,
+        192,
+        123,
+        124
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44464",
+      "live_offset": "0xa44464",
+      "status": "translated",
+      "corpus_en": "with the battlefield weird!<0xFB>Grounded Pokémon have stronger\nPsychic-moves and can't be hit<0xFA>by priority moves!",
+      "comparison_fr": "avec le terrain étrange !<0xFB>Les Pokémon au sol ont des attaques\nPsy renforcées et sont immunisés<0xFA>aux attaques prioritaires !",
+      "expected": "com o campo estranho!<0xFB>No chão, golpes Psíquicos têm bônus\\ne Pokémon ficam imunes<0xFA>a golpes com prioridade!",
+      "source_hex": "ebdde8dc00e8dcd900d6d5e8e8e0d9daddd9e0d800ebd9dde6d8abfbc1e6e3e9e2d8d9d800cae3df1be1e3e200dcd5ead900e7e8e6e3e2dbd9e6fecae7edd7dcddd7aee1e3ead9e700d5e2d800d7d5e2b4e800d6d900dcdde8fad6ed00e4e6dde3e6dde8ed00e1e3ead9e7abff",
+      "references": [
+        10925996
+      ],
+      "pt_bytes": 106,
+      "pixels": [
+        122,
+        200,
+        123,
+        136
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa444d1",
+      "live_offset": "0xa444d1",
+      "status": "translated",
+      "corpus_en": "in the rain!",
+      "comparison_fr": "s'il pleut !",
+      "expected": "na chuva!",
+      "source_hex": "dde200e8dcd900e6d5dde2abff",
+      "references": [
+        10926000
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        53
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa444de",
+      "live_offset": "0xa444de",
+      "status": "translated",
+      "corpus_en": "in the sun!",
+      "comparison_fr": "au soleil !",
+      "expected": "sob o sol!",
+      "source_hex": "dde200e8dcd900e7e9e2abff",
+      "references": [
+        10926004
+      ],
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa444ea",
+      "live_offset": "0xa444ea",
+      "status": "translated",
+      "corpus_en": "in a sandstorm!",
+      "comparison_fr": "dans une tempête de sable !",
+      "expected": "numa tempestade de areia!",
+      "source_hex": "dde200d500e7d5e2d8e7e8e3e6e1abff",
+      "references": [
+        10926008
+      ],
+      "pt_bytes": 26,
+      "pixels": [
+        143
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa444fa",
+      "live_offset": "0xa444fa",
+      "status": "translated",
+      "corpus_en": "in a hailstorm!",
+      "comparison_fr": "sous la grêle !",
+      "expected": "numa tempestade de granizo!",
+      "source_hex": "dde200d500dcd5dde0e7e8e3e6e1abff",
+      "references": [
+        10926012
+      ],
+      "pt_bytes": 28,
+      "pixels": [
+        154
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa4450a",
+      "live_offset": "0xa4450a",
+      "status": "translated",
+      "corpus_en": "with strong winds blowing!<0xFB>Flying-type Pokémon take less\ndamage from super effective moves!",
+      "comparison_fr": "avec un vent fort qui souffle !<0xFB>Les Pokémon Volant subissent moins\nde dégâts des coups super efficaces !",
+      "expected": "com ventos fortes!<0xFB>Pokémon Voadores sofrem menos\\ndano de golpes supereficazes!",
+      "source_hex": "ebdde8dc00e7e8e6e3e2db00ebdde2d8e700d6e0e3ebdde2dbabfbc0e0eddde2dbaee8ede4d900cae3df1be1e3e200e8d5dfd900e0d9e7e7fed8d5e1d5dbd900dae6e3e100e7e9e4d9e600d9dadad9d7e8ddead900e1e3ead9e7abff",
+      "references": [
+        10926016
+      ],
+      "pt_bytes": 79,
+      "pixels": [
+        101,
+        165,
+        165
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44566",
+      "live_offset": "0xa44566",
+      "status": "translated",
+      "corpus_en": "in a Trick Room!<0xFB>Slower Pokémon get to move first!",
+      "comparison_fr": "dans une Distorsion !<0xFB>Les plus lents agissent d'abord !",
+      "expected": "em Trick Room!<0xFB>Pokémon lentos agem primeiro!",
+      "source_hex": "dde200d500cee6ddd7df00cce3e3e1abfbcde0e3ebd9e600cae3df1be1e3e200dbd9e800e8e300e1e3ead900dadde6e7e8abff",
+      "references": [
+        10926020
+      ],
+      "pt_bytes": 45,
+      "pixels": [
+        80,
+        162
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44599",
+      "live_offset": "0xa44599",
+      "status": "translated",
+      "corpus_en": "in a Magic Room!<0xFB>Most held items have no effect!",
+      "comparison_fr": "dans une Zone Magique !<0xFB>La plupart des objets tenus n'ont\nplus aucun effet !",
+      "expected": "em Magic Room!<0xFB>A maioria dos itens segurados\\nnão tem efeito!",
+      "source_hex": "dde200d500c7d5dbddd700cce3e3e1abfbc7e3e7e800dcd9e0d800dde8d9e1e700dcd5ead900e2e300d9dadad9d7e8abff",
+      "references": [
+        10926024
+      ],
+      "pt_bytes": 61,
+      "pixels": [
+        82,
+        160,
+        84
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa445ca",
+      "live_offset": "0xa445ca",
+      "status": "translated",
+      "corpus_en": "in a Wonder Room!<0xFB>Defense and Sp. Def stats are\nswapped!",
+      "comparison_fr": "dans une Zone Étrange !<0xFB>Les stats de Défense et de Déf.\nSpé. sont échangées !",
+      "expected": "em Wonder Room!<0xFB>Defesa e Defesa Especial\\nsão trocadas!",
+      "source_hex": "dde200d500d1e3e2d8d9e600cce3e3e1abfbbed9dad9e2e7d900d5e2d800cde4ad00bed9da00e7e8d5e8e700d5e6d9fee7ebd5e4e4d9d8abff",
+      "references": [
+        10926028
+      ],
+      "pt_bytes": 55,
+      "pixels": [
+        88,
+        136,
+        74
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44603",
+      "live_offset": "0xa44603",
+      "status": "translated",
+      "corpus_en": "with intense gravity!<0xFB>No Pokémon will remain airborne!",
+      "comparison_fr": "sous une gravité intense !<0xFB>Aucun Pokémon ne restera dans\nles airs !",
+      "expected": "com gravidade intensa!<0xFB>Nenhum Pokémon fica no ar!",
+      "source_hex": "ebdde8dc00dde2e8d9e2e7d900dbe6d5eadde8edabfbc8e300cae3df1be1e3e200ebdde0e000e6d9e1d5dde200d5dde6d6e3e6e2d9abff",
+      "references": [
+        10926032
+      ],
+      "pt_bytes": 50,
+      "pixels": [
+        123,
+        148
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa4463a",
+      "live_offset": "0xa4463a",
+      "status": "translated",
+      "corpus_en": "with electromagnetism on the field!<0xFB>Electric- and Steel-type Pokémon\ncan't be hit by Ground-type moves!",
+      "comparison_fr": "avec un champ électromagnétique !<0xFB>Les Pokémon Électrik et Acier ne\npeuvent être touchés par les<0xFA>attaques Sol !",
+      "expected": "com eletromagnetismo no campo!<0xFB>Pokémon Elétricos e Aço são imunes\\na movimentos do tipo Terrestre!",
+      "source_hex": "ebdde8dc00d9e0d9d7e8e6e3e1d5dbe2d9e8dde7e100e3e200e8dcd900daddd9e0d8abfbbfe0d9d7e8e6ddd7ae00d5e2d800cde8d9d9e0aee8ede4d900cae3df1be1e3e2fed7d5e2b4e800d6d900dcdde800d6ed00c1e6e3e9e2d8aee8ede4d900e1e3ead9e7abff",
+      "references": [
+        10926036
+      ],
+      "pt_bytes": 98,
+      "pixels": [
+        171,
+        191,
+        173
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa446a2",
+      "live_offset": "0xa446a2",
+      "status": "translated",
+      "corpus_en": "with the battlefield locked down!<0xFB>No Pokémon will be able to switch\nout!",
+      "comparison_fr": "avec le terrain verrouillé !<0xFB>Aucun Pokémon ne pourra être\néchangé en cours de combat !",
+      "expected": "com o campo bloqueado!<0xFB>Nenhum Pokémon poderá\\nser trocado!",
+      "source_hex": "ebdde8dc00e8dcd900d6d5e8e8e0d9daddd9e0d800e0e3d7dfd9d800d8e3ebe2abfbc8e300cae3df1be1e3e200ebdde0e000d6d900d5d6e0d900e8e300e7ebdde8d7dcfee3e9e8abff",
+      "references": [
+        10926040
+      ],
+      "pt_bytes": 58,
+      "pixels": [
+        131,
+        122,
+        68
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa446eb",
+      "live_offset": "0xa446eb",
+      "status": "translated",
+      "corpus_en": "with pixies in the air!<0xFB>Fairy-type Pokémon will have their\nlowest defensive stat boosted!",
+      "comparison_fr": "avec des fées dans les airs !<0xFB>Les Pokémon de type Fée voient leur\nplus faible stat défensive monter !",
+      "expected": "com fadas no ar!<0xFB>Pokémon Fada terão aumentada\\nsua menor estatística defensiva!",
+      "source_hex": "ebdde8dc00e4ddecddd9e700dde200e8dcd900d5dde6abfbc0d5dde6edaee8ede4d900cae3df1be1e3e200ebdde0e000dcd5ead900e8dcd9dde6fee0e3ebd9e7e800d8d9dad9e2e7ddead900e7e8d5e800d6e3e3e7e8d9d8abff",
+      "references": [
+        10926044
+      ],
+      "pt_bytes": 79,
+      "pixels": [
+        92,
+        162,
+        177
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44745",
+      "live_offset": "0xa44745",
+      "status": "translated",
+      "corpus_en": "with negative emotions in the air!<0xFB>Pokémon that aren't part Dark-\ntype, Ghost-type, Psychic-type,<0xFA>or have one of the Abilities<0xFA>Unaware, Oblivious, or Magic Guard<0xFA>will be hurt each turn!",
+      "comparison_fr": "avec des émotions négatives dans\nl'air !<0xFB>Les Pokémon qui ne sont pas de type\nTénèbres, Spectre ou Psy,<0xFA>ou sans les talents Inconscient,<0xFA>Benêt ou Garde Magik,<0xFA>seront blessés chaque tour !",
+      "expected": "com emoções negativas no ar!<0xFB>Pokémon que não sejam Sombrio,\\nFantasma ou Psíquico,<0xFA>nem tenham as Habilidades<0xFA>Unaware, Oblivious ou Magic Guard,<0xFA>sofrerão dano a cada turno!",
+      "source_hex": "ebdde8dc00e2d9dbd5e8ddead900d9e1e3e8dde3e2e700dde200e8dcd900d5dde6abfbcae3df1be1e3e200e8dcd5e800d5e6d9e2b4e800e4d5e6e800bed5e6dfaefee8ede4d9b800c1dce3e7e8aee8ede4d9b800cae7edd7dcddd7aee8ede4d9b8fae3e600dcd5ead900e3e2d900e3da00e8dcd900bbd6dde0dde8ddd9e7facfe2d5ebd5e6d9b800c9d6e0ddeadde3e9e7b800e3e600c7d5dbddd700c1e9d5e6d8faebdde0e000d6d900dce9e6e800d9d5d7dc00e8e9e6e2abff",
+      "references": [
+        10926048
+      ],
+      "pt_bytes": 171,
+      "pixels": [
+        160,
+        172,
+        119,
+        140,
+        191,
+        154
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa447ff",
+      "live_offset": "0xa447ff",
+      "status": "translated",
+      "corpus_en": "in an Inverse Battle!<0xFB>All type matchups are reversed!",
+      "comparison_fr": "dans un Combat Inversé !<0xFB>Toutes les affinités de types\nsont inversées !",
+      "expected": "numa Batalha Inversa!<0xFB>As relações de tipos se invertem!",
+      "source_hex": "dde200d5e200c3e2ead9e6e7d900bcd5e8e8e0d9abfbbbe0e000e8ede4d900e1d5e8d7dce9e4e700d5e6d900e6d9ead9e6e7d9d8abff",
+      "references": [
+        10926052
+      ],
+      "pt_bytes": 56,
+      "pixels": [
+        120,
+        184
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44835",
+      "live_offset": "0xa44835",
+      "status": "translated",
+      "corpus_en": "with a Power Spot active!<0xFB>All Pokémon will be able to\nDynamax!<0xFB>However, no Pokémon may Mega\nEvolve, undergo Primal Reversion,<0xFA>Ultra Burst, or use Z-Moves!",
+      "comparison_fr": "avec un Point de Pouvoir actif !<0xFB>Tous les Pokémon pourront\nDynamaxer !<0xFB>Mais aucun Pokémon ne pourra\nMéga-Évoluer, utiliser la Primo-<0xFA>Résurgence, l'Ultra-Explosion ou<0xFA>les Capacités Z !",
+      "expected": "com um Power Spot ativo!<0xFB>Todos os Pokémon poderão usar\\nDynamax!<0xFB>Mas não poderão usar Mega Evolução,\\nPrimal Reversion, Ultra Burst<0xFA>nem movimentos Z!",
+      "source_hex": "ebdde8dc00d500cae3ebd9e600cde4e3e800d5d7e8ddead9abfbbbe0e000cae3df1be1e3e200ebdde0e000d6d900d5d6e0d900e8e3febeede2d5e1d5ecabfbc2e3ebd9ead9e6b800e2e300cae3df1be1e3e200e1d5ed00c7d9dbd5febfeae3e0ead9b800e9e2d8d9e6dbe300cae6dde1d5e000ccd9ead9e6e7dde3e2b8facfe0e8e6d500bce9e6e7e8b800e3e600e9e7d900d4aec7e3ead9e7abff",
+      "references": [
+        10926056
+      ],
+      "pt_bytes": 148,
+      "pixels": [
+        139,
+        167,
+        47,
+        203,
+        158,
+        96
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa448d0",
+      "live_offset": "0xa448d0",
+      "status": "translated",
+      "corpus_en": "with Pokémon swapped!<0xFB>Each side will use one of the\nopposing side's Pokémon at random!",
+      "comparison_fr": "avec des Pokémon échangés !<0xFB>Chaque camp utilisera au hasard un\nPokémon du camp adverse !",
+      "expected": "com Pokémon trocados!<0xFB>Cada lado usará um Pokémon\\naleatório da equipe adversária!",
+      "source_hex": "ebdde8dc00cae3df1be1e3e200e7ebd5e4e4d9d8abfbbfd5d7dc00e7ddd8d900ebdde0e000e9e7d900e3e2d900e3da00e8dcd9fee3e4e4e3e7dde2db00e7ddd8d9b4e700cae3df1be1e3e200d5e800e6d5e2d8e3e1abff",
+      "references": [
+        10926060
+      ],
+      "pt_bytes": 81,
+      "pixels": [
+        121,
+        151,
+        174
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44927",
+      "live_offset": "0xa44927",
+      "status": "translated",
+      "corpus_en": "with a veil protecting both sides<0xFA>of the battlefield!<0xFB>No Pokémon may inflict status\nconditions on another!",
+      "comparison_fr": "avec un voile protégeant les deux<0xFA>camps du terrain !<0xFB>Aucun Pokémon ne peut infliger\nd'altération de statut !",
+      "expected": "com um véu protegendo<0xFA>os dois lados do campo!<0xFB>Nenhum Pokémon poderá causar\\ncondições de status em outro!",
+      "source_hex": "ebdde8dc00d500ead9dde000e4e6e3e8d9d7e8dde2db00d6e3e8dc00e7ddd8d9e7fae3da00e8dcd900d6d5e8e8e0d9daddd9e0d8abfbc8e300cae3df1be1e3e200e1d5ed00dde2dae0ddd7e800e7e8d5e8e9e7fed7e3e2d8dde8dde3e2e700e3e200d5e2e3e8dcd9e6abff",
+      "references": [
+        10926064
+      ],
+      "pt_bytes": 105,
+      "pixels": [
+        123,
+        132,
+        162,
+        164
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44992",
+      "live_offset": "0xa44992",
+      "status": "translated",
+      "corpus_en": "with Mist surrounding both sides<0xFA>of the battlefield!<0xFB>No Pokémon may have their stats\nlowered by another!",
+      "comparison_fr": "avec de la Brume entourant les<0xFA>deux camps du terrain !<0xFB>Aucun Pokémon ne peut voir ses\nstats baisser !",
+      "expected": "com Mist envolvendo<0xFA>os dois lados do campo!<0xFB>Nenhum Pokémon terá estatísticas\\nreduzidas por outro!",
+      "source_hex": "ebdde8dc00c7dde7e800e7e9e6e6e3e9e2d8dde2db00d6e3e8dc00e7ddd8d9e7fae3da00e8dcd900d6d5e8e8e0d9daddd9e0d8abfbc8e300cae3df1be1e3e200e1d5ed00dcd5ead900e8dcd9dde600e7e8d5e8e7fee0e3ebd9e6d9d800d6ed00d5e2e3e8dcd9e6abff",
+      "references": [
+        10926068
+      ],
+      "pt_bytes": 98,
+      "pixels": [
+        107,
+        132,
+        179,
+        113
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa449fb",
+      "live_offset": "0xa449fb",
+      "status": "translated",
+      "corpus_en": "with a Sea of Fire engulfing both<0xFA>sides of the battlefield!<0xFB>All non-Fire-type Pokémon will be\ndamaged each turn!",
+      "comparison_fr": "avec une Mer de Feu embrasant les<0xFA>deux camps du terrain !<0xFB>Tous les Pokémon non-Feu seront\nblessés chaque tour !",
+      "expected": "com um mar de fogo envolvendo<0xFA>os dois lados do campo!<0xFB>Pokémon que não sejam Fogo\\nsofrerão dano a cada turno!",
+      "source_hex": "ebdde8dc00d500cdd9d500e3da00c0dde6d900d9e2dbe9e0dadde2db00d6e3e8dcfae7ddd8d9e700e3da00e8dcd900d6d5e8e8e0d9daddd9e0d8abfbbbe0e000e2e3e2aec0dde6d9aee8ede4d900cae3df1be1e3e200ebdde0e000d6d9fed8d5e1d5dbd9d800d9d5d7dc00e8e9e6e2abff",
+      "references": [
+        10926072
+      ],
+      "pt_bytes": 109,
+      "pixels": [
+        169,
+        132,
+        152,
+        154
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44a6c",
+      "live_offset": "0xa44a6c",
+      "status": "translated",
+      "corpus_en": "with a Rainbow present on both<0xFA>sides of the battlefield!<0xFB>All moves have their secondary\neffect chance doubled!",
+      "comparison_fr": "avec un Arc-en-Ciel sur les deux<0xFA>camps du terrain !<0xFB>Les chances d'effets secondaires\ndes attaques sont doublées !",
+      "expected": "com um arco-íris presente<0xFA>nos dois lados do campo!<0xFB>A chance de efeitos secundários\\ndos movimentos é dobrada!",
+      "source_hex": "ebdde8dc00d500ccd5dde2d6e3eb00e4e6d9e7d9e2e800e3e200d6e3e8dcfae7ddd8d9e700e3da00e8dcd900d6d5e8e8e0d9daddd9e0d8abfbbbe0e000e1e3ead9e700dcd5ead900e8dcd9dde600e7d9d7e3e2d8d5e6edfed9dadad9d7e800d7dcd5e2d7d900d8e3e9d6e0d9d8abff",
+      "references": [
+        10926076
+      ],
+      "pt_bytes": 109,
+      "pixels": [
+        141,
+        137,
+        174,
+        143
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44adb",
+      "live_offset": "0xa44adb",
+      "status": "translated",
+      "corpus_en": "with all Pokémon confused!",
+      "comparison_fr": "avec les Pokémon confus !",
+      "expected": "com todos os Pokémon confusos!",
+      "source_hex": "ebdde8dc00d5e0e000cae3df1be1e3e200d7e3e2dae9e7d9d8abff",
+      "references": [
+        10926080
+      ],
+      "pt_bytes": 31,
+      "pixels": [
+        171
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44af6",
+      "live_offset": "0xa44af6",
+      "status": "translated",
+      "corpus_en": "with all Pokémon taunted!<0xFB>No status moves can be used!",
+      "comparison_fr": "avec tous les Pokémon provoqués !<0xFB>Aucune attaque de statut ne peut\nêtre utilisée !",
+      "expected": "com todos sob Taunt!<0xFB>Movimentos de status são proibidos!",
+      "source_hex": "ebdde8dc00d5e0e000cae3df1be1e3e200e8d5e9e2e8d9d8abfbc8e300e7e8d5e8e9e700e1e3ead9e700d7d5e200d6d900e9e7d9d8abff",
+      "references": [
+        10926084
+      ],
+      "pt_bytes": 57,
+      "pixels": [
+        115,
+        194
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44b2d",
+      "live_offset": "0xa44b2d",
+      "status": "translated",
+      "corpus_en": "with all Pokémon tormented!<0xFB>No move can be used twice in a row.",
+      "comparison_fr": "avec tous les Pokémon tourmentés !<0xFB>Aucune attaque ne peut être\nutilisée deux fois de suite.",
+      "expected": "com todos sob Torment!<0xFB>Não se pode repetir um movimento\\nduas vezes seguidas.",
+      "source_hex": "ebdde8dc00d5e0e000cae3df1be1e3e200e8e3e6e1d9e2e8d9d8abfbc8e300e1e3ead900d7d5e200d6d900e9e7d9d800e8ebddd7d900dde200d500e6e3ebadff",
+      "references": [
+        10926088
+      ],
+      "pt_bytes": 77,
+      "pixels": [
+        126,
+        182,
+        113
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44b6d",
+      "live_offset": "0xa44b6d",
+      "status": "translated",
+      "corpus_en": "with all Pokémon Heal Blocked!<0xFB>No Pokémon will be able to heal!",
+      "comparison_fr": "avec tous les Pokémon sous\nAnti-Soin !<0xFB>Aucun Pokémon ne pourra se\nsoigner !",
+      "expected": "com todos sob Heal Block!<0xFB>Nenhum Pokémon poderá se curar!",
+      "source_hex": "ebdde8dc00d5e0e000cae3df1be1e3e200c2d9d5e000bce0e3d7dfd9d8abfbc8e300cae3df1be1e3e200ebdde0e000d6d900d5d6e0d900e8e300dcd9d5e0abff",
+      "references": [
+        10926092
+      ],
+      "pt_bytes": 58,
+      "pixels": [
+        144,
+        179
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44bad",
+      "live_offset": "0xa44bad",
+      "status": "translated",
+      "corpus_en": "with all Pokémon Throat Chopped!<0xFB>No sound-based moves can be used!",
+      "comparison_fr": "avec tous les Pokémon sous\nExécu-Son !<0xFB>Aucune attaque sonore ne peut\nêtre utilisée !",
+      "expected": "com todos sob Throat Chop!<0xFB>Movimentos sonoros são proibidos!",
+      "source_hex": "ebdde8dc00d5e0e000cae3df1be1e3e200cedce6e3d5e800bddce3e4e4d9d8abfbc8e300e7e3e9e2d8aed6d5e7d9d800e1e3ead9e700d7d5e200d6d900e9e7d9d8abff",
+      "references": [
+        10926096
+      ],
+      "pt_bytes": 61,
+      "pixels": [
+        151,
+        182
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44bf0",
+      "live_offset": "0xa44bf0",
+      "status": "translated",
+      "corpus_en": "with all Pokémon Laser Focused!<0xFB>Moves will always score critical\nhits!",
+      "comparison_fr": "avec tous les Pokémon sous\nFocalisation !<0xFB>Les attaques infligeront toujours\ndes coups critiques !",
+      "expected": "com todos sob Laser Focus!<0xFB>Movimentos sempre causarão\\nacertos críticos!",
+      "source_hex": "ebdde8dc00d5e0e000cae3df1be1e3e200c6d5e7d9e600c0e3d7e9e7d9d8abfbc7e3ead9e700ebdde0e000d5e0ebd5ede700e7d7e3e6d900d7e6dde8ddd7d5e0fedcdde8e7abff",
+      "references": [
+        10926100
+      ],
+      "pt_bytes": 72,
+      "pixels": [
+        150,
+        147,
+        94
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44c37",
+      "live_offset": "0xa44c37",
+      "status": "translated",
+      "corpus_en": "with no Pokémon being able to<0xFA>score a critical hit!",
+      "comparison_fr": "sans qu'aucun Pokémon ne puisse<0xFA>infliger de coup critique !",
+      "expected": "sem que nenhum Pokémon possa<0xFA>causar um acerto crítico!",
+      "source_hex": "ebdde8dc00e2e300cae3df1be1e3e200d6d9dde2db00d5d6e0d900e8e3fae7d7e3e6d900d500d7e6dde8ddd7d5e000dcdde8abff",
+      "references": [
+        10926104
+      ],
+      "pt_bytes": 55,
+      "pixels": [
+        161,
+        142
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44c6b",
+      "live_offset": "0xa44c6b",
+      "status": "translated",
+      "corpus_en": "with all Pokémon having their<0xFA>abilities suppressed!",
+      "comparison_fr": "avec tous les talents des<0xFA>Pokémon neutralisés !",
+      "expected": "com as Habilidades de todos<0xFA>os Pokémon anuladas!",
+      "source_hex": "ebdde8dc00d5e0e000cae3df1be1e3e200dcd5eadde2db00e8dcd9dde6fad5d6dde0dde8ddd9e700e7e9e4e4e6d9e7e7d9d8abff",
+      "references": [
+        10926108
+      ],
+      "pt_bytes": 49,
+      "pixels": [
+        153,
+        114
+      ],
+      "max_width": 204,
+      "reason": "Texte traduit ; consommateur direct ou table de pointeurs CFRU."
+    },
+    {
+      "offset": "0xa44c9f",
+      "live_offset": "0xa44ca0",
+      "status": "retained",
+      "corpus_en": "Liam",
+      "comparison_fr": "Liam",
+      "expected": "Liam",
+      "source_hex": "c6ddd5e1ff",
+      "references": [
+        10970244
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        22
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759. Clé du manifeste sur remplissage 00 ; chaîne vivante à +1, sans ajouter de clé hors lot."
+    },
+    {
+      "offset": "0xa44ca5",
+      "live_offset": "0xa44ca5",
+      "status": "retained",
+      "corpus_en": "Noah",
+      "comparison_fr": "Noah",
+      "expected": "Noah",
+      "source_hex": "c8e3d5dcff",
+      "references": [
+        10970248
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44caa",
+      "live_offset": "0xa44caa",
+      "status": "retained",
+      "corpus_en": "William",
+      "comparison_fr": "William",
+      "expected": "William",
+      "source_hex": "d1dde0e0ddd5e1ff",
+      "references": [
+        10970252
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        36
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cb2",
+      "live_offset": "0xa44cb2",
+      "status": "retained",
+      "corpus_en": "James",
+      "comparison_fr": "James",
+      "expected": "James",
+      "source_hex": "c4d5e1d9e7ff",
+      "references": [
+        10970256
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cb8",
+      "live_offset": "0xa44cb8",
+      "status": "retained",
+      "corpus_en": "Logan",
+      "comparison_fr": "Logan",
+      "expected": "Logan",
+      "source_hex": "c6e3dbd5e2ff",
+      "references": [
+        10970260
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cbe",
+      "live_offset": "0xa44cbe",
+      "status": "retained",
+      "corpus_en": "Benjamin",
+      "comparison_fr": "Benjamin",
+      "expected": "Benjamin",
+      "source_hex": "bcd9e2ded5e1dde2ff",
+      "references": [
+        10970264
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cc7",
+      "live_offset": "0xa44cc7",
+      "status": "retained",
+      "corpus_en": "Mason",
+      "comparison_fr": "Mason",
+      "expected": "Mason",
+      "source_hex": "c7d5e7e3e2ff",
+      "references": [
+        10970268
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ccd",
+      "live_offset": "0xa44ccd",
+      "status": "retained",
+      "corpus_en": "Elijah",
+      "comparison_fr": "Elijah",
+      "expected": "Elijah",
+      "source_hex": "bfe0ddded5dcff",
+      "references": [
+        10970272
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cd4",
+      "live_offset": "0xa44cd4",
+      "status": "retained",
+      "corpus_en": "Oliver",
+      "comparison_fr": "Oliver",
+      "expected": "Oliver",
+      "source_hex": "c9e0ddead9e6ff",
+      "references": [
+        10970276
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cdb",
+      "live_offset": "0xa44cdb",
+      "status": "retained",
+      "corpus_en": "Jacob",
+      "comparison_fr": "Jacob",
+      "expected": "Jacob",
+      "source_hex": "c4d5d7e3d6ff",
+      "references": [
+        10970280
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        30
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ce1",
+      "live_offset": "0xa44ce1",
+      "status": "retained",
+      "corpus_en": "Lucas",
+      "comparison_fr": "Lucas",
+      "expected": "Lucas",
+      "source_hex": "c6e9d7d5e7ff",
+      "references": [
+        10970284
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ce7",
+      "live_offset": "0xa44ce7",
+      "status": "retained",
+      "corpus_en": "Michael",
+      "comparison_fr": "Michael",
+      "expected": "Michael",
+      "source_hex": "c7ddd7dcd5d9e0ff",
+      "references": [
+        10970288
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cef",
+      "live_offset": "0xa44cef",
+      "status": "retained",
+      "corpus_en": "Alexander",
+      "comparison_fr": "Alexander",
+      "expected": "Alexander",
+      "source_hex": "bbe0d9ecd5e2d8d9e6ff",
+      "references": [
+        10970292
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cf9",
+      "live_offset": "0xa44cf9",
+      "status": "retained",
+      "corpus_en": "Ethan",
+      "comparison_fr": "Ethan",
+      "expected": "Ethan",
+      "source_hex": "bfe8dcd5e2ff",
+      "references": [
+        10970296
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44cff",
+      "live_offset": "0xa44cff",
+      "status": "retained",
+      "corpus_en": "Daniel",
+      "comparison_fr": "Daniel",
+      "expected": "Daniel",
+      "source_hex": "bed5e2ddd9e0ff",
+      "references": [
+        10970300
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d06",
+      "live_offset": "0xa44d06",
+      "status": "retained",
+      "corpus_en": "Matthew",
+      "comparison_fr": "Matthew",
+      "expected": "Matthew",
+      "source_hex": "c7d5e8e8dcd9ebff",
+      "references": [
+        10970304
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d0e",
+      "live_offset": "0xa44d0e",
+      "status": "retained",
+      "corpus_en": "Aiden",
+      "comparison_fr": "Aiden",
+      "expected": "Aiden",
+      "source_hex": "bbddd8d9e2ff",
+      "references": [
+        10970308
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d14",
+      "live_offset": "0xa44d14",
+      "status": "retained",
+      "corpus_en": "Henry",
+      "comparison_fr": "Henry",
+      "expected": "Henry",
+      "source_hex": "c2d9e2e6edff",
+      "references": [
+        10970312
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d1a",
+      "live_offset": "0xa44d1a",
+      "status": "retained",
+      "corpus_en": "Joseph",
+      "comparison_fr": "Joseph",
+      "expected": "Joseph",
+      "source_hex": "c4e3e7d9e4dcff",
+      "references": [
+        10970316
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d21",
+      "live_offset": "0xa44d21",
+      "status": "retained",
+      "corpus_en": "Jackson",
+      "comparison_fr": "Jackson",
+      "expected": "Jackson",
+      "source_hex": "c4d5d7dfe7e3e2ff",
+      "references": [
+        10970320
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d29",
+      "live_offset": "0xa44d29",
+      "status": "retained",
+      "corpus_en": "Samuel",
+      "comparison_fr": "Samuel",
+      "expected": "Samuel",
+      "source_hex": "cdd5e1e9d9e0ff",
+      "references": [
+        10970324
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d30",
+      "live_offset": "0xa44d30",
+      "status": "retained",
+      "corpus_en": "Sebastian",
+      "comparison_fr": "Sebastian",
+      "expected": "Sebastian",
+      "source_hex": "cdd9d6d5e7e8ddd5e2ff",
+      "references": [
+        10970328
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d3a",
+      "live_offset": "0xa44d3a",
+      "status": "retained",
+      "corpus_en": "David",
+      "comparison_fr": "David",
+      "expected": "David",
+      "source_hex": "bed5eaddd8ff",
+      "references": [
+        10970332
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d40",
+      "live_offset": "0xa44d40",
+      "status": "retained",
+      "corpus_en": "Carter",
+      "comparison_fr": "Carter",
+      "expected": "Carter",
+      "source_hex": "bdd5e6e8d9e6ff",
+      "references": [
+        10970336
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d47",
+      "live_offset": "0xa44d47",
+      "status": "retained",
+      "corpus_en": "Wyatt",
+      "comparison_fr": "Wyatt",
+      "expected": "Wyatt",
+      "source_hex": "d1edd5e8e8ff",
+      "references": [
+        10970340
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d4d",
+      "live_offset": "0xa44d4d",
+      "status": "retained",
+      "corpus_en": "Jayden",
+      "comparison_fr": "Jayden",
+      "expected": "Jayden",
+      "source_hex": "c4d5edd8d9e2ff",
+      "references": [
+        10970344
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d54",
+      "live_offset": "0xa44d54",
+      "status": "retained",
+      "corpus_en": "John",
+      "comparison_fr": "John",
+      "expected": "John",
+      "source_hex": "c4e3dce2ff",
+      "references": [
+        10970348
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d59",
+      "live_offset": "0xa44d59",
+      "status": "retained",
+      "corpus_en": "Owen",
+      "comparison_fr": "Owen",
+      "expected": "Owen",
+      "source_hex": "c9ebd9e2ff",
+      "references": [
+        10970352
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d5e",
+      "live_offset": "0xa44d5e",
+      "status": "retained",
+      "corpus_en": "Dylan",
+      "comparison_fr": "Dylan",
+      "expected": "Dylan",
+      "source_hex": "beede0d5e2ff",
+      "references": [
+        10970356
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d64",
+      "live_offset": "0xa44d64",
+      "status": "retained",
+      "corpus_en": "Luke",
+      "comparison_fr": "Luke",
+      "expected": "Luke",
+      "source_hex": "c6e9dfd9ff",
+      "references": [
+        10970360
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d69",
+      "live_offset": "0xa44d69",
+      "status": "retained",
+      "corpus_en": "Gabriel",
+      "comparison_fr": "Gabriel",
+      "expected": "Gabriel",
+      "source_hex": "c1d5d6e6ddd9e0ff",
+      "references": [
+        10970364
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d71",
+      "live_offset": "0xa44d71",
+      "status": "retained",
+      "corpus_en": "Anthony",
+      "comparison_fr": "Anthony",
+      "expected": "Anthony",
+      "source_hex": "bbe2e8dce3e2edff",
+      "references": [
+        10970368
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d79",
+      "live_offset": "0xa44d79",
+      "status": "retained",
+      "corpus_en": "Isaac",
+      "comparison_fr": "Isaac",
+      "expected": "Isaac",
+      "source_hex": "c3e7d5d5d7ff",
+      "references": [
+        10970372
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d7f",
+      "live_offset": "0xa44d7f",
+      "status": "retained",
+      "corpus_en": "Grayson",
+      "comparison_fr": "Grayson",
+      "expected": "Grayson",
+      "source_hex": "c1e6d5ede7e3e2ff",
+      "references": [
+        10970376
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d87",
+      "live_offset": "0xa44d87",
+      "status": "retained",
+      "corpus_en": "Jack",
+      "comparison_fr": "Jack",
+      "expected": "Jack",
+      "source_hex": "c4d5d7dfff",
+      "references": [
+        10970380
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d8c",
+      "live_offset": "0xa44d8c",
+      "status": "retained",
+      "corpus_en": "Julian",
+      "comparison_fr": "Julian",
+      "expected": "Julian",
+      "source_hex": "c4e9e0ddd5e2ff",
+      "references": [
+        10970384
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d93",
+      "live_offset": "0xa44d93",
+      "status": "retained",
+      "corpus_en": "Levi",
+      "comparison_fr": "Levi",
+      "expected": "Levi",
+      "source_hex": "c6d9eaddff",
+      "references": [
+        10970388
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        22
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44d98",
+      "live_offset": "0xa44d98",
+      "status": "retained",
+      "corpus_en": "Christopher",
+      "comparison_fr": "Christopher",
+      "expected": "Christopher",
+      "source_hex": "bddce6dde7e8e3e4dcd9e6ff",
+      "references": [
+        10970392
+      ],
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44da4",
+      "live_offset": "0xa44da4",
+      "status": "retained",
+      "corpus_en": "Joshua",
+      "comparison_fr": "Joshua",
+      "expected": "Joshua",
+      "source_hex": "c4e3e7dce9d5ff",
+      "references": [
+        10970396
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dab",
+      "live_offset": "0xa44dab",
+      "status": "retained",
+      "corpus_en": "Andrew",
+      "comparison_fr": "Andrew",
+      "expected": "Andrew",
+      "source_hex": "bbe2d8e6d9ebff",
+      "references": [
+        10970400
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44db2",
+      "live_offset": "0xa44db2",
+      "status": "retained",
+      "corpus_en": "Lincoln",
+      "comparison_fr": "Lincoln",
+      "expected": "Lincoln",
+      "source_hex": "c6dde2d7e3e0e2ff",
+      "references": [
+        10970404
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dba",
+      "live_offset": "0xa44dba",
+      "status": "retained",
+      "corpus_en": "Mateo",
+      "comparison_fr": "Mateo",
+      "expected": "Mateo",
+      "source_hex": "c7d5e8d9e3ff",
+      "references": [
+        10970408
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dc0",
+      "live_offset": "0xa44dc0",
+      "status": "retained",
+      "corpus_en": "Ryan",
+      "comparison_fr": "Ryan",
+      "expected": "Ryan",
+      "source_hex": "ccedd5e2ff",
+      "references": [
+        10970412
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dc5",
+      "live_offset": "0xa44dc5",
+      "status": "retained",
+      "corpus_en": "Jaxon",
+      "comparison_fr": "Jaxon",
+      "expected": "Jaxon",
+      "source_hex": "c4d5ece3e2ff",
+      "references": [
+        10970416
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dcb",
+      "live_offset": "0xa44dcb",
+      "status": "retained",
+      "corpus_en": "Nathan",
+      "comparison_fr": "Nathan",
+      "expected": "Nathan",
+      "source_hex": "c8d5e8dcd5e2ff",
+      "references": [
+        10970420
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dd2",
+      "live_offset": "0xa44dd2",
+      "status": "retained",
+      "corpus_en": "Aaron",
+      "comparison_fr": "Aaron",
+      "expected": "Aaron",
+      "source_hex": "bbd5e6e3e2ff",
+      "references": [
+        10970424
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dd8",
+      "live_offset": "0xa44dd8",
+      "status": "retained",
+      "corpus_en": "Isaiah",
+      "comparison_fr": "Isaiah",
+      "expected": "Isaiah",
+      "source_hex": "c3e7d5ddd5dcff",
+      "references": [
+        10970428
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ddf",
+      "live_offset": "0xa44ddf",
+      "status": "retained",
+      "corpus_en": "Thomas",
+      "comparison_fr": "Thomas",
+      "expected": "Thomas",
+      "source_hex": "cedce3e1d5e7ff",
+      "references": [
+        10970432
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44de6",
+      "live_offset": "0xa44de6",
+      "status": "retained",
+      "corpus_en": "Charles",
+      "comparison_fr": "Charles",
+      "expected": "Charles",
+      "source_hex": "bddcd5e6e0d9e7ff",
+      "references": [
+        10970436
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dee",
+      "live_offset": "0xa44dee",
+      "status": "retained",
+      "corpus_en": "Caleb",
+      "comparison_fr": "Caleb",
+      "expected": "Caleb",
+      "source_hex": "bdd5e0d9d6ff",
+      "references": [
+        10970440
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44df4",
+      "live_offset": "0xa44df4",
+      "status": "retained",
+      "corpus_en": "Josiah",
+      "comparison_fr": "Josiah",
+      "expected": "Josiah",
+      "source_hex": "c4e3e7ddd5dcff",
+      "references": [
+        10970444
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44dfb",
+      "live_offset": "0xa44dfb",
+      "status": "retained",
+      "corpus_en": "Christian",
+      "comparison_fr": "Christian",
+      "expected": "Christian",
+      "source_hex": "bddce6dde7e8ddd5e2ff",
+      "references": [
+        10970448
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        46
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e05",
+      "live_offset": "0xa44e05",
+      "status": "retained",
+      "corpus_en": "Hunter",
+      "comparison_fr": "Hunter",
+      "expected": "Hunter",
+      "source_hex": "c2e9e2e8d9e6ff",
+      "references": [
+        10970452
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e10",
+      "live_offset": "0xa44e10",
+      "status": "retained",
+      "corpus_en": "Jonathan",
+      "comparison_fr": "Jonathan",
+      "expected": "Jonathan",
+      "source_hex": "c4e3e2d5e8dcd5e2ff",
+      "references": [
+        10970460
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e19",
+      "live_offset": "0xa44e19",
+      "status": "retained",
+      "corpus_en": "Connor",
+      "comparison_fr": "Connor",
+      "expected": "Connor",
+      "source_hex": "bde3e2e2e3e6ff",
+      "references": [
+        10970464
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e20",
+      "live_offset": "0xa44e20",
+      "status": "retained",
+      "corpus_en": "Landon",
+      "comparison_fr": "Landon",
+      "expected": "Landon",
+      "source_hex": "c6d5e2d8e3e2ff",
+      "references": [
+        10970468
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e27",
+      "live_offset": "0xa44e27",
+      "status": "retained",
+      "corpus_en": "Adrian",
+      "comparison_fr": "Adrian",
+      "expected": "Adrian",
+      "source_hex": "bbd8e6ddd5e2ff",
+      "references": [
+        10970472
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e2e",
+      "live_offset": "0xa44e2e",
+      "status": "retained",
+      "corpus_en": "Asher",
+      "comparison_fr": "Asher",
+      "expected": "Asher",
+      "source_hex": "bbe7dcd9e6ff",
+      "references": [
+        10970476
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e34",
+      "live_offset": "0xa44e34",
+      "status": "retained",
+      "corpus_en": "Cameron",
+      "comparison_fr": "Cameron",
+      "expected": "Cameron",
+      "source_hex": "bdd5e1d9e6e3e2ff",
+      "references": [
+        10970480
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e40",
+      "live_offset": "0xa44e40",
+      "status": "retained",
+      "corpus_en": "Theodore",
+      "comparison_fr": "Theodore",
+      "expected": "Theodore",
+      "source_hex": "cedcd9e3d8e3e6d9ff",
+      "references": [
+        10970488
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        47
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e49",
+      "live_offset": "0xa44e49",
+      "status": "retained",
+      "corpus_en": "Jeremiah",
+      "comparison_fr": "Jeremiah",
+      "expected": "Jeremiah",
+      "source_hex": "c4d9e6d9e1ddd5dcff",
+      "references": [
+        10970492
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e52",
+      "live_offset": "0xa44e52",
+      "status": "retained",
+      "corpus_en": "Hudson",
+      "comparison_fr": "Hudson",
+      "expected": "Hudson",
+      "source_hex": "c2e9d8e7e3e2ff",
+      "references": [
+        10970496
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e59",
+      "live_offset": "0xa44e59",
+      "status": "retained",
+      "corpus_en": "Robert",
+      "comparison_fr": "Robert",
+      "expected": "Robert",
+      "source_hex": "cce3d6d9e6e8ff",
+      "references": [
+        10970500
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e60",
+      "live_offset": "0xa44e60",
+      "status": "retained",
+      "corpus_en": "Easton",
+      "comparison_fr": "Easton",
+      "expected": "Easton",
+      "source_hex": "bfd5e7e8e3e2ff",
+      "references": [
+        10970504
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e67",
+      "live_offset": "0xa44e67",
+      "status": "retained",
+      "corpus_en": "Nolan",
+      "comparison_fr": "Nolan",
+      "expected": "Nolan",
+      "source_hex": "c8e3e0d5e2ff",
+      "references": [
+        10970508
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e6d",
+      "live_offset": "0xa44e6d",
+      "status": "retained",
+      "corpus_en": "Nicholas",
+      "comparison_fr": "Nicholas",
+      "expected": "Nicholas",
+      "source_hex": "c8ddd7dce3e0d5e7ff",
+      "references": [
+        10970512
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e76",
+      "live_offset": "0xa44e76",
+      "status": "retained",
+      "corpus_en": "Ezra",
+      "comparison_fr": "Ezra",
+      "expected": "Ezra",
+      "source_hex": "bfeee6d5ff",
+      "references": [
+        10970516
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e7b",
+      "live_offset": "0xa44e7b",
+      "status": "retained",
+      "corpus_en": "Colton",
+      "comparison_fr": "Colton",
+      "expected": "Colton",
+      "source_hex": "bde3e0e8e3e2ff",
+      "references": [
+        10970520
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e82",
+      "live_offset": "0xa44e82",
+      "status": "retained",
+      "corpus_en": "Angel",
+      "comparison_fr": "Angel",
+      "expected": "Angel",
+      "source_hex": "bbe2dbd9e0ff",
+      "references": [
+        10970524
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e88",
+      "live_offset": "0xa44e88",
+      "status": "retained",
+      "corpus_en": "Brayden",
+      "comparison_fr": "Brayden",
+      "expected": "Brayden",
+      "source_hex": "bce6d5edd8d9e2ff",
+      "references": [
+        10970528
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e90",
+      "live_offset": "0xa44e90",
+      "status": "retained",
+      "corpus_en": "Jordan",
+      "comparison_fr": "Jordan",
+      "expected": "Jordan",
+      "source_hex": "c4e3e6d8d5e2ff",
+      "references": [
+        10970532
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e97",
+      "live_offset": "0xa44e97",
+      "status": "retained",
+      "corpus_en": "Dominic",
+      "comparison_fr": "Dominic",
+      "expected": "Dominic",
+      "source_hex": "bee3e1dde2ddd7ff",
+      "references": [
+        10970536
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44e9f",
+      "live_offset": "0xa44e9f",
+      "status": "retained",
+      "corpus_en": "Austin",
+      "comparison_fr": "Austin",
+      "expected": "Austin",
+      "source_hex": "bbe9e7e8dde2ff",
+      "references": [
+        10970540
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        31
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44eaa",
+      "live_offset": "0xa44eaa",
+      "status": "retained",
+      "corpus_en": "Adam",
+      "comparison_fr": "Adam",
+      "expected": "Adam",
+      "source_hex": "bbd8d5e1ff",
+      "references": [
+        10970548
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44eaf",
+      "live_offset": "0xa44eaf",
+      "status": "retained",
+      "corpus_en": "Elias",
+      "comparison_fr": "Elias",
+      "expected": "Elias",
+      "source_hex": "bfe0ddd5e7ff",
+      "references": [
+        10970552
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        26
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44eb5",
+      "live_offset": "0xa44eb5",
+      "status": "retained",
+      "corpus_en": "Jaxson",
+      "comparison_fr": "Jaxson",
+      "expected": "Jaxson",
+      "source_hex": "c4d5ece7e3e2ff",
+      "references": [
+        10970556
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ebc",
+      "live_offset": "0xa44ebc",
+      "status": "retained",
+      "corpus_en": "Greyson",
+      "comparison_fr": "Greyson",
+      "expected": "Greyson",
+      "source_hex": "c1e6d9ede7e3e2ff",
+      "references": [
+        10970560
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ec4",
+      "live_offset": "0xa44ec4",
+      "status": "retained",
+      "corpus_en": "Jose",
+      "comparison_fr": "Jose",
+      "expected": "Jose",
+      "source_hex": "c4e3e7d9ff",
+      "references": [
+        10970564
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ec9",
+      "live_offset": "0xa44ec9",
+      "status": "retained",
+      "corpus_en": "Ezekiel",
+      "comparison_fr": "Ezekiel",
+      "expected": "Ezekiel",
+      "source_hex": "bfeed9dfddd9e0ff",
+      "references": [
+        10970568
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ed1",
+      "live_offset": "0xa44ed1",
+      "status": "retained",
+      "corpus_en": "Carson",
+      "comparison_fr": "Carson",
+      "expected": "Carson",
+      "source_hex": "bdd5e6e7e3e2ff",
+      "references": [
+        10970572
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ed8",
+      "live_offset": "0xa44ed8",
+      "status": "retained",
+      "corpus_en": "Evan",
+      "comparison_fr": "Evan",
+      "expected": "Evan",
+      "source_hex": "bfead5e2ff",
+      "references": [
+        10970576
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44edd",
+      "live_offset": "0xa44edd",
+      "status": "retained",
+      "corpus_en": "Maverick",
+      "comparison_fr": "Maverick",
+      "expected": "Maverick",
+      "source_hex": "c7d5ead9e6ddd7dfff",
+      "references": [
+        10970580
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ee6",
+      "live_offset": "0xa44ee6",
+      "status": "retained",
+      "corpus_en": "Bryson",
+      "comparison_fr": "Bryson",
+      "expected": "Bryson",
+      "source_hex": "bce6ede7e3e2ff",
+      "references": [
+        10970584
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44eed",
+      "live_offset": "0xa44eed",
+      "status": "retained",
+      "corpus_en": "Jace",
+      "comparison_fr": "Jace",
+      "expected": "Jace",
+      "source_hex": "c4d5d7d9ff",
+      "references": [
+        10970588
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ef2",
+      "live_offset": "0xa44ef2",
+      "status": "retained",
+      "corpus_en": "Cooper",
+      "comparison_fr": "Cooper",
+      "expected": "Cooper",
+      "source_hex": "bde3e3e4d9e6ff",
+      "references": [
+        10970592
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ef9",
+      "live_offset": "0xa44ef9",
+      "status": "retained",
+      "corpus_en": "Xavier",
+      "comparison_fr": "Xavier",
+      "expected": "Xavier",
+      "source_hex": "d2d5eaddd9e6ff",
+      "references": [
+        10970596
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f00",
+      "live_offset": "0xa44f00",
+      "status": "retained",
+      "corpus_en": "Parker",
+      "comparison_fr": "Parker",
+      "expected": "Parker",
+      "source_hex": "cad5e6dfd9e6ff",
+      "references": [
+        10970600
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f07",
+      "live_offset": "0xa44f07",
+      "status": "retained",
+      "corpus_en": "Roman",
+      "comparison_fr": "Roman",
+      "expected": "Roman",
+      "source_hex": "cce3e1d5e2ff",
+      "references": [
+        10970604
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f0d",
+      "live_offset": "0xa44f0d",
+      "status": "retained",
+      "corpus_en": "Jason",
+      "comparison_fr": "Jason",
+      "expected": "Jason",
+      "source_hex": "c4d5e7e3e2ff",
+      "references": [
+        10970608
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f13",
+      "live_offset": "0xa44f13",
+      "status": "retained",
+      "corpus_en": "Santiago",
+      "comparison_fr": "Santiago",
+      "expected": "Santiago",
+      "source_hex": "cdd5e2e8ddd5dbe3ff",
+      "references": [
+        10970612
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f1c",
+      "live_offset": "0xa44f1c",
+      "status": "retained",
+      "corpus_en": "Chase",
+      "comparison_fr": "Chase",
+      "expected": "Chase",
+      "source_hex": "bddcd5e7d9ff",
+      "references": [
+        10970616
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f22",
+      "live_offset": "0xa44f22",
+      "status": "retained",
+      "corpus_en": "Sawyer",
+      "comparison_fr": "Sawyer",
+      "expected": "Sawyer",
+      "source_hex": "cdd5ebedd9e6ff",
+      "references": [
+        10970620
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f29",
+      "live_offset": "0xa44f29",
+      "status": "retained",
+      "corpus_en": "Gavin",
+      "comparison_fr": "Gavin",
+      "expected": "Gavin",
+      "source_hex": "c1d5eadde2ff",
+      "references": [
+        10970624
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f2f",
+      "live_offset": "0xa44f2f",
+      "status": "retained",
+      "corpus_en": "Leonardo",
+      "comparison_fr": "Leonardo",
+      "expected": "Leonardo",
+      "source_hex": "c6d9e3e2d5e6d8e3ff",
+      "references": [
+        10970628
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f38",
+      "live_offset": "0xa44f38",
+      "status": "retained",
+      "corpus_en": "Kayden",
+      "comparison_fr": "Kayden",
+      "expected": "Kayden",
+      "source_hex": "c5d5edd8d9e2ff",
+      "references": [
+        10970632
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f3f",
+      "live_offset": "0xa44f3f",
+      "status": "retained",
+      "corpus_en": "Ayden",
+      "comparison_fr": "Ayden",
+      "expected": "Ayden",
+      "source_hex": "bbedd8d9e2ff",
+      "references": [
+        10970636
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f45",
+      "live_offset": "0xa44f45",
+      "status": "retained",
+      "corpus_en": "Jameson",
+      "comparison_fr": "Jameson",
+      "expected": "Jameson",
+      "source_hex": "c4d5e1d9e7e3e2ff",
+      "references": [
+        10970640
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f4d",
+      "live_offset": "0xa44f4d",
+      "status": "retained",
+      "corpus_en": "Emma",
+      "comparison_fr": "Emma",
+      "expected": "Emma",
+      "source_hex": "bfe1e1d5ff",
+      "references": [
+        10969844
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f52",
+      "live_offset": "0xa44f52",
+      "status": "retained",
+      "corpus_en": "Olivia",
+      "comparison_fr": "Olivia",
+      "expected": "Olivia",
+      "source_hex": "c9e0ddeaddd5ff",
+      "references": [
+        10969848
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        31
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f5d",
+      "live_offset": "0xa44f5d",
+      "status": "retained",
+      "corpus_en": "Isabella",
+      "comparison_fr": "Isabella",
+      "expected": "Isabella",
+      "source_hex": "c3e7d5d6d9e0e0d5ff",
+      "references": [
+        10969856
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f66",
+      "live_offset": "0xa44f66",
+      "status": "retained",
+      "corpus_en": "Sophia",
+      "comparison_fr": "Sophia",
+      "expected": "Sophia",
+      "source_hex": "cde3e4dcddd5ff",
+      "references": [
+        10969860
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f71",
+      "live_offset": "0xa44f71",
+      "status": "retained",
+      "corpus_en": "Charlotte",
+      "comparison_fr": "Charlotte",
+      "expected": "Charlotte",
+      "source_hex": "bddcd5e6e0e3e8e8d9ff",
+      "references": [
+        10969868
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f7b",
+      "live_offset": "0xa44f7b",
+      "status": "retained",
+      "corpus_en": "Amelia",
+      "comparison_fr": "Amelia",
+      "expected": "Amelia",
+      "source_hex": "bbe1d9e0ddd5ff",
+      "references": [
+        10969872
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f82",
+      "live_offset": "0xa44f82",
+      "status": "retained",
+      "corpus_en": "Evelyn",
+      "comparison_fr": "Evelyn",
+      "expected": "Evelyn",
+      "source_hex": "bfead9e0ede2ff",
+      "references": [
+        10969876
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f89",
+      "live_offset": "0xa44f89",
+      "status": "retained",
+      "corpus_en": "Abigail",
+      "comparison_fr": "Abigail",
+      "expected": "Abigail",
+      "source_hex": "bbd6dddbd5dde0ff",
+      "references": [
+        10969880
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f91",
+      "live_offset": "0xa44f91",
+      "status": "retained",
+      "corpus_en": "Harper",
+      "comparison_fr": "Harper",
+      "expected": "Harper",
+      "source_hex": "c2d5e6e4d9e6ff",
+      "references": [
+        10969884
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f98",
+      "live_offset": "0xa44f98",
+      "status": "retained",
+      "corpus_en": "Emily",
+      "comparison_fr": "Emily",
+      "expected": "Emily",
+      "source_hex": "bfe1dde0edff",
+      "references": [
+        10969888
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44f9e",
+      "live_offset": "0xa44f9e",
+      "status": "retained",
+      "corpus_en": "Elizabeth",
+      "comparison_fr": "Elizabeth",
+      "expected": "Elizabeth",
+      "source_hex": "bfe0ddeed5d6d9e8dcff",
+      "references": [
+        10969892
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fa8",
+      "live_offset": "0xa44fa8",
+      "status": "retained",
+      "corpus_en": "Avery",
+      "comparison_fr": "Avery",
+      "expected": "Avery",
+      "source_hex": "bbead9e6edff",
+      "references": [
+        10969896
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fae",
+      "live_offset": "0xa44fae",
+      "status": "retained",
+      "corpus_en": "Sofia",
+      "comparison_fr": "Sofia",
+      "expected": "Sofia",
+      "source_hex": "cde3daddd5ff",
+      "references": [
+        10969900
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fb4",
+      "live_offset": "0xa44fb4",
+      "status": "retained",
+      "corpus_en": "Ella",
+      "comparison_fr": "Ella",
+      "expected": "Ella",
+      "source_hex": "bfe0e0d5ff",
+      "references": [
+        10969904
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        22
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fb9",
+      "live_offset": "0xa44fb9",
+      "status": "retained",
+      "corpus_en": "Madison",
+      "comparison_fr": "Madison",
+      "expected": "Madison",
+      "source_hex": "c7d5d8dde7e3e2ff",
+      "references": [
+        10969908
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fc1",
+      "live_offset": "0xa44fc1",
+      "status": "retained",
+      "corpus_en": "Scarlett",
+      "comparison_fr": "Scarlett",
+      "expected": "Scarlett",
+      "source_hex": "cdd7d5e6e0d9e8e8ff",
+      "references": [
+        10969912
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fca",
+      "live_offset": "0xa44fca",
+      "status": "retained",
+      "corpus_en": "Victoria",
+      "comparison_fr": "Victoria",
+      "expected": "Victoria",
+      "source_hex": "d0ddd7e8e3e6ddd5ff",
+      "references": [
+        10969916
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        42
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fd3",
+      "live_offset": "0xa44fd3",
+      "status": "retained",
+      "corpus_en": "Aria",
+      "comparison_fr": "Aria",
+      "expected": "Aria",
+      "source_hex": "bbe6ddd5ff",
+      "references": [
+        10969920
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        21
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fd8",
+      "live_offset": "0xa44fd8",
+      "status": "retained",
+      "corpus_en": "Grace",
+      "comparison_fr": "Grace",
+      "expected": "Grace",
+      "source_hex": "c1e6d5d7d9ff",
+      "references": [
+        10969924
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fde",
+      "live_offset": "0xa44fde",
+      "status": "retained",
+      "corpus_en": "Chloe",
+      "comparison_fr": "Chloe",
+      "expected": "Chloe",
+      "source_hex": "bddce0e3d9ff",
+      "references": [
+        10969928
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44fe4",
+      "live_offset": "0xa44fe4",
+      "status": "retained",
+      "corpus_en": "Camila",
+      "comparison_fr": "Camila",
+      "expected": "Camila",
+      "source_hex": "bdd5e1dde0d5ff",
+      "references": [
+        10969932
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44feb",
+      "live_offset": "0xa44feb",
+      "status": "retained",
+      "corpus_en": "Penelope",
+      "comparison_fr": "Penelope",
+      "expected": "Penelope",
+      "source_hex": "cad9e2d9e0e3e4d9ff",
+      "references": [
+        10969936
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ff4",
+      "live_offset": "0xa44ff4",
+      "status": "retained",
+      "corpus_en": "Riley",
+      "comparison_fr": "Riley",
+      "expected": "Riley",
+      "source_hex": "ccdde0d9edff",
+      "references": [
+        10969940
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa44ffa",
+      "live_offset": "0xa44ffa",
+      "status": "retained",
+      "corpus_en": "Layla",
+      "comparison_fr": "Layla",
+      "expected": "Layla",
+      "source_hex": "c6d5ede0d5ff",
+      "references": [
+        10969944
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45000",
+      "live_offset": "0xa45000",
+      "status": "retained",
+      "corpus_en": "Lillian",
+      "comparison_fr": "Lillian",
+      "expected": "Lillian",
+      "source_hex": "c6dde0e0ddd5e2ff",
+      "references": [
+        10969948
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759. Occurrence non alignée 0x16d31ed hors table de noms exclue ; consommateur confirmé 0xa7635c.",
+      "excluded_pointer_matches": [
+        23933421
+      ]
+    },
+    {
+      "offset": "0xa45008",
+      "live_offset": "0xa45008",
+      "status": "retained",
+      "corpus_en": "Nora",
+      "comparison_fr": "Nora",
+      "expected": "Nora",
+      "source_hex": "c8e3e6d5ff",
+      "references": [
+        10969952
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4500d",
+      "live_offset": "0xa4500d",
+      "status": "retained",
+      "corpus_en": "Zoey",
+      "comparison_fr": "Zoey",
+      "expected": "Zoey",
+      "source_hex": "d4e3d9edff",
+      "references": [
+        10969956
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45012",
+      "live_offset": "0xa45012",
+      "status": "retained",
+      "corpus_en": "Mila",
+      "comparison_fr": "Mila",
+      "expected": "Mila",
+      "source_hex": "c7dde0d5ff",
+      "references": [
+        10969960
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        21
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45017",
+      "live_offset": "0xa45017",
+      "status": "retained",
+      "corpus_en": "Aubrey",
+      "comparison_fr": "Aubrey",
+      "expected": "Aubrey",
+      "source_hex": "bbe9d6e6d9edff",
+      "references": [
+        10969964
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4501e",
+      "live_offset": "0xa4501e",
+      "status": "retained",
+      "corpus_en": "Hannah",
+      "comparison_fr": "Hannah",
+      "expected": "Hannah",
+      "source_hex": "c2d5e2e2d5dcff",
+      "references": [
+        10969968
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45025",
+      "live_offset": "0xa45025",
+      "status": "retained",
+      "corpus_en": "Lily",
+      "comparison_fr": "Lily",
+      "expected": "Lily",
+      "source_hex": "c6dde0edff",
+      "references": [
+        10969972
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        21
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4502a",
+      "live_offset": "0xa4502a",
+      "status": "retained",
+      "corpus_en": "Addison",
+      "comparison_fr": "Addison",
+      "expected": "Addison",
+      "source_hex": "bbd8d8dde7e3e2ff",
+      "references": [
+        10969976
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45032",
+      "live_offset": "0xa45032",
+      "status": "retained",
+      "corpus_en": "Eleanor",
+      "comparison_fr": "Eleanor",
+      "expected": "Eleanor",
+      "source_hex": "bfe0d9d5e2e3e6ff",
+      "references": [
+        10969980
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4503a",
+      "live_offset": "0xa4503a",
+      "status": "retained",
+      "corpus_en": "Natalie",
+      "comparison_fr": "Natalie",
+      "expected": "Natalie",
+      "source_hex": "c8d5e8d5e0ddd9ff",
+      "references": [
+        10969984
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45042",
+      "live_offset": "0xa45042",
+      "status": "retained",
+      "corpus_en": "Luna",
+      "comparison_fr": "Luna",
+      "expected": "Luna",
+      "source_hex": "c6e9e2d5ff",
+      "references": [
+        10969988
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45047",
+      "live_offset": "0xa45047",
+      "status": "retained",
+      "corpus_en": "Savannah",
+      "comparison_fr": "Savannah",
+      "expected": "Savannah",
+      "source_hex": "cdd5ead5e2e2d5dcff",
+      "references": [
+        10969992
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45050",
+      "live_offset": "0xa45050",
+      "status": "retained",
+      "corpus_en": "Brooklyn",
+      "comparison_fr": "Brooklyn",
+      "expected": "Brooklyn",
+      "source_hex": "bce6e3e3dfe0ede2ff",
+      "references": [
+        10969996
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45059",
+      "live_offset": "0xa45059",
+      "status": "retained",
+      "corpus_en": "Leah",
+      "comparison_fr": "Leah",
+      "expected": "Leah",
+      "source_hex": "c6d9d5dcff",
+      "references": [
+        10970000
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45062",
+      "live_offset": "0xa45062",
+      "status": "retained",
+      "corpus_en": "Stella",
+      "comparison_fr": "Stella",
+      "expected": "Stella",
+      "source_hex": "cde8d9e0e0d5ff",
+      "references": [
+        10970008
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45069",
+      "live_offset": "0xa45069",
+      "status": "retained",
+      "corpus_en": "Hazel",
+      "comparison_fr": "Hazel",
+      "expected": "Hazel",
+      "source_hex": "c2d5eed9e0ff",
+      "references": [
+        10970012
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4506f",
+      "live_offset": "0xa4506f",
+      "status": "retained",
+      "corpus_en": "Ellie",
+      "comparison_fr": "Ellie",
+      "expected": "Ellie",
+      "source_hex": "bfe0e0ddd9ff",
+      "references": [
+        10970016
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        26
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45075",
+      "live_offset": "0xa45075",
+      "status": "retained",
+      "corpus_en": "Paisley",
+      "comparison_fr": "Paisley",
+      "expected": "Paisley",
+      "source_hex": "cad5dde7e0d9edff",
+      "references": [
+        10970020
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4507d",
+      "live_offset": "0xa4507d",
+      "status": "retained",
+      "corpus_en": "Audrey",
+      "comparison_fr": "Audrey",
+      "expected": "Audrey",
+      "source_hex": "bbe9d8e6d9edff",
+      "references": [
+        10970024
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45084",
+      "live_offset": "0xa45084",
+      "status": "retained",
+      "corpus_en": "Skylar",
+      "comparison_fr": "Skylar",
+      "expected": "Skylar",
+      "source_hex": "cddfede0d5e6ff",
+      "references": [
+        10970028
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4508b",
+      "live_offset": "0xa4508b",
+      "status": "retained",
+      "corpus_en": "Violet",
+      "comparison_fr": "Violet",
+      "expected": "Violet",
+      "source_hex": "d0dde3e0d9e8ff",
+      "references": [
+        10970032
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45092",
+      "live_offset": "0xa45092",
+      "status": "retained",
+      "corpus_en": "Claire",
+      "comparison_fr": "Claire",
+      "expected": "Claire",
+      "source_hex": "bde0d5dde6d9ff",
+      "references": [
+        10970036
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45099",
+      "live_offset": "0xa45099",
+      "status": "retained",
+      "corpus_en": "Bella",
+      "comparison_fr": "Bella",
+      "expected": "Bella",
+      "source_hex": "bcd9e0e0d5ff",
+      "references": [
+        10970040
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4509f",
+      "live_offset": "0xa4509f",
+      "status": "retained",
+      "corpus_en": "Aurora",
+      "comparison_fr": "Aurora",
+      "expected": "Aurora",
+      "source_hex": "bbe9e6e3e6d5ff",
+      "references": [
+        10970044
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450a6",
+      "live_offset": "0xa450a6",
+      "status": "retained",
+      "corpus_en": "Lucy",
+      "comparison_fr": "Lucy",
+      "expected": "Lucy",
+      "source_hex": "c6e9d7edff",
+      "references": [
+        10970048
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450ab",
+      "live_offset": "0xa450ab",
+      "status": "retained",
+      "corpus_en": "Anna",
+      "comparison_fr": "Anna",
+      "expected": "Anna",
+      "source_hex": "bbe2e2d5ff",
+      "references": [
+        10970052
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        22
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450b0",
+      "live_offset": "0xa450b0",
+      "status": "retained",
+      "corpus_en": "Samantha",
+      "comparison_fr": "Samantha",
+      "expected": "Samantha",
+      "source_hex": "cdd5e1d5e2e8dcd5ff",
+      "references": [
+        10970056
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450b9",
+      "live_offset": "0xa450b9",
+      "status": "retained",
+      "corpus_en": "Caroline",
+      "comparison_fr": "Caroline",
+      "expected": "Caroline",
+      "source_hex": "bdd5e6e3e0dde2d9ff",
+      "references": [
+        10970060
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450c2",
+      "live_offset": "0xa450c2",
+      "status": "retained",
+      "corpus_en": "Genesis",
+      "comparison_fr": "Genesis",
+      "expected": "Genesis",
+      "source_hex": "c1d9e2d9e7dde7ff",
+      "references": [
+        10970064
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450ca",
+      "live_offset": "0xa450ca",
+      "status": "retained",
+      "corpus_en": "Aaliyah",
+      "comparison_fr": "Aaliyah",
+      "expected": "Aaliyah",
+      "source_hex": "bbd5e0ddedd5dcff",
+      "references": [
+        10970068
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450d2",
+      "live_offset": "0xa450d2",
+      "status": "retained",
+      "corpus_en": "Kennedy",
+      "comparison_fr": "Kennedy",
+      "expected": "Kennedy",
+      "source_hex": "c5d9e2e2d9d8edff",
+      "references": [
+        10970072
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450da",
+      "live_offset": "0xa450da",
+      "status": "retained",
+      "corpus_en": "Kinsley",
+      "comparison_fr": "Kinsley",
+      "expected": "Kinsley",
+      "source_hex": "c5dde2e7e0d9edff",
+      "references": [
+        10970076
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450e2",
+      "live_offset": "0xa450e2",
+      "status": "retained",
+      "corpus_en": "Allison",
+      "comparison_fr": "Allison",
+      "expected": "Allison",
+      "source_hex": "bbe0e0dde7e3e2ff",
+      "references": [
+        10970080
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        36
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450ea",
+      "live_offset": "0xa450ea",
+      "status": "retained",
+      "corpus_en": "Maya",
+      "comparison_fr": "Maya",
+      "expected": "Maya",
+      "source_hex": "c7d5edd5ff",
+      "references": [
+        10970084
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450ef",
+      "live_offset": "0xa450ef",
+      "status": "retained",
+      "corpus_en": "Sarah",
+      "comparison_fr": "Sarah",
+      "expected": "Sarah",
+      "source_hex": "cdd5e6d5dcff",
+      "references": [
+        10970088
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450f5",
+      "live_offset": "0xa450f5",
+      "status": "retained",
+      "corpus_en": "Madelyn",
+      "comparison_fr": "Madelyn",
+      "expected": "Madelyn",
+      "source_hex": "c7d5d8d9e0ede2ff",
+      "references": [
+        10970092
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa450fd",
+      "live_offset": "0xa450fd",
+      "status": "retained",
+      "corpus_en": "Adeline",
+      "comparison_fr": "Adeline",
+      "expected": "Adeline",
+      "source_hex": "bbd8d9e0dde2d9ff",
+      "references": [
+        10970096
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45105",
+      "live_offset": "0xa45105",
+      "status": "retained",
+      "corpus_en": "Alexa",
+      "comparison_fr": "Alexa",
+      "expected": "Alexa",
+      "source_hex": "bbe0d9ecd5ff",
+      "references": [
+        10970100
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4510b",
+      "live_offset": "0xa4510b",
+      "status": "retained",
+      "corpus_en": "Ariana",
+      "comparison_fr": "Ariana",
+      "expected": "Ariana",
+      "source_hex": "bbe6ddd5e2d5ff",
+      "references": [
+        10970104
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45112",
+      "live_offset": "0xa45112",
+      "status": "retained",
+      "corpus_en": "Elena",
+      "comparison_fr": "Elena",
+      "expected": "Elena",
+      "source_hex": "bfe0d9e2d5ff",
+      "references": [
+        10970108
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45118",
+      "live_offset": "0xa45118",
+      "status": "retained",
+      "corpus_en": "Gabriella",
+      "comparison_fr": "Gabriella",
+      "expected": "Gabriella",
+      "source_hex": "c1d5d6e6ddd9e0e0d5ff",
+      "references": [
+        10970112
+      ],
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45122",
+      "live_offset": "0xa45122",
+      "status": "retained",
+      "corpus_en": "Naomi",
+      "comparison_fr": "Naomi",
+      "expected": "Naomi",
+      "source_hex": "c8d5e3e1ddff",
+      "references": [
+        10970116
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45128",
+      "live_offset": "0xa45128",
+      "status": "retained",
+      "corpus_en": "Alice",
+      "comparison_fr": "Alice",
+      "expected": "Alice",
+      "source_hex": "bbe0ddd7d9ff",
+      "references": [
+        10816744,
+        10970120
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4512e",
+      "live_offset": "0xa4512e",
+      "status": "retained",
+      "corpus_en": "Sadie",
+      "comparison_fr": "Sadie",
+      "expected": "Sadie",
+      "source_hex": "cdd5d8ddd9ff",
+      "references": [
+        10970124
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45134",
+      "live_offset": "0xa45134",
+      "status": "retained",
+      "corpus_en": "Hailey",
+      "comparison_fr": "Hailey",
+      "expected": "Hailey",
+      "source_hex": "c2d5dde0d9edff",
+      "references": [
+        10970128
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4513f",
+      "live_offset": "0xa4513f",
+      "status": "retained",
+      "corpus_en": "Emilia",
+      "comparison_fr": "Emilia",
+      "expected": "Emilia",
+      "source_hex": "bfe1dde0ddd5ff",
+      "references": [
+        10970136
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        31
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45146",
+      "live_offset": "0xa45146",
+      "status": "retained",
+      "corpus_en": "Autumn",
+      "comparison_fr": "Autumn",
+      "expected": "Autumn",
+      "source_hex": "bbe9e8e9e1e2ff",
+      "references": [
+        10970140
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4514d",
+      "live_offset": "0xa4514d",
+      "status": "retained",
+      "corpus_en": "Quinn",
+      "comparison_fr": "Quinn",
+      "expected": "Quinn",
+      "source_hex": "cbe9dde2e2ff",
+      "references": [
+        10970144
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        26
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45153",
+      "live_offset": "0xa45153",
+      "status": "retained",
+      "corpus_en": "Nevaeh",
+      "comparison_fr": "Nevaeh",
+      "expected": "Nevaeh",
+      "source_hex": "c8d9ead5d9dcff",
+      "references": [
+        10970148
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        36
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4515a",
+      "live_offset": "0xa4515a",
+      "status": "retained",
+      "corpus_en": "Piper",
+      "comparison_fr": "Piper",
+      "expected": "Piper",
+      "source_hex": "cadde4d9e6ff",
+      "references": [
+        10970152
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45160",
+      "live_offset": "0xa45160",
+      "status": "retained",
+      "corpus_en": "Ruby",
+      "comparison_fr": "Ruby",
+      "expected": "Ruby",
+      "source_hex": "cce9d6edff",
+      "references": [
+        10970156
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45165",
+      "live_offset": "0xa45165",
+      "status": "retained",
+      "corpus_en": "Serenity",
+      "comparison_fr": "Serenity",
+      "expected": "Serenity",
+      "source_hex": "cdd9e6d9e2dde8edff",
+      "references": [
+        10970160
+      ],
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4516e",
+      "live_offset": "0xa4516e",
+      "status": "retained",
+      "corpus_en": "Willow",
+      "comparison_fr": "Willow",
+      "expected": "Willow",
+      "source_hex": "d1dde0e0e3ebff",
+      "references": [
+        10970164
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45175",
+      "live_offset": "0xa45175",
+      "status": "retained",
+      "corpus_en": "Everly",
+      "comparison_fr": "Everly",
+      "expected": "Everly",
+      "source_hex": "bfead9e6e0edff",
+      "references": [
+        10970168
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4517c",
+      "live_offset": "0xa4517c",
+      "status": "retained",
+      "corpus_en": "Cora",
+      "comparison_fr": "Cora",
+      "expected": "Cora",
+      "source_hex": "bde3e6d5ff",
+      "references": [
+        10970172
+      ],
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45181",
+      "live_offset": "0xa45181",
+      "status": "retained",
+      "corpus_en": "Kaylee",
+      "comparison_fr": "Kaylee",
+      "expected": "Kaylee",
+      "source_hex": "c5d5ede0d9d9ff",
+      "references": [
+        10970176
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45188",
+      "live_offset": "0xa45188",
+      "status": "retained",
+      "corpus_en": "Lydia",
+      "comparison_fr": "Lydia",
+      "expected": "Lydia",
+      "source_hex": "c6edd8ddd5ff",
+      "references": [
+        10970180
+      ],
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4518e",
+      "live_offset": "0xa4518e",
+      "status": "retained",
+      "corpus_en": "Aubree",
+      "comparison_fr": "Aubree",
+      "expected": "Aubree",
+      "source_hex": "bbe9d6e6d9d9ff",
+      "references": [
+        10970184
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa45195",
+      "live_offset": "0xa45195",
+      "status": "retained",
+      "corpus_en": "Arianna",
+      "comparison_fr": "Arianna",
+      "expected": "Arianna",
+      "source_hex": "bbe6ddd5e2e2d5ff",
+      "references": [
+        10970188
+      ],
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    },
+    {
+      "offset": "0xa4519d",
+      "live_offset": "0xa4519d",
+      "status": "retained",
+      "corpus_en": "Eliana",
+      "comparison_fr": "Eliana",
+      "expected": "Eliana",
+      "source_hex": "bfe0ddd5e2d5ff",
+      "references": [
+        10970192
+      ],
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 204,
+      "reason": "Nom propre conservé selon F-759."
+    }
+  ]
+}
