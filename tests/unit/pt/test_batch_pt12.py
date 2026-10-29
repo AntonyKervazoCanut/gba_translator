@@ -114,4 +114,7 @@ def test_report_and_binary_evidence_account_for_every_offset() -> None:
     assert re.fullmatch(r'[0-9a-f]{64}', data['source_sha256'])
     assert re.fullmatch(r'[0-9a-f]{64}', data['built_sha256'])
     assert sum(len(r['targets']) for r in data['entries']) == 426
+    for row in data['entries']:
+        assert len(row['targets']) == len(row['live_sites']), row['offset']
+        assert len(set(row['live_sites'])) == len(row['live_sites']), row['offset']
     assert len(data['rejected_sites']) == 5

@@ -30,6 +30,12 @@ La passe élargie `tests/unit/pt tests/e2e/pt tests/unit/test_release_recipes.py
 
 Le test ROM PT-06 comparait ses cibles absolues historiques avec celles de tout nouveau build : 97 chaînes ont changé d’allocation, mais les 222 textes sont toujours exacts. Son assertion porte désormais sur le nombre de consommateurs ; les contrôles de source, de pointeurs vivants, d’octets livrés et de largeur demeurent. Aucun texte PT-06 modifié. Le premier hook a aussi révélé une ROM DE locale absente dans un sous-Make exécuté malgré dry-run ; `make build-de` a préparé cet artefact, sans changer les sources.
 
+## Reprise après interruption
+
+Le commit initial avait conservé le patch et les preuves, mais pas les ajouts des sources. La reprise restaure exactement les 263 valeurs auditées et leurs protections, et active `batch_12` dans le registre, sans réécrire les entrées existantes. Commit de restauration : `ff257cf8`, hooks actifs (5347 tests Python réussis, un skip préexistant, 68 tests Vitest et builds FR/IT/DE réussis).
+
+Le rebuild PT réussit ; 38 contrôles ciblés PT-12/intégrité passent et le test Playwright hors écran repasse (10,4 s). SHA256 de ce rebuild : `9dca48753cfbaa227df0bccb257a598babee3bc38896d16189e9a54ef48d443a`. Le hash et les cibles du journal JSON restent les métadonnées de la capture initiale : le test de régression résout désormais les pointeurs vivants et compare chaque texte exact sans figer l'allocation ni le hash global, sensibles aux lots voisins. Les préimages EN, les 426 consommateurs, les faux pointeurs, les largeurs et l'idempotence restent contrôlés.
+
 ## Bilan offset par offset
 
 Le journal languages/pt/data/pt12_audit.json contient les préimages, sites, tailles et largeurs. La vérification binaire couvre tous les consommateurs déclarés ; la preuve visuelle ne prétend pas visiter chaque écran.
