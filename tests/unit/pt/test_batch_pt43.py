@@ -92,3 +92,13 @@ def test_patch_is_atomic_bounded_idempotent():
     with pytest.raises(ValueError, match='préimage'):
         patch.apply(rom)
     assert bytes(rom) == before
+
+
+def test_visual_probe_texts_keep_exact_spelling_despite_ocr_ambiguity():
+    """La tolérance OCR a/o ne doit jamais autoriser une faute dans la source."""
+    texts, _ = _load_combined(ROOT / 'languages/pt/combined_pt.txt')
+    assert texts[0xA43D50] == 'Ué? O DexNav detectou um\nPokémon incomum!'
+    assert texts[0xA4432A] == (
+        'com o campo eletrificado!<0xFB>No chão, Pokémon não adormecem\n'
+        'e golpes Elétricos ganham força!'
+    )

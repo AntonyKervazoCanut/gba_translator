@@ -23,9 +23,10 @@ test('PT-43 : les messages de combat gardent leur texte et leurs accents dans mG
   }
   const scenes = [
     { offset: 0xa43d50, site: 0x9a47b8, title: 'DexNav — Pokémon incomum',
-      matches: [/O DexNav detectou um/i, /Pokemon incomum/i], forbidden: /unusual|detecting/i, frames: [2450] },
+      // Vision confond a/o sur ces glyphes ; les octets exacts sont contrôlés plus bas.
+      matches: [/O DexN[ao]v detectou um/i, /P[oa]kemon incomum/i], forbidden: /unusual|detecting/i, frames: [2450] },
     { offset: 0xa4432a, site: 0xa6b7a0, title: 'Terrain — effet CFRU et tilde PT',
-      matches: [/No chao, Pokemon nao adormecem/i, /golpes Eletricos ganham forca/i], forbidden: /Grounded|fall asleep/i, frames: [2750, 3050, 3300] },
+      matches: [/No chao, P[oa]kemon nao ad[ao]rmecem/i, /golpes Eletricos ganham forca/i], forbidden: /Grounded|fall asleep/i, frames: [2750, 3050, 3300] },
   ];
   for (let n = 0; n < scenes.length; n++) {
     const scene = scenes[n];
