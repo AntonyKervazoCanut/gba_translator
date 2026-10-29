@@ -8063,3 +8063,1358 @@ entries:
   name: Description attaque ou CT/CS — B-688
   issue: B-688
   expected: 'Flinker Angriff.\nDoppelte Stärke ohne\ngetragenes Item.'
+
+- offset: '0x41e067'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'EREIGNISSE'
+
+- offset: '0x41e06e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'ATTACKE 1'
+
+- offset: '0x41e075'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'ATTACKE 2'
+
+- offset: '0x41e07c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'TRENDSPRÜCHE'
+
+- offset: '0x41e0a5'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ist der Tausch in Ordnung?'
+
+- offset: '0x41e0b9'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Zurück'
+
+- offset: '0x41e0c0'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Wähle ein Pokémon.'
+
+- offset: '0x41e0d2'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Bericht'
+
+- offset: '0x41e0da'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Tausch'
+
+- offset: '0x41e0e0'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Tausch abbrechen?'
+
+- offset: '0x41e0ee'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Mit B beenden.'
+
+- offset: '0x41e10a'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Bericht'
+
+- offset: '0x41e112'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Tausch'
+
+- offset: '0x41e118'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Verbindung steht<0xB0>\nBitte warten.'
+
+- offset: '0x41e145'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Der Tausch wurde abgebrochen.'
+
+- offset: '0x41e16b'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e199'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e1c5'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e1e9'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xFD><0x03> geht\nan <0xFD><0x02>.'
+
+- offset: '0x41e200'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Tschüss, <0xFD><0x03>!'
+
+- offset: '0x41e20d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xFD><0x02> schickt <0xFD><0x04>.'
+
+- offset: '0x41e21e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Hüte <0xFD><0x04> gut!'
+
+- offset: '0x41e234'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Von<0x00>'
+
+- offset: '0x41e245'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Status der drahtlosen Verbindung'
+
+- offset: '0x41e263'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Beim Tauschen:'
+
+- offset: '0x41e273'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Beim Kämpfen:'
+
+- offset: '0x41e284'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Im Konnex-Klub:'
+
+- offset: '0x41e29e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'In Verbindung:'
+
+- offset: '0x41e2b4'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xF7><0x00> Spieler'
+
+- offset: '0x41e2bf'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xF7><0x01> Spieler'
+
+- offset: '0x41e2c9'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xF7><0x02> Spieler'
+
+- offset: '0x41e2d4'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xF7><0x03> Spieler'
+
+- offset: '0x41e325'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verbindung steht<0xB0>'
+
+- offset: '0x41e33c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Die beiden verstehen\nsich sehr gut.'
+
+- offset: '0x41e361'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Die beiden verstehen sich.'
+
+- offset: '0x41e37c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Die beiden mögen\nsich nicht besonders.'
+
+- offset: '0x41e3a8'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Sie spielen lieber mit anderen\nPokémon als miteinander.'
+
+- offset: '0x41e3e3'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Was soll <0xFD><0x02> lernen?'
+
+- offset: '0x41e3fb'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xFD><0x03> lernen?'
+
+- offset: '0x41e405'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xFD><0x02> lernt\n<0xFD><0x03>.'
+
+- offset: '0x41e414'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e481'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xFD><0x03> nicht lernen?'
+
+- offset: '0x41e493'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2 und <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31> schwupp!\p'
+
+- offset: '0x41e4c0'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e4e2'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Keine neue Attacke\nfür <0xFD><0x02>?'
+
+- offset: '0x41e50c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Welche Attacke vergessen?\p'
+
+- offset: '0x41e538'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verbindung steht<0xB0>\nDer andere Spieler wählt.'
+
+- offset: '0x41e572'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Kampf wurde abgelehnt.<0xFC><0x08><0x3C>'
+
+- offset: '0x41e58d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Kampf abgelehnt.<0xFC><0x08><0x3C>'
+
+- offset: '0x41e5a4'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xF8><0x04>WAHL <0xF8><0x0A>Wählen <0xF8><0x00>OK'
+
+- offset: '0x41e5b9'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xF8><0x04>WAHL <0xF8><0x0A>Wählen <0xF8><0x01>Zurück'
+
+- offset: '0x41e5d2'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xF8><0x0C>WAHL <0xF8><0x00>LESEN <0xF8><0x01>Zurück'
+
+- offset: '0x41e5fd'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verschiedene Ereignisse werden\ndrahtlos empfangen.'
+
+- offset: '0x41e63f'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e669'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Lies die erhaltenen NEUIGKEITEN.'
+
+- offset: '0x41e685'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Zurück zum Titelbildschirm.'
+
+- offset: '0x41e6a1'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e6dc'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e717'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e741'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Wo sollen die WUNDERNEWS\nabgerufen werden?'
+
+- offset: '0x41e794'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verbindung läuft<0xB0>'
+
+- offset: '0x41e7a3'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Übertragung abgeschlossen.'
+
+- offset: '0x41e7bc'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verbindungsfehler.'
+
+- offset: '0x41e7d1'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verbindung abgebrochen.'
+
+- offset: '0x41e7f2'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e823'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Geschenk noch nicht abgeholt.\nTrotzdem neue KARTE empfangen?'
+
+- offset: '0x41e866'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'WUNDERKARTE erhalten\nvon <0xFD><0x02>.'
+
+- offset: '0x41e88f'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'WUNDERNEWS erhalten\nvon <0xFD><0x02>.'
+
+- offset: '0x41e8bd'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Eine neue WUNDERKARTE\nwurde empfangen.'
+
+- offset: '0x41e8e2'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Neue WUNDERNEWS\nwurden empfangen.'
+
+- offset: '0x41e90c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Neuer STEMPEL erhalten.'
+
+- offset: '0x41e92b'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein neuer Trainer ist da.'
+
+- offset: '0x41e946'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e968'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e98f'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41e9ab'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Kein Platz mehr für\nweitere STEMPEL.'
+
+- offset: '0x41e9d3'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41ea0d'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41ea3f'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41ea6f'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Nichts wurde gesendet<0xB0>'
+
+- offset: '0x41ea86'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41eab7'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0x41eae7'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'WUNDERKARTE wird gesendet<0xB0>'
+
+- offset: '0x41eb01'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'WUNDERNEWS werden gesendet<0xB0>'
+
+- offset: '0x41eb20'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'WUNDERKARTE gesendet\nan <0xFD><0x02>.'
+
+- offset: '0x41eb46'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'WUNDERNEWS gesendet\nan <0xFD><0x02>.'
+
+- offset: '0x41eb71'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'STEMPEL an <0xFD><0x02> gesendet.'
+
+- offset: '0x41eb8e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'GESCHENK an <0xFD><0x02> gesendet.'
+
+- offset: '0x41ebaa'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Der andere Trainer hat diese\nWUNDERKARTE bereits.'
+
+- offset: '0x41ebde'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Der andere Trainer hat diese\nWUNDERNEWS bereits.'
+
+- offset: '0x41edca'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: '<0xF8><0x0A>WAHL <0xF8><0x00>OK <0xF8><0x01>Zurück'
+
+- offset: '0xa34f4c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verhindert Frostbrand.'
+
+- offset: '0xa37377'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Wackerer Schild'
+
+- offset: '0xa37d4f'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Lässt den Körper\nwachsen und erhöht\nAngriff sowie\nSpezialangriff.'
+
+- offset: '0xa37d98'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa37e33'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa37ec4'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa37f07'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa37f4d'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa37f8d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Der Schweif trifft\nden Gegner so heftig\nwie eine Welle\nin einem Sturm.'
+
+- offset: '0xa37fd7'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38061'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Legt die Flügel an\nund greift an.\nVerletzt dabei\nauch den Anwender.'
+
+- offset: '0xa380ab'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa380f4'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein harter\nFaustschlag, der\nden Gegner\nstets zuerst trifft.'
+
+- offset: '0xa38183'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Nahkampfangriff.\nSenkt Verteidigung\nund Sp.-Vert.\ndes Anwenders.'
+
+- offset: '0xa381cf'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Angriff mit hoher\nVolltrefferquote.\nVergiftet eventuell\nden Gegner.'
+
+- offset: '0xa3825a'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Elektrischer Stoß\ntrifft alle Pokémon\nund kann sie\nparalysieren.'
+
+- offset: '0xa382ad'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Heftiger Angriff,\nder den eigenen\nSpezialangriff\nstark senkt.'
+
+- offset: '0xa38385'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Der Boden unter dem\nGegner bricht auf.\nSenkt eventuell\nseine Sp.-Vert.'
+
+- offset: '0xa38538'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schleudert Müll\nauf den Gegner.\nKann ihn dabei\nvergiften.'
+
+- offset: '0xa3857a'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schlag mit einer\nschweren Faust.\nSenkt die eigene\nInitiative.'
+
+- offset: '0xa385bb'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa385ff'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schleudert\nEisbrocken auf\nden Gegner.\nTrifft stets zuerst.'
+
+- offset: '0xa3863e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Rammt den Gegner\nmit hartem Kopf.\nLässt ihn eventuell\nzurückschrecken.'
+
+- offset: '0xa38686'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Rote Flammen treffen\nalle Pokémon\nim Kampf. Können\nVerbrennung auslösen.'
+
+- offset: '0xa386d1'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Eine Stahlbombe\nhaftet am Gegner.\nGeht nie daneben.'
+
+- offset: '0xa38706'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3874a'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Böse Gedanken\nerhöhen den\nSpezialangriff\ndes Anwenders stark.'
+
+- offset: '0xa3878c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Trifft den Gegner\nim günstigen Moment.\nHat eine hohe\nVolltrefferquote.'
+
+- offset: '0xa387d7'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38821'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Angriff mit einem\nLichtstrahl, der\nwie Edelsteine\nfunkelt.'
+
+- offset: '0xa38864'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Peitscht den Gegner\nmit heftig\nwirbelnden Ranken\noder Tentakeln.'
+
+- offset: '0xa388a6'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Psychische Klingen\ntreffen den Gegner.\nHat eine hohe\nVolltrefferquote.'
+
+- offset: '0xa38978'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38a0f'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Beschießt den Gegner\nmit einer Salve\nharter Samen.'
+
+- offset: '0xa38a89'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verlängert seinen\nSchatten für\neinen Angriff.\nTrifft stets zuerst.'
+
+- offset: '0xa38acf'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Eine Vakuumwelle\ntrifft den Gegner.\nDieser Angriff\ntrifft stets zuerst.'
+
+- offset: '0xa38b60'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Konzentrierter\nRammangriff.\nLässt das Ziel evtl.\nzurückschrecken.'
+
+- offset: '0xa38ba4'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Tauscht blitzschnell\ndie getragenen\nItems mit\ndem Gegner aus.'
+
+- offset: '0xa38bec'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38c87'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Fängt den Gegner\nin einem Stromnetz.\nSenkt außerdem\nseine Initiative.'
+
+- offset: '0xa38d6a'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38dac'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Wetzt die Klauen.\nErhöht eigenen\nAngriff und\nGenauigkeit.'
+
+- offset: '0xa38dea'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Heftiger Angriff.\nDie Hälfte des\nSchadens wird als\nKP zurückgewonnen.'
+
+- offset: '0xa38e32'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38e70'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Fängt den Gegner\nin einem Sturm.\nKann ihn dabei\nverwirren.'
+
+- offset: '0xa38eb1'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38f30'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein mystischer Tanz\nerhöht Sp.-Ang.,\nSp.-Vert. und\nInitiative.'
+
+- offset: '0xa38f75'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38fb8'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa38ff2'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39075'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa390be'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Greift den Gegner\nheftig an.\nErzielt immer\neinen Volltreffer.'
+
+- offset: '0xa39106'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39198'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Sticht mit einem\nvergifteten Arm zu.\nKann den Gegner\nvergiften.'
+
+- offset: '0xa391e4'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Versprüht ätzende\nFlüssigkeit.\nSenkt die Sp.-Vert.\ndes Gegners stark.'
+
+- offset: '0xa39232'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3927c'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa392c2'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Heftiger Angriff,\nder den eigenen\nSpezialangriff\nstark senkt.'
+
+- offset: '0xa3939a'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Biss lässt den Gegner\neventuell\nzurückschrecken oder\nverbrennt ihn.'
+
+- offset: '0xa393e1'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Biss kann den Gegner\nzurückschrecken\nlassen oder\nFrostbrand auslösen.'
+
+- offset: '0xa3942d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Biss lässt den Gegner\neventuell\nzurückschrecken oder\nparalysiert ihn.'
+
+- offset: '0xa3947a'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Feuriger Rammangriff\nkann Ziel verbrennen.\nSchadet auch dem\nAnwender etwas.'
+
+- offset: '0xa394c9'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Hüllt den Gegner\nin ein intensives\nFeuer, das ihn\nsicher verbrennt.'
+
+- offset: '0xa3950e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Fügt einem Ziel\nmit Statusproblem\ndoppelten\nSchaden zu.'
+
+- offset: '0xa39557'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Zwei brutale\nSchläge treffen\nden Gegner in\neiner Runde.'
+
+- offset: '0xa39592'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Trifft zweimal\nhintereinander\nmit langem Schweif,\nRanken usw.'
+
+- offset: '0xa395d6'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schützt sich\nmit Watte. Erhöht\ndie Verteidigung\ndrastisch.'
+
+- offset: '0xa39663'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Eine berstende\nFlamme greift\nden Gegner an.'
+
+- offset: '0xa39693'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa396d3'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3975d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Erzwingt Wechsel\ndes Gegners.\nBeendet Kämpfe gegen\nwilde Pokémon.'
+
+- offset: '0xa397a7'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa397e7'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Rammt den Gegner\nmit hartem Körper.\nSchadet auch dem\nAnwender etwas.'
+
+- offset: '0xa39830'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein heilender Puls\nfüllt bis zur Hälfte\nder maximalen KP\ndes Ziels auf.'
+
+- offset: '0xa398c0'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Beißt den Gegner\nund frisst dessen\nBeere, falls\ner eine trägt.'
+
+- offset: '0xa39940'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3998b'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Streut Puder,\ndas Gegner dazu\nzwingt, nur den\nAnwender anzugreifen.'
+
+- offset: '0xa399d2'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Doppelter Schaden\nbei schlafendem Ziel.\nWeckt es aber\nauch auf.'
+
+- offset: '0xa39a1b'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39a60'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39aa8'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Hebt die Steigerung\ndes gegnerischen\nFluchtwerts\nvollständig auf.'
+
+- offset: '0xa39aef'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Trifft zuerst,\nwenn der Gegner\neinen Angriff\nvorbereitet.'
+
+- offset: '0xa39b3c'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39b78'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39bf5'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Niedlicher Blick\nsenkt den Angriff\ndes Gegners.\nWirkt stets zuerst.'
+
+- offset: '0xa39c81'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Mondkraft trifft\nden Gegner.\nSenkt eventuell\nseinen Sp.-Ang.'
+
+- offset: '0xa39ccd'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39d55'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39dd9'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39e24'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39e67'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39eaa'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39ef6'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39f84'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa39fc8'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Magensäure\ntrifft den Gegner\nund unterdrückt\nseine Fähigkeit.'
+
+- offset: '0xa3a006'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Erhöht in Runde zwei\neigenen Sp.-Ang.,\nSp.-Vert. und\nInitiative stark.'
+
+- offset: '0xa3a04e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Seltsame Kraft\nerhöht Verteidigung\naller Pokémon\nvom Typ Pflanze.'
+
+- offset: '0xa3a097'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Erhöht Angriff\nund Spezialangriff\naller Pokémon\nvom Typ Pflanze.'
+
+- offset: '0xa3a0da'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Dreht Zahnräder.\nErhöht den Angriff\nund steigert die\nInitiative stark.'
+
+- offset: '0xa3a127'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3a16f'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3a1b6'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Drückt auf\nStresspunkte und\nerhöht einen eigenen\nWert stark.'
+
+- offset: '0xa3a1fe'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3a243'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3a31c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Angriff trifft\nauch ein geschütztes\nZiel und hebt\ndessen Schutz auf.'
+
+- offset: '0xa3a364'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verschwindet und\ntrifft nächste Runde\nsogar geschützte\nGegner.'
+
+- offset: '0xa3a3b3'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3a3f4'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3a430'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3a474'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein Angriff, der\nden Raum\nzerreißt.\nHat eine erhöhte\nVolltrefferquote.'
+
+- offset: '0xa3a506'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Der Anwender\nopfert sich.\nSchaden entspricht\nseinen KP.\nEr geht dabei KO.'
+
+- offset: '0xa3a55c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verschwindet und\ntrifft nächste Runde\nsogar geschützte\nGegner.'
+
+- offset: '0xa3a5ab'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Elektrisch\ngeladene Wangen\ngreifen an\nund paralysieren\ndas Ziel.'
+
+- offset: '0xa3a5f3'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Stärker, wenn\nein Mitstreiter\nin der letzten Runde\nKO gegangen ist.'
+
+- offset: '0xa3a682'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Der Typ\ndieser Attacke\nhängt von der\ngetragenen\nTafel ab.'
+
+- offset: '0xa3a821'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Wirft zwei\nZahnräder aus Stahl\nauf das Ziel.\nTrifft zweimal\nhintereinander.'
+
+- offset: '0xa3a8c5'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein Angriff, der\nWertänderungen\ndes Gegners\nignoriert.'
+
+- offset: '0xa3a903'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3a955'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Greift aus einem\nDimensionsloch an.\nTrifft auch\ngeschützte Ziele.'
+
+- offset: '0xa3a9ee'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3aaa0'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ruft Untergebene\nzum Schutz herbei.\nErhöht eigene\nVerteidigung und\nSp.-Vert.'
+
+- offset: '0xa3aafd'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ruft Untergebene\nzur Heilung herbei.\nFüllt bis zur\nHälfte der eigenen\nmaximalen KP auf.'
+
+- offset: '0xa3ab56'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Senkt den\nSpezialangriff\ndes Gegners stark,\nwenn er vom anderen\nGeschlecht ist.'
+
+- offset: '0xa3abb2'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein starker Wind\nentfernt Hindernisse\nbeim Ziel.\nSenkt außerdem\nseinen Fluchtwert.'
+
+- offset: '0xa3acbe'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Tauscht Änderungen\nder Verteidigung\nund Sp.-Vert.\nmit dem Gegner\ndurch Psycho-Kraft.'
+
+- offset: '0xa3ad6b'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Vergilt dem Gegner\nmit viel größerer\nKraft, der dem\nAnwender zuletzt\nSchaden zufügte.'
+
+- offset: '0xa3adc8'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Überholt das Ziel\nund stiehlt dessen\ngeplante Attacke,\num sie mit mehr\nKraft einzusetzen.'
+
+- offset: '0xa3ae26'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Tauscht Änderungen\nvon Angriff und\nSpezialangriff\nmit dem Gegner\ndurch Psycho-Kraft.'
+
+- offset: '0xa3ae83'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Psycho-Kraft\ntauscht den\neigenen Angriff\nmit der eigenen\nVerteidigung.'
+
+- offset: '0xa3af8e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schützt sich\nvor Schaden.\nSenkt den Angriff\ndes Gegners bei\nKontakt stark.'
+
+- offset: '0xa3afed'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Seltsame Psycho-\nWelle greift an.\nVerursacht\nphysischen Schaden.'
+
+- offset: '0xa3b037'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Wirft Körperteile\nab und wird\nleichter. Erhöht\ndie eigene\nInitiative stark.'
+
+- offset: '0xa3b14d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Rammt das Ziel.\nJe größer der\nGewichtsunterschied,\ndesto größer\nder Schaden.'
+
+- offset: '0xa3b1a8'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Eine seltsame\nSchockwelle\nschadet Pokémon\ndesselben Typs\nim Umkreis.'
+
+- offset: '0xa3b1fd'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Wirft einen\nElektroball.\nJe schneller als\ndas Ziel, desto\nmehr Schaden.'
+
+- offset: '0xa3b25a'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Nutzt den\nAngriffswert\ndes Gegners\ngegen ihn selbst.'
+
+- offset: '0xa3b2a6'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein seltsamer\nTanz ändert\ndie Fähigkeit\ndes Ziels in die\ndes Anwenders.'
+
+- offset: '0xa3b306'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3b35d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein schrilles Echo\ntrifft das Ziel.\nWird stärker,\nwenn jede Runde\neingesetzt.'
+
+- offset: '0xa3b408'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Saugt KP ab.\nÜber die Hälfte\ndes Schadens\nwird als eigene\nKP aufgefüllt.'
+
+- offset: '0xa3b45d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Psycho-Kraft\ntauscht die\nWertänderungen\nmit dem Ziel.'
+
+- offset: '0xa3b4a8'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Zerquetscht\nden Gegner.\nJe mehr KP\ndas Ziel hat,\ndesto stärker.'
+
+- offset: '0xa3b4fd'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schneidet mit\neinem langen Horn.\nDie Wertänderungen\ndes Gegners\nwerden ignoriert.'
+
+- offset: '0xa3b552'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Feuriger Aufprall.\nJe schwerer der\nAnwender als\ndas Ziel, desto\nmehr Schaden.'
+
+- offset: '0xa3b5ae'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Rammt mit Kopf\nund hartem Fell\nden Gegner.\nSchadet auch dem\nAnwender etwas.'
+
+- offset: '0xa3b60a'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Feuert einen\nLichtstrahl.\nDer Typ hängt\nvom getragenen\nModul ab.'
+
+- offset: '0xa3b663'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein altes Lied\ngreift die\nHerzen der\nZuhörer an.\nKann einschläfern.'
+
+- offset: '0xa3b6c0'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schneidet mit\neinem langen Horn.\nDessen seltsame\nKraft verursacht\nphysischen Schaden.'
+
+- offset: '0xa3b71d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Eiskalte Luft\ntrifft die\ngegnerischen\nPokémon. Senkt\nihre Initiative.'
+
+- offset: '0xa3b779'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Hüllt sich in\nElektrizität und\nrammt das Ziel.\nKann es dabei\nparalysieren.'
+
+- offset: '0xa3b892'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Angriff dauert\nzwei Runden.\nEisiger Wind\numhüllt das Ziel\nund kann verbrennen.'
+
+- offset: '0xa3b8ef'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schleudert heiße\nStirnflammen.\nSenkt eigene\nVert., Sp.-Vert.\nund Initiative.'
+
+- offset: '0xa3ba60'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Ein edles\nBrüllen schüchtert\ndas Ziel ein.\nSenkt Angriff\nund Sp.-Ang.'
+
+- offset: '0xa3bb24'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Droht beim\nRückzug. Senkt\nAngriff und\nSp.-Ang. des Ziels.\nWechselt dann aus.'
+
+- offset: '0xa3bc91'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verrät ein Geheimnis.\nDas Ziel verliert\nden Fokus. Senkt\nseinen Sp.-Ang.'
+
+- offset: '0xa3bce2'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Wirft zwei- bis\nfünfmal Sterne\nauf den Gegner.\nTrifft stets zuerst.'
+
+- offset: '0xa3bd35'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Spezielles\nheißes Feuer\ntrifft das Ziel.\nSenkt dessen\nSpezialangriff.'
+
+- offset: '0xa3bd94'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schützt den\nAnwender vor\nAttacken und\nverletzt Angreifer\nbei Kontakt.'
+
+- offset: '0xa3bdef'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Erzeugt einen\nImpuls. Senkt\nden Spezialangriff\ndes Gegners\nstark.'
+
+- offset: '0xa3be9d'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Befällt das Ziel\nund schadet ihm\nvier bis fünf\nRunden lang.\nVerhindert Flucht.'
+
+- offset: '0xa3bef9'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Härtet durch\nSchläge die\nFäuste. Ein Treffer\nerhöht den\neigenen Angriff.'
+
+- offset: '0xa3bffd'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Greift alles\nim Umkreis an.\nDie Hälfte des\nSchadens wird als\nKP aufgefüllt.'
+
+- offset: '0xa3c052'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Rote Flammen\nverbrennen alles\nim Umkreis.\nKönnen den Status\nVerbrennung auslösen.'
+
+- offset: '0xa3c0ad'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Eine Schockwelle\naus dem Körper\nsenkt eventuell\ndie Sp.-Vert.\ndes Ziels stark.'
+
+- offset: '0xa3c157'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Fesselt das Ziel\nbeim Angriff\nmit einer\nAnkerkette.\nVerhindert Flucht.'
+
+- offset: '0xa3c1b4'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Verringert bei\nHagel fünf Runden\nlang Schaden\ndurch physische und\nSpezial-Attacken.'
+
+- offset: '0xa3c210'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schützt den\nAnwender vor\nAttacken und\nvergiftet Angreifer\nbei Kontakt.'
+
+- offset: '0xa3c26b'
+  name: Combat UI — B-669
+  issue: B-669
+  absent: true
+
+- offset: '0xa3c314'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Brennt sich\nselbst aus.\nNach dem Angriff\nist der Anwender\nnicht mehr Typ Feuer.'
+
+- offset: '0xa3c36c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Reibt Schuppen\naneinander.\nLärm greift an.\nSenkt die eigene\nVerteidigung.'
+
+- offset: '0xa3c3c6'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schwingt beide\nArme und trifft\ndas Ziel.\nIgnoriert dessen\nWertänderungen.'
+
+- offset: '0xa3c41c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Greift mit seinem\nKörper wie mit einem\nHammer an und\nfügt Schaden zu.'
+
+- offset: '0xa3c5db'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Zahnräder erhöhen\nAngriff und\nSpezialangriff\nder Mitstreiter\nmit Plus oder Minus.'
+
+- offset: '0xa3c67c'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Schlag mit einer\nschweren Faust.\nSenkt die eigene\nInitiative.'
+
+- offset: '0xa3c750'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Rammt das Ziel\nmit einem starken\nWasserstrahl.\nSenkt eventuell\nseine Verteidigung.'
+
+- offset: '0xa3c7ae'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Stürzt sich mit\nvoller Kraft\nauf den Gegner.\nSenkt dessen\nAngriff.'
+
+- offset: '0xa3c863'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Energiereicher\nRammangriff.\nDer Angriffstyp\nhängt von der\ngetragenen Disc ab.'
+
+- offset: '0xa3c8c0'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Naturkraft\ntrifft das Ziel.\nHalbiert\ndie KP\ndes Gegners.'
+
+- offset: '0xa3c90e'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Explosiver\nPollen trifft\nden Gegner.\nHeilt stattdessen\neinen Mitstreiter.'
+
+- offset: '0xa3c96b'
+  name: Combat UI — B-669
+  issue: B-669
+  expected: 'Prahlt mit Stärke.\nJe höher die\neigenen Werte\ngesteigert sind,\ndesto stärker.'
