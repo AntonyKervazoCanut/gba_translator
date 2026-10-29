@@ -1,0 +1,197 @@
+{
+  "revision": "43f2eddb8be77fd76ad308aa6c5fa73ea1b41175",
+  "hashes": {
+    "languages/fr/combined_fr.txt": "b5ec52f6aa0c488006b66946141a9f416bf81beb6c07b248a3e69a8fff602520",
+    "languages/en/combined_en.txt": "65e93f43b9f92f19ba011fb4971aea6f44d9cd419363d7b51d9dbe094235af19",
+    "languages/it/combined_it.txt": "08d1a8aa1dbe503bf3ac0ec0fe8e77b2990f73114b6f03a44f8fb9f39a3d7d75"
+  },
+  "rom_en_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "rom_fr_sha256": "74a0b3b13a1b02cebb1519c36df7552dfde8e6a383ff16e17ae46bbdd0830a6e",
+  "pokeapi_hashes": {
+    "move_names.csv": "dd5087d0ec9739228d7bacd3b0895595ec06a2877b81df97b7282dc83b485612",
+    "ability_names.csv": "1ccb888f39b535c0e6530e70da8a1d71d39bb6231d49e3a16c46a09f8983b735",
+    "item_names.csv": "0341c5acf63b8b1ded13af81f3daadfc33d4ce03d77365fab665f01c98044ff2",
+    "type_names.csv": "685230c51074cf2f723debcf827a4df4c36ab0ec7e929c806ad65a3e40958705",
+    "nature_names.csv": "a6bf8bedb9822d0e966a3036885e33e1306172b3a6566edc22d02ff2e7155031",
+    "stat_names.csv": "c58f9cc3c0b3bd004f9e5b84ba7590e42f15ffc6f2d58acc7ee39c9298ae83c3"
+  },
+  "counts": {
+    "fr": 24164,
+    "en": 25524,
+    "it": 15098,
+    "missing_fr": 10544,
+    "missing_en": 10508,
+    "it_outside_fr": 1478,
+    "it_outside_en": 82,
+    "equal_en": 555,
+    "empty": 0,
+    "duplicate_offsets": 0,
+    "duplicate_lines": 0,
+    "protected": 2,
+    "batches": 88,
+    "rows": 25642
+  },
+  "domains": {
+    "manquant": {
+      "dialogues": 4372,
+      "menus-tables-candidats": 4008,
+      "autres-tables-candidats": 74,
+      "donnees-police-ne-pas-traduire": 23,
+      "objets-descriptions": 335,
+      "combat-candidats": 511,
+      "missions-candidats": 4,
+      "pokedex": 890,
+      "pokedex-categories-structs": 279,
+      "missions": 48
+    },
+    "existant": {
+      "menus-tables-candidats": 2527,
+      "dialogues": 8343,
+      "autres-tables-candidats": 38,
+      "classes-dresseurs": 106,
+      "talents-descriptions": 260,
+      "objets-descriptions": 250,
+      "combat-candidats": 257,
+      "pokedex": 5,
+      "attaques-descriptions": 804,
+      "carte-monde": 18,
+      "missions-candidats": 30,
+      "talents-noms": 293,
+      "attaques-noms": 894,
+      "especes-noms": 1270,
+      "missions": 3
+    }
+  },
+  "flags": {
+    "controle-fenetre-fixe": 5,
+    "identique-EN-a-trier": 555,
+    "hors-reference-FR-a-trier": 1478,
+    "depassement-cellule-fixe": 42,
+    "glyphes-a-verifier:\\": 2094,
+    "nombre-FD-a-verifier": 92,
+    "glyphes-a-verifier:$\\": 10,
+    "glyphes-a-verifier:$": 59,
+    "echappement-a-verifier": 19,
+    "placeholders-lexicaux-a-verifier": 63,
+    "glyphes-a-verifier:*": 7,
+    "glyphes-a-verifier:*\\": 5,
+    "glyphes-a-verifier:\\{}": 1,
+    "glyphes-a-verifier:डर्": 2,
+    "macro-residuelle": 12,
+    "glyphes-a-verifier:[\\]": 12,
+    "glyphes-a-verifier:גהילע": 1,
+    "nom-officiel-different-ou-abrege": 503,
+    "glyphes-a-verifier:גם": 1,
+    "accent-candidat": 1
+  },
+  "samples": [
+    {
+      "offset": "0x1660052",
+      "alerte": "controle-fenetre-fixe",
+      "domaine": "pokedex",
+      "ligne_it": 11,
+      "en": "",
+      "it": "Ognuno di loro porta una maschera\\nche era il suo volto quando era\\lumano.",
+      "officiel": ""
+    },
+    {
+      "offset": "0x1663AE6",
+      "alerte": "controle-fenetre-fixe",
+      "domaine": "pokedex",
+      "ligne_it": 12,
+      "en": "",
+      "it": "Si rilassa in luoghi stretti e bui\\ned è noto che usi la tasca o la\\lborsa del suo Allenatore come nido.",
+      "officiel": ""
+    },
+    {
+      "offset": "0x1664647",
+      "alerte": "controle-fenetre-fixe",
+      "domaine": "pokedex",
+      "ligne_it": 13,
+      "en": "",
+      "it": "Adora la luce del sole. Quando\\nprende regolarmente il sole, cresce\\lcon una colorazione vivace.",
+      "officiel": ""
+    },
+    {
+      "offset": "0x1664709",
+      "alerte": "controle-fenetre-fixe",
+      "domaine": "pokedex",
+      "ligne_it": 14,
+      "en": "",
+      "it": "Sparge spore che tremolano e\\nbrillano. Chiunque veda queste luci\\lcade in un sonno profondo.",
+      "officiel": ""
+    },
+    {
+      "offset": "0x166AA5D",
+      "alerte": "identique-EN-a-trier",
+      "domaine": "especes-noms",
+      "ligne_it": 33,
+      "en": "Rattata",
+      "it": "Rattata",
+      "officiel": ""
+    },
+    {
+      "offset": "0x166AA94",
+      "alerte": "identique-EN-a-trier",
+      "domaine": "especes-noms",
+      "ligne_it": 38,
+      "en": "Arbok",
+      "it": "Arbok",
+      "officiel": ""
+    },
+    {
+      "offset": "0x166AA9F",
+      "alerte": "identique-EN-a-trier",
+      "domaine": "especes-noms",
+      "ligne_it": 39,
+      "en": "Pikachu",
+      "it": "Pikachu",
+      "officiel": ""
+    },
+    {
+      "offset": "0x166AAAA",
+      "alerte": "identique-EN-a-trier",
+      "domaine": "especes-noms",
+      "ligne_it": 40,
+      "en": "Raichu",
+      "it": "Raichu",
+      "officiel": ""
+    },
+    {
+      "offset": "0x166AAD6",
+      "alerte": "identique-EN-a-trier",
+      "domaine": "especes-noms",
+      "ligne_it": 44,
+      "en": "Nidorina",
+      "it": "Nidorina",
+      "officiel": ""
+    },
+    {
+      "offset": "0x166AAE1",
+      "alerte": "identique-EN-a-trier",
+      "domaine": "especes-noms",
+      "ligne_it": 45,
+      "en": "Nidoqueen",
+      "it": "Nidoqueen",
+      "officiel": ""
+    },
+    {
+      "offset": "0x166AAF7",
+      "alerte": "identique-EN-a-trier",
+      "domaine": "especes-noms",
+      "ligne_it": 47,
+      "en": "Nidorino",
+      "it": "Nidorino",
+      "officiel": ""
+    },
+    {
+      "offset": "0x166AB02",
+      "alerte": "identique-EN-a-trier",
+      "domaine": "especes-noms",
+      "ligne_it": 48,
+      "en": "Nidoking",
+      "it": "Nidoking",
+      "officiel": ""
+    }
+  ]
+}
