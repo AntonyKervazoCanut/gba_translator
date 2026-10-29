@@ -1,0 +1,6759 @@
+{
+  "batch": "PT-36",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "name_accessor_offset": "0x9a9ca8",
+  "name_accessor_hex": "10b50400fff74afe002812d1112318006043084bc018c2781300083b012b08d84378017880781b020b43000418431206104310bd9863a308",
+  "custom_accessor_offset": "0x9a93fc",
+  "custom_accessor_hex": "83280dd0c82810d0752814d10b48c0290ad07c23ff330020994205d1084803e00020db2900d107487047153900200129fad80548f8e70020f6e7c046",
+  "entries": [
+    {
+      "offset": "0xa34f4c",
+      "source_hex": "bdd5e2b4e800dbd9e800dae6e3e7e8d6dde8d9adff",
+      "references": [
+        9887396
+      ],
+      "english": "Can't get frostbite.",
+      "french_comparison": null,
+      "status": "translated",
+      "portuguese": "Impede queimadura de frio.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        40
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        148
+      ]
+    },
+    {
+      "offset": "0xa34f61",
+      "source_hex": "c5d9d9e4e700e9e7d9e600d5e2d800d5e0e0ddd9e700d5ebd5dfd9adff",
+      "references": [
+        9887548
+      ],
+      "english": "Keeps user and allies awake.",
+      "french_comparison": "Garde lanceur et alliés éveillés.",
+      "status": "translated",
+      "portuguese": "Mantém equipe acordada.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        78
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 24,
+      "line_widths": [
+        132
+      ]
+    },
+    {
+      "offset": "0xa34f7e",
+      "source_hex": "c7e9e0e8ddaedcdde800e1e3ead9e700dcdde800daddead900e8dde1d9e7adff",
+      "references": [
+        9887552
+      ],
+      "english": "Multi-hit moves hit five times.",
+      "french_comparison": "Multi-coups frappent 5 fois.",
+      "status": "translated",
+      "portuguese": "Golpes múltiplos acertam 5 vezes.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        79
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        186
+      ]
+    },
+    {
+      "offset": "0xa34f9e",
+      "source_hex": "cee9e6e2e700d9e0d9d7e8e6ddd7dde8ed00dde2e8e300cde4d9d9d8adff",
+      "references": [
+        9887556
+      ],
+      "english": "Turns electricity into Speed.",
+      "french_comparison": "Élec -> Vitesse.",
+      "status": "translated",
+      "portuguese": "Eletricidade aumenta Velocidade.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        80
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa34fbc",
+      "source_hex": "ccd9d8e9d7d9e700d8d5e1d5dbd900d5e800dae9e0e000c2caadff",
+      "references": [
+        9887560
+      ],
+      "english": "Reduces damage at full HP.",
+      "french_comparison": "Réduit les dégâts à PV max.",
+      "status": "translated",
+      "portuguese": "Reduz dano com PS cheios.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        81
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        145
+      ]
+    },
+    {
+      "offset": "0xa34fd7",
+      "source_hex": "bce3e3e7e8e700ebd9d5dfd9e600e1e3ead9e7adff",
+      "references": [
+        9887564
+      ],
+      "english": "Boosts weaker moves.",
+      "french_comparison": "Renforce les capacités faibles.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos fracos.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        82
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        156
+      ]
+    },
+    {
+      "offset": "0xa34fec",
+      "source_hex": "c7e3ead9e700dcdde800c1dce3e7e8aee8ede4d900cae3df1be1e3e2adff",
+      "references": [
+        9887568
+      ],
+      "english": "Moves hit Ghost-type Pokémon.",
+      "french_comparison": "Les capacités touchent les Spectre.",
+      "status": "translated",
+      "portuguese": "Movimentos acertam tipo Fantasma.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        83
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        184
+      ]
+    },
+    {
+      "offset": "0xa3500a",
+      "source_hex": "bde6dde8ddd7d5e000dcdde8e700e0d5e2d800e1e3e6d900e3dae8d9e2adff",
+      "references": [
+        9887572
+      ],
+      "english": "Critical hits land more often.",
+      "french_comparison": "Critiques plus fréquents.",
+      "status": "translated",
+      "portuguese": "Mais chances de acerto crítico.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        84
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        174
+      ]
+    },
+    {
+      "offset": "0xa35029",
+      "source_hex": "bce3e3e7e8e700d7e6dde8ddd7d5e000dcdde8e7adff",
+      "references": [
+        9887576
+      ],
+      "english": "Boosts critical hits.",
+      "french_comparison": "Booste les coups critiques.",
+      "status": "translated",
+      "portuguese": "Fortalece acertos críticos.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        85
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        150
+      ]
+    },
+    {
+      "offset": "0xa3503f",
+      "source_hex": "c2d9d5e0e700e9e4e3e200e7ebdde8d7dcdde2db00e3e9e8adff",
+      "references": [
+        9887580
+      ],
+      "english": "Heals upon switching out.",
+      "french_comparison": "Soigne en changeant de Pokémon.",
+      "status": "translated",
+      "portuguese": "Recupera PS ao sair da batalha.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        86
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        178
+      ]
+    },
+    {
+      "offset": "0xa35059",
+      "source_hex": "cde8d5e8e9e700e1e3ead9e700dcdde800dadde6e7e8adff",
+      "references": [
+        9887584
+      ],
+      "english": "Status moves hit first.",
+      "french_comparison": "Cap. statut en priorité.",
+      "status": "translated",
+      "portuguese": "Prioriza movimentos de status.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        87
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa35071",
+      "source_hex": "bce3e3e7e8e700e7d5e1d900e8ede4d900d5e8e8d5d7dfe7adff",
+      "references": [
+        9887588
+      ],
+      "english": "Boosts same type attacks.",
+      "french_comparison": "Renforce les attaques de même type.",
+      "status": "translated",
+      "portuguese": "Fortalece golpes do mesmo tipo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        88
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        176
+      ]
+    },
+    {
+      "offset": "0xa3508b",
+      "source_hex": "cae6d9ead9e2e8e700bed9dad9e2e7d900e6d9d8e9d7e8dde3e2adff",
+      "references": [
+        9887592
+      ],
+      "english": "Prevents Defense reduction.",
+      "french_comparison": "Empêche de baisser la Défense.",
+      "status": "translated",
+      "portuguese": "Impede redução da Defesa.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        89
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        146
+      ]
+    },
+    {
+      "offset": "0xa350a7",
+      "source_hex": "ccd9dae0d9d7e8e700e7e8d5e8e9e700e1e3ead9e7adff",
+      "references": [
+        9887596
+      ],
+      "english": "Reflects status moves.",
+      "french_comparison": "Renvoie les capacités de statut.",
+      "status": "translated",
+      "portuguese": "Reflete movimentos de status.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        90
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        161
+      ]
+    },
+    {
+      "offset": "0xa350be",
+      "source_hex": "bce3e3e7e8e700e1e3ead9e700ebdde8dc00e6d9d7e3dde0adff",
+      "references": [
+        9887600
+      ],
+      "english": "Boosts moves with recoil.",
+      "french_comparison": "Renforce les coups à contrecoup.",
+      "status": "translated",
+      "portuguese": "Fortalece golpes com recuo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        91
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        155
+      ]
+    },
+    {
+      "offset": "0xa350d8",
+      "source_hex": "cee6d5d8d9e700d5d8d8d9d800d9dadad9d7e8e700dae3e600e4e3ebd9e6adff",
+      "references": [
+        9887604
+      ],
+      "english": "Trades added effects for power.",
+      "french_comparison": "Bonus contre puissance.",
+      "status": "translated",
+      "portuguese": "Troca efeitos extras por potência.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        92
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 35,
+      "line_widths": [
+        189
+      ]
+    },
+    {
+      "offset": "0xa350f8",
+      "source_hex": "bce3e3e7e8e700e4e9e2d7dcdde2db00e1e3ead9e7adff",
+      "references": [
+        9887608
+      ],
+      "english": "Boosts punching moves.",
+      "french_comparison": "Renforce les coups de poing.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos de soco.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        93
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa3510f",
+      "source_hex": "cfe4e700e4e3ebd9e600d5dbd5dde2e7e800e7d5e1d900dbd9e2d8d9e6adff",
+      "references": [
+        9887612
+      ],
+      "english": "Ups power against same gender.",
+      "french_comparison": "Puissance + contre même sexe.",
+      "status": "translated",
+      "portuguese": "Mais potência contra mesmo sexo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        94
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa3512e",
+      "source_hex": "bce3e3e7e8e700e1e3ead9e700dde200d500e7d5e2d8e7e8e3e6e1adff",
+      "references": [
+        9887616
+      ],
+      "english": "Boosts moves in a sandstorm.",
+      "french_comparison": "Renforce sous tempête de sable.",
+      "status": "translated",
+      "portuguese": "Fortalece golpes sob areia.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        95
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        152
+      ]
+    },
+    {
+      "offset": "0xa3514b",
+      "source_hex": "cee6d5d8d9e700c2ca00dae3e600e4e3ebd9e600dde200e7e9e2e7dcdde2d9adff",
+      "references": [
+        9887620
+      ],
+      "english": "Trades HP for power in sunshine.",
+      "french_comparison": "Au soleil, sacrifie PV.",
+      "status": "translated",
+      "portuguese": "Troca PS por potência sob sol.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        96
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa3516c",
+      "source_hex": "c2d9d5e800e4e6e3e8d9d7e8dde3e2adff",
+      "references": [
+        9887624
+      ],
+      "english": "Heat protection.",
+      "french_comparison": "Protège de la chaleur.",
+      "status": "translated",
+      "portuguese": "Protege do calor.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        97
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 18,
+      "line_widths": [
+        97
+      ]
+    },
+    {
+      "offset": "0xa3517d",
+      "source_hex": "cae6d9dad9e6e700e8dcd900e6d5dde200e8e300dcd9d5e8adff",
+      "references": [
+        9887628
+      ],
+      "english": "Prefers the rain to heat.",
+      "french_comparison": "Préfère la pluie à la chaleur.",
+      "status": "translated",
+      "portuguese": "Prefere chuva ao calor.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        98
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 24,
+      "line_widths": [
+        132
+      ]
+    },
+    {
+      "offset": "0xa35197",
+      "source_hex": "bce3e3e7e8e700b1e2e3e800ead9e6ed00d9dadad9d7e8ddead9b200e1e3ead9e7adff",
+      "references": [
+        9887632
+      ],
+      "english": "Boosts \"not very effective\" moves.",
+      "french_comparison": "Boost coups peu efficaces.",
+      "status": "translated",
+      "portuguese": "Fortalece golpes pouco eficazes.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        99
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        182
+      ]
+    },
+    {
+      "offset": "0xa351ba",
+      "source_hex": "d1d9d5dfd9e2e700e7e9e4d9e600d9dadad9d7e8ddead900e1e3ead9e7adff",
+      "references": [
+        9887640,
+        9887900
+      ],
+      "english": "Weakens super effective moves.",
+      "french_comparison": "Réduit coups super eff.",
+      "status": "translated",
+      "portuguese": "Reduz golpes supereficazes.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        101,
+        166
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        153
+      ]
+    },
+    {
+      "offset": "0xa351d9",
+      "source_hex": "cad5e7e7d9e700e8dce6e3e9dbdc00d6d5e6e6ddd9e6e700d5e2d800c0e3dbadff",
+      "references": [
+        9887644
+      ],
+      "english": "Passes through barriers and Fog.",
+      "french_comparison": "Traverse les barrières et la Brume.",
+      "status": "translated",
+      "portuguese": "Atravessa barreiras e neblina.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        102
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa351fa",
+      "source_hex": "bbd8dee9e7e8e700e4e3ebd9e600dae6e3e100dae3d9b4e700e7e8d5e8e7adff",
+      "references": [
+        9887648
+      ],
+      "english": "Adjusts power from foe's stats.",
+      "french_comparison": "Puissance selon stats enn.",
+      "status": "translated",
+      "portuguese": "Potência conforme stats do alvo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        103
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa3521a",
+      "source_hex": "ccd9e7e8e3e6d9e700c2ca00ddda00e4e3dde7e3e2d9d8adff",
+      "references": [
+        9887652
+      ],
+      "english": "Restores HP if poisoned.",
+      "french_comparison": "Restaure des PV si empoisonné.",
+      "status": "translated",
+      "portuguese": "Recupera PS se envenenado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        104
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        150
+      ]
+    },
+    {
+      "offset": "0xa35233",
+      "source_hex": "cde0dddbdce800c2ca00e6d9d7e3ead9e6ed00dde200dcd5dde0adff",
+      "references": [
+        9887656
+      ],
+      "english": "Slight HP recovery in hail.",
+      "french_comparison": "Rend peu de PV sous grêle.",
+      "status": "translated",
+      "portuguese": "Recupera alguns PS no granizo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        105
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa3524f",
+      "source_hex": "cfe4e700e3e2d900e7e8d5e800d5e2d800d8e3ebe2e700d5e2e3e8dcd9e6adff",
+      "references": [
+        9887660
+      ],
+      "english": "Ups one stat and downs another.",
+      "french_comparison": "Monte une stat, baisse une.",
+      "status": "translated",
+      "portuguese": "Aumenta um stat e reduz outro.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        106
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        171
+      ]
+    },
+    {
+      "offset": "0xa3526f",
+      "source_hex": "c2d9d5e0e700e7e8d5e8e9e700e4e6e3d6e0d9e1e700dde200e6d5dde2adff",
+      "references": [
+        9887664
+      ],
+      "english": "Heals status problems in rain.",
+      "french_comparison": "Guérit les statuts sous la pluie.",
+      "status": "translated",
+      "portuguese": "Cura status na chuva.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        107
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 22,
+      "line_widths": [
+        119
+      ]
+    },
+    {
+      "offset": "0xa3528e",
+      "source_hex": "c7d5ed00dcd9d5e000d5e0e0edb4e700e7e8d5e8e9e700e4e6e3d6e0d9e1e7adff",
+      "references": [
+        9887668
+      ],
+      "english": "May heal ally's status problems.",
+      "french_comparison": "Soigne statut d'un allié.",
+      "status": "translated",
+      "portuguese": "Pode curar status de um aliado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        108
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        176
+      ]
+    },
+    {
+      "offset": "0xa352af",
+      "source_hex": "cfe4e700d9ead5e7dde3e200dde200dcd5dde0adff",
+      "references": [
+        9887672
+      ],
+      "english": "Ups evasion in hail.",
+      "french_comparison": "Esquive augmentée sous la grêle.",
+      "status": "translated",
+      "portuguese": "Aumenta evasão no granizo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        109
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        147
+      ]
+    },
+    {
+      "offset": "0xa352c4",
+      "source_hex": "cfe4e700d9ead5e7dde3e200ddda00d7e3e2dae9e7d9d8adff",
+      "references": [
+        9887676
+      ],
+      "english": "Ups evasion if confused.",
+      "french_comparison": "Esquive augmentée si confus.",
+      "status": "translated",
+      "portuguese": "Aumenta evasão se confuso.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        110
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        148
+      ]
+    },
+    {
+      "offset": "0xa352dd",
+      "source_hex": "cde9e1e1e3e2e700d500dcd5dde0e7e8e3e6e100dde200d6d5e8e8e0d9adff",
+      "references": [
+        9887680
+      ],
+      "english": "Summons a hailstorm in battle.",
+      "french_comparison": "Invoque la grêle en combat.",
+      "status": "translated",
+      "portuguese": "Invoca granizo na batalha.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        111
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        147
+      ]
+    },
+    {
+      "offset": "0xa352fc",
+      "source_hex": "cfe4e700cde4d9d9d800ddda00e7e9dadad9e6dde2dbadff",
+      "references": [
+        9887684
+      ],
+      "english": "Ups Speed if suffering.",
+      "french_comparison": "Vitesse augmente quand ça fait mal.",
+      "status": "translated",
+      "portuguese": "Aumenta Velocidade com status.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        112
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa35314",
+      "source_hex": "bce3e3e7e8e700bbe8e8d5d7df00ddda00dcdde800d6ed00c1e6d5e7e7adff",
+      "references": [
+        9887688
+      ],
+      "english": "Boosts Attack if hit by Grass.",
+      "french_comparison": "Attaque monte si touché par Plante.",
+      "status": "translated",
+      "portuguese": "Golpes de Planta aumentam Ataque.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        113
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        189
+      ]
+    },
+    {
+      "offset": "0xa35333",
+      "source_hex": "c3e1e1e9e2d900e8e300ebd9d5e8dcd9e600d5e2d800e4e3ebd8d9e6adff",
+      "references": [
+        9887692
+      ],
+      "english": "Immune to weather and powder.",
+      "french_comparison": "Immunisé météo et poudres.",
+      "status": "translated",
+      "portuguese": "Imune ao clima e a pós.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        114
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 24,
+      "line_widths": [
+        132
+      ]
+    },
+    {
+      "offset": "0xa35351",
+      "source_hex": "c9e2e0ed00d8d5e1d5dbd9d800d6ed00d5e8e8d5d7dfe7adff",
+      "references": [
+        9887696
+      ],
+      "english": "Only damaged by attacks.",
+      "french_comparison": "Ne subit que les attaques.",
+      "status": "translated",
+      "portuguese": "Só recebe dano de ataques.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        115
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        151
+      ]
+    },
+    {
+      "offset": "0xa3536a",
+      "source_hex": "bbeae3ddd8e700d6d5e0e000d5e2d800d6e3e1d600e1e3ead9e7adff",
+      "references": [
+        9887700
+      ],
+      "english": "Avoids ball and bomb moves.",
+      "french_comparison": "Esquive les attaques balles/bombes.",
+      "status": "translated",
+      "portuguese": "Evita golpes de bolas e bombas.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        116
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        177
+      ]
+    },
+    {
+      "offset": "0xa35386",
+      "source_hex": "c0e0eddde2dbaee8ede4d900e1e3ead9e700dcdde800dadde6e7e8adff",
+      "references": [
+        9887704
+      ],
+      "english": "Flying-type moves hit first.",
+      "french_comparison": "Attaques Vol en priorité.",
+      "status": "translated",
+      "portuguese": "Prioriza movimentos Voadores.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        117
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        160
+      ]
+    },
+    {
+      "offset": "0xa353a3",
+      "source_hex": "c5e2e3d7dfe3e9e8e700d6e3e3e7e800bbe8e8d5d7dfadff",
+      "references": [
+        2881369,
+        9887708
+      ],
+      "english": "Knockouts boost Attack.",
+      "french_comparison": "Les K.O. boostent l'Attaque.",
+      "status": "translated",
+      "portuguese": "Nocautes aumentam Ataque.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        118
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        144
+      ]
+    },
+    {
+      "offset": "0xa353bb",
+      "source_hex": "c0d5dde2e8dde2db00d8d5e1d5dbd9e700e8dcd900dae3d9adff",
+      "references": [
+        9887712
+      ],
+      "english": "Fainting damages the foe.",
+      "french_comparison": "Blesse l'ennemi en mourant.",
+      "status": "translated",
+      "portuguese": "Causa dano ao alvo se nocauteado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        119
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        191
+      ]
+    },
+    {
+      "offset": "0xa353d5",
+      "source_hex": "c7d5ed00d8dde7d5d6e0d900d500dae3d9b4e700e1e3ead9adff",
+      "references": [
+        9887716
+      ],
+      "english": "May disable a foe's move.",
+      "french_comparison": "Désactive une capacité.",
+      "status": "translated",
+      "portuguese": "Pode desativar movimento do alvo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        120
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        187
+      ]
+    },
+    {
+      "offset": "0xa353ef",
+      "source_hex": "c6e3ebd9e6e700e8dcd900dae3d9b4e700cde4d9d9d800ddda00dcdde8adff",
+      "references": [
+        9887720
+      ],
+      "english": "Lowers the foe's Speed if hit.",
+      "french_comparison": "Baisse Vit. du Pokémon touché.",
+      "status": "translated",
+      "portuguese": "Atingido: Velocidade do alvo -.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        121
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        174
+      ]
+    },
+    {
+      "offset": "0xa3540e",
+      "source_hex": "cde4e6d9d5d8e700ebdde8dc00d7e3e2e8d5d7e8adff",
+      "references": [
+        9887724
+      ],
+      "english": "Spreads with contact.",
+      "french_comparison": "Se propage au contact.",
+      "status": "translated",
+      "portuguese": "Espalha-se por contato.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        122
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 24,
+      "line_widths": [
+        130
+      ]
+    },
+    {
+      "offset": "0xa35424",
+      "source_hex": "c2e9e6e8e700e8e300e8e3e9d7dcadff",
+      "references": [],
+      "english": "Hurts to touch.",
+      "french_comparison": "Mal au contact.",
+      "status": "exception",
+      "portuguese": null,
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Ancienne description sans aucun pointeur dans la ROM entière ; la cellule active de ce talent vise une autre description, hors écriture PT-36 à cet ancien offset.",
+      "replaced_by_ability_id": 123,
+      "live_reference": "0x96dff0",
+      "live_target": "0xa36294"
+    },
+    {
+      "offset": "0xa35434",
+      "source_hex": "ccd5dde7d9e700cde4d9d9d800dde200d500e7d5e2d8e7e8e3e6e1adff",
+      "references": [
+        9887732
+      ],
+      "english": "Raises Speed in a sandstorm.",
+      "french_comparison": "Vit. + en tempête sable.",
+      "status": "translated",
+      "portuguese": "Velocidade aumenta sob areia.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        124
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa35451",
+      "source_hex": "c7e3eadde2db00e0d5e7e800d6e3e3e7e8e700e4e3ebd9e6adff",
+      "references": [
+        9887736
+      ],
+      "english": "Moving last boosts power.",
+      "french_comparison": "Agir en dernier booste.",
+      "status": "translated",
+      "portuguese": "Agir por último aumenta potência.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        125
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        183
+      ]
+    },
+    {
+      "offset": "0xa3546b",
+      "source_hex": "bfe2e7e9e6d9e700e8dcd5e800d5e0e000e1e3ead9e700e0d5e2d8adff",
+      "references": [
+        9887740
+      ],
+      "english": "Ensures that all moves land.",
+      "french_comparison": "Toutes cap. touchent.",
+      "status": "translated",
+      "portuguese": "Todos os movimentos acertam.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        126
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        158
+      ]
+    },
+    {
+      "offset": "0xa35488",
+      "source_hex": "bce3e3e7e8e700d5e9e6d500d5e2d800e4e9e0e7d900e1e3ead9e7adff",
+      "references": [
+        9887744
+      ],
+      "english": "Boosts aura and pulse moves.",
+      "french_comparison": "Boost les auras et ondes.",
+      "status": "translated",
+      "portuguese": "Fortalece golpes de aura e pulso.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        127
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        189
+      ]
+    },
+    {
+      "offset": "0xa354a5",
+      "source_hex": "bce3e3e7e8e700e1e3ead9e700e8dcd5e800e1d5dfd900d7e3e2e8d5d7e8adff",
+      "references": [
+        9887748
+      ],
+      "english": "Boosts moves that make contact.",
+      "french_comparison": "Boost les coups à contact.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos de contato.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        128
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        180
+      ]
+    },
+    {
+      "offset": "0xa354c5",
+      "source_hex": "bce3e3e7e8e700d6dde8dde2db00e1e3ead9e7adff",
+      "references": [
+        9887752
+      ],
+      "english": "Boosts biting moves.",
+      "french_comparison": "Boost les morsures.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos de mordida.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        129
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        180
+      ]
+    },
+    {
+      "offset": "0xa354da",
+      "source_hex": "ccd5dde7d9e700e3ebe200d5e2d800d5e0e0edb4e700d5d7d7e9e6d5d7edadff",
+      "references": [
+        9887756
+      ],
+      "english": "Raises own and ally's accuracy.",
+      "french_comparison": "Monte Précision lanceur/alliés.",
+      "status": "translated",
+      "portuguese": "Mais precisão para si e aliado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        130
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        171
+      ]
+    },
+    {
+      "offset": "0xa354fa",
+      "source_hex": "bee6d5ebe700dde200ebd5e8d9e600e8e300e9e400cde4ad00bbe8dfadff",
+      "references": [
+        9887760
+      ],
+      "english": "Draws in water to up Sp. Atk.",
+      "french_comparison": "Attire Eau -> Att. Spé.",
+      "status": "translated",
+      "portuguese": "Atrai Água e aumenta Atq. Esp.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        131
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa35518",
+      "source_hex": "cae3ebd9e6e700e9e400bed5e6dfaee8ede4d900e1e3ead9e7adff",
+      "references": [
+        9887764
+      ],
+      "english": "Powers up Dark-type moves.",
+      "french_comparison": "Renforce les capacités Ténèbres.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos Sombrios.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        132
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        167
+      ]
+    },
+    {
+      "offset": "0xa35533",
+      "source_hex": "cae3ebd9e6e700e9e400c0d5dde6edaee8ede4d900e1e3ead9e7adff",
+      "references": [
+        9887768
+      ],
+      "english": "Powers up Fairy-type moves.",
+      "french_comparison": "Renforce les capacités Fée.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos de Fada.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        133
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        165
+      ]
+    },
+    {
+      "offset": "0xa3554f",
+      "source_hex": "ccd9ead9e6e7d9e700bbe9e6d500bbd6dde0dde8ddd9e7adff",
+      "references": [
+        9887772
+      ],
+      "english": "Reverses Aura Abilities.",
+      "french_comparison": "Inverse les talents Aura.",
+      "status": "translated",
+      "portuguese": "Inverte Habilidades de aura.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        134
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        157
+      ]
+    },
+    {
+      "offset": "0xa35568",
+      "source_hex": "c8e3e6e1d5e000e1e3ead9e700d6d9d7e3e1d900c3d7d9adff",
+      "references": [
+        9887776
+      ],
+      "english": "Normal moves become Ice.",
+      "french_comparison": "Normal -> Glace.",
+      "status": "translated",
+      "portuguese": "Movimentos Normais viram Gelo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        135
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        166
+      ]
+    },
+    {
+      "offset": "0xa35581",
+      "source_hex": "c8e3e6e1d5e000e1e3ead9e700d6d9d7e3e1d900c0d5dde6edadff",
+      "references": [
+        9887780
+      ],
+      "english": "Normal moves become Fairy.",
+      "french_comparison": "Normal -> Fee.",
+      "status": "translated",
+      "portuguese": "Movimentos Normais viram Fada.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        136
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        167
+      ]
+    },
+    {
+      "offset": "0xa3559c",
+      "source_hex": "c8e3e6e1d5e000e1e3ead9e700d6d9d7e3e1d900c0e0eddde2dbadff",
+      "references": [
+        9887784
+      ],
+      "english": "Normal moves become Flying.",
+      "french_comparison": "Normal -> Vol.",
+      "status": "translated",
+      "portuguese": "Movimentos Normais viram Voador.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        137
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        178
+      ]
+    },
+    {
+      "offset": "0xa355b8",
+      "source_hex": "bbe0e000e1e3ead9e700d6d9d7e3e1d900c8e3e6e1d5e0aee8ede4d9adff",
+      "references": [
+        9887788
+      ],
+      "english": "All moves become Normal-type.",
+      "french_comparison": "Tout devient Normal.",
+      "status": "translated",
+      "portuguese": "Todos os movimentos viram Normal.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        138
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        185
+      ]
+    },
+    {
+      "offset": "0xa355d6",
+      "source_hex": "bee3e9d6e0d9e700cde4d9d9d800ddda00dde8d9e100dde700e0e3e7e8adff",
+      "references": [
+        9887792
+      ],
+      "english": "Doubles Speed if item is lost.",
+      "french_comparison": "Double Vit. si objet perdu.",
+      "status": "translated",
+      "portuguese": "Dobra Velocidade se perder item.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        139
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        181
+      ]
+    },
+    {
+      "offset": "0xa355f5",
+      "source_hex": "bee3e9d6e0d9e700e7e8d5e800d7dcd5e2dbd9e7adff",
+      "references": [
+        9887796
+      ],
+      "english": "Doubles stat changes.",
+      "french_comparison": "Double les changements de stats.",
+      "status": "translated",
+      "portuguese": "Dobra mudanças de stats.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        140
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 25,
+      "line_widths": [
+        136
+      ]
+    },
+    {
+      "offset": "0xa3560b",
+      "source_hex": "c3dbe2e3e6d9e700dae3d9b4e700e7e8d5e800d7dcd5e2dbd9e7adff",
+      "references": [
+        9887800
+      ],
+      "english": "Ignores foe's stat changes.",
+      "french_comparison": "Ignore stats ennemies.",
+      "status": "translated",
+      "portuguese": "Ignora mudanças de stats do alvo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        141
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        188
+      ]
+    },
+    {
+      "offset": "0xa35627",
+      "source_hex": "bbe8e8d5d7df00e6dde7d9e700ebdcd9e200e7e8d5e8e700dad5e0e0adff",
+      "references": [
+        9887804
+      ],
+      "english": "Attack rises when stats fall.",
+      "french_comparison": "Attaque + quand stats baissent.",
+      "status": "translated",
+      "portuguese": "Stats reduzidos elevam Ataque.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        142
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa35645",
+      "source_hex": "cde4ad00bbe8df00e6dde7d9e700ebdcd9e200e7e8d5e8e700dad5e0e0adff",
+      "references": [
+        9887808
+      ],
+      "english": "Sp. Atk rises when stats fall.",
+      "french_comparison": "Att. Spé + quand stats baissent.",
+      "status": "translated",
+      "portuguese": "Stats reduzidos elevam Atq. Esp.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        143
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        180
+      ]
+    },
+    {
+      "offset": "0xa35664",
+      "source_hex": "c1ddead9e700e9e400d5e800dcd5e0da00c2caadff",
+      "references": [
+        9887812
+      ],
+      "english": "Gives up at half HP.",
+      "french_comparison": "Abandonne à mi-PV.",
+      "status": "translated",
+      "portuguese": "Desiste com metade dos PS.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        144
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        148
+      ]
+    },
+    {
+      "offset": "0xa35679",
+      "source_hex": "ced5dfd9e700d500ebdcdde0d900e8e300dbd9e800dbe3dde2dbadff",
+      "references": [
+        9887816
+      ],
+      "english": "Takes a while to get going.",
+      "french_comparison": "Met du temps à se lancer.",
+      "status": "translated",
+      "portuguese": "Demora a ganhar ritmo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        145
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 23,
+      "line_widths": [
+        124
+      ]
+    },
+    {
+      "offset": "0xa35695",
+      "source_hex": "bbe8e8d5d7df00e6dde7d9e700ebdcd9e200e4e3dde7e3e2d9d8adff",
+      "references": [
+        9887820
+      ],
+      "english": "Attack rises when poisoned.",
+      "french_comparison": "Attaque monte en cas de poison.",
+      "status": "translated",
+      "portuguese": "Ataque aumenta se envenenado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        146
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        166
+      ]
+    },
+    {
+      "offset": "0xa356b1",
+      "source_hex": "cde4ad00bbe8df00e6dde7d9e700ebdcd9e200d6e9e6e2d9d8adff",
+      "references": [
+        9887824
+      ],
+      "english": "Sp. Atk rises when burned.",
+      "french_comparison": "Att. Spé monte en cas de brûlure.",
+      "status": "translated",
+      "portuguese": "Atq. Esp. aumenta se queimado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        147
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa356cc",
+      "source_hex": "c2d5e0ead9e700e4dcede7ddd7d5e000d8d5e1d5dbd9adff",
+      "references": [
+        9887828
+      ],
+      "english": "Halves physical damage.",
+      "french_comparison": "Divise les dégâts physiques.",
+      "status": "translated",
+      "portuguese": "Reduz dano físico à metade.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        148
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        155
+      ]
+    },
+    {
+      "offset": "0xa356e4",
+      "source_hex": "cfe4e700e7e8d5e8e9e700e1e3ead900d9ead5e7dde3e2adff",
+      "references": [
+        9887832
+      ],
+      "english": "Ups status move evasion.",
+      "french_comparison": "Esquive + vs cap. statut.",
+      "status": "translated",
+      "portuguese": "Evita mais movimentos de status.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        149
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        176
+      ]
+    },
+    {
+      "offset": "0xa356fd",
+      "source_hex": "bddcd5e2dbd9e700e8ede4d900e8e300e1d5e8d7dc00e1e3ead9adff",
+      "references": [
+        9887836
+      ],
+      "english": "Changes type to match move.",
+      "french_comparison": "Change de type selon cap.",
+      "status": "translated",
+      "portuguese": "Tipo muda conforme movimento.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        150
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa35719",
+      "source_hex": "c7e3ead9e700dbd9e800d500ebd9d5dfd9e600e7d9d7e3e2d800dcdde8adff",
+      "references": [
+        9887840
+      ],
+      "english": "Moves get a weaker second hit.",
+      "french_comparison": "Second coup affaibli.",
+      "status": "translated",
+      "portuguese": "Dá segundo acerto mais fraco.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        151
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa35738",
+      "source_hex": "c7e3ead9e700dddbe2e3e6d900bbd6dde0dde8ddd9e7adff",
+      "references": [
+        9887844
+      ],
+      "english": "Moves ignore Abilities.",
+      "french_comparison": "Les capacités ignorent les talents.",
+      "status": "translated",
+      "portuguese": "Movimentos ignoram Habilidades.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        152
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa35750",
+      "source_hex": "cee6d5e2e7dae3e6e1e700d6d9e0e3eb00dcd5e0da00c2caadff",
+      "references": [
+        9887856
+      ],
+      "english": "Transforms below half HP.",
+      "french_comparison": "Se transforme sous 1/2 PV.",
+      "status": "translated",
+      "portuguese": "Transforma-se sob 50% dos PS.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        155
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        167
+      ]
+    },
+    {
+      "offset": "0xa3576a",
+      "source_hex": "cee6d5e2e7dae3e6e1e700d5dae8d9e600d500c5c9adff",
+      "references": [
+        9887860
+      ],
+      "english": "Transforms after a KO.",
+      "french_comparison": "Se transforme après un K.O.",
+      "status": "translated",
+      "portuguese": "Transforma-se após um nocaute.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        156
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa35781",
+      "source_hex": "c5c9dde2db00d500dae3d900e9e4e700dcdddbdcd9e7e800e7e8d5e8adff",
+      "references": [
+        9887864
+      ],
+      "english": "KOing a foe ups highest stat.",
+      "french_comparison": "K.O. booste stat max.",
+      "status": "translated",
+      "portuguese": "Nocautes elevam o maior stat.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        157
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa3579f",
+      "source_hex": "c7d5ed00e4e3dde7e3e200d5e2ed00e8ede4d9adff",
+      "references": [
+        9887868
+      ],
+      "english": "May poison any type.",
+      "french_comparison": "Peut empoisonner tout type.",
+      "status": "translated",
+      "portuguese": "Pode envenenar qualquer tipo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        158
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa357b4",
+      "source_hex": "ced5dfd9e700e3e2d900dcdde800ebdde8dc00e2e300d8d5e1d5dbd9adff",
+      "references": [
+        9887872
+      ],
+      "english": "Takes one hit with no damage.",
+      "french_comparison": "Encaisse un coup sans dégâts.",
+      "status": "translated",
+      "portuguese": "Recebe um golpe sem dano.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        159
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        146
+      ]
+    },
+    {
+      "offset": "0xa357d2",
+      "source_hex": "cdebdde8d7dcd9e700e3e9e800d6d9e0e3eb00dcd5e0da00c2caadff",
+      "references": [
+        9887876
+      ],
+      "english": "Switches out below half HP.",
+      "french_comparison": "Change de Pokémon sous 1/2 PV.",
+      "status": "translated",
+      "portuguese": "Sai da batalha sob 50% dos PS.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        160
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        175
+      ]
+    },
+    {
+      "offset": "0xa357ee",
+      "source_hex": "c2d5e0ead9e700d7e3e2e8d5d7e800dcdde8e7ad00d1d9d5df00e8e300c0dde6d9adff",
+      "references": [
+        9887880
+      ],
+      "english": "Halves contact hits. Weak to Fire.",
+      "french_comparison": "Divise dégâts contact. Faible Feu.",
+      "status": "translated",
+      "portuguese": "Contato: dano /2. Fraco a Fogo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        161
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        178
+      ]
+    },
+    {
+      "offset": "0xa35811",
+      "source_hex": "c8e300e7e4d9d7ddd5e000bbd6dde0dde8edadff",
+      "references": [],
+      "english": "No special Ability.",
+      "french_comparison": "Aucune capacité spéciale.",
+      "status": "exception",
+      "portuguese": null,
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Ancienne description sans aucun pointeur dans la ROM entière ; la cellule active de ce talent vise une autre description, hors écriture PT-36 à cet ancien offset.",
+      "replaced_by_ability_id": 175,
+      "live_reference": "0x96e0c0",
+      "live_target": "0x24f66f"
+    },
+    {
+      "offset": "0xa35825",
+      "source_hex": "cee6d5e2e7dae3e6e1e700d6d9e0e3eb00dcd5e0da00c2caadff",
+      "references": [
+        9887896
+      ],
+      "english": "Transforms below half HP.",
+      "french_comparison": "Se transforme sous 1/2 PV.",
+      "status": "translated",
+      "portuguese": "Transforma-se sob 50% dos PS.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        165
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        167
+      ]
+    },
+    {
+      "offset": "0xa3583f",
+      "source_hex": "bddcd5e2dbd9e700e8ede4d900e8e300e1d5e8d7dc00c7d9e1e3e6edadff",
+      "references": [
+        9887904
+      ],
+      "english": "Changes type to match Memory.",
+      "french_comparison": "Change le type selon la Mémoire.",
+      "status": "translated",
+      "portuguese": "Tipo muda conforme Memory.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        167
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        149
+      ]
+    },
+    {
+      "offset": "0xa3585d",
+      "source_hex": "cdd7dce3e3e0e700e9e400ebdde8dc00dcdddbdc00c2caadff",
+      "references": [
+        9887908
+      ],
+      "english": "Schools up with high HP.",
+      "french_comparison": "Forme Banc si PV élevés.",
+      "status": "translated",
+      "portuguese": "Forma cardume com PS altos.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        168
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        156
+      ]
+    },
+    {
+      "offset": "0xa35876",
+      "source_hex": "ccd9d8e9d7d9e700d8d5e1d5dbd900d5e800dae9e0e000c2caadff",
+      "references": [
+        9887912
+      ],
+      "english": "Reduces damage at full HP.",
+      "french_comparison": "Réduit les dégâts à PV max.",
+      "status": "translated",
+      "portuguese": "Reduz dano com PS cheios.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        169
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        145
+      ]
+    },
+    {
+      "offset": "0xa35891",
+      "source_hex": "c6e3ebd9e6e700e7dcddd9e0d8e700d6d9e0e3eb00dcd5e0da00c2caadff",
+      "references": [
+        9887916
+      ],
+      "english": "Lowers shields below half HP.",
+      "french_comparison": "Baisse les boucliers sous 50%.",
+      "status": "translated",
+      "portuguese": "Baixa escudos sob 50% dos PS.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        170
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        169
+      ]
+    },
+    {
+      "offset": "0xa358af",
+      "source_hex": "bce3e3e7e8e700e7e4d9d9d800dde200c2d5dde0adff",
+      "references": [
+        9887920
+      ],
+      "english": "Boosts speed in Hail.",
+      "french_comparison": "Augmente la Vitesse sous Grêle.",
+      "status": "translated",
+      "portuguese": "Aumenta Velocidade no granizo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        171
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        169
+      ]
+    },
+    {
+      "offset": "0xa358c5",
+      "source_hex": "c5e2e3d7dfe3e9e8e700d6e3e3e7e800cde4ad00bbe8dfadff",
+      "references": [
+        9887924
+      ],
+      "english": "Knockouts boost Sp. Atk.",
+      "french_comparison": "K.O. boostent l'Att. Spé.",
+      "status": "translated",
+      "portuguese": "Nocautes aumentam Atq. Esp.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        172
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        154
+      ]
+    },
+    {
+      "offset": "0xa358de",
+      "source_hex": "ced5dfdde2db00d500dcdde800e6d5dde7d9e700bed9dad9e2e7d9adff",
+      "references": [
+        9887928
+      ],
+      "english": "Taking a hit raises Defense.",
+      "french_comparison": "Être touché augmente la Défense.",
+      "status": "translated",
+      "portuguese": "Ser atingido aumenta Defesa.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        173
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        156
+      ]
+    },
+    {
+      "offset": "0xa358fb",
+      "source_hex": "cae3ebd9e6e700e9e400cde8d9d9e0aee8ede4d900e1e3ead9e7adff",
+      "references": [
+        9887932
+      ],
+      "english": "Powers up Steel-type moves.",
+      "french_comparison": "Booste les capacités Acier.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos de Aço.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        174
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        159
+      ]
+    },
+    {
+      "offset": "0xa35917",
+      "source_hex": "c1ddead9e700e4e6dde3e6dde8ed00e8e300dcd9d5e0dde2db00e1e3ead9e7adff",
+      "references": [
+        9887940
+      ],
+      "english": "Gives priority to healing moves.",
+      "french_comparison": "Donne la priorité aux soins.",
+      "status": "translated",
+      "portuguese": "Prioriza movimentos de cura.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        176
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        155
+      ]
+    },
+    {
+      "offset": "0xa35938",
+      "source_hex": "cfe4e700d1d5e8d9e600d5e8e8d5d7dfe7ad00cae6d9ead9e2e8e700d6e9e6e2adff",
+      "references": [
+        9887944
+      ],
+      "english": "Ups Water attacks. Prevents burn.",
+      "french_comparison": "Booste les capacités Eau.\nEmpêche la brûlure.",
+      "status": "translated",
+      "portuguese": "Água +; impede queimadura.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        177
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        151
+      ]
+    },
+    {
+      "offset": "0xa3595a",
+      "source_hex": "d1d5e8d9e6aee8ede4d900dcdde8e700e6d5dde7d900bed9dad9e2e7d9adff",
+      "references": [
+        9887948
+      ],
+      "english": "Water-type hits raise Defense.",
+      "french_comparison": "Coups Eau augmentent la Défense.",
+      "status": "translated",
+      "portuguese": "Golpes de Água aumentam Defesa.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        178
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa35979",
+      "source_hex": "c9dae8d9e200d5e8e8d5d7dfe700e0d5e7e8adff",
+      "references": [
+        9887952
+      ],
+      "english": "Often attacks last.",
+      "french_comparison": "Attaque souvent en dernier.",
+      "status": "translated",
+      "portuguese": "Costuma atacar por último.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        179
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        146
+      ]
+    },
+    {
+      "offset": "0xa3598d",
+      "source_hex": "bddcd5e2dbd9e700e8ede4d900e8e300e1d5e8d7dc00dcd9e0d800cae0d5e8d9adff",
+      "references": [
+        9887956
+      ],
+      "english": "Changes type to match held Plate.",
+      "french_comparison": "Change le type selon la Plaque.",
+      "status": "translated",
+      "portuguese": "Tipo muda conforme Plate.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        180
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        142
+      ]
+    },
+    {
+      "offset": "0xa359af",
+      "source_hex": "bde6d9d5e8d9e700d5e200bfe0d9d7e8e6ddd700ced9e6e6d5dde2adff",
+      "references": [
+        9887960
+      ],
+      "english": "Creates an Electric Terrain.",
+      "french_comparison": "Crée un Champ Électrifié.",
+      "status": "translated",
+      "portuguese": "Cria Electric Terrain.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        181
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 23,
+      "line_widths": [
+        118
+      ]
+    },
+    {
+      "offset": "0xa359cc",
+      "source_hex": "bde6d9d5e8d9e700d500c1e6d5e7e7ed00ced9e6e6d5dde2adff",
+      "references": [
+        9887964
+      ],
+      "english": "Creates a Grassy Terrain.",
+      "french_comparison": "Crée un Champ Herbu.",
+      "status": "translated",
+      "portuguese": "Cria Grassy Terrain.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        182
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 21,
+      "line_widths": [
+        108
+      ]
+    },
+    {
+      "offset": "0xa359e6",
+      "source_hex": "bde6d9d5e8d9e700d500c7dde7e8ed00ced9e6e6d5dde2adff",
+      "references": [
+        9887968
+      ],
+      "english": "Creates a Misty Terrain.",
+      "french_comparison": "Crée un Champ Brumeux.",
+      "status": "translated",
+      "portuguese": "Cria Misty Terrain.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        183
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 20,
+      "line_widths": [
+        101
+      ]
+    },
+    {
+      "offset": "0xa359ff",
+      "source_hex": "bde6d9d5e8d9e700d500cae7edd7dcddd700ced9e6e6d5dde2adff",
+      "references": [
+        9887972
+      ],
+      "english": "Creates a Psychic Terrain.",
+      "french_comparison": "Crée un Champ Psychique.",
+      "status": "translated",
+      "portuguese": "Cria Psychic Terrain.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        184
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 22,
+      "line_widths": [
+        114
+      ]
+    },
+    {
+      "offset": "0xa35a1a",
+      "source_hex": "bce3e3e7e8e700cde4d9d9d800e3e200bfe0d9d7e8e6ddd700ced9e6e6d5dde2adff",
+      "references": [
+        9887976
+      ],
+      "english": "Boosts Speed on Electric Terrain.",
+      "french_comparison": "Booste la Vitesse\nsur Champ Électrifié.",
+      "status": "translated",
+      "portuguese": "Electric Terrain eleva Velocidade.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        185
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 35,
+      "line_widths": [
+        189
+      ]
+    },
+    {
+      "offset": "0xa35a3c",
+      "source_hex": "cfe4e700bed9dad9e2e7d900e3e200c1e6d5e7e7ed00ced9e6e6d5dde2adff",
+      "references": [
+        9887980
+      ],
+      "english": "Ups Defense on Grassy Terrain.",
+      "french_comparison": "Booste la Défense\nsur Champ Herbu.",
+      "status": "translated",
+      "portuguese": "Grassy Terrain aumenta Defesa.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        186
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        167
+      ]
+    },
+    {
+      "offset": "0xa35a5b",
+      "source_hex": "c7d5ecd9e700bbe8e8d5d7df00d5dae8d9e600d500d7e6dde8ddd7d5e000dcdde8adff",
+      "references": [
+        9887984
+      ],
+      "english": "Maxes Attack after a critical hit.",
+      "french_comparison": "Attaque max après un coup critique.",
+      "status": "translated",
+      "portuguese": "Crítico maximiza Ataque.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        187
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 25,
+      "line_widths": [
+        134
+      ]
+    },
+    {
+      "offset": "0xa35a7e",
+      "source_hex": "cdd9e2e7d9e700e7e9e4d9e600d9dadad9d7e8ddead900e1e3ead9e7adff",
+      "references": [
+        9887988
+      ],
+      "english": "Senses super effective moves.",
+      "french_comparison": "Détecte les coups super efficaces.",
+      "status": "translated",
+      "portuguese": "Detecta movimentos supereficazes.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        188
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        184
+      ]
+    },
+    {
+      "offset": "0xa35a9c",
+      "source_hex": "d1d5e6e2e700e3da00e8dcd900dae3d9b4e700e7e8e6e3e2dbd9e7e800e1e3ead9adff",
+      "references": [
+        9887992
+      ],
+      "english": "Warns of the foe's strongest move.",
+      "french_comparison": "Alerte sur l'attaque la plus forte.",
+      "status": "translated",
+      "portuguese": "Alerta sobre maior golpe do alvo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        189
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        187
+      ]
+    },
+    {
+      "offset": "0xa35abf",
+      "source_hex": "ccd9ead9d5e0e700e8dcd900dae3d9b4e700dcd9e0d800dde8d9e1adff",
+      "references": [
+        9887996
+      ],
+      "english": "Reveals the foe's held item.",
+      "french_comparison": "Révèle l'objet tenu de l'ennemi.",
+      "status": "translated",
+      "portuguese": "Revela item segurado pelo alvo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        190
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        177
+      ]
+    },
+    {
+      "offset": "0xa35adc",
+      "source_hex": "ccd9ead9e6e7d9e700e7e8d5e800d7dcd5e2dbd9e7adff",
+      "references": [
+        9888000
+      ],
+      "english": "Reverses stat changes.",
+      "french_comparison": "Inverse les changements de stats.",
+      "status": "translated",
+      "portuguese": "Inverte mudanças de stats.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        191
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        146
+      ]
+    },
+    {
+      "offset": "0xa35af3",
+      "source_hex": "cde8e3e4e700e8dcd900dae3d900dae6e3e100d9d5e8dde2db00bcd9e6e6ddd9e7adff",
+      "references": [
+        9888004
+      ],
+      "english": "Stops the foe from eating Berries.",
+      "french_comparison": "Empêche l'ennemi d'avaler des Baies",
+      "status": "translated",
+      "portuguese": "Impede que o alvo coma Berries.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        192
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa35b16",
+      "source_hex": "c2dde8e700e9e400cde4d9d9d800d6e9e800d8e6e3e400bed9dad9e2e7d9adff",
+      "references": [
+        9888008
+      ],
+      "english": "Hits up Speed but drop Defense.",
+      "french_comparison": "Monte Vitesse, baisse Défense.",
+      "status": "translated",
+      "portuguese": "Atingido: Velocidade +, Defesa -.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        193
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        186
+      ]
+    },
+    {
+      "offset": "0xa35b36",
+      "source_hex": "bee3e9d6e0d9e700ebd9dddbdce8adff",
+      "references": [
+        9888012
+      ],
+      "english": "Doubles weight.",
+      "french_comparison": "Double le poids.",
+      "status": "translated",
+      "portuguese": "Dobra o peso.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        194
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 14,
+      "line_widths": [
+        75
+      ]
+    },
+    {
+      "offset": "0xa35b46",
+      "source_hex": "c2d5e0ead9e700ebd9dddbdce8adff",
+      "references": [
+        9888016
+      ],
+      "english": "Halves weight.",
+      "french_comparison": "Divise le poids.",
+      "status": "translated",
+      "portuguese": "Reduz o peso à metade.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        195
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 23,
+      "line_widths": [
+        129
+      ]
+    },
+    {
+      "offset": "0xa35b55",
+      "source_hex": "c0e0dde2d7dcdde2db00e6d5dde7d9e700cde4d9d9d8adff",
+      "references": [
+        9888020
+      ],
+      "english": "Flinching raises Speed.",
+      "french_comparison": "Être apeuré augmente la Vitesse.",
+      "status": "translated",
+      "portuguese": "Hesitar aumenta Velocidade.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        196
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        151
+      ]
+    },
+    {
+      "offset": "0xa35b6d",
+      "source_hex": "cee6d5e2e7dae3e6e1e700e9e4e3e200d9e2e8d9e6dde2db00d6d5e8e8e0d9adff",
+      "references": [
+        9888024
+      ],
+      "english": "Transforms upon entering battle.",
+      "french_comparison": "Se transforme en entrant au combat.",
+      "status": "translated",
+      "portuguese": "Transforma-se ao entrar.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        197
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 25,
+      "line_widths": [
+        133
+      ]
+    },
+    {
+      "offset": "0xa35b8e",
+      "source_hex": "bed5e6dfaee8ede4d900dcdde8e700e6d5dde7d900bbe8e8d5d7dfadff",
+      "references": [
+        9888028
+      ],
+      "english": "Dark-type hits raise Attack.",
+      "french_comparison": "Coups Ténèbres montent l'Attaque.",
+      "status": "translated",
+      "portuguese": "Golpes Sombrios aumentam Ataque.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        198
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        182
+      ]
+    },
+    {
+      "offset": "0xa35bab",
+      "source_hex": "cdd7d5e6ed00e1e3ead900e8ede4d9e700e6d5dde7d900cde4d9d9d8adff",
+      "references": [
+        9888032
+      ],
+      "english": "Scary move types raise Speed.",
+      "french_comparison": "Types effrayants boostent Vitesse.",
+      "status": "translated",
+      "portuguese": "Tipos temidos elevam Velocidade.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        199
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        180
+      ]
+    },
+    {
+      "offset": "0xa35bc9",
+      "source_hex": "bde6dde8ddd7d5e0e0ed00dcdde8e700e4e3dde7e3e2d9d800dae3d9e7adff",
+      "references": [
+        9888036
+      ],
+      "english": "Critically hits poisoned foes.",
+      "french_comparison": "Critiques sur ennemis empoisonnés.",
+      "status": "translated",
+      "portuguese": "Críticos em alvos envenenados.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        200
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        168
+      ]
+    },
+    {
+      "offset": "0xa35be8",
+      "source_hex": "cae6e3e8d9d7e8e700d5dbd5dde2e7e800e1d9e2e8d5e000e4e6e3d6e0d9e1e7adff",
+      "references": [
+        9888040
+      ],
+      "english": "Protects against mental problems.",
+      "french_comparison": "Protège des troubles mentaux.",
+      "status": "translated",
+      "portuguese": "Protege de problemas mentais.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        201
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        163
+      ]
+    },
+    {
+      "offset": "0xa35c0a",
+      "source_hex": "cae6e3e8d9d7e8e700c1e6d5e7e7aee8ede4d9e700dae6e3e100e7e8d5e8e9e7adff",
+      "references": [
+        9888044
+      ],
+      "english": "Protects Grass-types from status.",
+      "french_comparison": "Protège les Plante des statuts.",
+      "status": "translated",
+      "portuguese": "Protege tipos Planta de status.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        202
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        172
+      ]
+    },
+    {
+      "offset": "0xa35c2c",
+      "source_hex": "cae6e3e8d9d7e8e700dae6e3e100e7e8d5e8e9e700ebdcd9e200e7e9e2e2edadff",
+      "references": [
+        9888048
+      ],
+      "english": "Protects from status when sunny.",
+      "french_comparison": "Protège des statuts au soleil.",
+      "status": "translated",
+      "portuguese": "Protege contra status sob sol.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        203
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        167
+      ]
+    },
+    {
+      "offset": "0xa35c4d",
+      "source_hex": "bdd5e2b4e800e9e7d900dde8d9e1e7adff",
+      "references": [
+        9888052
+      ],
+      "english": "Can't use items.",
+      "french_comparison": "Ne peut pas utiliser d'objets.",
+      "status": "translated",
+      "portuguese": "Não pode usar itens.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        204
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 21,
+      "line_widths": [
+        112
+      ]
+    },
+    {
+      "offset": "0xa35c5e",
+      "source_hex": "cae3ebd9e6e700e9e400e8d9d5e100ebdcd9e200e7e9e2e2edadff",
+      "references": [
+        9888056
+      ],
+      "english": "Powers up team when sunny.",
+      "french_comparison": "Booste l'équipe au soleil.",
+      "status": "translated",
+      "portuguese": "Fortalece a equipe sob sol.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        205
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        153
+      ]
+    },
+    {
+      "offset": "0xa35c79",
+      "source_hex": "c2e9e6e8e700e7e0d9d9e4dde2db00dae3d9e7adff",
+      "references": [
+        9888060
+      ],
+      "english": "Hurts sleeping foes.",
+      "french_comparison": "Blesse les ennemis endormis.",
+      "status": "translated",
+      "portuguese": "Causa dano a alvos dormindo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        206
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        159
+      ]
+    },
+    {
+      "offset": "0xa35c8e",
+      "source_hex": "cde8d9d5e0e700dae3d9b4e700dde8d9e100ebdcd9e200dcdde8adff",
+      "references": [
+        9888064
+      ],
+      "english": "Steals foe's item when hit.",
+      "french_comparison": "Vole l'objet ennemi si touché.",
+      "status": "translated",
+      "portuguese": "Se atingido, rouba item do alvo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        207
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa35caa",
+      "source_hex": "d1d9d5dfd9e2e700e2e3e2aed7e3e2e8d5d7e800e1e3ead9e7adff",
+      "references": [
+        9888068
+      ],
+      "english": "Weakens non-contact moves.",
+      "french_comparison": "Réduit les attaques sans contact.",
+      "status": "translated",
+      "portuguese": "Enfraquece golpes sem contato.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        208
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        170
+      ]
+    },
+    {
+      "offset": "0xa35cc5",
+      "source_hex": "bdd5e200e4e3dde7e3e200dae3d900e3e200d7e3e2e8d5d7e8adff",
+      "references": [
+        9888072
+      ],
+      "english": "Can poison foe on contact.",
+      "french_comparison": "Peut empoisonner au contact.",
+      "status": "translated",
+      "portuguese": "Pode envenenar alvo por contato.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        209
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        182
+      ]
+    },
+    {
+      "offset": "0xa35ce0",
+      "source_hex": "bdd5e200e7e8d9d5e000dae3d9b4e700dde8d9e100d5dae8d9e600d5e8e8d5d7dfadff",
+      "references": [
+        9888076
+      ],
+      "english": "Can steal foe's item after attack.",
+      "french_comparison": "Peut voler l'objet après coup.",
+      "status": "translated",
+      "portuguese": "Pode roubar item após atacar.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        210
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        165
+      ]
+    },
+    {
+      "offset": "0xa35d03",
+      "source_hex": "cdebdde8d7dcd9e700dae3e6e100ebdcd9e200d5e8e8d5d7dfdde2dbadff",
+      "references": [
+        9888080
+      ],
+      "english": "Switches form when attacking.",
+      "french_comparison": "Change de forme en attaquant.",
+      "status": "translated",
+      "portuguese": "Muda de forma ao atacar.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        211
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 25,
+      "line_widths": [
+        139
+      ]
+    },
+    {
+      "offset": "0xa35d21",
+      "source_hex": "cde9e1e1e3e2e700d500dcd9d5eaed00e6d5dde2e7e8e3e6e1adff",
+      "references": [
+        9888084
+      ],
+      "english": "Summons a heavy rainstorm.",
+      "french_comparison": "Appelle une pluie battante.",
+      "status": "translated",
+      "portuguese": "Invoca chuva torrencial.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        212
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 25,
+      "line_widths": [
+        135
+      ]
+    },
+    {
+      "offset": "0xa35d3c",
+      "source_hex": "cde9e1e1e3e2e700d9ece8e6d9e1d9e0ed00dcd5e6e7dc00e7e9e2e0dddbdce8adff",
+      "references": [
+        9888088
+      ],
+      "english": "Summons extremely harsh sunlight.",
+      "french_comparison": "Appelle un soleil ardent.",
+      "status": "translated",
+      "portuguese": "Invoca sol extremamente forte.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        213
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        169
+      ]
+    },
+    {
+      "offset": "0xa35d5e",
+      "source_hex": "cde9e1e1e3e2e700d500e1ede7e8d9e6dde3e9e700d5dde600d7e9e6e6d9e2e8adff",
+      "references": [
+        9888092
+      ],
+      "english": "Summons a mysterious air current.",
+      "french_comparison": "Appelle un courant d'air mystique.",
+      "status": "translated",
+      "portuguese": "Invoca corrente de ar misteriosa.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        214
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        183
+      ]
+    },
+    {
+      "offset": "0xa35d80",
+      "source_hex": "cfe4e700cde4ad00bbe8df00d6d9e0e3eb00dcd5e0da00c2caadff",
+      "references": [
+        9888100
+      ],
+      "english": "Ups Sp. Atk below half HP.",
+      "french_comparison": "Booste l'Att. Spé. sous 50% PV.",
+      "status": "translated",
+      "portuguese": "Atq. Esp. aumenta sob 50% dos PS.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        216
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        191
+      ]
+    },
+    {
+      "offset": "0xa35d9b",
+      "source_hex": "c8d9ead9e600e1d5dfd9e700d7e3e2e8d5d7e8adff",
+      "references": [
+        9888104
+      ],
+      "english": "Never makes contact.",
+      "french_comparison": "Ne fait jamais contact.",
+      "status": "translated",
+      "portuguese": "Nunca faz contato.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        217
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 19,
+      "line_widths": [
+        102
+      ]
+    },
+    {
+      "offset": "0xa35db0",
+      "source_hex": "cde3e9e2d800e1e3ead9e700d6d9d7e3e1d900d1d5e8d9e6aee8ede4d9adff",
+      "references": [
+        9888108
+      ],
+      "english": "Sound moves become Water-type.",
+      "french_comparison": "Capacités sonores deviennent Eau.",
+      "status": "translated",
+      "portuguese": "Movimentos sonoros viram Água.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        218
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        167
+      ]
+    },
+    {
+      "offset": "0xa35dcf",
+      "source_hex": "bce0e3d7dfe700e4e6dde3e6dde8ed00e1e3ead9e7adff",
+      "references": [],
+      "english": "Blocks priority moves.",
+      "french_comparison": "Bloque la priorité.",
+      "status": "exception",
+      "portuguese": null,
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Ancienne description sans aucun pointeur dans la ROM entière ; la cellule active de ce talent vise une autre description, hors écriture PT-36 à cet ancien offset.",
+      "replaced_by_ability_id": 219,
+      "live_reference": "0x96e170",
+      "live_target": "0xa362eb"
+    },
+    {
+      "offset": "0xa35de6",
+      "source_hex": "c0d5dde2e8dde2db00d8d5e1d5dbd9e700e8dcd900dae3d9adff",
+      "references": [
+        9888116
+      ],
+      "english": "Fainting damages the foe.",
+      "french_comparison": "Le K.O. blesse l'ennemi.",
+      "status": "translated",
+      "portuguese": "Causa dano ao alvo se nocauteado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        220
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        191
+      ]
+    },
+    {
+      "offset": "0xa35e00",
+      "source_hex": "bce0e3d7dfe700e4e6dde3e6dde8ed00e1e3ead9e7adff",
+      "references": [
+        9888120
+      ],
+      "english": "Blocks priority moves.",
+      "french_comparison": "Bloque les attaques prioritaires.",
+      "status": "translated",
+      "portuguese": "Bloqueia movimentos prioritários.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        221
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        178
+      ]
+    },
+    {
+      "offset": "0xa35e17",
+      "source_hex": "bfd5e8e700bcd9e6e6ddd9e700d9d5e6e0edadff",
+      "references": [
+        9888124
+      ],
+      "english": "Eats Berries early.",
+      "french_comparison": "Mange les Baies plus tôt.",
+      "status": "translated",
+      "portuguese": "Come Berries mais cedo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        222
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 24,
+      "line_widths": [
+        129
+      ]
+    },
+    {
+      "offset": "0xa35e2b",
+      "source_hex": "caddd7dfe700e9e400c2e3e2d9ed00d5dae8d9e600d6d5e8e8e0d9adff",
+      "references": [
+        9888128
+      ],
+      "english": "Picks up Honey after battle.",
+      "french_comparison": "Ramasse du Miel après combat.",
+      "status": "translated",
+      "portuguese": "Recolhe Honey após a batalha.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        223
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        168
+      ]
+    },
+    {
+      "offset": "0xa35e48",
+      "source_hex": "ccd9d8e9d7d9e700d8d5e1d5dbd900d8e3e2d900e8e300d5e0e0ddd9e7adff",
+      "references": [
+        9888132
+      ],
+      "english": "Reduces damage done to allies.",
+      "french_comparison": "Réduit les dégâts sur les alliés.",
+      "status": "translated",
+      "portuguese": "Reduz dano causado aos aliados.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        224
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        178
+      ]
+    },
+    {
+      "offset": "0xa35e67",
+      "source_hex": "bdd5e200e6d9dbd5dde200d7e3e2e7e9e1d9d800bcd9e6e6ddd9e7adff",
+      "references": [
+        9888136
+      ],
+      "english": "Can regain consumed Berries.",
+      "french_comparison": "Peut récupérer des Baies mangées.",
+      "status": "translated",
+      "portuguese": "Pode recuperar Berries consumidas.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        225
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 35,
+      "line_widths": [
+        190
+      ]
+    },
+    {
+      "offset": "0xa35e84",
+      "source_hex": "cae6e3e8d9d7e8e700dae6e3e100d5e0e0ddd9e7b400e1e3ead9e7adff",
+      "references": [
+        9888140
+      ],
+      "english": "Protects from allies' moves.",
+      "french_comparison": "Protège des attaques alliées.",
+      "status": "translated",
+      "portuguese": "Protege de movimentos de aliados.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        226
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        186
+      ]
+    },
+    {
+      "offset": "0xa35ea1",
+      "source_hex": "bfe2e8d9e6e700d6d5e8e8e0d900d8dde7dbe9dde7d9d8adff",
+      "references": [
+        9888144
+      ],
+      "english": "Enters battle disguised.",
+      "french_comparison": "Entre en combat déguisé.",
+      "status": "translated",
+      "portuguese": "Entra na batalha disfarçado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        227
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        156
+      ]
+    },
+    {
+      "offset": "0xa35eba",
+      "source_hex": "bfd5e8dde2db00bcd9e6e6ddd9e700e6d9e7e8e3e6d9e700c2caadff",
+      "references": [
+        9888148
+      ],
+      "english": "Eating Berries restores HP.",
+      "french_comparison": "Manger des Baies rend des PV.",
+      "status": "translated",
+      "portuguese": "Comer Berries recupera PS.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        228
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        147
+      ]
+    },
+    {
+      "offset": "0xa35ed6",
+      "source_hex": "c1ddead9e700dde8d9e100e8e300d5e0e0ed00d5dae8d9e600e9e7d9adff",
+      "references": [
+        9888152
+      ],
+      "english": "Gives item to ally after use.",
+      "french_comparison": "Donne l'objet à l'allié après usage",
+      "status": "translated",
+      "portuguese": "Dá item ao aliado após o uso.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        229
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        165
+      ]
+    },
+    {
+      "offset": "0xa35ef4",
+      "source_hex": "bee3e9d6e0d9e700d8d5e1d5dbd900e3e200e6d9e4e0d5d7d9e1d9e2e8e7adff",
+      "references": [
+        9888156
+      ],
+      "english": "Doubles damage on replacements.",
+      "french_comparison": "Double les dégâts sur remplaçants.",
+      "status": "translated",
+      "portuguese": "Dobra dano em quem entra.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        230
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        144
+      ]
+    },
+    {
+      "offset": "0xa35f14",
+      "source_hex": "bbd7e8e700d5e700ddda00d5e7e0d9d9e4adff",
+      "references": [
+        9888160
+      ],
+      "english": "Acts as if asleep.",
+      "french_comparison": "Agit comme s'il dormait.",
+      "status": "translated",
+      "portuguese": "Age como se estivesse dormindo.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        231
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        174
+      ]
+    },
+    {
+      "offset": "0xa35f27",
+      "source_hex": "bde3e4ddd9e700d8d5e2d7d900e1e3ead9e7adff",
+      "references": [
+        9888164
+      ],
+      "english": "Copies dance moves.",
+      "french_comparison": "Copie les capacités de danse.",
+      "status": "translated",
+      "portuguese": "Copia movimentos de dança.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        232
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        147
+      ]
+    },
+    {
+      "offset": "0xa35f3b",
+      "source_hex": "cae3ebd9e6e700e9e400d5e0e0ddd9e7adff",
+      "references": [
+        9888168
+      ],
+      "english": "Powers up allies.",
+      "french_comparison": "Renforce les alliés.",
+      "status": "translated",
+      "portuguese": "Fortalece aliados.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        233
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 19,
+      "line_widths": [
+        100
+      ]
+    },
+    {
+      "offset": "0xa35f4d",
+      "source_hex": "ced5dfd9e700e3ead9e600d500c5c9d9d800d5e0e0edb4e700bbd6dde0dde8edadff",
+      "references": [
+        9888172
+      ],
+      "english": "Takes over a KOed ally's Ability.",
+      "french_comparison": "Prend le talent d'un allié K.O.",
+      "status": "translated",
+      "portuguese": "Habilidade de aliado nocauteado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        234
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        181
+      ]
+    },
+    {
+      "offset": "0xa35f6f",
+      "source_hex": "cae3ebd9e6e700e9e400e7e9e4d9e600d9dadad9d7e8ddead900dcdde8e7adff",
+      "references": [
+        9888180
+      ],
+      "english": "Powers up super effective hits.",
+      "french_comparison": "Booste les coups super efficaces.",
+      "status": "translated",
+      "portuguese": "Fortalece golpes supereficazes.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        236
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        174
+      ]
+    },
+    {
+      "offset": "0xa35f8f",
+      "source_hex": "c8e3e6e1d5e000e1e3ead9e700d6d9d7e3e1d900bfe0d9d7e8e6ddd7adff",
+      "references": [
+        9888184
+      ],
+      "english": "Normal moves become Electric.",
+      "french_comparison": "Capacités Normal\npassent en Électrik.",
+      "status": "translated",
+      "portuguese": "Movimentos Normais viram Elétrico.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        237
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 35,
+      "line_widths": [
+        186
+      ]
+    },
+    {
+      "offset": "0xa35fad",
+      "source_hex": "cfe4e700bbe8e8d5d7df00e3e200d9e2e8e6edadff",
+      "references": [
+        9888188
+      ],
+      "english": "Ups Attack on entry.",
+      "french_comparison": "Augmente l'Attaque à l'entrée.",
+      "status": "translated",
+      "portuguese": "Aumenta Ataque ao entrar.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        238
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        142
+      ]
+    },
+    {
+      "offset": "0xa35fc2",
+      "source_hex": "cfe4e700bed9dad9e2e7d900e3e200d9e2e8e6edadff",
+      "references": [
+        9888192
+      ],
+      "english": "Ups Defense on entry.",
+      "french_comparison": "Augmente la Défense à l'entrée.",
+      "status": "translated",
+      "portuguese": "Aumenta Defesa ao entrar.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        239
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        141
+      ]
+    },
+    {
+      "offset": "0xa35fd8",
+      "source_hex": "c0d9e8d7dcd9e700dadde6e7e800dad5dde0d9d800cae3df1b00bcd5e0e0adff",
+      "references": [
+        9888196
+      ],
+      "english": "Fetches first failed Poké Ball.",
+      "french_comparison": "Récupère la 1re Poké Ball ratée.",
+      "status": "translated",
+      "portuguese": "Busca a primeira Poké Ball falha.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        240
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        185
+      ]
+    },
+    {
+      "offset": "0xa35ff8",
+      "source_hex": "c6e3ebd9e6e700d9ead9e6ede3e2d9b4e700cde4d9d9d800ebdcd9e200dcdde8adff",
+      "references": [
+        9888200
+      ],
+      "english": "Lowers everyone's Speed when hit.",
+      "french_comparison": "Baisse la Vitesse de tous si touché",
+      "status": "translated",
+      "portuguese": "Atingido: Velocidade de todos -.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        241
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa3601a",
+      "source_hex": "bce3e9e2d7d9e700d6d5d7df00e7e8d5e800d8d9d7e6d9d5e7d9e7adff",
+      "references": [
+        9888204
+      ],
+      "english": "Bounces back stat decreases.",
+      "french_comparison": "Renvoie les baisses de stats.",
+      "status": "translated",
+      "portuguese": "Devolve reduções de stats.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        242
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        148
+      ]
+    },
+    {
+      "offset": "0xa36037",
+      "source_hex": "cde4dde8e700e4e6d9ed00ddda00dcdde800d5dae8d9e600d500e7ebdde1adff",
+      "references": [
+        9888208
+      ],
+      "english": "Spits prey if hit after a swim.",
+      "french_comparison": "Recrache sa proie\nsi touché après nage.",
+      "status": "translated",
+      "portuguese": "Cospe presa se atingido após nado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        243
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 35,
+      "line_widths": [
+        191
+      ]
+    },
+    {
+      "offset": "0xa36057",
+      "source_hex": "c7e3ead9e700dddbe2e3e6d900e6d9d8dde6d9d7e8dde3e2adff",
+      "references": [
+        9888212
+      ],
+      "english": "Moves ignore redirection.",
+      "french_comparison": "Ignore la redirection des attaques.",
+      "status": "translated",
+      "portuguese": "Movimentos ignoram redireção.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        244
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        160
+      ]
+    },
+    {
+      "offset": "0xa36071",
+      "source_hex": "c0dde6d900d5e2d800d1d5e8d9e600dcdde8e700d6e3e3e7e800cde4d9d9d8adff",
+      "references": [
+        9888216
+      ],
+      "english": "Fire and Water hits boost Speed.",
+      "french_comparison": "Coups Feu et Eau boostent Vitesse.",
+      "status": "translated",
+      "portuguese": "Fogo e Água elevam Velocidade.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        245
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        175
+      ]
+    },
+    {
+      "offset": "0xa36092",
+      "source_hex": "cfe4e700d5e2d800e6d9e7dde7e8e700e7e3e9e2d800e1e3ead9e7adff",
+      "references": [
+        9888220
+      ],
+      "english": "Ups and resists sound moves.",
+      "french_comparison": "Booste et résiste\naux capacités sonores.",
+      "status": "translated",
+      "portuguese": "Sons: mais potência e resistência.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        246
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 35,
+      "line_widths": [
+        184
+      ]
+    },
+    {
+      "offset": "0xa360af",
+      "source_hex": "bde6d9d5e8d9e700d500e7d5e2d8e7e8e3e6e100ebdcd9e200dcdde8adff",
+      "references": [
+        9888224
+      ],
+      "english": "Creates a sandstorm when hit.",
+      "french_comparison": "Tempête de sable si touché.",
+      "status": "translated",
+      "portuguese": "Se atingido, invoca areia.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        247
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 27,
+      "line_widths": [
+        142
+      ]
+    },
+    {
+      "offset": "0xa360cd",
+      "source_hex": "c2d5e0ead9e700e7e4d9d7ddd5e000d8d5e1d5dbd9adff",
+      "references": [
+        9888228
+      ],
+      "english": "Halves special damage.",
+      "french_comparison": "Réduit de moitié les dégâts spé.",
+      "status": "translated",
+      "portuguese": "Reduz dano especial à metade.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        248
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        167
+      ]
+    },
+    {
+      "offset": "0xa360e4",
+      "source_hex": "bee3e9d6e0d9e700bcd9e6e6ed00d9dadad9d7e8e7adff",
+      "references": [
+        9888232
+      ],
+      "english": "Doubles Berry effects.",
+      "french_comparison": "Double les effets des Baies.",
+      "status": "translated",
+      "portuguese": "Dobra efeitos de Berries.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        249
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        138
+      ]
+    },
+    {
+      "offset": "0xa360fb",
+      "source_hex": "c0e6d9d900e4dcede7ddd7d5e000dcdde8ad00c2d5dde000e6d9e2d9ebe7adff",
+      "references": [
+        9888236
+      ],
+      "english": "Free physical hit. Hail renews.",
+      "french_comparison": "Encaisse un coup physique.\nGrêle relancée.",
+      "status": "translated",
+      "portuguese": "Escudo físico; granizo o renova.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        250
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa3611b",
+      "source_hex": "cae3ebd9e6e700e9e400d5e0e0ed00e1e3ead9e7adff",
+      "references": [
+        9888240
+      ],
+      "english": "Powers up ally moves.",
+      "french_comparison": "Booste les capacités des alliés.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos de aliados.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        251
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        179
+      ]
+    },
+    {
+      "offset": "0xa36131",
+      "source_hex": "bddcd5e2dbd9e700e8ede4d900ebdde8dc00e8d9e6e6d5dde2adff",
+      "references": [
+        9888244
+      ],
+      "english": "Changes type with terrain.",
+      "french_comparison": "Change de type selon le terrain.",
+      "status": "translated",
+      "portuguese": "Tipo muda conforme terreno.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        252
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        152
+      ]
+    },
+    {
+      "offset": "0xa3614c",
+      "source_hex": "cdd7e6d9d9e2e700d5e6d900e6d9e1e3ead9d800e3e200d9e2e8e6edadff",
+      "references": [
+        9888248
+      ],
+      "english": "Screens are removed on entry.",
+      "french_comparison": "Les écrans sont levés à l'entrée.",
+      "status": "translated",
+      "portuguese": "Remove barreiras ao entrar.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        253
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        151
+      ]
+    },
+    {
+      "offset": "0xa3616a",
+      "source_hex": "bce3e3e7e8e700e3ebe200d5e2d800d5e0e0ed00cde8d9d9e000e1e3ead9e7adff",
+      "references": [
+        9887884
+      ],
+      "english": "Boosts own and ally Steel moves.",
+      "french_comparison": "Booste les capacités Acier alliées.",
+      "status": "translated",
+      "portuguese": "Fortalece Aço seu e de aliados.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        162
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        177
+      ]
+    },
+    {
+      "offset": "0xa3618b",
+      "source_hex": "c1ddead9e700d500e4d9e6dde7dc00d7e3e9e2e800e3e200d7e3e2e8d5d7e8adff",
+      "references": [
+        9887888
+      ],
+      "english": "Gives a perish count on contact.",
+      "french_comparison": "Compte à rebours au contact.",
+      "status": "translated",
+      "portuguese": "Contato: contagem para nocaute.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        163
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        176
+      ]
+    },
+    {
+      "offset": "0xa361ac",
+      "source_hex": "cee6d5d8d9e700bbd6dde0dde8ddd9e700e3e200d7e3e2e8d5d7e8adff",
+      "references": [
+        9887892
+      ],
+      "english": "Trades Abilities on contact.",
+      "french_comparison": "Échange les talents au contact.",
+      "status": "translated",
+      "portuguese": "Troca Habilidades por contato.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        164
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        168
+      ]
+    },
+    {
+      "offset": "0xa361c9",
+      "source_hex": "cfe4e700bbe8e8d5d7dfb800d6e9e800d5e0e0e3ebe700e3e2d900e1e3ead9adff",
+      "references": [
+        9888096
+      ],
+      "english": "Ups Attack, but allows one move.",
+      "french_comparison": "Booste l'Attaque, mais 1 attaque.",
+      "status": "translated",
+      "portuguese": "Mais Ataque, usa um só movimento.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        215
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 34,
+      "line_widths": [
+        186
+      ]
+    },
+    {
+      "offset": "0xa361ea",
+      "source_hex": "bbe0e000bbd6dde0dde8ddd9e700d5e6d900e2e9e0e0dddaddd9d8adff",
+      "references": [
+        9887532
+      ],
+      "english": "All Abilities are nullified.",
+      "french_comparison": "Tous les talents sont annulés.",
+      "status": "translated",
+      "portuguese": "Anula todas as Habilidades.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        74
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        150
+      ]
+    },
+    {
+      "offset": "0xa36207",
+      "source_hex": "cae6e3e8d9d7e8e700e8d9d5e100dae6e3e100e4e3dde7e3e2adff",
+      "references": [
+        9888252
+      ],
+      "english": "Protects team from poison.",
+      "french_comparison": "Protège l'équipe du poison.",
+      "status": "translated",
+      "portuguese": "Protege equipe contra veneno.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        254
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        164
+      ]
+    },
+    {
+      "offset": "0xa36222",
+      "source_hex": "bddcd5e2dbd9e700dae3e6e100d9d5d7dc00e8e9e6e2adff",
+      "references": [
+        9887540
+      ],
+      "english": "Changes form each turn.",
+      "french_comparison": "Change de forme chaque tour.",
+      "status": "translated",
+      "portuguese": "Muda de forma a cada turno.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        76
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        156
+      ]
+    },
+    {
+      "offset": "0xa3623a",
+      "source_hex": "bde3e2e8d5d7e800e1e3ead9e700d6ede4d5e7e700cae6e3e8d9d7e8adff",
+      "references": [
+        9887636
+      ],
+      "english": "Contact moves bypass Protect.",
+      "french_comparison": "Attaques contact passent Abri.",
+      "status": "translated",
+      "portuguese": "Golpes de contato ignoram Protect.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        100
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 35,
+      "line_widths": [
+        191
+      ]
+    },
+    {
+      "offset": "0xa36258",
+      "source_hex": "cae3ebd9e6e700e9e400bee6d5dbe3e2aee8ede4d900e1e3ead9e7adff",
+      "references": [
+        9887528
+      ],
+      "english": "Powers up Dragon-type moves.",
+      "french_comparison": "Booste les capacités Dragon.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos de Dragão.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        73
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        176
+      ]
+    },
+    {
+      "offset": "0xa36275",
+      "source_hex": "cae3ebd9e6e700e9e400bfe0d9d7e8e6ddd7aee8ede4d900e1e3ead9e7adff",
+      "references": [
+        9887524
+      ],
+      "english": "Powers up Electric-type moves.",
+      "french_comparison": "Booste les capacités Électrik.",
+      "status": "translated",
+      "portuguese": "Fortalece movimentos Elétricos.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        72
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 32,
+      "line_widths": [
+        171
+      ]
+    },
+    {
+      "offset": "0xa36294",
+      "source_hex": "c5e2e3d7dfe3e9e8e700d6e3e3e7e800cde4ad00bbe8dfadff",
+      "references": [
+        9887728
+      ],
+      "english": "Knockouts boost Sp. Atk.",
+      "french_comparison": "K.O. boostent l'Att. Spé.",
+      "status": "translated",
+      "portuguese": "Nocautes aumentam Atq. Esp.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        123
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 28,
+      "line_widths": [
+        154
+      ]
+    },
+    {
+      "offset": "0xa362ad",
+      "source_hex": "bce3e8dc00cfe2e2d9e6ead900d5e2d800c1e6dde100c8d9dddbdcadff",
+      "references": [
+        9887848
+      ],
+      "english": "Both Unnerve and Grim Neigh.",
+      "french_comparison": "À la fois Tension et Sombre Ruade.",
+      "status": "translated",
+      "portuguese": "Unnerve e Grim Neigh juntos.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        153
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        156
+      ]
+    },
+    {
+      "offset": "0xa362ca",
+      "source_hex": "bce3e8dc00cfe2e2d9e6ead900d5e2d800bddcdde0e0dde2db00c8d9dddbdcadff",
+      "references": [
+        9887852
+      ],
+      "english": "Both Unnerve and Chilling Neigh.",
+      "french_comparison": "À la fois Tension et Blanche Ruade.",
+      "status": "translated",
+      "portuguese": "Unnerve e Chilling Neigh juntos.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        154
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        176
+      ]
+    },
+    {
+      "offset": "0xa362eb",
+      "source_hex": "cde3e1d9e8dde1d9e700e1e3ead9e700e5e9ddd7dfd9e6adff",
+      "references": [
+        9888112
+      ],
+      "english": "Sometimes moves quicker.",
+      "french_comparison": "Parfois agit plus vite.",
+      "status": "translated",
+      "portuguese": "Às vezes age mais rápido.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        219
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 26,
+      "line_widths": [
+        141
+      ]
+    },
+    {
+      "offset": "0xa36304",
+      "source_hex": "ccd9e7d9e8e700d5e0e0edb4e700e7e8d5e800d7dcd5e2dbd9e7adff",
+      "references": [
+        9888176
+      ],
+      "english": "Resets ally's stat changes.",
+      "french_comparison": "Annule les stats\nmodifiées de l'allié.",
+      "status": "translated",
+      "portuguese": "Anula mudanças de stats do aliado.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [
+        235
+      ],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 35,
+      "line_widths": [
+        192
+      ]
+    },
+    {
+      "offset": "0xa36320",
+      "source_hex": "c8e9e0e0dddaddd9e700d5e0e000ebd5e8d9e600e8e300e9e400cde4ad00bbe8dfadff",
+      "references": [
+        10130496
+      ],
+      "english": "Nullifies all water to up Sp. Atk.",
+      "french_comparison": "Annule l'Eau pour\nbooster l'Att. Spé.",
+      "status": "translated",
+      "portuguese": "Anula Água para elevar Atq. Esp.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 33,
+      "line_widths": [
+        183
+      ]
+    },
+    {
+      "offset": "0xa36343",
+      "source_hex": "c1e6d5e7e7aee8ede4d900e1e3ead9e700dcdde800dadde6e7e8adff",
+      "references": [
+        10130488
+      ],
+      "english": "Grass-type moves hit first.",
+      "french_comparison": "Capacités Plante\nfrappent d'abord.",
+      "status": "translated",
+      "portuguese": "Prioriza movimentos de Planta.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 31,
+      "line_widths": [
+        165
+      ]
+    },
+    {
+      "offset": "0xa3635f",
+      "source_hex": "ced5dde000e1e3ead9e700dcdde800dadde6e7e8adff",
+      "references": [
+        10130492
+      ],
+      "english": "Tail moves hit first.",
+      "french_comparison": "Capacités de queue\nfrappent d'abord.",
+      "status": "translated",
+      "portuguese": "Prioriza movimentos de cauda.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 30,
+      "line_widths": [
+        162
+      ]
+    },
+    {
+      "offset": "0xa36375",
+      "source_hex": "bee6dde0e000e1e3ead9e700e0d5e2d800d7e6dde8ddd7d5e000dcdde8e7adff",
+      "references": [
+        10130500
+      ],
+      "english": "Drill moves land critical hits.",
+      "french_comparison": "Capacités perçantes\nfont des critiques.",
+      "status": "translated",
+      "portuguese": "Brocas dão acertos críticos.",
+      "move_ids": [],
+      "kind": "description",
+      "ability_ids": [],
+      "layout": {
+        "type": "ability_description",
+        "max_width": 192,
+        "max_lines": 1
+      },
+      "reason": "Description consommée par les pointeurs audités, relocalisation finale sans toucher aux voisins.",
+      "encoded_bytes": 29,
+      "line_widths": [
+        157
+      ]
+    },
+    {
+      "offset": "0xa36398",
+      "source_hex": "aeaeaeaeaeaeaeff",
+      "references": [
+        448,
+        884740,
+        886308,
+        1271712,
+        9172468,
+        10132700
+      ],
+      "english": "-------",
+      "french_comparison": null,
+      "status": "translated",
+      "portuguese": "-------",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        0
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 8,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0xa363a9",
+      "source_hex": "cde8d9e2d7dcff",
+      "references": [],
+      "english": "Stench",
+      "french_comparison": "Puanteur",
+      "status": "translated",
+      "portuguese": "Stench",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        1
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0xa363ba",
+      "source_hex": "bee6ddeeeee0d9ff",
+      "references": [],
+      "english": "Drizzle",
+      "french_comparison": "Crachin",
+      "status": "translated",
+      "portuguese": "Drizzle",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        2
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0xa363cb",
+      "source_hex": "cde4d9d9d800bce3e3e7e8ff",
+      "references": [],
+      "english": "Speed Boost",
+      "french_comparison": "Turbo",
+      "status": "translated",
+      "portuguese": "Speed Boost",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        3
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0xa363dc",
+      "source_hex": "bcd5e8e8e0d900bbe6e1e3e6ff",
+      "references": [],
+      "english": "Battle Armor",
+      "french_comparison": "Armurbaston",
+      "status": "translated",
+      "portuguese": "Battle Armor",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        4
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa363ed",
+      "source_hex": "cde8e9e6d8edff",
+      "references": [],
+      "english": "Sturdy",
+      "french_comparison": "Fermeté",
+      "status": "translated",
+      "portuguese": "Sturdy",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        5
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0xa363fe",
+      "source_hex": "bed5e1e4ff",
+      "references": [],
+      "english": "Damp",
+      "french_comparison": "Moiteur",
+      "status": "translated",
+      "portuguese": "Damp",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        6
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ]
+    },
+    {
+      "offset": "0xa3640f",
+      "source_hex": "c6dde1d6d9e6ff",
+      "references": [],
+      "english": "Limber",
+      "french_comparison": "Échauffement",
+      "status": "translated",
+      "portuguese": "Limber",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        7
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0xa36420",
+      "source_hex": "cdd5e2d800d0d9dde0ff",
+      "references": [],
+      "english": "Sand Veil",
+      "french_comparison": "Voile Sable",
+      "status": "translated",
+      "portuguese": "Sand Veil",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        8
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa36431",
+      "source_hex": "cde8d5e8ddd7ff",
+      "references": [],
+      "english": "Static",
+      "french_comparison": "Statik",
+      "status": "translated",
+      "portuguese": "Static",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        9
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ]
+    },
+    {
+      "offset": "0xa36442",
+      "source_hex": "d0e3e0e800bbd6e7e3e6d6ff",
+      "references": [],
+      "english": "Volt Absorb",
+      "french_comparison": "Absorbe-Volt",
+      "status": "translated",
+      "portuguese": "Volt Absorb",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        10
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa36453",
+      "source_hex": "d1d5e8d9e600bbd6e7e3e6d6ff",
+      "references": [],
+      "english": "Water Absorb",
+      "french_comparison": "Absorbe-Eau",
+      "status": "translated",
+      "portuguese": "Water Absorb",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        11
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0xa36464",
+      "source_hex": "c9d6e0ddeadde3e9e7ff",
+      "references": [],
+      "english": "Oblivious",
+      "french_comparison": "Benêt",
+      "status": "translated",
+      "portuguese": "Oblivious",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        12
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa36475",
+      "source_hex": "bde0e3e9d800c8dde2d9ff",
+      "references": [],
+      "english": "Cloud Nine",
+      "french_comparison": "Ciel Gris",
+      "status": "translated",
+      "portuguese": "Cloud Nine",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        13
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa36486",
+      "source_hex": "bde3e1e4e3e9e2d800bfedd9e7ff",
+      "references": [],
+      "english": "Compound Eyes",
+      "french_comparison": "OEil Composé",
+      "status": "translated",
+      "portuguese": "Compound Eyes",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        14
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 14,
+      "line_widths": [
+        76
+      ]
+    },
+    {
+      "offset": "0xa36497",
+      "source_hex": "c3e2e7e3e1e2ddd5ff",
+      "references": [],
+      "english": "Insomnia",
+      "french_comparison": "Insomnia",
+      "status": "translated",
+      "portuguese": "Insomnia",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        15
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa364a8",
+      "source_hex": "bde3e0e3e600bddcd5e2dbd9ff",
+      "references": [],
+      "english": "Color Change",
+      "french_comparison": "Homochromie",
+      "status": "translated",
+      "portuguese": "Color Change",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        16
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa364b9",
+      "source_hex": "c3e1e1e9e2dde8edff",
+      "references": [],
+      "english": "Immunity",
+      "french_comparison": "Vaccin",
+      "status": "translated",
+      "portuguese": "Immunity",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        17
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa364ca",
+      "source_hex": "c0e0d5e7dc00c0dde6d9ff",
+      "references": [],
+      "english": "Flash Fire",
+      "french_comparison": "Torche",
+      "status": "translated",
+      "portuguese": "Flash Fire",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        18
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0xa364db",
+      "source_hex": "cddcddd9e0d800bee9e7e8ff",
+      "references": [],
+      "english": "Shield Dust",
+      "french_comparison": "Écran Poudre",
+      "status": "translated",
+      "portuguese": "Shield Dust",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        19
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa364ec",
+      "source_hex": "c9ebe200ced9e1e4e3ff",
+      "references": [],
+      "english": "Own Tempo",
+      "french_comparison": "Tempo Perso",
+      "status": "translated",
+      "portuguese": "Own Tempo",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        20
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ]
+    },
+    {
+      "offset": "0xa364fd",
+      "source_hex": "cde9d7e8dde3e200bde9e4e7ff",
+      "references": [],
+      "english": "Suction Cups",
+      "french_comparison": "Ventouse",
+      "status": "translated",
+      "portuguese": "Suction Cups",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        21
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa3650e",
+      "source_hex": "c3e2e8dde1ddd8d5e8d9ff",
+      "references": [],
+      "english": "Intimidate",
+      "french_comparison": "Intimidation",
+      "status": "translated",
+      "portuguese": "Intimidate",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        22
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        53
+      ]
+    },
+    {
+      "offset": "0xa3651f",
+      "source_hex": "cddcd5d8e3eb00ced5dbff",
+      "references": [],
+      "english": "Shadow Tag",
+      "french_comparison": "Marque Ombre",
+      "status": "translated",
+      "portuguese": "Shadow Tag",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        23
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        60
+      ]
+    },
+    {
+      "offset": "0xa36530",
+      "source_hex": "cce3e9dbdc00cddfdde2ff",
+      "references": [],
+      "english": "Rough Skin",
+      "french_comparison": "Peau Dure",
+      "status": "translated",
+      "portuguese": "Rough Skin",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        24
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa36541",
+      "source_hex": "d1e3e2d8d9e600c1e9d5e6d8ff",
+      "references": [],
+      "english": "Wonder Guard",
+      "french_comparison": "Garde Mystik",
+      "status": "translated",
+      "portuguese": "Wonder Guard",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        25
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa36552",
+      "source_hex": "c6d9eadde8d5e8d9ff",
+      "references": [],
+      "english": "Levitate",
+      "french_comparison": "Lévitation",
+      "status": "translated",
+      "portuguese": "Levitate",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        26
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa36563",
+      "source_hex": "bfdadad9d7e800cde4e3e6d9ff",
+      "references": [],
+      "english": "Effect Spore",
+      "french_comparison": "Pose Spore",
+      "status": "translated",
+      "portuguese": "Effect Spore",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        27
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0xa36574",
+      "source_hex": "cdede2d7dce6e3e2ddeed9ff",
+      "references": [],
+      "english": "Synchronize",
+      "french_comparison": "Synchro",
+      "status": "translated",
+      "portuguese": "Synchronize",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        28
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa36585",
+      "source_hex": "bde0d9d5e600bce3d8edff",
+      "references": [],
+      "english": "Clear Body",
+      "french_comparison": "Corps Sain",
+      "status": "translated",
+      "portuguese": "Clear Body",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        29
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0xa36596",
+      "source_hex": "c8d5e8e9e6d5e000bde9e6d9ff",
+      "references": [],
+      "english": "Natural Cure",
+      "french_comparison": "Médic Nature",
+      "status": "translated",
+      "portuguese": "Natural Cure",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        30
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0xa365a7",
+      "source_hex": "c6dddbdce8e2dde2db00cce3d8ff",
+      "references": [],
+      "english": "Lightning Rod",
+      "french_comparison": "Paratonnerre",
+      "status": "translated",
+      "portuguese": "Lightning Rod",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        31
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 14,
+      "line_widths": [
+        71
+      ]
+    },
+    {
+      "offset": "0xa365b8",
+      "source_hex": "cdd9e6d9e2d900c1e6d5d7d9ff",
+      "references": [],
+      "english": "Serene Grace",
+      "french_comparison": "Sérénité",
+      "status": "translated",
+      "portuguese": "Serene Grace",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        32
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa365c9",
+      "source_hex": "cdebdddae800cdebdde1ff",
+      "references": [],
+      "english": "Swift Swim",
+      "french_comparison": "Glissade",
+      "status": "translated",
+      "portuguese": "Swift Swim",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        33
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa365da",
+      "source_hex": "bddce0e3e6e3e4dcede0e0ff",
+      "references": [],
+      "english": "Chlorophyll",
+      "french_comparison": "Chlorophylle",
+      "status": "translated",
+      "portuguese": "Chlorophyll",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        34
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa365eb",
+      "source_hex": "c3e0e0e9e1dde2d5e8d9ff",
+      "references": [],
+      "english": "Illuminate",
+      "french_comparison": "Lumiattirance",
+      "status": "translated",
+      "portuguese": "Illuminate",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        35
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa365fc",
+      "source_hex": "cee6d5d7d9ff",
+      "references": [],
+      "english": "Trace",
+      "french_comparison": "Calque",
+      "status": "translated",
+      "portuguese": "Trace",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        36
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0xa3660d",
+      "source_hex": "c2e9dbd900cae3ebd9e6ff",
+      "references": [],
+      "english": "Huge Power",
+      "french_comparison": "Coloforce",
+      "status": "translated",
+      "portuguese": "Huge Power",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        37
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0xa3661e",
+      "source_hex": "cae3dde7e3e200cae3dde2e8ff",
+      "references": [],
+      "english": "Poison Point",
+      "french_comparison": "Point Poison",
+      "status": "translated",
+      "portuguese": "Poison Point",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        38
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0xa3662f",
+      "source_hex": "c3e2e2d9e600c0e3d7e9e7ff",
+      "references": [],
+      "english": "Inner Focus",
+      "french_comparison": "Attention",
+      "status": "translated",
+      "portuguese": "Inner Focus",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        39
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa36640",
+      "source_hex": "c7d5dbe1d500bbe6e1e3e6ff",
+      "references": [],
+      "english": "Magma Armor",
+      "french_comparison": "Armumagma",
+      "status": "translated",
+      "portuguese": "Magma Armor",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        40
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0xa36651",
+      "source_hex": "d1d5e8d9e600d0d9dde0ff",
+      "references": [],
+      "english": "Water Veil",
+      "french_comparison": "Ignifu-Voile",
+      "status": "translated",
+      "portuguese": "Water Veil",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        41
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0xa36662",
+      "source_hex": "c7d5dbe2d9e800cae9e0e0ff",
+      "references": [],
+      "english": "Magnet Pull",
+      "french_comparison": "Magnépiège",
+      "status": "translated",
+      "portuguese": "Magnet Pull",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        42
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa36673",
+      "source_hex": "cde3e9e2d8e4e6e3e3daff",
+      "references": [],
+      "english": "Soundproof",
+      "french_comparison": "Anti-Bruit",
+      "status": "translated",
+      "portuguese": "Soundproof",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        43
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa36684",
+      "source_hex": "ccd5dde200bedde7dcff",
+      "references": [],
+      "english": "Rain Dish",
+      "french_comparison": "Cuvette",
+      "status": "translated",
+      "portuguese": "Rain Dish",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        44
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa36695",
+      "source_hex": "cdd5e2d800cde8e6d9d5e1ff",
+      "references": [],
+      "english": "Sand Stream",
+      "french_comparison": "Sable Volant",
+      "status": "translated",
+      "portuguese": "Sand Stream",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        45
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        63
+      ]
+    },
+    {
+      "offset": "0xa366a6",
+      "source_hex": "cae6d9e7e7e9e6d9ff",
+      "references": [],
+      "english": "Pressure",
+      "french_comparison": "Pression",
+      "status": "translated",
+      "portuguese": "Pressure",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        46
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa366b7",
+      "source_hex": "cedcddd7df00c0d5e8ff",
+      "references": [],
+      "english": "Thick Fat",
+      "french_comparison": "Isograisse",
+      "status": "translated",
+      "portuguese": "Thick Fat",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        47
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa366c8",
+      "source_hex": "bfd5e6e0ed00bcdde6d8ff",
+      "references": [],
+      "english": "Early Bird",
+      "french_comparison": "Matinal",
+      "status": "translated",
+      "portuguese": "Early Bird",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        48
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0xa366d9",
+      "source_hex": "c0e0d5e1d900bce3d8edff",
+      "references": [],
+      "english": "Flame Body",
+      "french_comparison": "Corps Ardent",
+      "status": "translated",
+      "portuguese": "Flame Body",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        49
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ]
+    },
+    {
+      "offset": "0xa366ea",
+      "source_hex": "cce9e200bbebd5edff",
+      "references": [],
+      "english": "Run Away",
+      "french_comparison": "Fuite",
+      "status": "translated",
+      "portuguese": "Run Away",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        50
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0xa366fb",
+      "source_hex": "c5d9d9e200bfedd9ff",
+      "references": [],
+      "english": "Keen Eye",
+      "french_comparison": "Regard Vif",
+      "status": "translated",
+      "portuguese": "Keen Eye",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        51
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0xa3670c",
+      "source_hex": "c2ede4d9e600bde9e8e8d9e6ff",
+      "references": [],
+      "english": "Hyper Cutter",
+      "french_comparison": "Hyper Cutter",
+      "status": "translated",
+      "portuguese": "Hyper Cutter",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        52
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        68
+      ]
+    },
+    {
+      "offset": "0xa3671d",
+      "source_hex": "caddd7dfe9e4ff",
+      "references": [],
+      "english": "Pickup",
+      "french_comparison": "Ramassage",
+      "status": "translated",
+      "portuguese": "Pickup",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        53
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0xa3672e",
+      "source_hex": "cee6e9d5e2e8ff",
+      "references": [],
+      "english": "Truant",
+      "french_comparison": "Absentéisme",
+      "status": "translated",
+      "portuguese": "Truant",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        54
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0xa3673f",
+      "source_hex": "c2e9e7e8e0d9ff",
+      "references": [],
+      "english": "Hustle",
+      "french_comparison": "Agitation",
+      "status": "translated",
+      "portuguese": "Hustle",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        55
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0xa36750",
+      "source_hex": "bde9e8d900bddcd5e6e1ff",
+      "references": [],
+      "english": "Cute Charm",
+      "french_comparison": "Joli Sourire",
+      "status": "translated",
+      "portuguese": "Cute Charm",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        56
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0xa36761",
+      "source_hex": "cae0e9e7ff",
+      "references": [],
+      "english": "Plus",
+      "french_comparison": "Plus",
+      "status": "translated",
+      "portuguese": "Plus",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        57
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 5,
+      "line_widths": [
+        22
+      ]
+    },
+    {
+      "offset": "0xa36772",
+      "source_hex": "c7dde2e9e7ff",
+      "references": [],
+      "english": "Minus",
+      "french_comparison": "Moins",
+      "status": "translated",
+      "portuguese": "Minus",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        58
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 6,
+      "line_widths": [
+        26
+      ]
+    },
+    {
+      "offset": "0xa36783",
+      "source_hex": "c0e3e6d9d7d5e7e8ff",
+      "references": [],
+      "english": "Forecast",
+      "french_comparison": "Météo",
+      "status": "translated",
+      "portuguese": "Forecast",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        59
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa36794",
+      "source_hex": "cde8ddd7dfed00c2e3e0d8ff",
+      "references": [],
+      "english": "Sticky Hold",
+      "french_comparison": "Glu",
+      "status": "translated",
+      "portuguese": "Sticky Hold",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        60
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa367a5",
+      "source_hex": "cddcd9d800cddfdde2ff",
+      "references": [],
+      "english": "Shed Skin",
+      "french_comparison": "Mue",
+      "status": "translated",
+      "portuguese": "Shed Skin",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        61
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa367b6",
+      "source_hex": "c1e9e8e7ff",
+      "references": [],
+      "english": "Guts",
+      "french_comparison": "Cran",
+      "status": "translated",
+      "portuguese": "Guts",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        62
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 5,
+      "line_widths": [
+        22
+      ]
+    },
+    {
+      "offset": "0xa367c7",
+      "source_hex": "c7d5e6ead9e000cdd7d5e0d9ff",
+      "references": [],
+      "english": "Marvel Scale",
+      "french_comparison": "Écaille Spéciale",
+      "status": "translated",
+      "portuguese": "Marvel Scale",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        63
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa367d8",
+      "source_hex": "c6dde5e9ddd800c9e3eed9ff",
+      "references": [],
+      "english": "Liquid Ooze",
+      "french_comparison": "Suintement",
+      "status": "translated",
+      "portuguese": "Liquid Ooze",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        64
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa367e9",
+      "source_hex": "c9ead9e6dbe6e3ebff",
+      "references": [],
+      "english": "Overgrow",
+      "french_comparison": "Engrais",
+      "status": "translated",
+      "portuguese": "Supercrescimento",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        65
+      ],
+      "cell_bytes": 17,
+      "reason": "Équivalent officiel F-759 dans la cellule fixe de 17 octets.",
+      "encoded_bytes": 17,
+      "line_widths": [
+        89
+      ]
+    },
+    {
+      "offset": "0xa367fa",
+      "source_hex": "bce0d5eed9ff",
+      "references": [],
+      "english": "Blaze",
+      "french_comparison": "Brasier",
+      "status": "translated",
+      "portuguese": "Incêndio",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        66
+      ],
+      "cell_bytes": 17,
+      "reason": "Équivalent officiel F-759 dans la cellule fixe de 17 octets.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa3680b",
+      "source_hex": "cee3e6e6d9e2e8ff",
+      "references": [],
+      "english": "Torrent",
+      "french_comparison": "Torrent",
+      "status": "translated",
+      "portuguese": "Dilúvio",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        67
+      ],
+      "cell_bytes": 17,
+      "reason": "Équivalent officiel F-759 dans la cellule fixe de 17 octets.",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0xa3681c",
+      "source_hex": "cdebd5e6e1ff",
+      "references": [],
+      "english": "Swarm",
+      "french_comparison": "Essaim",
+      "status": "translated",
+      "portuguese": "Swarm",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        68
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0xa3682d",
+      "source_hex": "cce3d7df00c2d9d5d8ff",
+      "references": [],
+      "english": "Rock Head",
+      "french_comparison": "Tête de Roc",
+      "status": "translated",
+      "portuguese": "Rock Head",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        69
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ]
+    },
+    {
+      "offset": "0xa3683e",
+      "source_hex": "bee6e3e9dbdce8ff",
+      "references": [],
+      "english": "Drought",
+      "french_comparison": "Sécheresse",
+      "status": "translated",
+      "portuguese": "Drought",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        70
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0xa3684f",
+      "source_hex": "bbe6d9e2d500cee6d5e4ff",
+      "references": [],
+      "english": "Arena Trap",
+      "french_comparison": "Piège Sable",
+      "status": "translated",
+      "portuguese": "Arena Trap",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        71
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa36860",
+      "source_hex": "cee6d5e2e7dde7e8e3e6ff",
+      "references": [],
+      "english": "Transistor",
+      "french_comparison": "Transistor",
+      "status": "translated",
+      "portuguese": "Transistor",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        72
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        52
+      ]
+    },
+    {
+      "offset": "0xa36871",
+      "source_hex": "bee6d5dbe3e2b4e700c7d5ebff",
+      "references": [],
+      "english": "Dragon's Maw",
+      "french_comparison": "Dent de Dragon",
+      "status": "translated",
+      "portuguese": "Dragon's Maw",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        73
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        66
+      ]
+    },
+    {
+      "offset": "0xa36882",
+      "source_hex": "c8d9e9e8e6d5e0ddeed900c1d5e7ff",
+      "references": [],
+      "english": "Neutralize Gas",
+      "french_comparison": "Gaz Inhibiteur",
+      "status": "translated",
+      "portuguese": "Neutralize Gas",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        74
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 15,
+      "line_widths": [
+        78
+      ]
+    },
+    {
+      "offset": "0xa36893",
+      "source_hex": "cddcd9e0e000bbe6e1e3e6ff",
+      "references": [],
+      "english": "Shell Armor",
+      "french_comparison": "Coque Armure",
+      "status": "translated",
+      "portuguese": "Shell Armor",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        75
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa368a4",
+      "source_hex": "c2e9e2dbd9e600cdebdde8d7dcff",
+      "references": [],
+      "english": "Hunger Switch",
+      "french_comparison": "Déclic Fringale",
+      "status": "translated",
+      "portuguese": "Hunger Switch",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        76
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 14,
+      "line_widths": [
+        73
+      ]
+    },
+    {
+      "offset": "0xa368b5",
+      "source_hex": "cfe2e9e7d9d8ff",
+      "references": [],
+      "english": "Unused",
+      "french_comparison": "Inutilisé",
+      "status": "translated",
+      "portuguese": "Unused",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        77
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0xa368c6",
+      "source_hex": "cdebd9d9e800d0d9dde0ff",
+      "references": [],
+      "english": "Sweet Veil",
+      "french_comparison": "Gluco-Voile",
+      "status": "translated",
+      "portuguese": "Sweet Veil",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        78
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa368d7",
+      "source_hex": "cddfdde0e000c6dde2dfff",
+      "references": [],
+      "english": "Skill Link",
+      "french_comparison": "Multi-Coups",
+      "status": "translated",
+      "portuguese": "Skill Link",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        79
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0xa368e8",
+      "source_hex": "c7e3e8e3e600bee6ddead9ff",
+      "references": [],
+      "english": "Motor Drive",
+      "french_comparison": "Motorisé",
+      "status": "translated",
+      "portuguese": "Motor Drive",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        80
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa368f9",
+      "source_hex": "c7e9e0e8dde7d7d5e0d9ff",
+      "references": [],
+      "english": "Multiscale",
+      "french_comparison": "Multiécaille",
+      "status": "translated",
+      "portuguese": "Multiscale",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        81
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa3690a",
+      "source_hex": "ced9d7dce2ddd7ddd5e2ff",
+      "references": [],
+      "english": "Technician",
+      "french_comparison": "Technicien",
+      "status": "translated",
+      "portuguese": "Technician",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        82
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa3691b",
+      "source_hex": "cdd7e6d5e4e4edff",
+      "references": [],
+      "english": "Scrappy",
+      "french_comparison": "Querelleur",
+      "status": "translated",
+      "portuguese": "Scrappy",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        83
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0xa3692c",
+      "source_hex": "cde9e4d9e600c6e9d7dfff",
+      "references": [],
+      "english": "Super Luck",
+      "french_comparison": "Chanceux",
+      "status": "translated",
+      "portuguese": "Super Luck",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        84
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 11,
+      "line_widths": [
+        58
+      ]
+    },
+    {
+      "offset": "0xa3693d",
+      "source_hex": "cde2dde4d9e6ff",
+      "references": [],
+      "english": "Sniper",
+      "french_comparison": "Sniper",
+      "status": "translated",
+      "portuguese": "Sniper",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        85
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ]
+    },
+    {
+      "offset": "0xa3694e",
+      "source_hex": "ccd9dbd9e2d9e6d5e8e3e6ff",
+      "references": [],
+      "english": "Regenerator",
+      "french_comparison": "Régé-Force",
+      "status": "translated",
+      "portuguese": "Regenerator",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        86
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa3695f",
+      "source_hex": "cae6d5e2dfe7e8d9e6ff",
+      "references": [],
+      "english": "Prankster",
+      "french_comparison": "Farceur",
+      "status": "translated",
+      "portuguese": "Prankster",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        87
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa36970",
+      "source_hex": "bbd8d5e4e8d5d6dde0dde8edff",
+      "references": [],
+      "english": "Adaptability",
+      "french_comparison": "Adaptabilité",
+      "status": "translated",
+      "portuguese": "Adaptability",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        88
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        65
+      ]
+    },
+    {
+      "offset": "0xa36981",
+      "source_hex": "bcdddb00cad9d7dfe7ff",
+      "references": [],
+      "english": "Big Pecks",
+      "french_comparison": "Coeur de Coq",
+      "status": "translated",
+      "portuguese": "Big Pecks",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        89
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa36992",
+      "source_hex": "c7d5dbddd700bce3e9e2d7d9ff",
+      "references": [],
+      "english": "Magic Bounce",
+      "french_comparison": "Miroir Magik",
+      "status": "translated",
+      "portuguese": "Magic Bounce",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        90
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 13,
+      "line_widths": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa369a3",
+      "source_hex": "ccd9d7dfe0d9e7e7ff",
+      "references": [],
+      "english": "Reckless",
+      "french_comparison": "Téméraire",
+      "status": "translated",
+      "portuguese": "Reckless",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        91
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa369b4",
+      "source_hex": "cddcd9d9e600c0e3e6d7d9ff",
+      "references": [],
+      "english": "Sheer Force",
+      "french_comparison": "Sans Limite",
+      "status": "translated",
+      "portuguese": "Sheer Force",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        92
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 12,
+      "line_widths": [
+        64
+      ]
+    },
+    {
+      "offset": "0xa369c5",
+      "source_hex": "c3e6e3e200c0dde7e8ff",
+      "references": [],
+      "english": "Iron Fist",
+      "french_comparison": "Poing de Fer",
+      "status": "translated",
+      "portuguese": "Iron Fist",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        93
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa369d6",
+      "source_hex": "ccddead5e0e6edff",
+      "references": [],
+      "english": "Rivalry",
+      "french_comparison": "Rivalité",
+      "status": "translated",
+      "portuguese": "Rivalry",
+      "move_ids": [],
+      "kind": "name",
+      "ability_ids": [
+        94
+      ],
+      "cell_bytes": 17,
+      "reason": "Nom indexé, anglais conservé selon F-759.",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    }
+  ]
+}

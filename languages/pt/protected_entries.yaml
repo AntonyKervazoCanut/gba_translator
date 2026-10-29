@@ -23001,3 +23001,840 @@ entries:
   - offset: "0x8bf360"
     name: "PT-32 0x8bf360"
     expected: '<0xFD><0x10>: <0xFD><0x16>\nfixou sua mira no alvo!'
+  - offset: "0xa34f4c"
+    name: "PT-36 0xa34f4c"
+    expected: 'Impede queimadura de frio.'
+  - offset: "0xa34f61"
+    name: "PT-36 0xa34f61"
+    expected: 'Mantém equipe acordada.'
+  - offset: "0xa34f7e"
+    name: "PT-36 0xa34f7e"
+    expected: 'Golpes múltiplos acertam 5 vezes.'
+  - offset: "0xa34f9e"
+    name: "PT-36 0xa34f9e"
+    expected: 'Eletricidade aumenta Velocidade.'
+  - offset: "0xa34fbc"
+    name: "PT-36 0xa34fbc"
+    expected: 'Reduz dano com PS cheios.'
+  - offset: "0xa34fd7"
+    name: "PT-36 0xa34fd7"
+    expected: 'Fortalece movimentos fracos.'
+  - offset: "0xa34fec"
+    name: "PT-36 0xa34fec"
+    expected: 'Movimentos acertam tipo Fantasma.'
+  - offset: "0xa3500a"
+    name: "PT-36 0xa3500a"
+    expected: 'Mais chances de acerto crítico.'
+  - offset: "0xa35029"
+    name: "PT-36 0xa35029"
+    expected: 'Fortalece acertos críticos.'
+  - offset: "0xa3503f"
+    name: "PT-36 0xa3503f"
+    expected: 'Recupera PS ao sair da batalha.'
+  - offset: "0xa35059"
+    name: "PT-36 0xa35059"
+    expected: 'Prioriza movimentos de status.'
+  - offset: "0xa35071"
+    name: "PT-36 0xa35071"
+    expected: 'Fortalece golpes do mesmo tipo.'
+  - offset: "0xa3508b"
+    name: "PT-36 0xa3508b"
+    expected: 'Impede redução da Defesa.'
+  - offset: "0xa350a7"
+    name: "PT-36 0xa350a7"
+    expected: 'Reflete movimentos de status.'
+  - offset: "0xa350be"
+    name: "PT-36 0xa350be"
+    expected: 'Fortalece golpes com recuo.'
+  - offset: "0xa350d8"
+    name: "PT-36 0xa350d8"
+    expected: 'Troca efeitos extras por potência.'
+  - offset: "0xa350f8"
+    name: "PT-36 0xa350f8"
+    expected: 'Fortalece movimentos de soco.'
+  - offset: "0xa3510f"
+    name: "PT-36 0xa3510f"
+    expected: 'Mais potência contra mesmo sexo.'
+  - offset: "0xa3512e"
+    name: "PT-36 0xa3512e"
+    expected: 'Fortalece golpes sob areia.'
+  - offset: "0xa3514b"
+    name: "PT-36 0xa3514b"
+    expected: 'Troca PS por potência sob sol.'
+  - offset: "0xa3516c"
+    name: "PT-36 0xa3516c"
+    expected: 'Protege do calor.'
+  - offset: "0xa3517d"
+    name: "PT-36 0xa3517d"
+    expected: 'Prefere chuva ao calor.'
+  - offset: "0xa35197"
+    name: "PT-36 0xa35197"
+    expected: 'Fortalece golpes pouco eficazes.'
+  - offset: "0xa351ba"
+    name: "PT-36 0xa351ba"
+    expected: 'Reduz golpes supereficazes.'
+  - offset: "0xa351d9"
+    name: "PT-36 0xa351d9"
+    expected: 'Atravessa barreiras e neblina.'
+  - offset: "0xa351fa"
+    name: "PT-36 0xa351fa"
+    expected: 'Potência conforme stats do alvo.'
+  - offset: "0xa3521a"
+    name: "PT-36 0xa3521a"
+    expected: 'Recupera PS se envenenado.'
+  - offset: "0xa35233"
+    name: "PT-36 0xa35233"
+    expected: 'Recupera alguns PS no granizo.'
+  - offset: "0xa3524f"
+    name: "PT-36 0xa3524f"
+    expected: 'Aumenta um stat e reduz outro.'
+  - offset: "0xa3526f"
+    name: "PT-36 0xa3526f"
+    expected: 'Cura status na chuva.'
+  - offset: "0xa3528e"
+    name: "PT-36 0xa3528e"
+    expected: 'Pode curar status de um aliado.'
+  - offset: "0xa352af"
+    name: "PT-36 0xa352af"
+    expected: 'Aumenta evasão no granizo.'
+  - offset: "0xa352c4"
+    name: "PT-36 0xa352c4"
+    expected: 'Aumenta evasão se confuso.'
+  - offset: "0xa352dd"
+    name: "PT-36 0xa352dd"
+    expected: 'Invoca granizo na batalha.'
+  - offset: "0xa352fc"
+    name: "PT-36 0xa352fc"
+    expected: 'Aumenta Velocidade com status.'
+  - offset: "0xa35314"
+    name: "PT-36 0xa35314"
+    expected: 'Golpes de Planta aumentam Ataque.'
+  - offset: "0xa35333"
+    name: "PT-36 0xa35333"
+    expected: 'Imune ao clima e a pós.'
+  - offset: "0xa35351"
+    name: "PT-36 0xa35351"
+    expected: 'Só recebe dano de ataques.'
+  - offset: "0xa3536a"
+    name: "PT-36 0xa3536a"
+    expected: 'Evita golpes de bolas e bombas.'
+  - offset: "0xa35386"
+    name: "PT-36 0xa35386"
+    expected: 'Prioriza movimentos Voadores.'
+  - offset: "0xa353a3"
+    name: "PT-36 0xa353a3"
+    expected: 'Nocautes aumentam Ataque.'
+  - offset: "0xa353bb"
+    name: "PT-36 0xa353bb"
+    expected: 'Causa dano ao alvo se nocauteado.'
+  - offset: "0xa353d5"
+    name: "PT-36 0xa353d5"
+    expected: 'Pode desativar movimento do alvo.'
+  - offset: "0xa353ef"
+    name: "PT-36 0xa353ef"
+    expected: 'Atingido: Velocidade do alvo -.'
+  - offset: "0xa3540e"
+    name: "PT-36 0xa3540e"
+    expected: 'Espalha-se por contato.'
+  - offset: "0xa35434"
+    name: "PT-36 0xa35434"
+    expected: 'Velocidade aumenta sob areia.'
+  - offset: "0xa35451"
+    name: "PT-36 0xa35451"
+    expected: 'Agir por último aumenta potência.'
+  - offset: "0xa3546b"
+    name: "PT-36 0xa3546b"
+    expected: 'Todos os movimentos acertam.'
+  - offset: "0xa35488"
+    name: "PT-36 0xa35488"
+    expected: 'Fortalece golpes de aura e pulso.'
+  - offset: "0xa354a5"
+    name: "PT-36 0xa354a5"
+    expected: 'Fortalece movimentos de contato.'
+  - offset: "0xa354c5"
+    name: "PT-36 0xa354c5"
+    expected: 'Fortalece movimentos de mordida.'
+  - offset: "0xa354da"
+    name: "PT-36 0xa354da"
+    expected: 'Mais precisão para si e aliado.'
+  - offset: "0xa354fa"
+    name: "PT-36 0xa354fa"
+    expected: 'Atrai Água e aumenta Atq. Esp.'
+  - offset: "0xa35518"
+    name: "PT-36 0xa35518"
+    expected: 'Fortalece movimentos Sombrios.'
+  - offset: "0xa35533"
+    name: "PT-36 0xa35533"
+    expected: 'Fortalece movimentos de Fada.'
+  - offset: "0xa3554f"
+    name: "PT-36 0xa3554f"
+    expected: 'Inverte Habilidades de aura.'
+  - offset: "0xa35568"
+    name: "PT-36 0xa35568"
+    expected: 'Movimentos Normais viram Gelo.'
+  - offset: "0xa35581"
+    name: "PT-36 0xa35581"
+    expected: 'Movimentos Normais viram Fada.'
+  - offset: "0xa3559c"
+    name: "PT-36 0xa3559c"
+    expected: 'Movimentos Normais viram Voador.'
+  - offset: "0xa355b8"
+    name: "PT-36 0xa355b8"
+    expected: 'Todos os movimentos viram Normal.'
+  - offset: "0xa355d6"
+    name: "PT-36 0xa355d6"
+    expected: 'Dobra Velocidade se perder item.'
+  - offset: "0xa355f5"
+    name: "PT-36 0xa355f5"
+    expected: 'Dobra mudanças de stats.'
+  - offset: "0xa3560b"
+    name: "PT-36 0xa3560b"
+    expected: 'Ignora mudanças de stats do alvo.'
+  - offset: "0xa35627"
+    name: "PT-36 0xa35627"
+    expected: 'Stats reduzidos elevam Ataque.'
+  - offset: "0xa35645"
+    name: "PT-36 0xa35645"
+    expected: 'Stats reduzidos elevam Atq. Esp.'
+  - offset: "0xa35664"
+    name: "PT-36 0xa35664"
+    expected: 'Desiste com metade dos PS.'
+  - offset: "0xa35679"
+    name: "PT-36 0xa35679"
+    expected: 'Demora a ganhar ritmo.'
+  - offset: "0xa35695"
+    name: "PT-36 0xa35695"
+    expected: 'Ataque aumenta se envenenado.'
+  - offset: "0xa356b1"
+    name: "PT-36 0xa356b1"
+    expected: 'Atq. Esp. aumenta se queimado.'
+  - offset: "0xa356cc"
+    name: "PT-36 0xa356cc"
+    expected: 'Reduz dano físico à metade.'
+  - offset: "0xa356e4"
+    name: "PT-36 0xa356e4"
+    expected: 'Evita mais movimentos de status.'
+  - offset: "0xa356fd"
+    name: "PT-36 0xa356fd"
+    expected: 'Tipo muda conforme movimento.'
+  - offset: "0xa35719"
+    name: "PT-36 0xa35719"
+    expected: 'Dá segundo acerto mais fraco.'
+  - offset: "0xa35738"
+    name: "PT-36 0xa35738"
+    expected: 'Movimentos ignoram Habilidades.'
+  - offset: "0xa35750"
+    name: "PT-36 0xa35750"
+    expected: 'Transforma-se sob 50% dos PS.'
+  - offset: "0xa3576a"
+    name: "PT-36 0xa3576a"
+    expected: 'Transforma-se após um nocaute.'
+  - offset: "0xa35781"
+    name: "PT-36 0xa35781"
+    expected: 'Nocautes elevam o maior stat.'
+  - offset: "0xa3579f"
+    name: "PT-36 0xa3579f"
+    expected: 'Pode envenenar qualquer tipo.'
+  - offset: "0xa357b4"
+    name: "PT-36 0xa357b4"
+    expected: 'Recebe um golpe sem dano.'
+  - offset: "0xa357d2"
+    name: "PT-36 0xa357d2"
+    expected: 'Sai da batalha sob 50% dos PS.'
+  - offset: "0xa357ee"
+    name: "PT-36 0xa357ee"
+    expected: 'Contato: dano /2. Fraco a Fogo.'
+  - offset: "0xa35825"
+    name: "PT-36 0xa35825"
+    expected: 'Transforma-se sob 50% dos PS.'
+  - offset: "0xa3583f"
+    name: "PT-36 0xa3583f"
+    expected: 'Tipo muda conforme Memory.'
+  - offset: "0xa3585d"
+    name: "PT-36 0xa3585d"
+    expected: 'Forma cardume com PS altos.'
+  - offset: "0xa35876"
+    name: "PT-36 0xa35876"
+    expected: 'Reduz dano com PS cheios.'
+  - offset: "0xa35891"
+    name: "PT-36 0xa35891"
+    expected: 'Baixa escudos sob 50% dos PS.'
+  - offset: "0xa358af"
+    name: "PT-36 0xa358af"
+    expected: 'Aumenta Velocidade no granizo.'
+  - offset: "0xa358c5"
+    name: "PT-36 0xa358c5"
+    expected: 'Nocautes aumentam Atq. Esp.'
+  - offset: "0xa358de"
+    name: "PT-36 0xa358de"
+    expected: 'Ser atingido aumenta Defesa.'
+  - offset: "0xa358fb"
+    name: "PT-36 0xa358fb"
+    expected: 'Fortalece movimentos de Aço.'
+  - offset: "0xa35917"
+    name: "PT-36 0xa35917"
+    expected: 'Prioriza movimentos de cura.'
+  - offset: "0xa35938"
+    name: "PT-36 0xa35938"
+    expected: 'Água +; impede queimadura.'
+  - offset: "0xa3595a"
+    name: "PT-36 0xa3595a"
+    expected: 'Golpes de Água aumentam Defesa.'
+  - offset: "0xa35979"
+    name: "PT-36 0xa35979"
+    expected: 'Costuma atacar por último.'
+  - offset: "0xa3598d"
+    name: "PT-36 0xa3598d"
+    expected: 'Tipo muda conforme Plate.'
+  - offset: "0xa359af"
+    name: "PT-36 0xa359af"
+    expected: 'Cria Electric Terrain.'
+  - offset: "0xa359cc"
+    name: "PT-36 0xa359cc"
+    expected: 'Cria Grassy Terrain.'
+  - offset: "0xa359e6"
+    name: "PT-36 0xa359e6"
+    expected: 'Cria Misty Terrain.'
+  - offset: "0xa359ff"
+    name: "PT-36 0xa359ff"
+    expected: 'Cria Psychic Terrain.'
+  - offset: "0xa35a1a"
+    name: "PT-36 0xa35a1a"
+    expected: 'Electric Terrain eleva Velocidade.'
+  - offset: "0xa35a3c"
+    name: "PT-36 0xa35a3c"
+    expected: 'Grassy Terrain aumenta Defesa.'
+  - offset: "0xa35a5b"
+    name: "PT-36 0xa35a5b"
+    expected: 'Crítico maximiza Ataque.'
+  - offset: "0xa35a7e"
+    name: "PT-36 0xa35a7e"
+    expected: 'Detecta movimentos supereficazes.'
+  - offset: "0xa35a9c"
+    name: "PT-36 0xa35a9c"
+    expected: 'Alerta sobre maior golpe do alvo.'
+  - offset: "0xa35abf"
+    name: "PT-36 0xa35abf"
+    expected: 'Revela item segurado pelo alvo.'
+  - offset: "0xa35adc"
+    name: "PT-36 0xa35adc"
+    expected: 'Inverte mudanças de stats.'
+  - offset: "0xa35af3"
+    name: "PT-36 0xa35af3"
+    expected: 'Impede que o alvo coma Berries.'
+  - offset: "0xa35b16"
+    name: "PT-36 0xa35b16"
+    expected: 'Atingido: Velocidade +, Defesa -.'
+  - offset: "0xa35b36"
+    name: "PT-36 0xa35b36"
+    expected: 'Dobra o peso.'
+  - offset: "0xa35b46"
+    name: "PT-36 0xa35b46"
+    expected: 'Reduz o peso à metade.'
+  - offset: "0xa35b55"
+    name: "PT-36 0xa35b55"
+    expected: 'Hesitar aumenta Velocidade.'
+  - offset: "0xa35b6d"
+    name: "PT-36 0xa35b6d"
+    expected: 'Transforma-se ao entrar.'
+  - offset: "0xa35b8e"
+    name: "PT-36 0xa35b8e"
+    expected: 'Golpes Sombrios aumentam Ataque.'
+  - offset: "0xa35bab"
+    name: "PT-36 0xa35bab"
+    expected: 'Tipos temidos elevam Velocidade.'
+  - offset: "0xa35bc9"
+    name: "PT-36 0xa35bc9"
+    expected: 'Críticos em alvos envenenados.'
+  - offset: "0xa35be8"
+    name: "PT-36 0xa35be8"
+    expected: 'Protege de problemas mentais.'
+  - offset: "0xa35c0a"
+    name: "PT-36 0xa35c0a"
+    expected: 'Protege tipos Planta de status.'
+  - offset: "0xa35c2c"
+    name: "PT-36 0xa35c2c"
+    expected: 'Protege contra status sob sol.'
+  - offset: "0xa35c4d"
+    name: "PT-36 0xa35c4d"
+    expected: 'Não pode usar itens.'
+  - offset: "0xa35c5e"
+    name: "PT-36 0xa35c5e"
+    expected: 'Fortalece a equipe sob sol.'
+  - offset: "0xa35c79"
+    name: "PT-36 0xa35c79"
+    expected: 'Causa dano a alvos dormindo.'
+  - offset: "0xa35c8e"
+    name: "PT-36 0xa35c8e"
+    expected: 'Se atingido, rouba item do alvo.'
+  - offset: "0xa35caa"
+    name: "PT-36 0xa35caa"
+    expected: 'Enfraquece golpes sem contato.'
+  - offset: "0xa35cc5"
+    name: "PT-36 0xa35cc5"
+    expected: 'Pode envenenar alvo por contato.'
+  - offset: "0xa35ce0"
+    name: "PT-36 0xa35ce0"
+    expected: 'Pode roubar item após atacar.'
+  - offset: "0xa35d03"
+    name: "PT-36 0xa35d03"
+    expected: 'Muda de forma ao atacar.'
+  - offset: "0xa35d21"
+    name: "PT-36 0xa35d21"
+    expected: 'Invoca chuva torrencial.'
+  - offset: "0xa35d3c"
+    name: "PT-36 0xa35d3c"
+    expected: 'Invoca sol extremamente forte.'
+  - offset: "0xa35d5e"
+    name: "PT-36 0xa35d5e"
+    expected: 'Invoca corrente de ar misteriosa.'
+  - offset: "0xa35d80"
+    name: "PT-36 0xa35d80"
+    expected: 'Atq. Esp. aumenta sob 50% dos PS.'
+  - offset: "0xa35d9b"
+    name: "PT-36 0xa35d9b"
+    expected: 'Nunca faz contato.'
+  - offset: "0xa35db0"
+    name: "PT-36 0xa35db0"
+    expected: 'Movimentos sonoros viram Água.'
+  - offset: "0xa35de6"
+    name: "PT-36 0xa35de6"
+    expected: 'Causa dano ao alvo se nocauteado.'
+  - offset: "0xa35e00"
+    name: "PT-36 0xa35e00"
+    expected: 'Bloqueia movimentos prioritários.'
+  - offset: "0xa35e17"
+    name: "PT-36 0xa35e17"
+    expected: 'Come Berries mais cedo.'
+  - offset: "0xa35e2b"
+    name: "PT-36 0xa35e2b"
+    expected: 'Recolhe Honey após a batalha.'
+  - offset: "0xa35e48"
+    name: "PT-36 0xa35e48"
+    expected: 'Reduz dano causado aos aliados.'
+  - offset: "0xa35e67"
+    name: "PT-36 0xa35e67"
+    expected: 'Pode recuperar Berries consumidas.'
+  - offset: "0xa35e84"
+    name: "PT-36 0xa35e84"
+    expected: 'Protege de movimentos de aliados.'
+  - offset: "0xa35ea1"
+    name: "PT-36 0xa35ea1"
+    expected: 'Entra na batalha disfarçado.'
+  - offset: "0xa35eba"
+    name: "PT-36 0xa35eba"
+    expected: 'Comer Berries recupera PS.'
+  - offset: "0xa35ed6"
+    name: "PT-36 0xa35ed6"
+    expected: 'Dá item ao aliado após o uso.'
+  - offset: "0xa35ef4"
+    name: "PT-36 0xa35ef4"
+    expected: 'Dobra dano em quem entra.'
+  - offset: "0xa35f14"
+    name: "PT-36 0xa35f14"
+    expected: 'Age como se estivesse dormindo.'
+  - offset: "0xa35f27"
+    name: "PT-36 0xa35f27"
+    expected: 'Copia movimentos de dança.'
+  - offset: "0xa35f3b"
+    name: "PT-36 0xa35f3b"
+    expected: 'Fortalece aliados.'
+  - offset: "0xa35f4d"
+    name: "PT-36 0xa35f4d"
+    expected: 'Habilidade de aliado nocauteado.'
+  - offset: "0xa35f6f"
+    name: "PT-36 0xa35f6f"
+    expected: 'Fortalece golpes supereficazes.'
+  - offset: "0xa35f8f"
+    name: "PT-36 0xa35f8f"
+    expected: 'Movimentos Normais viram Elétrico.'
+  - offset: "0xa35fad"
+    name: "PT-36 0xa35fad"
+    expected: 'Aumenta Ataque ao entrar.'
+  - offset: "0xa35fc2"
+    name: "PT-36 0xa35fc2"
+    expected: 'Aumenta Defesa ao entrar.'
+  - offset: "0xa35fd8"
+    name: "PT-36 0xa35fd8"
+    expected: 'Busca a primeira Poké Ball falha.'
+  - offset: "0xa35ff8"
+    name: "PT-36 0xa35ff8"
+    expected: 'Atingido: Velocidade de todos -.'
+  - offset: "0xa3601a"
+    name: "PT-36 0xa3601a"
+    expected: 'Devolve reduções de stats.'
+  - offset: "0xa36037"
+    name: "PT-36 0xa36037"
+    expected: 'Cospe presa se atingido após nado.'
+  - offset: "0xa36057"
+    name: "PT-36 0xa36057"
+    expected: 'Movimentos ignoram redireção.'
+  - offset: "0xa36071"
+    name: "PT-36 0xa36071"
+    expected: 'Fogo e Água elevam Velocidade.'
+  - offset: "0xa36092"
+    name: "PT-36 0xa36092"
+    expected: 'Sons: mais potência e resistência.'
+  - offset: "0xa360af"
+    name: "PT-36 0xa360af"
+    expected: 'Se atingido, invoca areia.'
+  - offset: "0xa360cd"
+    name: "PT-36 0xa360cd"
+    expected: 'Reduz dano especial à metade.'
+  - offset: "0xa360e4"
+    name: "PT-36 0xa360e4"
+    expected: 'Dobra efeitos de Berries.'
+  - offset: "0xa360fb"
+    name: "PT-36 0xa360fb"
+    expected: 'Escudo físico; granizo o renova.'
+  - offset: "0xa3611b"
+    name: "PT-36 0xa3611b"
+    expected: 'Fortalece movimentos de aliados.'
+  - offset: "0xa36131"
+    name: "PT-36 0xa36131"
+    expected: 'Tipo muda conforme terreno.'
+  - offset: "0xa3614c"
+    name: "PT-36 0xa3614c"
+    expected: 'Remove barreiras ao entrar.'
+  - offset: "0xa3616a"
+    name: "PT-36 0xa3616a"
+    expected: 'Fortalece Aço seu e de aliados.'
+  - offset: "0xa3618b"
+    name: "PT-36 0xa3618b"
+    expected: 'Contato: contagem para nocaute.'
+  - offset: "0xa361ac"
+    name: "PT-36 0xa361ac"
+    expected: 'Troca Habilidades por contato.'
+  - offset: "0xa361c9"
+    name: "PT-36 0xa361c9"
+    expected: 'Mais Ataque, usa um só movimento.'
+  - offset: "0xa361ea"
+    name: "PT-36 0xa361ea"
+    expected: 'Anula todas as Habilidades.'
+  - offset: "0xa36207"
+    name: "PT-36 0xa36207"
+    expected: 'Protege equipe contra veneno.'
+  - offset: "0xa36222"
+    name: "PT-36 0xa36222"
+    expected: 'Muda de forma a cada turno.'
+  - offset: "0xa3623a"
+    name: "PT-36 0xa3623a"
+    expected: 'Golpes de contato ignoram Protect.'
+  - offset: "0xa36258"
+    name: "PT-36 0xa36258"
+    expected: 'Fortalece movimentos de Dragão.'
+  - offset: "0xa36275"
+    name: "PT-36 0xa36275"
+    expected: 'Fortalece movimentos Elétricos.'
+  - offset: "0xa36294"
+    name: "PT-36 0xa36294"
+    expected: 'Nocautes aumentam Atq. Esp.'
+  - offset: "0xa362ad"
+    name: "PT-36 0xa362ad"
+    expected: 'Unnerve e Grim Neigh juntos.'
+  - offset: "0xa362ca"
+    name: "PT-36 0xa362ca"
+    expected: 'Unnerve e Chilling Neigh juntos.'
+  - offset: "0xa362eb"
+    name: "PT-36 0xa362eb"
+    expected: 'Às vezes age mais rápido.'
+  - offset: "0xa36304"
+    name: "PT-36 0xa36304"
+    expected: 'Anula mudanças de stats do aliado.'
+  - offset: "0xa36320"
+    name: "PT-36 0xa36320"
+    expected: 'Anula Água para elevar Atq. Esp.'
+  - offset: "0xa36343"
+    name: "PT-36 0xa36343"
+    expected: 'Prioriza movimentos de Planta.'
+  - offset: "0xa3635f"
+    name: "PT-36 0xa3635f"
+    expected: 'Prioriza movimentos de cauda.'
+  - offset: "0xa36375"
+    name: "PT-36 0xa36375"
+    expected: 'Brocas dão acertos críticos.'
+  - offset: "0xa36398"
+    name: "PT-36 0xa36398"
+    expected: '-------'
+  - offset: "0xa363a9"
+    name: "PT-36 0xa363a9"
+    expected: 'Stench'
+  - offset: "0xa363ba"
+    name: "PT-36 0xa363ba"
+    expected: 'Drizzle'
+  - offset: "0xa363cb"
+    name: "PT-36 0xa363cb"
+    expected: 'Speed Boost'
+  - offset: "0xa363dc"
+    name: "PT-36 0xa363dc"
+    expected: 'Battle Armor'
+  - offset: "0xa363ed"
+    name: "PT-36 0xa363ed"
+    expected: 'Sturdy'
+  - offset: "0xa363fe"
+    name: "PT-36 0xa363fe"
+    expected: 'Damp'
+  - offset: "0xa3640f"
+    name: "PT-36 0xa3640f"
+    expected: 'Limber'
+  - offset: "0xa36420"
+    name: "PT-36 0xa36420"
+    expected: 'Sand Veil'
+  - offset: "0xa36431"
+    name: "PT-36 0xa36431"
+    expected: 'Static'
+  - offset: "0xa36442"
+    name: "PT-36 0xa36442"
+    expected: 'Volt Absorb'
+  - offset: "0xa36453"
+    name: "PT-36 0xa36453"
+    expected: 'Water Absorb'
+  - offset: "0xa36464"
+    name: "PT-36 0xa36464"
+    expected: 'Oblivious'
+  - offset: "0xa36475"
+    name: "PT-36 0xa36475"
+    expected: 'Cloud Nine'
+  - offset: "0xa36486"
+    name: "PT-36 0xa36486"
+    expected: 'Compound Eyes'
+  - offset: "0xa36497"
+    name: "PT-36 0xa36497"
+    expected: 'Insomnia'
+  - offset: "0xa364a8"
+    name: "PT-36 0xa364a8"
+    expected: 'Color Change'
+  - offset: "0xa364b9"
+    name: "PT-36 0xa364b9"
+    expected: 'Immunity'
+  - offset: "0xa364ca"
+    name: "PT-36 0xa364ca"
+    expected: 'Flash Fire'
+  - offset: "0xa364db"
+    name: "PT-36 0xa364db"
+    expected: 'Shield Dust'
+  - offset: "0xa364ec"
+    name: "PT-36 0xa364ec"
+    expected: 'Own Tempo'
+  - offset: "0xa364fd"
+    name: "PT-36 0xa364fd"
+    expected: 'Suction Cups'
+  - offset: "0xa3650e"
+    name: "PT-36 0xa3650e"
+    expected: 'Intimidate'
+  - offset: "0xa3651f"
+    name: "PT-36 0xa3651f"
+    expected: 'Shadow Tag'
+  - offset: "0xa36530"
+    name: "PT-36 0xa36530"
+    expected: 'Rough Skin'
+  - offset: "0xa36541"
+    name: "PT-36 0xa36541"
+    expected: 'Wonder Guard'
+  - offset: "0xa36552"
+    name: "PT-36 0xa36552"
+    expected: 'Levitate'
+  - offset: "0xa36563"
+    name: "PT-36 0xa36563"
+    expected: 'Effect Spore'
+  - offset: "0xa36574"
+    name: "PT-36 0xa36574"
+    expected: 'Synchronize'
+  - offset: "0xa36585"
+    name: "PT-36 0xa36585"
+    expected: 'Clear Body'
+  - offset: "0xa36596"
+    name: "PT-36 0xa36596"
+    expected: 'Natural Cure'
+  - offset: "0xa365a7"
+    name: "PT-36 0xa365a7"
+    expected: 'Lightning Rod'
+  - offset: "0xa365b8"
+    name: "PT-36 0xa365b8"
+    expected: 'Serene Grace'
+  - offset: "0xa365c9"
+    name: "PT-36 0xa365c9"
+    expected: 'Swift Swim'
+  - offset: "0xa365da"
+    name: "PT-36 0xa365da"
+    expected: 'Chlorophyll'
+  - offset: "0xa365eb"
+    name: "PT-36 0xa365eb"
+    expected: 'Illuminate'
+  - offset: "0xa365fc"
+    name: "PT-36 0xa365fc"
+    expected: 'Trace'
+  - offset: "0xa3660d"
+    name: "PT-36 0xa3660d"
+    expected: 'Huge Power'
+  - offset: "0xa3661e"
+    name: "PT-36 0xa3661e"
+    expected: 'Poison Point'
+  - offset: "0xa3662f"
+    name: "PT-36 0xa3662f"
+    expected: 'Inner Focus'
+  - offset: "0xa36640"
+    name: "PT-36 0xa36640"
+    expected: 'Magma Armor'
+  - offset: "0xa36651"
+    name: "PT-36 0xa36651"
+    expected: 'Water Veil'
+  - offset: "0xa36662"
+    name: "PT-36 0xa36662"
+    expected: 'Magnet Pull'
+  - offset: "0xa36673"
+    name: "PT-36 0xa36673"
+    expected: 'Soundproof'
+  - offset: "0xa36684"
+    name: "PT-36 0xa36684"
+    expected: 'Rain Dish'
+  - offset: "0xa36695"
+    name: "PT-36 0xa36695"
+    expected: 'Sand Stream'
+  - offset: "0xa366a6"
+    name: "PT-36 0xa366a6"
+    expected: 'Pressure'
+  - offset: "0xa366b7"
+    name: "PT-36 0xa366b7"
+    expected: 'Thick Fat'
+  - offset: "0xa366c8"
+    name: "PT-36 0xa366c8"
+    expected: 'Early Bird'
+  - offset: "0xa366d9"
+    name: "PT-36 0xa366d9"
+    expected: 'Flame Body'
+  - offset: "0xa366ea"
+    name: "PT-36 0xa366ea"
+    expected: 'Run Away'
+  - offset: "0xa366fb"
+    name: "PT-36 0xa366fb"
+    expected: 'Keen Eye'
+  - offset: "0xa3670c"
+    name: "PT-36 0xa3670c"
+    expected: 'Hyper Cutter'
+  - offset: "0xa3671d"
+    name: "PT-36 0xa3671d"
+    expected: 'Pickup'
+  - offset: "0xa3672e"
+    name: "PT-36 0xa3672e"
+    expected: 'Truant'
+  - offset: "0xa3673f"
+    name: "PT-36 0xa3673f"
+    expected: 'Hustle'
+  - offset: "0xa36750"
+    name: "PT-36 0xa36750"
+    expected: 'Cute Charm'
+  - offset: "0xa36761"
+    name: "PT-36 0xa36761"
+    expected: 'Plus'
+  - offset: "0xa36772"
+    name: "PT-36 0xa36772"
+    expected: 'Minus'
+  - offset: "0xa36783"
+    name: "PT-36 0xa36783"
+    expected: 'Forecast'
+  - offset: "0xa36794"
+    name: "PT-36 0xa36794"
+    expected: 'Sticky Hold'
+  - offset: "0xa367a5"
+    name: "PT-36 0xa367a5"
+    expected: 'Shed Skin'
+  - offset: "0xa367b6"
+    name: "PT-36 0xa367b6"
+    expected: 'Guts'
+  - offset: "0xa367c7"
+    name: "PT-36 0xa367c7"
+    expected: 'Marvel Scale'
+  - offset: "0xa367d8"
+    name: "PT-36 0xa367d8"
+    expected: 'Liquid Ooze'
+  - offset: "0xa367e9"
+    name: "PT-36 0xa367e9"
+    expected: 'Supercrescimento'
+  - offset: "0xa367fa"
+    name: "PT-36 0xa367fa"
+    expected: 'Incêndio'
+  - offset: "0xa3680b"
+    name: "PT-36 0xa3680b"
+    expected: 'Dilúvio'
+  - offset: "0xa3681c"
+    name: "PT-36 0xa3681c"
+    expected: 'Swarm'
+  - offset: "0xa3682d"
+    name: "PT-36 0xa3682d"
+    expected: 'Rock Head'
+  - offset: "0xa3683e"
+    name: "PT-36 0xa3683e"
+    expected: 'Drought'
+  - offset: "0xa3684f"
+    name: "PT-36 0xa3684f"
+    expected: 'Arena Trap'
+  - offset: "0xa36860"
+    name: "PT-36 0xa36860"
+    expected: 'Transistor'
+  - offset: "0xa36871"
+    name: "PT-36 0xa36871"
+    expected: 'Dragon''s Maw'
+  - offset: "0xa36882"
+    name: "PT-36 0xa36882"
+    expected: 'Neutralize Gas'
+  - offset: "0xa36893"
+    name: "PT-36 0xa36893"
+    expected: 'Shell Armor'
+  - offset: "0xa368a4"
+    name: "PT-36 0xa368a4"
+    expected: 'Hunger Switch'
+  - offset: "0xa368b5"
+    name: "PT-36 0xa368b5"
+    expected: 'Unused'
+  - offset: "0xa368c6"
+    name: "PT-36 0xa368c6"
+    expected: 'Sweet Veil'
+  - offset: "0xa368d7"
+    name: "PT-36 0xa368d7"
+    expected: 'Skill Link'
+  - offset: "0xa368e8"
+    name: "PT-36 0xa368e8"
+    expected: 'Motor Drive'
+  - offset: "0xa368f9"
+    name: "PT-36 0xa368f9"
+    expected: 'Multiscale'
+  - offset: "0xa3690a"
+    name: "PT-36 0xa3690a"
+    expected: 'Technician'
+  - offset: "0xa3691b"
+    name: "PT-36 0xa3691b"
+    expected: 'Scrappy'
+  - offset: "0xa3692c"
+    name: "PT-36 0xa3692c"
+    expected: 'Super Luck'
+  - offset: "0xa3693d"
+    name: "PT-36 0xa3693d"
+    expected: 'Sniper'
+  - offset: "0xa3694e"
+    name: "PT-36 0xa3694e"
+    expected: 'Regenerator'
+  - offset: "0xa3695f"
+    name: "PT-36 0xa3695f"
+    expected: 'Prankster'
+  - offset: "0xa36970"
+    name: "PT-36 0xa36970"
+    expected: 'Adaptability'
+  - offset: "0xa36981"
+    name: "PT-36 0xa36981"
+    expected: 'Big Pecks'
+  - offset: "0xa36992"
+    name: "PT-36 0xa36992"
+    expected: 'Magic Bounce'
+  - offset: "0xa369a3"
+    name: "PT-36 0xa369a3"
+    expected: 'Reckless'
+  - offset: "0xa369b4"
+    name: "PT-36 0xa369b4"
+    expected: 'Sheer Force'
+  - offset: "0xa369c5"
+    name: "PT-36 0xa369c5"
+    expected: 'Iron Fist'
+  - offset: "0xa369d6"
+    name: "PT-36 0xa369d6"
+    expected: 'Rivalry'
