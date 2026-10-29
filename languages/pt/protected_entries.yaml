@@ -5246,3 +5246,783 @@ entries:
   - offset: "0x3fbea1"
     name: "PT-09 0x3fbea1"
     expected: '<0xFD><0x0F> já tem\num Substitute!'
+  - offset: "0x3fbebe"
+    name: "PT-10 0x3fbebe"
+    expected: 'O substituto sofreu dano\npor <0xFD><0x10>!<0xFB>'
+  - offset: "0x3fbee2"
+    name: "PT-10 0x3fbee2"
+    expected: 'O substituto de <0xFD><0x10>\ndesapareceu!<0xFB>'
+  - offset: "0x3fbefa"
+    name: "PT-10 0x3fbefa"
+    expected: '<0xFD><0x0F> precisa\nrecarregar!'
+  - offset: "0x3fbf0c"
+    name: "PT-10 0x3fbf0c"
+    expected: 'A fúria de <0xFD><0x10>\nestá crescendo!'
+  - offset: "0x3fbf23"
+    name: "PT-10 0x3fbf23"
+    expected: '<0xFD><0x10>: <0xFD><0x00>\nfoi desativado!'
+  - offset: "0x3fbf39"
+    name: "PT-10 0x3fbf39"
+    expected: '<0xFD><0x0F> não está\nmais desativado!'
+  - offset: "0x3fbf51"
+    name: "PT-10 0x3fbf51"
+    expected: '<0xFD><0x10> recebeu\num Encore!'
+  - offset: "0x3fbf63"
+    name: "PT-10 0x3fbf63"
+    expected: 'O Encore de <0xFD><0x0F>\nacabou!'
+  - offset: "0x3fbf76"
+    name: "PT-10 0x3fbf76"
+    expected: '<0xFD><0x0F> mirou\nem <0xFD><0x10>!'
+  - offset: "0x3fbf89"
+    name: "PT-10 0x3fbf89"
+    expected: '<0xFD><0x0F> copiou\n<0xFD><0x00>!'
+  - offset: "0x3fbf99"
+    name: "PT-10 0x3fbf99"
+    expected: '<0xFD><0x0F> tenta levar\no inimigo consigo!'
+  - offset: "0x3fbfbf"
+    name: "PT-10 0x3fbfbf"
+    expected: '<0xFD><0x10> levou\n<0xFD><0x0F> consigo!'
+  - offset: "0x3fbfd3"
+    name: "PT-10 0x3fbfd3"
+    expected: 'Para <0xFD><0x10>,\n<0xFD><0x00> perdeu <0xFD><0x01> PP!'
+  - offset: "0x3fbfea"
+    name: "PT-10 0x3fbfea"
+    expected: '<0xFD><0x0F> roubou de\n<0xFD><0x10> o item <0xFD><0x16>!'
+  - offset: "0x3fc011"
+    name: "PT-10 0x3fc011"
+    expected: '<0xFD><0x10> caiu em\num pesadelo!'
+  - offset: "0x3fc02b"
+    name: "PT-10 0x3fc02b"
+    expected: '<0xFD><0x0F> está preso\nnum pesadelo!'
+  - offset: "0x3fc048"
+    name: "PT-10 0x3fc048"
+    expected: '<0xFD><0x0F> perdeu PS\ne amaldiçoou<0xFA><0xFD><0x10>!'
+  - offset: "0x3fc072"
+    name: "PT-10 0x3fc072"
+    expected: '<0xFD><0x0F> sofre\ncom a maldição!'
+  - offset: "0x3fc090"
+    name: "PT-10 0x3fc090"
+    expected: 'Spikes espalhados ao redor\nda equipe adversária!'
+  - offset: "0x3fc0dc"
+    name: "PT-10 0x3fc0dc"
+    expected: '<0xFD><0x0F> identificou\n<0xFD><0x10>!'
+  - offset: "0x3fc0ee"
+    name: "PT-10 0x3fc0ee"
+    expected: 'A contagem de <0xFD><0x0F>\ncaiu para <0xFD><0x00>!'
+  - offset: "0x3fc10c"
+    name: "PT-10 0x3fc10c"
+    expected: '<0xFD><0x0F> se\npreparou!'
+  - offset: "0x3fc11e"
+    name: "PT-10 0x3fc11e"
+    expected: '<0xFD><0x10> resistiu\nao golpe!'
+  - offset: "0x3fc132"
+    name: "PT-10 0x3fc132"
+    expected: 'Magnitude <0xFD><0x00>!'
+  - offset: "0x3fc140"
+    name: "PT-10 0x3fc140"
+    expected: '<0xFD><0x0F> perdeu PS\ne maximizou seu Ataque!'
+  - offset: "0x3fc168"
+    name: "PT-10 0x3fc168"
+    expected: '<0xFD><0x0F> copiou de\n<0xFD><0x10> as mudanças de stats!'
+  - offset: "0x3fc185"
+    name: "PT-10 0x3fc185"
+    expected: '<0xFD><0x0F> se livrou de\n<0xFD><0x10>: <0xFD><0x00>!'
+  - offset: "0x3fc19d"
+    name: "PT-10 0x3fc19d"
+    expected: '<0xFD><0x0F> se livrou\nde Leech Seed!'
+  - offset: "0x3fc1c6"
+    name: "PT-10 0x3fc1c6"
+    expected: '<0xFD><0x0F> fugiu\nda batalha!'
+  - offset: "0x3fc1db"
+    name: "PT-10 0x3fc1db"
+    expected: '<0xFD><0x0F> previu\num ataque!'
+  - offset: "0x3fc1f1"
+    name: "PT-10 0x3fc1f1"
+    expected: '<0xFD><0x10> sofreu\no ataque <0xFD><0x00>!'
+  - offset: "0x3fc208"
+    name: "PT-10 0x3fc208"
+    expected: '<0xFD><0x0F> escolheu\n<0xFD><0x14> como destino!'
+  - offset: "0x3fc224"
+    name: "PT-10 0x3fc224"
+    expected: 'Ataque de <0xFD><0x00>!'
+  - offset: "0x3fc231"
+    name: "PT-10 0x3fc231"
+    expected: '<0xFD><0x10> virou\no centro das atenções!'
+  - offset: "0x3fc254"
+    name: "PT-10 0x3fc254"
+    expected: '<0xFD><0x0F> começou\na acumular energia!'
+  - offset: "0x3fc26d"
+    name: "PT-10 0x3fc26d"
+    expected: 'Nature Power virou\n<0xFD><0x14>!'
+  - offset: "0x3fc28a"
+    name: "PT-10 0x3fc28a"
+    expected: 'O estado de <0xFD><0x0F>\nvoltou ao normal!'
+  - offset: "0x3fc2aa"
+    name: "PT-10 0x3fc2aa"
+    expected: '<0xFD><0x10> sofreu\num Torment!'
+  - offset: "0x3fc2c7"
+    name: "PT-10 0x3fc2c7"
+    expected: '<0xFD><0x0F> está\nse concentrando!'
+  - offset: "0x3fc2e3"
+    name: "PT-10 0x3fc2e3"
+    expected: '<0xFD><0x10> caiu\nno Taunt!'
+  - offset: "0x3fc2fa"
+    name: "PT-10 0x3fc2fa"
+    expected: '<0xFD><0x0F> vai\najudar <0xFD><0x10>!'
+  - offset: "0x3fc312"
+    name: "PT-10 0x3fc312"
+    expected: '<0xFD><0x0F> trocou\nitens com o oponente!'
+  - offset: "0x3fc337"
+    name: "PT-10 0x3fc337"
+    expected: '<0xFD><0x0F> obteve\n<0xFD><0x00>.'
+  - offset: "0x3fc347"
+    name: "PT-10 0x3fc347"
+    expected: '<0xFD><0x10> obteve\n<0xFD><0x01>.'
+  - offset: "0x3fc357"
+    name: "PT-10 0x3fc357"
+    expected: '<0xFD><0x0F> obteve\n<0xFD><0x00>.<0xFB><0xFD><0x10> obteve\n<0xFD><0x01>.'
+  - offset: "0x3fc377"
+    name: "PT-10 0x3fc377"
+    expected: '<0xFD><0x0F> copiou de\n<0xFD><0x10> a Habilidade <0xFD><0x19>!'
+  - offset: "0x3fc38a"
+    name: "PT-10 0x3fc38a"
+    expected: '<0xFD><0x0F> fez um pedido!'
+  - offset: "0x3fc39a"
+    name: "PT-10 0x3fc39a"
+    expected: 'O pedido de <0xFD><0x00>\nse realizou!'
+  - offset: "0x3fc3af"
+    name: "PT-10 0x3fc3af"
+    expected: '<0xFD><0x0F> criou\nraízes!'
+  - offset: "0x3fc3c5"
+    name: "PT-10 0x3fc3c5"
+    expected: '<0xFD><0x0F> absorveu\nnutrientes pelas raízes!'
+  - offset: "0x3fc3eb"
+    name: "PT-10 0x3fc3eb"
+    expected: '<0xFD><0x10> se firmou\ncom suas raízes!'
+  - offset: "0x3fc40e"
+    name: "PT-10 0x3fc40e"
+    expected: '<0xFD><0x0F> deixou\n<0xFD><0x10> com sono!'
+  - offset: "0x3fc421"
+    name: "PT-10 0x3fc421"
+    expected: '<0xFD><0x0F> tirou de\n<0xFD><0x10> o item <0xFD><0x16>!'
+  - offset: "0x3fc439"
+    name: "PT-10 0x3fc439"
+    expected: '<0xFD><0x0F> trocou\nHabilidades com o oponente!'
+  - offset: "0x3fc461"
+    name: "PT-10 0x3fc461"
+    expected: '<0xFD><0x0F> selou os\nmovimentos do oponente!'
+  - offset: "0x3fc483"
+    name: "PT-10 0x3fc483"
+    expected: '<0xFD><0x0F> quer que o\noponente sofra um Grudge!'
+  - offset: "0x3fc4ab"
+    name: "PT-10 0x3fc4ab"
+    expected: '<0xFD><0x0F>: <0xFD><0x00>\nperdeu todos os PP por Grudge!'
+  - offset: "0x3fc4d6"
+    name: "PT-10 0x3fc4d6"
+    expected: '<0xFD><0x0F> se envolveu\nem <0xFD><0x14>!'
+  - offset: "0x3fc4f0"
+    name: "PT-10 0x3fc4f0"
+    expected: '<0xFD><0x0F>: <0xFD><0x14>\nfoi refletido por Magic Coat!'
+  - offset: "0x3fc518"
+    name: "PT-10 0x3fc518"
+    expected: '<0xFD><0x0F> espera\no inimigo agir!'
+  - offset: "0x3fc53d"
+    name: "PT-10 0x3fc53d"
+    expected: '<0xFD><0x10> roubou\no movimento de <0xFD><0x13>!'
+  - offset: "0x3fc554"
+    name: "PT-10 0x3fc554"
+    expected: 'O poder da eletricidade\nfoi reduzido!'
+  - offset: "0x3fc576"
+    name: "PT-10 0x3fc576"
+    expected: 'O poder do fogo\nfoi reduzido!'
+  - offset: "0x3fc591"
+    name: "PT-10 0x3fc591"
+    expected: '<0xFD><0x0F> achou\num <0xFD><0x16>!'
+  - offset: "0x3fc5a2"
+    name: "PT-10 0x3fc5a2"
+    expected: 'Um aroma suave se espalhou\npela área!'
+  - offset: "0x3fc5cc"
+    name: "PT-10 0x3fc5cc"
+    expected: 'Não pode usar itens agora.<0xFC><0x08><0x40>'
+  - offset: "0x3fc5e8"
+    name: "PT-10 0x3fc5e8"
+    expected: 'Para <0xFD><0x13>,\n<0xFD><0x16> <0xFD><0x00>'
+  - offset: "0x3fc60c"
+    name: "PT-10 0x3fc60c"
+    expected: '<0xFD><0x0F> perdeu o foco\ne não pôde agir!'
+  - offset: "0x3fc631"
+    name: "PT-10 0x3fc631"
+    expected: '<0xFD><0x10> foi\nforçado a sair!<0xFB>'
+  - offset: "0x3fc646"
+    name: "PT-10 0x3fc646"
+    expected: 'A barreira se quebrou!'
+  - offset: "0x3fc65a"
+    name: "PT-10 0x3fc65a"
+    expected: 'Mas não teve efeito!'
+  - offset: "0x3fc670"
+    name: "PT-10 0x3fc670"
+    expected: '<0xFD><0x12> está\nsem movimentos!<0xFB>'
+  - offset: "0x3fc687"
+    name: "PT-10 0x3fc687"
+    expected: '<0xFD><0x12>: <0xFD><0x14>\nestá desativado!<0xFB>'
+  - offset: "0x3fc69d"
+    name: "PT-10 0x3fc69d"
+    expected: '<0xFD><0x12> não pode repetir\no movimento por Torment!<0xFB>'
+  - offset: "0x3fc6d6"
+    name: "PT-10 0x3fc6d6"
+    expected: '<0xFD><0x12> não pode usar\n<0xFD><0x14> após Taunt!<0xFB>'
+  - offset: "0x3fc6f8"
+    name: "PT-10 0x3fc6f8"
+    expected: '<0xFD><0x12> não pode usar\no selado <0xFD><0x14>!<0xFB>'
+  - offset: "0x3fc715"
+    name: "PT-10 0x3fc715"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\nfez chover!'
+  - offset: "0x3fc72b"
+    name: "PT-10 0x3fc72b"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\naumentou sua Velocidade!'
+  - offset: "0x3fc745"
+    name: "PT-10 0x3fc745"
+    expected: '<0xFD><0x10> foi protegido\npor <0xFD><0x19>!'
+  - offset: "0x3fc75d"
+    name: "PT-10 0x3fc75d"
+    expected: '<0xFD><0x10>: <0xFD><0x19>\nimpede <0xFD><0x0F><0xFA>de usar <0xFD><0x14>!'
+  - offset: "0x3fc780"
+    name: "PT-10 0x3fc780"
+    expected: '<0xFD><0x10> recuperou PS\ncom <0xFD><0x19>!'
+  - offset: "0x3fc79d"
+    name: "PT-10 0x3fc79d"
+    expected: '<0xFD><0x10>: <0xFD><0x19>\nanulou <0xFD><0x14>!'
+  - offset: "0x3fc7b6"
+    name: "PT-10 0x3fc7b6"
+    expected: '<0xFD><0x10>: <0xFD><0x19>\ndeu-lhe o tipo <0xFD><0x00>!'
+  - offset: "0x3fc7d3"
+    name: "PT-10 0x3fc7d3"
+    expected: '<0xFD><0x11>: <0xFD><0x19>\nimpede paralisia!'
+  - offset: "0x3fc7ef"
+    name: "PT-10 0x3fc7ef"
+    expected: '<0xFD><0x10>: <0xFD><0x19>\nimpede a paixão!'
+  - offset: "0x3fc809"
+    name: "PT-10 0x3fc809"
+    expected: '<0xFD><0x11>: <0xFD><0x19>\nimpede envenenamento!'
+  - offset: "0x3fc860"
+    name: "PT-10 0x3fc860"
+    expected: '<0xFD><0x10> se\nfirmou!'
+  - offset: "0x3fc87b"
+    name: "PT-10 0x3fc87b"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\nreduz o Ataque de <0xFD><0x10>!'
+  - offset: "0x3fc8c2"
+    name: "PT-10 0x3fc8c2"
+    expected: '<0xFD><0x13> copiou de\n<0xFD><0x00> a Habilidade <0xFD><0x01>!'
+  - offset: "0x3fc8d5"
+    name: "PT-10 0x3fc8d5"
+    expected: '<0xFD><0x11>: <0xFD><0x1B>\nimpede queimaduras!'
+  - offset: "0x3fc8ed"
+    name: "PT-10 0x3fc8ed"
+    expected: '<0xFD><0x10>: <0xFD><0x19>\nbloqueia <0xFD><0x14>!'
+  - offset: "0x3fc913"
+    name: "PT-10 0x3fc913"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nrecuperou seus PS!'
+  - offset: "0x3fc935"
+    name: "PT-10 0x3fc935"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\ncriou tempestade de areia!'
+  - offset: "0x3fc955"
+    name: "PT-10 0x3fc955"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\nintensificou a luz do sol!'
+  - offset: "0x3fc993"
+    name: "PT-10 0x3fc993"
+    expected: '<0xFD><0x10>: <0xFD><0x19>\napaixonou <0xFD><0x0F>!'
+  - offset: "0x3fc9aa"
+    name: "PT-10 0x3fc9aa"
+    expected: '<0xFD><0x10>: <0xFD><0x19>\nanulou <0xFD><0x14>!'
+  - offset: "0x3fc9c7"
+    name: "PT-10 0x3fc9c7"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\ncurou seu problema de <0xFD><0x00>!'
+  - offset: "0x3fc9e5"
+    name: "PT-10 0x3fc9e5"
+    expected: 'Ele absorveu o\nLiquid Ooze!'
+  - offset: "0x3fca03"
+    name: "PT-10 0x3fca03"
+    expected: '<0xFD><0x13> se transformou!'
+  - offset: "0x3fca13"
+    name: "PT-10 0x3fca13"
+    expected: '<0xFD><0x10> recebeu\no ataque!'
+  - offset: "0x3fca2c"
+    name: "PT-10 0x3fca2c"
+    expected: '<0xFD><0x00>: <0xFD><0x17>\nimpede a troca!<0xFB>'
+  - offset: "0x3fca49"
+    name: "PT-10 0x3fca49"
+    expected: '<0xFD><0x10>: <0xFD><0x19>\nimpediu <0xFD><0x13>:<0xFA><0xFD><0x00> não funciona!'
+  - offset: "0x3fca71"
+    name: "PT-10 0x3fca71"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\nanulou o efeito!'
+  - offset: "0x3fca8e"
+    name: "PT-10 0x3fca8e"
+    expected: '<0xFD><0x11>: <0xFD><0x1B>\nimpede recuos!'
+  - offset: "0x3fcaaa"
+    name: "PT-10 0x3fcaaa"
+    expected: '<0xFD><0x0F>: <0xFD><0x18>\nimpede <0xFD><0x10>:<0xFA><0xFD><0x19> não funciona!'
+  - offset: "0x3fcaef"
+    name: "PT-10 0x3fcaef"
+    expected: '<0xFD><0x13>: <0xFD><0x1A>\nnão afetou <0xFD><0x11>!'
+  - offset: "0x3fcb0c"
+    name: "PT-10 0x3fcb0c"
+    expected: '<0xFD><0x0F> tem medo de agir!'
+  - offset: "0x3fcb26"
+    name: "PT-10 0x3fcb26"
+    expected: 'Fantasma: Fora... Fora...'
+  - offset: "0x3fcb41"
+    name: "PT-10 0x3fcb41"
+    expected: 'muito'
+  - offset: "0x3fcb4a"
+    name: "PT-10 0x3fcb4a"
+    expected: '!'
+  - offset: "0x3fcb50"
+    name: "PT-10 0x3fcb50"
+    expected: 'muito'
+  - offset: "0x3fcb59"
+    name: "PT-10 0x3fcb59"
+    expected: '!'
+  - offset: "0x3fcb5f"
+    name: "PT-10 0x3fcb5f"
+    expected: '<0xFD><0x0F>: <0xFD><0x00>\naumentou <0xFD><0x01>'
+  - offset: "0x3fcb6a"
+    name: "PT-10 0x3fcb6a"
+    expected: '<0xFD><0x10>: <0xFD><0x00>\naumentou <0xFD><0x01>'
+  - offset: "0x3fcb75"
+    name: "PT-10 0x3fcb75"
+    expected: '<0xFD><0x16> elevou <0xFD><0x00> de\n<0xFD><0x13> <0xFD><0x01>'
+  - offset: "0x3fcb8f"
+    name: "PT-10 0x3fcb8f"
+    expected: '<0xFD><0x0F>: <0xFD><0x00>\ndiminuiu <0xFD><0x01>'
+  - offset: "0x3fcb9a"
+    name: "PT-10 0x3fcb9a"
+    expected: '<0xFD><0x10>: <0xFD><0x00>\ndiminuiu <0xFD><0x01>'
+  - offset: "0x3fcba5"
+    name: "PT-10 0x3fcba5"
+    expected: 'Os stats de <0xFD><0x0F>\nnão podem subir mais!'
+  - offset: "0x3fcbc5"
+    name: "PT-10 0x3fcbc5"
+    expected: 'Os stats de <0xFD><0x10>\nnão podem cair mais!'
+  - offset: "0x3fcbf4"
+    name: "PT-10 0x3fcbf4"
+    expected: 'Nocaute em um só golpe!'
+  - offset: "0x3fcc07"
+    name: "PT-10 0x3fcc07"
+    expected: '<0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2, e<0xFC><0x08><0x0F>... <0xFC><0x08><0x0F>... <0xFC><0x08><0x0F>... <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00> Puf!<0xFB>'
+  - offset: "0x3fcc33"
+    name: "PT-10 0x3fcc33"
+    expected: 'E...<0xFB>'
+  - offset: "0x3fcc39"
+    name: "PT-10 0x3fcc39"
+    expected: 'Movimentos HM não podem\nser esquecidos agora.<0xFB>'
+  - offset: "0x3fcc5b"
+    name: "PT-10 0x3fcc5b"
+    expected: 'Não é muito eficaz...'
+  - offset: "0x3fcc74"
+    name: "PT-10 0x3fcc74"
+    expected: 'É supereficaz!'
+  - offset: "0x3fcc8a"
+    name: "PT-10 0x3fcc8a"
+    expected: '<0xFC><0x10><0x11><0x00> Fugiu em segurança!<0xFB>'
+  - offset: "0x3fcca0"
+    name: "PT-10 0x3fcca0"
+    expected: '<0xFC><0x10><0x11><0x00> <0xFD><0x0F> fugiu\nusando <0xFD><0x16>!<0xFB>'
+  - offset: "0x3fccbb"
+    name: "PT-10 0x3fccbb"
+    expected: '<0xFC><0x10><0x11><0x00> <0xFD><0x0F> fugiu\nusando <0xFD><0x18>!<0xFB>'
+  - offset: "0x3fccd2"
+    name: "PT-10 0x3fccd2"
+    expected: '<0xFC><0x10><0x11><0x00> <0xFD><0x00> selvagem fugiu!'
+  - offset: "0x3fcce4"
+    name: "PT-10 0x3fcce4"
+    expected: 'Você venceu\n<0xFD><0x20>!'
+  - offset: "0x3fccf8"
+    name: "PT-10 0x3fccf8"
+    expected: 'Você venceu <0xFD><0x20>\ne <0xFD><0x21>!'
+  - offset: "0x3fcd0f"
+    name: "PT-10 0x3fcd0f"
+    expected: 'Você perdeu para\n<0xFD><0x20>!'
+  - offset: "0x3fcd27"
+    name: "PT-10 0x3fcd27"
+    expected: 'Você perdeu para <0xFD><0x20>\ne <0xFD><0x21>!'
+  - offset: "0x3fcd41"
+    name: "PT-10 0x3fcd41"
+    expected: 'Você empatou com\n<0xFD><0x20>!'
+  - offset: "0x3fcd66"
+    name: "PT-10 0x3fcd66"
+    expected: 'Você empatou com\n<0xFD><0x20> e <0xFD><0x21>!'
+  - offset: "0x3fcd92"
+    name: "PT-10 0x3fcd92"
+    expected: '<0xFC><0x10><0x11><0x00> <0xFD><0x20> fugiu!'
+  - offset: "0x3fcd9f"
+    name: "PT-10 0x3fcd9f"
+    expected: '<0xFC><0x10><0x11><0x00> <0xFD><0x20> e\n<0xFD><0x21> fugiram!'
+  - offset: "0x3fcdb3"
+    name: "PT-10 0x3fcdb3"
+    expected: 'Não! Não pode fugir de\nbatalhas com Treinadores!<0xFB>'
+  - offset: "0x3fcde2"
+    name: "PT-10 0x3fcde2"
+    expected: 'Não pode fugir!<0xFB>'
+  - offset: "0x3fcdf2"
+    name: "PT-10 0x3fcdf2"
+    expected: 'Mas nada aconteceu!'
+  - offset: "0x3fce08"
+    name: "PT-10 0x3fce08"
+    expected: 'Mas falhou!'
+  - offset: "0x3fce17"
+    name: "PT-10 0x3fce17"
+    expected: 'Feriu a si mesmo\nna confusão!'
+  - offset: "0x3fce38"
+    name: "PT-10 0x3fce38"
+    expected: 'Mirror Move falhou!'
+  - offset: "0x3fce50"
+    name: "PT-10 0x3fce50"
+    expected: 'Começou a chover!'
+  - offset: "0x3fce64"
+    name: "PT-10 0x3fce64"
+    expected: 'Começou um temporal!'
+  - offset: "0x3fce78"
+    name: "PT-10 0x3fce78"
+    expected: 'A chuva continua caindo.'
+  - offset: "0x3fce90"
+    name: "PT-10 0x3fce90"
+    expected: 'O temporal continua.'
+  - offset: "0x3fcea8"
+    name: "PT-10 0x3fcea8"
+    expected: 'A chuva parou.'
+  - offset: "0x3fceba"
+    name: "PT-10 0x3fceba"
+    expected: 'Começou uma tempestade de areia!'
+  - offset: "0x3fcece"
+    name: "PT-10 0x3fcece"
+    expected: 'A tempestade de areia continua.'
+  - offset: "0x3fcee3"
+    name: "PT-10 0x3fcee3"
+    expected: 'A tempestade de areia passou.'
+  - offset: "0x3fcefb"
+    name: "PT-10 0x3fcefb"
+    expected: 'A luz do sol ficou forte!'
+  - offset: "0x3fcf14"
+    name: "PT-10 0x3fcf14"
+    expected: 'A luz do sol está forte.'
+  - offset: "0x3fcf2c"
+    name: "PT-10 0x3fcf2c"
+    expected: 'A luz do sol enfraqueceu.'
+  - offset: "0x3fcf40"
+    name: "PT-10 0x3fcf40"
+    expected: 'Começou a cair granizo!'
+  - offset: "0x3fcf54"
+    name: "PT-10 0x3fcf54"
+    expected: 'O granizo continua caindo.'
+  - offset: "0x3fcf6c"
+    name: "PT-10 0x3fcf6c"
+    expected: 'O granizo parou.'
+  - offset: "0x3fcf7e"
+    name: "PT-10 0x3fcf7e"
+    expected: 'Mas não conseguiu usar\nSpit Up!'
+  - offset: "0x3fcfa0"
+    name: "PT-10 0x3fcfa0"
+    expected: 'Mas não conseguiu usar\nSwallow!'
+  - offset: "0x3fcfc2"
+    name: "PT-10 0x3fcfc2"
+    expected: 'O vento virou uma\nHeat Wave!'
+  - offset: "0x3fcfe4"
+    name: "PT-10 0x3fcfe4"
+    expected: 'Todas as mudanças de stats\nforam anuladas!'
+  - offset: "0x3fd006"
+    name: "PT-10 0x3fd006"
+    expected: 'Moedas espalhadas por toda parte!'
+  - offset: "0x3fd022"
+    name: "PT-10 0x3fd022"
+    expected: 'Estava fraco demais para\ncriar um substituto!'
+  - offset: "0x3fd048"
+    name: "PT-10 0x3fd048"
+    expected: 'Os combatentes dividiram\nsua dor!'
+  - offset: "0x3fd068"
+    name: "PT-10 0x3fd068"
+    expected: 'Um sino tocou!'
+  - offset: "0x3fd077"
+    name: "PT-10 0x3fd077"
+    expected: 'Todos os Pokémon afetados\nserão nocauteados em 3 turnos!'
+  - offset: "0x3fd0a7"
+    name: "PT-10 0x3fd0a7"
+    expected: 'Não há mais PP para\neste movimento!<0xFB>'
+  - offset: "0x3fd0ca"
+    name: "PT-10 0x3fd0ca"
+    expected: 'Mas não havia mais PP\npara o movimento!'
+  - offset: "0x3fd0f1"
+    name: "PT-10 0x3fd0f1"
+    expected: '<0xFD><0x0F> ignorou\nordens enquanto dormia!'
+  - offset: "0x3fd111"
+    name: "PT-10 0x3fd111"
+    expected: '<0xFD><0x0F> ignorou\nas ordens!'
+  - offset: "0x3fd124"
+    name: "PT-10 0x3fd124"
+    expected: '<0xFD><0x0F> foi cochilar!'
+  - offset: "0x3fd135"
+    name: "PT-10 0x3fd135"
+    expected: '<0xFD><0x0F> está\nfazendo corpo mole!'
+  - offset: "0x3fd14b"
+    name: "PT-10 0x3fd14b"
+    expected: '<0xFD><0x0F> não vai\nobedecer!'
+  - offset: "0x3fd15a"
+    name: "PT-10 0x3fd15a"
+    expected: '<0xFD><0x0F> virou o rosto!'
+  - offset: "0x3fd16a"
+    name: "PT-10 0x3fd16a"
+    expected: '<0xFD><0x0F> fingiu\nnão perceber!'
+  - offset: "0x3fd186"
+    name: "PT-10 0x3fd186"
+    expected: '<0xFD><0x1C> <0xFD><0x1D> vai\nusar <0xFD><0x01>.<0xFB><0xFD><0x23> vai trocar\nde Pokémon?'
+  - offset: "0x3fd1b8"
+    name: "PT-10 0x3fd1b8"
+    expected: '<0xFD><0x0F> aprendeu\n<0xFD><0x00>!'
+  - offset: "0x3fd1c7"
+    name: "PT-10 0x3fd1c7"
+    expected: 'Você venceu\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>'
+  - offset: "0x3fd1df"
+    name: "PT-10 0x3fd1df"
+    expected: '<0xFD><0x23> jogou uma PEDRA\nem <0xFD><0x06>!'
+  - offset: "0x3fd1fa"
+    name: "PT-10 0x3fd1fa"
+    expected: '<0xFD><0x23> jogou isca\npara <0xFD><0x06>!'
+  - offset: "0x3fd218"
+    name: "PT-10 0x3fd218"
+    expected: '<0xFD><0x06> observa\ncom atenção!'
+  - offset: "0x3fd232"
+    name: "PT-10 0x3fd232"
+    expected: '<0xFD><0x06> está com raiva!'
+  - offset: "0x3fd23f"
+    name: "PT-10 0x3fd23f"
+    expected: '<0xFD><0x06> está comendo!'
+  - offset: "0x3fd24d"
+    name: "PT-10 0x3fd24d"
+    expected: '<0xFC><0x10><0x42><0x00> Locutor: Suas Safari Balls\nacabaram! Fim de jogo!<0xFB>'
+  - offset: "0x3fd297"
+    name: "PT-10 0x3fd297"
+    expected: 'Um <0xFD><0x06> selvagem apareceu!<0xFB>'
+  - offset: "0x3fd2aa"
+    name: "PT-10 0x3fd2aa"
+    expected: 'Um <0xFD><0x06> selvagem apareceu!<0xFC><0x08><0x7F>'
+  - offset: "0x3fd2bf"
+    name: "PT-10 0x3fd2bf"
+    expected: '<0xFD><0x06> e\n<0xFD><0x08> selvagens apareceram!<0xFB>'
+  - offset: "0x3fd2d9"
+    name: "PT-10 0x3fd2d9"
+    expected: 'O fantasma apareceu!<0xFB>Droga!\nNão dá para identificá-lo!<0xFB>'
+  - offset: "0x3fd30d"
+    name: "PT-10 0x3fd30d"
+    expected: 'O fantasma apareceu!<0xFB>'
+  - offset: "0x3fd322"
+    name: "PT-10 0x3fd322"
+    expected: 'Silph Scope revelou a\nidentidade do fantasma!'
+  - offset: "0x3fd34d"
+    name: "PT-10 0x3fd34d"
+    expected: 'O fantasma era <0xFD><0x06>!<0xFB>\n'
+  - offset: "0x3fd383"
+    name: "PT-10 0x3fd383"
+    expected: '<0xFD><0x20>\nquer batalhar!'
+  - offset: "0x3fd397"
+    name: "PT-10 0x3fd397"
+    expected: '<0xFD><0x20> e <0xFD><0x21>\nquerem batalhar!'
+  - offset: "0x3fd3b1"
+    name: "PT-10 0x3fd3b1"
+    expected: '<0xFD><0x1C> <0xFD><0x1D> mandou\n<0xFD><0x06>!<0xFC><0x08><0x3C>'
+  - offset: "0x3fd3c7"
+    name: "PT-10 0x3fd3c7"
+    expected: '<0xFD><0x1C> <0xFD><0x1D> mandou\n<0xFD><0x06> e <0xFD><0x08>!<0xFC><0x08><0x3C>'
+  - offset: "0x3fd3e4"
+    name: "PT-10 0x3fd3e4"
+    expected: '<0xFD><0x1C> <0xFD><0x1D> mandou\n<0xFD><0x00>!'
+  - offset: "0x3fd3f7"
+    name: "PT-10 0x3fd3f7"
+    expected: '<0xFD><0x20> mandou\n<0xFD><0x06>!'
+  - offset: "0x3fd407"
+    name: "PT-10 0x3fd407"
+    expected: '<0xFD><0x20> mandou\n<0xFD><0x06> e <0xFD><0x08>!'
+  - offset: "0x3fd41e"
+    name: "PT-10 0x3fd41e"
+    expected: '<0xFD><0x20> mandou <0xFD><0x0A>!\n<0xFD><0x21> mandou <0xFD><0x0C>!'
+  - offset: "0x3fd43e"
+    name: "PT-10 0x3fd43e"
+    expected: '<0xFD><0x20> mandou\n<0xFD><0x00>!'
+  - offset: "0x3fd44e"
+    name: "PT-10 0x3fd44e"
+    expected: '<0xFD><0x22> mandou\n<0xFD><0x00>!'
+  - offset: "0x3fd45e"
+    name: "PT-10 0x3fd45e"
+    expected: 'Vai, <0xFD><0x05>!'
+  - offset: "0x3fd466"
+    name: "PT-10 0x3fd466"
+    expected: 'Vão, <0xFD><0x05> e\n<0xFD><0x07>!'
+  - offset: "0x3fd475"
+    name: "PT-10 0x3fd475"
+    expected: 'Vai, <0xFD><0x00>!'
+  - offset: "0x3fd47d"
+    name: "PT-10 0x3fd47d"
+    expected: 'Vamos, <0xFD><0x00>!'
+  - offset: "0x3fd488"
+    name: "PT-10 0x3fd488"
+    expected: 'Vai com tudo, <0xFD><0x00>!'
+  - offset: "0x3fd497"
+    name: "PT-10 0x3fd497"
+    expected: 'O inimigo está fraco!\nVai, <0xFD><0x00>!'
+  - offset: "0x3fd4b5"
+    name: "PT-10 0x3fd4b5"
+    expected: '<0xFD><0x1F> mandou <0xFD><0x0B>!\nVai, <0xFD><0x09>!'
+  - offset: "0x3fd4cd"
+    name: "PT-10 0x3fd4cd"
+    expected: '<0xFD><0x00>, já chega!\nVolte!'
+  - offset: "0x3fd4eb"
+    name: "PT-10 0x3fd4eb"
+    expected: '<0xFD><0x00>, volte!'
+  - offset: "0x3fd4fa"
+    name: "PT-10 0x3fd4fa"
+    expected: '<0xFD><0x00>, OK!\nVolte!'
+  - offset: "0x3fd50d"
+    name: "PT-10 0x3fd50d"
+    expected: '<0xFD><0x00>, muito bem!\nVolte!'
+  - offset: "0x3fd522"
+    name: "PT-10 0x3fd522"
+    expected: '<0xFD><0x1C> <0xFD><0x1D>\nrecolheu <0xFD><0x00>!'
+  - offset: "0x3fd535"
+    name: "PT-10 0x3fd535"
+    expected: '<0xFD><0x20> recolheu\n<0xFD><0x00>!'
+  - offset: "0x3fd545"
+    name: "PT-10 0x3fd545"
+    expected: '<0xFD><0x22> recolheu\n<0xFD><0x00>!'
+  - offset: "0x3fd560"
+    name: "PT-10 0x3fd560"
+    expected: 'Inimigo'
+  - offset: "0x3fd564"
+    name: "PT-10 0x3fd564"
+    expected: 'Aliado'
+  - offset: "0x3fd569"
+    name: "PT-10 0x3fd569"
+    expected: 'Inimigo'
+  - offset: "0x3fd56d"
+    name: "PT-10 0x3fd56d"
+    expected: 'Aliado'
+  - offset: "0x3fd572"
+    name: "PT-10 0x3fd572"
+    expected: 'Inimigo'
+  - offset: "0x3fd576"
+    name: "PT-10 0x3fd576"
+    expected: 'Aliado'
+  - offset: "0x3fd57b"
+    name: "PT-10 0x3fd57b"
+    expected: '<0xFD><0x0F> usou\n<0xFD><0x01>'
+  - offset: "0x3fd586"
+    name: "PT-10 0x3fd586"
+    expected: '!'
+  - offset: "0x3fd588"
+    name: "PT-10 0x3fd588"
+    expected: '!'
+  - offset: "0x3fd58a"
+    name: "PT-10 0x3fd58a"
+    expected: '!'
+  - offset: "0x3fd58c"
+    name: "PT-10 0x3fd58c"
+    expected: '!'
+  - offset: "0x3fd58e"
+    name: "PT-10 0x3fd58e"
+    expected: '!'
+  - offset: "0x3fd590"
+    name: "PT-10 0x3fd590"
+    expected: 'PS'
+  - offset: "0x3fd593"
+    name: "PT-10 0x3fd593"
+    expected: 'Ataque'
+  - offset: "0x3fd59a"
+    name: "PT-10 0x3fd59a"
+    expected: 'Defesa'
+  - offset: "0x3fd5a2"
+    name: "PT-10 0x3fd5a2"
+    expected: 'Velocidade'
+  - offset: "0x3fd5a8"
+    name: "PT-10 0x3fd5a8"
+    expected: 'Sp. Atk'
+  - offset: "0x3fd5b0"
+    name: "PT-10 0x3fd5b0"
+    expected: 'Sp. Def'
+  - offset: "0x3fd5b8"
+    name: "PT-10 0x3fd5b8"
+    expected: 'Precisão'
+  - offset: "0x3fd5c1"
+    name: "PT-10 0x3fd5c1"
+    expected: 'Evasão'
+  - offset: "0x3fd5ff"
+    name: "PT-10 0x3fd5ff"
+    expected: 'estava seco demais!'
+  - offset: "0x3fd60c"
+    name: "PT-10 0x3fd60c"
+    expected: 'estava doce demais!'
+  - offset: "0x3fd61b"
+    name: "PT-10 0x3fd61b"
+    expected: 'estava amargo demais!'
+  - offset: "0x3fd62b"
+    name: "PT-10 0x3fd62b"
+    expected: 'estava azedo demais!'
+  - offset: "0x3fd650"
+    name: "PT-10 0x3fd650"
+    expected: '<0xFD><0x23> usou\n<0xFD><0x16>!'
+  - offset: "0x3fd65c"
+    name: "PT-10 0x3fd65c"
+    expected: 'O senhor usou\n<0xFD><0x16>!'
+  - offset: "0x3fd671"
+    name: "PT-10 0x3fd671"
+    expected: 'O Poké Dude usou\n<0xFD><0x16>!'
+  - offset: "0x3fd688"
+    name: "PT-10 0x3fd688"
+    expected: '<0xFD><0x1C> <0xFD><0x1D>\nusou <0xFD><0x16>!'
+  - offset: "0x3fd697"
+    name: "PT-10 0x3fd697"
+    expected: 'O Treinador bloqueou a Poké Ball!'
+  - offset: "0x3fd6b5"
+    name: "PT-10 0x3fd6b5"
+    expected: 'Não roube!'
+  - offset: "0x3fd6c7"
+    name: "PT-10 0x3fd6c7"
+    expected: 'Desviou da Poké Ball!\nEste Pokémon não é capturável!'
+  - offset: "0x3fd700"
+    name: "PT-10 0x3fd700"
+    expected: 'Você errou o Pokémon!'
+  - offset: "0x3fd718"
+    name: "PT-10 0x3fd718"
+    expected: 'Ah, não!\nO Pokémon escapou!'
+  - offset: "0x3fd738"
+    name: "PT-10 0x3fd738"
+    expected: 'Ah!\nParecia estar capturado!'
+  - offset: "0x3fd757"
+    name: "PT-10 0x3fd757"
+    expected: 'Argh!\nQuase pegou!'
+  - offset: "0x3fd76d"
+    name: "PT-10 0x3fd76d"
+    expected: 'Droga!\nFaltou tão pouco!'
+  - offset: "0x3fd7a2"
+    name: "PT-10 0x3fd7a2"
+    expected: 'Pegou!\n<0xFD><0x3A> foi capturado!<0xFC><0x0A><0xFC><0x0B><0x42><0x01><0xFB>'
+  - offset: "0x3fd7c0"
+    name: "PT-10 0x3fd7c0"
+    expected: 'Pegou!\n<0xFD><0x3A> foi capturado!<0xFC><0x0A><0xFC><0x0B><0x42><0x01><0xFC><0x08><0x7F>'
+  - offset: "0x3fd7e0"
+    name: "PT-10 0x3fd7e0"
+    expected: 'Dar um apelido ao\n<0xFD><0x3A> capturado?'
+  - offset: "0x3fd804"
+    name: "PT-10 0x3fd804"
+    expected: '<0xFD><0x06> foi enviado\nao PC de <0xFD><0x27>.'
+  - offset: "0x3fd81a"
+    name: "PT-10 0x3fd81a"
+    expected: 'alguém'
+  - offset: "0x3fd824"
+    name: "PT-10 0x3fd824"
+    expected: 'Bill'
+  - offset: "0x3fd82b"
+    name: "PT-10 0x3fd82b"
+    expected: 'Os dados de <0xFD><0x3A> foram\nadicionados à Pokédex.<0xFB>'
+  - offset: "0x3fd850"
+    name: "PT-10 0x3fd850"
+    expected: 'Está chovendo.'
+  - offset: "0x3fd85f"
+    name: "PT-10 0x3fd85f"
+    expected: 'Há uma tempestade de areia.'
