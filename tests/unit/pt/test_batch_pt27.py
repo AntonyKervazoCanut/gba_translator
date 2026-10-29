@@ -64,6 +64,11 @@ def test_story_names_rewards_and_gender_buffers():
     assert 'Red Orb' in texts[0x7D742F] and 'primordial' in texts[0x7D742F]
     assert 'Operation Eternal Flower' in texts[0x7DDC4C]
     assert 'Ultimate Weapon' in texts[0x7DDC4C]
+    assert texts[0x7DDA44].endswith('nova abordagem.')
+    assert texts[0x7DDC4C].endswith('restaurar nossos filhos...')
+    retained = [r for r in LIVE if r.get('retained')]
+    assert {r['offset'] for r in retained} == {'0x7da24a', '0x7de4da', '0x7e6b89', '0x7e6d12'}
+    assert all(TextEncoder.encode_pokemon(TEXTS[int(r['offset'], 16)], strict=True).hex() == r['source_hex'] for r in retained)
     assert 'filho' == texts[0x7DE1E1] and 'filha' == texts[0x7DE1E5]
     assert 'nome de tal' in texts[0x7DD149]
     assert 'um bebê:' in texts[0x7DD149]  # Également correct avec le tampon « filha ».
@@ -89,3 +94,11 @@ def test_finalizer_follows_repairs_and_references_are_disjoint():
             continue
         other = json.loads(path.read_text())
         assert not refs.intersection(p for r in other.get('entries', []) for p in r.get('references', [])), path.name
+
+
+def test_visual_probe_covers_complete_messages_and_accented_types():
+    samples = [TEXTS[offset] for offset in (0x7E94CB, 0x7EAAE7)]
+    assert all(text.count('\n') <= 1 for text in samples)
+    assert all(not re.search(r'<0xF[ABCD]>', text) for text in samples)
+    assert 'chão' in samples[0]
+    assert 'Elétrico' in samples[1] and 'Aço' in samples[1]

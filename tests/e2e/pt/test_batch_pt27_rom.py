@@ -33,6 +33,8 @@ def test_every_live_entry_reaches_final_rom(source):
     patch = make_patch(source)
     assert len(patch.entries()) == 270
     patch.verify(built)
+    assert built[0x7E97B6:0x7E97BA] == source[0x7E97B6:0x7E97BA]
+    assert built[0x5D290:0x5D298] == source[0x5D290:0x5D298]
 
 
 def test_patch_is_atomic_idempotent_and_bounded(source):
