@@ -1,0 +1,5084 @@
+{
+  "batch": "PT-42",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "move_table": {
+    "base": "0xa40a10",
+    "stride": 13,
+    "first_id": 702,
+    "last_id": 922,
+    "literals": [
+      "0x148",
+      "0x308a4",
+      "0x4ef84",
+      "0x6be8c",
+      "0x9b524",
+      "0xbd830",
+      "0xbfaa4",
+      "0xcc914",
+      "0xd764c",
+      "0xd7ee0",
+      "0xd8500",
+      "0xe4e58",
+      "0xe51f0",
+      "0x10d9c0",
+      "0x1140f0",
+      "0x11c5a8",
+      "0x11c6e4",
+      "0x1256bc",
+      "0x125948",
+      "0x125a2c",
+      "0x125be4",
+      "0x125ce0",
+      "0x125ff8",
+      "0x12606c",
+      "0x126128",
+      "0x1261fc",
+      "0x12627c",
+      "0x1267f0",
+      "0x126880",
+      "0x126e64",
+      "0x131e14",
+      "0x13695c",
+      "0x9bd04c",
+      "0x9d8d40",
+      "0x9f39ec",
+      "0x9f3b00",
+      "0x9f3cfc",
+      "0x9f73c4",
+      "0x9f7f90",
+      "0x9f9f64",
+      "0x9fa360"
+    ]
+  },
+  "entries": [
+    {
+      "offset": "0xa42db6",
+      "source_hex": "c9ead9e6d8e6ddead9ff",
+      "english_extract": "",
+      "french_comparison": "Overdrive",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 702,
+      "cell_bytes": 13,
+      "source_cell_hex": "c9ead9e6d8e6ddead9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Overdrive",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa42dc3",
+      "source_hex": "bbe4e4e0d900bbd7ddd8ff",
+      "english_extract": "est capable de décocher de puissants\\ncoups de pied si on touche à ses\\ndélicates oreilles.",
+      "french_comparison": "AcideMalique",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 703,
+      "cell_bytes": 13,
+      "source_cell_hex": "bbe4e4e0d900bbd7ddd8ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Apple Acid",
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa42dd0",
+      "source_hex": "c1e6d5ea00bbe4e4e0d9ff",
+      "english_extract": "e décocher de puissants\\ncoups de pied si on touche à ses\\ndélicates oreilles.",
+      "french_comparison": "Force G",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 704,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1e6d5ea00bbe4e4e0d9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Grav Apple",
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ]
+    },
+    {
+      "offset": "0xa42ddd",
+      "source_hex": "cde4dde6dde800bce6d9d5dfff",
+      "english_extract": " puissants\\ncoups de pied si on touche à ses\\ndélicates oreilles.",
+      "french_comparison": "Choc Émotion",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 705,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde4dde6dde800bce6d9d5dfff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Spirit Break",
+      "pt_bytes": 13,
+      "pixels": [
+        64
+      ]
+    },
+    {
+      "offset": "0xa42dea",
+      "source_hex": "d1d9dde6d800cde8d9d5e1ff",
+      "english_extract": "ups de pied si on touche à ses\\ndélicates oreilles.",
+      "french_comparison": "VapeuFéérik",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 706,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1d9dde6d800cde8d9d5e1ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Weird Steam",
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa42df7",
+      "source_hex": "c6dddad900bed9ebff",
+      "english_extract": "i on touche à ses\\ndélicates oreilles.",
+      "french_comparison": "FontainDeVie",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 707,
+      "cell_bytes": 13,
+      "source_cell_hex": "c6dddad900bed9ebffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Life Dew",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa42e04",
+      "source_hex": "c9d6e7e8e6e9d7e8ff",
+      "english_extract": " ses\\ndélicates oreilles.",
+      "french_comparison": "Blocage",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 708,
+      "cell_bytes": 13,
+      "source_cell_hex": "c9d6e7e8e6e9d7e8ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Obstruct",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa42e11",
+      "source_hex": "c0d5e0e7d900d3ddd9e0d8ff",
+      "english_extract": "s oreilles.",
+      "french_comparison": "Fourbette",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 709,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0d5e0e7d900d3ddd9e0d8ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "False Yield",
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa42e1e",
+      "source_hex": "c7d9e8d9e3e600cce9e7dcff",
+      "english_extract": "",
+      "french_comparison": "JouteAstrale",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 710,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7d9e8d9e3e600cce9e7dcffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Meteor Rush",
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ]
+    },
+    {
+      "offset": "0xa42e2b",
+      "source_hex": "bfe8d9e6e2d5d6d9d5e1ff",
+      "english_extract": "",
+      "french_comparison": "Laz.Infinimx",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 711,
+      "cell_bytes": 13,
+      "source_cell_hex": "bfe8d9e6e2d5d6d9d5e1ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Eternabeam",
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa42e38",
+      "source_hex": "cde8d9d9e000bcd9d5e1ff",
+      "english_extract": "",
+      "french_comparison": "Métalaser",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 712,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8d9d9e000bcd9d5e1ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Steel Beam",
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ]
+    },
+    {
+      "offset": "0xa42e45",
+      "source_hex": "bfece4d5e2d800c0e3e6d7d9ff",
+      "english_extract": "",
+      "french_comparison": "VastePouvoir",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 713,
+      "cell_bytes": 13,
+      "source_cell_hex": "bfece4d5e2d800c0e3e6d7d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Expand Force",
+      "pt_bytes": 13,
+      "pixels": [
+        70
+      ]
+    },
+    {
+      "offset": "0xa42e52",
+      "source_hex": "cde8d9d9e000cce3e0e0d9e6ff",
+      "english_extract": "",
+      "french_comparison": "Métalliroue",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 714,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8d9d9e000cce3e0e0d9e6ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Steel Roller",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa42e5f",
+      "source_hex": "cdd7d5e0d900cddce3e8ff",
+      "english_extract": "",
+      "french_comparison": "RafaleÉcail.",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 715,
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd7d5e0d900cddce3e8ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Scale Shot",
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ]
+    },
+    {
+      "offset": "0xa42e6c",
+      "source_hex": "c7d9e8d9e3e600bcd9d5e1ff",
+      "english_extract": "",
+      "french_comparison": "LaserMétéore",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 716,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7d9e8d9e3e600bcd9d5e1ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Meteor Beam",
+      "pt_bytes": 12,
+      "pixels": [
+        64
+      ]
+    },
+    {
+      "offset": "0xa42e79",
+      "source_hex": "cddcd9e0e0cdddd8d9bbe6e1ff",
+      "english_extract": "",
+      "french_comparison": "Kokiyarme",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 717,
+      "cell_bytes": 13,
+      "source_cell_hex": "cddcd9e0e0cdddd8d9bbe6e1ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "ShellSideArm",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa42e86",
+      "source_hex": "c7dde7e8edbfece4e0e3d8d9ff",
+      "english_extract": "i profond peut invoquer une meute\\nde Cornèbre. On l'appelle le crieur de\\nmauvais augure.",
+      "french_comparison": "Explo-Brume",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 718,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7dde7e8edbfece4e0e3d8d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "MistyExplode",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa42e93",
+      "source_hex": "c1e6d5e7e7ed00c1e0ddd8d9ff",
+      "english_extract": "t invoquer une meute\\nde Cornèbre. On l'appelle le crieur de\\nmauvais augure.",
+      "french_comparison": "Gliss’Herbe",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 719,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1e6d5e7e7ed00c1e0ddd8d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Grassy Glide",
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ]
+    },
+    {
+      "offset": "0xa42ea0",
+      "source_hex": "ccdde7dde2db00d0e3e0e8ff",
+      "english_extract": "e meute\\nde Cornèbre. On l'appelle le crieur de\\nmauvais augure.",
+      "french_comparison": "MonteTension",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 720,
+      "cell_bytes": 13,
+      "source_cell_hex": "ccdde7dde2db00d0e3e0e8ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Rising Volt",
+      "pt_bytes": 12,
+      "pixels": [
+        58
+      ]
+    },
+    {
+      "offset": "0xa42ead",
+      "source_hex": "ced9e6e6d5dde2cae9e0e7d9ff",
+      "english_extract": "rnèbre. On l'appelle le crieur de\\nmauvais augure.",
+      "french_comparison": "Chmplificatn",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 721,
+      "cell_bytes": 13,
+      "source_cell_hex": "ced9e6e6d5dde2cae9e0e7d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "TerrainPulse",
+      "pt_bytes": 13,
+      "pixels": [
+        65
+      ]
+    },
+    {
+      "offset": "0xa42eba",
+      "source_hex": "cddfdde8e8d9e6cde1d5d7dfff",
+      "english_extract": "appelle le crieur de\\nmauvais augure.",
+      "french_comparison": "RavagRampant",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 722,
+      "cell_bytes": 13,
+      "source_cell_hex": "cddfdde8e8d9e6cde1d5d7dfff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "SkitterSmack",
+      "pt_bytes": 13,
+      "pixels": [
+        65
+      ]
+    },
+    {
+      "offset": "0xa42ec7",
+      "source_hex": "c4d9d5e0e3e9e700bce9e6e2ff",
+      "english_extract": "ieur de\\nmauvais augure.",
+      "french_comparison": "Feu Envieux",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 723,
+      "cell_bytes": 13,
+      "source_cell_hex": "c4d9d5e0e3e9e700bce9e6e2ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Jealous Burn",
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ]
+    },
+    {
+      "offset": "0xa42ed4",
+      "source_hex": "c6d5e7dc00c9e9e8ff",
+      "english_extract": "is augure.",
+      "french_comparison": "CentRancunes",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 724,
+      "cell_bytes": 13,
+      "source_cell_hex": "c6d5e7dc00c9e9e8ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Lash Out",
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ]
+    },
+    {
+      "offset": "0xa42ee1",
+      "source_hex": "cae3e0e8d9e6dbd9dde7e8ff",
+      "english_extract": "",
+      "french_comparison": "EspritFrapp.",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 725,
+      "cell_bytes": 13,
+      "source_cell_hex": "cae3e0e8d9e6dbd9dde7e8ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Poltergeist",
+      "pt_bytes": 12,
+      "pixels": [
+        59
+      ]
+    },
+    {
+      "offset": "0xa42eee",
+      "source_hex": "bde3e6e6e3d8d900c1d5e7ff",
+      "english_extract": "",
+      "french_comparison": "Gaz Corrosif",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 726,
+      "cell_bytes": 13,
+      "source_cell_hex": "bde3e6e6e3d8d900c1d5e7ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Corrode Gas",
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ]
+    },
+    {
+      "offset": "0xa42efb",
+      "source_hex": "bde3d5d7dcdde2dbff",
+      "english_extract": "",
+      "french_comparison": "Coaching",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 727,
+      "cell_bytes": 13,
+      "source_cell_hex": "bde3d5d7dcdde2dbffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Coaching",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa42f08",
+      "source_hex": "c0e0dde400cee9e6e2ff",
+      "english_extract": "",
+      "french_comparison": "Eau Revoir",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 728,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0e0dde400cee9e6e2ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Flip Turn",
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ]
+    },
+    {
+      "offset": "0xa42f15",
+      "source_hex": "cee6dde4e0d900bbecd9e0ff",
+      "english_extract": "",
+      "french_comparison": "Triple Axel",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 729,
+      "cell_bytes": 13,
+      "source_cell_hex": "cee6dde4e0d900bbecd9e0ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Triple Axel",
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa42f22",
+      "source_hex": "bee9d5e0d1dde2dbd6d9d5e8ff",
+      "english_extract": "",
+      "french_comparison": "Double Volée",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 730,
+      "cell_bytes": 13,
+      "source_cell_hex": "bee9d5e0d1dde2dbd6d9d5e8ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "DualWingbeat",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa42f2f",
+      "source_hex": "cdd7e3e6d7dc00cdd5e2d8e7ff",
+      "english_extract": "",
+      "french_comparison": "Sable Ardent",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 731,
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd7e3e6d7dc00cdd5e2d8e7ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Scorch Sands",
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa42f3c",
+      "source_hex": "c4e9e2dbe0d900c2d9d5e0ff",
+      "english_extract": "",
+      "french_comparison": "SelveSalvat.",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 732,
+      "cell_bytes": 13,
+      "source_cell_hex": "c4e9e2dbe0d900c2d9d5e0ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Jungle Heal",
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ]
+    },
+    {
+      "offset": "0xa42f49",
+      "source_hex": "d1ddd7dfd9d800bce0e3ebff",
+      "english_extract": "ance à planter ses griffes dans\\nle nez de son Dresseur s'il n'a pas été\\nnourri à temps.",
+      "french_comparison": "Poing Obscur",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 733,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1ddd7dfd9d800bce0e3ebffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Wicked Blow",
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa42f56",
+      "source_hex": "cde9e6dbd9cde8e6dddfd9e7ff",
+      "english_extract": "r ses griffes dans\\nle nez de son Dresseur s'il n'a pas été\\nnourri à temps.",
+      "french_comparison": "TorrentDCoup",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 734,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde9e6dbd9cde8e6dddfd9e7ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "SurgeStrikes",
+      "pt_bytes": 13,
+      "pixels": [
+        65
+      ]
+    },
+    {
+      "offset": "0xa42f63",
+      "source_hex": "c0e6d9d9eed900c1e0d5e6d9ff",
+      "english_extract": " dans\\nle nez de son Dresseur s'il n'a pas été\\nnourri à temps.",
+      "french_comparison": "RegardGlaçnt",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 735,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0e6d9d9eed900c1e0d5e6d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Freeze Glare",
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa42f70",
+      "source_hex": "cedce9e2d8d9e600c5ddd7dfff",
+      "english_extract": "de son Dresseur s'il n'a pas été\\nnourri à temps.",
+      "french_comparison": "CoupFulgurnt",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 736,
+      "cell_bytes": 13,
+      "source_cell_hex": "cedce9e2d8d9e600c5ddd7dfff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Thunder Kick",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa42f7d",
+      "source_hex": "c0ddd9e6ed00d1e6d5e8dcff",
+      "english_extract": "ur s'il n'a pas été\\nnourri à temps.",
+      "french_comparison": "FureurArdent",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 737,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0ddd9e6ed00d1e6d5e8dcffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Fiery Wrath",
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa42f8a",
+      "source_hex": "bfd9e6ddd900cde4d9e0e0ff",
+      "english_extract": "as été\\nnourri à temps.",
+      "french_comparison": "SortSinistre",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 738,
+      "cell_bytes": 13,
+      "source_cell_hex": "bfd9e6ddd900cde4d9e0e0ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Eerie Spell",
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa42f97",
+      "source_hex": "cedce9e2d8d9e600bdd5dbd9ff",
+      "english_extract": " à temps.",
+      "french_comparison": "Voltageôle",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 739,
+      "cell_bytes": 13,
+      "source_cell_hex": "cedce9e2d8d9e600bdd5dbd9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Thunder Cage",
+      "pt_bytes": 13,
+      "pixels": [
+        70
+      ]
+    },
+    {
+      "offset": "0xa42fa4",
+      "source_hex": "bee6d5dbe3e2bfe2d9e6dbedff",
+      "english_extract": "",
+      "french_comparison": "DracoÉnergie",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 740,
+      "cell_bytes": 13,
+      "source_cell_hex": "bee6d5dbe3e2bfe2d9e6dbedff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "DragonEnergy",
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ]
+    },
+    {
+      "offset": "0xa42fb1",
+      "source_hex": "bbe7e8e6d5e000cde8e3e6e1ff",
+      "english_extract": "",
+      "french_comparison": "ÉclatSpectr.",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 741,
+      "cell_bytes": 13,
+      "source_cell_hex": "bbe7e8e6d5e000cde8e3e6e1ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Astral Storm",
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ]
+    },
+    {
+      "offset": "0xa42fbe",
+      "source_hex": "c1e0d5d7ddd5e0c6d5e2d7d9ff",
+      "english_extract": "",
+      "french_comparison": "LanceDeGlace",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 742,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1e0d5d7ddd5e0c6d5e2d7d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "GlacialLance",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa42fcb",
+      "source_hex": "bedde6d900bde0d5ebff",
+      "english_extract": "",
+      "french_comparison": "GrifFunestes",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 743,
+      "cell_bytes": 13,
+      "source_cell_hex": "bedde6d900bde0d5ebffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Dire Claw",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa42fd8",
+      "source_hex": "cae7ede7dcddd9e0d8ccd5e1ff",
+      "english_extract": "",
+      "french_comparison": "Sprint Boucl",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 744,
+      "cell_bytes": 13,
+      "source_cell_hex": "cae7ede7dcddd9e0d8ccd5e1ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "PsyshieldRam",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa42fe5",
+      "source_hex": "cae3ebd9e600cddcdddae8ff",
+      "english_extract": "",
+      "french_comparison": "ÉchangeForce",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 745,
+      "cell_bytes": 13,
+      "source_cell_hex": "cae3ebd9e600cddcdddae8ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Power Shift",
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa42ff2",
+      "source_hex": "cde8e3e2d900bbecd9ff",
+      "english_extract": "",
+      "french_comparison": "Hache Pierre",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 746,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8e3e2d900bbecd9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Stone Axe",
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ]
+    },
+    {
+      "offset": "0xa42fff",
+      "source_hex": "c7ede7e8ddd700cae3ebd9e6ff",
+      "english_extract": "",
+      "french_comparison": "Force Mystik",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 747,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7ede7e8ddd700cae3ebd9e6ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Mystic Power",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa4300c",
+      "source_hex": "ccd5dbdde2db00c0e9e6edff",
+      "english_extract": "s queues contre son dos pour\\nparaître plus grand. Il soutient un\\nregard des heures.",
+      "french_comparison": "GranCourroux",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 748,
+      "cell_bytes": 13,
+      "source_cell_hex": "ccd5dbdde2db00c0e9e6edffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Raging Fury",
+      "pt_bytes": 12,
+      "pixels": [
+        62
+      ]
+    },
+    {
+      "offset": "0xa43019",
+      "source_hex": "d1d5ead900bde6d5e7dcff",
+      "english_extract": "re son dos pour\\nparaître plus grand. Il soutient un\\nregard des heures.",
+      "french_comparison": "Aquatacle",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 749,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1d5ead900bde6d5e7dcffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Wave Crash",
+      "pt_bytes": 11,
+      "pixels": [
+        58
+      ]
+    },
+    {
+      "offset": "0xa43026",
+      "source_hex": "bddce0e3e6e3d6e0d5e7e8ff",
+      "english_extract": "ur\\nparaître plus grand. Il soutient un\\nregard des heures.",
+      "french_comparison": "Herblast",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 750,
+      "cell_bytes": 13,
+      "source_cell_hex": "bddce0e3e6e3d6e0d5e7e8ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Chloroblast",
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa43033",
+      "source_hex": "c7e3e9e2e8d5dde2c1d5e0d9ff",
+      "english_extract": "lus grand. Il soutient un\\nregard des heures.",
+      "french_comparison": "BiseGlaciair",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 751,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7e3e9e2e8d5dde2c1d5e0d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "MountainGale",
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ]
+    },
+    {
+      "offset": "0xa43040",
+      "source_hex": "d0ddd7e8e3e6edbed5e2d7d9ff",
+      "english_extract": " soutient un\\nregard des heures.",
+      "french_comparison": "Danse Vict.",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 752,
+      "cell_bytes": 13,
+      "source_cell_hex": "d0ddd7e8e3e6edbed5e2d7d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "VictoryDance",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa4304d",
+      "source_hex": "c2d9d5d8e0e3e2dbcce9e7dcff",
+      "english_extract": "regard des heures.",
+      "french_comparison": "AssautFront.",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 753,
+      "cell_bytes": 13,
+      "source_cell_hex": "c2d9d5d8e0e3e2dbcce9e7dcff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "HeadlongRush",
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa4305a",
+      "source_hex": "bcd5e6d600bcd5e6e6d5dbd9ff",
+      "english_extract": "ures.",
+      "french_comparison": "Multitoxik",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 754,
+      "cell_bytes": 13,
+      "source_cell_hex": "bcd5e6d600bcd5e6e6d5dbd9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Barb Barrage",
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa43067",
+      "source_hex": "bfe7e4d9e600d1dde2dbff",
+      "english_extract": "",
+      "french_comparison": "Ailes Psycho",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 755,
+      "cell_bytes": 13,
+      "source_cell_hex": "bfe7e4d9e600d1dde2dbffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Esper Wing",
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ]
+    },
+    {
+      "offset": "0xa43074",
+      "source_hex": "bcdde8e8d9e6c7d5e0ddd7d9ff",
+      "english_extract": "",
+      "french_comparison": "Cœur Rancœur",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 756,
+      "cell_bytes": 13,
+      "source_cell_hex": "bcdde8e8d9e6c7d5e0ddd7d9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "BitterMalice",
+      "pt_bytes": 13,
+      "pixels": [
+        64
+      ]
+    },
+    {
+      "offset": "0xa43081",
+      "source_hex": "cddcd9e0e8d9e6ff",
+      "english_extract": "",
+      "french_comparison": "Mur Fumigène",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 757,
+      "cell_bytes": 13,
+      "source_cell_hex": "cddcd9e0e8d9e6ffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Shelter",
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ]
+    },
+    {
+      "offset": "0xa4308e",
+      "source_hex": "cee6dde4e0d9bbe6e6e3ebe7ff",
+      "english_extract": "",
+      "french_comparison": "TripleFlèche",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 758,
+      "cell_bytes": 13,
+      "source_cell_hex": "cee6dde4e0d9bbe6e6e3ebe7ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "TripleArrows",
+      "pt_bytes": 13,
+      "pixels": [
+        65
+      ]
+    },
+    {
+      "offset": "0xa4309b",
+      "source_hex": "c3e2dad9e6e2d5e0ccd5dbd9ff",
+      "english_extract": "",
+      "french_comparison": "CortègFunèbr",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 759,
+      "cell_bytes": 13,
+      "source_cell_hex": "c3e2dad9e6e2d5e0ccd5dbd9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "InfernalRage",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa430a8",
+      "source_hex": "bfe2d8e0d9e7e700bfd8dbd9ff",
+      "english_extract": "",
+      "french_comparison": "VaguesÀLames",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 760,
+      "cell_bytes": 13,
+      "source_cell_hex": "bfe2d8e0d9e7e700bfd8dbd9ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Endless Edge",
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ]
+    },
+    {
+      "offset": "0xa430b5",
+      "source_hex": "bce0d9d5dfddd7d9d1dde2d8ff",
+      "english_extract": "",
+      "french_comparison": "TyphHivernal",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 761,
+      "cell_bytes": 13,
+      "source_cell_hex": "bce0d9d5dfddd7d9d1dde2d8ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "BleakiceWind",
+      "pt_bytes": 13,
+      "pixels": [
+        65
+      ]
+    },
+    {
+      "offset": "0xa430c2",
+      "source_hex": "d1dde0d8d6e3e0e8d1dde2d8ff",
+      "english_extract": "n derrière propulse un fluide\\nnauséabond qui peut faire fuir les\\nPokémon dans un rayon de 2 km.",
+      "french_comparison": "TyphFulgurnt",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 762,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1dde0d8d6e3e0e8d1dde2d8ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "WildboltWind",
+      "pt_bytes": 13,
+      "pixels": [
+        64
+      ]
+    },
+    {
+      "offset": "0xa430cf",
+      "source_hex": "cdd5e2d8e7d9d5e6d1dde2d8ff",
+      "english_extract": "opulse un fluide\\nnauséabond qui peut faire fuir les\\nPokémon dans un rayon de 2 km.",
+      "french_comparison": "TyphPyrosabl",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 763,
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd5e2d8e7d9d5e6d1dde2d8ff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "SandsearWind",
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ]
+    },
+    {
+      "offset": "0xa430dc",
+      "source_hex": "cde4e6dde2db00d1dde2d8ff",
+      "english_extract": "ide\\nnauséabond qui peut faire fuir les\\nPokémon dans un rayon de 2 km.",
+      "french_comparison": "TyphPassion",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 764,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde4e6dde2db00d1dde2d8ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Spring Wind",
+      "pt_bytes": 12,
+      "pixels": [
+        59
+      ]
+    },
+    {
+      "offset": "0xa430e9",
+      "source_hex": "c6e9e2d5e600bce0d9e7e7ff",
+      "english_extract": "d qui peut faire fuir les\\nPokémon dans un rayon de 2 km.",
+      "french_comparison": "Prière Luna.",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 765,
+      "cell_bytes": 13,
+      "source_cell_hex": "c6e9e2d5e600bce0d9e7e7ffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Lunar Bless",
+      "pt_bytes": 12,
+      "pixels": [
+        61
+      ]
+    },
+    {
+      "offset": "0xa430f6",
+      "source_hex": "ced5dfd900c2d9d5e6e8ff",
+      "english_extract": "ire fuir les\\nPokémon dans un rayon de 2 km.",
+      "french_comparison": "Xtravaillanc",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 766,
+      "cell_bytes": 13,
+      "source_cell_hex": "ced5dfd900c2d9d5e6e8ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Take Heart",
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa43103",
+      "source_hex": "d4aec7e3ead900a2ff",
+      "english_extract": "Pokémon dans un rayon de 2 km.",
+      "french_comparison": "Z-Move 1",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 767,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 1",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43110",
+      "source_hex": "d4aec7e3ead900a3ff",
+      "english_extract": "un rayon de 2 km.",
+      "french_comparison": "Z-Move 2",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 768,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 2",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa4311d",
+      "source_hex": "d4aec7e3ead900a4ff",
+      "english_extract": " km.",
+      "french_comparison": "Z-Move 3",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 769,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 3",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa4312a",
+      "source_hex": "d4aec7e3ead900a5ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 4",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 770,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 4",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43137",
+      "source_hex": "d4aec7e3ead900a6ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 5",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 771,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a6ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 5",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43144",
+      "source_hex": "d4aec7e3ead900a7ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 6",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 772,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a7ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 6",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43151",
+      "source_hex": "d4aec7e3ead900a8ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 7",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 773,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a8ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 7",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa4315e",
+      "source_hex": "d4aec7e3ead900a9ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 8",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 774,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a9ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 8",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa4316b",
+      "source_hex": "d4aec7e3ead900aaff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 9",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 775,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900aaffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 9",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43178",
+      "source_hex": "d4aec7e3ead900a2a1ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 10",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 776,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 10",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43185",
+      "source_hex": "d4aec7e3ead900a2a2ff",
+      "english_extract": "taque en projetant un liquide\\nfétide du bout de sa queue. Mieux vaut\\nl'attaquer par les airs.",
+      "french_comparison": "Z-Move 11",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 777,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a2ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 11",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43192",
+      "source_hex": "d4aec7e3ead900a2a3ff",
+      "english_extract": "etant un liquide\\nfétide du bout de sa queue. Mieux vaut\\nl'attaquer par les airs.",
+      "french_comparison": "Z-Move 12",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 778,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a3ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 12",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4319f",
+      "source_hex": "d4aec7e3ead900a2a4ff",
+      "english_extract": "ide\\nfétide du bout de sa queue. Mieux vaut\\nl'attaquer par les airs.",
+      "french_comparison": "Z-Move 13",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 779,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a4ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 13",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa431ac",
+      "source_hex": "d4aec7e3ead900a2a5ff",
+      "english_extract": " bout de sa queue. Mieux vaut\\nl'attaquer par les airs.",
+      "french_comparison": "Z-Move 14",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 780,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a5ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 14",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa431b9",
+      "source_hex": "d4aec7e3ead900a2a6ff",
+      "english_extract": "ueue. Mieux vaut\\nl'attaquer par les airs.",
+      "french_comparison": "Z-Move 15",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 781,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a6ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 15",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa431c6",
+      "source_hex": "d4aec7e3ead900a2a7ff",
+      "english_extract": "aut\\nl'attaquer par les airs.",
+      "french_comparison": "Z-Move 16",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 782,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a7ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 16",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa431d3",
+      "source_hex": "d4aec7e3ead900a2a8ff",
+      "english_extract": "r par les airs.",
+      "french_comparison": "Z-Move 17",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 783,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a8ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 17",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa431e0",
+      "source_hex": "d4aec7e3ead900a2a9ff",
+      "english_extract": "s.",
+      "french_comparison": "Z-Move 18",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 784,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2a9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 18",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa431ed",
+      "source_hex": "d4aec7e3ead900a2aaff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 19",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 785,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a2aaffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 19",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa431fa",
+      "source_hex": "d4aec7e3ead900a3a1ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 20",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 786,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 20",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43207",
+      "source_hex": "d4aec7e3ead900a3a2ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 21",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 787,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a2ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 21",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43214",
+      "source_hex": "d4aec7e3ead900a3a3ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 22",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 788,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a3ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 22",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43221",
+      "source_hex": "d4aec7e3ead900a3a4ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 23",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 789,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a4ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 23",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4322e",
+      "source_hex": "d4aec7e3ead900a3a5ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 24",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 790,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a5ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 24",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4323b",
+      "source_hex": "d4aec7e3ead900a3a6ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 25",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 791,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a6ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 25",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43248",
+      "source_hex": "d4aec7e3ead900a3a7ff",
+      "english_extract": " scientifiques soutiennent que\\nce Pokémon était jadis aussi\\nréfléchissant qu'un miroir.",
+      "french_comparison": "Z-Move 26",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 792,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a7ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 26",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43255",
+      "source_hex": "d4aec7e3ead900a3a8ff",
+      "english_extract": "s soutiennent que\\nce Pokémon était jadis aussi\\nréfléchissant qu'un miroir.",
+      "french_comparison": "Z-Move 27",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 793,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a8ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 27",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43262",
+      "source_hex": "d4aec7e3ead900a3a9ff",
+      "english_extract": " que\\nce Pokémon était jadis aussi\\nréfléchissant qu'un miroir.",
+      "french_comparison": "Z-Move 28",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 794,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3a9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 28",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4326f",
+      "source_hex": "d4aec7e3ead900a3aaff",
+      "english_extract": "on était jadis aussi\\nréfléchissant qu'un miroir.",
+      "french_comparison": "Z-Move 29",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 795,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a3aaffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 29",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4327c",
+      "source_hex": "d4aec7e3ead900a4a1ff",
+      "english_extract": "s aussi\\nréfléchissant qu'un miroir.",
+      "french_comparison": "Z-Move 30",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 796,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 30",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43289",
+      "source_hex": "d4aec7e3ead900a4a2ff",
+      "english_extract": "chissant qu'un miroir.",
+      "french_comparison": "Z-Move 31",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 797,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a2ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 31",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43296",
+      "source_hex": "d4aec7e3ead900a4a3ff",
+      "english_extract": "n miroir.",
+      "french_comparison": "Z-Move 32",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 798,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a3ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 32",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa432a3",
+      "source_hex": "d4aec7e3ead900a4a4ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 33",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 799,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a4ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 33",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa432b0",
+      "source_hex": "d4aec7e3ead900a4a5ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 34",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 800,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a5ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 34",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa432bd",
+      "source_hex": "d4aec7e3ead900a4a6ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 35",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 801,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a6ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 35",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa432ca",
+      "source_hex": "d4aec7e3ead900a4a7ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 36",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 802,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a7ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 36",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa432d7",
+      "source_hex": "d4aec7e3ead900a4a8ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 37",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 803,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a8ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 37",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa432e4",
+      "source_hex": "d4aec7e3ead900a4a9ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 38",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 804,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4a9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 38",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa432f1",
+      "source_hex": "d4aec7e3ead900a4aaff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 39",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 805,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a4aaffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 39",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa432fe",
+      "source_hex": "d4aec7e3ead900a5a1ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 40",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 806,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 40",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4330b",
+      "source_hex": "d4aec7e3ead900a5a2ff",
+      "english_extract": "t la pluie en créant un\\nportail vers une autre dimension. Il\\nétait synonyme de bonne récolte.",
+      "french_comparison": "Z-Move 41",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 807,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a2ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 41",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43318",
+      "source_hex": "d4aec7e3ead900a5a3ff",
+      "english_extract": " créant un\\nportail vers une autre dimension. Il\\nétait synonyme de bonne récolte.",
+      "french_comparison": "Z-Move 42",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 808,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a3ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 42",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43325",
+      "source_hex": "d4aec7e3ead900a5a4ff",
+      "english_extract": "rtail vers une autre dimension. Il\\nétait synonyme de bonne récolte.",
+      "french_comparison": "Z-Move 43",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 809,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a4ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 43",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43332",
+      "source_hex": "d4aec7e3ead900a5a5ff",
+      "english_extract": "e autre dimension. Il\\nétait synonyme de bonne récolte.",
+      "french_comparison": "Z-Move 44",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 810,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a5ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 44",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4333f",
+      "source_hex": "d4aec7e3ead900a5a6ff",
+      "english_extract": "sion. Il\\nétait synonyme de bonne récolte.",
+      "french_comparison": "Z-Move 45",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 811,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a6ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 45",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4334c",
+      "source_hex": "d4aec7e3ead900a5a7ff",
+      "english_extract": "t synonyme de bonne récolte.",
+      "french_comparison": "Z-Move 46",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 812,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a7ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 46",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43359",
+      "source_hex": "d4aec7e3ead900a5a8ff",
+      "english_extract": " bonne récolte.",
+      "french_comparison": "Z-Move 47",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 813,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a8ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 47",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43366",
+      "source_hex": "d4aec7e3ead900a5a9ff",
+      "english_extract": "e.",
+      "french_comparison": "Z-Move 48",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 814,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5a9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 48",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43373",
+      "source_hex": "d4aec7e3ead900a5aaff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 49",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 815,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a5aaffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 49",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa43380",
+      "source_hex": "d4aec7e3ead900a6a1ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 50",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 816,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a6a1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 50",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4338d",
+      "source_hex": "d4aec7e3ead900a6a2ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 51",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 817,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a6a2ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 51",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4339a",
+      "source_hex": "d4aec7e3ead900a6a3ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 52",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 818,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a6a3ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 52",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa433a7",
+      "source_hex": "d4aec7e3ead900a6a4ff",
+      "english_extract": "",
+      "french_comparison": "Z-Move 53",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 819,
+      "cell_bytes": 13,
+      "source_cell_hex": "d4aec7e3ead900a6a4ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Z-Move 53",
+      "pt_bytes": 10,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa433b4",
+      "source_hex": "c1e9d5e6d8ff",
+      "english_extract": "",
+      "french_comparison": "Gardomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 820,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1e9d5e6d8ffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Guard",
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ]
+    },
+    {
+      "offset": "0xa433c1",
+      "source_hex": "cde8e6dddfd9ff",
+      "english_extract": "depte des climats secs, il régule son\\nhumidité en laissant couler ce qui\\nressemble à des larmes.",
+      "french_comparison": "Normalomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 821,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8e6dddfd9ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Strike",
+      "pt_bytes": 7,
+      "pixels": [
+        31
+      ]
+    },
+    {
+      "offset": "0xa433ce",
+      "source_hex": "cde8e6dddfd9ff",
+      "english_extract": "mats secs, il régule son\\nhumidité en laissant couler ce qui\\nressemble à des larmes.",
+      "french_comparison": "Normalomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 822,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8e6dddfd9ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Strike",
+      "pt_bytes": 7,
+      "pixels": [
+        31
+      ]
+    },
+    {
+      "offset": "0xa433db",
+      "source_hex": "c5e2e9d7dfe0d9ff",
+      "english_extract": " régule son\\nhumidité en laissant couler ce qui\\nressemble à des larmes.",
+      "french_comparison": "Pugilomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 823,
+      "cell_bytes": 13,
+      "source_cell_hex": "c5e2e9d7dfe0d9ffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Knuckle",
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ]
+    },
+    {
+      "offset": "0xa433e8",
+      "source_hex": "c5e2e9d7dfe0d9ff",
+      "english_extract": "umidité en laissant couler ce qui\\nressemble à des larmes.",
+      "french_comparison": "Pugilomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 824,
+      "cell_bytes": 13,
+      "source_cell_hex": "c5e2e9d7dfe0d9ffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Knuckle",
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ]
+    },
+    {
+      "offset": "0xa433f5",
+      "source_hex": "bbdde6e7e8e6d9d5e1ff",
+      "english_extract": "issant couler ce qui\\nressemble à des larmes.",
+      "french_comparison": "Aéromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 825,
+      "cell_bytes": 13,
+      "source_cell_hex": "bbdde6e7e8e6d9d5e1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Airstream",
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43402",
+      "source_hex": "bbdde6e7e8e6d9d5e1ff",
+      "english_extract": " ce qui\\nressemble à des larmes.",
+      "french_comparison": "Aéromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 826,
+      "cell_bytes": 13,
+      "source_cell_hex": "bbdde6e7e8e6d9d5e1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Airstream",
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa4340f",
+      "source_hex": "c9e3eed9ff",
+      "english_extract": "mble à des larmes.",
+      "french_comparison": "Toxinomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 827,
+      "cell_bytes": 13,
+      "source_cell_hex": "c9e3eed9ffffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Ooze",
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ]
+    },
+    {
+      "offset": "0xa4341c",
+      "source_hex": "c9e3eed9ff",
+      "english_extract": "rmes.",
+      "french_comparison": "Toxinomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 828,
+      "cell_bytes": 13,
+      "source_cell_hex": "c9e3eed9ffffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Ooze",
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ]
+    },
+    {
+      "offset": "0xa43429",
+      "source_hex": "cbe9d5dfd9ff",
+      "english_extract": "",
+      "french_comparison": "Sismomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 829,
+      "cell_bytes": 13,
+      "source_cell_hex": "cbe9d5dfd9ffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Quake",
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ]
+    },
+    {
+      "offset": "0xa43436",
+      "source_hex": "cbe9d5dfd9ff",
+      "english_extract": "",
+      "french_comparison": "Sismomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 830,
+      "cell_bytes": 13,
+      "source_cell_hex": "cbe9d5dfd9ffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Quake",
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ]
+    },
+    {
+      "offset": "0xa43443",
+      "source_hex": "cce3d7dfdad5e0e0ff",
+      "english_extract": "",
+      "french_comparison": "Lithomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 831,
+      "cell_bytes": 13,
+      "source_cell_hex": "cce3d7dfdad5e0e0ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Rockfall",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa43450",
+      "source_hex": "cce3d7dfdad5e0e0ff",
+      "english_extract": "",
+      "french_comparison": "Lithomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 832,
+      "cell_bytes": 13,
+      "source_cell_hex": "cce3d7dfdad5e0e0ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Rockfall",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa4345d",
+      "source_hex": "c0e0e9e8e8d9e6d6edff",
+      "english_extract": "",
+      "french_comparison": "Insectomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 833,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0e0e9e8e8d9e6d6edffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Flutterby",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa4346a",
+      "source_hex": "c0e0e9e8e8d9e6d6edff",
+      "english_extract": "",
+      "french_comparison": "Insectomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 834,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0e0e9e8e8d9e6d6edffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Flutterby",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa43477",
+      "source_hex": "cadcd5e2e8d5e7e1ff",
+      "english_extract": "",
+      "french_comparison": "Spectromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 835,
+      "cell_bytes": 13,
+      "source_cell_hex": "cadcd5e2e8d5e7e1ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Phantasm",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa43484",
+      "source_hex": "cadcd5e2e8d5e7e1ff",
+      "english_extract": "okémon ne se sépare jamais de son\\npetit caillou et a tendance à traîner\\ndans les pieds des gens.",
+      "french_comparison": "Spectromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 836,
+      "cell_bytes": 13,
+      "source_cell_hex": "cadcd5e2e8d5e7e1ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Phantasm",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa43491",
+      "source_hex": "cde8d9d9e0e7e4dddfd9ff",
+      "english_extract": "sépare jamais de son\\npetit caillou et a tendance à traîner\\ndans les pieds des gens.",
+      "french_comparison": "Métallomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 837,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8d9d9e0e7e4dddfd9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Steelspike",
+      "pt_bytes": 11,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa4349e",
+      "source_hex": "cde8d9d9e0e7e4dddfd9ff",
+      "english_extract": " de son\\npetit caillou et a tendance à traîner\\ndans les pieds des gens.",
+      "french_comparison": "Métallomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 838,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8d9d9e0e7e4dddfd9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Steelspike",
+      "pt_bytes": 11,
+      "pixels": [
+        54
+      ]
+    },
+    {
+      "offset": "0xa434ab",
+      "source_hex": "c0e0d5e6d9ff",
+      "english_extract": " caillou et a tendance à traîner\\ndans les pieds des gens.",
+      "french_comparison": "Pyromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 839,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0e0d5e6d9ffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Flare",
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ]
+    },
+    {
+      "offset": "0xa434b8",
+      "source_hex": "c0e0d5e6d9ff",
+      "english_extract": " tendance à traîner\\ndans les pieds des gens.",
+      "french_comparison": "Pyromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 840,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0e0d5e6d9ffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Flare",
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ]
+    },
+    {
+      "offset": "0xa434c5",
+      "source_hex": "c1d9ede7d9e6ff",
+      "english_extract": "raîner\\ndans les pieds des gens.",
+      "french_comparison": "Hydromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 841,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1d9ede7d9e6ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Geyser",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ]
+    },
+    {
+      "offset": "0xa434d2",
+      "source_hex": "c1d9ede7d9e6ff",
+      "english_extract": "es pieds des gens.",
+      "french_comparison": "Hydromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 842,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1d9ede7d9e6ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Geyser",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ]
+    },
+    {
+      "offset": "0xa434df",
+      "source_hex": "c9ead9e6dbe6e3ebe8dcff",
+      "english_extract": "gens.",
+      "french_comparison": "Phytomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 843,
+      "cell_bytes": 13,
+      "source_cell_hex": "c9ead9e6dbe6e3ebe8dcffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Overgrowth",
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa434ec",
+      "source_hex": "c9ead9e6dbe6e3ebe8dcff",
+      "english_extract": "",
+      "french_comparison": "Phytomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 844,
+      "cell_bytes": 13,
+      "source_cell_hex": "c9ead9e6dbe6e3ebe8dcffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Overgrowth",
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa434f9",
+      "source_hex": "c6dddbdce8e2dde2dbff",
+      "english_extract": "",
+      "french_comparison": "Fulguromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 845,
+      "cell_bytes": 13,
+      "source_cell_hex": "c6dddbdce8e2dde2dbffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Lightning",
+      "pt_bytes": 10,
+      "pixels": [
+        47
+      ]
+    },
+    {
+      "offset": "0xa43506",
+      "source_hex": "c6dddbdce8e2dde2dbff",
+      "english_extract": "",
+      "french_comparison": "Fulguromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 846,
+      "cell_bytes": 13,
+      "source_cell_hex": "c6dddbdce8e2dde2dbffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Lightning",
+      "pt_bytes": 10,
+      "pixels": [
+        47
+      ]
+    },
+    {
+      "offset": "0xa43513",
+      "source_hex": "c7dde2d8e7e8e3e6e1ff",
+      "english_extract": "",
+      "french_comparison": "Psychomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 847,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7dde2d8e7e8e3e6e1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Mindstorm",
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43520",
+      "source_hex": "c7dde2d8e7e8e3e6e1ff",
+      "english_extract": "",
+      "french_comparison": "Psychomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 848,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7dde2d8e7e8e3e6e1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Mindstorm",
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa4352d",
+      "source_hex": "c2d5dde0e7e8e3e6e1ff",
+      "english_extract": "",
+      "french_comparison": "Cryomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 849,
+      "cell_bytes": 13,
+      "source_cell_hex": "c2d5dde0e7e8e3e6e1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Hailstorm",
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa4353a",
+      "source_hex": "c2d5dde0e7e8e3e6e1ff",
+      "english_extract": "",
+      "french_comparison": "Cryomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 850,
+      "cell_bytes": 13,
+      "source_cell_hex": "c2d5dde0e7e8e3e6e1ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Hailstorm",
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43547",
+      "source_hex": "d1ede6e1ebdde2d8ff",
+      "english_extract": "ue comparable à celle de l'homme\\nlui permet d'imiter habilement le\\nlangage humain.",
+      "french_comparison": "Dracomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 851,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1ede6e1ebdde2d8ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Wyrmwind",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa43554",
+      "source_hex": "d1ede6e1ebdde2d8ff",
+      "english_extract": " à celle de l'homme\\nlui permet d'imiter habilement le\\nlangage humain.",
+      "french_comparison": "Dracomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 852,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1ede6e1ebdde2d8ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Wyrmwind",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa43561",
+      "source_hex": "bed5e6dfe2d9e7e7ff",
+      "english_extract": "'homme\\nlui permet d'imiter habilement le\\nlangage humain.",
+      "french_comparison": "Sinistromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 853,
+      "cell_bytes": 13,
+      "source_cell_hex": "bed5e6dfe2d9e7e7ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Darkness",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa4356e",
+      "source_hex": "bed5e6dfe2d9e7e7ff",
+      "english_extract": "rmet d'imiter habilement le\\nlangage humain.",
+      "french_comparison": "Sinistromax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 854,
+      "cell_bytes": 13,
+      "source_cell_hex": "bed5e6dfe2d9e7e7ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Darkness",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa4357b",
+      "source_hex": "cde8d5e6dad5e0e0ff",
+      "english_extract": " habilement le\\nlangage humain.",
+      "french_comparison": "Enchantomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 855,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8d5e6dad5e0e0ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Starfall",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa43588",
+      "source_hex": "cde8d5e6dad5e0e0ff",
+      "english_extract": "e\\nlangage humain.",
+      "french_comparison": "Enchantomax",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 856,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8d5e6dad5e0e0ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Starfall",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa43595",
+      "source_hex": "d0dde2d900c6d5e7dcff",
+      "english_extract": "ain.",
+      "french_comparison": "Fouet",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 857,
+      "cell_bytes": 13,
+      "source_cell_hex": "d0dde2d900c6d5e7dcffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Vine Lash",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa435a2",
+      "source_hex": "d0dde2d900c6d5e7dcff",
+      "english_extract": "",
+      "french_comparison": "Fouet",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 858,
+      "cell_bytes": 13,
+      "source_cell_hex": "d0dde2d900c6d5e7dcffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Vine Lash",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa435af",
+      "source_hex": "d1dde0d8dadde6d9ff",
+      "english_extract": "",
+      "french_comparison": "Fournaise",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 859,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1dde0d8dadde6d9ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Wildfire",
+      "pt_bytes": 9,
+      "pixels": [
+        41
+      ]
+    },
+    {
+      "offset": "0xa435bc",
+      "source_hex": "d1dde0d8dadde6d9ff",
+      "english_extract": "",
+      "french_comparison": "Fournaise",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 860,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1dde0d8dadde6d9ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Wildfire",
+      "pt_bytes": 9,
+      "pixels": [
+        41
+      ]
+    },
+    {
+      "offset": "0xa435c9",
+      "source_hex": "bdd5e2e2e3e2d5d8d9ff",
+      "english_extract": "",
+      "french_comparison": "Canonnade",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 861,
+      "cell_bytes": 13,
+      "source_cell_hex": "bdd5e2e2e3e2d5d8d9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Cannonade",
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ]
+    },
+    {
+      "offset": "0xa435d6",
+      "source_hex": "bdd5e2e2e3e2d5d8d9ff",
+      "english_extract": "",
+      "french_comparison": "Canonnade",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 862,
+      "cell_bytes": 13,
+      "source_cell_hex": "bdd5e2e2e3e2d5d8d9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Cannonade",
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ]
+    },
+    {
+      "offset": "0xa435e3",
+      "source_hex": "bcd9dae9d8d8e0d9ff",
+      "english_extract": "",
+      "french_comparison": "Illusion",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 863,
+      "cell_bytes": 13,
+      "source_cell_hex": "bcd9dae9d8d8e0d9ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Befuddle",
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ]
+    },
+    {
+      "offset": "0xa435f0",
+      "source_hex": "bcd9dae9d8d8e0d9ff",
+      "english_extract": "",
+      "french_comparison": "Illusion",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 864,
+      "cell_bytes": 13,
+      "source_cell_hex": "bcd9dae9d8d8e0d9ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Befuddle",
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ]
+    },
+    {
+      "offset": "0xa435fd",
+      "source_hex": "d0e3e0e8d7e6d5e7dcff",
+      "english_extract": "",
+      "french_comparison": "Foudre",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 865,
+      "cell_bytes": 13,
+      "source_cell_hex": "d0e3e0e8d7e6d5e7dcffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Voltcrash",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa4360a",
+      "source_hex": "d0e3e0e8d7e6d5e7dcff",
+      "english_extract": "s comportement lui a valu\\nd'être enchaîné à une Clé de Voûte par\\nun mystérieux sortilège.",
+      "french_comparison": "Foudre",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 866,
+      "cell_bytes": 13,
+      "source_cell_hex": "d0e3e0e8d7e6d5e7dcffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Voltcrash",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa43617",
+      "source_hex": "c1e3e0d8e6e9e7dcff",
+      "english_extract": "t lui a valu\\nd'être enchaîné à une Clé de Voûte par\\nun mystérieux sortilège.",
+      "french_comparison": "Pactole",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 867,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1e3e0d8e6e9e7dcffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Goldrush",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa43624",
+      "source_hex": "c1e3e0d8e6e9e7dcff",
+      "english_extract": "d'être enchaîné à une Clé de Voûte par\\nun mystérieux sortilège.",
+      "french_comparison": "Pactole",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 868,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1e3e0d8e6e9e7dcffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Goldrush",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa43631",
+      "source_hex": "bddcdde7e8e6dddfd9ff",
+      "english_extract": "né à une Clé de Voûte par\\nun mystérieux sortilège.",
+      "french_comparison": "Frappe",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 869,
+      "cell_bytes": 13,
+      "source_cell_hex": "bddcdde7e8e6dddfd9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Chistrike",
+      "pt_bytes": 10,
+      "pixels": [
+        46
+      ]
+    },
+    {
+      "offset": "0xa4363e",
+      "source_hex": "bddcdde7e8e6dddfd9ff",
+      "english_extract": "de Voûte par\\nun mystérieux sortilège.",
+      "french_comparison": "Frappe",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 870,
+      "cell_bytes": 13,
+      "source_cell_hex": "bddcdde7e8e6dddfd9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Chistrike",
+      "pt_bytes": 10,
+      "pixels": [
+        46
+      ]
+    },
+    {
+      "offset": "0xa4364b",
+      "source_hex": "ced9e6e6e3e6ff",
+      "english_extract": "un mystérieux sortilège.",
+      "french_comparison": "Hantise",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 871,
+      "cell_bytes": 13,
+      "source_cell_hex": "ced9e6e6e3e6ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Terror",
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ]
+    },
+    {
+      "offset": "0xa43658",
+      "source_hex": "ced9e6e6e3e6ff",
+      "english_extract": " sortilège.",
+      "french_comparison": "Hantise",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 872,
+      "cell_bytes": 13,
+      "source_cell_hex": "ced9e6e6e3e6ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Terror",
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ]
+    },
+    {
+      "offset": "0xa43665",
+      "source_hex": "c0e3d5e1d6e9e6e7e8ff",
+      "english_extract": "",
+      "french_comparison": "Bulles",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 873,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0e3d5e1d6e9e6e7e8ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Foamburst",
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ]
+    },
+    {
+      "offset": "0xa43672",
+      "source_hex": "c0e3d5e1d6e9e6e7e8ff",
+      "english_extract": "",
+      "french_comparison": "Bulles",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 874,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0e3d5e1d6e9e6e7e8ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Foamburst",
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ]
+    },
+    {
+      "offset": "0xa4367f",
+      "source_hex": "ccd9e7e3e2d5e2d7d9ff",
+      "english_extract": "",
+      "french_comparison": "Résonance",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 875,
+      "cell_bytes": 13,
+      "source_cell_hex": "ccd9e7e3e2d5e2d7d9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Resonance",
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ]
+    },
+    {
+      "offset": "0xa4368c",
+      "source_hex": "ccd9e7e3e2d5e2d7d9ff",
+      "english_extract": "",
+      "french_comparison": "Résonance",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 876,
+      "cell_bytes": 13,
+      "source_cell_hex": "ccd9e7e3e2d5e2d7d9ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Resonance",
+      "pt_bytes": 10,
+      "pixels": [
+        51
+      ]
+    },
+    {
+      "offset": "0xa43699",
+      "source_hex": "bde9d8d8e0d9ff",
+      "english_extract": "",
+      "french_comparison": "Câlin",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 877,
+      "cell_bytes": 13,
+      "source_cell_hex": "bde9d8d8e0d9ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Cuddle",
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ]
+    },
+    {
+      "offset": "0xa436a6",
+      "source_hex": "bde9d8d8e0d9ff",
+      "english_extract": "",
+      "french_comparison": "Câlin",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 878,
+      "cell_bytes": 13,
+      "source_cell_hex": "bde9d8d8e0d9ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Cuddle",
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ]
+    },
+    {
+      "offset": "0xa436b3",
+      "source_hex": "ccd9e4e0d9e2dde7dcff",
+      "english_extract": "",
+      "french_comparison": "Récolte",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 879,
+      "cell_bytes": 13,
+      "source_cell_hex": "ccd9e4e0d9e2dde7dcffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Replenish",
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ]
+    },
+    {
+      "offset": "0xa436c0",
+      "source_hex": "ccd9e4e0d9e2dde7dcff",
+      "english_extract": "Toujours à la recherche d'objets\\nbrillants, il arpente les grottes pour\\nconstituer son butin.",
+      "french_comparison": "Récolte",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 880,
+      "cell_bytes": 13,
+      "source_cell_hex": "ccd9e4e0d9e2dde7dcffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Replenish",
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ]
+    },
+    {
+      "offset": "0xa436cd",
+      "source_hex": "c7d5e0e3d8e3e6ff",
+      "english_extract": " recherche d'objets\\nbrillants, il arpente les grottes pour\\nconstituer son butin.",
+      "french_comparison": "Pestilence",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 881,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7d5e0e3d8e3e6ffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Malodor",
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ]
+    },
+    {
+      "offset": "0xa436da",
+      "source_hex": "c7d5e0e3d8e3e6ff",
+      "english_extract": "objets\\nbrillants, il arpente les grottes pour\\nconstituer son butin.",
+      "french_comparison": "Pestilence",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 882,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7d5e0e3d8e3e6ffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Malodor",
+      "pt_bytes": 8,
+      "pixels": [
+        40
+      ]
+    },
+    {
+      "offset": "0xa436e7",
+      "source_hex": "c7d9e0e8d8e3ebe2ff",
+      "english_extract": "nts, il arpente les grottes pour\\nconstituer son butin.",
+      "french_comparison": "Fonte",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 883,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7d9e0e8d8e3ebe2ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Meltdown",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa436f4",
+      "source_hex": "c7d9e0e8d8e3ebe2ff",
+      "english_extract": "te les grottes pour\\nconstituer son butin.",
+      "french_comparison": "Fonte",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 884,
+      "cell_bytes": 13,
+      "source_cell_hex": "c7d9e0e8d8e3ebe2ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Meltdown",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa43701",
+      "source_hex": "bee6e9e100cde3e0e3ff",
+      "english_extract": "s pour\\nconstituer son butin.",
+      "french_comparison": "Percussion",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 885,
+      "cell_bytes": 13,
+      "source_cell_hex": "bee6e9e100cde3e0e3ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Drum Solo",
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ]
+    },
+    {
+      "offset": "0xa4370e",
+      "source_hex": "bee6e9e100cde3e0e3ff",
+      "english_extract": "tuer son butin.",
+      "french_comparison": "Percussion",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 886,
+      "cell_bytes": 13,
+      "source_cell_hex": "bee6e9e100cde3e0e3ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Drum Solo",
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ]
+    },
+    {
+      "offset": "0xa4371b",
+      "source_hex": "c0dde6d9d6d5e0e0ff",
+      "english_extract": "n.",
+      "french_comparison": "Pyroball",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 887,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0dde6d9d6d5e0e0ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Fireball",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa43728",
+      "source_hex": "c0dde6d9d6d5e0e0ff",
+      "english_extract": "",
+      "french_comparison": "Pyroball",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 888,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0dde6d9d6d5e0e0ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Fireball",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa43735",
+      "source_hex": "c2edd8e6e3e7e2dde4d9ff",
+      "english_extract": "",
+      "french_comparison": "Gâchette",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 889,
+      "cell_bytes": 13,
+      "source_cell_hex": "c2edd8e6e3e7e2dde4d9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Hydrosnipe",
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ]
+    },
+    {
+      "offset": "0xa43742",
+      "source_hex": "c2edd8e6e3e7e2dde4d9ff",
+      "english_extract": "",
+      "french_comparison": "Gâchette",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 890,
+      "cell_bytes": 13,
+      "source_cell_hex": "c2edd8e6e3e7e2dde4d9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Hydrosnipe",
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ]
+    },
+    {
+      "offset": "0xa4374f",
+      "source_hex": "d1dde2d8e6d5dbd9ff",
+      "english_extract": "",
+      "french_comparison": "Intempérie",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 891,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1dde2d8e6d5dbd9ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Windrage",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa4375c",
+      "source_hex": "d1dde2d8e6d5dbd9ff",
+      "english_extract": "",
+      "french_comparison": "Intempérie",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 892,
+      "cell_bytes": 13,
+      "source_cell_hex": "d1dde2d8e6d5dbd9ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Windrage",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa43769",
+      "source_hex": "c1e6d5eadde8d5e7ff",
+      "english_extract": "",
+      "french_comparison": "Ondes",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 893,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1e6d5eadde8d5e7ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Gravitas",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa43776",
+      "source_hex": "c1e6d5eadde8d5e7ff",
+      "english_extract": "Gravitas",
+      "french_comparison": "Ondes",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 894,
+      "cell_bytes": 13,
+      "source_cell_hex": "c1e6d5eadde8d5e7ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Gravitas",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa43783",
+      "source_hex": "cde8e3e2d9e7e9e6dbd9ff",
+      "english_extract": "Stonesurge",
+      "french_comparison": "Stonesurge",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 895,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8e3e2d9e7e9e6dbd9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Stonesurge",
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa43790",
+      "source_hex": "cde8e3e2d9e7e9e6dbd9ff",
+      "english_extract": "Stonesurge",
+      "french_comparison": "Stonesurge",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 896,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8e3e2d9e7e9e6dbd9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Stonesurge",
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa4379d",
+      "source_hex": "d0e3e0d7d5e0dde8dcff",
+      "english_extract": "Volcalith",
+      "french_comparison": "Volcalith",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 897,
+      "cell_bytes": 13,
+      "source_cell_hex": "d0e3e0d7d5e0dde8dcffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Volcalith",
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ]
+    },
+    {
+      "offset": "0xa437aa",
+      "source_hex": "d0e3e0d7d5e0dde8dcff",
+      "english_extract": "Volcalith",
+      "french_comparison": "Volcalith",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 898,
+      "cell_bytes": 13,
+      "source_cell_hex": "d0e3e0d7d5e0dde8dcffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Volcalith",
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ]
+    },
+    {
+      "offset": "0xa437b7",
+      "source_hex": "ced5e6e8e2d9e7e7ff",
+      "english_extract": "Tartness",
+      "french_comparison": "Tartness",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 899,
+      "cell_bytes": 13,
+      "source_cell_hex": "ced5e6e8e2d9e7e7ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Tartness",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa437c4",
+      "source_hex": "ced5e6e8e2d9e7e7ff",
+      "english_extract": "Tartness",
+      "french_comparison": "Tartness",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 900,
+      "cell_bytes": 13,
+      "source_cell_hex": "ced5e6e8e2d9e7e7ffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Tartness",
+      "pt_bytes": 9,
+      "pixels": [
+        43
+      ]
+    },
+    {
+      "offset": "0xa437d1",
+      "source_hex": "cdebd9d9e8e2d9e7e7ff",
+      "english_extract": "Sweetness",
+      "french_comparison": "Sweetness",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 901,
+      "cell_bytes": 13,
+      "source_cell_hex": "cdebd9d9e8e2d9e7e7ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Sweetness",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa437de",
+      "source_hex": "cdebd9d9e8e2d9e7e7ff",
+      "english_extract": "Sweetness",
+      "french_comparison": "Sweetness",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 902,
+      "cell_bytes": 13,
+      "source_cell_hex": "cdebd9d9e8e2d9e7e7ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Sweetness",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa437eb",
+      "source_hex": "cdd5e2d8d6e0d5e7e8ff",
+      "english_extract": "Sandblast",
+      "french_comparison": "Sandblast",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 903,
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd5e2d8d6e0d5e7e8ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Sandblast",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa437f8",
+      "source_hex": "cdd5e2d8d6e0d5e7e8ff",
+      "english_extract": "Sandblast",
+      "french_comparison": "Sandblast",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 904,
+      "cell_bytes": 13,
+      "source_cell_hex": "cdd5e2d8d6e0d5e7e8ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Sandblast",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa43805",
+      "source_hex": "cde8e9e2e7dce3d7dfff",
+      "english_extract": "Stunshock",
+      "french_comparison": "Stunshock",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 905,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8e9e2e7dce3d7dfffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Stunshock",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa43812",
+      "source_hex": "cde8e9e2e7dce3d7dfff",
+      "english_extract": "Stunshock",
+      "french_comparison": "Stunshock",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 906,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8e9e2e7dce3d7dfffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Stunshock",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ]
+    },
+    {
+      "offset": "0xa4381f",
+      "source_hex": "bdd9e2e8dddad9e6e2e3ff",
+      "english_extract": "Centiferno",
+      "french_comparison": "Centiferno",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 907,
+      "cell_bytes": 13,
+      "source_cell_hex": "bdd9e2e8dddad9e6e2e3ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Centiferno",
+      "pt_bytes": 11,
+      "pixels": [
+        53
+      ]
+    },
+    {
+      "offset": "0xa4382c",
+      "source_hex": "bdd9e2e8dddad9e6e2e3ff",
+      "english_extract": "Centiferno",
+      "french_comparison": "Centiferno",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 908,
+      "cell_bytes": 13,
+      "source_cell_hex": "bdd9e2e8dddad9e6e2e3ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Centiferno",
+      "pt_bytes": 11,
+      "pixels": [
+        53
+      ]
+    },
+    {
+      "offset": "0xa43839",
+      "source_hex": "cde1dde8d9ff",
+      "english_extract": "Smite",
+      "french_comparison": "Smite",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 909,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde1dde8d9ffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Smite",
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ]
+    },
+    {
+      "offset": "0xa43846",
+      "source_hex": "cde1dde8d9ff",
+      "english_extract": "Smite",
+      "french_comparison": "Smite",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 910,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde1dde8d9ffffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Smite",
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ]
+    },
+    {
+      "offset": "0xa43853",
+      "source_hex": "cde2e3e3eed9ff",
+      "english_extract": "Snooze",
+      "french_comparison": "Snooze",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 911,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde2e3e3eed9ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Snooze",
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ]
+    },
+    {
+      "offset": "0xa43860",
+      "source_hex": "cde2e3e3eed9ff",
+      "english_extract": "Snooze",
+      "french_comparison": "Snooze",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 912,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde2e3e3eed9ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Snooze",
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ]
+    },
+    {
+      "offset": "0xa4386d",
+      "source_hex": "c0dde2d5e0d9ff",
+      "english_extract": "Finale",
+      "french_comparison": "Finale",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 913,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0dde2d5e0d9ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Finale",
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ]
+    },
+    {
+      "offset": "0xa4387a",
+      "source_hex": "c0dde2d5e0d9ff",
+      "english_extract": "Finale",
+      "french_comparison": "Finale",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 914,
+      "cell_bytes": 13,
+      "source_cell_hex": "c0dde2d5e0d9ffffffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Finale",
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ]
+    },
+    {
+      "offset": "0xa43887",
+      "source_hex": "cde8d9d9e0e7e9e6dbd9ff",
+      "english_extract": "Steelsurge",
+      "french_comparison": "Steelsurge",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 915,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8d9d9e0e7e9e6dbd9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Steelsurge",
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa43894",
+      "source_hex": "cde8d9d9e0e7e9e6dbd9ff",
+      "english_extract": "Steelsurge",
+      "french_comparison": "Steelsurge",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 916,
+      "cell_bytes": 13,
+      "source_cell_hex": "cde8d9d9e0e7e9e6dbd9ffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Steelsurge",
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa438a1",
+      "source_hex": "bed9e4e0d9e8dde3e2ff",
+      "english_extract": "Depletion",
+      "french_comparison": "Depletion",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 917,
+      "cell_bytes": 13,
+      "source_cell_hex": "bed9e4e0d9e8dde3e2ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Depletion",
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ]
+    },
+    {
+      "offset": "0xa438ae",
+      "source_hex": "bed9e4e0d9e8dde3e2ff",
+      "english_extract": "Depletion",
+      "french_comparison": "Depletion",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 918,
+      "cell_bytes": 13,
+      "source_cell_hex": "bed9e4e0d9e8dde3e2ffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Depletion",
+      "pt_bytes": 10,
+      "pixels": [
+        49
+      ]
+    },
+    {
+      "offset": "0xa438bb",
+      "source_hex": "c9e2d900bce0e3ebff",
+      "english_extract": "One Blow",
+      "french_comparison": "One Blow",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 919,
+      "cell_bytes": 13,
+      "source_cell_hex": "c9e2d900bce0e3ebffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "One Blow",
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ]
+    },
+    {
+      "offset": "0xa438c8",
+      "source_hex": "c9e2d900bce0e3ebff",
+      "english_extract": "One Blow",
+      "french_comparison": "One Blow",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 920,
+      "cell_bytes": 13,
+      "source_cell_hex": "c9e2d900bce0e3ebffffffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "One Blow",
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ]
+    },
+    {
+      "offset": "0xa438d5",
+      "source_hex": "ccd5e4ddd800c0e0e3ebff",
+      "english_extract": "Rapid Flow",
+      "french_comparison": "Rapid Flow",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 921,
+      "cell_bytes": 13,
+      "source_cell_hex": "ccd5e4ddd800c0e0e3ebffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Rapid Flow",
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa438e2",
+      "source_hex": "ccd5e4ddd800c0e0e3ebff",
+      "english_extract": "Rapid Flow",
+      "french_comparison": "Rapid Flow",
+      "references": [],
+      "kind": "move_name",
+      "status": "retained",
+      "move_id": 922,
+      "cell_bytes": 13,
+      "source_cell_hex": "ccd5e4ddd800c0e0e3ebffffff",
+      "reason": "F-759 : nom non attesté, conserver le nom anglais réel ; extraction EN contaminée si différente.",
+      "expected": "Rapid Flow",
+      "pt_bytes": 11,
+      "pixels": [
+        57
+      ]
+    },
+    {
+      "offset": "0xa438ef",
+      "source_hex": "00cdd9e800c0e0d5dbff",
+      "english_extract": " Set Flag",
+      "french_comparison": "Set Flag",
+      "references": [],
+      "kind": "exception",
+      "status": "exception",
+      "reason": "Octet séparateur après la table des mouvements (dernière cellule 922), suivi de Set Flag à 0xa438f0 ; aucun pointeur direct. Consommateur réel 0x9a51c8 → 0xa438f0 ; ne pas traduire le préfixe chevauchant."
+    },
+    {
+      "offset": "0xa438f0",
+      "source_hex": "cdd9e800c0e0d5dbff",
+      "english_extract": "Set Flag",
+      "french_comparison": null,
+      "references": [
+        10113480
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Definir flag",
+      "pt_bytes": 13,
+      "pixels": [
+        63
+      ]
+    },
+    {
+      "offset": "0xa438f9",
+      "source_hex": "c1ddead900c3e8d9e1ff",
+      "english_extract": "Give Item",
+      "french_comparison": "Give Item",
+      "references": [
+        10113494
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Dar item",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa43903",
+      "source_hex": "c6d9ead9e000a2a1a100ced9d5e1ff",
+      "english_extract": "Level 100 Team",
+      "french_comparison": "Level 100 Team",
+      "references": [
+        10113508
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Equipe nível 100",
+      "pt_bytes": 17,
+      "pixels": [
+        92
+      ]
+    },
+    {
+      "offset": "0xa43912",
+      "source_hex": "c7d5ec00bde3dde2d5dbd9ff",
+      "english_extract": "Max Coinage",
+      "french_comparison": "Max Coinage",
+      "references": [
+        10113522
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Máximo de moedas",
+      "pt_bytes": 17,
+      "pixels": [
+        93
+      ]
+    },
+    {
+      "offset": "0xa4391e",
+      "source_hex": "cddcdde2ed00ced9d5e1ff",
+      "english_extract": "Shiny Team",
+      "french_comparison": "Shiny Team",
+      "references": [
+        10113536
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Equipe brilhante",
+      "pt_bytes": 17,
+      "pixels": [
+        88
+      ]
+    },
+    {
+      "offset": "0xa43929",
+      "source_hex": "bbe0e000bcd5d8dbd9e7ff",
+      "english_extract": "All Badges",
+      "french_comparison": "All Badges",
+      "references": [
+        10113617
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Todas as insígnias",
+      "pt_bytes": 19,
+      "pixels": [
+        98
+      ]
+    },
+    {
+      "offset": "0xa43934",
+      "source_hex": "c1d5e1d900bde0d9d5e6ff",
+      "english_extract": "Game Clear",
+      "french_comparison": "Game Clear",
+      "references": [
+        10113631
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Jogo concluído",
+      "pt_bytes": 15,
+      "pixels": [
+        82
+      ]
+    },
+    {
+      "offset": "0xa4393f",
+      "source_hex": "bde9e7e8e3e100c0e0d5dbff",
+      "english_extract": "Custom Flag",
+      "french_comparison": "Custom Flag",
+      "references": [
+        10113673
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Flag própria",
+      "pt_bytes": 13,
+      "pixels": [
+        67
+      ]
+    },
+    {
+      "offset": "0xa4394b",
+      "source_hex": "cae3dfd9d8d9ecd9e7ff",
+      "english_extract": "Pokedexes",
+      "french_comparison": "Pokédex",
+      "references": [
+        10113645
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Pokédex",
+      "pt_bytes": 8,
+      "pixels": [
+        41
+      ]
+    },
+    {
+      "offset": "0xa43955",
+      "source_hex": "c0e0ed00cde4e3e8e7ff",
+      "english_extract": "Fly Spots",
+      "french_comparison": "Fly Spots",
+      "references": [
+        10113659
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Locais de Fly",
+      "pt_bytes": 14,
+      "pixels": [
+        74
+      ]
+    },
+    {
+      "offset": "0xa4395f",
+      "source_hex": "cfe7d9dae9e000c5d9ed00c3e8d9e1e7ff",
+      "english_extract": "Useful Key Items",
+      "french_comparison": "Useful Key Items",
+      "references": [
+        10113713
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Itens-chave úteis",
+      "pt_bytes": 18,
+      "pixels": [
+        95
+      ]
+    },
+    {
+      "offset": "0xa43970",
+      "source_hex": "c1d9e2d9e6d5e000cfe7d9dae9e000c3e8d9e1e7ff",
+      "english_extract": "General Useful Items",
+      "french_comparison": "General Useful Items",
+      "references": [
+        10113727
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Itens úteis",
+      "pt_bytes": 12,
+      "pixels": [
+        59
+      ]
+    },
+    {
+      "offset": "0xa43985",
+      "source_hex": "cae3df1b00bcd5e0e0e7ff",
+      "english_extract": "Poké Balls",
+      "french_comparison": "Poké Balls",
+      "references": [
+        10113741
+      ],
+      "kind": "debug_menu",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Poké Balls",
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa43990",
+      "source_hex": "bcd9e6e6ddd9e7ff",
+      "english_extract": "Berries",
+      "french_comparison": "Berries",
+      "references": [
+        10113755
+      ],
+      "kind": "debug_menu",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Berries",
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ]
+    },
+    {
+      "offset": "0xa43998",
+      "source_hex": "cec7e700d5e2d800c2c7e7ff",
+      "english_extract": "TMs and HMs",
+      "french_comparison": "CT et CS",
+      "references": [
+        10113769
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "TMs e HMs",
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ]
+    },
+    {
+      "offset": "0xa439a4",
+      "source_hex": "bbe0e000c3e8d9e1e7ff",
+      "english_extract": "All Items",
+      "french_comparison": "All Items",
+      "references": [
+        10113783
+      ],
+      "kind": "debug_menu",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Todos os itens",
+      "pt_bytes": 15,
+      "pixels": [
+        77
+      ]
+    },
+    {
+      "offset": "0xa439b0",
+      "source_hex": "d1d5e8d9e6ff",
+      "english_extract": null,
+      "french_comparison": "Eau",
+      "references": [
+        10318624,
+        10319380
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Água",
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ]
+    },
+    {
+      "offset": "0xa439b6",
+      "source_hex": "c6d5e2d8ff",
+      "english_extract": "Land",
+      "french_comparison": "Terre",
+      "references": [
+        10319388
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Terra",
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ]
+    },
+    {
+      "offset": "0xa439bb",
+      "source_hex": "cadde2df00c0e0e3ebd9e6e7ff",
+      "english_extract": "Pink Flowers",
+      "french_comparison": "Fleurs roses",
+      "references": [
+        10319360
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Flores rosas",
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ]
+    },
+    {
+      "offset": "0xa439c8",
+      "source_hex": "d3d9e0e0e3eb00c0e0e3ebd9e6e7ff",
+      "english_extract": "Yellow Flowers",
+      "french_comparison": "Fleurs jaunes",
+      "references": [
+        10319356
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Flores amarelas",
+      "pt_bytes": 16,
+      "pixels": [
+        84
+      ]
+    },
+    {
+      "offset": "0xa439d7",
+      "source_hex": "ccd9d800c0e0e3ebd9e6e7ff",
+      "english_extract": "Red Flowers",
+      "french_comparison": "Fleurs rouges",
+      "references": [
+        10319368
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Flores vermelhas",
+      "pt_bytes": 17,
+      "pixels": [
+        90
+      ]
+    },
+    {
+      "offset": "0xa439e3",
+      "source_hex": "bce0e9d900c0e0e3ebd9e6e7ff",
+      "english_extract": "Blue Flowers",
+      "french_comparison": "Fleurs bleues",
+      "references": [
+        10319364
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Flores azuis",
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ]
+    },
+    {
+      "offset": "0xa439f0",
+      "source_hex": "cadde2dfaecae9e6e4e0d900c0e0e3ebd9e6e7ff",
+      "english_extract": "Pink-Purple Flowers",
+      "french_comparison": "Fleurs rose-violet",
+      "references": [
+        10319376
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Flores rosa-roxas",
+      "pt_bytes": 18,
+      "pixels": [
+        95
+      ]
+    },
+    {
+      "offset": "0xa43a04",
+      "source_hex": "bce0e9d9aed3d9e0e0e3eb00c0e0e3ebd9e6e7ff",
+      "english_extract": "Blue-Yellow Flowers",
+      "french_comparison": "Fleurs bleu-jaune",
+      "references": [
+        10319372
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Flores azul-amarelas",
+      "pt_bytes": 21,
+      "pixels": [
+        113
+      ]
+    },
+    {
+      "offset": "0xa43a18",
+      "source_hex": "c7d5dbe1d5ff",
+      "english_extract": "Magma",
+      "french_comparison": "Magma",
+      "references": [
+        10318616
+      ],
+      "kind": "dexnav",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Magma",
+      "pt_bytes": 6,
+      "pixels": [
+        30
+      ]
+    },
+    {
+      "offset": "0xa43a1e",
+      "source_hex": "cdd5e2d8ff",
+      "english_extract": "Sand",
+      "french_comparison": "Sable",
+      "references": [
+        10319384
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Areia",
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ]
+    },
+    {
+      "offset": "0xa43a23",
+      "source_hex": "ccd9d9d8e7ff",
+      "english_extract": "Reeds",
+      "french_comparison": "Roseaux",
+      "references": [
+        10318632
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Juncos",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ]
+    },
+    {
+      "offset": "0xa43a29",
+      "source_hex": "bed9d9e400d1d5e8d9e6ff",
+      "english_extract": "Deep Water",
+      "french_comparison": "Eau profonde",
+      "references": [
+        10318628
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Água profunda",
+      "pt_bytes": 14,
+      "pixels": [
+        75
+      ]
+    },
+    {
+      "offset": "0xa43a34",
+      "source_hex": "bddcd5dde2f000ff",
+      "english_extract": "Chain: ",
+      "french_comparison": "Chaîne :",
+      "references": [
+        10318576
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Sequência:<0x00>",
+      "pt_bytes": 12,
+      "pixels": [
+        56
+      ]
+    },
+    {
+      "offset": "0xa43a3c",
+      "source_hex": "bdd5e4e8e9e6d900dadde6e7e8abff",
+      "english_extract": "Capture first!",
+      "french_comparison": "Capture d'abord !",
+      "references": [
+        10314688
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Capture antes!",
+      "pt_bytes": 15,
+      "pixels": [
+        79
+      ]
+    },
+    {
+      "offset": "0xa43a4b",
+      "source_hex": "d1d5e0dfff",
+      "english_extract": "Walk",
+      "french_comparison": "À pied",
+      "references": [
+        10314636
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Caminhar",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ]
+    },
+    {
+      "offset": "0xa43a50",
+      "source_hex": "cde9e6daff",
+      "english_extract": "Surf",
+      "french_comparison": "Surf",
+      "references": [
+        10314656
+      ],
+      "kind": "dexnav",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Surf",
+      "pt_bytes": 5,
+      "pixels": [
+        22
+      ]
+    },
+    {
+      "offset": "0xa43a55",
+      "source_hex": "c6d5ead500cde9e6daff",
+      "english_extract": "Lava Surf",
+      "french_comparison": "Surf sur lave",
+      "references": [
+        10314652
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Surf na lava",
+      "pt_bytes": 13,
+      "pixels": [
+        68
+      ]
+    },
+    {
+      "offset": "0xa43a5f",
+      "source_hex": "c9e0d800cce3d8ff",
+      "english_extract": "Old Rod",
+      "french_comparison": "Canne rouillée",
+      "references": [
+        10314644
+      ],
+      "kind": "dexnav",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Old Rod",
+      "pt_bytes": 8,
+      "pixels": [
+        41
+      ]
+    },
+    {
+      "offset": "0xa43a67",
+      "source_hex": "c1e3e3d800cce3d8ff",
+      "english_extract": "Good Rod",
+      "french_comparison": "Bonne canne",
+      "references": [
+        10314660
+      ],
+      "kind": "dexnav",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Good Rod",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43a70",
+      "source_hex": "cde9e4d9e600cce3d8ff",
+      "english_extract": "Super Rod",
+      "french_comparison": "Super canne",
+      "references": [
+        10314664
+      ],
+      "kind": "dexnav",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Super Rod",
+      "pt_bytes": 10,
+      "pixels": [
+        53
+      ]
+    },
+    {
+      "offset": "0xa43a7a",
+      "source_hex": "cde9e6dabac9e0d800cce3d8ff",
+      "english_extract": "Surf/Old Rod",
+      "french_comparison": "Surf/Canne rouillée",
+      "references": [
+        10314668
+      ],
+      "kind": "dexnav",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Surf/Old Rod",
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ]
+    },
+    {
+      "offset": "0xa43a87",
+      "source_hex": "cde9e6dabac1e3e3d800cce3d8ff",
+      "english_extract": "Surf/Good Rod",
+      "french_comparison": "Surf/Bonne canne",
+      "references": [
+        10314672
+      ],
+      "kind": "dexnav",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Surf/Good Rod",
+      "pt_bytes": 14,
+      "pixels": [
+        76
+      ]
+    },
+    {
+      "offset": "0xa43a95",
+      "source_hex": "cde9e6dabacde9e4d9e600cce3d8ff",
+      "english_extract": "Surf/Super Rod",
+      "french_comparison": "Surf/Super canne",
+      "references": [
+        10314676
+      ],
+      "kind": "dexnav",
+      "status": "retained",
+      "max_width": 196,
+      "expected": "Surf/Super Rod",
+      "pt_bytes": 15,
+      "pixels": [
+        81
+      ]
+    },
+    {
+      "offset": "0xa43aa4",
+      "source_hex": "cdebd5e6e1ff",
+      "english_extract": "Swarm",
+      "french_comparison": "Horde",
+      "references": [
+        10314680
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Enxame",
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ]
+    },
+    {
+      "offset": "0xa43ab3",
+      "source_hex": "cfe2d5ead5dde0d5d6e0d9ff",
+      "english_extract": "Unavailable",
+      "french_comparison": "Indisponible",
+      "references": [
+        10314700
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Indisponível",
+      "pt_bytes": 13,
+      "pixels": [
+        66
+      ]
+    },
+    {
+      "offset": "0xa43abf",
+      "source_hex": "ccd9dbdde7e8d9e6ff",
+      "english_extract": "Register",
+      "french_comparison": "Enregistrer",
+      "references": [
+        10918600
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Registrar",
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ]
+    },
+    {
+      "offset": "0xa43ac8",
+      "source_hex": "cdd7d5e2ff",
+      "english_extract": "Scan",
+      "french_comparison": "Analyser",
+      "references": [
+        10918608
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Buscar",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ]
+    },
+    {
+      "offset": "0xa43acd",
+      "source_hex": "bdd5e2d7d9e0ff",
+      "english_extract": "Cancel",
+      "french_comparison": "Annuler",
+      "references": [
+        10918616
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Cancelar",
+      "pt_bytes": 9,
+      "pixels": [
+        45
+      ]
+    },
+    {
+      "offset": "0xa43ad4",
+      "source_hex": "fd0200dde700e7d9e0d9d7e8d9d8adff",
+      "english_extract": "<0xFD>Á is selected.",
+      "french_comparison": "<0xFD><0x02> sélectionné.",
+      "references": [
+        10917896
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "<0xFD><0x02> selecionado.",
+      "pt_bytes": 16,
+      "pixels": [
+        126
+      ]
+    },
+    {
+      "offset": "0xa43ae4",
+      "source_hex": "cedcd900fd0300e1e9e7e800d6d900d5d7e5e9dde6d9d8fed6d9dae3e6d900e7d9d5e6d7dcdde2db00dae3e600fd02adfc09ff",
+      "english_extract": "The <0xFD>Â must be acquired\\nbefore searching for <0xFD>Á.<0xFC>Ì",
+      "french_comparison": "Il faut obtenir le {STR_VAR_2}\\navant de chercher {STR_VAR_1}.{PAUSE_UNTIL_PRESS}",
+      "references": [
+        10917904
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Obtenha <0xFD><0x03> antes de\\nbuscar <0xFD><0x02>.<0xFC><0x09>",
+      "pt_bytes": 33,
+      "pixels": [
+        151,
+        99
+      ]
+    },
+    {
+      "offset": "0xa43b17",
+      "source_hex": "cedcd5e800cae3df1be1e3e200d7d5e2b4e800d6d900e7d9d5e6d7dcd9d800edd9e8abfc09ff",
+      "english_extract": "That Pokémon can't be searched yet!<0xFC>Ì",
+      "french_comparison": "On ne peut pas encore chercher\\nce Pokémon !{PAUSE_UNTIL_PRESS}",
+      "references": [
+        10917908
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Ainda não é possível\\nbuscar esse Pokémon!<0xFC><0x09>",
+      "pt_bytes": 44,
+      "pixels": [
+        113,
+        114
+      ]
+    },
+    {
+      "offset": "0xa43b3d",
+      "source_hex": "cedcd9e6d9b4e700e2e300d8d5e8d500dae3e600e8dcd5e800cae3df1be1e3e2b0fc09ff",
+      "english_extract": "There's no data for that Pokémon\"<0xFC>Ì",
+      "french_comparison": "Aucune donnée pour ce Pokémon…{PAUSE_UNTIL_PRESS}",
+      "references": [
+        10917912
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Não há dados sobre\\nesse Pokémon.<0xFC><0x09>",
+      "pt_bytes": 35,
+      "pixels": [
+        105,
+        73
+      ]
+    },
+    {
+      "offset": "0xa43b61",
+      "source_hex": "fd0200dde700e7d9d5e6d7dcd5d6e0d900eaddd500f803abfc09ff",
+      "english_extract": "<0xFD>Á is searchable via <0xF8>Â!<0xFC>Ì",
+      "french_comparison": "<0xFD><0x02> détectable via <0xF8><0x03> !<0xFC><0x09>",
+      "references": [
+        10917900
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Busque <0xFD><0x02> com <0xF8><0x03>!<0xFC><0x09>",
+      "pt_bytes": 20,
+      "pixels": [
+        131
+      ]
+    },
+    {
+      "offset": "0xa43b7c",
+      "source_hex": "c3e8b4e700e8e3e300d8d5e6df00e8e300e7d9d5e6d7dc00dae3e600d500cae3df1be1e3e2abfc09ff",
+      "english_extract": "It's too dark to search for a Pokémon!<0xFC>Ì",
+      "french_comparison": "Il fait trop sombre pour chercher\\nun Pokémon !{PAUSE_UNTIL_PRESS}",
+      "references": [
+        10917916
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Está escuro demais\\npara buscar Pokémon!<0xFC><0x09>",
+      "pt_bytes": 42,
+      "pixels": [
+        101,
+        115
+      ]
+    },
+    {
+      "offset": "0xa43ba5",
+      "source_hex": "c8e300cae3df1be1e3e200d7d5e200d6d900dae3e9e2d800dcd9e6d9adfc09ff",
+      "english_extract": "No Pokémon can be found here.<0xFC>Ì",
+      "french_comparison": "Aucun Pokémon trouvable ici.{PAUSE_UNTIL_PRESS}",
+      "references": [
+        10917920
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Não há Pokémon aqui.<0xFC><0x09>",
+      "pt_bytes": 23,
+      "pixels": [
+        115
+      ]
+    },
+    {
+      "offset": "0xa43bc5",
+      "source_hex": "cdd9d5e6d7dc00dae3e600ebdde0d800cae3df1be1e3e200dde200e8dcd900d5e6d9d5feebdde8dc00e4e3e8d9e2e8ddd5e000e7e4d9d7ddd5e000e5e9d5e0dde8ddd9e7abff",
+      "english_extract": "Search for wild Pokémon in the area\\nwith potential special qualities!",
+      "french_comparison": "Cherche des Pokémon sauvages avec\\nde potentielles qualités spéciales !",
+      "references": [],
+      "kind": "exception",
+      "status": "exception",
+      "reason": "Texte DexNav inutilisé : aucun pointeur 32 bits dans la ROM source ; messages actifs référencés par 0xa69808–0xa69820 et 0x9d58e4–0x9d595c. Aucun consommateur identifié ; aucune injection revendiquée."
+    },
+    {
+      "offset": "0xa43c0b",
+      "source_hex": "fd0200dbe3e800d5ebd5edabff",
+      "english_extract": "<0xFD>Á got away!",
+      "french_comparison": "<0xFD><0x02> fuit !",
+      "references": [
+        10312012
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "<0xFD><0x02> fugiu!",
+      "pt_bytes": 10,
+      "pixels": [
+        93
+      ]
+    },
+    {
+      "offset": "0xa43c18",
+      "source_hex": "fd0200dbe3e800d5ebd5edabfecee6ed00e1e3eadde2db00e1e3e6d900e7e0e3ebe0edadff",
+      "english_extract": "<0xFD>Á got away!\\nTry moving more slowly.",
+      "french_comparison": "<0xFD><0x02> fuit !\\nAvance plus lentement.",
+      "references": [
+        10312024
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "<0xFD><0x02> fugiu!\\nAnde mais devagar.",
+      "pt_bytes": 29,
+      "pixels": [
+        93,
+        102
+      ]
+    },
+    {
+      "offset": "0xa43c3d",
+      "source_hex": "cedcd900cae3df1be1e3e200dbe3e800d5ebd5edabff",
+      "english_extract": "The Pokémon got away!",
+      "french_comparison": "Le Pokémon s'enfuit !",
+      "references": [
+        10312016
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "O Pokémon fugiu!",
+      "pt_bytes": 17,
+      "pixels": [
+        91
+      ]
+    },
+    {
+      "offset": "0xa43c53",
+      "source_hex": "cedcd900cae3df1be1e3e200dbe3e800d5ebd5edabfecee6ed00e1e3eadde2db00e1e3e6d900e7e0e3ebe0edadff",
+      "english_extract": "The Pokémon got away!\\nTry moving more slowly.",
+      "french_comparison": "Le Pokémon s'enfuit !\\nAvance plus lentement.",
+      "references": [
+        10312028
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "O Pokémon fugiu!\\nAnde mais devagar.",
+      "pt_bytes": 36,
+      "pixels": [
+        91,
+        102
+      ]
+    },
+    {
+      "offset": "0xa43c81",
+      "source_hex": "cedcd9e6d900dde700e2e300e6d9d5d7e8dde3e2adfecedcd900e7dddbe2d5e000ebd5e700e0e3e7e8abff",
+      "english_extract": "There is no reaction.\\nThe signal was lost!",
+      "french_comparison": "Aucune réaction.\\nLe signal a été perdu !",
+      "references": [
+        10312020
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Nenhuma reação.\\nO sinal foi perdido!",
+      "pt_bytes": 37,
+      "pixels": [
+        87,
+        109
+      ]
+    },
+    {
+      "offset": "0xa43cac",
+      "source_hex": "fd0200d7d5e2e2e3e800d6d900dae3e9e2d800dcd9e6d9adff",
+      "english_extract": "<0xFD>Á cannot be found here.",
+      "french_comparison": "{STR_VAR_1} est introuvable ici.",
+      "references": [
+        10311912
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "<0xFD><0x02> não aparece aqui.",
+      "pt_bytes": 21,
+      "pixels": [
+        157
+      ]
+    },
+    {
+      "offset": "0xa43cc5",
+      "source_hex": "cedcd5e800dae3e6e100e3da00fd0200d7d5e2e2e3e8fed6d900dae3e9e2d800dcd9e6d9adff",
+      "english_extract": "That form of <0xFD>Á cannot\\nbe found here.",
+      "french_comparison": "Cette forme de {STR_VAR_1} est\\nintrouvable ici.",
+      "references": [
+        10311908
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Essa forma de <0xFD><0x02>\\nnão aparece aqui.",
+      "pt_bytes": 35,
+      "pixels": [
+        134,
+        97
+      ]
+    },
+    {
+      "offset": "0xa43ceb",
+      "source_hex": "fd0200d7e3e9e0d8e2b4e800d6d900dae3e9e2d800e2d9d5e6d6edadfecee6ed00e0e3e3dfdde2db00dde200d500d8dddadad9e6d9e2e800d5e6d9d5abff",
+      "english_extract": "<0xFD>Á couldn't be found nearby.\\nTry looking in a different area!",
+      "french_comparison": "<0xFD><0x02> est introuvable à proximité.\\nEssaie de chercher ailleurs !",
+      "references": [
+        10312004
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "<0xFD><0x02> não está por perto.\\nProcure em outra área!",
+      "pt_bytes": 46,
+      "pixels": [
+        167,
+        127
+      ]
+    },
+    {
+      "offset": "0xa43d29",
+      "source_hex": "c3e8b4e700e8e3e300d8d5e6df00e8e300e7d9d5e6d7dc00dae3e6fed500cae3df1be1e3e2abff",
+      "english_extract": "It's too dark to search for\\na Pokémon!",
+      "french_comparison": "Il fait trop sombre pour chercher\\nun Pokémon !",
+      "references": [
+        10312008
+      ],
+      "kind": "dexnav",
+      "status": "translated",
+      "max_width": 196,
+      "expected": "Está escuro demais\\npara buscar Pokémon!",
+      "pt_bytes": 40,
+      "pixels": [
+        101,
+        115
+      ]
+    }
+  ]
+}
