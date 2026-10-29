@@ -84,6 +84,7 @@ build_steps:
 # Étapes déjà actives dans la recette DE sans étape homonyme côté FR. Les
 # inventorier ici évite qu'un ticket ultérieur les recrée sous un second nom.
 de_only_build_steps:
+  - {source: dialogue_routing, classification: pointer_text, status: excluded, reason: Acheminement borné B-1016 des sept textes et huit consommateurs DE.}
   - {source: combat_ui_structure, classification: pointer_text, status: excluded, reason: Injection structurée des 67 exclusions B-669 dans B-1013.}
   - {source: ability_names, classification: fixed_table, status: excluded, reason: Déjà couvert directement par la recette DE.}
   - {source: battle_summary_sprites, classification: lz77_graphic, status: excluded, reason: Sources raster finales combat et résumé propres à la recette DE.}

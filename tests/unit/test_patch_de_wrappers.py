@@ -114,6 +114,7 @@ def test_de_descriptor_wires_wrapper_at_end(name):
         "mission_descriptions",
         "worldmap_junction_panels",
         "worldmap_route_panels",
+        "dialogue_routing",
         "zone_names",
         "species_names",
         "collision_check",

@@ -23,11 +23,7 @@ def fixture_rom():
 
 
 def valid_combined():
-    combined = patch.load_combined(ROOT / 'languages/de/combined_de.txt')
-    # Donnée de test seulement : B-680 doit restituer ces deux buffers dans
-    # le texte vivant avant activation de la passe dans lang.yaml.
-    combined[0x1F4C2ED] = r'<0xFD><0x01> Glückwunsch!\p<0xFD><0x02>\n<0xFD><0x02>'
-    return combined
+    return patch.load_combined(ROOT / 'languages/de/combined_de.txt')
 
 
 def test_all_consumers_exact_bytes_idempotence_and_no_blind_scan():
@@ -124,3 +120,21 @@ def test_german_umlauts_keep_their_actual_glyph_bytes():
     # 0x1F0F004 ne contient aucune commande positionnelle dans la source.
     encoded = patch.encode_dialogue('äöüÄÖÜ', source, 0x1F0F004)
     assert encoded == bytes([0xF4, 0xF5, 0xF6, 0xF1, 0xF2, 0xF3, 0xFF])
+
+
+def test_routing_runs_after_relocation_before_species_restore():
+    import yaml
+    steps = yaml.safe_load((ROOT / 'languages/de/lang.yaml').read_text())['patches']
+    assert steps.index('worldmap_route_panels') < steps.index('dialogue_routing')
+    assert steps.index('dialogue_routing') < steps.index('species_names')
+
+
+@pytest.mark.rom
+@pytest.mark.parametrize('row', ROWS, ids=lambda row: hex(row['offset']))
+def test_built_rom_routes_every_consumer(row):
+    source = (ROOT / 'input/roms/englishrom.gba').read_bytes()
+    rom = (ROOT / 'output/roms/GenedRom-de.gba').read_bytes()
+    expected = patch.encode_dialogue(valid_combined()[row['offset']], source, row['offset'])
+    for site in row['sites']:
+        target = struct.unpack_from('<I', rom, site)[0] - patch.GBA_BASE
+        assert rom[target:target + len(expected)] == expected
