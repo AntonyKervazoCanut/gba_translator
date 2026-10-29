@@ -89,7 +89,7 @@ entries:
     expected: 'Oi!\nTudo bem?<0xFB>Já visitou o laboratório do\nProfessor Log?'
   - offset: "0x17d866"
     name: "PT-01 0x17d866"
-    expected: 'Laboratório Pokémon de Log'
+    expected: 'Log Pokémon Research Lab'
   - offset: "0x17d87f"
     name: "PT-01 0x17d87f"
     expected: 'Casa de <0xFD><0x01>'
@@ -350,10 +350,10 @@ entries:
     expected: 'M-minhas pernas! Cãibras!\nGlub, glub...'
   - offset: "0x187b5d"
     name: "PT-01 0x187b5d"
-    expected: 'Nadei até aqui com amigos...\nEstou cansada...'
+    expected: 'Nadei até aqui com amigos...\nEstou sem forças...'
   - offset: "0x187b85"
     name: "PT-01 0x187b85"
-    expected: 'Estou exausta...'
+    expected: 'Não aguento mais...'
   - offset: "0x187b94"
     name: "PT-01 0x187b94"
     expected: 'Se fosse montar num Pokémon\nno mar, escolheria Lapras.<0xFB>Lapras é tão grande que\naposto que eu nem me molharia.'
@@ -387,9 +387,6 @@ entries:
   - offset: "0x1880f8"
     name: "PT-01 0x1880f8"
     expected: 'Meu namorado me deu\npérolas grandes.'
-  - offset: "0x188111"
-    name: "PT-01 0x188111"
-    expected: 'pérolas grandes.'
   - offset: "0x188119"
     name: "PT-01 0x188119"
     expected: 'Ah, não!\nMinhas pérolas estavam neles!'
@@ -404,7 +401,7 @@ entries:
     expected: 'Ufa...\nUfa... Ufa...'
   - offset: "0x188555"
     name: "PT-01 0x188555"
-    expected: 'Estou exausta! Mas ainda\nfaltam o ciclismo e a maratona!'
+    expected: 'Não aguento mais! Mas ainda\nfaltam ciclismo e maratona!'
   - offset: "0x188ed9"
     name: "PT-01 0x188ed9"
     expected: 'Vou acabar com você!'
@@ -431,7 +428,7 @@ entries:
     expected: 'Os Treinadores daqui\nvêm treinar aqui.'
   - offset: "0x1890e6"
     name: "PT-01 0x1890e6"
-    expected: 'Você é bom.'
+    expected: 'Você manda bem.'
   - offset: "0x1890f5"
     name: "PT-01 0x1890f5"
     expected: 'Todo Pokémon tem fraquezas.\nAté os mais fortes.<0xFB>Por isso, é melhor criar\nPokémon de tipos diferentes.'
@@ -440,7 +437,7 @@ entries:
     expected: 'Adoro ficar aqui\nobservando o mar.'
   - offset: "0x1891a6"
     name: "PT-01 0x1891a6"
-    expected: 'Não estou bravo!'
+    expected: 'Não fiquei com raiva!'
   - offset: "0x1891b3"
     name: "PT-01 0x1891b3"
     expected: 'A vista não é linda?'
@@ -545,7 +542,7 @@ entries:
     expected: 'Seus sapatos são\nbem estilosos.'
   - offset: "0x18cb3e"
     name: "PT-01 0x18cb3e"
-    expected: 'Você é forte, apesar\ndesse jeito fofo.'
+    expected: 'Você é forte, apesar\ndessa carinha fofa.'
   - offset: "0x18cb6c"
     name: "PT-01 0x18cb6c"
     expected: 'Sua mãe comprou esses\nRunning Shoes para você?<0xFB>Ela deve te adorar.'
@@ -734,7 +731,7 @@ entries:
     expected: 'Uau! Excelente!\nVocê completou sua Pokédex!<0xFA>Parabéns!<0xFA>...'
   - offset: "0x1964a8"
     name: "PT-01 0x1964a8"
-    expected: 'Sala de Criação de Unbound'
+    expected: 'Unbound Development Room'
   - offset: "0x196984"
     name: "PT-01 0x196984"
     expected: 'Bem-vindo ao Dehara Game Corner!<0xFB>Precisa de fichas?\nQuer comprar algumas?'
