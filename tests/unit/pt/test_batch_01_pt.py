@@ -77,6 +77,12 @@ def test_official_terms_and_unbound_names() -> None:
     assert 'Coin Case' in PT[0x1969FB]
 
 
+def test_parent_fits_before_the_independently_referenced_suffix() -> None:
+    # La longueur du texte EN complet ne constitue pas une capacité libre :
+    # le script 0x16aa68 lit aussi la cellule commençant à 0x192116.
+    assert len(encode(PT[0x192079])) <= 0x192116 - 0x192079
+
+
 def test_audit_covers_the_exact_batch_and_excludes_fixed_tables() -> None:
     audit = json.loads((ROOT / 'languages/pt/data/pt01_audit.json').read_text())
     entries = audit['entries']
