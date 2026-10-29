@@ -39,7 +39,7 @@ import Vision
 let r = VNRecognizeTextRequest()
 r.recognitionLevel = .accurate
 r.recognitionLanguages = ["pt-BR", "en-US"]
-r.usesLanguageCorrection = false
+r.usesLanguageCorrection = true
 try VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([r])
 print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))
 `);

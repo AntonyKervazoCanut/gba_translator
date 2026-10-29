@@ -60,3 +60,21 @@ pages sont vérifiées en binaire et en budgets de police.
 Les résultats effectifs des commandes et la capture jointe figurent dans le
 bilan du ticket. Aucun patch BPS distribué n'est actualisé dans ce lot ; la
 certification de la totalité du parcours et de la release relève de T-848.
+
+## Validation locale du 29 octobre 2026
+
+- Intégrité ciblée et tests métier : 306 réussis.
+- Hooks actifs : 6 257 tests Python rapides réussis (5 skips existants),
+  71 tests Vitest réussis ; builds FR/IT/DE réussis.
+- `make build-pt` réussi ; la passe dédiée vérifie 272 entrées et reloge
+  110 entrées que les passes précédentes n'avaient pas déjà finalisées.
+  Les 272 offsets absents du CSV d'extraction sont ainsi couverts explicitement.
+- Tests ROM PT-25 : 4 réussis, y compris les budgets des cinq polices finales.
+- Playwright hors écran : 1 test réussi, deux msgbox et assertions OCR exactes.
+  La correction linguistique BR de Vision est activée pour désambiguïser
+  les lettres o/a de la police bitmap ; les assertions binaires restent exactes.
+- ROM PT SHA256 :
+  `70afa97cc90f3c808be06645bef02b9dca8f6bd83df5f8b2398d66f14f24d877`.
+
+La capture est jointe au ticket F-784 (pièce
+`00a83f8e-62f4-410c-bd64-f2bd223e3ebb`), hors du dépôt.

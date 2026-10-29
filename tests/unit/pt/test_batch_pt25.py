@@ -83,3 +83,12 @@ def test_finalizer_after_repairs_and_disjoint_from_other_batches():
     other = json.loads((ROOT / 'languages/pt/data/pt20_audit.json').read_text())
     refs = {p for row in LIVE for p in row['references']}
     assert not refs.intersection(p for row in other['entries'] for p in row['references'])
+
+
+def test_visual_probe_samples_complete_messages_without_runtime_buffers():
+    """Les deux captures doivent prouver leur message entier, sans tampon inconnu."""
+    samples = [TEXTS[offset] for offset in (0x7C060E, 0x7C6731)]
+    assert all(text.count('\n') == 1 for text in samples)
+    assert all(not re.search(r'<0xF[ABCD]>', text) for text in samples)
+    assert 'evolução' in samples[0]
+    assert 'mamãe' in samples[1]
