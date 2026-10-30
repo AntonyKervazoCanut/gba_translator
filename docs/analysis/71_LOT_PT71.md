@@ -18,7 +18,7 @@ Leur traduction utilise la totalité du dialogue source.
 Les FC, FD, FA et FB sont conservés octet pour octet et dans le même ordre.
 Les FE souples sont replacés pour respecter les deux lignes initiales puis une
 ligne par défilement. L'ellipse est le glyphe natif B0. Les noms runtime sont
-budgétés à neuf glyphes larges. Les tests ROM mesurent les cinq polices réelles.
+budgétés à dix glyphes larges, selon la marge PT-68 intégrée au rebase. Les tests ROM mesurent les cinq polices réelles.
 Les cellules de nom Aros, les buffers fils/fille et la comparaison `aklov` ont des
 pointeurs de script explicites ; aucune table fixe sans pointeur n'est présente.
 

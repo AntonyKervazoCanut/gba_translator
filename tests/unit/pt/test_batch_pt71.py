@@ -19,6 +19,7 @@ def test_manifest_protections_controls_and_budgets():
     texts = entries()
     guards = {int(r['offset'], 16): r['expected'] for r in yaml.safe_load(
         (ROOT / 'languages/pt/protected_entries.yaml').read_text())['entries']}
+    assert AUDIT['buffer_glyph_budget'] == 10
     assert len(manifest) == 300
     assert [r['offset'] for r in AUDIT['entries']] == manifest
     for row in AUDIT['entries']:

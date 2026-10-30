@@ -69,11 +69,11 @@ def test_actual_font_budgets_in_final_rom(source):
     built = (ROOT / 'output/roms/GenedRom-pt.gba').read_bytes()
     rows = {int(r.get('consumer_offset', r['offset']), 16): r for r in AUDIT['entries']}
     for offset, _, raw in make_patch(source).entries():
-        # Les tampons runtime réservent neuf glyphes larges ; les couleurs ne
+        # Les tampons runtime réservent dix glyphes larges ; les couleurs ne
         # consomment aucun pixel. Les limites sont mesurées aux pointeurs finaux.
         for command in _extract_control_sequences_from_raw(raw):
             if command[0] == 0xFD:
-                raw = raw.replace(bytes(command), b'\xd1' * 9)
+                raw = raw.replace(bytes(command), b'\xd1' * AUDIT['buffer_glyph_budget'])
             elif command[0] not in (0xFA, 0xFB, 0xFE):
                 raw = raw.replace(bytes(command), b'')
         for font in LATIN_FONTS:
