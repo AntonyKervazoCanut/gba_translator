@@ -72,3 +72,11 @@ def test_finalizer_follows_repairs_and_only_changes_one_gender_setup():
     setups = [r for r in AUDIT['entries'] if 'buffer_setup' in r]
     assert [r['index'] for r in setups] == [238]
     assert setups[0]['buffer_setup']['replacement_hex'] == '046ae0e609'
+
+
+def test_audio_matches_are_not_text_consumers():
+    row = AUDIT['entries'][15]
+    assert row['references'] == [0x1E57D4A]
+    assert row['non_text_references'] == [0x13DF497, 0x13E7D7B]
+    assert {p['site'] for p in row['pcm_matches']} == set(row['non_text_references'])
+    assert not set(row['references']).intersection(row['non_text_references'])

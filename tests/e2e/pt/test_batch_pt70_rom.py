@@ -103,10 +103,14 @@ def test_gender_buffer_uses_existing_subjects_without_touching_other_dialogues(s
     assert built[site:site + 5].hex() == setup['replacement_hex']
     assert source[site + 5:row['references'][0] - 2] == built[site + 5:row['references'][0] - 2]
     # checkgender : homme -> 0x7522ab, femme -> 0x7522be ; buffer 0 = FD02.
-    helper = source[0x1E6E06A:0x1E6E081]
-    assert helper.hex() == 'a0210d8000000701ab227508210d8001000701be22750803'
+    expected_helper = bytes.fromhex('a0210d8000000701ab227508210d8001000701be22750803')
+    assert source[0x1E6E06A:0x1E6E06A + len(expected_helper)] == expected_helper
     for script, key, expected in [(0x7522AB, 0x789224, 'ele'), (0x7522BE, 0x78922E, 'ela')]:
         assert source[script:script + 2] == b'\x85\x00'
         assert struct.unpack_from('<I', source, script + 2)[0] == key + 0x08000000
         assert entries()[key] == expected
+        target = struct.unpack_from('<I', built, script + 2)[0] - 0x08000000
+        from src.core.text_codec import TextEncoder
+        raw = TextEncoder.encode_pokemon(expected, strict=True)
+        assert built[target:target + len(raw)] == raw
     assert '<0xFD><0x02> está vindo' in row['portuguese']

@@ -104,7 +104,7 @@ end)
     const text = normalize(execFileSync(ocr, [large], { encoding: 'utf8' }));
     pictures.push(picture);
     console.log(cases[n].offset, text);
-    for (const line of cases[n].portuguese.split('<0xFB>')[0].split('\\n').slice(0, 2)) {
+    for (const line of cases[n].portuguese.split(/<0xF[AB]>/)[0].split('\\n').slice(0, 2)) {
       expect(text, line).toContain(normalize(line));
     }
   }
