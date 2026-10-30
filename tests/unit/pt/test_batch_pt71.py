@@ -47,6 +47,7 @@ def test_story_facts_and_glossary():
     for index in (37, 76, 142, 214):
         assert len(bytes.fromhex(rows[index]['source_hex'])) > 500
         assert rows[index]['portuguese'].endswith(('.', '<0xB0>'))
+    assert 'poder de Hoopa' in rows[3]['portuguese']
     assert '16' in rows[31]['portuguese']
     assert 'dezessete' in rows[152]['portuguese']
     assert 'dezesseis' in rows[149]['portuguese']

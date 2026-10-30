@@ -93,8 +93,15 @@ def test_dead_entries_and_binary_false_pointers_remain_untouched(source):
         for hit in row['interior_hits']:
             ref = int(hit['site'], 16)
             assert built[ref:ref + 4] == source[ref:ref + 4]
-        # Le fragment original appartient au texte vivant voisin : le
-        # finaliseur ne doit écrire qu'aux nouveaux blocs, jamais dedans.
         offset = int(row['offset'], 16)
         raw = bytes.fromhex(row['source_hex'])
-        assert built[offset:offset + len(raw)] == raw
+        if row['index'] in (107, 120):
+            # Un fragment n'est pas un texte autonome : les octets font
+            # partie du dialogue parent, libre d'être réécrit par le builder.
+            parent = AUDIT['entries'][106 if row['index'] == 107 else 119]
+            parent_offset = int(parent['offset'], 16)
+            parent_raw = bytes.fromhex(parent['source_hex'])
+            assert parent_raw[offset - parent_offset:] == raw
+            assert not row['references'] and row['non_text_references']
+        else:
+            assert built[offset:offset + len(raw)] == raw

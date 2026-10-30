@@ -35,6 +35,7 @@ let r = VNRecognizeTextRequest()
 r.recognitionLevel = .accurate
 r.recognitionLanguages = ["pt-BR", "en-US"]
 r.usesLanguageCorrection = true
+r.regionOfInterest = CGRect(x: 0.05, y: 0.025, width: 0.90, height: 0.21)
 try VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([r])
 print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))
 `);
@@ -55,7 +56,7 @@ callbacks:add('frame', function()
   local status=io.open(${JSON.stringify(path.join(temp, `scene${n}.status`))},'w'); status:write(tostring(emu:read8(0x03000EA8))); status:close()
   emu:screenshot(${JSON.stringify(path.join(temp, `scene${n}-before.png`))})
   assert(emu:read8(0x03000EA8)==2, 'Script actif avant sonde')
-  -- Le script de la Pension prépare normalement le compteur avant le msgbox.
+  -- Tampons runtime initialisés uniquement dans la copie temporaire.
   for _,address in ipairs({0x02021CD0,0x02021CF0,0x02021D04}) do
    emu:write8(address,0xA2); emu:write8(address+1,0xFF)
   end

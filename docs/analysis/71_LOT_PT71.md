@@ -40,6 +40,11 @@ sont repointés. Il est atomique et idempotent ; aucune modification du cœur ou
 | 0x1f43508 | Ancienne annonce administrateur : aucun pointeur direct ou intérieur. |
 | 0x1f4362f | Ancienne consigne des gardes : aucun pointeur direct ou intérieur. |
 
+Les fragments internes partagent le stockage de leurs dialogues parents : le
+pipeline générique peut réécrire ces octets devenus sans consommateur. Le test
+contrôle leur appartenance au parent, les vrais textes finaux et les faux
+pointeurs binaires, sans imposer l’identité physique d’un fragment mort.
+
 Les six clés restent absentes du combined et des protections. Les faux pointeurs
 binaires restent intacts. Les adresses et contextes exacts figurent dans l'audit ;
 les tests les confrontent à la ROM EN réelle. Aucune traduction existante supprimée.
