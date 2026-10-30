@@ -226,13 +226,13 @@
       ],
       "scene": "Redwood Village et échanges",
       "max_width": 192,
-      "portuguese": "Troco meu superespecial <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>\\npor um<0xFA><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> que você capturar!<0xFB>Faz tempo que tento achar um, mas\\né muito difícil!<0xFB>Você tem um para trocar comigo?",
+      "portuguese": "Troco meu superespecial\\n<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> por um<0xFA><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> que você capturar!<0xFB>Faz tempo que tento achar um, mas\\né muito difícil!<0xFB>Você tem um para trocar comigo?",
       "status": "translated",
       "reason": "Source anglaise intégrale comparée au FR ; injection aux consommateurs audités après les réparations.",
       "encoded_bytes": 151,
       "line_widths": [
-        191,
-        35,
+        131,
+        95,
         165,
         191,
         87,
@@ -340,15 +340,15 @@
       ],
       "scene": "Redwood Village et échanges",
       "max_width": 192,
-      "portuguese": "Você tem brincado com meu antigo\\n<0xFD><0x03>?<0xFB>Eu tenho brincado com o <0xFD><0x02>\\nque você me deu.<0xFB>Até evoluí ele!",
+      "portuguese": "Você tem brincado com meu antigo\\n<0xFD><0x03>?<0xFB>Eu tenho brincado com o\\n<0xFD><0x02> que você me deu.<0xFB>Até evoluí ele!",
       "status": "translated",
       "reason": "Source anglaise intégrale comparée au FR ; injection aux consommateurs audités après les réparations.",
       "encoded_bytes": 97,
       "line_widths": [
         183,
         60,
-        192,
-        95,
+        132,
+        155,
         87
       ],
       "english_reference": "Have you been playing with my old\\n<0xFD>Â?<0xFB>I've been playing with the\\n<0xFD>Á you gave me.<0xFB>I even evolved it!",
@@ -997,7 +997,7 @@
       ],
       "scene": "Route 1 : avalanche et capture",
       "max_width": 192,
-      "portuguese": "Ah, a Insígnia no seu Cartão de\\nTreinador mostra que você é<0xFA>um Treinador habilidoso.<0xFB>Já passou de simples <0xFD><0x02> de\\nrecados do Prof. Log.<0xFB>Mas, para mim, nunca se é\\nexperiente demais para ver<0xFA>um perito capturar Pokémon!<0xFB>Então, o que me diz?<0xFB>Posso te ensinar umas coisas sobre\\ncapturar Pokémon.",
+      "portuguese": "Ah, a Insígnia no seu Cartão de\\nTreinador mostra que você é<0xFA>um Treinador habilidoso.<0xFB>Já passou de simples <0xFD><0x02>\\nde recados do Prof. Log.<0xFB>Mas, para mim, nunca se é\\nexperiente demais para ver<0xFA>um perito capturar Pokémon!<0xFB>Então, o que me diz?<0xFB>Posso te ensinar umas coisas sobre\\ncapturar Pokémon.",
       "status": "translated",
       "reason": "Source anglaise intégrale comparée au FR ; injection aux consommateurs audités après les réparations.",
       "encoded_bytes": 289,
@@ -1005,8 +1005,8 @@
         176,
         154,
         132,
-        191,
-        120,
+        173,
+        138,
         141,
         146,
         153,
@@ -9303,5 +9303,6 @@
       "layout": "dialogue"
     }
   ],
-  "scope": "Redwood Village, ruines des Regis, Rift Cave, Route 1 et routes 10 à 16 ; dialogues, inscriptions et tables de noms."
+  "scope": "Redwood Village, ruines des Regis, Rift Cave, Route 1 et routes 10 à 16 ; dialogues, inscriptions et tables de noms.",
+  "buffer_glyph_budget": 10
 }
