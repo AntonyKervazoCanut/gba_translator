@@ -1,0 +1,4253 @@
+{
+  "batch": "PT-54",
+  "domain": "Noms des espèces et formes (table fixe)",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "table_base": "0x166a98c",
+  "stride": 11,
+  "table_references": [
+    324,
+    70736,
+    70924,
+    71076,
+    71356,
+    216448,
+    266220,
+    275932,
+    300904,
+    342748,
+    342852,
+    441540,
+    441616,
+    605836,
+    652640,
+    657664,
+    776224,
+    831776,
+    835244,
+    843956,
+    845496,
+    846032,
+    943388,
+    996132,
+    1062336,
+    1062552,
+    1062712,
+    1062864,
+    1063020,
+    1063116,
+    1068656,
+    1073120,
+    1074864,
+    1130236,
+    1152088,
+    1158304,
+    1159156,
+    1159240,
+    1186060,
+    1270552,
+    9175080,
+    23446084
+  ],
+  "entries": [
+    {
+      "offset": "0x166be21",
+      "species_id": 479,
+      "english_reference": "Grodrive",
+      "french_reference": "Grodrive",
+      "portuguese": "Drifblim",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bee6dddad6e0dde1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166be2c",
+      "species_id": 480,
+      "english_reference": "Laporeille",
+      "french_reference": "Laporeille",
+      "portuguese": "Buneary",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce9e2d9d5e6edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166be37",
+      "species_id": 481,
+      "english_reference": "Lockpin",
+      "french_reference": "Lockpin",
+      "portuguese": "Lopunny",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6e3e4e9e2e2edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166be42",
+      "species_id": 482,
+      "english_reference": "Magirêve",
+      "french_reference": "Magirêve",
+      "portuguese": "Mismagius",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7dde7e1d5dbdde9e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166be4d",
+      "species_id": 483,
+      "english_reference": "Corboss",
+      "french_reference": "Corboss",
+      "portuguese": "Honchkrow",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2e3e2d7dcdfe6e3ebffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166be58",
+      "species_id": 484,
+      "english_reference": "Chaglam",
+      "french_reference": "Chaglam",
+      "portuguese": "Glameow",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e0d5e1d9e3ebffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166be63",
+      "species_id": 485,
+      "english_reference": "Chaffreux",
+      "french_reference": "Chaffreux",
+      "portuguese": "Purugly",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cae9e6e9dbe0edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166be6e",
+      "species_id": 486,
+      "english_reference": "Korillon",
+      "french_reference": "Korillon",
+      "portuguese": "Chingling",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bddcdde2dbe0dde2dbffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166be79",
+      "species_id": 487,
+      "english_reference": "Moufouette",
+      "french_reference": "Moufouette",
+      "portuguese": "Stunky",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cde8e9e2dfedffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166be84",
+      "species_id": 488,
+      "english_reference": "Moufflair",
+      "french_reference": "Moufflair",
+      "portuguese": "Skuntank",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddfe9e2e8d5e2dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166be8f",
+      "species_id": 489,
+      "english_reference": "Archéomire",
+      "french_reference": "Archéomire",
+      "portuguese": "Bronzor",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce6e3e2eee3e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166be9a",
+      "species_id": 490,
+      "english_reference": "Archéodong",
+      "french_reference": "Archéodong",
+      "portuguese": "Bronzong",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce6e3e2eee3e2dbffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166bea5",
+      "species_id": 491,
+      "english_reference": "Manzaï",
+      "french_reference": "Manzaï",
+      "portuguese": "Bonsly",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce3e2e7e0edffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166beb0",
+      "species_id": 492,
+      "english_reference": "Mime Jr.",
+      "french_reference": "Mime Jr.",
+      "portuguese": "Mime Jr.",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7dde1d900c4e6adffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166bebb",
+      "species_id": 493,
+      "english_reference": "Ptiravi",
+      "french_reference": "Ptiravi",
+      "portuguese": "Happiny",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2d5e4e4dde2edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166bec6",
+      "species_id": 494,
+      "english_reference": "Pijako",
+      "french_reference": "Pijako",
+      "portuguese": "Chatot",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bddcd5e8e3e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166bed1",
+      "species_id": 495,
+      "english_reference": "Spiritomb",
+      "french_reference": "Spiritomb",
+      "portuguese": "Spiritomb",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cde4dde6dde8e3e1d6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166bedc",
+      "species_id": 496,
+      "english_reference": "Griknot",
+      "french_reference": "Griknot",
+      "portuguese": "Gible",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1ddd6e0d9ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ]
+    },
+    {
+      "offset": "0x166bee7",
+      "species_id": 497,
+      "english_reference": "Carmache",
+      "french_reference": "Carmache",
+      "portuguese": "Gabite",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d5d6dde8d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166bef2",
+      "species_id": 498,
+      "english_reference": "Carchacrok",
+      "french_reference": "Carchacrok",
+      "portuguese": "Garchomp",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d5e6d7dce3e1e4ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166befd",
+      "species_id": 499,
+      "english_reference": "Goinfrex",
+      "french_reference": "Goinfrex",
+      "portuguese": "Munchlax",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7e9e2d7dce0d5ecffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166bf08",
+      "species_id": 500,
+      "english_reference": "Riolu",
+      "french_reference": "Riolu",
+      "portuguese": "Riolu",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ccdde3e0e9ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ]
+    },
+    {
+      "offset": "0x166bf13",
+      "species_id": 501,
+      "english_reference": "Lucario",
+      "french_reference": "Lucario",
+      "portuguese": "Lucario",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6e9d7d5e6dde3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166bf1e",
+      "species_id": 502,
+      "english_reference": "Hippopotas",
+      "french_reference": "Hippopotas",
+      "portuguese": "Hippopotas",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2dde4e4e3e4e3e8d5e7ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x166bf29",
+      "species_id": 503,
+      "english_reference": "Hippodocus",
+      "french_reference": "Hippodocus",
+      "portuguese": "Hippowdon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2dde4e4e3ebd8e3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166bf34",
+      "species_id": 504,
+      "english_reference": "Rapion",
+      "french_reference": "Rapion",
+      "portuguese": "Skorupi",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddfe3e6e9e4ddffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166bf3f",
+      "species_id": 505,
+      "english_reference": "Drascore",
+      "french_reference": "Drascore",
+      "portuguese": "Drapion",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bee6d5e4dde3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166bf4a",
+      "species_id": 506,
+      "english_reference": "Cradopaud",
+      "french_reference": "Cradopaud",
+      "portuguese": "Croagunk",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde6e3d5dbe9e2dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166bf55",
+      "species_id": 507,
+      "english_reference": "Coatox",
+      "french_reference": "Coatox",
+      "portuguese": "Toxicroak",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cee3ecddd7e6e3d5dfffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166bf60",
+      "species_id": 508,
+      "english_reference": "Vortente",
+      "french_reference": "Vortente",
+      "portuguese": "Carnivine",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bdd5e6e2ddeadde2d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166bf6b",
+      "species_id": 509,
+      "english_reference": "Écayon",
+      "french_reference": "Écayon",
+      "portuguese": "Finneon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0dde2e2d9e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0x166bf76",
+      "species_id": 510,
+      "english_reference": "Luminéon",
+      "french_reference": "Luminéon",
+      "portuguese": "Lumineon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6e9e1dde2d9e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166bf81",
+      "species_id": 511,
+      "english_reference": "Babimanta",
+      "french_reference": "Babimanta",
+      "portuguese": "Mantyke",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d5e2e8eddfd9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166bf8c",
+      "species_id": 512,
+      "english_reference": "Blizzi",
+      "french_reference": "Blizzi",
+      "portuguese": "Snover",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cde2e3ead9e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166bf97",
+      "species_id": 513,
+      "english_reference": "Blizzaroi",
+      "french_reference": "Blizzaroi",
+      "portuguese": "Abomasnow",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbd6e3e1d5e7e2e3ebffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ]
+    },
+    {
+      "offset": "0x166bfa2",
+      "species_id": 514,
+      "english_reference": "Dimoret",
+      "french_reference": "Dimoret",
+      "portuguese": "Weavile",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d1d9d5eadde0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166bfad",
+      "species_id": 515,
+      "english_reference": "Magnézone",
+      "french_reference": "Magnézone",
+      "portuguese": "Magnezone",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d5dbe2d9eee3e2d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ]
+    },
+    {
+      "offset": "0x166bfb8",
+      "species_id": 516,
+      "english_reference": "Coudlangue",
+      "french_reference": "Coudlangue",
+      "portuguese": "Lickilicky",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6ddd7dfdde0ddd7dfedff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166bfc3",
+      "species_id": 517,
+      "english_reference": "Rhinastoc",
+      "french_reference": "Rhinastoc",
+      "portuguese": "Rhyperior",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ccdcede4d9e6dde3e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166bfce",
+      "species_id": 518,
+      "english_reference": "Bouldeneu",
+      "french_reference": "Bouldeneu",
+      "portuguese": "Tangrowth",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ced5e2dbe6e3ebe8dcffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166bfd9",
+      "species_id": 519,
+      "english_reference": "Élekable",
+      "french_reference": "Élekable",
+      "portuguese": "Electivire",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bfe0d9d7e8ddeadde6d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        53
+      ]
+    },
+    {
+      "offset": "0x166bfe4",
+      "species_id": 520,
+      "english_reference": "Maganon",
+      "french_reference": "Maganon",
+      "portuguese": "Magmortar",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d5dbe1e3e6e8d5e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166bfef",
+      "species_id": 521,
+      "english_reference": "Togekiss",
+      "french_reference": "Togekiss",
+      "portuguese": "Togekiss",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cee3dbd9dfdde7e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166bffa",
+      "species_id": 522,
+      "english_reference": "Yanmega",
+      "french_reference": "Yanmega",
+      "portuguese": "Yanmega",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d3d5e2e1d9dbd5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c005",
+      "species_id": 523,
+      "english_reference": "Phyllali",
+      "french_reference": "Phyllali",
+      "portuguese": "Leafeon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6d9d5dad9e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c010",
+      "species_id": 524,
+      "english_reference": "Givrali",
+      "french_reference": "Givrali",
+      "portuguese": "Glaceon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e0d5d7d9e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c01b",
+      "species_id": 525,
+      "english_reference": "Scorvol",
+      "french_reference": "Scorvol",
+      "portuguese": "Gliscor",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e0dde7d7e3e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0x166c026",
+      "species_id": 526,
+      "english_reference": "Mammochon",
+      "french_reference": "Mammochon",
+      "portuguese": "Mamoswine",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d5e1e3e7ebdde2d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166c031",
+      "species_id": 527,
+      "english_reference": "Porygon-Z",
+      "french_reference": "Porygon-Z",
+      "portuguese": "Porygon-Z",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cae3e6eddbe3e2aed4ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ]
+    },
+    {
+      "offset": "0x166c03c",
+      "species_id": 528,
+      "english_reference": "Gallame",
+      "french_reference": "Gallame",
+      "portuguese": "Gallade",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d5e0e0d5d8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c047",
+      "species_id": 529,
+      "english_reference": "Tarinorme",
+      "french_reference": "Tarinorme",
+      "portuguese": "Probopass",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cae6e3d6e3e4d5e7e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c052",
+      "species_id": 530,
+      "english_reference": "Noctunoir",
+      "french_reference": "Noctunoir",
+      "portuguese": "Dusknoir",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bee9e7dfe2e3dde6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166c05d",
+      "species_id": 531,
+      "english_reference": "Momartik",
+      "french_reference": "Momartik",
+      "portuguese": "Froslass",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e6e3e7e0d5e7e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c068",
+      "species_id": 532,
+      "english_reference": "Motisma",
+      "french_reference": "Motisma",
+      "portuguese": "Rotom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cce3e8e3e1ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c073",
+      "species_id": 533,
+      "english_reference": "Créhelf",
+      "french_reference": "Créhelf",
+      "portuguese": "Uxie",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cfecddd9ffffffffffffff",
+      "encoded_bytes": 5,
+      "line_widths": [
+        22
+      ]
+    },
+    {
+      "offset": "0x166c07e",
+      "species_id": 534,
+      "english_reference": "Créfollet",
+      "french_reference": "Créfollet",
+      "portuguese": "Mesprit",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d9e7e4e6dde8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0x166c089",
+      "species_id": 535,
+      "english_reference": "Créfadet",
+      "french_reference": "Créfadet",
+      "portuguese": "Azelf",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbeed9e0daffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ]
+    },
+    {
+      "offset": "0x166c094",
+      "species_id": 536,
+      "english_reference": "Dialga",
+      "french_reference": "Dialga",
+      "portuguese": "Dialga",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "beddd5e0dbd5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166c09f",
+      "species_id": 537,
+      "english_reference": "Palkia",
+      "french_reference": "Palkia",
+      "portuguese": "Palkia",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cad5e0dfddd5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ]
+    },
+    {
+      "offset": "0x166c0aa",
+      "species_id": 538,
+      "english_reference": "Heatran",
+      "french_reference": "Heatran",
+      "portuguese": "Heatran",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2d9d5e8e6d5e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c0b5",
+      "species_id": 539,
+      "english_reference": "Regigigas",
+      "french_reference": "Regigigas",
+      "portuguese": "Regigigas",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ccd9dbdddbdddbd5e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ]
+    },
+    {
+      "offset": "0x166c0c0",
+      "species_id": 540,
+      "english_reference": "Giratina",
+      "french_reference": "Giratina",
+      "portuguese": "Giratina",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1dde6d5e8dde2d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c0cb",
+      "species_id": 541,
+      "english_reference": "Cresselia",
+      "french_reference": "Cresselia",
+      "portuguese": "Cresselia",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde6d9e7e7d9e0ddd5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166c0d6",
+      "species_id": 542,
+      "english_reference": "Phione",
+      "french_reference": "Phione",
+      "portuguese": "Phione",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cadcdde3e2d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166c0e1",
+      "species_id": 543,
+      "english_reference": "Manaphy",
+      "french_reference": "Manaphy",
+      "portuguese": "Manaphy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d5e2d5e4dcedffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c0ec",
+      "species_id": 544,
+      "english_reference": "Darkrai",
+      "french_reference": "Darkrai",
+      "portuguese": "Darkrai",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed5e6dfe6d5ddffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0x166c0f7",
+      "species_id": 545,
+      "english_reference": "Shaymin",
+      "french_reference": "Shaymin",
+      "portuguese": "Shaymin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddcd5ede1dde2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c102",
+      "species_id": 546,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c10d",
+      "species_id": 547,
+      "english_reference": "Victini",
+      "french_reference": "Victini",
+      "portuguese": "Victini",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0ddd7e8dde2ddffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c118",
+      "species_id": 548,
+      "english_reference": "Vipélierre",
+      "french_reference": "Vipélierre",
+      "portuguese": "Snivy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cde2ddeaedffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ]
+    },
+    {
+      "offset": "0x166c123",
+      "species_id": 549,
+      "english_reference": "Lianaja",
+      "french_reference": "Lianaja",
+      "portuguese": "Servine",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd9e6eadde2d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c12e",
+      "species_id": 550,
+      "english_reference": "Majaspic",
+      "french_reference": "Majaspic",
+      "portuguese": "Serperior",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd9e6e4d9e6dde3e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ]
+    },
+    {
+      "offset": "0x166c139",
+      "species_id": 551,
+      "english_reference": "Gruikui",
+      "french_reference": "Gruikui",
+      "portuguese": "Tepig",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ced9e4dddbffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ]
+    },
+    {
+      "offset": "0x166c144",
+      "species_id": 552,
+      "english_reference": "Grotichon",
+      "french_reference": "Grotichon",
+      "portuguese": "Pignite",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cadddbe2dde8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        36
+      ]
+    },
+    {
+      "offset": "0x166c14f",
+      "species_id": 553,
+      "english_reference": "Roitiflam",
+      "french_reference": "Roitiflam",
+      "portuguese": "Emboar",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bfe1d6e3d5e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c15a",
+      "species_id": 554,
+      "english_reference": "Moustillon",
+      "french_reference": "Moustillon",
+      "portuguese": "Oshawott",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c9e7dcd5ebe3e8e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c165",
+      "species_id": 555,
+      "english_reference": "Mateloutre",
+      "french_reference": "Mateloutre",
+      "portuguese": "Dewott",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed9ebe3e8e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c170",
+      "species_id": 556,
+      "english_reference": "Clamiral",
+      "french_reference": "Clamiral",
+      "portuguese": "Samurott",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd5e1e9e6e3e8e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c17b",
+      "species_id": 557,
+      "english_reference": "Ratentif",
+      "french_reference": "Ratentif",
+      "portuguese": "Patrat",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cad5e8e6d5e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166c186",
+      "species_id": 558,
+      "english_reference": "Miradar",
+      "french_reference": "Miradar",
+      "portuguese": "Watchog",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d1d5e8d7dce3dbffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c191",
+      "species_id": 559,
+      "english_reference": "Ponchiot",
+      "french_reference": "Ponchiot",
+      "portuguese": "Lillipup",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6dde0e0dde4e9e4ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166c19c",
+      "species_id": 560,
+      "english_reference": "Ponchien",
+      "french_reference": "Ponchien",
+      "portuguese": "Herdier",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2d9e6d8ddd9e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c1a7",
+      "species_id": 561,
+      "english_reference": "Mastouffe",
+      "french_reference": "Mastouffe",
+      "portuguese": "Stoutland",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cde8e3e9e8e0d5e2d8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166c1b2",
+      "species_id": 562,
+      "english_reference": "Chacripan",
+      "french_reference": "Chacripan",
+      "portuguese": "Purrloin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cae9e6e6e0e3dde2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166c1bd",
+      "species_id": 563,
+      "english_reference": "Léopardus",
+      "french_reference": "Léopardus",
+      "portuguese": "Liepard",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6ddd9e4d5e6d8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c1c8",
+      "species_id": 564,
+      "english_reference": "Feuillajou",
+      "french_reference": "Feuillajou",
+      "portuguese": "Pansage",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cad5e2e7d5dbd9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c1d3",
+      "species_id": 565,
+      "english_reference": "Feuiloutan",
+      "french_reference": "Feuiloutan",
+      "portuguese": "Simisage",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddde1dde7d5dbd9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c1de",
+      "species_id": 566,
+      "english_reference": "Flamajou",
+      "french_reference": "Flamajou",
+      "portuguese": "Pansear",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cad5e2e7d9d5e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c1e9",
+      "species_id": 567,
+      "english_reference": "Flamoutan",
+      "french_reference": "Flamoutan",
+      "portuguese": "Simisear",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddde1dde7d9d5e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166c1f4",
+      "species_id": 568,
+      "english_reference": "Flotajou",
+      "french_reference": "Flotajou",
+      "portuguese": "Panpour",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cad5e2e4e3e9e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c1ff",
+      "species_id": 569,
+      "english_reference": "Flotoutan",
+      "french_reference": "Flotoutan",
+      "portuguese": "Simipour",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddde1dde4e3e9e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c20a",
+      "species_id": 570,
+      "english_reference": "Munna",
+      "french_reference": "Munna",
+      "portuguese": "Munna",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7e9e2e2d5ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ]
+    },
+    {
+      "offset": "0x166c215",
+      "species_id": 571,
+      "english_reference": "Mushana",
+      "french_reference": "Mushana",
+      "portuguese": "Musharna",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7e9e7dcd5e6e2d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c220",
+      "species_id": 572,
+      "english_reference": "Poichigeon",
+      "french_reference": "Poichigeon",
+      "portuguese": "Pidove",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "caddd8e3ead9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c22b",
+      "species_id": 573,
+      "english_reference": "Colombeau",
+      "french_reference": "Colombeau",
+      "portuguese": "Tranquill",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cee6d5e2e5e9dde0e0ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166c236",
+      "species_id": 574,
+      "english_reference": "Déflaisan",
+      "french_reference": "Déflaisan",
+      "portuguese": "Unfezant",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cfe2dad9eed5e2e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c241",
+      "species_id": 575,
+      "english_reference": "Zébibron",
+      "french_reference": "Zébibron",
+      "portuguese": "Blitzle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce0dde8eee0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0x166c24c",
+      "species_id": 576,
+      "english_reference": "Zéblitz",
+      "french_reference": "Zéblitz",
+      "portuguese": "Zebstrika",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d4d9d6e7e8e6dddfd5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166c257",
+      "species_id": 577,
+      "english_reference": "Nodulithe",
+      "french_reference": "Nodulithe",
+      "portuguese": "Roggenrola",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cce3dbdbd9e2e6e3e0d5ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x166c262",
+      "species_id": 578,
+      "english_reference": "Géolithe",
+      "french_reference": "Géolithe",
+      "portuguese": "Boldore",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce3e0d8e3e6d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c26d",
+      "species_id": 579,
+      "english_reference": "Gigalithe",
+      "french_reference": "Gigalithe",
+      "portuguese": "Gigalith",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1dddbd5e0dde8dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166c278",
+      "species_id": 580,
+      "english_reference": "Chovsourir",
+      "french_reference": "Chovsourir",
+      "portuguese": "Woobat",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d1e3e3d6d5e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c283",
+      "species_id": 581,
+      "english_reference": "Rhinolove",
+      "french_reference": "Rhinolove",
+      "portuguese": "Swoobat",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdebe3e3d6d5e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c28e",
+      "species_id": 582,
+      "english_reference": "Rototaupe",
+      "french_reference": "Rototaupe",
+      "portuguese": "Drilbur",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bee6dde0d6e9e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0x166c299",
+      "species_id": 583,
+      "english_reference": "Minotaupe",
+      "french_reference": "Minotaupe",
+      "portuguese": "Excadrill",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bfecd7d5d8e6dde0e0ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ]
+    },
+    {
+      "offset": "0x166c2a4",
+      "species_id": 584,
+      "english_reference": "Nanméouïe",
+      "french_reference": "Nanméouïe",
+      "portuguese": "Audino",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe9d8dde2e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166c2af",
+      "species_id": 585,
+      "english_reference": "Charpenti",
+      "french_reference": "Charpenti",
+      "portuguese": "Timburr",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cedde1d6e9e6e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c2ba",
+      "species_id": 586,
+      "english_reference": "Ouvrifier",
+      "french_reference": "Ouvrier",
+      "portuguese": "Gurdurr",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e9e6d8e9e6e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c2c5",
+      "species_id": 587,
+      "english_reference": "Bétochef",
+      "french_reference": "Bétochef",
+      "portuguese": "Conkeldurr",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde3e2dfd9e0d8e9e6e6ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x166c2d0",
+      "species_id": 588,
+      "english_reference": "Tritonde",
+      "french_reference": "Tritonde",
+      "portuguese": "Tympole",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ceede1e4e3e0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c2db",
+      "species_id": 589,
+      "english_reference": "Batracné",
+      "french_reference": "Batracné",
+      "portuguese": "Palpitoad",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cad5e0e4dde8e3d5d8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166c2e6",
+      "species_id": 590,
+      "english_reference": "Crapustule",
+      "french_reference": "Crapustule",
+      "portuguese": "Seismitoad",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd9dde7e1dde8e3d5d8ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x166c2f1",
+      "species_id": 591,
+      "english_reference": "Judokrak",
+      "french_reference": "Judokrak",
+      "portuguese": "Throh",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cedce6e3dcffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c2fc",
+      "species_id": 592,
+      "english_reference": "Karaclée",
+      "french_reference": "Karaclée",
+      "portuguese": "Sawk",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd5ebdfffffffffffffff",
+      "encoded_bytes": 5,
+      "line_widths": [
+        23
+      ]
+    },
+    {
+      "offset": "0x166c307",
+      "species_id": 593,
+      "english_reference": "Larveyette",
+      "french_reference": "Larveyette",
+      "portuguese": "Sewaddle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd9ebd5d8d8e0d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166c312",
+      "species_id": 594,
+      "english_reference": "Couverdure",
+      "french_reference": "Couverdure",
+      "portuguese": "Swadloon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdebd5d8e0e3e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c31d",
+      "species_id": 595,
+      "english_reference": "Manternel",
+      "french_reference": "Manternel",
+      "portuguese": "Leavanny",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6d9d5ead5e2e2edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c328",
+      "species_id": 596,
+      "english_reference": "Venipatte",
+      "french_reference": "Venipatte",
+      "portuguese": "Venipede",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0d9e2dde4d9d8d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c333",
+      "species_id": 597,
+      "english_reference": "Scobolide",
+      "french_reference": "Scobolide",
+      "portuguese": "Whirlipede",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d1dcdde6e0dde4d9d8d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x166c33e",
+      "species_id": 598,
+      "english_reference": "Brutapode",
+      "french_reference": "Brutapode",
+      "portuguese": "Scolipede",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd7e3e0dde4d9d8d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c349",
+      "species_id": 599,
+      "english_reference": "Doudouvet",
+      "french_reference": "Doudouvet",
+      "portuguese": "Cottonee",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde3e8e8e3e2d9d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c354",
+      "species_id": 600,
+      "english_reference": "Farfaduvet",
+      "french_reference": "Farfaduvet",
+      "portuguese": "Whimsicott",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d1dcdde1e7ddd7e3e8e8ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        53
+      ]
+    },
+    {
+      "offset": "0x166c35f",
+      "species_id": 601,
+      "english_reference": "Chlorobule",
+      "french_reference": "Chlorobule",
+      "portuguese": "Petilil",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cad9e8dde0dde0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c36a",
+      "species_id": 602,
+      "english_reference": "Fragilady",
+      "french_reference": "Fragilady",
+      "portuguese": "Lilligant",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6dde0e0dddbd5e2e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c375",
+      "species_id": 603,
+      "english_reference": "Bargantua",
+      "french_reference": "Bargantua",
+      "portuguese": "Basculin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bcd5e7d7e9e0dde2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c380",
+      "species_id": 604,
+      "english_reference": "Mascaïman",
+      "french_reference": "Mascaïman",
+      "portuguese": "Sandile",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd5e2d8dde0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c38b",
+      "species_id": 605,
+      "english_reference": "Escroco",
+      "french_reference": "Escroco",
+      "portuguese": "Krokorok",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5e6e3dfe3e6e3dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c396",
+      "species_id": 606,
+      "english_reference": "Crocorible",
+      "french_reference": "Crocorible",
+      "portuguese": "Krookodile",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5e6e3e3dfe3d8dde0d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x166c3a1",
+      "species_id": 607,
+      "english_reference": "Darumarond",
+      "french_reference": "Darumarond",
+      "portuguese": "Darumaka",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed5e6e9e1d5dfd5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c3ac",
+      "species_id": 608,
+      "english_reference": "Darumacho",
+      "french_reference": "Darumacho",
+      "portuguese": "Darmanitan",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed5e6e1d5e2dde8d5e2ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x166c3b7",
+      "species_id": 609,
+      "english_reference": "Maracachi",
+      "french_reference": "Maracachi",
+      "portuguese": "Maractus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d5e6d5d7e8e9e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c3c2",
+      "species_id": 610,
+      "english_reference": "Crabicoque",
+      "french_reference": "Crabicoque",
+      "portuguese": "Dwebble",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "beebd9d6d6e0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c3cd",
+      "species_id": 611,
+      "english_reference": "Crabaraque",
+      "french_reference": "Crabaraque",
+      "portuguese": "Crustle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde6e9e7e8e0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c3d8",
+      "species_id": 612,
+      "english_reference": "Baggiguane",
+      "french_reference": "Baggiguane",
+      "portuguese": "Scraggy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd7e6d5dbdbedffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c3e3",
+      "species_id": 613,
+      "english_reference": "Baggaïd",
+      "french_reference": "Baggaïd",
+      "portuguese": "Scrafty",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd7e6d5dae8edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c3ee",
+      "species_id": 614,
+      "english_reference": "Cryptéro",
+      "french_reference": "Cryptéro",
+      "portuguese": "Sigilyph",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddddbdde0ede4dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c3f9",
+      "species_id": 615,
+      "english_reference": "Tutafeh",
+      "french_reference": "Tutafeh",
+      "portuguese": "Yamask",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d3d5e1d5e7dfffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c404",
+      "species_id": 616,
+      "english_reference": "Tutankafer",
+      "french_reference": "Tutankafer",
+      "portuguese": "Cofagrigus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde3dad5dbe6dddbe9e7ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x166c40f",
+      "species_id": 617,
+      "english_reference": "Carapagos",
+      "french_reference": "Carapagos",
+      "portuguese": "Tirtouga",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cedde6e8e3e9dbd5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c41a",
+      "species_id": 618,
+      "english_reference": "Mégapagos",
+      "french_reference": "Mégapagos",
+      "portuguese": "Carracosta",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bdd5e6e6d5d7e3e7e8d5ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x166c425",
+      "species_id": 619,
+      "english_reference": "Arkéapti",
+      "french_reference": "Arkéapti",
+      "portuguese": "Archen",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7dcd9e2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c430",
+      "species_id": 620,
+      "english_reference": "Aéroptéryx",
+      "french_reference": "Aéroptéryx",
+      "portuguese": "Archeops",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7dcd9e3e4e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c43b",
+      "species_id": 621,
+      "english_reference": "Miamiasme",
+      "french_reference": "Miamiasme",
+      "portuguese": "Trubbish",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cee6e9d6d6dde7dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c446",
+      "species_id": 622,
+      "english_reference": "Miasmax",
+      "french_reference": "Miasmax",
+      "portuguese": "Garbodor",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d5e6d6e3d8e3e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c451",
+      "species_id": 623,
+      "english_reference": "Zorua",
+      "french_reference": "Zorua",
+      "portuguese": "Zorua",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d4e3e6e9d5ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c45c",
+      "species_id": 624,
+      "english_reference": "Zoroark",
+      "french_reference": "Zoroark",
+      "portuguese": "Zoroark",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d4e3e6e3d5e6dfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c467",
+      "species_id": 625,
+      "english_reference": "Chinchidou",
+      "french_reference": "Chinchidou",
+      "portuguese": "Minccino",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7dde2d7d7dde2e3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166c472",
+      "species_id": 626,
+      "english_reference": "Pashmilla",
+      "french_reference": "Pashmilla",
+      "portuguese": "Cinccino",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bddde2d7d7dde2e3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166c47d",
+      "species_id": 627,
+      "english_reference": "Scrutella",
+      "french_reference": "Scrutella",
+      "portuguese": "Gothita",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e3e8dcdde8d5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c488",
+      "species_id": 628,
+      "english_reference": "Mesmérella",
+      "french_reference": "Mesmérella",
+      "portuguese": "Gothorita",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e3e8dce3e6dde8d5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ]
+    },
+    {
+      "offset": "0x166c493",
+      "species_id": 629,
+      "english_reference": "Sidérella",
+      "french_reference": "Sidérella",
+      "portuguese": "Gothitelle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e3e8dcdde8d9e0e0d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x166c49e",
+      "species_id": 630,
+      "english_reference": "Nucléos",
+      "french_reference": "Nucléos",
+      "portuguese": "Solosis",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cde3e0e3e7dde7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0x166c4a9",
+      "species_id": 631,
+      "english_reference": "Méios",
+      "french_reference": "Méios",
+      "portuguese": "Duosion",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bee9e3e7dde3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c4b4",
+      "species_id": 632,
+      "english_reference": "Symbios",
+      "french_reference": "Symbios",
+      "portuguese": "Reuniclus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ccd9e9e2ddd7e0e9e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ]
+    },
+    {
+      "offset": "0x166c4bf",
+      "species_id": 633,
+      "english_reference": "Couaneton",
+      "french_reference": "Couaneton",
+      "portuguese": "Ducklett",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bee9d7dfe0d9e8e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c4ca",
+      "species_id": 634,
+      "english_reference": "Lakmécygne",
+      "french_reference": "Lakmécygne",
+      "portuguese": "Swanna",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdebd5e2e2d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c4d5",
+      "species_id": 635,
+      "english_reference": "Sorbébé",
+      "french_reference": "Sorbébé",
+      "portuguese": "Vanillite",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0d5e2dde0e0dde8d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c4e0",
+      "species_id": 636,
+      "english_reference": "Sorboul",
+      "french_reference": "Sorboul",
+      "portuguese": "Vanillish",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0d5e2dde0e0dde7dcffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c4eb",
+      "species_id": 637,
+      "english_reference": "Sorbouboul",
+      "french_reference": "Sorbouboul",
+      "portuguese": "Vanilluxe",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0d5e2dde0e0e9ecd9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ]
+    },
+    {
+      "offset": "0x166c4f6",
+      "species_id": 638,
+      "english_reference": "Vivaldaim",
+      "french_reference": "Vivaldaim",
+      "portuguese": "Deerling",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed9d9e6e0dde2dbffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c501",
+      "species_id": 639,
+      "english_reference": "Haydaim",
+      "french_reference": "Haydaim",
+      "portuguese": "Sawsbuck",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd5ebe7d6e9d7dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c50c",
+      "species_id": 640,
+      "english_reference": "Emolga",
+      "french_reference": "Emolga",
+      "portuguese": "Emolga",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bfe1e3e0dbd5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c517",
+      "species_id": 641,
+      "english_reference": "Carabing",
+      "french_reference": "Carabing",
+      "portuguese": "Karrablast",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5d5e6e6d5d6e0d5e7e8ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x166c522",
+      "species_id": 642,
+      "english_reference": "Lançargot",
+      "french_reference": "Lançargot",
+      "portuguese": "Escavalier",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bfe7d7d5ead5e0ddd9e6ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x166c52d",
+      "species_id": 643,
+      "english_reference": "Trompignon",
+      "french_reference": "Trompignon",
+      "portuguese": "Foongus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e3e3e2dbe9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c538",
+      "species_id": 644,
+      "english_reference": "Gaulet",
+      "french_reference": "Gaulet",
+      "portuguese": "Amoonguss",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe1e3e3e2dbe9e7e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c543",
+      "species_id": 645,
+      "english_reference": "Viskuse",
+      "french_reference": "Viskuse",
+      "portuguese": "Frillish",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e6dde0e0dde7dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c54e",
+      "species_id": 646,
+      "english_reference": "Moyade",
+      "french_reference": "Moyade",
+      "portuguese": "Jellicent",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c4d9e0e0ddd7d9e2e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166c559",
+      "species_id": 647,
+      "english_reference": "Mamanbo",
+      "french_reference": "Mamanbo",
+      "portuguese": "Alomomola",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe0e3e1e3e1e3e0d5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ]
+    },
+    {
+      "offset": "0x166c564",
+      "species_id": 648,
+      "english_reference": "Statitik",
+      "french_reference": "Statitik",
+      "portuguese": "Joltik",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c4e3e0e8dddfffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        31
+      ]
+    },
+    {
+      "offset": "0x166c56f",
+      "species_id": 649,
+      "english_reference": "Mygavolt",
+      "french_reference": "Mygavolt",
+      "portuguese": "Galvantula",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d5e0ead5e2e8e9e0d5ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x166c57a",
+      "species_id": 650,
+      "english_reference": "Grindur",
+      "french_reference": "Grindur",
+      "portuguese": "Ferroseed",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0d9e6e6e3e7d9d9d8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c585",
+      "species_id": 651,
+      "english_reference": "Noacier",
+      "french_reference": "Noacier",
+      "portuguese": "Ferrothorn",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0d9e6e6e3e8dce3e6e2ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x166c590",
+      "species_id": 652,
+      "english_reference": "Tic",
+      "french_reference": "Tic",
+      "portuguese": "Klink",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5e0dde2dfffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        25
+      ]
+    },
+    {
+      "offset": "0x166c59b",
+      "species_id": 653,
+      "english_reference": "Clic",
+      "french_reference": "Clic",
+      "portuguese": "Klang",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5e0d5e2dbffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ]
+    },
+    {
+      "offset": "0x166c5a6",
+      "species_id": 654,
+      "english_reference": "Cliticlic",
+      "french_reference": "Cliticlic",
+      "portuguese": "Klinklang",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5e0dde2dfe0d5e2dbffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166c5b1",
+      "species_id": 655,
+      "english_reference": "Anchwatt",
+      "french_reference": "Anchwatt",
+      "portuguese": "Tynamo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ceede2d5e1e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c5bc",
+      "species_id": 656,
+      "english_reference": "Lampéroie",
+      "french_reference": "Lampéroie",
+      "portuguese": "Eelektrik",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bfd9e0d9dfe8e6dddfffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166c5c7",
+      "species_id": 657,
+      "english_reference": "Ohmassacre",
+      "french_reference": "Ohmassacre",
+      "portuguese": "Eelektross",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bfd9e0d9dfe8e6e3e7e7ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x166c5d2",
+      "species_id": 658,
+      "english_reference": "Lewsor",
+      "french_reference": "Lewsor",
+      "portuguese": "Elgyem",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bfe0dbedd9e1ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c5dd",
+      "species_id": 659,
+      "english_reference": "Neitram",
+      "french_reference": "Neitram",
+      "portuguese": "Beheeyem",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bcd9dcd9d9edd9e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166c5e8",
+      "species_id": 660,
+      "english_reference": "Funécire",
+      "french_reference": "Funécire",
+      "portuguese": "Litwick",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6dde8ebddd7dfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        36
+      ]
+    },
+    {
+      "offset": "0x166c5f3",
+      "species_id": 661,
+      "english_reference": "Mélancolux",
+      "french_reference": "Mélancolux",
+      "portuguese": "Lampent",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6d5e1e4d9e2e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c5fe",
+      "species_id": 662,
+      "english_reference": "Lugulabre",
+      "french_reference": "Lugulabre",
+      "portuguese": "Chandelure",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bddcd5e2d8d9e0e9e6d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x166c609",
+      "species_id": 663,
+      "english_reference": "Coupenotte",
+      "french_reference": "Coupenotte",
+      "portuguese": "Axew",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbecd9ebffffffffffffff",
+      "encoded_bytes": 5,
+      "line_widths": [
+        24
+      ]
+    },
+    {
+      "offset": "0x166c614",
+      "species_id": 664,
+      "english_reference": "Incisache",
+      "french_reference": "Incisache",
+      "portuguese": "Fraxure",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e6d5ece9e6d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c61f",
+      "species_id": 665,
+      "english_reference": "Tranchodon",
+      "french_reference": "Tranchodon",
+      "portuguese": "Haxorus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2d5ece3e6e9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c62a",
+      "species_id": 666,
+      "english_reference": "Polarhume",
+      "french_reference": "Polarhume",
+      "portuguese": "Cubchoo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde9d6d7dce3e3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166c635",
+      "species_id": 667,
+      "english_reference": "Polagriffe",
+      "french_reference": "Polagriffe",
+      "portuguese": "Beartic",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bcd9d5e6e8ddd7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c640",
+      "species_id": 668,
+      "english_reference": "Hexagel",
+      "french_reference": "Hexagel",
+      "portuguese": "Cryogonal",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde6ede3dbe3e2d5e0ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c64b",
+      "species_id": 669,
+      "english_reference": "Escargaume",
+      "french_reference": "Escargaume",
+      "portuguese": "Shelmet",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddcd9e0e1d9e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c656",
+      "species_id": 670,
+      "english_reference": "Limaspeed",
+      "french_reference": "Limaspeed",
+      "portuguese": "Accelgor",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbd7d7d9e0dbe3e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c661",
+      "species_id": 671,
+      "english_reference": "Limonde",
+      "french_reference": "Limonde",
+      "portuguese": "Stunfisk",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cde8e9e2dadde7dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c66c",
+      "species_id": 672,
+      "english_reference": "Kungfouine",
+      "french_reference": "Kungfouine",
+      "portuguese": "Mienfoo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7ddd9e2dae3e3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c677",
+      "species_id": 673,
+      "english_reference": "Shaofouine",
+      "french_reference": "Shaofouine",
+      "portuguese": "Mienshao",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7ddd9e2e7dcd5e3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c682",
+      "species_id": 674,
+      "english_reference": "Drakkarmin",
+      "french_reference": "Drakkarmin",
+      "portuguese": "Druddigon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bee6e9d8d8dddbe3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166c68d",
+      "species_id": 675,
+      "english_reference": "Gringolem",
+      "french_reference": "Gringolem",
+      "portuguese": "Golett",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e3e0d9e8e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166c698",
+      "species_id": 676,
+      "english_reference": "Golemastoc",
+      "french_reference": "Golemastoc",
+      "portuguese": "Golurk",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e3e0e9e6dfffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166c6a3",
+      "species_id": 677,
+      "english_reference": "Scalpion",
+      "french_reference": "Scalpion",
+      "portuguese": "Pawniard",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cad5ebe2ddd5e6d8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c6ae",
+      "species_id": 678,
+      "english_reference": "Scalproie",
+      "french_reference": "Scalproie",
+      "portuguese": "Bisharp",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bcdde7dcd5e6e4ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c6b9",
+      "species_id": 679,
+      "english_reference": "Frison",
+      "french_reference": "Frison",
+      "portuguese": "Bouffalant",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce3e9dadad5e0d5e2e8ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ]
+    },
+    {
+      "offset": "0x166c6c4",
+      "species_id": 680,
+      "english_reference": "Furaiglon",
+      "french_reference": "Furaiglon",
+      "portuguese": "Rufflet",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cce9dadae0d9e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c6cf",
+      "species_id": 681,
+      "english_reference": "Gueriaigle",
+      "french_reference": "Gueriaigle",
+      "portuguese": "Braviary",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce6d5eaddd5e6edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c6da",
+      "species_id": 682,
+      "english_reference": "Vostourno",
+      "french_reference": "Vostourno",
+      "portuguese": "Vullaby",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0e9e0e0d5d6edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c6e5",
+      "species_id": 683,
+      "english_reference": "Vaututrice",
+      "french_reference": "Vaututrice",
+      "portuguese": "Mandibuzz",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d5e2d8ddd6e9eeeeffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c6f0",
+      "species_id": 684,
+      "english_reference": "Aflamanoir",
+      "french_reference": "Aflamanoir",
+      "portuguese": "Heatmor",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2d9d5e8e1e3e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c6fb",
+      "species_id": 685,
+      "english_reference": "Fermite",
+      "french_reference": "Fermite",
+      "portuguese": "Durant",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bee9e6d5e2e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ]
+    },
+    {
+      "offset": "0x166c706",
+      "species_id": 686,
+      "english_reference": "Solochi",
+      "french_reference": "Solochi",
+      "portuguese": "Deino",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed9dde2e3ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ]
+    },
+    {
+      "offset": "0x166c711",
+      "species_id": 687,
+      "english_reference": "Diamat",
+      "french_reference": "Diamat",
+      "portuguese": "Zweilous",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d4ebd9dde0e3e9e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c71c",
+      "species_id": 688,
+      "english_reference": "Trioxhydre",
+      "french_reference": "Trioxhydre",
+      "portuguese": "Hydreigon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2edd8e6d9dddbe3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166c727",
+      "species_id": 689,
+      "english_reference": "Pyronille",
+      "french_reference": "Pyronille",
+      "portuguese": "Larvesta",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6d5e6ead9e7e8d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c732",
+      "species_id": 690,
+      "english_reference": "Pyrax",
+      "french_reference": "Pyrax",
+      "portuguese": "Volcarona",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0e3e0d7d5e6e3e2d5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c73d",
+      "species_id": 691,
+      "english_reference": "Cobaltium",
+      "french_reference": "Cobaltium",
+      "portuguese": "Cobalion",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bde3d6d5e0dde3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c748",
+      "species_id": 692,
+      "english_reference": "Terrakium",
+      "french_reference": "Terrakium",
+      "portuguese": "Terrakion",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ced9e6e6d5dfdde3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166c753",
+      "species_id": 693,
+      "english_reference": "Viridium",
+      "french_reference": "Viridium",
+      "portuguese": "Virizion",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0dde6ddeedde3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c75e",
+      "species_id": 694,
+      "english_reference": "Boréas",
+      "french_reference": "Boréas",
+      "portuguese": "Tornadus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cee3e6e2d5d8e9e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c769",
+      "species_id": 695,
+      "english_reference": "Fulguris",
+      "french_reference": "Fulguris",
+      "portuguese": "Thundurus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cedce9e2d8e9e6e9e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c774",
+      "species_id": 696,
+      "english_reference": "Reshiram",
+      "french_reference": "Reshiram",
+      "portuguese": "Reshiram",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ccd9e7dcdde6d5e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c77f",
+      "species_id": 697,
+      "english_reference": "Zekrom",
+      "french_reference": "Zekrom",
+      "portuguese": "Zekrom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d4d9dfe6e3e1ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c78a",
+      "species_id": 698,
+      "english_reference": "Démétéros",
+      "french_reference": "Démétéros",
+      "portuguese": "Landorus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6d5e2d8e3e6e9e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c795",
+      "species_id": 699,
+      "english_reference": "Kyurem",
+      "french_reference": "Kyurem",
+      "portuguese": "Kyurem",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5ede9e6d9e1ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c7a0",
+      "species_id": 700,
+      "english_reference": "Keldeo",
+      "french_reference": "Keldeo",
+      "portuguese": "Keldeo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5d9e0d8d9e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c7ab",
+      "species_id": 701,
+      "english_reference": "Meloetta",
+      "french_reference": "Méloetta",
+      "portuguese": "Meloetta",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d9e0e3d9e8e8d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c7b6",
+      "species_id": 702,
+      "english_reference": "Genesect",
+      "french_reference": "Genesect",
+      "portuguese": "Genesect",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d9e2d9e7d9d7e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c7c1",
+      "species_id": 703,
+      "english_reference": "Déflaisan",
+      "french_reference": "Déflaisan",
+      "portuguese": "Unfezant",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cfe2dad9eed5e2e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ]
+    },
+    {
+      "offset": "0x166c7cc",
+      "species_id": 704,
+      "english_reference": "Viskuse",
+      "french_reference": "Viskuse",
+      "portuguese": "Frillish",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e6dde0e0dde7dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        40
+      ]
+    },
+    {
+      "offset": "0x166c7d7",
+      "species_id": 705,
+      "english_reference": "Moyade",
+      "french_reference": "Moyade",
+      "portuguese": "Jellicent",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c4d9e0e0ddd7d9e2e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ]
+    },
+    {
+      "offset": "0x166c7e2",
+      "species_id": 706,
+      "english_reference": "Warrior",
+      "french_reference": "Guerrier",
+      "portuguese": "Warrior",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d1d5e6e6dde3e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ]
+    },
+    {
+      "offset": "0x166c7ed",
+      "species_id": 707,
+      "english_reference": "Cheniti",
+      "french_reference": "Cheniti",
+      "portuguese": "Burmy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce9e6e1edffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c7f8",
+      "species_id": 708,
+      "english_reference": "Cheniti",
+      "french_reference": "Cheniti",
+      "portuguese": "Burmy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce9e6e1edffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c803",
+      "species_id": 709,
+      "english_reference": "Cheniselle",
+      "french_reference": "Cheniselle",
+      "portuguese": "Wormadam",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d1e3e6e1d5d8d5e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166c80e",
+      "species_id": 710,
+      "english_reference": "Cheniselle",
+      "french_reference": "Cheniselle",
+      "portuguese": "Wormadam",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d1e3e6e1d5d8d5e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166c819",
+      "species_id": 711,
+      "english_reference": "Sancoki",
+      "french_reference": "Sancoki",
+      "portuguese": "Shellos",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddcd9e0e0e3e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c824",
+      "species_id": 712,
+      "english_reference": "Tritosor",
+      "french_reference": "Tritosor",
+      "portuguese": "Gastrodon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d5e7e8e6e3d8e3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166c82f",
+      "species_id": 713,
+      "english_reference": "Motisma",
+      "french_reference": "Motisma",
+      "portuguese": "Rotom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cce3e8e3e1ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c83a",
+      "species_id": 714,
+      "english_reference": "Motisma",
+      "french_reference": "Motisma",
+      "portuguese": "Rotom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cce3e8e3e1ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c845",
+      "species_id": 715,
+      "english_reference": "Motisma",
+      "french_reference": "Motisma",
+      "portuguese": "Rotom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cce3e8e3e1ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c850",
+      "species_id": 716,
+      "english_reference": "Motisma",
+      "french_reference": "Motisma",
+      "portuguese": "Rotom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cce3e8e3e1ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c85b",
+      "species_id": 717,
+      "english_reference": "Motisma",
+      "french_reference": "Motisma",
+      "portuguese": "Rotom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cce3e8e3e1ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ]
+    },
+    {
+      "offset": "0x166c866",
+      "species_id": 718,
+      "english_reference": "Giratina",
+      "french_reference": "Giratina",
+      "portuguese": "Giratina",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1dde6d5e8dde2d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166c871",
+      "species_id": 719,
+      "english_reference": "Shaymin",
+      "french_reference": "Shaymin",
+      "portuguese": "Shaymin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cddcd5ede1dde2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    },
+    {
+      "offset": "0x166c87c",
+      "species_id": 720,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c887",
+      "species_id": 721,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c892",
+      "species_id": 722,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c89d",
+      "species_id": 723,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c8a8",
+      "species_id": 724,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c8b3",
+      "species_id": 725,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c8be",
+      "species_id": 726,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c8c9",
+      "species_id": 727,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c8d4",
+      "species_id": 728,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c8df",
+      "species_id": 729,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c8ea",
+      "species_id": 730,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c8f5",
+      "species_id": 731,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c900",
+      "species_id": 732,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c90b",
+      "species_id": 733,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c916",
+      "species_id": 734,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c921",
+      "species_id": 735,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166c92c",
+      "species_id": 736,
+      "english_reference": "Bargantua",
+      "french_reference": "Bargantua",
+      "portuguese": "Basculin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bcd5e7d7e9e0dde2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c937",
+      "species_id": 737,
+      "english_reference": "Darumacho",
+      "french_reference": "Darumacho",
+      "portuguese": "Darmanitan",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed5e6e1d5e2dde8d5e2ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x166c942",
+      "species_id": 738,
+      "english_reference": "Vivaldaim",
+      "french_reference": "Vivaldaim",
+      "portuguese": "Deerling",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed9d9e6e0dde2dbffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c94d",
+      "species_id": 739,
+      "english_reference": "Vivaldaim",
+      "french_reference": "Vivaldaim",
+      "portuguese": "Deerling",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed9d9e6e0dde2dbffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c958",
+      "species_id": 740,
+      "english_reference": "Vivaldaim",
+      "french_reference": "Vivaldaim",
+      "portuguese": "Deerling",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed9d9e6e0dde2dbffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166c963",
+      "species_id": 741,
+      "english_reference": "Haydaim",
+      "french_reference": "Haydaim",
+      "portuguese": "Sawsbuck",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd5ebe7d6e9d7dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c96e",
+      "species_id": 742,
+      "english_reference": "Haydaim",
+      "french_reference": "Haydaim",
+      "portuguese": "Sawsbuck",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd5ebe7d6e9d7dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c979",
+      "species_id": 743,
+      "english_reference": "Haydaim",
+      "french_reference": "Haydaim",
+      "portuguese": "Sawsbuck",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd5ebe7d6e9d7dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ]
+    },
+    {
+      "offset": "0x166c984",
+      "species_id": 744,
+      "english_reference": "Hippopotas",
+      "french_reference": "Hippopotas",
+      "portuguese": "Hippopotas",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2dde4e4e3e4e3e8d5e7ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x166c98f",
+      "species_id": 745,
+      "english_reference": "Hippodocus",
+      "french_reference": "Hippodocus",
+      "portuguese": "Hippowdon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c2dde4e4e3ebd8e3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166c99a",
+      "species_id": 746,
+      "english_reference": "Meloetta",
+      "french_reference": "Méloetta",
+      "portuguese": "Meloetta",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c7d9e0e3d9e8e8d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c9a5",
+      "species_id": 747,
+      "english_reference": "Genesect",
+      "french_reference": "Genesect",
+      "portuguese": "Genesect",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d9e2d9e7d9d7e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c9b0",
+      "species_id": 748,
+      "english_reference": "Genesect",
+      "french_reference": "Genesect",
+      "portuguese": "Genesect",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d9e2d9e7d9d7e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c9bb",
+      "species_id": 749,
+      "english_reference": "Genesect",
+      "french_reference": "Genesect",
+      "portuguese": "Genesect",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d9e2d9e7d9d7e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c9c6",
+      "species_id": 750,
+      "english_reference": "Genesect",
+      "french_reference": "Genesect",
+      "portuguese": "Genesect",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1d9e2d9e7d9d7e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c9d1",
+      "species_id": 751,
+      "english_reference": "Ceriflor",
+      "french_reference": "Ceriflor",
+      "portuguese": "Cherrim",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bddcd9e6e6dde1ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166c9dc",
+      "species_id": 752,
+      "english_reference": "Kyurem",
+      "french_reference": "Kyurem",
+      "portuguese": "Kyurem",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5ede9e6d9e1ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c9e7",
+      "species_id": 753,
+      "english_reference": "Kyurem",
+      "french_reference": "Kyurem",
+      "portuguese": "Kyurem",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5ede9e6d9e1ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166c9f2",
+      "species_id": 754,
+      "english_reference": "Boréas",
+      "french_reference": "Boréas",
+      "portuguese": "Tornadus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cee3e6e2d5d8e9e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166c9fd",
+      "species_id": 755,
+      "english_reference": "Fulguris",
+      "french_reference": "Fulguris",
+      "portuguese": "Thundurus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cedce9e2d8e9e6e9e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ]
+    },
+    {
+      "offset": "0x166ca08",
+      "species_id": 756,
+      "english_reference": "Démétéros",
+      "french_reference": "Démétéros",
+      "portuguese": "Landorus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6d5e2d8e3e6e9e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166ca13",
+      "species_id": 757,
+      "english_reference": "Keldeo",
+      "french_reference": "Keldeo",
+      "portuguese": "Keldeo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c5d9e0d8d9e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ]
+    },
+    {
+      "offset": "0x166ca1e",
+      "species_id": 758,
+      "english_reference": "Marisson",
+      "french_reference": "Marisson",
+      "portuguese": "Chespin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bddcd9e7e4dde2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166ca29",
+      "species_id": 759,
+      "english_reference": "Boguérisse",
+      "french_reference": "Boguérisse",
+      "portuguese": "Quilladin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cbe9dde0e0d5d8dde2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ]
+    },
+    {
+      "offset": "0x166ca34",
+      "species_id": 760,
+      "english_reference": "Blindépiqu",
+      "french_reference": "Blindépique",
+      "portuguese": "Chesnaught",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bddcd9e7e2d5e9dbdce8ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x166ca3f",
+      "species_id": 761,
+      "english_reference": "Feunnec",
+      "french_reference": "Feunnec",
+      "portuguese": "Fennekin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0d9e2e2d9dfdde2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ]
+    },
+    {
+      "offset": "0x166ca4a",
+      "species_id": 762,
+      "english_reference": "Roussil",
+      "french_reference": "Roussil",
+      "portuguese": "Braixen",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce6d5ddecd9e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166ca55",
+      "species_id": 763,
+      "english_reference": "Goupelin",
+      "french_reference": "Goupelin",
+      "portuguese": "Delphox",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bed9e0e4dce3ecffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166ca60",
+      "species_id": 764,
+      "english_reference": "Grenousse",
+      "french_reference": "Grenousse",
+      "portuguese": "Froakie",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e6e3d5dfddd9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ]
+    },
+    {
+      "offset": "0x166ca6b",
+      "species_id": 765,
+      "english_reference": "Croâporal",
+      "french_reference": "Croâporal",
+      "portuguese": "Frogadier",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e6e3dbd5d8ddd9e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166ca76",
+      "species_id": 766,
+      "english_reference": "Amphinobi",
+      "french_reference": "Amphinobi",
+      "portuguese": "Greninja",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c1e6d9e2dde2ded5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ]
+    },
+    {
+      "offset": "0x166ca81",
+      "species_id": 767,
+      "english_reference": "Sapereau",
+      "french_reference": "Sapereau",
+      "portuguese": "Bunnelby",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bce9e2e2d9e0d6edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ]
+    },
+    {
+      "offset": "0x166ca8c",
+      "species_id": 768,
+      "english_reference": "Excavarenn",
+      "french_reference": "Excavarenne",
+      "portuguese": "Diggersby",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "bedddbdbd9e6e7d6edffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ]
+    },
+    {
+      "offset": "0x166ca97",
+      "species_id": 769,
+      "english_reference": "Passerouge",
+      "french_reference": "Passerouge",
+      "portuguese": "Fletchling",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e0d9e8d7dce0dde2dbff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x166caa2",
+      "species_id": 770,
+      "english_reference": "Braisillon",
+      "french_reference": "Fletchindr",
+      "portuguese": "Fletchindr",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e0d9e8d7dcdde2d8e6ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ]
+    },
+    {
+      "offset": "0x166caad",
+      "species_id": 771,
+      "english_reference": "Flambusard",
+      "french_reference": "Flambusard",
+      "portuguese": "Talonflame",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "ced5e0e3e2dae0d5e1d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ]
+    },
+    {
+      "offset": "0x166cab8",
+      "species_id": 772,
+      "english_reference": "Lépidonill",
+      "french_reference": "Lépidonille",
+      "portuguese": "Scatterbug",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cdd7d5e8e8d9e6d6e9dbff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ]
+    },
+    {
+      "offset": "0x166cac3",
+      "species_id": 773,
+      "english_reference": "Pérégrain",
+      "french_reference": "Pérégrain",
+      "portuguese": "Spewpa",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "cde4d9ebe4d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        36
+      ]
+    },
+    {
+      "offset": "0x166cace",
+      "species_id": 774,
+      "english_reference": "Prismillon",
+      "french_reference": "Prismillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166cad9",
+      "species_id": 775,
+      "english_reference": "Hélionceau",
+      "french_reference": "Hélionceau",
+      "portuguese": "Litleo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c6dde8e0d9e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ]
+    },
+    {
+      "offset": "0x166cae4",
+      "species_id": 776,
+      "english_reference": "Némélios",
+      "french_reference": "Némélios",
+      "portuguese": "Pyroar",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "caede6e3d5e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ]
+    },
+    {
+      "offset": "0x166caef",
+      "species_id": 777,
+      "english_reference": "Flabébé",
+      "french_reference": null,
+      "portuguese": "Flabébé",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e0d5d61bd61bffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ]
+    },
+    {
+      "offset": "0x166cafa",
+      "species_id": 778,
+      "english_reference": "Floette",
+      "french_reference": "Floette",
+      "portuguese": "Floette",
+      "status": "retained_english",
+      "reason": "F-759 : nom international de la ROM EN conservé, forme et ponctuation comprises ; cellule indexée, sans pointeur individuel requis.",
+      "source_hex": "c0e0e3d9e8e8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ]
+    }
+  ]
+}
