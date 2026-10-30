@@ -36,9 +36,9 @@ def test_every_source_reader_delivers_the_complete_translation(source, built):
         assert source[offset:offset + len(raw)] == raw
         refs = [m.start() for m in re.finditer(
             re.escape((offset + 0x08000000).to_bytes(4, 'little')), source)]
-        assert refs == row['references']
+        assert refs == sorted(row['references'] + [m['site'] for m in row.get('binary_matches', [])])
         encoded = TextEncoder.encode_pokemon(row['portuguese'].replace(r'\n', '\n'), strict=True)
-        for ref in refs:
+        for ref in row['references']:
             target = int.from_bytes(built[ref:ref + 4], 'little') - 0x08000000
             assert built[target:target + len(encoded)] == encoded
 
@@ -97,3 +97,30 @@ def test_exceptions_and_neighbor_pointers(source, built):
             for neighbor in row['neighbor_offsets']:
                 adjacent = next(r for r in AUDIT['entries'] if r['offset'] == neighbor)
                 assert adjacent['references']
+
+
+def test_native_callback_table_survives_text_injection(source):
+    patch = make_patch(source)
+    rom = bytearray(source)
+    patch.apply(rom)
+    assert rom[0x3E23E0:0x3E23E8] == source[0x3E23E0:0x3E23E8]
+    # Simule le repointage du scan générique : la vérification refuse la
+    # corruption et le finaliseur restaure les deux callbacks natifs.
+    valid = bytes(rom)
+    rom[0x3E23E3:0x3E23E7] = (0x08123456).to_bytes(4, 'little')
+    with pytest.raises(ValueError, match='non textuelle'):
+        patch.verify(rom)
+    assert patch.apply(rom) == {'verified': 296, 'relocated': 0}
+    assert rom == valid
+
+
+def test_built_callback_owner_and_thumb_targets(source, built):
+    assert built[0x3E23E0:0x3E23E8] == source[0x3E23E0:0x3E23E8]
+    assert int.from_bytes(source[0x9F294:0x9F298], 'little') == 0x083E23E0
+    assert source[0x9F29C:0x9F2A2] == bytes.fromhex('002141817047')
+    assert source[0x9F2A4:0x9F2AA] == bytes.fromhex('00b5021c0020')
+    assert source[0x1E7C8AC:0x1E7C8AE] == b'\x0f\x00'
+    changed_source = bytearray(source)
+    changed_source[0x9F294] ^= 1
+    with pytest.raises(ValueError, match='préimage'):
+        make_patch(changed_source)

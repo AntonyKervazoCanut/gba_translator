@@ -11315,7 +11315,6 @@
       "offset": "0x1f2a508",
       "source_hex": "c9dcb800dcd9edb800fd01b000dae9e2e2ed00e4e0d5d7d900e8e3fee1d9d9e800e9e4b800dce9dcacfbcde3b000c300ebd5e700e8e3e0d800ae00e3e600e6d5e8dcd9e6b8fee8dcd900cae3df1be1e3e200dde2dcd5d6dde8dde2db00e1ed00d6e3d8edfaebd5e700e8e3e0d8b0fbcedcd5e800c300e3e9dbdce800e8e300e4d5e7e700e8dcdde700d5e0e3e2dbb800d5e7fee8dcd900e4e6ddeed900dae3e600d6d9d5e8dde2db00e1d900e0d5e7e800e8dde1d9adfbb1bcd9e8e8d9e600e0d5e8d900e8dcd5e200e2d9ead9e6b2b800e8dcd9ed00e7d5ddd8b0fedcd5dcb0ff",
       "references": [
-        4072419,
         31967406
       ],
       "english_reference": "Oh, hey, <0xFD>À\" funny place to\\nmeet up, huh?<0xFB>So\" I was told - or rather,\\nthe Pokémon inhabiting my body<0xFA>was told\"<0xFB>That I ought to pass this along, as\\nthe prize for beating me last time.<0xFB>“Better late than never”, they said\"\\nhah\"",
@@ -11324,11 +11323,6 @@
       "scene": "Magnolia Cafe / services et échanges",
       "fixed_region": false,
       "pointer_contexts": [
-        {
-          "site": "0x3e23e3",
-          "before_hex": "08b5f109089df209",
-          "after_hex": "08000000000000ff"
-        },
         {
           "site": "0x1e7c8ae",
           "before_hex": "0923d159eb090f00",
@@ -11361,7 +11355,16 @@
         "1": "WWWWWWW"
       },
       "status": "translated",
-      "reason": "Consommateurs directs audités ; commandes, pages et noms propres conservés ; injection verbatim après réparations."
+      "reason": "Consommateurs directs audités ; commandes, pages et noms propres conservés ; injection verbatim après réparations. Match 0x3e23e3 exclu : chevauche les callbacks 0x0809f29d et 0x0809f2a5 ; table vivante référencée par 0x9f294, restaurée après le builder générique.",
+      "binary_matches": [
+        {
+          "site": 4072419,
+          "base": 4072416,
+          "source_hex": "9df20908a5f20908",
+          "owner_pointer": 651924,
+          "kind": "Table de callbacks Thumb ; correspondance non alignée entre deux pointeurs de fonctions"
+        }
+      ]
     },
     {
       "offset": "0x1f2a5e9",

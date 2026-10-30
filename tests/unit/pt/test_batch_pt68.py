@@ -83,3 +83,12 @@ def test_gem_family_and_pointer_tables():
     assert rows[140]['references'] == [0x1E7AE20]
     assert rows[141]['references'] == [0x1E7AE24]
     assert not any(row['fixed_region'] for row in rows)
+
+
+def test_unaligned_callback_match_is_not_a_text_reader():
+    row = AUDIT['entries'][276]
+    assert row['offset'] == '0x1f2a508'
+    assert row['references'] == [0x1E7C8AE]
+    assert row['binary_matches'][0]['site'] == 0x3E23E3
+    assert row['binary_matches'][0]['source_hex'] == '9df20908a5f20908'
+    assert sum(len(r['references']) for r in AUDIT['entries']) == 374

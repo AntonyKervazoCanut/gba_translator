@@ -11,11 +11,44 @@ sys.path.insert(0, str(ROOT))
 
 from languages.pt.patches.batch_20 import BorriusTextPatch
 
+CALLBACK_BASE = 0x3E23E0
+CALLBACK_BYTES = bytes.fromhex('9df20908a5f20908')
+CALLBACK_OWNER = 0x9F294
+FALSE_TEXT_SITE = 0x3E23E3
 
-def make_patch(source: bytes) -> BorriusTextPatch:
+
+class MagnoliaTextPatch(BorriusTextPatch):
+    """Préserve la table de callbacks que le scan brut confond avec un texte."""
+
+    def __init__(self, source: bytes, definitions: list[dict], combined: Path) -> None:
+        if (source[CALLBACK_BASE:CALLBACK_BASE + 8] != CALLBACK_BYTES
+                or int.from_bytes(source[CALLBACK_OWNER:CALLBACK_OWNER + 4], 'little')
+                != CALLBACK_BASE + 0x08000000):
+            raise ValueError('PT-68 : préimage de la table de callbacks différente')
+        super().__init__(source, definitions, combined)
+
+    def apply(self, rom: bytearray) -> dict[str, int]:
+        """Restaure les callbacks puis finalise les vrais lecteurs atomiquement."""
+        working = bytearray(rom)
+        # 08 A5 F2 09 chevauche 0809F29D et 0809F2A5 : ce n'est pas
+        # un pointeur texte. Le builder générique peut déjà l'avoir repointé.
+        working[CALLBACK_BASE:CALLBACK_BASE + 8] = CALLBACK_BYTES
+        stats = super().apply(working)
+        rom[:] = working
+        return stats
+
+    def verify(self, rom: bytes | bytearray) -> None:
+        """Vérifie le texte livré et les deux fonctions natives de la table."""
+        super().verify(rom)
+        if rom[CALLBACK_BASE:CALLBACK_BASE + 8] != CALLBACK_BYTES:
+            raise ValueError('PT-68 : référence non textuelle altérée')
+
+
+
+def make_patch(source: bytes) -> MagnoliaTextPatch:
     """Charge les pointeurs de scripts et de tables audités, sans cellule brute."""
     audit = json.loads((ROOT / 'languages/pt/data/pt68_audit.json').read_text())
-    return BorriusTextPatch(source, [r for r in audit['entries'] if r['status'] != 'exception'], ROOT / 'languages/pt/combined_pt.txt')
+    return MagnoliaTextPatch(source, [r for r in audit['entries'] if r['status'] != 'exception'], ROOT / 'languages/pt/combined_pt.txt')
 
 
 def main() -> int:
