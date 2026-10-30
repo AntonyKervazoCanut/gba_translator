@@ -181,3 +181,30 @@ entries:
     }
 
     assert staged.validate_added_translations(additions, staged_files) == []
+
+
+def test_batch_parses_each_manifest_once_without_reusing_stale_values(monkeypatch):
+    """Un lot partage sa lecture YAML, mais chaque validation relit l'index."""
+    additions = [staged.AddedTranslation('pt', 1, 'Um'), staged.AddedTranslation('pt', 2, 'Dois')]
+    files = {
+        'languages/pt/combined_pt.txt': '0x1: Um\n0x2: Dois\n',
+        'languages/pt/protected_entries.yaml': (
+            'entries:\n  - offset: "0x1"\n    expected: Um\n'
+            '  - offset: "0x2"\n    expected: Dois\n'),
+    }
+    parse = staged.yaml.safe_load
+    calls = []
+
+    def counted_parse(text):
+        calls.append(text)
+        return parse(text)
+
+    monkeypatch.setattr(staged.yaml, 'safe_load', counted_parse)
+
+    assert staged.validate_added_translations(additions, files) == []
+    assert len(calls) == 1
+    files['languages/pt/protected_entries.yaml'] = files[
+        'languages/pt/protected_entries.yaml'].replace('expected: Dois', 'expected: Outro')
+    failures = staged.validate_added_translations(additions, files)
+    assert len(calls) == 2
+    assert len(failures) == 1 and '0x000002' in failures[0] and 'Outro' in failures[0]

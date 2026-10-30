@@ -128,6 +128,8 @@ def validate_added_translations(
 
     failures: List[str] = []
     seen = set()
+    manifests: dict[str, tuple[integrity.ProtectedEntry, ...]] = {}
+    combined_maps: dict[str, dict[int, str]] = {}
     for addition in additions:
         key = (addition.lang, addition.offset)
         if key in seen:
@@ -145,7 +147,10 @@ def validate_added_translations(
             failures.append(f"{label}: protected_entries.yaml absent de l'index")
             continue
         try:
-            entries = _manifest_entries(manifest_text, manifest_path)
+            # Un instantané d’index est immuable pendant cette validation.
+            if addition.lang not in manifests:
+                manifests[addition.lang] = _manifest_entries(manifest_text, manifest_path)
+            entries = manifests[addition.lang]
         except (TypeError, ValueError, yaml.YAMLError) as error:
             failures.append(f"{label}: manifeste de test invalide ({error})")
             continue
@@ -156,7 +161,9 @@ def validate_added_translations(
         if entry.absent:
             failures.append(f"{label}: le manifeste impose absent: true pour une traduction ajoutée")
             continue
-        resolved = _load_last_wins_text(combined_text).get(addition.offset)
+        if addition.lang not in combined_maps:
+            combined_maps[addition.lang] = _load_last_wins_text(combined_text)
+        resolved = combined_maps[addition.lang].get(addition.offset)
         if resolved != entry.expected:
             failures.append(
                 f"{label}: le test attend « {entry.expected} », mais la valeur live est « {resolved} »"
