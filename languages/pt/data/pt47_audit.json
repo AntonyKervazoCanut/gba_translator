@@ -1,0 +1,4926 @@
+{
+  "batch": "PT-47",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "entries": [
+    {
+      "offset": "0xa4d80a",
+      "live_offset": "0xa4d80a",
+      "corpus_en": "The repellent's effect wore off!",
+      "comparison_fr": "L'effet du Repousse est fini !",
+      "source_hex": "cedcd900e6d9e4d9e0e0d9e2e8b4e700d9dadad9d7e800ebe3e6d900e3dadaabff",
+      "references": [
+        10110842
+      ],
+      "status": "translated",
+      "expected": "O efeito do repelente acabou!",
+      "pt_bytes": 30,
+      "pixels": [
+        166
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d82b",
+      "live_offset": "0xa4d82b",
+      "corpus_en": "<0xFD>À found <0xFD>Á <0xFD>Â!",
+      "comparison_fr": "{PLAYER} trouve {STR_VAR_1} {STR_VAR_2} !",
+      "source_hex": "fd0100dae3e9e2d800fd0200fd03abff",
+      "references": [
+        10111075
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x01> achou\\n<0xFD><0x02> <0xFD><0x03>!",
+      "pt_bytes": 16,
+      "pixels": [
+        90,
+        120
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d83b",
+      "live_offset": "0xa4d83b",
+      "corpus_en": "Obtained <0xFD>Á <0xFD>Â!",
+      "comparison_fr": "Obtenu {STR_VAR_1} {STR_VAR_2} !",
+      "source_hex": "c9d6e8d5dde2d9d800fd0200fd03abff",
+      "references": [
+        10111212
+      ],
+      "status": "translated",
+      "expected": "Obteve <0xFD><0x02> <0xFD><0x03>!",
+      "pt_bytes": 14,
+      "pixels": [
+        161
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d84b",
+      "live_offset": "0xa4d84b",
+      "corpus_en": "Obtained a <0xFD>Â!\nIt contains <0xFD>Á.",
+      "comparison_fr": "Obtenu un {STR_VAR_2} !\nContient {STR_VAR_1}.",
+      "source_hex": "c9d6e8d5dde2d9d800d500fd03abfec3e800d7e3e2e8d5dde2e700fd02adff",
+      "references": [
+        10111191
+      ],
+      "status": "translated",
+      "expected": "Obteve <0xFD><0x03>!\\nContém <0xFD><0x02>.",
+      "pt_bytes": 22,
+      "pixels": [
+        101,
+        99
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d894",
+      "live_offset": "0xa4d894",
+      "corpus_en": "Use which item?",
+      "comparison_fr": "Utiliser quel objet ?",
+      "source_hex": "cfe7d900ebdcddd7dc00dde8d9e1acff",
+      "references": [
+        10111268
+      ],
+      "status": "translated",
+      "expected": "Usar qual item?",
+      "pt_bytes": 16,
+      "pixels": [
+        84
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d8a4",
+      "live_offset": "0xa4d8a4",
+      "corpus_en": "<0xFD>À scurried to the nearest healer,\nprotecting the exhausted and fainted\nPokémon from further harm\"<0xFB>",
+      "comparison_fr": "{PLAYER} fonce vers le soigneur\nle plus proche, protégeant les\nPokémon épuisés et K.O....<0xFB>",
+      "source_hex": "fd0100e7d7e9e6e6ddd9d800e8e300e8dcd900e2d9d5e6d9e7e800dcd9d5e0d9e6b8fee4e6e3e8d9d7e8dde2db00e8dcd900d9ecdcd5e9e7e8d9d800d5e2d800dad5dde2e8d9d8fecae3df1be1e3e200dae6e3e100dae9e6e8dcd9e600dcd5e6e1b0fbff",
+      "references": [
+        10485652
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x01> correu ao curandeiro\\nmais próximo, protegendo os\\nPokémon exaustos e desmaiados<0xB0><0xFB>",
+      "pt_bytes": 84,
+      "pixels": [
+        173,
+        151,
+        165,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d908",
+      "live_offset": "0xa4d908",
+      "corpus_en": "The wall is very rocky\"\nWould you like to use <0xFD>Â?",
+      "comparison_fr": "Le mur est très rocheux...\nUtiliser {STR_VAR_2} ?",
+      "source_hex": "cedcd900ebd5e0e000dde700ead9e6ed00e6e3d7dfedb0fed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900fd03acff",
+      "references": [
+        10111410
+      ],
+      "status": "translated",
+      "expected": "A parede é muito rochosa<0xB0>\\nQuer usar <0xFD><0x03>?",
+      "pt_bytes": 40,
+      "pixels": [
+        138,
+        117
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d93a",
+      "live_offset": "0xa4d93a",
+      "corpus_en": "The wall is very rocky\"\nWould you like to use the ADM?",
+      "comparison_fr": "Le mur est très rocheux...\nUtiliser l'ADM ?",
+      "source_hex": "cedcd900ebd5e0e000dde700ead9e6ed00e6e3d7dfedb0fed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900e8dcd900bbbec7acff",
+      "references": [
+        10111489
+      ],
+      "status": "translated",
+      "expected": "A parede é muito rochosa<0xB0>\\nQuer usar o ADM?",
+      "pt_bytes": 43,
+      "pixels": [
+        138,
+        93
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d971",
+      "live_offset": "0xa4d971",
+      "corpus_en": "The wall is very rocky\"\nWould you like to scale it?",
+      "comparison_fr": "Le mur est très rocheux...\nVeux-tu l'escalader ?",
+      "source_hex": "cedcd900ebd5e0e000dde700ead9e6ed00e6e3d7dfedb0fed1e3e9e0d800ede3e900e0dddfd900e8e300e7d7d5e0d900dde8acff",
+      "references": [
+        10111523
+      ],
+      "status": "translated",
+      "expected": "A parede é muito rochosa<0xB0>\\nQuer escalá-la?",
+      "pt_bytes": 42,
+      "pixels": [
+        138,
+        86
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d9a5",
+      "live_offset": "0xa4d9a5",
+      "corpus_en": "The wall is very rocky\"\nWill a Pokémon's move scale it?",
+      "comparison_fr": "Le mur est très rocheux...\nUne capacité peut l'escalader ?",
+      "source_hex": "cedcd900ebd5e0e000dde700ead9e6ed00e6e3d7dfedb0fed1dde0e000d500cae3df1be1e3e2b4e700e1e3ead900e7d7d5e0d900dde8acff",
+      "references": [
+        10111446
+      ],
+      "status": "translated",
+      "expected": "A parede é muito rochosa<0xB0>\\nUm movimento poderia escalá-la?",
+      "pt_bytes": 58,
+      "pixels": [
+        138,
+        176
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d9dd",
+      "live_offset": "0xa4d9dd",
+      "corpus_en": "<0xFD>Á blew away the fog!",
+      "comparison_fr": "{STR_VAR_1} dissipe le brouillard !",
+      "source_hex": "fd0200d6e0d9eb00d5ebd5ed00e8dcd900dae3dbabff",
+      "references": [
+        10111562
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> dissipou a neblina!",
+      "pt_bytes": 23,
+      "pixels": [
+        163
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4d9f3",
+      "live_offset": "0xa4d9f3",
+      "corpus_en": "It's a large waterfall.\nWould you like to use the ADM?",
+      "comparison_fr": "Grande cascade.\nUtiliser l'ADM ?",
+      "source_hex": "c3e8b4e700d500e0d5e6dbd900ebd5e8d9e6dad5e0e0adfed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900e8dcd900bbbec7acff",
+      "references": [
+        10111813
+      ],
+      "status": "translated",
+      "expected": "É uma grande cachoeira.\\nQuer usar o ADM?",
+      "pt_bytes": 41,
+      "pixels": [
+        132,
+        93
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4da2a",
+      "live_offset": "0xa4da2a",
+      "corpus_en": "It's a large waterfall.\nWould you like to climb it?",
+      "comparison_fr": "C'est une grande cascade.\nVeux-tu l'escalader ?",
+      "source_hex": "c3e8b4e700d500e0d5e6dbd900ebd5e8d9e6dad5e0e0adfed1e3e9e0d800ede3e900e0dddfd900e8e300d7e0dde1d600dde8acff",
+      "references": [
+        10111864
+      ],
+      "status": "translated",
+      "expected": "É uma grande cachoeira.\\nQuer escalá-la?",
+      "pt_bytes": 40,
+      "pixels": [
+        132,
+        86
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4da5e",
+      "live_offset": "0xa4da5e",
+      "corpus_en": "The water is dyed a deep blue\"",
+      "comparison_fr": "L'eau est teintée d'un bleu profond...",
+      "source_hex": "cedcd900ebd5e8d9e600dde700d8edd9d800d500d8d9d9e400d6e0e9d9b0ff",
+      "references": [
+        10111988
+      ],
+      "status": "translated",
+      "expected": "A água tem um azul profundo<0xB0>",
+      "pt_bytes": 29,
+      "pixels": [
+        157
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4da7d",
+      "live_offset": "0xa4da7d",
+      "corpus_en": "The water is a murky brown\"",
+      "comparison_fr": "L'eau est brune et trouble...",
+      "source_hex": "cedcd900ebd5e8d9e600dde700d500e1e9e6dfed00d6e6e3ebe2b0ff",
+      "references": [
+        10111997
+      ],
+      "status": "translated",
+      "expected": "A água é marrom e turva<0xB0>",
+      "pt_bytes": 25,
+      "pixels": [
+        134
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4da99",
+      "live_offset": "0xa4da99",
+      "corpus_en": "The water is a murky brown\"\nWould you like to Surf?",
+      "comparison_fr": "L'eau est brune et trouble...\nVeux-tu utiliser Surf ?",
+      "source_hex": "cedcd900ebd5e8d9e600dde700d500e1e9e6dfed00d6e6e3ebe2b0fed1e3e9e0d800ede3e900e0dddfd900e8e300cde9e6daacff",
+      "references": [
+        10111975,
+        10112158
+      ],
+      "status": "translated",
+      "expected": "A água é marrom e turva<0xB0>\\nQuer usar Surf?",
+      "pt_bytes": 41,
+      "pixels": [
+        134,
+        85
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dacd",
+      "live_offset": "0xa4dacd",
+      "corpus_en": "The water is dyed a deep blue\"\nWould you like to use the ADM?",
+      "comparison_fr": "L'eau est teintée d'un bleu profond...\nVeux-tu utiliser l'ADM ?",
+      "source_hex": "cedcd900ebd5e8d9e600dde700d8edd9d800d500d8d9d9e400d6e0e9d9b0fed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900e8dcd900bbbec7acff",
+      "references": [
+        10112036
+      ],
+      "status": "translated",
+      "expected": "A água tem um azul profundo<0xB0>\\nQuer usar o ADM?",
+      "pt_bytes": 46,
+      "pixels": [
+        157,
+        93
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4db0b",
+      "live_offset": "0xa4db0b",
+      "corpus_en": "The water is a murky brown\"\nWould you like to use the ADM?",
+      "comparison_fr": "L'eau est d'un brun trouble...\nVeux-tu utiliser l'ADM ?",
+      "source_hex": "cedcd900ebd5e8d9e600dde700d500e1e9e6dfed00d6e6e3ebe2b0fed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900e8dcd900bbbec7acff",
+      "references": [
+        10112078
+      ],
+      "status": "translated",
+      "expected": "A água é marrom e turva<0xB0>\\nQuer usar o ADM?",
+      "pt_bytes": 42,
+      "pixels": [
+        134,
+        93
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4db46",
+      "live_offset": "0xa4db46",
+      "corpus_en": "The ADM attached to <0xFD>Á\nas a floating device!",
+      "comparison_fr": "L'ADM s'attache à {STR_VAR_1}\ncomme flotteur !",
+      "source_hex": "cedcd900bbbec700d5e8e8d5d7dcd9d800e8e300fd02fed5e700d500dae0e3d5e8dde2db00d8d9eaddd7d9abff",
+      "references": [
+        10112060
+      ],
+      "status": "translated",
+      "expected": "O ADM se prendeu a <0xFD><0x02>\\ncomo um flutuador!",
+      "pt_bytes": 41,
+      "pixels": [
+        165,
+        104
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4db73",
+      "live_offset": "0xa4db73",
+      "corpus_en": "A floating device attached to\n<0xFD>Á!",
+      "comparison_fr": "Un flotteur est attaché à\n{STR_VAR_1} !",
+      "source_hex": "bb00dae0e3d5e8dde2db00d8d9eaddd7d900d5e8e8d5d7dcd9d800e8e3fefd02abff",
+      "references": [
+        10112145
+      ],
+      "status": "translated",
+      "expected": "Um flutuador se prendeu a\\n<0xFD><0x02>!",
+      "pt_bytes": 30,
+      "pixels": [
+        143,
+        60
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4db95",
+      "live_offset": "0xa4db95",
+      "corpus_en": "The magma glistens a crimson red\"\nWould you like to surf on it?",
+      "comparison_fr": "Le magma luit d'un rouge écarlate...\nVeux-tu surfer dessus ?",
+      "source_hex": "cedcd900e1d5dbe1d500dbe0dde7e8d9e2e700d500d7e6dde1e7e3e200e6d9d8b0fed1e3e9e0d800ede3e900e0dddfd900e8e300e7e9e6da00e3e200dde8acff",
+      "references": [
+        10111646
+      ],
+      "status": "translated",
+      "expected": "O magma brilha em vermelho vivo<0xB0>\\nQuer surfar nele?",
+      "pt_bytes": 51,
+      "pixels": [
+        178,
+        95
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dbd5",
+      "live_offset": "0xa4dbd5",
+      "corpus_en": "<0xFD>Á started surfing on\nthe magma!",
+      "comparison_fr": "{STR_VAR_1} commence à surfer\nsur la lave !",
+      "source_hex": "fd0200e7e8d5e6e8d9d800e7e9e6dadde2db00e3e2fee8dcd900e1d5dbe1d5abff",
+      "references": [
+        10111666
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> começou a surfar\\nno magma!",
+      "pt_bytes": 30,
+      "pixels": [
+        152,
+        53
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dbf6",
+      "live_offset": "0xa4dbf6",
+      "corpus_en": "The magma glistens a crimson red\"",
+      "comparison_fr": "La lave luit d'un rouge carmin...",
+      "source_hex": "cedcd900e1d5dbe1d500dbe0dde7e8d9e2e700d500d7e6dde1e7e3e200e6d9d8b0ff",
+      "references": [
+        10111684
+      ],
+      "status": "translated",
+      "expected": "O magma brilha em vermelho vivo<0xB0>",
+      "pt_bytes": 33,
+      "pixels": [
+        178
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dc18",
+      "live_offset": "0xa4dc18",
+      "corpus_en": "The sea is deep here.\nWould you like to use <0xFD>Â?",
+      "comparison_fr": "La mer est profonde ici.\nVeux-tu utiliser <0xFD><0x03> ?",
+      "source_hex": "cedcd900e7d9d500dde700d8d9d9e400dcd9e6d9adfed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900fd03acff",
+      "references": [
+        10112204
+      ],
+      "status": "translated",
+      "expected": "O mar é profundo aqui.\\nQuer usar <0xFD><0x03>?",
+      "pt_bytes": 37,
+      "pixels": [
+        125,
+        117
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dc48",
+      "live_offset": "0xa4dc48",
+      "corpus_en": "The sea is deep here.\nWould you like to use the ADM?",
+      "comparison_fr": "La mer est profonde ici.\nVeux-tu utiliser l'ADM ?",
+      "source_hex": "cedcd900e7d9d500dde700d8d9d9e400dcd9e6d9adfed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900e8dcd900bbbec7acff",
+      "references": [
+        10112387
+      ],
+      "status": "translated",
+      "expected": "O mar é profundo aqui.\\nQuer usar o ADM?",
+      "pt_bytes": 40,
+      "pixels": [
+        125,
+        93
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dc7d",
+      "live_offset": "0xa4dc7d",
+      "corpus_en": "The ADM allowed you to go\nunderwater!",
+      "comparison_fr": "L'ADM te permet de plonger\nsous l'eau !",
+      "source_hex": "cedcd900bbbec700d5e0e0e3ebd9d800ede3e900e8e300dbe3fee9e2d8d9e6ebd5e8d9e6abff",
+      "references": [
+        10112417
+      ],
+      "status": "translated",
+      "expected": "O ADM permitiu que você\\nmergulhasse!",
+      "pt_bytes": 37,
+      "pixels": [
+        132,
+        68
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dca3",
+      "live_offset": "0xa4dca3",
+      "corpus_en": "Light is filtering down from above.\nWould you like to use <0xFD>Â?",
+      "comparison_fr": "La lumière filtre d'en haut.\nVeux-tu utiliser <0xFD><0x03> ?",
+      "source_hex": "c6dddbdce800dde700dadde0e8d9e6dde2db00d8e3ebe200dae6e3e100d5d6e3ead9adfed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900fd03acff",
+      "references": [
+        10112305
+      ],
+      "status": "translated",
+      "expected": "A luz vem lá de cima.\\nQuer usar <0xFD><0x03>?",
+      "pt_bytes": 36,
+      "pixels": [
+        121,
+        117
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dce1",
+      "live_offset": "0xa4dce1",
+      "corpus_en": "Light is filtering down from above.\nWould you like to use the ADM?",
+      "comparison_fr": "La lumière filtre d'en haut.\nVeux-tu utiliser l'ADM ?",
+      "source_hex": "c6dddbdce800dde700dadde0e8d9e6dde2db00d8e3ebe200dae6e3e100d5d6e3ead9adfed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900e8dcd900bbbec7acff",
+      "references": [
+        10112446
+      ],
+      "status": "translated",
+      "expected": "A luz vem lá de cima.\\nQuer usar o ADM?",
+      "pt_bytes": 39,
+      "pixels": [
+        121,
+        93
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dd24",
+      "live_offset": "0xa4dd24",
+      "corpus_en": "The ADM allowed you to resurface!",
+      "comparison_fr": "L'ADM te permet de remonter !",
+      "source_hex": "cedcd900bbbec700d5e0e0e3ebd9d800ede3e900e8e300e6d9e7e9e6dad5d7d9abff",
+      "references": [
+        10112476
+      ],
+      "status": "translated",
+      "expected": "O ADM permitiu que você emergisse!",
+      "pt_bytes": 35,
+      "pixels": [
+        193
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dd46",
+      "live_offset": "0xa4dd46",
+      "corpus_en": "The sea is deep here. A Pokémon\nmay be able to go underwater.",
+      "comparison_fr": "La mer est profonde ici. Un\nPokémon peut peut-être plonger.",
+      "source_hex": "cedcd900e7d9d500dde700d8d9d9e400dcd9e6d9ad00bb00cae3df1be1e3e2fee1d5ed00d6d900d5d6e0d900e8e300dbe300e9e2d8d9e6ebd5e8d9e6adff",
+      "references": [
+        10112262
+      ],
+      "status": "translated",
+      "expected": "O mar é profundo aqui. Um Pokémon\\ntalvez consiga mergulhar.",
+      "pt_bytes": 60,
+      "pixels": [
+        189,
+        140
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dd84",
+      "live_offset": "0xa4dd84",
+      "corpus_en": "Light is filtering down from above.\nA Pokémon may be able to surface.",
+      "comparison_fr": "La lumière filtre d'en haut.\nUn Pokémon pourrait remonter.",
+      "source_hex": "c6dddbdce800dde700dadde0e8d9e6dde2db00d8e3ebe200dae6e3e100d5d6e3ead9adfebb00cae3df1be1e3e200e1d5ed00d6d900d5d6e0d900e8e300e7e9e6dad5d7d9adff",
+      "references": [
+        10112368
+      ],
+      "status": "translated",
+      "expected": "A luz vem lá de cima.\\nUm Pokémon talvez consiga emergir.",
+      "pt_bytes": 57,
+      "pixels": [
+        121,
+        191
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ddca",
+      "live_offset": "0xa4ddca",
+      "corpus_en": "Calling all Trainers!<0xFB>A swarm of <0xFC>ÀÉ<0xFD>Â<0xFC>ÀÁ have appeared\naround <0xFC>ÀÉ<0xFD>Á<0xFC>ÀÁ!<0xFB>This is a rare opportunity to get\nyour hands on a <0xFD>Â, so<0xFA>don't pass this chance up!<0xFB>\"<0xFB>This message is sponsored by\nCube Corp.",
+      "comparison_fr": "Appel à tous les Dresseurs !<0xFB>Un essaim de {COLOR}É{STR_VAR_2}{COLOR}Á\nest apparu autour de {COLOR}É{STR_VAR_1}{COLOR}Á !<0xFB>Occasion rare de mettre la main\nsur un {STR_VAR_2}, ne la rate pas !<0xFA>...<0xFB>Message sponsorisé par Cube SARL.<0xFB>\n",
+      "source_hex": "bdd5e0e0dde2db00d5e0e000cee6d5dde2d9e6e7abfbbb00e7ebd5e6e100e3da00fc0106fd03fc010200dcd5ead900d5e4e4d9d5e6d9d8fed5e6e3e9e2d800fc0106fd02fc0102abfbcedcdde700dde700d500e6d5e6d900e3e4e4e3e6e8e9e2dde8ed00e8e300dbd9e8feede3e9e600dcd5e2d8e700e3e200d500fd03b800e7e3fad8e3e2b4e800e4d5e7e700e8dcdde700d7dcd5e2d7d900e9e4abfbb0fbcedcdde700e1d9e7e7d5dbd900dde700e7e4e3e2e7e3e6d9d800d6edfebde9d6d900bde3e6e4adff",
+      "references": [
+        10112535
+      ],
+      "status": "translated",
+      "expected": "Atenção, Treinadores!<0xFB>Um enxame de <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x02> apareceu\\nperto de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x02>!<0xFB>É uma rara chance de capturar\\num <0xFD><0x03>, então<0xFA>não perca esta oportunidade!<0xFB><0xB0><0xFB>Mensagem patrocinada por\\nCube Corp.",
+      "pt_bytes": 182,
+      "pixels": [
+        117,
+        184,
+        112,
+        168,
+        111,
+        159,
+        0,
+        136,
+        58
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4de91",
+      "live_offset": "0xa4de91",
+      "corpus_en": "The door is locked.",
+      "comparison_fr": "La porte est verrouillée.",
+      "source_hex": "cedcd900d8e3e3e600dde700e0e3d7dfd9d8adff",
+      "references": [
+        10112544
+      ],
+      "status": "translated",
+      "expected": "A porta está trancada.",
+      "pt_bytes": 23,
+      "pixels": [
+        124
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dea5",
+      "live_offset": "0xa4dea5",
+      "corpus_en": "There appears to be some sort of\nPsychic barrier in the way.",
+      "comparison_fr": "Une sorte de barrière Psy semble\nbloquer le passage.",
+      "source_hex": "cedcd9e6d900d5e4e4d9d5e6e700e8e300d6d900e7e3e1d900e7e3e6e800e3dafecae7edd7dcddd700d6d5e6e6ddd9e600dde200e8dcd900ebd5edadff",
+      "references": [
+        10112553
+      ],
+      "status": "translated",
+      "expected": "Parece haver uma barreira\\npsíquica no caminho.",
+      "pt_bytes": 47,
+      "pixels": [
+        143,
+        112
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dee2",
+      "live_offset": "0xa4dee2",
+      "corpus_en": "You can't reach the ladder from\nhere!",
+      "comparison_fr": "Tu ne peux pas atteindre\nl'échelle d'ici !",
+      "source_hex": "d3e3e900d7d5e2b4e800e6d9d5d7dc00e8dcd900e0d5d8d8d9e600dae6e3e1fedcd9e6d9abff",
+      "references": [
+        10112708
+      ],
+      "status": "translated",
+      "expected": "Não dá para alcançar a escada\\ndaqui!",
+      "pt_bytes": 37,
+      "pixels": [
+        169,
+        34
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4df08",
+      "live_offset": "0xa4df08",
+      "corpus_en": "Look!\nYou've found a narrow path.<0xFB>Will you follow it?",
+      "comparison_fr": "Regarde !\nTu as trouvé un passage étroit.<0xFB>Veux-tu le suivre ?",
+      "source_hex": "c6e3e3dfabfed3e3e9b4ead900dae3e9e2d800d500e2d5e6e6e3eb00e4d5e8dcadfbd1dde0e000ede3e900dae3e0e0e3eb00dde8acff",
+      "references": [
+        10112733
+      ],
+      "status": "translated",
+      "expected": "Olhe!\\nVocê achou uma trilha estreita.<0xFB>Quer segui-la?",
+      "pt_bytes": 53,
+      "pixels": [
+        29,
+        174,
+        79
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4df3e",
+      "live_offset": "0xa4df3e",
+      "corpus_en": "The narrow path went nowhere.",
+      "comparison_fr": "Le chemin ne menait nulle part.",
+      "source_hex": "cedcd900e2d5e6e6e3eb00e4d5e8dc00ebd9e2e800e2e3ebdcd9e6d9adff",
+      "references": [
+        10112773
+      ],
+      "status": "translated",
+      "expected": "A trilha não levava a lugar algum.",
+      "pt_bytes": 35,
+      "pixels": [
+        193
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4df5c",
+      "live_offset": "0xa4df5c",
+      "corpus_en": "It's a moderately sized tree.\nWould you like to use Headbutt?",
+      "comparison_fr": "C'est un arbre de taille moyenne.\nVeux-tu utiliser Coup d'Boule ?",
+      "source_hex": "c3e8b4e700d500e1e3d8d9e6d5e8d9e0ed00e7ddeed9d800e8e6d9d9adfed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900c2d9d5d8d6e9e8e8acff",
+      "references": [
+        10112818
+      ],
+      "status": "translated",
+      "expected": "É uma árvore de porte médio.\\nQuer usar Headbutt?",
+      "pt_bytes": 49,
+      "pixels": [
+        161,
+        109
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4df9a",
+      "live_offset": "0xa4df9a",
+      "corpus_en": "There's a formidable tree that\nlooks like it can be headbutted!",
+      "comparison_fr": "Un arbre imposant qui a l'air de\npouvoir recevoir un Coup d'Boule !",
+      "source_hex": "cedcd9e6d9b4e700d500dae3e6e1ddd8d5d6e0d900e8e6d9d900e8dcd5e8fee0e3e3dfe700e0dddfd900dde800d7d5e200d6d900dcd9d5d8d6e9e8e8d9d8abff",
+      "references": [
+        10112901
+      ],
+      "status": "translated",
+      "expected": "Uma árvore imponente que parece\\npoder receber um Headbutt!",
+      "pt_bytes": 59,
+      "pixels": [
+        178,
+        151
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4dfda",
+      "live_offset": "0xa4dfda",
+      "corpus_en": "The wall is bulging slightly.\nTry digging into it?",
+      "comparison_fr": "Le mur est légèrement bombé.\nEssayer de creuser dedans ?",
+      "source_hex": "cedcd900ebd5e0e000dde700d6e9e0dbdde2db00e7e0dddbdce8e0edadfecee6ed00d8dddbdbdde2db00dde2e8e300dde8acff",
+      "references": [
+        10112910
+      ],
+      "status": "translated",
+      "expected": "A parede está um pouco saliente.\\nTentar cavar nela?",
+      "pt_bytes": 52,
+      "pixels": [
+        182,
+        102
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e00d",
+      "live_offset": "0xa4e00d",
+      "corpus_en": "<0xFD>Á <0xFD>Ç,\nThat will be ¥<0xFD>Â. Okay?",
+      "comparison_fr": "{STR_VAR_1} {STR_VAR_3},\nça fera {STR_VAR_2}¥. D'accord ?",
+      "source_hex": "fd0200fd04b8fecedcd5e800ebdde0e000d6d900b7fd03ad00c9dfd5edacff",
+      "references": [
+        10435852
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> <0xFD><0x04>,\\nFica em ¥<0xFD><0x03>. Tudo bem?",
+      "pt_bytes": 30,
+      "pixels": [
+        119,
+        173
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e02c",
+      "live_offset": "0xa4e02c",
+      "corpus_en": "You already own that TM.<0xFC>Ì",
+      "comparison_fr": "Tu possèdes déjà cette CT.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "d3e3e900d5e0e6d9d5d8ed00e3ebe200e8dcd5e800cec7adfc09ff",
+      "references": [
+        10435968
+      ],
+      "status": "translated",
+      "expected": "Você já tem essa TM.<0xFC><0x09>",
+      "pt_bytes": 23,
+      "pixels": [
+        116
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e047",
+      "live_offset": "0xa4e047",
+      "corpus_en": "Sort this pocket's\nitems how?",
+      "comparison_fr": null,
+      "source_hex": "cde3e6e800e8dcdde700e4e3d7dfd9e8b4e7fedde8d9e1e700dce3ebacff",
+      "references": [
+        10438784
+      ],
+      "status": "translated",
+      "expected": "Como ordenar os\\nitens deste bolso?",
+      "pt_bytes": 35,
+      "pixels": [
+        86,
+        99
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e065",
+      "live_offset": "0xa4e065",
+      "corpus_en": "Type",
+      "comparison_fr": "Type",
+      "source_hex": "ceede4d9ff",
+      "references": [
+        10926796
+      ],
+      "status": "translated",
+      "expected": "Tipo",
+      "pt_bytes": 5,
+      "pixels": [
+        22
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e06a",
+      "live_offset": "0xa4e06a",
+      "corpus_en": "Name",
+      "comparison_fr": "Nom",
+      "source_hex": "c8d5e1d9ff",
+      "references": [
+        10926788
+      ],
+      "status": "translated",
+      "expected": "Nome",
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e06f",
+      "live_offset": "0xa4e06f",
+      "corpus_en": "Most",
+      "comparison_fr": "Plus",
+      "source_hex": "c7e3e7e8ff",
+      "references": [
+        10926804
+      ],
+      "status": "translated",
+      "expected": "Mais",
+      "pt_bytes": 5,
+      "pixels": [
+        21
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e074",
+      "live_offset": "0xa4e074",
+      "corpus_en": "Least",
+      "comparison_fr": "Moins",
+      "source_hex": "c6d9d5e7e8ff",
+      "references": [
+        10926812
+      ],
+      "status": "translated",
+      "expected": "Menos",
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e07a",
+      "live_offset": "0xa4e07a",
+      "corpus_en": "Amount",
+      "comparison_fr": "Quantité",
+      "source_hex": "bbe1e3e9e2e8ff",
+      "references": [
+        10926820
+      ],
+      "status": "translated",
+      "expected": "Quant.",
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e081",
+      "live_offset": "0xa4e081",
+      "corpus_en": "name",
+      "comparison_fr": "nom",
+      "source_hex": "e2d5e1d9ff",
+      "references": [
+        10432912,
+        10926672
+      ],
+      "status": "translated",
+      "expected": "nome",
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e086",
+      "live_offset": "0xa4e086",
+      "corpus_en": "type",
+      "comparison_fr": "type",
+      "source_hex": "e8ede4d9ff",
+      "references": [
+        10432860,
+        10926676
+      ],
+      "status": "translated",
+      "expected": "tipo",
+      "pt_bytes": 5,
+      "pixels": [
+        21
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e08b",
+      "live_offset": "0xa4e08b",
+      "corpus_en": "most",
+      "comparison_fr": "plus",
+      "source_hex": "e1e3e7e8ff",
+      "references": [
+        10432808,
+        10926684
+      ],
+      "status": "translated",
+      "expected": "mais",
+      "pt_bytes": 5,
+      "pixels": [
+        21
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e090",
+      "live_offset": "0xa4e090",
+      "corpus_en": "least",
+      "comparison_fr": "moins",
+      "source_hex": "e0d9d5e7e8ff",
+      "references": [
+        10432756,
+        10926680
+      ],
+      "status": "translated",
+      "expected": "menos",
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e096",
+      "live_offset": "0xa4e096",
+      "corpus_en": "amount",
+      "comparison_fr": "quantité",
+      "source_hex": "d5e1e3e9e2e8ff",
+      "references": [
+        10432704,
+        10926688
+      ],
+      "status": "translated",
+      "expected": "quantidade",
+      "pt_bytes": 11,
+      "pixels": [
+        56
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e09d",
+      "live_offset": "0xa4e09d",
+      "corpus_en": "Sort items by\n<0xFD>Á?",
+      "comparison_fr": "Trier les objets par\n{STR_VAR_1} ?",
+      "source_hex": "cde3e6e800dde8d9e1e700d6edfefd02acff",
+      "references": [
+        10432640
+      ],
+      "status": "translated",
+      "expected": "Ordenar itens por\\n<0xFD><0x02>?",
+      "pt_bytes": 22,
+      "pixels": [
+        93,
+        60
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e0af",
+      "live_offset": "0xa4e0af",
+      "corpus_en": "Items sorted by\n<0xFD>Á!",
+      "comparison_fr": "Objets triés par\n{STR_VAR_1} !",
+      "source_hex": "c3e8d9e1e700e7e3e6e8d9d800d6edfefd02abff",
+      "references": [
+        10439812
+      ],
+      "status": "translated",
+      "expected": "Itens ordenados por\\n<0xFD><0x02>!",
+      "pt_bytes": 24,
+      "pixels": [
+        107,
+        60
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e0c3",
+      "live_offset": "0xa4e0c3",
+      "corpus_en": "No more than one Pokémon\nmay enter.<0xFC>Ì",
+      "comparison_fr": "Pas plus d'un Pokémon\nne peut entrer.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c8e300e1e3e6d900e8dcd5e200e3e2d900cae3df1be1e3e2fee1d5ed00d9e2e8d9e6adfc09ff",
+      "references": [
+        10497360,
+        10930464
+      ],
+      "status": "translated",
+      "expected": "Só um Pokémon\\npode entrar.<0xFC><0x09>",
+      "pt_bytes": 29,
+      "pixels": [
+        76,
+        67
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e0e9",
+      "live_offset": "0xa4e0e9",
+      "corpus_en": "No more than four Pokémon\nmay enter.<0xFC>Ì",
+      "comparison_fr": "Pas plus de quatre Pokémon\nne peuvent entrer.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c8e300e1e3e6d900e8dcd5e200dae3e9e600cae3df1be1e3e2fee1d5ed00d9e2e8d9e6adfc09ff",
+      "references": [
+        10930476
+      ],
+      "status": "translated",
+      "expected": "Só quatro Pokémon\\npodem entrar.<0xFC><0x09>",
+      "pt_bytes": 34,
+      "pixels": [
+        98,
+        73
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e110",
+      "live_offset": "0xa4e110",
+      "corpus_en": "No more than five Pokémon\nmay enter.<0xFC>Ì",
+      "comparison_fr": "Pas plus de cinq Pokémon\nne peuvent entrer.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c8e300e1e3e6d900e8dcd5e200daddead900cae3df1be1e3e2fee1d5ed00d9e2e8d9e6adfc09ff",
+      "references": [
+        10930480
+      ],
+      "status": "translated",
+      "expected": "Só cinco Pokémon\\npodem entrar.<0xFC><0x09>",
+      "pt_bytes": 33,
+      "pixels": [
+        91,
+        73
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e137",
+      "live_offset": "0xa4e137",
+      "corpus_en": "FIRST",
+      "comparison_fr": "PREMIER",
+      "source_hex": "c0c3cccdceff",
+      "references": [
+        10930440
+      ],
+      "status": "translated",
+      "expected": "PRIMEIRO",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e13d",
+      "live_offset": "0xa4e13d",
+      "corpus_en": "SECOND",
+      "comparison_fr": "DEUXIÈME",
+      "source_hex": "cdbfbdc9c8beff",
+      "references": [
+        10930444
+      ],
+      "status": "translated",
+      "expected": "SEGUNDO",
+      "pt_bytes": 8,
+      "pixels": [
+        42
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e144",
+      "live_offset": "0xa4e144",
+      "corpus_en": "THIRD",
+      "comparison_fr": "TROISIÈME",
+      "source_hex": "cec2c3ccbeff",
+      "references": [
+        10930448
+      ],
+      "status": "translated",
+      "expected": "TERCEIRO",
+      "pt_bytes": 9,
+      "pixels": [
+        48
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e14a",
+      "live_offset": "0xa4e14a",
+      "corpus_en": "FOURTH",
+      "comparison_fr": "QUATRIÈME",
+      "source_hex": "c0c9cfcccec2ff",
+      "references": [
+        10930452
+      ],
+      "status": "translated",
+      "expected": "QUARTO",
+      "pt_bytes": 7,
+      "pixels": [
+        36
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e151",
+      "live_offset": "0xa4e151",
+      "corpus_en": "FIFTH",
+      "comparison_fr": "CINQUIÈME",
+      "source_hex": "c0c3c0cec2ff",
+      "references": [
+        10930456
+      ],
+      "status": "translated",
+      "expected": "QUINTO",
+      "pt_bytes": 7,
+      "pixels": [
+        36
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e157",
+      "live_offset": "0xa4e157",
+      "corpus_en": "SIXTH",
+      "comparison_fr": "SIXIÈME",
+      "source_hex": "cdc3d2cec2ff",
+      "references": [
+        10930460
+      ],
+      "status": "translated",
+      "expected": "SEXTO",
+      "pt_bytes": 6,
+      "pixels": [
+        30
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e15d",
+      "live_offset": "0xa4e15d",
+      "corpus_en": "<0xFD>Á Pokémon are needed.",
+      "comparison_fr": "{STR_VAR_1} Pokémon requis.",
+      "source_hex": "fd0200cae3df1be1e3e200d5e6d900e2d9d9d8d9d8adff",
+      "references": [
+        4563756
+      ],
+      "status": "translated",
+      "expected": "São necessários <0xFD><0x02> Pokémon.",
+      "pt_bytes": 28,
+      "pixels": [
+        194
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e174",
+      "live_offset": "0xa4e174",
+      "corpus_en": "Enter a Number",
+      "comparison_fr": "Entrer un nombre",
+      "source_hex": "bfe2e8d9e600d500c8e9e1d6d9e6ff",
+      "references": [
+        10931864
+      ],
+      "status": "translated",
+      "expected": "Digite um número",
+      "pt_bytes": 17,
+      "pixels": [
+        89
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e183",
+      "live_offset": "0xa4e183",
+      "corpus_en": "Enter a Phrase",
+      "comparison_fr": "Entrer une phrase",
+      "source_hex": "bfe2e8d9e600d500cadce6d5e7d9ff",
+      "references": [
+        10931852
+      ],
+      "status": "translated",
+      "expected": "Digite uma frase",
+      "pt_bytes": 17,
+      "pixels": [
+        88
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e192",
+      "live_offset": "0xa4e192",
+      "corpus_en": "Enter Password",
+      "comparison_fr": "Entrer un mot de passe",
+      "source_hex": "bfe2e8d9e600cad5e7e7ebe3e6d8ff",
+      "references": [
+        10931828,
+        10931840
+      ],
+      "status": "translated",
+      "expected": "Digite a senha",
+      "pt_bytes": 15,
+      "pixels": [
+        77
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e1a1",
+      "live_offset": "0xa4e1a1",
+      "corpus_en": "Enter a Species",
+      "comparison_fr": "Entrer une espèce",
+      "source_hex": "bfe2e8d9e600d500cde4d9d7ddd9e7ff",
+      "references": [
+        10931816
+      ],
+      "status": "translated",
+      "expected": "Digite a espécie",
+      "pt_bytes": 17,
+      "pixels": [
+        88
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e1b1",
+      "live_offset": "0xa4e1b1",
+      "corpus_en": "Purchased",
+      "comparison_fr": "Acheté",
+      "source_hex": "cae9e6d7dcd5e7d9d8ff",
+      "references": [
+        10436156
+      ],
+      "status": "translated",
+      "expected": "Comprado",
+      "pt_bytes": 9,
+      "pixels": [
+        47
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e1bb",
+      "live_offset": "0xa4e1bb",
+      "corpus_en": "Stop zooming!",
+      "comparison_fr": "Arrête de zoomer !",
+      "source_hex": "cde8e3e400eee3e3e1dde2dbabff",
+      "references": [
+        10113461
+      ],
+      "status": "translated",
+      "expected": "Pare de dar zoom!",
+      "pt_bytes": 18,
+      "pixels": [
+        100
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e1f1",
+      "live_offset": "0xa4e1f1",
+      "corpus_en": "Move",
+      "comparison_fr": "Dépl",
+      "source_hex": "c7e3ead9ff",
+      "references": [
+        10930860
+      ],
+      "status": "translated",
+      "expected": "Mover",
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e1f6",
+      "live_offset": "0xa4e1f6",
+      "corpus_en": "Move to where?",
+      "comparison_fr": "Dépl. où ?",
+      "source_hex": "c7e3ead900e8e300ebdcd9e6d9acff",
+      "references": [
+        4563836
+      ],
+      "status": "translated",
+      "expected": "Mover para onde?",
+      "pt_bytes": 17,
+      "pixels": [
+        93
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e205",
+      "live_offset": "0xa4e205",
+      "corpus_en": "Scale rocky cliffs.",
+      "comparison_fr": "Gravir les falaises rocheuses.",
+      "source_hex": "cdd7d5e0d900e6e3d7dfed00d7e0dddadae7adff",
+      "references": [
+        10930584
+      ],
+      "status": "translated",
+      "expected": "Escala penhascos rochosos.",
+      "pt_bytes": 27,
+      "pixels": [
+        147
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e219",
+      "live_offset": "0xa4e219",
+      "corpus_en": "Remove foggy weather.",
+      "comparison_fr": "Dissiper le temps brumeux.",
+      "source_hex": "ccd9e1e3ead900dae3dbdbed00ebd9d5e8dcd9e6adff",
+      "references": [
+        10930588
+      ],
+      "status": "translated",
+      "expected": "Dissipa a neblina.",
+      "pt_bytes": 19,
+      "pixels": [
+        96
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e22f",
+      "live_offset": "0xa4e22f",
+      "corpus_en": "Dive underwater.",
+      "comparison_fr": "Plonger sous l'eau.",
+      "source_hex": "beddead900e9e2d8d9e6ebd5e8d9e6adff",
+      "references": [
+        10930592
+      ],
+      "status": "translated",
+      "expected": "Mergulha na água.",
+      "pt_bytes": 18,
+      "pixels": [
+        98
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e240",
+      "live_offset": "0xa4e240",
+      "corpus_en": "<0xFD>Á became more friendly.\nHowever, its base <0xFD>Â fell!<0xFC>Ì",
+      "comparison_fr": "{STR_VAR_1} devient plus amical.\nMais sa {STR_VAR_2} de base baisse !{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d6d9d7d5e1d900e1e3e6d900dae6ddd9e2d8e0edadfec2e3ebd9ead9e6b800dde8e700d6d5e7d900fd0300dad9e0e0abfc09ff",
+      "references": [
+        10493888
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> ficou mais amigável.\\nMas a base de <0xFD><0x03> caiu!<0xFC><0x09>",
+      "pt_bytes": 49,
+      "pixels": [
+        170,
+        170
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e276",
+      "live_offset": "0xa4e276",
+      "corpus_en": "<0xFD>Á adores you!\nIts base <0xFD>Â fell!<0xFC>Ì",
+      "comparison_fr": "{STR_VAR_1} t'adore !\nSa {STR_VAR_2} de base baisse !{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d5d8e3e6d9e700ede3e9abfec3e8e700d6d5e7d900fd0300dad9e0e0abfc09ff",
+      "references": [
+        10493924
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> adora você!\\nA base de <0xFD><0x03> caiu!<0xFC><0x09>",
+      "pt_bytes": 36,
+      "pixels": [
+        125,
+        147
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e299",
+      "live_offset": "0xa4e299",
+      "corpus_en": "<0xFD>Á became more friendly.\nIts base <0xFD>Â can't go lower.<0xFC>Ì",
+      "comparison_fr": "{STR_VAR_1} devient plus amical. Sa {STR_VAR_2} ne peut\nplus baisser.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d6d9d7d5e1d900e1e3e6d900dae6ddd9e2d8e0edadfec3e8e700d6d5e7d900fd0300d7d5e2b4e800dbe300e0e3ebd9e6adfc09ff",
+      "references": [
+        10493928
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> ficou mais amigável.\\nBase de <0xFD><0x03>: mínima.<0xFC><0x09>",
+      "pt_bytes": 46,
+      "pixels": [
+        170,
+        150
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e2d0",
+      "live_offset": "0xa4e2d0",
+      "corpus_en": "<0xFD>Á changed Forme!<0xFC>Ì",
+      "comparison_fr": "{STR_VAR_1} change de Forme !{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d7dcd5e2dbd9d800c0e3e6e1d9abfc09ff",
+      "references": [
+        10501716
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> mudou de forma!<0xFC><0x09>",
+      "pt_bytes": 21,
+      "pixels": [
+        148
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e2e4",
+      "live_offset": "0xa4e2e4",
+      "corpus_en": "Fuse with which Pokémon?<0xFC>Ì",
+      "comparison_fr": "Fusionner avec quel Pokémon ?{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c0e9e7d900ebdde8dc00ebdcddd7dc00cae3df1be1e3e2acfc09ff",
+      "references": [
+        4563840
+      ],
+      "status": "translated",
+      "expected": "Fundir com qual Pokémon?<0xFC><0x09>",
+      "pt_bytes": 27,
+      "pixels": [
+        137
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e2ff",
+      "live_offset": "0xa4e2ff",
+      "corpus_en": "You already have a <0xFD>Á\nfused with a <0xFD>Â.<0xFC>Ì",
+      "comparison_fr": "Tu as déjà un {STR_VAR_1}\nfusionné avec un {STR_VAR_2}.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "d3e3e900d5e0e6d9d5d8ed00dcd5ead900d500fd02fedae9e7d9d800ebdde8dc00d500fd03adfc09ff",
+      "references": [
+        10502504
+      ],
+      "status": "translated",
+      "expected": "Você já tem <0xFD><0x02>\\nfundido com <0xFD><0x03>.<0xFC><0x09>",
+      "pt_bytes": 33,
+      "pixels": [
+        125,
+        127
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e328",
+      "live_offset": "0xa4e328",
+      "corpus_en": "You have no room to\nseparate the Pokémon.<0xFC>Ì",
+      "comparison_fr": "Pas assez de place pour\nséparer les Pokémon.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "d3e3e900dcd5ead900e2e300e6e3e3e100e8e3fee7d9e4d5e6d5e8d900e8dcd900cae3df1be1e3e2adfc09ff",
+      "references": [
+        10503464
+      ],
+      "status": "translated",
+      "expected": "Não há espaço para\\nseparar os Pokémon.<0xFC><0x09>",
+      "pt_bytes": 41,
+      "pixels": [
+        106,
+        107
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e354",
+      "live_offset": "0xa4e354",
+      "corpus_en": "It cannot be fused with\nthat Pokémon.<0xFC>Ì",
+      "comparison_fr": "Impossible à fusionner avec\nce Pokémon.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "c3e800d7d5e2e2e3e800d6d900dae9e7d9d800ebdde8dcfee8dcd5e800cae3df1be1e3e2adfc09ff",
+      "references": [
+        10502468
+      ],
+      "status": "translated",
+      "expected": "Não pode ser fundido\\ncom esse Pokémon.<0xFC><0x09>",
+      "pt_bytes": 41,
+      "pixels": [
+        114,
+        97
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e37c",
+      "live_offset": "0xa4e37c",
+      "corpus_en": "Change <0xFD>Á's Ability\nto <0xFD>Â?",
+      "comparison_fr": "Changer le talent de {STR_VAR_1}\npour {STR_VAR_2} ?",
+      "source_hex": "bddcd5e2dbd900fd02b4e700bbd6dde0dde8edfee8e300fd03acff",
+      "references": [
+        10495652
+      ],
+      "status": "translated",
+      "expected": "Mudar a Habilidade de <0xFD><0x02>\\npara <0xFD><0x03>?",
+      "pt_bytes": 34,
+      "pixels": [
+        180,
+        89
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e397",
+      "live_offset": "0xa4e397",
+      "corpus_en": "<0xFD>Á's Ability has been\nchanged to <0xFD>Â.<0xFC>Ì",
+      "comparison_fr": "Le talent de {STR_VAR_1}\na été changé pour {STR_VAR_2}.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd02b4e700bbd6dde0dde8ed00dcd5e700d6d9d9e2fed7dcd5e2dbd9d800e8e300fd03adfc09ff",
+      "references": [
+        10495212
+      ],
+      "status": "translated",
+      "expected": "A Habilidade de <0xFD><0x02>\\nmudou para <0xFD><0x03>.<0xFC><0x09>",
+      "pt_bytes": 36,
+      "pixels": [
+        145,
+        124
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e3be",
+      "live_offset": "0xa4e3be",
+      "corpus_en": "Give the Gigantamax factor to\n<0xFD>Á?",
+      "comparison_fr": "Donner le facteur Gigamax\nà {STR_VAR_1} ?",
+      "source_hex": "c1ddead900e8dcd900c1dddbd5e2e8d5e1d5ec00dad5d7e8e3e600e8e3fefd02acff",
+      "references": [
+        10495956
+      ],
+      "status": "translated",
+      "expected": "Dar o fator Gigantamax a\\n<0xFD><0x02>?",
+      "pt_bytes": 29,
+      "pixels": [
+        136,
+        60
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e3e0",
+      "live_offset": "0xa4e3e0",
+      "corpus_en": "Remove the Gigantamax factor from\n<0xFD>Á?",
+      "comparison_fr": "Retirer le facteur Gigamax\nà {STR_VAR_1} ?",
+      "source_hex": "ccd9e1e3ead900e8dcd900c1dddbd5e2e8d5e1d5ec00dad5d7e8e3e600dae6e3e1fefd02acff",
+      "references": [
+        10495940
+      ],
+      "status": "translated",
+      "expected": "Remover o fator Gigantamax de\\n<0xFD><0x02>?",
+      "pt_bytes": 34,
+      "pixels": [
+        166,
+        60
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e406",
+      "live_offset": "0xa4e406",
+      "corpus_en": "<0xFD>Á can now Gigantamax!<0xFC>Ì",
+      "comparison_fr": "{STR_VAR_1} peut Gigamaxer maintenant !{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d7d5e200e2e3eb00c1dddbd5e2e8d5e1d5ecabfc09ff",
+      "references": [
+        10493188
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> agora pode\\nusar Gigantamax!<0xFC><0x09>",
+      "pt_bytes": 33,
+      "pixels": [
+        119,
+        90
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e41f",
+      "live_offset": "0xa4e41f",
+      "corpus_en": "<0xFD>Á can no longer Gigantamax.<0xFC>Ì",
+      "comparison_fr": "{STR_VAR_1} ne peut plus Gigamaxer.{PAUSE_UNTIL_PRESS}",
+      "source_hex": "fd0200d7d5e200e2e300e0e3e2dbd9e600c1dddbd5e2e8d5e1d5ecadfc09ff",
+      "references": [
+        10493192
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x02> não pode mais\\nusar Gigantamax.<0xFC><0x09>",
+      "pt_bytes": 36,
+      "pixels": [
+        134,
+        89
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e43e",
+      "live_offset": "0xa4e440",
+      "corpus_en": "F<0x46>Recommended Lvl: ",
+      "comparison_fr": "F Niveau recommandé :",
+      "source_hex": "ccd9d7e3e1e1d9e2d8d9d800c6eae0f000ff",
+      "references": [
+        10509060
+      ],
+      "status": "translated",
+      "expected": "Nível recomendado:<0x00>",
+      "pt_bytes": 20,
+      "pixels": [
+        104
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e452",
+      "live_offset": "0xa4e452",
+      "corpus_en": "<0xF8><0x0A>Pick <0xF8> Choose <0xF8>ÇRandom <0xF8>ÀCancel",
+      "comparison_fr": "{DPAD_UPDOWN}Choisir {SE_SHOP}Valider {START_BUTTON}Aléa {B_BUTTON}Annuler",
+      "source_hex": "f80acaddd7df00f800bddce3e3e7d900f804ccd5e2d8e3e100f801bdd5e2d7d9e0ff",
+      "references": [
+        10509080
+      ],
+      "status": "translated",
+      "expected": "<0xF8><0x0A>Sel. <0xF8><0x00>Escolher <0xF8><0x04>Acaso <0xF8><0x01>Voltar",
+      "pt_bytes": 35,
+      "pixels": [
+        147
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e474",
+      "live_offset": "0xa4e474",
+      "corpus_en": "Battle ends if:\n4 Pokémon faint\n10 turns pass",
+      "comparison_fr": "Fin du combat si :\n4 Pokémon K.O.\n10 tours écoulés",
+      "source_hex": "bcd5e8e8e0d900d9e2d8e700dddaf0fea500cae3df1be1e3e200dad5dde2e8fea2a100e8e9e6e2e700e4d5e7e7ff",
+      "references": [
+        10509048
+      ],
+      "status": "translated",
+      "expected": "A batalha acaba se:\\n4 Pokémon desmaiarem\\n10 turnos passarem",
+      "pt_bytes": 60,
+      "pixels": [
+        110,
+        114,
+        101
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e4a2",
+      "live_offset": "0xa4e4a2",
+      "corpus_en": "Available Partners",
+      "comparison_fr": "Partenaires disponibles",
+      "source_hex": "bbead5dde0d5d6e0d900cad5e6e8e2d9e6e7ff",
+      "references": [
+        10509084
+      ],
+      "status": "translated",
+      "expected": "Parceiros disponíveis",
+      "pt_bytes": 22,
+      "pixels": [
+        114
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e4b5",
+      "live_offset": "0xa4e4b8",
+      "corpus_en": "F<0x46>DexNav",
+      "comparison_fr": "Fba DexNav",
+      "source_hex": "bed9ecc8d5eaff",
+      "references": [
+        10932596
+      ],
+      "status": "retained",
+      "expected": "DexNav",
+      "pt_bytes": 7,
+      "pixels": [
+        36
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4e4bf",
+      "live_offset": "0xa4e4bf",
+      "corpus_en": "Mission Log",
+      "comparison_fr": "Missions",
+      "source_hex": "c7dde7e7dde3e200c6e3dbff",
+      "references": [
+        10932660
+      ],
+      "status": "translated",
+      "expected": "Missões",
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e4cb",
+      "live_offset": "0xa4e4cb",
+      "corpus_en": "Costume Box",
+      "comparison_fr": "Costumes",
+      "source_hex": "bde3e7e8e9e1d900bce3ecff",
+      "references": [
+        10932676
+      ],
+      "status": "translated",
+      "expected": "Trajes",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e4d7",
+      "live_offset": "0xa4e4d7",
+      "corpus_en": "Pokémon List",
+      "comparison_fr": "Pokémon",
+      "source_hex": "cae3df1be1e3e200c6dde7e8ff",
+      "references": [
+        10932612
+      ],
+      "status": "translated",
+      "expected": "Lista Pokémon",
+      "pt_bytes": 14,
+      "pixels": [
+        72
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e4e4",
+      "live_offset": "0xa4e4e4",
+      "corpus_en": "Cube V3",
+      "comparison_fr": "Cube V3",
+      "source_hex": "bde9d6d900d0a4ff",
+      "references": [
+        10932628
+      ],
+      "status": "retained",
+      "expected": "Cube V3",
+      "pt_bytes": 8,
+      "pixels": [
+        42
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4e4ec",
+      "live_offset": "0xa4e4ec",
+      "corpus_en": "Save Game",
+      "comparison_fr": "Sauvegarder",
+      "source_hex": "cdd5ead900c1d5e1d9ff",
+      "references": [
+        10932644
+      ],
+      "status": "translated",
+      "expected": "Salvar jogo",
+      "pt_bytes": 12,
+      "pixels": [
+        64
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e4f6",
+      "live_offset": "0xa4e4f6",
+      "corpus_en": "Game Settings",
+      "comparison_fr": "Options",
+      "source_hex": "c1d5e1d900cdd9e8e8dde2dbe7ff",
+      "references": [
+        10932724
+      ],
+      "status": "translated",
+      "expected": "Configurações",
+      "pt_bytes": 14,
+      "pixels": [
+        72
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e504",
+      "live_offset": "0xa4e504",
+      "corpus_en": "Exit  <0xF8>Ì",
+      "comparison_fr": "Quitter {DPAD_RIGHT}",
+      "source_hex": "bfecdde80000f809ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucun pointeur direct. Libellé Exit droit non référencé."
+    },
+    {
+      "offset": "0xa4e50d",
+      "live_offset": "0xa4e50d",
+      "corpus_en": "Exit  <0xF8>Ë",
+      "comparison_fr": "Quitter {DPAD_LEFT}",
+      "source_hex": "bfecdde80000f808ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucun pointeur direct. Libellé Exit gauche non référencé."
+    },
+    {
+      "offset": "0xa4e574",
+      "live_offset": "0xa4e574",
+      "corpus_en": "Time to Dynamax!<0xFB> ",
+      "comparison_fr": "C'est l'heure du Dynamax !<0xFB> ",
+      "source_hex": "cedde1d900e8e300beede2d5e1d5ecabfb00ff",
+      "references": [
+        10551892
+      ],
+      "status": "translated",
+      "expected": "Hora do Dynamax!<0xFB><0x00>",
+      "pt_bytes": 19,
+      "pixels": [
+        94,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e587",
+      "live_offset": "0xa4e587",
+      "corpus_en": "I now shall unleash the power\nof Dynamax!<0xFB> ",
+      "comparison_fr": "Je vais libérer le pouvoir\ndu Dynamax !<0xFB> ",
+      "source_hex": "c300e2e3eb00e7dcd5e0e000e9e2e0d9d5e7dc00e8dcd900e4e3ebd9e6fee3da00beede2d5e1d5ecabfb00ff",
+      "references": [
+        10551860
+      ],
+      "status": "translated",
+      "expected": "Agora vou liberar o poder\\ndo Dynamax!<0xFB><0x00>",
+      "pt_bytes": 40,
+      "pixels": [
+        143,
+        65,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e5b8",
+      "live_offset": "0xa4e5b8",
+      "corpus_en": "Whoaaaaa\"\nThat was intense\"<0xFB> ",
+      "comparison_fr": "Wouaaah...\nC'était intense...<0xFB> ",
+      "source_hex": "d1dce3d5d5d5d5d5b0fecedcd5e800ebd5e700dde2e8d9e2e7d9b0fb00ff",
+      "references": [
+        10932956,
+        10932972,
+        10932988,
+        10933004,
+        10933020,
+        10933036,
+        10933052
+      ],
+      "status": "translated",
+      "expected": "Uaaaaau<0xB0>\\nFoi intenso<0xB0><0xFB><0x00>",
+      "pt_bytes": 24,
+      "pixels": [
+        42,
+        58,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e5d6",
+      "live_offset": "0xa4e5d6",
+      "corpus_en": "So\" you ARE everything I had\nanticipated\"<0xFB> ",
+      "comparison_fr": "Alors... tu es tout ce que\nj'avais anticipé...<0xFB> ",
+      "source_hex": "cde3b000ede3e900bbccbf00d9ead9e6ede8dcdde2db00c300dcd5d8fed5e2e8ddd7dde4d5e8d9d8b0fb00ff",
+      "references": [
+        10933072,
+        10933088,
+        10933104,
+        10933120,
+        10933136,
+        10933152
+      ],
+      "status": "translated",
+      "expected": "Então<0xB0> você É tudo que\\neu esperava<0xB0><0xFB><0x00>",
+      "pt_bytes": 38,
+      "pixels": [
+        123,
+        64,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e602",
+      "live_offset": "0xa4e602",
+      "corpus_en": "The truly talented make their\nown luck!<0xFB> ",
+      "comparison_fr": "Les vrais talents créent\nleur propre chance !<0xFB> ",
+      "source_hex": "cedcd900e8e6e9e0ed00e8d5e0d9e2e8d9d800e1d5dfd900e8dcd9dde6fee3ebe200e0e9d7dfabfb00ff",
+      "references": [
+        10933168,
+        10933184,
+        10933200,
+        10933216,
+        10933232,
+        10933248
+      ],
+      "status": "translated",
+      "expected": "Quem tem talento de verdade\\nfaz a própria sorte!<0xFB><0x00>",
+      "pt_bytes": 51,
+      "pixels": [
+        156,
+        112,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e62c",
+      "live_offset": "0xa4e62c",
+      "corpus_en": "Alrighty! Time to fight as good\nas we look, I reckon!<0xFB> ",
+      "comparison_fr": "Allez ! On se bat aussi bien\nqu'on est beaux, j'imagine !<0xFB> ",
+      "source_hex": "bbe0e6dddbdce8edab00cedde1d900e8e300dadddbdce800d5e700dbe3e3d8fed5e700ebd900e0e3e3dfb800c300e6d9d7dfe3e2abfb00ff",
+      "references": [
+        10933264,
+        10933280,
+        10933296,
+        10933312,
+        10933328,
+        10933344
+      ],
+      "status": "translated",
+      "expected": "Certo! Hora de lutar tão bem\\nquanto nossa aparência!<0xFB><0x00>",
+      "pt_bytes": 55,
+      "pixels": [
+        161,
+        129,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e664",
+      "live_offset": "0xa4e664",
+      "corpus_en": "Ha ha ha ha!\nIt ain't over yet!<0xFB> ",
+      "comparison_fr": "Ha ha ha ha !\nC'est pas fini !<0xFB> ",
+      "source_hex": "c2d500dcd500dcd500dcd5abfec3e800d5dde2b4e800e3ead9e600edd9e8abfb00ff",
+      "references": [
+        10933364,
+        10933380,
+        10933396,
+        10933412,
+        10933428,
+        10933444
+      ],
+      "status": "translated",
+      "expected": "Ha ha ha ha!\\nAinda não acabou!<0xFB><0x00>",
+      "pt_bytes": 33,
+      "pixels": [
+        72,
+        98,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e686",
+      "live_offset": "0xa4e686",
+      "corpus_en": "No way\" NO WAY!\nNot while I'm kingpin, you don't!<0xFB> ",
+      "comparison_fr": "Pas question... PAS QUESTION !\nPas tant que je suis le boss !<0xFB> ",
+      "source_hex": "c8e300ebd5edb000c8c900d1bbd3abfec8e3e800ebdcdde0d900c3b4e100dfdde2dbe4dde2b800ede3e900d8e3e2b4e8abfb00ff",
+      "references": [
+        10933456,
+        10933472,
+        10933488,
+        10933504,
+        10933520,
+        10933536,
+        10933552
+      ],
+      "status": "translated",
+      "expected": "Nem pensar<0xB0> NEM PENSAR!\\nEnquanto eu for o chefão, não!<0xFB><0x00>",
+      "pt_bytes": 57,
+      "pixels": [
+        129,
+        172,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e6ba",
+      "live_offset": "0xa4e6ba",
+      "corpus_en": "Well this ain't good, but it ain't\nover 'til it's over!<0xFB> ",
+      "comparison_fr": "C'est mal parti, mais c'est pas\nfini tant que c'est pas fini !<0xFB> ",
+      "source_hex": "d1d9e0e000e8dcdde700d5dde2b4e800dbe3e3d8b800d6e9e800dde800d5dde2b4e8fee3ead9e600b4e8dde000dde8b4e700e3ead9e6abfb00ff",
+      "references": [
+        10933568,
+        10933584,
+        10933600,
+        10933616,
+        10933632,
+        10933648
+      ],
+      "status": "translated",
+      "expected": "Não está bom, mas só acaba\\nquando termina!<0xFB><0x00>",
+      "pt_bytes": 45,
+      "pixels": [
+        151,
+        84,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e6f4",
+      "live_offset": "0xa4e6f4",
+      "corpus_en": "Our time grows short, <0xFD>É\"\nSo let's make the most of it!<0xFB> ",
+      "comparison_fr": "Le temps presse, {RIVAL}...\nProfitons-en au maximum !<0xFB> ",
+      "source_hex": "c9e9e600e8dde1d900dbe6e3ebe700e7dce3e6e8b800fd06b0fecde300e0d9e8b4e700e1d5dfd900e8dcd900e1e3e7e800e3da00dde8abfb00ff",
+      "references": [
+        10933664,
+        10933680,
+        10933696,
+        10933712,
+        10933728,
+        10933744
+      ],
+      "status": "translated",
+      "expected": "Nosso tempo é curto, <0xFD><0x06><0xB0>\\nVamos aproveitar ao máximo!<0xFB><0x00>",
+      "pt_bytes": 55,
+      "pixels": [
+        174,
+        154,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e72e",
+      "live_offset": "0xa4e72e",
+      "corpus_en": "The mole-people never give in!\nFeel our wrath, surface-dweller!<0xFB> ",
+      "comparison_fr": "On n'abandonne jamais !\nGoûte la colère des taupes !<0xFB> ",
+      "source_hex": "cedcd900e1e3e0d9aee4d9e3e4e0d900e2d9ead9e600dbddead900dde2abfec0d9d9e000e3e9e600ebe6d5e8dcb800e7e9e6dad5d7d9aed8ebd9e0e0d9e6abfb00ff",
+      "references": [
+        10933764,
+        10933780,
+        10933796,
+        10933812
+      ],
+      "status": "translated",
+      "expected": "O povo-toupeira nunca desiste!\\nSinta nossa ira, ser da superfície!<0xFB><0x00>",
+      "pt_bytes": 69,
+      "pixels": [
+        169,
+        192,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e770",
+      "live_offset": "0xa4e770",
+      "corpus_en": "Great. Just one left.\nWhat I always wanted\"<0xFB> ",
+      "comparison_fr": "Super. Plus qu'un.\nTout ce dont je rêvais...<0xFB> ",
+      "source_hex": "c1e6d9d5e8ad00c4e9e7e800e3e2d900e0d9dae8adfed1dcd5e800c300d5e0ebd5ede700ebd5e2e8d9d8b0fb00ff",
+      "references": [
+        10933824,
+        10933840,
+        10933856,
+        10933872
+      ],
+      "status": "translated",
+      "expected": "Ótimo. Só resta um.\\nTudo que eu sempre quis<0xB0><0xFB><0x00>",
+      "pt_bytes": 47,
+      "pixels": [
+        106,
+        133,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e79e",
+      "live_offset": "0xa4e79e",
+      "corpus_en": "Ah!\nBut we're not done fighting yet!<0xFB> ",
+      "comparison_fr": "Ah !\nMais on n'a pas fini de se battre !<0xFB> ",
+      "source_hex": "bbdcabfebce9e800ebd9b4e6d900e2e3e800d8e3e2d900dadddbdce8dde2db00edd9e8abfb00ff",
+      "references": [
+        10933888,
+        10933904,
+        10933920,
+        10933936
+      ],
+      "status": "translated",
+      "expected": "Ah!\\nMas ainda não acabamos de lutar!<0xFB><0x00>",
+      "pt_bytes": 39,
+      "pixels": [
+        18,
+        183,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e7c5",
+      "live_offset": "0xa4e7c5",
+      "corpus_en": "WROOOOOAR!<0xFB> ",
+      "comparison_fr": "GROUAAAAAH !<0xFB>",
+      "source_hex": "d1ccc9c9c9c9c9bbccabfb00ff",
+      "references": [
+        10933956,
+        10933972,
+        10933988,
+        10934004
+      ],
+      "status": "translated",
+      "expected": "GRUUUUUAR!<0xFB><0x00>",
+      "pt_bytes": 13,
+      "pixels": [
+        60,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e7d2",
+      "live_offset": "0xa4e7d2",
+      "corpus_en": "Let's do this!\nWe can still come out on top!<0xFB> ",
+      "comparison_fr": "On y va !\nOn peut encore gagner !<0xFB> ",
+      "source_hex": "c6d9e8b4e700d8e300e8dcdde7abfed1d900d7d5e200e7e8dde0e000d7e3e1d900e3e9e800e3e200e8e3e4abfb00ff",
+      "references": [
+        10934020,
+        10934036,
+        10934052,
+        10934068
+      ],
+      "status": "translated",
+      "expected": "Vamos lá!\\nAinda podemos vencer!<0xFB><0x00>",
+      "pt_bytes": 34,
+      "pixels": [
+        52,
+        120,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e801",
+      "live_offset": "0xa4e801",
+      "corpus_en": "Impossible\"<0xFB> ",
+      "comparison_fr": "Impossible...<0xFB> ",
+      "source_hex": "c3e1e4e3e7e7ddd6e0d9b0fb00ff",
+      "references": [
+        10934084,
+        10934100,
+        10934116,
+        10934132
+      ],
+      "status": "translated",
+      "expected": "Impossível<0xB0><0xFB><0x00>",
+      "pt_bytes": 14,
+      "pixels": [
+        57,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e80f",
+      "live_offset": "0xa4e80f",
+      "corpus_en": "No! You won't take\" anything else\nfrom me!<0xFB> ",
+      "comparison_fr": "Non ! Tu ne prendras... plus rien\nà moi !<0xFB> ",
+      "source_hex": "c8e3ab00d3e3e900ebe3e2b4e800e8d5dfd9b000d5e2ede8dcdde2db00d9e0e7d9fedae6e3e100e1d9abfb00ff",
+      "references": [
+        10934144,
+        10934160,
+        10934176,
+        10934192
+      ],
+      "status": "translated",
+      "expected": "Não! Você não vai tirar<0xB0>\\nmais nada de mim!<0xFB><0x00>",
+      "pt_bytes": 45,
+      "pixels": [
+        130,
+        96,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e83c",
+      "live_offset": "0xa4e83c",
+      "corpus_en": "One Pokémon left\"<0xFB>Now is the time when I demonstrate\nhow to truly battle!<0xFB>",
+      "comparison_fr": "Plus qu'un Pokémon...<0xFB>C'est maintenant que je montre\ncomment on se bat vraiment !<0xFB>",
+      "source_hex": "c9e2d900cae3df1be1e3e200e0d9dae8b0fbc8e3eb00dde700e8dcd900e8dde1d900ebdcd9e200c300d8d9e1e3e2e7e8e6d5e8d9fedce3eb00e8e300e8e6e9e0ed00d6d5e8e8e0d9abfbff",
+      "references": [
+        10934208,
+        10934224,
+        10934240
+      ],
+      "status": "translated",
+      "expected": "Só resta um Pokémon<0xB0><0xFB>Agora vou mostrar\\ncomo se luta de verdade!<0xFB>",
+      "pt_bytes": 65,
+      "pixels": [
+        109,
+        97,
+        140,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e887",
+      "live_offset": "0xa4e887",
+      "corpus_en": "This is your final trial!\nThe last obstacle! Now, focus!<0xFB> ",
+      "comparison_fr": "C'est ton ultime épreuve !\nDernier obstacle ! Concentre-toi !<0xFB> ",
+      "source_hex": "cedcdde700dde700ede3e9e600dadde2d5e000e8e6ddd5e0abfecedcd900e0d5e7e800e3d6e7e8d5d7e0d9ab00c8e3ebb800dae3d7e9e7abfb00ff",
+      "references": [
+        10934416,
+        10934432,
+        10934448,
+        10934464
+      ],
+      "status": "translated",
+      "expected": "Este é seu teste final!\\nO último obstáculo! Concentre-se!<0xFB><0x00>",
+      "pt_bytes": 60,
+      "pixels": [
+        127,
+        186,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e8c2",
+      "live_offset": "0xa4e8c2",
+      "corpus_en": "Impossible!<0xFB>You\" you cannot do this to me!<0xFB> ",
+      "comparison_fr": "Impossible !<0xFB>Tu... tu ne peux pas me faire ça !<0xFB> ",
+      "source_hex": "c3e1e4e3e7e7ddd6e0d9abfbd3e3e9b000ede3e900d7d5e2e2e3e800d8e300e8dcdde700e8e300e1d9abfb00ff",
+      "references": [
+        10934260,
+        10934276,
+        10934292,
+        10934308
+      ],
+      "status": "translated",
+      "expected": "Impossível!<0xFB>Você<0xB0> não pode fazer isso comigo!<0xFB><0x00>",
+      "pt_bytes": 48,
+      "pixels": [
+        63,
+        183,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e8ef",
+      "live_offset": "0xa4e8ef",
+      "corpus_en": "<0xFD>ó\" <0xFD>ó!\nOnly you would dare\"!<0xFB> ",
+      "comparison_fr": "{B_PLAYER_NAME}... {B_PLAYER_NAME} !\nIl n'y avait que toi pour oser... !<0xFB> ",
+      "source_hex": "fd23b000fd23abfec9e2e0ed00ede3e900ebe3e9e0d800d8d5e6d9b0abfb00ff",
+      "references": [
+        10934324,
+        10934340,
+        10934356,
+        10934372
+      ],
+      "status": "translated",
+      "expected": "<0xFD><0x23><0xB0> <0xFD><0x23>!\\nSó você ousaria<0xB0>!<0xFB><0x00>",
+      "pt_bytes": 28,
+      "pixels": [
+        120,
+        92,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e90f",
+      "live_offset": "0xa4e90f",
+      "corpus_en": "No!\nThis cannot be my destiny!<0xFB> ",
+      "comparison_fr": "Non !\nCe ne peut être mon destin !<0xFB> ",
+      "source_hex": "c8e3abfecedcdde700d7d5e2e2e3e800d6d900e1ed00d8d9e7e8dde2edabfb00ff",
+      "references": [
+        10934388,
+        10934404
+      ],
+      "status": "translated",
+      "expected": "Não!\\nEste não pode ser meu destino!<0xFB><0x00>",
+      "pt_bytes": 38,
+      "pixels": [
+        24,
+        170,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e930",
+      "live_offset": "0xa4e930",
+      "corpus_en": "The power of the Hidden Grottos!\nIt's mine to command!<0xFB> ",
+      "comparison_fr": "Le pouvoir des Antres Cachées !\nIl m'obéit !<0xFB> ",
+      "source_hex": "cedcd900e4e3ebd9e600e3da00e8dcd900c2ddd8d8d9e200c1e6e3e8e8e3e7abfec3e8b4e700e1dde2d900e8e300d7e3e1e1d5e2d8abfb00ff",
+      "references": [
+        10551896
+      ],
+      "status": "translated",
+      "expected": "O poder dos Hidden Grottos!\\nEstá sob meu comando!<0xFB><0x00>",
+      "pt_bytes": 52,
+      "pixels": [
+        153,
+        122,
+        0
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e969",
+      "live_offset": "0xa4e969",
+      "corpus_en": "Agh\" there's gotta be a way to turn\nthis around somehow!",
+      "comparison_fr": "Aargh... il doit bien y avoir un\nmoyen de renverser tout ça !",
+      "source_hex": "bbdbdcb000e8dcd9e6d9b4e700dbe3e8e8d500d6d900d500ebd5ed00e8e300e8e9e6e2fee8dcdde700d5e6e3e9e2d800e7e3e1d9dce3ebabff",
+      "references": [
+        10934640,
+        10934656,
+        10934672,
+        10934688,
+        10934704,
+        10934720
+      ],
+      "status": "translated",
+      "expected": "Argh<0xB0> deve haver um jeito\\nde virar esse jogo!",
+      "pt_bytes": 46,
+      "pixels": [
+        139,
+        108
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e9a2",
+      "live_offset": "0xa4e9a2",
+      "corpus_en": "Nothing's over - not until my last\nPokémon's down for the count!",
+      "comparison_fr": "Rien n'est fini, tant que mon\ndernier Pokémon tient debout !",
+      "source_hex": "c8e3e8dcdde2dbb4e700e3ead9e600ae00e2e3e800e9e2e8dde000e1ed00e0d5e7e8fecae3df1be1e3e2b4e700d8e3ebe200dae3e600e8dcd900d7e3e9e2e8abff",
+      "references": [
+        10934512,
+        10934528
+      ],
+      "status": "translated",
+      "expected": "Nada acaba até meu último\\nPokémon cair de vez!",
+      "pt_bytes": 47,
+      "pixels": [
+        145,
+        115
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4e9e3",
+      "live_offset": "0xa4e9e3",
+      "corpus_en": "This feeling\" so, this is what being\ncornered feels like\"",
+      "comparison_fr": "Ce ressenti... c'est donc ça,\nêtre acculé...",
+      "source_hex": "cedcdde700dad9d9e0dde2dbb000e7e3b800e8dcdde700dde700ebdcd5e800d6d9dde2dbfed7e3e6e2d9e6d9d800dad9d9e0e700e0dddfd9b0ff",
+      "references": [
+        10934480,
+        10934496
+      ],
+      "status": "translated",
+      "expected": "Essa sensação<0xB0> então é assim\\nque é se sentir encurralado<0xB0>",
+      "pt_bytes": 58,
+      "pixels": [
+        151,
+        151
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ea1d",
+      "live_offset": "0xa4ea1d",
+      "corpus_en": "The way you always manage to summon\nso much strength\" it's amazing\"",
+      "comparison_fr": "Cette force que tu invoques\nsans cesse... incroyable...",
+      "source_hex": "cedcd900ebd5ed00ede3e900d5e0ebd5ede700e1d5e2d5dbd900e8e300e7e9e1e1e3e2fee7e300e1e9d7dc00e7e8e6d9e2dbe8dcb000dde8b4e700d5e1d5eedde2dbb0ff",
+      "references": [
+        10934612,
+        10934628
+      ],
+      "status": "translated",
+      "expected": "Você sempre consegue reunir\\ntanta força<0xB0> é incrível<0xB0>",
+      "pt_bytes": 53,
+      "pixels": [
+        153,
+        122
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ea61",
+      "live_offset": "0xa4ea61",
+      "corpus_en": "This is it! This is where the real\nbattle begins, <0xFD>ó!",
+      "comparison_fr": "C'est là ! Le vrai combat\ncommence, {B_PLAYER_NAME} !",
+      "source_hex": "cedcdde700dde700dde8ab00cedcdde700dde700ebdcd9e6d900e8dcd900e6d9d5e0fed6d5e8e8e0d900d6d9dbdde2e7b800fd23abff",
+      "references": [
+        10934580,
+        10934596
+      ],
+      "status": "translated",
+      "expected": "É agora! A verdadeira batalha\\ncomeça aqui, <0xFD><0x23>!",
+      "pt_bytes": 47,
+      "pixels": [
+        167,
+        135
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ea97",
+      "live_offset": "0xa4ea97",
+      "corpus_en": "Not yet! It's time I showed you what\nwe're really made of!",
+      "comparison_fr": "Pas encore ! Il est temps que je\nmontre de quoi on est faits !",
+      "source_hex": "c8e3e800edd9e8ab00c3e8b4e700e8dde1d900c300e7dce3ebd9d800ede3e900ebdcd5e8feebd9b4e6d900e6d9d5e0e0ed00e1d5d8d900e3daabff",
+      "references": [
+        10934544,
+        10934560
+      ],
+      "status": "translated",
+      "expected": "Ainda não! Vou mostrar\\ndo que somos capazes!",
+      "pt_bytes": 45,
+      "pixels": [
+        124,
+        123
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ead2",
+      "live_offset": "0xa4ead2",
+      "corpus_en": "F<0x46>Normal",
+      "comparison_fr": "F Normale",
+      "source_hex": "c046c8e3e6e1d5e0ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucun pointeur direct. Préfixe C0 46 hors texte ; Normal est la cellule distincte 0xa4ead4 traitée dans ce lot."
+    },
+    {
+      "offset": "0xa4ead4",
+      "live_offset": "0xa4ead4",
+      "corpus_en": "Normal",
+      "comparison_fr": null,
+      "source_hex": "c8e3e6e1d5e0ff",
+      "references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ],
+      "status": "retained",
+      "expected": "Normal",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4ead4",
+      "cell_size": 7,
+      "cell_hex": "c8e3e6e1d5e0ff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eadb",
+      "live_offset": "0xa4eadb",
+      "corpus_en": "Fight",
+      "comparison_fr": "Lutte",
+      "source_hex": "c0dddbdce8ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Lutad.",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eadb",
+      "cell_size": 7,
+      "cell_hex": "c0dddbdce8ffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eae2",
+      "live_offset": "0xa4eae2",
+      "corpus_en": "Flying",
+      "comparison_fr": "Vol",
+      "source_hex": "c0e0eddde2dbff",
+      "references": [],
+      "status": "translated",
+      "expected": "Voador",
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eae2",
+      "cell_size": 7,
+      "cell_hex": "c0e0eddde2dbff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eae9",
+      "live_offset": "0xa4eae9",
+      "corpus_en": "Poison",
+      "comparison_fr": "Poison",
+      "source_hex": "cae3dde7e3e2ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Venen.",
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eae9",
+      "cell_size": 7,
+      "cell_hex": "cae3dde7e3e2ff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eaf0",
+      "live_offset": "0xa4eaf0",
+      "corpus_en": "Ground",
+      "comparison_fr": "Sol",
+      "source_hex": "c1e6e3e9e2d8ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Terr.",
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eaf0",
+      "cell_size": 7,
+      "cell_hex": "c1e6e3e9e2d8ff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eaf7",
+      "live_offset": "0xa4eaf7",
+      "corpus_en": "Rock",
+      "comparison_fr": "Rocher",
+      "source_hex": "cce3d7dfff",
+      "references": [],
+      "status": "translated",
+      "expected": "Pedra",
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eaf7",
+      "cell_size": 7,
+      "cell_hex": "cce3d7dfffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eafe",
+      "live_offset": "0xa4eafe",
+      "corpus_en": "Bug",
+      "comparison_fr": null,
+      "source_hex": "bce9dbff",
+      "references": [],
+      "status": "translated",
+      "expected": "Inseto",
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eafe",
+      "cell_size": 7,
+      "cell_hex": "bce9dbffffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb05",
+      "live_offset": "0xa4eb05",
+      "corpus_en": "Ghost",
+      "comparison_fr": "Spectr",
+      "source_hex": "c1dce3e7e8ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Fant.",
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb05",
+      "cell_size": 7,
+      "cell_hex": "c1dce3e7e8ffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb0c",
+      "live_offset": "0xa4eb0c",
+      "corpus_en": "Steel",
+      "comparison_fr": "Acier",
+      "source_hex": "cde8d9d9e0ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Aço",
+      "pt_bytes": 4,
+      "pixels": [
+        18
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb0c",
+      "cell_size": 7,
+      "cell_hex": "cde8d9d9e0ffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb1a",
+      "live_offset": "0xa4eb1a",
+      "corpus_en": "Fire",
+      "comparison_fr": "Feu",
+      "source_hex": "c0dde6d9ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Fogo",
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb1a",
+      "cell_size": 7,
+      "cell_hex": "c0dde6d9ffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb21",
+      "live_offset": "0xa4eb21",
+      "corpus_en": "Water",
+      "comparison_fr": "Eau",
+      "source_hex": "d1d5e8d9e6ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Água",
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb21",
+      "cell_size": 7,
+      "cell_hex": "d1d5e8d9e6ffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb28",
+      "live_offset": "0xa4eb28",
+      "corpus_en": "Grass",
+      "comparison_fr": "Herbe",
+      "source_hex": "c1e6d5e7e7ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Planta",
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb28",
+      "cell_size": 7,
+      "cell_hex": "c1e6d5e7e7ffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb2f",
+      "live_offset": "0xa4eb2f",
+      "corpus_en": "Electr",
+      "comparison_fr": "Électr",
+      "source_hex": "bfe0d9d7e8e6ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Elétr.",
+      "pt_bytes": 7,
+      "pixels": [
+        32
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb2f",
+      "cell_size": 7,
+      "cell_hex": "bfe0d9d7e8e6ff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb36",
+      "live_offset": "0xa4eb36",
+      "corpus_en": "Psychc",
+      "comparison_fr": "Psychc",
+      "source_hex": "cae7edd7dcd7ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Psíq.",
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb36",
+      "cell_size": 7,
+      "cell_hex": "cae7edd7dcd7ff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb3d",
+      "live_offset": "0xa4eb3d",
+      "corpus_en": "Ice",
+      "comparison_fr": null,
+      "source_hex": "c3d7d9ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Gelo",
+      "pt_bytes": 5,
+      "pixels": [
+        23
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb3d",
+      "cell_size": 7,
+      "cell_hex": "c3d7d9ffffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb44",
+      "live_offset": "0xa4eb44",
+      "corpus_en": "Dragon",
+      "comparison_fr": "Dragon",
+      "source_hex": "bee6d5dbe3e2ff",
+      "references": [],
+      "status": "translated",
+      "expected": "Dragão",
+      "pt_bytes": 7,
+      "pixels": [
+        35
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb44",
+      "cell_size": 7,
+      "cell_hex": "bee6d5dbe3e2ff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb4b",
+      "live_offset": "0xa4eb4b",
+      "corpus_en": "Dark",
+      "comparison_fr": "Sombre",
+      "source_hex": "bed5e6dfff",
+      "references": [],
+      "status": "translated",
+      "expected": "Sombr.",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb4b",
+      "cell_size": 7,
+      "cell_hex": "bed5e6dfffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb52",
+      "live_offset": "0xa4eb52",
+      "corpus_en": "-",
+      "comparison_fr": null,
+      "source_hex": "aeff",
+      "references": [],
+      "status": "retained",
+      "expected": "-",
+      "pt_bytes": 2,
+      "pixels": [
+        6
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb52",
+      "cell_size": 7,
+      "cell_hex": "aeffffffffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb59",
+      "live_offset": "0xa4eb59",
+      "corpus_en": "-",
+      "comparison_fr": null,
+      "source_hex": "aeff",
+      "references": [],
+      "status": "retained",
+      "expected": "-",
+      "pt_bytes": 2,
+      "pixels": [
+        6
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb59",
+      "cell_size": 7,
+      "cell_hex": "aeffffffffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb60",
+      "live_offset": "0xa4eb60",
+      "corpus_en": "-",
+      "comparison_fr": null,
+      "source_hex": "aeff",
+      "references": [],
+      "status": "retained",
+      "expected": "-",
+      "pt_bytes": 2,
+      "pixels": [
+        6
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb60",
+      "cell_size": 7,
+      "cell_hex": "aeffffffffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb67",
+      "live_offset": "0xa4eb67",
+      "corpus_en": "-",
+      "comparison_fr": null,
+      "source_hex": "aeff",
+      "references": [],
+      "status": "retained",
+      "expected": "-",
+      "pt_bytes": 2,
+      "pixels": [
+        6
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb67",
+      "cell_size": 7,
+      "cell_hex": "aeffffffffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb6e",
+      "live_offset": "0xa4eb6e",
+      "corpus_en": "-",
+      "comparison_fr": null,
+      "source_hex": "aeff",
+      "references": [],
+      "status": "retained",
+      "expected": "-",
+      "pt_bytes": 2,
+      "pixels": [
+        6
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb6e",
+      "cell_size": 7,
+      "cell_hex": "aeffffffffffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb75",
+      "live_offset": "0xa4eb75",
+      "corpus_en": "Fairy",
+      "comparison_fr": "Fée",
+      "source_hex": "c0d5dde6edff",
+      "references": [],
+      "status": "translated",
+      "expected": "Fada",
+      "pt_bytes": 5,
+      "pixels": [
+        24
+      ],
+      "max_width": 36,
+      "reason": "Table de types indexée au pas de 7 octets (mul #7 à 0xa0944c). Abréviation éditoriale du terme F-759 si nécessaire ; pas de relocalisation de cellule.",
+      "cell_offset": "0xa4eb75",
+      "cell_size": 7,
+      "cell_hex": "c0d5dde6edffff",
+      "table_references": [
+        886032,
+        1152812,
+        1152892,
+        10523768
+      ]
+    },
+    {
+      "offset": "0xa4eb7c",
+      "live_offset": "0xa4eb7c",
+      "corpus_en": "Your save file is incompatible with\nthe current version of Unbound.<0xFB>Please enter the Hall of Fame on any\nversion before 2.0 before continuing.<0xFB>If you would like to proceed anyway\"<0xFB>\"your current save file will be\ndeleted.",
+      "comparison_fr": "Ta sauvegarde est incompatible.\nIl faut entrer au Panthéon sur une<0xFB>version antérieure à 2.0 avant de\ncontinuer.<0xFB>Si tu veux tout de même continuer...<0xFB>...ta sauvegarde actuelle sera\nsupprimée.",
+      "source_hex": "d3e3e9e600e7d5ead900dadde0d900dde700dde2d7e3e1e4d5e8ddd6e0d900ebdde8dcfee8dcd900d7e9e6e6d9e2e800ead9e6e7dde3e200e3da00cfe2d6e3e9e2d8adfbcae0d9d5e7d900d9e2e8d9e600e8dcd900c2d5e0e000e3da00c0d5e1d900e3e200d5e2edfeead9e6e7dde3e200d6d9dae3e6d900a3ada100d6d9dae3e6d900d7e3e2e8dde2e9dde2dbadfbc3da00ede3e900ebe3e9e0d800e0dddfd900e8e300e4e6e3d7d9d9d800d5e2edebd5edb0fbb0ede3e9e600d7e9e6e6d9e2e800e7d5ead900dadde0d900ebdde0e000d6d9fed8d9e0d9e8d9d8adff",
+      "references": [
+        10554968
+      ],
+      "status": "translated",
+      "expected": "Sua gravação é incompatível com\\na versão atual de Unbound.<0xFB>Entre no Hall of Fame numa versão\\nanterior à 2.0 antes de continuar.<0xFB>Se quiser continuar mesmo assim<0xB0><0xFB><0xB0>sua gravação atual será\\napagada.",
+      "pt_bytes": 195,
+      "pixels": [
+        180,
+        149,
+        188,
+        187,
+        171,
+        132,
+        47
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ec59",
+      "live_offset": "0xa4ec59",
+      "corpus_en": "Your save file is incompatible with\nthe Unbound Battle Frontier Demo.<0xFB>If you would like to proceed\nanyway\"<0xFB>\"your current save file will be\ndeleted.",
+      "comparison_fr": "Sauvegarde incompatible avec\nla démo d'Unbound Zone de Combat.<0xFB>Si vous souhaitez continuer\ntout de même...<0xFB>...votre sauvegarde actuelle\nsera supprimée.",
+      "source_hex": "d3e3e9e600e7d5ead900dadde0d900dde700dde2d7e3e1e4d5e8ddd6e0d900ebdde8dcfee8dcd900cfe2d6e3e9e2d800bcd5e8e8e0d900c0e6e3e2e8ddd9e600bed9e1e3adfbc3da00ede3e900ebe3e9e0d800e0dddfd900e8e300e4e6e3d7d9d9d8fed5e2edebd5edb0fbb0ede3e9e600d7e9e6e6d9e2e800e7d5ead900dadde0d900ebdde0e000d6d9fed8d9e0d9e8d9d8adff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucun pointeur direct. Message hérité de la démo sans consommateur retrouvé."
+    },
+    {
+      "offset": "0xa4eced",
+      "live_offset": "0xa4eced",
+      "corpus_en": "Capped ",
+      "comparison_fr": "Limité",
+      "source_hex": "bdd5e4e4d9d800ff",
+      "references": [
+        10564788
+      ],
+      "status": "translated",
+      "expected": "Limitado<0x00>",
+      "pt_bytes": 10,
+      "pixels": [
+        43
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ecf5",
+      "live_offset": "0xa4ecf5",
+      "corpus_en": "Sandbox ",
+      "comparison_fr": "Bac à sable",
+      "source_hex": "cdd5e2d8d6e3ec00ff",
+      "references": [
+        10564796
+      ],
+      "status": "retained",
+      "expected": "Sandbox<0x00>",
+      "pt_bytes": 9,
+      "pixels": [
+        41
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ecfe",
+      "live_offset": "0xa4ecfe",
+      "corpus_en": "True ",
+      "comparison_fr": "Vrai",
+      "source_hex": "cee6e9d900ff",
+      "references": [
+        10564808
+      ],
+      "status": "translated",
+      "expected": "Real<0x00>",
+      "pt_bytes": 6,
+      "pixels": [
+        23
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed04",
+      "live_offset": "0xa4ed04",
+      "corpus_en": "Vanilla",
+      "comparison_fr": "Vanilla",
+      "source_hex": "d0d5e2dde0e0d5ff",
+      "references": [
+        10564748
+      ],
+      "status": "retained",
+      "expected": "Vanilla",
+      "pt_bytes": 8,
+      "pixels": [
+        37
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ed0c",
+      "live_offset": "0xa4ed0c",
+      "corpus_en": "Difficult",
+      "comparison_fr": "Difficile",
+      "source_hex": "bedddadaddd7e9e0e8ff",
+      "references": [
+        10564812
+      ],
+      "status": "translated",
+      "expected": "Difícil",
+      "pt_bytes": 8,
+      "pixels": [
+        36
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed28",
+      "live_offset": "0xa4ed28",
+      "corpus_en": "Expert",
+      "comparison_fr": "Expert",
+      "source_hex": "bfece4d9e6e8ff",
+      "references": [
+        10564744
+      ],
+      "status": "retained",
+      "expected": "Expert",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ed2f",
+      "live_offset": "0xa4ed2f",
+      "corpus_en": "Insane",
+      "comparison_fr": "Fou",
+      "source_hex": "c3e2e7d5e2d9ff",
+      "references": [
+        10564804
+      ],
+      "status": "translated",
+      "expected": "Insano",
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed36",
+      "live_offset": "0xa4ed36",
+      "corpus_en": "Difficulty",
+      "comparison_fr": "Difficulté",
+      "source_hex": "00bedddadaddd7e9e0e8edff",
+      "references": [
+        10564768
+      ],
+      "status": "translated",
+      "expected": "<0x00>Dificuldade",
+      "pt_bytes": 13,
+      "pixels": [
+        60
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed42",
+      "live_offset": "0xa4ed42",
+      "corpus_en": "Random",
+      "comparison_fr": "aléatoire",
+      "source_hex": "00ccd5e2d8e3e1ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Aucun pointeur direct. Libellé Random sans consommateur retrouvé."
+    },
+    {
+      "offset": "0xa4ed4a",
+      "live_offset": "0xa4ed4a",
+      "corpus_en": "Scalemons",
+      "comparison_fr": "Scalemons",
+      "source_hex": "00cdd7d5e0d9e1e3e2e7ff",
+      "references": [
+        10564756
+      ],
+      "status": "retained",
+      "expected": "<0x00>Scalemons",
+      "pt_bytes": 11,
+      "pixels": [
+        51
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ed55",
+      "live_offset": "0xa4ed55",
+      "corpus_en": "Post-Game",
+      "comparison_fr": "Post-game",
+      "source_hex": "00cae3e7e8aec1d5e1d9ff",
+      "references": [
+        10564820
+      ],
+      "status": "translated",
+      "expected": "<0x00>Pós-jogo",
+      "pt_bytes": 10,
+      "pixels": [
+        47
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed69",
+      "live_offset": "0xa4ed69",
+      "corpus_en": "+Trades",
+      "comparison_fr": "+Échanges",
+      "source_hex": "002ecee6d5d8d9e7ff",
+      "references": [
+        10564868
+      ],
+      "status": "translated",
+      "expected": "<0x00>+Trocas",
+      "pt_bytes": 9,
+      "pixels": [
+        42
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed72",
+      "live_offset": "0xa4ed72",
+      "corpus_en": "Species",
+      "comparison_fr": "Espèces",
+      "source_hex": "cde4d9d7ddd9e7ff",
+      "references": [
+        10564848
+      ],
+      "status": "translated",
+      "expected": "Espécies",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed7a",
+      "live_offset": "0xa4ed7a",
+      "corpus_en": "Moveset",
+      "comparison_fr": "Capacités",
+      "source_hex": "c7e3ead9e7d9e8ff",
+      "references": [
+        10564852
+      ],
+      "status": "translated",
+      "expected": "Movimentos",
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed82",
+      "live_offset": "0xa4ed82",
+      "corpus_en": "Ability",
+      "comparison_fr": "Talent",
+      "source_hex": "bbd6dde0dde8edff",
+      "references": [
+        10564856
+      ],
+      "status": "translated",
+      "expected": "Habilidade",
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ed8a",
+      "live_offset": "0xa4ed8a",
+      "corpus_en": "Randomizer",
+      "comparison_fr": "Randomizer",
+      "source_hex": "00ccd5e2d8e3e1ddeed9e6ff",
+      "references": [
+        10564860
+      ],
+      "status": "retained",
+      "expected": "<0x00>Randomizer",
+      "pt_bytes": 12,
+      "pixels": [
+        56
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ed96",
+      "live_offset": "0xa4ed96",
+      "corpus_en": "New Game ",
+      "comparison_fr": "Nouvelle Partie",
+      "source_hex": "c8d9eb00c1d5e1d900ff",
+      "references": [
+        10564800
+      ],
+      "status": "translated",
+      "expected": "Novo jogo<0x00>",
+      "pt_bytes": 11,
+      "pixels": [
+        54
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4eda2",
+      "live_offset": "0xa4eda2",
+      "corpus_en": "Species",
+      "comparison_fr": "Espèces",
+      "source_hex": "cde4d9d7ddd9e7ff",
+      "references": [
+        10550792
+      ],
+      "status": "translated",
+      "expected": "Espécies",
+      "pt_bytes": 9,
+      "pixels": [
+        44
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4edaa",
+      "live_offset": "0xa4edaa",
+      "corpus_en": "Items",
+      "comparison_fr": "Objets",
+      "source_hex": "c3e8d9e1e7ff",
+      "references": [
+        10932920
+      ],
+      "status": "translated",
+      "expected": "Itens",
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4edb0",
+      "live_offset": "0xa4edb0",
+      "corpus_en": "Abilities",
+      "comparison_fr": "Talents",
+      "source_hex": "bbd6dde0dde8ddd9e7ff",
+      "references": [
+        10932916
+      ],
+      "status": "translated",
+      "expected": "Habilidades",
+      "pt_bytes": 12,
+      "pixels": [
+        60
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4edba",
+      "live_offset": "0xa4edba",
+      "corpus_en": "Moves",
+      "comparison_fr": "Capacités",
+      "source_hex": "c7e3ead9e7ff",
+      "references": [
+        10932924
+      ],
+      "status": "translated",
+      "expected": "Movimentos",
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4eddd",
+      "live_offset": "0xa4eddd",
+      "corpus_en": "Battle Mine ",
+      "comparison_fr": "Mine de Combat",
+      "source_hex": "bcd5e8e8e0d900c7dde2d900ff",
+      "references": [
+        10550816
+      ],
+      "status": "retained",
+      "expected": "Battle Mine<0x00>",
+      "pt_bytes": 13,
+      "pixels": [
+        60
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4edea",
+      "live_offset": "0xa4edea",
+      "corpus_en": "Ring Challenge",
+      "comparison_fr": "Défi du Ring",
+      "source_hex": "ccdde2db00bddcd5e0e0d9e2dbd9ff",
+      "references": [
+        10550772
+      ],
+      "status": "retained",
+      "expected": "Ring Challenge",
+      "pt_bytes": 15,
+      "pixels": [
+        78
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4edf9",
+      "live_offset": "0xa4edf9",
+      "corpus_en": "<0xF8><0x0A>Scroll <0xF8>ÀClose",
+      "comparison_fr": "{DPAD_UPDOWN}Défiler {B_BUTTON}Fermer",
+      "source_hex": "f80acdd7e6e3e0e000f801bde0e3e7d9ff",
+      "references": [
+        10550744
+      ],
+      "status": "translated",
+      "expected": "<0xF8><0x0A>Rolar <0xF8><0x01>Fechar",
+      "pt_bytes": 17,
+      "pixels": [
+        69
+      ],
+      "max_width": 204,
+      "reason": "Traduction PT-BR ; pointeurs directs audités, finalisation après les passes génériques."
+    },
+    {
+      "offset": "0xa4ee0a",
+      "live_offset": "0xa4ee0c",
+      "corpus_en": "F<0x46>Breakneck Blitz",
+      "comparison_fr": "Blitz F-Breakneck",
+      "source_hex": "bce6d9d5dfe2d9d7df00bce0dde8eeff",
+      "references": [
+        10101516,
+        10101520
+      ],
+      "status": "retained",
+      "expected": "Breakneck Blitz",
+      "pt_bytes": 16,
+      "pixels": [
+        82
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ee1c",
+      "live_offset": "0xa4ee1c",
+      "corpus_en": "All Out Pummeling",
+      "comparison_fr": "Combo Hyper-Furie",
+      "source_hex": "bbe0e000c9e9e800cae9e1e1d9e0dde2dbff",
+      "references": [
+        10101524,
+        10101528
+      ],
+      "status": "retained",
+      "expected": "All Out Pummeling",
+      "pt_bytes": 18,
+      "pixels": [
+        95
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ee2e",
+      "live_offset": "0xa4ee2e",
+      "corpus_en": "Supersonic Skystrike",
+      "comparison_fr": "Piqué Supersonique",
+      "source_hex": "cde9e4d9e6e7e3e2ddd700cddfede7e8e6dddfd9ff",
+      "references": [
+        10101532,
+        10101536
+      ],
+      "status": "retained",
+      "expected": "Supersonic Skystrike",
+      "pt_bytes": 21,
+      "pixels": [
+        108
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ee43",
+      "live_offset": "0xa4ee43",
+      "corpus_en": "Acid Downpour",
+      "comparison_fr": "Déluge Causti-Toxique",
+      "source_hex": "bbd7ddd800bee3ebe2e4e3e9e6ff",
+      "references": [
+        10101540,
+        10101544
+      ],
+      "status": "retained",
+      "expected": "Acid Downpour",
+      "pt_bytes": 14,
+      "pixels": [
+        74
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ee51",
+      "live_offset": "0xa4ee51",
+      "corpus_en": "Tectonic Rage",
+      "comparison_fr": "Éruption Géo-Sismique",
+      "source_hex": "ced9d7e8e3e2ddd700ccd5dbd9ff",
+      "references": [
+        10101548,
+        10101552
+      ],
+      "status": "retained",
+      "expected": "Tectonic Rage",
+      "pt_bytes": 14,
+      "pixels": [
+        74
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ee5f",
+      "live_offset": "0xa4ee5f",
+      "corpus_en": "Continental Crush",
+      "comparison_fr": "Apocalypse Gigalithique",
+      "source_hex": "bde3e2e8dde2d9e2e8d5e000bde6e9e7dcff",
+      "references": [
+        10101556,
+        10101560
+      ],
+      "status": "retained",
+      "expected": "Continental Crush",
+      "pt_bytes": 18,
+      "pixels": [
+        92
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ee71",
+      "live_offset": "0xa4ee71",
+      "corpus_en": "Savage Spin Out",
+      "comparison_fr": "Cocon Fatal",
+      "source_hex": "cdd5ead5dbd900cde4dde200c9e9e8ff",
+      "references": [
+        10101564,
+        10101568
+      ],
+      "status": "retained",
+      "expected": "Savage Spin Out",
+      "pt_bytes": 16,
+      "pixels": [
+        86
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ee81",
+      "live_offset": "0xa4ee81",
+      "corpus_en": "Never Ending Nightmare",
+      "comparison_fr": "Appel des Ombres Éternelles",
+      "source_hex": "c8d9ead9e600bfe2d8dde2db00c8dddbdce8e1d5e6d9ff",
+      "references": [
+        10101572,
+        10101576
+      ],
+      "status": "retained",
+      "expected": "Never Ending Nightmare",
+      "pt_bytes": 23,
+      "pixels": [
+        123
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ee98",
+      "live_offset": "0xa4ee98",
+      "corpus_en": "Corkscrew Crash",
+      "comparison_fr": "Vrille Maximum",
+      "source_hex": "bde3e6dfe7d7e6d9eb00bde6d5e7dcff",
+      "references": [
+        10101580,
+        10101584
+      ],
+      "status": "retained",
+      "expected": "Corkscrew Crash",
+      "pt_bytes": 16,
+      "pixels": [
+        84
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4eea8",
+      "live_offset": "0xa4eea8",
+      "corpus_en": "Inferno Overdrive",
+      "comparison_fr": "Pyro-Explosion Cataclysmique",
+      "source_hex": "c3e2dad9e6e2e300c9ead9e6d8e6ddead9ff",
+      "references": [
+        10101588,
+        10101592
+      ],
+      "status": "retained",
+      "expected": "Inferno Overdrive",
+      "pt_bytes": 18,
+      "pixels": [
+        94
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4eeba",
+      "live_offset": "0xa4eeba",
+      "corpus_en": "Hydro Vortex",
+      "comparison_fr": "Super Tourbillon Abyssal",
+      "source_hex": "c2edd8e6e300d0e3e6e8d9ecff",
+      "references": [
+        10101596,
+        10101600
+      ],
+      "status": "retained",
+      "expected": "Hydro Vortex",
+      "pt_bytes": 13,
+      "pixels": [
+        69
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4eec7",
+      "live_offset": "0xa4eec7",
+      "corpus_en": "Bloom Doom",
+      "comparison_fr": "Pétalexplosion Éblouissante",
+      "source_hex": "bce0e3e3e100bee3e3e1ff",
+      "references": [
+        10101604,
+        10101608
+      ],
+      "status": "retained",
+      "expected": "Bloom Doom",
+      "pt_bytes": 11,
+      "pixels": [
+        59
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4eed2",
+      "live_offset": "0xa4eed2",
+      "corpus_en": "Gigavolt Havoc",
+      "comparison_fr": "Fulguro-Lance Gigavolt",
+      "source_hex": "c1dddbd5eae3e0e800c2d5eae3d7ff",
+      "references": [
+        10101612,
+        10101616
+      ],
+      "status": "retained",
+      "expected": "Gigavolt Havoc",
+      "pt_bytes": 15,
+      "pixels": [
+        80
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4eee1",
+      "live_offset": "0xa4eee1",
+      "corpus_en": "Shattered Psyche",
+      "comparison_fr": "Psycho-Pulvérisation EX",
+      "source_hex": "cddcd5e8e8d9e6d9d800cae7edd7dcd9ff",
+      "references": [
+        10101620,
+        10101624
+      ],
+      "status": "retained",
+      "expected": "Shattered Psyche",
+      "pt_bytes": 17,
+      "pixels": [
+        92
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4eef2",
+      "live_offset": "0xa4eef2",
+      "corpus_en": "Subzero Slammer",
+      "comparison_fr": "Laser Cryogénique",
+      "source_hex": "cde9d6eed9e6e300cde0d5e1e1d9e6ff",
+      "references": [
+        10101628,
+        10101632
+      ],
+      "status": "retained",
+      "expected": "Subzero Slammer",
+      "pt_bytes": 16,
+      "pixels": [
+        87
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef02",
+      "live_offset": "0xa4ef02",
+      "corpus_en": "Devastating Drake",
+      "comparison_fr": "Chaos Draconique",
+      "source_hex": "bed9ead5e7e8d5e8dde2db00bee6d5dfd9ff",
+      "references": [
+        10101636,
+        10101640
+      ],
+      "status": "retained",
+      "expected": "Devastating Drake",
+      "pt_bytes": 18,
+      "pixels": [
+        94
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef14",
+      "live_offset": "0xa4ef14",
+      "corpus_en": "Black Hole Eclipse",
+      "comparison_fr": "Trou Noir des Ombres",
+      "source_hex": "bce0d5d7df00c2e3e0d900bfd7e0dde4e7d9ff",
+      "references": [
+        10101644,
+        10101648
+      ],
+      "status": "retained",
+      "expected": "Black Hole Eclipse",
+      "pt_bytes": 19,
+      "pixels": [
+        101
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef27",
+      "live_offset": "0xa4ef27",
+      "corpus_en": "Twinkle Tackle",
+      "comparison_fr": "Impact Choupinova",
+      "source_hex": "ceebdde2dfe0d900ced5d7dfe0d9ff",
+      "references": [
+        10101652,
+        10101656
+      ],
+      "status": "retained",
+      "expected": "Twinkle Tackle",
+      "pt_bytes": 15,
+      "pixels": [
+        77
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef36",
+      "live_offset": "0xa4ef36",
+      "corpus_en": "Catastropika",
+      "comparison_fr": "Pikachute Foudroyante",
+      "source_hex": "bdd5e8d5e7e8e6e3e4dddfd5ff",
+      "references": [
+        10101660
+      ],
+      "status": "retained",
+      "expected": "Catastropika",
+      "pt_bytes": 13,
+      "pixels": [
+        65
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef43",
+      "live_offset": "0xa4ef43",
+      "corpus_en": "10000000 Volt Thunderbolt",
+      "comparison_fr": "Giga-Tonnerre",
+      "source_hex": "a2a1a1a1a1a1a1a100d0e3e0e800cedce9e2d8d9e6d6e3e0e8ff",
+      "references": [
+        10101664
+      ],
+      "status": "retained",
+      "expected": "10000000 Volt Thunderbolt",
+      "pt_bytes": 26,
+      "pixels": [
+        144
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef5d",
+      "live_offset": "0xa4ef5d",
+      "corpus_en": "Stoked Sparksurfer",
+      "comparison_fr": "Électro-Surf Survolté",
+      "source_hex": "cde8e3dfd9d800cde4d5e6dfe7e9e6dad9e6ff",
+      "references": [
+        10101668
+      ],
+      "status": "retained",
+      "expected": "Stoked Sparksurfer",
+      "pt_bytes": 19,
+      "pixels": [
+        100
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef70",
+      "live_offset": "0xa4ef70",
+      "corpus_en": "Extreme Evoboost",
+      "comparison_fr": "Neuf pour Un",
+      "source_hex": "bfece8e6d9e1d900bfeae3d6e3e3e7e8ff",
+      "references": [
+        10101672
+      ],
+      "status": "retained",
+      "expected": "Extreme Evoboost",
+      "pt_bytes": 17,
+      "pixels": [
+        92
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef81",
+      "live_offset": "0xa4ef81",
+      "corpus_en": "Pulverizing Pancake",
+      "comparison_fr": "Gare au Ronflex",
+      "source_hex": "cae9e0ead9e6ddeedde2db00cad5e2d7d5dfd9ff",
+      "references": [
+        10101676
+      ],
+      "status": "retained",
+      "expected": "Pulverizing Pancake",
+      "pt_bytes": 20,
+      "pixels": [
+        105
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4ef95",
+      "live_offset": "0xa4ef95",
+      "corpus_en": "Genesis Supernova",
+      "comparison_fr": "Supernova Originelle",
+      "source_hex": "c1d9e2d9e7dde700cde9e4d9e6e2e3ead5ff",
+      "references": [
+        10101680
+      ],
+      "status": "retained",
+      "expected": "Genesis Supernova",
+      "pt_bytes": 18,
+      "pixels": [
+        95
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4efa7",
+      "live_offset": "0xa4efa7",
+      "corpus_en": "Sinister Arrow Raid",
+      "comparison_fr": "Fureur des Plumes Spectrales",
+      "source_hex": "cddde2dde7e8d9e600bbe6e6e3eb00ccd5ddd8ff",
+      "references": [
+        10101684
+      ],
+      "status": "retained",
+      "expected": "Sinister Arrow Raid",
+      "pt_bytes": 20,
+      "pixels": [
+        102
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4efbb",
+      "live_offset": "0xa4efbb",
+      "corpus_en": "Malicious Moonsault",
+      "comparison_fr": "Dark Body Press",
+      "source_hex": "c7d5e0ddd7dde3e9e700c7e3e3e2e7d5e9e0e8ff",
+      "references": [
+        10101688
+      ],
+      "status": "retained",
+      "expected": "Malicious Moonsault",
+      "pt_bytes": 20,
+      "pixels": [
+        104
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4efcf",
+      "live_offset": "0xa4efcf",
+      "corpus_en": "Oceanic Operetta",
+      "comparison_fr": "Symphonie des Ondines",
+      "source_hex": "c9d7d9d5e2ddd700c9e4d9e6d9e8e8d5ff",
+      "references": [
+        10101692
+      ],
+      "status": "retained",
+      "expected": "Oceanic Operetta",
+      "pt_bytes": 17,
+      "pixels": [
+        90
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4efe0",
+      "live_offset": "0xa4efe0",
+      "corpus_en": "Splintered Stormshards",
+      "comparison_fr": "Hurlement des Roches-Lames",
+      "source_hex": "cde4e0dde2e8d9e6d9d800cde8e3e6e1e7dcd5e6d8e7ff",
+      "references": [
+        10101696
+      ],
+      "status": "retained",
+      "expected": "Splintered Stormshards",
+      "pt_bytes": 23,
+      "pixels": [
+        121
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4eff7",
+      "live_offset": "0xa4eff7",
+      "corpus_en": "Let's Snuggle Forever",
+      "comparison_fr": "Patati-Patattrape",
+      "source_hex": "c6d9e8b4e700cde2e9dbdbe0d900c0e3e6d9ead9e6ff",
+      "references": [
+        10101700
+      ],
+      "status": "retained",
+      "expected": "Let's Snuggle Forever",
+      "pt_bytes": 22,
+      "pixels": [
+        117
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4f00d",
+      "live_offset": "0xa4f00d",
+      "corpus_en": "Clangorous Soulblaze",
+      "comparison_fr": "Dracacophonie Flamboyante",
+      "source_hex": "bde0d5e2dbe3e6e3e9e700cde3e9e0d6e0d5eed9ff",
+      "references": [
+        10101704
+      ],
+      "status": "retained",
+      "expected": "Clangorous Soulblaze",
+      "pt_bytes": 21,
+      "pixels": [
+        114
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4f022",
+      "live_offset": "0xa4f022",
+      "corpus_en": "Guardian Of Alola",
+      "comparison_fr": "Colère du Gardien d'Alola",
+      "source_hex": "c1e9d5e6d8ddd5e200c9da00bbe0e3e0d5ff",
+      "references": [
+        10101708
+      ],
+      "status": "retained",
+      "expected": "Guardian Of Alola",
+      "pt_bytes": 18,
+      "pixels": [
+        95
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4f034",
+      "live_offset": "0xa4f034",
+      "corpus_en": "Searing Sunraze Smash",
+      "comparison_fr": "Hélio-Choc Dévastateur",
+      "source_hex": "cdd9d5e6dde2db00cde9e2e6d5eed900cde1d5e7dcff",
+      "references": [
+        10101712
+      ],
+      "status": "retained",
+      "expected": "Searing Sunraze Smash",
+      "pt_bytes": 22,
+      "pixels": [
+        119
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4f04a",
+      "live_offset": "0xa4f04a",
+      "corpus_en": "Menacing Moonraze Maelstrom",
+      "comparison_fr": "Rayons Séléno-Explosifs",
+      "source_hex": "c7d9e2d5d7dde2db00c7e3e3e2e6d5eed900c7d5d9e0e7e8e6e3e1ff",
+      "references": [
+        10101716
+      ],
+      "status": "retained",
+      "expected": "Menacing Moonraze Maelstrom",
+      "pt_bytes": 28,
+      "pixels": [
+        152
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4f066",
+      "live_offset": "0xa4f066",
+      "corpus_en": "Light That Burns The Sky",
+      "comparison_fr": "Apocalypsis Luminis",
+      "source_hex": "c6dddbdce800cedcd5e800bce9e6e2e700cedcd900cddfedff",
+      "references": [
+        10101720
+      ],
+      "status": "retained",
+      "expected": "Light That Burns The Sky",
+      "pt_bytes": 25,
+      "pixels": [
+        136
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa4f07f",
+      "live_offset": "0xa4f07f",
+      "corpus_en": "Soul Stealing 7 Star Strike",
+      "comparison_fr": "Fauche-Âme des Sept Étoiles",
+      "source_hex": "cde3e9e000cde8d9d5e0dde2db00a800cde8d5e600cde8e6dddfd9ff",
+      "references": [
+        10101724
+      ],
+      "status": "retained",
+      "expected": "Soul Stealing 7 Star Strike",
+      "pt_bytes": 28,
+      "pixels": [
+        149
+      ],
+      "max_width": 204,
+      "reason": "Nom propre/mouvement conservé selon F-759, ou libellé identique vérifié."
+    },
+    {
+      "offset": "0xa95c4d",
+      "live_offset": "0xa95c4d",
+      "corpus_en": "kÀsiig ",
+      "comparison_fr": "kÀsiig",
+      "source_hex": "df01e7dddddb00ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xabc343",
+      "live_offset": "0xabc343",
+      "corpus_en": "ïjiiiiii\njy\nnz",
+      "comparison_fr": "ïjiiiiii\njy\nnz",
+      "source_hex": "21deddddddddddddfedeedfee2eeff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xabcb23",
+      "live_offset": "0xabcb23",
+      "corpus_en": "zii<0xFD> ii<0xFD> ii<0xFD> iy",
+      "comparison_fr": "zii{UNKNOWN_STR}ii{UNKNOWN_STR}ii{UNKNOWN_STR}iy",
+      "source_hex": "eeddddfd00ddddfd00ddddfd00ddedff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xac9bec",
+      "live_offset": "0xac9bec",
+      "corpus_en": "ii<0xFD>iiikiiik<0xFD>iik<0xFD>iikiiiii",
+      "comparison_fr": "ii{STRING}iiikiiik{STRING}iik{STRING}iikiiiii",
+      "source_hex": "ddddfddddddddfdddddddffddddddffddddddfddddddddddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xac9c08",
+      "live_offset": "0xac9c08",
+      "corpus_en": "iiiii",
+      "comparison_fr": "iiiii",
+      "source_hex": "ddddddddddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xac9c14",
+      "live_offset": "0xac9c14",
+      "corpus_en": "i<0xFD>kii<0xFD>ki",
+      "comparison_fr": "i{STRING}kii{STRING}ki",
+      "source_hex": "ddfddfddddfddfddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xac9c29",
+      "live_offset": "0xac9c29",
+      "corpus_en": "iiiikiii<0xFD>iik<0xFD>iik<0xFD>iii<0xFD>iiii<0xFD>iiii",
+      "comparison_fr": "iiiikiii{STRING}iik{STRING}iik{STRING}iii{STRING}iiii{STRING}iiii",
+      "source_hex": "dddddddddfddddddfddddddffddddddffdddddddfdddddddddfdddddddddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xac9c48",
+      "live_offset": "0xac9c48",
+      "corpus_en": "iiiiViii                i",
+      "comparison_fr": "iiiiViii                i",
+      "source_hex": "ddddddddd0dddddd00000000000000000000000000000000ddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xac9c63",
+      "live_offset": "0xac9c63",
+      "corpus_en": "iiiii",
+      "comparison_fr": "iiiii",
+      "source_hex": "ddddddddddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xac9c6c",
+      "live_offset": "0xac9c6c",
+      "corpus_en": "iiii                ikii",
+      "comparison_fr": "iiii                ikii",
+      "source_hex": "dddddddd00000000000000000000000000000000dddfddddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad23c0",
+      "live_offset": "0xad23c0",
+      "corpus_en": "AQAÔ9/Ô 99/ 999Q999P99/AAAAAAAAA",
+      "comparison_fr": "AQAÔ9/Ô 99/ 999Q999P99/AAAAAAAAA",
+      "source_hex": "bbcbbb0faaba0f00aaaaba00aaaaaacbaaaaaacaaaaababbbbbbbbbbbbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad23e1",
+      "live_offset": "0xad23e1",
+      "corpus_en": "AAAEAA<0xFB>EAA<0xFB>EAA<0xFB>BAA<0xFB>QQB<0xFB>ABA<0xFB>AQB<0xFB>AAQ<0xFB>                                                                                                   E   :   :   :   :   :   :   :AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAÔAQAÔAQAÔAQAÔAQAÔAQAÔAQAÔAQA<0xFB> UAA  ",
+      "comparison_fr": "AAAEAA<0xFB>EAA<0xFB>EAA<0xFB>BAA<0xFB>QQB<0xFB>ABA<0xFB>AQB<0xFB>AAQ<0xFB>                                                                                                   E   :   :   :   :   :   :   :AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAÔAQAÔAQAÔAQAÔAQAÔAQAÔAQAÔAQA<0xFB> UAA  ",
+      "source_hex": "bbbbbbbfbbbbfbbfbbbbfbbfbbbbfbbcbbbbfbcbcbbcfbbbbcbbfbbbcbbcfbbbbbcbfb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bf000000f0000000f0000000f0000000f0000000f0000000f0000000f0bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbbb0fbbcbbb0fbbcbbb0fbbcbbb0fbbcbbb0fbbcbbb0fbbcbbb0fbbcbbbfb00cfbbbb0000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad24cb",
+      "live_offset": "0xad24cb",
+      "corpus_en": "A   E   :                AAA<0xFB>AAA",
+      "comparison_fr": "A   E   :                AAA<0xFB>AAA",
+      "source_hex": "bb000000bf000000f000000000000000000000000000000000bbbbbbfbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad2b6f",
+      "live_offset": "0xad2b6f",
+      "corpus_en": "<0xFB> :B<0xFB> :AA EAA:BAAEAAA!999999999999999!999?999?999B!9999BA99BA99AA99BA99BA99PA99PAAAAB9999A99AAAAAAA!9AAAAAAAAAQ",
+      "comparison_fr": "<0xFB> :B<0xFB> :AA EAA:BAAEAAA!999999999999999!999?999?999B!9999BA99BA99AA99BA99BA99PA99PAAAAB9999A99AAAAAAA!9AAAAAAAAAQ",
+      "source_hex": "fb00f0bcfb00f0bbbb00bfbbbbf0bcbbbbbfbbbbbbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaacaaaaaaacaaaaaabcabaaaaaaaabcbbaaaabcbbaaaabbbbaaaabcbbaaaabcbbaaaacabbaaaacabbbbbbbbbcaaaaaaaabbaaaabbbbbbbbbbbbbbabaabbbbbbbbbbbbbbbbbbcbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad2be0",
+      "live_offset": "0xad2be0",
+      "corpus_en": "Q<0xFC>  PRR<0xFB>A!9R999A9AAAAAAAAAAA",
+      "comparison_fr": "Q{NAME_END} PRR<0xFB>A!9R999A9AAAAAAAAAAA",
+      "source_hex": "cbfc0000caccccfbbbabaaccaaaaaabbaabbbbbbbbbbbbbbbbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad2d69",
+      "live_offset": "0xad2d69",
+      "corpus_en": "EA  EA  :A  :A  :A  :A  :A  :AAAAQAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAÔ AA",
+      "comparison_fr": "EA  EA  :A  :A  :A  :A  :A  :AAAAQAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAÔ AA",
+      "source_hex": "0000000000000000000000000000000000000000000000000000000000bfbb0000bfbb0000f0bb0000f0bb0000f0bb0000f0bb0000f0bb0000f0bbbbbbbbcbbbbbbbcbbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0f00bbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad3145",
+      "live_offset": "0xad3145",
+      "corpus_en": "AÔ  A<0xFB>  A<0xFB>  AAÔ AAÔ AA<0xFB> AA<0xFB>                                   :",
+      "comparison_fr": "AÔ  A<0xFB>  A<0xFB>  AAÔ AAÔ AA<0xFB> AA<0xFB>                                   :",
+      "source_hex": "000000bb0f0000bbfb0000bbfb0000bbbb0f00bbbb0f00bbbbfb00bbbbfb0000000000000000000000000000000000000000000000000000000000000000000000f0ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad3289",
+      "live_offset": "0xad3289",
+      "corpus_en": "R!9AA!9AA99AA99AQ99AQ99AQ99UB<0xFB>E9/A<0xFB>9999999999999999999/9999AAÔ ",
+      "comparison_fr": "R!9AA!9AA99AA99AQ99AQ99AQ99UB<0xFB>E9/A<0xFB>9999999999999999999/9999AAÔ ",
+      "source_hex": "ccabaabbbbabaabbbbaaaabbbbaaaabbcbaaaabbcbaaaabbcbaaaacfbcfbbfaababbfbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaabbbb0f00ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad3354",
+      "live_offset": "0xad3354",
+      "corpus_en": "AAAAAA",
+      "comparison_fr": "AAAAAA",
+      "source_hex": "00000000000000000000000000000000bbbbbbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad336e",
+      "live_offset": "0xad336e",
+      "corpus_en": "Ô                   AQ99AA99",
+      "comparison_fr": "Ô                   AQ99AA99",
+      "source_hex": "00000f00000000000000000000000000000000000000bbcbaaaabbbbaaaaff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad34db",
+      "live_offset": "0xad34db",
+      "corpus_en": "QAÔ QR",
+      "comparison_fr": "QAÔ QR",
+      "source_hex": "00cbbb0f00cbccff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad3522",
+      "live_offset": "0xad3522",
+      "corpus_en": "Ô                                                                                                  :AA EAA EAA EAA:AAA:AAA://A<0xAF>9!!<0xFB>AQA<0xFB>AQAAEBAA<0xFB>EAAQ<0xFB>",
+      "comparison_fr": "Ô                                                                                                  :AA EAA EAA EAA:AAA:AAA://A·9!!<0xFB>AQA<0xFB>AQAAEBAA<0xFB>EAAQ<0xFB>",
+      "source_hex": "0f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0bbbb00bfbbbb00bfbbbb00bfbbbbf0bbbbbbf0bbbbbbf0bababbafaaababfbbbcbbbfbbbcbbbbbbfbcbbbbfbbfbbbbcbfbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad39c1",
+      "live_offset": "0xad39c1",
+      "corpus_en": "/AAAAAAAAA<0xFB>",
+      "comparison_fr": "/AAAAAAAAA<0xFB>",
+      "source_hex": "000000babbbbbbbbbbbbbbbbbbfbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad3b92",
+      "live_offset": "0xad3b92",
+      "corpus_en": "9Ô  9Ô  /Ô  <0xFA>                                                                                                                                     EA  EA :AQ :AA EQR <0xAF>?9 <0xAF>99 <0xAF>99AAE?AAEBB",
+      "comparison_fr": "9Ô  9Ô  /Ô  <0xFA>                                                                                                                                     EA  EA :AQ :AA EQR ·?9 ·99 ·99AAE?AAEBB",
+      "source_hex": "0000aa0f0000aa0f0000ba0f0000fa00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bfbb0000bfbb00f0bbcb00f0bbbb00bfcbcc00afacaa00afaaaa00afaaaabbbbbfacbbbbbfbcbcff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad44c5",
+      "live_offset": "0xad44c5",
+      "corpus_en": "A99 EA9 :AA  EA  :A  :A   E   EPÏ  9PÏ 99PÏA9",
+      "comparison_fr": "A99 EA9 :AA  EA  :A  :A   E   EPÏ  9PÏ 99PÏA9",
+      "source_hex": "bbaaaa00bfbbaa00f0bbbb0000bfbb0000f0bb0000f0bb000000bf000000bfca0c0000aaca0c00aaaaca0cbbaaff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad745b",
+      "live_offset": "0xad745b",
+      "corpus_en": "jiyÉziiÉziiÉ",
+      "comparison_fr": "jiyÉziiÉziiÉ",
+      "source_hex": "00dedded06eedddd06eedddd06ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xad7c5b",
+      "live_offset": "0xad7c5b",
+      "corpus_en": "jiyÉziiÉziiÉ",
+      "comparison_fr": "jiyÉziiÉziiÉ",
+      "source_hex": "00dedded06eedddd06eedddd06ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadb90f",
+      "live_offset": "0xadb90f",
+      "corpus_en": "RAAA",
+      "comparison_fr": "RAAA",
+      "source_hex": "ccbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadb914",
+      "live_offset": "0xadb914",
+      "corpus_en": "AAAAAAAA9/AA",
+      "comparison_fr": "AAAAAAAA9/AA",
+      "source_hex": "bbbbbbbbbbbbbbbbaababbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadc227",
+      "live_offset": "0xadc227",
+      "corpus_en": "AAAA",
+      "comparison_fr": "AAAA",
+      "source_hex": "bbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadc3fa",
+      "live_offset": "0xadc3fa",
+      "corpus_en": "Ô EA<0xFB> AA<0xFB>    :   :   :   ",
+      "comparison_fr": "Ô EA<0xFB> AA<0xFB>    :   :   :",
+      "source_hex": "0f00bfbbfb00bbbbfb00000000f0000000f0000000f0000000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadc957",
+      "live_offset": "0xadc957",
+      "corpus_en": "AAAA",
+      "comparison_fr": "AAAA",
+      "source_hex": "bbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadd11a",
+      "live_offset": "0xadd11a",
+      "corpus_en": "EAAA<0xFB>",
+      "comparison_fr": "EAAA<0xFB>",
+      "source_hex": "bfbbbbbbfbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadd2ed",
+      "live_offset": "0xadd2ed",
+      "corpus_en": ".jii.ii<0xFA>",
+      "comparison_fr": ".jii.ii<0xFA>",
+      "source_hex": "addeddddadddddfaff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadda07",
+      "live_offset": "0xadda07",
+      "corpus_en": "RAAA",
+      "comparison_fr": "RAAA",
+      "source_hex": "ccbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadda0c",
+      "live_offset": "0xadda0c",
+      "corpus_en": "AAAAAAAA9/AA",
+      "comparison_fr": "AAAAAAAA9/AA",
+      "source_hex": "bbbbbbbbbbbbbbbbaababbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaddb1c",
+      "live_offset": "0xaddb1c",
+      "corpus_en": "iiii",
+      "comparison_fr": "iiii",
+      "source_hex": "ddddddddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xade137",
+      "live_offset": "0xade137",
+      "corpus_en": "RAAA",
+      "comparison_fr": "RAAA",
+      "source_hex": "ccbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xade13c",
+      "live_offset": "0xade13c",
+      "corpus_en": "AAAAAAAA9/AA",
+      "comparison_fr": "AAAAAAAA9/AA",
+      "source_hex": "bbbbbbbbbbbbbbbbaababbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadea4f",
+      "live_offset": "0xadea4f",
+      "corpus_en": "AAAA",
+      "comparison_fr": "AAAA",
+      "source_hex": "bbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadec22",
+      "live_offset": "0xadec22",
+      "corpus_en": "Ô EA<0xFB> AA<0xFB>    :   :   :   ",
+      "comparison_fr": "Ô EA<0xFB> AA<0xFB>    :   :   :   ",
+      "source_hex": "0f00bfbbfb00bbbbfb00000000f0000000f0000000f0000000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadf17f",
+      "live_offset": "0xadf17f",
+      "corpus_en": "AAAA",
+      "comparison_fr": "AAAA",
+      "source_hex": "bbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadf942",
+      "live_offset": "0xadf942",
+      "corpus_en": "EAAA<0xFB>",
+      "comparison_fr": "EAAA<0xFB>",
+      "source_hex": "bfbbbbbbfbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xadfb15",
+      "live_offset": "0xadfb15",
+      "corpus_en": ".jii.ii<0xFA>",
+      "comparison_fr": ".jii.ii<0xFA>",
+      "source_hex": "addeddddadddddfaff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae022f",
+      "live_offset": "0xae022f",
+      "corpus_en": "RAAA",
+      "comparison_fr": "RAAA",
+      "source_hex": "ccbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae0234",
+      "live_offset": "0xae0234",
+      "corpus_en": "AAAAAAAA9/AA",
+      "comparison_fr": "AAAAAAAA9/AA",
+      "source_hex": "bbbbbbbbbbbbbbbbaababbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae0344",
+      "live_offset": "0xae0344",
+      "corpus_en": "iiii",
+      "comparison_fr": "iiii",
+      "source_hex": "ddddddddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae5efc",
+      "live_offset": "0xae5efc",
+      "corpus_en": "A999AAAA",
+      "comparison_fr": "A999AAAA",
+      "source_hex": "bbaaaaaabbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae7ed8",
+      "live_offset": "0xae7ed8",
+      "corpus_en": "A9/ÔA!/ÔA!<0xFA> 99999999A999AAAA",
+      "comparison_fr": "A9/ÔA!/ÔA!<0xFA> 99999999A999AAAA",
+      "source_hex": "bbaaba0fbbabba0fbbabfa00aaaaaaaaaaaaaaaabbaaaaaabbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae8214",
+      "live_offset": "0xae8214",
+      "corpus_en": "RRRR",
+      "comparison_fr": "RRRR",
+      "source_hex": "ccccccccff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae8a3c",
+      "live_offset": "0xae8a3c",
+      "corpus_en": "BAAARRRR",
+      "comparison_fr": "BAAARRRR",
+      "source_hex": "bcbbbbbbccccccccff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae8f1a",
+      "live_offset": "0xae8f1a",
+      "corpus_en": "zzuk",
+      "comparison_fr": "zzuk",
+      "source_hex": "eeeee9dfff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xae98f3",
+      "live_offset": "0xae98f3",
+      "corpus_en": "ÔAAA<0xFB>AAAABAAARAAARBAARBAA        ",
+      "comparison_fr": "ÔAAA<0xFB>AAAABAAARAAARBAARBAA",
+      "source_hex": "0fbbbbbbfbbbbbbbbbbcbbbbbbccbbbbbbccbcbbbbccbcbbbb0000000000000000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaea1ff",
+      "live_offset": "0xaea1ff",
+      "corpus_en": "RAAA",
+      "comparison_fr": "RAAA",
+      "source_hex": "ccbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaea204",
+      "live_offset": "0xaea204",
+      "corpus_en": "AAAAAAAA9/AA",
+      "comparison_fr": "AAAAAAAA9/AA",
+      "source_hex": "bbbbbbbbbbbbbbbbaababbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaeab17",
+      "live_offset": "0xaeab17",
+      "corpus_en": "AAAA",
+      "comparison_fr": "AAAA",
+      "source_hex": "bbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaeacea",
+      "live_offset": "0xaeacea",
+      "corpus_en": "Ô EA<0xFB> AA<0xFB>    :   :   :   ",
+      "comparison_fr": "Ô EA<0xFB> AA<0xFB>    :   :   :",
+      "source_hex": "0f00bfbbfb00bbbbfb00000000f0000000f0000000f0000000ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaeb247",
+      "live_offset": "0xaeb247",
+      "corpus_en": "AAAA",
+      "comparison_fr": "AAAA",
+      "source_hex": "bbbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaeba0a",
+      "live_offset": "0xaeba0a",
+      "corpus_en": "EAAA<0xFB>",
+      "comparison_fr": "EAAA<0xFB>",
+      "source_hex": "bfbbbbbbfbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaebbdd",
+      "live_offset": "0xaebbdd",
+      "corpus_en": ".jii.ii<0xFA>",
+      "comparison_fr": ".jii.ii<0xFA>",
+      "source_hex": "addeddddadddddfaff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaec2f7",
+      "live_offset": "0xaec2f7",
+      "corpus_en": "RAAA",
+      "comparison_fr": "RAAA",
+      "source_hex": "ccbbbbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaec2fc",
+      "live_offset": "0xaec2fc",
+      "corpus_en": "AAAAAAAA9/AA",
+      "comparison_fr": "AAAAAAAA9/AA",
+      "source_hex": "bbbbbbbbbbbbbbbbaababbbbff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaec40c",
+      "live_offset": "0xaec40c",
+      "corpus_en": "iiii",
+      "comparison_fr": "iiii",
+      "source_hex": "ddddddddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaecf5f",
+      "live_offset": "0xaecf5f",
+      "corpus_en": "EAÔ AAE ",
+      "comparison_fr": "EAÔ AAE ",
+      "source_hex": "00bfbb0f00bbbbbf00ff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaf2f4b",
+      "live_offset": "0xaf2f4b",
+      "corpus_en": "zzzz\n",
+      "comparison_fr": "zzzz\n",
+      "source_hex": "eeeeeeeefeff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    },
+    {
+      "offset": "0xaf36d2",
+      "live_offset": "0xaf36d2",
+      "corpus_en": "i<0xFD>  iiÔ ki",
+      "comparison_fr": "i{UNKNOWN_STR} iiÔ ki",
+      "source_hex": "0000ddfd0000dddd0f00dfddff",
+      "references": [],
+      "status": "exception",
+      "reason": "Extraction binaire sans texte linguistique ni pointeur direct ; aucun consommateur texte établi, aucune écriture."
+    }
+  ]
+}

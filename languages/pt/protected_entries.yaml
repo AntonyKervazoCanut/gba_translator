@@ -31684,3 +31684,639 @@ entries:
   - offset: "0xa4d7fc"
     name: "PT-46 0xa4d7fc"
     expected: '<0xFD><0x01> usou <0xFD><0x04>.'
+  - offset: "0xa4d80a"
+    name: "PT-47 0xa4d80a"
+    expected: 'O efeito do repelente acabou!'
+  - offset: "0xa4d82b"
+    name: "PT-47 0xa4d82b"
+    expected: '<0xFD><0x01> achou\n<0xFD><0x02> <0xFD><0x03>!'
+  - offset: "0xa4d83b"
+    name: "PT-47 0xa4d83b"
+    expected: 'Obteve <0xFD><0x02> <0xFD><0x03>!'
+  - offset: "0xa4d84b"
+    name: "PT-47 0xa4d84b"
+    expected: 'Obteve <0xFD><0x03>!\nContém <0xFD><0x02>.'
+  - offset: "0xa4d894"
+    name: "PT-47 0xa4d894"
+    expected: 'Usar qual item?'
+  - offset: "0xa4d8a4"
+    name: "PT-47 0xa4d8a4"
+    expected: '<0xFD><0x01> correu ao curandeiro\nmais próximo, protegendo os\nPokémon exaustos e desmaiados<0xB0><0xFB>'
+  - offset: "0xa4d908"
+    name: "PT-47 0xa4d908"
+    expected: 'A parede é muito rochosa<0xB0>\nQuer usar <0xFD><0x03>?'
+  - offset: "0xa4d93a"
+    name: "PT-47 0xa4d93a"
+    expected: 'A parede é muito rochosa<0xB0>\nQuer usar o ADM?'
+  - offset: "0xa4d971"
+    name: "PT-47 0xa4d971"
+    expected: 'A parede é muito rochosa<0xB0>\nQuer escalá-la?'
+  - offset: "0xa4d9a5"
+    name: "PT-47 0xa4d9a5"
+    expected: 'A parede é muito rochosa<0xB0>\nUm movimento poderia escalá-la?'
+  - offset: "0xa4d9dd"
+    name: "PT-47 0xa4d9dd"
+    expected: '<0xFD><0x02> dissipou a neblina!'
+  - offset: "0xa4d9f3"
+    name: "PT-47 0xa4d9f3"
+    expected: 'É uma grande cachoeira.\nQuer usar o ADM?'
+  - offset: "0xa4da2a"
+    name: "PT-47 0xa4da2a"
+    expected: 'É uma grande cachoeira.\nQuer escalá-la?'
+  - offset: "0xa4da5e"
+    name: "PT-47 0xa4da5e"
+    expected: 'A água tem um azul profundo<0xB0>'
+  - offset: "0xa4da7d"
+    name: "PT-47 0xa4da7d"
+    expected: 'A água é marrom e turva<0xB0>'
+  - offset: "0xa4da99"
+    name: "PT-47 0xa4da99"
+    expected: 'A água é marrom e turva<0xB0>\nQuer usar Surf?'
+  - offset: "0xa4dacd"
+    name: "PT-47 0xa4dacd"
+    expected: 'A água tem um azul profundo<0xB0>\nQuer usar o ADM?'
+  - offset: "0xa4db0b"
+    name: "PT-47 0xa4db0b"
+    expected: 'A água é marrom e turva<0xB0>\nQuer usar o ADM?'
+  - offset: "0xa4db46"
+    name: "PT-47 0xa4db46"
+    expected: 'O ADM se prendeu a <0xFD><0x02>\ncomo um flutuador!'
+  - offset: "0xa4db73"
+    name: "PT-47 0xa4db73"
+    expected: 'Um flutuador se prendeu a\n<0xFD><0x02>!'
+  - offset: "0xa4db95"
+    name: "PT-47 0xa4db95"
+    expected: 'O magma brilha em vermelho vivo<0xB0>\nQuer surfar nele?'
+  - offset: "0xa4dbd5"
+    name: "PT-47 0xa4dbd5"
+    expected: '<0xFD><0x02> começou a surfar\nno magma!'
+  - offset: "0xa4dbf6"
+    name: "PT-47 0xa4dbf6"
+    expected: 'O magma brilha em vermelho vivo<0xB0>'
+  - offset: "0xa4dc18"
+    name: "PT-47 0xa4dc18"
+    expected: 'O mar é profundo aqui.\nQuer usar <0xFD><0x03>?'
+  - offset: "0xa4dc48"
+    name: "PT-47 0xa4dc48"
+    expected: 'O mar é profundo aqui.\nQuer usar o ADM?'
+  - offset: "0xa4dc7d"
+    name: "PT-47 0xa4dc7d"
+    expected: 'O ADM permitiu que você\nmergulhasse!'
+  - offset: "0xa4dca3"
+    name: "PT-47 0xa4dca3"
+    expected: 'A luz vem lá de cima.\nQuer usar <0xFD><0x03>?'
+  - offset: "0xa4dce1"
+    name: "PT-47 0xa4dce1"
+    expected: 'A luz vem lá de cima.\nQuer usar o ADM?'
+  - offset: "0xa4dd24"
+    name: "PT-47 0xa4dd24"
+    expected: 'O ADM permitiu que você emergisse!'
+  - offset: "0xa4dd46"
+    name: "PT-47 0xa4dd46"
+    expected: 'O mar é profundo aqui. Um Pokémon\ntalvez consiga mergulhar.'
+  - offset: "0xa4dd84"
+    name: "PT-47 0xa4dd84"
+    expected: 'A luz vem lá de cima.\nUm Pokémon talvez consiga emergir.'
+  - offset: "0xa4ddca"
+    name: "PT-47 0xa4ddca"
+    expected: 'Atenção, Treinadores!<0xFB>Um enxame de <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x02> apareceu\nperto de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x02>!<0xFB>É uma rara chance de capturar\num <0xFD><0x03>, então<0xFA>não perca esta oportunidade!<0xFB><0xB0><0xFB>Mensagem patrocinada por\nCube Corp.'
+  - offset: "0xa4de91"
+    name: "PT-47 0xa4de91"
+    expected: 'A porta está trancada.'
+  - offset: "0xa4dea5"
+    name: "PT-47 0xa4dea5"
+    expected: 'Parece haver uma barreira\npsíquica no caminho.'
+  - offset: "0xa4dee2"
+    name: "PT-47 0xa4dee2"
+    expected: 'Não dá para alcançar a escada\ndaqui!'
+  - offset: "0xa4df08"
+    name: "PT-47 0xa4df08"
+    expected: 'Olhe!\nVocê achou uma trilha estreita.<0xFB>Quer segui-la?'
+  - offset: "0xa4df3e"
+    name: "PT-47 0xa4df3e"
+    expected: 'A trilha não levava a lugar algum.'
+  - offset: "0xa4df5c"
+    name: "PT-47 0xa4df5c"
+    expected: 'É uma árvore de porte médio.\nQuer usar Headbutt?'
+  - offset: "0xa4df9a"
+    name: "PT-47 0xa4df9a"
+    expected: 'Uma árvore imponente que parece\npoder receber um Headbutt!'
+  - offset: "0xa4dfda"
+    name: "PT-47 0xa4dfda"
+    expected: 'A parede está um pouco saliente.\nTentar cavar nela?'
+  - offset: "0xa4e00d"
+    name: "PT-47 0xa4e00d"
+    expected: '<0xFD><0x02> <0xFD><0x04>,\nFica em ¥<0xFD><0x03>. Tudo bem?'
+  - offset: "0xa4e02c"
+    name: "PT-47 0xa4e02c"
+    expected: 'Você já tem essa TM.<0xFC><0x09>'
+  - offset: "0xa4e047"
+    name: "PT-47 0xa4e047"
+    expected: 'Como ordenar os\nitens deste bolso?'
+  - offset: "0xa4e065"
+    name: "PT-47 0xa4e065"
+    expected: 'Tipo'
+  - offset: "0xa4e06a"
+    name: "PT-47 0xa4e06a"
+    expected: 'Nome'
+  - offset: "0xa4e06f"
+    name: "PT-47 0xa4e06f"
+    expected: 'Mais'
+  - offset: "0xa4e074"
+    name: "PT-47 0xa4e074"
+    expected: 'Menos'
+  - offset: "0xa4e07a"
+    name: "PT-47 0xa4e07a"
+    expected: 'Quant.'
+  - offset: "0xa4e081"
+    name: "PT-47 0xa4e081"
+    expected: 'nome'
+  - offset: "0xa4e086"
+    name: "PT-47 0xa4e086"
+    expected: 'tipo'
+  - offset: "0xa4e08b"
+    name: "PT-47 0xa4e08b"
+    expected: 'mais'
+  - offset: "0xa4e090"
+    name: "PT-47 0xa4e090"
+    expected: 'menos'
+  - offset: "0xa4e096"
+    name: "PT-47 0xa4e096"
+    expected: 'quantidade'
+  - offset: "0xa4e09d"
+    name: "PT-47 0xa4e09d"
+    expected: 'Ordenar itens por\n<0xFD><0x02>?'
+  - offset: "0xa4e0af"
+    name: "PT-47 0xa4e0af"
+    expected: 'Itens ordenados por\n<0xFD><0x02>!'
+  - offset: "0xa4e0c3"
+    name: "PT-47 0xa4e0c3"
+    expected: 'Só um Pokémon\npode entrar.<0xFC><0x09>'
+  - offset: "0xa4e0e9"
+    name: "PT-47 0xa4e0e9"
+    expected: 'Só quatro Pokémon\npodem entrar.<0xFC><0x09>'
+  - offset: "0xa4e110"
+    name: "PT-47 0xa4e110"
+    expected: 'Só cinco Pokémon\npodem entrar.<0xFC><0x09>'
+  - offset: "0xa4e137"
+    name: "PT-47 0xa4e137"
+    expected: 'PRIMEIRO'
+  - offset: "0xa4e13d"
+    name: "PT-47 0xa4e13d"
+    expected: 'SEGUNDO'
+  - offset: "0xa4e144"
+    name: "PT-47 0xa4e144"
+    expected: 'TERCEIRO'
+  - offset: "0xa4e14a"
+    name: "PT-47 0xa4e14a"
+    expected: 'QUARTO'
+  - offset: "0xa4e151"
+    name: "PT-47 0xa4e151"
+    expected: 'QUINTO'
+  - offset: "0xa4e157"
+    name: "PT-47 0xa4e157"
+    expected: 'SEXTO'
+  - offset: "0xa4e15d"
+    name: "PT-47 0xa4e15d"
+    expected: 'São necessários <0xFD><0x02> Pokémon.'
+  - offset: "0xa4e174"
+    name: "PT-47 0xa4e174"
+    expected: 'Digite um número'
+  - offset: "0xa4e183"
+    name: "PT-47 0xa4e183"
+    expected: 'Digite uma frase'
+  - offset: "0xa4e192"
+    name: "PT-47 0xa4e192"
+    expected: 'Digite a senha'
+  - offset: "0xa4e1a1"
+    name: "PT-47 0xa4e1a1"
+    expected: 'Digite a espécie'
+  - offset: "0xa4e1b1"
+    name: "PT-47 0xa4e1b1"
+    expected: 'Comprado'
+  - offset: "0xa4e1bb"
+    name: "PT-47 0xa4e1bb"
+    expected: 'Pare de dar zoom!'
+  - offset: "0xa4e1f1"
+    name: "PT-47 0xa4e1f1"
+    expected: 'Mover'
+  - offset: "0xa4e1f6"
+    name: "PT-47 0xa4e1f6"
+    expected: 'Mover para onde?'
+  - offset: "0xa4e205"
+    name: "PT-47 0xa4e205"
+    expected: 'Escala penhascos rochosos.'
+  - offset: "0xa4e219"
+    name: "PT-47 0xa4e219"
+    expected: 'Dissipa a neblina.'
+  - offset: "0xa4e22f"
+    name: "PT-47 0xa4e22f"
+    expected: 'Mergulha na água.'
+  - offset: "0xa4e240"
+    name: "PT-47 0xa4e240"
+    expected: '<0xFD><0x02> ficou mais amigável.\nMas a base de <0xFD><0x03> caiu!<0xFC><0x09>'
+  - offset: "0xa4e276"
+    name: "PT-47 0xa4e276"
+    expected: '<0xFD><0x02> adora você!\nA base de <0xFD><0x03> caiu!<0xFC><0x09>'
+  - offset: "0xa4e299"
+    name: "PT-47 0xa4e299"
+    expected: '<0xFD><0x02> ficou mais amigável.\nBase de <0xFD><0x03>: mínima.<0xFC><0x09>'
+  - offset: "0xa4e2d0"
+    name: "PT-47 0xa4e2d0"
+    expected: '<0xFD><0x02> mudou de forma!<0xFC><0x09>'
+  - offset: "0xa4e2e4"
+    name: "PT-47 0xa4e2e4"
+    expected: 'Fundir com qual Pokémon?<0xFC><0x09>'
+  - offset: "0xa4e2ff"
+    name: "PT-47 0xa4e2ff"
+    expected: 'Você já tem <0xFD><0x02>\nfundido com <0xFD><0x03>.<0xFC><0x09>'
+  - offset: "0xa4e328"
+    name: "PT-47 0xa4e328"
+    expected: 'Não há espaço para\nseparar os Pokémon.<0xFC><0x09>'
+  - offset: "0xa4e354"
+    name: "PT-47 0xa4e354"
+    expected: 'Não pode ser fundido\ncom esse Pokémon.<0xFC><0x09>'
+  - offset: "0xa4e37c"
+    name: "PT-47 0xa4e37c"
+    expected: 'Mudar a Habilidade de <0xFD><0x02>\npara <0xFD><0x03>?'
+  - offset: "0xa4e397"
+    name: "PT-47 0xa4e397"
+    expected: 'A Habilidade de <0xFD><0x02>\nmudou para <0xFD><0x03>.<0xFC><0x09>'
+  - offset: "0xa4e3be"
+    name: "PT-47 0xa4e3be"
+    expected: 'Dar o fator Gigantamax a\n<0xFD><0x02>?'
+  - offset: "0xa4e3e0"
+    name: "PT-47 0xa4e3e0"
+    expected: 'Remover o fator Gigantamax de\n<0xFD><0x02>?'
+  - offset: "0xa4e406"
+    name: "PT-47 0xa4e406"
+    expected: '<0xFD><0x02> agora pode\nusar Gigantamax!<0xFC><0x09>'
+  - offset: "0xa4e41f"
+    name: "PT-47 0xa4e41f"
+    expected: '<0xFD><0x02> não pode mais\nusar Gigantamax.<0xFC><0x09>'
+  - offset: "0xa4e43e"
+    name: "PT-47 0xa4e43e"
+    expected: 'Nível recomendado:<0x00>'
+  - offset: "0xa4e452"
+    name: "PT-47 0xa4e452"
+    expected: '<0xF8><0x0A>Sel. <0xF8><0x00>Escolher <0xF8><0x04>Acaso <0xF8><0x01>Voltar'
+  - offset: "0xa4e474"
+    name: "PT-47 0xa4e474"
+    expected: 'A batalha acaba se:\n4 Pokémon desmaiarem\n10 turnos passarem'
+  - offset: "0xa4e4a2"
+    name: "PT-47 0xa4e4a2"
+    expected: 'Parceiros disponíveis'
+  - offset: "0xa4e4b5"
+    name: "PT-47 0xa4e4b5"
+    expected: 'DexNav'
+  - offset: "0xa4e4bf"
+    name: "PT-47 0xa4e4bf"
+    expected: 'Missões'
+  - offset: "0xa4e4cb"
+    name: "PT-47 0xa4e4cb"
+    expected: 'Trajes'
+  - offset: "0xa4e4d7"
+    name: "PT-47 0xa4e4d7"
+    expected: 'Lista Pokémon'
+  - offset: "0xa4e4e4"
+    name: "PT-47 0xa4e4e4"
+    expected: 'Cube V3'
+  - offset: "0xa4e4ec"
+    name: "PT-47 0xa4e4ec"
+    expected: 'Salvar jogo'
+  - offset: "0xa4e4f6"
+    name: "PT-47 0xa4e4f6"
+    expected: 'Configurações'
+  - offset: "0xa4e574"
+    name: "PT-47 0xa4e574"
+    expected: 'Hora do Dynamax!<0xFB><0x00>'
+  - offset: "0xa4e587"
+    name: "PT-47 0xa4e587"
+    expected: 'Agora vou liberar o poder\ndo Dynamax!<0xFB><0x00>'
+  - offset: "0xa4e5b8"
+    name: "PT-47 0xa4e5b8"
+    expected: 'Uaaaaau<0xB0>\nFoi intenso<0xB0><0xFB><0x00>'
+  - offset: "0xa4e5d6"
+    name: "PT-47 0xa4e5d6"
+    expected: 'Então<0xB0> você É tudo que\neu esperava<0xB0><0xFB><0x00>'
+  - offset: "0xa4e602"
+    name: "PT-47 0xa4e602"
+    expected: 'Quem tem talento de verdade\nfaz a própria sorte!<0xFB><0x00>'
+  - offset: "0xa4e62c"
+    name: "PT-47 0xa4e62c"
+    expected: 'Certo! Hora de lutar tão bem\nquanto nossa aparência!<0xFB><0x00>'
+  - offset: "0xa4e664"
+    name: "PT-47 0xa4e664"
+    expected: 'Ha ha ha ha!\nAinda não acabou!<0xFB><0x00>'
+  - offset: "0xa4e686"
+    name: "PT-47 0xa4e686"
+    expected: 'Nem pensar<0xB0> NEM PENSAR!\nEnquanto eu for o chefão, não!<0xFB><0x00>'
+  - offset: "0xa4e6ba"
+    name: "PT-47 0xa4e6ba"
+    expected: 'Não está bom, mas só acaba\nquando termina!<0xFB><0x00>'
+  - offset: "0xa4e6f4"
+    name: "PT-47 0xa4e6f4"
+    expected: 'Nosso tempo é curto, <0xFD><0x06><0xB0>\nVamos aproveitar ao máximo!<0xFB><0x00>'
+  - offset: "0xa4e72e"
+    name: "PT-47 0xa4e72e"
+    expected: 'O povo-toupeira nunca desiste!\nSinta nossa ira, ser da superfície!<0xFB><0x00>'
+  - offset: "0xa4e770"
+    name: "PT-47 0xa4e770"
+    expected: 'Ótimo. Só resta um.\nTudo que eu sempre quis<0xB0><0xFB><0x00>'
+  - offset: "0xa4e79e"
+    name: "PT-47 0xa4e79e"
+    expected: 'Ah!\nMas ainda não acabamos de lutar!<0xFB><0x00>'
+  - offset: "0xa4e7c5"
+    name: "PT-47 0xa4e7c5"
+    expected: 'GRUUUUUAR!<0xFB><0x00>'
+  - offset: "0xa4e7d2"
+    name: "PT-47 0xa4e7d2"
+    expected: 'Vamos lá!\nAinda podemos vencer!<0xFB><0x00>'
+  - offset: "0xa4e801"
+    name: "PT-47 0xa4e801"
+    expected: 'Impossível<0xB0><0xFB><0x00>'
+  - offset: "0xa4e80f"
+    name: "PT-47 0xa4e80f"
+    expected: 'Não! Você não vai tirar<0xB0>\nmais nada de mim!<0xFB><0x00>'
+  - offset: "0xa4e83c"
+    name: "PT-47 0xa4e83c"
+    expected: 'Só resta um Pokémon<0xB0><0xFB>Agora vou mostrar\ncomo se luta de verdade!<0xFB>'
+  - offset: "0xa4e887"
+    name: "PT-47 0xa4e887"
+    expected: 'Este é seu teste final!\nO último obstáculo! Concentre-se!<0xFB><0x00>'
+  - offset: "0xa4e8c2"
+    name: "PT-47 0xa4e8c2"
+    expected: 'Impossível!<0xFB>Você<0xB0> não pode fazer isso comigo!<0xFB><0x00>'
+  - offset: "0xa4e8ef"
+    name: "PT-47 0xa4e8ef"
+    expected: '<0xFD><0x23><0xB0> <0xFD><0x23>!\nSó você ousaria<0xB0>!<0xFB><0x00>'
+  - offset: "0xa4e90f"
+    name: "PT-47 0xa4e90f"
+    expected: 'Não!\nEste não pode ser meu destino!<0xFB><0x00>'
+  - offset: "0xa4e930"
+    name: "PT-47 0xa4e930"
+    expected: 'O poder dos Hidden Grottos!\nEstá sob meu comando!<0xFB><0x00>'
+  - offset: "0xa4e969"
+    name: "PT-47 0xa4e969"
+    expected: 'Argh<0xB0> deve haver um jeito\nde virar esse jogo!'
+  - offset: "0xa4e9a2"
+    name: "PT-47 0xa4e9a2"
+    expected: 'Nada acaba até meu último\nPokémon cair de vez!'
+  - offset: "0xa4e9e3"
+    name: "PT-47 0xa4e9e3"
+    expected: 'Essa sensação<0xB0> então é assim\nque é se sentir encurralado<0xB0>'
+  - offset: "0xa4ea1d"
+    name: "PT-47 0xa4ea1d"
+    expected: 'Você sempre consegue reunir\ntanta força<0xB0> é incrível<0xB0>'
+  - offset: "0xa4ea61"
+    name: "PT-47 0xa4ea61"
+    expected: 'É agora! A verdadeira batalha\ncomeça aqui, <0xFD><0x23>!'
+  - offset: "0xa4ea97"
+    name: "PT-47 0xa4ea97"
+    expected: 'Ainda não! Vou mostrar\ndo que somos capazes!'
+  - offset: "0xa4ead4"
+    name: "PT-47 0xa4ead4"
+    expected: 'Normal'
+  - offset: "0xa4eadb"
+    name: "PT-47 0xa4eadb"
+    expected: 'Lutad.'
+  - offset: "0xa4eae2"
+    name: "PT-47 0xa4eae2"
+    expected: 'Voador'
+  - offset: "0xa4eae9"
+    name: "PT-47 0xa4eae9"
+    expected: 'Venen.'
+  - offset: "0xa4eaf0"
+    name: "PT-47 0xa4eaf0"
+    expected: 'Terr.'
+  - offset: "0xa4eaf7"
+    name: "PT-47 0xa4eaf7"
+    expected: 'Pedra'
+  - offset: "0xa4eafe"
+    name: "PT-47 0xa4eafe"
+    expected: 'Inseto'
+  - offset: "0xa4eb05"
+    name: "PT-47 0xa4eb05"
+    expected: 'Fant.'
+  - offset: "0xa4eb0c"
+    name: "PT-47 0xa4eb0c"
+    expected: 'Aço'
+  - offset: "0xa4eb1a"
+    name: "PT-47 0xa4eb1a"
+    expected: 'Fogo'
+  - offset: "0xa4eb21"
+    name: "PT-47 0xa4eb21"
+    expected: 'Água'
+  - offset: "0xa4eb28"
+    name: "PT-47 0xa4eb28"
+    expected: 'Planta'
+  - offset: "0xa4eb2f"
+    name: "PT-47 0xa4eb2f"
+    expected: 'Elétr.'
+  - offset: "0xa4eb36"
+    name: "PT-47 0xa4eb36"
+    expected: 'Psíq.'
+  - offset: "0xa4eb3d"
+    name: "PT-47 0xa4eb3d"
+    expected: 'Gelo'
+  - offset: "0xa4eb44"
+    name: "PT-47 0xa4eb44"
+    expected: 'Dragão'
+  - offset: "0xa4eb4b"
+    name: "PT-47 0xa4eb4b"
+    expected: 'Sombr.'
+  - offset: "0xa4eb52"
+    name: "PT-47 0xa4eb52"
+    expected: '-'
+  - offset: "0xa4eb59"
+    name: "PT-47 0xa4eb59"
+    expected: '-'
+  - offset: "0xa4eb60"
+    name: "PT-47 0xa4eb60"
+    expected: '-'
+  - offset: "0xa4eb67"
+    name: "PT-47 0xa4eb67"
+    expected: '-'
+  - offset: "0xa4eb6e"
+    name: "PT-47 0xa4eb6e"
+    expected: '-'
+  - offset: "0xa4eb75"
+    name: "PT-47 0xa4eb75"
+    expected: 'Fada'
+  - offset: "0xa4eb7c"
+    name: "PT-47 0xa4eb7c"
+    expected: 'Sua gravação é incompatível com\na versão atual de Unbound.<0xFB>Entre no Hall of Fame numa versão\nanterior à 2.0 antes de continuar.<0xFB>Se quiser continuar mesmo assim<0xB0><0xFB><0xB0>sua gravação atual será\napagada.'
+  - offset: "0xa4eced"
+    name: "PT-47 0xa4eced"
+    expected: 'Limitado<0x00>'
+  - offset: "0xa4ecf5"
+    name: "PT-47 0xa4ecf5"
+    expected: 'Sandbox<0x00>'
+  - offset: "0xa4ecfe"
+    name: "PT-47 0xa4ecfe"
+    expected: 'Real<0x00>'
+  - offset: "0xa4ed04"
+    name: "PT-47 0xa4ed04"
+    expected: 'Vanilla'
+  - offset: "0xa4ed0c"
+    name: "PT-47 0xa4ed0c"
+    expected: 'Difícil'
+  - offset: "0xa4ed28"
+    name: "PT-47 0xa4ed28"
+    expected: 'Expert'
+  - offset: "0xa4ed2f"
+    name: "PT-47 0xa4ed2f"
+    expected: 'Insano'
+  - offset: "0xa4ed36"
+    name: "PT-47 0xa4ed36"
+    expected: '<0x00>Dificuldade'
+  - offset: "0xa4ed4a"
+    name: "PT-47 0xa4ed4a"
+    expected: '<0x00>Scalemons'
+  - offset: "0xa4ed55"
+    name: "PT-47 0xa4ed55"
+    expected: '<0x00>Pós-jogo'
+  - offset: "0xa4ed69"
+    name: "PT-47 0xa4ed69"
+    expected: '<0x00>+Trocas'
+  - offset: "0xa4ed72"
+    name: "PT-47 0xa4ed72"
+    expected: 'Espécies'
+  - offset: "0xa4ed7a"
+    name: "PT-47 0xa4ed7a"
+    expected: 'Movimentos'
+  - offset: "0xa4ed82"
+    name: "PT-47 0xa4ed82"
+    expected: 'Habilidade'
+  - offset: "0xa4ed8a"
+    name: "PT-47 0xa4ed8a"
+    expected: '<0x00>Randomizer'
+  - offset: "0xa4ed96"
+    name: "PT-47 0xa4ed96"
+    expected: 'Novo jogo<0x00>'
+  - offset: "0xa4eda2"
+    name: "PT-47 0xa4eda2"
+    expected: 'Espécies'
+  - offset: "0xa4edaa"
+    name: "PT-47 0xa4edaa"
+    expected: 'Itens'
+  - offset: "0xa4edb0"
+    name: "PT-47 0xa4edb0"
+    expected: 'Habilidades'
+  - offset: "0xa4edba"
+    name: "PT-47 0xa4edba"
+    expected: 'Movimentos'
+  - offset: "0xa4eddd"
+    name: "PT-47 0xa4eddd"
+    expected: 'Battle Mine<0x00>'
+  - offset: "0xa4edea"
+    name: "PT-47 0xa4edea"
+    expected: 'Ring Challenge'
+  - offset: "0xa4edf9"
+    name: "PT-47 0xa4edf9"
+    expected: '<0xF8><0x0A>Rolar <0xF8><0x01>Fechar'
+  - offset: "0xa4ee0a"
+    name: "PT-47 0xa4ee0a"
+    expected: 'Breakneck Blitz'
+  - offset: "0xa4ee1c"
+    name: "PT-47 0xa4ee1c"
+    expected: 'All Out Pummeling'
+  - offset: "0xa4ee2e"
+    name: "PT-47 0xa4ee2e"
+    expected: 'Supersonic Skystrike'
+  - offset: "0xa4ee43"
+    name: "PT-47 0xa4ee43"
+    expected: 'Acid Downpour'
+  - offset: "0xa4ee51"
+    name: "PT-47 0xa4ee51"
+    expected: 'Tectonic Rage'
+  - offset: "0xa4ee5f"
+    name: "PT-47 0xa4ee5f"
+    expected: 'Continental Crush'
+  - offset: "0xa4ee71"
+    name: "PT-47 0xa4ee71"
+    expected: 'Savage Spin Out'
+  - offset: "0xa4ee81"
+    name: "PT-47 0xa4ee81"
+    expected: 'Never Ending Nightmare'
+  - offset: "0xa4ee98"
+    name: "PT-47 0xa4ee98"
+    expected: 'Corkscrew Crash'
+  - offset: "0xa4eea8"
+    name: "PT-47 0xa4eea8"
+    expected: 'Inferno Overdrive'
+  - offset: "0xa4eeba"
+    name: "PT-47 0xa4eeba"
+    expected: 'Hydro Vortex'
+  - offset: "0xa4eec7"
+    name: "PT-47 0xa4eec7"
+    expected: 'Bloom Doom'
+  - offset: "0xa4eed2"
+    name: "PT-47 0xa4eed2"
+    expected: 'Gigavolt Havoc'
+  - offset: "0xa4eee1"
+    name: "PT-47 0xa4eee1"
+    expected: 'Shattered Psyche'
+  - offset: "0xa4eef2"
+    name: "PT-47 0xa4eef2"
+    expected: 'Subzero Slammer'
+  - offset: "0xa4ef02"
+    name: "PT-47 0xa4ef02"
+    expected: 'Devastating Drake'
+  - offset: "0xa4ef14"
+    name: "PT-47 0xa4ef14"
+    expected: 'Black Hole Eclipse'
+  - offset: "0xa4ef27"
+    name: "PT-47 0xa4ef27"
+    expected: 'Twinkle Tackle'
+  - offset: "0xa4ef36"
+    name: "PT-47 0xa4ef36"
+    expected: 'Catastropika'
+  - offset: "0xa4ef43"
+    name: "PT-47 0xa4ef43"
+    expected: '10000000 Volt Thunderbolt'
+  - offset: "0xa4ef5d"
+    name: "PT-47 0xa4ef5d"
+    expected: 'Stoked Sparksurfer'
+  - offset: "0xa4ef70"
+    name: "PT-47 0xa4ef70"
+    expected: 'Extreme Evoboost'
+  - offset: "0xa4ef81"
+    name: "PT-47 0xa4ef81"
+    expected: 'Pulverizing Pancake'
+  - offset: "0xa4ef95"
+    name: "PT-47 0xa4ef95"
+    expected: 'Genesis Supernova'
+  - offset: "0xa4efa7"
+    name: "PT-47 0xa4efa7"
+    expected: 'Sinister Arrow Raid'
+  - offset: "0xa4efbb"
+    name: "PT-47 0xa4efbb"
+    expected: 'Malicious Moonsault'
+  - offset: "0xa4efcf"
+    name: "PT-47 0xa4efcf"
+    expected: 'Oceanic Operetta'
+  - offset: "0xa4efe0"
+    name: "PT-47 0xa4efe0"
+    expected: 'Splintered Stormshards'
+  - offset: "0xa4eff7"
+    name: "PT-47 0xa4eff7"
+    expected: 'Let''s Snuggle Forever'
+  - offset: "0xa4f00d"
+    name: "PT-47 0xa4f00d"
+    expected: 'Clangorous Soulblaze'
+  - offset: "0xa4f022"
+    name: "PT-47 0xa4f022"
+    expected: 'Guardian Of Alola'
+  - offset: "0xa4f034"
+    name: "PT-47 0xa4f034"
+    expected: 'Searing Sunraze Smash'
+  - offset: "0xa4f04a"
+    name: "PT-47 0xa4f04a"
+    expected: 'Menacing Moonraze Maelstrom'
+  - offset: "0xa4f066"
+    name: "PT-47 0xa4f066"
+    expected: 'Light That Burns The Sky'
+  - offset: "0xa4f07f"
+    name: "PT-47 0xa4f07f"
+    expected: 'Soul Stealing 7 Star Strike'
