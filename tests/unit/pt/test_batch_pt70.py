@@ -72,6 +72,8 @@ def test_finalizer_follows_repairs_and_only_changes_one_gender_setup():
     setups = [r for r in AUDIT['entries'] if 'buffer_setup' in r]
     assert [r['index'] for r in setups] == [238]
     assert setups[0]['buffer_setup']['replacement_hex'] == '046ae0e609'
+    assert setups[0]['buffer_setup']['call_offset'] == 0x1E8A91C
+    assert setups[0]['buffer_setup']['source_hex'] == '0441a1e809'
 
 
 def test_audio_matches_are_not_text_consumers():

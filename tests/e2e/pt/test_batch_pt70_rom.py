@@ -101,7 +101,15 @@ def test_gender_buffer_uses_existing_subjects_without_touching_other_dialogues(s
     site = setup['call_offset']
     assert source[site:site + 5].hex() == setup['source_hex']
     assert built[site:site + 5].hex() == setup['replacement_hex']
-    assert source[site + 5:row['references'][0] - 2] == built[site + 5:row['references'][0] - 2]
+    # PT-69 relocalise le nom voisin Grunt B : vérifier son lecteur vivant,
+    # sans interdire cette relocalisation légitime d'un autre lot.
+    assert source[site + 5:site + 7] == built[site + 5:site + 7] == b'\x0f\x00'
+    assert source[site + 11:row['references'][0] - 2] == built[site + 11:row['references'][0] - 2]
+    name_key = struct.unpack_from('<I', source, site + 7)[0] - 0x08000000
+    name_target = struct.unpack_from('<I', built, site + 7)[0] - 0x08000000
+    from src.core.text_codec import TextEncoder
+    expected_name = TextEncoder.encode_pokemon(entries()[name_key], strict=True)
+    assert built[name_target:name_target + len(expected_name)] == expected_name
     # checkgender : homme -> 0x7522ab, femme -> 0x7522be ; buffer 0 = FD02.
     expected_helper = bytes.fromhex('a0210d8000000701ab227508210d8001000701be22750803')
     assert source[0x1E6E06A:0x1E6E06A + len(expected_helper)] == expected_helper
