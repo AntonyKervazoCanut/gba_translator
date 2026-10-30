@@ -43051,3 +43051,891 @@ entries:
   - offset: "0x1ef779a"
     name: "PT-61 0x1ef779a"
     expected: 'Não há espaço para ele...<0xFB>Posso mandá-lo para o PC?\nA caixa atual é "<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>".'
+  - offset: "0x1ef77f7"
+    name: "PT-62 0x1ef77f7"
+    expected: 'Não há espaço para ele"<0xFB>Posso mandar os Ovos que guardo\npara o PC?<0xFB>Tenho <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>, e a Caixa\natual é a Caixa "<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>".'
+  - offset: "0x1ef788f"
+    name: "PT-62 0x1ef788f"
+    expected: 'Isso pode demorar um pouco.<0xFB>Por favor, aguarde com calma\npor alguns instantes.'
+  - offset: "0x1ef78d6"
+    name: "PT-62 0x1ef78d6"
+    expected: 'Pronto.<0xFB>Os Ovos restantes foram enviados\npara o PC.<0xFB>Cuide bem deles.'
+  - offset: "0x1ef7921"
+    name: "PT-62 0x1ef7921"
+    expected: 'Pronto.<0xFB>O Ovo restante foi enviado\npara o PC.<0xFB>Cuide bem dele.'
+  - offset: "0x1ef7968"
+    name: "PT-62 0x1ef7968"
+    expected: 'Pronto.<0xFB>A maioria dos Ovos restantes\nfoi enviada para o PC.<0xFB>Infelizmente, não havia espaço\npara depositar todos.<0xFB>Cuide bem dos que foram\ndepositados.'
+  - offset: "0x1ef7a08"
+    name: "PT-62 0x1ef7a08"
+    expected: 'Volte quando tiver espaço.'
+  - offset: "0x1ef7a29"
+    name: "PT-62 0x1ef7a29"
+    expected: 'Receio que o PC esteja cheio.<0xFB>Volte quando tiver espaço.'
+  - offset: "0x1ef7a65"
+    name: "PT-62 0x1ef7a65"
+    expected: 'Ah, é você! Que bom te ver.\nSeu <0xFD><0x02> está bem.'
+  - offset: "0x1ef7a9a"
+    name: "PT-62 0x1ef7a9a"
+    expected: 'Ah, é você! Seu <0xFD><0x02> e\n<0xFD><0x03> estão bem.'
+  - offset: "0x1ef7ac7"
+    name: "PT-62 0x1ef7ac7"
+    expected: 'Sou a senhora do Day-Care.<0xFB>Podemos criar Pokémon para você.<0xFB>Quer que criemos um?'
+  - offset: "0x1ef7b1c"
+    name: "PT-62 0x1ef7b1c"
+    expected: 'Qual Pokémon vamos criar\npara você?'
+  - offset: "0x1ef7b43"
+    name: "PT-62 0x1ef7b43"
+    expected: 'Vamos criar seu <0xFD><0x02>\npor um tempo.<0xFB>Volte para buscá-lo depois.'
+  - offset: "0x1ef7b82"
+    name: "PT-62 0x1ef7b82"
+    expected: 'Podemos criar dois Pokémon seus.<0xFB>Quer que criemos mais um\nPokémon para você?'
+  - offset: "0x1ef7bd9"
+    name: "PT-62 0x1ef7bd9"
+    expected: 'Meu marido estava te procurando.'
+  - offset: "0x1ef7bf9"
+    name: "PT-62 0x1ef7bf9"
+    expected: 'Ah, tudo bem, então.\nVolte sempre.'
+  - offset: "0x1ef7c15"
+    name: "PT-62 0x1ef7c15"
+    expected: 'Falta dinheiro"'
+  - offset: "0x1ef7c32"
+    name: "PT-62 0x1ef7c32"
+    expected: 'Vai levar o outro de volta\ntambém?'
+  - offset: "0x1ef7c59"
+    name: "PT-62 0x1ef7c59"
+    expected: 'Certo.\nVolte sempre.'
+  - offset: "0x1ef7c6b"
+    name: "PT-62 0x1ef7c6b"
+    expected: 'Volte sempre.'
+  - offset: "0x1ef7c77"
+    name: "PT-62 0x1ef7c77"
+    expected: 'Ah, é você!\nQue bom te ver.<0xFB>Seus Pokémon só podem estar\nmuito bem!'
+  - offset: "0x1ef7cbb"
+    name: "PT-62 0x1ef7cbb"
+    expected: 'Seu <0xFD><0x02> subiu\n<0xFD><0x03> níveis.'
+  - offset: "0x1ef7cde"
+    name: "PT-62 0x1ef7cde"
+    expected: 'Sua equipe Pokémon está cheia.\nAbra espaço e venha me ver.'
+  - offset: "0x1ef7d17"
+    name: "PT-62 0x1ef7d17"
+    expected: 'Para buscar seu <0xFD><0x02>,\nvai custar ¥<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>.'
+  - offset: "0x1ef7d49"
+    name: "PT-62 0x1ef7d49"
+    expected: 'Perfeito!\nAqui está seu Pokémon.'
+  - offset: "0x1ef7d67"
+    name: "PT-62 0x1ef7d67"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> retirou <0xFD><0x02>\ncom a senhora do Day-Care.'
+  - offset: "0x1ef7d92"
+    name: "PT-62 0x1ef7d92"
+    expected: 'Ah? Mas você só tem um\nPokémon.<0xFB>Volte outra hora.'
+  - offset: "0x1ef7dcd"
+    name: "PT-62 0x1ef7dcd"
+    expected: 'Vai levar seu Pokémon de volta?'
+  - offset: "0x1ef7dee"
+    name: "PT-62 0x1ef7dee"
+    expected: 'Se deixar esse Pokémon comigo,\ncom qual vai batalhar?<0xFB>Volte outra hora.'
+  - offset: "0x1ef7e3f"
+    name: "PT-62 0x1ef7e3f"
+    expected: 'Hiperosmia extrema'
+  - offset: "0x1ef7e52"
+    name: "PT-62 0x1ef7e52"
+    expected: 'Aromas doces! Mostre Pokémon\ndiferentes nascidos com\nitens Incense.'
+  - offset: "0x1ef7e99"
+    name: "PT-62 0x1ef7e99"
+    expected: 'Aromas doces! Mostre um\nMunchlax ao Criador Pokémon.'
+  - offset: "0x1ef7ed8"
+    name: "PT-62 0x1ef7ed8"
+    expected: 'Aromas doces! Mostre um\nWynaut ao Criador Pokémon.'
+  - offset: "0x1ef7f15"
+    name: "PT-62 0x1ef7f15"
+    expected: 'Aromas doces! Mostre um\nHappiny ao Criador Pokémon.'
+  - offset: "0x1ef7f53"
+    name: "PT-62 0x1ef7f53"
+    expected: 'Aromas doces! Mostre um\nMime Jr. ao Criador Pokémon.'
+  - offset: "0x1ef7f92"
+    name: "PT-62 0x1ef7f92"
+    expected: 'Aromas doces! Mostre um\nChingling ao Criador Pokémon.'
+  - offset: "0x1ef7fd2"
+    name: "PT-62 0x1ef7fd2"
+    expected: 'Aromas doces! Mostre um\nBonsly ao Criador Pokémon.'
+  - offset: "0x1ef800f"
+    name: "PT-62 0x1ef800f"
+    expected: 'Aromas doces! Mostre um\nBudew ao Criador Pokémon.'
+  - offset: "0x1ef804b"
+    name: "PT-62 0x1ef804b"
+    expected: 'Aromas doces! Mostre um\nAzurill ao Criador Pokémon.'
+  - offset: "0x1ef808a"
+    name: "PT-62 0x1ef808a"
+    expected: 'Aromas doces! Mostre um\nMantyke ao Criador Pokémon.'
+  - offset: "0x1ef80c8"
+    name: "PT-62 0x1ef80c8"
+    expected: 'Venho estudando a relação\nentre <0xFC><0x01><0x06>Incense<0xFC><0x01><0x08> e a criação<0xFA>de Pokémon.<0xFB>Vai devagar, mas seria mais\nrápido se alguém me ajudasse.<0xFB>Ei"<0xFB>Quer me ajudar na minha\npesquisa?'
+  - offset: "0x1ef818a"
+    name: "PT-62 0x1ef818a"
+    expected: 'Ai, ai"<0xFB>Acho que vou ter que procurar\noutra pessoa para me ajudar.'
+  - offset: "0x1ef81c9"
+    name: "PT-62 0x1ef81c9"
+    expected: 'Ótimo!<0xFB>Para começar, traga um\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>.<0xFB>Adicionei alguns dados de\n<0xFD><0x02> e <0xFD><0x03> à sua<0xFA>Pokédex para ajudar no início.'
+  - offset: "0x1ef8247"
+    name: "PT-62 0x1ef8247"
+    expected: 'Trouxe um <0xFC><0x01><0x06><0xFD><0x02>\n<0xFC><0x01><0x08>para eu estudar?<0xFB>×Fareja× ×Fareja×'
+  - offset: "0x1ef8280"
+    name: "PT-62 0x1ef8280"
+    expected: 'Parece que não.<0xFB>Ajude na minha pesquisa\ne traga um <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>!'
+  - offset: "0x1ef82d3"
+    name: "PT-62 0x1ef82d3"
+    expected: 'Hmm"<0xFB>Leve cheiro de <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08>"'
+  - offset: "0x1ef82f4"
+    name: "PT-62 0x1ef82f4"
+    expected: 'O aroma invadiu minhas\nnarinas!<0xFB>Por isso, pode ficar com este\n<0xFD><0x02>!'
+  - offset: "0x1ef8338"
+    name: "PT-62 0x1ef8338"
+    expected: 'Traga um <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> para eu\nestudar também!<0xFB>Adicionei alguns dados de\n<0xFD><0x02> e <0xFD><0x03> à sua<0xFA>Pokédex para ajudar a continuar.'
+  - offset: "0x1ef83b9"
+    name: "PT-62 0x1ef83b9"
+    expected: 'Somado aos outros aromas\nque você trouxe, este cheiro<0xFA>é arrebatador!<0xFB>Você conseguiu! Me ajudou a\nconcluir minha pesquisa!<0xFB>Você virou um verdadeiro\nmestre criador.<0xFB>Por favor, aceite este\nitem raro!'
+  - offset: "0x1ef84a1"
+    name: "PT-62 0x1ef84a1"
+    expected: 'Somado aos outros aromas\nque você trouxe, este cheiro<0xFA>é arrebatador!<0xFB>Você conseguiu! Me ajudou a\nconcluir minha pesquisa!<0xFB>Você virou um verdadeiro\nmestre criador.<0xFB>Por favor, aceite este Ovo\nPokémon de criação especial!'
+  - offset: "0x1ef859a"
+    name: "PT-62 0x1ef859a"
+    expected: 'Você recebeu um Ovo especial\ndo Criador Pokémon!'
+  - offset: "0x1ef85d6"
+    name: "PT-62 0x1ef85d6"
+    expected: 'Quer dizer, eu daria a você,\nmas antes precisa abrir espaço!'
+  - offset: "0x1ef861d"
+    name: "PT-62 0x1ef861d"
+    expected: 'Você ajudou muito na minha\npesquisa!<0xFB>Agora posso enfim ser o Criador\nque sempre quis ser.'
+  - offset: "0x1ef8689"
+    name: "PT-62 0x1ef8689"
+    expected: 'Na escola de Criadores\nPokémon, eu aprendi que<0xFA>a melhor forma de criar Pokémon<0xFA>carinhosos é levá-los a<0xFA>batalhas importantes.<0xFB>Parece um Treinador importante.\nMe ajuda a criar meus Pokémon?'
+  - offset: "0x1ef8766"
+    name: "PT-62 0x1ef8766"
+    expected: 'Vamos começar!'
+  - offset: "0x1ef8779"
+    name: "PT-62 0x1ef8779"
+    expected: 'Já sinto meus bebês ficando\nmais fortes!'
+  - offset: "0x1ef87a8"
+    name: "PT-62 0x1ef87a8"
+    expected: 'Obrigado por batalhar comigo!<0xFB>Volte amanhã para ajudar a\ntreinar meus bebês de novo!'
+  - offset: "0x1ef87fa"
+    name: "PT-62 0x1ef87fa"
+    expected: 'Estarei aqui se quiser\nme ajudar mais tarde!'
+  - offset: "0x1ef8835"
+    name: "PT-62 0x1ef8835"
+    expected: 'Às vezes, quando dois Pokémon,\nmacho e fêmea, se gostam muito,<0xFA>eles botam um Ovo!<0xFB>E o casal do Day-Care é gentil\ne guarda até <0xFC><0x01><0x06>100<0xFC><0x01><0x08> desses<0xFA>Ovos para você!<0xFB>Queria criar Pokémon tão\nbem quanto eles.'
+  - offset: "0x1ef8910"
+    name: "PT-62 0x1ef8910"
+    expected: 'O Clefairy no quintal foi\ncapturado por um Ranger de<0xFA>Crater Town.<0xFB>Mas onde ele o encontrou?<0xFB>Que eu lembre, não havia\nClefairy selvagens por aqui"<0xFB>Por isso ele parece tão triste"\nNão tem amigos!'
+  - offset: "0x1ef89fb"
+    name: "PT-62 0x1ef89fb"
+    expected: 'Havia um Clefairy no quintal,\ndeixado por um Ranger<0xFA>de Crater Town.<0xFB>Mas onde ele o encontrou?<0xFB>Que eu lembre, não havia\nClefairy selvagens por aqui"'
+  - offset: "0x1ef8ab7"
+    name: "PT-62 0x1ef8ab7"
+    expected: 'Há Treinadores horríveis que\ncriam, criam e criam Pokémon"<0xFA>E, quando acabam de criar,<0xFA>soltam todos os Pokémon<0xFA>que não querem!<0xFB>Que desprezível!<0xFB>Você não é um desses\nTreinadores, né?'
+  - offset: "0x1ef8b88"
+    name: "PT-62 0x1ef8b88"
+    expected: 'Argh, você de novo! Veio deixar\nmais Pokémon comigo?'
+  - offset: "0x1ef8bc4"
+    name: "PT-62 0x1ef8bc4"
+    expected: 'Argh! Você é?\nQue desprezível!<0xFB>"Bem, não posso impedir\nque solte esses Pokémon.<0xFA>Que tal deixá-los comigo<0xFA>em vez disso?'
+  - offset: "0x1ef8c46"
+    name: "PT-62 0x1ef8c46"
+    expected: 'Então, quer deixar todos os\nPokémon da Caixa "<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>"<0xFA>comigo, certo?'
+  - offset: "0x1ef8c8e"
+    name: "PT-62 0x1ef8c8e"
+    expected: 'Você nunca mais verá\nesses Pokémon.<0xFB>Tem CERTEZA ABSOLUTA de que quer\ndeixar todos os Pokémon da Caixa<0xFA>"<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>" comigo?'
+  - offset: "0x1ef8d0e"
+    name: "PT-62 0x1ef8d0e"
+    expected: 'Certo, seus Pokémon da Caixa\n"<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>" terão agora um<0xFA>lar cheio de carinho comigo.<0xFB>Você é desprezível. Espero que\nmude seu jeito de agir.'
+  - offset: "0x1ef8da6"
+    name: "PT-62 0x1ef8da6"
+    expected: 'Foi o que pensei.\nVocê não parece ser assim.'
+  - offset: "0x1ef8dd2"
+    name: "PT-62 0x1ef8dd2"
+    expected: 'Argh, que desprezível!'
+  - offset: "0x1ef8de7"
+    name: "PT-62 0x1ef8de7"
+    expected: 'Por sorte, você não tem Pokémon\nna Caixa "<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>".<0xFB>Não vou precisar resgatar seus\nPokémon desta vez.'
+  - offset: "0x1ef8e58"
+    name: "PT-62 0x1ef8e58"
+    expected: 'Já conhece movimentos de Ovo.<0xFB>São movimentos especiais\nque os Pokémon só aprendem<0xFA>ao nascer de outro Pokémon<0xFA>que conheça um deles.<0xFB>Mas escute.<0xFB>Minha técnica transfere\nmovimentos de Ovo de um Pokémon<0xFA>para outro!<0xFB>Desde que sejam da mesma\nfamília evolutiva, claro.<0xFB>Quer que eu passe movimentos\nde Ovo de um Pokémon<0xFA>para outro?<0xFB>Só vai custar ¥<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>.'
+  - offset: "0x1ef8fed"
+    name: "PT-62 0x1ef8fed"
+    expected: 'Quer passar movimentos de Ovo\nde um Pokémon para outro da<0xFA>mesma família evolutiva?<0xFB>Só vai custar ¥<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>.'
+  - offset: "0x1ef9068"
+    name: "PT-62 0x1ef9068"
+    expected: 'De qual Pokémon vai transferir\nos movimentos de Ovo?'
+  - offset: "0x1ef909f"
+    name: "PT-62 0x1ef909f"
+    expected: 'Vai transferir movimentos de Ovo\nde <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>?<0xFB>Escolha o Pokémon da família\n<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> que receberá<0xFA>os movimentos.'
+  - offset: "0x1ef9112"
+    name: "PT-62 0x1ef9112"
+    expected: 'Vai passar movimentos de Ovo\nde <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> para <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>.<0xFB>Os novos movimentos só devem\nocupar os espaços de <0xFD><0x03><0xFA>que estão livres, ou posso<0xFA>apagar os antigos se precisar?'
+  - offset: "0x1ef91c9"
+    name: "PT-62 0x1ef91c9"
+    expected: 'Transferência concluída!\n<0xFD><0x02> aprendeu movimentos.<0xFB>E isso vai custar ¥<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>!'
+  - offset: "0x1ef9219"
+    name: "PT-62 0x1ef9219"
+    expected: 'Para passar movimentos de Ovo,\nvenha me ver quando quiser!'
+  - offset: "0x1ef9251"
+    name: "PT-62 0x1ef9251"
+    expected: 'Você não tem dinheiro suficiente\npara minha técnica especial.'
+  - offset: "0x1ef9292"
+    name: "PT-62 0x1ef9292"
+    expected: 'Minha técnica é para movimentos\nde Ovo, não para Ovos.'
+  - offset: "0x1ef92c6"
+    name: "PT-62 0x1ef92c6"
+    expected: 'Parece que <0xFD><0x02> não\nsabe movimentos de Ovo.<0xFB>Só poderá transferi-los\ndepois de aprender algum.'
+  - offset: "0x1ef9331"
+    name: "PT-62 0x1ef9331"
+    expected: 'Opa, você já escolheu\nesse Pokémon.<0xFB>Pode escolher outro Pokémon\nda família de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>?'
+  - offset: "0x1ef939f"
+    name: "PT-62 0x1ef939f"
+    expected: '<0xFD><0x02> e <0xFD><0x03> não são\nda mesma família evolutiva.<0xFB>Só funciona com Pokémon\nda mesma linha evolutiva.<0xFB>Posso transferir movimentos\nentre Snorunt e Glalie, ou<0xFA>entre Glalie e Froslass.<0xFB>Mas não posso transferir de\nSnorunt para Vanillite, pois<0xFA>não têm evoluções em comum.'
+  - offset: "0x1ef94ce"
+    name: "PT-62 0x1ef94ce"
+    expected: 'Parece que <0xFD><0x03> não tem\nespaço para aprender<0xFA>novos movimentos.<0xFB>Se não quer que eu apague os\nmovimentos do início da lista,<0xFA>escolha quais apagar com o<0xFA><0xFC><0x01><0x06>Move Deleter<0xFC><0x01><0x08> em <0xFC><0x01><0x06>Epidimy Town<0xFC><0x01><0x08>.'
+  - offset: "0x1ef95a8"
+    name: "PT-62 0x1ef95a8"
+    expected: 'Opa, parece que <0xFD><0x02>\njá sabe os movimentos que<0xFA>iria aprender.<0xFB>Acho que não vou cobrar\nafinal!'
+  - offset: "0x1ef9618"
+    name: "PT-62 0x1ef9618"
+    expected: 'Ocupar espaços livres'
+  - offset: "0x1ef962d"
+    name: "PT-62 0x1ef962d"
+    expected: 'Apagar movimentos'
+  - offset: "0x1ef9640"
+    name: "PT-62 0x1ef9640"
+    expected: 'Dehara City'
+  - offset: "0x1ef964c"
+    name: "PT-62 0x1ef964c"
+    expected: 'Dehara City D'
+  - offset: "0x1ef965a"
+    name: "PT-62 0x1ef965a"
+    expected: 'Dehara City N'
+  - offset: "0x1ef9694"
+    name: "PT-62 0x1ef9694"
+    expected: 'Uau, <0xFD><0x02>!<0xFB>Se um Pokémon usar <0xFC><0x01><0x06>Surf<0xFC><0x01><0x08>,\npode pegar uma onda!<0xFB>Vi esse movimento em algum\nlugar na cidade, <0xFD><0x02>"'
+  - offset: "0x1ef9716"
+    name: "PT-62 0x1ef9716"
+    expected: 'Uau, <0xFD><0x02>!<0xFB>Se um Pokémon usar <0xFC><0x01><0x06>Surf<0xFC><0x01><0x08>,\npode pegar uma onda!<0xFB>Se um Pokémon de <0xFC><0x01><0x06>Fogo<0xFC><0x01><0x08> for\nao vulcão, pode surfar na <0xFC><0x01><0x06>lava<0xFC><0x01><0x08>!'
+  - offset: "0x1ef97ae"
+    name: "PT-62 0x1ef97ae"
+    expected: 'cara'
+  - offset: "0x1ef97b3"
+    name: "PT-62 0x1ef97b3"
+    expected: 'mana'
+  - offset: "0x1ef97bb"
+    name: "PT-62 0x1ef97bb"
+    expected: 'Cara'
+  - offset: "0x1ef97c0"
+    name: "PT-62 0x1ef97c0"
+    expected: 'Mana'
+  - offset: "0x1ef97c8"
+    name: "PT-62 0x1ef97c8"
+    expected: 'Não consigo parar de comprar!<0xFB>Há tanta variedade na\n<0xFC><0x01><0x06>Dehara Department Store<0xFC><0x01><0x04>!'
+  - offset: "0x1ef9822"
+    name: "PT-62 0x1ef9822"
+    expected: 'Meu trabalho é manter a cidade\ncomo um belo oásis na beira<0xFA>do deserto.<0xFB>Essas árvores não são nativas\ndaqui.<0xFB>Plantei cada uma delas\npessoalmente!'
+  - offset: "0x1ef98ca"
+    name: "PT-62 0x1ef98ca"
+    expected: 'Os livros dizem que o antigo\nrei de Borrius mandou erguer<0xFA>seu castelo bem aqui!<0xFB>Faz sentido, afinal seu túmulo\nfica perto, no Great Desert,<0xFA>não é mesmo?'
+  - offset: "0x1ef996a"
+    name: "PT-62 0x1ef996a"
+    expected: 'Hmm"<0xFB>Um parque na beira do deserto\né tão relaxante.<0xFB>Dehara City é um verdadeiro\nparaíso no oásis!'
+  - offset: "0x1ef99d3"
+    name: "PT-62 0x1ef99d3"
+    expected: 'Esta casa aqui é conhecida\ncomo <0xFC><0x01><0x06>Double Battle House<0xFC><0x01><0x08>.<0xFB>Como nas outras casas de treino,\npode enfrentar os Treinadores<0xFA>quantas vezes quiser.<0xFB>É um ótimo lugar para treinar\nseus Pokémon se você pretende<0xFA>desafiar o Ginásio.'
+  - offset: "0x1ef9ac9"
+    name: "PT-62 0x1ef9ac9"
+    expected: 'Esta caverna é a Rift Cave.<0xFB>Na minha pesquisa, vi que ela\né muito parecida com a<0xFA><0xFC><0x01><0x06>Turnback Cave<0xFC><0x01><0x08> de Sinnoh.<0xFB>Será que ela tem alguma\nligação com o misterioso<0xFA><0xFC><0x01><0x06>Distortion World<0xFC><0x01><0x08>?'
+  - offset: "0x1ef9b99"
+    name: "PT-62 0x1ef9b99"
+    expected: 'Você não ferve nessa roupa?<0xFB>Por que usar uma roupa dessas\nperto do deserto?'
+  - offset: "0x1ef9bf7"
+    name: "PT-62 0x1ef9bf7"
+    expected: 'Que roupa é essa?<0xFB>Você não podia ter escolhido\nroupa pior para vir aqui!<0xFB>Esse visual de agente secreto\nvai deixar você torrado!'
+  - offset: "0x1ef9c88"
+    name: "PT-62 0x1ef9c88"
+    expected: 'Essa roupa que você usa tem\nmesmo um ar de "Campeão",<0xFA>sabe?<0xFB>Só você consegue usar isso\ncom tanto estilo, Campeão!'
+  - offset: "0x1ef9d11"
+    name: "PT-62 0x1ef9d11"
+    expected: 'Sua roupa parece bem fresquinha!<0xFB>Não é ideal para o deserto,\nmas você não vai ferver!'
+  - offset: "0x1ef9d78"
+    name: "PT-62 0x1ef9d78"
+    expected: 'Sua roupa é linda e prateada!<0xFB>Ou será um brilho dourado\nque estou vendo?<0xFB>De todo jeito, essa roupa\ndá a você um ar de herói!'
+  - offset: "0x1ef9df9"
+    name: "PT-62 0x1ef9df9"
+    expected: 'Tentei cruzar o\n<0xFC><0x01><0x06>Great Desert<0xFC><0x01><0x04> a leste da cidade,<0xFA>mas a tempestade era forte.<0xFB>A areia batia no meu rosto,\ne eu não conseguia ver nada.<0xFB>Sem <0xFC><0x01><0x06>Go-Goggles<0xFC><0x01><0x04> para proteger\nos olhos, era impossível<0xFA>ir a qualquer lugar.<0xFB>Um cara daqui tem uma coleção\ninteira deles, mas escolhe<0xFA>com muito cuidado a quem<0xFA>vai dá-los.'
+  - offset: "0x1ef9f60"
+    name: "PT-62 0x1ef9f60"
+    expected: 'Tentei cruzar o\n<0xFC><0x01><0x06>Great Desert<0xFC><0x01><0x04> a leste da cidade,<0xFA>mas a tempestade era forte.<0xFB>A areia batia no meu rosto,\ne eu não conseguia ver nada.<0xFB>Com Go-Goggles como os seus,\neu exploraria sem problema!'
+  - offset: "0x1efa04c"
+    name: "PT-62 0x1efa04c"
+    expected: 'Ufa.<0xFB>Eu.<0xFC><0x08><0x18> Estou.<0xFC><0x08><0x18> Morrendo de sede.<0xFB>Um Soda Pop cairia muito bem\nagora"'
+  - offset: "0x1efa09a"
+    name: "PT-62 0x1efa09a"
+    expected: 'Ei! Sinto um Soda Pop\nno seu Cube!<0xFB>Pode dividir comigo?'
+  - offset: "0x1efa0e0"
+    name: "PT-62 0x1efa0e0"
+    expected: '<0xFC><0x01><0x02>Você dividiu um Soda Pop com a\nBattle Girl.'
+  - offset: "0x1efa10f"
+    name: "PT-62 0x1efa10f"
+    expected: 'Hmm"<0xFC><0x08><0x20> Isso.<0xFC><0x08><0x18> Foi.<0xFC><0x08><0x18> Demais!<0xFB>Muito obrigada, Treinador!\nTome, pode ficar com isto.'
+  - offset: "0x1efa167"
+    name: "PT-62 0x1efa167"
+    expected: 'Dê <0xFC><0x01><0x06>Expert Belt<0xFC><0x01><0x04> a um Pokémon,\ne seus golpes supereficazes<0xFA>causarão mais dano!<0xFB>Demais, né?'
+  - offset: "0x1efa1d8"
+    name: "PT-62 0x1efa1d8"
+    expected: 'Você é bem mesquinho, Treinador.<0xFB>Melhor perder esse costume,\npara o seu próprio bem.'
+  - offset: "0x1efa236"
+    name: "PT-62 0x1efa236"
+    expected: 'Meus castelos de areia, aos\n<0xFC><0x01><0x06>domingos<0xFC><0x01><0x08> e às <0xFC><0x01><0x06>quartas<0xFC><0x01><0x08>, pulam<0xFA>e me atacam quando brinco!<0xFB>Dá muito medo!'
+  - offset: "0x1efa2ae"
+    name: "PT-62 0x1efa2ae"
+    expected: 'Gostou do meu castelo de areia?<0xFB>Deu muito trabalho fazê-lo!'
+  - offset: "0x1efa2eb"
+    name: "PT-62 0x1efa2eb"
+    expected: 'Buaaaa!<0xFB>Meu castelo de areia sumiu!'
+  - offset: "0x1efa30b"
+    name: "PT-62 0x1efa30b"
+    expected: 'Galavan abaixa a ponte do\nGinásio quando viaja.<0xFB>Uma hora ele volta, basta\nter paciência.'
+  - offset: "0x1efa381"
+    name: "PT-62 0x1efa381"
+    expected: 'Galavan levantou a ponte\ndo Ginásio!<0xFB>É uma ótima hora para entrar\nlá e desafiá-lo.'
+  - offset: "0x1efa3f4"
+    name: "PT-62 0x1efa3f4"
+    expected: 'Galavan levantou a ponte\ndo Ginásio!<0xFB>É hora de os Treinadores\nambiciosos o desafiarem.<0xFB>Ainda bem que você já venceu!'
+  - offset: "0x1efa484"
+    name: "PT-62 0x1efa484"
+    expected: 'Ah, droga"<0xFB>Gastei todo o meu dinheiro no\nGame Corner!<0xFB>Parece que não vou mais\nprecisar disto!'
+  - offset: "0x1efa4e5"
+    name: "PT-62 0x1efa4e5"
+    expected: 'Sempre achei que ia ganhar"'
+  - offset: "0x1efa503"
+    name: "PT-62 0x1efa503"
+    expected: 'Este apartamento é de um\nilustre empresário de<0xFA>Seaport City.<0xFB>É um apartamento disputado,\nentão receio que você não<0xFA>poderá alugá-lo.'
+  - offset: "0x1efa5a7"
+    name: "PT-62 0x1efa5a7"
+    expected: 'Tive muita sorte de conseguir\neste apartamento!<0xFB>Todos sabem que é difícil\nalugar um imóvel daquele cara<0xFA>lá em Seaport.'
+  - offset: "0x1efa626"
+    name: "PT-62 0x1efa626"
+    expected: 'Ei, você!\nDeixe eu brincar com seu Pokémon!'
+  - offset: "0x1efa64e"
+    name: "PT-62 0x1efa64e"
+    expected: '<0xFC><0x01><0x02>O menino brincou com\n<0xFD><0x02>.'
+  - offset: "0x1efa670"
+    name: "PT-62 0x1efa670"
+    expected: 'Mas" mas" em Magnolia Town,\neu brinco muito com os Pokémon!<0xFB>Todos ficaram super <0xFC><0x01><0x06>amigáveis<0xFC><0x01><0x08>!'
+  - offset: "0x1efa6da"
+    name: "PT-62 0x1efa6da"
+    expected: 'Não dá para brincar com um Ovo!<0xFB>Quero brincar com um Pokémon!'
+  - offset: "0x1efa711"
+    name: "PT-62 0x1efa711"
+    expected: 'Quero brincar com seu Pokémon\nde novo amanhã!'
+  - offset: "0x1efa740"
+    name: "PT-62 0x1efa740"
+    expected: 'Se tratar bem seus Pokémon,\neles vão amar você em troca.<0xFB>Ah? Deixe eu ver seu Pokémon"'
+  - offset: "0x1efa79d"
+    name: "PT-62 0x1efa79d"
+    expected: 'Parece muito feliz!\nDeve amar muito você.'
+  - offset: "0x1efa7cc"
+    name: "PT-62 0x1efa7cc"
+    expected: 'Tenho a impressão de que\nconfia muito em você.'
+  - offset: "0x1efa7f9"
+    name: "PT-62 0x1efa7f9"
+    expected: 'É amigável com você.\nParece um pouco feliz.'
+  - offset: "0x1efa82b"
+    name: "PT-62 0x1efa82b"
+    expected: 'É bem bonitinho.'
+  - offset: "0x1efa83c"
+    name: "PT-62 0x1efa83c"
+    expected: 'Você devia tratá-lo melhor.\nAinda não se acostumou com você.'
+  - offset: "0x1efa86e"
+    name: "PT-62 0x1efa86e"
+    expected: 'Parece não gostar nada de você.\nParece bravo.'
+  - offset: "0x1efa8a1"
+    name: "PT-62 0x1efa8a1"
+    expected: 'Lança-Pyukumuku'
+  - offset: "0x1efa8b3"
+    name: "PT-62 0x1efa8b3"
+    expected: 'Pyukumuku espantam os turistas\nao encalhar na praia!\nJogue todos de volta ao mar.'
+  - offset: "0x1efa91b"
+    name: "PT-62 0x1efa91b"
+    expected: 'A praia de Dehara era um\ndestino muito popular entre<0xFA>turistas de East Borrius.<0xFB>Mas o movimento caiu desde\nque Pokémon chamados Pyukumuku<0xFA>começaram a encalhar aqui.<0xFB>Seus espinhos machucam\nos turistas que pisam neles.<0xFB>Preciso muito de um Treinador\npara jogá-los de volta ao mar.<0xFB>E então?<0xFB>Acha que leva jeito para ser\num <0xFC><0x01><0x06>lança-Pyukumuku<0xFC><0x01><0x08>?'
+  - offset: "0x1efaab7"
+    name: "PT-62 0x1efaab7"
+    expected: 'Nem precisa de tanta habilidade!<0xFB>Além disso, lançar Pyukumuku\né divertido!'
+  - offset: "0x1efab05"
+    name: "PT-62 0x1efab05"
+    expected: 'Faça cada Pyukumuku da praia\nmergulhar de volta no mar!<0xFB>Vamos ver"<0xFB>Restam <0xFD><0x02> Pyukumuku na areia\npara jogar de volta ao mar.'
+  - offset: "0x1efab9b"
+    name: "PT-62 0x1efab9b"
+    expected: 'Bom trabalho!<0xFB>Você jogou cada Pyukumuku\nque estava encalhado na praia<0xFA>de volta ao mar!<0xFB>Você trabalha muito bem,\nsabia?<0xFB>Tem mesmo talento para\nlançar Pyukumuku.<0xFB>Agora eles estão a salvo em casa,\ne a praia está segura<0xFA>para os turistas.<0xFB>E sua recompensa já está\npronta aqui.<0xFB>Tome!\nVocê mereceu!'
+  - offset: "0x1efad04"
+    name: "PT-62 0x1efad04"
+    expected: 'Pyukumuku estão entre os\nPokémon de Alola mais famosos.<0xFB>Mas muitos turistas de\nEast Borrius não entendem<0xFA>o encanto deles.<0xFB>É uma pena.'
+  - offset: "0x1efad93"
+    name: "PT-62 0x1efad93"
+    expected: '<0xFC><0x01><0x06>Puke?<0xFB>Muke"'
+  - offset: "0x1efada2"
+    name: "PT-62 0x1efada2"
+    expected: '<0xFC><0x01><0x02>Você jogou o Pyukumuku\nde volta ao mar"'
+  - offset: "0x1efadd2"
+    name: "PT-62 0x1efadd2"
+    expected: '<0xFC><0x01><0x02>Não restam mais Pyukumuku\nna praia.'
+  - offset: "0x1efae04"
+    name: "PT-62 0x1efae04"
+    expected: 'Oi! Sou uma humilde empregada!<0xFB>Meu patrão tem coração e barriga\nbem grandes. Ele é um gourmet!<0xFB>Procuro ingredientes que façam\no coração dele saltar<0xFA>de alegria!<0xFB>Snif, snif" Snif, snif"<0xFB>Ah, que aroma!\nQue cheiro refinado!<0xFB>Tem algum ingrediente especial\nna sua Bolsa?<0xFB>Você consideraria vendê-lo\npara mim?'
+  - offset: "0x1efaf3c"
+    name: "PT-62 0x1efaf3c"
+    expected: 'Snif, snif" Snif, snif"<0xFB>Ah, que aroma!\nQue cheiro refinado!<0xFB>Tem algum ingrediente especial\nna sua Bolsa?<0xFB>Você consideraria vendê-lo\npara mim?'
+  - offset: "0x1efafd3"
+    name: "PT-62 0x1efafd3"
+    expected: 'Ah, que cheiro bom!<0xFB>Esse <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04> é mesmo\num ingrediente muito raro!<0xFB>Aceita ¥<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> por ele?'
+  - offset: "0x1efb044"
+    name: "PT-62 0x1efb044"
+    expected: 'Merci! Obrigada!<0xFB>Com isso, posso criar um\ncardápio magnífico!<0xFB>Meu patrão vai se surpreender!'
+  - offset: "0x1efb09d"
+    name: "PT-62 0x1efb09d"
+    expected: 'Hmm" Não é bem o que\nestou procurando.<0xFB>Não acho que meu patrão ficará\nsatisfeito com esse cheiro"'
+  - offset: "0x1efb107"
+    name: "PT-62 0x1efb107"
+    expected: 'Ah" Bem, tudo bem.<0xFB>Se achar um ingrediente gourmet\npara mim, por favor me avise!'
+  - offset: "0x1efb15c"
+    name: "PT-62 0x1efb15c"
+    expected: 'Escolher item'
+  - offset: "0x1efb168"
+    name: "PT-62 0x1efb168"
+    expected: 'Escolher Berry'
+  - offset: "0x1efb175"
+    name: "PT-62 0x1efb175"
+    expected: 'Eu simplesmente adoro minérios.<0xFB>Tem um minério encantador\nque me faça vibrar de amor?'
+  - offset: "0x1efb1c3"
+    name: "PT-62 0x1efb1c3"
+    expected: 'Tem um minério encantador\nque me faça vibrar de amor?'
+  - offset: "0x1efb1f7"
+    name: "PT-62 0x1efb1f7"
+    expected: 'Ah, eu adoro minérios!<0xFB>Que <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> lindo!\nVocê o vende por ¥<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>?'
+  - offset: "0x1efb250"
+    name: "PT-62 0x1efb250"
+    expected: '<0xFC><0x01><0x02>Entregou <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x02> de <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x02>\ne recebeu ¥<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x02>!'
+  - offset: "0x1efb28c"
+    name: "PT-62 0x1efb28c"
+    expected: 'Negócio fechado!\nUm minério adorado conquistado!'
+  - offset: "0x1efb2be"
+    name: "PT-62 0x1efb2be"
+    expected: 'Hein? Que coisa é essa?<0xFB>Não dá para me encantar com\num minério tão sem valor!'
+  - offset: "0x1efb307"
+    name: "PT-62 0x1efb307"
+    expected: 'Hmm. Não vou mudar de ideia.\nEspero que me venda um dia.'
+  - offset: "0x1efb345"
+    name: "PT-62 0x1efb345"
+    expected: 'Ei, olha só! Tenho um ótimo\nnegócio para você!<0xFB>Sabe como os Pokémon gostam de\nse esconder atrás de pedras?<0xFB>Às vezes, eles escondem\nossos legais também.<0xFB>Se achar um <0xFC><0x01><0x06>Rare Bone<0xFC><0x01><0x08> por aí,\ntraga para mim.<0xFB>Vou fazer valer a pena.'
+  - offset: "0x1efb43e"
+    name: "PT-62 0x1efb43e"
+    expected: 'E aí?\nAchou um <0xFC><0x01><0x06>Rare Bone<0xFC><0x01><0x08> para mim?<0xFB>Parece que sim.<0xFB>Se quiser vender, eu compro\npor ¥<0xFC><0x01><0x06>10000<0xFC><0x01><0x08>.'
+  - offset: "0x1efb4c3"
+    name: "PT-62 0x1efb4c3"
+    expected: 'Se achar mais Rare Bones,\nvenha me ver.<0xFB>Vou fazer valer a pena.'
+  - offset: "0x1efb50f"
+    name: "PT-62 0x1efb50f"
+    expected: 'Ei, venha me ver se achar um\nRare Bone, entendeu?<0xFB>Vou fazer valer a pena.'
+  - offset: "0x1efb560"
+    name: "PT-62 0x1efb560"
+    expected: 'Ha hu!\nVocê tem uma Pokédex.<0xFB>Quantos Pokémon já encontrou?'
+  - offset: "0x1efb59d"
+    name: "PT-62 0x1efb59d"
+    expected: 'Hu ha! Já achou <0xFD><0x02> ou mais!\nAgora sim! Isto é para você!'
+  - offset: "0x1efb5e2"
+    name: "PT-62 0x1efb5e2"
+    expected: 'Hu ha!\nVocê só encontrou <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>.<0xFB>Mostre sua Pokédex de novo\nquando encontrar ao menos <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>.'
+  - offset: "0x1efb64b"
+    name: "PT-62 0x1efb64b"
+    expected: 'Um Pokémon com <0xFC><0x01><0x06>Binding Band<0xFC><0x01><0x08>\ncausa mais dano contínuo com<0xFA>movimentos de aprisionamento.<0xFB>Mas o mais importante é isto.<0xFB>Já mostrou sua Pokédex a um\nprofessor?'
+  - offset: "0x1efb6f8"
+    name: "PT-62 0x1efb6f8"
+    expected: 'Aaah"<0xFB>Criar tantos Pokémon da região\nde Sinnoh é exaustivo"<0xFB>Oh!<0xFB>Você parece um Treinador forte!<0xFB>Que tal criar um deles\npara mim?'
+  - offset: "0x1efb788"
+    name: "PT-62 0x1efb788"
+    expected: 'Aaah"<0xFB>Criar tantos Pokémon da região\nde Sinnoh é exaustivo"<0xFB>Qual dos meus Pokémon você quer?'
+  - offset: "0x1efb7f0"
+    name: "PT-62 0x1efb7f0"
+    expected: 'Ah, tudo bem.<0xFB>Vou ter que continuar me\nesforçando, então.'
+  - offset: "0x1efb826"
+    name: "PT-62 0x1efb826"
+    expected: 'Estou tão exausto"<0xFB>Mas você não pode me ajudar\ncom uma equipe cheia.'
+  - offset: "0x1efb878"
+    name: "PT-62 0x1efb878"
+    expected: 'Cuide bem dele!<0xFB>Se voltar quando tiver <0xFC><0x01><0x06><0xFD><0x02>\nInsígnias<0xFC><0x01><0x04>, eu lhe dou outro.'
+  - offset: "0x1efb8d5"
+    name: "PT-62 0x1efb8d5"
+    expected: 'Agora descanso muito mais,\npois tenho menos Pokémon<0xFA>para cuidar!<0xFB>Obrigado por isso, Treinador!'
+  - offset: "0x1efb946"
+    name: "PT-62 0x1efb946"
+    expected: '<0xFC><0x01><0x06>Turtwig'
+  - offset: "0x1efb951"
+    name: "PT-62 0x1efb951"
+    expected: '<0xFC><0x01><0x07>Chimchar'
+  - offset: "0x1efb95d"
+    name: "PT-62 0x1efb95d"
+    expected: '<0xFC><0x01><0x08>Piplup'
+  - offset: "0x1efb967"
+    name: "PT-62 0x1efb967"
+    expected: '<0xFC><0x01><0x02>Oh! O Pokémon tem algo\nna boca.'
+  - offset: "0x1efb996"
+    name: "PT-62 0x1efb996"
+    expected: '<0xFC><0x01><0x06>Uu uu!'
+  - offset: "0x1efb9a2"
+    name: "PT-62 0x1efb9a2"
+    expected: 'Oi!<0xFB>Minha avó ganha a vida ensinando\num movimento a Pokémon em<0xFA>troca de Yellow Shards.<0xFB>Se ainda não achou nenhum,\ndeixe eu ajudar você.'
+  - offset: "0x1efba43"
+    name: "PT-62 0x1efba43"
+    expected: 'Você vai dar choque nos inimigos\nao aprender o movimento dela!'
+  - offset: "0x1efba81"
+    name: "PT-62 0x1efba81"
+    expected: 'Olá, meu bem.<0xFB>Com tantos anos de experiência\ncom Pokémon, aprendi a ensinar<0xFA>o movimento <0xFC><0x01><0x06>Thunder Punch<0xFC><0x01><0x04>.<0xFB>Mas, se quiser que eu ensine\nesse movimento ao seu Pokémon,<0xFA>vai custar <0xFC><0x01><0x06>2 Yellow Shards<0xFC><0x01><0x04>.<0xFB>O que me diz?'
+  - offset: "0x1efbb77"
+    name: "PT-62 0x1efbb77"
+    expected: 'Qual Pokémon deve aprender\n<0xFC><0x01><0x06>Thunder Punch<0xFC><0x01><0x04>?'
+  - offset: "0x1efbba7"
+    name: "PT-62 0x1efbba7"
+    expected: 'Por favor, volte quantas\nvezes quiser.<0xFB>Desde que tenha <0xFC><0x01><0x06>Yellow Shards<0xFC><0x01><0x04>,\nclaro.'
+  - offset: "0x1efbc05"
+    name: "PT-62 0x1efbc05"
+    expected: 'Parece que você não tem\nnenhum Yellow Shard.<0xFB>Eles aparecem às vezes\nno Great Desert.<0xFB>Se trouxer alguns, terei prazer\nem ensinar seu Pokémon.'
+  - offset: "0x1efbcb8"
+    name: "PT-62 0x1efbcb8"
+    expected: 'Sou o homem-balão!<0xFB>E quero ver um Pokémon\nbalão!'
+  - offset: "0x1efbcf1"
+    name: "PT-62 0x1efbcf1"
+    expected: 'Sim! É esse!<0xFB>Agora vou dar isto a você!\nVou lhe dar o item Air Balloon!'
+  - offset: "0x1efbd43"
+    name: "PT-62 0x1efbd43"
+    expected: 'Um Pokémon com <0xFC><0x01><0x06>Air Balloon<0xFC><0x01><0x08>\npode flutuar!<0xFB>Até se ferir, evita\nmovimentos do tipo <0xFC><0x01><0x06>Terrestre<0xFC><0x01><0x08>.<0xFB>Sim!\nSou o homem-balão!'
+  - offset: "0x1efbdc8"
+    name: "PT-62 0x1efbdc8"
+    expected: 'Sou o homem-balão!'
+  - offset: "0x1efbddc"
+    name: "PT-62 0x1efbddc"
+    expected: 'Não!\nQuero ver um Pokémon balão!'
+  - offset: "0x1efbe01"
+    name: "PT-62 0x1efbe01"
+    expected: 'Deixe eu contar uma coisa,\njovem.<0xFB>A leste daqui fica um\nvasto deserto.<0xFB>Ele é tão incrível que é\nchamado de <0xFC><0x01><0x06>Great Desert<0xFC><0x01><0x08>.<0xFB>Nem há palavras para\ndescrevê-lo!<0xFB>Mas é muito difícil cruzá-lo\nsem o equipamento certo.<0xFB>Não ache que pode sair por lá\nsem se preparar primeiro.<0xFB>Sua roupa parece quente\npara o deserto, mas vai<0xFA>proteger bem seu corpo.<0xFB>Quanto aos olhos, recomendo\nque arranje um bom par de<0xFA><0xFC><0x01><0x06>Go-Goggles<0xFC><0x01><0x08>.<0xFB>Aliás, posso dar os meus\nse me mostrar sua força<0xFA><0xFC><0x01><0x06>vencendo o Ginásio<0xFC><0x01><0x08>.'
+  - offset: "0x1efc060"
+    name: "PT-62 0x1efc060"
+    expected: 'Ah, parece que você já\nvenceu.<0xFB>Muito bem!<0xFB>Pegue estes Go-Goggles\ne explore o Great Desert!'
+  - offset: "0x1efc0c6"
+    name: "PT-62 0x1efc0c6"
+    expected: 'Vá, jovem!<0xFB>Explore o Great Desert!'
+  - offset: "0x1efc0f1"
+    name: "PT-62 0x1efc0f1"
+    expected: 'Olá!<0xFB>Sou Skeli, o desenvolvedor\nprincipal de Pokémon Unbound.<0xFB>Que bom que você dedicou tempo\npara jogar até aqui!<0xFB>Continue jogando e, se vencer\na Liga Pokémon, adoraria<0xFA>batalhar com você!'
+  - offset: "0x1efc1b0"
+    name: "PT-62 0x1efc1b0"
+    expected: 'Olá!<0xFB>Sou Skeli, o desenvolvedor\nprincipal de Pokémon Unbound.<0xFB>Que bom que você terminou\no jogo e continua<0xFA>explorando!<0xFB>Quer uma batalha?'
+  - offset: "0x1efc24f"
+    name: "PT-62 0x1efc24f"
+    expected: 'Legal!<0xFB>Mas já aviso que não vai\nser fácil!'
+  - offset: "0x1efc28c"
+    name: "PT-62 0x1efc28c"
+    expected: 'Legal!<0xFB>Vamos fazer uma\nBatalha Dupla hoje!<0xFB>Mas já aviso que não vai\nser fácil!'
+  - offset: "0x1efc2f5"
+    name: "PT-62 0x1efc2f5"
+    expected: 'Claro, sem problema.<0xFB>Se quiser batalhar comigo,\nainda estarei aqui.'
+  - offset: "0x1efc330"
+    name: "PT-62 0x1efc330"
+    expected: 'Ah, faltam Pokémon para você\nbatalhar comigo hoje.<0xFB>Em dias pares, luto em dupla,\nentão você precisa de mais.'
+  - offset: "0x1efc3a6"
+    name: "PT-62 0x1efc3a6"
+    expected: 'Foi uma batalha divertida!\nVocê deu bastante trabalho!<0xFB>Volte amanhã para outra\nbatalha!'
+  - offset: "0x1efc400"
+    name: "PT-62 0x1efc400"
+    expected: 'Oi, tudo bem?\nSou Golche!<0xFB>As estratégias dos Treinadores\nque você enfrentou?<0xFB>Ajudei a criá-las!<0xFB>Se vencer a Liga Pokémon,\naté posso mostrar a você<0xFA>minhas próprias estratégias!'
+  - offset: "0x1efc4b1"
+    name: "PT-62 0x1efc4b1"
+    expected: 'Oi, tudo bem?\nSou Golche!<0xFB>As estratégias dos Treinadores\nque você enfrentou?<0xFB>Ajudei a criá-las!<0xFB>Se quiser, posso mostrar\nminha própria estratégia.'
+  - offset: "0x1efc53f"
+    name: "PT-62 0x1efc53f"
+    expected: 'Hora de enfrentar a\nestratégia definitiva!'
+  - offset: "0x1efc56f"
+    name: "PT-62 0x1efc56f"
+    expected: 'Sem pressa.<0xFB>Pense com calma em como\ncombater minha estratégia.'
+  - offset: "0x1efc5ba"
+    name: "PT-62 0x1efc5ba"
+    expected: 'Sua estratégia foi incrível!<0xFB>Vou aperfeiçoar a minha.\nPodemos batalhar amanhã!'
+  - offset: "0x1efc612"
+    name: "PT-62 0x1efc612"
+    expected: 'Sou o Treinador veterano...\nThanasis!<0xFB>Foi graças a mim que você\nconseguiu chegar até aqui!<0xFB>Achei e corrigi muitos bugs.<0xFB>E ainda testei todo o sistema\nde batalha do início ao fim!<0xFB>De nada!'
+  - offset: "0x1efc6f4"
+    name: "PT-62 0x1efc6f4"
+    expected: 'Sou o Treinador veterano...\nThanasis!<0xFB>Foi graças a mim que você\nconseguiu chegar até aqui!<0xFB>Achei e corrigi muitos bugs.<0xFB>E ainda testei todo o sistema\nde batalha do início ao fim!<0xFB>Quer ver do que esse sistema\né capaz numa batalha<0xFA>contra mim e Lixdel?'
+  - offset: "0x1efc81b"
+    name: "PT-62 0x1efc81b"
+    expected: 'Só podemos batalhar se você\ntiver dois Pokémon!'
+  - offset: "0x1efc85b"
+    name: "PT-62 0x1efc85b"
+    expected: 'O Treinador veterano...\nEstá pronto para a batalha!'
+  - offset: "0x1efc895"
+    name: "PT-62 0x1efc895"
+    expected: 'Não?\nVocê é quem perde.'
+  - offset: "0x1efc8a4"
+    name: "PT-62 0x1efc8a4"
+    expected: 'Viu só?<0xFB>Essa batalha só foi possível\nporque ajudei a garantir<0xFA>que não tivesse bugs!<0xFB>Vamos repetir isso outro\ndia.'
+  - offset: "0x1efc91b"
+    name: "PT-62 0x1efc91b"
+    expected: 'E aí?\nSou Lixdel!<0xFB>Criei boa parte das belas\nanimações de ataques<0xFA>que você tem visto.'
+  - offset: "0x1efc983"
+    name: "PT-62 0x1efc983"
+    expected: 'E aí?\nSou Lixdel!<0xFB>Criei boa parte das belas\nanimações de ataques<0xFA>que você tem visto.<0xFB>Quer ver algumas numa batalha\ncontra mim e Thanasis?'
+  - offset: "0x1efca27"
+    name: "PT-62 0x1efca27"
+    expected: 'Desculpe, você precisa de\ndois Pokémon para nos enfrentar!'
+  - offset: "0x1efca57"
+    name: "PT-62 0x1efca57"
+    expected: 'Vamos mostrar umas belas\nanimações para você!'
+  - offset: "0x1efca82"
+    name: "PT-62 0x1efca82"
+    expected: 'Ainda não se preparou, é?'
+  - offset: "0x1efca96"
+    name: "PT-62 0x1efca96"
+    expected: 'Foi uma ótima batalha com\nótimas animações!<0xFB>Volte amanhã para fazermos\nisso de novo!'
+  - offset: "0x1efcaf7"
+    name: "PT-62 0x1efcaf7"
+    expected: 'Oi, sou Criminon!<0xFB>Dediquei horas sem fim à arte\nque você viu por aqui.<0xFB>Fiz sprites de Treinadores,\nPokémon, interfaces e muito mais.<0xFB>O trabalho mais difícil foi,\nsem dúvida, a Costume Box.<0xFB>Deu tanto trabalho!<0xFB>Minha criação favorita\né o Cube Space!<0xFB>Espero que tenha gostado!'
+  - offset: "0x1efcc39"
+    name: "PT-62 0x1efcc39"
+    expected: 'Oi, sou Criminon!<0xFB>Dediquei horas sem fim à arte\nque você viu por aqui.<0xFB>Ainda não posso mostrar meu\nPokémon favorito, mas que tal<0xFA>enfrentar esta equipe?'
+  - offset: "0x1efccef"
+    name: "PT-62 0x1efccef"
+    expected: 'Agora vou vencer pelo cansaço!'
+  - offset: "0x1efcd12"
+    name: "PT-62 0x1efcd12"
+    expected: 'Uau, você me surpreendeu!<0xFB>Meus sprites não me salvam...\nVitória é vitória!'
+  - offset: "0x1efcd67"
+    name: "PT-62 0x1efcd67"
+    expected: 'É, eu sabia que você não\naguentaria.<0xFB>Toxic e desgaste são o máximo!'
+  - offset: "0x1efcdb7"
+    name: "PT-62 0x1efcdb7"
+    expected: 'Vou voltar a treinar e\nfortalecer minha equipe!<0xFB>Amanhã vou mostrar o quanto\nmelhorei!'
+  - offset: "0x1efd046"
+    name: "PT-62 0x1efd046"
+    expected: 'Dr. Fuji'
+  - offset: "0x1efd04f"
+    name: "PT-62 0x1efd04f"
+    expected: 'Meu nome é Fuji.<0xFB>Fiz os mapas de Seaport City\naté Cootes Bog.<0xFB>E sou um dos grandes motivos\nde o jogo ter sido concluído!<0xFB>Crystal Peak era o último\ngrande obstáculo de Skeli. Sem<0xFA>os blocos gráficos que criei,<0xFA>o jogo nunca teria sido<0xFA>terminado!'
+  - offset: "0x1efd15e"
+    name: "PT-62 0x1efd15e"
+    expected: 'Diretor de Som'
+  - offset: "0x1efd16d"
+    name: "PT-62 0x1efd16d"
+    expected: 'Sou o Diretor de Som!<0xFB>Garanto que todas as músicas\nfuncionem bem!<0xFB>Sabia que 17 pessoas criaram\na trilha sonora original e<0xFA>os instrumentos personalizados?<0xFB>Espero que esteja curtindo\ntoda a música até agora!'
+  - offset: "0x1efd24e"
+    name: "PT-62 0x1efd24e"
+    expected: 'Kwen'
+  - offset: "0x1efd253"
+    name: "PT-62 0x1efd253"
+    expected: 'Oi, sou Kwen.<0xFB>Ser estilista amador dá muito\ntrabalho... Os prazos só<0xFA>continuam se acumulando!<0xFB>Larguei a vida de Treinador\npara fazer roupas para Aklove...<0xFB>E claro, ainda tem o Jax e\no treino que preparei para ele.'
+  - offset: "0x1efd333"
+    name: "PT-62 0x1efd333"
+    expected: 'Bela jaqueta...<0xFC><0x08><0x18> Eu a desenhei\npara você!'
+  - offset: "0x1efd366"
+    name: "PT-62 0x1efd366"
+    expected: 'O Mais Forte de Todos'
+  - offset: "0x1efd37d"
+    name: "PT-62 0x1efd37d"
+    expected: 'Skeli'
+  - offset: "0x1efd383"
+    name: "PT-62 0x1efd383"
+    expected: 'Golche'
+  - offset: "0x1efd38a"
+    name: "PT-62 0x1efd38a"
+    expected: 'Lixdel'
+  - offset: "0x1efd391"
+    name: "PT-62 0x1efd391"
+    expected: 'Thanasis'
+  - offset: "0x1efd39a"
+    name: "PT-62 0x1efd39a"
+    expected: 'Criminon'
+  - offset: "0x1efd3a3"
+    name: "PT-62 0x1efd3a3"
+    expected: 'Venceu Skeli numa batalha\neletrizante.'
+  - offset: "0x1efd3c7"
+    name: "PT-62 0x1efd3c7"
+    expected: 'Venceu Golche numa batalha\nestimulante.'
+  - offset: "0x1efd3f0"
+    name: "PT-62 0x1efd3f0"
+    expected: 'Venceu Lixdel e Thanasis numa\ndura batalha dois contra dois.'
+  - offset: "0x1efd430"
+    name: "PT-62 0x1efd430"
+    expected: 'Venceu Criminon numa batalha\nanimada.'
+  - offset: "0x1efd457"
+    name: "PT-62 0x1efd457"
+    expected: 'Vença os devs de Unbound\nem Dehara City no mesmo dia!'
+  - offset: "0x1efd496"
+    name: "PT-62 0x1efd496"
+    expected: 'Os caras lá de baixo dizem\nque criaram nosso mundo.<0xFB>Devem estar loucos.\nQuem acreditaria nisso?'
+  - offset: "0x1efd508"
+    name: "PT-62 0x1efd508"
+    expected: 'Os caras lá de baixo dizem\nque criaram nosso mundo.<0xFB>Devem estar loucos.<0xFB>Alguém precisa colocá-los\nno devido lugar.<0xFB>Acha que consegue?'
+  - offset: "0x1efd5b1"
+    name: "PT-62 0x1efd5b1"
+    expected: 'Sabia que podia contar com você!<0xFB>Se vencer todos os caras\nlá de baixo num dia só e<0xFA>me avisar nesse mesmo dia,<0xFA>vou dar algo que eu...<0xFA>libertei deles enquanto<0xFA>estavam fora de casa.'
+  - offset: "0x1efd67c"
+    name: "PT-62 0x1efd67c"
+    expected: 'Se vencer todos os caras\nlá de baixo num dia só e<0xFA>me avisar nesse mesmo dia,<0xFA>vou dar algo que eu...<0xFA>libertei deles enquanto<0xFA>estavam fora de casa.'
+  - offset: "0x1efd72a"
+    name: "PT-62 0x1efd72a"
+    expected: 'Mostrou aos caras lá de baixo\nquem é o verdadeiro Treinador<0xFA>por aqui!<0xFB>Como prometi, aqui está\no item que libertei deles.'
+  - offset: "0x1efd7a1"
+    name: "PT-62 0x1efd7a1"
+    expected: 'Sabia que não conseguiria.\nVocê não parece ser do tipo.'
+  - offset: "0x1efd7da"
+    name: "PT-62 0x1efd7da"
+    expected: 'Como vai o item que\nlibertei para você?'
+  - offset: "0x1efd803"
+    name: "PT-62 0x1efd803"
+    expected: 'Acha que os caras lá de baixo\nficam em casa o dia todo, né?<0xFB>ERROU!<0xFB>Vejo todos saírem todo dia!<0xFB>Passam muito tempo ajudando\na reformar a Battle Frontier.'
+  - offset: "0x1efd8a6"
+    name: "PT-62 0x1efd8a6"
+    expected: 'Acha que os caras lá de baixo\nficam em casa o dia todo, né?<0xFB>ERROU!<0xFB>Vejo todos saírem todo dia!<0xFB>Passam horas enfrentando\nTreinadores na <0xFC><0x01><0x06>Battle Frontier<0xFC><0x01><0x04>,<0xFA>perto de <0xFC><0x01><0x06>Seaport City<0xFC><0x01><0x04>.'
+  - offset: "0x1efd969"
+    name: "PT-62 0x1efd969"
+    expected: 'Oi! Boas-vindas à\nDouble Battle House!<0xFB>Pode enfrentar os Treinadores\ndaqui quantas vezes<0xFA>quiser.<0xFB>Se precisar que eu explique\nas <0xFC><0x01><0x06>Batalhas Duplas<0xFC><0x01><0x04>, venha<0xFA>falar comigo.<0xFB>Divirta-se nas batalhas!'
+  - offset: "0x1efda35"
+    name: "PT-62 0x1efda35"
+    expected: 'As batalhas aqui são\n<0xFC><0x01><0x06>Duplas<0xFC><0x01><0x04>.<0xFB>Ou seja, todas são dois\ncontra dois!<0xFB>Terá que coordenar bem\ndois dos seus Pokémon<0xFA>para vencer as batalhas.'
+  - offset: "0x1efdade"
+    name: "PT-62 0x1efdade"
+    expected: 'Hora de uma surra em dobro!'
+  - offset: "0x1efdaff"
+    name: "PT-62 0x1efdaff"
+    expected: 'Nocaute duplo!'
+  - offset: "0x1efdb11"
+    name: "PT-62 0x1efdb11"
+    expected: 'Aposto dois contra um\nna minha vitória.'
+  - offset: "0x1efdb3c"
+    name: "PT-62 0x1efdb3c"
+    expected: 'Agora devo o dobro.'
+  - offset: "0x1efdb52"
+    name: "PT-62 0x1efdb52"
+    expected: 'Cadê minha calça verde?\nJá, já você vai ver!'
+  - offset: "0x1efdb86"
+    name: "PT-62 0x1efdb86"
+    expected: 'Tcharam! Viu só?\nEstou usando ela agora!'
+  - offset: "0x1efdbb1"
+    name: "PT-62 0x1efdbb1"
+    expected: 'O que acontece ao dobrar\no número de pássaros?'
+  - offset: "0x1efdbec"
+    name: "PT-62 0x1efdbec"
+    expected: 'Você dobra suas asas!'
+  - offset: "0x1efdc03"
+    name: "PT-62 0x1efdc03"
+    expected: 'Tenho o dobro da inteligência.<0xFB>Minha vitória é certa!'
+  - offset: "0x1efdc39"
+    name: "PT-62 0x1efdc39"
+    expected: 'Agora estou sem inteligência.'
+  - offset: "0x1efdc54"
+    name: "PT-62 0x1efdc54"
+    expected: 'Precisa de dois Pokémon\npara me enfrentar.'
+  - offset: "0x1efdc8f"
+    name: "PT-62 0x1efdc8f"
+    expected: 'Oh, quem é você?<0xFB>...<0xFB><0xFD><0x01>?<0xFB>Imagino que esteja\nprocurando <0xFD><0x06>, certo?<0xFB>Ele passou aqui pedindo\num jeito fácil e rápido<0xFA>de ir às <0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x08>.<0xFB>Vou dizer exatamente\no que disse a ele.<0xFB>Só sei de dois jeitos:\nde barco ou surfando pela<0xFA><0xFC><0x01><0x06>Route 14<0xFC><0x01><0x08>.'
+  - offset: "0x1efddb3"
+    name: "PT-62 0x1efddb3"
+    expected: 'Vou dizer exatamente\no que disse a <0xFD><0x06>.<0xFB>Para chegar às Ruins of Void,\nsó indo de barco ou<0xFA>surfando pela <0xFC><0x01><0x06>Route 14<0xFC><0x01><0x08>.'
+  - offset: "0x1efde39"
+    name: "PT-62 0x1efde39"
+    expected: 'Já ouviu falar do Prof. Log?<0xFB>É um antigo colega de pesquisa.<0xFB>Pesquisávamos juntos\na história de Borrius.<0xFB>Até que um dia descobrimos\nalgo que não deveríamos<0xFA>ter descoberto...<0xFB>Desde então, ele estuda atributos\ne taxas de captura de Pokémon,<0xFA>e eu fico aqui, aposentado.'
+  - offset: "0x1efdf59"
+    name: "PT-62 0x1efdf59"
+    expected: 'Olá!\nEsta é a Dehara Dept. Store!<0xFB>O painel na parede mostra\na organização da loja.'
+  - offset: "0x1efdfb1"
+    name: "PT-62 0x1efdfb1"
+    expected: 'Adoro a Dehara Department\nStore!<0xFB>Faço compras aqui desde\na inauguração, anos atrás!'
+  - offset: "0x1efe00e"
+    name: "PT-62 0x1efe00e"
+    expected: 'Ai, ai...<0xFB>Minha esposa me pede para vir\naqui desde que a loja abriu.<0xFB>Oh!<0xFB>É sinal de que ela comprou\nalgo com meu cartão de crédito.<0xFB>Lá se vão mais dez anos\nda minha vida...'
+  - offset: "0x1efe0cb"
+    name: "PT-62 0x1efe0cb"
+    expected: 'Treinadores dos outros andares\nvão tentar batalhar com você.<0xFB>Abasteça-se de itens\nessenciais com os vendedores<0xFA>deste andar.'
+  - offset: "0x1efe15e"
+    name: "PT-62 0x1efe15e"
+    expected: 'Onde um marinheiro como eu\npode arranjar um item que<0xFA>torne as batalhas mais difíceis?'
+  - offset: "0x1efe1b2"
+    name: "PT-62 0x1efe1b2"
+    expected: 'Isso não foi nada divertido.'
+  - offset: "0x1efe1ca"
+    name: "PT-62 0x1efe1ca"
+    expected: 'Quem ama o mar também deve\nexplorar a evolução!'
+  - offset: "0x1efe20b"
+    name: "PT-62 0x1efe20b"
+    expected: 'Humpf...<0xFB>Esta loja não tem nada\npara deixar meu pescoço liso.<0xFB>Então vou descontar minha\nfrustração em você!'
+  - offset: "0x1efe278"
+    name: "PT-62 0x1efe278"
+    expected: 'Humpf.'
+  - offset: "0x1efe27e"
+    name: "PT-62 0x1efe27e"
+    expected: 'Talvez um dia importem\nlixas.<0xFB>Mas para pescoços.'
+  - offset: "0x1efe2c0"
+    name: "PT-62 0x1efe2c0"
+    expected: 'Viva! Uma batalha!'
+  - offset: "0x1efe2cf"
+    name: "PT-62 0x1efe2cf"
+    expected: 'Mayo: Viva! A batalha acabou!<0xFB>May: Viva! A batalha acabou!'
+  - offset: "0x1efe308"
+    name: "PT-62 0x1efe308"
+    expected: 'Somos fofos e amamos batalhas!'
+  - offset: "0x1efe32d"
+    name: "PT-62 0x1efe32d"
+    expected: 'Queremos lutar com dois Pokémon!\nQueremos lutar com dois Pokémon!'
+  - offset: "0x1efe373"
+    name: "PT-62 0x1efe373"
+    expected: 'HYPER BEAM!!!<0xFB>GIGA IMPACT!!!<0xFB>ADORO ESSAS TMS!!!<0xFB>SÃO SUPERPODEROSAS!!!'
+  - offset: "0x1efe3be"
+    name: "PT-62 0x1efe3be"
+    expected: 'Pedras e choques, vamos lá!'
+  - offset: "0x1efe3d4"
+    name: "PT-62 0x1efe3d4"
+    expected: 'Minhas pedras e eletricidade\nforam aterradas.'
+  - offset: "0x1efe401"
+    name: "PT-62 0x1efe401"
+    expected: 'Talvez eu deva investir\nem TMs poderosas.'
+  - offset: "0x1efe42d"
+    name: "PT-62 0x1efe42d"
+    expected: 'Para reverter os efeitos\ndos itens que elevam atributos,<0xFA>recomendo comprar Berries<0xFA>como <0xFC><0x01><0x06>Pomeg<0xFC><0x01><0x08> e <0xFC><0x01><0x06>Qualot<0xFC><0x01><0x08>.<0xFB>Não são vendidas aqui, mas\nos Pokémon das <0xFC><0x01><0x06>Hidden Grottos<0xFC><0x01><0x08><0xFA>costumam deixá-las cair<0xFA>quando são derrotados.'
+  - offset: "0x1efe524"
+    name: "PT-62 0x1efe524"
+    expected: 'Vim comprar itens que\nelevam atributos dos Pokémon.<0xFB>Eles aumentam os valores\nde esforço de um Pokémon<0xFA>até o máximo.'
+  - offset: "0x1efe597"
+    name: "PT-62 0x1efe597"
+    expected: 'Os itens que comprei elevaram\nmeus poderes psíquicos!'
+  - offset: "0x1efe5d3"
+    name: "PT-62 0x1efe5d3"
+    expected: 'Não!\nMeu dinheiro foi desperdiçado!'
+  - offset: "0x1efe5f1"
+    name: "PT-62 0x1efe5f1"
+    expected: 'Preciso me isolar para\nestudar a arte das compras.'
+  - offset: "0x1efe628"
+    name: "PT-62 0x1efe628"
+    expected: 'Sou uma máquina de vendas humana!<0xFB>Se colocar dinheiro em mim,\nvai sair uma bebida!'
+  - offset: "0x1efe673"
+    name: "PT-62 0x1efe673"
+    expected: 'Não tem dinheiro suficiente\npara essa bebida!'
+  - offset: "0x1efe69f"
+    name: "PT-62 0x1efe69f"
+    expected: 'Blargh!<0xFB><0xFC><0x01><0x02>Saiu lata de <0xFD><0x02>!'
+  - offset: "0x1efe6c1"
+    name: "PT-62 0x1efe6c1"
+    expected: 'Sem sede?'
+  - offset: "0x1efe6ce"
+    name: "PT-62 0x1efe6ce"
+    expected: 'Fresh Water<0xFC><0x13><0x54><0xFC><0x06><0x00>¥200'
+  - offset: "0x1efe6e4"
+    name: "PT-62 0x1efe6e4"
+    expected: 'Soda Pop<0xFC><0x13><0x54><0xFC><0x06><0x00>¥300'
+  - offset: "0x1efe6f7"
+    name: "PT-62 0x1efe6f7"
+    expected: 'Lemonade<0xFC><0x13><0x54><0xFC><0x06><0x00>¥350'
