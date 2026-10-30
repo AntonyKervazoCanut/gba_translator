@@ -19,7 +19,7 @@ test('PT-68 : deux dialogues aux pointeurs vivants sont lisibles dans mGBA', asy
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt68-borrius-'));
   const rom = fs.readFileSync(path.join(root, 'output/roms/GenedRom-pt.gba'));
   const audit = JSON.parse(fs.readFileSync(path.join(root, 'languages/pt/data/pt68_audit.json'), 'utf8'));
-  const cases = ['0x1f25aaa', '0x1f2af3d'].map(offset => audit.entries.find((row: { offset: string }) => row.offset === offset));
+  const cases = ['0x1f2542a', '0x1f2b10f'].map(offset => audit.entries.find((row: { offset: string }) => row.offset === offset));
   const script = rom.lastIndexOf(Buffer.alloc(128, 255));
   expect(script).toBeGreaterThan(0x1000000);
   for (let n = 0; n < cases.length; n++) {

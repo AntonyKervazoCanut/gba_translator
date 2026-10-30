@@ -47,6 +47,8 @@ def test_manifest_protections_and_controls():
 
 def test_missions_services_and_source_tail():
     rows = AUDIT['entries']
+    assert 'começando' in rows[60]['portuguese']
+    assert 'over 200' in rows[62]['english_full'] and '200 espécies' in rows[62]['portuguese']
     assert '25' in rows[95]['portuguese'] and 'Safari Zone' in rows[95]['portuguese']
     assert '30 Safari Balls' in rows[97]['portuguese']
     assert '20 formas' in rows[127]['portuguese'] and '19' in rows[127]['portuguese']
