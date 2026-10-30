@@ -6,6 +6,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { matchesPortugueseOcrLine } from '../helpers/pt49-ocr.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 
@@ -73,11 +74,17 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
     await page.getByRole('img').screenshot({ path: readable });
     const text = execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 });
     console.log(text);
-    // L'OCR varie sur les accents et la casse de la police pixel ; les octets sont
-    // vérifiés exactement avant le lancement de l'émulateur.
-    const normalized = text.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').toLowerCase();
+    // Vision confond parfois A/H ou a/g dans cette police pixel. Les octets
+    // sont contrôlés exactement avant le lancement. Chaque ligne doit ensuite
+    // apparaître en entier et dans l'ordre, avec au plus une substitution OCR
+    // (aucune suppression, troncature ou fusion de lignes n'est acceptée).
+    const recognized = text.split('\n');
+    let previous = -1;
     for (const line of sample.text.split('\n')) {
-      expect(normalized).toContain(line.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase());
+      const index = recognized.findIndex((actual, index) => index > previous
+        && matchesPortugueseOcrLine(actual, line));
+      expect(index, `ligne complète absente : ${line}`).toBeGreaterThan(previous);
+      previous = index;
     }
     expect(text).not.toContain('When held');
     await page.getByRole('img').screenshot({ path: path.join(os.tmpdir(), `pt49-${sample.id}-proof.png`) });
