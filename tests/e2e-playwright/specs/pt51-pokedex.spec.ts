@@ -10,9 +10,9 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { hasPortugueseOcrLines } from '../helpers/pt51-ocr.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
-const normalize = (s: string): string => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim().toLowerCase();
 
 test('PT-51 : deux descriptions aux pointeurs Pokédex sont lisibles dans mGBA', async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt51-pokedex-'));
@@ -91,14 +91,22 @@ end)
     const picture = `<figure><figcaption>${cases[n].offset} — sonde native (lignes 1 et 2)</figcaption><img alt="${cases[n].offset}" src="${src}"></figure>`;
     await page.setContent(`<style>img{width:960px;height:640px;image-rendering:pixelated}</style>${picture}`);
     await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
-    const large = path.join(temp, 'large.png');
-    await page.getByRole('img').screenshot({ path: large });
-    const text = normalize(execFileSync(ocr, [large], { encoding: 'utf8' }));
+    // Deux zooms entiers du même écran, sans corriger les mots reconnus.
+    // Vision confond le c de Reuniclus avec un o à 4x, mais le lit à 3x.
+    const readings: string[] = [];
+    for (const scale of [3, 4]) {
+      await page.getByRole('img').evaluate((img, factor) => {
+        img.style.width = `${240 * factor}px`;
+        img.style.height = `${160 * factor}px`;
+      }, scale);
+      const large = path.join(temp, `large-${n}-${scale}.png`);
+      await page.getByRole('img').screenshot({ path: large });
+      readings.push(execFileSync(ocr, [large], { encoding: 'utf8' }));
+    }
+    const text = readings.join('\n');
     pictures.push(picture);
     console.log(cases[n].offset, text);
-    for (const line of cases[n].portuguese.split('\\n').slice(0, 2)) {
-      expect(text, line).toContain(normalize(line));
-    }
+    expect(hasPortugueseOcrLines(readings, cases[n].portuguese.split('\\n').slice(0, 2)), text).toBe(true);
     expect(text).not.toMatch(/When Reuniclus|patisserie|Symbios|On raconte/i);
   }
   await page.setContent(`<style>body{margin:0;background:#222;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(2,720px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:720px;height:480px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
