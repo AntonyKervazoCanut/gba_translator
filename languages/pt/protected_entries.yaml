@@ -49384,7 +49384,7 @@ entries:
     expected: 'Visite sua <0xFC><0x01><0x06>mãe<0xFC><0x01><0x08> antes de buscar\nminha encomenda, <0xFD><0x01>.<0xFB>Ela deve estar muito\npreocupada com você.'
   - offset: "0x1f232ba"
     name: "PT-68 0x1f232ba"
-    expected: 'Busque minha encomenda no\n<0xFC><0x01><0x06>Poké Mart de Bellin Town<0xFC><0x01><0x08>, <0xFD><0x01>.<0xFB>Preciso dela, e só você pode\nbuscá-la.'
+    expected: 'Busque no <0xFC><0x01><0x06>Poké Mart de Bellin Town<0xFC><0x01><0x08>\nminha encomenda, <0xFD><0x01>.<0xFB>Preciso dela, e só você pode\nbuscá-la.'
   - offset: "0x1f2331e"
     name: "PT-68 0x1f2331e"
     expected: 'Ah, <0xFD><0x01>!\nTrouxe minha encomenda!'

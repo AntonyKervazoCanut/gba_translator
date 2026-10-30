@@ -92,3 +92,11 @@ def test_unaligned_callback_match_is_not_a_text_reader():
     assert row['binary_matches'][0]['site'] == 0x3E23E3
     assert row['binary_matches'][0]['source_hex'] == '9df20908a5f20908'
     assert sum(len(r['references']) for r in AUDIT['entries']) == 374
+
+
+def test_player_and_rival_names_have_ten_wide_glyphs_of_margin():
+    for row in AUDIT['entries']:
+        for key in ('1', '6'):
+            if key in row.get('buffers', {}):
+                assert row['buffers'][key] == 'W' * 10
+    assert max(AUDIT['entries'][9]['expanded_widths']) == 193
