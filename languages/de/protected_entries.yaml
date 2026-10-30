@@ -23,6 +23,18 @@
 #
 # Voir docs/20_TRANSLATION_PRESERVATION.md §7.
 entries:
+- offset: '0x482834'
+  name: 'B-666 Pfund'
+  expected: 'Physischer Angriff\nmit langem Schweif\noder Vorderbein\nusw.'
+- offset: '0x4853be'
+  name: 'B-666 Verzweifler'
+  expected: 'Nur bei fehlenden AP\nsetzt der Anwender\ndiese Attacke ein. Er\nnimmt dabei Schaden.'
+- offset: '0x483c22'
+  name: 'B-666 Giftstaub'
+  expected: 'Giftstaub wird\nverstreut. Er kann\ndas Ziel\nvergiften.'
+- offset: '0x48493b'
+  name: 'B-666 Flammenwurf'
+  expected: 'Eine starke Flamme\ntrifft das Ziel und\nkann es\nverbrennen.'
 - offset: '0x447800'
   name: 'B-686 — pokedex-01 0x447800'
   expected: 'Bläht sich ein Koffing auf, leert\nsich das andere. Sie vermischen\nständig ihre giftigen Gase.'
