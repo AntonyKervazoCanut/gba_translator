@@ -1,0 +1,5052 @@
+{
+  "batch": "PT-46",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "entries": [
+    {
+      "offset": "0xa4ae61",
+      "source_hex": "cedcd900bde6d5dae8ed00cddcddd9e0d800e4e6e3e8d9d7e8d9d8fefd10abff",
+      "references": [
+        10134208
+      ],
+      "english": "The Crafty Shield protected\n<0xFD>OE!",
+      "french_comparison": "Parade protège {B_DEF_NAME_WITH_PREFIX} !\n",
+      "expected": "Crafty Shield protegeu\\n<0xFD><0x10>!",
+      "pt_bytes": 27,
+      "pixels": [
+        124,
+        60
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ae81",
+      "source_hex": "fd1400ebd5e700d6e0e3d7dfd9d800d6ed00e8dcd9fedfddd7dfd9d8aee9e400e1d5e8abff",
+      "references": [
+        10134216
+      ],
+      "english": "<0xFD>Ñ was blocked by the\nkicked-up mat!",
+      "french_comparison": "{B_CURRENT_MOVE} est bloquée par\nle tatami soulevé !",
+      "expected": "<0xFD><0x14> foi bloqueado\\npelo tatame erguido!",
+      "pt_bytes": 38,
+      "pixels": [
+        134,
+        114
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4aea6",
+      "source_hex": "cedcd900cbe9ddd7df00c1e9d5e6d800e4e6e3e8d9d7e8d9d8fefd10abff",
+      "references": [
+        10134220
+      ],
+      "english": "The Quick Guard protected\n<0xFD>OE!",
+      "french_comparison": "Prévention protège\n{B_DEF_NAME_WITH_PREFIX} !",
+      "expected": "Quick Guard protegeu\\n<0xFD><0x10>!",
+      "pt_bytes": 25,
+      "pixels": [
+        114,
+        60
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4aec4",
+      "source_hex": "cedcd900d1ddd8d900c1e9d5e6d800e4e6e3e8d9d7e8d9d8fefd10abff",
+      "references": [
+        10134224
+      ],
+      "english": "The Wide Guard protected\n<0xFD>OE!",
+      "french_comparison": "Garde Large protège\n{B_DEF_NAME_WITH_PREFIX} !",
+      "expected": "Wide Guard protegeu\\n<0xFD><0x10>!",
+      "pt_bytes": 24,
+      "pixels": [
+        109,
+        60
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4aee1",
+      "source_hex": "c8d9dde8dcd9e600cae3df1be1e3e200d7d5e200e6e9e200d5ebd5edabff",
+      "references": [
+        9867249
+      ],
+      "english": "Neither Pokémon can run away!",
+      "french_comparison": "Aucun Pokémon ne peut fuir !",
+      "expected": "Nenhum Pokémon pode fugir!",
+      "pt_bytes": 27,
+      "pixels": [
+        149
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4aeff",
+      "source_hex": "fd1000d7d5e200e2e300e0e3e2dbd9e6fed9e7d7d5e4d9abff",
+      "references": [
+        4186440
+      ],
+      "english": "<0xFD>OE can no longer\nescape!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} ne peut plus\ns'échapper !",
+      "expected": "<0xFD><0x10> não pode mais\\nescapar!",
+      "pt_bytes": 26,
+      "pixels": [
+        134,
+        46
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4af18",
+      "source_hex": "fd0f00d6d9d7d5e1d9fed7e0e3d5dfd9d800dde200e0dddbdce8abff",
+      "references": [
+        4186216
+      ],
+      "english": "<0xFD>Ô became\ncloaked in light!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est nimbé\nde lumière !",
+      "expected": "<0xFD><0x0F> se envolveu\\nem luz!",
+      "pt_bytes": 23,
+      "pixels": [
+        123,
+        41
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4af34",
+      "source_hex": "fd1000dde700e2e3e800d5dadad9d7e8d9d8fee8dcd5e2dfe700e8e300dde8e700fd16abff",
+      "references": [
+        10396548
+      ],
+      "english": "<0xFD>OE is not affected\nthanks to its <0xFD>à!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} n'est pas affecté\ngrâce à son {B_LAST_ITEM} !",
+      "expected": "<0xFD><0x10> não é afetado\\ngraças a <0xFD><0x16>!",
+      "pt_bytes": 30,
+      "pixels": [
+        135,
+        112
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4af59",
+      "source_hex": "fd1300e9e7d9d800e8dcd9fefd1600e8e300dbd9e800e4e9e1e4d9d8abff",
+      "references": [
+        4187172
+      ],
+      "english": "<0xFD>Û used the\n<0xFD>à to get pumped!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} a utilisé\n{B_LAST_ITEM} pour se booster !",
+      "expected": "<0xFD><0x13> usou\\n<0xFD><0x16> para se animar!",
+      "pt_bytes": 27,
+      "pixels": [
+        83,
+        144
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4af77",
+      "source_hex": "fd1300d7d5e200d5d7e8fedad5e7e8d9e6b800e8dcd5e2dfe700e8e300dde8e700fd16abff",
+      "references": [
+        9856126
+      ],
+      "english": "<0xFD>Û can act\nfaster, thanks to its <0xFD>à!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} agit plus\nvite grâce à son {B_LAST_ITEM} !",
+      "expected": "<0xFD><0x13> pode agir\\nmais rápido graças a <0xFD><0x16>!",
+      "pt_bytes": 38,
+      "pixels": [
+        111,
+        178
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4af9c",
+      "source_hex": "fd1300d7d5e200d5d7e8fedad5e7e8d9e6abff",
+      "references": [
+        9856193
+      ],
+      "english": "<0xFD>Û can act\nfaster!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} peut agir\nplus vite !",
+      "expected": "<0xFD><0x13> pode agir\\nmais rápido!",
+      "pt_bytes": 26,
+      "pixels": [
+        111,
+        66
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4afaf",
+      "source_hex": "fd0f00dde7fee3ead9e6dae0e3ebdde2db00ebdde8dc00e7e4d5d7d900e4e3ebd9e6abff",
+      "references": [
+        9865635
+      ],
+      "english": "<0xFD>Ô is\noverflowing with space power!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} déborde\nde puissance spatiale !",
+      "expected": "<0xFD><0x0F> transborda\\nenergia espacial!",
+      "pt_bytes": 32,
+      "pixels": [
+        115,
+        94
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4afd3",
+      "source_hex": "fd1000dde700d5d6e3e9e800e8e3fed6d900d5e8e8d5d7dfd9d800d6ed00dde8e700fd16abff",
+      "references": [
+        9878761
+      ],
+      "english": "<0xFD>OE is about to\nbe attacked by its <0xFD>à!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} va être touché\npar son {B_LAST_ITEM} !",
+      "expected": "<0xFD><0x10> será atingido\\npor seu <0xFD><0x16>!",
+      "pt_bytes": 29,
+      "pixels": [
+        130,
+        106
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4aff9",
+      "source_hex": "fd1300ebd5e700ebe3dfd9e200e9e4fed6ed00e8dcd900cfe4e6e3d5e6abff",
+      "references": [
+        9870560
+      ],
+      "english": "<0xFD>Û was woken up\nby the Uproar!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} est réveillé\npar Brouhaha !",
+      "expected": "<0xFD><0x13> acordou\\ncom Uproar!",
+      "pt_bytes": 23,
+      "pixels": [
+        101,
+        64
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b02d",
+      "source_hex": "fd0f00e7ebd5e4e4d9d8fee8dcd900d6d5e8e8e0d900d9dadad9d7e8e700d5dadad9d7e8dde2db00d9d5d7dcfae7ddd8d900e3da00e8dcd900daddd9e0d8abff",
+      "references": [
+        10188168
+      ],
+      "english": "<0xFD>Ô swapped\nthe battle effects affecting each<0xFA>side of the field!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} a échangé\nles effets de terrain de chaque<0xFA>côté !",
+      "expected": "<0xFD><0x0F> trocou os\\nefeitos de batalha<0xFA>entre os lados do campo!",
+      "pt_bytes": 57,
+      "pixels": [
+        111,
+        101,
+        138
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b06d",
+      "source_hex": "fd0f00e7ebd5e4e4d9d800dde8e7fee3dadad9e2e7d9e700d5e2d800d8d9dad9e2e7d9e7abff",
+      "references": [
+        10183852
+      ],
+      "english": "<0xFD>Ô swapped its\noffenses and defenses!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} a échangé ses\nstats off. et déf. !",
+      "expected": "<0xFD><0x0F> trocou suas\\nstats ofensivas e defensivas!",
+      "pt_bytes": 45,
+      "pixels": [
+        122,
+        158
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b093",
+      "source_hex": "fd1000e7e8d5ede700d5ebd5dfd9abff",
+      "references": [
+        9861610
+      ],
+      "english": "<0xFD>OE stays awake!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} reste éveillé !",
+      "expected": "<0xFD><0x10> fica acordado!",
+      "pt_bytes": 18,
+      "pixels": [
+        140
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b0a3",
+      "source_hex": "fd10b4e700e4d5e6e8ed00dde7fee4e6e3e8d9d7e8d9d800d6ed00cdd5dad9dbe9d5e6d8abff",
+      "references": [
+        10477552,
+        10478076,
+        10478676,
+        10479168,
+        10479784,
+        10480456
+      ],
+      "english": "<0xFD>OE's party is\nprotected by Safeguard!",
+      "french_comparison": "L'équipe de {B_DEF_NAME_WITH_PREFIX}\nest protégée par Rune Protect !",
+      "expected": "A equipe de <0xFD><0x10>\\nestá protegida por Safeguard!",
+      "pt_bytes": 45,
+      "pixels": [
+        124,
+        165
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b0c9",
+      "source_hex": "fd1000e7e9e6e6e3e9e2d8e7fedde8e7d9e0da00dde200d500e4e6e3e8d9d7e8ddead900e1dde7e8abff",
+      "references": [
+        10352272,
+        10477560,
+        10478684,
+        10479176,
+        10479792,
+        10480464
+      ],
+      "english": "<0xFD>OE surrounds\nitself in a protective mist!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} s'entoure\nd'une brume protectrice !",
+      "expected": "<0xFD><0x10> se envolve\\nnuma névoa protetora!",
+      "pt_bytes": 36,
+      "pixels": [
+        117,
+        120
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b0f3",
+      "source_hex": "fd1000e7e9e6e6e3e9e2d8e7fedde8e7d9e0da00ebdde8dc00d9e0d9d7e8e6dddaddd9d800e8d9e6e6d5dde2abff",
+      "references": [
+        10352276,
+        10477564,
+        10478084
+      ],
+      "english": "<0xFD>OE surrounds\nitself with electrified terrain!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} s'entoure\nd'un Champ Électrifié !",
+      "expected": "<0xFD><0x10> se envolve\\nem terreno eletrificado!",
+      "pt_bytes": 39,
+      "pixels": [
+        117,
+        132
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b121",
+      "source_hex": "fd1000d5e0e6d9d5d8ed00dcd5e7fed500e7e8d5e8e9e700d7e3e2d8dde8dde3e2abff",
+      "references": [
+        10477548,
+        10478072,
+        10478672,
+        10479164,
+        10479780
+      ],
+      "english": "<0xFD>OE already has\na status condition!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} a déjà\nun problème de statut !",
+      "expected": "<0xFD><0x10> já tem\\numa condição de status!",
+      "pt_bytes": 34,
+      "pixels": [
+        95,
+        131
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b144",
+      "source_hex": "fd1000dde700d5e0e6d9d5d8edfed8e6e3ebe7edabff",
+      "references": [
+        10478112
+      ],
+      "english": "<0xFD>OE is already\ndrowsy!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} est déjà\nensommeillé !",
+      "expected": "<0xFD><0x10> já está\\nsonolento!",
+      "pt_bytes": 22,
+      "pixels": [
+        100,
+        55
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b15a",
+      "source_hex": "fd1000e7e9e6e6e3e9e2d8d9d8fedde8e7d9e0da00ebdde8dc00d500ead9dde000e3da00e7ebd9d9e8e2d9e7e7abff",
+      "references": [
+        9861467
+      ],
+      "english": "<0xFD>OE surrounded\nitself with a veil of sweetness!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} s'entoure\nd'un voile sucré !",
+      "expected": "<0xFD><0x10> se envolveu\\nnum véu doce!",
+      "pt_bytes": 29,
+      "pixels": [
+        123,
+        77
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b189",
+      "source_hex": "fd1000e7e9e6e6e3e9e2d8d9d8fedde8e7d9e0da00ebdde8dc00d500ead9dde000e3da00e4d9e8d5e0e7abff",
+      "references": [
+        9861500
+      ],
+      "english": "<0xFD>OE surrounded\nitself with a veil of petals!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} s'entoure\nd'un voile de pétales !",
+      "expected": "<0xFD><0x10> se envolveu\\nnum véu de pétalas!",
+      "pt_bytes": 35,
+      "pixels": [
+        123,
+        110
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b1b5",
+      "source_hex": "fd1000dde700e4e6e3e8d9d7e8d9d8fed6ed00d500e4d5e7e8d9e000ead9dde0abff",
+      "references": [
+        9861533
+      ],
+      "english": "<0xFD>OE is protected\nby a pastel veil!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} est protégé\npar un voile pastel !",
+      "expected": "<0xFD><0x10> está protegido\\npor um véu pastel!",
+      "pt_bytes": 37,
+      "pixels": [
+        138,
+        104
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b1d7",
+      "source_hex": "fd1000dde700e4e6e3e8d9d7e8d9d8fed6ed00d5e200d5e6e3e1d5e8ddd700ead9dde0abff",
+      "references": [
+        9866159
+      ],
+      "english": "<0xFD>OE is protected\nby an aromatic veil!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} est protégé\npar un voile aromatique !",
+      "expected": "<0xFD><0x10> está protegido\\npor um véu aromático!",
+      "pt_bytes": 40,
+      "pixels": [
+        138,
+        121
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b1fc",
+      "source_hex": "cedcd900e7e0d9d9e400d7e0d5e9e7d900e4e6d9ead9e2e8e700e1e3e6d9fecae3df1be1e3e200dae6e3e100d6d9dde2db00e4e9e800e8e300e7e0d9d9e4abff",
+      "references": [
+        10477588
+      ],
+      "english": "The sleep clause prevents more\nPokémon from being put to sleep!",
+      "french_comparison": "La clause sommeil empêche\nd'endormir d'autres Pokémon !",
+      "expected": "A cláusula do sono impede\\nmais Pokémon de adormecerem!",
+      "pt_bytes": 55,
+      "pixels": [
+        143,
+        161
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b23c",
+      "source_hex": "fd1100dbe3e800dae6e3e7e8d6dde8d9abff",
+      "references": [
+        4186064
+      ],
+      "english": "<0xFD>Ù got frostbite!",
+      "french_comparison": "{B_EFF_NAME_WITH_PREFIX} a une engelure !",
+      "expected": "<0xFD><0x11> sofreu congeladura!",
+      "pt_bytes": 23,
+      "pixels": [
+        168
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b24e",
+      "source_hex": "fd0f00dde700dce9e6e8fed6ed00dde8e700dae6e3e7e8d6dde8d9abff",
+      "references": [
+        9859241
+      ],
+      "english": "<0xFD>Ô is hurt\nby its frostbite!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} souffre du gel !",
+      "expected": "<0xFD><0x0F> sofre com\\na congeladura!",
+      "pt_bytes": 28,
+      "pixels": [
+        111,
+        81
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b26b",
+      "source_hex": "fd0fb4e700dae6e3e7e8d6dde8d9feebd5e700d7e9e6d9d800d6ed00fd14abff",
+      "references": [
+        4186084
+      ],
+      "english": "<0xFD>Ô's frostbite\nwas cured by <0xFD>Ñ!",
+      "french_comparison": "Engelure de {B_ATK_NAME_WITH_PREFIX}\nguérie par {B_CURRENT_MOVE} !",
+      "expected": "A congeladura de <0xFD><0x0F>\\nfoi curada por <0xFD><0x14>!",
+      "pt_bytes": 39,
+      "pixels": [
+        153,
+        145
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b28b",
+      "source_hex": "fd10b4e700dae6e3e7e8d6dde8d9feebd5e700d7e9e6d9d8abff",
+      "references": [
+        4186076
+      ],
+      "english": "<0xFD>OE's frostbite\nwas cured!",
+      "french_comparison": "Engelure de {B_DEF_NAME_WITH_PREFIX}\nguérie !",
+      "expected": "A congeladura de <0xFD><0x10>\\nfoi curada!",
+      "pt_bytes": 32,
+      "pixels": [
+        153,
+        62
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b2a5",
+      "source_hex": "fd0fb4e700dae6e3e7e8d6dde8d9feebd5e700d7e9e6d9d8abff",
+      "references": [
+        4186080
+      ],
+      "english": "<0xFD>Ô's frostbite\nwas cured!",
+      "french_comparison": "Engelure de {B_ATK_NAME_WITH_PREFIX}\nguérie !",
+      "expected": "A congeladura de <0xFD><0x0F>\\nfoi curada!",
+      "pt_bytes": 32,
+      "pixels": [
+        153,
+        62
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b2bf",
+      "source_hex": "fd13b4e700fd16fed7e9e6d9d800dde8e700dae6e3e7e8d6dde8d9abff",
+      "references": [
+        4187044
+      ],
+      "english": "<0xFD>Û's <0xFD>à\ncured its frostbite!",
+      "french_comparison": "Le {B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nguérit son engelure !",
+      "expected": "<0xFD><0x13> usou <0xFD><0x16>\\ne curou sua congeladura!",
+      "pt_bytes": 36,
+      "pixels": [
+        143,
+        139
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b2dc",
+      "source_hex": "fd13b4e700e7e8d5e8e700ebd9e6d9fee2e3e800e0e3ebd9e6d9d8abff",
+      "references": [
+        4186692
+      ],
+      "english": "<0xFD>Û's stats were\nnot lowered!",
+      "french_comparison": "Les stats de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nne baissent pas !",
+      "expected": "As stats de <0xFD><0x13>\\nnão diminuíram!",
+      "pt_bytes": 31,
+      "pixels": [
+        121,
+        83
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b2f9",
+      "source_hex": "fd13b4e700fd00feebd5e700e2e3e800e0e3ebd9e6d9d8abff",
+      "references": [
+        4187104
+      ],
+      "english": "<0xFD>Û's <0xFD> \nwas not lowered!",
+      "french_comparison": "{UNKNOWN_STR} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nne baisse pas !",
+      "expected": "<0xFD><0x13>: <0xFD><0x00>\\nnão diminuiu!",
+      "pt_bytes": 21,
+      "pixels": [
+        119,
+        70
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b312",
+      "source_hex": "fd1300d8e3d9e7e2b4e8fed6d9d7e3e1d900d7e3e2dae9e7d9d8abff",
+      "references": [
+        4186676
+      ],
+      "english": "<0xFD>Û doesn't\nbecome confused!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} ne peut\nplus être confus !",
+      "expected": "<0xFD><0x13> não fica\\nconfuso!",
+      "pt_bytes": 21,
+      "pixels": [
+        104,
+        45
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b33c",
+      "source_hex": "bce9e800fd10b4e700d5e9e6d5fee4e6d9ead9e2e8e700e8e6d5e2e7dae3e6e1d5e8dde3e2abff",
+      "references": [
+        9864868,
+        10116964
+      ],
+      "english": "But <0xFD>OE's aura\nprevents transformation!",
+      "french_comparison": "Mais l'aura de {B_DEF_NAME_WITH_PREFIX}\nempêche la transformation !",
+      "expected": "Mas a aura de <0xFD><0x10>\\nimpede a transformação!",
+      "pt_bytes": 41,
+      "pixels": [
+        136,
+        130
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b363",
+      "source_hex": "bce9e800fd10b4e700d5e9e6d5fed6e0e3d7dfd9d800e8dcd900e1e3ead9abff",
+      "references": [
+        9878233
+      ],
+      "english": "But <0xFD>OE's aura\nblocked the move!",
+      "french_comparison": "Mais l'aura de {B_DEF_NAME_WITH_PREFIX}\na bloqué l'attaque !",
+      "expected": "Mas a aura de <0xFD><0x10>\\nbloqueou o movimento!",
+      "pt_bytes": 39,
+      "pixels": [
+        136,
+        121
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b383",
+      "source_hex": "fd3700e8d9d5e1b4e700fd00feebe3e6d900e3dadaabff",
+      "references": [
+        9869139
+      ],
+      "english": "<0xFD><0x37> team's <0xFD> \nwore off!",
+      "french_comparison": "{UNKNOWN_STR} de l'équipe {STRING}\na pris fin !",
+      "expected": "A equipe <0xFD><0x37>: <0xFD><0x00>\\nacabou!",
+      "pt_bytes": 24,
+      "pixels": [
+        171,
+        42
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b3b2",
+      "source_hex": "bbe9e6e3e6d500d0d9dde000e4e6e3e8d9d7e8e700fd3600e8d9d5e1fed5dbd5dde2e7e800e4dcede7ddd7d5e000d5e2d800e7e4d9d7ddd5e000e1e3ead9e7abff",
+      "references": [
+        10184584,
+        10335712
+      ],
+      "english": "Aurora Veil protects <0xFD>; team\nagainst physical and special moves!",
+      "french_comparison": "Voile Aurore protège l'équipe\n{STRING} contre le physique et le spécial !",
+      "expected": "Aurora Veil protege a equipe\\n<0xFD><0x36> de dano físico e especial!",
+      "pt_bytes": 59,
+      "pixels": [
+        159,
+        207
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b3f3",
+      "source_hex": "fd3800e8d9d5e100d6d9d7d5e1d9fee7dce6e3e9d8d9d800dde200c7dde7e8abff",
+      "references": [
+        4186256
+      ],
+      "english": "<0xFD><0x38> team became\nshrouded in Mist!",
+      "french_comparison": "L'équipe {STRING} est enveloppée\nde Brume !",
+      "expected": "A equipe <0xFD><0x38> ficou\\nenvolta em Mist!",
+      "pt_bytes": 35,
+      "pixels": [
+        139,
+        89
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b414",
+      "source_hex": "fd3800e8d9d5e1b4e700fd00feebe3e6d900e3dadaabff",
+      "references": [
+        10352332,
+        10353260
+      ],
+      "english": "<0xFD><0x38> team's <0xFD> \nwore off!",
+      "french_comparison": "{UNKNOWN_STR} de l'équipe {STRING}\na pris fin !",
+      "expected": "A equipe <0xFD><0x38>: <0xFD><0x00>\\nacabou!",
+      "pt_bytes": 24,
+      "pixels": [
+        171,
+        42
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b42b",
+      "source_hex": "fd13b4e700ced5e9e2e8feebe3e6d900e3dadaabff",
+      "references": [
+        10351332
+      ],
+      "english": "<0xFD>Û's Taunt\nwore off!",
+      "french_comparison": "Provoque de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nest terminé !",
+      "expected": "O Taunt de <0xFD><0x13>\\nacabou!",
+      "pt_bytes": 22,
+      "pixels": [
+        118,
+        42
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b440",
+      "source_hex": "fd3800e8d9d5e1b4e700e8d5dde0ebdde2d8fee4d9e8d9e6d9d800e3e9e8abff",
+      "references": [
+        9859403
+      ],
+      "english": "<0xFD><0x38> team's tailwind\npetered out!",
+      "french_comparison": "Vent Arrière de l'équipe {STRING}\ns'est essoufflé !",
+      "expected": "O Tailwind da equipe <0xFD><0x38>\\nparou de soprar!",
+      "pt_bytes": 41,
+      "pixels": [
+        172,
+        92
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b460",
+      "source_hex": "fd3800e8d9d5e1b4e700c6e9d7dfed00bddcd5e2e8feebe3e6d900e3dadaabff",
+      "references": [
+        9859417
+      ],
+      "english": "<0xFD><0x38> team's Lucky Chant\nwore off!",
+      "french_comparison": "Air Veinard de l'équipe {STRING}\ns'est dissipé !",
+      "expected": "O Lucky Chant da equipe <0xFD><0x38>\\nacabou!",
+      "pt_bytes": 35,
+      "pixels": [
+        193,
+        42
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b480",
+      "source_hex": "cedcd900e6d5dde2d6e3eb00e3e200fd3600e8d9d5e1b4e7fee7ddd8d900d8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        9859431
+      ],
+      "english": "The rainbow on <0xFD>; team's\nside disappeared!",
+      "french_comparison": "L'arc-en-ciel du côté de l'équipe\n{STRING} a disparu !",
+      "expected": "O arco-íris do lado da equipe\\n<0xFD><0x36> desapareceu!",
+      "pt_bytes": 46,
+      "pixels": [
+        166,
+        130
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b4ab",
+      "source_hex": "cedcd900e7d9d500e3da00dadde6d900d8dde7d5e4e4d9d5e6d9d800dae6e3e1fed5e6e3e9e2d800fd3600e8d9d5e1abff",
+      "references": [
+        9859445
+      ],
+      "english": "The sea of fire disappeared from\naround <0xFD>; team!",
+      "french_comparison": "La Mer de Feu autour de l'équipe\n{STRING} a disparu !",
+      "expected": "O mar de fogo ao redor da\\nequipe <0xFD><0x36> desapareceu!",
+      "pt_bytes": 49,
+      "pixels": [
+        146,
+        170
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b4dc",
+      "source_hex": "cedcd900e7ebd5e1e400d5e6e3e9e2d800fd3600e8d9d5e1fed8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        9859459
+      ],
+      "english": "The swamp around <0xFD>; team\ndisappeared!",
+      "french_comparison": "Le marais autour de l'équipe\n{STRING} a disparu !",
+      "expected": "O pântano ao redor da equipe\\n<0xFD><0x36> desapareceu!",
+      "pt_bytes": 45,
+      "pixels": [
+        161,
+        130
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b502",
+      "source_hex": "cedcd900fd1600e6d9e7e8e3e6d9d8fefd13b4e700e7e8d5e8e9e7abff",
+      "references": [
+        9881189
+      ],
+      "english": "The <0xFD>à restored\n<0xFD>Û's status!",
+      "french_comparison": "Le {B_LAST_ITEM} restaure le statut\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX} !",
+      "expected": "<0xFD><0x16> curou o status\\nde <0xFD><0x13>!",
+      "pt_bytes": 25,
+      "pixels": [
+        139,
+        78
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b51f",
+      "source_hex": "fd0f00d7e9e800dde8e700e3ebe200c2cafed5e2d800e1dde2dde1ddeed9d800bbe8e8d5d7dfabff",
+      "references": [
+        9869615
+      ],
+      "english": "<0xFD>Ô cut its own HP\nand minimized Attack!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} sacrifie ses PV\net réduit son Attaque !",
+      "expected": "<0xFD><0x0F> cortou seus PS\\ne minimizou seu Ataque!",
+      "pt_bytes": 42,
+      "pixels": [
+        140,
+        129
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b547",
+      "source_hex": "fd0f00ebd5e700e7e5e9d9d9eed9d8fed6ed00e8dcd900c9d7e8e3e0e3d7dfabff",
+      "references": [
+        9860128
+      ],
+      "english": "<0xFD>Ô was squeezed\nby the Octolock!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est serré par\nOctoprise !",
+      "expected": "<0xFD><0x0F> foi apertado\\npelo Octolock!",
+      "pt_bytes": 31,
+      "pixels": [
+        127,
+        80
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b568",
+      "source_hex": "fd0f00d7d5e200e2e300e0e3e2dbd9e6fed9e7d7d5e4d900d6d9d7d5e9e7d900dde800e9e7d9d800fd14abff",
+      "references": [
+        9875436
+      ],
+      "english": "<0xFD>Ô can no longer\nescape because it used <0xFD>Ñ!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} ne peut plus\nfuir après {B_CURRENT_MOVE} !",
+      "expected": "<0xFD><0x0F> não pode mais\\nfugir após usar <0xFD><0x14>!",
+      "pt_bytes": 37,
+      "pixels": [
+        134,
+        149
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b594",
+      "source_hex": "fd1000d6d9d7d5e1d9feebd9d5dfd9e600e8e300dadde6d9abff",
+      "references": [
+        9862862
+      ],
+      "english": "<0xFD>OE became\nweaker to fire!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} devient\nplus vulnérable au Feu !",
+      "expected": "<0xFD><0x10> ficou mais\\nvulnerável ao fogo!",
+      "pt_bytes": 34,
+      "pixels": [
+        114,
+        109
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b5ae",
+      "source_hex": "fd1000dbe3e800e8e6d5e4e4d9d8fed6ed00d500e7e2d5e400e8e6d5e4abff",
+      "references": [
+        10526940
+      ],
+      "english": "<0xFD>OE got trapped\nby a snap trap!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} est pris\ndans le Mâchouilleur !",
+      "expected": "<0xFD><0x10> ficou preso\\nnuma armadilha!",
+      "pt_bytes": 31,
+      "pixels": [
+        121,
+        85
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b5cd",
+      "source_hex": "fd1000ebd5e700e8e6d5e4e4d9d8fed6ed00fd0fabff",
+      "references": [
+        10526944
+      ],
+      "english": "<0xFD>OE was trapped\nby <0xFD>Ô!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} est piégé\npar {B_ATK_NAME_WITH_PREFIX} !",
+      "expected": "<0xFD><0x10> ficou preso\\npor <0xFD><0x0F>!",
+      "pt_bytes": 23,
+      "pixels": [
+        121,
+        83
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b5e3",
+      "source_hex": "c4d5dbdbd9d800e7e4e0dde2e8d9e6e700d8e9db00dde2e8e3fefd11abff",
+      "references": [
+        10528168
+      ],
+      "english": "Jagged splinters dug into\n<0xFD>Ù!",
+      "french_comparison": "Des éclats acérés blessent\n{B_EFF_NAME_WITH_PREFIX} !",
+      "expected": "Lascas afiadas atingiram\\n<0xFD><0x11>!",
+      "pt_bytes": 29,
+      "pixels": [
+        131,
+        60
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b601",
+      "source_hex": "fd0f00ebd5e700dce9e6e800d6edfee8dcd900e7e4e0dde2e8d9e6e7abff",
+      "references": [
+        9859268
+      ],
+      "english": "<0xFD>Ô was hurt by\nthe splinters!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est blessé\npar les éclats !",
+      "expected": "<0xFD><0x0F> sofreu dano\\npor causa das lascas!",
+      "pt_bytes": 37,
+      "pixels": [
+        122,
+        120
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b61f",
+      "source_hex": "fd0f00dde700e2e300e0e3e2dbd9e6fed5dadae0ddd7e8d9d800d6ed00e7e4e0dde2e8d9e6e7abff",
+      "references": [
+        10351304
+      ],
+      "english": "<0xFD>Ô is no longer\nafflicted by splinters!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} n'est plus\naffligé par les éclats !",
+      "expected": "<0xFD><0x0F> não sofre\\nmais com as lascas!",
+      "pt_bytes": 33,
+      "pixels": [
+        110,
+        107
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b647",
+      "source_hex": "fd0f00dde700dce9e6e8fed6ed00e8dcd900e7d9d500e3da00dadde6d9abff",
+      "references": [
+        10349536
+      ],
+      "english": "<0xFD>Ô is hurt\nby the sea of fire!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est brûlé\npar la Mer de Feu !",
+      "expected": "<0xFD><0x0F> sofre dano\\npelo mar de fogo!",
+      "pt_bytes": 32,
+      "pixels": [
+        116,
+        99
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b666",
+      "source_hex": "fd1300dae3e9e2d800e3e2d9fefd16abff",
+      "references": [
+        9851295
+      ],
+      "english": "<0xFD>Û found one\n<0xFD>à!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} trouve\n{B_LAST_ITEM} !",
+      "expected": "<0xFD><0x13> encontrou\\num <0xFD><0x16>!",
+      "pt_bytes": 20,
+      "pixels": [
+        110,
+        78
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b677",
+      "source_hex": "bce3e8dc00cae3df1be1e3e200ebdde0e000dad5dde2e800dde2fee8dce6d9d900e8e9e6e2e7abff",
+      "references": [
+        9853391
+      ],
+      "english": "Both Pokémon will faint in\nthree turns!",
+      "french_comparison": "Les deux Pokémon tomberont K.O.\ndans trois tours !",
+      "expected": "Os dois Pokémon serão\\nnocauteados em três turnos!",
+      "pt_bytes": 50,
+      "pixels": [
+        118,
+        152
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b69f",
+      "source_hex": "fd3700e8d9d5e100dbe3e800e8e6d5e4e4d9d8feebdde8dc00eadde2d9e7abff",
+      "references": [
+        10334856
+      ],
+      "english": "<0xFD><0x37> team got trapped\nwith vines!",
+      "french_comparison": "L'équipe {STRING} est prise\ndans des lianes !",
+      "expected": "A equipe <0xFD><0x37> ficou\\npresa em vinhas!",
+      "pt_bytes": 35,
+      "pixels": [
+        139,
+        90
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b6bf",
+      "source_hex": "fd0f00dde700dce9e6e800d6edfec1aec7d5ec00d0dde2d900c6d5e7dcb4e700dad9e6e3d7dde3e9e700d6d9d5e8dde2dbabff",
+      "references": [
+        10349552
+      ],
+      "english": "<0xFD>Ô is hurt by\nG-Max Vine Lash's ferocious beating!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est blessé par\nles coups de G-Max Lianes !",
+      "expected": "<0xFD><0x0F> sofre com\\nos golpes de G-Max Vine Lash!",
+      "pt_bytes": 43,
+      "pixels": [
+        111,
+        167
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b6f2",
+      "source_hex": "cedcd900eadde2d9e700d5e6e3e9e2d800fd36fee8d9d5e100d8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        10353304
+      ],
+      "english": "The vines around <0xFD>;\nteam disappeared!",
+      "french_comparison": "Les lianes autour de l'équipe\n{STRING} disparaissent !",
+      "expected": "As vinhas ao redor da equipe\\n<0xFD><0x36> desapareceram!",
+      "pt_bytes": 47,
+      "pixels": [
+        159,
+        141
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b718",
+      "source_hex": "fd3700e8d9d5e100ebd5e700e7e9e6e6e3e9e2d8d9d8fed6ed00dadde6d9abff",
+      "references": [
+        10334868
+      ],
+      "english": "<0xFD><0x37> team was surrounded\nby fire!",
+      "french_comparison": "L'équipe {STRING} est encerclée\nde flammes !",
+      "expected": "A equipe <0xFD><0x37> foi\\ncercada por fogo!",
+      "pt_bytes": 34,
+      "pixels": [
+        127,
+        99
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b738",
+      "source_hex": "fd0f00dde700d6e9e6e2dde2dbfee9e400ebdde8dcdde200c1aec7d5ec00d1dde0d8dadde6d9b4e700dae0d5e1d9abff",
+      "references": [
+        10349556
+      ],
+      "english": "<0xFD>Ô is burning\nup within G-Max Wildfire's flame!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} brûle dans\nle G-Max Fournaise !",
+      "expected": "<0xFD><0x0F> queima nas\\nchamas de G-Max Wildfire!",
+      "pt_bytes": 40,
+      "pixels": [
+        116,
+        142
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b768",
+      "source_hex": "cedcd900c1aec7d5ec00d1dde0d8dadde6d900dae0d5e1d9e700d5e6e3e9e2d8fefd3600e8d9d5e100d8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        10353308
+      ],
+      "english": "The G-Max Wildfire flames around\n<0xFD>; team disappeared!",
+      "french_comparison": "Les flammes G-Max Fournaise autour\nde l'équipe {STRING} disparaissent !",
+      "expected": "As chamas de G-Max Wildfire\\nao redor da equipe <0xFD><0x36> sumiram!",
+      "pt_bytes": 59,
+      "pixels": [
+        153,
+        214
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b79e",
+      "source_hex": "fd3700e8d9d5e100dbe3e800d7d5e9dbdce800dde2fee8dcd900eae3e6e8d9ec00e3da00ebd5e8d9e6abff",
+      "references": [
+        10334872
+      ],
+      "english": "<0xFD><0x37> team got caught in\nthe vortex of water!",
+      "french_comparison": "L'équipe {STRING} est prise dans\nun tourbillon d'eau !",
+      "expected": "A equipe <0xFD><0x37> ficou\\npresa num redemoinho de água!",
+      "pt_bytes": 48,
+      "pixels": [
+        139,
+        167
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b7c9",
+      "source_hex": "fd0f00dde700dce9e6e800d6edfec1aec7d5ec00bdd5e2e2e3e2d5d8d9b4e700eae3e6e8d9ecabff",
+      "references": [
+        10349560
+      ],
+      "english": "<0xFD>Ô is hurt by\nG-Max Cannonade's vortex!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est blessé par\nle G-Max Canonnade !",
+      "expected": "<0xFD><0x0F> sofre com\\no vórtice de G-Max Cannonade!",
+      "pt_bytes": 43,
+      "pixels": [
+        111,
+        167
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b7f1",
+      "source_hex": "cedcd900eae3e6e8d9ec00e3da00ebd5e8d9e600d5e6e3e9e2d8fefd3600e8d9d5e100d8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        10353312
+      ],
+      "english": "The vortex of water around\n<0xFD>; team disappeared!",
+      "french_comparison": "Le vortex d'eau autour de l'équipe\n{STRING} disparaît !",
+      "expected": "O vórtice de água ao redor\\nda equipe <0xFD><0x36> desapareceu!",
+      "pt_bytes": 53,
+      "pixels": [
+        150,
+        188
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b821",
+      "source_hex": "fd3700e8d9d5e100ebd5e700e7e9e6e6e3e9e2d8d9d8fed6ed00e6e3d7dfe7abff",
+      "references": [
+        10335772
+      ],
+      "english": "<0xFD><0x37> team was surrounded\nby rocks!",
+      "french_comparison": "L'équipe {STRING} est encerclée\nde rochers !",
+      "expected": "A equipe <0xFD><0x37> foi\\ncercada por rochas!",
+      "pt_bytes": 36,
+      "pixels": [
+        127,
+        110
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b842",
+      "source_hex": "fd0f00dde700dce9e6e8fed6ed00c1aec7d5ec00d0e3e0d7d5e0dde8dcb4e700e6e3d7dfe7abff",
+      "references": [
+        10349564
+      ],
+      "english": "<0xFD>Ô is hurt\nby G-Max Volcalith's rocks!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est blessé\npar G-Max Lithofeu !",
+      "expected": "<0xFD><0x0F> sofre com\\nas rochas de G-Max Volcalith!",
+      "pt_bytes": 43,
+      "pixels": [
+        111,
+        166
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b869",
+      "source_hex": "cedcd900c1aec7d5ec00d0e3e0d7d5e0dde8dc00e6e3d7dfe700d5e6e3e9e2d8fefd3600e8d9d5e100d8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        10353316
+      ],
+      "english": "The G-Max Volcalith rocks around\n<0xFD>; team disappeared!",
+      "french_comparison": "Les rochers G-Max Lithofeu autour\nde l'équipe {STRING} disparaissent !",
+      "expected": "As rochas de G-Max Volcalith\\nao redor da equipe <0xFD><0x36> sumiram!",
+      "pt_bytes": 60,
+      "pixels": [
+        160,
+        214
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b89f",
+      "source_hex": "fd3700e8d9d5e100dcd5e700d6d9d7e3e1d9fee8e6d5e4e4d9d800dde200d500daddd9e6ed00eae3e6e8d9ecabff",
+      "references": [],
+      "english": "<0xFD><0x37> team has become\ntrapped in a fiery vortex!",
+      "french_comparison": "L'équipe {STRING} est devenue\npiégée dans un vortex enflammé !",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4b8cd",
+      "source_hex": "fd1000d7e3e9e0d8e2b4e8fedae9e0e0ed00e4e6e3e8d9d7e800dde8e7d9e0da00d5e2d800dbe3e800dce9e6e8abff",
+      "references": [
+        9856716
+      ],
+      "english": "<0xFD>OE couldn't\nfully protect itself and got hurt!",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} n'a pas pu se\nprotéger totalement et est blessé !",
+      "expected": "<0xFD><0x10> sofreu dano\\npor não se proteger totalmente!",
+      "pt_bytes": 47,
+      "pixels": [
+        122,
+        175
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b8fc",
+      "source_hex": "cedcd900e1ede7e8d9e6dde3e9e700e7e8e6e3e2db00ebdde2d8e7fed7e3e2e8dde2e9d900e8e300d6e0e3ebadff",
+      "references": [
+        9858765
+      ],
+      "english": "The mysterious strong winds\ncontinue to blow.",
+      "french_comparison": "De puissants vents mystérieux\ncontinuent de souffler.",
+      "expected": "Os fortes ventos misteriosos\\ncontinuam soprando.",
+      "pt_bytes": 49,
+      "pixels": [
+        151,
+        105
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b92a",
+      "source_hex": "fd1400d7d5e2b4e800d6d900e7d9e0d9d7e8d9d800e3e200e8dcd9fec3e2e7d5e2d900d8dddadaddd7e9e0e8edabfbff",
+      "references": [
+        9882962
+      ],
+      "english": "<0xFD>Ñ can't be selected on the\nInsane difficulty!<0xFB>",
+      "french_comparison": "{B_CURRENT_MOVE} est interdit en\ndifficulté Insane !<0xFB>",
+      "expected": "<0xFD><0x14> não pode ser usado\\nna dificuldade Insane!<0xFB>",
+      "pt_bytes": 46,
+      "pixels": [
+        164,
+        122,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b95a",
+      "source_hex": "fd0000dae3e9e2d800d5e2d800e4e0d5d7d9d800e3e2d9fefd1600dde200e8dcd900bcd5dbabff",
+      "references": [],
+      "english": "<0xFD>  found and placed one\n<0xFD>à in the Bag!",
+      "french_comparison": "{UNKNOWN_STR} a trouvé et placé un\n{B_LAST_ITEM} dans le sac !",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4b981",
+      "source_hex": "fd0000dae3e9e2d800d5e2d800e4e0d5d7d9d800e3e2d9fefd1600dde200e8dcd900bde9d6d9abff",
+      "references": [
+        10427860
+      ],
+      "english": "<0xFD>  found and placed one\n<0xFD>à in the Cube!",
+      "french_comparison": "{UNKNOWN_STR} a trouvé et rangé\nun {B_LAST_ITEM} dans le Cube !",
+      "expected": "<0xFD><0x00> encontrou e guardou\\num <0xFD><0x16> no Cube!",
+      "pt_bytes": 38,
+      "pixels": [
+        169,
+        125
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b9a9",
+      "source_hex": "fd2300e4ddd7dfd9d800e9e4fee3e2d900fd16abff",
+      "references": [
+        10427820
+      ],
+      "english": "<0xFD>ó picked up\none <0xFD>à!",
+      "french_comparison": "{B_PLAYER_NAME} ramasse\nun {B_LAST_ITEM} !",
+      "expected": "<0xFD><0x23> pegou\\num <0xFD><0x16>!",
+      "pt_bytes": 16,
+      "pixels": [
+        90,
+        78
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4b9be",
+      "source_hex": "fd0000d5e4e4d9d5e6e700e8e300d6d900dce3e0d8dde2dbfee8dcd900fd16adfbd1e3e9e0d800ede3e900e0dddfd900e8e300e8d5dfd900e8dcd9fefd1600dae6e3e100dde8acff",
+      "references": [
+        9858713
+      ],
+      "english": "<0xFD>  appears to be holding\nthe <0xFD>à.<0xFB>Would you like to take the\n<0xFD>à from it?",
+      "french_comparison": "{UNKNOWN_STR} semble tenir le\n{B_LAST_ITEM}.<0xFB>Prendre le {B_LAST_ITEM} ?\n",
+      "expected": "<0xFD><0x00> parece segurar\\num <0xFD><0x16>.<0xFB>Quer pegar o\\n<0xFD><0x16> dele?",
+      "pt_bytes": 47,
+      "pixels": [
+        140,
+        77,
+        70,
+        89
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ba06",
+      "source_hex": "c9e2d900fd1600ebd5e700e8d5dfd9e200dae6e3e1fefd0000d5e2d800e4e0d5d7d9d800dde200e8dcd900bcd5dbadff",
+      "references": [],
+      "english": "One <0xFD>à was taken from\n<0xFD>  and placed in the Bag.",
+      "french_comparison": "Un {B_LAST_ITEM} a été prélevé sur\n{UNKNOWN_STR} et placé dans le sac.",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4ba36",
+      "source_hex": "c9e2d900fd1600ebd5e700e8d5dfd9e200dae6e3e1fefd0000d5e2d800e4e0d5d7d9d800dde200e8dcd900bde9d6d9adff",
+      "references": [
+        10262436
+      ],
+      "english": "One <0xFD>à was taken from\n<0xFD>  and placed in the Cube.",
+      "french_comparison": "Un {B_LAST_ITEM} retiré à\n{UNKNOWN_STR} et rangé dans le Cube.",
+      "expected": "Um <0xFD><0x16> foi retirado de\\n<0xFD><0x00> e guardado no Cube.",
+      "pt_bytes": 45,
+      "pixels": [
+        160,
+        171
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ba67",
+      "source_hex": "fd1000e7e9e1e1e3e2d9d8fed5e2e3e8dcd9e600fd00abff",
+      "references": [
+        9860363
+      ],
+      "english": "<0xFD>OE summoned\nanother <0xFD> !",
+      "french_comparison": "{B_DEF_NAME_WITH_PREFIX} invoque\nun autre {UNKNOWN_STR} !",
+      "expected": "<0xFD><0x10> invocou\\noutro <0xFD><0x00>!",
+      "pt_bytes": 21,
+      "pixels": [
+        99,
+        94
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ba7f",
+      "source_hex": "fd0fb4e700e7e8d5e8e700e6e3e7d9abff",
+      "references": [
+        9855892
+      ],
+      "english": "<0xFD>Ô's stats rose!",
+      "french_comparison": "Les stats de {B_ATK_NAME_WITH_PREFIX} augmentent !",
+      "expected": "As stats de <0xFD><0x0F> subiram!",
+      "pt_bytes": 24,
+      "pixels": [
+        171
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ba90",
+      "source_hex": "fd1c00fd1d00dde7fed5d6e3e9e800e8e300e7d9e2d800e3e9e800d500e2d9eb00cae3df1be1e3e2adfbd1dde0e000fd2300d7dcd5e2dbd9fecae3df1be1e3e2acff",
+      "references": [
+        9886395
+      ],
+      "english": "<0xFD>ê <0xFD>ë is\nabout to send out a new Pokémon.<0xFB>Will <0xFD>ó change\nPokémon?",
+      "french_comparison": "{B_TRAINER1_CLASS} {B_TRAINER1_NAME} va\nenvoyer un nouveau Pokémon.<0xFB>{B_PLAYER_NAME} change-t-il\nde Pokémon ?",
+      "expected": "<0xFD><0x1C> <0xFD><0x1D> vai\\nenviar um novo Pokémon.<0xFB><0xFD><0x23> vai trocar\\nde Pokémon?",
+      "pt_bytes": 60,
+      "pixels": [
+        136,
+        130,
+        115,
+        64
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bad2",
+      "source_hex": "fd1100dcd5e700d8d9eae3e0ead9d8fedde2e8e300fd00abff",
+      "references": [
+        9861311
+      ],
+      "english": "<0xFD>Ù has devolved\ninto <0xFD> !",
+      "french_comparison": "{B_EFF_NAME_WITH_PREFIX} régresse en\n{UNKNOWN_STR} !",
+      "expected": "<0xFD><0x11> regrediu\\npara <0xFD><0x00>!",
+      "pt_bytes": 21,
+      "pixels": [
+        104,
+        89
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4baeb",
+      "source_hex": "fd0f00d8d9eae3e0ead9d800d5e2d8fedae3e6dbe3e800e8dcd900e1e3ead900dde800ebd5e700dbe3dde2db00e8e300e9e7d9abff",
+      "references": [
+        9854302
+      ],
+      "english": "<0xFD>Ô devolved and\nforgot the move it was going to use!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} régresse et\noublie son attaque !",
+      "expected": "<0xFD><0x0F> regrediu e\\nesqueceu o movimento que usaria!",
+      "pt_bytes": 47,
+      "pixels": [
+        116,
+        183
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bb20",
+      "source_hex": "fd11b4e700e7e8d5e8e7fed5e2d800e4e6dde1d5e6ed00e7e8d5e8e9e700ebd9e6d900e6d9e7d9e8abff",
+      "references": [
+        9861336
+      ],
+      "english": "<0xFD>Ù's stats\nand primary status were reset!",
+      "french_comparison": "Stats et statut principal de\n{B_EFF_NAME_WITH_PREFIX} réinitialisés !",
+      "expected": "<0xFD><0x11> teve suas stats\\ne status principal restaurados!",
+      "pt_bytes": 51,
+      "pixels": [
+        143,
+        170
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bb4a",
+      "source_hex": "fd1300d5e4e4d9d5e6e700d5e700e8dcd9fefd00aee8ede4d9abff",
+      "references": [
+        10206992,
+        10544964
+      ],
+      "english": "<0xFD>Û appears as the\n<0xFD> -type!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} apparaît en\ntype {UNKNOWN_STR} !",
+      "expected": "<0xFD><0x13> aparece como\\ntipo <0xFD><0x00>!",
+      "pt_bytes": 25,
+      "pixels": [
+        131,
+        87
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bb65",
+      "source_hex": "fd1300d5e4e4d9d5e6e700d5e700e8dcd9fefd00ae00d5e2d800fd01aee8ede4d9abff",
+      "references": [
+        10206996,
+        10544968
+      ],
+      "english": "<0xFD>Û appears as the\n<0xFD> - and <0xFD>À-type!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} apparaît en\ntype {UNKNOWN_STR} et {PLAYER} !",
+      "expected": "<0xFD><0x13> aparece como\\ntipos <0xFD><0x00> e <0xFD><0x01>!",
+      "pt_bytes": 31,
+      "pixels": [
+        131,
+        164
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bb88",
+      "source_hex": "c8d9dbd5e8ddead900d9e1e3e8dde3e2e700dadde0e000e8dcd900d5dde6abff",
+      "references": [
+        10207056
+      ],
+      "english": "Negative emotions fill the air!",
+      "french_comparison": "Des émotions sombres dans l'air !",
+      "expected": "Emoções negativas enchem o ar!",
+      "pt_bytes": 31,
+      "pixels": [
+        172
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bba8",
+      "source_hex": "fd0f00dde7fee8e3e6e1d9e2e8d9d800d6ed00e8dcd900e2d9dbd5e8ddead900d9e1e3e8dde3e2e7abff",
+      "references": [
+        9859295
+      ],
+      "english": "<0xFD>Ô is\ntormented by the negative emotions!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est\ntourmenté par les émotions !",
+      "expected": "<0xFD><0x0F> é atormentado\\npelas emoções negativas!",
+      "pt_bytes": 42,
+      "pixels": [
+        134,
+        136
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bbd2",
+      "source_hex": "bb00e8d5dde0ebdde2d800d6e0d9eb00dae6e3e100d6d9dcdde2d8fec0e0eddde2dbaee8ede4d900cae3df1be1e3e2abff",
+      "references": [
+        10207064
+      ],
+      "english": "A tailwind blew from behind\nFlying-type Pokémon!",
+      "french_comparison": "Vent Arrière a soufflé derrière\nles Pokémon Vol !",
+      "expected": "Um vento soprou por trás dos\\nPokémon do tipo Voador!",
+      "pt_bytes": 53,
+      "pixels": [
+        159,
+        132
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bc03",
+      "source_hex": "fd1300dde7fee0d9eadde8d5e8dde2db00ebdde8dc00d9e0d9d7e8e6e3e1d5dbe2d9e8dde7e1abff",
+      "references": [
+        10198152,
+        10207068,
+        10546844
+      ],
+      "english": "<0xFD>Û is\nlevitating with electromagnetism!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} lévite grâce à\nl'électromagnétisme !",
+      "expected": "<0xFD><0x13> levita\\ncom eletromagnetismo!",
+      "pt_bytes": 32,
+      "pixels": [
+        92,
+        118
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bc2b",
+      "source_hex": "cedcd900d8dde1d9e2e7dde3e2e700d5e6d900e4d9e6e1d5e2d9e2e8e0edfee8ebdde7e8d9d8abfbcde0e3ebd9e600cae3df1be1e3e200ebdde0e000d5e0ebd5ede700e1e3ead9fedadde6e7e8abff",
+      "references": [],
+      "english": "The dimensions are permanently\ntwisted!<0xFB>Slower Pokémon will always move\nfirst!",
+      "french_comparison": "Les dimensions sont tordues en\npermanence !<0xFB>Les Pokémon les plus lents se\ndéplaceront toujours en premier !",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4bc7a",
+      "source_hex": "c2d9d5eaed00cae3df1be1e3e200dcd5ead900d5e200d5d8ead5e2e8d5dbd9fedcd9e6d9abfbcedcd900dcd9d5eaddd9e600e8dcd900cae3df1be1e3e2b800e8dcd9fedad5e7e8d9e600dde800ebdde0e000d6d9abff",
+      "references": [
+        10207076
+      ],
+      "english": "Heavy Pokémon have an advantage\nhere!<0xFB>The heavier the Pokémon, the\nfaster it will be!",
+      "french_comparison": "Les Pokémon lourds sont avantagés !\nPlus ils sont lourds, plus ils<0xFB>iront vite !\n",
+      "expected": "Pokémon pesados levam vantagem\\naqui!<0xFB>Quanto mais pesado o Pokémon,\\nmais rápido ele será!",
+      "pt_bytes": 89,
+      "pixels": [
+        173,
+        28,
+        165,
+        117
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bcd0",
+      "source_hex": "bb00eaddd7dde3e9e700e7d5e2d8e7e8e3e6e100d6e6d9ebd9d8abff",
+      "references": [
+        10117824
+      ],
+      "english": "A vicious sandstorm brewed!",
+      "french_comparison": "Une tempête de sable se lève !",
+      "expected": "Uma forte tempestade de areia!",
+      "pt_bytes": 31,
+      "pixels": [
+        171
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bcec",
+      "source_hex": "bb00eaddd7dde3e9e700e7d5e2d8e7e8e3e6e100dde700e6d5dbdde2dbadff",
+      "references": [
+        10348576
+      ],
+      "english": "A vicious sandstorm is raging.",
+      "french_comparison": "La tempête de sable fait rage.",
+      "expected": "A forte tempestade de areia segue.",
+      "pt_bytes": 35,
+      "pixels": [
+        193
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bd0b",
+      "source_hex": "fd0f00dde700d6e9dadad9e8d9d8fed6ed00e8dcd900eaddd7dde3e9e700e7d5e2d8e7e8e3e6e1abff",
+      "references": [
+        10414244
+      ],
+      "english": "<0xFD>Ô is buffeted\nby the vicious sandstorm!",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est fouetté par\nla tempête de sable !",
+      "expected": "<0xFD><0x0F> é atingido pela\\nforte tempestade de areia!",
+      "pt_bytes": 46,
+      "pixels": [
+        143,
+        147
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bd34",
+      "source_hex": "bb00e7dcd5d8e3ebed00ead9dde000dde700d7e3ead9e6dde2dbfee8dcd900daddd9e0d8abfbc1dce3e7e8aee8ede4d900cae3df1be1e3e200ebdde0e000e8d5dfd900dcd5e0dafed8d5e1d5dbd900ebdcd9e200d5e800dae9e0e000dcd9d5e0e8dcabff",
+      "references": [
+        10207084
+      ],
+      "english": "A shadowy veil is covering\nthe field!<0xFB>Ghost-type Pokémon will take half\ndamage when at full health!",
+      "french_comparison": "Un voile spectral recouvre le\nterrain !<0xFB>Les Spectre prennent demi-dégâts\nà pleine vie !",
+      "expected": "Um véu sombrio cobre\\no campo!<0xFB>Fantasmas com PS cheios\\nrecebem metade do dano!",
+      "pt_bytes": 78,
+      "pixels": [
+        115,
+        48,
+        131,
+        135
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bd98",
+      "source_hex": "bce9e800e3e2e0ed00c1dce3e7e8aee8ede4d9e700d7d5e200d7e6d9d5e8d900d5fecdd5dad9dbe9d5e6d800e9e2d8d9e600e8dcd900e7dcd5d8e3ebed00ead9dde0abff",
+      "references": [
+        10421344
+      ],
+      "english": "But only Ghost-types can create a\nSafeguard under the shadowy veil!",
+      "french_comparison": "Seuls les Spectre peuvent poser\nRune Protect sous le voile !",
+      "expected": "Só Fantasmas podem criar\\nSafeguard sob o véu sombrio!",
+      "pt_bytes": 54,
+      "pixels": [
+        136,
+        161
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bddc",
+      "source_hex": "bce9e800e3e2e0ed00c1dce3e7e8aee8ede4d9e700d7d5e200d7e6d9d5e8d900d5fecde9d6e7e8dde8e9e8d900e9e2d8d9e600e8dcd900e7dcd5d8e3ebed00ead9dde0abff",
+      "references": [
+        9865912
+      ],
+      "english": "But only Ghost-types can create a\nSubstitute under the shadowy veil!",
+      "french_comparison": "Seuls les Spectre peuvent créer\nClonage sous le voile !",
+      "expected": "Só Fantasmas podem criar\\nSubstitute sob o véu sombrio!",
+      "pt_bytes": 55,
+      "pixels": [
+        136,
+        163
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4be21",
+      "source_hex": "caddecddd9e700d5e6d900dae0eddde2db00d5e6e3e9e2d800e8dcd900daddd9e0d8abff",
+      "references": [
+        10207092
+      ],
+      "english": "Pixies are flying around the field!",
+      "french_comparison": "Des farfadets virevoltent ici !",
+      "expected": "Fadas voam pelo campo!",
+      "pt_bytes": 23,
+      "pixels": [
+        130
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4be45",
+      "source_hex": "cedcd900caddecddd9e700dde200e8dcd900d5dde600dde2d7e6d9d5e7d9d8fefd13b4e700fd00abff",
+      "references": [
+        9856098
+      ],
+      "english": "The Pixies in the air increased\n<0xFD>Û's <0xFD> !",
+      "french_comparison": "Les farfadets ont augmenté la\n{UNKNOWN_STR} de {B_SCR_ACTIVE_NAME_WITH_PREFIX} !",
+      "expected": "As fadas no ar deram a\\n<0xFD><0x13> um aumento em <0xFD><0x00>!",
+      "pt_bytes": 44,
+      "pixels": [
+        126,
+        202
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4be6e",
+      "source_hex": "bb00e6d5dde2d6e3eb00d5e4e4d9d5e6d9d800dde200e8dcd900e7dfed00d5d6e3ead9fee8dcd900d9e2e8dde6d900d6d5e8e8e0d9daddd9e0d8abfbcedcd900d7dcd5e2d7d900e3da00e7d9d7e3e2d8d5e6ed00d9dadad9d7e8e700e9e7d9d8fed6ed00bee6d5dbe3e2aee8ede4d9e700dcd5e700d6d9d9e200d8e3e9d6e0d9d8abff",
+      "references": [
+        10207100
+      ],
+      "english": "A rainbow appeared in the sky above\nthe entire battlefield!<0xFB>The chance of secondary effects used\nby Dragon-types has been doubled!",
+      "french_comparison": "Un arc-en-ciel couvre tout le\nterrain !<0xFB>Les effets secondaires des attaques\nDragon sont doublés !",
+      "expected": "Um arco-íris surgiu no céu\\nsobre todo o campo de batalha!<0xFB>A chance de efeitos extras de\\nPokémon Dragão foi duplicada!",
+      "pt_bytes": 118,
+      "pixels": [
+        146,
+        175,
+        165,
+        165
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bef1",
+      "source_hex": "bce9e800e8dcd900d5e8e8d5d7dfb4e700e8ede4d900d7d5e2b4e800d6d900e9e7d9d8fedde200e8dcdde700dadddbdce8abff",
+      "references": [
+        9854898
+      ],
+      "english": "But the attack's type can't be used\nin this fight!",
+      "french_comparison": "Mais ce type d'attaque est interdit\ndans ce combat !",
+      "expected": "Mas esse tipo de movimento\\nnão pode ser usado nesta luta!",
+      "pt_bytes": 58,
+      "pixels": [
+        146,
+        171
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bf24",
+      "source_hex": "fd00aee8ede4d900e1e3ead9e700d7d5e2b4e800d6d900e9e7d9d8fedde200e8dcdde700e6e3e9e2d800e3da00e8dcd900ccdde2db00bddcd5e0e0d9e2dbd9abfbff",
+      "references": [
+        9882897
+      ],
+      "english": "<0xFD> -type moves can't be used\nin this round of the Ring Challenge!<0xFB>",
+      "french_comparison": "Les capacités de type {UNKNOWN_STR}\nsont interdites à ce tour du Ring !<0xFB>",
+      "expected": "Movimentos do tipo <0xFD><0x00>\\nsão proibidos nesta rodada do Ring!<0xFB>",
+      "pt_bytes": 59,
+      "pixels": [
+        160,
+        196,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bf66",
+      "source_hex": "fd1400d7d5e2b4e800d6d900e9e7d9d800dde2fee8dcd900ccdde2db00bddcd5e0e0d9e2dbd9abfbff",
+      "references": [
+        9882910
+      ],
+      "english": "<0xFD>Ñ can't be used in\nthe Ring Challenge!<0xFB>",
+      "french_comparison": "{B_CURRENT_MOVE} est interdit dans\nle Ring Challenge !<0xFB>",
+      "expected": "<0xFD><0x14> não pode ser usado\\nno Ring Challenge!<0xFB>",
+      "pt_bytes": 42,
+      "pixels": [
+        164,
+        101,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bf8f",
+      "source_hex": "beede2d5e1d5ec00bfe2d9e6dbed00dbd5e8dcd9e6d9d8fed5e6e3e9e2d800ede3e9abff",
+      "references": [
+        10207044
+      ],
+      "english": "Dynamax Energy gathered\naround you!",
+      "french_comparison": "Énergie Dynamax accumulée\nautour de toi !",
+      "expected": "Energia Dynamax se reuniu\\nao seu redor!",
+      "pt_bytes": 40,
+      "pixels": [
+        140,
+        75
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bfb3",
+      "source_hex": "fd1300d7e6d9d5e8d9d800d5fee4e6e3ded9d7e8dde3e200e3da00dde8e7d9e0da00ebdde8dc00beede2d5e1d5ecabff",
+      "references": [
+        9882607
+      ],
+      "english": "<0xFD>Û created a\nprojection of itself with Dynamax!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} crée un clone\nDynamax !",
+      "expected": "<0xFD><0x13> criou uma\\nprojeção de si com Dynamax!",
+      "pt_bytes": 41,
+      "pixels": [
+        111,
+        157
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bfe3",
+      "source_hex": "fd1300dde700e2e300e0e3e2dbd9e6febeede2d5e1d5ecd9d8abff",
+      "references": [
+        9860278
+      ],
+      "english": "<0xFD>Û is no longer\nDynamaxed!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} n'est plus\nen Dynamax !",
+      "expected": "<0xFD><0x13> não está mais\\nem Dynamax!",
+      "pt_bytes": 29,
+      "pixels": [
+        132,
+        65
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4bffe",
+      "source_hex": "fd0f00e7dce3e3df00dde8e7fedcd9d5d8adfbc3e800e7d9d9e1e700e0dddfd900dde800d7d5e2b4e800e9e7d9fee8dcdde700e1e3ead9b0ff",
+      "references": [
+        9854989
+      ],
+      "english": "<0xFD>Ô shook its\nhead.<0xFB>It seems like it can't use\nthis move\"",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} secoue la tête.\nImpossible d'utiliser<0xFB>cette capacité...\n",
+      "expected": "<0xFD><0x0F> balançou a\\ncabeça.<0xFB>Parece não poder usar\\nesse movimento<0xB0>",
+      "pt_bytes": 60,
+      "pixels": [
+        118,
+        41,
+        121,
+        78
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c000",
+      "source_hex": "00e7dce3e3df00dde8e7fedcd9d5d8adfbc3e800e7d9d9e1e700e0dddfd900dde800d7d5e2b4e800e9e7d9fee8dcdde700e1e3ead9b0ff",
+      "references": [],
+      "english": "shook its\nhead.<0xFB>It seems like it can't use\nthis move\"",
+      "french_comparison": "Il secoue la tête.\n<0xFA>Il semble incapable d'utiliser\ncette capacité...",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Fragment interne des entrées 0xa4bffe. Le consommateur du parent est traité séparément.",
+      "containing_entries": [
+        "0xa4bffe"
+      ]
+    },
+    {
+      "offset": "0xa4c037",
+      "source_hex": "bce9e800e8dcd900e1e3ead900ebd5e700d6e0e3d7dfd9d800d6ed00e8dcd9fee4e3ebd9e600e3da00beede2d5e1d5ecabff",
+      "references": [
+        9855020,
+        9863154
+      ],
+      "english": "But the move was blocked by the\npower of Dynamax!",
+      "french_comparison": "L'attaque est bloquée par le\npouvoir Dynamax !",
+      "expected": "Mas o movimento foi bloqueado\\npelo poder do Dynamax!",
+      "pt_bytes": 53,
+      "pixels": [
+        165,
+        129
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c069",
+      "source_hex": "cedcd900dde8d9e100ebd5e700d6e0e3d7dfd9d800d6ed00e8dcd9fee4e3ebd9e600e3da00beede2d5e1d5ecabff",
+      "references": [
+        9881709
+      ],
+      "english": "The item was blocked by the\npower of Dynamax!",
+      "french_comparison": "L'objet est bloqué par le\npouvoir Dynamax !",
+      "expected": "O item foi bloqueado\\npelo poder do Dynamax!",
+      "pt_bytes": 44,
+      "pixels": [
+        113,
+        129
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c097",
+      "source_hex": "fd1300d5e4e4d9d5e6e7fee8e300d6d900e1d5e7e7ddead9abff",
+      "references": [
+        10207032
+      ],
+      "english": "<0xFD>Û appears\nto be massive!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} semble\ngéant !",
+      "expected": "<0xFD><0x13> parece\\nenorme!",
+      "pt_bytes": 18,
+      "pixels": [
+        95,
+        40
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c0b1",
+      "source_hex": "bb00e7e8e3e6e100e7e8d5e6e8d9d800d6e6d9ebdde2db00d5d6e3ead900ede3e9adff",
+      "references": [
+        9856324
+      ],
+      "english": "A storm started brewing above you.",
+      "french_comparison": "Une tempête se prépare au-dessus.",
+      "expected": "Uma tempestade se forma acima.",
+      "pt_bytes": 31,
+      "pixels": [
+        171
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c0d4",
+      "source_hex": "fd1300dde700dbd9e8e8dde2dbfed8d9e7e4d9e6d5e8d9abff",
+      "references": [
+        9857636
+      ],
+      "english": "<0xFD>Û is getting\ndesperate!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} désespère !\n",
+      "expected": "<0xFD><0x13> está ficando\\ndesesperado!",
+      "pt_bytes": 29,
+      "pixels": [
+        126,
+        69
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c0ed",
+      "source_hex": "fd1300dde700dbd9e8e8dde2dbfed8d9e7e4d9e6d5e8d9abfbc3e8e700d5e8e8d5d7dfe700d5e6d900dbe6e3ebdde2db00e1e3e6d9fed5dbdbe6d9e7e7ddead9abff",
+      "references": [],
+      "english": "<0xFD>Û is getting\ndesperate!<0xFB>Its attacks are growing more\naggressive!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX}\ndevient désespéré !<0xFB>Ses attaques deviennent de plus en\nplus agressives !",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4c12f",
+      "source_hex": "bb00e1ede7e8d9e6dde3e9e700d6d5e6e6ddd9e600d5e4e4d9d5e6d9d800dde2fedae6e3e2e800e3da00fd13fad5e2d800dde700e4e6e3e8d9d7e8dde2db00dde800dae6e3e100d5e8e8d5d7dfe7abff",
+      "references": [
+        9856378,
+        9857656
+      ],
+      "english": "A mysterious barrier appeared in\nfront of <0xFD>Û<0xFA>and is protecting it from attacks!",
+      "french_comparison": "Une barrière mystérieuse apparaît\ndevant {B_SCR_ACTIVE_NAME_WITH_PREFIX}<0xFA>et le protège !",
+      "expected": "Uma barreira misteriosa surgiu\\ndiante de <0xFD><0x13><0xFA>e o protege de ataques!",
+      "pt_bytes": 68,
+      "pixels": [
+        163,
+        110,
+        134
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c17f",
+      "source_hex": "bce9e800e8dcd900e1ede7e8d9e6dde3e9e700d6d5e6e6ddd9e6fee4e6e3e8d9d7e8d9d800fd10fadae6e3e100e8dcd900dde1e4d5d7e8e700e3da00e8dcd900e1e3ead9abff",
+      "references": [
+        9855051,
+        10134236
+      ],
+      "english": "But the mysterious barrier\nprotected <0xFD>OE<0xFA>from the impacts of the move!",
+      "french_comparison": "Mais la barrière mystérieuse a\nprotégé {B_DEF_NAME_WITH_PREFIX}<0xFA>des impacts !",
+      "expected": "Mas a barreira misteriosa\\nprotegeu <0xFD><0x10><0xFA>dos efeitos do movimento!",
+      "pt_bytes": 64,
+      "pixels": [
+        136,
+        106,
+        140
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c1c5",
+      "source_hex": "cedcd900e1ede7e8d9e6dde3e9e700d6d5e6e6ddd9e600e8dcd5e800ebd5e7fee4e6e3e8d9d7e8dde2db00fd13fad8dde7d5e4e4d9d5e6d9d8abff",
+      "references": [
+        9857672
+      ],
+      "english": "The mysterious barrier that was\nprotecting <0xFD>Û<0xFA>disappeared!",
+      "french_comparison": "La barrière mystérieuse qui\nprotégeait {B_SCR_ACTIVE_NAME_WITH_PREFIX}<0xFA>a disparu !",
+      "expected": "A barreira misteriosa que\\nprotegia <0xFD><0x13><0xFA>desapareceu!",
+      "pt_bytes": 51,
+      "pixels": [
+        137,
+        104,
+        70
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c200",
+      "source_hex": "fd13b4e700fd00fefd01ff",
+      "references": [
+        9857813,
+        9883425
+      ],
+      "english": "<0xFD>Û's <0xFD> \n<0xFD>À",
+      "french_comparison": "{FD13} {FD00}\n{FD01}",
+      "expected": "<0xFD><0x13>: <0xFD><0x00>\\n<0xFD><0x01>",
+      "pt_bytes": 10,
+      "pixels": [
+        119,
+        54
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c20b",
+      "source_hex": "fd1300e2e9e0e0dddaddd9d800e8dcd9fee7e8d5e800d7dcd5e2dbd9e700d5e2d800bbd6dde0dde8ddd9e700e3dafae3e8dcd9e600cae3df1be1e3e2abff",
+      "references": [
+        9855083
+      ],
+      "english": "<0xFD>Û nullified the\nstat changes and Abilities of<0xFA>other Pokémon!",
+      "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} annule les\nchangements de stats et talents<0xFA>des autres Pokémon !",
+      "expected": "<0xFD><0x13> anulou mudanças\\nde stats e Habilidades<0xFA>dos outros Pokémon!",
+      "pt_bytes": 62,
+      "pixels": [
+        146,
+        122,
+        108
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c249",
+      "source_hex": "cedcd900e7e8e3e6e100e6d5dbdde2db00d5d6e3ead900ede3e900dde7fedbe6e3ebdde2db00e7e8e6e3e2dbd9e6abff",
+      "references": [
+        10405252
+      ],
+      "english": "The storm raging above you is\ngrowing stronger!",
+      "french_comparison": "La tempête au-dessus de toi\nrenforce !",
+      "expected": "A tempestade acima de você\\nfica mais forte!",
+      "pt_bytes": 44,
+      "pixels": [
+        151,
+        87
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c279",
+      "source_hex": "cedcd900e7e8e3e6e100dde700dbe6e3ebdde2db00d9ead9e2fee7e8e6e3e2dbd9e6abff",
+      "references": [
+        10405256
+      ],
+      "english": "The storm is growing even\nstronger!",
+      "french_comparison": "La tempête devient encore\nplus forte !",
+      "expected": "A tempestade fica ainda\\nmais forte!",
+      "pt_bytes": 36,
+      "pixels": [
+        129,
+        60
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c29d",
+      "source_hex": "cedcd900e7e8e3e6e100dde700dbd9e8e8dde2db00e8e3e300e7e8e6e3e2db00e8e3feebdde8dce7e8d5e2d8abff",
+      "references": [
+        10405260
+      ],
+      "english": "The storm is getting too strong to\nwithstand!",
+      "french_comparison": "La tempête devient intenable !\n",
+      "expected": "A tempestade está forte demais\\npara aguentar!",
+      "pt_bytes": 46,
+      "pixels": [
+        169,
+        80
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c2cb",
+      "source_hex": "fd2300ebd5e700d6e0e3ebe200e3e9e800e3da00e8dcd9fed6d5e8e8e0d9abff",
+      "references": [
+        9858610,
+        10357512,
+        10405268
+      ],
+      "english": "<0xFD>ó was blown out of the\nbattle!",
+      "french_comparison": "{B_PLAYER_NAME} est expulsé du\ncombat !",
+      "expected": "<0xFD><0x23> foi expulso\\nda batalha!",
+      "pt_bytes": 27,
+      "pixels": [
+        121,
+        64
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c2eb",
+      "source_hex": "fc101100fd0600d8dde7d5e4e4d9d5e6d9d8fee7e3e1d9ebdcd9e6d9b0fbff",
+      "references": [
+        9858632,
+        9858671
+      ],
+      "english": "<0xFC>OEÙ <0xFD>É disappeared\nsomewhere\"<0xFB>",
+      "french_comparison": "{PLAY_SE} {RIVAL} a disparu\nquelque part...<0xFB>",
+      "expected": "<0xFC><0x10><0x11><0x00><0xFD><0x06> desapareceu\\nem algum lugar<0xB0><0xFB>",
+      "pt_bytes": 36,
+      "pixels": [
+        124,
+        81,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c30c",
+      "source_hex": "d3e3e900d5e6d900d7dcd5e0e0d9e2dbd9d800d6edfefd1c00fd1d00d5e2d8fafd2e00fd2fabfbff",
+      "references": [
+        10214836
+      ],
+      "english": "You are challenged by\n<0xFD>ê <0xFD>ë and<0xFA><0xFD>+ <0xFD><0x2F>!<0xFB>",
+      "french_comparison": "Tu es défié par\n{FD1C} {FD1D} et<0xFA>{FD2E} {FD2F}!<0xFB>",
+      "expected": "Você foi desafiado por\\n<0xFD><0x1C> <0xFD><0x1D> e<0xFA><0xFD><0x2E> <0xFD><0x2F>!<0xFB>",
+      "pt_bytes": 39,
+      "pixels": [
+        124,
+        126,
+        120,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c334",
+      "source_hex": "cedcd900cddcd5d8e3eb00d1d5e6e6dde3e600d5e8e8d5d7dfd9d8abfbff",
+      "references": [
+        10214864
+      ],
+      "english": "The Shadow Warrior attacked!<0xFB>",
+      "french_comparison": "Le Guerrier d'Ombre attaque !<0xFB>",
+      "expected": "O Shadow Warrior atacou!<0xFB>",
+      "pt_bytes": 26,
+      "pixels": [
+        138,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c352",
+      "source_hex": "cedcd900cddcd5d8e3eb00d1d5e6e6dde3e6e700d5e8e8d5d7dfd9d8abfbff",
+      "references": [
+        10214868
+      ],
+      "english": "The Shadow Warriors attacked!<0xFB>",
+      "french_comparison": "Les Guerriers d'Ombre attaquent !<0xFB>",
+      "expected": "Os Shadow Warriors atacaram!<0xFB>",
+      "pt_bytes": 30,
+      "pixels": [
+        159,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c371",
+      "source_hex": "fd3200fd3300e7d9e2e8fee3e9e800fd07abfac1e3b800fd05abff",
+      "references": [
+        10214920
+      ],
+      "english": "<0xFD><0x32> <0xFD><0x33> sent\nout <0xFD>Ê!<0xFA>Go, <0xFD>È!",
+      "french_comparison": "{FD32} {FD33} envoie\n{FD07} !<0xFA>Allez, {FD05} !",
+      "expected": "<0xFD><0x32> <0xFD><0x33> enviou\\n<0xFD><0x07>!<0xFA>Vai, <0xFD><0x05>!",
+      "pt_bytes": 26,
+      "pixels": [
+        153,
+        60,
+        87
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c38c",
+      "source_hex": "fd1c00fd1d00e7d9e2e8fee3e9e800fd06abfbfd2e00fd2f00e7d9e2e8fee3e9e800fd08abff",
+      "references": [
+        10214940
+      ],
+      "english": "<0xFD>ê <0xFD>ë sent\nout <0xFD>É!<0xFB><0xFD>+ <0xFD><0x2F> sent\nout <0xFD>Ë!",
+      "french_comparison": "<0xFD><0x1C> <0xFD><0x1D> envoie\n<0xFD><0x06> !<0xFB><0xFD><0x2E> <0xFD><0x2F> envoie\n<0xFD><0x08> !",
+      "expected": "<0xFD><0x1C> <0xFD><0x1D> enviou\\n<0xFD><0x06>!<0xFB><0xFD><0x2E> <0xFD><0x2F> enviou\\n<0xFD><0x08>!",
+      "pt_bytes": 34,
+      "pixels": [
+        153,
+        60,
+        153,
+        60
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c3b2",
+      "source_hex": "fd2e00fd2ffeebdde8dcd8e6d9eb00fd00abff",
+      "references": [
+        10215584
+      ],
+      "english": "<0xFD>+ <0xFD><0x2F>\nwithdrew <0xFD> !",
+      "french_comparison": "{FD2E} {FD2F}\nrappelle {FD00} !",
+      "expected": "<0xFD><0x2E> <0xFD><0x2F>\\nrecolheu <0xFD><0x00>!",
+      "pt_bytes": 19,
+      "pixels": [
+        114,
+        112
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c3c5",
+      "source_hex": "fd2e00fd2f00e7d9e2e8fee3e9e800fd00abff",
+      "references": [
+        10215620
+      ],
+      "english": "<0xFD>+ <0xFD><0x2F> sent\nout <0xFD> !",
+      "french_comparison": "{FD2E} {FD2F} envoie\n{FD00} !",
+      "expected": "<0xFD><0x2E> <0xFD><0x2F> enviou\\n<0xFD><0x00>!",
+      "pt_bytes": 17,
+      "pixels": [
+        153,
+        60
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c3d8",
+      "source_hex": "fd3200fd3300e7d9e2e8fee3e9e800fd0500d5e2d800fd07abff",
+      "references": [
+        10214924
+      ],
+      "english": "<0xFD><0x32> <0xFD><0x33> sent\nout <0xFD>È and <0xFD>Ê!",
+      "french_comparison": "{FD32} {FD33} envoient\n{FD05} et {FD07}!",
+      "expected": "<0xFD><0x32> <0xFD><0x33> enviou\\n<0xFD><0x05> e <0xFD><0x07>!",
+      "pt_bytes": 22,
+      "pixels": [
+        153,
+        132
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c3f2",
+      "source_hex": "fd3200fd33fee7d9e2e800e3e9e800fd05abff",
+      "references": [
+        10214932
+      ],
+      "english": "<0xFD><0x32> <0xFD><0x33>\nsent out <0xFD>È!",
+      "french_comparison": "{FD32} {FD33}\nenvoie {FD05} !",
+      "expected": "<0xFD><0x32> <0xFD><0x33>\\nenviou <0xFD><0x05>!",
+      "pt_bytes": 17,
+      "pixels": [
+        114,
+        99
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c405",
+      "source_hex": "fd3200fd33feebdde8dcd8e6d9eb00fd00abff",
+      "references": [
+        10214956
+      ],
+      "english": "<0xFD><0x32> <0xFD><0x33>\nwithdrew <0xFD> !",
+      "french_comparison": "{FD32} {FD33}\nrappelle {FD00} !",
+      "expected": "<0xFD><0x32> <0xFD><0x33>\\nrecolheu <0xFD><0x00>!",
+      "pt_bytes": 19,
+      "pixels": [
+        114,
+        112
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c418",
+      "source_hex": "fd3200fd3300e7d9e2e8fee3e9e800fd00abff",
+      "references": [
+        10215612
+      ],
+      "english": "<0xFD><0x32> <0xFD><0x33> sent\nout <0xFD> !",
+      "french_comparison": "{FD32} {FD33} envoie\n{FD00} !",
+      "expected": "<0xFD><0x32> <0xFD><0x33> enviou\\n<0xFD><0x00>!",
+      "pt_bytes": 17,
+      "pixels": [
+        153,
+        60
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c42b",
+      "source_hex": "fd0f00e9e7d9d8fed4aefd01ff",
+      "references": [
+        10215660
+      ],
+      "english": "<0xFD>Ô used\nZ-<0xFD>À",
+      "french_comparison": "<0xFD><0x0F> utilise\nZ-<0xFD><0x01>",
+      "expected": "<0xFD><0x0F> usou\\nZ-<0xFD><0x01>",
+      "pt_bytes": 13,
+      "pixels": [
+        83,
+        66
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c438",
+      "source_hex": "fd0f00e9e7d9d8fec7d5ec00fd01ff",
+      "references": [],
+      "english": "<0xFD>Ô used\nMax <0xFD>À",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} utilisé Max\n{PLAYER}",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4c447",
+      "source_hex": "fd0f00e9e7d9d8fec1aec7d5ec00fd01ff",
+      "references": [],
+      "english": "<0xFD>Ô used\nG-Max <0xFD>À",
+      "french_comparison": "{B_ATK_NAME_WITH_PREFIX} utilisé\nG-Max {PLAYER}",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4c458",
+      "source_hex": "fd1c00fd1d00d5e2d8fefd2e00fd2ffaebd9e6d900d8d9dad9d5e8d9d8abfbff",
+      "references": [
+        9858303,
+        10215676
+      ],
+      "english": "<0xFD>ê <0xFD>ë and\n<0xFD>+ <0xFD><0x2F><0xFA>were defeated!<0xFB>",
+      "french_comparison": "{FD1C} {FD1D} et\n{FD2E} {FD2F}<0xFB>ont été vaincus!<0xFA>",
+      "expected": "<0xFD><0x1C> <0xFD><0x1D> e\\n<0xFD><0x2E> <0xFD><0x2F><0xFA>foram derrotados!<0xFB>",
+      "pt_bytes": 33,
+      "pixels": [
+        126,
+        114,
+        96,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c478",
+      "source_hex": "d3e3e900e0e3e7e800d5dbd5dde2e7e8fefd1c00fd1d00d5e2d8fefd2e00fd2fadfbff",
+      "references": [
+        10215696
+      ],
+      "english": "You lost against\n<0xFD>ê <0xFD>ë and\n<0xFD>+ <0xFD><0x2F>.<0xFB>",
+      "french_comparison": "Tu as perdu contre\n{B_TRAINER1_CLASS}{B_TRAINER1_NAME}et\n{B_TRAINER2_LOSE_TEXT}{B_TRAINER2_WIN_TEXT}.<0xFB>",
+      "expected": "Você perdeu para\\n<0xFD><0x1C> <0xFD><0x1D> e\\n<0xFD><0x2E> <0xFD><0x2F>.<0xFB>",
+      "pt_bytes": 33,
+      "pixels": [
+        94,
+        126,
+        119,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c49b",
+      "source_hex": "d3e3e900d5e6d900d7dcd5e0e0d9e2dbd9d800d6edfefd2000d5e2d800fd21abfbff",
+      "references": [
+        10214840
+      ],
+      "english": "You are challenged by\n<0xFD>î and <0xFD>ï!<0xFB>",
+      "french_comparison": "Tu es défié par\n{B_LINK_OPPONENT1_NAME} et {B_LINK_OPPONENT2_NAME} !<0xFB>",
+      "expected": "Você foi desafiado por\\n<0xFD><0x20> e <0xFD><0x21>!<0xFB>",
+      "pt_bytes": 33,
+      "pixels": [
+        124,
+        132,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c4bd",
+      "source_hex": "d3e3e900d5e6d900d7dcd5e0e0d9e2dbd9d800d6edfefd1c00fd1dabfbff",
+      "references": [
+        10214852
+      ],
+      "english": "You are challenged by\n<0xFD>ê <0xFD>ë!<0xFB>",
+      "french_comparison": "Tu es défié par\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!<0xFB>",
+      "expected": "Você foi desafiado por\\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>",
+      "pt_bytes": 31,
+      "pixels": [
+        124,
+        120,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c4db",
+      "source_hex": "fd3200fd3300dde700d7dcd5e0e0d9e2dbd9d800d6edfefd1c00fd1dabfbff",
+      "references": [
+        10214860
+      ],
+      "english": "<0xFD><0x32> <0xFD><0x33> is challenged by\n<0xFD>ê <0xFD>ë!<0xFB>",
+      "french_comparison": "{FD32} {FD33} est défié par\n{FD1C} {FD1D}!<0xFA>",
+      "expected": "<0xFD><0x32> <0xFD><0x33> foi desafiado por\\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>",
+      "pt_bytes": 32,
+      "pixels": [
+        214,
+        120,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c4fa",
+      "source_hex": "d3e3e900d5e6d900d7dcd5e0e0d9e2dbd9d800d6edfefd20abfbff",
+      "references": [
+        10214848
+      ],
+      "english": "You are challenged by\n<0xFD>î!<0xFB>",
+      "french_comparison": "Tu es défié par\n{B_LINK_OPPONENT1_NAME} !<0xFB>",
+      "expected": "Você foi desafiado por\\n<0xFD><0x20>!<0xFB>",
+      "pt_bytes": 28,
+      "pixels": [
+        124,
+        60,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c515",
+      "source_hex": "bb00ebdde0d800fd0600d5e4e4d9d5e6d9d8abfbff",
+      "references": [],
+      "english": "A wild <0xFD>É appeared!<0xFB>",
+      "french_comparison": "{RIVAL} sauvage est apparu !<0xFB>",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4c52a",
+      "source_hex": "bb00ebdde0d800fd0600d5e2d8fed500ebdde0d800fd0800d5e4e4d9d5e6d9d8abfbff",
+      "references": [
+        10214888
+      ],
+      "english": "A wild <0xFD>É and\na wild <0xFD>Ë appeared!<0xFB>",
+      "french_comparison": "{RIVAL} sauvage et\nun {EVIL_TEAM} sauvage apparaissent !<0xFB>",
+      "expected": "Um <0xFD><0x06> selvagem e\\num <0xFD><0x08> selvagem apareceram!<0xFB>",
+      "pt_bytes": 45,
+      "pixels": [
+        136,
+        194,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c54d",
+      "source_hex": "fd0600d5e2d800fd0800d5e8e8d5d7dfd9d8abfbff",
+      "references": [
+        10214892
+      ],
+      "english": "<0xFD>É and <0xFD>Ë attacked!<0xFB>",
+      "french_comparison": "{RIVAL} et {EVIL_TEAM} attaquent !<0xFB>",
+      "expected": "<0xFD><0x06> e <0xFD><0x08> atacaram!<0xFB>",
+      "pt_bytes": 19,
+      "pixels": [
+        184,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c562",
+      "source_hex": "cedcd900bedde7e8e3e6e8dde3e200d1e3e6e0d8b4e700fd06fed5e4e4d9d5e6d9d8abfbff",
+      "references": [
+        10214904
+      ],
+      "english": "The Distortion World's <0xFD>É\nappeared!<0xFB>",
+      "french_comparison": "{RIVAL} du Monde Distorsion\napparaît !<0xFB>",
+      "expected": "<0xFD><0x06> do Distortion World\\napareceu!<0xFB>",
+      "pt_bytes": 34,
+      "pixels": [
+        163,
+        53,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c587",
+      "source_hex": "c3e8b4e700ede3e9e600ebe3e6e7e800e2dddbdce8e1d5e6d9abfbff",
+      "references": [
+        10214880
+      ],
+      "english": "It's your worst nightmare!<0xFB>",
+      "french_comparison": "C'est ton pire cauchemar !<0xFB>",
+      "expected": "É seu pior pesadelo!<0xFB>",
+      "pt_bytes": 22,
+      "pixels": [
+        114,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c5a3",
+      "source_hex": "fd0600d5e4e4d9d5e6d9d8abfbff",
+      "references": [
+        10214916
+      ],
+      "english": "<0xFD>É appeared!<0xFB>",
+      "french_comparison": "{RIVAL} apparaît !<0xFB>",
+      "expected": "<0xFD><0x06> apareceu!<0xFB>",
+      "pt_bytes": 14,
+      "pixels": [
+        113,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c5b1",
+      "source_hex": "bb00ebdde0d800fd0600d5e4e4d9d5e6d9d8abfc087fff",
+      "references": [
+        10214896
+      ],
+      "english": "A wild <0xFD>É appeared!<0xFC>Ë<0x7F>",
+      "french_comparison": "{RIVAL} sauvage apparaît !{PAUSE}",
+      "expected": "Um <0xFD><0x06> selvagem apareceu!<0xFC><0x08><0x7F>",
+      "pt_bytes": 28,
+      "pixels": [
+        183
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c5c8",
+      "source_hex": "bb00ebdde0d800fd0600d5e4e4d9d5e6d9d8abfbff",
+      "references": [
+        10214912
+      ],
+      "english": "A wild <0xFD>É appeared!<0xFB>",
+      "french_comparison": "{RIVAL} sauvage apparaît !<0xFB>",
+      "expected": "Um <0xFD><0x06> selvagem apareceu!<0xFB>",
+      "pt_bytes": 26,
+      "pixels": [
+        183,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c5dd",
+      "source_hex": "bedde7d5d6e0d9ff",
+      "references": [
+        10444588,
+        10814120,
+        10814124
+      ],
+      "english": "Disable",
+      "french_comparison": "Entrave",
+      "expected": "Disable",
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c5e5",
+      "source_hex": "bfe2d7e3e6d9ff",
+      "references": [
+        10444592,
+        10814128,
+        10814132
+      ],
+      "english": "Encore",
+      "french_comparison": "Encore",
+      "expected": "Encore",
+      "pt_bytes": 7,
+      "pixels": [
+        34
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c5ec",
+      "source_hex": "bde3e2dae9e7dde3e2ff",
+      "references": [],
+      "english": "Confusion",
+      "french_comparison": "Confusion",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4c5f6",
+      "source_hex": "e1d9e2e8d5e0ff",
+      "references": [
+        10128240,
+        10444600,
+        10814104,
+        10814108
+      ],
+      "english": "mental",
+      "french_comparison": "mentale",
+      "expected": "mental",
+      "pt_bytes": 7,
+      "pixels": [
+        33
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c5fd",
+      "source_hex": "ced5e9e2e8ff",
+      "references": [
+        10128252,
+        10444596,
+        10814112,
+        10814116
+      ],
+      "english": "Taunt",
+      "french_comparison": "Provoc",
+      "expected": "Taunt",
+      "pt_bytes": 6,
+      "pixels": [
+        28
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c603",
+      "source_hex": "d8e6d5e7e8ddd7d5e0e0ed00ff",
+      "references": [
+        10105580
+      ],
+      "english": "drastically ",
+      "french_comparison": "drastiquement",
+      "expected": "drasticamente<0x00>",
+      "pt_bytes": 15,
+      "pixels": [
+        71
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c610",
+      "source_hex": "e7d9ead9e6d9e0ed00ff",
+      "references": [
+        10105584
+      ],
+      "english": "severely ",
+      "french_comparison": "sévèrement",
+      "expected": "muito<0x00>",
+      "pt_bytes": 7,
+      "pixels": [
+        27
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c61a",
+      "source_hex": "cedcd900e3e4e4e3e7dde2db00ff",
+      "references": [
+        883580,
+        883876,
+        883992,
+        884108,
+        884224,
+        884340,
+        885440,
+        886100,
+        10212176,
+        10212988,
+        10213900,
+        10213936,
+        10213948,
+        10213956
+      ],
+      "english": "The opposing ",
+      "french_comparison": "L'adversaire ",
+      "expected": "O adversário<0x00>",
+      "pt_bytes": 14,
+      "pixels": [
+        67
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c628",
+      "source_hex": "e8dcd900e3e4e4e3e7dde2db00ff",
+      "references": [
+        10214020
+      ],
+      "english": "the opposing ",
+      "french_comparison": "adverse",
+      "expected": "o adversário<0x00>",
+      "pt_bytes": 14,
+      "pixels": [
+        67
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c636",
+      "source_hex": "cedcd900ebdde0d800ff",
+      "references": [
+        883576,
+        883872,
+        883988,
+        884104,
+        884220,
+        884336,
+        885436,
+        886148,
+        10212180,
+        10212996,
+        10213908
+      ],
+      "english": "The wild ",
+      "french_comparison": "sauvage",
+      "expected": "O selvagem<0x00>",
+      "pt_bytes": 12,
+      "pixels": [
+        58
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c640",
+      "source_hex": "cedcd900cddcd5d8e3eb00ff",
+      "references": [
+        10212184,
+        10213000,
+        10213912
+      ],
+      "english": "The Shadow ",
+      "french_comparison": "obscur",
+      "expected": "O Shadow<0x00>",
+      "pt_bytes": 10,
+      "pixels": [
+        48
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c64c",
+      "source_hex": "cedcd900e3e4e4e3e7dde2dbff",
+      "references": [
+        10214008
+      ],
+      "english": "The opposing",
+      "french_comparison": "L'adversaire",
+      "expected": "adversária",
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c659",
+      "source_hex": "e8dcd900e3e4e4e3e7dde2dbff",
+      "references": [
+        10214000
+      ],
+      "english": "the opposing",
+      "french_comparison": "adverse",
+      "expected": "adversária",
+      "pt_bytes": 11,
+      "pixels": [
+        55
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c666",
+      "source_hex": "ede3e9e6ff",
+      "references": [
+        10213996
+      ],
+      "english": "your",
+      "french_comparison": "ton",
+      "expected": "sua",
+      "pt_bytes": 4,
+      "pixels": [
+        17
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c66b",
+      "source_hex": "d3e3e9e6ff",
+      "references": [
+        10214004
+      ],
+      "english": "Your",
+      "french_comparison": "Ton",
+      "expected": "Sua",
+      "pt_bytes": 4,
+      "pixels": [
+        18
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "fragment"
+    },
+    {
+      "offset": "0xa4c670",
+      "source_hex": "d3e3e900dbe3e800b7fd00fedae3e600ebdde2e2dde2dbabff",
+      "references": [
+        4185988
+      ],
+      "english": "You got ¥<0xFD> \nfor winning!",
+      "french_comparison": "Tu gagnes ¥{UNKNOWN_STR} !<0xFC><0x09>",
+      "expected": "Você ganhou ¥<0xFD><0x00>\\npela vitória!",
+      "pt_bytes": 30,
+      "pixels": [
+        133,
+        71
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c689",
+      "source_hex": "d3e3e900dcd5ead900e2e300e1e3e6d900cae3df1be1e3e2fee8dcd5e800d7d5e200dadddbdce8abfbff",
+      "references": [
+        4185992
+      ],
+      "english": "You have no more Pokémon\nthat can fight!<0xFB>",
+      "french_comparison": "Plus de Pokémon en état\nde combattre !<0xFB>",
+      "expected": "Você não tem mais Pokémon\\nque possam lutar!<0xFB>",
+      "pt_bytes": 45,
+      "pixels": [
+        143,
+        97,
+        0
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c6b3",
+      "source_hex": "d3e3e900e4d5e2ddd7dfd9d800d5e2d800e0e3e7e800b7fd00b0fbb000b000b000b0fbd3e3e900ebd9e6d900e3ead9e6ebdcd9e0e1d9d800d6ed00ede3e9e6fed8d9dad9d5e8abfc09ff",
+      "references": [
+        4185996
+      ],
+      "english": "You panicked and lost ¥<0xFD> \"<0xFB>\" \" \" \"<0xFB>You were overwhelmed by your\ndefeat!<0xFC>Ì",
+      "french_comparison": "Panique ! Tu perds ¥{UNKNOWN_STR}...<0xFB>...<0xFB>Tu es submergé par la défaite !{PAUSE_UNTIL_PRESS}\n",
+      "expected": "Você perdeu ¥<0xFD><0x00> em pânico<0xB0><0xFB><0xB0> <0xB0> <0xB0> <0xB0><0xFB>Você ficou abalado com\\na derrota!<0xFC><0x09>",
+      "pt_bytes": 71,
+      "pixels": [
+        190,
+        18,
+        128,
+        57
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c6fd",
+      "source_hex": "d3e3e900dcd5ead900e2e300e1e3e6d900cae3df1be1e3e2fee8dcd5e800d7d5e200dadddbdce8abfbd3e3e900e0e3e7e800d5dbd5dde2e7e8fefd1c00fd1dabfc09ff",
+      "references": [
+        4187328
+      ],
+      "english": "You have no more Pokémon\nthat can fight!<0xFB>You lost against\n<0xFD>ê <0xFD>ë!<0xFC>Ì",
+      "french_comparison": "Plus de Pokémon en état\nde combattre !<0xFB>Tu perds face à\n<0xFD><0x1C> <0xFD><0x1D> !<0xFC><0x09>",
+      "expected": "Você não tem mais Pokémon\\nque possam lutar!<0xFB>Você perdeu para\\n<0xFD><0x1C> <0xFD><0x1D>!<0xFC><0x09>",
+      "pt_bytes": 70,
+      "pixels": [
+        143,
+        97,
+        94,
+        120
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c6fe",
+      "source_hex": "e3e900dcd5ead900e2e300e1e3e6d900cae3df1be1e3e2fee8dcd5e800d7d5e200dadddbdce8abfbd3e3e900e0e3e7e800d5dbd5dde2e7e8fefd1c00fd1dabfc09ff",
+      "references": [],
+      "english": "ou have no more Pokémon\nthat can fight!<0xFB>You lost against\n<0xFD>ê <0xFD>ë!<0xFC>Ì",
+      "french_comparison": "Tu n'as plus de Pokémon\nen état de se battre!<0xFA>Tu as perdu face à\n{FD1C} {FD1D}!{FC09}",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Fragment interne des entrées 0xa4c6fd. Le consommateur du parent est traité séparément.",
+      "containing_entries": [
+        "0xa4c6fd"
+      ]
+    },
+    {
+      "offset": "0xa4c740",
+      "source_hex": "d3e3e900e4d5ddd800b7fd0000d5e700e8dcd900e4e6ddeed9fee1e3e2d9edb0fbb000b000b000b0fbd3e3e900ebd9e6d900e3ead9e6ebdcd9e0e1d9d800d6ed00ede3e9e6fed8d9dad9d5e8abfc09ff",
+      "references": [
+        4187332
+      ],
+      "english": "You paid ¥<0xFD>  as the prize\nmoney\"<0xFB>\" \" \" \"<0xFB>You were overwhelmed by your\ndefeat!<0xFC>Ì",
+      "french_comparison": "Tu fais tomber {UNKNOWN_STR}¥ dans la panique...\n...<0xFB>Tu es submergé par la défaite !{PAUSE_UNTIL_PRESS}<0xFB>\n",
+      "expected": "Você pagou ¥<0xFD><0x00>\\ncomo prêmio<0xB0><0xFB><0xB0> <0xB0> <0xB0> <0xB0><0xFB>Você ficou abalado com\\na derrota!<0xFC><0x09>",
+      "pt_bytes": 72,
+      "pixels": [
+        128,
+        63,
+        18,
+        128,
+        57
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c790",
+      "source_hex": "d3e3e900ebd9e6d900e3ead9e6ebdcd9e0e1d9d800d6ed00ede3e9e6fed8d9dad9d5e8abfc09ff",
+      "references": [
+        4187376
+      ],
+      "english": "You were overwhelmed by your\ndefeat!<0xFC>Ì",
+      "french_comparison": "Tu es submergé par la défaite !{PAUSE_UNTIL_PRESS}\n",
+      "expected": "Você ficou abalado com\\na derrota!<0xFC><0x09>",
+      "pt_bytes": 36,
+      "pixels": [
+        128,
+        57
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c7b7",
+      "source_hex": "fc0505fc040d0e0fc0dddbdce8fc1338bde9d6d9fecae3df1be1e3e2fc1338cce9e2ff",
+      "references": [
+        960352,
+        10465292
+      ],
+      "english": "<0xFC>ÈÈ<0xFC>ÇÒÓÔFight<0xFC>Û<0x38>Cube\nPokémon<0xFC>Û<0x38>Run",
+      "french_comparison": "{FC05}{FC04}Attaque{FC13}Cube\nPokémon{FC13}Fuite",
+      "expected": "<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Lutar<0xFC><0x13><0x38>Cube\\nPokémon<0xFC><0x13><0x38>Fugir",
+      "pt_bytes": 37,
+      "pixels": [
+        52,
+        67
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "menu"
+    },
+    {
+      "offset": "0xa4c7da",
+      "source_hex": "fc0505fc040d0e0fc0dddbdce8fc1338fc040f0e0bbde9d6d9fefc040d0e0fcae3df1be1e3e2fc1338cce9e2ff",
+      "references": [
+        10465288
+      ],
+      "english": "<0xFC>ÈÈ<0xFC>ÇÒÓÔFight<0xFC>Û<0x38><0xFC>ÇÔÓÎCube\n<0xFC>ÇÒÓÔPokémon<0xFC>Û<0x38>Run",
+      "french_comparison": "{FC05}{FC04}Attaque{FC13}{FC04}Cube\n{FC04}Pokémon{FC13}Fuite",
+      "expected": "<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Lutar<0xFC><0x13><0x38><0xFC><0x04><0x0F><0x0E><0x0B>Cube\\n<0xFC><0x04><0x0D><0x0E><0x0F>Pokémon<0xFC><0x13><0x38>Fugir",
+      "pt_bytes": 47,
+      "pixels": [
+        52,
+        67
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "menu"
+    },
+    {
+      "offset": "0xa4c807",
+      "source_hex": "fc0505fc040d0e0fc0dddbdce8fc1338bde9d6d9fecae3df1be1e3e2fc1338bcd5d7dfff",
+      "references": [
+        10465284
+      ],
+      "english": "<0xFC>ÈÈ<0xFC>ÇÒÓÔFight<0xFC>Û<0x38>Cube\nPokémon<0xFC>Û<0x38>Back",
+      "french_comparison": "{FC05}{FC04}Attaque{FC13}Cube\nPokémon{FC13}Retour",
+      "expected": "<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Lutar<0xFC><0x13><0x38>Cube\\nPokémon<0xFC><0x13><0x38>Voltar",
+      "pt_bytes": 38,
+      "pixels": [
+        52,
+        73
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "menu"
+    },
+    {
+      "offset": "0xa4c82b",
+      "source_hex": "fc0505fc040d0e0fc0dddbdce8fc1338fc040f0e0bbde9d6d9fefc040d0e0fcae3df1be1e3e2fc1338bcd5d7dfff",
+      "references": [
+        10465232
+      ],
+      "english": "<0xFC>ÈÈ<0xFC>ÇÒÓÔFight<0xFC>Û<0x38><0xFC>ÇÔÓÎCube\n<0xFC>ÇÒÓÔPokémon<0xFC>Û<0x38>Back",
+      "french_comparison": "{FC05}{FC04}Attaque{FC13}{FC04}Cube\n{FC04}Pokémon{FC13}Retour",
+      "expected": "<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Lutar<0xFC><0x13><0x38><0xFC><0x04><0x0F><0x0E><0x0B>Cube\\n<0xFC><0x04><0x0D><0x0E><0x0F>Pokémon<0xFC><0x13><0x38>Voltar",
+      "pt_bytes": 48,
+      "pixels": [
+        52,
+        73
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "menu"
+    },
+    {
+      "offset": "0xa4c859",
+      "source_hex": "fc0505fc040d0e0fbdd5e8d7dcfc1338bfe2d8ff",
+      "references": [
+        10465216
+      ],
+      "english": "<0xFC>ÈÈ<0xFC>ÇÒÓÔCatch<0xFC>Û<0x38>End",
+      "french_comparison": "{FC05}{FC04}Capture{FC13}Fin",
+      "expected": "<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Pegar<0xFC><0x13><0x38>Fim",
+      "pt_bytes": 20,
+      "pixels": [
+        45
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "menu"
+    },
+    {
+      "offset": "0xa4c86d",
+      "source_hex": "fd0600dde700ebd9d5dfabfecedce6e3eb00d500bcd5e0e000e2e3ebabff",
+      "references": [
+        10465268
+      ],
+      "english": "<0xFD>É is weak!\nThrow a Ball now!",
+      "french_comparison": "{RIVAL} est faible !\nLance une Ball maintenant !",
+      "expected": "<0xFD><0x06> está fraco!\\nLance uma Bola agora!",
+      "pt_bytes": 37,
+      "pixels": [
+        122,
+        123
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c88b",
+      "source_hex": "fd1c00fd1db4e700ced9d5e1ff",
+      "references": [
+        10179652
+      ],
+      "english": "<0xFD>ê <0xFD>ë's Team",
+      "french_comparison": "Équipe de {FD1C} {FD1D}",
+      "expected": "Equipe de <0xFD><0x1C> <0xFD><0x1D>",
+      "pt_bytes": 16,
+      "pixels": [
+        172
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c898",
+      "source_hex": "fd20b4e700ced9d5e100ff",
+      "references": [
+        10179612
+      ],
+      "english": "<0xFD>î's Team ",
+      "french_comparison": "Équipe de {B_LINK_OPPONENT1_NAME}",
+      "expected": "Equipe de <0xFD><0x20><0x00>",
+      "pt_bytes": 14,
+      "pixels": [
+        112
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c8a3",
+      "source_hex": "fd1c00fd1db4e700ced9d5e1fefd2e00fd2fb4e700ced9d5e1ff",
+      "references": [
+        10179624
+      ],
+      "english": "<0xFD>ê <0xFD>ë's Team\n<0xFD>+ <0xFD><0x2F>'s Team",
+      "french_comparison": "Équipe {FD1C} {FD1D}\nÉquipe {FD2E} {FD2F}",
+      "expected": "Equipe de <0xFD><0x1C> <0xFD><0x1D>\\nEquipe de <0xFD><0x2E> <0xFD><0x2F>",
+      "pt_bytes": 32,
+      "pixels": [
+        172,
+        172
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c8bd",
+      "source_hex": "fd20b4e700ced9d5e1fefd21b4e700ced9d5e100ff",
+      "references": [
+        10179616
+      ],
+      "english": "<0xFD>î's Team\n<0xFD>ï's Team ",
+      "french_comparison": "Équipe {FD20}\nÉquipe {FD21}",
+      "expected": "Equipe de <0xFD><0x20>\\nEquipe de <0xFD><0x21><0x00>",
+      "pt_bytes": 27,
+      "pixels": [
+        112,
+        112
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c8d2",
+      "source_hex": "cedcd900e6d9e7e800e3da00ede3e9e600e8d9d5e100dbd5dde2d9d800bfece4adfecae3dde2e8e700e8dcd5e2dfe700e8e300e8dcd900bfece4ad00cddcd5e6d9abff",
+      "references": [
+        10364588
+      ],
+      "english": "The rest of your team gained Exp.\nPoints thanks to the Exp. Share!",
+      "french_comparison": "Le reste de ton équipe gagne de\nl'EXP grâce au Multi Exp !",
+      "expected": "Sua equipe ganhou pontos de\\nExp. graças ao Exp. Share!",
+      "pt_bytes": 55,
+      "pixels": [
+        156,
+        151
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c915",
+      "source_hex": "dae6e3e7e8d6dde8d9ff",
+      "references": [
+        10116892,
+        10128232,
+        10226500,
+        10444556,
+        10814080,
+        10814084
+      ],
+      "english": "frostbite",
+      "french_comparison": "engelure",
+      "expected": "congeladura",
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c91f",
+      "source_hex": "c3e8b4e700e2e300dbe3e3d8ab00c3e8b4e700dde1e4e3e7e7ddd6e0d900e8e300d5dde1feebdcd9e200e8dcd9e6d900d5e6d900e8ebe300cae3df1be1e3e2abfc09ff",
+      "references": [
+        10261876
+      ],
+      "english": "It's no good! It's impossible to aim\nwhen there are two Pokémon!<0xFC>Ì",
+      "french_comparison": "Pas possible ! Viser est impossible\navec deux Pokémon !{PAUSE_UNTIL_PRESS}",
+      "expected": "Não dá! É impossível mirar\\nquando há dois Pokémon!<0xFC><0x09>",
+      "pt_bytes": 53,
+      "pixels": [
+        147,
+        132
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c962",
+      "source_hex": "c3e8b4e700e2e300dbe3e3d8ab00c3e8b4e700dde1e4e3e7e7ddd6e0d900e8e300d5dde1fed5e800d500cae3df1be1e3e200e8dcd5e8b4e700e2e3e800dde200e7dddbdce8abfc09ff",
+      "references": [
+        10261880
+      ],
+      "english": "It's no good! It's impossible to aim\nat a Pokémon that's not in sight!<0xFC>Ì",
+      "french_comparison": "Pas possible ! Impossible de viser\nun Pokémon hors de vue !{PAUSE_UNTIL_PRESS}",
+      "expected": "Não dá! É impossível mirar\\nnum Pokémon fora de vista!<0xFC><0x09>",
+      "pt_bytes": 56,
+      "pixels": [
+        147,
+        147
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c9ab",
+      "source_hex": "c3e8b4e700e2e300dbe3e3d8ab00cedcd900bcd5e0e000e1e9e7e800d6d9fee8dce6e3ebe200dae6e3e100ede3e9e600dadde6e7e800cae3df1be1e3e2abfc09ff",
+      "references": [
+        10261896
+      ],
+      "english": "It's no good! The Ball must be\nthrown from your first Pokémon!<0xFC>Ì",
+      "french_comparison": "Pas possible ! La Ball doit être\nlancée par ton premier Pokémon !{PAUSE_UNTIL_PRESS}",
+      "expected": "Não dá! A Bola deve ser lançada\\npelo seu primeiro Pokémon!<0xFC><0x09>",
+      "pt_bytes": 61,
+      "pixels": [
+        181,
+        146
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4c9ec",
+      "source_hex": "d3e3e900d7d5e2b4e800e8dce6e3eb00d500cae3df1b00bcd5e0e000edd9e8abfc09ff",
+      "references": [
+        10261860
+      ],
+      "english": "You can't throw a Poké Ball yet!<0xFC>Ì",
+      "french_comparison": "Pas encore de Poké Ball !{PAUSE_UNTIL_PRESS}",
+      "expected": "Ainda não pode lançar uma Poké Ball!<0xFC><0x09>",
+      "pt_bytes": 39,
+      "pixels": [
+        206
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ca0f",
+      "source_hex": "c3e8b4e700e2e300dbe3e3d8abfecedcd900cae3df1be1e3e200d7d5e2b4e800d6d900d7d5e9dbdce8abfc09ff",
+      "references": [
+        10261868
+      ],
+      "english": "It's no good!\nThe Pokémon can't be caught!<0xFC>Ì",
+      "french_comparison": "Pas possible !\nCe Pokémon est incapturable !{PAUSE_UNTIL_PRESS}",
+      "expected": "Não dá!\\nEsse Pokémon não pode ser pego!<0xFC><0x09>",
+      "pt_bytes": 42,
+      "pixels": [
+        42,
+        179
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ca3c",
+      "source_hex": "d1e3e9e0d800ede3e900e0dddfd900e8e300dae3e6dad9dde800e8dcd900e1d5e8d7dcfed5e2d800e5e9dde800e2e3ebacff",
+      "references": [
+        9858537
+      ],
+      "english": "Would you like to forfeit the match\nand quit now?",
+      "french_comparison": "Abandonner le match et quitter\nmaintenant ?",
+      "expected": "Quer desistir da partida\\ne sair agora?",
+      "pt_bytes": 39,
+      "pixels": [
+        131,
+        73
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ca6e",
+      "source_hex": "bbe6d900ede3e900e7e9e6d900ede3e900ebd5e2e800e8e300e6e9e200d5ebd5edacff",
+      "references": [
+        9858560
+      ],
+      "english": "Are you sure you want to run away?",
+      "french_comparison": "Es-tu sûr de vouloir fuir ?",
+      "expected": "Tem certeza de que quer fugir?",
+      "pt_bytes": 31,
+      "pixels": [
+        173
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4ca6f",
+      "source_hex": "e6d900ede3e900e7e9e6d900ede3e900ebd5e2e800e8e300e6e9e200d5ebd5edacff",
+      "references": [],
+      "english": "re you sure you want to run away?",
+      "french_comparison": "Es-tu sûr de vouloir fuir?",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Fragment interne des entrées 0xa4ca6e. Le consommateur du parent est traité séparément.",
+      "containing_entries": [
+        "0xa4ca6e"
+      ]
+    },
+    {
+      "offset": "0xa4ca91",
+      "source_hex": "fd2300dae3e6dad9dde8d9d800e8dcd900e1d5e8d7dcabff",
+      "references": [
+        9858420,
+        9858436
+      ],
+      "english": "<0xFD>ó forfeited the match!",
+      "french_comparison": "{B_PLAYER_NAME} abandonne le match !",
+      "expected": "<0xFD><0x23> desistiu da partida!",
+      "pt_bytes": 24,
+      "pixels": [
+        169
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4caa9",
+      "source_hex": "bce0d5d7df00ff",
+      "references": [
+        10211192
+      ],
+      "english": "Black ",
+      "french_comparison": "Noir",
+      "expected": "Black<0x00>",
+      "pt_bytes": 7,
+      "pixels": [
+        28
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4cab0",
+      "source_hex": "e9e2dfe2e3ebe200e0e3d7d5e8dde3e2ff",
+      "references": [
+        1275416
+      ],
+      "english": "unknown location",
+      "french_comparison": "lieu inconnu",
+      "expected": "local desconhecido",
+      "pt_bytes": 19,
+      "pixels": [
+        102
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4cac1",
+      "source_hex": "bfec00cddcd5d8e3eb00bbd8e1dde2ff",
+      "references": [
+        10211220
+      ],
+      "english": "Ex Shadow Admin",
+      "french_comparison": "Ex-Admin Ombre",
+      "expected": "Ex Shadow Admin",
+      "pt_bytes": 16,
+      "pixels": [
+        87
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4cad1",
+      "source_hex": "00c046c3c8cdcebbc8ceff",
+      "references": [],
+      "english": "F<0x46>INSTANT",
+      "french_comparison": "Expédié par Amazon",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Anciennes vitesses de texte sans référence ; 0xa4cad1 commence par des octets non textuels 00 c0 46 avant INSTANT. Aucun lecteur indirect prouvé.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4cadc",
+      "source_hex": "c0bbcdceff",
+      "references": [],
+      "english": "FAST",
+      "french_comparison": "RAPIDE",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Anciennes vitesses de texte sans référence ; 0xa4cad1 commence par des octets non textuels 00 c0 46 avant INSTANT. Aucun lecteur indirect prouvé.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4cae1",
+      "source_hex": "c7c3beff",
+      "references": [],
+      "english": "MID",
+      "french_comparison": "MID",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Anciennes vitesses de texte sans référence ; 0xa4cad1 commence par des octets non textuels 00 c0 46 avant INSTANT. Aucun lecteur indirect prouvé.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4caef",
+      "source_hex": "b9ff",
+      "references": [
+        10456316
+      ],
+      "english": "×",
+      "french_comparison": "×",
+      "expected": "×",
+      "pt_bytes": 2,
+      "pixels": [
+        9
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4caf1",
+      "source_hex": "fc0107fc03062eff",
+      "references": [
+        10456352
+      ],
+      "english": "<0xFC>ÀÊ<0xFC>ÂÉ+",
+      "french_comparison": "<0xFC><0x01><0x07><0xFC><0x03><0x06>+",
+      "expected": "<0xFC><0x01><0x07><0xFC><0x03><0x06>+",
+      "pt_bytes": 8,
+      "pixels": [
+        8
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "battle"
+    },
+    {
+      "offset": "0xa4caf9",
+      "source_hex": "cae3ebd9e6f000ff",
+      "references": [
+        10461116,
+        10462040
+      ],
+      "english": "Power: ",
+      "french_comparison": "Pouvoir :",
+      "expected": "Poder:<0x00>",
+      "pt_bytes": 8,
+      "pixels": [
+        34
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb01",
+      "source_hex": "c9c2c5c9ff",
+      "references": [
+        10462248
+      ],
+      "english": "OHKO",
+      "french_comparison": "K.O. direct",
+      "expected": "KO direto",
+      "pt_bytes": 10,
+      "pixels": [
+        50
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb06",
+      "source_hex": "bbd7d7f000ff",
+      "references": [
+        10462252
+      ],
+      "english": null,
+      "french_comparison": "Précis. :",
+      "expected": "Prec:<0x00>",
+      "pt_bytes": 7,
+      "pixels": [
+        28
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail",
+      "reason": "Le corpus EN dit None, mais la ROM source vivante au pointeur 0x9fa42c contient Acc: . Traduction de la précision réelle."
+    },
+    {
+      "offset": "0xa4cb0c",
+      "source_hex": "c8e300c7dde7e7ff",
+      "references": [
+        10462260
+      ],
+      "english": "No Miss",
+      "french_comparison": "-",
+      "expected": "Não erra",
+      "pt_bytes": 9,
+      "pixels": [
+        46
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb14",
+      "source_hex": "bde3e2e8d5d7e8ff",
+      "references": [
+        10462240
+      ],
+      "english": "Contact",
+      "french_comparison": "Physique",
+      "expected": "Contato",
+      "pt_bytes": 8,
+      "pixels": [
+        39
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb1c",
+      "source_hex": "c8e300bde3e2e8d5d7e8ff",
+      "references": [
+        10462236
+      ],
+      "english": "No Contact",
+      "french_comparison": "Spécial",
+      "expected": "Sem contato",
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb27",
+      "source_hex": "ccd9e7d9e800c6e3ebd9e6d9d800cde8d5e8e7ff",
+      "references": [
+        10461020
+      ],
+      "english": "Reset Lowered Stats",
+      "french_comparison": "Réinitialise stats -",
+      "expected": "Restaura stats reduzidas",
+      "pt_bytes": 25,
+      "pixels": [
+        133
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb3b",
+      "source_hex": "2e00bbe0e000cde8d5e8e7ff",
+      "references": [
+        10461080
+      ],
+      "english": "+ All Stats",
+      "french_comparison": "+ Toutes stats",
+      "expected": "+ Todas as stats",
+      "pt_bytes": 17,
+      "pixels": [
+        92
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb47",
+      "source_hex": "2e00bde6dde8ddd7d5e000c2dde800bddcd5e2d7d9ff",
+      "references": [
+        10461084
+      ],
+      "english": "+ Critical Hit Chance",
+      "french_comparison": "+ Chance critique",
+      "expected": "+ Chance de crítico",
+      "pt_bytes": 20,
+      "pixels": [
+        111
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb5d",
+      "source_hex": "c0e3e0e0e3eb00c7d9ff",
+      "references": [
+        10461088
+      ],
+      "english": "Follow Me",
+      "french_comparison": "Par Ici",
+      "expected": "Follow Me",
+      "pt_bytes": 10,
+      "pixels": [
+        52
+      ],
+      "max_width": 214,
+      "status": "retained",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb67",
+      "source_hex": "ccd9d7e3ead9e600c2caff",
+      "references": [
+        10460268
+      ],
+      "english": "Recover HP",
+      "french_comparison": "Soin PV",
+      "expected": "Recupera PS",
+      "pt_bytes": 12,
+      "pixels": [
+        65
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb72",
+      "source_hex": "c2d9d5e000ccd9e4e0d5d7d9e1d9e2e800c2caff",
+      "references": [
+        10461092
+      ],
+      "english": "Heal Replacement HP",
+      "french_comparison": "Soigne PV entrant",
+      "expected": "Cura PS do substituto",
+      "pt_bytes": 22,
+      "pixels": [
+        118
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb86",
+      "source_hex": "cae6e3e8d9d7e800cdd9e0daff",
+      "references": [
+        10461136
+      ],
+      "english": "Protect Self",
+      "french_comparison": "Protection",
+      "expected": "Protege usuário",
+      "pt_bytes": 16,
+      "pixels": [
+        84
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb9d",
+      "source_hex": "00c0e3d9e7ff",
+      "references": [
+        10462068
+      ],
+      "english": "Foes",
+      "french_comparison": "Adversaires",
+      "expected": "<0x00>rivais",
+      "pt_bytes": 8,
+      "pixels": [
+        30
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cb9e",
+      "source_hex": "c0e3d9e7ff",
+      "references": [],
+      "english": "Foes",
+      "french_comparison": "Foes",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Fragment interne des entrées 0xa4cb9d. Le consommateur du parent est traité séparément.",
+      "containing_entries": [
+        "0xa4cb9d"
+      ]
+    },
+    {
+      "offset": "0xa4cba3",
+      "source_hex": "cdd9e800ff",
+      "references": [
+        10462076
+      ],
+      "english": "Set ",
+      "french_comparison": "Set",
+      "expected": "Ativa<0x00>",
+      "pt_bytes": 7,
+      "pixels": [
+        27
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cba8",
+      "source_hex": "00d1d9d5e8dcd9e6ff",
+      "references": [
+        10462084
+      ],
+      "english": "Weather",
+      "french_comparison": "Météo",
+      "expected": "<0x00>no campo",
+      "pt_bytes": 10,
+      "pixels": [
+        47
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbb1",
+      "source_hex": "00ced9e6e6d5dde2ff",
+      "references": [
+        10462104
+      ],
+      "english": "Terrain",
+      "french_comparison": "Champ",
+      "expected": "<0x00>no campo",
+      "pt_bytes": 10,
+      "pixels": [
+        47
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbb2",
+      "source_hex": "ced9e6e6d5dde2ff",
+      "references": [],
+      "english": "Terrain",
+      "french_comparison": "Terrain",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Fragment interne des entrées 0xa4cbb1. Le consommateur du parent est traité séparément.",
+      "containing_entries": [
+        "0xa4cbb1"
+      ]
+    },
+    {
+      "offset": "0xa4cbba",
+      "source_hex": "cde9e2e2edff",
+      "references": [
+        10462080
+      ],
+      "english": "Sunny",
+      "french_comparison": "Soleil",
+      "expected": "Sol",
+      "pt_bytes": 4,
+      "pixels": [
+        17
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbc0",
+      "source_hex": "ccd5dde2edff",
+      "references": [
+        10462088
+      ],
+      "english": "Rainy",
+      "french_comparison": "Pluie",
+      "expected": "Chuva",
+      "pt_bytes": 6,
+      "pixels": [
+        30
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbc6",
+      "source_hex": "cdd5e2d8e7e8e3e6e1ff",
+      "references": [
+        10462092
+      ],
+      "english": "Sandstorm",
+      "french_comparison": "Tempête sable",
+      "expected": "Areia",
+      "pt_bytes": 6,
+      "pixels": [
+        27
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbd0",
+      "source_hex": "c2d5dde0ff",
+      "references": [
+        10462096
+      ],
+      "english": "Hail",
+      "french_comparison": "Grêle",
+      "expected": "Granizo",
+      "pt_bytes": 8,
+      "pixels": [
+        38
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbd5",
+      "source_hex": "bfe0d9d7e8e6ddd7ff",
+      "references": [
+        10462100
+      ],
+      "english": "Electric",
+      "french_comparison": "Électrik",
+      "expected": "eletricidade",
+      "pt_bytes": 13,
+      "pixels": [
+        65
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbde",
+      "source_hex": "c1e6d5e7e7edff",
+      "references": [
+        10462108
+      ],
+      "english": "Grassy",
+      "french_comparison": "Herbe",
+      "expected": "grama",
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbe5",
+      "source_hex": "c7dde7e8edff",
+      "references": [
+        10462112
+      ],
+      "english": "Misty",
+      "french_comparison": "Brume",
+      "expected": "névoa",
+      "pt_bytes": 6,
+      "pixels": [
+        29
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbeb",
+      "source_hex": "cae7edd7dcddd7ff",
+      "references": [
+        10462116
+      ],
+      "english": "Psychic",
+      "french_comparison": "Psy",
+      "expected": "poder psíquico",
+      "pt_bytes": 15,
+      "pixels": [
+        80
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cbf3",
+      "source_hex": "cdd9e800c6d5e7e8dde2db00bed5e1d5dbd900cee6d5e4ff",
+      "references": [
+        10462120
+      ],
+      "english": "Set Lasting Damage Trap",
+      "french_comparison": "Piège dégâts durables",
+      "expected": "Dano contínuo",
+      "pt_bytes": 14,
+      "pixels": [
+        74
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cc0b",
+      "source_hex": "cee6d5e4002d00bed5e1d5dbd900c0e3d9e7ff",
+      "references": [
+        10462184
+      ],
+      "english": "Trap & Damage Foes",
+      "french_comparison": "Piège + dégâts ennemis",
+      "expected": "Prende e fere rivais",
+      "pt_bytes": 21,
+      "pixels": [
+        110
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cc1e",
+      "source_hex": "c1ddead900c0e3d9e700cae7e2b800cad5e6b800e3e600cde0e4ff",
+      "references": [
+        10462124
+      ],
+      "english": "Give Foes Psn, Par, or Slp",
+      "french_comparison": "Psn, Par, Som aux ennemis",
+      "expected": "PSN, PAR ou DRM nos rivais",
+      "pt_bytes": 27,
+      "pixels": [
+        147
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cc39",
+      "source_hex": "cad5e6d5e0edeed900c0e3d9e7ff",
+      "references": [
+        10462128
+      ],
+      "english": "Paralyze Foes",
+      "french_comparison": "Paralyse ennemis",
+      "expected": "Paralisa rivais",
+      "pt_bytes": 16,
+      "pixels": [
+        79
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cc47",
+      "source_hex": "bde3e2dae9e7d900c0e3d9e7002d00c1d9e800ccddd7dcff",
+      "references": [
+        10462132
+      ],
+      "english": "Confuse Foes & Get Rich",
+      "french_comparison": "Confuse ennemis & richesse",
+      "expected": "Confunde rivais e dá grana",
+      "pt_bytes": 27,
+      "pixels": [
+        145
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cc5f",
+      "source_hex": "2e00ced9d5e100bde6dde8ddd7d5e000c2dde800bddcd5e2d7d9ff",
+      "references": [
+        10462136
+      ],
+      "english": "+ Team Critical Hit Chance",
+      "french_comparison": "+ Chance crit équipe",
+      "expected": "+ Críticos da equipe",
+      "pt_bytes": 21,
+      "pixels": [
+        115
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cc7a",
+      "source_hex": "cee6d5e400c0e3d9e7ff",
+      "references": [
+        10462140
+      ],
+      "english": "Trap Foes",
+      "french_comparison": "Piège ennemis",
+      "expected": "Prende rivais",
+      "pt_bytes": 14,
+      "pixels": [
+        70
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cc84",
+      "source_hex": "ae00bed5e1d5dbd900e8e300ced9d5e1ff",
+      "references": [
+        10462144
+      ],
+      "english": "- Damage to Team",
+      "french_comparison": "- Dégâts à l'équipe",
+      "expected": "- Dano à equipe",
+      "pt_bytes": 16,
+      "pixels": [
+        87
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cc95",
+      "source_hex": "c3e2dad5e8e9d5e8d900c0e3d9e7ff",
+      "references": [
+        10462148
+      ],
+      "english": "Infatuate Foes",
+      "french_comparison": "Embobine ennemis",
+      "expected": "Apaixona rivais",
+      "pt_bytes": 16,
+      "pixels": [
+        81
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cca4",
+      "source_hex": "ccd9d7edd7e0d900bcd9e6e6ddd9e7ff",
+      "references": [
+        10462152
+      ],
+      "english": "Recycle Berries",
+      "french_comparison": "Recycle Baies",
+      "expected": "Recicla Berries",
+      "pt_bytes": 16,
+      "pixels": [
+        82
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4ccb4",
+      "source_hex": "cae3dde7e3e200c0e3d9e7ff",
+      "references": [
+        10462156
+      ],
+      "english": "Poison Foes",
+      "french_comparison": "Empoisonne ennemis",
+      "expected": "Envenena rivais",
+      "pt_bytes": 16,
+      "pixels": [
+        81
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4ccc0",
+      "source_hex": "cdd9e800cde8d9d5e0e8dc00cce3d7dfff",
+      "references": [
+        10462160
+      ],
+      "english": "Set Stealth Rock",
+      "french_comparison": "Pose Piège de Roc",
+      "expected": "Cria Stealth Rock",
+      "pt_bytes": 18,
+      "pixels": [
+        95
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4ccd1",
+      "source_hex": "ccd9e1e3ead900cdd7e6d9d9e2e7002d00c2d5eed5e6d8e7ff",
+      "references": [
+        10462164
+      ],
+      "english": "Remove Screens & Hazards",
+      "french_comparison": "Retire murs & pièges",
+      "expected": "Remove telas e armadilhas",
+      "pt_bytes": 26,
+      "pixels": [
+        142
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4ccd2",
+      "source_hex": "d9e1e3ead900cdd7e6d9d9e2e7002d00c2d5eed5e6d8e7ff",
+      "references": [],
+      "english": "emove Screens & Hazards",
+      "french_comparison": "Retire les écrans et pièges",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Fragment interne des entrées 0xa4ccd1. Le consommateur du parent est traité séparément.",
+      "containing_entries": [
+        "0xa4ccd1"
+      ]
+    },
+    {
+      "offset": "0xa4ccea",
+      "source_hex": "cae3dde7e3e200e3e600cad5e6d5e0edeed900c0e3d9e7ff",
+      "references": [
+        10462168
+      ],
+      "english": "Poison or Paralyze Foes",
+      "french_comparison": "Empoisonne ou paralyse ennemis",
+      "expected": "Envenena/paralisa rivais",
+      "pt_bytes": 25,
+      "pixels": [
+        130
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd02",
+      "source_hex": "c2d9d5e000ced9d5e1ff",
+      "references": [
+        10462172
+      ],
+      "english": "Heal Team",
+      "french_comparison": "Soin équipe",
+      "expected": "Cura equipe",
+      "pt_bytes": 12,
+      "pixels": [
+        63
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd0c",
+      "source_hex": "ccd9d8e9d7d900c6d5e7e800c7e3ead900cacaff",
+      "references": [
+        10462176
+      ],
+      "english": "Reduce Last Move PP",
+      "french_comparison": "Réduit PP du dernier move",
+      "expected": "Reduz PP do último mov.",
+      "pt_bytes": 24,
+      "pixels": [
+        133
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd20",
+      "source_hex": "bddcd5e2dbd900c1e6d5eadde8edff",
+      "references": [
+        10462180
+      ],
+      "english": "Change Gravity",
+      "french_comparison": "Change Gravité",
+      "expected": "Muda gravidade",
+      "pt_bytes": 15,
+      "pixels": [
+        81
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd2f",
+      "source_hex": "c7d5ed00c7d5dfd900c0e3d9e700bee6e3ebe7edff",
+      "references": [
+        10462188
+      ],
+      "english": "May Make Foes Drowsy",
+      "french_comparison": "Peut endormir ennemis",
+      "expected": "Pode dar sono aos rivais",
+      "pt_bytes": 25,
+      "pixels": [
+        134
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd44",
+      "source_hex": "ae00bfead5e7ddead9e2d9e7e700c0e3d9e7ff",
+      "references": [
+        10462192
+      ],
+      "english": "- Evasiveness Foes",
+      "french_comparison": "- Esquive ennemis",
+      "expected": "- Evasão dos rivais",
+      "pt_bytes": 20,
+      "pixels": [
+        106
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd57",
+      "source_hex": "bde9e6d900ced9d5e100cde8d5e8e9e7d9e7ff",
+      "references": [
+        10462196
+      ],
+      "english": "Cure Team Statuses",
+      "french_comparison": "Soigne statuts équipe",
+      "expected": "Cura status da equipe",
+      "pt_bytes": 22,
+      "pixels": [
+        119
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd6a",
+      "source_hex": "cdd9e8e700cde8d9d9e0e7e9e6dbd9ff",
+      "references": [
+        10462204
+      ],
+      "english": "Sets Steelsurge",
+      "french_comparison": "Pose Acierpic",
+      "expected": "Cria Steelsurge",
+      "pt_bytes": 16,
+      "pixels": [
+        83
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd7a",
+      "source_hex": "bde3e2dae9e7d900c0e3d9e7ff",
+      "references": [
+        10462200
+      ],
+      "english": "Confuse Foes",
+      "french_comparison": "Confuse ennemis",
+      "expected": "Confunde rivais",
+      "pt_bytes": 16,
+      "pixels": [
+        81
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd87",
+      "source_hex": "cee3e6e1d9e2e800c0e3d9e7ff",
+      "references": [
+        10462208
+      ],
+      "english": "Torment Foes",
+      "french_comparison": "Tourmente ennemis",
+      "expected": "Atormenta rivais",
+      "pt_bytes": 17,
+      "pixels": [
+        86
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cd94",
+      "source_hex": "aeae00cde4d9d9d800c0e3d9e7ff",
+      "references": [
+        10462212
+      ],
+      "english": "-- Speed Foes",
+      "french_comparison": "-- Vitesse ennemis",
+      "expected": "-- Velocidade dos rivais",
+      "pt_bytes": 25,
+      "pixels": [
+        134
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cda2",
+      "source_hex": "c3dbe2e3e6d900c0e3d900bbd6dde0dde8edff",
+      "references": [
+        10462216
+      ],
+      "english": "Ignore Foe Ability",
+      "french_comparison": "Ignore talent ennemi",
+      "expected": "Ignora Habilidade rival",
+      "pt_bytes": 24,
+      "pixels": [
+        127
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cdb5",
+      "source_hex": "bcede4d5e7e700cae6e3e8d9d7e8dde3e2ff",
+      "references": [
+        10462220
+      ],
+      "english": "Bypass Protection",
+      "french_comparison": "Passe Protection",
+      "expected": "Ignora proteção",
+      "pt_bytes": 16,
+      "pixels": [
+        86
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "move_detail"
+    },
+    {
+      "offset": "0xa4cdc7",
+      "source_hex": "00d1ccc9c8c100cdbbd0bf00ced3cabfabfecae0d9d5e7d900d7dcd5e2dbd900e8e300c0e0d5e7dc00a2a3a9dfadfbc3da00ede3e900d5e6d900e9e7dde2db00d0bcbbb800d7e3e2e7ddd8d9e6fee7ebdde8d7dcdde2db00e8e300e8dcd900e7e9e4d9e6dde3e600fc0106e1c1bcbbfc0102adfbc3da00ede3e900d8e300e2e3e800ebdde7dc00e8e3b800e8dcd9e200dae3e0e0e3ebfee8dcd9e7d900dde2e7e8e6e9d7e8dde3e2e700e8e300daddec00e8dcd900cdd5ead900ceede4d9adfbfc0104d0bcbb00c3e2e7e8e6e9d7e8dde3e2e7fc0102f0fbc0dde6e7e8b800d7e0ddd7df00fc0106c9e4e8dde3e2e7fc010200e3e200e8dcd900e8e3e400d6d5e6adfbc8d9ece8b800e9e2d8d9e600fc0106bfe1e9e0d5e8e3e6fc0102b800e7d9e0d9d7e800e8dcd9fefc0106cdd5ead900ceede4d9fc010200e3e4e8dde3e2adfbbbe2d800e8dcd9e2b800d7e0ddd7df00fc0106c0e0d5e7dc00a2a3a9c5fc0102adfbc0dde2d5e0e0edb800d7e3e1e4e0d9e8d9e0ed00d7e0e3e7d900d5e2d800e6d9e7e8d5e6e8fee8dcd900d9e1e9e0d5e8e3e6adfbfc0104a4becd00c3e2e7e8e6e9d7e8dde3e2e7fc0102f0fbcfe7d900e8dcd900fc0106c8d9eb00cde9e4d9e600cfe0e8dde1d5e8d900d0bd00c3e2ded9d7e8e3e6fedae3e600a4becdfc010200e8e300d7e6d9d5e8d900e8dcd900bdc3bb00dadde0d9adfbc9e2d7d900e3e4d9e2b800d7e3e2dadde6e100e8dcd900fc0106ccc9c700cdd5ead900ceede4d9fc0102fedde700e7d9e800e8e300e8dcd900dae3e0e0e3ebdde2dbf0fbfc0106c0e0d5e7dc00a2c7d6dde8005cc7d5d7e6e3e2ddecb800c3bef000a1eca1aabda35dfe2e00cccebdfc0102adfbcedcd900fc0106dde2ded9d7e8dde3e200e1d9e8dce3d8fc010200e1e9e7e800d5e0e7e300d6d9fee7d9e800e8e300fc0106c1bcbb00d0dde6e8e9d5e000bde3e2e7e3e0d9fc0102adfbc3da00ede3e9e600d9e1e9e0d5e8e3e600ebd5e700e2e3e800e1d9e2e8dde3e2d9d8b8fee4e0d9d5e7d900d7dcd5e2dbd900d9e1e9e0d5e8e3e6e7adff",
+      "references": [],
+      "english": "WRONG SAVE TYPE!\nPlease change to Flash 128k.<0xFB>If you are using VBA, consider\nswitching to the superior <0xFC>ÀÉmGBA<0xFC>ÀÁ.<0xFB>If you do not wish to, then follow\nthese instructions to fix the Save Type.<0xFB><0xFC>ÀÇVBA Instructions<0xFC>ÀÁ:<0xFB>First, click <0xFC>ÀÉOptions<0xFC>ÀÁ on the top bar.<0xFB>Next, under <0xFC>ÀÉEmulator<0xFC>ÀÁ, select the\n<0xFC>ÀÉSave Type<0xFC>ÀÁ option.<0xFB>And then, click <0xFC>ÀÉFlash 128K<0xFC>ÀÁ.<0xFB>Finally, completely close and restart\nthe emulator.<0xFB><0xFC>ÀÇ3DS Instructions<0xFC>ÀÁ:<0xFB>Use the <0xFC>ÀÉNew Super Ultimate VC Injector\nfor 3DS<0xFC>ÀÁ to create the CIA file.<0xFB>Onc",
+      "french_comparison": "MAUVAIS TYPE DE SAUVEGARDE !\nPassez en Flash 128k.<0xFB>Si vous utilisez VBA, passez à\nl'excellent {COLOR}ÉmGBA{COLOR}Á.<0xFB>Sinon, suivez ces étapes :\n{COLOR}ÇVBA{COLOR}Á : Options > Emulator ><0xFB>Save Type > Flash 128K.<0xFB>Fermez et relancez l'émulateur.<0xFB>{COLOR}Ç3DS{COLOR}Á : Dans New Super Ultimate VC\nInjector 3DS, réglez {COLOR}ÉROM Save Type{COLOR}Á<0xFB>sur {COLOR}ÉFlash 1Mbit (ID: 0x09C2)<0xFB>+ RTC{COLOR}Á.\nL'option d'injection doit être<0xFB>{COLOR}ÉGBA Virtual Console{COLOR}Á.<0xFB>Si votre émulateur n'est pas listé,\nchangez d'émulateur.<0xFB>\n<0xFB>\n<0xFB>\n<0xFB>\n",
+      "status": "exception",
+      "kind": "unreferenced",
+      "reason": "Aucun pointeur absolu vers cette clé dans les 32 Mio EN (scan aligné et non aligné). Aucune injection autonome revendiquée. Octet de bourrage avant la clé vivante 0xa4cdc8, pointeur 0x9a36cc.",
+      "containing_entries": []
+    },
+    {
+      "offset": "0xa4cdc8",
+      "source_hex": "d1ccc9c8c100cdbbd0bf00ced3cabfabfecae0d9d5e7d900d7dcd5e2dbd900e8e300c0e0d5e7dc00a2a3a9dfadfbc3da00ede3e900d5e6d900e9e7dde2db00d0bcbbb800d7e3e2e7ddd8d9e6fee7ebdde8d7dcdde2db00e8e300e8dcd900e7e9e4d9e6dde3e600fc0106e1c1bcbbfc0102adfbc3da00ede3e900d8e300e2e3e800ebdde7dc00e8e3b800e8dcd9e200dae3e0e0e3ebfee8dcd9e7d900dde2e7e8e6e9d7e8dde3e2e700e8e300daddec00e8dcd900cdd5ead900ceede4d9adfbfc0104d0bcbb00c3e2e7e8e6e9d7e8dde3e2e7fc0102f0fbc0dde6e7e8b800d7e0ddd7df00fc0106c9e4e8dde3e2e7fc010200e3e200e8dcd900e8e3e400d6d5e6adfbc8d9ece8b800e9e2d8d9e600fc0106bfe1e9e0d5e8e3e6fc0102b800e7d9e0d9d7e800e8dcd9fefc0106cdd5ead900ceede4d9fc010200e3e4e8dde3e2adfbbbe2d800e8dcd9e2b800d7e0ddd7df00fc0106c0e0d5e7dc00a2a3a9c5fc0102adfbc0dde2d5e0e0edb800d7e3e1e4e0d9e8d9e0ed00d7e0e3e7d900d5e2d800e6d9e7e8d5e6e8fee8dcd900d9e1e9e0d5e8e3e6adfbfc0104a4becd00c3e2e7e8e6e9d7e8dde3e2e7fc0102f0fbcfe7d900e8dcd900fc0106c8d9eb00cde9e4d9e600cfe0e8dde1d5e8d900d0bd00c3e2ded9d7e8e3e6fedae3e600a4becdfc010200e8e300d7e6d9d5e8d900e8dcd900bdc3bb00dadde0d9adfbc9e2d7d900e3e4d9e2b800d7e3e2dadde6e100e8dcd900fc0106ccc9c700cdd5ead900ceede4d9fc0102fedde700e7d9e800e8e300e8dcd900dae3e0e0e3ebdde2dbf0fbfc0106c0e0d5e7dc00a2c7d6dde8005cc7d5d7e6e3e2ddecb800c3bef000a1eca1aabda35dfe2e00cccebdfc0102adfbcedcd900fc0106dde2ded9d7e8dde3e200e1d9e8dce3d8fc010200e1e9e7e800d5e0e7e300d6d9fee7d9e800e8e300fc0106c1bcbb00d0dde6e8e9d5e000bde3e2e7e3e0d9fc0102adfbc3da00ede3e9e600d9e1e9e0d5e8e3e600ebd5e700e2e3e800e1d9e2e8dde3e2d9d8b8fee4e0d9d5e7d900d7dcd5e2dbd900d9e1e9e0d5e8e3e6e7adff",
+      "references": [
+        10106572
+      ],
+      "english": "WRONG SAVE TYPE!\nPlease change to Flash 128k.<0xFB>If you are using VBA, consider\nswitching to the superior <0xFC>ÀÉmGBA<0xFC>ÀÁ.<0xFB>If you do not wish to, then follow\nthese instructions to fix the Save Type.<0xFB><0xFC>ÀÇVBA Instructions<0xFC>ÀÁ:<0xFB>First, click <0xFC>ÀÉOptions<0xFC>ÀÁ on the top bar.<0xFB>Next, under <0xFC>ÀÉEmulator<0xFC>ÀÁ, select the\n<0xFC>ÀÉSave Type<0xFC>ÀÁ option.<0xFB>And then, click <0xFC>ÀÉFlash 128K<0xFC>ÀÁ.<0xFB>Finally, completely close and restart\nthe emulator.<0xFB><0xFC>ÀÇ3DS Instructions<0xFC>ÀÁ:<0xFB>Use the <0xFC>ÀÉNew Super Ultimate VC Injector\nfor 3DS<0xFC>ÀÁ to create the CIA file.<0xFB>Once",
+      "french_comparison": "MAUVAIS TYPE DE SAUVEGARDE !\nPasse en Flash 128k.<0xFB>Si tu utilises VBA, pense à passer\nau bien meilleur <0xFC><0x01><0x06>mGBA<0xFC><0x01><0x02>.<0xFB>Sinon, suis ces instructions pour\ncorriger le type de sauvegarde.<0xFB><0xFC><0x01><0x04>Instructions VBA<0xFC><0x01><0x02> :<0xFB>D'abord, clique sur <0xFC><0x01><0x06>Options<0xFC><0x01><0x02> dans la\nbarre du haut.<0xFB>Ensuite, sous <0xFC><0x01><0x06>Emulator<0xFC><0x01><0x02>, choisis\nl'option <0xFC><0x01><0x06>Save Type<0xFC><0x01><0x02>.<0xFB>Puis clique sur <0xFC><0x01><0x06>Flash 128K<0xFC><0x01><0x02>.<0xFB>Enfin, ferme complètement l'émulateur\net relance-le.<0xFB><0xFC><0x01><0x04>Instructions 3DS<0xFC><0x01><0x02> :<0xFB>Utilise le <0xFC><0x01><0x06>New Super Ultimate VC Injector\nfor 3DS<0xFC><0x01><0x02> pour créer le fichier CIA.<0xFB>Une fois ouvert, vérifie que le\n<0xFC><0x01><0x06>ROM Save Type<0xFC><0x01><0x02> est réglé sur :<0xFB><0xFC><0x01><0x06>Flash 1Mbit (Macronix, ID: 0x09C2)\n+ RTC<0xFC><0x01><0x02>.<0xFB>La <0xFC><0x01><0x06>méthode d'injection<0xFC><0x01><0x02> doit aussi\nêtre réglée sur <0xFC><0x01><0x06>GBA Virtual Console<0xFC><0x01><0x02>.<0xFB>Si ton émulateur n'est pas mentionné,\nchange d'émulateur.",
+      "expected": "TIPO DE SAVE ERRADO!\\nMude para Flash 128k.<0xFB>Se usa VBA, considere mudar\\npara o superior <0xFC><0x01><0x06>mGBA<0xFC><0x01><0x02>.<0xFB>Se não quiser, siga estes passos\\npara corrigir o tipo de save.<0xFB><0xFC><0x01><0x04>Instruções VBA<0xFC><0x01><0x02>:<0xFB>Primeiro, clique em <0xFC><0x01><0x06>Options<0xFC><0x01><0x02>\\nna barra superior.<0xFB>Depois, em <0xFC><0x01><0x06>Emulator<0xFC><0x01><0x02>, selecione\\na opção <0xFC><0x01><0x06>Save Type<0xFC><0x01><0x02>.<0xFB>Então, clique em <0xFC><0x01><0x06>Flash 128K<0xFC><0x01><0x02>.<0xFB>Por fim, feche completamente\\ne reinicie o emulador.<0xFB><0xFC><0x01><0x04>Instruções 3DS<0xFC><0x01><0x02>:<0xFB>Use <0xFC><0x01><0x06>New Super Ultimate VC Injector\\nfor 3DS<0xFC><0x01><0x02> para criar o arquivo CIA.<0xFB>Ao abrir, confirme se\\n<0xFC><0x01><0x06>ROM Save Type<0xFC><0x01><0x02> está definido como:<0xFB><0xFC><0x01><0x06>Flash 1Mbit (Macronix, ID: 0x09C2)\\n+ RTC<0xFC><0x01><0x02>.<0xFB>O <0xFC><0x01><0x06>injection method<0xFC><0x01><0x02> também deve\\nestar em <0xFC><0x01><0x06>GBA Virtual Console<0xFC><0x01><0x02>.<0xFB>Se seu emulador não foi citado,\\nuse outro emulador.",
+      "pt_bytes": 718,
+      "pixels": [
+        120,
+        121,
+        154,
+        119,
+        177,
+        161,
+        84,
+        147,
+        99,
+        167,
+        107,
+        159,
+        158,
+        121,
+        84,
+        194,
+        187,
+        115,
+        189,
+        191,
+        37,
+        171,
+        162,
+        175,
+        108
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system",
+      "reason": "Corpus EN tronqué à 500 octets : suite récupérée dans la ROM jusqu’au terminateur réel ; tous les contrôles conservés."
+    },
+    {
+      "offset": "0xa4d0bf",
+      "source_hex": "d1bbccc8c3c8c1abfbcedcd900d7e3e6e6d9d7e800e7ede7e8d9e100e8dde1d900d7e3e9e0d8fee2e3e800d6d900e6d9d5d8adfbbfe2d5d6e0d900e8dcd900ccd9d5e000cedde1d900bde0e3d7df005ccccebd5db8fed5e2d800e1d5dfd900e7e9e6d900e8dcd900e8dde1d900dde700d7e3e6e6d9d7e8adff",
+      "references": [
+        10514956
+      ],
+      "english": "WARNING!<0xFB>The correct system time could\nnot be read.<0xFB>Enable the Real Time Clock (RTC),\nand make sure the time is correct.",
+      "french_comparison": "ATTENTION !<0xFB>L'heure du système est illisible.\nActivez l'horloge RTC et vérifiez<0xFB>l'heure.\n",
+      "expected": "ATENÇÃO!<0xFB>Não foi possível ler\\na hora correta do sistema.<0xFB>Ative o relógio em tempo real\\n(RTC) e confira se a hora está certa.",
+      "pt_bytes": 125,
+      "pixels": [
+        48,
+        112,
+        146,
+        164,
+        208
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d138",
+      "source_hex": "d1bbccc8c3c8c1abfbcedcd900d7e3e6e6d9d7e800e7ede7e8d9e100e8dde1d900d7e3e9e0d8fee2e3e800d6d900e6d9d5d8adfbbfe2d5d6e0d900e8dcd900ccd9d5e000cedde1d900bde0e3d7df005ccccebd5db8fed5e2d800e1d5dfd900e7e9e6d900e8dcd900e8dde1d900dde700d7e3e6e6d9d7e8adfbc3da00ede3e900d5e6d900e9e7dde2db00d0bcbbb800d7e3e2e7ddd8d9e6fee7ebdde8d7dcdde2db00e8e300e8dcd900e7e9e4d9e6dde3e600fc0106e1c1bcbbfc0102adfbc3da00ede3e900d8e300e2e3e800ebdde7dc00e8e3b800e8dcd9e200dae3e0e0e3ebfee8dcd9e7d900dde2e7e8e6e9d7e8dde3e2e700e8e300d9e2d5d6e0d900e8dcd900cccebdadfbfc0104d0bcbb00c3e2e7e8e6e9d7e8dde3e2e7fc0102f0fbc0dde6e7e8b800d7e0ddd7df00fc0106c9e4e8dde3e2e7fc010200e3e200e8dcd900e8e3e400d6d5e6adfbc8d9ece8b800e9e2d8d9e600fc0106bfe1e9e0d5e8e3e6fc0102b800e7d9e0d9d7e800e8dcd9fefc0106ccd9d5e000cedde1d900bde0e3d7dffc010200e3e4e8dde3e2adfbc0dde2d5e0e0edb800d7e3e1e4e0d9e8d9e0ed00d7e0e3e7d900d5e2d800e6d9e7e8d5e6e8fee8dcd900d9e1e9e0d5e8e3e6adfbfc0104a4becd00c3e2e7e8e6e9d7e8dde3e2e7fc0102f0fbcfe7d900e8dcd900fc0106c8d9eb00cde9e4d9e600cfe0e8dde1d5e8d900d0bd00c3e2ded9d7e8e3e6fedae3e600a4becdfc010200e8e300d7e6d9d5e8d900e8dcd900bdc3bb00dadde0d9adfbc9e2d7d900e3e4d9e2b800d7e3e2dadde6e100e8dcd900fc0106ccc9c700cdd5ead900ceede4d9fc0102fedde700e7d9e800e8e300e8dcd900dae3e0e0e3ebdde2dbf0fbfc0106c0e0d5e7dc00a2c7d6dde8005cc7d5d7e6e3e2ddecb800c3bef000a1eca1aabda35dfe2e00cccebdfc0102adfbcedcd900fc0106dde2ded9d7e8dde3e200e1d9e8dce3d8fc010200e1e9e7e800d5e0e7e300d6d9fee7d9e800e8e300fc0106c1bcbb00d0dde6e8e9d5e000bde3e2e7e3e0d9fc0102adfbfc0104bed9e0e8d500c3e2e7e8e6e9d7e8dde3e2e7fc0102f0fbcfe7d900e8dcd900e4e6d9e1dde9e100ead9e6e7dde3e200e3da00bed9e0e8d5fee3e600e7ebdde8d7dc00e8e300fc0106c1bcbba5ddc9cdfc0102adff",
+      "references": [
+        10514952
+      ],
+      "english": "WARNING!<0xFB>The correct system time could\nnot be read.<0xFB>Enable the Real Time Clock (RTC),\nand make sure the time is correct.<0xFB>If you are using VBA, consider\nswitching to the superior <0xFC>ÀÉmGBA<0xFC>ÀÁ.<0xFB>If you do not wish to, then follow\nthese instructions to enable the RTC.<0xFB><0xFC>ÀÇVBA Instructions<0xFC>ÀÁ:<0xFB>First, click <0xFC>ÀÉOptions<0xFC>ÀÁ on the top bar.<0xFB>Next, under <0xFC>ÀÉEmulator<0xFC>ÀÁ, select the\n<0xFC>ÀÉReal Time Clock<0xFC>ÀÁ option.<0xFB>Finally, completely close and restart\nthe emulator.<0xFB><0xFC>ÀÇ3DS Instructions<0xFC>ÀÁ:<0xFB>Use the <0xFC>ÀÉNew Super Ultimate VC Inje",
+      "french_comparison": "ATTENTION !<0xFB>L'heure du système est illisible.\nActivez la RTC et vérifiez l'heure.<0xFB>Si vous utilisez VBA, passez à\n{COLOR}ÉmGBA{COLOR}Á.<0xFB>Sinon, suivez : Options > Emulator >\nReal Time Clock.<0xFB>Fermez et relancez.\n{COLOR}Ç3DS{COLOR}Á : dans l'injecteur VC 3DS,<0xFB>vérifiez {COLOR}ÉROM Save Type{COLOR}Á sur<0xFB>{COLOR}ÉFlash 1Mbit (Macronix, ID: 0x09C2)<0xFB>+ RTC{COLOR}Á.\n{COLOR}ÇDelta{COLOR}Á : utilisez la version premium<0xFB>ou passez à {COLOR}ÉGBA4iOS{COLOR}Á.\n<0xFB><0xFB>\n<0xFB>\n<0xFB>\n<0xFB>\n<0xFB><0xFB>\n",
+      "expected": "ATENÇÃO!<0xFB>Não foi possível ler\\na hora correta do sistema.<0xFB>Ative o relógio em tempo real\\n(RTC) e confira se a hora está certa.<0xFB>Se usa VBA, considere mudar\\npara o superior <0xFC><0x01><0x06>mGBA<0xFC><0x01><0x02>.<0xFB>Se não quiser, siga estes passos\\npara ativar o RTC.<0xFB><0xFC><0x01><0x04>Instruções VBA<0xFC><0x01><0x02>:<0xFB>Primeiro, clique em <0xFC><0x01><0x06>Options<0xFC><0x01><0x02>\\nna barra superior.<0xFB>Depois, em <0xFC><0x01><0x06>Emulator<0xFC><0x01><0x02>, selecione\\na opção <0xFC><0x01><0x06>Real Time Clock<0xFC><0x01><0x02>.<0xFB>Por fim, feche completamente\\ne reinicie o emulador.<0xFB><0xFC><0x01><0x04>Instruções 3DS<0xFC><0x01><0x02>:<0xFB>Use <0xFC><0x01><0x06>New Super Ultimate VC Injector\\nfor 3DS<0xFC><0x01><0x02> para criar o arquivo CIA.<0xFB>Ao abrir, confirme se\\n<0xFC><0x01><0x06>ROM Save Type<0xFC><0x01><0x02> está definido como:<0xFB><0xFC><0x01><0x06>Flash 1Mbit (Macronix, ID: 0x09C2)\\n+ RTC<0xFC><0x01><0x02>.<0xFB>O <0xFC><0x01><0x06>injection method<0xFC><0x01><0x02> também deve\\nestar em <0xFC><0x01><0x06>GBA Virtual Console<0xFC><0x01><0x02>.<0xFB><0xFC><0x01><0x04>Instruções Delta<0xFC><0x01><0x02>:<0xFB>Use a versão premium do Delta\\nou mude para <0xFC><0x01><0x06>GBA4iOS<0xFC><0x01><0x02>.",
+      "pt_bytes": 790,
+      "pixels": [
+        48,
+        112,
+        146,
+        164,
+        208,
+        154,
+        119,
+        177,
+        102,
+        84,
+        147,
+        99,
+        167,
+        138,
+        158,
+        121,
+        84,
+        194,
+        187,
+        115,
+        189,
+        191,
+        37,
+        171,
+        162,
+        94,
+        166,
+        122
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system",
+      "reason": "Corpus EN tronqué à 500 octets : suite récupérée dans la ROM jusqu’au terminateur réel ; tous les contrôles conservés."
+    },
+    {
+      "offset": "0xa4d475",
+      "source_hex": "d1bbccc8c3c8c1abfbcccebd00e8d5e1e4d9e6dde2db00dcd5e700d6d9d9e200d8d9e8d9d7e8d9d8fedde200ede3e9e600e7d5ead900dadde0d9abfbcedcd900d7e9e6e6d9e2e800dde2dbd5e1d900d8d5e8d900dde700e7d9e800e8e3fefd02bafd03bafd04adfbbbe0e000d8d5dde0ed00d9ead9e2e8e700e7e9d7dc00d5e700dbdddae8e7fed5e2d800ccd5ddd8e700e1d5ed00d7d9d5e7d900e8e300dae9e2d7e8dde3e2fae4e6e3e4d9e6e0ed00e9e2e8dde000e8dcd900d8d5ed00d5dae8d9e6adfbcae0d9d5e7d900e6d9dae6d5dde200dae6e3e100e8d5e1e4d9e6dde2dbfeebdde8dc00e8dcd900cccebd00d5dbd5dde2adff",
+      "references": [
+        10514976
+      ],
+      "english": "WARNING!<0xFB>RTC tampering has been detected\nin your save file!<0xFB>The current ingame date is set to\n<0xFD>Á/<0xFD>Â/<0xFD>Ç.<0xFB>All daily events such as gifts\nand Raids may cease to function<0xFA>properly until the day after.<0xFB>Please refrain from tampering\nwith the RTC again.",
+      "french_comparison": "ATTENTION !<0xFB>Triche RTC détectée dans ta\nsauvegarde !<0xFB>Date du jeu : {STR_VAR_1}/{STR_VAR_2}/{STR_VAR_3}.\nLes événements quotidiens (cadeaux,<0xFB>Raids) peuvent cesser jusqu'au\nlendemain.<0xFA>Ne trafique plus la RTC.<0xFB>\n",
+      "expected": "ATENÇÃO!<0xFB>Uma alteração do RTC foi\\ndetectada no seu save!<0xFB>A data atual do jogo é\\n<0xFD><0x02>/<0xFD><0x03>/<0xFD><0x04>.<0xFB>Eventos diários, como presentes\\ne Raids, podem não funcionar<0xFA>corretamente até o dia seguinte.<0xFB>Evite alterar o RTC\\nnovamente.",
+      "pt_bytes": 215,
+      "pixels": [
+        48,
+        138,
+        127,
+        129,
+        179,
+        171,
+        157,
+        178,
+        107,
+        56
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d56c",
+      "source_hex": "fd0100e9e7d9d800e8dcd9fefd03adfbcedcd900d7dcd5e2d7d900e3da00d9e2d7e3e9e2e8d9e6dde2db00e7e8e6e3e2dbfeebdde0d800cae3df1be1e3e200dde200e8dcdde700d5e6d9d500dde2d7e6d9d5e7d9d8adfc09ff",
+      "references": [
+        662332
+      ],
+      "english": "<0xFD>À used the\n<0xFD>Â.<0xFB>The chance of encountering strong\nwild Pokémon in this area increased.<0xFC>Ì",
+      "french_comparison": "{PLAYER} utilise le\n{STR_VAR_2}.<0xFB>Plus de Pokémon sauvages forts\npeuvent apparaître.{PAUSE_UNTIL_PRESS}",
+      "expected": "<0xFD><0x01> usou\\n<0xFD><0x03>.<0xFB>A chance de encontrar Pokémon\\nselvagens fortes aqui aumentou.<0xFC><0x09>",
+      "pt_bytes": 76,
+      "pixels": [
+        83,
+        59,
+        166,
+        173
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d5c5",
+      "source_hex": "fd0100e9e7d9d800e8dcd9fefd03adfbcedcd900d7dcd5e2d7d900e3da00d9e2d7e3e9e2e8d9e6dde2db00ebd9d5dffeebdde0d800cae3df1be1e3e200dde200e8dcdde700d5e6d9d500dde2d7e6d9d5e7d9d8adfc09ff",
+      "references": [
+        662252
+      ],
+      "english": "<0xFD>À used the\n<0xFD>Â.<0xFB>The chance of encountering weak\nwild Pokémon in this area increased.<0xFC>Ì",
+      "french_comparison": "{PLAYER} utilise le\n{STR_VAR_2}.<0xFB>Plus de Pokémon sauvages faibles\npeuvent apparaître.{PAUSE_UNTIL_PRESS}",
+      "expected": "<0xFD><0x01> usou\\n<0xFD><0x03>.<0xFB>A chance de encontrar Pokémon\\nselvagens fracos aqui aumentou.<0xFC><0x09>",
+      "pt_bytes": 76,
+      "pixels": [
+        83,
+        59,
+        166,
+        174
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d61c",
+      "source_hex": "bb00e7d9d7e3e2d800dde8d9e100dde200e8dcd900bde9d6d900d7d5e200d6d9fee6d9dbdde7e8d9e6d9d800e8e300f80200dae3e600d9d5e7ed00e9e7d9adff",
+      "references": [
+        10110459
+      ],
+      "english": "A second item in the Cube can be\nregistered to <0xF8>Á for easy use.",
+      "french_comparison": "Un second objet du Cube peut être\nattribué à {L_BUTTON}.",
+      "expected": "Outro item do Cube pode ser\\nregistrado em <0xF8><0x02> para uso fácil.",
+      "pt_bytes": 61,
+      "pixels": [
+        155,
+        167
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d65c",
+      "source_hex": "bbe9e8e3aee6e9e200dcd5e700d6d9d9e200fc0106d9e2d5d6e0d9d8fc0102adff",
+      "references": [
+        10110478
+      ],
+      "english": "Auto-run has been <0xFC>ÀÉenabled<0xFC>ÀÁ.",
+      "french_comparison": "Course auto <0xFC><0x01><0x06>activée<0xFC><0x01><0x02>.",
+      "expected": "Corrida automática <0xFC><0x01><0x06>ativada<0xFC><0x01><0x02>.",
+      "pt_bytes": 34,
+      "pixels": [
+        150
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d67d",
+      "source_hex": "bbe9e8e3aee6e9e200dcd5e700d6d9d9e200fc0106d8dde7d5d6e0d9d8fc0102adff",
+      "references": [
+        10110496
+      ],
+      "english": "Auto-run has been <0xFC>ÀÉdisabled<0xFC>ÀÁ.",
+      "french_comparison": "Course auto <0xFC><0x01><0x06>désactivée<0xFC><0x01><0x02>.",
+      "expected": "Corrida automática <0xFC><0x01><0x06>desativada<0xFC><0x01><0x02>.",
+      "pt_bytes": 37,
+      "pixels": [
+        167
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d69f",
+      "source_hex": "cee9e6d6e300d6e3e3e7e800dcd5e700d6d9d9e200fc0106d5d7e8ddead5e8d9d8fc0102adff",
+      "references": [
+        10110515
+      ],
+      "english": "Turbo boost has been <0xFC>ÀÉactivated<0xFC>ÀÁ.",
+      "french_comparison": "Le boost turbo a été <0xFC><0x01><0x06>activé<0xFC><0x01><0x02>.",
+      "expected": "Impulso turbo <0xFC><0x01><0x06>ativado<0xFC><0x01><0x02>.",
+      "pt_bytes": 29,
+      "pixels": [
+        124
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d6c5",
+      "source_hex": "cee9e6d6e300d6e3e3e7e800dcd5e700d6d9d9e200fc0106d8d9d5d7e8ddead5e8d9d8fc0102adff",
+      "references": [
+        10110533
+      ],
+      "english": "Turbo boost has been <0xFC>ÀÉdeactivated<0xFC>ÀÁ.",
+      "french_comparison": "Le boost turbo a été <0xFC><0x01><0x06>désactivé<0xFC><0x01><0x02>.",
+      "expected": "Impulso turbo <0xFC><0x01><0x06>desativado<0xFC><0x01><0x02>.",
+      "pt_bytes": 32,
+      "pixels": [
+        141
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d6ed",
+      "source_hex": "cee9e6d6e300cde9e6da00dcd5e700d6d9d9e200fc0106d5d7e8ddead5e8d9d8fc0102adff",
+      "references": [
+        10110552
+      ],
+      "english": "Turbo Surf has been <0xFC>ÀÉactivated<0xFC>ÀÁ.",
+      "french_comparison": "Le Surf turbo a été <0xFC><0x01><0x06>activé<0xFC><0x01><0x02>.",
+      "expected": "Surf turbo <0xFC><0x01><0x06>ativado<0xFC><0x01><0x02>.",
+      "pt_bytes": 26,
+      "pixels": [
+        106
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d712",
+      "source_hex": "cee9e6d6e300cde9e6da00dcd5e700d6d9d9e200fc0106d8d9d5d7e8ddead5e8d9d8fc0102adff",
+      "references": [
+        10110570
+      ],
+      "english": "Turbo Surf has been <0xFC>ÀÉdeactivated<0xFC>ÀÁ.",
+      "french_comparison": "Le Turbo Surf a été <0xFC><0x01><0x06>désactivé<0xFC><0x01><0x02>.",
+      "expected": "Surf turbo <0xFC><0x01><0x06>desativado<0xFC><0x01><0x02>.",
+      "pt_bytes": 29,
+      "pixels": [
+        123
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d739",
+      "source_hex": "fd0200e7e9e6eaddead9d800e8dcd900cae3dde7e3e2adfecedcd900cae3dde7e3e200dad5d8d9d800d5ebd5edabff",
+      "references": [
+        10110682
+      ],
+      "english": "<0xFD>Á survived the Poison.\nThe Poison faded away!",
+      "french_comparison": "<0xFD><0x02> a survécu au poison.\nLe poison s'est dissipé !",
+      "expected": "<0xFD><0x02> sobreviveu ao veneno.\\nO veneno se dissipou!",
+      "pt_bytes": 47,
+      "pixels": [
+        179,
+        117
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d768",
+      "source_hex": "d3e3e900d5e0e7e300dbd9e800d500fd0300d5e7fed5e200d5d8d8d9d800d6e3e2e9e7adfc09ff",
+      "references": [
+        10436552
+      ],
+      "english": "You also get a <0xFD>Â as\nan added bonus.<0xFC>Ì",
+      "french_comparison": "Tu reçois aussi un {STR_VAR_2}\nen bonus.{PAUSE_UNTIL_PRESS}",
+      "expected": "Você também ganha um <0xFD><0x03>\\ncomo bônus.<0xFC><0x09>",
+      "pt_bytes": 38,
+      "pixels": [
+        178,
+        63
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d78f",
+      "source_hex": "d3e3e900d5e0e7e300dbd9e800fd0200fd03e700d5e7fed5e200d5d8d8d9d800d6e3e2e9e7adfc09ff",
+      "references": [
+        10436556
+      ],
+      "english": "You also get <0xFD>Á <0xFD>Âs as\nan added bonus.<0xFC>Ì",
+      "french_comparison": "Tu reçois aussi {STR_VAR_1} {STR_VAR_2}\nen bonus.{PAUSE_UNTIL_PRESS}",
+      "expected": "Bônus: <0xFD><0x02> <0xFD><0x03>\\npara você.<0xFC><0x09>",
+      "pt_bytes": 26,
+      "pixels": [
+        153,
+        58
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d7b8",
+      "source_hex": "cedcd900e6d9e4d9e0e0d9e2e8b4e700d9dadad9d7e800ebe3e6d900e3dadaabfed1e3e9e0d800ede3e900e0dddfd900e8e300e9e7d900d5e2e3e8dcd9e600e3e2d9acff",
+      "references": [
+        10110720
+      ],
+      "english": "The repellent's effect wore off!\nWould you like to use another one?",
+      "french_comparison": "L'effet du Repousse s'est dissipé !\nVeux-tu en utiliser un autre ?",
+      "expected": "O efeito do repelente acabou!\\nQuer usar outro?",
+      "pt_bytes": 47,
+      "pixels": [
+        166,
+        91
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    },
+    {
+      "offset": "0xa4d7fc",
+      "source_hex": "fd0100e9e7d9d800d500fd04adff",
+      "references": [
+        10110827
+      ],
+      "english": "<0xFD>À used a <0xFD>Ç.",
+      "french_comparison": "{PLAYER} utilise un {STR_VAR_3}.",
+      "expected": "<0xFD><0x01> usou <0xFD><0x04>.",
+      "pt_bytes": 12,
+      "pixels": [
+        148
+      ],
+      "max_width": 214,
+      "status": "translated",
+      "kind": "system"
+    }
+  ]
+}

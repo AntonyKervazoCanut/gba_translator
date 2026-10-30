@@ -30893,3 +30893,794 @@ entries:
   - offset: "0xa4ae43"
     name: "PT-45 0xa4ae43"
     expected: 'Wide Guard protegeu\na equipe <0xFD>;!'
+
+  # PT-46 — F-805
+  - offset: "0xa4ae61"
+    name: "PT-46 0xa4ae61"
+    expected: 'Crafty Shield protegeu\n<0xFD><0x10>!'
+  - offset: "0xa4ae81"
+    name: "PT-46 0xa4ae81"
+    expected: '<0xFD><0x14> foi bloqueado\npelo tatame erguido!'
+  - offset: "0xa4aea6"
+    name: "PT-46 0xa4aea6"
+    expected: 'Quick Guard protegeu\n<0xFD><0x10>!'
+  - offset: "0xa4aec4"
+    name: "PT-46 0xa4aec4"
+    expected: 'Wide Guard protegeu\n<0xFD><0x10>!'
+  - offset: "0xa4aee1"
+    name: "PT-46 0xa4aee1"
+    expected: 'Nenhum Pokémon pode fugir!'
+  - offset: "0xa4aeff"
+    name: "PT-46 0xa4aeff"
+    expected: '<0xFD><0x10> não pode mais\nescapar!'
+  - offset: "0xa4af18"
+    name: "PT-46 0xa4af18"
+    expected: '<0xFD><0x0F> se envolveu\nem luz!'
+  - offset: "0xa4af34"
+    name: "PT-46 0xa4af34"
+    expected: '<0xFD><0x10> não é afetado\ngraças a <0xFD><0x16>!'
+  - offset: "0xa4af59"
+    name: "PT-46 0xa4af59"
+    expected: '<0xFD><0x13> usou\n<0xFD><0x16> para se animar!'
+  - offset: "0xa4af77"
+    name: "PT-46 0xa4af77"
+    expected: '<0xFD><0x13> pode agir\nmais rápido graças a <0xFD><0x16>!'
+  - offset: "0xa4af9c"
+    name: "PT-46 0xa4af9c"
+    expected: '<0xFD><0x13> pode agir\nmais rápido!'
+  - offset: "0xa4afaf"
+    name: "PT-46 0xa4afaf"
+    expected: '<0xFD><0x0F> transborda\nenergia espacial!'
+  - offset: "0xa4afd3"
+    name: "PT-46 0xa4afd3"
+    expected: '<0xFD><0x10> será atingido\npor seu <0xFD><0x16>!'
+  - offset: "0xa4aff9"
+    name: "PT-46 0xa4aff9"
+    expected: '<0xFD><0x13> acordou\ncom Uproar!'
+  - offset: "0xa4b02d"
+    name: "PT-46 0xa4b02d"
+    expected: '<0xFD><0x0F> trocou os\nefeitos de batalha<0xFA>entre os lados do campo!'
+  - offset: "0xa4b06d"
+    name: "PT-46 0xa4b06d"
+    expected: '<0xFD><0x0F> trocou suas\nstats ofensivas e defensivas!'
+  - offset: "0xa4b093"
+    name: "PT-46 0xa4b093"
+    expected: '<0xFD><0x10> fica acordado!'
+  - offset: "0xa4b0a3"
+    name: "PT-46 0xa4b0a3"
+    expected: 'A equipe de <0xFD><0x10>\nestá protegida por Safeguard!'
+  - offset: "0xa4b0c9"
+    name: "PT-46 0xa4b0c9"
+    expected: '<0xFD><0x10> se envolve\nnuma névoa protetora!'
+  - offset: "0xa4b0f3"
+    name: "PT-46 0xa4b0f3"
+    expected: '<0xFD><0x10> se envolve\nem terreno eletrificado!'
+  - offset: "0xa4b121"
+    name: "PT-46 0xa4b121"
+    expected: '<0xFD><0x10> já tem\numa condição de status!'
+  - offset: "0xa4b144"
+    name: "PT-46 0xa4b144"
+    expected: '<0xFD><0x10> já está\nsonolento!'
+  - offset: "0xa4b15a"
+    name: "PT-46 0xa4b15a"
+    expected: '<0xFD><0x10> se envolveu\nnum véu doce!'
+  - offset: "0xa4b189"
+    name: "PT-46 0xa4b189"
+    expected: '<0xFD><0x10> se envolveu\nnum véu de pétalas!'
+  - offset: "0xa4b1b5"
+    name: "PT-46 0xa4b1b5"
+    expected: '<0xFD><0x10> está protegido\npor um véu pastel!'
+  - offset: "0xa4b1d7"
+    name: "PT-46 0xa4b1d7"
+    expected: '<0xFD><0x10> está protegido\npor um véu aromático!'
+  - offset: "0xa4b1fc"
+    name: "PT-46 0xa4b1fc"
+    expected: 'A cláusula do sono impede\nmais Pokémon de adormecerem!'
+  - offset: "0xa4b23c"
+    name: "PT-46 0xa4b23c"
+    expected: '<0xFD><0x11> sofreu congeladura!'
+  - offset: "0xa4b24e"
+    name: "PT-46 0xa4b24e"
+    expected: '<0xFD><0x0F> sofre com\na congeladura!'
+  - offset: "0xa4b26b"
+    name: "PT-46 0xa4b26b"
+    expected: 'A congeladura de <0xFD><0x0F>\nfoi curada por <0xFD><0x14>!'
+  - offset: "0xa4b28b"
+    name: "PT-46 0xa4b28b"
+    expected: 'A congeladura de <0xFD><0x10>\nfoi curada!'
+  - offset: "0xa4b2a5"
+    name: "PT-46 0xa4b2a5"
+    expected: 'A congeladura de <0xFD><0x0F>\nfoi curada!'
+  - offset: "0xa4b2bf"
+    name: "PT-46 0xa4b2bf"
+    expected: '<0xFD><0x13> usou <0xFD><0x16>\ne curou sua congeladura!'
+  - offset: "0xa4b2dc"
+    name: "PT-46 0xa4b2dc"
+    expected: 'As stats de <0xFD><0x13>\nnão diminuíram!'
+  - offset: "0xa4b2f9"
+    name: "PT-46 0xa4b2f9"
+    expected: '<0xFD><0x13>: <0xFD><0x00>\nnão diminuiu!'
+  - offset: "0xa4b312"
+    name: "PT-46 0xa4b312"
+    expected: '<0xFD><0x13> não fica\nconfuso!'
+  - offset: "0xa4b33c"
+    name: "PT-46 0xa4b33c"
+    expected: 'Mas a aura de <0xFD><0x10>\nimpede a transformação!'
+  - offset: "0xa4b363"
+    name: "PT-46 0xa4b363"
+    expected: 'Mas a aura de <0xFD><0x10>\nbloqueou o movimento!'
+  - offset: "0xa4b383"
+    name: "PT-46 0xa4b383"
+    expected: 'A equipe <0xFD><0x37>: <0xFD><0x00>\nacabou!'
+  - offset: "0xa4b3b2"
+    name: "PT-46 0xa4b3b2"
+    expected: 'Aurora Veil protege a equipe\n<0xFD><0x36> de dano físico e especial!'
+  - offset: "0xa4b3f3"
+    name: "PT-46 0xa4b3f3"
+    expected: 'A equipe <0xFD><0x38> ficou\nenvolta em Mist!'
+  - offset: "0xa4b414"
+    name: "PT-46 0xa4b414"
+    expected: 'A equipe <0xFD><0x38>: <0xFD><0x00>\nacabou!'
+  - offset: "0xa4b42b"
+    name: "PT-46 0xa4b42b"
+    expected: 'O Taunt de <0xFD><0x13>\nacabou!'
+  - offset: "0xa4b440"
+    name: "PT-46 0xa4b440"
+    expected: 'O Tailwind da equipe <0xFD><0x38>\nparou de soprar!'
+  - offset: "0xa4b460"
+    name: "PT-46 0xa4b460"
+    expected: 'O Lucky Chant da equipe <0xFD><0x38>\nacabou!'
+  - offset: "0xa4b480"
+    name: "PT-46 0xa4b480"
+    expected: 'O arco-íris do lado da equipe\n<0xFD><0x36> desapareceu!'
+  - offset: "0xa4b4ab"
+    name: "PT-46 0xa4b4ab"
+    expected: 'O mar de fogo ao redor da\nequipe <0xFD><0x36> desapareceu!'
+  - offset: "0xa4b4dc"
+    name: "PT-46 0xa4b4dc"
+    expected: 'O pântano ao redor da equipe\n<0xFD><0x36> desapareceu!'
+  - offset: "0xa4b502"
+    name: "PT-46 0xa4b502"
+    expected: '<0xFD><0x16> curou o status\nde <0xFD><0x13>!'
+  - offset: "0xa4b51f"
+    name: "PT-46 0xa4b51f"
+    expected: '<0xFD><0x0F> cortou seus PS\ne minimizou seu Ataque!'
+  - offset: "0xa4b547"
+    name: "PT-46 0xa4b547"
+    expected: '<0xFD><0x0F> foi apertado\npelo Octolock!'
+  - offset: "0xa4b568"
+    name: "PT-46 0xa4b568"
+    expected: '<0xFD><0x0F> não pode mais\nfugir após usar <0xFD><0x14>!'
+  - offset: "0xa4b594"
+    name: "PT-46 0xa4b594"
+    expected: '<0xFD><0x10> ficou mais\nvulnerável ao fogo!'
+  - offset: "0xa4b5ae"
+    name: "PT-46 0xa4b5ae"
+    expected: '<0xFD><0x10> ficou preso\nnuma armadilha!'
+  - offset: "0xa4b5cd"
+    name: "PT-46 0xa4b5cd"
+    expected: '<0xFD><0x10> ficou preso\npor <0xFD><0x0F>!'
+  - offset: "0xa4b5e3"
+    name: "PT-46 0xa4b5e3"
+    expected: 'Lascas afiadas atingiram\n<0xFD><0x11>!'
+  - offset: "0xa4b601"
+    name: "PT-46 0xa4b601"
+    expected: '<0xFD><0x0F> sofreu dano\npor causa das lascas!'
+  - offset: "0xa4b61f"
+    name: "PT-46 0xa4b61f"
+    expected: '<0xFD><0x0F> não sofre\nmais com as lascas!'
+  - offset: "0xa4b647"
+    name: "PT-46 0xa4b647"
+    expected: '<0xFD><0x0F> sofre dano\npelo mar de fogo!'
+  - offset: "0xa4b666"
+    name: "PT-46 0xa4b666"
+    expected: '<0xFD><0x13> encontrou\num <0xFD><0x16>!'
+  - offset: "0xa4b677"
+    name: "PT-46 0xa4b677"
+    expected: 'Os dois Pokémon serão\nnocauteados em três turnos!'
+  - offset: "0xa4b69f"
+    name: "PT-46 0xa4b69f"
+    expected: 'A equipe <0xFD><0x37> ficou\npresa em vinhas!'
+  - offset: "0xa4b6bf"
+    name: "PT-46 0xa4b6bf"
+    expected: '<0xFD><0x0F> sofre com\nos golpes de G-Max Vine Lash!'
+  - offset: "0xa4b6f2"
+    name: "PT-46 0xa4b6f2"
+    expected: 'As vinhas ao redor da equipe\n<0xFD><0x36> desapareceram!'
+  - offset: "0xa4b718"
+    name: "PT-46 0xa4b718"
+    expected: 'A equipe <0xFD><0x37> foi\ncercada por fogo!'
+  - offset: "0xa4b738"
+    name: "PT-46 0xa4b738"
+    expected: '<0xFD><0x0F> queima nas\nchamas de G-Max Wildfire!'
+  - offset: "0xa4b768"
+    name: "PT-46 0xa4b768"
+    expected: 'As chamas de G-Max Wildfire\nao redor da equipe <0xFD><0x36> sumiram!'
+  - offset: "0xa4b79e"
+    name: "PT-46 0xa4b79e"
+    expected: 'A equipe <0xFD><0x37> ficou\npresa num redemoinho de água!'
+  - offset: "0xa4b7c9"
+    name: "PT-46 0xa4b7c9"
+    expected: '<0xFD><0x0F> sofre com\no vórtice de G-Max Cannonade!'
+  - offset: "0xa4b7f1"
+    name: "PT-46 0xa4b7f1"
+    expected: 'O vórtice de água ao redor\nda equipe <0xFD><0x36> desapareceu!'
+  - offset: "0xa4b821"
+    name: "PT-46 0xa4b821"
+    expected: 'A equipe <0xFD><0x37> foi\ncercada por rochas!'
+  - offset: "0xa4b842"
+    name: "PT-46 0xa4b842"
+    expected: '<0xFD><0x0F> sofre com\nas rochas de G-Max Volcalith!'
+  - offset: "0xa4b869"
+    name: "PT-46 0xa4b869"
+    expected: 'As rochas de G-Max Volcalith\nao redor da equipe <0xFD><0x36> sumiram!'
+  - offset: "0xa4b8cd"
+    name: "PT-46 0xa4b8cd"
+    expected: '<0xFD><0x10> sofreu dano\npor não se proteger totalmente!'
+  - offset: "0xa4b8fc"
+    name: "PT-46 0xa4b8fc"
+    expected: 'Os fortes ventos misteriosos\ncontinuam soprando.'
+  - offset: "0xa4b92a"
+    name: "PT-46 0xa4b92a"
+    expected: '<0xFD><0x14> não pode ser usado\nna dificuldade Insane!<0xFB>'
+  - offset: "0xa4b981"
+    name: "PT-46 0xa4b981"
+    expected: '<0xFD><0x00> encontrou e guardou\num <0xFD><0x16> no Cube!'
+  - offset: "0xa4b9a9"
+    name: "PT-46 0xa4b9a9"
+    expected: '<0xFD><0x23> pegou\num <0xFD><0x16>!'
+  - offset: "0xa4b9be"
+    name: "PT-46 0xa4b9be"
+    expected: '<0xFD><0x00> parece segurar\num <0xFD><0x16>.<0xFB>Quer pegar o\n<0xFD><0x16> dele?'
+  - offset: "0xa4ba36"
+    name: "PT-46 0xa4ba36"
+    expected: 'Um <0xFD><0x16> foi retirado de\n<0xFD><0x00> e guardado no Cube.'
+  - offset: "0xa4ba67"
+    name: "PT-46 0xa4ba67"
+    expected: '<0xFD><0x10> invocou\noutro <0xFD><0x00>!'
+  - offset: "0xa4ba7f"
+    name: "PT-46 0xa4ba7f"
+    expected: 'As stats de <0xFD><0x0F> subiram!'
+  - offset: "0xa4ba90"
+    name: "PT-46 0xa4ba90"
+    expected: '<0xFD><0x1C> <0xFD><0x1D> vai\nenviar um novo Pokémon.<0xFB><0xFD><0x23> vai trocar\nde Pokémon?'
+  - offset: "0xa4bad2"
+    name: "PT-46 0xa4bad2"
+    expected: '<0xFD><0x11> regrediu\npara <0xFD><0x00>!'
+  - offset: "0xa4baeb"
+    name: "PT-46 0xa4baeb"
+    expected: '<0xFD><0x0F> regrediu e\nesqueceu o movimento que usaria!'
+  - offset: "0xa4bb20"
+    name: "PT-46 0xa4bb20"
+    expected: '<0xFD><0x11> teve suas stats\ne status principal restaurados!'
+  - offset: "0xa4bb4a"
+    name: "PT-46 0xa4bb4a"
+    expected: '<0xFD><0x13> aparece como\ntipo <0xFD><0x00>!'
+  - offset: "0xa4bb65"
+    name: "PT-46 0xa4bb65"
+    expected: '<0xFD><0x13> aparece como\ntipos <0xFD><0x00> e <0xFD><0x01>!'
+  - offset: "0xa4bb88"
+    name: "PT-46 0xa4bb88"
+    expected: 'Emoções negativas enchem o ar!'
+  - offset: "0xa4bba8"
+    name: "PT-46 0xa4bba8"
+    expected: '<0xFD><0x0F> é atormentado\npelas emoções negativas!'
+  - offset: "0xa4bbd2"
+    name: "PT-46 0xa4bbd2"
+    expected: 'Um vento soprou por trás dos\nPokémon do tipo Voador!'
+  - offset: "0xa4bc03"
+    name: "PT-46 0xa4bc03"
+    expected: '<0xFD><0x13> levita\ncom eletromagnetismo!'
+  - offset: "0xa4bc7a"
+    name: "PT-46 0xa4bc7a"
+    expected: 'Pokémon pesados levam vantagem\naqui!<0xFB>Quanto mais pesado o Pokémon,\nmais rápido ele será!'
+  - offset: "0xa4bcd0"
+    name: "PT-46 0xa4bcd0"
+    expected: 'Uma forte tempestade de areia!'
+  - offset: "0xa4bcec"
+    name: "PT-46 0xa4bcec"
+    expected: 'A forte tempestade de areia segue.'
+  - offset: "0xa4bd0b"
+    name: "PT-46 0xa4bd0b"
+    expected: '<0xFD><0x0F> é atingido pela\nforte tempestade de areia!'
+  - offset: "0xa4bd34"
+    name: "PT-46 0xa4bd34"
+    expected: 'Um véu sombrio cobre\no campo!<0xFB>Fantasmas com PS cheios\nrecebem metade do dano!'
+  - offset: "0xa4bd98"
+    name: "PT-46 0xa4bd98"
+    expected: 'Só Fantasmas podem criar\nSafeguard sob o véu sombrio!'
+  - offset: "0xa4bddc"
+    name: "PT-46 0xa4bddc"
+    expected: 'Só Fantasmas podem criar\nSubstitute sob o véu sombrio!'
+  - offset: "0xa4be21"
+    name: "PT-46 0xa4be21"
+    expected: 'Fadas voam pelo campo!'
+  - offset: "0xa4be45"
+    name: "PT-46 0xa4be45"
+    expected: 'As fadas no ar deram a\n<0xFD><0x13> um aumento em <0xFD><0x00>!'
+  - offset: "0xa4be6e"
+    name: "PT-46 0xa4be6e"
+    expected: 'Um arco-íris surgiu no céu\nsobre todo o campo de batalha!<0xFB>A chance de efeitos extras de\nPokémon Dragão foi duplicada!'
+  - offset: "0xa4bef1"
+    name: "PT-46 0xa4bef1"
+    expected: 'Mas esse tipo de movimento\nnão pode ser usado nesta luta!'
+  - offset: "0xa4bf24"
+    name: "PT-46 0xa4bf24"
+    expected: 'Movimentos do tipo <0xFD><0x00>\nsão proibidos nesta rodada do Ring!<0xFB>'
+  - offset: "0xa4bf66"
+    name: "PT-46 0xa4bf66"
+    expected: '<0xFD><0x14> não pode ser usado\nno Ring Challenge!<0xFB>'
+  - offset: "0xa4bf8f"
+    name: "PT-46 0xa4bf8f"
+    expected: 'Energia Dynamax se reuniu\nao seu redor!'
+  - offset: "0xa4bfb3"
+    name: "PT-46 0xa4bfb3"
+    expected: '<0xFD><0x13> criou uma\nprojeção de si com Dynamax!'
+  - offset: "0xa4bfe3"
+    name: "PT-46 0xa4bfe3"
+    expected: '<0xFD><0x13> não está mais\nem Dynamax!'
+  - offset: "0xa4bffe"
+    name: "PT-46 0xa4bffe"
+    expected: '<0xFD><0x0F> balançou a\ncabeça.<0xFB>Parece não poder usar\nesse movimento<0xB0>'
+  - offset: "0xa4c037"
+    name: "PT-46 0xa4c037"
+    expected: 'Mas o movimento foi bloqueado\npelo poder do Dynamax!'
+  - offset: "0xa4c069"
+    name: "PT-46 0xa4c069"
+    expected: 'O item foi bloqueado\npelo poder do Dynamax!'
+  - offset: "0xa4c097"
+    name: "PT-46 0xa4c097"
+    expected: '<0xFD><0x13> parece\nenorme!'
+  - offset: "0xa4c0b1"
+    name: "PT-46 0xa4c0b1"
+    expected: 'Uma tempestade se forma acima.'
+  - offset: "0xa4c0d4"
+    name: "PT-46 0xa4c0d4"
+    expected: '<0xFD><0x13> está ficando\ndesesperado!'
+  - offset: "0xa4c12f"
+    name: "PT-46 0xa4c12f"
+    expected: 'Uma barreira misteriosa surgiu\ndiante de <0xFD><0x13><0xFA>e o protege de ataques!'
+  - offset: "0xa4c17f"
+    name: "PT-46 0xa4c17f"
+    expected: 'Mas a barreira misteriosa\nprotegeu <0xFD><0x10><0xFA>dos efeitos do movimento!'
+  - offset: "0xa4c1c5"
+    name: "PT-46 0xa4c1c5"
+    expected: 'A barreira misteriosa que\nprotegia <0xFD><0x13><0xFA>desapareceu!'
+  - offset: "0xa4c200"
+    name: "PT-46 0xa4c200"
+    expected: '<0xFD><0x13>: <0xFD><0x00>\n<0xFD><0x01>'
+  - offset: "0xa4c20b"
+    name: "PT-46 0xa4c20b"
+    expected: '<0xFD><0x13> anulou mudanças\nde stats e Habilidades<0xFA>dos outros Pokémon!'
+  - offset: "0xa4c249"
+    name: "PT-46 0xa4c249"
+    expected: 'A tempestade acima de você\nfica mais forte!'
+  - offset: "0xa4c279"
+    name: "PT-46 0xa4c279"
+    expected: 'A tempestade fica ainda\nmais forte!'
+  - offset: "0xa4c29d"
+    name: "PT-46 0xa4c29d"
+    expected: 'A tempestade está forte demais\npara aguentar!'
+  - offset: "0xa4c2cb"
+    name: "PT-46 0xa4c2cb"
+    expected: '<0xFD><0x23> foi expulso\nda batalha!'
+  - offset: "0xa4c2eb"
+    name: "PT-46 0xa4c2eb"
+    expected: '<0xFC><0x10><0x11><0x00><0xFD><0x06> desapareceu\nem algum lugar<0xB0><0xFB>'
+  - offset: "0xa4c30c"
+    name: "PT-46 0xa4c30c"
+    expected: 'Você foi desafiado por\n<0xFD><0x1C> <0xFD><0x1D> e<0xFA><0xFD><0x2E> <0xFD><0x2F>!<0xFB>'
+  - offset: "0xa4c334"
+    name: "PT-46 0xa4c334"
+    expected: 'O Shadow Warrior atacou!<0xFB>'
+  - offset: "0xa4c352"
+    name: "PT-46 0xa4c352"
+    expected: 'Os Shadow Warriors atacaram!<0xFB>'
+  - offset: "0xa4c371"
+    name: "PT-46 0xa4c371"
+    expected: '<0xFD><0x32> <0xFD><0x33> enviou\n<0xFD><0x07>!<0xFA>Vai, <0xFD><0x05>!'
+  - offset: "0xa4c38c"
+    name: "PT-46 0xa4c38c"
+    expected: '<0xFD><0x1C> <0xFD><0x1D> enviou\n<0xFD><0x06>!<0xFB><0xFD><0x2E> <0xFD><0x2F> enviou\n<0xFD><0x08>!'
+  - offset: "0xa4c3b2"
+    name: "PT-46 0xa4c3b2"
+    expected: '<0xFD><0x2E> <0xFD><0x2F>\nrecolheu <0xFD><0x00>!'
+  - offset: "0xa4c3c5"
+    name: "PT-46 0xa4c3c5"
+    expected: '<0xFD><0x2E> <0xFD><0x2F> enviou\n<0xFD><0x00>!'
+  - offset: "0xa4c3d8"
+    name: "PT-46 0xa4c3d8"
+    expected: '<0xFD><0x32> <0xFD><0x33> enviou\n<0xFD><0x05> e <0xFD><0x07>!'
+  - offset: "0xa4c3f2"
+    name: "PT-46 0xa4c3f2"
+    expected: '<0xFD><0x32> <0xFD><0x33>\nenviou <0xFD><0x05>!'
+  - offset: "0xa4c405"
+    name: "PT-46 0xa4c405"
+    expected: '<0xFD><0x32> <0xFD><0x33>\nrecolheu <0xFD><0x00>!'
+  - offset: "0xa4c418"
+    name: "PT-46 0xa4c418"
+    expected: '<0xFD><0x32> <0xFD><0x33> enviou\n<0xFD><0x00>!'
+  - offset: "0xa4c42b"
+    name: "PT-46 0xa4c42b"
+    expected: '<0xFD><0x0F> usou\nZ-<0xFD><0x01>'
+  - offset: "0xa4c458"
+    name: "PT-46 0xa4c458"
+    expected: '<0xFD><0x1C> <0xFD><0x1D> e\n<0xFD><0x2E> <0xFD><0x2F><0xFA>foram derrotados!<0xFB>'
+  - offset: "0xa4c478"
+    name: "PT-46 0xa4c478"
+    expected: 'Você perdeu para\n<0xFD><0x1C> <0xFD><0x1D> e\n<0xFD><0x2E> <0xFD><0x2F>.<0xFB>'
+  - offset: "0xa4c49b"
+    name: "PT-46 0xa4c49b"
+    expected: 'Você foi desafiado por\n<0xFD><0x20> e <0xFD><0x21>!<0xFB>'
+  - offset: "0xa4c4bd"
+    name: "PT-46 0xa4c4bd"
+    expected: 'Você foi desafiado por\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>'
+  - offset: "0xa4c4db"
+    name: "PT-46 0xa4c4db"
+    expected: '<0xFD><0x32> <0xFD><0x33> foi desafiado por\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>'
+  - offset: "0xa4c4fa"
+    name: "PT-46 0xa4c4fa"
+    expected: 'Você foi desafiado por\n<0xFD><0x20>!<0xFB>'
+  - offset: "0xa4c52a"
+    name: "PT-46 0xa4c52a"
+    expected: 'Um <0xFD><0x06> selvagem e\num <0xFD><0x08> selvagem apareceram!<0xFB>'
+  - offset: "0xa4c54d"
+    name: "PT-46 0xa4c54d"
+    expected: '<0xFD><0x06> e <0xFD><0x08> atacaram!<0xFB>'
+  - offset: "0xa4c562"
+    name: "PT-46 0xa4c562"
+    expected: '<0xFD><0x06> do Distortion World\napareceu!<0xFB>'
+  - offset: "0xa4c587"
+    name: "PT-46 0xa4c587"
+    expected: 'É seu pior pesadelo!<0xFB>'
+  - offset: "0xa4c5a3"
+    name: "PT-46 0xa4c5a3"
+    expected: '<0xFD><0x06> apareceu!<0xFB>'
+  - offset: "0xa4c5b1"
+    name: "PT-46 0xa4c5b1"
+    expected: 'Um <0xFD><0x06> selvagem apareceu!<0xFC><0x08><0x7F>'
+  - offset: "0xa4c5c8"
+    name: "PT-46 0xa4c5c8"
+    expected: 'Um <0xFD><0x06> selvagem apareceu!<0xFB>'
+  - offset: "0xa4c5dd"
+    name: "PT-46 0xa4c5dd"
+    expected: 'Disable'
+  - offset: "0xa4c5e5"
+    name: "PT-46 0xa4c5e5"
+    expected: 'Encore'
+  - offset: "0xa4c5f6"
+    name: "PT-46 0xa4c5f6"
+    expected: 'mental'
+  - offset: "0xa4c5fd"
+    name: "PT-46 0xa4c5fd"
+    expected: 'Taunt'
+  - offset: "0xa4c603"
+    name: "PT-46 0xa4c603"
+    expected: 'drasticamente<0x00>'
+  - offset: "0xa4c610"
+    name: "PT-46 0xa4c610"
+    expected: 'muito<0x00>'
+  - offset: "0xa4c61a"
+    name: "PT-46 0xa4c61a"
+    expected: 'O adversário<0x00>'
+  - offset: "0xa4c628"
+    name: "PT-46 0xa4c628"
+    expected: 'o adversário<0x00>'
+  - offset: "0xa4c636"
+    name: "PT-46 0xa4c636"
+    expected: 'O selvagem<0x00>'
+  - offset: "0xa4c640"
+    name: "PT-46 0xa4c640"
+    expected: 'O Shadow<0x00>'
+  - offset: "0xa4c64c"
+    name: "PT-46 0xa4c64c"
+    expected: 'adversária'
+  - offset: "0xa4c659"
+    name: "PT-46 0xa4c659"
+    expected: 'adversária'
+  - offset: "0xa4c666"
+    name: "PT-46 0xa4c666"
+    expected: 'sua'
+  - offset: "0xa4c66b"
+    name: "PT-46 0xa4c66b"
+    expected: 'Sua'
+  - offset: "0xa4c670"
+    name: "PT-46 0xa4c670"
+    expected: 'Você ganhou ¥<0xFD><0x00>\npela vitória!'
+  - offset: "0xa4c689"
+    name: "PT-46 0xa4c689"
+    expected: 'Você não tem mais Pokémon\nque possam lutar!<0xFB>'
+  - offset: "0xa4c6b3"
+    name: "PT-46 0xa4c6b3"
+    expected: 'Você perdeu ¥<0xFD><0x00> em pânico<0xB0><0xFB><0xB0> <0xB0> <0xB0> <0xB0><0xFB>Você ficou abalado com\na derrota!<0xFC><0x09>'
+  - offset: "0xa4c6fd"
+    name: "PT-46 0xa4c6fd"
+    expected: 'Você não tem mais Pokémon\nque possam lutar!<0xFB>Você perdeu para\n<0xFD><0x1C> <0xFD><0x1D>!<0xFC><0x09>'
+  - offset: "0xa4c740"
+    name: "PT-46 0xa4c740"
+    expected: 'Você pagou ¥<0xFD><0x00>\ncomo prêmio<0xB0><0xFB><0xB0> <0xB0> <0xB0> <0xB0><0xFB>Você ficou abalado com\na derrota!<0xFC><0x09>'
+  - offset: "0xa4c790"
+    name: "PT-46 0xa4c790"
+    expected: 'Você ficou abalado com\na derrota!<0xFC><0x09>'
+  - offset: "0xa4c7b7"
+    name: "PT-46 0xa4c7b7"
+    expected: '<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Lutar<0xFC><0x13><0x38>Cube\nPokémon<0xFC><0x13><0x38>Fugir'
+  - offset: "0xa4c7da"
+    name: "PT-46 0xa4c7da"
+    expected: '<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Lutar<0xFC><0x13><0x38><0xFC><0x04><0x0F><0x0E><0x0B>Cube\n<0xFC><0x04><0x0D><0x0E><0x0F>Pokémon<0xFC><0x13><0x38>Fugir'
+  - offset: "0xa4c807"
+    name: "PT-46 0xa4c807"
+    expected: '<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Lutar<0xFC><0x13><0x38>Cube\nPokémon<0xFC><0x13><0x38>Voltar'
+  - offset: "0xa4c82b"
+    name: "PT-46 0xa4c82b"
+    expected: '<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Lutar<0xFC><0x13><0x38><0xFC><0x04><0x0F><0x0E><0x0B>Cube\n<0xFC><0x04><0x0D><0x0E><0x0F>Pokémon<0xFC><0x13><0x38>Voltar'
+  - offset: "0xa4c859"
+    name: "PT-46 0xa4c859"
+    expected: '<0xFC><0x05><0x05><0xFC><0x04><0x0D><0x0E><0x0F>Pegar<0xFC><0x13><0x38>Fim'
+  - offset: "0xa4c86d"
+    name: "PT-46 0xa4c86d"
+    expected: '<0xFD><0x06> está fraco!\nLance uma Bola agora!'
+  - offset: "0xa4c88b"
+    name: "PT-46 0xa4c88b"
+    expected: 'Equipe de <0xFD><0x1C> <0xFD><0x1D>'
+  - offset: "0xa4c898"
+    name: "PT-46 0xa4c898"
+    expected: 'Equipe de <0xFD><0x20><0x00>'
+  - offset: "0xa4c8a3"
+    name: "PT-46 0xa4c8a3"
+    expected: 'Equipe de <0xFD><0x1C> <0xFD><0x1D>\nEquipe de <0xFD><0x2E> <0xFD><0x2F>'
+  - offset: "0xa4c8bd"
+    name: "PT-46 0xa4c8bd"
+    expected: 'Equipe de <0xFD><0x20>\nEquipe de <0xFD><0x21><0x00>'
+  - offset: "0xa4c8d2"
+    name: "PT-46 0xa4c8d2"
+    expected: 'Sua equipe ganhou pontos de\nExp. graças ao Exp. Share!'
+  - offset: "0xa4c915"
+    name: "PT-46 0xa4c915"
+    expected: 'congeladura'
+  - offset: "0xa4c91f"
+    name: "PT-46 0xa4c91f"
+    expected: 'Não dá! É impossível mirar\nquando há dois Pokémon!<0xFC><0x09>'
+  - offset: "0xa4c962"
+    name: "PT-46 0xa4c962"
+    expected: 'Não dá! É impossível mirar\nnum Pokémon fora de vista!<0xFC><0x09>'
+  - offset: "0xa4c9ab"
+    name: "PT-46 0xa4c9ab"
+    expected: 'Não dá! A Bola deve ser lançada\npelo seu primeiro Pokémon!<0xFC><0x09>'
+  - offset: "0xa4c9ec"
+    name: "PT-46 0xa4c9ec"
+    expected: 'Ainda não pode lançar uma Poké Ball!<0xFC><0x09>'
+  - offset: "0xa4ca0f"
+    name: "PT-46 0xa4ca0f"
+    expected: 'Não dá!\nEsse Pokémon não pode ser pego!<0xFC><0x09>'
+  - offset: "0xa4ca3c"
+    name: "PT-46 0xa4ca3c"
+    expected: 'Quer desistir da partida\ne sair agora?'
+  - offset: "0xa4ca6e"
+    name: "PT-46 0xa4ca6e"
+    expected: 'Tem certeza de que quer fugir?'
+  - offset: "0xa4ca91"
+    name: "PT-46 0xa4ca91"
+    expected: '<0xFD><0x23> desistiu da partida!'
+  - offset: "0xa4caa9"
+    name: "PT-46 0xa4caa9"
+    expected: 'Black<0x00>'
+  - offset: "0xa4cab0"
+    name: "PT-46 0xa4cab0"
+    expected: 'local desconhecido'
+  - offset: "0xa4cac1"
+    name: "PT-46 0xa4cac1"
+    expected: 'Ex Shadow Admin'
+  - offset: "0xa4caef"
+    name: "PT-46 0xa4caef"
+    expected: '×'
+  - offset: "0xa4caf1"
+    name: "PT-46 0xa4caf1"
+    expected: '<0xFC><0x01><0x07><0xFC><0x03><0x06>+'
+  - offset: "0xa4caf9"
+    name: "PT-46 0xa4caf9"
+    expected: 'Poder:<0x00>'
+  - offset: "0xa4cb01"
+    name: "PT-46 0xa4cb01"
+    expected: 'KO direto'
+  - offset: "0xa4cb06"
+    name: "PT-46 0xa4cb06"
+    expected: 'Prec:<0x00>'
+  - offset: "0xa4cb0c"
+    name: "PT-46 0xa4cb0c"
+    expected: 'Não erra'
+  - offset: "0xa4cb14"
+    name: "PT-46 0xa4cb14"
+    expected: 'Contato'
+  - offset: "0xa4cb1c"
+    name: "PT-46 0xa4cb1c"
+    expected: 'Sem contato'
+  - offset: "0xa4cb27"
+    name: "PT-46 0xa4cb27"
+    expected: 'Restaura stats reduzidas'
+  - offset: "0xa4cb3b"
+    name: "PT-46 0xa4cb3b"
+    expected: '+ Todas as stats'
+  - offset: "0xa4cb47"
+    name: "PT-46 0xa4cb47"
+    expected: '+ Chance de crítico'
+  - offset: "0xa4cb5d"
+    name: "PT-46 0xa4cb5d"
+    expected: 'Follow Me'
+  - offset: "0xa4cb67"
+    name: "PT-46 0xa4cb67"
+    expected: 'Recupera PS'
+  - offset: "0xa4cb72"
+    name: "PT-46 0xa4cb72"
+    expected: 'Cura PS do substituto'
+  - offset: "0xa4cb86"
+    name: "PT-46 0xa4cb86"
+    expected: 'Protege usuário'
+  - offset: "0xa4cb9d"
+    name: "PT-46 0xa4cb9d"
+    expected: '<0x00>rivais'
+  - offset: "0xa4cba3"
+    name: "PT-46 0xa4cba3"
+    expected: 'Ativa<0x00>'
+  - offset: "0xa4cba8"
+    name: "PT-46 0xa4cba8"
+    expected: '<0x00>no campo'
+  - offset: "0xa4cbb1"
+    name: "PT-46 0xa4cbb1"
+    expected: '<0x00>no campo'
+  - offset: "0xa4cbba"
+    name: "PT-46 0xa4cbba"
+    expected: 'Sol'
+  - offset: "0xa4cbc0"
+    name: "PT-46 0xa4cbc0"
+    expected: 'Chuva'
+  - offset: "0xa4cbc6"
+    name: "PT-46 0xa4cbc6"
+    expected: 'Areia'
+  - offset: "0xa4cbd0"
+    name: "PT-46 0xa4cbd0"
+    expected: 'Granizo'
+  - offset: "0xa4cbd5"
+    name: "PT-46 0xa4cbd5"
+    expected: 'eletricidade'
+  - offset: "0xa4cbde"
+    name: "PT-46 0xa4cbde"
+    expected: 'grama'
+  - offset: "0xa4cbe5"
+    name: "PT-46 0xa4cbe5"
+    expected: 'névoa'
+  - offset: "0xa4cbeb"
+    name: "PT-46 0xa4cbeb"
+    expected: 'poder psíquico'
+  - offset: "0xa4cbf3"
+    name: "PT-46 0xa4cbf3"
+    expected: 'Dano contínuo'
+  - offset: "0xa4cc0b"
+    name: "PT-46 0xa4cc0b"
+    expected: 'Prende e fere rivais'
+  - offset: "0xa4cc1e"
+    name: "PT-46 0xa4cc1e"
+    expected: 'PSN, PAR ou DRM nos rivais'
+  - offset: "0xa4cc39"
+    name: "PT-46 0xa4cc39"
+    expected: 'Paralisa rivais'
+  - offset: "0xa4cc47"
+    name: "PT-46 0xa4cc47"
+    expected: 'Confunde rivais e dá grana'
+  - offset: "0xa4cc5f"
+    name: "PT-46 0xa4cc5f"
+    expected: '+ Críticos da equipe'
+  - offset: "0xa4cc7a"
+    name: "PT-46 0xa4cc7a"
+    expected: 'Prende rivais'
+  - offset: "0xa4cc84"
+    name: "PT-46 0xa4cc84"
+    expected: '- Dano à equipe'
+  - offset: "0xa4cc95"
+    name: "PT-46 0xa4cc95"
+    expected: 'Apaixona rivais'
+  - offset: "0xa4cca4"
+    name: "PT-46 0xa4cca4"
+    expected: 'Recicla Berries'
+  - offset: "0xa4ccb4"
+    name: "PT-46 0xa4ccb4"
+    expected: 'Envenena rivais'
+  - offset: "0xa4ccc0"
+    name: "PT-46 0xa4ccc0"
+    expected: 'Cria Stealth Rock'
+  - offset: "0xa4ccd1"
+    name: "PT-46 0xa4ccd1"
+    expected: 'Remove telas e armadilhas'
+  - offset: "0xa4ccea"
+    name: "PT-46 0xa4ccea"
+    expected: 'Envenena/paralisa rivais'
+  - offset: "0xa4cd02"
+    name: "PT-46 0xa4cd02"
+    expected: 'Cura equipe'
+  - offset: "0xa4cd0c"
+    name: "PT-46 0xa4cd0c"
+    expected: 'Reduz PP do último mov.'
+  - offset: "0xa4cd20"
+    name: "PT-46 0xa4cd20"
+    expected: 'Muda gravidade'
+  - offset: "0xa4cd2f"
+    name: "PT-46 0xa4cd2f"
+    expected: 'Pode dar sono aos rivais'
+  - offset: "0xa4cd44"
+    name: "PT-46 0xa4cd44"
+    expected: '- Evasão dos rivais'
+  - offset: "0xa4cd57"
+    name: "PT-46 0xa4cd57"
+    expected: 'Cura status da equipe'
+  - offset: "0xa4cd6a"
+    name: "PT-46 0xa4cd6a"
+    expected: 'Cria Steelsurge'
+  - offset: "0xa4cd7a"
+    name: "PT-46 0xa4cd7a"
+    expected: 'Confunde rivais'
+  - offset: "0xa4cd87"
+    name: "PT-46 0xa4cd87"
+    expected: 'Atormenta rivais'
+  - offset: "0xa4cd94"
+    name: "PT-46 0xa4cd94"
+    expected: '-- Velocidade dos rivais'
+  - offset: "0xa4cda2"
+    name: "PT-46 0xa4cda2"
+    expected: 'Ignora Habilidade rival'
+  - offset: "0xa4cdb5"
+    name: "PT-46 0xa4cdb5"
+    expected: 'Ignora proteção'
+  - offset: "0xa4cdc8"
+    name: "PT-46 0xa4cdc8"
+    expected: 'TIPO DE SAVE ERRADO!\nMude para Flash 128k.<0xFB>Se usa VBA, considere mudar\npara o superior <0xFC><0x01><0x06>mGBA<0xFC><0x01><0x02>.<0xFB>Se não quiser, siga estes passos\npara corrigir o tipo de save.<0xFB><0xFC><0x01><0x04>Instruções VBA<0xFC><0x01><0x02>:<0xFB>Primeiro, clique em <0xFC><0x01><0x06>Options<0xFC><0x01><0x02>\nna barra superior.<0xFB>Depois, em <0xFC><0x01><0x06>Emulator<0xFC><0x01><0x02>, selecione\na opção <0xFC><0x01><0x06>Save Type<0xFC><0x01><0x02>.<0xFB>Então, clique em <0xFC><0x01><0x06>Flash 128K<0xFC><0x01><0x02>.<0xFB>Por fim, feche completamente\ne reinicie o emulador.<0xFB><0xFC><0x01><0x04>Instruções 3DS<0xFC><0x01><0x02>:<0xFB>Use <0xFC><0x01><0x06>New Super Ultimate VC Injector\nfor 3DS<0xFC><0x01><0x02> para criar o arquivo CIA.<0xFB>Ao abrir, confirme se\n<0xFC><0x01><0x06>ROM Save Type<0xFC><0x01><0x02> está definido como:<0xFB><0xFC><0x01><0x06>Flash 1Mbit (Macronix, ID: 0x09C2)\n+ RTC<0xFC><0x01><0x02>.<0xFB>O <0xFC><0x01><0x06>injection method<0xFC><0x01><0x02> também deve\nestar em <0xFC><0x01><0x06>GBA Virtual Console<0xFC><0x01><0x02>.<0xFB>Se seu emulador não foi citado,\nuse outro emulador.'
+  - offset: "0xa4d0bf"
+    name: "PT-46 0xa4d0bf"
+    expected: 'ATENÇÃO!<0xFB>Não foi possível ler\na hora correta do sistema.<0xFB>Ative o relógio em tempo real\n(RTC) e confira se a hora está certa.'
+  - offset: "0xa4d138"
+    name: "PT-46 0xa4d138"
+    expected: 'ATENÇÃO!<0xFB>Não foi possível ler\na hora correta do sistema.<0xFB>Ative o relógio em tempo real\n(RTC) e confira se a hora está certa.<0xFB>Se usa VBA, considere mudar\npara o superior <0xFC><0x01><0x06>mGBA<0xFC><0x01><0x02>.<0xFB>Se não quiser, siga estes passos\npara ativar o RTC.<0xFB><0xFC><0x01><0x04>Instruções VBA<0xFC><0x01><0x02>:<0xFB>Primeiro, clique em <0xFC><0x01><0x06>Options<0xFC><0x01><0x02>\nna barra superior.<0xFB>Depois, em <0xFC><0x01><0x06>Emulator<0xFC><0x01><0x02>, selecione\na opção <0xFC><0x01><0x06>Real Time Clock<0xFC><0x01><0x02>.<0xFB>Por fim, feche completamente\ne reinicie o emulador.<0xFB><0xFC><0x01><0x04>Instruções 3DS<0xFC><0x01><0x02>:<0xFB>Use <0xFC><0x01><0x06>New Super Ultimate VC Injector\nfor 3DS<0xFC><0x01><0x02> para criar o arquivo CIA.<0xFB>Ao abrir, confirme se\n<0xFC><0x01><0x06>ROM Save Type<0xFC><0x01><0x02> está definido como:<0xFB><0xFC><0x01><0x06>Flash 1Mbit (Macronix, ID: 0x09C2)\n+ RTC<0xFC><0x01><0x02>.<0xFB>O <0xFC><0x01><0x06>injection method<0xFC><0x01><0x02> também deve\nestar em <0xFC><0x01><0x06>GBA Virtual Console<0xFC><0x01><0x02>.<0xFB><0xFC><0x01><0x04>Instruções Delta<0xFC><0x01><0x02>:<0xFB>Use a versão premium do Delta\nou mude para <0xFC><0x01><0x06>GBA4iOS<0xFC><0x01><0x02>.'
+  - offset: "0xa4d475"
+    name: "PT-46 0xa4d475"
+    expected: 'ATENÇÃO!<0xFB>Uma alteração do RTC foi\ndetectada no seu save!<0xFB>A data atual do jogo é\n<0xFD><0x02>/<0xFD><0x03>/<0xFD><0x04>.<0xFB>Eventos diários, como presentes\ne Raids, podem não funcionar<0xFA>corretamente até o dia seguinte.<0xFB>Evite alterar o RTC\nnovamente.'
+  - offset: "0xa4d56c"
+    name: "PT-46 0xa4d56c"
+    expected: '<0xFD><0x01> usou\n<0xFD><0x03>.<0xFB>A chance de encontrar Pokémon\nselvagens fortes aqui aumentou.<0xFC><0x09>'
+  - offset: "0xa4d5c5"
+    name: "PT-46 0xa4d5c5"
+    expected: '<0xFD><0x01> usou\n<0xFD><0x03>.<0xFB>A chance de encontrar Pokémon\nselvagens fracos aqui aumentou.<0xFC><0x09>'
+  - offset: "0xa4d61c"
+    name: "PT-46 0xa4d61c"
+    expected: 'Outro item do Cube pode ser\nregistrado em <0xF8><0x02> para uso fácil.'
+  - offset: "0xa4d65c"
+    name: "PT-46 0xa4d65c"
+    expected: 'Corrida automática <0xFC><0x01><0x06>ativada<0xFC><0x01><0x02>.'
+  - offset: "0xa4d67d"
+    name: "PT-46 0xa4d67d"
+    expected: 'Corrida automática <0xFC><0x01><0x06>desativada<0xFC><0x01><0x02>.'
+  - offset: "0xa4d69f"
+    name: "PT-46 0xa4d69f"
+    expected: 'Impulso turbo <0xFC><0x01><0x06>ativado<0xFC><0x01><0x02>.'
+  - offset: "0xa4d6c5"
+    name: "PT-46 0xa4d6c5"
+    expected: 'Impulso turbo <0xFC><0x01><0x06>desativado<0xFC><0x01><0x02>.'
+  - offset: "0xa4d6ed"
+    name: "PT-46 0xa4d6ed"
+    expected: 'Surf turbo <0xFC><0x01><0x06>ativado<0xFC><0x01><0x02>.'
+  - offset: "0xa4d712"
+    name: "PT-46 0xa4d712"
+    expected: 'Surf turbo <0xFC><0x01><0x06>desativado<0xFC><0x01><0x02>.'
+  - offset: "0xa4d739"
+    name: "PT-46 0xa4d739"
+    expected: '<0xFD><0x02> sobreviveu ao veneno.\nO veneno se dissipou!'
+  - offset: "0xa4d768"
+    name: "PT-46 0xa4d768"
+    expected: 'Você também ganha um <0xFD><0x03>\ncomo bônus.<0xFC><0x09>'
+  - offset: "0xa4d78f"
+    name: "PT-46 0xa4d78f"
+    expected: 'Bônus: <0xFD><0x02> <0xFD><0x03>\npara você.<0xFC><0x09>'
+  - offset: "0xa4d7b8"
+    name: "PT-46 0xa4d7b8"
+    expected: 'O efeito do repelente acabou!\nQuer usar outro?'
+  - offset: "0xa4d7fc"
+    name: "PT-46 0xa4d7fc"
+    expected: '<0xFD><0x01> usou <0xFD><0x04>.'
