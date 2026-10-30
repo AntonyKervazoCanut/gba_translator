@@ -1,0 +1,5153 @@
+{
+  "batch": "PT-53",
+  "domain": "Noms d’espèces et formes ; table fixe",
+  "table_base": "0x166a98c",
+  "stride": 11,
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "table_references": [
+    324,
+    70736,
+    70924,
+    71076,
+    71356,
+    216448,
+    266220,
+    275932,
+    300904,
+    342748,
+    342852,
+    441540,
+    441616,
+    605836,
+    652640,
+    657664,
+    776224,
+    831776,
+    835244,
+    843956,
+    845496,
+    846032,
+    943388,
+    996132,
+    1062336,
+    1062552,
+    1062712,
+    1062864,
+    1063020,
+    1063116,
+    1068656,
+    1073120,
+    1074864,
+    1130236,
+    1152088,
+    1158304,
+    1159156,
+    1159240,
+    1186060,
+    1270552,
+    9175080,
+    23446084
+  ],
+  "entries": [
+    {
+      "offset": "0x166b040",
+      "species_id": 156,
+      "english": "Quilava",
+      "english_corpus": "Feurisson",
+      "french": "Feurisson",
+      "portuguese": "Quilava",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cbe9dde0d5ead5ffffffff",
+      "final_hex": "cbe9dde0d5ead5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b04b",
+      "species_id": 157,
+      "english": "Typhlosion",
+      "english_corpus": "Typhlosion",
+      "french": "Typhlosion",
+      "portuguese": "Typhlosion",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ceede4dce0e3e7dde3e2ff",
+      "final_hex": "ceede4dce0e3e7dde3e2ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b056",
+      "species_id": 158,
+      "english": "Totodile",
+      "english_corpus": "Kaiminus",
+      "french": "Kaiminus",
+      "portuguese": "Totodile",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee3e8e3d8dde0d9ffffff",
+      "final_hex": "cee3e8e3d8dde0d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b061",
+      "species_id": 159,
+      "english": "Croconaw",
+      "english_corpus": "Crocrodil",
+      "french": "Crocrodil",
+      "portuguese": "Croconaw",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde6e3d7e3e2d5ebffffff",
+      "final_hex": "bde6e3d7e3e2d5ebffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b06c",
+      "species_id": 160,
+      "english": "Feraligatr",
+      "english_corpus": "Aligatueur",
+      "french": "Aligatueur",
+      "portuguese": "Feraligatr",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c0d9e6d5e0dddbd5e8e6ff",
+      "final_hex": "c0d9e6d5e0dddbd5e8e6ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b077",
+      "species_id": 161,
+      "english": "Sentret",
+      "english_corpus": "Fouinette",
+      "french": "Fouinette",
+      "portuguese": "Sentret",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdd9e2e8e6d9e8ffffffff",
+      "final_hex": "cdd9e2e8e6d9e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b082",
+      "species_id": 162,
+      "english": "Furret",
+      "english_corpus": "Fouinar",
+      "french": "Fouinar",
+      "portuguese": "Furret",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c0e9e6e6d9e8ffffffffff",
+      "final_hex": "c0e9e6e6d9e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b08d",
+      "species_id": 163,
+      "english": "Hoothoot",
+      "english_corpus": "Hoothoot",
+      "french": "Hoothoot",
+      "portuguese": "Hoothoot",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2e3e3e8dce3e3e8ffffff",
+      "final_hex": "c2e3e3e8dce3e3e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b098",
+      "species_id": 164,
+      "english": "Noctowl",
+      "english_corpus": "Noarfang",
+      "french": "Noarfang",
+      "portuguese": "Noctowl",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c8e3d7e8e3ebe0ffffffff",
+      "final_hex": "c8e3d7e8e3ebe0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0a3",
+      "species_id": 165,
+      "english": "Ledyba",
+      "english_corpus": "Coxy",
+      "french": "Coxy",
+      "portuguese": "Ledyba",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6d9d8edd6d5ffffffffff",
+      "final_hex": "c6d9d8edd6d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        36
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0ae",
+      "species_id": 166,
+      "english": "Ledian",
+      "english_corpus": "Coxyclaque",
+      "french": "Coxyclaque",
+      "portuguese": "Ledian",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6d9d8ddd5e2ffffffffff",
+      "final_hex": "c6d9d8ddd5e2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0b9",
+      "species_id": 167,
+      "english": "Spinarak",
+      "english_corpus": "Mimigal",
+      "french": "Mimigal",
+      "portuguese": "Spinarak",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde4dde2d5e6d5dfffffff",
+      "final_hex": "cde4dde2d5e6d5dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0c4",
+      "species_id": 168,
+      "english": "Ariados",
+      "english_corpus": "Migalos",
+      "french": "Migalos",
+      "portuguese": "Ariados",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbe6ddd5d8e3e7ffffffff",
+      "final_hex": "bbe6ddd5d8e3e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0cf",
+      "species_id": 169,
+      "english": "Crobat",
+      "english_corpus": "Nostenfer",
+      "french": "Nostenfer",
+      "portuguese": "Crobat",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde6e3d6d5e8ffffffffff",
+      "final_hex": "bde6e3d6d5e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0da",
+      "species_id": 170,
+      "english": "Chinchou",
+      "english_corpus": "Loupio",
+      "french": "Loupio",
+      "portuguese": "Chinchou",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bddcdde2d7dce3e9ffffff",
+      "final_hex": "bddcdde2d7dce3e9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0e5",
+      "species_id": 171,
+      "english": "Lanturn",
+      "english_corpus": "Lanturn",
+      "french": "Lanturn",
+      "portuguese": "Lanturn",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6d5e2e8e9e6e2ffffffff",
+      "final_hex": "c6d5e2e8e9e6e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0f0",
+      "species_id": 172,
+      "english": "Pichu",
+      "english_corpus": "Pichu",
+      "french": "Pichu",
+      "portuguese": "Pichu",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "caddd7dce9ffffffffffff",
+      "final_hex": "caddd7dce9ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b0fb",
+      "species_id": 173,
+      "english": "Cleffa",
+      "english_corpus": "Mélo",
+      "french": "Mélo",
+      "portuguese": "Cleffa",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde0d9dadad5ffffffffff",
+      "final_hex": "bde0d9dadad5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b106",
+      "species_id": 174,
+      "english": "Igglybuff",
+      "english_corpus": "Toudoudou",
+      "french": "Toudoudou",
+      "portuguese": "Igglybuff",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c3dbdbe0edd6e9dadaffff",
+      "final_hex": "c3dbdbe0edd6e9dadaffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b111",
+      "species_id": 175,
+      "english": "Togepi",
+      "english_corpus": "Togepi",
+      "french": "Togepi",
+      "portuguese": "Togepi",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee3dbd9e4ddffffffffff",
+      "final_hex": "cee3dbd9e4ddffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b11c",
+      "species_id": 176,
+      "english": "Togetic",
+      "english_corpus": "Togetic",
+      "french": "Togetic",
+      "portuguese": "Togetic",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee3dbd9e8ddd7ffffffff",
+      "final_hex": "cee3dbd9e8ddd7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b127",
+      "species_id": 177,
+      "english": "Natu",
+      "english_corpus": "Natu",
+      "french": "Natu",
+      "portuguese": "Natu",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c8d5e8e9ffffffffffffff",
+      "final_hex": "c8d5e8e9ffffffffffffff",
+      "encoded_bytes": 5,
+      "line_widths": [
+        23
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b132",
+      "species_id": 178,
+      "english": "Xatu",
+      "english_corpus": "Xatu",
+      "french": "Xatu",
+      "portuguese": "Xatu",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d2d5e8e9ffffffffffffff",
+      "final_hex": "d2d5e8e9ffffffffffffff",
+      "encoded_bytes": 5,
+      "line_widths": [
+        23
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b13d",
+      "species_id": 179,
+      "english": "Mareep",
+      "english_corpus": "Wattouat",
+      "french": "Wattouat",
+      "portuguese": "Mareep",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5e6d9d9e4ffffffffff",
+      "final_hex": "c7d5e6d9d9e4ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b148",
+      "species_id": 180,
+      "english": "Flaaffy",
+      "english_corpus": "Lainergie",
+      "french": "Lainergie",
+      "portuguese": "Flaaffy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c0e0d5d5dadaedffffffff",
+      "final_hex": "c0e0d5d5dadaedffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b153",
+      "species_id": 181,
+      "english": "Ampharos",
+      "english_corpus": "Pharamp",
+      "french": "Pharamp",
+      "portuguese": "Ampharos",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbe1e4dcd5e6e3e7ffffff",
+      "final_hex": "bbe1e4dcd5e6e3e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b15e",
+      "species_id": 182,
+      "english": "Bellossom",
+      "english_corpus": "Joliflor",
+      "french": "Joliflor",
+      "portuguese": "Bellossom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcd9e0e0e3e7e7e3e1ffff",
+      "final_hex": "bcd9e0e0e3e7e7e3e1ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b169",
+      "species_id": 183,
+      "english": "Marill",
+      "english_corpus": "Marill",
+      "french": "Marill",
+      "portuguese": "Marill",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5e6dde0e0ffffffffff",
+      "final_hex": "c7d5e6dde0e0ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        31
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b174",
+      "species_id": 184,
+      "english": "Azumarill",
+      "english_corpus": "Azumarill",
+      "french": "Azumarill",
+      "portuguese": "Azumarill",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbeee9e1d5e6dde0e0ffff",
+      "final_hex": "bbeee9e1d5e6dde0e0ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b17f",
+      "species_id": 185,
+      "english": "Sudowoodo",
+      "english_corpus": "Simularbre",
+      "french": "Simularbre",
+      "portuguese": "Sudowoodo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde9d8e3ebe3e3d8e3ffff",
+      "final_hex": "cde9d8e3ebe3e3d8e3ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        54
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b18a",
+      "species_id": 186,
+      "english": "Politoed",
+      "english_corpus": "Tarpaud",
+      "french": "Tarpaud",
+      "portuguese": "Politoed",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cae3e0dde8e3d9d8ffffff",
+      "final_hex": "cae3e0dde8e3d9d8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b195",
+      "species_id": 187,
+      "english": "Hoppip",
+      "english_corpus": "Granivol",
+      "french": "Granivol",
+      "portuguese": "Hoppip",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2e3e4e4dde4ffffffffff",
+      "final_hex": "c2e3e4e4dde4ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1a0",
+      "species_id": 188,
+      "english": "Skiploom",
+      "english_corpus": "Floravol",
+      "french": "Floravol",
+      "portuguese": "Skiploom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddfdde4e0e3e3e1ffffff",
+      "final_hex": "cddfdde4e0e3e3e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1ab",
+      "species_id": 189,
+      "english": "Jumpluff",
+      "english_corpus": "Cotovol",
+      "french": "Cotovol",
+      "portuguese": "Jumpluff",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c4e9e1e4e0e9dadaffffff",
+      "final_hex": "c4e9e1e4e0e9dadaffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1b6",
+      "species_id": 190,
+      "english": "Aipom",
+      "english_corpus": "Capumain",
+      "french": "Capumain",
+      "portuguese": "Aipom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbdde4e3e1ffffffffffff",
+      "final_hex": "bbdde4e3e1ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1c1",
+      "species_id": 191,
+      "english": "Sunkern",
+      "english_corpus": "Tournegrin",
+      "french": "Tournegrin",
+      "portuguese": "Sunkern",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde9e2dfd9e6e2ffffffff",
+      "final_hex": "cde9e2dfd9e6e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1cc",
+      "species_id": 192,
+      "english": "Sunflora",
+      "english_corpus": "Héliatronc",
+      "french": "Héliatronc",
+      "portuguese": "Sunflora",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde9e2dae0e3e6d5ffffff",
+      "final_hex": "cde9e2dae0e3e6d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1d7",
+      "species_id": 193,
+      "english": "Yanma",
+      "english_corpus": "Yanma",
+      "french": "Yanma",
+      "portuguese": "Yanma",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d3d5e2e1d5ffffffffffff",
+      "final_hex": "d3d5e2e1d5ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1e2",
+      "species_id": 194,
+      "english": "Wooper",
+      "english_corpus": "Axoloto",
+      "french": "Axoloto",
+      "portuguese": "Wooper",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1e3e3e4d9e6ffffffffff",
+      "final_hex": "d1e3e3e4d9e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1ed",
+      "species_id": 195,
+      "english": "Quagsire",
+      "english_corpus": "Maraiste",
+      "french": "Maraiste",
+      "portuguese": "Quagsire",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cbe9d5dbe7dde6d9ffffff",
+      "final_hex": "cbe9d5dbe7dde6d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b1f8",
+      "species_id": 196,
+      "english": "Espeon",
+      "english_corpus": "Mentali",
+      "french": "Mentali",
+      "portuguese": "Espeon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bfe7e4d9e3e2ffffffffff",
+      "final_hex": "bfe7e4d9e3e2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b203",
+      "species_id": 197,
+      "english": "Umbreon",
+      "english_corpus": "Noctali",
+      "french": "Noctali",
+      "portuguese": "Umbreon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe1d6e6d9e3e2ffffffff",
+      "final_hex": "cfe1d6e6d9e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b20e",
+      "species_id": 198,
+      "english": "Murkrow",
+      "english_corpus": "Cornèbre",
+      "french": "Cornèbre",
+      "portuguese": "Murkrow",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7e9e6dfe6e3ebffffffff",
+      "final_hex": "c7e9e6dfe6e3ebffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b219",
+      "species_id": 199,
+      "english": "Slowking",
+      "english_corpus": "Roigada",
+      "french": "Roigada",
+      "portuguese": "Slowking",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde0e3ebdfdde2dbffffff",
+      "final_hex": "cde0e3ebdfdde2dbffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b224",
+      "species_id": 200,
+      "english": "Misdreavus",
+      "english_corpus": "Feuforêve",
+      "french": "Feuforêve",
+      "portuguese": "Misdreavus",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7dde7d8e6d9d5eae9e7ff",
+      "final_hex": "c7dde7d8e6d9d5eae9e7ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b22f",
+      "species_id": 201,
+      "english": "Unown",
+      "english_corpus": "Zarbi",
+      "french": "Zarbi",
+      "portuguese": "Unown",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe2ffffffffffff",
+      "final_hex": "cfe2e3ebe2ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b23a",
+      "species_id": 202,
+      "english": "Wobbuffet",
+      "english_corpus": "Qulbutoké",
+      "french": "Qulbutoké",
+      "portuguese": "Wobbuffet",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1e3d6d6e9dadad9e8ffff",
+      "final_hex": "d1e3d6d6e9dadad9e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b245",
+      "species_id": 203,
+      "english": "Girafarig",
+      "english_corpus": "Girafarig",
+      "french": "Girafarig",
+      "portuguese": "Girafarig",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1dde6d5dad5e6dddbffff",
+      "final_hex": "c1dde6d5dad5e6dddbffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b250",
+      "species_id": 204,
+      "english": "Pineco",
+      "english_corpus": "Pomdepik",
+      "french": "Pomdepik",
+      "portuguese": "Pineco",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cadde2d9d7e3ffffffffff",
+      "final_hex": "cadde2d9d7e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b25b",
+      "species_id": 205,
+      "english": "Forretress",
+      "english_corpus": "Foretress",
+      "french": "Foretress",
+      "portuguese": "Forretress",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c0e3e6e6d9e8e6d9e7e7ff",
+      "final_hex": "c0e3e6e6d9e8e6d9e7e7ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b266",
+      "species_id": 206,
+      "english": "Dunsparce",
+      "english_corpus": "Insolourdo",
+      "french": "Insolourdo",
+      "portuguese": "Dunsparce",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bee9e2e7e4d5e6d7d9ffff",
+      "final_hex": "bee9e2e7e4d5e6d7d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b271",
+      "species_id": 207,
+      "english": "Gligar",
+      "english_corpus": "Scorplane",
+      "french": "Scorplane",
+      "portuguese": "Gligar",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e0dddbd5e6ffffffffff",
+      "final_hex": "c1e0dddbd5e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b27c",
+      "species_id": 208,
+      "english": "Steelix",
+      "english_corpus": "Steelix",
+      "french": "Steelix",
+      "portuguese": "Steelix",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde8d9d9e0ddecffffffff",
+      "final_hex": "cde8d9d9e0ddecffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b287",
+      "species_id": 209,
+      "english": "Snubbull",
+      "english_corpus": "Snubbull",
+      "french": "Snubbull",
+      "portuguese": "Snubbull",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde2e9d6d6e9e0e0ffffff",
+      "final_hex": "cde2e9d6d6e9e0e0ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b292",
+      "species_id": 210,
+      "english": "Granbull",
+      "english_corpus": "Granbull",
+      "french": "Granbull",
+      "portuguese": "Granbull",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e6d5e2d6e9e0e0ffffff",
+      "final_hex": "c1e6d5e2d6e9e0e0ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b29d",
+      "species_id": 211,
+      "english": "Qwilfish",
+      "english_corpus": "Qwilfish",
+      "french": "Qwilfish",
+      "portuguese": "Qwilfish",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cbebdde0dadde7dcffffff",
+      "final_hex": "cbebdde0dadde7dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b2a8",
+      "species_id": 212,
+      "english": "Scizor",
+      "english_corpus": "Cizayox",
+      "french": "Cizayox",
+      "portuguese": "Scizor",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdd7ddeee3e6ffffffffff",
+      "final_hex": "cdd7ddeee3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b2b3",
+      "species_id": 213,
+      "english": "Shuckle",
+      "english_corpus": "Caratroc",
+      "french": "Caratroc",
+      "portuguese": "Shuckle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddce9d7dfe0d9ffffffff",
+      "final_hex": "cddce9d7dfe0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b2be",
+      "species_id": 214,
+      "english": "Heracross",
+      "english_corpus": "Scarhino",
+      "french": "Scarhino",
+      "portuguese": "Heracross",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2d9e6d5d7e6e3e7e7ffff",
+      "final_hex": "c2d9e6d5d7e6e3e7e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b2c9",
+      "species_id": 215,
+      "english": "Sneasel",
+      "english_corpus": "Farfuret",
+      "french": "Farfuret",
+      "portuguese": "Sneasel",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde2d9d5e7d9e0ffffffff",
+      "final_hex": "cde2d9d5e7d9e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b2d4",
+      "species_id": 216,
+      "english": "Teddiursa",
+      "english_corpus": "Teddiursa",
+      "french": "Teddiursa",
+      "portuguese": "Teddiursa",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ced9d8d8dde9e6e7d5ffff",
+      "final_hex": "ced9d8d8dde9e6e7d5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b2df",
+      "species_id": 217,
+      "english": "Ursaring",
+      "english_corpus": "Ursaring",
+      "french": "Ursaring",
+      "portuguese": "Ursaring",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe6e7d5e6dde2dbffffff",
+      "final_hex": "cfe6e7d5e6dde2dbffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b2ea",
+      "species_id": 218,
+      "english": "Slugma",
+      "english_corpus": "Limagma",
+      "french": "Limagma",
+      "portuguese": "Slugma",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde0e9dbe1d5ffffffffff",
+      "final_hex": "cde0e9dbe1d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b2f5",
+      "species_id": 219,
+      "english": "Magcargo",
+      "english_corpus": "Volcaropod",
+      "french": "Volcaropod",
+      "portuguese": "Magcargo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5dbd7d5e6dbe3ffffff",
+      "final_hex": "c7d5dbd7d5e6dbe3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b300",
+      "species_id": 220,
+      "english": "Swinub",
+      "english_corpus": "Marcacrin",
+      "french": "Marcacrin",
+      "portuguese": "Swinub",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdebdde2e9d6ffffffffff",
+      "final_hex": "cdebdde2e9d6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b30b",
+      "species_id": 221,
+      "english": "Piloswine",
+      "english_corpus": "Cochignon",
+      "french": "Cochignon",
+      "portuguese": "Piloswine",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cadde0e3e7ebdde2d9ffff",
+      "final_hex": "cadde0e3e7ebdde2d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b316",
+      "species_id": 222,
+      "english": "Corsola",
+      "english_corpus": "Corayon",
+      "french": "Corayon",
+      "portuguese": "Corsola",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde3e6e7e3e0d5ffffffff",
+      "final_hex": "bde3e6e7e3e0d5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b321",
+      "species_id": 223,
+      "english": "Remoraid",
+      "english_corpus": "Rémoraid",
+      "french": "Rémoraid",
+      "portuguese": "Remoraid",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd9e1e3e6d5ddd8ffffff",
+      "final_hex": "ccd9e1e3e6d5ddd8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b32c",
+      "species_id": 224,
+      "english": "Octillery",
+      "english_corpus": "Octillery",
+      "french": "Octillery",
+      "portuguese": "Octillery",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c9d7e8dde0e0d9e6edffff",
+      "final_hex": "c9d7e8dde0e0d9e6edffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b337",
+      "species_id": 225,
+      "english": "Delibird",
+      "english_corpus": "Cadoizo",
+      "french": "Cadoizo",
+      "portuguese": "Delibird",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bed9e0ddd6dde6d8ffffff",
+      "final_hex": "bed9e0ddd6dde6d8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b342",
+      "species_id": 226,
+      "english": "Mantine",
+      "english_corpus": "Démanta",
+      "french": "Démanta",
+      "portuguese": "Mantine",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5e2e8dde2d9ffffffff",
+      "final_hex": "c7d5e2e8dde2d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b34d",
+      "species_id": 227,
+      "english": "Skarmory",
+      "english_corpus": "Airmure",
+      "french": "Airmure",
+      "portuguese": "Skarmory",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddfd5e6e1e3e6edffffff",
+      "final_hex": "cddfd5e6e1e3e6edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b358",
+      "species_id": 228,
+      "english": "Houndour",
+      "english_corpus": "Malosse",
+      "french": "Malosse",
+      "portuguese": "Houndour",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2e3e9e2d8e3e9e6ffffff",
+      "final_hex": "c2e3e9e2d8e3e9e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b363",
+      "species_id": 229,
+      "english": "Houndoom",
+      "english_corpus": "Démolosse",
+      "french": "Démolosse",
+      "portuguese": "Houndoom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2e3e9e2d8e3e3e1ffffff",
+      "final_hex": "c2e3e9e2d8e3e3e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b36e",
+      "species_id": 230,
+      "english": "Kingdra",
+      "english_corpus": "Hyporoi",
+      "french": "Hyporoi",
+      "portuguese": "Kingdra",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c5dde2dbd8e6d5ffffffff",
+      "final_hex": "c5dde2dbd8e6d5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b379",
+      "species_id": 231,
+      "english": "Phanpy",
+      "english_corpus": "Phanpy",
+      "french": "Phanpy",
+      "portuguese": "Phanpy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cadcd5e2e4edffffffffff",
+      "final_hex": "cadcd5e2e4edffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b384",
+      "species_id": 232,
+      "english": "Donphan",
+      "english_corpus": "Donphan",
+      "french": "Donphan",
+      "portuguese": "Donphan",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bee3e2e4dcd5e2ffffffff",
+      "final_hex": "bee3e2e4dcd5e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b38f",
+      "species_id": 233,
+      "english": "Porygon2",
+      "english_corpus": "Porygon2",
+      "french": "Porygon2",
+      "portuguese": "Porygon2",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cae3e6eddbe3e2a3ffffff",
+      "final_hex": "cae3e6eddbe3e2a3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b39a",
+      "species_id": 234,
+      "english": "Stantler",
+      "english_corpus": "Cerfrousse",
+      "french": "Cerfrousse",
+      "portuguese": "Stantler",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde8d5e2e8e0d9e6ffffff",
+      "final_hex": "cde8d5e2e8e0d9e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3a5",
+      "species_id": 235,
+      "english": "Smeargle",
+      "english_corpus": "Queulorior",
+      "french": "Queulorior",
+      "portuguese": "Smeargle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde1d9d5e6dbe0d9ffffff",
+      "final_hex": "cde1d9d5e6dbe0d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3b0",
+      "species_id": 236,
+      "english": "Tyrogue",
+      "english_corpus": "Debugant",
+      "french": "Debugant",
+      "portuguese": "Tyrogue",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ceede6e3dbe9d9ffffffff",
+      "final_hex": "ceede6e3dbe9d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3bb",
+      "species_id": 237,
+      "english": "Hitmontop",
+      "english_corpus": "Kapoera",
+      "french": "Kapoera",
+      "portuguese": "Hitmontop",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2dde8e1e3e2e8e3e4ffff",
+      "final_hex": "c2dde8e1e3e2e8e3e4ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3c6",
+      "species_id": 238,
+      "english": "Smoochum",
+      "english_corpus": "Lippouti",
+      "french": "Lippouti",
+      "portuguese": "Smoochum",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde1e3e3d7dce9e1ffffff",
+      "final_hex": "cde1e3e3d7dce9e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        48
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3d1",
+      "species_id": 239,
+      "english": "Elekid",
+      "english_corpus": "Élekid",
+      "french": "Élekid",
+      "portuguese": "Elekid",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bfe0d9dfddd8ffffffffff",
+      "final_hex": "bfe0d9dfddd8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3dc",
+      "species_id": 240,
+      "english": "Magby",
+      "english_corpus": "Magby",
+      "french": "Magby",
+      "portuguese": "Magby",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5dbd6edffffffffffff",
+      "final_hex": "c7d5dbd6edffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3e7",
+      "species_id": 241,
+      "english": "Miltank",
+      "english_corpus": "Écrémeuh",
+      "french": "Écrémeuh",
+      "portuguese": "Miltank",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7dde0e8d5e2dfffffffff",
+      "final_hex": "c7dde0e8d5e2dfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        36
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3f2",
+      "species_id": 242,
+      "english": "Blissey",
+      "english_corpus": "Leuphorie",
+      "french": "Leuphorie",
+      "portuguese": "Blissey",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bce0dde7e7d9edffffffff",
+      "final_hex": "bce0dde7e7d9edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b3fd",
+      "species_id": 243,
+      "english": "Raikou",
+      "english_corpus": "Raikou",
+      "french": "Raikou",
+      "portuguese": "Raikou",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd5dddfe3e9ffffffffff",
+      "final_hex": "ccd5dddfe3e9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b408",
+      "species_id": 244,
+      "english": "Entei",
+      "english_corpus": "Entei",
+      "french": "Entei",
+      "portuguese": "Entei",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bfe2e8d9ddffffffffffff",
+      "final_hex": "bfe2e8d9ddffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        26
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b413",
+      "species_id": 245,
+      "english": "Suicune",
+      "english_corpus": "Suicune",
+      "french": "Suicune",
+      "portuguese": "Suicune",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde9ddd7e9e2d9ffffffff",
+      "final_hex": "cde9ddd7e9e2d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b41e",
+      "species_id": 246,
+      "english": "Larvitar",
+      "english_corpus": "Embrylex",
+      "french": "Embrylex",
+      "portuguese": "Larvitar",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6d5e6eadde8d5e6ffffff",
+      "final_hex": "c6d5e6eadde8d5e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b429",
+      "species_id": 247,
+      "english": "Pupitar",
+      "english_corpus": "Ymphect",
+      "french": "Ymphect",
+      "portuguese": "Pupitar",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cae9e4dde8d5e6ffffffff",
+      "final_hex": "cae9e4dde8d5e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b434",
+      "species_id": 248,
+      "english": "Tyranitar",
+      "english_corpus": "Tyranocif",
+      "french": "Tyranocif",
+      "portuguese": "Tyranitar",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ceede6d5e2dde8d5e6ffff",
+      "final_hex": "ceede6d5e2dde8d5e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b43f",
+      "species_id": 249,
+      "english": "Lugia",
+      "english_corpus": "Lugia",
+      "french": "Lugia",
+      "portuguese": "Lugia",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e9dbddd5ffffffffffff",
+      "final_hex": "c6e9dbddd5ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b44a",
+      "species_id": 250,
+      "english": "Ho-Oh",
+      "english_corpus": "Ho-Oh",
+      "french": "Ho-Oh",
+      "portuguese": "Ho-Oh",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2e3aec9dcffffffffffff",
+      "final_hex": "c2e3aec9dcffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b455",
+      "species_id": 251,
+      "english": "Celebi",
+      "english_corpus": "Celebi",
+      "french": "Celebi",
+      "portuguese": "Celebi",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bdd9e0d9d6ddffffffffff",
+      "final_hex": "bdd9e0d9d6ddffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b460",
+      "species_id": 252,
+      "english": "Egg",
+      "english_corpus": "Oeuf",
+      "french": null,
+      "portuguese": "Ovo",
+      "status": "translated",
+      "reason": "Libellé système, choix éditorial PT-BR.",
+      "source_hex": "bfdbdbffffffffffffffff",
+      "final_hex": "c9eae3ffffffffffffffff",
+      "encoded_bytes": 4,
+      "line_widths": [
+        18
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b46b",
+      "species_id": 253,
+      "english": "MISSINGNO.",
+      "english_corpus": "MISSINGNO.",
+      "french": "MANQUANTNON.",
+      "portuguese": "MISSINGNO.",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7c3cdcdc3c8c1c8c9adff",
+      "final_hex": "c7c3cdcdc3c8c1c8c9adff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b573",
+      "species_id": 277,
+      "english": "Treecko",
+      "english_corpus": "Arcko",
+      "french": "Arcko",
+      "portuguese": "Treecko",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee6d9d9d7dfe3ffffffff",
+      "final_hex": "cee6d9d9d7dfe3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b57e",
+      "species_id": 278,
+      "english": "Grovyle",
+      "english_corpus": "Massko",
+      "french": "Massko",
+      "portuguese": "Grovyle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e6e3eaede0d9ffffffff",
+      "final_hex": "c1e6e3eaede0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b589",
+      "species_id": 279,
+      "english": "Sceptile",
+      "english_corpus": "Jungko",
+      "french": "Jungko",
+      "portuguese": "Sceptile",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdd7d9e4e8dde0d9ffffff",
+      "final_hex": "cdd7d9e4e8dde0d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b594",
+      "species_id": 280,
+      "english": "Torchic",
+      "english_corpus": "Poussifeu",
+      "french": "Poussifeu",
+      "portuguese": "Torchic",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee3e6d7dcddd7ffffffff",
+      "final_hex": "cee3e6d7dcddd7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b59f",
+      "species_id": 281,
+      "english": "Combusken",
+      "english_corpus": "Galifeu",
+      "french": "Galifeu",
+      "portuguese": "Combusken",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde3e1d6e9e7dfd9e2ffff",
+      "final_hex": "bde3e1d6e9e7dfd9e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b5aa",
+      "species_id": 282,
+      "english": "Blaziken",
+      "english_corpus": "Braségali",
+      "french": "Braségali",
+      "portuguese": "Blaziken",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bce0d5eedddfd9e2ffffff",
+      "final_hex": "bce0d5eedddfd9e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b5b5",
+      "species_id": 283,
+      "english": "Mudkip",
+      "english_corpus": "Gobou",
+      "french": "Gobou",
+      "portuguese": "Mudkip",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7e9d8dfdde4ffffffffff",
+      "final_hex": "c7e9d8dfdde4ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b5c0",
+      "species_id": 284,
+      "english": "Marshtomp",
+      "english_corpus": "Flobio",
+      "french": "Flobio",
+      "portuguese": "Marshtomp",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5e6e7dce8e3e1e4ffff",
+      "final_hex": "c7d5e6e7dce8e3e1e4ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b5cb",
+      "species_id": 285,
+      "english": "Swampert",
+      "english_corpus": "Laggron",
+      "french": "Laggron",
+      "portuguese": "Swampert",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdebd5e1e4d9e6e8ffffff",
+      "final_hex": "cdebd5e1e4d9e6e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b5d6",
+      "species_id": 286,
+      "english": "Poochyena",
+      "english_corpus": "Medhyèna",
+      "french": "Medhyèna",
+      "portuguese": "Poochyena",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cae3e3d7dcedd9e2d5ffff",
+      "final_hex": "cae3e3d7dcedd9e2d5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b5e1",
+      "species_id": 287,
+      "english": "Mightyena",
+      "english_corpus": "Grahyèna",
+      "french": "Grahyèna",
+      "portuguese": "Mightyena",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7dddbdce8edd9e2d5ffff",
+      "final_hex": "c7dddbdce8edd9e2d5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b5ec",
+      "species_id": 288,
+      "english": "Zigzagoon",
+      "english_corpus": "Zigzaton",
+      "french": "Zigzaton",
+      "portuguese": "Zigzagoon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d4dddbeed5dbe3e3e2ffff",
+      "final_hex": "d4dddbeed5dbe3e3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b5f7",
+      "species_id": 289,
+      "english": "Linoone",
+      "english_corpus": "Linéon",
+      "french": "Linéon",
+      "portuguese": "Linoone",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6dde2e3e3e2d9ffffffff",
+      "final_hex": "c6dde2e3e3e2d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b602",
+      "species_id": 290,
+      "english": "Wurmple",
+      "english_corpus": "Chenipotte",
+      "french": "Chenipotte",
+      "portuguese": "Wurmple",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1e9e6e1e4e0d9ffffffff",
+      "final_hex": "d1e9e6e1e4e0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b60d",
+      "species_id": 291,
+      "english": "Silcoon",
+      "english_corpus": "Armulys",
+      "french": "Armulys",
+      "portuguese": "Silcoon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddde0d7e3e3e2ffffffff",
+      "final_hex": "cddde0d7e3e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b618",
+      "species_id": 292,
+      "english": "Beautifly",
+      "english_corpus": "Charmillon",
+      "french": "Charmillon",
+      "portuguese": "Beautifly",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcd9d5e9e8dddae0edffff",
+      "final_hex": "bcd9d5e9e8dddae0edffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b623",
+      "species_id": 293,
+      "english": "Cascoon",
+      "english_corpus": "Blindalys",
+      "french": "Blindalys",
+      "portuguese": "Cascoon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bdd5e7d7e3e3e2ffffffff",
+      "final_hex": "bdd5e7d7e3e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b62e",
+      "species_id": 294,
+      "english": "Dustox",
+      "english_corpus": "Papinox",
+      "french": "Papinox",
+      "portuguese": "Dustox",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bee9e7e8e3ecffffffffff",
+      "final_hex": "bee9e7e8e3ecffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b639",
+      "species_id": 295,
+      "english": "Lotad",
+      "english_corpus": "Nénupiot",
+      "french": "Nénupiot",
+      "portuguese": "Lotad",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e3e8d5d8ffffffffffff",
+      "final_hex": "c6e3e8d5d8ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b644",
+      "species_id": 296,
+      "english": "Lombre",
+      "english_corpus": "Lombre",
+      "french": "Lombre",
+      "portuguese": "Lombre",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e3e1d6e6d9ffffffffff",
+      "final_hex": "c6e3e1d6e6d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b64f",
+      "species_id": 297,
+      "english": "Ludicolo",
+      "english_corpus": "Ludicolo",
+      "french": "Ludicolo",
+      "portuguese": "Ludicolo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e9d8ddd7e3e0e3ffffff",
+      "final_hex": "c6e9d8ddd7e3e0e3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b65a",
+      "species_id": 298,
+      "english": "Seedot",
+      "english_corpus": "Grainipiot",
+      "french": "Grainipiot",
+      "portuguese": "Seedot",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdd9d9d8e3e8ffffffffff",
+      "final_hex": "cdd9d9d8e3e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b665",
+      "species_id": 299,
+      "english": "Nuzleaf",
+      "english_corpus": "Pifeuil",
+      "french": "Pifeuil",
+      "portuguese": "Nuzleaf",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c8e9eee0d9d5daffffffff",
+      "final_hex": "c8e9eee0d9d5daffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b670",
+      "species_id": 300,
+      "english": "Shiftry",
+      "english_corpus": "Tengalice",
+      "french": "Tengalice",
+      "portuguese": "Shiftry",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddcdddae8e6edffffffff",
+      "final_hex": "cddcdddae8e6edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b67b",
+      "species_id": 301,
+      "english": "Nincada",
+      "english_corpus": "Ningale",
+      "french": "Ningale",
+      "portuguese": "Nincada",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c8dde2d7d5d8d5ffffffff",
+      "final_hex": "c8dde2d7d5d8d5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b686",
+      "species_id": 302,
+      "english": "Ninjask",
+      "english_corpus": "Ninjask",
+      "french": "Ninjask",
+      "portuguese": "Ninjask",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c8dde2ded5e7dfffffffff",
+      "final_hex": "c8dde2ded5e7dfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b691",
+      "species_id": 303,
+      "english": "Shedinja",
+      "english_corpus": "Munja",
+      "french": "Munja",
+      "portuguese": "Shedinja",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddcd9d8dde2ded5ffffff",
+      "final_hex": "cddcd9d8dde2ded5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b69c",
+      "species_id": 304,
+      "english": "Taillow",
+      "english_corpus": "Nirondelle",
+      "french": "Nirondelle",
+      "portuguese": "Taillow",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ced5dde0e0e3ebffffffff",
+      "final_hex": "ced5dde0e0e3ebffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6a7",
+      "species_id": 305,
+      "english": "Swellow",
+      "english_corpus": "Hélédelle",
+      "french": "Hélédelle",
+      "portuguese": "Swellow",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdebd9e0e0e3ebffffffff",
+      "final_hex": "cdebd9e0e0e3ebffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6b2",
+      "species_id": 306,
+      "english": "Shroomish",
+      "english_corpus": "Balignon",
+      "french": "Balignon",
+      "portuguese": "Shroomish",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddce6e3e3e1dde7dcffff",
+      "final_hex": "cddce6e3e3e1dde7dcffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6bd",
+      "species_id": 307,
+      "english": "Breloom",
+      "english_corpus": "Chapignon",
+      "french": "Chapignon",
+      "portuguese": "Breloom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bce6d9e0e3e3e1ffffffff",
+      "final_hex": "bce6d9e0e3e3e1ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6c8",
+      "species_id": 308,
+      "english": "Spinda",
+      "english_corpus": "Spinda",
+      "french": "Spinda",
+      "portuguese": "Spinda",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde4dde2d8d5ffffffffff",
+      "final_hex": "cde4dde2d8d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6d3",
+      "species_id": 309,
+      "english": "Wingull",
+      "english_corpus": "Goélise",
+      "french": "Goélise",
+      "portuguese": "Wingull",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1dde2dbe9e0e0ffffffff",
+      "final_hex": "d1dde2dbe9e0e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6de",
+      "species_id": 310,
+      "english": "Pelipper",
+      "english_corpus": "Bekipan",
+      "french": "Bekipan",
+      "portuguese": "Pelipper",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cad9e0dde4e4d9e6ffffff",
+      "final_hex": "cad9e0dde4e4d9e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6e9",
+      "species_id": 311,
+      "english": "Surskit",
+      "english_corpus": "Arakdo",
+      "french": "Arakdo",
+      "portuguese": "Surskit",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde9e6e7dfdde8ffffffff",
+      "final_hex": "cde9e6e7dfdde8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        36
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6f4",
+      "species_id": 312,
+      "english": "Masquerain",
+      "english_corpus": "Maskadra",
+      "french": "Maskadra",
+      "portuguese": "Masquerain",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5e7e5e9d9e6d5dde2ff",
+      "final_hex": "c7d5e7e5e9d9e6d5dde2ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b6ff",
+      "species_id": 313,
+      "english": "Wailmer",
+      "english_corpus": "Wailmer",
+      "french": "Wailmer",
+      "portuguese": "Wailmer",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1d5dde0e1d9e6ffffffff",
+      "final_hex": "d1d5dde0e1d9e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b70a",
+      "species_id": 314,
+      "english": "Wailord",
+      "english_corpus": "Wailord",
+      "french": "Wailord",
+      "portuguese": "Wailord",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1d5dde0e3e6d8ffffffff",
+      "final_hex": "d1d5dde0e3e6d8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b715",
+      "species_id": 315,
+      "english": "Skitty",
+      "english_corpus": "Skitty",
+      "french": "Skitty",
+      "portuguese": "Skitty",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddfdde8e8edffffffffff",
+      "final_hex": "cddfdde8e8edffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        31
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b720",
+      "species_id": 316,
+      "english": "Delcatty",
+      "english_corpus": "Delcatty",
+      "french": "Delcatty",
+      "portuguese": "Delcatty",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bed9e0d7d5e8e8edffffff",
+      "final_hex": "bed9e0d7d5e8e8edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b72b",
+      "species_id": 317,
+      "english": "Kecleon",
+      "english_corpus": "Kecleon",
+      "french": "Kecleon",
+      "portuguese": "Kecleon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c5d9d7e0d9e3e2ffffffff",
+      "final_hex": "c5d9d7e0d9e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b736",
+      "species_id": 318,
+      "english": "Baltoy",
+      "english_corpus": "Balbuto",
+      "french": "Balbuto",
+      "portuguese": "Baltoy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcd5e0e8e3edffffffffff",
+      "final_hex": "bcd5e0e8e3edffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b741",
+      "species_id": 319,
+      "english": "Claydol",
+      "english_corpus": "Kaorine",
+      "french": "Kaorine",
+      "portuguese": "Claydol",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde0d5edd8e3e0ffffffff",
+      "final_hex": "bde0d5edd8e3e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b74c",
+      "species_id": 320,
+      "english": "Nosepass",
+      "english_corpus": "Tarinor",
+      "french": "Tarinor",
+      "portuguese": "Nosepass",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c8e3e7d9e4d5e7e7ffffff",
+      "final_hex": "c8e3e7d9e4d5e7e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b757",
+      "species_id": 321,
+      "english": "Torkoal",
+      "english_corpus": "Chartor",
+      "french": "Chartor",
+      "portuguese": "Torkoal",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee3e6dfe3d5e0ffffffff",
+      "final_hex": "cee3e6dfe3d5e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b762",
+      "species_id": 322,
+      "english": "Sableye",
+      "english_corpus": "Ténéfix",
+      "french": "Ténéfix",
+      "portuguese": "Sableye",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdd5d6e0d9edd9ffffffff",
+      "final_hex": "cdd5d6e0d9edd9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b76d",
+      "species_id": 323,
+      "english": "Barboach",
+      "english_corpus": "Barloche",
+      "french": "Barloche",
+      "portuguese": "Barboach",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcd5e6d6e3d5d7dcffffff",
+      "final_hex": "bcd5e6d6e3d5d7dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b778",
+      "species_id": 324,
+      "english": "Whiscash",
+      "english_corpus": "Barbicha",
+      "french": "Barbicha",
+      "portuguese": "Whiscash",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1dcdde7d7d5e7dcffffff",
+      "final_hex": "d1dcdde7d7d5e7dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b783",
+      "species_id": 325,
+      "english": "Luvdisc",
+      "english_corpus": "Lovdisc",
+      "french": "Lovdisc",
+      "portuguese": "Luvdisc",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e9ead8dde7d7ffffffff",
+      "final_hex": "c6e9ead8dde7d7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b78e",
+      "species_id": 326,
+      "english": "Corphish",
+      "english_corpus": "Écrapince",
+      "french": "Écrapince",
+      "portuguese": "Corphish",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde3e6e4dcdde7dcffffff",
+      "final_hex": "bde3e6e4dcdde7dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b799",
+      "species_id": 327,
+      "english": "Crawdaunt",
+      "english_corpus": "Colhomard",
+      "french": "Colhomard",
+      "portuguese": "Crawdaunt",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde6d5ebd8d5e9e2e8ffff",
+      "final_hex": "bde6d5ebd8d5e9e2e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7a4",
+      "species_id": 328,
+      "english": "Feebas",
+      "english_corpus": "Barpau",
+      "french": "Barpau",
+      "portuguese": "Feebas",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c0d9d9d6d5e7ffffffffff",
+      "final_hex": "c0d9d9d6d5e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7af",
+      "species_id": 329,
+      "english": "Milotic",
+      "english_corpus": "Milobellus",
+      "french": "Milobellus",
+      "portuguese": "Milotic",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7dde0e3e8ddd7ffffffff",
+      "final_hex": "c7dde0e3e8ddd7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        36
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7ba",
+      "species_id": 330,
+      "english": "Carvanha",
+      "english_corpus": "Carvanha",
+      "french": "Carvanha",
+      "portuguese": "Carvanha",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bdd5e6ead5e2dcd5ffffff",
+      "final_hex": "bdd5e6ead5e2dcd5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7c5",
+      "species_id": 331,
+      "english": "Sharpedo",
+      "english_corpus": "Sharpedo",
+      "french": "Sharpedo",
+      "portuguese": "Sharpedo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddcd5e6e4d9d8e3ffffff",
+      "final_hex": "cddcd5e6e4d9d8e3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7d0",
+      "species_id": 332,
+      "english": "Trapinch",
+      "english_corpus": "Kraknoix",
+      "french": "Kraknoix",
+      "portuguese": "Trapinch",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee6d5e4dde2d7dcffffff",
+      "final_hex": "cee6d5e4dde2d7dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7db",
+      "species_id": 333,
+      "english": "Vibrava",
+      "english_corpus": "Vibraninf",
+      "french": "Vibraninf",
+      "portuguese": "Vibrava",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d0ddd6e6d5ead5ffffffff",
+      "final_hex": "d0ddd6e6d5ead5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7e6",
+      "species_id": 334,
+      "english": "Flygon",
+      "english_corpus": "Libégon",
+      "french": "Libégon",
+      "portuguese": "Flygon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c0e0eddbe3e2ffffffffff",
+      "final_hex": "c0e0eddbe3e2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7f1",
+      "species_id": 335,
+      "english": "Makuhita",
+      "english_corpus": "Makuhita",
+      "french": "Makuhita",
+      "portuguese": "Makuhita",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5dfe9dcdde8d5ffffff",
+      "final_hex": "c7d5dfe9dcdde8d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b7fc",
+      "species_id": 336,
+      "english": "Hariyama",
+      "english_corpus": "Hariyama",
+      "french": "Hariyama",
+      "portuguese": "Hariyama",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2d5e6ddedd5e1d5ffffff",
+      "final_hex": "c2d5e6ddedd5e1d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b807",
+      "species_id": 337,
+      "english": "Electrike",
+      "english_corpus": "Dynavolt",
+      "french": "Dynavolt",
+      "portuguese": "Electrike",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bfe0d9d7e8e6dddfd9ffff",
+      "final_hex": "bfe0d9d7e8e6dddfd9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b812",
+      "species_id": 338,
+      "english": "Manectric",
+      "english_corpus": "Élecsprint",
+      "french": "Élecsprint",
+      "portuguese": "Manectric",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5e2d9d7e8e6ddd7ffff",
+      "final_hex": "c7d5e2d9d7e8e6ddd7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b81d",
+      "species_id": 339,
+      "english": "Numel",
+      "english_corpus": "Chamallot",
+      "french": "Chamallot",
+      "portuguese": "Numel",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c8e9e1d9e0ffffffffffff",
+      "final_hex": "c8e9e1d9e0ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b828",
+      "species_id": 340,
+      "english": "Camerupt",
+      "english_corpus": "Camérupt",
+      "french": "Camérupt",
+      "portuguese": "Camerupt",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bdd5e1d9e6e9e4e8ffffff",
+      "final_hex": "bdd5e1d9e6e9e4e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b833",
+      "species_id": 341,
+      "english": "Spheal",
+      "english_corpus": "Obalie",
+      "french": "Obalie",
+      "portuguese": "Spheal",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde4dcd9d5e0ffffffffff",
+      "final_hex": "cde4dcd9d5e0ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b83e",
+      "species_id": 342,
+      "english": "Sealeo",
+      "english_corpus": "Phogleur",
+      "french": "Phogleur",
+      "portuguese": "Sealeo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdd9d5e0d9e3ffffffffff",
+      "final_hex": "cdd9d5e0d9e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b849",
+      "species_id": 343,
+      "english": "Walrein",
+      "english_corpus": "Kaimorse",
+      "french": "Kaimorse",
+      "portuguese": "Walrein",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1d5e0e6d9dde2ffffffff",
+      "final_hex": "d1d5e0e6d9dde2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b854",
+      "species_id": 344,
+      "english": "Cacnea",
+      "english_corpus": "Cacnea",
+      "french": "Cacnea",
+      "portuguese": "Cacnea",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bdd5d7e2d9d5ffffffffff",
+      "final_hex": "bdd5d7e2d9d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b85f",
+      "species_id": 345,
+      "english": "Cacturne",
+      "english_corpus": "Cacturne",
+      "french": "Cacturne",
+      "portuguese": "Cacturne",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bdd5d7e8e9e6e2d9ffffff",
+      "final_hex": "bdd5d7e8e9e6e2d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b86a",
+      "species_id": 346,
+      "english": "Snorunt",
+      "english_corpus": "Stalgamin",
+      "french": "Stalgamin",
+      "portuguese": "Snorunt",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde2e3e6e9e2e8ffffffff",
+      "final_hex": "cde2e3e6e9e2e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b875",
+      "species_id": 347,
+      "english": "Glalie",
+      "english_corpus": "Oniglali",
+      "french": "Oniglali",
+      "portuguese": "Glalie",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e0d5e0ddd9ffffffffff",
+      "final_hex": "c1e0d5e0ddd9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b880",
+      "species_id": 348,
+      "english": "Lunatone",
+      "english_corpus": "Séléroc",
+      "french": "Séléroc",
+      "portuguese": "Lunatone",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e9e2d5e8e3e2d9ffffff",
+      "final_hex": "c6e9e2d5e8e3e2d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b88b",
+      "species_id": 349,
+      "english": "Solrock",
+      "english_corpus": "Solaroc",
+      "french": "Solaroc",
+      "portuguese": "Solrock",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde3e0e6e3d7dfffffffff",
+      "final_hex": "cde3e0e6e3d7dfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b896",
+      "species_id": 350,
+      "english": "Azurill",
+      "english_corpus": "Azurill",
+      "french": "Azurill",
+      "portuguese": "Azurill",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbeee9e6dde0e0ffffffff",
+      "final_hex": "bbeee9e6dde0e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8a1",
+      "species_id": 351,
+      "english": "Spoink",
+      "english_corpus": "Spoink",
+      "french": "Spoink",
+      "portuguese": "Spoink",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde4e3dde2dfffffffffff",
+      "final_hex": "cde4e3dde2dfffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8ac",
+      "species_id": 352,
+      "english": "Grumpig",
+      "english_corpus": "Groret",
+      "french": "Groret",
+      "portuguese": "Grumpig",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e6e9e1e4dddbffffffff",
+      "final_hex": "c1e6e9e1e4dddbffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8b7",
+      "species_id": 353,
+      "english": "Plusle",
+      "english_corpus": "Posipi",
+      "french": "Posipi",
+      "portuguese": "Plusle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cae0e9e7e0d9ffffffffff",
+      "final_hex": "cae0e9e7e0d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8c2",
+      "species_id": 354,
+      "english": "Minun",
+      "english_corpus": "Négapi",
+      "french": "Négapi",
+      "portuguese": "Minun",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7dde2e9e2ffffffffffff",
+      "final_hex": "c7dde2e9e2ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        26
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8cd",
+      "species_id": 355,
+      "english": "Mawile",
+      "english_corpus": "Mysdibule",
+      "french": "Mysdibule",
+      "portuguese": "Mawile",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d5ebdde0d9ffffffffff",
+      "final_hex": "c7d5ebdde0d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8d8",
+      "species_id": 356,
+      "english": "Meditite",
+      "english_corpus": "Méditikka",
+      "french": "Méditikka",
+      "portuguese": "Meditite",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d9d8dde8dde8d9ffffff",
+      "final_hex": "c7d9d8dde8dde8d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8e3",
+      "species_id": 357,
+      "english": "Medicham",
+      "english_corpus": "Charmina",
+      "french": "Charmina",
+      "portuguese": "Medicham",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d9d8ddd7dcd5e1ffffff",
+      "final_hex": "c7d9d8ddd7dcd5e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8ee",
+      "species_id": 358,
+      "english": "Swablu",
+      "english_corpus": "Tylton",
+      "french": "Tylton",
+      "portuguese": "Swablu",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdebd5d6e0e9ffffffffff",
+      "final_hex": "cdebd5d6e0e9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b8f9",
+      "species_id": 359,
+      "english": "Altaria",
+      "english_corpus": "Altaria",
+      "french": "Altaria",
+      "portuguese": "Altaria",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbe0e8d5e6ddd5ffffffff",
+      "final_hex": "bbe0e8d5e6ddd5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b904",
+      "species_id": 360,
+      "english": "Wynaut",
+      "english_corpus": "Okéoké",
+      "french": "Okéoké",
+      "portuguese": "Wynaut",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1ede2d5e9e8ffffffffff",
+      "final_hex": "d1ede2d5e9e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b90f",
+      "species_id": 361,
+      "english": "Duskull",
+      "english_corpus": "Skelénox",
+      "french": "Skelénox",
+      "portuguese": "Duskull",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bee9e7dfe9e0e0ffffffff",
+      "final_hex": "bee9e7dfe9e0e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b91a",
+      "species_id": 362,
+      "english": "Dusclops",
+      "english_corpus": "Téraclope",
+      "french": "Téraclope",
+      "portuguese": "Dusclops",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bee9e7d7e0e3e4e7ffffff",
+      "final_hex": "bee9e7d7e0e3e4e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b925",
+      "species_id": 363,
+      "english": "Roselia",
+      "english_corpus": "Rosélia",
+      "french": "Rosélia",
+      "portuguese": "Roselia",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cce3e7d9e0ddd5ffffffff",
+      "final_hex": "cce3e7d9e0ddd5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b930",
+      "species_id": 364,
+      "english": "Slakoth",
+      "english_corpus": "Parecool",
+      "french": "Parecool",
+      "portuguese": "Slakoth",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde0d5dfe3e8dcffffffff",
+      "final_hex": "cde0d5dfe3e8dcffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b93b",
+      "species_id": 365,
+      "english": "Vigoroth",
+      "english_corpus": "Vigoroth",
+      "french": "Vigoroth",
+      "portuguese": "Vigoroth",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d0dddbe3e6e3e8dcffffff",
+      "final_hex": "d0dddbe3e6e3e8dcffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b946",
+      "species_id": 366,
+      "english": "Slaking",
+      "english_corpus": "Monaflèmit",
+      "french": "Monaflèmit",
+      "portuguese": "Slaking",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde0d5dfdde2dbffffffff",
+      "final_hex": "cde0d5dfdde2dbffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b951",
+      "species_id": 367,
+      "english": "Gulpin",
+      "english_corpus": "Gloupti",
+      "french": "Gloupti",
+      "portuguese": "Gulpin",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e9e0e4dde2ffffffffff",
+      "final_hex": "c1e9e0e4dde2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b95c",
+      "species_id": 368,
+      "english": "Swalot",
+      "english_corpus": "Avaltout",
+      "french": "Avaltout",
+      "portuguese": "Swalot",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdebd5e0e3e8ffffffffff",
+      "final_hex": "cdebd5e0e3e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b967",
+      "species_id": 369,
+      "english": "Tropius",
+      "english_corpus": "Tropius",
+      "french": "Tropius",
+      "portuguese": "Tropius",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee6e3e4dde9e7ffffffff",
+      "final_hex": "cee6e3e4dde9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b972",
+      "species_id": 370,
+      "english": "Whismur",
+      "english_corpus": "Chuchmur",
+      "french": "Chuchmur",
+      "portuguese": "Whismur",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1dcdde7e1e9e6ffffffff",
+      "final_hex": "d1dcdde7e1e9e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b97d",
+      "species_id": 371,
+      "english": "Loudred",
+      "english_corpus": "Ramboum",
+      "french": "Ramboum",
+      "portuguese": "Loudred",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e3e9d8e6d9d8ffffffff",
+      "final_hex": "c6e3e9d8e6d9d8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b988",
+      "species_id": 372,
+      "english": "Exploud",
+      "english_corpus": "Brouhabam",
+      "french": "Brouhabam",
+      "portuguese": "Exploud",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bfece4e0e3e9d8ffffffff",
+      "final_hex": "bfece4e0e3e9d8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b993",
+      "species_id": 373,
+      "english": "Clamperl",
+      "english_corpus": "Coquiperl",
+      "french": "Coquiperl",
+      "portuguese": "Clamperl",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde0d5e1e4d9e6e0ffffff",
+      "final_hex": "bde0d5e1e4d9e6e0ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b99e",
+      "species_id": 374,
+      "english": "Huntail",
+      "english_corpus": "Serpang",
+      "french": "Serpang",
+      "portuguese": "Huntail",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c2e9e2e8d5dde0ffffffff",
+      "final_hex": "c2e9e2e8d5dde0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b9a9",
+      "species_id": 375,
+      "english": "Gorebyss",
+      "english_corpus": "Rosabyss",
+      "french": "Rosabyss",
+      "portuguese": "Gorebyss",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e3e6d9d6ede7e7ffffff",
+      "final_hex": "c1e3e6d9d6ede7e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b9b4",
+      "species_id": 376,
+      "english": "Absol",
+      "english_corpus": "Absol",
+      "french": "Absol",
+      "portuguese": "Absol",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbd6e7e3e0ffffffffffff",
+      "final_hex": "bbd6e7e3e0ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b9bf",
+      "species_id": 377,
+      "english": "Shuppet",
+      "english_corpus": "Polichombr",
+      "french": "Polichombr",
+      "portuguese": "Shuppet",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddce9e4e4d9e8ffffffff",
+      "final_hex": "cddce9e4e4d9e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b9ca",
+      "species_id": 378,
+      "english": "Banette",
+      "english_corpus": "Branette",
+      "french": "Branette",
+      "portuguese": "Banette",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcd5e2d9e8e8d9ffffffff",
+      "final_hex": "bcd5e2d9e8e8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b9d5",
+      "species_id": 379,
+      "english": "Seviper",
+      "english_corpus": "Séviper",
+      "french": "Séviper",
+      "portuguese": "Seviper",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdd9eadde4d9e6ffffffff",
+      "final_hex": "cdd9eadde4d9e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b9e0",
+      "species_id": 380,
+      "english": "Zangoose",
+      "english_corpus": "Mangriff",
+      "french": "Mangriff",
+      "portuguese": "Zangoose",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d4d5e2dbe3e3e7d9ffffff",
+      "final_hex": "d4d5e2dbe3e3e7d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b9eb",
+      "species_id": 381,
+      "english": "Relicanth",
+      "english_corpus": "Relicanth",
+      "french": "Relicanth",
+      "portuguese": "Relicanth",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd9e0ddd7d5e2e8dcffff",
+      "final_hex": "ccd9e0ddd7d5e2e8dcffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166b9f6",
+      "species_id": 382,
+      "english": "Aron",
+      "english_corpus": "Galekid",
+      "french": "Galekid",
+      "portuguese": "Aron",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbe6e3e2ffffffffffffff",
+      "final_hex": "bbe6e3e2ffffffffffffff",
+      "encoded_bytes": 5,
+      "line_widths": [
+        22
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba01",
+      "species_id": 383,
+      "english": "Lairon",
+      "english_corpus": "Galegon",
+      "french": "Galegon",
+      "portuguese": "Lairon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6d5dde6e3e2ffffffffff",
+      "final_hex": "c6d5dde6e3e2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba0c",
+      "species_id": 384,
+      "english": "Aggron",
+      "english_corpus": "Galeking",
+      "french": "Galeking",
+      "portuguese": "Aggron",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbdbdbe6e3e2ffffffffff",
+      "final_hex": "bbdbdbe6e3e2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba17",
+      "species_id": 385,
+      "english": "Castform",
+      "english_corpus": "Morphéo",
+      "french": "Morphéo",
+      "portuguese": "Castform",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bdd5e7e8dae3e6e1ffffff",
+      "final_hex": "bdd5e7e8dae3e6e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba22",
+      "species_id": 386,
+      "english": "Volbeat",
+      "english_corpus": "Muciole",
+      "french": "Muciole",
+      "portuguese": "Volbeat",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d0e3e0d6d9d5e8ffffffff",
+      "final_hex": "d0e3e0d6d9d5e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba2d",
+      "species_id": 387,
+      "english": "Illumise",
+      "english_corpus": "Lumivole",
+      "french": "Lumivole",
+      "portuguese": "Illumise",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c3e0e0e9e1dde7d9ffffff",
+      "final_hex": "c3e0e0e9e1dde7d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba38",
+      "species_id": 388,
+      "english": "Lileep",
+      "english_corpus": "Lilia",
+      "french": "Lilia",
+      "portuguese": "Lileep",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6dde0d9d9e4ffffffffff",
+      "final_hex": "c6dde0d9d9e4ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba43",
+      "species_id": 389,
+      "english": "Cradily",
+      "english_corpus": "Vacilys",
+      "french": "Vacilys",
+      "portuguese": "Cradily",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde6d5d8dde0edffffffff",
+      "final_hex": "bde6d5d8dde0edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba4e",
+      "species_id": 390,
+      "english": "Anorith",
+      "english_corpus": "Anorith",
+      "french": "Anorith",
+      "portuguese": "Anorith",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbe2e3e6dde8dcffffffff",
+      "final_hex": "bbe2e3e6dde8dcffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba59",
+      "species_id": 391,
+      "english": "Armaldo",
+      "english_corpus": "Armaldo",
+      "french": "Armaldo",
+      "portuguese": "Armaldo",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbe6e1d5e0d8e3ffffffff",
+      "final_hex": "bbe6e1d5e0d8e3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba64",
+      "species_id": 392,
+      "english": "Ralts",
+      "english_corpus": "Tarsal",
+      "french": "Tarsal",
+      "portuguese": "Ralts",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd5e0e8e7ffffffffffff",
+      "final_hex": "ccd5e0e8e7ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba6f",
+      "species_id": 393,
+      "english": "Kirlia",
+      "english_corpus": "Kirlia",
+      "french": "Kirlia",
+      "portuguese": "Kirlia",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c5dde6e0ddd5ffffffffff",
+      "final_hex": "c5dde6e0ddd5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba7a",
+      "species_id": 394,
+      "english": "Gardevoir",
+      "english_corpus": "Gardevoir",
+      "french": "Gardevoir",
+      "portuguese": "Gardevoir",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1d5e6d8d9eae3dde6ffff",
+      "final_hex": "c1d5e6d8d9eae3dde6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba85",
+      "species_id": 395,
+      "english": "Bagon",
+      "english_corpus": "Draby",
+      "french": "Draby",
+      "portuguese": "Bagon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcd5dbe3e2ffffffffffff",
+      "final_hex": "bcd5dbe3e2ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba90",
+      "species_id": 396,
+      "english": "Shelgon",
+      "english_corpus": "Drackhaus",
+      "french": "Drackhaus",
+      "portuguese": "Shelgon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddcd9e0dbe3e2ffffffff",
+      "final_hex": "cddcd9e0dbe3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166ba9b",
+      "species_id": 397,
+      "english": "Salamence",
+      "english_corpus": "Drattak",
+      "french": "Drattak",
+      "portuguese": "Salamence",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cdd5e0d5e1d9e2d7d9ffff",
+      "final_hex": "cdd5e0d5e1d9e2d7d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166baa6",
+      "species_id": 398,
+      "english": "Beldum",
+      "english_corpus": "Terhal",
+      "french": "Terhal",
+      "portuguese": "Beldum",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcd9e0d8e9e1ffffffffff",
+      "final_hex": "bcd9e0d8e9e1ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bab1",
+      "species_id": 399,
+      "english": "Metang",
+      "english_corpus": "Métang",
+      "french": "Métang",
+      "portuguese": "Metang",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d9e8d5e2dbffffffffff",
+      "final_hex": "c7d9e8d5e2dbffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166babc",
+      "species_id": 400,
+      "english": "Metagross",
+      "english_corpus": "Métalosse",
+      "french": "Métalosse",
+      "portuguese": "Metagross",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7d9e8d5dbe6e3e7e7ffff",
+      "final_hex": "c7d9e8d5dbe6e3e7e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bac7",
+      "species_id": 401,
+      "english": "Regirock",
+      "english_corpus": "Regirock",
+      "french": "Regirock",
+      "portuguese": "Regirock",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd9dbdde6e3d7dfffffff",
+      "final_hex": "ccd9dbdde6e3d7dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bad2",
+      "species_id": 402,
+      "english": "Regice",
+      "english_corpus": "Regice",
+      "french": "Regice",
+      "portuguese": "Regice",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd9dbddd7d9ffffffffff",
+      "final_hex": "ccd9dbddd7d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166badd",
+      "species_id": 403,
+      "english": "Registeel",
+      "english_corpus": "Registeel",
+      "french": "Registeel",
+      "portuguese": "Registeel",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd9dbdde7e8d9d9e0ffff",
+      "final_hex": "ccd9dbdde7e8d9d9e0ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bae8",
+      "species_id": 404,
+      "english": "Kyogre",
+      "english_corpus": "Kyogre",
+      "french": "Kyogre",
+      "portuguese": "Kyogre",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c5ede3dbe6d9ffffffffff",
+      "final_hex": "c5ede3dbe6d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166baf3",
+      "species_id": 405,
+      "english": "Groudon",
+      "english_corpus": "Groudon",
+      "french": "Groudon",
+      "portuguese": "Groudon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e6e3e9d8e3e2ffffffff",
+      "final_hex": "c1e6e3e9d8e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bafe",
+      "species_id": 406,
+      "english": "Rayquaza",
+      "english_corpus": "Rayquaza",
+      "french": "Rayquaza",
+      "portuguese": "Rayquaza",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd5ede5e9d5eed5ffffff",
+      "final_hex": "ccd5ede5e9d5eed5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        48
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb09",
+      "species_id": 407,
+      "english": "Latias",
+      "english_corpus": "Latias",
+      "french": "Latias",
+      "portuguese": "Latias",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6d5e8ddd5e7ffffffffff",
+      "final_hex": "c6d5e8ddd5e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb14",
+      "species_id": 408,
+      "english": "Latios",
+      "english_corpus": "Latios",
+      "french": "Latios",
+      "portuguese": "Latios",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6d5e8dde3e7ffffffffff",
+      "final_hex": "c6d5e8dde3e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb1f",
+      "species_id": 409,
+      "english": "Jirachi",
+      "english_corpus": "Jirachi",
+      "french": "Jirachi",
+      "portuguese": "Jirachi",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c4dde6d5d7dcddffffffff",
+      "final_hex": "c4dde6d5d7dcddffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb2a",
+      "species_id": 410,
+      "english": "Deoxys",
+      "english_corpus": "Deoxys",
+      "french": "Deoxys",
+      "portuguese": "Deoxys",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bed9e3ecede7ffffffffff",
+      "final_hex": "bed9e3ecede7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb35",
+      "species_id": 411,
+      "english": "Chimecho",
+      "english_corpus": "Éoko",
+      "french": "Éoko",
+      "portuguese": "Chimecho",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bddcdde1d9d7dce3ffffff",
+      "final_hex": "bddcdde1d9d7dce3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb40",
+      "species_id": 412,
+      "english": "Bad Egg",
+      "english_corpus": "Mauv. Oeuf",
+      "french": "Mauvais œuf",
+      "portuguese": "Ovo ruim",
+      "status": "translated",
+      "reason": "Libellé système, choix éditorial PT-BR.",
+      "source_hex": "bcd5d800bfdbdbffffffff",
+      "final_hex": "c9eae300e6e9dde1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb4b",
+      "species_id": 413,
+      "english": "Unown B",
+      "english_corpus": "Zarbi B",
+      "french": "Zarbi B",
+      "portuguese": "Unown B",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200bcffffffff",
+      "final_hex": "cfe2e3ebe200bcffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb56",
+      "species_id": 414,
+      "english": "Unown C",
+      "english_corpus": "Zarbi C",
+      "french": "Zarbi C",
+      "portuguese": "Unown C",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200bdffffffff",
+      "final_hex": "cfe2e3ebe200bdffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb61",
+      "species_id": 415,
+      "english": "Unown D",
+      "english_corpus": "Zarbi D",
+      "french": "Zarbi D",
+      "portuguese": "Unown D",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200beffffffff",
+      "final_hex": "cfe2e3ebe200beffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb6c",
+      "species_id": 416,
+      "english": "Unown E",
+      "english_corpus": "Zarbi E",
+      "french": "Zarbi E",
+      "portuguese": "Unown E",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200bfffffffff",
+      "final_hex": "cfe2e3ebe200bfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb77",
+      "species_id": 417,
+      "english": "Unown F",
+      "english_corpus": "Zarbi F",
+      "french": "Zarbi F",
+      "portuguese": "Unown F",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c0ffffffff",
+      "final_hex": "cfe2e3ebe200c0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb82",
+      "species_id": 418,
+      "english": "Unown G",
+      "english_corpus": "Zarbi G",
+      "french": "Zarbi G",
+      "portuguese": "Unown G",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c1ffffffff",
+      "final_hex": "cfe2e3ebe200c1ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb8d",
+      "species_id": 419,
+      "english": "Unown H",
+      "english_corpus": "Zarbi H",
+      "french": "Zarbi H",
+      "portuguese": "Unown H",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c2ffffffff",
+      "final_hex": "cfe2e3ebe200c2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bb98",
+      "species_id": 420,
+      "english": "Unown I",
+      "english_corpus": "Zarbi I",
+      "french": "Zarbi je",
+      "portuguese": "Unown I",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c3ffffffff",
+      "final_hex": "cfe2e3ebe200c3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bba3",
+      "species_id": 421,
+      "english": "Unown J",
+      "english_corpus": "Zarbi J",
+      "french": "Zarbi J",
+      "portuguese": "Unown J",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c4ffffffff",
+      "final_hex": "cfe2e3ebe200c4ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bbae",
+      "species_id": 422,
+      "english": "Unown K",
+      "english_corpus": "Zarbi K",
+      "french": "Zarbi K",
+      "portuguese": "Unown K",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c5ffffffff",
+      "final_hex": "cfe2e3ebe200c5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bbb9",
+      "species_id": 423,
+      "english": "Unown L",
+      "english_corpus": "Zarbi L",
+      "french": "Zarbi L",
+      "portuguese": "Unown L",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c6ffffffff",
+      "final_hex": "cfe2e3ebe200c6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bbc4",
+      "species_id": 424,
+      "english": "Unown M",
+      "english_corpus": "Zarbi M",
+      "french": "Zarbi M",
+      "portuguese": "Unown M",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c7ffffffff",
+      "final_hex": "cfe2e3ebe200c7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bbcf",
+      "species_id": 425,
+      "english": "Unown N",
+      "english_corpus": "Zarbi N",
+      "french": "Zarbi N",
+      "portuguese": "Unown N",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c8ffffffff",
+      "final_hex": "cfe2e3ebe200c8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bbda",
+      "species_id": 426,
+      "english": "Unown O",
+      "english_corpus": "Zarbi O",
+      "french": "Zarbi O",
+      "portuguese": "Unown O",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200c9ffffffff",
+      "final_hex": "cfe2e3ebe200c9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bbe5",
+      "species_id": 427,
+      "english": "Unown P",
+      "english_corpus": "Zarbi P",
+      "french": "Zarbi P",
+      "portuguese": "Unown P",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200caffffffff",
+      "final_hex": "cfe2e3ebe200caffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bbf0",
+      "species_id": 428,
+      "english": "Unown Q",
+      "english_corpus": "Zarbi Q",
+      "french": "Zarbi Q",
+      "portuguese": "Unown Q",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200cbffffffff",
+      "final_hex": "cfe2e3ebe200cbffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bbfb",
+      "species_id": 429,
+      "english": "Unown R",
+      "english_corpus": "Zarbi R",
+      "french": "Zarbi r",
+      "portuguese": "Unown R",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200ccffffffff",
+      "final_hex": "cfe2e3ebe200ccffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc06",
+      "species_id": 430,
+      "english": "Unown S",
+      "english_corpus": "Zarbi S",
+      "french": "Zarbi S",
+      "portuguese": "Unown S",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200cdffffffff",
+      "final_hex": "cfe2e3ebe200cdffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc11",
+      "species_id": 431,
+      "english": "Unown T",
+      "english_corpus": "Zarbi T",
+      "french": "Zarbi T",
+      "portuguese": "Unown T",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200ceffffffff",
+      "final_hex": "cfe2e3ebe200ceffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc1c",
+      "species_id": 432,
+      "english": "Unown U",
+      "english_corpus": "Zarbi U",
+      "french": "Zarbi U",
+      "portuguese": "Unown U",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200cfffffffff",
+      "final_hex": "cfe2e3ebe200cfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc27",
+      "species_id": 433,
+      "english": "Unown V",
+      "english_corpus": "Zarbi V",
+      "french": "Zarbi V",
+      "portuguese": "Unown V",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200d0ffffffff",
+      "final_hex": "cfe2e3ebe200d0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc32",
+      "species_id": 434,
+      "english": "Unown W",
+      "english_corpus": "Zarbi W",
+      "french": "Zarbi W",
+      "portuguese": "Unown W",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200d1ffffffff",
+      "final_hex": "cfe2e3ebe200d1ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc3d",
+      "species_id": 435,
+      "english": "Unown X",
+      "english_corpus": "Zarbi X",
+      "french": "Zarbi X",
+      "portuguese": "Unown X",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200d2ffffffff",
+      "final_hex": "cfe2e3ebe200d2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc48",
+      "species_id": 436,
+      "english": "Unown Y",
+      "english_corpus": "Zarbi Y",
+      "french": "Zarbi Y",
+      "portuguese": "Unown Y",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200d3ffffffff",
+      "final_hex": "cfe2e3ebe200d3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc53",
+      "species_id": 437,
+      "english": "Unown Z",
+      "english_corpus": "Zarbi Z",
+      "french": "Zarbi Z",
+      "portuguese": "Unown Z",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200d4ffffffff",
+      "final_hex": "cfe2e3ebe200d4ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc5e",
+      "species_id": 438,
+      "english": "Unown !",
+      "english_corpus": "Zarbi !",
+      "french": "Zarbi !",
+      "portuguese": "Unown !",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200abffffffff",
+      "final_hex": "cfe2e3ebe200abffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc69",
+      "species_id": 439,
+      "english": "Unown ?",
+      "english_corpus": "Zarbi ?",
+      "french": "Zarbi ?",
+      "portuguese": "Unown ?",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cfe2e3ebe200acffffffff",
+      "final_hex": "cfe2e3ebe200acffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc74",
+      "species_id": 440,
+      "english": "Turtwig",
+      "english_corpus": "Tortipouss",
+      "french": "Tortipouss",
+      "portuguese": "Turtwig",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee9e6e8ebdddbffffffff",
+      "final_hex": "cee9e6e8ebdddbffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc7f",
+      "species_id": 441,
+      "english": "Grotle",
+      "english_corpus": "Boskara",
+      "french": "Boskara",
+      "portuguese": "Grotle",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1e6e3e8e0d9ffffffffff",
+      "final_hex": "c1e6e3e8e0d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc8a",
+      "species_id": 442,
+      "english": "Torterra",
+      "english_corpus": "Torterra",
+      "french": "Torterra",
+      "portuguese": "Torterra",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cee3e6e8d9e6e6d5ffffff",
+      "final_hex": "cee3e6e8d9e6e6d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bc95",
+      "species_id": 443,
+      "english": "Chimchar",
+      "english_corpus": "Ouisticram",
+      "french": "Ouisticram",
+      "portuguese": "Chimchar",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bddcdde1d7dcd5e6ffffff",
+      "final_hex": "bddcdde1d7dcd5e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bca0",
+      "species_id": 444,
+      "english": "Monferno",
+      "english_corpus": "Chimpenfeu",
+      "french": "Chimpenfeu",
+      "portuguese": "Monferno",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7e3e2dad9e6e2e3ffffff",
+      "final_hex": "c7e3e2dad9e6e2e3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bcab",
+      "species_id": 445,
+      "english": "Infernape",
+      "english_corpus": "Simiabraz",
+      "french": "Simiabraz",
+      "portuguese": "Infernape",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c3e2dad9e6e2d5e4d9ffff",
+      "final_hex": "c3e2dad9e6e2d5e4d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bcb6",
+      "species_id": 446,
+      "english": "Piplup",
+      "english_corpus": "Tiplouf",
+      "french": "Tiplouf",
+      "portuguese": "Piplup",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cadde4e0e9e4ffffffffff",
+      "final_hex": "cadde4e0e9e4ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bcc1",
+      "species_id": 447,
+      "english": "Prinplup",
+      "english_corpus": "Prinplouf",
+      "french": "Prinplouf",
+      "portuguese": "Prinplup",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cae6dde2e4e0e9e4ffffff",
+      "final_hex": "cae6dde2e4e0e9e4ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bccc",
+      "species_id": 448,
+      "english": "Empoleon",
+      "english_corpus": "Pingoléon",
+      "french": "Pingoléon",
+      "portuguese": "Empoleon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bfe1e4e3e0d9e3e2ffffff",
+      "final_hex": "bfe1e4e3e0d9e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bcd7",
+      "species_id": 449,
+      "english": "Starly",
+      "english_corpus": "Étourmi",
+      "french": "Étourmi",
+      "portuguese": "Starly",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde8d5e6e0edffffffffff",
+      "final_hex": "cde8d5e6e0edffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bce2",
+      "species_id": 450,
+      "english": "Staravia",
+      "english_corpus": "Étourvol",
+      "french": "Étourvol",
+      "portuguese": "Staravia",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde8d5e6d5eaddd5ffffff",
+      "final_hex": "cde8d5e6d5eaddd5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bced",
+      "species_id": 451,
+      "english": "Staraptor",
+      "english_corpus": "Étouraptor",
+      "french": "Étouraptor",
+      "portuguese": "Staraptor",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cde8d5e6d5e4e8e3e6ffff",
+      "final_hex": "cde8d5e6d5e4e8e3e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bcf8",
+      "species_id": 452,
+      "english": "Bidoof",
+      "english_corpus": "Keunotor",
+      "french": "Keunotor",
+      "portuguese": "Bidoof",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcddd8e3e3daffffffffff",
+      "final_hex": "bcddd8e3e3daffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd03",
+      "species_id": 453,
+      "english": "Bibarel",
+      "english_corpus": "Castorno",
+      "french": "Castorno",
+      "portuguese": "Bibarel",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcddd6d5e6d9e0ffffffff",
+      "final_hex": "bcddd6d5e6d9e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd0e",
+      "species_id": 454,
+      "english": "Kricketot",
+      "english_corpus": "Crikzik",
+      "french": "Crikzik",
+      "portuguese": "Kricketot",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c5e6ddd7dfd9e8e3e8ffff",
+      "final_hex": "c5e6ddd7dfd9e8e3e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd19",
+      "species_id": 455,
+      "english": "Kricketune",
+      "english_corpus": "Mélokrik",
+      "french": "Mélokrik",
+      "portuguese": "Kricketune",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c5e6ddd7dfd9e8e9e2d9ff",
+      "final_hex": "c5e6ddd7dfd9e8e9e2d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd24",
+      "species_id": 456,
+      "english": "Shinx",
+      "english_corpus": "Lixy",
+      "french": "Lixy",
+      "portuguese": "Shinx",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddcdde2ecffffffffffff",
+      "final_hex": "cddcdde2ecffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        27
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd2f",
+      "species_id": 457,
+      "english": "Luxio",
+      "english_corpus": "Luxio",
+      "french": "Luxio",
+      "portuguese": "Luxio",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e9ecdde3ffffffffffff",
+      "final_hex": "c6e9ecdde3ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd3a",
+      "species_id": 458,
+      "english": "Luxray",
+      "english_corpus": "Luxray",
+      "french": "Luxray",
+      "portuguese": "Luxray",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c6e9ece6d5edffffffffff",
+      "final_hex": "c6e9ece6d5edffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd45",
+      "species_id": 459,
+      "english": "Budew",
+      "english_corpus": "Rozbouton",
+      "french": "Rozbouton",
+      "portuguese": "Budew",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bce9d8d9ebffffffffffff",
+      "final_hex": "bce9d8d9ebffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd50",
+      "species_id": 460,
+      "english": "Roserade",
+      "english_corpus": "Roserade",
+      "french": "Roserade",
+      "portuguese": "Roserade",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cce3e7d9e6d5d8d9ffffff",
+      "final_hex": "cce3e7d9e6d5d8d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd5b",
+      "species_id": 461,
+      "english": "Cranidos",
+      "english_corpus": "Kranidos",
+      "french": "Kranidos",
+      "portuguese": "Cranidos",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde6d5e2ddd8e3e7ffffff",
+      "final_hex": "bde6d5e2ddd8e3e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd66",
+      "species_id": 462,
+      "english": "Rampardos",
+      "english_corpus": "Charkos",
+      "french": "Charkos",
+      "portuguese": "Rampardos",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "ccd5e1e4d5e6d8e3e7ffff",
+      "final_hex": "ccd5e1e4d5e6d8e3e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd71",
+      "species_id": 463,
+      "english": "Shieldon",
+      "english_corpus": "Dinoclier",
+      "french": "Dinoclier",
+      "portuguese": "Shieldon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddcddd9e0d8e3e2ffffff",
+      "final_hex": "cddcddd9e0d8e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd7c",
+      "species_id": 464,
+      "english": "Bastiodon",
+      "english_corpus": "Bastiodon",
+      "french": "Bastiodon",
+      "portuguese": "Bastiodon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bcd5e7e8dde3d8e3e2ffff",
+      "final_hex": "bcd5e7e8dde3d8e3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd87",
+      "species_id": 465,
+      "english": "Burmy",
+      "english_corpus": "Cheniti",
+      "french": "Cheniti",
+      "portuguese": "Burmy",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bce9e6e1edffffffffffff",
+      "final_hex": "bce9e6e1edffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd92",
+      "species_id": 466,
+      "english": "Wormadam",
+      "english_corpus": "Cheniselle",
+      "french": "Cheniselle",
+      "portuguese": "Wormadam",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d1e3e6e1d5d8d5e1ffffff",
+      "final_hex": "d1e3e6e1d5d8d5e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bd9d",
+      "species_id": 467,
+      "english": "Mothim",
+      "english_corpus": "Papilord",
+      "french": "Papilord",
+      "portuguese": "Mothim",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c7e3e8dcdde1ffffffffff",
+      "final_hex": "c7e3e8dcdde1ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bda8",
+      "species_id": 468,
+      "english": "Combee",
+      "english_corpus": "Apitrini",
+      "french": "Apitrini",
+      "portuguese": "Combee",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bde3e1d6d9d9ffffffffff",
+      "final_hex": "bde3e1d6d9d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        36
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bdb3",
+      "species_id": 469,
+      "english": "Vespiquen",
+      "english_corpus": "Apireine",
+      "french": "Apireine",
+      "portuguese": "Vespiquen",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "d0d9e7e4dde5e9d9e2ffff",
+      "final_hex": "d0d9e7e4dde5e9d9e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bdbe",
+      "species_id": 470,
+      "english": "Pachirisu",
+      "english_corpus": "Pachirisu",
+      "french": "Pachirisu",
+      "portuguese": "Pachirisu",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cad5d7dcdde6dde7e9ffff",
+      "final_hex": "cad5d7dcdde6dde7e9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bdc9",
+      "species_id": 471,
+      "english": "Buizel",
+      "english_corpus": "Mustébouée",
+      "french": "Mustébouée",
+      "portuguese": "Buizel",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bce9ddeed9e0ffffffffff",
+      "final_hex": "bce9ddeed9e0ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bdd4",
+      "species_id": 472,
+      "english": "Floatzel",
+      "english_corpus": "Mustéflott",
+      "french": "Mustéflott",
+      "portuguese": "Floatzel",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c0e0e3d5e8eed9e0ffffff",
+      "final_hex": "c0e0e3d5e8eed9e0ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bddf",
+      "species_id": 473,
+      "english": "Cherubi",
+      "english_corpus": "Ceribou",
+      "french": "Ceribou",
+      "portuguese": "Cherubi",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bddcd9e6e9d6ddffffffff",
+      "final_hex": "bddcd9e6e9d6ddffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bdea",
+      "species_id": 474,
+      "english": "Cherrim",
+      "english_corpus": "Ceriflor",
+      "french": "Ceriflor",
+      "portuguese": "Cherrim",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bddcd9e6e6dde1ffffffff",
+      "final_hex": "bddcd9e6e6dde1ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166bdf5",
+      "species_id": 475,
+      "english": "Shellos",
+      "english_corpus": "Sancoki",
+      "french": "Sancoki",
+      "portuguese": "Shellos",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "cddcd9e0e0e3e7ffffffff",
+      "final_hex": "cddcd9e0e0e3e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166be00",
+      "species_id": 476,
+      "english": "Gastrodon",
+      "english_corpus": "Tritosor",
+      "french": "Tritosor",
+      "portuguese": "Gastrodon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "c1d5e7e8e6e3d8e3e2ffff",
+      "final_hex": "c1d5e7e8e6e3d8e3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166be0b",
+      "species_id": 477,
+      "english": "Ambipom",
+      "english_corpus": "Capidextre",
+      "french": "Capidextre",
+      "portuguese": "Ambipom",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bbe1d6dde4e3e1ffffffff",
+      "final_hex": "bbe1d6dde4e3e1ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    },
+    {
+      "offset": "0x166be16",
+      "species_id": 478,
+      "english": "Drifloon",
+      "english_corpus": "Baudrive",
+      "french": "Baudrive",
+      "portuguese": "Drifloon",
+      "status": "retained_english",
+      "reason": "F-759 : nom international ou identifiant de forme conservé exactement.",
+      "source_hex": "bee6dddae0e3e3e2ffffff",
+      "final_hex": "bee6dddae0e3e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "pointer": "base 0x0966a98c + species_id * 11 ; pas de pointeur individuel"
+    }
+  ]
+}
