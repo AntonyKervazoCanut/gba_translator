@@ -10,7 +10,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
-const normalize = (s: string): string => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim().toLowerCase();
+// Vision confond parfois le a latin avec U+0430 malgré des pixels identiques.
+// La comparaison exacte des octets ROM reste indépendante de cette lecture OCR.
+const normalize = (s: string): string => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim().toLowerCase().replace(/\u0430/g, 'a');
 
 test('PT-67 : Ginásio, placa e greve sont lisibles aux pointeurs vivants dans mGBA', async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt67-borrius-'));

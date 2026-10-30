@@ -89,6 +89,19 @@ def test_gym_rules_story_and_canonical_names():
     assert [b['portuguese'] for b in buffers] == ['está', 'estava']
 
 
+def test_ocr_scenes_have_literal_pages_and_native_latin_a():
+    """L'OCR ne doit pas remplacer la vérification des glyphes encodés."""
+    for offset in (0x1F1A524, 0x1F216F0, 0x1F226D2):
+        page = TEXTS[offset].split('<0xFB>')[0]
+        assert len(page.splitlines()) <= 2
+        assert not re.search(r'<0xF[CD]>', page)
+        assert max(line_widths(page)) <= 208
+    raw = TextEncoder.encode_pokemon(TEXTS[0x1F226D2], strict=True)
+    second_line = raw.split(b'\xfe')[1].split(b'\xfb')[0]
+    assert second_line == TextEncoder.encode_pokemon('a KBT Expressway!', strict=True)[:-1]
+    assert second_line[0] == 0xD5  # a latin de la vraie charmap CFRU.
+
+
 def test_finalizer_order_and_other_batch_isolation():
     patches = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())['patches']
     assert patches.count('batch_67') == 1
