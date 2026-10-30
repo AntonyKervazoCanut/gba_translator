@@ -62,19 +62,27 @@ import Vision
 let request = VNRecognizeTextRequest()
 request.recognitionLevel = .accurate
 request.recognitionLanguages = ["pt-BR", "en-US"]
-request.usesLanguageCorrection = false
+request.usesLanguageCorrection = true
 try VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([request])
 print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))
 `);
     const ocr = path.join(temp, 'ocr');
     execFileSync('swiftc', [swift, '-o', ocr], { timeout: 60_000 });
-    await page.setContent(`<style>body{margin:0}img{width:960px;height:640px;image-rendering:pixelated}</style><img alt="PT-48 : description de ${sample.id}" src="data:image/png;base64,${fs.readFileSync(path.join(temp, 'page0.png')).toString('base64')}">`);
-    const readable = path.join(temp, 'readable.png');
-    await page.getByRole('img').screenshot({ path: readable });
-    const text = execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 });
+    await page.setContent(`<style>body{margin:0}img{width:1440px;height:960px;image-rendering:pixelated}</style><img alt="PT-48 : description de ${sample.id}" src="data:image/png;base64,${fs.readFileSync(path.join(temp, 'page0.png')).toString('base64')}">`);
+    // Deux agrandissements entiers du même écran, sans substitutions OCR.
+    // Vision confond D/O à 4x et peut omettre un mot court à 6x.
+    const readings: string[] = [];
+    for (const scale of [4, 6]) {
+      await page.getByRole('img').evaluate((img, factor) => {
+        img.style.width = `${240 * factor}px`;
+        img.style.height = `${160 * factor}px`;
+      }, scale);
+      const readable = path.join(temp, `readable-${scale}.png`);
+      await page.getByRole('img').screenshot({ path: readable });
+      readings.push(execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 }));
+    }
+    const text = readings.join('\n');
     console.log(text);
-    // L'OCR varie sur les accents de la police pixel ; les octets sont
-    // vérifiés exactement avant le lancement de l'émulateur.
     const normalized = text.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ');
     for (const line of sample.text.split('\n')) {
       expect(normalized).toContain(line.normalize('NFD').replace(/\p{M}/gu, ''));

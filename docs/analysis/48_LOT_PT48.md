@@ -73,3 +73,11 @@ captures restent dans le répertoire temporaire du système, hors dépôt.
 Cette recette ciblée ne constitue pas un parcours intégral du jeu ni une
 certification de tous les autres lots PT. Les noms de zones sont vérifiés aux
 pointeurs et en octets ; leur visite exhaustive relève de T-848.
+
+Validation locale : build PT réussi ; 173 consommateurs vérifiés, dont trois
+textes réalloués par la dernière passe. Les deux tests ROM et les trois cas
+Playwright passent. Les assertions OCR restent exactes : la même image est lue
+aux facteurs entiers 4 et 6 avec la correction linguistique de Vision ; aucun
+remplacement de caractères ni rapprochement approximatif n’est accepté. Cette
+combinaison évite la confusion D/O de « Dragão » et l’omission de mots courts à
+une seule échelle. Les contrôles binaires restent indépendants de l’OCR.

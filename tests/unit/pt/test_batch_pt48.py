@@ -54,6 +54,8 @@ def test_item_effects_and_glossary_are_not_stale_french():
         assert 'base' not in texts[offset]
     assert 'geluras' in texts[0xEB23B6]
     assert '1/4 dos PS' in texts[0xEB2D73]
+    assert 'geluras' in texts[0xEB2D2E]
+    assert 'PS cheios' in texts[0xEB4061] and '1 PS' in texts[0xEB4061]
     assert 'Habilidade Oculta' in texts[0xEB267C]
     assert 'KBT' in texts[0xEB1CB6] and '<0xF8>Â' in texts[0xEB1CB6]
     assert 'Professor Log' in texts[0xEB20E8]
