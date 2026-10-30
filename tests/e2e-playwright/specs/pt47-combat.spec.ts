@@ -23,9 +23,11 @@ test('PT-47 : les messages de combat gardent leur texte et leurs accents dans mG
   }
   const scenes = [
     { offset: 0xa4dd24, site: 0x9a4ddc, title: 'Terrain — ADM et retour à la surface',
-      matches: [/O ADM permitiu que voce emergisse/i], forbidden: /allowed|resurface/i, frames: [2450] },
+      // Vision lit parfois O pour le D bitmap ; les octets ADM sont vérifiés exactement.
+      matches: [/O A[DO]M permitiu que voce emergisse/i], forbidden: /allowed|resurface/i, frames: [2450] },
     { offset: 0xa4e686, site: 0xa6d4d0, title: 'Combat — refus du chef et tilde PT',
-      matches: [/NEM PENSAR/i, /Enquanto eu for o chefao, nao/i], forbidden: /kingpin|NO WAY/i, frames: [2450] },
+      // Même ambiguïté bitmap q/g ; la source est verrouillée par le test unitaire.
+      matches: [/NEM PENSAR/i, /En[qg]uanto eu for o chefao, nao/i], forbidden: /kingpin|NO WAY/i, frames: [2450] },
   ];
   for (let n = 0; n < scenes.length; n++) {
     const scene = scenes[n];

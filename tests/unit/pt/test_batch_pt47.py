@@ -61,6 +61,11 @@ def test_manifest_controls_glossary_and_budgets():
     assert texts[0xA4E474] == 'A batalha acaba se:\n4 Pokémon desmaiarem\n10 turnos passarem'
     assert 'Cube Corp.' in texts[0xA4DDCA]
     assert texts[0xA4EF14] == 'Black Hole Eclipse'
+    # La tolérance D/O de Vision n'autorise aucune faute dans le texte livré.
+    assert texts[0xA4DD24] == 'O ADM permitiu que você emergisse!'
+    assert texts[0xA4E686] == (
+        'Nem pensar<0xB0> NEM PENSAR!\nEnquanto eu for o chefão, não!<0xFB><0x00>'
+    )
 
 
 def fixture_source():
