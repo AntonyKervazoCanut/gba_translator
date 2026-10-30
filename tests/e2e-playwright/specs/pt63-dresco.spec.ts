@@ -1,4 +1,4 @@
-/** PT-63 : sonde msgbox native de un titre de mission et deux dialogues livrés.
+/** PT-63 : sonde msgbox native de un lieu, un titre de mission et deux dialogues livrés.
  * Les pointeurs et les textes viennent de la ROM finale. Aucun texte, glyphe
  * ni template de fenêtre n'est modifié. La sonde contrôle les deux premières
  * lignes ; toutes les pages complètes sont vérifiées en binaire. Elle ne revendique pas
@@ -14,16 +14,16 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 const normalize = (s: string): string => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim().toLowerCase();
 
-test('PT-63 : un titre de mission et deux dialogues aux pointeurs vivants sont lisibles dans mGBA', async ({ page }) => {
+test('PT-63 : un lieu, un titre de mission et deux dialogues aux pointeurs vivants sont lisibles dans mGBA', async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt63-borrius-'));
   const rom = fs.readFileSync(path.join(root, 'output/roms/GenedRom-pt.gba'));
   const audit = JSON.parse(fs.readFileSync(path.join(root, 'languages/pt/data/pt63_audit.json'), 'utf8'));
-  const cases = ['0x1eff75b', '0x1f027cd', '0x1f03ec8'].map(offset => audit.entries.find((row: { offset: string }) => row.offset === offset));
+  const cases = ['0x1efecf6', '0x1eff75b', '0x1f027cd', '0x1f03ec8'].map(offset => audit.entries.find((row: { offset: string }) => row.offset === offset));
   const script = rom.lastIndexOf(Buffer.alloc(128, 255));
   expect(script).toBeGreaterThan(0x1000000);
   for (let n = 0; n < cases.length; n++) {
     const row = cases[n];
-    const pointer = rom.readUInt32LE(row.references[0]);
+    const pointer = rom.readUInt32LE((row.consumer_references ?? row.references)[0]);
     const expected = execFileSync('python3', ['-c',
       'from src.core.text_codec import TextEncoder; import sys; sys.stdout.buffer.write(TextEncoder.encode_pokemon(sys.argv[1].replace(r"\\n", "\\n"), strict=True))',
       row.portuguese], { cwd: root });
@@ -91,8 +91,10 @@ end)
     const shot = path.join(temp, `scene${n}.png`);
     const src = `data:image/png;base64,${fs.readFileSync(shot).toString('base64')}`;
     const picture = `<figure><figcaption>${cases[n].offset} — sonde native (cellule ou lignes 1 et 2)</figcaption><img alt="${cases[n].offset}" src="${src}"></figure>`;
-    await page.setContent(`<style>img{width:960px;height:640px;image-rendering:pixelated}</style>${picture}`);
+    await page.setContent(`<style>img{width:720px;height:480px;image-rendering:auto}</style>${picture}`);
     await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
+    // Lissage uniquement pour l’OCR : le W pixelisé est sinon lu comme N.
+    // La preuve finale ci-dessous conserve les pixels natifs sans lissage.
     const large = path.join(temp, 'large.png');
     await page.getByRole('img').screenshot({ path: large });
     const text = normalize(execFileSync(ocr, [large], { encoding: 'utf8' }));
@@ -103,8 +105,8 @@ end)
     }
     expect(text).not.toMatch(/basic literacy|that is hoopa/i);
   }
-  await page.setContent(`<style>body{margin:0;background:#222;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(3,480px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:480px;height:320px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
-  await expect(page.getByRole('img')).toHaveCount(3);
+  await page.setContent(`<style>body{margin:0;background:#222;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(2,480px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:480px;height:320px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
+  await expect(page.getByRole('img')).toHaveCount(4);
   await page.getByRole('img').evaluateAll(images => Promise.all(images.map(img => (img as HTMLImageElement).decode())));
   const proof = path.join(os.tmpdir(), 'f822-pt63-proof.png');
   await page.locator('main').screenshot({ path: proof });

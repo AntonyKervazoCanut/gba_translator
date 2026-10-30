@@ -584,18 +584,16 @@
     {
       "offset": "0x1efecf6",
       "source_hex": "c046bedde7e8e3e6e8dde3e200d1e3e6e0d8ff",
-      "references": [
-        21097259
-      ],
+      "references": [],
       "english_reference": "F<0x46>Distortion World",
       "french_reference": "F<0x46>Monde Distorsion",
       "status": "retained",
       "kind": "label",
-      "portuguese": "F<0x46>Distortion World",
-      "encoded_bytes": 19,
+      "portuguese": "Distortion World",
+      "encoded_bytes": 17,
       "max_width": 198,
       "line_widths": [
-        91
+        85
       ],
       "buffers": {
         "1": "WWWWWWWWWW",
@@ -605,8 +603,25 @@
         "7": "s",
         "8": "s"
       },
-      "reason": "Libellé Distortion World conservé intégralement, préfixe binaire C0 46 compris ; pointeur script 0x141eb2b, aucune interprétation du préfixe comme texte à traduire.",
-      "native_max_width": 198
+      "reason": "Nom propre conservé. La clé inclut un alignement Thumb C046 ; les deux vrais lecteurs (tables) ciblent 0x1efecf8. Le match 0x141eb2b se trouve dans le PCM M4A 0x141e618 et doit rester un échantillon, jamais être repointé.",
+      "native_max_width": 198,
+      "consumer_offset": "0x1efecf8",
+      "consumer_references": [
+        33238592,
+        33242796
+      ],
+      "prefix_hex": "c046",
+      "non_text_references": [
+        21097259
+      ],
+      "pcm_matches": [
+        {
+          "wave_base": 21095960,
+          "header_hex": "0000004000481f00580c000020140000",
+          "instrument_pointer": 17118876,
+          "site": 21097259
+        }
+      ]
     },
     {
       "offset": "0x1efed09",
@@ -2068,7 +2083,6 @@
       "offset": "0x1f00018",
       "source_hex": "cedcdde700cee6d5dde2d9e600cedde4e700e7dddbe200ebd5e700e6d9d5d8fed6ed00e8dcd900e7e0ddd8dde2db00ddd7d900e3e200e8dcd900e7e3e9e8dcfed9e2d800e3da00e8dcd900e6e3e9e8d9adff",
       "references": [
-        9031471,
         32062128
       ],
       "english_reference": "This Trainer Tips sign was read\\nby the sliding ice on the south\\nend of the route.",
@@ -2090,8 +2104,20 @@
         "7": "s",
         "8": "s"
       },
-      "reason": "Texte PT-BR ; finalisation aux pointeurs directs après les passes génériques. Aucun slot fixe dans ce lot.",
-      "native_max_width": 172
+      "reason": "Texte PT-BR ; finalisation aux pointeurs directs après les passes génériques. Aucun slot fixe dans ce lot. Coïncidence binaire exclue du repointage et restaurée : 0x89cf2f. Voir preuve de structure associée.",
+      "native_max_width": 172,
+      "non_text_references": [
+        9031471
+      ],
+      "binary_matches": [
+        {
+          "site": 9031471,
+          "kind": "Thumb instructions",
+          "base": 9031456,
+          "source_hex": "03b50d2807dc072800db07380749401800f009f800e003bd01880029fbd00806000e090a0cbd034a1047c04654400000",
+          "evidence": "Match non aligné traversant adds r0,r0,r1 (4018) puis bl 0x889cf46 (00f009f8), et non un littéral pointeur."
+        }
+      ]
     },
     {
       "offset": "0x1f0006a",
@@ -2437,7 +2463,6 @@
       "offset": "0x1f00406",
       "source_hex": "cedcdde700cee6d5dde2d9e600cedde4e700e7dddbe200ebd5e700e6d9d5d8fee3e200e6e3d7dfed00e0d5e2d800e3e200e8dcd900e2e3e6e8dc00e7ddd8d9fee3da00e8dcd900e6e3e9e8d9adff",
       "references": [
-        20409154,
         32062336
       ],
       "english_reference": "This Trainer Tips sign was read\\non rocky land on the north side\\nof the route.",
@@ -2459,8 +2484,19 @@
         "7": "s",
         "8": "s"
       },
-      "reason": "Texte PT-BR ; finalisation aux pointeurs directs après les passes génériques. Aucun slot fixe dans ce lot.",
-      "native_max_width": 172
+      "reason": "Texte PT-BR ; finalisation aux pointeurs directs après les passes génériques. Aucun slot fixe dans ce lot. Coïncidence binaire exclue du repointage et restaurée : 0x1376b42. Voir preuve de structure associée.",
+      "native_max_width": 172,
+      "non_text_references": [
+        20409154
+      ],
+      "pcm_matches": [
+        {
+          "site": 20409154,
+          "wave_base": 20401564,
+          "header_hex": "000000400088580100000000aa270000",
+          "instrument_pointer": 17089612
+        }
+      ]
     },
     {
       "offset": "0x1f00454",
@@ -4266,7 +4302,6 @@
       "offset": "0x1f02008",
       "source_hex": "bfe2dee3ed00ede3e9e600e8dde1d9abff",
       "references": [
-        11619779,
         31867276,
         31867301,
         31885820,
@@ -4294,8 +4329,22 @@
         "7": "s",
         "8": "s"
       },
-      "reason": "Texte PT-BR ; finalisation aux pointeurs directs après les passes génériques. Aucun slot fixe dans ce lot.",
-      "native_max_width": 198
+      "reason": "Texte PT-BR ; finalisation aux pointeurs directs après les passes génériques. Aucun slot fixe dans ce lot. Coïncidence binaire exclue du repointage et restaurée : 0xb14dc3. Voir preuve de structure associée.",
+      "native_max_width": 198,
+      "non_text_references": [
+        11619779
+      ],
+      "binary_matches": [
+        {
+          "site": 11619779,
+          "kind": "LZ77 graphics",
+          "base": 11619724,
+          "source_hex": "100005003f00f0f001f001f001f001f001f001fff001f001f001f001f001f001f001f00182f00101f002f00300170400f005f006f007f00820f00900250af00bf00cc0f02df001f00df00ef00f00f010f011f012f01300f014f015f016f01703f018f019f01af02de001001bf01cf01df01ef0001ff020f021f022f00023f024f025f026f00127f028f029f02af03180c0032bf02cf02df02e00f02ff030f031f03200f033f034f035f03600f037f038f039f03ac0f031e0013bf03cf03df0003ef03ff040f041f00042f043f044f045f00646f047f048f02df001f00049f04af04bf04cf0004df04ef04ff050f00051f052f053f054f00c55f049f4f02df00100f00056f057f058f059f0005af05bf05cf05df0015ef05ff060f061f029c0f001000f62f063f064f00065f066f067f068f00069f06af06bf06cf0066df06ef06ff02df001f00070f071f072f073f00474f075f076200177f00178f079f07af07bf02d80f001f07cf07df07ef0007ff080f081f082f00083f084f085f086f01c87f088f02bf001200d89f0008af08bf08cf08df0008ef08ff090f091f01c92f093f13df001c08794f00795f095f496f01bf001f001fff001f001f001f001f001f001f001f001f8f001f001f001f001e001",
+          "owner_pointer": 10814244,
+          "decompressed_bytes": 1280,
+          "evidence": "Bloc LZ77 valide, 465 octets compressés vers 1280 octets, pointeur de ressource 0xa50324."
+        }
+      ]
     },
     {
       "offset": "0x1f02019",

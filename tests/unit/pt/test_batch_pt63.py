@@ -75,3 +75,23 @@ def test_finalizer_order():
     assert patches.count('batch_63') == 1
     assert all(patches.index(step) < patches.index('batch_63') for step in
                ('inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale', 'font'))
+
+
+def test_distortion_world_uses_real_consumers_and_preserves_audio():
+    row = AUDIT['entries'][20]
+    assert row['offset'] == '0x1efecf6'
+    assert row['portuguese'] == 'Distortion World'
+    assert row['prefix_hex'] == 'c046' and row['source_hex'].startswith('c046')
+    assert row['references'] == []
+    assert row['consumer_offset'] == '0x1efecf8'
+    assert row['consumer_references'] == [0x1FB2E40, 0x1FB3EAC]
+    assert row['non_text_references'] == [0x141EB2B]
+    assert row['pcm_matches'][0]['wave_base'] == 0x141E618
+    assert row['pcm_matches'][0]['instrument_pointer'] == 0x105369C
+
+
+def test_no_nontext_match_is_used_as_a_pointer():
+    excluded = {site for row in AUDIT['entries'] for site in row.get('non_text_references', [])}
+    assert excluded == {0x141EB2B, 0x1376B42, 0x89CF2F, 0xB14DC3}
+    refs = {site for row in AUDIT['entries'] for site in row['references']}
+    assert not refs.intersection(excluded)

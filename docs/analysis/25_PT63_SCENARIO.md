@@ -21,7 +21,7 @@ effacement des mouvements, marché et Ginásio de Fallshore, Hidden Power.
 
 ## Injection et géométrie
 
-Le finaliseur `batch_63` réutilise `BorriusTextPatch` après les réparations,
+Le finaliseur `batch_63` réutilise `Batch29TextPatch` et le contrat `BorriusTextPatch` après les réparations,
 la police et les repointages. Il contrôle les préimages et toutes les commandes,
 alloue sans écraser de voisin, repointe les consommateurs et vérifie les octets
 finaux. Il est atomique et idempotent. Ce lot ne contient pas de cellule fixe
@@ -29,8 +29,23 @@ indexée : même les menus, missions et titres musicaux ont des pointeurs direct
 
 Les dialogues Nex `0x1efeda8` et Gem `0x1f00d23` étaient tronqués dans le fichier
 EN. Leur fin et leurs FA manquants ont été récupérés dans la ROM jusqu'au FF.
-Le libellé `0x1efecf6` conserve intégralement `C0 46` suivi de Distortion World ;
-son pointeur script est `0x141eb2b`. Les libellés musicaux D/N restent inchangés.
+La clé `0x1efecf6` inclut deux octets d’alignement Thumb `C0 46` : le vrai
+libellé Distortion World est à `0x1efecf8`, lu par les tables `0x1fb2e40`
+et `0x1fb3eac`. Le match `0x141eb2b` n’est pas un pointeur script mais quatre
+octets PCM dans l’échantillon M4A `0x141e618`, référencé par l’instrument
+`0x105369c`. Le finaliseur exclut ce match, restaure les octets audio et
+l’alignement après les passes génériques, puis vérifie ces régions. Un test
+négatif corrompt ces deux régions et démontre leur réparation exacte. Les
+libellés musicaux D/N restent inchangés.
+
+Trois autres coïncidences sont exclues et protégées : `0x89cf2f` traverse les
+instructions Thumb `adds`/`bl` de la fonction à `0x89cf20` (clé `0x1f00018`) ;
+`0x1376b42` appartient au PCM M4A `0x1374d9c`, instrument `0x104c44c`
+(clé `0x1f00406`) ; `0xb14dc3` appartient au bloc LZ77 `0xb14d8c`,
+465 octets compressés pour 1280 décompressés, ressource pointée à `0xa50324`
+(clé `0x1f02008`). Les vrais pointeurs texte sont conservés. Le test négatif
+corrompt les quatre matches, puis exige leur restauration et l'identité de la
+ROM réparée. Le code Thumb et le bloc graphique complet sont comparés à EN.
 
 FA/FB et les contrôles FC/FD sont conservés dans leur ordre exact. Seuls les
 retours FE sont ajustés : au plus deux lignes initiales par page, puis une ligne
@@ -66,8 +81,8 @@ pas démontrer l'absence de tout adressage calculé possible.
 
 La preuve Playwright démarre mGBA hors écran sur une copie temporaire de la ROM
 finale. Seul un script de sonde est ajouté ; les chaînes, glyphes et fenêtres
-sont ceux du jeu. Trois pointeurs livrés sont contrôlés en octets avant affichage
-(titre de mission, Dream Mist, reconnaissance de Hoopa). L'OCR assertif valide
+sont ceux du jeu. Quatre pointeurs livrés sont contrôlés en octets avant affichage
+(Distortion World, titre de mission, Dream Mist, reconnaissance de Hoopa). L'OCR assertif valide
 les premières lignes rendues avant la capture. La sauvegarde fixture reste
 inchangée. La capture est écrite dans le dossier temporaire OS et jointe au ticket.
 
