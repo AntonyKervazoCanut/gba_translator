@@ -46,3 +46,10 @@ def test_corrupt_extraction_prefixes_are_not_rendered():
     assert rows['0x1a36816']['portuguese'] == 'Dragão'
     assert rows['0x1a378d2']['portuguese'] == 'Pintor'
     assert all(rows[o]['source_delta'] == 6 for o in ('0x1a363de', '0x1a36816', '0x1a378d2'))
+
+
+def test_fixed_category_finalizer_runs_once_after_shared_repairs():
+    steps = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())['patches']
+    assert steps.count('batch_57') == 1
+    for step in ('inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale', 'font'):
+        assert steps.index(step) < steps.index('batch_57')

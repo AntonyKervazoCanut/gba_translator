@@ -69,9 +69,13 @@ lit les cellules via un lecteur réel de la table et rend trois catégories dans
 une msgbox native : Leão-do-mar, Dragão et Pintor. Il vérifie les octets, l'OCR,
 la présence des trois images et l'absence d'écriture de sauvegarde, puis produit
 la capture dans le répertoire temporaire du système.
+L'OCR tolère une seule confusion de glyphe via le comparateur PT-BR existant
+(Vision peut lire le D de Dragão comme U, même à pixels identiques). Les octets,
+les cellules et la copie Thumb restent comparés exactement, sans cette tolérance.
 
-Validation locale du lot : build PT réussi, 32 tests source/intégrité réussis,
-7 tests ROM réussis (dont les 166 copies natives), 1 test Playwright réussi,
+Validation après intégration PT-52/PT-54/PT-55 : build PT réussi,
+43 tests source/intégrité réussis, 15 tests ROM réussis (dont les 166 copies
+natives du lot PT-57), 1 test Playwright réussi,
 lint Python et vérification TypeScript réussis. La capture est jointe au ticket ;
 elle n'est pas enregistrée dans Git.
 

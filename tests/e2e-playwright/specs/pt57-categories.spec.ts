@@ -8,6 +8,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { matchesPortugueseOcrLine } from '../helpers/pt49-ocr.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 const normalize = (s: string): string => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim().toLowerCase();
@@ -101,7 +102,9 @@ end)
     pictures.push(picture);
     console.log(cases[n].offset, text);
     for (const line of cases[n].portuguese.split('<0xFB>')[0].split('\\n').slice(0, 2)) {
-      expect(text, line).toContain(normalize(line));
+      // Vision confond parfois le D natif avec U, à pixels strictement
+      // identiques. Les octets et la copie Thumb restent vérifiés exactement.
+      expect(matchesPortugueseOcrLine(text, line), `${line} : ${text}`).toBe(true);
     }
 
   }
