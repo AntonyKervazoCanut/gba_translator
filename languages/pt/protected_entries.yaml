@@ -50243,3 +50243,897 @@ entries:
   - offset: "0x1f2b4eb"
     name: "PT-68 0x1f2b4eb"
     expected: 'Por que Magnolia Town é famosa?<0xFB>Esta cidade é a antiga casa\nda Líder de Polder Town!<0xFB>E ainda temos a famosa\nfazenda Moomoo!<0xFB>Somos o maior fornecedor\nde Moomoo Milk de Borrius.<0xFB>Aqui custa menos que\nem qualquer outro lugar!'
+  - offset: "0x1f317f2"
+    name: "PT-70 0x1f317f2"
+    expected: '<0xFC><0x01><0x06>Ravia!'
+  - offset: "0x1f317fc"
+    name: "PT-70 0x1f317fc"
+    expected: '<0xFC><0x01><0x06>Raptor!'
+  - offset: "0x1f31807"
+    name: "PT-70 0x1f31807"
+    expected: 'Duskull! Use Payback!'
+  - offset: "0x1f3181d"
+    name: "PT-70 0x1f3181d"
+    expected: 'Cacnea! Use Feint Attack!'
+  - offset: "0x1f31837"
+    name: "PT-70 0x1f31837"
+    expected: '<0xFC><0x01><0x06>Skull<0xB0>'
+  - offset: "0x1f31841"
+    name: "PT-70 0x1f31841"
+    expected: 'Seu reino sombrio de terror acaba\naqui e agora!<0xFB>Não vou deixar você fugir de\nCinder Volcano com Moltres!'
+  - offset: "0x1f318b2"
+    name: "PT-70 0x1f318b2"
+    expected: '“Reino sombrio de terror”? Sério?<0xFB>Estamos com Moltres e temos todo\no direito de ficar com ele.<0xFB>Você pode achar, com toda essa\npose de justiça, que fazemos o<0xFA>“mal”, mas está enganado!<0xFB>Você não entende o que está em\njogo aqui<0xB0>'
+  - offset: "0x1f319a3"
+    name: "PT-70 0x1f319a3"
+    expected: '<0xFC><0x01><0x04>Isso, Marlon. Enrole ele por mais\num pouco.<0xFB>Os Shadow Warriors já ficaram\ntempo demais expostos à luz<0xB0><0xFB>Vão virar pó se continuarem aqui.<0xFB>Preciso voltar à base com eles\nagora.'
+  - offset: "0x1f31a70"
+    name: "PT-70 0x1f31a70"
+    expected: 'Claro, Ivory. Está tudo sob\ncontrole.<0xFB>Leve os Shadow Warriors e vá.<0xFB>Posso deter esse garoto até você\nescapar com Moltres.'
+  - offset: "0x1f31af5"
+    name: "PT-70 0x1f31af5"
+    expected: '<0xFC><0x01><0x08><0xFD><0x01>! Me ajude a enfrentar\nele!<0xFB>Não importa o que ele diz estar\nem jogo. Temos que<0xFA>vencê-lo e ir atrás de Moltres!'
+  - offset: "0x1f31b80"
+    name: "PT-70 0x1f31b80"
+    expected: 'Então nos revemos, <0xFD><0x01>.<0xFB>Pelo visto, você decidiu se meter\nem nossos assuntos?<0xFB>Que pena.<0xFB>Mas dois tentando passar não faz\ndiferença para mim.'
+  - offset: "0x1f31c2f"
+    name: "PT-70 0x1f31c2f"
+    expected: 'Um de vocês, recrutas, venha me\najudar aqui!'
+  - offset: "0x1f31c5c"
+    name: "PT-70 0x1f31c5c"
+    expected: '<0xFC><0x01><0x04>Vou ajudar o senhor na batalha,\nMarlon!'
+  - offset: "0x1f31c8c"
+    name: "PT-70 0x1f31c8c"
+    expected: '<0xFC><0x01><0x02>Escolha até três Pokémon para\nbatalhar.'
+  - offset: "0x1f31cba"
+    name: "PT-70 0x1f31cba"
+    expected: 'Tsc<0xB0> Estou mais sem prática do\nque imaginava<0xB0>'
+  - offset: "0x1f31cef"
+    name: "PT-70 0x1f31cef"
+    expected: 'Desculpe, senhor Marlon!'
+  - offset: "0x1f31d07"
+    name: "PT-70 0x1f31d07"
+    expected: 'Bom, acho que está tudo bem.\nNossa operação foi um sucesso.<0xFB>Ivory já está bem longe.'
+  - offset: "0x1f31d5c"
+    name: "PT-70 0x1f31d5c"
+    expected: 'Podem me seguir se quiserem, mas\nnão vai adiantar nada.<0xFB>Já sabem que nunca vou levá-los\naté Moltres<0xB0><0xFB>Então aconselho os dois a terem\njuízo e nos deixarem em paz.'
+  - offset: "0x1f31e0d"
+    name: "PT-70 0x1f31e0d"
+    expected: 'Vamos andando.'
+  - offset: "0x1f31e19"
+    name: "PT-70 0x1f31e19"
+    expected: 'Grr<0xB0><0xFC><0x08><0x18> Ele tem razão<0xB0><0xFC><0x08><0x18><0xFB>Nem vale a pena persegui-lo<0xB0><0xFB>Foi aquela mulher que levou\nMoltres<0xB0>'
+  - offset: "0x1f31e7a"
+    name: "PT-70 0x1f31e7a"
+    expected: 'Enfim, valeu, <0xFD><0x01>. Ele era\nbem mais forte do que pensei<0xB0><0xFB>Vamos voltar à casa do vovô e\ncontar o que aconteceu.'
+  - offset: "0x1f31ef3"
+    name: "PT-70 0x1f31ef3"
+    expected: 'Entendo<0xB0><0xFC><0x08><0x20> Isso não é bom.<0xFB>Agora só resta um Pokémon\nLendário: <0xFC><0x01><0x06>Zapdos<0xFC><0x01><0x08>.<0xFB>Precisamos resgatá-lo antes que os\nShadows o capturem.'
+  - offset: "0x1f31f9f"
+    name: "PT-70 0x1f31f9f"
+    expected: 'Zapdos<0xB0><0xFB>Ele vive em <0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08>, né?<0xFB>Vou sair agora mesmo.'
+  - offset: "0x1f31fed"
+    name: "PT-70 0x1f31fed"
+    expected: 'Na verdade, Jax, tenho outra\ntarefa para você.<0xFB>Pelo que sei, os Shadows ainda\nnão têm o objeto<0xFA>usado para selar a força sombria.<0xFB>Meus amigos na <0xFC><0x01><0x06>Route 9<0xFC><0x01><0x08> devem\nsaber onde ele está.<0xFB>Vá até eles e explique a\nsituação.<0xFB>Sei que vão nos ajudar a achá-lo\nantes dos Shadows.'
+  - offset: "0x1f3212d"
+    name: "PT-70 0x1f3212d"
+    expected: 'Pode deixar, vovô.'
+  - offset: "0x1f32141"
+    name: "PT-70 0x1f32141"
+    expected: 'Muito bem.<0xFB>Enquanto isso, <0xFD><0x01> vai\nseguir para<0xFA><0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08> e salvar <0xFC><0x01><0x06>Zapdos<0xFC><0x01><0x08>.<0xFB><0xFD><0x01><0xB0><0xFC><0x08><0x18> Você mostrou valor ao\ndefender Jax em Cinder<0xFA>Volcano. Acho que está à altura<0xFA>dessa tarefa.<0xFB>Você chega lá pela rodovia a\nsudeste da próxima cidade,<0xFA><0xFC><0x01><0x06>Crater Town<0xFC><0x01><0x08>.<0xFB>Talvez precise da Insígnia de lá\npara ir a <0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08>,<0xFA>então faça dessa Insígnia<0xFA>sua maior prioridade.'
+  - offset: "0x1f32300"
+    name: "PT-70 0x1f32300"
+    expected: 'Vou voltar a Frozen Heights,\n<0xFD><0x01>.<0xFB>Vou explicar à sua mãe que vi\nvocê partir em busca<0xFA>da próxima Insígnia de Ginásio.<0xFB>Afinal, não há motivo para\ndeixá-la preocupada.'
+  - offset: "0x1f323b2"
+    name: "PT-70 0x1f323b2"
+    expected: 'Meu Staravia ainda está cansado\nda batalha, mas acho que<0xFA>consigo levar você de volta a<0xFA><0xFC><0x01><0x06>Cinder Volcano<0xFC><0x01><0x08>.<0xFB>Quer uma carona?'
+  - offset: "0x1f3244c"
+    name: "PT-70 0x1f3244c"
+    expected: 'Vamos sair agora mesmo.'
+  - offset: "0x1f32467"
+    name: "PT-70 0x1f32467"
+    expected: 'Então, estes Repels vão ajudar\nvocê a atravessar mais rápido<0xFA>Grim Woods e Cinder Volcano.'
+  - offset: "0x1f324ca"
+    name: "PT-70 0x1f324ca"
+    expected: 'Nosso contato mandou notícias.<0xFB>O alvo está se movendo.'
+  - offset: "0x1f324fe"
+    name: "PT-70 0x1f324fe"
+    expected: 'Muito bem.<0xFB>Vamos nos posicionar.'
+  - offset: "0x1f32527"
+    name: "PT-70 0x1f32527"
+    expected: 'Rápido!<0xFB>Peguem <0xFD><0x02> agora!'
+  - offset: "0x1f3253b"
+    name: "PT-70 0x1f3253b"
+    expected: 'Ah, bem na hora.<0xFB>Diga, <0xFD><0x02>, qual é seu nome?<0xFB><0xB0><0xFB><0xFD><0x01>, é isso?<0xFB>Finalmente nos encontramos.<0xFB>Sou Zeph, o homem à espreita nas\nsombras desta organização.'
+  - offset: "0x1f325de"
+    name: "PT-70 0x1f325de"
+    expected: 'Vou direto ao ponto. Soube que\nvocê não só invadiu<0xFA>nosso laboratório, como<0xFA>também tentou interferir<0xFA>em duas de nossas operações.<0xFB>Não se engane: isso é inaceitável.<0xFB>Mas isso levanta uma questão: para\nquem você trabalha<0xB0>?<0xFB><0xB0><0xFB>Não trabalha para ninguém? Que\nbobagem.<0xFB>Sei que consegue inventar uma\nmentira melhor que essa.<0xFB>Você nem está tentando.'
+  - offset: "0x1f3275f"
+    name: "PT-70 0x1f3275f"
+    expected: 'Muito bem. Se não vai falar, Ivory\nterá que lhe dar<0xFA>um pequeno<0xB0><0xFC><0x08><0x18> incentivo.'
+  - offset: "0x1f327be"
+    name: "PT-70 0x1f327be"
+    expected: '<0xFC><0x01><0x04>Então é com você, Treinador, que\nMarlon quer acertar contas<0xB0><0xFB>Tente não resistir tanto. Só vai\ndoer ainda mais.'
+  - offset: "0x1f32841"
+    name: "PT-70 0x1f32841"
+    expected: 'Tsc<0xB0> Até que não foi mal<0xB0>'
+  - offset: "0x1f32861"
+    name: "PT-70 0x1f32861"
+    expected: 'Ah, Ivory<0xB0><0xFB>Como vamos dar medo a <0xFD><0x02>\nse você nem consegue vencer<0xFA><0xFD><0x02> numa simples batalha?'
+  - offset: "0x1f328c6"
+    name: "PT-70 0x1f328c6"
+    expected: '<0xFC><0x01><0x04>Zeph, sou cientista.<0xFB>Meus talentos estão em outra área.'
+  - offset: "0x1f328fe"
+    name: "PT-70 0x1f328fe"
+    expected: 'Ah<0xB0><0xFC><0x08><0x18> Muito bem.<0xFB>Já que não há mais ninguém,\nHoundoom e eu vamos lhe<0xFA>mostrar o que é sofrer.'
+  - offset: "0x1f3296e"
+    name: "PT-70 0x1f3296e"
+    expected: '<0xFC><0x01><0x04>Zeph, não sei se só Houndoom\nbasta para vencer <0xFD><0x02><0xB0>'
+  - offset: "0x1f329ae"
+    name: "PT-70 0x1f329ae"
+    expected: 'Duvida de mim, Ivory?<0xFB>Houndoom e eu somos bem capazes\nde acabar com <0xFD><0x02>.'
+  - offset: "0x1f329fd"
+    name: "PT-70 0x1f329fd"
+    expected: 'Pois bem, <0xFD><0x01>.<0xFB>Tive bastante paciência, mas você\nme obrigou<0xFA>a agir.<0xFB>Vai sofrer por se intrometer!'
+  - offset: "0x1f32a79"
+    name: "PT-70 0x1f32a79"
+    expected: 'Não acredito<0xB0>'
+  - offset: "0x1f32a8e"
+    name: "PT-70 0x1f32a8e"
+    expected: 'Tenho que admitir: você é mais\nforte do que pensei.<0xFB>Gosto disso em você, <0xFD><0x02>.<0xFB>Essa força era algo que eu também\nqueria para meu filho<0xB0>'
+  - offset: "0x1f32b21"
+    name: "PT-70 0x1f32b21"
+    expected: '<0xFC><0x01><0x04>Zeph! Marlon mandou notícias.<0xFB>Ele terminou a investigação do\ngaroto de chapéu verde.<0xFB>Você vai querer ouvir isso.'
+  - offset: "0x1f32b9d"
+    name: "PT-70 0x1f32b9d"
+    expected: 'Sim, o que foi?<0xFB><0xB0><0xFB>Entendo<0xB0>'
+  - offset: "0x1f32bb7"
+    name: "PT-70 0x1f32bb7"
+    expected: 'Receio, <0xFD><0x01>, que você tenha\nperdido sua vantagem.<0xFB>Disseram que havia um garoto com\nvocê quando encontrou<0xFA>nossa última operação.<0xFB>Conseguimos identificá-lo. É neto\nde um famoso<0xFA>historiador chamado Arthur.<0xFB>Ele teve algo a ver com sua\npresença lá?<0xFB><0xB0><0xFB>Sua reação diz tudo. Foi mesmo\ncoisa dele.<0xFB>Aquele velho tolo<0xB0><0xFC><0x08><0x18> Até quando vai\nse meter em nossos assuntos<0xB0>?'
+  - offset: "0x1f32d2e"
+    name: "PT-70 0x1f32d2e"
+    expected: '<0xFC><0x01><0x04>Senhor!<0xFB>Um monstro surgiu do nada na\ncâmara do porão!'
+  - offset: "0x1f32d77"
+    name: "PT-70 0x1f32d77"
+    expected: 'Recrutas, todos lá embaixo JÁ!<0xFB>Detenham esse monstro e protejam\nos Shadow Warriors!'
+  - offset: "0x1f32dd5"
+    name: "PT-70 0x1f32dd5"
+    expected: 'Ivory, vamos curar os Pokémon e\najudar a conter a ameaça.<0xFB>Não podemos perder nem um Shadow\nWarrior agora.<0xFB>Se algum for destruído e Fey\ndescobrir<0xB0>'
+  - offset: "0x1f32e7e"
+    name: "PT-70 0x1f32e7e"
+    expected: '<0xFC><0x01><0x04>Entendo, Zeph.<0xFB>Mas o que faremos com <0xFD><0x02>?'
+  - offset: "0x1f32eb9"
+    name: "PT-70 0x1f32eb9"
+    expected: 'Deixe <0xFD><0x02> ir, por ora.<0xFB>Enquanto eles quase não\naparecerem em público,<0xFA>não há motivo para Fey e Arthur<0xFA>conversarem entre si.<0xFB>É pouco provável que ele conte a\nela.'
+  - offset: "0x1f32f75"
+    name: "PT-70 0x1f32f75"
+    expected: '<0xFD><0x01><0xB0><0xFC><0x08><0x18> Sei que não pensa em\nobedecer, mas só vou<0xFA>avisar uma vez.<0xFB>Não se meta conosco, ou as coisas\npodem sair<0xFA>do seu controle<0xB0><0xFB>Para o seu bem, espero não rever\nvocê, <0xFD><0x02>.'
+  - offset: "0x1f33055"
+    name: "PT-70 0x1f33055"
+    expected: '<0xFC><0x01><0x06>Hoo<0xB0><0xFC><0x08><0x30> pa<0xB0><0xFC><0x08><0x30>'
+  - offset: "0x1f33067"
+    name: "PT-70 0x1f33067"
+    expected: 'Eita, sô!<0xFB>É a coisa mais doida que já vi:\n<0xFD><0x02> saindo<0xFA>de um portal mágico!<0xFB>De onde cê veio, <0xFD><0x02>?<0xFB><0xB0><0xFB>Como é?<0xFB>Cê tava tentando ir pra\nThundercap Mt. quando<0xFA>te sequestraram do nada?<0xFB>Eita, sô! Que medo, <0xFD><0x02>.'
+  - offset: "0x1f3316d"
+    name: "PT-70 0x1f3316d"
+    expected: 'Se não tivessem te pegado, seria\nbem mais fácil<0xFA>chegar em Thundercap Mt.<0xFB>É que parte do teto desabou há\npouco tempo<0xFA>e bloqueou a estrada!<0xFB>Sem o HM de <0xFC><0x01><0x06>Rock Smash<0xFC><0x01><0x08>, vai ser\num aperto<0xFA>passar por essas pedras.<0xFB>Mas<0xB0><0xFC><0x08><0x18> acho que cê não tem, senão\nnão estaria aqui.<0xFB>Nesse caso, um amigo meu em\n<0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08> pode ajudar<0xFA>te dando Rock Smash.<0xFB>Então pega este HM pra chegar até\nele.'
+  - offset: "0x1f33351"
+    name: "PT-70 0x1f33351"
+    expected: 'Como é? Cê não sabe o que é HM?<0xFB>Eita, sô!<0xFB>Um <0xFC><0x01><0x06>HM<0xFC><0x01><0x08>, ou Hidden Machine, é um\nmovimento especial que<0xFA>um Pokémon usa pra abrir caminho.<0xFB>Com o HM no Cube e um Pokémon na\nequipe<0xFA>capaz de aprender esse HM,<0xFA>dá pra usá-lo no campo, mesmo<0xFA>se o Pokémon não puder lutar!<0xFB>Ou seja, <0xFC><0x01><0x06>seus Pokémon não\nprecisam saber o HM pra usá-lo<0xFC><0x01><0x08>.<0xFB>Prático, né?<0xFB>Enfim, comece usando esse HM de\n<0xFC><0x01><0x06>Cut<0xFC><0x01><0x08> pra tirar a<0xFA>árvore que bloqueia <0xFC><0x01><0x06>Valley Cave<0xFC><0x01><0x08>.<0xFB>Boa sorte, <0xFD><0x02>!'
+  - offset: "0x1f3356e"
+    name: "PT-70 0x1f3356e"
+    expected: 'Acabei de receber novas ordens de\nZeph.<0xFB>Vamos reforçar a segurança na\nRoute 9.<0xFB>O garoto de chapéu verde que\ntentou atrapalhar nossa<0xFA>operação em Cinder Volcano<0xFA>foi visto voando por aqui.<0xFB>Enquanto vocês três vigiam o\nportão, vou buscar um lugar<0xFA>para erguer uma barreira psíquica<0xFA>ao redor da rota.'
+  - offset: "0x1f336b1"
+    name: "PT-70 0x1f336b1"
+    expected: '<0xFC><0x01><0x08>Sim, senhora!'
+  - offset: "0x1f336c0"
+    name: "PT-70 0x1f336c0"
+    expected: 'Hmm<0xB0><0xFB>Para criar uma barreira forte,\ndevo ir até o pico<0xFA>de <0xFC><0x01><0x06>Frost Mountain<0xFC><0x01><0x04><0xB0>'
+  - offset: "0x1f3371d"
+    name: "PT-70 0x1f3371d"
+    expected: '<0xFC><0x01><0x08>Você! Pare aí mesmo!<0xFB>Você é um capanga dos Shadows,\nnão é?<0xFB>Eu reconheceria esse símbolo no\nseu peito em qualquer lugar.<0xFB>Vai me dizer o que quero saber,\nou vou fazer com você<0xFA>o que fiz com aqueles idiotas<0xFA>lá no seu esconderijo.'
+  - offset: "0x1f33815"
+    name: "PT-70 0x1f33815"
+    expected: '<0xFC><0x01><0x04>Isso é jeito de falar com alguém,\n<0xFD><0x06>?<0xFB>Saia da frente. Ameaças só\nfuncionam se você<0xFA>consegue cumpri-las.'
+  - offset: "0x1f338a2"
+    name: "PT-70 0x1f338a2"
+    expected: '<0xFC><0x01><0x08>Quê<0xB0><0xFB>Não pode fingir que me conhece e\nme tratar como se eu fosse<0xFA>uma criancinha!<0xFB>Meus Pokémon vão acabar com\nvocê!'
+  - offset: "0x1f33916"
+    name: "PT-70 0x1f33916"
+    expected: '<0xFC><0x01><0x04>Ah<0xB0><0xFC><0x08><0x18> Não teve jeito<0xB0><0xFB>Desculpe por isso, <0xFD><0x06><0xB0>'
+  - offset: "0x1f3394e"
+    name: "PT-70 0x1f3394e"
+    expected: '<0xFC><0x01><0x04>Alakazam! Use Psychic!'
+  - offset: "0x1f33968"
+    name: "PT-70 0x1f33968"
+    expected: '<0xFC><0x01><0x06>Shhhhzzz!'
+  - offset: "0x1f33975"
+    name: "PT-70 0x1f33975"
+    expected: '<0xFC><0x01><0x04>Já chega, Alakazam.<0xFB>Volte.'
+  - offset: "0x1f33999"
+    name: "PT-70 0x1f33999"
+    expected: 'Ah<0xB0><0xFB>Meu corpo todo dói<0xB0>'
+  - offset: "0x1f339b2"
+    name: "PT-70 0x1f339b2"
+    expected: 'Hmm? <0xFD><0x01><0xB0><0xFC><0x08><0x20> É você?<0xFB>O que te traz até aqui?<0xFB>Espera<0xB0><0xFC><0x08><0x18> Não me diga<0xB0><0xFC><0x08><0x18> Veio buscar\nainda mais Pokémon?<0xFB>Bom, é isso que eu tenho feito,\npelo menos.<0xFB>Quanto ao meu progresso, já\nregistrei mais de 100 espécies.<0xFB>Conhece a irmã do Log? Ela mora\nem <0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08>.<0xFB>Quando ela viu meu progresso na\nPokédex, instalou a<0xFA>função <0xFC><0x01><0x06>DexNav<0xFC><0x01><0x08>. Agora<0xFA>encontrar Pokémon raros<0xFA>ficou moleza!<0xFB><0xB0><0xFB>Sei<0xB0><0xFC><0x08><0x18> Precisa do HM Rock Smash lá\nde Blizzard City<0xB0><0xFB><0xB0><0xFC><0x08><0x18>E resolveu comprar briga com os\nShadows também, né?<0xFB>Bom, enquanto você andava por aí\nbancando o herói, eu<0xFA>fiquei muito mais forte.<0xFB>Você não tem mais chance contra\nmim, <0xFD><0x01>.<0xFB>Aliás, vou provar isso aqui e\nagora!'
+  - offset: "0x1f33cae"
+    name: "PT-70 0x1f33cae"
+    expected: 'Ah<0xB0> Nada mal, <0xFD><0x01><0xB0>'
+  - offset: "0x1f33cc0"
+    name: "PT-70 0x1f33cc0"
+    expected: 'Heh<0xB0><0xFC><0x08><0x20> Ainda não consigo ficar à sua\naltura.<0xFB>Mas<0xB0><0xFC><0x08><0x18> tudo bem.<0xFB>Só quer dizer que ainda posso\nficar mais forte.<0xFB>E eu vou conseguir.<0xFB>Vou ser forte. Mais forte que todo\nmundo!<0xFB>Espere até nos vermos de novo,\n<0xFD><0x01>. Dessa vez,<0xFA>você vai perder com certeza!<0xFB>Agora, com licença, tenho coisas\nimportantes a fazer.'
+  - offset: "0x1f33e17"
+    name: "PT-70 0x1f33e17"
+    expected: 'As palavras de Log ecoam: <0xFC><0x01><0x08>Vá ver\nse <0xFD><0x06> está bem!'
+  - offset: "0x1f33e54"
+    name: "PT-70 0x1f33e54"
+    expected: 'Zeph?<0xFB>Sim, é Ivory.<0xFB>Criei uma barreira na Route 9 a\npartir de Blizzard City.<0xFB><0xB0><0xFB>Entendido.<0xFB>Vou descer agora mesmo.'
+  - offset: "0x1f33ee0"
+    name: "PT-70 0x1f33ee0"
+    expected: 'E, caso <0xFD><0x06> esteja me\nseguindo<0xB0>'
+  - offset: "0x1f33f05"
+    name: "PT-70 0x1f33f05"
+    expected: '<0xFD><0x01>, esqueci de mostrar uma\ncoisa!<0xFB>Por favor, venha comigo até a KBT\nExpressway.'
+  - offset: "0x1f33f55"
+    name: "PT-70 0x1f33f55"
+    expected: 'Por algum motivo, a entrada da\nKBT Expressway congelou.<0xFB>Como Líder do Ginásio daqui, me\ncabe cuidar disso.<0xFB>Veja como uso o movimento Rock\nSmash para quebrar o gelo!'
+  - offset: "0x1f34012"
+    name: "PT-70 0x1f34012"
+    expected: 'Gliscor! Use Rock Smash!'
+  - offset: "0x1f3402b"
+    name: "PT-70 0x1f3402b"
+    expected: 'Gliscor! Volte!'
+  - offset: "0x1f3403c"
+    name: "PT-70 0x1f3403c"
+    expected: 'Fique diante de uma rocha com um\nPokémon que aprenda Rock Smash.<0xFA>Dá para quebrar a rocha rachada<0xFA>apertando <0xF8><0x00>.<0xFB>E, com <0xFC><0x01><0x06>Quick HMs<0xFC><0x01><0x04> ativado, a rocha\nsome na hora!<0xFB>Nem vão perguntar antes se você\nquer quebrá-la!<0xFB>Espero que tenha entendido como\nusar Rock Smash!<0xFB>Preciso voltar ao Ginásio. Nos\nvemos outra hora!'
+  - offset: "0x1f341a9"
+    name: "PT-70 0x1f341a9"
+    expected: '<0xFC><0x01><0x08>Staraptor! Use Aerial Ace!'
+  - offset: "0x1f341c7"
+    name: "PT-70 0x1f341c7"
+    expected: '<0xFC><0x01><0x08>Diga como passar pela barreira na\nRoute 9!<0xFB>Não tenho tempo para lidar com\nvocês, Shadows!'
+  - offset: "0x1f34226"
+    name: "PT-70 0x1f34226"
+    expected: '<0xFC><0x01><0x04>E por que eu faria isso?<0xFB>Se acha que um simples ataque\nsurpresa basta para derrubá-la,<0xFA>está muito enganado.<0xFB><0xB0><0xFC><0x08><0x20>Cansam essas tentativas bobas de\nbancar o herói.'
+  - offset: "0x1f342c8"
+    name: "PT-70 0x1f342c8"
+    expected: '<0xFC><0x01><0x04>Alakazam! Livre-se dele!'
+  - offset: "0x1f342e5"
+    name: "PT-70 0x1f342e5"
+    expected: '<0xFC><0x01><0x08>Ah!<0xFB>Meu corpo<0xB0><0xFC><0x08><0x20> não quer<0xB0><0xFC><0x08><0x20> me\nobedecer<0xB0>!'
+  - offset: "0x1f34315"
+    name: "PT-70 0x1f34315"
+    expected: '<0xFC><0x01><0x04>Bom trabalho. Volte, Alakazam.'
+  - offset: "0x1f34335"
+    name: "PT-70 0x1f34335"
+    expected: '<0xFC><0x01><0x04>Agora que resolvi isso, é melhor\nvoltar à Route 9.'
+  - offset: "0x1f3437c"
+    name: "PT-70 0x1f3437c"
+    expected: 'Ah! Essa Admin dos Shadows me\ntira do sério!'
+  - offset: "0x1f343a8"
+    name: "PT-70 0x1f343a8"
+    expected: 'Sem você, Staraptor, eu estaria\nnadando com<0xFA>os peixes agora mesmo!<0xFB>Argh<0xB0><0xFB>Deve haver algum jeito de chegar\nà Route 9<0xB0>'
+  - offset: "0x1f34427"
+    name: "PT-70 0x1f34427"
+    expected: 'Argh<0xB0><0xFB>Deve haver algum jeito de chegar\nà Route 9<0xB0>'
+  - offset: "0x1f34454"
+    name: "PT-70 0x1f34454"
+    expected: '<0xFD><0x01>!<0xFB>Ah<0xB0><0xFC><0x08><0x18> Espero que não<0xB0><0xFC><0x08><0x18> sabe<0xB0><0xFC><0x08><0x18> tenha\nvisto aquilo<0xB0><0xFB>Bom<0xB0><0xFC><0x08><0x18> Só me pegaram<0xB0><0xFC><0x08><0x18> de surpresa<0xB0><0xFB>Ah, deixa pra lá.<0xFB>Preciso pedir um favor.<0xFB>Sei que meu avô pediu para você\nir a Thundercap Mt., mas<0xFA>antes disso<0xB0><0xFB>Pode me dar uma mão primeiro?<0xFB>Os Shadows criaram uma barreira\ninvisível ao redor da<0xFA>rota para onde eu ia voar.<0xFB>Preciso derrubá-la ou achar outro\ncaminho para a <0xFC><0x01><0x06>Route 9<0xFC><0x01><0x08>.<0xFB>Pode reservar um momento para\nisso?'
+  - offset: "0x1f3463c"
+    name: "PT-70 0x1f3463c"
+    expected: 'Valeu, <0xFD><0x01>. Agradeço de\nverdade.<0xFB>Vou tentar achar um caminho para\na <0xFC><0x01><0x06>Route 9<0xFC><0x01><0x08> por <0xFC><0x01><0x06>Tehl Town<0xFC><0x01><0x08>.<0xFB>Você também devia tentar algo\nassim.'
+  - offset: "0x1f346d6"
+    name: "PT-70 0x1f346d6"
+    expected: 'Ah!<0xFB>Vai precisar pegar a <0xFC><0x01><0x06>Route 10<0xFC><0x01><0x08>\npara ir a <0xFC><0x01><0x06>Tehl Town<0xFC><0x01><0x08>, então isto<0xFA>pode ajudar você a chegar rápido.'
+  - offset: "0x1f34747"
+    name: "PT-70 0x1f34747"
+    expected: 'Vamos, Staraptor.'
+  - offset: "0x1f3475c"
+    name: "PT-70 0x1f3475c"
+    expected: 'Qual é, <0xFD><0x01><0xB0><0xFB>Tentei de tudo e nada funciona<0xB0><0xFB>Preciso mesmo de ajuda<0xB0>'
+  - offset: "0x1f347ae"
+    name: "PT-70 0x1f347ae"
+    expected: 'ME DEIXEM ENTRAR!'
+  - offset: "0x1f347b9"
+    name: "PT-70 0x1f347b9"
+    expected: 'Eu juro: assim que essa barreira\ncair, vou atrás<0xFA>de vocês, recrutas!'
+  - offset: "0x1f34804"
+    name: "PT-70 0x1f34804"
+    expected: 'Boa sorte com isso.<0xFB>Essa barreira só vai cair quando\nacabarmos a operação.<0xFB>Não tem como você entrar.'
+  - offset: "0x1f3487e"
+    name: "PT-70 0x1f3487e"
+    expected: 'ARGH!<0xFB>Vamos, Staraptor. Deve haver\noutro caminho para a rota.<0xFB>Talvez haja uma <0xFC><0x01><0x06>passagem\nsubterrânea<0xFC><0x01><0x08> secreta na cidade<0xB0><0xFB>Vamos procurar.'
+  - offset: "0x1f34914"
+    name: "PT-70 0x1f34914"
+    expected: '<0xFD><0x01>!<0xFB>Então você também achou a\npassagem secreta.<0xFB>Mas parece que teremos que vencer\num monte de Shadows para chegar<0xFA>até o amigo do meu avô.<0xFB>Que tal formarmos uma dupla?\nAssim avançamos mais rápido.'
+  - offset: "0x1f349e6"
+    name: "PT-70 0x1f349e6"
+    expected: 'O quê?<0xFC><0x08><0x18> Você<0xB0><0xFC><0x08><0x18> tem certeza de que\nconsegue seguir sem ajuda?<0xFB>Mas eu<0xB0><0xFC><0x08><0x18> Ah<0xB0> Entendo, <0xFD><0x01>.<0xFB>Se tem outras coisas para resolver\nantes, vou procurar o amigo<0xFA>do meu avô por conta própria.'
+  - offset: "0x1f34aa1"
+    name: "PT-70 0x1f34aa1"
+    expected: 'Ótimo!<0xFB>A rota é bem grande. Parece\ntrabalho para dois Treinadores.<0xFB>Que tal você ir na frente?<0xFB>Vou dar apoio aos seus Pokémon e\nmantê-los curados.<0xFB>Vamos nessa, <0xFD><0x01>!'
+  - offset: "0x1f34b4a"
+    name: "PT-70 0x1f34b4a"
+    expected: 'Vamos achar o amigo do meu avô,\n<0xFD><0x01>!<0xFB>Antes que os Shadows façam algo\nterrível<0xB0>'
+  - offset: "0x1f34b9a"
+    name: "PT-70 0x1f34b9a"
+    expected: '<0xFD><0x01>! Aonde você vai?<0xFB>Não temos tempo para sair da\nRoute 9.<0xFB>A menos que não queira mais formar\numa dupla comigo?'
+  - offset: "0x1f34c15"
+    name: "PT-70 0x1f34c15"
+    expected: 'Parece que o caminho para a casa\nfica à direita, <0xFD><0x01>.'
+  - offset: "0x1f34c4b"
+    name: "PT-70 0x1f34c4b"
+    expected: 'Vamos logo para lá, antes que\nseja tarde demais!'
+  - offset: "0x1f34c76"
+    name: "PT-70 0x1f34c76"
+    expected: '<0xFC><0x01><0x08>Parece que chegamos. Vou na\nfrente.<0xFB>Entre logo atrás de mim!'
+  - offset: "0x1f34cbf"
+    name: "PT-70 0x1f34cbf"
+    expected: 'Dr. Harth'
+  - offset: "0x1f34cd4"
+    name: "PT-70 0x1f34cd4"
+    expected: '<0xFC><0x01><0x08>Acha que vou deixar você sair\ndaqui!?<0xFB>Você roubou a Prison Stone<0xB0> a\núnica coisa capaz de selar<0xFA>e libertar a força sombria!<0xFB>Só pode querer usá-la para fazer\no mal!'
+  - offset: "0x1f34d94"
+    name: "PT-70 0x1f34d94"
+    expected: 'Receio que, como sempre, você\nesteja muito enganado, garoto.<0xFB>Mas vou ouvir você por um\nmomento<0xB0><0xFB>O que, exatamente, acha que\nestamos planejando?<0xFB>Com base no que viu de nós? Por\nfavor, me esclareça.'
+  - offset: "0x1f34e4d"
+    name: "PT-70 0x1f34e4d"
+    expected: '<0xFC><0x01><0x08>O que mais seria?<0xFB>Capturar as aves Pokémon\nlendárias<0xB0><0xFC><0x08><0x18> roubar a Prison Stone<0xB0><0xFB>Vocês querem mergulhar Borrius na\nguerra e na escuridão!'
+  - offset: "0x1f34ed3"
+    name: "PT-70 0x1f34ed3"
+    expected: '<0xFC><0x01><0x04>Interessante.<0xFB>Então me diga: por que faríamos\nisso?<0xFB>Lançar nossa própria região no\ncaos?'
+  - offset: "0x1f34f2e"
+    name: "PT-70 0x1f34f2e"
+    expected: '<0xFC><0x01><0x08>O quê?<0xFB>Bem<0xB0><0xFC><0x08><0x20> dominar o mundo?<0xFB>A força sombria tem um poder\nincrível, e<0xB0>'
+  - offset: "0x1f34f7c"
+    name: "PT-70 0x1f34f7c"
+    expected: '<0xFC><0x01><0x04>Eu sabia. Você só consegue pensar\nem motivos simples e imaturos.<0xFB>Acha que a “força que pretendemos\nlibertar” só serve para destruir.<0xFB>Na verdade, queremos salvar.<0xFB>Salvar o que perdemos sem razão.\nDaríamos muito para recuperar<0xB0>'
+  - offset: "0x1f3506d"
+    name: "PT-70 0x1f3506d"
+    expected: '<0xFC><0x01><0x08>Hã? Do que você está falando?<0xFB>Não entendo nada do que você está\ndizendo!'
+  - offset: "0x1f350b8"
+    name: "PT-70 0x1f350b8"
+    expected: '<0xFC><0x01><0x04>Não vou perder mais tempo\nexplicando.<0xFB>Posso usar esse tempo para cuidar\nde você<0xB0><0xFC><0x08><0x20> e da sua companhia<0xFA>esperando junto à porta.'
+  - offset: "0x1f35149"
+    name: "PT-70 0x1f35149"
+    expected: '<0xFC><0x01><0x08><0xFD><0x01>! Chegou bem na hora!<0xFB>Os Shadows têm a Prison Stone, o\nobjeto necessário para libertar<0xFA>a força sombria!<0xFB>Você precisa me ajudar a\nrecuperá-la!'
+  - offset: "0x1f351dd"
+    name: "PT-70 0x1f351dd"
+    expected: 'Eu devia saber que eles não\nsairiam sem resistir.<0xFB>Você, recruta, me ajude.'
+  - offset: "0x1f35222"
+    name: "PT-70 0x1f35222"
+    expected: 'Cientistas, preparem o plano B\ncaso sejamos derrotados.'
+  - offset: "0x1f3525e"
+    name: "PT-70 0x1f3525e"
+    expected: 'Agora mesmo.<0xFB>Vamos ativar as cápsulas móveis de\ncriação.'
+  - offset: "0x1f35293"
+    name: "PT-70 0x1f35293"
+    expected: 'Não leve para o lado pessoal, mas\nvou ter que pôr vocês dois<0xFA>para fora<0xB0><0xFC><0x08><0x18> à força.'
+  - offset: "0x1f352f0"
+    name: "PT-70 0x1f352f0"
+    expected: 'Maldição<0xB0><0xFB>Cientistas, ativem o plano B,\nagora!'
+  - offset: "0x1f35323"
+    name: "PT-70 0x1f35323"
+    expected: 'Desculpe por falhar, senhora!'
+  - offset: "0x1f35342"
+    name: "PT-70 0x1f35342"
+    expected: '<0xFC><0x01><0x08>Que tal essa!<0xFB>Enquanto eu tiver meus Pokémon,\nninguém me segura!<0xFB>Não<0xB0><0xFC><0x08><0x18> ninguém NOS segura!<0xFB>Agora, entregue a Prison Stone!'
+  - offset: "0x1f353bd"
+    name: "PT-70 0x1f353bd"
+    expected: 'Humpf<0xB0><0xFB>Você diz isso, mas sua dupla fez\nquase todo o trabalho<0xB0>'
+  - offset: "0x1f35405"
+    name: "PT-70 0x1f35405"
+    expected: '<0xFC><0x01><0x08>O-o que você disse!?'
+  - offset: "0x1f3541d"
+    name: "PT-70 0x1f3541d"
+    expected: 'Não importa o placar, ainda não\nperdemos<0xB0><0xFC><0x08><0x18> se estiverem prontos.<0xFB>E espero que já estejam\nfuncionando, certo?'
+  - offset: "0x1f35493"
+    name: "PT-70 0x1f35493"
+    expected: 'Sim, senhora.<0xFB>Não são tão fortes quanto os que\npodemos sintetizar no laboratório<0xB0><0xFB>Mas devem servir como distração.'
+  - offset: "0x1f3551b"
+    name: "PT-70 0x1f3551b"
+    expected: '<0xFC><0x01><0x08>O que<0xB0><0xFC><0x08><0x20> são essas coisas?<0xFB>Não me diga<0xB0><0xFC><0x08><0x20> é aquele casal de\nidosos!?<0xFB>O que vocês fizeram com eles!?'
+  - offset: "0x1f3557d"
+    name: "PT-70 0x1f3557d"
+    expected: 'Eles foram aprimorados para servir\nmelhor aos nossos fins.<0xFB>E agora, a função deles<0xB0><0xFC><0x08><0x18> é\nsegurar vocês enquanto recuamos.'
+  - offset: "0x1f35602"
+    name: "PT-70 0x1f35602"
+    expected: 'Droga<0xB0><0xFC><0x08><0x18> não quero deixá-los fugir,\nmas precisamos ajudar<0xFA>essas pobres pessoas!<0xFB>Talvez ainda dê tempo!<0xFB>Se os derrotarmos bem rápido,\ntalvez eles voltem<0xFA>ao que eram antes!'
+  - offset: "0x1f356c3"
+    name: "PT-70 0x1f356c3"
+    expected: '<0xFC><0x01><0x04>Shadow Warriors, ataquem!'
+  - offset: "0x1f356df"
+    name: "PT-70 0x1f356df"
+    expected: 'Ohh<0xB0><0xFB>O que eu<0xB0><0xFC><0x08><0x20> o que eu estava\nfazendo<0xB0>?'
+  - offset: "0x1f35706"
+    name: "PT-70 0x1f35706"
+    expected: 'Conseguimos! Eles estão bem!'
+  - offset: "0x1f3571f"
+    name: "PT-70 0x1f3571f"
+    expected: 'Oh! Obrigado, Jax<0xB0><0xFC><0x08><0x20> e agradeço a\nvocê também<0xB0><0xFC><0x08><0x20> <0xFD><0x01>, certo?<0xFB>Mais um pouco e nossa vontade\nteria sido totalmente apagada.'
+  - offset: "0x1f3579e"
+    name: "PT-70 0x1f3579e"
+    expected: 'O importante é que vocês estão a\nsalvo agora.'
+  - offset: "0x1f357c4"
+    name: "PT-70 0x1f357c4"
+    expected: 'Mas que droga<0xB0><0xFC><0x08><0x20> eles fugiram com a\nPrison Stone<0xB0>'
+  - offset: "0x1f357f8"
+    name: "PT-70 0x1f357f8"
+    expected: 'Então conseguiram fugir com ela<0xB0><0xFB>Jax, você precisa ir atrás deles!<0xFB>Se quebrarem a pedra e usarem a\ngarrafa que há dentro dela,<0xFA>o resultado pode ser catastrófico!'
+  - offset: "0x1f35890"
+    name: "PT-70 0x1f35890"
+    expected: 'Eu sei<0xB0><0xFC><0x08><0x18> sabe aonde eles podem ter\nido, Dr. Harth?'
+  - offset: "0x1f358ce"
+    name: "PT-70 0x1f358ce"
+    expected: 'Se pretendem romper o selo da\npedra, devem estar indo<0xFA>para as <0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x08>.<0xFB>Só lá é possível obter a garrafa\ndentro dela.'
+  - offset: "0x1f3595f"
+    name: "PT-70 0x1f3595f"
+    expected: 'As <0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x08>, ele disse<0xB0><0xFB><0xFD><0x01>, vou voltar para contar\nao vovô o que aconteceu.<0xFB>Enquanto isso, você deve ir a\n<0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08><0xFB>Enquanto os Shadows não tiverem\nZapdos, ainda temos uma chance<0xFA>de detê-los!<0xFB>Ah, sim<0xB0><0xFC><0x08><0x18> como você precisa do HM\n<0xFC><0x01><0x06>Strength<0xFC><0x01><0x08> para seguir<0xFA>pela trilha da montanha<0xB0><0xFB>É melhor voltar para <0xFC><0x01><0x06>Fallshore\nCity<0xFC><0x01><0x08> e obter<0xFA>a Insígnia do Ginásio de lá.<0xFB>Acho que vi o Líder do Ginásio\npela última vez em <0xFC><0x01><0x06>Tehl Town<0xFC><0x01><0x08><0xB0><0xFB>Depois que fizer isso e salvar\n<0xFC><0x01><0x06>Zapdos<0xFC><0x01><0x08>, encontro você em<0xFA><0xFC><0x01><0x06>Epidimy Town<0xFC><0x01><0x08>.'
+  - offset: "0x1f35b93"
+    name: "PT-70 0x1f35b93"
+    expected: 'Ufa<0xB0><0xFC><0x08><0x20> nada como fugir da vida na\ncidade e voltar<0xFA>para a Mãe Natureza.<0xFB>De que outro jeito se consegue um\nbronzeado natural como o meu?<0xFB>Afinal, manter a boa aparência\nexige esforço.<0xFB>A beleza é a virtude mais\nimportante, né?'
+  - offset: "0x1f35ca5"
+    name: "PT-70 0x1f35ca5"
+    expected: 'Isso. Você sabe o que importa na\nvida. Gostei.'
+  - offset: "0x1f35cdb"
+    name: "PT-70 0x1f35cdb"
+    expected: 'Então você não sabe o que está\nperdendo, colega.'
+  - offset: "0x1f35d05"
+    name: "PT-70 0x1f35d05"
+    expected: 'Este lugar é perfeito para a minha\nrotina.<0xFB>Quando volto para o Ginásio, a\nnévoa das cachoeiras<0xFA>realça meu corpo definido.<0xFB>Quer sentir? Peitorais totalmente\nnaturais, bem aqui.'
+  - offset: "0x1f35db2"
+    name: "PT-70 0x1f35db2"
+    expected: 'Ah, desculpe. Sou Mel, Líder do\nGinásio de <0xFC><0x01><0x06>Fallshore City<0xFC><0x01><0x08>.<0xFB>Foi mal não estar lá quando\nchegou, mas, bem<0xB0><0xFC><0x08><0x18> meu treino<0xFA>não espera ninguém.<0xFB>É muita pressão, mas as garotas do\nGinásio não parecem<0xFA>se importar<0xB0><0xFB>Já estou quase terminando por\nhoje. Se quiser batalhar,<0xFA>tenho tempo para isso.<0xFB>Até logo, colega.'
+  - offset: "0x1f35ef7"
+    name: "PT-70 0x1f35ef7"
+    expected: 'Só quero trocar uma palavrinha\nantes de você sair correndo.'
+  - offset: "0x1f35f2d"
+    name: "PT-70 0x1f35f2d"
+    expected: 'Antes de você chegar, ouvi uns\nrumores de que uns bandidos<0xFA>estão impedindo os moradores<0xFA>de <0xFC><0x01><0x06>Epidimy<0xFC><0x01><0x08> de explorar<0xFA><0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x08><0xFB>Eu estava pensando em dar um\njeito nesses foras da lei.<0xFB>Pois além de ter boa aparência,\ntambém faço o bem.<0xFB>E faço isso com estilo!<0xFB>Um deles disse que estavam\nvigiando a montanha para<0xFA>impedir você de entrar.<0xFB>Até mencionou seu nome.<0xFB>Não sei em que confusão você se\nmeteu,<0xFA>mas vou ajudar a resolver.<0xFB>Então, pegue isto e chegue logo a\nEpidimy.'
+  - offset: "0x1f36150"
+    name: "PT-70 0x1f36150"
+    expected: '<0xFC><0x01><0x08>Como os outros HMs, se um Pokémon\npode aprender o movimento,<0xFA>ele pode usá-lo.<0xFB>Basta escolher um Pokémon que\npossa aprendê-lo e não tenha<0xFA>quatro movimentos HM aprendidos.<0xFA>Esse aparelhinho leva você<0xFA>a qualquer lugar já visitado.<0xFB>Não me faça esperar muito,\ncolega.<0xFB>Você não vai querer perder meu\nbelo trabalho!'
+  - offset: "0x1f3629b"
+    name: "PT-70 0x1f3629b"
+    expected: 'Último aviso, bandido. Saia ou eu\ntiro você daqui.'
+  - offset: "0x1f362d1"
+    name: "PT-70 0x1f362d1"
+    expected: 'Me recuso a abandonar meu posto.<0xFB>Não deixarei <0xFD><0x01> entrar em\nThundercap Mt. de jeito nenhum.'
+  - offset: "0x1f3632a"
+    name: "PT-70 0x1f3632a"
+    expected: '<0xFD><0x02>, acerte com <0xFD><0x03>!'
+  - offset: "0x1f36341"
+    name: "PT-70 0x1f36341"
+    expected: 'Não quero machucar você, mas\ntenho uma massagem profunda<0xFA>mais tarde<0xB0><0xFB>E se me atrasar por sua causa,\nbem, vai ter problema.'
+  - offset: "0x1f363d2"
+    name: "PT-70 0x1f363d2"
+    expected: 'Urgh<0xB0><0xFC><0x08><0x20> então por que<0xB0><0xFC><0x08><0x20> me bateu\nprimeiro<0xB0>?'
+  - offset: "0x1f36401"
+    name: "PT-70 0x1f36401"
+    expected: 'Beleza, acho que você dá conta\ndaqui em diante, colega.<0xFB>Eu preciso correr.<0xFB>Seja lá o que planejem, esses\nbandidos não querem você lá.<0xFB>Acabe com eles por mim, tá?'
+  - offset: "0x1f364ab"
+    name: "PT-70 0x1f364ab"
+    expected: 'Aiii<0xB0> Minha cabeça<0xB0>'
+  - offset: "0x1f364ba"
+    name: "PT-70 0x1f364ba"
+    expected: 'PARE!'
+  - offset: "0x1f364c0"
+    name: "PT-70 0x1f364c0"
+    expected: 'Não posso deixar você passar!<0xFB><0xB0><0xFB>Esse olhar<0xB0><0xFC><0x08><0x18> você não lembra mesmo\nde mim?<0xFB>Sou o recruta que vocês dois\nhumilharam na nossa base!<0xFB>Fiquei mais forte desde então.\nChegou a hora da revanche!'
+  - offset: "0x1f3658d"
+    name: "PT-70 0x1f3658d"
+    expected: 'Não levo jeito para ser guarda<0xB0>'
+  - offset: "0x1f365b2"
+    name: "PT-70 0x1f365b2"
+    expected: 'Agora você passou dos limites!<0xFB>Era minha última chance de\nrecuperar o respeito dos chefes,<0xFA>e você estragou tudo!<0xFB>Nunca vou esquecer isso!'
+  - offset: "0x1f36643"
+    name: "PT-70 0x1f36643"
+    expected: '<0xFC><0x01><0x04>Ah, não!<0xFB><0xFD><0x01> está na nossa cola!<0xFB>É melhor eu avisar o Marlon!'
+  - offset: "0x1f3667f"
+    name: "PT-70 0x1f3667f"
+    expected: 'Tenho a chave para libertar os\nPokémon!<0xFB>Mas não vou entregá-la!'
+  - offset: "0x1f366be"
+    name: "PT-70 0x1f366be"
+    expected: 'Tá bom, talvez eu vá entregar<0xB0>'
+  - offset: "0x1f366de"
+    name: "PT-70 0x1f366de"
+    expected: 'Os outros recrutas vão ficar\nfuriosos<0xB0>'
+  - offset: "0x1f36704"
+    name: "PT-70 0x1f36704"
+    expected: '<0xFC><0x01><0x02>Parece haver Pokémon presos atrás\nde uma barreira elétrica.'
+  - offset: "0x1f3674a"
+    name: "PT-70 0x1f3674a"
+    expected: '<0xFC><0x01><0x02>Parece haver Pokémon presos atrás\nde uma barreira elétrica.<0xFB>Desativar a barreira para\nsoltá-los?'
+  - offset: "0x1f367b4"
+    name: "PT-70 0x1f367b4"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> desativou a barreira!'
+  - offset: "0x1f367d2"
+    name: "PT-70 0x1f367d2"
+    expected: '<0xFC><0x01><0x02>Os Pokémon libertados parecem\nestar subindo a montanha.'
+  - offset: "0x1f3680c"
+    name: "PT-70 0x1f3680c"
+    expected: 'Os Pokémon que você libertou\nestão consertando a escada!'
+  - offset: "0x1f3683c"
+    name: "PT-70 0x1f3683c"
+    expected: 'Uno com o vento, uno com o\nrelâmpago<0xB0><0xFB>O olho que tudo vê na tempestade\nfuriosa!<0xFB>Agora, torne-se o raio que fulmina\ntodo o mal!<0xFB>Sankren thoron!<0xFB>Desça até mim, Zapdos! Abale o\ncéu e faça o trovão rugir!<0xFB>Surja das nuvens de tempestade\nonde habita!'
+  - offset: "0x1f36947"
+    name: "PT-70 0x1f36947"
+    expected: 'Enfim, a última chave surge diante\nde nós<0xB0><0xFC><0x08><0x20> e agora<0xB0>'
+  - offset: "0x1f36988"
+    name: "PT-70 0x1f36988"
+    expected: 'O quê? Nocauteou aquele Shadow\nWarrior com um só golpe!?<0xFB>De que serviu sua “resistência\nelétrica”<0xB0>?'
+  - offset: "0x1f369ed"
+    name: "PT-70 0x1f369ed"
+    expected: 'Todos os Shadow Warriors\nrestantes, contenham Zapdos!'
+  - offset: "0x1f36a1d"
+    name: "PT-70 0x1f36a1d"
+    expected: 'Tsc<0xB0><0xFC><0x08><0x18> então esse é seu movimento\nDischarge<0xB0>'
+  - offset: "0x1f36a45"
+    name: "PT-70 0x1f36a45"
+    expected: 'Bem, Zapdos, você não me dá\nescolha<0xB0>'
+  - offset: "0x1f36a6b"
+    name: "PT-70 0x1f36a6b"
+    expected: 'Heh<0xB0> Boa tentativa, Zapdos.<0xFB>Mas não cometo o mesmo erro duas\nvezes.'
+  - offset: "0x1f36aab"
+    name: "PT-70 0x1f36aab"
+    expected: 'Krookodile! Use Stone Edge!'
+  - offset: "0x1f36ac7"
+    name: "PT-70 0x1f36ac7"
+    expected: '<0xFC><0x01><0x06>Dile!'
+  - offset: "0x1f36ad0"
+    name: "PT-70 0x1f36ad0"
+    expected: '<0xFC><0x01><0x07>Um golpe crítico!'
+  - offset: "0x1f36ae3"
+    name: "PT-70 0x1f36ae3"
+    expected: 'Agora, Zapdos, chegou a hora<0xB0><0xFC><0x08><0x18> de\nvocê finalmente ser nosso!'
+  - offset: "0x1f36b1a"
+    name: "PT-70 0x1f36b1a"
+    expected: 'Ufa<0xB0><0xFC><0x08><0x18> isso levou muito mais tempo\ndo que eu esperava<0xB0>'
+  - offset: "0x1f36b4b"
+    name: "PT-70 0x1f36b4b"
+    expected: 'Agora só falta nos reunirmos nas\n<0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x08><0xB0>'
+  - offset: "0x1f36b8d"
+    name: "PT-70 0x1f36b8d"
+    expected: 'Você de novo!<0xFB>O que aqueles guardas estavam\nfazendo?<0xFB>Eu os posicionei para impedir você\nou aquele garoto de boné verde<0xFA>de atrapalhar!<0xFB>Destruí a escada atrás de mim<0xB0><0xFC><0x08><0x18> e\nainda<0xB0><0xFC><0x08><0x18> você chegou.<0xFB>Como conseguiu fazer isso<0xB0>?<0xFB>É preciso uma teimosia monumental\npara não perceber que isso<0xFA>deveria ser impossível.'
+  - offset: "0x1f36cd3"
+    name: "PT-70 0x1f36cd3"
+    expected: 'Mas<0xB0><0xFC><0x08><0x18> não importa como aconteceu,\nnem que você esteja aqui agora<0xB0><0xFB>Nada disso muda o fato de que\nZapdos está em meu poder.<0xFB>Com sua força em minhas mãos,\nvocê não tem chance<0xFA>de me impedir de partir.<0xFB>E se acha que tem, vou mostrar\npessoalmente<0xB0><0xFB>O poder de Zapdos! O poder de um\nPokémon Lendário!'
+  - offset: "0x1f36e21"
+    name: "PT-70 0x1f36e21"
+    expected: 'Vou mostrar pessoalmente<0xB0><0xFB>O poder de Zapdos! O poder de um\nPokémon Lendário!'
+  - offset: "0x1f36e74"
+    name: "PT-70 0x1f36e74"
+    expected: 'Mesmo com um Pokémon Lendário<0xB0>\ntudo isso não adiantou nada<0xB0>!?'
+  - offset: "0x1f36eb1"
+    name: "PT-70 0x1f36eb1"
+    expected: 'Então<0xB0><0xFC><0x08><0x18> é o fim para mim.<0xFB>Zapdos destruiu todos os meus\nShadow Warriors, e os recrutas<0xFA>que trouxe para a missão<0xFA>foram todos derrotados<0xB0><0xFB>Eu me rendo<0xB0><0xFB>Não posso impedir você de tomar\nZapdos de mim à força.<0xFB>Pois bem, vou devolver Zapdos à\nnatureza.<0xFB>Dou minha palavra de que não irei\natrás dele de novo<0xB0>'
+  - offset: "0x1f36fe6"
+    name: "PT-70 0x1f36fe6"
+    expected: 'Diga que tem boas notícias para\nmim.<0xFB>É sobre Zapdos<0xB0>?<0xFB><0xB0><0xFB>Sério? Que notícia incrível!<0xFB>Achei que Marlon fugiria com\nZapdos, mesmo que você<0xFA>o derrotasse.<0xFB>E diz que ele simplesmente o\nsoltou?<0xFB>Até ele sabia a hora de desistir,\nhein?'
+  - offset: "0x1f370d2"
+    name: "PT-70 0x1f370d2"
+    expected: 'Bem, se Zapdos está a salvo,\npodemos fazer uma merecida pausa<0xFA>por enquanto.<0xFB>Ah, sim<0xB0><0xFC><0x08><0x18> você está fazendo o\ndesafio dos Ginásios, certo?<0xFB>Então é melhor dar uma olhada na\n<0xFC><0x01><0x06>Tarmigan Mansion<0xFC><0x01><0x08>.<0xFB>Não é bem um Ginásio oficial, mas\npense nela como o Ginásio 4,5!<0xFB>Dizem que, se derrotar a\nSucessora da mansão,<0xFA>você poderá usar<0xFA>um novo poder incrível!<0xFB>Que poder? Ha ha, isso estragaria\na surpresa!'
+  - offset: "0x1f37282"
+    name: "PT-70 0x1f37282"
+    expected: '<0xB0><0xFB><0xFC><0x06><0x00>Você é incrível, <0xFD><0x01><0xB0> Digo<0xB0><0xFC><0x08><0x18>\nsem ajuda, você<0xB0>'
+  - offset: "0x1f372c3"
+    name: "PT-70 0x1f372c3"
+    expected: 'Mas não vamos descansar por muito\ntempo.<0xFB>Não podemos esquecer os Shadows.\nEles ainda estão por aí<0xFA>e têm Moltres e Articuno.<0xFB>Por sorte, já falei com o vovô e\nacho que sei como<0xFA>recuperá-los.<0xFB>Depois de terminar na <0xFC><0x01><0x06>Tarmigan\nMansion<0xFC><0x01><0x08>, vá ao <0xFC><0x01><0x06>norte<0xFC><0x01><0x08><0xFA>em direção à <0xFC><0x01><0x06>Route 12<0xFC><0x01><0x08>.<0xFB>Encontro você em <0xFC><0x01><0x06>Dehara City<0xFC><0x01><0x08>.<0xFB>Quando chegar, podemos discutir o\nplano para salvá-los<0xFA>dos Shadows.<0xFB>Então, até lá!'
+  - offset: "0x1f37486"
+    name: "PT-70 0x1f37486"
+    expected: 'Staraptor!<0xFB>Vamos!'
+  - offset: "0x1f374a2"
+    name: "PT-70 0x1f374a2"
+    expected: 'Finalmente alcancei você!<0xFB>Derrotei a Sucessora Maxima, mas\nachei que treinar um pouco mais<0xFA>na mansão não faria mal.<0xFB>Deixe eu adivinhar, também ganhou\no poder da Megaevolução?<0xFB><0xB0><0xFB>O que estou dizendo? Claro que\nsim.<0xFB>Quem me venceu tantas vezes não\nficaria parado<0xFA>por causa disso.<0xFB>Mas vou acabar com essa sua\nsequência<0xFA>aqui e agora!<0xFB>Vamos lá! Vou mostrar meu novo\npoder!'
+  - offset: "0x1f37640"
+    name: "PT-70 0x1f37640"
+    expected: 'Por quê<0xB0>? Por que nada do que\nfaço é bom o bastante?'
+  - offset: "0x1f3766c"
+    name: "PT-70 0x1f3766c"
+    expected: 'Como você consegue, <0xFD><0x01>?<0xFB>Por mais que eu treine, você\nsempre está dois passos à frente<0xB0>'
+  - offset: "0x1f376d7"
+    name: "PT-70 0x1f376d7"
+    expected: 'Ufa<0xB0><0xFC><0x08><0x20> ufa<0xB0><0xFB>Ainda bem que consegui alcançar\nvocês dois.'
+  - offset: "0x1f37714"
+    name: "PT-70 0x1f37714"
+    expected: 'Velho Log?<0xFB>Nossa, não sabia que ainda corria\ntão rápido na sua idade.'
+  - offset: "0x1f3775e"
+    name: "PT-70 0x1f3775e"
+    expected: 'Que grosseria, <0xFD><0x06><0xB0><0xFB>Vim até aqui trazendo uma coisa\npara você, sabia?<0xFB>Bem, fazer o quê? Para ser\nsincero, eu era assim<0xFA>na minha juventude.<0xFB>Ah, bons tempos, quando Arthur e\neu éramos Treinadores.<0xFB>Éramos rivais ferozes<0xB0><0xFB>Tão ferozes que nossos duelos\npodiam durar dias sem parar!'
+  - offset: "0x1f3789e"
+    name: "PT-70 0x1f3789e"
+    expected: 'Não tenho tempo para suas\nlembranças, velhote.<0xFB>Vai nos dar o que trouxe ou não?'
+  - offset: "0x1f37918"
+    name: "PT-70 0x1f37918"
+    expected: '<0xFD><0x01>, isto é para você.<0xFB>Se vai continuar desafiando os\nGinásios, precisará disto para<0xFA>atravessar o mar.'
+  - offset: "0x1f3797e"
+    name: "PT-70 0x1f3797e"
+    expected: 'E embora sua atitude precise\nmelhorar, <0xFD><0x06>, você<0xFA>também pode ficar com um.'
+  - offset: "0x1f379d3"
+    name: "PT-70 0x1f379d3"
+    expected: 'Surf, hein<0xB0> É, vai ser útil.<0xFB>Soube da ligação dos Shadows com\no sumiço dos meus pais<0xFA>e consegui rastreá-los até<0xFA>Ruins of Void.<0xFB>Assim que souber o caminho, usarei\nSurf e descobrirei de uma vez<0xFA>o que aconteceu com eles!<0xFB>Então, valeu, eu acho, Log.'
+  - offset: "0x1f37aee"
+    name: "PT-70 0x1f37aee"
+    expected: 'Os Shadows, você disse?<0xFB>Ah, sim<0xB0> isso me lembra por que\nvim aqui.'
+  - offset: "0x1f37b33"
+    name: "PT-70 0x1f37b33"
+    expected: '<0xFD><0x01>, Arthur me contou sobre\nsuas últimas aventuras.<0xFB>Primeiro, parabéns por resgatar\nZapdos.<0xFB>Mas é claro que nunca duvidei de\nvocê, <0xFD><0x01>!<0xFB>Ho ho ho!<0xFB><0xB0><0xFB>Enfim, se pretende seguir na mesma\ndireção que os<0xFA>Shadows<0xB0><0xFB>Um antigo colega meu vive em\nDehara City. Ele estuda<0xFA>com muito cuidado as<0xFA>Ruins of Void.<0xFB>Soube que Jax foi na frente para\nprocurá-lo.<0xFB>Se precisar, ele pode indicar o\ncaminho para usar Surf.'
+  - offset: "0x1f37d04"
+    name: "PT-70 0x1f37d04"
+    expected: 'Um velho em Dehara City sabe o\ncaminho para Ruins of Void?<0xFB>Acho que já sei para onde vou\nagora.<0xFB>Obrigado, Log, por dizer algo que\nvale a pena ouvir, para variar.'
+  - offset: "0x1f37db8"
+    name: "PT-70 0x1f37db8"
+    expected: 'Até mais, <0xFD><0x01>.<0xFB>Na próxima, juro que vou acabar\ncom essa diferença entre nós!'
+  - offset: "0x1f37e09"
+    name: "PT-70 0x1f37e09"
+    expected: 'Ah<0xB0><0xFC><0x08><0x20> parece que a jornada com os\nPokémon não o acalmou<0xFA>nem um pouco.<0xFB><0xB0><0xFC><0x08><0x20>Bem, boa sorte, <0xFD><0x01>.\nEstarei torcendo por você.'
+  - offset: "0x1f37e91"
+    name: "PT-70 0x1f37e91"
+    expected: 'Ah<0xB0><0xFC><0x08><0x20> e agora, o que eu devo\nfazer<0xB0>?<0xFB>Não tenho nada para mostrar a\nZeph e Ivory<0xB0><0xFB>Sem Zapdos, nosso objetivo não\npode mais ser alcançado<0xB0><0xFB>Será que devemos<0xB0><0xFC><0x08><0x18> desistir?<0xFB>Na verdade, tenho dúvidas sobre o\nquanto fomos longe<0xB0><0xFB>Acho que é hora de voltar para\ncasa, para meus filhos.'
+  - offset: "0x1f37fae"
+    name: "PT-70 0x1f37fae"
+    expected: 'Incrível<0xB0><0xFC><0x08><0x20> que maravilha da\ntecnologia moderna!<0xFB>Pensar que algo assim era\npossível<0xB0><0xFB>Ah, Marlon<0xB0><0xFC><0x08><0x18> você ia tão bem, até\ncometer aquele último erro<0xB0><0xFB>Mas não se preocupe, posso cuidar\ndo resto daqui em diante.<0xFB>Enquanto isso, você terá todo o\ntempo do mundo para<0xFA>refletir<0xB0><0xFC><0x08><0x18> e se arrepender.'
+  - offset: "0x1f380eb"
+    name: "PT-70 0x1f380eb"
+    expected: 'O que<0xB0><0xFC><0x08><0x20> exatamente é isto, Hoopa?<0xFB>Peço que invoque outro Zapdos\npara compensar a falha de Marlon,<0xFA>e você me traz isto?<0xFB>Patético! Isto nem se parece com\nZapdos!'
+  - offset: "0x1f38196"
+    name: "PT-70 0x1f38196"
+    expected: 'Que criatura inútil<0xB0><0xFC><0x08><0x18> só sabe se\nesconder de medo naquela<0xFA>bolsa velha!'
+  - offset: "0x1f381e1"
+    name: "PT-70 0x1f381e1"
+    expected: 'Hoopa, sei que é difícil, mas\nacerte desta vez.<0xFB>Invoque um Zapdos.<0xFB>Não me importa de onde vai\ntrazê-lo.<0xFB>Mesmo que gaste até a última gota\nde energia para trazer um<0xFA>de outra região<0xB0><0xFB>Apenas me traga um Zapdos.<0xFB>ENTENDEU?'
+  - offset: "0x1f382e5"
+    name: "PT-70 0x1f382e5"
+    expected: '<0xFC><0x01><0x06>Hoo<0xB0>'
+  - offset: "0x1f382ed"
+    name: "PT-70 0x1f382ed"
+    expected: 'Agora sim! Muito melhor, Hoopa.'
+  - offset: "0x1f38317"
+    name: "PT-70 0x1f38317"
+    expected: '<0xFC><0x01><0x02>CHZKKK.<0xFC><0x08><0x15>.<0xFC><0x08><0x15>.<0xFC><0x08><0x15>'
+  - offset: "0x1f3832d"
+    name: "PT-70 0x1f3832d"
+    expected: 'Alô, estamos conectados?<0xFB><0xB0><0xFC><0x08><0x20>Sou eu, o capanga que encontrou\nmais cedo.<0xFB>Acabei de obter o último Pokémon\nnecessário.<0xFB>Partirei para as Ruins of Void em\ninstantes.<0xFB><0xB0><0xFC><0x08><0x20>Sim, claro. Então, como\nprometido<0xB0><0xFB>Assumirei o comando da divisão?<0xFB><0xB0><0xFC><0x08><0x20>Certamente. Desde que Hoopa não\nsofra muito, pode<0xFA>descobrir o que quiser.<0xFB><0xB0><0xFC><0x08><0x20>Não se preocupe. Eliminaremos os\nShadow Warriors de forma<0xFA>rápida e limpa.<0xFB>Não haverá vestígios<0xB0><0xFB><0xB0><0xFC><0x08><0x20>Entendido. Falaremos depois,\nquando eu relatar meu progresso.'
+  - offset: "0x1f3853f"
+    name: "PT-70 0x1f3853f"
+    expected: 'Pois bem<0xB0><0xFC><0x08><0x18> não temos mais tempo a\nperder.<0xFB>Com Zapdos em minhas mãos, Zeph\ntem a última peça necessária<0xFA>para realizar a libertação.<0xFB>Agora<0xB0><0xFC><0x08><0x18> abra um portal para as\nRuins of Void, Hoopa.<0xFB>Ainda deve ter energia para isso,\nmesmo após invocar<0xFA>um Pokémon tão poderoso<0xB0><0xFB>É claro que, ao recuperar todo\nseu poder, o cansaço<0xFA>não será mais problema<0xB0><0xFB>Recupere suas forças e depois\nvenha também.<0xFB>Você me encontrará pelo sinal do\nmeu Cube.<0xFB>E lembre-se<0xB0><0xFC><0x08><0x20> não chame atenção.<0xFB>Zeph ainda tem seguidores leais\nque podem ser<0xB0><0xFC><0x08><0x18> um problema.<0xFB>Ele não pode saber. Isso\narruinaria tudo.<0xFB>Confio em você esta última vez,\nHoopa, então não<0xFA>erre!'
+  - offset: "0x1f387f2"
+    name: "PT-70 0x1f387f2"
+    expected: '<0xFD><0x01>! Você chegou!<0xFB>Desculpe, não vi você. Eu estava\nmatando tempo nessas máquinas<0xB0><0xFB>Esse jogo <0xFC><0x01><0x06>Cloud Burst<0xFC><0x01><0x08> é muito\nviciante, e acho que acabei<0xFA>me distraindo.<0xFB>Mas consegui ganhar fichas para\ncomprar não uma,<0xFA>mas duas <0xFC><0x01><0x06>Ability Capsules<0xFC><0x01><0x08>!<0xFB>Já ouviu falar delas?<0xFB>Pokémon com duas Habilidades\npodem ter uma trocada<0xFA>pela outra.'
+  - offset: "0x1f38960"
+    name: "PT-70 0x1f38960"
+    expected: 'Mas Cloud Burst pode esperar.<0xFB>Vamos conversar lá fora, onde tem\nmenos barulho.'
+  - offset: "0x1f389bb"
+    name: "PT-70 0x1f389bb"
+    expected: 'Certo, aqui deve servir.<0xFB>Bem, escute.<0xFB>Enquanto esperava você, vi vários\ncapangas dos Shadows indo<0xFA>a oeste, rumo às Ruins of Void.<0xFB>Segundo o vovô, só iriam para lá<0xB0><0xFC><0x08><0x18>\nse tivessem<0xFA>tudo de que precisavam<0xFA>para realizar a libertação.<0xFB>Sabe, o ritual necessário para\nliberar a força sombria.<0xFB>Mas não deveria ser possível sem\nZapdos<0xB0><0xFB>Por isso o vovô acha que vão\ntentar a libertação mesmo assim,<0xFA>esperando que o ritual incompleto<0xFA>baste para seus objetivos.<0xFB>É nossa chance de ir lá também e\nrecuperar Articuno<0xFA>e Moltres!<0xFB>É perfeito.<0xFB>Só eles estarão nas ruínas, então\nnão precisamos temer<0xFA>que transformem inocentes<0xFA>naqueles monstros!'
+  - offset: "0x1f38c8f"
+    name: "PT-70 0x1f38c8f"
+    expected: 'Mas antes de tudo, você deve\nconseguir a Insígnia<0xFA>do Ginásio de Dehara City.<0xFB>Precisará dela para usar Surf até\nRuins of Void comigo,<0xFA>já que não há como chegar<0xFA>lá a pé.<0xFB>Certo. Vou para casa preparar\nmeus Pokémon.<0xFB>Enquanto isso, vá buscar essa\nInsígnia.'
+  - offset: "0x1f38db0"
+    name: "PT-70 0x1f38db0"
+    expected: 'Mas o quê-?<0xFB><0xFD><0x01>, cuidado!'
+  - offset: "0x1f38dcd"
+    name: "PT-70 0x1f38dcd"
+    expected: 'Você está bem? O que aconteceu?<0xFB>De repente, um anel estranho\napareceu e fomos sugados para cá<0xB0><0xFB>Fiquei com medo de perder você,\nentão tentei pular atrás<0xB0>'
+  - offset: "0x1f38e6b"
+    name: "PT-70 0x1f38e6b"
+    expected: 'Onde estamos, afinal?<0xFB>Espere<0xB0><0xFC><0x08><0x20> são<0xB0><0xFC><0x08><0x20> as Ruins of Void?'
+  - offset: "0x1f38ea9"
+    name: "PT-70 0x1f38ea9"
+    expected: 'Só pode ser.<0xFB>Veja, são capangas dos Shadows no\nalto da escada!'
+  - offset: "0x1f38eef"
+    name: "PT-70 0x1f38eef"
+    expected: 'Entendido?<0xFB>É aqui que vocês devem resistir.<0xFB>Para garantir a libertação,\naqueles dois não podem subir.<0xFB>Mostrem a eles<0xB0><0xFC><0x08><0x18> o poder da Light\nof Ruin!'
+  - offset: "0x1f38fa1"
+    name: "PT-70 0x1f38fa1"
+    expected: 'Não consigo ouvi-los daqui, mas\nseja lá o que dizem,<0xFA>não pode ser bom!<0xFB>Staraptor!<0xFB>Derrube aqueles Shadows!'
+  - offset: "0x1f39010"
+    name: "PT-70 0x1f39010"
+    expected: 'Staraptor!<0xFB>STARAPTOR!<0xFB>NÃÃÃÃÃO!'
+  - offset: "0x1f3902f"
+    name: "PT-70 0x1f3902f"
+    expected: 'Aquela explosão<0xB0><0xFC><0x08><0x20> destruiu a\nescadaria!<0xFB>E Staraptor foi<0xB0><0xFC><0x08><0x20> Staraptor foi-!<0xFB><0xB0> <0xB0> <0xB0> <0xB0> <0xB0> <0xB0> <0xB0> <0xB0> <0xB0> <0xB0><0xFB>Snif<0xB0><0xFB>Ah<0xB0><0xFC><0x08><0x20> desculpe<0xB0><0xFC><0x08><0x20> está difícil<0xB0><0xFC><0x08><0x20> manter\no foco<0xB0>'
+  - offset: "0x1f390d6"
+    name: "PT-70 0x1f390d6"
+    expected: 'Espere<0xB0><0xFC><0x08><0x18> acho que a explosão\nacabou de revelar uma entrada<0xFA>para as ruínas.'
+  - offset: "0x1f3911d"
+    name: "PT-70 0x1f3911d"
+    expected: 'Entre lá e encontre um caminho até\no topo.<0xFB>Eu<0xB0><0xFC><0x08><0x20> só trouxe Staraptor, então\nnão posso ir junto.<0xFB>Vou<0xB0><0xFC><0x08><0x18> ficar aqui e curar seus\nPokémon, se quiser.'
+  - offset: "0x1f391c9"
+    name: "PT-70 0x1f391c9"
+    expected: 'E por favor<0xB0><0xFC><0x08><0x18> encontre Staraptor.<0xFB>A explosão deve ter machucado\nmuito ele.<0xFB>Quando o encontrar, grite para me\nchamar.'
+  - offset: "0x1f3923c"
+    name: "PT-70 0x1f3923c"
+    expected: 'Voz Etérea'
+  - offset: "0x1f3924b"
+    name: "PT-70 0x1f3924b"
+    expected: '<0xFC><0x01><0x08>VOCÊ QUE BUSCA O CORAÇÃO DO\nTEMPLE OF VOID<0xB0><0xFB>PROVE SEU VALOR CONTRA O\nGUARDIÃO DESTE SOLO SAGRADO!'
+  - offset: "0x1f392c5"
+    name: "PT-70 0x1f392c5"
+    expected: '<0xFC><0x01><0x08>VOCÊ QUE AGORA TEM O DIREITO DE\nPASSAGEM<0xB0><0xFB>SUA PRÓXIMA PROVA ESTÁ MAIS\nADENTRO DESTES SALÕES<0xB0>'
+  - offset: "0x1f39326"
+    name: "PT-70 0x1f39326"
+    expected: 'Ih, não.'
+  - offset: "0x1f3932d"
+    name: "PT-70 0x1f3932d"
+    expected: 'Senhor, <0xFD><0x01> tenta chegar\naqui! <0xFD><0x02> está vindo<0xFA>pelas ruínas!'
+  - offset: "0x1f39377"
+    name: "PT-70 0x1f39377"
+    expected: 'Não importa.<0xFB>Quando <0xFD><0x01> subir, Zeph\nestará pronto para a libertação.<0xFB>Mas, se necessário, quero que\natrase <0xFD><0x01><0xFA>pelo maior tempo possível.'
+  - offset: "0x1f39418"
+    name: "PT-70 0x1f39418"
+    expected: 'Se eu não precisasse de você,\nHoopa, jogaria sua Poké Ball<0xFA>de volta ao oceano por todos<0xFA>os problemas que causou!'
+  - offset: "0x1f39495"
+    name: "PT-70 0x1f39495"
+    expected: 'Tenho um mau pressentimento sobre\naquele Claydol<0xB0>'
+  - offset: "0x1f394c0"
+    name: "PT-70 0x1f394c0"
+    expected: 'Mas o quê<0xB0>?'
+  - offset: "0x1f394cb"
+    name: "PT-70 0x1f394cb"
+    expected: '<0xFC><0x01><0x08>VOCÊS QUE BUSCAM PROFANAR ESTE\nSOLO SAGRADO<0xB0><0xFB>PROVEM SEU VALOR OU SOFRAM MEU\nJULGAMENTO!'
+  - offset: "0x1f39530"
+    name: "PT-70 0x1f39530"
+    expected: 'Hein? Esse Pokémon quer lutar?<0xFB>Lidamos com Shadow Warriors todos\nos dias!<0xFB>Um Pokémon comum não é nada!\nVamos derrubá-lo!'
+  - offset: "0x1f395b2"
+    name: "PT-70 0x1f395b2"
+    expected: 'Ai<0xB0>'
+  - offset: "0x1f395b9"
+    name: "PT-70 0x1f395b9"
+    expected: 'VOCÊS QUE NÃO TÊM O DIREITO<0xB0><0xFB>SUMAM DESTE LUGAR OU SERÃO\nLANÇADOS NO VAZIO!'
+  - offset: "0x1f39608"
+    name: "PT-70 0x1f39608"
+    expected: 'É o Staraptor de Jax.'
+  - offset: "0x1f3961e"
+    name: "PT-70 0x1f3961e"
+    expected: 'Ainda bem<0xB0><0xFC><0x08><0x18> parece que Staraptor\nvai se recuperar.'
+  - offset: "0x1f39664"
+    name: "PT-70 0x1f39664"
+    expected: 'Valeu por encontrar Staraptor para\nmim<0xB0><0xFB><0xB0><0xFB>Desculpe<0xB0><0xFC><0x08><0x20> tive que contar com\nvocê mais uma vez<0xB0><0xFB>Hmm? Ah, não ligue para mim.<0xFB>Enfim, você mandou bem em chegar\ntão alto.<0xFB>Parece que estamos quase no topo.\nFalta pouco para<0xFA>alcançarmos os Shadows.<0xFB>Desculpe por não ser<0xB0><0xFC><0x08><0x18> mais útil<0xB0><0xFB>Mas, ah<0xB0><0xFC><0x08><0x18> se precisar de cura,\nestarei esperando lá fora.'
+  - offset: "0x1f397b5"
+    name: "PT-70 0x1f397b5"
+    expected: '<0xFC><0x01><0x08>VOCÊ QUE BUSCA O CORAÇÃO DO\nTEMPLE OF VOID<0xB0><0xFB>ANTE OS TRÊS, MOSTRE A FORÇA DE\nSEU CORPO E ALMA.'
+  - offset: "0x1f3982c"
+    name: "PT-70 0x1f3982c"
+    expected: 'Você olha para dentro do portal<0xB0><0xFB><0xB0><0xFB>Pokémon tentam atravessar do outro\nlado!<0xFB>Quer enfrentá-los?<0xFB>Atenção: após começar, não haverá\nchance de se recuperar.'
+  - offset: "0x1f398e7"
+    name: "PT-70 0x1f398e7"
+    expected: '<0xFD><0x02> voltou correndo para o\nportal.'
+  - offset: "0x1f39908"
+    name: "PT-70 0x1f39908"
+    expected: 'Outro Pokémon está atravessando o\nportal!'
+  - offset: "0x1f3993e"
+    name: "PT-70 0x1f3993e"
+    expected: '<0xFC><0x01><0x08>VOCÊ QUE AGORA TEM O DIREITO DE\nPASSAGEM<0xB0><0xFB>COM CORPO FORTE E ALMA JUSTA,\nSIGA EM FRENTE!'
+  - offset: "0x1f399a0"
+    name: "PT-70 0x1f399a0"
+    expected: 'Aquele Claydol pode ter nos\nderrubado, mas não<0xFA>vamos deixar você passar<0xFA>sem lutar!<0xFB>Não podemos deixar ninguém\ninterromper a libertação!'
+  - offset: "0x1f39a35"
+    name: "PT-70 0x1f39a35"
+    expected: 'É tudo culpa daquele Claydol<0xB0>'
+  - offset: "0x1f39a54"
+    name: "PT-70 0x1f39a54"
+    expected: 'Ainda não acabou!<0xFB>É minha vez de derrotar você!'
+  - offset: "0x1f39a87"
+    name: "PT-70 0x1f39a87"
+    expected: 'Espere!'
+  - offset: "0x1f39a8d"
+    name: "PT-70 0x1f39a8d"
+    expected: '<0xFD><0x01> tem coisas mais\nimportantes do que lidar com você.<0xFB>Se quer enfrentar alguém, que tal\nse medir comigo!'
+  - offset: "0x1f39b06"
+    name: "PT-70 0x1f39b06"
+    expected: '<0xFD><0x01>!<0xFB>Não sei como é possível, mas pelo\nque eles disseram,<0xFA>os Shadows devem ter<0xFA>capturado Zapdos!<0xFB>Eu cuido desses capangas.<0xFB>Enquanto isso, você precisa\nimpedir os Shadows de realizar<0xFA>essa “libertação”!<0xFB>Rápido! Não há mais tempo!'
+  - offset: "0x1f39c0d"
+    name: "PT-70 0x1f39c0d"
+    expected: '<0xFC><0x01><0x04>Peguei você! Nunca aprende, não\né, criança?'
+  - offset: "0x1f39c40"
+    name: "PT-70 0x1f39c40"
+    expected: 'Ande logo. Você vai querer ver\nisto<0xB0>'
+  - offset: "0x1f39c6e"
+    name: "PT-70 0x1f39c6e"
+    expected: '<0xFC><0x01><0x04>Os preparativos estão concluídos,\nZeph.<0xFB>Pode realizar a libertação quando\nestiver pronto.'
+  - offset: "0x1f39ccc"
+    name: "PT-70 0x1f39ccc"
+    expected: 'Obrigado, Ivory.<0xFB>Só<0xB0><0xFC><0x08><0x18> mais uma coisa, antes de\ncomeçarmos.<0xFB>Marlon<0xB0><0xFC><0x08><0x18> onde ele está,\nexatamente?'
+  - offset: "0x1f39d2f"
+    name: "PT-70 0x1f39d2f"
+    expected: '<0xFC><0x01><0x04>Desculpe, Zeph, ainda não sabemos\nonde ele está.<0xFB>Segundo o capanga que nos trouxe\nZapdos, Marlon saiu para tratar<0xFA>de assuntos não oficiais.<0xFB>O capanga disse que ele não quis\nexplicar, e também não<0xFA>tive notícias dele.'
+  - offset: "0x1f39e20"
+    name: "PT-70 0x1f39e20"
+    expected: 'Hmm<0xB0><0xFC><0x08><0x20> ele ANDA mesmo nervoso\nultimamente<0xB0><0xFB>Espero que não tenha perdido a\ncoragem justo agora.<0xFB>Não queria que ele perdesse tudo\npelo que tanto<0xFA>trabalhamos<0xB0>'
+  - offset: "0x1f39ec5"
+    name: "PT-70 0x1f39ec5"
+    expected: 'Mas, com ou sem ele, a libertação\ndeve prosseguir.'
+  - offset: "0x1f39f06"
+    name: "PT-70 0x1f39f06"
+    expected: 'Enfim<0xB0><0xFC><0x08><0x18> chegou a hora de tornar\nnosso sonho realidade.<0xFB>Quando a força sombria for livre,\nusarei seu poder para desfazer<0xFA>as tragédias de tantos anos atrás<0xB0><0xFB>E então, finalmente<0xB0><0xFC><0x08><0x20> o sorriso\ndele voltará para mim<0xB0>'
+  - offset: "0x1f39fe5"
+    name: "PT-70 0x1f39fe5"
+    expected: 'Guardião das tempestades, Zapdos!\nApareça!'
+  - offset: "0x1f3a00f"
+    name: "PT-70 0x1f3a00f"
+    expected: 'Chama sagrada, Moltres! Apareça!'
+  - offset: "0x1f3a036"
+    name: "PT-70 0x1f3a036"
+    expected: 'Discípulo do gelo, Articuno!\nApareça!'
+  - offset: "0x1f3a061"
+    name: "PT-70 0x1f3a061"
+    expected: 'Com os três Pokémon pássaros\nlendários reunidos ao lado<0xFA>da Prison Stone, o selo<0xFA>pode ser quebrado.'
+  - offset: "0x1f3a0cc"
+    name: "PT-70 0x1f3a0cc"
+    expected: 'Uno com as sombras, uno com a\nnoite<0xB0><0xFB>Um buraco escuro traçado por um\nanel de fúria!<0xFB>Com chaves de gelo, fogo e raio,\nque a força selada não fique<0xFA>mais aprisionada!'
+  - offset: "0x1f3a16b"
+    name: "PT-70 0x1f3a16b"
+    expected: 'Finalmente, a garrafa<0xB0><0xFB>Com isto, a força sombria fica sob\nmeu comando<0xB0>'
+  - offset: "0x1f3a1ae"
+    name: "PT-70 0x1f3a1ae"
+    expected: 'O quê<0xB0>? Nada acontece?<0xFB>Por quê!? A garrafa está aberta<0xB0>!'
+  - offset: "0x1f3a1e6"
+    name: "PT-70 0x1f3a1e6"
+    expected: 'He he he<0xB0>'
+  - offset: "0x1f3a1f3"
+    name: "PT-70 0x1f3a1f3"
+    expected: 'Você<0xB0><0xFC><0x08><0x20> quem pensa que é!?<0xFB>Você sabotou a libertação?<0xFB>Responda!'
+  - offset: "0x1f3a247"
+    name: "PT-70 0x1f3a247"
+    expected: 'Quem, eu?<0xFB>Meu nome é Aklove.<0xFB>Sou apenas um humilde capanga dos\nShadows, nada mais.'
+  - offset: "0x1f3a29d"
+    name: "PT-70 0x1f3a29d"
+    expected: 'Responda à pergunta, capanga!<0xFB>O que você fez!?'
+  - offset: "0x1f3a2cd"
+    name: "PT-70 0x1f3a2cd"
+    expected: 'O que eu fiz<0xB0>?<0xFB>Nada.<0xFB>O ritual não sofreu nenhuma\ninterrupção.<0xFB>Aliás, parabéns pela execução\nquase perfeita.<0xFB>Mas faltava um elemento essencial.'
+  - offset: "0x1f3a389"
+    name: "PT-70 0x1f3a389"
+    expected: 'Faltava<0xB0>?<0xFB>E qual seria, exatamente?'
+  - offset: "0x1f3a3b5"
+    name: "PT-70 0x1f3a3b5"
+    expected: 'Para liberar a força sombria da\nPrison Bottle, é claro,<0xFA>é preciso haver um lugar<0xFA>para esse poder ir.<0xFB>Precisam do Pokémon que ABRIGAVA\na força sombria,<0xFA>algo que, pelo que vejo,<0xFA>vocês não têm.<0xFB>Claro, vocês saberiam disso se eu\nnão tivesse apagado esse<0xFA>detalhe dos seus arquivos.<0xFB>Queria manipular vocês ao me\ninfiltrar na sua organização,<0xFA>mas até me decepcionei:<0xFA>foi ridiculamente fácil!<0xFB>E agora caíram na minha armadilha\ne libertaram a Prison Bottle<0xFA>para mim!<0xFB>Só falta vocês saírem da frente.<0xFB>Eu mesmo concluirei a libertação!'
+  - offset: "0x1f3a61d"
+    name: "PT-70 0x1f3a61d"
+    expected: 'O quê-? Como ousa me fazer de\nidiota!<0xFB>Vai pagar por esse insulto!'
+  - offset: "0x1f3a661"
+    name: "PT-70 0x1f3a661"
+    expected: 'Houndoom!<0xFB>Dê uma lição nesse tolo!'
+  - offset: "0x1f3a685"
+    name: "PT-70 0x1f3a685"
+    expected: 'Hoopa! Elimine a ameaça!'
+  - offset: "0x1f3a69f"
+    name: "PT-70 0x1f3a69f"
+    expected: 'Impossível<0xB0><0xFC><0x08><0x20> Houndoom foi<0xB0><0xFB>Aquele portal<0xB0><0xFC><0x08><0x18> então foi você que\ntrouxe <0xFD><0x01> à nossa base!'
+  - offset: "0x1f3a6f8"
+    name: "PT-70 0x1f3a6f8"
+    expected: 'Na verdade, Hoopa agiu por\nvontade própria.<0xFB>Sabia que estávamos prestes a\nliberar seu poder, então,<0xFA>num ato inútil de desespero,<0xFA>invocou <0xFD><0x01> para<0xFA>resgatá-lo de mim.<0xFB>Pois veja<0xB0><0xFC><0x08><0x18> por razões que não\nentendo, é <0xFD><0x01>, e não eu,<0xFA>que Hoopa prefere como Treinador.<0xFB>Então, naturalmente, quero ver\n<0xFD><0x01> fora do caminho.<0xFB>Sem <0xFD><0x03>, Hoopa terá que\naceitar a MIM como Treinador<0xB0><0xFB>Só então poderei enfim usar seu\nverdadeiro poder, capaz<0xFA>de mover massas de terra inteiras<0xB0>'
+  - offset: "0x1f3a8e7"
+    name: "PT-70 0x1f3a8e7"
+    expected: 'Eu<0xB0><0xFC><0x08><0x20> me rendo<0xB0><0xFB>Não tenho chance contra um\nPokémon como esse<0xB0>'
+  - offset: "0x1f3a922"
+    name: "PT-70 0x1f3a922"
+    expected: 'Uma decisão sábia.<0xFB>Agora, saia da frente!'
+  - offset: "0x1f3a94d"
+    name: "PT-70 0x1f3a94d"
+    expected: 'Desculpe, Ivory<0xB0><0xFB>Não consegui<0xB0><0xFC><0x08><0x18> concluir o que\ncomeçamos<0xB0><0xFB>Mas não é o fim<0xB0><0xFC><0x08><0x18> acharemos outro\njeito de trazê-los de volta<0xB0>'
+  - offset: "0x1f3a9cf"
+    name: "PT-70 0x1f3a9cf"
+    expected: 'E agora, que comece a atração\nprincipal.'
+  - offset: "0x1f3a9f2"
+    name: "PT-70 0x1f3a9f2"
+    expected: 'Hoopa! Chegou a hora!<0xFB>Seu verdadeiro poder está prestes\na sair da Prison Bottle!<0xFB>E como seu Treinador, tenho plena\ncapacidade de controlá-lo!'
+  - offset: "0x1f3aa87"
+    name: "PT-70 0x1f3aa87"
+    expected: '<0xFC><0x01><0x06>Hoo<0xB0><0xFC><0x08><0x10> pa<0xB0>'
+  - offset: "0x1f3aa96"
+    name: "PT-70 0x1f3aa96"
+    expected: 'Enfim<0xB0> Esperei tanto por este\nmomento<0xB0><0xFB>Hoopa!<0xFB>O selo sobre seu poder finalmente\nfoi quebrado!'
+  - offset: "0x1f3aafd"
+    name: "PT-70 0x1f3aafd"
+    expected: '<0xFC><0x01><0x06>Hoo hoo hoo!'
+  - offset: "0x1f3ab0d"
+    name: "PT-70 0x1f3ab0d"
+    expected: 'Aklove! Diga!<0xFB>Que motivo você teria para fazer\ntudo isto?<0xFB>Se temos o mesmo objetivo, talvez\npossamos cooperar!'
+  - offset: "0x1f3ab89"
+    name: "PT-70 0x1f3ab89"
+    expected: 'Tolo<0xB0><0xFC><0x08><0x18> nossos objetivos são\nincompatíveis.<0xFB>Sou descendente do chamado “rei\nestrangeiro” da grande guerra.<0xFB>Só quero concluir o que ele\ncomeçou e vencer a guerra.<0xFB>Agora que o poder de Hoopa está\nlivre, trarei a arma que ele criou<0xFA>e a usarei para fazer chover<0xFA>fogo e destruição sobre Borrius!<0xFB>Então, finalmente, o sofrimento\ndele poderá acabar<0xB0><0xFB>Agora, diga, Zeph. Quais eram seus\nobjetivos?'
+  - offset: "0x1f3ad0f"
+    name: "PT-70 0x1f3ad0f"
+    expected: 'Meus objetivos?<0xFB>Só havia um<0xB0><0xFC><0x08><0x20> um que nunca saiu\ndos meus pensamentos<0xB0><0xFB>Era<0xB0><0xFC><0x08><0x20> vê-lo de novo<0xB0><0xFB>Meu garotinho<0xB0>'
