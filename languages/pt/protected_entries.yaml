@@ -44839,3 +44839,970 @@ entries:
   - offset: "0x1f0ca42"
     name: "PT-64 0x1f0ca42"
     expected: 'Zeph Jr.'
+  - offset: "0x1efe70a"
+    name: "PT-63 0x1efe70a"
+    expected: 'Agradecemos suas compras hoje.<0xFB>A qual andar deseja ir?'
+  - offset: "0x1efe74f"
+    name: "PT-63 0x1efe74f"
+    expected: 'Pois não.'
+  - offset: "0x1efe75a"
+    name: "PT-63 0x1efe75a"
+    expected: 'Ué... Já estamos nesse andar?'
+  - offset: "0x1efe77c"
+    name: "PT-63 0x1efe77c"
+    expected: 'Chegamos ao andar <0xFD><0x02>.'
+  - offset: "0x1efe799"
+    name: "PT-63 0x1efe799"
+    expected: 'Espero atender você novamente.'
+  - offset: "0x1efe7be"
+    name: "PT-63 0x1efe7be"
+    expected: 'Vencer Pokémon mais fortes dá mais\nPontos de Exp.!<0xFB>Usar um Pokémon que já podia\nevoluir, mas não evoluiu,<0xFA>dá ainda mais!'
+  - offset: "0x1efe850"
+    name: "PT-63 0x1efe850"
+    expected: 'Já experimentou este tipo de Poké\nBall?'
+  - offset: "0x1efe877"
+    name: "PT-63 0x1efe877"
+    expected: 'Meus Pokémon gostam muito de mim,\ne o motivo é...<0xFB>Tcharam! Eu os capturei com <0xFC><0x01><0x06>Luxury\nBalls<0xFC><0x01><0x04>!'
+  - offset: "0x1efe8f0"
+    name: "PT-63 0x1efe8f0"
+    expected: 'Ei...<0xFB>Quer pôr um de seus Pokémon em uma\nde suas <0xFC><0x01><0x06>Luxury Balls<0xFC><0x01><0x04>?'
+  - offset: "0x1efe941"
+    name: "PT-63 0x1efe941"
+    expected: 'Qual Pokémon devo colocar numa\nLuxury Ball?'
+  - offset: "0x1efe96e"
+    name: "PT-63 0x1efe96e"
+    expected: 'Se quiser que seu Pokémon goste de\nvocê mais rápido,<0xFA>traga uma Luxury Ball!<0xFB>Trocarei a Poké Ball dele por essa,\nque é mais eficaz.'
+  - offset: "0x1efea11"
+    name: "PT-63 0x1efea11"
+    expected: 'Tudo bem!<0xFB>Se tiver Luxury Balls no Cube,\nposso trocar as Poké Balls<0xFA>dos seus Pokémon quando quiser!'
+  - offset: "0x1efea80"
+    name: "PT-63 0x1efea80"
+    expected: 'Olha só, que sorte!<0xFB><0xFD><0x02> já está numa Luxury\nBall!'
+  - offset: "0x1efeab0"
+    name: "PT-63 0x1efeab0"
+    expected: 'Ah, não!<0xFB>Não posso trocar a Poké Ball de um\nOvo!'
+  - offset: "0x1efeadd"
+    name: "PT-63 0x1efeadd"
+    expected: 'Tcharam!<0xFB><0xFD><0x02> agora está numa Luxury\nBall!<0xFB>Agora ele vai gostar de você muito\nmais rápido!'
+  - offset: "0x1efeb34"
+    name: "PT-63 0x1efeb34"
+    expected: '<0xFC><0x01><0x02>Voltar a <0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x02>?'
+  - offset: "0x1efeb5a"
+    name: "PT-63 0x1efeb5a"
+    expected: 'A areia de Dehara City não veio do\ndeserto.<0xFB>Mesmo ficando ao lado do deserto,\na areia de Dehara City<0xFA>veio do oceano!'
+  - offset: "0x1efebe2"
+    name: "PT-63 0x1efebe2"
+    expected: 'Eu jurava ter visto aquele Pokémon\ndas lendas flutuando<0xFA>por aqui agora mesmo...'
+  - offset: "0x1efec34"
+    name: "PT-63 0x1efec34"
+    expected: 'Aonde pensa que vai?<0xFB>Não pode explorar Great Desert com\nessa roupa!<0xFB>Sem os óculos de proteção\nadequados, não posso<0xFA>deixar você passar.'
+  - offset: "0x1efecd7"
+    name: "PT-63 0x1efecd7"
+    expected: 'Cuidado em Great Desert!'
+  - offset: "0x1efecf6"
+    name: "PT-63 0x1efecf6"
+    expected: 'F<0x46>Distortion World'
+  - offset: "0x1efed09"
+    name: "PT-63 0x1efed09"
+    expected: '<0xFC><0x01><0x02>O Pokémon observa em silêncio\n<0xFD><0x01>...'
+  - offset: "0x1efed2e"
+    name: "PT-63 0x1efed2e"
+    expected: '<0xFC><0x01><0x02>Giratina observa em silêncio\n<0xFD><0x01>...'
+  - offset: "0x1efed50"
+    name: "PT-63 0x1efed50"
+    expected: '<0xFC><0x01><0x06>Giygogagohgwooh!'
+  - offset: "0x1efed64"
+    name: "PT-63 0x1efed64"
+    expected: '<0xFC><0x01><0x02><0xFD><0x02> voou para Distortion\nWorld.'
+  - offset: "0x1efed8e"
+    name: "PT-63 0x1efed8e"
+    expected: 'Pular no portal?'
+  - offset: "0x1efeda4"
+    name: "PT-63 0x1efeda4"
+    expected: 'Nex'
+  - offset: "0x1efeda8"
+    name: "PT-63 0x1efeda8"
+    expected: 'Ah, olá... Sou Nex.<0xFB>Hum... O que você está fazendo\naqui, afinal?<0xFB>Eu esperava um amigo chegar,\nmas...<0xFB>Como? Ninguém mais moraria aqui, em\nDistortion World?<0xFB>Ha ha... É verdade, mas meu amigo\né um caso especial...<0xFB>Mas, se ele ainda não veio, é\nprovável que ele<0xFA>nunca chegue...<0xFB>Não seria estranho. O tempo nem\npassa aqui de verdade.<0xFB>Ei...<0xFB>Você deve ter muita força para vir\naqui por vontade própria.<0xFB>Pode ser meio estranho, dado o\nlugar onde estamos,<0xFA>mas poderia batalhar comigo?'
+  - offset: "0x1efefc6"
+    name: "PT-63 0x1efefc6"
+    expected: 'Mostre a força que permite a você\nse ligar a este mundo!'
+  - offset: "0x1eff009"
+    name: "PT-63 0x1eff009"
+    expected: 'Ah... Você manda BEM mesmo, né?'
+  - offset: "0x1eff02c"
+    name: "PT-63 0x1eff02c"
+    expected: 'Entendo...<0xFB>Pela mudança na estrutura deste\nmundo, pensei que<0xFA>Giratina havia sido derrotado.<0xFB>Mas, vendo a sua força, consigo\nentender como.<0xFB>Nesse caso, tome isto.'
+  - offset: "0x1eff0e3"
+    name: "PT-63 0x1eff0e3"
+    expected: 'Isso permite que Giratina mantenha\nsua forma verdadeira<0xFA>fora de Distortion World.<0xFB>Eu ia entregar a alguém, mas, como\nele não está aqui,<0xFA>é melhor dar a alguém<0xFA>que seja digno, pelo menos.<0xFB>Devo voltar ao meu próprio mundo\nagora.<0xFB>Obrigado pela batalha. Foi legal.'
+  - offset: "0x1eff20e"
+    name: "PT-63 0x1eff20e"
+    expected: 'Entendo... Este mundo não é para os\noutros... Só aquele Pokémon...'
+  - offset: "0x1eff254"
+    name: "PT-63 0x1eff254"
+    expected: 'Dresco Town'
+  - offset: "0x1eff260"
+    name: "PT-63 0x1eff260"
+    expected: 'Dresco Town D'
+  - offset: "0x1eff26e"
+    name: "PT-63 0x1eff26e"
+    expected: 'Dresco Town N'
+  - offset: "0x1eff27c"
+    name: "PT-63 0x1eff27c"
+    expected: 'Trainer House'
+  - offset: "0x1eff28a"
+    name: "PT-63 0x1eff28a"
+    expected: 'Desculpe, mas você não pode entrar\naqui agora.<0xFB>Meu avô está tirando sua soneca\ndiária e não quer<0xFA>que ninguém o incomode.<0xFB>Enfrente o <0xFC><0x01><0x06>Dresco Town Gym<0xFC><0x01><0x08>\nenquanto espera.<0xFB>Lá tem muita neblina. Um movimento\nque mude o clima,<0xFA>como <0xFC><0x01><0x06>Sandstorm<0xFC><0x01><0x08> ou <0xFC><0x01><0x06>Defog<0xFC><0x01><0x08>,<0xFA>poderia ajudar bastante.<0xFB>Agora que penso nisso, um amigo do\nmeu avô queria<0xFA>trocar um <0xFC><0x01><0x06>Ducklett<0xFC><0x01><0x08><0xFA>com Defog outro dia...'
+  - offset: "0x1eff446"
+    name: "PT-63 0x1eff446"
+    expected: 'Viu os adoráveis Pokémon pequeninos\nna <0xFC><0x01><0x06>Route 2<0xFC><0x01><0x04>?<0xFB>Muitos só evoluem quando se apegam\na você.<0xFB>Se capturou um desses Pokémon,\nposso vê-lo?'
+  - offset: "0x1eff4f6"
+    name: "PT-63 0x1eff4f6"
+    expected: 'Qual dos seus Pokémon evolui ao se\napegar ao Treinador?'
+  - offset: "0x1eff539"
+    name: "PT-63 0x1eff539"
+    expected: 'Isso! Esse Pokémon só evolui\nquando se apega a você!<0xFB>A evolução costuma demorar, mas,\nse ele segurar isto,<0xFA>vai se apegar a você<0xFA>bem mais rápido!'
+  - offset: "0x1eff5ec"
+    name: "PT-63 0x1eff5ec"
+    expected: 'Muita gente em Borrius é tão\namigável quanto eu.<0xFB>Então não hesite em falar com todos\nque encontrar!'
+  - offset: "0x1eff64f"
+    name: "PT-63 0x1eff64f"
+    expected: 'Há vários Pokémon na <0xFC><0x01><0x06>Route 2<0xFC><0x01><0x04> que\nsó evoluem<0xFA>ao se apegarem a você.<0xFB>Se capturar um e me mostrar, vou\ndar algo legal a você.'
+  - offset: "0x1eff6e9"
+    name: "PT-63 0x1eff6e9"
+    expected: 'Não, desculpe!<0xFB>Não é um dos Pokémon dos quais eu\nestava falando.'
+  - offset: "0x1eff728"
+    name: "PT-63 0x1eff728"
+    expected: 'Não, desculpe!<0xFB>Não estava falando de um Ovo.'
+  - offset: "0x1eff75b"
+    name: "PT-63 0x1eff75b"
+    expected: 'Leitura Básica'
+  - offset: "0x1eff76a"
+    name: "PT-63 0x1eff76a"
+    expected: 'Pratique a leitura lendo todas\nas placas de dicas ao\nTreinador.'
+    forbidden:
+      - 'Pratique a leitura lendo todas as placas de dicas ao Treinador.'
+  - offset: "0x1eff7ac"
+    name: "PT-63 0x1eff7ac"
+    expected: 'Você sabe ler? Nem todo mundo\nsabe.<0xFB>Eu não sei e já repeti o primeiro\nano algumas vezes.<0xFB>Pode me mostrar o incrível poder\nda leitura básica?<0xFB>As placas de dicas ao Treinador\nservem de exemplo de palavras.'
+  - offset: "0x1eff87d"
+    name: "PT-63 0x1eff87d"
+    expected: 'Legal! Leia todas as <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> placas de\n<0xFC><0x01><0x06>dicas ao Treinador<0xFC><0x01><0x08><0xFA>até o fim para demonstrar<0xFA>esse poder direito.<0xFB>Se sair antes de terminar uma\nplaca, não vai contar!'
+  - offset: "0x1eff932"
+    name: "PT-63 0x1eff932"
+    expected: 'Entendi, você também não lê.<0xFB>Podemos nos comunicar com sons de\n8 bits, então.'
+  - offset: "0x1eff983"
+    name: "PT-63 0x1eff983"
+    expected: 'Você só leu <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> placa<0xFD><0x07> de dicas ao\nTreinador até o fim.<0xFB>Ainda quero ver mais <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> exemplo<0xFD><0x08>\ndesse grande poder.'
+  - offset: "0x1effa00"
+    name: "PT-63 0x1effa00"
+    expected: 'Obrigado por demonstrar o poder da\nleitura básica.<0xFB>Você mostrou que é exagerado. Vou\nlargar a escola<0xFA>e virar um roqueiro punk.<0xFB>Mas antes, pegue este livro.<0xFB>Acho que o nome do dono está\ndentro, mas ainda não sei ler...'
+  - offset: "0x1effb08"
+    name: "PT-63 0x1effb08"
+    expected: 'Quem precisa de escola com o poder\nda música e da revolta?'
+  - offset: "0x1effb46"
+    name: "PT-63 0x1effb46"
+    expected: 'Placa lida ao lado da sua\ncasa.'
+    forbidden:
+      - 'Placa lida ao lado da sua casa.'
+  - offset: "0x1effb79"
+    name: "PT-63 0x1effb79"
+    expected: 'Placa lida perto de Bellin\nTown, na estrada rápida da\nmontanha.'
+    forbidden:
+      - 'Placa lida perto de Bellin Town, na estrada rápida da montanha.'
+  - offset: "0x1effbc5"
+    name: "PT-63 0x1effbc5"
+    expected: 'Placa lida junto ao caminho de\nentrada da cidade.'
+    forbidden:
+      - 'Placa lida junto ao caminho de entrada da cidade.'
+  - offset: "0x1effc00"
+    name: "PT-63 0x1effc00"
+    expected: 'Placa lida no 3F, perto da\nágua.'
+    forbidden:
+      - 'Placa lida no 3F, perto da água.'
+  - offset: "0x1effc34"
+    name: "PT-63 0x1effc34"
+    expected: 'Placa lida no 3F, perto de\nChansey.'
+    forbidden:
+      - 'Placa lida no 3F, perto de Chansey.'
+  - offset: "0x1effc6a"
+    name: "PT-63 0x1effc6a"
+    expected: 'Placa lida no 2F, na última\nescada que desce.'
+    forbidden:
+      - 'Placa lida no 2F, na última escada que desce.'
+  - offset: "0x1effcaf"
+    name: "PT-63 0x1effcaf"
+    expected: 'Placa lida logo ao sul da\nentrada de Icicle Cave.'
+    forbidden:
+      - 'Placa lida logo ao sul da entrada de Icicle Cave.'
+  - offset: "0x1effcfb"
+    name: "PT-63 0x1effcfb"
+    expected: 'Placa lida antes da ponte para\na cidade, vindo da Route 2.'
+    forbidden:
+      - 'Placa lida antes da ponte para a cidade, vindo da Route 2.'
+  - offset: "0x1effd49"
+    name: "PT-63 0x1effd49"
+    expected: 'Placa lida na praia ao norte,\nperto de Flower Paradise.'
+    forbidden:
+      - 'Placa lida na praia ao norte, perto de Flower Paradise.'
+  - offset: "0x1effd93"
+    name: "PT-63 0x1effd93"
+    expected: 'Placa lida no caminho logo\nfora da saída oeste de Grim\nWoods.'
+    forbidden:
+      - 'Placa lida no caminho logo fora da saída oeste de Grim Woods.'
+  - offset: "0x1effde9"
+    name: "PT-63 0x1effde9"
+    expected: 'Placa lida após a saída\nsuperior oeste de Cinder\nVolcano.'
+    forbidden:
+      - 'Placa lida após a saída superior oeste de Cinder Volcano.'
+  - offset: "0x1effe3e"
+    name: "PT-63 0x1effe3e"
+    expected: 'Placa lida no 4F, entre a\nAroma Lady e o Worker.'
+    forbidden:
+      - 'Placa lida no 4F, entre a Aroma Lady e o Worker.'
+  - offset: "0x1effe87"
+    name: "PT-63 0x1effe87"
+    expected: 'Placa lida no mato alto, perto\nda poça no meio da rota.'
+    forbidden:
+      - 'Placa lida no mato alto, perto da poça no meio da rota.'
+  - offset: "0x1effee5"
+    name: "PT-63 0x1effee5"
+    expected: 'Placa lida no mato alto, perto\nde Crater Town.'
+    forbidden:
+      - 'Placa lida no mato alto, perto de Crater Town.'
+  - offset: "0x1efff29"
+    name: "PT-63 0x1efff29"
+    expected: 'Placa lida logo a leste da\nponte que vem de Valley Cave.'
+    forbidden:
+      - 'Placa lida logo a leste da ponte que vem de Valley Cave.'
+  - offset: "0x1efff7a"
+    name: "PT-63 0x1efff7a"
+    expected: 'Placa lida logo ao sul da\nponte para Frost Mountain.'
+    forbidden:
+      - 'Placa lida logo ao sul da ponte para Frost Mountain.'
+  - offset: "0x1efffd1"
+    name: "PT-63 0x1efffd1"
+    expected: 'Placa lida perto da saída da\nmontanha para a Route 7.'
+    forbidden:
+      - 'Placa lida perto da saída da montanha para a Route 7.'
+  - offset: "0x1f00018"
+    name: "PT-63 0x1f00018"
+    expected: 'Placa lida perto do gelo\nescorregadio, no sul da rota.'
+    forbidden:
+      - 'Placa lida perto do gelo escorregadio, no sul da rota.'
+  - offset: "0x1f0006a"
+    name: "PT-63 0x1f0006a"
+    expected: 'Placa lida perto de Chansey,\nno extremo sul da rota.'
+    forbidden:
+      - 'Placa lida perto de Chansey, no extremo sul da rota.'
+  - offset: "0x1f000b8"
+    name: "PT-63 0x1f000b8"
+    expected: 'Placa lida perto de Cave of\nBeing.'
+    forbidden:
+      - 'Placa lida perto de Cave of Being.'
+  - offset: "0x1f000ee"
+    name: "PT-63 0x1f000ee"
+    expected: 'Placa lida perto das pedras de\nsalto, a leste.'
+    forbidden:
+      - 'Placa lida perto das pedras de salto, a leste.'
+  - offset: "0x1f0012c"
+    name: "PT-63 0x1f0012c"
+    expected: 'Placa lida no mato alto, perto\ndo topo do penhasco.'
+    forbidden:
+      - 'Placa lida no mato alto, perto do topo do penhasco.'
+  - offset: "0x1f00179"
+    name: "PT-63 0x1f00179"
+    expected: 'Placa lida ao lado da estátua\nde Zapdos.'
+    forbidden:
+      - 'Placa lida ao lado da estátua de Zapdos.'
+  - offset: "0x1f001b7"
+    name: "PT-63 0x1f001b7"
+    expected: 'Placa lida no 3F, na sala com\nágua e placas de pressão.'
+    forbidden:
+      - 'Placa lida no 3F, na sala com água e placas de pressão.'
+  - offset: "0x1f00200"
+    name: "PT-63 0x1f00200"
+    expected: 'Placa lida após descer a\nsegunda escadaria vindo de\nTarmigan Town.'
+    forbidden:
+      - 'Placa lida após descer a segunda escadaria vindo de Tarmigan Town.'
+  - offset: "0x1f0025e"
+    name: "PT-63 0x1f0025e"
+    expected: 'Placa lida na entrada da\ncidade, ao sul do Centro\nPokémon.'
+    forbidden:
+      - 'Placa lida na entrada da cidade, ao sul do Centro Pokémon.'
+  - offset: "0x1f002b1"
+    name: "PT-63 0x1f002b1"
+    expected: 'Placa lida na ilhota a caminho\nda Route 14, ao sul.'
+    forbidden:
+      - 'Placa lida na ilhota a caminho da Route 14, ao sul.'
+  - offset: "0x1f00311"
+    name: "PT-63 0x1f00311"
+    expected: 'Placa lida na ilhota perto de\nRuins of Void.'
+    forbidden:
+      - 'Placa lida na ilhota perto de Ruins of Void.'
+  - offset: "0x1f0035d"
+    name: "PT-63 0x1f0035d"
+    expected: 'Placa lida junto aos ossos\nsecos, ao norte do cânion\ncentral.'
+    forbidden:
+      - 'Placa lida junto aos ossos secos, ao norte do cânion central.'
+  - offset: "0x1f003b1"
+    name: "PT-63 0x1f003b1"
+    expected: 'Placa lida no meio da mata,\nlogo a oeste do Medium.'
+    forbidden:
+      - 'Placa lida no meio da mata, logo a oeste do Medium.'
+  - offset: "0x1f00406"
+    name: "PT-63 0x1f00406"
+    expected: 'Placa lida em terreno rochoso,\nno norte da rota.'
+    forbidden:
+      - 'Placa lida em terreno rochoso, no norte da rota.'
+  - offset: "0x1f00454"
+    name: "PT-63 0x1f00454"
+    expected: 'Placa lida no rochedo, com\nSurf, a oeste da Route 17.'
+    forbidden:
+      - 'Placa lida no rochedo, com Surf, a oeste da Route 17.'
+  - offset: "0x1f004b0"
+    name: "PT-63 0x1f004b0"
+    expected: 'Placa lida na grama ao norte,\nvindo de Antisis City.'
+    forbidden:
+      - 'Placa lida na grama ao norte, vindo de Antisis City.'
+  - offset: "0x1f00503"
+    name: "PT-63 0x1f00503"
+    expected: 'Placa lida nos penhascos,\nperto do Sky Trainer, no meio\nda rota.'
+    forbidden:
+      - 'Placa lida nos penhascos, perto do Sky Trainer, no meio da rota.'
+  - offset: "0x1f00560"
+    name: "PT-63 0x1f00560"
+    expected: 'Placa lida após o guarda, na\nsubida para Victory Road.'
+    forbidden:
+      - 'Placa lida após o guarda, na subida para Victory Road.'
+  - offset: "0x1f005ae"
+    name: "PT-63 0x1f005ae"
+    expected: 'Placa lida na subida para a\nentrada da Liga.'
+    forbidden:
+      - 'Placa lida na subida para a entrada da Liga.'
+  - offset: "0x1f005f8"
+    name: "PT-63 0x1f005f8"
+    expected: 'Placa lida perto da primeira\nescada, perto de Polder Town.'
+    forbidden:
+      - 'Placa lida perto da primeira escada, perto de Polder Town.'
+  - offset: "0x1f00642"
+    name: "PT-63 0x1f00642"
+    expected: 'Placa lida junto às árvores no\ncaminho alagado que sobe para\nCrystal Peak.'
+    forbidden:
+      - 'Placa lida junto às árvores no caminho alagado que sobe para Crystal Peak.'
+  - offset: "0x1f006a4"
+    name: "PT-63 0x1f006a4"
+    expected: 'Placa lida na sala grande do\n1F, perto do lago.'
+    forbidden:
+      - 'Placa lida na sala grande do 1F, perto do lago.'
+  - offset: "0x1f006eb"
+    name: "PT-63 0x1f006eb"
+    expected: 'Placa lida entre árvores, no\nlado oeste da rota.'
+    forbidden:
+      - 'Placa lida entre árvores, no lado oeste da rota.'
+  - offset: "0x1f0073f"
+    name: "PT-63 0x1f0073f"
+    expected: 'Placa lida perto da saída para\nRedwood Village.'
+    forbidden:
+      - 'Placa lida perto da saída para Redwood Village.'
+  - offset: "0x1f0077f"
+    name: "PT-63 0x1f0077f"
+    expected: 'Placa lida perto do Youngster\ne da Aroma Lady, no meio da\nfloresta.'
+    forbidden:
+      - 'Placa lida perto do Youngster e da Aroma Lady, no meio da floresta.'
+  - offset: "0x1f007dc"
+    name: "PT-63 0x1f007dc"
+    expected: 'Placa lida perto da saída para\nCube Corp.'
+    forbidden:
+      - 'Placa lida perto da saída para Cube Corp.'
+  - offset: "0x1f00816"
+    name: "PT-63 0x1f00816"
+    expected: 'Placa lida no lado oeste do\nprédio.'
+    forbidden:
+      - 'Placa lida no lado oeste do prédio.'
+  - offset: "0x1f00858"
+    name: "PT-63 0x1f00858"
+    expected: 'Placa lida no lado leste do\nprédio.'
+    forbidden:
+      - 'Placa lida no lado leste do prédio.'
+  - offset: "0x1f0089a"
+    name: "PT-63 0x1f0089a"
+    expected: 'Olha só!<0xFB>Dá para ver Dehara City daqui!<0xFB>É tão perto que nem há uma rota\nentre os dois lugares!'
+  - offset: "0x1f0090b"
+    name: "PT-63 0x1f0090b"
+    expected: 'Já visitou a <0xFC><0x01><0x06>Trainer House<0xFC><0x01><0x08> de\nDresco Town?<0xFB>É o prédio preto e azul no extremo\nsul da cidade.<0xFB>Lá você pode enfrentar os\nTreinadores à vontade.<0xFB>Dizem que eles ficam mais fortes\nconforme você também melhora.'
+  - offset: "0x1f009ec"
+    name: "PT-63 0x1f009ec"
+    expected: 'Esta estátua é de Moltres, a ave\nde fogo lendária.<0xFB>Dizem que vive em algum lugar de\n<0xFC><0x01><0x06>Cinder Volcano<0xFC><0x01><0x04> e ilumina o céu<0xFA>com suas chamas à noite.'
+  - offset: "0x1f00a8e"
+    name: "PT-63 0x1f00a8e"
+    expected: 'Vê aquela Poké Ball amarela ali\nembaixo?<0xFB>É uma <0xFC><0x01><0x06>TM<0xFC><0x01><0x04>! Ela ensina um movimento\naos seus Pokémon quantas<0xFA>vezes você quiser!<0xFB>Ao obter uma, abra o TM Case e\nprocure o movimento que<0xFA>quer ensinar.<0xFB>Durante a busca, os Pokémon da\nequipe capazes de aprender<0xFA>o movimento ficam destacados.<0xFB>Assim, você não precisa conferir a\nequipe toda vez que quiser<0xFA>ensinar um movimento!'
+  - offset: "0x1f00c0a"
+    name: "PT-63 0x1f00c0a"
+    expected: 'Ao obter uma <0xFC><0x01><0x06>TM<0xFC><0x01><0x04>, abra o TM Case e\nprocure o movimento que<0xFA>quer ensinar.<0xFB>Durante a busca, os Pokémon da\nequipe capazes de aprender<0xFA>o movimento ficam destacados.<0xFB>Assim, você não precisa conferir a\nequipe toda vez que quiser<0xFA>ensinar um movimento!'
+  - offset: "0x1f00d02"
+    name: "PT-63 0x1f00d02"
+    expected: 'Sabe o que é uma <0xFC><0x01><0x06>Gem<0xFC><0x01><0x08>?'
+  - offset: "0x1f00d23"
+    name: "PT-63 0x1f00d23"
+    expected: 'Gem é um item especial que o\nPokémon segura para fortalecer<0xFA>um único ataque na batalha.<0xFB>Cada Gem tem um tipo específico e\nsó fortalece movimentos<0xFA>daquele tipo.<0xFB>Gems somem após o uso, mas, como a\nmaioria dos consumíveis,<0xFA>são devolvidas após<0xFA>batalhas importantes, como as<0xFA>contra Líderes de Ginásio.<0xFB>A maioria dos Líderes de Borrius\ntem ao menos um Pokémon<0xFA>segurando uma Gem. Cuidado!<0xFB>Se isso preocupa você, use o\nmovimento <0xFC><0x01><0x06>Incinerate<0xFC><0x01><0x08> para<0xFA>derreter a Gem antes que eles<0xFA>tenham a chance de usá-la.'
+  - offset: "0x1f00f39"
+    name: "PT-63 0x1f00f39"
+    expected: 'Você deve ter muita experiência\ncomo Treinador.'
+  - offset: "0x1f00f5d"
+    name: "PT-63 0x1f00f5d"
+    expected: 'Esta entrada para a KBT Expressway\né bem recente.<0xFB>A ponte que leva até ela ainda\nestá em construção.'
+  - offset: "0x1f00fc4"
+    name: "PT-63 0x1f00fc4"
+    expected: 'Grim Woods fica a oeste de Dresco\nTown.<0xFB>Lá há muitos Pokémon legais dos\ntipos Inseto e Fantasma.<0xFB>Vá dar uma olhada quando tiver uma\nchance.'
+  - offset: "0x1f01059"
+    name: "PT-63 0x1f01059"
+    expected: 'Ei, você!<0xFB>Treinador!<0xFB>Espere!'
+  - offset: "0x1f01074"
+    name: "PT-63 0x1f01074"
+    expected: 'Isso no seu bolso é um Super Cube?<0xFB>...<0xFB>É mesmo!<0xFB>Você é exatamente a pessoa que eu\nestava procurando!<0xFB>Por favor, venha comigo.'
+  - offset: "0x1f010e6"
+    name: "PT-63 0x1f010e6"
+    expected: 'A Liga Pokémon está exibindo um\nespecial sobre Borrius.<0xFB>Quer assistir? (Igual à cena de\nabertura)'
+  - offset: "0x1f0115c"
+    name: "PT-63 0x1f0115c"
+    expected: 'Jax,\n\nLevei seu avô às\n<0xFC><0x01><0x06>profundezas<0xFC><0x01><0x02> de <0xFC><0x01><0x06>Ruins of Void<0xFC><0x01><0x02>.\n\nVenha sozinho se quiser\nvê-lo de novo.\n\n-A'
+  - offset: "0x1f011e5"
+    name: "PT-63 0x1f011e5"
+    expected: '<0xFD><0x01>, que roupa esplêndida\nvocê está usando!<0xFB>Lembra a que eu usava quando era\no Campeão!<0xFB>Ah, quantas lembranças...'
+  - offset: "0x1f01267"
+    name: "PT-63 0x1f01267"
+    expected: 'Olá, Treinador.<0xFB>Espere...<0xFB>Será que...<0xFB>Você é <0xFD><0x03> do lendário\nTreinador <0xFC><0x01><0x06>Aros<0xFC><0x01><0x08>?'
+  - offset: "0x1f012bd"
+    name: "PT-63 0x1f012bd"
+    expected: 'Você é <0xFD><0x03> dele!<0xFB>Eu sabia que meus olhos não me\nenganavam!<0xFB>Seu pai era, em poucas palavras,\num homem incrível.<0xFB>Se você se apresentasse às pessoas\ncomo <0xFD><0x03> dele,<0xFA>certamente receberia<0xFA>muito carinho de imediato.<0xFB>Poucos nunca ouviram falar dos\ngrandes feitos dele.<0xFB>É uma pena que tenha sumido.<0xFB>Se alguém soubesse o que houve\ncom ele, eu finalmente teria<0xFA>um pouco de paz.'
+  - offset: "0x1f0144f"
+    name: "PT-63 0x1f0144f"
+    expected: 'Se alguém pudesse me contar o que\nhouve com seu pai...<0xFB>Isso me traria um pouco de paz.'
+  - offset: "0x1f014b6"
+    name: "PT-63 0x1f014b6"
+    expected: 'O quê? Sabe o que aconteceu com\nAros?<0xFB>Por favor! Você precisa me contar!<0xFB>...'
+  - offset: "0x1f014f8"
+    name: "PT-63 0x1f014f8"
+    expected: 'Dentro de um Cube!<0xFB>Você está brincando comigo!<0xFB>Eu me recuso a acreditar!'
+  - offset: "0x1f01536"
+    name: "PT-63 0x1f01536"
+    expected: 'Hmm...<0xFB>Mas imagino que esteja dizendo a\nverdade.<0xFB>Você não tem motivo para mentir\npara mim.'
+  - offset: "0x1f01585"
+    name: "PT-63 0x1f01585"
+    expected: 'Por favor, aceite este item como\nagradecimento por me<0xFA>trazer um pouco de paz.<0xFB>Talvez não ajude seu pai, mas deve\najudar você se<0xFA>encontrar uma das criaturas<0xFA>que seu pai pediu para<0xFA>você desmantelar.'
+  - offset: "0x1f01663"
+    name: "PT-63 0x1f01663"
+    expected: 'Ah. Eu podia jurar que era...<0xFB>Minha visão deve estar piorando com\na idade.'
+  - offset: "0x1f016ad"
+    name: "PT-63 0x1f016ad"
+    expected: 'Olá, <0xFD><0x03> de Aros. Espero\nque a viagem vá bem.'
+  - offset: "0x1f016e4"
+    name: "PT-63 0x1f016e4"
+    expected: 'Não Desligue'
+  - offset: "0x1f016fd"
+    name: "PT-63 0x1f016fd"
+    expected: 'Salve vidas: salve o jogo ao\nmenos <0xFD><0x02> vezes.'
+    forbidden:
+      - 'Salve vidas: salve o jogo ao menos <0xFD><0x02> vezes.'
+  - offset: "0x1f01739"
+    name: "PT-63 0x1f01739"
+    expected: 'Sabia que, ao desligar seu console\nsem salvar, uma<0xFA>bomba poderosa explode e<0xFA>destrói nosso mundo inteiro?<0xFB>Você nem nota: uma dimensão\nparalela é criada sempre que<0xFA>você recarrega o jogo.<0xFB>Por favor, prometa não destruir\nmais nosso mundo.<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> vezes provarão sua promessa.'
+  - offset: "0x1f01867"
+    name: "PT-63 0x1f01867"
+    expected: 'Obrigado por concordar em não\ncausar outro apocalipse.<0xFB>Vou recompensar você após <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>\nsalvamentos manuais.'
+  - offset: "0x1f018e5"
+    name: "PT-63 0x1f018e5"
+    expected: 'Tem gente que só quer ver o mundo\npegar fogo...'
+  - offset: "0x1f01914"
+    name: "PT-63 0x1f01914"
+    expected: 'Você já salvou <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> mundo<0xFD><0x07>.<0xFB>Mas só vou acreditar na sua\npromessa de não agressão se<0xFA>salvar mais <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> mundo<0xFD><0x08>.'
+  - offset: "0x1f0199c"
+    name: "PT-63 0x1f0199c"
+    expected: 'Aqui está sua recompensa por não\ndestruir nosso mundo.<0xFB>É uma relíquia de um mundo\ndestruído por uma criança egoísta.<0xFB>Por favor, não nos faça passar por\nisso de novo...'
+  - offset: "0x1f01a3a"
+    name: "PT-63 0x1f01a3a"
+    expected: 'Lembre-se de salvar antes de\ndesligar!<0xFB>Ou todos teremos uma morte lenta e\ndolorosa...'
+  - offset: "0x1f01a98"
+    name: "PT-63 0x1f01a98"
+    expected: 'Olá!<0xFB>Você tem um raro Pokémon do tipo\n<0xFC><0x01><0x06>Gelo<0xFC><0x01><0x08>, o <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>?<0xFB>Sempre tive dificuldade para\nconseguir um.<0xFB>Se tiver, aceitaria trocá-lo pelo\nmeu <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>?<0xFB>Ele será muito útil em batalhas na\nneblina.'
+  - offset: "0x1f01b8a"
+    name: "PT-63 0x1f01b8a"
+    expected: 'Bem, se você não quer...'
+  - offset: "0x1f01ba6"
+    name: "PT-63 0x1f01ba6"
+    expected: 'Hmmm? Não é do tipo <0xFC><0x01><0x06>Gelo<0xFC><0x01><0x08>, o\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> que eu quero.<0xFB>Lembre de mim se conseguir um.'
+  - offset: "0x1f01bef"
+    name: "PT-63 0x1f01bef"
+    expected: 'Muito obrigado.<0xFB>O <0xFD><0x03> que lhe dei sabe\n<0xFC><0x01><0x06>Defog<0xFC><0x01><0x08>, que você pode usar<0xFA>para tirar a neblina do Ginásio!'
+  - offset: "0x1f01c56"
+    name: "PT-63 0x1f01c56"
+    expected: 'Muito obrigado.'
+  - offset: "0x1f01c63"
+    name: "PT-63 0x1f01c63"
+    expected: 'O <0xFD><0x03> que troquei com você\ntem sido útil?'
+  - offset: "0x1f01c94"
+    name: "PT-63 0x1f01c94"
+    expected: 'Quando jovem, meu marido viajava\npelo mundo em<0xFA>busca de Pokémon raros.<0xFB>Infelizmente, precisou parar suas\nbuscas ao ser atingido<0xFA>por uma doença inesperada.<0xFB>Se você tiver o Pokémon que ele\nprocura, poderia<0xFA>trocá-lo com ele?<0xFB>O médico diz que isso pode\nacelerar a recuperação.'
+  - offset: "0x1f01dcb"
+    name: "PT-63 0x1f01dcb"
+    expected: 'Treinador, obrigada por trocar\nPokémon com meu marido!<0xFB>Graças a você, parece que ele logo\nvai se recuperar<0xFA>totalmente da doença.<0xFB>Aceite isto como agradecimento pelo\nque fez por ele!'
+  - offset: "0x1f01e9b"
+    name: "PT-63 0x1f01e9b"
+    expected: 'Meu marido está a caminho de uma\nrecuperação completa.<0xFB>Obrigada de novo, Treinador! Nossa\ngratidão será eterna.'
+  - offset: "0x1f01f06"
+    name: "PT-63 0x1f01f06"
+    expected: 'Posso ajudar em algo?'
+  - offset: "0x1f01f25"
+    name: "PT-63 0x1f01f25"
+    expected: 'Enfrente nossos Treinadores quantas\nvezes quiser.<0xFB>Se quiser enfrentar alguém de novo,\nsaia e depois<0xFA>volte para cá.<0xFB>Aproveite!'
+  - offset: "0x1f01fc4"
+    name: "PT-63 0x1f01fc4"
+    expected: 'Devo ficar na frente da porta?'
+  - offset: "0x1f01fe8"
+    name: "PT-63 0x1f01fe8"
+    expected: 'Devo ficar ao lado da porta?'
+  - offset: "0x1f02008"
+    name: "PT-63 0x1f02008"
+    expected: 'Aproveite!'
+  - offset: "0x1f02019"
+    name: "PT-63 0x1f02019"
+    expected: 'Mudar posição'
+  - offset: "0x1f02029"
+    name: "PT-63 0x1f02029"
+    expected: 'Meus ataques especiais de <0xFC><0x01><0x06>Fogo<0xFC><0x01><0x08> vão\nreduzir você a cinzas!'
+  - offset: "0x1f0205f"
+    name: "PT-63 0x1f0205f"
+    expected: 'Você apagou minha chama.'
+  - offset: "0x1f0207d"
+    name: "PT-63 0x1f0207d"
+    expected: 'Glub, glub... Pokémon <0xFC><0x01><0x06>Normal<0xFC><0x01><0x08> são\numa dieta saudável!'
+  - offset: "0x1f020b0"
+    name: "PT-63 0x1f020b0"
+    expected: 'Glub, glub... Hora de comer!'
+  - offset: "0x1f020c8"
+    name: "PT-63 0x1f020c8"
+    expected: 'Meus velozes Pokémon de <0xFC><0x01><0x06>Água<0xFC><0x01><0x04> vão\nencharcar você!'
+  - offset: "0x1f020fe"
+    name: "PT-63 0x1f020fe"
+    expected: 'Você secou minha água.'
+  - offset: "0x1f02118"
+    name: "PT-63 0x1f02118"
+    expected: 'Meus resistentes Pokémon de <0xFC><0x01><0x06>Planta<0xFC><0x01><0x04>\nvão me ajudar a vencer!'
+  - offset: "0x1f02145"
+    name: "PT-63 0x1f02145"
+    expected: 'Meus Pokémon de Planta não me\najudaram.'
+  - offset: "0x1f02164"
+    name: "PT-63 0x1f02164"
+    expected: 'Prove minha fúria física do tipo\n<0xFC><0x01><0x06>Sombrio<0xFC><0x01><0x08>!'
+  - offset: "0x1f02187"
+    name: "PT-63 0x1f02187"
+    expected: 'Isso foi bullying...'
+  - offset: "0x1f02197"
+    name: "PT-63 0x1f02197"
+    expected: '<0xFC><0x01><0x04>Meus poderes <0xFC><0x01><0x06>Psíquicos<0xFC><0x01><0x04> reforçam\nminha defesa mental!'
+  - offset: "0x1f021cd"
+    name: "PT-63 0x1f021cd"
+    expected: 'Minha defesa mental foi quebrada.'
+  - offset: "0x1f021ee"
+    name: "PT-63 0x1f021ee"
+    expected: 'Se quiser me enfrentar de novo,\nsaia e volte para cá.'
+  - offset: "0x1f0222a"
+    name: "PT-63 0x1f0222a"
+    expected: '<0xFC><0x01><0x04>Se quiser me enfrentar de novo,\nsaia e volte para cá.'
+  - offset: "0x1f02458"
+    name: "PT-63 0x1f02458"
+    expected: 'Uau, <0xFD><0x04>...<0xFB>Bem-vindo ao Soil.<0xFB>Fique à vontade pelo tempo que\nquiser, <0xFD><0x04>.<0xFB>Respire este ar tão bom...'
+  - offset: "0x1f0255f"
+    name: "PT-63 0x1f0255f"
+    expected: 'Sou o único com a cabeça no lugar\npor aqui.<0xFB>Traga <0xFC><0x01><0x06>Oddish<0xFC><0x01><0x08>, e eu colho as folhas\npara fazer uma<0xFA>boa névoa para seus Pokémon.'
+  - offset: "0x1f025ef"
+    name: "PT-63 0x1f025ef"
+    expected: 'Tem alguns Oddish para mim?'
+  - offset: "0x1f0260f"
+    name: "PT-63 0x1f0260f"
+    expected: 'Escolher na equipe'
+  - offset: "0x1f02621"
+    name: "PT-63 0x1f02621"
+    expected: 'Todos da equipe'
+  - offset: "0x1f0262e"
+    name: "PT-63 0x1f0262e"
+    expected: 'Todos da Box'
+  - offset: "0x1f0263c"
+    name: "PT-63 0x1f0263c"
+    expected: 'Qual Oddish vai me dar?'
+  - offset: "0x1f0265b"
+    name: "PT-63 0x1f0265b"
+    expected: 'Quer me dar <0xFD><0x02>?'
+  - offset: "0x1f02673"
+    name: "PT-63 0x1f02673"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> entregou <0xFD><0x02> ao\nCientista.'
+  - offset: "0x1f0269a"
+    name: "PT-63 0x1f0269a"
+    expected: 'Quer me dar os <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Oddish da sua\nequipe?'
+  - offset: "0x1f026d1"
+    name: "PT-63 0x1f026d1"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> entregou <0xFD><0x02> Oddish ao\nCientista.'
+  - offset: "0x1f026ff"
+    name: "PT-63 0x1f026ff"
+    expected: 'Quer me dar os <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> Oddish da Box\n“<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>”?'
+  - offset: "0x1f0273a"
+    name: "PT-63 0x1f0273a"
+    expected: 'Agora tenho Oddish suficientes para\nfazer uma névoa para<0xFA>seus Pokémon!<0xFB>Só um segundo...'
+  - offset: "0x1f0279b"
+    name: "PT-63 0x1f0279b"
+    expected: 'Mmm...<0xFB>Que cheiro bom...<0xFB>...<0xFB>Ah... enfim, aqui está!'
+  - offset: "0x1f027cd"
+    name: "PT-63 0x1f027cd"
+    expected: 'Isto é <0xFC><0x01><0x06>Dream Mist<0xFC><0x01><0x08>.<0xFB>Faça um Pokémon inalar para liberar\nsua <0xFC><0x01><0x06>Habilidade Oculta<0xFC><0x01><0x08>.<0xFB>Só tome cuidado para não inalar\nvocê também!'
+  - offset: "0x1f02854"
+    name: "PT-63 0x1f02854"
+    expected: 'Você voltou, <0xFD><0x01>!<0xFB>Já me deu <0xFC><0x01><0x06><0xFD><0x03> Oddish<0xFC><0x01><0x08>. Preciso de\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> para a névoa...<0xFB>Quer me dar mais?'
+  - offset: "0x1f028d3"
+    name: "PT-63 0x1f028d3"
+    expected: 'Você não é do tipo sensato, né?'
+  - offset: "0x1f028fa"
+    name: "PT-63 0x1f028fa"
+    expected: 'Não tem Pokémon suficientes na\nequipe para dar mais...'
+  - offset: "0x1f0293d"
+    name: "PT-63 0x1f0293d"
+    expected: 'Não posso pegar esses Oddish se\nvocê não tiver pelo menos<0xFA>outro Pokémon apto a lutar<0xFA>na sua equipe...'
+  - offset: "0x1f029a3"
+    name: "PT-63 0x1f029a3"
+    expected: 'Você não tem Oddish na sua\nequipe...'
+  - offset: "0x1f029cc"
+    name: "PT-63 0x1f029cc"
+    expected: 'Não posso colher Oddish Leaves de\num Ovo...'
+  - offset: "0x1f029f7"
+    name: "PT-63 0x1f029f7"
+    expected: 'Não posso colher Oddish Leaves\ndesse Pokémon.<0xFB>Não é um Oddish...'
+  - offset: "0x1f02a3c"
+    name: "PT-63 0x1f02a3c"
+    expected: 'Não posso pegar esse Oddish.<0xFB>Você ficaria sem nenhum Pokémon\npara lutar...'
+  - offset: "0x1f02a80"
+    name: "PT-63 0x1f02a80"
+    expected: 'Você não tem Oddish na Box\n“<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>”...'
+  - offset: "0x1f02ab1"
+    name: "PT-63 0x1f02ab1"
+    expected: 'Traga mais <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> Oddish e eu faço\numa névoa especial.'
+  - offset: "0x1f02af2"
+    name: "PT-63 0x1f02af2"
+    expected: 'E aeeee...<0xFB>Quer comprar umas ervas?'
+  - offset: "0x1f02b14"
+    name: "PT-63 0x1f02b14"
+    expected: 'Volte quando quiseeeer...'
+  - offset: "0x1f02b2b"
+    name: "PT-63 0x1f02b2b"
+    expected: 'E aeeee... Lembro de você...<0xFB>Quer me dar uns cogumeloooos...?<0xFB>Dou umas Heart Scales em\ntrooooca...'
+  - offset: "0x1f02b92"
+    name: "PT-63 0x1f02b92"
+    expected: 'Quantos cogumeloooos vai me\ndaaaaar...?'
+  - offset: "0x1f02bc0"
+    name: "PT-63 0x1f02bc0"
+    expected: 'Mmmm...<0xFB>Cogumeloooos...'
+  - offset: "0x1f02bd3"
+    name: "PT-63 0x1f02bd3"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> entregou <0xFD><0x03>\n<0xFD><0x02>.'
+  - offset: "0x1f02bec"
+    name: "PT-63 0x1f02bec"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> entregou ao todo <0xFD><0x03>\n<0xFD><0x02>.'
+  - offset: "0x1f02c10"
+    name: "PT-63 0x1f02c10"
+    expected: 'Você não tem cogumeloooos\nsuficientes...'
+  - offset: "0x1f02c3c"
+    name: "PT-63 0x1f02c3c"
+    expected: 'Tiny Mushrooms'
+  - offset: "0x1f02c4b"
+    name: "PT-63 0x1f02c4b"
+    expected: 'Big Mushrooms'
+  - offset: "0x1f02c59"
+    name: "PT-63 0x1f02c59"
+    expected: 'Balm Mushrooms'
+  - offset: "0x1f02c68"
+    name: "PT-63 0x1f02c68"
+    expected: '2 Tiny Mushrooms'
+  - offset: "0x1f02c79"
+    name: "PT-63 0x1f02c79"
+    expected: 'Todos os Tiny Mushrooms'
+  - offset: "0x1f02c8c"
+    name: "PT-63 0x1f02c8c"
+    expected: '1 Big Mushroom'
+  - offset: "0x1f02c9b"
+    name: "PT-63 0x1f02c9b"
+    expected: 'Todos os Big Mushrooms'
+  - offset: "0x1f02cad"
+    name: "PT-63 0x1f02cad"
+    expected: '1 Balm Mushroom'
+  - offset: "0x1f02cbd"
+    name: "PT-63 0x1f02cbd"
+    expected: 'Todos os Balm Mushrooms'
+  - offset: "0x1f02cd0"
+    name: "PT-63 0x1f02cd0"
+    expected: 'Com experiência suficiente, os\nPokémon podem evoluir e<0xFA>ficar mais fortes.<0xFB>Alguns aprendem movimentos\nespeciais logo após evoluir.<0xFB>Mas nem todo Pokémon evolui só de\nbatalhar bastante.<0xFB>Alguns precisam de itens como <0xFC><0x01><0x06>Fire\nStones<0xFC><0x01><0x08> ou <0xFC><0x01><0x06>Link Stones<0xFC><0x01><0x08>.'
+  - offset: "0x1f02dd8"
+    name: "PT-63 0x1f02dd8"
+    expected: 'O Líder Mirskle gosta de encher seu\nGinásio de névoa densa.<0xFB>Em geral, isso dificulta acertar os\nataques.<0xFB>Mas, com um Pokémon que tenha a\nHabilidade <0xFC><0x01><0x06>Keen Eye<0xFC><0x01><0x08> ou<0xFA><0xFC><0x01><0x06>Infiltrator<0xFC><0x01><0x08>, seus ataques<0xFA>acertam sem problema.<0xFB><0xFC><0x01><0x06>Pikipek<0xFC><0x01><0x08> e <0xFC><0x01><0x06>Hoothoot<0xFC><0x01><0x08> da <0xFC><0x01><0x06>Route 2<0xFC><0x01><0x08>\npodem ter Keen Eye. Que tal<0xFA>ir até lá e capturar um<0xFA>deles para você?'
+  - offset: "0x1f02f4f"
+    name: "PT-63 0x1f02f4f"
+    expected: 'Pokémon com <0xFC><0x01><0x06>Keen Eye<0xFC><0x01><0x08> ou <0xFC><0x01><0x06>Infiltrator<0xFC><0x01><0x08>\nacertam facilmente<0xFA>seus ataques na névoa.<0xFB>Acho que isso não acontece fora de\nBorrius!'
+  - offset: "0x1f02ffa"
+    name: "PT-63 0x1f02ffa"
+    expected: '<0xFC><0x01><0x06>Flower Paradise<0xFC><0x01><0x04> é tão lindo!<0xFB>Por toda parte, há flores de várias\ncores, com diferentes<0xFA>Pokémon escondidos nelas!<0xFB>Peguei meu <0xFC><0x01><0x06>Cutiefly<0xFC><0x01><0x04> lá e usei <0xFC><0x01><0x06>Sweet\nScent<0xFC><0x01><0x04> para acertar mais<0xFA>facilmente no Ginásio!'
+  - offset: "0x1f030ee"
+    name: "PT-63 0x1f030ee"
+    expected: 'Como repelentes, Habilidades como\n<0xFC><0x01><0x06>Stench<0xFC><0x01><0x08> também ajudam<0xFA>a afastar Pokémon selvagens.'
+  - offset: "0x1f0314e"
+    name: "PT-63 0x1f0314e"
+    expected: 'Tente vencer o maior número\npossível de Ginásios Pokémon.<0xFB>Quanto mais Insígnias tiver, mais\nitens os Poké Marts vendem.'
+  - offset: "0x1f031c8"
+    name: "PT-63 0x1f031c8"
+    expected: 'Epidimy Town'
+  - offset: "0x1f031d5"
+    name: "PT-63 0x1f031d5"
+    expected: 'Epidimy Town D'
+  - offset: "0x1f031e4"
+    name: "PT-63 0x1f031e4"
+    expected: 'Epidimy Town N'
+  - offset: "0x1f031f3"
+    name: "PT-63 0x1f031f3"
+    expected: 'Venho aqui todo dia rezar para\nZapdos.<0xFB>Zapdos me salvou uma vez. Nunca\npoderei agradecer o bastante.'
+  - offset: "0x1f03253"
+    name: "PT-63 0x1f03253"
+    expected: 'Ahh...<0xFB>Adoro vir aqui todo dia relaxar\nneste banco.<0xFB>É sempre a melhor parte do meu\ndia.<0xFB>Que tal descansar no banco ao meu\nlado?<0xFB>Garanto que é muito relaxante.<0xFB>Há algo mágico em sentar num\nbanco...'
+  - offset: "0x1f03358"
+    name: "PT-63 0x1f03358"
+    expected: 'Dizem que a grama do vizinho é\nsempre mais verde.<0xFB>Isso vale ainda mais em Epidimy\nTown.<0xFB>Olhe só a grama daqui!'
+  - offset: "0x1f033d5"
+    name: "PT-63 0x1f033d5"
+    expected: 'Epidimy Town é uma epidemia de\nalegria!<0xFB>...<0xFB>...<0xFB>O quê? Não achou graça?\nDesculpe...<0xFB>Agora fiquei sem jeito...<0xFB>Sabe de uma coisa? Tome isto. Assim\nvou me sentir melhor.'
+  - offset: "0x1f0346e"
+    name: "PT-63 0x1f0346e"
+    expected: 'Queria que fosse mais fácil fazer\npiada com o nome da nossa cidade.'
+  - offset: "0x1f034af"
+    name: "PT-63 0x1f034af"
+    expected: 'Quero muito explorar Thundercap\nMt!<0xFB>Mas a mamãe diz que é perigoso,\npois tem um monte de homens<0xFA>maus do outro lado.'
+  - offset: "0x1f03531"
+    name: "PT-63 0x1f03531"
+    expected: 'Dá para entrar em Thundercap Mt.\npelo buraco ao pé da escada.<0xFB>É muito perigoso. Se for, leve\nmuitos Revives<0xFA>e Paralyze Heals!'
+  - offset: "0x1f035cf"
+    name: "PT-63 0x1f035cf"
+    expected: 'Ora, ora, ora... Se não é\n<0xFD><0x01>!<0xFB>Marlon mandou eu barrar você em\nThundercap Mt., para não<0xFA>atrapalhar nossos planos.<0xFB>Mesmo que eu deixasse, seria o seu\nfim sem o poder da<0xFA><0xFC><0x01><0x06>Mega Evolution<0xFC><0x01><0x08>.<0xFB>Não entende?<0xFB>É melhor ficar aqui fora para o seu\npróprio bem.'
+  - offset: "0x1f036dd"
+    name: "PT-63 0x1f036dd"
+    expected: 'Você se acomodou bem no banco.'
+  - offset: "0x1f03706"
+    name: "PT-63 0x1f03706"
+    expected: 'Hã? O que é isto?<0xFB>Parece que alguém deixou alguma\ncoisa no banco!'
+  - offset: "0x1f0374b"
+    name: "PT-63 0x1f0374b"
+    expected: 'Thundercap Mt. tem duas entradas:\numa em Epidimy Town e<0xFA>a outra em Antisis City.<0xFB>Ambas levam ao pico onde Zapdos se\nabriga.<0xFB>Mas não recomendo a entrada de\nAntisis City.<0xFB>Aquele lugar é um caos...'
+  - offset: "0x1f0383e"
+    name: "PT-63 0x1f0383e"
+    expected: 'Já tentei explorar Thundercap Mt.\npela entrada aqui perto.<0xFB>A abertura onde dizem que Zapdos\nvive é muito alta!<0xFB>Fiquei tão tonto que caí durante a\nsubida!<0xFB>O médico disse que sofri um leve\ntrauma na cabeça.<0xFB>Tome este item, para não ter que\nse preocupar com isso também.'
+  - offset: "0x1f03972"
+    name: "PT-63 0x1f03972"
+    expected: 'Se seu Pokémon usar o <0xFC><0x01><0x06>Rocky\nHelmet<0xFC><0x01><0x04>, qualquer Pokémon que<0xFA>o tocar terá um trauma na cabeça!'
+  - offset: "0x1f039da"
+    name: "PT-63 0x1f039da"
+    expected: '<0xFC><0x01><0x02>Que pena!<0xFB>Não há espaço no Cube para um\n<0xFD><0x03>!'
+  - offset: "0x1f03a0c"
+    name: "PT-63 0x1f03a0c"
+    expected: 'Huah! Mova rochas com pura força!<0xFB>Tome isto!'
+  - offset: "0x1f03a3c"
+    name: "PT-63 0x1f03a3c"
+    expected: '<0xFC><0x01><0x06>Strength<0xFC><0x01><0x08> move rochas enormes com\nforça bruta!<0xFB>Mas só com a <0xFC><0x01><0x06>Fall Badge<0xFC><0x01><0x08> do\nFallshore Gym!<0xFB>Huah!'
+  - offset: "0x1f03ac0"
+    name: "PT-63 0x1f03ac0"
+    expected: 'Um dia, vou ser ninja!<0xFB>Meus pais usam força bruta, mas eu\nvou agir na surdina!<0xFB>Vou me esconder em buracos na\nareia e assustar Treinadores!'
+  - offset: "0x1f03b59"
+    name: "PT-63 0x1f03b59"
+    expected: 'Conhece o Pokémon <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>?\nAquela bolona rosa adorável?<0xFB>Sempre quis um, mas é tão difícil\nde capturar!<0xFB>Trocaria um pelo meu <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>?'
+  - offset: "0x1f03c03"
+    name: "PT-63 0x1f03c03"
+    expected: 'Que pena.'
+  - offset: "0x1f03c13"
+    name: "PT-63 0x1f03c13"
+    expected: 'Em que mundo isso é um <0xFD><0x02>,\nhein?<0xFB>Se conseguir um, troque comigo.'
+  - offset: "0x1f03c59"
+    name: "PT-63 0x1f03c59"
+    expected: 'Muito obrigado! Vou cuidar muito\nbem dele!'
+  - offset: "0x1f03c8f"
+    name: "PT-63 0x1f03c8f"
+    expected: 'Meu antigo <0xFD><0x03> já ajudou\nvocê a vencer alguma batalha?'
+  - offset: "0x1f03cbd"
+    name: "PT-63 0x1f03cbd"
+    expected: 'Está vendo o item na mesa?<0xFB>É meu bem mais precioso, a <0xFC><0x01><0x06>Master\nBall<0xFC><0x01><0x04>.<0xFB>É uma Poké Ball rara que captura\nqualquer Pokémon sem falhar.<0xFB><0xFC><0x01><0x06>Aros<0xFC><0x01><0x04> me deu esta bola e disse para\nguardá-la como se minha vida<0xFA>dependesse disso.<0xFB>Até que alguém me mostre um\npequeno Pokémon roxo, <0xFC><0x01><0x06>Hoopa<0xFC><0x01><0x04>.<0xFB>Aros disse que quem controla Hoopa\né o Guardião de Borrius<0xFA>e merece esta bola.<0xFB>Você é o Guardião de Borrius ou só\nmais uma criança mimada?'
+  - offset: "0x1f03e86"
+    name: "PT-63 0x1f03e86"
+    expected: 'Mesmo? Prove!<0xFB>Mostre o Pokémon chamado <0xFC><0x01><0x06>Hoopa<0xFC><0x01><0x04>!'
+  - offset: "0x1f03ec8"
+    name: "PT-63 0x1f03ec8"
+    expected: 'É Hoopa! É Hoopa!<0xFB>Você é o Guardião de Borrius! Tome\na Master Ball!'
+  - offset: "0x1f03f1d"
+    name: "PT-63 0x1f03f1d"
+    expected: 'Então, não tenho tempo para você.\nXô! Xô!'
+  - offset: "0x1f03f47"
+    name: "PT-63 0x1f03f47"
+    expected: 'Isso não é Hoopa!<0xFB>Não tenho tempo para você! Xô!\nXô!'
+  - offset: "0x1f03f7e"
+    name: "PT-63 0x1f03f7e"
+    expected: 'Guardião de Borrius! É um prazer\nestar em sua presença!'
+  - offset: "0x1f03fb7"
+    name: "PT-63 0x1f03fb7"
+    expected: '<0xFD><0x01> achou uma Master Ball!'
+  - offset: "0x1f03fd1"
+    name: "PT-63 0x1f03fd1"
+    expected: 'Ladrão! Devolva isso! É meu bem\nmais precioso!'
+  - offset: "0x1f04004"
+    name: "PT-63 0x1f04004"
+    expected: 'O último Guardião de Borrius, <0xFC><0x01><0x06>Aros<0xFC><0x01><0x08>,\npediu a alguns casais idosos<0xFA>que guardassem objetos valiosos.<0xFB>Somos um desses casais.<0xFB>Outro casal, creio eu, mora na\nRoute 9.'
+  - offset: "0x1f040b8"
+    name: "PT-63 0x1f040b8"
+    expected: 'Sou o irmão mais velho do Fishing\nDude.<0xFB>Eu simplesmente adoooro pescar!\nNão consigo ficar sem.<0xFB>Diga, você gosta de pescar?'
+  - offset: "0x1f04131"
+    name: "PT-63 0x1f04131"
+    expected: 'Ótimo! Gosto do seu jeito. Acho\nque podemos ser amigos.<0xFB>Tome isto e vá pescar, jovem!'
+  - offset: "0x1f04188"
+    name: "PT-63 0x1f04188"
+    expected: 'Pescar é um estilo de vida! É como\na mais bela poesia.<0xFB>Uma Old Rod qualquer só pega\nMagikarp, certo?<0xFB>Mas, com uma Good Rod, pode pegar\nPokémon muito melhores.'
+  - offset: "0x1f04227"
+    name: "PT-63 0x1f04227"
+    expected: 'Oh... Que decepção...'
+  - offset: "0x1f04244"
+    name: "PT-63 0x1f04244"
+    expected: 'Olá, <0xFD><0x01>!<0xFB>E aí, os peixes estão mordendo?'
+  - offset: "0x1f0426e"
+    name: "PT-63 0x1f0426e"
+    expected: 'Vai explorar Thundercap Mt.?<0xFB>Se for, vai precisar disto aqui!'
+  - offset: "0x1f042be"
+    name: "PT-63 0x1f042be"
+    expected: 'Nunca é demais estar pronto para\ntudo!'
+  - offset: "0x1f042ea"
+    name: "PT-63 0x1f042ea"
+    expected: 'Thundercap Mt. é um lugar\nperigoso!<0xFB>Tentei explorar uma vez e, rapaz,\nacabei levando uma surra!<0xFB>Desde então, minha querida esposa\ndá Max Repels todo dia aos<0xFA>viajantes que falam com ela.'
+  - offset: "0x1f043a8"
+    name: "PT-63 0x1f043a8"
+    expected: 'Ah... Sim, eu apago movimentos.<0xFB>Posso fazer Pokémon esquecerem\nseus movimentos.<0xFB>Quer que eu faça isso?'
+  - offset: "0x1f04410"
+    name: "PT-63 0x1f04410"
+    expected: 'Qual Pokémon deve esquecer um\nmovimento?'
+  - offset: "0x1f04434"
+    name: "PT-63 0x1f04434"
+    expected: 'Qual movimento deve esquecer?'
+  - offset: "0x1f04454"
+    name: "PT-63 0x1f04454"
+    expected: 'Hm! <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>: Apagar\n<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>?'
+  - offset: "0x1f0448c"
+    name: "PT-63 0x1f0448c"
+    expected: 'Funcionou perfeitamente!<0xFB><0xFD><0x02> esqueceu\n<0xFD><0x03> por completo.'
+  - offset: "0x1f044c5"
+    name: "PT-63 0x1f044c5"
+    expected: '<0xFD><0x02> parece saber só um\nmovimento...'
+  - offset: "0x1f044e5"
+    name: "PT-63 0x1f044e5"
+    expected: 'O quê? Ovos não sabem movimentos.'
+  - offset: "0x1f04509"
+    name: "PT-63 0x1f04509"
+    expected: 'Volte se houver outros movimentos\npara esquecer.'
+  - offset: "0x1f0453e"
+    name: "PT-63 0x1f0453e"
+    expected: 'Se está completando a Pokédex,\nvisite <0xFC><0x01><0x06>Thundercap Mt.<0xFC><0x01><0x04>!<0xFB>Lá vivem todo tipo de Pokémon\nraros do tipo Elétrico.<0xFB>Dizem até que Zapdos se abriga no\npico!'
+  - offset: "0x1f045dd"
+    name: "PT-63 0x1f045dd"
+    expected: 'A <0xFC><0x01><0x06>Dusk Ball<0xFC><0x01><0x08> é uma das melhores\nbolas para usar à noite ou<0xFA>numa caverna.<0xFB>É bem mais útil que a inferior Ultra\nBall.<0xFB>E ainda tem um nome maravilhoso!<0xFB>Dusk! A Dusk Ball!<0xFB>Acho que ela até pode capturar e\ncontrolar a escuridão<0xFA>nos corações.'
+  - offset: "0x1f046e2"
+    name: "PT-63 0x1f046e2"
+    expected: 'Em outras regiões, diluem Hyper\nPotions para reduzir sua força.<0xFB>Quem teve essa ideia é um ladrão e\num vigarista.'
+  - offset: "0x1f04760"
+    name: "PT-63 0x1f04760"
+    expected: 'Fallshore City'
+  - offset: "0x1f0476f"
+    name: "PT-63 0x1f0476f"
+    expected: 'Fallshore City D'
+  - offset: "0x1f04780"
+    name: "PT-63 0x1f04780"
+    expected: 'Fallshore City N'
+  - offset: "0x1f04791"
+    name: "PT-63 0x1f04791"
+    expected: 'Olá!<0xFB>Itens para reduzir estatísticas\naqui!'
+  - offset: "0x1f047ba"
+    name: "PT-63 0x1f047ba"
+    expected: 'Huah!<0xFB>Itens para aumentar estatísticas\naqui!'
+  - offset: "0x1f047e3"
+    name: "PT-63 0x1f047e3"
+    expected: 'Que tal um pouco de Moomoo Milk?<0xFB>É o orgulho e a alegria de\nMagnolia Town!<0xFB>Dê a um Pokémon para restaurar PS!<0xFB>Faço por apenas ¥550.'
+  - offset: "0x1f04874"
+    name: "PT-63 0x1f04874"
+    expected: 'E isso dá ¥550!'
+  - offset: "0x1f04889"
+    name: "PT-63 0x1f04889"
+    expected: 'E isso dá ¥6600!'
+  - offset: "0x1f0489f"
+    name: "PT-63 0x1f0489f"
+    expected: 'É, faço entregas de dia a partir de\nAntisis Port.<0xFB>Sem mim, não existiria Fallshore\nMarket!'
+  - offset: "0x1f04906"
+    name: "PT-63 0x1f04906"
+    expected: 'É, acabei de entregar mercadorias a\ntodos os Poké Marts.<0xFB>Logo volto a Antisis City para\npassar a noite.<0xFB>Mas parece que ainda sobraram\nalguns itens.<0xFB>Que tal eu dar tudo a você em vez\nde jogar fora?'
+  - offset: "0x1f049e7"
+    name: "PT-63 0x1f049e7"
+    expected: 'É, acabei de entregar mercadorias a\ntodos os Poké Marts.<0xFB>Logo volto a Antisis City para\npassar a noite.'
+  - offset: "0x1f04a5e"
+    name: "PT-63 0x1f04a5e"
+    expected: 'Quando luto na <0xFC><0x01><0x06>Inverse Battle\nHouse<0xFC><0x01><0x08>, tento<0xFA>aproveitar as setas de eficácia<0xFA>ao escolher um movimento.<0xFB>É bem mais fácil do que saber o\nque é bom contra o quê,<0xFA>sacou?'
+  - offset: "0x1f04b37"
+    name: "PT-63 0x1f04b37"
+    expected: 'Um amigo disse que sob <0xFC><0x01><0x06>Tehl Town<0xFC><0x01><0x04>,\na vilazinha a<0xFA>oeste daqui, há uma passagem<0xFA>subterrânea secreta até a <0xFC><0x01><0x06>Route 9<0xFC><0x01><0x04>.<0xFB>Mas não pode ser verdade... Qual\né! Quem acreditaria nisso?'
+  - offset: "0x1f04bf9"
+    name: "PT-63 0x1f04bf9"
+    expected: 'Você nunca me verá lá fora quando\nestiver chovendo!<0xFB>...<0xFB>Na verdade, quase todos aqui\nprovavelmente iriam se abrigar.'
+  - offset: "0x1f04c63"
+    name: "PT-63 0x1f04c63"
+    expected: 'O Ginásio de Mel é um labirinto de\nlagos, ninfeias e cachoeiras.<0xFB>Antes pertencia a Tessy, a Líder do\ntipo Água.<0xFB>Quando ela voltou ao leste de\nBorrius, Mel assumiu o Ginásio.<0xFB>Ele estava ocupado demais\nesculpindo seu corpo perfeito<0xFA>para reformar tudo. Agora,<0xFA>seu Ginásio do tipo <0xFC><0x01><0x06>Normal<0xFC><0x01><0x08> fica<0xFA>num lugar cheio de água.'
+  - offset: "0x1f04dba"
+    name: "PT-63 0x1f04dba"
+    expected: 'Mel, o Líder do Ginásio, vem sempre\naqui com alguns<0xFA>de seus amigos mais próximos.'
+  - offset: "0x1f04e05"
+    name: "PT-63 0x1f04e05"
+    expected: 'Dizem que Mel tem uma ilha\nparticular em algum lugar no mar!'
+  - offset: "0x1f04e4c"
+    name: "PT-63 0x1f04e4c"
+    expected: 'O <0xFC><0x01><0x06>Moomoo Milk<0xFC><0x01><0x04> vendido aqui é tão\ndoce!<0xFB>Sempre compro uma dúzia quando\nvenho aqui!'
+  - offset: "0x1f04eab"
+    name: "PT-63 0x1f04eab"
+    expected: 'Meu guarda-chuva sempre me\nprotege quando chove!'
+  - offset: "0x1f04edd"
+    name: "PT-63 0x1f04edd"
+    expected: 'Há muitos itens úteis para\nTreinadores aqui!<0xFB>Meus favoritos são as frutas que\nvendem.<0xFB>Elas reduzem os pontos de esforço\nem dez pontos!'
+  - offset: "0x1f04f72"
+    name: "PT-63 0x1f04f72"
+    expected: 'Odeio quando chove.<0xFB>Não moro aqui, então não posso\nentrar em casa como todo mundo...'
+  - offset: "0x1f04fd3"
+    name: "PT-63 0x1f04fd3"
+    expected: 'Hmm...<0xFB>Como pego a TM dentro daquela\nPoké Ball amarela...'
+  - offset: "0x1f05010"
+    name: "PT-63 0x1f05010"
+    expected: 'Uau!<0xFB>Vi você subir a cachoeira como um\nanjo e pegar aquela TM!<0xFB>Mandou bem!'
+  - offset: "0x1f05061"
+    name: "PT-63 0x1f05061"
+    expected: 'Mel, o Líder do Ginásio, não está\naqui agora.<0xFB>Deve ter ido espairecer em algum\nlugar.'
+  - offset: "0x1f050bb"
+    name: "PT-63 0x1f050bb"
+    expected: 'Mel, o Líder do Ginásio, não está\naqui agora.<0xFB>Deve estar espairecendo perto da\n<0xFC><0x01><0x06>KBT Expressway<0xFC><0x01><0x04> em <0xFC><0x01><0x06>Tehl Town<0xFC><0x01><0x04>.'
+  - offset: "0x1f0513a"
+    name: "PT-63 0x1f0513a"
+    expected: 'Meu poder oculto diz que você quer\nisto!'
+  - offset: "0x1f0516c"
+    name: "PT-63 0x1f0516c"
+    expected: '<0xFC><0x01><0x06>Hidden Power<0xFC><0x01><0x08> é um movimento\nespecial cujo tipo muda conforme<0xFA>o Pokémon que o usa.'
+  - offset: "0x1f051c7"
+    name: "PT-63 0x1f051c7"
+    expected: 'Posso dizer qual será o tipo de\nHidden Power que seu Pokémon<0xFA>vai aprender!<0xFB>Quer saber?'
+  - offset: "0x1f0521f"
+    name: "PT-63 0x1f0521f"
+    expected: 'Se <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> aprendesse Hidden\nPower, o movimento<0xFA>seria do tipo <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>!'
+  - offset: "0x1f0526a"
+    name: "PT-63 0x1f0526a"
+    expected: 'Se quiser saber, pergunte, e\nativarei meu poder oculto!'
+  - offset: "0x1f052aa"
+    name: "PT-63 0x1f052aa"
+    expected: 'Um Ovo não pode usar Hidden Power!'
