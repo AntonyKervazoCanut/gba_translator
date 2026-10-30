@@ -1,0 +1,4538 @@
+{
+  "batch": "PT-55",
+  "domain": "Noms fixes des espèces et formes Pokémon (gSpeciesNames)",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "table_base": "0x166a98c",
+  "stride": 11,
+  "table_references": [
+    324,
+    70736,
+    70924,
+    71076,
+    71356,
+    216448,
+    266220,
+    275932,
+    300904,
+    342748,
+    342852,
+    441540,
+    441616,
+    605836,
+    652640,
+    657664,
+    776224,
+    831776,
+    835244,
+    843956,
+    845496,
+    846032,
+    943388,
+    996132,
+    1062336,
+    1062552,
+    1062712,
+    1062864,
+    1063020,
+    1063116,
+    1068656,
+    1073120,
+    1074864,
+    1130236,
+    1152088,
+    1158304,
+    1159156,
+    1159240,
+    1186060,
+    1270552,
+    9175080,
+    23446084
+  ],
+  "entries": [
+    {
+      "offset": "0x166cb05",
+      "species_id": 779,
+      "english_reference": "Florges",
+      "french_reference": "Florges",
+      "english": "Florges",
+      "portuguese": "Florges",
+      "status": "retained_english",
+      "source_hex": "c0e0e3e6dbd9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb10",
+      "species_id": 780,
+      "english_reference": "Cabriolain",
+      "french_reference": "Cabriolaine",
+      "english": "Skiddo",
+      "portuguese": "Skiddo",
+      "status": "retained_english",
+      "source_hex": "cddfddd8d8e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb1b",
+      "species_id": 781,
+      "english_reference": "Chevroum",
+      "french_reference": "Chevroum",
+      "english": "Gogoat",
+      "portuguese": "Gogoat",
+      "status": "retained_english",
+      "source_hex": "c1e3dbe3d5e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb26",
+      "species_id": 782,
+      "english_reference": "Pandespièg",
+      "french_reference": "Pandespiègle",
+      "english": "Pancham",
+      "portuguese": "Pancham",
+      "status": "retained_english",
+      "source_hex": "cad5e2d7dcd5e1ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb31",
+      "species_id": 783,
+      "english_reference": "Pandarbare",
+      "french_reference": "Pandarbare",
+      "english": "Pangoro",
+      "portuguese": "Pangoro",
+      "status": "retained_english",
+      "source_hex": "cad5e2dbe3e6e3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb3c",
+      "species_id": 784,
+      "english_reference": "Couafarel",
+      "french_reference": "Couafarel",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb47",
+      "species_id": 785,
+      "english_reference": "Psystigri",
+      "french_reference": "Psystigri",
+      "english": "Espurr",
+      "portuguese": "Espurr",
+      "status": "retained_english",
+      "source_hex": "bfe7e4e9e6e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb52",
+      "species_id": 786,
+      "english_reference": "Mistigrix",
+      "french_reference": "Mistigrix",
+      "english": "Meowstic",
+      "portuguese": "Meowstic",
+      "status": "retained_english",
+      "source_hex": "c7d9e3ebe7e8ddd7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb5d",
+      "species_id": 787,
+      "english_reference": "Monorpale",
+      "french_reference": "Monorpale",
+      "english": "Honedge",
+      "portuguese": "Honedge",
+      "status": "retained_english",
+      "source_hex": "c2e3e2d9d8dbd9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb68",
+      "species_id": 788,
+      "english_reference": "Dimoclès",
+      "french_reference": "Dimoclès",
+      "english": "Doublade",
+      "portuguese": "Doublade",
+      "status": "retained_english",
+      "source_hex": "bee3e9d6e0d5d8d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb73",
+      "species_id": 789,
+      "english_reference": "Exagide",
+      "french_reference": "Exagide",
+      "english": "Aegislash",
+      "portuguese": "Aegislash",
+      "status": "retained_english",
+      "source_hex": "bbd9dbdde7e0d5e7dcffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb7e",
+      "species_id": 790,
+      "english_reference": "Fluvetin",
+      "french_reference": "Fluvetin",
+      "english": "Spritzee",
+      "portuguese": "Spritzee",
+      "status": "retained_english",
+      "source_hex": "cde4e6dde8eed9d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb89",
+      "species_id": 791,
+      "english_reference": "Cocotine",
+      "french_reference": "Cocotine",
+      "english": "Aromatisse",
+      "portuguese": "Aromatisse",
+      "status": "retained_english",
+      "source_hex": "bbe6e3e1d5e8dde7e7d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb94",
+      "species_id": 792,
+      "english_reference": "Sucroquin",
+      "french_reference": "Sucroquin",
+      "english": "Swirlix",
+      "portuguese": "Swirlix",
+      "status": "retained_english",
+      "source_hex": "cdebdde6e0ddecffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        36
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cb9f",
+      "species_id": 793,
+      "english_reference": "Cupcanaill",
+      "french_reference": "Cupcanaille",
+      "english": "Slurpuff",
+      "portuguese": "Slurpuff",
+      "status": "retained_english",
+      "source_hex": "cde0e9e6e4e9dadaffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cbaa",
+      "species_id": 794,
+      "english_reference": "Sepiatop",
+      "french_reference": "Sepiatop",
+      "english": "Inkay",
+      "portuguese": "Inkay",
+      "status": "retained_english",
+      "source_hex": "c3e2dfd5edffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cbb5",
+      "species_id": 795,
+      "english_reference": "Sepiatroce",
+      "french_reference": "Sepiatroce",
+      "english": "Malamar",
+      "portuguese": "Malamar",
+      "status": "retained_english",
+      "source_hex": "c7d5e0d5e1d5e6ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cbc0",
+      "species_id": 796,
+      "english_reference": "Opermine",
+      "french_reference": "Opermine",
+      "english": "Binacle",
+      "portuguese": "Binacle",
+      "status": "retained_english",
+      "source_hex": "bcdde2d5d7e0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cbcb",
+      "species_id": 797,
+      "english_reference": "Golgopathe",
+      "french_reference": "Golgopathe",
+      "english": "Barbaracle",
+      "portuguese": "Barbaracle",
+      "status": "retained_english",
+      "source_hex": "bcd5e6d6d5e6d5d7e0d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cbd6",
+      "species_id": 798,
+      "english_reference": "Venalgue",
+      "french_reference": "Venalgue",
+      "english": "Skrelp",
+      "portuguese": "Skrelp",
+      "status": "retained_english",
+      "source_hex": "cddfe6d9e0e4ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cbe1",
+      "species_id": 799,
+      "english_reference": "Kravarech",
+      "french_reference": "Kravarech",
+      "english": "Dragalge",
+      "portuguese": "Dragalge",
+      "status": "retained_english",
+      "source_hex": "bee6d5dbd5e0dbd9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cbec",
+      "species_id": 800,
+      "english_reference": "Flingouste",
+      "french_reference": "Flingouste",
+      "english": "Clauncher",
+      "portuguese": "Clauncher",
+      "status": "retained_english",
+      "source_hex": "bde0d5e9e2d7dcd9e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cbf7",
+      "species_id": 801,
+      "english_reference": "Gamblast",
+      "french_reference": "Gamblast",
+      "english": "Clawitzer",
+      "portuguese": "Clawitzer",
+      "status": "retained_english",
+      "source_hex": "bde0d5ebdde8eed9e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc02",
+      "species_id": 802,
+      "english_reference": "Galvaran",
+      "french_reference": "Galvaran",
+      "english": "Helioptile",
+      "portuguese": "Helioptile",
+      "status": "retained_english",
+      "source_hex": "c2d9e0dde3e4e8dde0d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc0d",
+      "species_id": 803,
+      "english_reference": "Iguolta",
+      "french_reference": "Iguolta",
+      "english": "Heliolisk",
+      "portuguese": "Heliolisk",
+      "status": "retained_english",
+      "source_hex": "c2d9e0dde3e0dde7dfffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc18",
+      "species_id": 804,
+      "english_reference": "Ptyranidur",
+      "french_reference": "Ptyranidur",
+      "english": "Tyrunt",
+      "portuguese": "Tyrunt",
+      "status": "retained_english",
+      "source_hex": "ceede6e9e2e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc23",
+      "species_id": 805,
+      "english_reference": "Rexillius",
+      "french_reference": "Rexillius",
+      "english": "Tyrantrum",
+      "portuguese": "Tyrantrum",
+      "status": "retained_english",
+      "source_hex": "ceede6d5e2e8e6e9e1ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc2e",
+      "species_id": 806,
+      "english_reference": "Amagara",
+      "french_reference": "Amagara",
+      "english": "Amaura",
+      "portuguese": "Amaura",
+      "status": "retained_english",
+      "source_hex": "bbe1d5e9e6d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc39",
+      "species_id": 807,
+      "english_reference": "Dragmara",
+      "french_reference": "Dragmara",
+      "english": "Aurorus",
+      "portuguese": "Aurorus",
+      "status": "retained_english",
+      "source_hex": "bbe9e6e3e6e9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc44",
+      "species_id": 808,
+      "english_reference": "Nymphali",
+      "french_reference": "Nymphali",
+      "english": "Sylveon",
+      "portuguese": "Sylveon",
+      "status": "retained_english",
+      "source_hex": "cdede0ead9e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc4f",
+      "species_id": 809,
+      "english_reference": "Brutalibré",
+      "french_reference": "Brutalibré",
+      "english": "Hawlucha",
+      "portuguese": "Hawlucha",
+      "status": "retained_english",
+      "source_hex": "c2d5ebe0e9d7dcd5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc5a",
+      "species_id": 810,
+      "english_reference": "Dedenne",
+      "french_reference": "Dedenne",
+      "english": "Dedenne",
+      "portuguese": "Dedenne",
+      "status": "retained_english",
+      "source_hex": "bed9d8d9e2e2d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc65",
+      "species_id": 811,
+      "english_reference": "Strassie",
+      "french_reference": "Carbink",
+      "english": "Carbink",
+      "portuguese": "Carbink",
+      "status": "retained_english",
+      "source_hex": "bdd5e6d6dde2dfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc70",
+      "species_id": 812,
+      "english_reference": "Mucuscule",
+      "french_reference": "Mucuscule",
+      "english": "Goomy",
+      "portuguese": "Goomy",
+      "status": "retained_english",
+      "source_hex": "c1e3e3e1edffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc7b",
+      "species_id": 813,
+      "english_reference": "Colimucus",
+      "french_reference": "Colimucus",
+      "english": "Sliggoo",
+      "portuguese": "Sliggoo",
+      "status": "retained_english",
+      "source_hex": "cde0dddbdbe3e3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc86",
+      "species_id": 814,
+      "english_reference": "Muplodocus",
+      "french_reference": "Muplodocus",
+      "english": "Goodra",
+      "portuguese": "Goodra",
+      "status": "retained_english",
+      "source_hex": "c1e3e3d8e6d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc91",
+      "species_id": 815,
+      "english_reference": "Trousselin",
+      "french_reference": "Trousselin",
+      "english": "Klefki",
+      "portuguese": "Klefki",
+      "status": "retained_english",
+      "source_hex": "c5e0d9dadfddffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        31
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cc9c",
+      "species_id": 816,
+      "english_reference": "Brocélôme",
+      "french_reference": "Brocélôme",
+      "english": "Phantump",
+      "portuguese": "Phantump",
+      "status": "retained_english",
+      "source_hex": "cadcd5e2e8e9e1e4ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cca7",
+      "species_id": 817,
+      "english_reference": "Desséliand",
+      "french_reference": "Desséliande",
+      "english": "Trevenant",
+      "portuguese": "Trevenant",
+      "status": "retained_english",
+      "source_hex": "cee6d9ead9e2d5e2e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ccb2",
+      "species_id": 818,
+      "english_reference": "Pitrouille",
+      "french_reference": "Pitrouille",
+      "english": "Pumpkaboo",
+      "portuguese": "Pumpkaboo",
+      "status": "retained_english",
+      "source_hex": "cae9e1e4dfd5d6e3e3ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ccbd",
+      "species_id": 819,
+      "english_reference": "Banshitrou",
+      "french_reference": "Banshitrouye",
+      "english": "Gourgeist",
+      "portuguese": "Gourgeist",
+      "status": "retained_english",
+      "source_hex": "c1e3e9e6dbd9dde7e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ccc8",
+      "species_id": 820,
+      "english_reference": "Grelaçon",
+      "french_reference": "Grelaçon",
+      "english": "Bergmite",
+      "portuguese": "Bergmite",
+      "status": "retained_english",
+      "source_hex": "bcd9e6dbe1dde8d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ccd3",
+      "species_id": 821,
+      "english_reference": "Séracrawl",
+      "french_reference": "Séracrawl",
+      "english": "Avalugg",
+      "portuguese": "Avalugg",
+      "status": "retained_english",
+      "source_hex": "bbead5e0e9dbdbffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ccde",
+      "species_id": 822,
+      "english_reference": "Sonistrell",
+      "french_reference": "Sonistrelle",
+      "english": "Noibat",
+      "portuguese": "Noibat",
+      "status": "retained_english",
+      "source_hex": "c8e3ddd6d5e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cce9",
+      "species_id": 823,
+      "english_reference": "Bruyverne",
+      "french_reference": "Bruyverne",
+      "english": "Noivern",
+      "portuguese": "Noivern",
+      "status": "retained_english",
+      "source_hex": "c8e3ddead9e6e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ccf4",
+      "species_id": 824,
+      "english_reference": "Xerneas",
+      "french_reference": "Xerneas",
+      "english": "Xerneas",
+      "portuguese": "Xerneas",
+      "status": "retained_english",
+      "source_hex": "d2d9e6e2d9d5e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ccff",
+      "species_id": 825,
+      "english_reference": "Yveltal",
+      "french_reference": "Yveltal",
+      "english": "Yveltal",
+      "portuguese": "Yveltal",
+      "status": "retained_english",
+      "source_hex": "d3ead9e0e8d5e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd0a",
+      "species_id": 826,
+      "english_reference": "Zygarde",
+      "french_reference": "Zygarde",
+      "english": "Zygarde",
+      "portuguese": "Zygarde",
+      "status": "retained_english",
+      "source_hex": "d4eddbd5e6d8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd15",
+      "species_id": 827,
+      "english_reference": "Diancie",
+      "french_reference": "Diancie",
+      "english": "Diancie",
+      "portuguese": "Diancie",
+      "status": "retained_english",
+      "source_hex": "beddd5e2d7ddd9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd20",
+      "species_id": 828,
+      "english_reference": "Hoopa",
+      "french_reference": "Hoopa",
+      "english": "Hoopa",
+      "portuguese": "Hoopa",
+      "status": "retained_english",
+      "source_hex": "c2e3e3e4d5ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd2b",
+      "species_id": 829,
+      "english_reference": "Hoopa",
+      "french_reference": "Hoopa",
+      "english": "Hoopa",
+      "portuguese": "Hoopa",
+      "status": "retained_english",
+      "source_hex": "c2e3e3e4d5ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd36",
+      "species_id": 830,
+      "english_reference": "Volcanion",
+      "french_reference": "Volcanion",
+      "english": "Volcanion",
+      "portuguese": "Volcanion",
+      "status": "retained_english",
+      "source_hex": "d0e3e0d7d5e2dde3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd41",
+      "species_id": 831,
+      "english_reference": "Némélios",
+      "french_reference": "Pyroar",
+      "english": "Pyroar",
+      "portuguese": "Pyroar",
+      "status": "retained_english",
+      "source_hex": "caede6e3d5e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd4c",
+      "species_id": 832,
+      "english_reference": "Mistigrix",
+      "french_reference": "Mistigrix",
+      "english": "Meowstic",
+      "portuguese": "Meowstic",
+      "status": "retained_english",
+      "source_hex": "c7d9e3ebe7e8ddd7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd57",
+      "species_id": 833,
+      "english_reference": "Exagide",
+      "french_reference": "Aegislash",
+      "english": "Aegislash",
+      "portuguese": "Aegislash",
+      "status": "retained_english",
+      "source_hex": "bbd9dbdde7e0d5e7dcffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd62",
+      "species_id": 834,
+      "english_reference": "Arceus",
+      "french_reference": "Arceus",
+      "english": "Arceus",
+      "portuguese": "Arceus",
+      "status": "retained_english",
+      "source_hex": "bbe6d7d9e9e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd6d",
+      "species_id": 835,
+      "english_reference": "Zygarde",
+      "french_reference": "Zygarde",
+      "english": "Zygarde",
+      "portuguese": "Zygarde",
+      "status": "retained_english",
+      "source_hex": "d4eddbd5e6d8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd78",
+      "species_id": 836,
+      "english_reference": "Zygarde",
+      "french_reference": "Zygarde",
+      "english": "Zygarde",
+      "portuguese": "Zygarde",
+      "status": "retained_english",
+      "source_hex": "d4eddbd5e6d8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd83",
+      "species_id": 837,
+      "english_reference": "Zygarde",
+      "french_reference": "Zygarde",
+      "english": "Zygarde",
+      "portuguese": "Zygarde",
+      "status": "retained_english",
+      "source_hex": "d4eddbd5e6d8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd8e",
+      "species_id": 838,
+      "english_reference": "Zygarde",
+      "french_reference": "Zygarde",
+      "english": "Zygarde",
+      "portuguese": "Zygarde",
+      "status": "retained_english",
+      "source_hex": "d4eddbd5e6d8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cd99",
+      "species_id": 839,
+      "english_reference": "Amphinobi",
+      "french_reference": "Amphinobi",
+      "english": "Greninja",
+      "portuguese": "Greninja",
+      "status": "retained_english",
+      "source_hex": "c1e6d9e2dde2ded5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cda4",
+      "species_id": 840,
+      "english_reference": "Flabébé",
+      "french_reference": null,
+      "english": "Flabébé",
+      "portuguese": "Flabébé",
+      "status": "retained_english",
+      "source_hex": "c0e0d5d61bd61bffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cdaf",
+      "species_id": 841,
+      "english_reference": "Flabébé",
+      "french_reference": null,
+      "english": "Flabébé",
+      "portuguese": "Flabébé",
+      "status": "retained_english",
+      "source_hex": "c0e0d5d61bd61bffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cdba",
+      "species_id": 842,
+      "english_reference": "Flabébé",
+      "french_reference": null,
+      "english": "Flabébé",
+      "portuguese": "Flabébé",
+      "status": "retained_english",
+      "source_hex": "c0e0d5d61bd61bffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cdc5",
+      "species_id": 843,
+      "english_reference": "Flabébé",
+      "french_reference": null,
+      "english": "Flabébé",
+      "portuguese": "Flabébé",
+      "status": "retained_english",
+      "source_hex": "c0e0d5d61bd61bffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cdd0",
+      "species_id": 844,
+      "english_reference": "Floette",
+      "french_reference": "Floette",
+      "english": "Floette",
+      "portuguese": "Floette",
+      "status": "retained_english",
+      "source_hex": "c0e0e3d9e8e8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cddb",
+      "species_id": 845,
+      "english_reference": "Floette",
+      "french_reference": "Floette",
+      "english": "Floette",
+      "portuguese": "Floette",
+      "status": "retained_english",
+      "source_hex": "c0e0e3d9e8e8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cde6",
+      "species_id": 846,
+      "english_reference": "Floette",
+      "french_reference": "Floette",
+      "english": "Floette",
+      "portuguese": "Floette",
+      "status": "retained_english",
+      "source_hex": "c0e0e3d9e8e8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cdf1",
+      "species_id": 847,
+      "english_reference": "Floette",
+      "french_reference": "Floette",
+      "english": "Floette",
+      "portuguese": "Floette",
+      "status": "retained_english",
+      "source_hex": "c0e0e3d9e8e8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cdfc",
+      "species_id": 848,
+      "english_reference": "Floette",
+      "french_reference": "Floette",
+      "english": "Floette",
+      "portuguese": "Floette",
+      "status": "retained_english",
+      "source_hex": "c0e0e3d9e8e8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce07",
+      "species_id": 849,
+      "english_reference": "Florges",
+      "french_reference": "Florges",
+      "english": "Florges",
+      "portuguese": "Florges",
+      "status": "retained_english",
+      "source_hex": "c0e0e3e6dbd9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce12",
+      "species_id": 850,
+      "english_reference": "Florges",
+      "french_reference": "Florges",
+      "english": "Florges",
+      "portuguese": "Florges",
+      "status": "retained_english",
+      "source_hex": "c0e0e3e6dbd9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce1d",
+      "species_id": 851,
+      "english_reference": "Florges",
+      "french_reference": "Florges",
+      "english": "Florges",
+      "portuguese": "Florges",
+      "status": "retained_english",
+      "source_hex": "c0e0e3e6dbd9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce28",
+      "species_id": 852,
+      "english_reference": "Florges",
+      "french_reference": "Florges",
+      "english": "Florges",
+      "portuguese": "Florges",
+      "status": "retained_english",
+      "source_hex": "c0e0e3e6dbd9e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce33",
+      "species_id": 853,
+      "english_reference": "Pitrouille",
+      "french_reference": "Pitrouille",
+      "english": "Pumpkaboo",
+      "portuguese": "Pumpkaboo",
+      "status": "retained_english",
+      "source_hex": "cae9e1e4dfd5d6e3e3ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce3e",
+      "species_id": 854,
+      "english_reference": "Pitrouille",
+      "french_reference": "Pitrouille",
+      "english": "Pumpkaboo",
+      "portuguese": "Pumpkaboo",
+      "status": "retained_english",
+      "source_hex": "cae9e1e4dfd5d6e3e3ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce49",
+      "species_id": 855,
+      "english_reference": "Pitrouille",
+      "french_reference": "Pitrouille",
+      "english": "Pumpkaboo",
+      "portuguese": "Pumpkaboo",
+      "status": "retained_english",
+      "source_hex": "cae9e1e4dfd5d6e3e3ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce54",
+      "species_id": 856,
+      "english_reference": "Banshitrou",
+      "french_reference": "Banshitrouye",
+      "english": "Gourgeist",
+      "portuguese": "Gourgeist",
+      "status": "retained_english",
+      "source_hex": "c1e3e9e6dbd9dde7e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce5f",
+      "species_id": 857,
+      "english_reference": "Banshitrou",
+      "french_reference": "Banshitrouye",
+      "english": "Gourgeist",
+      "portuguese": "Gourgeist",
+      "status": "retained_english",
+      "source_hex": "c1e3e9e6dbd9dde7e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce6a",
+      "species_id": 858,
+      "english_reference": "Banshitrou",
+      "french_reference": "Banshitrouye",
+      "english": "Gourgeist",
+      "portuguese": "Gourgeist",
+      "status": "retained_english",
+      "source_hex": "c1e3e9e6dbd9dde7e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce75",
+      "species_id": 859,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce80",
+      "species_id": 860,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce8b",
+      "species_id": 861,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ce96",
+      "species_id": 862,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cea1",
+      "species_id": 863,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ceac",
+      "species_id": 864,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ceb7",
+      "species_id": 865,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cec2",
+      "species_id": 866,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cecd",
+      "species_id": 867,
+      "english_reference": "Couafarel",
+      "french_reference": "Furfrou",
+      "english": "Furfrou",
+      "portuguese": "Furfrou",
+      "status": "retained_english",
+      "source_hex": "c0e9e6dae6e3e9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ced8",
+      "species_id": 868,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cee3",
+      "species_id": 869,
+      "english_reference": "Florizarre",
+      "french_reference": "Venusaur",
+      "english": "Venusaur",
+      "portuguese": "Venusaur",
+      "status": "retained_english",
+      "source_hex": "d0d9e2e9e7d5e9e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166ceee",
+      "species_id": 870,
+      "english_reference": "Dracaufeu",
+      "french_reference": "Dracaufeu",
+      "english": "Charizard",
+      "portuguese": "Charizard",
+      "status": "retained_english",
+      "source_hex": "bddcd5e6ddeed5e6d8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cef9",
+      "species_id": 871,
+      "english_reference": "Dracaufeu",
+      "french_reference": "Dracaufeu",
+      "english": "Charizard",
+      "portuguese": "Charizard",
+      "status": "retained_english",
+      "source_hex": "bddcd5e6ddeed5e6d8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf04",
+      "species_id": 872,
+      "english_reference": "Tortank",
+      "french_reference": "Blastoise",
+      "english": "Blastoise",
+      "portuguese": "Blastoise",
+      "status": "retained_english",
+      "source_hex": "bce0d5e7e8e3dde7d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf0f",
+      "species_id": 873,
+      "english_reference": "Dardargnan",
+      "french_reference": "Dardargnan",
+      "english": "Beedrill",
+      "portuguese": "Beedrill",
+      "status": "retained_english",
+      "source_hex": "bcd9d9d8e6dde0e0ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf1a",
+      "species_id": 874,
+      "english_reference": "Roucarnage",
+      "french_reference": "Pidgeot",
+      "english": "Pidgeot",
+      "portuguese": "Pidgeot",
+      "status": "retained_english",
+      "source_hex": "caddd8dbd9e3e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf25",
+      "species_id": 875,
+      "english_reference": "Alakazam",
+      "french_reference": "Alakazam",
+      "english": "Alakazam",
+      "portuguese": "Alakazam",
+      "status": "retained_english",
+      "source_hex": "bbe0d5dfd5eed5e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf30",
+      "species_id": 876,
+      "english_reference": "Flagadoss",
+      "french_reference": "Slowbro",
+      "english": "Slowbro",
+      "portuguese": "Slowbro",
+      "status": "retained_english",
+      "source_hex": "cde0e3ebd6e6e3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf3b",
+      "species_id": 877,
+      "english_reference": "Ectoplasma",
+      "french_reference": "Ectoplasma",
+      "english": "Gengar",
+      "portuguese": "Gengar",
+      "status": "retained_english",
+      "source_hex": "c1d9e2dbd5e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf46",
+      "species_id": 878,
+      "english_reference": "Kangourex",
+      "french_reference": "Kangourex",
+      "english": "Kangaskhan",
+      "portuguese": "Kangaskhan",
+      "status": "retained_english",
+      "source_hex": "c5d5e2dbd5e7dfdcd5e2ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf51",
+      "species_id": 879,
+      "english_reference": "Scarabrute",
+      "french_reference": "Scarabrute",
+      "english": "Pinsir",
+      "portuguese": "Pinsir",
+      "status": "retained_english",
+      "source_hex": "cadde2e7dde6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        29
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf5c",
+      "species_id": 880,
+      "english_reference": "Léviator",
+      "french_reference": "Léviator",
+      "english": "Gyarados",
+      "portuguese": "Gyarados",
+      "status": "retained_english",
+      "source_hex": "c1edd5e6d5d8e3e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf67",
+      "species_id": 881,
+      "english_reference": "Ptéra",
+      "french_reference": "Aerodactyl",
+      "english": "Aerodactyl",
+      "portuguese": "Aerodactyl",
+      "status": "retained_english",
+      "source_hex": "bbd9e6e3d8d5d7e8ede0ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf72",
+      "species_id": 882,
+      "english_reference": "Mewtwo",
+      "french_reference": "Mewtwo",
+      "english": "Mewtwo",
+      "portuguese": "Mewtwo",
+      "status": "retained_english",
+      "source_hex": "c7d9ebe8ebe3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf7d",
+      "species_id": 883,
+      "english_reference": "Mewtwo",
+      "french_reference": "Mewtwo",
+      "english": "Mewtwo",
+      "portuguese": "Mewtwo",
+      "status": "retained_english",
+      "source_hex": "c7d9ebe8ebe3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf88",
+      "species_id": 884,
+      "english_reference": "Pharamp",
+      "french_reference": "Ampharos",
+      "english": "Ampharos",
+      "portuguese": "Ampharos",
+      "status": "retained_english",
+      "source_hex": "bbe1e4dcd5e6e3e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf93",
+      "species_id": 885,
+      "english_reference": "Steelix",
+      "french_reference": "Steelix",
+      "english": "Steelix",
+      "portuguese": "Steelix",
+      "status": "retained_english",
+      "source_hex": "cde8d9d9e0ddecffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cf9e",
+      "species_id": 886,
+      "english_reference": "Cizayox",
+      "french_reference": "Cizayox",
+      "english": "Scizor",
+      "portuguese": "Scizor",
+      "status": "retained_english",
+      "source_hex": "cdd7ddeee3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cfa9",
+      "species_id": 887,
+      "english_reference": "Scarhino",
+      "french_reference": "Heracross",
+      "english": "Heracross",
+      "portuguese": "Heracross",
+      "status": "retained_english",
+      "source_hex": "c2d9e6d5d7e6e3e7e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cfb4",
+      "species_id": 888,
+      "english_reference": "Démolosse",
+      "french_reference": "Démolosse",
+      "english": "Houndoom",
+      "portuguese": "Houndoom",
+      "status": "retained_english",
+      "source_hex": "c2e3e9e2d8e3e3e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cfbf",
+      "species_id": 889,
+      "english_reference": "Tyranocif",
+      "french_reference": "Tyranocif",
+      "english": "Tyranitar",
+      "portuguese": "Tyranitar",
+      "status": "retained_english",
+      "source_hex": "ceede6d5e2dde8d5e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cfca",
+      "species_id": 890,
+      "english_reference": "Jungko",
+      "french_reference": "Jungko",
+      "english": "Sceptile",
+      "portuguese": "Sceptile",
+      "status": "retained_english",
+      "source_hex": "cdd7d9e4e8dde0d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cfd5",
+      "species_id": 891,
+      "english_reference": "Braségali",
+      "french_reference": "Braségali",
+      "english": "Blaziken",
+      "portuguese": "Blaziken",
+      "status": "retained_english",
+      "source_hex": "bce0d5eedddfd9e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cfe0",
+      "species_id": 892,
+      "english_reference": "Laggron",
+      "french_reference": "Laggron",
+      "english": "Swampert",
+      "portuguese": "Swampert",
+      "status": "retained_english",
+      "source_hex": "cdebd5e1e4d9e6e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cfeb",
+      "species_id": 893,
+      "english_reference": "Gardevoir",
+      "french_reference": "Gardevoir",
+      "english": "Gardevoir",
+      "portuguese": "Gardevoir",
+      "status": "retained_english",
+      "source_hex": "c1d5e6d8d9eae3dde6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166cff6",
+      "species_id": 894,
+      "english_reference": "Ténéfix",
+      "french_reference": "Sableye",
+      "english": "Sableye",
+      "portuguese": "Sableye",
+      "status": "retained_english",
+      "source_hex": "cdd5d6e0d9edd9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d001",
+      "species_id": 895,
+      "english_reference": "Mysdibule",
+      "french_reference": "Mysdibule",
+      "english": "Mawile",
+      "portuguese": "Mawile",
+      "status": "retained_english",
+      "source_hex": "c7d5ebdde0d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d00c",
+      "species_id": 896,
+      "english_reference": "Galeking",
+      "french_reference": "Galeking",
+      "english": "Aggron",
+      "portuguese": "Aggron",
+      "status": "retained_english",
+      "source_hex": "bbdbdbe6e3e2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d017",
+      "species_id": 897,
+      "english_reference": "Charmina",
+      "french_reference": "Charmina",
+      "english": "Medicham",
+      "portuguese": "Medicham",
+      "status": "retained_english",
+      "source_hex": "c7d9d8ddd7dcd5e1ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d022",
+      "species_id": 898,
+      "english_reference": "Élecsprint",
+      "french_reference": "Élecsprint",
+      "english": "Manectric",
+      "portuguese": "Manectric",
+      "status": "retained_english",
+      "source_hex": "c7d5e2d9d7e8e6ddd7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d02d",
+      "species_id": 899,
+      "english_reference": "Sharpedo",
+      "french_reference": "Sharpedo",
+      "english": "Sharpedo",
+      "portuguese": "Sharpedo",
+      "status": "retained_english",
+      "source_hex": "cddcd5e6e4d9d8e3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d038",
+      "species_id": 900,
+      "english_reference": "Camérupt",
+      "french_reference": "Camerupt",
+      "english": "Camerupt",
+      "portuguese": "Camerupt",
+      "status": "retained_english",
+      "source_hex": "bdd5e1d9e6e9e4e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d043",
+      "species_id": 901,
+      "english_reference": "Altaria",
+      "french_reference": "Altaria",
+      "english": "Altaria",
+      "portuguese": "Altaria",
+      "status": "retained_english",
+      "source_hex": "bbe0e8d5e6ddd5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d04e",
+      "species_id": 902,
+      "english_reference": "Branette",
+      "french_reference": "Banette",
+      "english": "Banette",
+      "portuguese": "Banette",
+      "status": "retained_english",
+      "source_hex": "bcd5e2d9e8e8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d059",
+      "species_id": 903,
+      "english_reference": "Absol",
+      "french_reference": "Absol",
+      "english": "Absol",
+      "portuguese": "Absol",
+      "status": "retained_english",
+      "source_hex": "bbd6e7e3e0ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        28
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d064",
+      "species_id": 904,
+      "english_reference": "Oniglali",
+      "french_reference": "Glalie",
+      "english": "Glalie",
+      "portuguese": "Glalie",
+      "status": "retained_english",
+      "source_hex": "c1e0d5e0ddd9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d06f",
+      "species_id": 905,
+      "english_reference": "Drattak",
+      "french_reference": "Drattak",
+      "english": "Salamence",
+      "portuguese": "Salamence",
+      "status": "retained_english",
+      "source_hex": "cdd5e0d5e1d9e2d7d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d07a",
+      "species_id": 906,
+      "english_reference": "Métalosse",
+      "french_reference": "Métalosse",
+      "english": "Metagross",
+      "portuguese": "Metagross",
+      "status": "retained_english",
+      "source_hex": "c7d9e8d5dbe6e3e7e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d085",
+      "species_id": 907,
+      "english_reference": "Latias",
+      "french_reference": "Latias",
+      "english": "Latias",
+      "portuguese": "Latias",
+      "status": "retained_english",
+      "source_hex": "c6d5e8ddd5e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d090",
+      "species_id": 908,
+      "english_reference": "Latios",
+      "french_reference": "Latios",
+      "english": "Latios",
+      "portuguese": "Latios",
+      "status": "retained_english",
+      "source_hex": "c6d5e8dde3e7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d09b",
+      "species_id": 909,
+      "english_reference": "Groudon",
+      "french_reference": "Groudon",
+      "english": "Groudon",
+      "portuguese": "Groudon",
+      "status": "retained_english",
+      "source_hex": "c1e6e3e9d8e3e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0a6",
+      "species_id": 910,
+      "english_reference": "Kyogre",
+      "french_reference": "Kyogre",
+      "english": "Kyogre",
+      "portuguese": "Kyogre",
+      "status": "retained_english",
+      "source_hex": "c5ede3dbe6d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0b1",
+      "species_id": 911,
+      "english_reference": "Rayquaza",
+      "french_reference": "Rayquaza",
+      "english": "Rayquaza",
+      "portuguese": "Rayquaza",
+      "status": "retained_english",
+      "source_hex": "ccd5ede5e9d5eed5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0bc",
+      "species_id": 912,
+      "english_reference": "Lockpin",
+      "french_reference": "Lockpin",
+      "english": "Lopunny",
+      "portuguese": "Lopunny",
+      "status": "retained_english",
+      "source_hex": "c6e3e4e9e2e2edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0c7",
+      "species_id": 913,
+      "english_reference": "Carchacrok",
+      "french_reference": "Carchacrok",
+      "english": "Garchomp",
+      "portuguese": "Garchomp",
+      "status": "retained_english",
+      "source_hex": "c1d5e6d7dce3e1e4ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0d2",
+      "species_id": 914,
+      "english_reference": "Lucario",
+      "french_reference": "Lucario",
+      "english": "Lucario",
+      "portuguese": "Lucario",
+      "status": "retained_english",
+      "source_hex": "c6e9d7d5e6dde3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0dd",
+      "species_id": 915,
+      "english_reference": "Blizzaroi",
+      "french_reference": "Blizzaroi",
+      "english": "Abomasnow",
+      "portuguese": "Abomasnow",
+      "status": "retained_english",
+      "source_hex": "bbd6e3e1d5e7e2e3ebffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0e8",
+      "species_id": 916,
+      "english_reference": "Gallame",
+      "french_reference": "Gallame",
+      "english": "Gallade",
+      "portuguese": "Gallade",
+      "status": "retained_english",
+      "source_hex": "c1d5e0e0d5d8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0f3",
+      "species_id": 917,
+      "english_reference": "Nanméouïe",
+      "french_reference": "Audino",
+      "english": "Audino",
+      "portuguese": "Audino",
+      "status": "retained_english",
+      "source_hex": "bbe9d8dde2e3ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d0fe",
+      "species_id": 918,
+      "english_reference": "Diancie",
+      "french_reference": "Diancie",
+      "english": "Diancie",
+      "portuguese": "Diancie",
+      "status": "retained_english",
+      "source_hex": "beddd5e2d7ddd9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d109",
+      "species_id": 919,
+      "english_reference": "Dialga",
+      "french_reference": "Dialga",
+      "english": "Dialga",
+      "portuguese": "Dialga",
+      "status": "retained_english",
+      "source_hex": "beddd5e0dbd5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d114",
+      "species_id": 920,
+      "english_reference": "Palkia",
+      "french_reference": "Palkia",
+      "english": "Palkia",
+      "portuguese": "Palkia",
+      "status": "retained_english",
+      "source_hex": "cad5e0dfddd5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d11f",
+      "species_id": 921,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d12a",
+      "species_id": 922,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d135",
+      "species_id": 923,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d140",
+      "species_id": 924,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d14b",
+      "species_id": 925,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d156",
+      "species_id": 926,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d161",
+      "species_id": 927,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d16c",
+      "species_id": 928,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d177",
+      "species_id": 929,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d182",
+      "species_id": 930,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d18d",
+      "species_id": 931,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d198",
+      "species_id": 932,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1a3",
+      "species_id": 933,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1ae",
+      "species_id": 934,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1b9",
+      "species_id": 935,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1c4",
+      "species_id": 936,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1cf",
+      "species_id": 937,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1da",
+      "species_id": 938,
+      "english_reference": "Prismillon",
+      "french_reference": "Vivillon",
+      "english": "Vivillon",
+      "portuguese": "Vivillon",
+      "status": "retained_english",
+      "source_hex": "d0ddeadde0e0e3e2ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1e5",
+      "species_id": 939,
+      "english_reference": "Brindibou",
+      "french_reference": "Brindibou",
+      "english": "Rowlet",
+      "portuguese": "Rowlet",
+      "status": "retained_english",
+      "source_hex": "cce3ebe0d9e8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1f0",
+      "species_id": 940,
+      "english_reference": "Efflèche",
+      "french_reference": "Efflèche",
+      "english": "Dartrix",
+      "portuguese": "Dartrix",
+      "status": "retained_english",
+      "source_hex": "bed5e6e8e6ddecffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d1fb",
+      "species_id": 941,
+      "english_reference": "Archéduc",
+      "french_reference": "Archéduc",
+      "english": "Decidueye",
+      "portuguese": "Decidueye",
+      "status": "retained_english",
+      "source_hex": "bed9d7ddd8e9d9edd9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d206",
+      "species_id": 942,
+      "english_reference": "Flamiaou",
+      "french_reference": "Flamiaou",
+      "english": "Litten",
+      "portuguese": "Litten",
+      "status": "retained_english",
+      "source_hex": "c6dde8e8d9e2ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        31
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d211",
+      "species_id": 943,
+      "english_reference": "Matoufeu",
+      "french_reference": "Matoufeu",
+      "english": "Torracat",
+      "portuguese": "Torracat",
+      "status": "retained_english",
+      "source_hex": "cee3e6e6d5d7d5e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d21c",
+      "species_id": 944,
+      "english_reference": "Félinferno",
+      "french_reference": "Félinferno",
+      "english": "Incineroar",
+      "portuguese": "Incineroar",
+      "status": "retained_english",
+      "source_hex": "c3e2d7dde2d9e6e3d5e6ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        54
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d227",
+      "species_id": 945,
+      "english_reference": "Otaquin",
+      "french_reference": "Otaquin",
+      "english": "Popplio",
+      "portuguese": "Popplio",
+      "status": "retained_english",
+      "source_hex": "cae3e4e4e0dde3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d232",
+      "species_id": 946,
+      "english_reference": "Otarlette",
+      "french_reference": "Otarlette",
+      "english": "Brionne",
+      "portuguese": "Brionne",
+      "status": "retained_english",
+      "source_hex": "bce6dde3e2e2d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d23d",
+      "species_id": 947,
+      "english_reference": "Oratoria",
+      "french_reference": "Oratoria",
+      "english": "Primarina",
+      "portuguese": "Primarina",
+      "status": "retained_english",
+      "source_hex": "cae6dde1d5e6dde2d5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d248",
+      "species_id": 948,
+      "english_reference": "Picassaut",
+      "french_reference": "Picassaut",
+      "english": "Pikipek",
+      "portuguese": "Pikipek",
+      "status": "retained_english",
+      "source_hex": "cadddfdde4d9dfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        36
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d253",
+      "species_id": 949,
+      "english_reference": "Piclairon",
+      "french_reference": "Piclairon",
+      "english": "Trumbeak",
+      "portuguese": "Trumbeak",
+      "status": "retained_english",
+      "source_hex": "cee6e9e1d6d9d5dfffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d25e",
+      "species_id": 950,
+      "english_reference": "Bazoucan",
+      "french_reference": "Bazoucan",
+      "english": "Toucannon",
+      "portuguese": "Toucannon",
+      "status": "retained_english",
+      "source_hex": "cee3e9d7d5e2e2e3e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d269",
+      "species_id": 951,
+      "english_reference": "Manglouton",
+      "french_reference": "Manglouton",
+      "english": "Yungoos",
+      "portuguese": "Yungoos",
+      "status": "retained_english",
+      "source_hex": "d3e9e2dbe3e3e7ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d274",
+      "species_id": 952,
+      "english_reference": "Argouste",
+      "french_reference": "Argouste",
+      "english": "Gumshoos",
+      "portuguese": "Gumshoos",
+      "status": "retained_english",
+      "source_hex": "c1e9e1e7dce3e3e7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d27f",
+      "species_id": 953,
+      "english_reference": "Larvibule",
+      "french_reference": "Larvibule",
+      "english": "Grubbin",
+      "portuguese": "Grubbin",
+      "status": "retained_english",
+      "source_hex": "c1e6e9d6d6dde2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d28a",
+      "species_id": 954,
+      "english_reference": "Chrysapile",
+      "french_reference": "Chrysapile",
+      "english": "Charjabug",
+      "portuguese": "Charjabug",
+      "status": "retained_english",
+      "source_hex": "bddcd5e6ded5d6e9dbffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d295",
+      "species_id": 955,
+      "english_reference": "Lucanon",
+      "french_reference": "Lucanon",
+      "english": "Vikavolt",
+      "portuguese": "Vikavolt",
+      "status": "retained_english",
+      "source_hex": "d0dddfd5eae3e0e8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2a0",
+      "species_id": 956,
+      "english_reference": "Crabagarre",
+      "french_reference": "Crabagarre",
+      "english": "Crabrawler",
+      "portuguese": "Crabrawler",
+      "status": "retained_english",
+      "source_hex": "bde6d5d6e6d5ebe0d9e6ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2ab",
+      "species_id": 957,
+      "english_reference": "Crabominab",
+      "french_reference": "Crabominable",
+      "english": "Crabminble",
+      "portuguese": "Crabminble",
+      "status": "retained_english",
+      "source_hex": "bde6d5d6e1dde2d6e0d9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2b6",
+      "species_id": 958,
+      "english_reference": "Plumeline",
+      "french_reference": "Plumeline",
+      "english": "Oricorio",
+      "portuguese": "Oricorio",
+      "status": "retained_english",
+      "source_hex": "c9e6ddd7e3e6dde3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2c1",
+      "species_id": 959,
+      "english_reference": "Bombydou",
+      "french_reference": "Bombydou",
+      "english": "Cutiefly",
+      "portuguese": "Cutiefly",
+      "status": "retained_english",
+      "source_hex": "bde9e8ddd9dae0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2cc",
+      "species_id": 960,
+      "english_reference": "Rubombelle",
+      "french_reference": "Rubombelle",
+      "english": "Ribombee",
+      "portuguese": "Ribombee",
+      "status": "retained_english",
+      "source_hex": "ccddd6e3e1d6d9d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2d7",
+      "species_id": 961,
+      "english_reference": "Rocabot",
+      "french_reference": "Rocabot",
+      "english": "Rockruff",
+      "portuguese": "Rockruff",
+      "status": "retained_english",
+      "source_hex": "cce3d7dfe6e9dadaffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2e2",
+      "species_id": 962,
+      "english_reference": "Lougaroc",
+      "french_reference": "Lougaroc",
+      "english": "Lycanroc",
+      "portuguese": "Lycanroc",
+      "status": "retained_english",
+      "source_hex": "c6edd7d5e2e6e3d7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2ed",
+      "species_id": 963,
+      "english_reference": "Froussardn",
+      "french_reference": "Froussardine",
+      "english": "Wishiwashi",
+      "portuguese": "Wishiwashi",
+      "status": "retained_english",
+      "source_hex": "d1dde7dcddebd5e7dcddff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d2f8",
+      "species_id": 964,
+      "english_reference": "Vorastérie",
+      "french_reference": "Vorastérie",
+      "english": "Mareanie",
+      "portuguese": "Mareanie",
+      "status": "retained_english",
+      "source_hex": "c7d5e6d9d5e2ddd9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d303",
+      "species_id": 965,
+      "english_reference": "Prédastéri",
+      "french_reference": "Prédastérie",
+      "english": "Toxapex",
+      "portuguese": "Toxapex",
+      "status": "retained_english",
+      "source_hex": "cee3ecd5e4d9ecffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d30e",
+      "species_id": 966,
+      "english_reference": "Tiboudet",
+      "french_reference": "Tiboudet",
+      "english": "Mudbray",
+      "portuguese": "Mudbray",
+      "status": "retained_english",
+      "source_hex": "c7e9d8d6e6d5edffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d319",
+      "species_id": 967,
+      "english_reference": "Bourrinos",
+      "french_reference": "Bourrinos",
+      "english": "Mudsdale",
+      "portuguese": "Mudsdale",
+      "status": "retained_english",
+      "source_hex": "c7e9d8e7d8d5e0d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d324",
+      "species_id": 968,
+      "english_reference": "Araqua",
+      "french_reference": "Araqua",
+      "english": "Dewpider",
+      "portuguese": "Dewpider",
+      "status": "retained_english",
+      "source_hex": "bed9ebe4ddd8d9e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d32f",
+      "species_id": 969,
+      "english_reference": "Tarenbulle",
+      "french_reference": "Tarenbulle",
+      "english": "Araquanid",
+      "portuguese": "Araquanid",
+      "status": "retained_english",
+      "source_hex": "bbe6d5e5e9d5e2ddd8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d33a",
+      "species_id": 970,
+      "english_reference": "Mimantis",
+      "french_reference": "Mimantis",
+      "english": "Fomantis",
+      "portuguese": "Fomantis",
+      "status": "retained_english",
+      "source_hex": "c0e3e1d5e2e8dde7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d345",
+      "species_id": 971,
+      "english_reference": "Floramanti",
+      "french_reference": "Floramantis",
+      "english": "Lurantis",
+      "portuguese": "Lurantis",
+      "status": "retained_english",
+      "source_hex": "c6e9e6d5e2e8dde7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d350",
+      "species_id": 972,
+      "english_reference": "Spododo",
+      "french_reference": "Spododo",
+      "english": "Morelull",
+      "portuguese": "Morelull",
+      "status": "retained_english",
+      "source_hex": "c7e3e6d9e0e9e0e0ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d35b",
+      "species_id": 973,
+      "english_reference": "Lampignon",
+      "french_reference": "Lampignon",
+      "english": "Shiinotic",
+      "portuguese": "Shiinotic",
+      "status": "retained_english",
+      "source_hex": "cddcdddde2e3e8ddd7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d366",
+      "species_id": 974,
+      "english_reference": "Tritox",
+      "french_reference": "Tritox",
+      "english": "Salandit",
+      "portuguese": "Salandit",
+      "status": "retained_english",
+      "source_hex": "cdd5e0d5e2d8dde8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d371",
+      "species_id": 975,
+      "english_reference": "Malamandre",
+      "french_reference": "Malamandre",
+      "english": "Salazzle",
+      "portuguese": "Salazzle",
+      "status": "retained_english",
+      "source_hex": "cdd5e0d5eeeee0d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d37c",
+      "species_id": 976,
+      "english_reference": "Nounourson",
+      "french_reference": "Nounourson",
+      "english": "Stufful",
+      "portuguese": "Stufful",
+      "status": "retained_english",
+      "source_hex": "cde8e9dadae9e0ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d387",
+      "species_id": 977,
+      "english_reference": "Chelours",
+      "french_reference": "Chelours",
+      "english": "Bewear",
+      "portuguese": "Bewear",
+      "status": "retained_english",
+      "source_hex": "bcd9ebd9d5e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d392",
+      "species_id": 978,
+      "english_reference": "Croquine",
+      "french_reference": "Croquine",
+      "english": "Bounsweet",
+      "portuguese": "Bounsweet",
+      "status": "retained_english",
+      "source_hex": "bce3e9e2e7ebd9d9e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d39d",
+      "species_id": 979,
+      "english_reference": "Candine",
+      "french_reference": "Candine",
+      "english": "Steenee",
+      "portuguese": "Steenee",
+      "status": "retained_english",
+      "source_hex": "cde8d9d9e2d9d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d3a8",
+      "species_id": 980,
+      "english_reference": "Sucreine",
+      "french_reference": "Sucreine",
+      "english": "Tsareena",
+      "portuguese": "Tsareena",
+      "status": "retained_english",
+      "source_hex": "cee7d5e6d9d9e2d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d3b3",
+      "species_id": 981,
+      "english_reference": "Guérilande",
+      "french_reference": "Guérilande",
+      "english": "Comfey",
+      "portuguese": "Comfey",
+      "status": "retained_english",
+      "source_hex": "bde3e1dad9edffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d3be",
+      "species_id": 982,
+      "english_reference": "Gouroutan",
+      "french_reference": "Gouroutan",
+      "english": "Oranguru",
+      "portuguese": "Oranguru",
+      "status": "retained_english",
+      "source_hex": "c9e6d5e2dbe9e6e9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d3c9",
+      "species_id": 983,
+      "english_reference": "Quartermac",
+      "french_reference": "Quartermac",
+      "english": "Passimian",
+      "portuguese": "Passimian",
+      "status": "retained_english",
+      "source_hex": "cad5e7e7dde1ddd5e2ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d3d4",
+      "species_id": 984,
+      "english_reference": "Sovkipou",
+      "french_reference": "Sovkipou",
+      "english": "Wimpod",
+      "portuguese": "Wimpod",
+      "status": "retained_english",
+      "source_hex": "d1dde1e4e3d8ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d3df",
+      "species_id": 985,
+      "english_reference": "Sarmuraï",
+      "french_reference": "Sarmuraï",
+      "english": "Golisopod",
+      "portuguese": "Golisopod",
+      "status": "retained_english",
+      "source_hex": "c1e3e0dde7e3e4e3d8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d3ea",
+      "species_id": 986,
+      "english_reference": "Bacabouh",
+      "french_reference": "Bacabouh",
+      "english": "Sandygast",
+      "portuguese": "Sandygast",
+      "status": "retained_english",
+      "source_hex": "cdd5e2d8eddbd5e7e8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d3f5",
+      "species_id": 987,
+      "english_reference": "Trépassabl",
+      "french_reference": "Trépassable",
+      "english": "Palossand",
+      "portuguese": "Palossand",
+      "status": "retained_english",
+      "source_hex": "cad5e0e3e7e7d5e2d8ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d400",
+      "species_id": 988,
+      "english_reference": "Concombaff",
+      "french_reference": "Concombaffe",
+      "english": "Pyukumuku",
+      "portuguese": "Pyukumuku",
+      "status": "retained_english",
+      "source_hex": "caede9dfe9e1e9dfe9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d40b",
+      "species_id": 989,
+      "english_reference": "Type:0",
+      "french_reference": "Type:0",
+      "english": "Type: Null",
+      "portuguese": "Type: Null",
+      "status": "retained_english",
+      "source_hex": "ceede4d9f000c8e9e0e0ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d416",
+      "species_id": 990,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d421",
+      "species_id": 991,
+      "english_reference": "Météno",
+      "french_reference": "Minior",
+      "english": "Minior",
+      "portuguese": "Minior",
+      "status": "retained_english",
+      "source_hex": "c7dde2dde3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d42c",
+      "species_id": 992,
+      "english_reference": "Dodoala",
+      "french_reference": "Komala",
+      "english": "Komala",
+      "portuguese": "Komala",
+      "status": "retained_english",
+      "source_hex": "c5e3e1d5e0d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d437",
+      "species_id": 993,
+      "english_reference": "Boumata",
+      "french_reference": "Boumata",
+      "english": "Turtonator",
+      "portuguese": "Turtonator",
+      "status": "retained_english",
+      "source_hex": "cee9e6e8e3e2d5e8e3e6ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        55
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d442",
+      "species_id": 994,
+      "english_reference": "Togedemaru",
+      "french_reference": "Togedemaru",
+      "english": "Togedemaru",
+      "portuguese": "Togedemaru",
+      "status": "retained_english",
+      "source_hex": "cee3dbd9d8d9e1d5e6e9ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        59
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d44d",
+      "species_id": 995,
+      "english_reference": "Mimiqui",
+      "french_reference": "Mimiqui",
+      "english": "Mimikyu",
+      "portuguese": "Mimikyu",
+      "status": "retained_english",
+      "source_hex": "c7dde1dddfede9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d458",
+      "species_id": 996,
+      "english_reference": "Denticriss",
+      "french_reference": "Denticrisse",
+      "english": "Bruxish",
+      "portuguese": "Bruxish",
+      "status": "retained_english",
+      "source_hex": "bce6e9ecdde7dcffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d463",
+      "species_id": 997,
+      "english_reference": "Draïeul",
+      "french_reference": "Draïeul",
+      "english": "Drampa",
+      "portuguese": "Drampa",
+      "status": "retained_english",
+      "source_hex": "bee6d5e1e4d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d46e",
+      "species_id": 998,
+      "english_reference": "Sinistrail",
+      "french_reference": "Sinistrail",
+      "english": "Dhelmise",
+      "portuguese": "Dhelmise",
+      "status": "retained_english",
+      "source_hex": "bedcd9e0e1dde7d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d479",
+      "species_id": 999,
+      "english_reference": "Bébécaille",
+      "french_reference": "Bébécaille",
+      "english": "Jangmo-o",
+      "portuguese": "Jangmo-o",
+      "status": "retained_english",
+      "source_hex": "c4d5e2dbe1e3aee3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d484",
+      "species_id": 1000,
+      "english_reference": "Écaïd",
+      "french_reference": "Écaïd",
+      "english": "Hakamo-o",
+      "portuguese": "Hakamo-o",
+      "status": "retained_english",
+      "source_hex": "c2d5dfd5e1e3aee3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d48f",
+      "species_id": 1001,
+      "english_reference": "Ékaïser",
+      "french_reference": "Ékaïser",
+      "english": "Kommo-o",
+      "portuguese": "Kommo-o",
+      "status": "retained_english",
+      "source_hex": "c5e3e1e1e3aee3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d49a",
+      "species_id": 1002,
+      "english_reference": "Tokorico",
+      "french_reference": "Tokorico",
+      "english": "Tapu Koko",
+      "portuguese": "Tapu Koko",
+      "status": "retained_english",
+      "source_hex": "ced5e4e900c5e3dfe3ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4a5",
+      "species_id": 1003,
+      "english_reference": "Tokopiyon",
+      "french_reference": "Tokopiyon",
+      "english": "Tapu Lele",
+      "portuguese": "Tapu Lele",
+      "status": "retained_english",
+      "source_hex": "ced5e4e900c6d9e0d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4b0",
+      "species_id": 1004,
+      "english_reference": "Tokotoro",
+      "french_reference": "Tokotoro",
+      "english": "Tapu Bulu",
+      "portuguese": "Tapu Bulu",
+      "status": "retained_english",
+      "source_hex": "ced5e4e900bce9e0e9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4bb",
+      "species_id": 1005,
+      "english_reference": "Tokopisco",
+      "french_reference": "Tokopisco",
+      "english": "Tapu Fini",
+      "portuguese": "Tapu Fini",
+      "status": "retained_english",
+      "source_hex": "ced5e4e900c0dde2ddffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        49
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4c6",
+      "species_id": 1006,
+      "english_reference": "Cosmog",
+      "french_reference": "Cosmog",
+      "english": "Cosmog",
+      "portuguese": "Cosmog",
+      "status": "retained_english",
+      "source_hex": "bde3e7e1e3dbffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4d1",
+      "species_id": 1007,
+      "english_reference": "Cosmovum",
+      "french_reference": "Cosmovum",
+      "english": "Cosmoem",
+      "portuguese": "Cosmoem",
+      "status": "retained_english",
+      "source_hex": "bde3e7e1e3d9e1ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        41
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4dc",
+      "species_id": 1008,
+      "english_reference": "Solgaleo",
+      "french_reference": "Solgaleo",
+      "english": "Solgaleo",
+      "portuguese": "Solgaleo",
+      "status": "retained_english",
+      "source_hex": "cde3e0dbd5e0d9e3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4e7",
+      "species_id": 1009,
+      "english_reference": "Lunala",
+      "french_reference": "Lunala",
+      "english": "Lunala",
+      "portuguese": "Lunala",
+      "status": "retained_english",
+      "source_hex": "c6e9e2d5e0d5ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4f2",
+      "species_id": 1010,
+      "english_reference": "Zéroïd",
+      "french_reference": "Zéroïd",
+      "english": "Nihilego",
+      "portuguese": "Nihilego",
+      "status": "retained_english",
+      "source_hex": "c8dddcdde0d9dbe3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d4fd",
+      "species_id": 1011,
+      "english_reference": "Mouscoto",
+      "french_reference": "Mouscoto",
+      "english": "Buzzwole",
+      "portuguese": "Buzzwole",
+      "status": "retained_english",
+      "source_hex": "bce9eeeeebe3e0d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d508",
+      "species_id": 1012,
+      "english_reference": "Cancrelove",
+      "french_reference": "Cancrelove",
+      "english": "Pheromosa",
+      "portuguese": "Pheromosa",
+      "status": "retained_english",
+      "source_hex": "cadcd9e6e3e1e3e7d5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d513",
+      "species_id": 1013,
+      "english_reference": "Câblifère",
+      "french_reference": "Câblifère",
+      "english": "Xurkitree",
+      "portuguese": "Xurkitree",
+      "status": "retained_english",
+      "source_hex": "d2e9e6dfdde8e6d9d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d51e",
+      "species_id": 1014,
+      "english_reference": "Bamboisell",
+      "french_reference": "Bamboiselle",
+      "english": "Celesteela",
+      "portuguese": "Celesteela",
+      "status": "retained_english",
+      "source_hex": "bdd9e0d9e7e8d9d9e0d5ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        56
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d529",
+      "species_id": 1015,
+      "english_reference": "Katagami",
+      "french_reference": "Katagami",
+      "english": "Kartana",
+      "portuguese": "Kartana",
+      "status": "retained_english",
+      "source_hex": "c5d5e6e8d5e2d5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d534",
+      "species_id": 1016,
+      "english_reference": "Engloutyra",
+      "french_reference": "Engloutyran",
+      "english": "Guzzlord",
+      "portuguese": "Guzzlord",
+      "status": "retained_english",
+      "source_hex": "c1e9eeeee0e3e6d8ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d53f",
+      "species_id": 1017,
+      "english_reference": "Necrozma",
+      "french_reference": "Necrozma",
+      "english": "Necrozma",
+      "portuguese": "Necrozma",
+      "status": "retained_english",
+      "source_hex": "c8d9d7e6e3eee1d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        47
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d54a",
+      "species_id": 1018,
+      "english_reference": "Magearna",
+      "french_reference": "Magearna",
+      "english": "Magearna",
+      "portuguese": "Magearna",
+      "status": "retained_english",
+      "source_hex": "c7d5dbd9d5e6e2d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d555",
+      "species_id": 1019,
+      "english_reference": "Marshadow",
+      "french_reference": "Marshadow",
+      "english": "Marshadow",
+      "portuguese": "Marshadow",
+      "status": "retained_english",
+      "source_hex": "c7d5e6e7dcd5d8e3ebffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d560",
+      "species_id": 1020,
+      "english_reference": "Rattata",
+      "french_reference": "Rattata",
+      "english": "Rattata",
+      "portuguese": "Rattata",
+      "status": "retained_english",
+      "source_hex": "ccd5e8e8d5e8d5ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d56b",
+      "species_id": 1021,
+      "english_reference": "Rattatac",
+      "french_reference": "Raticate",
+      "english": "Raticate",
+      "portuguese": "Raticate",
+      "status": "retained_english",
+      "source_hex": "ccd5e8ddd7d5e8d9ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        44
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d576",
+      "species_id": 1022,
+      "english_reference": "Raichu",
+      "french_reference": "Raichu",
+      "english": "Raichu",
+      "portuguese": "Raichu",
+      "status": "retained_english",
+      "source_hex": "ccd5ddd7dce9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        34
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d581",
+      "species_id": 1023,
+      "english_reference": "Sabelette",
+      "french_reference": "Sandshrew",
+      "english": "Sandshrew",
+      "portuguese": "Sandshrew",
+      "status": "retained_english",
+      "source_hex": "cdd5e2d8e7dce6d9ebffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        51
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d58c",
+      "species_id": 1024,
+      "english_reference": "Sablaireau",
+      "french_reference": "Sandslash",
+      "english": "Sandslash",
+      "portuguese": "Sandslash",
+      "status": "retained_english",
+      "source_hex": "cdd5e2d8e7e0d5e7dcffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d597",
+      "species_id": 1025,
+      "english_reference": "Goupix",
+      "french_reference": "Goupix",
+      "english": "Vulpix",
+      "portuguese": "Vulpix",
+      "status": "retained_english",
+      "source_hex": "d0e9e0e4ddecffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        33
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5a2",
+      "species_id": 1026,
+      "english_reference": "Feunard",
+      "french_reference": "Feunard",
+      "english": "Ninetales",
+      "portuguese": "Ninetales",
+      "status": "retained_english",
+      "source_hex": "c8dde2d9e8d5e0d9e7ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        48
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5ad",
+      "species_id": 1027,
+      "english_reference": "Taupiqueur",
+      "french_reference": "Diglett",
+      "english": "Diglett",
+      "portuguese": "Diglett",
+      "status": "retained_english",
+      "source_hex": "bedddbe0d9e8e8ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5b8",
+      "species_id": 1028,
+      "english_reference": "Triopikeur",
+      "french_reference": "Dugtrio",
+      "english": "Dugtrio",
+      "portuguese": "Dugtrio",
+      "status": "retained_english",
+      "source_hex": "bee9dbe8e6dde3ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        38
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5c3",
+      "species_id": 1029,
+      "english_reference": "Miaouss",
+      "french_reference": "Miaouss",
+      "english": "Meowth",
+      "portuguese": "Meowth",
+      "status": "retained_english",
+      "source_hex": "c7d9e3ebe8dcffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5ce",
+      "species_id": 1030,
+      "english_reference": "Persian",
+      "french_reference": "Persian",
+      "english": "Persian",
+      "portuguese": "Persian",
+      "status": "retained_english",
+      "source_hex": "cad9e6e7ddd5e2ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5d9",
+      "species_id": 1031,
+      "english_reference": "Racaillou",
+      "french_reference": "Geodude",
+      "english": "Geodude",
+      "portuguese": "Geodude",
+      "status": "retained_english",
+      "source_hex": "c1d9e3d8e9d8d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5e4",
+      "species_id": 1032,
+      "english_reference": "Gravalanch",
+      "french_reference": "Graveler",
+      "english": "Graveler",
+      "portuguese": "Graveler",
+      "status": "retained_english",
+      "source_hex": "c1e6d5ead9e0d9e6ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        45
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5ef",
+      "species_id": 1033,
+      "english_reference": "Grolem",
+      "french_reference": "Golem",
+      "english": "Golem",
+      "portuguese": "Golem",
+      "status": "retained_english",
+      "source_hex": "c1e3e0d9e1ffffffffffff",
+      "encoded_bytes": 6,
+      "line_widths": [
+        29
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d5fa",
+      "species_id": 1034,
+      "english_reference": "Tadmorv",
+      "french_reference": "Grimer",
+      "english": "Grimer",
+      "portuguese": "Grimer",
+      "status": "retained_english",
+      "source_hex": "c1e6dde1d9e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        32
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d605",
+      "species_id": 1035,
+      "english_reference": "Grotadmorv",
+      "french_reference": null,
+      "english": "Muk",
+      "portuguese": "Muk",
+      "status": "retained_english",
+      "source_hex": "c7e9dfffffffffffffffff",
+      "encoded_bytes": 4,
+      "line_widths": [
+        17
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d610",
+      "species_id": 1036,
+      "english_reference": "Noeunoeuf",
+      "french_reference": "Exeggcute",
+      "english": "Exeggcute",
+      "portuguese": "Exeggcute",
+      "status": "retained_english",
+      "source_hex": "bfecd9dbdbd7e9e8d9ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        53
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d61b",
+      "species_id": 1037,
+      "english_reference": "Noadkoko",
+      "french_reference": "Exeggutor",
+      "english": "Exeggutor",
+      "portuguese": "Exeggutor",
+      "status": "retained_english",
+      "source_hex": "bfecd9dbdbe9e8e3e6ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d626",
+      "species_id": 1038,
+      "english_reference": "Osselait",
+      "french_reference": "Cubone",
+      "english": "Cubone",
+      "portuguese": "Cubone",
+      "status": "retained_english",
+      "source_hex": "bde9d6e3e2d9ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d631",
+      "species_id": 1039,
+      "english_reference": "Ossatueur",
+      "french_reference": "Marowak",
+      "english": "Marowak",
+      "portuguese": "Marowak",
+      "status": "retained_english",
+      "source_hex": "c7d5e6e3ebd5dfffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        40
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d63c",
+      "species_id": 1040,
+      "english_reference": "Deoxys",
+      "french_reference": "Deoxys",
+      "english": "Deoxys",
+      "portuguese": "Deoxys",
+      "status": "retained_english",
+      "source_hex": "bed9e3ecede7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d647",
+      "species_id": 1041,
+      "english_reference": "Deoxys",
+      "french_reference": "Deoxys",
+      "english": "Deoxys",
+      "portuguese": "Deoxys",
+      "status": "retained_english",
+      "source_hex": "bed9e3ecede7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d652",
+      "species_id": 1042,
+      "english_reference": "Deoxys",
+      "french_reference": "Deoxys",
+      "english": "Deoxys",
+      "portuguese": "Deoxys",
+      "status": "retained_english",
+      "source_hex": "bed9e3ecede7ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        35
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d65d",
+      "species_id": 1043,
+      "english_reference": "Plumeline",
+      "french_reference": "Oricorio",
+      "english": "Oricorio",
+      "portuguese": "Oricorio",
+      "status": "retained_english",
+      "source_hex": "c9e6ddd7e3e6dde3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d668",
+      "species_id": 1044,
+      "english_reference": "Plumeline",
+      "french_reference": "Oricorio",
+      "english": "Oricorio",
+      "portuguese": "Oricorio",
+      "status": "retained_english",
+      "source_hex": "c9e6ddd7e3e6dde3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d673",
+      "species_id": 1045,
+      "english_reference": "Plumeline",
+      "french_reference": "Oricorio",
+      "english": "Oricorio",
+      "portuguese": "Oricorio",
+      "status": "retained_english",
+      "source_hex": "c9e6ddd7e3e6dde3ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        42
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d67e",
+      "species_id": 1046,
+      "english_reference": "Lougaroc",
+      "french_reference": "Lougaroc",
+      "english": "Lycanroc",
+      "portuguese": "Lycanroc",
+      "status": "retained_english",
+      "source_hex": "c6edd7d5e2e6e3d7ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d689",
+      "species_id": 1047,
+      "english_reference": "Froussardn",
+      "french_reference": "Froussardine",
+      "english": "Wishiwashi",
+      "portuguese": "Wishiwashi",
+      "status": "retained_english",
+      "source_hex": "d1dde7dcddebd5e7dcddff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d694",
+      "species_id": 1048,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d69f",
+      "species_id": 1049,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d6aa",
+      "species_id": 1050,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d6b5",
+      "species_id": 1051,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d6c0",
+      "species_id": 1052,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d6cb",
+      "species_id": 1053,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d6d6",
+      "species_id": 1054,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d6e1",
+      "species_id": 1055,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d6ec",
+      "species_id": 1056,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d6f7",
+      "species_id": 1057,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d702",
+      "species_id": 1058,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d70d",
+      "species_id": 1059,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d718",
+      "species_id": 1060,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d723",
+      "species_id": 1061,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d72e",
+      "species_id": 1062,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d739",
+      "species_id": 1063,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d744",
+      "species_id": 1064,
+      "english_reference": "Silvallié",
+      "french_reference": "Silvallié",
+      "english": "Silvally",
+      "portuguese": "Silvally",
+      "status": "retained_english",
+      "source_hex": "cddde0ead5e0e0edffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        43
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d74f",
+      "species_id": 1065,
+      "english_reference": "Météno",
+      "french_reference": "Minior",
+      "english": "Minior",
+      "portuguese": "Minior",
+      "status": "retained_english",
+      "source_hex": "c7dde2dde3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d75a",
+      "species_id": 1066,
+      "english_reference": "Météno",
+      "french_reference": "Minior",
+      "english": "Minior",
+      "portuguese": "Minior",
+      "status": "retained_english",
+      "source_hex": "c7dde2dde3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d765",
+      "species_id": 1067,
+      "english_reference": "Météno",
+      "french_reference": "Minior",
+      "english": "Minior",
+      "portuguese": "Minior",
+      "status": "retained_english",
+      "source_hex": "c7dde2dde3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d770",
+      "species_id": 1068,
+      "english_reference": "Météno",
+      "french_reference": "Minior",
+      "english": "Minior",
+      "portuguese": "Minior",
+      "status": "retained_english",
+      "source_hex": "c7dde2dde3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d77b",
+      "species_id": 1069,
+      "english_reference": "Météno",
+      "french_reference": "Minior",
+      "english": "Minior",
+      "portuguese": "Minior",
+      "status": "retained_english",
+      "source_hex": "c7dde2dde3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d786",
+      "species_id": 1070,
+      "english_reference": "Météno",
+      "french_reference": "Minior",
+      "english": "Minior",
+      "portuguese": "Minior",
+      "status": "retained_english",
+      "source_hex": "c7dde2dde3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d791",
+      "species_id": 1071,
+      "english_reference": "Météno",
+      "french_reference": "Minior",
+      "english": "Minior",
+      "portuguese": "Minior",
+      "status": "retained_english",
+      "source_hex": "c7dde2dde3e6ffffffffff",
+      "encoded_bytes": 7,
+      "line_widths": [
+        30
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d79c",
+      "species_id": 1072,
+      "english_reference": "Mimiqui",
+      "french_reference": "Mimiqui",
+      "english": "Mimikyu",
+      "portuguese": "Mimikyu",
+      "status": "retained_english",
+      "source_hex": "c7dde1dddfede9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        37
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d7a7",
+      "species_id": 1073,
+      "english_reference": "Magearna",
+      "french_reference": "Magearna",
+      "english": "Magearna",
+      "portuguese": "Magearna",
+      "status": "retained_english",
+      "source_hex": "c7d5dbd9d5e6e2d5ffffff",
+      "encoded_bytes": 9,
+      "line_widths": [
+        46
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d7b2",
+      "species_id": 1074,
+      "english_reference": "Vémini",
+      "french_reference": "Vémini",
+      "english": "Poipole",
+      "portuguese": "Poipole",
+      "status": "retained_english",
+      "source_hex": "cae3dde4e3e0d9ffffffff",
+      "encoded_bytes": 8,
+      "line_widths": [
+        39
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d7bd",
+      "species_id": 1075,
+      "english_reference": "Mandrillon",
+      "french_reference": "Mandrillon",
+      "english": "Naganadel",
+      "portuguese": "Naganadel",
+      "status": "retained_english",
+      "source_hex": "c8d5dbd5e2d5d8d9e0ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        52
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d7c8",
+      "species_id": 1076,
+      "english_reference": "Ama-Ama",
+      "french_reference": "Ama-Ama",
+      "english": "Stakataka",
+      "portuguese": "Stakataka",
+      "status": "retained_english",
+      "source_hex": "cde8d5dfd5e8d5dfd5ffff",
+      "encoded_bytes": 10,
+      "line_widths": [
+        50
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    },
+    {
+      "offset": "0x166d7d3",
+      "species_id": 1077,
+      "english_reference": "Pierrotekn",
+      "french_reference": "Blacphalon",
+      "english": "Blacphalon",
+      "portuguese": "Blacphalon",
+      "status": "retained_english",
+      "source_hex": "bce0d5d7e4dcd5e0e3e2ff",
+      "encoded_bytes": 11,
+      "line_widths": [
+        57
+      ],
+      "reason": "Nom canonique de la ROM EN conservé selon F-759 ; cellule fixe de 11 octets indexée par species_id depuis 0x166a98c, sans pointeur individuel. Corpus EN historique contaminé en français ; préimage ROM fait foi."
+    }
+  ]
+}
