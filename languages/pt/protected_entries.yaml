@@ -33385,3 +33385,633 @@ entries:
   - offset: "0x1660251"
     name: "PT-50 0x1660251"
     expected: 'Querendo mais lixo, segue pessoas\nque o jogam no chão. Está\nsempre arrotando gás venenoso.'
+  - offset: "0xeb4946"
+    name: "PT-49 0xeb4946"
+    expected: 'Gema do tipo Normal. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb49a6"
+    name: "PT-49 0xeb49a6"
+    expected: 'Gema do tipo Lutador. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4a09"
+    name: "PT-49 0xeb4a09"
+    expected: 'Gema do tipo Voador. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4a67"
+    name: "PT-49 0xeb4a67"
+    expected: 'Gema do tipo Venenoso. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4ac8"
+    name: "PT-49 0xeb4ac8"
+    expected: 'Gema do tipo Terrestre. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4b27"
+    name: "PT-49 0xeb4b27"
+    expected: 'Gema do tipo Pedra. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4b84"
+    name: "PT-49 0xeb4b84"
+    expected: 'Gema do tipo Inseto. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4be4"
+    name: "PT-49 0xeb4be4"
+    expected: 'Gema do tipo Fantasma. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4c42"
+    name: "PT-49 0xeb4c42"
+    expected: 'Gema do tipo Aço. Ao ser\nsegurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4ca1"
+    name: "PT-49 0xeb4ca1"
+    expected: 'Gema do tipo Fogo. Ao ser\nsegurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4cfe"
+    name: "PT-49 0xeb4cfe"
+    expected: 'Gema do tipo Água. Ao ser\nsegurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4d5d"
+    name: "PT-49 0xeb4d5d"
+    expected: 'Gema do tipo Planta. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4dbd"
+    name: "PT-49 0xeb4dbd"
+    expected: 'Gema do tipo Elétrico. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4e26"
+    name: "PT-49 0xeb4e26"
+    expected: 'Gema do tipo Psíquico. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4e8a"
+    name: "PT-49 0xeb4e8a"
+    expected: 'Gema do tipo Gelo. Ao ser\nsegurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4ee6"
+    name: "PT-49 0xeb4ee6"
+    expected: 'Gema do tipo Dragão. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4f45"
+    name: "PT-49 0xeb4f45"
+    expected: 'Gema do tipo Sombrio. Ao\nser segurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb4fa6"
+    name: "PT-49 0xeb4fa6"
+    expected: 'Gema do tipo Fada. Ao ser\nsegurada, fortalece um\nmovimento desse tipo uma vez.'
+  - offset: "0xeb5007"
+    name: "PT-49 0xeb5007"
+    expected: 'Cassete para Genesect\nsegurar. Torna Techno Blast\num movimento do tipo Fogo.'
+  - offset: "0xeb5057"
+    name: "PT-49 0xeb5057"
+    expected: 'Cassete para Genesect\nsegurar. Torna Techno Blast\num movimento do tipo Água.'
+  - offset: "0xeb50a8"
+    name: "PT-49 0xeb50a8"
+    expected: 'Cassete para Genesect\nsegurar. Torna Techno Blast\num movimento do tipo Elétrico.'
+  - offset: "0xeb50fc"
+    name: "PT-49 0xeb50fc"
+    expected: 'Cassete para Genesect\nsegurar. Torna Techno Blast\num movimento do tipo Gelo.'
+  - offset: "0xeb514b"
+    name: "PT-49 0xeb514b"
+    expected: 'Disco com dados do tipo\nLutador. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb51a4"
+    name: "PT-49 0xeb51a4"
+    expected: 'Disco com dados do tipo\nVoador. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb51fb"
+    name: "PT-49 0xeb51fb"
+    expected: 'Disco com dados do tipo\nVenenoso. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb5252"
+    name: "PT-49 0xeb5252"
+    expected: 'Disco com dados do tipo\nTerrestre. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb52a9"
+    name: "PT-49 0xeb52a9"
+    expected: 'Disco com dados do tipo\nPedra. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb52fe"
+    name: "PT-49 0xeb52fe"
+    expected: 'Disco com dados do tipo\nInseto. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb5352"
+    name: "PT-49 0xeb5352"
+    expected: 'Disco com dados do tipo\nFantasma. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb53a8"
+    name: "PT-49 0xeb53a8"
+    expected: 'Disco com dados do tipo\nAço. Muda o tipo de Silvally\nquando ele o segura.'
+  - offset: "0xeb53fe"
+    name: "PT-49 0xeb53fe"
+    expected: 'Disco com dados do tipo\nFogo. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb5453"
+    name: "PT-49 0xeb5453"
+    expected: 'Disco com dados do tipo\nÁgua. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb54a9"
+    name: "PT-49 0xeb54a9"
+    expected: 'Disco com dados do tipo\nPlanta. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb54ff"
+    name: "PT-49 0xeb54ff"
+    expected: 'Disco com dados do tipo\nElétrico. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb5558"
+    name: "PT-49 0xeb5558"
+    expected: 'Disco com dados do tipo\nPsíquico. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb55b0"
+    name: "PT-49 0xeb55b0"
+    expected: 'Disco com dados do tipo\nGelo. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb5604"
+    name: "PT-49 0xeb5604"
+    expected: 'Disco com dados do tipo\nDragão. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb565b"
+    name: "PT-49 0xeb565b"
+    expected: 'Disco com dados do tipo\nSombrio. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb56b0"
+    name: "PT-49 0xeb56b0"
+    expected: 'Disco com dados do tipo\nFada. Muda o tipo de\nSilvally quando ele o segura.'
+  - offset: "0xeb5706"
+    name: "PT-49 0xeb5706"
+    expected: 'Uma pena mística que brilha\ncom as cores do arco-íris.'
+  - offset: "0xeb5730"
+    name: "PT-49 0xeb5730"
+    expected: 'Uma estranha pena\nprateada que brilha.'
+  - offset: "0xeb575a"
+    name: "PT-49 0xeb575a"
+    expected: 'Máquina para fundir Necrozma, que\nprecisa de luz, com Solgaleo.'
+  - offset: "0xeb5797"
+    name: "PT-49 0xeb5797"
+    expected: 'Máquina para fundir Necrozma,\nque precisa de luz, com Lunala.'
+  - offset: "0xeb57d2"
+    name: "PT-49 0xeb57d2"
+    expected: 'Dizem que os sons que\nproduz eram oferecidos\ncomo expressão de gratidão.'
+  - offset: "0xeb5827"
+    name: "PT-49 0xeb5827"
+    expected: 'O corpo de Reshiram foi\ndestruído e virou esta pedra.\nDizem que espera um herói.'
+  - offset: "0xeb5887"
+    name: "PT-49 0xeb5887"
+    expected: 'O corpo de Zekrom foi\ndestruído e virou esta pedra.\nDizem que espera um herói.'
+  - offset: "0xeb58e5"
+    name: "PT-49 0xeb58e5"
+    expected: 'Flor dada em buquês como\ngratidão em ocasiões especiais.\nMuda a forma de Shaymin.'
+  - offset: "0xeb594f"
+    name: "PT-49 0xeb594f"
+    expected: 'Dispositivo que funde ou separa\nKyurem e certos Pokémon.'
+  - offset: "0xeb598f"
+    name: "PT-49 0xeb598f"
+    expected: 'Espelho misterioso que revela\na verdade e devolve a um\nPokémon sua forma original.'
+  - offset: "0xeb59f5"
+    name: "PT-49 0xeb59f5"
+    expected: 'Dizem que esta garrafa selou\no poder de certo Pokémon\nhá muito, muito tempo.'
+  - offset: "0xeb5a55"
+    name: "PT-49 0xeb5a55"
+    expected: 'Moeda de cobre de uma civilização\nde cerca de 3000 anos.'
+  - offset: "0xeb5a99"
+    name: "PT-49 0xeb5a99"
+    expected: 'Moeda de prata de uma civilização\nde cerca de 3000 anos.'
+  - offset: "0xeb5add"
+    name: "PT-49 0xeb5add"
+    expected: 'Moeda de ouro de uma civilização\nde cerca de 3000 anos.'
+  - offset: "0xeb5b1f"
+    name: "PT-49 0xeb5b1f"
+    expected: 'Vaso frágil de uma civilização\nde cerca de 3000 anos.'
+  - offset: "0xeb5b64"
+    name: "PT-49 0xeb5b64"
+    expected: 'Pulseira pesada de uma civilização\nde cerca de 3000 anos.'
+  - offset: "0xeb5bab"
+    name: "PT-49 0xeb5bab"
+    expected: 'Estátua de pedra feita\nhá cerca de 3000 anos.'
+  - offset: "0xeb5bf2"
+    name: "PT-49 0xeb5bf2"
+    expected: 'Coroa pesada de uma civilização\nde cerca de 3000 anos.'
+  - offset: "0xeb5c36"
+    name: "PT-49 0xeb5c36"
+    expected: 'Pedra para Necrozma\nsegurar. Permite usar Ultra\nBurst durante a batalha.'
+  - offset: "0xeb5c8b"
+    name: "PT-49 0xeb5c8b"
+    expected: 'Pedra para Venusaur segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5ce0"
+    name: "PT-49 0xeb5ce0"
+    expected: 'Pedra para Charizard segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5d36"
+    name: "PT-49 0xeb5d36"
+    expected: 'Pedra para Charizard segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5d8c"
+    name: "PT-49 0xeb5d8c"
+    expected: 'Pedra para Blastoise segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5de2"
+    name: "PT-49 0xeb5de2"
+    expected: 'Pedra para Beedrill segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5e37"
+    name: "PT-49 0xeb5e37"
+    expected: 'Pedra para Pidgeot segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5e8b"
+    name: "PT-49 0xeb5e8b"
+    expected: 'Pedra para Alakazam segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5ee0"
+    name: "PT-49 0xeb5ee0"
+    expected: 'Pedra para Slowbro segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5f34"
+    name: "PT-49 0xeb5f34"
+    expected: 'Pedra para Gengar segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5f87"
+    name: "PT-49 0xeb5f87"
+    expected: 'Pedra para Kangaskhan segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb5fde"
+    name: "PT-49 0xeb5fde"
+    expected: 'Pedra para Pinsir segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6031"
+    name: "PT-49 0xeb6031"
+    expected: 'Pedra para Gyarados segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6086"
+    name: "PT-49 0xeb6086"
+    expected: 'Pedra para Aerodactyl segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb60dd"
+    name: "PT-49 0xeb60dd"
+    expected: 'Pedra para Mewtwo segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6130"
+    name: "PT-49 0xeb6130"
+    expected: 'Pedra para Mewtwo segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6183"
+    name: "PT-49 0xeb6183"
+    expected: 'Pedra para Ampharos segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb61d8"
+    name: "PT-49 0xeb61d8"
+    expected: 'Pedra para Steelix segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb622c"
+    name: "PT-49 0xeb622c"
+    expected: 'Pedra para Scizor segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb627f"
+    name: "PT-49 0xeb627f"
+    expected: 'Pedra para Heracross segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb62d5"
+    name: "PT-49 0xeb62d5"
+    expected: 'Pedra para Houndoom segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb632a"
+    name: "PT-49 0xeb632a"
+    expected: 'Pedra para Tyranitar segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6380"
+    name: "PT-49 0xeb6380"
+    expected: 'Pedra para Sceptile segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb63d5"
+    name: "PT-49 0xeb63d5"
+    expected: 'Pedra para Blaziken segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb642a"
+    name: "PT-49 0xeb642a"
+    expected: 'Pedra para Swampert segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb647f"
+    name: "PT-49 0xeb647f"
+    expected: 'Pedra para Gardevoir segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb64d5"
+    name: "PT-49 0xeb64d5"
+    expected: 'Pedra para Sableye segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6529"
+    name: "PT-49 0xeb6529"
+    expected: 'Pedra para Mawile segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb657c"
+    name: "PT-49 0xeb657c"
+    expected: 'Pedra para Aggron segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb65cf"
+    name: "PT-49 0xeb65cf"
+    expected: 'Pedra para Medicham segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6624"
+    name: "PT-49 0xeb6624"
+    expected: 'Pedra para Manectric segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb667a"
+    name: "PT-49 0xeb667a"
+    expected: 'Pedra para Sharpedo segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb66cf"
+    name: "PT-49 0xeb66cf"
+    expected: 'Pedra para Camerupt segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6724"
+    name: "PT-49 0xeb6724"
+    expected: 'Pedra para Altaria segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6778"
+    name: "PT-49 0xeb6778"
+    expected: 'Pedra para Banette segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb67cc"
+    name: "PT-49 0xeb67cc"
+    expected: 'Pedra para Absol segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb681e"
+    name: "PT-49 0xeb681e"
+    expected: 'Pedra para Glalie segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6871"
+    name: "PT-49 0xeb6871"
+    expected: 'Pedra para Salamence segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb68c7"
+    name: "PT-49 0xeb68c7"
+    expected: 'Pedra para Metagross segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb691d"
+    name: "PT-49 0xeb691d"
+    expected: 'Pedra para Latias segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6970"
+    name: "PT-49 0xeb6970"
+    expected: 'Pedra para Latios segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb69c3"
+    name: "PT-49 0xeb69c3"
+    expected: 'Pedra para Lopunny segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6a17"
+    name: "PT-49 0xeb6a17"
+    expected: 'Pedra para Garchomp segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6a6c"
+    name: "PT-49 0xeb6a6c"
+    expected: 'Pedra para Lucario segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6ac0"
+    name: "PT-49 0xeb6ac0"
+    expected: 'Pedra para Abomasnow segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6b16"
+    name: "PT-49 0xeb6b16"
+    expected: 'Pedra para Gallade segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6b6a"
+    name: "PT-49 0xeb6b6a"
+    expected: 'Pedra para Audino segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6bbd"
+    name: "PT-49 0xeb6bbd"
+    expected: 'Pedra para Diancie segurar.\nPermite sua Megaevolução\ndurante a batalha.'
+  - offset: "0xeb6c11"
+    name: "PT-49 0xeb6c11"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Normal em Z-Moves.'
+  - offset: "0xeb6c63"
+    name: "PT-49 0xeb6c63"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Lutador em Z-Moves.'
+  - offset: "0xeb6cb7"
+    name: "PT-49 0xeb6cb7"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Voador em Z-Moves.'
+  - offset: "0xeb6d09"
+    name: "PT-49 0xeb6d09"
+    expected: 'Forma cristalizada de Z-Power.\nConverte movimentos do\ntipo Venenoso em Z-Moves.'
+  - offset: "0xeb6d5b"
+    name: "PT-49 0xeb6d5b"
+    expected: 'Forma cristalizada de Z-Power.\nConverte movimentos do\ntipo Terrestre em Z-Moves.'
+  - offset: "0xeb6dad"
+    name: "PT-49 0xeb6dad"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Pedra em Z-Moves.'
+  - offset: "0xeb6dfd"
+    name: "PT-49 0xeb6dfd"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Inseto em Z-Moves.'
+  - offset: "0xeb6e4c"
+    name: "PT-49 0xeb6e4c"
+    expected: 'Forma cristalizada de Z-Power.\nConverte movimentos do\ntipo Fantasma em Z-Moves.'
+  - offset: "0xeb6e9d"
+    name: "PT-49 0xeb6e9d"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Aço em Z-Moves.'
+  - offset: "0xeb6eee"
+    name: "PT-49 0xeb6eee"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Fogo em Z-Moves.'
+  - offset: "0xeb6f3e"
+    name: "PT-49 0xeb6f3e"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Água em Z-Moves.'
+  - offset: "0xeb6f8f"
+    name: "PT-49 0xeb6f8f"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Planta em Z-Moves.'
+  - offset: "0xeb6fe0"
+    name: "PT-49 0xeb6fe0"
+    expected: 'Forma cristalizada de Z-Power.\nConverte movimentos do\ntipo Elétrico em Z-Moves.'
+  - offset: "0xeb7034"
+    name: "PT-49 0xeb7034"
+    expected: 'Forma cristalizada de Z-Power.\nConverte movimentos do\ntipo Psíquico em Z-Moves.'
+  - offset: "0xeb7087"
+    name: "PT-49 0xeb7087"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Gelo em Z-Moves.'
+  - offset: "0xeb70d6"
+    name: "PT-49 0xeb70d6"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Dragão em Z-Moves.'
+  - offset: "0xeb7128"
+    name: "PT-49 0xeb7128"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Sombrio em Z-Moves.'
+  - offset: "0xeb7178"
+    name: "PT-49 0xeb7178"
+    expected: 'Forma cristalizada de\nZ-Power. Converte movimentos\ndo tipo Fada em Z-Moves.'
+  - offset: "0xeb71c9"
+    name: "PT-49 0xeb71c9"
+    expected: 'Cristal de Z-Power. Converte\nThunderbolt de Raichu\nde Alola em um Z-Move.'
+  - offset: "0xeb7226"
+    name: "PT-49 0xeb7226"
+    expected: 'Cristal de Z-Power.\nConverte Spirit Lock de\nDecidueye em um Z-Move.'
+  - offset: "0xeb727f"
+    name: "PT-49 0xeb727f"
+    expected: 'Cristal de Z-Power.\nConverte Last Resort de\nEevee em um Z-Move.'
+  - offset: "0xeb72d4"
+    name: "PT-49 0xeb72d4"
+    expected: 'Cristal de Z-Power.\nConverte Dark Lariat de\nIncineroar em um Z-Move.'
+  - offset: "0xeb732e"
+    name: "PT-49 0xeb732e"
+    expected: 'Cristal de Z-Power.\nConverte Clang Scales de\nKommo-o em um Z-Move.'
+  - offset: "0xeb7386"
+    name: "PT-49 0xeb7386"
+    expected: 'Cristal de Z-Power.\nConverte Geist Beam de\nLunala em um Z-Move.'
+  - offset: "0xeb73db"
+    name: "PT-49 0xeb73db"
+    expected: 'Cristal de Z-Power.\nConverte Stone Edge de\nLycanroc em um Z-Move.'
+  - offset: "0xeb7432"
+    name: "PT-49 0xeb7432"
+    expected: 'Cristal de Z-Power.\nConverte Spect Thief de\nMarshadow em um Z-Move.'
+  - offset: "0xeb748b"
+    name: "PT-49 0xeb748b"
+    expected: 'Cristal de Z-Power.\nConverte Psychic de\nMew em um Z-Move.'
+  - offset: "0xeb74da"
+    name: "PT-49 0xeb74da"
+    expected: 'Cristal de Z-Power.\nConverte Play Rough de\nMimikyu em um Z-Move.'
+  - offset: "0xeb7530"
+    name: "PT-49 0xeb7530"
+    expected: 'Cristal de Z-Power.\nConverte Volt Tackle de\nPikachu em um Z-Move.'
+  - offset: "0xeb7587"
+    name: "PT-49 0xeb7587"
+    expected: 'Cristal de Z-Power. Converte\nThunderbolt de Pikachu\nde boné em um Z-Move.'
+  - offset: "0xeb75ea"
+    name: "PT-49 0xeb75ea"
+    expected: 'Cristal de Z-Power.\nConverte Sparkle Aria de\nPrimarina em um Z-Move.'
+  - offset: "0xeb7644"
+    name: "PT-49 0xeb7644"
+    expected: 'Cristal de Z-Power.\nConverte Giga Impact de\nSnorlax em um Z-Move.'
+  - offset: "0xeb769b"
+    name: "PT-49 0xeb769b"
+    expected: 'Cristal de Z-Power.\nConverte Sunsteel Strike\nde Solgaleo em um Z-Move.'
+  - offset: "0xeb76f7"
+    name: "PT-49 0xeb76f7"
+    expected: 'Cristal de Z-Power.\nConverte Nature''s Mad\nde Tapu em um Z-Move.'
+  - offset: "0xeb7750"
+    name: "PT-49 0xeb7750"
+    expected: 'Especialidade de Alola. Uso\núnico: cura todos os problemas\nde estado de um Pokémon.'
+  - offset: "0xeb77ba"
+    name: "PT-49 0xeb77ba"
+    expected: 'Sorvete cremoso típico de Castelia\nCity. Cura todos os problemas\nde estado de um Pokémon.'
+  - offset: "0xeb781a"
+    name: "PT-49 0xeb781a"
+    expected: 'Doce popular em Lumiose\nCity. Cura todos os problemas\nde estado de um Pokémon.'
+  - offset: "0xeb786c"
+    name: "PT-49 0xeb786c"
+    expected: 'Famoso doce de Mahogany\nTown. Cura todos os problemas\nde estado de um Pokémon.'
+  - offset: "0xeb78bb"
+    name: "PT-49 0xeb78bb"
+    expected: 'Biscoito amanteigado de Shalour\nCity. Cura todos os problemas\nde estado de um Pokémon.'
+  - offset: "0xeb790e"
+    name: "PT-49 0xeb790e"
+    expected: 'Especialidade secreta de Old\nChateau. Cura todos os problemas\nde estado de um Pokémon.'
+  - offset: "0xeb7963"
+    name: "PT-49 0xeb7963"
+    expected: 'Néctar de flores de Alola.\nMuda a forma de certas\nespécies de Pokémon.'
+  - offset: "0xeb79c1"
+    name: "PT-49 0xeb79c1"
+    expected: 'Cogumelo raro de aroma\nagradável. Pode ser vendido\npor um preço alto nas lojas.'
+  - offset: "0xeb7a1b"
+    name: "PT-49 0xeb7a1b"
+    expected: 'Fragmento que caiu de um\ncometa ao passar perto.\nVale muito nas lojas.'
+  - offset: "0xeb7a7d"
+    name: "PT-49 0xeb7a7d"
+    expected: 'Bela tampinha que emite um\nbrilho prateado. Algumas\npessoas adoram receber uma.'
+  - offset: "0xeb7ad9"
+    name: "PT-49 0xeb7ad9"
+    expected: 'Bela tampinha que emite\num brilho dourado. Algumas\npessoas adoram receber uma.'
+  - offset: "0xeb7b35"
+    name: "PT-49 0xeb7b35"
+    expected: 'Item vital para uma torre de\npedra não desabar. Às vezes, é\npossível ouvir vozes vindas dele.'
+  - offset: "0xeb7b9a"
+    name: "PT-49 0xeb7b9a"
+    expected: 'Fóssil de um Pokémon\nterrestre pré-histórico.\nParece ser parte da cabeça.'
+  - offset: "0xeb7bf7"
+    name: "PT-49 0xeb7bf7"
+    expected: 'Fóssil de um Pokémon terrestre\npré-histórico. Parece\nser parte de uma gola.'
+  - offset: "0xeb7c56"
+    name: "PT-49 0xeb7c56"
+    expected: 'Fóssil de um Pokémon marinho\npré-histórico. Parece ser\nparte de suas costas.'
+  - offset: "0xeb7cb4"
+    name: "PT-49 0xeb7cb4"
+    expected: 'Fóssil de um Pokémon\npré-histórico dos céus.\nParece ser parte de sua asa.'
+  - offset: "0xeb7d12"
+    name: "PT-49 0xeb7d12"
+    expected: 'Fóssil de um antigo Pokémon\nterrestre. Parece um pedaço\nde uma grande mandíbula.'
+  - offset: "0xeb7d74"
+    name: "PT-49 0xeb7d74"
+    expected: 'Fóssil de um antigo Pokémon\nterrestre. Parece a impressão\nde uma vela de pele.'
+  - offset: "0xeb7ddd"
+    name: "PT-49 0xeb7ddd"
+    expected: 'Item para segurar. Aumenta\no prêmio em dinheiro se o\nportador participar da batalha.'
+  - offset: "0xeb7e43"
+    name: "PT-49 0xeb7e43"
+    expected: 'Item para segurar.\nDeixa o portador\ninchado e lento.'
+  - offset: "0xeb7e91"
+    name: "PT-49 0xeb7e91"
+    expected: 'Item para segurar. Aumenta\num pouco o poder dos\nmovimentos do tipo Psíquico.'
+  - offset: "0xeb7ee6"
+    name: "PT-49 0xeb7ee6"
+    expected: 'Item para segurar. Afasta\nPokémon selvagens se o portador\nestiver à frente da equipe.'
+  - offset: "0xeb7f50"
+    name: "PT-49 0xeb7f50"
+    expected: 'Item para segurar. Aumenta\num pouco o poder dos\nmovimentos do tipo Pedra.'
+  - offset: "0xeb7fa2"
+    name: "PT-49 0xeb7fa2"
+    expected: 'Item para segurar. Aumenta\num pouco o poder dos\nmovimentos do tipo Planta.'
+  - offset: "0xeb7ff5"
+    name: "PT-49 0xeb7ff5"
+    expected: 'Item para segurar. Aumenta\num pouco o poder dos\nmovimentos do tipo Água.'
+  - offset: "0xeb8048"
+    name: "PT-49 0xeb8048"
+    expected: 'Item para segurar. Garra\nbem curva que aumenta a\nchance de acertos críticos.'
+  - offset: "0xeb80ad"
+    name: "PT-49 0xeb80ad"
+    expected: 'Item para segurar. Pode\nfazer o inimigo hesitar quando\no portador causa dano.'
+  - offset: "0xeb810e"
+    name: "PT-49 0xeb810e"
+    expected: 'Tecido com energia espiritual\nde força aterradora. Certo\nPokémon adora este item.'
+  - offset: "0xeb816a"
+    name: "PT-49 0xeb816a"
+    expected: 'Dispositivo transparente cheio\nde dados duvidosos. Seu\nfabricante é desconhecido.'
+  - offset: "0xeb81b7"
+    name: "PT-49 0xeb81b7"
+    expected: 'Caixa com enorme quantidade\nde energia elétrica. Certo\nPokémon adora este item.'
+  - offset: "0xeb8213"
+    name: "PT-49 0xeb8213"
+    expected: 'Maçã peculiar e muito doce\nque faz certa espécie\nde Pokémon evoluir.'
+  - offset: "0xeb8271"
+    name: "PT-49 0xeb8271"
+    expected: 'Maçã peculiar e muito\nácida que faz certa\nespécie de Pokémon evoluir.'
+  - offset: "0xeb82ce"
+    name: "PT-49 0xeb82ce"
+    expected: 'Bule peculiar que faz\ncerta espécie de Pokémon\nevoluir. Seu chá é delicioso.'
+  - offset: "0xeb8334"
+    name: "PT-49 0xeb8334"
+    expected: 'Doce em forma de morango.\nAo ser usado em Milcery, faz\no Pokémon girar de alegria.'
+  - offset: "0xeb8384"
+    name: "PT-49 0xeb8384"
+    expected: 'Doce em forma de fruta. Ao\nser usado em Milcery, faz\no Pokémon girar de alegria.'
+  - offset: "0xeb83cf"
+    name: "PT-49 0xeb83cf"
+    expected: 'Doce em forma de coração.\nAo ser usado em Milcery, faz\no Pokémon girar de alegria.'
+  - offset: "0xeb841a"
+    name: "PT-49 0xeb841a"
+    expected: 'Doce em forma de trevo. Ao\nser usado em Milcery, faz\no Pokémon girar de alegria.'
+  - offset: "0xeb8466"
+    name: "PT-49 0xeb8466"
+    expected: 'Doce em forma de flor. Ao\nser usado em Milcery, faz\no Pokémon girar de alegria.'
+  - offset: "0xeb84b2"
+    name: "PT-49 0xeb84b2"
+    expected: 'Doce em forma de laço. Ao\nser usado em Milcery, faz\no Pokémon girar de alegria.'
+  - offset: "0xeb84fe"
+    name: "PT-49 0xeb84fe"
+    expected: 'Doce em forma de estrela.\nAo ser usado em Milcery, faz\no Pokémon girar de alegria.'
+  - offset: "0xeb8548"
+    name: "PT-49 0xeb8548"
+    expected: 'Pulseira feita de Galarica\nTwigs. Deixa Slowpoke de Galar\nmuito feliz ao ser usada nele.'
+  - offset: "0xeb85a7"
+    name: "PT-49 0xeb85a7"
+    expected: 'Coroa feita de Galarica Twigs.\nDeixa Slowpoke de Galar muito\nfeliz ao ser usada nele.'
+  - offset: "0xeb8608"
+    name: "PT-49 0xeb8608"
+    expected: 'Pedra preta vítrea que fica\nafiada quando partida. Certo\nPokémon adora este item.'
+  - offset: "0xeb866d"
+    name: "PT-49 0xeb866d"
+    expected: 'Bloco de material lamacento\nusado como combustível. Certo\nPokémon adora este item.'
+  - offset: "0xeb86ce"
+    name: "PT-49 0xeb86ce"
+    expected: 'Pedra com uma energia misteriosa\nde eras remotas. Segurá-la\npode alterar evoluções.'
+  - offset: "0xeb8732"
+    name: "PT-49 0xeb8732"
+    expected: 'Ao segurar, reduz a Velocidade\nem batalha e favorece\no ganho de PS máximos.'
+  - offset: "0xeb8798"
+    name: "PT-49 0xeb8798"
+    expected: 'Ao segurar, reduz a\nVelocidade em batalha e\nfavorece o ganho de Ataque.'
+  - offset: "0xeb87fe"
+    name: "PT-49 0xeb87fe"
+    expected: 'Ao segurar, reduz a\nVelocidade em batalha e\nfavorece o ganho de Defesa.'
+  - offset: "0xeb8865"
+    name: "PT-49 0xeb8865"
+    expected: 'Ao segurar, reduz a Velocidade\nem batalha e favorece o\nganho de Ataque Especial.'
+  - offset: "0xeb88cc"
+    name: "PT-49 0xeb88cc"
+    expected: 'Ao segurar, reduz a Velocidade\nem batalha e favorece o\nganho de Defesa Especial.'
+  - offset: "0xeb8933"
+    name: "PT-49 0xeb8933"
+    expected: 'Ao segurar, reduz a Velocidade\nem batalha e favorece\no ganho de Velocidade.'
+  - offset: "0xeb8998"
+    name: "PT-49 0xeb8998"
+    expected: 'Fragmento de rocha que caiu das\nestrelas. Jogue numa toca Pokémon\nvazia para atrair um Pokémon!'
+  - offset: "0xeb8a01"
+    name: "PT-49 0xeb8a01"
+    expected: 'Item para segurar. O portador\nsai da batalha quando suas\nestatísticas são reduzidas.'
+  - offset: "0xeb8a65"
+    name: "PT-49 0xeb8a65"
+    expected: 'Item para segurar. Reduz a\nVelocidade do portador quando\nTrick Room está em vigor.'
+  - offset: "0xeb8ac1"
+    name: "PT-49 0xeb8ac1"
+    expected: 'Item para segurar. Aumenta a\nVelocidade quando um Pokémon\nerra por falta de Precisão.'
+  - offset: "0xeb8b20"
+    name: "PT-49 0xeb8b20"
+    expected: 'Item para segurar. Botas\nque evitam os efeitos de\narmadilhas no campo de batalha.'
+  - offset: "0xeb8b82"
+    name: "PT-49 0xeb8b82"
+    expected: 'Item para segurar. Guarda-chuva\nfirme que protege do sol,\nda chuva e da neblina.'
+  - offset: "0xeb8be5"
+    name: "PT-49 0xeb8be5"
+    expected: 'Item para segurar. Aumenta\no Ataque Especial quando um\nPokémon usa um movimento sonoro.'
+  - offset: "0xeb8c40"
+    name: "PT-49 0xeb8c40"
+    expected: 'Espada gasta e enferrujada.\nDizem que um herói a usou para\ndeter um desastre na antiguidade.'
+  - offset: "0xeb8caa"
+    name: "PT-49 0xeb8caa"
+    expected: 'Escudo gasto e enferrujado.\nDizem que um herói o usou para\ndeter um desastre na antiguidade.'
+  - offset: "0xeb8d15"
+    name: "PT-49 0xeb8d15"
+    expected: 'Infesta e ataca\no alvo por 4 a\n5 turnos. Ele\nnão pode fugir.'
+  - offset: "0xeb8d71"
+    name: "PT-49 0xeb8d71"
+    expected: 'Golpes repetidos\nendurecem os punhos\ndo usuário. Isso\naumenta seu Ataque.'
+  - offset: "0xeb8dce"
+    name: "PT-49 0xeb8dce"
+    expected: 'Onda de lodo cobre\na área do usuário.\nPode envenenar\nos atingidos.'
+  - offset: "0xeb8e28"
+    name: "PT-49 0xeb8e28"
+    expected: 'O usuário gira o\ncorpo com violência\ne causa dano a\ntudo ao seu redor.'
+  - offset: "0xeb8e7d"
+    name: "PT-49 0xeb8e7d"
+    expected: 'Um vento forte\nremove os obstáculos\ndo alvo. Também\nreduz sua Evasão.'
+  - offset: "0xeb8ed7"
+    name: "PT-49 0xeb8ed7"
+    expected: 'Lança um projétil\nno alvo. Um\nPokémon voador\ncairá no chão.'
+  - offset: "0xeb8f29"
+    name: "PT-49 0xeb8f29"
+    expected: 'Ataca o alvo com\num eco intenso. O\npoder cresce se\nusado a cada turno.'
+  - offset: "0xeb8f7d"
+    name: "PT-49 0xeb8f7d"
+    expected: 'Por cinco turnos,\ncria uma área onde\nPokémon lentos\nagem primeiro.'
+  - offset: "0xeb8fd7"
+    name: "PT-49 0xeb8fd7"
+    expected: 'Arremessa o item\nque segura no alvo.\nO poder e o efeito\ndependem do item.'
+  - offset: "0xeb902d"
+    name: "PT-49 0xeb902d"
+    expected: 'Reduz danos\nfísicos e especiais\npor cinco turnos\ndurante o granizo.'
+  - offset: "0xeb9089"
+    name: "PT-49 0xeb9089"
+    expected: 'Leva o inimigo ao\ncéu, onde ele não\npode atacar. Solta-o\nno turno seguinte.'
