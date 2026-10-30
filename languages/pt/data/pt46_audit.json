@@ -298,10 +298,11 @@
       ],
       "english": "<0xFD>OE stays awake!",
       "french_comparison": "{B_DEF_NAME_WITH_PREFIX} reste éveillé !",
-      "expected": "<0xFD><0x10> fica acordado!",
+      "expected": "<0xFD><0x10>\\nfica acordado!",
       "pt_bytes": 18,
       "pixels": [
-        140
+        54,
+        80
       ],
       "max_width": 214,
       "status": "translated",
@@ -457,11 +458,11 @@
       ],
       "english": "<0xFD>OE is protected\nby a pastel veil!",
       "french_comparison": "{B_DEF_NAME_WITH_PREFIX} est protégé\npar un voile pastel !",
-      "expected": "<0xFD><0x10> está protegido\\npor um véu pastel!",
-      "pt_bytes": 37,
+      "expected": "<0xFD><0x10> se protege\\ncom um véu pastel!",
+      "pt_bytes": 33,
       "pixels": [
-        138,
-        104
+        117,
+        105
       ],
       "max_width": 214,
       "status": "translated",
@@ -475,11 +476,11 @@
       ],
       "english": "<0xFD>OE is protected\nby an aromatic veil!",
       "french_comparison": "{B_DEF_NAME_WITH_PREFIX} est protégé\npar un voile aromatique !",
-      "expected": "<0xFD><0x10> está protegido\\npor um véu aromático!",
-      "pt_bytes": 40,
+      "expected": "<0xFD><0x10> se protege\\ncom um véu aromático!",
+      "pt_bytes": 36,
       "pixels": [
-        138,
-        121
+        117,
+        122
       ],
       "max_width": 214,
       "status": "translated",
@@ -511,10 +512,11 @@
       ],
       "english": "<0xFD>Ù got frostbite!",
       "french_comparison": "{B_EFF_NAME_WITH_PREFIX} a une engelure !",
-      "expected": "<0xFD><0x11> sofreu congeladura!",
+      "expected": "<0xFD><0x11>\\nsofreu congeladura!",
       "pt_bytes": 23,
       "pixels": [
-        168
+        54,
+        108
       ],
       "max_width": 214,
       "status": "translated",
@@ -546,11 +548,11 @@
       ],
       "english": "<0xFD>Ô's frostbite\nwas cured by <0xFD>Ñ!",
       "french_comparison": "Engelure de {B_ATK_NAME_WITH_PREFIX}\nguérie par {B_CURRENT_MOVE} !",
-      "expected": "A congeladura de <0xFD><0x0F>\\nfoi curada por <0xFD><0x14>!",
-      "pt_bytes": 39,
+      "expected": "<0xFD><0x0F> foi curado\\npor <0xFD><0x14> da congeladura!",
+      "pt_bytes": 37,
       "pixels": [
-        153,
-        145
+        116,
+        170
       ],
       "max_width": 214,
       "status": "translated",
@@ -564,11 +566,11 @@
       ],
       "english": "<0xFD>OE's frostbite\nwas cured!",
       "french_comparison": "Engelure de {B_DEF_NAME_WITH_PREFIX}\nguérie !",
-      "expected": "A congeladura de <0xFD><0x10>\\nfoi curada!",
-      "pt_bytes": 32,
+      "expected": "<0xFD><0x10>\\ncurou a congeladura!",
+      "pt_bytes": 24,
       "pixels": [
-        153,
-        62
+        54,
+        116
       ],
       "max_width": 214,
       "status": "translated",
@@ -582,11 +584,11 @@
       ],
       "english": "<0xFD>Ô's frostbite\nwas cured!",
       "french_comparison": "Engelure de {B_ATK_NAME_WITH_PREFIX}\nguérie !",
-      "expected": "A congeladura de <0xFD><0x0F>\\nfoi curada!",
-      "pt_bytes": 32,
+      "expected": "<0xFD><0x0F>\\ncurou a congeladura!",
+      "pt_bytes": 24,
       "pixels": [
-        153,
-        62
+        54,
+        116
       ],
       "max_width": 214,
       "status": "translated",
@@ -600,11 +602,11 @@
       ],
       "english": "<0xFD>Û's <0xFD>à\ncured its frostbite!",
       "french_comparison": "Le {B_LAST_ITEM} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nguérit son engelure !",
-      "expected": "<0xFD><0x13> usou <0xFD><0x16>\\ne curou sua congeladura!",
-      "pt_bytes": 36,
+      "expected": "<0xFD><0x13> usou\\n<0xFD><0x16> e curou a congeladura!",
+      "pt_bytes": 34,
       "pixels": [
-        143,
-        139
+        83,
+        188
       ],
       "max_width": 214,
       "status": "translated",
@@ -636,11 +638,11 @@
       ],
       "english": "<0xFD>Û's <0xFD> \nwas not lowered!",
       "french_comparison": "{UNKNOWN_STR} de {B_SCR_ACTIVE_NAME_WITH_PREFIX}\nne baisse pas !",
-      "expected": "<0xFD><0x13>: <0xFD><0x00>\\nnão diminuiu!",
+      "expected": "<0xFD><0x13>:\\n<0xFD><0x00> não diminuiu!",
       "pt_bytes": 21,
       "pixels": [
-        119,
-        70
+        59,
+        130
       ],
       "max_width": 214,
       "status": "translated",
@@ -673,10 +675,10 @@
       ],
       "english": "But <0xFD>OE's aura\nprevents transformation!",
       "french_comparison": "Mais l'aura de {B_DEF_NAME_WITH_PREFIX}\nempêche la transformation !",
-      "expected": "Mas a aura de <0xFD><0x10>\\nimpede a transformação!",
-      "pt_bytes": 41,
+      "expected": "A aura de <0xFD><0x10>\\nimpede a transformação!",
+      "pt_bytes": 37,
       "pixels": [
-        136,
+        113,
         130
       ],
       "max_width": 214,
@@ -691,10 +693,10 @@
       ],
       "english": "But <0xFD>OE's aura\nblocked the move!",
       "french_comparison": "Mais l'aura de {B_DEF_NAME_WITH_PREFIX}\na bloqué l'attaque !",
-      "expected": "Mas a aura de <0xFD><0x10>\\nbloqueou o movimento!",
-      "pt_bytes": 39,
+      "expected": "A aura de <0xFD><0x10>\\nbloqueou o movimento!",
+      "pt_bytes": 35,
       "pixels": [
-        136,
+        113,
         121
       ],
       "max_width": 214,
@@ -909,10 +911,10 @@
       ],
       "english": "<0xFD>Ô cut its own HP\nand minimized Attack!",
       "french_comparison": "{B_ATK_NAME_WITH_PREFIX} sacrifie ses PV\net réduit son Attaque !",
-      "expected": "<0xFD><0x0F> cortou seus PS\\ne minimizou seu Ataque!",
-      "pt_bytes": 42,
+      "expected": "<0xFD><0x0F> cortou PS\\ne minimizou seu Ataque!",
+      "pt_bytes": 37,
       "pixels": [
-        140,
+        112,
         129
       ],
       "max_width": 214,
@@ -1215,11 +1217,11 @@
       ],
       "english": "The G-Max Wildfire flames around\n<0xFD>; team disappeared!",
       "french_comparison": "Les flammes G-Max Fournaise autour\nde l'équipe {STRING} disparaissent !",
-      "expected": "As chamas de G-Max Wildfire\\nao redor da equipe <0xFD><0x36> sumiram!",
-      "pt_bytes": 59,
+      "expected": "G-Max Wildfire: as chamas\\njunto à equipe <0xFD><0x36> sumiram!",
+      "pt_bytes": 53,
       "pixels": [
-        153,
-        214
+        140,
+        190
       ],
       "max_width": 214,
       "status": "translated",
@@ -1323,11 +1325,11 @@
       ],
       "english": "The G-Max Volcalith rocks around\n<0xFD>; team disappeared!",
       "french_comparison": "Les rochers G-Max Lithofeu autour\nde l'équipe {STRING} disparaissent !",
-      "expected": "As rochas de G-Max Volcalith\\nao redor da equipe <0xFD><0x36> sumiram!",
-      "pt_bytes": 60,
+      "expected": "G-Max Volcalith: as rochas\\njunto à equipe <0xFD><0x36> sumiram!",
+      "pt_bytes": 54,
       "pixels": [
-        160,
-        214
+        147,
+        190
       ],
       "max_width": 214,
       "status": "translated",
@@ -1521,10 +1523,11 @@
       ],
       "english": "<0xFD>Ô's stats rose!",
       "french_comparison": "Les stats de {B_ATK_NAME_WITH_PREFIX} augmentent !",
-      "expected": "As stats de <0xFD><0x0F> subiram!",
-      "pt_bytes": 24,
+      "expected": "<0xFD><0x0F>:\\nas stats subiram!",
+      "pt_bytes": 22,
       "pixels": [
-        171
+        59,
+        93
       ],
       "max_width": 214,
       "status": "translated",
@@ -1594,10 +1597,10 @@
       ],
       "english": "<0xFD>Ù's stats\nand primary status were reset!",
       "french_comparison": "Stats et statut principal de\n{B_EFF_NAME_WITH_PREFIX} réinitialisés !",
-      "expected": "<0xFD><0x11> teve suas stats\\ne status principal restaurados!",
-      "pt_bytes": 51,
+      "expected": "<0xFD><0x11> teve stats\\ne status principal restaurados!",
+      "pt_bytes": 46,
       "pixels": [
-        143,
+        115,
         170
       ],
       "max_width": 214,
@@ -1788,10 +1791,10 @@
       ],
       "english": "<0xFD>Ô is buffeted\nby the vicious sandstorm!",
       "french_comparison": "{B_ATK_NAME_WITH_PREFIX} est fouetté par\nla tempête de sable !",
-      "expected": "<0xFD><0x0F> é atingido pela\\nforte tempestade de areia!",
-      "pt_bytes": 46,
+      "expected": "<0xFD><0x0F> sofre com a\\nforte tempestade de areia!",
+      "pt_bytes": 42,
       "pixels": [
-        143,
+        123,
         147
       ],
       "max_width": 214,
@@ -1879,11 +1882,11 @@
       ],
       "english": "The Pixies in the air increased\n<0xFD>Û's <0xFD> !",
       "french_comparison": "Les farfadets ont augmenté la\n{UNKNOWN_STR} de {B_SCR_ACTIVE_NAME_WITH_PREFIX} !",
-      "expected": "As fadas no ar deram a\\n<0xFD><0x13> um aumento em <0xFD><0x00>!",
-      "pt_bytes": 44,
+      "expected": "<0xFD><0x13>: as fadas\\nmelhoraram <0xFD><0x00>!",
+      "pt_bytes": 28,
       "pixels": [
-        126,
-        202
+        110,
+        123
       ],
       "max_width": 214,
       "status": "translated",
@@ -2221,11 +2224,11 @@
       ],
       "english": "<0xFD>Û's <0xFD> \n<0xFD>À",
       "french_comparison": "{FD13} {FD00}\n{FD01}",
-      "expected": "<0xFD><0x13>: <0xFD><0x00>\\n<0xFD><0x01>",
+      "expected": "<0xFD><0x13>:\\n<0xFD><0x00> <0xFD><0x01>",
       "pt_bytes": 10,
       "pixels": [
-        119,
-        54
+        59,
+        114
       ],
       "max_width": 214,
       "status": "translated",
@@ -2239,11 +2242,11 @@
       ],
       "english": "<0xFD>Û nullified the\nstat changes and Abilities of<0xFA>other Pokémon!",
       "french_comparison": "{B_SCR_ACTIVE_NAME_WITH_PREFIX} annule les\nchangements de stats et talents<0xFA>des autres Pokémon !",
-      "expected": "<0xFD><0x13> anulou mudanças\\nde stats e Habilidades<0xFA>dos outros Pokémon!",
-      "pt_bytes": 62,
+      "expected": "<0xFD><0x13> anulou as\\nmudanças de stats e Habilidades<0xFA>dos outros Pokémon!",
+      "pt_bytes": 65,
       "pixels": [
-        146,
-        122,
+        111,
+        174,
         108
       ],
       "max_width": 214,
@@ -2674,10 +2677,10 @@
       ],
       "english": "<0xFD><0x32> <0xFD><0x33> is challenged by\n<0xFD>ê <0xFD>ë!<0xFB>",
       "french_comparison": "{FD32} {FD33} est défié par\n{FD1C} {FD1D}!<0xFA>",
-      "expected": "<0xFD><0x32> <0xFD><0x33> foi desafiado por\\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>",
-      "pt_bytes": 32,
+      "expected": "<0xFD><0x32> <0xFD><0x33> enfrenta\\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>",
+      "pt_bytes": 23,
       "pixels": [
-        214,
+        163,
         120,
         0
       ],

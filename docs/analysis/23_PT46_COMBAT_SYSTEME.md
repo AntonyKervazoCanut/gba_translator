@@ -44,9 +44,12 @@ Chaque entrée ajoutée possède sa protection exacte dans le même commit.
 
 Les largeurs de l’audit utilisent la métrique partagée (214 pixels maximum,
 estimation des buffers dynamiques incluse). Les libellés courts du menu sont
-contrôlés séparément dans leur colonne de 56 pixels. Les noms dynamiques les
-plus longs et toutes les combinaisons de combat ne sont pas une preuve de rendu
-exhaustive : la certification T-848 garde cette couverture de parcours.
+contrôlés séparément dans leur colonne de 56 pixels. Le test ROM mesure aussi les cinq polices avec des surnoms de dix W, leur
+préfixe adverse, des classes de Treinador de treize W, des noms de douze W,
+des mouvements/objets de douze/treize W et les buffers « Defesa Especial » /
+« subiu drasticamente! ». Cette vérification a entraîné 21 ajustements de
+lignes ou de formulation. Elle ne remplace pas un parcours exhaustif de toutes
+les combinaisons de combat, réservé à la certification T-848.
 
 ## Vérification reproductible
 

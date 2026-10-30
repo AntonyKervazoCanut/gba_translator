@@ -30945,7 +30945,7 @@ entries:
     expected: '<0xFD><0x0F> trocou suas\nstats ofensivas e defensivas!'
   - offset: "0xa4b093"
     name: "PT-46 0xa4b093"
-    expected: '<0xFD><0x10> fica acordado!'
+    expected: '<0xFD><0x10>\nfica acordado!'
   - offset: "0xa4b0a3"
     name: "PT-46 0xa4b0a3"
     expected: 'A equipe de <0xFD><0x10>\nestá protegida por Safeguard!'
@@ -30969,46 +30969,46 @@ entries:
     expected: '<0xFD><0x10> se envolveu\nnum véu de pétalas!'
   - offset: "0xa4b1b5"
     name: "PT-46 0xa4b1b5"
-    expected: '<0xFD><0x10> está protegido\npor um véu pastel!'
+    expected: '<0xFD><0x10> se protege\ncom um véu pastel!'
   - offset: "0xa4b1d7"
     name: "PT-46 0xa4b1d7"
-    expected: '<0xFD><0x10> está protegido\npor um véu aromático!'
+    expected: '<0xFD><0x10> se protege\ncom um véu aromático!'
   - offset: "0xa4b1fc"
     name: "PT-46 0xa4b1fc"
     expected: 'A cláusula do sono impede\nmais Pokémon de adormecerem!'
   - offset: "0xa4b23c"
     name: "PT-46 0xa4b23c"
-    expected: '<0xFD><0x11> sofreu congeladura!'
+    expected: '<0xFD><0x11>\nsofreu congeladura!'
   - offset: "0xa4b24e"
     name: "PT-46 0xa4b24e"
     expected: '<0xFD><0x0F> sofre com\na congeladura!'
   - offset: "0xa4b26b"
     name: "PT-46 0xa4b26b"
-    expected: 'A congeladura de <0xFD><0x0F>\nfoi curada por <0xFD><0x14>!'
+    expected: '<0xFD><0x0F> foi curado\npor <0xFD><0x14> da congeladura!'
   - offset: "0xa4b28b"
     name: "PT-46 0xa4b28b"
-    expected: 'A congeladura de <0xFD><0x10>\nfoi curada!'
+    expected: '<0xFD><0x10>\ncurou a congeladura!'
   - offset: "0xa4b2a5"
     name: "PT-46 0xa4b2a5"
-    expected: 'A congeladura de <0xFD><0x0F>\nfoi curada!'
+    expected: '<0xFD><0x0F>\ncurou a congeladura!'
   - offset: "0xa4b2bf"
     name: "PT-46 0xa4b2bf"
-    expected: '<0xFD><0x13> usou <0xFD><0x16>\ne curou sua congeladura!'
+    expected: '<0xFD><0x13> usou\n<0xFD><0x16> e curou a congeladura!'
   - offset: "0xa4b2dc"
     name: "PT-46 0xa4b2dc"
     expected: 'As stats de <0xFD><0x13>\nnão diminuíram!'
   - offset: "0xa4b2f9"
     name: "PT-46 0xa4b2f9"
-    expected: '<0xFD><0x13>: <0xFD><0x00>\nnão diminuiu!'
+    expected: '<0xFD><0x13>:\n<0xFD><0x00> não diminuiu!'
   - offset: "0xa4b312"
     name: "PT-46 0xa4b312"
     expected: '<0xFD><0x13> não fica\nconfuso!'
   - offset: "0xa4b33c"
     name: "PT-46 0xa4b33c"
-    expected: 'Mas a aura de <0xFD><0x10>\nimpede a transformação!'
+    expected: 'A aura de <0xFD><0x10>\nimpede a transformação!'
   - offset: "0xa4b363"
     name: "PT-46 0xa4b363"
-    expected: 'Mas a aura de <0xFD><0x10>\nbloqueou o movimento!'
+    expected: 'A aura de <0xFD><0x10>\nbloqueou o movimento!'
   - offset: "0xa4b383"
     name: "PT-46 0xa4b383"
     expected: 'A equipe <0xFD><0x37>: <0xFD><0x00>\nacabou!'
@@ -31044,7 +31044,7 @@ entries:
     expected: '<0xFD><0x16> curou o status\nde <0xFD><0x13>!'
   - offset: "0xa4b51f"
     name: "PT-46 0xa4b51f"
-    expected: '<0xFD><0x0F> cortou seus PS\ne minimizou seu Ataque!'
+    expected: '<0xFD><0x0F> cortou PS\ne minimizou seu Ataque!'
   - offset: "0xa4b547"
     name: "PT-46 0xa4b547"
     expected: '<0xFD><0x0F> foi apertado\npelo Octolock!'
@@ -31095,7 +31095,7 @@ entries:
     expected: '<0xFD><0x0F> queima nas\nchamas de G-Max Wildfire!'
   - offset: "0xa4b768"
     name: "PT-46 0xa4b768"
-    expected: 'As chamas de G-Max Wildfire\nao redor da equipe <0xFD><0x36> sumiram!'
+    expected: 'G-Max Wildfire: as chamas\njunto à equipe <0xFD><0x36> sumiram!'
   - offset: "0xa4b79e"
     name: "PT-46 0xa4b79e"
     expected: 'A equipe <0xFD><0x37> ficou\npresa num redemoinho de água!'
@@ -31113,7 +31113,7 @@ entries:
     expected: '<0xFD><0x0F> sofre com\nas rochas de G-Max Volcalith!'
   - offset: "0xa4b869"
     name: "PT-46 0xa4b869"
-    expected: 'As rochas de G-Max Volcalith\nao redor da equipe <0xFD><0x36> sumiram!'
+    expected: 'G-Max Volcalith: as rochas\njunto à equipe <0xFD><0x36> sumiram!'
   - offset: "0xa4b8cd"
     name: "PT-46 0xa4b8cd"
     expected: '<0xFD><0x10> sofreu dano\npor não se proteger totalmente!'
@@ -31140,7 +31140,7 @@ entries:
     expected: '<0xFD><0x10> invocou\noutro <0xFD><0x00>!'
   - offset: "0xa4ba7f"
     name: "PT-46 0xa4ba7f"
-    expected: 'As stats de <0xFD><0x0F> subiram!'
+    expected: '<0xFD><0x0F>:\nas stats subiram!'
   - offset: "0xa4ba90"
     name: "PT-46 0xa4ba90"
     expected: '<0xFD><0x1C> <0xFD><0x1D> vai\nenviar um novo Pokémon.<0xFB><0xFD><0x23> vai trocar\nde Pokémon?'
@@ -31152,7 +31152,7 @@ entries:
     expected: '<0xFD><0x0F> regrediu e\nesqueceu o movimento que usaria!'
   - offset: "0xa4bb20"
     name: "PT-46 0xa4bb20"
-    expected: '<0xFD><0x11> teve suas stats\ne status principal restaurados!'
+    expected: '<0xFD><0x11> teve stats\ne status principal restaurados!'
   - offset: "0xa4bb4a"
     name: "PT-46 0xa4bb4a"
     expected: '<0xFD><0x13> aparece como\ntipo <0xFD><0x00>!'
@@ -31182,7 +31182,7 @@ entries:
     expected: 'A forte tempestade de areia segue.'
   - offset: "0xa4bd0b"
     name: "PT-46 0xa4bd0b"
-    expected: '<0xFD><0x0F> é atingido pela\nforte tempestade de areia!'
+    expected: '<0xFD><0x0F> sofre com a\nforte tempestade de areia!'
   - offset: "0xa4bd34"
     name: "PT-46 0xa4bd34"
     expected: 'Um véu sombrio cobre\no campo!<0xFB>Fantasmas com PS cheios\nrecebem metade do dano!'
@@ -31197,7 +31197,7 @@ entries:
     expected: 'Fadas voam pelo campo!'
   - offset: "0xa4be45"
     name: "PT-46 0xa4be45"
-    expected: 'As fadas no ar deram a\n<0xFD><0x13> um aumento em <0xFD><0x00>!'
+    expected: '<0xFD><0x13>: as fadas\nmelhoraram <0xFD><0x00>!'
   - offset: "0xa4be6e"
     name: "PT-46 0xa4be6e"
     expected: 'Um arco-íris surgiu no céu\nsobre todo o campo de batalha!<0xFB>A chance de efeitos extras de\nPokémon Dragão foi duplicada!'
@@ -31248,10 +31248,10 @@ entries:
     expected: 'A barreira misteriosa que\nprotegia <0xFD><0x13><0xFA>desapareceu!'
   - offset: "0xa4c200"
     name: "PT-46 0xa4c200"
-    expected: '<0xFD><0x13>: <0xFD><0x00>\n<0xFD><0x01>'
+    expected: '<0xFD><0x13>:\n<0xFD><0x00> <0xFD><0x01>'
   - offset: "0xa4c20b"
     name: "PT-46 0xa4c20b"
-    expected: '<0xFD><0x13> anulou mudanças\nde stats e Habilidades<0xFA>dos outros Pokémon!'
+    expected: '<0xFD><0x13> anulou as\nmudanças de stats e Habilidades<0xFA>dos outros Pokémon!'
   - offset: "0xa4c249"
     name: "PT-46 0xa4c249"
     expected: 'A tempestade acima de você\nfica mais forte!'
@@ -31317,7 +31317,7 @@ entries:
     expected: 'Você foi desafiado por\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>'
   - offset: "0xa4c4db"
     name: "PT-46 0xa4c4db"
-    expected: '<0xFD><0x32> <0xFD><0x33> foi desafiado por\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>'
+    expected: '<0xFD><0x32> <0xFD><0x33> enfrenta\n<0xFD><0x1C> <0xFD><0x1D>!<0xFB>'
   - offset: "0xa4c4fa"
     name: "PT-46 0xa4c4fa"
     expected: 'Você foi desafiado por\n<0xFD><0x20>!<0xFB>'

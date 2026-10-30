@@ -46,3 +46,31 @@ def test_effect_labels_and_menu_columns_fit_real_built_fonts():
         for text in ('Lutar', 'Cube', 'Pokémon', 'Fugir', 'Voltar', 'Pegar', 'Fim'):
             encoded = TextEncoder.encode_pokemon(text, strict=True)
             assert sum(built[widths + c] for c in encoded[:-1]) <= 56, text
+
+
+def test_battle_pages_fit_with_long_names_and_stat_buffers():
+    from src.core.font_glyphs import LATIN_FONTS
+    from src.core.text_codec import TextEncoder
+    from tests.e2e.pt.test_batch_pt13_rom import widths
+
+    built = (ROOT / 'output/roms/GenedRom-pt.gba').read_bytes()
+    for row in ROWS:
+        if row.get('kind') != 'battle':
+            continue
+        buffers = {(0xFD, k): 'W' * 10 for k in range(64)}
+        buffers.update({(0xFD, k): 'O adversário ' + 'W' * 10 for k in (15, 16, 17, 19)})
+        buffers.update({(0xFD, k): 'adversária' for k in (0x35, 0x36, 0x37, 0x38)})
+        buffers.update({(0xFD, k): 'W' * 13 for k in (0x1C, 0x32)})
+        buffers.update({(0xFD, k): 'W' * 12 for k in (0x1D, 0x33)})
+        buffers[(0xFD, 20)] = 'W' * 12  # mouvement : cellule de 13 octets
+        buffers[(0xFD, 22)] = 'W' * 13  # objet
+        # Les buffers de stat sont plus longs qu'un surnom de dix lettres.
+        if row['offset'] in ('0xa4b2f9', '0xa4be45', '0xa4c200'):
+            buffers[(0xFD, 0)] = 'Defesa Especial'
+        if row['offset'] == '0xa4c200':
+            buffers[(0xFD, 1)] = 'subiu drasticamente!'
+        raw = TextEncoder.encode_pokemon(row['expected'].replace(r'\n', '\n'), strict=True)
+        for font in LATIN_FONTS:
+            _, table = font.offsets(built)
+            for page in re.split(b'[\xfa\xfb]', raw):
+                assert max(widths(page, built, table, buffers)) <= 214, row['offset']

@@ -50,7 +50,7 @@ def test_battle_buffers_spacing_glossary_and_complete_warnings():
     rows = {int(r['offset'], 16): r for r in ROWS}
     text = lambda o: rows[o]['expected']
     # Les buffers restent dans l'ordre EN, même pour les stats et équipes.
-    assert text(0xA4C200) == '<0xFD><0x13>: <0xFD><0x00>\\n<0xFD><0x01>'
+    assert text(0xA4C200) == '<0xFD><0x13>:\\n<0xFD><0x00> <0xFD><0x01>'
     assert 'não diminuiu' in text(0xA4B2F9)
     for offset in (0xA4C603, 0xA4C610, 0xA4C61A, 0xA4C628, 0xA4C636, 0xA4C640):
         assert text(offset).endswith('<0x00>')
