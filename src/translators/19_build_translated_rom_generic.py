@@ -332,15 +332,18 @@ class TranslatedROMBuilder:
         return sequences
 
     @classmethod
-    def _encoded_layout_widths(cls, raw: bytes) -> list[int]:
+    def _encoded_layout_widths(cls, raw: bytes, layout: "dict | None" = None) -> list[int]:
         """Mesure les octets affichés sans confondre arguments et glyphes.
 
         Les buffers gardent la réserve conservatrice du moteur de rewrap.
-        Les symboles de contrôle réservent douze pixels ; aucun argument
+        Sans métriques opt-in, les symboles réservent douze pixels. Les menus
+        utilisent leurs tables Latin/F8 validées contre la ROM ; aucun argument
         FE/FF ne devient une rupture ou un terminateur indépendant.
         """
         from src.core.dialogue_linewrap import GLYPH_WIDTHS, VARIABLE_WIDTH
 
+        glyphs = bytes.fromhex(layout['glyph_widths_hex']) if layout and 'glyph_widths_hex' in layout else GLYPH_WIDTHS
+        keypad = layout.get('keypad_widths') if layout else None
         widths = [0]
         i = 0
         while i < len(raw):
@@ -354,13 +357,19 @@ class TranslatedROMBuilder:
                 i += 1
             elif value == 0xFC:
                 i += 2 + cls.FC_ARG_COUNTS.get(raw[i + 1], 0)
+            elif value == 0xF8 and keypad is not None:
+                widths[-1] += keypad[raw[i + 1]]
+                i += 2
+            elif value == 0xF9 and len(glyphs) == 512:
+                widths[-1] += glyphs[0x100 + raw[i + 1]]
+                i += 2
             elif value in cls.RAW_ARG_PREFIXES:
                 widths[-1] += VARIABLE_WIDTH if value == 0xFD else 12
                 i += 1 + cls.RAW_ARG_PREFIXES[value]
             elif value in (0xFA, 0xFB):
                 raise ValueError('Pagination interdite dans cette fenêtre')
             else:
-                widths[-1] += GLYPH_WIDTHS[value]
+                widths[-1] += glyphs[value]
                 i += 1
         return widths
 
@@ -758,10 +767,12 @@ class TranslatedROMBuilder:
             if self._extract_control_sequences_from_raw(encoded, include_breaks=include_breaks) != self._extract_control_sequences_from_raw(source, include_breaks=include_breaks):
                 raise ValueError(f"0x{offset:X}: commandes ou ruptures différentes")
             if item.get('strict_encoded_layout'):
-                widths = self._encoded_layout_widths(encoded)
+                widths = self._encoded_layout_widths(encoded, layout)
                 if len(widths) > layout['max_lines'] or max(widths) > layout['max_width']:
                     raise ValueError(f"0x{offset:X}: budget de fenêtre encodée dépassé")
-            pages = translation_text.split('<0xFB>')
+            # Les menus opt-in sont mesurés par leurs tables moteur validées,
+            # pas par l'estimation de la police dialogue.
+            pages = [] if item.get('strict_encoded_layout') and 'glyph_widths_hex' in layout else translation_text.split('<0xFB>')
             for page in pages:
                 lines = page.split('\n')
                 if len(lines) > layout['max_lines'] or any(

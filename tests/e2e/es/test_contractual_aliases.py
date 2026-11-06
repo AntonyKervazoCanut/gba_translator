@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[3]
 pytestmark = [pytest.mark.rom, pytest.mark.slow]
 
 
-def test_ten_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
+def test_all_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
     config = load_registry().get('es-maint')
     contract_path = ROOT / config.text_aliases
     records = json.loads(contract_path.read_text())['aliases']
@@ -28,7 +28,7 @@ def test_ten_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
     for record in records:
         raw = bytes.fromhex(record['english_raw_hex'])[:-1]
         # Literal bytes preserve every command AND its arguments, FA/FB and FD order.
-        text = sentinel + ''.join(f'<0x{b:02X}>' for b in raw)
+        text = ('Z' if 'layout' in record else sentinel) + ''.join(f'<0x{b:02X}>' for b in raw)
         lines.append(f"{record['contract_offset']}: {text}\n")
     combined.write_text(''.join(lines))
     config = replace(config, combined=str(combined), text_aliases=str(contract_path),
@@ -55,7 +55,7 @@ def test_ten_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
         key = int(record['contract_offset'], 16)
         raw = bytes.fromhex(record['english_raw_hex'])
         # Relocation is required: sentinel + complete source exceeds the old budget.
-        expected = prefix + raw
+        expected = (TextEncoder.encode_pokemon('Z')[:-1] if 'layout' in record else prefix) + raw
         for pointer in record['pointer_offsets']:
             p = int(pointer, 16)
             live = int.from_bytes(rom[p:p + 4], 'little') - 0x08000000

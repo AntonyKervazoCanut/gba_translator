@@ -11,6 +11,7 @@ FIXTURE = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es001.json'
 EXTRA = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es003.json').read_text())
 for language in ('english', 'spanish'):
     FIXTURE[language].extend(EXTRA[language])
+    FIXTURE[language].extend(json.loads((Path(__file__).parent / 'fixtures/text_aliases/es008.json').read_text())[language])
     FIXTURE[language].extend(json.loads((Path(__file__).parent / 'fixtures/text_aliases/es002.json').read_text())[language])
 
 
@@ -20,17 +21,23 @@ def rom_fixture():
         offset = entry['offset']
         raw = bytes.fromhex(entry['raw_bytes'])
         prefix = {0x24F210: b'\x00\x00\x00', 0x24F3C4: b'\x05\x00\x00',
-                  0x2779D5: b'\x00', 0x2779F2: b'\xfe'}.get(offset, b'\xaa')
+                  0x2779D5: b'\x00', 0x2779F2: b'\xfe',
+                  0x415D48: bytes(3), 0x415D50: bytes(1), 0x415D60: bytes(2),
+                  0x415D78: bytes(1), 0x415D8C: bytes(2), 0x4160FC: bytes(3), 0x416104: bytes(3)}.get(offset, b'\xaa')
         rom[offset - len(prefix):offset + len(raw)] = prefix + raw
         for pointer in entry['pointer_offsets']:
             p = int(pointer, 16)
             rom[p:p + 4] = (0x08000000 + offset).to_bytes(4, 'little')
+    for guard in json.loads((Path(__file__).parent / 'fixtures/text_aliases/es008.json').read_text())['guards']:
+        offset = int(guard['offset'], 16)
+        raw = bytes.fromhex(guard['hex'])
+        rom[offset:offset + len(raw)] = raw
     return bytes(rom)
 
 
-def test_real_preimages_resolve_ten_contract_keys():
+def test_real_preimages_resolve_all_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 18
+    assert len(aliases.entries) == 25
     assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
     assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries
@@ -89,7 +96,7 @@ def csv_fixture(tmp_path):
     es = tmp_path / 'es.json'
     es.write_text(json.dumps({'texts': FIXTURE['spanish']}))
     mapping = tmp_path / 'map.json'
-    mapping.write_text(json.dumps({'offset_map': [{'english_offset': e['offset'], 'spanish_offset': e['offset'], 'status': 'matched'} for e in FIXTURE['english']]}))
+    mapping.write_text(json.dumps({'offset_map': [{'english_offset': e['offset'], 'spanish_offset': None if e['offset'] == 0x416104 else e['offset'], 'status': 'only_in_english' if e['offset'] == 0x416104 else 'matched'} for e in FIXTURE['english']]}))
     rom = bytearray(0xA00000)
     for entry in FIXTURE['spanish']:
         raw = bytes.fromhex(entry['raw_bytes'])
@@ -112,7 +119,7 @@ def test_csv_uses_live_preimages_and_json_keeps_provenance(tmp_path):
     assert rows[0]['original_text'] == FIXTURE['english'][0]['text']
     assert rows[0]['spanish_text'] == FIXTURE['spanish'][0]['text']
     path = tmp_path / 'ready.json'
-    path.write_text(json.dumps({'translations': [{'offset': k, 'translation': 'ALIAS SENTINEL'} for k in keys]}))
+    path.write_text(json.dumps({'translations': [{'offset': k, 'translation': ''.join(f'<0x{b:02X}>' for b in bytes.fromhex(aliases.entries[k]['english_raw_hex'])[:-1])} for k in keys]}))
     aliases.resolve_json(path, keys)
     items = json.loads(path.read_text())['translations']
     for item in items:
@@ -279,3 +286,135 @@ def test_es002_aliases_reject_changed_prefixes_and_consumers(position):
     source[position] ^= 1
     with pytest.raises(ValueError):
         TextAliases.load(CONTRACT, source)
+
+
+def test_english_only_alias_has_no_invented_spanish_reference(tmp_path):
+    import csv
+    aliases = TextAliases.load(CONTRACT, rom_fixture())
+    base, mapping, rom, es, en = csv_fixture(tmp_path)
+    out = tmp_path / 'result.csv'
+    aliases.prepare_csv(base, out, {0x416101}, mapping, rom, es, en)
+    row = next(r for r in csv.DictReader(out.open()) if int(r['offset'], 16) == 0x416101)
+    assert row['original_text'] == 'IDNo.'
+    assert row['spanish_text'] == ''
+    assert aliases.entries[0x416101]['spanish_offset'] is None
+
+
+@pytest.mark.parametrize('mutation', ['matched', 'target', 'duplicate', 'no_opt_in'])
+def test_english_only_requires_explicit_absence(tmp_path, mutation):
+    data = json.loads(CONTRACT.read_text())
+    record = next(r for r in data['aliases'] if r['contract_offset'] == '0x00416101')
+    base, mapping, rom, es, en = csv_fixture(tmp_path)
+    mapped = json.loads(mapping.read_text())
+    entry = next(e for e in mapped['offset_map'] if e['english_offset'] == 0x416104)
+    if mutation == 'matched':
+        entry['status'] = 'matched'
+    elif mutation == 'target':
+        entry['spanish_offset'] = 0x416104
+    elif mutation == 'duplicate':
+        mapped['offset_map'].append(entry)
+    else:
+        record.pop('english_only')
+    mapping.write_text(json.dumps(mapped))
+    path = tmp_path / 'contract.json'
+    path.write_text(json.dumps(data))
+    with pytest.raises(ValueError):
+        aliases = TextAliases.load(path, rom_fixture())
+        aliases.prepare_csv(base, tmp_path / 'out.csv', {0x416101}, mapping, rom, es, en)
+
+
+@pytest.mark.parametrize('position', [0x415D45, 0x415D4F, 0x415D5E, 0x415D77, 0x415D8A,
+                                    0x4160F9, 0x416101, 0x12EF3C, 0x9F2868, 0x9F2B98])
+def test_es008_rejects_changed_prefixes_or_consumers(position):
+    rom = bytearray(rom_fixture())
+    rom[position] ^= 1
+    with pytest.raises(ValueError):
+        TextAliases.load(CONTRACT, rom)
+
+
+@pytest.mark.parametrize('mutation', ['prefix', 'pointer', 'text', 'missing', 'duplicate', 'restored_en'])
+def test_final_verification_refuses_lost_aliases(tmp_path, mutation):
+    aliases = TextAliases.load(CONTRACT, rom_fixture())
+    path = tmp_path / 'ready.json'
+    text = 'PRUEBA'
+    path.write_text(json.dumps({'translations': [{'offset': 0x416101, 'translation': text}]}))
+    aliases.resolve_json(path, {0x416101})
+    from src.core.text_codec import TextEncoder
+    raw = TextEncoder.encode_pokemon(text)
+    rom = bytearray(rom_fixture())
+    target = 0x900000
+    rom[target:target + len(raw)] = raw
+    for ref in aliases.entries[0x416101]['pointer_offsets']:
+        rom[ref:ref + 4] = (0x08000000 + target).to_bytes(4, 'little')
+    aliases.verify(rom, path, {0x416101: text})
+    if mutation == 'prefix':
+        rom[0x416101] = 1
+    elif mutation == 'pointer':
+        rom[0xF33D8] ^= 1
+    elif mutation == 'text':
+        rom[target] ^= 1
+    elif mutation == 'restored_en':
+        rom[0x9F2B98:0x9F2B9C] = (0x08000000 + 0x416104).to_bytes(4, 'little')
+    else:
+        payload = json.loads(path.read_text())
+        payload['translations'] = [] if mutation == 'missing' else payload['translations'] * 2
+        path.write_text(json.dumps(payload))
+    with pytest.raises(ValueError):
+        aliases.verify(rom, path, {0x416101: text})
+
+
+def test_es008_measures_keypad_and_latin_from_engine_tables():
+    from src.core.item_description_routes import ItemDescriptionRoutes
+    aliases = TextAliases.load(CONTRACT, rom_fixture())
+    entry = aliases.entries[0x415D45]
+    item = {'offset': entry['live_offset'], 'translation': '<0xF8><0x00>Next',
+                'english_raw_bytes': entry['english_raw_hex'], 'strict_encoded_layout': True,
+                'layout': {**entry['layout'], 'max_width': 28}}
+    ItemDescriptionRoutes.normalize(item)
+    item['layout']['max_width'] = 27
+    with pytest.raises(ValueError, match='budget'):
+        ItemDescriptionRoutes.normalize(item)
+
+
+@pytest.mark.parametrize('position', [0x1EEF00, 0x207300, 0x1EA6CE, 0x40C234, 0xF2754, 0x10F558])
+def test_es008_refuses_changed_metrics_and_window_roots(position):
+    source = bytearray(rom_fixture())
+    source[position] ^= 1
+    with pytest.raises(ValueError, match='racine'):
+        TextAliases.load(CONTRACT, source)
+
+
+@pytest.mark.parametrize('old,new', [('00', '01'), ('0A', '09')])
+def test_es008_preserves_keypad_arguments(tmp_path, old, new):
+    aliases = TextAliases.load(CONTRACT, rom_fixture())
+    entry = aliases.entries[0x415D5E]
+    text = ''.join(f'<0x{b:02X}>' for b in bytes.fromhex(entry['english_raw_hex'])[:-1])
+    path = tmp_path / 'bad.json'
+    path.write_text(json.dumps({'translations': [{'offset': 0x415D5E,
+        'translation': text.replace(f'<0xF8><0x{old}>', f'<0xF8><0x{new}>')}]}))
+    with pytest.raises(ValueError, match='commandes'):
+        aliases.resolve_json(path, {0x415D5E})
+
+
+def test_es008_engine_metrics_include_f9_and_preserve_fc_arguments():
+    from scripts import build_language as driver
+    from src.core.item_description_routes import ItemDescriptionRoutes
+    aliases = TextAliases.load(CONTRACT, rom_fixture())
+    layout = aliases.entries[0x415D45]['layout']
+    builder = driver._load_module(driver.BUILD_SCRIPT).TranslatedROMBuilder
+    assert builder._encoded_layout_widths(bytes.fromhex('f905ff'), layout) == [8]
+    item = {'offset': 0, 'translation': '<0xFC><0x01><0x04><0xF9><0x05>',
+            'english_raw_bytes': 'fc0104f905ff', 'layout': layout, 'strict_encoded_layout': True}
+    ItemDescriptionRoutes.normalize(item)
+    item['translation'] = '<0xFC><0x01><0x05><0xF9><0x05>'
+    with pytest.raises(ValueError, match='commandes'):
+        ItemDescriptionRoutes.normalize(item)
+
+
+@pytest.mark.parametrize('text', ['A' * 39, '<0x00>' * 39, 'Name<0xFE>Deux', 'Name<0xFF>Fin'])
+def test_es008_rejects_width_lines_and_internal_terminator(tmp_path, text):
+    aliases = TextAliases.load(CONTRACT, rom_fixture())
+    path = tmp_path / 'bad.json'
+    path.write_text(json.dumps({'translations': [{'offset': 0x4160F9, 'translation': text}]}))
+    with pytest.raises(ValueError):
+        aliases.resolve_json(path, {0x4160F9})

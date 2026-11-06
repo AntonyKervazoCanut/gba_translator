@@ -818,6 +818,11 @@ def main() -> int:
     if routes is not None:
         routes.verify(out_rom.read_bytes())
         print("Finaliseurs structurés : livraison intégrale vérifiée")
+    if getattr(config, "text_aliases", None):
+        from src.core.text_aliases import TextAliases
+        aliases = TextAliases.load(REPO_ROOT / config.text_aliases, ENGLISH_ROM.read_bytes())
+        aliases.verify(out_rom.read_bytes(), translation_json,
+                       _load_module(APPLY_COMBINED_SCRIPT)._load_combined(config.combined_path(REPO_ROOT))[0])
     if getattr(config, "item_descriptions", None):
         from src.core.item_description_routes import ItemDescriptionRoutes
         routes = ItemDescriptionRoutes.load(REPO_ROOT / config.item_descriptions, ENGLISH_ROM.read_bytes())
