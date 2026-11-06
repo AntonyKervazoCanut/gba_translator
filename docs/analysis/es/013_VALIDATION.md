@@ -96,3 +96,12 @@ les routines et la table de 1294 noms gardée après patches.
 
 Les six textes de tables sans racine établie restent conservatoires ; les
 traductions, protections et parcours naturels définitifs restent à F-863.
+
+## Complément F-1047 — qualification résiduelle
+
+[013_RESIDUAL.md](013_RESIDUAL.md) et son JSON ajoutent le scan intégral des
+adresses intérieures, les rapprochements avec les sources publiques épinglées,
+un contre-exemple natif à l'assimilation FireRed/Unbound (slot script 81), et
+le test natif d'expansion à 512/1000/1001 octets. L'absence de garde dans
+l'expanseur est démontrée ; la capacité physique et les fenêtres résiduelles
+restent inconnues. Aucune exclusion ni route de ce checkpoint n'est levée.
