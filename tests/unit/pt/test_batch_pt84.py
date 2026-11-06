@@ -49,6 +49,7 @@ def test_lottery_training_and_complete_tutorial_rules():
     rows = AUDIT['entries']
     assert '9999' in rows[142]['portuguese'] and '0' in rows[142]['portuguese']
     assert '9999' in rows[144]['portuguese']
+    assert rows[141]['portuguese'] == r'Ah, entendo.\nVolte sempre.'
     assert 'três turnos' in rows[107]['portuguese']
     assert '6' in rows[115]['portuguese']
     assert len(rows[107]['english_full']) > len(rows[107]['english'])

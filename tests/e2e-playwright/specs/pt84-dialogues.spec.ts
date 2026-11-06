@@ -12,7 +12,7 @@ test('PT-84 : répliques aux pointeurs vivants sont lisibles dans mGBA', async (
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt84-borrius-'));
   const rom = fs.readFileSync(path.join(root, 'output/roms/GenedRom-pt.gba'));
   const audit = JSON.parse(fs.readFileSync(path.join(root, 'languages/pt/data/pt84_audit.json'), 'utf8'));
-  const cases = ['0x1f95630', '0x1f96428'].map(offset => audit.entries.find((row: { offset: string }) => row.offset === offset));
+  const cases = ['0x1f95630', '0x1f96403'].map(offset => audit.entries.find((row: { offset: string }) => row.offset === offset));
   const script = rom.lastIndexOf(Buffer.alloc(128, 255));
   expect(script).toBeGreaterThan(0x1000000);
   for (let n = 0; n < cases.length; n++) {
