@@ -1,0 +1,491 @@
+{
+  "lot": "ES-016",
+  "status": "candidats à certifier, aucune route autorisée par ce relevé",
+  "routes": [
+    {
+      "contract_offset": "0x00772093",
+      "offset": "0x00772094",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x00762C7F",
+          "context_start": "0x00762C7B",
+          "context_hex": "76080f009420770809061a0080ef011a"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "d1dcd9e200cae3df1be1e3e200d9eae3e0ead9b800e8dcd9ed00dbd9e8fee7e8e6e3e2dbd9e6adfbbce9e800e8dcd9e6d900dde700d500d6d9e2d9dadde800dae3e600e2e3e8fed9eae3e0eadde2db00ede3e9e600cae3df1be1e3e200e6dddbdce800d5ebd5edadfbcae3df1be1e3e200e8dcd5e800d7d5e200e7e8dde0e000d9eae3e0ead900d7d5e2fee9e8dde0dde7d900d5e200fc0106bfeadde3e0dde8d9fc010800e8e300d6d9d7e3e1d9fae8e3e9dbdcd9e600e8e300d6d9d5e800dde200d6d5e8e8e0d9adfbc300dcd5ead900d5e200d9ece8e6d5b800e7e300ebdced00d8e3e2b4e800ede3e9fee8d5dfd900e3e2d9acff",
+        "bytes_including_ff": 246,
+        "decoded_control_aware": "When Pokémon evolve, they get\\nstronger.<0xFB>But there is a benefit for not\\nevolving your Pokémon right away.<0xFB>Pokémon that can still evolve can\\nutilise an <0xFC><0x01><0x06>Eviolite<0xFC><0x01><0x08> to become<0xFA>tougher to beat in battle.<0xFB>I have an extra, so why don't you\\ntake one?",
+        "commands": [
+          {
+            "relative_offset": 39,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 104,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 150,
+            "hex": "fc0106"
+          },
+          {
+            "relative_offset": 161,
+            "hex": "fc0108"
+          },
+          {
+            "relative_offset": 174,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 201,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7807124,
+            "spanish_offset": 7807124,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "d1dcd9e200cae3df1be1e3e200d9eae3e0ead9b800e8dcd9ed00dbd9e8fee7e8e6e3e2dbd9e6adfbbce9e800e8dcd9e6d900dde700d500d6d9e2d9dadde800dae3e600e2e3e8fed9eae3e0eadde2db00ede3e9e600cae3df1be1e3e200e6dddbdce800d5ebd5edadfbcae3df1be1e3e200e8dcd5e800d7d5e200e7e8dde0e000d9eae3e0ead900d7d5e2fee9e8dde0dde7d900d5e200fc0106bfeadde3e0dde8d9fc010800e8e300d6d9d7e3e1d9fae8e3e9dbdcd9e600e8e300d6d9d5e800dde200d6d5e8e8e0d9adfbc300dcd5ead900d5e200d9ece8e6d5b800e7e300ebdced00d8e3e2b4e800ede3e9fee8d5dfd900e3e2d9acff",
+            "bytes_including_ff": 246,
+            "decoded_control_aware": "When Pokémon evolve, they get\\nstronger.<0xFB>But there is a benefit for not\\nevolving your Pokémon right away.<0xFB>Pokémon that can still evolve can\\nutilise an <0xFC><0x01><0x06>Eviolite<0xFC><0x01><0x08> to become<0xFA>tougher to beat in battle.<0xFB>I have an extra, so why don't you\\ntake one?",
+            "commands": [
+              {
+                "relative_offset": 39,
+                "hex": "fb"
+              },
+              {
+                "relative_offset": 104,
+                "hex": "fb"
+              },
+              {
+                "relative_offset": 150,
+                "hex": "fc0106"
+              },
+              {
+                "relative_offset": 161,
+                "hex": "fc0108"
+              },
+              {
+                "relative_offset": 174,
+                "hex": "fa"
+              },
+              {
+                "relative_offset": 201,
+                "hex": "fb"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x007808DD",
+      "offset": "0x007808DE",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0074B0E1",
+          "context_start": "0x0074B0DD",
+          "context_hex": "ffaa0f00de087808090302ffff6a2bed"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "bfe4ddd8dde1ed00cee3ebe2fbcedcd900e8e3ebe200e3da00dcd5e4e4dde2d9e7e700d5e2d800d6e0dde7e7adff",
+        "bytes_including_ff": 46,
+        "decoded_control_aware": "Epidimy Town<0xFB>The town of happiness and bliss.",
+        "commands": [
+          {
+            "relative_offset": 12,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": true,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7866590,
+            "spanish_offset": 7866590,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "bfe4ddd8dde1ed00cee3ebe2fbcedcd900e8e3ebe200e3da00dcd5e4e4dde2d9e7e700d5e2d800d6e0dde7e7adff",
+            "bytes_including_ff": 46,
+            "decoded_control_aware": "Epidimy Town<0xFB>The town of happiness and bliss.",
+            "commands": [
+              {
+                "relative_offset": 12,
+                "hex": "fb"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x00780E33",
+      "offset": "0x00780E34",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x009047D0",
+          "context_start": "0x009047CC",
+          "context_hex": "880d7808340e78088c0e7808d60e7808"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "bbe200d5e8e8d5d7df00ebdcddd7dc00e1d5edfee0d9d5ead900e8dcd900e8d5e6dbd9e8fedae6e3eed9e2ad00c3e800dde700d5e0e7e3fee7e9e4d9e600d9dadad9d7e8ddead900e3e2fed1d5e8d9e600e8ede4d9e7adff",
+        "bytes_including_ff": 88,
+        "decoded_control_aware": "An attack which may\\nleave the target\\nfrozen. It is also\\nsuper effective on\\nWater types.",
+        "commands": []
+      },
+      "in_same_lot": false,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7867956,
+            "spanish_offset": 7867956,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "bbe200d5e8e8d5d7df00ebdcddd7dc00e1d5edfee0d9d5ead900e8dcd900e8d5e6dbd9e8fedae6e3eed9e2ad00c3e800dde700d5e0e7e3fee7e9e4d9e600d9dadad9d7e8ddead900e3e2fed1d5e8d9e600e8ede4d9e7adff",
+            "bytes_including_ff": 88,
+            "decoded_control_aware": "An attack which may\\nleave the target\\nfrozen. It is also\\nsuper effective on\\nWater types.",
+            "commands": []
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x00781278",
+      "offset": "0x00781279",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x00877344",
+          "context_start": "0x00877340",
+          "context_hex": "10270000791278080050010151170a08"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "bb00e4d9d7e9e0ddd5e600e7e8e3e2d900e8dcd5e800e1d5dfd9e700d7d9e6e8d5dde2fee7e4d9d7ddd9e700e3da00cae3df1be1e3e200d9eae3e0ead9adfec3e800e7e4d5e6dfe0d9e700e0dddfd900d9edd9e7adff",
+        "bytes_including_ff": 86,
+        "decoded_control_aware": "A peculiar stone that makes certain\\nspecies of Pokémon evolve.\\nIt sparkles like eyes.",
+        "commands": []
+      },
+      "in_same_lot": false,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7869049,
+            "spanish_offset": 7869049,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "bde9e6dde3e7d500e4ddd9d8e6d500e5e9d900dcd5d7d900d9eae3e0e9d7dde3e2d5e6fed500d9e7e4d9d7ddd9e700d8d900cae3df1be1e3e2ad00bce6dde0e0d500d7e3e1e3fee9e200e0e9d7d9e6e3adff",
+            "bytes_including_ff": 82,
+            "decoded_control_aware": "Curiosa piedra que hace evolucionar\\na especies de Pokémon. Brilla como\\nun lucero.",
+            "commands": []
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x00781668",
+      "offset": "0x00781669",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x00765974",
+          "context_start": "0x00765970",
+          "context_hex": "1a080f0069167808090605c305740885"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "d3e3e9e600cae3df1be1e3e200d5e6d900e0e3e3dfdde2db00e1e9d7dcfed6d9e8e8d9e600e2e3ebb800fd02adff",
+        "bytes_including_ff": 46,
+        "decoded_control_aware": "Your Pokémon are looking much\\nbetter now, <0xFD><0x02>.",
+        "commands": [
+          {
+            "relative_offset": 42,
+            "hex": "fd02"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7870057,
+            "spanish_offset": 7870057,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "d3e3e9e600cae3df1be1e3e200d5e6d900e0e3e3dfdde2db00e1e9d7dcfed6d9e8e8d9e600e2e3ebb800fd02adff",
+            "bytes_including_ff": 46,
+            "decoded_control_aware": "Your Pokémon are looking much\\nbetter now, <0xFD><0x02>.",
+            "commands": [
+              {
+                "relative_offset": 42,
+                "hex": "fd02"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x00788255",
+      "offset": "0x00788256",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x007C871E",
+          "context_start": "0x007C871A",
+          "context_hex": "3f01000056827808b8827808260d8039"
+        },
+        {
+          "offset": "0x007C8745",
+          "context_start": "0x007C8741",
+          "context_hex": "3f01000056827808b88278080536877c"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "c2e3eb00e1d5e2ed00e8dce3e9e7d5e2d8e700e3da00edd9d5e6e700dcd5ead900c3fed6d9d9e200e3e9e800dcd9e6d9b0fbc3da00e3e2e0ed00c300d7e3e9e0d800e0e3e7d9b800e1ed00dee3e9e6e2d9edfeebe3e9e0d800d9e2d8b0ff",
+        "bytes_including_ff": 94,
+        "decoded_control_aware": "How many thousands of years have I\\nbeen out here\"<0xFB>If only I could lose, my journey\\nwould end\"",
+        "commands": [
+          {
+            "relative_offset": 49,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7897686,
+            "spanish_offset": 7897686,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "c2e3eb00e1d5e2ed00e8dce3e9e7d5e2d8e700e3da00edd9d5e6e700dcd5ead900c3fed6d9d9e200e3e9e800dcd9e6d9b0fbc3da00e3e2e0ed00c300d7e3e9e0d800e0e3e7d9b800e1ed00dee3e9e6e2d9edfeebe3e9e0d800d9e2d8b0ff",
+            "bytes_including_ff": 94,
+            "decoded_control_aware": "How many thousands of years have I\\nbeen out here\"<0xFB>If only I could lose, my journey\\nwould end\"",
+            "commands": [
+              {
+                "relative_offset": 49,
+                "hex": "fb"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x00788537",
+      "offset": "0x00788538",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x00771912",
+          "context_start": "0x0077190E",
+          "context_hex": "00000f00388578080904682ff8004f7f"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "fc0108c3b4e100e7e3e6e6ed00d5d6e3e9e800e8dcdde7adfbced5dfd900e8dcdde700dae3e600ede3e9e600e8e6e3e9d6e0d9adff",
+        "bytes_including_ff": 53,
+        "decoded_control_aware": "<0xFC><0x01><0x08>I'm sorry about this.<0xFB>Take this for your trouble.",
+        "commands": [
+          {
+            "relative_offset": 0,
+            "hex": "fc0108"
+          },
+          {
+            "relative_offset": 24,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": true,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7898424,
+            "spanish_offset": 7898424,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "fc0108c3b4e100e7e3e6e6ed00d5d6e3e9e800e8dcdde7adfbced5dfd900e8dcdde700dae3e600ede3e9e600e8e6e3e9d6e0d9adff",
+            "bytes_including_ff": 53,
+            "decoded_control_aware": "<0xFC><0x01><0x08>I'm sorry about this.<0xFB>Take this for your trouble.",
+            "commands": [
+              {
+                "relative_offset": 0,
+                "hex": "fc0108"
+              },
+              {
+                "relative_offset": 24,
+                "hex": "fb"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x0078C2A8",
+      "offset": "0x0078C2A9",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0078C280",
+          "context_start": "0x0078C27C",
+          "context_hex": "ffaa0f00a9c2780809036c02ff0f003a"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "cce3e9e8d900a2a3ff",
+        "bytes_including_ff": 9,
+        "decoded_control_aware": "Route 12",
+        "commands": []
+      },
+      "in_same_lot": false,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7914153,
+            "spanish_offset": 7914153,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "cce3e9e8d900a2a3ff",
+            "bytes_including_ff": 9,
+            "decoded_control_aware": "Route 12",
+            "commands": []
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x0078C2FD",
+      "offset": "0x0078C2FE",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0078C2C0",
+          "context_start": "0x0078C2BC",
+          "context_hex": "ffaa0f00fec2780809036c02ffd3e3e9"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "cce3e9e8d900a2a3ff",
+        "bytes_including_ff": 9,
+        "decoded_control_aware": "Route 12",
+        "commands": []
+      },
+      "in_same_lot": false,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7914238,
+            "spanish_offset": 7914238,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "cce3e9e8d900a2a3ff",
+            "bytes_including_ff": 9,
+            "decoded_control_aware": "Route 12",
+            "commands": []
+          }
+        }
+      ]
+    },
+    {
+      "contract_offset": "0x0078D43D",
+      "offset": "0x0078D43E",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0078A693",
+          "context_start": "0x0078A68F",
+          "context_hex": "13010f003ed478080904684f7f009c00"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "c7d5e6e0e3e2f000fc0108bbe0e6dddbdce8b800dbe6e9e2e8e7adfbc9e9e600d7e9e6e6d9e2e800e3d6ded9d7e8ddead900dde700e8e300dcd9d5d800e8e3fefc0106bddde2d8d9e600d0e3e0d7d5e2e300fc0108d5e2d800dcd9e0e400c3eae3e6edfae3d6e8d5dde200cde4d9d7dde1d9e200ceccbfcdadff",
+        "bytes_including_ff": 122,
+        "decoded_control_aware": "Marlon: <0xFC><0x01><0x08>Alright, grunts.<0xFB>Our current objective is to head to\\n<0xFC><0x01><0x06>Cinder Volcano <0xFC><0x01><0x08>and help Ivory<0xFA>obtain Specimen TRES.",
+        "commands": [
+          {
+            "relative_offset": 8,
+            "hex": "fc0108"
+          },
+          {
+            "relative_offset": 27,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 64,
+            "hex": "fc0106"
+          },
+          {
+            "relative_offset": 82,
+            "hex": "fc0108"
+          },
+          {
+            "relative_offset": 99,
+            "hex": "fa"
+          }
+        ]
+      },
+      "in_same_lot": true,
+      "offset_map_matches": [
+        {
+          "mapping": {
+            "english_offset": 7918654,
+            "spanish_offset": 7918654,
+            "status": "matched"
+          },
+          "spanish_snapshot": {
+            "raw_hex": "c7d5e6e0e3e2f000fc0108bbe0e6dddbdce8b800dbe6e9e2e8e7adfbc9e9e600d7e9e6e6d9e2e800e3d6ded9d7e8ddead900dde700e8e300dcd9d5d800e8e3fefc0106bddde2d8d9e600d0e3e0d7d5e2e300fc0108d5e2d800dcd9e0e400c3eae3e6edfae3d6e8d5dde200cde4d9d7dde1d9e200ceccbfcdadff",
+            "bytes_including_ff": 122,
+            "decoded_control_aware": "Marlon: <0xFC><0x01><0x08>Alright, grunts.<0xFB>Our current objective is to head to\\n<0xFC><0x01><0x06>Cinder Volcano <0xFC><0x01><0x08>and help Ivory<0xFA>obtain Specimen TRES.",
+            "commands": [
+              {
+                "relative_offset": 8,
+                "hex": "fc0108"
+              },
+              {
+                "relative_offset": 27,
+                "hex": "fb"
+              },
+              {
+                "relative_offset": 64,
+                "hex": "fc0106"
+              },
+              {
+                "relative_offset": 82,
+                "hex": "fc0108"
+              },
+              {
+                "relative_offset": 99,
+                "hex": "fa"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
