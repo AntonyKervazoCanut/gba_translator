@@ -4671,3 +4671,1001 @@ entries:
 - offset: '0x003e8378'
   name: 'ES-004 : 0x003E8378'
   expected: VISCOSIDAD
+
+# ES-007 / F-857 : valeurs exactes, dernière occurrence gagnante.
+- offset: '0x003ecaa4'
+  name: 'ES-007 : 0x003ecaa4'
+  expected: DESTINO
+- offset: '0x003ecaac'
+  name: 'ES-007 : 0x003ecaac'
+  expected: Cancelar
+- offset: '0x003ecab7'
+  name: 'ES-007 : 0x003ecab7'
+  expected: APLASTAR
+- offset: '0x003ecabf'
+  name: 'ES-007 : 0x003ecabf'
+  expected: BROMEAR
+- offset: '0x003ecac7'
+  name: 'ES-007 : 0x003ecac7'
+  expected: PERDEDOR
+- offset: '0x003ecacd'
+  name: 'ES-007 : 0x003ecacd'
+  expected: PERDER
+- offset: '0x003ecad4'
+  name: 'ES-007 : 0x003ecad4'
+  expected: DE MODA
+- offset: '0x003ecade'
+  name: 'ES-007 : 0x003ecade'
+  expected: A LA ÚLTIMA
+- offset: '0x003ecae6'
+  name: 'ES-007 : 0x003ecae6'
+  expected: SACUDIR
+- offset: '0x003ecaec'
+  name: 'ES-007 : 0x003ecaec'
+  expected: TURBIO
+- offset: '0x003ecaf2'
+  name: 'ES-007 : 0x003ecaf2'
+  expected: ANIMADO
+- offset: '0x003ecaf9'
+  name: 'ES-007 : 0x003ecaf9'
+  expected: MODERNO
+- offset: '0x003ecb00'
+  name: 'ES-007 : 0x003ecb00'
+  expected: HASTA LUEGO
+- offset: '0x003ecb09'
+  name: 'ES-007 : 0x003ecb09'
+  expected: BUM
+- offset: '0x003ecb0e'
+  name: 'ES-007 : 0x003ecb0e'
+  expected: FULMINANTE
+- offset: '0x003ecb17'
+  name: 'ES-007 : 0x003ecb17'
+  expected: LÍO
+- offset: '0x003ecb1e'
+  name: 'ES-007 : 0x003ecb1e'
+  expected: GANADOR
+- offset: '0x003ecb25'
+  name: 'ES-007 : 0x003ecb25'
+  expected: FIEBRE
+- offset: '0x003ecb2b'
+  name: 'ES-007 : 0x003ecb2b'
+  expected: ASPIRANTE
+- offset: '0x003ecb33'
+  name: 'ES-007 : 0x003ecb33'
+  expected: BEBÉ
+- offset: '0x003ecb38'
+  name: 'ES-007 : 0x003ecb38'
+  expected: CORAZÓN
+- offset: '0x003ecb42'
+  name: 'ES-007 : 0x003ecb42'
+  expected: JOVEN
+- offset: '0x003ecb48'
+  name: 'ES-007 : 0x003ecb48'
+  expected: FEO
+- offset: '0x003eed08'
+  name: 'ES-007 : 0x003eed08'
+  expected: Pueblo Bellin
+- offset: '0x003eed22'
+  name: 'ES-007 : 0x003eed22'
+  expected: Pueblo Crater
+- offset: '0x003eed67'
+  name: 'ES-007 : 0x003eed67'
+  expected: Pueblo Tarmigan
+- offset: '0x003eed77'
+  name: 'ES-007 : 0x003eed77'
+  expected: Meseta Añil
+- offset: '0x003eed93'
+  name: 'ES-007 : 0x003eed93'
+  expected: Ruta 4
+- offset: '0x003eed9b'
+  name: 'ES-007 : 0x003eed9b'
+  expected: Ruta 10
+- offset: '0x003eeda4'
+  name: 'ES-007 : 0x003eeda4'
+  expected: Ruta 1
+- offset: '0x003eedac'
+  name: 'ES-007 : 0x003eedac'
+  expected: Ruta 2
+- offset: '0x003eedb4'
+  name: 'ES-007 : 0x003eedb4'
+  expected: Ruta 3
+- offset: '0x003eedc4'
+  name: 'ES-007 : 0x003eedc4'
+  expected: Ruta 5
+- offset: '0x003eedcc'
+  name: 'ES-007 : 0x003eedcc'
+  expected: Ruta 6
+- offset: '0x003eedd4'
+  name: 'ES-007 : 0x003eedd4'
+  expected: Ruta 7
+- offset: '0x003eeddc'
+  name: 'ES-007 : 0x003eeddc'
+  expected: Ruta 8
+- offset: '0x003eede4'
+  name: 'ES-007 : 0x003eede4'
+  expected: Ruta 9
+- offset: '0x003eedec'
+  name: 'ES-007 : 0x003eedec'
+  expected: Ruta 10
+- offset: '0x003eedf5'
+  name: 'ES-007 : 0x003eedf5'
+  expected: Ruta 11
+- offset: '0x003eedfe'
+  name: 'ES-007 : 0x003eedfe'
+  expected: Ruta 12
+- offset: '0x003eee07'
+  name: 'ES-007 : 0x003eee07'
+  expected: Ruta 13
+- offset: '0x003eee10'
+  name: 'ES-007 : 0x003eee10'
+  expected: Ruta 14
+- offset: '0x003eee19'
+  name: 'ES-007 : 0x003eee19'
+  expected: Ruta 15
+- offset: '0x003eee22'
+  name: 'ES-007 : 0x003eee22'
+  expected: Ruta 16
+- offset: '0x003eee2b'
+  name: 'ES-007 : 0x003eee2b'
+  expected: Ruta 17
+- offset: '0x003eee34'
+  name: 'ES-007 : 0x003eee34'
+  expected: Ruta 18
+- offset: '0x003eee7c'
+  name: 'ES-007 : 0x003eee7c'
+  expected: Bosque Grim
+- offset: '0x003eee9f'
+  name: 'ES-007 : 0x003eee9f'
+  expected: Vía Subterránea
+- offset: '0x003eeec1'
+  name: 'ES-007 : 0x003eeec1'
+  expected: Cueva Valley
+- offset: '0x003eeed0'
+  name: 'ES-007 : 0x003eeed0'
+  expected: Calle Victoria
+- offset: '0x003eef12'
+  name: 'ES-007 : 0x003eef12'
+  expected: Liga Pokémon
+- offset: '0x003eef2d'
+  name: 'ES-007 : 0x003eef2d'
+  expected: Cueva Rift
+- offset: '0x003eef3d'
+  name: 'ES-007 : 0x003eef3d'
+  expected: Bosque Vivill
+- offset: '0x003eef4b'
+  name: 'ES-007 : 0x003eef4b'
+  expected: Cueva Icicle
+- offset: '0x003eefa0'
+  name: 'ES-007 : 0x003eefa0'
+  expected: Isla Sétima
+- offset: '0x003eefad'
+  name: 'ES-007 : 0x003eefad'
+  expected: Isla Exta
+- offset: '0x003eefea'
+  name: 'ES-007 : 0x003eefea'
+  expected: Cueva Psique
+- offset: '0x003ef094'
+  name: 'ES-007 : 0x003ef094'
+  expected: Valle Ruinas
+- offset: '0x003ef0ae'
+  name: 'ES-007 : 0x003ef0ae'
+  expected: Entrada al Cañón
+- offset: '0x003ef0be'
+  name: 'ES-007 : 0x003ef0be'
+  expected: Cañón Sétano
+- offset: '0x003ef0cd'
+  name: 'ES-007 : 0x003ef0cd'
+  expected: Ruinas Sete
+- offset: '0x003ef104'
+  name: 'ES-007 : 0x003ef104'
+  expected: Roca Ombligo
+- offset: '0x003ef119'
+  name: 'ES-007 : 0x003ef119'
+  expected: Bosque Baya
+- offset: '0x003ef133'
+  name: 'ES-007 : 0x003ef133'
+  expected: Mina Batalla
+- offset: '0x003ef144'
+  name: 'ES-007 : 0x003ef144'
+  expected: Torre Batalla
+- offset: '0x003ef183'
+  name: 'ES-007 : 0x003ef183'
+  expected: Bosque Autl
+- offset: '0x003ef193'
+  name: 'ES-007 : 0x003ef193'
+  expected: Cueva Cliff
+- offset: '0x003fb21f'
+  name: 'ES-007 : 0x003fb21f'
+  expected: '<0xFD><0x1D>: ¡<0xFD><0x06>, vuelve!'
+- offset: '0x003fb235'
+  name: 'ES-007 : 0x003fb235'
+  expected: '<0xFD><0x1D>: ¡<0xFD><0x08>, vuelve!'
+- offset: '0x003fb248'
+  name: 'ES-007 : 0x003fb248'
+  expected: '<0xFD><0x1D>: ¡<0xFD><0x06> y\n<0xFD><0x08>, volved!'
+- offset: '0x003fb265'
+  name: 'ES-007 : 0x003fb265'
+  expected: ¡<0xFD><0x00> obtuvo<0xFD><0x01>\n<0xFD><0x34> puntos de Exp.!<0xFB>
+- offset: '0x003fb283'
+  name: 'ES-007 : 0x003fb283'
+  expected: <0x00>un extra de
+- offset: '0x003fb28e'
+  name: 'ES-007 : 0x003fb28e'
+  expected: ¡<0xFD><0x00> subió al\nNv. <0xFD><0x01>!<0xFC><0x0A><0xFB>
+- offset: '0x003fb2a4'
+  name: 'ES-007 : 0x003fb2a4'
+  expected: ¡<0xFD><0x00> aprendió\n<0xFD><0x01>!<0xFC><0x0A><0xFB>
+- offset: '0x003fb2b6'
+  name: 'ES-007 : 0x003fb2b6'
+  expected: <0xFD><0x00> quiere aprender\n<0xFD><0x01>.<0xFB>
+- offset: '0x003fb2d1'
+  name: 'ES-007 : 0x003fb2d1'
+  expected: Pero <0xFD><0x00> solo puede\nconocer cuatro movimientos.<0xFB>
+- offset: '0x003fb2fc'
+  name: 'ES-007 : 0x003fb2fc'
+  expected: ¿Olvidar un movimiento\npara aprender <0xFD><0x01>?
+- offset: '0x003fb31f'
+  name: 'ES-007 : 0x003fb31f'
+  expected: <0xFD><0x00> olvidó\n<0xFD><0x01>.<0xFB>
+- offset: '0x003fb32e'
+  name: 'ES-007 : 0x003fb32e'
+  expected: <0xFC><0x08><0x20>¿Dejar de aprender\n<0xFD><0x01>?
+- offset: '0x003fb343'
+  name: 'ES-007 : 0x003fb343'
+  expected: <0xFD><0x00> no aprendió\n<0xFD><0x01>.<0xFB>
+- offset: '0x003fb359'
+  name: 'ES-007 : 0x003fb359'
+  expected: ¿Usar otro Pokémon?
+- offset: '0x003fb36b'
+  name: 'ES-007 : 0x003fb36b'
+  expected: ¡<0xFD><0x0F>\nfalló el ataque!
+- offset: '0x003fb37f'
+  name: 'ES-007 : 0x003fb37f'
+  expected: ¡<0xFD><0x10>\nse protegió!
+- offset: '0x003fb394'
+  name: 'ES-007 : 0x003fb394'
+  expected: ¡<0xFD><0x10> evitó el daño\ncon <0xFD><0x19>!
+- offset: '0x003fb3af'
+  name: 'ES-007 : 0x003fb3af'
+  expected: ¡<0xFD><0x10> evita ataques de\ntipo Tierra con <0xFD><0x19>!
+- offset: '0x003fb3d3'
+  name: 'ES-007 : 0x003fb3d3'
+  expected: ¡<0xFD><0x10>\nesquivó el ataque!
+- offset: '0x003fb400'
+  name: 'ES-007 : 0x003fb400'
+  expected: ¡<0xFD><0x0F>\nse debilitó!<0xFB>
+- offset: '0x003fb40d'
+  name: 'ES-007 : 0x003fb40d'
+  expected: ¡<0xFD><0x10>\nse debilitó!<0xFB>
+- offset: '0x003fb508'
+  name: 'ES-007 : 0x003fb508'
+  expected: ¡<0xFD><0x13> impide huir\ncon <0xFD><0x1A>!<0xFB>
+- offset: '0x003fb525'
+  name: 'ES-007 : 0x003fb525'
+  expected: ¡No puedes huir!<0xFB>
+- offset: '0x003fb534'
+  name: 'ES-007 : 0x003fb534'
+  expected: ¡<0xFD><0x0F> no puede huir!
+- offset: '0x003fb545'
+  name: 'ES-007 : 0x003fb545'
+  expected: ¡Golpeó <0xFD><0x00> veces!
+- offset: '0x003fb555'
+  name: 'ES-007 : 0x003fb555'
+  expected: ¡<0xFD><0x11>\nse durmió!
+- offset: '0x003fb565'
+  name: 'ES-007 : 0x003fb565'
+  expected: ¡<0xFD><0x13>, con <0xFD><0x1A>,\ndurmió a <0xFD><0x11>!
+- offset: '0x003fb57c'
+  name: 'ES-007 : 0x003fb57c'
+  expected: ¡<0xFD><0x10> ya está\ndurmiendo!
+- offset: '0x003fb592'
+  name: 'ES-007 : 0x003fb592'
+  expected: ¡<0xFD><0x0F> ya está\ndurmiendo!
+- offset: '0x003fb5a8'
+  name: 'ES-007 : 0x003fb5a8'
+  expected: ¡<0xFD><0x10>\nno se vio afectado!
+- offset: '0x003fb5bc'
+  name: 'ES-007 : 0x003fb5bc'
+  expected: ¡<0xFD><0x11>\nsufre envenenamiento!
+- offset: '0x003fb5cd'
+  name: 'ES-007 : 0x003fb5cd'
+  expected: ¡<0xFD><0x13>, con <0xFD><0x1A>,\nenvenenó a <0xFD><0x11>!
+- offset: '0x003fb5e2'
+  name: 'ES-007 : 0x003fb5e2'
+  expected: ¡<0xFD><0x0F> sufre\npor el veneno!
+- offset: '0x003fb5f8'
+  name: 'ES-007 : 0x003fb5f8'
+  expected: <0xFD><0x10> ya sufre\nenvenenamiento.
+- offset: '0x003fb610'
+  name: 'ES-007 : 0x003fb610'
+  expected: ¡<0xFD><0x11> sufre\nenvenenamiento grave!
+- offset: '0x003fb626'
+  name: 'ES-007 : 0x003fb626'
+  expected: ¡A <0xFD><0x10> le\nabsorbieron energía!
+- offset: '0x003fb641'
+  name: 'ES-007 : 0x003fb641'
+  expected: ¡<0xFD><0x11> sufre quemaduras!
+- offset: '0x003fb650'
+  name: 'ES-007 : 0x003fb650'
+  expected: ¡<0xFD><0x13>, con <0xFD><0x1A>,\nquemó a <0xFD><0x11>!
+- offset: '0x003fb663'
+  name: 'ES-007 : 0x003fb663'
+  expected: ¡<0xFD><0x0F> sufre\npor sus quemaduras!
+- offset: '0x003fb67b'
+  name: 'ES-007 : 0x003fb67b'
+  expected: <0xFD><0x10> ya sufre\nquemaduras.
+- offset: '0x003fb6a7'
+  name: 'ES-007 : 0x003fb6a7'
+  expected: ¡<0xFD><0x13>, con <0xFD><0x1A>,\ncongeló a <0xFD><0x11>!
+- offset: '0x003fb6bf'
+  name: 'ES-007 : 0x003fb6bf'
+  expected: ¡<0xFD><0x0F> está\ncongelado!
+- offset: '0x003fb6d3'
+  name: 'ES-007 : 0x003fb6d3'
+  expected: ¡<0xFD><0x10> se descongeló!
+- offset: '0x003fb70f'
+  name: 'ES-007 : 0x003fb70f'
+  expected: ¡<0xFD><0x11> sufre parálisis!\n¡Puede que no se mueva!
+- offset: '0x003fb73a'
+  name: 'ES-007 : 0x003fb73a'
+  expected: ¡<0xFD><0x13>, con <0xFD><0x1A>,\nparalizó a <0xFD><0x11>!<0xFA>¡Puede que no se mueva!
+- offset: '0x003fb76a'
+  name: 'ES-007 : 0x003fb76a'
+  expected: ¡<0xFD><0x0F> sufre parálisis!\n¡No puede moverse!
+- offset: '0x003fb78a'
+  name: 'ES-007 : 0x003fb78a'
+  expected: ¡<0xFD><0x10> ya sufre\nparálisis!
+- offset: '0x003fb7a3'
+  name: 'ES-007 : 0x003fb7a3'
+  expected: ¡<0xFD><0x10> se curó\nde la parálisis!
+- offset: '0x003fb7bf'
+  name: 'ES-007 : 0x003fb7bf'
+  expected: ¡A <0xFD><0x10> le\ncomieron el sueño!
+- offset: '0x003fb7d5'
+  name: 'ES-007 : 0x003fb7d5'
+  expected: '¡<0xFD><0x0F>: <0xFD><0x00>\nno puede subir más!'
+- offset: '0x003fb7ee'
+  name: 'ES-007 : 0x003fb7ee'
+  expected: '¡<0xFD><0x10>: <0xFD><0x00>\nno puede bajar más!'
+- offset: '0x003fb806'
+  name: 'ES-007 : 0x003fb806'
+  expected: ¡Tu equipo perdió\nel efecto de <0xFD><0x00>!
+- offset: '0x003fb826'
+  name: 'ES-007 : 0x003fb826'
+  expected: ¡El equipo rival perdió\nel efecto de <0xFD><0x00>!
+- offset: '0x003fb844'
+  name: 'ES-007 : 0x003fb844'
+  expected: ¡<0xFD><0x0F> está\nconfundido!
+- offset: '0x003fb854'
+  name: 'ES-007 : 0x003fb854'
+  expected: ¡<0xFD><0x0F> ya no está\nconfundido!
+- offset: '0x003fb871'
+  name: 'ES-007 : 0x003fb871'
+  expected: ¡<0xFD><0x11> se\nconfundió!
+- offset: '0x003fb885'
+  name: 'ES-007 : 0x003fb885'
+  expected: ¡<0xFD><0x10> ya está\nconfundido!
+- offset: '0x003fb89d'
+  name: 'ES-007 : 0x003fb89d'
+  expected: ¡<0xFD><0x10>\nse enamoró!
+- offset: '0x003fb8ae'
+  name: 'ES-007 : 0x003fb8ae'
+  expected: ¡<0xFD><0x0F> se enamoró\nde <0xFD><0x13>!
+- offset: '0x003fb8c5'
+  name: 'ES-007 : 0x003fb8c5'
+  expected: ¡<0xFD><0x0F> no se mueve\npor el enamoramiento!
+- offset: '0x003fb8e0'
+  name: 'ES-007 : 0x003fb8e0'
+  expected: ¡<0xFD><0x10>\nsalió volando!
+- offset: '0x003fb914'
+  name: 'ES-007 : 0x003fb914'
+  expected: ¡<0xFD><0x0F> retrocedió!
+- offset: '0x003fb921'
+  name: 'ES-007 : 0x003fb921'
+  expected: ¡<0xFD><0x10> recuperó\nPS!
+- offset: '0x003fb935'
+  name: 'ES-007 : 0x003fb935'
+  expected: ¡<0xFD><0x10> tiene\ntodos sus PS!
+- offset: '0x003fb946'
+  name: 'ES-007 : 0x003fb946'
+  expected: '¡<0xFD><0x2A>: <0xFD><0x14>\naumentó la Def. Esp.!'
+- offset: '0x003fb95e'
+  name: 'ES-007 : 0x003fb95e'
+  expected: '¡<0xFD><0x2A>: <0xFD><0x14>\nsubió un poco la Def. Esp.!'
+- offset: '0x003fb97f'
+  name: 'ES-007 : 0x003fb97f'
+  expected: '¡<0xFD><0x2A>: <0xFD><0x14>\naumentó la Defensa!'
+- offset: '0x003fb997'
+  name: 'ES-007 : 0x003fb997'
+  expected: '¡<0xFD><0x2A>: <0xFD><0x14>\nsubió un poco la Defensa!'
+- offset: '0x003fb9b8'
+  name: 'ES-007 : 0x003fb9b8'
+  expected: ¡El equipo <0xFD><0x38>\nse cubrió con un velo!
+- offset: '0x003fb9d9'
+  name: 'ES-007 : 0x003fb9d9'
+  expected: ¡El equipo de <0xFD><0x10>\nestá bajo Velo Sagrado!
+- offset: '0x003fb9ff'
+  name: 'ES-007 : 0x003fb9ff'
+  expected: ¡El equipo <0xFD><0x38> perdió\nel efecto de Velo Sagrado!
+- offset: '0x003fba2f'
+  name: 'ES-007 : 0x003fba2f'
+  expected: ¡<0xFD><0x0F>\nse fue a dormir!
+- offset: '0x003fba41'
+  name: 'ES-007 : 0x003fba41'
+  expected: ¡<0xFD><0x0F> durmió\ny recuperó la salud!
+- offset: '0x003fba5e'
+  name: 'ES-007 : 0x003fba5e'
+  expected: ¡<0xFD><0x0F>\ncreó un torbellino!
+- offset: '0x003fba79'
+  name: 'ES-007 : 0x003fba79'
+  expected: ¡<0xFD><0x0F>\nabsorbió luz solar!
+- offset: '0x003fba8e'
+  name: 'ES-007 : 0x003fba8e'
+  expected: ¡<0xFD><0x0F>\nbajó la cabeza!
+- offset: '0x003fbab2'
+  name: 'ES-007 : 0x003fbab2'
+  expected: ¡<0xFD><0x0F>\nvoló muy alto!
+- offset: '0x003fbac3'
+  name: 'ES-007 : 0x003fbac3'
+  expected: ¡<0xFD><0x0F> cavó un hoyo!
+- offset: '0x003fbad2'
+  name: 'ES-007 : 0x003fbad2'
+  expected: ¡<0xFD><0x0F> se ocultó\nbajo el agua!
+- offset: '0x003fbae5'
+  name: 'ES-007 : 0x003fbae5'
+  expected: ¡<0xFD><0x0F> dio un salto!
+- offset: '0x003fbaf3'
+  name: 'ES-007 : 0x003fbaf3'
+  expected: ¡<0xFD><0x10> sufre\nla Atadura de <0xFD><0x0F>!
+- offset: '0x003fbb11'
+  name: 'ES-007 : 0x003fbb11'
+  expected: ¡<0xFD><0x10> quedó\natrapado en el vórtice!
+- offset: '0x003fbb2f'
+  name: 'ES-007 : 0x003fbb2f'
+  expected: ¡<0xFD><0x10> quedó\natrapado por <0xFD><0x14>!
+- offset: '0x003fbb4c'
+  name: 'ES-007 : 0x003fbb4c'
+  expected: ¡<0xFD><0x10> fue atrapado\ncon Constricción por <0xFD><0x0F>!
+- offset: '0x003fbb62'
+  name: 'ES-007 : 0x003fbb62'
+  expected: ¡<0xFD><0x0F> usó Tenaza\nsobre <0xFD><0x10>!
+- offset: '0x003fbb71'
+  name: 'ES-007 : 0x003fbb71'
+  expected: ¡<0xFD><0x0F> sufre\ndaños por <0xFD><0x00>!
+- offset: '0x003fbb83'
+  name: 'ES-007 : 0x003fbb83'
+  expected: ¡<0xFD><0x0F> se liberó\nde <0xFD><0x00>!
+- offset: '0x003fbb99'
+  name: 'ES-007 : 0x003fbb99'
+  expected: ¡<0xFD><0x0F> siguió\ny se estrelló!
+- offset: '0x003fbbb4'
+  name: 'ES-007 : 0x003fbbb4'
+  expected: ¡<0xFD><0x2A> se cubrió\ncon Neblina!
+- offset: '0x003fbbd0'
+  name: 'ES-007 : 0x003fbbd0'
+  expected: ¡<0xFD><0x13> está bajo\nel efecto de Neblina!
+- offset: '0x003fbbe9'
+  name: 'ES-007 : 0x003fbbe9'
+  expected: ¡<0xFD><0x0F> se está\nconcentrando!
+- offset: '0x003fbbff'
+  name: 'ES-007 : 0x003fbbff'
+  expected: ¡<0xFD><0x0F> se hirió\npor el retroceso!
+- offset: '0x003fbc16'
+  name: 'ES-007 : 0x003fbc16'
+  expected: ¡<0xFD><0x0F>\nse protegió!
+- offset: '0x003fbc2b'
+  name: 'ES-007 : 0x003fbc2b'
+  expected: ¡<0xFD><0x0F> sufre por\nla tormenta de arena!
+- offset: '0x003fbc4c'
+  name: 'ES-007 : 0x003fbc4c'
+  expected: ¡<0xFD><0x0F> sufre\npor el granizo!
+- offset: '0x003fbc62'
+  name: 'ES-007 : 0x003fbc62'
+  expected: '¡<0xFD><0x28>: <0xFD><0x00>\ndejó de surtir efecto!'
+- offset: '0x003fbc74'
+  name: 'ES-007 : 0x003fbc74'
+  expected: ¡<0xFD><0x10> fue\nsembrado con Drenadoras!
+- offset: '0x003fbc83'
+  name: 'ES-007 : 0x003fbc83'
+  expected: ¡<0xFD><0x10> esquivó\nel ataque!
+- offset: '0x003fbc99'
+  name: 'ES-007 : 0x003fbc99'
+  expected: ¡<0xFD><0x0F> pierde PS\npor Drenadoras!
+- offset: '0x003fbcbe'
+  name: 'ES-007 : 0x003fbcbe'
+  expected: <0xFD><0x0F> está\nprofundamente dormido.
+- offset: '0x003fbcd1'
+  name: 'ES-007 : 0x003fbcd1'
+  expected: ¡<0xFD><0x0F> se despertó!
+- offset: '0x003fbcdd'
+  name: 'ES-007 : 0x003fbcdd'
+  expected: ¡Pero <0xFD><0x13> lo desveló\ncon Alboroto!
+- offset: '0x003fbcfc'
+  name: 'ES-007 : 0x003fbcfc'
+  expected: ¡<0xFD><0x0F> se despertó\npor el Alboroto!
+- offset: '0x003fbd16'
+  name: 'ES-007 : 0x003fbd16'
+  expected: ¡<0xFD><0x0F> causó\nun Alboroto!
+- offset: '0x003fbd2b'
+  name: 'ES-007 : 0x003fbd2b'
+  expected: ¡<0xFD><0x0F> sigue\ncon el Alboroto!
+- offset: '0x003fbd43'
+  name: 'ES-007 : 0x003fbd43'
+  expected: <0xFD><0x0F> se calmó.
+- offset: '0x003fbd53'
+  name: 'ES-007 : 0x003fbd53'
+  expected: ¡Pero <0xFD><0x10> no puede\ndormir con el Alboroto!
+- offset: '0x003fbd74'
+  name: 'ES-007 : 0x003fbd74'
+  expected: ¡<0xFD><0x0F> acumuló\n<0xFD><0x00>!
+- offset: '0x003fbd86'
+  name: 'ES-007 : 0x003fbd86'
+  expected: ¡<0xFD><0x0F> no puede\nacumular más!
+- offset: '0x003fbda3'
+  name: 'ES-007 : 0x003fbda3'
+  expected: ¡Pero <0xFD><0x10> no puede\ndormir con el Alboroto!
+- offset: '0x003fbdc4'
+  name: 'ES-007 : 0x003fbdc4'
+  expected: ¡Pero el Alboroto\ndesveló a <0xFD><0x10>!
+- offset: '0x003fbde2'
+  name: 'ES-007 : 0x003fbde2'
+  expected: ¡<0xFD><0x10> siguió despierto\ngracias a <0xFD><0x19>!
+- offset: '0x003fbe00'
+  name: 'ES-007 : 0x003fbe00'
+  expected: ¡<0xFD><0x0F> está\nacumulando energía!
+- offset: '0x003fbe16'
+  name: 'ES-007 : 0x003fbe16'
+  expected: ¡<0xFD><0x0F> liberó\nsu energía!
+- offset: '0x003fbe2b'
+  name: 'ES-007 : 0x003fbe2b'
+  expected: ¡<0xFD><0x0F> se confundió\npor la fatiga!
+- offset: '0x003fbe4e'
+  name: 'ES-007 : 0x003fbe4e'
+  expected: ¡<0xFD><0x23> recogió\n¥<0xFD><0x00>!<0xFB>
+- offset: '0x003fbe61'
+  name: 'ES-007 : 0x003fbe61'
+  expected: ¡<0xFD><0x10> no se\nve afectado!
+- offset: '0x003fbe73'
+  name: 'ES-007 : 0x003fbe73'
+  expected: ¡<0xFD><0x0F> se transformó\nen <0xFD><0x00>!
+- offset: '0x003fbe8b'
+  name: 'ES-007 : 0x003fbe8b'
+  expected: ¡<0xFD><0x0F> creó\nun Sustituto!
+- offset: '0x003fbea1'
+  name: 'ES-007 : 0x003fbea1'
+  expected: ¡<0xFD><0x0F> ya tiene\nun Sustituto!
+- offset: '0x003fbebe'
+  name: 'ES-007 : 0x003fbebe'
+  expected: ¡El Sustituto recibió\nel daño por <0xFD><0x10>!<0xFB>
+- offset: '0x003fbee2'
+  name: 'ES-007 : 0x003fbee2'
+  expected: ¡<0xFD><0x10> perdió\nsu Sustituto!<0xFB>
+- offset: '0x003fbefa'
+  name: 'ES-007 : 0x003fbefa'
+  expected: ¡<0xFD><0x0F> debe\nrecargar energía!
+- offset: '0x003fbf0c'
+  name: 'ES-007 : 0x003fbf0c'
+  expected: ¡<0xFD><0x10> aumenta\nsu Furia!
+- offset: '0x003fbf23'
+  name: 'ES-007 : 0x003fbf23'
+  expected: '¡<0xFD><0x10>: <0xFD><0x00>\nfue anulado!'
+- offset: '0x003fbf39'
+  name: 'ES-007 : 0x003fbf39'
+  expected: ¡<0xFD><0x0F> ya no\nsufre Anulación!
+- offset: '0x003fbf51'
+  name: 'ES-007 : 0x003fbf51'
+  expected: ¡<0xFD><0x10> sufrió\nlos efectos de Otra Vez!
+- offset: '0x003fbf63'
+  name: 'ES-007 : 0x003fbf63'
+  expected: ¡<0xFD><0x0F> ya no sufre\nlos efectos de Otra Vez!
+- offset: '0x003fbf76'
+  name: 'ES-007 : 0x003fbf76'
+  expected: ¡<0xFD><0x0F> apuntó\na <0xFD><0x10>!
+- offset: '0x003fbf89'
+  name: 'ES-007 : 0x003fbf89'
+  expected: ¡<0xFD><0x0F> usó Esquema\npara copiar <0xFD><0x00>!
+- offset: '0x003fbf99'
+  name: 'ES-007 : 0x003fbf99'
+  expected: ¡<0xFD><0x0F> intenta llevarse\na su rival consigo!
+- offset: '0x003fbfbf'
+  name: 'ES-007 : 0x003fbfbf'
+  expected: ¡<0xFD><0x10> se llevó\na <0xFD><0x0F> consigo!
+- offset: '0x003fbfd3'
+  name: 'ES-007 : 0x003fbfd3'
+  expected: '¡<0xFD><0x10>: <0xFD><0x00>\nbajó en <0xFD><0x01>!'
+- offset: '0x003fbfea'
+  name: 'ES-007 : 0x003fbfea'
+  expected: ¡<0xFD><0x0F> le robó\na <0xFD><0x10> su <0xFD><0x16>!
+- offset: '0x003fc011'
+  name: 'ES-007 : 0x003fc011'
+  expected: ¡<0xFD><0x10> cayó\nen una Pesadilla!
+- offset: '0x003fc02b'
+  name: 'ES-007 : 0x003fc02b'
+  expected: ¡<0xFD><0x0F> sufre\nuna Pesadilla!
+- offset: '0x003fc048'
+  name: 'ES-007 : 0x003fc048'
+  expected: ¡<0xFD><0x0F> perdió PS\ny lanzó una Maldición<0xFA>sobre <0xFD><0x10>!
+- offset: '0x003fc072'
+  name: 'ES-007 : 0x003fc072'
+  expected: ¡<0xFD><0x0F> sufre\npor la Maldición!
+- offset: '0x003fc090'
+  name: 'ES-007 : 0x003fc090'
+  expected: ¡Se esparcieron Púas\nalrededor del equipo rival!
+- offset: '0x003fc0dc'
+  name: 'ES-007 : 0x003fc0dc'
+  expected: ¡<0xFD><0x0F> identificó\na <0xFD><0x10>!
+- offset: '0x003fc0ee'
+  name: 'ES-007 : 0x003fc0ee'
+  expected: '¡<0xFD><0x0F>: el contador\nde debilidad bajó a <0xFD><0x00>!'
+- offset: '0x003fc10c'
+  name: 'ES-007 : 0x003fc10c'
+  expected: ¡<0xFD><0x0F>\nse preparó!
+- offset: '0x003fc11e'
+  name: 'ES-007 : 0x003fc11e'
+  expected: ¡<0xFD><0x10> resistió\nel golpe!
+- offset: '0x003fc132'
+  name: 'ES-007 : 0x003fc132'
+  expected: ¡Magnitud <0xFD><0x00>!
+- offset: '0x003fc140'
+  name: 'ES-007 : 0x003fc140'
+  expected: ¡<0xFD><0x0F> perdió PS\ny maximizó su Ataque!
+- offset: '0x003fc168'
+  name: 'ES-007 : 0x003fc168'
+  expected: ¡<0xFD><0x0F> copió los cambios\nde estadísticas de <0xFD><0x10>!
+- offset: '0x003fc185'
+  name: 'ES-007 : 0x003fc185'
+  expected: ¡<0xFD><0x0F> se liberó\nde <0xFD><0x10> y su <0xFD><0x00>!
+- offset: '0x003fc19d'
+  name: 'ES-007 : 0x003fc19d'
+  expected: ¡<0xFD><0x0F> se libró\nde Drenadoras!
+- offset: '0x003fc1c6'
+  name: 'ES-007 : 0x003fc1c6'
+  expected: ¡<0xFD><0x0F> huyó\ndel combate!
+- offset: '0x003fc1db'
+  name: 'ES-007 : 0x003fc1db'
+  expected: ¡<0xFD><0x0F> previó\nun ataque!
+- offset: '0x003fc1f1'
+  name: 'ES-007 : 0x003fc1f1'
+  expected: ¡<0xFD><0x10> recibió\nel ataque <0xFD><0x00>!
+- offset: '0x003fc208'
+  name: 'ES-007 : 0x003fc208'
+  expected: ¡<0xFD><0x0F> eligió\n<0xFD><0x14> como destino!
+- offset: '0x003fc224'
+  name: 'ES-007 : 0x003fc224'
+  expected: ¡Ataque de <0xFD><0x00>!
+- offset: '0x003fc231'
+  name: 'ES-007 : 0x003fc231'
+  expected: ¡<0xFD><0x10> se convirtió\nen el centro de atención!
+- offset: '0x003fc254'
+  name: 'ES-007 : 0x003fc254'
+  expected: ¡<0xFD><0x0F> empezó\na cargar energía!
+- offset: '0x003fc26d'
+  name: 'ES-007 : 0x003fc26d'
+  expected: ¡Adaptación se convirtió\nen <0xFD><0x14>!
+- offset: '0x003fc28a'
+  name: 'ES-007 : 0x003fc28a'
+  expected: ¡<0xFD><0x0F> volvió\na su estado normal!
+- offset: '0x003fc2aa'
+  name: 'ES-007 : 0x003fc2aa'
+  expected: ¡<0xFD><0x10> sufrió\nlos efectos de Tormento!
+- offset: '0x003fc2c7'
+  name: 'ES-007 : 0x003fc2c7'
+  expected: ¡<0xFD><0x0F> está\nagudizando su concentración!
+- offset: '0x003fc2e3'
+  name: 'ES-007 : 0x003fc2e3'
+  expected: ¡<0xFD><0x10> cayó\nen la Provocación!
+- offset: '0x003fc2fa'
+  name: 'ES-007 : 0x003fc2fa'
+  expected: ¡<0xFD><0x0F> se prepara\npara ayudar a <0xFD><0x10>!
+- offset: '0x003fc312'
+  name: 'ES-007 : 0x003fc312'
+  expected: ¡<0xFD><0x0F> intercambió\nobjetos con su rival!
+- offset: '0x003fc337'
+  name: 'ES-007 : 0x003fc337'
+  expected: <0xFD><0x0F> obtuvo\n<0xFD><0x00>.
+- offset: '0x003fc347'
+  name: 'ES-007 : 0x003fc347'
+  expected: <0xFD><0x10> obtuvo\n<0xFD><0x01>.
+- offset: '0x003fc357'
+  name: 'ES-007 : 0x003fc357'
+  expected: <0xFD><0x0F> obtuvo\n<0xFD><0x00>.<0xFB><0xFD><0x10> obtuvo\n<0xFD><0x01>.
+- offset: '0x003fc377'
+  name: 'ES-007 : 0x003fc377'
+  expected: ¡<0xFD><0x0F> le copió\na <0xFD><0x10> su <0xFD><0x19>!
+- offset: '0x003fc38a'
+  name: 'ES-007 : 0x003fc38a'
+  expected: ¡<0xFD><0x0F> pidió un Deseo!
+- offset: '0x003fc39a'
+  name: 'ES-007 : 0x003fc39a'
+  expected: ¡El Deseo de <0xFD><0x00>\nse cumplió!
+- offset: '0x003fc3af'
+  name: 'ES-007 : 0x003fc3af'
+  expected: ¡<0xFD><0x0F> echó\nraíces!
+- offset: '0x003fc3c5'
+  name: 'ES-007 : 0x003fc3c5'
+  expected: ¡<0xFD><0x0F> absorbió\nnutrientes con sus raíces!
+- offset: '0x003fc3eb'
+  name: 'ES-007 : 0x003fc3eb'
+  expected: ¡<0xFD><0x10> se ancló\ncon sus raíces!
+- offset: '0x003fc40e'
+  name: 'ES-007 : 0x003fc40e'
+  expected: ¡<0xFD><0x0F> adormeció\na <0xFD><0x10>!
+- offset: '0x003fc421'
+  name: 'ES-007 : 0x003fc421'
+  expected: ¡<0xFD><0x0F> le quitó\na <0xFD><0x10> su <0xFD><0x16>!
+- offset: '0x003fc439'
+  name: 'ES-007 : 0x003fc439'
+  expected: ¡<0xFD><0x0F> intercambió\nhabilidades con su rival!
+- offset: '0x003fc461'
+  name: 'ES-007 : 0x003fc461'
+  expected: ¡<0xFD><0x0F> selló\nlos movimientos del rival!
+- offset: '0x003fc483'
+  name: 'ES-007 : 0x003fc483'
+  expected: ¡<0xFD><0x0F> quiere que\nsu rival guarde Rencor!
+- offset: '0x003fc4ab'
+  name: 'ES-007 : 0x003fc4ab'
+  expected: '¡<0xFD><0x0F>: <0xFD><0x00> perdió\ntodos sus PP por Rencor!'
+- offset: '0x003fc4d6'
+  name: 'ES-007 : 0x003fc4d6'
+  expected: ¡<0xFD><0x0F> se cubrió\ncon <0xFD><0x14>!
+- offset: '0x003fc4f0'
+  name: 'ES-007 : 0x003fc4f0'
+  expected: '¡<0xFD><0x0F>: <0xFD><0x14> fue\ndevuelto por Capa Mágica!'
+- offset: '0x003fc518'
+  name: 'ES-007 : 0x003fc518'
+  expected: ¡<0xFD><0x0F> espera\na que su rival actúe!
+- offset: '0x003fc53d'
+  name: 'ES-007 : 0x003fc53d'
+  expected: ¡<0xFD><0x10> robó\nel movimiento de <0xFD><0x13>!
+- offset: '0x003fc554'
+  name: 'ES-007 : 0x003fc554'
+  expected: ¡Se debilitó la fuerza\nde la electricidad!
+- offset: '0x003fc576'
+  name: 'ES-007 : 0x003fc576'
+  expected: ¡Se debilitó la fuerza\ndel fuego!
+- offset: '0x003fc591'
+  name: 'ES-007 : 0x003fc591'
+  expected: ¡<0xFD><0x0F> encontró\nun <0xFD><0x16>!
+- offset: '0x003fc5a2'
+  name: 'ES-007 : 0x003fc5a2'
+  expected: ¡Un aroma relajante\nse extendió por la zona!
+- offset: '0x003fc5cc'
+  name: 'ES-007 : 0x003fc5cc'
+  expected: Ahora no se pueden\nusar objetos.<0xFC><0x08><0x40>
+- offset: '0x003fc5e8'
+  name: 'ES-007 : 0x003fc5e8'
+  expected: A <0xFD><0x13>,\n<0xFD><0x16> <0xFD><0x00>
+- offset: '0x003fc60c'
+  name: 'ES-007 : 0x003fc60c'
+  expected: ¡<0xFD><0x0F> perdió el foco\ny no pudo moverse!
+- offset: '0x003fc631'
+  name: 'ES-007 : 0x003fc631'
+  expected: ¡<0xFD><0x10> fue\narrastrado al combate!<0xFB>
+- offset: '0x003fc646'
+  name: 'ES-007 : 0x003fc646'
+  expected: ¡La barrera se rompió!
+- offset: '0x003fc65a'
+  name: 'ES-007 : 0x003fc65a'
+  expected: ¡Pero no tuvo efecto!
+- offset: '0x003fc670'
+  name: 'ES-007 : 0x003fc670'
+  expected: ¡<0xFD><0x12> no tiene\nmovimientos disponibles!<0xFB>
+- offset: '0x003fc687'
+  name: 'ES-007 : 0x003fc687'
+  expected: ¡<0xFD><0x12> tiene\nanulado <0xFD><0x14>!<0xFB>
+- offset: '0x003fc69d'
+  name: 'ES-007 : 0x003fc69d'
+  expected: ¡<0xFD><0x12> no puede repetir\nmovimiento por Tormento!<0xFB>
+- offset: '0x003fc6d6'
+  name: 'ES-007 : 0x003fc6d6'
+  expected: ¡<0xFD><0x12> no puede usar\n<0xFD><0x14> tras Provocación!<0xFB>
+- offset: '0x003fc6f8'
+  name: 'ES-007 : 0x003fc6f8'
+  expected: ¡<0xFD><0x12> no puede usar\nel sellado <0xFD><0x14>!<0xFB>
+- offset: '0x003fc715'
+  name: 'ES-007 : 0x003fc715'
+  expected: ¡<0xFD><0x13>, con <0xFD><0x1A>,\nhizo que lloviera!
+- offset: '0x003fc72b'
+  name: 'ES-007 : 0x003fc72b'
+  expected: '¡<0xFD><0x13>: <0xFD><0x1A>\naumentó su Velocidad!'
+- offset: '0x003fc745'
+  name: 'ES-007 : 0x003fc745'
+  expected: ¡<0xFD><0x10> quedó protegido\ngracias a <0xFD><0x19>!
+- offset: '0x003fc75d'
+  name: 'ES-007 : 0x003fc75d'
+  expected: ¡<0xFD><0x10>, con <0xFD><0x19>,\nimpide a <0xFD><0x0F><0xFA>usar <0xFD><0x14>!
+- offset: '0x003fc780'
+  name: 'ES-007 : 0x003fc780'
+  expected: ¡<0xFD><0x10> recuperó PS\ngracias a <0xFD><0x19>!
+- offset: '0x003fc79d'
+  name: 'ES-007 : 0x003fc79d'
+  expected: '¡<0xFD><0x10>: <0xFD><0x19>\ninutilizó <0xFD><0x14>!'
+- offset: '0x003fc7b6'
+  name: 'ES-007 : 0x003fc7b6'
+  expected: '¡<0xFD><0x10>: <0xFD><0x19> lo\nconvirtió al tipo <0xFD><0x00>!'
+- offset: '0x003fc7d3'
+  name: 'ES-007 : 0x003fc7d3'
+  expected: '¡<0xFD><0x11>: <0xFD><0x19>\nevita la parálisis!'
+- offset: '0x003fc7ef'
+  name: 'ES-007 : 0x003fc7ef'
+  expected: '¡<0xFD><0x10>: <0xFD><0x19>\nevita el enamoramiento!'
+- offset: '0x003fc809'
+  name: 'ES-007 : 0x003fc809'
+  expected: '¡<0xFD><0x11>: <0xFD><0x19>\nevita el envenenamiento!'
+- offset: '0x003fc860'
+  name: 'ES-007 : 0x003fc860'
+  expected: ¡<0xFD><0x10>\nse ancló!
+- offset: '0x003fc87b'
+  name: 'ES-007 : 0x003fc87b'
+  expected: '¡<0xFD><0x13>: <0xFD><0x1A> bajó\nel Ataque de <0xFD><0x10>!'
+- offset: '0x003fc8c2'
+  name: 'ES-007 : 0x003fc8c2'
+  expected: ¡<0xFD><0x13> copió\na <0xFD><0x00> su <0xFD><0x01>!
+- offset: '0x003fc8d5'
+  name: 'ES-007 : 0x003fc8d5'
+  expected: '¡<0xFD><0x11>: <0xFD><0x1B>\nevita quemaduras!'
+- offset: '0x003fc8ed'
+  name: 'ES-007 : 0x003fc8ed'
+  expected: '¡<0xFD><0x10>: <0xFD><0x19>\nbloquea <0xFD><0x14>!'
+- offset: '0x003fc913'
+  name: 'ES-007 : 0x003fc913'
+  expected: '¡<0xFD><0x0F>: <0xFD><0x18>\nrestauró sus PS!'
+- offset: '0x003fc935'
+  name: 'ES-007 : 0x003fc935'
+  expected: '¡<0xFD><0x13>: <0xFD><0x1A> creó\nuna tormenta de arena!'
+- offset: '0x003fc955'
+  name: 'ES-007 : 0x003fc955'
+  expected: '¡<0xFD><0x13>: <0xFD><0x1A>\nintensificó la luz solar!'
+- offset: '0x003fc993'
+  name: 'ES-007 : 0x003fc993'
+  expected: ¡<0xFD><0x10>, con <0xFD><0x19>,\nenamoró a <0xFD><0x0F>!
+- offset: '0x003fc9aa'
+  name: 'ES-007 : 0x003fc9aa'
+  expected: '¡<0xFD><0x10>: <0xFD><0x19>\nneutralizó <0xFD><0x14>!'
+- offset: '0x003fc9c7'
+  name: 'ES-007 : 0x003fc9c7'
+  expected: '¡<0xFD><0x13>: <0xFD><0x1A>\ncuró su problema de <0xFD><0x00>!'
+- offset: '0x003fc9e5'
+  name: 'ES-007 : 0x003fc9e5'
+  expected: ¡Absorbió el\nLodo Líquido!
+- offset: '0x003fca03'
+  name: 'ES-007 : 0x003fca03'
+  expected: ¡<0xFD><0x13> se transformó!
+- offset: '0x003fca13'
+  name: 'ES-007 : 0x003fca13'
+  expected: ¡<0xFD><0x10> recibió\nel ataque!
+- offset: '0x003fca2c'
+  name: 'ES-007 : 0x003fca2c'
+  expected: '¡<0xFD><0x00>: <0xFD><0x17>\nimpide cambiar!<0xFB>'
+- offset: '0x003fca49'
+  name: 'ES-007 : 0x003fca49'
+  expected: ¡<0xFD><0x10>, con <0xFD><0x19>,\nimpidió a <0xFD><0x13><0xFA>usar <0xFD><0x00>!
+- offset: '0x003fca71'
+  name: 'ES-007 : 0x003fca71'
+  expected: '¡<0xFD><0x13>: <0xFD><0x1A>\nlo dejó sin efecto!'
+- offset: '0x003fca8e'
+  name: 'ES-007 : 0x003fca8e'
+  expected: '¡<0xFD><0x11>: <0xFD><0x1B>\nevita el retroceso!'
+- offset: '0x003fcaaa'
+  name: 'ES-007 : 0x003fcaaa'
+  expected: '¡<0xFD><0x0F>: <0xFD><0x18>\nimpide a <0xFD><0x10><0xFA>usar <0xFD><0x19>!'
+- offset: '0x003fcaef'
+  name: 'ES-007 : 0x003fcaef'
+  expected: '¡<0xFD><0x13>: <0xFD><0x1A>\nno afectó a <0xFD><0x11>!'
+- offset: '0x003fcb0c'
+  name: 'ES-007 : 0x003fcb0c'
+  expected: ¡<0xFD><0x0F> no se mueve\npor el miedo!
+- offset: '0x003fcb26'
+  name: 'ES-007 : 0x003fcb26'
+  expected: 'Fantasma: ¡Fuera<0xB0><0xB0>!\n¡Fuera<0xB0><0xB0>!'
+- offset: '0x003fcba5'
+  name: 'ES-007 : 0x003fcba5'
+  expected: ¡<0xFD><0x0F> ya no puede\nsubir sus estadísticas!
+- offset: '0x003fcbc5'
+  name: 'ES-007 : 0x003fcbc5'
+  expected: ¡<0xFD><0x10> ya no puede\nbajar sus estadísticas!
+- offset: '0x003fcbf4'
+  name: 'ES-007 : 0x003fcbf4'
+  expected: ¡Un golpe fulminante!
+- offset: '0x003fcc07'
+  name: 'ES-007 : 0x003fcc07'
+  expected: <0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2, y<0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00>¡Puf!<0xFB>
+- offset: '0x003fcc33'
+  name: 'ES-007 : 0x003fcc33'
+  expected: Y<0xB0><0xFB>
+- offset: '0x003fcc39'
+  name: 'ES-007 : 0x003fcc39'
+  expected: No se pueden olvidar\nmovimientos de MO ahora.<0xFB>
+- offset: '0x003fcc5b'
+  name: 'ES-007 : 0x003fcc5b'
+  expected: No es muy eficaz<0xB0>
+- offset: '0x003fcc74'
+  name: 'ES-007 : 0x003fcc74'
+  expected: ¡Es supereficaz!
+- offset: '0x003fcc8a'
+  name: 'ES-007 : 0x003fcc8a'
+  expected: <0xFC><0x10><0x11><0x00>¡Escapaste sin problemas!<0xFB>
+- offset: '0x003fcca0'
+  name: 'ES-007 : 0x003fcca0'
+  expected: <0xFC><0x10><0x11><0x00>¡<0xFD><0x0F> huyó\ngracias a su <0xFD><0x16>!<0xFB>
+- offset: '0x003fccbb'
+  name: 'ES-007 : 0x003fccbb'
+  expected: <0xFC><0x10><0x11><0x00>¡<0xFD><0x0F> huyó\ngracias a <0xFD><0x18>!<0xFB>
+- offset: '0x003fccd2'
+  name: 'ES-007 : 0x003fccd2'
+  expected: <0xFC><0x10><0x11><0x00>¡El <0xFD><0x00> salvaje huyó!
+- offset: '0x003fcce4'
+  name: 'ES-007 : 0x003fcce4'
+  expected: ¡El jugador venció\na <0xFD><0x20>!
+- offset: '0x003fccf8'
+  name: 'ES-007 : 0x003fccf8'
+  expected: ¡El jugador venció a <0xFD><0x20>\ny <0xFD><0x21>!
+- offset: '0x003fcd0f'
+  name: 'ES-007 : 0x003fcd0f'
+  expected: ¡El jugador perdió\nante <0xFD><0x20>!
+- offset: '0x003fcd27'
+  name: 'ES-007 : 0x003fcd27'
+  expected: ¡El jugador perdió\nante <0xFD><0x20> y <0xFD><0x21>!
+- offset: '0x003fcd41'
+  name: 'ES-007 : 0x003fcd41'
+  expected: ¡El jugador empató\ncon <0xFD><0x20>!
+- offset: '0x003fcd66'
+  name: 'ES-007 : 0x003fcd66'
+  expected: ¡El jugador empató\ncon <0xFD><0x20> y <0xFD><0x21>!
+- offset: '0x003fcd92'
+  name: 'ES-007 : 0x003fcd92'
+  expected: <0xFC><0x10><0x11><0x00>¡<0xFD><0x20> huyó!
+- offset: '0x003fcd9f'
+  name: 'ES-007 : 0x003fcd9f'
+  expected: <0xFC><0x10><0x11><0x00>¡<0xFD><0x20> y\n<0xFD><0x21> huyeron!
+- offset: '0x003fcdb3'
+  name: 'ES-007 : 0x003fcdb3'
+  expected: ¡No puedes huir de\nun combate de Entrenadores!<0xFB>
+- offset: '0x003fcde2'
+  name: 'ES-007 : 0x003fcde2'
+  expected: ¡No puedes huir!<0xFB>
+- offset: '0x003fcdf2'
+  name: 'ES-007 : 0x003fcdf2'
+  expected: ¡Pero no pasó nada!
+- offset: '0x003fce08'
+  name: 'ES-007 : 0x003fce08'
+  expected: ¡Pero falló!
+- offset: '0x003fce17'
+  name: 'ES-007 : 0x003fce17'
+  expected: ¡Se hirió a sí mismo\npor la confusión!
+- offset: '0x003fce38'
+  name: 'ES-007 : 0x003fce38'
+  expected: ¡Falló el Mov. Espejo!
+- offset: '0x003fce50'
+  name: 'ES-007 : 0x003fce50'
+  expected: ¡Empezó a llover!
+- offset: '0x003fcb41'
+  name: 'ES-007 : 0x003fcb41'
+  expected: <0x00>mucho
+- offset: '0x003fcb4a'
+  name: 'ES-007 : 0x003fcb4a'
+  expected: '!'
+- offset: '0x003fcb50'
+  name: 'ES-007 : 0x003fcb50'
+  expected: <0x00>mucho
+- offset: '0x003fcb59'
+  name: 'ES-007 : 0x003fcb59'
+  expected: '!'
+- offset: '0x003fcb5f'
+  name: 'ES-007 : 0x003fcb5f'
+  expected: '¡<0xFD><0x0F>: <0xFD><0x00>\nsubió<0xFD><0x01>'
+- offset: '0x003fcb6a'
+  name: 'ES-007 : 0x003fcb6a'
+  expected: '¡<0xFD><0x10>: <0xFD><0x00>\nsubió<0xFD><0x01>'
+- offset: '0x003fcb75'
+  name: 'ES-007 : 0x003fcb75'
+  expected: ¡Con <0xFD><0x16>, <0xFD><0x00> de\n<0xFD><0x13> subió<0xFD><0x01>
+- offset: '0x003fcb8f'
+  name: 'ES-007 : 0x003fcb8f'
+  expected: '¡<0xFD><0x0F>: <0xFD><0x00>\nbajó<0xFD><0x01>'
+- offset: '0x003fcb9a'
+  name: 'ES-007 : 0x003fcb9a'
+  expected: '¡<0xFD><0x10>: <0xFD><0x00>\nbajó<0xFD><0x01>'
+- offset: '0x003ef22e'
+  name: 'ES-007 : 0x003ef22e'
+  expected: Almacenes Dehara

@@ -1,0 +1,291 @@
+{
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "table_base": "0x003FDF3C",
+  "id_formula": "table offset = 0x3FDF3C + (stringID - 12)*4",
+  "fragments": [
+    {
+      "table_site": "0x003FE250",
+      "string_id": "0xd1",
+      "text_target": "0x3fcb41",
+      "pointer_hex": "41cb3f08"
+    },
+    {
+      "table_site": "0x003FE254",
+      "string_id": "0xd2",
+      "text_target": "0x3fcb4a",
+      "pointer_hex": "4acb3f08"
+    },
+    {
+      "table_site": "0x003FE258",
+      "string_id": "0xd3",
+      "text_target": "0x3fcb50",
+      "pointer_hex": "50cb3f08"
+    },
+    {
+      "table_site": "0x003FE25C",
+      "string_id": "0xd4",
+      "text_target": "0x3fcb59",
+      "pointer_hex": "59cb3f08"
+    }
+  ],
+  "constructor_spans": [
+    {
+      "offset": "0x27ef4",
+      "raw_hex": "1a4b0024fd211970004a1047b1348808884204d15c70d3209870dc700422d01804700132d118d42008700132d01804700132d118ff200870",
+      "disassembly": [
+        "08027EF4: ldr r3, [pc, #0x68]",
+        "08027EF6: movs r4, #0",
+        "08027EF8: movs r1, #0xfd",
+        "08027EFA: strb r1, [r3]",
+        "08027EFC: ldr r2, [pc, #0]",
+        "08027EFE: bx r2",
+        "08027F00: adds r4, #0xb1",
+        "08027F02: lsrs r0, r1, #2",
+        "08027F04: cmp r0, r1",
+        "08027F06: bne #0x8027f12",
+        "08027F08: strb r4, [r3, #1]",
+        "08027F0A: movs r0, #0xd3",
+        "08027F0C: strb r0, [r3, #2]",
+        "08027F0E: strb r4, [r3, #3]",
+        "08027F10: movs r2, #4",
+        "08027F12: adds r0, r2, r3",
+        "08027F14: strb r4, [r0]",
+        "08027F16: adds r2, #1",
+        "08027F18: adds r1, r2, r3",
+        "08027F1A: movs r0, #0xd4",
+        "08027F1C: strb r0, [r1]",
+        "08027F1E: adds r2, #1",
+        "08027F20: adds r0, r2, r3",
+        "08027F22: strb r4, [r0]",
+        "08027F24: adds r2, #1",
+        "08027F26: adds r1, r2, r3",
+        "08027F28: movs r0, #0xff",
+        "08027F2A: strb r0, [r1]"
+      ]
+    },
+    {
+      "offset": "0x27f72",
+      "raw_hex": "164b1a70014a10470000013588089870dc700422d01804700132d118d22008700132d01804700132d1180878624610430870",
+      "disassembly": [
+        "08027F72: ldr r3, [pc, #0x58]",
+        "08027F74: strb r2, [r3]",
+        "08027F76: ldr r2, [pc, #4]",
+        "08027F78: bx r2",
+        "08027F7A: movs r0, r0",
+        "08027F7C: adds r5, #1",
+        "08027F7E: lsrs r0, r1, #2",
+        "08027F80: strb r0, [r3, #2]",
+        "08027F82: strb r4, [r3, #3]",
+        "08027F84: movs r2, #4",
+        "08027F86: adds r0, r2, r3",
+        "08027F88: strb r4, [r0]",
+        "08027F8A: adds r2, #1",
+        "08027F8C: adds r1, r2, r3",
+        "08027F8E: movs r0, #0xd2",
+        "08027F90: strb r0, [r1]",
+        "08027F92: adds r2, #1",
+        "08027F94: adds r0, r2, r3",
+        "08027F96: strb r4, [r0]",
+        "08027F98: adds r2, #1",
+        "08027F9A: adds r1, r2, r3",
+        "08027F9C: ldrb r0, [r1]",
+        "08027F9E: mov r2, ip",
+        "08027FA0: orrs r0, r2",
+        "08027FA2: strb r0, [r1]"
+      ]
+    },
+    {
+      "offset": "0x8834b0",
+      "raw_hex": "0122060e0e480078582148430d49401800788c2801d17006060efe2e08d0ff2e0bd05c70852098700120d870042204e05c70d3209870dc70042203480047",
+      "disassembly": [
+        "088834B0: movs r2, #1",
+        "088834B2: lsrs r6, r0, #0x18",
+        "088834B4: ldr r0, [pc, #0x38]",
+        "088834B6: ldrb r0, [r0]",
+        "088834B8: movs r1, #0x58",
+        "088834BA: muls r0, r1, r0",
+        "088834BC: ldr r1, [pc, #0x34]",
+        "088834BE: adds r0, r0, r1",
+        "088834C0: ldrb r0, [r0]",
+        "088834C2: cmp r0, #0x8c",
+        "088834C4: bne #0x88834ca",
+        "088834C6: lsls r0, r6, #0x19",
+        "088834C8: lsrs r6, r0, #0x18",
+        "088834CA: cmp r6, #0xfe",
+        "088834CC: beq #0x88834e0",
+        "088834CE: cmp r6, #0xff",
+        "088834D0: beq #0x88834ea",
+        "088834D2: strb r4, [r3, #1]",
+        "088834D4: movs r0, #0x85",
+        "088834D6: strb r0, [r3, #2]",
+        "088834D8: movs r0, #1",
+        "088834DA: strb r0, [r3, #3]",
+        "088834DC: movs r2, #4",
+        "088834DE: b #0x88834ea",
+        "088834E0: strb r4, [r3, #1]",
+        "088834E2: movs r0, #0xd3",
+        "088834E4: strb r0, [r3, #2]",
+        "088834E6: strb r4, [r3, #3]",
+        "088834E8: movs r2, #4",
+        "088834EA: ldr r0, [pc, #0xc]",
+        "088834EC: bx r0"
+      ]
+    },
+    {
+      "offset": "0x883500",
+      "raw_hex": "01220e480078582148430d49401800788c2801d17006060e022e08d0012e0bd05c70862098700120d870042204e05c70d1209870dc70042202480047",
+      "disassembly": [
+        "08883500: movs r2, #1",
+        "08883502: ldr r0, [pc, #0x38]",
+        "08883504: ldrb r0, [r0]",
+        "08883506: movs r1, #0x58",
+        "08883508: muls r0, r1, r0",
+        "0888350A: ldr r1, [pc, #0x34]",
+        "0888350C: adds r0, r0, r1",
+        "0888350E: ldrb r0, [r0]",
+        "08883510: cmp r0, #0x8c",
+        "08883512: bne #0x8883518",
+        "08883514: lsls r0, r6, #0x19",
+        "08883516: lsrs r6, r0, #0x18",
+        "08883518: cmp r6, #2",
+        "0888351A: beq #0x888352e",
+        "0888351C: cmp r6, #1",
+        "0888351E: beq #0x8883538",
+        "08883520: strb r4, [r3, #1]",
+        "08883522: movs r0, #0x86",
+        "08883524: strb r0, [r3, #2]",
+        "08883526: movs r0, #1",
+        "08883528: strb r0, [r3, #3]",
+        "0888352A: movs r2, #4",
+        "0888352C: b #0x8883538",
+        "0888352E: strb r4, [r3, #1]",
+        "08883530: movs r0, #0xd1",
+        "08883532: strb r0, [r3, #2]",
+        "08883534: strb r4, [r3, #3]",
+        "08883536: movs r2, #4",
+        "08883538: ldr r0, [pc, #8]",
+        "0888353A: bx r0"
+      ]
+    }
+  ],
+  "return_literals": {
+    "0x008834F8": "137f0208",
+    "0x00883544": "877f0208"
+  },
+  "conclusion": "Confirmed adjective-before-verb construction can be translated without code changes using a punctuation-only verb suffix and conjugated verbs in templates. IDs185/186 are separately dispatched to ES-031 strings A4C610/A4C603. Only that cross-lot coordination remains outside ES-007.",
+  "acceptance_for_separate_prerequisite": [
+    "No machine-code prerequisite is established for ±1/2; solve these inside the current lot by data alone.",
+    "For ±3+, coordinate existing ES-031 offsets A4C603/A4C610, preserve their consumers and use the same leading-space modifier contract. Do not create duplicate translation ownership.",
+    "Verify actual expanded templates in native battle printer for both names, item-triggered rises, ±1/2/3+ and stage limits."
+  ],
+  "correction_to_initial_diagnosis": "The constructor order is real but does not require a machine-code patch: move subió/bajó into the templates and keep the suffix buffer punctuation-only. The initial claim that ±1/2 require infrastructure was too strong.",
+  "simple_resolution": {
+    "templates": {
+      "0x003FCB5F": "¡<0xFD><0x0F>: <0xFD><0x00>\\nsubió<0xFD><0x01>",
+      "0x003FCB6A": "¡<0xFD><0x10>: <0xFD><0x00>\\nsubió<0xFD><0x01>",
+      "0x003FCB75": "¡Con <0xFD><0x16>, <0xFD><0x00> de\\n<0xFD><0x13> subió<0xFD><0x01>",
+      "0x003FCB8F": "¡<0xFD><0x0F>: <0xFD><0x00>\\nbajó<0xFD><0x01>",
+      "0x003FCB9A": "¡<0xFD><0x10>: <0xFD><0x00>\\nbajó<0xFD><0x01>"
+    },
+    "modifiers": {
+      "0x003FCB41": "<0x00>mucho",
+      "0x003FCB50": "<0x00>mucho"
+    },
+    "suffixes": {
+      "0x003FCB4A": "!",
+      "0x003FCB59": "!"
+    },
+    "rendered_examples": [
+      "¡Pikachu: Ataque\nsubió!",
+      "¡Pikachu: Ataque\nsubió mucho!",
+      "¡Pikachu: Ataque\nbajó mucho!"
+    ],
+    "fd_order_preserved": true,
+    "spacing_note": "Use a leading space in modifier and no space in template before FD01; Spanish has no space before closing !."
+  },
+  "extended_dispatch": {
+    "entry_hook": {
+      "offset": "0x000D848C",
+      "literal_hex": "c1329a08",
+      "target": "0x089A32C1"
+    },
+    "offset": "0x009A32C0",
+    "raw_hex": "0848884204d00130884203d1074906e0074904e004480c3989000918096805480047c046850100003cdf3f0803c6a40810c6a4088f860d08",
+    "disassembly": [
+      "089A32C0: ldr r0, [pc, #0x20]",
+      "089A32C2: cmp r0, r1",
+      "089A32C4: beq #0x89a32d0",
+      "089A32C6: adds r0, #1",
+      "089A32C8: cmp r0, r1",
+      "089A32CA: bne #0x89a32d4",
+      "089A32CC: ldr r1, [pc, #0x1c]",
+      "089A32CE: b #0x89a32de",
+      "089A32D0: ldr r1, [pc, #0x1c]",
+      "089A32D2: b #0x89a32de",
+      "089A32D4: ldr r0, [pc, #0x10]",
+      "089A32D6: subs r1, #0xc",
+      "089A32D8: lsls r1, r1, #2",
+      "089A32DA: adds r1, r1, r0",
+      "089A32DC: ldr r1, [r1]",
+      "089A32DE: ldr r0, [pc, #0x14]",
+      "089A32E0: bx r0"
+    ],
+    "special_ids": [
+      {
+        "id": "0x185",
+        "literal_site": "0x009A32F0",
+        "offset": "0x00A4C610",
+        "raw_hex": "e7d9ead9e6d9e0ed00ff",
+        "english": "severely ",
+        "lot": "ES-031",
+        "proposed_coordination": "<0x00>muchísimo"
+      },
+      {
+        "id": "0x186",
+        "literal_site": "0x009A32EC",
+        "offset": "0x00A4C603",
+        "raw_hex": "d8e6d5e7e8ddd7d5e0e0ed00ff",
+        "english": "drastically ",
+        "lot": "ES-031",
+        "proposed_coordination": "<0x00>muchísimo"
+      }
+    ],
+    "ordinary_dispatch": "else gBattleStringsTable[(id-12)]",
+    "warning": "0x3FE520 is not a valid pointer table site for IDs185/186; do not extrapolate beyond the original table."
+  },
+  "item_template_raise_evidence": {
+    "body_offset": "0x003FCB75",
+    "pointer_site": "0x003FE420",
+    "string_id": "0x145",
+    "pointer_hex": "75cb3f08",
+    "raise_selection_table_offset": "0x003FE57C",
+    "raise_selection_ids": [
+      "0xd5",
+      "0xd6",
+      "0x3d",
+      "0x130",
+      "0x145",
+      "0x146"
+    ],
+    "fall_selection_table_offset": "0x003FE588",
+    "fall_selection_ids": [
+      "0xd7",
+      "0xd8",
+      "0x3e",
+      "0x130",
+      "0x54",
+      "0x55"
+    ],
+    "conclusion": "ID145 is present only in the raise-selection table at slot4; normal consumers of these two tables therefore use this item template for rises, never falls. This is not a proof that no other dynamic caller can select arbitrary ID145.",
+    "raise_table_raw_hex": "d500d6003d00300145014601",
+    "fall_table_raw_hex": "d700d8003e00300154005500",
+    "example_native_script_table_consumer": {
+      "pointer_site": "0x008A9751",
+      "pointer_value": "0x083FE57C",
+      "script_window_offset": "0x008A9738",
+      "script_window_hex": "41a4978a082900873e020202a4978a0847450101d43f0202137ce53f081240001e",
+      "printtable_opcode": "0x13",
+      "state_selection": "reads gBattleCommunication[5] at 0x02023E87; window checks 2 (failure) before animation and table print. Table slot4 is ID145."
+    }
+  }
+}
