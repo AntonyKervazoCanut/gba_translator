@@ -24,7 +24,7 @@ test('PT-87 : cauchemar de Tarmigan, voleur de nourriture et Lost Tunnel sont li
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'pt87-borrius-'));
   const rom = fs.readFileSync(path.join(root, 'output/roms/GenedRom-pt.gba'));
   const audit: { entries: AuditEntry[] } = JSON.parse(fs.readFileSync(path.join(root, 'languages/pt/data/pt87_audit.json'), 'utf8'));
-  const cases = ['0x1fa3e10', '0x1fa54ac', '0x1fa96da'].map(offset => {
+  const cases = ['0x1fa3e10', '0x1fa4e7a', '0x1fa96da'].map(offset => {
     const row = audit.entries.find(entry => entry.offset === offset);
     if (!row || !row.references.length) throw new Error(`Consommateur PT-87 absent : ${offset}`);
     return row;
@@ -112,7 +112,7 @@ end)
       .replace(/<0xFC><0x01><0x[0-9A-Fa-f]{2}>/g, '').split('\\n').slice(0, 2)) {
       expect(text, line).toContain(normalize(line));
     }
-    expect(text).not.toMatch(/I've lost my love of sailing|The Pokémon appears to be heading|It's rather dank in here/i);
+    expect(text).not.toMatch(/I've lost my love of sailing|I just don't know what to do|It's rather dank in here/i);
   }
   await page.setContent(`<style>body{margin:0;background:#222;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(3,480px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:480px;height:320px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
   await expect(page.getByRole('img')).toHaveCount(3);

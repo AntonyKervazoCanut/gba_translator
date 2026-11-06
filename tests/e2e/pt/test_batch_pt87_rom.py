@@ -136,3 +136,21 @@ def test_both_genders_expand_to_correct_possessive_without_changing_objects(sour
         for font in LATIN_FONTS:
             assert max(w for page in re.split(b'[\xfa\xfb]', expanded)
                        for w in widths(page, built, font.offsets(built)[1])) <= 192
+
+
+def test_already_translated_shared_title_suffix_is_cloned_once(source):
+    data = audit()
+    patch = make_patch(source)
+    rom = bytearray(source)
+    title, suffix = data['entries'][45:47]
+    offset = int(title['offset'], 16)
+    raw = TextEncoder.encode_pokemon(title['portuguese'], strict=True)
+    assert raw[1:] == TextEncoder.encode_pokemon(suffix['portuguese'], strict=True)
+    rom[offset:offset + len(raw)] = raw
+    patch.apply(rom)
+    first = int.from_bytes(rom[title['references'][0]:title['references'][0] + 4], 'little')
+    second = int.from_bytes(rom[suffix['references'][0]:suffix['references'][0] + 4], 'little')
+    assert first + 1 != second
+    final = bytes(rom)
+    assert patch.apply(rom) == {'verified': 295, 'relocated': 0}
+    assert bytes(rom) == final

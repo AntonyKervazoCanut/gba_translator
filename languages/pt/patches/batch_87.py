@@ -11,10 +11,32 @@ sys.path.insert(0, str(ROOT))
 
 from languages.pt.patches.batch_29 import Batch29TextPatch
 from src.core.text_codec import TextEncoder
+from src.core.text_reinserter import FreeSpaceAllocator
 
 
 class Batch87TextPatch(Batch29TextPatch):
     """Distingue her objet (ela) et her possessif (sua) au point de lecture."""
+
+    def isolate_title(self, rom: bytearray) -> None:
+        """Isole une seule fois le titre avec espace de son suffixe partagé."""
+        entries = {offset: (refs, raw) for offset, refs, raw in self.entries()}
+        prefix = int(self.shared_title['prefix_offset'], 16)
+        suffix = int(self.shared_title['suffix_offset'], 16)
+        refs, raw = entries[prefix]
+        suffix_refs, suffix_raw = entries[suffix]
+        if suffix != prefix + 1 or raw != b'\x00' + suffix_raw:
+            raise ValueError('PT-87 : préfixe du titre partagé différent')
+        targets = [int.from_bytes(rom[p:p + 4], 'little') - 0x08000000 for p in refs]
+        suffix_targets = [int.from_bytes(rom[p:p + 4], 'little') - 0x08000000 for p in suffix_refs]
+        if not any(a < b + len(suffix_raw) and b < a + len(raw)
+                   for a in targets for b in suffix_targets):
+            return
+        target = FreeSpaceAllocator(rom).allocate(len(raw))
+        if target is None:
+            raise ValueError('PT-87 : espace insuffisant pour le titre partagé')
+        rom[target:target + len(raw)] = raw
+        for ref in refs:
+            rom[ref:ref + 4] = (target + 0x08000000).to_bytes(4, 'little')
 
     def apply(self, rom: bytearray) -> dict[str, int]:
         """Restaure le faux pointeur PCM avant la transaction des consommateurs."""
@@ -22,6 +44,7 @@ class Batch87TextPatch(Batch29TextPatch):
         for row in self.exceptions:
             for ref in row['non_text_references']:
                 working[ref:ref + 4] = self.source[ref:ref + 4]
+        self.isolate_title(working)
         stats = super().apply(working)
         rom[:] = working
         return stats
@@ -64,6 +87,7 @@ def make_patch(source: bytes) -> Batch87TextPatch:
     exceptions = [r for r in audit['entries'] if r['status'] == 'exception']
     patch = Batch87TextPatch(source, rows, ROOT / 'languages/pt/combined_pt.txt')
     patch.contextual_possessive = audit['contextual_possessive']
+    patch.shared_title = audit['shared_title']
     patch.exceptions = exceptions
     return patch
 

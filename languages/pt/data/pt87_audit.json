@@ -17565,5 +17565,10 @@
     "translation_offset": "0x1fa7656",
     "source_instruction_hex": "85025276fa09",
     "reason": "Le buffer 2 (FD04) reçoit her au féminin ; en PT sua doit rester possessif, tandis que les deux autres lecteurs de her restent ela. Le lecteur masculin reçoit déjà his -> sua. Réemploi de la traduction protégée de PT-87 sans modifier un offset hors lot."
+  },
+  "shared_title": {
+    "prefix_offset": "0x1fa3c47",
+    "suffix_offset": "0x1fa3c48",
+    "reason": "Deux titres vivants partagent un suffixe à +1. Isoler le préfixe si le constructeur générique a traduit le bloc sur place, puis vérifier les deux cellules séparément et sans chevauchement."
   }
 }

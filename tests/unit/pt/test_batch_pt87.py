@@ -101,6 +101,16 @@ def test_female_possessive_is_contextual_and_uses_protected_source():
     assert 'mãe' in data['entries'][177]['portuguese']
 
 
+def test_shared_title_preimage_and_translations_keep_the_same_prefix():
+    data = audit()
+    prefix, suffix = data['entries'][45:47]
+    assert data['shared_title']['prefix_offset'] == prefix['offset']
+    assert data['shared_title']['suffix_offset'] == suffix['offset']
+    assert bytes.fromhex(prefix['source_hex']) == b'\x00' + bytes.fromhex(suffix['source_hex'])
+    assert TextEncoder.encode_pokemon(prefix['portuguese'], strict=True) == b'\x00' + TextEncoder.encode_pokemon(
+        suffix['portuguese'], strict=True)
+
+
 def test_finalizer_order_and_disjoint_references():
     patches = yaml.safe_load((ROOT / 'languages/pt/lang.yaml').read_text())['patches']
     assert patches.count('batch_87') == 1
