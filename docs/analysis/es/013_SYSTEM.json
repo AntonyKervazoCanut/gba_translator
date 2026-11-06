@@ -1,0 +1,6304 @@
+{
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "entries": [
+    {
+      "offset": "0x004571B8",
+      "live_offset": "0x004571B8",
+      "source_hex": "cae0d9d5e7d900e7e8d5e6e800e3ead9e600dae6e3e100e8dcd900d6d9dbdde2e2dde2dbadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551096,
+            "spanish_offset": 4551096,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900e7e8d5e6e800e3ead9e600dae6e3e100e8dcd900d6d9dbdde2e2dde2dbadff",
+          "pointer_sites": [
+            "0x00117E44",
+            "0x00118264"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00117E44",
+          "loads": [
+            "0x00117E2A"
+          ],
+          "pointer_offset": "0x00117E44"
+        },
+        {
+          "kind": "code_literal",
+          "literal": "0x00118264",
+          "loads": [
+            "0x0011824C"
+          ],
+          "pointer_offset": "0x00118264"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004571E0",
+      "live_offset": "0x004571E0",
+      "source_hex": "cedcd900d1c3ccbfc6bfcdcd00bdc9c7c7cfc8c3bdbbcec3c9c8fecdd3cdcebfc700e7d9d5e6d7dc00dcd5e700d6d9d9e200d7d5e2d7d9e0d9d8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551136,
+            "spanish_offset": 4551136,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900d1c3ccbfc6bfcdcd00bdc9c7c7cfc8c3bdbbcec3c9c8fecdd3cdcebfc700e7d9d5e6d7dc00dcd5e700d6d9d9e200d7d5e2d7d9e0d9d8adff",
+          "pointer_sites": [
+            "0x001185B0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001185B0",
+          "loads": [
+            "0x001185AC"
+          ],
+          "pointer_offset": "0x001185B0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457231",
+      "live_offset": "0x00457234",
+      "source_hex": "fd02ab00bbebd5dde8dde2dbfed7e3e1e1e9e2ddd7d5e8dde3e200dae6e3e100d5e2e3e8dcd9e600e4e0d5edd9e6adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551220,
+            "spanish_offset": 4551220,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02ab00bbebd5dde8dde2dbfed7e3e1e1e9e2ddd7d5e8dde3e200dae6e3e100d5e2e3e8dcd9e600e4e0d5edd9e6adff",
+          "pointer_sites": [
+            "0x00115A20",
+            "0x00115CC0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00115A20",
+          "loads": [
+            "0x00115A12"
+          ],
+          "pointer_offset": "0x00115A20"
+        },
+        {
+          "kind": "code_literal",
+          "literal": "0x00115CC0",
+          "loads": [
+            "0x00115CB2"
+          ],
+          "pointer_offset": "0x00115CC0"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457264",
+      "live_offset": "0x00457264",
+      "source_hex": "fd02ab00bbebd5dde8dde2db00e0dde2dfabfecae6d9e7e700cdcebbccce00ebdcd9e200d9ead9e6ede3e2d9b4e700e6d9d5d8edadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551268,
+            "spanish_offset": 4551268,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02ab00bbebd5dde8dde2db00e0dde2dfabfecae6d9e7e700cdcebbccce00ebdcd9e200d9ead9e6ede3e2d9b4e700e6d9d5d8edadff",
+          "pointer_sites": [
+            "0x00115CAC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00115CAC",
+          "loads": [
+            "0x00115C8E"
+          ],
+          "pointer_offset": "0x00115CAC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004573C5",
+      "live_offset": "0x004573C5",
+      "source_hex": "a300e4e0d5edd9e6e7fee2d9d9d8d9d8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551621,
+            "spanish_offset": 4551621,
+            "status": "matched"
+          },
+          "preimage_hex": "a300e4e0d5edd9e6e7fee2d9d9d8d9d8adff",
+          "pointer_sites": [
+            "0x00457444",
+            "0x00457468"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457444"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457468"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004573D7",
+      "live_offset": "0x004573D7",
+      "source_hex": "a400e4e0d5edd9e6e7fee2d9d9d8d9d8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551639,
+            "spanish_offset": 4551639,
+            "status": "matched"
+          },
+          "preimage_hex": "a400e4e0d5edd9e6e7fee2d9d9d8d9d8adff",
+          "pointer_sites": [
+            "0x00457440"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457440"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004573F4",
+      "live_offset": "0x004573F4",
+      "source_hex": "a3aecac6bbd3bfccfec7c9bebfff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551668,
+            "spanish_offset": 4551668,
+            "status": "matched"
+          },
+          "preimage_hex": "a3aecac6bbd3bfccfec7c9bebfff",
+          "pointer_sites": [
+            "0x00457430",
+            "0x00457458"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457430"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457458"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457402",
+      "live_offset": "0x00457402",
+      "source_hex": "a4aecac6bbd3bfccfec7c9bebfff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551682,
+            "spanish_offset": 4551682,
+            "status": "matched"
+          },
+          "preimage_hex": "a4aecac6bbd3bfccfec7c9bebfff",
+          "pointer_sites": [
+            "0x0045745C",
+            "0x00457470"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x0045745C"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457470"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457410",
+      "live_offset": "0x00457410",
+      "source_hex": "a5aecac6bbd3bfccfec7c9bebfff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551696,
+            "spanish_offset": 4551696,
+            "status": "matched"
+          },
+          "preimage_hex": "a5aecac6bbd3bfccfec7c9bebfff",
+          "pointer_sites": [
+            "0x0045744C",
+            "0x00457460",
+            "0x00457474"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x0045744C"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457460"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457474"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045741E",
+      "live_offset": "0x0045741E",
+      "source_hex": "a6aecac6bbd3bfccfec7c9bebfff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551710,
+            "spanish_offset": 4551710,
+            "status": "matched"
+          },
+          "preimage_hex": "a6aecac6bbd3bfccfec7c9bebfff",
+          "pointer_sites": [
+            "0x00457464",
+            "0x00457478"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457464"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045742C",
+          "roots": [
+            "0x001158B8",
+            "0x001158C8",
+            "0x001158EC",
+            "0x00115920"
+          ],
+          "loads": [
+            "0x001158B0",
+            "0x001158BC",
+            "0x001158CC",
+            "0x001158F0"
+          ],
+          "pointer_offset": "0x00457478"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004574A0",
+      "live_offset": "0x004574A0",
+      "source_hex": "fd0300d7e3e2e8d5d7e8d9d800ede3e900dae3e6fefd02ad00bbd7d7d9e4e8acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551840,
+            "spanish_offset": 4551840,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0300d7e3e2e8d5d7e8d9d800ede3e900dae3e6fefd02ad00bbd7d7d9e4e8acff",
+          "pointer_sites": [
+            "0x001162BC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001162BC",
+          "loads": [
+            "0x001162B8"
+          ],
+          "pointer_offset": "0x001162BC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004574C4",
+      "live_offset": "0x004574C4",
+      "source_hex": "fd0300d7e3e2e8d5d7e8d9d800ede3e9adfed1dde0e000ede3e900e7dcd5e6d900fd02acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551876,
+            "spanish_offset": 4551876,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0300d7e3e2e8d5d7e8d9d800ede3e9adfed1dde0e000ede3e900e7dcd5e6d900fd02acff",
+          "pointer_sites": [
+            "0x001162CC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001162CC",
+          "loads": [
+            "0x001162C0"
+          ],
+          "pointer_offset": "0x001162CC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004574EC",
+      "live_offset": "0x004574EC",
+      "source_hex": "fd0300d7e3e2e8d5d7e8d9d800ede3e9adfebbd8d800e8e300e8dcd900e1d9e1d6d9e6e7acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551916,
+            "spanish_offset": 4551916,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0300d7e3e2e8d5d7e8d9d800ede3e9adfebbd8d800e8e300e8dcd900e1d9e1d6d9e6e7acff",
+          "pointer_sites": [
+            "0x001162DC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001162DC",
+          "loads": [
+            "0x001162D0"
+          ],
+          "pointer_offset": "0x001162DC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457514",
+      "live_offset": "0x00457514",
+      "source_hex": "fd02abfebbe6d900e8dcd9e7d900e1d9e1d6d9e6e700c9c5acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551956,
+            "spanish_offset": 4551956,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02abfebbe6d900e8dcd9e7d900e1d9e1d6d9e6e700c9c5acff",
+          "pointer_sites": [
+            "0x00116054"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00116054",
+          "loads": [
+            "0x0011603E"
+          ],
+          "pointer_offset": "0x00116054"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457530",
+      "live_offset": "0x00457530",
+      "source_hex": "bdd5e2d7d9e000fd0200c7c9bebffeebdde8dc00e8dcd9e7d900e1d9e1d6d9e6e7acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4551984,
+            "spanish_offset": 4551984,
+            "status": "matched"
+          },
+          "preimage_hex": "bdd5e2d7d9e000fd0200c7c9bebffeebdde8dc00e8dcd9e7d900e1d9e1d6d9e6e7acff",
+          "pointer_sites": [
+            "0x001160BC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001160BC",
+          "loads": [
+            "0x001160A6"
+          ],
+          "pointer_offset": "0x001160BC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457553",
+      "live_offset": "0x00457554",
+      "source_hex": "bbe200b1c9c5b200ebd5e700e7d9e2e8fee8e300fd02adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552020,
+            "spanish_offset": 4552020,
+            "status": "matched"
+          },
+          "preimage_hex": "bbe200b1c9c5b200ebd5e700e7d9e2e8fee8e300fd02adff",
+          "pointer_sites": [
+            "0x00115FAC",
+            "0x00117D38"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00115FAC",
+          "loads": [
+            "0x00115F86"
+          ],
+          "pointer_offset": "0x00115FAC"
+        },
+        {
+          "kind": "code_literal",
+          "literal": "0x00117D38",
+          "loads": [
+            "0x00117D20"
+          ],
+          "pointer_offset": "0x00117D38"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045756C",
+      "live_offset": "0x0045756C",
+      "source_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600d8e3d9e7e2b4e800d5e4e4d9d5e6fee8e300d6d900d5ead5dde0d5d6e0d900e2e3ebb0fbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552044,
+            "spanish_offset": 4552044,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600d8e3d9e7e2b4e800d5e4e4d9d5e6fee8e300d6d900d5ead5dde0d5d6e0d900e2e3ebb0fbff",
+          "pointer_sites": [
+            "0x0045767C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045767C",
+          "roots": [
+            "0x00115DE8",
+            "0x00115E20"
+          ],
+          "loads": [
+            "0x00115DC0",
+            "0x00115E02"
+          ],
+          "pointer_offset": "0x0045767C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004575A4",
+      "live_offset": "0x004575A4",
+      "source_hex": "d3e3e900d7d5e2b4e800e8e6d5e2e7e1dde800ebdde8dc00d500cee6d5dde2d9e6feebdce300dde700e8e3e300dad5e600d5ebd5edadfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552100,
+            "spanish_offset": 4552100,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900d7d5e2b4e800e8e6d5e2e7e1dde800ebdde8dc00d500cee6d5dde2d9e6feebdce300dde700e8e3e300dad5e600d5ebd5edadfbff",
+          "pointer_sites": [
+            "0x00457608"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457608",
+          "roots": [
+            "0x00116990"
+          ],
+          "loads": [
+            "0x00116972"
+          ],
+          "pointer_offset": "0x00457608"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004575DC",
+      "live_offset": "0x004575DC",
+      "source_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e65ccd5d00dde7bad5e6d900e2e3e8fee6d9d5d8ed00edd9e8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552156,
+            "spanish_offset": 4552156,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e65ccd5d00dde7bad5e6d900e2e3e8fee6d9d5d8ed00edd9e8adfbff",
+          "pointer_sites": [
+            "0x0045760C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457608",
+          "roots": [
+            "0x00116990"
+          ],
+          "loads": [
+            "0x00116972"
+          ],
+          "pointer_offset": "0x0045760C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457644",
+      "live_offset": "0x00457644",
+      "source_hex": "cedcd9e6d900dde700d500e1d9e1d6d9e600ebdce300d7d5e200e2e3fee0e3e2dbd9e600e6d9e1d5dde200d5ead5dde0d5d6e0d9adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552260,
+            "spanish_offset": 4552260,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd9e6d900dde700d500e1d9e1d6d9e600ebdce300d7d5e200e2e3fee0e3e2dbd9e600e6d9e1d5dde200d5ead5dde0d5d6e0d9adfbff",
+          "pointer_sites": [
+            "0x00457680",
+            "0x00457758"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045767C",
+          "roots": [
+            "0x00115DE8",
+            "0x00115E20"
+          ],
+          "loads": [
+            "0x00115DC0",
+            "0x00115E02"
+          ],
+          "pointer_offset": "0x00457680"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457754",
+          "roots": [
+            "0x00116C90",
+            "0x00116CC4"
+          ],
+          "loads": [
+            "0x00116C70",
+            "0x00116CB0"
+          ],
+          "pointer_offset": "0x00457758"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004576AC",
+      "live_offset": "0x004576AC",
+      "source_hex": "fd0200e7d9e2e800d6d5d7df00d5e200b1c9c5b2abff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552364,
+            "spanish_offset": 4552364,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0200e7d9e2e800d6d5d7df00d5e200b1c9c5b2abff",
+          "pointer_sites": [
+            "0x00116430",
+            "0x001181E8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00116430",
+          "loads": [
+            "0x00116424"
+          ],
+          "pointer_offset": "0x00116430"
+        },
+        {
+          "kind": "code_literal",
+          "literal": "0x001181E8",
+          "loads": [
+            "0x001181D6"
+          ],
+          "pointer_offset": "0x001181E8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004576C4",
+      "live_offset": "0x004576C4",
+      "source_hex": "fd0200c9c5b4d800ede3e9e600e6d9dbdde7e8e6d5e8dde3e200d5e7fed500e1d9e1d6d9e6adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552388,
+            "spanish_offset": 4552388,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0200c9c5b4d800ede3e9e600e6d9dbdde7e8e6d5e8dde3e200d5e7fed500e1d9e1d6d9e6adff",
+          "pointer_sites": [
+            "0x00116440"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00116440",
+          "loads": [
+            "0x00116434"
+          ],
+          "pointer_offset": "0x00116440"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004576FF",
+      "live_offset": "0x00457700",
+      "source_hex": "fd02abfebbebd5dde8dde2db00e3e8dcd9e600e1d9e1d6d9e6e7abff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552448,
+            "spanish_offset": 4552448,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02abfebbebd5dde8dde2db00e3e8dcd9e600e1d9e1d6d9e6e7abff",
+          "pointer_sites": [
+            "0x00116B40"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00116B40",
+          "loads": [
+            "0x00116B24"
+          ],
+          "pointer_offset": "0x00116B40"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045771C",
+      "live_offset": "0x0045771C",
+      "source_hex": "cbe9dde800d6d9dde2db00d500e1d9e1d6d9e6acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552476,
+            "spanish_offset": 4552476,
+            "status": "matched"
+          },
+          "preimage_hex": "cbe9dde800d6d9dde2db00d500e1d9e1d6d9e6acff",
+          "pointer_sites": [
+            "0x00116BAC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00116BAC",
+          "loads": [
+            "0x00116B98"
+          ],
+          "pointer_offset": "0x00116BAC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457734",
+      "live_offset": "0x00457734",
+      "source_hex": "d3e3e900e7e8e3e4e4d9d800d6d9dde2db00d500e1d9e1d6d9e6adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552500,
+            "spanish_offset": 4552500,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900e7e8e3e4e4d9d800d6d9dde2db00d500e1d9e1d6d9e6adfbff",
+          "pointer_sites": [
+            "0x00457778"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457754",
+          "roots": [
+            "0x00116C90",
+            "0x00116CC4"
+          ],
+          "loads": [
+            "0x00116C70",
+            "0x00116CB0"
+          ],
+          "pointer_offset": "0x00457778"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004577BC",
+      "live_offset": "0x004577BC",
+      "source_hex": "cedcd900d1c3ccbfc6bfcdcd00bdc9c7c7cfc8c3bdbbcec3c9c8fecdd3cdcebfc700e0dde2df00dcd5e700d6d9d9e200d8e6e3e4e4d9d8b0ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552636,
+            "spanish_offset": 4552636,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900d1c3ccbfc6bfcdcd00bdc9c7c7cfc8c3bdbbcec3c9c8fecdd3cdcebfc700e0dde2df00dcd5e700d6d9d9e200d8e6e3e4e4d9d8b0ff",
+          "pointer_sites": [
+            "0x001185A4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001185A4",
+          "loads": [
+            "0x0011859E"
+          ],
+          "pointer_offset": "0x001185A4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004577F8",
+      "live_offset": "0x004577F8",
+      "source_hex": "cedcd900e0dde2df00ebdde8dc00ede3e9e600dae6ddd9e2d800dcd5e700d6d9d9e2fed8e6e3e4e4d9d8b0ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552696,
+            "spanish_offset": 4552696,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e0dde2df00ebdde8dc00ede3e9e600dae6ddd9e2d800dcd5e700d6d9d9e2fed8e6e3e4e4d9d8b0ff",
+          "pointer_sites": [
+            "0x00117C08",
+            "0x0045783C",
+            "0x00457840"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00117C08",
+          "loads": [
+            "0x00117BE8"
+          ],
+          "pointer_offset": "0x00117C08"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457838",
+          "roots": [
+            "0x00118244"
+          ],
+          "loads": [
+            "0x00118224"
+          ],
+          "pointer_offset": "0x0045783C"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457838",
+          "roots": [
+            "0x00118244"
+          ],
+          "loads": [
+            "0x00118224"
+          ],
+          "pointer_offset": "0x00457840"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457824",
+      "live_offset": "0x00457824",
+      "source_hex": "fd0200e6d9e4e0ddd9d8b800b1c8e3b0b2ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552740,
+            "spanish_offset": 4552740,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0200e6d9e4e0ddd9d8b800b1c8e3b0b2ff",
+          "pointer_sites": [
+            "0x00457850"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457838",
+          "roots": [
+            "0x00118244"
+          ],
+          "loads": [
+            "0x00118224"
+          ],
+          "pointer_offset": "0x00457850"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457860",
+      "live_offset": "0x00457860",
+      "source_hex": "bee300ede3e900ebd5e2e800e8dcd900fd03fec7c9bebfacff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552800,
+            "spanish_offset": 4552800,
+            "status": "matched"
+          },
+          "preimage_hex": "bee300ede3e900ebd5e2e800e8dcd900fd03fec7c9bebfacff",
+          "pointer_sites": [
+            "0x00457898"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00457898"
+        }
+      ],
+      "decision": "excluded_unrooted_table",
+      "reason": "Table héritée 0x00457898 de 2 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x0045787C",
+      "live_offset": "0x0045787C",
+      "source_hex": "bee300ede3e900ebd5e2e800e8dcd900fd03fec7c9bebfacff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552828,
+            "spanish_offset": 4552828,
+            "status": "matched"
+          },
+          "preimage_hex": "bee300ede3e900ebd5e2e800e8dcd900fd03fec7c9bebfacff",
+          "pointer_sites": [
+            "0x0045789C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x0045789C"
+        }
+      ],
+      "decision": "excluded_unrooted_table",
+      "reason": "Table héritée 0x00457898 de 2 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x004578BC",
+      "live_offset": "0x004578BC",
+      "source_hex": "bbebd5dde8dde2db00fd02b4e700e6d9e7e4e3e2e7d900d5d6e3e9e8fee8dcd900e8e6d5d8d9b0ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4552892,
+            "spanish_offset": 4552892,
+            "status": "matched"
+          },
+          "preimage_hex": "bbebd5dde8dde2db00fd02b4e700e6d9e7e4e3e2e7d900d5d6e3e9e8fee8dcd900e8e6d5d8d9b0ff",
+          "pointer_sites": [
+            "0x00118C24"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00118C24",
+          "loads": [
+            "0x00118C10"
+          ],
+          "pointer_offset": "0x00118C24"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457950",
+      "live_offset": "0x00457950",
+      "source_hex": "bde3e1e1e9e2ddd7d5e8dde2db00ebdde8dc00fd02fc080fadfc080fadfc080fadfefc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553040,
+            "spanish_offset": 4553040,
+            "status": "matched"
+          },
+          "preimage_hex": "bde3e1e1e9e2ddd7d5e8dde2db00ebdde8dc00fd02fc080fadfc080fadfc080fadfefc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadff",
+          "pointer_sites": [
+            "0x00457A38"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457A34",
+          "roots": [
+            "0x00119898",
+            "0x0011AAE0"
+          ],
+          "loads": [
+            "0x00119884",
+            "0x0011AAD0"
+          ],
+          "pointer_offset": "0x00457A38"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004579BC",
+      "live_offset": "0x004579BC",
+      "source_hex": "cae0d9d5e7d900ebd5dde800d500ebdcdde0d9fc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfefc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553148,
+            "spanish_offset": 4553148,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900ebd5dde800d500ebdcdde0d9fc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfefc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadfc080fadff",
+          "pointer_sites": [
+            "0x00457A3C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457A34",
+          "roots": [
+            "0x00119898",
+            "0x0011AAE0"
+          ],
+          "loads": [
+            "0x00119884",
+            "0x0011AAD0"
+          ],
+          "pointer_offset": "0x00457A3C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457A70",
+      "live_offset": "0x00457A70",
+      "source_hex": "c2d9e0e0e3abfed1e3e9e0d800ede3e900e0dddfd900e8e300d8e300e7e3e1d9e8dcdde2dbacff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553328,
+            "spanish_offset": 4553328,
+            "status": "matched"
+          },
+          "preimage_hex": "c2d9e0e0e3abfed1e3e9e0d800ede3e900e0dddfd900e8e300d8e300e7e3e1d9e8dcdde2dbacff",
+          "pointer_sites": [
+            "0x00457B08"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457B04",
+          "roots": [
+            "0x00118E94"
+          ],
+          "loads": [
+            "0x00118E7C"
+          ],
+          "pointer_offset": "0x00457B08"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457A98",
+      "live_offset": "0x00457A98",
+      "source_hex": "fd02f000c2ddedd5b800ebd900e1d9d9e800d5dbd5dde2abfed1dcd5e800d5e6d900ede3e900e9e400dae3e600e8dcdde700e8dde1d9acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553368,
+            "spanish_offset": 4553368,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02f000c2ddedd5b800ebd900e1d9d9e800d5dbd5dde2abfed1dcd5e800d5e6d900ede3e900e9e400dae3e600e8dcdde700e8dde1d9acff",
+          "pointer_sites": [
+            "0x00457B0C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457B04",
+          "roots": [
+            "0x00118E94"
+          ],
+          "loads": [
+            "0x00118E7C"
+          ],
+          "pointer_offset": "0x00457B0C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457AD0",
+      "live_offset": "0x00457AD0",
+      "source_hex": "fd02f000c9dcab00fd01b800dcd9e0e0e3abfed1e3e9e0d800ede3e900e0dddfd900e8e300d8e300e7e3e1d9e8dcdde2dbacff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553424,
+            "spanish_offset": 4553424,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02f000c9dcab00fd01b800dcd9e0e0e3abfed1e3e9e0d800ede3e900e0dddfd900e8e300d8e300e7e3e1d9e8dcdde2dbacff",
+          "pointer_sites": [
+            "0x00457B10"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457B04",
+          "roots": [
+            "0x00118E94"
+          ],
+          "loads": [
+            "0x00118E7C"
+          ],
+          "pointer_offset": "0x00457B10"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457B2C",
+      "live_offset": "0x00457B2C",
+      "source_hex": "d1e3e9e0d800ede3e900e0dddfd900e8e300d8e300e7e3e1d9e8dcdde2dbacff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553516,
+            "spanish_offset": 4553516,
+            "status": "matched"
+          },
+          "preimage_hex": "d1e3e9e0d800ede3e900e0dddfd900e8e300d8e300e7e3e1d9e8dcdde2dbacff",
+          "pointer_sites": [
+            "0x00457B84"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00457B84"
+        }
+      ],
+      "decision": "excluded_unrooted_table",
+      "reason": "Table héritée 0x00457B80 de 4 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00457B4C",
+      "live_offset": "0x00457B4C",
+      "source_hex": "fd02f000d1dcd5e800ebe3e9e0d800ede3e900e0dddfd900e8e3fed8e300e2e3ebacff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553548,
+            "spanish_offset": 4553548,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02f000d1dcd5e800ebe3e9e0d800ede3e900e0dddfd900e8e3fed8e300e2e3ebacff",
+          "pointer_sites": [
+            "0x00457B88",
+            "0x00457B8C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00457B88"
+        },
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00457B8C"
+        }
+      ],
+      "decision": "excluded_unrooted_table",
+      "reason": "Table héritée 0x00457B80 de 4 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00457BB0",
+      "live_offset": "0x00457BB0",
+      "source_hex": "fd0200dcd5e700d7e3e2e8d5d7e8d9d800ede3e9adfc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553648,
+            "spanish_offset": 4553648,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0200dcd5e700d7e3e2e8d5d7e8d9d800ede3e9adfc083cff",
+          "pointer_sites": [
+            "0x00457BD0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457BCC",
+          "roots": [
+            "0x00119160"
+          ],
+          "loads": [
+            "0x00119140"
+          ],
+          "pointer_offset": "0x00457BD0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457C00",
+      "live_offset": "0x00457C00",
+      "source_hex": "bbebd5dde8dde2db00d500e6d9e7e4e3e2e7d900dae6e3e1fefd02b0ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553728,
+            "spanish_offset": 4553728,
+            "status": "matched"
+          },
+          "preimage_hex": "bbebd5dde8dde2db00d500e6d9e7e4e3e2e7d900dae6e3e1fefd02b0ff",
+          "pointer_sites": [
+            "0x00457C24"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457C20",
+          "roots": [
+            "0x00118F2C"
+          ],
+          "loads": [
+            "0x00118F0C"
+          ],
+          "pointer_offset": "0x00457C24"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457C48",
+      "live_offset": "0x00457C48",
+      "source_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600e7dce3ebd9d8feede3e900e8dcd9dde600cee6d5dde2d9e600bdd5e6d8adfbd1e3e9e0d800ede3e900e0dddfd900e8e300e7dce3eb00ede3e9e6fecee6d5dde2d9e600bdd5e6d8acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553800,
+            "spanish_offset": 4553800,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600e7dce3ebd9d8feede3e900e8dcd9dde600cee6d5dde2d9e600bdd5e6d8adfbd1e3e9e0d800ede3e900e0dddfd900e8e300e7dce3eb00ede3e9e6fecee6d5dde2d9e600bdd5e6d8acff",
+          "pointer_sites": [
+            "0x0011B084",
+            "0x00457E78"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011B084",
+          "loads": [
+            "0x0011B078"
+          ],
+          "pointer_offset": "0x0011B084"
+        },
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00457E78"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457CA4",
+      "live_offset": "0x00457CA4",
+      "source_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600d7dcd5e0e0d9e2dbd9e700ede3e9fee8e300d6d5e8e8e0d9adfbd1dde0e000ede3e900d5d7d7d9e4e800e8dcd900d6d5e8e8e0d9fed7dcd5e0e0d9e2dbd9acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553892,
+            "spanish_offset": 4553892,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600d7dcd5e0e0d9e2dbd9e700ede3e9fee8e300d6d5e8e8e0d9adfbd1dde0e000ede3e900d5d7d7d9e4e800e8dcd900d6d5e8e8e0d9fed7dcd5e0e0d9e2dbd9acff",
+          "pointer_sites": [
+            "0x0011AFBC",
+            "0x00457E7C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011AFBC",
+          "loads": [
+            "0x0011AFB8"
+          ],
+          "pointer_offset": "0x0011AFBC"
+        },
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00457E7C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457CF8",
+      "live_offset": "0x00457CF8",
+      "source_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600dde2eadde8d9e700ede3e9fee8e300d7dcd5e8adfbd1dde0e000ede3e900d5d7d7d9e4e800e8dcd900d7dcd5e8fedde2eadde8d5e8dde3e2acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4553976,
+            "spanish_offset": 4553976,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e3e8dcd9e600cee6d5dde2d9e600dde2eadde8d9e700ede3e9fee8e300d7dcd5e8adfbd1dde0e000ede3e900d5d7d7d9e4e800e8dcd900d7dcd5e8fedde2eadde8d5e8dde3e2acff",
+          "pointer_sites": [
+            "0x0011AFC4",
+            "0x00457E80"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011AFC4",
+          "loads": [
+            "0x0011AFC0"
+          ],
+          "pointer_offset": "0x0011AFC4"
+        },
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00457E80"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457D44",
+      "live_offset": "0x00457D44",
+      "source_hex": "cedcd9e6d900dde700d5e200e3dadad9e600e8e300e8e6d5d8d900ede3e9e6fee6d9dbdde7e8d9e6d9d800c6eaad00f70000f701fbdde200d9ecd7dcd5e2dbd900dae3e600d5fec6eaad00f70200f703adfbd1dde0e000ede3e900d5d7d7d9e4e800e8dcdde700e8e6d5d8d9fee3dadad9e6acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554052,
+            "spanish_offset": 4554052,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd9e6d900dde700d5e200e3dadad9e600e8e300e8e6d5d8d900ede3e9e6fee6d9dbdde7e8d9e6d9d800c6eaad00f70000f701fbdde200d9ecd7dcd5e2dbd900dae3e600d5fec6eaad00f70200f703adfbd1dde0e000ede3e900d5d7d7d9e4e800e8dcdde700e8e6d5d8d9fee3dadad9e6acff",
+          "pointer_sites": [
+            "0x0011B074",
+            "0x00457E84"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011B074",
+          "loads": [
+            "0x0011B068"
+          ],
+          "pointer_offset": "0x0011B074"
+        },
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00457E84"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "engine_layout": true,
+        "initial_font": 2,
+        "max_lines": 2,
+        "max_width": 208,
+        "preserve_line_count": true,
+        "max_bytes": 512,
+        "max_expanded_bytes": 512,
+        "paged_dialogue": true,
+        "buffers": {
+          "0": {
+            "max_width": 18,
+            "max_bytes": 3
+          },
+          "1": {
+            "max_width": 60,
+            "max_bytes": 10
+          },
+          "2": {
+            "max_width": 18,
+            "max_bytes": 3
+          },
+          "3": {
+            "max_width": 60,
+            "max_bytes": 10
+          }
+        }
+      }
+    },
+    {
+      "offset": "0x00457DB8",
+      "live_offset": "0x00457DB8",
+      "source_hex": "cedcd9e6d900dde700d5e200e3dadad9e600e8e300e8e6d5d8d900ede3e9e6fee6d9dbdde7e8d9e6d9d800bfdbdbadfad1dde0e000ede3e900d5d7d7d9e4e800e8dcdde700e8e6d5d8d900e3dadad9e6acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554168,
+            "spanish_offset": 4554168,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd9e6d900dde700d5e200e3dadad9e600e8e300e8e6d5d8d900ede3e9e6fee6d9dbdde7e8d9e6d9d800bfdbdbadfad1dde0e000ede3e900d5d7d7d9e4e800e8dcdde700e8e6d5d8d900e3dadad9e6acff",
+          "pointer_sites": [
+            "0x0011B04C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011B04C",
+          "loads": [
+            "0x0011B038"
+          ],
+          "pointer_offset": "0x0011B04C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457E0C",
+      "live_offset": "0x00457E0C",
+      "source_hex": "cedcd900d7dcd5e800dcd5e700d6d9d9e200d8e6e3e4e4d9d8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554252,
+            "spanish_offset": 4554252,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900d7dcd5e800dcd5e700d6d9d9e200d8e6e3e4e4d9d8adfbff",
+          "pointer_sites": [
+            "0x0011B0A0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011B0A0",
+          "loads": [
+            "0x0011B088"
+          ],
+          "pointer_offset": "0x0011B0A0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457E28",
+      "live_offset": "0x00457E28",
+      "source_hex": "d3e3e900d8d9d7e0dde2d9d800e8dcd900e3dadad9e6adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554280,
+            "spanish_offset": 4554280,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900d8d9d7e0dde2d9d800e8dcd900e3dadad9e6adfbff",
+          "pointer_sites": [
+            "0x00116308"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00116308",
+          "loads": [
+            "0x00116300"
+          ],
+          "pointer_offset": "0x00116308"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457E44",
+      "live_offset": "0x00457E44",
+      "source_hex": "d3e3e900d8d9d7e0dde2d9d800e8dcd900e3dadad9e6adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554308,
+            "spanish_offset": 4554308,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900d8d9d7e0dde2d9d800e8dcd900e3dadad9e6adfbff",
+          "pointer_sites": [
+            "0x00116318"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00116318",
+          "loads": [
+            "0x0011630C"
+          ],
+          "pointer_offset": "0x00116318"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457E60",
+      "live_offset": "0x00457E60",
+      "source_hex": "cedcd900d7dcd5e800ebd5e700d9e2d8d9d8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554336,
+            "spanish_offset": 4554336,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900d7dcd5e800ebd5e700d9e2d8d9d8adfbff",
+          "pointer_sites": [
+            "0x001191C0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001191C0",
+          "loads": [
+            "0x001191AC"
+          ],
+          "pointer_offset": "0x001191C0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457EC0",
+      "live_offset": "0x00457EC0",
+      "source_hex": "fd02f000c2d9edb800fd01abfed1d9b4e6d900dcd5eadde2db00d500d7dcd5e800e6dddbdce800e2e3ebadfad1d5e2e800e8e300dee3dde200e9e7acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554432,
+            "spanish_offset": 4554432,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02f000c2d9edb800fd01abfed1d9b4e6d900dcd5eadde2db00d500d7dcd5e800e6dddbdce800e2e3ebadfad1d5e2e800e8e300dee3dde200e9e7acff",
+          "pointer_sites": [
+            "0x00457F88"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457F80",
+          "roots": [
+            "0x0011AACC"
+          ],
+          "loads": [
+            "0x0011AAAE"
+          ],
+          "pointer_offset": "0x00457F88"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457F00",
+      "live_offset": "0x00457F00",
+      "source_hex": "c9dcb800dcddab00d1d9b4e6d900dcd5eadde2db00d500d7dcd5e800e2e3ebadfed1e3e9e0d800ede3e900e0dddfd900e8e300dee3dde200e9e7acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554496,
+            "spanish_offset": 4554496,
+            "status": "matched"
+          },
+          "preimage_hex": "c9dcb800dcddab00d1d9b4e6d900dcd5eadde2db00d500d7dcd5e800e2e3ebadfed1e3e9e0d800ede3e900e0dddfd900e8e300dee3dde200e9e7acff",
+          "pointer_sites": [
+            "0x00457F84"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457F80",
+          "roots": [
+            "0x0011AACC"
+          ],
+          "loads": [
+            "0x0011AAAE"
+          ],
+          "pointer_offset": "0x00457F84"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457F3C",
+      "live_offset": "0x00457F3C",
+      "source_hex": "fd02f000c9dcb800dcddb800fd01abfed1d9b4e6d900dcd5eadde2db00d500d7dcd5e800e2e3ebadfad1e3e9e0d800ede3e900e0dddfd900e8e300dee3dde200e9e7acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554556,
+            "spanish_offset": 4554556,
+            "status": "matched"
+          },
+          "preimage_hex": "fd02f000c9dcb800dcddb800fd01abfed1d9b4e6d900dcd5eadde2db00d500d7dcd5e800e2e3ebadfad1e3e9e0d800ede3e900e0dddfd900e8e300dee3dde200e9e7acff",
+          "pointer_sites": [
+            "0x00457F8C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00457F80",
+          "roots": [
+            "0x0011AACC"
+          ],
+          "loads": [
+            "0x0011AAAE"
+          ],
+          "pointer_offset": "0x00457F8C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457FB4",
+      "live_offset": "0x00457FB4",
+      "source_hex": "bb00d6d5e8e8e0d9b800dce9dcacfebbe0e000e6dddbdce8b800dee9e7e800dbddead900e1d900e7e3e1d900e8dde1d9adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554676,
+            "spanish_offset": 4554676,
+            "status": "matched"
+          },
+          "preimage_hex": "bb00d6d5e8e8e0d9b800dce9dcacfebbe0e000e6dddbdce8b800dee9e7e800dbddead900e1d900e7e3e1d900e8dde1d9adff",
+          "pointer_sites": [
+            "0x004580F4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004580F4",
+          "roots": [
+            "0x00118D9C"
+          ],
+          "loads": [
+            "0x00118D76"
+          ],
+          "pointer_offset": "0x004580F4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00457FE8",
+      "live_offset": "0x00457FE8",
+      "source_hex": "d3e3e900ebd5e2e800e8e300d7dcd5e8b800dce9dcacfecde9e6d9b800dee9e7e800ebd5dde800d500e0dde8e8e0d9adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554728,
+            "spanish_offset": 4554728,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900ebd5e2e800e8e300d7dcd5e8b800dce9dcacfecde9e6d9b800dee9e7e800ebd5dde800d500e0dde8e8e0d9adff",
+          "pointer_sites": [
+            "0x004580F8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004580F4",
+          "roots": [
+            "0x00118D9C"
+          ],
+          "loads": [
+            "0x00118D76"
+          ],
+          "pointer_offset": "0x004580F8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458019",
+      "live_offset": "0x0045801C",
+      "source_hex": "cde9e6d900e8dcdde2dbab00bbe700e1ed00b1c1e6d9d9e8dde2dbe7b8b2fedcd9e6d9b4e700e1ed00cee6d5dde2d9e600bdd5e6d8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554780,
+            "spanish_offset": 4554780,
+            "status": "matched"
+          },
+          "preimage_hex": "cde9e6d900e8dcdde2dbab00bbe700e1ed00b1c1e6d9d9e8dde2dbe7b8b2fedcd9e6d9b4e700e1ed00cee6d5dde2d9e600bdd5e6d8adff",
+          "pointer_sites": [
+            "0x00458100"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004580F4",
+          "roots": [
+            "0x00118D9C"
+          ],
+          "loads": [
+            "0x00118D76"
+          ],
+          "pointer_offset": "0x00458100"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458054",
+      "live_offset": "0x00458054",
+      "source_hex": "bb00d6d5e8e8e0d9ac00c9da00d7e3e9e6e7d9b800d6e9e800c300e2d9d9d8fee8dde1d900e8e300dbd9e800e6d9d5d8edadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554836,
+            "spanish_offset": 4554836,
+            "status": "matched"
+          },
+          "preimage_hex": "bb00d6d5e8e8e0d9ac00c9da00d7e3e9e6e7d9b800d6e9e800c300e2d9d9d8fee8dde1d900e8e300dbd9e800e6d9d5d8edadff",
+          "pointer_sites": [
+            "0x00458104"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004580F4",
+          "roots": [
+            "0x00118D9C"
+          ],
+          "loads": [
+            "0x00118D76"
+          ],
+          "pointer_offset": "0x00458104"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458088",
+      "live_offset": "0x00458088",
+      "source_hex": "beddd800ede3e900ebd5e2e800e8e300d7dcd5e8acfec9dfd5edb800d6e9e800e4e0d9d5e7d900ebd5dde800d500e1e3e1d9e2e8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554888,
+            "spanish_offset": 4554888,
+            "status": "matched"
+          },
+          "preimage_hex": "beddd800ede3e900ebd5e2e800e8e300d7dcd5e8acfec9dfd5edb800d6e9e800e4e0d9d5e7d900ebd5dde800d500e1e3e1d9e2e8adff",
+          "pointer_sites": [
+            "0x00458108"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004580F4",
+          "roots": [
+            "0x00118D9C"
+          ],
+          "loads": [
+            "0x00118D76"
+          ],
+          "pointer_offset": "0x00458108"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004580C0",
+      "live_offset": "0x004580C0",
+      "source_hex": "bbe700e1ed00dde2e8e6e3d8e9d7e8dde3e2b800c3b4e0e000e7dce3eb00ede3e9fee1ed00cee6d5dde2d9e600bdd5e6d8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4554944,
+            "spanish_offset": 4554944,
+            "status": "matched"
+          },
+          "preimage_hex": "bbe700e1ed00dde2e8e6e3d8e9d7e8dde3e2b800c3b4e0e000e7dce3eb00ede3e9fee1ed00cee6d5dde2d9e600bdd5e6d8adff",
+          "pointer_sites": [
+            "0x00458110"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004580F4",
+          "roots": [
+            "0x00118D9C"
+          ],
+          "loads": [
+            "0x00118D76"
+          ],
+          "pointer_offset": "0x00458110"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045812C",
+      "live_offset": "0x0045812C",
+      "source_hex": "cedcd5e2dfe700dae3e600ebd5dde8dde2dbabfec6d9e8b4e700dbd9e800e3e9e600d6d5e8e8e0d900e7e8d5e6e8d9d8abfc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555052,
+            "spanish_offset": 4555052,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd5e2dfe700dae3e600ebd5dde8dde2dbabfec6d9e8b4e700dbd9e800e3e9e600d6d5e8e8e0d900e7e8d5e6e8d9d8abfc083cff",
+          "pointer_sites": [
+            "0x00458248"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x00458248"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458164",
+      "live_offset": "0x00458164",
+      "source_hex": "bbe0e000e6dddbdce8abfec6d9e8b4e700d7dcd5e8abfc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555108,
+            "spanish_offset": 4555108,
+            "status": "matched"
+          },
+          "preimage_hex": "bbe0e000e6dddbdce8abfec6d9e8b4e700d7dcd5e8abfc083cff",
+          "pointer_sites": [
+            "0x0045824C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x0045824C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004581B0",
+      "live_offset": "0x004581B0",
+      "source_hex": "cde3e6e6ed00c300e1d5d8d900ede3e900ebd5dde8abfec6d9e8b4e700d7dcd5e8adfc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555184,
+            "spanish_offset": 4555184,
+            "status": "matched"
+          },
+          "preimage_hex": "cde3e6e6ed00c300e1d5d8d900ede3e900ebd5dde8abfec6d9e8b4e700d7dcd5e8adfc083cff",
+          "pointer_sites": [
+            "0x00458258"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x00458258"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004581D8",
+      "live_offset": "0x004581D8",
+      "source_hex": "cedcd900e8e6d5d8d900ebdde0e000d6d900e7e8d5e6e8d9d8adfc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555224,
+            "spanish_offset": 4555224,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e8e6d5d8d900ebdde0e000d6d900e7e8d5e6e8d9d8adfc083cff",
+          "pointer_sites": [
+            "0x00458238",
+            "0x00458244",
+            "0x00458250",
+            "0x0045825C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x00458238"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x00458244"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x00458250"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x0045825C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004581F8",
+      "live_offset": "0x004581F8",
+      "source_hex": "cedcd900d6d5e8e8e0d900ebdde0e000d6d900e7e8d5e6e8d9d8adfc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555256,
+            "spanish_offset": 4555256,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900d6d5e8e8e0d900ebdde0e000d6d900e7e8d5e6e8d9d8adfc083cff",
+          "pointer_sites": [
+            "0x00458230",
+            "0x0045823C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x00458230"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x0045823C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458218",
+      "live_offset": "0x00458218",
+      "source_hex": "bfe2e8d9e6dde2db00e8dcd900d7dcd5e8b0fc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555288,
+            "spanish_offset": 4555288,
+            "status": "matched"
+          },
+          "preimage_hex": "bfe2e8d9e6dde2db00e8dcd900d7dcd5e8b0fc083cff",
+          "pointer_sites": [
+            "0x00458234",
+            "0x00458240"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x00458234"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458230",
+          "roots": [
+            "0x0011AF1C",
+            "0x0011AF40",
+            "0x0011AF68"
+          ],
+          "loads": [
+            "0x0011AF0A",
+            "0x0011AF20",
+            "0x0011AF44"
+          ],
+          "pointer_offset": "0x00458240"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004582C0",
+      "live_offset": "0x004582C0",
+      "source_hex": "c3b4e100e8d9e6e6ddd6e0ed00e7e3e6e6edb800d6e9e800e1ed00cae3df1be1e3e2fed5e6d9e2b4e800dad9d9e0dde2db00ebd9e0e0b0fbc6d9e8b4e700d6d5e8e8e0d900d5e2e3e8dcd9e600e8dde1d9adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555456,
+            "spanish_offset": 4555456,
+            "status": "matched"
+          },
+          "preimage_hex": "c3b4e100e8d9e6e6ddd6e0ed00e7e3e6e6edb800d6e9e800e1ed00cae3df1be1e3e2fed5e6d9e2b4e800dad9d9e0dde2db00ebd9e0e0b0fbc6d9e8b4e700d6d5e8e8e0d900d5e2e3e8dcd9e600e8dde1d9adfbff",
+          "pointer_sites": [
+            "0x00458318"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458314",
+          "roots": [
+            "0x0011AE90"
+          ],
+          "loads": [
+            "0x0011AE84"
+          ],
+          "pointer_offset": "0x00458318"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045836C",
+      "live_offset": "0x0045836C",
+      "source_hex": "c9dcac00c8e3eb00ebdcd9e6d900d8ddd800c300e4e9e800e1edfecee6d5dde2d9e600bdd5e6d8acb0facde3e6e6edab00c3b4e0e000e7dce3eb00ede3e900e0d5e8d9e6abfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555628,
+            "spanish_offset": 4555628,
+            "status": "matched"
+          },
+          "preimage_hex": "c9dcac00c8e3eb00ebdcd9e6d900d8ddd800c300e4e9e800e1edfecee6d5dde2d9e600bdd5e6d8acb0facde3e6e6edab00c3b4e0e000e7dce3eb00ede3e900e0d5e8d9e6abfbff",
+          "pointer_sites": [
+            "0x004583B8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004583B4",
+          "roots": [
+            "0x0011AEC8"
+          ],
+          "loads": [
+            "0x0011AEB4"
+          ],
+          "pointer_offset": "0x004583B8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004583F8",
+      "live_offset": "0x004583F8",
+      "source_hex": "c3da00ede3e900ebd5e2e800e8e300d8e300e7e3e1d9e8dcdde2db00ebdde8dcfee1d9b800d8e3e2b4e800d6d900e7dcedadfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555768,
+            "spanish_offset": 4555768,
+            "status": "matched"
+          },
+          "preimage_hex": "c3da00ede3e900ebd5e2e800e8e300d8e300e7e3e1d9e8dcdde2db00ebdde8dcfee1d9b800d8e3e2b4e800d6d900e7dcedadfbff",
+          "pointer_sites": [
+            "0x00458430"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045842C",
+          "roots": [
+            "0x00118CE0"
+          ],
+          "loads": [
+            "0x00118CC4"
+          ],
+          "pointer_offset": "0x00458430"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045847C",
+      "live_offset": "0x0045847C",
+      "source_hex": "c3da00ede3e900ebd5e2e800e8e300d6d5e8e8e0d9b800ede3e900e2d9d9d8fee8ebe300cae3df1be1e3e200e8dcd5e800d5e6d900d6d9e0e3ebfac6eaad00a4a1adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555900,
+            "spanish_offset": 4555900,
+            "status": "matched"
+          },
+          "preimage_hex": "c3da00ede3e900ebd5e2e800e8e300d6d5e8e8e0d9b800ede3e900e2d9d9d8fee8ebe300cae3df1be1e3e200e8dcd5e800d5e6d900d6d9e0e3ebfac6eaad00a4a1adfbff",
+          "pointer_sites": [
+            "0x00118D18"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00118D18",
+          "loads": [
+            "0x00118D02"
+          ],
+          "pointer_offset": "0x00118D18"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004584C0",
+      "live_offset": "0x004584C0",
+      "source_hex": "c0e3e600d500d6d5e8e8e0d9b800ede3e900e2d9d9d800e8ebe3fecae3df1be1e3e200e8dcd5e800d5e6d900d6d9e0e3eb00c6eaad00a4a1adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4555968,
+            "spanish_offset": 4555968,
+            "status": "matched"
+          },
+          "preimage_hex": "c0e3e600d500d6d5e8e8e0d9b800ede3e900e2d9d9d800e8ebe3fecae3df1be1e3e200e8dcd5e800d5e6d900d6d9e0e3eb00c6eaad00a4a1adfbff",
+          "pointer_sites": [
+            "0x00119284"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00119284",
+          "loads": [
+            "0x00119272"
+          ],
+          "pointer_offset": "0x00119284"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004584FC",
+      "live_offset": "0x004584FC",
+      "source_hex": "c9dcb800d5e0e000e6dddbdce8adfebde3e1d900e7d9d900e1d900d5e2ede8dde1d9b800e3dfd5edacfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556028,
+            "spanish_offset": 4556028,
+            "status": "matched"
+          },
+          "preimage_hex": "c9dcb800d5e0e000e6dddbdce8adfebde3e1d900e7d9d900e1d900d5e2ede8dde1d9b800e3dfd5edacfbff",
+          "pointer_sites": [
+            "0x00458548"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458548",
+          "roots": [
+            "0x00118FB8"
+          ],
+          "loads": [
+            "0x00118FA8"
+          ],
+          "pointer_offset": "0x00458548"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458528",
+      "live_offset": "0x00458528",
+      "source_hex": "c9dcb0fecae0d9d5e7d900d7e3e1d900d6ed00d5e2ede8dde1d9adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556072,
+            "spanish_offset": 4556072,
+            "status": "matched"
+          },
+          "preimage_hex": "c9dcb0fecae0d9d5e7d900d7e3e1d900d6ed00d5e2ede8dde1d9adfbff",
+          "pointer_sites": [
+            "0x0045854C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458548",
+          "roots": [
+            "0x00118FB8"
+          ],
+          "loads": [
+            "0x00118FA8"
+          ],
+          "pointer_offset": "0x0045854C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458598",
+      "live_offset": "0x00458598",
+      "source_hex": "c9dcb800c3b4e100e7e3e6e6edadfec300dcd5ead900e8e3e300e1e9d7dc00e8e300d8e300e6dddbdce800e2e3ebadfac6d9e8b4e700d7dcd5e800e7e3e1d900e3e8dcd9e600e8dde1d9adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556184,
+            "spanish_offset": 4556184,
+            "status": "matched"
+          },
+          "preimage_hex": "c9dcb800c3b4e100e7e3e6e6edadfec300dcd5ead900e8e3e300e1e9d7dc00e8e300d8e300e6dddbdce800e2e3ebadfac6d9e8b4e700d7dcd5e800e7e3e1d900e3e8dcd9e600e8dde1d9adfbff",
+          "pointer_sites": [
+            "0x004585EC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004585E8",
+          "roots": [
+            "0x00119028",
+            "0x0011903C",
+            "0x00119084",
+            "0x001190A8",
+            "0x0011AEA0"
+          ],
+          "loads": [
+            "0x0011901A",
+            "0x0011902C",
+            "0x00119074",
+            "0x00119088",
+            "0x0011AE94"
+          ],
+          "pointer_offset": "0x004585EC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458618",
+      "live_offset": "0x00458618",
+      "source_hex": "d3e3e900e9e7d9d800e8dcd5e800e1e3ead9acfecedcd5e8b4e700dbe3e3d800e7e8e6d5e8d9dbedabfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556312,
+            "spanish_offset": 4556312,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900e9e7d9d800e8dcd5e800e1e3ead9acfecedcd5e8b4e700dbe3e3d800e7e8e6d5e8d9dbedabfbff",
+          "pointer_sites": [
+            "0x0045875C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458758",
+          "roots": [
+            "0x0011AB54"
+          ],
+          "loads": [
+            "0x0011AB34"
+          ],
+          "pointer_offset": "0x0045875C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458644",
+      "live_offset": "0x00458644",
+      "source_hex": "d1d5ed00e8e300dbe3abfecedcd5e800ebd5e700d5e200d9edd9aee3e4d9e2d9e6abfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556356,
+            "spanish_offset": 4556356,
+            "status": "matched"
+          },
+          "preimage_hex": "d1d5ed00e8e300dbe3abfecedcd5e800ebd5e700d5e200d9edd9aee3e4d9e2d9e6abfbff",
+          "pointer_sites": [
+            "0x00458760"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458758",
+          "roots": [
+            "0x0011AB54"
+          ],
+          "loads": [
+            "0x0011AB34"
+          ],
+          "pointer_offset": "0x00458760"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458668",
+      "live_offset": "0x00458668",
+      "source_hex": "c9dcab00c2e3eb00d7e3e9e0d800ede3e900e9e7d900e8dcd5e8fecae3df1be1e3e200dde200e8dcd5e800e7dde8e9d5e8dde3e2acfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556392,
+            "spanish_offset": 4556392,
+            "status": "matched"
+          },
+          "preimage_hex": "c9dcab00c2e3eb00d7e3e9e0d800ede3e900e9e7d900e8dcd5e8fecae3df1be1e3e200dde200e8dcd5e800e7dde8e9d5e8dde3e2acfbff",
+          "pointer_sites": [
+            "0x00458764"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458758",
+          "roots": [
+            "0x0011AB54"
+          ],
+          "loads": [
+            "0x0011AB34"
+          ],
+          "pointer_offset": "0x00458764"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004586A0",
+      "live_offset": "0x004586A0",
+      "source_hex": "cedcd5e800cae3df1be1e3e2b0fec3e8b4e700d6d9d9e200e6d5dde7d9d800e6d9d5e0e0ed00ebd9e0e0abfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556448,
+            "spanish_offset": 4556448,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd5e800cae3df1be1e3e2b0fec3e8b4e700d6d9d9e200e6d5dde7d9d800e6d9d5e0e0ed00ebd9e0e0abfbff",
+          "pointer_sites": [
+            "0x00458768"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458758",
+          "roots": [
+            "0x0011AB54"
+          ],
+          "loads": [
+            "0x0011AB34"
+          ],
+          "pointer_offset": "0x00458768"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004586D0",
+      "live_offset": "0x004586D0",
+      "source_hex": "cedcd5e8b4e700dde8abfecedcdde700dde700e8dcd900e6dddbdce800e1e3ead900e2e3ebabfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556496,
+            "spanish_offset": 4556496,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd5e8b4e700dde8abfecedcdde700dde700e8dcd900e6dddbdce800e1e3ead900e2e3ebabfbff",
+          "pointer_sites": [
+            "0x0045876C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458758",
+          "roots": [
+            "0x0011AB54"
+          ],
+          "loads": [
+            "0x0011AB34"
+          ],
+          "pointer_offset": "0x0045876C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004586F8",
+      "live_offset": "0x004586F8",
+      "source_hex": "cedcd5e8b4e700d5ebd9e7e3e1d9abfed3e3e900d7d5e200d6d5e8e8e0d900e8dcd5e800ebd5edacfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556536,
+            "spanish_offset": 4556536,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd5e8b4e700d5ebd9e7e3e1d9abfed3e3e900d7d5e200d6d5e8e8e0d900e8dcd5e800ebd5edacfbff",
+          "pointer_sites": [
+            "0x00458770"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458758",
+          "roots": [
+            "0x0011AB54"
+          ],
+          "loads": [
+            "0x0011AB34"
+          ],
+          "pointer_offset": "0x00458770"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458724",
+      "live_offset": "0x00458724",
+      "source_hex": "d3e3e900dcd5ead900d9ece5e9dde7dde8d900e8dde1dde2db00dae3e6fee7ebdde8d7dcdde2db00cae3df1be1e3e2abfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556580,
+            "spanish_offset": 4556580,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900dcd5ead900d9ece5e9dde7dde8d900e8dde1dde2db00dae3e6fee7ebdde8d7dcdde2db00cae3df1be1e3e2abfbff",
+          "pointer_sites": [
+            "0x00458774"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458758",
+          "roots": [
+            "0x0011AB54"
+          ],
+          "loads": [
+            "0x0011AB34"
+          ],
+          "pointer_offset": "0x00458774"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045879C",
+      "live_offset": "0x0045879C",
+      "source_hex": "bee3e2b4e800e7d5ed00d5e2ede8dcdde2db00dae9e2e2ed00d5e2ede1e3e6d9abfec3b4e100e7e3e6d900dae6e3e100e0d5e9dbdcdde2dbabfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556700,
+            "spanish_offset": 4556700,
+            "status": "matched"
+          },
+          "preimage_hex": "bee3e2b4e800e7d5ed00d5e2ede8dcdde2db00dae9e2e2ed00d5e2ede1e3e6d9abfec3b4e100e7e3e6d900dae6e3e100e0d5e9dbdcdde2dbabfbff",
+          "pointer_sites": [
+            "0x004588C0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004588BC",
+          "roots": [
+            "0x0011AB98"
+          ],
+          "loads": [
+            "0x0011AB7A"
+          ],
+          "pointer_offset": "0x004588C0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004587D8",
+      "live_offset": "0x004587D8",
+      "source_hex": "c9dcacfecde3e1d9e8dcdde2db00e0dddfd900e8dcd5e800dcd5e4e4d9e2d9d8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556760,
+            "spanish_offset": 4556760,
+            "status": "matched"
+          },
+          "preimage_hex": "c9dcacfecde3e1d9e8dcdde2db00e0dddfd900e8dcd5e800dcd5e4e4d9e2d9d8adfbff",
+          "pointer_sites": [
+            "0x004588C4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004588BC",
+          "roots": [
+            "0x0011AB98"
+          ],
+          "loads": [
+            "0x0011AB7A"
+          ],
+          "pointer_offset": "0x004588C4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004587FC",
+      "live_offset": "0x004587FC",
+      "source_hex": "c2e1dce1b000d1dcd5e8acfecde300dde700e8dcdde700ebdcd5e800ede3e9b4e6d900e7d5eddde2dbacfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556796,
+            "spanish_offset": 4556796,
+            "status": "matched"
+          },
+          "preimage_hex": "c2e1dce1b000d1dcd5e8acfecde300dde700e8dcdde700ebdcd5e800ede3e9b4e6d900e7d5eddde2dbacfbff",
+          "pointer_sites": [
+            "0x004588C8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004588BC",
+          "roots": [
+            "0x0011AB98"
+          ],
+          "loads": [
+            "0x0011AB7A"
+          ],
+          "pointer_offset": "0x004588C8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458828",
+      "live_offset": "0x00458828",
+      "source_hex": "c3e700e8dcd5e800e6dddbdce8acfec300d8ddd8e2b4e800dfe2e3eb00e8dcd5e8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556840,
+            "spanish_offset": 4556840,
+            "status": "matched"
+          },
+          "preimage_hex": "c3e700e8dcd5e800e6dddbdce8acfec300d8ddd8e2b4e800dfe2e3eb00e8dcd5e8adfbff",
+          "pointer_sites": [
+            "0x004588CC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004588BC",
+          "roots": [
+            "0x0011AB98"
+          ],
+          "loads": [
+            "0x0011AB7A"
+          ],
+          "pointer_offset": "0x004588CC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045884C",
+      "live_offset": "0x0045884C",
+      "source_hex": "bbdcd5dcd5abfed1dcd5e800dde700e8dcd5e800d5d6e3e9e8acfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556876,
+            "spanish_offset": 4556876,
+            "status": "matched"
+          },
+          "preimage_hex": "bbdcd5dcd5abfed1dcd5e800dde700e8dcd5e800d5d6e3e9e8acfbff",
+          "pointer_sites": [
+            "0x004588D0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004588BC",
+          "roots": [
+            "0x0011AB98"
+          ],
+          "loads": [
+            "0x0011AB7A"
+          ],
+          "pointer_offset": "0x004588D0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458868",
+      "live_offset": "0x00458868",
+      "source_hex": "d3d9e7b800e8dcd5e8b4e700d9ecd5d7e8e0ed00dde8abfecedcd5e8b4e700ebdcd5e800c300e1d9d5e2e8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556904,
+            "spanish_offset": 4556904,
+            "status": "matched"
+          },
+          "preimage_hex": "d3d9e7b800e8dcd5e8b4e700d9ecd5d7e8e0ed00dde8abfecedcd5e8b4e700ebdcd5e800c300e1d9d5e2e8adfbff",
+          "pointer_sites": [
+            "0x004588D4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004588BC",
+          "roots": [
+            "0x0011AB98"
+          ],
+          "loads": [
+            "0x0011AB7A"
+          ],
+          "pointer_offset": "0x004588D4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458898",
+      "live_offset": "0x00458898",
+      "source_hex": "c3e200e3e8dcd9e600ebe3e6d8e7b0fed3d9e7ab00cedcd5e8b4e700e6dddbdce8abfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4556952,
+            "spanish_offset": 4556952,
+            "status": "matched"
+          },
+          "preimage_hex": "c3e200e3e8dcd9e600ebe3e6d8e7b0fed3d9e7ab00cedcd5e8b4e700e6dddbdce8abfbff",
+          "pointer_sites": [
+            "0x004588D8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004588BC",
+          "roots": [
+            "0x0011AB98"
+          ],
+          "loads": [
+            "0x0011AB7A"
+          ],
+          "pointer_offset": "0x004588D8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458918",
+      "live_offset": "0x00458918",
+      "source_hex": "c300dce3e4d900c300dbd9e800e8e300dfe2e3eb00ede3e900d6d9e8e8d9e6abfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557080,
+            "spanish_offset": 4557080,
+            "status": "matched"
+          },
+          "preimage_hex": "c300dce3e4d900c300dbd9e800e8e300dfe2e3eb00ede3e900d6d9e8e8d9e6abfbff",
+          "pointer_sites": [
+            "0x004589B0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004589AC",
+          "roots": [
+            "0x0011ABC4"
+          ],
+          "loads": [
+            "0x0011AB9E"
+          ],
+          "pointer_offset": "0x004589B0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045893C",
+      "live_offset": "0x0045893C",
+      "source_hex": "d1d9b4e6d900e7dce3ebdde2db00d9d5d7dc00e3e8dcd9e600e3e9e6fecee6d5dde2d9e600bdd5e6d8cd00e8e300dbd9e800d5d7e5e9d5dde2e8d9d8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557116,
+            "spanish_offset": 4557116,
+            "status": "matched"
+          },
+          "preimage_hex": "d1d9b4e6d900e7dce3ebdde2db00d9d5d7dc00e3e8dcd9e600e3e9e6fecee6d5dde2d9e600bdd5e6d8cd00e8e300dbd9e800d5d7e5e9d5dde2e8d9d8adfbff",
+          "pointer_sites": [
+            "0x004589B4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004589AC",
+          "roots": [
+            "0x0011ABC4"
+          ],
+          "loads": [
+            "0x0011AB9E"
+          ],
+          "pointer_offset": "0x004589B4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045897C",
+      "live_offset": "0x0045897C",
+      "source_hex": "c1e0d5d800e8e300e1d9d9e800ede3e9adfecae0d9d5e7d900d8e3e2b4e800d6d900d500e7e8e6d5e2dbd9e6abfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557180,
+            "spanish_offset": 4557180,
+            "status": "matched"
+          },
+          "preimage_hex": "c1e0d5d800e8e300e1d9d9e800ede3e9adfecae0d9d5e7d900d8e3e2b4e800d6d900d500e7e8e6d5e2dbd9e6abfbff",
+          "pointer_sites": [
+            "0x004589B8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004589AC",
+          "roots": [
+            "0x0011ABC4"
+          ],
+          "loads": [
+            "0x0011AB9E"
+          ],
+          "pointer_offset": "0x004589B8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004589E4",
+      "live_offset": "0x004589E4",
+      "source_hex": "c0dde2d5e0e0edb800d500e8e6d5d8d900dbe3e800e1d900e8dcd5e8fecae3df1be1e3e200c3b4d800ebd5e2e8d9d800d500e0e3e2db00e8dde1d9adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557284,
+            "spanish_offset": 4557284,
+            "status": "matched"
+          },
+          "preimage_hex": "c0dde2d5e0e0edb800d500e8e6d5d8d900dbe3e800e1d900e8dcd5e8fecae3df1be1e3e200c3b4d800ebd5e2e8d9d800d500e0e3e2db00e8dde1d9adfbff",
+          "pointer_sites": [
+            "0x00458A7C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458A78",
+          "roots": [
+            "0x0011AB74"
+          ],
+          "loads": [
+            "0x0011AB5A"
+          ],
+          "pointer_offset": "0x00458A7C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458A24",
+      "live_offset": "0x00458A24",
+      "source_hex": "c3b4e100e8e6d5d8dde2db00cae3df1be1e3e200e6dddbdce800e2e3ebadfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557348,
+            "spanish_offset": 4557348,
+            "status": "matched"
+          },
+          "preimage_hex": "c3b4e100e8e6d5d8dde2db00cae3df1be1e3e200e6dddbdce800e2e3ebadfbff",
+          "pointer_sites": [
+            "0x00458A88"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458A78",
+          "roots": [
+            "0x0011AB74"
+          ],
+          "loads": [
+            "0x0011AB5A"
+          ],
+          "pointer_offset": "0x00458A88"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458A44",
+      "live_offset": "0x00458A44",
+      "source_hex": "c300dadde2d5e0e0ed00dbe3e800e8dcd5e800cae3df1be1e3e200c3feebd5e2e8d9d800dde200d500e8e6d5d8d9abfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557380,
+            "spanish_offset": 4557380,
+            "status": "matched"
+          },
+          "preimage_hex": "c300dadde2d5e0e0ed00dbe3e800e8dcd5e800cae3df1be1e3e200c3feebd5e2e8d9d800dde200d500e8e6d5d8d9abfbff",
+          "pointer_sites": [
+            "0x00458A8C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00458A78",
+          "roots": [
+            "0x0011AB74"
+          ],
+          "loads": [
+            "0x0011AB5A"
+          ],
+          "pointer_offset": "0x00458A8C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458A98",
+      "live_offset": "0x00458A98",
+      "source_hex": "fd0200d7dcd9d7dfd9d800e8dcd9fececcbbbec3c8c100bcc9bbccbeadfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557464,
+            "spanish_offset": 4557464,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0200d7dcd9d7dfd9d800e8dcd9fececcbbbec3c8c100bcc9bbccbeadfbff",
+          "pointer_sites": [
+            "0x00119638"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00119638",
+          "loads": [
+            "0x00119624"
+          ],
+          "pointer_offset": "0x00119638"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458AB8",
+      "live_offset": "0x00458AB8",
+      "source_hex": "d1d9e0d7e3e1d900e8e300e8dcd900ceccbbbec3c8c100bcc9bbccbeadfbd3e3e900e1d5ed00e6d9dbdde7e8d9e600ede3e9e600cae3df1be1e3e2fed5e2d800e3dadad9e600dde800e9e400dae3e600d500e8e6d5d8d9adfbd1e3e9e0d800ede3e900e0dddfd900e8e300e6d9dbdde7e8d9e600e3e2d900e3dafeede3e9e600cae3df1be1e3e2acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557496,
+            "spanish_offset": 4557496,
+            "status": "matched"
+          },
+          "preimage_hex": "d1d9e0d7e3e1d900e8e300e8dcd900ceccbbbec3c8c100bcc9bbccbeadfbd3e3e900e1d5ed00e6d9dbdde7e8d9e600ede3e9e600cae3df1be1e3e2fed5e2d800e3dadad9e600dde800e9e400dae3e600d500e8e6d5d8d9adfbd1e3e9e0d800ede3e900e0dddfd900e8e300e6d9dbdde7e8d9e600e3e2d900e3dafeede3e9e600cae3df1be1e3e2acff",
+          "pointer_sites": [
+            "0x00119480"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00119480",
+          "loads": [
+            "0x0011946C"
+          ],
+          "pointer_offset": "0x00119480"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458B44",
+      "live_offset": "0x00458B44",
+      "source_hex": "cedcdde700ceccbbbec3c8c100bcc9bbccbe00dde700e9e7d9d800dae3e6fee3dadad9e6dde2db00d500cae3df1be1e3e200dae3e600d500e8e6d5d8d9adfbbbe0e000ede3e900e2d9d9d800e8e300d8e300dde700e6d9dbdde7e8d9e600d5fecae3df1be1e3e200dae3e600d500e8e6d5d8d9adfbbbe2e3e8dcd9e600cee6d5dde2d9e600e1d5ed00e3dadad9e600d500e4d5e6e8edfecae3df1be1e3e200dde200e6d9e8e9e6e200dae3e600e8dcd900e8e6d5d8d9adfbd1d900dce3e4d900ede3e900ebdde0e000e6d9dbdde7e8d9e600cae3df1be1e3e2fed5e2d800e8e6d5d8d900e8dcd9e100ebdde8dc00e1d5e2edb800e1d5e2edfae3e8dcd9e600cee6d5dde2d9e6e7adfbd1e3e9e0d800ede3e900e0dddfd900e8e300e6d9dbdde7e8d9e600e3e2d900e3dafeede3e9e600cae3df1be1e3e2acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4557636,
+            "spanish_offset": 4557636,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcdde700ceccbbbec3c8c100bcc9bbccbe00dde700e9e7d9d800dae3e6fee3dadad9e6dde2db00d500cae3df1be1e3e200dae3e600d500e8e6d5d8d9adfbbbe0e000ede3e900e2d9d9d800e8e300d8e300dde700e6d9dbdde7e8d9e600d5fecae3df1be1e3e200dae3e600d500e8e6d5d8d9adfbbbe2e3e8dcd9e600cee6d5dde2d9e600e1d5ed00e3dadad9e600d500e4d5e6e8edfecae3df1be1e3e200dde200e6d9e8e9e6e200dae3e600e8dcd900e8e6d5d8d9adfbd1d900dce3e4d900ede3e900ebdde0e000e6d9dbdde7e8d9e600cae3df1be1e3e2fed5e2d800e8e6d5d8d900e8dcd9e100ebdde8dc00e1d5e2edb800e1d5e2edfae3e8dcd9e600cee6d5dde2d9e6e7adfbd1e3e9e0d800ede3e900e0dddfd900e8e300e6d9dbdde7e8d9e600e3e2d900e3dafeede3e9e600cae3df1be1e3e2acff",
+          "pointer_sites": [
+            "0x001194EC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001194EC",
+          "loads": [
+            "0x001194DC"
+          ],
+          "pointer_offset": "0x001194EC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458CD4",
+      "live_offset": "0x00458CD4",
+      "source_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900e8ede4d900e3da00cae3df1be1e3e2fee8dcd5e800ede3e900ebe3e9e0d800e0dddfd900dde200e8dcd900e8e6d5d8d9adfeff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558036,
+            "spanish_offset": 4558036,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900e8ede4d900e3da00cae3df1be1e3e2fee8dcd5e800ede3e900ebe3e9e0d800e0dddfd900dde200e8dcd900e8e6d5d8d9adfeff",
+          "pointer_sites": [
+            "0x0011894C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011894C",
+          "loads": [
+            "0x00118942"
+          ],
+          "pointer_offset": "0x0011894C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458D1C",
+      "live_offset": "0x00458D1C",
+      "source_hex": "d1dcddd7dc00e3da00ede3e9e600e4d5e6e8ed00cae3df1be1e3e200ebdde0e0feede3e900e3dadad9e600dde200e8e6d5d8d9acfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558108,
+            "spanish_offset": 4558108,
+            "status": "matched"
+          },
+          "preimage_hex": "d1dcddd7dc00e3da00ede3e9e600e4d5e6e8ed00cae3df1be1e3e200ebdde0e0feede3e900e3dadad9e600dde200e8e6d5d8d9acfbff",
+          "pointer_sites": [
+            "0x001194D8",
+            "0x00119820"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001194D8",
+          "loads": [
+            "0x001194CE"
+          ],
+          "pointer_offset": "0x001194D8"
+        },
+        {
+          "kind": "code_literal",
+          "literal": "0x00119820",
+          "loads": [
+            "0x001197BC"
+          ],
+          "pointer_offset": "0x00119820"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458D54",
+      "live_offset": "0x00458D54",
+      "source_hex": "ccd9dbdde7e8e6d5e8dde3e200dcd5e700d6d9d9e200d7d5e2d7d9e0d9d8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558164,
+            "spanish_offset": 4558164,
+            "status": "matched"
+          },
+          "preimage_hex": "ccd9dbdde7e8e6d5e8dde3e200dcd5e700d6d9d9e200d7d5e2d7d9e0d9d8adfbff",
+          "pointer_sites": [
+            "0x0011892C",
+            "0x0011958C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011892C",
+          "loads": [
+            "0x00118922"
+          ],
+          "pointer_offset": "0x0011892C"
+        },
+        {
+          "kind": "code_literal",
+          "literal": "0x0011958C",
+          "loads": [
+            "0x00119578"
+          ],
+          "pointer_offset": "0x0011958C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458D78",
+      "live_offset": "0x00458D78",
+      "source_hex": "ccd9dbdde7e8e6d5e8dde3e200dcd5e700d6d9d9e200d7e3e1e4e0d9e8d9d8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558200,
+            "spanish_offset": 4558200,
+            "status": "matched"
+          },
+          "preimage_hex": "ccd9dbdde7e8e6d5e8dde3e200dcd5e700d6d9d9e200d7e3e1e4e0d9e8d9d8adfbff",
+          "pointer_sites": [
+            "0x001195B4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001195B4",
+          "loads": [
+            "0x001195A8"
+          ],
+          "pointer_offset": "0x001195B4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458D9C",
+      "live_offset": "0x00458D9C",
+      "source_hex": "cedcd900e8e6d5d8d900dcd5e700d6d9d9e200d7d5e2d7d9e0d9d8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558236,
+            "spanish_offset": 4558236,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e8e6d5d8d900dcd5e700d6d9d9e200d7d5e2d7d9e0d9d8adfbff",
+          "pointer_sites": [
+            "0x0011896C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011896C",
+          "loads": [
+            "0x00118962"
+          ],
+          "pointer_offset": "0x0011896C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458DBC",
+      "live_offset": "0x00458DBC",
+      "source_hex": "bdd5e2d7d9e000e8dcd900e6d9dbdde7e8e6d5e8dde3e200e3da00ede3e9e6fec6eaad00fd0300fd02acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558268,
+            "spanish_offset": 4558268,
+            "status": "matched"
+          },
+          "preimage_hex": "bdd5e2d7d9e000e8dcd900e6d9dbdde7e8e6d5e8dde3e200e3da00ede3e9e6fec6eaad00fd0300fd02acff",
+          "pointer_sites": [
+            "0x00119464"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00119464",
+          "loads": [
+            "0x00119444"
+          ],
+          "pointer_offset": "0x00119464"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458DE8",
+      "live_offset": "0x00458DE8",
+      "source_hex": "bdd5e2d7d9e000e8dcd900e6d9dbdde7e8e6d5e8dde3e200e3da00ede3e9e6febfdbdbacff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558312,
+            "spanish_offset": 4558312,
+            "status": "matched"
+          },
+          "preimage_hex": "bdd5e2d7d9e000e8dcd900e6d9dbdde7e8e6d5e8dde3e200e3da00ede3e9e6febfdbdbacff",
+          "pointer_sites": [
+            "0x00119410"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00119410",
+          "loads": [
+            "0x00119404"
+          ],
+          "pointer_offset": "0x00119410"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458E10",
+      "live_offset": "0x00458E10",
+      "source_hex": "cedcd900e6d9dbdde7e8e6d5e8dde3e200dcd5e700d6d9d9e200d7d5e2d7d9e0d9d8adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558352,
+            "spanish_offset": 4558352,
+            "status": "matched"
+          },
+          "preimage_hex": "cedcd900e6d9dbdde7e8e6d5e8dde3e200dcd5e700d6d9d9e200d7d5e2d7d9e0d9d8adfbff",
+          "pointer_sites": [
+            "0x00119618"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00119618",
+          "loads": [
+            "0x001195F0"
+          ],
+          "pointer_offset": "0x00119618"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458E70",
+      "live_offset": "0x00458E70",
+      "source_hex": "d1e3e9e0d800ede3e900e0dddfd900e8e300d5e7df00fd0200e8e3fee1d5dfd900d500e8e6d5d8d9acff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558448,
+            "spanish_offset": 4558448,
+            "status": "matched"
+          },
+          "preimage_hex": "d1e3e9e0d800ede3e900e0dddfd900e8e300d5e7df00fd0200e8e3fee1d5dfd900d500e8e6d5d8d9acff",
+          "pointer_sites": [
+            "0x001196E8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001196E8",
+          "loads": [
+            "0x001196D8"
+          ],
+          "pointer_offset": "0x001196E8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458ED0",
+      "live_offset": "0x00458ED0",
+      "source_hex": "d3e3e900d8e3e2b4e800dcd5ead900d500fd03aee8ede4d9fecae3df1be1e3e200e8dcd5e800fd0200ebd5e2e8e7adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558544,
+            "spanish_offset": 4558544,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900d8e3e2b4e800dcd5ead900d500fd03aee8ede4d9fecae3df1be1e3e200e8dcd5e800fd0200ebd5e2e8e7adfbff",
+          "pointer_sites": [
+            "0x00119730"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00119730",
+          "loads": [
+            "0x00119720"
+          ],
+          "pointer_offset": "0x00119730"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458F04",
+      "live_offset": "0x00458F04",
+      "source_hex": "d3e3e900d8e3e2b4e800dcd5ead900d5e200bfdbdb00e8dcd5e8fefd0200ebd5e2e8e7adfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558596,
+            "spanish_offset": 4558596,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900d8e3e2b4e800dcd5ead900d5e200bfdbdb00e8dcd5e8fefd0200ebd5e2e8e7adfbff",
+          "pointer_sites": [
+            "0x00119780"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00119780",
+          "loads": [
+            "0x00119768"
+          ],
+          "pointer_offset": "0x00119780"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458F2C",
+      "live_offset": "0x00458F2C",
+      "source_hex": "fd0200d7d5e2b4e800e1d5dfd900d500e8e6d5d8d900dae3e6feede3e9e600cae3df1be1e3e200e6dddbdce800e2e3ebadfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558636,
+            "spanish_offset": 4558636,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0200d7d5e2b4e800e1d5dfd900d500e8e6d5d8d900dae3e6feede3e9e600cae3df1be1e3e200e6dddbdce800e2e3ebadfbff",
+          "pointer_sites": [
+            "0x00458F94"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00458F94"
+        }
+      ],
+      "decision": "excluded_unrooted_table",
+      "reason": "Table héritée 0x00458F94 de 2 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00458F60",
+      "live_offset": "0x00458F60",
+      "source_hex": "d3e3e900d7d5e2b4e800e1d5dfd900d500e8e6d5d8d900dae3e6fefd02b4e700cae3df1be1e3e200e6dddbdce800e2e3ebadfbff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558688,
+            "spanish_offset": 4558688,
+            "status": "matched"
+          },
+          "preimage_hex": "d3e3e900d7d5e2b4e800e1d5dfd900d500e8e6d5d8d900dae3e6fefd02b4e700cae3df1be1e3e200e6dddbdce800e2e3ebadfbff",
+          "pointer_sites": [
+            "0x00458F98"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "historical_mirror",
+          "note": "Cellule littérale conservée cohérente avec le lecteur direct; aucune racine moteur établie vers cette copie.",
+          "pointer_offset": "0x00458F98"
+        }
+      ],
+      "decision": "excluded_unrooted_table",
+      "reason": "Table héritée 0x00458F94 de 2 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00458FBC",
+      "live_offset": "0x00458FBC",
+      "source_hex": "bfdbdb00cee6d5d8d9ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558780,
+            "spanish_offset": 4558780,
+            "status": "matched"
+          },
+          "preimage_hex": "bfdbdb00cee6d5d8d9ff",
+          "pointer_sites": [
+            "0x0011AC38"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011AC38",
+          "loads": [
+            "0x0011AC26"
+          ],
+          "pointer_offset": "0x0011AC38"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458FC6",
+      "live_offset": "0x00458FC8",
+      "source_hex": "f80abddce3e3e7d90000f800c4e3dde20000f801bdd5e2d7d9e0ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558792,
+            "spanish_offset": 4558792,
+            "status": "matched"
+          },
+          "preimage_hex": "f80abddce3e3e7d90000f800c4e3dde20000f801cdd5e0dde6ff",
+          "pointer_sites": [
+            "0x001168F8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001168F8",
+          "loads": [
+            "0x00116878"
+          ],
+          "pointer_offset": "0x001168F8"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00458FE4",
+      "live_offset": "0x00458FE4",
+      "source_hex": "cae0d9d5e7d900d7dce3e3e7d900d500cee6d5dde2d9e6adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558820,
+            "spanish_offset": 4558820,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900d7dce3e3e7d900d500cee6d5dde2d9e6adff",
+          "pointer_sites": [
+            "0x00117FBC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x00117FBC",
+          "loads": [
+            "0x00117FB0"
+          ],
+          "pointer_offset": "0x00117FBC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459000",
+      "live_offset": "0x00459000",
+      "source_hex": "cae0d9d5e7d900d7dce3e3e7d900d500cee6d5dde2d9e600dae3e6fed500cddde2dbe0d900bcd5e8e8e0d9adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558848,
+            "spanish_offset": 4558848,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900d7dce3e3e7d900d500cee6d5dde2d9e600dae3e6fed500cddde2dbe0d900bcd5e8e8e0d9adff",
+          "pointer_sites": [
+            "0x004591B8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591B8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459030",
+      "live_offset": "0x00459030",
+      "source_hex": "cae0d9d5e7d900d7dce3e3e7d900d500cee6d5dde2d9e600dae3e6fed500bee3e9d6e0d900bcd5e8e8e0d9adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558896,
+            "spanish_offset": 4558896,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900d7dce3e3e7d900d500cee6d5dde2d9e600dae3e6fed500bee3e9d6e0d900bcd5e8e8e0d9adff",
+          "pointer_sites": [
+            "0x004591BC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591BC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459060",
+      "live_offset": "0x00459060",
+      "source_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900c6d9d5d8d9e6fedae3e600d500c7e9e0e8dd00bcd5e8e8e0d9adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558944,
+            "spanish_offset": 4558944,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900c6d9d5d8d9e6fedae3e600d500c7e9e0e8dd00bcd5e8e8e0d9adff",
+          "pointer_sites": [
+            "0x004591C0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591C0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459090",
+      "live_offset": "0x00459090",
+      "source_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900cee6d5dde2d9e600e8e3fee8e6d5d8d900ebdde8dcadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4558992,
+            "spanish_offset": 4558992,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900cee6d5dde2d9e600e8e3fee8e6d5d8d900ebdde8dcadff",
+          "pointer_sites": [
+            "0x004591C4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591C4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004590BC",
+      "live_offset": "0x004590BC",
+      "source_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900cee6d5dde2d9e600ebdce300dde7fee7dcd5e6dde2db00d1e3e2d8d9e600bdd5e6d8e7adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559036,
+            "spanish_offset": 4559036,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900cee6d5dde2d9e600ebdce300dde7fee7dcd5e6dde2db00d1e3e2d8d9e600bdd5e6d8e7adff",
+          "pointer_sites": [
+            "0x004591D4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591D4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004590F4",
+      "live_offset": "0x004590F4",
+      "source_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900cee6d5dde2d9e600ebdce300dde7fee7dcd5e6dde2db00d1e3e2d8d9e600c8d9ebe7adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559092,
+            "spanish_offset": 4559092,
+            "status": "matched"
+          },
+          "preimage_hex": "cae0d9d5e7d900d7dce3e3e7d900e8dcd900cee6d5dde2d9e600ebdce300dde7fee7dcd5e6dde2db00d1e3e2d8d9e600c8d9ebe7adff",
+          "pointer_sites": [
+            "0x004591D8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591D8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045912C",
+      "live_offset": "0x0045912C",
+      "source_hex": "c4e9e1e400ebdde8dc00e1dde2dd00cae3df1be1e3e2abfecae0d9d5e7d900d7dce3e3e7d900e8dcd900c6d9d5d8d9e6adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559148,
+            "spanish_offset": 4559148,
+            "status": "matched"
+          },
+          "preimage_hex": "c4e9e1e400ebdde8dc00e1dde2dd00cae3df1be1e3e2abfecae0d9d5e7d900d7dce3e3e7d900e8dcd900c6d9d5d8d9e6adff",
+          "pointer_sites": [
+            "0x004591C8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591C8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459160",
+      "live_offset": "0x00459160",
+      "source_hex": "bcd9e6e6ed00bde6e9e7dcabfecae0d9d5e7d900d7dce3e3e7d900e8dcd900c6d9d5d8d9e6adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559200,
+            "spanish_offset": 4559200,
+            "status": "matched"
+          },
+          "preimage_hex": "bcd9e6e6ed00bde6e9e7dcabfecae0d9d5e7d900d7dce3e3e7d900e8dcd900c6d9d5d8d9e6adff",
+          "pointer_sites": [
+            "0x004591CC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591CC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459188",
+      "live_offset": "0x00459188",
+      "source_hex": "bee3d8e6dde300bcd9e6e6edaecaddd7dfdde2dbabfecae0d9d5e7d900d7dce3e3e7d900e8dcd900c6d9d5d8d9e6adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559240,
+            "spanish_offset": 4559240,
+            "status": "matched"
+          },
+          "preimage_hex": "bee3d8e6dde300bcd9e6e6edaecaddd7dfdde2dbabfecae0d9d5e7d900d7dce3e3e7d900e8dcd900c6d9d5d8d9e6adff",
+          "pointer_sites": [
+            "0x004591D0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004591B8",
+          "roots": [
+            "0x00116830"
+          ],
+          "loads": [
+            "0x00116810"
+          ],
+          "pointer_offset": "0x004591D0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459235",
+      "live_offset": "0x00459238",
+      "source_hex": "bbebd5dde8dde2db00fd02b4e700e6d9e7e4e3e2e7d9b0ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559416,
+            "spanish_offset": 4559416,
+            "status": "matched"
+          },
+          "preimage_hex": "bbebd5dde8dde2db00fd02b4e700e6d9e7e4e3e2e7d9b0ff",
+          "pointer_sites": [
+            "0x0011639C",
+            "0x00118184"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011639C",
+          "loads": [
+            "0x00116390"
+          ],
+          "pointer_offset": "0x0011639C"
+        },
+        {
+          "kind": "code_literal",
+          "literal": "0x00118184",
+          "loads": [
+            "0x00118150"
+          ],
+          "pointer_offset": "0x00118184"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459250",
+      "live_offset": "0x00459250",
+      "source_hex": "fd0200dcd5e700d6d9d9e200d5e7dfd9d800e8e300e6d9dbdde7e8d9e6feede3e900d5e700d500e1d9e1d6d9e6ad00cae0d9d5e7d900ebd5dde8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559440,
+            "spanish_offset": 4559440,
+            "status": "matched"
+          },
+          "preimage_hex": "fd0200dcd5e700d6d9d9e200d5e7dfd9d800e8e300e6d9dbdde7e8d9e6feede3e900d5e700d500e1d9e1d6d9e6ad00cae0d9d5e7d900ebd5dde8adff",
+          "pointer_sites": [
+            "0x001163AC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001163AC",
+          "loads": [
+            "0x001163A0"
+          ],
+          "pointer_offset": "0x001163AC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045928C",
+      "live_offset": "0x0045928C",
+      "source_hex": "bbebd5dde8dde2db00d500e6d9e7e4e3e2e7d900dae6e3e100e8dcd9fed1dde6d9e0d9e7e700bde3e1e1e9e2ddd7d5e8dde3e200cdede7e8d9e1adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559500,
+            "spanish_offset": 4559500,
+            "status": "matched"
+          },
+          "preimage_hex": "bbebd5dde8dde2db00d500e6d9e7e4e3e2e7d900dae6e3e100e8dcd9fed1dde6d9e0d9e7e700bde3e1e1e9e2ddd7d5e8dde3e200cdede7e8d9e1adff",
+          "pointer_sites": [
+            "0x001184FC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x001184FC",
+          "loads": [
+            "0x001184C8"
+          ],
+          "pointer_offset": "0x001184FC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004592E8",
+      "live_offset": "0x004592E8",
+      "source_hex": "c8e300bdd5e6d8e700d5e4e4d9d5e600e8e300d6d900e7dcd5e6d9d800fee6dddbdce800e2e3ebadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559592,
+            "spanish_offset": 4559592,
+            "status": "matched"
+          },
+          "preimage_hex": "c8e300bdd5e6d8e700d5e4e4d9d5e600e8e300d6d900e7dcd5e6d9d800fee6dddbdce800e2e3ebadff",
+          "pointer_sites": [
+            "0x0045933C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045933C",
+          "roots": [
+            "0x001185E0"
+          ],
+          "loads": [
+            "0x001185B8"
+          ],
+          "pointer_offset": "0x0045933C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459314",
+      "live_offset": "0x00459314",
+      "source_hex": "c8e300c8d9ebe700d5e4e4d9d5e6e700e8e300d6d900e7dcd5e6d9d8fee6dddbdce800e2e3ebadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559636,
+            "spanish_offset": 4559636,
+            "status": "matched"
+          },
+          "preimage_hex": "c8e300c8d9ebe700d5e4e4d9d5e6e700e8e300d6d900e7dcd5e6d9d8fee6dddbdce800e2e3ebadff",
+          "pointer_sites": [
+            "0x00459340"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x0045933C",
+          "roots": [
+            "0x001185E0"
+          ],
+          "loads": [
+            "0x001185B8"
+          ],
+          "pointer_offset": "0x00459340"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045934B",
+      "live_offset": "0x0045934C",
+      "source_hex": "bddcd5e8ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559692,
+            "spanish_offset": 4559692,
+            "status": "matched"
+          },
+          "preimage_hex": "bddcd5e8ff",
+          "pointer_sites": [
+            "0x00456E0C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "list_menu",
+          "table": "0x00456DFC",
+          "stride": 8,
+          "template": "0x00456E1C",
+          "roots": [
+            "0x00118C90"
+          ],
+          "pointer_offset": "0x00456E0C"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459351",
+      "live_offset": "0x00459354",
+      "source_hex": "c1e6d9d9e8dde2dbe7ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559700,
+            "spanish_offset": 4559700,
+            "status": "matched"
+          },
+          "preimage_hex": "c1e6d9d9e8dde2dbe7ff",
+          "pointer_sites": [
+            "0x00456DFC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "list_menu",
+          "table": "0x00456DFC",
+          "stride": 8,
+          "template": "0x00456E1C",
+          "roots": [
+            "0x00118C90"
+          ],
+          "pointer_offset": "0x00456DFC"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045935E",
+      "live_offset": "0x00459360",
+      "source_hex": "bfecdde8ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559712,
+            "spanish_offset": 4559712,
+            "status": "matched"
+          },
+          "preimage_hex": "bfecdde8ff",
+          "pointer_sites": [
+            "0x00456E14",
+            "0x00456E4C",
+            "0x00456EFC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "list_menu",
+          "table": "0x00456DFC",
+          "stride": 8,
+          "template": "0x00456E1C",
+          "roots": [
+            "0x00118C90"
+          ],
+          "pointer_offset": "0x00456E14"
+        },
+        {
+          "kind": "list_menu",
+          "table": "0x00456E3C",
+          "stride": 8,
+          "template": "0x00456E54",
+          "roots": [
+            "0x001194C0"
+          ],
+          "pointer_offset": "0x00456E4C"
+        },
+        {
+          "kind": "list_menu",
+          "table": "0x00456E74",
+          "stride": 8,
+          "template": "0x00456F04",
+          "roots": [
+            "0x00119584"
+          ],
+          "pointer_offset": "0x00456EFC"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459365",
+      "live_offset": "0x00459368",
+      "source_hex": "bfecdde8ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559720,
+            "spanish_offset": 4559720,
+            "status": "matched"
+          },
+          "preimage_hex": "bfecdde8ff",
+          "pointer_sites": [
+            "0x00456F74"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "list_menu",
+          "table": "0x00456F2C",
+          "stride": 8,
+          "template": "0x00456F7C",
+          "roots": [
+            "0x0011968C",
+            "0x0011ACFC"
+          ],
+          "pointer_offset": "0x00456F74"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045936D",
+      "live_offset": "0x00459370",
+      "source_hex": "c3e2dae3ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559728,
+            "spanish_offset": 4559728,
+            "status": "matched"
+          },
+          "preimage_hex": "c3e2dae3ff",
+          "pointer_sites": [
+            "0x00456E44"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "list_menu",
+          "table": "0x00456E3C",
+          "stride": 8,
+          "template": "0x00456E54",
+          "roots": [
+            "0x001194C0"
+          ],
+          "pointer_offset": "0x00456E44"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459378",
+      "live_offset": "0x00459378",
+      "source_hex": "c8d5e1d9fc133cd1d5e2e8d9d8fc136ec9dadad9e6fc13c6c6eaadff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559736,
+            "spanish_offset": 4559736,
+            "status": "matched"
+          },
+          "preimage_hex": "c8d5e1d9fc133cd1d5e2e8d9d8fc136ec9dadad9e6fc13c6c8eaadff",
+          "pointer_sites": [
+            "0x0011A1F8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "code_literal",
+          "literal": "0x0011A1F8",
+          "loads": [
+            "0x0011A1CA"
+          ],
+          "pointer_offset": "0x0011A1F8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "engine_layout": true,
+        "initial_font": 0,
+        "max_lines": 1,
+        "max_width": 216,
+        "preserve_line_count": true,
+        "max_bytes": 512,
+        "max_expanded_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459394",
+      "live_offset": "0x00459394",
+      "source_hex": "cddde2dbe0d900bcd5e8e8e0d9ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559764,
+            "spanish_offset": 4559764,
+            "status": "matched"
+          },
+          "preimage_hex": "cddde2dbe0d900bcd5e8e8e0d9ff",
+          "pointer_sites": [
+            "0x00456C78"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C78"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004593A2",
+      "live_offset": "0x004593A4",
+      "source_hex": "bee3e9d6e0d900bcd5e8e8e0d9ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559780,
+            "spanish_offset": 4559780,
+            "status": "matched"
+          },
+          "preimage_hex": "bee3e9d6e0d900bcd5e8e8e0d9ff",
+          "pointer_sites": [
+            "0x00456C7C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C7C"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004593B2",
+      "live_offset": "0x004593B4",
+      "source_hex": "c7e9e0e8dd00bcd5e8e8e0d9ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559796,
+            "spanish_offset": 4559796,
+            "status": "matched"
+          },
+          "preimage_hex": "c7e9e0e8dd00bcd5e8e8e0d9ff",
+          "pointer_sites": [
+            "0x00456C80"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C80"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004593C1",
+      "live_offset": "0x004593C4",
+      "source_hex": "cae3df1be1e3e200cee6d5d8d9e7ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559812,
+            "spanish_offset": 4559812,
+            "status": "matched"
+          },
+          "preimage_hex": "cae3df1be1e3e200cee6d5d8d9e7ff",
+          "pointer_sites": [
+            "0x00456C84"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C84"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004593D3",
+      "live_offset": "0x004593D4",
+      "source_hex": "bddcd5e8ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559828,
+            "spanish_offset": 4559828,
+            "status": "matched"
+          },
+          "preimage_hex": "bddcd5e8ff",
+          "pointer_sites": [
+            "0x00456C88"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C88"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004593D9",
+      "live_offset": "0x004593DC",
+      "source_hex": "bdd5e6d8e7ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559836,
+            "spanish_offset": 4559836,
+            "status": "matched"
+          },
+          "preimage_hex": "bdd5e6d8e7ff",
+          "pointer_sites": [
+            "0x00456C94"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C94"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004593E2",
+      "live_offset": "0x004593E4",
+      "source_hex": "d1e3e2d8d9e600bdd5e6d8e7ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559844,
+            "spanish_offset": 4559844,
+            "status": "matched"
+          },
+          "preimage_hex": "d1e3e2d8d9e600bdd5e6d8e7ff",
+          "pointer_sites": [
+            "0x00456C8C",
+            "0x00456CC8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C8C"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456CC8"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004593F1",
+      "live_offset": "0x004593F4",
+      "source_hex": "d1e3e2d8d9e600c8d9ebe7ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559860,
+            "spanish_offset": 4559860,
+            "status": "matched"
+          },
+          "preimage_hex": "d1e3e2d8d9e600c8d9ebe7ff",
+          "pointer_sites": [
+            "0x00456C90",
+            "0x00456CCC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C90"
+        },
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456CCC"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459400",
+      "live_offset": "0x00459400",
+      "source_hex": "cae3df1be1e3e200c4e9e1e4ff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559872,
+            "spanish_offset": 4559872,
+            "status": "matched"
+          },
+          "preimage_hex": "cae3df1be1e3e200c4e9e1e4ff",
+          "pointer_sites": [
+            "0x00456C98"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C98"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045940D",
+      "live_offset": "0x00459410",
+      "source_hex": "bcd9e6e6ed00bde6e9e7dcff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559888,
+            "spanish_offset": 4559888,
+            "status": "matched"
+          },
+          "preimage_hex": "bcd9e6e6ed00bde6e9e7dcff",
+          "pointer_sites": [
+            "0x00456C9C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456C9C"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045942A",
+      "live_offset": "0x0045942C",
+      "source_hex": "cdd9d5e6d7dcff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559916,
+            "spanish_offset": 4559916,
+            "status": "matched"
+          },
+          "preimage_hex": "cdd9d5e6d7dcff",
+          "pointer_sites": [
+            "0x00456CA4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00456C74",
+          "roots": [
+            "0x00115C9C",
+            "0x00116B3C",
+            "0x00117BA0"
+          ],
+          "loads": [
+            "0x00115C62",
+            "0x00116B16",
+            "0x00117B7E"
+          ],
+          "pointer_offset": "0x00456CA4"
+        }
+      ],
+      "decision": "text_alias",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045944C",
+      "live_offset": "0x0045944C",
+      "source_hex": "c3e8b4e700d500c8e3e6e1d5e000bdd5e6d8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559948,
+            "spanish_offset": 4559948,
+            "status": "matched"
+          },
+          "preimage_hex": "c3e8b4e700d500c8e3e6e1d5e000bdd5e6d8adff",
+          "pointer_sites": [
+            "0x004594B0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004594B0",
+          "roots": [
+            "0x0011B4B8"
+          ],
+          "loads": [
+            "0x0011B37E"
+          ],
+          "pointer_offset": "0x004594B0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459460",
+      "live_offset": "0x00459460",
+      "source_hex": "c3e8b4e700d500bce6e3e2eed900bdd5e6d8abff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559968,
+            "spanish_offset": 4559968,
+            "status": "matched"
+          },
+          "preimage_hex": "c3e8b4e700d500bce6e3e2eed900bdd5e6d8abff",
+          "pointer_sites": [
+            "0x004594B4"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004594B0",
+          "roots": [
+            "0x0011B4B8"
+          ],
+          "loads": [
+            "0x0011B37E"
+          ],
+          "pointer_offset": "0x004594B4"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459474",
+      "live_offset": "0x00459474",
+      "source_hex": "c3e8b4e700d500bde3e4e4d9e600bdd5e6d8abff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4559988,
+            "spanish_offset": 4559988,
+            "status": "matched"
+          },
+          "preimage_hex": "c3e8b4e700d500bde3e4e4d9e600bdd5e6d8abff",
+          "pointer_sites": [
+            "0x004594B8"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004594B0",
+          "roots": [
+            "0x0011B4B8"
+          ],
+          "loads": [
+            "0x0011B37E"
+          ],
+          "pointer_offset": "0x004594B8"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459488",
+      "live_offset": "0x00459488",
+      "source_hex": "c3e8b4e700d500cddde0ead9e600bdd5e6d8abff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4560008,
+            "spanish_offset": 4560008,
+            "status": "matched"
+          },
+          "preimage_hex": "c3e8b4e700d500cddde0ead9e600bdd5e6d8abff",
+          "pointer_sites": [
+            "0x004594BC"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004594B0",
+          "roots": [
+            "0x0011B4B8"
+          ],
+          "loads": [
+            "0x0011B37E"
+          ],
+          "pointer_offset": "0x004594BC"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x0045949C",
+      "live_offset": "0x0045949C",
+      "source_hex": "c3e8b4e700d500c1e3e0d800bdd5e6d8abff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4560028,
+            "spanish_offset": 4560028,
+            "status": "matched"
+          },
+          "preimage_hex": "c3e8b4e700d500c1e3e0d800bdd5e6d8abff",
+          "pointer_sites": [
+            "0x004594C0"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x004594B0",
+          "roots": [
+            "0x0011B4B8"
+          ],
+          "loads": [
+            "0x0011B37E"
+          ],
+          "pointer_offset": "0x004594C0"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459544",
+      "live_offset": "0x00459544",
+      "source_hex": "f701f000c1e0d5d800e8e300dcd5ead900e1d9e800ede3e9abfc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4560196,
+            "spanish_offset": 4560196,
+            "status": "matched"
+          },
+          "preimage_hex": "f701f000c1e0d5d800e8e300dcd5ead900e1d9e800ede3e9abfc083cff",
+          "pointer_sites": [
+            "0x00459580"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00459580",
+          "roots": [
+            "0x0011B500"
+          ],
+          "loads": [
+            "0x0011B4D6"
+          ],
+          "pointer_offset": "0x00459580"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x00459564",
+      "live_offset": "0x00459564",
+      "source_hex": "f701f000c1e0d5d800e8e300e1d9d9e800ede3e9abfc083cff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4560228,
+            "spanish_offset": 4560228,
+            "status": "matched"
+          },
+          "preimage_hex": "f701f000c1e0d5d800e8e300e1d9d9e800ede3e9abfc083cff",
+          "pointer_sites": [
+            "0x00459584"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "indexed_pointer_table",
+          "table": "0x00459580",
+          "roots": [
+            "0x0011B500"
+          ],
+          "loads": [
+            "0x0011B4D6"
+          ],
+          "pointer_offset": "0x00459584"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    },
+    {
+      "offset": "0x004595B0",
+      "live_offset": "0x004595B0",
+      "source_hex": "bdd5e2d7d9e0d9d800e6d9d5d8dde2db00e8dcd900bdd5e6d8adff",
+      "spanish_matches": [
+        {
+          "mapping": {
+            "english_offset": 4560304,
+            "spanish_offset": 4560304,
+            "status": "matched"
+          },
+          "preimage_hex": "bdd5e2d7d9e0d9d800e6d9d5d8dde2db00e8dcd900bdd5e6d8adff",
+          "pointer_sites": [
+            "0x0045960C"
+          ]
+        }
+      ],
+      "consumers": [
+        {
+          "kind": "event_script",
+          "script": "0x004595EC",
+          "roots": [
+            "0x00468B08"
+          ],
+          "note": "Tableau de commandes u32 Mystery Event; cellule texte du message 27 à +32.",
+          "pointer_offset": "0x0045960C"
+        }
+      ],
+      "decision": "system_route",
+      "layout": {
+        "preserve_control_flow": true,
+        "max_bytes": 512
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "offset": "0x004566C8",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x004566E8",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x00456708",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x00456728",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x0045687C",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x0045689C",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x004568BC",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x004568DC",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x004571B7",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004571B8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004571DE",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004571E0 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045749D",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004574A0 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004574C1",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004574C4 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004574E9",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004574EC doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457512",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457514 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045752E",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457530 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004575A3",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004575A4 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004576C2",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004576C4 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457731",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457734 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004577B9",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004577BC doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004577F5",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004577F8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457860",
+      "reason": "Table héritée 0x00457898 de 2 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00457879",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x0045787C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045787C",
+      "reason": "Table héritée 0x00457898 de 2 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x004578BA",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004578BC doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457A97",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457A98 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457B2A",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457B2C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457B2C",
+      "reason": "Table héritée 0x00457B80 de 4 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00457B4C",
+      "reason": "Table héritée 0x00457B80 de 4 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00457BAF",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457BB0 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457C47",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457C48 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457CA3",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457CA4 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457CF6",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457CF8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457E0A",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457E0C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457E41",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457E44 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457E5D",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457E60 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457EBD",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457EC0 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457EFD",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457F00 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00457FE6",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00457FE8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458053",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458054 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458087",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458088 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004580BE",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004580C0 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458161",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458164 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045817E",
+      "reason": "Le référent graphique signalé dans PT-17 ne prouve pas un lecteur texte ; qualification moteur requise."
+    },
+    {
+      "offset": "0x004581AD",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004581B0 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004581D6",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004581D8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004581F6",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004581F8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458217",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458218 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458314",
+      "reason": "11AE90 charge une table : 458314→458260, 458318→4582C0. Ne pas traduire les huit octets en préfixe."
+    },
+    {
+      "offset": "0x00458369",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x0045836C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458479",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x0045847C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004584FB",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004584FC doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458527",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458528 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458596",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458598 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458617",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458618 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458643",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458644 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045869F",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004586A0 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004586CD",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004586D0 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458722",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458724 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458799",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x0045879C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004587D7",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004587D8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004587FB",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004587FC doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458896",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458898 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458915",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458918 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045893A",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x0045893C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045897B",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x0045897C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004589E3",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004589E4 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458A22",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458A24 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458AB7",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458AB8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458B41",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458B44 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458CD3",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458CD4 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458D19",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458D1C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458D52",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458D54 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458D75",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458D78 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458D9A",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458D9C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458DBA",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458DBC doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458DE7",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458DE8 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458E0D",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458E10 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458E6E",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458E70 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458F01",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458F04 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458F2A",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458F2C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458F2C",
+      "reason": "Table héritée 0x00458F94 de 2 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00458F5F",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458F60 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458F60",
+      "reason": "Table héritée 0x00458F94 de 2 cellules sans racine littérale ni charge PC dans le code moteur; aucun consommateur actif établi. Refus conservatoire, aucune phrase injectée."
+    },
+    {
+      "offset": "0x00458FE3",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00458FE4 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00458FFD",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459000 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045902D",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459030 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045905D",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459060 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045908D",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459090 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004590B9",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004590BC doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004590F3",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x004590F4 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045912A",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x0045912C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x0045915E",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459160 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00459187",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459188 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00459311",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459314 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00459375",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459378 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00459449",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x0045944C doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00459541",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459544 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x00459561",
+      "reason": "Préfixe 00, sans lecteur propre ; seul le début vivant contractuel 0x00459564 doit recevoir la traduction."
+    },
+    {
+      "offset": "0x004716B4",
+      "reason": "Motifs binaires répétitifs, non une phrase ; aucune injection proposée."
+    },
+    {
+      "offset": "0x00475638",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AAC1",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AAC7",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AACD",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AAD3",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AAD9",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AAFD",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AB03",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AB09",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AB0F",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047AB15",
+      "reason": "Lettres de saisie, pas un mot anglais à traduire ; conserver ordre et casse."
+    },
+    {
+      "offset": "0x0047B7AB",
+      "reason": "Extraction démarrant dans les métadonnées avant un nom d’espèce ; ne pas injecter."
+    },
+    {
+      "offset": "0x0047B85B",
+      "reason": "Extraction démarrant dans les métadonnées avant un nom d’espèce ; ne pas injecter."
+    },
+    {
+      "offset": "0x0047B898",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047BC78",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047C058",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047C432",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047C57A",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047C818",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047C960",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047D798",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047DB78",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047DF58",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047E277",
+      "reason": "Extraction démarrant dans les métadonnées avant un nom d’espèce ; ne pas injecter."
+    },
+    {
+      "offset": "0x0047E338",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047E480",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047E718",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047E860",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047EDEB",
+      "reason": "Extraction démarrant dans les métadonnées avant un nom d’espèce ; ne pas injecter."
+    },
+    {
+      "offset": "0x0047EE9B",
+      "reason": "Extraction démarrant dans les métadonnées avant un nom d’espèce ; ne pas injecter."
+    },
+    {
+      "offset": "0x0047F698",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047FA78",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x0047FE58",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00480234",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00480380",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00480618",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00480760",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x004814AB",
+      "reason": "Extraction démarrant dans les métadonnées avant un nom d’espèce ; ne pas injecter."
+    },
+    {
+      "offset": "0x00481598",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00481978",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00481D58",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00482138",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00482280",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00482518",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    },
+    {
+      "offset": "0x00482660",
+      "reason": "D-849 : nom propre EN conservé dans sa cellule, espaces inclus ; accès par structure, pas pointeur vers chaque nom."
+    }
+  ],
+  "notes": [
+    "Six textes dont seules références sont des tables sans racine sont refusés, pas certifiés vivants.",
+    "Les autres routes simples protègent les commandes et 512 octets; preserve_control_flow ne certifie pas les expansions FD runtime."
+  ]
+}

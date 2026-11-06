@@ -22,6 +22,8 @@ class EngineTextLayout:
             raise ValueError('Métriques moteur absentes ou incomplètes')
         widths = [0]
         expanded = 0
+        page_lines = 1
+        paged = bool(layout.get('paged_dialogue'))
         i = 0
         while i < len(raw):
             value = raw[i]
@@ -34,6 +36,9 @@ class EngineTextLayout:
                     raise ValueError('Capacité du tampon expansé dépassée')
                 return widths
             if value == 0xFE:
+                page_lines += 1
+                if paged and page_lines > layout['max_lines']:
+                    raise ValueError('budget de lignes par page dépassé')
                 widths.append(0)
             elif value == 0xFC:
                 if i + 1 >= len(raw):
@@ -49,6 +54,9 @@ class EngineTextLayout:
                     if widths[-1] > argument:
                         raise ValueError('Nom dépassant la colonne de prix')
                     widths[-1] = argument
+                elif command == 0x08 and command in layout.get('allowed_fc', []):
+                    # PAUSE consomme son argument sans déplacer le curseur.
+                    pass
                 else:
                     raise ValueError('Commande moteur non qualifiée')
             elif value in (0xF7, 0xF8, 0xF9, 0xFD):
@@ -70,7 +78,10 @@ class EngineTextLayout:
                 else:
                     raise ValueError('Commande ou tampon moteur non qualifié')
             elif value in (0xFA, 0xFB):
-                raise ValueError('Pagination interdite dans cette fenêtre')
+                if not paged:
+                    raise ValueError('Pagination interdite dans cette fenêtre')
+                page_lines = 1 if value == 0xFB else min(page_lines + 1, layout['max_lines'])
+                widths.append(0)
             else:
                 widths[-1] += fonts[font][value]
         raise ValueError('Terminateur absent dans cette fenêtre')

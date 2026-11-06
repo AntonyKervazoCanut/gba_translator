@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "offset": "0x00482874",
+      "source_hex": "cedcd900dae3d900dde700d5e8e8d5d7dfd9d8feebdde8dc00d500e7dcd5e6e400d7dce3e4adfec3e800dcd5e700d500dcdddbdcfed7e6dde8ddd7d5e0aedcdde800e6d5e8dde3adff",
+      "pointer_offsets": [
+        4753132,
+        9453572,
+        10088856
+      ],
+      "move_ids": [
+        2
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      }
+    },
+    {
+      "offset": "0x004828BD",
+      "source_hex": "cedcd900dae3d900dde700e7e0d5e4e4d9d8fee6d9e4d9d5e8d9d8e0edb800d6d5d7dffed5e2d800dae3e6e8dcb800e8ebe300e8e3fedaddead900e8dde1d9e7adff",
+      "pointer_offsets": [
+        4753136,
+        9453576,
+        10088860
+      ],
+      "move_ids": [
+        3
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      }
+    },
+    {
+      "offset": "0x004828FF",
+      "source_hex": "cedcd900dae3d900dde700dcdde800ebdde8dcfed500dae0e9e6e6ed00e3da00e4e9e2d7dcd9e7fee8dcd5e800e7e8e6dddfd900e8ebe300e8e3fedaddead900e8dde1d9e7adff",
+      "pointer_offsets": [
+        4753140,
+        9453580,
+        10088864
+      ],
+      "move_ids": [
+        4
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      }
+    },
+    {
+      "offset": "0x00482946",
+      "source_hex": "cedcd900dae3d900dde700e7e0e9dbdbd9d8fed6ed00d500e4e9e2d7dc00e8dce6e3ebe2feebdde8dc00e1e9e7d7e0d9aee4d5d7dfd9d8fee4e3ebd9e6adff",
+      "pointer_offsets": [
+        4753144,
+        9453584,
+        10088868
+      ],
+      "move_ids": [
+        5
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      }
+    },
+    {
+      "offset": "0x00482985",
+      "source_hex": "c8e9e1d9e6e3e9e700d7e3dde2e700d5e6d9fedce9e6e0d9d800d5e800e8dcd900dae3d9adfec7e3e2d9ed00dde700d9d5e6e2d9d8fed5dae8d9e600d6d5e8e8e0d9adff",
+      "pointer_offsets": [
+        4753148,
+        9453588,
+        10088872
+      ],
+      "move_ids": [
+        6
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      }
+    },
+    {
+      "offset": "0x004829C9",
+      "source_hex": "cedcd900dae3d900dde700e4e9e2d7dcd9d8feebdde8dc00d500daddd9e6ed00dadde7e8adfec3e800e1d5ed00e0d9d5ead900e8dcd9fedae3d900ebdde8dc00d500d6e9e6e2adff",
+      "pointer_offsets": [
+        4753152,
+        9453592,
+        10088876
+      ],
+      "move_ids": [
+        7
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      }
+    }
+  ],
+  "guards": [
+    {
+      "offset": "0x000E5440",
+      "hex": "94f19908"
+    },
+    {
+      "offset": "0x00137BC8",
+      "hex": "94f19908"
+    },
+    {
+      "offset": "0x009F3B64",
+      "hex": "94f19908"
+    },
+    {
+      "offset": "0x000E541A",
+      "hex": "0949681e8000401801680094019405200122002300f0b5f8",
+      "reason": "lecture table moves, seconde surface"
+    },
+    {
+      "offset": "0x000E5658",
+      "hex": "50460490281c03213a1c331c48f09eff",
+      "reason": "impression seconde surface en police3"
+    },
+    {
+      "offset": "0x00137B6A",
+      "hex": "3a6814192078fe210091019102960395134b444621784900124c12195218118801398900c91809680491022102222623f6f703fd",
+      "reason": "résumé police2 table moves"
+    },
+    {
+      "offset": "0x000E5440",
+      "hex": "94f19908",
+      "reason": "racine moves"
+    },
+    {
+      "offset": "0x00137BC8",
+      "hex": "94f19908",
+      "reason": "racine moves"
+    },
+    {
+      "offset": "0x009F3B38",
+      "hex": "10b5094b040001f00df9042807d12000fff736ff054b01388000c05810bd2000034b01f0fff8f9e7d9a9090894f19908",
+      "reason": "accesseur description CT/MO dynamique"
+    },
+    {
+      "offset": "0x00125A8C",
+      "hex": "2a2ba409",
+      "reason": "racine liste CT"
+    },
+    {
+      "offset": "0x01A42B2A",
+      "hex": "0801510160015b012e005c00020153014b01ed00f1000d013a003b003f007100b600f000ca00db00da004c00e700550057005900d8005b005e00f7001801680073005f013500bc00c9007e003d014c010301070122019c00d500a800d3001d0163013b018b0176017501ce00cc0199016c01cb007201730105013e01a60199008d01ae011601780189019400ad0168015600fe010e00d4019601a1016f019d009001d600cb01a8018a007901cf00c301ba01a400c101bb01bc01da01a301940197019e01a7013a023b02d2011302f60146026202b801a2010402d101fc01f7011a02fa019f02780283024302a3020b010f001300390046002301f9007f008801",
+      "reason": "128 move_ids CT/MO (120 CT +8 MO)"
+    },
+    {
+      "offset": "0x000066F4",
+      "hex": "00732008",
+      "reason": "racine largeurs police2"
+    },
+    {
+      "offset": "0x00207300",
+      "hex": "060606060606060606060606060606060806060606060606060606060606060606060606060806060606060609080806060606060a08050606060606060606060606060606060606060606060606060606060608080808080804060805050606060606060606060606060606060606060606060606060606060c0c0c0c0606060606060608080806060606060606060606060606060606060606060606060606080606060606060606060606060506050606060303060608050906060606060606060606060606060606060606060606060606060606060606060506060406050506050606060505050606060606060805060606060606060606060606060606",
+      "reason": "largeurs police2 identiques GLYPH_WIDTHS"
+    },
+    {
+      "offset": "0x000067C0",
+      "hex": "181cfff7f9fef0bc01bc",
+      "reason": "font3 latin délègue à décompresseur font2 65B8"
+    },
+    {
+      "offset": "0x000067CC",
+      "hex": "00b50004020c012906d002481018007803e00000007320080a2002bc0847",
+      "reason": "largeurs font3 latin pointent même table207300"
+    }
+  ],
+  "excluded": []
+}

@@ -1,0 +1,419 @@
+{
+  "ticket": "F-1044",
+  "dependency": "F-1042 / 041bf40b",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "entries": [
+    {
+      "offset": "0x00482874",
+      "source_hex": "cedcd900dae3d900dde700d5e8e8d5d7dfd9d8feebdde8dc00d500e7dcd5e6e400d7dce3e4adfec3e800dcd5e700d500dcdddbdcfed7e6dde8ddd7d5e0aedcdde800e6d5e8dde3adff",
+      "pointer_offsets": [
+        4753132,
+        9453572,
+        10088856
+      ],
+      "move_ids": [
+        2
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      },
+      "decision": "route_description_active",
+      "en_clean": "The foe is attacked\\nwith a sharp chop.\\nIt has a high\\ncritical-hit ratio.",
+      "correspondances_es": [
+        {
+          "mapping": {
+            "english_offset": 4728948,
+            "spanish_offset": 4728948,
+            "status": "matched"
+          },
+          "preimage_hex": "bed500e9e200dbe3e0e4d9fed7e3e6e8d5e2e8d9adfecde9d9e0d900e7d9e600d500ead9d7d9e7fee1e9ed00d7e66fe8ddd7e3ad0000000000000000000000000000000000000000ff",
+          "pointer_sites": [
+            "0x004886EC",
+            "0x00904004",
+            "0x0099F198"
+          ]
+        }
+      ],
+      "source_sha256": "3332248148af863b1ee75f803d92c271afdb7ad762ae525cd0c8dc883b841c06",
+      "es_preimage_sha256": "771112ec510f211e6f8010a641eda3003032278d31856a66d9dbba6d47dfcdf5",
+      "consumer_qualification": {
+        "active_table": "0x99f198",
+        "legacy_mirrors": [
+          "0x4886ec",
+          "0x904004"
+        ],
+        "roots": [
+          "0x000E5440",
+          "0x00137BC8",
+          "0x009F3B64"
+        ],
+        "gItems": [],
+        "tm_hm_ids": []
+      }
+    },
+    {
+      "offset": "0x004828BD",
+      "source_hex": "cedcd900dae3d900dde700e7e0d5e4e4d9d8fee6d9e4d9d5e8d9d8e0edb800d6d5d7dffed5e2d800dae3e6e8dcb800e8ebe300e8e3fedaddead900e8dde1d9e7adff",
+      "pointer_offsets": [
+        4753136,
+        9453576,
+        10088860
+      ],
+      "move_ids": [
+        3
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      },
+      "decision": "route_description_active",
+      "en_clean": "The foe is slapped\\nrepeatedly, back\\nand forth, two to\\nfive times.",
+      "correspondances_es": [
+        {
+          "mapping": {
+            "english_offset": 4729021,
+            "spanish_offset": 4729021,
+            "status": "matched"
+          },
+          "preimage_hex": "bbd6e3dad9e8d9d500d8d900a300d500a6feead9d7d9e700e7d9dbe9ddd8d5e700d5e0fed9e2d9e1dddbe3ad000000000000000000000000000000000000000000ff",
+          "pointer_sites": [
+            "0x004886F0",
+            "0x00904008",
+            "0x0099F19C"
+          ]
+        }
+      ],
+      "source_sha256": "357c6744411def82e5c90051553f3b97d042419526203b6c2e912c57f89031ce",
+      "es_preimage_sha256": "285ef6c1610d5762a1815a46daf3fdfef5db9cfde41c4357ac06c0a285e54e98",
+      "consumer_qualification": {
+        "active_table": "0x99f19c",
+        "legacy_mirrors": [
+          "0x4886f0",
+          "0x904008"
+        ],
+        "roots": [
+          "0x000E5440",
+          "0x00137BC8",
+          "0x009F3B64"
+        ],
+        "gItems": [],
+        "tm_hm_ids": []
+      }
+    },
+    {
+      "offset": "0x004828FF",
+      "source_hex": "cedcd900dae3d900dde700dcdde800ebdde8dcfed500dae0e9e6e6ed00e3da00e4e9e2d7dcd9e7fee8dcd5e800e7e8e6dddfd900e8ebe300e8e3fedaddead900e8dde1d9e7adff",
+      "pointer_offsets": [
+        4753140,
+        9453580,
+        10088864
+      ],
+      "move_ids": [
+        4
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      },
+      "decision": "route_description_active",
+      "en_clean": "The foe is hit with\\na flurry of punches\\nthat strike two to\\nfive times.",
+      "correspondances_es": [
+        {
+          "mapping": {
+            "english_offset": 4729087,
+            "spanish_offset": 4729087,
+            "status": "matched"
+          },
+          "preimage_hex": "c1e3e0e4d9d500d5e000e6ddead5e0fed8d900a300d500a600ead9d7d9e7fed7e3e2e86fe2e9d5e7ad00bb00ead9d7d9e7fedad5e0e0d5ad0000000000000000000000000000ff",
+          "pointer_sites": [
+            "0x004886F4",
+            "0x0090400C",
+            "0x0099F1A0"
+          ]
+        }
+      ],
+      "source_sha256": "49323c1c70308d3d189b4d9803c9bbdfe47f2a282fd82e2aca18c676978eeab1",
+      "es_preimage_sha256": "0f27c86d45c26b29014f1c66ef58c0a7c8373fc80d3f74dceff295b7f8c4d5d9",
+      "consumer_qualification": {
+        "active_table": "0x99f1a0",
+        "legacy_mirrors": [
+          "0x4886f4",
+          "0x90400c"
+        ],
+        "roots": [
+          "0x000E5440",
+          "0x00137BC8",
+          "0x009F3B64"
+        ],
+        "gItems": [],
+        "tm_hm_ids": []
+      }
+    },
+    {
+      "offset": "0x00482946",
+      "source_hex": "cedcd900dae3d900dde700e7e0e9dbdbd9d8fed6ed00d500e4e9e2d7dc00e8dce6e3ebe2feebdde8dc00e1e9e7d7e0d9aee4d5d7dfd9d8fee4e3ebd9e6adff",
+      "pointer_offsets": [
+        4753144,
+        9453584,
+        10088868
+      ],
+      "move_ids": [
+        5
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      },
+      "decision": "route_description_active",
+      "en_clean": "The foe is slugged\\nby a punch thrown\\nwith muscle-packed\\npower.",
+      "correspondances_es": [
+        {
+          "mapping": {
+            "english_offset": 4729158,
+            "spanish_offset": 4729158,
+            "status": "matched"
+          },
+          "preimage_hex": "cfe200e4e929d9e8d5eee3fed8d900dbe6d5e200e4e3e8d9e2d7ddd5ad000000000000000000000000000000000000000000000000000000000000000000ff",
+          "pointer_sites": [
+            "0x004886F8",
+            "0x00904010",
+            "0x0099F1A4"
+          ]
+        }
+      ],
+      "source_sha256": "f9cffb6eca1af2f9f34bbee8d4d48bf65bbf0009883a5df7c1aa436bec0b1ce2",
+      "es_preimage_sha256": "c838631796126a9fc86303b4ea5aa6228ffb4bd45fef5e72ceb1339b7079d531",
+      "consumer_qualification": {
+        "active_table": "0x99f1a4",
+        "legacy_mirrors": [
+          "0x4886f8",
+          "0x904010"
+        ],
+        "roots": [
+          "0x000E5440",
+          "0x00137BC8",
+          "0x009F3B64"
+        ],
+        "gItems": [],
+        "tm_hm_ids": []
+      }
+    },
+    {
+      "offset": "0x00482985",
+      "source_hex": "c8e9e1d9e6e3e9e700d7e3dde2e700d5e6d9fedce9e6e0d9d800d5e800e8dcd900dae3d9adfec7e3e2d9ed00dde700d9d5e6e2d9d8fed5dae8d9e600d6d5e8e8e0d9adff",
+      "pointer_offsets": [
+        4753148,
+        9453588,
+        10088872
+      ],
+      "move_ids": [
+        6
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      },
+      "decision": "route_description_active",
+      "en_clean": "Numerous coins are\\nhurled at the foe.\\nMoney is earned\\nafter battle.",
+      "correspondances_es": [
+        {
+          "mapping": {
+            "english_offset": 4729221,
+            "spanish_offset": 4729221,
+            "status": "matched"
+          },
+          "preimage_hex": "bbe6e6e3ded500e1e3e2d9d8d5e700e5e9d900fed8d9e7e4e91be700e6d9d7e9e4d9e6d5ad000000000000000000000000000000000000000000000000000000000000ff",
+          "pointer_sites": [
+            "0x004886FC",
+            "0x00904014",
+            "0x0099F1A8"
+          ]
+        }
+      ],
+      "source_sha256": "300d355617917626dbe64e35c1bec9f7ad079870e13386f7d860f7a6be16458c",
+      "es_preimage_sha256": "513ef421b5bfa3991d35a59a07b3df02d96755196cd0ddbf07be41327164b54e",
+      "consumer_qualification": {
+        "active_table": "0x99f1a8",
+        "legacy_mirrors": [
+          "0x4886fc",
+          "0x904014"
+        ],
+        "roots": [
+          "0x000E5440",
+          "0x00137BC8",
+          "0x009F3B64"
+        ],
+        "gItems": [],
+        "tm_hm_ids": []
+      }
+    },
+    {
+      "offset": "0x004829C9",
+      "source_hex": "cedcd900dae3d900dde700e4e9e2d7dcd9d8feebdde8dc00d500daddd9e6ed00dadde7e8adfec3e800e1d5ed00e0d9d5ead900e8dcd9fedae3d900ebdde8dc00d500d6e9e6e2adff",
+      "pointer_offsets": [
+        4753152,
+        9453592,
+        10088876
+      ],
+      "move_ids": [
+        7
+      ],
+      "item_ids_cfru": [],
+      "layout": {
+        "max_lines": 5,
+        "max_width": 122,
+        "max_bytes": 512,
+        "preserve_line_count": false
+      },
+      "decision": "route_description_active",
+      "en_clean": "The foe is punched\\nwith a fiery fist.\\nIt may leave the\\nfoe with a burn.",
+      "correspondances_es": [
+        {
+          "mapping": {
+            "english_offset": 4729289,
+            "spanish_offset": 4729289,
+            "status": "matched"
+          },
+          "preimage_hex": "cae929d9e8d5eee300d5e6d8ddd9e2e8d900fee5e9d900e4e9d9d8d900e5e9d9e1d5e6fed500e9e200cae3df1be1e3e2ad00000000000000000000000000000000000000000000ff",
+          "pointer_sites": [
+            "0x00488700",
+            "0x00904018",
+            "0x0099F1AC"
+          ]
+        }
+      ],
+      "source_sha256": "8624795b8078fb78578735c2c3a98b84e543841ef744d8849250373762f282d6",
+      "es_preimage_sha256": "78bde6264da30efb3d610dc6265f396c8bedfb36542d9c418d03a9e113d26a47",
+      "consumer_qualification": {
+        "active_table": "0x99f1ac",
+        "legacy_mirrors": [
+          "0x488700",
+          "0x904018"
+        ],
+        "roots": [
+          "0x000E5440",
+          "0x00137BC8",
+          "0x009F3B64"
+        ],
+        "gItems": [],
+        "tm_hm_ids": []
+      }
+    }
+  ],
+  "guards": [
+    {
+      "offset": "0x000E5440",
+      "hex": "94f19908"
+    },
+    {
+      "offset": "0x00137BC8",
+      "hex": "94f19908"
+    },
+    {
+      "offset": "0x009F3B64",
+      "hex": "94f19908"
+    },
+    {
+      "offset": "0x000E541A",
+      "hex": "0949681e8000401801680094019405200122002300f0b5f8",
+      "reason": "lecture table moves, seconde surface"
+    },
+    {
+      "offset": "0x000E5658",
+      "hex": "50460490281c03213a1c331c48f09eff",
+      "reason": "impression seconde surface en police3"
+    },
+    {
+      "offset": "0x00137B6A",
+      "hex": "3a6814192078fe210091019102960395134b444621784900124c12195218118801398900c91809680491022102222623f6f703fd",
+      "reason": "résumé police2 table moves"
+    },
+    {
+      "offset": "0x000E5440",
+      "hex": "94f19908",
+      "reason": "racine moves"
+    },
+    {
+      "offset": "0x00137BC8",
+      "hex": "94f19908",
+      "reason": "racine moves"
+    },
+    {
+      "offset": "0x009F3B38",
+      "hex": "10b5094b040001f00df9042807d12000fff736ff054b01388000c05810bd2000034b01f0fff8f9e7d9a9090894f19908",
+      "reason": "accesseur description CT/MO dynamique"
+    },
+    {
+      "offset": "0x00125A8C",
+      "hex": "2a2ba409",
+      "reason": "racine liste CT"
+    },
+    {
+      "offset": "0x01A42B2A",
+      "hex": "0801510160015b012e005c00020153014b01ed00f1000d013a003b003f007100b600f000ca00db00da004c00e700550057005900d8005b005e00f7001801680073005f013500bc00c9007e003d014c010301070122019c00d500a800d3001d0163013b018b0176017501ce00cc0199016c01cb007201730105013e01a60199008d01ae011601780189019400ad0168015600fe010e00d4019601a1016f019d009001d600cb01a8018a007901cf00c301ba01a400c101bb01bc01da01a301940197019e01a7013a023b02d2011302f60146026202b801a2010402d101fc01f7011a02fa019f02780283024302a3020b010f001300390046002301f9007f008801",
+      "reason": "128 move_ids CT/MO (120 CT +8 MO)"
+    },
+    {
+      "offset": "0x000066F4",
+      "hex": "00732008",
+      "reason": "racine largeurs police2"
+    },
+    {
+      "offset": "0x00207300",
+      "hex": "060606060606060606060606060606060806060606060606060606060606060606060606060806060606060609080806060606060a08050606060606060606060606060606060606060606060606060606060608080808080804060805050606060606060606060606060606060606060606060606060606060c0c0c0c0606060606060608080806060606060606060606060606060606060606060606060606080606060606060606060606060506050606060303060608050906060606060606060606060606060606060606060606060606060606060606060506060406050506050606060505050606060606060805060606060606060606060606060606",
+      "reason": "largeurs police2 identiques GLYPH_WIDTHS"
+    },
+    {
+      "offset": "0x000067C0",
+      "hex": "181cfff7f9fef0bc01bc",
+      "reason": "font3 latin délègue à décompresseur font2 65B8"
+    },
+    {
+      "offset": "0x000067CC",
+      "hex": "00b50004020c012906d002481018007803e00000007320080a2002bc0847",
+      "reason": "largeurs font3 latin pointent même table207300"
+    }
+  ],
+  "superseded_guards": [
+    {
+      "offset": "0x0099F198",
+      "hex": "74284808"
+    },
+    {
+      "offset": "0x0099F19C",
+      "hex": "bd284808"
+    },
+    {
+      "offset": "0x0099F1A0",
+      "hex": "ff284808"
+    },
+    {
+      "offset": "0x0099F1A4",
+      "hex": "46294808"
+    },
+    {
+      "offset": "0x0099F1A8",
+      "hex": "85294808"
+    },
+    {
+      "offset": "0x0099F1AC",
+      "hex": "c9294808"
+    }
+  ]
+}

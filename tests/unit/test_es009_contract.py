@@ -39,7 +39,7 @@ def test_exact_scope_without_aliases_or_production_translation(routes):
     assert routes.entries.keys() | routes.excluded == selected - parent_only
     assert not (routes.entries.keys() & routes.excluded)
     manifest = json.loads((ROOT / 'languages/es-maint/system_texts.json').read_text())
-    assert [e for e in manifest['entries'] if e.get('layout', {}).get('engine_layout')] == json.loads(CONTRACT.read_text())['entries']
+    assert [e for e in manifest['entries'] if int(e['offset'], 16) in selected] == json.loads(CONTRACT.read_text())['entries']
 
 
 def test_source_prices_and_nicknames_fit_qualified_windows(routes, tmp_path):

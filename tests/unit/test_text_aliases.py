@@ -12,7 +12,10 @@ EXTRA = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es003.json').
 ES011 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es011.json').read_text())
 ES011_PREFIXES = {int(e['live_offset'], 16): bytes.fromhex(e['prefix_hex']) for e in json.loads((ROOT / 'docs/analysis/es/011_ROUTES.json').read_text())['aliases_candidates']}
 ES015 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es015.json').read_text())
+ES013 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es013.json').read_text())
+ES013_PREFIXES = {int(e['live_offset'], 16): bytes.fromhex(e['prefix_hex']) for e in ES013['aliases']}
 for language in ('english', 'spanish'):
+    FIXTURE[language].extend(ES013[language])
     FIXTURE[language].extend(ES015[language])
     FIXTURE[language].extend(e for e in ES011[language] if e['offset'] < 0x41D200)
     FIXTURE[language].extend(EXTRA[language])
@@ -28,7 +31,7 @@ def rom_fixture():
         prefix = {0x24F210: b'\x00\x00\x00', 0x24F3C4: b'\x05\x00\x00',
                   0x2779D5: b'\x00', 0x2779F2: b'\xfe',
                   0x415D48: bytes(3), 0x415D50: bytes(1), 0x415D60: bytes(2),
-                  0x415D78: bytes(1), 0x415D8C: bytes(2), 0x4160FC: bytes(3), 0x416104: bytes(3)}.get(offset, ES011_PREFIXES.get(offset, b'\xaa'))
+                  0x415D78: bytes(1), 0x415D8C: bytes(2), 0x4160FC: bytes(3), 0x416104: bytes(3)}.get(offset, ES013_PREFIXES.get(offset, ES011_PREFIXES.get(offset, b'\xaa')))
         rom[offset - len(prefix):offset + len(raw)] = prefix + raw
         for pointer in entry['pointer_offsets']:
             p = int(pointer, 16)
@@ -46,7 +49,7 @@ def rom_fixture():
 
 def test_real_preimages_resolve_all_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 51
+    assert len(aliases.entries) == 71
     assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
     assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries

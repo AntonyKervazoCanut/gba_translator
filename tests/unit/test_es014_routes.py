@@ -114,7 +114,16 @@ def test_exact_selection_and_production_contract():
     assert len(fixture['entries']) == 357
     assert len(fixture['excluded']) == 17
     assert {e['offset'] for e in fixture['entries'] + fixture['excluded']} == set(keys)
-    assert all(g in production['guards'] for g in fixture['guards'])
+    superseded = json.loads((ROOT / 'docs/analysis/es/013_MOVES.json').read_text())['superseded_guards']
+    assert {int(g['offset'], 16) for g in superseded} == {0x99F198, 0x99F19C, 0x99F1A0, 0x99F1A4, 0x99F1A8, 0x99F1AC}
+    selected = {int(e['offset'], 16): e for e in production['entries']}
+    for guard in fixture['guards']:
+        if guard in superseded:
+            target = int.from_bytes(bytes.fromhex(guard['hex']), 'little') - 0x08000000
+            assert int(guard['offset'], 16) in selected[target]['pointer_offsets']
+            assert guard not in production['guards']
+        else:
+            assert guard in production['guards']
 
 
 def test_commands_arguments_and_buffer_order_are_exact():

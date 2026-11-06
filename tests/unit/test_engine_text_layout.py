@@ -106,3 +106,35 @@ def test_small_font_name_fits_where_normal_font_would_cross_column(layout):
     assert Builder._encoded_layout_widths(raw, layout) == [55]
     with pytest.raises(ValueError, match='colonne'):
         Builder._encoded_layout_widths(raw[3:], layout)
+
+
+def test_paged_f7_expansion_requires_explicit_opt_in(layout):
+    layout.update(paged_dialogue=True, max_lines=2)
+    raw = bytes.fromhex('f700febbfbbbfaf700ff')
+    assert Builder._encoded_layout_widths(raw, layout) == [60, 6, 6, 60]
+    layout['paged_dialogue'] = False
+    with pytest.raises(ValueError, match='Pagination'):
+        Builder._encoded_layout_widths(raw, layout)
+
+
+def test_paged_f7_rejects_third_line_but_accepts_page_and_scroll(layout):
+    layout.update(paged_dialogue=True, max_lines=2)
+    with pytest.raises(ValueError, match='lignes par page'):
+        Builder._encoded_layout_widths(bytes.fromhex('bbfebbfeffff'), layout)
+    assert Builder._encoded_layout_widths(bytes.fromhex('bbfebbfbf700febbfaf700ff'), layout) == [6, 6, 60, 6, 60]
+
+
+def test_pause_argument_is_never_measured_as_a_glyph_or_page(layout):
+    layout['allowed_fc'] = [8]
+    assert Builder._encoded_layout_widths(bytes.fromhex('bbfc08feccfc08ffff'), layout) == [12]
+    layout.pop('allowed_fc')
+    with pytest.raises(ValueError, match='non qualifiée'):
+        Builder._encoded_layout_widths(bytes.fromhex('bbfc08feccff'), layout)
+
+
+def test_paginated_expansion_capacity_covers_all_pages(layout):
+    layout.update(paged_dialogue=True, max_lines=2, max_expanded_bytes=22)
+    assert Builder._encoded_layout_widths(bytes.fromhex('f700fbf700ff'), layout) == [60, 60]
+    layout['max_expanded_bytes'] = 21
+    with pytest.raises(ValueError, match='expansé'):
+        Builder._encoded_layout_widths(bytes.fromhex('f700fbf700ff'), layout)
