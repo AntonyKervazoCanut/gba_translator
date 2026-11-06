@@ -1,6 +1,6 @@
 /** F-1041 : quinze routes actives, lectures finales et sept rendus natifs.
  * Les 42 crédits legacy exclus ne sont pas présentés comme des écrans vivants.
- * Sonde RAM sans sauvegarde ; aucune traduction finale de F-861. */
+ * Sonde RAM sans sauvegarde. Le mode ES011_PRODUCTION vérifie les textes F-861. */
 import { test, expect } from '@playwright/test';
 import { spawn, execFileSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -25,7 +25,8 @@ interface Result {
 }
 
 test('ES-011 : quinze routes actives et sept labels lus par le moteur natif', async ({ page }) => {
-  const reportPath = path.join(root, 'output/reports/es011-alias-probe.json');
+  const production = process.env.ES011_PRODUCTION === '1';
+  const reportPath = path.join(root, production ? 'output/reports/es011-production-aliases.json' : 'output/reports/es011-alias-probe.json');
   const report = JSON.parse(fs.readFileSync(reportPath, 'utf8')) as {records: RecordEntry[]; rom: string};
   expect(report.records).toHaveLength(15);
   const candidates = JSON.parse(fs.readFileSync(path.join(root, 'docs/analysis/es/011_ROUTES.json'), 'utf8'))
@@ -40,7 +41,7 @@ test('ES-011 : quinze routes actives et sept labels lus par le moteur natif', as
     expect(source.subarray(entry.key, entry.live)).toEqual(Buffer.alloc(entry.live-entry.key));
     for (const pointer of entry.pointers) {
       const target = rom.readUInt32LE(pointer) - 0x08000000;
-      expect(target).not.toBe(entry.live);
+      if (!production) expect(target).not.toBe(entry.live);
       expect(rom.subarray(target, target+raw.length)).toEqual(raw);
     }
   }
@@ -110,13 +111,13 @@ test('ES-011 : quinze routes actives et sept labels lus par le moteur natif', as
       expect(ink,`texte non rendu à ${entry.key.toString(16)}`).toBeGreaterThan(15);
       images.push(`<figure><figcaption>0x${entry.key.toString(16).toUpperCase()} · police ${entry.font} · ${measured.width}/${entry.max_width} px</figcaption><img alt="Rendu moteur ${entry.key.toString(16)}" src="data:image/png;base64,${pngBytes.toString('base64')}"></figure>`);
     }
-    await page.setContent(`<style>body{margin:16px;background:#152334;color:white;font:16px monospace}main{display:grid;grid-template-columns:repeat(2,480px);gap:12px}figure{margin:0}img{width:480px;height:320px;image-rendering:pixelated}figcaption{padding:8px}</style><h1>ES-011 · routage temporaire vérifié</h1><p>15 routes actives · ${result.observations.length} lecteurs exacts · sept rendus moteur</p><p>42 crédits legacy exclus : les crédits actuels utilisent la table 0x1FB0DB0.</p><main>${images.join('')}</main><p>Mire native RAM ; aucune sauvegarde. Traductions finales réservées à F-861.</p>`);
+    await page.setContent(`<style>body{margin:16px;background:#152334;color:white;font:16px monospace}main{display:grid;grid-template-columns:repeat(2,480px);gap:12px}figure{margin:0}img{width:480px;height:320px;image-rendering:pixelated}figcaption{padding:8px}</style><h1>ES-011 · ${production ? 'traductions finales' : 'routage temporaire'} vérifié</h1><p>15 routes actives · ${result.observations.length} lecteurs exacts · sept rendus moteur</p><p>42 crédits legacy exclus : les crédits actuels utilisent la table 0x1FB0DB0.</p><main>${images.join('')}</main><p>Mire native RAM ; aucune sauvegarde. ${production ? 'Textes de production F-861 ; parcours naturels non certifiés.' : 'Traductions finales réservées à F-861.'}</p>`);
     await expect(page.getByRole('img')).toHaveCount(7);
     for(const image of await page.getByRole('img').all()) {
       await image.evaluate(async (element: HTMLImageElement)=>element.decode());
       await expect(image).toBeVisible();
     }
-    const proof=path.join(os.tmpdir(),'f1041-es011-proof.png');
+    const proof=path.join(os.tmpdir(),production ? 'f861-es011-alias-proof.png' : 'f1041-es011-proof.png');
     await page.screenshot({path:proof,fullPage:true});
     console.log(`Preuve après assertions : ${proof}`);
   } finally {

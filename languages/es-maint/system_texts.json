@@ -6637,7 +6637,7 @@
     {"offset": "0x0041CB78", "source_hex": "c4e9e1e4e700dde200d500e6e3ebf0ff", "pointer_offsets": [4645588]},
     {"offset": "0x0041CB88", "source_hex": "bcd9e7e800e7d7e3e6d9f0ff", "pointer_offsets": [4645592]},
     {"offset": "0x0041CB94", "source_hex": "bfd2bdbfc6c6bfc8cecd00dde200d500e6e3ebf0ff", "pointer_offsets": [4645596]},
-    {"offset": "0x0041CBA9", "source_hex": "bbebd9e7e3e1d900e7d7e3e6d9ab00d3e3e9b4ead9feebe3e200f70100f700abff", "pointer_offsets": [1353012]},
+    {"offset": "0x0041CBA9", "source_hex": "bbebd9e7e3e1d900e7d7e3e6d9ab00d3e3e9b4ead9feebe3e200f70100f700abff", "pointer_offsets": [1353012], "layout": {"engine_layout": true, "initial_font": 2, "max_width": 176, "max_lines": 2, "preserve_line_count": false, "max_expanded_bytes": 256, "buffers": {"0": {"max_width": 108, "max_bytes": 18}, "1": {"max_width": 30, "max_bytes": 5}}}},
     {"offset": "0x0041CBCA", "source_hex": "cedcd9e6d9b4e700e2e300e6e3e3e100e0d9dae800e2e3ebadff", "pointer_offsets": [1353136]},
     {"offset": "0x0041CBE4", "source_hex": "d3e3e900d7d5e2b4e800dce3e0d800d5e2ed00e1e3e6d9abff", "pointer_offsets": [1353256]},
     {"offset": "0x0041CBFD", "source_hex": "d1d5e2e800e8e300e4e0d5ed00d5dbd5dde2acff", "pointer_offsets": [1351968]},
@@ -6651,7 +6651,7 @@
     {"offset": "0x0041CD03", "source_hex": "bbe2e2e3e9e2d7dde2db00bcbfccccd3aecac3bdc5c3c8c100e6d9e7e9e0e8e7abff", "pointer_offsets": [1397172]},
     {"offset": "0x0041CD43", "source_hex": "bbe2e2e3e9e2d7dde2db00e6d5e2dfdde2dbe7abff", "pointer_offsets": [1397564]},
     {"offset": "0x0041CD58", "source_hex": "bbe2e2e3e9e2d7dde2db00e4e6ddeed9e7abff", "pointer_offsets": [1398120]},
-    {"offset": "0x0041CD7A", "source_hex": "cedcd900dadde6e7e8aee4e0d5d7d900ebdde2e2d9e600dbd9e8e7fee8dcdde700f700abff", "pointer_offsets": [1398124]},
+    {"offset": "0x0041CD7A", "source_hex": "cedcd900dadde6e7e8aee4e0d5d7d900ebdde2e2d9e600dbd9e8e7fee8dcdde700f700abff", "pointer_offsets": [1398124], "layout": {"engine_layout": true, "initial_font": 0, "max_width": 176, "max_lines": 2, "preserve_line_count": false, "max_expanded_bytes": 64, "buffers": {"0": {"max_width": 108, "max_bytes": 18}}}},
     {"offset": "0x0041CD9F", "source_hex": "d3e3e900d7d5e2b4e800dce3e0d800d5e2ed00e1e3e6d9adadadff", "pointer_offsets": [1398128]},
     {"offset": "0x0041CDBA", "source_hex": "c3e800dadde0e0d9d800dde8e700e7e8e3e6d5dbd900e7e4d5d7d9adff", "pointer_offsets": [1398212]},
     {"offset": "0x0041CDD7", "source_hex": "d1d5e2e800e8e300e4e0d5ed00d5dbd5dde2acff", "pointer_offsets": [1398868]},
@@ -9890,6 +9890,8 @@
     }
   },
   "engine_guards": [
+    {"offset": "0x00155502", "hex": "2068504400784a460092414601910296002103aa0823adf696fb"},
+    {"offset": "0x0014A4C8", "hex": "216826310020f2f7edfb216866310120f2f7e8fb2068a6301449f2f7f1fb042008211622042300f031f922680025002350820006000ea63202210091ff21019102930221b8f69cfb2068807c0221b9f603fd2168064888824d7303b070bc01bc0047"},
     {
       "offset": "0x58cc",
       "hex": "2c5900084e590008725900088c590008d8590008dc5900089e580008f4590008045a00081a5a00081e5a0008665a0008705a0008785a0008845a00084c5a0008b05a0008cc5a0008dc5a0008005b0008105b0008185b0008965a0008a45a0008"

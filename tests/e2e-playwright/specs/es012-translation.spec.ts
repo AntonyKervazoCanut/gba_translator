@@ -21,11 +21,12 @@ interface Entry {
 interface Measurement { target: number; width: number; lines: number; bytes: number }
 interface Result { marker: number; failed_index: number; rows: Measurement[] }
 
-test('ES-012 : 361 budgets moteur et six impressions complètes aux pointeurs finaux', async ({ page }) => {
-  const reportPath = path.join(root, 'docs/analysis/es/012_TRAITEMENT.json');
+test(`${process.env.ES_NATIVE_LABEL ?? 'ES-012'} : ${process.env.ES_NATIVE_COUNT ?? 361} budgets moteur et impressions aux pointeurs finaux`, async ({ page }) => {
+  const reportPath = path.resolve(root, process.env.ES_NATIVE_REPORT ?? 'docs/analysis/es/012_TRAITEMENT.json');
+  const expectedCount = Number(process.env.ES_NATIVE_COUNT ?? 361);
   const report = JSON.parse(fs.readFileSync(reportPath, 'utf8')) as {entries: Entry[]};
   const records = report.entries.filter((entry): entry is Entry & {texte: string} => entry.texte !== undefined);
-  expect(records).toHaveLength(361);
+  expect(records).toHaveLength(expectedCount);
   const rom = fs.readFileSync(path.join(root, 'output/roms/GenedRom-es-maint.gba'));
   for (const entry of records) for (const reference of entry.references) {
     const target = rom.readUInt32LE(Number(reference)) - 0x08000000;
@@ -47,12 +48,14 @@ print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(
 `);
   const ocr = path.join(temp, 'ocr');
   execFileSync('swiftc', [path.join(temp, 'ocr.swift'), '-o', ocr]);
-  const cases = [0, records.findIndex(e => e.decision === 'importe'),
+  const cases = process.env.ES_NATIVE_KEYS
+    ? process.env.ES_NATIVE_KEYS.split(',').map(key => records.findIndex(e => Number(e.offset) === Number(key)))
+    : [0, records.findIndex(e => e.decision === 'importe'),
     records.findIndex(e => Math.max(...e.largeurs_px) === 232),
     records.findIndex(e => e.offset === '0x00454284'),
     records.findIndex(e => e.offset === '0x00454966'),
     records.findIndex(e => e.offset === '0x00454D80')];
-  expect(new Set(cases).size).toBe(6);
+  expect(new Set(cases).size).toBe(cases.length);
   expect(Math.min(...cases)).toBeGreaterThanOrEqual(0);
   const pictures: string[] = [];
   let measurements: Measurement[] = [];
@@ -79,7 +82,7 @@ print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(
       }, {timeout: 60_000}).toBe(true);
       const result = JSON.parse(fs.readFileSync(path.join(directory, 'result.json'), 'utf8')) as Result;
       expect(result.marker, `budget natif invalide : index ${result.failed_index}`).toBe(0x862);
-      expect(result.rows).toHaveLength(361);
+      expect(result.rows).toHaveLength(expectedCount);
       for (const [index, measured] of result.rows.entries()) {
         const entry = records[index];
         expect(measured.target).toBe(rom.readUInt32LE(Number(entry.references[0])));
@@ -109,14 +112,14 @@ print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(
       fs.closeSync(log);
     }
   }
-  const measurementPath = path.join(root, 'output/reports/es012-native-widths.json');
+  const measurementPath = path.resolve(root, process.env.ES_NATIVE_METRICS ?? 'output/reports/es012-native-widths.json');
   expect(fs.readFileSync(path.join(temp, 'game.gba'))).toEqual(rom);
   fs.mkdirSync(path.dirname(measurementPath), {recursive: true});
   fs.writeFileSync(measurementPath, JSON.stringify(records.map((entry, n) => ({offset: entry.offset, ...measurements[n]})), null, 2));
-  await page.setContent(`<style>body{margin:0;background:#18202a;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(3,720px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:720px;height:480px;image-rendering:pixelated}header{grid-column:1/-1;padding:8px}</style><main><header>ES-012 · mGBA hors écran · sonde RAM de l'imprimeur natif · 361 budgets vérifiés · parcours naturels non certifiés</header>${pictures.join('')}</main>`);
-  await expect(page.getByRole('img')).toHaveCount(6);
+  await page.setContent(`<style>body{margin:0;background:#18202a;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(3,720px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:720px;height:480px;image-rendering:pixelated}header{grid-column:1/-1;padding:8px}</style><main><header>${process.env.ES_NATIVE_LABEL ?? 'ES-012'} · mGBA hors écran · sonde RAM de l'imprimeur natif · ${expectedCount} budgets vérifiés · parcours naturels non certifiés</header>${pictures.join('')}</main>`);
+  await expect(page.getByRole('img')).toHaveCount(cases.length);
   await page.getByRole('img').evaluateAll(images => Promise.all(images.map(img => (img as HTMLImageElement).decode())));
-  const proof = path.join(os.tmpdir(), 'f862-es012-proof.png');
+  const proof = path.join(os.tmpdir(), process.env.ES_NATIVE_PROOF ?? 'f862-es012-proof.png');
   await page.locator('main').screenshot({path: proof});
   console.log(`Preuve après assertions : ${proof}`);
 });

@@ -2954,7 +2954,7 @@
 0x0041cb78: Saltos seguidos:
 0x0041cb88: Mejor puntuación:
 0x0041cb94: EXCELENTES seguidos:
-0x0041cba9: ¡Gran puntuación! ¡Has ganado <0xF7><0x01> <0xF7><0x00>!
+0x0041cba9: ¡Gran puntuación! Has ganado\n<0xF7><0x01> <0xF7><0x00>.
 0x0041cbca: Ya no queda espacio.
 0x0041cbe4: ¡No puedes llevar más!
 0x0041cbfd: ¿Quieres volver a jugar?
@@ -2968,7 +2968,7 @@
 0x0041cd03: ¡Resultados de A POR BAYAS!
 0x0041cd43: ¡Clasificación final!
 0x0041cd58: ¡Entrega de premios!
-0x0041cd7a: ¡El ganador del primer puesto recibe\n<0xF7><0x00>!
+0x0041cd7a: ¡El primero recibe\n<0xF7><0x00>!
 0x0041cd9f: No puedes llevar más...
 0x0041cdba: Se ha llenado su espacio.
 0x0041cdd7: ¿Quieres volver a jugar?
@@ -2985,7 +2985,7 @@
 0x0041cfd1: Se acabó el tiempo.<0xFB>No se ha podido obtener buen Polvo\nde Baya...<0xFB>
 0x0041d005: Esperando comunicación...
 0x0041d032: <0x00>v.
-0x0041d042: <0xFD><0x02> Baya
+0x0041d042: Baya <0xFD><0x02>
 0x0041d04d: Tiempo:
 0x0041d056: Ritmo:
 0x0041d068: Finura:
@@ -3053,9 +3053,9 @@
 0x0041e16b: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Es tu único Pokémon apto para el\ncombate.
 0x0041e199: <0xFC><0x01><0x02><0xFC><0x02><0x01><0xFC><0x03><0x03>Esperando a que tu amigo termine...
 0x0041e1c5: Tu amigo quiere intercambiar Pokémon.
-0x0041e1e9: <0xFD><0x03> será enviado a <0xFD><0x02>.
+0x0041e1e9: <0xFD><0x03> será enviado\na <0xFD><0x02>.
 0x0041e200: ¡Adiós, <0xFD><0x03>!
-0x0041e20d: <0xFD><0x02> ha enviado a <0xFD><0x04>.
+0x0041e20d: <0xFD><0x02> ha enviado a\n<0xFD><0x04>.
 0x0041e21e: ¡Cuida bien de <0xFD><0x04>!
 0x0041e234: De<0x00>
 0x0041e245: Estado de conexión inalámbrica
@@ -3074,11 +3074,11 @@
 0x0041e3a8: Prefieren jugar con otros Pokémon\nantes que entre sí.
 0x0041e3e3: ¿Qué movimiento le enseñas a\n<0xFD><0x02>?
 0x0041e3fb: ¿Enseñar <0xFD><0x03>?
-0x0041e405: <0xFD><0x02> ha aprendido <0xFD><0x03>.
-0x0041e414: <0xFD><0x02> quiere aprender\n<0xFD><0x03>.<0xFB>Pero <0xFD><0x02> no puede aprender\nmás de cuatro movimientos.<0xFB>¿Olvida uno para aprender <0xFD><0x03>?
+0x0041e405: <0xFD><0x02> ha\naprendido <0xFD><0x03>.
+0x0041e414: <0xFD><0x02> quiere aprender\n<0xFD><0x03>.<0xFB>Pero <0xFD><0x02> no puede aprender\nmás de cuatro movimientos.<0xFB>¿Olvida uno para\naprender <0xFD><0x03>?
 0x0041e481: ¿Dejar de aprender <0xFD><0x03>?
 0x0041e493: <0xFC><0x08><0x20>1, <0xFC><0x08><0x0F>2 y <0xFC><0x08><0x0F>... <0xFC><0x08><0x0F>... <0xFC><0x08><0x0F>... <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00>¡Puf!<0xFB>
-0x0041e4c0: <0xFD><0x02> ha olvidado <0xFD><0x04>.<0xFB>Y...<0xFB><0xFD><0x02> ha aprendido <0xFD><0x03>.
+0x0041e4c0: <0xFD><0x02> ha olvidado\n<0xFD><0x04>.<0xFB>Y...<0xFB><0xFD><0x02> ha\naprendido <0xFD><0x03>.
 0x0041e4e2: ¿Dejas de intentar enseñar un\nmovimiento nuevo a <0xFD><0x02>?
 0x0041e50c: ¿Qué movimiento debe olvidar?<0xFB>
 0x0041e538: Esperando comunicación...\nEl otro jugador debe elegir.
@@ -3113,7 +3113,7 @@
 0x0041e968: Ya tenías esas noticias misteriosas.
 0x0041e98f: Ya tenías ese sello.
 0x0041e9ab: No queda espacio para añadir sellos.
-0x0041e9d3: Se ha enviado tu récord por conexión\ninalámbrica.
+0x0041e9d3: Se ha enviado tu registro por\nconexión inalámbrica.
 0x0041ea0d: No puedes aceptar tarjetas\nmisteriosas de este Entrenador.
 0x0041ea3f: No puedes aceptar noticias\nmisteriosas de este Entrenador.
 0x0041ea6f: No se ha enviado nada...
@@ -3123,7 +3123,7 @@
 0x0041eb01: Enviando tus noticias misteriosas...
 0x0041eb20: Se ha enviado tu tarjeta misteriosa a\n<0xFD><0x02>.
 0x0041eb46: Se han enviado tus noticias\nmisteriosas a <0xFD><0x02>.
-0x0041eb71: Se ha enviado un sello a <0xFD><0x02>.
+0x0041eb71: Se ha enviado un sello a\n<0xFD><0x02>.
 0x0041eb8e: Se ha enviado un regalo a\n<0xFD><0x02>.
 0x0041ebaa: El otro Entrenador ya tiene esa\ntarjeta misteriosa.
 0x0041ebde: El otro Entrenador ya tiene esas\nnoticias misteriosas.
@@ -3190,7 +3190,7 @@
 0x00445b94: Cautiva a sus rivales con sus grandes\nojos redondos y los adormece cantando\nuna melodía relajante.
 0x00445bfa: Su pelo es muy fino, denso y flexible. Es\ntan agradable al tacto que transmite una\nsensación de lujo.
 0x00445c62: No tiene ojos. Se orienta por el eco de\nsus gritos ultrasónicos para revolotear en\nla oscuridad.
-0x00445ccb: Puede beber más de 280 ml de sangre de\nuna vez. Si bebe demasiado, pesa mucho y\nvuela con torpeza.
+0x00445ccb: Puede beber más de unos 300 ml de\nsangre de una vez. Si bebe demasiado,\npesa mucho y vuela con torpeza.
 0x00445d35: Su nombre científico es Oddium Wanderus.\nSe dice que de noche recorre casi 300 m\nsobre sus dos raíces.
 0x00445da1: Lo que parece baba es en realidad miel\ndulce. Es muy pegajosa y, si se toca,\ncuesta mucho desprenderla.
 0x00445e08: Tiene los pétalos más grandes del mundo.\nA cada paso, desprenden densas nubes de\npolen tóxico.
