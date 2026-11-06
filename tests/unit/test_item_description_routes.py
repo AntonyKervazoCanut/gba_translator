@@ -20,7 +20,7 @@ def source_rom():
     for part in fixture['slices']:
         raw = bytes.fromhex(part['hex'])
         rom[part['offset']:part['offset'] + len(raw)] = raw
-    rom[-4096:] = b'\xff' * 4096
+    rom[-65536:] = b'\xff' * 65536
     return rom
 
 
@@ -50,18 +50,19 @@ def test_routes_recover_missing_json_and_keep_all_consumers(tmp_path):
     routes.verify(rom, path)
 
     assert {item['offset'] for item in payload['translations']} == keys
-    assert payload['total_translations'] == 17
+    assert payload['total_translations'] == 184
     targets = set()
+    expected_rom = bytearray(source)
     for key, entry in routes.entries.items():
         expected = TextEncoder.encode_pokemon(combined[key])
-        assert rom[key-1] == source[key-1]
-        end = key + len(bytes.fromhex(entry['source_hex']))
-        assert rom[end] == source[end]
         for pointer in entry['pointer_offsets']:
             target = int.from_bytes(rom[pointer:pointer+4], 'little') - 0x08000000
             assert rom[target:target+len(expected)] == expected
             targets.add(target)
-    assert len(targets) == 17
+            expected_rom[pointer:pointer+4] = rom[pointer:pointer+4]
+            expected_rom[target:target+len(expected)] = expected
+    assert rom == expected_rom
+    assert len(targets) == 184
     assert b'\xfa' not in expected and b'\xfb' not in expected
 
 
@@ -130,15 +131,17 @@ def test_generic_driver_consumes_routes_in_its_real_json(tmp_path, monkeypatch):
     with base.open('w', newline='') as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
-        for key in [0x3D52B2, 0x3D546F, 0x3D54B5, 0x3D5503]:
+        for key in [0x3D52B2, 0x3D546F, 0x3D54B5, 0x3D5503, 0x3D5706]:
             raw = bytes.fromhex(routes.entries[key]['source_hex'])
+            if key == 0x3D5706:
+                raw = TextEncoder.encode_pokemon('Un lait très nourrissant.')
             text = TextDecoder.decode_pokemon(raw)
             extracts.append({'offset': key, 'decoded_text': text, 'raw_bytes': raw.hex(), 'byte_length': len(raw)})
             writer.writerow({'offset': f'0x{key:08X}', 'original_text': text,
                              'original_length': len(raw)-1, 'real_max_length': len(raw),
                              'padding_available': 0, 'encoding': 'pokemon', 'category': 'dialogue'})
     extracted = tmp_path / 'extraction.json'
-    extracted.write_text(json.dumps({'text_count': 4, 'texts': extracts}))
+    extracted.write_text(json.dumps({'text_count': len(extracts), 'texts': extracts}))
     for name, value in {'ENGLISH_ROM': rom_path, 'ENGLISH_EXTRACT': extracted,
                         'SPANISH_EXTRACT': extracted, 'GENERIC_BASE_CSV': base,
                         'TRANSLATION_DIR': tmp_path}.items():
@@ -150,11 +153,13 @@ def test_generic_driver_consumes_routes_in_its_real_json(tmp_path, monkeypatch):
     result = driver.generate_translation_json(config)
 
     entries = json.loads(result.read_text())['translations']
-    assert len(entries) == 17
+    assert len(entries) == 184
     assert {e['offset'] for e in entries} == set(routes.entries)
     assert all(e['translation'] == 'FIRST\nSECOND\nTHIRD' for e in entries)
     assert all(e['pointer_offsets'] == routes.entries[e['offset']]['pointer_offsets'] for e in entries)
     assert all(e['layout']['max_lines'] == 3 for e in entries)
+    assert all(e['english_raw_bytes'] == routes.entries[e['offset']]['source_hex'] for e in entries)
+    assert {0x3D5934, 0x3D5968, 0x3D5AB8} <= {e['offset'] for e in entries}
 
 
 def test_existing_layout_contract_keeps_strict_line_count():
@@ -170,3 +175,48 @@ def test_descriptor_routes_are_only_enabled_for_es_maint():
     registry = load_registry()
     assert registry.get('es-maint').item_descriptions == 'languages/es-maint/item_descriptions.json'
     assert all(not config.item_descriptions for config in registry if config.code != 'es-maint')
+
+
+def test_es004_active_descriptions_are_all_declared():
+    report = json.loads((ROOT / 'docs/analysis/es/004_PREPARATION.json').read_text())
+    expected = {e['offset'] for e in report['entries'] if e['item_ids_cfru_base_876200']}
+    declared = {e['offset'] for e in json.loads(CONTRACT.read_text())['entries']}
+    assert len(expected) == 167
+    assert expected <= declared
+
+
+def test_final_verification_rejects_entry_lost_after_conversion(tmp_path):
+    routes = ItemDescriptionRoutes.load(CONTRACT, source_rom())
+    path = tmp_path / 'ready.json'
+    path.write_text(json.dumps({'translations': []}))
+    routes.enrich_json(path, {0x3D52B2: 'FIRST\nSECOND\nTHIRD'})
+    payload = json.loads(path.read_text())
+    payload['translations'] = []
+    path.write_text(json.dumps(payload))
+    with pytest.raises(ValueError, match='disparue'):
+        routes.verify(source_rom(), path)
+
+
+def test_explicit_layout_enforces_encoded_buffer_and_spanish_glyphs():
+    item = {'offset': 0x3E7F35, 'translation': 'áéíóúüñ¡¿ÁÉÍÓ',
+            'english_raw_bytes': TextEncoder.encode_pokemon('WORD').hex(),
+            'layout': {'max_lines': 1, 'max_width': 104, 'max_bytes': 13}}
+    with pytest.raises(ValueError, match='octets'):
+        ItemDescriptionRoutes.normalize(item)
+
+
+def test_excluded_legacy_key_cannot_be_injected(tmp_path):
+    routes = ItemDescriptionRoutes.load(CONTRACT, source_rom())
+    path = tmp_path / 'ready.json'
+    path.write_text(json.dumps({'translations': []}))
+    with pytest.raises(ValueError, match='sans injection'):
+        routes.enrich_json(path, {0x3DA477: 'OLD TM'})
+
+
+@pytest.mark.parametrize('text', ['A<0xFE>B<0xFE>C<0xFE>D', '<0xD1>'*30, ' '*30, 'A<0xFF>HIDDEN'])
+def test_encoded_layout_cannot_hide_breaks_glyphs_or_spaces(text):
+    item = {'offset': 1, 'translation': text,
+            'english_raw_bytes': TextEncoder.encode_pokemon('WORD').hex(),
+            **ItemDescriptionRoutes.layout_metadata()}
+    with pytest.raises(ValueError, match='fenêtre'):
+        ItemDescriptionRoutes.normalize(item)

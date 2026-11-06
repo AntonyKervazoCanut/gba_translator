@@ -331,6 +331,39 @@ class TranslatedROMBuilder:
             i += 1
         return sequences
 
+    @classmethod
+    def _encoded_layout_widths(cls, raw: bytes) -> list[int]:
+        """Mesure les octets affichés sans confondre arguments et glyphes.
+
+        Les buffers gardent la réserve conservatrice du moteur de rewrap.
+        Les symboles de contrôle réservent douze pixels ; aucun argument
+        FE/FF ne devient une rupture ou un terminateur indépendant.
+        """
+        from src.core.dialogue_linewrap import GLYPH_WIDTHS, VARIABLE_WIDTH
+
+        widths = [0]
+        i = 0
+        while i < len(raw):
+            value = raw[i]
+            if value == 0xFF:
+                if i != len(raw) - 1:
+                    raise ValueError('Terminateur interne dans cette fenêtre')
+                break
+            if value == 0xFE:
+                widths.append(0)
+                i += 1
+            elif value == 0xFC:
+                i += 2 + cls.FC_ARG_COUNTS.get(raw[i + 1], 0)
+            elif value in cls.RAW_ARG_PREFIXES:
+                widths[-1] += VARIABLE_WIDTH if value == 0xFD else 12
+                i += 1 + cls.RAW_ARG_PREFIXES[value]
+            elif value in (0xFA, 0xFB):
+                raise ValueError('Pagination interdite dans cette fenêtre')
+            else:
+                widths[-1] += GLYPH_WIDTHS[value]
+                i += 1
+        return widths
+
     @staticmethod
     def _format_sequence(tokens: List[int]) -> str:
         return ''.join(f"<0x{b:02X}>" for b in tokens)
@@ -716,12 +749,18 @@ class TranslatedROMBuilder:
             if not english_raw_bytes:
                 raise ValueError(f"0x{offset:X}: source canonique requise pour la structure")
             encoded = TextEncoder.encode_pokemon(
-                translation_text, skip_aliases=GERMAN_UMLAUT_CHARS
+                translation_text, skip_aliases=(SPANISH_GLYPH_CHARS if getattr(getattr(self, 'config', None), 'preserve_spanish_glyphs', False) else GERMAN_UMLAUT_CHARS)
             )
+            if len(encoded) > layout.get('max_bytes', 512):
+                raise ValueError(f"0x{offset:X}: budget en octets dépassé")
             source = bytes.fromhex(english_raw_bytes)
             include_breaks = layout.get('preserve_line_count', True)
             if self._extract_control_sequences_from_raw(encoded, include_breaks=include_breaks) != self._extract_control_sequences_from_raw(source, include_breaks=include_breaks):
                 raise ValueError(f"0x{offset:X}: commandes ou ruptures différentes")
+            if item.get('strict_encoded_layout'):
+                widths = self._encoded_layout_widths(encoded)
+                if len(widths) > layout['max_lines'] or max(widths) > layout['max_width']:
+                    raise ValueError(f"0x{offset:X}: budget de fenêtre encodée dépassé")
             pages = translation_text.split('<0xFB>')
             for page in pages:
                 lines = page.split('\n')

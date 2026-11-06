@@ -16,7 +16,7 @@ test('les trois lignes de la description gItems restent visibles', async ({ page
     const lines=[`TEST ITEM ${String(n).padStart(2,'0')}`, 'SECOND LINE', 'THIRD LINE'];
     const expected=(n===15?lines:lines.map(line=>line.padEnd(32,'i'))).join('\n');
     expect(decodePokemonText(rom.subarray(target,rom.indexOf(255,target)))).toBe(expected);
-    if(n!==15)expect(target).not.toBe(Number(entry.offset));
+    if(expected.length+1>entry.source_hex.length/2)expect(target).not.toBe(Number(entry.offset));
   }
   fs.writeFileSync(path.join(temp, 'game.gba'), rom);
   fs.copyFileSync('tests/fixtures/saves/party_hp_bar_fr.sav', path.join(temp, 'game.sav'));

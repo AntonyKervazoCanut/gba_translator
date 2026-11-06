@@ -821,11 +821,13 @@ def main() -> int:
     if getattr(config, "item_descriptions", None):
         from src.core.item_description_routes import ItemDescriptionRoutes
         routes = ItemDescriptionRoutes.load(REPO_ROOT / config.item_descriptions, ENGLISH_ROM.read_bytes())
-        routes.verify(out_rom.read_bytes(), translation_json)
+        routes.verify(out_rom.read_bytes(), translation_json,
+                      _load_module(APPLY_COMBINED_SCRIPT)._load_combined(config.combined_path(REPO_ROOT))[0])
     if getattr(config, "system_texts", None):
         from src.core.item_description_routes import SystemTextRoutes
         routes = SystemTextRoutes.load(REPO_ROOT / config.system_texts, ENGLISH_ROM.read_bytes())
-        routes.verify(out_rom.read_bytes(), translation_json)
+        routes.verify(out_rom.read_bytes(), translation_json,
+                      _load_module(APPLY_COMBINED_SCRIPT)._load_combined(config.combined_path(REPO_ROOT))[0])
 
     print("\n" + "=" * 70)
     print(f"✓ {config.name} ROM built: {out_rom.relative_to(REPO_ROOT)}")

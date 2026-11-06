@@ -14,6 +14,7 @@ test('les trois lignes de la description gItems restent visibles', async ({ page
   const report=JSON.parse(fs.readFileSync('docs/analysis/es/003_TRAITEMENT.json','utf8'));
   for(const entry of contract.entries) {
     const e=report.entries.find((e: {offset:string})=>Number(e.offset)===Number(entry.offset));
+    if (!e) continue; // Le manifeste partagé couvre aussi ES-004.
     for(const ref of entry.pointer_offsets) {
       const target=rom.readUInt32LE(ref)-0x08000000;
       const expected=Buffer.from(e.expected_hex,'hex');
