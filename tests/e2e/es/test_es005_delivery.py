@@ -7,7 +7,9 @@ from pathlib import Path
 
 import pytest
 
+from scripts.audit_translation_coverage import parse_combined
 from src.core.font_glyphs import LATIN_FONTS
+from src.core.text_codec import SPANISH_GLYPH_CHARS, TextEncoder
 
 ROOT = Path(__file__).resolve().parents[3]
 pytestmark = pytest.mark.rom
@@ -38,8 +40,8 @@ def test_every_word_reaches_its_live_pointer_and_original_group(delivery):
 
 
 def test_descriptors_engine_and_unselected_cells_are_preserved(delivery):
-    report, source, built = delivery
-    selected = {int(row['pointer_site'], 16) for row in report['entries']}
+    _, source, built = delivery
+    combined = parse_combined(ROOT / 'languages/es-maint/combined_es-maint.txt')
     assert built[0x3eced4:0x3eced4 + 22 * 8] == source[0x3eced4:0x3eced4 + 22 * 8]
     for site in (0xbd788, 0xbd7c0, 0xbd84c, 0xbda38, 0xbdd2c, 0xbe270, 0xbe414):
         assert source[site:site + 4] == struct.pack('<I', 0x83eced4)
@@ -47,9 +49,18 @@ def test_descriptors_engine_and_unselected_cells_are_preserved(delivery):
     for group in range(2, 10):
         base, count, _ = struct.unpack_from('<IHH', source, 0x3eced4 + group * 8)
         for site in range(base - 0x8000000, base - 0x8000000 + count * 12, 12):
-            if site not in selected:
+            target = struct.unpack_from('<I', source, site)[0] - 0x8000000
+            # Tous les lots peuvent traduire un mot du groupe partagé. Ses
+            # huit octets de métadonnées restent intacts, traduit ou non.
+            assert built[site + 4:site + 12] == source[site + 4:site + 12], hex(site)
+            if combined.get(target):
+                expected = TextEncoder.encode_pokemon(
+                    combined[target].replace(r'\n', '\n'), skip_aliases=SPANISH_GLYPH_CHARS, strict=True)
+                live = struct.unpack_from('<I', built, site)[0] - 0x8000000
+                assert 0 <= live <= len(built) - len(expected)
+                assert built[live:live + len(expected)] == expected, hex(site)
+            else:
                 assert built[site:site + 12] == source[site:site + 12], hex(site)
-                target = struct.unpack_from('<I', source, site)[0] - 0x8000000
                 original = source[target:source.index(b'\xff', target) + 1]
                 assert built[target:target + len(original)] == original, hex(site)
 

@@ -3901,3 +3901,773 @@ entries:
 - offset: '0x003ea6c5'
   name: 'ES-005 : 0x003EA6C5'
   expected: "ENTIENDE"
+
+# ES-004 : 256 valeurs exactes, dernière occurrence gagnante.
+- offset: '0x003d5706'
+  name: 'ES-004 : 0x003D5706'
+  expected: Leche muy nutritiva. Restaura\n100 PS de un Pokémon.
+- offset: '0x003d574f'
+  name: 'ES-004 : 0x003D574F'
+  expected: Polvo medicinal muy amargo.\nRestaura 50 PS de un Pokémon.
+- offset: '0x003d579e'
+  name: 'ES-004 : 0x003D579E'
+  expected: Raíz muy amarga. Restaura 200\nPS de un Pokémon.
+- offset: '0x003d57e3'
+  name: 'ES-004 : 0x003D57E3'
+  expected: Polvo medicinal muy amargo.\nCura todos los problemas de\nestado de un Pokémon.
+- offset: '0x003d5833'
+  name: 'ES-004 : 0x003D5833'
+  expected: Hierba medicinal muy amarga.\nRevive a un Pokémon debilitado\ny restaura todos sus PS.
+- offset: '0x003d5883'
+  name: 'ES-004 : 0x003D5883'
+  expected: Restaura 10 PP de un movimiento\nde un Pokémon.
+- offset: '0x003d58bf'
+  name: 'ES-004 : 0x003D58BF'
+  expected: Restaura todos los PP de un\nmovimiento de un Pokémon.
+- offset: '0x003d58f4'
+  name: 'ES-004 : 0x003D58F4'
+  expected: Restaura 10 PP de cada\nmovimiento de un Pokémon.
+- offset: '0x003d5934'
+  name: 'ES-004 : 0x003D5934'
+  expected: Restaura todos los PP de cada\nmovimiento de un Pokémon.
+- offset: '0x003d5968'
+  name: 'ES-004 : 0x003D5968'
+  expected: Dulce de Pueblo Lavacalda que\ncura todos los problemas de\nestado de un Pokémon.
+- offset: '0x003d59bb'
+  name: 'ES-004 : 0x003D59BB'
+  expected: Flauta de cristal azul que\ndespierta a un Pokémon dormido.
+- offset: '0x003d59ef'
+  name: 'ES-004 : 0x003D59EF'
+  expected: Flauta de cristal amarillo que\ncura la confusión de un\nPokémon.
+- offset: '0x003d5a2d'
+  name: 'ES-004 : 0x003D5A2D'
+  expected: Flauta de cristal rojo que cura\nel enamoramiento de un Pokémon.
+- offset: '0x003d5a6a'
+  name: 'ES-004 : 0x003D5A6A'
+  expected: Flauta de cristal negro. Al\ntocarla, aumenta el nivel de\nlos Pokémon salvajes.
+- offset: '0x003d5ab8'
+  name: 'ES-004 : 0x003D5AB8'
+  expected: Flauta de cristal blanco. Al\ntocarla, reduce el nivel de los\nPokémon salvajes.
+- offset: '0x003d5b06'
+  name: 'ES-004 : 0x003D5B06'
+  expected: Zumo 100% puro. Restaura 20\nPS de un Pokémon.
+- offset: '0x003d5b49'
+  name: 'ES-004 : 0x003D5B49'
+  expected: Revive a todos los Pokémon\ndebilitados y restaura todos\nsus PS.
+- offset: '0x003d5b7a'
+  name: 'ES-004 : 0x003D5B7A'
+  expected: Sal pura obtenida bajo el\nagua. Es extremadamente\nsalada.
+- offset: '0x003d5bc5'
+  name: 'ES-004 : 0x003D5BC5'
+  expected: Bella concha hallada bajo el\nagua. Tiene rayas azules y\nblancas.
+- offset: '0x003d5c1a'
+  name: 'ES-004 : 0x003D5C1A'
+  expected: Pequeño fragmento rojo. Parece\nparte de una herramienta\nfabricada hace mucho tiempo.
+- offset: '0x003d5c66'
+  name: 'ES-004 : 0x003D5C66'
+  expected: Pequeño fragmento azul. Parece\nparte de una herramienta\nfabricada hace mucho tiempo.
+- offset: '0x003d5cb3'
+  name: 'ES-004 : 0x003D5CB3'
+  expected: Pequeño fragmento amarillo.\nParece parte de una herramienta\nfabricada hace mucho tiempo.
+- offset: '0x003d5d02'
+  name: 'ES-004 : 0x003D5D02'
+  expected: Pequeño fragmento verde.\nParece parte de una herramienta\nfabricada hace mucho tiempo.
+- offset: '0x003d5d50'
+  name: 'ES-004 : 0x003D5D50'
+  expected: Bebida nutritiva para Pokémon.\nAumenta los PS de base de un\nPokémon.
+- offset: '0x003d5d96'
+  name: 'ES-004 : 0x003D5D96'
+  expected: Bebida nutritiva para Pokémon.\nAumenta el Ataque de base de\nun Pokémon.
+- offset: '0x003d5de5'
+  name: 'ES-004 : 0x003D5DE5'
+  expected: Bebida nutritiva para Pokémon.\nAumenta la Defensa de base de\nun Pokémon.
+- offset: '0x003d5e35'
+  name: 'ES-004 : 0x003D5E35'
+  expected: Bebida nutritiva para Pokémon.\nAumenta la Velocidad de base\nde un Pokémon.
+- offset: '0x003d5e83'
+  name: 'ES-004 : 0x003D5E83'
+  expected: Bebida nutritiva para Pokémon.\nAumenta el At. Esp. de base de\nun Pokémon.
+- offset: '0x003d5ed3'
+  name: 'ES-004 : 0x003D5ED3'
+  expected: Caramelo lleno de energía.\nSube un nivel a un Pokémon.
+- offset: '0x003d5f20'
+  name: 'ES-004 : 0x003D5F20'
+  expected: Aumenta un poco los PP máximos\nde un movimiento de un Pokémon.
+- offset: '0x003d5f63'
+  name: 'ES-004 : 0x003D5F63'
+  expected: Bebida nutritiva para Pokémon.\nAumenta la Def. Esp. de base\nde un Pokémon.
+- offset: '0x003d5fb3'
+  name: 'ES-004 : 0x003D5FB3'
+  expected: Aumenta hasta el tope los PP\nmáximos de un movimiento de un\nPokémon.
+- offset: '0x003d5ffa'
+  name: 'ES-004 : 0x003D5FFA'
+  expected: Tras usarlo, evita que bajen\nlas estadísticas del equipo\ndurante cinco turnos.
+- offset: '0x003d604d'
+  name: 'ES-004 : 0x003D604D'
+  expected: Sube la probabilidad de golpe\ncrítico en combate. El efecto\ncesa al retirar al Pokémon.
+- offset: '0x003d624f'
+  name: 'ES-004 : 0x003D624F'
+  expected: Muñeco atractivo que permite\nhuir de cualquier combate\ncontra un Pokémon salvaje.
+- offset: '0x003d6297'
+  name: 'ES-004 : 0x003D6297'
+  expected: Objeto atractivo que permite\nhuir de cualquier combate\ncontra un Pokémon salvaje.
+- offset: '0x003d62df'
+  name: 'ES-004 : 0x003D62DF'
+  expected: Evita encuentros con Pokémon\nsalvajes débiles durante 200\npasos.
+- offset: '0x003d6318'
+  name: 'ES-004 : 0x003D6318'
+  expected: Evita encuentros con Pokémon\nsalvajes débiles durante 250\npasos.
+- offset: '0x003d6351'
+  name: 'ES-004 : 0x003D6351'
+  expected: Cuerda larga y resistente.\nPermite escapar al instante de\ncuevas y mazmorras.
+- offset: '0x003d639c'
+  name: 'ES-004 : 0x003D639C'
+  expected: Evita encuentros con Pokémon\nsalvajes débiles durante 100\npasos.
+- offset: '0x003d63d5'
+  name: 'ES-004 : 0x003D63D5'
+  expected: Piedra peculiar que evoluciona\na ciertos Pokémon. Es tan roja\ncomo el sol.
+- offset: '0x003d642d'
+  name: 'ES-004 : 0x003D642D'
+  expected: Piedra peculiar que evoluciona\na ciertos Pokémon. Es tan negra\ncomo el cielo nocturno.
+- offset: '0x003d648d'
+  name: 'ES-004 : 0x003D648D'
+  expected: Piedra peculiar que evoluciona\na ciertos Pokémon. Es de color\nnaranja.
+- offset: '0x003d64e2'
+  name: 'ES-004 : 0x003D64E2'
+  expected: Piedra peculiar que evoluciona\na ciertos Pokémon. Tiene un\ndibujo de un rayo.
+- offset: '0x003d653f'
+  name: 'ES-004 : 0x003D653F'
+  expected: Piedra peculiar que evoluciona\na ciertos Pokémon. Es de color\nazul claro.
+- offset: '0x003d6598'
+  name: 'ES-004 : 0x003D6598'
+  expected: Piedra peculiar que evoluciona\na ciertos Pokémon. Tiene un\ndibujo de una hoja.
+- offset: '0x003d65ee'
+  name: 'ES-004 : 0x003D65EE'
+  expected: Seta pequeña y poco común. Es\nbastante popular entre ciertas\npersonas.
+- offset: '0x003d6633'
+  name: 'ES-004 : 0x003D6633'
+  expected: Seta grande y poco común. Es\nmuy popular entre ciertas\npersonas.
+- offset: '0x003d6677'
+  name: 'ES-004 : 0x003D6677'
+  expected: Perla bastante pequeña de un\nbello brillo plateado. Se vende\na bajo precio.
+- offset: '0x003d66d0'
+  name: 'ES-004 : 0x003D66D0'
+  expected: Perla bastante grande de un\nbello brillo plateado. Se vende\na alto precio.
+- offset: '0x003d672c'
+  name: 'ES-004 : 0x003D672C'
+  expected: Bonita arena roja de textura\nsuelta y sedosa. Se vende a\nalto precio.
+- offset: '0x003d6778'
+  name: 'ES-004 : 0x003D6778'
+  expected: Fragmento de una bonita gema\nque brilla en tonos rojos. Se\nvende a alto precio.
+- offset: '0x003d67ce'
+  name: 'ES-004 : 0x003D67CE'
+  expected: Pepita de oro puro que emite\nun brillo espectacular. Se\nvende a alto precio.
+- offset: '0x003d6825'
+  name: 'ES-004 : 0x003D6825'
+  expected: Escama muy rara con forma de\ncorazón. Brilla tenuemente con\nlos colores del arcoíris.
+- offset: '0x003d6887'
+  name: 'ES-004 : 0x003D6887'
+  expected: Carta con un bonito dibujo de\nZigzagoon. Debe llevarla un\nPokémon.
+- offset: '0x003d68d8'
+  name: 'ES-004 : 0x003D68D8'
+  expected: Carta con un bonito dibujo de\nWingull. Debe llevarla un\nPokémon.
+- offset: '0x003d6927'
+  name: 'ES-004 : 0x003D6927'
+  expected: Carta con un bonito dibujo de\nPikachu. Debe llevarla un\nPokémon.
+- offset: '0x003d6976'
+  name: 'ES-004 : 0x003D6976'
+  expected: Carta con un bonito dibujo de\nMagnemite. Debe llevarla un\nPokémon.
+- offset: '0x003d69c7'
+  name: 'ES-004 : 0x003D69C7'
+  expected: Carta con un bonito dibujo de\nSlakoth. Debe llevarla un\nPokémon.
+- offset: '0x003d6a16'
+  name: 'ES-004 : 0x003D6A16'
+  expected: Carta con un bonito dibujo de\nWailmer. Debe llevarla un\nPokémon.
+- offset: '0x003d6a65'
+  name: 'ES-004 : 0x003D6A65'
+  expected: Carta para un Pokémon. Mostrará\nun dibujo del Pokémon que la\nlleve.
+- offset: '0x003d6ac0'
+  name: 'ES-004 : 0x003D6AC0'
+  expected: Carta con un bonito dibujo de\nDuskull. Debe llevarla un\nPokémon.
+- offset: '0x003d6b0f'
+  name: 'ES-004 : 0x003D6B0F'
+  expected: Carta con un bonito dibujo de\nBellossom. Debe llevarla un\nPokémon.
+- offset: '0x003d6b60'
+  name: 'ES-004 : 0x003D6B60'
+  expected: Carta para un Pokémon. Mostrará\nun dibujo del Pokémon que la\nlleve.
+- offset: '0x003d6bbb'
+  name: 'ES-004 : 0x003D6BBB'
+  expected: Carta con un dibujo fabuloso y\nextravagante. Debe llevarla un\nPokémon.
+- offset: '0x003d6c13'
+  name: 'ES-004 : 0x003D6C13'
+  expected: Carta con un dibujo de tres\nPokémon muy monos. Debe\nllevarla un Pokémon.
+- offset: '0x003d6c6b'
+  name: 'ES-004 : 0x003D6C6B'
+  expected: Si la lleva un Pokémon, cura la\nparálisis durante el combate.
+- offset: '0x003d6cb0'
+  name: 'ES-004 : 0x003D6CB0'
+  expected: Si la lleva un Pokémon, lo\ndespierta durante el combate.
+- offset: '0x003d6cee'
+  name: 'ES-004 : 0x003D6CEE'
+  expected: Si la lleva un Pokémon, cura el\nenvenenamiento en combate.
+- offset: '0x003d6d30'
+  name: 'ES-004 : 0x003D6D30'
+  expected: Si la lleva un Pokémon, cura\nlas quemaduras en combate.
+- offset: '0x003d6db4'
+  name: 'ES-004 : 0x003D6DB4'
+  expected: Si la lleva un Pokémon,\nrestaura 10 PP durante el\ncombate.
+- offset: '0x003d6df8'
+  name: 'ES-004 : 0x003D6DF8'
+  expected: Si la lleva un Pokémon,\nrestaura 10 PS durante el\ncombate.
+- offset: '0x003d6e3c'
+  name: 'ES-004 : 0x003D6E3C'
+  expected: Si la lleva un Pokémon, cura la\nconfusión durante el combate.
+- offset: '0x003d6e81'
+  name: 'ES-004 : 0x003D6E81'
+  expected: Si la lleva un Pokémon, cura\nlos problemas de estado en\ncombate.
+- offset: '0x003d6f0c'
+  name: 'ES-004 : 0x003D6F0C'
+  expected: Si la lleva un Pokémon,\nrestaura PS, pero puede causar\nconfusión.
+- offset: '0x003d6f4c'
+  name: 'ES-004 : 0x003D6F4C'
+  expected: Si la lleva un Pokémon,\nrestaura PS, pero puede causar\nconfusión.
+- offset: '0x003d6f8c'
+  name: 'ES-004 : 0x003D6F8C'
+  expected: Si la lleva un Pokémon,\nrestaura PS, pero puede causar\nconfusión.
+- offset: '0x003d6fcc'
+  name: 'ES-004 : 0x003D6FCC'
+  expected: Si la lleva un Pokémon,\nrestaura PS, pero puede causar\nconfusión.
+- offset: '0x003d700c'
+  name: 'ES-004 : 0x003D700C'
+  expected: Si la lleva un Pokémon,\nrestaura PS, pero puede causar\nconfusión.
+- offset: '0x003d7524'
+  name: 'ES-004 : 0x003D7524'
+  expected: Si la lleva un Pokémon, sube el\nAtaque en un momento de apuro.
+- offset: '0x003d7562'
+  name: 'ES-004 : 0x003D7562'
+  expected: Si la lleva un Pokémon, sube la\nDefensa en un momento de\napuro.
+- offset: '0x003d75a1'
+  name: 'ES-004 : 0x003D75A1'
+  expected: Si la lleva un Pokémon, sube la\nVelocidad en un momento de\napuro.
+- offset: '0x003d75de'
+  name: 'ES-004 : 0x003D75DE'
+  expected: Si la lleva un Pokémon, sube el\nAt. Esp. en un momento de\napuro.
+- offset: '0x003d761d'
+  name: 'ES-004 : 0x003D761D'
+  expected: Si la lleva un Pokémon, sube la\nDef. Esp. en un momento de\napuro.
+- offset: '0x003d765c'
+  name: 'ES-004 : 0x003D765C'
+  expected: Si la lleva un Pokémon, aumenta\nla probabilidad de golpe\ncrítico en un momento de apuro.
+- offset: '0x003d76a1'
+  name: 'ES-004 : 0x003D76A1'
+  expected: Si la lleva un Pokémon, sube\nmucho una estadística en un\nmomento de apuro.
+- offset: '0x003d76e0'
+  name: 'ES-004 : 0x003D76E0'
+  expected: Se puede moler para hacer\npolvo que sirve de ingrediente\npara medicamentos.
+- offset: '0x003d771e'
+  name: 'ES-004 : 0x003D771E'
+  expected: Objeto para un Pokémon. Emite\nun brillo engañoso que reduce\nla Precisión del rival.
+- offset: '0x003d777c'
+  name: 'ES-004 : 0x003D777C'
+  expected: Equipado, restaura estadísticas\nreducidas en combate. Solo se\npuede usar una vez.
+- offset: '0x003d77df'
+  name: 'ES-004 : 0x003D77DF'
+  expected: Equipado, favorece el\ncrecimiento de las estadísticas,\npero baja la Velocidad.
+- offset: '0x003d783d'
+  name: 'ES-004 : 0x003D783D'
+  expected: Al activarlo, todos los Pokémon\ndel equipo ganan puntos de\nexperiencia en los combates.
+- offset: '0x003d789f'
+  name: 'ES-004 : 0x003D789F'
+  expected: Garra ligera y afilada. Permite\nal Pokémon que la lleva atacar\nprimero en algunas ocasiones.
+- offset: '0x003d7900'
+  name: 'ES-004 : 0x003D7900'
+  expected: Cascabel de sonido cálido.\nCalma y hace más amistoso al\nPokémon que lo lleva.
+- offset: '0x003d7969'
+  name: 'ES-004 : 0x003D7969'
+  expected: Si lo lleva un Pokémon, cura el\nenamoramiento. Solo se puede\nusar una vez.
+- offset: '0x003d79c7'
+  name: 'ES-004 : 0x003D79C7'
+  expected: Potencia un movimiento del\nPokémon que lo lleva, pero le\nimpide usar los demás.
+- offset: '0x003d7a22'
+  name: 'ES-004 : 0x003D7A22'
+  expected: Si lo lleva un Pokémon, puede\nhacer retroceder al rival\ncuando este recibe daño.
+- offset: '0x003d7a76'
+  name: 'ES-004 : 0x003D7A76'
+  expected: Polvo de brillo plateado.\nEquipado, potencia los\nmovimientos de tipo Bicho.
+- offset: '0x003d7b36'
+  name: 'ES-004 : 0x003D7B36'
+  expected: Repele Pokémon salvajes si lo\nlleva el primer Pokémon del\nequipo.
+- offset: '0x003d7be5'
+  name: 'ES-004 : 0x003D7BE5'
+  expected: Colmillo de brillo plateado\npara Clamperl. Aumenta su At.\nEsp.
+- offset: '0x003d7c45'
+  name: 'ES-004 : 0x003D7C45'
+  expected: Escama de tenue brillo rosado\npara Clamperl. Aumenta su Def.\nEsp.
+- offset: '0x003d7ca4'
+  name: 'ES-004 : 0x003D7CA4'
+  expected: Permite al Pokémon que lo lleva\nhuir siempre de cualquier\nPokémon salvaje.
+- offset: '0x003d7d02'
+  name: 'ES-004 : 0x003D7D02'
+  expected: Impide que evolucione el\nPokémon que la lleva.
+- offset: '0x003d7d53'
+  name: 'ES-004 : 0x003D7D53'
+  expected: El Pokémon que la lleva puede\nresistir un ataque y quedarse\ncon 1 PS.
+- offset: '0x003d7db1'
+  name: 'ES-004 : 0x003D7DB1'
+  expected: Huevo lleno de felicidad. El\nPokémon que lo lleva gana\nexperiencia extra en combate.
+- offset: '0x003d7e17'
+  name: 'ES-004 : 0x003D7E17'
+  expected: Lente que sube la probabilidad\nde golpe crítico del Pokémon\nque la lleva.
+- offset: '0x003d7e7a'
+  name: 'ES-004 : 0x003D7E7A'
+  expected: Revestimiento metálico.\nEquipado, potencia los\nmovimientos de tipo Acero.
+- offset: '0x003d7ede'
+  name: 'ES-004 : 0x003D7EDE'
+  expected: El Pokémon que lo lleva\nrecupera PS gradualmente\ndurante el combate.
+- offset: '0x003d7f37'
+  name: 'ES-004 : 0x003D7F37'
+  expected: Escama gruesa y resistente que\npuede llevar un Pokémon de\ntipo Dragón.
+- offset: '0x003d7f79'
+  name: 'ES-004 : 0x003D7F79'
+  expected: Esfera para Pikachu que sube\nAtaque y At. Esp. Puede dar\ndescargas al tocarla.
+- offset: '0x003d7fd5'
+  name: 'ES-004 : 0x003D7FD5'
+  expected: Arena suelta y sedosa.\nEquipada, potencia los\nmovimientos de tipo Tierra.
+- offset: '0x003d8036'
+  name: 'ES-004 : 0x003D8036'
+  expected: Piedra irrompible que potencia\nlos movimientos de tipo Roca\ndel Pokémon que la lleva.
+- offset: '0x003d8096'
+  name: 'ES-004 : 0x003D8096'
+  expected: Semilla llena de vida.\nEquipada, potencia los\nmovimientos de tipo Planta.
+- offset: '0x003d80fa'
+  name: 'ES-004 : 0x003D80FA'
+  expected: Gafas de aspecto siniestro.\nEquipadas, potencian los\nmovimientos de tipo Siniestro.
+- offset: '0x003d8158'
+  name: 'ES-004 : 0x003D8158'
+  expected: Cinturón que refuerza la\nvoluntad. Equipado, potencia\nmovimientos de tipo Lucha.
+- offset: '0x003d81b3'
+  name: 'ES-004 : 0x003D81B3'
+  expected: Potente imán que refuerza los\nmovimientos de tipo Eléctrico\ndel Pokémon que lo lleva.
+- offset: '0x003d8214'
+  name: 'ES-004 : 0x003D8214'
+  expected: Gema con forma de lágrima que\npotencia los movimientos de tipo\nAgua del Pokémon que la lleva.
+- offset: '0x003d8276'
+  name: 'ES-004 : 0x003D8276'
+  expected: Pico largo y afilado. Equipado,\npotencia los movimientos de tipo\nVolador.
+- offset: '0x003d82d6'
+  name: 'ES-004 : 0x003D82D6'
+  expected: Púa pequeña y venenosa.\nEquipada, potencia los\nmovimientos de tipo Veneno.
+- offset: '0x003d833b'
+  name: 'ES-004 : 0x003D833B'
+  expected: Trozo de hielo que repele el\ncalor y potencia movimientos de\ntipo Hielo de quien lo lleva.
+- offset: '0x003d8397'
+  name: 'ES-004 : 0x003D8397'
+  expected: Amuleto siniestro y extraño.\nEquipado, potencia los\nmovimientos de tipo Fantasma.
+- offset: '0x003d83ec'
+  name: 'ES-004 : 0x003D83EC'
+  expected: Cuchara telequinética.\nEquipada, potencia los\nmovimientos de tipo Psíquico.
+- offset: '0x003d844e'
+  name: 'ES-004 : 0x003D844E'
+  expected: Combustible que potencia los\nmovimientos de tipo Fuego del\nPokémon que lo lleva.
+- offset: '0x003d84ac'
+  name: 'ES-004 : 0x003D84AC'
+  expected: Colmillo duro y afilado que\npotencia movimientos de tipo\nDragón de quien lo lleva.
+- offset: '0x003d850f'
+  name: 'ES-004 : 0x003D850F'
+  expected: Pañuelo suntuoso que potencia\nlos movimientos de tipo Normal\ndel Pokémon que lo lleva.
+- offset: '0x003d856e'
+  name: 'ES-004 : 0x003D856E'
+  expected: Dispositivo transparente lleno\nde todo tipo de datos. Lo\nfabrica Silph S. A.
+- offset: '0x003d85ba'
+  name: 'ES-004 : 0x003D85BA'
+  expected: El Pokémon que la lleva\nrecupera algunos PS al golpear\nal rival.
+- offset: '0x003d8616'
+  name: 'ES-004 : 0x003D8616'
+  expected: Potencia ligeramente los\nmovimientos de tipo Agua del\nPokémon que lo lleva.
+- offset: '0x003d8669'
+  name: 'ES-004 : 0x003D8669'
+  expected: Su peculiar aroma reduce un\npoco la Precisión del rival si\nlo lleva un Pokémon.
+- offset: '0x003d86c0'
+  name: 'ES-004 : 0x003D86C0'
+  expected: Guante para Chansey que\naumenta su probabilidad de\ngolpe crítico.
+- offset: '0x003d8709'
+  name: 'ES-004 : 0x003D8709'
+  expected: Polvo fino y duro para Ditto.\nAumenta su Defensa cuando lo\nlleva.
+- offset: '0x003d8754'
+  name: 'ES-004 : 0x003D8754'
+  expected: Hueso duro de origen extraño\npara Cubone o Marowak. Aumenta\nsu Ataque.
+- offset: '0x003d87ab'
+  name: 'ES-004 : 0x003D87AB'
+  expected: Puerro para Farfetch'd que\naumenta su probabilidad de\ngolpe crítico.
+- offset: '0x003d89d7'
+  name: 'ES-004 : 0x003D89D7'
+  expected: Bicicleta plegable que permite\nir al menos el doble de rápido\nque caminando.
+- offset: '0x003d8acc'
+  name: 'ES-004 : 0x003D8ACC'
+  expected: Caña vieja y gastada para\npescar Pokémon salvajes en\ncualquier zona de agua.
+- offset: '0x003d8b23'
+  name: 'ES-004 : 0x003D8B23'
+  expected: Caña nueva y de calidad para\npescar Pokémon salvajes en\ncualquier zona de agua.
+- offset: '0x003d8b7b'
+  name: 'ES-004 : 0x003D8B7B'
+  expected: Caña genial de alta tecnología\npara pescar Pokémon salvajes\nen toda zona de agua.
+- offset: '0x003d8bd4'
+  name: 'ES-004 : 0x003D8BD4'
+  expected: Billete para navegar entre el\noeste y el este de Borrius.\nTiene un dibujo de un barco.
+- offset: '0x003d8c8a'
+  name: 'ES-004 : 0x003D8C8A'
+  expected: Práctica regadera que favorece\nel crecimiento de las bayas\nplantadas en tierra blanda.
+- offset: '0x003d8d37'
+  name: 'ES-004 : 0x003D8D37'
+  expected: Saco que recoge ceniza\nvolcánica al caminar por capas\nespesas de ceniza.
+- offset: '0x003d8d85'
+  name: 'ES-004 : 0x003D8D85'
+  expected: Llave de Malvalanova,\nconstruida bajo Ciudad\nMalvalona.
+- offset: '0x003d8e68'
+  name: 'ES-004 : 0x003D8E68'
+  expected: Carta muy importante para\nMáximo del presidente de Devon\nS. A.
+- offset: '0x003d8ebd'
+  name: 'ES-004 : 0x003D8EBD'
+  expected: Billete de ferri para una isla\nlejana al sur. Tiene un dibujo\nde una isla.
+- offset: '0x003d8f2a'
+  name: 'ES-004 : 0x003D8F2A'
+  expected: Esfera de brillo rojo. Se dice\nque contiene un poder increíble\ndesde tiempos remotos.
+- offset: '0x003d8f7f'
+  name: 'ES-004 : 0x003D8F7F'
+  expected: Esfera de brillo azul. Se dice\nque contiene un poder increíble\ndesde tiempos remotos.
+- offset: '0x003d9025'
+  name: 'ES-004 : 0x003D9025'
+  expected: Gafas protectoras que permiten\nviajar incluso entre tormentas\nde arena del desierto.
+- offset: '0x003d9083'
+  name: 'ES-004 : 0x003D9083'
+  expected: Trozo de un meteorito que cayó\ndel espacio en Pueblo Crater\nhace mucho tiempo.
+- offset: '0x003d90d7'
+  name: 'ES-004 : 0x003D90D7'
+  expected: Llave que desconecta la\nbarrera eléctrica de Shadows en\nel Monte Thundercap.
+- offset: '0x003d9139'
+  name: 'ES-004 : 0x003D9139'
+  expected: Tarjeta que abre las puertas\nde nivel de autorización 2 en\nla base de Shadows.
+- offset: '0x003d919b'
+  name: 'ES-004 : 0x003D919B'
+  expected: Tarjeta que abre las puertas\nde nivel de autorización 3 en\nla base de Shadows.
+- offset: '0x003d91fd'
+  name: 'ES-004 : 0x003D91FD'
+  expected: Tarjeta que abre las puertas\nde nivel de autorización 1 en\nla base de Shadows.
+- offset: '0x003d925f'
+  name: 'ES-004 : 0x003D925F'
+  expected: Llave vieja y frágil para\nabrir la bodega de la\nNao Abandonada.
+- offset: '0x003d92bf'
+  name: 'ES-004 : 0x003D92BF'
+  expected: Fósil de un antiguo Pokémon del\nfondo marino. Parece parte de\nuna raíz vegetal.
+- offset: '0x003d931a'
+  name: 'ES-004 : 0x003D931A'
+  expected: Fósil de un antiguo Pokémon del\nfondo marino. Parece parte de\nuna garra.
+- offset: '0x003d936f'
+  name: 'ES-004 : 0x003D936F'
+  expected: Dispositivo de Devon S. A. que\ndetecta la presencia de Pokémon\ninvisibles.
+- offset: '0x003da7d1'
+  name: 'ES-004 : 0x003DA7D1'
+  expected: Paquete para el Profesor Log\ndesde la Tienda Pokémon de\nPueblo Bellin.
+- offset: '0x003da866'
+  name: 'ES-004 : 0x003DA866'
+  expected: Calcetines mugrientos hallados\nen las alcantarillas de Ciudad\nAntisis.
+- offset: '0x003da8b4'
+  name: 'ES-004 : 0x003DA8B4'
+  expected: Paquete que contiene una\nPokédex para tu rival.
+- offset: '0x003da907'
+  name: 'ES-004 : 0x003DA907'
+  expected: Anillo para megaevolucionar en\ncombate a los Pokémon que\nllevan una Megapiedra.
+- offset: '0x003da95a'
+  name: 'ES-004 : 0x003DA95A'
+  expected: Ámbar con genes de un Pokémon\nantiguo. Es transparente y de\nun tono rojizo.
+- offset: '0x003da9bb'
+  name: 'ES-004 : 0x003DA9BB'
+  expected: Tarjeta que abre las puertas\nde nivel de autorización 1 en\nThe Shadow.
+- offset: '0x003daa64'
+  name: 'ES-004 : 0x003DAA64'
+  expected: Fósil de un antiguo Pokémon del\nfondo marino. Parece parte de\nuna concha marina.
+- offset: '0x003daabd'
+  name: 'ES-004 : 0x003DAABD'
+  expected: Fósil de un antiguo Pokémon del\nfondo marino. Parece parte de\nun caparazón.
+- offset: '0x003dab9f'
+  name: 'ES-004 : 0x003DAB9F'
+  expected: Mapa muy práctico que puedes\nconsultar cuando quieras.\nTambién muestra tu ubicación.
+- offset: '0x003dabf7'
+  name: 'ES-004 : 0x003DABF7'
+  expected: Detecta a los Entrenadores que\nquieren luchar. Su batería se\ncarga al viajar.
+- offset: '0x003daca5'
+  name: 'ES-004 : 0x003DACA5'
+  expected: Estuche para MT y MO. Está en\nel sector de objetos\nimportantes del Cubo.
+- offset: '0x003dad01'
+  name: 'ES-004 : 0x003DAD01'
+  expected: Saco para llevar bayas. Está\nen el sector de objetos\nimportantes del Cubo.
+- offset: '0x003daf52'
+  name: 'ES-004 : 0x003DAF52'
+  expected: Tarro para guardar el polvo de\nbayas hecho con un\nMachacabayas.
+- offset: '0x003df7e8'
+  name: 'ES-004 : 0x003DF7E8'
+  expected: ZREZA
+- offset: '0x003e7f35'
+  name: 'ES-004 : 0x003E7F35'
+  expected: TE TENGO
+- offset: '0x003e7f3c'
+  name: 'ES-004 : 0x003E7F3C'
+  expected: INTERCAMBIO
+- offset: '0x003e7f42'
+  name: 'ES-004 : 0x003E7F42'
+  expected: ZAFIRO
+- offset: '0x003e7f4b'
+  name: 'ES-004 : 0x003E7F4B'
+  expected: EVOLUCIONAR
+- offset: '0x003e7f52'
+  name: 'ES-004 : 0x003E7F52'
+  expected: ENCICLOPEDIA
+- offset: '0x003e7f5f'
+  name: 'ES-004 : 0x003E7F5F'
+  expected: NATURALEZA
+- offset: '0x003e7f66'
+  name: 'ES-004 : 0x003E7F66'
+  expected: CENTRO
+- offset: '0x003e7f71'
+  name: 'ES-004 : 0x003E7F71'
+  expected: CONEXIÓN
+- offset: '0x003e7f76'
+  name: 'ES-004 : 0x003E7F76'
+  expected: HABILIDAD
+- offset: '0x003e7f82'
+  name: 'ES-004 : 0x003E7F82'
+  expected: Entrenador
+- offset: '0x003e7f8a'
+  name: 'ES-004 : 0x003E7F8A'
+  expected: VERSIÓN
+- offset: '0x003e7f92'
+  name: 'ES-004 : 0x003E7F92'
+  expected: POKéNAV
+- offset: '0x003e7f9a'
+  name: 'ES-004 : 0x003E7F9A'
+  expected: Pokémon
+- offset: '0x003e7fa6'
+  name: 'ES-004 : 0x003E7FA6'
+  expected: Pokédex
+- offset: '0x003e7fae'
+  name: 'ES-004 : 0x003E7FAE'
+  expected: RUBÍ
+- offset: '0x003e7fb3'
+  name: 'ES-004 : 0x003E7FB3'
+  expected: NIVEL
+- offset: '0x003e7fbd'
+  name: 'ES-004 : 0x003E7FBD'
+  expected: VERDE
+- offset: '0x003e7fc7'
+  name: 'ES-004 : 0x003E7FC7'
+  expected: FUEGO
+- offset: '0x003e7fcd'
+  name: 'ES-004 : 0x003E7FCD'
+  expected: ORO
+- offset: '0x003e7fd2'
+  name: 'ES-004 : 0x003E7FD2'
+  expected: HOJA
+- offset: '0x003e7fd7'
+  name: 'ES-004 : 0x003E7FD7'
+  expected: PLATA
+- offset: '0x003e811d'
+  name: 'ES-004 : 0x003E811D'
+  expected: HEDOR
+- offset: '0x003e8124'
+  name: 'ES-004 : 0x003E8124'
+  expected: SEBO
+- offset: '0x003e812e'
+  name: 'ES-004 : 0x003E812E'
+  expected: CURA LLUVIA
+- offset: '0x003e8138'
+  name: 'ES-004 : 0x003E8138'
+  expected: LLOVIZNA
+- offset: '0x003e8140'
+  name: 'ES-004 : 0x003E8140'
+  expected: TRAMPA ARENA
+- offset: '0x003e814b'
+  name: 'ES-004 : 0x003E814B'
+  expected: INTIMIDACIÓN
+- offset: '0x003e8156'
+  name: 'ES-004 : 0x003E8156'
+  expected: CABEZA ROCA
+- offset: '0x003e8160'
+  name: 'ES-004 : 0x003E8160'
+  expected: COLOR
+- offset: '0x003e8166'
+  name: 'ES-004 : 0x003E8166'
+  expected: COLOR ALT.
+- offset: '0x003e8171'
+  name: 'ES-004 : 0x003E8171'
+  expected: ROCA
+- offset: '0x003e8176'
+  name: 'ES-004 : 0x003E8176'
+  expected: BELLO
+- offset: '0x003e8180'
+  name: 'ES-004 : 0x003E8180'
+  expected: BELLEZA
+- offset: '0x003e8187'
+  name: 'ES-004 : 0x003E8187'
+  expected: BUCLE AIRE
+- offset: '0x003e8190'
+  name: 'ES-004 : 0x003E8190'
+  expected: PSÍQUICO
+- offset: '0x003e8198'
+  name: 'ES-004 : 0x003E8198'
+  expected: CORTE FUERTE
+- offset: '0x003e81a5'
+  name: 'ES-004 : 0x003E81A5'
+  expected: LUCHA
+- offset: '0x003e81ae'
+  name: 'ES-004 : 0x003E81AE'
+  expected: SOMBRATRAMPA
+- offset: '0x003e81b9'
+  name: 'ES-004 : 0x003E81B9'
+  expected: INGENIOSO
+- offset: '0x003e81bf'
+  name: 'ES-004 : 0x003E81BF'
+  expected: INGENIO
+- offset: '0x003e81c9'
+  name: 'ES-004 : 0x003E81C9'
+  expected: IMPULSO
+- offset: '0x003e81d5'
+  name: 'ES-004 : 0x003E81D5'
+  expected: CARISMÁTICO
+- offset: '0x003e81da'
+  name: 'ES-004 : 0x003E81DA'
+  expected: CARISMA
+- offset: '0x003e81e3'
+  name: 'ES-004 : 0x003E81E3'
+  expected: ARMAD. BAT.
+- offset: '0x003e81f0'
+  name: 'ES-004 : 0x003E81F0'
+  expected: DULCE
+- offset: '0x003e81f5'
+  name: 'ES-004 : 0x003E81F5'
+  expected: DULZURA
+- offset: '0x003e81fe'
+  name: 'ES-004 : 0x003E81FE'
+  expected: ROBUSTEZ
+- offset: '0x003e8205'
+  name: 'ES-004 : 0x003E8205'
+  expected: VENTOSAS
+- offset: '0x003e8212'
+  name: 'ES-004 : 0x003E8212'
+  expected: PLANTA
+- offset: '0x003e8218'
+  name: 'ES-004 : 0x003E8218'
+  expected: CUERPO PURO
+- offset: '0x003e8223'
+  name: 'ES-004 : 0x003E8223'
+  expected: TORRENTE
+- offset: '0x003e822b'
+  name: 'ES-004 : 0x003E822B'
+  expected: FANTASMA
+- offset: '0x003e8231'
+  name: 'ES-004 : 0x003E8231'
+  expected: HIELO
+- offset: '0x003e8235'
+  name: 'ES-004 : 0x003E8235'
+  expected: AGALLAS
+- offset: '0x003e823a'
+  name: 'ES-004 : 0x003E823A'
+  expected: PIEL TOSCA
+- offset: '0x003e8245'
+  name: 'ES-004 : 0x003E8245'
+  expected: CAPARAZÓN
+- offset: '0x003e8251'
+  name: 'ES-004 : 0x003E8251'
+  expected: CURA NATURAL
+- offset: '0x003e825e'
+  name: 'ES-004 : 0x003E825E'
+  expected: HUMEDAD
+- offset: '0x003e8263'
+  name: 'ES-004 : 0x003E8263'
+  expected: TIERRA
+- offset: '0x003e826a'
+  name: 'ES-004 : 0x003E826A'
+  expected: FLEXIBILIDAD
+- offset: '0x003e8271'
+  name: 'ES-004 : 0x003E8271'
+  expected: IMÁN
+- offset: '0x003e827d'
+  name: 'ES-004 : 0x003E827D'
+  expected: HUMO BLANCO
+- offset: '0x003e8289'
+  name: 'ES-004 : 0x003E8289'
+  expected: SINCRONÍA
+- offset: '0x003e8295'
+  name: 'ES-004 : 0x003E8295'
+  expected: ESPESURA
+- offset: '0x003e829e'
+  name: 'ES-004 : 0x003E829E'
+  expected: NADO RÁPIDO
+- offset: '0x003e82a9'
+  name: 'ES-004 : 0x003E82A9'
+  expected: CHORRO ARENA
+- offset: '0x003e82b5'
+  name: 'ES-004 : 0x003E82B5'
+  expected: VELO ARENA
+- offset: '0x003e82bf'
+  name: 'ES-004 : 0x003E82BF'
+  expected: VISTA LINCE
+- offset: '0x003e82c8'
+  name: 'ES-004 : 0x003E82C8'
+  expected: FOCO INTERNO
+- offset: '0x003e82d4'
+  name: 'ES-004 : 0x003E82D4'
+  expected: ELEC. ESTÁT.
+- offset: '0x003e82db'
+  name: 'ES-004 : 0x003E82DB'
+  expected: Tipo
+- offset: '0x003e82e0'
+  name: 'ES-004 : 0x003E82E0'
+  expected: DURO
+- offset: '0x003e82e6'
+  name: 'ES-004 : 0x003E82E6'
+  expected: DUREZA
+- offset: '0x003e82f0'
+  name: 'ES-004 : 0x003E82F0'
+  expected: MUDAR
+- offset: '0x003e82fa'
+  name: 'ES-004 : 0x003E82FA'
+  expected: POTENCIA
+- offset: '0x003e8305'
+  name: 'ES-004 : 0x003E8305'
+  expected: ABSOR. ELEC.
+- offset: '0x003e8311'
+  name: 'ES-004 : 0x003E8311'
+  expected: ABSOR. AGUA
+- offset: '0x003e831e'
+  name: 'ES-004 : 0x003E831E'
+  expected: ELÉCTRICO
+- offset: '0x003e8327'
+  name: 'ES-004 : 0x003E8327'
+  expected: PREDICCIÓN
+- offset: '0x003e8330'
+  name: 'ES-004 : 0x003E8330'
+  expected: DICHA
+- offset: '0x003e833d'
+  name: 'ES-004 : 0x003E833D'
+  expected: VENENO
+- offset: '0x003e8344'
+  name: 'ES-004 : 0x003E8344'
+  expected: PUNTO TÓXICO
+- offset: '0x003e8351'
+  name: 'ES-004 : 0x003E8351'
+  expected: DRAGÓN
+- offset: '0x003e8358'
+  name: 'ES-004 : 0x003E8358'
+  expected: RASTRO
+- offset: '0x003e835e'
+  name: 'ES-004 : 0x003E835E'
+  expected: DESPISTE
+- offset: '0x003e8368'
+  name: 'ES-004 : 0x003E8368'
+  expected: AUSENTE
+- offset: '0x003e836f'
+  name: 'ES-004 : 0x003E836F'
+  expected: FUGA
+- offset: '0x003e8378'
+  name: 'ES-004 : 0x003E8378'
+  expected: VISCOSIDAD
