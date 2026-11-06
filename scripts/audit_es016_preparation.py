@@ -1,4 +1,4 @@
-"""Relève ES-016 sans modifier les traductions ni qualifier les zones par adresse."""
+"""Relève un lot ES sans modifier les traductions ni déduire les zones de l'adresse."""
 from __future__ import annotations
 
 import argparse
@@ -48,16 +48,16 @@ def snapshot(rom: bytes, offset: int) -> dict:
             'decoded_control_aware': ''.join(parts), 'commands': commands}
 
 
-def prepare(root: Path = ROOT) -> dict:
+def prepare(root: Path = ROOT, lot_id: str = 'ES-016') -> dict:
     """Fige les préimages, les références binaires et les correspondances ES."""
     source = (root / 'input/roms/englishrom.gba').read_bytes()
     spanish = (root / 'input/roms/spanishrom.gba').read_bytes()
     lots = json.loads((root / 'docs/analysis/es/lots.json').read_text())
-    keys = next(lot['offsets'] for lot in lots if lot['id'] == 'ES-016')
+    keys = next(lot['offsets'] for lot in lots if lot['id'] == lot_id)
     offsets = [int(key, 16) for key in keys]
     with (root / 'docs/analysis/es/inventaire.csv').open(newline='') as stream:
         inventory = {row['offset']: row for row in csv.DictReader(stream)
-                     if row['lot'] == 'ES-016'}
+                     if row['lot'] == lot_id}
     mapping_path = root / 'output/differences/pointer_offset_map.json'
     mappings = defaultdict(list)
     for item in json.loads(mapping_path.read_text())['offset_map']:
@@ -111,7 +111,7 @@ def prepare(root: Path = ROOT) -> dict:
     protected = ['languages/en/combined_en.txt', 'languages/es/combined_es.txt',
                  'languages/fr/combined_fr.txt', 'languages/es-maint/combined_es-maint.txt',
                  'languages/es-maint/protected_entries.yaml', 'languages/es-maint/glossary.md']
-    return {'lot': 'ES-016', 'status': 'préparation technique ; lot non livré',
+    return {'lot': lot_id, 'status': 'préparation technique ; lot non livré',
             'source_sha256': hashlib.sha256(source).hexdigest(),
             'spanish_sha256': hashlib.sha256(spanish).hexdigest(),
             'offset_map_sha256': hashlib.sha256(mapping_path.read_bytes()).hexdigest(),
@@ -126,13 +126,14 @@ def prepare(root: Path = ROOT) -> dict:
             'entries': records}
 
 
-def probe_routing(root: Path = ROOT) -> dict:
-    """Exerce la vraie conversion avec sept sentinelles purement temporaires."""
+def probe_routing(root: Path = ROOT, lot_id: str = 'ES-016') -> dict:
+    """Exerce la vraie conversion avec des sentinelles purement temporaires."""
     from scripts import build_language as driver
 
-    routes = json.loads((root / 'docs/analysis/es/016_ROUTES.json').read_text())['routes']
+    number = lot_id.removeprefix('ES-')
+    routes = json.loads((root / f'docs/analysis/es/{number}_ROUTES.json').read_text())['routes']
     chosen = [route for route in routes if not route['in_same_lot']]
-    with tempfile.TemporaryDirectory(prefix='es016-route-') as temporary:
+    with tempfile.TemporaryDirectory(prefix=f'es{number}-route-') as temporary:
         tmp = Path(temporary)
         combined = tmp / 'combined.txt'
         combined.write_text(''.join(route['contract_offset'] + ': Z'
@@ -162,19 +163,21 @@ def probe_routing(root: Path = ROOT) -> dict:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--lot', default='ES-016', help='Lot exact de lots.json')
     parser.add_argument('--probe-routing', action='store_true')
     args = parser.parse_args()
+    number = args.lot.removeprefix('ES-')
     if args.probe_routing:
-        report = probe_routing()
-        destination = ROOT / 'docs/analysis/es/016_ACHEMINEMENT_REPRO.json'
+        report = probe_routing(lot_id=args.lot)
+        destination = ROOT / f'docs/analysis/es/{number}_ACHEMINEMENT_REPRO.json'
     else:
-        report = prepare()
-        destination = ROOT / 'docs/analysis/es/016_PREPARATION.json'
+        report = prepare(lot_id=args.lot)
+        destination = ROOT / f'docs/analysis/es/{number}_PREPARATION.json'
         routes = [{'contract_offset': row['offset'], **candidate}
                   for row in report['entries'] for candidate in row['nearby_candidates']
                   if candidate['prefix_hex'] == 'aa']
-        (ROOT / 'docs/analysis/es/016_ROUTES.json').write_text(json.dumps({
-            'lot': 'ES-016',
+        (ROOT / f'docs/analysis/es/{number}_ROUTES.json').write_text(json.dumps({
+            'lot': args.lot,
             'status': 'candidats à certifier, aucune route autorisée par ce relevé',
             'routes': routes}, ensure_ascii=False, indent=2) + '\n')
     destination.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
