@@ -9,9 +9,10 @@ from pathlib import Path
 class TextAliases:
     """Contrat explicite, borné par préimages et références binaires exactes."""
 
-    def __init__(self, entries: dict[int, dict], guards: list[dict] | None = None) -> None:
+    def __init__(self, entries: dict[int, dict], guards: list[dict] | None = None, excluded: set[int] | None = None) -> None:
         self.entries = entries
         self.guards = guards or []
+        self.excluded = excluded or set()
 
     @classmethod
     def load(cls, path: Path, english_rom: bytes) -> TextAliases:
@@ -27,7 +28,11 @@ class TextAliases:
         ItemDescriptionRoutes.verify_guards(english_rom, guards)
         entries = {}
         targets = set()
-        for record in data['aliases']:
+        excluded = set()
+        for record in data.get('excluded', []):
+            for field in ('contract_offset', 'live_offset'):
+                excluded.add(int(record[field], 16))
+        for record in data['aliases'] + data.get('excluded', []):
             entry = dict(record)
             for field in ('contract_offset', 'live_offset'):
                 entry[field] = int(entry[field], 16)
@@ -73,18 +78,25 @@ class TextAliases:
                 entry['layout'] = layout
             entries[key] = entry
             targets.add(live)
+            if key in excluded:
+                # Une exclusion ne doit pas devenir une écriture muette après
+                # les patches : conserver aussi préfixe, texte et table dormante.
+                guards.append({'offset': f'0x{key:X}', 'hex': (prefix + raw).hex()})
+                guards.extend({'offset': f'0x{p:X}', 'hex': needle.hex()} for p in pointers)
         if targets & entries.keys():
             raise ValueError('Text alias chain/collision')
         spans = sorted((e['contract_offset'], e['live_offset'] + len(bytes.fromhex(e['english_raw_hex']))) for e in entries.values())
         if any(end > start for (_, end), (start, _) in zip(spans, spans[1:])):  # noqa: RUF007
             raise ValueError('Overlapping text aliases')
-        return cls(entries, guards)
+        return cls({key: entry for key, entry in entries.items() if key not in excluded}, guards, excluded)
 
     def check_keys(self, keys: set[int]) -> None:
         """Refuse deux traductions revendiquant le même texte, même identiques."""
         for key, entry in self.entries.items():
             if key in keys and entry['live_offset'] in keys:
                 raise ValueError(f'0x{key:08X}: translation key collision')
+        if keys & self.excluded:
+            raise ValueError('Clé exclue : table dormante sans consommateur moteur actuel')
 
     @staticmethod
     def _extracted_map(path: Path, offsets: set[int]) -> dict[int, dict]:

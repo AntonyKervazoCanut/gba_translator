@@ -24,11 +24,18 @@ def test_all_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
     before = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in sources}
     combined = tmp_path / 'combined_sentinel.txt'
     sentinel = 'ALIASB1030 '
+    from src.core.text_aliases import TextAliases
+    from tests.e2e.es.test_es011_alias_routes import KEYS, sentinel_translations
+    aliases = TextAliases.load(contract_path, driver.ENGLISH_ROM.read_bytes())
+    es011 = sentinel_translations({k: aliases.entries[k] for k in KEYS})
+    texts = {}
     lines = []
     for record in records:
         raw = bytes.fromhex(record['english_raw_hex'])[:-1]
         # Literal bytes preserve every command AND its arguments, FA/FB and FD order.
         text = ('Z' if 'layout' in record else sentinel) + ''.join(f'<0x{b:02X}>' for b in raw)
+        text = es011.get(int(record['contract_offset'], 16), text)
+        texts[int(record['contract_offset'], 16)] = text
         lines.append(f"{record['contract_offset']}: {text}\n")
     combined.write_text(''.join(lines))
     config = replace(config, combined=str(combined), text_aliases=str(contract_path),
@@ -50,17 +57,15 @@ def test_all_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
     driver.apply_patches(config, output, ready, build_number=0)
     rom = output.read_bytes()
     english = driver.ENGLISH_ROM.read_bytes()
-    prefix = TextEncoder.encode_pokemon(sentinel)[:-1]
     for record in records:
         key = int(record['contract_offset'], 16)
-        raw = bytes.fromhex(record['english_raw_hex'])
         # Relocation is required: sentinel + complete source exceeds the old budget.
-        expected = (TextEncoder.encode_pokemon('Z')[:-1] if 'layout' in record else prefix) + raw
+        expected = TextEncoder.encode_pokemon(texts[key])
         for pointer in record['pointer_offsets']:
             p = int(pointer, 16)
             live = int.from_bytes(rom[p:p + 4], 'little') - 0x08000000
             assert live != key and live != int(record['live_offset'], 16)
             assert rom[live:live + len(expected)] == expected
-        end = int(record['live_offset'], 16) + len(raw)
+        end = int(record['live_offset'], 16) + len(bytes.fromhex(record['english_raw_hex']))
         assert rom[key:end] == english[key:end]
     assert {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in sources} == before

@@ -349,6 +349,7 @@ class TranslatedROMBuilder:
         glyphs = bytes.fromhex(layout['glyph_widths_hex']) if layout and 'glyph_widths_hex' in layout else GLYPH_WIDTHS
         keypad = layout.get('keypad_widths') if layout else None
         widths = [0]
+        page_lines = 1
         i = 0
         while i < len(raw):
             value = raw[i]
@@ -357,6 +358,9 @@ class TranslatedROMBuilder:
                     raise ValueError('Terminateur interne dans cette fenêtre')
                 break
             if value == 0xFE:
+                page_lines += 1
+                if layout and page_lines > layout.get('max_page_lines', float('inf')):
+                    raise ValueError('budget de lignes par page dépassé')
                 widths.append(0)
                 i += 1
             elif value == 0xFC:
@@ -371,7 +375,11 @@ class TranslatedROMBuilder:
                 widths[-1] += VARIABLE_WIDTH if value == 0xFD else 12
                 i += 1 + cls.RAW_ARG_PREFIXES[value]
             elif value in (0xFA, 0xFB):
-                raise ValueError('Pagination interdite dans cette fenêtre')
+                if not layout or not layout.get('allow_pagination', False):
+                    raise ValueError('Pagination interdite dans cette fenêtre')
+                page_lines = 1
+                widths.append(0)
+                i += 1
             else:
                 widths[-1] += glyphs[value]
                 i += 1

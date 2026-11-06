@@ -9,7 +9,10 @@ ROOT = Path(__file__).resolve().parents[2]
 CONTRACT = ROOT / 'languages/es-maint/text_aliases.json'
 FIXTURE = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es001.json').read_text())
 EXTRA = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es003.json').read_text())
+ES011 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es011.json').read_text())
+ES011_PREFIXES = {int(e['live_offset'], 16): bytes.fromhex(e['prefix_hex']) for e in json.loads((ROOT / 'docs/analysis/es/011_ROUTES.json').read_text())['aliases_candidates']}
 for language in ('english', 'spanish'):
+    FIXTURE[language].extend(e for e in ES011[language] if e['offset'] < 0x41D200)
     FIXTURE[language].extend(EXTRA[language])
     FIXTURE[language].extend(json.loads((Path(__file__).parent / 'fixtures/text_aliases/es008.json').read_text())[language])
     FIXTURE[language].extend(json.loads((Path(__file__).parent / 'fixtures/text_aliases/es002.json').read_text())[language])
@@ -17,18 +20,18 @@ for language in ('english', 'spanish'):
 
 def rom_fixture():
     rom = bytearray(0xA00000)
-    for entry in FIXTURE['english']:
+    for entry in FIXTURE['english'] + [e for e in ES011['english'] if e['offset'] >= 0x41D200]:
         offset = entry['offset']
         raw = bytes.fromhex(entry['raw_bytes'])
         prefix = {0x24F210: b'\x00\x00\x00', 0x24F3C4: b'\x05\x00\x00',
                   0x2779D5: b'\x00', 0x2779F2: b'\xfe',
                   0x415D48: bytes(3), 0x415D50: bytes(1), 0x415D60: bytes(2),
-                  0x415D78: bytes(1), 0x415D8C: bytes(2), 0x4160FC: bytes(3), 0x416104: bytes(3)}.get(offset, b'\xaa')
+                  0x415D78: bytes(1), 0x415D8C: bytes(2), 0x4160FC: bytes(3), 0x416104: bytes(3)}.get(offset, ES011_PREFIXES.get(offset, b'\xaa'))
         rom[offset - len(prefix):offset + len(raw)] = prefix + raw
         for pointer in entry['pointer_offsets']:
             p = int(pointer, 16)
             rom[p:p + 4] = (0x08000000 + offset).to_bytes(4, 'little')
-    for guard in json.loads((Path(__file__).parent / 'fixtures/text_aliases/es008.json').read_text())['guards']:
+    for guard in json.loads((Path(__file__).parent / 'fixtures/text_aliases/es008.json').read_text())['guards'] + ES011['guards']:
         offset = int(guard['offset'], 16)
         raw = bytes.fromhex(guard['hex'])
         rom[offset:offset + len(raw)] = raw
@@ -37,7 +40,7 @@ def rom_fixture():
 
 def test_real_preimages_resolve_all_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 25
+    assert len(aliases.entries) == 40
     assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
     assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries
@@ -120,6 +123,9 @@ def test_csv_uses_live_preimages_and_json_keeps_provenance(tmp_path):
     assert rows[0]['spanish_text'] == FIXTURE['spanish'][0]['text']
     path = tmp_path / 'ready.json'
     path.write_text(json.dumps({'translations': [{'offset': k, 'translation': ''.join(f'<0x{b:02X}>' for b in bytes.fromhex(aliases.entries[k]['english_raw_hex'])[:-1])} for k in keys]}))
+    payload = json.loads(path.read_text())
+    next(i for i in payload['translations'] if i['offset'] == 0x41CF13)['translation'] = 'Registro<0xFE>Espera'
+    path.write_text(json.dumps(payload))
     aliases.resolve_json(path, keys)
     items = json.loads(path.read_text())['translations']
     for item in items:
