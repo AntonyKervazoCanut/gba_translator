@@ -1,0 +1,554 @@
+{
+  "ticket": "F-865",
+  "lot": "ES-015",
+  "status": "candidats techniques à certifier séparément ; pas des alias automatiquement autorisés",
+  "source_sha256": "7aa25bbf568f7cfcf6ee1cf2e9e6ff637350b3d0705c2375cabb6baa7d9739f7",
+  "routes": [
+    {
+      "contract_offset": "0x00721427",
+      "offset": "0x00721428",
+      "prefix_hex": "20",
+      "references": [
+        {
+          "offset": "0x003F1E3C",
+          "context_start": "0x003F1E38",
+          "context_hex": "aef13e08281472089400b508"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "c7c9c8bfbbc800bdc2bbc7bcbfccff",
+        "bytes_including_ff": 15,
+        "decoded_control_aware": "MONEAN CHAMBER",
+        "commands": []
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7476264,
+        "spanish_offset": 7476264,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "c7c9c8bfbbc800bdc2bbc7bcbfccff",
+        "bytes_including_ff": 15,
+        "decoded_control_aware": "MONEAN CHAMBER",
+        "commands": []
+      }
+    },
+    {
+      "contract_offset": "0x00721437",
+      "offset": "0x00721438",
+      "prefix_hex": "00",
+      "references": [
+        {
+          "offset": "0x003F1D64",
+          "context_start": "0x003F1D60",
+          "context_hex": "8c01b50838147208d004b508"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "c5bcce00bfece4e6d9e7e7ebd5edff",
+        "bytes_including_ff": 15,
+        "decoded_control_aware": "KBT Expressway",
+        "commands": []
+      },
+      "in_same_lot": true,
+      "offset_map": {
+        "english_offset": 7476280,
+        "spanish_offset": 7476280,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "bbe9e8e3e4dde7e8d500ccbcceff",
+        "bytes_including_ff": 14,
+        "decoded_control_aware": "Autopista RBT",
+        "commands": []
+      }
+    },
+    {
+      "contract_offset": "0x00745A54",
+      "offset": "0x00745A55",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x00741868",
+          "context_start": "0x00741864",
+          "context_hex": "04320f00555a74080904464e"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "cedcd900bed5e6dfe2d9e7e700bcd5d8dbd900e1d5dfd9e700d5e0e0fecae3df1be1e3e200e9e400e8e300c6eaad00a4a100e3d6d9ed00ede3e9adfbcedcd5e800dde2d7e0e9d8d9e700d9ead9e200e3e9e8e7ddd8d9e6e700ede3e9fee6d9d7d9ddead9d800dde200d500e8e6d5d8d9adfbd3e3e900d7d5e200d5e0e7e300e2e3eb00e9e7d900e8dcd900fc0106c2c700bde9e8fc0108fed5e2ede8dde1d900e3e9e8e7ddd8d900e3da00d6d5e8e8e0d9adfbcfe7d900dde800e8e300d7e9e800d8e3ebe200e7e1d5e0e000e8e6d9d9e700e8e3fee3e4d9e200e9e400e2d9eb00e4d5e8dcebd5ede7adfbc300ebd5e2e800ede3e900e8e300dcd5ead900e1ed00dad5eae3e9e6dde8d9fecec7b800d5e700ebd9e0e0adff",
+        "bytes_including_ff": 280,
+        "decoded_control_aware": "The Darkness Badge makes all\\nPokémon up to Lv. 30 obey you.<0xFB>That includes even outsiders you\\nreceived in a trade.<0xFB>You can also now use the <0xFC><0x01><0x06>HM Cut<0xFC><0x01><0x08>\\nanytime outside of battle.<0xFB>Use it to cut down small trees to\\nopen up new pathways.<0xFB>I want you to have my favourite\\nTM, as well.",
+        "commands": [
+          {
+            "relative_offset": 59,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 113,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 139,
+            "hex": "fc0106"
+          },
+          {
+            "relative_offset": 148,
+            "hex": "fc0108"
+          },
+          {
+            "relative_offset": 178,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 234,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7625301,
+        "spanish_offset": 7625301,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "cedcd900bed5e6dfe2d9e7e700bcd5d8dbd900e1d5dfd9e700d5e0e0fecae3df1be1e3e200e9e400e8e300c6eaad00a4a100e3d6d9ed00ede3e9adfbcedcd5e800dde2d7e0e9d8d9e700d9ead9e200e3e9e8e7ddd8d9e6e700ede3e9fee6d9d7d9ddead9d800dde200d500e8e6d5d8d9adfbd3e3e900d7d5e200d5e0e7e300e2e3eb00e9e7d900e8dcd900fc0106c2c700bde9e8fc0108fed5e2ede8dde1d900e3e9e8e7ddd8d900e3da00d6d5e8e8e0d9adfbcfe7d900dde800e8e300d7e9e800d8e3ebe200e7e1d5e0e000e8e6d9d9e700e8e3fee3e4d9e200e9e400e2d9eb00e4d5e8dcebd5ede7adfbc300ebd5e2e800ede3e900e8e300dcd5ead900e1ed00dad5eae3e9e6dde8d9fecec7b800d5e700ebd9e0e0adff",
+        "bytes_including_ff": 280,
+        "decoded_control_aware": "The Darkness Badge makes all\\nPokémon up to Lv. 30 obey you.<0xFB>That includes even outsiders you\\nreceived in a trade.<0xFB>You can also now use the <0xFC><0x01><0x06>HM Cut<0xFC><0x01><0x08>\\nanytime outside of battle.<0xFB>Use it to cut down small trees to\\nopen up new pathways.<0xFB>I want you to have my favourite\\nTM, as well.",
+        "commands": [
+          {
+            "relative_offset": 59,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 113,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 139,
+            "hex": "fc0106"
+          },
+          {
+            "relative_offset": 148,
+            "hex": "fc0108"
+          },
+          {
+            "relative_offset": 178,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 234,
+            "hex": "fb"
+          }
+        ]
+      }
+    },
+    {
+      "contract_offset": "0x0074BE3C",
+      "offset": "0x0074BE3D",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x00740198",
+          "context_start": "0x00740194",
+          "context_hex": "ff5a0f003dbe740809064f0f"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "d1dcd9e200cae3df1be1e3e200dbd5dde200d9e2e3e9dbdcfed9ece4d9e6ddd9e2d7d9b800e8dcd9ed00d7d5e200d9eae3e0ead900d5e2d8fadbe6e3eb00e7e8e6e3e2dbd9e6adfbcde3e1d900d9ead9e200e0d9d5e6e200e7e4d9d7ddd5e000e1e3ead9e700d5dae8d9e6fed9eae3e0e9e8dde3e2adfbc2e3ebd9ead9e6b800e2e3e800d5e0e000cae3df1be1e3e200d7d5e2fed9eae3e0ead900dee9e7e800d6ed00d6d5e8e8e0dde2db00d9e2e3e9dbdcadfbcde3e1d900e6d9e5e9dde6d900e7e4d9d7ddd5e000dde8d9e1e700e0dddfd9fefc0106c0dde6d900cde8e3e2d9e7fc010800e3e600fc0106d1d5e8d9e600cde8e3e2d9e7fc0108adff",
+        "bytes_including_ff": 253,
+        "decoded_control_aware": "When Pokémon gain enough\\nexperience, they can evolve and<0xFA>grow stronger.<0xFB>Some even learn special moves after\\nevolution.<0xFB>However, not all Pokémon can\\nevolve just by battling enough.<0xFB>Some require special items like\\n<0xFC><0x01><0x06>Fire Stones<0xFC><0x01><0x08> or <0xFC><0x01><0x06>Water Stones<0xFC><0x01><0x08>.",
+        "commands": [
+          {
+            "relative_offset": 56,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 71,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 118,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 179,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 212,
+            "hex": "fc0106"
+          },
+          {
+            "relative_offset": 226,
+            "hex": "fc0108"
+          },
+          {
+            "relative_offset": 233,
+            "hex": "fc0106"
+          },
+          {
+            "relative_offset": 248,
+            "hex": "fc0108"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7650877,
+        "spanish_offset": 7650877,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "d1dcd9e200cae3df1be1e3e200dbd5dde200d9e2e3e9dbdcfed9ece4d9e6ddd9e2d7d9b800e8dcd9ed00d7d5e200d9eae3e0ead900d5e2d8fadbe6e3eb00e7e8e6e3e2dbd9e6adfbcde3e1d900d9ead9e200e0d9d5e6e200e7e4d9d7ddd5e000e1e3ead9e700d5dae8d9e6fed9eae3e0e9e8dde3e2adfbc2e3ebd9ead9e6b800e2e3e800d5e0e000cae3df1be1e3e200d7d5e2fed9eae3e0ead900dee9e7e800d6ed00d6d5e8e8e0dde2db00d9e2e3e9dbdcadfbcde3e1d900e6d9e5e9dde6d900e7e4d9d7ddd5e000dde8d9e1e700e0dddfd9fefc0106c0dde6d900cde8e3e2d9e7fc010800e3e600fc0106d1d5e8d9e600cde8e3e2d9e7fc0108adff",
+        "bytes_including_ff": 253,
+        "decoded_control_aware": "When Pokémon gain enough\\nexperience, they can evolve and<0xFA>grow stronger.<0xFB>Some even learn special moves after\\nevolution.<0xFB>However, not all Pokémon can\\nevolve just by battling enough.<0xFB>Some require special items like\\n<0xFC><0x01><0x06>Fire Stones<0xFC><0x01><0x08> or <0xFC><0x01><0x06>Water Stones<0xFC><0x01><0x08>.",
+        "commands": [
+          {
+            "relative_offset": 56,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 71,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 118,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 179,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 212,
+            "hex": "fc0106"
+          },
+          {
+            "relative_offset": 226,
+            "hex": "fc0108"
+          },
+          {
+            "relative_offset": 233,
+            "hex": "fc0106"
+          },
+          {
+            "relative_offset": 248,
+            "hex": "fc0108"
+          }
+        ]
+      }
+    },
+    {
+      "contract_offset": "0x0074BF85",
+      "offset": "0x0074BF86",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0074AD39",
+          "context_start": "0x0074AD35",
+          "context_hex": "00000f0086bf740809062514"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "c3eae3e6edf000fc0104c2d9e6d9b4e700d500e8d5e7e8d900e3da00ebdcd5e8b4e0e0fedcd5e4e4d9e200e8e300ede3e900ddda00ede3e900e7e4dde0e0abff",
+        "bytes_including_ff": 64,
+        "decoded_control_aware": "Ivory: <0xFC><0x01><0x04>Here's a taste of what'll\\nhappen to you if you spill!",
+        "commands": [
+          {
+            "relative_offset": 7,
+            "hex": "fc0104"
+          }
+        ]
+      },
+      "in_same_lot": true,
+      "offset_map": {
+        "english_offset": 7651206,
+        "spanish_offset": 7651206,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "c3eae3e6edf000fc0104c2d9e6d9b4e700d500e8d5e7e8d900e3da00ebdcd5e8b4e0e0fedcd5e4e4d9e200e8e300ede3e900ddda00ede3e900e7e4dde0e0abff",
+        "bytes_including_ff": 64,
+        "decoded_control_aware": "Ivory: <0xFC><0x01><0x04>Here's a taste of what'll\\nhappen to you if you spill!",
+        "commands": [
+          {
+            "relative_offset": 7,
+            "hex": "fc0104"
+          }
+        ]
+      }
+    },
+    {
+      "contract_offset": "0x0074ED62",
+      "offset": "0x0074ED63",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x00744D43",
+          "context_start": "0x00744D3F",
+          "context_hex": "edff0f0063ed740809024f03"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "c1d9e800e1e3eadde2db00fd01adfbd3e3e900d8e3e2b4e800ebd5e2e800e8e300e1dde7e700c4d5ec00e8d5dfdde2dbfee3e200cedcd900cddcd5d8e3ebe7adff",
+        "bytes_including_ff": 65,
+        "decoded_control_aware": "Get moving <0xFD><0x01>.<0xFB>You don't want to miss Jax taking\\non The Shadows.",
+        "commands": [
+          {
+            "relative_offset": 11,
+            "hex": "fd01"
+          },
+          {
+            "relative_offset": 14,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7662947,
+        "spanish_offset": 7662947,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "c1d9e800e1e3eadde2db00fd01adfbd3e3e900d8e3e2b4e800ebd5e2e800e8e300e1dde7e700c4d5ec00e8d5dfdde2dbfee3e200cedcd900cddcd5d8e3ebe7adff",
+        "bytes_including_ff": 65,
+        "decoded_control_aware": "Get moving <0xFD><0x01>.<0xFB>You don't want to miss Jax taking\\non The Shadows.",
+        "commands": [
+          {
+            "relative_offset": 11,
+            "hex": "fd01"
+          },
+          {
+            "relative_offset": 14,
+            "hex": "fb"
+          }
+        ]
+      }
+    },
+    {
+      "contract_offset": "0x0075100E",
+      "offset": "0x0075100F",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0074BD41",
+          "context_start": "0x0074BD3D",
+          "context_hex": "02ff0f000f1075080905210d"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "cedcd9e6d900d5e4e4d9d5e6e700e8e300d6d900d500dcddd8d8d9e200e4d5e8dcfed6d9dcdde2d800e8dcd900d6e3e3dfe7dcd9e0daadfbd1e3e9e0d800ede3e900e0dddfd900e8e300dae3e0e0e3eb00dde8acff",
+        "bytes_including_ff": 85,
+        "decoded_control_aware": "There appears to be a hidden path\\nbehind the bookshelf.<0xFB>Would you like to follow it?",
+        "commands": [
+          {
+            "relative_offset": 55,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7671823,
+        "spanish_offset": 7671823,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "cedcd9e6d900d5e4e4d9d5e6e700e8e300d6d900d500dcddd8d8d9e200e4d5e8dcfed6d9dcdde2d800e8dcd900d6e3e3dfe7dcd9e0daadfbd1e3e9e0d800ede3e900e0dddfd900e8e300dae3e0e0e3eb00dde8acff",
+        "bytes_including_ff": 85,
+        "decoded_control_aware": "There appears to be a hidden path\\nbehind the bookshelf.<0xFB>Would you like to follow it?",
+        "commands": [
+          {
+            "relative_offset": 55,
+            "hex": "fb"
+          }
+        ]
+      }
+    },
+    {
+      "contract_offset": "0x0075350F",
+      "offset": "0x00753510",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0075249B",
+          "context_start": "0x00752497",
+          "context_hex": "ffaa0f001035750809024f01"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "c7ed00d6e6e3e8dcd9e600d7d5e9dbdce800dcdde700cae3df1be1e3e2fed6ed00e8d5e0dfdde2db00d500cae3df1b00bcd5e0e000dde2fad0ddeadde0e000d1e3e3d8e7adfbbce9e800c300dcd9d5e6d800d8dddadad9e6d9e2e800cae3df1be1e3e2fed5e4e4d9d5e600dae3e600d8dddadad9e6d9e2e800e8e6d5dde2d9e6e7adff",
+        "bytes_including_ff": 131,
+        "decoded_control_aware": "My brother caught his Pokémon\\nby talking a Poké Ball in<0xFA>Vivill Woods.<0xFB>But I heard different Pokémon\\nappear for different trainers.",
+        "commands": [
+          {
+            "relative_offset": 55,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 69,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7681296,
+        "spanish_offset": 7681296,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "c7ed00d6e6e3e8dcd9e600d7d5e9dbdce800dcdde700cae3df1be1e3e2fed6ed00e8d5e0dfdde2db00d500cae3df1b00bcd5e0e000dde2fad0ddeadde0e000d1e3e3d8e7adfbbce9e800c300dcd9d5e6d800d8dddadad9e6d9e2e800cae3df1be1e3e2fed5e4e4d9d5e600dae3e600d8dddadad9e6d9e2e800e8e6d5dde2d9e6e7adff",
+        "bytes_including_ff": 131,
+        "decoded_control_aware": "My brother caught his Pokémon\\nby talking a Poké Ball in<0xFA>Vivill Woods.<0xFB>But I heard different Pokémon\\nappear for different trainers.",
+        "commands": [
+          {
+            "relative_offset": 55,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 69,
+            "hex": "fb"
+          }
+        ]
+      }
+    },
+    {
+      "contract_offset": "0x00755532",
+      "offset": "0x00755533",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x007524AF",
+          "context_start": "0x007524AB",
+          "context_hex": "02ff0f003355750809024f01"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "d1dcd9e200e8dce3e7d900e7e8e6d5e2dbd900e8dce9dbe700e1d5e6d7dcd9d8fedde2e8e300e8e3ebe2b800ebd900ebd9e6d900d5e0e000e7e9e6d900e8e300e0e3d7dffae3e9e600d8e3e3e6e700ead9e6ed00e5e9ddd7dfe0edadfbc3da00ebd900dcd5d8e2b4e8b800e8dcd9ed00e1e3e7e800e0dddfd9e0edfeebe3e9e0d8b4ead900d6d5e6dbd9d800e6dddbdce800dde200e0dddfd900ede3e9b8fad5e2d800e8d5dfd9e200d5e0e000e3e9e600ead5e0e9d5d6e0d9e700dae3e6fae8dcd9dde600e2d9dad5e6dde3e9e700e4e0e3e8b8ff",
+        "bytes_including_ff": 213,
+        "decoded_control_aware": "When those strange thugs marched\\ninto town, we were all sure to lock<0xFA>our doors very quickly.<0xFB>If we hadn't, they most likely\\nwould've barged right in like you,<0xFA>and taken all our valuables for<0xFA>their nefarious plot,",
+        "commands": [
+          {
+            "relative_offset": 68,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 92,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 158,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 190,
+            "hex": "fa"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7689523,
+        "spanish_offset": 7689523,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "d1dcd9e200e8dce3e7d900e7e8e6d5e2dbd900e8dce9dbe700e1d5e6d7dcd9d8fedde2e8e300e8e3ebe2b800ebd900ebd9e6d900d5e0e000e7e9e6d900e8e300e0e3d7dffae3e9e600d8e3e3e6e700ead9e6ed00e5e9ddd7dfe0edadfbc3da00ebd900dcd5d8e2b4e8b800e8dcd9ed00e1e3e7e800e0dddfd9e0edfeebe3e9e0d8b4ead900d6d5e6dbd9d800e6dddbdce800dde200e0dddfd900ede3e9b8fad5e2d800e8d5dfd9e200d5e0e000e3e9e600ead5e0e9d5d6e0d9e700dae3e6fae8dcd9dde600e2d9dad5e6dde3e9e700e4e0e3e8b8ff",
+        "bytes_including_ff": 213,
+        "decoded_control_aware": "When those strange thugs marched\\ninto town, we were all sure to lock<0xFA>our doors very quickly.<0xFB>If we hadn't, they most likely\\nwould've barged right in like you,<0xFA>and taken all our valuables for<0xFA>their nefarious plot,",
+        "commands": [
+          {
+            "relative_offset": 68,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 92,
+            "hex": "fb"
+          },
+          {
+            "relative_offset": 158,
+            "hex": "fa"
+          },
+          {
+            "relative_offset": 190,
+            "hex": "fa"
+          }
+        ]
+      }
+    },
+    {
+      "contract_offset": "0x0075B4BB",
+      "offset": "0x0075B4BC",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0075450E",
+          "context_start": "0x0075450A",
+          "context_hex": "75080f00bcb4750809024f01"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "cde8d5ed00e7d5dad900dde200e8dcd900c1e6d9d5e800bed9e7d9e6e8abff",
+        "bytes_including_ff": 31,
+        "decoded_control_aware": "Stay safe in the Great Desert!",
+        "commands": []
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7713980,
+        "spanish_offset": 7713980,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "cde8d5ed00e7d5dad900dde200e8dcd900c1e6d9d5e800bed9e7d9e6e8abff",
+        "bytes_including_ff": 31,
+        "decoded_control_aware": "Stay safe in the Great Desert!",
+        "commands": []
+      }
+    },
+    {
+      "contract_offset": "0x0075B6F4",
+      "offset": "0x0075B6F5",
+      "prefix_hex": "aa",
+      "references": [
+        {
+          "offset": "0x0016A79A",
+          "context_start": "0x0016A796",
+          "context_hex": "ffaa0f00f5b67508090202ff"
+        }
+      ],
+      "snapshot": {
+        "raw_hex": "cedcd9e6d900e9e7d9d800e8e300d6d900d500bde0d9dad5dde6ed00d6edfee8dcd900d6e3e3dfe7dcd9e0da00d500e0e3e2db00e8dde1d900d5dbe3adfbc300ebe3e2d8d9e600ebdcd9e6d900dde800ebd9e2e8acff",
+        "bytes_including_ff": 86,
+        "decoded_control_aware": "There used to be a Clefairy by\\nthe bookshelf a long time ago.<0xFB>I wonder where it went?",
+        "commands": [
+          {
+            "relative_offset": 61,
+            "hex": "fb"
+          }
+        ]
+      },
+      "in_same_lot": false,
+      "offset_map": {
+        "english_offset": 7714549,
+        "spanish_offset": 7714549,
+        "status": "matched"
+      },
+      "spanish_snapshot": {
+        "raw_hex": "cedcd9e6d900e9e7d9d800e8e300d6d900d500bde0d9dad5dde6ed00d6edfee8dcd900d6e3e3dfe7dcd9e0da00d500e0e3e2db00e8dde1d900d5dbe3adfbc300ebe3e2d8d9e600ebdcd9e6d900dde800ebd9e2e8acff",
+        "bytes_including_ff": 86,
+        "decoded_control_aware": "There used to be a Clefairy by\\nthe bookshelf a long time ago.<0xFB>I wonder where it went?",
+        "commands": [
+          {
+            "relative_offset": 61,
+            "hex": "fb"
+          }
+        ]
+      }
+    }
+  ]
+}
