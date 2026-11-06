@@ -62406,3 +62406,903 @@ entries:
     expected: Middle Cup / GS Cup Camomons
   - offset: '0x1f9432d'
     expected: Smogon Scalemons
+  - offset: "0x1f986c0"
+    name: "PT-85 0x1f986c0"
+    expected: 'Oooooh...<0xFB>Ovos não têm habilidadeeees...<0xFB>Escolha outro Pokémonnnnn...'
+  - offset: "0x1f98705"
+    name: "PT-85 0x1f98705"
+    expected: 'Oooooh...'
+  - offset: "0x1f9870d"
+    name: "PT-85 0x1f9870d"
+    expected: 'Hu hu hu hu hu!<0xFB>Habilidades são divertiiiidas!<0xFB>Pode trocá-las de graaaça no\n<0xFC>ÀÉStat Scannerrrrrrr<0xFC>ÀË.'
+  - offset: "0x1f98785"
+    name: "PT-85 0x1f98785"
+    expected: 'Habilidade 1'
+  - offset: "0x1f98793"
+    name: "PT-85 0x1f98793"
+    expected: 'Habilidade 2'
+  - offset: "0x1f987a2"
+    name: "PT-85 0x1f987a2"
+    expected: 'Habilidade oculta'
+  - offset: "0x1f987b1"
+    name: "PT-85 0x1f987b1"
+    expected: 'Entendo um pouco das batalhas\ndaqui.<0xFB>Se vencer <0xFC>ÀÉ<0xFD>Á<0xFC>ÀÇ\nbatalhas hoje na <0xFC>ÀÉBattle<0xFA>Tower<0xFC>ÀÇ, <0xFC>ÀÉBattle Mine<0xFC>ÀÇ e <0xFC>ÀÉBattle<0xFA>Circus<0xFC>ÀÇ, darei BP em troca<0xFA>do seu esforço.'
+  - offset: "0x1f98894"
+    name: "PT-85 0x1f98894"
+    expected: 'Já venceu <0xFC>ÀÉ<0xFD>Â<0xFC>ÀÇ\nbatalha<0xFD>Ê hoje.<0xFB>Continue assim!<0xFB>Faltam <0xFC>ÀÉ<0xFD>Ç<0xFC>ÀÇ batalha<0xFD>Ë\npara terminar!'
+  - offset: "0x1f98901"
+    name: "PT-85 0x1f98901"
+    expected: 'Ah, você venceu <0xFC>ÀÉ<0xFD>Â<0xFC>ÀÇ\nbatalha<0xFD>Ê hoje.<0xFB>Aceite estes BP pelo\nseu esforço!'
+  - offset: "0x1f9895b"
+    name: "PT-85 0x1f9895b"
+    expected: 'Espero ver belas contagens de\nvitórias todos os dias, como<0xFA>a que me mostrou hoje.'
+  - offset: "0x1f989b4"
+    name: "PT-85 0x1f989b4"
+    expected: 'Vi um sujeito suspeito rondando\na <0xFC>ÀÉBattle<0xFA>Tower<0xFC>ÀË bem tarde da noite.<0xFB>Dizem que oferece bons negócios,\nmas depois passa a perna em você.<0xFB>Eu tomaria cuidado com ele.'
+  - offset: "0x1f98a6b"
+    name: "PT-85 0x1f98a6b"
+    expected: 'Adoro a <0xFC>ÀÉBattle Sands<0xFC>ÀÇ!<0xFB>Ver os outros lutarem com seus\nPokémon favoritos é divertido!<0xFB>E ainda é um jeito muito fácil\nde ganhar BP.<0xFB>De todas as instalações daqui,\nessa é a minha favorita.'
+  - offset: "0x1f98b4d"
+    name: "PT-85 0x1f98b4d"
+    expected: 'O <0xFC>ÀÉBattle Circus<0xFC>ÀË!<0xFB>Quanta diversão!<0xFB>O que vai acontecer agora?<0xFB>Espere para ver!'
+  - offset: "0x1f98b99"
+    name: "PT-85 0x1f98b99"
+    expected: 'Alguns vendedores mudam\nao longo do dia.<0xFB>Se quiser fazer compras,\nvale ficar lá fora o máximo<0xFA>de tempo possível.<0xFB>A <0xFC>ÀÉBattle Sands<0xFC>ÀÇ é ótima para\npassar o tempo enquanto espero.'
+  - offset: "0x1f98c6e"
+    name: "PT-85 0x1f98c6e"
+    expected: 'Não há mina como a <0xFC>ÀÉBattle\nMine<0xFC>ÀË, pode crer.<0xFB>Nas outras minas... bem...\nvocê sabe o que esperar.<0xFB>Na Battle Mine, não, pode crer.<0xFB>Cada andar que você desce\nmuda tudo.<0xFB>É uma experiência de arrepiar!'
+  - offset: "0x1f98d59"
+    name: "PT-85 0x1f98d59"
+    expected: 'Opa!\nVeio pela <0xFC>ÀÉBattle Tower<0xFC>ÀÇ?<0xFB>É a principal atração\nda Frontier!<0xFB>Tantas formas de sentir\no calor da batalha!'
+  - offset: "0x1f98de4"
+    name: "PT-85 0x1f98de4"
+    expected: 'Acessando os recordes...'
+  - offset: "0x1f98dfe"
+    name: "PT-85 0x1f98dfe"
+    expected: 'Qual recorde você quer\nconsultar?'
+  - offset: "0x1f98e23"
+    name: "PT-85 0x1f98e23"
+    expected: 'Você tem <0xFC>ÀÉ<0xFD>Á<0xFC>ÀÁ BP.'
+  - offset: "0x1f98e3c"
+    name: "PT-85 0x1f98e3c"
+    expected: 'Boas-vindas ao balcão\nde trocas!<0xFB>Quer trocar seus BP\npor prêmios?'
+  - offset: "0x1f98e98"
+    name: "PT-85 0x1f98e98"
+    expected: 'Boas-vindas à minha banca!<0xFB>Quer trocar seus BP\npor Berries exóticas?'
+  - offset: "0x1f98ef2"
+    name: "PT-85 0x1f98ef2"
+    expected: 'E aí, colega?<0xFB>Quer trocar seus BP\npor máquinas?'
+  - offset: "0x1f98f37"
+    name: "PT-85 0x1f98f37"
+    expected: 'Se virou fã de batalhas,\nsou quem pode ensinar<0xFA>todo tipo de movimento<0xFA>aos seus Pokémon.<0xFB>Posso ensinar movimentos aos\nseus Pokémon em troca de BP?'
+  - offset: "0x1f98fd8"
+    name: "PT-85 0x1f98fd8"
+    expected: 'Se dedica corpo e alma\nàs batalhas Pokémon, sou<0xFA>quem ensina aos seus Pokémon<0xFA>todo tipo de movimento.<0xFB>Posso ensinar movimentos aos\nseus Pokémon em troca de BP?'
+  - offset: "0x1f99081"
+    name: "PT-85 0x1f99081"
+    expected: 'Se dedicou a vida inteira\nàs batalhas Pokémon, sou quem<0xFA>ensina aos seus Pokémon<0xFA>todo tipo de movimento.<0xFB>Posso ensinar movimentos aos\nseus Pokémon em troca de BP?'
+  - offset: "0x1f99126"
+    name: "PT-85 0x1f99126"
+    expected: 'Se dedicou toda a sua\nessência às batalhas Pokémon,<0xFA>sou quem ensina aos seus<0xFA>Pokémon todo tipo de movimento.<0xFB>Posso ensinar movimentos aos\nseus Pokémon em troca de BP?'
+  - offset: "0x1f991cf"
+    name: "PT-85 0x1f991cf"
+    expected: 'Jovem <0xFD>Á.<0xFB>Posso ensinar movimentos Ultimate\ne Battle Combo aos seus Pokémon<0xFA>em troca de BP.'
+  - offset: "0x1f99239"
+    name: "PT-85 0x1f99239"
+    expected: 'Hohoho...\nMe chamam de Vovó Wilma.<0xFB>Vim sozinha de uma aldeia\nde Domadores de Dragões.<0xFB>Ensino um dos movimentos mais\nfortes do tipo Dragão a Pokémon<0xFA>experientes em batalha.<0xFB>Quer que eu ensine esse\nmovimento a um dos seus Pokémon?'
+  - offset: "0x1f9932b"
+    name: "PT-85 0x1f9932b"
+    expected: 'Ah, é você de novo...<0xFB>Quer que eu ensine o melhor\nmovimento de Dragão que conheço<0xFA>a um dos seus Pokémon?'
+  - offset: "0x1f99394"
+    name: "PT-85 0x1f99394"
+    expected: 'Hu hu hu hu hu.<0xFB>Ensino movimentos especiais\na certos Pokémon especiais.<0xFB>Quer que eu tente ensinar\nesses movimentos aos seus Pokémon?'
+  - offset: "0x1f9941a"
+    name: "PT-85 0x1f9941a"
+    expected: 'Qual prêmio você quer?\nVocê tem <0xFC>ÀÉ<0xFD>Á<0xFD>Â'
+  - offset: "0x1f99451"
+    name: "PT-85 0x1f99451"
+    expected: 'Qual Berry você quer?\nVocê tem <0xFC>ÀÉ<0xFD>Á<0xFD>Â'
+  - offset: "0x1f99488"
+    name: "PT-85 0x1f99488"
+    expected: 'Qual máquina, colega?\nVocê tem <0xFC>ÀÉ<0xFD>Á<0xFD>Â'
+  - offset: "0x1f994c1"
+    name: "PT-85 0x1f994c1"
+    expected: 'Qual movimento devo ensinar?\nVocê tem <0xFC>ÀÉ<0xFD>Á<0xFD>Â'
+  - offset: "0x1f994f7"
+    name: "PT-85 0x1f994f7"
+    expected: 'Qual movimento devo ensinar?'
+  - offset: "0x1f9952a"
+    name: "PT-85 0x1f9952a"
+    expected: '<0xFC>ÀÉ<0xFD>Ï<0xFD>Ê?\nQuantos você quer?'
+  - offset: "0x1f9954c"
+    name: "PT-85 0x1f9954c"
+    expected: '<0xFC>ÀÉ<0xFD>Ï<0xFD>Ê,\n<0xFC>ÀÉ<0xFD>Â<0xFD>Ê BP. OK?'
+  - offset: "0x1f99574"
+    name: "PT-85 0x1f99574"
+    expected: '<0xFC>ÀÉ<0xFD>Á<0xFD>Ê de <0xFC>ÀÉ<0xFD>Ï<0xFD>Ê,\n<0xFC>ÀÉ<0xFD>Â<0xFD>Ê BP. OK?'
+  - offset: "0x1f995d1"
+    name: "PT-85 0x1f995d1"
+    expected: '<0xFC>ÀÉ<0xFD>Á<0xFD>Ê? Ensinar\na qual Pokémon?'
+  - offset: "0x1f995fe"
+    name: "PT-85 0x1f995fe"
+    expected: 'Quer sua máquina grátis\ndo dia, colega?'
+  - offset: "0x1f99627"
+    name: "PT-85 0x1f99627"
+    expected: 'Certo, escolha o Pokémon\nque aprenderá o movimento.'
+  - offset: "0x1f99664"
+    name: "PT-85 0x1f99664"
+    expected: 'Você não tem BP suficientes.'
+  - offset: "0x1f9967e"
+    name: "PT-85 0x1f9967e"
+    expected: 'Você já tem esse item.'
+  - offset: "0x1f99699"
+    name: "PT-85 0x1f99699"
+    expected: 'Você já tem essa TM.'
+  - offset: "0x1f996b2"
+    name: "PT-85 0x1f996b2"
+    expected: 'Você já tem todas essas\nmáquinas, colega.'
+  - offset: "0x1f996eb"
+    name: "PT-85 0x1f996eb"
+    expected: 'Ora, colega. Já dei uma máquina\nhoje. Volte amanhã.'
+  - offset: "0x1f99731"
+    name: "PT-85 0x1f99731"
+    expected: 'Oh? Esse Pokémon já sabe\n<0xFD>Á.'
+  - offset: "0x1f99754"
+    name: "PT-85 0x1f99754"
+    expected: 'Entendo...\nGosto do seu espírito aventureiro.<0xFB>Mas nenhum dos Pokémon com você\npode aprender o movimento.'
+  - offset: "0x1f997b9"
+    name: "PT-85 0x1f997b9"
+    expected: 'Que pena...\nEsse Pokémon não pode aprender.'
+  - offset: "0x1f997f5"
+    name: "PT-85 0x1f997f5"
+    expected: 'Que pena...<0xFB>Seu Pokémon pode aprender\nesse movimento, mas ainda não<0xFA>confia totalmente em você...<0xFB>Até lá, não posso ensinar\nesse movimento a ele.'
+  - offset: "0x1f99891"
+    name: "PT-85 0x1f99891"
+    expected: 'Hmmmm...<0xFB>Ensinar um movimento a um Ovo\né um desafio além de mim.'
+  - offset: "0x1f998d3"
+    name: "PT-85 0x1f998d3"
+    expected: 'Volte quando quiser!'
+  - offset: "0x1f998f7"
+    name: "PT-85 0x1f998f7"
+    expected: 'Beleza, beleza.\nVolte sempre, viu?'
+  - offset: "0x1f9991d"
+    name: "PT-85 0x1f9991d"
+    expected: 'Muito bem!\nAté a próxima!'
+  - offset: "0x1f99939"
+    name: "PT-85 0x1f99939"
+    expected: 'Muito bem!\nNos vemos na próxima!'
+  - offset: "0x1f99957"
+    name: "PT-85 0x1f99957"
+    expected: 'Até a próxima!<0xFB>Volte quando tiver\nBattle Points para gastar!'
+  - offset: "0x1f9999e"
+    name: "PT-85 0x1f9999e"
+    expected: 'Nos vemos na próxima!<0xFB>Volte quando tiver\nBattle Points para gastar!'
+  - offset: "0x1f999e7"
+    name: "PT-85 0x1f999e7"
+    expected: 'Entendo. Não tem interesse.\nTudo bem.'
+  - offset: "0x1f99a12"
+    name: "PT-85 0x1f99a12"
+    expected: 'Se mudar de ideia,\nvolte aqui.'
+  - offset: "0x1f99a47"
+    name: "PT-85 0x1f99a47"
+    expected: 'O poder de Draco Meteor\né impressionante.<0xFB>Mas usá-lo também reduz o\nAtaque Especial do Pokémon.'
+  - offset: "0x1f99aba"
+    name: "PT-85 0x1f99aba"
+    expected: 'Hu hu hu hu hu.'
+  - offset: "0x1f99acf"
+    name: "PT-85 0x1f99acf"
+    expected: 'senhor'
+  - offset: "0x1f99ad3"
+    name: "PT-85 0x1f99ad3"
+    expected: 'senhorita'
+  - offset: "0x1f99ae6"
+    name: "PT-85 0x1f99ae6"
+    expected: 'HP Up<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f99af7"
+    name: "PT-85 0x1f99af7"
+    expected: 'Protein<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f99b0a"
+    name: "PT-85 0x1f99b0a"
+    expected: 'Iron<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f99b1a"
+    name: "PT-85 0x1f99b1a"
+    expected: 'Calcium<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f99b2d"
+    name: "PT-85 0x1f99b2d"
+    expected: 'Zinc<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f99b3d"
+    name: "PT-85 0x1f99b3d"
+    expected: 'Carbos<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f99b4f"
+    name: "PT-85 0x1f99b4f"
+    expected: 'Macho Brace<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99b67"
+    name: "PT-85 0x1f99b67"
+    expected: 'Power Weight<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99b80"
+    name: "PT-85 0x1f99b80"
+    expected: 'Power Bracer<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99b99"
+    name: "PT-85 0x1f99b99"
+    expected: 'Power Belt<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99bb0"
+    name: "PT-85 0x1f99bb0"
+    expected: 'Power Lens<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99bc7"
+    name: "PT-85 0x1f99bc7"
+    expected: 'Power Band<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99bde"
+    name: "PT-85 0x1f99bde"
+    expected: 'Power Anklet<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99bf7"
+    name: "PT-85 0x1f99bf7"
+    expected: 'King''s Rock<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99c0f"
+    name: "PT-85 0x1f99c0f"
+    expected: 'Deep Sea Tooth<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99c2a"
+    name: "PT-85 0x1f99c2a"
+    expected: 'Deep Sea Scale<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99c45"
+    name: "PT-85 0x1f99c45"
+    expected: 'Dragon Scale<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99c5e"
+    name: "PT-85 0x1f99c5e"
+    expected: 'Metal Coat<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99c75"
+    name: "PT-85 0x1f99c75"
+    expected: 'Prism Scale<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99c8d"
+    name: "PT-85 0x1f99c8d"
+    expected: 'Up-Grade<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99ca2"
+    name: "PT-85 0x1f99ca2"
+    expected: 'Dubious Disc<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99cbb"
+    name: "PT-85 0x1f99cbb"
+    expected: 'Protector<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99cd1"
+    name: "PT-85 0x1f99cd1"
+    expected: 'Electirizer<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99ce9"
+    name: "PT-85 0x1f99ce9"
+    expected: 'Magmarizer<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99d00"
+    name: "PT-85 0x1f99d00"
+    expected: 'Reaper Cloth<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99d19"
+    name: "PT-85 0x1f99d19"
+    expected: 'Whipped Dream<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99d33"
+    name: "PT-85 0x1f99d33"
+    expected: 'Sachet<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99d46"
+    name: "PT-85 0x1f99d46"
+    expected: 'Oval Stone<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99d5d"
+    name: "PT-85 0x1f99d5d"
+    expected: 'Razor Claw<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f99d74"
+    name: "PT-85 0x1f99d74"
+    expected: 'Razor Fang<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f99d8b"
+    name: "PT-85 0x1f99d8b"
+    expected: 'Rare Candy<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f99da2"
+    name: "PT-85 0x1f99da2"
+    expected: 'Ability Capsule<0xFC>Û<0x59> <0xFC>É 100 BP'
+  - offset: "0x1f99dbf"
+    name: "PT-85 0x1f99dbf"
+    expected: 'Dream Mist<0xFC>Û<0x59> <0xFC>É 200 BP'
+  - offset: "0x1f99dd7"
+    name: "PT-85 0x1f99dd7"
+    expected: 'Max Powder<0xFC>Û<0x59> <0xFC>É 250 BP'
+  - offset: "0x1f99def"
+    name: "PT-85 0x1f99def"
+    expected: 'Heart Scale<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f99e06"
+    name: "PT-85 0x1f99e06"
+    expected: 'Toxic Orb<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99e1c"
+    name: "PT-85 0x1f99e1c"
+    expected: 'Flame Orb<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99e32"
+    name: "PT-85 0x1f99e32"
+    expected: 'Iron Ball<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99e48"
+    name: "PT-85 0x1f99e48"
+    expected: 'Ring Target<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99e60"
+    name: "PT-85 0x1f99e60"
+    expected: 'Absorb Bulb<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99e78"
+    name: "PT-85 0x1f99e78"
+    expected: 'Luminous Moss<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99e92"
+    name: "PT-85 0x1f99e92"
+    expected: 'Cell Battery<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99eab"
+    name: "PT-85 0x1f99eab"
+    expected: 'Snowball<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99ec0"
+    name: "PT-85 0x1f99ec0"
+    expected: 'Adrenaline Orb<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99edb"
+    name: "PT-85 0x1f99edb"
+    expected: 'Throat Spray<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f99ef4"
+    name: "PT-85 0x1f99ef4"
+    expected: 'White Herb<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99f0b"
+    name: "PT-85 0x1f99f0b"
+    expected: 'Mental Herb<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99f23"
+    name: "PT-85 0x1f99f23"
+    expected: 'Power Herb<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99f3a"
+    name: "PT-85 0x1f99f3a"
+    expected: 'Electric Seed<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99f54"
+    name: "PT-85 0x1f99f54"
+    expected: 'Grassy Seed<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99f6c"
+    name: "PT-85 0x1f99f6c"
+    expected: 'Misty Seed<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99f83"
+    name: "PT-85 0x1f99f83"
+    expected: 'Psychic Seed<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99f9c"
+    name: "PT-85 0x1f99f9c"
+    expected: 'Terrain Extender<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99fb9"
+    name: "PT-85 0x1f99fb9"
+    expected: 'Room Service<0xFC>Û<0x5E> <0xFC>É 24 BP'
+  - offset: "0x1f99fd2"
+    name: "PT-85 0x1f99fd2"
+    expected: 'Focus Sash<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f99fe9"
+    name: "PT-85 0x1f99fe9"
+    expected: 'Air Balloon<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a001"
+    name: "PT-85 0x1f9a001"
+    expected: 'Red Card<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a016"
+    name: "PT-85 0x1f9a016"
+    expected: 'Eject Button<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a02f"
+    name: "PT-85 0x1f9a02f"
+    expected: 'Eject Pack<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a046"
+    name: "PT-85 0x1f9a046"
+    expected: 'Weakness Policy<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a062"
+    name: "PT-85 0x1f9a062"
+    expected: 'Blunder Policy<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a07d"
+    name: "PT-85 0x1f9a07d"
+    expected: 'Muscle Band<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a095"
+    name: "PT-85 0x1f9a095"
+    expected: 'Focus Band<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a0ac"
+    name: "PT-85 0x1f9a0ac"
+    expected: 'Wise Glasses<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a0c5"
+    name: "PT-85 0x1f9a0c5"
+    expected: 'Binding Band<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a0de"
+    name: "PT-85 0x1f9a0de"
+    expected: 'Grip Claw<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a0f4"
+    name: "PT-85 0x1f9a0f4"
+    expected: 'Bright Powder<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a10e"
+    name: "PT-85 0x1f9a10e"
+    expected: 'Utility Parasol<0xFC>Û<0x5E> <0xFC>É 32 BP'
+  - offset: "0x1f9a12a"
+    name: "PT-85 0x1f9a12a"
+    expected: 'Choice Band<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a142"
+    name: "PT-85 0x1f9a142"
+    expected: 'Choice Specs<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a15b"
+    name: "PT-85 0x1f9a15b"
+    expected: 'Choice Scarf<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a174"
+    name: "PT-85 0x1f9a174"
+    expected: 'Black Sludge<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a18d"
+    name: "PT-85 0x1f9a18d"
+    expected: 'Leftovers<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a1a3"
+    name: "PT-85 0x1f9a1a3"
+    expected: 'Life Orb<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a1b8"
+    name: "PT-85 0x1f9a1b8"
+    expected: 'Scope Lens<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a1cf"
+    name: "PT-85 0x1f9a1cf"
+    expected: 'Wide Lens<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a1e5"
+    name: "PT-85 0x1f9a1e5"
+    expected: 'Zoom Lens<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a1fb"
+    name: "PT-85 0x1f9a1fb"
+    expected: 'Eviolite<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a210"
+    name: "PT-85 0x1f9a210"
+    expected: 'Rocky Helmet<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a229"
+    name: "PT-85 0x1f9a229"
+    expected: 'Assault Vest<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a242"
+    name: "PT-85 0x1f9a242"
+    expected: 'Safety Goggles<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a25d"
+    name: "PT-85 0x1f9a25d"
+    expected: 'Protective Pads<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a279"
+    name: "PT-85 0x1f9a279"
+    expected: 'Heavy-Duty Boots<0xFC>Û<0x5E> <0xFC>É 48 BP'
+  - offset: "0x1f9a296"
+    name: "PT-85 0x1f9a296"
+    expected: 'Bottle Cap<0xFC>Û<0x5E> <0xFC>É 50 BP'
+  - offset: "0x1f9a2ad"
+    name: "PT-85 0x1f9a2ad"
+    expected: 'Wishing Piece<0xFC>Û<0x5E> <0xFC>É 50 BP'
+  - offset: "0x1f9a2c7"
+    name: "PT-85 0x1f9a2c7"
+    expected: 'Gold Bottle Cap<0xFC>Û<0x59> <0xFC>É 200 BP'
+  - offset: "0x1f9a2e4"
+    name: "PT-85 0x1f9a2e4"
+    expected: 'TM20:  Safeguard<0xFC>Û<0x6E> <0xFC>É 16 BP'
+  - offset: "0x1f9a301"
+    name: "PT-85 0x1f9a301"
+    expected: 'TM58:  Endure<0xFC>Û<0x6E> <0xFC>É 24 BP'
+  - offset: "0x1f9a31b"
+    name: "PT-85 0x1f9a31b"
+    expected: 'TM115: Quash<0xFC>Û<0x6E> <0xFC>É 24 BP'
+  - offset: "0x1f9a334"
+    name: "PT-85 0x1f9a334"
+    expected: 'TM90:  Substitute<0xFC>Û<0x6E> <0xFC>É 32 BP'
+  - offset: "0x1f9a352"
+    name: "PT-85 0x1f9a352"
+    expected: 'TM103: Sludge Wave<0xFC>Û<0x6E> <0xFC>É 48 BP'
+  - offset: "0x1f9a371"
+    name: "PT-85 0x1f9a371"
+    expected: 'TM116: Trick Room<0xFC>Û<0x6E> <0xFC>É 48 BP'
+  - offset: "0x1f9a38f"
+    name: "PT-85 0x1f9a38f"
+    expected: 'Cancelar<0xFC>Û<0x75>'
+  - offset: "0x1f9a399"
+    name: "PT-85 0x1f9a399"
+    expected: 'Razz Berry<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a3af"
+    name: "PT-85 0x1f9a3af"
+    expected: 'Bluk Berry<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a3c5"
+    name: "PT-85 0x1f9a3c5"
+    expected: 'Nanab Berry<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a3dc"
+    name: "PT-85 0x1f9a3dc"
+    expected: 'Wepear Berry<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a3f4"
+    name: "PT-85 0x1f9a3f4"
+    expected: 'Pinap Berry<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a40b"
+    name: "PT-85 0x1f9a40b"
+    expected: 'Cornn Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a422"
+    name: "PT-85 0x1f9a422"
+    expected: 'Magost Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a43a"
+    name: "PT-85 0x1f9a43a"
+    expected: 'Rabuta Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a452"
+    name: "PT-85 0x1f9a452"
+    expected: 'Nomel Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a469"
+    name: "PT-85 0x1f9a469"
+    expected: 'Spelon Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a481"
+    name: "PT-85 0x1f9a481"
+    expected: 'Pamtre Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a499"
+    name: "PT-85 0x1f9a499"
+    expected: 'Watmel Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a4b1"
+    name: "PT-85 0x1f9a4b1"
+    expected: 'Durin Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a4c8"
+    name: "PT-85 0x1f9a4c8"
+    expected: 'Belue Berry<0xFC>Û<0x63> <0xFC>É 2 BP'
+  - offset: "0x1f9a4df"
+    name: "PT-85 0x1f9a4df"
+    expected: 'Snore<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a4f0"
+    name: "PT-85 0x1f9a4f0"
+    expected: 'Bind<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a500"
+    name: "PT-85 0x1f9a500"
+    expected: 'Whirlpool<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a515"
+    name: "PT-85 0x1f9a515"
+    expected: 'Fire Spin<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a52a"
+    name: "PT-85 0x1f9a52a"
+    expected: 'Sand Tomb<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a53f"
+    name: "PT-85 0x1f9a53f"
+    expected: 'Covet<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a550"
+    name: "PT-85 0x1f9a550"
+    expected: 'Bug Bite<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a564"
+    name: "PT-85 0x1f9a564"
+    expected: 'Heal Bell<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a579"
+    name: "PT-85 0x1f9a579"
+    expected: 'Electroweb<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a58f"
+    name: "PT-85 0x1f9a58f"
+    expected: 'Low Kick<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a5a3"
+    name: "PT-85 0x1f9a5a3"
+    expected: 'Uproar<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a5b5"
+    name: "PT-85 0x1f9a5b5"
+    expected: 'Thunder Fang<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a5cd"
+    name: "PT-85 0x1f9a5cd"
+    expected: 'Ice Fang<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a5e1"
+    name: "PT-85 0x1f9a5e1"
+    expected: 'Fire Fang<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a5f6"
+    name: "PT-85 0x1f9a5f6"
+    expected: 'Pin Missile<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a60d"
+    name: "PT-85 0x1f9a60d"
+    expected: 'Icicle Spear<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a625"
+    name: "PT-85 0x1f9a625"
+    expected: 'Tail Slap<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a63a"
+    name: "PT-85 0x1f9a63a"
+    expected: 'Rock Blast<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a650"
+    name: "PT-85 0x1f9a650"
+    expected: 'Helping Hand<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a668"
+    name: "PT-85 0x1f9a668"
+    expected: 'Block<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a679"
+    name: "PT-85 0x1f9a679"
+    expected: 'Worry Seed<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a68f"
+    name: "PT-85 0x1f9a68f"
+    expected: 'Snatch<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a6a1"
+    name: "PT-85 0x1f9a6a1"
+    expected: 'Vacuum Wave<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a6b8"
+    name: "PT-85 0x1f9a6b8"
+    expected: 'Focus Energy<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a6d0"
+    name: "PT-85 0x1f9a6d0"
+    expected: 'Cosmic Power<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a6e8"
+    name: "PT-85 0x1f9a6e8"
+    expected: 'Baton Pass<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a6fe"
+    name: "PT-85 0x1f9a6fe"
+    expected: 'Encore<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a710"
+    name: "PT-85 0x1f9a710"
+    expected: 'Screech<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a723"
+    name: "PT-85 0x1f9a723"
+    expected: 'Fake Tears<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a739"
+    name: "PT-85 0x1f9a739"
+    expected: 'Scary Face<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a74f"
+    name: "PT-85 0x1f9a74f"
+    expected: 'Venom Drench<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a767"
+    name: "PT-85 0x1f9a767"
+    expected: 'Last Resort<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9a77f"
+    name: "PT-85 0x1f9a77f"
+    expected: 'Confide<0xFC>Û<0x63> <0xFC>É 4 BP'
+  - offset: "0x1f9a792"
+    name: "PT-85 0x1f9a792"
+    expected: 'Signal Beam<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a7a9"
+    name: "PT-85 0x1f9a7a9"
+    expected: 'Bounce<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a7bb"
+    name: "PT-85 0x1f9a7bb"
+    expected: 'Heat Crash<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a7d1"
+    name: "PT-85 0x1f9a7d1"
+    expected: 'Heavy Slam<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a7e7"
+    name: "PT-85 0x1f9a7e7"
+    expected: 'Reversal<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a7fb"
+    name: "PT-85 0x1f9a7fb"
+    expected: 'Electro Ball<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a813"
+    name: "PT-85 0x1f9a813"
+    expected: 'Stored Power<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a82b"
+    name: "PT-85 0x1f9a82b"
+    expected: 'Breaking Swipe<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a854"
+    name: "PT-85 0x1f9a854"
+    expected: 'Weather Ball<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a86c"
+    name: "PT-85 0x1f9a86c"
+    expected: 'Terrain Pulse<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a885"
+    name: "PT-85 0x1f9a885"
+    expected: 'Spite<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a896"
+    name: "PT-85 0x1f9a896"
+    expected: 'After You<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a8ab"
+    name: "PT-85 0x1f9a8ab"
+    expected: 'Synthesis<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a8c0"
+    name: "PT-85 0x1f9a8c0"
+    expected: 'Gravity<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a8d3"
+    name: "PT-85 0x1f9a8d3"
+    expected: 'Spikes<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a8e5"
+    name: "PT-85 0x1f9a8e5"
+    expected: 'Toxic Spikes<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a8fd"
+    name: "PT-85 0x1f9a8fd"
+    expected: 'Dragon Dance<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a915"
+    name: "PT-85 0x1f9a915"
+    expected: 'Iron Defense<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a92d"
+    name: "PT-85 0x1f9a92d"
+    expected: 'Nasty Plot<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a943"
+    name: "PT-85 0x1f9a943"
+    expected: 'Agility<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a956"
+    name: "PT-85 0x1f9a956"
+    expected: 'Telekinesis<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a96d"
+    name: "PT-85 0x1f9a96d"
+    expected: 'Magnet Rise<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a984"
+    name: "PT-85 0x1f9a984"
+    expected: 'Role Play<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a999"
+    name: "PT-85 0x1f9a999"
+    expected: 'Gastro Acid<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a9b0"
+    name: "PT-85 0x1f9a9b0"
+    expected: 'Corrode Gas<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a9c7"
+    name: "PT-85 0x1f9a9c7"
+    expected: 'Psych Up<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a9db"
+    name: "PT-85 0x1f9a9db"
+    expected: 'Electric Terrain<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9a9f7"
+    name: "PT-85 0x1f9a9f7"
+    expected: 'Grassy Terrain<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aa11"
+    name: "PT-85 0x1f9aa11"
+    expected: 'Misty Terrain<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aa2a"
+    name: "PT-85 0x1f9aa2a"
+    expected: 'Psychic Terrain<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aa45"
+    name: "PT-85 0x1f9aa45"
+    expected: 'Fire Punch<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aa5b"
+    name: "PT-85 0x1f9aa5b"
+    expected: 'Ice Punch<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aa70"
+    name: "PT-85 0x1f9aa70"
+    expected: 'Thunder Punch<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aa89"
+    name: "PT-85 0x1f9aa89"
+    expected: 'Iron Head<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aa9e"
+    name: "PT-85 0x1f9aa9e"
+    expected: 'Zen Headbutt<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aab6"
+    name: "PT-85 0x1f9aab6"
+    expected: 'Drill Run<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aacb"
+    name: "PT-85 0x1f9aacb"
+    expected: 'Razor Shell<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aae2"
+    name: "PT-85 0x1f9aae2"
+    expected: 'Air Slash<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9aaf7"
+    name: "PT-85 0x1f9aaf7"
+    expected: 'Cross Poison<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ab0f"
+    name: "PT-85 0x1f9ab0f"
+    expected: 'Mystical Fire<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ab28"
+    name: "PT-85 0x1f9ab28"
+    expected: 'Psycho Cut<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ab3e"
+    name: "PT-85 0x1f9ab3e"
+    expected: 'Body Slam<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ab53"
+    name: "PT-85 0x1f9ab53"
+    expected: 'Skitter Smack<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ab6c"
+    name: "PT-85 0x1f9ab6c"
+    expected: 'Jealous Burn<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ab84"
+    name: "PT-85 0x1f9ab84"
+    expected: 'Lash Out<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ab98"
+    name: "PT-85 0x1f9ab98"
+    expected: 'Pain Split<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9abae"
+    name: "PT-85 0x1f9abae"
+    expected: 'Tailwind<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9abc2"
+    name: "PT-85 0x1f9abc2"
+    expected: 'Trick<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9abd3"
+    name: "PT-85 0x1f9abd3"
+    expected: 'Magic Coat<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9abe9"
+    name: "PT-85 0x1f9abe9"
+    expected: 'Coaching<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9abfd"
+    name: "PT-85 0x1f9abfd"
+    expected: 'Magic Room<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ac13"
+    name: "PT-85 0x1f9ac13"
+    expected: 'Wonder Room<0xFC>Û<0x63> <0xFC>É 8 BP'
+  - offset: "0x1f9ac2a"
+    name: "PT-85 0x1f9ac2a"
+    expected: 'Aqua Tail<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ac40"
+    name: "PT-85 0x1f9ac40"
+    expected: 'Icy Wind<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ac55"
+    name: "PT-85 0x1f9ac55"
+    expected: 'Seed Bomb<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ac6b"
+    name: "PT-85 0x1f9ac6b"
+    expected: 'Blaze Kick<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ac82"
+    name: "PT-85 0x1f9ac82"
+    expected: 'Darkest Lariat<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ac9d"
+    name: "PT-85 0x1f9ac9d"
+    expected: 'Phantom Force<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9acb7"
+    name: "PT-85 0x1f9acb7"
+    expected: 'Pollen Puff<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9accf"
+    name: "PT-85 0x1f9accf"
+    expected: 'Power Gem<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ace5"
+    name: "PT-85 0x1f9ace5"
+    expected: 'Psychic Fangs<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9acff"
+    name: "PT-85 0x1f9acff"
+    expected: 'Body Press<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ad16"
+    name: "PT-85 0x1f9ad16"
+    expected: 'Expand Force<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ad2f"
+    name: "PT-85 0x1f9ad2f"
+    expected: 'Misty Explode<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ad49"
+    name: "PT-85 0x1f9ad49"
+    expected: 'Grassy Glide<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ad62"
+    name: "PT-85 0x1f9ad62"
+    expected: 'Rising Volt<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ad7a"
+    name: "PT-85 0x1f9ad7a"
+    expected: 'Laser Focus<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ad92"
+    name: "PT-85 0x1f9ad92"
+    expected: 'Endeavor<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9ada7"
+    name: "PT-85 0x1f9ada7"
+    expected: 'Foul Play<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9adbd"
+    name: "PT-85 0x1f9adbd"
+    expected: 'Super Fang<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9add4"
+    name: "PT-85 0x1f9add4"
+    expected: 'Stomping Tantrum<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9adf1"
+    name: "PT-85 0x1f9adf1"
+    expected: 'Earth Power<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ae09"
+    name: "PT-85 0x1f9ae09"
+    expected: 'Dual Chop<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ae1f"
+    name: "PT-85 0x1f9ae1f"
+    expected: 'Heat Wave<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ae35"
+    name: "PT-85 0x1f9ae35"
+    expected: 'Hyper Voice<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ae4d"
+    name: "PT-85 0x1f9ae4d"
+    expected: 'Knock Off<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ae63"
+    name: "PT-85 0x1f9ae63"
+    expected: 'Aura Sphere<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ae7b"
+    name: "PT-85 0x1f9ae7b"
+    expected: 'Leaf Blade<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9ae92"
+    name: "PT-85 0x1f9ae92"
+    expected: 'Muddy Water<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9aeaa"
+    name: "PT-85 0x1f9aeaa"
+    expected: 'Dual Wingbeat<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9aec4"
+    name: "PT-85 0x1f9aec4"
+    expected: 'Scorch Sands<0xFC>Û<0x5E> <0xFC>É 12 BP'
+  - offset: "0x1f9aedd"
+    name: "PT-85 0x1f9aedd"
+    expected: 'Flip Turn<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9aef3"
+    name: "PT-85 0x1f9aef3"
+    expected: 'Scale Shot<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9af0a"
+    name: "PT-85 0x1f9af0a"
+    expected: 'Liquidation<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9af22"
+    name: "PT-85 0x1f9af22"
+    expected: 'Outrage<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9af36"
+    name: "PT-85 0x1f9af36"
+    expected: 'Sky Attack<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9af4d"
+    name: "PT-85 0x1f9af4d"
+    expected: 'Throat Chop<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9af65"
+    name: "PT-85 0x1f9af65"
+    expected: 'Gunk Shot<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9af7b"
+    name: "PT-85 0x1f9af7b"
+    expected: 'Superpower<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9af92"
+    name: "PT-85 0x1f9af92"
+    expected: 'Bug Buzz<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9afa7"
+    name: "PT-85 0x1f9afa7"
+    expected: 'Crunch<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9afba"
+    name: "PT-85 0x1f9afba"
+    expected: 'High Horsepower<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9afd6"
+    name: "PT-85 0x1f9afd6"
+    expected: 'Play Rough<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9afed"
+    name: "PT-85 0x1f9afed"
+    expected: 'Triple Axel<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9b005"
+    name: "PT-85 0x1f9b005"
+    expected: 'Brave Bird<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9b01c"
+    name: "PT-85 0x1f9b01c"
+    expected: 'Close Combat<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9b035"
+    name: "PT-85 0x1f9b035"
+    expected: 'Flare Blitz<0xFC>Û<0x5E> <0xFC>É 16 BP'
