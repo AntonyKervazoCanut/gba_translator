@@ -9,6 +9,9 @@ import { fileURLToPath } from 'node:url';
 import { PNG } from 'pngjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
+const delivery = process.env.ES009_DELIVERY_PROBE === '1';
+const reportName = delivery ? 'es009-delivery-probe.json' : 'es009-formatted-probe.json';
+const proofPrefix = delivery ? 'f859' : 'f1040';
 interface Entry {
   key: number; pointers: number[]; expected_hex: string; source_hex?: string; target: number;
   expected_overflow?: boolean;
@@ -63,7 +66,7 @@ async function runOffscreen(temp: string, script: string, done: string): Promise
 }
 
 test('ES-009 : contenu, colonnes natives et tampons expansés des 26 surfaces vivantes', async ({ page }) => {
-  const reportPath = path.join(root, 'output/reports/es009-formatted-probe.json');
+  const reportPath = path.join(root, 'output/reports', reportName);
   const report = JSON.parse(fs.readFileSync(reportPath, 'utf8')) as { records: Entry[]; rom: string };
   expect(report.records).toHaveLength(26);
   const rom = fs.readFileSync(path.resolve(root, report.rom));
@@ -145,15 +148,15 @@ test('ES-009 : contenu, colonnes natives et tampons expansés des 26 surfaces vi
     if (!entry.layout.buffers) expect(priceInk).toBeGreaterThan(10);
     figures.push(`<figure><figcaption>0x${entry.key.toString(16)} · ${observation.width}px${observation.negative ? ' · dépassement source détecté' : ''}</figcaption><div><img alt="Rendu moteur ${entry.key.toString(16)}" src="data:image/png;base64,${pngBytes.toString('base64')}"></div></figure>`);
   }
-  await page.setContent(`<style>body{margin:0;background:#152334;color:white;font:16px monospace}main{display:grid;grid-template-columns:repeat(2,720px);gap:12px;padding:16px;width:max-content}figure{margin:0}figure div{height:60px;overflow:hidden}img{width:720px;height:480px;image-rendering:pixelated}</style><p>ES-009 · colonnes et expansions natives · sondes de source temporaires</p><main>${figures.join('')}</main>`);
+  await page.setContent(`<style>body{margin:0;background:#152334;color:white;font:16px monospace}main{display:grid;grid-template-columns:repeat(2,720px);gap:12px;padding:16px;width:max-content}figure{margin:0}figure div{height:60px;overflow:hidden}img{width:720px;height:480px;image-rendering:pixelated}</style><p>ES-009 · colonnes et expansions natives · ${delivery ? "rédaction espagnole livrée" : "sondes de source temporaires"}</p><main>${figures.join('')}</main>`);
   await expect(page.getByRole('img')).toHaveCount(29);
   await page.getByRole('img').evaluateAll(images => Promise.all(images.map(image => (image as HTMLImageElement).decode())));
-  await page.screenshot({ path: path.join(os.tmpdir(), 'f1040-es009-engine-proof.png'), fullPage: true });
-  console.log('Preuve après assertions : ' + path.join(os.tmpdir(), 'f1040-es009-engine-proof.png'));
+  await page.screenshot({ path: path.join(os.tmpdir(), `${proofPrefix}-es009-engine-proof.png`), fullPage: true });
+  console.log('Preuve après assertions : ' + path.join(os.tmpdir(), `${proofPrefix}-es009-engine-proof.png`));
 });
 
 test('ES-009 : six menus à prix réellement ouverts par les scripts multichoice', async ({ page }) => {
-  const report = JSON.parse(fs.readFileSync(path.join(root, 'output/reports/es009-formatted-probe.json'), 'utf8')) as { rom: string };
+  const report = JSON.parse(fs.readFileSync(path.join(root, 'output/reports', reportName), 'utf8')) as { rom: string };
   const original = fs.readFileSync(path.resolve(root, report.rom));
   // L’OCR confond c/o dans Bicycle sur la police pixel. Les octets exacts
   // et les bitmaps des colonnes sont contrôlés séparément par la sonde native.
@@ -165,6 +168,17 @@ test('ES-009 : six menus à prix réellement ouverts par les scripts multichoice
     { menu: 30, table: 0x3dff50, width: 136, words: [/TM13/i, /TM23/i, /TM24/i, /TM30/i, /TM35/i] },
     { menu: 41, table: 0x3dff80, width: 144, words: [/SMOKE BALL/i, /MIRACLE SEED/i, /CHARCOAL/i, /MYSTIC WATER/i, /YELLOW FLUTE/i] },
   ];
+  if (delivery) {
+    const words = [
+      [/BICI/i, /1.?000.?000/],
+      [/ABRA/i, /CLEFAIRY/i, /DRATINI/i, /SCYTHER/i, /PORYGON/i],
+      [/AGUA FRESCA/i, /200/],
+      [/50 FICH/i, /500 FICH/i],
+      [/MT13/i, /MT23/i, /MT24/i, /MT30/i, /MT35/i],
+      [/BOLA HUMO/i, /SEM.? MILAGRO/i, /CARB[ÓO]N/i, /AGUA M[ÍI]STICA/i, /FL.? AMARILLA/i],
+    ];
+    groups.forEach((group, index) => { group.words = words[index]; });
+  }
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'f1040-native-menus-'));
   const images: Buffer[] = [];
   for (const [index, group] of groups.entries()) {
@@ -214,7 +228,7 @@ import Foundation
 import Vision
 let request = VNRecognizeTextRequest()
 request.recognitionLevel = .accurate
-request.recognitionLanguages = ["en-US"]
+request.recognitionLanguages = ["${delivery ? "es-ES" : "en-US"}"]
 request.usesLanguageCorrection = false
 try VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([request])
 print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))
@@ -234,7 +248,70 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
     console.log(`Menu ${group.menu}: ${text}`);
     for (const word of group.words) expect(text).toMatch(word);
   }
-  const proof = path.join(os.tmpdir(), 'f1040-es009-native-menus.png');
+  const proof = path.join(os.tmpdir(), `${proofPrefix}-es009-native-menus.png`);
   await page.locator('main').screenshot({ path: proof });
   console.log(`Preuve après assertions : ${proof}`);
+});
+
+if (delivery) test('ES-009 : glyphes natifs des 311 autres textes et expansion FD', async ({ page }) => {
+  const reportPath = path.join(root, 'output/reports', reportName);
+  const report = JSON.parse(fs.readFileSync(reportPath, 'utf8')) as {
+    rom: string; glyph_records: { key: number; target: number; expected_hex: string }[];
+  };
+  expect(report.glyph_records).toHaveLength(311);
+  const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'f859-native-glyphs-'));
+  fs.copyFileSync(path.resolve(root, report.rom), path.join(temp, 'game.gba'));
+  execFileSync('python3', ['tests/e2e-playwright/fixtures/prepare_es009_glyph_probe.py', temp, reportPath], { cwd: root });
+  const cases = JSON.parse(fs.readFileSync(path.join(temp, 'cases.json'), 'utf8')) as {
+    key: number; target: number; font: number; page_index: number;
+    page_hex: string; expanded_hex: string; expected_hex: string; max_width: number; max_lines: number; std_id: number | null;
+  }[];
+  await runOffscreen(temp, path.join(temp, 'probe.lua'), path.join(temp, 'result.json'));
+  const result = JSON.parse(fs.readFileSync(path.join(temp, 'result.json'), 'utf8')) as {
+    marker: number; target: number; width: number; guards: number;
+    page: string; expanded: string; raw: string; std_raw: string; std_guards: number; std_status: number;
+  }[];
+  expect(result).toHaveLength(cases.length);
+  expect(new Set(cases.map(item => item.key)).size).toBe(311);
+  expect(cases.filter(item => item.std_id !== null).length).toBe(28);
+  const fonts = JSON.parse(fs.readFileSync(path.join(root, 'languages/es-maint/system_texts.json'), 'utf8')).engine_fonts as Record<string, { hex: string }>;
+  const figures: string[] = [];
+  for (const [index, sample] of cases.entries()) {
+    const actual = result[index];
+    expect(actual.marker, sample.key.toString(16)).toBe(0xf859);
+    expect(actual.target).toBe(sample.target + 0x08000000);
+    expect(actual.guards).toBe(3);
+    expect(actual.raw).toBe(sample.expected_hex);
+    if (sample.std_id !== null) {
+      expect(actual.std_raw).toBe(sample.expected_hex);
+      expect(actual.std_guards).toBe(3);
+      expect(actual.std_status).toBe(0);
+    }
+    expect(actual.expanded).toBe(sample.expanded_hex);
+    expect(actual.page).toBe(sample.page_hex);
+    const font = Buffer.from(fonts[String(sample.font)].hex, 'hex');
+    const widths = [0];
+    for (const glyph of Buffer.from(sample.page_hex, 'hex').subarray(0, -1)) {
+      if (glyph === 0xfe) widths.push(0);
+      else widths[widths.length - 1] += font[glyph];
+    }
+    expect(widths.length).toBeLessThanOrEqual(sample.max_lines);
+    expect(actual.width).toBe(Math.max(...widths));
+    expect(actual.width, sample.key.toString(16)).toBeLessThanOrEqual(sample.max_width);
+    const pngBytes = fs.readFileSync(path.join(temp, `glyph${index + 1}.png`));
+    const png = PNG.sync.read(pngBytes);
+    expect([png.width, png.height]).toEqual([240, 160]);
+    let ink = 0;
+    for (let y = 0; y < 32; y++) for (let x = 0; x < 192; x++) {
+      if (png.data[(y * 240 + x) * 4] < 200) ink++;
+    }
+    expect(ink).toBeGreaterThan(5);
+    figures.push(`<figure><figcaption>0x${sample.key.toString(16)} · page ${sample.page_index + 1} · ${actual.width}px</figcaption><div><img alt="Glyphes natifs ${index}" src="data:image/png;base64,${pngBytes.toString('base64')}"></div></figure>`);
+  }
+  await page.setContent(`<style>body{margin:0;background:#152334;color:white;font:14px monospace}main{display:grid;grid-template-columns:repeat(3,480px);gap:10px;padding:12px;width:max-content}figure{margin:0}figure div{height:64px;overflow:hidden}img{width:480px;height:320px;image-rendering:pixelated}</style><p>ES-009 · glyphes moteur des 311 autres textes · FD avec sentinelles runtime · vue sans pauses · parcours naturels non simulés</p><main>${figures.join('')}</main>`);
+  await expect(page.getByRole('img')).toHaveCount(cases.length);
+  await page.getByRole('img').evaluateAll(images => Promise.all(images.map(img => (img as HTMLImageElement).decode())));
+  const proof = path.join(os.tmpdir(), 'f859-es009-native-glyphs.png');
+  await page.screenshot({ path: proof, fullPage: true });
+  console.log(`Preuve après assertions : ${proof} (${cases.length} pages)`);
 });

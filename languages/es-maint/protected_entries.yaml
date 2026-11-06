@@ -7823,3 +7823,1016 @@ entries:
 - offset: "0x004897ee"
   name: "ES-014 : 0x004897EE"
   expected: "Lo siento, <0xFD><0x01>. Tu Bolsa\\nno admite más Objetos Clave.<0xFB>Guarda algo en tu PC\\ny vuelve a buscar esto."
+
+# ES-009 — valeurs exactes relues, dernière occurrence gagnante.
+- offset: '0x0041670a'
+  name: 'ES-009 : 0x0041670a'
+  expected: Saco Bayas
+- offset: '0x00416716'
+  name: 'ES-009 : 0x00416716'
+  expected: Se guardará el\nSaco Bayas.
+- offset: '0x0041673c'
+  name: 'ES-009 : 0x0041673c'
+  expected: Vender
+- offset: '0x00416741'
+  name: 'ES-009 : 0x00416741'
+  expected: ¡Hasta luego!
+- offset: '0x00416757'
+  name: 'ES-009 : 0x00416757'
+  expected: Salir de la tienda.
+- offset: '0x00416766'
+  name: 'ES-009 : 0x00416766'
+  expected: <0xFD><0x02>, claro.\n¿Cuántos quieres?
+- offset: '0x0041678e'
+  name: 'ES-009 : 0x0041678e'
+  expected: "<0xFD><0x02>: <0xFD><0x03> en total.\\nSerán ¥<0xFD><0x04>. ¿De acuerdo?"
+- offset: '0x004167e7'
+  name: 'ES-009 : 0x004167e7'
+  expected: ¡Aquí tienes!\n¡Gracias!
+- offset: '0x00416842'
+  name: 'ES-009 : 0x00416842'
+  expected: No tienes dinero suficiente.<0xFC><0x09>
+- offset: '0x00416861'
+  name: 'ES-009 : 0x00416861'
+  expected: No te queda espacio para\neste objeto.<0xFC><0x09>
+- offset: '0x0041689e'
+  name: 'ES-009 : 0x0041689e'
+  expected: ¿Quieres algo más?
+- offset: '0x004168f1'
+  name: 'ES-009 : 0x004168f1'
+  expected: ¿<0xFD><0x02>? Lo siento.\nNo puedo comprarlo.<0xFC><0x09>
+- offset: '0x00416911'
+  name: 'ES-009 : 0x00416911'
+  expected: ¿<0xFD><0x02>?\n¿Cuántos quieres vender?
+- offset: '0x00416936'
+  name: 'ES-009 : 0x00416936'
+  expected: Puedo darte ¥<0xFD><0x04>.\n¿Te parece bien?
+- offset: '0x00416959'
+  name: 'ES-009 : 0x00416959'
+  expected: Vendiste <0xFD><0x02>\npor ¥<0xFD><0x04>.
+- offset: '0x0041697e'
+  name: 'ES-009 : 0x0041697e'
+  expected: Cambiar
+- offset: '0x00416984'
+  name: 'ES-009 : 0x00416984'
+  expected: Sacar
+- offset: '0x0041698d'
+  name: 'ES-009 : 0x0041698d'
+  expected: Cambiar
+- offset: '0x00416994'
+  name: 'ES-009 : 0x00416994'
+  expected: Datos
+- offset: '0x004169a3'
+  name: 'ES-009 : 0x004169a3'
+  expected: Elegir
+- offset: '0x004169a9'
+  name: 'ES-009 : 0x004169a9'
+  expected: Retirar
+- offset: '0x004169b2'
+  name: 'ES-009 : 0x004169b2'
+  expected: Quitar
+- offset: '0x004169b7'
+  name: 'ES-009 : 0x004169b7'
+  expected: Leer
+- offset: '0x004169bc'
+  name: 'ES-009 : 0x004169bc'
+  expected: Cambiar
+- offset: '0x004169c5'
+  name: 'ES-009 : 0x004169c5'
+  expected: At. Esp.
+- offset: '0x004169cd'
+  name: 'ES-009 : 0x004169cd'
+  expected: Def. Esp.
+- offset: '0x004169dc'
+  name: 'ES-009 : 0x004169dc'
+  expected: No tendrá ningún efecto.<0xFC><0x09>
+- offset: '0x004169f8'
+  name: 'ES-009 : 0x004169f8'
+  expected: No se puede usar en\nese Pokémon.<0xFC><0x09>
+- offset: '0x00416a1e'
+  name: 'ES-009 : 0x00416a1e'
+  expected: ¡<0xFD><0x02> no puede\nser cambiado!<0xFC><0x09>
+- offset: '0x00416a3a'
+  name: 'ES-009 : 0x00416a3a'
+  expected: ¡<0xFD><0x02> ya está\ncombatiendo!<0xFC><0x09>
+- offset: '0x00416a55'
+  name: 'ES-009 : 0x00416a55'
+  expected: Ya has elegido\na <0xFD><0x02>.<0xFC><0x09>
+- offset: '0x00416a75'
+  name: 'ES-009 : 0x00416a75'
+  expected: ¡<0xFD><0x02> no tiene\nenergía para combatir!<0xFC><0x09>
+- offset: '0x00416a98'
+  name: 'ES-009 : 0x00416a98'
+  expected: ¡No puedes cambiar los Pokémon\nde <0xFD><0x02> por los tuyos!<0xFC><0x09>
+- offset: '0x00416acb'
+  name: 'ES-009 : 0x00416acb'
+  expected: ¡Un Huevo no puede combatir!<0xFC><0x09>
+- offset: '0x00416ae2'
+  name: 'ES-009 : 0x00416ae2'
+  expected: Necesitas otra Medalla\npara poder usarlo.<0xFC><0x09>
+- offset: '0x00416b16'
+  name: 'ES-009 : 0x00416b16'
+  expected: Solo pueden participar\ntres Pokémon.<0xFC><0x09>
+- offset: '0x00416b3e'
+  name: 'ES-009 : 0x00416b3e'
+  expected: Solo pueden participar\ndos Pokémon.<0xFC><0x09>
+- offset: '0x00416b64'
+  name: 'ES-009 : 0x00416b64'
+  expected: ¿Enviar la Carta retirada\na tu PC?
+- offset: '0x00416b86'
+  name: 'ES-009 : 0x00416b86'
+  expected: Se ha enviado la Carta al PC.<0xFC><0x09>
+- offset: '0x00416ba6'
+  name: 'ES-009 : 0x00416ba6'
+  expected: El Buzón de tu PC está lleno.<0xFC><0x09>
+- offset: '0x00416bc3'
+  name: 'ES-009 : 0x00416bc3'
+  expected: Si retiras la Carta,\nse perderá el mensaje. ¿Vale?
+- offset: '0x00416bfb'
+  name: 'ES-009 : 0x00416bfb'
+  expected: Retira la Carta antes\nde darle un objeto.<0xFC><0x09>
+- offset: '0x00416c2a'
+  name: 'ES-009 : 0x00416c2a'
+  expected: <0xFD><0x02> recibió\n<0xFD><0x03> para llevar.<0xFC><0x09>
+- offset: '0x00416c49'
+  name: 'ES-009 : 0x00416c49'
+  expected: <0xFD><0x02> ya lleva\n<0xFD><0x03>.<0xFB>¿Quieres intercambiar\nlos dos objetos?
+- offset: '0x00416c8f'
+  name: 'ES-009 : 0x00416c8f'
+  expected: <0xFD><0x02> no lleva\nningún objeto.<0xFC><0x09>
+- offset: '0x00416cac'
+  name: 'ES-009 : 0x00416cac'
+  expected: Has recibido <0xFD><0x03>\nde <0xFD><0x02>.<0xFC><0x09>
+- offset: '0x00416cc7'
+  name: 'ES-009 : 0x00416cc7'
+  expected: Se le ha quitado la Carta\nal Pokémon.<0xFC><0x09>
+- offset: '0x00416cea'
+  name: 'ES-009 : 0x00416cea'
+  expected: Se retiró <0xFD><0x03>\ny se le dio <0xFD><0x02>.<0xFC><0x09>
+- offset: '0x00416d17'
+  name: 'ES-009 : 0x00416d17'
+  expected: Este Pokémon lleva un objeto.\nNo puede llevar una Carta.<0xFC><0x09>
+- offset: '0x00416d4f'
+  name: 'ES-009 : 0x00416d4f'
+  expected: Se ha transferido la Carta\ndesde el Buzón.<0xFC><0x09>
+- offset: '0x00416d78'
+  name: 'ES-009 : 0x00416d78'
+  expected: "<0xFD><0x02>: no hay sitio.\\nNo se pudo quitar el objeto.<0xFC><0x09>"
+- offset: '0x00416db3'
+  name: 'ES-009 : 0x00416db3'
+  expected: ¡<0xFD><0x02> aprendió\n<0xFD><0x03>!
+- offset: '0x00416dc2'
+  name: 'ES-009 : 0x00416dc2'
+  expected: <0xFD><0x02> y <0xFD><0x03>\nson incompatibles.<0xFB>No puede aprender\n<0xFD><0x03>.<0xFC><0x09>
+- offset: '0x00416df7'
+  name: 'ES-009 : 0x00416df7'
+  expected: <0xFD><0x02> quiere aprender\n<0xFD><0x03>.<0xFB>Pero <0xFD><0x02> ya conoce\ncuatro movimientos.<0xFB>¿Quieres olvidar un movimiento\npara aprender <0xFD><0x03>?
+- offset: '0x00416e6b'
+  name: 'ES-009 : 0x00416e6b'
+  expected: ¿Dejar de intentar enseñar\n<0xFD><0x03>?
+- offset: '0x00416e84'
+  name: 'ES-009 : 0x00416e84'
+  expected: <0xFD><0x02> no aprendió\n<0xFD><0x03>.<0xFC><0x09>
+- offset: '0x00416ea4'
+  name: 'ES-009 : 0x00416ea4'
+  expected: ¿Qué movimiento debe olvidar?<0xFC><0x09>
+- offset: '0x00416ec6'
+  name: 'ES-009 : 0x00416ec6'
+  expected: 1, <0xFC><0x08><0x0F>2 y<0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xB0> <0xFC><0x08><0x0F><0xFC><0x10><0x31><0x00>¡Puf!<0xFB><0xFD><0x02> olvidó cómo\nusar <0xFD><0x03>.<0xFB>Y<0xB0><0xFC><0x09>
+- offset: '0x00416f10'
+  name: 'ES-009 : 0x00416f10'
+  expected: <0xFD><0x02> ya conoce\n<0xFD><0x03>.<0xFC><0x09>
+- offset: '0x00416f27'
+  name: 'ES-009 : 0x00416f27'
+  expected: <0xFD><0x02> recuperó\n<0xFD><0x03> PS.<0xFC><0x09>
+- offset: '0x00416f4e'
+  name: 'ES-009 : 0x00416f4e'
+  expected: <0xFD><0x02> se curó del\nenvenenamiento.<0xFC><0x09>
+- offset: '0x00416f6f'
+  name: 'ES-009 : 0x00416f6f'
+  expected: <0xFD><0x02> se curó de\nla parálisis.<0xFC><0x09>
+- offset: '0x00416f8c'
+  name: 'ES-009 : 0x00416f8c'
+  expected: <0xFD><0x02> se despertó.<0xFC><0x09>
+- offset: '0x00416f9a'
+  name: 'ES-009 : 0x00416f9a'
+  expected: <0xFD><0x02> sanó la quemadura.<0xFC><0x09>
+- offset: '0x00416fb2'
+  name: 'ES-009 : 0x00416fb2'
+  expected: <0xFD><0x02> se descongeló.<0xFC><0x09>
+- offset: '0x00416fc7'
+  name: 'ES-009 : 0x00416fc7'
+  expected: Se han recuperado los PP.<0xFC><0x09>
+- offset: '0x00416fed'
+  name: 'ES-009 : 0x00416fed'
+  expected: <0xFD><0x02> se ha curado.<0xFC><0x09>
+- offset: '0x00417002'
+  name: 'ES-009 : 0x00417002'
+  expected: Aumentaron los PP de <0xFD><0x02>.<0xFC><0x09>
+- offset: '0x00417017'
+  name: 'ES-009 : 0x00417017'
+  expected: <0xFD><0x02> subió\nal Nv. <0xFD><0x03>.
+- offset: '0x00417032'
+  name: 'ES-009 : 0x00417032'
+  expected: Subió para <0xFD><0x02>\nla estadística base <0xFD><0x03>.<0xFC><0x09>
+- offset: '0x00417052'
+  name: 'ES-009 : 0x00417052'
+  expected: <0xFD><0x02> salió de\nla confusión.<0xFC><0x09>
+- offset: '0x00417075'
+  name: 'ES-009 : 0x00417075'
+  expected: <0xFD><0x02> dejó de\nestar enamorado.<0xFC><0x09>
+- offset: '0x00417094'
+  name: 'ES-009 : 0x00417094'
+  expected: Es tu único Pokémon\nque puede combatir.
+- offset: '0x004170bc'
+  name: 'ES-009 : 0x004170bc'
+  expected: Ese Pokémon no se puede\nintercambiar ahora.
+- offset: '0x004170e0'
+  name: 'ES-009 : 0x004170e0'
+  expected: No puedes intercambiar\nun Huevo ahora.
+- offset: '0x004170fc'
+  name: 'ES-009 : 0x004170fc'
+  expected: El Pokémon del otro Entrenador\nno se puede intercambiar ahora.
+- offset: '0x00417130'
+  name: 'ES-009 : 0x00417130'
+  expected: El otro Entrenador no puede\naceptar ese Pokémon ahora.
+- offset: '0x00417164'
+  name: 'ES-009 : 0x00417164'
+  expected: Ahora no puedes intercambiar\ncon ese Entrenador.
+- offset: '0x0041718c'
+  name: 'ES-009 : 0x0041718c'
+  expected: No es el tipo de Pokémon\nque quiere el otro Entrenador.
+- offset: '0x004171cc'
+  name: 'ES-009 : 0x004171cc'
+  expected: Eso no es un Huevo.
+- offset: '0x004171df'
+  name: 'ES-009 : 0x004171df'
+  expected: Elige un Pokémon.
+- offset: '0x004171f1'
+  name: 'ES-009 : 0x004171f1'
+  expected: ¿Mover a dónde?
+- offset: '0x00417200'
+  name: 'ES-009 : 0x00417200'
+  expected: ¿Enseñar a cuál?
+- offset: '0x00417215'
+  name: 'ES-009 : 0x00417215'
+  expected: ¿En qué Pokémon usar?
+- offset: '0x0041722b'
+  name: 'ES-009 : 0x0041722b'
+  expected: ¿A qué Pokémon dárselo?
+- offset: '0x00417242'
+  name: 'ES-009 : 0x00417242'
+  expected: ¿Qué hacer con este <0x53><0x54>?
+- offset: '0x00417258'
+  name: 'ES-009 : 0x00417258'
+  expected: No hay nada que cortar.
+- offset: '0x00417270'
+  name: 'ES-009 : 0x00417270'
+  expected: ¡Aquí no puedes usar Surf!
+- offset: '0x00417281'
+  name: 'ES-009 : 0x00417281'
+  expected: Ya estás usando Surf.
+- offset: '0x00417299'
+  name: 'ES-009 : 0x00417299'
+  expected: Aquí no se puede usar.
+- offset: '0x004172ae'
+  name: 'ES-009 : 0x004172ae'
+  expected: ¿Qué movimiento recuperar?
+- offset: '0x004172c2'
+  name: 'ES-009 : 0x004172c2'
+  expected: ¿Aumentar los PP de cuál?
+- offset: '0x004172d5'
+  name: 'ES-009 : 0x004172d5'
+  expected: ¿Qué hacer con un objeto?
+- offset: '0x004172eb'
+  name: 'ES-009 : 0x004172eb'
+  expected: ¡Así no se puede combatir!
+- offset: '0x00417301'
+  name: 'ES-009 : 0x00417301'
+  expected: Elige un Pokémon.
+- offset: '0x00417313'
+  name: 'ES-009 : 0x00417313'
+  expected: No hay PS suficientes...
+- offset: '0x00417337'
+  name: 'ES-009 : 0x00417337'
+  expected: Los <0x53><0x54> deben ser distintos.
+- offset: '0x0041734d'
+  name: 'ES-009 : 0x0041734d'
+  expected: ¡Los objetos deben ser distintos!
+- offset: '0x00417361'
+  name: 'ES-009 : 0x00417361'
+  expected: ¡La corriente es demasiado rápida!
+- offset: '0x0041737f'
+  name: 'ES-009 : 0x0041737f'
+  expected: ¿Qué hacer con la Carta?
+- offset: '0x00417396'
+  name: 'ES-009 : 0x00417396'
+  expected: Elige un Pokémon o cancela.
+- offset: '0x004173b0'
+  name: 'ES-009 : 0x004173b0'
+  expected: Elige un Pokémon y confirma.
+- offset: '0x004173cc'
+  name: 'ES-009 : 0x004173cc'
+  expected: Se necesitan dos Pokémon.
+- offset: '0x004173e4'
+  name: 'ES-009 : 0x004173e4'
+  expected: ¡Disfruta de la bici!
+- offset: '0x004173f9'
+  name: 'ES-009 : 0x004173f9'
+  expected: Ya se está usando.
+- offset: '0x00417411'
+  name: 'ES-009 : 0x00417411'
+  expected: No sirve.
+- offset: '0x00417419'
+  name: 'ES-009 : 0x00417419'
+  expected: APTO
+- offset: '0x0041741e'
+  name: 'ES-009 : 0x0041741e'
+  expected: PRIMERO
+- offset: '0x00417424'
+  name: 'ES-009 : 0x00417424'
+  expected: SEGUNDO
+- offset: '0x0041742b'
+  name: 'ES-009 : 0x0041742b'
+  expected: TERCERO
+- offset: '0x00417431'
+  name: 'ES-009 : 0x00417431'
+  expected: APTO
+- offset: '0x00417436'
+  name: 'ES-009 : 0x00417436'
+  expected: NO APTO
+- offset: '0x0041743f'
+  name: 'ES-009 : 0x0041743f'
+  expected: ¡APTO!
+- offset: '0x00417445'
+  name: 'ES-009 : 0x00417445'
+  expected: ¡NO APTO!
+- offset: '0x0041744f'
+  name: 'ES-009 : 0x0041744f'
+  expected: APRENDIDO
+- offset: '0x00417457'
+  name: 'ES-009 : 0x00417457'
+  expected: 'OAK: Es importante conocer\nbien a tus Pokémon.<0xFB>'
+- offset: '0x00417494'
+  name: 'ES-009 : 0x00417494'
+  expected: Esta es la lista de tus Pokémon,\n<0xFD><0x01>.<0xFB>Ábrela para ver las habilidades\ny movimientos de tus Pokémon.<0xFB>Aquí también eliges a un Pokémon\ncuando quieras usar un objeto.<0xFC><0x09>
+- offset: '0x00417533'
+  name: 'ES-009 : 0x00417533'
+  expected: Corta árboles o hierba.
+- offset: '0x00417548'
+  name: 'ES-009 : 0x00417548'
+  expected: Vuela a un pueblo conocido.
+- offset: '0x0041755d'
+  name: 'ES-009 : 0x0041755d'
+  expected: Viaja por el agua.
+- offset: '0x0041756e'
+  name: 'ES-009 : 0x0041756e'
+  expected: Mueve rocas pesadas.
+- offset: '0x00417583'
+  name: 'ES-009 : 0x00417583'
+  expected: Ilumina la oscuridad.
+- offset: '0x00417596'
+  name: 'ES-009 : 0x00417596'
+  expected: Rompe rocas agrietadas.
+- offset: '0x004175ae'
+  name: 'ES-009 : 0x004175ae'
+  expected: Sube una cascada.
+- offset: '0x004175cc'
+  name: 'ES-009 : 0x004175cc'
+  expected: Escapa de aquí.
+- offset: '0x004175de'
+  name: 'ES-009 : 0x004175de'
+  expected: Atrae Pokémon salvajes.
+- offset: '0x004175f1'
+  name: 'ES-009 : 0x004175f1'
+  expected: Comparte PS.
+- offset: '0x004175fb'
+  name: 'ES-009 : 0x004175fb'
+  expected: Vuelve a un lugar de curación.
+- offset: '0x00417615'
+  name: 'ES-009 : 0x00417615'
+  expected: ¿Quieres escapar de aquí\ny volver a <0xFD><0x02>?
+- offset: '0x00417640'
+  name: 'ES-009 : 0x00417640'
+  expected: ¿Volver al último lugar de\ncuración usado en <0xFD><0x02>?
+- offset: '0x00417674'
+  name: 'ES-009 : 0x00417674'
+  expected: Ataque
+- offset: '0x0041767b'
+  name: 'ES-009 : 0x0041767b'
+  expected: Defensa
+- offset: '0x0041768d'
+  name: 'ES-009 : 0x0041768d'
+  expected: Velocidad
+- offset: '0x00417696'
+  name: 'ES-009 : 0x00417696'
+  expected: Ese Pokémon no puede participar.<0xFC><0x09>
+- offset: '0x004176b8'
+  name: 'ES-009 : 0x004176b8'
+  expected: ¿Cancelar la participación?
+- offset: '0x004176cf'
+  name: 'ES-009 : 0x004176cf'
+  expected: ¿Cancelar el combate?
+- offset: '0x004176e2'
+  name: 'ES-009 : 0x004176e2'
+  expected: Apagar
+- offset: '0x004176f1'
+  name: 'ES-009 : 0x004176f1'
+  expected: Objetos
+- offset: '0x004176fe'
+  name: 'ES-009 : 0x004176fe'
+  expected: Buzón
+- offset: '0x00417706'
+  name: 'ES-009 : 0x00417706'
+  expected: Dejar objeto
+- offset: '0x00417713'
+  name: 'ES-009 : 0x00417713'
+  expected: Sacar objeto
+- offset: '0x0041772a'
+  name: 'ES-009 : 0x0041772a'
+  expected: Guarda objetos en el PC.
+- offset: '0x00417741'
+  name: 'ES-009 : 0x00417741'
+  expected: Saca objetos del PC.
+- offset: '0x00417774'
+  name: 'ES-009 : 0x00417774'
+  expected: No hay objetos.<0xFC><0x09>
+- offset: '0x0041778a'
+  name: 'ES-009 : 0x0041778a'
+  expected: No queda espacio\nen la Bolsa.
+- offset: '0x004177ac'
+  name: 'ES-009 : 0x004177ac'
+  expected: ¿Cuántos <0xFD><0x02>\nquieres sacar?
+- offset: '0x004177c5'
+  name: 'ES-009 : 0x004177c5'
+  expected: Sacaste <0xFD><0x03>\n<0xFD><0x02>.
+- offset: '0x004177d8'
+  name: 'ES-009 : 0x004177d8'
+  expected: Leer
+- offset: '0x004177e9'
+  name: 'ES-009 : 0x004177e9'
+  expected: Dar
+- offset: '0x004177ee'
+  name: 'ES-009 : 0x004177ee'
+  expected: No hay Cartas aquí.<0xFC><0x09>
+- offset: '0x00417806'
+  name: 'ES-009 : 0x00417806'
+  expected: ¿Qué quieres hacer con\nla Carta de <0xFD><0x02>?
+- offset: '0x00417830'
+  name: 'ES-009 : 0x00417830'
+  expected: Se perderá el mensaje.\n¿Te parece bien?
+- offset: '0x004178a7'
+  name: 'ES-009 : 0x004178a7'
+  expected: Sacar\nobjeto
+- offset: '0x004178b5'
+  name: 'ES-009 : 0x004178b5'
+  expected: Sacar
+- offset: '0x004178be'
+  name: 'ES-009 : 0x004178be'
+  expected: Volver al PC.
+- offset: '0x004178d0'
+  name: 'ES-009 : 0x004178d0'
+  expected: LT. SURGE
+- offset: '0x004178da'
+  name: 'ES-009 : 0x004178da'
+  expected: KOGA
+- offset: '0x004178e6'
+  name: 'ES-009 : 0x004178e6'
+  expected: Info
+- offset: '0x004178eb'
+  name: 'ES-009 : 0x004178eb'
+  expected: Huevos
+- offset: '0x004178f0'
+  name: 'ES-009 : 0x004178f0'
+  expected: HALL DE LA FAMA
+- offset: '0x004178fd'
+  name: 'ES-009 : 0x004178fd'
+  expected: VICTORIAS
+- offset: '0x00417907'
+  name: 'ES-009 : 0x00417907'
+  expected: SALIR
+- offset: '0x00417929'
+  name: 'ES-009 : 0x00417929'
+  expected: SALIR
+- offset: '0x00417944'
+  name: 'ES-009 : 0x00417944'
+  expected: COMBATE INDIVIDUAL
+- offset: '0x00417952'
+  name: 'ES-009 : 0x00417952'
+  expected: COMBATE DOBLE
+- offset: '0x00417960'
+  name: 'ES-009 : 0x00417960'
+  expected: COMBATE MÚLTIPLE
+- offset: '0x0041796d'
+  name: 'ES-009 : 0x0041796d'
+  expected: Participar.
+- offset: '0x0041797f'
+  name: 'ES-009 : 0x0041797f'
+  expected: Info
+- offset: '0x00417984'
+  name: 'ES-009 : 0x00417984'
+  expected: AGUA FRESCA<0xFC><0x13><0x57><0xFC><0x06><0x00>¥200
+- offset: '0x004179c0'
+  name: 'ES-009 : 0x004179c0'
+  expected: <0xFC><0x06><0x00> 50 fich.<0xFC><0x13><0x45>¥1,000
+- offset: '0x004179d6'
+  name: 'ES-009 : 0x004179d6'
+  expected: <0xFC><0x06><0x00>500 fich.<0xFC><0x13><0x40>¥10,000
+- offset: '0x004179ed'
+  name: 'ES-009 : 0x004179ed'
+  expected: Excelente
+- offset: '0x004179f7'
+  name: 'ES-009 : 0x004179f7'
+  expected: No está mal
+- offset: '0x00417a02'
+  name: 'ES-009 : 0x00417a02'
+  expected: PARTE ROJA
+- offset: '0x00417a0c'
+  name: 'ES-009 : 0x00417a0c'
+  expected: PARTE AMARILLA
+- offset: '0x00417a19'
+  name: 'ES-009 : 0x00417a19'
+  expected: PARTE AZUL
+- offset: '0x00417a24'
+  name: 'ES-009 : 0x00417a24'
+  expected: PARTE VERDE
+- offset: '0x00417a37'
+  name: 'ES-009 : 0x00417a37'
+  expected: Derecha
+- offset: '0x00417a3d'
+  name: 'ES-009 : 0x00417a3d'
+  expected: Izquierda
+- offset: '0x00417a42'
+  name: 'ES-009 : 0x00417a42'
+  expected: MT13<0xFC><0x13><0x48><0xFC><0x06><0x00>4,000 fich.
+- offset: '0x00417a58'
+  name: 'ES-009 : 0x00417a58'
+  expected: MT23<0xFC><0x13><0x48><0xFC><0x06><0x00>3,500 fich.
+- offset: '0x00417a6e'
+  name: 'ES-009 : 0x00417a6e'
+  expected: MT24<0xFC><0x13><0x48><0xFC><0x06><0x00>4,000 fich.
+- offset: '0x00417a84'
+  name: 'ES-009 : 0x00417a84'
+  expected: MT30<0xFC><0x13><0x48><0xFC><0x06><0x00>4,500 fich.
+- offset: '0x00417a9a'
+  name: 'ES-009 : 0x00417a9a'
+  expected: MT35<0xFC><0x13><0x48><0xFC><0x06><0x00>4,000 fich.
+- offset: '0x00417abf'
+  name: 'ES-009 : 0x00417abf'
+  expected: CARISMA
+- offset: '0x00417ac4'
+  name: 'ES-009 : 0x00417ac4'
+  expected: BELLEZA
+- offset: '0x00417acb'
+  name: 'ES-009 : 0x00417acb'
+  expected: DULZURA
+- offset: '0x00417ad0'
+  name: 'ES-009 : 0x00417ad0'
+  expected: INGENIO
+- offset: '0x00417ad6'
+  name: 'ES-009 : 0x00417ad6'
+  expected: DUREZA
+- offset: '0x00417adc'
+  name: 'ES-009 : 0x00417adc'
+  expected: Normal
+- offset: '0x00417ae3'
+  name: 'ES-009 : 0x00417ae3'
+  expected: Negro
+- offset: '0x00417ae9'
+  name: 'ES-009 : 0x00417ae9'
+  expected: Rosa
+- offset: '0x00417aee'
+  name: 'ES-009 : 0x00417aee'
+  expected: Sepia
+- offset: '0x00417af4'
+  name: 'ES-009 : 0x00417af4'
+  expected: CARISMA
+- offset: '0x00417af9'
+  name: 'ES-009 : 0x00417af9'
+  expected: BELLEZA
+- offset: '0x00417b00'
+  name: 'ES-009 : 0x00417b00'
+  expected: DULZURA
+- offset: '0x00417b05'
+  name: 'ES-009 : 0x00417b05'
+  expected: INGENIO
+- offset: '0x00417b0b'
+  name: 'ES-009 : 0x00417b0b'
+  expected: DUREZA
+- offset: '0x00417b11'
+  name: 'ES-009 : 0x00417b11'
+  expected: Objetos
+- offset: '0x00417b17'
+  name: 'ES-009 : 0x00417b17'
+  expected: Objetos clave
+- offset: '0x00417b21'
+  name: 'ES-009 : 0x00417b21'
+  expected: Poké Balls
+- offset: '0x00417b36'
+  name: 'ES-009 : 0x00417b36'
+  expected: BAYAS
+- offset: '0x00417b3e'
+  name: 'ES-009 : 0x00417b3e'
+  expected: MEDALLA ROCA
+- offset: '0x00417b4b'
+  name: 'ES-009 : 0x00417b4b'
+  expected: MEDALLA CASCADA
+- offset: '0x00417b58'
+  name: 'ES-009 : 0x00417b58'
+  expected: MEDALLA TRUENO
+- offset: '0x00417b65'
+  name: 'ES-009 : 0x00417b65'
+  expected: MEDALLA ARCOÍRIS
+- offset: '0x00417b72'
+  name: 'ES-009 : 0x00417b72'
+  expected: MEDALLA ALMA
+- offset: '0x00417b7c'
+  name: 'ES-009 : 0x00417b7c'
+  expected: MEDALLA PANTANO
+- offset: '0x00417b87'
+  name: 'ES-009 : 0x00417b87'
+  expected: MEDALLA VOLCÁN
+- offset: '0x00417b94'
+  name: 'ES-009 : 0x00417b94'
+  expected: MEDALLA TIERRA
+- offset: '0x00417b9f'
+  name: 'ES-009 : 0x00417b9f'
+  expected: PC de alguien
+- offset: '0x00417bac'
+  name: 'ES-009 : 0x00417bac'
+  expected: PC de Ayla
+- offset: '0x00417bb6'
+  name: 'ES-009 : 0x00417bb6'
+  expected: PC de <0xFD><0x01>
+- offset: '0x00417bbe'
+  name: 'ES-009 : 0x00417bbe'
+  expected: Hall de la Fama
+- offset: '0x00417bcb'
+  name: 'ES-009 : 0x00417bcb'
+  expected: Apagar
+- offset: '0x00417bd3'
+  name: 'ES-009 : 0x00417bd3'
+  expected: PC del Prof. Log
+- offset: '0x00417be2'
+  name: 'ES-009 : 0x00417be2'
+  expected: EEVEE
+- offset: '0x00417be8'
+  name: 'ES-009 : 0x00417be8'
+  expected: FLAREON
+- offset: '0x00417bf0'
+  name: 'ES-009 : 0x00417bf0'
+  expected: JOLTEON
+- offset: '0x00417bf8'
+  name: 'ES-009 : 0x00417bf8'
+  expected: VAPOREON
+- offset: '0x00417c01'
+  name: 'ES-009 : 0x00417c01'
+  expected: Dejar de mirar.
+- offset: '0x00417c0f'
+  name: 'ES-009 : 0x00417c0f'
+  expected: Agua Fresca
+- offset: '0x00417c1b'
+  name: 'ES-009 : 0x00417c1b'
+  expected: Refresco
+- offset: '0x00417c24'
+  name: 'ES-009 : 0x00417c24'
+  expected: Limonada
+- offset: '0x00417c2d'
+  name: 'ES-009 : 0x00417c2d'
+  expected: Fichas
+- offset: '0x00417c33'
+  name: 'ES-009 : 0x00417c33'
+  expected: Bicicleta<0xFC><0x13><0x49><0xFC><0x06><0x00>¥1,000,000
+- offset: '0x00417c4b'
+  name: 'ES-009 : 0x00417c4b'
+  expected: NO, GRACIAS
+- offset: '0x00417c55'
+  name: 'ES-009 : 0x00417c55'
+  expected: ABRA<0xFC><0x13><0x55><0xFC><0x06><0x00> 180 fich.
+- offset: '0x00417c6a'
+  name: 'ES-009 : 0x00417c6a'
+  expected: CLEFAIRY<0xFC><0x13><0x55><0xFC><0x06><0x00> 500 fich.
+- offset: '0x00417c83'
+  name: 'ES-009 : 0x00417c83'
+  expected: DRATINI<0xFC><0x13><0x4B><0xFC><0x06><0x00> 2,800 fich.
+- offset: '0x00417c9d'
+  name: 'ES-009 : 0x00417c9d'
+  expected: SCYTHER<0xFC><0x13><0x4B><0xFC><0x06><0x00> 5,500 fich.
+- offset: '0x00417cb7'
+  name: 'ES-009 : 0x00417cb7'
+  expected: PORYGON<0xFC><0x13><0x4B><0xFC><0x06><0x00> 9,999 fich.
+- offset: '0x00417d4c'
+  name: 'ES-009 : 0x00417d4c'
+  expected: NO, GRACIAS
+- offset: '0x00417d56'
+  name: 'ES-009 : 0x00417d56'
+  expected: FÓSIL HÉLIX
+- offset: '0x00417d63'
+  name: 'ES-009 : 0x00417d63'
+  expected: FÓSIL DOMO
+- offset: '0x00417d6f'
+  name: 'ES-009 : 0x00417d6f'
+  expected: ÁMBAR VIEJO
+- offset: '0x00417d79'
+  name: 'ES-009 : 0x00417d79'
+  expected: Intercambio
+- offset: '0x00417d86'
+  name: 'ES-009 : 0x00417d86'
+  expected: Coliseo
+- offset: '0x00417d90'
+  name: 'ES-009 : 0x00417d90'
+  expected: Cable Link
+- offset: '0x00417da0'
+  name: 'ES-009 : 0x00417da0'
+  expected: Inalámbrico
+- offset: '0x00417da9'
+  name: 'ES-009 : 0x00417da9'
+  expected: Objetos
+- offset: '0x00417db6'
+  name: 'ES-009 : 0x00417db6'
+  expected: Objetos clave
+- offset: '0x00417dc7'
+  name: 'ES-009 : 0x00417dc7'
+  expected: Poké Balls
+- offset: '0x00417dd9'
+  name: 'ES-009 : 0x00417dd9'
+  expected: Tubo MT
+- offset: '0x00417de1'
+  name: 'ES-009 : 0x00417de1'
+  expected: Saco Bayas
+- offset: '0x00417ded'
+  name: 'ES-009 : 0x00417ded'
+  expected: Otros
+- offset: '0x00417df3'
+  name: 'ES-009 : 0x00417df3'
+  expected: ISLA PRIMA
+- offset: '0x00417dfe'
+  name: 'ES-009 : 0x00417dfe'
+  expected: ISLA SECUNDA
+- offset: '0x00417e09'
+  name: 'ES-009 : 0x00417e09'
+  expected: ISLA TERA
+- offset: '0x00417e16'
+  name: 'ES-009 : 0x00417e16'
+  expected: ISLA QUARTA
+- offset: '0x00417e22'
+  name: 'ES-009 : 0x00417e22'
+  expected: ISLA INTA
+- offset: '0x00417e2e'
+  name: 'ES-009 : 0x00417e2e'
+  expected: ISLA EXTA
+- offset: '0x00417e39'
+  name: 'ES-009 : 0x00417e39'
+  expected: ISLA SÉTIMA
+- offset: '0x00417e46'
+  name: 'ES-009 : 0x00417e46'
+  expected: CARMÍN
+- offset: '0x00417e50'
+  name: 'ES-009 : 0x00417e50'
+  expected: COLISEO
+- offset: '0x00417e5a'
+  name: 'ES-009 : 0x00417e5a'
+  expected: MACHACABAYAS
+- offset: '0x00417e72'
+  name: 'ES-009 : 0x00417e72'
+  expected: SALTO POKÉMON
+- offset: '0x00417e7f'
+  name: 'ES-009 : 0x00417e7f'
+  expected: A POR BAYAS CON DODRIO
+- offset: '0x00417e94'
+  name: 'ES-009 : 0x00417e94'
+  expected: 2 MINISETAS
+- offset: '0x00417ea4'
+  name: 'ES-009 : 0x00417ea4'
+  expected: 1 SETA GRANDE
+- offset: '0x00417eb3'
+  name: 'ES-009 : 0x00417eb3'
+  expected: ISLAS SETE
+- offset: '0x00417ec1'
+  name: 'ES-009 : 0x00417ec1'
+  expected: ROCA OMBLIGO
+- offset: '0x00417ecc'
+  name: 'ES-009 : 0x00417ecc'
+  expected: ISLA ORIGEN
+- offset: '0x00417ed9'
+  name: 'ES-009 : 0x00417ed9'
+  expected: SEM. MILAGRO<0xFC><0x13><0x50><0xFC><0x06><0x00>1,000 fich.
+- offset: '0x00417ef7'
+  name: 'ES-009 : 0x00417ef7'
+  expected: CARBÓN<0xFC><0x13><0x50><0xFC><0x06><0x00>1,000 fich.
+- offset: '0x00417f11'
+  name: 'ES-009 : 0x00417f11'
+  expected: AGUA MÍSTICA<0xFC><0x13><0x50><0xFC><0x06><0x00>1,000 fich.
+- offset: '0x00417f2f'
+  name: 'ES-009 : 0x00417f2f'
+  expected: FL. AMARILLA<0xFC><0x13><0x50><0xFC><0x06><0x00>1,600 fich.
+- offset: '0x00417f4d'
+  name: 'ES-009 : 0x00417f4d'
+  expected: BOLA HUMO<0xFC><0x13><0x5A><0xFC><0x06><0x00>800 fich.
+- offset: '0x00417f69'
+  name: 'ES-009 : 0x00417f69'
+  expected: SER LÍDER
+- offset: '0x00417f77'
+  name: 'ES-009 : 0x00417f77'
+  expected: UNIRSE AL GRUPO
+- offset: '0x00417f82'
+  name: 'ES-009 : 0x00417f82'
+  expected: INDIVIDUAL
+- offset: '0x00417f89'
+  name: 'ES-009 : 0x00417f89'
+  expected: DOBLE
+- offset: '0x00417f90'
+  name: 'ES-009 : 0x00417f90'
+  expected: ELIMINATORIA
+- offset: '0x00417f99'
+  name: 'ES-009 : 0x00417f99'
+  expected: MIXTO
+- offset: '0x00417fbb'
+  name: 'ES-009 : 0x00417fbb'
+  expected: Muchachote
+- offset: '0x00417fc3'
+  name: 'ES-009 : 0x00417fc3'
+  expected: Muchachota
+- offset: '0x00417fcc'
+  name: 'ES-009 : 0x00417fcc'
+  expected: hijo
+- offset: '0x00417fd0'
+  name: 'ES-009 : 0x00417fd0'
+  expected: hija
+- offset: '0x0041803a'
+  name: 'ES-009 : 0x0041803a'
+  expected: PB
+- offset: '0x0041803d'
+  name: 'ES-009 : 0x0041803d'
+  expected: P1
+- offset: '0x00418040'
+  name: 'ES-009 : 0x00418040'
+  expected: P2
+- offset: '0x00418043'
+  name: 'ES-009 : 0x00418043'
+  expected: P3
+- offset: '0x00418046'
+  name: 'ES-009 : 0x00418046'
+  expected: P4
+- offset: '0x00418049'
+  name: 'ES-009 : 0x00418049'
+  expected: P5
+- offset: '0x0041804c'
+  name: 'ES-009 : 0x0041804c'
+  expected: P6
+- offset: '0x0041804f'
+  name: 'ES-009 : 0x0041804f'
+  expected: P7
+- offset: '0x00418052'
+  name: 'ES-009 : 0x00418052'
+  expected: P8
+- offset: '0x00418055'
+  name: 'ES-009 : 0x00418055'
+  expected: P9
+- offset: '0x00418059'
+  name: 'ES-009 : 0x00418059'
+  expected: P10
+- offset: '0x0041805d'
+  name: 'ES-009 : 0x0041805d'
+  expected: S1
+- offset: '0x00418061'
+  name: 'ES-009 : 0x00418061'
+  expected: S2
+- offset: '0x00418065'
+  name: 'ES-009 : 0x00418065'
+  expected: S3
+- offset: '0x00418069'
+  name: 'ES-009 : 0x00418069'
+  expected: S4
+- offset: '0x0041806d'
+  name: 'ES-009 : 0x0041806d'
+  expected: AZOTEA
+- offset: '0x00418075'
+  name: 'ES-009 : 0x00418075'
+  expected: 'Planta:'
+- offset: '0x0041807d'
+  name: 'ES-009 : 0x0041807d'
+  expected: JUEGO CONECTADO
+- offset: '0x0041808e'
+  name: 'ES-009 : 0x0041808e'
+  expected: ZONA DIRECTA
+- offset: '0x0041809c'
+  name: 'ES-009 : 0x0041809c'
+  expected: SALA UNIÓN
+- offset: '0x00418174'
+  name: 'ES-009 : 0x00418174'
+  expected: RESULTADOS DE <0xFD><0x01>
+- offset: '0x00418188'
+  name: 'ES-009 : 0x00418188'
+  expected: TOTAL G:<0xFD><0x02> P:<0xFD><0x03> E:<0xFD><0x04>
+- offset: '0x004181c3'
+  name: 'ES-009 : 0x004181c3'
+  expected: Se cerrará el MEMORÍN.
+- offset: '0x00418208'
+  name: 'ES-009 : 0x00418208'
+  expected: Salir de la Caja.
+- offset: '0x0041821b'
+  name: 'ES-009 : 0x0041821b'
+  expected: ¿Qué quieres hacer?
+- offset: '0x00418233'
+  name: 'ES-009 : 0x00418233'
+  expected: Elige un tema.
+- offset: '0x00418248'
+  name: 'ES-009 : 0x00418248'
+  expected: Elige el fondo.
+- offset: '0x0041825c'
+  name: 'ES-009 : 0x0041825c'
+  expected: Eliges <0xF7><0x00>.
+- offset: '0x0041826c'
+  name: 'ES-009 : 0x0041826c'
+  expected: ¿Ir a qué Caja?
+- offset: '0x0041827f'
+  name: 'ES-009 : 0x0041827f'
+  expected: ¿Dejar en qué Caja?
+- offset: '0x00418295'
+  name: 'ES-009 : 0x00418295'
+  expected: <0xF7><0x00> depositado.
+- offset: '0x004182a7'
+  name: 'ES-009 : 0x004182a7'
+  expected: La Caja está llena.
+- offset: '0x004182b8'
+  name: 'ES-009 : 0x004182b8'
+  expected: ¿Liberar este Pokémon?
+- offset: '0x004182ce'
+  name: 'ES-009 : 0x004182ce'
+  expected: <0xF7><0x00> fue liberado.
+- offset: '0x004182df'
+  name: 'ES-009 : 0x004182df'
+  expected: ¡Adiós, <0xF7><0x00>!
+- offset: '0x004182ec'
+  name: 'ES-009 : 0x004182ec'
+  expected: Marca a tu Pokémon.
+- offset: '0x004182ff'
+  name: 'ES-009 : 0x004182ff'
+  expected: ¡Es tu último Pokémon!
+- offset: '0x00418319'
+  name: 'ES-009 : 0x00418319'
+  expected: ¡Tu equipo está lleno!
+- offset: '0x0041832c'
+  name: 'ES-009 : 0x0041832c'
+  expected: ¡Llevas un Pokémon!
+- offset: '0x00418346'
+  name: 'ES-009 : 0x00418346'
+  expected: ¿Cuál te llevas?
+- offset: '0x0041835f'
+  name: 'ES-009 : 0x0041835f'
+  expected: No se libera un Huevo.
+- offset: '0x00418379'
+  name: 'ES-009 : 0x00418379'
+  expected: ¿Seguir con las Cajas?
+- offset: '0x00418392'
+  name: 'ES-009 : 0x00418392'
+  expected: ¡<0xF7><0x00> ha vuelto!
+- offset: '0x004183a0'
+  name: 'ES-009 : 0x004183a0'
+  expected: ¿Se preocupaba por ti?
+- offset: '0x004183c5'
+  name: 'ES-009 : 0x004183c5'
+  expected: Retira la Carta.
+- offset: '0x004183dd'
+  name: 'ES-009 : 0x004183dd'
+  expected: ¿Dárselo a un Pokémon?
+- offset: '0x00418433'
+  name: 'ES-009 : 0x00418433'
+  expected: Lleva <0xF7><0x00>.
+- offset: '0x00418443'
+  name: 'ES-009 : 0x00418443'
+  expected: Ahora <0xF7><0x00>.
+- offset: '0x00418452'
+  name: 'ES-009 : 0x00418452'
+  expected: ¡No se guardan Cartas!
+- offset: '0x00418468'
+  name: 'ES-009 : 0x00418468'
+  expected: Cancelar
+- offset: '0x0041846f'
+  name: 'ES-009 : 0x0041846f'
+  expected: Dejar
+- offset: '0x00418475'
+  name: 'ES-009 : 0x00418475'
+  expected: Sacar
+- offset: '0x0041847e'
+  name: 'ES-009 : 0x0041847e'
+  expected: Cambiar
+- offset: '0x00418484'
+  name: 'ES-009 : 0x00418484'
+  expected: Mover
+- offset: '0x00418489'
+  name: 'ES-009 : 0x00418489'
+  expected: Colocar
+- offset: '0x0041848f'
+  name: 'ES-009 : 0x0041848f'
+  expected: Datos
+- offset: '0x00418497'
+  name: 'ES-009 : 0x00418497'
+  expected: Liberar
+- offset: '0x0041849f'
+  name: 'ES-009 : 0x0041849f'
+  expected: Marcar
+- offset: '0x004184a4'
+  name: 'ES-009 : 0x004184a4'
+  expected: Nombre

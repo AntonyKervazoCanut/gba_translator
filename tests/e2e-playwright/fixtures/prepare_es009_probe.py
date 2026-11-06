@@ -4,16 +4,14 @@ import json
 from pathlib import Path
 
 
-def prepare(destination: Path, report: Path) -> None:
-    """Compile avec la primitive ELF existante puis pilote chaque surface."""
-    # Même compilation ELF que la sonde précédente, sans réinsertion parallèle.
+def compile_probe(destination: Path, source: Path) -> bytes:
+    """Compile un programme Thumb relogeable pour les sondes RAM natives."""
     import struct
     import subprocess
-    records = json.loads(report.read_text())['records']
     obj = destination / 'probe.o'
     subprocess.run(['clang', '--target=armv4t-none-eabi', '-mthumb', '-Os',
                     '-ffreestanding', '-fno-builtin', '-c',
-                    str(Path(__file__).with_name('es009-formatted-probe.c')),
+                    str(source),
                     '-o', str(obj)], check=True)
     data = obj.read_bytes()
     offset = struct.unpack_from('<I', data, 32)[0]
@@ -30,6 +28,14 @@ def prepare(destination: Path, report: Path) -> None:
             code = data[section[4]:section[4] + section[5]]
     if not code:
         raise ValueError('Code Thumb absent')
+    return code
+
+
+def prepare(destination: Path, report: Path) -> None:
+    """Compile avec la primitive ELF existante puis pilote chaque surface."""
+    # Même compilation ELF que la sonde précédente, sans réinsertion parallèle.
+    records = json.loads(report.read_text())['records']
+    code = compile_probe(destination, Path(__file__).with_name('es009-formatted-probe.c'))
     cases = []
     selected = [(index, record, False) for index, record in enumerate(records)]
     selected += [(index, record, True) for index, record in enumerate(records)
