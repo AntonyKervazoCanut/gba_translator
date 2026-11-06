@@ -560,6 +560,17 @@ class SmartReinserter:
                 encoded = TextEncoder.encode(text, encoding, skip_aliases=self.skip_encode_aliases)
             encoded_len = len(encoded)
 
+            if translation.get('force_relocation', False):
+                # Le contrat opt-in protège des consommateurs intérieurs : même
+                # une traduction courte ne doit jamais écraser leur préimage.
+                source = self._load_raw_bytes(translation.get('english_raw_bytes'))
+                if not source or self._source_snapshot[offset:offset + len(source)] != source:
+                    raise ValueError('Préimage requise pour la relocalisation obligatoire')
+                safe_sites = self._plausible_pointer_sites(offset, pointer_offsets)
+                if not self.allow_relocate or not safe_sites or safe_sites != pointer_offsets:
+                    raise ValueError('Relocalisation obligatoire sans consommateurs sûrs')
+                return self._queue_relocation(encoded, safe_sites, offset)
+
             if original_length is None:
                 original_length = self._infer_original_length(offset, encoding)
 

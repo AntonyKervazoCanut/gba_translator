@@ -13,6 +13,7 @@ class TextAliases:
         self.entries = entries
         self.guards = guards or []
         self.excluded = excluded or set()
+        self.preservation = None
 
     @classmethod
     def load(cls, path: Path, english_rom: bytes) -> TextAliases:
@@ -88,7 +89,11 @@ class TextAliases:
         spans = sorted((e['contract_offset'], e['live_offset'] + len(bytes.fromhex(e['english_raw_hex']))) for e in entries.values())
         if any(end > start for (_, end), (start, _) in zip(spans, spans[1:])):  # noqa: RUF007
             raise ValueError('Overlapping text aliases')
-        return cls({key: entry for key, entry in entries.items() if key not in excluded}, guards, excluded)
+        result = cls({key: entry for key, entry in entries.items() if key not in excluded}, guards, excluded)
+        if data.get('preserved_sources'):
+            from src.core.text_source_preservation import TextSourcePreservation
+            result.preservation = TextSourcePreservation(data['preserved_sources'], result.entries, english_rom)
+        return result
 
     def check_keys(self, keys: set[int]) -> None:
         """Refuse deux traductions revendiquant le même texte, même identiques."""
@@ -192,6 +197,8 @@ class TextAliases:
             ItemDescriptionRoutes.normalize(item)
         if seen != keys & self.entries.keys():
             raise ValueError('Contractual translation dropped during conversion')
+        if self.preservation is not None:
+            self.preservation.enrich(items, keys, self.entries)
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
     def verify(self, rom: bytes, path: Path, combined: dict[int, str]) -> None:
@@ -200,6 +207,8 @@ class TextAliases:
         from src.core.text_codec import SPANISH_GLYPH_CHARS, TextEncoder
 
         ItemDescriptionRoutes.verify_guards(rom, self.guards)
+        if self.preservation is not None:
+            self.preservation.verify(rom, path, combined, self.entries)
         self.check_keys(set(combined))
         required = {key for key in self.entries if combined.get(key)}
         items = json.loads(path.read_text(encoding='utf-8'))['translations']

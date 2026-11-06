@@ -241,6 +241,7 @@ def main() -> int:
         item['offset']
         for item in translations.get('translations', [])
         if isinstance(item.get('offset'), int)
+        and not item.get('force_relocation', False)
     }
     rom = bytearray(args.target.read_bytes())
     english = args.source.read_bytes() if args.source.exists() else None

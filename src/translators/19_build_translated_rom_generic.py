@@ -349,6 +349,7 @@ class TranslatedROMBuilder:
         glyphs = bytes.fromhex(layout['glyph_widths_hex']) if layout and 'glyph_widths_hex' in layout else GLYPH_WIDTHS
         keypad = layout.get('keypad_widths') if layout else None
         widths = [0]
+        paged = bool(layout and layout.get('paged_dialogue'))
         page_lines = 1
         i = 0
         while i < len(raw):
@@ -359,11 +360,14 @@ class TranslatedROMBuilder:
                 break
             if value == 0xFE:
                 page_lines += 1
-                if layout and page_lines > layout.get('max_page_lines', float('inf')):
+                limit = layout['max_lines'] if paged else (layout or {}).get('max_page_lines', float('inf'))
+                if page_lines > limit:
                     raise ValueError('budget de lignes par page dépassé')
                 widths.append(0)
                 i += 1
             elif value == 0xFC:
+                if paged and (i + 2 >= len(raw) or raw[i + 1] != 0x01):
+                    raise ValueError('Commande de dialogue non qualifiée pour cette police')
                 i += 2 + cls.FC_ARG_COUNTS.get(raw[i + 1], 0)
             elif value == 0xF8 and keypad is not None:
                 widths[-1] += keypad[raw[i + 1]]
@@ -372,12 +376,17 @@ class TranslatedROMBuilder:
                 widths[-1] += glyphs[0x100 + raw[i + 1]]
                 i += 2
             elif value in cls.RAW_ARG_PREFIXES:
-                widths[-1] += VARIABLE_WIDTH if value == 0xFD else 12
+                if paged:
+                    if value != 0xFD or str(raw[i + 1]) not in layout.get('buffer_widths', {}):
+                        raise ValueError('Tampon de dialogue non qualifié')
+                    widths[-1] += layout['buffer_widths'][str(raw[i + 1])]
+                else:
+                    widths[-1] += VARIABLE_WIDTH if value == 0xFD else 12
                 i += 1 + cls.RAW_ARG_PREFIXES[value]
             elif value in (0xFA, 0xFB):
-                if not layout or not layout.get('allow_pagination', False):
+                if not paged and (not layout or not layout.get('allow_pagination', False)):
                     raise ValueError('Pagination interdite dans cette fenêtre')
-                page_lines = 1
+                page_lines = 1 if not paged or value == 0xFB else min(page_lines + 1, layout['max_lines'])
                 widths.append(0)
                 i += 1
             else:
@@ -780,7 +789,7 @@ class TranslatedROMBuilder:
                 raise ValueError(f"0x{offset:X}: commandes ou ruptures différentes")
             if item.get('strict_encoded_layout'):
                 widths = self._encoded_layout_widths(encoded, layout)
-                if len(widths) > layout['max_lines'] or max(widths) > layout['max_width']:
+                if (not layout.get('paged_dialogue') and len(widths) > layout['max_lines']) or max(widths) > layout['max_width']:
                     raise ValueError(f"0x{offset:X}: budget de fenêtre encodée dépassé")
             # Les menus opt-in sont mesurés par leurs tables moteur validées,
             # pas par l'estimation de la police dialogue.

@@ -11,7 +11,9 @@ FIXTURE = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es001.json'
 EXTRA = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es003.json').read_text())
 ES011 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es011.json').read_text())
 ES011_PREFIXES = {int(e['live_offset'], 16): bytes.fromhex(e['prefix_hex']) for e in json.loads((ROOT / 'docs/analysis/es/011_ROUTES.json').read_text())['aliases_candidates']}
+ES015 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es015.json').read_text())
 for language in ('english', 'spanish'):
+    FIXTURE[language].extend(ES015[language])
     FIXTURE[language].extend(e for e in ES011[language] if e['offset'] < 0x41D200)
     FIXTURE[language].extend(EXTRA[language])
     FIXTURE[language].extend(json.loads((Path(__file__).parent / 'fixtures/text_aliases/es008.json').read_text())[language])
@@ -19,7 +21,7 @@ for language in ('english', 'spanish'):
 
 
 def rom_fixture():
-    rom = bytearray(0xA00000)
+    rom = bytearray(0x2000000)
     for entry in FIXTURE['english'] + [e for e in ES011['english'] if e['offset'] >= 0x41D200]:
         offset = entry['offset']
         raw = bytes.fromhex(entry['raw_bytes'])
@@ -35,12 +37,16 @@ def rom_fixture():
         offset = int(guard['offset'], 16)
         raw = bytes.fromhex(guard['hex'])
         rom[offset:offset + len(raw)] = raw
+    for part in ES015["slices"]:
+        start = part["offset"]
+        raw = bytes.fromhex(part["hex"])
+        rom[start:start+len(raw)] = raw
     return bytes(rom)
 
 
 def test_real_preimages_resolve_all_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 40
+    assert len(aliases.entries) == 51
     assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
     assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries
@@ -100,7 +106,7 @@ def csv_fixture(tmp_path):
     es.write_text(json.dumps({'texts': FIXTURE['spanish']}))
     mapping = tmp_path / 'map.json'
     mapping.write_text(json.dumps({'offset_map': [{'english_offset': e['offset'], 'spanish_offset': None if e['offset'] == 0x416104 else e['offset'], 'status': 'only_in_english' if e['offset'] == 0x416104 else 'matched'} for e in FIXTURE['english']]}))
-    rom = bytearray(0xA00000)
+    rom = bytearray(0x2000000)
     for entry in FIXTURE['spanish']:
         raw = bytes.fromhex(entry['raw_bytes'])
         rom[entry['offset']:entry['offset'] + len(raw)] = raw

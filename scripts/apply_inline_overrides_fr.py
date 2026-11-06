@@ -517,7 +517,9 @@ def main() -> int:
         aliases = TextAliases.load(args.text_aliases, args.source.read_bytes())
         aliases.check_keys(set(combined_map))
         combined_map = {key: value for key, value in combined_map.items()
-                        if key not in aliases.entries}
+                        if key not in aliases.entries
+                        and (aliases.preservation is None or
+                             key not in aliases.preservation.routes)}
     if not combined_map:
         print('No combined entries found.')
         return 0 if args.allow_empty_translations else 1
