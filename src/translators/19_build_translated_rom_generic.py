@@ -751,7 +751,7 @@ class TranslatedROMBuilder:
             encoded = TextEncoder.encode_pokemon(
                 translation_text, skip_aliases=(SPANISH_GLYPH_CHARS if getattr(getattr(self, 'config', None), 'preserve_spanish_glyphs', False) else GERMAN_UMLAUT_CHARS)
             )
-            if len(encoded) > layout.get('max_bytes', 512):
+            if 'max_bytes' in layout and len(encoded) > layout['max_bytes']:
                 raise ValueError(f"0x{offset:X}: budget en octets dépassé")
             source = bytes.fromhex(english_raw_bytes)
             include_breaks = layout.get('preserve_line_count', True)

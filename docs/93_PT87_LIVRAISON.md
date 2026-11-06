@@ -53,3 +53,13 @@ pas un parcours naturel. Les trois skips préexistants de la suite standard
 rapportés par B-1034 ne sont pas comptés comme réussis. La certification
 PT globale et la release restent réservées à T-848. Aucun push ni pipeline
 distant n'est autorisé par cette livraison.
+
+## Régression trouvée après le rebase final
+
+L'intégration ES-004 ajoutait un plafond implicite de 512 octets à tous les
+contrats `layout`. Le rebuild PT a reproduit un rejet de PT-24 à `0x7A9A75` :
+un dialogue paginé valide dépasse ce total sans déclarer de plafond global.
+Le contrôle respecte désormais `max_bytes` lorsqu'il est explicitement déclaré ;
+les limites de lignes, pixels, commandes et les plafonds ES explicites restent
+actifs. Trois cas de régression couvrent l'absence de plafond, un plafond trop
+petit et un plafond suffisant. Le premier échouait avant la correction.
