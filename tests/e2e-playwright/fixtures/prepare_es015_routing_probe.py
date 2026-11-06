@@ -9,10 +9,10 @@ ALIAS_KEYS = {0x721427, 0x745A54, 0x74BE3C, 0x74ED62, 0x75100E,
               0x75350F, 0x755532, 0x75B4BB, 0x75B6F4}
 
 
-def prepare(destination: Path, report_path: Path, all_records: bool = False) -> None:
+def prepare(destination: Path, report_path: Path, all_records: bool = False, lot: str = "es015") -> None:
     """Prépare les impressions sélectionnées et les observations de tous les lecteurs."""
     records = json.loads(report_path.read_text())['records']
-    aliases = records if all_records else [row for row in records if row['key'] in ALIAS_KEYS]
+    aliases = records if all_records or lot == 'es016' else [row for row in records if row['key'] in ALIAS_KEYS]
     assert all_records or len(aliases) == 9
     obj = destination / 'probe.o'
     subprocess.run(['clang', '--target=armv4t-none-eabi', '-mthumb', '-Os',
@@ -91,5 +91,6 @@ if __name__ == '__main__':
     parser.add_argument('destination', type=Path)
     parser.add_argument('report', type=Path)
     parser.add_argument('--all-records', action='store_true')
+    parser.add_argument('--lot', choices=['es015', 'es016'], default='es015')
     args = parser.parse_args()
-    prepare(args.destination, args.report, args.all_records)
+    prepare(args.destination, args.report, args.all_records, args.lot)

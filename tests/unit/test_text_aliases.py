@@ -15,7 +15,9 @@ ES015 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es015.json').
 ES013 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es013.json').read_text())
 ES013_PREFIXES = {int(e['live_offset'], 16): bytes.fromhex(e['prefix_hex']) for e in ES013['aliases']}
 ES017 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es017.json').read_text())
+ES016 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es016.json').read_text())
 for language in ('english', 'spanish'):
+    FIXTURE[language].extend(e for e in ES016[language] if e['offset'] not in {0x7808DE, 0x780E34, 0x788538, 0x78D43E})
     FIXTURE[language].extend(ES017[language])
     FIXTURE[language].extend(ES013[language])
     FIXTURE[language].extend(ES015[language])
@@ -42,7 +44,7 @@ def rom_fixture():
         offset = int(guard['offset'], 16)
         raw = bytes.fromhex(guard['hex'])
         rom[offset:offset + len(raw)] = raw
-    for part in ES015["slices"] + ES017["slices"]:
+    for part in ES015["slices"] + ES017["slices"] + ES016["slices"]:
         start = part["offset"]
         raw = bytes.fromhex(part["hex"])
         rom[start:start+len(raw)] = raw
@@ -51,7 +53,7 @@ def rom_fixture():
 
 def test_real_preimages_resolve_all_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 96
+    assert len(aliases.entries) == 102
     assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
     assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries
@@ -136,6 +138,7 @@ def test_csv_uses_live_preimages_and_json_keeps_provenance(tmp_path):
     path.write_text(json.dumps({'translations': [{'offset': k, 'translation': ''.join(f'<0x{b:02X}>' for b in bytes.fromhex(aliases.entries[k]['english_raw_hex'])[:-1])} for k in keys]}))
     payload = json.loads(path.read_text())
     next(i for i in payload['translations'] if i['offset'] == 0x41CF13)['translation'] = 'Registro<0xFE>Espera'
+    next(i for i in payload['translations'] if i['offset'] == 0x781278)['translation'] = 'TEST<0xFE>TEST<0xFE>TEST'
     path.write_text(json.dumps(payload))
     payload = json.loads(path.read_text())
     next(i for i in payload['translations'] if i['offset'] == 0x7B3BE9)['translation'] = 'TEST<0xFE>TEST<0xFE>TEST'

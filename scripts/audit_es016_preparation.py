@@ -136,9 +136,19 @@ def probe_routing(root: Path = ROOT, lot_id: str = 'ES-016') -> dict:
     with tempfile.TemporaryDirectory(prefix=f'es{number}-route-') as temporary:
         tmp = Path(temporary)
         combined = tmp / 'combined.txt'
-        combined.write_text(''.join(route['contract_offset'] + ': Z'
-                                    + route['snapshot']['decoded_control_aware'] + '\n'
-                                    for route in chosen))
+        # Une ancienne table ne constitue pas un lecteur moteur : le contrat
+        # final refuse explicitement son import, au lieu d'un faux succès 7/7.
+        from src.core.text_aliases import TextAliases
+        aliases = TextAliases.load(root / 'languages/es-maint/text_aliases.json', driver.ENGLISH_ROM.read_bytes())
+        blocked = [route for route in chosen if int(route['contract_offset'], 16) in aliases.excluded]
+        active = [route for route in chosen if route not in blocked]
+        texts = {}
+        for route in active:
+            raw = bytes.fromhex(route['snapshot']['raw_hex'])
+            texts[route['contract_offset']] = '<0xD4>' + ''.join(f'<0x{b:02X}>' for b in raw[1:-1])
+        if '0x00781278' in texts:
+            texts['0x00781278'] = 'TEST<0xFE>TEST<0xFE>TEST'
+        combined.write_text(''.join(key + ': ' + text + '\n' for key, text in texts.items()))
         config = driver.load_registry().get('es-maint')
         config = replace(config, combined=str(combined), output_rom=str(tmp / 'probe.gba'),
                          text_aliases=str(root / config.text_aliases),
@@ -157,7 +167,8 @@ def probe_routing(root: Path = ROOT, lot_id: str = 'ES-016') -> dict:
             actual = [row for row in rows if row.get('contract_offset', row['offset']) == key]
             entries.append({'contract_offset': route['contract_offset'],
                             'expected_live': route['offset'], 'json_entries': actual,
-                            'resolved_live': any(row['offset'] == live for row in actual)})
+                            'resolved_live': any(row['offset'] == live for row in actual),
+                            'explicitly_blocked': route in blocked})
     return {'status': 'sonde temporaire ; aucune traduction de production', 'entries': entries}
 
 
@@ -165,6 +176,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--lot', default='ES-016', help='Lot exact de lots.json')
     parser.add_argument('--probe-routing', action='store_true')
+    parser.add_argument('--output', type=Path, help='Destination alternative du relevé ou de la sonde')
     args = parser.parse_args()
     number = args.lot.removeprefix('ES-')
     if args.probe_routing:
@@ -180,5 +192,6 @@ if __name__ == '__main__':
             'lot': args.lot,
             'status': 'candidats à certifier, aucune route autorisée par ce relevé',
             'routes': routes}, ensure_ascii=False, indent=2) + '\n')
+    destination = args.output or destination
     destination.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(destination)

@@ -10,13 +10,16 @@ import { fileURLToPath } from 'node:url';
 import { PNG } from 'pngjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
-const keys = [0x721427, 0x745a54, 0x74be3c, 0x74ed62, 0x75100e, 0x75350f, 0x755532, 0x75b4bb, 0x75b6f4];
+const isEs016 = process.env.ES_ROUTING_LOT === 'es016';
+const lot = isEs016 ? 'es016' : 'es015';
+const routeCount = isEs016 ? 9 : 57;
+const keys = isEs016 ? [0x772093,0x7808de,0x781278,0x781668,0x788255,0x788538,0x78c2a8,0x78c2fd,0x78d43e] : [0x721427, 0x745a54, 0x74be3c, 0x74ed62, 0x75100e, 0x75350f, 0x755532, 0x75b4bb, 0x75b6f4];
 interface Entry {
   key: number; live: number; pointers: number[]; expected_hex: string; target: number;
-  layout?: { glyph_widths_hex: string; max_width: number; max_bytes?: number };
+  layout?: { glyph_widths_hex: string; max_width: number; max_bytes?: number; max_lines?: number; paged_dialogue?: boolean };
 }
 
-function decodeContract(raw: Buffer, widths: Buffer, playerWidth: number) {
+function decodeContract(raw: Buffer, widths: Buffer, playerWidth: number, bufferWidth = playerWidth, maxLines = 2) {
   const lines = [0];
   const commands: string[] = [];
   let visibleLines = 1;
@@ -27,12 +30,13 @@ function decodeContract(raw: Buffer, widths: Buffer, playerWidth: number) {
       expect(raw[i+1]).toBe(1);
       commands.push(raw.subarray(i,i+3).toString('hex')); i+=2;
     } else if(value===0xfd) {
-      expect(raw[i+1]).toBe(1);
+      expect([1,2]).toContain(raw[i+1]);
+      const argument = raw[i+1];
       commands.push(raw.subarray(i,i+2).toString('hex')); i++;
-      lines[lines.length-1]+=playerWidth;
+      lines[lines.length-1]+=argument===2 ? bufferWidth : playerWidth;
     } else if(value===0xfe || value===0xfa || value===0xfb) {
       lines.push(0);
-      if(value===0xfe) { visibleLines++; expect(visibleLines).toBeLessThanOrEqual(2); }
+      if(value===0xfe) { visibleLines++; expect(visibleLines).toBeLessThanOrEqual(maxLines); }
       if(value===0xfa) commands.push('fa');
       if(value===0xfb) {commands.push('fb');visibleLines=1;}
     } else {
@@ -43,16 +47,16 @@ function decodeContract(raw: Buffer, widths: Buffer, playerWidth: number) {
   throw new Error('Terminateur absent');
 }
 
-test('ES-015 : 57 routes, neuf alias et métriques moteur après patches', async ({ page }) => {
-  const reportPath=path.join(root,'output/reports/es015-routing-probe.json');
+test('Acheminement ES : routes et métriques moteur après patches', async ({ page }) => {
+  const reportPath=path.join(root,`output/reports/${lot}-routing-probe.json`);
   const report=JSON.parse(fs.readFileSync(reportPath,'utf8')) as {rom: string;records: Entry[]};
-  expect(report.records).toHaveLength(57);
+  expect(report.records).toHaveLength(routeCount);
   const rom=fs.readFileSync(path.resolve(root,report.rom));
   const source=fs.readFileSync(path.join(root,'input/roms/englishrom.gba'));
-  const routes=JSON.parse(fs.readFileSync(path.join(root,'docs/analysis/es/015_ROUTES.json'),'utf8')).routes;
+  const routes=JSON.parse(fs.readFileSync(path.join(root,`docs/analysis/es/${isEs016 ? "016" : "015"}_ROUTES.json`),'utf8')).routes;
   const aliases=report.records.filter(row=>keys.includes(row.key));
   expect(aliases.map(row=>row.key)).toEqual(keys);
-  expect(report.records.filter(row=>[0x721438,0x74bf86].includes(row.key))).toHaveLength(2);
+  expect(report.records.filter(row=>(isEs016 ? [0x7808de,0x788538,0x78d43e] : [0x721438,0x74bf86]).includes(row.key))).toHaveLength(isEs016 ? 3 : 2);
   for(const row of report.records) {
     const expected=Buffer.from(row.expected_hex,'hex');
     expect(row.pointers.length).toBeGreaterThan(0);
@@ -64,21 +68,21 @@ test('ES-015 : 57 routes, neuf alias et métriques moteur après patches', async
     }
   }
   for(const row of aliases) {
-    const route=routes.find((r: {contract_offset:string})=>parseInt(r.contract_offset,16)===row.key);
+    const route=routes.find((r: {contract_offset:string})=>parseInt(r.contract_offset,16)===row.key || parseInt((r as {offset?:string}).offset ?? "0",16)===row.key);
     expect(row.layout).toBeDefined();
     const widths=Buffer.from(row.layout!.glyph_widths_hex,'hex');
     expect(widths).toHaveLength(512);
     const actual=Buffer.from(row.expected_hex,'hex');
     const original=Buffer.from(route.snapshot.raw_hex,'hex');
-    const checked=decodeContract(actual,widths,84);
-    expect(checked.commands).toEqual(decodeContract(original,widths,84).commands);
+    const checked=decodeContract(actual,widths,84,60,row.layout!.max_lines);
+    expect(checked.commands).toEqual(decodeContract(original,widths,84,60,row.layout!.max_lines).commands);
     expect(Math.max(...checked.lines)).toBeLessThanOrEqual(row.layout!.max_width);
     expect(actual.length).toBeLessThanOrEqual(row.layout!.max_bytes ?? 512);
     expect(rom.subarray(row.key,row.live)).toEqual(source.subarray(row.key,row.live));
   }
-  const temp=fs.mkdtempSync(path.join(os.tmpdir(),'f1043-mgba-'));
+  const temp=fs.mkdtempSync(path.join(os.tmpdir(),`f1045-${lot}-mgba-`));
   fs.writeFileSync(path.join(temp,'game.gba'),rom);
-  execFileSync('python3',['tests/e2e-playwright/fixtures/prepare_es015_routing_probe.py',temp,reportPath],{cwd:root});
+  execFileSync('python3',['tests/e2e-playwright/fixtures/prepare_es015_routing_probe.py',temp,reportPath,'--lot',lot],{cwd:root});
   const log=fs.openSync(path.join(temp,'mgba.log'),'w');
   const child=spawn(process.env.MGBA_PATH ?? '/opt/homebrew/opt/mgba/bin/mGBA',[
     '-C','mute=1','-C','videoDriver=1','-C','fpsTarget=240','-C','audioSync=0','-C','videoSync=0',
@@ -113,7 +117,7 @@ test('ES-015 : 57 routes, neuf alias et métriques moteur après patches', async
       expect(render.target).toBe(0x8000000+row.target);
       const metrics=Buffer.from(row.layout!.glyph_widths_hex,'hex');
       // Le vrai StringExpandPlaceholders développe le nom RAM MMMMMMM.
-      const checked=decodeContract(Buffer.from(row.expected_hex,'hex'),metrics,7*metrics[0xc7]);
+      const checked=decodeContract(Buffer.from(row.expected_hex,'hex'),metrics,7*metrics[0xc7],5*metrics[0xc7],row.layout!.max_lines);
       expect(render.widths).toEqual(checked.lines);
       const bytes=fs.readFileSync(path.join(temp,`render-${index}.png`));
       const png=PNG.sync.read(bytes);
@@ -123,13 +127,13 @@ test('ES-015 : 57 routes, neuf alias et métriques moteur après patches', async
       expect(ink,`Rendu natif absent ${row.key.toString(16)}`).toBeGreaterThan(20);
       panels.push(`<figure><figcaption>0x${row.key.toString(16).toUpperCase()} · ${render.widths.length} lignes mesurées</figcaption><img alt="Alias ${row.key.toString(16)} rendu moteur" src="data:image/png;base64,${bytes.toString('base64')}"></figure>`);
     }
-    await page.setContent(`<style>body{background:#152334;color:white;font:16px monospace;margin:20px}main{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}figure{margin:0}img{width:100%;image-rendering:pixelated}figcaption{padding:6px 0}</style><h1>ES-015 · acheminement mécanique</h1><p>57 routes vérifiées · 9 alias · commandes et largeurs natives contrôlées</p><main>${panels.join('')}</main><p>Mire RAM de sentinelles temporaires : sept premières lignes séparées par alias.<br>Qualification linguistique et parcours de jeu réservés à F-865.</p>`);
+    await page.setContent(`<style>body{background:#152334;color:white;font:16px monospace;margin:20px}main{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}figure{margin:0}img{width:100%;image-rendering:pixelated}figcaption{padding:6px 0}</style><h1>${lot.toUpperCase()} · acheminement mécanique</h1><p>${routeCount} routes vérifiées · 9 mires · commandes et largeurs natives contrôlées</p><main>${panels.join('')}</main><p>Mire RAM de sentinelles temporaires : sept premières lignes séparées par alias.<br>Qualification linguistique et parcours de jeu réservés au lot parent.</p>`);
     await expect(page.getByRole('img')).toHaveCount(9);
     for(const img of await page.getByRole('img').all()) {
       await img.evaluate(async(node:HTMLImageElement)=>node.decode());
       await expect(img).toBeVisible();
     }
-    const proof=path.join(os.tmpdir(),'f1043-es015-proof.png');
+    const proof=path.join(os.tmpdir(),`f1045-${lot}-proof.png`);
     expect(fs.readFileSync(path.join(temp,'game.gba'))).toEqual(rom);
     // mGBA crée automatiquement la flash vide ; aucune sauvegarde en jeu.
     for(const name of fs.readdirSync(temp).filter(name=>name.endsWith('.sav'))) {

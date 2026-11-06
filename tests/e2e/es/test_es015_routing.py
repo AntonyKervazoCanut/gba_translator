@@ -29,6 +29,13 @@ def test_es015_real_pipeline_preserves_all_unselected_consumers(tmp_path, monkey
     keys.update(k for k, r in aliases.preservation.routes.items() if r['pointer_offsets'] and k in preserved_keys)
     # Les vrais débuts des neuf alias ne sont pas de nouvelles clés du lot.
     keys.difference_update(int(r['offset'], 16) for r in report['routes'] if not r['in_same_lot'])
+    run_routing_pipeline(keys, tmp_path, monkeypatch, 'es015', 57)
+
+
+def run_routing_pipeline(keys, tmp_path, monkeypatch, name, expected_count):
+    config = load_registry().get('es-maint')
+    source = driver.ENGLISH_ROM.read_bytes()
+    aliases = TextAliases.load(ROOT / config.text_aliases, source)
     sources = list((ROOT/'languages').glob('*/combined_*.txt'))
     sources += list((ROOT/'languages').glob('*/protected_entries.yaml'))
     sources += list((ROOT/'input/roms').glob('*.gba'))
@@ -40,8 +47,11 @@ def test_es015_real_pipeline_preserves_all_unselected_consumers(tmp_path, monkey
         raw = bytes.fromhex(aliases.preservation.routes[live]['english_raw_bytes'])
         # Remplacement d'un glyphe seulement : même longueur, relocation pourtant obligatoire.
         # Les commandes et tous leurs arguments restent les octets EN.
-        raw = bytes([0xD4]) + raw[1:]  # Z, toutes ces préimages commencent par un glyphe.
+        start = 3 if raw.startswith(b'\xfc\x01') else 0
+        raw = raw[:start] + bytes([0xD4]) + raw[start+1:]  # Z : jamais un argument.
         combined[key] = ''.join(f'<0x{v:02X}>' for v in raw[:-1])
+        if key == 0x781278:
+            combined[key] = 'TEST ' + 'i'*25 + '<0xFE>' + 'i'*28 + '<0xFE>' + 'i'*28
     combined_path = tmp_path/'combined.txt'
     combined_path.write_text(''.join(f'0x{k:08X}: {v}\n' for k, v in combined.items()))
     config = replace(config, combined=str(combined_path),
@@ -53,7 +63,7 @@ def test_es015_real_pipeline_preserves_all_unselected_consumers(tmp_path, monkey
         patch.setattr(driver, 'TRANSLATION_DIR', tmp_path/'output/translation')
         ready = driver.generate_translation_json(config)
     items = json.loads(ready.read_text())['translations']
-    assert len(items) == len(keys) == 57
+    assert len(items) == len(keys) == expected_count
     assert all(item['force_relocation'] for item in items)
     output = driver.build_rom(config, ready)
     built = output.read_bytes()
@@ -89,9 +99,9 @@ def test_es015_real_pipeline_preserves_all_unselected_consumers(tmp_path, monkey
     assert {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in sources} == before
     proof_dir = ROOT/'output/reports'
     proof_dir.mkdir(exist_ok=True)
-    proof_rom = ROOT/'output/roms/es015-sentinel.gba'
+    proof_rom = ROOT/f'output/roms/{name}-sentinel.gba'
     shutil.copyfile(output, proof_rom)
-    (proof_dir/'es015-routing-probe.json').write_text(json.dumps({
+    (proof_dir/f'{name}-routing-probe.json').write_text(json.dumps({
         'rom': str(proof_rom), 'records': observations,
         'source_sha256': hashlib.sha256(source).hexdigest(),
         'source_hashes': before}, indent=2)+'\n')

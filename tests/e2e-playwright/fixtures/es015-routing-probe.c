@@ -13,6 +13,9 @@ void run(void) {
     volatile u8 *name = (u8 *)0x202f200;
     for (int i=0;i<7;i++) name[i]=0xc7; /* MMMMMMM : fixture uniquement. */
     name[7]=0xff;
+    /* FD02 : tampon temporaire borné à cinq glyphes, comme sir/madam ES-016. */
+    for (int i=0;i<5;i++) ((volatile u8 *)0x2021cd0)[i]=0xc7;
+    ((volatile u8 *)0x2021cd0)[5]=0xff;
     *(volatile u32 *)0x300500c=(u32)name;
     u8 *text=(u8 *)0x202a000;
     u8 *line=(u8 *)0x202a400;
