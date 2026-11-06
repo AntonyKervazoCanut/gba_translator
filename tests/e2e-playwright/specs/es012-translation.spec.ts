@@ -37,12 +37,14 @@ test(`${process.env.ES_NATIVE_LABEL ?? 'ES-012'} : ${process.env.ES_NATIVE_COUNT
   }
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'es012-native-'));
   fs.writeFileSync(path.join(temp, 'game.gba'), rom);
+  const vocabulary = (process.env.ES_NATIVE_OCR_WORDS ?? '').split(',').filter(Boolean);
   fs.writeFileSync(path.join(temp, 'ocr.swift'), `import Foundation
 import Vision
 let r = VNRecognizeTextRequest()
 r.recognitionLevel = .accurate
 r.recognitionLanguages = ["es-ES", "en-US"]
-r.usesLanguageCorrection = false
+r.usesLanguageCorrection = ${vocabulary.length > 0 ? 'true' : 'false'}
+r.customWords = ${JSON.stringify(vocabulary)}
 try VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([r])
 print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))
 `);
@@ -98,10 +100,49 @@ print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(
       await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
       const large = path.join(directory, 'large.png');
       await page.getByRole('img').screenshot({path: large});
-      const text = normalize(execFileSync(ocr, [large], {encoding: 'utf8'}));
-      console.log(entry.offset, text);
-      for (const line of entry.texte.split('\n')) expect(ocrComparable(text), line).toContain(ocrComparable(line));
-      expect(ocrComparable(text), `ordre des lignes : ${entry.offset}`).toContain(ocrComparable(entry.texte));
+      // L'ombre grise fusionne parfois D/O pour Vision. Analyser une dérivée
+      // recadrée des traits noirs ; les images de preuve restent les PNG natifs.
+      const core = await page.getByRole('img').evaluate((img: HTMLImageElement) => {
+        const raw = document.createElement('canvas');
+        raw.width = img.naturalWidth; raw.height = img.naturalHeight;
+        const ctx = raw.getContext('2d')!;
+        ctx.drawImage(img, 0, 0);
+        const pixels = ctx.getImageData(0, 0, raw.width, raw.height);
+        let left = raw.width, top = raw.height, right = -1, bottom = -1;
+        for (let y = 0; y < raw.height; y++) for (let x = 0; x < raw.width; x++) {
+          const index = (y * raw.width + x) * 4;
+          const ink = pixels.data[index] < 80;
+          if (ink) { left = Math.min(left, x); top = Math.min(top, y);
+            right = Math.max(right, x); bottom = Math.max(bottom, y); }
+          pixels.data[index] = pixels.data[index + 1] = pixels.data[index + 2] = ink ? 0 : 255;
+        }
+        if (right < left) throw new Error('Aucun trait noir natif');
+        ctx.putImageData(pixels, 0, 0);
+        const crop = document.createElement('canvas');
+        crop.width = right - left + 17; crop.height = bottom - top + 17;
+        const cropCtx = crop.getContext('2d')!;
+        cropCtx.fillStyle = 'white'; cropCtx.fillRect(0, 0, crop.width, crop.height);
+        cropCtx.drawImage(raw, left, top, right - left + 1, bottom - top + 1,
+                          8, 8, right - left + 1, bottom - top + 1);
+        const scaled = document.createElement('canvas');
+        scaled.width = crop.width * 6; scaled.height = crop.height * 6;
+        const scaledCtx = scaled.getContext('2d')!;
+        scaledCtx.imageSmoothingQuality = 'high';
+        scaledCtx.drawImage(crop, 0, 0, scaled.width, scaled.height);
+        return scaled.toDataURL('image/png').split(',')[1];
+      });
+      const ocrInput = path.join(directory, 'ocr-core.png');
+      fs.writeFileSync(ocrInput, Buffer.from(core, 'base64'));
+      const readings = [ocrInput, large].map(input =>
+        normalize(execFileSync(ocr, [input], {encoding: 'utf8'})));
+      console.log(entry.offset, readings);
+      for (const line of entry.texte.split('\n')) expect(
+        readings.some(text => ocrComparable(text).includes(ocrComparable(line))), line,
+      ).toBe(true);
+      // Une vue doit reconnaître le paragraphe entier dans l'ordre ; aucune
+      // recomposition de lettres ou mots entre les deux résultats OCR.
+      expect(readings.some(text => ocrComparable(text).includes(ocrComparable(entry.texte))),
+        `ordre des lignes : ${entry.offset}`).toBe(true);
       pictures.push(picture);
     } finally {
       if (child.exitCode === null) child.kill('SIGTERM');

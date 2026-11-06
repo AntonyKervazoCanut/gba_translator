@@ -124,6 +124,7 @@ python3 tests/e2e-playwright/fixtures/prepare_es011_production.py
 ES011_PRODUCTION=1 npx playwright test -c tests/e2e-playwright/es011.config.ts
 ES_NATIVE_REPORT=output/reports/es011-native.json ES_NATIVE_COUNT=244 \
  ES_NATIVE_KEYS=0x41CB63,0x41CC42,0x41CF13,0x41D18D,0x41DF05,0x41DFE6,0x41E0C0,0x41E3A8,0x41EDBD,0x41E823,0x444CB2,0x445D35 \
+ ES_NATIVE_OCR_WORDS=Pokésalto,Oddium,Wanderus \
  ES_NATIVE_LABEL=ES-011 ES_NATIVE_PROOF=f861-es011-proof.png \
  ES_NATIVE_METRICS=output/reports/es011-native-widths.json \
  npx playwright test -c tests/e2e-playwright/es012.config.ts
@@ -132,7 +133,14 @@ ES_NATIVE_REPORT=output/reports/es011-native.json ES_NATIVE_COUNT=244 \
 La seconde sonde réutilise le test ES-012 par paramètres optionnels ; son
 comportement ES-012 par défaut est conservé. Les 244 chaînes sans commandes
 sont lues aux vrais pointeurs et mesurées par GetStringWidth ; douze sont
-imprimées par le moteur et relues par OCR. Le test des alias vérifie leurs 18
+imprimées par le moteur et relues par OCR. L'analyse OCR recadre les traits
+noirs sans l'ombre grise et lit aussi la vue originale ; un résultat doit
+reconnaître le paragraphe entier dans l'ordre, sans recomposer des lettres entre
+les vues. Un lexique OCR explicite couvre Pokésalto et les noms scientifiques EN
+Oddium/Wanderus ; les octets ont leur garde indépendante. Les captures publiées
+restent les PNG natifs intacts.
+La mesure choisit un site de table aligné, tandis que les contrôles binaires
+conservent aussi tous les opérandes de scripts non alignés. Le test des alias vérifie leurs 18
 lecteurs et sept impressions, commandes, préfixes et racines des crédits.
 Les captures suivent les assertions, restent hors dépôt et sont jointes au ticket.
 Aucune sauvegarde en jeu, aucun texte sentinelle dans la production.

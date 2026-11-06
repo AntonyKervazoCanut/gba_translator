@@ -1,5 +1,6 @@
 """ES-011 : sélection fermée, commandes complètes et octets aux lecteurs finaux."""
 import importlib
+import importlib.util
 import json
 import re
 from pathlib import Path
@@ -125,3 +126,27 @@ def test_es011_routes_preserve_every_reviewed_page_without_generic_rewrap():
         normalized = SystemTextRoutes.normalize({'offset': key, 'translation': row['texte'],
             'english_raw_bytes': row['source_hex'][delta * 2:], **metadata})
         assert normalized['translation'] == row['texte'], row['offset']
+
+
+def test_es011_native_views_keep_every_script_reader_and_choose_an_aligned_site(tmp_path, monkeypatch):
+    report = json.loads(REPORT.read_text())
+    contract = tmp_path / 'docs/analysis/es/011_TRAITEMENT.json'
+    contract.parent.mkdir(parents=True)
+    contract.write_text(json.dumps(report))
+    spec = importlib.util.spec_from_file_location('es011_native_views',
+        ROOT / 'tests/e2e-playwright/fixtures/prepare_es011_production.py')
+    assert spec is not None and spec.loader is not None
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    monkeypatch.setattr(module, 'ROOT', tmp_path)
+
+    module.prepare()
+
+    actual = json.loads((tmp_path / 'output/reports/es011-native.json').read_text())['entries']
+    expected = [row for row in report['entries'] if 'texte' in row and not row['commandes_source']]
+    assert [row['offset'] for row in actual] == [row['offset'] for row in expected]
+    assert any(int(row['references'][0], 16) % 4 for row in expected)
+    for before, after in zip(expected, actual):
+        assert sorted(after['references']) == sorted(before['references'])
+        assert int(after['references'][0], 16) % 4 == 0
+        assert dict(after, references=before['references']) == before
