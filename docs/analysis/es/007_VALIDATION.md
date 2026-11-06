@@ -51,6 +51,26 @@ Le contrôle FR est une preuve de cette opération, pas un verrou permanent sur
 les futures corrections françaises autorisées. Les deux ROM sources auditées
 restent, elles, des fixtures immuables.
 
+## Vérification après rebase sur les lots intégrés
+
+Les trois conflits d'append ont été résolus en conservant les blocs déjà intégrés
+et ES-007. Les routes ES-007 sont ajoutées à `entries` ; les nouvelles gardes
+ES-004 demeurent dans `guards`. Aucun corpus n'a été régénéré.
+
+Sur `e0af011d`, après lecture des changements du moteur de routes et des tests
+concurrents : build ES réussi ; `make test-python` donne 10060 réussis, six skips,
+4468 désélectionnés et 96 sous-tests réussis. `make lint` collecte 14534 tests ;
+`tsc --noEmit` passe. Playwright headless passe de nouveau en 3,4 minutes avec
+336 états natifs et dix lectures OCR. Les 332 textes et leurs 364 références
+sont à nouveau contrôlés dans la ROM reconstruite.
+
+Nouvelle ROM ES (les autres lots sont maintenant intégrés) :
+`1f4f6e779586a4c91225f5fcc082e40d74d70407f985515015ba5b5ceada1ba2`.
+Le témoin FR reste `2c2f602edcbb11e07acad7f078991d22bb742c94388e93b0fd8651259e11c863`.
+La capture et le relevé d'injection après rebase sont attachés au ticket, hors
+repository. Le profil ROM ES après rebase donne 403 réussis et dix désélectionnés, sans
+échec (359,99 secondes). Le blocage F-881 est inchangé.
+
 ## Profil ROM global non certifié
 
 Les six langues ont été reconstruites localement. Le profil

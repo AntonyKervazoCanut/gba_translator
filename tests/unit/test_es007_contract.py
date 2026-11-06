@@ -88,3 +88,18 @@ def test_perish_count_fits_a_long_wild_name_without_plural_agreement(count: int)
     assert f'Canto Mortal bajó a {count}!' in text
     assert len(text.splitlines()) == 2
     assert max(line_widths(text)) <= 192
+
+
+def test_live_routes_stay_in_entries_when_concurrent_guards_are_added() -> None:
+    """Les jonctions cumulatives ne doivent pas déplacer nos routes dans guards."""
+    routes = json.loads((ROOT / 'languages/es-maint/system_texts.json').read_text())
+    selected = {int(e['offset'], 16): e for e in REPORT['entries'] if e['decision'] == 'traduit'}
+    # FLATTEN conserve sa route normale ; son occurrence audio n'est pas texte.
+    expected = set(selected) - {0x3ECAB7}
+    actual = {int(e['offset'], 16): e for e in routes['entries'] if int(e['offset'], 16) in selected}
+    assert set(actual) == expected
+    assert len(actual) == 331
+    for offset, route in actual.items():
+        assert route['source_hex'] == selected[offset]['preimage_en_hex']
+        assert route['pointer_offsets'] == [int(p, 16) for p in selected[offset]['pointer_sites']]
+    assert not selected.keys() & {int(e['offset'], 16) for e in routes.get('guards', [])}
