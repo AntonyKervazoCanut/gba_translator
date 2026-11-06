@@ -4,7 +4,7 @@
 
 Dépôt gba_translator, branche unbound, suite de A-665. Les préalables F-691
 (infrastructure) et D-692 (glossaire) sont livrés et intégrés avant traduction.
-HI-LATIN-1 reste la convention ; le glossaire central passe à 1.1.0 avec neuf
+HI-LATIN-1 reste la convention ; le glossaire central passe à 1.2.0 après intégration de HI-02, avec neuf
 termes communs rencontrés ici (Type, evolution, stat, nickname, storage, coin,
 Egg, species, aide). Le nom historique `glossary_v1.json` reste compatible.
 Ces équivalents sont éditoriaux, ancrés dans l'anglais vivant, pas officiels.
@@ -22,16 +22,16 @@ pour chacune des 400 entrées. ROM EN témoin : SHA-256
 
 ## Décisions
 
-355 entrées traduites, 5 conservées et 40 exclues. Les conservations couvrent
+352 entrées traduites, 7 conservées et 41 exclues. Les conservations couvrent
 les panneaux Log Pokemon Research Lab, Valley Cave et Unbound Development Room,
-le format de durée et le cri `Bra!`. La suppression de l'accent de Pokemon suit
+le format de durée et les interjections `Bra!`, `Glub!`, `Aiyeeeeh!`. La suppression de l'accent de Pokemon suit
 le glossaire. Les noms d'espèces, personnages, lieux, objets, attaques et talents
 restent EN à l'intérieur des phrases traduites.
 
 Les exclusions distinguent : 11 débuts décalés d'un octet, 2 extractions non
 textuelles/vides, 2 fragments sans référence, 18 textes sans consommateur vivant
 démontré, 5 correspondances de pointeur dans du bruit binaire, 2 fragments
-malformés réellement appelés. Aucun de ces cas n'est injecté. L'absence de
+malformés réellement appelés et 1 script combat legacy supplanté. Aucun de ces cas n'est injecté. L'absence de
 pointeur direct n'est pas une preuve d'inaccessibilité absolue.
 
 Les fragments 0x192116 et 0x1A5200 ont des `loadpointer` réels à 0x16AA68 et
@@ -43,6 +43,13 @@ Les références `trainerbattle`, `loadpointer`, `message` et le pointeur code d
 la question PC sont distingués des occurrences binaires accidentelles. Aucune
 entrée ne relève d'une cellule fixe déclarée. Les budgets incluent FF ; la
 relocalisation exige la vérification de chaque pointeur après build.
+
+La sonde native de Reflect Type (ID CFRU 654) démontre que 0x028780 est une
+copie legacy : son pointeur 0x02874C appartient au script 0x028720, référencé
+par une ancienne table 0x903BE8. Le chemin actif utilise 0x96804F (via
+0x968037, table effet 0x9A0664) et lit 0x96BE0C via 0x96806E. Cette copie active
+est hors lot : aucun texte à cette adresse n'est ajouté ni modifié. Le test
+combat vérifie son rendu anglais intact et l'absence d'injection legacy.
 
 ## Contrat d'encodage et de rendu
 
@@ -68,7 +75,8 @@ inchangée pour une défaite, un dialogue et la question PC. Elles ne constituen
 pas un parcours intégral des quêtes ni une preuve de toutes les branches.
 
 Le contrat `hi01_preserved_sources.json` active le mécanisme existant de
-relocalisation et de préservation des contrôles pour les 360 entrées. Le
+préservation des contrôles pour les 359 entrées retenues : 354 routes relogées et
+5 textes identiques conservés en place avec gardes binaires. Le
 normaliseur générique aurait autrement reformaté 254 textes. Les sources EN
 restent intactes, les faux pointeurs restent inchangés et seuls les sites
 qualifiés sont repointés ; aucun code partagé n'est modifié.
@@ -78,6 +86,11 @@ qualifiés sont repointés ; aucun code partagé n'est modifié.
 Commandes : `make test-python`, `make build-indie`, tests métier HI-01,
 contrôle ROM vivant puis
 `npx playwright test -c tests/e2e-playwright/playwright.hi01.config.ts`.
+Résultats ciblés après exclusion legacy : 1 284 tests réussis, dont les
+contrôles ROM ; 2 tests Playwright réussis (trois scènes Hindi et garde du
+combat hors lot). Build HI-01 avant intégration HI-02 : 362 entrées avec les trois seeds, 357 réinsérées,
+5 inchangées, 356 relocalisées, zéro fallback, troncature ou échec.
+
 La preuve PNG est créée dans le répertoire temporaire système puis attachée au
 ticket ; elle ne fait pas partie du dépôt. Aucun bundle de release commun,
 push ou pipeline distant n'est produit.

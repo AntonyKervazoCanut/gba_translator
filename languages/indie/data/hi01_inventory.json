@@ -20,15 +20,15 @@
       "source_rom_hex": "FD0FB4E700E8EDE4D900D6D9D7D5E1D9FEE8DCD900E7D5E1D900D5E700FD10B4E7ABFF",
       "source_bytes_with_terminator": 35,
       "category": "combat",
-      "status": "traduit",
-      "reason": "Traduction du texte EN vivant selon HI-LATIN-1.",
+      "status": "exclu",
+      "reason": "Script combat legacy 0x028720 (table 0x903BE8), supplanté : Reflect Type 654 natif atteint 0x96804F via 0x968037 et table effet 0x9A0664 ; texte actif 0x96BE0C via 0x96806E. Sonde headless : message actif anglais, pas cette traduction. Copie active hors lot, aucune injection.",
       "pointers": [
         {
           "site": "0x02874C",
-          "context": "battle_text_pointer",
+          "context": "legacy_battle_script_superseded",
           "context_before_hex": "7D1D08090AFA20C00302",
           "pointer_hex": "80870208",
-          "valid": true
+          "valid": false
         }
       ],
       "fixed_cell_bytes": null,
@@ -42,7 +42,9 @@
         "06": 42,
         "0F": 90,
         "10": 90
-      }
+      },
+      "active_copy_outside_batch": "0x96BE0C",
+      "active_pointer_outside_batch": "0x96806E"
     },
     {
       "offset": "0x172482",
@@ -3549,8 +3551,8 @@
       "source_rom_hex": "C1E0E9D6ABFF",
       "source_bytes_with_terminator": 6,
       "category": "combat",
-      "status": "traduit",
-      "reason": "Traduction du texte EN vivant selon HI-LATIN-1.",
+      "status": "conserve",
+      "reason": "Interjection non lexicale conservée telle quelle ; ne pas compter comme traduction hindi.",
       "pointers": [
         {
           "site": "0x1AB4D5",
@@ -5820,8 +5822,8 @@
       "source_rom_hex": "BBDDEDD9D9D9D9DCABFF",
       "source_bytes_with_terminator": 10,
       "category": "combat",
-      "status": "traduit",
-      "reason": "Traduction du texte EN vivant selon HI-LATIN-1.",
+      "status": "conserve",
+      "reason": "Interjection non lexicale conservée telle quelle ; ne pas compter comme traduction hindi.",
       "pointers": [
         {
           "site": "0x1ABBFB",

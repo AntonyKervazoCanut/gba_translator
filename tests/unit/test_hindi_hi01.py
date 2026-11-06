@@ -21,6 +21,7 @@ DATA = json.loads((ROOT / 'languages/indie/data/hi01_inventory.json').read_text(
 ENTRIES = DATA['entries']
 SNAPSHOT_SHA256 = '65e93f43b9f92f19ba011fb4971aea6f44d9cd419363d7b51d9dbe094235af19'
 SEEDS = {0x1773FD, 0x177489, 0x183509}
+UNCHANGED = {0x183482, 0x1964A8, 0x19A6B1, 0x1878F8, 0x18964D}
 ALPHABET = set("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 .,!?'-():/\n")
 HEX_TOKEN = re.compile(r'<0x([0-9A-F]{2})>')
 FONT_WIDTHS = bytes.fromhex(DATA['font_width_table_hex'])
@@ -103,7 +104,7 @@ def test_inventory_is_exactly_the_400_snapshot_offsets() -> None:
     assert {int(e['offset'], 16): e['source_en'] for e in ENTRIES} == selected
     assert {e['category'] for e in ENTRIES} <= {'dialogue', 'combat', 'interface', 'tables'}
     assert {s: sum(e['status'] == s for e in ENTRIES) for s in ('traduit', 'conserve', 'exclu')} == {
-        'traduit': 355, 'conserve': 5, 'exclu': 40,
+        'traduit': 352, 'conserve': 7, 'exclu': 41,
     }
 
 
@@ -117,6 +118,8 @@ def test_status_matches_last_wins_protection(entry: dict) -> None:
     assert entry['reason']
     if entry['status'] == 'exclu':
         assert offset not in live
+        if offset in manifest:
+            assert manifest[offset].absent is True
         return
     assert offset in live
     assert offset in manifest
@@ -149,6 +152,8 @@ def test_retained_names_and_numeric_format_are_explicit() -> None:
     assert live[0x183482] == 'Valley Cave'
     assert live[0x1964A8] == 'Unbound Development Room'
     assert live[0x19A6B1] == 'Bra!'
+    assert live[0x1878F8] == 'Glub!'
+    assert live[0x18964D] == 'Aiyeeeeh!'
     numeric = next(e for e in ENTRIES if e['offset'] == '0x17CC56')
     assert _encoded(live[0x17CC56]) == bytes.fromhex(numeric['source_rom_hex'])
 
@@ -170,6 +175,8 @@ def test_built_rom_contains_exact_translation_at_every_live_pointer(entry: dict)
             continue
         site = int(pointer['site'], 16)
         target = struct.unpack_from('<I', rom, site)[0] - 0x08000000
+        if int(entry['offset'], 16) in UNCHANGED:
+            assert target == int(entry['offset'], 16), 'Pointeur EN conservé déplacé'
         assert 0 <= target <= len(rom) - len(expected), pointer
         assert rom[target:target + len(expected)] == expected, (entry['offset'], pointer, hex(target))
 
@@ -183,7 +190,7 @@ def test_source_rom_and_font_still_match_inventory() -> None:
     assert hashlib.sha256(source).hexdigest() == DATA['source_rom_sha256']
     aliases = TextAliases.load(ROOT / 'languages/indie/data/hi01_preserved_sources.json', source)
     assert aliases.preservation is not None
-    assert set(aliases.preservation.routes) == {int(e['offset'], 16) for e in ENTRIES if e['status'] != 'exclu'}
+    assert set(aliases.preservation.routes) == {int(e['offset'], 16) for e in ENTRIES if e['status'] != 'exclu'} - UNCHANGED
     font_offset = int(DATA['font_width_table_offset'], 16)
     assert source[font_offset:font_offset + 256] == FONT_WIDTHS
     for entry in ENTRIES:
@@ -196,8 +203,8 @@ def test_source_rom_and_font_still_match_inventory() -> None:
             assert source[site:site + 4].hex().upper() == pointer['pointer_hex']
 
 
-def test_preservation_contract_forces_relocation_of_all_selected_sources(tmp_path: Path) -> None:
-    """Les 360 textes sont relogés sans rewrap ni réécriture des sources partagées."""
+def test_preservation_contract_routes_changes_and_guards_unchanged_sources(tmp_path: Path) -> None:
+    """354 textes sont relogés ; cinq textes identiques et le texte legacy sont gardés."""
     from src.core.text_aliases import TextAliases
     from src.i18n import load_registry
 
@@ -208,11 +215,30 @@ def test_preservation_contract_forces_relocation_of_all_selected_sources(tmp_pat
     inventory = {int(e['offset'], 16): e for e in ENTRIES}
     pairs = {0x192079: (0x192116, 0x16AA68), 0x1A51F6: (0x1A5200, 0x1A6990)}
     selected = {o for o, e in inventory.items() if e['status'] != 'exclu'}
-    assert len(selected) == 360
+    assert len(selected) == 359
+    routed = selected - UNCHANGED
+    assert len(routed) == 354
     assert contract['aliases'] == []
-    assert {int(r['offset'], 16) for r in contract['preserved_sources']} == selected
+    assert {int(r['offset'], 16) for r in contract['preserved_sources']} == routed
     # Reconstitue uniquement les tranches ROM réelles du contrat ; aucune I/O simulée.
-    slices = []
+    expected_guards = {}
+    for offset in UNCHANGED:
+        entry = inventory[offset]
+        assert entry['status'] == 'conserve'
+        assert _encoded(_live()[offset]) == bytes.fromhex(entry['source_rom_hex'])
+        expected_guards[offset] = bytes.fromhex(entry['source_rom_hex'])
+        for pointer in entry['pointers']:
+            if pointer['valid']:
+                expected_guards[int(pointer['site'], 16)] = bytes.fromhex(pointer['pointer_hex'])
+    legacy = inventory[0x028780]
+    assert legacy['status'] == 'exclu'
+    expected_guards[0x028780] = bytes.fromhex(legacy['source_rom_hex'])
+    for pointer in legacy['pointers']:
+        assert pointer['valid'] is False
+        expected_guards[int(pointer['site'], 16)] = bytes.fromhex(pointer['pointer_hex'])
+    assert len(expected_guards) == 16
+    assert {int(g['offset'], 16): bytes.fromhex(g['hex']) for g in contract['guards']} == expected_guards
+    slices = list(expected_guards.items())
     for record in contract['preserved_sources']:
         offset = int(record['offset'], 16)
         assert record['english_raw_hex'] == inventory[offset]['source_rom_hex']
@@ -246,8 +272,11 @@ def test_preservation_contract_forces_relocation_of_all_selected_sources(tmp_pat
     aliases.resolve_json(payload, selected)
 
     assert aliases.preservation is not None
-    assert set(aliases.preservation.routes) == selected
+    assert set(aliases.preservation.routes) == routed
     for item in json.loads(payload.read_text())['translations']:
+        if item['offset'] in UNCHANGED:
+            assert not item.get('force_relocation')
+            continue
         assert item['force_relocation'] is True
         assert item['preserve_control_flow'] is True
         assert item['allow_fallback'] is False
@@ -273,3 +302,27 @@ def test_built_rom_preserves_interior_consumers(parent: int, fragment: int, site
     for pointer in inventory[parent]['pointers']:
         if pointer['valid']:
             assert struct.unpack_from('<I', rom, int(pointer['site'], 16))[0] != 0x08000000 + parent
+
+
+def test_superseded_battle_text_is_explicitly_protected_as_absent() -> None:
+    """La copie legacy ne doit pas réapparaître après la preuve du consommateur natif."""
+    entry = next(e for e in ENTRIES if e['offset'] == '0x028780')
+    assert entry['status'] == 'exclu'
+    assert entry['active_copy_outside_batch'] == '0x96BE0C'
+    assert entry['active_pointer_outside_batch'] == '0x96806E'
+    assert all(not p['valid'] for p in entry['pointers'])
+    assert 0x028780 not in _live()
+    assert _manifest()[0x028780].absent is True
+    assert 0x96BE0C not in {int(e['offset'], 16) for e in ENTRIES}
+
+
+@pytest.mark.rom
+def test_built_rom_preserves_every_guard_including_legacy_battle_text() -> None:
+    """Les 16 gardes texte/pointeur survivent aux patches finaux du build."""
+    rom = _built_rom()
+    contract = json.loads((ROOT / 'languages/indie/data/hi01_preserved_sources.json').read_text())
+    assert len(contract['guards']) == 16
+    for guard in contract['guards']:
+        offset = int(guard['offset'], 16)
+        expected = bytes.fromhex(guard['hex'])
+        assert rom[offset:offset + len(expected)] == expected, guard['offset']

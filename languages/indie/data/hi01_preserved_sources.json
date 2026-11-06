@@ -3,25 +3,6 @@
   "aliases": [],
   "preserved_sources": [
     {
-      "offset": "0x028780",
-      "english_raw_hex": "FD0FB4E700E8EDE4D900D6D9D7D5E1D9FEE8DCD900E7D5E1D900D5E700FD10B4E7ABFF",
-      "pointer_offsets": [
-        "0x02874C"
-      ],
-      "direct_references": [
-        {
-          "target": "0x028780",
-          "offset": "0x02874C",
-          "context_start": "0x00028742",
-          "context_hex": "7d1d08090afa20c003028087020810840112",
-          "qualification": "battle_text_pointer",
-          "selected_key": true
-        }
-      ],
-      "interior_references": [],
-      "selected_interior_keys": []
-    },
-    {
       "offset": "0x172482",
       "english_raw_hex": "C300E1DDDBDCE800D6D900E0DDE8E8E0D9B800D6E9E800C300EBE3E2B4E800E0DDDFD9FEDDE800DDDA00EDE3E900DBE300D9D5E7ED00E3E200E1D9ABFF",
       "pointer_offsets": [
@@ -710,25 +691,6 @@
           "context_hex": "d2200f21ef1101f3881100031808bb818888",
           "qualification": "binary_match_unproven",
           "selected_key": false
-        }
-      ],
-      "interior_references": [],
-      "selected_interior_keys": []
-    },
-    {
-      "offset": "0x183482",
-      "english_raw_hex": "D0D5E0E0D9ED00BDD5EAD9FF",
-      "pointer_offsets": [
-        "0x167F70"
-      ],
-      "direct_references": [
-        {
-          "target": "0x183482",
-          "offset": "0x167F70",
-          "context_start": "0x00167F66",
-          "context_hex": "ffffffffffffffff0f0082341808090302ff",
-          "qualification": "loadpointer",
-          "selected_key": true
         }
       ],
       "interior_references": [],
@@ -2479,34 +2441,6 @@
       "selected_interior_keys": []
     },
     {
-      "offset": "0x1878F8",
-      "english_raw_hex": "C1E0E9D6ABFF",
-      "pointer_offsets": [
-        "0x1AB4D5",
-        "0x1AB4FC"
-      ],
-      "direct_references": [
-        {
-          "target": "0x1878F8",
-          "offset": "0x1AB4D5",
-          "context_start": "0x001AB4CB",
-          "context_hex": "5c00ec000000dd781808f8781808260d8039",
-          "qualification": "trainerbattle",
-          "selected_key": true
-        },
-        {
-          "target": "0x1878F8",
-          "offset": "0x1AB4FC",
-          "context_start": "0x001AB4F2",
-          "context_hex": "5c05ec000000dd781808f87818080f00fe78",
-          "qualification": "trainerbattle",
-          "selected_key": true
-        }
-      ],
-      "interior_references": [],
-      "selected_interior_keys": []
-    },
-    {
       "offset": "0x1878FE",
       "english_raw_hex": "C300E7D9D900CEDCD900CCE9DDE2E700E3DA00D0E3DDD800E3EAD9E6FEEDE3E2D8D9E6ABFF",
       "pointer_offsets": [
@@ -4185,34 +4119,6 @@
           "offset": "0x1ABC1E",
           "context_start": "0x001ABC14",
           "context_hex": "080906025c05140100001f9618084d961808",
-          "qualification": "trainerbattle",
-          "selected_key": true
-        }
-      ],
-      "interior_references": [],
-      "selected_interior_keys": []
-    },
-    {
-      "offset": "0x18964D",
-      "english_raw_hex": "BBDDEDD9D9D9D9DCABFF",
-      "pointer_offsets": [
-        "0x1ABBFB",
-        "0x1ABC22"
-      ],
-      "direct_references": [
-        {
-          "target": "0x18964D",
-          "offset": "0x1ABBFB",
-          "context_start": "0x001ABBF1",
-          "context_hex": "5c0d140100001f9618084d961808260d8039",
-          "qualification": "trainerbattle",
-          "selected_key": true
-        },
-        {
-          "target": "0x18964D",
-          "offset": "0x1ABC22",
-          "context_start": "0x001ABC18",
-          "context_hex": "5c05140100001f9618084d9618080f005796",
           "qualification": "trainerbattle",
           "selected_key": true
         }
@@ -5986,25 +5892,6 @@
       "selected_interior_keys": []
     },
     {
-      "offset": "0x1964A8",
-      "english_raw_hex": "CFE2D6E3E9E2D800BED9EAD9E0E3E4E1D9E2E800CCE3E3E1FF",
-      "pointer_offsets": [
-        "0x16C437"
-      ],
-      "direct_references": [
-        {
-          "target": "0x1964A8",
-          "offset": "0x16C437",
-          "context_start": "0x0016C42D",
-          "context_hex": "1a08250801276c020f00a8641908090302ff",
-          "qualification": "loadpointer",
-          "selected_key": true
-        }
-      ],
-      "interior_references": [],
-      "selected_interior_keys": []
-    },
-    {
       "offset": "0x196984",
       "english_raw_hex": "D1D9E0D7E3E1D900E8E300BED9DCD5E6D500C1D5E1D900BDE3E6E2D9E6ABFBBEE300EDE3E900E2D9D9D800E7E3E1D900DBD5E1D900D7E3DDE2E7ACFED1E3E9E0D800EDE3E900E0DDDFD900E8E300D6E9ED00E7E3E1D9ACFF",
       "pointer_offsets": [
@@ -7228,43 +7115,6 @@
           "context_start": "0x007C3834",
           "context_hex": "ff0000000002ff5a0f00bea519080905210d",
           "qualification": "loadpointer",
-          "selected_key": true
-        }
-      ],
-      "interior_references": [],
-      "selected_interior_keys": []
-    },
-    {
-      "offset": "0x19A6B1",
-      "english_raw_hex": "BCE6D5ABFF",
-      "pointer_offsets": [
-        "0x7C386F",
-        "0x7C5462",
-        "0x7C550E"
-      ],
-      "direct_references": [
-        {
-          "target": "0x19A6B1",
-          "offset": "0x7C386F",
-          "context_start": "0x007C3865",
-          "context_hex": "0002ffa13f0000000f00b1a619080902c54f",
-          "qualification": "loadpointer",
-          "selected_key": true
-        },
-        {
-          "target": "0x19A6B1",
-          "offset": "0x7C5462",
-          "context_start": "0x007C5458",
-          "context_hex": "086cc700a13f00000067b1a6190866c5689f",
-          "qualification": "message",
-          "selected_key": true
-        },
-        {
-          "target": "0x19A6B1",
-          "offset": "0x7C550E",
-          "context_start": "0x007C5504",
-          "context_hex": "086cc700a13f00000067b1a6190866c5683d",
-          "qualification": "message",
           "selected_key": true
         }
       ],
@@ -8931,6 +8781,72 @@
       ],
       "interior_references": [],
       "selected_interior_keys": []
+    }
+  ],
+  "guards": [
+    {
+      "offset": "0x183482",
+      "hex": "D0D5E0E0D9ED00BDD5EAD9FF"
+    },
+    {
+      "offset": "0x167F70",
+      "hex": "82341808"
+    },
+    {
+      "offset": "0x1878F8",
+      "hex": "C1E0E9D6ABFF"
+    },
+    {
+      "offset": "0x1AB4D5",
+      "hex": "f8781808"
+    },
+    {
+      "offset": "0x1AB4FC",
+      "hex": "f8781808"
+    },
+    {
+      "offset": "0x18964D",
+      "hex": "BBDDEDD9D9D9D9DCABFF"
+    },
+    {
+      "offset": "0x1ABBFB",
+      "hex": "4d961808"
+    },
+    {
+      "offset": "0x1ABC22",
+      "hex": "4d961808"
+    },
+    {
+      "offset": "0x1964A8",
+      "hex": "CFE2D6E3E9E2D800BED9EAD9E0E3E4E1D9E2E800CCE3E3E1FF"
+    },
+    {
+      "offset": "0x16C437",
+      "hex": "a8641908"
+    },
+    {
+      "offset": "0x19A6B1",
+      "hex": "BCE6D5ABFF"
+    },
+    {
+      "offset": "0x7C386F",
+      "hex": "b1a61908"
+    },
+    {
+      "offset": "0x7C5462",
+      "hex": "b1a61908"
+    },
+    {
+      "offset": "0x7C550E",
+      "hex": "b1a61908"
+    },
+    {
+      "offset": "0x028780",
+      "hex": "FD0FB4E700E8EDE4D900D6D9D7D5E1D9FEE8DCD900E7D5E1D900D5E700FD10B4E7ABFF"
+    },
+    {
+      "offset": "0x02874C",
+      "hex": "80870208"
     }
   ]
 }

@@ -1,5 +1,5 @@
-/** HI-01 : Reflect Type dans un vrai combat, buffers FD0F/FD10 du moteur.
- * La copie privée donne l'effet Reflect Type à Metal Claw pour réutiliser la
+/** HI-01 : garde d'exclusion du script Reflect Type historique supplanté.
+ * La sonde donne Reflect Type au premier Pokémon en RAM pour réutiliser la
  * sauvegarde de test. Aucun texte ni tampon de nom n'est injecté par la sonde.
  */
 import { test, expect } from '@playwright/test';
@@ -13,7 +13,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.
 const normalize = (text: string): string => text.normalize('NFD').replace(/\p{M}/gu, '')
   .replace(/\s+/g, ' ').trim();
 
-test('HI-01 : Reflect Type affiche les noms natifs et le changement de type en hindi', async ({ page }) => {
+test('HI-01 : Reflect Type conserve sa copie active EN hors lot et exclut la copie historique', async ({ page }) => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'hi01-battle-'));
   const original = fs.readFileSync(process.env.ROM_PATH ?? path.join(root, 'output/roms/GenedRom-indie.gba'));
   const values = new Map<number, string>();
@@ -21,24 +21,28 @@ test('HI-01 : Reflect Type affiche les noms natifs et le changement de type en h
     const match = /^0x([\da-f]+):\s*(.*)$/i.exec(line);
     if (match) values.set(parseInt(match[1], 16), match[2]);
   }
-  const translation = values.get(0x028780);
-  expect(translation).toBe('<0xFD><0x0F> kaa prakaar ab\\n<0xFD><0x10> jaisaa ho gayaa!');
+  expect(values.has(0x028780), 'Copie historique exclue du lot HI-01').toBe(false);
+  const source = fs.readFileSync(path.join(root, 'input/roms/englishrom.gba'));
   const expected = execFileSync('python3', ['-c',
     'from src.core.text_codec import TextEncoder; import sys; sys.stdout.buffer.write(TextEncoder.encode_pokemon(sys.argv[1].replace(chr(92)+"n",chr(10)),strict=True))',
-    translation!], { cwd: root });
-  const target = original.readUInt32LE(0x02874c) - 0x08000000;
-  expect(target).toBeGreaterThan(0);
-  expect(target + expected.length).toBeLessThanOrEqual(original.length);
-  expect(original.subarray(target, target + expected.length), 'Pointeur consommé par le script Reflect Type').toEqual(expected);
+    "<0xFD><0x0F>'s type became\\nthe same as <0xFD><0x10>'s!"], { cwd: root });
+  for (const [offset, site] of [[0x028780, 0x02874c], [0x96be0c, 0x96806e]]) {
+    expect(source.readUInt32LE(site)).toBe(offset + 0x08000000);
+    expect(original.readUInt32LE(site), 'Pointeur EN inchangé').toBe(source.readUInt32LE(site));
+    expect(source.subarray(offset, offset + expected.length)).toEqual(expected);
+    expect(original.subarray(offset, offset + expected.length), 'Texte EN inchangé').toEqual(expected);
+  }
 
   const rom = Buffer.from(original);
   const moves = rom.readUInt32LE(0x1cc) - 0x08000000;
   const metalClaw = moves + 232 * 12;
-  const reflectType = moves + 513 * 12;
+  // CFRU utilise ici l'identifiant 654 (513 désigne Defend Order).
+  const reflectType = moves + 654 * 12;
+  const names = rom.readUInt32LE(0x308a4) - 0x08000000;
+  expect(rom.subarray(names + 654 * 13, names + 655 * 13)).toEqual(Buffer.from('ccd9dae0d9d7e800ceede4d9ff', 'hex'));
   // Vérification de la version et des structures avant modification du scénario.
   expect(rom.subarray(metalClaw, metalClaw + 12)).toEqual(Buffer.from('8b32085f230a000013640000', 'hex'));
-  expect(rom.subarray(reflectType, reflectType + 12)).toEqual(Buffer.from('ce0006000a00100008000209', 'hex'));
-  rom.set(rom.subarray(reflectType, reflectType + 12), metalClaw);
+  expect(rom.subarray(reflectType, reflectType + 12)).toEqual(Buffer.from('1e0000000f0000000200020b', 'hex'));
   const script = rom.lastIndexOf(Buffer.alloc(128, 255));
   expect(script).toBeGreaterThan(0x1000000);
   // Rattata sauvage niveau 5 ; le Griknot de la fixture lance la capacité.
@@ -59,6 +63,15 @@ callbacks:add('frame', function()
  if f==2020 then
   local s=io.open(${JSON.stringify(status)},'w'); s:write(tostring(emu:read8(0x03000EA8))); s:close()
   assert(emu:read8(0x03000EA8)==2, 'Script actif avant sonde')
+  -- CFRU conserve les sous-structures de l'équipe déchiffrées en RAM.
+  -- Modifier l'identifiant est nécessaire : l'effet Conversion est partagé,
+  -- puis le moteur choisit la branche Reflect Type selon le mouvement 654.
+  local party=0x02024284
+  assert(emu:read16(party+0x2C)==232, 'Premier mouvement fixture inattendu')
+  emu:write16(party+0x2C,654); emu:write8(party+0x34,15)
+  local checksum=0
+  for address=party+0x20,party+0x4E,2 do checksum=(checksum+emu:read16(address))%65536 end
+  emu:write16(party+0x1C,checksum)
   emu:write8(0x03000EA8,0); emu:write8(0x03000EB1,1)
   emu:write32(0x03000EB8,${script + 0x08000000})
  end
@@ -112,23 +125,23 @@ print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(
   const observations: string[] = [];
   for (const frame of frames) {
     const data = fs.readFileSync(path.join(temp, `battle-${frame}.png`)).toString('base64');
-    await page.setContent(`<style>body{margin:0}img{width:1440px;height:960px;image-rendering:pixelated}</style><img alt="Combat Reflect Type HI-01" src="data:image/png;base64,${data}">`);
+    await page.setContent(`<style>body{margin:0}img{width:1440px;height:960px;image-rendering:pixelated}</style><img alt="Reflect Type hors lot, anglais conservé" src="data:image/png;base64,${data}">`);
     await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
     const readable = path.join(temp, 'readable.png');
     await page.getByRole('img').screenshot({ path: readable });
     const text = normalize(execFileSync(ocr, [readable], { encoding: 'utf8', timeout: 60_000 }));
     observations.push(`${frame}: ${text}`);
     // Deux noms réellement résolus par les buffers de combat, dans leur ordre.
-    if (/Griknot kaa prakaar ab/i.test(text) && /Rattata jaisaa ho gayaa/i.test(text)) {
-      expect(text).not.toMatch(/type became|the same as/);
-      expect(text.indexOf('Griknot kaa')).toBeLessThan(text.indexOf('Rattata jaisaa'));
+    if (/Griknot's type became/i.test(text) && /the same as the wild Rattata's!/i.test(text)) {
+      expect(text).not.toMatch(/prakaar|jaisaa|gayaa/i);
+      expect(text.indexOf("Griknot's type became")).toBeLessThan(text.indexOf("the same as the wild Rattata's!"));
       found = data;
       break;
     }
   }
   console.log(`Sonde : ${temp}\n${observations.join('\n')}`);
-  expect(found, `Le combat doit rendre les deux lignes hindi : ${observations.join('\n')}`).toBeTruthy();
-  await page.setContent(`<style>body{margin:0;background:#222;color:white;font:18px sans-serif}figure{margin:12px;width:max-content}img{width:960px;height:640px;image-rendering:pixelated}figcaption{padding:8px}</style><figure><figcaption>HI-01 — 0x028780 — Reflect Type, buffers natifs en combat</figcaption><img alt="Combat HI-01 vérifié" src="data:image/png;base64,${found}"></figure>`);
+  expect(found, `Le combat doit rendre la copie active EN hors lot : ${observations.join('\n')}`).toBeTruthy();
+  await page.setContent(`<style>body{margin:0;background:#222;color:white;font:18px sans-serif}figure{margin:12px;width:max-content}img{width:960px;height:640px;image-rendering:pixelated}figcaption{padding:8px}</style><figure><figcaption>HI-01 — 0x028780 exclu : script historique supplanté<br>Reflect Type réel : copie active 0x96BE0C hors lot, anglais conservé</figcaption><img alt="Exclusion HI-01 vérifiée en combat natif" src="data:image/png;base64,${found}"></figure>`);
   await expect(page.getByRole('img')).toBeVisible();
   await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
   const proof = path.join(os.tmpdir(), 'f693-hi01-battle.png');

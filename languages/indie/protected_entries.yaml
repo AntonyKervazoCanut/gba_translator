@@ -873,9 +873,9 @@ entries:
     name: HI-02 0x23e635
     expected: "Guitarvaalaa"
   - offset: "0x028780"
-    name: "HI-01 0x028780"
+    name: "HI-01 script Reflect Type legacy, copie active hors lot"
     issue: "F-693"
-    expected: "<0xFD><0x0F> kaa prakaar ab\\n<0xFD><0x10> jaisaa ho gayaa!"
+    absent: true
   - offset: "0x172482"
     name: "HI-01 0x172482"
     issue: "F-693"
