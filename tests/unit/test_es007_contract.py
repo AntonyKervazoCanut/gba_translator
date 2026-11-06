@@ -58,6 +58,11 @@ def test_community_damage_is_corrected_and_exp_boost_stays_composable() -> None:
     assert 'maximiz' in values[0x3FC140]
     assert values[0x3FB283] == '<0x00>un extra de'
     assert 'Mov. Espejo' in values[0x3FCE38]
+    assert 'Canto Mortal' in values[0x3FC0EE]
+    assert 'debilidad' not in values[0x3FC0EE]
+    for offset in (0x3FC483, 0x3FC4AB):
+        assert 'Rabia' in values[offset]
+        assert 'Rencor' not in values[offset]
 
 
 @pytest.mark.parametrize('template,verb', [(0x3FCB5F, 'subió'), (0x3FCB6A, 'subió'),

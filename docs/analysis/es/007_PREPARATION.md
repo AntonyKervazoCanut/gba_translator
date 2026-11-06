@@ -71,3 +71,34 @@ une copie temporaire et l'imprimante native mGBA offscreen. Les FD combat sont
 développés seulement dans cette copie. Ses captures et OCR ne certifient pas le
 déclenchement naturel en combat ni les fenêtres natives Easy Chat/carte.
 Les résultats d'exécution seront consignés après validation. La certification complète de la langue reste réservée à T-914.
+
+
+## Relecture sémantique et validation intermédiaire
+
+La relecture finale distingue Rabia (Grudge : tous les PP perdus) de Rencor
+(Spite : retrait partiel de PP), et nomme le compteur de Canto Mortal. Les trois
+valeurs corrigées et leurs protections exactes sont couvertes par la garde
+unitaire. Référence primaire : [guide Nintendo Platino, mouvements](https://www.guiasnintendo.com/0_NINTENDO_DS/Pokemon_platino/Pokemon_platino_sp/ataques.html).
+La ligne du compteur reste sous 192 px avec les deux buffers élargis à dix W.
+
+Avant cette dernière correction lexicale, les 332 traductions avaient été
+vérifiées à leurs 364 pointeurs ; les 336 états natifs (332 textes et quatre
+compositions) et dix OCR avaient passé Playwright. La ROM FR conservait le
+témoin ci-dessus. `make test-python` a donné 9673 réussis, six skips préexistants,
+zéro échec ; TypeScript et les 416 gardes ciblées passent. Les nouveaux termes
+font l'objet d'un nouveau build et d'une nouvelle preuve, à consigner au ticket.
+
+Le profil ROM local sur les six reconstructions fraîches
+(`make -o materialize-test-roms test-rom`) a donné 4158 réussis, 51 skips et douze
+échecs hors ES-007. Ils concernent PT-04/22/48/57/69/72, la réplique du rival DE,
+les gardes F-601 et dialogues-09 DE, et la garde de hash historique FR Corps Gel.
+Aucun de ces fichiers de données ou mécanismes n'est modifié dans ES-007 ; les
+attendus ne sont pas neutralisés. La certification globale n'est pas revendiquée.
+Les résultats complets sont conservés dans les pièces jointes du ticket.
+
+**Prérequis de clôture F-881 / ES-031 :** traduire les deux intensificateurs
+0xA4C603 et 0xA4C610 avec un séparateur initial compatible, puis vérifier les
+phrases complètes à ±3, ±6 et les effets doublés. Les formes actuelles produisent
+encore une jonction hybride à ces degrés. Le lot ES-007 reste en attente de ce
+prérequis après livraison et vérification du travail indépendant ; aucun nouvel
+offset n'est pris à ES-031 et aucun patch moteur n'est introduit ici.

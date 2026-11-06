@@ -5296,7 +5296,7 @@ entries:
   expected: ¡<0xFD><0x0F> identificó\na <0xFD><0x10>!
 - offset: '0x003fc0ee'
   name: 'ES-007 : 0x003fc0ee'
-  expected: '¡<0xFD><0x0F>: el contador\nde debilidad bajó a <0xFD><0x00>!'
+  expected: '¡<0xFD><0x0F>: la cuenta de\nCanto Mortal bajó a <0xFD><0x00>!'
 - offset: '0x003fc10c'
   name: 'ES-007 : 0x003fc10c'
   expected: ¡<0xFD><0x0F>\nse preparó!
@@ -5401,10 +5401,10 @@ entries:
   expected: ¡<0xFD><0x0F> selló\nlos movimientos del rival!
 - offset: '0x003fc483'
   name: 'ES-007 : 0x003fc483'
-  expected: ¡<0xFD><0x0F> quiere que\nsu rival guarde Rencor!
+  expected: ¡<0xFD><0x0F> quiere que\nsu rival sienta Rabia!
 - offset: '0x003fc4ab'
   name: 'ES-007 : 0x003fc4ab'
-  expected: '¡<0xFD><0x0F>: <0xFD><0x00> perdió\ntodos sus PP por Rencor!'
+  expected: '¡<0xFD><0x0F>: <0xFD><0x00> perdió\ntodos sus PP por Rabia!'
 - offset: '0x003fc4d6'
   name: 'ES-007 : 0x003fc4d6'
   expected: ¡<0xFD><0x0F> se cubrió\ncon <0xFD><0x14>!

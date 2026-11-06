@@ -67,6 +67,8 @@ test('chaque traduction ES-007 est injectée et imprimable par le moteur natif',
   // Composition conforme au constructeur prouvé : intensité puis suffixe.
   // Les octets des neuf composants ont été vérifiés ci-dessus dans la ROM.
   const component = (offset: number) => Buffer.from(entries.find(e => Number(e.offset) === offset)!.expected_hex, 'hex');
+  expect(component(0x3fcb5f).includes(Buffer.from('e7e9d6dd23', 'hex'))).toBe(true); // subió, ó=23
+  expect(component(0x3fcb8f).includes(Buffer.from('d6d5de23', 'hex'))).toBe(true); // bajó
   for (const [template, strong] of [[0x3fcb5f, false], [0x3fcb5f, true], [0x3fcb8f, false], [0x3fcb8f, true]] as const) {
     const up = template === 0x3fcb5f;
     const modifier = strong ? component(up ? 0x3fcb41 : 0x3fcb50).subarray(0, -1).toString('hex') : '';
@@ -149,10 +151,13 @@ end)
   expect(hash(fs.readFileSync(savePath))).toBe(fixtureHash);
   const samples: [number, RegExp][] = [
     [0x3ecaa4, /DESTINO/i], [0x3eed08, /Pueblo Bellin/i],
-    [0x3eef12, /Liga Pok.mon/i], [0x3fb70f, /par.lisis/i],
-    [0x3fcc74, /supereficaz/i], [0x3fcdb3, /huir/i],
-    [-1, /subi[oó]!/i], [-2, /subi[oó] mucho!/i],
-    [-3, /baj[oó]!/i], [-4, /baj[oó] mucho!/i],
+    [0x3fc0ee, /Canto Mortal/i], [0x3fc483, /rival sienta Rabia/i],
+    [0x3fcc74, /supereficaz/i], [0x3fc4ab, /PP por Rabia/i],
+    // Vision confond ó avec á/ã/ô dans les mots très courts de cette police.
+    // Le codepoint exact 23 et le mot complet sont contrôlés ci-dessus en ROM ;
+    // l'OCR contrôle ici la phrase, sa direction et la présence de l'intensité.
+    [-1, /Pikachu:\s*Ataque\s+subi[oóáã]!/i], [-2, /Pikachu:\s*Ataque\s+subi[oó] mucho!/i],
+    [-3, /Pikachu:\s*Ataque\s+baj[oóô]!/i], [-4, /Pikachu:\s*Ataque\s+baj[oóô] mucho!/i],
   ];
   const swift = path.join(temp, 'ocr.swift');
   fs.writeFileSync(swift, `import Foundation\nimport Vision\nlet request = VNRecognizeTextRequest()\nrequest.recognitionLevel = .accurate\nrequest.recognitionLanguages = ["es-ES", "en-US"]\nrequest.usesLanguageCorrection = false\ntry VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([request])\nprint((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))\n`);

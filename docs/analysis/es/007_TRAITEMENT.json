@@ -10072,8 +10072,8 @@
       "decision": "traduit",
       "provenance": "traduction ou correction depuis EN vivant",
       "justification": "Texte EN reconstruit et contrôles complets conservés ; traduction es-ES selon D-849. Injection à vérifier dans la ROM finale.",
-      "final_text": "¡<0xFD><0x0F>: el contador\\nde debilidad bajó a <0xFD><0x00>!",
-      "expected_hex": "52fd0ff000d9e000d7e3e2e8d5d8e3e6fed8d900d8d9d6dde0ddd8d5d800d6d5de2300d500fd00abff",
+      "final_text": "¡<0xFD><0x0F>: la cuenta de\\nCanto Mortal bajó a <0xFD><0x00>!",
+      "expected_hex": "52fd0ff000e0d500d7e9d9e2e8d500d8d9febdd5e2e8e300c7e3e6e8d5e000d6d5de2300d500fd00abff",
       "source_commands": [
         [
           253,
@@ -10094,9 +10094,9 @@
           0
         ]
       ],
-      "octets_avec_ff": 41,
+      "octets_avec_ff": 42,
       "largeurs_px": [
-        133,
+        140,
         175
       ]
     },
@@ -11858,8 +11858,8 @@
       "decision": "traduit",
       "provenance": "traduction ou correction depuis EN vivant",
       "justification": "Texte EN reconstruit et contrôles complets conservés ; traduction es-ES selon D-849. Injection à vérifier dans la ROM finale.",
-      "final_text": "¡<0xFD><0x0F> quiere que\\nsu rival guarde Rencor!",
-      "expected_hex": "52fd0f00e5e9ddd9e6d900e5e9d9fee7e900e6ddead5e000dbe9d5e6d8d900ccd9e2d7e3e6abff",
+      "final_text": "¡<0xFD><0x0F> quiere que\\nsu rival sienta Rabia!",
+      "expected_hex": "52fd0f00e5e9ddd9e6d900e5e9d9fee7e900e6ddead5e000e7ddd9e2e8d500ccd5d6ddd5abff",
       "source_commands": [
         [
           253,
@@ -11872,10 +11872,10 @@
           15
         ]
       ],
-      "octets_avec_ff": 39,
+      "octets_avec_ff": 38,
       "largeurs_px": [
         123,
-        130
+        120
       ]
     },
     {
@@ -11905,8 +11905,8 @@
       "decision": "traduit",
       "provenance": "traduction ou correction depuis EN vivant",
       "justification": "Texte EN reconstruit et contrôles complets conservés ; traduction es-ES selon D-849. Injection à vérifier dans la ROM finale.",
-      "final_text": "¡<0xFD><0x0F>: <0xFD><0x00> perdió\\ntodos sus PP por Rencor!",
-      "expected_hex": "52fd0ff000fd0000e4d9e6d8dd23fee8e3d8e3e700e7e9e700caca00e4e3e600ccd9e2d7e3e6abff",
+      "final_text": "¡<0xFD><0x0F>: <0xFD><0x00> perdió\\ntodos sus PP por Rabia!",
+      "expected_hex": "52fd0ff000fd0000e4d9e6d8dd23fee8e3d8e3e700e7e9e700caca00e4e3e600ccd5d6ddd5abff",
       "source_commands": [
         [
           253,
@@ -11927,10 +11927,10 @@
           0
         ]
       ],
-      "octets_avec_ff": 40,
+      "octets_avec_ff": 39,
       "largeurs_px": [
         164,
-        137
+        131
       ]
     },
     {
@@ -16830,5 +16830,13 @@
         99
       ]
     }
-  ]
+  ],
+  "blocking_prerequisite": {
+    "ticket": "F-881",
+    "offsets": [
+      "0x00A4C603",
+      "0x00A4C610"
+    ],
+    "reason": "Intensificateurs ±3 et plus à rendre compatibles avec les neuf gabarits/suffixes ES-007 ; espaces initiaux nécessaires. Ne pas clôturer avant cette validation."
+  }
 }
