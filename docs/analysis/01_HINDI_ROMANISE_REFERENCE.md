@@ -1,16 +1,21 @@
 # Hindi romanisé — référence HI-LATIN-1
 
-Version **1.1.0**, 6 novembre 2026, extension HI-02 de D-692, suite de [A-665](audit_langue_indie.md).
-La version 1.1.0 ajoute les termes de HI-02 sans changer les graphies 1.0.0.
+Version **1.2.0**, 6 novembre 2026, extensions HI-01 et HI-02 de D-692, suite de [A-665](audit_langue_indie.md).
+La version 1.2.0 réunit les neuf termes de HI-01 et les 41 termes de HI-02
+sans changer les graphies 1.0.0.
 Les noms de modes de liaison, classes Agent/Idol/ACE TRAINER/Nurse/Skier et
 formes électroménagères de Rotom sont conservés comme libellés EN éditoriaux.
 
 Applicable à **HI-01 à HI-64**, code technique `indie`. Cette convention éditoriale
 unique prime sur les anciennes seeds ; elle ne revendique aucune homologation.
 Le [glossaire machine versionné](../../languages/indie/data/glossary_v1.json)
-contient les entrées EN → HI, leur domaine, forme courte et provenance. Il n'est
+contient 189 entrées EN → HI, leur domaine, forme courte et provenance. Il n'est
 pas injecté automatiquement dans le jeu. Aucun `combined_*`, manifeste de
 protection, patch, police ou rendu n'est modifié par ce ticket.
+
+Extension F-693 du 6 novembre 2026 : glossaire **1.2.0**, neuf termes communs
+ajoutés pour HI-01 ; convention HI-LATIN-1 inchangée. Voir
+[le bilan HI-01](02_HINDI_HI01.md). La version 1.0.0 de D-692 comptait 139 entrées.
 
 ## Sources et niveau de preuve
 

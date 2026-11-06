@@ -11,6 +11,8 @@
 # the `font` step falls back to languages/fr/patches/font.py and renders the same
 # accented glyph set. Devanagari requires an encoding and a composition engine as well as fonts.
 code: indie
+# HI-01 : conserver les sources et les contrôles exacts des 360 entrées.
+text_aliases: languages/indie/data/hi01_preserved_sources.json
 name: Hindi romanisé
 native_name: Hindi romanisé
 builder_language: indie            # value passed to the generic builder --language

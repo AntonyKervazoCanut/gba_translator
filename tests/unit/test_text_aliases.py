@@ -213,10 +213,10 @@ def test_spanish_reference_follows_map_not_contract_or_english_address(tmp_path)
     assert FIXTURE['spanish'][0]['text'] in (tmp_path / 'result.csv').read_text()
 
 
-def test_alias_resolution_is_only_enabled_for_es_maint():
+def test_alias_resolution_is_only_enabled_for_opted_in_languages():
     from src.i18n import load_registry
     configs = list(load_registry())
-    assert {c.code for c in configs if c.text_aliases} == {'es-maint'}
+    assert {c.code for c in configs if c.text_aliases} == {'es-maint', 'indie'}
 
 
 def test_inline_cli_never_writes_short_translation_at_false_start(tmp_path):
