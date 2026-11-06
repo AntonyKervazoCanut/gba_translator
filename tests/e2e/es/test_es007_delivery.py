@@ -33,8 +33,13 @@ def test_every_prepared_text_reaches_all_its_live_pointers() -> None:
     assert built[0x54482E:0x544832] == source[0x54482E:0x544832]
 
 
-def test_reference_sources_stay_unchanged() -> None:
-    for filename, expected in REPORT['sources'].items():
-        if filename == 'output/roms/GenedRom-fr.gba':
-            continue
+def test_audited_input_roms_stay_unchanged() -> None:
+    """Fige les fixtures ROM ; le témoin FR du ticket reste une preuve ponctuelle.
+
+    Une future correction FR autorisée ne doit pas casser le lot espagnol en
+    faisant évoluer légitimement son combined. Les empreintes de ces sources
+    dans le rapport décrivent la provenance, pas une interdiction permanente.
+    """
+    for filename in ('input/roms/englishrom.gba', 'input/roms/spanishrom.gba'):
+        expected = REPORT['sources'][filename]
         assert hashlib.sha256((ROOT / filename).read_bytes()).hexdigest() == expected

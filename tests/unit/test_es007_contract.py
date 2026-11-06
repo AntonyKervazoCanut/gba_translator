@@ -77,3 +77,14 @@ def test_stat_templates_compose_grammatical_phrases(template: int, verb: str, st
     text = text.replace('<0xFD><0x00>', 'Ataque').replace('<0xFD><0x01>', modifier + suffix)
     text = text.replace('<0x00>', ' ').replace(r'\n', '\n')
     assert text == f'¡Pikachu: Ataque\n{verb}' + (' mucho' if strong else '') + '!'
+
+
+@pytest.mark.parametrize('count', range(4))
+def test_perish_count_fits_a_long_wild_name_without_plural_agreement(count: int) -> None:
+    """Le compteur reste lisible avec un surnom large et le qualificatif sauvage."""
+    values = parse_combined(ROOT / 'languages/es-maint/combined_es-maint.txt')
+    text = values[0x3FC0EE].replace('<0xFD><0x0F>', 'W' * 10 + ' salvaje')
+    text = text.replace('<0xFD><0x00>', str(count)).replace(r'\n', '\n')
+    assert f'Canto Mortal bajó a {count}!' in text
+    assert len(text.splitlines()) == 2
+    assert max(line_widths(text)) <= 192

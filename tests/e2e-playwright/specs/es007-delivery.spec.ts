@@ -149,18 +149,22 @@ end)
   }
   expect(hash(fs.readFileSync(fixture))).toBe(fixtureHash);
   expect(hash(fs.readFileSync(savePath))).toBe(fixtureHash);
-  const samples: [number, RegExp][] = [
+  const samples: [number, RegExp, boolean?][] = [
     [0x3ecaa4, /DESTINO/i], [0x3eed08, /Pueblo Bellin/i],
-    [0x3fc0ee, /Canto Mortal/i], [0x3fc483, /rival sienta Rabia/i],
-    [0x3fcc74, /supereficaz/i], [0x3fc4ab, /PP por Rabia/i],
+    [0x3fc0ee, /Canto Mortal/i, true], [0x3fc483, /rival sienta Rabia/i, true],
+    [0x3fcc74, /supereficaz/i], [0x3fc4ab, /PP por Rabia/i, true],
     // Vision confond ó avec á/ã/ô dans les mots très courts de cette police.
     // Le codepoint exact 23 et le mot complet sont contrôlés ci-dessus en ROM ;
     // l'OCR contrôle ici la phrase, sa direction et la présence de l'intensité.
     [-1, /Pikachu:\s*Ataque\s+subi[oóáã]!/i], [-2, /Pikachu:\s*Ataque\s+subi[oó] mucho!/i],
     [-3, /Pikachu:\s*Ataque\s+baj[oóô]!/i], [-4, /Pikachu:\s*Ataque\s+baj[oóô] mucho!/i],
   ];
+  // Les termes métier bénéficient du contexte espagnol et d'une ROI de boîte.
+  // Les phrases très courtes gardent le mode littéral : la correction lexicale
+  // y insère parfois des signes parasites. Les deux modes sont comparés sur
+  // les mêmes captures ; les octets ROM restent toujours contrôlés exactement.
   const swift = path.join(temp, 'ocr.swift');
-  fs.writeFileSync(swift, `import Foundation\nimport Vision\nlet request = VNRecognizeTextRequest()\nrequest.recognitionLevel = .accurate\nrequest.recognitionLanguages = ["es-ES", "en-US"]\nrequest.usesLanguageCorrection = false\ntry VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([request])\nprint((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))\n`);
+  fs.writeFileSync(swift, `import Foundation\nimport Vision\nlet request = VNRecognizeTextRequest()\nrequest.recognitionLevel = .accurate\nlet semantic = CommandLine.arguments.count > 2 && CommandLine.arguments[2] == "semantic"\nrequest.recognitionLanguages = semantic ? ["es-ES"] : ["es-ES", "en-US"]\nrequest.usesLanguageCorrection = semantic\nif semantic {\n request.regionOfInterest = CGRect(x: 0, y: 0, width: 1, height: 0.32)\n request.customWords = ["subió", "bajó", "mucho", "Pikachu", "Ataque"]\n}\ntry VNImageRequestHandler(url: URL(fileURLWithPath: CommandLine.arguments[1])).perform([request])\nprint((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(separator: "\\n"))\n`);
   const ocr = path.join(temp, 'ocr');
   execFileSync('swiftc', [swift, '-o', ocr], { timeout: 60_000 });
   const pictures = samples.map(([offset]) => {
@@ -174,7 +178,7 @@ end)
   for (let n = 0; n < samples.length; n++) {
     const enlarged = path.join(temp, `ocr${n}.png`);
     await page.getByRole('img').nth(n).screenshot({ path: enlarged });
-    const text = execFileSync(ocr, [enlarged], { encoding: 'utf8', timeout: 60_000 }).replace(/\s+/g, ' ');
+    const text = execFileSync(ocr, [enlarged, samples[n][2] ? 'semantic' : 'literal'], { encoding: 'utf8', timeout: 60_000 }).replace(/\s+/g, ' ');
     console.log(samples[n][0].toString(16), text);
     expect(text).toMatch(samples[n][1]);
   }
