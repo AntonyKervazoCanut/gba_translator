@@ -35,6 +35,10 @@ def test_all_contractual_sentinels_reach_live_pointers(tmp_path, monkeypatch):
         # Literal bytes preserve every command AND its arguments, FA/FB and FD order.
         text = ('Z' if 'layout' in record else sentinel) + ''.join(f'<0x{b:02X}>' for b in raw)
         text = es011.get(int(record['contract_offset'], 16), text)
+        if int(record['contract_offset'], 16) == 0x781278:
+            # La préimage objet déborde déjà : conserver ses deux FE avec une
+            # sentinelle de trois lignes conforme aux 176 pixels du moteur.
+            text = 'TEST ' + 'i'*25 + '<0xFE>' + 'i'*28 + '<0xFE>' + 'i'*28
         texts[int(record['contract_offset'], 16)] = text
         lines.append(f"{record['contract_offset']}: {text}\n")
     combined.write_text(''.join(lines))

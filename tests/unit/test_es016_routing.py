@@ -91,7 +91,11 @@ def test_object_and_dialogue_layouts_refuse_overflow_and_lost_arguments(tmp_path
     from tests.unit.test_text_aliases import CONTRACT, rom_fixture
     aliases = TextAliases.load(CONTRACT, rom_fixture())
     path = tmp_path / 'ready.json'
-    for key, text in [(0x781278, 'W'*40), (0x781278, 'A\nB\nC\nD'),
+    object_source = bytes.fromhex(aliases.entries[0x781278]['english_raw_hex'])[:-1]
+    # Même la préimage historique ne doit pas contourner la fenêtre objet.
+    original = ''.join(f'<0x{b:02X}>' for b in object_source)
+    for key, text in [(0x781278, original), (0x781278, 'Z' + original),
+                      (0x781278, 'W'*40), (0x781278, 'A\nB\nC\nD'),
                       (0x781668, 'A\nB<0xFD><0x01>.'),
                       (0x781668, 'A\n'+'W'*30+'<0xFD><0x02>.'),
                       (0x788255, 'A\nB\nC'), (0x772093, 'A')]:

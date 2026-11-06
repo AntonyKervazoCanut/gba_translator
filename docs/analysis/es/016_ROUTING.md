@@ -30,7 +30,7 @@ A3A6D6 changerait de source sémantique et sortirait de la sélection contractue
 Aucun de ces contournements n'est réalisé. **L'acceptation littérale « sept
 consommateurs vivants » est donc contredite par la ROM.** F-866 doit compter
 780E33 comme description ancienne justifiée, sans ligne de traduction. La
-traduction de la description actuelle appartient à son propre lot.
+traduction de la description actuelle appartient au lot ES-025.
 
 ## Consommateurs, tampons et fenêtres
 
@@ -103,5 +103,7 @@ Le banc ES-015 est paramétré et partagé pour éviter une copie du pipeline ou
 de l'imprimeur. Son périmètre reste fixé à son propre lot. La capture OS temporaire
 après assertions est attachée à F-1045 :
 `attachment://b8d13145-5a92-441a-899b-183362e2b49e`.
+Après rebase, pipeline et assertions natives repassés :
+`attachment://35774412-5577-4fce-b156-9ba55b5062ee`.
 Les parcours naturels, les traductions finales et la certification linguistique
 restent à F-866 ; la mire native ne prétend pas les remplacer.
