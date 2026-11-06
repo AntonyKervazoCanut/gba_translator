@@ -87,3 +87,14 @@ def test_finalizer_follows_all_generic_repairs():
     assert steps.count('batch_86') == 1
     assert all(steps.index(p) < steps.index('batch_86') for p in
                ('inline', 'repair_lz77', 'repair_localized_lz77', 'repoint_stale', 'font'))
+
+
+def test_cfru_class_audit_identifies_pointer_cells_without_a_prefix_marker():
+    """Les lecteurs sont au début de cellules de 13 octets, pas après un FF."""
+    for index, class_id in ((279, 22), (280, 26)):
+        row = ROWS[index]
+        assert row['references'] == [0x23E558 + class_id * 13]
+        context = bytes.fromhex(row['reference_contexts'][0])
+        pointer = int(row['offset'], 16) + 0x08000000
+        assert context[2:6] == pointer.to_bytes(4, 'little')
+        assert 'Black Ferrothorn' in row['portuguese']

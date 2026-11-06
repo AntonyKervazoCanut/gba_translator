@@ -88,7 +88,8 @@ def test_cfru_long_class_pointer_cells_and_lookup_tables(source, built):
     for index, class_id in ((279, 22), (280, 26)):
         ref = ROWS[index]['references'][0]
         assert ref == 0x23E558 + class_id * 13
-        assert built[ref - 1] == source[ref - 1] == 0xFF
+        # Le padding de la cellule précédente appartient à PT-03 et peut être
+        # remis à zéro par sa traduction. Seule cette cellule appartient au test.
         assert built[ref + 4:ref + 13] == source[ref + 4:ref + 13]
     for row in ROWS[23:33]:
         ref = row['references'][0]
