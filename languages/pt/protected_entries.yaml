@@ -63306,3 +63306,873 @@ entries:
   - offset: "0x1f9b035"
     name: "PT-85 0x1f9b035"
     expected: 'Flare Blitz<0xFC>Û<0x5E> <0xFC>É 16 BP'
+  - offset: "0x1f9433e"
+    name: "PT-84 0x1f9433e"
+    expected: 'Smogon 350 Cup'
+  - offset: "0x1f9434d"
+    name: "PT-84 0x1f9434d"
+    expected: 'Smogon Averagemons'
+  - offset: "0x1f94360"
+    name: "PT-84 0x1f94360"
+    expected: 'Smogon Benjamin Butterfree'
+  - offset: "0x1f9437b"
+    name: "PT-84 0x1f9437b"
+    expected: 'Mega Brawl'
+  - offset: "0x1f94386"
+    name: "PT-84 0x1f94386"
+    expected: 'Dynamax Standard'
+  - offset: "0x1f94397"
+    name: "PT-84 0x1f94397"
+    expected: 'Smogon National Dex OU'
+  - offset: "0x1f943ae"
+    name: "PT-84 0x1f943ae"
+    expected: 'GS Cup Camomons'
+  - offset: "0x1f943be"
+    name: "PT-84 0x1f943be"
+    expected: 'Ver permitidos'
+  - offset: "0x1f943d0"
+    name: "PT-84 0x1f943d0"
+    expected: 'Ver banidos'
+  - offset: "0x1f943de"
+    name: "PT-84 0x1f943de"
+    expected: 'Nível 50'
+  - offset: "0x1f943e7"
+    name: "PT-84 0x1f943e7"
+    expected: 'Nível 100'
+  - offset: "0x1f943f1"
+    name: "PT-84 0x1f943f1"
+    expected: '<0xFC><0x06><0x00> Indiv.: 3x3, Duplas: 4x4'
+  - offset: "0x1f9440f"
+    name: "PT-84 0x1f9440f"
+    expected: '<0xFC><0x06><0x00> 6x6'
+  - offset: "0x1f9441d"
+    name: "PT-84 0x1f9441d"
+    expected: 'Sem música'
+  - offset: "0x1f94426"
+    name: "PT-84 0x1f94426"
+    expected: 'Batalha! Treinador de Borrius'
+  - offset: "0x1f9443e"
+    name: "PT-84 0x1f9443e"
+    expected: 'Batalha! Treinador de Kanto'
+  - offset: "0x1f94454"
+    name: "PT-84 0x1f94454"
+    expected: 'Batalha! Treinador de Johto'
+  - offset: "0x1f9446a"
+    name: "PT-84 0x1f9446a"
+    expected: 'Batalha! Treinador de Hoenn'
+  - offset: "0x1f94480"
+    name: "PT-84 0x1f94480"
+    expected: 'Batalha! Treinador de Sinnoh'
+  - offset: "0x1f94497"
+    name: "PT-84 0x1f94497"
+    expected: 'Batalha! Treinador de Unova'
+  - offset: "0x1f944ad"
+    name: "PT-84 0x1f944ad"
+    expected: 'Batalha! Treinador de Kalos'
+  - offset: "0x1f944c3"
+    name: "PT-84 0x1f944c3"
+    expected: 'Batalha! Treinador de Alola'
+  - offset: "0x1f944d9"
+    name: "PT-84 0x1f944d9"
+    expected: 'Batalha! Rival'
+  - offset: "0x1f944e7"
+    name: "PT-84 0x1f944e7"
+    expected: 'Batalha! Líder de Ginásio'
+  - offset: "0x1f944fa"
+    name: "PT-84 0x1f944fa"
+    expected: 'Batalha! Líder de Sinnoh'
+  - offset: "0x1f94514"
+    name: "PT-84 0x1f94514"
+    expected: 'Batalha! Sucessor'
+  - offset: "0x1f94526"
+    name: "PT-84 0x1f94526"
+    expected: 'Batalha! Elite 4'
+  - offset: "0x1f94536"
+    name: "PT-84 0x1f94536"
+    expected: 'Batalha! Jax'
+  - offset: "0x1f94542"
+    name: "PT-84 0x1f94542"
+    expected: 'Batalha! Frontier Brain'
+  - offset: "0x1f94559"
+    name: "PT-84 0x1f94559"
+    expected: 'Batalha! Cynthia'
+  - offset: "0x1f94569"
+    name: "PT-84 0x1f94569"
+    expected: 'Batalha! Red'
+  - offset: "0x1f94575"
+    name: "PT-84 0x1f94575"
+    expected: 'Bônus: Cyrus'
+  - offset: "0x1f94582"
+    name: "PT-84 0x1f94582"
+    expected: 'Batalha! Recruta Shadow'
+  - offset: "0x1f94597"
+    name: "PT-84 0x1f94597"
+    expected: 'Batalha! Marlon'
+  - offset: "0x1f945a6"
+    name: "PT-84 0x1f945a6"
+    expected: 'Batalha! Zeph'
+  - offset: "0x1f945b3"
+    name: "PT-84 0x1f945b3"
+    expected: 'Batalha! Recruta Light of Ruin'
+  - offset: "0x1f945cf"
+    name: "PT-84 0x1f945cf"
+    expected: 'Batalha! Ivory'
+  - offset: "0x1f945dd"
+    name: "PT-84 0x1f945dd"
+    expected: 'Batalha! Aklove'
+  - offset: "0x1f945ec"
+    name: "PT-84 0x1f945ec"
+    expected: 'Batalha! Black Emboar'
+  - offset: "0x1f94601"
+    name: "PT-84 0x1f94601"
+    expected: 'Batalha! James'
+  - offset: "0x1f9460f"
+    name: "PT-84 0x1f9460f"
+    expected: 'Batalha! Terror Granbull'
+  - offset: "0x1f94627"
+    name: "PT-84 0x1f94627"
+    expected: 'Batalha! Gruff'
+  - offset: "0x1f94635"
+    name: "PT-84 0x1f94635"
+    expected: 'Batalha! Black Ferrothorn'
+  - offset: "0x1f9464e"
+    name: "PT-84 0x1f9464e"
+    expected: 'Batalha! Barbs'
+  - offset: "0x1f9465c"
+    name: "PT-84 0x1f9465c"
+    expected: 'Batalha! Science Society'
+  - offset: "0x1f94674"
+    name: "PT-84 0x1f94674"
+    expected: 'Batalha! Fey'
+  - offset: "0x1f94680"
+    name: "PT-84 0x1f94680"
+    expected: 'Batalha! Capanga Black Horizon'
+  - offset: "0x1f946b6"
+    name: "PT-84 0x1f946b6"
+    expected: 'Batalha! Chefe Black Horizon'
+  - offset: "0x1f946d1"
+    name: "PT-84 0x1f946d1"
+    expected: 'Batalha! Ave lendária'
+  - offset: "0x1f946e8"
+    name: "PT-84 0x1f946e8"
+    expected: 'Batalha! Mewtwo'
+  - offset: "0x1f946f7"
+    name: "PT-84 0x1f946f7"
+    expected: 'Batalha! Raikou'
+  - offset: "0x1f94706"
+    name: "PT-84 0x1f94706"
+    expected: 'Batalha! Entei'
+  - offset: "0x1f94714"
+    name: "PT-84 0x1f94714"
+    expected: 'Batalha! Suicune'
+  - offset: "0x1f94724"
+    name: "PT-84 0x1f94724"
+    expected: 'Batalha! Ho-Oh'
+  - offset: "0x1f94732"
+    name: "PT-84 0x1f94732"
+    expected: 'Batalha! Lugia'
+  - offset: "0x1f94740"
+    name: "PT-84 0x1f94740"
+    expected: 'Batalha! Trio Regi'
+  - offset: "0x1f94752"
+    name: "PT-84 0x1f94752"
+    expected: 'Batalha! Ancestral de Hoenn'
+  - offset: "0x1f94768"
+    name: "PT-84 0x1f94768"
+    expected: 'Batalha! Deoxys'
+  - offset: "0x1f94777"
+    name: "PT-84 0x1f94777"
+    expected: 'Batalha! Lagos de Sinnoh'
+  - offset: "0x1f94790"
+    name: "PT-84 0x1f94790"
+    expected: 'Batalha! Dialga/Palkia'
+  - offset: "0x1f947a6"
+    name: "PT-84 0x1f947a6"
+    expected: 'Batalha! Giratina'
+  - offset: "0x1f947b7"
+    name: "PT-84 0x1f947b7"
+    expected: 'Batalha! Lendário de Sinnoh'
+  - offset: "0x1f947d0"
+    name: "PT-84 0x1f947d0"
+    expected: 'Batalha! Arceus'
+  - offset: "0x1f947df"
+    name: "PT-84 0x1f947df"
+    expected: 'Batalha! Lendário de Unova'
+  - offset: "0x1f947f7"
+    name: "PT-84 0x1f947f7"
+    expected: 'Batalha! Reshiram/Zekrom'
+  - offset: "0x1f9480f"
+    name: "PT-84 0x1f9480f"
+    expected: 'Batalha! Kyurem'
+  - offset: "0x1f9481e"
+    name: "PT-84 0x1f9481e"
+    expected: 'Batalha! Lendário de Kalos'
+  - offset: "0x1f94836"
+    name: "PT-84 0x1f94836"
+    expected: 'Batalha! Hoopa'
+  - offset: "0x1f94844"
+    name: "PT-84 0x1f94844"
+    expected: 'Batalha! Solgaleo/Lunala'
+  - offset: "0x1f9485c"
+    name: "PT-84 0x1f9485c"
+    expected: 'Batalha! Divindade guardiã'
+  - offset: "0x1f94873"
+    name: "PT-84 0x1f94873"
+    expected: 'Batalha! Ultra Beast'
+  - offset: "0x1f94887"
+    name: "PT-84 0x1f94887"
+    expected: 'Batalha! Ultra Necrozma'
+  - offset: "0x1f9489e"
+    name: "PT-84 0x1f9489e"
+    expected: 'Batalha! Selvagem de Galar'
+  - offset: "0x1f948b9"
+    name: "PT-84 0x1f948b9"
+    expected: 'Batalha! Chefe selvagem'
+  - offset: "0x1f948cb"
+    name: "PT-84 0x1f948cb"
+    expected: 'Batalha! Chefe de Reide'
+  - offset: "0x1f948dd"
+    name: "PT-84 0x1f948dd"
+    expected: 'Sortear a cada batalha'
+  - offset: "0x1f948f3"
+    name: "PT-84 0x1f948f3"
+    expected: 'Sem fundo'
+  - offset: "0x1f94901"
+    name: "PT-84 0x1f94901"
+    expected: 'Padrão'
+  - offset: "0x1f94909"
+    name: "PT-84 0x1f94909"
+    expected: '<0x00>(Interior)'
+  - offset: "0x1f94923"
+    name: "PT-84 0x1f94923"
+    expected: 'Caminho'
+  - offset: "0x1f9492b"
+    name: "PT-84 0x1f9492b"
+    expected: 'Grama alta'
+  - offset: "0x1f94936"
+    name: "PT-84 0x1f94936"
+    expected: 'Floresta'
+  - offset: "0x1f9493d"
+    name: "PT-84 0x1f9493d"
+    expected: 'Praia'
+  - offset: "0x1f94943"
+    name: "PT-84 0x1f94943"
+    expected: 'Submerso'
+  - offset: "0x1f94952"
+    name: "PT-84 0x1f94952"
+    expected: 'Lago'
+  - offset: "0x1f94957"
+    name: "PT-84 0x1f94957"
+    expected: 'Montanha'
+  - offset: "0x1f94960"
+    name: "PT-84 0x1f94960"
+    expected: 'Caverna'
+  - offset: "0x1f94965"
+    name: "PT-84 0x1f94965"
+    expected: 'Caverna escura'
+  - offset: "0x1f9496f"
+    name: "PT-84 0x1f9496f"
+    expected: 'Caverna nevada'
+  - offset: "0x1f94979"
+    name: "PT-84 0x1f94979"
+    expected: 'Vulcão'
+  - offset: "0x1f94981"
+    name: "PT-84 0x1f94981"
+    expected: 'Caverna de cristal'
+  - offset: "0x1f9498e"
+    name: "PT-84 0x1f9498e"
+    expected: 'Neve'
+  - offset: "0x1f94993"
+    name: "PT-84 0x1f94993"
+    expected: 'Espaço do Cube'
+  - offset: "0x1f9499e"
+    name: "PT-84 0x1f9499e"
+    expected: 'Deserto'
+  - offset: "0x1f949a9"
+    name: "PT-84 0x1f949a9"
+    expected: 'Moleman'
+  - offset: "0x1f949b1"
+    name: "PT-84 0x1f949b1"
+    expected: 'Elias'
+  - offset: "0x1f949b7"
+    name: "PT-84 0x1f949b7"
+    expected: 'Arabella'
+  - offset: "0x1f949c0"
+    name: "PT-84 0x1f949c0"
+    expected: 'Penny'
+  - offset: "0x1f949c6"
+    name: "PT-84 0x1f949c6"
+    expected: 'Campeão'
+  - offset: "0x1f949cf"
+    name: "PT-84 0x1f949cf"
+    expected: 'Pesadelo'
+  - offset: "0x1f949d9"
+    name: "PT-84 0x1f949d9"
+    expected: 'Frontier Card'
+  - offset: "0x1f949ec"
+    name: "PT-84 0x1f949ec"
+    expected: 'Frontier Brain'
+  - offset: "0x1f949fc"
+    name: "PT-84 0x1f949fc"
+    expected: 'Sobre qual tema você quer\naprender?'
+  - offset: "0x1f94a27"
+    name: "PT-84 0x1f94a27"
+    expected: '<0xFC><0x01><0x06>Megaevolução<0xFC><0x01><0x02> é uma evolução\ntemporária que pode ocorrer em<0xFA>batalha se o Pokémon segurar uma<0xFA><0xFC><0x01><0x06>Mega Stone<0xFC><0x01><0x02> de sua espécie.<0xFB>Para ativar a Megaevolução, aperte\n<0xF8><0x04> ao escolher um movimento<0xFA>para usar.<0xFB>Só um Pokémon por equipe pode\nmegaevoluir. Após a batalha,<0xFA>os Pokémon Mega voltam à<0xFA>forma original.'
+  - offset: "0x1f94b70"
+    name: "PT-84 0x1f94b70"
+    expected: 'Um <0xFC><0x01><0x06>Movimento Z<0xFC><0x01><0x02> é um movimento\nespecial que une os desejos do<0xFA>Treinador e de seu Pokémon para<0xFA>lançar um ataque muito poderoso<0xFA>uma vez por batalha.<0xFB>Se um deles estiver disponível,\nvocê pode ativá-lo apertando<0xFA><0xF8><0x04> e depois <0xF8><0x00> ao escolher<0xFA>um movimento para usar.<0xFB>Para usar um Movimento Z, o\nPokémon precisa segurar um tipo<0xFA>especial de item, o <0xFC><0x01><0x06>Z-Crystal<0xFC><0x01><0x02>.<0xFB>A maioria dos Z-Crystals\ncorresponde a um tipo de movimento,<0xFA>mas alguns são próprios da espécie.'
+  - offset: "0x1f94d38"
+    name: "PT-84 0x1f94d38"
+    expected: '<0xFC><0x01><0x06>Dynamax<0xFC><0x01><0x02> é uma transformação\ntemporária em que um Pokémon<0xFA>distorce o espaço para crescer.<0xFB>Ao usar Dynamax, por três turnos\nseus PS aumentam e todos os seus<0xFA>movimentos são fortalecidos,<0xFA>virando <0xFC><0x01><0x06>Max Moves<0xFC><0x01><0x02> especiais.<0xFB>Cada Max Move tem um efeito único,\nque varia conforme o tipo do<0xFA>movimento original.<0xFB>Se um Pokémon tiver o Fator\nGigantamax, poderá usar Gigantamax.<0xFB>É um tipo especial de Dynamax\nque muda sua aparência em relação<0xFA>à forma normal, além de<0xFA>aumentar seu tamanho.<0xFB>Cada Pokémon Gigantamax tem um\nMax Move exclusivo, chamado<0xFA>G-Max Move.<0xFB>Para ativar Dynamax, aperte\n<0xF8><0x04> ao escolher um movimento<0xFA>para usar.'
+  - offset: "0x1f94fb5"
+    name: "PT-84 0x1f94fb5"
+    expected: 'Ao escolher um movimento na batalha,\ncertos símbolos podem aparecer.<0xFB>Eles indicam a eficácia do\nmovimento contra o alvo.<0xFB>Um <0xFC><0x01><0x06><0x79><0xFC><0x01><0x02> verde indica que o\nmovimento é supereficaz.<0xFB>Um <0xFC><0x01><0x05><0x7A><0xFC><0x01><0x02> amarelo indica que o\nmovimento é pouco eficaz.<0xFB>Um <0xFC><0x01><0x07>×<0xFC><0x01><0x02> vermelho indica que o\nmovimento não afeta o alvo.<0xFB>E um + indica que o movimento\nrecebe bônus por ser do mesmo tipo.'
+  - offset: "0x1f95134"
+    name: "PT-84 0x1f95134"
+    expected: 'Megaevolução'
+  - offset: "0x1f95143"
+    name: "PT-84 0x1f95143"
+    expected: 'Movimentos Z'
+  - offset: "0x1f9514b"
+    name: "PT-84 0x1f9514b"
+    expected: 'Dynamax'
+  - offset: "0x1f95153"
+    name: "PT-84 0x1f95153"
+    expected: 'Eficácia'
+  - offset: "0x1f951e4"
+    name: "PT-84 0x1f951e4"
+    expected: 'De todas as batalhas que disputei,\numa se destaca entre as outras.<0xFB>O dia estava abafado, e a\npressão era intensa.<0xFB>Minha oponente acabara de enviar\nseu Rotom-Fan com um Air Balloon.<0xFB>Até então eu mal estava\naguentando, mas ao ver aquela<0xFA>aberração redundante da natureza,<0xFA>não aguentei mais.<0xFB>Desmaiei de incredulidade e perdi\na batalha.<0xFB>Nunca subestime o poder de um\n<0xFC><0x01><0x06>Rotom-Fan<0xFC><0x01><0x04> com um <0xFC><0x01><0x06>Air Balloon<0xFC><0x01><0x04>!'
+  - offset: "0x1f95397"
+    name: "PT-84 0x1f95397"
+    expected: 'Como pode ver, a Battle Frontier\né ótima para testar<0xFA>suas habilidades.<0xFB>Parece que a Cube Corp. tem\ninstalações de batalha parecidas.'
+  - offset: "0x1f95425"
+    name: "PT-84 0x1f95425"
+    expected: 'Se disputar uma batalha aleatória\ncom uma equipe de 3 ou 4 Pokémon,<0xFA>poderá escolher quais Pokémon<0xFA>aleatórios quer usar<0xFA>antes de cada batalha.<0xFB>E, se vencer, poderá escolher\nentre uma mistura da sua equipe<0xFA>e da equipe anterior do oponente!<0xFB>Mas isso só dura 10 batalhas,\nviu?<0xFB>Depois disso, você receberá\numa nova equipe aleatória.<0xFB>Ah, lembre-se de que sempre\npoderá escolher sua equipe antes<0xFA>das batalhas Multi aleatórias,<0xFA>pois nunca poderá escolher<0xFA>uma equipe completa de 6.'
+  - offset: "0x1f95630"
+    name: "PT-84 0x1f95630"
+    expected: 'Escuta, Sparky.\nTenho umas ofertas boas pra você.<0xFB>Qual delas quer ouvir?'
+  - offset: "0x1f9598e"
+    name: "PT-84 0x1f9598e"
+    expected: 'Só nesta noite, eu posso\nzerar o <0xFC><0x01><0x06>valor individual de Ataque<0xFA><0xFC><0x01><0x08> de um dos seus<0xFA>Pokémon.<0xFB>Desde que já não esteja em zero,\nclaro...<0xFB>E vai custar só <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> BP.<0xFB>E aí, Sparky?\nVocê tem <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> BP.<0xFB>Vai aproveitar essa oferta única?'
+  - offset: "0x1f95aa2"
+    name: "PT-84 0x1f95aa2"
+    expected: 'Só nesta noite, eu posso\nzerar o <0xFC><0x01><0x06>valor individual de<0xFA>Velocidade<0xFC><0x01><0x08> de um dos seus<0xFA>Pokémon.<0xFB>Desde que já não esteja em zero,\nclaro...<0xFB>E vai custar só <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> BP.<0xFB>E aí, Sparky?\nVocê tem <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> BP.<0xFB>Vai aproveitar essa oferta única?'
+  - offset: "0x1f95bb5"
+    name: "PT-84 0x1f95bb5"
+    expected: 'Só nesta noite, eu posso\nfazer uma cirurgia especial em um<0xFA>dos seus Pokémon e deixá-lo<0xFA>com o <0xFC><0x01><0x06>sexo oposto<0xFC><0x01><0x08>.<0xFB>E vai custar só <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> BP.<0xFB>E aí, Sparky?\nVocê tem <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> BP.<0xFB>Vai aproveitar essa oferta única?'
+  - offset: "0x1f95d8a"
+    name: "PT-84 0x1f95d8a"
+    expected: 'Nesta noite, e em todas as outras,\nposso fazer um dos seus Pokémon<0xFA>ficar <0xFC><0x01><0x06>brilhante<0xFC><0x01><0x08>.<0xFB>E vai custar só <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> BP.<0xFB>E aí, Sparky?\nVocê tem <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> BP.<0xFB>Vai aproveitar essa oferta única?'
+  - offset: "0x1f95e53"
+    name: "PT-84 0x1f95e53"
+    expected: 'Qual é, Sparky.\nNão me enrola.<0xFB>Estou vendo que faltam BP.'
+  - offset: "0x1f95e9d"
+    name: "PT-84 0x1f95e9d"
+    expected: 'Não me enrola, Sparky.\nNão posso fazer nada num Ovo...'
+  - offset: "0x1f95edf"
+    name: "PT-84 0x1f95edf"
+    expected: 'Tsc...<0xFB>Qual é, Sparky.<0xFB>Tenho cara de quem tem\ntempo de sobra pra perder?'
+  - offset: "0x1f95f2d"
+    name: "PT-84 0x1f95f2d"
+    expected: 'Tá bom, tá bom.<0xFB>...<0xFB>Anda, não tenho a noite toda.\nQuem vai ser?'
+  - offset: "0x1f95f7a"
+    name: "PT-84 0x1f95f7a"
+    expected: 'Tsc...\nQual é, Sparky.<0xFB>O que ainda estou fazendo aqui?<0xFB>Já passou muito da hora de\npoderem me ver aqui.<0xFB>A gente se vê outra hora,\nSparky...'
+  - offset: "0x1f9610c"
+    name: "PT-84 0x1f9610c"
+    expected: 'Fraquinho.<0xFB>Seu <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> agora tem <0xFC><0x01><0x06>0<0xFC><0x01><0x08> pontos\nde potencial em <0xFC><0x01><0x06>Ataque<0xFC><0x01><0x08>.<0xFB>Vamos repetir isso outra hora,\nSparky...'
+  - offset: "0x1f9617b"
+    name: "PT-84 0x1f9617b"
+    expected: 'Lento.<0xFB>Seu <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> agora tem <0xFC><0x01><0x06>0<0xFC><0x01><0x08> pontos\nde potencial em <0xFC><0x01><0x06>Velocidade<0xFC><0x01><0x08>.<0xFB>Vamos repetir isso outra hora,\nSparky...'
+  - offset: "0x1f96264"
+    name: "PT-84 0x1f96264"
+    expected: 'Transformado.<0xFB>Se o sexo podia mudar,\nseu <0xFD><0x02> agora tem o oposto.<0xFB>Vamos repetir isso outra hora,\nSparky...'
+  - offset: "0x1f962d0"
+    name: "PT-84 0x1f962d0"
+    expected: 'Reluzente.<0xFB>Seu <0xFD><0x02> agora é brilhante.<0xFB>Vamos repetir isso outra hora,\nSparky...'
+  - offset: "0x1f96317"
+    name: "PT-84 0x1f96317"
+    expected: 'Oferta limitada'
+  - offset: "0x1f96325"
+    name: "PT-84 0x1f96325"
+    expected: 'Oferta especial'
+  - offset: "0x1f96333"
+    name: "PT-84 0x1f96333"
+    expected: 'Este é o posto de loteria da\nBattle Frontier.<0xFB>Sou <0xFD><0x02>, seu atendente\nhoje.<0xFB>Se o número sorteado coincidir\ncom o seu palpite, você poderá<0xFA>ganhar muitos BP.<0xFB>Quer conferir o número\nda sorte de hoje?'
+  - offset: "0x1f96403"
+    name: "PT-84 0x1f96403"
+    expected: 'Ah, entendo.\nVolte sempre.'
+  - offset: "0x1f96428"
+    name: "PT-84 0x1f96428"
+    expected: 'Primeiro, escolha um número\nentre 0 e 9999, por favor.'
+  - offset: "0x1f96464"
+    name: "PT-84 0x1f96464"
+    expected: 'Seu número escolhido é <0xFD><0x02>?'
+  - offset: "0x1f9647e"
+    name: "PT-84 0x1f9647e"
+    expected: 'Sinto muito... Não posso aceitar\nesse palpite.<0xFB>Digite um número válido\nentre 0 e 9999.'
+  - offset: "0x1f964d5"
+    name: "PT-84 0x1f964d5"
+    expected: 'Agora, vou consultar o número\nda sorte da loteria de hoje.<0xFB>...<0xFB>O número do bilhete de hoje é\n<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>.'
+  - offset: "0x1f96539"
+    name: "PT-84 0x1f96539"
+    expected: 'Parabéns! Seu palpite acertou\nem cheio!<0xFB>Receba estes BP como prêmio!'
+  - offset: "0x1f9658b"
+    name: "PT-84 0x1f9658b"
+    expected: 'Quase! Errou por apenas\num pequeno <0xFD><0x04>!<0xFB>Receba estes BP como prêmio!'
+  - offset: "0x1f965d4"
+    name: "PT-84 0x1f965d4"
+    expected: 'Nada mal! Seu palpite errou\npor apenas <0xFD><0x04>!<0xFB>Receba estes BP como prêmio!'
+  - offset: "0x1f9661a"
+    name: "PT-84 0x1f9661a"
+    expected: 'Infelizmente, seu palpite ficou\nlonge demais para comemorar.<0xFB>Mais sorte na próxima vez.<0xFB>Receba este BP como\nprêmio de consolação.'
+  - offset: "0x1f96698"
+    name: "PT-84 0x1f96698"
+    expected: 'Volte amanhã para ter outra chance\nde ganhar muito!'
+  - offset: "0x1f966ca"
+    name: "PT-84 0x1f966ca"
+    expected: 'Felicity'
+  - offset: "0x1f966d3"
+    name: "PT-84 0x1f966d3"
+    expected: 'Theresa'
+  - offset: "0x1f966db"
+    name: "PT-84 0x1f966db"
+    expected: 'Jane'
+  - offset: "0x1f966e0"
+    name: "PT-84 0x1f966e0"
+    expected: 'Deborah'
+  - offset: "0x1f966e8"
+    name: "PT-84 0x1f966e8"
+    expected: 'Virginia'
+  - offset: "0x1f966f1"
+    name: "PT-84 0x1f966f1"
+    expected: 'Lerynne'
+  - offset: "0x1f966f9"
+    name: "PT-84 0x1f966f9"
+    expected: 'Karen'
+  - offset: "0x1f966ff"
+    name: "PT-84 0x1f966ff"
+    expected: 'Bonjour, <0xFD><0x02>! Eu lhe\ndou as boas-vindas.<0xFB>Vim da distante região de Kalos\nem busca dos melhores<0xFA><0xFC><0x01><0x06>Bottle Caps<0xFC><0x01><0x04>.<0xFB>Se quiser abrir mão de alguns,\nposso garantir... seus Pokémon<0xFA>vão se beneficiar muito!'
+  - offset: "0x1f967ce"
+    name: "PT-84 0x1f967ce"
+    expected: 'Pardon?\nO que é isso?<0xFB>Você não tem nenhum Bottle Cap\ndesse tipo!'
+  - offset: "0x1f96812"
+    name: "PT-84 0x1f96812"
+    expected: 'Magnifique! Que belo\n<0xFC><0x01><0x06>Bottle Cap<0xFC><0x01><0x04>!<0xFB>Em troca, posso oferecer um\ntreino especial para um atributo<0xFA>do seu Pokémon!<0xFB>Você aceita?'
+  - offset: "0x1f968a6"
+    name: "PT-84 0x1f968a6"
+    expected: 'Magnifique! Que belo\n<0xFC><0x01><0x06>Gold Bottle Cap<0xFC><0x01><0x04>!<0xFB>Por uma tampa de ouro dessas,\ntreinarei todos os atributos<0xFA>do seu Pokémon.<0xFB>Você aceita?'
+  - offset: "0x1f9694b"
+    name: "PT-84 0x1f9694b"
+    expected: 'Pardon?<0xFB>Não posso treinar os valores\nindividuais deste Pokémon.<0xFB>Já estão no máximo!<0xFB>Quer escolher outro\nPokémon?'
+  - offset: "0x1f969d1"
+    name: "PT-84 0x1f969d1"
+    expected: 'Pardon?<0xFB>Não posso treinar os valores\nindividuais deste Pokémon.<0xFB>É um Ovo!<0xFB>Quer escolher outro\nPokémon?'
+  - offset: "0x1f96a4a"
+    name: "PT-84 0x1f96a4a"
+    expected: 'Qual atributo deste Pokémon\ndevo treinar?'
+  - offset: "0x1f96a74"
+    name: "PT-84 0x1f96a74"
+    expected: 'Pardon?<0xFB>Não posso treinar <0xFD><0x03>\ndeste Pokémon. Já está no máximo!<0xFB>Escolha um que ainda possa subir.'
+  - offset: "0x1f96adf"
+    name: "PT-84 0x1f96adf"
+    expected: 'Ah, que a experiência... digo,\no treino comece! Allons-y!<0xFB>Vou reconstruir o DNA... digo,\ntreinar o corpo do seu Pokémon!'
+  - offset: "0x1f96b5b"
+    name: "PT-84 0x1f96b5b"
+    expected: '<0xFC><0x01><0x02><0xFD><0x02> estremeceu quando\no procedimento começou!'
+  - offset: "0x1f96b83"
+    name: "PT-84 0x1f96b83"
+    expected: 'Ah, merveilleux! Foi um\ngrande sucesso.<0xFB><0xFD><0x02> teve o atributo <0xFD><0x03>\ntreinado!'
+  - offset: "0x1f96bcc"
+    name: "PT-84 0x1f96bcc"
+    expected: 'Ah, merveilleux! Foi um\ngrande sucesso.<0xFB>Treinei os atributos\nde <0xFD><0x02>!'
+  - offset: "0x1f96c14"
+    name: "PT-84 0x1f96c14"
+    expected: '<0xFD><0x01> entregou o\n<0xFD><0x02> em troca.'
+  - offset: "0x1f96c37"
+    name: "PT-84 0x1f96c37"
+    expected: 'Pardon?<0xFB>Quer saber os EVs e IVs\ndos seus Pokémon?<0xFB>Ah, oui, oui! É sábio ver\nonde seu Pokémon precisa<0xFA>de treino, non?'
+  - offset: "0x1f96cbe"
+    name: "PT-84 0x1f96cbe"
+    expected: 'Se encontrar algum destes\n<0xFC><0x01><0x06>Bottle Caps<0xFC><0x01><0x04>, terei prazer<0xFA>em aceitá-los.'
+  - offset: "0x1f96d0d"
+    name: "PT-84 0x1f96d0d"
+    expected: 'monsieur'
+  - offset: "0x1f96d16"
+    name: "PT-84 0x1f96d16"
+    expected: 'mademoiselle'
+  - offset: "0x1f96d23"
+    name: "PT-84 0x1f96d23"
+    expected: 'Bottle Cap'
+  - offset: "0x1f96d2e"
+    name: "PT-84 0x1f96d2e"
+    expected: 'Gold Bottle Cap'
+  - offset: "0x1f96d3e"
+    name: "PT-84 0x1f96d3e"
+    expected: 'Não'
+  - offset: "0x1f96d43"
+    name: "PT-84 0x1f96d43"
+    expected: 'Huah!<0xFB>Por só <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> BP, posso <0xFC><0x01><0x06>maximizar<0xFC><0x01><0x08>\num valor de esforço de um Pokémon!<0xFB>Ou, por só <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> BP, posso <0xFC><0x01><0x06>zerar<0xFC><0x01><0x08>\num valor de esforço de um Pokémon!<0xFB>Quer contratar meus\nserviços!? Você tem <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> BP!'
+  - offset: "0x1f96e24"
+    name: "PT-84 0x1f96e24"
+    expected: 'Huah!\nQual Pokémon devo fortalecer!?'
+  - offset: "0x1f96e48"
+    name: "PT-84 0x1f96e48"
+    expected: 'Huah!\nQual Pokémon devo enfraquecer!?'
+  - offset: "0x1f96e6e"
+    name: "PT-84 0x1f96e6e"
+    expected: 'Huah!<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> não pode ganhar mais\nvalores de esforço!<0xFB>Escolha outro Pokémon!'
+  - offset: "0x1f96eb8"
+    name: "PT-84 0x1f96eb8"
+    expected: 'Huah!<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> não tem valores de esforço\npara zerar!<0xFB>Escolha outro Pokémon!'
+  - offset: "0x1f96efe"
+    name: "PT-84 0x1f96efe"
+    expected: 'Huah!<0xFB>Isso é um Ovo!<0xFB>Escolha outro Pokémon!'
+  - offset: "0x1f96f2b"
+    name: "PT-84 0x1f96f2b"
+    expected: 'Huah!<0xFB>Qual atributo de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>\ndevo aumentar!?'
+  - offset: "0x1f96f5e"
+    name: "PT-84 0x1f96f5e"
+    expected: 'Huah!<0xFB>Qual atributo de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>\ndevo zerar por completo!?'
+  - offset: "0x1f96f9a"
+    name: "PT-84 0x1f96f9a"
+    expected: 'Huah!<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> não pode ganhar mais\nvalores de esforço em <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>!<0xFB>Escolha outro atributo!'
+  - offset: "0x1f96fea"
+    name: "PT-84 0x1f96fea"
+    expected: 'Huah!<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> não pode perder mais\nvalores de esforço em <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>!<0xFB>Escolha outro atributo!'
+  - offset: "0x1f9703a"
+    name: "PT-84 0x1f9703a"
+    expected: 'Huah!<0xFB>Posso elevar <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> em <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>\npor <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> pontos!<0xFB>Devo fazer isso!?'
+  - offset: "0x1f9708c"
+    name: "PT-84 0x1f9708c"
+    expected: 'Huah!<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> terá <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>\nreduzido a <0xFC><0x01><0x06>zero<0xFC><0x01><0x08>!<0xFB>Devo fazer isso!?'
+  - offset: "0x1f970d7"
+    name: "PT-84 0x1f970d7"
+    expected: 'Huah!<0xFB>EVs de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> em <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>:\nagora <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> pontos!<0xFB>De nada!'
+  - offset: "0x1f9712f"
+    name: "PT-84 0x1f9712f"
+    expected: 'Huah!<0xFB>EVs de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> em <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>:\nreduzidos a <0xFC><0x01><0x06>zero<0xFC><0x01><0x08>!<0xFB>De nada!'
+  - offset: "0x1f9717f"
+    name: "PT-84 0x1f9717f"
+    expected: 'Huah!<0xFB>Você não tem BP suficientes\npara meus serviços!<0xFB>Volte outra hora!'
+  - offset: "0x1f971bb"
+    name: "PT-84 0x1f971bb"
+    expected: 'Huah!<0xFB>Quer ver os valores de esforço\ndos seus Pokémon antes!?<0xFB>Claro!'
+  - offset: "0x1f97202"
+    name: "PT-84 0x1f97202"
+    expected: '...O quê!<0xFB>Sem huah pra você!'
+  - offset: "0x1f9721a"
+    name: "PT-84 0x1f9721a"
+    expected: 'Maximizar atributo'
+  - offset: "0x1f97228"
+    name: "PT-84 0x1f97228"
+    expected: 'Zerar atributo'
+  - offset: "0x1f97233"
+    name: "PT-84 0x1f97233"
+    expected: 'Claro'
+  - offset: "0x1f97238"
+    name: "PT-84 0x1f97238"
+    expected: 'Não, obrigado'
+  - offset: "0x1f97242"
+    name: "PT-84 0x1f97242"
+    expected: 'Ver EVs / IVs'
+  - offset: "0x1f97251"
+    name: "PT-84 0x1f97251"
+    expected: 'Sou o irmão mais velho do\nMove Maniac.<0xFB>Conheço todos os movimentos que\nos Pokémon aprendem crescendo.<0xFB>Por uma <0xFC><0x01><0x06>Heart Scale<0xFC><0x01><0x08>, ensino um\nmovimento que seu Pokémon pode<0xFA>aprender ao subir de nível.'
+  - offset: "0x1f97318"
+    name: "PT-84 0x1f97318"
+    expected: 'Sou a irmã mais nova do\nMove Maniac.<0xFB>Conheço todos os movimentos que\nos Pokémon aprendem por<0xFA>cruzamento.<0xFB>Por só <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> BP, ensino um\nmovimento de Ovo a um Pokémon.<0xFB>Deixe-me adivinhar: quer que eu\nensine um movimento, certo?'
+  - offset: "0x1f973f6"
+    name: "PT-84 0x1f973f6"
+    expected: 'Por só <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> BP, ensino um\nmovimento de Ovo a um Pokémon.<0xFB>Deixe-me adivinhar: quer que eu\nensine um movimento, certo?'
+  - offset: "0x1f97465"
+    name: "PT-84 0x1f97465"
+    expected: 'Ensino um movimento de Ovo?'
+  - offset: "0x1f97481"
+    name: "PT-84 0x1f97481"
+    expected: 'Hein?<0xFB>Parece que você não tem\nBP suficientes.'
+  - offset: "0x1f974b0"
+    name: "PT-84 0x1f974b0"
+    expected: 'Qual movimento devo ensinar?\nVocê tem <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> BP.'
+  - offset: "0x1f974e1"
+    name: "PT-84 0x1f974e1"
+    expected: 'Para ensinar movimento de Ovo,\npreciso de <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> BP.'
+  - offset: "0x1f97520"
+    name: "PT-84 0x1f97520"
+    expected: 'Se seus Pokémon precisam de um\nmovimento de Ovo, conte comigo!'
+  - offset: "0x1f9755a"
+    name: "PT-84 0x1f9755a"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> pagou <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x02> BP\nem troca.'
+  - offset: "0x1f9757e"
+    name: "PT-84 0x1f9757e"
+    expected: 'Eu vejo...<0xFB>Vejo seu Hidden Power...<0xFB>E parece que pode mudar...<0xFB>Gostaria de mudar o\n<0xFC><0x01><0x06>Hidden Power<0xFC><0x01><0x04> do seu Pokémon...?<0xFB>Só vai custar <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> BP...\nVocê tem <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> BP...'
+  - offset: "0x1f9762f"
+    name: "PT-84 0x1f9762f"
+    expected: 'Qual Pokémon precisa mudar...?'
+  - offset: "0x1f9764e"
+    name: "PT-84 0x1f9764e"
+    expected: 'Qual será o tipo de Hidden Power\nde <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>...?'
+  - offset: "0x1f97681"
+    name: "PT-84 0x1f97681"
+    expected: '<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> tem Hidden Power\ndo tipo <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04>...<0xFB>Devo mudar o Hidden Power de\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> para <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>...?'
+  - offset: "0x1f976ef"
+    name: "PT-84 0x1f976ef"
+    expected: '<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> teve seu Hidden Power\nalterado para <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>...'
+  - offset: "0x1f97725"
+    name: "PT-84 0x1f97725"
+    expected: 'Quê...<0xFB>Você não tem BP suficientes...'
+  - offset: "0x1f97745"
+    name: "PT-84 0x1f97745"
+    expected: 'Quê...<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> já tem Hidden Power\ndo tipo <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>...'
+  - offset: "0x1f97781"
+    name: "PT-84 0x1f97781"
+    expected: 'Ovos não têm Hidden Power...'
+  - offset: "0x1f9779c"
+    name: "PT-84 0x1f9779c"
+    expected: 'Claro...<0xFB>De qual Pokémon quer ver\no Hidden Power...?'
+  - offset: "0x1f977d8"
+    name: "PT-84 0x1f977d8"
+    expected: '<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> tem Hidden Power\ndo tipo <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04>...'
+  - offset: "0x1f97810"
+    name: "PT-84 0x1f97810"
+    expected: 'Ah...\nQue pena...'
+  - offset: "0x1f9781e"
+    name: "PT-84 0x1f9781e"
+    expected: 'Ver Hidden Power'
+  - offset: "0x1f97830"
+    name: "PT-84 0x1f97830"
+    expected: 'Normal'
+  - offset: "0x1f97837"
+    name: "PT-84 0x1f97837"
+    expected: 'Lutador'
+  - offset: "0x1f97840"
+    name: "PT-84 0x1f97840"
+    expected: 'Voador'
+  - offset: "0x1f97847"
+    name: "PT-84 0x1f97847"
+    expected: 'Venenoso'
+  - offset: "0x1f9784e"
+    name: "PT-84 0x1f9784e"
+    expected: 'Terrestre'
+  - offset: "0x1f97855"
+    name: "PT-84 0x1f97855"
+    expected: 'Pedra'
+  - offset: "0x1f9785e"
+    name: "PT-84 0x1f9785e"
+    expected: 'Fantasma'
+  - offset: "0x1f97864"
+    name: "PT-84 0x1f97864"
+    expected: 'Aço'
+  - offset: "0x1f9786a"
+    name: "PT-84 0x1f9786a"
+    expected: 'Fogo'
+  - offset: "0x1f9786f"
+    name: "PT-84 0x1f9786f"
+    expected: 'Água'
+  - offset: "0x1f97875"
+    name: "PT-84 0x1f97875"
+    expected: 'Planta'
+  - offset: "0x1f9787b"
+    name: "PT-84 0x1f9787b"
+    expected: 'Elétrico'
+  - offset: "0x1f97884"
+    name: "PT-84 0x1f97884"
+    expected: 'Psíquico'
+  - offset: "0x1f97890"
+    name: "PT-84 0x1f97890"
+    expected: 'Dragão'
+  - offset: "0x1f97897"
+    name: "PT-84 0x1f97897"
+    expected: 'Sombrio'
+  - offset: "0x1f9789c"
+    name: "PT-84 0x1f9789c"
+    expected: 'Fada'
+  - offset: "0x1f978a2"
+    name: "PT-84 0x1f978a2"
+    expected: 'Veja a última descoberta da\nScience Society...<0xFA><0xFC><0x01><0x06>Mudança de Natureza<0xFC><0x01><0x04>!<0xFB>Nos chamaram de loucos, disseram\nque “maltratávamos Pokémon”...<0xFB>Tolos! Tolos, eu digo! Merecem\napodrecer no fundo da terra!<0xFB>Ahem... enfim...<0xFB>Por acaso, você gostaria de mudar\na <0xFC><0x01><0x06>Natureza<0xFC><0x01><0x04> de um Pokémon?<0xFB>Vai custar <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> BP.\nNo momento, você tem <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04> BP.'
+  - offset: "0x1f979fd"
+    name: "PT-84 0x1f979fd"
+    expected: 'De qual Pokémon quer mudar\na <0xFC><0x01><0x06>Natureza<0xFC><0x01><0x04>?'
+  - offset: "0x1f97a34"
+    name: "PT-84 0x1f97a34"
+    expected: 'Qual <0xFC><0x01><0x06>Natureza<0xFC><0x01><0x04> deseja dar a\n<0xFD><0x02>?'
+  - offset: "0x1f97a62"
+    name: "PT-84 0x1f97a62"
+    expected: 'Gostaria de dar a <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04>\na Natureza <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x04>?'
+  - offset: "0x1f97a97"
+    name: "PT-84 0x1f97a97"
+    expected: 'Então, que comece o grande\nexperimento em <0xFD><0x02>!<0xFB>Vou olhar seu coração...<0xFC><0x08><0x18> Ah,\nparece uma lembrança dolorosa...'
+  - offset: "0x1f97b08"
+    name: "PT-84 0x1f97b08"
+    expected: '<0xFC><0x01><0x02><0xFD><0x02> tem um olhar vazio.<0xFB>É como se não reconhecesse\nmais você...'
+  - offset: "0x1f97b49"
+    name: "PT-84 0x1f97b49"
+    expected: 'E terminamos!<0xFB>O coração de <0xFD><0x02> foi refeito\ncom uma Natureza mais adequada.<0xFB>Felizmente, parece não lembrar\nnada do procedimento.'
+  - offset: "0x1f97bd4"
+    name: "PT-84 0x1f97bd4"
+    expected: 'Sinto muito!<0xFB>Você não tem BP suficientes para\no procedimento do seu Pokémon!'
+  - offset: "0x1f97c23"
+    name: "PT-84 0x1f97c23"
+    expected: 'No seu lugar, eu não iria querer\nme irritar!<0xFB>Você não iria querer virar\ninimigo da Science Society...'
+  - offset: "0x1f97c8c"
+    name: "PT-84 0x1f97c8c"
+    expected: '<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> já tem essa\nNatureza...'
+  - offset: "0x1f97cae"
+    name: "PT-84 0x1f97cae"
+    expected: 'Sinto muito!\nOvos não podem passar por isso!<0xFB>Poderia escolher outro\nPokémon, por favor?'
+  - offset: "0x1f97d08"
+    name: "PT-84 0x1f97d08"
+    expected: 'Hardy'
+  - offset: "0x1f97dba"
+    name: "PT-84 0x1f97dba"
+    expected: 'Docile'
+  - offset: "0x1f97e6a"
+    name: "PT-84 0x1f97e6a"
+    expected: 'Serious'
+  - offset: "0x1f97f1a"
+    name: "PT-84 0x1f97f1a"
+    expected: 'Bashful'
+  - offset: "0x1f97fcf"
+    name: "PT-84 0x1f97fcf"
+    expected: 'Quirky'
+  - offset: "0x1f97fd6"
+    name: "PT-84 0x1f97fd6"
+    expected: 'Olhe para mim!\nSou o especialista em captura!<0xFB>Tenho acesso a todas as Poké\nBalls que existeeeeem!<0xFB>E posso pôr qualquer Poké Ball\nem qualquer Pokémon!<0xFB>O que me diz!?\nPosso fazer isso por você!?<0xFB>Vai custar <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> BP!\nVocê tem <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> BP!'
+  - offset: "0x1f980cb"
+    name: "PT-84 0x1f980cb"
+    expected: 'Olhe para mim!\nSou o especialista em captura!<0xFB>Tenho acesso a todas as Poké\nBalls que existeeeeem!<0xFB>E posso pôr qualquer Poké Ball\nem qualquer Pokémon!<0xFB>O que me diz!?\nPosso fazer isso por você!?<0xFB>Só vai custar <0xFC><0x01><0x06><0xFD><0x03> <0xFD><0x02><0xFC><0x01><0x08>!\nInútil para muitos, valioso a mim!'
+  - offset: "0x1f981c7"
+    name: "PT-84 0x1f981c7"
+    expected: 'Uhuu!\nEscolha um Pokémon!'
+  - offset: "0x1f981e1"
+    name: "PT-84 0x1f981e1"
+    expected: 'Em qual Poké Ball devo pôr\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>!?'
+  - offset: "0x1f9820c"
+    name: "PT-84 0x1f9820c"
+    expected: 'Devo pôr <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> em uma\n<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>!?'
+  - offset: "0x1f98232"
+    name: "PT-84 0x1f98232"
+    expected: 'Vapt-vupt!\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> ficou um luxo!<0xFB>Agora tem uma Ball mais chique!'
+  - offset: "0x1f98276"
+    name: "PT-84 0x1f98276"
+    expected: 'Quê!\nNão, não!'
+  - offset: "0x1f98284"
+    name: "PT-84 0x1f98284"
+    expected: 'Não, não!\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> já está nessa Ball!'
+  - offset: "0x1f982ae"
+    name: "PT-84 0x1f982ae"
+    expected: 'Não, não!\nNão troco a Ball de um Ovo!<0xFB>Escolha outro Pokémon!'
+  - offset: "0x1f982f0"
+    name: "PT-84 0x1f982f0"
+    expected: 'Não, não!\nBP insuficientes!'
+  - offset: "0x1f98307"
+    name: "PT-84 0x1f98307"
+    expected: 'Não, não!<0xFB>Você não tem o <0xFD><0x02>\nque eu quero!<0xFB>Vá comprar na Battle Frontier\nou em outro lugar!'
+  - offset: "0x1f9835e"
+    name: "PT-84 0x1f9835e"
+    expected: 'Master Ball'
+  - offset: "0x1f9836a"
+    name: "PT-84 0x1f9836a"
+    expected: 'Ultra Ball'
+  - offset: "0x1f98375"
+    name: "PT-84 0x1f98375"
+    expected: 'Great Ball'
+  - offset: "0x1f98380"
+    name: "PT-84 0x1f98380"
+    expected: 'Poke Ball'
+  - offset: "0x1f9838a"
+    name: "PT-84 0x1f9838a"
+    expected: 'Safari Ball'
+  - offset: "0x1f98396"
+    name: "PT-84 0x1f98396"
+    expected: 'Net Ball'
+  - offset: "0x1f9839f"
+    name: "PT-84 0x1f9839f"
+    expected: 'Dive Ball'
+  - offset: "0x1f983a9"
+    name: "PT-84 0x1f983a9"
+    expected: 'Nest Ball'
+  - offset: "0x1f983b3"
+    name: "PT-84 0x1f983b3"
+    expected: 'Repeat Ball'
+  - offset: "0x1f983bf"
+    name: "PT-84 0x1f983bf"
+    expected: 'Timer Ball'
+  - offset: "0x1f983ca"
+    name: "PT-84 0x1f983ca"
+    expected: 'Luxury Ball'
+  - offset: "0x1f983d6"
+    name: "PT-84 0x1f983d6"
+    expected: 'Premier Ball'
+  - offset: "0x1f983e3"
+    name: "PT-84 0x1f983e3"
+    expected: 'Dusk Ball'
+  - offset: "0x1f983ed"
+    name: "PT-84 0x1f983ed"
+    expected: 'Heal Ball'
+  - offset: "0x1f983f7"
+    name: "PT-84 0x1f983f7"
+    expected: 'Quick Ball'
+  - offset: "0x1f98402"
+    name: "PT-84 0x1f98402"
+    expected: 'Cherish Ball'
+  - offset: "0x1f9840f"
+    name: "PT-84 0x1f9840f"
+    expected: 'Park Ball'
+  - offset: "0x1f98419"
+    name: "PT-84 0x1f98419"
+    expected: 'Fast Ball'
+  - offset: "0x1f98423"
+    name: "PT-84 0x1f98423"
+    expected: 'Level Ball'
+  - offset: "0x1f9842e"
+    name: "PT-84 0x1f9842e"
+    expected: 'Lure Ball'
+  - offset: "0x1f98438"
+    name: "PT-84 0x1f98438"
+    expected: 'Heavy Ball'
+  - offset: "0x1f98443"
+    name: "PT-84 0x1f98443"
+    expected: 'Love Ball'
+  - offset: "0x1f9844d"
+    name: "PT-84 0x1f9844d"
+    expected: 'Friend Ball'
+  - offset: "0x1f98459"
+    name: "PT-84 0x1f98459"
+    expected: 'Moon Ball'
+  - offset: "0x1f98463"
+    name: "PT-84 0x1f98463"
+    expected: 'Sport Ball'
+  - offset: "0x1f9846e"
+    name: "PT-84 0x1f9846e"
+    expected: 'Beast Ball'
+  - offset: "0x1f98479"
+    name: "PT-84 0x1f98479"
+    expected: 'Dream Ball'
+  - offset: "0x1f98484"
+    name: "PT-84 0x1f98484"
+    expected: 'Hu hu hu hu hu!<0xFB>Habilidades são divertiiiidas!<0xFB>Não gostaria de trocar\nuuuuma?<0xFB>Cuuusta <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> BP para\nHabilidades comuns, <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> BP<0xFA>para Habilidades Ocultas, e você<0xFA>teeeem <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> BP.'
+  - offset: "0x1f98559"
+    name: "PT-84 0x1f98559"
+    expected: 'Oooooh...\nQual Pokémoooon?'
+  - offset: "0x1f98574"
+    name: "PT-84 0x1f98574"
+    expected: 'Oooooh...\nQual Habilidadeeee?'
+  - offset: "0x1f9858f"
+    name: "PT-84 0x1f9858f"
+    expected: 'Quer daaar a <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>\na Habilidade <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08>?<0xFA>Cuuusta <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08> BP.'
+  - offset: "0x1f985d2"
+    name: "PT-84 0x1f985d2"
+    expected: 'Oooooh...<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> tem uma nova Habilidade.\nVai ser muito divertiiiido.'
+  - offset: "0x1f9861d"
+    name: "PT-84 0x1f9861d"
+    expected: 'Oooooh...\nVocê não teeeem BP suficientes...'
+  - offset: "0x1f98643"
+    name: "PT-84 0x1f98643"
+    expected: 'Oooooh...<0xFB>Já não é essa a Habilidade\nde <0xFD><0x02>?'
+  - offset: "0x1f98674"
+    name: "PT-84 0x1f98674"
+    expected: 'Oooooh...<0xFB><0xFD><0x02> não tem segunda\nHabilidadeeee...'
+  - offset: "0x1f9869a"
+    name: "PT-84 0x1f9869a"
+    expected: 'Oooooh...<0xFB><0xFD><0x02> não tem\nHabilidade Ocultaaaa...'
