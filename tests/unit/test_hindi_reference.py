@@ -19,7 +19,7 @@ ALPHABET = set("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 .
 
 def test_reference_is_versioned_and_covers_all_domains() -> None:
     """Les lots partagent une convention identifiée et les neuf domaines requis."""
-    assert REFERENCE['version'] == '1.0.0'
+    assert REFERENCE['version'] == '1.1.0'
     assert REFERENCE['convention'] == 'HI-LATIN-1'
     assert {entry['domain'] for entry in ENTRIES} == {
         'types', 'statuts', 'statistiques', 'menus', 'combat', 'objets',

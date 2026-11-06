@@ -16,6 +16,7 @@ native_name: Hindi romanisé
 builder_language: indie            # value passed to the generic builder --language
 status: in_progress                # complete | in_progress
 build: generic                     # dedicated (make build-fr) | generic (build_language.py)
+structured_text_patches: [batch_02]
 
 combined: languages/indie/combined_indie.txt
 critical: languages/indie/critical_strings_indie.txt   # optional; created when needed
@@ -67,3 +68,4 @@ patches:
   - font
   - status_abbrevs
   - version
+  - batch_02

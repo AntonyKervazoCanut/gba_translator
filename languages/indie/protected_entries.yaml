@@ -32,3 +32,843 @@ entries:
   - offset: '0x183509'
     name: Seed hindi 3
     expected: 'Tum mujhe peet dete ho.'
+  - offset: '0x1a532f'
+    name: HI-02 0x1a532f
+    expected: "<0xFD><0x03> ko PC mein\\nbhej diyaa."
+  - offset: '0x1a5420'
+    name: HI-02 0x1a5420
+    expected: "<0xFD><0x01> ne PC chalaayaa."
+  - offset: '0x1a5483'
+    name: HI-02 0x1a5483
+    expected: "Pokemon Centre mein svaagat hai!<0xFB>Kyaa tumhaare Pokemon ko\\npoori tarah theek kar dein?"
+  - offset: '0x1a54e1'
+    name: HI-02 0x1a54e1
+    expected: "Achchhaa, apne Pokemon kuchh\\npal ke liye mujhe do."
+  - offset: '0x1a5511'
+    name: HI-02 0x1a5511
+    expected: "Baahar apnaa dhyaan rakhnaa!"
+  - offset: '0x1a552b'
+    name: HI-02 0x1a552b
+    expected: "Intzaar ke liye shukriyaa.\\nTumhaare Pokemon ab<0xFA>poori tarah theek hain."
+  - offset: '0x1a556e'
+    name: HI-02 0x1a556e
+    expected: "Paani gahraa neelaa hai.\\nSurf chalaanaa hai?"
+  - offset: '0x1a55a5'
+    name: HI-02 0x1a55a5
+    expected: "<0xFD><0x02> ne Surf chalaayaa!"
+  - offset: '0x1a55b3'
+    name: HI-02 0x1a55b3
+    expected: "Paani kaa bahaav bahut tez hai!\\nYahaan Surf nahin chalaa sakte."
+  - offset: '0x1a561a'
+    name: HI-02 0x1a561a
+    expected: "Maaf karnaa.\\nPokemon Wireless Club mein<0xFA>abhi sudhaar ho rahe hain."
+  - offset: '0x1a5667'
+    name: HI-02 0x1a5667
+    expected: "Lagtaa hai yahaan abhi\\nsudhaar ho rahe hain."
+  - offset: '0x1a5690'
+    name: HI-02 0x1a5690
+    expected: "<0xFD><0x01> ne\\n<0xFD><0x02> saunp diyaa."
+  - offset: '0x1a56a7'
+    name: HI-02 0x1a56a7
+    expected: "Kyaa nayaa naam doge\\nis <0xFD><0x02> ko?"
+  - offset: '0x1a5700'
+    name: HI-02 0x1a5700
+    expected: "<0xFD><0x01> ne ek <0xFD><0x03>\\nzameen ki gahraai se khodaa."
+  - offset: '0x1a58a7'
+    name: HI-02 0x1a58a7
+    expected: "Dekhein.\\nAre! Tumne sirf<0xFA><0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x04> tarah ke Pokemon pakde!<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> tarah ke chaahiye."
+  - offset: '0x1a5909'
+    name: HI-02 0x1a5909
+    expected: "Achchhaa, samajh aayaa.<0xFB><0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x04> tarah ke Pokemon\\nmilne par vaapas aanaa."
+  - offset: '0x1a594d'
+    name: HI-02 0x1a594d
+    expected: "Are! Tumhaare paas\\n<0xFD><0x03> ke liye jagah nahin."
+  - offset: '0x1a597b'
+    name: HI-02 0x1a597b
+    expected: "Mujhe Pokemon\\n<0xFD><0x02> chaahiye!<0xFB>Badle mein meraa\\n<0xFD><0x03> loge?"
+  - offset: '0x1a59b6'
+    name: HI-02 0x1a59b6
+    expected: "Are!\\nKhair, jaane do."
+  - offset: '0x1a59c6'
+    name: HI-02 0x1a59c6
+    expected: "Kyaa?\\nYeh <0xFD><0x02> nahin hai!"
+  - offset: '0x1a59da'
+    name: HI-02 0x1a59da
+    expected: "Are, shukriyaa!"
+  - offset: '0x1a59e7'
+    name: HI-02 0x1a59e7
+    expected: "Meraa <0xFD><0x03> badhiyaa hai na?"
+  - offset: '0x1a5ad6'
+    name: HI-02 0x1a5ad6
+    expected: "Namaste!\\nTumhaare paas <0xFD><0x02> hai?<0xFB>Badle mein meraa\\n<0xFD><0x03> loge?"
+  - offset: '0x1a5b08'
+    name: HI-02 0x1a5b08
+    expected: "Yeh to buraa huaa."
+  - offset: '0x1a5b18'
+    name: HI-02 0x1a5b18
+    expected: "Yeh <0xFD><0x02> nahin hai.<0xFB>Mile to mujhse adlaa-badli karnaa."
+  - offset: '0x1a5b4a'
+    name: HI-02 0x1a5b4a
+    expected: "Shukriyaa, tum dost ho!"
+  - offset: '0x1a5b60'
+    name: HI-02 0x1a5b60
+    expected: "Meraa <0xFD><0x03> kaisaa hai?\\nMeraa <0xFD><0x02> achchhaa hai!"
+  - offset: '0x1a5b88'
+    name: HI-02 0x1a5b88
+    expected: "Vaah!\\nKey Card se darvaazaa khulaa!"
+  - offset: '0x1a5bc6'
+    name: HI-02 0x1a5bc6
+    expected: "Prof. Log kaa PC kholaa.<0xFB>Pokedex ki jaanch kaa\\nSystem kholaa."
+  - offset: '0x1a5c03'
+    name: HI-02 0x1a5c03
+    expected: "Apne Pokedex ki\\njaanch karvaaoge?"
+  - offset: '0x1a5c2e'
+    name: HI-02 0x1a5c2e
+    expected: "Prof. Log ke PC se sampark band."
+  - offset: '0x1a5c4d'
+    name: HI-02 0x1a5c4d
+    expected: "Kisi ki aavaaz aayi,\\n'Bhaago mat!'"
+  - offset: '0x1a5cdf'
+    name: HI-02 0x1a5cdf
+    expected: "Darvaazaa khulaa hai."
+  - offset: '0x1a5cf1'
+    name: HI-02 0x1a5cf1
+    expected: "<0xFD><0x03> ko\\nSomeone's PC mein bhejaa.<0xFB>Use Box mein rakhaa,\\nnaam: '<0xFD><0x02>'."
+  - offset: '0x1a5d31'
+    name: HI-02 0x1a5d31
+    expected: "<0xFD><0x03> ko\\nAyla's PC mein bhejaa.<0xFB>Use Box mein rakhaa,\\nnaam: '<0xFD><0x02>'."
+  - offset: '0x1a5d6e'
+    name: HI-02 0x1a5d6e
+    expected: "Box '<0xFD><0x04>'\\nSomeone's PC mein bharaa thaa.<0xFB><0xFD><0x03> ko bhejaa\\nBox '<0xFD><0x02>' mein."
+  - offset: '0x1a5db1'
+    name: HI-02 0x1a5db1
+    expected: "Box '<0xFD><0x04>'\\nAyla's PC mein bharaa thaa.<0xFB><0xFD><0x03> ko bhejaa\\nBox '<0xFD><0x02>' mein."
+  - offset: '0x1a5df1'
+    name: HI-02 0x1a5df1
+    expected: "<0xFD><0x01> ko\\n<0xFD><0x02> milaa!"
+  - offset: '0x1a5e31'
+    name: HI-02 0x1a5e31
+    expected: "Pokemon ke liye jagah nahin!<0xFB>Pokemon Box bhare hain,\\naur nahin rakh sakte!"
+  - offset: '0x1a5e89'
+    name: HI-02 0x1a5e89
+    expected: "Pahle apne Pokemon ko\\npoori tarah theek karo."
+  - offset: '0x1a5ec0'
+    name: HI-02 0x1a5ec0
+    expected: "Tumhaare Pokemon ab\\npoori tarah theek hain.<0xFB>Unki oorjaa, yaani HP,\\nkam ho to hamaare paas aanaa.<0xFB>Door jaane kaa iraadaa ho,\\nto Pokemon Mart se<0xFA>kuchh Potion khareednaa.<0xFB>Tum khoob aage badho!"
+  - offset: '0x1a5f9b'
+    name: HI-02 0x1a5f9b
+    expected: "Tumhaare Pokemon ab\\npoori tarah theek hain.<0xFB>Tum khoob aage badho!"
+  - offset: '0x1a5fdf'
+    name: HI-02 0x1a5fdf
+    expected: "<0xFD><0x01>!\\nGhar mein svaagat hai.<0xFB>Lagtaa hai tumhein kaafi\\nanubhav huaa.<0xFB>Shaayad tumhein thodaa\\naaraam karnaa chaahiye."
+  - offset: '0x1a6046'
+    name: HI-02 0x1a6046
+    expected: "Achchhaa hai!<0xFB>Tum aur tumhaare Pokemon\\nab kaafi behtar lagte ho.<0xFB>Pokemon ke HP kam hon to\\n<0xFC><0x01><0x06>Pokemon Center<0xFC><0x01><0x04> mein theek karaao!<0xFB>Shaayad sabse paas vaalaa\\n<0xFC><0x01><0x06>Bellin Town<0xFC><0x01><0x04> mein hai.<0xFB>Yaa kuchh <0xFC><0x01><0x06>Potion<0xFC><0x01><0x04> khareedo\\n<0xFC><0x01><0x06>Poke Mart<0xFC><0x01><0x04> se!<0xFB>Bure vakt ke liye taiyaar\\nrahnaa hameshaa achchhaa hai.<0xFB>Meraa naam roshan karnaa!<0xFB>Apnaa dhyaan rakhnaa!"
+  - offset: '0x1a61e5'
+    name: HI-02 0x1a61e5
+    expected: "<0xFD><0x01> ke paas ladne laayak\\nPokemon nahin hain!<0xFB><0xFD><0x01> ko hosh nahin rahaa!"
+  - offset: '0x1a6211'
+    name: HI-02 0x1a6211
+    expected: "Namaste!\\nKyaa madad chaahiye?"
+  - offset: '0x1a622c'
+    name: HI-02 0x1a622c
+    expected: "Yahaan ek savaal-patra hai.\\nIse bharnaa chaahoge?"
+  - offset: '0x1a6265'
+    name: HI-02 0x1a6265
+    expected: "Savaal-patra bharne kaa\\nvakt dene ke liye shukriyaa.<0xFB>Tumhaare sujhaav aage\\nkaam aayenge."
+  - offset: '0x1a62d3'
+    name: HI-02 0x1a62d3
+    expected: "Are, namaste!\\nTum ye shabd jaante ho?<0xFB>To tumhein MYSTERY GIFT\\nke baare mein pataa hogaa.<0xFB>Ab se tumhein MYSTERY GIFT\\nmilne chaahiye!"
+  - offset: '0x1a6359'
+    name: HI-02 0x1a6359
+    expected: "Khel save karne ke baad\\nMYSTERY GIFT khol sakte ho."
+  - offset: '0x1a6393'
+    name: HI-02 0x1a6393
+    expected: "MYSTERY GIFT System kholne\\nke liye shukriyaa."
+  - offset: '0x1a63c4'
+    name: HI-02 0x1a63c4
+    expected: "<0xFD><0x02> ud gayaa!"
+  - offset: '0x1a63e8'
+    name: HI-02 0x1a63e8
+    expected: "<0xFD><0x01> ko <0xFD><0x03> milaa!\\nIsmein <0xFD><0x02> hai."
+  - offset: '0x1a6c74'
+    name: HI-02 0x1a6c74
+    expected: "Paani gahraa neelaa hai."
+  - offset: '0x1a6ca3'
+    name: HI-02 0x1a6ca3
+    expected: "Tumhaare Pokedex ki\\nab tak ki pragati:<0xFB><0xFD><0x02> Pokemon dekhe aur\\n<0xFD><0x03> Pokemon pakde.<0xFB><0xFC><0x06><0x02>Prof. Log ki raay:"
+  - offset: '0x1a6d17'
+    name: HI-02 0x1a6d17
+    expected: "Abhi bahut kaam baaki hai.<0xFB>Har ghaas ke tukde mein\\njaao aur Pokemon dhoondho!"
+  - offset: '0x1a6d6d'
+    name: HI-02 0x1a6d6d
+    expected: "Lagtaa hai tum sahi\\ndishaa mein badh rahe ho!<0xFB>Mere ek sahaayak ke paas FLASH\\nHM hai. Zaroor le lenaa!"
+  - offset: '0x1a6ddf'
+    name: HI-02 0x1a6ddf
+    expected: "Tumhaaraa Pokedex abhi\\naur bhar saktaa hai!<0xFB>Aur tarah ke Pokemon\\npakadne ki koshish karo!"
+  - offset: '0x1a6e36'
+    name: HI-02 0x1a6e36
+    expected: "Achchhaa, saaf hai ki tum\\nkhoob mehnat kar rahe ho!<0xFB>Mere ek sahaayak ke paas\\nITEMFINDER hai. Zaroor lenaa!"
+  - offset: '0x1a6ea4'
+    name: HI-02 0x1a6ea4
+    expected: "Tumhaaraa Pokedex\\nkaafi achchhaa badh rahaa hai!<0xFB>Mere ek sahaayak ke paas\\nAMULET COIN hai. Zaroor lenaa!"
+  - offset: '0x1a6f0b'
+    name: HI-02 0x1a6f0b
+    expected: "Are, aakhir 50 se zyaadaa\\ntarah ke Pokemon ho gaye!<0xFB>Mere ek sahaayak ke paas EXP.\\nSHARE hai. Zaroor le lenaa!"
+  - offset: '0x1a6f71'
+    name: HI-02 0x1a6f71
+    expected: "Hoho! Yeh to kaafi\\nshaandaar Pokedex ban rahaa hai!"
+  - offset: '0x1a6fab'
+    name: HI-02 0x1a6fab
+    expected: "Bahut achchhe!<0xFB>Machhli pakadne se tumhein\\naur bhi Pokemon milenge!"
+  - offset: '0x1a6ff1'
+    name: HI-02 0x1a6ff1
+    expected: "Vaah! Shaayad tumhein\\ncheezon kaa sangrah pasand hai?"
+  - offset: '0x1a7031'
+    name: HI-02 0x1a7031
+    expected: "Kamaal hai!\\nYeh karnaa mushkil rahaa hogaa!"
+  - offset: '0x1a7063'
+    name: HI-02 0x1a7063
+    expected: "Aakhir 100 tarah ke mil gaye!\\nTumhaaraa hunar kamaal hai!"
+  - offset: '0x1a70a5'
+    name: HI-02 0x1a70a5
+    expected: "Pokemon ke vikasit roop\\nbhi hain! Bahut khoob!"
+  - offset: '0x1a70d8'
+    name: HI-02 0x1a70d8
+    expected: "Bahut achchhe! Doston se\\nadlaa-badli karke aur lo!"
+  - offset: '0x1a7108'
+    name: HI-02 0x1a7108
+    expected: "Shaandaar!\\nAb tum ismein maahir ho!"
+  - offset: '0x1a7137'
+    name: HI-02 0x1a7137
+    expected: "Ab kahne ko kuchh nahin!\\nAb tum Pokemon PROFESSOR ho!"
+  - offset: '0x1a7175'
+    name: HI-02 0x1a7175
+    expected: "Tumhaaraa Pokedex pooraa hai!\\nBadhaai ho!!"
+  - offset: '0x1a71aa'
+    name: HI-02 0x1a71aa
+    expected: "Aur National Pokedex mein:<0xFB><0xFD><0x02> Pokemon dekhe aur\\n<0xFD><0x03> Pokemon pakde."
+  - offset: '0x1a71ee'
+    name: HI-02 0x1a71ee
+    expected: "Tumhaaraa National Pokedex\\npooraa hone kaa intzaar rahegaa!"
+  - offset: '0x1a722f'
+    name: HI-02 0x1a722f
+    expected: "Aakhirkaar!<0xFB>Tumhaaraa Pokedex\\naakhir pooraa ho gayaa!<0xFB>Shaandaar!\\nSach mein, kamaal kaa kaam hai!"
+  - offset: '0x1b1d7d'
+    name: HI-02 0x1b1d7d
+    expected: "Yeh Pokemon Printer hai!<0xFB>Yeh Trainer Card ke peechhe\\nPokemon ki tasveer chhaaptaa hai.<0xFB>Sirf <0xB7>50 lagenge.\\nAazmaanaa chaahoge?"
+  - offset: '0x1b1e07'
+    name: HI-02 0x1b1e07
+    expected: "Tumhaare paas kaafi paise nahin."
+  - offset: '0x1b1e24'
+    name: HI-02 0x1b1e24
+    expected: "Tasveer kaa prakaar chuno."
+  - offset: '0x1b1e42'
+    name: HI-02 0x1b1e42
+    expected: "Tasveer ke liye khoob muskuraao!\\nTeen. Do. Ek.<0xFB>Flash!"
+  - offset: '0x1b1e7d'
+    name: HI-02 0x1b1e7d
+    expected: "Pokemon ki tasveer taiyaar hai!\\nApnaa Trainer Card dekho."
+  - offset: '0x1bc35e'
+    name: HI-02 0x1bc35e
+    expected: "Kaun si sevaa kaa\\nistemaal karnaa hai?"
+  - offset: '0x1bc388'
+    name: HI-02 0x1bc388
+    expected: "GBA Game Link cable se doosre\\nkhilaadi se Pokemon badlo."
+  - offset: '0x1bc3c7'
+    name: HI-02 0x1bc3c7
+    expected: "GBA Game Link cable se doosre\\nTrainer se lad sakte ho."
+  - offset: '0x1bc409'
+    name: HI-02 0x1bc409
+    expected: "Double Battle ke liye kam se\\nkam do Pokemon chaahiye."
+  - offset: '0x1bc442'
+    name: HI-02 0x1bc442
+    expected: "Adlaa-badli ke liye saath\\nkam se kam do Pokemon chaahiye."
+  - offset: '0x1bc47c'
+    name: HI-02 0x1bc47c
+    expected: "<0xFD><0x02> Berry pakde Pokemon\\nkaa adlaa-badli nahin hogaa."
+  - offset: '0x1bc4ac'
+    name: HI-02 0x1bc4ac
+    expected: "Ruko.\\n... B Button: Radd"
+  - offset: '0x1bc4ce'
+    name: HI-02 0x1bc4ce
+    expected: "Sab khilaadi taiyaar hon to...\\nA Button: Pushti<0xFA>B Button: Radd"
+  - offset: '0x1bc50d'
+    name: HI-02 0x1bc50d
+    expected: "<0xFD><0x02> khilaadiyon se judo.\\nA Button: Pushti<0xFA>B Button: Radd"
+  - offset: '0x1bc54c'
+    name: HI-02 0x1bc54c
+    expected: "Judne kaa intzaar...\\n... B Button: Radd"
+  - offset: '0x1bc590'
+    name: HI-02 0x1bc590
+    expected: "Andar aao."
+  - offset: '0x1bc59e'
+    name: HI-02 0x1bc59e
+    expected: "Ab apne kamre ki or chalo."
+  - offset: '0x1bc5c0'
+    name: HI-02 0x1bc5c0
+    expected: "Koi judne ko taiyaar nahin hai.<0xFB>Sabki taiyaari hone par\\nvaapas aao."
+  - offset: '0x1bc615'
+    name: HI-02 0x1bc615
+    expected: "Maaf karo, judne mein galti hui.\\nReset karke phir koshish karo."
+  - offset: '0x1bc64e'
+    name: HI-02 0x1bc64e
+    expected: "Lagtaa hai saathiyon ne\\nalag-alag vikalp chune hain."
+  - offset: '0x1bc68a'
+    name: HI-02 0x1bc68a
+    expected: "Phir aanaa."
+  - offset: '0x1bc6a1'
+    name: HI-02 0x1bc6a1
+    expected: "Khilaadiyon ki sankhyaa\\ngalat hai."
+  - offset: '0x1bc6ca'
+    name: HI-02 0x1bc6ca
+    expected: "Single Battle Mode mein\\n<0xFD><0x02> log nahin khel sakte."
+  - offset: '0x1bc700'
+    name: HI-02 0x1bc700
+    expected: "Double Battle Mode mein\\n<0xFD><0x02> log nahin khel sakte."
+  - offset: '0x1bc736'
+    name: HI-02 0x1bc736
+    expected: "Is Battle Mode ke liye\\nchaar khilaadi chaahiye."
+  - offset: '0x1bc76b'
+    name: HI-02 0x1bc76b
+    expected: "Khilaadiyon ki sankhyaa jaancho\\naur phir shuroo karo."
+  - offset: '0x1bc7a1'
+    name: HI-02 0x1bc7a1
+    expected: "Kamraa chhodne par sampark\\ntoot jaayegaa. Theek hai?"
+  - offset: '0x1bc7e2'
+    name: HI-02 0x1bc7e2
+    expected: "Sampark tod rahe hain...\\nTumhein kamre se baahar<0xFA>le jaayenge. Ruko."
+  - offset: '0x1bc827'
+    name: HI-02 0x1bc827
+    expected: "Yah Trainer itnaa vyast hai\\nki dhyaan nahin de rahaa."
+  - offset: '0x1bc84b'
+    name: HI-02 0x1bc84b
+    expected: "Vaah! <0xFD><0x02> kaa\\nTrainer Card dekh liyaa!"
+  - offset: '0x1bc874'
+    name: HI-02 0x1bc874
+    expected: "Vaah! <0xFD><0x02> kaa\\nTrainer Card dekh liyaa!<0xFB>Yah <0xFD><0x03> card hai!"
+  - offset: '0x1bc8ad'
+    name: HI-02 0x1bc8ad
+    expected: "Apni jagah baitho aur\\nladaai shuroo karo."
+  - offset: '0x1bc8da'
+    name: HI-02 0x1bc8da
+    expected: "Apni jagah baitho aur\\nadlaa-badli shuroo karo."
+  - offset: '0x1bc918'
+    name: HI-02 0x1bc918
+    expected: "Trainer Card ki jaankaari\\npar nayaa data likhaa jaayegaa."
+  - offset: '0x1bc943'
+    name: HI-02 0x1bc943
+    expected: "Aashaa hai phir milenge!"
+  - offset: '0x1bc95c'
+    name: HI-02 0x1bc95c
+    expected: "Bahut afsos hai.<0xFB>Door doosre kshetra ke\\nTrainer se adlaa-badli ki<0xFA>suvidhaa abhi nahin hai."
+  - offset: '0x1bc9c0'
+    name: HI-02 0x1bc9c0
+    expected: "Doosraa Trainer taiyaar nahin hai."
+  - offset: '0x1bc9e0'
+    name: HI-02 0x1bc9e0
+    expected: "Tumhaare paas kam se kam ek\\nPokemon hai jo nahin le sakte."
+  - offset: '0x1bca13'
+    name: HI-02 0x1bca13
+    expected: "Wireless Adapter theek se\\nnahin judaa hai."
+  - offset: '0x1bca43'
+    name: HI-02 0x1bca43
+    expected: "Khilaadi swaagat counter\\npar aaein."
+  - offset: '0x1bca95'
+    name: HI-02 0x1bca95
+    expected: "Yahaan doosre Trainer se\\napne Pokemon badal sakte ho."
+  - offset: '0x1bcacb'
+    name: HI-02 0x1bcacb
+    expected: "Yahaan apne doston se\\nlad sakte ho."
+  - offset: '0x1bcaf2'
+    name: HI-02 0x1bcaf2
+    expected: "Do se paanch Trainer saath\\nBERRY POWDER banaa sakte hain."
+  - offset: '0x1bcb42'
+    name: HI-02 0x1bcb42
+    expected: "Chune MENU vikalp ko radd kare."
+  - offset: '0x1bcb81'
+    name: HI-02 0x1bcb81
+    expected: "Berry Crush ke liye kam se\\nkam ek Berry chaahiye."
+  - offset: '0x1bcbc3'
+    name: HI-02 0x1bcbc3
+    expected: "Union Room mein jaane ke liye\\nkam se kam do Pokemon chaahiye."
+  - offset: '0x1bcc00'
+    name: HI-02 0x1bcc00
+    expected: "<0xFD><0x02> Berry pakde Pokemon\\nUnion Room mein nahin aa sakte."
+  - offset: '0x1bcc3a'
+    name: HI-02 0x1bcc3a
+    expected: "Yah Pokemon Wireless Club\\nUnion Room hai.<0xFB>Afsos, tumhaaraa Wireless\\nAdapter theek se nahin judaa hai.<0xFB>Phir aanaa."
+  - offset: '0x1bccca'
+    name: HI-02 0x1bccca
+    expected: "Lagtaa hai <0xFD><0x02>\\nabhi khel rahe hain.<0xFA>Lage raho!"
+  - offset: '0x1bd28d'
+    name: HI-02 0x1bd28d
+    expected: "Pokemon Wireless Club\\nDirect Corner mein swaagat hai.<0xFB>Yahaan apne doston se\\nseedhe mil sakte ho.<0xFB>Kaun se kamre mein\\njaanaa hai?"
+  - offset: '0x1bd317'
+    name: HI-02 0x1bd317
+    expected: "Kyaa Pokemon badalnaa hai?"
+  - offset: '0x1bd338'
+    name: HI-02 0x1bd338
+    expected: "Kaun saa Battle Mode\\nkhelnaa hai?"
+  - offset: '0x1bd362'
+    name: HI-02 0x1bd362
+    expected: "Kyaa Berry Crush System\\nistemaal karnaa hai?"
+  - offset: '0x1bd390'
+    name: HI-02 0x1bd390
+    expected: "Teen Battle Mode hain.<0xFB>Single Battle mein do Trainer,\\nsabke paas ek yaa adhik Pokemon.<0xFB>Har Trainer ek baar mein ek\\nPokemon se lad saktaa hai.<0xFB>Double Battle mein do Trainer,\\nsabke paas do yaa adhik Pokemon.<0xFB>Har Trainer ek baar mein do\\nPokemon ladaai mein bhejegaa.<0xFB>Multi Battle mein chaar Trainer,\\nsabke paas ek yaa adhik Pokemon.<0xFB>Har Trainer ek baar mein ek\\nPokemon se lad saktaa hai."
+  - offset: '0x1bd51b'
+    name: HI-02 0x1bd51b
+    expected: "Tay karo, tum donon mein se\\nkaun Leader banegaa.<0xFB>Phir doosraa khilaadi\\n'Join Group' chune."
+  - offset: '0x1bd582'
+    name: HI-02 0x1bd582
+    expected: "Tay karo, tum chaaron mein se\\nkaun Group Leader banegaa.<0xFB>Phir baaki khilaadi\\n'Join Group' chunein."
+  - offset: '0x1bd5f1'
+    name: HI-02 0x1bd5f1
+    expected: "Tay karo, tum mein se kaun\\nGroup Leader banegaa.<0xFB>Phir baaki khilaadi\\n'Join Group' chunein."
+  - offset: '0x1bd65b'
+    name: HI-02 0x1bd65b
+    expected: "Pokemon Wireless Club\\nUnion Room mein swaagat hai.<0xFB>Yahaan doosre Trainer se\\nseedhe mil sakte ho, kuchh ko<0xFA>shaayad tum jaante bhi na ho.<0xFB>Kyaa kamre mein jaanaa hai?"
+  - offset: '0x1bd706'
+    name: HI-02 0x1bd706
+    expected: "Union Room ke Trainer ve\\naas-paas ke khilaadi honge<0xFA>jo bhi is kamre mein aaye hain.<0xFB>Yahaan bahut kuchh kar sakte ho,\\njaise ek-doosre ko namaste kahnaa.<0xFB>Akele mukaable ke liye Lv. 30 tak\\nke do Pokemon laa sakte ho.<0xFB>Do se paanch logon ke saath\\nbaatcheet kar sakte ho.<0xFB>Yaa adlaa-badli ke liye\\nPokemon darj kar sakte ho.<0xFB>Kyaa kamre mein jaanaa hai?"
+  - offset: '0x1bd86a'
+    name: HI-02 0x1bd86a
+    expected: "Aashaa hai Union Room mein\\ntumhein mazaa aayegaa."
+  - offset: '0x1bd898'
+    name: HI-02 0x1bd898
+    expected: "Namaste!\\nMeraa naam Teala hai.<0xFB>Lagtaa hai yahaan oopar\\ntum pehli baar aaye ho.<0xFB>Main Wireless Communication\\nSystem samjhaaungi.<0xFB>Pehle hamaare Pokemon Centre\\nki yah manzil dikhaani hai.<0xFB>Is taraf aao."
+  - offset: '0x1bdb85'
+    name: HI-02 0x1bdb85
+    expected: "Namaste, <0xFD><0x01>!<0xFB>Main Teala, Pokemon Centre\\n2F ki sahaayikaa hoon.<0xFB>Judne ke baare mein mujhse\\nkuchh poochhnaa thaa?"
+  - offset: '0x1bdedf'
+    name: HI-02 0x1bdedf
+    expected: "Aashaa hai Wireless Communication\\nSystem mein mazaa aayegaa."
+  - offset: '0x1bdf94'
+    name: HI-02 0x1bdf94
+    expected: "Lagtaa hai yah ped kaataa\\njaa saktaa hai!<0xFB>Kyaa ise kaatnaa hai?"
+  - offset: '0x1bdfd7'
+    name: HI-02 0x1bdfd7
+    expected: "<0xFD><0x02> ne <0xFD><0x03> kiyaa!"
+  - offset: '0x1bdfe3'
+    name: HI-02 0x1bdfe3
+    expected: "Lagtaa hai yah ped kaataa\\njaa saktaa hai!"
+  - offset: '0x1be09d'
+    name: HI-02 0x1be09d
+    expected: "Lagtaa hai yah chattaan tootegi.\\nKyaa Rock Smash karnaa hai?"
+  - offset: '0x1be0e2'
+    name: HI-02 0x1be0e2
+    expected: "Yah khurduri chattaan hai, par\\nPokemon shaayad ise tod sake."
+  - offset: '0x1be19a'
+    name: HI-02 0x1be19a
+    expected: "Yah badaa patthar hai, par\\nPokemon shaayad ise hataa sake.<0xFB>Kyaa Strength karnaa hai?"
+  - offset: '0x1be1fa'
+    name: HI-02 0x1be1fa
+    expected: "<0xFD><0x02> ne Strength kiyaa!<0xFB><0xFD><0x02> ke Strength se\\npatthar hilaanaa mumkin huaa!"
+  - offset: '0x1be244'
+    name: HI-02 0x1be244
+    expected: "Yah badaa patthar hai, par\\nPokemon shaayad ise hataa sake."
+  - offset: '0x1be284'
+    name: HI-02 0x1be284
+    expected: "Strength se patthar\\nhilaanaa mumkin huaa."
+  - offset: '0x1be30a'
+    name: HI-02 0x1be30a
+    expected: "Paani ki deevaar garaj ke saath\\nneeche gir rahi hai."
+  - offset: '0x1be33f'
+    name: HI-02 0x1be33f
+    expected: "Yah badaa jharnaa hai.\\nKyaa Waterfall karnaa hai?"
+  - offset: '0x1be378'
+    name: HI-02 0x1be378
+    expected: "<0xFD><0x02> ne Waterfall kiyaa."
+  - offset: '0x1be42b'
+    name: HI-02 0x1be42b
+    expected: "Yahaan samudra gahraa hai.\\nPokemon shaayad dubki lagaa sake."
+  - offset: '0x1be469'
+    name: HI-02 0x1be469
+    expected: "Yahaan samudra gahraa hai.\\nKyaa Dive karnaa hai?"
+  - offset: '0x1be49b'
+    name: HI-02 0x1be49b
+    expected: "<0xFD><0x02> ne Dive kiyaa."
+  - offset: '0x1be4a9'
+    name: HI-02 0x1be4a9
+    expected: "Oopar se roshni aa rahi hai.\\nPokemon satah par aa saktaa hai."
+  - offset: '0x1be4ef'
+    name: HI-02 0x1be4ef
+    expected: "Oopar se roshni aa rahi hai.\\nKyaa Dive karnaa hai?"
+  - offset: '0x1be52f'
+    name: HI-02 0x1be52f
+    expected: "Oopar rukaavat hai.\\nYahaan Dive nahin kar sakte."
+  - offset: '0x1be56d'
+    name: HI-02 0x1be56d
+    expected: "Lagtaa hai yahaan kuchh nahin hai."
+  - offset: '0x1bef88'
+    name: HI-02 0x1bef88
+    expected: "Namaste, tumse milkar khushi hui!<0xFB>Aise rookhe mat bano.\\nTum bhi namaste kaho na?<0xFB>Chalo, apne baare mein\\nkuchh bataao.<0xFB>Tumhaaraa parichay sunnaa hai!"
+  - offset: '0x1bf017'
+    name: HI-02 0x1bf017
+    expected: "Apni koi achchhi baat bataao.\\nTumhaaraa parichay kyaa hai?"
+  - offset: '0x1bf053'
+    name: HI-02 0x1bf053
+    expected: "Parichay chaar shabdon yaa\\nvaakyon se likhaa jaataa hai.<0xFB>Parichay ke liye bahut se\\nshabd chun sakte ho.<0xFB>Shabd aur vaakya kai\\nsamoohon mein bante hain.<0xFB>Pahle samooh chuno, phir\\nek shabd yaa vaakya chuno.<0xFB>Yah bahut aasaan hai.\\nKoshish kyon nahin karte?"
+  - offset: '0x1bf166'
+    name: HI-02 0x1bf166
+    expected: "Tumhaaraa parichay kyaa hai?"
+  - offset: '0x1bf17b'
+    name: HI-02 0x1bf17b
+    expected: "Are, aisaa mat karo.\\nMujhe apnaa parichay bataao."
+  - offset: '0x1bf1b2'
+    name: HI-02 0x1bf1b2
+    expected: "Achchhaa, ab nahin bataanaa?\\nTum jaldi man badalte ho!"
+  - offset: '0x1bf1e8'
+    name: HI-02 0x1bf1e8
+    expected: "Namaste!\\nPhir mulaakaat hui!"
+  - offset: '0x1bf1fb'
+    name: HI-02 0x1bf1fb
+    expected: "Kyaa tum apnaa parichay\\nbadalnaa chaahte ho?"
+  - offset: '0x1bf222'
+    name: HI-02 0x1bf222
+    expected: "Ab tum kaise ho?\\nMujhe jaanna hai."
+  - offset: '0x1bf252'
+    name: HI-02 0x1bf252
+    expected: "Achchhaa, tumhein apnaa\\nparichay pasand hai.<0xFB>Mujhe bhi lagtaa hai."
+  - offset: '0x1bf28e'
+    name: HI-02 0x1bf28e
+    expected: "Hmm...<0xFB>Tumhaaraa parichay tumhaare\\nbaare mein bahut bataataa hai.<0xFB>Ab tumhein behtar jaan liyaa,\\nto hamaari dosti aur gahri hui!"
+  - offset: '0x1bf30d'
+    name: HI-02 0x1bf30d
+    expected: "Yah pahle bhi sunaa hai...<0xFB>Door rahne vaalaa meraa cousin\\nshaayad yahi kahtaa thaa."
+  - offset: '0x1bf36a'
+    name: HI-02 0x1bf36a
+    expected: "Agli baar apne baare mein\\naur bataanaa!"
+  - offset: '0x1bf555'
+    name: HI-02 0x1bf555
+    expected: "Main Day-Care Man hoon.<0xFB>Trainer ke pyaare Pokemon\\nki dekhbhaal kartaa hoon.<0xFB>Pokemon palvaanaa ho, to\\nmeri patni se baat karo."
+  - offset: '0x1bf5e3'
+    name: HI-02 0x1bf5e3
+    expected: "Are, tum ho!<0xFB>Tumhaare Pokemon paalte hue\\nhamein badaa aashcharya huaa!<0xFB>Tumhaare Pokemon ko Andaa milaa!<0xFB>Pataa nahin kaise aayaa, par\\ntumhaare Pokemon ke paas thaa.<0xFB>Tumhein chaahiye, hai na?"
+  - offset: '0x1bf69a'
+    name: HI-02 0x1bf69a
+    expected: "Are, tumse milkar khushi hui.\\nTumhaaraa <0xFD><0x02> theek hai."
+  - offset: '0x1bf6cf'
+    name: HI-02 0x1bf6cf
+    expected: "Theek hai, main rakh loongaa.\\nShukriyaa!"
+  - offset: '0x1bf6f0'
+    name: HI-02 0x1bf6f0
+    expected: "Tumhaare paas jagah nahin...\\nJagah banaakar vaapas aao."
+  - offset: '0x1bf72a'
+    name: HI-02 0x1bf72a
+    expected: "<0xFD><0x01> ko Andaa milaa\\nDay-Care Man se."
+  - offset: '0x1bf755'
+    name: HI-02 0x1bf755
+    expected: "Iskaa achchhe se khayaal rakhnaa."
+  - offset: '0x1bf789'
+    name: HI-02 0x1bf789
+    expected: "Are, tum! Tumhaare <0xFD><0x02> aur\\n<0xFD><0x03> theek hain."
+  - offset: '0x1bf7b6'
+    name: HI-02 0x1bf7b6
+    expected: "Sach mein rakh loongaa.\\nTumhein chaahiye, hai na?"
+  - offset: '0x1bf7e4'
+    name: HI-02 0x1bf7e4
+    expected: "Main Day-Care Lady hoon.<0xFB>Ham Pokemon paal sakte hain.<0xFB>Kyaa ek ko paalne ke liye doge?"
+  - offset: '0x1bf839'
+    name: HI-02 0x1bf839
+    expected: "Tumhaaraa kaun saa Pokemon\\npaalein?"
+  - offset: '0x1bf860'
+    name: HI-02 0x1bf860
+    expected: "Theek, tumhaaraa <0xFD><0x02> kuchh\\nsamay paalenge.<0xFB>Baad mein lene aanaa."
+  - offset: '0x1bf89f'
+    name: HI-02 0x1bf89f
+    expected: "Ham do Pokemon paal sakte hain.<0xFB>Kyaa ek aur Pokemon\\npaalne ke liye doge?"
+  - offset: '0x1bf8f6'
+    name: HI-02 0x1bf8f6
+    expected: "Mere pati tumhein khoj rahe the."
+  - offset: '0x1bf916'
+    name: HI-02 0x1bf916
+    expected: "Achchhaa, theek hai.\\nPhir aanaa."
+  - offset: '0x1bf932'
+    name: HI-02 0x1bf932
+    expected: "Tumhaare paas paise kam hain..."
+  - offset: '0x1bf94f'
+    name: HI-02 0x1bf94f
+    expected: "Kyaa doosraa bhi vaapas\\nloge?"
+  - offset: '0x1bf976'
+    name: HI-02 0x1bf976
+    expected: "Theek hai.\\nPhir aanaa."
+  - offset: '0x1bf988'
+    name: HI-02 0x1bf988
+    expected: "Are, tum ho!\\nMilkar khushi hui.<0xFB>Tumhaaraa Pokemon zaroor\\nachchhaa hogaa!"
+  - offset: '0x1bf9cc'
+    name: HI-02 0x1bf9cc
+    expected: "Tumhaare <0xFD><0x02> kaa star\\n<0xFD><0x03> badhaa hai."
+  - offset: '0x1bf9ef'
+    name: HI-02 0x1bf9ef
+    expected: "Tumhaaraa Pokemon dal bharaa hai.\\nJagah banaakar mujhse milo."
+  - offset: '0x1bfa3b'
+    name: HI-02 0x1bfa3b
+    expected: "Tumhaaraa <0xFD><0x02> vaapas lene\\nke liye <0xB7><0xFD><0x03> lagenge."
+  - offset: '0x1bfa67'
+    name: HI-02 0x1bfa67
+    expected: "Bahut achchhe!\\nYah lo tumhaaraa Pokemon."
+  - offset: '0x1bfa85'
+    name: HI-02 0x1bfa85
+    expected: "<0xFD><0x01> ne <0xFD><0x02> liyaa\\nDay-Care Lady se vaapas."
+  - offset: '0x1bfaad'
+    name: HI-02 0x1bfaad
+    expected: "Par tumhaare paas ek hi\\nPokemon hai.<0xFB>Kisi aur samay aanaa."
+  - offset: '0x1bfae8'
+    name: HI-02 0x1bfae8
+    expected: "Apnaa Pokemon vaapas loge?"
+  - offset: '0x1bfb09'
+    name: HI-02 0x1bfb09
+    expected: "Yah Pokemon mujhe de doge,\\nto kisse ladoge?<0xFB>Kisi aur samay aanaa."
+  - offset: '0x1bfb5a'
+    name: HI-02 0x1bfb5a
+    expected: "Hain?"
+  - offset: '0x1bfbe9'
+    name: HI-02 0x1bfbe9
+    expected: "Kyaa abhi SAFARI ZONE se\\nbaahar jaanaa chaahte ho?"
+  - offset: '0x1bfc1b'
+    name: HI-02 0x1bfc1b
+    expected: "PA: Ding-dong!<0xFB>Samay khatm!<0xFB>PA: Tumhaaraa SAFARI GAME khatm!"
+  - offset: '0x1bfc53'
+    name: HI-02 0x1bfc53
+    expected: "PA: Ding-dong!<0xFB>Tumhaari SAFARI BALLS khatm!<0xFB>PA: Tumhaaraa SAFARI GAME khatm!"
+  - offset: '0x1c0db0'
+    name: HI-02 0x1c0db0
+    expected: "Yah Pokemon ki kitaabon se\\nbharaa hai."
+  - offset: '0x1c0df1'
+    name: HI-02 0x1c0df1
+    expected: "Ek Town Map."
+  - offset: '0x1c0dfd'
+    name: HI-02 0x1c0dfd
+    expected: "Vaah!\\nPokemon kaa dher saaraa saamaan!"
+  - offset: '0x1c0e19'
+    name: HI-02 0x1c0e19
+    expected: "Bartan aur thaaliyaan kareene\\nse rakhe hain."
+  - offset: '0x1c0e40'
+    name: HI-02 0x1c0e40
+    expected: "Svaadisht khushboo hai!\\nYahaan khaanaa pakaa hai."
+  - offset: '0x1c0e73'
+    name: HI-02 0x1c0e73
+    expected: "Yah sundar bani almaari hai.\\nIsmein bahut saamaan aayegaa."
+  - offset: '0x1c0eac'
+    name: HI-02 0x1c0eac
+    expected: "Yahaan naashte kaa dher hai."
+  - offset: '0x1c0ecb'
+    name: HI-02 0x1c0ecb
+    expected: "Har zaroorat ki vastu milegi!\\nPokemon Mart"
+  - offset: '0x1c0ef7'
+    name: HI-02 0x1c0ef7
+    expected: "Apne Pokemon ko theek karo!\\nPokemon Center"
+  - offset: '0x1c0f19'
+    name: HI-02 0x1c0f19
+    expected: "INDIGO PLATEAU<0xFB>Trainer kaa antim lakshya!\\nPokemon LEAGUE HQ"
+  - offset: '0x1c0f59'
+    name: HI-02 0x1c0f59
+    expected: "INDIGO PLATEAU<0xFB>Pokemon kaa sarvochch kendra!\\nPokemon LEAGUE HQ"
+  - offset: '0x1c0f99'
+    name: HI-02 0x1c0f99
+    expected: "Ismein tarah-tarah kaa svaadisht\\nkhaanaa bharaa hogaa."
+  - offset: '0x1c0fd8'
+    name: HI-02 0x1c0fd8
+    expected: "Yah kisi cheez kaa khaakaa hai.\\nIsmein chitra aur likhaavat hai."
+  - offset: '0x1c101b'
+    name: HI-02 0x1c101b
+    expected: "Pokemon ki sundar tasveer hai.\\nYah khush lag rahaa hai."
+  - offset: '0x1c1060'
+    name: HI-02 0x1c1060
+    expected: "Yah kaun si machine hai?\\nIsse chhedchhaad mat karo!"
+  - offset: '0x1c109c'
+    name: HI-02 0x1c109c
+    expected: "Yah telephone hai.\\nIskaa istemaal mat karo."
+  - offset: '0x1c10c1'
+    name: HI-02 0x1c10c1
+    expected: "Uljhe shabd aur ank hain,\\nkuchh samajh nahin aataa..."
+  - offset: '0x1c10fc'
+    name: HI-02 0x1c10fc
+    expected: "Yah tarah-tarah ke saamaan\\nkaa vigyaapan hai."
+  - offset: '0x1c1134'
+    name: HI-02 0x1c1134
+    expected: "Vaah, svaadisht khushboo hai!\\nIsse bhookh lag sakti hai!"
+  - offset: '0x1c116e'
+    name: HI-02 0x1c116e
+    expected: "Iske andar...\\n...<0xFB>Yahaan kuchh nahin hai!"
+  - offset: '0x1c1194'
+    name: HI-02 0x1c1194
+    expected: "Yah Pokemon ke nishaan\\nvaalaa cup hai."
+  - offset: '0x1c11ba'
+    name: HI-02 0x1c11ba
+    expected: "Khidki khoob chamkaayi gayi hai."
+  - offset: '0x1c11dc'
+    name: HI-02 0x1c11dc
+    expected: "Khidki ke baahar...<0xFB>Aasmaan bahut hi\\nsundar lag rahaa hai."
+  - offset: '0x1c1217'
+    name: HI-02 0x1c1217
+    expected: "Kai rangon ki roshni\\njal-bujh rahi hai."
+  - offset: '0x1c124b'
+    name: HI-02 0x1c124b
+    expected: "Saare auzaar kareene se\\nrakhe hain."
+  - offset: '0x1c1273'
+    name: HI-02 0x1c1273
+    expected: "Yah koi machine hai.\\nBadi shaandaar hai."
+  - offset: '0x1c12a7'
+    name: HI-02 0x1c12a7
+    expected: "Yah nayaa video game hai!\\nBadaa mazedaar lagtaa hai!"
+  - offset: '0x1c12d6'
+    name: HI-02 0x1c12d6
+    expected: "Yahaan chori ke saaf\\nnishaan hain..."
+  - offset: '0x1c1300'
+    name: HI-02 0x1c1300
+    expected: "TV par ek Pokemon hai!\\nYah maze kar rahaa hai."
+  - offset: '0x1c13d6'
+    name: HI-02 0x1c13d6
+    expected: "Paas koi ladne laayak\\nTrainer nahin hai...<0xFB>VS Seeker band ho gayaa.<0xFC><0x09>"
+  - offset: '0x1c1429'
+    name: HI-02 0x1c1429
+    expected: "Doosre Trainer ladaai ko\\ntaiyaar nahin lagte.<0xFB>Kuchh der intzaar karein.<0xFC><0x09>"
+  - offset: '0x1c55c9'
+    name: HI-02 0x1c55c9
+    expected: "Kyaa khel save karnaa hai?"
+  - offset: '0x1c55ea'
+    name: HI-02 0x1c55ea
+    expected: "Ek save file pahle se hai.\\nKyaa us par likhnaa hai?"
+  - offset: '0x1c5625'
+    name: HI-02 0x1c5625
+    expected: "SAVE JAARI!\\nPOWER BAND MAT KARO."
+  - offset: '0x1c5647'
+    name: HI-02 0x1c5647
+    expected: "<0xFD><0x01> ne save kiyaa."
+  - offset: '0x1c566a'
+    name: HI-02 0x1c566a
+    expected: "SAAVDHAAN!<0xFB>Pahle se ek doosre khel ki\\nsave file maujood hai.<0xFB>Ab save kiyaa to doosre khel kaa\\npooraa safar, saari vastuen aur<0xFA>Pokemon hameshaa ke liye mitenge.<0xFB>Kyaa sach mein ab save karke\\ndoosri save file mitaani hai?"
+  - offset: '0x1c574f'
+    name: HI-02 0x1c574f
+    expected: "Nayaa naam"
+  - offset: '0x1c582d'
+    name: HI-02 0x1c582d
+    expected: "Button ke kaam unke mahatva ke\\nkram mein bataaye jaayenge."
+  - offset: '0x1c5875'
+    name: HI-02 0x1c5875
+    expected: "Paatra ko chalaataa hai.\\nJaankaari ke sheershak\\nbhi chuntaa hai."
+  - offset: '0x1c58ba'
+    name: HI-02 0x1c58ba
+    expected: "Chunaav pakkaa karne, dekhne,\\nbaat karne, paath badhaane ko."
+  - offset: '0x1c58f9'
+    name: HI-02 0x1c58f9
+    expected: "Baahar jaane, chunaav aur\\nmode radd karne ko."
+  - offset: '0x1c592b'
+    name: HI-02 0x1c592b
+    expected: "MENU kholne ko\\nyah button dabaao."
+  - offset: '0x1c594f'
+    name: HI-02 0x1c594f
+    expected: "Vastu khiskaane aur darj vastu\\nke istemaal ko."
+  - offset: '0x1c5981'
+    name: HI-02 0x1c5981
+    expected: "Khelne yaa kuchh karne\\nmein madad chaahiye to\\nL yaa R button dabaao."
+  - offset: '0x1c59d5'
+    name: HI-02 0x1c59d5
+    expected: "Tum ladke ho?\\nYaa ladki ho?"
+  - offset: '0x1c5a04'
+    name: HI-02 0x1c5a04
+    expected: "Jis duniyaa mein jaa rahe ho,\\nvahaan ek bade safar ke\\nnaayak tum hoge."
+  - offset: '0x1c5a6b'
+    name: HI-02 0x1c5a6b
+    expected: "Shahar, raaste yaa gufaa mein,\\njahaan bhi jaao, logon se bolo\\naur cheezen dekho. Har jagah se\\njaankaari aur sanket lo."
+  - offset: '0x1c5aeb'
+    name: HI-02 0x1c5aeb
+    expected: "Apne safar ke dauraan\\ntumhein kai faisle lene ke\\nmauke milenge.\\n\\nYaad rakho, tumhaare kaam\\naas-paas ki duniyaa par asar\\ndaal aur use badal sakte hain."
+  - offset: '0x236632'
+    name: HI-02 0x236632
+    expected: "Ye chashme mausam ke nuksaan\\naur powder se pakadne vaale\\nki rakshaa karte hain."
+  - offset: '0x236c40'
+    name: HI-02 0x236c40
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Ladaai-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236ca4'
+    name: HI-02 0x236ca4
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Udaan-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236d06'
+    name: HI-02 0x236d06
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Zahar-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236d68'
+    name: HI-02 0x236d68
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Zameen-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236dca'
+    name: HI-02 0x236dca
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Chattaan-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236e2a'
+    name: HI-02 0x236e2a
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Keet-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236e89'
+    name: HI-02 0x236e89
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Bhoot-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236eea'
+    name: HI-02 0x236eea
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Ispaat-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236f4b'
+    name: HI-02 0x236f4b
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Aag-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x236fab'
+    name: HI-02 0x236fab
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Paani-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x23706b'
+    name: HI-02 0x23706b
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Bijli-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x2370cf'
+    name: HI-02 0x2370cf
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Maansik-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x237132'
+    name: HI-02 0x237132
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Barf-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x237191'
+    name: HI-02 0x237191
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Dragon-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x2371f3'
+    name: HI-02 0x2371f3
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Andheraa-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x237253'
+    name: HI-02 0x237253
+    expected: "Pokemon ko dene ki patthar ki\\npatti. Pari-prakaar ki chaalon\\nki taakat badhaati hai."
+  - offset: '0x23751c'
+    name: HI-02 0x23751c
+    expected: "Eevee<0xFC><0x13><0x4B><0xFC><0x06>  1 500 Sikke"
+  - offset: '0x237534'
+    name: HI-02 0x237534
+    expected: "Dratini<0xFC><0x13><0x4B><0xFC><0x06>  2 800 Sikke"
+  - offset: '0x23754e'
+    name: HI-02 0x23754e
+    expected: "Klefki<0xFC><0x13><0x4B><0xFC><0x06>  5 000 Sikke"
+  - offset: '0x237567'
+    name: HI-02 0x237567
+    expected: "Porygon<0xFC><0x13><0x4B><0xFC><0x06>  9 999 Sikke"
+  - offset: '0x238d63'
+    name: HI-02 0x238d63
+    expected: "Vaapas bulaao"
+  - offset: '0x238d6a'
+    name: HI-02 0x238d6a
+    expected: "Radd"
+  - offset: '0x23e58c'
+    name: HI-02 0x23e58c
+    expected: "Sevak"
+  - offset: '0x23e599'
+    name: HI-02 0x23e599
+    expected: "Parosnevaali"
+  - offset: '0x23e5a6'
+    name: HI-02 0x23e5a6
+    expected: "Patrakaar"
+  - offset: '0x23e5b3'
+    name: HI-02 0x23e5b3
+    expected: "Cycle savaar"
+  - offset: '0x23e5e7'
+    name: HI-02 0x23e5e7
+    expected: "Mahilaa"
+  - offset: '0x23e5f4'
+    name: HI-02 0x23e5f4
+    expected: "Poke Baalak"
+  - offset: '0x23e601'
+    name: HI-02 0x23e601
+    expected: "Ameer ladkaa"
+  - offset: '0x23e61b'
+    name: HI-02 0x23e61b
+    expected: "Camping jodi"
+  - offset: '0x23e635'
+    name: HI-02 0x23e635
+    expected: "Guitarvaalaa"
