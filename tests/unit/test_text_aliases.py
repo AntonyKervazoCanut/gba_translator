@@ -16,7 +16,9 @@ ES013 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es013.json').
 ES013_PREFIXES = {int(e['live_offset'], 16): bytes.fromhex(e['prefix_hex']) for e in ES013['aliases']}
 ES017 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es017.json').read_text())
 ES016 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es016.json').read_text())
+ES019 = json.loads((Path(__file__).parent / 'fixtures/text_aliases/es019.json').read_text())
 for language in ('english', 'spanish'):
+    FIXTURE[language].extend(ES019[language])
     FIXTURE[language].extend(e for e in ES016[language] if e['offset'] not in {0x7808DE, 0x780E34, 0x788538, 0x78D43E})
     FIXTURE[language].extend(ES017[language])
     FIXTURE[language].extend(ES013[language])
@@ -44,7 +46,7 @@ def rom_fixture():
         offset = int(guard['offset'], 16)
         raw = bytes.fromhex(guard['hex'])
         rom[offset:offset + len(raw)] = raw
-    for part in ES015["slices"] + ES017["slices"] + ES016["slices"]:
+    for part in ES015["slices"] + ES017["slices"] + ES016["slices"] + ES019["slices"]:
         start = part["offset"]
         raw = bytes.fromhex(part["hex"])
         rom[start:start+len(raw)] = raw
@@ -53,7 +55,7 @@ def rom_fixture():
 
 def test_real_preimages_resolve_all_contract_keys():
     aliases = TextAliases.load(CONTRACT, rom_fixture())
-    assert len(aliases.entries) == 102
+    assert len(aliases.entries) == 108
     assert aliases.entries[0x24F3C1]['live_offset'] == 0x24F3C4
     assert aliases.entries[0x24F20D]['live_offset'] == 0x24F210
     assert 0x18D43D not in aliases.entries
