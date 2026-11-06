@@ -121,3 +121,19 @@ def test_finalizer_order_and_disjoint_references():
         if file.name != 'pt87_audit.json':
             assert not refs.intersection(p for r in json.loads(file.read_text()).get('entries', [])
                                          for p in r.get('references', [])), file
+
+
+def test_retained_english_is_limited_to_names_and_pokemon_cries():
+    """Empêche de livrer une réplique anglaise comme valeur volontairement conservée."""
+    rows = audit()['entries']
+    expected = {
+        'Eldon', '<0xFC><0x01><0x06>Slash!', '<0xFC><0x01><0x04>Uxie!',
+        '<0xFC><0x01><0x06>Kyouuun!', '<0xFC><0x01><0x06>Kyuun!',
+        '<0xFC><0x01><0x06>Kyauun!', '<0xFC><0x01><0x06>Gugyugubah!',
+        'Bessy', 'Clarabelle', 'Dottie', 'Miltank', 'Swizer',
+    }
+
+    retained = [row['portuguese'] for row in rows if row['status'] == 'retained_english']
+
+    assert len(retained) == len(expected)
+    assert set(retained) == expected
