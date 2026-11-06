@@ -14,14 +14,17 @@ const normalize = (text: string): string => text.normalize('NFD').replace(/\p{M}
 
 test('ES-014 : cinq lignes dans le résumé natif', async ({ page }) => {
     const offset = '482aa0';
-    const text = '¡PRUEBA ES 014!\nNiño y pingüino\nPrimera prueba\nSegunda prueba\n¿ÚLTIMA LÍNEA?';
+    const sentinel = '¡PRUEBA ES 014!\nNiño y pingüino\nPrimera prueba\nSegunda prueba\n¿ÚLTIMA LÍNEA?';
+    const final = process.env.ES014_FINAL === '1';
+    const report = JSON.parse(fs.readFileSync(path.join(root, 'docs/analysis/es/014_TRAITEMENT.json'), 'utf8')) as { entries: { offset: string; translation?: string }[] };
+    const text = final ? report.entries.find(entry => entry.offset === '0x00482AA0')!.translation! : sentinel;
     const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'f1042-moves-'));
-    const rom = fs.readFileSync(process.env.ROM_PATH ?? path.join(root, 'output/roms/GenedRom-f1042-sentinel.gba'));
+    const rom = fs.readFileSync(process.env.ROM_PATH ?? path.join(root, final ? 'output/roms/GenedRom-es-maint.gba' : 'output/roms/GenedRom-f1042-sentinel.gba'));
     const encode = (value: string): Buffer => execFileSync('python3', ['-c',
       'from src.core.text_codec import TextEncoder, SPANISH_GLYPH_CHARS; import sys; sys.stdout.buffer.write(TextEncoder.encode_pokemon(sys.argv[1], strict=True, skip_aliases=SPANISH_GLYPH_CHARS))', value], { cwd: root });
     const name = encode('Pound');
     const description = encode(text);
-    expect([...description].filter(byte => byte === 0xfe)).toHaveLength(4);
+    expect([...description].filter(byte => byte === 0xfe)).toHaveLength(text.split('\n').length - 1);
     const base = rom.readUInt32LE(0x308a4) - 0x08000000;
     expect(base).toBe(0xa40a10);
     expect(rom.subarray(base + 13, base + 13 + name.length)).toEqual(name);
@@ -90,7 +93,7 @@ print((request.results ?? []).compactMap { $0.topCandidates(1).first?.string }.j
       const returned = await capture('returned');
       expect(returned).toContain('pound');
       expect(returned).toContain(normalize(text));
-      const proof = path.join(os.tmpdir(), 'f1042-summary-proof.png');
+      const proof = path.join(os.tmpdir(), final ? 'f864-summary-proof.png' : 'f1042-summary-proof.png');
       await page.getByRole('img').screenshot({ path: proof });
       console.log(`Preuve ES-014 : ${proof}`);
     } finally { await client.stop(); }

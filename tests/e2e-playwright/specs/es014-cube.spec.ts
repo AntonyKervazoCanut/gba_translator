@@ -1,7 +1,7 @@
 /** F-1042 : sentinelle ES-014, vrai pipeline puis fenêtre native du Cube.
  * La copie temporaire utilise le Repel de la sauvegarde comme porte d'entrée
  * vers le nom et le pointeur de Cut. Le texte livré n'est pas réécrit.
- * Cette preuve certifie le contrat de fenêtre, pas les traductions de F-864. */
+ * Par défaut : sentinelle de fenêtre. ES014_FINAL=1 vérifie le texte final F-864. */
 import { test, expect } from '@playwright/test';
 import { spawn, execFileSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -13,14 +13,17 @@ import { PNG } from 'pngjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 const sentinel = '¡PRUEBA ES 014!\nNiño y pingüino\n¿ÚLTIMA LÍNEA?';
 interface Observation { text: string; x: number; y: number; width: number; height: number }
-const normalized = (text: string): string => text.normalize('NFD').replace(/\p{M}/gu, '').toUpperCase();
+const normalized = (text: string): string => text.normalize('NFD').replace(/\p{M}/gu, '').toUpperCase().replace(/[^A-Z0-9]+/g, ' ').trim();
 
 test('ES-014 conserve ses consommateurs et ses trois lignes dans le Cube', async ({ page }) => {
+  const final = process.env.ES014_FINAL === '1';
+  const report = JSON.parse(fs.readFileSync(path.join(root, 'docs/analysis/es/014_TRAITEMENT.json'), 'utf8')) as { entries: { offset: string; translation?: string }[] };
+  const text = final ? report.entries.find(entry => entry.offset === '0x00482BD5')!.translation! : sentinel;
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'f1042-cube-'));
-  const delivered = fs.readFileSync(path.join(root, 'output/roms/GenedRom-f1042-sentinel.gba'));
+  const delivered = fs.readFileSync(path.join(root, final ? 'output/roms/GenedRom-es-maint.gba' : 'output/roms/GenedRom-f1042-sentinel.gba'));
   const expected = execFileSync('python3', ['-c',
     'from src.core.text_codec import TextEncoder, SPANISH_GLYPH_CHARS; import sys; sys.stdout.buffer.write(TextEncoder.encode_pokemon(sys.argv[1], skip_aliases=SPANISH_GLYPH_CHARS))',
-    sentinel], { cwd: root });
+    text], { cwd: root });
   const cut = 0x876200 + 437 * 44;
   expect(delivered.readUInt32LE(0x9A98C)).toBe(0x08876200);
   const target = delivered.readUInt32LE(cut + 20) - 0x08000000;
@@ -98,8 +101,24 @@ print(String(data: try JSONSerialization.data(withJSONObject: result), encoding:
     execFileSync('swiftc', [swift, '-o', ocr], { timeout: 60_000 });
     const observations = JSON.parse(execFileSync(ocr, [readable], { encoding: 'utf8' })) as Observation[];
     console.log(observations);
-    const lines = ['PRUEBA ES 014', 'NINO Y PINGUINO', 'ULTIMA LINEA'].map(expectedLine => {
-      const observation = observations.find(item => normalized(item.text).includes(expectedLine));
+    // Vision peut segmenter une ligne en plusieurs mots : regrouper leurs
+    // centres verticaux, puis conserver l'ordre horizontal et toute l'emprise.
+    const rows: Observation[][] = [];
+    for (const observation of observations.filter(item => item.y < 0.3)) {
+      const center = observation.y + observation.height / 2;
+      const row = rows.find(items => Math.abs(items[0].y + items[0].height / 2 - center) < 0.03);
+      if (row) row.push(observation); else rows.push([observation]);
+    }
+    const joined = rows.map(items => {
+      items.sort((a, b) => a.x - b.x);
+      const x = Math.min(...items.map(item => item.x));
+      const y = Math.min(...items.map(item => item.y));
+      return { text: items.map(item => item.text).join(' '), x, y,
+        width: Math.max(...items.map(item => item.x + item.width)) - x,
+        height: Math.max(...items.map(item => item.y + item.height)) - y };
+    });
+    const lines = text.split('\n').map(line => normalized(line)).map(expectedLine => {
+      const observation = joined.find(item => normalized(item.text) === expectedLine);
       expect(observation, `Ligne native absente : ${expectedLine}`).toBeDefined();
       return observation!;
     });
@@ -111,7 +130,7 @@ print(String(data: try JSONSerialization.data(withJSONObject: result), encoding:
     expect(lines[0].y - lines[1].y).toBeGreaterThan(0.04);
     expect(lines[1].y - lines[2].y).toBeGreaterThan(0.04);
     expect(fs.readFileSync(path.join(root, 'tests/fixtures/saves/party_hp_bar_fr.sav'))).toEqual(saveFixture);
-    const proof = path.join(os.tmpdir(), 'f1042-cube-proof.png');
+    const proof = path.join(os.tmpdir(), final ? 'f864-cube-proof.png' : 'f1042-cube-proof.png');
     await page.getByRole('img').screenshot({ path: proof });
     console.log(`Preuve après assertions : ${proof}`);
   } finally {
