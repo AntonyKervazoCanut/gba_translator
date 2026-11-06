@@ -65046,3 +65046,888 @@ entries:
   - offset: "0x1fb0b3b"
     name: "PT-88 0x1fb0b3b"
     expected: '<0xFC><0x01><0x02>A criança foi examinada usando o\nCube.<0xFB>Os dados foram enviados ao\ncientista do Dream Research Lab.<0xFB>Crianças restantes: <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x02>.'
+  - offset: "0x1f9b04d"
+    name: "PT-86 0x1f9b04d"
+    expected: 'Hurricane<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b063"
+    name: "PT-86 0x1f9b063"
+    expected: 'Hydro Pump<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b07a"
+    name: "PT-86 0x1f9b07a"
+    expected: 'Leaf Storm<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b091"
+    name: "PT-86 0x1f9b091"
+    expected: 'Megahorn<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b0a6"
+    name: "PT-86 0x1f9b0a6"
+    expected: 'Power Whip<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b0bd"
+    name: "PT-86 0x1f9b0bd"
+    expected: 'Solar Blade<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b0d5"
+    name: "PT-86 0x1f9b0d5"
+    expected: 'Steel Roller<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b0ee"
+    name: "PT-86 0x1f9b0ee"
+    expected: 'Meteor Beam<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b106"
+    name: "PT-86 0x1f9b106"
+    expected: 'Poltergeist<0xFC><0x13><0x5E> <0xFC><0x06><0x00>16 BP'
+  - offset: "0x1f9b11e"
+    name: "PT-86 0x1f9b11e"
+    expected: 'Grass Pledge<0xFC><0x13><0x63> <0xFC><0x06><0x00>4 BP'
+  - offset: "0x1f9b136"
+    name: "PT-86 0x1f9b136"
+    expected: 'Fire Pledge<0xFC><0x13><0x63> <0xFC><0x06><0x00>4 BP'
+  - offset: "0x1f9b14d"
+    name: "PT-86 0x1f9b14d"
+    expected: 'Water Pledge<0xFC><0x13><0x63> <0xFC><0x06><0x00>4 BP'
+  - offset: "0x1f9b165"
+    name: "PT-86 0x1f9b165"
+    expected: 'Frenzy Plant<0xFC><0x13><0x63> <0xFC><0x06><0x00>8 BP'
+  - offset: "0x1f9b17d"
+    name: "PT-86 0x1f9b17d"
+    expected: 'Blast Burn<0xFC><0x13><0x63> <0xFC><0x06><0x00>8 BP'
+  - offset: "0x1f9b193"
+    name: "PT-86 0x1f9b193"
+    expected: 'Hydro Cannon<0xFC><0x13><0x63> <0xFC><0x06><0x00>8 BP'
+  - offset: "0x1f9b1ab"
+    name: "PT-86 0x1f9b1ab"
+    expected: 'Volt Tackle'
+  - offset: "0x1f9b1b7"
+    name: "PT-86 0x1f9b1b7"
+    expected: 'Dragon Ascent'
+  - offset: "0x1f9b1c5"
+    name: "PT-86 0x1f9b1c5"
+    expected: 'Secret Sword'
+  - offset: "0x1f9b1d2"
+    name: "PT-86 0x1f9b1d2"
+    expected: 'Relic Song'
+  - offset: "0x1f9b1dd"
+    name: "PT-86 0x1f9b1dd"
+    expected: 'Steel Beam'
+  - offset: "0x1f9b1e8"
+    name: "PT-86 0x1f9b1e8"
+    expected: 'Bem-vindo ao Exchange Service\nCorner!<0xFB>Quer trocar seus BP por Pokémon?'
+  - offset: "0x1f9b245"
+    name: "PT-86 0x1f9b245"
+    expected: 'Qual Pokémon quer comprar? Você\ntem <0xFC><0x01><0x06><0xFD><0x02><0xFD><0x07> BP.'
+  - offset: "0x1f9b27f"
+    name: "PT-86 0x1f9b27f"
+    expected: 'Não conheço nenhum Pokémon\nchamado <0xB1><0xFD><0x04><0xB2>.'
+  - offset: "0x1f9b2a7"
+    name: "PT-86 0x1f9b2a7"
+    expected: 'stonjourner'
+  - offset: "0x1f9b2b3"
+    name: "PT-86 0x1f9b2b3"
+    expected: 'blacephalon'
+  - offset: "0x1f9b2bf"
+    name: "PT-86 0x1f9b2bf"
+    expected: 'corviknight'
+  - offset: "0x1f9b2cb"
+    name: "PT-86 0x1f9b2cb"
+    expected: 'barraskewda'
+  - offset: "0x1f9b2d7"
+    name: "PT-86 0x1f9b2d7"
+    expected: 'centiskorch'
+  - offset: "0x1f9b2e3"
+    name: "PT-86 0x1f9b2e3"
+    expected: 'polteageist'
+  - offset: "0x1f9b2ef"
+    name: "PT-86 0x1f9b2ef"
+    expected: 'fletchinder'
+  - offset: "0x1f9b2fb"
+    name: "PT-86 0x1f9b2fb"
+    expected: 'crabominable'
+  - offset: "0x1f9b308"
+    name: "PT-86 0x1f9b308"
+    expected: 'corvisquire'
+  - offset: "0x1f9b314"
+    name: "PT-86 0x1f9b314"
+    expected: 'basculegion'
+  - offset: "0x1f9b330"
+    name: "PT-86 0x1f9b330"
+    expected: 'Desculpe, você precisa obter um\n<0xFC><0x01><0x06>Frontier Card<0xFC><0x01><0x08> na <0xFC><0x01><0x06>Battle<0xFA>Frontier<0xFC><0x01><0x08> para entrar<0xFA>no Antisis Ring Challenge.<0xFB>Como vamos lhe dar BP se você\nnão tem onde guardá-los?'
+  - offset: "0x1f9b402"
+    name: "PT-86 0x1f9b402"
+    expected: 'Bem-vindo ao Ring Challenge de\nAntisis City!<0xFB>Sou seu guia do Battle Ring.'
+  - offset: "0x1f9b452"
+    name: "PT-86 0x1f9b452"
+    expected: 'Quer encarar o desafio do Battle\nRing?'
+  - offset: "0x1f9b484"
+    name: "PT-86 0x1f9b484"
+    expected: 'O Antisis Gym oferece desafios de<0xFA>Batalha Individual.<0xFB>O desafio segue até você\nescolher descansar.<0xFB>Entre com três Pokémon para\ncomeçar.<0xFB>Todos ficam no nível 50 durante\no desafio.<0xFB>Não pode repetir espécies nem\nitens.<0xFB>Mega Evolução, Z-Moves, Dynamax,\nFocus Sash,<0xFA>explosões, Destiny Bond<0xFA>e Perish Song são proibidos.<0xFB>Regigigas com Stall e Pokémon\nbanidos da categoria<0xFA><0xFC><0x01><0x06>Standard<0xFC><0x01><0x08> não podem entrar.'
+  - offset: "0x1f9b689"
+    name: "PT-86 0x1f9b689"
+    expected: 'Antes da luta, você verá a\nequipe adversária.<0xFB>Em cada luta, um tipo de\nmovimento será proibido.<0xFB>Isso também será revelado.<0xFB>Se um movimento mudar de tipo,\nvale o tipo<0xFA>em que ele se transforma.<0xFB>Então escolha um só Pokémon para\nlutar contra<0xFA>um dos adversários.<0xFB>A cada Treinador vencido, você\nganha <0xFC><0x01><0x06>Battle Points<0xFC><0x01><0x08> (<0xFC><0x01><0x06>BP<0xFC><0x01><0x08>).<0xFB>Como esta instalação não faz\nparte da<0xFA>Battle Frontier, não ganhará<0xFA>selos no seu Frontier Card.<0xFB>Se interromper o desafio, seu\nprogresso será salvo<0xFA>para quando quiser<0xFA>continuar.<0xFB>Se sair sem salvar, será\ndesclassificado<0xFA>do desafio.<0xFB>Lembre-se disso!'
+  - offset: "0x1f9b984"
+    name: "PT-86 0x1f9b984"
+    expected: 'Você pode personalizar estas\nopções das batalhas:<0xFB>-Música de batalha\n-Cenário de batalha'
+  - offset: "0x1f9b9e1"
+    name: "PT-86 0x1f9b9e1"
+    expected: 'Qual recorde quer ver?'
+  - offset: "0x1f9ba06"
+    name: "PT-86 0x1f9ba06"
+    expected: 'Atual'
+  - offset: "0x1f9ba0e"
+    name: "PT-86 0x1f9ba0e"
+    expected: 'Sua sequência <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08> tem\n<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> vitória<0xFD><0x04>.<0xFB>Sua última equipe nesta sequência\ntinha <0xFC><0x01><0x06><0xFD><0x07><0xFC><0x01><0x08>,<0xFA><0xFC><0x01><0x06><0xFD><0x08><0xFC><0x01><0x08> e <0xFC><0x01><0x06><0xFD><0x09><0xFC><0x01><0x08>.'
+  - offset: "0x1f9ba92"
+    name: "PT-86 0x1f9ba92"
+    expected: 'Sua sequência <0xFC><0x01><0x06>Atual<0xFC><0x01><0x08> tem <0xFC><0x01><0x06>0<0xFC><0x01><0x08>\nvitórias.'
+  - offset: "0x1f9bac4"
+    name: "PT-86 0x1f9bac4"
+    expected: 'Ainda não há recordes do Ring\nChallenge de Antisis City.'
+  - offset: "0x1f9bb07"
+    name: "PT-86 0x1f9bb07"
+    expected: 'Espere aqui, por favor.'
+  - offset: "0x1f9bb19"
+    name: "PT-86 0x1f9bb19"
+    expected: 'Você enfrentará <0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>,\n<0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> ou <0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08>.'
+  - offset: "0x1f9bb4e"
+    name: "PT-86 0x1f9bb4e"
+    expected: 'O chefão de Antisis vai usar\n<0xFC><0x01><0x06><0xFD><0x02><0xFC><0x01><0x08>, <0xFC><0x01><0x06><0xFD><0x03><0xFC><0x01><0x08> ou<0xFA><0xFC><0x01><0x06><0xFD><0x04><0xFC><0x01><0x08>.'
+  - offset: "0x1f9bb98"
+    name: "PT-86 0x1f9bb98"
+    expected: 'Movimentos do tipo <0xFC><0x01><0x06><0xFD><0x07><0xFC><0x01><0x08>\nestão proibidos.<0xFB>Escolha o Pokémon que vai lutar.'
+  - offset: "0x1f9bbe7"
+    name: "PT-86 0x1f9bbe7"
+    expected: 'Movimentos dos tipos <0xFC><0x01><0x06><0xFD><0x07><0xFC><0x01><0x08>\ne <0xFC><0x01><0x06><0xFD><0x08><0xFC><0x01><0x08> estão proibidos.<0xFB>Escolha o Pokémon que vai lutar.'
+  - offset: "0x1f9bc44"
+    name: "PT-86 0x1f9bc44"
+    expected: 'Sem golpes <0xFC><0x01><0x06><0xFD><0x07><0xFC><0x01><0x08>,\n<0xFC><0x01><0x06><0xFD><0x08><0xFC><0x01><0x08> e <0xFC><0x01><0x06><0xFD><0x09><0xFC><0x01><0x08>.<0xFB>Escolha o Pokémon que vai lutar.'
+  - offset: "0x1f9bcae"
+    name: "PT-86 0x1f9bcae"
+    expected: 'Movimentos dos tipos <0xFC><0x01><0x06><0xFD><0x07><0xFC><0x01><0x08>\ne <0xFC><0x01><0x06><0xFD><0x08><0xFC><0x01><0x08> estão proibidos.<0xFB>Escolha o Pokémon que vai lutar.'
+  - offset: "0x1f9bd0b"
+    name: "PT-86 0x1f9bd0b"
+    expected: 'Sem golpes <0xFC><0x01><0x06><0xFD><0x07><0xFC><0x01><0x08>,\n<0xFC><0x01><0x06><0xFD><0x08><0xFC><0x01><0x08> e <0xFC><0x01><0x06><0xFD><0x09><0xFC><0x01><0x08>.<0xFB>Escolha o Pokémon que vai lutar.'
+  - offset: "0x1f9bd75"
+    name: "PT-86 0x1f9bd75"
+    expected: 'Quer descansar do desafio do\nBattle Ring?<0xFB>Seu progresso será mantido até\nvocê voltar.'
+  - offset: "0x1f9bddd"
+    name: "PT-86 0x1f9bddd"
+    expected: 'Chefão de Antisis'
+  - offset: "0x1f9bded"
+    name: "PT-86 0x1f9bded"
+    expected: 'Ha ha ha ha!<0xFB>Então é você que tá ganhando sem\nparar no Ring Challenge?<0xFB>Devia saber que era você,\n<0xFD><0x01>!<0xFB>Reformei o Ginásio todo pra\natrair os mais fortes de Borrius<0xFA>pra cá<0xB0><0xFB>E agora você tá aqui, encarando\no chefão mais uma vez.<0xFB>Mas não se engane: não vou dar\nmole desta vez!<0xFB>Aqui é meu território! Eu só\ndeixo você ficar!<0xFB>Vamos ver se ainda tem coragem\npra encarar o chefão!'
+  - offset: "0x1f9bf9f"
+    name: "PT-86 0x1f9bf9f"
+    expected: 'Então chegou até aqui,\n<0xFD><0x01>?<0xFB>Ha ha ha ha! Você deve se\ndedicar muito, hein?<0xFB>Gosto disso! Quer dizer que você\né igualzinho a mim<0xB0><0xFB>Você não sossega enquanto não\nprovar que é<0xFA>o rei!<0xFB>Então vou ter que pegar duas\nvezes mais pesado!<0xFB>Venha, <0xFD><0x01>!<0xFB>O chefão vai acabar com sua\nglória aqui e agora!'
+  - offset: "0x1f9c106"
+    name: "PT-86 0x1f9c106"
+    expected: 'Olha só, <0xFD><0x04> cumpriu o\nque <0xFD><0x04> prometeu!<0xFB>Ha ha ha ha! Trato é trato!<0xFB>Vou te enfrentar de novo, cara a\ncara, com meu melhor Pokémon!<0xFB>Mas não vai ser igual à última\nvez!<0xFB>Vi todas as suas batalhas e acho\nque já saquei<0xFA>seu jeito.<0xFB>Se acha que vai me surpreender\nassim tão fácil<0xB0><0xFB>Então dê tudo de si! Deixe o\nchefão te avaliar!'
+  - offset: "0x1f9c2b9"
+    name: "PT-86 0x1f9c2b9"
+    expected: 'Ah, droga! Escolhi o Pokémon\nerrado<0xB0><0xFB>Ou talvez você tenha previsto\nisso e preparado um plano B<0xB0><0xFB>Tá bom! Vou recuar e esperar\noutra revanche!<0xFB>Mantenha essa garra e busque o\ntopo, <0xFD><0x01>!<0xFB>Quando eu souber que tem <0xFC><0x01><0x06>99\nvitórias seguidas<0xFC><0x01><0x08>, então<0xB0><0xFB>Ha ha ha ha! Vai ter que esperar\npra ver.<0xFB>Até mais<0xB0> <0xFD><0x01>.'
+  - offset: "0x1f9c410"
+    name: "PT-86 0x1f9c410"
+    expected: 'Ah! Não acredito que continua me\nderrotando!<0xFB>Mas não pense que vai ser tão\nfácil na próxima vez.<0xFB>Ainda dá tempo de se achar\ndemais e perder pra um desses<0xFA>peixes pequenos.<0xFB>Mas, se mantiver o foco<0xB0><0xFB>Aquelas 100 vitórias seguidas que\nprometeu ainda estão ao alcance!<0xFB>Tô indo.<0xFB>Nos vemos na centésima batalha,\n<0xFD><0x01>!<0xFB>Da próxima vez, Big Mo vai lutar\ncom tudo!<0xFB>Tenho meu título pra defender!\nHa ha ha ha!'
+  - offset: "0x1f9c606"
+    name: "PT-86 0x1f9c606"
+    expected: 'Heh<0xB0> nada mal, <0xFD><0x01>.<0xFB>Nunca achei que alguém ia vencer\no Ring Challenge<0xFA>inteiro, sabia?<0xFB>Mas, se alguém ia conseguir,\ntinha que ser você.<0xFB>Ei<0xB0> se ainda não cansou de bater\nnesses fracotes<0xB0><0xFB>Por que não vê até onde consegue\nlevar essa sequência?<0xFB>Ao menos vai lembrar esses\notários de quanto falta pra eles!<0xFB>Ha ha ha ha! Até mais,\n<0xFD><0x01>!<0xFB>Na próxima vez, não vou perder\npra você!'
+  - offset: "0x1f9c7ce"
+    name: "PT-86 0x1f9c7ce"
+    expected: 'Ha ha ha ha! Não acredito que\nme venceu de novo!'
+  - offset: "0x1f9c7fb"
+    name: "PT-86 0x1f9c7fb"
+    expected: 'Relaxou por achar que ninguém\npodia te vencer, hein?'
+  - offset: "0x1f9c840"
+    name: "PT-86 0x1f9c840"
+    expected: 'Medo de abandono'
+  - offset: "0x1f9c853"
+    name: "PT-86 0x1f9c853"
+    expected: 'Uma menina de boia sumiu!\nAche-a e devolva-a à mãe em\nsegurança.'
+  - offset: "0x1f9c8b0"
+    name: "PT-86 0x1f9c8b0"
+    expected: 'Mãe'
+  - offset: "0x1f9c8b7"
+    name: "PT-86 0x1f9c8b7"
+    expected: 'Ai, meu Deus<0xB0><0xFB>Não consigo achar minha filha!<0xFB>Estávamos de férias na <0xFC><0x01><0x06>praia<0xFC><0x01><0x04>\nquando ela sumiu de repente!<0xFB>Por favor, <0xFD><0x02>, procure\npor ela!'
+  - offset: "0x1f9c948"
+    name: "PT-86 0x1f9c948"
+    expected: 'Obrigada, <0xFD><0x02>!<0xFB>Ela se parece com qualquer\n<0xFC><0x01><0x06>menina de boia<0xFC><0x01><0x04>.'
+  - offset: "0x1f9c999"
+    name: "PT-86 0x1f9c999"
+    expected: 'Ai, não<0xB0><0xFB>O que vou fazer agora<0xB0>?'
+  - offset: "0x1f9c9b8"
+    name: "PT-86 0x1f9c9b8"
+    expected: 'Como é?<0xFB>Minha filha foi levada por um\nvento forte?<0xFB>Não pode ter ido muito longe!<0xFB>Ventos assim não conseguem levar\numa criança pra fora<0xFA>da cidade.<0xFB>Por favor, continue procurando!'
+  - offset: "0x1f9ca98"
+    name: "PT-86 0x1f9ca98"
+    expected: 'senhora'
+  - offset: "0x1f9ca9e"
+    name: "PT-86 0x1f9ca9e"
+    expected: 'Snif<0xB0><0xFB>Minha mamãe me deixou aqui\nsozinha<0xB0><0xFB>Acho que ela não gosta mais de\nmim<0xB0>'
+  - offset: "0x1f9caf4"
+    name: "PT-86 0x1f9caf4"
+    expected: 'O quê?<0xFB>Minha mamãe mandou você me\nprocurar?<0xFB>Snif<0xB0><0xFB>Talvez ela goste mesmo de mim<0xB0>'
+  - offset: "0x1f9cb57"
+    name: "PT-86 0x1f9cb57"
+    expected: 'Tá<0xB0><0xFB>Por favor, me leve até a mamãe.'
+  - offset: "0x1f9cb7e"
+    name: "PT-86 0x1f9cb7e"
+    expected: '<0xFC><0x01><0x02>Parece que a menina foi levada\npelo vento.'
+  - offset: "0x1f9cbb2"
+    name: "PT-86 0x1f9cbb2"
+    expected: 'Buaaa!<0xFB>Esse vento forte me trouxe até\naqui!<0xFB>Deixa eu segurar em você pra não\nvoar de novo!'
+  - offset: "0x1f9cc16"
+    name: "PT-86 0x1f9cc16"
+    expected: 'Buaaa!<0xFB>O vento forte me levou de novo!<0xFB>Tô com medo<0xB0> Quero ir pra casa<0xB0>'
+  - offset: "0x1f9cc61"
+    name: "PT-86 0x1f9cc61"
+    expected: 'Snif<0xB0><0xFB>Odeio o vento<0xB0>'
+  - offset: "0x1f9cc79"
+    name: "PT-86 0x1f9cc79"
+    expected: 'Hã?<0xFB>O vento parou de me levar<0xB0><0xFB>Eba!<0xFB>Acabou!'
+  - offset: "0x1f9ccb0"
+    name: "PT-86 0x1f9ccb0"
+    expected: 'Tô<0xB0> tão<0xB0> tonta<0xB0>'
+  - offset: "0x1f9ccc0"
+    name: "PT-86 0x1f9ccc0"
+    expected: 'Mamãe! Você me achou!<0xFB>Senti tanto sua falta! Tava com\ntanto medo<0xB0><0xFB>O vento malvado me jogou pra\ntodo lado!<0xFB>Mas agora tô bem, graças a essa\npessoa!'
+  - offset: "0x1f9cd51"
+    name: "PT-86 0x1f9cd51"
+    expected: 'Quero ir pra casa, mamãe. Tô\nmuito tonta<0xB0>'
+  - offset: "0x1f9cd7f"
+    name: "PT-86 0x1f9cd7f"
+    expected: 'Mamãe, espera!'
+  - offset: "0x1f9cd8c"
+    name: "PT-86 0x1f9cd8c"
+    expected: 'Esquecemos seu presente,\n<0xFD><0x02>! Você me ajudou!'
+  - offset: "0x1f9cdc0"
+    name: "PT-86 0x1f9cdc0"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> recebeu ¥4000!'
+  - offset: "0x1f9cdd6"
+    name: "PT-86 0x1f9cdd6"
+    expected: 'Mamãe<0xB0><0xFB>O que aconteceu com você<0xB0>?'
+  - offset: "0x1f9cdf4"
+    name: "PT-86 0x1f9cdf4"
+    expected: 'Babá descuidada'
+  - offset: "0x1f9ce03"
+    name: "PT-86 0x1f9ce03"
+    expected: 'Um menino vestido de Pikachu\nfugiu para a Route 8! Ache-o\ne leve-o para casa a salvo.'
+  - offset: "0x1f9ce6c"
+    name: "PT-86 0x1f9ce6c"
+    expected: 'Meu irmão!<0xFB>Por favor, me ajude!<0xFB>Eu cuidava dele quando ele fugiu\nmontanha abaixo!<0xFB>Por favor, me ajude a achá-lo!'
+  - offset: "0x1f9cedd"
+    name: "PT-86 0x1f9cedd"
+    expected: 'Muito obrigada!<0xFB>Meu irmão é pequeno, não pode\nter ido longe.<0xFB>Aposto que está em algum lugar\nda <0xFC><0x01><0x06>Route 8<0xFC><0x01><0x04>.<0xFB>Quando o vi, usava sua <0xFC><0x01><0x06>fantasia\nde Pikachu<0xFC><0x01><0x04> favorita.'
+  - offset: "0x1f9cfb4"
+    name: "PT-86 0x1f9cfb4"
+    expected: 'Meus pais vão me matar!'
+  - offset: "0x1f9cfd5"
+    name: "PT-86 0x1f9cfd5"
+    expected: 'Meu irmão contou tudo sobre a\nviagem de volta!<0xFB>Você é incrível!'
+  - offset: "0x1f9d01c"
+    name: "PT-86 0x1f9d01c"
+    expected: 'Essa TM é pra agradecer! Ela\ncontém <0xFC><0x01><0x06>Return<0xFC><0x01><0x04>!<0xFB>Mais amizade com seu Pokémon dá\nmais força a Return.<0xFB>É a TM perfeita pra alguém tão\ngentil!'
+  - offset: "0x1f9d0cf"
+    name: "PT-86 0x1f9d0cf"
+    expected: 'É a pessoa incrível que salvou\nmeu irmão!<0xFB>Obrigada de novo!'
+  - offset: "0x1f9d10e"
+    name: "PT-86 0x1f9d10e"
+    expected: 'Willy'
+  - offset: "0x1f9d114"
+    name: "PT-86 0x1f9d114"
+    expected: 'Ahhh! Por favor, não me coma!'
+  - offset: "0x1f9d12f"
+    name: "PT-86 0x1f9d12f"
+    expected: 'Snif<0xB0><0xFB>Você não é um Pokémon.<0xFB>Achei que um Pokémon ia me\ncomer.'
+  - offset: "0x1f9d175"
+    name: "PT-86 0x1f9d175"
+    expected: 'Quero ir pra casa.<0xFB>Fugi da minha irmã chata, mas\nagora sinto falta dela<0xB0>'
+  - offset: "0x1f9d1c3"
+    name: "PT-86 0x1f9d1c3"
+    expected: 'Por favor, me leve de volta a\n<0xFC><0x01><0x06>Blizzard City<0xFC><0x01><0x08>.<0xFB>Vou seguir você até lá.'
+  - offset: "0x1f9d20a"
+    name: "PT-86 0x1f9d20a"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> decidiu ir com Willy!'
+  - offset: "0x1f9d22a"
+    name: "PT-86 0x1f9d22a"
+    expected: '<0xFC><0x01><0x02>Enquanto estiver com Willy, os <0xFC><0x01><0x06>3\nprimeiros<0xFC><0x01><0x02> Pokémon<0xFA>aptos da equipe vão lutar.'
+  - offset: "0x1f9d295"
+    name: "PT-86 0x1f9d295"
+    expected: '<0xFC><0x01><0x08>Snif<0xB0><0xFB>Acho que este não é o caminho de\ncasa<0xB0>'
+  - offset: "0x1f9d2c9"
+    name: "PT-86 0x1f9d2c9"
+    expected: '<0xFC><0x01><0x08>Snif<0xB0><0xFB>Daqui eu sei voltar pra casa.<0xFB>Foi legal andar com você! Você é\ndemais!'
+  - offset: "0x1f9d31f"
+    name: "PT-86 0x1f9d31f"
+    expected: 'É você! A pessoa que me salvou!<0xFB>Você é demais!'
+  - offset: "0x1f9d358"
+    name: "PT-86 0x1f9d358"
+    expected: 'Os Black Emboar'
+  - offset: "0x1f9d369"
+    name: "PT-86 0x1f9d369"
+    expected: 'Resgate o irmão de um homem\ndos Black Emboar na KBT\nExpressway.'
+  - offset: "0x1f9d3bf"
+    name: "PT-86 0x1f9d3bf"
+    expected: 'Irmão'
+  - offset: "0x1f9d3c7"
+    name: "PT-86 0x1f9d3c7"
+    expected: 'James'
+  - offset: "0x1f9d3cd"
+    name: "PT-86 0x1f9d3cd"
+    expected: 'Chefe Black Emboar'
+  - offset: "0x1f9d3df"
+    name: "PT-86 0x1f9d3df"
+    expected: 'Ei, Treinador.<0xFB><0xB0><0xFB>O quê? Quer que eu diga algo\ninteressante?<0xFB>Tá bom, então<0xB0><0xFB>Tenho tido problemas com meu\nirmão ultimamente.<0xFB>Ele se envolveu com uma gangue\nque se chama<0xFA>Black Emboar.<0xFB>Não sei bem o que houve, mas me\npreocupo muito<0xFA>com a segurança dele.<0xFB>Faz dias que não falo com ele.\nTenho medo de que<0xFA>algo ruim tenha acontecido.<0xFB><0xB0><0xFB>Como é?<0xFB>Você iria ver como ele está por\nmim?'
+  - offset: "0x1f9d58e"
+    name: "PT-86 0x1f9d58e"
+    expected: 'Foi você que entrou na minha\ncasa e perguntou.'
+  - offset: "0x1f9d5c0"
+    name: "PT-86 0x1f9d5c0"
+    expected: 'Obrigado!<0xFB>Meu irmão deve estar no norte da\nKBT Expressway.<0xFB>Eu iria, mas sou um Treinador\nfraco demais.<0xFB>Dizem que esses Black Emboar são\nmuito cruéis.'
+  - offset: "0x1f9d66c"
+    name: "PT-86 0x1f9d66c"
+    expected: 'Se vir meu irmão de novo, diga\nque ainda estou<0xFA>preocupado com ele.'
+  - offset: "0x1f9d6c4"
+    name: "PT-86 0x1f9d6c4"
+    expected: 'O que pensa que tá fazendo,\npirralho?<0xFB>Este é o paraíso dos Black\nEmboar<0xB0><0xFB>Uma pestinha como você não tem\nnada a fazer aqui<0xB0><0xFB>Não me diga que acha que pode\nenfrentar o chefe<0xFA>dos Black Emboar!'
+  - offset: "0x1f9d799"
+    name: "PT-86 0x1f9d799"
+    expected: 'Isso é tudo?<0xFB>Só te resta uma opção: dar o\nfora!<0xFB>Aqui é nosso lugar, dos Black\nEmboar.<0xFB>Não temos pra onde ir e não\nqueremos ninguém atrapalhando.'
+  - offset: "0x1f9d841"
+    name: "PT-86 0x1f9d841"
+    expected: 'Gua ha ha ha! Manda ver! Você\ntem coragem!<0xFB>Vou mostrar o que o cara que\nmantém os Black Emboar<0xFA>unidos sabe fazer!'
+  - offset: "0x1f9d8cb"
+    name: "PT-86 0x1f9d8cb"
+    expected: 'Gua ha ha ha!'
+  - offset: "0x1f9d8d9"
+    name: "PT-86 0x1f9d8d9"
+    expected: 'Você manda bem<0xB0> Gostei de você.<0xFB>Olha só essa<0xB0><0xFB>De agora em diante, nosso grupo\nserá Black <0xFD><0x01>!<0xFB>É! Vamos adotar seu nome durão!<0xFB>Um nome mais feroz pra uma\nequipe mais feroz!<0xFB>Black <0xFD><0x01>! Gua ha ha ha!\nDemais!'
+  - offset: "0x1f9d9cb"
+    name: "PT-86 0x1f9d9cb"
+    expected: 'Quer mais alguma coisa?<0xFB><0xB0><0xFB>Meu irmão?<0xFB>Poxa, aquele cara não desiste.<0xFB>Tá, como favor por ter me\nvencido, vou com você.'
+  - offset: "0x1f9da54"
+    name: "PT-86 0x1f9da54"
+    expected: 'Já disse um monte de vezes,\nmano: pare de mexer<0xFA>com os Black Emboar!'
+  - offset: "0x1f9daa7"
+    name: "PT-86 0x1f9daa7"
+    expected: 'Não posso, James. Você é meu\nirmão.<0xFB>Você é tudo pra mim.<0xFB>Não posso deixar você continuar\nnesse caminho!'
+  - offset: "0x1f9db17"
+    name: "PT-86 0x1f9db17"
+    expected: 'Diz que se importa comigo, mas\nnão tem coragem, mano.<0xFB>Manda Treinadores me encher\nporque tem medo<0xFA>de sujar as mãos.'
+  - offset: "0x1f9dbbe"
+    name: "PT-86 0x1f9dbbe"
+    expected: '<0xFD><0x01> tem coragem de\nverdade!'
+  - offset: "0x1f9dbd7"
+    name: "PT-86 0x1f9dbd7"
+    expected: 'Vou te contar!<0xFB>Ninguém nunca me derrotou como\n<0xFD><0x03>!<0xFB>Agora somos Black <0xFD><0x01>, em\nhonra a <0xFD><0x02>!<0xFB>É hora de recomeçar.<0xFB>Eu e os Black <0xFD><0x01> vamos\npra Antisis City!<0xFB>Ouvi que expulsaram da cidade a\ngangue que mandava lá.<0xFB>Terror Granbull ou algo assim<0xB0><0xFB>Agora a cidade tá pronta pra\nnós, os Black <0xFD><0x01>!<0xFB>Gua ha ha ha!'
+  - offset: "0x1f9dd50"
+    name: "PT-86 0x1f9dd50"
+    expected: 'Mas, James, não pode me deixar\naqui sozinho!'
+  - offset: "0x1f9dd7e"
+    name: "PT-86 0x1f9dd7e"
+    expected: 'Pensei em te aceitar também, mas\nnão quero alguém<0xFA>tão fraco no grupo!<0xFB>Em vez disso, decidi que\n<0xFD><0x01> vai se juntar a nós.'
+  - offset: "0x1f9de0c"
+    name: "PT-86 0x1f9de0c"
+    expected: 'Bem-vindo aos Black <0xFD><0x01>!<0xFB>Todo membro precisa de uma Bike.\nTome esta.'
+  - offset: "0x1f9de57"
+    name: "PT-86 0x1f9de57"
+    expected: 'É a Motorbike potente que todo\nBlack <0xFD><0x01> tem!<0xFB>Use <0xF8><0x02> pro turbo ou vá<0xFA>com calma e pedale.<0xFB>Procure a gente quando passar\npor Antisis City.<0xFB>Vamos te receber de braços\nabertos.'
+  - offset: "0x1f9df34"
+    name: "PT-86 0x1f9df34"
+    expected: 'Bem-vindo aos Black <0xFD><0x01>!<0xFB>Procure a gente quando passar\npor Antisis City.<0xFB>Vamos te receber de braços\nabertos.'
+  - offset: "0x1f9dfa1"
+    name: "PT-86 0x1f9dfa1"
+    expected: 'Desculpe por envolver você nisso\ntudo.<0xFB>Eu menti ao dizer que não tinha\nnotícias do meu irmão.<0xFB>Na verdade, sabia que ele era o\nchefe dos Black Emboar.<0xFB>Achei que não iria ajudar se\nsoubesse que teria<0xFA>que enfrentar o chefe.<0xFB>Agora ele se foi de vez e fiquei\nsozinho<0xB0><0xFB>Sinto tanta vergonha disso<0xB0><0xFB>Enfim, obrigado por me ajudar.<0xFB>Aceite esta TM pelo seu tempo.'
+  - offset: "0x1f9e13d"
+    name: "PT-86 0x1f9e13d"
+    expected: 'Ei! Você aí, pirralho!<0xFB>Venha aqui!'
+  - offset: "0x1f9e173"
+    name: "PT-86 0x1f9e173"
+    expected: 'Ei! Quem disse que pode passar?<0xFB>Este lugar é nosso, dos Black\nEmboar!<0xFB>É como nosso Ginásio!<0xFB>Dê o fora! Volte pra mamãe, seu\nsantinho!'
+  - offset: "0x1f9e225"
+    name: "PT-86 0x1f9e225"
+    expected: 'Ha! Tá bom!<0xFB>Pirralhos com um futuro tão\nbrilhante<0xB0><0xFB>Volte pra casa e seja gentil com\nseus pais.<0xFB>Não esqueça a mamadeira!'
+  - offset: "0x1f9e2a9"
+    name: "PT-86 0x1f9e2a9"
+    expected: 'O que disse, seu pestinha?<0xFB>Vou te ensinar a respeitar os\nBlack Emboar!<0xFB>Vou esmagar seus Pokémon\nbonitinhos!<0xFB>Com muito gosto!'
+  - offset: "0x1f9e343"
+    name: "PT-86 0x1f9e343"
+    expected: 'Muito mal!'
+  - offset: "0x1f9e34f"
+    name: "PT-86 0x1f9e34f"
+    expected: 'Não se ache só porque me\nvenceu!<0xFB>Se quer mesmo enfrentar os Black\nEmboar, vá lutar<0xFA>com nosso chefe!<0xFB>Ele está neste túnel!'
+  - offset: "0x1f9e3fb"
+    name: "PT-86 0x1f9e3fb"
+    expected: '<0xFC><0x01><0x08>Ei! Quem disse que pode passar?<0xFB>É território dos Black Emboar!<0xFB>Volte de onde veio!'
+  - offset: "0x1f9e466"
+    name: "PT-86 0x1f9e466"
+    expected: 'Hã? Uma criança?'
+  - offset: "0x1f9e472"
+    name: "PT-86 0x1f9e472"
+    expected: 'Pirralho.'
+  - offset: "0x1f9e479"
+    name: "PT-86 0x1f9e479"
+    expected: 'Suma, moleque.'
+  - offset: "0x1f9e489"
+    name: "PT-86 0x1f9e489"
+    expected: 'Acha que pode entrar aqui e\nmexer com os Black Emboar?'
+  - offset: "0x1f9e4cd"
+    name: "PT-86 0x1f9e4cd"
+    expected: 'Acha mesmo.'
+  - offset: "0x1f9e4d5"
+    name: "PT-86 0x1f9e4d5"
+    expected: 'Somos os Black Emboar, peste!'
+  - offset: "0x1f9e4f8"
+    name: "PT-86 0x1f9e4f8"
+    expected: 'Sabe quem somos?<0xFB>Somos os Black Emboar!'
+  - offset: "0x1f9e528"
+    name: "PT-86 0x1f9e528"
+    expected: 'Caramba.'
+  - offset: "0x1f9e530"
+    name: "PT-86 0x1f9e530"
+    expected: 'Os Black Emboar não caem tão\nfácil!'
+  - offset: "0x1f9e557"
+    name: "PT-86 0x1f9e557"
+    expected: 'Ei, ei! É perigoso!'
+  - offset: "0x1f9e576"
+    name: "PT-86 0x1f9e576"
+    expected: 'Black Emboar! Sem parar nem\nolhar pra trás!'
+  - offset: "0x1f9e5a9"
+    name: "PT-86 0x1f9e5a9"
+    expected: 'O que quer, pirralho?<0xFB>Estamos ocupados!'
+  - offset: "0x1f9e5c7"
+    name: "PT-86 0x1f9e5c7"
+    expected: '<0xFD><0x01>!<0xFB>Você veio! Bem-vindo ao QG dos\nBlack <0xFD><0x01>!'
+  - offset: "0x1f9e5f4"
+    name: "PT-86 0x1f9e5f4"
+    expected: 'Agora tá meio caído, mas, quando\nacabarmos<0xFA>com os Black Ferrothorn,<0xFA>vamos arrumar tudo.<0xFB>Claro que seria bom se ficasse\npra nos ajudar<0xFA>com aqueles otários.<0xFB>Tô planejando um ataque\ninfalível. Enquanto isso,<0xFA>por que não ajuda seus<0xFA>colegas Black <0xFD><0x01>?'
+  - offset: "0x1f9e745"
+    name: "PT-86 0x1f9e745"
+    expected: 'Chegou na hora, <0xFD><0x01>.<0xFB>Descobrimos como derrubar os\nBlack Ferrothorn.<0xFB>Vamos ousar e atacar pelos\nesgotos.<0xFB>Gua ha ha ha!<0xFB>Aqueles arrogantes nem vão ver o\nque os atingiu!'
+  - offset: "0x1f9e81f"
+    name: "PT-86 0x1f9e81f"
+    expected: 'Pessoal! Montem nas motos! Vamos\npros esgotos!'
+  - offset: "0x1f9e852"
+    name: "PT-86 0x1f9e852"
+    expected: 'Tô planejando um ataque\ninfalível contra<0xFA>os Black Ferrothorn.<0xFB>Ajude seus colegas Black\n<0xFD><0x01><0xFA>enquanto isso.'
+  - offset: "0x1f9e8eb"
+    name: "PT-86 0x1f9e8eb"
+    expected: 'Antes de chegarmos, esta base\nera da antiga gangue<0xFA>que mandava em Antisis City.<0xFB>Os Black Ferrothorn expulsaram\neles e deixaram<0xFA>a base dando sopa.<0xFB>Reformamos tudo por aqui e até\ntrocamos o buraco<0xFA>entupido pros esgotos<0xFA>por uma escada de verdade!'
+  - offset: "0x1f9ea0c"
+    name: "PT-86 0x1f9ea0c"
+    expected: 'Estamos planejando como derrubar\nos Black Ferrothorn.'
+  - offset: "0x1f9ea4f"
+    name: "PT-86 0x1f9ea4f"
+    expected: 'Quando expulsarmos os Black\nFerrothorn, vou pegar<0xFA>um dos sofás deles pra mim.<0xFB>Aposto que têm um monte naquela\nbase chique!'
+  - offset: "0x1f9eae4"
+    name: "PT-86 0x1f9eae4"
+    expected: 'Descarga abaixo'
+  - offset: "0x1f9eaf1"
+    name: "PT-86 0x1f9eaf1"
+    expected: 'Ajude um Black <0xFD><0x01> com\nproblemas no banheiro: ache\nsuas meias no esgoto.'
+  - offset: "0x1f9eb55"
+    name: "PT-86 0x1f9eb55"
+    expected: 'Ei, <0xFD><0x01>, como vai?<0xFB>Olha, <0xFD><0x01>, outro dia eu<0xB0><0xFC><0x08><0x18>\nhã<0xB0><0xFC><0x08><0x18> dei descarga<0xFA>sem querer nas minhas<0xFA>meias favoritas.<0xFB>Fui procurar no esgoto, mas não\nconsegui<0xFA>achar de jeito nenhum.<0xFB>Sei o que você tá pensando.<0xFB>O que minhas meias estavam\nfazendo na privada?<0xFB>Bom<0xB0><0xFC><0x08><0x18> hã<0xB0><0xFC><0x08><0x18> isso não importa muito<0xB0><0xFB>Então pensei: será que você pode\nprocurar por mim?'
+  - offset: "0x1f9ed0f"
+    name: "PT-86 0x1f9ed0f"
+    expected: 'Valeu, <0xFD><0x01>. Sabia que\npodia contar com você.<0xFB>Pode usar a escada ali no canto\nou ir<0xFA>pela entrada principal lá fora.'
+  - offset: "0x1f9eda0"
+    name: "PT-86 0x1f9eda0"
+    expected: 'Você achou!<0xFB>Mas, cara, como elas fedem!'
+  - offset: "0x1f9edc9"
+    name: "PT-86 0x1f9edc9"
+    expected: 'Hã<0xB0><0xFC><0x08><0x18> ah, é<0xB0><0xFB>Devia te dar algo pelo trabalho.<0xFB>Tirei essa sujeira das meias, mas\nnão sei<0xFA>onde jogar fora.<0xFB>Você deve achar um lugar melhor\ndo que eu.'
+  - offset: "0x1f9ee98"
+    name: "PT-86 0x1f9ee98"
+    expected: 'Preciso que ache minhas meias,\n<0xFD><0x01>!<0xFB>Devem estar cobertas de sujeira,\nafinal,<0xFA>estão no esgoto.<0xFB>Aposto que não dá pra ver só de\nolhar.<0xFB>Use a escada no canto que leva\npros esgotos,<0xFA>ou pode ir pela<0xFA>entrada principal lá fora.'
+  - offset: "0x1f9efae"
+    name: "PT-86 0x1f9efae"
+    expected: 'Não te culpo, <0xFD><0x01>. Sem\nressentimentos.<0xFB>Vou ter que viver sem minhas\nmeias favoritas<0xFA>daqui pra frente<0xB0><0xFB>Snif<0xB0>'
+  - offset: "0x1f9f025"
+    name: "PT-86 0x1f9f025"
+    expected: 'Pus as meias de volta sem nem\nlavar!<0xFB>Tô feliz demais por ter achado\nelas.'
+  - offset: "0x1f9f081"
+    name: "PT-86 0x1f9f081"
+    expected: 'Uma briguinha'
+  - offset: "0x1f9f08f"
+    name: "PT-86 0x1f9f08f"
+    expected: 'Os Black Ferrothorn ameaçam!\nBata neles e amplie a área dos\nBlack <0xFD><0x01>.'
+  - offset: "0x1f9f0f2"
+    name: "PT-86 0x1f9f0f2"
+    expected: 'Ei, <0xFD><0x01>, me ajuda com um\nprobleminha<0xFA>com os Black Ferrothorn?'
+  - offset: "0x1f9f14b"
+    name: "PT-86 0x1f9f14b"
+    expected: 'É o seguinte.<0xFB>Eu tava lutando pra ampliar nosso\nterritório,<0xFA>mas eles me arrebentaram.<0xFB>Não sei como. Eu tava ganhando o\ntempo todo<0xB0><0xFA>até parar de ganhar.<0xFB>Quero dar uma lição neles e\nampliar nossa área,<0xFA>mas não tenho força.<0xFB>Pode derrotar os dois por mim?'
+  - offset: "0x1f9f2a0"
+    name: "PT-86 0x1f9f2a0"
+    expected: 'Você tem coragem, <0xFD><0x01>.<0xFB>Vou te levar até eles.<0xFB>Espero que esteja pronto!'
+  - offset: "0x1f9f2df"
+    name: "PT-86 0x1f9f2df"
+    expected: 'Humpf.<0xFB>Cadê a <0xB1>coragem<0xB2> de que James\ntanto fala?'
+  - offset: "0x1f9f316"
+    name: "PT-86 0x1f9f316"
+    expected: 'Como são uns pilantras,\nprovavelmente vão<0xFA>lutar juntos contra você.<0xFB>Prepare pelo menos dois Pokémon\npra lutar,<0xFA>só por precaução.'
+  - offset: "0x1f9f3a3"
+    name: "PT-86 0x1f9f3a3"
+    expected: 'Quer tentar de novo, <0xFD><0x01>?<0xFB>Aqueles caras precisam de uma\nlição.'
+  - offset: "0x1f9f3f5"
+    name: "PT-86 0x1f9f3f5"
+    expected: 'Deu uma lição nos Black\nFerrothorn, <0xFD><0x01>.<0xFB>A ponte em frente à base agora é\ntoda nossa.<0xFB>Você conseguiu, <0xFD><0x01>.<0xFB>Graças a você, ampliei um pouco\nnosso território.<0xFB>Você é o Treinador mais corajoso\nque conheço.'
+  - offset: "0x1f9f4e1"
+    name: "PT-86 0x1f9f4e1"
+    expected: '<0xFC><0x01><0x06>Power Items<0xFC><0x01><0x08> são essenciais pra um\nTreinador corajoso.<0xFB>Facilitam muito o treino pra\nfortalecer seus Pokémon.'
+  - offset: "0x1f9f553"
+    name: "PT-86 0x1f9f553"
+    expected: 'Aqueles caras vão deixar a ponte\nem paz por um tempo.<0xFB>Valeu, <0xFD><0x01>.'
+  - offset: "0x1f9f59c"
+    name: "PT-86 0x1f9f59c"
+    expected: 'Rory'
+  - offset: "0x1f9f5a1"
+    name: "PT-86 0x1f9f5a1"
+    expected: 'Chad'
+  - offset: "0x1f9f5a6"
+    name: "PT-86 0x1f9f5a6"
+    expected: 'Ei, otários Black Ferrothorn! Vim\npra revanche!'
+  - offset: "0x1f9f5db"
+    name: "PT-86 0x1f9f5db"
+    expected: 'Ouviu, Chad?<0xFB>Esse fracote acha mesmo que pode\nnos vencer!<0xFB>Não lembra da surra que demos\nnele da última vez?'
+  - offset: "0x1f9f657"
+    name: "PT-86 0x1f9f657"
+    expected: 'Ah, eu não vou lutar.<0xFB>Meu colega <0xFD><0x01> vai\nacabar com vocês por mim!'
+  - offset: "0x1f9f6b5"
+    name: "PT-86 0x1f9f6b5"
+    expected: 'Ah, é?<0xFB>Então vamos ter que esmagar\n<0xFD><0x02>!'
+  - offset: "0x1f9f700"
+    name: "PT-86 0x1f9f700"
+    expected: 'Chad! Me dê seus Pokémon!<0xFB>Vou derrotar <0xFD><0x02> com\nnossa força combinada!'
+  - offset: "0x1f9f74a"
+    name: "PT-86 0x1f9f74a"
+    expected: 'Vai nessa, cara!<0xFB>Faça as meias deles voarem e\njogue tudo no ralo!'
+  - offset: "0x1f9f78e"
+    name: "PT-86 0x1f9f78e"
+    expected: 'Somos os Black Ferrothorn!<0xFB>Acha que pode encarar os Pokémon\nde nós dois?'
+  - offset: "0x1f9f7e9"
+    name: "PT-86 0x1f9f7e9"
+    expected: 'O quê<0xB0> não pode ser<0xB0> Fez minhas\nmeias voarem!'
+  - offset: "0x1f9f80f"
+    name: "PT-86 0x1f9f80f"
+    expected: 'Essas coisas dos cientistas não\nservem pra nada!'
+  - offset: "0x1f9f84b"
+    name: "PT-86 0x1f9f84b"
+    expected: 'Ah, cara! Como isso aconteceu?'
+  - offset: "0x1f9f870"
+    name: "PT-86 0x1f9f870"
+    expected: 'O quê<0xB0><0xFC><0x08><0x20> não devia conseguir\nvencer os Black Ferrothorn!<0xFB>Nossa pele é dura como ferro!'
+  - offset: "0x1f9f8c6"
+    name: "PT-86 0x1f9f8c6"
+    expected: 'Chad! Pegue seus Pokémon idiotas\nde volta!<0xFB>Vamos usar os suplementos\ndaqueles cientistas idiotas.'
+  - offset: "0x1f9f92b"
+    name: "PT-86 0x1f9f92b"
+    expected: 'Já não tinha chance antes, agora\né que<0xFA>não tem mesmo!<0xFB>Vamos mostrar do que os Pokémon\ndos Black Ferrothorn<0xFA>são capazes!'
+  - offset: "0x1f9f9d4"
+    name: "PT-86 0x1f9f9d4"
+    expected: 'Agora sabe quem é a gangue mais\ndurona daqui!<0xFB>Sua pele não é dura, é macia\ncomo um Smoochum!<0xFB>Sumam, ou mando <0xFD><0x01>\natacar de novo!'
+  - offset: "0x1f9fa76"
+    name: "PT-86 0x1f9fa76"
+    expected: 'Barbs vai fazer vocês pagarem!'
+  - offset: "0x1f9fa9a"
+    name: "PT-86 0x1f9fa9a"
+    expected: 'Você é um Treinador corajoso,\n<0xFD><0x01>!<0xFB>Não conheço ninguém que\nencararia dois Treinadores<0xFA>com Pokémon turbinados!<0xFB>Sabe<0xB0> volte à base e vou te dar<0xFA>algo pela ajuda.'
+  - offset: "0x1f9fb74"
+    name: "PT-86 0x1f9fb74"
+    expected: 'Voltaram pra apanhar mais?<0xFB>Vamos esmagar vocês de novo!'
+  - offset: "0x1f9fbbf"
+    name: "PT-86 0x1f9fbbf"
+    expected: 'Docas estranhas'
+  - offset: "0x1f9fbcd"
+    name: "PT-86 0x1f9fbcd"
+    expected: 'Ajude um Black <0xFD><0x01> a\ntirar mercadorias do porto\nescondido após as 20h.'
+  - offset: "0x1f9fc2a"
+    name: "PT-86 0x1f9fc2a"
+    expected: 'Ache as Oddish Leaves no oeste\nde Antisis Port e leve-as\nescondido à cidade.'
+  - offset: "0x1f9fc8c"
+    name: "PT-86 0x1f9fc8c"
+    expected: '<0xFD><0x01>, <0xFD><0x02>!<0xFB>Chega hã<0xB0><0xFC><0x08><0x18> Rose Incense a <0xFC><0x01><0x06>Antisis\nPort<0xFC><0x01><0x08><0xFA>numa dessas noites.<0xFB>Mas é difícil tirar a carga do\nporto sozinho.<0xFB>É aí que você entra.<0xFB>Me encontre nas docas, pegue a\ncarga e leve<0xFA>escondido pra base.<0xFB>Capisce?'
+  - offset: "0x1f9fdb3"
+    name: "PT-86 0x1f9fdb3"
+    expected: 'Ah<0xB0><0xFB>Por que faz isso, <0xFD><0x01>?<0xFB>Achei que já éramos família!'
+  - offset: "0x1f9fdf9"
+    name: "PT-86 0x1f9fdf9"
+    expected: 'Perfeito.<0xFB>Me encontre nas docas hoje entre\n<0xFC><0x01><0x06>20h<0xFC><0x01><0x08> e <0xFC><0x01><0x06>0h<0xFC><0x01><0x08>.<0xFB>Depois da meia-noite, vão vender\na carga em outro lugar.<0xFB>Não queremos isso, né?'
+  - offset: "0x1f9feb1"
+    name: "PT-86 0x1f9feb1"
+    expected: '<0xB0>O quê?<0xFB>Não quer esperar até a noite?<0xFB>Então mude a hora do relógio,\n<0xFD><0x02>.<0xFB>Eu não conto se você não contar.<0xFB>Mas não mude a data!<0xFB>Só a hora, ou sabe-se lá o que\nvai dar errado.'
+  - offset: "0x1f9ff91"
+    name: "PT-86 0x1f9ff91"
+    expected: 'O que ainda fazemos aqui,\n<0xFD><0x01>?<0xFB>Vamos logo pras <0xFC><0x01><0x06>docas<0xFC><0x01><0x08>!'
+  - offset: "0x1f9ffdb"
+    name: "PT-86 0x1f9ffdb"
+    expected: 'Escondi as Oddish Leaves entre\numas caixas no <0xFC><0x01><0x06>oeste<0xFC><0x01><0x08><0xFA>do porto.<0xFB>Use uma dessas <0xFC><0x01><0x06>Dowsing Machines<0xFC><0x01><0x08>\npra achar.<0xFB>Ah, o esconderijo nunca fica\nbloqueado por uma<0xFA>barreira, então nem procure<0xFA>onde puder ficar bloqueado.<0xFB>Capisce?'
+  - offset: "0x1fa0107"
+    name: "PT-86 0x1fa0107"
+    expected: 'Ha ha ha!<0xFB>Sabia que você ia conseguir!<0xFB>Agora me dê as Oddish Leaves.'
+  - offset: "0x1fa015b"
+    name: "PT-86 0x1fa015b"
+    expected: 'Uau<0xB0><0xFB>Cheirar essas folhas clareia\nmesmo a mente<0xB0>'
+  - offset: "0x1fa0192"
+    name: "PT-86 0x1fa0192"
+    expected: '<0xFC><0x01><0x02>O capanga se sente mais forte!'
+  - offset: "0x1fa01b2"
+    name: "PT-86 0x1fa01b2"
+    expected: 'Sabe de uma coisa? Conheço um\ncara em Dresco Town.<0xFB>Ele transforma Oddish Leaves numa\nnévoa bem fina.<0xFB>Que tal eu dividir com você pela\najuda?'
+  - offset: "0x1fa0253"
+    name: "PT-86 0x1fa0253"
+    expected: 'Meu contato em <0xFC><0x01><0x06>Dresco Town<0xFC><0x01><0x08>\ntransforma Oddish Leaves<0xFA>em mais <0xFC><0x01><0x06>Dream Mist<0xFC><0x01><0x08>.<0xFB>Leve uns <0xFC><0x01><0x06>Oddish<0xFC><0x01><0x08> pra ele, que faz\nisso com prazer.'
+  - offset: "0x1fa02f1"
+    name: "PT-86 0x1fa02f1"
+    expected: 'Capanga C'
+  - offset: "0x1fa02f8"
+    name: "PT-86 0x1fa02f8"
+    expected: 'Capanga Black <0xFD><0x01>'
+  - offset: "0x1fa0306"
+    name: "PT-86 0x1fa0306"
+    expected: 'Na hora, <0xFD><0x01>.<0xFB>A carga acabou de chegar.'
+  - offset: "0x1fa0334"
+    name: "PT-86 0x1fa0334"
+    expected: 'E aí, caaaara<0xB0><0xFB>Tudo bem?<0xFB>Tenho uma carga especial de hã<0xB0><0xFC><0x08><0x18>\nRose Incense aqui<0xB0><0xFB>Foi você que encomendou?'
+  - offset: "0x1fa03b6"
+    name: "PT-86 0x1fa03b6"
+    expected: 'Isso. Fui eu. Deixa que eu pego.'
+  - offset: "0x1fa03e8"
+    name: "PT-86 0x1fa03e8"
+    expected: 'Aproveite, caaaara<0xB0>'
+  - offset: "0x1fa03ff"
+    name: "PT-86 0x1fa03ff"
+    expected: 'Agora é só levar escondido pra\nbase e depois<0xB0>'
+  - offset: "0x1fa0441"
+    name: "PT-86 0x1fa0441"
+    expected: 'Ha ha ha!'
+  - offset: "0x1fa044e"
+    name: "PT-86 0x1fa044e"
+    expected: 'Alguém disse Rose Incense?'
+  - offset: "0x1fa0470"
+    name: "PT-86 0x1fa0470"
+    expected: 'Ha ha ha! Não somos burros!<0xFB>Sabemos que é código pra Oddish\nLeaves!<0xFB>Entreguem tudo ou vamos chamar a\npolícia<0xB0><0xFB>Ha ha ha!'
+  - offset: "0x1fa04fc"
+    name: "PT-86 0x1fa04fc"
+    expected: 'Bosta de Tauros.<0xFB>Temos que lidar com os Black\nFerrothorn antes<0xFA>de sair do porto.<0xFB>Distraia eles enquanto escondo as\nOddish Leaves.'
+  - offset: "0x1fa059c"
+    name: "PT-86 0x1fa059c"
+    expected: 'Ele não vai longe!<0xFB>Os policiais vão pegá-lo por\ncausa das Oddish Leaves!<0xFB>E nós vamos pegar você!'
+  - offset: "0x1fa060c"
+    name: "PT-86 0x1fa060c"
+    expected: 'Droga, raios, caramba!'
+  - offset: "0x1fa0625"
+    name: "PT-86 0x1fa0625"
+    expected: 'Você não tem chance contra mim!<0xFB>Sou da elite dos Black\nFerrothorn!'
+  - offset: "0x1fa0677"
+    name: "PT-86 0x1fa0677"
+    expected: 'Devia ter pego um Ferroseed como\nos outros<0xB0>'
+  - offset: "0x1fa06a5"
+    name: "PT-86 0x1fa06a5"
+    expected: 'Sabia que devíamos ter ido atrás\ndo outro<0xB0>'
+  - offset: "0x1fa06d2"
+    name: "PT-86 0x1fa06d2"
+    expected: 'Ali, policial!'
+  - offset: "0x1fa06e7"
+    name: "PT-86 0x1fa06e7"
+    expected: 'Este cidadão me informou que\nvocês dois estão<0xFA>tentando contrabandear<0xFA>Oddish Leaves do porto.<0xFB>O que têm a dizer em sua defesa?'
+  - offset: "0x1fa0780"
+    name: "PT-86 0x1fa0780"
+    expected: 'Nós!?<0xFB>São aqueles dois que estão\nfazendo isso!<0xFB>Só viemos impedir!'
+  - offset: "0x1fa07c9"
+    name: "PT-86 0x1fa07c9"
+    expected: 'Bobagem.<0xFB>Se fosse verdade, teriam me\nchamado imediatamente.<0xFB>Como não pediram minha ajuda,\nvocês dois<0xFA>são os principais suspeitos.<0xFB>Estão presos.<0xFB>Venham comigo.'
+  - offset: "0x1fa08b6"
+    name: "PT-86 0x1fa08b6"
+    expected: 'Essa foi por pouco.<0xFB>Agora só falta achar as <0xFC><0x01><0x06>Oddish\nLeaves<0xFC><0x01><0x08> que escondi<0xFA>e levar tudo<0xFA>pra nossa base.'
+  - offset: "0x1fa093b"
+    name: "PT-86 0x1fa093b"
+    expected: 'Onde estão?<0xFB>Sei lá, entre umas caixas no\n<0xFC><0x01><0x06>oeste<0xFC><0x01><0x08><0xFA>do porto.<0xFB>Use uma dessas <0xFC><0x01><0x06>Dowsing Machines<0xFC><0x01><0x08>\npra achar.<0xFB>Me encontre na <0xFC><0x01><0x06>base<0xFC><0x01><0x08> quando\nachar.'
+  - offset: "0x1fa0a1a"
+    name: "PT-86 0x1fa0a1a"
+    expected: 'Ah, <0xFD><0x02>!<0xFB>Eu disse entre <0xFC><0x01><0x06>20h<0xFC><0x01><0x08> e <0xFC><0x01><0x06>0h<0xFC><0x01><0x08>! Perdeu\na carga!<0xFB>Vamos tentar de novo outra noite.'
+  - offset: "0x1fa0a96"
+    name: "PT-86 0x1fa0a96"
+    expected: 'Alto!<0xFB>Carrega alguma mercadoria\nilegal?<0xFB>Slowpoke Tails ou Oddish Leaves?<0xFB><0xB0><0xFB>Não, parece estar tudo certo.\nPode passar.'
+  - offset: "0x1fa0b14"
+    name: "PT-86 0x1fa0b14"
+    expected: 'Alto!<0xFB>Mostre um documento válido se\nquiser passar.'
+  - offset: "0x1fa0b4e"
+    name: "PT-86 0x1fa0b4e"
+    expected: '<0xFC><0x01><0x02>Você mostrou seu Trainer Card ao\nguarda.'
+  - offset: "0x1fa0b7e"
+    name: "PT-86 0x1fa0b7e"
+    expected: 'Seu documento está em ordem.\nPode passar.'
+  - offset: "0x1fa0b9b"
+    name: "PT-86 0x1fa0b9b"
+    expected: 'Ah! Você é um Treinador de alto\nnível.<0xFB><0xFD><0x01>, certo?<0xFB>Vou me lembrar disso.<0xFB>Pode entrar e sair à vontade.'
+  - offset: "0x1fa0c16"
+    name: "PT-86 0x1fa0c16"
+    expected: 'Alto!<0xFB>Carrega alguma mercadoria\nilegal?<0xFB>Slowpoke Tails ou Oddish Leaves?<0xFB><0xB0><0xFB>Hmm<0xB0><0xFB>Você cheira a Oddish Leaves<0xB0>'
+  - offset: "0x1fa0c8d"
+    name: "PT-86 0x1fa0c8d"
+    expected: 'Não deve ser nada<0xB0> Você é só\numa criança.<0xFB>Espero que alguém tão jovem não\nse envolva<0xFA>com esse contrabando<0xB0><0xFB>Está tudo certo. Pode passar.'
+  - offset: "0x1fa0d43"
+    name: "PT-86 0x1fa0d43"
+    expected: 'Oferta e procura'
+  - offset: "0x1fa0d55"
+    name: "PT-86 0x1fa0d55"
+    expected: 'Corte os suprimentos que uma\ncientista fornece aos Black\nFerrothorn.'
+  - offset: "0x1fa0db8"
+    name: "PT-86 0x1fa0db8"
+    expected: '<0xFD><0x01>! <0xFD><0x02>!<0xFB>Venha aqui me ajudar!<0xFB>Escute, colega.<0xFB>Os Black Ferrothorn têm um monte\nde coisa boa.<0xFB>Eles têm contatos influentes pra\ndeixar seus Pokémon<0xFA>enormes e fortes.<0xFB>Pra derrubar eles, temos que\ncortar o fornecimento,<0xFA>entendeu?<0xFB>Sei exatamente de onde vêm os\nprodutos.<0xFB>Tem uma cientista que mora aqui\nperto.<0xFB>Ela fornece os suplementos novos\nque a Science<0xFA>Society está lançando<0xFA>no mercado negro.<0xFB>Tenho medo de ir sozinho, mas\ncom você<0xB0><0xFB>Seria outra história, entendeu?<0xFB>E aí, topa, <0xFD><0x02>?'
+  - offset: "0x1fa1057"
+    name: "PT-86 0x1fa1057"
+    expected: 'Sério, <0xFD><0x02>?<0xFB>Não acredito no que tô ouvindo!'
+  - offset: "0x1fa1088"
+    name: "PT-86 0x1fa1088"
+    expected: 'Beleza, <0xFD><0x02>!<0xFB>Vamos deixar nossos Pokémon\ngrandes e fortes,<0xFA>entendeu?<0xFB>Vamos nessa!<0xFB>A cientista mora ao lado do\nCentro Pokémon.<0xFB>Vou na frente e te espero lá,\n<0xFD><0x02>!'
+  - offset: "0x1fa115f"
+    name: "PT-86 0x1fa115f"
+    expected: 'Ei! <0xFD><0x02>!<0xFB>Graças à sua ajuda, temos um\njeito de turbinar<0xFA>nossos Pokémon antes de lutar<0xFA>com os Black Ferrothorn!<0xFB>O Pokémon que peguei da cientista\nera o que ela usava<0xFA>pra fazer o soro dos<0xFA>Black Ferrothorn,<0xFA>entendeu?<0xFB>Mas não sei como ela fazia.<0xFB>Devia ser algum poder estranho\nde alquimia.<0xFB>Não importa, pois James também\nsabe fazer<0xFA>pra nós, entendeu?<0xFB>Ah, <0xFD><0x02>! James mandou\nisto.'
+  - offset: "0x1fa134f"
+    name: "PT-86 0x1fa134f"
+    expected: 'Você recebeu um Ovo do capanga!'
+  - offset: "0x1fa1372"
+    name: "PT-86 0x1fa1372"
+    expected: '<0xFD><0x01>! <0xFD><0x02>!<0xFB>Tenho algo de James pra você,\nmas precisa de espaço<0xFA>na equipe pra eu<0xFA>te entregar, entendeu?'
+  - offset: "0x1fa13f5"
+    name: "PT-86 0x1fa13f5"
+    expected: '<0xFD><0x01>! <0xFD><0x02>!<0xFB>Tá sentindo?<0xFB>Tá quase na hora de derrubar os\nBlack Ferrothorn, entendeu?<0xFB>Agora que acabou o estoque de\nsuplementos deles,<0xFA>não terão chance contra<0xFA>nós, os Black <0xFD><0x01>!'
+  - offset: "0x1fa14c6"
+    name: "PT-86 0x1fa14c6"
+    expected: 'Ei, você, cientista!'
+  - offset: "0x1fa14e0"
+    name: "PT-86 0x1fa14e0"
+    expected: 'É, você! Escute aqui!<0xFB>Sou um membro orgulhoso dos\nBlack <0xFD><0x01>, entendeu?<0xFB>Nós, Black <0xFD><0x01>, sabemos\nque dá bons preços<0xFA>pros Black Ferrothorn<0xFA>em produtos de ponta.<0xFB>Só vou dizer uma vez!<0xFB>Entregue os produtos, entendeu?<0xFB>Talvez assim você fique com o\nresto das suas coisas<0xB0>'
+  - offset: "0x1fa161c"
+    name: "PT-86 0x1fa161c"
+    expected: '<0xFC><0x01><0x04>Acha que tenho medo de vocês?<0xFB>A Science Society me deu tudo de\nque preciso<0xFA>pra me defender de bandidos.<0xFB>Sistema de segurança!<0xFB>Ativar todas as defesas!'
+  - offset: "0x1fa16ca"
+    name: "PT-86 0x1fa16ca"
+    expected: 'Ah, seu<0xB0> eu devia<0xB0>'
+  - offset: "0x1fa16de"
+    name: "PT-86 0x1fa16de"
+    expected: 'Urgh<0xB0>'
+  - offset: "0x1fa16e3"
+    name: "PT-86 0x1fa16e3"
+    expected: '<0xFC><0x01><0x04>Afaste-se de mim, jovem\n<0xFD><0x02>!<0xFB>Tive que tomar medidas drásticas\npra defender minha casa!<0xFB>E não hesitarei em ferir bandidos\npra proteger meus bens!<0xFB>Vá embora agora, se sabe o que\né bom pra você!'
+  - offset: "0x1fa17c0"
+    name: "PT-86 0x1fa17c0"
+    expected: 'homem'
+  - offset: "0x1fa17c4"
+    name: "PT-86 0x1fa17c4"
+    expected: 'Homem'
+  - offset: "0x1fa17c8"
+    name: "PT-86 0x1fa17c8"
+    expected: 'mulher'
+  - offset: "0x1fa17ce"
+    name: "PT-86 0x1fa17ce"
+    expected: 'Mulher'
+  - offset: "0x1fa17d4"
+    name: "PT-86 0x1fa17d4"
+    expected: 'Ah, não! Tem um Electrode sob\nnossos pés!'
+  - offset: "0x1fa17fc"
+    name: "PT-86 0x1fa17fc"
+    expected: 'Você<0xB0><0xFC><0x08><0x20> você<0xB0><0xFB>Como passou pela minha\narmadilha?<0xFB>Não importa!<0xFB>Pode ter desviado de todas as\nexplosões no chão, mas<0xFA>vai desviar destas?'
+  - offset: "0x1fa1892"
+    name: "PT-86 0x1fa1892"
+    expected: 'Não! Devia ter ensinado algo\nalém de Explosion!'
+  - offset: "0x1fa18d1"
+    name: "PT-86 0x1fa18d1"
+    expected: 'Não! Devia ter ensinado\nmovimentos melhores!'
+  - offset: "0x1fa1904"
+    name: "PT-86 0x1fa1904"
+    expected: 'Você<0xB0> você<0xB0><0xFB>Espere só!<0xFB>Ainda tenho muitos Electrode no\nchão pra usar contra você!'
+  - offset: "0x1fa195b"
+    name: "PT-86 0x1fa195b"
+    expected: 'Bem feito, sua trouxa.'
+  - offset: "0x1fa1976"
+    name: "PT-86 0x1fa1976"
+    expected: 'Parece que ela apagou,\n<0xFD><0x02>.<0xFB>Vamos procurar onde ela escondeu\nos suplementos<0xFA>que usava pra fortalecer<0xFA>todos esses Electrode.'
+  - offset: "0x1fa1a0b"
+    name: "PT-86 0x1fa1a0b"
+    expected: 'Vamos procurar onde a cientista\nescondeu<0xFA>os suplementos que usava<0xFA>pra fortalecer os Electrode.'
+  - offset: "0x1fa1a83"
+    name: "PT-86 0x1fa1a83"
+    expected: 'A Science Society me mandou\nvender nossos<0xB0> hã<0xB0><0xFA>produtos nesta parte<0xFA>decadente da região.<0xFB>Infelizmente, são produtos\nvoláteis demais<0xFA>pra crianças manusearem.<0xFB>Desculpe, não posso vender nada\na você.'
+  - offset: "0x1fa1b7c"
+    name: "PT-86 0x1fa1b7c"
+    expected: '<0xFC><0x01><0x02>A cientista está desacordada.'
+  - offset: "0x1fa1b9a"
+    name: "PT-86 0x1fa1b9a"
+    expected: 'Você<0xB0><0xFC><0x08><0x20> monstro!<0xFB>Além de levar os produtos que eu\nia fornecer<0xFA>aos Black Ferrothorn, levou<0xFA>o Pokémon de que preciso<0xFA>pra produzir tudo depressa!<0xFB>Saia da minha casa agora ou vou\nsoltar os Electrode<0xFA>em cima de você!'
+  - offset: "0x1fa1c9e"
+    name: "PT-86 0x1fa1c9e"
+    expected: '<0xFC><0x01><0x02>É uma Poké Ball da cientista.<0xFB>Que Pokémon estará lá dentro?'
+  - offset: "0x1fa1cee"
+    name: "PT-86 0x1fa1cee"
+    expected: '<0xFC><0x01><0x02>Há algo equilibrado com cuidado\nno parapeito da janela.'
+  - offset: "0x1fa1d24"
+    name: "PT-86 0x1fa1d24"
+    expected: 'Você achou!<0xFB>Os suplementos!<0xFB>Boa, <0xFD><0x02>!<0xFB>Agora me dê tudo pra eu levar\nlogo pro James.'
+  - offset: "0x1fa1d94"
+    name: "PT-86 0x1fa1d94"
+    expected: '<0xFC><0x01><0x02><0xFD><0x01> entregou os\nsuplementos.'
+  - offset: "0x1fa1dba"
+    name: "PT-86 0x1fa1dba"
+    expected: 'Já que a cientista apagou, vou\npegar o Pokémon dela<0xFA>também, entendeu?'
+  - offset: "0x1fa1e0c"
+    name: "PT-86 0x1fa1e0c"
+    expected: 'Tá vendo, <0xFD><0x02>?<0xFB>Pegamos os suplementos e podemos\nusar este Pokémon<0xFA>pra fazer mais pra nós!<0xFB>Todo mundo sai ganhando!<0xFB>Te vejo na base quando resolver\ntudo<0xFA>com James, entendeu?'
+  - offset: "0x1fa1ee4"
+    name: "PT-86 0x1fa1ee4"
+    expected: 'Black Ferrothorn'
+  - offset: "0x1fa1ef5"
+    name: "PT-86 0x1fa1ef5"
+    expected: 'Chefe Black Ferrothorn'
+  - offset: "0x1fa1f0b"
+    name: "PT-86 0x1fa1f0b"
+    expected: 'Ferrothorn Turf'
+  - offset: "0x1fa1f1b"
+    name: "PT-86 0x1fa1f1b"
+    expected: 'Barbs'
+  - offset: "0x1fa1f21"
+    name: "PT-86 0x1fa1f21"
+    expected: 'A batalha de Antisis'
+  - offset: "0x1fa1f37"
+    name: "PT-86 0x1fa1f37"
+    expected: 'Ataque os Black Ferrothorn\nonde mais dói: no território\ndeles!'
+  - offset: "0x1fa1fa2"
+    name: "PT-86 0x1fa1fa2"
+    expected: 'Ataque os Black Ferrothorn!\nEncontre os Black <0xFD><0x01>\nnos esgotos.'
+  - offset: "0x1fa1ffe"
+    name: "PT-86 0x1fa1ffe"
+    expected: 'Ataque os Black Ferrothorn!\nEncontre James no último andar\ndo QG.'
+  - offset: "0x1fa205d"
+    name: "PT-86 0x1fa205d"
+    expected: 'Vença Barbs, líder dos Black\nFerrothorn, e salve os demais\nBlack <0xFD><0x01>!'
+  - offset: "0x1fa20b1"
+    name: "PT-86 0x1fa20b1"
+    expected: 'Certo, pessoal! Chegou a hora!<0xFB>Assim que a bomba explodir,\nataquem os Black Ferrothorn!<0xFB>Deem tanto medo que vão nos\nchamar de Terror <0xFD><0x01>!'
+  - offset: "0x1fa214c"
+    name: "PT-86 0x1fa214c"
+    expected: 'A bomba vai explodir!<0xFB>Tapem os ouvidos, a menos que\nqueiram ficar surdos!'
+  - offset: "0x1fa2199"
+    name: "PT-86 0x1fa2199"
+    expected: 'Vamos, pessoal! Pulem pelo\nburaco pra cima!'
+  - offset: "0x1fa21c3"
+    name: "PT-86 0x1fa21c3"
+    expected: 'Pular pelo buraco pra cima?'
+  - offset: "0x1fa21dd"
+    name: "PT-86 0x1fa21dd"
+    expected: 'Vamos, <0xFD><0x01>! Acabe com\neles!<0xFB>Enquanto James lida com o chefe\nno <0xFC><0x01><0x06>último andar<0xFC><0x01><0x08>,<0xFA>vamos causar o caos!'
+  - offset: "0x1fa2257"
+    name: "PT-86 0x1fa2257"
+    expected: 'Acabou pra vocês, otários!<0xFB>Ninguém vai escapar até os Black\nFerrothorn<0xFA>estarem acabados!'
+  - offset: "0x1fa22d9"
+    name: "PT-86 0x1fa22d9"
+    expected: 'Qual é seu problema, cara?<0xFB>Só tô tentando ver TV em paz!'
+  - offset: "0x1fa2324"
+    name: "PT-86 0x1fa2324"
+    expected: 'Ei, cheguei primeiro!<0xFB>Este sofá é meu!'
+  - offset: "0x1fa2352"
+    name: "PT-86 0x1fa2352"
+    expected: 'Ei, pare de empurrar!<0xFB>Vão ver que estamos brigando\nentre nós!<0xFB>Tem espaço de sobra pra nós\ndois!'
+  - offset: "0x1fa23d0"
+    name: "PT-86 0x1fa23d0"
+    expected: 'Lembro de você!<0xFB>É um dos idiotas que jogaram\nminhas meias no ralo!<0xFB>Sinta o cheiro delas agora!'
+  - offset: "0x1fa243b"
+    name: "PT-86 0x1fa243b"
+    expected: 'Urgh<0xB0> poxa, cara!<0xFB>Tire isso da minha cara! Tá\nfedendo!'
