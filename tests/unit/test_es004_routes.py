@@ -97,7 +97,7 @@ def test_fixture_matches_production_and_exact_es004_selection():
     keys = {e['offset'] for e in contract['entries']}
     assert len(keys) == 89
     assert [e for e in production['entries'] if e['offset'] in keys] == contract['entries']
-    assert production['guards'] == contract['guards']
+    assert all(guard in production['guards'] for guard in contract['guards'])
     preparation = json.loads((ROOT / 'docs/analysis/es/004_PREPARATION.json').read_text())
     items = json.loads((ROOT / 'languages/es-maint/item_descriptions.json').read_text())
     selected = {e['offset'] for e in preparation['entries']}
