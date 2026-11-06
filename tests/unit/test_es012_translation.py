@@ -88,6 +88,8 @@ def test_es012_all_values_reach_their_final_consumers_and_exclusions_stay_intact
             for neighbor in entry['references_voisines']:
                 ref = int(neighbor['reference'], 16)
                 assert final[ref:ref + 4] == source[ref:ref + 4]
+                target = int.from_bytes(final[ref:ref + 4], 'little') - 0x08000000
+                assert source[target] == final[target] == 0xFF
             continue
         for false_ref in entry['excluded_raw_matches']:
             ref = int(false_ref, 16)

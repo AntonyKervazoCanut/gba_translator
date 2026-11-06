@@ -10,6 +10,10 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 const normalize = (s: string): string => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/\s+/g, ' ').trim().toLowerCase();
+// Vision confond i/l/1 et ajoute parfois une virgule devant la hampe de j.
+// Comparer les mots rendus ; graphie et ponctuation ont leurs gardes binaires.
+const ocrComparable = (s: string): string => normalize(s)
+  .replace(/[^\p{L}\p{N}\s]/gu, '').replace(/[il1]/g, 'l');
 interface Entry {
   offset: string; decision: string; references: string[]; texte?: string;
   encoded_hex: string; budget_px: number; largeurs_px: number[];
@@ -86,14 +90,15 @@ print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(
       measurements = result.rows;
       const png = fs.readFileSync(path.join(directory, 'render.png'));
       const entry = records[selected];
-      const picture = `<figure><figcaption>${entry.offset} · ${entry.budget_px} px · imprimeur natif</figcaption><img alt="${entry.offset}" src="data:image/png;base64,${png.toString('base64')}"></figure>`;
+      const picture = `<figure><figcaption>${entry.offset} · plafond ${entry.budget_px} px · imprimeur natif</figcaption><img alt="${entry.offset}" src="data:image/png;base64,${png.toString('base64')}"></figure>`;
       await page.setContent(`<style>img{width:960px;height:640px;image-rendering:pixelated}</style>${picture}`);
       await page.getByRole('img').evaluate(img => (img as HTMLImageElement).decode());
       const large = path.join(directory, 'large.png');
       await page.getByRole('img').screenshot({path: large});
       const text = normalize(execFileSync(ocr, [large], {encoding: 'utf8'}));
       console.log(entry.offset, text);
-      for (const line of entry.texte.split('\n')) expect(text, line).toContain(normalize(line));
+      for (const line of entry.texte.split('\n')) expect(ocrComparable(text), line).toContain(ocrComparable(line));
+      expect(ocrComparable(text), `ordre des lignes : ${entry.offset}`).toContain(ocrComparable(entry.texte));
       pictures.push(picture);
     } finally {
       if (child.exitCode === null) child.kill('SIGTERM');
@@ -105,9 +110,10 @@ print((r.results ?? []).compactMap { $0.topCandidates(1).first?.string }.joined(
     }
   }
   const measurementPath = path.join(root, 'output/reports/es012-native-widths.json');
+  expect(fs.readFileSync(path.join(temp, 'game.gba'))).toEqual(rom);
   fs.mkdirSync(path.dirname(measurementPath), {recursive: true});
   fs.writeFileSync(measurementPath, JSON.stringify(records.map((entry, n) => ({offset: entry.offset, ...measurements[n]})), null, 2));
-  await page.setContent(`<style>body{margin:0;background:#18202a;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(3,720px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:720px;height:480px;image-rendering:pixelated}</style><main>${pictures.join('')}</main>`);
+  await page.setContent(`<style>body{margin:0;background:#18202a;color:white;font:18px sans-serif}main{display:grid;grid-template-columns:repeat(3,720px);gap:8px;padding:8px;width:max-content}figure{margin:0}img{width:720px;height:480px;image-rendering:pixelated}header{grid-column:1/-1;padding:8px}</style><main><header>ES-012 · mGBA hors écran · sonde RAM de l'imprimeur natif · 361 budgets vérifiés · parcours naturels non certifiés</header>${pictures.join('')}</main>`);
   await expect(page.getByRole('img')).toHaveCount(6);
   await page.getByRole('img').evaluateAll(images => Promise.all(images.map(img => (img as HTMLImageElement).decode())));
   const proof = path.join(os.tmpdir(), 'f862-es012-proof.png');
