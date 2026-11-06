@@ -24,7 +24,9 @@ def test_es015_real_pipeline_preserves_all_unselected_consumers(tmp_path, monkey
     report = json.loads((ROOT/'docs/analysis/es/015_ROUTES.json').read_text())
     keys = {int(r['contract_offset'], 16) for r in report['routes'] if not r['in_same_lot']}
     keys.update(int(r['offset'], 16) for r in report['routes'] if r['in_same_lot'])
-    keys.update(k for k, r in aliases.preservation.routes.items() if r['pointer_offsets'])
+    preparation = json.loads((ROOT/'docs/analysis/es/015_PREPARATION.json').read_text())
+    preserved_keys = {int(r['offset'], 16) for r in preparation['entries'] if r['interior_references']}
+    keys.update(k for k, r in aliases.preservation.routes.items() if r['pointer_offsets'] and k in preserved_keys)
     # Les vrais débuts des neuf alias ne sont pas de nouvelles clés du lot.
     keys.difference_update(int(r['offset'], 16) for r in report['routes'] if not r['in_same_lot'])
     sources = list((ROOT/'languages').glob('*/combined_*.txt'))

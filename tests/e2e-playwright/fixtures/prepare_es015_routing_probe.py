@@ -9,11 +9,11 @@ ALIAS_KEYS = {0x721427, 0x745A54, 0x74BE3C, 0x74ED62, 0x75100E,
               0x75350F, 0x755532, 0x75B4BB, 0x75B6F4}
 
 
-def prepare(destination: Path, report_path: Path) -> None:
-    """Prépare neuf impressions et les observations exhaustives des lecteurs."""
+def prepare(destination: Path, report_path: Path, all_records: bool = False) -> None:
+    """Prépare les impressions sélectionnées et les observations de tous les lecteurs."""
     records = json.loads(report_path.read_text())['records']
-    aliases = [row for row in records if row['key'] in ALIAS_KEYS]
-    assert len(aliases) == 9
+    aliases = records if all_records else [row for row in records if row['key'] in ALIAS_KEYS]
+    assert all_records or len(aliases) == 9
     obj = destination / 'probe.o'
     subprocess.run(['clang', '--target=armv4t-none-eabi', '-mthumb', '-Os',
                     '-ffreestanding', '-fno-builtin', '-c',
@@ -74,7 +74,7 @@ callbacks:add('frame',function()
   for i,v in ipairs(code)do emu:write8(0x2030000+i-1,v)end
  end
  {chr(10).join(cases)}
- if frames==850 then
+ if frames=={310+len(aliases)*60} then
   local observations={{}}
   {chr(10).join(observations)}
   local f=io.open({json.dumps(str(destination / 'result.json'))},'w')
@@ -90,5 +90,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('destination', type=Path)
     parser.add_argument('report', type=Path)
+    parser.add_argument('--all-records', action='store_true')
     args = parser.parse_args()
-    prepare(args.destination, args.report)
+    prepare(args.destination, args.report, args.all_records)

@@ -72,7 +72,7 @@ def test_es015_contract_routes_and_preservation_are_enabled():
     entries = {r['contract_offset']: r for r in contract['aliases']}
 
     assert {r['contract_offset'] for r in expected} <= entries.keys()
-    assert len(contract['preserved_sources']) == 67
+    assert len([r for r in contract['preserved_sources'] if r.get('lot') != 'ES-017']) == 67
     assert {r['offset'] for r in contract['preserved_sources'] if r.get('nontext')} == {
         '0x00721340', '0x0074037D', '0x00745132', '0x0074B293',
     }
@@ -223,7 +223,7 @@ def test_alias_window_overflow_is_rejected_without_fallback(key):
 def test_all_67_preimages_and_110_sites_are_accounted_for_exactly():
     data = json.loads((ROOT/'languages/es-maint/text_aliases.json').read_text())
     expected = {e['offset']:e for e in REPORT['entries'] if e['interior_references']}
-    records = data['preserved_sources']
+    records = [r for r in data['preserved_sources'] if r.get('lot') != 'ES-017']
 
     assert len(records) == len(expected) == 67
     assert {e['offset'] for e in records} == expected.keys()
