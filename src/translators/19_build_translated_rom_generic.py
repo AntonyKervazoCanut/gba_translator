@@ -340,6 +340,10 @@ class TranslatedROMBuilder:
         utilisent leurs tables Latin/F8 validées contre la ROM ; aucun argument
         FE/FF ne devient une rupture ou un terminateur indépendant.
         """
+        if layout and layout.get('engine_layout'):
+            from src.core.engine_text_layout import EngineTextLayout
+            return EngineTextLayout.widths(raw, layout)
+
         from src.core.dialogue_linewrap import GLYPH_WIDTHS, VARIABLE_WIDTH
 
         glyphs = bytes.fromhex(layout['glyph_widths_hex']) if layout and 'glyph_widths_hex' in layout else GLYPH_WIDTHS

@@ -147,9 +147,20 @@ class ItemDescriptionRoutes:
             offset = item['offset']
             if offset not in self.entries:
                 continue
-            normalized = self.normalize(item)
-            encoded = TextEncoder.encode_pokemon(normalized['translation'], skip_aliases=SPANISH_GLYPH_CHARS)
             entry = self.entries[offset]
+            # Le cache JSON n'est pas l'autorité du texte ni du budget final.
+            # Reconstituer le contrat comme à l'enrichissement empêche un cache
+            # cohérent avec une mauvaise ROM de masquer une valeur perdue.
+            canonical = dict(item)
+            canonical.update(
+                english_raw_bytes=entry['source_hex'],
+                original_text=TextDecoder.decode_pokemon(bytes.fromhex(entry['source_hex']), preserve_unknown=True),
+                **self.layout_metadata(entry),
+            )
+            if combined is not None and combined.get(offset):
+                canonical['translation'] = combined[offset]
+            normalized = self.normalize(canonical)
+            encoded = TextEncoder.encode_pokemon(normalized['translation'], skip_aliases=SPANISH_GLYPH_CHARS)
             for ref in ([offset] if entry.get('fixed_capacity') else entry['pointer_offsets']):
                 target = offset if entry.get('fixed_capacity') else int.from_bytes(rom[ref:ref+4], 'little') - ROM_BASE
                 if target < 0 or rom[target:target+len(encoded)] != encoded:
@@ -162,6 +173,26 @@ class ItemDescriptionRoutes:
 
 class SystemTextRoutes(ItemDescriptionRoutes):
     """Réutilise le routage validé pour les consommateurs système paginés."""
+
+    @classmethod
+    def load(cls, path: Path, source: bytes) -> SystemTextRoutes:
+        """Charge les métriques moteur opt-in et les protège après les patches."""
+        routes = super().load(path, source)
+        data = json.loads(path.read_text(encoding='utf-8'))
+        fonts = data.get('engine_fonts', {})
+        guards = list(fonts.values()) + data.get('engine_guards', [])
+        cls.verify_guards(source, guards)
+        routes.guards.extend(guards)
+        for entry in routes.entries.values():
+            layout = entry.get('layout', {})
+            if layout.get('engine_layout'):
+                if str(layout['initial_font']) not in fonts:
+                    raise ValueError('Police moteur initiale absente')
+                layout['engine_fonts'] = fonts
+                # Évite la seconde estimation dialogue : ces tables sont celles
+                # du moteur et l'interpréteur gère les changements de police.
+                layout['glyph_widths_hex'] = fonts[str(layout['initial_font'])]['hex']
+        return routes
 
     @staticmethod
     def validate_consumers(entry: dict, source: bytes) -> None:
