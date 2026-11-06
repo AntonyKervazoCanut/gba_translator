@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import csv
 import importlib.util
+import json
 import re
 import subprocess
 import sys
@@ -32,7 +33,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
-from src.i18n import RegistryError, load_registry
+from src.core.structured_text import StructuredTextRoutes
+from src.i18n import LanguageConfig, RegistryError, load_registry
 
 PYTHON = sys.executable or "python3"
 
@@ -283,6 +285,23 @@ def generate_translation_json(config) -> Path:
     return out_json
 
 
+def structured_text_routes(config: LanguageConfig) -> StructuredTextRoutes | None:
+    """Valide les propriétaires déclarés avant toute injection générique."""
+    names = getattr(config, "structured_text_patches", [])
+    if not names:
+        return None
+    if len(set(names)) != len(names) or any(config.patches.count(name) != 1 for name in names):
+        raise ValueError("Chaque finaliseur structuré doit être exécuté exactement une fois")
+    source = ENGLISH_ROM.read_bytes()
+    patches = []
+    for name in names:
+        if not re.fullmatch(r"[a-z][a-z0-9_]*", name):
+            raise ValueError("Nom de finaliseur structuré invalide")
+        module = _load_module(REPO_ROOT / f"languages/{config.code}/patches/{name}.py")
+        patches.append(module.make_patch(source))
+    return StructuredTextRoutes(patches)
+
+
 def build_rom(config, translation_json: Path) -> Path:
     out_rom = config.output_rom_path(REPO_ROOT)
     out_rom.parent.mkdir(parents=True, exist_ok=True)
@@ -414,6 +433,17 @@ def apply_patches(config, out_rom: Path, translation_json: Path | None = None,
                 if translation_json is None:
                     raise ValueError("JSON de livraison requis pour protéger les cellules pointer-based")
                 extra += ["--translations", translation_json, "--no-template-fallback"]
+            elif getattr(config, "structured_text_patches", []):
+                if translation_json is None:
+                    raise ValueError("JSON canonique requis pour protéger les cellules structurées")
+                protected = translation_json.with_suffix(".structured.json")
+                payload = json.loads(translation_json.read_text(encoding="utf-8"))
+                protected.write_text(json.dumps({"translations": [
+                    item for item in payload["translations"] if item.get("structured_text")
+                ]}), encoding="utf-8")
+                # Sans --translations, le template fallback était déjà vide.
+                # Seules les cellules canoniques échappent à la réécriture inline.
+                extra += ["--translations", protected, "--no-template-fallback"]
             if config.builder_language == "spanish":
                 extra.append("--preserve-spanish-glyphs")
             if config.code == "de":
@@ -777,9 +807,17 @@ def main() -> int:
         if check_indie_encoding():
             return 1
     ensure_extractions()
+    routes = structured_text_routes(config)
     translation_json = generate_translation_json(config)
+    if routes is not None:
+        payload = routes.enrich(json.loads(translation_json.read_text(encoding="utf-8")))
+        translation_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"Textes structurés canoniques : {len(routes.routes)} cellules")
     out_rom = build_rom(config, translation_json)
     apply_patches(config, out_rom, translation_json, args.build_number)
+    if routes is not None:
+        routes.verify(out_rom.read_bytes())
+        print("Finaliseurs structurés : livraison intégrale vérifiée")
     if getattr(config, "item_descriptions", None):
         from src.core.item_description_routes import ItemDescriptionRoutes
         routes = ItemDescriptionRoutes.load(REPO_ROOT / config.item_descriptions, ENGLISH_ROM.read_bytes())

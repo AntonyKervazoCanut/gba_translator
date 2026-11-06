@@ -64,6 +64,7 @@ class LanguageConfig:
     patches: List[str] = field(default_factory=list)
     item_descriptions: Optional[str] = None
     system_texts: Optional[str] = None
+    structured_text_patches: list[str] = field(default_factory=list)
     descriptor_path: Optional[Path] = None
 
     # -- convenience accessors -------------------------------------------------
@@ -206,6 +207,7 @@ def _validate(data: dict, source: Path) -> LanguageConfig:
         patches=list(data.get("patches") or []),
         item_descriptions=data.get("item_descriptions"),
         system_texts=data.get("system_texts"),
+        structured_text_patches=list(data.get("structured_text_patches") or []),
         descriptor_path=source,
     )
 

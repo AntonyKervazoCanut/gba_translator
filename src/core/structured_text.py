@@ -101,3 +101,85 @@ class StructuredTextPatch:
             if start < previous_end:
                 raise ValueError('Chevauchement des textes structurés')
             previous_end = end
+
+
+class StructuredTextRoutes:
+    """Injecte dès la première passe les octets validés par les finaliseurs.
+
+    Les cellules sources restent bornées par leur préimage. Aucun espace moteur
+    n'est récupéré : on évite uniquement la copie intermédiaire normalisée que le
+    finaliseur devrait remplacer. Les finaliseurs restent obligatoires, notamment
+    pour les lecteurs contextuels et les préparateurs de tampons.
+    """
+
+    def __init__(self, patches: list[StructuredTextPatch]):
+        self.patches = patches
+        self.routes: dict[int, dict] = {}
+        used_refs: set[int] = set()
+        for patch in patches:
+            definitions = {int(d['offset'], 16): d for d in patch.definitions}
+            grouped: dict[int, list] = {}
+            for offset, refs, encoded in patch.entries():
+                grouped.setdefault(offset, []).append((refs, encoded))
+            for offset, entries in grouped.items():
+                definition = definitions[offset]
+                raw = bytes.fromhex(definition['source_hex'])
+                refs = sorted(ref for group, _ in entries for ref in group)
+                if offset in self.routes or len(set(refs)) != len(refs) or used_refs.intersection(refs):
+                    raise ValueError(f'0x{offset:X}: propriétaires de lecteurs concurrents')
+                used_refs.update(refs)
+                pointer = (offset + moves.ROM_POINTER_BASE).to_bytes(4, 'little')
+                matches = set()
+                site = patch.source.find(pointer)
+                while site != -1:
+                    matches.add(site)
+                    site = patch.source.find(pointer, site + 1)
+                excluded = set(definition.get('non_text_references', []))
+                if excluded.intersection(refs) or matches != set(refs) | excluded:
+                    raise ValueError(f'0x{offset:X}: lecteurs non classifiés')
+                # Un offset peut avoir deux valeurs contextuelles (ela/sua).
+                # La première est la valeur générale ; le finaliseur isole les
+                # lecteurs particuliers sans fusionner leurs chaînes.
+                self.routes[offset] = {
+                    'offset': offset,
+                    'translation': patch.texts[offset].replace(r'\n', '\n'),
+                    'raw_bytes': entries[0][1].hex(),
+                    'structured_text': True,
+                    'english_raw_bytes': raw.hex(),
+                    'original_length': len(raw) - 1,
+                    'max_length': len(raw),
+                    'padding_available': 0,
+                    'pointer_offsets': refs,
+                    'encoding': 'pokemon',
+                    'allow_fallback': False,
+                    'allow_truncate': False,
+                }
+
+    def enrich(self, payload: dict) -> dict:
+        """Retourne un nouveau JSON canonique, sans modifier le JSON d'entrée."""
+        import copy
+
+        result = copy.deepcopy(payload)
+        items = {item['offset']: item for item in result['translations']}
+        for offset, route in self.routes.items():
+            if offset not in items:
+                items[offset] = {}
+                result['translations'].append(items[offset])
+            items[offset].update(route)
+        result['total_translations'] = len(result['translations'])
+        return result
+
+    def verify(self, rom: bytes | bytearray) -> None:
+        """Exige la livraison intégrale aux lecteurs de tous les finaliseurs."""
+        spans = set()
+        for patch in self.patches:
+            patch.verify(rom)
+            for _, refs, encoded in patch.entries():
+                for ref in refs:
+                    target = int.from_bytes(rom[ref:ref + 4], 'little') - moves.ROM_POINTER_BASE
+                    spans.add((target, target + len(encoded)))
+        previous_end = -1
+        for start, end in sorted(spans):
+            if start < previous_end:
+                raise ValueError('Chevauchement entre finaliseurs structurés')
+            previous_end = end

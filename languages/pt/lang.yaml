@@ -20,6 +20,8 @@ status_abbrev:
   paralysis: PAR
   sleep: DRM
   faint: DES  # Provisoire/inactif : faint est ignoré par status_abbrevs ; KO inchangé.
+# Injecter la forme canonique avant les finaliseurs évite les doubles copies.
+structured_text_patches: [batch_83, batch_85, batch_84, batch_88, batch_86, batch_87]
 patches:
   - inline
   - repair_lz77
